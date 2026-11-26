@@ -1,0 +1,298 @@
+entry	sentence
+ref/arc-alchemist/alchemical-sapper	This alters the alchemist’s class skills.
+ref/arc-alchemist/alchemical-sapper	This ability replaces mutagen.
+ref/arc-alchemist/alchemical-sapper	This ability replaces poison resistance.
+ref/arc-alchemist/alchemical-sapper	This ability replaces swift alchemy.
+ref/arc-alchemist/alchemical-sapper	This ability replaces the discovery gained at 6th level.
+ref/arc-alchemist/alchemical-sapper	This ability replaces poison immunity.
+ref/arc-alchemist/interrogator	This alters the alchemist’s class skills.
+ref/arc-alchemist/interrogator	This ability replaces bomb.
+ref/arc-alchemist/interrogator	This ability replaces mutagen and persistent mutagen.
+ref/arc-alchemist/metamorph	This alters the alchemist’s class skills.
+ref/arc-alchemist/metamorph	This ability replaces alchemy (which also includes bombs, extracts, and mutagen) and Throw Anything.
+ref/arc-alchemist/metamorph	This ability replaces swift alchemy, swift poisoning, and instant alchemy.
+ref/arc-antipaladin/tyrant	This alters the antipaladin’s code of conduct and associated abilities, as well as the section on ex-antipaladins.
+ref/arc-antipaladin/tyrant	This alters the antipaladin’s class skills.
+ref/arc-antipaladin/tyrant	This ability alters fiendish boon.
+ref/arc-bard/impervious-messenger	This ability replaces fascinate.
+ref/arc-bard/impervious-messenger	This ability replaces suggestion and mass suggestion.
+ref/arc-bard/impervious-messenger	This ability replaces dirge of doom and frightening tune.
+ref/arc-bard/impervious-messenger	This ability replaces bardic knowledge and well-versed.
+ref/arc-bard/masked-performer	This ability replaces bardic knowledge.
+ref/arc-bard/masked-performer	This ability replaces countersong.
+ref/arc-bard/masked-performer	This ability replaces inspire competence.
+ref/arc-bard/masked-performer	This ability replaces suggestion.
+ref/arc-bard/masked-performer	This ability replaces mass suggestion.
+ref/arc-bard/masked-performer	This ability replaces versatile performance.
+ref/arc-bard/masked-performer	This ability replaces lore master.
+ref/arc-bard/ringleader-ui	This ability alters inspire competence and replaces dirge of doom and frightening tune.
+ref/arc-bard/ringleader-ui	This ability replaces versatile performance.
+ref/arc-bard/ringleader-ui	This ability replaces well-versed.
+ref/arc-bard/ringleader-ui	This ability replaces lore master.
+ref/arc-bard/sorrowsoul	This ability alters bardic performance and replaces soothing performance and versatile performance.
+ref/arc-bard/sorrowsoul	This ability replaces well-versed.
+ref/arc-bard/sorrowsoul	This ability replaces lore master.
+ref/arc-bard/wit	This ability replaces bardic knowledge.
+ref/arc-bard/wit	This ability alters countersong.
+ref/arc-bard/wit	This ability replaces inspire competence, dirge of doom, and frightening tune.
+ref/arc-bard/wit	This ability replaces versatile performance.
+ref/arc-bard/wit	This ability replaces lore master.
+ref/arc-bard/wit	This ability replaces jack-of-all-trades.
+ref/arc-cavalier/courtly-knight	This ability replaces tactician.
+ref/arc-cavalier/courtly-knight	This ability replaces greater tactician.
+ref/arc-cavalier/courtly-knight	This ability replaces master tactician.
+ref/arc-cavalier/daring-general	This ability replaces the bonus feats gained at 6th, 12th, and 18th levels.
+ref/arc-cavalier/daring-general	This ability replaces demanding challenge.
+ref/arc-cavalier/daring-general	This ability replaces supreme charge.
+ref/arc-cavalier/hussar	This replaces the cavalier’s normal armor proficiencies.
+ref/arc-cavalier/hussar	This alters the cavalier’s class skills.
+ref/arc-cavalier/hussar	This ability replaces tactician, banner, and greater banner.
+ref/arc-cavalier/hussar	This ability replaces the bonus feats gained at 6th, 12th, and 18th levels.
+ref/arc-cavalier/hussar	This ability replaces greater tactician.
+ref/arc-cavalier/hussar	This ability replaces master tactician.
+ref/arc-cleric/cardinal	This ability replaces the cleric’s armor proficiencies.
+ref/arc-cleric/cardinal	This ability replaces the cleric’s spontaneous casting ability.
+ref/arc-druid/feyspeaker	This ability alters wild shape and spellcasting.
+ref/arc-druid/feyspeaker	This ability replaces nature sense and alters the druid’s base attack bonus, class skills, and skills ranks per level.
+ref/arc-druid/feyspeaker	This ability replaces the druid’s proficiency with medium armor.
+ref/arc-druid/skinshaper	This alters the druid’s class skills.
+ref/arc-druid/skinshaper	This ability replaces wild shape.
+ref/arc-druid/skinshaper	This ability replaces a thousand faces.
+ref/arc-druid/urushiol	This ability replaces nature bond and resist nature’s lure.
+ref/arc-druid/urushiol	This ability alters venom immunity.
+ref/arc-hunter/courtly-hunter	This alters the hunter’s class skills.
+ref/arc-hunter/courtly-hunter	This ability alters animal companion.
+ref/arc-hunter/courtly-hunter	This ability alters animal focus.
+ref/arc-hunter/courtly-hunter	This ability replaces precise companion.
+ref/arc-hunter/courtly-hunter	This ability replaces hunter tactics and the hunter’s bonus teamwork feats.
+ref/arc-hunter/courtly-hunter	This ability replaces bonus tricks.
+ref/arc-hunter/roof-runner	This alters the hunter’s class skills and replaces the hunter’s proficiency with medium armor and shields.
+ref/arc-hunter/roof-runner	This ability replaces track.
+ref/arc-hunter/roof-runner	This ability replaces woodland stride.
+ref/arc-hunter/roof-runner	This ability replaces swift tracker.
+ref/arc-hunter/roof-runner	This ability alters master hunter.
+ref/arc-inquisitor/cloaked-wolf	This alters the inquisitor’s class skills.
+ref/arc-inquisitor/cloaked-wolf	This ability replaces stern gaze.
+ref/arc-inquisitor/cloaked-wolf	This ability alters cunning initiative and replaces monster lore.
+ref/arc-inquisitor/cloaked-wolf	This ability replaces solo tactics and teamwork feats.
+ref/arc-inquisitor/faith-hunter	This ability replaces domain and alters judgment.
+ref/arc-inquisitor/faith-hunter	This ability replaces detect alignment.
+ref/arc-inquisitor/faith-hunter	This ability alters bane.
+ref/arc-inquisitor/secret-seeker	This ability replaces monster lore.
+ref/arc-inquisitor/secret-seeker	This ability replaces bane and greater bane.
+ref/arc-inquisitor/secret-seeker	This ability replaces exploit weakness.
+ref/arc-inquisitor/tactical-leader	This ability replaces stern gaze.
+ref/arc-inquisitor/tactical-leader	This ability replaces solo tactics and teamwork feats.
+ref/arc-inquisitor/tactical-leader	This ability replaces exploit weakness.
+ref/arc-inquisitor/traceless-operative	This ability replaces monster lore and stern gaze.
+ref/arc-inquisitor/traceless-operative	This ability replaces track.
+ref/arc-inquisitor/traceless-operative	This ability replaces bane.
+ref/arc-inquisitor/traceless-operative	This ability replaces greater bane.
+ref/arc-inquisitor/umbral-stalker	This alters the inquisitor’s class skills.
+ref/arc-inquisitor/umbral-stalker	This ability alters domain.
+ref/arc-inquisitor/umbral-stalker	This ability replaces the justice judgment.
+ref/arc-inquisitor/umbral-stalker	This ability replaces stern gaze.
+ref/arc-inquisitor/umbral-stalker	This ability alters exploit weakness.
+ref/arc-inquisitor/vigilant-defender	This ability replaces stern gaze.
+ref/arc-inquisitor/vigilant-defender	This ability replaces exploit weakness.
+ref/arc-inquisitor/vigilant-defender	This ability alters true judgment.
+ref/arc-investigator/cipher	This alters the investigator’s class skills and inspiration.
+ref/arc-investigator/cipher	This ability replaces trapfinding, poison lore, poison resistance, poison immunity, and trap sense.
+ref/arc-investigator/cipher	This ability replaces swift alchemy and the investigator talent gained at 9th level.
+ref/arc-investigator/cipher	This ability replaces the investigator talents gained at 3rd and 11th levels.
+ref/arc-investigator/cipher	This ability alters studied strike, and replaces the investigator talent gained at 5th level.
+ref/arc-investigator/cipher	This ability replaces the investigator talent gained at 7th level.
+ref/arc-investigator/conspirator	This ability replaces trapfinding and alters inspiration.
+ref/arc-investigator/conspirator	This ability replaces trap sense and the investigator talent gained at 7th level.
+ref/arc-investigator/forensic-physician	This ability alters inspiration and replaces trapfinding.
+ref/arc-investigator/forensic-physician	This ability replaces trap sense and the investigator talent gained at 3rd level.
+ref/arc-investigator/forensic-physician	This ability replaces the investigator talent gained at 5th level.
+ref/arc-investigator/hallucinist	This ability replaces trapfinding, the trap sense gained at 3rd level, and the investigator talents gained at 3rd, 7th, 11th, and 15th levels.
+ref/arc-investigator/hallucinist	This ability replaces poison lore.
+ref/arc-investigator/hallucinist	This ability replaces all instances of poison resistance and poison immunity.
+ref/arc-investigator/hallucinist	This ability replaces keen recollection, and the investigator talents gained at 5th and 9th levels.
+ref/arc-investigator/hallucinist	This ability alters studied combat and replaces all remaining trap sense.
+ref/arc-investigator/majordomo	This ability replaces trapfinding.
+ref/arc-investigator/majordomo	This ability replaces the alchemy and swift alchemy abilities.
+ref/arc-investigator/majordomo	This ability replaces all instances of trap sense.
+ref/arc-mesmerist/enigma	This ability alters hypnotic stare.
+ref/arc-mesmerist/enigma	This ability replaces consummate liar.
+ref/arc-mesmerist/enigma	This ability replaces painful stare.
+ref/arc-mesmerist/enigma	This ability alters touch treatment.
+ref/arc-mesmerist/enigma	This ability replaces manifold tricks.
+ref/arc-mesmerist/enigma	This ability replaces glib lie.
+ref/arc-mesmerist/enigma	This ability replaces rule minds.
+ref/arc-mesmerist/eyebiter	This ability replaces consummate liar and the mesmerist trick gained at 1st level.
+ref/arc-mesmerist/eyebiter	This ability replaces all instances of touch treatment.
+ref/arc-mesmerist/eyebiter	This ability replaces mental potency.
+ref/arc-mesmerist/eyebiter	This ability replaces glib lie.
+ref/arc-mesmerist/fey-trickster	This alters the mesmerist’s class skills.
+ref/arc-mesmerist/fey-trickster	This alters the mesmerist’s spellcasting.
+ref/arc-mesmerist/fey-trickster	This ability replaces towering ego.
+ref/arc-mesmerist/fey-trickster	This ability replaces touch treatment.
+ref/arc-mesmerist/fey-trickster	This ability replaces rule minds.
+ref/arc-mesmerist/thought-eater	This ability replaces consummate liar.
+ref/arc-mesmerist/thought-eater	This ability replaces towering ego.
+ref/arc-mesmerist/thought-eater	This ability replaces touch treatment.
+ref/arc-mesmerist/thought-eater	This ability replaces rule minds.
+ref/arc-mesmerist/vizier	This ability replaces consummate liar and the bold stare improvement gained at 3rd level.
+ref/arc-mesmerist/vizier	This ability replaces towering ego and mental potency.
+ref/arc-mesmerist/vox	This alters the mesmerist’s spellcasting and replaces towering ego, the mesmerist trick normally gained at 10th level, and touch treatment (break enchantment).
+ref/arc-mesmerist/vox	This ability alters hypnotic stare.
+ref/arc-mesmerist/vox	This ability replaces touch treatment (minor) and touch treatment (moderate).
+ref/arc-monk/black-asp	This ability replaces stunning fist and still mind.
+ref/arc-monk/sage-counselor	This alters the monk’s class skills.
+ref/arc-monk/sage-counselor	This ability replaces the bonus feats gained at 1st, 2nd, and 6th levels.
+ref/arc-monk/sage-counselor	This ability alters f lurry of blows and ki pool, and it replaces the bonus feat gained at 10th level.
+ref/arc-monk/sage-counselor	This ability alters ki pool (and it replaces the ki power gained at 4th level for an unchained monk).
+ref/arc-occultist/ancestral-aspirant	This alters the occultist’s class skills.
+ref/arc-occultist/ancestral-aspirant	This ability alters implements.
+ref/arc-occultist/ancestral-aspirant	This ability replaces object reading.
+ref/arc-occultist/ancestral-aspirant	This ability replaces outside contact.
+ref/arc-occultist/secret-broker	This alters the occultist’s class skills.
+ref/arc-occultist/secret-broker	This ability alters implements and implement mastery.
+ref/arc-occultist/secret-broker	This ability replaces magic item skill.
+ref/arc-occultist/secret-broker	This ability replaces shift focus.
+ref/arc-occultist/secret-broker	This ability replaces magic circles.
+ref/arc-occultist/secret-broker	This ability replaces binding circles.
+ref/arc-occultist/secret-broker	This ability replaces fast circles.
+ref/arc-paladin/gray-paladin	This alters the paladin’s alignment restrictions.
+ref/arc-paladin/gray-paladin	This alters the paladin’s class skills.
+ref/arc-paladin/gray-paladin	This ability alters smite evil, aura of courage, aura of resolve, and aura of righteousness, and it replaces aura of good and divine grace.
+ref/arc-paladin/gray-paladin	This ability replaces the paladin’s code of conduct and associated abilities and alters the section on ex-paladins.
+ref/arc-paladin/gray-paladin	This ability replaces divine health.
+ref/arc-paladin/gray-paladin	This ability replaces channel positive energy and alters smite evil.
+ref/arc-paladin/gray-paladin	This ability replaces aura of justice.
+ref/arc-ranger/code-runner	This alters the ranger’s class skills.
+ref/arc-ranger/code-runner	This ability replaces wild empathy.
+ref/arc-ranger/code-runner	This ability replaces hunter’s bond.
+ref/arc-ranger/dandy	This alters the ranger’s class skills.
+ref/arc-ranger/dandy	This ability replaces favored enemy.
+ref/arc-ranger/dandy	This ability replaces wild empathy.
+ref/arc-ranger/dandy	This ability alters favored terrain.
+ref/arc-ranger/dandy	This ability alters hunter’s bond.
+ref/arc-ranger/dandy	This ability alters the ranger’s spellcasting.
+ref/arc-ranger/dandy	This ability replaces woodland stride.
+ref/arc-ranger/guildbreaker	This alters the ranger’s class skills.
+ref/arc-ranger/guildbreaker	This ability alters favored enemy.
+ref/arc-ranger/guildbreaker	This ability replaces wild empathy.
+ref/arc-ranger/guildbreaker	This ability replaces hunter’s bond.
+ref/arc-ranger/guildbreaker	This ability replaces woodland stride.
+ref/arc-ranger/sentinel	This ability replaces wild empathy.
+ref/arc-ranger/sentinel	This ability replaces a ranger’s hunter’s bond and woodland stride.
+ref/arc-ranger/sentinel	This ability replaces the combat style feat gained at 6th level and alters combat style feats.
+ref/arc-ranger/sentinel	This ability alters quarry and improved quarry.
+ref/arc-ranger/transporter	This ability replaces wild empathy.
+ref/arc-ranger/transporter	This ability replaces favored terrain.
+ref/arc-ranger/transporter	This ability alters hunter’s bond.
+ref/arc-ranger/transporter	This ability replaces woodland stride.
+ref/arc-rogue/consigliere	This alters the rogue’s class skills.
+ref/arc-rogue/consigliere	This ability replaces trapfinding and evasion.
+ref/arc-rogue/consigliere	This ability replaces uncanny dodge and improved uncanny dodge.
+ref/arc-rogue/consigliere	This ability replaces all instances of trap sense.
+ref/arc-rogue/consigliere	This ability replaces the rogue talent normally gained at 10th level.
+ref/arc-rogue/guild-agent	This ability replaces evasion and uncanny dodge.
+ref/arc-rogue/guild-agent	This ability replaces improved evasion.
+ref/arc-rogue/guild-agent	This ability replaces master strike.
+ref/arc-rogue/heister	This ability replaces the rogue talent gained at 2nd level.
+ref/arc-rogue/heister	This ability replaces uncanny dodge and the rogue talent gained at 4th level.
+ref/arc-rogue/heister	This ability replaces improved uncanny dodge and the rogue talent gained at 8th level.
+ref/arc-rogue/master-of-disguise	This ability replaces trapfinding and the rogue talent gained at 2nd level.
+ref/arc-rogue/master-of-disguise	This ability replaces the rogue talent gained at 10th level.
+ref/arc-rogue/phantom-thief	This ability alters the rogue’s class skills and replaces sneak attack and trapfinding.
+ref/arc-rogue/phantom-thief	This ability alters rogue talent.
+ref/arc-rogue/phantom-thief	This ability replaces trap sense.
+ref/arc-rogue/phantom-thief	This ability replaces master strike.
+ref/arc-rogue/sharper	This ability replaces trapfinding.
+ref/arc-rogue/sharper	This ability replaces the rogue talents gained at 2nd, 6th, and 8th levels.
+ref/arc-rogue/sharper	This ability replaces trap sense.
+ref/arc-rogue/sharper	This ability replaces the rogue talents gained at 4th, 10th, and 16th levels.
+ref/arc-rogue/snoop	This ability replaces trapfinding and evasion.
+ref/arc-rogue/snoop	This ability replaces uncanny dodge and improved uncanny dodge.
+ref/arc-rogue/snoop	This ability replaces the rogue talent gained at 8th level.
+ref/arc-skald/battle-scion	This ability alters bardic knowledge.
+ref/arc-skald/battle-scion	This alters the rage power ability.
+ref/arc-skald/battle-scion	This ability replaces dirge of doom and song of the fallen.
+ref/arc-skald/battle-scion	This ability replaces master skald.
+ref/arc-skald/bold-schemer	This ability alters the skald’s class skills and bardic knowledge.
+ref/arc-skald/bold-schemer	This ability replaces uncanny dodge, improved uncanny dodge, and damage reduction.
+ref/arc-skald/bold-schemer	This ability replaces dirge of doom.
+ref/arc-skald/instigator	This ability replaces spell kenning.
+ref/arc-skald/instigator	This ability replaces dirge of doom.
+ref/arc-skald/instigator	This ability replaces lore master.
+ref/arc-skald/warlord	This ability replaces well-versed.
+ref/arc-skald/warlord	This ability replaces spell kenning.
+ref/arc-skald/warlord	This replaces the lore master ability.
+ref/arc-skald/warlord	This replaces improved uncanny dodge.
+ref/arc-slayer/velvet-blade	This alters the slayer’s class skills.
+ref/arc-slayer/velvet-blade	This alters the slayer’s armor proficiency.
+ref/arc-slayer/velvet-blade	This ability alters studied target.
+ref/arc-slayer/velvet-blade	This ability replaces track.
+ref/arc-slayer/velvet-blade	This ability replaces swift tracker.
+ref/arc-spiritualist/shadow-caller	This ability alters the spiritualist’s spellcasting.
+ref/arc-spiritualist/shadow-caller	This ability alters phantom.
+ref/arc-spiritualist/shadow-caller	This ability replaces shared consciousness.
+ref/arc-spiritualist/shadow-caller	This ability replaces etheric tether.
+ref/arc-spiritualist/shadow-caller	This ability replaces see invisibility.
+ref/arc-spiritualist/shadow-caller	This ability replaces fused consciousness.
+ref/arc-spiritualist/shadow-caller	This ability replaces empowered consciousness.
+ref/arc-spiritualist/zeitgeist-binder	This ability alters phantom.
+ref/arc-spiritualist/zeitgeist-binder	This ability replaces detect undead, calm spirit, see invisibility, and call spirit.
+ref/arc-spiritualist/zeitgeist-binder	This ability replaces the spiritualist’s bonded senses and fused consciousness.
+ref/arc-swashbuckler/guiding-blade	This ability replaces bonus feats and the swashbuckler’s 1st-, 7th-, and 15th-level deeds, and it alters panache.
+ref/arc-swashbuckler/guiding-blade	This ability alters charmed life.
+ref/arc-swashbuckler/guiding-blade	This ability replaces nimble.
+ref/arc-swashbuckler/noble-fencer	This ability replaces the subtle blade deed.
+ref/arc-swashbuckler/noble-fencer	This ability replaces charmed life.
+ref/arc-swashbuckler/veiled-blade	This alters the swashbuckler’s class skills.
+ref/arc-unchained-summoner/fey-caller	This alters the unchained summoner’s class skills.
+ref/arc-unchained-summoner/fey-caller	This ability alters the summoner’s summon monster spell-like ability.
+ref/arc-vigilante/brute	This ability alters dual identity.
+ref/arc-vigilante/brute	This ability alters the vigilante’s base saving throws.
+ref/arc-vigilante/brute	This alters the vigilante’s armor and weapon proficiencies.
+ref/arc-vigilante/brute	This ability replaces vigilante specialization.
+ref/arc-vigilante/brute	This alters vigilante talents.
+ref/arc-vigilante/brute	This ability replaces vengeance strike.
+ref/arc-vigilante/cabalist	This alters the vigilante’s class skills.
+ref/arc-vigilante/cabalist	This alters the vigilante’s skill ranks per level.
+ref/arc-vigilante/cabalist	This alters the vigilante’s armor and weapon proficiencies.
+ref/arc-vigilante/cabalist	This replaces the 4th-, 8th-, 10th-, 14th-, and 16th-level vigilante talents.
+ref/arc-vigilante/cabalist	This ability replaces vigilante specialization.
+ref/arc-vigilante/cabalist	This alters vigilante talents.
+ref/arc-vigilante/cabalist	This ability replaces startling appearance.
+ref/arc-vigilante/cabalist	This ability replaces frightening appearance.
+ref/arc-vigilante/cabalist	This ability replaces stunning appearance.
+ref/arc-vigilante/gunmaster	This alters the vigilante’s weapon and armor proficiencies.
+ref/arc-vigilante/gunmaster	This ability replaces vigilante specialization.
+ref/arc-vigilante/gunmaster	This alters vigilante talents.
+ref/arc-vigilante/gunmaster	This ability replaces unshakable.
+ref/arc-vigilante/magical-child	This alters the vigilante’s class skills.
+ref/arc-vigilante/magical-child	This alters the vigilante’s skill ranks per level.
+ref/arc-vigilante/magical-child	This alters the vigilante’s armor and weapon proficiencies.
+ref/arc-vigilante/magical-child	This replaces the 4th-, 8th-, 10th-, 14th-, and 16th-level vigilante talents.
+ref/arc-vigilante/magical-child	This ability replaces vigilante specialization.
+ref/arc-vigilante/magical-child	This ability alters startling appearance, frightening appearance, stunning appearance, and vengeance strike.
+ref/arc-vigilante/mounted-fury	This alters the vigilante’s class skills.
+ref/arc-vigilante/mounted-fury	This alters dual identity.
+ref/arc-vigilante/mounted-fury	This ability replaces vigilante specialization.
+ref/arc-vigilante/mounted-fury	This replaces the vigilante talent gained at 6th level.
+ref/arc-vigilante/mounted-fury	This replaces the vigilante talent gained at 12th level.
+ref/arc-vigilante/mounted-fury	This ability alters vengeance strike.
+ref/arc-vigilante/psychometrist	This alters the vigilante’s class skills.
+ref/arc-vigilante/psychometrist	This ability replaces the social talent gained at 1st level.
+ref/arc-vigilante/psychometrist	This replaces the vigilante talents gained at 2nd, 6th, 12th, and 18th levels.
+ref/arc-vigilante/psychometrist	This ability replaces unshakable.
+ref/arc-vigilante/psychometrist	This ability alters vengeance strike.
+ref/arc-vigilante/warlock	This alters the vigilante’s class skills.
+ref/arc-vigilante/warlock	This alters the vigilante’s skill ranks per level.
+ref/arc-vigilante/warlock	This alters the vigilante’s armor proficiencies.
+ref/arc-vigilante/warlock	This replaces the 4th-, 8th-, 10th-, 14th-, and 16th-level vigilante talents.
+ref/arc-vigilante/warlock	This ability replaces vigilante specialization.
+ref/arc-vigilante/warlock	This ability replaces unshakable.
+ref/arc-vigilante/warlock	This alters vigilante talents.
+ref/arc-vigilante/wildsoul	This alters vigilante specialization and replaces the vigilante talents gained at 2nd, 6th, 12th, and 18th levels.
+ref/arc-vigilante/zealot	This alters the vigilante’s class skills.
+ref/arc-vigilante/zealot	This alters the vigilante’s weapon proficiencies.
+ref/arc-vigilante/zealot	This replaces the 4th-, 8th-, 10th-, 14th-, and 16th-level vigilante talents.
+ref/arc-vigilante/zealot	This ability replaces vigilante specialization.
+ref/arc-vigilante/zealot	This alters vigilante talents.

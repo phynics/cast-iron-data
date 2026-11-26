@@ -1,0 +1,219 @@
+entry	sentence
+ref/arc-alchemist/bogborn-alchemist	This replaces throw anything.
+ref/arc-alchemist/bramble-brewer	This ability replaces the 2nd-level discovery class feature.
+ref/arc-alchemist/deep-bomber	This ability replaces poison use.
+ref/arc-alchemist/deep-bomber	This ability replaces swift alchemy (the deep bomber gains swift alchemy at 18th level and never gains instant alchemy).
+ref/arc-alchemist/deep-bomber	This ability replaces swift poisoning.
+ref/arc-alchemist/fire-bomber	This ability alters bomb and throw anything.
+ref/arc-alchemist/fire-bomber	This replaces the alchemist’s 4th-level discovery.
+ref/arc-alchemist/fire-bomber	This ability replaces poison resistance +6.
+ref/arc-alchemist/fire-bomber	This ability replaces poison immunity.
+ref/arc-alchemist/fire-bomber	This ability replaces persistent mutagen.
+ref/arc-alchemist/plague-bringer	This ability replaces mutagen.
+ref/arc-alchemist/plague-bringer	This ability replaces all increments of poison resistance and poison immunity.
+ref/arc-alchemist/saboteur	This ability replaces mutagen.
+ref/arc-barbarian/feral-gnasher	This ability replaces fast movement.
+ref/arc-barbarian/feral-gnasher	This replaces the rage power gained at second level.
+ref/arc-barbarian/feral-gnasher	This replaces trap sense +1.
+ref/arc-barbarian/feral-gnasher	This replaces improved uncanny dodge.
+ref/arc-barbarian/feral-gnasher	This ability replaces trap sense +2.
+ref/arc-barbarian/feral-gnasher	This ability replaces trap sense +3 and trap sense +5.
+ref/arc-barbarian/feral-gnasher	This ability replaces trap sense +4.
+ref/arc-barbarian/hateful-rager	This ability replaces the barbarian’s rage power gained at 2nd level.
+ref/arc-barbarian/hateful-rager	This ability replaces improved uncanny dodge.
+ref/arc-barbarian/hateful-rager	This ability replaces trap sense +3.
+ref/arc-bard/prankster	This ability replaces fascinate.
+ref/arc-bard/prankster	This ability replaces the suggestion ability.
+ref/arc-bard/prankster	This ability replaces the mass suggestion ability.
+ref/arc-bard/prankster	This ability replaces lore master.
+ref/arc-bard/watersinger	This ability replaces fascinate, suggestion, and mass suggestion.
+ref/arc-bard/watersinger	This performance replaces inspire competence.
+ref/arc-bard/watersinger	This performance replaces the use of lore master gained at 5th level (though a watersinger still gains the use of lore master once per day at 11th level and twice per day at 17th).
+ref/arc-cavalier/fell-rider	This ability replaces cavalier’s charge.
+ref/arc-cavalier/fell-rider	This ability replaces expert trainer.
+ref/arc-cavalier/fell-rider	This ability replaces banner.
+ref/arc-cavalier/fell-rider	This ability replaces mighty charge.
+ref/arc-cavalier/fell-rider	This ability replaces supreme charge.
+ref/arc-cleric/demonic-apostle	This ability replaces channel energy.
+ref/arc-cleric/fiendish-vessel	This ability replaces channel energy.
+ref/arc-cleric/forgemaster	This ability replaces channel energy.
+ref/arc-druid/feral-child	This ability replaces trackless step and a thousand faces.
+ref/arc-druid/feral-child	This ability replaces wild shape.
+ref/arc-druid/feral-child	This ability replaces resist nature’s lure.
+ref/arc-druid/feral-child	This ability replaces venom immunity and timeless body.
+ref/arc-druid/naga-aspirant	This ability replaces spontaneous casting.
+ref/arc-druid/naga-aspirant	This ability replaces resist nature’s lure.
+ref/arc-druid/naga-aspirant	This ability replaces venom immunity, a thousand faces, and timeless body.
+ref/arc-druid/naga-aspirant	This ability replaces wildshape (at will).
+ref/arc-druid/sky-druid	This ability replaces woodland stride.
+ref/arc-druid/sky-druid	This ability replaces resist nature’s lure.
+ref/arc-druid/sky-druid	This ability replaces trackless step.
+ref/arc-druid/sky-druid	This ability replaces venom immunity.
+ref/arc-druid/sky-druid	This ability replaces a thousand faces.
+ref/arc-druid/undine-adept	This ability replaces woodland stride.
+ref/arc-druid/undine-adept	This replaces trackless step.
+ref/arc-druid/undine-adept	This ability replaces resist nature’s lure.
+ref/arc-druid/undine-adept	This ability replaces venom immunity.
+ref/arc-fighter/airborne-ambusher	This replaces bravery.
+ref/arc-fighter/airborne-ambusher	This replaces weapon training 1.
+ref/arc-fighter/airborne-ambusher	This ability replaces weapon training 2.
+ref/arc-fighter/airborne-ambusher	This replaces weapon training 3 and 4.
+ref/arc-fighter/cavern-sniper	This ability replaces the 1st-level fighter bonus feat.
+ref/arc-fighter/cavern-sniper	This ability replaces bravery.
+ref/arc-fighter/cavern-sniper	This ability replaces the 4th-level fighter bonus feat.
+ref/arc-fighter/cavern-sniper	This ability replaces weapon training 1, 3, and 4.
+ref/arc-fighter/cavern-sniper	This ability replaces weapon training 2.
+ref/arc-fighter/dirty-fighter	This ability replaces bravery.
+ref/arc-fighter/dirty-fighter	This ability replaces weapon training 1.
+ref/arc-fighter/dirty-fighter	This ability replaces weapon training 2.
+ref/arc-fighter/dirty-fighter	This ability replaces weapon training 3 and 4.
+ref/arc-fighter/foehammer	This ability replaces armor training 1.
+ref/arc-fighter/foehammer	This ability replaces armor training 2 and 4.
+ref/arc-fighter/foehammer	This ability replaces weapon training 2.
+ref/arc-fighter/foehammer	This ability replaces armor training 3.
+ref/arc-fighter/foehammer	This ability replaces weapon training 3.
+ref/arc-fighter/foehammer	This ability replaces weapon training 4.
+ref/arc-fighter/foehammer	This ability replaces armor mastery.
+ref/arc-gunslinger/buccaneer	This replaces the quick clear deed.
+ref/arc-gunslinger/buccaneer	This replaces the pistol whip deed.
+ref/arc-gunslinger/buccaneer	This replaces the dead shot deed.
+ref/arc-gunslinger/buccaneer	This replaces the lightning reload deed.
+ref/arc-gunslinger/buccaneer	This ability replaces the nimble ability.
+ref/arc-gunslinger/buccaneer	This ability replaces gun training 1.
+ref/arc-gunslinger/buccaneer	This ability replaces gun training 2.
+ref/arc-gunslinger/buccaneer	This ability replaces gun training 4.
+ref/arc-gunslinger/bushwhacker	This ability replaces the bonus feats the gunslinger gains at 4th, 8th, 12th, 16th, and 20th level.
+ref/arc-gunslinger/experimental-gunsmith	This ability replaces gun training.
+ref/arc-gunslinger/gulch-gunner	This ability replaces the ability to regain grit from a critical hit with a firearm.
+ref/arc-gunslinger/gulch-gunner	This ability replaces the gun training ability gained at 9th, 13th, and 17th level.
+ref/arc-inquisitor/exarch	This ability replaces monster lore.
+ref/arc-inquisitor/exarch	This ability replaces detect alignment.
+ref/arc-inquisitor/exarch	This ability replaces her second judgment.
+ref/arc-inquisitor/exarch	This ability replaces greater bane.
+ref/arc-inquisitor/exarch	This ability replaces her third judgment.
+ref/arc-inquisitor/immolator	This ability replaces bane and greater bane.
+ref/arc-inquisitor/kinslayer	This ability replaces the destruction judgment.
+ref/arc-inquisitor/kinslayer	This ability replaces detect alignment.
+ref/arc-magus/elemental-knight	This ability replaces spell recall.
+ref/arc-magus/spell-dancer	This ability replaces the magus’s ability to expend points from his arcane pool as a swift action to grant any weapon he is holding magic bonuses for 1 minute.
+ref/arc-magus/spell-dancer	This ability replaces the bonus feat a magus receives at 5th level.
+ref/arc-magus/spell-dancer	This ability replaces the medium armor class feature.
+ref/arc-magus/spell-dancer	This ability replaces the heavy armor class feature.
+ref/arc-monk/gray-disciple	This ability replaces slow fall and still mind.
+ref/arc-monk/gray-disciple	This ability replaces high jump and the bonus feat gained at 6th level.
+ref/arc-monk/gray-disciple	This ability replaces wholeness of body.
+ref/arc-monk/gray-disciple	This ability replaces abundant step.
+ref/arc-monk/gray-disciple	This ability replaces quivering palm.
+ref/arc-monk/gray-disciple	This ability replaces tongue of the sun and moon and empty body.
+ref/arc-monk/ironskin-monk	This ability replaces the monk’s AC bonus ability and the ability to add his Wisdom bonus to his AC.
+ref/arc-monk/ironskin-monk	This ability replaces evasion.
+ref/arc-monk/ironskin-monk	This replaces the ability to increase speed with ki.
+ref/arc-monk/ironskin-monk	This ability replaces high jump.
+ref/arc-monk/ironskin-monk	This ability replaces fast movement and slow fall.
+ref/arc-monk/ironskin-monk	This ability replaces improved evasion.
+ref/arc-monk/ironskin-monk	This ability replaces tongue of the sun and moon.
+ref/arc-monk/ironskin-monk	This ability replaces perfect self.
+ref/arc-monk/nimble-guardian	This ability replaces evasion.
+ref/arc-monk/nimble-guardian	This ability replaces still mind.
+ref/arc-monk/nimble-guardian	This ability replaces purity of body.
+ref/arc-monk/nimble-guardian	This ability replaces wholeness of body.
+ref/arc-monk/nimble-guardian	This ability replaces improved evasion.
+ref/arc-monk/student-of-stone	This ability replaces evasion.
+ref/arc-monk/student-of-stone	This ability replaces fast movement.
+ref/arc-monk/student-of-stone	This ability replaces high jump.
+ref/arc-monk/student-of-stone	This ability replaces improved evasion.
+ref/arc-monk/student-of-stone	This ability replaces abundant step.
+ref/arc-monk/treetop-monk	This ability replaces still mind.
+ref/arc-monk/treetop-monk	This ability replaces purity of body.
+ref/arc-monk/treetop-monk	This ability replaces abundant step.
+ref/arc-monk/underfoot-adept	This ability replaces the bonus feat gained at 1st level.
+ref/arc-monk/underfoot-adept	This ability replaces stunning fist.
+ref/arc-monk/underfoot-adept	This ability replaces high jump.
+ref/arc-monk/wanderer	This ability replaces the bonus feat gained at 1st level.
+ref/arc-monk/wanderer	This ability replaces still mind.
+ref/arc-monk/wanderer	This ability replaces slow fall.
+ref/arc-monk/wanderer	This ability replaces high jump.
+ref/arc-monk/wanderer	This ability replaces wholeness of body.
+ref/arc-monk/wanderer	This ability replaces abundant step.
+ref/arc-monk/wanderer	This ability replaces diamond soul.
+ref/arc-oracle/ancient-lorekeeper	This replaces the bonus skills the ancient lorekeeper gains from her mystery.
+ref/arc-oracle/ancient-lorekeeper	This ability replaces the bonus spells she would normally gain at these levels from her chosen mystery.
+ref/arc-oracle/shigenjo	This ability replaces the shigenjo’s 7th-level revelation.
+ref/arc-oracle/shigenjo	This replaces the final revelation of the shigenjo’s mystery.
+ref/arc-paladin/redeemer	This ability replaces detect evil.
+ref/arc-paladin/redeemer	This replaces aura of resolve.
+ref/arc-paladin/redeemer	This replaces aura of justice.
+ref/arc-paladin/stonelord	This ability replaces smite evil.
+ref/arc-paladin/stonelord	This ability replaces divine grace.
+ref/arc-paladin/stonelord	This ability replaces divine health and her mercies gained at 3rd, 9th, and 15th level.
+ref/arc-paladin/stonelord	This ability replaces channel positive energy.
+ref/arc-paladin/stonelord	This ability replaces divine bond.
+ref/arc-paladin/stonelord	This ability replaces aura of justice.
+ref/arc-paladin/stonelord	This ability replaces her 12th-level mercy.
+ref/arc-paladin/stonelord	This ability replaces her 18th-level mercy.
+ref/arc-paladin/stonelord	This ability replaces holy champion.
+ref/arc-paladin/tranquil-guardian	This ability replaces smite evil.
+ref/arc-paladin/tranquil-guardian	This ability replaces aura of courage.
+ref/arc-paladin/tranquil-guardian	This ability replaces aura of resolve.
+ref/arc-paladin/tranquil-guardian	This ability replaces aura of justice.
+ref/arc-paladin/tranquil-guardian	This ability replaces holy champion.
+ref/arc-ranger/dusk-stalker	This ability replaces hunter’s bond.
+ref/arc-ranger/dusk-stalker	This ability replaces camouf lage.
+ref/arc-ranger/wave-warden	This ability replaces track.
+ref/arc-ranger/wave-warden	This ability replaces woodland stride.
+ref/arc-ranger/wave-warden	This ability replaces swift tracker.
+ref/arc-ranger/wild-shadow	This ability alters the track and wild empathy class features.
+ref/arc-ranger/wild-shadow	This ability alters the favored terrain class feature.
+ref/arc-ranger/wild-shadow	This ability replaces the hunter’s bond class feature.
+ref/arc-ranger/wild-shadow	This ability replaces the ranger’s woodland stride class feature gained at 7th level.
+ref/arc-ranger/wild-shadow	This ability replaces the quarry class feature.
+ref/arc-ranger/wild-shadow	This ability replaces the camouf lage class feature.
+ref/arc-ranger/wild-shadow	This ability replaces the improved quarry class feature.
+ref/arc-rogue/cat-burglar	This ability replaces uncanny dodge.
+ref/arc-rogue/cat-burglar	This ability replaces improved uncanny dodge.
+ref/arc-rogue/deadly-courtesan	This ability replaces the rogue trick gained at 2nd level.
+ref/arc-rogue/deadly-courtesan	This ability replaces all levels of trap sense.
+ref/arc-rogue/deadly-courtesan	This ability replaces improved uncanny dodge.
+ref/arc-rogue/eldritch-raider	This ability replaces the rogue talent rogues gained at 2nd level.
+ref/arc-rogue/eldritch-raider	This ability replaces the trap sense class feature.
+ref/arc-rogue/filcher	This ability replaces evasion.
+ref/arc-rogue/filcher	This ability replaces trap sense +1, +2, +3, +4, +5, and +6.
+ref/arc-rogue/filcher	This ability replaces uncanny dodge.
+ref/arc-rogue/filcher	This ability replaces improved uncanny dodge.
+ref/arc-rogue/kitsune-trickster	This ability replaces trapfinding.
+ref/arc-rogue/kitsune-trickster	This ability replaces trap sense.
+ref/arc-rogue/skulking-slayer	This ability replaces trapfinding.
+ref/arc-rogue/skulking-slayer	This ability replaces trap sense +1 and +4.
+ref/arc-rogue/skulking-slayer	This ability replaces trap sense +2.
+ref/arc-rogue/skulking-slayer	This ability replaces trap sense +3.
+ref/arc-rogue/swordmaster	This ability replaces all increments of trap sense.
+ref/arc-sorcerer/wishcrafter	This ability replaces bloodline arcana.
+ref/arc-sorcerer/wishcrafter	This ability replaces the bloodline bonus feat gained at 7th level.
+ref/arc-sorcerer/wishcrafter	This ability replaces the bloodline bonus feat gained at 13th level.
+ref/arc-sorcerer/wishcrafter	This ability replaces the bloodline bonus feat gained at 19th level.
+ref/arc-summoner/blood-god-disciple	This ability replaces the summon monster I, III, V, VII, and IX spell-like abilities.
+ref/arc-summoner/blood-god-disciple	This ability replaces the summon monster II spell-like ability.
+ref/arc-summoner/blood-god-disciple	This replaces the summon monster IV spell-like ability.
+ref/arc-summoner/blood-god-disciple	This replaces the summon monster VI and VIII spell-like abilities.
+ref/arc-summoner/shadow-caller	This ability alters the summoner’s eidolon ability.
+ref/arc-summoner/shaitan-binder	This ability replaces shield ally and greater shield ally.
+ref/arc-summoner/shaitan-binder	This ability replaces aspect.
+ref/arc-summoner/shaitan-binder	This ability replaces greater aspect.
+ref/arc-summoner/shaitan-binder	This ability replaces twin eidolon.
+ref/arc-summoner/wild-caller-arg	This ability alters the normal spell list of the summoner.
+ref/arc-summoner/wild-caller-arg	This ability alters the normal summoner’s eidolon class feature, but is otherwise identical to that class feature.
+ref/arc-witch/bonded-witch	This ability replaces the witch’s familiar class feature.
+ref/arc-witch/dreamweaver	This ability replaces the witch’s hex gained at 2nd level.
+ref/arc-witch/dreamweaver	This ability replaces the witch’s hex gained at 6th level.
+ref/arc-witch/dreamweaver	This ability replaces the witch’s hex gained at 10th level.
+ref/arc-witch/scarred-witch-doctor	This ability replaces the witch’s 1st-level hex.
+ref/arc-wizard/cruoromancer	This ability replaces arcane bond.
+ref/arc-wizard/cruoromancer	This ability replaces the 5th-level wizard bonus feat.
+ref/arc-wizard/cruoromancer	This ability replaces the 10th-level wizard bonus feat.
+ref/arc-wizard/cruoromancer	This ability replaces the 15th-level wizard bonus feat.
+ref/arc-wizard/cruoromancer	This ability replaces the 20th-level wizard bonus spell.
+ref/arc-wizard/spellbinder	This ability replaces arcane bond.
+ref/arc-wizard/wind-listener	This ability replaces arcane bond.
+ref/arc-wizard/wind-listener	This ability replaces the bonus feat gained at 5th level.
+ref/arc-wizard/wind-listener	This ability replaces the bonus feat gained at 10th level.
+ref/arc-wizard/wind-listener	This ability replaces the bonus feat gained at 15th level.

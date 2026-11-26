@@ -69,6 +69,20 @@ do asterisks when the page prints their key.
 `cast-iron-corpus` binary) it also runs `check` on the result, puts back every entry that the check
 rejects, and records the reason as a `hold`.
 
+Hold rules (owner decision of 2026-11-26, phynics/cast-iron#540; each is a switch of `RULES`, and `--rules` and
+`scripts/feature-prose-540-measure.py` turn them off to count what each does)
+-----
+  values    values level by level: the corpus's fraction of the level ("1 + one-fourth of her level") or its upgrade rows, against the
+            table that print states ("At Kth level and every N levels thereafter ... increases by S", "increases to +4 at 5th level, and
+            +6 at 8th level"); a base value counts; a hold only when a value differs or a step is on one side only
+  hyphens   a hyphen is a space when words are compared ("mind-affecting", "1st-detect", "brown-fur"); "full-round" stays one word
+  prereq    `Prereq: 13th-level magus ...` is print's "The magus must be at least 13th level ..." when the level is the same
+  usage     a `Usage` row whose words are in print in order is print's
+  dropped   a corpus table that the print span lacks is a hold; so is a print span that ends at a title no rule names as another section
+            of the book (a table title, a box): the entry needs a decision (`sidebar`, `drop`, `print`) or an edit
+  and `--print-sentences` / `<book>.sentences.tsv`: the printed "This replaces/alters ..." sentences of every archetype, which `--check`
+  requires in the entries unless the review records the difference (a misprint fix, a Paizo errata)
+
 Files
 -----
 `scripts/feature-prose-540-<book>.tsv`
@@ -113,6 +127,13 @@ PRINTINGS = {
 }
 ROOT = HERE.parent
 FORGET_CHECKER_HOLDS = False
+
+# The rules of the hold comparison that the owner added after the Blood of the Ancients pilot (phynics/cast-iron#540). Each is a
+# switch so that a measurement can turn it off (`--rules` of scripts/feature-prose-540-measure.py): `hyphens` (a hyphen is a space),
+# `prereq` (a "Prereq: Nth-level" row is print's "must be at least Nth level"), `usage` (a `Usage` row that print says word for word
+# is print's), `values` (values level by level), `dropped` (a dropped table or paragraph is a hold).
+RULES = {"hyphens": True, "prereq": True, "usage": True, "values": True, "dropped": True}
+HYPHEN_SPACES = [False]      # on while `compare_feature` runs: the comparison of the rule `hyphens`, not the choice of the text that is written
 
 TSV_HEADER = [
     "entry", "feature", "anchor", "listed", "level", "source", "status", "note", "page", "span_sha256",
@@ -234,6 +255,15 @@ def tokens(text: str, drop: set[str] = frozenset()) -> list[str]:
     out = []
     for raw in TOKEN.findall(text):
         t = raw.strip("-'/")
+        if RULES["hyphens"] and HYPHEN_SPACES[0] and re.search(r"[a-z0-9]-[a-z0-9]", t) and not NUMBER_TOKEN.match(t) and t != "full-round":
+            # a hyphen is a space ("brown-fur", "5-foot"): the parts are tokens of their own
+            for part in t.split("-"):
+                if part and part not in IGNORED:
+                    part = re.sub(r"^([+\-]?\d+)(?:st|nd|rd|th)$", r"\1", part).replace("'", "")      # a number word in a compound ("two-handed") stays a word
+                    part = part if NUMBER_TOKEN.match(part) else stem(part)
+                    if part not in drop:
+                        out.append(part)
+            continue
         if t in NUMBER_WORDS:
             t = NUMBER_WORDS[t]
         t = t.replace("'s", "") if t.endswith("'s") else t
@@ -379,6 +409,7 @@ class Draft:
     inexpressible: list[str]                    # why the draft cannot be built without guessing
     parts: list[str] = field(default_factory=list)   # the paragraphs of the corpus text (no leads, no upgrade rows)
     action_labelled: bool = False               # an action label (`**Swift:**`) made a phrase that print may not have
+    prereq: list[str] = field(default_factory=list)   # the `Prereq` rows
 
 
 def build_draft(feat: ImportFeature) -> Draft:
@@ -388,6 +419,7 @@ def build_draft(feat: ImportFeature) -> Draft:
     rest: list[str] = []
     upgrades: list[tuple[int, str]] = []
     usage: list[str] = []
+    prereq: list[str] = []
     bad: list[str] = []
     labelled = False
     for it in feat.items:
@@ -416,6 +448,9 @@ def build_draft(feat: ImportFeature) -> Draft:
             pass
         elif lab == "Usage":
             usage.append(it.content)
+        elif lab == "Prereq":
+            prereq.append(it.content)
+            rest.append(it.content)
         elif lab and UPGRADE_LABEL.match(lab):
             upgrades.append((int(UPGRADE_LABEL.match(lab).group(1)), it.content))
         elif lab is None:
@@ -445,7 +480,7 @@ def build_draft(feat: ImportFeature) -> Draft:
     parts += effect + rest
     core = " ".join(parts)
     full = core + "".join(f" At {ordinal(n)} level, {lower_first(t)}" for n, t in sorted(upgrades))
-    return Draft(full, core, sorted(upgrades), usage, level, bad, [x for x in effect + rest], labelled)
+    return Draft(full, core, sorted(upgrades), usage, level, bad, [x for x in effect + rest], labelled, prereq)
 
 
 # ---- links and italics carried over from the import --------------------------------------------------
@@ -855,6 +890,18 @@ SMALL_CAP_TITLES = {"on": False}
 KEEP_TITLES = {squash("Elemental Aspects (Elementalist Shifter Aspects)")}
 
 
+class Section(list):
+    """The blocks of an archetype's print span; `end` is the title that ended it (None: the blocks ran out), `end_known` whether a rule
+    names that title as the start of another section of the book."""
+    end: str | None = None
+    end_known: bool = True
+
+
+# Blood of the Ancients: the titles that start the next section of its chapter (rule 5: any other title that ends an archetype is a
+# table or a box that the entry may lack).
+CHAPTER_SECTION_TITLE = re.compile(r"(?i)(?:^|\s)(?:traits?|spells?|feats?|runes|rituals|magic items?|price|fighter style|philosophy)$|^items from\b|^rituals of\b")
+
+
 def find_section(blocks: list[Para], title: str, stops: set[str] | None = None) -> list[Para] | None:
     """The blocks of an archetype: from its title to the next title of another archetype or of a class. Another
     title in between (a sidebar, a table heading) is a heading of the section. With no `stops`, the next title of
@@ -867,7 +914,7 @@ def find_section(blocks: list[Para], title: str, stops: set[str] | None = None) 
         if b.kind == "title" and (sp in (key, key + "archetype") or squash(CLASS_SUFFIX.sub("", b.plain())) == key or (
                 sp.startswith(key) and sp.endswith("archetype") and len(sp) <= len(key) + len("archetype") + 24)):
             j = i + 1
-            out = [b]
+            out = Section([b])
             while j < len(blocks):
                 nxt = blocks[j]
                 if nxt.kind == "title":
@@ -877,6 +924,10 @@ def find_section(blocks: list[Para], title: str, stops: set[str] | None = None) 
                     if (stops is None or ANY_TITLE_ENDS["on"] or k in stops or k.endswith(("archetype", "mystery", "bloodline")) or nxt.size >= 30
                             or CLASS_SUFFIX.search(nxt.plain()) or k == "newracialrules" or (TYPE_TITLE.search(nxt.plain()) and k not in KEEP_TITLES)
                             or (SECTION_STOPS["on"] and SECTION_STOP.match(re.sub(r"\s+", " ", nxt.plain()).strip()))):
+                        out.end = nxt.plain().strip()
+                        out.end_known = not (ANY_TITLE_ENDS["on"] and stops is not None and k not in stops and not k.endswith(("archetype", "mystery", "bloodline"))
+                                             and nxt.size < 30 and not CLASS_SUFFIX.search(nxt.plain()) and k != "newracialrules"
+                                             and not TYPE_TITLE.search(nxt.plain()) and not CHAPTER_SECTION_TITLE.search(re.sub(r"\s+", " ", nxt.plain()).strip()))
                         break
                     out.append(Para("para", [(t, True, i) for t, _, i in nxt.runs], nxt.page, nxt.col))
                 else:
@@ -1210,6 +1261,159 @@ PRINT_WINS = {
 }
 
 
+# "At 5th level and every 5 levels thereafter, this enhancement bonus increases by 1" (rule 1 of the pilot's follow-up: values level by level)
+PRINT_PROGRESSION_FROM = re.compile(
+    r"(?:at\s+)?(\d+)(?:st|nd|rd|th)\s+level\s+and\s+(?:for\s+)?every\s+(\w+)\s+(?:[\w-]+\s+){0,2}?levels?\s+"
+    r"(?:thereafter|after\s+that|beyond\s+that)[^.]*?(?:increases?|improves?|rises?|grows?)\s+by\s+(?:an\s+additional\s+)?\+?(\d+)", re.I)
+
+
+def expand_rules_from(print_text: str, cm: re.Match) -> tuple[str, list[str]] | None:
+    """The printed progression "At Kth level and every N levels thereafter, ... increases by S" against the corpus's fraction of the
+    level, level by level: the bonus is B before the Kth level (B is the first "+B" of the text, else 0) and B + S for each step."""
+    pm = PRINT_PROGRESSION_FROM.search(print_text)
+    if not pm:
+        return None
+    step = NUMBER_WORDS.get(pm.group(2).lower(), pm.group(2))
+    if not step.isdigit():
+        return None
+    first = re.search(r"\+(\d+)", print_text[:pm.start()])
+    b = int(first.group(1)) if first else 0
+    k, n, s_ = int(pm.group(1)), int(step), int(pm.group(3))
+    base_c = int(cm.group(1) or 0)
+    num, den = FRACTIONS[cm.group(2).lower()]
+    minimum = int(cm.group(3)) if cm.group(3) else 0
+    mx = PRINT_MAXIMUM.search(print_text)
+    cap = int(mx.group(1)) if mx else None
+    for level in range(max(1, lead_level(print_text) or 1), 21):
+        printed = b + (s_ * ((level - k) // n + 1) if level >= k else 0)
+        stored = max(base_c + level * num // den, minimum)
+        if cap is not None:
+            printed, stored = min(printed, cap), min(stored, cap)
+        if printed != stored:
+            return "differ", [f"at level {level} print gives +{printed}, the corpus {stored}"]
+    forget = ([f"+{b}", f"+{s_}"] if b else [f"+{s_}", str(s_)]) + [str(k), str(n)]
+    if mx:
+        forget += [f"+{cap}", str(cap), "maximum"] + ([mx.group(2)] if mx.group(2) else [])
+    return "equal", forget
+
+
+# Values level by level (rule 1): the corpus's upgrade rows against the table that print states.
+PRINT_STEP = re.compile(r"\+(\d+)\s+at\s+(\d+)(?:st|nd|rd|th)\s+level", re.I)
+PRINT_THEREAFTER = re.compile(
+    r"by\s+(?:an\s+additional\s+)?\+?(\d+)\s+(?:every|for\s+every)\s+(\w+)\s+(?:[\w-]+\s+){0,2}?levels?\s+(?:thereafter|after\s+that|beyond\s+that)", re.I)
+PRINT_BY_FROM = re.compile(
+    r"(?:increases?|improves?|rises?|grows?)\s+by\s+\+?(\d+)\s+at\s+(\d+)(?:st|nd|rd|th)\s+level\s+and\s+(?:for\s+)?every\s+(\w+)\s+(?:[\w-]+\s+){0,2}?levels?\s+"
+    r"(?:thereafter|after\s+that|beyond\s+that)", re.I)
+
+
+def last_number(text: str) -> int:
+    """The last number of a text that is not a level ("fast healing 1", "10 feet", "reduced by 1 point"), the base of a value that
+    a progression raises; 0 when the text has none."""
+    t = re.sub(r"\b\d+(?:st|nd|rd|th)\b", " ", text)
+    nums = re.findall(r"\+?(\d+)", t)
+    return int(nums[-1]) if nums else 0
+
+
+def print_value_table(print_text: str) -> dict[int, int] | None:
+    """The values by level that print states, from 1 to 20 (the levels before the first step are the base), or None: a progression
+    ("At 5th level and every 5 levels thereafter ... increases by 2", "increases by +1 for every four levels beyond 2nd") or
+    steps ("increases to +4 at 5th level, and +6 at 8th level"). The base is the first "+B" of the text."""
+    flat = re.sub(r"\[([^\]]*)\]\([^)]*\)", r"\1", print_text)
+    mx = PRINT_MAXIMUM.search(flat)
+    cap = int(mx.group(1)) if mx else None
+    out: dict[int, int] = {}
+    base = 0
+    m = PRINT_BY_FROM.search(flat) or PRINT_PROGRESSION_FROM.search(flat)
+    if m:
+        if m.re is PRINT_BY_FROM:
+            s_, k, step = int(m.group(1)), int(m.group(2)), NUMBER_WORDS.get(m.group(3).lower(), m.group(3))
+        else:
+            k, step, s_ = int(m.group(1)), NUMBER_WORDS.get(m.group(2).lower(), m.group(2)), int(m.group(3))
+        if not step.isdigit():
+            return None
+        n = int(step)
+        base = last_number(flat[:m.start()])
+        for level in range(1, 21):
+            out[level] = base + (s_ * ((level - k) // n + 1) if level >= k else 0)
+    else:
+        m = PRINT_PROGRESSION.search(flat)
+        if m:
+            step = NUMBER_WORDS.get(m.group(2).lower(), m.group(2))
+            if not step.isdigit():
+                return None
+            s_, n, k = int(m.group(1)), int(step), int(m.group(3))
+            base = last_number(flat[:m.start()])
+            for level in range(1, 21):
+                out[level] = base + (s_ * ((level - k) // n) if level >= k else 0)
+        else:
+            steps = sorted((int(b), int(a)) for a, b in PRINT_STEP.findall(PRINT_MAXIMUM.sub(" ", flat)))
+            if not steps:
+                return None
+            base = last_number(flat[:PRINT_STEP.search(PRINT_MAXIMUM.sub(" ", flat)).start()])
+            tm = PRINT_THEREAFTER.search(flat)
+            if PROGRESSION.search(flat) and not tm:
+                return None                # a progression that no pattern reads: no table
+            for level in range(1, 21):
+                out[level] = base
+                for lv, v in steps:
+                    if level >= lv:
+                        out[level] = v
+                if tm:
+                    k, v = steps[-1]
+                    step = NUMBER_WORDS.get(tm.group(2).lower(), tm.group(2))
+                    if not step.isdigit():
+                        return None
+                    if level >= k:
+                        out[level] = v + int(tm.group(1)) * ((level - k) // int(step))
+    if cap is not None:
+        out = {k_: min(v, cap) for k_, v in out.items()}
+    return out
+
+
+def row_numbers(text: str) -> list[int]:
+    t = re.sub(r"\[([^\]]*)\]\([^)]*\)", r"\1", text)
+    t = re.sub(r"\b\d+(?:st|nd|rd|th)\b", " ", t)
+    return [int(x) for x in re.findall(r"\+?(\d+)", t)]
+
+
+def rows_against_print(draft: Draft, print_text: str) -> tuple[str, str] | None:
+    """Rule 1. The upgrade rows ("At 5th Level: This bonus increases to +4") as a table of level and value against the table that
+    print states. ("equal", "") when the values agree at every row (a row is the value at its level, or the sum of the rows up to it:
+    the import writes both "now increase by 4" and "increase by 1"); ("differ", why) when one row differs or print has a step that
+    no row has; None when either side has no table (a row with no number, or two numbers)."""
+    if not draft.upgrades:
+        return None
+    table = print_value_table(print_text)
+    if table is None:
+        return None
+    rows = []
+    for n, t in draft.upgrades:
+        nums = row_numbers(t)
+        if len(nums) != 1:
+            return None
+        rows.append((n, nums[0]))
+    absolute = [(n, v) for n, v in rows]
+    total, cumulative = 0, []
+    for n, v in rows:
+        total += v
+        cumulative.append((n, total))
+    first = min(table)
+    for series in (absolute, cumulative):
+        if all(table.get(n) == v for n, v in series):
+            row_levels = {n for n, _ in series}
+            steps = [level for level in range(2, 21) if table[level] != table[level - 1] and level >= min(row_levels)]
+            if all(level in row_levels for level in steps):
+                return "equal", ""
+    bad = next(((n, v) for n, v in absolute if table.get(n) != v), None)
+    return "differ", (f"at level {bad[0]} the corpus row gives {bad[1]}, print {table.get(bad[0])}" if bad else "print has a step that no row has")
+
+
+def strip_steps(text: str) -> str:
+    """Drops the sentences that state steps of a value ("increases to +4 at 5th level, and +6 at 8th level")."""
+    parts = re.split(r"(?<=[.!?])\s+", text)
+    return " ".join(x for x in parts if not PRINT_STEP.search(x))
+
+
 def expand_rules(print_text: str, corpus_text: str) -> tuple[str, list[str]] | None:
     """Rule 8. When print states "+B ... increases by +S for every N levels after Kth" and the corpus states
     "equal to one-third of her X level (minimum +M)", expands both into the values at levels K..20. Returns
@@ -1218,6 +1422,8 @@ def expand_rules(print_text: str, corpus_text: str) -> tuple[str, list[str]] | N
     flat = re.sub(r"\[([^\]]*)\]\([^)]*\)", r"\1", corpus_text)
     cm = CORPUS_FRACTION.search(flat)
     pm = PRINT_PROGRESSION.search(print_text)
+    if RULES["values"] and cm and not pm:
+        return expand_rules_from(print_text, cm)
     if not cm or not pm:
         return None
     base_c = int(cm.group(1) or 0)
@@ -1246,7 +1452,64 @@ def expand_rules(print_text: str, corpus_text: str) -> tuple[str, list[str]] | N
     return "equal", forget
 
 
+PREREQ_LEVEL = re.compile(r"(\d+)(?:st|nd|rd|th)[- ]level\b", re.I)
+PRINT_AT_LEAST = re.compile(r"[^.]*\bmust be at least (\d+)(?:st|nd|rd|th)[- ]level\b[^.]*\.", re.I)
+
+
+def take_prerequisites(draft: Draft, p_clean: str, d_clean: str) -> tuple[str, str, list[str]]:
+    """A `Prereq: 13th-level magus ...` row is print's "The magus must be at least 13th level and have ... before selecting this
+    arcana" when the level is the same: both go out of the comparison (the other words of a prerequisite are not compared; the
+    number is the rule). A prerequisite of another shape stays in the comparison."""
+    info: list[str] = []
+    for pr in draft.prereq:
+        m = PREREQ_LEVEL.match(pr.strip())
+        flat = re.sub(r"\[([^\]]*)\]\([^)]*\)", r"\1", pr).strip()
+        if not m or flat not in d_clean:
+            continue
+        sm = next((x for x in PRINT_AT_LEAST.finditer(p_clean) if x.group(1) == m.group(1)), None)
+        if sm:
+            p_clean = p_clean.replace(sm.group(0), " ", 1)
+            d_clean = d_clean.replace(flat, " ", 1)
+            info.append(f"rule 3: the prerequisite row \"{flat[:40]}\" is print's \"must be at least {ordinal(int(m.group(1)))} level\" (the same level)")
+    return p_clean, d_clean, info
+
+
+def printed_phrase(text: str) -> re.Pattern:
+    """A pattern for a text in print: its words in order, any punctuation, spacing and Markdown between them."""
+    words = re.findall(r"[a-z0-9]+", fold(re.sub(r"\[([^\]]*)\]\([^)]*\)", r"\1", text)))
+    return re.compile(r"[\W_]*".join(re.escape(w) for w in words), re.I)
+
+
+USED_BEFORE_USAGE = re.compile(r"(?:\b(?:this ability|it)\s+)?\b(?:can|may)\s+(?:be\s+)?used?\s*(?=[.,;]|$)", re.I)
+
+
+def take_printed_usage(rows: list[str], p_clean: str) -> tuple[str, list[str], list[str]]:
+    """A `Usage` row whose words are in print, in order, is print's: those words go out of the comparison (the draft has no usage rows
+    in its text, so it does not have them either; "this ability can be used" that led them goes too), and the row needs no other
+    check. A row that print words otherwise stays."""
+    keep: list[str] = []
+    info: list[str] = []
+    for u in rows:
+        words = re.findall(r"[A-Za-z0-9]+", u)
+        flat = re.sub(r"\[([^\]]*)\]\([^)]*\)", r"\1", p_clean)
+        pat = re.compile(r"[\W_]*".join(re.escape(w) for w in words), re.I)
+        if len(words) >= 3 and pat.search(flat):
+            p_clean = USED_BEFORE_USAGE.sub(" ", pat.sub(" ", flat, count=1))
+            info.append(f"rule 4: the usage row \"{u[:40]}\" is in print word for word")
+        else:
+            keep.append(u)
+    return p_clean, keep, info
+
+
 def compare_feature(draft: Draft, print_text: str, drop: set[str], title_tokens: set[str]) -> Compare:
+    HYPHEN_SPACES[0] = True
+    try:
+        return _compare_feature(draft, print_text, drop, title_tokens)
+    finally:
+        HYPHEN_SPACES[0] = False
+
+
+def _compare_feature(draft: Draft, print_text: str, drop: set[str], title_tokens: set[str]) -> Compare:
     """Draft against the printed paragraph. Differences in words that carry no rule (articles, pronouns, the
     person, connectives, action labels, the order of sentences) are wording; a number or any other word that
     only one side has is a changed number or rule word (held). Printed progressions are expanded against the
@@ -1254,6 +1517,10 @@ def compare_feature(draft: Draft, print_text: str, drop: set[str], title_tokens:
     (ruling 10)."""
     notes: list[str] = []
     info: list[str] = []
+    if RULES["hyphens"]:
+        # the title's own hyphenated words are compared as their parts, like the text ("Two-Handed Fighter")
+        title_tokens = title_tokens | {x if NUMBER_TOKEN.match(x) else stem(x) for t in title_tokens if "-" in t for x in t.split("-") if x}
+        drop = drop | {x if NUMBER_TOKEN.match(x) else stem(x) for t in drop if "-" in t for x in t.split("-") if x}      # (the feature's own name)
     skip = drop | title_tokens
     p_clean = strip_trade_sentences(print_text)
     d_clean = strip_trade_sentences(draft.core)
@@ -1263,6 +1530,13 @@ def compare_feature(draft: Draft, print_text: str, drop: set[str], title_tokens:
     lvl = draft.level if lp is None or lp == draft.level else None
     p_clean = strip_level_phrase(strip_leads(p_clean), lvl)
     d_clean = strip_level_phrase(strip_leads(d_clean), lvl)
+    if RULES["prereq"]:
+        p_clean, d_clean, pre = take_prerequisites(draft, p_clean, d_clean)
+        info += pre
+    usage_rows = list(draft.usage)
+    if RULES["usage"] and usage_rows:
+        p_clean, usage_rows, use = take_printed_usage(usage_rows, p_clean)
+        info += use
     forget_p: set[str] = set()
     expanded = expand_rules(print_text, d_clean)
     if expanded:
@@ -1273,8 +1547,17 @@ def compare_feature(draft: Draft, print_text: str, drop: set[str], title_tokens:
             info.append("rule 8: the printed progression and the corpus's fraction of the level give the same values; print's wording taken")
         else:
             notes.append("hand review: " + expanded[1][0])
+    rows_ok = False
+    if RULES["values"] and draft.upgrades and not expanded:
+        rv = rows_against_print(draft, print_text)
+        if rv and rv[0] == "equal":
+            rows_ok = True
+            p_clean = strip_steps(strip_progression(p_clean))
+            info.append("rule 1: the corpus rows and the printed values agree level by level; print's wording taken")
+        elif rv:
+            notes.append("hand review: " + rv[1])
     d_tok = Counter(tokens(d_clean, skip))
-    if draft.usage:
+    if usage_rows:
         # the sentences that state the usage cancel words of the draft, but add none: the import keeps the
         # usage in its `Usage` row
         rest = strip_usage(p_clean)
@@ -1297,10 +1580,10 @@ def compare_feature(draft: Draft, print_text: str, drop: set[str], title_tokens:
                     d_tok[t] = p_tok[t]
     if draft.upgrades:
         rows = {n for n, _ in draft.upgrades}
-        if prog is not None and rows <= prog and rows == {x for x in prog if min(rows) <= x <= max(rows)}:
+        if rows_ok or (prog is not None and rows <= prog and rows == {x for x in prog if min(rows) <= x <= max(rows)}):
             # the rows expand the printed rule; they are not rule text of their own
             p_tok = Counter(tokens(strip_leads(strip_level_phrase(strip_progression(p_clean), draft.level)), skip))
-            if draft.usage:
+            if usage_rows:
                 p_tok = Counter(tokens(strip_usage(strip_leads(strip_level_phrase(strip_progression(p_clean), draft.level))), skip))
                 for t, n in Counter(tokens(strip_leads(strip_level_phrase(strip_progression(p_clean), draft.level)), skip)).items():
                     room = d_tok[t] - p_tok[t]
@@ -1333,8 +1616,12 @@ def compare_feature(draft: Draft, print_text: str, drop: set[str], title_tokens:
             for t in ACTION_TOKENS:
                 only_draft.pop(t, None)
         if dropped and not only_draft:
-            info.append("ruling 10: corpus text that print does not have is dropped: " + "; ".join(
-                "“" + " ".join(x.split()[:7]) + " …”" for x in dropped))
+            text10 = "corpus text that print does not have is dropped: " + "; ".join("“" + " ".join(x.split()[:7]) + " …”" for x in dropped)
+            if RULES["dropped"] and any(re.search(r"(?m)^\s*\|.*\|\s*$", x) for x in dropped):
+                # rule 5: a corpus table that the print span lacks is a hold (a decision of the review takes print's text)
+                notes.append("dropped table: " + text10)
+            else:
+                info.append("ruling 10: " + text10)
     a = sorted(only_draft.elements())
     b = sorted(only_print.elements())
     if (a or b) and letters(a) == letters(b):
@@ -1342,8 +1629,8 @@ def compare_feature(draft: Draft, print_text: str, drop: set[str], title_tokens:
     if a or b:
         kind = "number" if any(is_number(x) for x in a + b) else "rule word"
         notes.append(f"{kind}: corpus {a or '-'} / print {b or '-'}")
-    if draft.usage:
-        usage_nums = {x for u in draft.usage for x in tokens(u) if is_number(x)}
+    if usage_rows:
+        usage_nums = {x for u in usage_rows for x in tokens(u) if is_number(x)}
         printed_nums = {x for x in tokens(print_text) if is_number(x)}
         if "once" in print_text.lower():
             printed_nums.add("1")
@@ -2312,7 +2599,8 @@ def compare_entry(e: Entry, section: list[Para], book: Book) -> dict:
     if not diff and "\u2014" in " ".join(kept) and "\u2014" not in " ".join(logical(b) for i, b in enumerate(opening_imp) if i not in gone):
         diff = ["\u2014"]          # the import writes the printed em dash as " - "
     return {"rows": rows, "problems": problems, "opening": kept, "opening_links": links,
-            "opening_dropped": [logical(opening_imp[i]) for i in gone], "opening_diff": diff}
+            "opening_dropped": [logical(opening_imp[i]) for i in gone], "opening_diff": diff,
+            "section_end": (getattr(section, "end", None), getattr(section, "end_known", True))}
 
 
 def contained_in_longer(phrase: str, trades: list[dict], i: int) -> bool:
@@ -3103,6 +3391,15 @@ def finalize(e: Entry, res: dict, class_cache: dict | None = None) -> dict:
         elif kind == "print" and r["status"] == "hold":
             r["status"] = "print"
             r["notes"] = [note] + [n for n in r["notes"] if n.startswith(("print asterisks", "misprint", "link", "anchor", "level 1", "rule 8", "ruling", "trade", "errata"))]
+
+    # rule 5: a printed table or box that the print span does not carry is a hold, not a silent loss. The span ended at a title that no
+    # rule names as the start of another section of the book (a table title, a box): the entry needs a decision about it
+    end, known = res.get("section_end", (None, True))
+    if RULES["dropped"] and end and not known:
+        dec_end = decisions.get((e.id, anchor_of(end)))
+        if not dec_end or dec_end[0].split(";")[0] not in ("sidebar", "drop", "print"):
+            problems.append(f"the print span ends at the title \"{end}\", which names no other section of the book (a table, a box?): "
+                            f"decide `sidebar` (a lore box, ruling 41) or `drop`, or write it with an edit, for `{anchor_of(end)}`")
     for r in rows:
         edit = res.get("edits", {}).get((e.id, r["anchor"]))
         if edit:
@@ -3666,7 +3963,8 @@ def letters_key(text: str) -> str:
 def printed_trade_sentences(section: list) -> list[str]:
     """Every "This replaces/alters/changes ..." sentence of the printed span of an archetype, in print order."""
     text = " ".join(re.sub(r"\s+", " ", b.plain()) for b in section if b.kind == "para")
-    return [m.group(0).strip() for m in PRINTED_TRADE.finditer(text)]
+    text = re.sub(r"\b1oth\b", "10th", text)      # the text layer reads a zero as a letter
+    return [re.sub(r"\s+", " ", m.group(0)).strip() for m in PRINTED_TRADE.finditer(text)]
 
 
 def run_print_sentences(args) -> int:
@@ -3698,18 +3996,43 @@ def run_print_sentences(args) -> int:
     return 0
 
 
+def recorded_print_texts(corpus: Path, entry_id: str) -> tuple[list[tuple[str, str]], str]:
+    """The differences from print that the review records for an entry: pairs (written, printed) of the misprint list and of the
+    errata list of this script, and the printed values of its rows in `scripts/errata.tsv` (the owner's 1st printing against the
+    Paizo errata, which the corpus follows)."""
+    pairs = [(w, p_) for e_, p_, w, *_ in MISPRINTS if e_ == entry_id] + [(w, p_) for e_, _a, _pg, p_, w in ERRATA if e_ == entry_id]
+    printed = ""
+    path = corpus / "scripts" / "errata.tsv"
+    if path.exists():
+        for ln in path.read_text(encoding="utf-8").split("\n")[1:]:
+            cells = ln.split("\t")
+            if len(cells) > 5 and cells[0] == entry_id:
+                printed += " " + cells[5]
+    return pairs, printed
+
+
 def missing_printed_sentences(corpus: Path, book: str, entries: list) -> list[str]:
+    """The reverse of the drift check: every printed "This replaces/alters ..." sentence of the book's archetypes (the rows of
+    `<book>.sentences.tsv`) is in the entry, or the review records the difference (a misprint fix, a Paizo errata)."""
     path = sentences_path(corpus, book)
     if not path.exists():
         return []
-    by = {e.id: letters_key(e.body) for e in entries}
+    by = {e.id: e for e in entries}
     out = []
-    for n, ln in enumerate(path.read_text(encoding="utf-8").split("\n")[1:], 2):
+    for ln in path.read_text(encoding="utf-8").split("\n")[1:]:
         if not ln:
             continue
         eid, sent = ln.split("\t", 1)
-        if eid in by and letters_key(sent) not in by[eid]:
-            out.append(f"{eid}: the printed sentence \"{sent}\" is not in the entry")
+        if eid not in by:
+            continue
+        key = letters_key(sent)
+        flat = re.sub(r"\s+", " ", re.sub(r"\[([^\]]*)\]\([^)]*\)", r"\1", by[eid].body).replace("_", ""))
+        if key in letters_key(flat):
+            continue
+        pairs, printed = recorded_print_texts(corpus, eid)
+        if key in letters_key(printed) or any(w in flat and key in letters_key(flat.replace(w, p_)) for w, p_ in pairs):
+            continue
+        out.append(f"{eid}: the printed sentence \"{sent}\" is not in the entry")
     return out
 
 
@@ -3973,6 +4296,78 @@ def self_test() -> int:
     text, _, notes = print_md(pf, [], set(), "ref/arc-monk/black-asp")
     eq(text, "Items (as if he had cast greater magic aura; see page 219) and and end.", "a citation with words stays, a bare one goes")
     eq(is_scaffold("Weapon and Armor Proficiencies") and is_scaffold("Class Skills") and is_scaffold("Skill Ranks per Level"), True, "scaffold variants")
+    # the hold rules of the owner (phynics/cast-iron#540, after the Blood of the Ancients pilot): each is a switch, so each test runs the
+    # same comparison with the rule off (the old script) and on
+    def cmp_rule(rule: str, import_rows: str, printed: str, title: str = "Feature") -> tuple[str, str]:
+        d_ = build_draft(parse_import("Intro.\n\n**Feature (Ex)**\n\n" + import_rows)[1][0])
+        out_ = []
+        for on in (False, True):
+            RULES[rule] = on
+            out_.append(compare_feature(d_, printed, set(), set(tokens(title))).status)
+        RULES[rule] = True
+        return out_[0], out_[1]
+
+    # rule 2: a hyphen is a space
+    RULES["hyphens"] = False
+    HYPHEN_SPACES[0] = True
+    off2 = (tokens("a mind-affecting 1st-detect effect"), tokens("a mind affecting effect"))
+    RULES["hyphens"] = True
+    on2 = (tokens("a mind-affecting 1st-detect effect"), tokens("a mind affecting 1 detect effect"))
+    eq((off2[0] == off2[1], on2[0] == on2[1]), (False, True), "rule 2: mind-affecting is mind affecting, 1st-detect is 1 detect")
+    eq(tokens("a full-round action and a 5-foot step"), ["full-round", "action", "5", "foot", "step"], "rule 2: full-round stays one word (an action)")
+    HYPHEN_SPACES[0] = False
+    eq(tokens("a mind-affecting effect"), ["mind-affecting", "effect"], "rule 2 is a rule of the comparison of a feature: other uses of the words keep the hyphen")
+    d2_ = build_draft(parse_import("Intro.\n\n**Counter-Grapple (Ex)**\n\n**Gained:** At 1st Level\n\n**Passive:** A monk who is grappled gains a counter-grapple.\n")[1][0])
+    eq(compare_feature(d2_, "At 1st level, a monk who is grappled gains a counter grapple.", set(tokens("Counter-Grapple")), set()).status, "print",
+       "rule 2: the feature's own hyphenated name is dropped as its parts")
+    eq(cmp_rule("hyphens", "**Gained:** At 1st Level\n\n**Passive:** The transmuter takes a 5-foot step.",
+                "At 1st level, the transmuter takes a 10 foot step.")[1], "hold", "rule 2: a different number is still a hold")
+    # rule 3: a `Prereq: Nth-level` row is print's "must be at least Nth level"
+    imp3 = "**Ability:** A Jistkan artificer can use his arm. He cannot be fooled.\n\n**Prereq:** 13th-level magus and the _shielding arm_ magus arcana.\n"
+    p3 = "A Jistkan artificer can use his arm. He cannot be fooled. The magus must be at least 13th level and have the shielding arm arcana before selecting this arcana."
+    eq(cmp_rule("prereq", imp3, p3), ("hold", "print"), "rule 3: the same level")
+    eq(cmp_rule("prereq", imp3, p3.replace("13th", "14th"))[1], "hold", "rule 3: another level is a hold")
+    # rule 4: a `Usage` row that print says word for word is print's
+    imp4 = "**Ability:** A hunter can speak with animals.\n\n**Usage:** She can use this ability no more than once per minute.\n"
+    eq(cmp_rule("usage", imp4, "A hunter can speak with animals. She can use this ability no more than once per minute.")[1], "print", "rule 4: the row is in print")
+    eq(cmp_rule("usage", imp4, "A hunter can speak with animals. She can use this ability twice per day.")[1], "hold", "rule 4: another usage is held")
+    eq(cmp_rule("usage", "**Ability:** A knight calls an ally.\n\n**Usage:** A number of times per day equal to her Charisma modifier.\n",
+                "A knight calls an ally. This ability can be used a number of times per day equal to her Charisma modifier.")[1], "print",
+       "rule 4: the sentence that holds the row goes out of the comparison")
+    # rule 1: values level by level
+    imp1f = "**Gained:** At 1st Level\n\n**Passive:** A courtly knight gains a bonus on checks. This bonus is equal to 1 + one-fourth of her cavalier level.\n"
+    p1 = "At 1st level, a courtly knight gains a +1 bonus on checks. At 4th level and every 4 cavalier levels thereafter, this bonus increases by 1 (to a maximum of +6 at 20th level)."
+    eq(cmp_rule("values", imp1f, p1), ("hold", "print"), "rule 1: a fraction of the level against a progression with a base")
+    eq(cmp_rule("values", imp1f, p1.replace("every 4", "every 5"))[1], "hold", "rule 1: another step is a hold")
+    imp1r = ("**Gained:** At 2nd Level\n\n**Passive:** An aerochemist gains a +2 bonus on Fly checks.\n\n"
+             "**At 5th Level:** This bonus increases to +4.\n\n**At 8th Level:** This bonus increases to +6.\n")
+    p1r = "At 2nd level, an aerochemist gains a +2 bonus on Fly checks. This bonus increases to +4 at 5th level, and +6 at 8th level."
+    eq(cmp_rule("values", imp1r, p1r), ("hold", "print"), "rule 1: rows against printed steps")
+    eq(cmp_rule("values", imp1r, p1r.replace("+6 at 8th", "+5 at 8th"))[1], "hold", "rule 1: a row that differs is a hold")
+    eq(cmp_rule("values", imp1r, p1r.replace("and +6 at 8th level", "and +6 at 8th level, and +8 at 11th level"))[1], "hold", "rule 1: a step on one side only is a hold")
+    imp1b = ("**Gained:** At 5th Level\n\n**Passive:** A hunter's bonuses in the terrain begin.\n\n**At 10th Level:** The bonuses now increase by 4.\n\n"
+             "**At 15th Level:** The bonuses now increase by 6.\n\n**At 20th Level:** The bonuses now increase by 8.\n")
+    p1b = "At 5th level, a hunter's bonuses in the terrain begin. At 5th level and every 5 levels thereafter, these bonuses increase by 2."
+    eq(cmp_rule("values", imp1b, p1b)[1], "print", "rule 1: rows that sum up to the printed progression")
+    # rule 5: a corpus paragraph that print does not have is a hold; a title that no rule names ends the print span as a hold
+    imp5 = "**Gained:** At 1st Level\n\n**Passive:** A fighter gains a bonus.\n\n**Info:** The extra paragraph that print never states anywhere in the book.\n"
+    imp1d = ("**Gained:** At 4th Level\n\n**Passive:** A druid can see through 10 feet of fog.\n\n**At 8th Level:** His sight increases to 15 feet.\n\n"
+             "**At 12th Level:** His sight increases to 20 feet.\n\n**At 16th Level:** His sight increases to 25 feet.\n\n**At 20th Level:** His sight increases to 30 feet.\n")
+    p1d = "At 4th level, a druid can see through 10 feet of fog. This distance increases by 5 feet for every 4 levels beyond 4th."
+    eq(cmp_rule("values", imp1d, p1d)[1], "print", "rule 1: a distance counts as a value, the base is the number before the progression")
+    eq(cmp_rule("values", imp1d, p1d.replace("by 5 feet", "by 10 feet"))[1], "hold", "rule 1: another step of the distance is a hold")
+    imp5 = ("**Gained:** At 1st Level\n\n**Passive:** A fighter gains a bonus.\n\n"
+            "**Info:** The extra table that print never states anywhere in the book.\n\n|Blessing|Damage type|\n| --- | --- |\n|Air|Electricity|\n")
+    eq(cmp_rule("dropped", imp5, "At 1st level, a fighter gains a bonus."), ("print", "hold"), "rule 5: a dropped table is a hold")
+    ANY_TITLE_ENDS["on"] = True
+    blocks5 = [Para("title", [("Jistkan Magistrate (Warpriest Archetype)", True, False)], 1, 0, 18), Para("para", [("Text.", False, False)], 1, 0),
+               Para("title", [("Channel Element Damage", True, False)], 1, 0, 18), Para("para", [("Blessing", False, False)], 1, 0)]
+    sec5 = find_section(blocks5, "Jistkan Magistrate", {"x"})
+    eq((sec5.end, sec5.end_known), ("Channel Element Damage", False), "rule 5: a table title ends the span as an unknown end")
+    blocks5[2] = Para("title", [("Jistkan Spells", True, False)], 1, 0, 18)
+    sec5 = find_section(blocks5, "Jistkan Magistrate", {"x"})
+    eq((sec5.end, sec5.end_known), ("Jistkan Spells", True), "rule 5: a chapter section ends the span, known")
+    ANY_TITLE_ENDS["on"] = False
     # the printed trade sentences of a span, and the key that finds them in an entry
     span = [Para("para", [("Improvised Maneuver (Ex): At 4th level, a hinyasi learns. This combat maneuver still provokes.", False, False)], 1, 0),
             Para("para", [("This replaces knockout.", False, False)], 1, 0),
@@ -3980,6 +4375,20 @@ def self_test() -> int:
     eq(printed_trade_sentences(span), ["This replaces knockout.", "This alters the warpriest\u2019s blessings."], "printed trade sentences")
     eq(letters_key("This alters the warpriest\u2019s _[blessings](ref/x/y)_.") in letters_key("a\n\nThis alters the warpriest's blessings.\n"), True, "a printed sentence is found in the entry")
     eq(letters_key("This replaces knockout.") in letters_key("At 4th level, a hinyasi learns to confound."), False, "a missing printed sentence")
+    import tempfile
+    from types import SimpleNamespace
+    with tempfile.TemporaryDirectory() as tmp:
+        root = Path(tmp)
+        (root / "scripts").mkdir()
+        (root / "scripts" / "feature-prose-540-demo.sentences.tsv").write_text(
+            "entry\tsentence\nref/arc-x/a\tThis replaces knockout.\nref/arc-x/a\tThis replaces the bonus feats gained at 2nd level.\n"
+            "ref/arc-x/a\tThis ability replaces poison use.\n", encoding="utf-8")
+        (root / "scripts" / "errata.tsv").write_text(
+            "entry\tfield\tbook\tpage\tprinting\tprinted_value\n"
+            "ref/arc-x/a\tf\tb\t1\tp\tText. This ability replaces poison use.\n", encoding="utf-8")
+        ent = SimpleNamespace(id="ref/arc-x/a", body="A feature. This replaces the bonus feats\ngained at 2nd level.\n")
+        got = missing_printed_sentences(root, "demo", [ent])
+        eq([g.split('"')[1] for g in got], ["This replaces knockout."], "a printed sentence that the entry lacks; a recorded errata row explains another")
     # Blood of the Ancients: a title in small capitals sets a capital (size 18, top 469) and its small capitals (size 13, top 474) in one family
     cap = Book({"5": 18, "6": 13, "28": 13}, {1: [(469, 108, 5, "a", 13), (474, 122, 6, "erial", 43), (469, 165, 5, " a", 18), (474, 184, 6, "ssaulter", 71),
                                                   (492, 108, 28, "Body text starts here.", 200), (498, 400, 28, "x", 10)]}, {}, set(), fams={"5": "Didot", "6": "Didot", "28": "Nexus"})
@@ -4130,7 +4539,10 @@ def main() -> int:
     ap.add_argument("--forget-checker-holds", action="store_true",
                     help="--compare: forget the holds that an earlier --write recorded from the checker (after the script or the app changed)")
     ap.add_argument("--checker")
+    ap.add_argument("--rules", default="all", help="the hold rules that are on: all, none, or names joined by + (hyphens, prereq, usage, values, dropped)")
     args = ap.parse_args()
+    for k in RULES:
+        RULES[k] = args.rules == "all" or k in args.rules.split("+")
     global FORGET_CHECKER_HOLDS
     FORGET_CHECKER_HOLDS = args.forget_checker_holds
     if args.self_test:

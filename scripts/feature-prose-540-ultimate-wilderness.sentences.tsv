@@ -1,0 +1,501 @@
+entry	sentence
+ref/arc-alchemist/herbalist	This alters alchemy and the alchemist’s key ability score.
+ref/arc-alchemist/herbalist	This replaces Throw Anything.
+ref/arc-alchemist/herbalist	This replaces bombs, poison use, poison resistance, and poison immunity.
+ref/arc-alchemist/horticulturist	This replaces the mutagen class feature and the discovery normally gained at 2nd level.
+ref/arc-alchemist/horticulturist	This alters the bomb class feature.
+ref/arc-alchemist/horticulturist	This replaces poison resistance, poison use, and poison immunity.
+ref/arc-alchemist/horticulturist	This replaces the discovery gained at 4th level.
+ref/arc-alchemist/horticulturist	This replaces persistent mutagen.
+ref/arc-alchemist/ice-chemist	This alters the bomb class feature.
+ref/arc-alchemist/ice-chemist	This replaces poison resistance and poison immunity.
+ref/arc-alchemist/ice-chemist	This replaces the discovery that the alchemist normally gains at 2nd level.
+ref/arc-antipaladin/blighted-myrmidon	This alters smite good.
+ref/arc-antipaladin/blighted-myrmidon	This alters fiendish boon.
+ref/arc-antipaladin/blighted-myrmidon	This replaces the use of smite good gained at 10th level.
+ref/arc-antipaladin/blighted-myrmidon	This replaces aura of vengeance.
+ref/arc-antipaladin/blighted-myrmidon	This replaces the cruelty gained at 15th level.
+ref/arc-antipaladin/blighted-myrmidon	This alters unholy champion.
+ref/arc-barbarian/brutish-swamper	This alters the barbarian’s skills.
+ref/arc-barbarian/brutish-swamper	This replaces fast movement.
+ref/arc-barbarian/brutish-swamper	This replaces uncanny dodge and improved uncanny dodge.
+ref/arc-barbarian/brutish-swamper	This replaces trap sense.
+ref/arc-barbarian/brutish-swamper	This replaces the rage power normally gained at 6th level.
+ref/arc-barbarian/cave-dweller	This alters the barbarian’s skills.
+ref/arc-barbarian/cave-dweller	This replaces fast movement.
+ref/arc-barbarian/cave-dweller	This replaces trap sense.
+ref/arc-barbarian/cave-dweller	This replaces damage reduction.
+ref/arc-barbarian/pack-hunter	This alters rage power.
+ref/arc-barbarian/pack-hunter	This replaces trap sense.
+ref/arc-barbarian/pack-hunter	This replaces the rage power normally gained at 6th level.
+ref/arc-barbarian/raging-cannibal	This alters the barbarian’s 2nd-level rage power.
+ref/arc-barbarian/raging-cannibal	This replaces uncanny dodge.
+ref/arc-barbarian/raging-cannibal	This replaces trap sense.
+ref/arc-barbarian/raging-cannibal	This replaces improved uncanny dodge.
+ref/arc-barbarian/raging-cannibal	This replaces damage reduction.
+ref/arc-barbarian/sharptooth	This replaces fast movement.
+ref/arc-barbarian/sharptooth	This replaces both uncanny dodge and improved uncanny dodge.
+ref/arc-barbarian/sharptooth	This replaces trap sense.
+ref/arc-barbarian/sharptooth	This replaces the rage powers normally gained at 6th and 12th levels.
+ref/arc-barbarian/wildborn	This alters the barbarian’s normal weapon and armor proficiencies.
+ref/arc-barbarian/wildborn	This replaces trap sense.
+ref/arc-barbarian/wildborn	This alters rage powers.
+ref/arc-barbarian/wildborn	This alters damage reduction.
+ref/arc-bard/cultivator	This alters the bard’s class skills.
+ref/arc-bard/cultivator	This alters the bard’s spells.
+ref/arc-bard/cultivator	This replaces bardic knowledge.
+ref/arc-bard/cultivator	This performance replaces countersong.
+ref/arc-bard/cultivator	This replaces well-versed.
+ref/arc-bard/cultivator	This alters lore master.
+ref/arc-bard/fey-courtier	This replaces dirge of doom and frightening tune.
+ref/arc-bard/fey-courtier	This replaces inspire heroics.
+ref/arc-bard/fey-courtier	This replaces versatile performance.
+ref/arc-bard/fey-courtier	This replaces inspire competence.
+ref/arc-bard/filidh	This alters a bard’s normal armor and weapon proficiencies.
+ref/arc-bard/filidh	This alters the bard’s spellcasting.
+ref/arc-bard/filidh	This performance replaces inspire courage.
+ref/arc-bard/filidh	This performance replaces suggestion.
+ref/arc-bard/filidh	This performance replaces dirge of doom.
+ref/arc-bard/filidh	This performance replaces inspire heroics.
+ref/arc-bard/filidh	This performance replaces deadly performance.
+ref/arc-bard/plant-speaker	This replaces inspire greatness.
+ref/arc-bard/plant-speaker	This replaces bardic knowledge and well-versed.
+ref/arc-bard/plant-speaker	This replaces lore master.
+ref/arc-bard/thundercaller	This replaces bardic knowledge.
+ref/arc-bard/thundercaller	This performance replaces inspire competence.
+ref/arc-bard/thundercaller	This replaces suggestion and mass suggestion.
+ref/arc-bard/thundercaller	This performance replaces dirge of doom.
+ref/arc-bard/thundercaller	This performance replaces frightening tune.
+ref/arc-brawler/feral-striker	This replaces martial flexibility.
+ref/arc-brawler/living-avalanche	This replaces the bonus feats gained at 2nd and 5th levels.
+ref/arc-brawler/living-avalanche	This alters maneuver training.
+ref/arc-brawler/living-avalanche	This replaces the brawler’s AC bonus.
+ref/arc-brawler/living-avalanche	This replaces awesome blow.
+ref/arc-brawler/living-avalanche	This replaces improved awesome blow.
+ref/arc-brawler/turfer	This replaces maneuver training.
+ref/arc-brawler/turfer	This replaces knockout.
+ref/arc-brawler/venomfist	This alters unarmed strike and replaces knockout and close weapon mastery.
+ref/arc-brawler/verdant-grappler	This replaces the bonus feat gained at 2nd level and alters maneuver training.
+ref/arc-brawler/verdant-grappler	This replaces close weapon mastery.
+ref/arc-brawler/verdant-grappler	This replaces the combat feat gained at 11th level.
+ref/arc-cavalier/green-knight	This replaces tactician.
+ref/arc-cavalier/green-knight	This replaces mount.
+ref/arc-cavalier/green-knight	This alters order.
+ref/arc-cavalier/green-knight	This replaces cavalier’s charge.
+ref/arc-cavalier/green-knight	This replaces expert trainer and banner.
+ref/arc-cavalier/green-knight	This replaces greater tactician.
+ref/arc-cavalier/green-knight	This replaces mighty charge and greater banner.
+ref/arc-cavalier/green-knight	This replaces master tactician.
+ref/arc-cavalier/green-knight	This replaces supreme charge.
+ref/arc-cavalier/saurian-champion	This alters the cavalier’s class skills.
+ref/arc-cavalier/saurian-champion	This alters the cavalier’s weapon and armor proficiencies.
+ref/arc-cavalier/saurian-champion	This alters challenge.
+ref/arc-cavalier/saurian-champion	This replaces order.
+ref/arc-cavalier/saurian-champion	This alters the cavalier’s mount and replaces tactician, greater tactician, and master tactician.
+ref/arc-cavalier/saurian-champion	This replaces banner.
+ref/arc-cavalier/saurian-champion	This replaces greater banner.
+ref/arc-companion/aberrant-companion	This replaces share spells.
+ref/arc-companion/aberrant-companion	This replaces devotion.
+ref/arc-companion/aberrant-companion	This replaces Multiattack and the +2 natural armor increase at 9th level.
+ref/arc-companion/ambusher	This replaces share spells and improved evasion.
+ref/arc-companion/ambusher	This replaces evasion, devotion, and Multiattack.
+ref/arc-companion/augmented-companion	This replaces share spells.
+ref/arc-companion/augmented-companion	This replaces devotion.
+ref/arc-companion/auspice	This replaces share spells and evasion.
+ref/arc-companion/auspice	This replaces improved evasion.
+ref/arc-companion/bodyguard	This replaces share spells.
+ref/arc-companion/bodyguard	This replaces evasion.
+ref/arc-companion/bodyguard	This replaces Multiattack.
+ref/arc-companion/bodyguard	This replaces improved evasion.
+ref/arc-companion/bully	This replaces share spells.
+ref/arc-companion/bully	This replaces Multiattack.
+ref/arc-companion/daredevil	This replaces share spells.
+ref/arc-companion/daredevil	This replaces devotion.
+ref/arc-companion/daredevil	This replaces Multiattack.
+ref/arc-companion/deathtouched-companion	This replaces share spells.
+ref/arc-companion/deathtouched-companion	This replaces devotion.
+ref/arc-companion/draconic-companion	This replaces share spells.
+ref/arc-companion/draconic-companion	This replaces evasion.
+ref/arc-companion/draconic-companion	This replaces devotion.
+ref/arc-companion/draconic-companion	This replaces Multiattack and improved evasion.
+ref/arc-companion/feytouched-companion	This replaces the 4th- or 7th-level ability score and size advancement.
+ref/arc-companion/feytouched-companion	This replaces share spells and Multiattack.
+ref/arc-companion/feytouched-companion	This replaces evasion, devotion, and improved evasion.
+ref/arc-companion/precocious-companion	This replaces evasion and improved evasion.
+ref/arc-companion/precocious-companion	This replaces the 4th- or 7th-level ability score advancement.
+ref/arc-companion/racer	This replaces share spells.
+ref/arc-companion/racer	This replaces devotion.
+ref/arc-companion/totem-guide	This replaces evasion.
+ref/arc-companion/totem-guide	This replaces devotion.
+ref/arc-companion/totem-guide	This replaces Multiattack.
+ref/arc-companion/totem-guide	This replaces improved evasion.
+ref/arc-companion/tracker	This replaces share spells and devotion.
+ref/arc-companion/verdant-companion	This replaces share spells, evasion, devotion, and improved evasion.
+ref/arc-companion/wrecker	This replaces share spells and Multiattack.
+ref/arc-druid/aerie-protector	This alters the druid’s weapon and armor proficiency.
+ref/arc-druid/aerie-protector	This alters nature bond.
+ref/arc-druid/aerie-protector	This alters wild empathy.
+ref/arc-druid/aerie-protector	This replaces woodland stride.
+ref/arc-druid/aerie-protector	This replaces resist nature’s lure.
+ref/arc-druid/aerie-protector	This replaces venom immunity.
+ref/arc-druid/dinosaur-druid	This alters spontaneous casting.
+ref/arc-druid/dinosaur-druid	This alters nature’s bond.
+ref/arc-druid/dinosaur-druid	This alters wild shape.
+ref/arc-druid/dinosaur-druid	This replaces resist nature’s lure.
+ref/arc-druid/green-faith-initiate	This replaces trackless step.
+ref/arc-druid/green-faith-initiate	This replaces the druid’s additional daily use of wild shape gained at 6th level.
+ref/arc-druid/green-faith-initiate	This replaces venom immunity.
+ref/arc-druid/green-faith-initiate	This replaces the druid’s additional daily use of wild shape gained at 10th level.
+ref/arc-druid/green-faith-initiate	This replaces a thousand faces.
+ref/arc-druid/leshy-warden	This replaces nature bond.
+ref/arc-druid/leshy-warden	This replaces wild empathy.
+ref/arc-druid/leshy-warden	This alters spontaneous casting.
+ref/arc-druid/leshy-warden	This replaces resist nature’s lure.
+ref/arc-druid/leshy-warden	This alters wild shape.
+ref/arc-druid/leshy-warden	This replaces a thousand faces.
+ref/arc-druid/river-druid	This alters the druid’s class skills and replaces nature sense.
+ref/arc-druid/river-druid	This replaces woodland stride.
+ref/arc-druid/river-druid	This replaces trackless step.
+ref/arc-druid/river-druid	This replaces resist nature’s lure.
+ref/arc-druid/river-druid	This alters wild shape.
+ref/arc-druid/river-druid	This replaces timeless body.
+ref/arc-druid/road-keeper	This replaces spontaneous casting.
+ref/arc-druid/road-keeper	This alters nature bond and replaces wild empathy.
+ref/arc-druid/road-keeper	This replaces woodland stride.
+ref/arc-druid/road-keeper	This replaces resist nature’s lure.
+ref/arc-druid/road-keeper	This replaces wild shape.
+ref/arc-druid/rot-warden	This alters spontaneous casting.
+ref/arc-druid/rot-warden	This alters nature bond.
+ref/arc-druid/rot-warden	This replaces wild empathy.
+ref/arc-druid/rot-warden	This replaces trackless step and venom immunity.
+ref/arc-druid/rot-warden	This replaces resist nature’s lure.
+ref/arc-druid/rot-warden	This alters wild shape.
+ref/arc-druid/season-sage	This replaces wild shape.
+ref/arc-familiar/ambassador	This replaces alertness.
+ref/arc-familiar/ambassador	This replaces the familiar’s Intelligence score advancement.
+ref/arc-familiar/animal-exemplar	This alters speak with animals of its kind and replaces deliver touch spells, spell resistance, and scry on familiar.
+ref/arc-familiar/egotist	This alters alertness and the variable familiar bonus.
+ref/arc-familiar/egotist	This alters speak with master.
+ref/arc-familiar/egotist	This replaces deliver touch spells.
+ref/arc-familiar/egotist	This replaces scry on familiar.
+ref/arc-familiar/emissary	This replaces alertness.
+ref/arc-familiar/emissary	This replaces share spells.
+ref/arc-familiar/emissary	This replaces deliver touch spells.
+ref/arc-familiar/figment	This replaces improved evasion.
+ref/arc-familiar/figment	This replaces deliver touch spells, speak with animals of its kind, and scry on familiar.
+ref/arc-familiar/infiltrator	This alters alertness.
+ref/arc-familiar/infiltrator	This alters share spells.
+ref/arc-familiar/infiltrator	This replaces improved evasion.
+ref/arc-familiar/infiltrator	This replaces speak with animals of its kind.
+ref/arc-familiar/infiltrator	This replaces spell resistance.
+ref/arc-familiar/mascot	This replaces alertness and alters empathic link.
+ref/arc-familiar/mascot	This replaces improved evasion.
+ref/arc-familiar/mascot	This alters share spells.
+ref/arc-familiar/mascot	This alters deliver touch spells.
+ref/arc-familiar/mascot	This replaces speak with master and speak with animals of its kind.
+ref/arc-familiar/mascot	This replaces spell resistance and scry on familiar.
+ref/arc-familiar/mauler	This replaces speak with master and speak with animals of its kind.
+ref/arc-familiar/mauler	This alters the familiar’s Intelligence score advancement.
+ref/arc-familiar/mauler	This replaces deliver touch spells.
+ref/arc-familiar/mauler	This replaces spell resistance.
+ref/arc-familiar/pilferer	This replaces alertness.
+ref/arc-familiar/pilferer	This replaces improved evasion.
+ref/arc-familiar/pilferer	This replaces deliver touch spells.
+ref/arc-familiar/pilferer	This replaces speak with animals of its kind.
+ref/arc-familiar/prankster	This alters empathic link.
+ref/arc-familiar/prankster	This replaces alertness.
+ref/arc-familiar/prankster	This replaces improved evasion and share spells.
+ref/arc-familiar/prankster	This replaces deliver touch spells.
+ref/arc-familiar/prankster	This replaces spell resistance.
+ref/arc-familiar/prankster	This alters scry on familiar.
+ref/arc-familiar/protector	This replaces alertness and improved evasion.
+ref/arc-familiar/protector	This replaces deliver touch spells and speak with animals of its kind.
+ref/arc-familiar/protector	This replaces spell resistance.
+ref/arc-familiar/sage	This alters the familiar’s Intelligence score and natural armor adjustment.
+ref/arc-familiar/sage	This replaces alertness and the familiar’s ability to share its master’s skill ranks.
+ref/arc-familiar/soulbound-familiar	This replaces alertness.
+ref/arc-familiar/soulbound-familiar	This replaces speak with animals of its kind and scry on familiar.
+ref/arc-familiar/valet	This replaces alertness.
+ref/arc-familiar/valet	This replaces share spells.
+ref/arc-familiar/valet	This replaces improved evasion.
+ref/arc-familiar/valet	This alters deliver touch spells.
+ref/arc-familiar/valet	This replaces speak with animals of its kind.
+ref/arc-familiar/valet	This replaces scry on familiar.
+ref/arc-fighter/tribal-fighter	This replaces the fighter feat gained at 1st level.
+ref/arc-fighter/tribal-fighter	This alters weapon training.
+ref/arc-fighter/viking	This alters the fighter’s weapon and armor proficiencies.
+ref/arc-fighter/viking	This replaces bravery.
+ref/arc-fighter/viking	This replaces armor training.
+ref/arc-fighter/viking	This replaces weapon training.
+ref/arc-fighter/viking	This alters the fighter’s bonus feats.
+ref/arc-gunslinger/commando	This alters the gunslinger’s class skills.
+ref/arc-gunslinger/commando	This replaces nimble.
+ref/arc-gunslinger/commando	This replaces the bonus feat gained at 4th level.
+ref/arc-gunslinger/commando	This alters gun training.
+ref/arc-hunter/chameleon-adept	This alters the hunter’s class skills.
+ref/arc-hunter/chameleon-adept	This replaces teamwork feats and hunter’s tactics.
+ref/arc-hunter/chameleon-adept	This replaces wild empathy.
+ref/arc-hunter/chameleon-adept	This replaces precise companion.
+ref/arc-hunter/chameleon-adept	This replaces woodland stride.
+ref/arc-hunter/chameleon-adept	This replaces raise animal companion.
+ref/arc-hunter/chameleon-adept	This alters one with the wild.
+ref/arc-hunter/forester	This alters animal focus.
+ref/arc-hunter/forester	This replaces animal companion.
+ref/arc-hunter/forester	This replaces precise companion.
+ref/arc-hunter/forester	This replaces hunter tactics.
+ref/arc-hunter/forester	This replaces improved empathic link.
+ref/arc-hunter/forester	This replaces bonus tricks.
+ref/arc-hunter/forester	This replaces raise animal companion.
+ref/arc-hunter/forester	This replaces speak with master.
+ref/arc-hunter/forester	This replaces greater empathic link.
+ref/arc-hunter/patient-ambusher	This alters the hunter’s class skills.
+ref/arc-hunter/patient-ambusher	This replaces nature training and wild empathy.
+ref/arc-hunter/patient-ambusher	This replaces the hunter tactics class feature.
+ref/arc-hunter/patient-ambusher	This replaces teamwork feats.
+ref/arc-hunter/patient-ambusher	This replaces raise animal companion.
+ref/arc-hunter/plant-master	This replaces animal companion.
+ref/arc-hunter/plant-master	This replaces animal focus.
+ref/arc-hunter/plant-master	This replaces the wild empathy class feature.
+ref/arc-hunter/plant-master	This replaces one with the wild.
+ref/arc-hunter/plant-master	This alters master hunter.
+ref/arc-hunter/scarab-stalker	This alters animal focus.
+ref/arc-hunter/scarab-stalker	This replaces woodland stride.
+ref/arc-hunter/treestrider	This alters animal companion.
+ref/arc-hunter/treestrider	This replaces animal focus and second animal focus.
+ref/arc-hunter/treestrider	This replaces precise companion.
+ref/arc-hunter/treestrider	This replaces raise animal companion.
+ref/arc-inquisitor/green-faith-marshal	This alters the inquisitor’s domain ability and replaces stern gaze.
+ref/arc-inquisitor/green-faith-marshal	This replaces monster lore.
+ref/arc-inquisitor/green-faith-marshal	This replaces discern lies.
+ref/arc-inquisitor/green-faith-marshal	This replaces stalwart.
+ref/arc-investigator/cartographer	This replaces poison lore and poison resistance.
+ref/arc-investigator/cartographer	This replaces keen recollection.
+ref/arc-investigator/cartographer	This replaces swift alchemy.
+ref/arc-investigator/natural-philosopher	This replaces the investigator’s weapon and armor proficiency.
+ref/arc-investigator/natural-philosopher	This alters the investigator’s class skills.
+ref/arc-investigator/natural-philosopher	This alters inspiration.
+ref/arc-investigator/natural-philosopher	This replaces trapfinding.
+ref/arc-investigator/natural-philosopher	This alters alchemy and replaces trap sense and the investigator talent gained at 3rd level.
+ref/arc-investigator/star-watcher	This alters the investigator’s weapon and armor proficiency.
+ref/arc-investigator/star-watcher	This alters alchemy.
+ref/arc-investigator/star-watcher	This replaces trapfinding and trap sense.
+ref/arc-kineticist/blighted-defiler	This alters the kineticist’s alignment.
+ref/arc-kineticist/blighted-defiler	This alters gather power.
+ref/arc-kineticist/blighted-defiler	This alters the key ability score of wild talents and elemental overflow.
+ref/arc-kineticist/blighted-defiler	This replaces internal buffer.
+ref/arc-kineticist/blighted-defiler	This replaces elemental defense.
+ref/arc-kineticist/blighted-defiler	This replaces omnikinesis.
+ref/arc-kineticist/leshykineticist	This alters element and expanded element, and replaces the 6th- and 10th-level utility wild talents and maximize metakinesis.
+ref/arc-kineticist/leshykineticist	This alters basic phytokinesis.
+ref/arc-kineticist/leshykineticist	This alters internal buffer.
+ref/arc-kineticist/leshykineticist	This replaces omnikinesis.
+ref/arc-kineticist/terrakineticist	This alters elemental focus and kinetic blast.
+ref/arc-kineticist/terrakineticist	This alters elemental defense.
+ref/arc-kineticist/terrakineticist	This replaces expanded element.
+ref/arc-kineticist/terrakineticist	This replaces omnikinesis.
+ref/arc-magus/nature-bonded-magus	This replaces arcane pool.
+ref/arc-magus/nature-bonded-magus	This replaces spell recall.
+ref/arc-magus/nature-bonded-magus	This replaces knowledge pool.
+ref/arc-magus/nature-bonded-magus	This replaces improved spell recall.
+ref/arc-mesmerist/aromaphile	This replaces hypnotic stare, painful stare, and towering ego.
+ref/arc-mesmerist/aromaphile	This replaces bold stare.
+ref/arc-mesmerist/aromaphile	This alters touch treatment and replaces mental potency.
+ref/arc-monk/menhir-guardian	This alters the monk’s alignment requirement.
+ref/arc-monk/menhir-guardian	This replaces the monk’s weapon and armor proficiency.
+ref/arc-monk/menhir-guardian	This replaces unarmed strike and alters ki pool.
+ref/arc-monk/menhir-guardian	This alters furry of blows.
+ref/arc-monk/menhir-guardian	This replaces stunning fist, high jump, and quivering palm.
+ref/arc-monk/wasteland-meditant	This replaces stunning fist.
+ref/arc-monk/wasteland-meditant	This replaces evasion.
+ref/arc-monk/wasteland-meditant	This replaces slow fall.
+ref/arc-monk/wasteland-meditant	This replaces improved evasion.
+ref/arc-monk/wasteland-meditant	This replaces quivering palm.
+ref/arc-monk/water-dancer	This replaces flurry of blows, stunning fist, and quivering palm.
+ref/arc-monk/water-dancer	This replaces the bonus feat the monk normally gains at 1st level.
+ref/arc-monk/water-dancer	This alters unarmed strike.
+ref/arc-monk/water-dancer	This replaces evasion.
+ref/arc-monk/water-dancer	This replaces the bonus feats at 2nd, 6th, 10th, 14th, and 18th levels.
+ref/arc-monk/water-dancer	This replaces slow fall.
+ref/arc-monk/water-dancer	This replaces improved evasion.
+ref/arc-monk/water-dancer	This replaces abundant step.
+ref/arc-occultist/geomancer	This alters the occultist’s class skills.
+ref/arc-occultist/geomancer	This alters mental focus.
+ref/arc-occultist/geomancer	This alters implements.
+ref/arc-occultist/geomancer	This replaces magic item skill.
+ref/arc-occultist/geomancer	This replaces aura sight.
+ref/arc-occultist/geomancer	This replaces the focus power gained at 7th level.
+ref/arc-occultist/geomancer	This replaces the focus power gained at 13th level.
+ref/arc-occultist/naturalist	This alters the occultist’s class skills.
+ref/arc-occultist/naturalist	This alters mental focus and replaces magic circles and fast circles.
+ref/arc-occultist/naturalist	This replaces outside contact.
+ref/arc-occultist/naturalist	This replaces binding circles.
+ref/arc-occultist/occult-historian	This replaces object reading and aura sight.
+ref/arc-occultist/occult-historian	This replaces the focus power gained at 3rd level.
+ref/arc-occultist/occult-historian	This replaces outside contact 2, 3, and 4.
+ref/arc-oracle/elementalist-oracle	This replaces final revelation.
+ref/arc-oracle/river-soul	This replaces the class skills granted by the oracle’s mystery and alters the oracle’s class skills.
+ref/arc-oracle/river-soul	This replaces oracle’s curse.
+ref/arc-oracle/river-soul	This replaces final revelation.
+ref/arc-oracle/tree-soul	This replaces the class skills granted by the oracle’s mystery and class skills.
+ref/arc-oracle/tree-soul	This replaces oracle’s curse.
+ref/arc-oracle/tree-soul	This replaces final revelation.
+ref/arc-paladin/forest-preserver	This alters the paladin’s class skills.
+ref/arc-paladin/forest-preserver	This replaces aura of courage.
+ref/arc-paladin/forest-preserver	This replaces divine health.
+ref/arc-paladin/forest-preserver	This replaces channel positive energy.
+ref/arc-paladin/forest-preserver	This replaces aura of resolve.
+ref/arc-paladin/forest-preserver	This replaces aura of justice.
+ref/arc-paladin/forest-preserver	This replaces aura of faith.
+ref/arc-paladin/hunting-paladin	This alters the paladin’s class skills.
+ref/arc-paladin/hunting-paladin	This alters the paladin’s armor proficiencies.
+ref/arc-paladin/hunting-paladin	This replaces the use of smite evil gained at 1st level.
+ref/arc-paladin/hunting-paladin	This alters detect evil.
+ref/arc-paladin/hunting-paladin	This alters smite evil.
+ref/arc-paladin/hunting-paladin	This alters spells.
+ref/arc-paladin/hunting-paladin	This replaces aura of resolve.
+ref/arc-paladin/wilderness-warden	This alters the paladin’s class skills.
+ref/arc-paladin/wilderness-warden	This replaces divine grace.
+ref/arc-paladin/wilderness-warden	This alters smite evil.
+ref/arc-paladin/wilderness-warden	This replaces aura of courage.
+ref/arc-paladin/wilderness-warden	This replaces the mercies gained at 3rd level , 9th level, and 15th level.
+ref/arc-paladin/wilderness-warden	This alters the paladin’s spells.
+ref/arc-paladin/wilderness-warden	This replaces aura of resolve.
+ref/arc-paladin/wilderness-warden	This replaces aura of justice.
+ref/arc-ranger/flamewarden	This replaces hunter’s bond.
+ref/arc-ranger/flamewarden	This alters the ranger’s spells.
+ref/arc-ranger/flamewarden	This replaces evasion.
+ref/arc-ranger/flamewarden	This replaces camouflage.
+ref/arc-ranger/flamewarden	This replaces improved evasion and master hunter.
+ref/arc-ranger/stormwalker	This alters the ranger’s combat style.
+ref/arc-ranger/stormwalker	This replaces hunter’s bond.
+ref/arc-ranger/stormwalker	This replaces swift tracker.
+ref/arc-ranger/stormwalker	This replaces quarry.
+ref/arc-ranger/stormwalker	This replaces improved evasion.
+ref/arc-ranger/stormwalker	This replaces improved quarry.
+ref/arc-ranger/summit-sentinel	This replaces the ranger’s combat style feats.
+ref/arc-ranger/summit-sentinel	This alters favored terrain.
+ref/arc-ranger/summit-sentinel	This alters the ranger’s spells.
+ref/arc-ranger/summit-sentinel	This replaces swift tracker.
+ref/arc-ranger/summit-sentinel	This replaces hide in plain sight.
+ref/arc-ranger/tidal-hunter	This replaces wild empathy and the 6th- level combat style feat.
+ref/arc-ranger/tidal-hunter	This replaces track and camouflage.
+ref/arc-ranger/tidal-hunter	This alters favored terrain.
+ref/arc-ranger/tidal-hunter	This replaces woodland stride.
+ref/arc-ranger/tidal-hunter	This replaces improved evasion.
+ref/arc-ranger/toxic-herbalist	This replaces wild empathy.
+ref/arc-ranger/toxic-herbalist	This replaces endurance.
+ref/arc-ranger/toxic-herbalist	This replaces hunter’s bond.
+ref/arc-ranger/toxic-herbalist	This replaces swift tracker.
+ref/arc-ranger/toxic-herbalist	This replaces quarry.
+ref/arc-ranger/toxic-herbalist	This replaces improved quarry.
+ref/arc-ranger/wild-soul	This replaces favored enemy.
+ref/arc-ranger/wild-soul	This replaces swift tracker.
+ref/arc-ranger/wild-soul	This replaces quarry.
+ref/arc-ranger/wild-soul	This replaces improved quarry.
+ref/arc-ranger/wild-soul	This replaces master hunter.
+ref/arc-ranger/wilderness-explorer	This alters the ranger’s class skills.
+ref/arc-ranger/wilderness-explorer	This replaces wild empathy.
+ref/arc-ranger/wilderness-explorer	This replaces hunter’s bond.
+ref/arc-ranger/wilderness-explorer	This replaces swift tracker and alters favored terrain.
+ref/arc-ranger/wilderness-explorer	This replaces quarry and alters favored terrain.
+ref/arc-ranger/wilderness-explorer	This replaces improved quarry and alters favored terrain.
+ref/arc-rogue/desert-raider	This alters the rogue’s class skills.
+ref/arc-rogue/desert-raider	This replaces trapfinding.
+ref/arc-rogue/desert-raider	This replaces the rogue talent gained at 2nd level.
+ref/arc-rogue/desert-raider	This replaces trap sense.
+ref/arc-rogue/fey-prankster	This replaces trapfinding.
+ref/arc-rogue/fey-prankster	This replaces the rogue talent gained at 2nd level.
+ref/arc-rogue/fey-prankster	This replaces uncanny dodge and improved uncanny dodge.
+ref/arc-rogue/fey-prankster	This replaces the rogue talent gained at 6th level.
+ref/arc-rogue/fey-prankster	This replaces the rogue talent gained at 8th level.
+ref/arc-rogue/fey-prankster	This replaces the rogue talent gained at 12th level.
+ref/arc-rogue/river-rat	This alters the rogue’s class skills.
+ref/arc-rogue/river-rat	This replaces trapfinding.
+ref/arc-rogue/river-rat	This replaces trap sense.
+ref/arc-rogue/sly-saboteur	This alters the rogue’s class skills.
+ref/arc-rogue/sly-saboteur	This replaces trap sense.
+ref/arc-rogue/sly-saboteur	This replaces uncanny dodge.
+ref/arc-rogue/sly-saboteur	This replaces improved uncanny dodge.
+ref/arc-rogue/sylvan-trickster	This alters the rogue’s class skills.
+ref/arc-rogue/sylvan-trickster	This replaces trapfinding.
+ref/arc-rogue/sylvan-trickster	This alters rogue talents.
+ref/arc-rogue/sylvan-trickster	This replaces uncanny dodge.
+ref/arc-rogue/sylvan-trickster	This replaces improved uncanny dodge.
+ref/arc-shifter/elementalist-shifter	This alters the shifter’s languages.
+ref/arc-shifter/elementalist-shifter	This alters shifter aspect.
+ref/arc-shifter/elementalist-shifter	This replaces wild empathy.
+ref/arc-shifter/elementalist-shifter	This replaces shifter claws.
+ref/arc-shifter/elementalist-shifter	This alters wild shape.
+ref/arc-shifter/elementalist-shifter	This replaces chimeric aspect and greater chimeric aspect.
+ref/arc-shifter/fiendflesh-shifter	This alters the shifter’s alignment.
+ref/arc-shifter/fiendflesh-shifter	This alters shifter claws.
+ref/arc-shifter/fiendflesh-shifter	This replaces wild shape, shifter aspect, and all improvements to shifter aspect.
+ref/arc-shifter/fiendflesh-shifter	This replaces defensive instinct.
+ref/arc-shifter/fiendflesh-shifter	This replaces chimeric aspect.
+ref/arc-shifter/fiendflesh-shifter	This replaces greater chimeric aspect.
+ref/arc-shifter/leafshifter	This alters shifter claws.
+ref/arc-shifter/leafshifter	This alters shifter aspect.
+ref/arc-shifter/rageshaper	This alters the shifter’s alignment.
+ref/arc-shifter/rageshaper	This replaces wild shape, shifter aspect, and all improvements to shifter aspect.
+ref/arc-shifter/rageshaper	This alters shifter claws.
+ref/arc-shifter/rageshaper	This replaces defensive instinct, chimeric aspect, and greater chimeric aspect.
+ref/arc-shifter/rageshaper	This replaces woodland stride.
+ref/arc-shifter/rageshaper	This replaces trackless step.
+ref/arc-shifter/verdant-shifter	This replaces wild empathy.
+ref/arc-shifter/verdant-shifter	This replaces shifter aspect and all improvements of shifter aspect.
+ref/arc-shifter/verdant-shifter	This replaces defensive instinct.
+ref/arc-shifter/verdant-shifter	This alters wild shape and replaces chimeric form and greater chimeric form.
+ref/arc-shifter/weretouched	This alters her other class features, as detailed in each relevant class feature.
+ref/arc-shifter/weretouched	This alters shifter aspect and all of its improvements.
+ref/arc-shifter/weretouched	This alters wild empathy.
+ref/arc-shifter/weretouched	This alters wild shape.
+ref/arc-skald/bacchanal	This replaces Scribe Scroll.
+ref/arc-skald/bacchanal	This replaces versatile performance.
+ref/arc-skald/boaster	This replaces Scribe Scroll.
+ref/arc-skald/boaster	This replaces song of the fallen.
+ref/arc-skald/boaster	This alters the skald’s rage powers.
+ref/arc-skald/boaster	This replaces the rage power gained at 6th level.
+ref/arc-skald/hunt-caller	This replaces spell kenning.
+ref/arc-skald/hunt-caller	This replaces the rage power gained at 6th level.
+ref/arc-slayer/avalancher	This replaces studied target.
+ref/arc-slayer/avalancher	This replaces track and swift tracker.
+ref/arc-slayer/avalancher	This replaces stalker.
+ref/arc-slayer/avalancher	This replaces quarry and improved quarry.
+ref/arc-slayer/avalancher	This replaces master slayer.
+ref/arc-slayer/dune-rider	This replaces track and fast tracker.
+ref/arc-slayer/dune-rider	This replaces studied target.
+ref/arc-slayer/dune-rider	This replaces stalker and the slayer talent normally gained at 4th level.
+ref/arc-slayer/dune-rider	This replaces the slayer talent normally gained at 8th level.
+ref/arc-slayer/dune-rider	This replaces master slayer.
+ref/arc-slayer/guerrilla	This replaces track and swift tracker.
+ref/arc-slayer/guerrilla	This replaces the 6th-level slayer talent.
+ref/arc-slayer/guerrilla	This replaces quarry and improved quarry.
+ref/arc-slayer/woodland-sniper	This replaces track.
+ref/arc-slayer/woodland-sniper	This alters sneak attack.
+ref/arc-slayer/woodland-sniper	This replaces stalker.
+ref/arc-slayer/woodland-sniper	This replaces swift tracker and slayer’s advance.
+ref/arc-summoner/leshy-caller	This alters the summoner’s eidolon.
+ref/arc-summoner/leshy-caller	This alters summon monster.
+ref/arc-swashbuckler/arrow-champion	This alters panache.
+ref/arc-swashbuckler/arrow-champion	This replaces swashbuckler weapon training.
+ref/arc-swashbuckler/arrow-champion	This alters swashbuckler weapon mastery.
+ref/arc-swashbuckler/wildstrider	This alters the swashbuckler’s class skills.
+ref/arc-unchained-summoner/leshy-caller	This alters the summoner’s eidolon.
+ref/arc-unchained-summoner/leshy-caller	This alters summon monster.
+ref/arc-vigilante/avenging-beast	This alters the vigilante’s class skills.
+ref/arc-vigilante/avenging-beast	This alters the vigilante’s skill ranks per level.
+ref/arc-vigilante/avenging-beast	This alters dual identity.
+ref/arc-vigilante/avenging-beast	This replaces the vigilante talents gained at 4th, 8th, 10th, 14th, and 16th level.
+ref/arc-vigilante/avenging-beast	This replaces vigilante specialization.
+ref/arc-vigilante/avenging-beast	This replaces startling appearance, frightening appearance, and stunning appearance.
+ref/arc-warpriest/feral-champion	This alters blessings.
+ref/arc-warpriest/feral-champion	This alters sacred weapon.
+ref/arc-warpriest/feral-champion	This replaces sacred armor.
+ref/arc-witch/flood-walker	This alters the witch’s class skills.
+ref/arc-witch/flood-walker	This alters the witch’s patron spells.
+ref/arc-witch/flood-walker	This replaces the hex gained at 1st level.
+ref/arc-witch/flood-walker	This replaces the hex gained at 6th level.
+ref/arc-witch/flood-walker	This replaces the hex gained at 10th level.
+ref/arc-witch/herb-witch	This alters the witch’s patron spells.
+ref/arc-witch/herb-witch	This replaces the hexes gained at 1st and 10th levels.
+ref/arc-witch/season-witch	This alters patron and the hex gained at 1st level.

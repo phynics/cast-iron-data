@@ -36,7 +36,7 @@ ref/arc-barbarian/sea-reaver	Rage Powers	rage-powers	no		print	print	print aster
 ref/arc-barbarian/titan-mauler	Big Game Hunter (Ex)	big-game-hunter	yes	1	print	print	opening text written from print: the import differs in —; level 1: replaces Fast movement, of which one is gained at 1st level in the class table; print: Ultimate Combat, 3rd printing	30	6efb2fd9877a5008c2e05675f41008ca44186a66b284e9976d77ed408826a31a
 ref/arc-barbarian/titan-mauler	Jotungrip (Ex)	jotungrip	yes	2	print	print		30	6c2250fc5082a2024574490496a90ec595c74d0c870a80075c2cba1ecae2a71a
 ref/arc-barbarian/titan-mauler	Massive Weapons (Ex)	massive-weapons	yes	3	print	print	hand review (ruling 14, print): print's wording is taken: the values that the corpus restates as rows, fractions or a longer text equal print's, checked sentence by sentence; where print has a rule or value that the corpus lacks, print wins. The printing errata names this entry.; link not placed: one-third	30	5bcb25be15bede0662a6bd31a8beeb94d06f23e5b589c24ff0fc26bd70b3075e
-ref/arc-barbarian/titan-mauler	Evade Reach (Ex)	evade-reach	yes	5	print	print	ruling 10: corpus text that print does not have is dropped: “At 5th level, as a swift action, …”	30	bd68e4f6de631e2b37be1ae639cc14d447247eecb320b0fd760a8a9ecea07d9f
+ref/arc-barbarian/titan-mauler	Evade Reach (Ex)	evade-reach	yes	5	print	print	rule 1: the corpus rows and the printed values agree level by level; print's wording taken; ruling 10: corpus text that print does not have is dropped: “At 5th level, as a swift action, …”	30	bd68e4f6de631e2b37be1ae639cc14d447247eecb320b0fd760a8a9ecea07d9f
 ref/arc-barbarian/titan-mauler	Titanic Rage (Su)	titanic-rage	yes	14	print	print		30	92e5377b3b4c5b861b4c78ef18e1163216149bd4f38acb428acf27a632f14f36
 ref/arc-barbarian/titan-mauler	Rage Powers	rage-powers	no		print	print	print asterisks without their key dropped	30	f391884b076315357fe72fa23dd36396049214324aab4793d59922304c5129c6
 ref/arc-barbarian/true-primitive	Weapon and Armor Proficiency	weapon-and-armor-proficiency	no		draft	draft	print: Ultimate Combat, 3rd printing	30	7e5c3e06bd2f6244e2b0f9f6506dd40ac9a767f2ab00fc5731e2e5d4c8460413
@@ -54,7 +54,7 @@ ref/arc-barbarian/wild-rager	Wild Fighting (Ex)	wild-fighting	yes	2	print	print	
 ref/arc-barbarian/wild-rager	Rage Conversion (Ex)	rage-conversion	yes	5	print	print		31	b286c4302cb5f2db5c37252801bfe421e1604e6ff143b375d0b1068d89f805bf
 ref/arc-barbarian/wild-rager	Rage Powers	rage-powers	no		print	print	print asterisks without their key dropped; misprint fixed: print has "bloody blow", written "[bleeding blow](ref/ragepower/bleeding-blow)" (the rage power is bleeding blow (Advanced Player's Guide); there is no bloody blow); link not placed: bleeding blow	31	a8699d0f0b692101da2c9039dc03eb93a0faf265c09d3fa0e17d42d1382ea504
 ref/arc-bard/archaeologist	Bardic Performance	bardic-performance	yes		draft	draft	opening text written from print: the import differs in rogue-like, roguelike; print: Ultimate Combat, 3rd printing	32	042bbfa1267627ab30454a10832583f292458fc2b90b94ee259d76bb3937023a
-ref/arc-bard/archaeologist	Archaeologist's Luck (Ex)	archaeologist-s-luck	yes		print	print	hand review (ruling 14, print): print's wording is taken: the values that the corpus restates as rows, fractions or a longer text equal print's, checked sentence by sentence; where print has a rule or value that the corpus lacks, print wins.	32	984c0e402e5541f5eb46393204a991f667d5d9390298dea5f0ead314ecf7fca4
+ref/arc-bard/archaeologist	Archaeologist's Luck (Ex)	archaeologist-s-luck	yes		print	print	rule 1: the corpus rows and the printed values agree level by level; print's wording taken	32	984c0e402e5541f5eb46393204a991f667d5d9390298dea5f0ead314ecf7fca4
 ref/arc-bard/archaeologist	Clever Explorer (Ex)	clever-explorer	yes	2	print	print		32	42fef271922ff5daa19367ed201e3e8cae33e131ab998a450b192702fd184bd5
 ref/arc-bard/archaeologist	Uncanny Dodge (Ex)	uncanny-dodge	yes	2	print	print		32	64b88da4f033856ec9c53577c55da0642f223d9414481b5d47405b170ab7c92a
 ref/arc-bard/archaeologist	Trap Sense (Ex)	trap-sense	yes	3	print	print	hand review (ruling 14, print): print's wording is taken: the values that the corpus restates as rows, fractions or a longer text equal print's, checked sentence by sentence; where print has a rule or value that the corpus lacks, print wins.	32	9005c865c857927af4c073442745fe889b8e085e2198fee826cd9ce9659883a5
@@ -154,7 +154,7 @@ ref/arc-fighter/armor-master	Deflective Shield (Ex)	deflective-shield	yes	2	prin
 ref/arc-fighter/armor-master	Armored Defense (Ex)	armored-defense	yes	5	print	print		44	cea858ba421e8cb91e73cb77cb8acf2fea11a42fbf9db044f2d18ba8e36d700b
 ref/arc-fighter/armor-master	Fortification (Ex)	fortification	yes	9	print	print	printed cross-reference left out	44	23e5457e1faea1502d6d9737f355b4187e49c2089caf71b6cbedcb761dfe2c1d
 ref/arc-fighter/armor-master	Indestructible (Ex)	indestructible	yes	20	print	print		44	3131a19dd905795a6f32fdd877d7538a945ea8ca50860d9ed38b2addae824b90
-ref/arc-fighter/brawler	Close Control (Ex)	close-control	yes	2	print	print	opening note that print does not have dropped (ruling 10): “> _**Note:** This is a fighter archetype, and has …”; print: Ultimate Combat, 3rd printing	44	a99d658b146e76f2fe5ea3ed893569be001ff4fe27fad3bde1168631110d7b9a
+ref/arc-fighter/brawler	Close Control (Ex)	close-control	yes	2	print	print	rule 1: the corpus rows and the printed values agree level by level; print's wording taken; opening note that print does not have dropped (ruling 10): “> _**Note:** This is a fighter archetype, and has …”; print: Ultimate Combat, 3rd printing	44	a99d658b146e76f2fe5ea3ed893569be001ff4fe27fad3bde1168631110d7b9a
 ref/arc-fighter/brawler	Close Combatant (Ex)	close-combatant	yes	3	print	print		44	8bd49460b6fd16e52795463281f11f1e1c96087b60bf9bbcbed92b4f7660cd8f
 ref/arc-fighter/brawler	Menacing Stance (Ex)	menacing-stance	yes	7	print	print		44	91419522ff80b20ba8102c0fa94a5ec3f38f71927b0c3de6b2ecdec7bf4a8574
 ref/arc-fighter/brawler	No Escape (Ex)	no-escape	yes	9	print	print		44	e5b0f0315e77edfcc6d14cfb56f8a286be273d2eb1ca3abc00226932b2b58eb1
@@ -179,9 +179,9 @@ ref/arc-fighter/brawler	Thrown	thrown	no			print	hand review (ruling 18, structu
 ref/arc-fighter/brawler	Siege Engines	siege-engines	no			print	hand review (ruling 18, structural): a weapon group of the Expanded Weapon Groups sidebar, written as a paragraph of that section (edits file)	45	
 ref/arc-fighter/cad	Weapon and Armor Proficiency	weapon-and-armor-proficiency	no		print	print	ruling 10: corpus text that print does not have is dropped: “acro, bluff, ea, soh, stl …”; print: Ultimate Combat, 3rd printing	45	d1b8e97d29a0797a34248e6cdb015d86c5d438a0daf8fb006f0c2974a19edfe3
 ref/arc-fighter/cad	Skills	skills	no		print	print	head printed, not in the import: added from print	45	
-ref/arc-fighter/cad	Dirty Maneuvers (Ex)	dirty-maneuvers	yes	2	print	print		45	d62c25714f5eff911ff8262fdb2e071b69a739e1d32c8b42b163cb34351fee36
+ref/arc-fighter/cad	Dirty Maneuvers (Ex)	dirty-maneuvers	yes	2	print	print	rule 1: the corpus rows and the printed values agree level by level; print's wording taken	45	d62c25714f5eff911ff8262fdb2e071b69a739e1d32c8b42b163cb34351fee36
 ref/arc-fighter/cad	Catch Off-Guard	catch-off-guard	yes	3	print	print		46	7b1ef135726a4a936cd27b5cfa423f6e552a229730308109708c9f216eee33b4
-ref/arc-fighter/cad	Payback (Ex)	payback	yes	5	print	print		46	cc8c19767eccd551720fce618be5bcebfb6d56072fac58d0574caa6606f42a90
+ref/arc-fighter/cad	Payback (Ex)	payback	yes	5	print	print	rule 1: the corpus rows and the printed values agree level by level; print's wording taken	46	cc8c19767eccd551720fce618be5bcebfb6d56072fac58d0574caa6606f42a90
 ref/arc-fighter/cad	Deadly Surprise (Ex)	deadly-surprise	yes	7	print	print		46	b61f40072670ed366ad5c07da5344a5e606292019222b7e05b0344ef9addb2b2
 ref/arc-fighter/cad	Razor-Sharp Chair Leg (Ex)	razor-sharp-chair-leg	yes	9	print	print		46	a8a7597ad434e4ca1ab04a692a7abf947c1e9179e31c13337d2718e9625c9b42
 ref/arc-fighter/cad	Craven Combatant (Ex)	craven-combatant	yes	11	print	print		46	c4d9872d315fd726b82900d820ebe93879bf1c718a33857b7a8ce9d3920cf109
@@ -192,7 +192,7 @@ ref/arc-fighter/dragoon	Weapon and Armor Proficiency	weapon-and-armor-proficienc
 ref/arc-fighter/dragoon	Skilled Rider (Ex)	skilled-rider	yes	1	print	print		46	3c284cb6e03eb78af641be12862d05b19f36b8461a8ad8482153dba7cb52de7e
 ref/arc-fighter/dragoon	Spear Training (Ex)	spear-training	yes	5	print	print		46	a64081097dbd77974b7007262c1e5dcd29105d2dd4d2a158f743ec69a9b4a773
 ref/arc-fighter/dragoon	Spinning Lance (Ex)	spinning-lance	yes	7	print	print		46	0340e5428fbd69a8445fc1f05273c451490a233740173931a0737e6205488466
-ref/arc-fighter/dragoon	Banner (Ex)	banner	yes	9	print	print	printed cross-reference left out	47	1d849d389f4e9f85d88b4afe1e879fb3d1270cf412ffb1582e5fb39682bc62f1
+ref/arc-fighter/dragoon	Banner (Ex)	banner	yes	9	print	print	rule 1: the corpus rows and the printed values agree level by level; print's wording taken; printed cross-reference left out	47	1d849d389f4e9f85d88b4afe1e879fb3d1270cf412ffb1582e5fb39682bc62f1
 ref/arc-fighter/dragoon	Piercing Lance (Ex)	piercing-lance	yes	11	print	print		47	2c8672c051f44d3f0e96110c2b6bab11964cc86bb644065c443c14e6801c65f4
 ref/arc-fighter/dragoon	Leaping Lance (Ex)	leaping-lance	yes	15	print	print	ruling 10: corpus text that print does not have is dropped: “This ability qualifies you for the [Rebounding …”; link not placed: Rebounding Leap	47	a7e9f586ea7a5802a0e1e72f464a812f6a6c5f802ad5e7d6be6edc123269b6bb
 ref/arc-fighter/dragoon	Weapon Mastery	weapon-mastery	yes		print	print		47	78a3196ad40065d04edf6c0752c9659ab91866b0e55d457ed44be541bdebfa38
@@ -203,7 +203,7 @@ ref/arc-fighter/gladiator	Fame (Ex)	fame	yes	2	print	print		47	a737ade9d3a451238
 ref/arc-fighter/tactician	Weapon and Armor Proficiency	weapon-and-armor-proficiency	no		print	print	head printed, not in the import: added from print; print: Ultimate Combat, 3rd printing	47	
 ref/arc-fighter/tactician	Strategic Training (Ex)	strategic-training	yes	1	print	print	level from the trade	47	e02c898db621fa5c56201c00f8d590feffe2e6d329306375daa6aefc960e1ce5
 ref/arc-fighter/tactician	Bonus Feats	bonus-feats	no		draft	draft		47	0bbb0c6f85bbe1a99bf6c7ac7258e7c816cb10564a204b6e6b53d40a12d07425
-ref/arc-fighter/tactician	Tactical Awareness (Ex)	tactical-awareness	yes	2	print	print		47	b9dfde27a6c4447d9790880a58ea4578bc75e3a75c22461f1580da12dd5c378e
+ref/arc-fighter/tactician	Tactical Awareness (Ex)	tactical-awareness	yes	2	print	print	rule 1: the corpus rows and the printed values agree level by level; print's wording taken	47	b9dfde27a6c4447d9790880a58ea4578bc75e3a75c22461f1580da12dd5c378e
 ref/arc-fighter/tactician	Tactician (Ex)	tactician	yes	5	print	print	printed cross-reference left out	47	6b0eb4a645ff49c406b8770313f175030e5c0d761543b9ec1fd0115b019c9114
 ref/arc-fighter/tactician	Cooperative Combatant (Ex)	cooperative-combatant	yes	11	print	print	printed cross-reference left out	47	985754c4ef6926b8b8a8816bb378d6f62d8f60bc2ee650d9c341968ed049833b
 ref/arc-fighter/tactician	Battle Insight (Ex)	battle-insight	yes	15	print	print		47	106485dec48d65aeeb66494079db7fe859453f44a5d29d5d592eaa2b37539952
@@ -215,7 +215,7 @@ ref/arc-fighter/thunderstriker	Hammer and Anvil (Ex)	hammer-and-anvil	yes	13	pri
 ref/arc-fighter/thunderstriker	Buckler Defense (Ex)	buckler-defense	yes	15	print	print		48	6d632bca9c65341a6dafad23f3f48682ddf26e6b970256c53d45aa53a10e9ebe
 ref/arc-fighter/thunderstriker	Balanced Bashing (Ex)	balanced-bashing	yes	17	print	print		48	ab28f7a0e14500e01dbd5246334f421704a0962d5d20335a8d2568b9e18bf188
 ref/arc-fighter/thunderstriker	Improved Buckler Defense (Ex)	improved-buckler-defense	yes	19	print	print		48	8928f5a1900a7bf3183c748dff76964fed53cc3deb535ebad3b5afe0135d02ef
-ref/arc-fighter/tower-shield-specialist	Burst Barrier (Ex)	burst-barrier	yes	2	print	print	print: Ultimate Combat, 3rd printing	48	a843cec7d0d9a6fe9772c571f85b95b83e260e6e6f16af796c288d41a5ddfec7
+ref/arc-fighter/tower-shield-specialist	Burst Barrier (Ex)	burst-barrier	yes	2	print	print	rule 1: the corpus rows and the printed values agree level by level; print's wording taken; print: Ultimate Combat, 3rd printing	48	a843cec7d0d9a6fe9772c571f85b95b83e260e6e6f16af796c288d41a5ddfec7
 ref/arc-fighter/tower-shield-specialist	Tower Shield Training (Ex)	tower-shield-training	yes	3	draft	draft		48	d5bb4a06c4c80ae5b83587c42b22e9f08d50f5a8d8a977cbe9e2342cbc4264e7
 ref/arc-fighter/tower-shield-specialist	Tower Shield Specialist (Ex)	tower-shield-specialist	yes	5	print	print		48	7bdaebec48a1ab9df6b450d53a961f0afd9bf1a36a9a624bd382bfdb67fa95fc
 ref/arc-fighter/tower-shield-specialist	Tower Shield Defense (Ex)	tower-shield-defense	yes	9	print	print		48	22bd95b62bc2148288d1ceba8e0adc7ca02fb4472d11994f8f8dbfa35ffd6107
@@ -223,7 +223,7 @@ ref/arc-fighter/tower-shield-specialist	Immediate Repositioning (Ex)	immediate-r
 ref/arc-fighter/tower-shield-specialist	Tower Shield Evasion (Ex)	tower-shield-evasion	yes	16	print	print		48	73d9f6057513d476f436dc0a7b7760bc9907824719a956f70caaee6a44ff570c
 ref/arc-fighter/unarmed-fighter	Weapon and Armor Proficiency	weapon-and-armor-proficiency	no		draft	draft	print: Ultimate Combat, 3rd printing	48	eccaee25f4567d82f19e7167178b80354f4979f74d72a0d48266036a20240ede
 ref/arc-fighter/unarmed-fighter	Unarmed Style	unarmed-style	yes	1	print	print		48	3914930e324d7c988d3bb0d43dc21df6cec63ad23e63dcc97885083e38d532e7
-ref/arc-fighter/unarmed-fighter	Harsh Training (Ex)	harsh-training	yes	2	print	print		48	f69d3690a9fa33e66a98aed006173fd112d0a9fb8fe21b44ba01571349657d65
+ref/arc-fighter/unarmed-fighter	Harsh Training (Ex)	harsh-training	yes	2	print	print	rule 1: the corpus rows and the printed values agree level by level; print's wording taken	48	f69d3690a9fa33e66a98aed006173fd112d0a9fb8fe21b44ba01571349657d65
 ref/arc-fighter/unarmed-fighter	Tough Guy (Ex)	tough-guy	yes	3	print	print		49	1b8d02aa0984c758489b99630a3168a9d5208108bbf676e46e5e63cba75b9cf5
 ref/arc-fighter/unarmed-fighter	Weapon Training (Ex)	weapon-training	yes	5	print	print	ruling 10: corpus text that print does not have is dropped: “At 5th level, an unarmed fighter gains …”	49	bce08671ff4479204666da9c2ae4ca81feb43e71ede346e6f5edff4176d16d22
 ref/arc-fighter/unarmed-fighter	Clever Wrestler (Ex)	clever-wrestler	yes	7	print	print		49	15e2a46e70d723e6d3c99ba14d2abec18714c12dda1f12395dbc2e4c82181e80
@@ -235,7 +235,7 @@ ref/arc-fighter/unarmed-fighter	Sheer Toughness (Ex)	sheer-toughness	yes	19	prin
 ref/arc-fighter/unarmed-fighter	Weapon Mastery (Ex)	weapon-mastery	yes		print	print		49	cdb83b67fc00856229c4c73ae9bd6f6d1c9eb3c15265db0fcaba0790cc526788
 ref/arc-fighter/unbreakable	Weapon and Armor Proficiency	weapon-and-armor-proficiency	no		draft	draft	print: Ultimate Combat, 3rd printing	49	7d30ca1b1f3450c8e9c2b99f3ca70cbc7398361e24d6a2cb1f37a446eddb4273
 ref/arc-fighter/unbreakable	Tough as Nails	tough-as-nails	yes	1	print	print	misprint fixed: print has "Die Hard", written "Diehard" (the feat is Diehard (Core Rulebook p. 119); print splits the name); level from the trade	49	9a9854c894bf469f7eb5ccae8bf66191720c7a977f51f901e2a6060162147a3f
-ref/arc-fighter/unbreakable	Unflinching (Ex)	unflinching	yes	2	print	print		49	8eae5bce18c700fa593ae7c106c3fba25bd1c52b17fb7760e1daee3c5f65f163
+ref/arc-fighter/unbreakable	Unflinching (Ex)	unflinching	yes	2	print	print	rule 1: the corpus rows and the printed values agree level by level; print's wording taken	49	8eae5bce18c700fa593ae7c106c3fba25bd1c52b17fb7760e1daee3c5f65f163
 ref/arc-fighter/unbreakable	Heroic Recovery (Ex)	heroic-recovery	yes	5	print	print	hand review (ruling 14, print): print's wording is taken: the values that the corpus restates as rows, fractions or a longer text equal print's, checked sentence by sentence; where print has a rule or value that the corpus lacks, print wins.	49	f78c956d512571a2ff9ace1ed76c27ce02599d8c51498f84d348b98a1ed13b9d
 ref/arc-fighter/unbreakable	Heroic Defiance (Ex)	heroic-defiance	yes	9	print	print	hand review (ruling 14, print): print's wording is taken: the values that the corpus restates as rows, fractions or a longer text equal print's, checked sentence by sentence; where print has a rule or value that the corpus lacks, print wins.	49	612cd19b1c050c1c8172dcdc6ede055382d28c6234070ff898568a848bdd5336
 ref/arc-fighter/unbreakable	Quick Recovery (Ex)	quick-recovery	yes	11	print	print		49	8f55a2862703f475835fe6ab00f5844b15d73d2579548573b88c331466968d61
@@ -260,7 +260,7 @@ ref/arc-gunslinger/mysterious-stranger	Grit (Ex)	grit	yes		draft	draft	opening t
 ref/arc-gunslinger/mysterious-stranger	Deeds	deeds	yes		draft	draft		51	d7553d5623d8d5dba816ff859cc25e49aad8548e5cd800e68876686a210533ed
 ref/arc-gunslinger/mysterious-stranger	Focused Aim (Ex)	focused-aim	yes	1	print	print		51	3987c8397718345356111dcda7105100b0ecdeded19d7781690373ddb2b83872
 ref/arc-gunslinger/mysterious-stranger	Clipping Shot (Ex)	clipping-shot	yes	11	print	print		51	eab4f7eabfaf4cfaa3aad31d3d116293cd103c38ed4ee7b72e488d187167b936
-ref/arc-gunslinger/mysterious-stranger	Lucky (Ex)	lucky	yes	2	print	print		51	85b07b7bcc9f314370cf46ae68002b6850ae5476cc15dbb3e2ee9f82692ced6b
+ref/arc-gunslinger/mysterious-stranger	Lucky (Ex)	lucky	yes	2	print	print	rule 1: the corpus rows and the printed values agree level by level; print's wording taken	51	85b07b7bcc9f314370cf46ae68002b6850ae5476cc15dbb3e2ee9f82692ced6b
 ref/arc-gunslinger/mysterious-stranger	Stranger's Fortune (Ex)	stranger-s-fortune	yes	5	print	print	hand review (ruling 14, print): print's wording is taken: the values that the corpus restates as rows, fractions or a longer text equal print's, checked sentence by sentence; where print has a rule or value that the corpus lacks, print wins.	51	b7c643615bc603459b8964d71fbce0668f4842e6f3ed200ba8615dac5d45d5a8
 ref/arc-gunslinger/pistolero	Weapon Proficiency	weapon-proficiency	no		print	print	opening text written from print: the import differs in 51, combat, pg, source, ultimate; print: Ultimate Combat, 3rd printing	51	4fb820d2122e367148e8f85bd119add9fe1e5bc411abe8003980fcee31fa810e
 ref/arc-gunslinger/pistolero	Gunsmith	gunsmith	yes		draft	draft		51	a3cd711efb83c781e0549f730a980fa88f12fce57b569a8a2bbfb805ffca7e48
@@ -346,7 +346,7 @@ ref/arc-monk/martial-artist	Pain Points (Ex)	pain-points	yes	3	print	print	hand 
 ref/arc-monk/martial-artist	Martial Arts Master (Ex)	martial-arts-master	yes	4	print	print		59	8300ecda39a0bd6923c7142569066c592d6d170603cecd96ffcb152c864c682e
 ref/arc-monk/martial-artist	Exploit Weakness (Ex)	exploit-weakness	yes	4	print	print		59	2d50835e6b11caf9991d404b2f20b27f1929a3cf5d0b6b9be9f62aae485d13cc
 ref/arc-monk/martial-artist	Extreme Endurance (Ex)	extreme-endurance	yes	5	print	print		59	d508645f936a5eae01d263a42a044dcbc28203d62089a9e3f4c60619f76b58ae
-ref/arc-monk/martial-artist	Physical Resistance (Ex)	physical-resistance	yes	7	print	print		59	30b3d1948d819909915f97544963b7c82c1bbe890e9e0c3982a470e8bfab4dc2
+ref/arc-monk/martial-artist	Physical Resistance (Ex)	physical-resistance	yes	7	print	print	rule 1: the corpus rows and the printed values agree level by level; print's wording taken	59	30b3d1948d819909915f97544963b7c82c1bbe890e9e0c3982a470e8bfab4dc2
 ref/arc-monk/martial-artist	Bonus Feat	bonus-feat	yes	12	print	print	head printed, not in the import: added from print	59	
 ref/arc-monk/martial-artist	Defensive Roll (Ex)	defensive-roll	yes	13	print	print	hand review (ruling 14, print): print's wording is taken: the values that the corpus restates as rows, fractions or a longer text equal print's, checked sentence by sentence; where print has a rule or value that the corpus lacks, print wins.	59	6a49769e08836a69fc5a6b6f39bf6574c4e7df3735e1e3f82847c0d37ad304c7
 ref/arc-monk/martial-artist	Quivering Palm	quivering-palm	yes		print	print	hand review (ruling 14, print): print's wording is taken: the values that the corpus restates as rows, fractions or a longer text equal print's, checked sentence by sentence; where print has a rule or value that the corpus lacks, print wins.	59	06c2b1f339a337689d6a0f37e6f6efdc7c1bc51d30b5601427692b921f2b8607
@@ -384,7 +384,7 @@ ref/arc-paladin/divine-hunter	Hunter's Blessing (Su)	hunter-s-blessing	yes	11	pr
 ref/arc-paladin/divine-hunter	Righteous Hunter (Su)	righteous-hunter	yes	14	print	print	trade renamed: "Aura of righteousness" to "Aura of faith" to match the printed sentence	62	9fa4fe824899b505f09e65a814809583e7e59c4fe287252e0eb91c3cd461a870
 ref/arc-paladin/empyreal-knight	Voices of the Spheres	voices-of-the-spheres	yes	2	print	print	print: Ultimate Combat, 3rd printing	62	1ff7640ec800767a22ca3742b6e226e7767fbff44b6cbd685e832d6d2010cbb3
 ref/arc-paladin/empyreal-knight	Celestial Heart (Su)	celestial-heart	yes	3	print	print	level 3: print says "At 3rd level" in its first paragraph, after an opening sentence	62	e46dd65026ef3f149e127d4d440652579a35c458e14d0ea6ebb1cdc4c28b7d6d
-ref/arc-paladin/empyreal-knight	Celestial Ally (Sp)	celestial-ally	yes	4	print	print		62	5687a05ad964570c6fa854723dbace101c1d25793bb70ed677eb272aa8e5070d
+ref/arc-paladin/empyreal-knight	Celestial Ally (Sp)	celestial-ally	yes	4	print	print	rule 4: the usage row "A number of times per day equal to the e" is in print word for word	62	5687a05ad964570c6fa854723dbace101c1d25793bb70ed677eb272aa8e5070d
 ref/arc-paladin/empyreal-knight	Divine Bond (Su)	divine-bond	yes	5	print	print		62	8c464c79ff85740d9b1abbdb1473ccfb119c35109fc9d6d3fb75f81efd1ff115
 ref/arc-paladin/empyreal-knight	Empyreal Champion	empyreal-champion	yes	20	print	print		63	c484dad939be26c50adb9c3a2501696c2d468b51e0436724d94905d6ff17038f
 ref/arc-paladin/holy-gun	Weapon and Armor Proficiency	weapon-and-armor-proficiency	no		draft	draft	print: Ultimate Combat, 3rd printing	63	e30fc6b760684813009571916a5a753d0cc9704a33ce18f18dd8fdc5c349d95a
