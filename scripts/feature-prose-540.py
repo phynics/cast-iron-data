@@ -999,6 +999,9 @@ def read_blocks(book: Book, first: int, last: int) -> list[Para]:
     return out
 
 
+RUN_IN_HEAD_ONLY = re.compile(r"^.{3,70}\((?:Ex|Su|Sp)(?:,\s*(?:Ex|Su|Sp))*\)\s*:\s*$")
+
+
 def _assemble(book: Book, items: list[tuple[int, list[dict]]]) -> list[Para]:
     out: list[Para] = []
     insets: dict[int, int | None] = {}
@@ -1050,6 +1053,8 @@ def _assemble(book: Book, items: list[tuple[int, list[dict]]]) -> list[Para]:
                 cand0 = head_candidate(Para("para", list(ln["runs"]), shown, ln["col"]))
                 starts = bool(cand0 and cand0[2] and cand0[1] and cand0[1][0][0].lstrip().startswith(":") and len(cand0[0]) <= 60
                               and not all(bold for t, bold, _i in out[-1].runs if t.strip()))
+            if ILLUSTRATED["on"] and starts and out and out[-1].kind == "para" and RUN_IN_HEAD_ONLY.search(out[-1].plain()):
+                starts = False                  # a paragraph that is only a head with its colon ("Dualistic Energy (Su):") goes on in the next line, even if the art indents it
             if LOWERCASE_CONTINUES["on"] and starts and out and out[-1].kind == "para" \
                     and re.match(r"\s*[a-z]", "".join(t for t, _, _ in ln["runs"])):
                 starts = False                  # a line that starts in lower case continues the sentence before it (text around an illustration)
@@ -1189,7 +1194,7 @@ CLASS_REMAINDERS = {squash(c) for c in CLASS_NAMES} | {squash(c) + "archetype" f
 
 # The titles of archetypes that print sets in the section of the archetype before them and that the corpus holds as headed
 # prose of another entry (the Advanced Player's Guide's Totem Warrior and Animal Shamans): they end a section too.
-UNTYPED_ARCHETYPE_TITLES = {squash(x) for x in ("Totem Warrior", "Animal Shamans")}
+UNTYPED_ARCHETYPE_TITLES = {squash(x) for x in ("Totem Warrior", "Animal Shamans", "Patron Familiars")}
 
 
 # The Adventurer's Guide sets each archetype at the end of the chapter of a Pathfinder Society faction, followed by the faction's
@@ -2044,7 +2049,15 @@ class Entry:
 
     @property
     def converted(self) -> bool:
-        return "features" in (self.data.get("fields") or {})
+        if "features" in (self.data.get("fields") or {}):
+            return True
+        # the text is an opening only (no head is printed): `fmt` leaves no empty `features`, so it is converted when it has
+        # no key row of the import form left
+        return self.id in OPENING_ONLY and not re.search(r"^\*\*[A-Z][^*\n]*\*\*", self.body, re.M)
+
+
+# Entries whose print has no head of its own: the printed text is the opening (Familiar Folio p. 16, Bloodline Familiars)
+OPENING_ONLY = {"ref/arc-sorcerer/bloodline-familiars", "ref/arc-bloodrager/bloodline-familiars"}
 
 
 def load_entries(corpus: Path, book: str | None, only: str = "") -> list[Entry]:
@@ -4025,26 +4038,28 @@ def finalize(e: Entry, res: dict, class_cache: dict | None = None) -> dict:
     trades = effective_trades(e)
     by, more = assign_by(trades, with_children(rows), opening_texts(rows, res["opening"])) if all(r["print"] for r in listed) else ({}, [])
     problems += more
+    # an entry whose every head is not printed has no row: the notes of its trades go nowhere (the decisions file holds the reasons)
+    sink = rows[0] if rows else {"notes": [], "anchor": None}
     for i, (t, origin) in enumerate(effective_trades_origin(e)):
         if origin is None:
-            anchors = by.get(i) or [rows[0]["anchor"]]
+            anchors = by.get(i) or [sink["anchor"]]
             where = f' (feature `{t["feature"]}`)' if "feature" in t else ""
             note = f'trade added: {trade_name(t)[0]} "{trade_name(t)[1]}"{where}, which print states and the entry did not store'
-            next(r for r in rows if r["anchor"] == anchors[0])["notes"].append(note)
+            next((r for r in rows if r["anchor"] == anchors[0]), sink)["notes"].append(note)
             continue
         old = trades_of(e)[origin]
         if t.get("_no_by"):
-            rows[0]["notes"].append(f'trade without `by`: {trade_name(old)[0]} "{trade_name(old)[1]}" has only a bare printed sentence')
+            sink["notes"].append(f'trade without `by`: {trade_name(old)[0]} "{trade_name(old)[1]}" has only a bare printed sentence')
             t = {k: v for k, v in t.items() if k != "_no_by"}
         if t.get("_prose_by"):
-            rows[0]["notes"].append(f'trade by prose (ruling 28): {trade_name(old)[0]} "{trade_name(old)[1]}" is stated in the text of `{t["_prose_by"]}`, in no trade sentence')
+            sink["notes"].append(f'trade by prose (ruling 28): {trade_name(old)[0]} "{trade_name(old)[1]}" is stated in the text of `{t["_prose_by"]}`, in no trade sentence')
             t = {k: v for k, v in t.items() if k != "_prose_by"}
         if (e.id, trade_name(old)[1]) in TRADE_RELINKS:
-            rows[0]["notes"].append(f'trade relinked: "{trade_name(old)[1]}" now names `{TRADE_RELINKS[(e.id, trade_name(old)[1])]}`, the feature that print says it replaces')
+            sink["notes"].append(f'trade relinked: "{trade_name(old)[1]}" now names `{TRADE_RELINKS[(e.id, trade_name(old)[1])]}`, the feature that print says it replaces')
         if trade_name(old)[1] in TRADE_UNLINKS.get(e.id, []):
-            rows[0]["notes"].append(f'trade unlinked: "{trade_name(old)[1]}" loses its `feature` and `levels`: a trade of the whole Bomb feature (print: "functions as and replaces the standard alchemist bomb class feature", p. 20) overlaps a trade of one level of it, so the printed level trade is one unlinked trade')
+            sink["notes"].append(f'trade unlinked: "{trade_name(old)[1]}" loses its `feature` and `levels`: a trade of the whole Bomb feature (print: "functions as and replaces the standard alchemist bomb class feature", p. 20) overlaps a trade of one level of it, so the printed level trade is one unlinked trade')
         if old != t:
-            anchors = by.get(i) or [rows[0]["anchor"]]
+            anchors = by.get(i) or [sink["anchor"]]
             note = ""
             if trade_name(old)[0] != trade_name(t)[0]:
                 note = f'trade op fixed: stored as {trade_name(old)[0]} "{trade_name(old)[1]}", print says {trade_name(t)[0]}'
@@ -4052,17 +4067,17 @@ def finalize(e: Entry, res: dict, class_cache: dict | None = None) -> dict:
                 note += ("; " if note else "") + f'trade renamed: "{trade_name(old)[1]}" to "{trade_name(t)[1]}" to match the printed sentence'
                 if (e.id, trade_name(t)[1]) in TRADE_LEVELS:
                     note += f"; its levels are now {TRADE_LEVELS[(e.id, trade_name(t)[1])]}, the printed levels"
-            next(r for r in rows if r["anchor"] == anchors[0])["notes"].append(note)
+            next((r for r in rows if r["anchor"] == anchors[0]), sink)["notes"].append(note)
     for origin in sorted(dropped_trade_indices(e)):
         old = trades_of(e)[origin]
         if trade_name(old) in TRADE_REMOVALS.get(e.id, []):
             ruling = "ruling 39, which keeps the removal; ruling 17" if e.id in TRADE_REMOVAL_RULED else "ruling 17"
-            rows[0]["notes"].append(f'trade dropped ({ruling}): {trade_name(old)[0]} "{trade_name(old)[1]}" has no printed support in any sentence')
+            sink["notes"].append(f'trade dropped ({ruling}): {trade_name(old)[0]} "{trade_name(old)[1]}" has no printed support in any sentence')
             continue
         if trade_name(old) in TRADE_MERGED.get(e.id, []):
-            rows[0]["notes"].append(f'trade merged: {trade_name(old)[0]} "{trade_name(old)[1]}" is the printed trade of the sentence that each feature prints with the same words; one trade names all three features')
+            sink["notes"].append(f'trade merged: {trade_name(old)[0]} "{trade_name(old)[1]}" is the printed trade of the sentence that each feature prints with the same words; one trade names all three features')
             continue
-        rows[0]["notes"].append(f'duplicate trade left out: {trade_name(old)[0]} "{trade_name(old)[1]}" was stored twice, once without its feature link')
+        sink["notes"].append(f'duplicate trade left out: {trade_name(old)[0]} "{trade_name(old)[1]}" was stored twice, once without its feature link')
     for r in rows:
         first = r["print"].split("\n\n", 1)[0] if r["print"] else ""
         r["level"] = lead_level(first)
@@ -4157,7 +4172,7 @@ def finalize(e: Entry, res: dict, class_cache: dict | None = None) -> dict:
 # archetypes are followed by sections of the chapter of their own (feats, techniques, spells): any title ends the section of an archetype.
 SMALL_CAP_BOOKS = ("blood-of-the-ancients", "blood-of-the-beast", "heroes-of-the-high-court", "martial-arts-handbook", "legacy-of-dragons")
 # ... and of these, the ones whose chapter titles or capitals stand above the usual top of the body (Blood of the Ancients keeps 88)
-HIGH_TITLE_BOOKS = ("blood-of-the-beast", "heroes-of-the-high-court", "martial-arts-handbook")
+HIGH_TITLE_BOOKS = ("blood-of-the-beast", "heroes-of-the-high-court", "martial-arts-handbook", "familiar-folio", "advanced-class-origins")
 
 
 def configure_book(book: str) -> None:
@@ -4429,7 +4444,7 @@ TRADE_RENAMES.update({
 
 def convert_text(e: Entry, prop: dict, rows: list[dict]) -> str:
     status = {r["anchor"]: r["status"] for r in rows if r["anchor"]}
-    feats = prop["feature"]
+    feats = prop.get("feature", [])          # an entry whose every head is not printed (a section of the opening only) has none
     full = [dict(f, print=feature_text(f, status.get(f["anchor"], "print"))) for f in feats]
     by, problems = assign_by(effective_trades(e), with_children(full), opening_texts(full, prop.get("opening", [])))
     if problems:
@@ -4711,7 +4726,7 @@ def run_check(args) -> int:
         if e.converted:
             converted += 1
             listed = [r for r in mine if r["listed"] == "yes"]
-            want = [(f["anchor"], f.get("level")) for f in fields["features"]]
+            want = [(f["anchor"], f.get("level")) for f in fields.get("features", [])]
             have = [(r["anchor"], int(r["level"]) if r["level"] else None) for r in listed]
             if not mine:
                 errors.append(f"{e.id}: converted, but the review TSV has no rows for it")
@@ -4859,6 +4874,15 @@ TRADE_RENAMES.update({
 TRADE_RENAMES[("ref/arc-samurai/sovereign-blade", "Bonus feats gained at 6th, 12th, and 18th level")] = "Bonus feats a samurai gained at 6th, 12th, and 18th level"
 TRADE_LEVELS[("ref/arc-fighter/dragonheir-scion", "Bonus feat gained at 3rd level")] = [3]
 TRADE_LEVELS[("ref/arc-fighter/dragonheir-scion", "Bonus feat gained at 5th level")] = [5]
+TRADE_RENAMES.update({
+    ("ref/arc-wizard/familiar-adept", "5th- and 10th-level bonus feats"): "Bonus feats at 5th and 10th levels",
+    ("ref/arc-witch/synergist", "1st-, 8th-, and 14th-level hexes"): "Hexes gained at 1st, 8th, and 14th level",
+})
+EXTRA_LINKS[("ref/arc-witch/synergist", "symbiosis")] = [("beast shape II", "ref/spell/beast-shape-2")]
+TRADE_RENAMES.update({
+    ("ref/arc-sorcerer/bloodline-familiars", "1st-level bloodline power"): "1st-level bloodline power granted by the character's bloodline",
+    ("ref/arc-bloodrager/bloodline-familiars", "The 1st-level bloodline power"): "The 1st-level bloodline power granted by the character's bloodline",
+})
 TRADE_ADDITIONS["ref/arc-fighter/dragonheir-scion"] = [{"alters": "Class skills"}]
 TRADE_ADDITIONS["ref/arc-druid/fungal-pilgrim"] = [{"replaces": "Wild shape if the fungal pilgrim selected an animal companion as her nature bond"}]
 TRADE_LEVELS[("ref/arc-alchemist/blightseeker", "Discoveries gained at 6th, 12th, and 18th levels")] = [6, 12, 18]
@@ -4897,6 +4921,7 @@ def self_test() -> int:
     eq(fix_ligatures("lots of f ine", {"fine"}), "lots of fine", "ligature fine")
     eq(fix_hyphens("two- weapon fighter", {"two-weapon"}), "two-weapon fighter", "hyphen kept")
     eq(fix_hyphens("conven- tional", {"conventional"}), "conventional", "hyphen dropped")
+    eq([bool(RUN_IN_HEAD_ONLY.search(t)) for t in ("Elemental\u2014Dualistic Energy (Su):", "Wings (Su): At 15th level, a thing grows.", "Wings (Su): the wings")], [True, False, False], "head only")
     eq(bool(CAPS_TITLE.fullmatch("BLIGHTSEEKER (ALCHEMIST ARCHETYPE)")), True, "caps title")
     eq(bool(CAPS_TITLE.fullmatch("Blightseeker (Alchemist Archetype)")), False, "caps title lower case")
     eq(bool(CAPS_TITLE_HEAD.fullmatch("PSYCHIC MARAUDER (PSYCHIC")) and bool(CAPS_TITLE_TAIL.fullmatch("ARCHETYPE)")), True, "caps title wrapped")

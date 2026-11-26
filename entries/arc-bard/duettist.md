@@ -16,12 +16,20 @@ page = "6"
 
 [fields]
 kind = "archetype"
+features = [
+  { anchor = "diminished-competency" },
+  { anchor = "familiar", level = 1 },
+  { anchor = "versatile-familiar", level = 2 },
+  { anchor = "performing-familiar", level = 4 },
+  { anchor = "harmonizing-familiar", level = 8 },
+  { anchor = "symphonic-familiar", level = 14 },
+]
 trades = [
-  { replaces = "Bardic knowledge", feature = "bardic-knowledge" },
-  { replaces = "Lore master", feature = "lore-master" },
-  { replaces = "Dirge of doom", feature = "bardic-performance", power = "dirge of doom" },
-  { replaces = "Frightening tune", feature = "bardic-performance", power = "frightening tune" },
-  { alters = "Versatile performance", feature = "versatile-performance" },
+  { replaces = "Bardic knowledge", feature = "bardic-knowledge", by = ["familiar"] },
+  { replaces = "Lore master", feature = "lore-master", by = ["performing-familiar"] },
+  { replaces = "Dirge of doom", feature = "bardic-performance", power = "dirge of doom", by = ["harmonizing-familiar"] },
+  { replaces = "Frightening tune", feature = "bardic-performance", power = "frightening tune", by = ["symphonic-familiar"] },
+  { alters = "Versatile performance", feature = "versatile-performance", by = ["versatile-familiar"] },
 ]
 +++
 
@@ -29,62 +37,43 @@ Whether singing a delicate duo with a nightingale or slipping coins from purses 
 monkey distracts the crowd, the duettist blends his bond to his familiar with his natural talent for
 performance to create amazing effects.
 
-**Diminished Competency**
+## Diminished Competency {#diminished-competency}
 
-**Info:** A duettist does not gain the _well-versed_ or _jack-of-all-trades_ class features.
+A duettist does not gain the well-versed or jack-of-all-trades class features.
 
-**Familiar (Ex)**
+## Familiar (Ex) {#familiar}
 
-**At 1st Level:** A duettist gains a [familiar](ref/sidekick/familiar), treating his bard level as
-his effective wizard level for the purpose of this ability.
+At 1st level, a duettist gains a [familiar](ref/sidekick/familiar), treating his bard level as his
+effective wizard level for the purpose of this ability. This ability replaces bardic knowledge.
 
-**Replaces:** Bardic knowledge
+## Versatile Familiar (Ex) {#versatile-familiar}
 
-**Versatile Familiar (Ex)**
+At 2nd level, a duettist's familiar learns to use performance to supplement its skills. A duettist's
+familiar benefits from its master's versatile performance class feature. This ability alters
+versatile performance.
 
-**Alters:** Versatile performance
+## Performing Familiar (Su) {#performing-familiar}
 
-**Flavor:** A duettist's familiar learns to use performance to supplement its skills.
-
-**At 2nd Level:** A duettist's familiar benefits from its master's _versatile performance_ class
-feature.
-
-**Performing Familiar (Su)**
-
-**Flavor:** A duettist's familiar learns how to create supernatural effects with its performances,
-just like its master.
-
-**At 4th Level:** The familiar can use any of its master's bardic performances, but only the
+At 4th level, a duettist's familiar learns how to create supernatural effects with its performances,
+just like its master. The familiar can use any of its master's bardic performances, but only the
 familiar or the duettist can have a performance active at any given time, not both. If one is
-performing and the other starts a performance, the previous performance immediately ends.
+performing and the other starts a performance, the previous performance immediately ends. Each round
+that the familiar performs consumes 2 rounds of the duettist's bardic performance. This ability
+replaces lore master.
 
-**Replaces:** Lore master
+## Harmonizing Familiar (Su) {#harmonizing-familiar}
 
-**Special:** Each round that the familiar performs consumes 2 rounds of the duettist's bardic
-performance.
+At 8th level, the duettist and his familiar have learned how to perform together in harmony. When a
+duettist and his familiar perform the same bardic performance simultaneously, its effects are
+enhanced. If the performance has a DC, the DC increases by 2. If the performance provides a
+competence bonus, the competence bonus increases by 1. Because both the duettist and the familiar
+are performing, each round performed consumes 3 rounds of bardic performance. This ability replaces
+dirge of doom.
 
-**Harmonizing Familiar (Su)**
+## Symphonic Familiar (Su) {#symphonic-familiar}
 
-**Flavor:** The duettist and his familiar have learned how to perform together in harmony.
-
-**At 8th Level:** When a duettist and his familiar perform the same bardic performance
-simultaneously, its effects are enhanced. If the performance has a DC, the DC increases by 2. If the
-performance provides a competence bonus, the competence bonus increases by 1.
-
-**Replaces:** Dirge of doom
-
-**Special:** Because both the duettist and the familiar are performing, each round performed
-consumes 3 rounds of bardic performance.
-
-**Symphonic Familiar (Su)**
-
-**Flavor:** The duettist and his familiar have learned how to create a symphony of complementary
-performances that meld together to produce two different effects.
-
-**At 14th Level:** They can each perform a different bardic performance simultaneously, and each has
-its full effect.
-
-**Replaces:** Frightening tune
-
-**Special:** Because both the duettist and the familiar are performing, each round performed
-consumes 3 rounds of bardic performance.
+At 14th level, the duettist and his familiar have learned how to create a symphony of complementary
+performances that meld together to produce two different effects. They can each perform a different
+bardic performance simultaneously, and each has its full effect. Because both the duettist and the
+familiar are performing, each round performed consumes 3 rounds of bardic performance. This ability
+replaces frightening tune.

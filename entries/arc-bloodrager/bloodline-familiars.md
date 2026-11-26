@@ -16,129 +16,77 @@ page = "16"
 [fields]
 kind = "archetype"
 trades = [
-  { replaces = "The 1st-level bloodline power", feature = "bloodline", levels = [1], power = "bloodline power" },
+  { replaces = "The 1st-level bloodline power granted by the character's bloodline", feature = "bloodline", levels = [1], power = "bloodline power" },
 ]
 +++
 
-**Prerequisites:** Must have one of these bloodlines: aberrant, abyssal, arcane, celestial,
-destined, draconic, elemental, fey, infernal, or undead.
+Those with an inherent connection to magic often attract creatures who feel a similar instinctive
+pull toward magical forces. At 1st level, a sorcerer, bloodrager, or any other character with one of
+the following bloodlines can choose to gain a bloodline [familiar](ref/sidekick/familiar). The
+character gains a [familiar](ref/ability/familiars) (as a wizard's familiar), treating her class
+level as her wizard level for the purposes of this ability. This familiar has an additional ability
+listed below based on the master's bloodline.
 
-**Bloodline Familiar**
+This replaces the 1st-level bloodline power granted by the character's bloodline; in addition, the
+character gains bonus spells from her bloodline one level later than she normally would. For
+example, a sorcerer with the [aberrant](ref/blrgbloodline/aberrant) bloodline who takes a bloodline
+[familiar](ref/sidekick/familiar) would not gain the acidic ray bloodline power, and she would gain
+her first bonus spell at 4th level, her second bonus spell at 6th level, and so on.
 
-**Ability:** The bloodrager gains a [familiar](ref/sidekick/familiar) (as a wizard's
-[familiar](ref/ability/familiars)), treating her class level as her wizard level for the purposes of
-this ability.
+GMs may use the following bloodline [familiar](ref/sidekick/familiar) abilities as written, or
+employ them as guidelines for devising bloodline [familiar](ref/ability/familiars) abilities for
+bloodlines not listed below.
 
-**Flavor:** Those with an inherent connection to magic often attract creatures who feel a similar
-instinctive pull toward magical forces.
+[Aberrant](ref/blrgbloodline/aberrant)—Squeezer (Ex): The [familiar](ref/sidekick/familiar) gains
+the [compression](ref/umr/compression) ability, allowing it to move through an area as small as
+one-quarter its space without [squeezing](ref/misc/squeezing) or one-eighth its space when
+squeezing.
 
-**Info:** In addition, the character gains bonus spells from her bloodline one level later than she
-normally would.
-
-**Gained:** At 1st Level
-
-**Replaces:** The 1st-level bloodline power
-
-**Familiar Abilities**
-
-**Info:** GMs may use the following bloodline familiar abilities as written, or employ them as
-guidelines for devising bloodline familiar abilities for bloodlines not listed below.
-
-**Squeezer (Ex)**
-
-**Ability:** The familiar gains the [compression](ref/umr/compression) ability, allowing it to move
-through an area as small as one-quarter its space without [squeezing](ref/misc/squeezing) or
-one-eighth its space when squeezing.
-
-**Prereq:** [Aberrant](ref/blrgbloodline/aberrant) bloodline
-
-**Grotesque Appendages (Ex)**
-
-**Ability:** The damage dice of each of the familiar's natural attacks increases
+[Abyssal](ref/blrgbloodline/abyssal)—Grotesque Appendages (Ex): The damage dice of each of the
+[familiar](ref/sidekick/familiar)'s natural attacks increases
 [by one die step](ref/misc/damage-die-adjustments).
 
-**Prereq:** [Abyssal](ref/blrgbloodline/abyssal) bloodline
+[Arcane](ref/blrgbloodline/arcane)—Spell Catalyst (Su): Spells you cast that target your
+[familiar](ref/sidekick/familiar) are treated as having a caster level 2 levels higher than your
+actual caster level.
 
-**Spell Catalyst (Su)**
+[Celestial](ref/blrgbloodline/celestial)—Heavenly Touch (Su): A number of times per day equal to 3 +
+your Charisma modifier, your [familiar](ref/sidekick/familiar) can grant
+[fast healing](ref/umr/fast-healing) 1 to an allied creature it's touching. This effect lasts a
+number of rounds equal to your Charisma modifier (minimum 1) or until the
+[familiar](ref/ability/familiars) stops touching the creature, whichever comes first. At 10th level,
+the familiar grants [fast healing](ref/umr/fast-healing) 2 instead. At 20th level, the familiar
+grants [fast healing](ref/umr/fast-healing) 3 instead.
 
-**Ability:** Spells you cast that target your familiar are treated as having a caster level 2 levels
-higher than your actual caster level.
+[Destined](ref/blrgbloodline/destined)—Foretold Touch (Su): The [familiar](ref/sidekick/familiar)
+gains a +1 luck bonus on attack rolls to deliver touch spells, and the DC of touch spells delivered
+by the [familiar](ref/ability/familiars) increases by 1. These benefits increase by 1 at 10th level
+and again at 20th level.
 
-**Prereq:** [Arcane](ref/blrgbloodline/arcane) bloodline
+[Draconic](ref/blrgbloodline/draconic)—Dragon's Flight (Ex): The [familiar](ref/sidekick/familiar)
+can sprout draconic wings, granting it a fly speed of 30 feet with average maneuverability for a
+number of minutes per day equal to 1/2 your caster level (minimum 1). These minutes need not be
+consecutive, but they must be spent in 1-minute increments. At 10th level, the
+[familiar](ref/ability/familiars)'s fly speed increases to 60 feet with good maneuverability. At
+20th level, the familiar's fly speed increases to 90 feet.
 
-**Heavenly Touch (Su)**
+[Elemental](ref/blrgbloodline/elemental)—Dualistic Energy (Su): When your
+[familiar](ref/sidekick/familiar) delivers a touch spell that deals energy damage of a type other
+than your chosen energy type, your [familiar](ref/ability/familiars) can choose to alter the spell
+so that half of the energy damage dealt is of the spell's original type and the other half is of
+your chosen energy type.
 
-**Ability:** Your familiar can grant [fast healing](ref/umr/fast-healing) 1 to an allied creature
-it's touching. This effect lasts a number of rounds equal to your Charisma modifier (minimum 1) or
-until the familiar stops touching the creature, whichever comes first.
+[Fey](ref/blrgbloodline/fey)—Amusing Familiar (Su): The [familiar](ref/sidekick/familiar) can
+[fascinate](ref/performance/fascinate) other creatures as the fascinate bardic performance, treating
+your caster level as its bard level and using your Charisma modifier for the purpose of calculating
+the Will save DC. The [familiar](ref/ability/familiars) cannot perform any other actions while using
+this ability.
 
-**At 10th Level:** The familiar grants [fast healing](ref/umr/fast-healing) 2 instead.
+[Infernal](ref/blrgbloodline/infernal)—Hellish Aura (Su): Animals don't willingly approach the
+[familiar](ref/sidekick/familiar) unless the animal's master succeeds at a DC 15 Handle Animal,
+Ride, or [wild empathy](ref/ability/wild-empathy) check. This DC increases to 20 at 10th level, and
+to 25 at 20th level. Animal companions, familiars and mounts are immune to this effect.
 
-**At 20th Level:** The familiar grants [fast healing](ref/umr/fast-healing) 3 instead.
-
-**Prereq:** [Celestial](ref/blrgbloodline/celestial) bloodline
-
-**Usage:** Cha3 modifier times/day
-
-**Foretold Touch (Su)**
-
-**Ability:** The familiar gains a +1 luck bonus on attack rolls to deliver touch spells, and the DC
-of touch spells delivered by the familiar increases by 1.
-
-**At 10th Level:** The bonus becomes +2 and the DC is now raised by 2.
-
-**At 20th Level:** The bonus becomes +3 and the DC is now raised by 3.
-
-**Prereq:** [Destined](ref/blrgbloodline/destined) bloodline
-
-**Dragon's Flight (Ex)**
-
-**Ability:** The familiar can sprout draconic wings, granting it a fly speed of 30 feet with average
-maneuverability.
-
-**At 10th Level:** The familiar's fly speed increases to 60 feet with good maneuverability.
-
-**At 20th Level:** The familiar's fly speed increases to 90 feet.
-
-**Prereq:** [Draconic](ref/blrgbloodline/draconic) bloodline
-
-**Usage:** 1 minute/day per 2 caster levels; these minutes need not be consecutive, but must be
-spent in 1-minute increments
-
-**Dualistic Energy (Su)**
-
-**Ability:** When your familiar delivers a touch spell that deals energy damage of a type other than
-your chosen energy type, your familiar can choose to alter the spell so that half of the energy
-damage dealt is of the spell's original type and the other half is of your chosen energy type.
-
-**Prereq:** [Elemental](ref/blrgbloodline/elemental) bloodline
-
-**Amusing Familiar (Su)**
-
-**Ability:** The familiar can fascinate other creatures as the
-[fascinate](ref/performance/fascinate) bardic performance, treating your caster level as its bard
-level and using your Charisma modifier for the purpose of calculating the Will save DC. The familiar
-cannot perform any other actions while using this ability.
-
-**Prereq:** [Fey](ref/blrgbloodline/fey) bloodline
-
-**Hellish Aura (Su)**
-
-**Ability:** Animals don't willingly approach the familiar unless the animal's master succeeds at a
-DC 15 Handle Animal, Ride, or [wild empathy](ref/ability/wild-empathy) check.
-
-**At 10th Level:** The DC becomes 20.
-
-**At 20th Level:** The DC becomes 25.
-
-**Prereq:** [Infernal](ref/blrgbloodline/infernal) bloodline
-
-**Special:** Animal companions, familiars and mounts are immune to this effect.
-
-**Unliving Physiology (Su)**
-
-**Ability:** The familiar is alive, but is treated as undead for all effects that affect undead
-differently from living creatures, such as cure spells and
-[channeled energy](ref/ability/channel-energy).
-
-**Prereq:** [Undead](ref/blrgbloodline/undead) bloodline
+[Undead](ref/blrgbloodline/undead)—Unliving Physiology (Su): The [familiar](ref/sidekick/familiar)
+is alive, but is treated as undead for all effects that affect undead differently from living
+creatures, such as cure spells and [channeled energy](ref/ability/channel-energy).
