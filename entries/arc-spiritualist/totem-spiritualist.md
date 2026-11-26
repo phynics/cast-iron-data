@@ -19,7 +19,6 @@ kind = "archetype"
 features = [
   { anchor = "phantom-animal", level = 1 },
   { anchor = "shared-instincts", level = 1 },
-  { anchor = "special" },
   { anchor = "animal-senses", level = 9 },
   { anchor = "twin-phantoms", level = 17 },
 ]
@@ -83,11 +82,6 @@ consciousness. She instead gains a number of bonus ranks in Knowledge (nature) e
 animal's Hit Dice.
 
 This ability alters shared consciousness.
-
-## Special {#special}
-
-Alertness, phantom touch, telepathy, weapon of the mind Quick manifest Ectoplasmic pool Reshape
-Phantom tether — Quick reshape — Etheric strikes Soul eater
 
 ## Animal Senses (Su) {#animal-senses}
 
