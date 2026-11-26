@@ -38,7 +38,7 @@ becomes one of the most dangerous creatures of the wild when provoked.
 
 ## Nature Bond {#nature-bond}
 
-A [boar](ref/companion/boar) shaman who chooses an animal companion must select a boar. If choosing
+A boar shaman who chooses an animal companion must select a [boar](ref/companion/boar). If choosing
 a domain, the boar shaman must choose from the [Animal](ref/domain/animal),
 [Destruction](ref/domain/destruction) (Rage), [Protection](ref/domain/protection), and Strength
 domains.

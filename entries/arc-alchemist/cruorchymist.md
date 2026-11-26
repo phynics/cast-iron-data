@@ -17,7 +17,7 @@ page = "12"
 [fields]
 kind = "archetype"
 features = [
-  { anchor = "diminished-poisoning" },
+  { anchor = "diminished-poisoning", level = 2 },
   { anchor = "blood-familiar", level = 1 },
   { anchor = "blood-treatment", level = 1 },
   { anchor = "blood-augmentation", level = 4 },

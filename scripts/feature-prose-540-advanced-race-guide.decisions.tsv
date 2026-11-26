@@ -189,3 +189,4 @@ ref/arc-gunslinger/buccaneer	bonus-feat	print	hand review (cross-batch, rulings 
 ref/arc-bard/prankster	bardic-performance	unlist	hand review (cross-batch, ruling 54): an intro head with no level and no trade that holds only its lead-in sentence; the abilities under it stay listed features
 ref/arc-gunslinger/buccaneer	deeds	unlist	hand review (cross-batch, ruling 54): an intro head with no level and no trade that holds only its lead-in sentence; the abilities under it stay listed features
 ref/arc-summoner/wild-caller-arg	eidolon	print	hand review (cross-batch, rulings 15 and 34): the evolutions that the text lists ("cannot take the following evolutions") are in the same paragraph, and the next section is a feature of its own
+ref/arc-sorcerer/wishcrafter	wishbound-arcana	print	hand review (cross-batch, rulings 4 and 48): the feature replaces the bloodline arcana, a part of the bloodline, so print gives it no level (the import's 1st level is not print's)

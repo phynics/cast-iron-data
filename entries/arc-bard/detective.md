@@ -22,7 +22,7 @@ features = [
   { anchor = "show-yourselves", level = 15 },
   { anchor = "eye-for-detail", level = 1 },
   { anchor = "arcane-insight", level = 2 },
-  { anchor = "arcane-investigation" },
+  { anchor = "arcane-investigation", level = 2 },
 ]
 trades = [
   { replaces = "Inspire courage", feature = "bardic-performance", power = "inspire courage", by = ["careful-teamwork"] },
@@ -94,13 +94,9 @@ ability replaces well-versed.
 
 ## Arcane Investigation {#arcane-investigation}
 
-In addition, a detective's class spell list includes the following:
-1st—_[detect chaos](ref/spell/detect-chaos)/[evil](ref/spell/detect-evil)/[law](ref/spell/detect-law)/[good](ref/spell/detect-good)_;
-2nd—_[zone of truth](ref/spell/zone-of-truth)_; 3rd—_[arcane eye](ref/spell/arcane-eye),
-[speak with dead](ref/spell/speak-with-dead), [speak with plants](ref/spell/speak-with-plants)_;
-4th—_[discern lies](ref/spell/discern-lies)_; 5th—_[prying eyes](ref/spell/prying-eyes),
-[stone tell](ref/spell/stone-tell)_; 6th—_[discern location](ref/spell/discern-location),
-[find the path](ref/spell/find-the-path), [greater prying eyes](ref/spell/prying-eyes-greater),
-[moment of prescience](ref/spell/moment-of-prescience)_. A detective may add one of these spells or
-any divination spell on the bard spell list to his list of spells known at 2nd level and every four
-levels thereafter. This ability replaces versatile performance.
+In addition, a detective's class spell list includes the following: 1st—_detect
+chaos/evil/law/good_; 2nd—_[zone of truth](ref/spell/zone-of-truth)_; 3rd—_arcane eye, speak with
+dead, speak with plants_; 4th—_[discern lies](ref/spell/discern-lies)_; 5th—_prying eyes, stone
+tell_; 6th—_discern location, find the path, greater prying eyes, moment of prescience_. A detective
+may add one of these spells or any divination spell on the bard spell list to his list of spells
+known at 2nd level and every four levels thereafter. This ability replaces versatile performance.

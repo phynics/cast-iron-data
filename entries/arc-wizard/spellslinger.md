@@ -81,16 +81,15 @@ _[dancing](ref/magic-enh/dancing)_, _[defending](ref/magic-enh/defending)_,
 _[distance](ref/magic-enh/distance)_, _[flaming](ref/magic-enh/flaming)_,
 _[flaming burst](ref/magic-enh/flaming-burst)_, _[frost](ref/magic-enh/frost)_,
 _[ghost touch](ref/magic-enh/ghost-touch-weapon)_, _[icy burst](ref/magic-enh/icy-burst)_,
-_[merciful](ref/magic-enh/merciful)_, _[seeking](ref/magic-enh/seeking),
-[shock](ref/magic-enh/shock)_, _[shocking burst](ref/magic-enh/shocking-burst)_,
-_[spell storing](ref/magic-enh/spell-storing)_, _[thundering](ref/magic-enh/thundering)_,
-_[vicious](ref/magic-enh/vicious)_, and _[wounding](ref/magic-enh/wounding)_. An arcane gun gains no
-benefit from having two of the same weapon special abilities on the same barrel. The effect of the
-mage bullets ability lasts for a number of minutes equal to the level of the spell sacrificed, or
-until this ability is used again to assign the barrel different enhancements. This ability replaces
-cantrips, but the spellslinger gains the _[detect magic](ref/spell/detect-magic)_ and
-_[read magic](ref/spell/read-magic)_ cantrips and places them in his spellbook. He can cast either
-of these as 1st-level spells.
+_[merciful](ref/magic-enh/merciful)_, _seeking, shock_,
+_[shocking burst](ref/magic-enh/shocking-burst)_, _[spell storing](ref/magic-enh/spell-storing)_,
+_[thundering](ref/magic-enh/thundering)_, _[vicious](ref/magic-enh/vicious)_, and
+_[wounding](ref/magic-enh/wounding)_. An arcane gun gains no benefit from having two of the same
+weapon special abilities on the same barrel. The effect of the mage bullets ability lasts for a
+number of minutes equal to the level of the spell sacrificed, or until this ability is used again to
+assign the barrel different enhancements. This ability replaces cantrips, but the spellslinger gains
+the _[detect magic](ref/spell/detect-magic)_ and _[read magic](ref/spell/read-magic)_ cantrips and
+places them in his spellbook. He can cast either of these as 1st-level spells.
 
 ## School of the Gun {#school-of-the-gun}
 

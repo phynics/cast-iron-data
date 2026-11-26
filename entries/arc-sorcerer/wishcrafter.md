@@ -17,7 +17,7 @@ page = "128"
 [fields]
 kind = "archetype"
 features = [
-  { anchor = "wishbound-arcana", level = 1 },
+  { anchor = "wishbound-arcana" },
   { anchor = "expanded-wishcraft", level = 3 },
   { anchor = "heart-s-desire", level = 7 },
   { anchor = "twisted-wish", level = 13 },

@@ -106,7 +106,7 @@ move to a non-overlapping area to use this ability again. This ability replaces 
 
 ## Ward (Su) {#ward}
 
-At 14th level, a [kami](ref/subtype/kami) medium can declare an area or object that's an appropriate
-place to contact his channeled kami as his ward. This grants the kami medium the ward and merge with
-ward abilities of the kami subtype. For large areas such as lakes or storms, a kami medium's ward
-encompasses a radius of up to 5 feet per medium level. This ability replaces astral journey.
+At 14th level, a kami medium can declare an area or object that's an appropriate place to contact
+his channeled [kami](ref/subtype/kami) as his ward. This grants the kami medium the ward and merge
+with ward abilities of the kami subtype. For large areas such as lakes or storms, a kami medium's
+ward encompasses a radius of up to 5 feet per medium level. This ability replaces astral journey.

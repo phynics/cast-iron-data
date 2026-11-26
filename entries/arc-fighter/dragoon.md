@@ -23,7 +23,7 @@ features = [
   { anchor = "banner", level = 9 },
   { anchor = "piercing-lance", level = 11 },
   { anchor = "leaping-lance", level = 15 },
-  { anchor = "weapon-mastery" },
+  { anchor = "weapon-mastery", level = 20 },
 ]
 trades = [
   { replaces = "The 1st-level fighter bonus combat feat", feature = "bonus-feats", levels = [1], by = ["skilled-rider"] },

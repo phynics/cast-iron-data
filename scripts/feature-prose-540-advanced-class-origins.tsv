@@ -14,7 +14,7 @@ ref/arc-investigator/lepidstadt-inspector	Keen Mind (Ex)	keen-mind	yes	3	print	p
 ref/arc-investigator/lepidstadt-inspector	Perceptive Tracking (Ex)	perceptive-tracking	yes	3	draft	draft		15	c12c6ccca96d7ed7d638a96ebc0cb48028da7974fbbf0b891f867e7ad623d722
 ref/arc-investigator/lepidstadt-inspector	Relentless Pursuit (Ex)	relentless-pursuit	yes	5	print	print		15	98b50d830de5bce3b4d6a8ede848943c02694dfbf9c0288069ba3844f3ef5f2c
 ref/arc-skald/bekyar-demon-dancer	Skills	skills	no		print	print	head printed, not in the import: added from print; opening text written from print: the import differs in class, dance, gained, perf, skill	18	
-ref/arc-skald/bekyar-demon-dancer	Versatile Performance (Ex)	versatile-performance	yes		print	print		18	3545a75bd0f46f46f29cbf259e3bf5189bb37c8653264f583bc4adbfbb0e1edb
+ref/arc-skald/bekyar-demon-dancer	Versatile Performance (Ex)	versatile-performance	yes	2	print	print		18	3545a75bd0f46f46f29cbf259e3bf5189bb37c8653264f583bc4adbfbb0e1edb
 ref/arc-skald/bekyar-demon-dancer	Fiendish Maw (Su)	fiendish-maw	yes	3	print	print	hand review (rule 1, ruling 14): print gives the bite damage in one sentence (1d6 at 3rd level, 1d8 at 7th, 2d6 at 12th, 3d6 at 17th; Small creatures one die less) and a sentence on increases that do not stack, which the import wrote as rows without the second sentence. The values agree. Print's wording is taken.	18	4c2e0fc0a66cef3dbd5f7a7c0c5486e86bb9b916aec6ccf80b01a2ee7b91a5d1
 ref/arc-skald/bekyar-demon-dancer	Abyssal Wrath (Su)	abyssal-wrath	yes	6	print	print		19	24cba7b136d867963836f3b412324a4f8e12ff1c11132ff9e35247de19847675
 ref/arc-skald/bekyar-demon-dancer	Demonic Conquest (Su)	demonic-conquest	yes	7	print	print		19	1e80966e322e1c9eaf7e564b60ea34f86d972612e79119c88cfbd103cbfcacf9
