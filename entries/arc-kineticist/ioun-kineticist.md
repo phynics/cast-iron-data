@@ -16,11 +16,19 @@ page = "12"
 
 [fields]
 kind = "archetype"
+features = [
+  { anchor = "ioun-focus" },
+  { anchor = "ioun-cloud" },
+  { anchor = "basic-iounkinesis" },
+  { anchor = "ioun-buffer" },
+  { anchor = "personal-resonance", level = 6 },
+  { anchor = "azlanti-blast" },
+]
 trades = [
-  { replaces = "The ability score boosts granted by elemental overflow", feature = "elemental-overflow" },
-  { alters = "Elemental focus", feature = "elemental-focus" },
-  { alters = "Basic telekinesis utility wild talent granted by the aether element", feature = "elemental-focus", power = "basic utility wild talent" },
-  { alters = "Internal buffer", feature = "internal-buffer" },
+  { replaces = "The ability score boosts granted by elemental overflow", feature = "elemental-overflow", by = ["personal-resonance"] },
+  { alters = "Elemental focus", feature = "elemental-focus", by = ["ioun-focus"] },
+  { replaces = "Basic telekinesis utility wild talent granted by the aether element", feature = "elemental-focus", power = "basic utility wild talent", by = ["basic-iounkinesis"] },
+  { alters = "Internal buffer", feature = "internal-buffer", by = ["ioun-buffer"] },
 ]
 +++
 
@@ -28,12 +36,10 @@ Among the greatest technologies to come from Azlant are ioun stones, small cryst
 imbued with magical energies that modern scholars still struggle to dissect. Some kineticists
 dedicate themselves to unlocking ioun stones' cosmic secrets and seemingly limitless potential.
 
-**Ioun Focus**
+## Ioun Focus {#ioun-focus}
 
-**Alters:** Elemental focus
-
-**Info:** An ioun kineticist must choose aether as her [elemental focus](ref/ability/elements). She
-cannot select [disintegrating infusion](ref/kinetic/disintegrating-infusion),
+An ioun kineticist must choose aether as her [elemental focus](ref/ability/elements). She cannot
+select [disintegrating infusion](ref/kinetic/disintegrating-infusion),
 [foe throw](ref/kinetic/foe-throw), or [force hook](ref/kinetic/force-hook) as infusions, nor can
 she select [aether puppet](ref/kinetic/aether-puppet),
 [telekinetic finesse](ref/kinetic/telekinetic-finesse),
@@ -42,101 +48,91 @@ she select [aether puppet](ref/kinetic/aether-puppet),
 the following infusions and wild talents as though they were part of the aether element:
 [cyclone](ref/kinetic/cyclone), [fragmentation](ref/kinetic/fragmentation),
 [jagged flesh](ref/kinetic/jagged-flesh), and
-[rare-metal infusion](ref/kinetic/rare-metal-infusion). These infusions can be applied to the ioun
-kineticist's [telekinetic blast](ref/kinetic/telekinetic-blast) and _Azlanti composite blast_ (see
+[rare metal infusion](ref/kinetic/rare-metal-infusion). These infusions can be applied to the ioun
+kineticist's [telekinetic blast](ref/kinetic/telekinetic-blast) and Azlanti composite blast (see
 below).
 
-**Special:** An ioun kineticist's telekinetic blast always sends one or more of her ioun stones to
-strike her foes and immediately return, and her wild talents typically manifest as her ioun stones
-moving or spinning to create fields of energy.
+An ioun kineticist's telekinetic blast always sends one or more of her _ioun stones_ to strike her
+foes and immediately return, and her wild talents typically manifest as her _ioun stones_ moving or
+spinning to create fields of energy.
 
-**Ioun Cloud (Su)**
+This alters elemental focus.
 
-**Ability:** An ioun kineticist forms a powerful bond with three
-[dull gray ioun stones](ref/magic-ioun/dull-gray-stone), referred to as her _ioun cloud._ She begins
-play with these stones at no cost. She also increases the AC of stones in her _ioun cloud_ by an
+## Ioun Cloud (Su) {#ioun-cloud}
+
+An ioun kineticist forms a powerful bond with three
+_[dull gray ioun stones](ref/magic-ioun/dull-gray-stone)_, referred to as her ioun cloud. She begins
+play with these stones at no cost, and she gains a bond with an additional free _dull gray ioun_
+stone at 6th, 12th, and 18th levels. She also increases the AC of stones in her ioun cloud by an
 amount equal to her class level, and she increases the [hardness](ref/umr/hardness) of these stones
-by an amount equal to half her class level (minimum +0). An ioun kineticist cannot use her _gather
-power, ioun buffer, kinetic blast,_ or _personal resonance_ class abilities unless she has at least
-one bonded ioun stone orbiting her. She takes a cumulative -2 penalty on
-[concentration](ref/rule/concentration) checks for each bonded ioun stone less than her possible
-maximum in her current _ioun cloud._ When she uses her _gather power_ class ability, her _ioun
-cloud_ buzzes, glows, spins rapidly, and traces eldritch symbols in the air.
+by an amount equal to half her class level (minimum +0). An ioun kineticist cannot use her gather
+power, ioun buffer, kinetic blast, or personal resonance class abilities unless she has at least one
+bonded _ioun stone_ orbiting her. She takes a cumulative -2 penalty on
+[concentration](ref/rule/concentration) checks for each bonded _ioun stone_ less than her possible
+maximum in her current ioun cloud. When she uses her gather power class ability, her ioun cloud
+buzzes, glows, spins rapidly, and traces eldritch symbols in the air.
 
-**Special:** While the ioun kineticist can own additional ioun stones outside of this bond, only
-bonded ioun stones can be a part of her _ioun cloud._ An ioun kineticist can spend 1 hour meditating
-with an ioun stone to bond with it and add it to her _ioun cloud,_ but doing so immediately unbonds
-and removes one ioun stone of her choice from her _ioun cloud_ unless she is replacing an ioun stone
+While the ioun kineticist can own additional _ioun stones_ outside of this bond, only bonded _ioun
+stones_ can be a part of her ioun cloud. An ioun kineticist can spend 1 hour meditating with an
+_ioun stone_ to bond with it and add it to her ioun cloud, but doing so immediately unbonds and
+removes one _ioun stone_ of her choice from her ioun cloud unless she is replacing an _ioun stone_
 that has been lost or destroyed.
 
-At 6th level: She gains a bond with a 4th free dull gray ioun.
+## Basic Iounkinesis (Su or Sp) {#basic-iounkinesis}
 
-At 12th level: She gains a bond with a 5th free dull gray ioun.
-
-At 18th level: She gains a bond with a 6th free dull gray ioun.
-
-**Basic Iounkinesis (Su or Sp)**
-
-**Ability:** She can activate (making the stones orbit her) or stow a number of ioun stones equal to
-her class level in any combination as a **move action**, and she can activate or stow twice as many
-as a **standard action**. She can affect only ioun stones orbiting her and unattended ioun stones
-within 15 feet with this ability. This ability also allows her to cast
-[prestidigitation](ref/spell/prestidigitation) at will as a
+An ioun kineticist can manipulate _ioun stones_ with ease and channel their magical fields to create
+simple effects. She can activate (making the stones orbit her) or stow a number of _ioun stones_
+equal to her class level in any combination as a move action, and she can activate or stow twice as
+many as a standard action. She can affect only _ioun stones_ orbiting her and unattended _ioun
+stones_ within 15 feet with this ability. This ability also allows her to cast
+_[prestidigitation](ref/spell/prestidigitation)_ at will as a
 [spell-like ability](ref/umr/spell-like-abilities).
 
-**Alters:** Basic telekinesis utility wild talent granted by the aether element
+This replaces the basic telekinesis utility wild talent granted by the aether element.
 
-**Flavor:** An ioun kineticist can manipulate ioun stones with ease and channel their magical fields
-to create simple effects.
+## Ioun Buffer (Su) {#ioun-buffer}
 
-**Ioun Buffer (Su)**
+An ioun kineticist can store excess energy in her ioun cloud. This functions as the kineticist's
+internal buffer ability, except she stores each point of burn within a different _ioun stone_ in her
+ioun cloud. She can access the burn stored in an _ioun stone_ only if it is orbiting her.
 
-**Ability:** An ioun kineticist can store excess energy in her _ioun cloud._ This functions as the
-kineticist's _internal buffer_ ability, except she stores each point of burn within a different ioun
-stone in her _ioun cloud._ She can access the burn stored in an ioun stone only if it is orbiting
-her. When expending an ioun stone's stored point of burn to reduce the cost of a blast wild talent,
-the ioun kineticist can expend all of that ioun stone's energy, permanently transforming it into a
-dull gray ioun stone. If the ioun stone's market price was at least 4,000 gp, this effect further
-reduces the burn cost of that wild talent by 2. If the ioun stone's market price was at least 10,000
-gp, it instead further reduces the burn cost by 3. If the ioun stone's market price was more than
-20,000 gp, it instead further reduces the burn cost by 4.
+When expending an _ioun stone's_ stored point of burn to reduce the cost of a blast wild talent, the
+ioun kineticist can expend all of that _ioun stone's_ energy, permanently transforming it into a
+_dull gray ioun stone_. If the _ioun stone's_ market price was at least 4,000 gp, this effect
+further reduces the burn cost of that wild talent by 2. If the _ioun stone's_ market price was at
+least 10,000 gp, it instead further reduces the burn cost by 3. If the _ioun stone's_ market price
+was more than 20,000 gp, it instead further reduces the burn cost by 4.
 
-**Alters:** Internal buffer
+This alters internal buffer.
 
-**Personal Resonance (Su)**
+## Personal Resonance (Su) {#personal-resonance}
 
-**Ability:** Whenever she has at least 3 points of burn, she gains the resonant powers of two ioun
-stones of her choice in her _ioun cloud;_ she is treated as holding a
-[wayfinder](ref/magic-wondrous/wayfinder) for the purpose of using any resonant powers. As a
-**standard action**, she can switch which two ioun stones are granting their resonance powers.
+At 6th level, an ioun kineticist can harmonize her body's energies with that of her ioun cloud.
+Whenever she has at least 3 points of burn, she gains the resonant powers (_Pathfinder RPG
+Adventurer's Guide_ 149) of two _ioun stones_ of her choice in her ioun cloud; she is treated as
+holding a _[wayfinder](ref/magic-wondrous/wayfinder)_ for the purpose of using any resonant powers
+(_Adventurer's Guide_ 148). As a standard action, she can switch which two _ioun stones_ are
+granting their resonance powers. At 11th level, whenever she has at least 5 points of burn, she can
+gain the resonance powers of up to four _ioun stones_ in her ioun cloud. At 16th level, whenever she
+has at least 7 points of burn, she gains the resonance powers of all of the _ioun stones_ in her
+ioun cloud.
 
-**Choice:** In place of gaining the resonant power of a
-[deep red sphere](ref/magic-ioun/deep-red-sphere),
-[incandescent blue sphere](ref/magic-ioun/incandescent-blue-sphere),
-[pale blue rhomboid](ref/magic-ioun/pale-blue-rhomboid),
-[pink and green sphere](ref/magic-ioun/pink-and-green-sphere),
-[pink rhomboid](ref/magic-ioun/pink-rhomboid), or
-[scarlet and blue sphere](ref/magic-ioun/scarlet-and-blue-sphere), the ioun kineticist can instead
-increase the enhancement bonus it grants to an ability score to +4. An ioun kineticist can increase
-only one ioun stone's enhancement bonus in this way at a time.
+In place of gaining the resonant power of a _deep rose sphere_,
+_[incandescent blue sphere](ref/magic-ioun/incandescent-blue-sphere)_,
+_[pale blue rhomboid](ref/magic-ioun/pale-blue-rhomboid)_,
+_[pink and green sphere](ref/magic-ioun/pink-and-green-sphere)_,
+_[pink rhomboid](ref/magic-ioun/pink-rhomboid)_, or
+_[scarlet and blue sphere](ref/magic-ioun/scarlet-and-blue-sphere)_, the ioun kineticist can instead
+increase the enhancement bonus it grants to an ability score to +4. This bonus increases to +5 at
+11th level when she has at least 5 points of burn and increases to +6 at 16th level when she has at
+least 7 points of burn. An ioun kineticist can increase only one _ioun stone's_ enhancement bonus in
+this way at a time.
 
-**Flavor:** An ioun kineticist can harmonize her body's energies with that of her ioun cloud.
+This replaces the ability score boosts granted by elemental overflow.
 
-**At 11th Level:** Whenever she has at least 5 points of burn, she can gain the resonance powers of
-up to four ioun stones in her _ioun cloud,_ and the bonus she can get from certain ioun stones
-becomes +5.
+## Azlanti Blast (Su) {#azlanti-blast}
 
-**At 16th Level:** Whenever she has at least 7 points of burn, she gains the resonance powers of all
-of the ioun stones in her _ioun cloud,_ and the bonus she can get from certain ioun stones becomes
-+6.
-
-**Gained:** At 6th Level
-
-**Replaces:** The ability score boosts granted by _elemental overflow_
-
-**Azlanti Blast (Su)**
-
-**Ability:** An ioun kineticist who selects aether as her _expanded element_ does not gain the
-[force composite blast](ref/kinetic/force-blast). She instead gains the _Azlanti composite blast,_
-which costs 2 points of burn. An _Azlanti blast_ is a physical blast that deals bludgeoning,
-piercing, or slashing damage.
+An ioun kineticist who selects aether as her expanded element does not gain the
+[force composite blast](ref/kinetic/force-blast). She instead gains the Azlanti composite blast,
+which costs 2 points of burn. An Azlanti blast is a physical blast that deals bludgeoning, piercing,
+or slashing damage.

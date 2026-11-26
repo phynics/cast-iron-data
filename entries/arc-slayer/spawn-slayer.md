@@ -16,65 +16,56 @@ page = "24"
 
 [fields]
 kind = "archetype"
+features = [
+  { anchor = "studied-spawn" },
+  { anchor = "gain-leverage", level = 7 },
+  { anchor = "force-vulnerability", level = 20 },
+]
 trades = [
-  { replaces = "The ability to study an opponent as a swift action at 7th level", feature = "studied-target", levels = [7] },
-  { replaces = "Stalker", feature = "stalker" },
-  { replaces = "Master slayer", feature = "master-slayer" },
-  { alters = "Studied target", feature = "studied-target" },
+  { replaces = "The ability to study an opponent as a swift action at 7th level", feature = "studied-target", levels = [7], by = ["studied-spawn"] },
+  { replaces = "Stalker", feature = "stalker", by = ["gain-leverage"] },
+  { replaces = "Master slayer", feature = "master-slayer", by = ["force-vulnerability"] },
+  { alters = "Studied target", feature = "studied-target", by = ["studied-spawn"] },
 ]
 +++
 
 Generations of Ninshaburian warriors fought the Spawn of Rovagug, holding the line against
 impossible odds. Some of their ancient techniques persist to this day.
 
-**Studied Spawn (Ex)**
+## Studied Spawn (Ex) {#studied-spawn}
 
-**Alters:** Studied target
+A spawn slayer specializes in fighting against larger, single targets. At 5th, 10th, 15th, and 20th
+levels, the bonuses on weapon attack rolls, damage rolls, and skill checks against a studied target
+increase by 1, as do the DCs of slayer abilities against a studied target. He can also ignore size
+restrictions against a studied target when attempting combat maneuvers against larger foes. At 5th
+level, if the target is Large or larger, these bonuses increase by an additional 1. At 10th level,
+if the target is Huge or larger, the bonuses increase by an additional 2. At 15th level, if the
+target is Gargantuan or larger, the bonuses increase by an additional 3. At 20th level, if the
+target is Colossal in size, the bonuses increase by an additional 4. A spawn slayer cannot maintain
+these bonuses against more than one target at a time. He does not gain the ability to study an
+opponent as a swift action at 7th level.
 
-**Flavor:** A spawn slayer specializes in fighting against larger, single targets.
+This alters studied target.
 
-**At 10th Level:** If the target is Huge or larger, the bonuses increase by an additional 2.
+## Gain Leverage (Ex) {#gain-leverage}
 
-**At 15th Level:** If the target is Gargantuan or larger, the bonuses increase by an additional 3.
+At 7th level, a spawn slayer learns techniques to counteract a foe's size advantage. When performing
+a combat maneuver against a studied target of Large or larger size, the spawn slayer gains a bonus
+on the check equal to the creature's size modifier to CMB (Large +1, Huge +2, Gargantuan +4, and
+Colossal +8). The spawn slayer adds this same bonus to his CMD when defending against combat
+maneuvers from a Large or larger studied target.
 
-**At 20th Level:** If the target is Colossal in size, the bonuses increase by an additional 4.
+This replaces stalker.
 
-**At 5th Level:** The bonuses on weapon attack rolls, damage rolls, and skill checks against a
-_studied target_ increase by [one-fifth](ref/misc/fractions-and-rounding) of his slayer level, as do
-the DCs of slayer abilities against a _studied target._ If the target is Large or larger, these
-bonuses increase by an additional 1.
+## Force Vulnerability (Ex) {#force-vulnerability}
 
-**Replaces:** The ability to study an opponent as a swift action at 7th level
-
-**Special:** A spawn slayer cannot maintain these bonuses against more than one target at a time.
-
-**Gain Leverage (Ex)**
-
-**Flavor:** A spawn slayer learns techniques to counteract a foe's size advantage.
-
-**Gained:** At 7th Level
-
-**Passive:** When performing a combat maneuver against a _studied target_ of Large or larger size,
-the spawn slayer gains a bonus on the check equal to the creature's size modifier to CMB (Large +1,
-Huge +2, Gargantuan +4, and Colossal +8). The spawn slayer adds this same bonus to his CMD when
-defending against combat maneuvers from a Large or larger _studied target._
-
-**Replaces:** Stalker
-
-**Force Vulnerability (Ex)**
-
-**Flavor:** A spawn slayer can create an opening in even an invulnerable foe's defenses.
-
-**Gained:** At 20th Level
-
-**Replaces:** Master slayer
-
-**Special:** Whether or not the target fails this save, it cannot be targeted by _force
-vulnerability_ again (by you or another slayer) for 24 hours.
-
-**Standard:** He can make a single attack against a _studied target_ at his full attack bonus. If
+At 20th level, a spawn slayer can create an opening in even an invulnerable foe's defenses. As a
+standard action, he can make a single attack against a studied target at his full attack bonus. If
 the attack hits, the damage bypasses any [damage reduction](ref/rule/damage-reduction) and the
 target must succeed at a Will saving throw (DC 10 + half the slayer's level + the slayer's
 Intelligence modifier) or lose one of its defensive abilities for 2d6 rounds. The slayer can choose
 which defensive ability is lost from the following options: a single immunity, all resistances,
-regeneration, or [spell resistance](ref/rule/spell-resistance).
+regeneration, or [spell resistance](ref/rule/spell-resistance). Whether or not the target fails this
+save, it cannot be targeted by force vulnerability again (by you or another slayer) for 24 hours.
+
+This replaces master slayer.

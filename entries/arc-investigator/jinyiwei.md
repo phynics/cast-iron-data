@@ -16,12 +16,18 @@ page = "21"
 
 [fields]
 kind = "archetype"
+features = [
+  { anchor = "divine-inspiration", level = 1 },
+  { anchor = "suspicious-mind", level = 1 },
+  { anchor = "celestial-insight", level = 3 },
+  { anchor = "imperial-judgment", level = 4 },
+]
 trades = [
-  { replaces = "Alchemy", feature = "alchemy" },
-  { replaces = "Trapfinding", feature = "trapfinding" },
-  { replaces = "Trap sense", feature = "trap-sense" },
-  { replaces = "Swift alchemy", feature = "swift-alchemy" },
-  { alters = "Inspiration", feature = "inspiration" },
+  { replaces = "Alchemy", feature = "alchemy", by = ["divine-inspiration"] },
+  { replaces = "Trapfinding", feature = "trapfinding", by = ["suspicious-mind"] },
+  { replaces = "Trap sense", feature = "trap-sense", by = ["celestial-insight"] },
+  { replaces = "Swift alchemy", feature = "swift-alchemy", by = ["imperial-judgment"] },
+  { alters = "Inspiration", feature = "inspiration", by = ["divine-inspiration"] },
 ]
 +++
 
@@ -34,48 +40,37 @@ bureaucracy. However, their legacy now inspires purists who seek out and elimina
 wherever they find it. Since the earthly government of Lung Wa has failed, these new jinyiwei claim
 they act under the celestial government's mandate.
 
-**Divine Inspiration**
+## Divine Inspiration {#divine-inspiration}
 
-**Alters:** Inspiration
+A jinyiwei follows a mandate from Heaven to combat corruption in the mortal world. A jinyiwei adds
+her Wisdom modifier to her inspiration pool, rather than her Intelligence modifier. Additionally,
+rather than dabbling in the arcane arts of alchemy, a jinyiwei is empowered by the forces of
+celestial bureaucracy. She casts spells as an [inquisitor](ref/class/inquisitor) of the same level.
 
-**Flavor:** A jinyiwei follows a mandate from Heaven to combat corruption in the mortal world.
+This alters the inspiration class feature and replaces the alchemy class feature.
 
-**Info:** A jinyiwei adds her Wisdom modifier to her _inspiration pool,_ rather than her
-Intelligence modifier. Additionally, rather than dabbling in the arcane arts of alchemy, a jinyiwei
-is empowered by the forces of celestial bureaucracy. She casts spells as an
-[inquisitor](ref/class/inquisitor) of the same level.
+## Suspicious Mind (Ex) {#suspicious-mind}
 
-**Replaces:** Alchemy
+A jinyiwei adds half her level (minimum 1) to Sense Motive checks, Linguistics checks to detect
+forgeries, and Perception checks to see through disguises, locate creatures using Stealth, or locate
+a secret door or compartment.
 
-**Suspicious Mind (Ex)**
+This replaces trapfinding.
 
-**Passive:** A jinyiwei adds half her level (minimum 1) to Sense Motive checks, Linguistics checks
-to detect forgeries, and Perception checks to see through disguises, locate creatures using Stealth,
-or locate a secret door or compartment.
+## Celestial Insight (Ex) {#celestial-insight}
 
-**Replaces:** Trapfinding
+At 3rd level, a jinyiwei learns to see through the types of magic that often lead others astray. She
+gains a +1 competence bonus on saving throws to resist enchantment and illusion effects. At 6th
+level and every 3 levels thereafter, these bonuses increase by 1 (to a maximum of +6 at 18th level).
 
-**Celestial Insight (Ex)**
+This replaces trap sense.
 
-**Flavor:** A jinyiwei learns to see through the types of magic that often lead others astray.
+## Imperial Judgment (Su) {#imperial-judgment}
 
-**Gained:** At 3rd Level
+At 4th level, a jinyiwei can carry out trial and sentence with her own divine authority. She gains
+the judgment inquisitor class feature as an inquisitor 3 levels lower than her investigator level,
+and her investigator levels stack with inquisitor levels for the purposes of determining her
+judgments' abilities and number of judgments per day. At 11th level, she gains the second judgment
+inquisitor class feature, and at 19th level, she gains the third judgment inquisitor class feature.
 
-**Passive:** She gains a competence bonus on saving throws to resist enchantment and illusion
-effects. These bonuses are equal to one-third of her investigator level.
-
-**Replaces:** Trap sense
-
-**Imperial Judgment (Su)**
-
-**Flavor:** A jinyiwei can carry out trial and sentence with her own divine authority.
-
-**At 11th Level:** She gains the _second judgment_ inquisitor class feature.
-
-**At 19th Level:** She gains the _third judgment_ inquisitor class feature.
-
-**At 4th Level:** She gains the _judgment_ inquisitor class feature as an inquisitor 3 levels lower
-than her investigator level, and her investigator levels stack with inquisitor levels for the
-purposes of determining her judgments' abilities and number of judgments per day.
-
-**Replaces:** Swift alchemy
+This replaces swift alchemy.
