@@ -58,6 +58,5 @@ This ability replaces arcane bond.
 
 Starting at 5th level, the instructor can take a teamwork feat as his wizard bonus feat. As long as
 his apprentice is within 60 feet, the apprentice gains all such teamwork feats as bonus feats. The
-apprentice does not have to meet the feat's prerequisites.
-
-This ability modifies the bonus feats gained at 5th, 10th, 15th, and 20th level.
+apprentice does not have to meet the feat's prerequisites. This ability modifies the bonus feats
+gained at 5th, 10th, 15th, and 20th level.

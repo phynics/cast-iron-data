@@ -20,7 +20,7 @@ features = [
   { anchor = "emotional-appeal", level = 3 },
   { anchor = "sacred-subdual", level = 1 },
   { anchor = "blessing-of-conversion", level = 1 },
-  { anchor = "voice-of-the-faithful", level = 1 },
+  { anchor = "voice-of-the-faithful", level = 10 },
 ]
 trades = [
   { replaces = "Sacred armor", feature = "sacred-armor", by = ["emotional-appeal"] },
@@ -56,9 +56,7 @@ This ability replaces sacred armor and the bonus feat gained at 3rd level.
 ## Sacred Subdual (Su) {#sacred-subdual}
 
 When a proselytizer uses his sacred weapon damage in place of his normal weapon damage, all damage
-he deals with that weapon is nonlethal damage.
-
-This ability modifies sacred weapon.
+he deals with that weapon is nonlethal damage. This ability modifies sacred weapon.
 
 ## Blessing of Conversion {#blessing-of-conversion}
 
@@ -70,6 +68,4 @@ proselytizer does not gain access to the minor blessings granted by his blessing
 ## Voice of the Faithful (Ex) {#voice-of-the-faithful}
 
 A proselytizer of 10th level or higher can expend a use of his major blessing to be able to speak to
-and understand any creature with a language for 1 hour.
-
-This ability modifies blessings (major).
+and understand any creature with a language for 1 hour. This ability modifies blessings (major).

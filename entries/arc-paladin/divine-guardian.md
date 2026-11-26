@@ -21,7 +21,7 @@ features = [
   { anchor = "divine-troth", level = 1 },
   { anchor = "guarding-hands", level = 2 },
   { anchor = "courageous-defense", level = 3 },
-  { anchor = "bonus-feat" },
+  { anchor = "bonus-feat", level = 7 },
 ]
 trades = [
   { replaces = "Detect evil", feature = "detect-evil", by = ["divine-troth"] },

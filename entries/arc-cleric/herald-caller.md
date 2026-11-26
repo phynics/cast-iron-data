@@ -81,6 +81,6 @@ energy to deal damage, she can exclude any of her summoned monsters that would n
 At 4th level, a herald caller receives [Augment Summoning](ref/feat/augment-summoning) as a bonus
 feat, and is considered to have [Spell Focus](ref/feat/spell-focus) (conjuration) for the purposes
 of prerequisites for feats that have Augment Summoning as a prerequisite (such as
-[Evolved Summoned Monster](ref/feat/evolved-summoned-monster) on page 146 of the P_athfinder RPG
+[Evolved Summoned Monster](ref/feat/evolved-summoned-monster) on page 146 of the _Pathfinder RPG
 Advanced Class Guide_). At 8th level, she gains [Superior Summoning](ref/feat/superior-summoning) as
 a bonus feat.

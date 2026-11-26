@@ -75,6 +75,6 @@ This ability alters _summon monster_.
 ## Chaos Magic {#chaos-magic}
 
 A morphic savant gains the following bonus spells known at the listed spell level: 1st—_protection
-from law_, 2nd—_shard of chaos_, 3rd —_magic circle against law_, 4th—_chaos hammer_, 5th—_dispel
+from law_, 2nd—_shard of chaos_, 3rd—_magic circle against law_, 4th—_chaos hammer_, 5th—_dispel
 law_, 6th—_word of chaos_. The morphic savant gains one fewer spell known per spell level for spell
 levels 1–6. This ability alters the summoner's spells known.

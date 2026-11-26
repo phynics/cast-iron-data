@@ -59,10 +59,10 @@ reminiscent of the wizard's bonded item (such as the pattern of a bonded ring ap
 decoration on a _[mage armor](ref/spell/mage-armor)_ or _[shield](ref/spell/shield)_ effect).
 
 At 9th level, when the bonded wizard uses bonded force for _[mage armor](ref/spell/mage-armor)_, the
-armor bonus increases by 1; when she uses bonded force for _[shield](ref/spell/shield)_, the
-[shield](ref/spell/shield) bonus increases by 1; and she gains a +1 enhancement bonus on attack and
-damage rolls when using bonded force for _[spiritual weapon](ref/spell/spiritual-weapon)_. The
-increases for _[mage armor](ref/spell/mage-armor)_ and _shield_ and the enhancement bonus for
+armor bonus increases by 1; when she uses bonded force for _[shield](ref/spell/shield)_, the shield
+bonus increases by 1; and she gains a +1 enhancement bonus on attack and damage rolls when using
+bonded force for _[spiritual weapon](ref/spell/spiritual-weapon)_. The increases for
+_[mage armor](ref/spell/mage-armor)_ and _shield_ and the enhancement bonus for
 _[spiritual weapon](ref/spell/spiritual-weapon)_ improve by an additional 1 at 13th level and again
 at 17th level. When she uses bonded force for _[spiritual weapon](ref/spell/spiritual-weapon)_, the
 bonded wizard can choose to reduce this enhancement bonus by 1 to double the _spiritual weapon's_

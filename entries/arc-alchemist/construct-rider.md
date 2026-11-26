@@ -28,8 +28,11 @@ trades = [
 ]
 +++
 
-A construct rider creates arcane devices to emulate and surpass weak flesh. Class Skills: The
-construct rider gains Ride (Dex) and Knowledge (engineering) (Int) as class skills.
+A construct rider creates arcane devices to emulate and surpass weak flesh.
+
+## Class Skills {#class-skills}
+
+The construct rider gains Ride (Dex) and Knowledge (engineering) (Int) as class skills.
 
 ## Craft Mount (Su) {#craft-mount}
 

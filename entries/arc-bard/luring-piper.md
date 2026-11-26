@@ -18,8 +18,7 @@ page = "11"
 kind = "archetype"
 features = [
   { anchor = "fey-secrets", level = 1 },
-  { anchor = "luring-presentation" },
-  { anchor = "bardic-performance", level = 1 },
+  { anchor = "luring-presentation", level = 1 },
   { anchor = "charming-melody", level = 1 },
   { anchor = "deadly-lure", level = 8 },
   { anchor = "fey-wounding-song", level = 12 },
@@ -30,7 +29,7 @@ trades = [
   { replaces = "Dirge of doom", feature = "bardic-performance", power = "dirge of doom", by = ["deadly-lure"] },
   { replaces = "Soothing performance", feature = "bardic-performance", power = "soothing performance", by = ["fey-wounding-song"] },
   { replaces = "Well-versed", feature = "well-versed", by = ["piper-s-attention"] },
-  { alters = "Bardic performance", feature = "bardic-performance", by = ["bardic-performance"] },
+  { alters = "Bardic performance", feature = "bardic-performance", by = ["luring-presentation"] },
   { alters = "Fascinate", feature = "bardic-performance", power = "fascinate", by = ["charming-melody"] },
   { alters = "Class skills" },
 ]
@@ -90,7 +89,7 @@ This performance replaces the bard's dirge of doom.
 At 12th level as a full-round action, the luring piper can expend 3 rounds of bardic performance to
 play a song that causes fey tremendous pain. Treat this as equivalent to
 _[mass inflict serious wounds](ref/spell/inflict-serious-wounds-mass)_, but affecting only fey
-targets and using the lurid piper's bard level as his caster level.
+targets and using the luring piper's bard level as his caster level.
 
 This performance replaces soothing performance.
 

@@ -18,7 +18,6 @@ page = "5"
 kind = "archetype"
 features = [
   { anchor = "fire-music", level = 1 },
-  { anchor = "bardic-performance" },
   { anchor = "blazing-blades", level = 1 },
   { anchor = "wildfire", level = 2 },
 ]
@@ -37,7 +36,7 @@ to Qadira and from there throughout the Inner Sea region.
 ## Fire Music {#fire-music}
 
 A flamesinger gains [Fire Music](ref/feat/fire-music) as a bonus feat at 1st level (without needing
-the meet the normal prerequisites). At 4th level (when she gains access to 2nd-level spells), she
+to meet the normal prerequisites). At 4th level (when she gains access to 2nd-level spells), she
 adds _[summon monster I](ref/spell/summon-monster-1)_ and
 _[summon monster II](ref/spell/summon-monster-2)_ to her bard spells known; every 3 levels
 thereafter she gains the next level of _[summon monster](ref/spell/summon-monster)_, until she adds

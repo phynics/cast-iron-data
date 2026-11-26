@@ -3124,6 +3124,25 @@ PARA_JOINS = {
 }
 
 
+# Repairs of the extraction that the page images show (not corrections of print): a mark that the text layer sets one character off, a space before
+# a dash, a link on a word that is no name of the rule (review of #347). (entry, anchor): [(wrong, right)]; each must match, or the run fails.
+TEXT_REPAIRS = {
+    ("ref/arc-cleric/herald-caller", "mighty-heralds"): [("P_athfinder RPG Advanced Class Guide_", "_Pathfinder RPG Advanced Class Guide_")],
+    ("ref/arc-summoner/morphic-savant", "chaos-magic"): [("3rd \u2014_magic circle", "3rd\u2014_magic circle")],
+    ("ref/arc-unchained-summoner/morphic-savant", "chaos-magic"): [("3rd \u2014_magic circle", "3rd\u2014_magic circle")],
+    ("ref/arc-wizard/bonded-wizard", "bonded-force"): [("[shield](ref/spell/shield) bonus", "shield bonus")],
+    ("ref/arc-druid/elemental-ally", "elemental-eidolons"): [("an [elemental](ref/eidolon/elemental) ally", "an elemental ally")],
+}
+
+
+def repair_text(entry_id: str, anchor: str, text: str) -> str:
+    for wrong, right in TEXT_REPAIRS.get((entry_id, anchor), ()):
+        if wrong not in text:
+            raise SystemExit(f"TEXT_REPAIRS: `{wrong}` is not in {entry_id} `{anchor}`")
+        text = text.replace(wrong, right)
+    return text
+
+
 def join_paras(entry_id: str, anchor: str, text: str) -> str:
     for start in PARA_JOINS.get((entry_id, anchor), ()):
         text = text.replace("\n\n" + start, " " + start, 1)
@@ -3188,7 +3207,7 @@ def compare_entry(e: Entry, section: list[Para], book: Book) -> dict:
         f = feats[idx]
         draft = build_draft(f)
         text, lost, pnotes = print_md(pf, feature_links(e.id, f, head), vocab, e.id, keep)
-        text = join_paras(e.id, anchor_of(head), text)
+        text = repair_text(e.id, anchor_of(head), join_paras(e.id, anchor_of(head), text))
         # a printed "(see ...)" cross-reference is kept in the text but is not a rule word: the corpus links instead
         cmp = compare_feature(draft, strip_citations(re.sub(r"\s*\([Ss]ee\b[^()]*\)", "", text)), set(tokens(ABILITY_TAG.sub("", f.name))), title_tokens)
         # the whole row, then its parts: a name that is a list ("The 1st-, 9th-, and 15th-level channel energy
@@ -4590,7 +4609,8 @@ def configure_book(book: str) -> None:
     CHAPTER_END[0] = 47 if book == "inner-sea-combat" else 0
     PAGE_SKIP[:] = [(16, 23), (26, 999)] if book == "legacy-of-dragons" else []
     LOWERCASE_CONTINUES["on"] = BULLETS["on"] = ITALIC_FIRST["on"] = CITE_EXT["on"] = LEAD_EXT["on"] = book in ("inner-sea-magic", "inner-sea-intrigue", "inner-sea-combat")
-    LEAD_EXT["on"] = LEAD_EXT["on"] or book in BATCH_B_BOOKS or book in ("heroes-of-the-darklands", "legacy-of-dragons", "familiar-folio", "advanced-class-origins", "armor-masters-handbook")
+    LEAD_EXT["on"] = LEAD_EXT["on"] or book in BATCH_B_BOOKS or book in ("heroes-of-the-darklands", "legacy-of-dragons", "familiar-folio", "advanced-class-origins", "armor-masters-handbook", "cohorts-and-companions",
+                                                                                                  "elemental-masters-handbook", "monster-hunters-handbook", "monster-summoners-handbook")
     OCR["on"] = NO_STYLE["on"] = book == "inner-sea-combat"
     ARCHETYPE_CAPS["on"] = book == "heroes-of-the-darklands"
     FRAGMENT_TITLES["on"] = book == "armor-masters-handbook"
@@ -4606,7 +4626,7 @@ def configure_book(book: str) -> None:
     SKIP_TABLES["on"] = book == "advanced-race-guide"
     ILLUSTRATED["on"] = book in ("advanced-class-guide", "advanced-race-guide", "adventurers-guide", "ultimate-wilderness",
                                  "horror-adventures", "planar-adventures", "inner-sea-magic", "inner-sea-intrigue", "inner-sea-combat", "construct-handbook",
-                                 "heroes-of-the-darklands", "legacy-of-dragons", "familiar-folio", "advanced-class-origins")
+                                 "heroes-of-the-darklands", "legacy-of-dragons", "familiar-folio", "advanced-class-origins", "cohorts-and-companions")
     SECTION_STOPS["on"] = book in ("adventurers-guide", "ultimate-wilderness", "horror-adventures", "planar-adventures")
     ANY_TITLE_ENDS["on"] = book in SMALL_CAP_BOOKS or book in PLAYER_COMPANIONS or book == "advanced-class-origins"
     SMALL_CAP_TITLES["on"] = book in SMALL_CAP_BOOKS or book in PLAYER_COMPANIONS
@@ -5426,6 +5446,12 @@ def self_test() -> int:
     eq([x["runs"][0][0] for x in _box], ["Armor Master Archetypes and Prestige Classes", "Many organizations"], "lore box apart: its lines")
     BOX_LORE["titles"] = frozenset()
     eq([bool(CHOICE_INTRO.search(t)) for t in ("He can select the following additional discoveries: x.", "These talents can be selected by any rogue.", "These can also be taken by any fighter.", "He can take a feat.")], [True, True, True, False], "choice lead-ins of ruling 57's message")
+    _tab = {"bomb": 1, "brew potion": 1, "sacred weapon": 1, "sacred armor": 4, "summon monster i": 1, "bonus feat": 1, "channel energy": 4}
+    eq([table_level(_tab, n) for n in ("The bomb class feature", "Brew Potion, though an oozemaster can still select Brew Potion without meeting the feat's prerequisites",
+                                       "Sacred weapon and also replaces sacred armor", "Summon monster", "the summoner's summon monster I\u2013IX abilities", "Channel energy",
+                                       "Bonus feats gained at 3rd level", "Mount")],
+       [1, 1, 1, 1, 1, 4, None, None], "table_level: a renamed trade still finds the class feature; a part of a feature does not")
+    eq(join_paras("ref/arc-paladin/legate", "celestial-armor", "A.\n\nThe legate can use this ability a number of times per day."), "A. The legate can use this ability a number of times per day.", "join_paras")
     eq(bool(CAPS_TITLE.fullmatch("BLIGHTSEEKER (ALCHEMIST ARCHETYPE)")), True, "caps title")
     eq(bool(CAPS_TITLE.fullmatch("Blightseeker (Alchemist Archetype)")), False, "caps title lower case")
     eq(bool(CAPS_TITLE_HEAD.fullmatch("PSYCHIC MARAUDER (PSYCHIC")) and bool(CAPS_TITLE_TAIL.fullmatch("ARCHETYPE)")), True, "caps title wrapped")
@@ -6144,8 +6170,15 @@ def main() -> int:
 
 
 
+MISPRINTS.extend([
+    ("ref/arc-bard/flamesinger", "without needing the meet the normal", "without needing to meet the normal",
+     "\"needing the meet\" is a slip (Elemental Master's Handbook p. 5); the sentence reads \"without needing to meet the normal prerequisites\" (ruling 9)"),
+    ("ref/arc-bard/luring-piper", "using the lurid piper's bard level", "using the luring piper's bard level",
+     "the archetype is the luring piper; \"lurid piper\" is a wrong proper name (Monster Hunter's Handbook p. 11; owner ruling 43)"),
+])
 # ---- Batch A3: Elemental Master's Handbook, Monster Hunter's Handbook, Monster Summoner's Handbook, Armor Master's Handbook, Cohorts and Companions ----
 LEVEL_FROM_PRINT.update({
+    ("ref/arc-paladin/divine-guardian", "bonus-feat"): (7, "print says \"A divine guardian gains a bonus feat at 7th level\" (Cohorts and Companions p. 23); the hand edit of the ability keeps the level"),
     ("ref/arc-gunslinger/firebrand", "scorched-earth"): (4, "print says \"At 4th level and every 4 levels thereafter\" (Elemental Master's Handbook p. 5): the level is stated inside the sentence (ruling 4)"),
 })
 _STORM = [("eagle", "ref/monster/eagle"), ("small air elemental", "ref/monster/air-elemental"), ("small lightning elemental", "ref/monster/lightning-elemental"),

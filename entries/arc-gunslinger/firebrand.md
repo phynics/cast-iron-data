@@ -19,7 +19,6 @@ kind = "archetype"
 features = [
   { anchor = "gunsmith", level = 1 },
   { anchor = "wild-card", level = 1 },
-  { anchor = "deeds" },
   { anchor = "dragon-fire", level = 1 },
   { anchor = "big-boom", level = 7 },
   { anchor = "scorched-earth", level = 4 },
