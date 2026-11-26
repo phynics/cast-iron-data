@@ -16,11 +16,15 @@ page = "18"
 
 [fields]
 kind = "archetype"
+features = [
+  { anchor = "gloom", level = 1 },
+  { anchor = "umbral-gloom", level = 2 },
+]
 trades = [
-  { replaces = "Bomb", feature = "bomb" },
-  { replaces = "Poison resistance", feature = "poison-resistance" },
-  { replaces = "poison use", feature = "poison-use" },
-  { replaces = "swift poisoning", feature = "swift-poisoning" },
+  { replaces = "Bomb", feature = "bomb", by = ["gloom"] },
+  { replaces = "Poison resistance", feature = "poison-resistance", by = ["umbral-gloom"] },
+  { replaces = "poison use", feature = "poison-use", by = ["umbral-gloom"] },
+  { replaces = "swift poisoning", feature = "swift-poisoning", by = ["umbral-gloom"] },
 ]
 +++
 
@@ -29,104 +33,85 @@ the Shadow Plane that can be momentarily animated with the use of strange compou
 are quite efficacious, leading to the spread of their use throughout the rest of the Inner Sea
 region.
 
-**Gloom (Su)**
+## Gloom (Su) {#gloom}
 
-**Ability:** A gloom chymist is skilled at mixing potent concoctions known as glooms, which are
-infused with shadow energy. A gloom is identical to a bomb except that it deals 1d6 points of cold
-damage + additional damage equal to the gloom chymist's Intelligence modifier. This damage increases
-by 1d6 for every 2 alchemist levels beyond 1st the gloom chymist has. A gloom does not qualify as a
-bomb for the purposes of feats or discoveries.
+A gloom chymist is skilled at mixing potent concoctions known as glooms, which are infused with
+shadow energy. A gloom is identical to a bomb except that it deals 1d6 points of cold damage +
+additional damage equal to the gloom chymist's Intelligence modifier. This damage increases by 1d6
+for every 2 alchemist levels beyond 1st the gloom chymist has. A gloom does not qualify as a bomb
+for the purposes of feats or discoveries.
 
-**Gained:** At 1st Level
+This ability replaces bomb.
 
-**Replaces:** Bomb
+## Umbral Gloom (Su) {#umbral-gloom}
 
-**Umbral Gloom (Su)**
-
-**Ability:** Whenever a gloom chymist makes a gloom, he can have it increase or decrease the
+At 2nd level, whenever a gloom chymist makes a gloom, he can have it increase or decrease the
 [light level](ref/rule/vision-and-light) by one step within its splash radius, in addition to its
 other effects. This change lasts for a number of rounds equal to the gloom chymist's Intelligence
-modifier.
+modifier. At 8th level, the gloom chymist expend two uses of his daily glooms to increase or
+decrease light levels as per _[daylight](ref/spell/daylight)_ or
+_[deeper darkness](ref/spell/deeper-darkness)_, respectively, using his alchemist level as the
+caster level.
 
-**At 8th Level:** The gloom chymist can expend two uses of his daily glooms to increase or decrease
-light levels as per [daylight](ref/spell/daylight) or [deeper darkness](ref/spell/deeper-darkness),
-respectively, using his alchemist level as the caster level.
+This ability replaces poison resistance, poison use, and swift poisoning.
 
-**Gained:** At 2nd Level
+## Discoveries {#discoveries}
 
-**Replaces:** Poison resistance, poison use, swift poisoning
+The following new discoveries can be taken by any alchemist who meets the prerequisites and has the
+gloom class feature. Discoveries that modify glooms are marked with a single asterisk (\*) and do
+not stack. Only one such discovery can be applied to an individual gloom.
 
-### Gloom Discoveries
+### Bounding Gloom {#bounding-gloom}
 
-These discoveries are only available to alchemists with the Gloom feature.
-
-**Bounding Gloom**
-
-**Ability:** The alchemist gains the ability to travel between shadows as if by means of a
-[dimension door](ref/spell/dimension-door) spell. The limitation is that the alchemist's beginning
-and ending locations must be areas of dim light or darker, or within the radius of an _umbral gloom_
+The alchemist gains the ability to travel between shadows as if by means of a
+_[dimension door](ref/spell/dimension-door)_ spell. The limitation is that the alchemist's beginning
+and ending locations must be areas of dim light or darker, or within the radius of an umbral gloom
 that is lowering the light level. The alchemist can travel up to a total of 100 feet each day in
 this way. This distance must be used in 10-foot increments; for example, the alchemist can make a
-single jump of 100 feet or 10 jumps of 10 feet each.
+single jump of 100 feet or 10 jumps of 10 feet each. For every 2 levels beyond 10th, the distance
+the alchemist can jump each day doubles (200 feet at 12th level, 400 feet at 14th level, and so on).
+An alchemist must be at least 10th level before selecting this discovery.
 
-**Prereq:** 10th-level alchemist
+### Debilitating Gloom\* {#debilitating-gloom}
 
-**Special:** For every 2 levels beyond 10th, the distance the alchemist can jump each day doubles
-(200 feet at 12th level, 400 feet at 14th level, and so on).
+A creature struck by the gloom must make a successful Fortitude save or take a penalty to its
+Strength equal to 1d4 + 1 per 2 alchemist levels (maximum of 1d4+5) for 1 round per alchemist level.
+A target's Strength score cannot drop below 1. This penalty does not stack with itself. An alchemist
+must be at least 6th level before selecting this discovery.
 
-#### Primary Bomb Discoveries (Gloom)
+### Draining Gloom\* {#draining-gloom}
 
-Only one of these discoveries can be applied to a bomb, and it cannot have another discovery applied
-to it with the same one-per-bomb limit (Primary Bomb Discoveries).
+A creature struck by a direct hit with the gloom must make a successful Fortitude save or gain 1
+negative level. An alchemist must be at least 8th level and must have the debilitating gloom
+discovery before selecting this discovery.
 
-**Debilitating Gloom**
+### Glutinous Gloom\* {#glutinous-gloom}
 
-**Ability:** A creature struck by the gloom must make a successful Fortitude save or take a penalty
-to its Strength equal to 1d4 + 1 per 2 alchemist levels (maximum of 1d4+5) for 1 round per alchemist
-level. A target's Strength score cannot drop below 1. This penalty does not stack with itself.
+The gloom creates an area in its splash radius that functions as _[web](ref/spell/web)_. The webbing
+lasts for a number of rounds equal to 1/2 the alchemist's level. An alchemist must be at least 6th
+level before selecting this discovery.
 
-**Prereq:** 6th-level alchemist
+### Grasping Gloom\* {#grasping-gloom}
 
-**Draining Gloom**
+The gloom creates an area equal to double its splash radius that functions as
+_[black tentacles](ref/spell/black-tentacles)_. The effect lasts for a number of rounds equal to
+[half](ref/misc/fractions-and-rounding) the alchemist's level. An alchemist must be at least 8th
+level before selecting this discovery.
 
-**Ability:** A creature struck by a direct hit with the gloom must make a successful Fortitude save
-or gain 1 negative level.
+### Greater Draining Gloom\* {#greater-draining-gloom}
 
-**Prereq:** 8th-level, _debilitating gloom_ discovery
+A creature struck by the gloom must succeed at a Fortitude save or gain 1d4 negative levels. An
+alchemist must be at least 12th level and must have the debilitating gloom and draining gloom
+discoveries before selecting this discovery.
 
-**Greater Draining Gloom**
+### Mucilaginous Gloom\* {#mucilaginous-gloom}
 
-**Ability:** A creature struck by the gloom must succeed at a Fortitude save or gain 1d4 negative
-levels.
-
-**Prereq:** 12th-level alchemist, _debilitating gloom_ and _draining gloom_ discoveries
-
-**Glutinous Gloom**
-
-**Ability:** The gloom creates an area in its splash radius that functions as [web](ref/spell/web).
-The webbing lasts for a number of rounds equal to [half](ref/misc/fractions-and-rounding) the
-alchemist's level.
-
-**Prereq:** 6th-level alchemist
-
-**Grasping Gloom**
-
-**Ability:** The gloom creates an area equal to double its splash radius that functions as
-[black tentacles](ref/spell/black-tentacles). The effect lasts for a number of rounds equal to half
-the alchemist's level.
-
-**Prereq:** 8th-level alchemist
-
-**Mucilaginous Gloom**
-
-**Ability:** The gloom leaves a chilly gray residue that turns each square in its splash radius into
+The gloom leaves a chilly gray residue that turns each square in its splash radius into
 [difficult terrain](ref/rule/terrain-and-obstacles). This effect lasts for a number of rounds equal
 to the alchemist's level.
 
-**Rime-Bound Gloom**
+### Rime-Bound Gloom\* {#rime-bound-gloom}
 
-**Ability:** The gloom creates an area of freezing shadow in its splash radius that deals 2d6 points
-of cold damage to all creatures in the area each turn. This effect lasts a number of rounds equal to
-half the alchemist's level.
-
-**Prereq:** 6th-level alchemist
+The gloom creates an area of freezing shadow in its splash radius that deals 2d6 points of cold
+damage to all creatures in the area each turn. This effect lasts 1 round for every 2 alchemist
+levels. An alchemist must be at least 6th level to select this discovery.
