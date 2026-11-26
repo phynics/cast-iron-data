@@ -218,6 +218,33 @@ def lead_level(text: str) -> int | None:
     return None
 
 
+# The lead of a feature that the batch of the Campaign Setting books reads besides "At / Starting at / Beginning at Nth level" (`LEAD_EXT`):
+# "Upon reaching 5th level", "At 3rd-level,", "of 8th level or higher" in the first sentence, and a lead at the start of the second sentence of the
+# first paragraph ("... assaults. Starting at 2nd level, a siege gunner gains ...").
+LEAD_EXT = {"on": False}
+LEAD_NTH = r"(\d+)(st|nd|rd|th)"
+
+
+def ext_lead_level(first: str) -> tuple[int | None, str]:
+    def ok(m: re.Match) -> int | None:
+        n = int(m.group(1))
+        return n if 1 <= n <= 20 and m.group(2) == ordinal(n)[len(m.group(1)):] else None
+    text = first.strip()
+    m = re.match(r"(?:Upon reaching|At|Starting at|Beginning at)\s+" + LEAD_NTH + r"[ -]level\b", text, re.I)
+    if m and ok(m):
+        return ok(m), f'"{m.group(0)}" in the first sentence'
+    m = re.match(r"[^.!?]*?\bof\s+" + LEAD_NTH + r"\s+level or higher\b", text)
+    if m and ok(m):
+        return ok(m), f'"{m.group(0)[m.group(0).index(" of ") + 1:]}" in the first sentence'
+    sentences = re.split(r"(?<=[.!?])\s+", text, maxsplit=1)
+    if len(sentences) == 2:
+        # not "At": a later "At 4th level, ..." is an upgrade of the feature (Hamatulatsu Master's Stunning Fist), not its lead
+        m = re.match(r"(?:Upon reaching|Starting at|Beginning at)\s+" + LEAD_NTH + r"[ -]level\b", sentences[1], re.I)
+        if m and ok(m):
+            return ok(m), f'"{m.group(0)}" at the start of the second sentence'
+    return None, ""
+
+
 NUMBER_WORDS = {
     "one": "1", "two": "2", "three": "3", "four": "4", "five": "5", "six": "6", "seven": "7", "eight": "8",
     "nine": "9", "ten": "10", "eleven": "11", "twelve": "12", "thirteen": "13", "fourteen": "14",
@@ -584,6 +611,7 @@ def finish_text(s: str, vocab: set[str]) -> str:
     s = re.sub(r"\s+" + I_CLOSE, I_CLOSE + " ", s)
     s = re.sub(I_CLOSE + I_OPEN, "", s)
     if ITALIC_FIRST["on"]:
+        s = re.sub(r"(?<=[A-Za-z]) \u2014(?=[A-Za-z])", "\u2014", s)          # "agitation \u2014but": a blank that the layer sets before an em dash
         s = re.sub(r"(?<![A-Za-z'\u2019])([A-Za-z])" + I_OPEN + r"(?=[a-z])", I_OPEN + r"\1", s)       # the first letter of an italic word set apart ("s" + "un orchid elixir")
     s = re.sub(r"(\\\[|\()\s+", r"\1", s)        # no blank after an opening bracket or parenthesis
     s = re.sub(r"\s+(\)|\\\])", r"\1", s)        # none before a closing one
@@ -1014,19 +1042,18 @@ OCR_PHRASES = [
     (re.compile(r"\ba s\b"), "as"),                                                       # "a s well a s": the layer spaces some words out
     (re.compile(r"\b[mn]d level\b"), "2nd level"),                                        # "At md level" (2nd)
     (re.compile(r"Advanced Players Guide"), "Advanced Player's Guide"),
-    (re.compile(r"(Advanced Player's Guide) 1 (\d\d)\)"), r"\1 1\2)"),                       # "(Advanced Players Guide 1 50)": the page number in two pieces
     (re.compile(r"(Inner Sea World Guide) (\d\d) (\d)\)"), r"\1 \2\3)"),
     (re.compile(r"\(Advanced (\d\d)\) Players Guide 1 "), r"(Advanced Player's Guide 1\1) "),        # the page number of a citation set a line below its title
     # an em dash that the layer sets as a hyphen between two words (the page prints "pain\u2014a method")
     (re.compile(r"\b(creature|accessory|coat|feat|pain|might|properly)-(even|such|can|two|a|if|give)\b"), "\\1\u2014\\2"),
-    (re.compile(r"\bmight-if modified properly-give\b"), "might\u2014if modified properly\u2014give"),
     (re.compile(r"\bloaded-in the\b"), "loaded\u2014in the"),
     (re.compile(r"\bfirearmflaming burst\b"), "firearm flaming burst"),
-    (re.compile(r"paladin code each paladin"), "paladin code\u2014each paladin"),
+    (re.compile(r"paladin code-? ?each paladin"), "paladin code\u2014each paladin"),
+    (re.compile(r"the very largest-? ?cannons"), "the very largest\u2014cannons"),
+    (re.compile(r"attacks the seal breaker's foes"), "attacks the seal-breaker's foes"),
     (re.compile(r"reduced by half In addition"), "reduced by half. In addition"),
     (re.compile(r"level- 1 as his"), "level - 1 as his"),
     (re.compile(r"Spells car\b"), "Spellscar"),
-    (re.compile(r"\(DC 10 \+ the Spellscar drifter's base attack bonus\) = reduces"), "(DC = 10 + the Spellscar drifter's base attack bonus) reduces"),
     (re.compile(r"1st-protection \.?from evil; 2nd-al\(gn weapon, magic circle against evil; 4th-? ?dimensional anchor, dismissal"),
      "1st\u2014protection from evil; 2nd\u2014align weapon, magic circle against evil; 4th\u2014dimensional anchor, dismissal"),
     # a word that the layer lost at a line end: "or" before "perform" / "increases" (Gun Scavenger, Change Out)
@@ -1040,9 +1067,24 @@ def ocr_paragraph(runs: list[tuple[str, bool, bool]]) -> list[tuple[str, bool, b
     for t, b, i in runs:
         t = re.sub(r"\s+", " ", t)
         for pat, rep in OCR_PHRASES:
-            t = pat.sub(rep, t)
+            t, n = pat.subn(rep, t)
+            OCR_HITS[pat.pattern] += n
         out.append((t, b, i))
     return out
+
+
+# Repairs of text that the text layer breaks across two paragraphs (a line beside art starts a paragraph of its own): applied to the joined text.
+OCR_JOINED = [
+    (re.compile(r"\(DC 10 \+ the Spellscar drifter.s base attack bonus\) = reduces"), "(DC = 10 + the Spellscar drifter's base attack bonus) reduces"),
+]
+
+OCR_HITS: Counter = Counter()          # how often each OCR_PHRASES and OCR_ITALICS pattern matched in this run
+
+
+def dead_ocr_patterns() -> list[str]:
+    """The patterns of `OCR_PHRASES` and `OCR_ITALICS` that matched nothing in a run over the whole book: a repair that fails silently
+    (the text layer spells the words another way) leaves the OCR text in the entry, so a dead pattern fails the run."""
+    return [pat.pattern for pat in [p for p, _ in OCR_PHRASES + OCR_JOINED] + OCR_ITALICS if OCR_HITS[pat.pattern] == 0]
 
 
 # Italics that print sets and that the text layer lacks (spells, magic weapon abilities, a book title in a citation): the span that the group
@@ -1054,7 +1096,7 @@ OCR_ITALICS = [
     re.compile(r"ability to cast (?P<i>misdirection) on herself"),
     re.compile(r"as if using the spell (?P<i>see invisibility)"),
     re.compile(r"replicates the spell (?P<i>dance of a hundred cuts)"),
-    re.compile(r"replicate (?P<i>dance of a thousand cuts) with"),
+    re.compile(r"replicate (?P<i>dance of a thousand cuts)(?: \(Ultimate Magic 216\))? with"),
     re.compile(r"\((?P<i>Advanced Player's Guide) 150\)"),
     re.compile(r"as if it had the (?P<i>holy) weapon special ability"),
 ]
@@ -1063,6 +1105,8 @@ OCR_ITALICS = [
 def ocr_italics(runs: list[tuple[str, bool, bool]]) -> list[tuple[str, bool, bool]]:
     out = []
     for t, b, i in runs:
+        for pat in OCR_ITALICS:
+            OCR_HITS[pat.pattern] += len(pat.findall(t))
         spans = sorted((m.start(g), m.end(g)) for pat in OCR_ITALICS for m in pat.finditer(t) for g in pat.groupindex)
         if i or not spans:
             out.append((t, b, i))
@@ -1749,6 +1793,15 @@ def take_printed_usage(rows: list[str], p_clean: str) -> tuple[str, list[str], l
     return p_clean, keep, info
 
 
+TABLE_ROW = re.compile(r"(?m)^\s*\|.*\|\s*$")
+
+
+def table_lost(parts: list[str], print_text: str) -> bool:
+    """Rule 5, second case: the corpus has a Markdown table in this feature and the print text has none (the extraction ran the cells of a
+    table together as one paragraph, so no word is missing and the comparison sees no loss: Keleshite Prophet's Divining Dance)."""
+    return any(TABLE_ROW.search(x) for x in parts) and not TABLE_ROW.search(print_text)
+
+
 def compare_feature(draft: Draft, print_text: str, drop: set[str], title_tokens: set[str]) -> Compare:
     HYPHEN_SPACES[0] = True
     try:
@@ -1870,6 +1923,8 @@ def _compare_feature(draft: Draft, print_text: str, drop: set[str], title_tokens
                 notes.append("dropped table: " + text10)
             else:
                 info.append("ruling 10: " + text10)
+    if RULES["dropped"] and table_lost(draft.parts, print_text) and not any(n.startswith("dropped table") for n in notes):
+        notes.append("dropped table: the corpus has a table that the print text carries as running text; a hand text (`edit`) sets it")
     a = sorted(only_draft.elements())
     b = sorted(only_print.elements())
     if (a or b) and letters(a) == letters(b):
@@ -2587,6 +2642,13 @@ def link_names_ability(label: str, target: str) -> bool:
     return bool(re.search(r"(?:['\u2019]s|s['\u2019])$", plain) or re.fullmatch(r"ref/(?:class|pclass)/[^#]+", target))
 
 
+def _close_italics(citation: str) -> str:
+    """What stays of a dropped citation: the italic that the text layer set over a spell name and the title in its citation as one run
+    ("_overwhelming presence (Pathfinder RPG Ultimate Magic_ 230)") closes where the citation was, so that the name keeps its italics."""
+    extra = citation.count(I_CLOSE) - citation.count(I_OPEN)
+    return I_CLOSE * extra if CITE_EXT["on"] and extra > 0 else ""
+
+
 def drop_linked_citation(pattern: str, text: str, links: list[tuple[str, str]], entry_id: str = "") -> str:
     """Owner ruling 26 (Muse review of #335): a printed page citation goes where the link just before it already points at the thing
     that the citation cites ("mutagen (Ultimate Magic 14)", "[steal] combat maneuver (Advanced Player's Guide 322)": the link may cover
@@ -2621,7 +2683,7 @@ def drop_linked_citation(pattern: str, text: str, links: list[tuple[str, str]], 
                 tail = para.lower()
                 drop = (any(lb and re.search(r"(?<![\w'])" + re.escape(lb) + r"$", tail) for lb in names)
                         and not re.search(r"\bsee\b(?:\s+[\w'\u2019-]+){0,3}$", tail))
-        out.append("" if drop else m.group(0))
+        out.append(_close_italics(m.group(0)) if drop else m.group(0))
     out.append(text[at:])
     return "".join(out)
 
@@ -2641,7 +2703,7 @@ def drop_semicolon_citation(pattern: str, text: str, links: list[tuple[str, str]
         seen = re.sub(r"\[([^\]]*)\]\([^)]*\)", "\x03\\1\x04", probe[:q.start()])    # a link marks its label, its target has no parenthesis
         opened = seen.rfind("(")
         linked = opened >= 0 and ")" not in seen[opened:] and ("\x03" in seen[opened:] or seen[:opened].rstrip().endswith("\x04"))
-        out.append("" if linked else m.group(0))
+        out.append(_close_italics(m.group(0)) if linked else m.group(0))
     out.append(text[at:])
     return "".join(out)
 
@@ -2652,6 +2714,10 @@ def print_md(feat: PrintFeature, links: list[tuple[str, str]], vocab: set[str], 
     dropped asterisks)."""
     paras = join_wrapped([clean_runs(runs) for runs in feat.paras], vocab)
     text = "\n\n".join(paras)
+    if OCR["on"]:
+        for pat, rep in OCR_JOINED:
+            text, n = pat.subn(rep, text)
+            OCR_HITS[pat.pattern] += n
     notes: list[str] = []
     fixed = re.sub(r"^A (\d+(?:st|nd|rd|th) level\b)", r"At \1", text)
     if fixed != text:
@@ -3513,6 +3579,8 @@ TRADE_MERGED = {
 # Features whose first paragraph states the level after a flavor sentence or inside its first sentence (owner review
 # of batch 1): the level is the first "At Nth level" of the paragraph. The paragraphs of the other features hold
 # progressions ("At 6th level ..., at 9th level ...") that this reading would take for the level of the feature.
+LEVEL_BY_TEXT: dict = {}     # (entry, anchor) -> (level, why): a level that print proves in words the lead reader does not read
+
 LEVEL_ONE_REPLACES = {
     ("ref/arc-warpriest/divine-commander", "mount"),
     ("ref/arc-wizard/arcane-warden", "generous-touch"),     # replaces the hand of the apprentice universalist school ability, a 1st-level power (rulings 11 and 35)
@@ -3919,6 +3987,13 @@ def finalize(e: Entry, res: dict, class_cache: dict | None = None) -> dict:
     for r in rows:
         first = r["print"].split("\n\n", 1)[0] if r["print"] else ""
         r["level"] = lead_level(first)
+        if r["level"] is None and r["listed"] and LEAD_EXT["on"]:
+            r["level"], why = ext_lead_level(first)
+            if why:
+                r["notes"].append(f"level {r['level']}: print says {why}")
+        if r["level"] is None and r["listed"] and (e.id, r["anchor"]) in LEVEL_BY_TEXT:
+            r["level"], why = LEVEL_BY_TEXT[(e.id, r["anchor"])]
+            r["notes"].append(f"level {r['level']}: {why}")
         if r["level"] is None and r["listed"]:
             # a level that print states after a flavor sentence or inside the sentence (reviewed list)
             if (e.id, r["anchor"]) in LEVEL_IN_FIRST_PARAGRAPH:
@@ -3975,7 +4050,7 @@ def configure_book(book: str) -> None:
     ERRATA_CTX["book"] = book
     PAGE_OFFSET[0] = 2 if book == "inner-sea-combat" else 1
     CHAPTER_END[0] = 47 if book == "inner-sea-combat" else 0
-    LOWERCASE_CONTINUES["on"] = BULLETS["on"] = ITALIC_FIRST["on"] = CITE_EXT["on"] = book in ("inner-sea-magic", "inner-sea-intrigue", "inner-sea-combat")
+    LOWERCASE_CONTINUES["on"] = BULLETS["on"] = ITALIC_FIRST["on"] = CITE_EXT["on"] = LEAD_EXT["on"] = book in ("inner-sea-magic", "inner-sea-intrigue", "inner-sea-combat")
     OCR["on"] = NO_STYLE["on"] = book == "inner-sea-combat"
     PAGE_GEOMETRY["on"] = book in ("inner-sea-magic", "inner-sea-intrigue", "inner-sea-combat")
     MARGIN_CAPTIONS["on"] = CAPTIONS["on"] = book in ("inner-sea-magic", "inner-sea-intrigue", "inner-sea-combat")
@@ -4044,6 +4119,13 @@ def run_compare(args) -> int:
     write_tsv(tsv_path(corpus, book), rows)
     write_proposals(proposals_path(corpus, book), props)
     summarize(rows, props)
+    if OCR["on"] and not args.only and len(redo) == len(entries):      # every entry was read from print (a run over converted entries reads nothing)
+        dead = dead_ocr_patterns()
+        if dead:
+            print("error: OCR patterns that matched nothing (the text layer spells the words another way):", file=sys.stderr)
+            for d in dead:
+                print(f"  {d}", file=sys.stderr)
+            return 1
     return 0
 
 
@@ -4543,7 +4625,18 @@ TRADE_RENAMES.update({
         "Bonus spells at those levels gained from the oracle's mystery",
 })
 
+LEVEL_BY_TEXT[("ref/arc-oracle/keleshite-prophet", "divining-dance")] = (
+    1, 'print says the prophet "must take the following revelation at 1st level" (Inner Sea Intrigue p. 42): a fixed ability, no choice (ruling 47)')
+
 LEVEL_ONE_REPLACES.update({
+    # Owner rulings 48 and 50 of 2026-11-26: an ability that replaces or alters a whole 1st-level class feature, with no printed level
+    ("ref/arc-druid/nithveil-adept", "animal-speech"),            # replaces spontaneous casting
+    ("ref/arc-druid/nithveil-adept", "nature-bond"),              # alters nature bond
+    ("ref/arc-summoner/first-worlder", "eidolon"),                # replaces the eidolon ability of a normal summoner
+    ("ref/arc-gunslinger/gun-scavenger", "gunsmith"),             # alters the gunsmith class feature
+    ("ref/arc-summoner/god-caller", "guidance"),                  # alters life link
+    ("ref/arc-unchained-summoner/god-caller", "guidance"),
+    ("ref/arc-bard/dawnflower-dervish", "battle-dance"),          # alters bardic performance
     ("ref/arc-alchemist/crypt-breaker", "trapfinding"),      # replaces the Brew Potion bonus feat, which the alchemist gains at 1st level (rulings 11 and 35)
 })
 
@@ -5076,6 +5169,19 @@ def self_test() -> int:
     eq(len(re.findall(CITE_BOOK_X, "x (Inner Sea World Guide 286) y")), 1, "citation of the Inner Sea World Guide")
     geo = Book({}, {1: [(200, 108, 0, "a", 300)] * 3 + [(200, 440, 0, "b", 300)] * 3 + [(200, 122, 0, "c", 300)], 2: []}, {}, set())
     geo.fonts = {"0": 13}
+    eq(table_lost(["Intro.\n|A|B|\n| --- | --- |\n|1|2|"], "Intro. A B 1 2"), True, "a table that print's text runs together is a hold")
+    eq(table_lost(["Intro.\n|A|B|\n| --- | --- |\n|1|2|"], "Intro.\n\n|A|B|\n|---|---|\n|1|2|"), False, "a table that print's text keeps is no hold")
+    eq(table_lost(["No table here."], "No table here."), False, "no table on either side")
+    eq(ext_lead_level("Upon reaching 5th level, a seal-breaker receives a boon.")[0], 5, "lead: upon reaching")
+    eq(ext_lead_level("At 3rd-level, a witch can use a vessel.")[0], 3, "lead: Nth-level")
+    eq(ext_lead_level("A Chelish diva of 8th level or higher can use her performance.")[0], 8, "lead: of Nth level or higher")
+    eq(ext_lead_level("A siege gunner is trained in siegecraft. Starting at 2nd level, a siege gunner gains a bonus.")[0], 2, "lead: second sentence, starting at")
+    eq(ext_lead_level("A master expands the conditions. At 4th level, she can choose to make the target shaken.")[0], None, "an upgrade in the second sentence is no lead")
+    eq(ext_lead_level("At 2th level, a thing")[0], None, "lead: a wrong suffix")
+    CITE_EXT["on"] = True
+    eq(_close_italics("(Pathfinder RPG Ultimate Magic" + I_CLOSE + " 230)"), I_CLOSE, "a dropped citation closes the italic that it shared with the name")
+    eq(_close_italics("(" + I_OPEN + "Core Rulebook" + I_CLOSE + " 5)"), "", "a citation with both marks leaves none")
+    eq(len(dead_ocr_patterns()) > 0, True, "with no hits every OCR pattern is dead")
     BULLETS["on"] = ITALIC_FIRST["on"] = CITE_EXT["on"] = False
     eq(len(re.findall(CITE_BOOK, "x (Inner Sea World Guide 286) y")), 0, "the other books do not cite the Inner Sea World Guide")
     PAGE_GEOMETRY["on"] = True
