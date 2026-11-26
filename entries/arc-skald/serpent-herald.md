@@ -16,9 +16,13 @@ page = "28"
 
 [fields]
 kind = "archetype"
+features = [
+  { anchor = "serpentine-rage", level = 3 },
+  { anchor = "serpent-shape", level = 5 },
+]
 trades = [
-  { replaces = "Rage power gained at 3rd level", feature = "rage-powers", levels = [3] },
-  { replaces = "Spell kenning", feature = "spell-kenning" },
+  { replaces = "Rage power gained at 3rd level", feature = "rage-powers", levels = [3], by = ["serpentine-rage"] },
+  { replaces = "Spell kenning", feature = "spell-kenning", by = ["serpent-shape"] },
 ]
 +++
 
@@ -26,85 +30,45 @@ Warrior bands devoted to [Ragadahn](ref/faith/ragadahn) are often led by a serpe
 deep roars shake the earth itself. Rumors tell of waves of snakes slithering forth from their nests
 in awe as these bellowing commanders take on serpentine features.
 
-**Serpentine Rage (Su)**
+## Serpentine Rage (Su) {#serpentine-rage}
 
-**Action:** Ability
+At 3rd level, a serpent herald can call down Ragadahn's features onto his allies. Allies affected by
+the serpent herald's inspired rage ability gain a serpentine aspect of the serpent herald's choice
+(all affected allies gain the same aspect). The serpent herald may choose from the following
+aspects: movement (+8 competence bonus on Climb and Swim checks, and targets can take 10 on these
+checks even when rushed or threatened), scales (+2 natural armor bonus), senses
+([low-light vision](ref/rule/low-light-vision) and [scent](ref/umr/scent)), or a natural bite attack
+(1d4 damage [for a Medium creature](ref/umr/natural-attacks) plus poison \[bite—injury; _save_
+Fortitude DC 10 + half the serpent herald's class level + his Constitution modifier; _frequency_
+1/round for 6 rounds; _effect_ 1 Constitution damage, _cure_ 1 save\]). This is a polymorph effect;
+a creature under another polymorph effect, such as wild shape, does not gain the aspect. If the
+serpent herald grants one of these aspects to himself, he also gains the ability to
+_[speak with animals](ref/spell/speak-with-animals)_ (reptiles and creatures with the aquatic
+subtype only) for as long as he has the aspect. The serpent herald must have the inspired rage
+raging song to use this ability.
 
-**Info:** The serpent herald must have the _inspired rage raging song_ to use this ability.
+This ability replaces the rage power gained at 3rd level.
 
-**Gained:** At 3rd Level
+## Serpent Shape (Su) {#serpent-shape}
 
-**Replaces:** Rage power gained at 3rd level
-
-A serpent herald can call down Ragadahn's features onto his allies. Allies affected by the serpent
-herald's _inspired rage_ ability gain a serpentine aspect of the serpent herald's choice (all
-affected allies gain the same aspect). The serpent herald may choose from the following aspects:
-
-- _Movement_ (+8 competence bonus on Climb and Swim checks, and targets can take 10 on these checks
-  even when rushed or threatened)
-- _Scales_ (+2 natural armor bonus)
-- _Senses_ ([low-light vision](ref/rule/low-light-vision) and [scent](ref/umr/scent))
-- _Natural bite attack_ (1d4 damage [for a Medium creature](ref/umr/natural-attacks), plus poison).
-
-**Poison**
-
-**Type:** Poison (Bite-injury)
-
-**Save:** Fortitude 10 + 1/2 the serpent herald's level + his Con modifier
-
-**Frequency:** 1/round for 6 rounds
-
-**Effect:** Constitution damage 1
-
-**Cure:** 1 save
-
-This is a polymorph effect; a creature under another polymorph effect, such as _wild shape,_ does
-not gain the aspect. If the serpent herald grants one of these aspects to himself, he also gains the
-ability to [speak with animals](ref/spell/speak-with-animals) (reptiles and creatures with the
-aquatic subtype only) for as long as he has the aspect.
-
-**Serpent Shape (Su)**
-
-**Ability:** A serpent herald gains the ability to use _wild shape_ to take the form of a reptile or
+At 5th level, a serpent herald gains the ability to use wild shape to take the form of a reptile or
 an aquatic animal once per day, as the [druid](ref/class/druid) class feature. His effective druid
 level for this ability is equal to his serpent herald level - 1. This doesn't allow him to assume
 other forms, such as elementals or other kinds of animals. When in animal form, the serpent herald
-is treated as able to speak normally for the purpose of using _raging song,_ but not for using other
+is treated as able to speak normally for the purpose of using raging song, but not for using other
 abilities that require speech (such as spellcasting).
 
-**At 11th Level:** He gains the benefits of the [Wild Speech](ref/feat/wild-speech) feat while using
-this ability, treating his druid level as his serpent herald level - 1.
+At 11th level, a serpent herald can use this ability twice per day and gains the benefits of the
+[Wild Speech](ref/feat/wild-speech) feat while using this ability, treating his druid level as his
+serpent herald level - 1.
 
-**At 17th Level:** In addition, he gains the supernatural resiliency of a
-[linnorm](ref/family/linnorm), gaining the effects of
-[freedom of movement](ref/spell/freedom-of-movement) while using this ability.
+At 17th level, a serpent herald can use this ability three times per day. In addition, he gains the
+supernatural resiliency of a [linnorm](ref/family/linnorm), gaining the effects of
+_[freedom of movement](ref/spell/freedom-of-movement)_ while using this ability.
 
-**Gained:** At 5th Level
+This ability replaces spell kenning.
 
-**Replaces:** Spell kenning
+## Rage Powers {#rage-powers}
 
-**Wild Shape (Su)**
-
-**Flavor:** Relevant text from the druid class ability.
-
-**At 6th Level:** You can _wild shape_ twice a day as [beast shape II](ref/spell/beast-shape-2), and
-you can now change into a Large or Tiny animal.
-
-**At 8th Level:** You can _wild shape_ 3 times/day as [beast shape III](ref/spell/beast-shape-3),
-and you can now change into a Huge or Diminutive animal.
-
-**Provokes attack of opportunity:** No
-
-**Special:** You lose your ability to speak while in animal form because you are limited to the
-sounds that a normal, untrained animal can make, but you can communicate normally with other animals
-of the same general grouping as your new form.
-
-**Standard:** You gain the ability to turn yourself into any Small or Medium animal and back again.
-Your options for new forms include all creatures with the animal type. This ability functions like
-the [beast shape I](ref/spell/beast-shape-1) spell, except as noted here. The effect lasts for 1
-hour per druid level, or until you change back. The form chosen must be that of an animal with which
-you are familiar.
-
-**The following rage powers complement the serpent herald archetype:** animal fury, battle roar,
-knockback, knockdown, linnorm death curse\|any, [low-light vision](ref/rule/low-light-vision),
-sprint, swift foot
+The following rage powers complement the serpent herald archetype: animal fury, battle roar,
+knockback, knockdown, linnorm death curse (any), low-light vision, sprint, and swift foot.

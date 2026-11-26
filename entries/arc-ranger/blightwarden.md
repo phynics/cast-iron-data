@@ -16,86 +16,82 @@ page = "17"
 
 [fields]
 kind = "archetype"
+features = [
+  { anchor = "hunt-the-blighted", level = 1 },
+  { anchor = "emulate-taint-ex-su-or-sp", level = 1 },
+  { anchor = "blightwalker", level = 3 },
+  { anchor = "resist-corruption", level = 3 },
+]
 trades = [
-  { replaces = "Wild empathy", feature = "wild-empathy" },
-  { replaces = "1st favored terrain", feature = "favored-terrain", levels = [3] },
-  { replaces = "Endurance", feature = "endurance" },
-  { alters = "Favored enemy", feature = "favored-enemy" },
-  { alters = "Favored terrain", feature = "favored-terrain" },
+  { replaces = "Wild empathy", feature = "wild-empathy", by = ["emulate-taint-ex-su-or-sp"] },
+  { replaces = "1st favored terrain", feature = "favored-terrain", levels = [3], by = ["blightwalker"] },
+  { replaces = "Endurance", feature = "endurance", by = ["resist-corruption"] },
+  { alters = "Favored enemy", feature = "favored-enemy", by = ["hunt-the-blighted"] },
+  { alters = "Favored terrain", feature = "favored-terrain", by = ["blightwalker"] },
 ]
 +++
 
 Some rangers feel so closely connected to their homelands that they stand as guardians against
 pervasive corruptions that pervert those lands beyond the point of recognition.
 
-**Hunt the Blighted (Ex)**
+## Hunt the Blighted (Ex) {#hunt-the-blighted}
 
-**Alters:** Favored enemy
+A blightwarden's first favored enemy is always a special type of creature: blighted. His bonuses
+from his first favored enemy apply to creatures with one or more of the following templates:
+[blighted fey](ref/template/blighted-fey), [fungal creature](ref/template/fungal-creature),
+[fungoid](ref/template/fungoid), [Mana Wastes mutant](ref/template/mana-wastes-mutant),
+[mutant](ref/template/mutant), [mutant goblin](ref/template/mutant-goblin), and
+[plagued beast](ref/template/plagued-beast). Additionally, the bonuses apply against creatures with
+the [blight](ref/subtype/blight) subtype.
 
-**Info:** A blightwarden's first _favored enemy_ is always a special type of creature: _blighted._
-His bonuses from his first _favored enemy_ apply to creatures with one or more of the following
-templates: [blighted fey](ref/template/blighted-fey),
-[fungal creature](ref/template/fungal-creature), [fungoid](ref/template/fungoid),
-[Mana Wastes mutant](ref/template/mana-wastes-mutant), [mutant](ref/template/mutant),
-[mutant goblin](ref/template/mutant-goblin), and [plagued beast](ref/template/plagued-beast).
-Additionally, the bonuses apply against creatures with the [blight](ref/subtype/blight) subtype.
+Each time the blightwarden gains a new favored enemy, his additional +2 bonus always applies to this
+first favored enemy.
 
-**Special:** Each time the blightwarden gains a new _favored enemy,_ his additional +2 bonus always
-applies to this first _favored enemy._
+This alters favored enemy.
 
-**Emulate Taint (Ex, Su, or Sp)**
+## Emulate Taint (Ex, Su, or Sp) {#emulate-taint-ex-su-or-sp}
 
-**Action:** Standard Action
-
-**Replaces:** Wild empathy
-
-Once per day, a blightwarden can examine visible evidence of a creature that has been affected by a
-natural or supernatural blight. This might include visible tracks left by a creature with the
-_fungal creature_ template, or a dead creature with the _blighted fey_ template, or any similar
-evidence left by any creature as described in the _hunt the blighted_ ability.
+Once per day as a standard action, a blightwarden can examine visible evidence of a creature that
+has been affected by a natural or supernatural [blight](ref/spell/blight). This might include
+visible tracks left by a creature with the fungal creature template, or a dead creature with the
+blighted fey template, or any similar evidence left by any creature as described in the hunt the
+blighted fey ability.
 
 When the blightwarden does this, for the next 24 hours, he can use any one extraordinary,
 supernatural, or [spell-like ability](ref/umr/spell-like-abilities) granted by the template (or the
-_[blight](ref/spell/blight)_ subtype) for a number of minutes equal to his ranger level. This
-duration need not be used all at once, but they must be spent in 1-minute increments. Saving throw
-DCs for this ability are calculated as if the blightwarden had the relevant template (for example,
-the DC of an ability from the _blighted fey_ template would be equal to 10 + half the blightwarden's
-Hit Dice + his Constitution modifier). He cannot use abilities that would create a permanent effect
-beyond this ability's duration, and can never use more than one ability from a template or subtype
-in this way during a single 24-hour period.
+blight subtype) for a number of minutes equal to his ranger level. This duration need not be used
+all at once, but they must be spent in 1-minute increments. Saving throw DCs for this ability are
+calculated as if the blightwarden had the relevant template (for example, the DC of an ability from
+the blighted fey template would be equal to 10 + half the blightwarden's Hit Dice + his Constitution
+modifier). He cannot use abilities that would create a permanent effect beyond this ability's
+duration, and can never use more than one ability from a template or subtype in this way during a
+single 24-hour period.
 
-For example, the blightwarden cannot use a blighted ooze's _cursed domain_ ability to create a
-_domain of evil._ However, the blightwarden could gain a _blighted fey's thorn throw_ ability for a
-number of minutes equal to his ranger level (in this case, the blightwarden would gain a thorn
-attack for that duration).
+For example, the blightwarden cannot use a blighted ooze's cursed domain ability to create a domain
+of evil. However, the blightwarden could gain a blighted fey's thorn throw ability for a number of
+minutes equal to his ranger level (in this case, the blightwarden would gain a thorn attack for that
+duration).
 
-**Blightwalker (Ex)**
+This replaces wild empathy.
 
-**Alters:** Favored terrain
+## Blightwalker (Ex) {#blightwalker}
 
-**Choice:** The blightwarden can choose to improve this bonus in place of improving a _favored
-terrain_ bonus.
-
-**Gained:** At 3rd Level
-
-**Passive:** A blightwarden gains a +2 bonus on initiative checks and Knowledge (geography),
+At 3rd level, a blightwarden gains a +2 bonus on initiative checks and Knowledge (geography),
 Perception, Stealth, and Survival checks when in areas afflicted by a natural or supernatural
-blight. In addition, the blightwarden adds this bonus to ability checks, saving throws, and skill
-checks to avoid natural and supernatural hazards in blighted areas. A blightwarden traveling through
-blighted areas leaves no trail and cannot be tracked (though he can leave a trail if he chooses).
-
-**Replaces:** 1st favored terrain
-
-**Special:** Blighted areas include [cursed lands](ref/rule/cursed-land),
+blight. Blighted areas include [cursed lands](ref/rule/cursed-land),
 [domains of evil](ref/rule/domains-of-evil), regions negatively affected by a spell or ability that
 affects at least a 300-square-foot area, or regions where a specific
-[affliction](ref/rule/afflictions) is prevalent.
+[affliction](ref/rule/afflictions) is prevalent. In addition, the blightwarden adds this bonus to
+ability checks, saving throws, and skill checks to avoid natural and supernatural hazards in
+blighted areas. He can choose to improve this bonus in place of improving a favored terrain bonus. A
+blightwarden traveling through blighted areas leaves no trail and cannot be tracked (though he can
+leave a trail if he chooses).
 
-**Resist Corruption (Ex)**
+This alters favored terrain and replaces the blightwarden's first favored terrain.
 
-**Gained:** At 3rd Level
+## Resist Corruption (Ex) {#resist-corruption}
 
-**Passive:** A blightwarden gains a +2 bonus on saving throws against curses, diseases,
+At 3rd level, a blightwarden gains a +2 bonus on saving throws against curses, diseases,
 mind-affecting effects, poisons, and transmutation effects.
 
-**Replaces:** Endurance
+This replaces endurance.

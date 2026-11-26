@@ -15,7 +15,7 @@ relations = [
 kind = "archetype"
 features = [
   { anchor = "compression" },
-  { anchor = "fluidic-body" },
+  { anchor = "fluidic-body", level = 1 },
   { anchor = "morphic-weaponry", level = 1 },
   { anchor = "ooze-empathy" },
   { anchor = "damage-reduction", level = 2 },

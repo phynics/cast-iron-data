@@ -16,110 +16,86 @@ page = "15"
 
 [fields]
 kind = "archetype"
+features = [
+  { anchor = "shadow-dweller", level = 1 },
+  { anchor = "shadow-strike", level = 2 },
+  { anchor = "shadow-step", level = 8 },
+  { anchor = "shadow-speaker", level = 14 },
+  { anchor = "shadow-master", level = 20 },
+]
 trades = [
-  { replaces = "Trapfinding", feature = "trapfinding" },
-  { replaces = "Rogue talent gained at 2nd level", feature = "rogue-talents", levels = [2] },
-  { replaces = "Rogue talent gained at 8th level", feature = "rogue-talents", levels = [8] },
-  { replaces = "Rogue talent gained at 14th level", feature = "rogue-talents", levels = [14] },
-  { replaces = "Master strike", feature = "master-strike" },
+  { replaces = "Trapfinding", feature = "trapfinding", by = ["shadow-dweller"] },
+  { replaces = "Rogue talent gained at 2nd level", feature = "rogue-talents", levels = [2], by = ["shadow-strike"] },
+  { replaces = "Rogue talent gained at 8th level", feature = "rogue-talents", levels = [8], by = ["shadow-step"] },
+  { replaces = "Rogue talent gained at 14th level", feature = "rogue-talents", levels = [14], by = ["shadow-speaker"] },
+  { replaces = "Master strike", feature = "master-strike", by = ["shadow-master"] },
 ]
 +++
 
-Count Ranalc's worshipers congregate in the places between dark and light, searching for secrets
-that might one day free their patron from his mysterious exile. Shadow scions have learned some of
-these secrets and draw power from the shadows themselves. Many shadow scions are dedicated
-[fetchling](ref/race/fetchling) or [wayang](ref/race/wayang) devotees of
-[Count Ranalc](ref/faith/count-ranalc).
+[Count Ranalc](ref/faith/count-ranalc)'s worshipers congregate in the places between dark and light,
+searching for secrets that might one day free their patron from his mysterious exile. Shadow scions
+have learned some of these secrets and draw power from the shadows themselves. Many shadow scions
+are dedicated [fetchling](ref/race/fetchling) or [wayang](ref/race/wayang) devotees of Count Ranalc.
 
-**Shadow Dweller (Ex)**
+## Shadow Dweller (Ex) {#shadow-dweller}
 
-**At 1st Level:** A shadow scion gains [darkvision](ref/rule/darkvision) with a range of 30 feet and
-a +1 competence bonus on Stealth checks in [dim light](ref/rule/vision-and-light) and darkness. If
-she already has darkvision, the range of her darkvision increases by 10 feet.
+A shadow scion gains [darkvision](ref/rule/darkvision) with a range of 30 feet and a +1 competence
+bonus on Stealth checks in [dim light](ref/rule/vision-and-light) and darkness. If she already has
+[darkvision](ref/rule/darkvision), the range of her [darkvision](ref/rule/darkvision) increases by
+10 feet. At 3rd level, and every 2 levels thereafter, the range of her
+[darkvision](ref/rule/darkvision) increases by 10 feet and her bonus on Stealth checks increases
+by 1.
 
-**Replaces:** Trapfinding
+This ability replaces trapfinding.
 
-At 3rd level: Her [darkvision](ref/rule/darkvision)'s range increases by 10 feet, and her Stealth
-bonus +2.
+## Shadow Strike {#shadow-strike}
 
-At 5th level: Her [darkvision](ref/rule/darkvision)'s range increases by 10 feet, and her Stealth
-bonus +3.
+At 2nd level, a shadow scion gains [Shadow Strike](ref/feat/shadow-strike) as a bonus feat. A
+character using the unchained rogue class from _Pathfinder RPG Pathfinder Unchained_ instead gains
+[Blind-Fight](ref/feat/blind-fight) as a bonus feat.
 
-At 7th level: Her [darkvision](ref/rule/darkvision)'s range increases by 10 feet, and her Stealth
-bonus +4.
+This ability replaces the rogue talent gained at 2nd level.
 
-At 9th level: Her [darkvision](ref/rule/darkvision)'s range increases by 10 feet, and her Stealth
-bonus +5.
+## Shadow Step (Sp) {#shadow-step}
 
-At 11th level: Her [darkvision](ref/rule/darkvision)'s range increases by 10 feet, and her Stealth
-bonus +6.
-
-At 13th level: Her [darkvision](ref/rule/darkvision)'s range increases by 10 feet, and her Stealth
-bonus +7.
-
-At 15th level: Her [darkvision](ref/rule/darkvision)'s range increases by 10 feet, and her Stealth
-bonus +8.
-
-At 17th level: Her [darkvision](ref/rule/darkvision)'s range increases by 10 feet, and her Stealth
-bonus +9.
-
-At 19th level: Her [darkvision](ref/rule/darkvision)'s range increases by 10 feet, and her Stealth
-bonus +10.
-
-**Shadow Strike**
-
-**At 2nd Level:** A shadow scion gains [Shadow Strike](ref/feat/shadow-strike) as a bonus feat. A
-character using the unchained rogue class instead gains [Blind-Fight](ref/feat/blind-fight) as a
-bonus feat.
-
-**Replaces:** Rogue talent gained at 2nd level
-
-**Shadow Step (Sp)**
-
-**Gained:** At 8th Level
-
-**Replaces:** Rogue talent gained at 8th level
-
-**Special:** Travel through the Shadow Plane is imprecise; when the shadow scion arrives back on the
-Material Plane, she reenters 1 square off target, as per the rules for
+At 8th level, a shadow scion can walk through the Shadow Plane and reappear elsewhere on the
+Material Plane as a standard action. The shadow scion can travel up to 30 feet per rogue level per
+day in this fashion, either in a single round or broken up across multiple shadow steps. This
+movement must be used in increments of at least 5 feet and does not provoke attacks of opportunity.
+Travel through the Shadow Plane is imprecise; when the shadow scion arrives back on the Material
+Plane, she reenters 1 square off target, as per the rules for
 [thrown splash weapons](ref/rule/throw-splash-weapon). If this would place her in an occupied
 square, she instead arrives in the nearest safe location. When the shadow scion arrives on the
 Material Plane, she is cloaked in shadow and gains [concealment](ref/rule/concealment) as per the
-[blur](ref/spell/blur) spell for 1 round.
+_[blur](ref/spell/blur)_ spell for 1 round.
 
-**Standard:** A shadow scion can walk through the Shadow Plane and reappear elsewhere on the
-Material Plane. The shadow scion can travel up to 30 feet per rogue level per day in this fashion,
-either in a single round or broken up across multiple shadow steps. This movement must be used in
-increments of at least 5 feet and does not provoke attacks of opportunity.
+This ability replaces the rogue talent gained at 8th level.
 
-**Shadow Speaker (Sp)**
+## Shadow Speaker (Sp) {#shadow-speaker}
 
-**Ability:** Once per day, a shadow scion can spend 1 minute meditating within a patch of dim light
-or darkness; at the end of the time, she can draw information from the shadows. This functions as
-[commune with nature](ref/spell/commune-with-nature), except that it functions in any terrain to a
+At 14th level, a shadow scion can spend 1 minute meditating within a patch of dim light or darkness;
+at the end of the time, she can draw information from the shadows. This functions as
+_[commune with nature](ref/spell/commune-with-nature)_, except that it functions in any terrain to a
 radius of 100 feet per rogue level, and it cannot reveal information about any object or subject
-that is not currently in dim light or darkness.
+that is not currently in dim light or darkness. The shadow scion can use this ability once per day
+at 14th level and twice per day at 19th level.
 
-**At 19th Level:** The shadow scion can use this ability twice per day.
+This ability replaces the rogue talent gained at 14th level.
 
-**Gained:** At 14th Level
+## Shadow Master (Su) {#shadow-master}
 
-**Replaces:** Rogue talent gained at 14th level
+At 20th level, whenever a shadow scion is in an area of dim light, she gains DR 10/cold iron and a
++2 luck bonus on all saving throws. In addition, whenever she confirms a critical hit against a foe
+that is in an area of dim light, that foe is [blinded](ref/misc/blinded) for 1d6 rounds.
 
-**Shadow Master (Su)**
+This ability replaces master strike.
 
-**Ability:** In addition, whenever she confirms a critical hit against a foe that is in an area of
-dim light, that foe is [blinded](ref/misc/blinded) for 1d6 rounds.
+## Rogue Talents {#rogue-talents}
 
-**Gained:** At 20th Level
+The following rogue talents complement the shadow scion archetype: false friend, fast stealth, slow
+reactions, surprise attack, and underhanded.
 
-**Passive:** Whenever a shadow scion is in an area of dim light, she gains DR 10/cold iron and a +2
-luck bonus on all saving throws.
+## Advanced Talents {#advanced-talents}
 
-**Replaces:** Master strike
-
-**These rogue talents complement this archetype:** False friend, fast stealth, slow reactions,
-surprise attack, underhanded
-
-**These advanced rogue talents complement this archetype:** Hide in plain sight, improved evasion,
-slippery mind, unwitting ally
+The following advanced rogue talents complement the shadow scion archetype: hide in plain sight,
+improved evasion, slippery mind, and unwitting ally.

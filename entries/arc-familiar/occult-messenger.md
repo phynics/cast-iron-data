@@ -12,9 +12,13 @@ page = "21"
 
 [fields]
 kind = "archetype"
+features = [
+  { anchor = "see-the-unseen" },
+  { anchor = "teacher-from-afar" },
+]
 trades = [
-  { replaces = "Alertness" },
-  { replaces = "Deliver touch spells" },
+  { replaces = "Alertness", by = ["see-the-unseen"] },
+  { replaces = "Deliver touch spells", by = ["teacher-from-afar"] },
 ]
 +++
 
@@ -22,18 +26,17 @@ Some familiars are messengers of greater powers than themselves. The witch's fam
 patron and the emissary is the servant of a god, but the occult messenger is envoy of an odder power
 still.
 
-**See the Unseen (Ex)**
+## See the Unseen (Ex) {#see-the-unseen}
 
-**Passive:** While an occult messenger is within arm's reach, the master gains the
+While an occult messenger is within arm's reach, the master gains the
 [Psychic Sensitivity](ref/feat/psychic-sensitivity) feat.
 
-**Replaces:** Alertness
+This replaces Alertness.
 
-**Teacher from Afar (Ex)**
+## Teacher from Afar (Ex) {#teacher-from-afar}
 
-**Passive:** When the occult messenger's master uses a
-[psychic skill unlock](ref/rule/occult-skill-unlocks) while the occult messenger is within arm's
-reach, the master gains a competence bonus on skill unlocks equal to
-[half](ref/misc/fractions-and-rounding) the occult messenger's level.
+When the occult messenger's master uses a [psychic skill unlock](ref/rule/occult-skill-unlocks)
+while the occult messenger is within arm's reach, the master gains a competence bonus on skill
+unlocks equal to [half](ref/misc/fractions-and-rounding) the occult messenger's level.
 
-**Replaces:** Deliver touch spells
+This replaces deliver touch spells.

@@ -17,7 +17,7 @@ page = "48"
 [fields]
 kind = "archetype"
 features = [
-  { anchor = "one-with-the-road" },
+  { anchor = "one-with-the-road", level = 1 },
   { anchor = "road-bond", level = 1 },
   { anchor = "take-the-high-road", level = 2 },
   { anchor = "trodden-path", level = 4 },

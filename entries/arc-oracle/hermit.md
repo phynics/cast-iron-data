@@ -16,8 +16,14 @@ page = "22"
 
 [fields]
 kind = "archetype"
+features = [
+  { anchor = "mystery" },
+  { anchor = "oracle-s-curse" },
+  { anchor = "recluse-s-stride", level = 1 },
+  { anchor = "fade-from-memory", level = 7 },
+]
 trades = [
-  { replaces = "The bonus spells gained at 4th, 8th, 12th, and 16th levels from the oracle's mystery", feature = "mystery", levels = [4, 8, 12, 16], power = "bonus spells" },
+  { replaces = "The oracle's normal mystery bonus spells at these levels", feature = "mystery", levels = [4, 8, 12, 16], power = "bonus spells" },
 ]
 +++
 
@@ -25,60 +31,43 @@ A hermit is a recluse who gained her oracular powers from isolation in a deep de
 peak, or in another secluded location. A connection to untraveled places gives the hermit powers to
 evade his enemies.
 
-**Mystery**
+## Mystery {#mystery}
 
-**Choice:** A hermit must choose a mystery that adds Survival to his list of class skills:
-[apocalypse](ref/mystery/apocalypse), [heavens](ref/mystery/heavens)\*, [juju](ref/mystery/juju),
-[life](ref/mystery/life)\*, [lunar](ref/mystery/lunar), [nature](ref/mystery/nature)\*,
-[outer rifts](ref/mystery/outer-rifts), [reaper](ref/mystery/reaper), [solar](ref/mystery/solar),
-[spellscar](ref/mystery/spellscar), [stone](ref/mystery/stone)\*, [succor](ref/mystery/succor),
-[volcano](ref/mystery/volcano), [winter](ref/mystery/winter), or [wood](ref/mystery/wood).
+A hermit must choose a mystery that adds Survival to his list of class skills, such as
+[nature](ref/mystery/nature) or [stone](ref/mystery/stone).
 
-**Info:** Mysteries marked with an asterisk (\*) are recommended.
+## Oracle's Curse {#oracle-s-curse}
 
-**Oracle's Curse**
+A hermit must choose the [reclusive](ref/oraclecurse/reclusive) curse (below) at 1st level.
 
-**Info:** A hermit must choose the [reclusive](ref/oraclecurse/reclusive) curse at 1st level.
+## Bonus Spells {#bonus-spells}
 
-**Bonus Spells**
+_Blindness/deafness_ (4th), _crushing despair_ (8th), _wall of force_ (12th), _maze_ (16th).
 
-**Info:** The oracle gains these bonus spells at the listed levels.
+These bonus spells replace the oracle's normal mystery bonus spells at these levels.
 
-**Replaces:** The bonus spells gained at 4th, 8th, 12th, and 16th levels from the oracle's mystery
+## Revelations {#revelations}
 
-**Spells:** Wall of force
+A hermit must take the following revelations at the listed levels.
 
-**Spells:** Maze
+## Recluse's Stride (Su) {#recluse-s-stride}
 
-**Spells:** Blindness/deafness
-
-**Spells:** Crushing despair
-
-**Revelations**
-
-**Info:** A hermit must take the following revelations at the listed levels.
-
-**Recluse's Stride (Su)**
-
-**At 10th Level:** You can teleport a distance equal to your base land speed (as per
-[dimension door](ref/spell/dimension-door)) as a **move action**, provided that there are no other
+Your base speed increases by 10 feet. At 5th level, once per round when leaving a square, you can
+treat the square as though it isn't threatened by any opponents that you can see. At 10th level, you
+can teleport a distance equal to your base land speed (as per
+_[dimension door](ref/spell/dimension-door)_) as a move action, provided that there are no other
 creatures within 10 feet of you when you use this ability and no other creatures within 10 feet of
 your destination. You can teleport a number of times per day equal to 3 + your Charisma modifier.
+You must take this revelation at 1st level.
 
-**At 5th Level:** Once per round when leaving a square, you can treat the square as though it isn't
-threatened by any opponents that you can see.
+## Fade from Memory (Su) {#fade-from-memory}
 
-**Gained:** At 1st Level
+At 7th level, whenever there are no creatures within 10 feet of you at the end of your turn, you
+gain 20% [concealment](ref/rule/concealment) until the beginning of your next turn as a free action.
+At 14th level, you instead gain 50% concealment until the beginning of your next turn. You can use
+this ability a number of times per day equal to your oracle level. You must take this revelation at
+7th level.
 
-**Passive:** Your base speed increases by 10 feet.
+## Recommended Mysteries {#recommended-mysteries}
 
-**Fade from Memory (Su)**
-
-**Free:** Whenever there are no creatures within 10 feet of you at the end of your turn, you gain
-20% [concealment](ref/rule/concealment) until the beginning of your next turn.
-
-**At 14th Level:** You instead gain 50% concealment until the beginning of your next turn.
-
-**Gained:** At 7th Level
-
-**Usage:** 1 time/day per oracle level
+[Heavens](ref/mystery/heavens), [life](ref/mystery/life), nature, stone.
