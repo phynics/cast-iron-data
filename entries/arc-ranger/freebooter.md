@@ -16,10 +16,15 @@ page = "23"
 
 [fields]
 kind = "archetype"
+features = [
+  { anchor = "freebooter-s-bane", level = 1 },
+  { anchor = "freebooter-s-bond", level = 4 },
+  { anchor = "fast-swimmer", level = 7 },
+]
 trades = [
-  { replaces = "Favored enemy", feature = "favored-enemy" },
-  { replaces = "Hunter's bond", feature = "hunter-s-bond" },
-  { replaces = "Woodland stride", feature = "woodland-stride" },
+  { replaces = "favored enemy", feature = "favored-enemy", by = ["freebooter-s-bane"] },
+  { replaces = "hunter's bond", feature = "hunter-s-bond", by = ["freebooter-s-bond"] },
+  { replaces = "woodland stride", feature = "woodland-stride", by = ["fast-swimmer"] },
 ]
 +++
 
@@ -28,46 +33,27 @@ of roles. Her specialized combat tactics help organize and direct a crew, and fr
 are in high demand. Most freebooters work as independent agents. A freebooter signs on with a crew
 when she feels the urge to travel, and often moves to a new ship when her contract ends.
 
-**Freebooter's Bane (Ex)**
+## Freebooter's Bane (Ex) {#freebooter-s-bane}
 
-**Gained:** At 1st Level
+At 1st level, the freebooter can, as a move action, indicate an enemy in combat and rally her allies
+to focus on that target. The freebooter and her allies gain a +1 bonus on weapon attack and damage
+rolls against the target. This ability applies only to allies who can see or hear the freebooter and
+who are within 30 feet of the freebooter at the time she activates this ability. At 5th level and
+every 5 levels thereafter (10th, 15th, and 20th level), the bonus increases by 1.
 
-**Move:** The freebooter can indicate an enemy in combat and rally her allies to focus on that
-target. The freebooter and her allies gain a +1 bonus on weapon attack and damage rolls against the
-target. This ability applies only to allies who can see or hear the freebooter and who are within 30
-feet of the freebooter at the time she activates this ability.
+The freebooter's bane lasts until the target dies or the freebooter selects a new target. This
+ability replaces favored enemy.
 
-**Replaces:** Favored enemy
+## Freebooter's Bond (Ex) {#freebooter-s-bond}
 
-**Special:** The _freebooter's bane_ lasts until the target dies or the freebooter selects a new
-target.
-
-At 5th level: The bonus increases to +2.
-
-At 10th level: The bonus increases to +3.
-
-At 15th level: The bonus increases to +4.
-
-At 20th level: The bonus increases to +5.
-
-**Freebooter's Bond (Ex)**
-
-**Ability:** A freebooter forms a bond with her crewmates. This bond allows her to spend a **move
-action** to grant her allies extra combat prowess when they work as a team. All allies within 30
-feet who can see or hear the freebooter gain an additional +2 bonus on attack rolls when
+At 4th level, a freebooter forms a bond with her crewmates. This bond allows her to spend a move
+action to grant her allies extra combat prowess when they work as a team. All allies within 30 feet
+who can see or hear the freebooter gain an additional +2 bonus on attack rolls when
 [flanking](ref/rule/flanking) with the freebooter or with another ally affected by this ability.
+This ability replaces hunter's bond.
 
-**Gained:** At 4th Level
+## Fast Swimmer (Ex) {#fast-swimmer}
 
-**Replaces:** Hunter's bond
-
-**Fast Swimmer (Ex)**
-
-**Ability:** A freebooter may swim half her speed as a **move action** or her normal speed as a
-**full-round action** with a successful Swim check.
-
-**Gained:** At 7th Level
-
-**Passive:** The freebooter gains a +2 bonus on Swim checks.
-
-**Replaces:** Woodland stride
+Starting at 7th level, a freebooter may swim half her speed as a move action or her normal speed as
+a full-round action with a successful Swim check. The freebooter gains a +2 bonus on Swim checks.
+This ability replaces woodland stride.
