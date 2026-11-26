@@ -50,10 +50,10 @@ hand, she can use it to cast any one spell she has written in the bonded book, e
 not prepared.
 
 A Poleiheira adherent can replace a lost or destroyed bonded book in the same manner as a bonded
-item. The new bonded book retains a number of spells per spell level equal to the Poleiheira
-adherent's Intelligence modifier from the previous bonded book, as well as all the mundane
-information that was recorded in the previous bonded book. If a Poleiheira adherent replaces her
-bonded book or dies, the previous book reverts to an ordinary blank spellbook.
+item (_Pathfinder RPG Core Rulebook_ 78). The new bonded book retains a number of spells per spell
+level equal to the Poleiheira adherent's Intelligence modifier from the previous bonded book, as
+well as all the mundane information that was recorded in the previous bonded book. If a Poleiheira
+adherent replaces her bonded book or dies, the previous book reverts to an ordinary blank spellbook.
 
 This replaces arcane bond.
 
