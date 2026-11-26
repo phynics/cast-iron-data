@@ -16,82 +16,68 @@ page = "38"
 
 [fields]
 kind = "archetype"
+features = [
+  { anchor = "stunning-fist" },
+  { anchor = "ki-pool" },
+  { anchor = "infernal-resilience", level = 5 },
+]
 trades = [
-  { replaces = "Purity of body", feature = "purity-of-body" },
+  { replaces = "Purity of body", feature = "purity-of-body", by = ["infernal-resilience"] },
 ]
 +++
 
 Once part of the Sisterhood of Eiseth, the Sisterhood of the Golden Erinyes is an order of female
 monks dedicated to emulating the painful strikes of the
 [barbed devil](ref/monster/devil-barbed-devil-hamatula), leaving targets alive but permanently
-scarred and broken by pain - a method called hamatulatsu. The sisters train equally hard to resist
+scarred and broken by pain—a method called hamatulatsu. The sisters train equally hard to resist
 their own techniques, and nearly all revere [Asmodeus](ref/faith/asmodeus).
 
-**Alignment**
+## Alignment {#alignment}
 
-**Info:** A hamatulatsu master must be lawful neutral or lawful evil.
+A hamatulatsu master must be lawful neutral or lawful evil.
 
-**Bonus Feats**
+## Bonus Feats {#bonus-feats}
 
-**At 1st Level:** A hamatulatsu master replaces the normal monk bonus feats with the following:
+A hamatulatsu master replaces the normal monk bonus feats with the following:
 [Deflect Arrows](ref/feat/deflect-arrows), [Dodge](ref/feat/dodge),
 [Exotic Weapon Proficiency](ref/feat/exotic-weapon-proficiency),
 [Improved Grapple](ref/feat/improved-grapple),
 [Intimidating Prowess](ref/feat/intimidating-prowess), [Scorpion Style](ref/feat/scorpion-style), or
-[Weapon Focus](ref/feat/weapon-focus).
-
-**At 10th Level:** The following feats are added to the list:
+[Weapon Focus](ref/feat/weapon-focus). At 6th level, the following feats are added to the list:
+[Gorgon's Fist](ref/feat/gorgons-fist), [Hamatulatsu](ref/feat/hamatulatsu),
+[Improved Sunder](ref/feat/improved-sunder), [Mobility](ref/feat/mobility),
+[Power Attack](ref/feat/power-attack). At 10th level, the following feats are added to the list:
 [Critical Focus](ref/feat/critical-focus), [Impaling Critical](ref/feat/impaling-critical) (unarmed
 strike), [Improved Critical](ref/feat/improved-critical), [Medusa's Wrath](ref/feat/medusas-wrath),
-[Snatch Arrows](ref/feat/snatch-arrows).
+[Snatch Arrows](ref/feat/snatch-arrows). At 14th level, the following feat is added to the list:
+[Improved Impaling Critical](ref/feat/improved-impaling-critical). Anytime a hamatulatsu master
+would gain a bonus feat, she can instead choose to gain two additional uses of stunning fist per
+day.
 
-**At 14th Level:** The following feat is added to the list:
-[Improved Impaling Critical](ref/feat/improved-impaling-critical).
+## Stunning Fist (Ex) {#stunning-fist}
 
-**At 6th Level:** The following feats are added to the list: [Gorgon's Fist](ref/feat/gorgons-fist),
-[Hamatulatsu](ref/feat/hamatulatsu), [Improved Sunder](ref/feat/improved-sunder),
-[Mobility](ref/feat/mobility), [Power Attack](ref/feat/power-attack).
+A hamatulatsu master expands the conditions that she can apply to the target of her stunning fist
+beyond merely stunning her target. At 4th level, she can choose to make the target
+[shaken](ref/misc/shaken) for 1 minute. At 8th level, she can choose to deal 1d10 points of
+nonlethal [bleed](ref/umr/bleed) damage. At 12th level, she can choose to make the target
+[frightened](ref/misc/frightened) for 1d3 rounds. At 16th level, she can deal 2d12 points of
+nonlethal bleed damage. The shaken and frightened conditions allow the target to attempt a Will save
+to negate the effect instead of a Fortitude save. This ability otherwise functions as normal for a
+monk of her level.
 
-**Special:** Any time a hamatulatsu master would gain a bonus feat, she can instead choose to gain
-two additional uses of _stunning fist_ per day.
+## Ki Pool (Su) {#ki-pool}
 
-**Stunning Fist (Ex)**
+By spending 1 point from her ki pool as a swift action, a hamatulatsu master can make one additional
+attack at her highest attack bonus when making a flurry of blows attack. Alternatively, she can
+spend 1 ki point as a swift action to gain one additional use of her stunning fist ability that
+round, though this does not grant her an additional attack. Finally, as an immediate action, a
+hamatulatsu master can spend 1 ki point to make a single melee attack with a +2 bonus against a
+creature that has damaged her with a natural melee attack, unarmed strike, or weapon without the
+reach property. This ability otherwise functions as normal for a monk of her level.
 
-**Ability:** A hamatulatsu master expands the conditions that she can apply to the target of her
-_stunning fist_ beyond merely stunning her target.
+## Infernal Resilience (Ex) {#infernal-resilience}
 
-**At 12th Level:** She can choose to make the target [frightened](ref/misc/frightened) for 1d3
-rounds.
-
-**At 16th Level:** She can deal 2d12 points of nonlethal bleed damage.
-
-**At 4th Level:** She can choose to make the target [shaken](ref/misc/shaken) for 1 minute.
-
-**At 8th Level:** She can choose to deal 1d10 points of nonlethal [bleed](ref/umr/bleed) damage.
-
-**Special:** The shaken and frightened conditions allow the target to attempt a Will save to negate
-the effect instead of a Fortitude save. This ability otherwise functions as normal for a monk of her
-level.
-
-**Ki Pool (Su)**
-
-**Immediate:** A hamatulatsu master can spend 1 ki point to make a single melee attack with a +2
-bonus against a creature that has damaged her with a natural melee attack, unarmed strike, or weapon
-without the reach property.
-
-**Special:** This ability otherwise functions as normal for a monk of her level.
-
-**Swift:** By spending 1 point from her _ki pool,_ a hamatulatsu master can make one additional
-attack at her highest attack bonus when making a _flurry of blows_ attack. Alternatively, she can
-spend 1 ki point to gain one additional use of her _stunning fist_ ability that round, though this
-does not grant her an additional attack.
-
-**Infernal Resilience (Ex)**
-
-**Gained:** At 5th Level
-
-**Passive:** A hamatulatsu master gains immunity to all spells,
+At 5th level, a hamatulatsu master gains immunity to all spells,
 [spell-like abilities](ref/umr/spell-like-abilities), and effects with the pain descriptor, as well
 as a +2 bonus on saving throws against effects that would sicken, nauseate, stagger, or stun her.
-
-**Replaces:** Purity of body
+This ability replaces purity of body.

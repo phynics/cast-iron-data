@@ -16,14 +16,22 @@ page = "36"
 
 [fields]
 kind = "archetype"
+features = [
+  { anchor = "tenacious-tracker", level = 2 },
+  { anchor = "vengeance", level = 5 },
+  { anchor = "savor-the-sting", level = 9 },
+  { anchor = "swift-revenge", level = 13 },
+  { anchor = "perceived-wrongs", level = 17 },
+  { anchor = "certain-revenge", level = 20 },
+]
 trades = [
   { replaces = "Armor and weapon proficiencies", feature = "weapon-and-armor-proficiencies" },
-  { replaces = "Bravery", feature = "bravery" },
-  { replaces = "Weapon training 1", feature = "weapon-training", levels = [5] },
-  { replaces = "Weapon training 2", feature = "weapon-training", levels = [9] },
-  { replaces = "Weapon training 3", feature = "weapon-training", levels = [13] },
-  { replaces = "Weapon training 4", feature = "weapon-training", levels = [17] },
-  { replaces = "Weapon mastery", feature = "weapon-mastery" },
+  { replaces = "Bravery", feature = "bravery", by = ["tenacious-tracker"] },
+  { replaces = "Weapon training 1", feature = "weapon-training", levels = [5], by = ["vengeance"] },
+  { replaces = "Weapon training 2", feature = "weapon-training", levels = [9], by = ["savor-the-sting"] },
+  { replaces = "Weapon training 3", feature = "weapon-training", levels = [13], by = ["swift-revenge"] },
+  { replaces = "Weapon training 4", feature = "weapon-training", levels = [17], by = ["perceived-wrongs"] },
+  { replaces = "Weapon mastery", feature = "weapon-mastery", by = ["certain-revenge"] },
 ]
 +++
 
@@ -32,93 +40,57 @@ magic to track down those who deserve punishment. Like a bounty hunter following
 Calistrian hunter tracks down elusive prey using his wits and delivers long-overdue retribution
 while easily ignoring his own injuries thanks to the joy he receives from a job well done.
 
-**Weapon and Armor Proficiency**
+## Weapon and Armor Proficiency {#weapon-and-armor-proficiency}
 
-**Info:** A Calistrian hunter is proficient with all simple and martial weapons, plus the
+A Calistrian hunter is proficient with all simple and martial weapons, plus the
 [whip](ref/eq-weapon/whip). In addition, the hunter is proficient with light and medium armor as
-well as shields (except tower shields).
+well as shields (except tower shields). This replaces the normal fighter armor and weapon
+proficiencies.
 
-**Replaces:** Armor and weapon proficiencies
+## Class Skills {#class-skills}
 
-**Gained class skills:** diplo, kl, per
+A Calistrian hunter gains Diplomacy, Knowledge (local), and Perception as class skills and loses
+Knowledge (dungeoneering) and Knowledge (engineering) as class skills.
 
-**Lost class skills:** kd, ke
+## Tenacious Tracker (Ex) {#tenacious-tracker}
 
-**Tenacious Tracker (Ex)**
+At 2nd level, a Calistrian hunter gains a +1 bonus on Diplomacy checks to gather information and on
+Survival checks made to identify or follow tracks. This bonus increases by 1 for every 4 levels the
+Calistrian hunter possesses beyond 2nd. This ability replaces bravery.
 
-**Gained:** At 2nd Level
+## Vengeance (Ex) {#vengeance}
 
-**Passive:** A Calistrian hunter gains a +1 bonus on Diplomacy checks to gather information and on
-Survival checks made to identify or follow tracks.
-
-**Replaces:** Bravery
-
-At 6th level: This bonus increases to +2.
-
-At 10th level: This bonus increases to +3.
-
-At 14th level: This bonus increases to +4.
-
-At 18th level: This bonus increases to +5.
-
-**Vengeance (Ex)**
-
-**Ability:** A Calistrian hunter deals 1d4 points of [bleed](ref/rule/bleed) damage when he damages
+At 5th level, a Calistrian hunter deals 1d4 points of [bleed](ref/rule/bleed) damage when he damages
 a creature that has damaged him since the beginning of his last turn. Whenever a creature takes
 bleed damage from this effect, it also takes a -1 penalty on attack rolls, weapon damage rolls,
 saving throws, skill checks, and ability checks for 1 round. This penalty is a
 [pain](ref/spelldef/pain) effect and does not stack with the effects of the
-[sickened](ref/misc/sickened) condition.
+[sickened](ref/misc/sickened) condition. This bleed damage increases to 1d6 at 9th level, 1d8 at
+13th level, and 2d6 at 17th level. This ability replaces weapon training 1.
 
-**At 13th Level:** The bleed increases to 1d8.
+## Savor the Sting (Ex) {#savor-the-sting}
 
-**At 17th Level:** The bleed damage increases to 2d6.
+At 9th level, whenever a target takes bleed damage from a Calistrian hunter's vengeance ability, the
+Calistrian hunter gains an equal number of [temporary hit points](ref/rule/temporary-hit-points).
+These temporary hit points last for 1 minute and do not stack with each other. This ability replaces
+weapon training 2.
 
-**At 9th Level:** The bleed damage becomes 1d6.
+## Swift Revenge (Ex) {#swift-revenge}
 
-**Gained:** At 5th Level
-
-**Replaces:** Weapon training 1
-
-**Savor the Sting (Ex)**
-
-**Gained:** At 9th Level
-
-**Passive:** Whenever a target takes bleed damage from a Calistrian hunter's _vengeance_ ability,
-the Calistrian hunter gains an equal number of
-[temporary hit points](ref/rule/temporary-hit-points). These temporary hit points last for 1 minute
-and do not stack with each other.
-
-**Replaces:** Weapon training 2
-
-**Swift Revenge (Ex)**
-
-**Ability:** A Calistrian hunter gains the quarry class feature; this functions like the
+At 13th level, a Calistrian hunter gains the quarry class feature; this functions like the
 [ranger](ref/class/ranger) ability of the same name, but the target must be one that has damaged the
-Calistrian hunter in the past hour.
+Calistrian hunter in the past hour. This ability replaces weapon training 3.
 
-**Gained:** At 13th Level
+## Perceived Wrongs (Ex) {#perceived-wrongs}
 
-**Replaces:** Weapon training 3
+At 17th level, a Calistrian hunter can, once per day, use his vengeance ability against any
+creature—even one that has not harmed him. If the target is also one that has damaged him since the
+beginning of his last turn, the bleed damage increases to 3d6 and the target is sickened for as long
+as the bleed effect continues. This ability replaces weapon training 4.
 
-**Perceived Wrongs (Ex)**
+## Certain Revenge (Ex) {#certain-revenge}
 
-**Ability:** A Calistrian hunter can, once per day, use his _vengeance_ ability against any
-creature - even one that has not harmed him. If the target is also one that has damaged him since
-the beginning of his last turn, the bleed damage increases to 3d6 and the target is sickened for as
-long as the bleed effect continues.
-
-**Gained:** At 17th Level
-
-**Replaces:** Weapon training 4
-
-**Certain Revenge (Ex)**
-
-**Ability:** A Calistrian hunter gains the _improved quarry_ class feature; this functions like the
+At 20th level, a Calistrian hunter gains the improved quarry class feature; this functions like the
 ranger ability of the same name, but the target must have attacked him in the past day. Whenever he
-uses his _vengeance_ ability against his quarry, the bleed damage increases by 2 per bleed damage
-die.
-
-**Gained:** At 20th Level
-
-**Replaces:** Weapon mastery
+uses his vengeance ability against his quarry, the bleed damage increases by 2 per bleed damage die.
+This ability replaces weapon mastery.

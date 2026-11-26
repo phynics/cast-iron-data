@@ -16,13 +16,19 @@ page = "36"
 
 [fields]
 kind = "archetype"
+features = [
+  { anchor = "well-paid-loyalty", level = 2 },
+  { anchor = "blackjacket-tactics", level = 4 },
+  { anchor = "amateurs", level = 8 },
+  { anchor = "superior-tactics", level = 12 },
+  { anchor = "esprit-de-corps", level = 16 },
+]
 trades = [
-  { replaces = "Bravery", feature = "bravery" },
-  { replaces = "The bonus feat gained at 4th level", feature = "bonus-feats", levels = [4] },
-  { replaces = "The bonus feat gained at 8th level", feature = "bonus-feats", levels = [8] },
-  { replaces = "The bonus feat gained at 12th level", feature = "bonus-feats", levels = [12] },
-  { replaces = "The bonus feat gained at 16th level", feature = "bonus-feats", levels = [16] },
-  { alters = "Bonus fighter feats", feature = "bonus-feats" },
+  { replaces = "Bravery", feature = "bravery", by = ["well-paid-loyalty"] },
+  { replaces = "The bonus feat gained at 4th level", feature = "bonus-feats", levels = [4], by = ["blackjacket-tactics"] },
+  { replaces = "The bonus feat gained at 8th level", feature = "bonus-feats", levels = [8], by = ["amateurs"] },
+  { replaces = "The bonus feat gained at 12th level", feature = "bonus-feats", levels = [12], by = ["superior-tactics"] },
+  { replaces = "The bonus feat gained at 16th level", feature = "bonus-feats", levels = [16], by = ["esprit-de-corps"] },
 ]
 +++
 
@@ -31,76 +37,48 @@ than a standing army. Still, gold buys loyalty, and the Kalistocrats pay best of
 the Blackjackets are well equipped and dedicate themselves to training in small-unit tactics,
 quickly communicating strategies and tricks to handle any threat to their charges.
 
-**Bonus Feats**
+## Bonus Feats {#bonus-feats}
 
-**Alters:** Bonus fighter feats
-
-**Choice:** In addition to combat feats, a Druman Blackjacket can choose
+In addition to combat feats, a Druman Blackjacket can choose
 [Improved Iron Will](ref/feat/improved-iron-will), [Iron Will](ref/feat/iron-will), or any teamwork
 feat as bonus feats.
 
-**Well-Paid Loyalty (Ex)**
+## Well-Paid Loyalty (Ex) {#well-paid-loyalty}
 
-**Gained:** At 2nd Level
+At 2nd level, a Druman Blackjacket gains a +1 bonus on Will saves against compulsion spells,
+[spell-like abilities](ref/umr/spell-like-abilities), and effects. This bonus increases by 1 for
+every 4 levels the Blackjacket possesses beyond 2nd. This ability replaces bravery.
 
-**Passive:** A Druman Blackjacket gains a +1 bonus on Will saves against compulsion spells,
-[spell-like abilities](ref/umr/spell-like-abilities), and effects.
+## Blackjacket Tactics (Ex) {#blackjacket-tactics}
 
-**Replaces:** Bravery
+At 4th level, two or more Druman Blackjackets can spend 1 minute discussing strategy, then choose a
+single teamwork feat (_Advanced Player's Guide_ 150) possessed by at least one of them. For a number
+of hours equal to the class level of the highest-level Blackjacket, the participants each gain the
+benefits of the selected feat even if they do not meet the feat's prerequisites. If a creature
+benefiting from this ability moves more than 30 feet away from any other participant, it loses all
+benefits of this ability until it is again within 30 feet. Creatures that do not have levels in this
+archetype can't benefit from this ability, and no creature can benefit from this ability more than
+once at any given time. This ability replaces the bonus feat gained at 4th level.
 
-At 6th level: This bonus increases to +2.
+## Amateurs! (Ex) {#amateurs}
 
-At 10th level: This bonus increases to +3.
-
-At 14th level: This bonus increases to +4.
-
-At 18th level: This bonus increases to +5.
-
-**Blackjacket Tactics (Ex)**
-
-**Ability:** Two or more Druman Blackjackets can spend 1 minute discussing strategy, then choose a
-single teamwork feat possessed by at least one of them. For a number of hours equal to the class
-level of the highest-level Blackjacket, the participants each gain the benefits of the selected feat
-even if they do not meet the feat's prerequisites. If a creature benefiting from this ability moves
-more than 30 feet away from any other participant, it loses all benefits of this ability until it is
-again within 30 feet.
-
-**Gained:** At 4th Level
-
-**Replaces:** The bonus feat gained at 4th level
-
-**Special:** Creatures that do not have levels in this archetype can't benefit from this ability,
-and no creature can benefit from this ability more than once at any given time.
-
-**Amateurs! (Ex)**
-
-**Ability:** When using the _Blackjacket tactics_ ability, a Druman Blackjacket can include one or
+At 8th level, when using the Blackjacket tactics ability, a Druman Blackjacket can include one or
 more creatures without levels in this archetype, but doing so reduces the duration of the effect to
 a number of minutes equal to the class level of the highest-level Blackjacket instead of a number of
 hours per level. If only Blackjackets are included in the effect, all Druman Blackjackets affected
-gain a +1 morale bonus on skill checks and saving throws for the duration of the effect.
+gain a +1 morale bonus on skill checks and saving throws for the duration of the effect. This
+ability replaces the bonus feat gained at 8th level.
 
-**Gained:** At 8th Level
+## Superior Tactics (Ex) {#superior-tactics}
 
-**Replaces:** The bonus feat gained at 8th level
-
-**Superior Tactics (Ex)**
-
-**Ability:** A Druman Blackjacket who uses the _Blackjacket tactics_ ability can allow all affected
+At 12th level, a Druman Blackjacket who uses the Blackjacket tactics ability can allow all affected
 Blackjackets to gain a second bonus teamwork feat possessed by at least one of the participants.
+This ability replaces the bonus feat gained at 12th level.
 
-**Gained:** At 12th Level
+## Esprit de Corps (Ex) {#esprit-de-corps}
 
-**Replaces:** The bonus feat gained at 12th level
-
-**Esprit de Corps (Ex)**
-
-**Ability:** A Druman Blackjacket grants all Blackjackets with whom he is sharing one or more
-teamwork feats through the _Blackjacket tactics_ ability a +2 morale bonus on attack rolls, ability
+At 16th level, a Druman Blackjacket grants all Blackjackets with whom he is sharing one or more
+teamwork feats through the Blackjacket tactics ability a +2 morale bonus on attack rolls, ability
 checks, skill checks, and saving throws. Each affected Blackjacket increases this bonus by 1 if
 another affected Blackjacket has been reduced to 0 or fewer hit points since the beginning of his
-last turn.
-
-**Gained:** At 16th Level
-
-**Replaces:** The bonus feat gained at 16th level
+last turn. This ability replaces the bonus feat gained at 16th level.

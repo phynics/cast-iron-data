@@ -16,9 +16,13 @@ page = "40"
 
 [fields]
 kind = "archetype"
+features = [
+  { anchor = "sophisticated-stealth", level = 3 },
+  { anchor = "misdirection", level = 4 },
+]
 trades = [
-  { replaces = "Trap sense", feature = "trap-sense" },
-  { replaces = "Uncanny dodge", feature = "uncanny-dodge" },
+  { replaces = "Trap sense", feature = "trap-sense", by = ["sophisticated-stealth"] },
+  { replaces = "Uncanny dodge", feature = "uncanny-dodge", by = ["misdirection"] },
 ]
 +++
 
@@ -26,32 +30,29 @@ With few natural barriers, a thriving international port, and many miles separat
 Kintargo is geographically suited for rebellion against the rigid laws that reign in Cheliax. This
 rebellion is hardly malicious in intent; business is simply easier without the imposing bureaucracy.
 Whenever the Chelish navy sails into the port, these rebels are quick to appear agreeably
-subservient in order to conceal their non-compliance and avoid retribution.
+subservient in order to conceal their noncompliance and avoid retribution.
 
-**Sophisticated Stealth (Ex)**
+## Sophisticated Stealth (Ex) {#sophisticated-stealth}
 
-**Gained:** At 3rd Level
+At 3rd level, a Kintargo rebel gains a +1 bonus on Knowledge (nobility) checks. In addition, she
+gains a +1 bonus on Bluff checks to convey a secret message and on Sense Motive checks to discern
+secret messages. These bonuses increase by 1 every 3 rogue levels thereafter. This ability replaces
+trap sense.
 
-**Passive:** A Kintargo rebel gains a bonus on Knowledge (nobility) checks. In addition, she gains a
-bonus on Bluff checks to convey a secret message and on Sense Motive checks to discern secret
-messages. These bonuses are equal to one-third of her rogue level.
+## Misdirection (Sp) {#misdirection}
 
-**Replaces:** Trap sense
-
-**Misdirection (Sp)**
-
-**Ability:** A Kintargo rebel gains the ability to cast [misdirection](ref/spell/misdirection) on
+At 4th level, a Kintargo rebel gains the ability to cast _[misdirection](ref/spell/misdirection)_ on
 herself once per day, though instead of choosing an object for the second target, she must choose a
 creature in range. The caster level for this ability is equal to her class level, and the save DC
 for this spell is 12 + the Kintargo rebel's Intelligence modifier. The save DC of this ability
-increases by 1 if the secondary target is lawful or evil.
+increases by 1 if the secondary target is lawful or evil. This ability replaces uncanny dodge.
 
-**Gained:** At 4th Level
+## Rogue Talents {#rogue-talents}
 
-**Replaces:** Uncanny dodge
+The following rogue talents complement the Kintargo rebel archetype: canny observer, charmer, false
+friend, fast getaway, honeyed words, obfuscate story, and quick disguise.
 
-**These rogue talents complement this archetype:** Canny observer, charmer, false friend, fast
-getaway, honeyed words, obfuscate story, quick disguise
+## Advanced Talents {#advanced-talents}
 
-**These advanced rogue talents complement this archetype:** Hard minded, master of disguise, skill
-mastery, slippery mind, thoughtful reexamining
+The following advanced rogue talents complement the Kintargo rebel archetype: hard to fool, master
+of disguise, skill mastery, slippery mind, and thoughtful reexamining.

@@ -16,88 +16,65 @@ page = "46"
 
 [fields]
 kind = "archetype"
+features = [
+  { anchor = "favored-enemy", level = 1 },
+  { anchor = "demonologist", level = 3 },
+  { anchor = "expanded-spell-list" },
+  { anchor = "fiendish-quarry", level = 11 },
+  { anchor = "improved-fiendish-quarry", level = 19 },
+]
 trades = [
-  { replaces = "Favored enemy", feature = "favored-enemy" },
-  { replaces = "Endurance", feature = "endurance" },
-  { replaces = "Quarry", feature = "quarry" },
-  { replaces = "Improved quarry", feature = "improved-quarry" },
+  { replaces = "Favored enemy", feature = "favored-enemy", by = ["favored-enemy"] },
+  { replaces = "Endurance", feature = "endurance", by = ["demonologist"] },
+  { replaces = "Quarry", feature = "quarry", by = ["fiendish-quarry"] },
+  { replaces = "Improved quarry", feature = "improved-quarry", by = ["improved-fiendish-quarry"] },
 ]
 +++
 
-During the elves' long absence from Golarion, the nascent demon lord
+During the [elves](ref/race/elf)' long absence from Golarion, the nascent demon lord
 [Treerazer](ref/monster/treerazer) took up residence in the Fierani Forest in what is now the Elven
 kingdom of Kyonin. Eventually, the demon's presence in the forest drew the elves back to Golarion,
 who sought to purge the fiendish blight from this once-sacred land. They defeated Treerazer but
 could not destroy him, forcing him instead into the southern reaches of the Fierani, a corrupted
-region of twisted plants and fiendish denizens called Tanglebriar. Even today, the
-[elves](ref/race/elf) constantly battle to keep the corruption in the Tanglebriar from spreading to
-the rest of the Fierani Forest and beyond. Though they are sworn foes of Treerazer and his kin,
-Tanglebriar demonslayers are known to venture forth from Kyonin to broaden their expertise in the
-destruction of demons.
+region of twisted plants and fiendish denizens called Tanglebriar. Even today, the elves constantly
+battle to keep the corruption in the Tanglebriar from spreading to the rest of the Fierani Forest
+and beyond. Though they are sworn foes of Treerazer and his kin, Tanglebriar demonslayers are known
+to venture forth from Kyonin to broaden their expertise in the destruction of demons.
 
-**Gained class skills:** kp
+## Skills {#skills}
 
-**Favored Enemy (Ex)**
+Tanglebriar demonslayers gain Knowledge (planes) as a class skill.
 
-**Choice:** A Tanglebriar demonslayer must choose _favored enemy_ (evil outsider).
+## Favored Enemy (Ex) {#favored-enemy}
 
-**Info:** Every time he advances his _favored enemy_ bonus, the demonslayer must advance his bonus
-against evil outsiders.
-
-**Gained:** At 1st Level
-
-**Passive:** In addition to the normal benefits of _favored enemy,_ a Tanglebriar demonslayer gains
-a bonus equal to 1/2 his _favored enemy_ bonus on saving throws against spells,
+At 1st level, a Tanglebriar demonslayer must choose favored enemy (evil outsider). At 5th level and
+every time he advances his favored enemy bonus, the demonslayer must advance his bonus against evil
+outsiders. In addition to the normal benefits of favored enemy, a Tanglebriar demonslayer gains a
+bonus equal to 1/2 his favored enemy bonus on saving throws against spells,
 [spell-like abilities](ref/umr/spell-like-abilities), and supernatural abilities of evil outsiders.
+This ability is otherwise identical to and replaces the favored enemy ranger class ability.
 
-**Replaces:** Favored enemy
+## Demonologist (Ex) {#demonologist}
 
-**Special:** This ability is otherwise identical to and replaces the _favored enemy_ ranger class
-ability.
+At 3rd level, a Tanglebriar demonslayer gains insight into his Abyssal enemies. The demonslayer
+gains a bonus equal to 1/2 his class level on Knowledge (planes) checks that relate to demons,
+Perception checks to pierce a demon's disguise, and Survival checks while tracking demons. This
+bonus stacks with any bonuses from favored enemy. This ability replaces endurance.
 
-**Demonologist (Ex)**
+## Expanded Spell List {#expanded-spell-list}
 
-**Flavor:** A Tanglebriar demonslayer gains insight into his Abyssal enemies.
+A Tanglebriar demonslayer adds the following spells to his spell list: 1st—_protection from evil_;
+2nd—_align weapon, magic circle against evil_; 4th—_dimensional anchor, dismissal_.
 
-**Gained:** At 3rd Level
+## Fiendish Quarry (Su) {#fiendish-quarry}
 
-**Passive:** The demonslayer gains a bonus equal to 1/2 his class level on Knowledge (planes) checks
-that relate to demons, Perception checks to pierce a demon's disguise, and Survival checks while
-tracking demons. This bonus stacks with any bonuses from _favored enemy._
+At 11th level, when a Tanglebriar demonslayer chooses an evil outsider as his quarry, he can forgo
+the normal +2 attack bonus and instead treat his weapon as if it were good-aligned versus his
+quarry. This ability is otherwise identical to quarry and replaces that ability.
 
-**Replaces:** Endurance
+## Improved Fiendish Quarry (Su) {#improved-fiendish-quarry}
 
-**Expanded Spell List**
-
-**Ability:** A Tanglebriar demonslayer adds the following spells to his spell list at the listed
-spell level.
-
-**Spells:** Protection from evil
-
-**Spells:** Align weapon, magic circle against evil
-
-**Spells:** Dimensional anchor, dismissal
-
-**Fiendish Quarry (Su)**
-
-**Ability:** When a Tanglebriar demonslayer chooses an evil outsider as his _quarry,_ he can the
-forgo the normal +2 attack bonus and instead treat his weapon as if it were good-aligned versus his
-_quarry._
-
-**Gained:** At 11th Level
-
-**Replaces:** Quarry
-
-**Special:** This ability is otherwise identical to _quarry_ and replaces that ability.
-
-**Improved Fiendish Quarry (Su)**
-
-**Ability:** When a Tanglebriar demonslayer chooses an evil outsider as his _quarry,_ he can forgo
-the normal +4 attack bonus and instead treat his weapon as if it had the [holy](ref/magic-enh/holy)
-weapon special ability while attacking his quarry.
-
-**Gained:** At 19th Level
-
-**Replaces:** Improved quarry
-
-**Special:** This ability is otherwise identical to _improved quarry_ and replaces that ability.
+At 19th level, when a Tanglebriar demonslayer chooses an evil outsider as his quarry, he can forgo
+the normal +4 attack bonus and instead treat his weapon as if it had the
+_[holy](ref/magic-enh/holy)_ weapon special ability while attacking his quarry. This ability is
+otherwise identical to improved quarry and replaces that ability.
