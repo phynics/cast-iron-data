@@ -20,7 +20,6 @@ features = [
   { anchor = "phrenological-knowledge", level = 1 },
   { anchor = "skull-versed", level = 2 },
   { anchor = "phrenological-savant", level = 10 },
-  { anchor = "bardic-performance" },
   { anchor = "skull-sonata", level = 1 },
   { anchor = "in-your-head", level = 3 },
   { anchor = "fingers-of-fascination", level = 1 },

@@ -31,7 +31,7 @@ trades = [
   { replaces = "Swift tracking", feature = "swift-tracker", by = ["iomedae-s-influence"] },
   { replaces = "Quarry", feature = "quarry", by = ["pinpoint-targeting"] },
   { replaces = "Improved quarry", feature = "improved-quarry", by = ["quarry"] },
-  { alters = "Combat style", feature = "combat-style-feat", by = ["archery-style"] },
+  { alters = "The ranger's combat style feat class feature", feature = "combat-style-feat", by = ["archery-style"] },
 ]
 +++
 

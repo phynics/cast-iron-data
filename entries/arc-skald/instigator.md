@@ -17,7 +17,6 @@ page = "49"
 [fields]
 kind = "archetype"
 features = [
-  { anchor = "raging-song" },
   { anchor = "song-of-rabble-rousing", level = 5 },
   { anchor = "song-of-riot", level = 10 },
   { anchor = "revolutionary-heart", level = 7 },

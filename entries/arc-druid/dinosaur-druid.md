@@ -18,7 +18,7 @@ page = "47"
 kind = "archetype"
 features = [
   { anchor = "summon-dinosaur", level = 1 },
-  { anchor = "dinosaur-bond" },
+  { anchor = "dinosaur-bond", level = 1 },
   { anchor = "dinosaur-shape" },
   { anchor = "primeval-voice", level = 4 },
 ]

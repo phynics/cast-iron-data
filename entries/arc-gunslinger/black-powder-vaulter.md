@@ -17,7 +17,6 @@ page = "10"
 [fields]
 kind = "archetype"
 features = [
-  { anchor = "deeds" },
   { anchor = "mobile-reload", level = 1 },
   { anchor = "daring-vault", level = 1 },
   { anchor = "shot-on-the-run", level = 3 },

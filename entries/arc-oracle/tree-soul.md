@@ -18,7 +18,6 @@ page = "69"
 kind = "archetype"
 features = [
   { anchor = "tree-bound-curse", level = 1 },
-  { anchor = "revelations" },
   { anchor = "transform-wood", level = 1 },
   { anchor = "living-steel-dolls", level = 11 },
   { anchor = "tree-soul-revelation", level = 20 },

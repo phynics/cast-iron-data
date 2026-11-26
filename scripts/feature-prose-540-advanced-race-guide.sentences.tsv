@@ -97,6 +97,7 @@ ref/arc-inquisitor/exarch	This ability replaces her second judgment.
 ref/arc-inquisitor/exarch	This ability replaces greater bane.
 ref/arc-inquisitor/exarch	This ability replaces her third judgment.
 ref/arc-inquisitor/immolator	This ability replaces bane and greater bane.
+ref/arc-inquisitor/immolator	This ability modifies and functions as true judgment.
 ref/arc-inquisitor/kinslayer	This ability replaces the destruction judgment.
 ref/arc-inquisitor/kinslayer	This ability replaces detect alignment.
 ref/arc-magus/elemental-knight	This ability replaces spell recall.
@@ -162,6 +163,7 @@ ref/arc-paladin/tranquil-guardian	This ability replaces aura of courage.
 ref/arc-paladin/tranquil-guardian	This ability replaces aura of resolve.
 ref/arc-paladin/tranquil-guardian	This ability replaces aura of justice.
 ref/arc-paladin/tranquil-guardian	This ability replaces holy champion.
+ref/arc-ranger/dusk-stalker	This ability modifies favored terrain.
 ref/arc-ranger/dusk-stalker	This ability replaces hunter’s bond.
 ref/arc-ranger/dusk-stalker	This ability replaces camouf lage.
 ref/arc-ranger/wave-warden	This ability replaces track.

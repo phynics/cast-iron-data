@@ -17,7 +17,6 @@ page = "85"
 [fields]
 kind = "archetype"
 features = [
-  { anchor = "raging-song" },
   { anchor = "song-of-the-senses", level = 2 },
   { anchor = "call-of-the-wild", level = 6 },
   { anchor = "wilderness-magic", level = 5 },

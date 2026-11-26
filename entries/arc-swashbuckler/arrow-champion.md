@@ -18,7 +18,6 @@ page = "95"
 kind = "archetype"
 features = [
   { anchor = "arrow-champion-s-panache", level = 1 },
-  { anchor = "deeds" },
   { anchor = "retaliation" },
   { anchor = "precise-aim", level = 3 },
   { anchor = "swift-switch", level = 3 },

@@ -14,7 +14,7 @@ ref/arc-fighter/spear-fighter	Balanced Stride (Ex)	balanced-stride	yes	2	print	p
 ref/arc-fighter/spear-fighter	Spear Parry (Ex)	spear-parry	yes	3	print	print	lead review (ruling 14): print differs from the corpus: print: the penalty decreases by 1 at 7th, 11th and 15th level (-3, -2, -1) and goes at 19th level; the import has the -1 at 17th level. Print wins; the import lost or changed it.	12	5887c3657ceed8d7ecc535cac75e874dbaba5bc400447a2e34683830de3d6a9e
 ref/arc-fighter/spear-fighter	Weapon Training (Ex)	weapon-training	yes	5	draft	draft		12	d4748dd3ffb8270a30d4dbe7061652fb1383c3f353db46019122a2938ae61503
 ref/arc-fighter/spear-fighter	Weapon Mastery (Ex)	weapon-mastery	yes	20	draft	draft		12	f88469758ebbed44d40483e3b386c49cdaa7e812ba508697ef94059cef45f8ef
-ref/arc-gunslinger/black-powder-vaulter	Deeds	deeds	yes		draft	draft	opening text written from print: the import differs in —	10	961c891a979f6c43201e5ca95e4c4cff118af0aade87c0764baffff0d30148c1
+ref/arc-gunslinger/black-powder-vaulter	Deeds	deeds	no		draft	draft	opening text written from print: the import differs in —	10	961c891a979f6c43201e5ca95e4c4cff118af0aade87c0764baffff0d30148c1
 ref/arc-gunslinger/black-powder-vaulter	Mobile Reload (Ex)	mobile-reload	yes	1	print	print	level 1 (ruling 35): replaces Deadeye deed, a 1st-level feature of the class	10	95271a96461f2e1996d8a35ba02e9ed0e4333e2f61a80e829a7c79ed1590f29a
 ref/arc-gunslinger/black-powder-vaulter	Daring Vault (Ex)	daring-vault	yes	1	print	print	level 1 (ruling 35): replaces Gunslinger's dodge deed, a 1st-level feature of the class	10	81f2828a5003c7d3a7c6761aecfc7c616bb4747a88377146fbf4ee5a185bb382
 ref/arc-gunslinger/black-powder-vaulter	Shot on the Run (Ex)	shot-on-the-run	yes	3	print	print		10	eb72fa785cee49bd2234022f96cd49dddfe98f1fa0e7d1ec61261c713849a3c5
@@ -86,7 +86,7 @@ ref/arc-shifter/style-shifter	Form of the Tiger	form-of-the-tiger	no		print	prin
 ref/arc-swashbuckler/okayo-corsair	Weapon and Armor Proficiency	weapon-and-armor-proficiency	no		print	print		11	83acf0361f2b1ca3d771ab4ea986843797a2f055ec12a57a57c1ea1f64b5db48
 ref/arc-swashbuckler/okayo-corsair	Okayo Finesse (Ex)	okayo-finesse	yes	1	print	print	level 1: replaces Swashbuckler finesse, of which one is gained at 1st level in the class table	11	cb78d0ce78d0468f9fe5917888731393417efcd52e61be5a614153adfe08f707
 ref/arc-swashbuckler/okayo-corsair	Okayo Panache (Ex)	okayo-panache	yes	1	print	print	level 1: alters Panache, of which one is gained at 1st level in the class table	11	7ba4b6298bd7617e239fe68ea85e89480ed588b8edb3be7743cc36f480871054
-ref/arc-swashbuckler/okayo-corsair	Deeds	deeds	yes		draft	draft		11	5dc49008025b669794f46a2d828bcce9758241a3b0e0eae1b4c9f9778b9b852c
+ref/arc-swashbuckler/okayo-corsair	Deeds	deeds	no		draft	draft		11	5dc49008025b669794f46a2d828bcce9758241a3b0e0eae1b4c9f9778b9b852c
 ref/arc-swashbuckler/okayo-corsair	Ki Panache (Su)	ki-panache	yes	3	print	print		11	6f44c451cc48ec9e67b7ee388385857ca354a5026055d41df6eb45790d295092
 ref/arc-swashbuckler/okayo-corsair	Slow Fall (Su)	slow-fall	yes	7	print	print		11	32adbfdbc0ce585c8b30b80858a99e885cb0067ae7083cd0bfcbc06a3e02b7da
 ref/arc-swashbuckler/okayo-corsair	High Jump (Su)	high-jump	yes	11	print	print		11	7ee5f324e238857902f0fb2c2467b3079d2c0e7741afba474628e9c928a735d2
