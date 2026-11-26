@@ -14,7 +14,7 @@ page = "210"
 kind = "archetype"
 features = [
   { anchor = "song-of-myself" },
-  { anchor = "order-master" },
+  { anchor = "order-master", level = 3 },
   { anchor = "receive-touch-spells", level = 5 },
   { anchor = "scry-on-master", level = 11 },
 ]

@@ -17,7 +17,7 @@ page = "57"
 [fields]
 kind = "archetype"
 features = [
-  { anchor = "astrology" },
+  { anchor = "astrology", level = 1 },
   { anchor = "starfinding", level = 1 },
   { anchor = "investigator-talents" },
 ]

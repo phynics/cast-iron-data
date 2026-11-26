@@ -17,7 +17,7 @@ page = "74"
 [fields]
 kind = "archetype"
 features = [
-  { anchor = "arcane-bond" },
+  { anchor = "arcane-bond", level = 1 },
   { anchor = "eldritch-knowledge", level = 1 },
   { anchor = "eldritch-grimoire" },
   { anchor = "talisman-of-revealing", level = 1 },

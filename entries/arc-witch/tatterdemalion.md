@@ -17,7 +17,7 @@ page = "73"
 [fields]
 kind = "archetype"
 features = [
-  { anchor = "cantrips" },
+  { anchor = "cantrips", level = 1 },
   { anchor = "dancing-strings", level = 1 },
   { anchor = "witchweaver" },
   { anchor = "moth-eaten", level = 4 },

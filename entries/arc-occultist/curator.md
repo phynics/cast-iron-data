@@ -18,7 +18,7 @@ page = "32"
 kind = "archetype"
 features = [
   { anchor = "extensive-collection", level = 1 },
-  { anchor = "split-focus" },
+  { anchor = "split-focus", level = 1 },
   { anchor = "adaptable-powers", level = 3 },
   { anchor = "relic-resistance", level = 4 },
   { anchor = "complex-collection", level = 8 },

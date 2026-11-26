@@ -17,7 +17,7 @@ page = "64"
 [fields]
 kind = "archetype"
 features = [
-  { anchor = "political-skill" },
+  { anchor = "political-skill", level = 1 },
 ]
 trades = [
   { replaces = "Armor proficiencies", feature = "weapon-and-armor-proficiencies", power = "armor" },

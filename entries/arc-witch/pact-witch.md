@@ -18,7 +18,7 @@ page = "16"
 kind = "archetype"
 features = [
   { anchor = "planar-pact" },
-  { anchor = "planar-familiar" },
+  { anchor = "planar-familiar", level = 1 },
 ]
 trades = [
   { replaces = "Patron", feature = "patron-spells", power = "patron", by = ["planar-pact"] },

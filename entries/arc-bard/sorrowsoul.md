@@ -17,7 +17,7 @@ page = "22"
 [fields]
 kind = "archetype"
 features = [
-  { anchor = "lyric-sorrow" },
+  { anchor = "lyric-sorrow", level = 1 },
   { anchor = "darkness-denied", level = 2 },
   { anchor = "spurn-harm" },
 ]

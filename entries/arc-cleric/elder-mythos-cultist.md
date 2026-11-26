@@ -17,7 +17,7 @@ page = "48"
 [fields]
 kind = "archetype"
 features = [
-  { anchor = "domains" },
+  { anchor = "domains", level = 1 },
   { anchor = "forbidden-knowledge" },
   { anchor = "unhinged-mind" },
   { anchor = "channel-the-void", level = 1 },

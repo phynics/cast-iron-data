@@ -17,7 +17,7 @@ page = "31"
 [fields]
 kind = "archetype"
 features = [
-  { anchor = "shared-judgments" },
+  { anchor = "shared-judgments", level = 1 },
   { anchor = "protect-the-faithful", level = 1 },
   { anchor = "bolster-the-wounded", level = 14 },
   { anchor = "true-vengeance", level = 20 },

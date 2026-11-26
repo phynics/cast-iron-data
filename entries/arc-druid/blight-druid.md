@@ -17,7 +17,7 @@ page = "98"
 [fields]
 kind = "archetype"
 features = [
-  { anchor = "nature-bond" },
+  { anchor = "nature-bond", level = 1 },
   { anchor = "vermin-empathy", level = 1 },
   { anchor = "miasma", level = 5 },
   { anchor = "blightblooded", level = 9 },

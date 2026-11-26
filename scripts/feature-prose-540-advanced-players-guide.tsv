@@ -70,7 +70,7 @@ ref/arc-bard/sandman	Bardic Performance	bardic-performance	yes		draft	draft	prin
 ref/arc-bard/sandman	Stealspell (Su)	stealspell	yes	1	print	print	link of `half` placed in `greater-stealspell`; level 1: replaces Inspire courage, of which one is gained at 1st level in the class table	83	1568ca6ad98f282afd1d0236f9737bb3a1cd1e02f702b0ea626b9a6984775056
 ref/arc-bard/sandman	Slumber Song (Sp)	slumber-song	yes	6	print	print		83	94a646d02c494dc42507f396326bdeb9d9213ba9ee7cbbad73c335b1f6dd3a6e
 ref/arc-bard/sandman	Dramatic Subtext (Su)	dramatic-subtext	yes	9	print	print		83	91e7eca219b56633c7d2e02188e121cf334c019dd8079f934e4a936b02657862
-ref/arc-bard/sandman	Greater Stealspell (Su)	greater-stealspell	yes		print	print		83	194aa5cd3c69e3d44b9f99b05c0ce8af9987d177e7e5d48a21a1edb0ca411003
+ref/arc-bard/sandman	Greater Stealspell (Su)	greater-stealspell	yes	15	print	print	level 15: "A sandman's stealspell power improves at 15th level"	83	194aa5cd3c69e3d44b9f99b05c0ce8af9987d177e7e5d48a21a1edb0ca411003
 ref/arc-bard/sandman	Mass Slumber Song (Sp)	mass-slumber-song	yes	18	print	print		84	380571684cd70a66f1b45420b431d2d29f180a25053ec9b425b3ce9f7f36a2fa
 ref/arc-bard/sandman	Spell Catching (Su)	spell-catching	yes	20	print	print	hand review (ruling 14, print): Paraphrase.	84	443e2b48c26f246758bee3aadc69ef99a4ccc39b3c3b34f02b1fdc32134512fa
 ref/arc-bard/sandman	Master of Deception (Ex)	master-of-deception	yes	1	print	print	level 1: replaces Bardic knowledge, of which one is gained at 1st level in the class table	84	87a98a1edce148e8a83a0973125afdce724af40e8ff82740a1caf282448da470
@@ -99,7 +99,7 @@ ref/arc-bard/street-performer	Slip through the Crowd (Su)	slip-through-the-crowd
 ref/arc-bard/street-performer	Gladhanding	gladhanding	yes	1	print	print	level 1: replaces Countersong, of which one is gained at 1st level in the class table	85	c3f38ccbede688d564c76f9bb6ae371b2f4a690126c0670acd9eceefc4c388a7
 ref/arc-bard/street-performer	Streetwise	streetwise	yes	1	print	print	level 1: replaces Bardic knowledge, of which one is gained at 1st level in the class table	85	45027c0cc8b7b9aa6723c8392dcb295a263f7bf10d5d4bcaa6f060ca4b913421
 ref/arc-bard/street-performer	Quick Change (Ex)	quick-change	yes	5	print	print	hand review (ruling 14, print): Same values.	85	535fd4af815cf660d33be6c30ae266961d8d3a15a0bb649c9e407972343a4e73
-ref/arc-druid/aquatic-druid	Wild Empathy (Ex)	wild-empathy	yes		draft	draft	print: Advanced Player's Guide, 2nd printing	98	ce1aeade970b2ba6d70f103c483a1470e221de44e6c0889b1f1a7fa4919d9ef2
+ref/arc-druid/aquatic-druid	Wild Empathy (Ex)	wild-empathy	yes	1	draft	draft	level 1: alters Wild empathy, of which one is gained at 1st level in the class table; print: Advanced Player's Guide, 2nd printing	98	ce1aeade970b2ba6d70f103c483a1470e221de44e6c0889b1f1a7fa4919d9ef2
 ref/arc-druid/aquatic-druid	Aquatic Adaptation (Ex)	aquatic-adaptation	yes	2	print	print	link of `half` placed in `natural-swimmer`	98	9560c181b0f893be4ddb47f27f4dd90c5552070f3a7b3fa76059efb09f2f41a7
 ref/arc-druid/aquatic-druid	Natural Swimmer (Ex)	natural-swimmer	yes	3	print	print		98	899c50b65331f490d784da561f2d8330c8988010471adbf0119b53150c381e51
 ref/arc-druid/aquatic-druid	Resist Ocean's Fury (Ex)	resist-ocean-s-fury	yes	4	print	print		98	398724dca3da74f3a2f65663fb7d1d283d16e9cef6b9455bdce66813c1c47e6f
@@ -112,20 +112,20 @@ ref/arc-druid/arctic-druid	Arctic Endurance (Ex)	arctic-endurance	yes	4	print	pr
 ref/arc-druid/arctic-druid	Wild Shape (Su)	wild-shape	yes	6	print	print	level 6: print says "gains this ability at 6th level"	98	34a9767498eac89f07f6aa0f3f3902212a2f5d9d6e32c2047db8ec5d914a73d9
 ref/arc-druid/arctic-druid	Snowcaster (Su)	snowcaster	yes	9	print	print		98	8304ee80150201d400281842cecdef6ebaeb20cb3e9fa7f07bf9a18d542e5c51
 ref/arc-druid/arctic-druid	Flurry Form (Ex)	flurry-form	yes	13	print	print		98	100e0a6df98045ce9e4c2472fc84b2ae5e5abcbd7ce4c73cc194f69f4f670111
-ref/arc-druid/bear-shaman	Nature Bond	nature-bond	yes		print	print	print: Advanced Player's Guide, 2nd printing	102	4da9273d8c4a437f3d43ed11980ea518bfde6bde51f26486b06965111229a25f
-ref/arc-druid/bear-shaman	Wild Empathy (Ex)	wild-empathy	yes		draft	draft		102	7931f9870c69b02782edabb616a8d2d11b11c5d5959cbe668a05ba45b5a2ac5b
+ref/arc-druid/bear-shaman	Nature Bond	nature-bond	yes	1	print	print	level 1: alters Nature bond, of which one is gained at 1st level in the class table; print: Advanced Player's Guide, 2nd printing	102	4da9273d8c4a437f3d43ed11980ea518bfde6bde51f26486b06965111229a25f
+ref/arc-druid/bear-shaman	Wild Empathy (Ex)	wild-empathy	yes	1	draft	draft	level 1: alters Wild empathy, of which one is gained at 1st level in the class table	102	7931f9870c69b02782edabb616a8d2d11b11c5d5959cbe668a05ba45b5a2ac5b
 ref/arc-druid/bear-shaman	Totem Transformation (Su)	totem-transformation	yes	2	print	print	hand review (ruling 14, print): Same values.	102	0a9823ef031359bbc9842cf5b80e0b0ecd1e8c1ff2fff28d08b4f8497bc437b0
 ref/arc-druid/bear-shaman	Totemic Summons (Su)	totemic-summons	yes	5	print	print	hand review (ruling 14, print): Paraphrase.	102	e93b58fc44ad3ae06af6210b7ad475ce12cdb42963d239a51e610e667d27b929
 ref/arc-druid/bear-shaman	Wild Shape (Su)	wild-shape	yes	6	print	print		102	d010a20ffadd41abf4c613cdeb758283ea7e5202e61eb417ee3e95abce8d326c
 ref/arc-druid/bear-shaman	Bonus Feat	bonus-feat	yes	9	print	print	ruling 10: corpus text that print does not have is dropped: “At 9th level, a bear shaman gains …”	102	a545f6c94a5978c8d39a5e854f584652ad627a1ca3556f5916d679cf5e7aca3b
-ref/arc-druid/blight-druid	Nature Bond (Ex)	nature-bond	yes		draft	draft	print: Advanced Player's Guide, 2nd printing	98	d368eb98f1f2361cdf366b2945a3ae84ad027d39dbeb98d13914b84b4bdad520
+ref/arc-druid/blight-druid	Nature Bond (Ex)	nature-bond	yes	1	draft	draft	level 1: alters Nature bond, of which one is gained at 1st level in the class table; print: Advanced Player's Guide, 2nd printing	98	d368eb98f1f2361cdf366b2945a3ae84ad027d39dbeb98d13914b84b4bdad520
 ref/arc-druid/blight-druid	Vermin Empathy (Su)	vermin-empathy	yes	1	print	print	level 1: replaces Wild empathy, of which one is gained at 1st level in the class table	98	85749e66e5ec5b9fff7e3475dd6bb2cc3c285afcf12d1aff14f2b24153dbb734
 ref/arc-druid/blight-druid	Miasma (Ex)	miasma	yes	5	print	print	link not placed: half	99	e7e1d2716d3969a3cbc9c84523f9704857852337300423f8178b0c19a77dee66
 ref/arc-druid/blight-druid	Blightblooded (Ex)	blightblooded	yes	9	print	print		99	5c05b336cdd0d587839360d4a610595f6bbf11fe57b4e4eea2ff13850c871dc6
 ref/arc-druid/blight-druid	Plaguebearer (Su)	plaguebearer	yes	13	print	print		99	34c97d1b8c8480347bea5981c603b22932290a524eab4a3172af38bd69734ab5
 ref/arc-druid/cave-druid	Cavesense (Ex)	cavesense	yes	1	print	print	misprint fixed: print has "A underground druid", written "A cave druid" (every other feature of the entry says "a cave druid"; "underground druid" names nothing); level 1: replaces Nature sense, of which one is gained at 1st level in the class table; print: Advanced Player's Guide, 2nd printing	99	58c0ff3a55baec4fc702542af1a331b52500be133c7a3ccea14a9a10ce62320d
-ref/arc-druid/cave-druid	Nature Bond	nature-bond	yes		draft	draft		99	033dc4b8267b1e925f4cdcd80f5d00de12c4b11ff93f5a95f299a99abd702e99
-ref/arc-druid/cave-druid	Wild Empathy (Ex)	wild-empathy	yes		draft	draft		99	43ae55826ce4e5f58d410d78aff84def5c3e1ff9eb1a2a2382bb0ddb1f7c4268
+ref/arc-druid/cave-druid	Nature Bond	nature-bond	yes	1	draft	draft	level 1: alters Nature bond, of which one is gained at 1st level in the class table	99	033dc4b8267b1e925f4cdcd80f5d00de12c4b11ff93f5a95f299a99abd702e99
+ref/arc-druid/cave-druid	Wild Empathy (Ex)	wild-empathy	yes	1	draft	draft	level 1: alters Wild empathy, of which one is gained at 1st level in the class table	99	43ae55826ce4e5f58d410d78aff84def5c3e1ff9eb1a2a2382bb0ddb1f7c4268
 ref/arc-druid/cave-druid	Tunnelrunner (Ex)	tunnelrunner	yes	2	print	print		99	df60afdc92f22ca7eb7e1cd089dc96ab6c8ba736bd156e860453d0cd69cd69d3
 ref/arc-druid/cave-druid	Lightfoot (Ex)	lightfoot	yes	3	print	print		99	5bc8fc73de7f67b857cb77bc3e9c322995e1635b1e5778c73c50488513b57834
 ref/arc-druid/cave-druid	Resist Subterranean Corruption (Ex)	resist-subterranean-corruption	yes	4	print	print		99	72d351b7b0c4bf4bba207d2aeaef4f52563cf7b997d9d52cdc8eb1e0ef1a6a10
@@ -136,8 +136,8 @@ ref/arc-druid/desert-druid	Desert Endurance (Ex)	desert-endurance	yes	4	print	pr
 ref/arc-druid/desert-druid	Wild Shape (Su)	wild-shape	yes	6	print	print	hand review (ruling 14, print): Print's sentence follows the 10th-level forms. The corpus only says so explicitly.; level 6: print says "gains this ability at 6th level"	99	e0482146681f13a33b43ad72ba2eb037b684bd6e18affc023a85215ef7c761c9
 ref/arc-druid/desert-druid	Shaded Vision (Ex)	shaded-vision	yes	9	print	print		99	82b6fbd1cf2b398d2c4716ccde2135b2d049c616e7648f710a9a2b5bc0ce73d9
 ref/arc-druid/desert-druid	Dunemeld (Ex)	dunemeld	yes	13	print	print		99	70c2564d3b8540329509bcaf30ff1043066c29d60a017db2e46bd01d272739ce
-ref/arc-druid/eagle-shaman	Nature Bond	nature-bond	yes		draft	draft	print: Advanced Player's Guide, 2nd printing	102	4a118b39072e194910063d46f47801b7f29d10c859d318ad5a94c907cd001017
-ref/arc-druid/eagle-shaman	Wild Empathy (Ex)	wild-empathy	yes		draft	draft		102	59c8194efbd0805bb5d83edadc239dfdca3abfe16134d9a5b2b04bc97e4633f4
+ref/arc-druid/eagle-shaman	Nature Bond	nature-bond	yes	1	draft	draft	level 1: alters Nature bond, of which one is gained at 1st level in the class table; print: Advanced Player's Guide, 2nd printing	102	4a118b39072e194910063d46f47801b7f29d10c859d318ad5a94c907cd001017
+ref/arc-druid/eagle-shaman	Wild Empathy (Ex)	wild-empathy	yes	1	draft	draft	level 1: alters Wild empathy, of which one is gained at 1st level in the class table	102	59c8194efbd0805bb5d83edadc239dfdca3abfe16134d9a5b2b04bc97e4633f4
 ref/arc-druid/eagle-shaman	Totem Transformation (Su)	totem-transformation	yes	2	print	print	hand review (ruling 14, print): The corpus repeats the bear rule that print gives by reference. Same values.	102	d5bbf78eb0a58ecaa44db950a943e6fa41c139f897daf0b64abac834ea14bd78
 ref/arc-druid/eagle-shaman	Totemic Summons (Su)	totemic-summons	yes	5	print	print	hand review (ruling 14, print): Same.; link not placed: advanced, young, giant	102	36119bea3293811d7aa26bd6c66d4b399f21df841af9c8f124ea5930a997cb9d
 ref/arc-druid/eagle-shaman	Wild Shape (Su)	wild-shape	yes	6	print	print	ruling 10: corpus text that print does not have is dropped: “To remedy this problem, an eagle shaman …”; “The lack of suitable giant bird stat …”; link not placed: beast shape	102	b96f0f61de3247a55862c97526f6f234e00a91cf72b5f8fa59aa7ddc1ab979a5
@@ -147,8 +147,8 @@ ref/arc-druid/jungle-druid	Woodland Stride (Ex)	woodland-stride	yes	3	print	prin
 ref/arc-druid/jungle-druid	Torrid Endurance (Ex)	torrid-endurance	yes	4	print	print		100	3d7627137f929ee33ef36d407854c78e1c8ef10b744331962d9beb2e7f8b88b3
 ref/arc-druid/jungle-druid	Wild Shape (Su)	wild-shape	yes	6	print	print	level 6: print says "gains this ability at 6th level"	100	a761e78c309baaecc4085518ef01799f241a75debf2469e9b26bef8e8e91a23b
 ref/arc-druid/jungle-druid	Verdant Sentinel (Ex)	verdant-sentinel	yes	13	print	print		100	ef14e5139c0a8bedcdb37017e6db02fa14bc1e382f1df08bf52f0f0d55a6e4b6
-ref/arc-druid/lion-shaman	Nature Bond	nature-bond	yes		print	print	print: Advanced Player's Guide, 2nd printing	103	4370a9380262d05cbf1be9496e1f6a662e19da1462086adb35222229228ae02c
-ref/arc-druid/lion-shaman	Wild Empathy (Ex)	wild-empathy	yes		draft	draft		103	898ed3bddb8c65cae0564a2ba53ade91b8fef1e31cb507744d0c2ca2b6bf03b1
+ref/arc-druid/lion-shaman	Nature Bond	nature-bond	yes	1	print	print	level 1: alters Nature bond, of which one is gained at 1st level in the class table; print: Advanced Player's Guide, 2nd printing	103	4370a9380262d05cbf1be9496e1f6a662e19da1462086adb35222229228ae02c
+ref/arc-druid/lion-shaman	Wild Empathy (Ex)	wild-empathy	yes	1	draft	draft	level 1: alters Wild empathy, of which one is gained at 1st level in the class table	103	898ed3bddb8c65cae0564a2ba53ade91b8fef1e31cb507744d0c2ca2b6bf03b1
 ref/arc-druid/lion-shaman	Totem Transformation (Su)	totem-transformation	yes	2	print	print	hand review (ruling 14, print): Same.	103	96f2e319a45813f9d2835b7e2eb0ebb22465e7aeb7a5f8df4b9f0f60febf22c5
 ref/arc-druid/lion-shaman	Totemic Summons (Su)	totemic-summons	yes	5	print	print	hand review (ruling 14, print): Same.; link not placed: advanced, young, giant	103	72ae477484cb05e19ff32e5e20a2442eed34759c6102a0e052a049c2c9ee92e2
 ref/arc-druid/lion-shaman	Wild Shape (Su)	wild-shape	yes	6	print	print		103	eab733d94712ee0fe09e6d2d5c9853beee89d1c4489e5f3e1bb89a8a070bbfcd
@@ -165,8 +165,8 @@ ref/arc-druid/plains-druid	Savanna Ambush (Ex)	savanna-ambush	yes	4	print	print	
 ref/arc-druid/plains-druid	Wild Shape (Su)	wild-shape	yes	6	print	print	level 6: print says "gains this ability at 6th level"	100	6a0ad82522d4472f57442c1422d2983ad4b192db718461a071e4e1876050f5f3
 ref/arc-druid/plains-druid	Canny Charger (Ex)	canny-charger	yes	9	print	print		100	d0e7a71575fe62ec326adebdce5a6e0c722adda8c9571c1c98da175be6b22141
 ref/arc-druid/plains-druid	Evasion (Ex)	evasion	yes	13	print	print		100	7651c9c83748cf68fc365529cfbbca1a3e4ac23c85cfdd81eac7c3c154da40d0
-ref/arc-druid/serpent-shaman	Nature Bond	nature-bond	yes		draft	draft	print: Advanced Player's Guide, 2nd printing	103	91a5196a3f4c2fab1a57e50d7c4c51f1a37348fedbb92b87e22457c062553a19
-ref/arc-druid/serpent-shaman	Wild Empathy (Ex)	wild-empathy	yes		draft	draft		103	5f5d32455916b2337cb5d04f93ad35691c8e1f86643dbcc61d4d8b5648d46ca0
+ref/arc-druid/serpent-shaman	Nature Bond	nature-bond	yes	1	draft	draft	level 1: alters Nature bond, of which one is gained at 1st level in the class table; print: Advanced Player's Guide, 2nd printing	103	91a5196a3f4c2fab1a57e50d7c4c51f1a37348fedbb92b87e22457c062553a19
+ref/arc-druid/serpent-shaman	Wild Empathy (Ex)	wild-empathy	yes	1	draft	draft	level 1: alters Wild empathy, of which one is gained at 1st level in the class table	103	5f5d32455916b2337cb5d04f93ad35691c8e1f86643dbcc61d4d8b5648d46ca0
 ref/arc-druid/serpent-shaman	Totem Transformation (Su)	totem-transformation	yes	2	print	print	hand review (ruling 14, print): Same values (1/round for 6 rounds, 1 Con, 1 save).	103	dc92c36f91e22dc8d7d5cd470769b201013de5de172adee79b39d8b20aaeaf61
 ref/arc-druid/serpent-shaman	Totemic Summons (Su)	totemic-summons	yes	5	print	print	hand review (ruling 14, print): Same.; link not placed: advanced, young, giant	103	829b857548e79067ae757b2ba8de926274ba2c37b85208480cc2b01005f2d18b
 ref/arc-druid/serpent-shaman	Wild Shape (Su)	wild-shape	yes	6	print	print		103	06c1bfc32937db2f14259beeba42773ac5ab46c162055a530747d5c6fb299d96
@@ -184,8 +184,8 @@ ref/arc-druid/urban-druid	Resist Temptation (Ex)	resist-temptation	yes	4	print	p
 ref/arc-druid/urban-druid	A Thousand Faces (Su)	a-thousand-faces	yes	6	print	print	hand review (ruling 14, print): Same meaning.; level 6: print says "gains this ability at 6th level"	102	73677069d88a02da53e2e6718d77c1ab8728309a2b5b9775d4904c34dda3c61d
 ref/arc-druid/urban-druid	Wild Shape (Su)	wild-shape	yes	8	print	print	level 8: print says "gains this ability at 8th level"	102	c9fad2f321d29c50f273c8b9becab3d26a4a8353ded5e3e90357ca9b8572f72c
 ref/arc-druid/urban-druid	Mental Strength (Ex)	mental-strength	yes	9	print	print		102	7d087952e7635f08f5bc3a643c422cdc2017ffc32883722a94cdfdd61c89ddf2
-ref/arc-druid/wolf-shaman	Nature Bond	nature-bond	yes		print	print	print: Advanced Player's Guide, 2nd printing	103	2f0c195a8512e37a4b68000392cfd6cda94478108523246fca065a10f3827c70
-ref/arc-druid/wolf-shaman	Wild Empathy (Ex)	wild-empathy	yes		draft	draft		103	ad44610d6af2cb332f96f2b48c28c9845671d65ef9c2801efd3468226f9dbcc6
+ref/arc-druid/wolf-shaman	Nature Bond	nature-bond	yes	1	print	print	level 1: alters Nature bond, of which one is gained at 1st level in the class table; print: Advanced Player's Guide, 2nd printing	103	2f0c195a8512e37a4b68000392cfd6cda94478108523246fca065a10f3827c70
+ref/arc-druid/wolf-shaman	Wild Empathy (Ex)	wild-empathy	yes	1	draft	draft	level 1: alters Wild empathy, of which one is gained at 1st level in the class table	103	ad44610d6af2cb332f96f2b48c28c9845671d65ef9c2801efd3468226f9dbcc6
 ref/arc-druid/wolf-shaman	Totem Transformation (Su)	totem-transformation	yes	2	print	print	hand review (ruling 14, print): Same.	103	44050b4d8c641405c92133095911bc260a4725c334d40f847b71cc110d139fff
 ref/arc-druid/wolf-shaman	Totemic Summons (Su)	totemic-summons	yes	5	print	print	hand review (ruling 14, print): Same.; link not placed: advanced, young, giant	103	ded71dfba4d280bd18d8132147ca0036c5b6490cbdbb51c3ea9f840dd178f1bf
 ref/arc-druid/wolf-shaman	Wild Shape (Su)	wild-shape	yes	6	print	print		103	d0b92e8de60a66b31f8061e1f38f5041d17381f31ceaca103d3ed55d09b3d06b
@@ -294,7 +294,7 @@ ref/arc-monk/ki-mystic	Mystic Prescience (Su)	mystic-prescience	yes	13	print	pri
 ref/arc-monk/ki-mystic	Mystic Persistence (Su)	mystic-persistence	yes	19	print	print		111	b23fe031a07ccc2f26cf7aea22c7ee9308f98e6ac4b98825e0619b6bd905807e
 ref/arc-monk/monk-of-the-empty-hand	Weapon and Armor Proficiency	weapon-and-armor-proficiency	no		print	print	opening text written from print: the import differs in —; trade renamed: "Weapon proficiencies" to "Normal monk weapon proficiencies" to match the printed sentence; print: Advanced Player's Guide, 2nd printing	111	49244f1b4f3dbb556e69ca73c7e157155de4dbf3790d2e043e7107ec5f1cf14e
 ref/arc-monk/monk-of-the-empty-hand	Flurry of Blows (Ex)	flurry-of-blows	yes	1	draft	draft		111	c4ba76d5b5e4ce88901b8cf267479d1821d22a191249512415b5c7353f4972f1
-ref/arc-monk/monk-of-the-empty-hand	Bonus Feat	bonus-feat	yes		print	print	print asterisks without their key dropped	111	094560f64c330ddb87ce3552be7c075f7847c67ca0440ea474485c354a29bb19
+ref/arc-monk/monk-of-the-empty-hand	Bonus Feat	bonus-feat	yes	6	print	print	print asterisks without their key dropped; level 6: "adds the following feats to his list of bonus feats at 6th level"	111	094560f64c330ddb87ce3552be7c075f7847c67ca0440ea474485c354a29bb19
 ref/arc-monk/monk-of-the-empty-hand	Versatile Improvisation (Ex)	versatile-improvisation	yes	3	print	print		111	9bce9095b80e56606938d6e27bfc5ba786cd40c05e421a9f29c37d361af08297
 ref/arc-monk/monk-of-the-empty-hand	Ki Pool (Su)	ki-pool	yes	4	draft	draft		111	d59e46f3975bf87fd8042f17c2a0931b6a9bc2523ede21eb4c21ba75890dd5f3
 ref/arc-monk/monk-of-the-empty-hand	Ki Weapons (Su)	ki-weapons	yes	5	print	print		112	892a70e0ccc3ca14c5550b426e80e87a42b8c36f18e749443922d296a6028f04
@@ -339,7 +339,7 @@ ref/arc-monk/zen-archer	Trick Shot (Su)	trick-shot	yes	11	print	print		115	91b3e
 ref/arc-monk/zen-archer	Ki Focus Bow (Su)	ki-focus-bow	yes	17	print	print		115	e815fb0e5bb7481bb5ba247585945fa3b862e102956e47c8fb6b8de65a6c3005
 ref/arc-paladin/divine-defender	Shared Defense (Su)	shared-defense	yes	3	print	print	hand review (ruling 14, print): Same values.; print: Advanced Player's Guide, 2nd printing	116	df9fbd3edc8fd86864e22fda26db0f40bb627b4d4492fa00e490f72e930c41c7
 ref/arc-paladin/divine-defender	Divine Bond (Su)	divine-bond	yes	5	print	print	hand review (ruling 14, print): The values differ: the corpus gives 2/3/4/5/6 uses at 8th/11th/14th/17th/20th, print gives 2/3/4 at 9th/13th/17th. Print is self-consistent ("four times per day at 17th") and matches the Sacred Servant (p. 117). The corpus confused it with the enhancement progression (+1 per three levels, the same in both).	116	cbdfc2996eb53fe4272cbaa0f2ff00ff9a0519a6df82ddd91896fb6330162c58
-ref/arc-paladin/hospitaler	Smite Evil (Su)	smite-evil	yes		print	print	ruling 10: corpus text that print does not have is dropped: “This functions as the paladin ability, with …”; print: Advanced Player's Guide, 2nd printing	116	39121d148f92ffbcfc7e9d9435b097daf15a1e1cf822dc0532b0c4454400ac61
+ref/arc-paladin/hospitaler	Smite Evil (Su)	smite-evil	yes	1	print	print	ruling 10: corpus text that print does not have is dropped: “This functions as the paladin ability, with …”; level 1: alters Smite evil, of which one is gained at 1st level in the class table; print: Advanced Player's Guide, 2nd printing	116	39121d148f92ffbcfc7e9d9435b097daf15a1e1cf822dc0532b0c4454400ac61
 ref/arc-paladin/hospitaler	Channel Positive Energy (Su)	channel-positive-energy	yes		print	print	hand review (ruling 14, print): The corpus text is garbled.	116	58db31a1f805aec2075f843db7e98d07f0c2a7081a8d01795bc4db6c3f9535c1
 ref/arc-paladin/hospitaler	Aura of Healing (Su)	aura-of-healing	yes	11	print	print		116	3cc3ba7beab36b59175911edd92b736311149b610688c3da20ada7ea0fbd4502
 ref/arc-paladin/sacred-servant	Smite Evil (Su)	smite-evil	yes	1	print	print	hand review (ruling 14, print): Same values (2 at 7th, 3 at 13th, 4 at 19th).; level 1: replaces Smite evil, of which one is gained at 1st level in the class table; print: Advanced Player's Guide, 2nd printing	117	6bec5ad149496384dd85fd477f7157e00836a6d36b93aaaae3f4b07d9fa1c67a
@@ -347,7 +347,7 @@ ref/arc-paladin/sacred-servant	Spells	spells	yes	4	print	print		117	014b09b96e68
 ref/arc-paladin/sacred-servant	Divine Bond (Su)	divine-bond	yes	5	print	print	hand review (ruling 14, print): The corpus has no rate for either value and caps the uses at 1. Print gives both rates.	117	1ce6feb3b4cb34e17218a0e8a2217acffd21db6e6986be9dac13be600d364026
 ref/arc-paladin/sacred-servant	Call Celestial Ally (Sp)	call-celestial-ally	yes	8	print	print		117	6268d6be2002cc26d74916057c8e5e2df69f7565a32ce2694a2ce199de60fc05
 ref/arc-paladin/shining-knight	Skilled Rider (Ex and Su)	skilled-rider	yes	3	print	print	print: Advanced Player's Guide, 2nd printing	117	78d2051aba56a9b7a379d9548231c654c48d54245d8e6f0e606fcfb29551d83c
-ref/arc-paladin/shining-knight	Divine Bond (Su)	divine-bond	yes		print	print		117	c2b8ecb37defde4b4ab108678e35e335947a411b600e12af79107b3515685a32
+ref/arc-paladin/shining-knight	Divine Bond (Su)	divine-bond	yes	5	print	print	level 5: "Upon reaching 5th level, a shining knight must form a bond with a mount"	117	c2b8ecb37defde4b4ab108678e35e335947a411b600e12af79107b3515685a32
 ref/arc-paladin/shining-knight	Knight's Charge (Su)	knight-s-charge	yes	11	print	print		117	e28d6098e9628bc0c05105ac10f4aa78eefcc6e48361877fd1139a173b5ad329
 ref/arc-paladin/undead-scourge	Smite Evil (Su)	smite-evil	yes		draft	draft	print: Advanced Player's Guide, 2nd printing	118	b6ca06fc4e743a5681e81d05f0caebd22aef98e323d2c7b43e8e5d55d2f6d9f3
 ref/arc-paladin/undead-scourge	Aura of Life (Su)	aura-of-life	yes	8	print	print		118	feb4d08aee9a2017b33e3f65b91742be3685f19934d339f9529dd0563012ee0d
@@ -362,7 +362,7 @@ ref/arc-ranger/guide	Ranger's Focus (Ex)	ranger-s-focus	yes	1	print	print	hand r
 ref/arc-ranger/guide	Terrain Bond (Ex)	terrain-bond	yes	4	print	print		125	80ae99a96b73d61853b578abd7f1d6e1006c9630d9fbc7b3e16826bad5d333f5
 ref/arc-ranger/guide	Ranger's Luck (Ex)	ranger-s-luck	yes		print	print	hand review (ruling 14, print): Same values.	125	226a2f7f6b26f1f6cdf4b8b5b12293bfd213bc98a54c83b9cf421d38f6cd96e1
 ref/arc-ranger/guide	Inspired Moment (Ex)	inspired-moment	yes	11	print	print	hand review (ruling 14, print): Same value.	125	2877b2f3a48c3e7adaff4893b554beb5244b20db15acc5173fd91ff72a84642b
-ref/arc-ranger/guide	Improved Ranger's Luck (Ex)	improved-ranger-s-luck	yes		print	print		125	8416739c4ff3116f4903d04cb8b05247feff56e5cd3dfde6e92bda0e4e189bf0
+ref/arc-ranger/guide	Improved Ranger's Luck (Ex)	improved-ranger-s-luck	yes	16	print	print	level 16: "Upon reaching 16th level"	125	8416739c4ff3116f4903d04cb8b05247feff56e5cd3dfde6e92bda0e4e189bf0
 ref/arc-ranger/horse-lord	Combat Style Feat (Ex)	combat-style-feat	yes	2	draft	draft	opening text written from print: the import differs in —; print: Advanced Player's Guide, 2nd printing	125	19e8c97c09d1f27fd26a9f7fba7fd8c001172e2e8519a7da75cab13c2ac5386b
 ref/arc-ranger/horse-lord	Mounted Bond (Ex)	mounted-bond	yes	4	print	print		125	0f3f95910962dbb5d5bc2d7cc2f4f8771d5d1fc01a0a3b32b61fcdb168dc40b9
 ref/arc-ranger/horse-lord	Strong Bond (Ex)	strong-bond	yes	12	print	print		125	bd55116253a43a98d883673453ba9b49bce2557f3778e020a3b770937bc35db2

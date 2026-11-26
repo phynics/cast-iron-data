@@ -18,7 +18,7 @@ page = "122"
 kind = "archetype"
 features = [
   { anchor = "martial-flexibility", level = 1 },
-  { anchor = "bloodline-weapons" },
+  { anchor = "bloodline-weapons", level = 3 },
 ]
 trades = [
   { replaces = "Sorcerer's bloodline powers gained 1st, 9th, and 15th levels", feature = "bloodline", levels = [1, 9, 15], power = "bloodline power", by = ["martial-flexibility"] },

@@ -13,7 +13,7 @@ page = "210"
 [fields]
 kind = "archetype"
 features = [
-  { anchor = "influence-animals" },
+  { anchor = "influence-animals", level = 3 },
 ]
 trades = [
   { replaces = "Deliver touch spells", by = ["influence-animals"] },

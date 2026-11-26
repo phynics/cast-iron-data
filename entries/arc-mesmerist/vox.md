@@ -18,7 +18,7 @@ page = "39"
 kind = "archetype"
 features = [
   { anchor = "spells" },
-  { anchor = "compelling-voice" },
+  { anchor = "compelling-voice", level = 1 },
   { anchor = "wounding-words", level = 3 },
   { anchor = "subsonic-strike", level = 10 },
 ]

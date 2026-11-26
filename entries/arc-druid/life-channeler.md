@@ -17,7 +17,7 @@ page = "50"
 [fields]
 kind = "archetype"
 features = [
-  { anchor = "plant-preservation" },
+  { anchor = "plant-preservation", level = 1 },
   { anchor = "wicker-talismans", level = 4 },
   { anchor = "rampant-growth", level = 4 },
   { anchor = "stored-life", level = 9 },

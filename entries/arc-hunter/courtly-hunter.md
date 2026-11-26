@@ -17,8 +17,8 @@ page = "64"
 [fields]
 kind = "archetype"
 features = [
-  { anchor = "courtly-companion" },
-  { anchor = "refined-focus" },
+  { anchor = "courtly-companion", level = 1 },
+  { anchor = "refined-focus", level = 1 },
   { anchor = "subtle-companion", level = 2 },
   { anchor = "skill-bond", level = 3 },
   { anchor = "alternate-form", level = 7 },

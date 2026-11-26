@@ -20,7 +20,7 @@ page = "42"
 [fields]
 kind = "archetype"
 features = [
-  { anchor = "mount" },
+  { anchor = "mount", level = 1 },
   { anchor = "desert-wind", level = 1 },
   { anchor = "desert-mastery", level = 3 },
   { anchor = "sand-storm", level = 6 },

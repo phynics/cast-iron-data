@@ -18,7 +18,7 @@ page = "110"
 kind = "archetype"
 features = [
   { anchor = "shadow-summoning" },
-  { anchor = "shadow-eidolon" },
+  { anchor = "shadow-eidolon", level = 1 },
 ]
 trades = [
   { replaces = "Magical symbol that identifies the summoner and his eidolon", by = ["shadow-eidolon"] },

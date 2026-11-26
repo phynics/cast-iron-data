@@ -20,7 +20,7 @@ features = [
   { anchor = "spells" },
   { anchor = "bloodline" },
   { anchor = "eldritch-pool", level = 1 },
-  { anchor = "spell-combat" },
+  { anchor = "spell-combat", level = 1 },
   { anchor = "improved-spell-combat", level = 14 },
   { anchor = "greater-spell-combat", level = 18 },
 ]

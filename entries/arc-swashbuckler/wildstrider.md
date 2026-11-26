@@ -18,7 +18,7 @@ page = "96"
 kind = "archetype"
 features = [
   { anchor = "deeds" },
-  { anchor = "subterfuge" },
+  { anchor = "subterfuge", level = 1 },
   { anchor = "adroit-step", level = 3 },
   { anchor = "keen-gaze", level = 11 },
 ]

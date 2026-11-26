@@ -17,7 +17,7 @@ page = "123"
 [fields]
 kind = "archetype"
 features = [
-  { anchor = "ghostly-smite" },
+  { anchor = "ghostly-smite", level = 1 },
   { anchor = "exorcise-possession", level = 6 },
   { anchor = "speak-to-the-restless", level = 9 },
 ]

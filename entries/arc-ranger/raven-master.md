@@ -17,7 +17,7 @@ page = "175"
 [fields]
 kind = "archetype"
 features = [
-  { anchor = "avian-empathy" },
+  { anchor = "avian-empathy", level = 1 },
   { anchor = "raven-companion", level = 4 },
   { anchor = "silver-champion", level = 7 },
   { anchor = "mimic-figurine", level = 8 },

@@ -17,7 +17,7 @@ page = "31"
 [fields]
 kind = "archetype"
 features = [
-  { anchor = "dark-descent" },
+  { anchor = "dark-descent", level = 1 },
   { anchor = "judgment" },
   { anchor = "swift-and-silent", level = 1 },
   { anchor = "deadly-efficiency", level = 14 },

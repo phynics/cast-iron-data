@@ -17,7 +17,7 @@ page = "63"
 [fields]
 kind = "archetype"
 features = [
-  { anchor = "terrakinesis" },
+  { anchor = "terrakinesis", level = 1 },
   { anchor = "terrakinetic-defense", level = 2 },
   { anchor = "expanded-terrakinesis", level = 7 },
   { anchor = "omniterrakinesis", level = 20 },

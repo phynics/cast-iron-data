@@ -17,7 +17,7 @@ page = "51"
 [fields]
 kind = "archetype"
 features = [
-  { anchor = "zeitgeist" },
+  { anchor = "zeitgeist", level = 1 },
   { anchor = "settlement-aspect" },
   { anchor = "settlement-avatar" },
 ]

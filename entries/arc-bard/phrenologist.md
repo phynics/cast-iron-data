@@ -23,7 +23,7 @@ features = [
   { anchor = "bardic-performance" },
   { anchor = "skull-sonata", level = 1 },
   { anchor = "in-your-head", level = 3 },
-  { anchor = "fingers-of-fascination" },
+  { anchor = "fingers-of-fascination", level = 1 },
 ]
 trades = [
   { replaces = "Bardic knowledge", feature = "bardic-knowledge", by = ["phrenological-knowledge"] },
