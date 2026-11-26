@@ -1,0 +1,116 @@
+entry	sentence
+ref/arc-alchemist/chirurgeon	This ability replaces poison use.
+ref/arc-alchemist/chirurgeon	This ability replaces poison resistance +4.
+ref/arc-alchemist/chirurgeon	This ability replaces poison immunity.
+ref/arc-alchemist/clone-master	This ability replaces poison resistance +6 and poison immunity.
+ref/arc-alchemist/internal-alchemist	This ability replaces Throw Anything.
+ref/arc-alchemist/internal-alchemist	This ability replaces swift alchemy.
+ref/arc-alchemist/internal-alchemist	This ability replaces swift poisoning.
+ref/arc-alchemist/mindchemist	This ability replaces the mutagen class ability (a mindchemist cannot create mutagens unless he selects mutagen* as a discovery).
+ref/arc-alchemist/mindchemist	This ability replaces poison use.
+ref/arc-alchemist/preservationist	This ability replaces poison use.
+ref/arc-alchemist/preservationist	This ability replaces poison resistance +4.
+ref/arc-alchemist/preservationist	This ability replaces poison resistance +6.
+ref/arc-alchemist/preservationist	This ability replaces poison immunity.
+ref/arc-alchemist/preservationist	This ability replaces persistent mutagen.
+ref/arc-alchemist/preservationist	This ability replaces his 18th-level discovery.
+ref/arc-alchemist/psychonaut	This replaces poison resistance +4.
+ref/arc-alchemist/psychonaut	This ability replaces poison resistance +6.
+ref/arc-alchemist/psychonaut	This ability replaces poison immunity.
+ref/arc-alchemist/psychonaut	This ability replaces the increase to bomb damage at this level.
+ref/arc-alchemist/psychonaut	This ability replaces the increase to bomb damage at this level.
+ref/arc-alchemist/reanimator	This ability replaces the increase to bomb damage at this level.
+ref/arc-alchemist/reanimator	This ability replaces the increase to bomb damage at this level.
+ref/arc-alchemist/reanimator	This ability replaces the increase to bomb damage at this level.
+ref/arc-alchemist/vivisectionist	This ability replaces bomb.
+ref/arc-bard/animal-speaker	This ability replaces fascinate.
+ref/arc-bard/animal-speaker	This ability replaces well-versed.
+ref/arc-bard/animal-speaker	This ability replaces inspire competence.
+ref/arc-bard/animal-speaker	This ability replaces suggestion.
+ref/arc-bard/animal-speaker	This replaces mass suggestion.
+ref/arc-bard/celebrity	This ability replaces inspire courage.
+ref/arc-bard/celebrity	This ability replaces lore master.
+ref/arc-bard/demagogue	This ability replaces inspire courage +1.
+ref/arc-bard/demagogue	This ability replaces lore master.
+ref/arc-bard/demagogue	This ability replaces suggestion.
+ref/arc-bard/demagogue	This ability replaces mass suggestion.
+ref/arc-bard/dirge-bard	This performance replaces jack-of-all-trades.
+ref/arc-bard/dirge-bard	This ability replaces well-versed.
+ref/arc-bard/dirge-bard	This ability replaces versatile performance.
+ref/arc-bard/dirge-bard	This ability replaces lore master.
+ref/arc-bard/geisha	This replaces the normal bard armor and weapon proficiencies.
+ref/arc-bard/geisha	This replaces bardic knowledge.
+ref/arc-bard/songhealer	This ability replaces versatile performance.
+ref/arc-bard/songhealer	This ability replaces frightening tune.
+ref/arc-bard/songhealer	This ability replaces deadly performance.
+ref/arc-druid/dragon-shaman	This ability replaces a thousand faces.
+ref/arc-druid/dragon-shaman	This ability replaces the additional use of wild shape at 8th level.
+ref/arc-druid/dragon-shaman	This ability replaces venom immunity.
+ref/arc-druid/menhir-savant	This ability replaces nature sense and wild empathy.
+ref/arc-druid/menhir-savant	This ability replaces woodland stride and trackless step.
+ref/arc-druid/menhir-savant	This ability replaces a thousand faces.
+ref/arc-druid/mooncaller	This ability replaces woodland stride.
+ref/arc-druid/mooncaller	This ability replaces resist nature’s lure.
+ref/arc-druid/mooncaller	This ability replaces venom immunity.
+ref/arc-druid/mooncaller	This ability replaces a thousand faces.
+ref/arc-druid/pack-lord	This ability replaces nature bond.
+ref/arc-druid/pack-lord	This ability replaces the 6th-level additional use of wild shape.
+ref/arc-druid/reincarnated-druid	This ability replaces woodland stride.
+ref/arc-druid/reincarnated-druid	This ability replaces resist nature’s lure.
+ref/arc-druid/reincarnated-druid	This ability replaces venom immunity.
+ref/arc-druid/reincarnated-druid	This ability replaces timeless body.
+ref/arc-druid/saurian-shaman	This ability replaces venom immunity.
+ref/arc-druid/shark-shaman	This ability replaces venom immunity.
+ref/arc-druid/storm-druid	This replaces spontaneous casting.
+ref/arc-druid/storm-druid	This ability replaces woodland stride.
+ref/arc-druid/storm-druid	This ability replaces trackless step.
+ref/arc-druid/storm-druid	This ability replaces resist nature’s lure.
+ref/arc-druid/storm-druid	This ability replaces venom immunity.
+ref/arc-druid/storm-druid	This ability replaces a thousand faces.
+ref/arc-inquisitor/exorcist	This ability replaces second judgment.
+ref/arc-inquisitor/exorcist	This ability replaces third judgment.
+ref/arc-inquisitor/exorcist	This ability replaces slayer.
+ref/arc-inquisitor/exorcist	This ability replaces true judgment.
+ref/arc-inquisitor/heretic	This ability replaces monster lore.
+ref/arc-inquisitor/infiltrator	This ability replaces monster lore.
+ref/arc-inquisitor/infiltrator	This ability replaces track.
+ref/arc-inquisitor/preacher	This ability replaces solo tactics.
+ref/arc-inquisitor/sin-eater	This ability replaces an inquisitor’s domain.
+ref/arc-inquisitor/sin-eater	This ability replaces the bonus teamwork feat gained at 6th level.
+ref/arc-inquisitor/sin-eater	This ability replaces exploit weakness.
+ref/arc-magus/bladebound	This ability changes the Arcane Pool class feature and replaces the magus arcana gained at 3rd level.
+ref/arc-magus/spellblade	This ability replaces the spellstrike class feature.
+ref/arc-magus/staff-magus	This replaces the normal magus weapon and armor proficiency feature.
+ref/arc-magus/staff-magus	This ability replaces the medium armor and heavy armor class abilities.
+ref/arc-magus/staff-magus	This ability replaces fighter training.
+ref/arc-monk/qinggong-monk	This replaces the monk class ability the qinggong monk gives up for this ki power.
+ref/arc-oracle/enlightened-philosopher	This replaces the final revelation of the oracle’s mystery.
+ref/arc-oracle/planar-oracle	This replaces the final revelation of the oracle’s mystery.
+ref/arc-ranger/trapper	This ability replaces the ranger’s spells class feature.
+ref/arc-summoner/broodmaster	This ability replaces the summoner’s normal eidolon ability.
+ref/arc-summoner/broodmaster	This ability replaces life link.
+ref/arc-summoner/broodmaster	This ability replaces life bond.
+ref/arc-summoner/evolutionist	This ability replaces maker’s call.
+ref/arc-summoner/evolutionist	This ability replaces transposition.
+ref/arc-summoner/evolutionist	This ability replaces greater shield ally.
+ref/arc-summoner/master-summoner	This ability replaces the summoner’s normal eidolon ability.
+ref/arc-summoner/master-summoner	This ability replaces the summoner’s normal summon monster I ability and shield ally.
+ref/arc-summoner/master-summoner	This ability replaces bond senses.
+ref/arc-summoner/synthesist	This ability replaces the class’s eidolon ability, bond senses, and life bond.
+ref/arc-summoner/synthesist	This ability replaces life link.
+ref/arc-summoner/synthesist	This ability replaces shield ally.
+ref/arc-summoner/synthesist	This ability replaces maker’s call and transposition.
+ref/arc-summoner/synthesist	This ability replaces greater shield ally.
+ref/arc-summoner/synthesist	This ability replaces merge forms.
+ref/arc-witch/beast-bonded	This ability replaces the witch’s 4th-level hex.
+ref/arc-witch/beast-bonded	This ability replaces the witch’s 8th-level hex.
+ref/arc-witch/beast-bonded	This replaces the witch’s major hex at 10th-level.
+ref/arc-witch/gravewalker	This ability replaces familiar.
+ref/arc-witch/gravewalker	This ability replaces the witch’s 1st-level hex.
+ref/arc-witch/gravewalker	This replaces the witch’s hex gained at 4th level.
+ref/arc-witch/gravewalker	This replaces the witch’s hex gained at 8th level.
+ref/arc-witch/hedge-witch	This replaces the witch’s hex gained at 4th level.
+ref/arc-witch/hedge-witch	This replaces the witch’s hex gained at 8th level.
+ref/arc-witch/sea-witch	This ability replaces the witch’s 1st-level hex.
+ref/arc-wizard/scrollmaster	This ability replaces the wizard’s arcane bond.
+ref/arc-wizard/scrollmaster	This ability replaces the 10th-level wizard bonus feat.

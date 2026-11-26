@@ -1,0 +1,188 @@
+entry	sentence
+ref/arc-alchemist/blood-alchemist	This ability replaces mutagen.
+ref/arc-alchemist/blood-alchemist	This ability replaces bombs.
+ref/arc-alchemist/mad-scientist	This ability alters alchemy and replaces the discovery gained at 2nd level.
+ref/arc-alchemist/mad-scientist	This ability alters the alchemist’s mutagen and replaces the discovery gained at 4th level.
+ref/arc-barbarian/dreadnought	This ability alters rage.
+ref/arc-barbarian/dreadnought	This ability replaces fast movement.
+ref/arc-barbarian/dreadnought	This ability replaces indomitable will.
+ref/arc-barbarian/dreadnought	This ability replaces tireless rage.
+ref/arc-barbarian/fearsome-defender	This ability replaces fast movement.
+ref/arc-barbarian/fearsome-defender	This ability replaces uncanny dodge.
+ref/arc-barbarian/fearsome-defender	This ability replaces trap sense.
+ref/arc-barbarian/fearsome-defender	This ability replaces improved uncanny dodge.
+ref/arc-barbarian/mooncursed	This ability alters rage.
+ref/arc-barbarian/mooncursed	This ability replaces improved uncanny dodge.
+ref/arc-barbarian/mooncursed	This ability replaces greater rage.
+ref/arc-barbarian/mooncursed	This ability replaces mighty rage.
+ref/arc-cleric/elder-mythos-cultist	This alters the cleric’s required alignment.
+ref/arc-cleric/elder-mythos-cultist	This ability alters domains.
+ref/arc-cleric/elder-mythos-cultist	This ability alters channel energy and replaces spontaneous casting.
+ref/arc-cleric/elder-mythos-cultist	This ability replaces the increases to channel energy gained at 5th, 11th, and 19th levels.
+ref/arc-druid/death-druid	This ability replaces nature bond and wild shape.
+ref/arc-druid/death-druid	This ability replaces nature sense and wild empathy.
+ref/arc-druid/death-druid	This ability replaces resist nature’s lure.
+ref/arc-druid/death-druid	This ability replaces venom immunity.
+ref/arc-druid/devolutionist	This ability alters nature bond.
+ref/arc-druid/devolutionist	This ability replaces resist nature’s lure.
+ref/arc-druid/devolutionist	This ability replaces venom immunity.
+ref/arc-druid/life-channeler	This alters the druid’s alignment requirements.
+ref/arc-druid/life-channeler	This ability alters nature bond.
+ref/arc-druid/life-channeler	This ability replaces wild shape.
+ref/arc-druid/life-channeler	This ability replaces venom immunity.
+ref/arc-inquisitor/hexenhammer	This ability replaces monster lore and stern gaze.
+ref/arc-inquisitor/hexenhammer	This ability alters domain.
+ref/arc-inquisitor/hexenhammer	This ability replaces cunning initiative.
+ref/arc-inquisitor/hexenhammer	This ability replaces teamwork feats.
+ref/arc-inquisitor/hexenhammer	This ability replaces solo tactics.
+ref/arc-inquisitor/hexenhammer	This ability alters the inquisitor’s spellcasting.
+ref/arc-inquisitor/living-grimoire	This ability replaces monster lore.
+ref/arc-inquisitor/living-grimoire	This ability alters orisons and spellcasting and replaces cunning initiative.
+ref/arc-inquisitor/living-grimoire	This ability replaces judgment.
+ref/arc-inquisitor/living-grimoire	This ability replaces bane, greater bane, second judgment, and third judgment.
+ref/arc-inquisitor/living-grimoire	This ability replaces true judgment.
+ref/arc-investigator/cult-hunter	This ability replaces trapfinding.
+ref/arc-investigator/cult-hunter	This ability replaces poison resistance and poison immunity.
+ref/arc-investigator/cult-hunter	This ability replaces poison lore.
+ref/arc-investigator/cult-hunter	This ability replaces trap sense.
+ref/arc-investigator/cult-hunter	This ability replaces swift alchemy.
+ref/arc-investigator/cult-hunter	This ability alters studied combat.
+ref/arc-investigator/cult-hunter	This ability alters studied strike.
+ref/arc-investigator/cult-hunter	This ability replaces the 7th-level investigator talent.
+ref/arc-investigator/cult-hunter	This replaces the 13th-level investigator talent.
+ref/arc-investigator/gravedigger	This replaces the investigator’s weapon and armor proficiencies.
+ref/arc-investigator/gravedigger	This alters alchemy and investigator talents.
+ref/arc-investigator/gravedigger	This ability replaces trapfinding and trap sense.
+ref/arc-investigator/gravedigger	This ability replaces the investigator’s poison resistance and poison immunity.
+ref/arc-investigator/gravedigger	This ability replaces poison lore.
+ref/arc-investigator/gravedigger	This ability alters investigator talents.
+ref/arc-investigator/gravedigger	This ability alters the investigator’s studied combat and studied strike.
+ref/arc-investigator/gravedigger	This ability replaces swift alchemy.
+ref/arc-investigator/profiler	This ability replaces trapfinding, poison lore, and trap sense.
+ref/arc-investigator/profiler	This ability replaces poison resistance and poison immunity.
+ref/arc-investigator/profiler	This ability replaces swift alchemy.
+ref/arc-investigator/profiler	This ability replaces the investigator talent at 7th level.
+ref/arc-kineticist/dark-elementalist	This alters the kineticist’s class skills and base saving throws and the key ability score of wild talents.
+ref/arc-kineticist/dark-elementalist	This ability alters burn and elemental overflow and replaces internal buffer.
+ref/arc-kineticist/psychokineticist	This ability alters the kineticist’s class skills and the key ability score of wild talents.
+ref/arc-kineticist/psychokineticist	This ability alters burn.
+ref/arc-kineticist/psychokineticist	This ability alters elemental overflow.
+ref/arc-mesmerist/dreamstalker	This ability alters painful stare.
+ref/arc-mesmerist/dreamstalker	This alters mesmerist tricks and replaces the 1st-level mesmerist trick.
+ref/arc-mesmerist/dreamstalker	This replaces towering ego.
+ref/arc-mesmerist/dreamstalker	This ability alters touch treatment.
+ref/arc-mesmerist/dreamstalker	This ability replaces manifold tricks.
+ref/arc-mesmerist/dreamstalker	This ability replaces glib lie.
+ref/arc-mesmerist/gaslighter	This ability replaces consummate liar.
+ref/arc-mesmerist/gaslighter	This ability replaces touch treatment (minor) and alters painful stare.
+ref/arc-mesmerist/gaslighter	This ability replaces touch treatment (moderate).
+ref/arc-mesmerist/gaslighter	This ability replaces touch treatment (greater).
+ref/arc-mesmerist/gaslighter	This ability replaces touch treatment (break enchantment).
+ref/arc-mesmerist/hate-monger	This ability replaces consummate liar and alters mesmerist tricks.
+ref/arc-mesmerist/hate-monger	This ability alters touch treatment.
+ref/arc-mesmerist/hate-monger	This ability replaces mental potency and manifold tricks.
+ref/arc-mesmerist/hate-monger	This ability replaces the 7th-level bold stare.
+ref/arc-mesmerist/hate-monger	This ability replaces glib lie.
+ref/arc-occultist/haunt-collector	This ability alters implements.
+ref/arc-occultist/haunt-collector	This ability replaces aura sight.
+ref/arc-occultist/haunt-collector	This ability replaces outside contact.
+ref/arc-occultist/haunt-collector	This ability replaces magic circles, binding circles, and fast circles.
+ref/arc-occultist/talisman-crafter	This ability alters implements.
+ref/arc-occultist/talisman-crafter	This ability replaces magic item skill and object reading.
+ref/arc-occultist/talisman-crafter	This ability replaces shift focus.
+ref/arc-occultist/talisman-crafter	This ability replaces aura sight and the focus powers normally gained at 5th and 17th levels.
+ref/arc-paladin/martyr	This ability replaces smite evil.
+ref/arc-paladin/martyr	This ability replaces divine grace.
+ref/arc-paladin/martyr	This ability alters aura of courage, aura of resolve, and aura of righteousness.
+ref/arc-paladin/martyr	This ability replaces divine health.
+ref/arc-paladin/martyr	This ability alters lay on hands and mercy.
+ref/arc-paladin/soul-sentinel	This replaces the mercy gained at 6th level.
+ref/arc-paladin/soul-sentinel	This ability replaces aura of justice.
+ref/arc-paladin/soul-sentinel	This replaces the mercy gained at 12th level.
+ref/arc-paladin/tortured-crusader	This ability alters the paladin’s spellcasting, smite evil, and lay on hands.
+ref/arc-paladin/tortured-crusader	This ability alters the paladin’s class skills and skill ranks per level.
+ref/arc-paladin/tortured-crusader	This ability replaces detect evil and divine grace and alters smite evil.
+ref/arc-paladin/tortured-crusader	This ability alters lay on hands, channel energy, divine bond, aura of courage, aura of resolve, aura of faith, and aura of righteousness.
+ref/arc-paladin/tortured-crusader	This ability alters lay on hands and mercy.
+ref/arc-paladin/tortured-crusader	This ability replaces aura of justice.
+ref/arc-slayer/bloody-jake	This ability replaces the slayer’s proficiency in medium armor and shields.
+ref/arc-slayer/bloody-jake	This replaces the 1st-level studied target and the slayer talents gained at 4th, 8th, 12th, and 16th level.
+ref/arc-slayer/bloody-jake	This ability alters studied target.
+ref/arc-slayer/bloody-jake	This replaces the slayer talent gained at 6th level.
+ref/arc-slayer/bloody-jake	This ability replaces swift tracker.
+ref/arc-slayer/bloody-jake	This ability replaces slayer’s advance.
+ref/arc-slayer/family-hunter	This ability replaces the slayer talent gained at 2nd level.
+ref/arc-slayer/family-hunter	This ability alters sneak attack.
+ref/arc-slayer/family-hunter	This ability alters studied target.
+ref/arc-slayer/family-hunter	This ability replaces the slayer talent gained at 6th level.
+ref/arc-slayer/witch-killer	This alters the slayer’s class skills.
+ref/arc-slayer/witch-killer	This ability alters studied target.
+ref/arc-slayer/witch-killer	This ability replaces the slayer talent gained at 4th level.
+ref/arc-slayer/witch-killer	This ability replaces the slayer talent normally gained at 10th level.
+ref/arc-spiritualist/exciter	This ability alters phantom and emotional focus and replaces the 6th-level phantom recall.
+ref/arc-spiritualist/exciter	This ability replaces a spiritualist’s ability to manifest his phantom and use emotional focus abilities that require a manifested phantom.
+ref/arc-spiritualist/exciter	This ability replaces etheric tether.
+ref/arc-spiritualist/exciter	This ability replaces bonded senses.
+ref/arc-spiritualist/exciter	This ability replaces the 10th-, 14th-, and 18th-level phantom recall and spiritual bond.
+ref/arc-spiritualist/exciter	This ability replaces spiritual interference.
+ref/arc-spiritualist/exciter	This ability replaces fused consciousness.
+ref/arc-spiritualist/exciter	This replaces greater spiritual interference.
+ref/arc-spiritualist/necrologist	This alters the spiritualist’s alignment.
+ref/arc-spiritualist/necrologist	This ability alters shared consciousness.
+ref/arc-spiritualist/necrologist	This ability alters share spells.
+ref/arc-spiritualist/necrologist	This replaces the slam damage increase gained at 5th level.
+ref/arc-spiritualist/necrologist	This ability replaces devotion.
+ref/arc-spiritualist/necrologist	This replaces the necrologist’s slam damage increase gained at 13th level.
+ref/arc-spiritualist/necrologist	This ability alters bonded manifestation.
+ref/arc-spiritualist/necrologist	This ability replaces spiritual interference.
+ref/arc-spiritualist/necrologist	This ability replaces greater spiritual interference.
+ref/arc-vigilante/experimenter	This alters the vigilante’s class skills.
+ref/arc-vigilante/experimenter	This alters the vigilante’s weapon and armor proficiencies.
+ref/arc-vigilante/experimenter	This ability replaces vigilante specialization.
+ref/arc-vigilante/experimenter	This ability replaces the 1st-level social talent.
+ref/arc-vigilante/experimenter	This ability replaces unshakable.
+ref/arc-vigilante/experimenter	This ability replaces startling appearance.
+ref/arc-vigilante/experimenter	This ability replaces frightening appearance.
+ref/arc-vigilante/experimenter	This ability replaces stunning appearance.
+ref/arc-vigilante/hangman	This alters the vigilante’s weapon and armor proficiencies.
+ref/arc-vigilante/hangman	This alters vigilante specialization.
+ref/arc-vigilante/hangman	This ability replaces the 2nd-level vigilante talent.
+ref/arc-vigilante/hangman	This ability replaces unshakable.
+ref/arc-vigilante/hangman	This ability replaces the 4th-level vigilante talent.
+ref/arc-vigilante/hangman	This ability replaces startling appearance.
+ref/arc-vigilante/hangman	This ability replaces frightening appearance.
+ref/arc-vigilante/hangman	This ability replaces stunning appearance.
+ref/arc-vigilante/serial-killer	This alters vigilante specialization.
+ref/arc-vigilante/serial-killer	This ability replaces unshakable.
+ref/arc-vigilante/serial-killer	This ability replaces the 4th- and 14th- level vigilante talents and the 9th- and 19th- level social talents.
+ref/arc-vigilante/serial-killer	This ability replaces startling appearance.
+ref/arc-vigilante/serial-killer	This ability replaces the 6th-level vigilante talent.
+ref/arc-vigilante/serial-killer	This replaces the 7th-level social talent.
+ref/arc-vigilante/serial-killer	This replaces frightening appearance.
+ref/arc-vigilante/serial-killer	This ability replaces the 12th- level vigilante talent.
+ref/arc-vigilante/serial-killer	This ability replaces the vigilante’s stunning appearance.
+ref/arc-witch/gingerbread-witch	This ability alters familiar.
+ref/arc-witch/gingerbread-witch	This ability replaces the hexes gained at 1st and 10th levels.
+ref/arc-witch/gingerbread-witch	This ability replaces the hex gained at 4th level.
+ref/arc-witch/gingerbread-witch	This ability replaces the hex gained at 8th level.
+ref/arc-witch/gingerbread-witch	This ability replaces the hex gained at 12th level.
+ref/arc-witch/gingerbread-witch	This ability replaces the hex gained at 16th level.
+ref/arc-witch/tatterdemalion	This alters the witch’s weapon proficiencies.
+ref/arc-witch/tatterdemalion	This alters the witch’s cantrips.
+ref/arc-witch/tatterdemalion	This alters spells and replaces the hex gained at 1st level.
+ref/arc-wizard/elder-mythos-scholar	This alters arcane bond.
+ref/arc-wizard/elder-mythos-scholar	This ability alters the 1st-level arcane school ability.
+ref/arc-wizard/elder-mythos-scholar	This ability alters spellbook.
+ref/arc-wizard/elder-mythos-scholar	This replaces Scribe Scroll and the 5th- and 10th-level bonus feats.
+ref/arc-wizard/elder-mythos-scholar	This ability replaces the school ability gained at 8th level.
+ref/arc-wizard/hallowed-necromancer	This alters arcane school and spells.
+ref/arc-wizard/hallowed-necromancer	This alters power over undead.
+ref/arc-wizard/hallowed-necromancer	This ability replaces grave touch and Scribe Scroll.
+ref/arc-wizard/hallowed-necromancer	This ability replaces the bonus feat gained at 5th level.
+ref/arc-wizard/hallowed-necromancer	This ability replaces the bonus feat gained at 10th level.
+ref/arc-wizard/hallowed-necromancer	This ability replaces the 15th level bonus feat.
+ref/arc-wizard/undead-master	This alters arcane school and alignment.
+ref/arc-wizard/undead-master	This ability alters arcane bond.
+ref/arc-wizard/undead-master	This ability replaces Scribe Scroll.
+ref/arc-wizard/undead-master	This ability replaces the bonus feats gained at 5th, 10th, and 15th levels.
+ref/arc-wizard/undead-master	This ability replaces the bonus feat gained at 20th level.

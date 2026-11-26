@@ -1,0 +1,165 @@
+entry	sentence
+ref/arc-alchemist/crimson-chymist	This alters discovery.
+ref/arc-alchemist/crimson-chymist	This alters mutagen.
+ref/arc-arcanist/magaambyan-initiate	This alters the arcanist’s alignment.
+ref/arc-arcanist/magaambyan-initiate	This ability replaces the arcanist exploits gained at 1st, 9th, and 17th levels.
+ref/arc-arcanist/magaambyan-initiate	This ability replaces the arcanist exploit gained at 5th level.
+ref/arc-barbarian/geminate-invoker	This alters the barbarian’s class skills and alignment.
+ref/arc-barbarian/geminate-invoker	This ability alters rage.
+ref/arc-barbarian/geminate-invoker	This ability replaces trap sense.
+ref/arc-barbarian/geminate-invoker	This ability replaces the rage powers gained at 4th, 8th, and 12th levels.
+ref/arc-barbarian/giant-stalker	This ability alters rage.
+ref/arc-barbarian/giant-stalker	This ability replaces uncanny dodge.
+ref/arc-barbarian/giant-stalker	This ability replaces trap sense.
+ref/arc-bard/argent-voice	This replaces fascinate.
+ref/arc-bard/argent-voice	This replaces suggestion and mass suggestion.
+ref/arc-bard/argent-voice	This replaces dirge of doom and frightening tune.
+ref/arc-bard/argent-voice	This alters versatile performance.
+ref/arc-bard/brazen-deceiver	This replaces the countersong and distraction bardic performances.
+ref/arc-bard/brazen-deceiver	This ability replaces bardic knowledge.
+ref/arc-bard/brazen-deceiver	This ability replaces well-versed.
+ref/arc-bard/brazen-deceiver	This ability replaces versatile performance.
+ref/arc-bard/brazen-deceiver	This ability replaces lore master.
+ref/arc-bard/ringleader-ag	This ability alters bardic performance.
+ref/arc-bard/ringleader-ag	This ability replaces well-versed.
+ref/arc-bard/ringleader-ag	This ability replaces versatile performance.
+ref/arc-bard/ringleader-ag	This ability replaces suggestion, mass suggestion, and soothing performance.
+ref/arc-bloodrager/enlightened-bloodrager	This ability alters the bloodrager’s spellcasting, and replaces the bloodline power the bloodrager normally gains at 1st level and all bonus spells gained as part of a bloodline.
+ref/arc-bloodrager/enlightened-bloodrager	This ability alters bloodrage and replaces the bloodline power gained at 4th level.
+ref/arc-bloodrager/enlightened-bloodrager	This ability replaces the damage reduction the bloodrager gains at 7th, 13th, and 19th levels; the bloodrager gains DR 1/— at 10th level, and this increases to DR 2/— at 16th level.
+ref/arc-bloodrager/enlightened-bloodrager	This alters the bloodrager’s bloodline powers.
+ref/arc-brawler/winding-path-renegade	This ability replaces the bonus feats gained at 2nd, 8th, and 14th levels.
+ref/arc-brawler/winding-path-renegade	This ability replaces AC bonus.
+ref/arc-cavalier/qadiran-horselord	This replaces the cavalier’s normal weapon and armor proficiencies.
+ref/arc-cavalier/qadiran-horselord	This ability alters the cavalier mount class feature.
+ref/arc-cavalier/qadiran-horselord	This ability replaces tactician.
+ref/arc-cavalier/qadiran-horselord	This ability replaces cavalier’s charge.
+ref/arc-cavalier/qadiran-horselord	This ability replaces the bonus feat gained at 6th level.
+ref/arc-cavalier/qadiran-horselord	This replaces greater tactician.
+ref/arc-cavalier/qadiran-horselord	This ability replaces master tactician.
+ref/arc-cavalier/sister-in-arms	This ability alters challenge.
+ref/arc-cavalier/sister-in-arms	This ability alters order and replaces mount.
+ref/arc-cavalier/sister-in-arms	This ability replaces cavalier’s charge.
+ref/arc-cavalier/sister-in-arms	This ability replaces expert trainer.
+ref/arc-cavalier/sister-in-arms	This ability replaces mighty charge and supreme charge.
+ref/arc-cleric/blossoming-light	This ability alters the cleric’s armor proficiencies.
+ref/arc-cleric/blossoming-light	This alters the cleric’s alignment.
+ref/arc-cleric/blossoming-light	This ability alters channel energy and the cleric’s domains.
+ref/arc-druid/halcyon-druid	This ability replaces nature bond.
+ref/arc-druid/halcyon-druid	This ability replaces nature sense and alters the druid’s class skills.
+ref/arc-druid/halcyon-druid	This ability replaces wild empathy.
+ref/arc-druid/halcyon-druid	This ability replaces spontaneous casting.
+ref/arc-druid/halcyon-druid	This ability replaces wild shape.
+ref/arc-druid/halcyon-druid	This ability replaces resist nature’s lure.
+ref/arc-druid/halcyon-druid	This ability replaces a thousand faces.
+ref/arc-druid/sunrider	This alters the druid’s class skills.
+ref/arc-druid/sunrider	This alters the druid’s weapon and armor proficiencies.
+ref/arc-druid/sunrider	This alters nature bond.
+ref/arc-druid/sunrider	This ability replaces woodland stride.
+ref/arc-druid/sunrider	This ability replaces trackless step.
+ref/arc-druid/sunrider	This ability replaces resist nature’s lure.
+ref/arc-druid/sunrider	This ability replaces wild shape.
+ref/arc-druid/tempest-druid	This alters the druid’s alignment.
+ref/arc-druid/tempest-druid	This alters the druid’s armor and weapon proficiencies.
+ref/arc-druid/tempest-druid	This replaces the druid’s normal ability to spontaneously cast summon spells.
+ref/arc-druid/tempest-druid	This alters nature bond.
+ref/arc-druid/tempest-druid	This ability replaces nature sense.
+ref/arc-druid/tempest-druid	This ability replaces trackless step.
+ref/arc-druid/tempest-druid	This ability replaces resist nature’s lure.
+ref/arc-druid/tempest-druid	This ability replaces venom immunity.
+ref/arc-fighter/aldori-defender	This ability replaces armor training.
+ref/arc-fighter/aldori-defender	This ability replaces the bonus feat the fighter would normally gain at 6th level.
+ref/arc-fighter/aldori-defender	This ability replaces the bonus feat the fighter would normally gain at 8th level.
+ref/arc-fighter/aldori-defender	This ability replaces the bonus feat the fighter would normally gain at 10th level.
+ref/arc-fighter/armiger	This alters the fighter’s bonus feats.
+ref/arc-fighter/armiger	This alters the fighter’s class skills and skill points per level, and replaces the fighter’s bonus feats gained at 1st and 10th levels.
+ref/arc-fighter/armiger	This replaces bravery.
+ref/arc-fighter/lore-warden	This ability replaces the fighter’s proficiency with medium armor, heavy armor, and shields.
+ref/arc-fighter/lore-warden	This ability replaces bravery and the fighter bonus feat gained at 2nd level.
+ref/arc-fighter/lore-warden	This replaces armor training and armor mastery.
+ref/arc-hunter/totem-bonded	This ability alters animal companion.
+ref/arc-hunter/totem-bonded	This ability replaces the hunter’s animal focus class feature.
+ref/arc-magus/magic-warrior	This ability alters the magus’s class skills.
+ref/arc-magus/magic-warrior	This ability replaces the magus arcana gained at 3rd level.
+ref/arc-magus/magic-warrior	This replaces greater spell access.
+ref/arc-magus/sigilus	This ability replaces spellstrike.
+ref/arc-magus/sigilus	This ability replaces medium armor and heavy armor.
+ref/arc-medium/storm-dreamer	This ability replaces spirit surge.
+ref/arc-medium/storm-dreamer	This ability replaces haunt channeler.
+ref/arc-medium/storm-dreamer	This ability replaces location channel.
+ref/arc-medium/storm-dreamer	This ability replaces connection channel.
+ref/arc-monk/brazen-disciple	This alters the monk’s class skills.
+ref/arc-monk/brazen-disciple	This ability replaces the monk’s bonus feats at 1st level and at 6th level.
+ref/arc-monk/brazen-disciple	This ability alters the monk’s bonus feats.
+ref/arc-monk/brazen-disciple	This ability replaces still mind.
+ref/arc-monk/brazen-disciple	This ability replaces abundant step.
+ref/arc-monk/brazen-disciple	This ability replaces perfect self.
+ref/arc-occultist/curator	This ability replaces one of the two occultist implements learned at 1st level as well as the implements learned at 6th level and 14th level.
+ref/arc-occultist/curator	This ability alters mental focus.
+ref/arc-occultist/curator	This ability replaces the focus power gained at 3rd level.
+ref/arc-occultist/curator	This ability replaces shift focus.
+ref/arc-occultist/curator	This ability replaces outsider contact.
+ref/arc-occultist/curator	This ability replaces an occultist’s magic circles, binding circles, and fast circles.
+ref/arc-paladin/scion-of-talmandor	This alters class skills.
+ref/arc-paladin/scion-of-talmandor	This ability alters divine grace.
+ref/arc-paladin/scion-of-talmandor	This ability replaces divine bond.
+ref/arc-paladin/scion-of-talmandor	This ability replaces aura of resolve.
+ref/arc-paladin/scion-of-talmandor	This ability replaces aura of justice.
+ref/arc-ranger/lantern-lighter	This ability alters the ranger’s spells.
+ref/arc-ranger/lantern-lighter	This ability replaces wild empathy.
+ref/arc-ranger/lantern-lighter	This ability replaces endurance.
+ref/arc-ranger/lantern-lighter	This ability alters favored terrain.
+ref/arc-ranger/lantern-lighter	This ability replaces woodland stride.
+ref/arc-ranger/lantern-lighter	This replaces the favored terrain gained at 8th level.
+ref/arc-ranger/lantern-lighter	This ability replaces camouflage.
+ref/arc-ranger/lantern-lighter	This ability replaces the favored terrain gained at 13th level.
+ref/arc-ranger/lantern-lighter	This ability replaces hide in plain sight.
+ref/arc-ranger/lantern-lighter	This ability replaces the favored terrain gained at 18th level.
+ref/arc-ranger/raven-master	This alters the ranger’s class skills.
+ref/arc-ranger/raven-master	This alters wild empathy.
+ref/arc-ranger/raven-master	This ability alters hunter’s bond and replaces specific ranger abilities as indicated below.
+ref/arc-ranger/raven-master	This ability replaces woodland stride.
+ref/arc-ranger/raven-master	This ability replaces swift tracker.
+ref/arc-ranger/raven-master	This ability replaces camouflage.
+ref/arc-ranger/raven-master	This ability alters the ranger’s spellcasting.
+ref/arc-rogue/bellflower-irrigator	This ability replaces trapfinding.
+ref/arc-rogue/bellflower-irrigator	This ability replaces uncanny dodge and the rogue talent gained at 4th level.
+ref/arc-rogue/bellflower-irrigator	This ability replaces improved uncanny dodge.
+ref/arc-rogue/toxic-talon	This alters the rogue’s weapon proficiencies.
+ref/arc-rogue/toxic-talon	This ability replaces trapfinding.
+ref/arc-rogue/toxic-talon	This replaces trap sense.
+ref/arc-rogue/toxic-talon	This ability replaces uncanny dodge.
+ref/arc-rogue/toxic-talon	This ability replaces the rogue’s improved uncanny dodge.
+ref/arc-shaman/name-keeper	This alters the shaman’s class skills.
+ref/arc-shaman/name-keeper	This ability replaces spirit animal.
+ref/arc-shaman/name-keeper	This ability replaces the spirit magic spells gained from the shaman’s spirit.
+ref/arc-shaman/name-keeper	This ability replaces wandering spirit.
+ref/arc-shaman/name-keeper	This ability replaces wandering hex.
+ref/arc-spiritualist/involutionist	This ability alters spellcasting.
+ref/arc-spiritualist/involutionist	This ability alters phantom and replaces its emotional focus abilities.
+ref/arc-spiritualist/involutionist	This ability alters bonded manifestation.
+ref/arc-spiritualist/involutionist	This ability replaces detect undead.
+ref/arc-spiritualist/involutionist	This ability replaces the additional uses of calm spirit available at 11th, 15th, and 17th levels.
+ref/arc-swashbuckler/dashing-thief	This ability alters the swashbuckler’s class skills and the derring-do and swashbuckler’s edge deeds.
+ref/arc-swashbuckler/dashing-thief	This ability alters panache and replaces the swashbuckler’s ability to regain panache from a killing blow.
+ref/arc-swashbuckler/dashing-thief	This ability replaces the swashbuckler’s bonus feats.
+ref/arc-swashbuckler/dashing-thief	This ability replaces the menacing swordplay deed.
+ref/arc-swashbuckler/dashing-thief	This ability replaces the dizzying defense deed.
+ref/arc-swashbuckler/rostland-bravo	This ability alters the swashbuckler’s class skills and armor proficiencies.
+ref/arc-unchained-summoner/devil-binder	This alters the summoner’s eidolon.
+ref/arc-unchained-summoner/devil-binder	This replaces the summon monster I summoner class feature.
+ref/arc-unchained-summoner/devil-binder	This replaces bond senses, shield ally, transposition, greater shield ally, merge forms, and twin eidolon.
+ref/arc-unchained-summoner/devil-binder	This ability replaces maker’s call and the eidolon’s devotion ability.
+ref/arc-vigilante/bellflower-harvester	This alters dual identity.
+ref/arc-vigilante/bellflower-harvester	This ability replaces vigilante specialization, but the Bellflower harvester is still treated as if he had the stalker specialization for the purpose of selecting other vigilante talents.
+ref/arc-vigilante/bellflower-harvester	This ability replaces the social talent gained at 1st level.
+ref/arc-vigilante/bellflower-harvester	This ability replaces the vigilante talent gained at 2nd level.
+ref/arc-vigilante/masked-maiden	This alters the vigilante’s weapon and armor proficiencies.
+ref/arc-vigilante/masked-maiden	This ability alters dual identity.
+ref/arc-vigilante/masked-maiden	This ability replaces seamless guise.
+ref/arc-vigilante/masked-maiden	This replaces the vigilante’s social talents gained at 3rd, 7th, 11th, 15th, and 19th levels.
+ref/arc-warpriest/mantis-zealot	This replaces the warpriest’s weapon and armor proficiencies.
+ref/arc-warpriest/mantis-zealot	This ability replaces sacred weapon.
+ref/arc-warpriest/mantis-zealot	This ability replaces sacred armor.
+ref/arc-warpriest/mantis-zealot	This ability alters aspect of war.
+ref/arc-wizard/runesage	This ability alters arcane bond and replaces arcane school.
