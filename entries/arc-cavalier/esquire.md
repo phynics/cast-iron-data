@@ -20,7 +20,7 @@ features = [
   { anchor = "aide-de-camp", level = 3 },
   { anchor = "teamwork", level = 3 },
   { anchor = "shared-challenge", level = 4 },
-  { anchor = "banner" },
+  { anchor = "banner", level = 5 },
   { anchor = "avenge-me", level = 11 },
   { anchor = "fight-as-one", level = 20 },
 ]

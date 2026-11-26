@@ -4106,6 +4106,34 @@ def class_first_level(corpus: Path, class_id: str, cache: dict) -> set[str]:
     return keys
 
 
+def class_feature_levels(corpus: Path, class_id: str, cache: dict) -> dict[str, int]:
+    """The lowest level at which the Special column of the class table of a base class lists each feature (the names as
+    `first_level_key` reads them): owner ruling 57 gives a feature that prints no level and alters or replaces a whole class feature
+    the level at which the class gains it."""
+    key = ("levels", class_id)
+    if key in cache:
+        return cache[key]
+    path = corpus / "entries" / (class_id.removeprefix("ref/") + ".md")
+    out: dict[str, int] = {}
+    if path.exists():
+        col = None
+        for ln in path.read_text(encoding="utf-8").split("\n"):
+            cells = [c.strip() for c in ln.strip().strip("|").split("|")]
+            if col is None and ln.startswith("|Level|") and "Special" in cells:
+                col = cells.index("Special")
+            elif col is not None:
+                m = re.match(r"\|(\d+)(?:st|nd|rd|th)\|", ln)
+                if not m:
+                    if out:
+                        break
+                    continue
+                if col < len(cells):
+                    for item in re.split(r",(?![^()]*\))", cells[col]):
+                        out.setdefault(first_level_key(item), int(m.group(1)))
+    cache[key] = out
+    return out
+
+
 def fold_table_sections(rows: list[dict], decisions: dict, entry_id: str, problems: list[str]) -> None:
     """The `fold-into:ANCHOR` decisions of an entry (owner ruling 44): the section moves behind the end of the section that the
     decision names, its head as a bold line directly above its text (the Markdown table)."""
@@ -4388,6 +4416,26 @@ def finalize(e: Entry, res: dict, class_cache: dict | None = None) -> dict:
                                                      else ", ".join(trade_name(t)[0] + " " + trade_name(t)[1] for t in ops))
                                       + (", of which one is gained at 1st level (the printed level of the trade, or the class table)" if named
                                          else ", of which one is gained at 1st level in the class table"))
+                else:
+                    # owner ruling 57: a feature that prints no level and alters or replaces a whole class feature gets the lowest level at which
+                    # the class gains it (or the lowest level of the trade); a level in the feature's own text wins (ruling 51)
+                    lows, named_lows = [], []
+                    for t in mine:
+                        if trade_name(t)[0] not in ("replaces", "alters"):
+                            continue
+                        cls = t.get("class") or (e.classes[0] if e.classes else "")
+                        if t.get("levels"):
+                            lows.append(min(t["levels"]))
+                            named_lows.append(f"{trade_name(t)[0]} {trade_name(t)[1]} (level {min(t['levels'])} of the trade)")
+                            continue
+                        tab = class_feature_levels(corpus, cls, class_cache) if cls else {}
+                        lv = tab.get(first_level_key(trade_name(t)[1])) or tab.get(first_level_alt_key(trade_name(t)[1]))
+                        if lv:
+                            lows.append(lv)
+                            named_lows.append(f"{trade_name(t)[0]} {trade_name(t)[1]} (gained at level {lv} in the class table)")
+                    if lows:
+                        r["level"] = min(lows)
+                        r["notes"].append(f"level {r['level']} (ruling 57): " + ", ".join(named_lows))
         if (e.id, r["anchor"]) in LEVEL_NONE and r["level"] is not None:
             r["notes"].append(f"no level: print states none and the feature alters a part of a class feature (owner rulings 4 and 48); the reader would take {r['level']}")
             r["level"] = None

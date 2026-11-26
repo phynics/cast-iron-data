@@ -17,7 +17,7 @@ page = "24"
 [fields]
 kind = "archetype"
 features = [
-  { anchor = "emotional-appeal" },
+  { anchor = "emotional-appeal", level = 3 },
   { anchor = "sacred-subdual", level = 1 },
   { anchor = "blessing-of-conversion", level = 1 },
   { anchor = "voice-of-the-faithful", level = 1 },

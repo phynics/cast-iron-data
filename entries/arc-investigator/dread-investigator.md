@@ -18,7 +18,7 @@ page = "14"
 kind = "archetype"
 features = [
   { anchor = "delayed-inspiration", level = 1 },
-  { anchor = "embalming-fluids" },
+  { anchor = "embalming-fluids", level = 2 },
   { anchor = "negative-energy-resistance", level = 2 },
   { anchor = "investigator-talent" },
   { anchor = "reanimation-fluid", level = 7 },

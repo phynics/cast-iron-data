@@ -19,7 +19,7 @@ kind = "archetype"
 features = [
   { anchor = "martial-focus" },
   { anchor = "divine-troth", level = 1 },
-  { anchor = "guarding-hands" },
+  { anchor = "guarding-hands", level = 2 },
   { anchor = "courageous-defense", level = 3 },
   { anchor = "bonus-feat" },
 ]
