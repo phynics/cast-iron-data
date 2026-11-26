@@ -17,7 +17,7 @@ page = "130"
 [fields]
 kind = "archetype"
 features = [
-  { anchor = "blessings" },
+  { anchor = "blessings", level = 1 },
   { anchor = "smith-s-spells" },
   { anchor = "forge-mastery", level = 2 },
   { anchor = "craft-magic-arms-and-armor", level = 3 },

@@ -18,7 +18,6 @@ page = "80"
 kind = "archetype"
 features = [
   { anchor = "arcane-strike", level = 1 },
-  { anchor = "bardic-performance" },
   { anchor = "rallying-cry", level = 1 },
   { anchor = "bladethirst", level = 6 },
   { anchor = "mass-bladethirst", level = 18 },

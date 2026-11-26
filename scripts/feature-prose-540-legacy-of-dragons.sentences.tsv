@@ -1,4 +1,5 @@
 entry	sentence
+ref/arc-alchemist/dragonblood-chymist	This ability modifies the mutagen class feature; replaces the discoveries gained at 2nd, 12th, and 16th levels; and precludes the dragonblood chymist from taking any other mutagen discoveries.
 ref/arc-alchemist/dragonblood-chymist	This ability replaces the Throw Anything ability.
 ref/arc-alchemist/dragonblood-chymist	This ability replaces poison resistance, poison use, and swift poisoning.
 ref/arc-cavalier/drakerider	This ability replaces mount, tactician, expert trainer, banner, greater tactician, greater banner, and master tactician and alters cavalier’s charge.
@@ -15,10 +16,12 @@ ref/arc-fighter/dragonheir-scion	This ability replaces armor training 4 and armo
 ref/arc-fighter/dragonheir-scion	This ability replaces weapon mastery.
 ref/arc-mesmerist/mindwyrm-mesmer	This ability replaces consummate liar.
 ref/arc-mesmerist/mindwyrm-mesmer	This ability replaces painful stare.
+ref/arc-monk/scaled-fist	This ability modifies bonus feats.
 ref/arc-monk/scaled-fist	This ability replaces the still mind ability.
 ref/arc-monk/scaled-fist	This ability replaces maneuver training.
 ref/arc-monk/scaled-fist	This ability replaces quivering palm.
 ref/arc-paladin/silver-champion	This ability replaces divine bond, channel energy, aura of justice, and aura of righteousness, and alters smite evil and mercy.
+ref/arc-paladin/silver-champion	This ability modifies the paladin’s spellcasting.
 ref/arc-ranger/drake-warden	This ability replaces hunter’s bond, 2nd favored enemy, and swift tracker.
 ref/arc-samurai/sovereign-blade	This ability replaces mount.
 ref/arc-samurai/sovereign-blade	This ability replaces mounted archer.

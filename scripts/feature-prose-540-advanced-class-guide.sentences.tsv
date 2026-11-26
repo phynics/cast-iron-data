@@ -95,6 +95,7 @@ ref/arc-druid/wild-whisperer	This ability replaces the increase to wild shape gi
 ref/arc-fighter/martial-master	This ability replaces weapon training and weapon mastery.
 ref/arc-fighter/mutation-warrior	This ability replaces armor training 1.
 ref/arc-fighter/mutation-warrior	This ability replaces armor training 2, 3, 4, and armor mastery.
+ref/arc-gunslinger/bolt-ace	This ability modifies the grit class feature.
 ref/arc-gunslinger/bolt-ace	This deed replaces deadeye.
 ref/arc-gunslinger/bolt-ace	This deed replaces quick clear.
 ref/arc-gunslinger/bolt-ace	This deed replaces utility shot.
@@ -158,6 +159,7 @@ ref/arc-magus/eldritch-scion	This ability alters improved spell combat.
 ref/arc-magus/eldritch-scion	This ability alters greater spell combat.
 ref/arc-monk/kata-master	This ability replaces stunning fist.
 ref/arc-monk/kata-master	This ability replaces still mind.
+ref/arc-monk/kata-master	This ability modifies ki pool.
 ref/arc-monk/kata-master	This ability replaces wholeness of body.
 ref/arc-monk/kata-master	This ability replaces quivering palm.
 ref/arc-monk/wildcat	This ability replaces still mind.

@@ -19,7 +19,6 @@ kind = "archetype"
 features = [
   { anchor = "gunsmith", level = 1 },
   { anchor = "go-by-feel" },
-  { anchor = "deeds" },
   { anchor = "change-out", level = 1 },
   { anchor = "jury-rig", level = 7 },
   { anchor = "arbitrary-aim", level = 2 },

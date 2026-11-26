@@ -17,7 +17,6 @@ page = "6"
 [fields]
 kind = "archetype"
 features = [
-  { anchor = "raging-song" },
   { anchor = "insightful-contemplation", level = 1 },
   { anchor = "song-of-inspiration", level = 6 },
   { anchor = "handling-the-crowd", level = 2 },
