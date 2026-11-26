@@ -17,7 +17,7 @@ page = "26"
 [fields]
 kind = "archetype"
 features = [
-  { anchor = "great-orator" },
+  { anchor = "great-orator", level = 1 },
   { anchor = "seed-of-discord" },
   { anchor = "rile", level = 1 },
   { anchor = "rogue-talents", level = 7 },

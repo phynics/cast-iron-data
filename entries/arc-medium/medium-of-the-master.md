@@ -18,10 +18,10 @@ page = "5"
 kind = "archetype"
 features = [
   { anchor = "unarmed-strike" },
-  { anchor = "dedicated-spirit" },
-  { anchor = "dedicated-surge" },
+  { anchor = "dedicated-spirit", level = 1 },
+  { anchor = "dedicated-surge", level = 1 },
   { anchor = "spirit-call" },
-  { anchor = "master-s-power" },
+  { anchor = "master-s-power", level = 1 },
   { anchor = "shared-prowess", level = 2 },
   { anchor = "master-s-strike", level = 6 },
   { anchor = "ki-contact", level = 15 },

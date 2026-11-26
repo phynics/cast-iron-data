@@ -17,11 +17,11 @@ page = "29"
 [fields]
 kind = "archetype"
 features = [
-  { anchor = "spells" },
-  { anchor = "implements" },
+  { anchor = "spells", level = 1 },
+  { anchor = "implements", level = 1 },
   { anchor = "cantrips", level = 1 },
-  { anchor = "mental-focus" },
-  { anchor = "devoted-mystic" },
+  { anchor = "mental-focus", level = 1 },
+  { anchor = "devoted-mystic", level = 1 },
   { anchor = "silksworn-eloquence", level = 8 },
   { anchor = "silksworn-deception", level = 12 },
   { anchor = "silksworn-arcana", level = 16 },

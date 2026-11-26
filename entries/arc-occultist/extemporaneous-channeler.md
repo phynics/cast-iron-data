@@ -18,7 +18,7 @@ page = "8"
 kind = "archetype"
 features = [
   { anchor = "improvisational-combatant" },
-  { anchor = "fleeting-focus" },
+  { anchor = "fleeting-focus", level = 1 },
   { anchor = "transformative-resonance" },
   { anchor = "withdraw-focus", level = 4 },
   { anchor = "improvised-spell", level = 8 },

@@ -17,7 +17,7 @@ page = "9"
 [fields]
 kind = "archetype"
 features = [
-  { anchor = "diminished-spellcasting" },
+  { anchor = "diminished-spellcasting", level = 1 },
   { anchor = "covenant-ally" },
 ]
 trades = [

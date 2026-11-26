@@ -18,7 +18,7 @@ page = "18"
 kind = "archetype"
 features = [
   { anchor = "yokai-heart" },
-  { anchor = "oni-mask" },
+  { anchor = "oni-mask", level = 1 },
   { anchor = "steel-dictate", level = 1 },
   { anchor = "deceitful-form", level = 4 },
   { anchor = "deadly-horns", level = 6 },

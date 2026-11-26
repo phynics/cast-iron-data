@@ -18,7 +18,7 @@ page = "12"
 kind = "archetype"
 features = [
   { anchor = "bravo-s-finesse" },
-  { anchor = "bravo-s-smite" },
+  { anchor = "bravo-s-smite", level = 1 },
   { anchor = "nimble", level = 3 },
   { anchor = "panache-and-deeds", level = 4 },
   { anchor = "advanced-deeds", level = 11 },

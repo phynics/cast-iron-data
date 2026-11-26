@@ -17,7 +17,7 @@ page = "5"
 [fields]
 kind = "archetype"
 features = [
-  { anchor = "luck-magic" },
+  { anchor = "luck-magic", level = 1 },
   { anchor = "luck-hexes" },
 ]
 trades = [

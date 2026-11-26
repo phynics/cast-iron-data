@@ -17,7 +17,7 @@ page = "16"
 [fields]
 kind = "archetype"
 features = [
-  { anchor = "natural-strikes" },
+  { anchor = "natural-strikes", level = 1 },
   { anchor = "style-shifting", level = 1 },
   { anchor = "style-mastery", level = 1 },
   { anchor = "form-of-the-wild", level = 6 },

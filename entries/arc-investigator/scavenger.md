@@ -17,7 +17,7 @@ page = "21"
 [fields]
 kind = "archetype"
 features = [
-  { anchor = "gadgetry" },
+  { anchor = "gadgetry", level = 1 },
   { anchor = "mechanical-inspiration", level = 1 },
   { anchor = "jury-rig", level = 2 },
   { anchor = "construct-mastery", level = 2 },

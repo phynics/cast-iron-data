@@ -18,7 +18,7 @@ page = "11"
 kind = "archetype"
 features = [
   { anchor = "okayo-finesse", level = 1 },
-  { anchor = "okayo-panache" },
+  { anchor = "okayo-panache", level = 1 },
   { anchor = "deeds" },
   { anchor = "ki-panache", level = 3 },
   { anchor = "slow-fall", level = 7 },

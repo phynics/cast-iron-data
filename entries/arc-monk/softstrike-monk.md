@@ -18,7 +18,7 @@ page = "6"
 kind = "archetype"
 features = [
   { anchor = "feather-touch" },
-  { anchor = "nonlethal-strikes" },
+  { anchor = "nonlethal-strikes", level = 1 },
   { anchor = "tenet-of-life" },
   { anchor = "life-giving-blows", level = 6 },
   { anchor = "wholeness-of-body-and-spirit", level = 7 },

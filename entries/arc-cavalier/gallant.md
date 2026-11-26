@@ -17,7 +17,7 @@ page = "12"
 [fields]
 kind = "archetype"
 features = [
-  { anchor = "code-of-gallantry" },
+  { anchor = "code-of-gallantry", level = 1 },
   { anchor = "symbol-of-inspiration", level = 5 },
   { anchor = "symbol-of-resilience", level = 14 },
 ]

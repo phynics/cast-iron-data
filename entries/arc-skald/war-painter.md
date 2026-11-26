@@ -17,7 +17,7 @@ page = "10"
 [fields]
 kind = "archetype"
 features = [
-  { anchor = "furious-paint" },
+  { anchor = "furious-paint", level = 1 },
   { anchor = "thousand-totems", level = 5 },
   { anchor = "arcane-flourish", level = 7 },
 ]

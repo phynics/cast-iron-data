@@ -17,7 +17,7 @@ page = "8"
 [fields]
 kind = "archetype"
 features = [
-  { anchor = "evil-spirit" },
+  { anchor = "evil-spirit", level = 1 },
   { anchor = "dark-communion", level = 3 },
 ]
 trades = [
