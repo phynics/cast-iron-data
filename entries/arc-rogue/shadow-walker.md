@@ -16,12 +16,17 @@ page = "9"
 
 [fields]
 kind = "archetype"
+features = [
+  { anchor = "expanded-sight", level = 1 },
+  { anchor = "illumination-control", level = 3 },
+  { anchor = "favored-illumination", level = 4 },
+]
 trades = [
-  { replaces = "Trapfinding", feature = "trapfinding" },
-  { replaces = "Rogue talent gained at 2nd level", feature = "rogue-talents", levels = [2] },
-  { replaces = "trap sense", feature = "trap-sense" },
-  { replaces = "Uncanny dodge", feature = "uncanny-dodge" },
-  { replaces = "improved uncanny dodge", feature = "improved-uncanny-dodge" },
+  { replaces = "Trapfinding", feature = "trapfinding", by = ["expanded-sight"] },
+  { replaces = "Rogue talent gained at 2nd level", feature = "rogue-talents", levels = [2], by = ["illumination-control"] },
+  { replaces = "trap sense", feature = "trap-sense", by = ["illumination-control"] },
+  { replaces = "Uncanny dodge", feature = "uncanny-dodge", by = ["favored-illumination"] },
+  { replaces = "improved uncanny dodge", feature = "improved-uncanny-dodge", by = ["favored-illumination"] },
 ]
 +++
 
@@ -29,64 +34,59 @@ Shadow walkers are comfortable in light, darkness, and the shadows in between. F
 naturally gravitate toward becoming shadow walkers, but shadow walkers exist among other creatures
 both above and below the surface.
 
-**Expanded Sight (Su)**
+## Expanded Sight (Su) {#expanded-sight}
 
-**At 3rd Level:** The shadow walker loses the [light sensitivity](ref/umr/light-sensitivity)
-weakness, if she has it. If she has [light blindness](ref/umr/light-blindness), she instead treats
-it as light sensitivity.
+At 1st level, a shadow walker gains [darkvision](ref/rule/darkvision) with a range of 30 feet. If
+she already has [darkvision](ref/rule/darkvision), the range of her darkvision increases by 10 feet.
+When the shadow walker reaches 3rd level, and every 2 rogue levels thereafter, the range of her
+darkvision increases by 10 feet. Also at 3rd level, the shadow walker loses the
+[light sensitivity](ref/umr/light-sensitivity) weakness, if she has it. If she has
+[light blindness](ref/umr/light-blindness), she instead treats it as light sensitivity.
 
-**Gained:** At 1st Level
+This ability replaces trapfinding.
 
-**Passive:** A shadow walker gains [darkvision](ref/rule/darkvision) with a range of 30 feet. If she
-already has darkvision, the range of her darkvision increases by 10 feet.
+## Illumination Control (Sp) {#illumination-control}
 
-**Repeat:** The range of her [darkvision](ref/rule/darkvision) increases by 10 feet., 3, 2
+At 3rd level, a shadow walker can manipulate nearby illumination. At the start of each day, a shadow
+walker gains a number of illumination points equal to half her rogue level and can spend
+illumination points to use certain [spell-like abilities](ref/umr/spell-like-abilities). As long as
+she has at least 1 illumination point, she can cast _[light](ref/spell/light)_ at will. She can
+spend 2 illumination points to cast _[darkness](ref/spell/darkness)_, and 3 illumination points to
+cast _[daylight](ref/spell/daylight)_, _[deeper darkness](ref/spell/deeper-darkness)_, or
+_[motes of dusk and dawn](ref/spell/motes-of-dusk-and-dawn)_ (see page 28). These
+[spell-like abilities](ref/umr/spell-like-abilities) have a caster level equal to the shadow
+walker's rogue level. Using these spell-like abilities does not hamper the shadow walker's vision;
+for example, she can see through the _[deeper darkness](ref/spell/deeper-darkness)_ she creates, and
+does not take penalties for light sensitivity in the area of her own
+_[daylight](ref/spell/daylight)_.
 
-**Replaces:** Trapfinding
+This ability replaces the rogue talent gained at 2nd level and trap sense.
 
-**Illumination Control (Sp)**
+## Favored Illumination (Su) {#favored-illumination}
 
-**Ability:** At the start of each day, a shadow walker gains a number of illumination points equal
-to half her rogue level and can spend illumination points to use certain
-[spell-like abilities](ref/umr/spell-like-abilities). As long as she has at least 1 illumination
-point, she can cast [light](ref/spell/light) at will. She can spend 2 illumination points to cast
-[darkness](ref/spell/darkness), and 3 illumination points to cast [daylight](ref/spell/daylight),
-[deeper darkness](ref/spell/deeper-darkness), or
-[motes of dusk and dawn](ref/spell/motes-of-dusk-and-dawn).
+At 4th level, a shadow walker chooses one [illumination level](ref/rule/vision-and-light): bright
+light, normal light, dim light, or darkness (including supernatural darkness). While she is within
+her chosen illumination level, she gains a +2 bonus on initiative checks and Acrobatics, Perception,
+and Sleight of Hand skill checks, and can take 10 on any Stealth check attempted within that
+illumination level.
 
-**Flavor:** A shadow walker can manipulate nearby illumination.
+When the shadow walker confirms a critical hit with a melee attack that deals sneak attack damage
+while in her chosen illumination level, she regains 1 illumination point (to a maximum of half her
+rogue level).
 
-**Gained:** At 3rd Level
+Confirming a critical hit on a creature that has fewer Hit Dice than half the shadow walker's
+character level doesn't restore illumination points. When the shadow walker reaches 6th level, and
+every 3 rogue levels thereafter, the bonuses she gains within her chosen illumination level increase
+by 1.
 
-**Replaces:** Rogue talent gained at 2nd level, trap sense
+This ability replaces the rogue's uncanny dodge and improved uncanny dodge.
 
-**Special:** These [spell-like abilities](ref/umr/spell-like-abilities) have a caster level equal to
-the shadow walker's rogue level. Using these spell-like abilities does not hamper the shadow
-walker's vision; for example, she can see through the _[deeper darkness](ref/spell/deeper-darkness)_
-she creates, and does not take penalties for light sensitivity in the area of her own
-_[daylight](ref/spell/daylight)._
+## Rogue Talents {#rogue-talents}
 
-**Favored Illumination (Su)**
+The following rogue talents complement the shadow walker archetype: deft palm, gloom magic, greater
+gloom magic, obscuring blow, surprise attack, umbral gear.
 
-**Ability:** While she is within her chosen illumination level, she gains a bonus (equal to 1 +
-[one-third](ref/misc/fractions-and-rounding) of her rogue level) on initiative checks and
-Acrobatics, Perception, and Sleight of Hand skill checks, and can take 10 on any Stealth check
-attempted within that illumination level.
+## Advanced Talents {#advanced-talents}
 
-**Choice:** A shadow walker chooses one [illumination level](ref/rule/vision-and-light): bright
-light, normal light, dim light, or darkness (including supernatural darkness).
-
-**Gained:** At 4th Level
-
-**Replaces:** Uncanny dodge, improved uncanny dodge
-
-**Special:** When the shadow walker confirms a critical hit with a melee attack that deals sneak
-attack damage while in her chosen illumination level, she regains 1 illumination point (to a maximum
-of half her rogue level). Confirming a critical hit on a creature that has fewer Hit Dice than half
-the shadow walker's character level doesn't restore illumination points.
-
-**These rogue talents complement this archetype:** Deft palm, gloom magic, greater gloom magic,
-obscuring blow, surprise attack, umbral gear
-
-**These advanced rogue talents complement this archetype:** Hide in plain sight, see in darkness,
-slippery mind, unwitting ally, weapon snatcher
+The following advanced rogue talents complement the shadow walker archetype: hide in plain sight,
+see in darkness, slippery mind, unwitting ally, and weapon snatcher.
