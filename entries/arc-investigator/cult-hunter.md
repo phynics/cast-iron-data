@@ -16,117 +16,103 @@ page = "54"
 
 [fields]
 kind = "archetype"
+features = [
+  { anchor = "sense-madness", level = 1 },
+  { anchor = "purify-body-and-mind", level = 2 },
+  { anchor = "student-of-the-beyond", level = 2 },
+  { anchor = "ambush-defenses", level = 3 },
+  { anchor = "cultic-study" },
+  { anchor = "cult-combat" },
+  { anchor = "cult-strike" },
+  { anchor = "summoning-sense", level = 7 },
+  { anchor = "extraplanar-expulsion", level = 13 },
+]
 trades = [
-  { replaces = "Trapfinding", feature = "trapfinding" },
-  { replaces = "Poison resistance", feature = "poison-resistance", levels = [2, 5, 8] },
-  { replaces = "poison immunity", feature = "poison-resistance", levels = [11] },
-  { replaces = "Poison lore", feature = "poison-lore" },
-  { replaces = "Trap sense", feature = "trap-sense" },
-  { replaces = "Swift alchemy", feature = "swift-alchemy" },
-  { replaces = "The 7th-level investigator talent", feature = "investigator-talent", levels = [7] },
-  { replaces = "The 13th-level investigator talent", feature = "investigator-talent", levels = [13] },
-  { alters = "Studied combat", feature = "studied-combat" },
-  { alters = "Studied strike", feature = "studied-strike" },
+  { replaces = "Trapfinding", feature = "trapfinding", by = ["sense-madness"] },
+  { replaces = "Poison resistance", feature = "poison-resistance", levels = [2, 5, 8], by = ["purify-body-and-mind"] },
+  { replaces = "poison immunity", feature = "poison-resistance", levels = [11], by = ["purify-body-and-mind"] },
+  { replaces = "Poison lore", feature = "poison-lore", by = ["student-of-the-beyond"] },
+  { replaces = "Trap sense", feature = "trap-sense", by = ["ambush-defenses"] },
+  { replaces = "Swift alchemy", feature = "swift-alchemy", by = ["cultic-study"] },
+  { replaces = "The 7th-level investigator talent", feature = "investigator-talent", levels = [7], by = ["summoning-sense"] },
+  { replaces = "The 13th-level investigator talent", feature = "investigator-talent", levels = [13], by = ["extraplanar-expulsion"] },
+  { alters = "Studied combat", feature = "studied-combat", by = ["cult-combat"] },
+  { alters = "Studied strike", feature = "studied-strike", by = ["cult-strike"] },
 ]
 +++
 
 Cult hunters seek out heretical secret societies, purging their ideological taint and banishing
 summoned servants.
 
-**Sense Madness (Ex)**
+## Sense Madness (Ex) {#sense-madness}
 
-**Passive:** A cult hunter adds a bonus equal to 1/2 his class level (minimum +1) on Sense Motive
-checks, or double that bonus to determine whether a creature suffers from natural or magical
-insanity.
+A cult hunter adds a bonus equal to 1/2 his class level (minimum +1) on Sense Motive checks, or
+double that bonus to determine whether a creature suffers from natural or magical insanity.
 
-**Replaces:** Trapfinding
+This ability replaces trapfinding.
 
-**Purify Mind and Body (Ex)**
+## Purify Body and Mind (Ex) {#purify-body-and-mind}
 
-**At 11th Level:** A cult hunter who fails a saving throw against a compulsion or poison can expend
-1 use of his _inspiration_ to reroll the saving throw (and his inspiration die, if added to the
-save). He must accept the result of this second roll, even if it is worse.
+At 2nd level, a cult hunter gains a +1 bonus on saving throws against compulsions and poisons. This
+bonus increases to +2 at 5th level and +3 at 8th level. At 11th level, a cult hunter who fails a
+saving throw against a compulsion or poison can expend 1 use of his inspiration to reroll the saving
+throw (and his inspiration die, if added to the save). He must accept the result of this second
+roll, even if it is worse.
 
-**At 5th Level:** This bonus increases to +2.
+This ability replaces poison resistance and poison immunity.
 
-**At 8th Level:** This bonus becomes +3.
+## Student of the Beyond (Ex) {#student-of-the-beyond}
 
-**Gained:** At 2nd Level
-
-**Passive:** A cult hunter gains a +1 bonus on saving throws against compulsions and poisons.
-
-**Replaces:** Poison resistance, poison immunity
-
-**Student of the Beyond (Ex)**
-
-**Gained:** At 2nd Level
-
-**Passive:** A cult hunter gains a bonus equal to 1/2 his class level on Knowledge and Spellcraft
+At 2nd level, a cult hunter gains a bonus equal to 1/2 his class level on Knowledge and Spellcraft
 checks made to recognize any calling and summoning spells, portals, rifts, and planar travel.
 
-**Replaces:** Poison lore
+This ability replaces poison lore.
 
-**Ambush Defense (Ex)**
+## Ambush Defenses (Ex) {#ambush-defenses}
 
-**Gained:** At 3rd Level
+At 3rd level, a cult hunter gains a +1 insight bonus during a surprise round triggered by his
+enemies on Reflex saves and to his AC. This bonus increases by 1 for every 3 investigator levels
+beyond 3rd.
 
-**Passive:** A cult hunter gains an insight bonus during a surprise round triggered by his enemies
-on Reflex saves and to his AC. This bonus is equal to one-third of his investigator level.
+This ability replaces trap sense.
 
-**Replaces:** Trap sense
+## Cultic Study (Ex) {#cultic-study}
 
-**Cultic Study (Ex)**
+A cult hunter can spend 8 hours studying a specific deity or religion to gain a +1 bonus on Bluff,
+Intimidate, Knowledge, Perception, and Sense Motive checks against followers of that deity or
+religion and against extraplanar creatures. These bonuses increase by 1 for every 4 investigator
+levels beyond 4th. If he studies a new deity or religion, the bonuses replace the former bonuses.
 
-**Ability:** A cult hunter can spend 8 hours studying a specific deity or religion to gain a bonus
-on Bluff, Intimidate, Knowledge, Perception, and Sense Motive checks against followers of that deity
-or religion and against extraplanar creatures. These bonuses are equal to one-fourth of his
-investigator level.
+This ability replaces swift alchemy.
 
-**Gained:** At 4th Level
+## Cult Combat (Ex) {#cult-combat}
 
-**Replaces:** Swift alchemy
+A cult hunter's bonuses on attack and damage rolls when using studied combat increase by 1 against
+followers of the cult he chose with his cultic study ability and decrease by 1 against other
+targets.
 
-**Special:** If he studies a new deity or religion, the bonuses replace the former bonuses.
+This ability alters studied combat.
 
-**Cult Combat (Ex)**
+## Cult Strike (Ex) {#cult-strike}
 
-**Alters:** Studied combat
+A cult hunter's studied strike uses d8s for the bonus damage against targets that belong to the cult
+he's studied. Against other targets, his studied strike uses d4s for the bonus damage.
 
-**Passive:** A cult hunter's bonuses on attack and damage rolls when using _studied combat_ increase
-by 1 against followers of the cult he chose with his _cultic study_ ability and decrease by 1
-against other targets.
+This ability alters studied strike.
 
-**Cult Strike (Ex)**
+## Summoning Sense (Su) {#summoning-sense}
 
-**Alters:** Studied strike
-
-**Passive:** A cult hunter's _studied strike_ uses d8s for the bonus damage against targets that
-belong to the cult he's studied. Against other targets, his _studied strike_ uses d4s for the bonus
-damage.
-
-**Summoning Sense (Su)**
-
-**Gained:** At 7th Level
-
-**Passive:** A cult hunter gains the benefits of [uncanny dodge](ref/ability/uncanny-dodge) and
+At 7th level, a cult hunter gains the benefits of [uncanny dodge](ref/ability/uncanny-dodge) and
 [improved uncanny dodge](ref/ability/improved-uncanny-dodge) against summoned creatures.
 
-**Replaces:** The 7th-level investigator talent
+This ability replaces the 7th-level investigator talent.
 
-**Extraplanar Expulsion (Sp)**
+## Extraplanar Expulsion (Sp) {#extraplanar-expulsion}
 
-**Ability:** A cult hunter can grant himself the ability to use
-[dispel chaos, dispel evil, dispel good, or dispel law](ref/spell/dispel-evil) as a
-[spell-like ability](ref/umr/spell-like-abilities) (using his investigator level as his caster level
-and his Intelligence to determine the DCs) by sacrificing an unused 5th- or 6th-level extract for
-the day.
+At 13th level, a cult hunter can grant himself the ability to use _dispel chaos_, _dispel evil_,
+_dispel good_, or _dispel law_ as a [spell-like ability](ref/umr/spell-like-abilities) (using his
+investigator level as his caster level and his Intelligence to determine the DCs) by sacrificing an
+unused 5th- or 6th-level extract for the day. He is able to use this ability as many times as he
+likes, but only so long as he continues to have unused 5th- or 6th-level extract slots to expend.
 
-**Gained:** At 13th Level
-
-**Replaces:** The 13th-level investigator talent
-
-**Usage:** He is able to use this ability as many times as he likes, but only so long as he
-continues to have unused 5th- or 6th-level extract slots to expend.
-
-**Usage:** He is able to use this ability as many times as he likes, but only so long as he
-continues to have unused 5th- or 6th-level extract slots to expend.
+This replaces the 13th-level investigator talent.

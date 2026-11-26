@@ -29,6 +29,7 @@ trades = [
   { replaces = "Well-versed", feature = "well-versed", by = ["resist-nature-s-lure"] },
   { alters = "The bard's spells", feature = "spells", by = ["plant-magic"] },
   { alters = "Lore master", feature = "lore-master", by = ["nature-lore"] },
+  { alters = "Class skills" },
 ]
 +++
 

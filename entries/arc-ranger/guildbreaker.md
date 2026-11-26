@@ -27,6 +27,7 @@ trades = [
   { replaces = "Hunter's bond", feature = "hunter-s-bond", by = ["deep-cover"] },
   { replaces = "Woodland stride", feature = "woodland-stride", by = ["crowd-stride"] },
   { alters = "Favored enemy", feature = "favored-enemy", by = ["favored-organization"] },
+  { alters = "Class skills" },
 ]
 +++
 

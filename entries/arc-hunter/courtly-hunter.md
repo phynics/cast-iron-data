@@ -30,6 +30,7 @@ trades = [
   { replaces = "Bonus tricks", feature = "bonus-tricks", by = ["alternate-form"] },
   { alters = "Animal companion", feature = "animal-companion", by = ["courtly-companion"] },
   { alters = "Animal focus", feature = "animal-focus", by = ["refined-focus"] },
+  { alters = "Class skills" },
 ]
 +++
 

@@ -28,6 +28,7 @@ trades = [
   { replaces = "Swashbuckler weapon training", feature = "swashbuckler-weapon-training", by = ["avenger-s-target"] },
   { alters = "Weapon and armor proficiency", feature = "weapon-and-armor-proficiencies" },
   { alters = "Swashbuckler finesse", feature = "swashbuckler-finesse", by = ["avenger-finesse"] },
+  { alters = "Class skills" },
 ]
 +++
 

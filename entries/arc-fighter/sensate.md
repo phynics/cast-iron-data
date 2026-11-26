@@ -36,6 +36,7 @@ trades = [
   { replaces = "Armor training 4", feature = "armor-training", levels = [15], by = ["steady"] },
   { replaces = "Armor mastery", feature = "armor-mastery", by = ["perfect-senses"] },
   { replaces = "Weapon mastery", feature = "weapon-mastery", by = ["precision"] },
+  { replaces = "Class skills" },
 ]
 +++
 

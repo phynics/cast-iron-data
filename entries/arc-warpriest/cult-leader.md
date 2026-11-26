@@ -28,6 +28,7 @@ trades = [
   { replaces = "Bonus feats gained at 3rd, 9th, and 15th levels", feature = "bonus-feats", levels = [3, 9, 15], by = ["sneak-attack"] },
   { replaces = "Channel energy", feature = "channel-energy", by = ["enthrall"] },
   { replaces = "Bonus feat gained at 12th level", feature = "bonus-feats", levels = [12], by = ["hide-in-plain-sight"] },
+  { replaces = "Class skills" },
 ]
 +++
 

@@ -33,6 +33,7 @@ trades = [
   { replaces = "Bonus feats gained at 6th, 12th, and 18th levels", feature = "bonus-feats", levels = [6, 12, 18], by = ["bonus-style-feat"] },
   { replaces = "Sacred armor", feature = "sacred-armor", by = ["ki-pool"] },
   { replaces = "Bonus feat gained at 9th level", feature = "bonus-feats", levels = [9], by = ["miraculous-fortitude"] },
+  { replaces = "Class skills" },
 ]
 +++
 

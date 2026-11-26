@@ -16,12 +16,19 @@ page = "48"
 
 [fields]
 kind = "archetype"
+features = [
+  { anchor = "domains" },
+  { anchor = "forbidden-knowledge" },
+  { anchor = "unhinged-mind" },
+  { anchor = "channel-the-void", level = 1 },
+  { anchor = "maddening-gaze", level = 5 },
+]
 trades = [
-  { replaces = "Spontaneous casting", feature = "spontaneous-casting" },
-  { replaces = "Increases to channel energy gained at 5th, 11th, and 19th levels", feature = "channel-energy", levels = [5, 11, 19] },
-  { alters = "Alignment" },
-  { alters = "Domains", feature = "domains" },
-  { alters = "Channel energy", feature = "channel-energy" },
+  { replaces = "Spontaneous casting", feature = "spontaneous-casting", by = ["channel-the-void"] },
+  { replaces = "Increases to channel energy gained at 5th, 11th, and 19th levels", feature = "channel-energy", levels = [5, 11, 19], by = ["maddening-gaze"] },
+  { alters = "The cleric's required alignment" },
+  { alters = "Domains", feature = "domains", by = ["domains"] },
+  { alters = "Channel energy", feature = "channel-energy", by = ["channel-the-void"] },
 ]
 +++
 
@@ -29,93 +36,84 @@ Typically grasping, secretive, and thoroughly mad, Elder Mythos cultists open th
 to horrifying realities not meant for the sane as they strive to prepare the world for the eventual
 return of their alien masters.
 
-**Prerequisites:** Must worship an Outer God or Great Old One.
+## Alignment {#alignment}
 
-**Alignment**
+An Elder Mythos cultist must be chaotic evil or chaotic neutral.
 
-**Alters:** Alignment
+This alters the cleric's required alignment.
 
-**Info:** An Elder Mythos cultist must be chaotic evil or chaotic neutral.
+## Deities {#deities}
 
-**Domain**
+An Elder Mythos cultist must worship an Outer God or Great Old One.
 
-**Alters:** Domains
+## Domains {#domains}
 
-**Info:** An Elder Mythos cultist receives only a single domain, chosen from the following list:
-Chaos, [Madness](ref/domain/madness), or [Void](ref/domain/void). He can choose any subdomain of
-those domains offered by an Outer God or Great Old One he worships.
+An Elder Mythos cultist receives only a single domain, chosen from the following list: Chaos,
+[Madness](ref/domain/madness), or [Void](ref/domain/void). He can choose any subdomain of those
+domains offered by an Outer God or Great Old One he worships.
 
-**Forbidden Knowledge (Ex)**
+This ability alters domains.
 
-**Passive:** An Elder Mythos cultist gains a +2 profane bonus on all Knowledge (arcana), Knowledge
+## Forbidden Knowledge (Ex) {#forbidden-knowledge}
+
+An Elder Mythos cultist gains a +2 profane bonus on all Knowledge (arcana), Knowledge
 (dungeoneering), Knowledge (history), Knowledge (planes), and Knowledge (religion) checks, and can
 attempt these checks untrained. This bonus doubles if the check is related to the Elder Mythos.
 
-**Unhinged Mind (Ex)**
+## Unhinged Mind (Ex) {#unhinged-mind}
 
-**Flavor:** Bartering sanity for unspeakable knowledge, an Elder Mythos cultist props up his
-crumbling sanity with a darkly enigmatic personality.
+Bartering sanity for unspeakable knowledge, an Elder Mythos cultist props up his crumbling sanity
+with a darkly enigmatic personality. An Elder Mythos cultist uses Charisma instead of Wisdom as his
+key spellcasting ability score (to determine his spell DCs,
+[bonus spells](ref/rule/determine-bonuses) per day, bonus on concentration checks, and so on), to
+determine the effects and number of uses of his domain powers, and to modify his Will saving throws.
+However, because of the fragile state of his mind, the Elder Mythos cultist takes a -2 penalty on
+Will saves to resist mind-affecting effects. An Elder Mythos cultist automatically fails any save to
+resist the effects of _[confusion](ref/spell/confusion)_, _[insanity](ref/spell/insanity)_, and
+_[nightmare](ref/spell/nightmare)_, and other similar effects so long as the effect's caster level
+is higher than his character level.
 
-**Info:** An Elder Mythos cultist uses Charisma instead of Wisdom as his key spellcasting ability
-score (to determine his spell DCs, [bonus spells](ref/rule/determine-bonuses) per day, bonus on
-concentration checks, and so on), to determine the effects and umber of uses of his domain powers,
-and to modify his Will saving throws.
+## Channel the Void (Su) {#channel-the-void}
 
-**Passive:** Because of the fragile state of his mind, the Elder Mythos cultist takes a -2 penalty
-on Will saves to resist mind-affecting effects. An Elder Mythos cultist automatically fails any save
-to resist the effects of [confusion](ref/spell/confusion), [insanity](ref/spell/insanity), and
-[nightmare](ref/spell/nightmare), and other similar effects so long as the effect's caster level is
-higher than his character level.
+At 1st level, when an Elder Mythos cultist channels energy, he taps into the unthinkable void
+between the stars. This is similar to channeling negative energy, but instead of healing undead,
+this blast of energy harms and devours living beings, corporeal non-skeletal undead, and constructs
+crafted from flesh (such as [flesh golems](ref/monster/golem-flesh-golem)). This is not negative
+energy damage; instead, the damage manifests in the form of wounds from supernatural deterioration
+and rot. A creature that would take damage from this energy can attempt a Fortitude save to halve
+the damage, rather than a Will save. At 8th level, a creature that both fails the Fortitude save and
+would be killed or destroyed by this effect is entirely disintegrated, leaving behind only a trace
+of fine dust. A disintegrated creature's equipment is unaffected. This ability still counts as
+channel energy, but it counts as neither positive nor negative energy specifically (for example, the
+Elder Mythos cultist couldn't take the [Turn Undead](ref/feat/turn-undead) or
+[Command Undead](ref/feat/command-undead) feat).
 
-**Channel the Void (Su)**
-
-**Ability:** When an Elder Mythos cultist channels energy, he taps into the unthinkable void between
-the stars. This is similar to channeling negative energy, but instead of healing undead, this blast
-of energy harms and devours living beings, corporeal non-skeletal undead, and constructs crafted
-from flesh (such as [flesh golems](ref/monster/golem-flesh-golem)). This is not negative energy
-damage; instead, the damage manifests in the form of wounds from supernatural deterioration and rot.
-
-**Alters:** Channel energy
-
-**At 8th Level:** A creature that both fails the Fortitude save and would be killed or destroyed by
-this effect is entirely disintegrated, leaving behind only a trace of fine dust. A disintegrated
-creature's equipment is unaffected.
-
-**Info:** A creature that would take damage from this energy can attempt a Fortitude save to halve
-the damage, rather than a Will save.
-
-**Replaces:** Spontaneous casting
-
-**Special:** This ability still counts as channel energy, but it counts as neither positive nor
-negative energy specifically (for example, the Elder Mythos cultist couldn't take the
-[Turn Undead](ref/feat/turn-undead) or [Command Undead](ref/feat/command-undead) feat). For the
-purposes of feats that require channel energy but refer to what happens if the character channels
-positive or negative energy, this ability alters the listed effect for negative energy. For
+For the purposes of feats that require channel energy but refer to what happens if the character
+channels positive or negative energy, this ability alters the listed effect for negative energy. For
 instance, an Elder Mythos cultist could use [Channel Smite](ref/feat/channel-smite) to damage living
 or fleshy creatures with his melee attack.
 
-**Maddening Gaze (Su)**
+This ability alters channel energy and replaces spontaneous casting.
 
-**At 11th Level:** The target takes 1d6+1 points of Wisdom damage and is confused and sickened for
-2d4 rounds. A successful Will save reduces the Wisdom damage to 1 point, and the target is instead
+## Maddening Gaze (Su) {#maddening-gaze}
+
+At 5th level, as a standard action, an Elder Mythos cultist can focus his gaze on a single living
+creature within 30 feet and inundate the creature's mind with visions of alien horror. The target
+takes 2 points of [Wisdom damage](ref/rule/ability-damage-drain) and becomes
+[confused](ref/misc/confused) and [sickened](ref/misc/sickened) for 1d4 rounds. A successful Will
+save (DC = 10 + 1/2 the Elder Mythos cultist's cleric level + his Charisma modifier) negates the
+Wisdom damage and the confusion effect, though the target is sickened for 1 round. This gaze attack
+is a mind-affecting effect. An Elder Mythos cultist can use this ability once per day at 5th level,
+plus an additional time per day for every 3 cleric levels thereafter.
+
+At 11th level, the target takes 1d6+1 points of Wisdom damage and is confused and sickened for 2d4
+rounds. A successful Will save reduces the Wisdom damage to 1 point, and the target is instead
 sickened for 1d6 rounds.
 
-**At 19th Level:** The target takes 2d6 points of Wisdom damage and is rendered permanently confused
-and sickened. Only [greater restoration](ref/spell/restoration-greater), [heal](ref/spell/heal),
-[limited wish](ref/spell/limited-wish), [miracle](ref/spell/miracle), or [wish](ref/spell/wish) can
-remove the confused and sickened conditions. A successful Will save halves the Wisdom damage, and
-the target is instead sickened for 2d6 rounds.
+At 19th level, the target takes 2d6 points of Wisdom damage and is rendered permanently confused and
+sickened. Only _[greater restoration](ref/spell/restoration-greater)_, _[heal](ref/spell/heal)_,
+_[limited wish](ref/spell/limited-wish)_, _[miracle](ref/spell/miracle)_, or
+_[wish](ref/spell/wish)_ can remove the confused and sickened conditions. A successful Will save
+halves the Wisdom damage, and the target is instead sickened for 2d6 rounds.
 
-**Gained:** At 5th Level
-
-**Replaces:** Increases to channel energy gained at 5th, 11th, and 19th levels
-
-**Standard:** An Elder Mythos cultist can focus his gaze on a single living creature within 30 feet
-and inundate the creature's mind with visions of alien horror. The target takes 2 points of
-[Wisdom damage](ref/rule/ability-damage-drain) and becomes [confused](ref/misc/confused) and
-[sickened](ref/misc/sickened) for 1d4 rounds. A successful Will save (DC = 10 +
-[half](ref/misc/fractions-and-rounding) the Elder Mythos cultist's cleric level + his Charisma
-modifier) negates the Wisdom damage and the confusion effect, though the target is sickened for 1
-round. This gaze attack is a mind-affecting effect.
-
-**Usage:** 1 time/day + 1 per 3 cleric levels beyond 5th
+This ability replaces the increases to channel energy gained at 5th, 11th, and 19th levels.

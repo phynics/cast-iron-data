@@ -27,6 +27,7 @@ trades = [
   { replaces = "Touch treatment", feature = "touch-treatment", by = ["fey-veil"] },
   { replaces = "Rule minds", feature = "rule-minds", by = ["one-with-the-fey"] },
   { alters = "Spellcasting", feature = "spells", by = ["nature-s-lure"] },
+  { alters = "Class skills" },
 ]
 +++
 

@@ -27,6 +27,7 @@ trades = [
   { replaces = "Stern gaze", feature = "stern-gaze", by = ["swift-and-silent"] },
   { alters = "Domain", feature = "domain", by = ["dark-descent"] },
   { alters = "Exploit weakness", feature = "exploit-weakness", by = ["deadly-efficiency"] },
+  { alters = "Class skills" },
 ]
 +++
 

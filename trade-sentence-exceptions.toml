@@ -1,0 +1,13 @@
+# Printed trade sentences that state no trade on purpose (phynics/cast-iron#540).
+# The corpus check (`cast-iron-corpus check`) reports a trade sentence ("This alters X", "This replaces X") of a listed feature that no
+# stored trade states, and allows the sentences named here. The list only shrinks: remove a row when the sentence gets a trade or leaves
+# the text; a row that excepts no sentence is an error. Each row needs the entry, the anchor of the listed feature that prints the
+# sentence, the sentence or a distinctive quote of it (matched without case and spacing), the reason and the issue that decides it
+# (`owner/repo#number`).
+
+[[exception]]
+entry = "ref/arc-shifter/weretouched"
+feature = "lycanthrope-aspect"
+sentence = "as detailed in each relevant class feature"
+reason = "The sentence \"This alters her other class features, as detailed in each relevant class feature\" is a cross-reference to the later features, which print their own trade sentences; it names no feature of its own (like ruling 40's \"as indicated below\")."
+issue = "phynics/cast-iron#540"

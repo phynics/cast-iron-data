@@ -16,71 +16,57 @@ page = "50"
 
 [fields]
 kind = "archetype"
+features = [
+  { anchor = "phantom", level = 1 },
+  { anchor = "soul-magic", level = 1 },
+  { anchor = "resist-death-s-call", level = 4 },
+  { anchor = "negative-immunity", level = 9 },
+]
 trades = [
-  { replaces = "Nature bond", feature = "nature-bond" },
-  { replaces = "wild shape", feature = "wild-shape" },
-  { replaces = "Nature sense", feature = "nature-sense" },
-  { replaces = "wild empathy", feature = "wild-empathy" },
-  { replaces = "Resist nature's lure", feature = "resist-nature-s-lure" },
-  { replaces = "Venom immunity", feature = "venom-immunity" },
+  { replaces = "Nature bond", feature = "nature-bond", by = ["phantom"] },
+  { replaces = "wild shape", feature = "wild-shape", by = ["phantom"] },
+  { replaces = "Nature sense", feature = "nature-sense", by = ["soul-magic"] },
+  { replaces = "wild empathy", feature = "wild-empathy", by = ["soul-magic"] },
+  { replaces = "Resist nature's lure", feature = "resist-nature-s-lure", by = ["resist-death-s-call"] },
+  { replaces = "Venom immunity", feature = "venom-immunity", by = ["negative-immunity"] },
 ]
 +++
 
 Some druids believe that birth and death are the most important parts of the natural cycle. They
 focus on destroying undead and putting troubled souls to rest.
 
-**Phantom**
+## Phantom {#phantom}
 
-**At 1st Level:** She gains the spiritualist's _phantom_ and _etheric tether_ class features.
+A death druid attracts phantoms like a [spiritualist](ref/class/spiritualist), though she focuses
+her efforts on putting those phantoms to rest. A death druid is continually attempting to figure out
+how to send her [phantom](ref/sidekick/phantom) to the afterlife (usually by completing the
+phantom's unfinished business as determined by the GM). If she is able to do so, she gains a new
+phantom with no additional effort on her part, sometime during the next week. At 1st level, she
+gains the spiritualist's phantom and etheric tether class features; at 4th level, she gains the
+bonded manifestation class feature; and at 14th level, she gains the spiritual bond class feature.
+She does not gain any of the other spiritualist abilities related to phantoms. The death druid
+treats her druid level as her spiritualist level for these abilities.
 
-**At 14th Level:** She gains the _spiritual bond_ class feature.
+This ability replaces nature bond and wild shape.
 
-**At 4th Level:** She gains the _bonded manifestation_ class feature.
+## Soul Magic {#soul-magic}
 
-**Passive:** A death druid attracts phantoms like a [spiritualist](ref/class/spiritualist), though
-she focuses her efforts on putting those phantoms to rest. A death druid is continually attempting
-to figure out how to send her [phantom](ref/sidekick/phantom) to the afterlife (usually by
-completing the phantom's unfinished business as determined by the GM). If she is able to do so, she
-gains a new phantom with no additional effort on her part, sometime during the next week.
+A death druid adds the following spells to her druid spell list at the given spell levels: 0—_grave
+words_; 1st—_sanctify corpse_; 2nd—_calm spirit_, _false life_, _ghostbane dirge_, _spiritual
+weapon_; 3rd—_speak with dead_; 4th—_speak with haunt_, _spiritual ally_; 5th—_breath of life_,
+_call spirit, mass ghostbane dirge_; 6th—_circle of death_, _undeath to death_.
 
-**Replaces:** Nature bond, wild shape
+This ability replaces nature sense and wild empathy.
 
-**Special:** She does not gain any of the other spiritualist abilities related to phantoms. The
-death druid treats her druid level as her spiritualist level for these abilities.
+## Resist Death's Call (Ex) {#resist-death-s-call}
 
-**Soul Magic**
+At 4th level, a death druid gains a +4 bonus on saving throws against death effects, negative
+energy, and energy drain.
 
-**Info:** A death druid adds the following spells to her druid spell list at the given spell levels.
+This ability replaces resist nature's lure.
 
-**Replaces:** Nature sense, wild empathy
+## Negative Immunity (Su) {#negative-immunity}
 
-**Cantrips:** Grave words
+At 9th level, a death druid is immune to negative energy and energy drain.
 
-**Spells:** Sanctify corpse
-
-**Spells:** Calm spirit, false life, ghostbane dirge, spiritual weapon
-
-**Spells:** Speak with dead
-
-**Spells:** Speak with haunt, spiritual ally
-
-**Spells:** Breath of life, call spirit, mass ghostbane dirge
-
-**Spells:** Circle of death, undeath to death
-
-**Resist Death's Call (Ex)**
-
-**Gained:** At 4th Level
-
-**Passive:** A death druid gains a +4 bonus on saving throws against death effects, negative energy,
-and energy drain.
-
-**Replaces:** Resist nature's lure
-
-**Negative Immunity (Su)**
-
-**Gained:** At 9th Level
-
-**Passive:** A death druid is immune to negative energy and energy drain.
-
-**Replaces:** Venom immunity
+This ability replaces venom immunity.

@@ -33,6 +33,7 @@ trades = [
   { replaces = "Aura of justice", feature = "aura-of-justice", by = ["natural-shield"] },
   { alters = "Smite evil", feature = "smite-evil", by = ["smite-evil"] },
   { alters = "Spells", feature = "spells", by = ["spells"] },
+  { alters = "Class skills" },
 ]
 +++
 
@@ -82,7 +83,7 @@ the [ranger](ref/class/ranger) class feature. Every 6 levels after 3rd, she sele
 favored terrain; each time she does so, the bonuses she gains in her previous favored terrain or
 terrains increase by 2.
 
-This replaces the mercies gained at 3rd level , 9th level, and 15th level.
+This replaces the mercies gained at 3rd level, 9th level, and 15th level.
 
 ## Spells {#spells}
 

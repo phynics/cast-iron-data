@@ -27,7 +27,6 @@ trades = [
   { replaces = "Haunt channeler", feature = "haunt-channeler", by = ["object-reading"] },
   { replaces = "Location channel", feature = "location-channel", by = ["apport-relic"] },
   { alters = "Spirit", feature = "spirit", by = ["relics", "powerful-bond"] },
-  { alters = "Spirit", by = ["relics", "powerful-bond"] },
   { alters = "Connection channel", feature = "connection-channel", by = ["connection-specialty"] },
 ]
 +++

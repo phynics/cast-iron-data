@@ -31,6 +31,7 @@ trades = [
   { replaces = "Swift poisoning", feature = "swift-poisoning", by = ["swift-ectochymistry"] },
   { replaces = "The 8th-level alchemist discovery", feature = "discovery", levels = [8], by = ["ghost-trap"] },
   { replaces = "Poison immunity", feature = "poison-resistance", levels = [10], by = ["ectochymical-analysis"] },
+  { alters = "Class skills" },
 ]
 +++
 

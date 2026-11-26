@@ -16,12 +16,19 @@ page = "18"
 
 [fields]
 kind = "archetype"
+features = [
+  { anchor = "hunt-portal", level = 1 },
+  { anchor = "resist-teleportation", level = 2 },
+  { anchor = "portal-lore", level = 2 },
+  { anchor = "transit-portals", level = 4 },
+  { anchor = "extended-portals", level = 11 },
+]
 trades = [
-  { replaces = "Trapfinding", feature = "trapfinding" },
-  { replaces = "Poison resistance", feature = "poison-resistance", levels = [2, 5, 8] },
-  { replaces = "Poison lore", feature = "poison-lore" },
-  { replaces = "Studied strike", feature = "studied-strike" },
-  { replaces = "Poison immunity", feature = "poison-resistance", levels = [11] },
+  { replaces = "Trapfinding", feature = "trapfinding", by = ["hunt-portal"] },
+  { replaces = "Poison resistance", feature = "poison-resistance", levels = [2, 5, 8], by = ["resist-teleportation"] },
+  { replaces = "Poison lore", feature = "poison-lore", by = ["portal-lore"] },
+  { replaces = "Studied strike", feature = "studied-strike", by = ["transit-portals"] },
+  { replaces = "Poison immunity", feature = "poison-resistance", levels = [11], by = ["extended-portals"] },
 ]
 +++
 
@@ -30,94 +37,62 @@ enigmas: portals to other planes. While in many cases, portal seekers are boons 
 communities, performing public services such as discovering planar rifts and, as needed, closing
 unwanted ones, a portal seeker's goals are not necessarily benign.
 
-**Hunt Portal (Sp)**
+## Hunt Portal (Sp) {#hunt-portal}
 
-**Ability:** A portal seeker can try to locate an unseen magical portal within 60 feet by
-concentrating and attempting a DC 20 Knowledge (planes) check. If successful, the portal seeker
-becomes aware of the presence of all extradimensional portals (including those created by spells
-like [rope trick](ref/spell/rope-trick) or by magic items like
-[bags of holding](ref/magic-wondrous/bag-of-holding)) in a 60-foot radius. If she concentrates for 3
-rounds, she can pinpoint the locations of all portals in the area of effect. Some portals, at the
+A portal seeker can try to locate an unseen magical portal within 60 feet by concentrating and
+attempting a DC 20 Knowledge (planes) check. If successful, the portal seeker becomes aware of the
+presence of all extradimensional portals (including those created by spells like
+_[rope trick](ref/spell/rope-trick)_ or by magic items like
+_[bags of holding](ref/magic-wondrous/bag-of-holding)_) in a 60-foot radius. If she concentrates for
+3 rounds, she can pinpoint the locations of all portals in the area of effect. Some portals, at the
 GM's discretion, may be magically hidden and have a higher DC to detect.
 
-**Replaces:** Trapfinding
+This replaces trapfinding.
 
-**Resist Teleportation (Ex)**
+## Resist Teleportation (Ex) {#resist-teleportation}
 
-**Gained:** At 2nd Level
+At 2nd level, a portal seeker gains a +2 bonus on saving throws against effects that attempt to
+magically transport her via a teleportation effect. This bonus increases by 1 at 5th level and every
+3 levels thereafter, to a maximum bonus of +8 at 20th level. The portal seeker also applies this
+bonus to saving throws against _[imprisonment](ref/spell/imprisonment)_, and she never takes a
+penalty on her save against this spell as a result of the caster knowing her name and facts about
+her life.
 
-**Passive:** A portal seeker gains a +2 bonus on saving throws against effects that attempt to
-magically transport her via a teleportation effect. The portal seeker also applies this bonus to
-saving throws against [imprisonment](ref/spell/imprisonment), and she never takes a penalty on her
-save against this spell as a result of the caster knowing her name and facts about her life.
+This replaces poison resistance.
 
-**Replaces:** Poison resistance
+## Portal Lore (Ex) {#portal-lore}
 
-At 5th level: This bonus increases to +3.
-
-At 8th level: This bonus increases to +4.
-
-At 11th level: This bonus increases to +5.
-
-At 14th level: This bonus increases to +6.
-
-At 17th level: This bonus increases to +7.
-
-At 20th level: This bonus increases to +8.
-
-**Portal Lore (Ex)**
-
-**Ability:** When a portal seeker detects a portal, she can attempt a Knowledge (planes) check (DC =
-15 + the portal's caster level, or DC 25 if the caster level isn't specified) to determine the
+At 2nd level, when a portal seeker detects a portal, she can attempt a Knowledge (planes) check (DC
+= 15 + the portal's caster level, or DC 25 if the caster level isn't specified) to determine the
 portal's destination plane. If her result exceeds the DC by 5 or more, she also determines the rough
 location on the destination plane where the portal leads, and if the result exceeds the DC by 10 or
 more, she also determines any command words, portal keys, and other necessary elements needed to
 open the portal.
 
-**Gained:** At 2nd Level
+This replaces poison lore.
 
-**Replaces:** Poison lore
+## Transit Portals (Su) {#transit-portals}
 
-**Transit Portals (Su)**
-
-**Ability:** A portal seeker can create ephemeral portals to improve her maneuverability. At the
+At 4th level, a portal seeker can create ephemeral portals to improve her maneuverability. At the
 start of each day, she gains a number of Portal Points equal to her investigator level. She can
-spend 1 Portal Point as a **swift action** during a move or [withdraw](ref/rule/withdraw) action to
-open and step through a momentary portal to a location within 20 feet that she can see. Stepping
-through the portal takes 5 feet of movement, and while the rest of her movement provokes attacks of
+spend 1 Portal Point as a swift action during a move or [withdraw](ref/rule/withdraw) action to open
+and step through a momentary portal to a location within 20 feet that she can see. Stepping through
+the portal takes 5 feet of movement, and while the rest of her movement provokes attacks of
 opportunity as normal, the extra movement from the portal is a teleportation effect that doesn't
 provoke attacks of opportunity.
 
-**Gained:** At 4th Level
+The distance she can travel increases by 10 feet at 6th level and every 2 levels thereafter, to a
+maximum distance of 100 feet at 20th level.
 
-**Replaces:** Studied strike
+This replaces studied strike.
 
-At 6th level: The distance she can travel increases to 30 feet.
+## Extended Portals (Su) {#extended-portals}
 
-At 8th level: The distance she can travel increases to 40 feet.
+At 11th level, a portal seeker can spend 2 Portal Points to create two portals as a standard action,
+one in an adjacent square and one within 5 feet per investigator level she has in a visible
+location. These portals persist until the end of her next turn, and creatures of any size can step
+move through either, using 5 feet of movement to exit from the other portal. At the end of her next
+turn, she can spend an additional 2 Portal Points as a free action to extend the portals' duration
+by 1 round.
 
-At 10th level: The distance she can travel increases to 50 feet.
-
-At 12th level: The distance she can travel increases to 60 feet.
-
-At 14th level: The distance she can travel increases to 70 feet.
-
-At 16th level: The distance she can travel increases to 80 feet.
-
-At 18th level: The distance she can travel increases to 90 feet.
-
-At 20th level: The distance she can travel increases to 100 feet.
-
-**Extended Portals (Su)**
-
-**Gained:** At 11th Level
-
-**Replaces:** Poison immunity
-
-**Special:** At the end of her next turn, she can spend an additional 2 Portal Points as a **free
-action** to extend the portals' duration by 1 round.
-
-**Standard:** A portal seeker can spend 2 Portal Points to create two portals, one in an adjacent
-square and one within 5 feet per investigator level she has in a visible location. These portals
-persist until the end of her next turn, and creatures of any size can step move through either,
-using 5 feet of movement to exit from the other portal.
+This replaces poison immunity.

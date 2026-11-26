@@ -27,6 +27,7 @@ trades = [
   { replaces = "The ability to spend ki to increase his speed by 20 feet for 1 round", by = ["deceptive-ki"] },
   { alters = "Flurry of blows", feature = "flurry-of-blows", by = ["feinting-flurry"] },
   { alters = "ki pool", feature = "ki-pool", by = ["feinting-flurry", "deceptive-ki"] },
+  { alters = "Class skills" },
 ]
 +++
 

@@ -31,6 +31,7 @@ trades = [
   { replaces = "Aura of resolve", feature = "aura-of-resolve", by = ["fireproof-aura"] },
   { replaces = "Aura of justice", feature = "aura-of-justice", by = ["sacred-grove"] },
   { replaces = "Aura of faith", feature = "aura-of-faith", by = ["aura-of-preservation"] },
+  { alters = "Class skills" },
 ]
 +++
 

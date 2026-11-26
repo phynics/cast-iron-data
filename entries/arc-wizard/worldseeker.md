@@ -16,12 +16,18 @@ page = "21"
 
 [fields]
 kind = "archetype"
+features = [
+  { anchor = "walk-the-planes", level = 1 },
+  { anchor = "planar-adaptation", level = 8 },
+  { anchor = "planar-associates" },
+  { anchor = "planar-redoubt", level = 15 },
+]
 trades = [
-  { replaces = "Scribe Scroll", feature = "scribe-scroll" },
-  { replaces = "The school ability normally gained at 6th or 8th level", feature = "arcane-school", levels = [6, 8], power = "school powers" },
-  { replaces = "5th-level bonus feat", feature = "bonus-feats", levels = [5] },
-  { replaces = "15th-level bonus feat", feature = "bonus-feats", levels = [15] },
-  { alters = "Arcane bond", feature = "arcane-bond" },
+  { replaces = "Scribe Scroll", feature = "scribe-scroll", by = ["walk-the-planes"] },
+  { replaces = "The school ability normally gained at 6th or 8th level", feature = "arcane-school", levels = [6, 8], power = "school powers", by = ["planar-adaptation"] },
+  { replaces = "Bonus feat gained at 5th level", feature = "bonus-feats", levels = [5], by = ["planar-associates"] },
+  { replaces = "Bonus feat gained at 15th level", feature = "bonus-feats", levels = [15], by = ["planar-redoubt"] },
+  { alters = "Arcane bond", feature = "arcane-bond", by = ["planar-associates"] },
 ]
 +++
 
@@ -37,65 +43,52 @@ available spells is a boon when exploring the countless wonders of the Great Bey
 specialize usually do so as [conjurers](ref/arcaneschool/conjuration). Conjuration is a poor choice
 of oppositional school for a worldseeker.
 
-**Walk the Planes (Sp, Su)**
+## Walk the Planes (Sp, Su) {#walk-the-planes}
 
-**Flavor:** A worldseeker learns every plane's place in the Great Beyond and trains to survive even
-on the harshest of them.
+A worldseeker learns every plane's place in the Great Beyond and trains to survive even on the
+harshest of them. She gains a +2 bonus on Knowledge (planes) checks and is constantly under the
+effects of _[endure elements](ref/spell/endure-elements)_.
 
-**Passive:** She gains a +2 bonus on Knowledge (planes) checks and is constantly under the effects
-of [endure elements](ref/spell/endure-elements).
+This replaces Scribe Scroll.
 
-**Replaces:** Scribe Scroll
+## Planar Adaptation (Su) {#planar-adaptation}
 
-**Planar Adaptation (Su)**
+At 8th level, a worldseeker is continually protected from planar environments as by
+_[planar adaptation](ref/spell/planar-adaptation)_. At 15th level, she can extend that benefit to
+all allies within 30 feet of her.
 
-**At 15th Level:** She can extend that benefit to all allies within 30 feet of her.
+This replaces the school ability normally gained at 6th or 8th level.
 
-**At 8th Level:** A worldseeker is continually protected from planar environments as by
-[planar adaptation](ref/spell/planar-adaptation).
+## Planar Associates (Ex) {#planar-associates}
 
-**Replaces:** The school ability normally gained at 6th or 8th level
+A worldseeker's travels and dealings across the planes allow her to make connections she can call
+upon when necessary to gain assistance without needing to resort to
+_[planar binding](ref/spell/planar-binding)_. A worldseeker must choose a
+[familiar](ref/ability/familiars) for her arcane bond. At 5th level, she gains
+[Improved Familiar](ref/feat/improved-familiar) as a bonus feat and must choose an outsider familiar
+that matches her alignment exactly; she can choose an outsider in this way even if it normally
+requires a 7th-level spellcaster as its master.
 
-**Planar Associates (Ex)**
-
-**Alters:** Arcane bond
-
-**At 11th Level:** She automatically learns [planar ally](ref/spell/planar-ally) as a 6th-level
-wizard spell.
-
-**At 15th Level:** She automatically learns [greater planar ally](ref/spell/planar-ally-greater) as
-an 8th-level wizard spell.
-
-**At 5th Level:** She gains [Improved Familiar](ref/feat/improved-familiar) as a bonus feat and must
-choose an outsider familiar that matches her alignment exactly; she can choose an outsider in this
-way even if it normally requires a 7th-level spellcaster as its master.
-
-**At 7th Level:** A worldseeker automatically learns
-[lesser planar ally](ref/spell/planar-ally-lesser) as a 4th-level wizard spell.
-
-**Info:** A worldseeker's travels and dealings across the planes allow her to make connections she
-can call upon when necessary to gain assistance without needing to resort to
-[planar binding](ref/spell/planar-binding). A worldseeker must choose a
-[familiar](ref/ability/familiars) for her _arcane bond._
-
-**Replaces:** 5th-level bonus feat
-
-**Special:** She can swap out a prepared spell of an equal spell level to spontaneously cast any of
-the three bonus spells (one 4th-level spell for
-_[lesser planar ally](ref/spell/planar-ally-lesser),_ a 6th-level spell for
-_[planar ally](ref/spell/planar-ally),_ and a 8th level spell for
+At 7th level, a worldseeker automatically learns
+_[lesser planar ally](ref/spell/planar-ally-lesser)_ as a 4th-level wizard spell. She automatically
+learns _[planar ally](ref/spell/planar-ally)_ as a 6th-level wizard spell at 11th level, and
+_[greater planar ally](ref/spell/planar-ally-greater)_ as an 8th-level wizard spell at 15th level.
+She can swap out a prepared spell of an equal spell level to spontaneously cast any of these three
+spells (one 4th-level spell for _[lesser planar ally](ref/spell/planar-ally-lesser)_, a 6th-level
+spell for _[planar ally](ref/spell/planar-ally)_, and a 8th level spell for
 _[greater planar ally](ref/spell/planar-ally-greater)_).
 
 The first time each day she casts one of these three spells, the worldseeker reduces the gp value of
-the material component cost by an amount equal to her caster level × 100 (to a minimum cost of 0
+the material component cost by an amount equal to her caster level � 100 (to a minimum cost of 0
 gp).
 
-**Planar Redoubt (Sp)**
+This alters arcane bond and replaces the bonus feat gained at 5th level.
 
-**Ability:** A worldseeker creates a _planar redoubt,_ a personal demiplane to which she can retreat
-to rest and plan. This functions like [lesser create demiplane](ref/spell/create-demiplane-lesser),
-except the demiplane is up to a single 50-foot cube in size and is permanent.
+## Planar Redoubt (Sp) {#planar-redoubt}
 
-**Gained:** At 15th Level
+At 15th level, a worldseeker creates a planar redoubt, a personal demiplane to which she can retreat
+to rest and plan. This functions like
+_[lesser create demiplane](ref/spell/create-demiplane-lesser)_, except the demiplane is up to a
+single 50-foot cube in size and is permanent.
 
-**Replaces:** 15th-level bonus feat
+This replaces the bonus feat gained at 15th level.

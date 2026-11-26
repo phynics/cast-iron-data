@@ -37,6 +37,7 @@ trades = [
   { alters = "Weapon and armor proficiencies", feature = "weapon-and-armor-proficiencies" },
   { alters = "Challenge", feature = "challenge", by = ["titanic-challenge"] },
   { alters = "Mount", feature = "mount", by = ["dinosaur-mount"] },
+  { alters = "Class skills" },
 ]
 +++
 

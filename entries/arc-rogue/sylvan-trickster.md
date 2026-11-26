@@ -27,6 +27,7 @@ trades = [
   { replaces = "Uncanny dodge", feature = "uncanny-dodge", by = ["resist-nature-s-lure"] },
   { replaces = "Improved uncanny dodge", feature = "improved-uncanny-dodge", by = ["fey-resistance"] },
   { alters = "Rogue talents", feature = "rogue-talents", by = ["fey-tricks"] },
+  { alters = "Class skills" },
 ]
 +++
 

@@ -32,6 +32,7 @@ trades = [
   { replaces = "Woodland stride", feature = "woodland-stride", by = ["animal-shape"] },
   { replaces = "Raise animal companion", feature = "raise-animal-companion", by = ["improved-shifting-companion"] },
   { alters = "One with the wild", feature = "one-with-the-wild", by = ["one-with-the-wild"] },
+  { alters = "Class skills" },
 ]
 +++
 

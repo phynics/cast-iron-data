@@ -31,6 +31,8 @@ trades = [
   { replaces = "Vigilante specialization", feature = "vigilante-specialization", by = ["inquisition"] },
   { alters = "Weapon proficiencies", feature = "weapon-and-armor-proficiencies", power = "weapons" },
   { alters = "Vigilante talents", feature = "vigilante-talent", by = ["zealot-talents"] },
+  { alters = "Class skills" },
+  { alters = "Skill ranks per level" },
 ]
 +++
 
@@ -49,7 +51,7 @@ This alters the vigilante's class skills.
 A zealot gains a number of skill ranks equal to 4 + his Intelligence modifier at each level, instead
 of 6 + his Intelligence modifier skill ranks.
 
-This alter's the vigilante's skill ranks per level.
+This alters the vigilante's skill ranks per level.
 
 ## Weapon Proficiencies {#weapon-proficiencies}
 

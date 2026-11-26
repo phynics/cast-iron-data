@@ -25,7 +25,6 @@ trades = [
   { replaces = "The phantom's emotional focus", feature = "phantom", power = "emotional focus", by = ["emotionless"] },
   { alters = "Phantom", feature = "phantom", by = ["geistform-phantom"] },
   { alters = "Bonded manifestation", feature = "bonded-manifestation", by = ["spiritual-manifestation"] },
-  { alters = "Phantom", by = ["geistform-phantom"] },
 ]
 +++
 

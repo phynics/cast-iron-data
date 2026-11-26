@@ -27,6 +27,7 @@ trades = [
   { replaces = "Solo tactics", feature = "solo-tactics", by = ["unleashed-fury"] },
   { replaces = "teamwork feats", feature = "teamwork-feat", by = ["unleashed-fury"] },
   { alters = "Cunning initiative", feature = "cunning-initiative", by = ["always-wary"] },
+  { alters = "Class skills" },
 ]
 +++
 
