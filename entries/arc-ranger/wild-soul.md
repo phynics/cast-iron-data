@@ -18,7 +18,7 @@ page = "75"
 kind = "archetype"
 features = [
   { anchor = "unfettered-soul" },
-  { anchor = "nemesis" },
+  { anchor = "nemesis", level = 1 },
   { anchor = "nemesis-defense", level = 8 },
   { anchor = "break-the-interloper", level = 11 },
   { anchor = "dizzying-onslaught", level = 19 },

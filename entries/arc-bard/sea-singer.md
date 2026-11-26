@@ -20,7 +20,7 @@ features = [
   { anchor = "bardic-performance" },
   { anchor = "sea-shanty", level = 1 },
   { anchor = "still-water", level = 3 },
-  { anchor = "whistle-the-wind" },
+  { anchor = "whistle-the-wind", level = 6 },
   { anchor = "call-the-storm", level = 18 },
   { anchor = "world-traveler", level = 1 },
   { anchor = "familiar", level = 2 },

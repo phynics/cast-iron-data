@@ -16,8 +16,11 @@ page = "13"
 
 [fields]
 kind = "archetype"
+features = [
+  { anchor = "magical-tail", level = 3 },
+]
 trades = [
-  { replaces = "Bloodline spell", feature = "bloodline", power = "bloodline spell" },
+  { replaces = "Bloodline spell", feature = "bloodline", power = "bloodline spell", by = ["magical-tail"] },
 ]
 +++
 
@@ -27,18 +30,13 @@ their blood or have been blessed by their race's deific matron, [Daikitsu](ref/f
 result, most that harness the mystic powers of their newfound tails often gain sorcerous powers,
 becoming nine-tailed heirs.
 
-**Prerequisites:** Kitsune
+This archetype is available only to kitsune characters.
 
-**Magical Tail**
+## Magical Tail {#magical-tail}
 
-**Ability:** A nine-tailed heir gains [Magical Tail](ref/feat/magical-tail) as a bonus feat.
+At 3rd level and every 4 levels thereafter, a nine-tailed heir gains
+[Magical Tail](ref/feat/magical-tail) as a bonus feat. If the nine-tailed heir already has nine
+tails, each additional time the feat is taken, the sorcerer gains one additional daily use of the
+lowest level Magical Tail ability not already affected by this effect.
 
-**Gained:** At 3rd Level
-
-**Repeat:** The sorcerer again gains Magical Tail as a bonus feat., 7, 4
-
-**Replaces:** Bloodline spell
-
-**Special:** If the nine-tailed heir already has nine tails, each additional time the feat is taken,
-the sorcerer gains one additional daily use of the lowest level Magical Tail ability not already
-affected by this effect.
+This ability replaces the bloodline spell class feature.

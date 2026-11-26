@@ -19,9 +19,9 @@ kind = "archetype"
 features = [
   { anchor = "halfhearted-challenge" },
   { anchor = "maiden-s-order", level = 1 },
-  { anchor = "devoted-defender" },
-  { anchor = "maiden-s-loyalty" },
-  { anchor = "dedicated-commander" },
+  { anchor = "devoted-defender", level = 3 },
+  { anchor = "maiden-s-loyalty", level = 4 },
+  { anchor = "dedicated-commander", level = 11 },
 ]
 trades = [
   { replaces = "Mount", feature = "mount", by = ["maiden-s-order"] },

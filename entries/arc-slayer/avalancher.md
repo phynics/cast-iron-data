@@ -17,7 +17,7 @@ page = "86"
 [fields]
 kind = "archetype"
 features = [
-  { anchor = "falling-strike" },
+  { anchor = "falling-strike", level = 1 },
   { anchor = "cliff-jumper", level = 1 },
   { anchor = "falling-dodge", level = 7 },
   { anchor = "fall-by-attack", level = 14 },

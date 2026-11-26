@@ -20,8 +20,8 @@ features = [
   { anchor = "arcane-strike", level = 1 },
   { anchor = "bardic-performance" },
   { anchor = "rallying-cry", level = 1 },
-  { anchor = "bladethirst" },
-  { anchor = "mass-bladethirst" },
+  { anchor = "bladethirst", level = 6 },
+  { anchor = "mass-bladethirst", level = 18 },
   { anchor = "arcane-bond", level = 5 },
   { anchor = "arcane-armor", level = 10 },
 ]

@@ -95,6 +95,13 @@ ref/arc-druid/wild-whisperer	This ability replaces the increase to wild shape gi
 ref/arc-fighter/martial-master	This ability replaces weapon training and weapon mastery.
 ref/arc-fighter/mutation-warrior	This ability replaces armor training 1.
 ref/arc-fighter/mutation-warrior	This ability replaces armor training 2, 3, 4, and armor mastery.
+ref/arc-gunslinger/bolt-ace	This deed replaces deadeye.
+ref/arc-gunslinger/bolt-ace	This deed replaces quick clear.
+ref/arc-gunslinger/bolt-ace	This deed replaces utility shot.
+ref/arc-gunslinger/bolt-ace	This deed replaces startling shot.
+ref/arc-gunslinger/bolt-ace	This deed replaces expert loading.
+ref/arc-gunslinger/bolt-ace	This deed replaces lightning reload.
+ref/arc-gunslinger/bolt-ace	This deed replaces menacing shot.
 ref/arc-gunslinger/bolt-ace	This ability replaces gun training.
 ref/arc-hunter/divine-hunter	This ability replaces teamwork feats.
 ref/arc-hunter/divine-hunter	This ability replaces hunter tactics.
@@ -261,7 +268,16 @@ ref/arc-summoner/spirit-summoner	This ability replaces aspect, maker’s call, m
 ref/arc-swashbuckler/daring-infiltrator	This alters the swashbuckler’s class skill list.
 ref/arc-swashbuckler/daring-infiltrator	This alters the bonus feat class ability.
 ref/arc-swashbuckler/daring-infiltrator	This ability replaces charmed life.
+ref/arc-swashbuckler/daring-infiltrator	This deed replaces swashbuckler initiative.
+ref/arc-swashbuckler/daring-infiltrator	This deed replaces menacing swordplay.
+ref/arc-swashbuckler/daring-infiltrator	This deed replaces bleeding wound.
 ref/arc-swashbuckler/flying-blade	This ability alters panache.
+ref/arc-swashbuckler/flying-blade	This deed replaces dodging panache.
+ref/arc-swashbuckler/flying-blade	This deed replaces kip-up.
+ref/arc-swashbuckler/flying-blade	This deed replaces menacing swordplay.
+ref/arc-swashbuckler/flying-blade	This deed replaces targeted strike.
+ref/arc-swashbuckler/flying-blade	This deed alters bleeding wound.
+ref/arc-swashbuckler/flying-blade	This deed replaces perfect thrust.
 ref/arc-swashbuckler/flying-blade	This ability replaces swashbuckler weapon training.
 ref/arc-swashbuckler/flying-blade	This ability replaces swashbuckler weapon mastery.
 ref/arc-swashbuckler/inspired-blade	This ability alters the panache class feature.
@@ -269,8 +285,13 @@ ref/arc-swashbuckler/inspired-blade	This ability replaces swashbuckler finesse.
 ref/arc-swashbuckler/inspired-blade	This ability replaces bleeding wound.
 ref/arc-swashbuckler/inspired-blade	This ability replaces swashbuckler weapon training.
 ref/arc-swashbuckler/inspired-blade	This ability replaces swashbuckler weapon mastery.
+ref/arc-swashbuckler/mouser	This deed replaces opportune parry and riposte.
+ref/arc-swashbuckler/mouser	This deed replaces menacing swordplay.
+ref/arc-swashbuckler/mouser	This deed replaces targeted strike.
+ref/arc-swashbuckler/mouser	This deed replaces bleeding wound.
 ref/arc-swashbuckler/musketeer	This ability replaces the swashbuckler’s weapon proficiencies.
 ref/arc-swashbuckler/musketeer	This ability replaces swashbuckler finesse.
+ref/arc-swashbuckler/musketeer	This deed replaces dodging panache.
 ref/arc-swashbuckler/mysterious-avenger	This alters the swashbuckler’s class skills.
 ref/arc-swashbuckler/mysterious-avenger	This alters the swashbuckler’s weapon and armor proficiency.
 ref/arc-swashbuckler/mysterious-avenger	This ability alters swashbuckler finesse.
@@ -279,6 +300,10 @@ ref/arc-swashbuckler/mysterious-avenger	This ability replaces the bonus feat gai
 ref/arc-swashbuckler/mysterious-avenger	This ability replaces swashbuckler weapon training.
 ref/arc-swashbuckler/picaroon	This replaces the swashbuckler’s weapon proficiency.
 ref/arc-swashbuckler/picaroon	This ability alters panache.
+ref/arc-swashbuckler/picaroon	This deed replaces opportune parry and riposte.
+ref/arc-swashbuckler/picaroon	This deed replaces kip-up.
+ref/arc-swashbuckler/picaroon	This deed replaces superior feint.
+ref/arc-swashbuckler/picaroon	This deed replaces bleeding wound.
 ref/arc-swashbuckler/picaroon	This ability replaces swashbuckler finesse.
 ref/arc-warpriest/champion-of-the-faith	This ability alters sacred weapon.
 ref/arc-warpriest/champion-of-the-faith	This ability replaces the bonus feat gained at 3rd level.

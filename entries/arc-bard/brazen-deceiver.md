@@ -20,7 +20,7 @@ features = [
   { anchor = "deceptive-tale", level = 1 },
   { anchor = "shameless-scoundrel", level = 1 },
   { anchor = "blatant-subtlety", level = 2 },
-  { anchor = "invoke-vyriavaxus" },
+  { anchor = "invoke-vyriavaxus", level = 2 },
   { anchor = "devil-s-tongue", level = 5 },
 ]
 trades = [

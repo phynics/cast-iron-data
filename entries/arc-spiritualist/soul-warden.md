@@ -18,7 +18,7 @@ page = "20"
 kind = "archetype"
 features = [
   { anchor = "nosoi-scribe", level = 1 },
-  { anchor = "psychopomp-s-bond" },
+  { anchor = "psychopomp-s-bond", level = 2 },
   { anchor = "warding-vessel", level = 3 },
   { anchor = "phantom-elegy", level = 8 },
   { anchor = "algea-call", level = 20 },

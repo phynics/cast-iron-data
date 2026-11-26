@@ -16,11 +16,19 @@ page = "8"
 
 [fields]
 kind = "archetype"
+features = [
+  { anchor = "hair-trigger-reflexes", level = 2 },
+  { anchor = "eye-for-trouble", level = 4 },
+  { anchor = "deeds" },
+  { anchor = "warning-shot", level = 7 },
+  { anchor = "opening-shot", level = 11 },
+]
 trades = [
-  { replaces = "Nimble", feature = "nimble" },
-  { replaces = "The bonus feat gained at 4th level", feature = "bonus-feats", levels = [4] },
-  { replaces = "Startling shot deed", feature = "deeds", power = "startling shot" },
-  { replaces = "Bleeding wound deed", feature = "deeds", power = "bleeding wound" },
+  { replaces = "Nimble", feature = "nimble", by = ["hair-trigger-reflexes"] },
+  { replaces = "The bonus feat gained at 4th level", feature = "bonus-feats", levels = [4], by = ["eye-for-trouble"] },
+  { replaces = "Startling shot", feature = "deeds", power = "startling shot", by = ["warning-shot"] },
+  { replaces = "Bleeding wound", feature = "deeds", power = "bleeding wound", by = ["opening-shot"] },
+  { alters = "Class skills" },
 ]
 +++
 
@@ -28,68 +36,51 @@ As vigilant sentinels, thronewardens identify and head off trouble. First employ
 Duchy of Alkenstar, they are now also found in the jungle courts of the Mwangi Expanse, the lesser
 chambers of Nex's Council of Three and Nine, and the Hurricane King's gatherings in the Shackles.
 
-**Gained class skills:** sm
+## Class Skills {#class-skills}
 
-**Lost class skills:** bluff
+A thronewarden adds Sense Motive to her list of class skills, instead of Bluff.
 
-**Hair-Trigger Reflexes (Ex)**
+This alters the gunslinger's class skills.
 
-**Ability:** As long as she has at least 1 grit point, a thronewarden can act in a surprise round
+## Hair-Trigger Reflexes (Ex) {#hair-trigger-reflexes}
+
+At 2nd level, as long as she has at least 1 grit point, a thronewarden can act in a surprise round
 even if she doesn't notice her enemies, though she remains [flat-footed](ref/rule/flat-footed) until
-she acts.
+she acts. In addition, she gains a +1 bonus on initiative checks. This bonus increases by 1 for
+every 4 gunslinger levels beyond 2nd. Finally, at 10th level, she can spend 1 grit point to take
+both a standard action and a move action (or a full-round action) during the surprise round.
 
-**At 10th Level:** She can spend 1 grit point to take both a **standard action** and a **move
-action** (or a **full-round action**) during the surprise round.
+This ability replaces nimble.
 
-**Gained:** At 2nd Level
+## Eye for Trouble (Ex) {#eye-for-trouble}
 
-**Passive:** She gains a +1 bonus on initiative checks.
-
-**Replaces:** Nimble
-
-At 6th level: The initiative bonus increases to +2.
-
-At 10th level: The initiative bonus increases to +3.
-
-At 14th level: The initiative bonus increases to +4.
-
-At 18th level: The initiative bonus increases to +5.
-
-**Eye for Trouble (Ex)**
-
-**Ability:** A thronewarden can spend 1 grit point when she attempts a Perception or Sense Motive
+At 4th level, a thronewarden can spend 1 grit point when she attempts a Perception or Sense Motive
 check to roll 1d6 and add the result to the check. She can do this after she attempts the check but
 only before the result is revealed.
 
-**Gained:** At 4th Level
+This ability replaces the bonus feat gained at 4th level.
 
-**Replaces:** The bonus feat gained at 4th level
+## Deeds {#deeds}
 
-**Deeds**
+A thronewarden has access to the following deeds.
 
-**Info:** A thronewarden has access to the following deeds.
+## Warning Shot (Ex) {#warning-shot}
 
-**Warning Shot (Ex)**
+At 7th level as a standard action, a thronewarden with at least 1 grit point can purposely miss a
+creature that she could normally target with a firearm attack and make it second-guess its actions.
+The creature is [staggered](ref/misc/staggered) on its next turn. If a thronewarden uses this
+ability in a surprise round on a creature that has not yet acted, that creature instead loses its
+surprise-round action if it has one.
 
-**Gained:** At 7th Level
+This deed replaces startling shot.
 
-**Replaces:** Startling shot deed
+## Opening Shot (Ex) {#opening-shot}
 
-**Standard:** A thronewarden with at least 1 grit point can purposely miss a creature that she could
-normally target with a firearm attack and make it second-guess its actions. The creature is
-[staggered](ref/misc/staggered) on its next turn. If a thronewarden uses this ability in a surprise
-round on a creature that has not yet acted, that creature instead loses its surprise-round action if
-it has one.
+At 11th level as a standard action, a thronewarden can call her allies to action in a surprise round
+by spending 1 grit point and shooting a firearm into the air. Any allies within 30 feet who would
+not normally be able to act in the surprise round can act at the end of the surprise round (their
+order is determined by their initiative results; they act in normal initiative order in following
+rounds). Allies who would normally act in the surprise round but who have not yet acted can take a
+full round's worth of actions instead of just a move or standard action.
 
-**Opening Shot (Ex)**
-
-**Gained:** At 11th Level
-
-**Replaces:** Bleeding wound deed
-
-**Standard:** A thronewarden can call her allies to action in a surprise round by spending 1 grit
-point and shooting a firearm into the air. Any allies within 30 feet who would not normally be able
-to act in the surprise round can act at the end of the surprise round (their order is determined by
-their initiative results; they act in normal initiative order in following rounds). Allies who would
-normally act in the surprise round but who have not yet acted can take a full round's worth of
-actions instead of just a move or standard action.
+This deed replaces bleeding wound.

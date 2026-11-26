@@ -17,7 +17,7 @@ page = "80"
 [fields]
 kind = "archetype"
 features = [
-  { anchor = "infernal-claws" },
+  { anchor = "infernal-claws", level = 1 },
   { anchor = "fiendish-aspect", level = 1 },
   { anchor = "fiendish-resilience", level = 2 },
   { anchor = "chimeric-fiend", level = 9 },

@@ -44,17 +44,16 @@ body. "The reanimated medium" refers to this spirit. Unlike a normal medium, a r
 becomes more powerful the more influence it has over its body. Each day, the reanimated medium can
 perform a seance at a location as normal to focus on one of his potential future legends. He
 channels that legendary potential as strongly as possible into his body. The spirit gains 3 points
-of inf luence over his body, to a maximum of 6 points. Since he is his own possessing spirit, he
-doesn't lose control at 5 or more points of inf luence, though he still suffers the legend's
-influence penalty as normal at 3 or more points of inf luence. All effects and abilities that
+of influence over his body, to a maximum of 6 points. Since he is his own possessing spirit, he
+doesn't lose control at 5 or more points of influence, though he still suffers the legend's
+influence penalty as normal at 3 or more points of influence. All effects and abilities that
 normally increase or decrease influence (such as spirit surge and spirit powers) have the opposite
 effect on a reanimated medium (for instance, propitiation increases influence by 1 point and spirit
 surge reduces influence by 1 point); this does not apply to the new abilities from the reanimated
 medium archetype. A reanimated medium can't choose to channel a weaker spirit to avoid losing
-influence from using spirit surge. The body of a reanimated medium who reaches 0 points of inf
-luence enters a deathlike coma and is helpless for 24 hours, after which the reanimated medium
-reverts to 1 point of inf luence if the body is still alive, but can't perform a seance for another
-24 hours.
+influence from using spirit surge. The body of a reanimated medium who reaches 0 points of influence
+enters a deathlike coma and is helpless for 24 hours, after which the reanimated medium reverts to 1
+point of influence if the body is still alive, but can't perform a seance for another 24 hours.
 
 A character who selects the reanimated medium archetype after 1st level can do so only after dying;
 at the GM's discretion, a dead character of another class with an intact body who has earned enough
@@ -78,7 +77,7 @@ replaces haunt channeler.
 ## Lingering Spirit (Su) {#lingering-spirit}
 
 At 5th level, a reanimated medium's spirit lingers for up to 1 round after death before departing if
-the medium spends 1 point of inf luence. If the reanimated medium died of hit point damage, healing
+the medium spends 1 point of influence. If the reanimated medium died of hit point damage, healing
 works on his body during the intervening round and can bring him back to life. Once the spirit
 departs, the _[breath of life](ref/spell/breath-of-life)_ spell continues to work for 1 additional
 round, even though the reanimated medium has been dead for more than 1 round. This ability replaces
@@ -99,6 +98,6 @@ ago and becomes a living embodiment of his legend. Any ally in the reanimated me
 perform a seance to channel the reanimated medium (the seance takes 1 hour and is subject to the
 other rules for a medium's seance). Each ally can do this only once per day. At the end of the
 seance, the reanimated medium can choose to reduce his influence by 1 point. If the reanimated
-medium does so, some of his spirit seeps into that ally, which can then spend that 1 point of inf
-luence to use any of the reanimated medium's abilities that decrease influence. This ability
+medium does so, some of his spirit seeps into that ally, which can then spend that 1 point of
+influence to use any of the reanimated medium's abilities that decrease influence. This ability
 replaces astral beacon.

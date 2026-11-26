@@ -24,7 +24,7 @@ features = [
   { anchor = "woodland-stride", level = 4 },
   { anchor = "stalwart", level = 9 },
   { anchor = "oaken-vitality", level = 11 },
-  { anchor = "take-their-heads" },
+  { anchor = "take-their-heads", level = 17 },
   { anchor = "indestructible", level = 20 },
 ]
 trades = [

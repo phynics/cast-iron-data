@@ -27,7 +27,7 @@ trades = [
 +++
 
 Some cavaliers are entrusted by their masters with the care and use of expensive and powerful
-oddities—firearms. Capable of inf licting shocking amounts of destruction without the aid of magic,
+oddities—firearms. Capable of inflicting shocking amounts of destruction without the aid of magic,
 these musketeers lead the advance of their troops, firing devastating fusillades long before the
 enemy can prepare for the armed charge that follows.
 

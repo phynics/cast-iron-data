@@ -19,8 +19,8 @@ kind = "archetype"
 features = [
   { anchor = "enhance-healing" },
   { anchor = "bardic-performance" },
-  { anchor = "healing-performance" },
-  { anchor = "funereal-ballad" },
+  { anchor = "healing-performance", level = 14 },
+  { anchor = "funereal-ballad", level = 20 },
 ]
 trades = [
   { replaces = "Versatile performance", feature = "versatile-performance", by = ["enhance-healing"] },

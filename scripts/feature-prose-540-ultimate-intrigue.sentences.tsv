@@ -60,6 +60,9 @@ ref/arc-druid/skinshaper	This ability replaces wild shape.
 ref/arc-druid/skinshaper	This ability replaces a thousand faces.
 ref/arc-druid/urushiol	This ability replaces nature bond and resist nature’s lure.
 ref/arc-druid/urushiol	This ability alters venom immunity.
+ref/arc-gunslinger/maverick	This deed replaces the gunslinger’s dodge deed.
+ref/arc-gunslinger/maverick	This deed replaces the pistol whip deed.
+ref/arc-gunslinger/maverick	This deed replaces the gunslinger initiative deed.
 ref/arc-hunter/courtly-hunter	This alters the hunter’s class skills.
 ref/arc-hunter/courtly-hunter	This ability alters animal companion.
 ref/arc-hunter/courtly-hunter	This ability alters animal focus.
@@ -242,9 +245,16 @@ ref/arc-spiritualist/zeitgeist-binder	This ability replaces the spiritualist’s
 ref/arc-swashbuckler/guiding-blade	This ability replaces bonus feats and the swashbuckler’s 1st-, 7th-, and 15th-level deeds, and it alters panache.
 ref/arc-swashbuckler/guiding-blade	This ability alters charmed life.
 ref/arc-swashbuckler/guiding-blade	This ability replaces nimble.
+ref/arc-swashbuckler/guiding-blade	This deed replaces the kip-up deed.
+ref/arc-swashbuckler/noble-fencer	This deed replaces the dodging panache deed.
+ref/arc-swashbuckler/noble-fencer	This deed replaces the superior feint deed.
 ref/arc-swashbuckler/noble-fencer	This ability replaces the subtle blade deed.
 ref/arc-swashbuckler/noble-fencer	This ability replaces charmed life.
 ref/arc-swashbuckler/veiled-blade	This alters the swashbuckler’s class skills.
+ref/arc-swashbuckler/veiled-blade	This deed replaces the swashbuckler’s opportune parry and riposte deed.
+ref/arc-swashbuckler/veiled-blade	This deed replaces the menacing swordplay deed.
+ref/arc-swashbuckler/veiled-blade	This deed replaces the swashbuckler’s grace deed.
+ref/arc-swashbuckler/veiled-blade	This deed replaces the swashbuckler’s edge deed.
 ref/arc-unchained-summoner/fey-caller	This alters the unchained summoner’s class skills.
 ref/arc-unchained-summoner/fey-caller	This ability alters the summoner’s summon monster spell-like ability.
 ref/arc-vigilante/brute	This ability alters dual identity.

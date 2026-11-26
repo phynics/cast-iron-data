@@ -17,7 +17,7 @@ page = "47"
 [fields]
 kind = "archetype"
 features = [
-  { anchor = "shifting-rage" },
+  { anchor = "shifting-rage", level = 1 },
   { anchor = "hybrid-rage", level = 5 },
   { anchor = "greater-shifting-rage", level = 11 },
   { anchor = "mighty-shifting-rage", level = 20 },

@@ -19,8 +19,8 @@ kind = "archetype"
 features = [
   { anchor = "bold-thief" },
   { anchor = "thief-s-confidence" },
-  { anchor = "rogue-talents" },
-  { anchor = "dazing-charm-deed" },
+  { anchor = "rogue-talents", level = 4 },
+  { anchor = "dazing-charm-deed", level = 3 },
   { anchor = "swaying-charm-deed" },
 ]
 trades = [

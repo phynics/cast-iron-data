@@ -24,7 +24,7 @@ features = [
   { anchor = "ghaele-s-assault", level = 11 },
   { anchor = "elysian-conviction", level = 2 },
   { anchor = "battle-dance", level = 3 },
-  { anchor = "affection-of-elysium" },
+  { anchor = "affection-of-elysium", level = 4 },
 ]
 trades = [
   { replaces = "Menacing swordplay deed", feature = "deeds", power = "menacing swordplay", by = ["bralani-s-swiftness"] },
