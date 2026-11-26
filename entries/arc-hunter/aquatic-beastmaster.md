@@ -16,10 +16,15 @@ page = "22"
 
 [fields]
 kind = "archetype"
+features = [
+  { anchor = "animal-focus", level = 1 },
+  { anchor = "wild-empathy", level = 1 },
+  { anchor = "oceanic-defense", level = 4 },
+]
 trades = [
-  { replaces = "Improved empathic link", feature = "improved-empathic-link" },
-  { alters = "Animal focus", feature = "animal-focus" },
-  { alters = "Wild Empathy", feature = "wild-empathy" },
+  { replaces = "Improved empathic link", feature = "improved-empathic-link", by = ["oceanic-defense"] },
+  { alters = "Animal focus", feature = "animal-focus", by = ["animal-focus"] },
+  { alters = "Wild Empathy", feature = "wild-empathy", by = ["wild-empathy"] },
 ]
 +++
 
@@ -28,107 +33,74 @@ alongside their animal companions to eradicate threats. Although many aquatic be
 want to be left alone in the areas they have claimed as their own, others use their abilities to
 fight against aboleth masterminds, sahuagin tribes, and other villains that haunt the oceans.
 
-**Animal Focus (Su)**
+## Animal Focus (Su) {#animal-focus}
 
-**Alters:** Animal focus
-
-**Info:** An aquatic beastmaster emulates animals found beneath the waves. This functions as
+An aquatic beastmaster emulates animals found beneath the waves. This functions as
 [animal focus](ref/ability/animal-foci), but it allows only the following choices.
 
-**Crab**
+### Crab {#crab}
 
-**At 15th Level:** They increase to +8 and +6.
+The creature gains a +4 competence bonus on Swim checks and a +2 competence bonus on
+[grapple](ref/rule/grapple) combat maneuver checks. These bonuses increase to +6 and +4,
+respectively, at 8th level and to +8 and +6 at 15th level.
 
-**At 8th Level:** These bonuses increase to +6 and +4, respectively.
+### Dolphin {#dolphin}
 
-**Passive:** The creature gains a +4 competence bonus on Swim checks and a +2 competence bonus on
-[grapple](ref/rule/grapple) combat maneuver checks.
+The creature gains a +4 competence bonus on Knowledge checks to identify the abilities and
+weaknesses of creatures. This bonus increases to +6 at 8th level and to +8 at 15th level.
 
-**Dolphin**
+### Eel {#eel}
 
-**At 15th Level:** It increases to +8.
+The creature gains a +2 enhancement bonus to Dexterity. This bonus increases to +4 at 8th level and
+to +6 at 15th level.
 
-**At 8th Level:** This bonus increases to +6.
+### Manta Ray {#manta-ray}
 
-**Passive:** The creature gains a +4 competence bonus on Knowledge checks to identify the abilities
-and weaknesses of creatures.
+The creature gains a +4 competence bonus on Stealth checks and a +2 bonus on saving throws against
+poison. These bonuses increase to +6 and +4, respectively, at 8th level and to +8 and +6 at 15th
+level.
 
-**Eel**
+### Octopus {#octopus}
 
-**At 15th Level:** It increases to +6.
+The creature gains a +4 competence bonus on Swim checks and a +2 competence bonus on grapple combat
+maneuver checks. These bonuses increase to +6 and +4, respectively, at 8th level and to +8 and +6 at
+15th level.
 
-**At 8th Level:** This bonus increases to +4.
+### Orca {#orca}
 
-**Passive:** The creature gains a +2 enhancement bonus to Dexterity.
+The creature gains a +2 enhancement bonus to Strength. This bonus increases to +4 at 8th level and
+to +6 at 15th level.
 
-**Manta Ray**
+### Shark {#shark}
 
-**At 15th Level:** They increase to +8 and +6.
+The creature gains a +4 competence bonus on Survival checks to track a creature to which the hunter
+or her animal companion has dealt damage in the past 24 hours. This bonus increases to +6 at 8th
+level and to +8 at 15th level.
 
-**At 8th Level:** These bonuses increase to +6 and +4, respectively.
+### Snake {#snake}
 
-**Passive:** The creature gains a +4 competence bonus on Stealth checks and a +2 bonus on saving
-throws against poison.
+The creature gains a +2 bonus on attack rolls when making attacks of opportunity and a +2 dodge
+bonus to AC against attacks of opportunity. These bonuses increase to +4 at 8th level and to +6 at
+15th level.
 
-**Octopus**
+### Turtle {#turtle}
 
-**At 15th Level:** They increase to +8 and +6.
+The creature gains a +2 enhancement bonus to its natural armor bonus. This bonus increases to +4 at
+8th level and to +6 at 15th level. (A creature without natural armor has an effective natural armor
+bonus of +0.)
 
-**At 8th Level:** These bonuses increase to +6 and +4, respectively.
+This ability alters animal focus.
 
-**Passive:** The creature gains a +4 competence bonus on Swim checks and a +2 competence bonus on
-grapple combat maneuver checks.^1-2^
+## Wild Empathy (Ex) {#wild-empathy}
 
-**Orca**
+An aquatic beastmaster's wild empathy functions only on creatures that have a swim speed or the
+aquatic or water subtype. However, she can improve the attitude of any such creature with
+Intelligence 2 or less regardless of type, including mindless creatures.
 
-**At 15th Level:** It increases to +6.
+## Oceanic Defense (Ex) {#oceanic-defense}
 
-**At 8th Level:** This bonus increases to +4.
-
-**Passive:** The creature gains a +2 enhancement bonus to Strength
-
-**Shark**
-
-**At 15th Level:** It increases to +8.
-
-**At 8th Level:** This bonus increases to +6.
-
-**Passive:** The creature gains a +4 competence bonus on Survival checks to track a creature to
-which the hunter or her animal companion has dealt damage in the past 24 hours.
-
-**Snake**
-
-**At 15th Level:** They increase to +6.
-
-**At 8th Level:** These bonuses increases to +4.
-
-**Passive:** The creature gains a +2 bonus on attack rolls when making attacks of opportunity and a
-+2 dodge bonus to AC against attacks of opportunity.
-
-**Turtle**
-
-**At 15th Level:** It increases to +6.
-
-**At 8th Level:** This bonus increases to +4.
-
-**Passive:** The creature gains a +2 enhancement bonus to its natural armor bonus.
-
-**Special:** A creature without natural armor has an effective natural armor bonus of +0.
-
-**Wild Empathy (Ex)**
-
-**Ability:** An aquatic beastmaster's wild empathy functions only on creatures that have a swim
-speed or the aquatic or water subtype. However, she can improve the attitude of any such creature
-with Intelligence 2 or less regardless of type, including mindless creatures.
-
-**Alters:** Wild Empathy
-
-**Oceanic Defense (Ex)**
-
-**Gained:** At 4th Level
-
-**Passive:** An aquatic beastmaster gains a +4 bonus on saving throws against spells with the water
+At 4th level, an aquatic beastmaster gains a +4 bonus on saving throws against spells with the water
 descriptor and the extraordinary or supernatural abilities of creatures with the aquatic or water
 subtype whenever her animal companion is within 60 feet.
 
-**Replaces:** Improved empathic link
+This ability replaces improved empathic link.

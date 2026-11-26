@@ -16,9 +16,13 @@ page = "92"
 
 [fields]
 kind = "archetype"
+features = [
+  { anchor = "bonus-feat", level = 2 },
+  { anchor = "raging-tactician", level = 7 },
+]
 trades = [
-  { replaces = "2nd, 6th, 10th, 14th, and 18th level rage powers", feature = "rage-powers", levels = [2, 6, 10, 14, 18] },
-  { replaces = "Damage reduction", feature = "damage-reduction" },
+  { replaces = "Rage powers gained at 2nd, 6th, 10th, 14th, and 18th level", feature = "rage-powers", levels = [2, 6, 10, 14, 18], by = ["bonus-feat"] },
+  { replaces = "Damage reduction", feature = "damage-reduction", by = ["raging-tactician"] },
 ]
 +++
 
@@ -26,32 +30,27 @@ Barbarian rages can be a thing of savage beauty, exhibiting a lethal grace. Whil
 displays of carnage often disregard group tactics, there are those barbarians whose rages inspire
 and spur on their allies during the ferocious dance of death.
 
-**Bonus Feat**
+## Bonus Feat {#bonus-feat}
 
-**Ability:** The pack rager can take a bonus teamwork feat. This teamwork feat must also be a combat
-feat.
+At 2nd level and every 4 levels thereafter, the pack rager can take a bonus teamwork feat. This
+teamwork feat must also be a combat feat. This ability replaces the rage powers gained at 2nd, 6th,
+10th, 14th, and 18th level.
 
-**Repeat:** The pack rager can take another bonus teamwork feat that is also a combat feat., 6, 4
+## Raging Tactician {#raging-tactician}
 
-**Replaces:** 2nd, 6th, 10th, 14th, and 18th level rage powers
-
-**Raging Tactician**
-
-**At 13th Level:** The pack rager chooses two teamwork feats when she enters a _rage,_ and grants
-her allies the use of both of those feats when they are within 30 feet of her.
-
-**At 16th Level:** The pack rager grants these teamwork feats as long as her allies are within 60
-feet of her.
-
-**At 19th Level:** The pack rager chooses three teamwork feats when she enters a _rage,_ and grants
-her allies the use of all three feats when they are within 60 feet of her.
-
-**Gained:** At 7th Level
-
-**Passive:** While a pack rager is _raging,_ she grants a single teamwork feat she knows to all
-allies within 30 feet who can see and hear her. She chooses the feat at the start of the _rage,_ and
-cannot change it during the _rage._ An ally who moves more than 30 feet away from the _raging_ pack
+At 7th level, while a pack rager is raging, she grants a single teamwork feat she knows to all
+allies within 30 feet who can see and hear her. She chooses the feat at the start of the rage, and
+cannot change it during the rage. An ally who moves more than 30 feet away from the raging pack
 rager loses access to the feat, but regains it again each time he moves back within 30 feet of the
-_raging_ pack rager. Allies do not need to meet the prerequisites of these teamwork feats.
+raging pack rager. Allies do not need to meet the prerequisites of these teamwork feats.
 
-**Replaces:** [Damage reduction](ref/rule/damage-reduction)
+At 13th level, the pack rager chooses two teamwork feats when she enters a rage, and grants her
+allies the use of both of those feats when they are within 30 feet of her.
+
+At 16th level, the pack rager grants these teamwork feats as long as her allies are within 60 feet
+of her.
+
+At 19th level, the pack rager chooses three teamwork feats when she enters a rage, and grants her
+allies the use of all three feats when they are within 60 feet of her.
+
+This ability replaces the [damage reduction](ref/rule/damage-reduction) class feature.

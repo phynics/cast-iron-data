@@ -16,12 +16,19 @@ page = "25"
 
 [fields]
 kind = "archetype"
+features = [
+  { anchor = "animal-companion", level = 1 },
+  { anchor = "captor", level = 3 },
+  { anchor = "animal-insight", level = 5 },
+  { anchor = "frightful-ferocity", level = 17 },
+]
 trades = [
-  { replaces = "Hunter tactics", feature = "hunter-tactics" },
-  { replaces = "teamwork feat", feature = "teamwork-feat" },
-  { replaces = "Woodland stride", feature = "woodland-stride" },
-  { replaces = "One with the wild", feature = "one-with-the-wild" },
-  { alters = "Animal companion", feature = "animal-companion" },
+  { replaces = "Hunter tactics", feature = "hunter-tactics", by = ["captor"] },
+  { replaces = "teamwork feat", feature = "teamwork-feat", by = ["captor"] },
+  { replaces = "Woodland stride", feature = "woodland-stride", by = ["animal-insight"] },
+  { replaces = "One with the wild", feature = "one-with-the-wild", by = ["frightful-ferocity"] },
+  { alters = "Animal companion", feature = "animal-companion", by = ["animal-companion"] },
+  { alters = "Class skills" },
 ]
 +++
 
@@ -29,15 +36,13 @@ Urban hunters help guards track down and apprehend criminals or spies, find lost
 disaster victims, and protect animals from abuse in the city. They still draw their inspiration and
 strength from the natural world, marveling at how nature flourishes wherever the city allows.
 
-**Gained class skills:** diplo, kl, sm
+## Class Skills {#class-skills}
 
-**Lost class skills:** kna, sur
+An urban hunter adds Diplomacy (Cha), Knowledge (local) (Int), and Sense Motive (Wis) as class
+skills, and removes Knowledge (nature) (Int) and Survival (Wis). This alters the hunter's class
+skills.
 
-**Animal Companion (Ex)**
-
-**Action:** Ability
-
-**Alters:** Animal companion
+## Animal Companion (Ex) {#animal-companion}
 
 Urban hunters have animal companions that are domesticated animals or animals native to a major
 city. The urban hunter must select her animal companion from the following list:
@@ -56,55 +61,31 @@ potential threat. The hunter can calm those who witness her animal companion's a
 they were not injured) with a successful Handle Animal check (DC = 15 + the target's Will save
 modifier).
 
-**Captor (Ex)**
+## Captor (Ex) {#captor}
 
-**At 12th Level:** The hunter gains another bonus feat, and she can select from the list above, or
-any of the following feats: [Combat Patrol](ref/feat/combat-patrol),
+At 3rd level, an urban hunter and her animal companion take no penalties when dealing nonlethal
+damage with weapons or natural attacks. At 6th level and every 3 levels thereafter, the urban hunter
+selects a bonus feat from the following list to be gained by both the hunter and her animal
+companion: [Improved Bull Rush](ref/feat/improved-bull-rush),
+[Improved Dirty Trick](ref/feat/improved-dirty-trick), [Improved Disarm](ref/feat/improved-disarm),
+[Improved Grapple](ref/feat/improved-grapple), and [Improved Trip](ref/feat/improved-trip). At 12th
+level, the hunter can also select from the following feats: [Combat Patrol](ref/feat/combat-patrol),
 [Combat Reflexes](ref/feat/combat-reflexes), [Disarming Strike](ref/feat/disarming-strike),
 [Greater Bull Rush](ref/feat/greater-bull-rush),
 [Greater Dirty Trick](ref/feat/greater-dirty-trick), [Greater Disarm](ref/feat/greater-disarm),
 [Greater Grapple](ref/feat/greater-grapple), [Greater Trip](ref/feat/greater-trip), and
-[Lunge](ref/feat/lunge).
+[Lunge](ref/feat/lunge). Neither the hunter nor her animal companion needs to meet the prerequisites
+for these bonus feats. This ability replaces hunter tactics and teamwork feat.
 
-**At 15th Level:** She can select another bonus feat from either list above.
+## Animal Insight (Ex) {#animal-insight}
 
-**At 18th Level:** The hunter can gain another bonus feat from either list.
+At 5th level, an urban hunter and her animal companion learn to combine their insights to defeat
+deception and manipulation. As long as they are within 30 feet of each other, both hunter and animal
+companion gain an insight bonus on Sense Motive checks equal to half the urban hunter's hunter
+level. They also gain a +2 insight bonus on Will saving throws against illusions and mind-affecting
+effects. This ability replaces woodland stride.
 
-**At 6th Level:** The urban hunter selects a bonus feat from the following list to be gained by both
-the hunter and her animal companion: [Improved Bull Rush](ref/feat/improved-bull-rush),
-[Improved Dirty Trick](ref/feat/improved-dirty-trick), [Improved Disarm](ref/feat/improved-disarm),
-[Improved Grapple](ref/feat/improved-grapple), and [Improved Trip](ref/feat/improved-trip).
+## Frightful Ferocity (Ex) {#frightful-ferocity}
 
-**At 9th Level:** She selects another bonus feat from the list above.
-
-**Gained:** At 3rd Level
-
-**Passive:** An urban hunter and her animal companion take no penalties when dealing nonlethal
-damage with weapons or natural attacks.
-
-**Replaces:** Hunter tactics, teamwork feat
-
-**Special:** Neither the hunter nor her animal companion needs to meet the prerequisites for these
-bonus feats.
-
-**Animal Insight (Ex)**
-
-**Flavor:** An urban hunter and her animal companion learn to combine their insights to defeat
-deception and manipulation.
-
-**Gained:** At 5th Level
-
-**Passive:** As long as they are within 30 feet of each other, both hunter and animal companion gain
-an insight bonus on Sense Motive checks equal to half the urban hunter's hunter level. They also
-gain a +2 insight bonus on Will saving throws against illusions and mind-affecting effects.
-
-**Replaces:** Woodland stride
-
-**Frightful Ferocity (Ex)**
-
-**Gained:** At 17th Level
-
-**Replaces:** One with the wild
-
-**Swift:** An urban hunter and her animal companion can each attempt an Intimidate check to
-demoralize a foe as a swift action.
+At 17th level, an urban hunter and her animal companion can each attempt an Intimidate check to
+demoralize a foe as a swift action. This ability replaces one with the wild.
