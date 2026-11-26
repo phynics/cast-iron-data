@@ -26,7 +26,7 @@ trades = [
   { replaces = "Still mind", feature = "still-mind", by = ["draconic-mettle"] },
   { replaces = "Maneuver training", feature = "maneuver-training", by = ["draconic-fury"] },
   { replaces = "Quivering palm", feature = "quivering-palm", by = ["draconic-breath"] },
-  { alters = "Bonus feats", feature = "bonus-feat" },
+  { alters = "Bonus feats", feature = "bonus-feat", by = ["draconic-might"] },
 ]
 +++
 
