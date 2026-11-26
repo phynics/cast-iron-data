@@ -25,8 +25,8 @@ features = [
   { anchor = "transposition" },
   { anchor = "larger-brood", level = 8 },
   { anchor = "greater-shield-ally" },
-  { anchor = "hordes-of-summoned-monsters" },
-  { anchor = "merge-forms" },
+  { anchor = "hordes-of-summoned-monsters", level = 14 },
+  { anchor = "merge-forms", level = 16 },
 ]
 trades = [
   { replaces = "Eidolon", feature = "eidolon", by = ["eidolon-brood"] },

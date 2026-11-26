@@ -22,7 +22,7 @@ features = [
   { anchor = "show-yourselves", level = 15 },
   { anchor = "eye-for-detail", level = 1 },
   { anchor = "arcane-insight", level = 2 },
-  { anchor = "arcane-investigation" },
+  { anchor = "arcane-investigation", level = 2 },
 ]
 trades = [
   { replaces = "Inspire courage", feature = "bardic-performance", power = "inspire courage", by = ["careful-teamwork"] },

@@ -24,7 +24,7 @@ features = [
   { anchor = "chaotic-evil-good-and-lawful-spells" },
   { anchor = "aura" },
   { anchor = "inquisition", level = 1 },
-  { anchor = "zealot-talents" },
+  { anchor = "zealot-talents", level = 2 },
 ]
 trades = [
   { replaces = "4th-, 8th-, 10th-, 14th-, and 16th-level vigilante talents", feature = "vigilante-talent", levels = [4, 8, 10, 14, 16], by = ["spellcasting"] },

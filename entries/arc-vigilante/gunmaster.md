@@ -18,7 +18,7 @@ page = "57"
 kind = "archetype"
 features = [
   { anchor = "gunmaster", level = 1 },
-  { anchor = "gunmaster-talents" },
+  { anchor = "gunmaster-talents", level = 2 },
   { anchor = "nimble", level = 4 },
 ]
 trades = [

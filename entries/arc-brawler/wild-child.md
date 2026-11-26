@@ -19,7 +19,7 @@ kind = "archetype"
 features = [
   { anchor = "animal-companion", level = 1 },
   { anchor = "hunter-s-tricks", level = 5 },
-  { anchor = "maneuver-training" },
+  { anchor = "maneuver-training", level = 3 },
   { anchor = "wild-tricks", level = 5 },
 ]
 trades = [

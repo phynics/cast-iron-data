@@ -20,7 +20,7 @@ features = [
   { anchor = "possessed-possessions", level = 2 },
   { anchor = "hauntist", level = 5 },
   { anchor = "spirit-speaker", level = 8 },
-  { anchor = "extricate-haunt" },
+  { anchor = "extricate-haunt", level = 8 },
 ]
 trades = [
   { replaces = "Aura sight", feature = "aura-sight", by = ["hauntist"] },

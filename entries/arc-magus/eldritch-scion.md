@@ -18,7 +18,7 @@ page = "104"
 kind = "archetype"
 features = [
   { anchor = "spells" },
-  { anchor = "bloodline" },
+  { anchor = "bloodline", level = 4 },
   { anchor = "eldritch-pool", level = 1 },
   { anchor = "spell-combat", level = 1 },
   { anchor = "improved-spell-combat", level = 14 },
