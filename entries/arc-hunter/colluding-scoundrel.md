@@ -16,10 +16,15 @@ page = "11"
 
 [fields]
 kind = "archetype"
+features = [
+  { anchor = "scapegoat", level = 1 },
+  { anchor = "backstabber", level = 8 },
+  { anchor = "master-backstabber", level = 20 },
+]
 trades = [
-  { replaces = "Animal focus", feature = "animal-focus" },
-  { replaces = "Second animal focus", feature = "second-animal-focus" },
-  { replaces = "Master hunter", feature = "master-hunter" },
+  { replaces = "Animal focus", feature = "animal-focus", by = ["scapegoat"] },
+  { replaces = "Second animal focus", feature = "second-animal-focus", by = ["backstabber"] },
+  { replaces = "Master hunter", feature = "master-hunter", by = ["master-backstabber"] },
 ]
 +++
 
@@ -30,58 +35,40 @@ formidable members of the Wasp Queens, as their giant wasp companions draw out o
 under the Wasp Queens' stinging blades. In any case, the colluding scoundrel rarely concerns herself
 overmuch with her allies' well-being.
 
-**Scapegoat (Ex)**
+## Scapegoat (Ex) {#scapegoat}
 
-**Action:** Swift Action
-
-**Flavor:** A colluding scoundrel is adept at redirecting a foe's hostility toward another creature,
-creating openings for her own attacks.
-
-**Replaces:** Animal focus
-
-**Special:** This is a mind-affecting effect. The effect ends if the colluding scoundrel falls
-unconscious or is slain.
-
-**Usage:** 1 time/day per hunter level
-
-At 8th level: The penalty increases to -4.
-
-At 15th level: The penalty increases to -6.
-
-A colluding scoundrel can target one foe within 30 feet and designate one willing ally adjacent to
-that foe as a scapegoat. For the following minute, the target takes a -2 penalty on attacks against
-any creature other than the designated scapegoat, and the target has a 10% spell failure chance on
-spells that don't target the scapegoat or include the scapegoat in their area of effect.
+A colluding scoundrel is adept at redirecting a foe's hostility toward another creature, creating
+openings for her own attacks. A number of times per day equal to her hunter level, as a swift
+action, she can target one foe within 30 feet and designate one willing ally adjacent to that foe as
+a scapegoat. For the following minute, the target takes a -2 penalty on attacks against any creature
+other than the designated scapegoat, and the target has a 10% spell failure chance on spells that
+don't target the scapegoat or include the scapegoat in their area of effect. The penalty increases
+to -4 at 8th level and -6 at 15th level.
 
 The colluding scoundrel can designate her animal companion as a scapegoat without it counting
 against her daily uses of this ability.
 
-**Backstabber (Ex)**
+This is a mind-affecting effect. The effect ends if the colluding scoundrel falls unconscious or is
+slain.
 
-**Ability:** A colluding scoundrel deals 2d6 additional points of damage on attacks against a target
-threatened by an ally currently designated as the scapegoat.
+This replaces animal focus.
 
-**At 15th Level:** This increases to 3d6 points of damage.
+## Backstabber (Ex) {#backstabber}
 
-**Gained:** At 8th Level
+At 8th level, a colluding scoundrel deals 2d6 additional points of damage on attacks against a
+target threatened by an ally currently designated as the scapegoat. This increases to 3d6 points of
+damage at 15th level. This is precision damage and is not multiplied on a critical hit, but it does
+stack with [sneak attack](ref/ability/sneak-attack) and similar effects.
 
-**Replaces:** Second animal focus
+This replaces second animal focus.
 
-**Special:** This is precision damage and is not multiplied on a critical hit, but it does stack
-with [sneak attack](ref/ability/sneak-attack) and similar effects.
+## Master Backstabber (Ex) {#master-backstabber}
 
-**Master Backstabber (Ex)**
+At 20th level, a colluding scoundrel is a master at dispatching distracted targets. As a standard
+action, she can make a single attack against a foe that is taking the penalties of her scapegoat
+ability and is adjacent to an ally currently designated as the scapegoat. If the attack hits, the
+target takes damage normally and must succeed at a Fortitude saving throw (DC = 10 + half the
+colluding scoundrel's level + her Wisdom modifier) or be slain. Whether or not the target succeeds,
+it cannot be targeted by this ability again (by any colluding scoundrel) for 24 hours.
 
-**Flavor:** A colluding scoundrel becomes a master at dispatching distracted targets.
-
-**Gained:** At 2nd Level
-
-**Replaces:** Master hunter
-
-**Special:** Whether or not the target succeeds, it cannot be targeted by this ability again (by any
-colluding scoundrel) for 24 hours.
-
-**Standard:** She can make a single attack against a foe that is taking the penalties of her
-scapegoat ability and is adjacent to an ally currently designated as the scapegoat. If the attack
-hits, the target takes damage normally and must succeed at a Fortitude saving throw (DC = 10 + half
-the colluding scoundrel's level + her Wisdom modifier) or be slain.
+This replaces master hunter.

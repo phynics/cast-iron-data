@@ -16,16 +16,22 @@ page = "52"
 
 [fields]
 kind = "archetype"
+features = [
+  { anchor = "drowned-phantom", level = 1 },
+  { anchor = "drowned-spells", level = 2 },
+  { anchor = "drowned-powers", level = 5 },
+]
 trades = [
-  { replaces = "Bonded senses", feature = "bonded-senses" },
-  { replaces = "Detect undead", feature = "detect-undead" },
-  { replaces = "calm spirit", feature = "calm-spirit" },
-  { replaces = "see invisibility", feature = "see-invisibility" },
-  { replaces = "call spirit", feature = "call-spirit" },
-  { alters = "Phantom", feature = "phantom" },
-  { alters = "shared consciousness", feature = "shared-consciousness" },
-  { alters = "etheric tether", feature = "etheric-tether" },
-  { alters = "bonded manifestation", feature = "bonded-manifestation" },
+  { replaces = "Bonded senses", feature = "bonded-senses", by = ["drowned-spells"] },
+  { replaces = "Detect undead", feature = "detect-undead", by = ["drowned-powers"] },
+  { replaces = "calm spirit", feature = "calm-spirit", by = ["drowned-powers"] },
+  { replaces = "see invisibility", feature = "see-invisibility", by = ["drowned-powers"] },
+  { replaces = "call spirit", feature = "call-spirit", by = ["drowned-powers"] },
+  { alters = "Phantom", feature = "phantom", by = ["drowned-phantom"] },
+  { alters = "shared consciousness", feature = "shared-consciousness", by = ["drowned-phantom"] },
+  { alters = "etheric tether", feature = "etheric-tether", by = ["drowned-phantom"] },
+  { alters = "bonded manifestation", feature = "bonded-manifestation", by = ["drowned-phantom"] },
+  { alters = "Class skills" },
 ]
 +++
 
@@ -33,62 +39,50 @@ When a drowned spirit doomed to a watery grave descends toward the evil of undea
 in a mortal shell, the result is an unusual spiritualist with powers that resonate with the drowned
 spirit's demise.
 
-**Gained class skills:** swim
+## Class Skills {#class-skills}
 
-**Lost class skills:** fly
+A drowned channeler has Swim as a class skill instead of Fly.
 
-**Drowned Phantom**
+This alters the spiritualist's class skills.
 
-**Ability:** A drowned channeler has a _drowned phantom._ A _drowned phantom's_ ectoplasmic body
-drips with water and seems to bleed off watery droplets even its incorporeal form. A _drowned
-phantom_ gains a swim speed of 30 feet in both forms and gains the [water](ref/subtype/water)
-subtype in addition to the phantom subtype, meaning that it can use its natural slam attacks
-underwater without taking the penalty for bludgeoning attacks underwater.
+## Drowned Phantom {#drowned-phantom}
 
-The drowned channeler's _etheric tether_ extends twice as far underwater, but only half as far above
-water. Additionally, the _drowned phantom_ doesn't grant any of the usual benefits while confined in
-the drowned channeler's consciousness unless the drowned channeler is within 25 feet of an ocean,
-sea, lake, or other large body of water. Both forms of _bonded manifestation_ grant the _drowned
-phantom's_ swim speed of 30 feet to the drowned channeler, and attacks from the ectoplasmic _bonded
-manifestation's_ tendrils don't take the typical penalties for bludgeoning attacks underwater, as if
-the phantom itself made them.
+A drowned channeler has a drowned phantom. A drowned phantom's ectoplasmic body drips with
+[water](ref/subtype/water) and seems to bleed off watery droplets even its incorporeal form. A
+drowned phantom gains a swim speed of 30 feet in both forms and gains the water subtype in addition
+to the phantom subtype, meaning that it can use its natural slam attacks underwater without taking
+the penalty for bludgeoning attacks underwater. The drowned channeler's etheric tether extends twice
+as far underwater, but only half as far above water. Additionally, the drowned phantom doesn't grant
+any of the usual benefits while confined in the drowned channeler's consciousness unless the drowned
+channeler is within 25 feet of an ocean, sea, lake, or other large body of water. Both forms of
+bonded manifestation grant the drowned phantom's swim speed of 30 feet to the drowned channeler, and
+attacks from the ectoplasmic bonded manifestation's tendrils don't take the typical penalties for
+bludgeoning attacks underwater, as if the phantom itself made them.
 
-**Alters:** Phantom, shared consciousness, etheric tether, bonded manifestation
+This ability alters phantom, shared consciousness, etheric tether, and bonded manifestation.
 
-**Drowned Spells**
+## Drowned Spells {#drowned-spells}
 
-**Ability:** A drowned channeler adds the spells below to the spiritualist spell list at the listed
-spell level. (This is the level they appear on the cleric list or sorcerer/wizard list, whichever is
-lower.)
+At 2nd level, a drowned channeler adds _control water_, _fluid form_, _hydraulic push_, _hydraulic
+torrent_, _life current_\*, _pressure adaptation_\*, _ride the waves_, _slipstream_, _stabilize
+pressure_\*, _unlife current_\*, _water breathing_, and _wave form_\* to the spiritualist spell list
+at the same spell level as they appear on the cleric list or sorcerer/wizard list, whichever is
+lower. Spells marked with an asterisk (\*) appear in the Aquatic Spells section of this book (see
+page 59). The drowned channeler must still select them as spells known as normal.
 
-**Gained:** At 2nd Level
+This ability replaces bonded senses.
 
-**Replaces:** Bonded senses
+## Drowned Powers (Sp) {#drowned-powers}
 
-**Spells:** Hydraulic push
-
-**Spells:** Slipstream, stabilize pressure
-
-**Spells:** Hydraulic torrent, life current, pressure adaptation, unlife current, water breathing
-
-**Spells:** Control water, ride the waves, wave form
-
-**Spells:** Fluid form
-
-**Special:** The drowned channeler must still select them as spells known as normal.
-
-**Drowned Powers (Sp)**
-
-**At 16th Level:** She can use _[fluid form](ref/spell/fluid-form)_ once per day as a
+At 5th level, a drowned channeler can use _[hydraulic push](ref/spell/hydraulic-push)_ as a
+[spell-like ability](ref/umr/spell-like-abilities) once per day, with an additional use each day at
+9th level and every 4 levels thereafter. At 7th level, she can use
+_[slipstream](ref/spell/slipstream)_ once per day as a
+[spell-like ability](ref/umr/spell-like-abilities), with an additional use each day at 11th level
+and every 4 levels thereafter. At 9th level, she can use
+_[ride the waves](ref/spell/ride-the-waves)_ once per day as a
+[spell-like ability](ref/umr/spell-like-abilities). Finally, at 16th level, she can use
+_[fluid form](ref/spell/fluid-form)_ once per day as a
 [spell-like ability](ref/umr/spell-like-abilities).
 
-**At 7th Level:** She can use _[slipstream](ref/spell/slipstream)_ once per day as a
-[spell-like ability](ref/umr/spell-like-abilities).
-
-**At 9th Level:** She can use _[ride the waves](ref/spell/ride-the-waves)_ once per day as a
-[spell-like ability](ref/umr/spell-like-abilities).
-
-**At 5th Level:** A drowned channeler can use _[hydraulic push](ref/spell/hydraulic-push)_ as a
-[spell-like ability](ref/umr/spell-like-abilities) once per day.
-
-**Replaces:** Detect undead, calm spirit, see invisibility, call spirit
+This ability replaces _detect undead_, _calm spirit_, _see invisibility_, and _call spirit_.

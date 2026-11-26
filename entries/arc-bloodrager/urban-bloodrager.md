@@ -16,11 +16,17 @@ page = "24"
 
 [fields]
 kind = "archetype"
+features = [
+  { anchor = "controlled-bloodrage", level = 1 },
+  { anchor = "restrained-magic", level = 3 },
+  { anchor = "adopted-magic", level = 7 },
+]
 trades = [
-  { replaces = "Blood sanctuary", feature = "blood-sanctuary" },
-  { replaces = "Damage reduction", feature = "damage-reduction" },
+  { replaces = "Blood sanctuary", feature = "blood-sanctuary", by = ["restrained-magic"] },
+  { replaces = "Damage reduction", feature = "damage-reduction", by = ["adopted-magic"] },
   { alters = "Weapon and armor proficiencies", feature = "weapon-and-armor-proficiencies" },
-  { alters = "Bloodrage", feature = "bloodrage" },
+  { alters = "Bloodrage", feature = "bloodrage", by = ["controlled-bloodrage"] },
+  { alters = "Class skills" },
 ]
 +++
 
@@ -28,68 +34,49 @@ Like the [urban barbarian](ref/arc-barbarian/urban-barbarian), the urban bloodra
 control her rage in so-called polite society. Though she lacks the untamed resilience of her wilder
 fellows, she's an expert at keeping her rage from causing collateral damage in crowds.
 
-**Gained class skills:** diplo, kl, ling, prof
+## Class Skills {#class-skills}
 
-**Lost class skills:** ha, kna, sur
+An urban bloodrager adds Diplomacy (Cha), Knowledge (local) (Int), Linguistics (Int), and Profession
+(Wis) as class skills, and removes Handle Animal (Cha), Knowledge (nature) (Int), and Survival
+(Wis). This alters the bloodrager's class skills.
 
-**Weapon and Armor Proficiency**
+## Weapon and Armor Proficiency {#weapon-and-armor-proficiency}
 
-**Alters:** Weapon and armor proficiencies
+An urban bloodrager isn't proficient with shields. This alters the bloodrager's weapon and armor
+proficiencies.
 
-**Info:** An urban bloodrager isn't proficient with shields.
+## Controlled Bloodrage {#controlled-bloodrage}
 
-**Controlled Bloodrage**
+When an urban bloodrager rages, she does not gain the normal benefits. Instead, she can apply a +4
+morale bonus to her Constitution, Dexterity, or Strength. This bonus increases to +6 when she gains
+greater bloodrage and to +8 when she gains mighty bloodrage. She can apply the full bonus to one
+ability score or split the bonus between several scores in increments of 2. When using a controlled
+bloodrage, an urban bloodrager gains no bonus on Will saves, takes no penalties to AC, and can still
+use Charisma-, Dexterity-, and Intelligence-based skills. A controlled bloodrage still counts as a
+bloodrage for the purposes of any spells, feats, and other effects. This ability alters bloodrage.
 
-**Ability:** When an urban bloodrager rages, she does not gain the normal benefits. Instead, she can
-apply a +4 morale bonus to her Constitution, Dexterity, or Strength. This bonus increases to +6 when
-she gains _greater bloodrage_ and to +8 when she gains _mighty bloodrage._ She can apply the full
-bonus to one ability score or split the bonus between several scores in increments of 2.
+## Restrained Magic (Su) {#restrained-magic}
 
-**Alters:** Bloodrage
+At 3rd level, an urban bloodrager can attune her spells so they are less likely to impact her allies
+or innocent bystanders. When the bloodrager casts a spell, she can grant a +2 bonus on the saving
+throw against that spell to any creatures she is aware of that are targeted by the spell or within
+the spell's area. Any creature that receives this bonus and succeeds at its save is unaffected by
+the spell, as if it hadn't been targeted or wasn't in the area. This ability replaces blood
+sanctuary.
 
-**Special:** When using a _controlled bloodrage,_ an urban bloodrager gains no bonus on Will saves,
-takes no penalties to AC, and can still use Charisma-, Dexterity-, and Intelligence-based skills. A
-_controlled bloodrage_ still counts as a _bloodrage_ for the purposes of any spells, feats, and
-other effects.
+## Adopted Magic {#adopted-magic}
 
-**Restrained Magic (Su)**
+At 7th level, an urban bloodrager learns some of the secrets of other magical traditions from other
+denizens of the city. She can select from the bard or magus spell list any spell of a level she can
+cast, and add it to her bloodrager spell list and to her bloodrager spells known. At 10th level and
+every 3 levels thereafter, the urban bloodrager can add another such spell to her spell list and
+spells known. If she chooses to learn a new spell in place of an old one, she can exchange a bard or
+magus spell for another. This ability replaces [damage reduction](ref/rule/damage-reduction).
 
-**Ability:** When the bloodrager casts a spell, she can grant a +2 bonus on the saving throw against
-that spell to any creatures she is aware of that are targeted by the spell or within the spell's
-area. Any creature that receives this bonus and succeeds at its save is unaffected by the spell, as
-if it hadn't been targeted or wasn't in the area.
+## Bloodline {#bloodline}
 
-**Flavor:** An urban bloodrager can attune her spells so they are less likely to impact her allies
-or innocent bystanders.
-
-**Gained:** At 3rd Level
-
-**Replaces:** Blood sanctuary
-
-**Adopted Magic**
-
-**Flavor:** An urban bloodrager learns some of the secrets of other magical traditions from other
-denizens of the city.
-
-**At 10th Level:** The urban bloodrager can add another such spell to her spell list and spells
-known.
-
-**At 13th Level:** She can choose and add another such spell.
-
-**At 16th Level:** She can choose and add another such spell.
-
-**At 19th Level:** She can choose and add another such spell.
-
-**At 7th Level:** She can select from the bard or magus spell list any spell of a level she can
-cast, and add it to her bloodrager spell list and to her bloodrager spells known.
-
-**Replaces:** [Damage reduction](ref/rule/damage-reduction)
-
-**Special:** If she chooses to learn a new spell in place of an old one, she can exchange a bard or
-magus spell for another.
-
-**Note:** The following bloodlines are especially suitable for an urban bloodrager, reflecting
-either a more nuanced origin or ancestry from city-dwelling magical creatures:
+The following bloodlines are especially suitable for an urban bloodrager, reflecting either a more
+nuanced origin or ancestry from city-dwelling magical creatures:
 [aberrant](ref/blrgbloodline/aberrant), [arcane](ref/blrgbloodline/arcane),
 [celestial](ref/blrgbloodline/celestial), [destined](ref/blrgbloodline/destined),
 [infernal](ref/blrgbloodline/infernal), and [undead](ref/blrgbloodline/undead).

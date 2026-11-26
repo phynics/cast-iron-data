@@ -16,100 +16,81 @@ page = "11"
 
 [fields]
 kind = "archetype"
+features = [
+  { anchor = "arcane-pool", level = 5 },
+  { anchor = "ranged-weapon-bond", level = 1 },
+  { anchor = "ranged-spell-combat", level = 1 },
+  { anchor = "ranged-spellstrike", level = 2 },
+  { anchor = "focusing-spellstrike", level = 16 },
+]
 trades = [
-  { replaces = "Counterstrike", feature = "counterstrike" },
-  { alters = "Arcane pool", feature = "arcane-pool" },
-  { alters = "Spell combat", feature = "spell-combat" },
-  { alters = "Spellstrike", feature = "spellstrike" },
+  { replaces = "Counterstrike", feature = "counterstrike", by = ["focusing-spellstrike"] },
+  { alters = "Arcane pool", feature = "arcane-pool", by = ["arcane-pool"] },
+  { alters = "Spell combat", feature = "spell-combat", by = ["ranged-spell-combat"] },
+  { alters = "Spellstrike", feature = "spellstrike", by = ["ranged-spellstrike"] },
 ]
 +++
 
 The eldritch archer rains magical attacks down on her foes from the city walls.
 
-**Gained class skills:** per
+## Class Skills {#class-skills}
 
-**Lost class skills:** umd
+An eldritch archer gains Perception as a class skill, but does not gain Use Magic Device as a class
+skill. This ability modifies the magus's class skills.
 
-**Arcane Pool (Su)**
+## Arcane Pool (Su) {#arcane-pool}
 
-**Alters:** Arcane pool
+An eldritch archer's choices of weapon special abilities to apply with arcane pool at 5th level
+include _[distance](ref/magic-enh/distance)_, _[nimble shot](ref/magic-enh/nimble-shot)_, and
+_[returning](ref/magic-enh/returning)_ but not _dancing_, _keen_, or _vorpal_. This ability modifies
+the magus's arcane pool.
 
-**Info:** An eldritch archer's choices of weapon special abilities to apply with _arcane pool_
-include [distance](ref/magic-enh/distance), [nimble shot](ref/magic-enh/nimble-shot), and
-[returning](ref/magic-enh/returning) but not dancing, keen, or vorpal.
+## Ranged Weapon Bond (Ex) {#ranged-weapon-bond}
 
-**Gained:** At 5th Level
+At 1st level, an eldritch archer gains a bonded object as per the [wizard's](ref/class/wizard)
+arcane bonded object; it must be a ranged weapon, and it can't be used to cast a spell once per day.
+Holding her bonded item does not prevent the eldritch archer from providing somatic components for
+her spells.
 
-**Ranged Weapon Bond (Ex)**
+## Ranged Spell Combat (Ex) {#ranged-spell-combat}
 
-**Ability:** An eldritch archer gains a _bonded object_ as per the [wizard's](ref/class/wizard)
-_arcane bonded object;_ it must be a ranged weapon, and it can't be used to cast a spell once per
-day. Holding her bonded item does not prevent the eldritch archer from providing somatic components
-for her spells.
+Instead of a light or one-handed melee weapon, an eldritch archer must use a ranged weapon for spell
+combat. She doesn't need a free hand for ranged spell combat. The eldritch archer cannot accept an
+attack penalty to gain a bonus on [concentration](ref/rule/concentration) checks to cast a spell
+defensively. This ability modifies spell combat.
 
-**Gained:** At 1st Level
+## Ranged Spellstrike (Su) {#ranged-spellstrike}
 
-**Bonded Object**
-
-**Action:** Ability
-
-**Flavor:** Text from the wizard class
-
-If you select a bonded object, you begin play with one at no cost. These objects are always
-masterwork quality. Weapons acquired at 1st level are not made of any special material. If you
-attempt to cast a spell without your bonded object wielded, you must make a
-[concentration](ref/rule/concentration) check or lose the spell. The DC for this check is equal to
-20 + the spell's level.
-
-You can add additional magic abilities to your bonded object as if you have the required item
-creation feats and if you meet the level prerequisites of the feat. For example, a wizard with a
-bonded dagger must be at least 5th level to add magic abilities to the dagger (see
-[Craft Magic Arms and Armor](ref/feat/craft-magic-arms-and-armor)). The magic properties of a bonded
-object, including any magic abilities added to the object, only function for the wizard who owns it.
-If a bonded object's owner dies, or the item is replaced, the object reverts to being an ordinary
-masterwork item of the appropriate type.
-
-If a bonded object is damaged, it is restored to full hit points the next time you prepare your
-spells. If the object of an arcane bond is lost or destroyed, it can be replaced after 1 week in a
-special ritual that costs 200 gp per wizard level plus the cost of the masterwork item. This ritual
-takes 8 hours to complete. Items replaced in this way do not possess any of the additional
-enchantments of the previous bonded item. You can designate an existing magic item as his bonded
-item. This functions in the same way as replacing a lost or destroyed item except that the new magic
-item retains its abilities while gaining the benefits and drawbacks of becoming a bonded item.
-
-**Ranged Spell Combat (Ex)**
-
-**Ability:** Instead of a light or one-handed melee weapon, an eldritch archer must use a ranged
-weapon for _spell combat._ She doesn't need a free hand for ranged _spell combat._ The eldritch
-archer cannot accept an attack penalty to gain a bonus on [concentration](ref/rule/concentration)
-checks to cast a spell defensively.
-
-**Alters:** Spell combat
-
-**Ranged Spellstrike (Su)**
-
-**Ability:** Whenever an eldritch archer casts a spell that calls for a ranged attack, she can
+At 2nd level, whenever an eldritch archer casts a spell that calls for a ranged attack, she can
 deliver the spell through a ranged weapon she wields as part of a ranged attack. Instead of the free
 ranged attack normally allowed to deliver the spell, an eldritch archer can make one free ranged
 attack with a ranged weapon (at her highest base attack bonus) as part of casting this spell. The
 attack does not increase the spell's range.
 
-**Alters:** Spellstrike
+If the spell can normally affect multiple targets, only a single missile, ray, or effect accompanies
+each attack; if the spell allows multiple attacks and the eldritch archer can make additional ranged
+attacks as part of a full-round action with spell combat, one additional ray, missile, or effect
+from the spell accompanies each subsequent ranged attack the eldritch archer makes in the same round
+until all attacks allowed by the spell are made. Unused missiles, rays, or effects remaining at the
+end of the eldritch archer's turn are wasted. This ability alters spellstrike.
 
-**Gained:** At 2nd Level
+## Focusing Spellstrike (Su) {#focusing-spellstrike}
 
-**Special:** If the spell can normally affect multiple targets, only a single missile, ray, or
-effect accompanies each attack; if the spell allows multiple attacks and the eldritch archer can
-make additional ranged attacks as part of a full-round action with _spell combat,_ one additional
-ray, missile, or effect from the spell accompanies each subsequent ranged attack the eldritch archer
-makes in the same round until all attacks allowed by the spell are made. Unused missiles, rays, or
-effects remaining at the end of the eldritch archer's turn are wasted.
+At 16th level, an eldritch archer can use ranged spellstrike to deliver a cone- or line-shaped spell
+as a ray, affecting only the creature or object struck. This ability replaces counterstrike.
 
-**Focusing Spellstrike (Su)**
+## Magus Arcana {#magus-arcana}
 
-**Ability:** An eldritch archer can use _ranged spellstrike_ to deliver a cone- or line-shaped spell
-as a ray, affecting only the creature or object struck.
+The following magus arcana can be selected by any magus who meets their prerequisites.
 
-**Gained:** At 16th Level
+### Distant Spellstrike (Su) {#distant-spellstrike}
 
-**Replaces:** Counterstrike
+The range of any spell the magus delivers through a ranged weapon attack increases to the maximum
+range of the weapon if that is greater than the spell's range. The magus must be at least 12th level
+and must have ranged spellstrike to select this arcana.
+
+### Reach Spellstrike (Su) {#reach-spellstrike}
+
+The magus can deliver spells with a range of touch with ranged spellstrike up to a maximum range of
+close (25 feet + 5 feet per 2 caster levels). The magus must be at least 9th level and must have
+ranged spellstrike to select this arcana.

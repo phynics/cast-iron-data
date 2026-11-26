@@ -1,0 +1,29 @@
+[[edit]]
+entry = "ref/arc-cleric/crashing-wave"
+anchor = "spontaneous-casting"
+note = "hand-written from print (Blood of the Sea p. 23): the table of the spontaneous spells stands after the trade sentence and has no title (ruling 44); the cells are the printed words, the spells in italics (the superscript book marks of the layer are not text)."
+text = '''
+A crashing wave does not gain the ability to spontaneously cast cure or inflict spells by sacrificing prepared spells. However, a crashing wave can spontaneously cast the following spells by sacrificing a prepared spell of the noted level or higher.
+
+This ability alters spontaneous casting.
+
+| Spell Level | Spontaneous Spell |
+|---|---|
+| 1st | _Bless water_ |
+| 2nd | _Slipstream_ |
+| 3rd | _Water breathing_ |
+| 4th | _Control water_ |
+| 5th | _Geyser_ |
+| 6th | _Fluid form_ |
+| 7th | _Elemental body IV_ (water only) |
+| 8th | _Seamantle_ |
+| 9th | _Elemental swarm_ (water only) |
+'''
+
+[[edit]]
+entry = "ref/arc-oracle/oceans-echo"
+anchor = "bonus-spells"
+note = "hand-written from print (Blood of the Sea p. 12): the layer sets the capital of \"Sound burst\" apart from the italic run, which the extraction takes for the end of the archetype's section; the text is the printed paragraph with the spells in italics (the superscript book mark of \"pied piping\" is not text)."
+text = '''
+_Sound burst_ (4th), _shout_ (8th), _song of discord_ (10th), _greater shout_ (12th), and _pied piping_ (14th). These bonus spells replace the oracle's mystery bonus spells at these levels.
+'''
