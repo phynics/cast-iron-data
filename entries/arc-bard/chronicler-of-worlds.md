@@ -19,7 +19,6 @@ kind = "archetype"
 features = [
   { anchor = "wanderer-s-insight" },
   { anchor = "planar-lore", level = 1 },
-  { anchor = "bardic-performance" },
   { anchor = "quintessence-infusion", level = 9 },
   { anchor = "mantra-of-tabris", level = 15 },
   { anchor = "amoral-scholar", level = 2 },

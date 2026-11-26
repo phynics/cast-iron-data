@@ -25,7 +25,7 @@ ref/arc-barbarian/superstitious	Sixth Sense (Ex)	sixth-sense	yes	3	print	print	r
 ref/arc-barbarian/superstitious	Keen Senses (Ex)	keen-senses	yes	7	print	print		79	c71cccf7b9e3331d9f6ffad42839927d1d73186676f68edd35c0dcf2924e1ea2
 ref/arc-barbarian/superstitious	Rage Powers	rage-powers	no		print	print	print asterisks without their key dropped	79	becaf18ba502d03289ef22bcecfcf0f505fd946553a9f4b9b0cf6588ff5448a6
 ref/arc-bard/arcane-duelist	Arcane Strike	arcane-strike	yes	1	print	print	level 1: replaces Bardic knowledge, of which one is gained at 1st level in the class table; print: Advanced Player's Guide, 2nd printing	80	ed5cfae04aa1e4d39d6622dd9bfcfe0c4f795f2a50752101f84183d434bf04a9
-ref/arc-bard/arcane-duelist	Bardic Performance	bardic-performance	yes		draft	draft		80	679b8c6938cc2e31cafa61a07cf1a62277fed0ceb220e67c1504076766268c48
+ref/arc-bard/arcane-duelist	Bardic Performance	bardic-performance	no		draft	draft	hand review (cross-batch, ruling 54): an intro head with no level and no trade that holds only its lead-in sentence; the abilities under it stay listed features	80	679b8c6938cc2e31cafa61a07cf1a62277fed0ceb220e67c1504076766268c48
 ref/arc-bard/arcane-duelist	Rallying Cry (Su)	rallying-cry	yes	1	print	print		80	ce6eac091207bba88616642f60f5093f61652ae3a2ccd9765fa78d999c825716
 ref/arc-bard/arcane-duelist	Bladethirst (Su)	bladethirst	yes	6	print	print	level 6: print says "An arcane duelist of 6th level" in its first paragraph, as the import has it	80	9abad3da1aa339c3f423336ba41e95158897e164cf646fef5771ac5ae2817bb3
 ref/arc-bard/arcane-duelist	Mass Bladethirst (Su)	mass-bladethirst	yes	18	print	print	level 18: print says "An arcane duelist of 18th level" in its first paragraph, as the import has it	80	3f7a70881451c4ddd4b838ad5ddda1bcf83b4551dcb454957db92331e227531b
@@ -33,7 +33,7 @@ ref/arc-bard/arcane-duelist	Bonus Feats	bonus-feats	no		print	print	hand review 
 ref/arc-bard/arcane-duelist	Arcane Bond (Ex)	arcane-bond	yes	5	print	print	hand review (ruling 14, print): The restriction is printed; the import dropped it.	80	c866f7ddc12bbe6267345e37a3a1d7b42e01a7f70a473246091d1f11af510999
 ref/arc-bard/arcane-duelist	Arcane Armor (Ex)	arcane-armor	yes	10	print	print	hand review (ruling 14, print): Same rule, different words.	80	d47ffee3d97182bcd22bd8ae107030bf8ae0d83d2c661fef14471a514d3fad7f
 ref/arc-bard/arcane-duelist	Bonded Object	bonded-object	no			print	hand review (ruling 14, structural): The text is copied from the wizard class, not from this book. Drop the section (ruling 10).; link of the dropped section not placed: concentration; link of the dropped section not placed: Craft Magic Arms and Armor		88c771b5f0846b0a5977c33d693b48c40eb3df8c8af382b95cfd3f6a5db080ba
-ref/arc-bard/archivist	Bardic Performance	bardic-performance	yes		draft	draft	print: Advanced Player's Guide, 2nd printing	80	c32b37516bf1780dba27961c20374e9c098bd093cc90488ffbffd1a3924772c5
+ref/arc-bard/archivist	Bardic Performance	bardic-performance	no		draft	draft	hand review (cross-batch, ruling 54): an intro head with no level and no trade that holds only its lead-in sentence; the abilities under it stay listed features; print: Advanced Player's Guide, 2nd printing	80	c32b37516bf1780dba27961c20374e9c098bd093cc90488ffbffd1a3924772c5
 ref/arc-bard/archivist	Naturalist (Ex)	naturalist	yes	1	print	print	rule 1: the corpus rows and the printed values agree level by level; print's wording taken; level 1: replaces Inspire courage, of which one is gained at 1st level in the class table	80	13ddacfb62f8161597d458ee00e3cd63f17378450d1800b51048adcd1fe7bf2f
 ref/arc-bard/archivist	Lamentable Belaborment (Ex)	lamentable-belaborment	yes	6	print	print	link of `half` placed in `magic-lore`	80	f51dc4826c2576461e9d8d4afc49acefba640dfd7d4c48f3dae7c24477f1ba7c
 ref/arc-bard/archivist	Pedantic Lecture (Su)	pedantic-lecture	yes	18	print	print		80	ab6378cf7968e3836a03def1968dc70461c2c3df7b0b18a40b374da76efe7072
@@ -41,21 +41,21 @@ ref/arc-bard/archivist	Lore Master (Ex)	lore-master	yes	2	print	print	ruling 10:
 ref/arc-bard/archivist	Magic Lore (Ex)	magic-lore	yes	2	print	print		81	498bf7eb4604fda6c7b8c8091c6029fa6cf93f00ebaa498a38831cf83507ce98
 ref/arc-bard/archivist	Jack of All Trades (Ex)	jack-of-all-trades	yes	5	print	print		81	dd5dac1a7304071d076ac8f6d307f9fe21c2b25c9a4ec2839ee71ba03fc9f7ed
 ref/arc-bard/archivist	Probable Path (Ex)	probable-path	yes	10	print	print		81	3c8ec558326b58cb67883fe8253c7c5ccff170ac49de8fb3eb6af045f2e8ed8e
-ref/arc-bard/court-bard	Bardic Performance	bardic-performance	yes		draft	draft	print: Advanced Player's Guide, 2nd printing	81	da3b7ac1b3ba8ef7b72a04a1a7c67048540ae27f5818614ba965755832bb1354
+ref/arc-bard/court-bard	Bardic Performance	bardic-performance	no		draft	draft	hand review (cross-batch, ruling 54): an intro head with no level and no trade that holds only its lead-in sentence; the abilities under it stay listed features; print: Advanced Player's Guide, 2nd printing	81	da3b7ac1b3ba8ef7b72a04a1a7c67048540ae27f5818614ba965755832bb1354
 ref/arc-bard/court-bard	Satire (Su)	satire	yes	1	print	print	level 1: replaces Inspire courage, of which one is gained at 1st level in the class table	81	f7dff2e6a1a787c6b2fde24cdb7e49d1736c879639aca7e09c664ac743bc1645
 ref/arc-bard/court-bard	Mockery (Su)	mockery	yes	3	print	print	level 3: print says "A court bard of 3rd level" in its first paragraph, as the import has it	81	d21fe564589494f89241aa3245ca7cccfff7cc8e047354642604a99021d10c89
 ref/arc-bard/court-bard	Glorious Epic (Su)	glorious-epic	yes	8	print	print	link of `half` placed in `heraldic-expertise`; level 8: print says "A court bard of 8th level" in its first paragraph, as the import has it	81	ce5f313dc963e6007a31f1cf4dacb1dbf4e7cf3eca6bfc4863e12f78b36cf268
 ref/arc-bard/court-bard	Scandal (Su)	scandal	yes	14	print	print	level 14: print says "A court bard of 14th level" in its first paragraph, as the import has it	81	4ce487683b307c863f01a0c403d8654c49553b3cf59035809ecb26e7191ee0d0
 ref/arc-bard/court-bard	Heraldic Expertise (Ex)	heraldic-expertise	yes	1	print	print	level 1: replaces Bardic knowledge, of which one is gained at 1st level in the class table	81	94b8e08947085b1d673897807699afa0a2338a3066e7c1fe5138b2011227fb9a
 ref/arc-bard/court-bard	Wide Audience (Su)	wide-audience	yes	5	print	print		81	246c41987a60c2c5d8eb40e319ace146b79d7cfe11dbf0e47d6117d7d04c0486
-ref/arc-bard/detective	Bardic Performance	bardic-performance	yes		draft	draft	print: Advanced Player's Guide, 2nd printing	81	952702d865565dd306fbb5c6b0fe1a346259a3f1a183144337c72a00b3edfcac
+ref/arc-bard/detective	Bardic Performance	bardic-performance	no		draft	draft	hand review (cross-batch, ruling 54): an intro head with no level and no trade that holds only its lead-in sentence; the abilities under it stay listed features; print: Advanced Player's Guide, 2nd printing	81	952702d865565dd306fbb5c6b0fe1a346259a3f1a183144337c72a00b3edfcac
 ref/arc-bard/detective	Careful Teamwork (Su)	careful-teamwork	yes	1	print	print	rule 1: the corpus rows and the printed values agree level by level; print's wording taken; level 1: replaces Inspire courage, of which one is gained at 1st level in the class table	81	efe7ef0c89d6cc57357e87d216737fa0dc62d574fadda83d3dc999cb9dc3e9a7
 ref/arc-bard/detective	True Confession (Su)	true-confession	yes	9	print	print	hand review (ruling 14, print): Same values.; link of `half` placed in `eye-for-detail`	81	40613f9b417fd8a8c35ba4aabccca6acdd9a04fb29de471820320c27c07d07d2
 ref/arc-bard/detective	Show Yourselves (Ex)	show-yourselves	yes	15	print	print		82	444383c70a8465384e121acc14b03f45b56f96e151ab4fe89abbede25cc00e8a
 ref/arc-bard/detective	Eye for Detail (Ex)	eye-for-detail	yes	1	print	print	level 1: replaces Bardic knowledge, of which one is gained at 1st level in the class table	82	8cf98670d1470549f1c01aee6b8714042a2e2e99f5de5593dac4dc81df7d8185
 ref/arc-bard/detective	Arcane Insight (Ex)	arcane-insight	yes	2	print	print		82	50d3a1fcd24f05d198d0f43b707751d5e4a79c630e7e38dbba17ff235c7ff3b1
 ref/arc-bard/detective	Arcane Investigation	arcane-investigation	yes		print	print		82	c54f244fe5b803100f0010f775c597ccd271d8e5a8b72669bc6cfa949c1fb4d1
-ref/arc-bard/magician	Bardic Performance	bardic-performance	yes		draft	draft	print: Advanced Player's Guide, 2nd printing	82	12e1b83a5747f511bbfdf22cb61fa47d64c5f7b3e6e82ac644d52e6a0b0a2f19
+ref/arc-bard/magician	Bardic Performance	bardic-performance	no		draft	draft	hand review (cross-batch, ruling 54): an intro head with no level and no trade that holds only its lead-in sentence; the abilities under it stay listed features; print: Advanced Player's Guide, 2nd printing	82	12e1b83a5747f511bbfdf22cb61fa47d64c5f7b3e6e82ac644d52e6a0b0a2f19
 ref/arc-bard/magician	Dweomercraft (Su)	dweomercraft	yes	1	print	print	rule 1: the corpus rows and the printed values agree level by level; print's wording taken; level 1: replaces Inspire courage, of which one is gained at 1st level in the class table	82	41110e04fac102552e66d6ef1e7fc9298942fb8c015c53fe91c20bd35732ef2b
 ref/arc-bard/magician	Spell Suppression (Su)	spell-suppression	yes	8	print	print	misprint fixed: print has "A 8th level", the lead is "At 8th level"	82	bc748bea7935d1d2ad3428d5380d70d9c7007333b1b2e20ccd1d41e5edaac5cd
 ref/arc-bard/magician	Metamagic Mastery (Ex)	metamagic-mastery	yes	14	print	print		82	0a9229b7dff095f56b8c94c8d280d46ed43735278c153ae29b40c4b6faf56755
@@ -66,7 +66,7 @@ ref/arc-bard/magician	Expanded Repertoire (Ex)	expanded-repertoire	yes	2	print	p
 ref/arc-bard/magician	Arcane Bond (Ex)	arcane-bond	yes	5	print	print		82	9ed09ca18990fd33ef675f3db304d9507b99ff14df66e4026eb2600b2bc645e5
 ref/arc-bard/magician	Wand Mastery (Ex)	wand-mastery	yes	10	print	print	hand review (ruling 14, print): The corpus lost "DC".	82	dd66c67c9819cbc77291c255e95056bd7a74e564f13f358019bb0173a284486f
 ref/arc-bard/magician	Arcane Bond: Bonded Object	arcane-bond-bonded-object	no			print	hand review (ruling 14, structural): Same as for the Arcane Duelist. Drop it (ruling 10).; link of the dropped section not placed: ring or neck slot; link of the dropped section not placed: Craft Magic Arms and Armor		356c5d76540a157b84d4be2fec25c32d8a623fddf6915b6240cfaed96e2e7f30
-ref/arc-bard/sandman	Bardic Performance	bardic-performance	yes		draft	draft	print: Advanced Player's Guide, 2nd printing	83	38057d9d440a8d0ea03d1e0bdf36013eddfe0cd9ef538a791ab151a048f16819
+ref/arc-bard/sandman	Bardic Performance	bardic-performance	no		draft	draft	hand review (cross-batch, ruling 54): an intro head with no level and no trade that holds only its lead-in sentence; the abilities under it stay listed features; print: Advanced Player's Guide, 2nd printing	83	38057d9d440a8d0ea03d1e0bdf36013eddfe0cd9ef538a791ab151a048f16819
 ref/arc-bard/sandman	Stealspell (Su)	stealspell	yes	1	print	print	link of `half` placed in `greater-stealspell`; level 1: replaces Inspire courage, of which one is gained at 1st level in the class table	83	1568ca6ad98f282afd1d0236f9737bb3a1cd1e02f702b0ea626b9a6984775056
 ref/arc-bard/sandman	Slumber Song (Sp)	slumber-song	yes	6	print	print		83	94a646d02c494dc42507f396326bdeb9d9213ba9ee7cbbad73c335b1f6dd3a6e
 ref/arc-bard/sandman	Dramatic Subtext (Su)	dramatic-subtext	yes	9	print	print		83	91e7eca219b56633c7d2e02188e121cf334c019dd8079f934e4a936b02657862
@@ -77,13 +77,13 @@ ref/arc-bard/sandman	Master of Deception (Ex)	master-of-deception	yes	1	print	pr
 ref/arc-bard/sandman	Sneakspell (Ex)	sneakspell	yes	2	print	print	hand review (ruling 14, print): Same values.	84	1be904f07976c63374ba6217f2bc46e53c55898e860d859a7f75b5b734211d69
 ref/arc-bard/sandman	Trap Sense (Ex)	trap-sense	yes	3	print	print	rule 8: the printed progression and the corpus's fraction of the level give the same values; print's wording taken	84	0cd6f036e96e149b3170e260b575b5a27b4e3c8341922df0e5070e06103e5b73
 ref/arc-bard/sandman	Sneak Attack (Ex)	sneak-attack	yes	5	print	print	hand review (ruling 14, print): Same values: 1d6 at 5th, 2d6 at 10th, 3d6 at 15th, 4d6 at 20th.	84	e5e081ead254df98ed67b77780f6dff6723a08736fa803f50f6fac0bc6cad370
-ref/arc-bard/savage-skald	Bardic Performance	bardic-performance	yes		draft	draft	print: Advanced Player's Guide, 2nd printing	84	944f56ac8a191ede39a9ddccc6c53568a2eff64ceff6beb84e35f1763d92c1e2
+ref/arc-bard/savage-skald	Bardic Performance	bardic-performance	no		draft	draft	hand review (cross-batch, ruling 54): an intro head with no level and no trade that holds only its lead-in sentence; the abilities under it stay listed features; print: Advanced Player's Guide, 2nd printing	84	944f56ac8a191ede39a9ddccc6c53568a2eff64ceff6beb84e35f1763d92c1e2
 ref/arc-bard/savage-skald	Inspiring Blow (Su)	inspiring-blow	yes	1	print	print	level 1: replaces Fascinate, of which one is gained at 1st level in the class table	84	eecc85be7c021472ae66171b50d873d8fec5943273bf6c43b7ec9e1b25d0a163
 ref/arc-bard/savage-skald	Incite Rage (Su)	incite-rage	yes	6	print	print	link not placed: half	84	4f9384f42f9fb22c75fec4ef916e3ecf03579a5eba62da80fafeb32147d81d55
 ref/arc-bard/savage-skald	Song of the Fallen (Sp)	song-of-the-fallen	yes	10	print	print	hand review (ruling 14, print): Same values.	84	47d6bf65d38f0f6ca7d5afa2b7b110f841c6554d5e9c62e770f1377913b97459
 ref/arc-bard/savage-skald	Berserkergang (Ex)	berserkergang	yes	12	print	print	ruling 10: corpus text that print does not have is dropped: “At 12th level, a savage skald can …”	84	515a96b863cbd372f0e2f32b16d9cb2b85757358b3cf96f8dffb000089d565fa
 ref/arc-bard/savage-skald	Battle Song (Su)	battle-song	yes	18	print	print		84	95d3c34e8dff910fc336db02d88b31d3136a937f177960609bc91bf6231c6b7e
-ref/arc-bard/sea-singer	Bardic Performance	bardic-performance	yes		draft	draft	print: Advanced Player's Guide, 2nd printing	84	542bdb64d6d8696383bf05f7d48a7b0867f3b7568e33433bbb72f663efd8114b
+ref/arc-bard/sea-singer	Bardic Performance	bardic-performance	no		draft	draft	hand review (cross-batch, ruling 54): an intro head with no level and no trade that holds only its lead-in sentence; the abilities under it stay listed features; print: Advanced Player's Guide, 2nd printing	84	542bdb64d6d8696383bf05f7d48a7b0867f3b7568e33433bbb72f663efd8114b
 ref/arc-bard/sea-singer	Sea Shanty (Su)	sea-shanty	yes	1	print	print	level 1: replaces Countersong, of which one is gained at 1st level in the class table	84	9fb1e6e7850b75b8d234e643bf907ace517c57511b6db68dd3d1ad344dc22d96
 ref/arc-bard/sea-singer	Still Water (Su)	still-water	yes	3	print	print		85	52e738367245aae2ba449106a5f3b8970aaf07a12f484d66f81c4c720ddccc7b
 ref/arc-bard/sea-singer	Whistle the Wind (Su)	whistle-the-wind	yes	6	print	print	level 6: print says "A sea singer of 6th level" in its first paragraph, as the import has it	85	cf3c9c9a6d083227ac21f94388f0369cd1080bd53dcc5980d66d8b84c4b332b1
@@ -91,7 +91,7 @@ ref/arc-bard/sea-singer	Call the Storm (Su)	call-the-storm	yes	18	print	print		8
 ref/arc-bard/sea-singer	World Traveler (Ex)	world-traveler	yes	1	print	print	level 1: replaces Bardic knowledge, of which one is gained at 1st level in the class table	85	d9ac0b3b0f132d87964867302b385f0278665299f8d8c09229d27c1daac965ec
 ref/arc-bard/sea-singer	Familiar	familiar	yes	2	print	print		85	25fd7c4259b48f334696b29cff89368ad22fcd537fda3546b3095bcf53dec793
 ref/arc-bard/sea-singer	Sea Legs (Ex)	sea-legs	yes	2	print	print		85	ac6f8652ebe1714b895806bde4a7075ee84a3bb25cec835e6c261037f98343f9
-ref/arc-bard/street-performer	Bardic Performance	bardic-performance	yes		draft	draft	print: Advanced Player's Guide, 2nd printing	85	7d3badda2aec150d785d5c390b1be84518f15763591e1dd8c7ed03e132c2ef78
+ref/arc-bard/street-performer	Bardic Performance	bardic-performance	no		draft	draft	hand review (cross-batch, ruling 54): an intro head with no level and no trade that holds only its lead-in sentence; the abilities under it stay listed features; print: Advanced Player's Guide, 2nd printing	85	7d3badda2aec150d785d5c390b1be84518f15763591e1dd8c7ed03e132c2ef78
 ref/arc-bard/street-performer	Disappearing Act (Su)	disappearing-act	yes	1	print	print	link of `half` placed in `streetwise`; level 1: replaces Inspire courage, of which one is gained at 1st level in the class table	85	7e7d2294a356e9d41e2c161191f37668cfd599bbc2bae97982aed12c10683922
 ref/arc-bard/street-performer	Harmless Performer (Su)	harmless-performer	yes	3	print	print		85	30b4a343d3738c25cccbe9f2aea50625bfedd7715922f17540b61ae239e888d3
 ref/arc-bard/street-performer	Madcap Prank (Su)	madcap-prank	yes	9	print	print		85	9bb0dc5c452ba29cf3910cdee49f7dee3fadbc7f04a4c93fb7c674d536bb2682
@@ -103,13 +103,13 @@ ref/arc-druid/aquatic-druid	Wild Empathy (Ex)	wild-empathy	yes	1	draft	draft	lev
 ref/arc-druid/aquatic-druid	Aquatic Adaptation (Ex)	aquatic-adaptation	yes	2	print	print	link of `half` placed in `natural-swimmer`	98	9560c181b0f893be4ddb47f27f4dd90c5552070f3a7b3fa76059efb09f2f41a7
 ref/arc-druid/aquatic-druid	Natural Swimmer (Ex)	natural-swimmer	yes	3	print	print		98	899c50b65331f490d784da561f2d8330c8988010471adbf0119b53150c381e51
 ref/arc-druid/aquatic-druid	Resist Ocean's Fury (Ex)	resist-ocean-s-fury	yes	4	print	print		98	398724dca3da74f3a2f65663fb7d1d283d16e9cef6b9455bdce66813c1c47e6f
-ref/arc-druid/aquatic-druid	Wild Shape (Su)	wild-shape	yes	6	print	print	level 6: print says "gains this ability at 6th level"	98	196898fe6ea2ec48185ff0274aa30e3bb9cd16daac1be481074f8880a04f17f3
+ref/arc-druid/aquatic-druid	Wild Shape (Su)	wild-shape	yes	6	print	print	level 6: print says "el"	98	196898fe6ea2ec48185ff0274aa30e3bb9cd16daac1be481074f8880a04f17f3
 ref/arc-druid/aquatic-druid	Seaborn (Ex)	seaborn	yes	9	print	print		98	4e357f7a9e2841dba1a036efc5669c9c7c2c1ec1b2a1455c55d0bb0de02edcc8
 ref/arc-druid/aquatic-druid	Deep Diver (Ex)	deep-diver	yes	13	print	print		98	90599fea7d48dc2b70dc93e81888821a503b6c10798d402a70595eecf681d97a
 ref/arc-druid/arctic-druid	Arctic Native (Ex)	arctic-native	yes	2	print	print	link not placed: half; print: Advanced Player's Guide, 2nd printing	98	8251f1c606b63b30ce22d18a1b37693e43cc7b3fdee0674641d16e578b130341
 ref/arc-druid/arctic-druid	Icewalking (Ex)	icewalking	yes	3	print	print		98	4307015bd82a01c463c50e1ff835edce139bd3462cafc7433136d8a69b653f89
 ref/arc-druid/arctic-druid	Arctic Endurance (Ex)	arctic-endurance	yes	4	print	print		98	2c2bb6c17308eaeee0f864b7858a01ae377fa485fc0a14cdc1385885f99ba417
-ref/arc-druid/arctic-druid	Wild Shape (Su)	wild-shape	yes	6	print	print	level 6: print says "gains this ability at 6th level"	98	34a9767498eac89f07f6aa0f3f3902212a2f5d9d6e32c2047db8ec5d914a73d9
+ref/arc-druid/arctic-druid	Wild Shape (Su)	wild-shape	yes	6	print	print	level 6: print says "vel"	98	34a9767498eac89f07f6aa0f3f3902212a2f5d9d6e32c2047db8ec5d914a73d9
 ref/arc-druid/arctic-druid	Snowcaster (Su)	snowcaster	yes	9	print	print		98	8304ee80150201d400281842cecdef6ebaeb20cb3e9fa7f07bf9a18d542e5c51
 ref/arc-druid/arctic-druid	Flurry Form (Ex)	flurry-form	yes	13	print	print		98	100e0a6df98045ce9e4c2472fc84b2ae5e5abcbd7ce4c73cc194f69f4f670111
 ref/arc-druid/bear-shaman	Nature Bond	nature-bond	yes	1	print	print	level 1: alters Nature bond, of which one is gained at 1st level in the class table; print: Advanced Player's Guide, 2nd printing	102	4da9273d8c4a437f3d43ed11980ea518bfde6bde51f26486b06965111229a25f
@@ -129,11 +129,11 @@ ref/arc-druid/cave-druid	Wild Empathy (Ex)	wild-empathy	yes	1	draft	draft	level 
 ref/arc-druid/cave-druid	Tunnelrunner (Ex)	tunnelrunner	yes	2	print	print		99	df60afdc92f22ca7eb7e1cd089dc96ab6c8ba736bd156e860453d0cd69cd69d3
 ref/arc-druid/cave-druid	Lightfoot (Ex)	lightfoot	yes	3	print	print		99	5bc8fc73de7f67b857cb77bc3e9c322995e1635b1e5778c73c50488513b57834
 ref/arc-druid/cave-druid	Resist Subterranean Corruption (Ex)	resist-subterranean-corruption	yes	4	print	print		99	72d351b7b0c4bf4bba207d2aeaef4f52563cf7b997d9d52cdc8eb1e0ef1a6a10
-ref/arc-druid/cave-druid	Wild Shape (Su)	wild-shape	yes	6	print	print	hand review (ruling 14, print): Same values.; level 6: print says "gains this ability at 6th level"	99	9f2b78d308eeb2d9513d94efdddd8fb100cf2b625a31d32cb0641b6c49c53b63
+ref/arc-druid/cave-druid	Wild Shape (Su)	wild-shape	yes	6	print	print	hand review (ruling 14, print): Same values.; level 6: print says "level"	99	9f2b78d308eeb2d9513d94efdddd8fb100cf2b625a31d32cb0641b6c49c53b63
 ref/arc-druid/desert-druid	Desert Native (Ex)	desert-native	yes	2	print	print	link not placed: half; opening text written from print: the import differs in —; print: Advanced Player's Guide, 2nd printing	99	033278b8e140ec326c5feeaf663cd6d20816f05691b92ba1c700be51b3668266
 ref/arc-druid/desert-druid	Sandwalker (Ex)	sandwalker	yes	3	print	print		99	be7c7359bb484850f4aa67595cf099bc8aec532dfe5a68f22ceea71ef227e173
 ref/arc-druid/desert-druid	Desert Endurance (Ex)	desert-endurance	yes	4	print	print		99	273a3f3df57cf0d97642f00e643ef8609793d3c41536d9fc84ec35afa46bb0a5
-ref/arc-druid/desert-druid	Wild Shape (Su)	wild-shape	yes	6	print	print	hand review (ruling 14, print): Print's sentence follows the 10th-level forms. The corpus only says so explicitly.; level 6: print says "gains this ability at 6th level"	99	e0482146681f13a33b43ad72ba2eb037b684bd6e18affc023a85215ef7c761c9
+ref/arc-druid/desert-druid	Wild Shape (Su)	wild-shape	yes	6	print	print	hand review (ruling 14, print): Print's sentence follows the 10th-level forms. The corpus only says so explicitly.; level 6: print says "evel"	99	e0482146681f13a33b43ad72ba2eb037b684bd6e18affc023a85215ef7c761c9
 ref/arc-druid/desert-druid	Shaded Vision (Ex)	shaded-vision	yes	9	print	print		99	82b6fbd1cf2b398d2c4716ccde2135b2d049c616e7648f710a9a2b5bc0ce73d9
 ref/arc-druid/desert-druid	Dunemeld (Ex)	dunemeld	yes	13	print	print		99	70c2564d3b8540329509bcaf30ff1043066c29d60a017db2e46bd01d272739ce
 ref/arc-druid/eagle-shaman	Nature Bond	nature-bond	yes	1	draft	draft	level 1: alters Nature bond, of which one is gained at 1st level in the class table; print: Advanced Player's Guide, 2nd printing	102	4a118b39072e194910063d46f47801b7f29d10c859d318ad5a94c907cd001017
@@ -143,9 +143,9 @@ ref/arc-druid/eagle-shaman	Totemic Summons (Su)	totemic-summons	yes	5	print	prin
 ref/arc-druid/eagle-shaman	Wild Shape (Su)	wild-shape	yes	6	print	print	ruling 10: corpus text that print does not have is dropped: “To remedy this problem, an eagle shaman …”; “The lack of suitable giant bird stat …”; link not placed: beast shape	102	b96f0f61de3247a55862c97526f6f234e00a91cf72b5f8fa59aa7ddc1ab979a5
 ref/arc-druid/eagle-shaman	Bonus Feat	bonus-feat	yes	9	print	print	head printed, not in the import: added from print; trade added: replaces "Venom immunity" (feature `venom-immunity`), which print states and the entry did not store	102	
 ref/arc-druid/jungle-druid	Jungle Guardian (Ex)	jungle-guardian	yes	2	print	print	link not placed: half; print: Advanced Player's Guide, 2nd printing	100	8377310917c970cc4cac192ea723c784ef0929a026216d244f4d43621fc3834b
-ref/arc-druid/jungle-druid	Woodland Stride (Ex)	woodland-stride	yes	3	print	print	level 3: print says "gains this ability at 3rd level"	100	485e5616ec3b4183f24d71379968dd68f4572f8a9fba1c8649e984716fddc41a
+ref/arc-druid/jungle-druid	Woodland Stride (Ex)	woodland-stride	yes	3	print	print	level 3: print says "evel"	100	485e5616ec3b4183f24d71379968dd68f4572f8a9fba1c8649e984716fddc41a
 ref/arc-druid/jungle-druid	Torrid Endurance (Ex)	torrid-endurance	yes	4	print	print		100	3d7627137f929ee33ef36d407854c78e1c8ef10b744331962d9beb2e7f8b88b3
-ref/arc-druid/jungle-druid	Wild Shape (Su)	wild-shape	yes	6	print	print	level 6: print says "gains this ability at 6th level"	100	a761e78c309baaecc4085518ef01799f241a75debf2469e9b26bef8e8e91a23b
+ref/arc-druid/jungle-druid	Wild Shape (Su)	wild-shape	yes	6	print	print	level 6: print says "evel"	100	a761e78c309baaecc4085518ef01799f241a75debf2469e9b26bef8e8e91a23b
 ref/arc-druid/jungle-druid	Verdant Sentinel (Ex)	verdant-sentinel	yes	13	print	print		100	ef14e5139c0a8bedcdb37017e6db02fa14bc1e382f1df08bf52f0f0d55a6e4b6
 ref/arc-druid/lion-shaman	Nature Bond	nature-bond	yes	1	print	print	level 1: alters Nature bond, of which one is gained at 1st level in the class table; print: Advanced Player's Guide, 2nd printing	103	4370a9380262d05cbf1be9496e1f6a662e19da1462086adb35222229228ae02c
 ref/arc-druid/lion-shaman	Wild Empathy (Ex)	wild-empathy	yes	1	draft	draft	level 1: alters Wild empathy, of which one is gained at 1st level in the class table	103	898ed3bddb8c65cae0564a2ba53ade91b8fef1e31cb507744d0c2ca2b6bf03b1
@@ -156,13 +156,13 @@ ref/arc-druid/lion-shaman	Bonus Feat	bonus-feat	yes	9	print	print	ruling 10: cor
 ref/arc-druid/mountain-druid	Mountaineer (Ex)	mountaineer	yes	2	print	print	print: Advanced Player's Guide, 2nd printing	100	348df39f1baf89f212f28c2ed9163443c41cab840afd6a54d74407a85dd8751b
 ref/arc-druid/mountain-druid	Sure-Footed (Ex)	sure-footed	yes	3	print	print		100	bacc2de5c5740641c51e94d5d05a166797fa9c25d94eb9cea842a3712e41d3b2
 ref/arc-druid/mountain-druid	Spire Walker (Ex)	spire-walker	yes	4	print	print		100	05c30f6ac0e3ecb5519399bb954d1333a216ce69f84d56ef3399bc7e10f5008a
-ref/arc-druid/mountain-druid	Wild Shape (Su)	wild-shape	yes	6	print	print	level 6: print says "gains this ability at 6th level"	100	f0694b9c9a6d00959250a55e5a9f2d4a082c1bbd5d87158a322e9e5c62472b37
+ref/arc-druid/mountain-druid	Wild Shape (Su)	wild-shape	yes	6	print	print	level 6: print says "el"	100	f0694b9c9a6d00959250a55e5a9f2d4a082c1bbd5d87158a322e9e5c62472b37
 ref/arc-druid/mountain-druid	Mountain Stance (Ex)	mountain-stance	yes	9	print	print		100	ba23b74bbc9937c81e9ebdd62078be79d72b4be9c8135c473fda04e7b837d7ab
 ref/arc-druid/mountain-druid	Mountain Stone (Ex)	mountain-stone	yes	13	print	print		100	73d76e9762c86b275e8954b6eb174f0f3c2f48944996805c69c04475cfcbdbff
 ref/arc-druid/plains-druid	Plains Traveler (Ex)	plains-traveler	yes	2	print	print	link not placed: half; print: Advanced Player's Guide, 2nd printing	100	67cae03a382c14c50d3091ed777a9c72649c6adf19cfd4962c9b1e577b7e7358
 ref/arc-druid/plains-druid	Run Like the Wind (Ex)	run-like-the-wind	yes	3	print	print		100	937c5bf189647dd2eb616b5f2d898334eaf29d0e245aeb0bf2eefac90b2a9c23
 ref/arc-druid/plains-druid	Savanna Ambush (Ex)	savanna-ambush	yes	4	print	print		100	18e537ab7e889b08f69620ff40f42c73a42288e4434938c3d7ce4e36ffd6b317
-ref/arc-druid/plains-druid	Wild Shape (Su)	wild-shape	yes	6	print	print	level 6: print says "gains this ability at 6th level"	100	6a0ad82522d4472f57442c1422d2983ad4b192db718461a071e4e1876050f5f3
+ref/arc-druid/plains-druid	Wild Shape (Su)	wild-shape	yes	6	print	print	level 6: print says "evel"	100	6a0ad82522d4472f57442c1422d2983ad4b192db718461a071e4e1876050f5f3
 ref/arc-druid/plains-druid	Canny Charger (Ex)	canny-charger	yes	9	print	print		100	d0e7a71575fe62ec326adebdce5a6e0c722adda8c9571c1c98da175be6b22141
 ref/arc-druid/plains-druid	Evasion (Ex)	evasion	yes	13	print	print		100	7651c9c83748cf68fc365529cfbbca1a3e4ac23c85cfdd81eac7c3c154da40d0
 ref/arc-druid/serpent-shaman	Nature Bond	nature-bond	yes	1	draft	draft	level 1: alters Nature bond, of which one is gained at 1st level in the class table; print: Advanced Player's Guide, 2nd printing	103	91a5196a3f4c2fab1a57e50d7c4c51f1a37348fedbb92b87e22457c062553a19
@@ -175,14 +175,14 @@ ref/arc-druid/serpent-shaman	Serpent Shaman Venom	serpent-shaman-venom	no			prin
 ref/arc-druid/swamp-druid	Marshwight (Ex)	marshwight	yes	2	print	print	link of `half` placed in `pond-scum`; print: Advanced Player's Guide, 2nd printing	101	9eb0d008b215be907c5d81f3620e718c821010e82667a9e9a385b9644b7fae49
 ref/arc-druid/swamp-druid	Swamp Strider (Ex)	swamp-strider	yes	3	print	print		101	2e8aa83f0202509022f608972d74ab75c7a451348f9a4b58a75f28a0866aaf2d
 ref/arc-druid/swamp-druid	Pond Scum (Ex)	pond-scum	yes	4	print	print		101	948ff1d42a7a1d3bf8c1947cfc8aeaff2b79ff45e80863a60e5f658a8059bca4
-ref/arc-druid/swamp-druid	Wild Shape (Su)	wild-shape	yes	6	print	print	level 6: print says "gains this ability at 6th level"	101	a790e69ad4fd655c57b7e0a292d849c9ec8628f1c50d4840fbeee13af0bff3f0
+ref/arc-druid/swamp-druid	Wild Shape (Su)	wild-shape	yes	6	print	print	level 6: print says "level"	101	a790e69ad4fd655c57b7e0a292d849c9ec8628f1c50d4840fbeee13af0bff3f0
 ref/arc-druid/swamp-druid	Slippery (Ex)	slippery	yes	13	print	print		101	1c9f4a623f67a4edf1f27bc308282ff6b325b130ef46ce6d8b07c37aa628b0e7
 ref/arc-druid/urban-druid	Spontaneous Casting	spontaneous-casting	yes		print	print	trade renamed: "Spontaneous casting" to "Ability to spontaneously cast summon nature's ally spells" to match the printed sentence; print: Advanced Player's Guide, 2nd printing	101	c42ee3c8738d40cfa180b041aadc70e8e2948f6dcd3c78df1d6250bc92ab36f8
 ref/arc-druid/urban-druid	Nature Bond (Ex)	nature-bond	yes		draft	draft		101	7a046eb812f3e9e3476da8a96ebb0acd1e662dff3cfb7c55a6857ce2b1fa5c3d
 ref/arc-druid/urban-druid	Lorekeeper (Ex)	lorekeeper	yes	2	print	print		102	062d2fbe652525a809f6d53009db1a3fc117cc6f86c3f5f913a8dcc7b0454dbd
 ref/arc-druid/urban-druid	Resist Temptation (Ex)	resist-temptation	yes	4	print	print		102	b357c33e8497d295b538289c8425388c6454fbb71ff48cc2413d405cecaedfe4
-ref/arc-druid/urban-druid	A Thousand Faces (Su)	a-thousand-faces	yes	6	print	print	hand review (ruling 14, print): Same meaning.; level 6: print says "gains this ability at 6th level"	102	73677069d88a02da53e2e6718d77c1ab8728309a2b5b9775d4904c34dda3c61d
-ref/arc-druid/urban-druid	Wild Shape (Su)	wild-shape	yes	8	print	print	level 8: print says "gains this ability at 8th level"	102	c9fad2f321d29c50f273c8b9becab3d26a4a8353ded5e3e90357ca9b8572f72c
+ref/arc-druid/urban-druid	A Thousand Faces (Su)	a-thousand-faces	yes	6	print	print	hand review (ruling 14, print): Same meaning.; level 6: print says "evel"	102	73677069d88a02da53e2e6718d77c1ab8728309a2b5b9775d4904c34dda3c61d
+ref/arc-druid/urban-druid	Wild Shape (Su)	wild-shape	yes	8	print	print	level 8: print says "evel"	102	c9fad2f321d29c50f273c8b9becab3d26a4a8353ded5e3e90357ca9b8572f72c
 ref/arc-druid/urban-druid	Mental Strength (Ex)	mental-strength	yes	9	print	print		102	7d087952e7635f08f5bc3a643c422cdc2017ffc32883722a94cdfdd61c89ddf2
 ref/arc-druid/wolf-shaman	Nature Bond	nature-bond	yes	1	print	print	level 1: alters Nature bond, of which one is gained at 1st level in the class table; print: Advanced Player's Guide, 2nd printing	103	2f0c195a8512e37a4b68000392cfd6cda94478108523246fca065a10f3827c70
 ref/arc-druid/wolf-shaman	Wild Empathy (Ex)	wild-empathy	yes	1	draft	draft	level 1: alters Wild empathy, of which one is gained at 1st level in the class table	103	ad44610d6af2cb332f96f2b48c28c9845671d65ef9c2801efd3468226f9dbcc6

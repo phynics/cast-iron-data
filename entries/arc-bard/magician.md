@@ -17,7 +17,6 @@ page = "82"
 [fields]
 kind = "archetype"
 features = [
-  { anchor = "bardic-performance" },
   { anchor = "dweomercraft", level = 1 },
   { anchor = "spell-suppression", level = 8 },
   { anchor = "metamagic-mastery", level = 14 },

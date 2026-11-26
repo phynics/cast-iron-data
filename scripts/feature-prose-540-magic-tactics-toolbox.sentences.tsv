@@ -3,6 +3,7 @@ ref/arc-alchemist/dimensional-excavator	This alters the discovery ability, and r
 ref/arc-alchemist/dimensional-excavator	This alters the discovery ability.
 ref/arc-cleric/divine-scourge	This ability alters domains.
 ref/arc-cleric/divine-scourge	This ability replaces channel energy.
+ref/arc-druid/drovier	This ability modifies nature’s bond.
 ref/arc-druid/drovier	This replaces wild shape.
 ref/arc-druid/toxicologist	This ability alters spells and replaces spontaneous casting.
 ref/arc-druid/toxicologist	This ability replaces wild empathy and woodland stride.
@@ -19,6 +20,7 @@ ref/arc-investigator/questioner	This ability replaces alchemy.
 ref/arc-investigator/questioner	This ability replaces poison lore.
 ref/arc-investigator/questioner	This ability alters investigator talents.
 ref/arc-magus/spell-trapper	This alters the magus’s class skills.
+ref/arc-magus/spell-trapper	This modifies the magus arcana ability.
 ref/arc-magus/spell-trapper	This ability replaces spell recall.
 ref/arc-magus/spell-trapper	This replaces the fighter training ability.
 ref/arc-shaman/overseer	This ability replaces the spirit magic spells gained from the shaman’s spirit.

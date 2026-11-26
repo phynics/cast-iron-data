@@ -715,6 +715,7 @@ def render_marks(s: str) -> str:
     """Italic marks to underscores. Two italic runs with only a space between them are one name that the line wrap of print cut
     ("_riding_ _possession_"): one span (review of #344)."""
     s = SPLIT_ITALIC.sub(lambda m: m.group(1) + " ", s)
+    s = re.sub(I_OPEN + r"\(([^" + I_OPEN + I_CLOSE + r")]*)" + I_CLOSE, lambda m: "(" + I_OPEN + m.group(1) + I_CLOSE, s)      # print sets the parenthesis of a citation in italics: the mark goes inside it
     return s.replace(I_OPEN, "_").replace(I_CLOSE, "_")
 
 
@@ -1519,7 +1520,7 @@ TRADE_SUBJECT_WORDS = (r"ability|abilities|class|feature|features|power|powers|a
                        r"talent|talents|hex|hexes|discovery|discoveries|revelation|revelations|mercy|mercies|deed|deeds|exploit|"
                        r"exploits|arcana|arcanum|feat|feats|also|otherwise|acts|works|functions|as|like|and|bonus|spells|skills")
 TRADE_SENTENCE = re.compile(
-    r"(?:^|(?<=[.!?]\s)|(?<=[.!?]\)\s))((?:This|These|It)\b(?:\s+(?:bonus\s+feats?\s+choices?|" + TRADE_SUBJECT_WORDS + r"))*\s+(replaces?|alters?|changes)\b[^.]*\.)",
+    r"(?:^|(?<=[.!?]\s)|(?<=[.!?]\)\s))((?:This|These|It)\b(?:\s+(?:bonus\s+feats?\s+choices?|" + TRADE_SUBJECT_WORDS + r"))*\s+(replaces?|alters?|changes|modifies)\b[^.]*\.)",
     re.I,
 )
 
@@ -1546,13 +1547,15 @@ ABILITY_NOUN = (r"\b(?:ability|abilities|feature|features|power|powers|archetype
 
 
 def _op_of(verb: str) -> str:
-    return "replaces" if verb.lower().startswith("replace") else "alters"      # ruling 25: "changes" is an alters verb
+    return "replaces" if verb.lower().startswith("replace") else "alters"      # rulings 25 and 55: "changes" and "modifies" are alters verbs
 
 
 def _clean_phrase(phrase: str) -> str:
     phrase = phrase.strip().rstrip(".").strip()
     phrase = re.sub(r",\s+but\b.*$", "", phrase)                              # R8: the phrase ends at ", but "
     phrase = re.sub(r",\s+and\s+(?:it\s+)?counts?\s+as\b.*$", "", phrase)    # R17: ", and counts as" and ", and it counts as" end the phrase
+    phrase = re.sub(r",?\s+and\s+(?:it\s+)?(?:does not|cannot)\b.*$", "", phrase)    # app #737: ", and does not", ", and it does not" and ", and cannot" end the phrase
+    phrase = re.sub(r"^and functions as\s+", "", phrase)                  # app #737: "modifies and functions as X" names X
     # R9 and R18: a parenthesis of 4+ words is an aside, at the end of the phrase or inside it
     phrase = re.sub(r"\s*\(([^()]*)\)", lambda m: "" if len(m.group(1).split()) >= 4 else m.group(0), phrase)
     return phrase.strip().rstrip(".").strip()
@@ -1564,7 +1567,7 @@ def trade_sentences(text: str, head: str = "") -> list[tuple[str, str, bool]]:
     ability, feature, power or archetype in its subject: the app counts it only when it names a stored trade.
     The reader rules of owner ruling 21 (R8, R9, R11, R12) and 25: a phrase ends at ", but "; a final parenthesis of
     four or more words is an aside; "X replaces Y and alters Z" is two sentences; the heading of the feature
-    (without its ability tag) is a subject too; "changes" is an `alters` verb."""
+    (without its ability tag) is a subject too; "changes" and "modifies" are `alters` verbs (rulings 25 and 55)."""
     text = re.sub(r"\[([^\]]*)\]\([^)]*\)", r"\1", text)
     text = re.sub(r"[\\_*]", "", text)
     text = re.sub(r"\s+", " ", text)        # a paragraph break inside a sentence (a column or page break) does not end it
@@ -1572,21 +1575,23 @@ def trade_sentences(text: str, head: str = "") -> list[tuple[str, str, bool]]:
     found = [(m.group(1), m.start(1)) for m in _trade_matches(text)]
     plain = ABILITY_TAG.sub("", head).strip() if head else ""
     if plain:                                 # R12
-        for m in re.finditer(r"(?:^|(?<=[.!?]\s))(" + re.escape(plain) + r"\s+(?:replaces?|alters?|changes?)\b[^.]*\.)", text, re.I):
+        for m in re.finditer(r"(?:^|(?<=[.!?]\s))(" + re.escape(plain) + r"\s+(?:replaces?|alters?|changes?|modifies)\b[^.]*\.)", text, re.I):
             if all(m.start(1) != at for _, at in found):
                 found.append((m.group(1), m.start(1)))
     for sentence, _ in sorted(found, key=lambda x: x[1]):
-        verb = re.search(r"\b(replaces?|alters?|changes?)\b", sentence, re.I)
+        verb = re.search(r"\b(replaces?|alters?|changes?|modifies)\b", sentence, re.I)
         subject = sentence[:verb.start()]
         bare = not re.search(ABILITY_NOUN, subject, re.I) and not (plain and subject.strip().lower() == plain.lower())
         rest = sentence[verb.end():]
         # R11: two verbs, two sentences; "changes" is a verb only as the first one (owner ruling 25)
         # R16: the second clause may have a subject: ", and it replaces X" (it, this, he, she, they, with "also")
-        clause = r"(?:(?:it|this|he|she|they)\s+(?:also\s+)?)?"
-        parts = re.split(r"\s*,?\s+and\s+(?=" + clause + r"(?:replaces?|alters?)\b)", rest, flags=re.I)
-        ops = [verb.group(1)] + [re.match(clause + r"(replaces?|alters?)", x, re.I).group(1) for x in parts[1:]]
+        # app #737: "and also <verb>" and ", and it also changes/modifies X" split too; "and it changes X" without "also" stays prose (ruling 25)
+        subj = r"(?:(?:it|this|he|she|they)\s+)?"
+        clause = r"(?:" + subj + r"also\s+(?:replaces?|alters?|changes?|modifies)|" + subj + r"(?:replaces?|alters?))"
+        parts = re.split(r"\s*,?\s+and\s+(?=" + clause + r"\b)", rest, flags=re.I)
+        ops = [verb.group(1)] + [re.match(r"(?:" + subj + r"(?:also\s+)?)(replaces?|alters?|changes?|modifies)", x, re.I).group(1) for x in parts[1:]]
         for op_word, part in zip(ops, parts):
-            part = re.sub(r"^" + clause + r"(?:replaces?|alters?)\b", "", part.strip(), flags=re.I)
+            part = re.sub(r"^" + subj + r"(?:also\s+)?(?:replaces?|alters?|changes?|modifies)\b", "", part.strip(), flags=re.I) if part is not parts[0] else part
             ph = _clean_phrase(part)
             if re.search(r"\bas indicated below$", ph, re.I):      # owner ruling 40: a cross-reference, like "(see ...)"; it stores no trade
                 continue
@@ -3431,7 +3436,7 @@ def trade_asides(text: str) -> list[tuple[str, str]]:
     out = []
     for m in _trade_matches(text):
         sentence = m.group(1)
-        verb = re.search(r"\b(replaces?|alters?|changes?)\b", sentence, re.I)
+        verb = re.search(r"\b(replaces?|alters?|changes?|modifies)\b", sentence, re.I)
         for a in re.finditer(r"\(([^()]*)\)", sentence):           # R18: an aside inside the phrase states the trades too
             if len(a.group(1).split()) >= 4 and not a.group(1).lower().startswith("see"):
                 out.append((_op_of(verb.group(1)), a.group(1)))
@@ -3447,7 +3452,7 @@ def prose_sentences(text: str) -> list[str]:
     text = re.sub(r"\s*\((?:see|See)\b[^()]*\)", "", text)
     out = []
     for sent in re.split(r"(?<=[.!?])\s+", text):
-        if TRADE_SENTENCE.search(sent) or re.match(r"(?:This|These|It)\b.{0,60}?\b(?:replaces?|alters?|changes?)\b", sent, re.I):
+        if TRADE_SENTENCE.search(sent) or re.match(r"(?:This|These|It)\b.{0,60}?\b(?:replaces?|alters?|changes?|modifies)\b", sent, re.I):
             continue
         out.append(re.split(r"\b(?:functions as|works like|as the)\b", sent, maxsplit=1)[0])
     return out
@@ -4624,18 +4629,19 @@ PAGE_FIXES = {
 
 # The Player Companions that set their titles in small capitals and give each archetype no box of its own (batches 6 to 9).
 BATCH_B_BOOKS = ("psychic-anthology", "disciples-doctrine", "occult-origins", "arcane-anthology", "blood-of-the-coven")     # the lead reader of `LEAD_EXT` reads them (review of #344)
+BATCH_B4_BOOKS = ("merchants-manifest", "champions-of-corruption")     # the lead reader of `LEAD_EXT` reads them (batch B4)
 BATCH_B3_BOOKS = ("dirty-tactics-toolbox", "villain-codex", "weapon-masters-handbook", "melee-tactics-toolbox", "distant-realms")     # the lead reader of `LEAD_EXT` reads them (batch B3)
 PLAYER_COMPANIONS = ("blood-of-the-ancients", "wilderness-origins", "legacy-of-the-first-world", "people-of-the-wastes", "healers-handbook", "psychic-anthology", "disciples-doctrine", "occult-origins", "arcane-anthology", "blood-of-the-coven")
 
 # The Player Companions that set their archetype titles in small capitals (a capital and its small capitals 5 units apart), and whose
 # archetypes are followed by sections of the chapter of their own (feats, techniques, spells): any title ends the section of an archetype.
-SMALL_CAP_BOOKS = ("blood-of-the-ancients", "blood-of-the-beast", "heroes-of-the-high-court", "martial-arts-handbook", "magic-tactics-toolbox", "potions-and-poisons", "heroes-from-the-fringe", "haunted-heroes-handbook", "antiheros-handbook", "blood-of-the-sea", "aquatic-adventures", "legacy-of-dragons", "plane-hoppers-handbook", "dirty-tactics-toolbox", "weapon-masters-handbook", "melee-tactics-toolbox",
+SMALL_CAP_BOOKS = ("blood-of-the-ancients", "blood-of-the-beast", "heroes-of-the-high-court", "martial-arts-handbook", "magic-tactics-toolbox", "potions-and-poisons", "heroes-from-the-fringe", "haunted-heroes-handbook", "antiheros-handbook", "blood-of-the-sea", "aquatic-adventures", "legacy-of-dragons", "plane-hoppers-handbook", "dirty-tactics-toolbox", "weapon-masters-handbook", "melee-tactics-toolbox", *BATCH_B4_BOOKS,
                    "divine-anthology")
 # ... and the ones whose chapter titles stand above the body in type of 40 or more (a chapter that ends the section of an archetype,
 # `CHAPTER_TITLES`); Agents of Evil sets a chapter title at top 82 and its archetypes are followed by the next chapter.
 CHAPTER_TITLE_BOOKS = ("agents-of-evil",)
 # ... and of these, the ones whose chapter titles or capitals stand above the usual top of the body (Blood of the Ancients keeps 88)
-HIGH_TITLE_BOOKS = ("blood-of-the-beast", "heroes-of-the-high-court", "martial-arts-handbook", "magic-tactics-toolbox", "haunted-heroes-handbook", "familiar-folio", "advanced-class-origins", "dirty-tactics-toolbox", "weapon-masters-handbook", "melee-tactics-toolbox",
+HIGH_TITLE_BOOKS = ("blood-of-the-beast", "heroes-of-the-high-court", "martial-arts-handbook", "magic-tactics-toolbox", "haunted-heroes-handbook", "familiar-folio", "advanced-class-origins", "dirty-tactics-toolbox", "weapon-masters-handbook", "melee-tactics-toolbox", *BATCH_B4_BOOKS,
                     "divine-anthology")     # the "ON VIRTUE" section title of Divine Anthology p. 16 is set at top 85, its small capitals at 94
 
 # ---- Potions & Poisons, Construct Handbook, Magic Tactics Toolbox, Haunted Heroes Handbook, Heroes from the Fringe (one block of tables) ----
@@ -4750,6 +4756,13 @@ LEVEL_FROM_PRINT.update({
 })
 
 
+# ---- Batch B4: Merchant's Manifest, Champions of Corruption ----
+for _eid in ("ref/arc-paladin/knight-of-coins", "ref/arc-inquisitor/oathkeeper"):
+    TRADE_ADDITIONS.setdefault(_eid, []).append({"alters": "Class skills"})     # "This alters the paladin's class skills and skill ranks per level." (the Class Skills section before the first feature)
+LEVEL_FROM_PRINT[("ref/arc-antipaladin/dread-vanguard", "beacon-of-evil")] = (4, "owner ruling 57: replaces the spells class feature, which the antipaladin gains at 4th level (the spells per day begin there), and print's first step of the ability is \"At 4th level and every 4 levels thereafter\"")
+TRADE_RENAMES[("ref/arc-paladin/knight-of-coins", "3rd-, 9th-, and 15th-level mercies")] = "The mercies gained at 3rd, 9th, and 15th levels"
+
+
 # ---- Batch B3: Dirty Tactics Toolbox, Villain Codex, Weapon Master's Handbook, Melee Tactics Toolbox, Distant Realms ----
 TRADE_RENAMES.update({
     ("ref/arc-swashbuckler/rondelero-swashbuckler", "Derring-do"): "The derring-do deed",
@@ -4782,7 +4795,7 @@ def configure_book(book: str) -> None:
     CHAPTER_END[0] = 47 if book == "inner-sea-combat" else 0
     PAGE_SKIP[:] = [(16, 23), (26, 999)] if book == "legacy-of-dragons" else []
     LOWERCASE_CONTINUES["on"] = BULLETS["on"] = ITALIC_FIRST["on"] = CITE_EXT["on"] = LEAD_EXT["on"] = book in ("inner-sea-magic", "inner-sea-intrigue", "inner-sea-combat")
-    LEAD_EXT["on"] = LEAD_EXT["on"] or book in BATCH_B_BOOKS or book in BATCH_B3_BOOKS or book in ("heroes-of-the-darklands", "legacy-of-dragons", "familiar-folio", "advanced-class-origins")
+    LEAD_EXT["on"] = LEAD_EXT["on"] or book in BATCH_B_BOOKS or book in BATCH_B3_BOOKS or book in BATCH_B4_BOOKS or book in ("heroes-of-the-darklands", "legacy-of-dragons", "familiar-folio", "advanced-class-origins")
     OCR["on"] = NO_STYLE["on"] = book in ("inner-sea-combat", "monster-codex")
     MC_TITLES["on"] = book == "monster-codex"
     ITALIC_JOIN["on"] = book in ("aquatic-adventures", "heroes-of-the-streets", "antiheros-handbook", "blood-of-the-sea")
@@ -5264,7 +5277,7 @@ def printed_trade_gaps(e: Entry) -> list[str]:
 # ---- the printed trade sentences (opus audit of the Blood of the Ancients pilot) -----------------------------------
 
 PRINTED_TRADE = re.compile(r"This (?:(?:ability|class feature|performance|archetype|deed|hex|talent|trick|power|discovery|revelation|exploit|mercy) )?"
-                           r"(?:replaces|alters|changes)\b[^.]*\.")
+                           r"(?:replaces|alters|changes|modifies)\b[^.]*\.")
 
 
 def sentences_path(corpus: Path, book: str) -> Path:
@@ -5283,6 +5296,11 @@ def printed_trade_sentences(section: list) -> list[str]:
     text = " ".join(re.sub(r"\s+", " ", b.plain()) for b in section if b.kind == "para")
     text = re.sub(r"\b1oth\b", "10th", text)      # the text layer reads a zero as a letter
     return [re.sub(r"\s+", " ", m.group(0)).strip() for m in PRINTED_TRADE.finditer(text)]
+
+
+# A printed trade sentence that print leaves without its period, so that it runs into the head of the next ability: the sentence ends where the
+# head begins (Honor Guard, Ultimate Combat p. 37: "This modifies the challenge ability" and then "Intercept (Ex):")
+SENTENCE_TRIMS = {"ref/arc-cavalier/honor-guard": "This modifies the challenge ability"}
 
 
 def run_print_sentences(args) -> int:
@@ -5310,7 +5328,7 @@ def run_print_sentences(args) -> int:
         if section is None:
             print(f"warning: {e.id}: title not found near page {page}")
             continue
-        rows += [(e.id, sent) for sent in printed_trade_sentences(section)]
+        rows += [(e.id, (lambda t: t if t and sent.startswith(t) else sent)(SENTENCE_TRIMS.get(e.id))) for sent in printed_trade_sentences(section)]
     lines = ["entry\tsentence"] + [f"{eid}\t{sent}" for eid, sent in rows]
     sentences_path(corpus, book).write_text("\n".join(lines) + "\n", encoding="utf-8")
     print(f"{len(rows)} printed trade sentences of {len(entries)} archetypes")
@@ -5485,6 +5503,12 @@ LEVEL_NONE = {
 }
 LEVEL_NONE.add(("ref/arc-bloodrager/bloody-knuckled-rowdy", "reduced-spells-known"))      # it changes the spells known, a part of spellcasting (ruling 48)
 # a feature that replaces or alters only a part of a feature gets no level from the trade (owner ruling 48)
+LEVEL_FROM_PRINT.update({
+    # Geist Channeler (Occult Adventures p. 109): "This ability alters the phantom" (Geistform Phantom) and "This ability modifies the phantom and replaces the
+    # phantom's emotional focus" (Emotionless, ruling 55): two features state the one trade `alters Phantom`, a whole 1st-level feature (ruling 50)
+    ("ref/arc-spiritualist/geist-channeler", "geistform-phantom"): (1, "ruling 50: alters the phantom, a whole 1st-level feature (also stated by Emotionless)"),
+    ("ref/arc-spiritualist/geist-channeler", "emotionless"): (1, "rulings 50 and 55: modifies the phantom, a whole 1st-level feature"),
+})
 NO_LEVEL_ONE = {
     ("ref/arc-gunslinger/bushwhacker", "craven-deeds"),       # "replaces some of her deeds with the following deeds"
 }
@@ -5576,10 +5600,18 @@ IMPORT_HEAD_FIXES.update({
         ("Dualistic Energy (Su)", "Elemental"), ("Amusing Familiar (Su)", "Fey"), ("Hellish Aura (Su)", "Infernal"),
         ("Unliving Physiology (Su)", "Undead"))},
 })
-# Scaled Fist (Legacy of Dragons p. 14): "This ability modifies bonus feats" stands under the unlisted Bonus Feats scaffold, so `alters Bonus feats` has
-# no printed home in a listed feature, but the app does not read "modifies" as a trade verb and a trade without `by` then drifts; the trade stays on
-# Draconic Might, which gains no level from it (the owner asked for no `by`: reported in the PR)
-NO_LEVEL_ONE.add(("ref/arc-monk/scaled-fist", "draconic-might"))
+# Scaled Fist (Legacy of Dragons p. 14): "This ability modifies bonus feats" stands under the unlisted Bonus Feats scaffold: `alters Bonus feats` has no
+# `by` (rulings 13 and 55) and Draconic Might gains no level from it
+TRADE_NO_BY.setdefault("ref/arc-monk/scaled-fist", []).append("Bonus feats")
+# Ectoplasm Master (Haunted Heroes Handbook p. 14): "This discovery modifies the alchemist's bombs" (ruling 55); one discovery of a list is a part of bombs, so no level
+TRADE_ADDITIONS.setdefault("ref/arc-alchemist/ectoplasm-master", []).append({"alters": "The alchemist's bombs and doesn't stack with other discoveries that modify bombs", "feature": "bomb"})
+NO_LEVEL_ONE.add(("ref/arc-alchemist/ectoplasm-master", "ectoplasm-master-discoveries"))
+# Iron-Ring Striker (Martial Arts Handbook p. 5): the stored name is the printed words of "This modifies the bonus feat gained at 5th level"
+TRADE_RENAMES[("ref/arc-magus/iron-ring-striker", "5th-level bonus feat")] = "Bonus feat gained at 5th level"
+# Ilsurian Archer: the stored name is the printed words of "This modifies the ranger's combat style feat class feature" (ruling 22, app #737)
+TRADE_RENAMES[("ref/arc-ranger/ilsurian-archer", "Combat style")] = "The ranger's combat style feat class feature"
+# Eldritch Archer (Heroes of the Streets p. 11): "This ability modifies the magus's class skills." under the unlisted Class Skills section: an alters trade with no `by` (rulings 13 and 55)
+TRADE_ADDITIONS.setdefault("ref/arc-magus/eldritch-archer", []).append({"alters": "Class skills", "_no_by": True})
 NO_LEVEL_ONE.add(("ref/arc-witch/coral-witch", "waves-spirit-hex"))       # it only widens which hexes can be chosen: a part of the hex feature (ruling 48, review of #346)
 EXTRA_LINKS[("ref/arc-druid/fungal-pilgrim", "fungal-companion")] = [("fungal creature", "ref/template/fungal-creature")]
 MISPRINTS.append(("ref/arc-slayer/sczarni-executioner", "must make a successful a Fortitude save", "must make a successful Fortitude save",
@@ -6286,6 +6318,17 @@ def self_test() -> int:
     eq(trade_sentences("These bonus feat choices replace Dodge, Mobility, and Spring Attack on his bonus feat list."),
        [("replaces", "Dodge, Mobility, and Spring Attack on his bonus feat list", True)], "bonus feat choices are a bare subject")
     eq(trade_sentences("These choices replace Dodge."), [], "choices alone is no subject word")
+    eq(trade_sentences("This ability modifies bonus feats."), [("alters", "bonus feats", False)], "ruling 55: modifies is an alters verb")
+    eq(trade_sentences("This ability modifies bonus feats and also replaces the 5th-level bonus feat."),
+       [("alters", "bonus feats", False), ("replaces", "the 5th-level bonus feat", False)], "app #737: and also <verb> splits")
+    eq(trade_sentences("This ability alters rogue talents, and it also modifies trapfinding."),
+       [("alters", "rogue talents", False), ("alters", "trapfinding", False)], "app #737: and it also modifies splits")
+    eq(trade_sentences("This ability alters rogue talents, and it changes trapfinding."), [("alters", "rogue talents, and it changes trapfinding", False)],
+       "ruling 25: and it changes without also is prose")
+    eq(trade_sentences("This ability modifies the bombs and does not stack with other discoveries."), [("alters", "the bombs", False)], "app #737: and does not ends the phrase")
+    eq(trade_sentences("This ability modifies and functions as true judgment."), [("alters", "true judgment", False)], "app #737: modifies and functions as X names X")
+    eq(trade_sentences("This discovery modifies the alchemist's bombs and doesn't stack with other discoveries that modify bombs."),
+       [("alters", "the alchemist's bombs and doesn't stack with other discoveries that modify bombs", False)], "ruling 55: the phrase after modifies")
     # ---- Campaign Setting books (Inner Sea Magic, Intrigue, Combat; phynics/cast-iron#540) ----
     eq(ocr_repair("At  ist level, +i bonus, i6th, i50, io feet, id10"), "At  1st level, +1 bonus, 16th, 150, 10 feet, 1d10", "ocr digits")
     eq(ocr_repair("Ma13ic and Chan13e, jlamin13, stalkin13\u00b0E."), "Magic and Change, flaming, stalking.", "ocr g")
@@ -6311,6 +6354,7 @@ def self_test() -> int:
     eq(finish_text("the s" + I_OPEN + "un orchid elixir" + I_CLOSE + ", granting", set()), "the " + I_OPEN + "sun orchid elixir" + I_CLOSE + ", granting", "a split italic first letter")
     eq(len(re.findall(CITE_BOOK_X, "x (" + I_OPEN + "Ultimate" + I_CLOSE + " " + I_OPEN + "Intrigue" + I_CLOSE + " 142) y")), 1, "citation with split italic words")
     eq(render_marks(f"a {I_OPEN}riding{I_CLOSE} {I_OPEN}possession{I_CLOSE} (10th), {I_OPEN}x{I_CLOSE}, {I_OPEN}y{I_CLOSE}"), "a _riding possession_ (10th), _x_, _y_", "italic runs that the line wrap of print splits are one span")
+    eq(render_marks(f"x {I_OPEN}(Pathfinder RPG Ultimate Combat{I_CLOSE} 65)"), "x (_Pathfinder RPG Ultimate Combat_ 65)", "the parenthesis of a citation stays outside the italics")
     eq(render_marks(f"{I_OPEN}a{I_CLOSE} {I_OPEN}[b](t){I_CLOSE}"), "_a_ _[b](t)_", "a span with a link keeps its own marks")
     eq(len(re.findall(CITE_BOOK_X, "x (" + I_OPEN + "Ultimate Intrigue 102" + I_CLOSE + ") y")), 1, "citation whose italic holds the page")
     eq(len(re.findall(CITE_BOOK_X, "x (Inner Sea World Guide 286) y")), 1, "citation of the Inner Sea World Guide")

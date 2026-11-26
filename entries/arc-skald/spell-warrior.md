@@ -18,7 +18,6 @@ page = "116"
 kind = "archetype"
 features = [
   { anchor = "improved-counterspell", level = 1 },
-  { anchor = "weapon-song" },
   { anchor = "enhance-weapons", level = 1 },
   { anchor = "greater-counterspell", level = 5 },
   { anchor = "song-of-arcane-manipulation", level = 10 },

@@ -23,6 +23,7 @@ features = [
 trades = [
   { replaces = "Brew Potion", feature = "brew-potion", by = ["ectoplasmic-extracts"] },
   { alters = "Extracts", feature = "extracts", by = ["ectoplasmic-extracts"] },
+  { alters = "The alchemist's bombs and doesn't stack with other discoveries that modify bombs", feature = "bomb", by = ["ectoplasm-master-discoveries"] },
 ]
 +++
 

@@ -17,7 +17,7 @@ page = "17"
 [fields]
 kind = "archetype"
 features = [
-  { anchor = "elemental-binder" },
+  { anchor = "elemental-binder", level = 1 },
   { anchor = "spontaneous-summons" },
   { anchor = "bonus-languages" },
   { anchor = "channel-element", level = 4 },
