@@ -65,13 +65,13 @@ This ability replaces wild shape if the fungal pilgrim selected the Plant domain
 ## Fungal Companion {#fungal-companion}
 
 At 4th level, a fungal pilgrim who selected an animal companion for her nature bond initiates a
-transformation in her companion. The animal companion gains the fungal creature template (_Bestiary
-4_ 116), but does not gain the create spawn, poison spore cloud, and
-[poisonous blood](ref/umr/poisonous-blood) special attacks. At 10th level, the animal companion
-gains the [poisonous blood](ref/umr/poisonous-blood) special attack. At 14th level, the animal
-companion gains the poison spore cloud special attack. At 20th level, the animal companion gains the
-create spawn special attack; created spawn are under the control of the fungal pilgrim. Spawn
-created in this way last for only 48 hours before rotting away.
+transformation in her companion. The animal companion gains the
+[fungal creature](ref/template/fungal-creature) template, but does not gain the create spawn, poison
+spore cloud, and [poisonous blood](ref/umr/poisonous-blood) special attacks. At 10th level, the
+animal companion gains the [poisonous blood](ref/umr/poisonous-blood) special attack. At 14th level,
+the animal companion gains the poison spore cloud special attack. At 20th level, the animal
+companion gains the create spawn special attack; created spawn are under the control of the fungal
+pilgrim. Spawn created in this way last for only 48 hours before rotting away.
 
 This ability replaces wild shape if the fungal pilgrim selected an animal companion as her nature
 bond.

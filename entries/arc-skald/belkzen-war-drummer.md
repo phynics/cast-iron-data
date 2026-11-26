@@ -20,7 +20,6 @@ features = [
   { anchor = "fearsome-mien", level = 1 },
   { anchor = "deadly-rhythm", level = 1 },
   { anchor = "weapon-master", level = 7 },
-  { anchor = "raging-song" },
   { anchor = "siege-drums", level = 7 },
 ]
 trades = [

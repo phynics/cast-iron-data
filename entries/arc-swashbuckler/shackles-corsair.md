@@ -18,7 +18,6 @@ page = "22"
 kind = "archetype"
 features = [
   { anchor = "swagger", level = 3 },
-  { anchor = "deeds" },
   { anchor = "eyes-of-abendego", level = 3 },
   { anchor = "plunder", level = 7 },
 ]

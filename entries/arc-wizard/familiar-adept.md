@@ -20,7 +20,7 @@ features = [
   { anchor = "diminished-expertise", level = 1 },
   { anchor = "school-familiar", level = 1 },
   { anchor = "familiar-spells" },
-  { anchor = "focused-school" },
+  { anchor = "focused-school", level = 1 },
 ]
 trades = [
   { replaces = "Scribe scroll", feature = "scribe-scroll", by = ["diminished-expertise"] },

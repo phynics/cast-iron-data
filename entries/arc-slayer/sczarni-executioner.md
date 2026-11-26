@@ -65,7 +65,7 @@ ability alters studied target.
 At 4th level, a Sczarni executioner automatically gains this talent. Sczarni executioners are
 trained to cause excruciating pain when striking targets, often leaving them reeling in agony or
 completely incapacitated as they slowly bleed out. A creature that takes sneak attack damage from a
-Sczarni executioner must make a successful a Fortitude save (DC = 10 + 1/2 the Sczarni executioner's
+Sczarni executioner must make a successful Fortitude save (DC = 10 + 1/2 the Sczarni executioner's
 class level + his Intelligence modifier) or become [sickened](ref/misc/sickened) for 1d4 rounds.
 This ability alters the slayer talent received at 4th level and replaces swift tracker.
 

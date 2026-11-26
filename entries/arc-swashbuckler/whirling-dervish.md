@@ -20,7 +20,6 @@ features = [
   { anchor = "dervish-finesse", level = 1 },
   { anchor = "dawnflower-s-mercy", level = 1 },
   { anchor = "dervish-dance", level = 4 },
-  { anchor = "deeds" },
   { anchor = "whirlwind-dance", level = 7 },
   { anchor = "dance-of-dawn", level = 11 },
   { anchor = "dance-of-mercy", level = 19 },

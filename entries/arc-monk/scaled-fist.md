@@ -17,7 +17,7 @@ page = "14"
 [fields]
 kind = "archetype"
 features = [
-  { anchor = "draconic-might", level = 1 },
+  { anchor = "draconic-might" },
   { anchor = "draconic-mettle", level = 3 },
   { anchor = "draconic-fury", level = 3 },
   { anchor = "draconic-breath", level = 15 },

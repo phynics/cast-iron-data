@@ -20,7 +20,6 @@ features = [
   { anchor = "wind-whistler", level = 1 },
   { anchor = "sea-legs", level = 1 },
   { anchor = "fearless-raider", level = 2 },
-  { anchor = "raging-song" },
   { anchor = "glorious-epic", level = 3 },
 ]
 trades = [

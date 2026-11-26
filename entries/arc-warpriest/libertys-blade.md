@@ -17,7 +17,7 @@ page = "24"
 [fields]
 kind = "archetype"
 features = [
-  { anchor = "freedom-s-focus" },
+  { anchor = "freedom-s-focus", level = 1 },
   { anchor = "devilslayer", level = 4 },
   { anchor = "channel-liberty", level = 4 },
   { anchor = "shield-against-hellspawn", level = 7 },

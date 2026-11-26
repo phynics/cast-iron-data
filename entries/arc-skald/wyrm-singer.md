@@ -17,7 +17,6 @@ page = "14"
 [fields]
 kind = "archetype"
 features = [
-  { anchor = "wyrm-song" },
   { anchor = "draconic-rage", level = 1 },
   { anchor = "wyrm-saga", level = 14 },
   { anchor = "breath-weapon", level = 12 },

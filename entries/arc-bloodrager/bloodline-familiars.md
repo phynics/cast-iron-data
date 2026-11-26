@@ -37,56 +37,66 @@ GMs may use the following bloodline [familiar](ref/sidekick/familiar) abilities 
 employ them as guidelines for devising bloodline [familiar](ref/ability/familiars) abilities for
 bloodlines not listed below.
 
-[Aberrant](ref/blrgbloodline/aberrant)—Squeezer (Ex): The [familiar](ref/sidekick/familiar) gains
-the [compression](ref/umr/compression) ability, allowing it to move through an area as small as
-one-quarter its space without [squeezing](ref/misc/squeezing) or one-eighth its space when
-squeezing.
+### Aberrant—Squeezer (Ex) {#aberrant-squeezer}
 
-[Abyssal](ref/blrgbloodline/abyssal)—Grotesque Appendages (Ex): The damage dice of each of the
-[familiar](ref/sidekick/familiar)'s natural attacks increases
+The [familiar](ref/sidekick/familiar) gains the [compression](ref/umr/compression) ability, allowing
+it to move through an area as small as one-quarter its space without [squeezing](ref/misc/squeezing)
+or one-eighth its space when squeezing.
+
+### Abyssal—Grotesque Appendages (Ex) {#abyssal-grotesque-appendages}
+
+The damage dice of each of the [familiar](ref/ability/familiars)'s natural attacks increases
 [by one die step](ref/misc/damage-die-adjustments).
 
-[Arcane](ref/blrgbloodline/arcane)—Spell Catalyst (Su): Spells you cast that target your
-[familiar](ref/sidekick/familiar) are treated as having a caster level 2 levels higher than your
-actual caster level.
+### Arcane—Spell Catalyst (Su) {#arcane-spell-catalyst}
 
-[Celestial](ref/blrgbloodline/celestial)—Heavenly Touch (Su): A number of times per day equal to 3 +
-your Charisma modifier, your [familiar](ref/sidekick/familiar) can grant
+Spells you cast that target your familiar are treated as having a caster level 2 levels higher than
+your actual caster level.
+
+### Celestial—Heavenly Touch (Su) {#celestial-heavenly-touch}
+
+A number of times per day equal to 3 + your Charisma modifier, your familiar can grant
 [fast healing](ref/umr/fast-healing) 1 to an allied creature it's touching. This effect lasts a
-number of rounds equal to your Charisma modifier (minimum 1) or until the
-[familiar](ref/ability/familiars) stops touching the creature, whichever comes first. At 10th level,
-the familiar grants [fast healing](ref/umr/fast-healing) 2 instead. At 20th level, the familiar
-grants [fast healing](ref/umr/fast-healing) 3 instead.
+number of rounds equal to your Charisma modifier (minimum 1) or until the familiar stops touching
+the creature, whichever comes first. At 10th level, the familiar grants
+[fast healing](ref/umr/fast-healing) 2 instead. At 20th level, the familiar grants
+[fast healing](ref/umr/fast-healing) 3 instead.
 
-[Destined](ref/blrgbloodline/destined)—Foretold Touch (Su): The [familiar](ref/sidekick/familiar)
-gains a +1 luck bonus on attack rolls to deliver touch spells, and the DC of touch spells delivered
-by the [familiar](ref/ability/familiars) increases by 1. These benefits increase by 1 at 10th level
-and again at 20th level.
+### Destined—Foretold Touch (Su) {#destined-foretold-touch}
 
-[Draconic](ref/blrgbloodline/draconic)—Dragon's Flight (Ex): The [familiar](ref/sidekick/familiar)
-can sprout draconic wings, granting it a fly speed of 30 feet with average maneuverability for a
-number of minutes per day equal to 1/2 your caster level (minimum 1). These minutes need not be
-consecutive, but they must be spent in 1-minute increments. At 10th level, the
-[familiar](ref/ability/familiars)'s fly speed increases to 60 feet with good maneuverability. At
-20th level, the familiar's fly speed increases to 90 feet.
+The familiar gains a +1 luck bonus on attack rolls to deliver touch spells, and the DC of touch
+spells delivered by the familiar increases by 1. These benefits increase by 1 at 10th level and
+again at 20th level.
 
-[Elemental](ref/blrgbloodline/elemental)—Dualistic Energy (Su): When your
-[familiar](ref/sidekick/familiar) delivers a touch spell that deals energy damage of a type other
-than your chosen energy type, your [familiar](ref/ability/familiars) can choose to alter the spell
-so that half of the energy damage dealt is of the spell's original type and the other half is of
-your chosen energy type.
+### Draconic—Dragon's Flight (Ex) {#draconic-dragon-s-flight}
 
-[Fey](ref/blrgbloodline/fey)—Amusing Familiar (Su): The [familiar](ref/sidekick/familiar) can
-[fascinate](ref/performance/fascinate) other creatures as the fascinate bardic performance, treating
-your caster level as its bard level and using your Charisma modifier for the purpose of calculating
-the Will save DC. The [familiar](ref/ability/familiars) cannot perform any other actions while using
+The familiar can sprout [draconic](ref/blrgbloodline/draconic) wings, granting it a fly speed of 30
+feet with average maneuverability for a number of minutes per day equal to 1/2 your caster level
+(minimum 1). These minutes need not be consecutive, but they must be spent in 1-minute increments.
+At 10th level, the familiar's fly speed increases to 60 feet with good maneuverability. At 20th
+level, the familiar's fly speed increases to 90 feet.
+
+### Elemental—Dualistic Energy (Su) {#elemental-dualistic-energy}
+
+When your familiar delivers a touch spell that deals energy damage of a type other than your chosen
+energy type, your familiar can choose to alter the spell so that half of the energy damage dealt is
+of the spell's original type and the other half is of your chosen energy type.
+
+### Fey—Amusing Familiar (Su) {#fey-amusing-familiar}
+
+The familiar can [fascinate](ref/performance/fascinate) other creatures as the fascinate bardic
+performance, treating your caster level as its bard level and using your Charisma modifier for the
+purpose of calculating the Will save DC. The familiar cannot perform any other actions while using
 this ability.
 
-[Infernal](ref/blrgbloodline/infernal)—Hellish Aura (Su): Animals don't willingly approach the
-[familiar](ref/sidekick/familiar) unless the animal's master succeeds at a DC 15 Handle Animal,
-Ride, or [wild empathy](ref/ability/wild-empathy) check. This DC increases to 20 at 10th level, and
-to 25 at 20th level. Animal companions, familiars and mounts are immune to this effect.
+### Infernal—Hellish Aura (Su) {#infernal-hellish-aura}
 
-[Undead](ref/blrgbloodline/undead)—Unliving Physiology (Su): The [familiar](ref/sidekick/familiar)
-is alive, but is treated as undead for all effects that affect undead differently from living
-creatures, such as cure spells and [channeled energy](ref/ability/channel-energy).
+Animals don't willingly approach the familiar unless the animal's master succeeds at a DC 15 Handle
+Animal, Ride, or [wild empathy](ref/ability/wild-empathy) check. This DC increases to 20 at 10th
+level, and to 25 at 20th level. Animal companions, familiars and mounts are immune to this effect.
+
+### Undead—Unliving Physiology (Su) {#undead-unliving-physiology}
+
+The familiar is alive, but is treated as [undead](ref/blrgbloodline/undead) for all effects that
+affect undead differently from living creatures, such as cure spells and
+[channeled energy](ref/ability/channel-energy).

@@ -248,6 +248,7 @@ def ext_lead_level(first: str) -> tuple[int | None, str]:
         n = int(m.group(1))
         return n if 1 <= n <= 20 and m.group(2) == ordinal(n)[len(m.group(1)):] else None
     text = first.strip()
+    text = re.sub(r"\s+", " ", text)                    # "1st" and "level" may stand on two lines
     m = re.match(r"(?:Upon reaching|At|Starting at|Beginning at)\s+" + LEAD_NTH + r"[ -]level\b", text, re.I)
     if m and ok(m):
         return ok(m), f'"{m.group(0)}" in the first sentence'
@@ -257,9 +258,12 @@ def ext_lead_level(first: str) -> tuple[int | None, str]:
     sentences = re.split(r"(?<=[.!?])\s+", text, maxsplit=1)
     if len(sentences) == 2:
         # not "At": a later "At 4th level, ..." is an upgrade of the feature (Hamatulatsu Master's Stunning Fist), not its lead
-        m = re.match(r"(?:Upon reaching|Starting at|Beginning at)\s+" + LEAD_NTH + r"[ -]level\b", sentences[1], re.I)
+        m = re.match(r"(?:Upon reaching|Starting at|Beginning at|Instead,? at)\s+" + LEAD_NTH + r"[ -]level\b", sentences[1], re.I)
         if m and ok(m):
             return ok(m), f'"{m.group(0)}" at the start of the second sentence'
+        m = re.match(r"At\s+(1)(st)[ -]level\b", sentences[1])
+        if m and ok(m):
+            return 1, f'"{m.group(0)}" at the start of the second sentence (a step at 1st level starts the feature)'
     return None, ""
 
 
@@ -1314,6 +1318,11 @@ class PrintFeature:
     errata: int = 0                                  # the errata page that replaced this ability
 
 
+DASH_KEY_LEAD = re.compile(r"[A-Z][A-Za-z'\u2019 -]{1,30}\u2014")
+# a key "Option\u2014Name (Ex)": a printed option of a choice, one for each bloodline, domain or the like (owner ruling 53)
+DASH_KEY = re.compile(r"[A-Z][A-Za-z'\u2019 -]{1,30}\u2014[A-Z].*")
+
+
 def head_candidate(p: Para) -> tuple[str, list, bool] | None:
     """The leading bold (or italic) run before the colon of a paragraph, and the rest of its runs. Blanks before
     the head (a justified first line) do not count."""
@@ -1330,8 +1339,14 @@ def head_candidate(p: Para) -> tuple[str, list, bool] | None:
     while i < len(runs) and (runs[i][1] if style == "bold" else runs[i][2]):
         head += runs[i][0]
         i += 1
-    head = re.sub(r"\s+", " ", head).strip()
     rest = runs[i:]
+    if style == "bold" and len(rest) > 1 and rest[0][0].strip() == "\u2014" and not rest[0][1] and rest[1][1] and DASH_KEY_LEAD.fullmatch(head.strip() + "\u2014"):
+        # "Aberrant" and "Squeezer (Ex)" in bold with a dash in plain type between them: the key is "Aberrant\u2014Squeezer (Ex)"
+        # (Familiar Folio p. 16, owner ruling 53)
+        head = head.strip() + "\u2014" + rest[1][0].strip()
+        i += 2
+        rest = runs[i:]
+    head = re.sub(r"\s+", " ", head).strip()
     if head.count("(") > head.count(")") and rest and rest[0][0].lstrip().startswith(")"):
         # "_Cat's Charge (Ex_): " the italics end inside the parenthesis
         head += ")"
@@ -3098,7 +3113,8 @@ def compare_entry(e: Entry, section: list[Para], book: Book) -> dict:
             rows.append({"anchor": anchor_of(head), "span": "", "page": pf.page, "pseudo": False, "draft": "",
                          "level_import": None, "head": head, "print": text, "status": "print",
                          "notes": ["head printed, not in the import: added from print"] + pnotes,
-                         "listed": not is_scaffold(head) and not is_option_head(head, pf.bold), "option": is_option_head(head, pf.bold),
+                         "listed": not is_scaffold(head) and not is_option_head(head, pf.bold) and not DASH_KEY.fullmatch(head),
+                         "option": is_option_head(head, pf.bold) and not DASH_KEY.fullmatch(head),
                          "name": pf.head})
             continue
         f = feats[idx]
@@ -3124,7 +3140,9 @@ def compare_entry(e: Entry, section: list[Para], book: Book) -> dict:
                 if at is not None:
                     row["lost_links"].append(pool.pop(at))
         row["option"] = (is_option_head(head, pf.bold) and not f.pseudo) or (e.id, row["anchor"]) in OPTION_HEADS
-        row["listed"] = not is_scaffold(head) and not f.pseudo and not row["option"]
+        if DASH_KEY.fullmatch(head):
+            row["option"] = False
+        row["listed"] = not is_scaffold(head) and not f.pseudo and not row["option"] and not DASH_KEY.fullmatch(head)
         if (e.id, row["anchor"]) in PRINT_WINS and row["status"] == "hold":
             row["status"], row["notes"] = "print", [PRINT_WINS[(e.id, row["anchor"])]] + pnotes
         rows.append(row)
@@ -3172,8 +3190,8 @@ def compare_entry(e: Entry, section: list[Para], book: Book) -> dict:
     problems += errata_unused(e.id)
     links = [(m.group(2), m.group(3)) for b in opening_imp for m in LINK.finditer(logical(b))]
     for i, f in enumerate(feats):
-        if i not in used:
-            links += old_links(f)
+        if i not in used or e.id in OPENING_ONLY:
+            links += old_links(f)          # an entry that is an opening only: the links of the import's sections go with its text
     kept = [o for o in opening if o]
     # the opening text follows print: when the import's words differ from the printed ones (an unprinted sentence, a
     # broken row, `Prerequisites` rows for printed prose), the printed paragraphs are written
@@ -3951,6 +3969,7 @@ def first_level_key(name: str) -> str:
     channel energy, bomb, bomb and witch's familiar."""
     name = re.sub(r"\[([^\]]*)\]\([^)]*\)", r"\1", ABILITY_TAG.sub("", name))
     name = re.sub(r"[_*]", "", name)
+    name = re.sub(r"\s*\((?:minor|major|[a-z]+)\)\s*$", "", name.strip(), flags=re.I)  # the class table of the warpriest: "Blessings (minor)"
     name = re.sub(r"^\d+(?:st|nd|rd|th)\s+", "", name.strip())                    # the class table of the ranger: "1st favored enemy"
     name = re.sub(r"[,;]?\s+and (?:all|each|every)\s+(?:of\s+)?(?:its\s+|the\s+)?(?:improvements?|upgrades?)\b.*$", "", name, flags=re.I)   # "Shifter aspect and all improvements to it"
     name = re.sub(r"\s+(?:\d+/\w+|\d+d\d+|[+\-]\d.*|\d+)$", "", name.strip())
@@ -4315,6 +4334,7 @@ def configure_book(book: str) -> None:
     CHAPTER_END[0] = 47 if book == "inner-sea-combat" else 0
     PAGE_SKIP[:] = [(16, 23), (26, 999)] if book == "legacy-of-dragons" else []
     LOWERCASE_CONTINUES["on"] = BULLETS["on"] = ITALIC_FIRST["on"] = CITE_EXT["on"] = LEAD_EXT["on"] = book in ("inner-sea-magic", "inner-sea-intrigue", "inner-sea-combat")
+    LEAD_EXT["on"] = LEAD_EXT["on"] or book in ("heroes-of-the-darklands", "legacy-of-dragons", "familiar-folio", "advanced-class-origins")
     OCR["on"] = NO_STYLE["on"] = book == "inner-sea-combat"
     ARCHETYPE_CAPS["on"] = book == "heroes-of-the-darklands"
     PAGE_GEOMETRY["on"] = book in ("inner-sea-magic", "inner-sea-intrigue", "inner-sea-combat")
@@ -4604,6 +4624,8 @@ def convert_text(e: Entry, prop: dict, rows: list[dict]) -> str:
             depth += 1
             up = next((x for x in feats if x["anchor"] == up["parent"]), {})
         head = HEAD_REWRITES.get((e.id, f["anchor"]), f["head"])
+        if not f["listed"] and depth == 0 and DASH_KEY.fullmatch(f["head"]):
+            depth = 1                       # owner ruling 53: an option "Aberrant\u2014Squeezer (Ex)" is an unlisted `###` section
         parts.append(f"{'#' * (2 + depth)} {re.sub(r'(?<!\\)([*_])', r'\\\1', head)} {{#{f['anchor']}}}")
         text = feature_text(f, status.get(f["anchor"], "print"))
         parts += [p for p in text.split("\n\n") if p.strip()]
@@ -5057,6 +5079,21 @@ TRADE_RENAMES.update({
     ("ref/arc-bloodrager/bloodline-familiars", "The 1st-level bloodline power"): "The 1st-level bloodline power granted by the character's bloodline",
 })
 TRADE_RENAMES[("ref/arc-skald/belkzen-war-drummer", "7th-level versatile performance gained benefit")] = "Versatile performance gained benefit at 7th level"
+IMPORT_HEAD_FIXES.update({
+    # Bloodline Familiars (Familiar Folio p. 16): print sets the bloodline before the ability in the key
+    **{("ref/arc-bloodrager/bloodline-familiars", old): f"{lead}\u2014{old}" for old, lead in (
+        ("Squeezer (Ex)", "Aberrant"), ("Grotesque Appendages (Ex)", "Abyssal"), ("Spell Catalyst (Su)", "Arcane"),
+        ("Heavenly Touch (Su)", "Celestial"), ("Foretold Touch (Su)", "Destined"), ("Dragon's Flight (Ex)", "Draconic"),
+        ("Dualistic Energy (Su)", "Elemental"), ("Amusing Familiar (Su)", "Fey"), ("Hellish Aura (Su)", "Infernal"),
+        ("Unliving Physiology (Su)", "Undead"))},
+})
+# Scaled Fist (Legacy of Dragons p. 14): "This ability modifies bonus feats" stands under the unlisted Bonus Feats scaffold, so `alters Bonus feats` has
+# no printed home in a listed feature, but the app does not read "modifies" as a trade verb and a trade without `by` then drifts; the trade stays on
+# Draconic Might, which gains no level from it (the owner asked for no `by`: reported in the PR)
+NO_LEVEL_ONE.add(("ref/arc-monk/scaled-fist", "draconic-might"))
+EXTRA_LINKS[("ref/arc-druid/fungal-pilgrim", "fungal-companion")] = [("fungal creature", "ref/template/fungal-creature")]
+MISPRINTS.append(("ref/arc-slayer/sczarni-executioner", "must make a successful a Fortitude save", "must make a successful Fortitude save",
+                  "a stray \"a\" in print (\"a successful a Fortitude save\"); the same book prints \"a successful Fortitude save\" elsewhere"))
 TRADE_ADDITIONS["ref/arc-fighter/dragonheir-scion"] = [{"alters": "Class skills"}]
 TRADE_ADDITIONS["ref/arc-druid/fungal-pilgrim"] = [{"replaces": "Wild shape if the fungal pilgrim selected an animal companion as her nature bond"}]
 TRADE_LEVELS[("ref/arc-alchemist/blightseeker", "Discoveries gained at 6th, 12th, and 18th levels")] = [6, 12, 18]
@@ -5096,6 +5133,10 @@ def self_test() -> int:
     eq(fix_hyphens("two- weapon fighter", {"two-weapon"}), "two-weapon fighter", "hyphen kept")
     eq(fix_hyphens("conven- tional", {"conventional"}), "conventional", "hyphen dropped")
     eq([bool(RUN_IN_HEAD_ONLY.search(t)) for t in ("Elemental\u2014Dualistic Energy (Su):", "Wings (Su): At 15th level, a thing grows.", "Wings (Su): the wings")], [True, False, False], "head only")
+    eq([bool(DASH_KEY.fullmatch(t)) for t in ("Aberrant\u2014Squeezer (Ex)", "Squeezer (Ex)", "Wild shape (Su)")], [True, False, False], "dash key")
+    hc = head_candidate(Para("para", [("Aberrant", True, False), ("\u2014", False, False), ("Squeezer (Ex)", True, False), (": The familiar gains", False, False)], "16", 0))
+    eq(hc[0] if hc else None, "Aberrant\u2014Squeezer (Ex)", "dash key head")
+    eq(head_candidate(Para("para", [("Aberrant", True, False), ("Squeezer (Ex)", True, False), (": x", False, False)], "16", 0))[0], "AberrantSqueezer (Ex)", "no dash, one bold run")
     eq(bool(CAPS_TITLE.fullmatch("BLIGHTSEEKER (ALCHEMIST ARCHETYPE)")), True, "caps title")
     eq(bool(CAPS_TITLE.fullmatch("Blightseeker (Alchemist Archetype)")), False, "caps title lower case")
     eq(bool(CAPS_TITLE_HEAD.fullmatch("PSYCHIC MARAUDER (PSYCHIC")) and bool(CAPS_TITLE_TAIL.fullmatch("ARCHETYPE)")), True, "caps title wrapped")
@@ -5467,6 +5508,7 @@ def self_test() -> int:
     eq(first_level_key("Shifter aspect, and all improvements to shifter aspect"), first_level_key("Shifter aspect"), "a name with all its improvements")
     eq(first_level_key("Shifter aspect and all improvements of shifter aspect"), "shifter aspect", "improvements of")
     eq(first_level_key("Wild shape"), "wild shape", "a plain name is unchanged")
+    eq(first_level_key("Blessings (minor)"), first_level_key("Blessings"), "a parenthesis of the class table")
     eq(first_level_key("Deadeye deed") in {first_level_key(x) for x in FIRST_LEVEL_EXTRA["ref/class/gunslinger"]}, True, "a 1st-level deed")
     eq(first_level_key("Spontaneous casting") in {first_level_key(x) for x in FIRST_LEVEL_EXTRA["ref/class/druid"]}, True, "the druid's spontaneous casting")
     eq(final_citations("a _[spirit-bound blade](ref/spell/x)_ (_Pathfinder RPG Occult Adventures_ 186) for", "x"), "a _[spirit-bound blade](ref/spell/x)_ for",

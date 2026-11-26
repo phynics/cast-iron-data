@@ -20,7 +20,7 @@ features = [
   { anchor = "drake-companion", level = 1 },
   { anchor = "dragon-sense", level = 1 },
   { anchor = "resist-dragon-s-might" },
-  { anchor = "dragon-shape" },
+  { anchor = "dragon-shape", level = 4 },
 ]
 trades = [
   { replaces = "Nature bond", feature = "nature-bond", by = ["drake-companion"] },
