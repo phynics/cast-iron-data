@@ -16,10 +16,16 @@ page = "17"
 
 [fields]
 kind = "archetype"
+features = [
+  { anchor = "ooze-bomb" },
+  { anchor = "ooze-toxin" },
+  { anchor = "ooze-resistance", level = 2 },
+]
 trades = [
-  { replaces = "Brew Potion", feature = "brew-potion" },
-  { replaces = "Poison resistance", feature = "poison-resistance", levels = [2, 5, 8] },
-  { replaces = "poison immunity", feature = "poison-resistance", levels = [10] },
+  { replaces = "Brew Potion, though an oozemaster can still select Brew Potion without meeting the feat's prerequisites", feature = "brew-potion", by = ["ooze-toxin"] },
+  { replaces = "Poison resistance", feature = "poison-resistance", levels = [2, 5, 8], by = ["ooze-resistance"] },
+  { replaces = "poison immunity", feature = "poison-resistance", levels = [10], by = ["ooze-resistance"] },
+  { replaces = "The bomb class feature", feature = "bomb", by = ["ooze-bomb"] },
 ]
 +++
 
@@ -27,46 +33,55 @@ The oozemaster is a specialized alchemist who fights and ensnares oozes. An ooze
 studies the characteristics of the oozes he hunts to help him create new and more effective mutagens
 and bombs.
 
-**Gained class skills:** kd
+## Class Skills {#class-skills}
 
-**Lost class skills:** kna
+An oozemaster gains Knowledge (dungeoneering) as a class skill but does not gain Knowledge (nature)
+as a class skill.
 
-**Ooze Bomb (Su)**
+## Ooze Bomb (Su) {#ooze-bomb}
 
-**Ability:** An oozemaster's bombs deal acid damage instead of fire damage, and they deal damage
-only on a direct hit; they do not splash. A creature damaged by an ooze bomb takes additional acid
-damage equal to the oozemaster's Intelligence modifier at the start of the oozemaster's next turn. A
-creature can take this delayed damage only once per round; additional hits extend the duration of
-the ongoing damage by 1 round each.
+An oozemaster's bombs deal acid damage instead of fire damage, and they deal damage only on a direct
+hit; they do not splash. A creature damaged by an ooze bomb takes additional acid damage equal to
+the oozemaster's Intelligence modifier at the start of the oozemaster's next turn. A creature can
+take this delayed damage only once per round; additional hits extend the duration of the ongoing
+damage by 1 round each.
 
-**Replaces:** Brew Potion
+An oozemaster cannot select discoveries that change the type of damage dealt by his bombs, nor those
+that affect the bomb's splash radius.
 
-**Special:** An oozemaster cannot select discoveries that change the type of damage dealt by his
-bombs, nor those that affect the bomb's splash radius. An oozemaster can still select
-[Brew Potion](ref/feat/brew-potion) without meeting the feat's prerequisites, but he doesn't gain it
-as a bonus feat.
+This ability otherwise functions as and replaces the bomb class feature.
 
-**Ooze Resistance**
+## Ooze Toxin (Ex) {#ooze-toxin}
 
-**At 11th Level:** The bonus becomes +5.
+An oozemaster can extract deadly toxins from the bodies of slain oozes and use them against his
+foes, making him a deadly opponent with unpredictable stratagems. As a full-round action while
+adjacent to an ooze that died within the past 10 minutes, an oozemaster can attempt a Craft
+(alchemy) check with a DC equal to 10 + the ooze's Challenge Rating to create a toxin. If
+successful, the oozemaster can extract a number of doses of toxin from an ooze equal to half its
+Constitution modifier (minimum 1). These toxins remain potent for 1 hour before becoming inert.
 
-**At 14th Level:** The bonus becomes +6.
+The oozemaster can throw an ooze toxin as a ranged touch attack with a range increment of 10 feet,
+or he can apply the toxin to a weapon as if it were an injury poison. The toxin deals 1d6 points of
+acid damage plus an additional 1d6 points of acid damage per 3 Hit Dice the ooze had. If the ooze
+had any additional effects conveyed by its slam attack other than grab (such as a gelatinous cube's
+paralysis ability), the oozemaster can also apply these qualities to this attack. The save DC for
+additional abilities produced by this attack is 10 + half the alchemist's level + the alchemist's
+Intelligence modifier.
 
-**At 17th Level:** The bonus becomes +7.
+This ability replaces [Brew Potion](ref/feat/brew-potion), though an oozemaster can still select
+Brew Potion without meeting the feat's prerequisites.
 
-**At 20th Level:** The bonus becomes +8.
+## Ooze Resistance {#ooze-resistance}
 
-**At 5th Level:** The bonus becomes +3.
+At 2nd level, an oozemaster becomes especially resistant to the abilities of his chosen foes. He
+gains a +2 bonus on saving throws against the extraordinary and supernatural abilities of oozes.
+This bonus increases by +1 at 5th level and every 3 levels thereafter, to a maximum of +8 at 20th
+level.
 
-**At 8th Level:** The bonus becomes +4.
+This replaces poison resistance and poison immunity.
 
-**Gained:** At 2nd Level
+## Discoveries {#discoveries}
 
-**Passive:** He gains a +2 bonus on saving throws against the extraordinary and supernatural
-abilities of oozes.
-
-**Replaces:** Poison resistance, poison immunity
-
-**Discoveries:** The following discoveries complement the oozemaster archetype:
-[bottled ooze](ref/discovery/bottled-ooze), [ooze blight](ref/discovery/ooze-blight), and
-[splitting mutagen](ref/discovery/splitting-mutagen).
+The following discoveries complement the oozemaster archetype:
+[bottled ooze](ref/discovery/bottled-ooze), [ooze blight](ref/discovery/ooze-blight) (see below),
+and [splitting mutagen](ref/discovery/splitting-mutagen) (see below).

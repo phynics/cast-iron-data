@@ -1,0 +1,304 @@
+# Texts of the entries that feature-prose-540.py has not converted yet. Generated: never edit by hand
+# except the `edit` text of a feature (status `edit` in the review TSV).
+
+[[entry]]
+id = "ref/arc-antipaladin/iron-tyrant"
+hold = "head not printed: At 5th Level"
+opening = ["Covered from head to toe in blackened armor decorated with grotesque shapes and bristling with spikes, iron tyrants make an unmistakable impression on the battlefield. These antipaladins' armor is an outward symbol of their inner power, and they are rarely seen without it. Iron tyrants seek the strength to rule over domains as unfettered despots, and depend on their armor as protection against those they have not yet cowed.", "Most iron tyrants are orcs or half-orcs who worship the orc deities Lanishra (god of slavery, subjugation, and tyranny) or Varg (god of iron, siege weapons, and warfare). Though rarer, some iron tyrants belong to other races and worship Urazra (giant god of battle, brutality, and strength) or demon lords such as Aldinach (She of the Six Venoms), Angazhan (the Ravenous King), or Izyagna (She of the Sevenfold Swarm)."]
+
+[[entry.feature]]
+anchor = "iron-fist"
+head = "Iron Fist (Ex)"
+listed = true
+level = 2
+print = '''
+At 2nd level, an iron tyrant gains [Improved Unarmed Strike](ref/feat/improved-unarmed-strike) as a bonus feat. In addition, whenever the iron tyrant makes a successful attack with a gauntlet, spiked gauntlet, or armor spikes, the weapon damage is based on his level and not the weapon type, as per the [warpriest's](ref/class/warpriest) sacred weapon ability (_Pathfinder RPG Advanced Class Guide_ 60).
+
+This ability replaces touch of corruption.'''
+import_trades = ["Touch of corruption"]
+
+[[entry.feature]]
+anchor = "bonus-feats"
+head = "Bonus Feats"
+listed = false
+print = '''
+At 3rd level and every 3 antipaladin levels thereafter, an iron tyrant gains a bonus feat in addition to those gained from normal advancement. This feat must be a combat feat that relates to the iron tyrant's armor or shield, such as [Shield Focus](ref/feat/shield-focus), or one of the armor mastery feats on page 16.
+
+This ability replaces cruelty.'''
+import_trades = ["Cruelty"]
+
+[[entry.feature]]
+anchor = "unstoppable"
+head = "Unstoppable (Ex)"
+listed = true
+level = 4
+print = '''
+At 4th level, when wearing heavy armor, an iron tyrant is not slowed by terrain that halves movement (such as dense rubble, light undergrowth, and shallow bogs). Terrain that has been magically manipulated to impede motion or terrain that reduces movement by more than half still affects him.
+
+This ability replaces channel negative energy.'''
+import_trades = ["Channel negative energy"]
+
+[[entry.feature]]
+anchor = "fiendish-bond"
+head = "Fiendish Bond (Su)"
+listed = true
+level = 5
+print = '''
+At 5th level, instead of forming a fiendish bond with his weapon or a servant, an iron tyrant can form a bond with his armor. As a standard action, an iron tyrant can enhance his armor by calling upon a fiendish spirit's aid. This bond lasts for 1 minute per antipaladin level. When called, the spirit causes the armor to shed unholy light like a [torch](ref/eq-misc/torch). At 5th level, the spirit grants the armor a +1 enhancement bonus. For every 3 antipaladin levels beyond 5th, the armor gains another +1 enhancement bonus, to a maximum of +6 at 20th level. These bonuses stack with existing armor enhancement bonuses to a maximum of +5, or they can be used to add any of the following armor special abilities: _dastard_, _ghost touch_, _fortification_ (heavy, light, or medium), _invulnerability_, _spell resistance_ (13, 15, 17, or 19). Adding these special abilities consumes an amount of bonus equal to the special ability's base price modifier. In addition, the iron tyrant can grant his armor the _unrighteous_ special ability at the cost of a +4 bonus. These special abilities are added to any special abilities the armor already has, but duplicate abilities do not stack. If the armor is not magical, at least a +1 enhancement bonus must be added before any other special abilities can be added. The bonus and special abilities granted by the spirit are determined when the spirit is called and cannot be changed until the spirit is called again. The fiendish spirit imparts no bonuses if the armor is worn by anyone other than the iron tyrant, but it resumes giving bonuses if the iron tyrant dons the armor again. An iron tyrant can use this ability once per day at 5th level, and one additional time per day for every 4 levels beyond 5th, to a total of four times per day at 17th level.
+
+If a suit of bonded armor with a fiendish spirit is destroyed, the iron tyrant loses the use of this ability for 30 days, or until he gains a level, whichever comes first. During this 30-day period, the iron tyrant takes a -1 penalty on attack rolls and weapon damage rolls.
+
+This ability replaces fiendish boon.'''
+import_trades = ["Fiendish boon"]
+
+[[entry.feature]]
+anchor = "at-5th-level"
+head = "At 5th Level"
+listed = false
+print = ""
+
+[[entry]]
+id = "ref/arc-cavalier/knight-of-arnisant"
+opening = ["The cavaliers known as knights of Arnisant revere the famous general who was crucial in the defeat of the Whispering Tyrant, the powerful wizard-king. Knights of Arnisant call upon Arnisant to grant them protection from evil magic, just as the _Shield of Aroden_ protected him. Many of these cavaliers further emulate him by joining the order of the shield. Most knights of Arnisant serve at Lastwall, where the movement originated, but they can be found everywhere from the general's homeland of Taldor to the front lines of the Worldwound."]
+
+[[entry.feature]]
+anchor = "shield-expertise"
+head = "Shield Expertise"
+listed = true
+level = 1
+print = '''
+At 1st level, a knight of Arnisant gains the [Shield Focus](ref/feat/shield-focus) feat as a bonus feat. His cavalier levels count as fighter levels for the purpose of qualifying for all feats that list the Shield Focus feat as a prerequisite.
+
+This ability replaces tactician.'''
+import_trades = ["Tactician"]
+
+[[entry.feature]]
+anchor = "deflective-shield"
+head = "Deflective Shield (Ex)"
+listed = true
+level = 4
+print = '''
+At 4th level, a knight of Arnisant specializes in using his shield to deflect attacks. He adds a bonus equal to his shield bonus to AC to his touch AC and his CMD, up to a maximum of [half](ref/misc/fractions-and-rounding) his cavalier level. He does not include any enhancement bonus he has from a magic shield in this calculation.
+
+This ability replaces expert trainer.'''
+import_trades = ["Expert trainer"]
+
+[[entry.feature]]
+anchor = "heraldic-banner"
+head = "Heraldic Banner (Ex)"
+listed = true
+level = 5
+print = '''
+At 5th level, a knight of Arnisant uses his shield as a banner, though its benefits apply only to allies within 30 feet.
+
+This ability alters banner.'''
+import_trades = ["Banner"]
+
+[[entry.feature]]
+anchor = "soul-shield"
+head = "Soul Shield (Su)"
+listed = true
+level = 9
+print = '''
+At 9th level, when carrying a shield, a knight of Arnisant adds a bonus equal to his shield bonus to AC on all saving throws against curse spells and effects, up to a maximum of half his cavalier level. He does not include any enhancement bonus from a magic shield in this calculation.
+
+This ability replaces greater tactician.'''
+import_trades = ["Greater tactician"]
+
+[[entry.feature]]
+anchor = "defensive-challenge"
+head = "Defensive Challenge (Ex)"
+listed = true
+level = 12
+print = '''
+At 12th level, whenever a knight of Arnisant declares a challenge, his target must pay particular attention to him. As long as the target is within the threatened area of the cavalier, it takes a -2 penalty on attack rolls against anyone other than the knight of Arnisant.
+
+This ability replaces demanding challenge.'''
+import_trades = ["Demanding challenge"]
+
+[[entry.feature]]
+anchor = "heart-shield"
+head = "Heart Shield (Su)"
+listed = true
+level = 17
+print = '''
+At 17th level, when carrying a shield, a knight of Arnisant adds a bonus equal to his shield bonus to AC on saving throws against death spells and magical death effects, up to a maximum of half his cavalier level. He does not include any enhancement bonus from a magic shield in this calculation.
+
+This ability replaces greater tactician.'''
+import_trades = ["Greater tactician"]
+
+[[entry]]
+id = "ref/arc-fighter/molthuni-defender"
+opening = ["Molthuni defenders occupy and protect contested territory in their war against Nirmathas. These heavily armored soldiers don't train for maneuverability, but rather for immovability. Taking advantage of their weighty armor, Molthuni defenders can hold back an onslaught of enemies intent on breaking through their line. The majority of Molthuni defenders were laborers who joined the military to gain citizenship, though a noteworthy minority are from stouter non-human races."]
+
+[[entry.feature]]
+anchor = "armored-defense"
+head = "Armored Defense (Ex)"
+listed = true
+level = 3
+print = '''
+At 3rd level, a Molthuni defender gains a bonus to his CMD against bull rush, dirty trick, drag, grapple, overrun, reposition, and trip combat maneuver checks.
+
+This bonus also applies to the DC of foes' Acrobatics checks to move through squares he threatens. This bonus is +1 when the Molthuni defender is wearing medium armor, and +3 when he is wearing heavy armor. At 7th, 11th, and 15th levels, these bonuses increase by 1.
+
+In addition to this, the Molthuni defender is able to choose one of the following combat maneuvers: bull rush, dirty trick, drag, grapple, overrun, reposition, or trip. When he is wearing medium or heavy armor, the Molthuni defender adds [half](ref/misc/fractions-and-rounding) his armor training bonus on combat maneuver checks for the selected maneuver. He can choose an additional combat maneuver at 7th, 11th, and 15th levels.
+
+This ability replaces armor training 1 through 4, but counts as armor training for the purposes of qualifying for feats and prestige classes. It does not count as advanced armor training (see page 14).'''
+import_trades = ["Armor training 1 through 4"]
+
+[[entry]]
+id = "ref/arc-magus/armored-battlemage"
+hold = "head not printed: Armor Training (Ex), Armor Training (Ex), Heavy Armor (Ex), Expanded Arcane Pool (Su); the replaces trade `Magus arcana gained at 3rd and 18th levels` is not printed in a sentence, and no listed feature of that name prints it; the replaces trade `improved spell combat` is not printed in a sentence, and no listed feature of that name prints it; the replaces trade `Greater spell combat` is not printed in a sentence, and no listed feature of that name prints it"
+opening = ["Though it hasn't been at war with its southern neighbor for centuries, Nex continues to train battlemages at its arcane schools in Ecanus. Many battlemages focus purely on destructive evocations, but some extend their tactical studies to include use of the tried-and-true protection of steel. These armored battlemages learn to move and cast spells in even the most restrictive armors, and have developed new methods to magically enhance their armor. Most armored battlemages strongly support the Arclords of Nex. Many travel beyond their homelands seeking some method of contacting the archmage Nex, and hope for some excuse to convince the Council of Three and Nine to renew hostilities with the nation of Geb."]
+
+[[entry.feature]]
+anchor = "medium-armor"
+head = "Medium Armor (Ex)"
+listed = true
+level = 1
+print = '''
+An armored battlemage gains this ability at 1st level instead of 7th. When wearing medium or heavy armor, the armored battlemage gains a +4 bonus on [concentration](ref/rule/concentration) checks to cast defensively. This stacks with the bonus from the [Combat Casting](ref/feat/combat-casting) feat.
+
+This ability replaces spell combat and alters the medium armor ability.'''
+import_trades = ["Medium armor", "Spell combat"]
+
+[[entry.feature]]
+anchor = "arcane-pool"
+head = "Arcane Pool (Su)"
+listed = true
+level = 1
+print = '''
+An armored battlemage cannot spend points from his arcane pool to enhance weapons. Instead, he can expend 1 point from his arcane pool as a swift action to grant armor he is wearing a +1 enhancement bonus for 1 minute. For every 4 magus levels he has beyond 1st, the armor gains another +1 enhancement bonus, to a maximum of +5 at 17th level. These bonuses stack with existing armor enhancement bonuses to a maximum of +5. Multiple uses of this ability do not stack with themselves.
+
+At 5th level, these bonuses can be used to add any of the following armor special abilities: _[balanced](ref/magic-enh/balanced)_, _[bitter](ref/magic-enh/bitter)_, _fortification_ (heavy, light, or medium), _[ghost touch](ref/magic-enh/ghost-touch-armor)_, _[invulnerability](ref/magic-enh/invulnerability)_, _spell resistance_ (13, 15, 17, or 19), or _[spell storing](ref/magic-enh/spell-storing-armor)_. Adding these special abilities consumes an amount of bonus equal to the ability's base price modifier. In addition, the armored battlemage can grant his armor the _[energy resistance](ref/magic-enh/energy-resistance)_ special ability at the cost of a +3 bonus or the _[improved energy resistance](ref/magic-enh/energy-resistance-improved)_ special ability at the cost of a +5 bonus. These special abilities are added to any the armor already has, but duplicates do not stack. If the armor is not magical, at least'''
+import_trades = ["Arcane pool"]
+
+[[entry.feature]]
+anchor = "armor-training"
+head = "Armor Training (Ex)"
+listed = false
+print = ""
+
+[[entry.feature]]
+anchor = "arcane-pool-armor-training"
+head = "Armor Training (Ex)"
+listed = false
+print = ""
+
+[[entry.feature]]
+anchor = "heavy-armor"
+head = "Heavy Armor (Ex)"
+listed = false
+print = ""
+
+[[entry.feature]]
+anchor = "expanded-arcane-pool"
+head = "Expanded Arcane Pool (Su)"
+listed = false
+print = ""
+
+[[entry]]
+id = "ref/arc-paladin/legate"
+opening = ["The first legates in the Inner Sea region were ambassadors from Holomog, a celestial-worshiping confederation in southern Garund. Though they hold to the same strict paladin code, legates present themselves not as armed crusaders, but as peaceful envoys and advisors, bringing wisdom garnered from the long, stable history of their nation. They often serve as diplomats (and sometimes spies) for good organizations. Yet woe to those who believe them defenseless, for a legate can call upon her divine patron to provide her with armor and weapons."]
+
+[[entry.feature]]
+anchor = "celestial-armor"
+head = "Celestial Armor (Sp)"
+listed = true
+level = 3
+print = '''
+At 3rd level, a legate can conjure armor as a standard action. This ability acts as the spell _[instant armor](ref/spell/instant-armor)_, using her paladin level as her caster level, except as follows. At 6th level and every 3 paladin levels thereafter, the armor gains an additional +1 enhancement bonus. These bonuses can be used to add any of the following armor special abilities: _[champion](ref/magic-enh/champion)_, _[fortification](ref/magic-enh/fortification)_ (heavy, light, or medium), _[invulnerability](ref/magic-enh/invulnerability)_, or _[spell resistance](ref/magic-enh/spell-resistance)_ (13, 15, 17, or 19). In addition, the legate can grant her armor the _[energy resistance](ref/magic-enh/energy-resistance)_ special ability at the cost of a +3 bonus, the _[improved energy resistance](ref/magic-enh/energy-resistance-improved)_ special ability at the cost of a +5 bonus, or the _[righteous](ref/magic-enh/righteous)_ special ability at a cost of a +4 bonus. The armor must have least a +1 enhancement bonus before any special abilities can be added. The bonus and special abilities granted are determined when this ability is used and cannot be changed until this ability is used again. If the legate has a steed bond and is riding her steed, she can include her steed when summoning celestial armor, granting the steed barding with the same bonuses and special abilities as her own.
+
+The legate can use this ability a number of times per day equal to her Wisdom bonus plus [half](ref/misc/fractions-and-rounding) her paladin level.
+
+This ability replaces mercy.'''
+import_trades = ["Mercy"]
+
+[[entry]]
+id = "ref/arc-samurai/yojimbo"
+hold = "head not printed: Armor Training (Ex)"
+opening = ["Yojimbo are highly trained bodyguards favored by the nobles and warlords of distant Minkai. Yojimbo who follow the order of the warrior loyally guard a single master, while ronin serve whoever can pay for their protection. Yojimbo often accompany visitors to the Inner Sea region from Tian Xia; a few have chosen to stay, and some have even passed on their training to bodyguards of this region."]
+
+[[entry.feature]]
+anchor = "resolute-defense"
+head = "Resolute Defense (Ex)"
+listed = true
+level = 1
+print = '''
+At 1st level, whenever a yojimbo issues a challenge, he can select one ally as his ward for the duration of the challenge. Whenever the yojimbo is adjacent to his ward, he can use resolve, greater resolve, and true resolve on his ward rather than targeting himself.
+
+This ability replaces mount.'''
+import_trades = ["Mount"]
+
+[[entry.feature]]
+anchor = "armor-expertise"
+head = "Armor Expertise (Ex)"
+listed = true
+level = 3
+print = '''
+At 3rd level, a yojimbo selects one type of armor, such as [chain shirt](ref/eq-armor/chain-shirt) or [scale mail](ref/eq-armor/scale-mail). The yojimbo gains armor training, treating his samurai level as his [fighter](ref/class/fighter) level, when wearing the selected armor.
+
+This ability replaces weapon expertise.'''
+import_trades = ["Weapon expertise"]
+
+[[entry.feature]]
+anchor = "intercept"
+head = "Intercept (Ex)"
+listed = true
+level = 4
+print = '''
+At 4th level, a yojimbo learns to better disrupt the attacks of his enemies. He gains [Bodyguard](ref/feat/bodyguard) as a bonus feat, even if he does not meet the prerequisite. In addition, whenever the yojimbo uses the [aid another](ref/rule/aid-another-2) action to increase an ally's Armor Class, the bonus to Armor Class from the aid another action increases by 1.
+
+This ability replaces mounted archer.'''
+import_trades = ["Mounted archer"]
+
+[[entry.feature]]
+anchor = "armor-training"
+head = "Armor Training (Ex)"
+listed = false
+print = ""
+
+[[entry]]
+id = "ref/arc-warpriest/shieldbearer"
+opening = ["Shieldbearers are divine warriors who stand on the front lines of battle, shoulder to shoulder with the soldiers of their people. The shieldbearer tradition has long been a strong legacy among the dwarves of the Five Kings Mountains, while many young women throughout the Lands of the Linnorm Kings and Realm of the Mammoth Lords become shieldbearers known as shield maidens. Shieldbearers among the Shoanti are often advisors as well as combatants, while in the Mwangi Expanse shieldbearers are known for defending entire villages from the Gorilla King's minions."]
+
+[[entry.feature]]
+anchor = "shield-adept"
+head = "Shield Adept (Ex)"
+listed = true
+level = 1
+print = '''
+At 1st level, a shieldbearer receives [Improved Shield Bash](ref/feat/improved-shield-bash) as a bonus feat. When carrying a shield, the shieldbearer adds his shield bonus on [concentration](ref/rule/concentration) checks to cast defensively.
+
+This ability replaces focus weapon.'''
+import_trades = ["Focus weapon"]
+
+[[entry.feature]]
+anchor = "sacred-weapon"
+head = "Sacred Weapon (Su)"
+listed = true
+level = 1
+print = '''
+A shieldbearer treats shields as sacred weapons (instead of his god's favored weapon), though the shieldbearer can still designate additional weapons as sacred weapons by selecting them with the [Weapon Focus](ref/feat/weapon-focus) feat. The shieldbearer's sacred weapon damage applies only to attacks made with shields. The shieldbearer does not gain the ability to enhance sacred weapons until 7th level. For every 3 warpriest levels beyond 7th, this bonus increases by 1 (to a maximum of +5 at 19th level).
+
+This ability alters sacred weapon and also replaces sacred armor.'''
+import_trades = ["Sacred weapon, sacred armor", "Sacred weapon", "sacred armor"]
+
+[[entry.feature]]
+anchor = "sacred-shield"
+head = "Sacred Shield (Su)"
+listed = true
+level = 4
+print = '''
+At 4th level, a shieldbearer gains the ability to enhance his shield with divine power as a swift action. This ability functions as the sacred armor ability, except as follows. This power grants the shield a +1 enhancement bonus (this bonus does not act as an attack or damage bonus when the shield is used in a shield bash). For every 4 warpriest levels beyond 4th, this bonus increases by 1 (to a maximum of +5 at 20th level). The shieldbearer can enhance a shield with any of the following armor special abilities (instead of those listed for sacred armor): _[arrow deflection](ref/magic-enh/arrow-deflection)_, _[blinding](ref/magic-enh/blinding)_, _[fortification](ref/magic-enh/fortification)_ (heavy, light, or moderate), _[reflecting](ref/magic-enh/reflecting)_, and _[spell resistance](ref/magic-enh/spell-resistance)_ (13, 15, 17, and 19).
+
+Armor Master Archetypes and Prestige Classes Many organizations of the Inner Sea region and beyond can be recognized by their armor. Members of these groups often take archetypes and prestige classes that allow them to wear heavier armor, gain greater benefits from their armor, or magically enhance their armor. Armor-focused prestige classes can be found in _Pathfinder Campaign Setting: The Inner Sea World Guide_ (Hellknight and low templar) and _Pathfinder Campaign Setting: Paths of Prestige_ (Golden Legionnaire, Hellknight signifier, Knight of Ozem, and skyseeker). The following books present numerous archetypes suitable for armor-focused characters: _Pathfinder Campaign Setting: Inner Sea Magic_ (Chelish diva and Mendevian priest), _Pathfinder RPG Advanced Class Guide_ (forgepriest, shield champion, and steelblood), _Pathfinder RPG Advanced Player's Guide_ (arcane duelist, divine defender, phalanx fighter, and shielded fighter), _Pathfinder RPG Advanced Race Guide_ (forgemaster), _Pathfinder RPG Occult Adventures_ (battle host), and _Pathfinder RPG Ultimate Combat_ (armor master, armored hulk, crusader, gun tank, myrmidarch, sacred shield, skirnir, sohei, and tower shield specialist).'''
+
+[[entry.feature]]
+anchor = "channel-energy"
+head = "Channel Energy (Su)"
+listed = true
+print = '''
+The shieldbearer can channel energy only when carrying a shield, and the ability manifests as a 30-foot-cone burst, rather than as a radius.
+
+This ability modifies channel energy.'''

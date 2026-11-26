@@ -4349,7 +4349,8 @@ PAGE_FIXES = {
 }
 
 # The Player Companions that set their titles in small capitals and give each archetype no box of its own (batches 6 to 9).
-PLAYER_COMPANIONS = ("blood-of-the-ancients", "wilderness-origins", "legacy-of-the-first-world", "people-of-the-wastes", "healers-handbook")
+PLAYER_COMPANIONS = ("blood-of-the-ancients", "wilderness-origins", "legacy-of-the-first-world", "people-of-the-wastes", "healers-handbook",
+                     "elemental-masters-handbook", "monster-hunters-handbook", "monster-summoners-handbook", "armor-masters-handbook", "cohorts-and-companions")
 
 # The Player Companions that set their archetype titles in small capitals (a capital and its small capitals 5 units apart), and whose
 # archetypes are followed by sections of the chapter of their own (feats, techniques, spells): any title ends the section of an archetype.
@@ -5935,6 +5936,30 @@ def main() -> int:
     ap.print_help()
     return 2
 
+
+
+# ---- Batch A3: Elemental Master's Handbook, Monster Hunter's Handbook, Monster Summoner's Handbook, Armor Master's Handbook, Cohorts and Companions ----
+LEVEL_FROM_PRINT.update({
+    ("ref/arc-gunslinger/firebrand", "scorched-earth"): (4, "print says \"At 4th level and every 4 levels thereafter\" (Elemental Master's Handbook p. 5): the level is stated inside the sentence (ruling 4)"),
+})
+_STORM = [("eagle", "ref/monster/eagle"), ("small air elemental", "ref/monster/air-elemental"), ("small lightning elemental", "ref/monster/lightning-elemental"),
+          ("dire bat", "ref/monster/bat-dire-bat"), ("medium air elemental", "ref/monster/air-elemental"), ("medium lightning elemental", "ref/monster/lightning-elemental"),
+          ("pteranodon", "ref/monster/dinosaur-pteranodon"), ("large air elemental", "ref/monster/air-elemental"), ("large lightning elemental", "ref/monster/lightning-elemental"),
+          ("huge air elemental", "ref/monster/air-elemental"), ("huge lightning elemental", "ref/monster/lightning-elemental"), ("roc", "ref/monster/roc"),
+          ("elder air elemental", "ref/monster/air-elemental"), ("elder lightning elemental", "ref/monster/lightning-elemental"), ("advanced", "ref/template/advanced"),
+          ("call lightning", "ref/spell/call-lightning")]
+for _eid in ("ref/arc-summoner/storm-caller", "ref/arc-unchained-summoner/storm-caller"):
+    EXTRA_LINKS[(_eid, "summon-storm-s-fury")] = list(_STORM)
+    TRADE_ADDITIONS[_eid] = TRADE_ADDITIONS.get(_eid, []) + [{"alters": "the summoner's summon monster I\u2013IX abilities", "feature": "summon-monster-i"}]
+TRADE_ADDITIONS["ref/arc-alchemist/energy-scientist"] = [{"alters": "Class skills"}]
+TRADE_ADDITIONS["ref/arc-alchemist/oozemaster"] = [{"replaces": "The bomb class feature", "feature": "bomb"}]
+TRADE_RENAMES[("ref/arc-alchemist/oozemaster", "Brew Potion")] = "Brew Potion, though an oozemaster can still select Brew Potion without meeting the feat's prerequisites"
+for _eid in ("ref/arc-bard/luring-piper", "ref/arc-druid/defender-of-the-true-world", "ref/arc-occultist/psychodermist"):
+    TRADE_ADDITIONS[_eid] = TRADE_ADDITIONS.get(_eid, []) + [{"alters": "Class skills"}]
+TRADE_RENAMES[("ref/arc-paladin/banishing-warden", "3rd-level mercy")] = "Mercy gained at 3rd level"
+MISPRINTS.append(("ref/arc-bard/luring-piper", "and a when employing a wind instrument", "and when employing a wind instrument",
+                  "a stray \"a\" in print (\"and a when employing a wind instrument\"); the sentence reads \"... when using Perform (wind instruments) and when employing a wind instrument\" (Monster Hunter's Handbook p. 11)"))
+TRADE_RENAMES[("ref/arc-monk/windstep-master", "Slow fall")] = "Slow fall or the ki power gained at 4th level for an unchained monk"
 
 if __name__ == "__main__":
     sys.exit(main())
