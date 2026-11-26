@@ -67,8 +67,8 @@ aeromancer's space. She can choose which form the wind takes each time she uses 
 affected area is filled with hurricane-force [winds](ref/rule/winds) (75 mph). This makes normal
 ranged attacks passing through this area impossible, imposes a -8 penalty on ranged attacks from
 siege weapons that pass through the area, and imposes a -12 penalty on [Fly](ref/skill/fly) checks
-attempted within the area. Additionally, Large creatures in the area are in danger of being checked,
-and Medium or smaller creatures in the area are in danger of being blown away. The winds created by
-this ability last for 1 round.
+attempted within the area. Additionally, Large creatures in the area are in danger of being checked
+(_Pathfinder RPG Core Rulebook_ 439), and Medium or smaller creatures in the area are in danger of
+being blown away. The winds created by this ability last for 1 round.
 
 This replaces the arcane exploit gained at 11th level.
