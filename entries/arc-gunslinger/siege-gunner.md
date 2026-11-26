@@ -19,7 +19,6 @@ kind = "archetype"
 features = [
   { anchor = "grit" },
   { anchor = "engineer-training", level = 2 },
-  { anchor = "deeds" },
   { anchor = "targeted-blast", level = 1 },
   { anchor = "scattershot", level = 3 },
 ]

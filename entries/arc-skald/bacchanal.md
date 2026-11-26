@@ -19,7 +19,6 @@ kind = "archetype"
 features = [
   { anchor = "fermented-fruit", level = 1 },
   { anchor = "drunken-dancer", level = 2 },
-  { anchor = "raging-song" },
   { anchor = "song-of-urging", level = 3 },
   { anchor = "maddening-dance", level = 10 },
 ]

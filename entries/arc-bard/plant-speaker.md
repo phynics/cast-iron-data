@@ -17,7 +17,6 @@ page = "22"
 [fields]
 kind = "archetype"
 features = [
-  { anchor = "bardic-performance" },
   { anchor = "leshy-speaker", level = 9 },
   { anchor = "plant-speech", level = 1 },
   { anchor = "mystical-allegory", level = 5 },

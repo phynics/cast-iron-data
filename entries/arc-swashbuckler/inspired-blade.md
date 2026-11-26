@@ -19,7 +19,6 @@ kind = "archetype"
 features = [
   { anchor = "inspired-panache", level = 1 },
   { anchor = "inspired-finesse", level = 1 },
-  { anchor = "deeds" },
   { anchor = "inspired-strike", level = 11 },
   { anchor = "rapier-training", level = 5 },
   { anchor = "rapier-weapon-mastery", level = 20 },

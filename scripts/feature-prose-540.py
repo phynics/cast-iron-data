@@ -5260,10 +5260,14 @@ IMPORT_HEAD_FIXES.update({
         ("Dualistic Energy (Su)", "Elemental"), ("Amusing Familiar (Su)", "Fey"), ("Hellish Aura (Su)", "Infernal"),
         ("Unliving Physiology (Su)", "Undead"))},
 })
-# Scaled Fist (Legacy of Dragons p. 14): "This ability modifies bonus feats" stands under the unlisted Bonus Feats scaffold, so `alters Bonus feats` has
-# no printed home in a listed feature, but the app does not read "modifies" as a trade verb and a trade without `by` then drifts; the trade stays on
-# Draconic Might, which gains no level from it (the owner asked for no `by`: reported in the PR)
-NO_LEVEL_ONE.add(("ref/arc-monk/scaled-fist", "draconic-might"))
+# Scaled Fist (Legacy of Dragons p. 14): "This ability modifies bonus feats" stands under the unlisted Bonus Feats scaffold: `alters Bonus feats` has no
+# `by` (rulings 13 and 55) and Draconic Might gains no level from it
+TRADE_NO_BY.setdefault("ref/arc-monk/scaled-fist", []).append("Bonus feats")
+# Ectoplasm Master (Haunted Heroes Handbook p. 14): "This discovery modifies the alchemist's bombs" (ruling 55); one discovery of a list is a part of bombs, so no level
+TRADE_ADDITIONS.setdefault("ref/arc-alchemist/ectoplasm-master", []).append({"alters": "The alchemist's bombs", "feature": "bomb"})
+NO_LEVEL_ONE.add(("ref/arc-alchemist/ectoplasm-master", "ectoplasm-master-discoveries"))
+# Iron-Ring Striker (Martial Arts Handbook p. 5): the stored name is the printed words of "This modifies the bonus feat gained at 5th level"
+TRADE_RENAMES[("ref/arc-magus/iron-ring-striker", "5th-level bonus feat")] = "Bonus feat gained at 5th level"
 EXTRA_LINKS[("ref/arc-druid/fungal-pilgrim", "fungal-companion")] = [("fungal creature", "ref/template/fungal-creature")]
 MISPRINTS.append(("ref/arc-slayer/sczarni-executioner", "must make a successful a Fortitude save", "must make a successful Fortitude save",
                   "a stray \"a\" in print (\"a successful a Fortitude save\"); the same book prints \"a successful Fortitude save\" elsewhere"))
@@ -5916,6 +5920,9 @@ def self_test() -> int:
     eq(trade_sentences("These bonus feat choices replace Dodge, Mobility, and Spring Attack on his bonus feat list."),
        [("replaces", "Dodge, Mobility, and Spring Attack on his bonus feat list", True)], "bonus feat choices are a bare subject")
     eq(trade_sentences("These choices replace Dodge."), [], "choices alone is no subject word")
+    eq(trade_sentences("This ability modifies bonus feats."), [("alters", "bonus feats", False)], "ruling 55: modifies is an alters verb")
+    eq(trade_sentences("This discovery modifies the alchemist's bombs and doesn't stack with other discoveries that modify bombs."),
+       [("alters", "the alchemist's bombs and doesn't stack with other discoveries that modify bombs", False)], "ruling 55: the phrase after modifies")
     # ---- Campaign Setting books (Inner Sea Magic, Intrigue, Combat; phynics/cast-iron#540) ----
     eq(ocr_repair("At  ist level, +i bonus, i6th, i50, io feet, id10"), "At  1st level, +1 bonus, 16th, 150, 10 feet, 1d10", "ocr digits")
     eq(ocr_repair("Ma13ic and Chan13e, jlamin13, stalkin13\u00b0E."), "Magic and Change, flaming, stalking.", "ocr g")

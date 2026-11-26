@@ -21,7 +21,6 @@ page = "11"
 kind = "archetype"
 features = [
   { anchor = "bound-to-the-land", level = 1 },
-  { anchor = "bardic-performance" },
   { anchor = "thunder-call", level = 3 },
   { anchor = "incite-rage", level = 6 },
   { anchor = "call-lightning", level = 8 },

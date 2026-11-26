@@ -18,7 +18,6 @@ page = "26"
 kind = "archetype"
 features = [
   { anchor = "famous", level = 1 },
-  { anchor = "bardic-performance" },
   { anchor = "gather-crowd", level = 5 },
   { anchor = "incite-violence", level = 6 },
   { anchor = "righteous-cause", level = 18 },
