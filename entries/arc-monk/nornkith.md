@@ -16,15 +16,25 @@ page = "24"
 
 [fields]
 kind = "archetype"
+features = [
+  { anchor = "conviction-of-fate" },
+  { anchor = "forewarned", level = 1 },
+  { anchor = "shears", level = 1 },
+  { anchor = "resist-death-s-lure", level = 5 },
+  { anchor = "fate-weaver", level = 11 },
+  { anchor = "snip-thread", level = 15 },
+  { anchor = "inscrutable", level = 19 },
+  { anchor = "norn-transformation", level = 20 },
+]
 trades = [
-  { replaces = "Stunning fist", feature = "stunning-fist" },
-  { replaces = "Bonus feat gained at 1st level", feature = "bonus-feat", levels = [1] },
-  { replaces = "Purity of body", feature = "purity-of-body" },
-  { replaces = "bonus feat gained at 10th level", feature = "bonus-feat", levels = [10] },
-  { replaces = "Diamond soul", feature = "diamond-soul" },
-  { replaces = "Quivering palm", feature = "quivering-palm" },
-  { replaces = "Empty body", feature = "empty-body" },
-  { replaces = "Perfect self", feature = "perfect-self" },
+  { replaces = "Stunning fist", feature = "stunning-fist", by = ["forewarned"] },
+  { replaces = "Bonus feat gained at 1st level", feature = "bonus-feat", levels = [1], by = ["shears"] },
+  { replaces = "Purity of body", feature = "purity-of-body", by = ["resist-death-s-lure"] },
+  { replaces = "bonus feat gained at 10th level", feature = "bonus-feat", levels = [10], by = ["resist-death-s-lure"] },
+  { replaces = "Diamond soul", feature = "diamond-soul", by = ["fate-weaver"] },
+  { replaces = "Quivering palm", feature = "quivering-palm", by = ["snip-thread"] },
+  { replaces = "Empty body", feature = "empty-body", by = ["inscrutable"] },
+  { replaces = "Perfect self", feature = "perfect-self", by = ["norn-transformation"] },
 ]
 +++
 
@@ -32,89 +42,71 @@ Nornkith hone their bodies and minds to follow the branching threefold paths of 
 to emulate the fey masters of fate called [norns](ref/monster/norn) and eventually ascend to become
 norns in their own right.
 
-**Conviction of Fate (Ex)**
+## Conviction of Fate (Ex) {#conviction-of-fate}
 
-**Info:** A nornkith uses her Charisma, rather than her Wisdom, to determine all class features and
-effects relating to his monk class.
+A nornkith uses her Charisma, rather than her Wisdom, to determine all class features and effects
+relating to his monk class.
 
-**Forewarned (Su)**
+## Forewarned (Su) {#forewarned}
 
-**Ability:** A nornkith can always act in the surprise round, even if he does not notice her
-enemies, though she remains [flat-footed](ref/rule/flat-footed) until she takes an action. In
-addition, she gains a bonus on initiative rolls equal to half her monk level (minimum +1).
+A nornkith can always act in the surprise round, even if he does not notice her enemies, though she
+remains [flat-footed](ref/rule/flat-footed) until she takes an action. In addition, she gains a
+bonus on initiative rolls equal to half her monk level (minimum +1). At 20th level, a nornkith's
+initiative roll is automatically a natural 20.
 
-**At 20th Level:** A nornkith's initiative roll is automatically a natural 20.
+This ability replaces stunning fist.
 
-**Replaces:** Stunning fist
+## Shears (Su) {#shears}
 
-**Shears (Su)**
+Whenever a nornkith makes an unarmed strike, she can cause shimmering silver shears to manifest
+around the blow, causing the unarmed strike to count as silver for the purpose of overcoming
+[damage reduction](ref/rule/damage-reduction). At 7th level, she gains
+[Improved Critical](ref/feat/improved-critical) (unarmed strike) as a bonus feat, even if she does
+not meet the prerequisites.
 
-**At 1st Level:** Whenever a nornkith makes an unarmed strike, she can cause shimmering silver
-shears to manifest around the blow, causing the unarmed strike to count as silver for the purpose of
-overcoming [damage reduction](ref/rule/damage-reduction).
+This ability replaces the bonus feat gained at 1st level.
 
-**At 7th Level:** She gains [Improved Critical](ref/feat/improved-critical) (unarmed strike) as a
-bonus feat, even if she does not meet the prerequisites.
+## Resist Death's Lure (Su) {#resist-death-s-lure}
 
-**Replaces:** Bonus feat gained at 1st level
+At 5th level, a nornkith gains a +4 morale bonus on saves against death effects,
+[energy drain](ref/rule/energy-drain-and-negative-levels), and negative energy. At 10th level, she
+gains immunity to energy drain and negative energy.
 
-**Resist Death's Lure (Su)**
+This ability replaces purity of body and the bonus feat gained at 10th level.
 
-**At 10th Level:** She gains immunity to energy drain and negative energy.
+## Fate Weaver (Su) {#fate-weaver}
 
-**Gained:** At 5th Level
+At 11th level, a nornkith can spend 1 ki point as an immediate action to force a creature within 60
+feet to reroll one saving throw before the results of the roll are revealed. The creature must take
+the result of the second roll, even if it's worse than the original roll. Whether the new result is
+a success or failure, the creature cannot be the target of this ability again for 1 day.
 
-**Passive:** A nornkith gains a +4 morale bonus on saves against death effects,
-[energy drain](ref/rule/energy-drain-and-negative-levels), and negative energy.
+This ability replaces diamond soul.
 
-**Replaces:** Purity of body, bonus feat gained at 10th level
+## Snip Thread (Su) {#snip-thread}
 
-**Fate Weaver (Su)**
+At 15th level, as a standard action, a monk can spend 1 ki point to produce a golden thread linked
+to the fate of a creature within 60 feet and mimic snipping through the thread with a pair of
+shears. The target takes 1d6 points of damage per nornkith level and can attempt a Fortitude saving
+throw (DC = 10 + half the nornkith's monk level + her Charisma modifier) to halve this damage. If
+the damage would bring the target's hit points to 0 or below, the nornkith can spend another ki
+point to sever the golden thread completely; in this case, the target dies and can only be restored
+to life with _[miracle](ref/spell/miracle)_, _[wish](ref/spell/wish)_, or divine intervention. The
+nornkith can use this ability once per day. This is a death effect.
 
-**Immediate:** A nornkith can spend 1 ki point to force a creature within 60 feet to reroll one
-saving throw before the results of the roll are revealed. The creature must take the result of the
-second roll, even if it's worse than the original roll. Whether the new result is a success or
-failure, the creature cannot be the target of this ability again for 1 day.
+This ability replaces quivering palm.
 
-**Gained:** At 11th Level
+## Inscrutable (Su) {#inscrutable}
 
-**Replaces:** Diamond soul
+At 19th level, the nornkith is protected by a constant _[mind blank](ref/spell/mind-blank)_ effect
+with a caster level equal to her monk level. The nornkith can suppress or resume this protection as
+a standard action.
 
-**Snip Thread (Su)**
+This ability replaces empty body.
 
-**Gained:** At 15th Level
+## Norn Transformation {#norn-transformation}
 
-**Replaces:** Quivering palm
-
-**Special:** This is a death effect.
-
-**Standard:** A monk can spend 1 ki point to produce a golden thread linked to the fate of a
-creature within 60 feet and mimic snipping through the thread with a pair of shears. The target
-takes 1d6 points of damage per nornkith level and can attempt a Fortitude saving throw (DC = 10 +
-half the nornkith's monk level + her Charisma modifier) to halve this damage. If the damage would
-bring the target's hit points to 0 or below, the nornkith can spend another ki point to sever the
-golden thread completely; in this case, the target dies and can only be restored to life with
-[miracle](ref/spell/miracle), [wish](ref/spell/wish), or divine intervention.
-
-**Usage:** 1 time/day
-
-**Usage:** 1 time/day
-
-**Inscrutable (Su)**
-
-**Gained:** At 19th Level
-
-**Passive:** The nornkith is protected by a constant [mind blank](ref/spell/mind-blank) effect with
-a caster level equal to her monk level. The nornkith can suppress or resume this protection as a
-**standard action**.
-
-**Replaces:** Empty body
-
-**Norn Transformation**
-
-**Ability:** A nornkith attains her fey heritage. Her type changes to [fey](ref/type/fey), and she
+At 20th level, a nornkith attains her [fey](ref/type/fey) heritage. Her type changes to fey, and she
 gains DR 10/cold iron.
 
-**Gained:** At 20th Level
-
-**Replaces:** Perfect self
+This ability replaces perfect self.

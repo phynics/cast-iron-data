@@ -1,0 +1,30 @@
+[[edit]]
+entry = "ref/arc-shifter/dragonblood-shifter"
+anchor = "draconic-aspect"
+note = "hand-written by the batch lead from print (Wilderness Origins pp. 5-6, ruling 18): the dragon-type table that the paragraph points to is printed under it, with its ten dragon types as printed (the corpus grouped them in four rows); the script's text is otherwise kept, and the print text runs the table into the paragraph after it"
+text = '''
+A dragonblood shifter can temporarily imbue her body with draconic majesty as a swift action. When activating this ability, the shifter must select one of the chromatic or metallic dragon types from the table on page 6. Her draconic aspect abilities grant resistances and deal a type of damage based on the chosen dragon type. While shifted into this form, she gains the [scent](ref/umr/scent) ability and energy [resistance](ref/umr/resistance) 5 against the energy type that corresponds to her selected dragon type. She can maintain this form for a number of minutes per day equal to 3 + her shifter level. The duration does not need to be consecutive, but it must be spent in 1-minute increments. The shifter can select a different dragon type every time she uses this ability, but she must end her current draconic aspect and activate this ability again in order to change her chosen dragon type. 
+
+|Dragon Type|Energy Type|
+|---|---|
+|Black|Acid|
+|Blue|Electricity|
+|Green|Acid|
+|Red|Fire|
+|White|Cold|
+|Brass|Fire|
+|Bronze|Electricity|
+|Copper|Acid|
+|Gold|Fire|
+|Silver|Cold|
+
+At 5th level, the energy resistance granted by the dragonblood shifter's draconic aspect increases to 10.
+
+At 10th level, the energy resistance granted by the dragonblood shifter's draconic aspect increases to 15, and she gains a [breath weapon](ref/umr/breath-weapon) of her energy type that deals 1d6 points of damage per shifter level within a 30-foot cone. A target can attempt a Reflex save (DC = 10 + half the dragonblood shifter's level + her Charisma modifier) to reduce damage by half. The dragonblood shifter can use her breath weapon once per day.
+
+At 15th level, the energy resistance granted by the dragonblood shifter's draconic aspect increases to 20, and she can use her breath weapon twice per day.
+
+At 20th level, the dragonblood shifter becomes [immune](ref/umr/immunity) to the energy type that corresponds to her selected dragon type while in her draconic aspect. In addition, she gains [spell resistance](ref/rule/spell-resistance) equal to 10 + her shifter level, and she can use her breath weapon three times per day.
+
+This replaces shifter aspect and all improvements to shifter aspect.
+'''

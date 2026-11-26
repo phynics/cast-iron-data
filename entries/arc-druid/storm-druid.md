@@ -17,7 +17,7 @@ page = "40"
 [fields]
 kind = "archetype"
 features = [
-  { anchor = "spontaneous-domain-casting" },
+  { anchor = "spontaneous-domain-casting", level = 1 },
   { anchor = "nature-bond" },
   { anchor = "windwalker", level = 2 },
   { anchor = "stormvoice", level = 3 },

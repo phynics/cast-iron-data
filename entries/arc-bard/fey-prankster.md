@@ -16,93 +16,90 @@ page = "20"
 
 [fields]
 kind = "archetype"
+features = [
+  { anchor = "mischievous-talent", level = 1 },
+  { anchor = "song-of-clumsiness", level = 1 },
+  { anchor = "incite-unreliability", level = 1 },
+  { anchor = "embarrassing-satire", level = 8 },
+  { anchor = "dirty-trickster", level = 2 },
+  { anchor = "master-of-mischief", level = 5 },
+]
 trades = [
-  { replaces = "Bardic knowledge", feature = "bardic-knowledge" },
-  { replaces = "Countersong", feature = "bardic-performance", power = "countersong" },
-  { replaces = "Inspire courage", feature = "bardic-performance", power = "inspire courage" },
-  { replaces = "Dirge of doom", feature = "bardic-performance", power = "dirge of doom" },
-  { replaces = "Well-versed", feature = "well-versed" },
-  { replaces = "Lore master", feature = "lore-master" },
+  { replaces = "Bardic knowledge", feature = "bardic-knowledge", by = ["mischievous-talent"] },
+  { replaces = "Countersong", feature = "bardic-performance", power = "countersong", by = ["song-of-clumsiness"] },
+  { replaces = "Inspire courage", feature = "bardic-performance", power = "inspire courage", by = ["incite-unreliability"] },
+  { replaces = "Dirge of doom", feature = "bardic-performance", power = "dirge of doom", by = ["embarrassing-satire"] },
+  { replaces = "Well-versed", feature = "well-versed", by = ["dirty-trickster"] },
+  { replaces = "Lore master", feature = "lore-master", by = ["master-of-mischief"] },
 ]
 +++
 
 Sly and mischievous like the Lantern King himself, fey pranksters learn supernatural tricks that can
 cause their victims to suffer mishaps and accidents.
 
-**Mischievous Talent (Ex)**
+## Mischievous Talent (Ex) {#mischievous-talent}
 
-**Passive:** A fey prankster adds [half](ref/misc/fractions-and-rounding) her class level (minimum
-1) on Bluff, Disguise, Sleight of Hand, and Stealth skill checks, and can attempt Sleight of Hand
-checks untrained.
+A fey prankster adds [half](ref/misc/fractions-and-rounding) her class level (minimum 1) on Bluff,
+Disguise, Sleight of Hand, and Stealth skill checks, and can attempt Sleight of Hand checks
+untrained.
 
-**Replaces:** Bardic knowledge
+This ability replaces bardic knowledge.
 
-**Bardic Performance**
+## Bardic Performance {#bardic-performance}
 
-**Info:** A fey prankster gains the following types of bardic performance.
+A fey prankster gains the following types of bardic performance.
 
-**Song of Clumsiness (Su)**
+## Song of Clumsiness (Su) {#song-of-clumsiness}
 
-**Ability:** A fey prankster can use this performance to cause enemies within 30 feet that can hear
-her to suffer seemingly random mishaps. Any enemy in this area that draws a weapon or retrieves an
-item from a backpack or similar container immediately drops it, and falls prone the first time it
-enters a square of [difficult terrain](ref/rule/terrain-and-obstacles) during its turn. A creature
-can negate a specific effect with a successful Reflex saving throw (DC = 10 + half the fey
-prankster's bard level + her Charisma modifier), but an enemy must attempt a separate save for each
-potential effect during the song of clumsiness (for example, if it draws multiple weapons).
+A fey prankster can use this performance to cause enemies within 30 feet that can hear her to suffer
+seemingly random mishaps. Any enemy in this area that draws a weapon or retrieves an item from a
+backpack or similar container immediately drops it, and falls prone the first time it enters a
+square of [difficult terrain](ref/rule/terrain-and-obstacles) during its turn. A creature can negate
+a specific effect with a successful Reflex saving throw (DC = 10 + half the fey prankster's bard
+level + her Charisma modifier), but an enemy must attempt a separate save for each potential effect
+during the song of clumsiness (for example, if it draws multiple weapons). Song of clumsiness is an
+enchantment (compulsion), mind-affecting ability that relies on audible components.
 
-**Replaces:** Countersong
+This ability replaces countersong.
 
-**Special:** Song of clumsiness is an enchantment (compulsion), mind-affecting ability that relies
-on audible components.
+## Incite Unreliability (Su) {#incite-unreliability}
 
-**Incite Unreliability (Su)**
+A fey prankster can use her performance to manipulate a single target into fighting erratically or
+haphazardly, as though affected by _[lesser confusion](ref/spell/confusion-lesser)_. To be affected,
+the target must be within 30 feet and able to hear the fey prankster's performance. The effect
+persists for as long as the target can hear the performance. A target that succeeds at a Will saving
+throw (DC = 10 + half the fey prankster's bard level + her Charisma modifier) negates the effect and
+becomes immune to incite unreliability from the same fey prankster for 24 hours. Incite
+unreliability is an enchantment (compulsion), mind-affecting ability that relies on audible
+components.
 
-**Ability:** A fey prankster can use her performance to manipulate a single target into fighting
-erratically or haphazardly, as though affected by [lesser confusion](ref/spell/confusion-lesser). To
-be affected, the target must be within 30 feet and able to hear the fey prankster's performance. The
-effect persists for as long as the target can hear the performance. A target that succeeds at a Will
-saving throw (DC = 10 + half the fey prankster's bard level + her Charisma modifier) negates the
-effect and becomes immune to incite unreliability from the same fey prankster for 24 hours.
+This ability replaces inspire courage.
 
-**Replaces:** Inspire courage
+## Embarrassing Satire (Su) {#embarrassing-satire}
 
-**Special:** Incite unreliability is an enchantment (compulsion), mind-affecting ability that relies
-on audible components.
-
-**Embarrassing Satire (Su)**
-
-**Ability:** A fey prankster's powerful satire raises painful blisters and ugly boils on the face of
-her target. The fey prankster selects one target within 30 feet to become
+At 8th level, a fey prankster's powerful satire raises painful blisters and ugly boils on the face
+of her target. The fey prankster selects one target within 30 feet to become
 [sickened](ref/misc/sickened) from the uncomfortable facial boils. The sickened effect continues for
 as long as the target is within 30 feet and the fey prankster continues the performance, though the
-boils remain for 1 day afterward.
+boils remain for 1 day afterward. Embarrassing satire is a language-dependent, mind-affecting
+ability that relies on audible components.
 
-**Gained:** At 8th Level
+This ability replaces dirge of doom.
 
-**Replaces:** Dirge of doom
+## Dirty Trickster (Ex) {#dirty-trickster}
 
-**Special:** Embarrassing satire is a language-dependent, mind-affecting ability that relies on
-audible components.
-
-**Dirty Trickster (Ex)**
-
-**Ability:** A fey prankster gains [Improved Dirty Trick](ref/feat/improved-dirty-trick) as a bonus
+At 2nd level, a fey prankster gains [Improved Dirty Trick](ref/feat/improved-dirty-trick) as a bonus
 feat and counts as having [Combat Expertise](ref/feat/combat-expertise) for the purpose of meeting
 the prerequisites of feats that have Improved Dirty Trick as a prerequisite.
 
-**Gained:** At 2nd Level
+This ability replaces well-versed.
 
-**Replaces:** Well-versed
+## Master of Mischief (Ex) {#master-of-mischief}
 
-**Master of Mischief (Ex)**
-
-**Ability:** A fey prankster can take 10 on a Bluff, Disguise, Sleight of Hand, or Stealth skill
+At 5th level, a fey prankster can take 10 on a Bluff, Disguise, Sleight of Hand, or Stealth skill
 check (if she has ranks in that skill), even if distracted or endangered. In addition, once per day,
-the fey prankster can take 20 on one these skill checks (if she has ranks in that skill).
+the fey prankster can take 20 on one these skill checks (if she has ranks in that skill). She can
+use this ability one additional time per day for every 6 bard levels she has beyond 5th, to a
+maximum of three times per day at 17th level.
 
-**Gained:** At 5th Level
-
-**Replaces:** Lore master
-
-**Usage:** 1 time/day + 1 per 6 bard levels beyond 5th
+This ability replaces lore master.

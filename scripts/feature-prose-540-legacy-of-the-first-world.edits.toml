@@ -1,0 +1,91 @@
+[[edit]]
+entry = "ref/arc-cavalier/hooded-knight"
+anchor = "feytouched-mount"
+note = "the script's text with the link placed by hand: the corpus links the template as \"fey-touched\" and print spells it \"feytouched\" (the script cannot place a link whose text differs); the printed cross-reference \"(see page 10)\" stays (ruling 16)"
+text = '''
+A hooded knight's mount has the [feytouched](ref/template/fey-touched-creature) simple template (see page 10) when he is riding it, but it cannot use its [change shape](ref/carried/bestiary/rules/universal-monster-rules/change-shape) ability while being ridden.
+
+This ability alters the cavalier's mount.
+'''
+
+[[edit]]
+entry = "ref/arc-summoner/twinned-summoner"
+anchor = "extra-feat"
+note = "hand-written by the batch lead from print (Legacy of the First World p. 19, ruling 41): the printed Extra Feat (Ex)"
+text = '''
+The eidolon gains an extra feat. It must meet the prerequisites of the feat.
+'''
+
+[[edit]]
+entry = "ref/arc-summoner/twinned-summoner"
+anchor = "shared-evolution"
+note = "hand-written by the batch lead from print (Legacy of the First World p. 19, ruling 41): the printed Shared Evolution (Su), from the Evolutions section after the Twinned Eidolon subtype"
+text = '''
+Select a 1-point or 2-point evolution the eidolon has. As a standard action, the eidolon can touch the summoner and transfer the selected evolution to him. This functions as the summoner's aspect ability, and the same limitations apply. The summoner can touch the eidolon as a standard action to return the evolution. The evolution returns to the eidolon automatically if the eidolon is dismissed by the summoner or sent back to its home plane.
+'''
+
+[[edit]]
+entry = "ref/arc-summoner/twinned-summoner"
+anchor = "shared-slot"
+note = "hand-written by the batch lead from print (Legacy of the First World p. 19, ruling 41): the printed Shared Slot (Su)"
+text = '''
+Select a magic item slot. A magic item worn by the eidolon in that slot remains active even if the summoner is also wearing a magic item in that slot. This evolution can be selected more than once. Each time an eidolon selects this evolution, it applies to a new slot.
+'''
+
+[[edit]]
+entry = "ref/arc-summoner/twinned-summoner"
+anchor = "twin-summoner"
+note = "the script's text with the paragraph joined: print wraps this paragraph around the sidebar of the Twinned Eidolon subtype, and the shifted lines made the extraction start a new paragraph at \"This duration\" (Legacy of the First World p. 18)"
+text = '''
+At 16th level, a twinned summoner can touch his eidolon as a standard action, enhancing its similarity to the summoner. The eidolon loses any natural weapons or size increases gained from evolutions, and its Intelligence, Wisdom, and Charisma scores change to match the base scores of the summoner. The eidolon can cast any of the summoner's spells known using the summoner's caster level and spell slots. It doesn't gain the benefit of any of the summoner's items, feats, or other effects that affect spellcasting. The eidolon can keep this form for a number of minutes per day equal to the summoner's class level. This duration does not need to be consecutive, but it must be spent in 1-minute increments. The summoner can end this effect as a free action.
+
+This ability replaces the merge forms class feature.
+'''
+
+[[edit]]
+entry = "ref/arc-summoner/twinned-summoner"
+anchor = "twinned-eidolon-evolutions"
+note = "hand-written by the batch lead from print (Legacy of the First World p. 19, ruling 41): the section Evolutions that print sets after the Twinned Eidolon subtype holds the evolutions that only twinned summoners' eidolons take; no other entry has them, so they stay in the archetype as unlisted sections (the corpus invented the sentence \"The following evolutions are only available to this archetype\" for the printed intro)"
+text = '''
+Any eidolon that serves a twinned summoner and meets the prerequisites can take the following new evolutions. These evolutions cannot be selected with the aspect ability.
+'''
+
+[[edit]]
+entry = "ref/arc-unchained-summoner/twinned-summoner"
+anchor = "twin-summoner"
+note = "the script's text with the paragraph joined: print wraps this paragraph around the sidebar of the Twinned Eidolon subtype, and the shifted lines made the extraction start a new paragraph at \"This duration\" (Legacy of the First World p. 18)"
+text = '''
+At 16th level, a twinned summoner can touch his eidolon as a standard action, enhancing its similarity to the summoner. The eidolon loses any natural weapons or size increases gained from evolutions, and its Intelligence, Wisdom, and Charisma scores change to match the base scores of the summoner. The eidolon can cast any of the summoner's spells known using the summoner's caster level and spell slots. It doesn't gain the benefit of any of the summoner's items, feats, or other effects that affect spellcasting. The eidolon can keep this form for a number of minutes per day equal to the summoner's class level. This duration does not need to be consecutive, but it must be spent in 1-minute increments. The summoner can end this effect as a free action.
+
+This ability replaces the merge forms class feature.
+'''
+
+[[edit]]
+entry = "ref/arc-witch/seducer"
+anchor = "patron"
+note = "the script's text with the printed citations \"(Pathfinder Player Companion: Heroes of the Wild 11)\" and \"(Heroes of the Wild 13)\" dropped after the linked patrons plant and thorns (ruling 26)"
+text = '''
+A seducer must select [deception](ref/patron/deception), [enchantment](ref/patron/enchantment), [plant](ref/patron/plant), [thorns](ref/patron/thorns), or [trickery](ref/patron/trickery) as her patron.
+'''
+
+[[add]]
+entry = "ref/arc-summoner/twinned-summoner"
+anchor = "one-point-evolution"
+head = "1-Point Evolution"
+parent = "twinned-eidolon-evolutions"
+after = "twinned-eidolon-evolutions"
+note = "printed head of the Evolutions section (Legacy of the First World p. 19)"
+text = '''
+The following evolution costs 1 point from the eidolon's evolution pool.
+'''
+
+[[add]]
+entry = "ref/arc-summoner/twinned-summoner"
+anchor = "two-point-evolutions"
+head = "2-Point Evolutions"
+parent = "twinned-eidolon-evolutions"
+after = "shared-evolution"
+note = "printed head of the Evolutions section (Legacy of the First World p. 19)"
+text = '''
+The following evolutions cost 2 points from the eidolon's evolution pool.
+'''

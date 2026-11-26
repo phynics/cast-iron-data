@@ -16,10 +16,15 @@ page = "24"
 
 [fields]
 kind = "archetype"
+features = [
+  { anchor = "bestow-hope", level = 1 },
+  { anchor = "holy-fount", level = 11 },
+  { anchor = "champion-of-life", level = 20 },
+]
 trades = [
-  { replaces = "Smite evil", feature = "smite-evil" },
-  { replaces = "Aura of justice", feature = "aura-of-justice" },
-  { replaces = "Holy champion", feature = "holy-champion" },
+  { replaces = "Smite evil", feature = "smite-evil", by = ["bestow-hope"] },
+  { replaces = "Aura of justice", feature = "aura-of-justice", by = ["holy-fount"] },
+  { replaces = "Holy champion", feature = "holy-champion", by = ["champion-of-life"] },
 ]
 +++
 
@@ -28,74 +33,54 @@ the best way to combat evil is by bolstering the health and spirits of those who
 them. They play vital roles and often command troops among martial faiths, such as those of
 [Iomedae](ref/faith/iomedae) and [Torag](ref/faith/torag).
 
-**Bestow Hope (Su)**
+## Bestow Hope (Su) {#bestow-hope}
 
-**Action:** Ability
+Beginning at 1st level, an invigorator is a champion of her faith who can call upon her deity's holy
+power to bathe battling allies in protective energy. As a swift action during combat, the
+invigorator can choose a number of nonevil allies within sight equal to her Charisma modifier upon
+whom to bestow hope. Once activated, bestow hope grants the invigorator and these allies DR 1/—
+until the combat ends, at which point the [damage reduction](ref/rule/damage-reduction) immediately
+ends.
 
-**At 20th Level:** The invigorator may choose a number of nonevil allies equal to her Charisma
-modifier + 2.
+During a battle, the invigorator can change the allies this ability affects as a swift action.
+Ending it is a free action, but each time it is activated during a single combat, another use of the
+ability is expended. The invigorator can use this ability a number of times per day equal to 3 + her
+Charisma modifier.
 
-**At 7th Level:** The invigorator may choose a number of nonevil allies equal to her Charisma
-modifier + 1.
+The invigorator must participate in the combat to use this ability. If she is frightened, panicked,
+paralyzed, stunned, unconscious, or otherwise prevented from participating in the combat, any DR
+this ability bestows is temporarily suspended until she can participate in the combat again; this
+doesn't count as ending the ability.
 
-**Gained:** At 1st Level
+At 4th level, and at every 3 paladin levels thereafter, the DR this ability grants increases by 1,
+to a maximum of DR 7/— at 19th level.
 
-**Replaces:** Smite evil
+The DR this ability grants does not stack with the DR the invigorator receives from aura of
+righteousness or holy champion. However, at both 7th level and 20th level, an invigorator can choose
+to bestow hope upon an additional ally, for a total number of allies equal to 2 + the invigorator's
+Charisma modifier at 20th level.
 
-**Special:** The DR this ability grants does not stack with the DR the invigorator receives from
-_aura of righteousness_ or _holy champion._
+This ability replaces smite evil.
 
-**Usage:** Charisma3 modifier times/day
+## Holy Fount (Su) {#holy-fount}
 
-At 4th level: The DR 2/-.
-
-At 7th level: The DR 3/-.
-
-At 10th level: The DR 4/-.
-
-At 13th level: The DR 5/-.
-
-At 16th level: The DR 6/-.
-
-At 19th level: The DR 7/-.
-
-An invigorator is a champion of her faith who can call upon her deity's holy power to bathe battling
-allies in protective energy. As a **swift action** during combat, the invigorator can choose a
-number of nonevil allies within sight equal to her Charisma modifier upon whom to _bestow hope._
-Once activated, _bestow hope_ grants the invigorator and these allies DR 1/- until the combat ends,
-at which point the [damage reduction](ref/rule/damage-reduction) immediately ends.
-
-During a battle, the invigorator can change the allies this ability affects as a **swift action**.
-Ending it is a **free action**, but each time it is activated during a single combat, another use of
-the ability is expended. The invigorator must participate in the combat to use this ability. If she
-is frightened, panicked, paralyzed, stunned, unconscious, or otherwise prevented from participating
-in the combat, any DR this ability bestows is temporarily suspended until she can participate in the
-combat again; this doesn't count as ending the ability.
-
-**Holy Fount (Su)**
-
-**Free:** An invigorator can expend two uses of _bestow hope_ to radiate healing energies to bolster
-her nearby allies. For a number of rounds equal to 1/2 the invigorator's paladin level, the
+At 11th level, an invigorator can expend two uses of bestow hope to radiate healing energies to
+bolster her nearby allies. For a number of rounds equal to 1/2 the invigorator's paladin level, the
 invigorator and all nonevil allies within a 10-foot radius of her gain
-[fast healing](ref/umr/fast-healing) 10.
+[fast healing](ref/umr/fast-healing) 10. This ability is an aura centered on the invigorator; allies
+must be within the aura at the beginning of their turns to benefit from the
+[fast healing](ref/umr/fast-healing). Using this ability is a free action.
 
-**Gained:** At 11th Level
+This ability replaces aura of justice.
 
-**Replaces:** Aura of justice
+## Champion of Life (Sp) {#champion-of-life}
 
-**Special:** This ability is an aura centered on the invigorator; allies must be within the aura at
-the beginning of their turns to benefit from the [fast healing](ref/umr/fast-healing).
-
-**Champion of Life (Sp)**
-
-**Flavor:** An invigorator's holy resolve can sometimes overcome death - or smite the horror that is
-undeath.
-
-**Gained:** At 20th Level
-
-**Replaces:** Holy champion
-
-**Standard:** Three per day, an invigorator can use [breath of life](ref/spell/breath-of-life) as a
+An invigorator's holy resolve can sometimes overcome death—or smite the horror that is undeath. At
+20th level, three times per day as a standard action, an invigorator can use
+_[breath of life](ref/spell/breath-of-life)_ as a
 [spell-like ability](ref/umr/spell-like-abilities), using her paladin level as her caster level.
+
 Creatures brought back to life with this ability do not suffer the normal temporary negative level
 the spell imposes.
+
+This ability replaces holy champion.

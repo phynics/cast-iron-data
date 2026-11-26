@@ -20,7 +20,7 @@ features = [
   { anchor = "bonded-mask", level = 1 },
   { anchor = "magaambya-trained", level = 1 },
   { anchor = "peacekeeper", level = 1 },
-  { anchor = "spontaneous-casting" },
+  { anchor = "spontaneous-casting", level = 1 },
   { anchor = "natural-arcana", level = 4 },
   { anchor = "resist-fiendish-influence", level = 4 },
   { anchor = "embody-mask", level = 13 },

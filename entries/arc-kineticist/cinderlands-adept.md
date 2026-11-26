@@ -16,56 +16,57 @@ page = "28"
 
 [fields]
 kind = "archetype"
+features = [
+  { anchor = "fire-focus", level = 1 },
+  { anchor = "galloping-siphon", level = 1 },
+  { anchor = "mount", level = 4 },
+]
 trades = [
-  { replaces = "Infusion gained at 1st level", feature = "infusion", levels = [1] },
-  { replaces = "Utility wild talents gained at 4th, 8th, and 12th levels", feature = "wild-talents", levels = [4, 8, 12] },
-  { alters = "Elemental focus", feature = "elemental-focus" },
-  { alters = "expanded element", feature = "expanded-element" },
-  { alters = "Gather power", feature = "gather-power" },
+  { replaces = "Infusion gained at 1st level", feature = "infusion", levels = [1], by = ["galloping-siphon"] },
+  { replaces = "Utility wild talents gained at 4th, 8th, and 12th levels", feature = "wild-talents", levels = [4, 8, 12], by = ["mount"] },
+  { alters = "Elemental focus", feature = "elemental-focus", by = ["fire-focus"] },
+  { alters = "expanded element", feature = "expanded-element", by = ["fire-focus"] },
+  { alters = "Gather power", feature = "gather-power", by = ["galloping-siphon"] },
+  { alters = "Class skills" },
 ]
 +++
 
 Among the Sun Clan's most noted champions are those who can tame the flames and bend them to their
 will. These kineticists are skilled riders, able to wield both weapons and fire with deadly skill.
 
-**Gained class skills:** ha, ride
+## Class Skills {#class-skills}
 
-**Lost class skills:** stl, umd
+A Cinderlands adept gains Handle Animal and Ride as class skills, but does not gain Stealth and Use
+Magic Device as class skills.
 
-**Fire Focus (Su)**
+This alters the kineticist's class skills.
 
-**Alters:** Elemental focus, expanded element
+## Fire Focus (Su) {#fire-focus}
 
-**Info:** When a Cinderlands adept gains _elemental focus,_ she must select fire (pyrokinesis) as
-her chosen [element](ref/ability/elements). When she gains the _expanded element_ class feature at
-7th and 15th levels, she must select her primary element of fire and does not learn to use a new
-element.
+When a Cinderlands adept gains elemental focus, she must select fire (pyrokinesis) as her chosen
+[element](ref/ability/elements). When she gains the expanded element class feature at 7th and 15th
+levels, she must select her primary element of fire and does not learn to use a new element.
 
-**Galloping Siphon (Su)**
+This alters elemental focus and expanded element.
 
-**Ability:** A Cinderlands adept gains [Mounted Combat](ref/feat/mounted-combat) as a bonus feat and
-a bonus on [concentration](ref/rule/concentration) checks due to riding. This bonus is equal to 1 +
-one-fourth of her kineticist level.
+## Galloping Siphon (Su) {#galloping-siphon}
 
-**Alters:** Gather power
-
-**At 11th Level:** The resistance granted increases to fire resistance 10.
-
-**Passive:** When a Cinderlands adept _gathers power_ while mounted, she and her mount gain fire
+When a Cinderlands adept gathers power while mounted, she and her mount gain fire
 [resistance](ref/umr/resistance) 5 for a number of rounds equal to the total value of the burn cost
-she reduces. The Cinderlands adept and her mount lose this resistance if she dismounts before the
-duration ends.
+she reduces. This resistance increases to fire resistance 10 at 11th level. The Cinderlands adept
+and her mount lose this resistance if she dismounts before the duration ends. In addition, a
+Cinderlands adept gains [Mounted Combat](ref/feat/mounted-combat) as a bonus feat and a +1 bonus on
+[concentration](ref/rule/concentration) checks due to riding. This bonus increases by +1 at 4th
+level and every 4 levels thereafter (up to a maximum of +6 at 20th level).
 
-**Replaces:** Infusion gained at 1st level
+This alters gather power and replaces the infusion gained at 1st level.
 
-**Mount**
+## Mount {#mount}
 
-**Ability:** A Cinderlands adept gains a loyal mount. This ability functions like the
+At 4th level, a Cinderlands adept gains a loyal mount. This ability functions like the
 [druid's](ref/class/druid) [animal companion](ref/sidekick/animal-companion) ability (as described
-in the _nature bond_ class feature), except that the Cinderlands adept always gains a
+in the nature bond class feature), except that the Cinderlands adept always gains a
 [horse](ref/companion/horse) or [pony](ref/companion/pony) (though she can gain additional options
-at the GM's discretion) and her effective druid level is equal to her cinterlands adept level - 3.
+at the GM's discretion) and her effective druid level is equal to her burn rider level -3.
 
-**Gained:** At 4th Level
-
-**Replaces:** Utility wild talents gained at 4th, 8th, and 12th levels
+This replaces the utility wild talents gained at 4th, 8th, and 12th levels.
