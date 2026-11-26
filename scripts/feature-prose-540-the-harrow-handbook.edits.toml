@@ -1,7 +1,7 @@
 [[edit]]
 entry = "ref/arc-inquisitor/suit-seeker"
 anchor = "improvised-array"
-note = "hand-written from print (The Harrow Handbook pp. 22-23): the table of suits, judgments and abilities stands in the paragraph, and the text layer runs its rows into the sentence; the table is the printed table (no title), set between the paragraph and the sentence that follows it, as print sets it."
+note = "hand-written from print (The Harrow Handbook pp. 22-23): the table of suits, judgments and abilities stands in the paragraph, and the text layer runs its rows into the sentence; the table is the printed table (no title), set between the paragraph and the sentence that follows it, as print sets it. The closing sentence of the ability (\"This ability modifies judgment, second judgment, and third judgment.\"), which print sets after Smiting and Resiliency, ends the text here (decision tail-to of Resiliency)."
 text = '''
 The suit seeker can call upon the harrow to help her choose an appropriate judgment and bolster her effectiveness with that judgment. As part of activating her judgment ability, the suit seeker can draw an impromptu array of two cards from a complete [harrow deck](ref/eq-misc/harrow-deck) she owns. Once drawn, the array remains the same until the judgment effect ends, though the inquisitor can change her judgment at any time as a swift action, as normal. The act of drawing an improvised array requires a free hand, though the suit seeker can keep a drawn array in her belt or otherwise on her person to perform actions with both hands while still maintaining the cards' benefits.
 
@@ -19,6 +19,8 @@ In addition to increasing her effective inquisitor level for the purpose of the 
 |Stars|Healing|Wisdom|
 
 A suit seeker does not gain access to and cannot use the justice, resistance, or purity judgments. A suit seeker makes the following adjustments to her judgments.
+
+This ability modifies judgment, second judgment, and third judgment.
 '''
 
 [[edit]]

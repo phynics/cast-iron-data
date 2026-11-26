@@ -17,7 +17,7 @@ anchor = "arcane-pool-focus"
 head = "Arcane Pool Focus (Su)"
 listed = true
 level = 1
-print = "A card caster's arcane pool can be used to augment only ranged weapons. At 5th level, a card caster can use his arcane pool to add the following weapon special abilities to ranged weapons: _[brilliant energy](ref/magic-enh/brilliant-energy), [distance](ref/magic-enh/distance), [flaming](ref/magic-enh/flaming), [flaming burst](ref/magic-enh/flaming-burst), [frost](ref/magic-enh/frost), [icy burst](ref/magic-enh/icy-burst), [returning](ref/magic-enh/returning), [seeking](ref/magic-enh/seeking), [shock](ref/magic-enh/shock), [shocking burst](ref/magic-enh/shocking-burst), and [speed](ref/magic-enh/speed)_. He can use his arcane pool to augment an entire [harrow deck](ref/eq-misc/harrow-deck) as if it were ammunition. All cards from a deck enhanced with a special ability, such as _flaming_, must share the same bonus. This ability modifies arcane pool."
+print = "A card caster's arcane pool can be used to augment only ranged weapons. At 5th level, a card caster can use his arcane pool to add the following weapon special abilities to ranged weapons: _brilliant energy, distance, flaming, flaming burst, frost, icy burst, returning, seeking, shock, shocking burst, and speed_. He can use his arcane pool to augment an entire [harrow deck](ref/eq-misc/harrow-deck) as if it were ammunition. All cards from a deck enhanced with a special ability, such as _[flaming](ref/magic-enh/flaming)_, must share the same bonus. This ability modifies arcane pool."
 import_trades = ["Arcane pool"]
 
 [[entry.feature]]

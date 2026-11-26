@@ -725,7 +725,7 @@ FONT_EL = re.compile(r'<fontspec id="(\d+)" size="(\d+)" family="([^"]*)" color=
 TAG_SPLIT = re.compile(r"(</?[bi]>)")
 BODY_TOP = (88, 1075)
 BODY_BOTTOM_FORCE = [0]
-BODY_BOTTOM_BOOKS = {"dungeoneers-handbook": 1110, "the-harrow-handbook": 1110}      # the body runs to 1089 and the folios are not in the text layer (Dungeoneer's Handbook)
+BODY_BOTTOM_BOOKS = {"dungeoneers-handbook": 1110, "the-harrow-handbook": 1110, "technology-guide": 1110, "animal-archive": 1110}      # the body runs to 1089 and the folios are not in the text layer (Dungeoneer's Handbook)
 PAGE_SKIP: list[tuple[int, int]] = []     # printed pages (first, last) that hold other text than the archetypes (Legacy of Dragons pp. 16-23 and from 26)
 CHAPTER_END = [0]              # the last printed page of the chapter of archetypes, where the book sets other text on the next page (0: none)
 PAGE_OFFSET = [1]              # printed page = PDF page - this, when the page's folio is not in the text layer (Inner Sea Combat: 2)
@@ -900,8 +900,11 @@ def load_book(xml_path: Path) -> Book:
 PAGE_GEOMETRY = {"on": False}
 ITALIC_JOIN = {"on": False}     # two italic runs with a plain blank between them are one italic span (Aquatic Adventures, Heroes of the Streets, Antihero's Handbook, Blood of the Sea)
 SKIP_FAMILY = {"fam": ""}
+SKIP_BANNERS: dict = {"pages": {}}      # page -> (first, last) top of the name banner (Pathfinder Society Field Guide)
+PFSFG_BANNERS = {28: (605, 630), 30: (585, 610), 32: (575, 600)}
 PAREN_SNAP = {"on": False}      # Dungeoneer's Handbook and Animal Archive set their parentheses in a face of their own, off the baseline
 TAB_LEFT = {"min": 0, "title": 16}      # Aquatic Adventures: a tab left of which the text stands; its titles are set in 15-point small capitals (the body is 13)
+OUTER_TAB_REACH = {"at": 340}      # how far right of the left edge of the right column the text can start (Technology Guide: 330, the page carries a chapter tab with stray glyphs at 786 to 880)
 OUTER_TAB = {"on": False}       # the tab in the outer margin is large type (Construct Handbook): anything beyond the columns goes
 
 
@@ -938,6 +941,9 @@ def page_lines(book: Book, num: int) -> list[dict]:
             snapped.append((top, left, font, raw, width))
         parts = snapped
     for top, left, font, raw, width in parts:
+        window = SKIP_BANNERS["pages"].get(num)
+        if window and window[0] <= top <= window[1] and "SC700" in book.fams.get(str(font), ""):
+            continue        # the name banner of a Pathfinder Society master ("Kreighton Shaine", in the title face) that the art puts in the middle of the text: its letters are no title and no text
         if SKIP_FAMILY["fam"] and SKIP_FAMILY["fam"] in book.fams.get(str(font), "") and book.fonts[str(font)] <= 13:
             continue        # the cells of a table in the face that the book sets its tables in (Heroes of Golarion: "Dax"): a table that stands at the foot of the page across both columns is no text of the archetype
         if SKIP_TABLES["on"] and str(font) in book.sans and book.fonts[str(font)] <= 13:
@@ -946,7 +952,7 @@ def page_lines(book: Book, num: int) -> list[dict]:
             continue        # the chapter tab in the outer margin ("AVENUES OF INTRIGUE" in small bold capitals, Inner Sea Intrigue)
         if TAB_LEFT["min"] and left > TAB_LEFT["min"] and "ArgusExtraBold" in book.fams.get(str(font), ""):
             continue        # the chapter tab of Aquatic Adventures (AQUATIC ADVENTURES / INTRO / ANTARKOS OCEAN ...) is set in 11-point Argus Extra Bold at the right edge; a column on a page with shifted margins reaches 800
-        if OUTER_TAB["on"] and (left > col_left[1] + 340 or left < col_left[0] - 30):
+        if OUTER_TAB["on"] and (left > col_left[1] + OUTER_TAB_REACH["at"] or left < col_left[0] - 30):
             continue        # the chapter tab of the Construct Handbook (INTRODUCTION / CRAFTING CONSTRUCTS / ARCHETYPES ...), set in 16-point type
         if MARGIN_CAPTIONS["on"] and left < col_left[0] - 20 and book.fonts[str(font)] >= 16:
             continue        # the caption of an illustration, set in the margin beside the column (Inner Sea Magic: "Crypt Breaker" in large type)
@@ -1183,7 +1189,7 @@ def _assemble(book: Book, items: list[tuple[int, list[dict]]]) -> list[Para]:
 
 
 STYLE_HEAD = re.compile(
-    r"^\s*((?:[A-Z0-9][\w'’!-]*)(?:\s+(?:[A-Z0-9][\w'’!-]*|of|the|and|in|to|for|a|on|with|from|by|or|an|de|as)){0,7}"
+    r"^\s*((?:[A-Z0-9][\w'’!-]*,?)(?:\s+(?:[A-Z0-9][\w'’!-]*,?|of|the|and|in|to|for|a|on|with|from|by|or|an|de|as)){0,7}"
     r"(?:\s*\((?:Ex|Su|Sp)(?:,\s*(?:Ex|Su|Sp))*\))?)\s*(?::(?=\s|$)|(?<=\))(?=\s+[A-Z]))")
 
 
@@ -1272,6 +1278,17 @@ MC_OCR_ITALICS: list = [
     re.compile(r"Unlike (?P<i>polymorph any object),"),
 ]
 # The OCR books of the layout pass (batch of 2026-11-27): each has its own repairs (phrases, joined-text repairs, italics), read from its page images
+AA_OCR: tuple = ([
+    (re.compile(r"(?<=[a-z])Ar[cG]\b"), ""),                                  # the superscript mark of a book ("beast totemAPG", read "Arc", "ArG") is no text
+    (re.compile(r"\bLe9erdemain\b"), "Legerdemain"), (re.compile(r"\bmd, 6th\b"), "2nd, 6th"), (re.compile(r"\b19tli\b"), "19th"), (re.compile(r"\b2 0th\b"), "20th"),
+], [], [])           # Animal Archive
+TG_OCR: tuple = ([
+    (re.compile(r"^Class skills:"), "Class Skills:"), (re.compile(r"\{(?=Su\))"), "("), (re.compile(r"\bweater make whole\b"), "greater make whole"),
+    (re.compile(r"\bofbludgeoning\b"), "of bludgeoning"), (re.compile(r"\bofbeneficial\b"), "of beneficial"), (re.compile(r"\bofkeeping\b"), "of keeping"),
+    (re.compile(r"\bweapon training L\b\.?"), "weapon training 1."), (re.compile(r"\bover 100 as loo\b"), "over 100 as 100"),
+], [], [
+    re.compile(r"cast (?P<i>make whole) and (?P<j>greater make whole) in place of (?P<k>cure/ ?inflict moderate wounds) and (?P<l>cure/ ?inflict critical wounds)"),
+])           # Technology Guide
 HH_OCR: tuple = ([
     (re.compile(r"Smitin9"), "Smiting"), (re.compile(r"ali9nment"), "alignment"),
     (re.compile(r"\b(flamin|returnin|seekin|shockin)IJ\b"), lambda m: m.group(1) + "g"), (re.compile(r"\bretumin,g\b"), "returning"), (re.compile(r"\bener,gy\b"), "energy"),
@@ -1296,7 +1313,7 @@ DH_OCR: tuple = ([
     re.compile(r"benefits of (?P<i>spider climb) for 1 round"), re.compile(r"as if using the spell (?P<i>passwall) with"), re.compile(r"per the spell (?P<i>earthquake),"),
     re.compile(r"the qualities (?P<i>Trigger): location and (?P<j>Reset): none"),
 ])         # Dungeoneer's Handbook
-OCR_SETS: dict = {"monster-codex": (MC_OCR_PHRASES, MC_OCR_JOINED, MC_OCR_ITALICS), "dungeoneers-handbook": DH_OCR, "the-harrow-handbook": HH_OCR}
+OCR_SETS: dict = {"monster-codex": (MC_OCR_PHRASES, MC_OCR_JOINED, MC_OCR_ITALICS), "dungeoneers-handbook": DH_OCR, "the-harrow-handbook": HH_OCR, "technology-guide": TG_OCR, "animal-archive": AA_OCR}
 OCR_TITLES = {"on": False}      # the title of an archetype may be followed by a mangled class and "Archetype" (Dungeoneer's Handbook)
 TITLE_CONTAINS = {"on": False}  # Heroes of Golarion: the decorative chapter title and the title of the archetype stand on one line ("ofTHeorld SPEAKER OF THE PALATINE EYE (BARD ARCHETYPE)")
 OCR_GLUE = {"on": False}        # a word that the layer glued to "of" or "if" ("ofher", "ifthe") is split
@@ -1416,6 +1433,10 @@ CHAPTER_SECTION_TITLE = re.compile(r"(?i)(?:^|\s)(?:traits?|spells?|feats?|runes
 CHAPTER_SECTION_SQUASHED = re.compile(r"(?:stylestrikes|unarmedmastery|improvisedstyle|improvisedfeats|newstyles|archetypes)$")
 
 
+# The start of a title that the layer reads too badly for `ocr_title_close` (Technology Guide p. 12: "[ybl!r\u00b7Soldil!r [Fightl!r nr\ufffdh1!typ1!]" for "Cyber-Soldier (Fighter Archetype)"), squashed.
+OCR_TITLE_ALIASES = {"cybersoldier": "yblrsoldilr", "maddog": "maodoc"}
+
+
 def ocr_title_close(seen: str, key: str) -> bool:
     """The start of an OCR title against the title of the entry: the layer reads a letter for another ("CARO CA STER" for "Card Caster", "SU1T" for "Suit"), so up to a fifth of the letters may differ."""
     import difflib
@@ -1437,6 +1458,7 @@ def find_section(blocks: list[Para], title: str, stops: set[str] | None = None) 
         if b.kind == "title" and (sp in (key, key + "archetype") or squash(CLASS_SUFFIX.sub("", b.plain())) == key
                                   or (sp.startswith(key) and sp[len(key):] in CLASS_REMAINDERS) or (
                 sp.startswith(key) and sp.endswith("archetype") and len(sp) <= len(key) + len("archetype") + 24)
+                                  or (OCR["on"] and OCR_TITLES["on"] and sp.startswith(OCR_TITLE_ALIASES.get(key, "\0")))
                                   or (OCR["on"] and OCR_TITLES["on"] and sp.startswith(key) and len(sp) <= len(key) + 26)
                                   or (OCR["on"] and OCR_TITLES["on"] and len(key) >= 8 and len(sp) <= len(key) + 26 and ocr_title_close(sp[:len(key)], key))
                                   or (TITLE_CONTAINS["on"] and key in sp and sp.endswith("archetype") and len(sp) <= len(key) + len("archetype") + 70)):     # a chapter title or a box title run into the line of the title      # an OCR title: "TERRA- COTTA MoNK (MoNK AACHETYPE)"
@@ -1456,7 +1478,9 @@ def find_section(blocks: list[Para], title: str, stops: set[str] | None = None) 
                             or CLASS_SUFFIX.search(nxt.plain()) or k == "newracialrules" or (TYPE_TITLE.search(nxt.plain()) and k not in KEEP_TITLES)
                             or (SECTION_STOPS["on"] and SECTION_STOP.match(re.sub(r"\s+", " ", nxt.plain()).strip()))):
                         out.end = nxt.plain().strip()
-                        out.end_known = not (any_ends and stops is not None and k not in stops and not k.endswith(("archetype", "mystery", "bloodline"))
+                        ocr_stop = OCR["on"] and OCR_TITLES["on"] and stops is not None and any(
+                            len(t) >= 8 and (ocr_title_close(k[:len(t)], t) or k.startswith(next((a for c, a in OCR_TITLE_ALIASES.items() if c == t), "\0"))) for t in stops)
+                        out.end_known = ocr_stop or not (any_ends and stops is not None and k not in stops and not k.endswith(("archetype", "mystery", "bloodline"))
                                              and nxt.size < 30 and not CLASS_SUFFIX.search(nxt.plain()) and k != "newracialrules"
                                              and not TYPE_TITLE.search(nxt.plain()) and not CHAPTER_SECTION_TITLE.search(re.sub(r"\s+", " ", nxt.plain()).strip()) and not CHAPTER_SECTION_SQUASHED.search(k)
                                              and not MC_TITLES["on"])     # Monster Codex: every title (two faces of their own) is a section of the chapter
@@ -3260,9 +3284,15 @@ def dagger_key_printed(pfeats: list[PrintFeature], opening: list[list] | None = 
     return False
 
 
-def marks_key_printed(pfeats: list[PrintFeature], vocab: set[str]) -> bool:
+def marks_key_printed(pfeats: list[PrintFeature], vocab: set[str], opening: list[list] | None = None) -> bool:
     """Whether the printed section holds a key of its asterisks (a sentence that names the asterisk and is not the
-    book's "An asterisk (*) indicates ..." line): then its marks stay (owner ruling 10)."""
+    book's "An asterisk (*) indicates ..." line): then its marks stay (owner ruling 10). The opening counts: the White-Haired Witch
+    says "Rogue talents and advanced rogue talents marked with an asterisk (*) can be found in the Pathfinder RPG Advanced Player's Guide"
+    in its first paragraph (Dragon Empires Primer p. 23)."""
+    for runs in (opening or []):
+        t = finish_text(clean_runs(runs), vocab)
+        if re.search(r"\basterisks?\b", t, re.I):
+            return True
     for pf in pfeats:
         for runs in pf.paras:
             t = finish_text(clean_runs(runs), vocab)
@@ -3329,7 +3359,7 @@ def compare_entry(e: Entry, section: list[Para], book: Book) -> dict:
             if idx is not None:
                 used.add(idx)
                 matched[n] = idx
-    keep = marks_key_printed(pfeats, vocab)
+    keep = marks_key_printed(pfeats, vocab, opening_print)
     DAGGER_KEEP["on"] = dagger_key_printed(pfeats, opening_print)
     problems: list[str] = []
     lost_heads = [feats[i].name for i in range(len(feats)) if i not in used]
@@ -3841,6 +3871,7 @@ TRADE_LEVELS = {
 # the op that print says. Reanimator (Ultimate Magic p. 20): "functions as and replaces the standard alchemist
 # bomb class feature", stored as `alters`.
 TRADE_OP_FIXES = {
+    ("ref/arc-bard/lotus-geisha", "Weapon proficiencies"): "replaces",     # print: "This replaces the normal bard weapon proficiencies." (Dragon Empires Primer p. 22)
     ("ref/arc-witch/gravewalker", "Patron spells"): "replaces",     # print: "This replaces the patron spells."
     ("ref/arc-druid/rot-warden", "Wild shape"): "alters",       # Opus review of batch 4: "This alters wild shape."
     ("ref/arc-alchemist/reanimator", "Bombs"): "replaces",
@@ -4675,9 +4706,9 @@ PLAYER_COMPANIONS = ("blood-of-the-ancients", "wilderness-origins", "legacy-of-t
 
 # The Player Companions that set their archetype titles in small capitals (a capital and its small capitals 5 units apart), and whose
 # archetypes are followed by sections of the chapter of their own (feats, techniques, spells): any title ends the section of an archetype.
-SMALL_CAP_BOOKS = ("blood-of-the-ancients", "blood-of-the-beast", "heroes-of-the-high-court", "martial-arts-handbook", "magic-tactics-toolbox", "potions-and-poisons", "heroes-from-the-fringe", "haunted-heroes-handbook", "antiheros-handbook", "blood-of-the-sea", "aquatic-adventures", "legacy-of-dragons", "plane-hoppers-handbook", "dirty-tactics-toolbox", "weapon-masters-handbook", "melee-tactics-toolbox", "pathfinder-society-field-guide")
+SMALL_CAP_BOOKS = ("blood-of-the-ancients", "blood-of-the-beast", "heroes-of-the-high-court", "martial-arts-handbook", "magic-tactics-toolbox", "potions-and-poisons", "heroes-from-the-fringe", "haunted-heroes-handbook", "antiheros-handbook", "blood-of-the-sea", "aquatic-adventures", "legacy-of-dragons", "plane-hoppers-handbook", "dirty-tactics-toolbox", "weapon-masters-handbook", "melee-tactics-toolbox", "pathfinder-society-field-guide", "dragon-empires-primer")
 # ... and of these, the ones whose chapter titles or capitals stand above the usual top of the body (Blood of the Ancients keeps 88)
-HIGH_TITLE_BOOKS = ("dungeoneers-handbook", "the-harrow-handbook", "blood-of-the-beast", "heroes-of-the-high-court", "martial-arts-handbook", "magic-tactics-toolbox", "haunted-heroes-handbook", "familiar-folio", "advanced-class-origins", "dirty-tactics-toolbox", "weapon-masters-handbook", "melee-tactics-toolbox")
+HIGH_TITLE_BOOKS = ("dungeoneers-handbook", "the-harrow-handbook", "animal-archive", "blood-of-the-beast", "heroes-of-the-high-court", "martial-arts-handbook", "magic-tactics-toolbox", "haunted-heroes-handbook", "familiar-folio", "advanced-class-origins", "dirty-tactics-toolbox", "weapon-masters-handbook", "melee-tactics-toolbox")
 
 # ---- Potions & Poisons, Construct Handbook, Magic Tactics Toolbox, Haunted Heroes Handbook, Heroes from the Fringe (one block of tables) ----
 MISPRINTS.extend([
@@ -4742,6 +4773,45 @@ TRADE_RENAMES.update({
 })
 # ---- Heroes of Golarion, Dungeoneer's Handbook, The Harrow Handbook, Pathfinder Society Field Guide, Technology Guide, Animal Archive, Dragon Empires Primer (layout pass of 2026-11-27) ----
 LEVEL_FROM_PRINT[("ref/arc-bard/speaker-of-the-palatine-eye", "spells")] = (1, "ruling 50: alters the bard's spells (the whole spellcasting, a 1st-level class feature)")
+# Pathfinder Society Field Guide: Seeker and Scroll Scholar print their trades for each class in a sentence of its own ("For an oracle, this
+# ability replaces the revelation gained at 3rd level."), which the app does not read as a trade sentence; the feature prints no other trade
+# sentence, so `by` names it (owner ruling of 2026-11-24, #540: a trade whose `by` names a listed feature that prints no trade sentence is not drift)
+TRADE_PROSE_BY.update({
+    ("ref/arc-oracle/seeker", "Bonus skills from the oracle's mystery"): "tinkering",
+    ("ref/arc-oracle/seeker", "Revelation gained at 3rd level"): "seeker-lore",
+    ("ref/arc-oracle/seeker", "Revelation gained at 15th level"): "seeker-magic",
+    ("ref/arc-sorcerer/seeker", "Eschew Materials"): "tinkering",
+    ("ref/arc-sorcerer/seeker", "3rd-level bloodline power"): "seeker-lore",
+    ("ref/arc-sorcerer/seeker", "15th-level bloodline power"): "seeker-magic",
+    ("ref/arc-cleric/scroll-scholar", "One of the 1st-level granted powers from her domains - the character gets to choose which of her two 1st-level granted powers it replaces"): "diligent-student",
+    ("ref/arc-cleric/scroll-scholar", "Channel energy damage boost at 5th level"): "secrets-revealed",
+    ("ref/arc-wizard/scroll-scholar", "Diviner's fortune (if a diviner) or hand of the apprentice (if a universalist)"): "diligent-student",
+    ("ref/arc-wizard/scroll-scholar", "5th-level bonus feat"): "secrets-revealed",
+})
+SLOT_PHRASE = ("The normal addition of a new 4th-level spell slot to the character's spells per day\u2014from this point on, the cleric or wizard has one fewer "
+               "4th-level spell slot than other clerics or wizards")      # the whole phrase of the printed sentence names the trade (the checker reads the phrase to its end)
+# the import splits the wizard's slot trade at the dash of the printed sentence; one trade with the printed words (ruling 22), as the cleric's
+TRADE_RENAMES.update({
+    ("ref/arc-wizard/scroll-scholar", "The normal addition of a new 4th-level spell slot; from this point on"): SLOT_PHRASE,
+    ("ref/arc-cleric/scroll-scholar", "The normal addition of a new 4th-level spell slot to the character's spells per day"): SLOT_PHRASE,
+})
+TRADE_REMOVALS.setdefault("ref/arc-wizard/scroll-scholar", []).append(("replaces", "the wizard has one fewer 4th-level spell slot than other wizards"))
+LEVEL_FROM_PRINT[("ref/arc-rogue/carnivalist", "sneak-attack")] = (2, "print says \"A carnivalist gains this ability starting at 2nd level\" (Animal Archive p. 6): the archetype's sneak attack starts at 2nd level, not at the 1st level of the class table")
+LEVEL_FROM_PRINT[("ref/arc-rogue/carnivalist", "pet-performance")] = (2, "print says \"At 2nd level, she gains the distraction bardic performance\" (Animal Archive p. 6): the first performance is gained at 2nd level, the level of the first rogue talent it replaces")
+TRADE_RENAMES.update({
+    ("ref/arc-cavalier/huntmaster", "Cavalier bonus feats"): "A cavalier's standard bonus feats",      # "This ability replaces a cavalier's standard bonus feats." (ruling 22)
+    ("ref/arc-barbarian/mad-dog", "2nd, 6th, 10th, 14th, and 18th level rage powers"): "Rage powers gained at 2nd, 6th, 10th, 14th, and 18th level",      # "This ability replaces the rage powers gained at 2nd, 6th, 10th, 14th, and 18th level." (ruling 22)
+    ("ref/arc-rogue/scroll-scoundrel", "10th-level rogue talent"): "The scroll scoundrel's 10th-level rogue talent",      # "This ability replaces the scroll scoundrel's 10th-level rogue talent." (ruling 22)
+    ("ref/arc-witch/dimensional-occultist", "2nd-level hex"): "Hex gained at 2nd level",          # "This ability replaces the witch's hex gained at 2nd level." (ruling 22)
+    ("ref/arc-witch/dimensional-occultist", "8th-level hex"): "Hex gained at 8th level",
+    ("ref/arc-witch/dimensional-occultist", "12th-level hex"): "Hex gained at 12th level",
+})
+MISPRINTS.append(
+    ("ref/arc-barbarian/savage-technologist", "Sense Motive Wis),", "Sense Motive (Wis),",
+     "print has \"Sense Motive Wis)\" without the opening parenthesis (Technology Guide p. 13; owner ruling 9); the list also names Perception twice, as printed"))
+MISPRINTS.append(
+    ("ref/arc-fighter/lore-warden-pfs-field-guide", "negate a confirmation role for a critical hit", "negate a confirmation roll for a critical hit",
+     "print has \"role\" where \"roll\" belongs (Pathfinder Society Field Guide p. 31; owner ruling 9)"))
 # Blood of the Sea
 TRADE_RENAMES.update({
     ("ref/arc-oracle/oceans-echo", "Bonus skills from the oracle's mystery"): "Additional class skills from her mystery",
@@ -4829,19 +4899,21 @@ def configure_book(book: str) -> None:
     OCR["on"] = NO_STYLE["on"] = book == "inner-sea-combat" or book in OCR_SETS
     MC_TITLES["on"] = book == "monster-codex"
     SKIP_FAMILY["fam"] = "Dax" if book == "heroes-of-golarion" else ""
+    SKIP_BANNERS["pages"] = PFSFG_BANNERS if book == "pathfinder-society-field-guide" else {}
     PAREN_SNAP["on"] = book in ("dungeoneers-handbook", "animal-archive")
     ITALIC_JOIN["on"] = book in ("aquatic-adventures", "heroes-of-the-streets", "antiheros-handbook", "blood-of-the-sea")
     global OCR_PHRASES, OCR_JOINED, OCR_ITALICS
     OCR_PHRASES, OCR_JOINED, OCR_ITALICS = OCR_SETS.get(book, ISC_OCR)
     OCR_GLUE["on"] = book in OCR_SETS
-    OCR_TITLES["on"] = book in ("dungeoneers-handbook", "the-harrow-handbook")
+    OCR_TITLES["on"] = book in ("dungeoneers-handbook", "the-harrow-handbook", "technology-guide", "animal-archive")
     TITLE_CONTAINS["on"] = book == "heroes-of-golarion"
     ARCHETYPE_CAPS["on"] = book == "heroes-of-the-darklands"
     LIST_CONTINUES["on"] = book in ("potions-and-poisons", "black-markets")
     BULLETS["on"] = BULLETS["on"] or book in ("potions-and-poisons", "black-markets")           # the Toxin Codexer's Modify Toxin prints bullet lists (ruling 45, review of #342)
-    OUTER_TAB["on"] = book == "construct-handbook"
+    OUTER_TAB["on"] = book in ("construct-handbook", "technology-guide")
+    OUTER_TAB_REACH["at"] = 330 if book == "technology-guide" else 340
     TAB_LEFT["min"], TAB_LEFT["title"] = (780, 15) if book == "aquatic-adventures" else ((0, 15) if book in ("dungeoneers-handbook", "heroes-of-golarion") else (0, 16))
-    PAGE_GEOMETRY["on"] = book in ("inner-sea-magic", "inner-sea-intrigue", "inner-sea-combat", "construct-handbook", "aquatic-adventures", "distant-realms")
+    PAGE_GEOMETRY["on"] = book in ("inner-sea-magic", "inner-sea-intrigue", "inner-sea-combat", "construct-handbook", "aquatic-adventures", "distant-realms", "technology-guide")
     MARGIN_CAPTIONS["on"] = CAPTIONS["on"] = book in ("inner-sea-magic", "inner-sea-intrigue", "inner-sea-combat")
     BOX_TITLES["titles"] = frozenset(squash(t) for t in BOXES_OF_BOOK.get(book, ()))
     BOX_TO_END["on"] = book == "psychic-anthology"
@@ -4854,7 +4926,7 @@ def configure_book(book: str) -> None:
     ART_INDENT["on"] = book in ("dirty-tactics-toolbox", "melee-tactics-toolbox", "villain-codex")
     ART_RUNS["on"] = book in ("black-markets", "blood-of-shadows")
     SECTION_STOPS["on"] = book in ("adventurers-guide", "ultimate-wilderness", "horror-adventures", "planar-adventures")
-    ANY_TITLE_ENDS["on"] = book in SMALL_CAP_BOOKS or book in PLAYER_COMPANIONS or book in ("monster-codex", "advanced-class-origins", "black-markets", "blood-of-shadows", "dungeoneers-handbook", "heroes-of-golarion", "the-harrow-handbook")
+    ANY_TITLE_ENDS["on"] = book in SMALL_CAP_BOOKS or book in PLAYER_COMPANIONS or book in ("monster-codex", "advanced-class-origins", "black-markets", "blood-of-shadows", "dungeoneers-handbook", "heroes-of-golarion", "the-harrow-handbook", "technology-guide", "animal-archive")
     STAYS_EXTRA["set"] = frozenset({"discoveries"}) if book == "blood-of-shadows" else frozenset()
     SMALL_CAP_TITLES["on"] = book in SMALL_CAP_BOOKS or book in PLAYER_COMPANIONS
     CHAPTER_TITLES["on"] = book in PLAYER_COMPANIONS and book != "blood-of-the-ancients"
@@ -5336,7 +5408,9 @@ def printed_trade_sentences(section: list) -> list[str]:
 
 # A printed trade sentence that print leaves without its period, so that it runs into the head of the next ability: the sentence ends where the
 # head begins (Honor Guard, Ultimate Combat p. 37: "This modifies the challenge ability" and then "Intercept (Ex):")
-SENTENCE_TRIMS = {"ref/arc-cavalier/honor-guard": "This modifies the challenge ability"}
+SENTENCE_TRIMS = {"ref/arc-cavalier/honor-guard": "This modifies the challenge ability",
+                  "ref/arc-spiritualist/plague-eater": "This ability replaces see invisibility"}      # print has no period after "see invisibility" (Heroes of Golarion p. 12); the next head follows
+SENTENCE_SKIP = {"ref/arc-magus/card-caster"}      # not converted (the checker reads "replaces and modifies spellstrike" as one phrase): the entry keeps the import's rows until a ruling
 
 
 def run_print_sentences(args) -> int:
@@ -5354,7 +5428,7 @@ def run_print_sentences(args) -> int:
     rows = []
     for e in entries:
         page = int(e.page) if e.page.isdigit() else None
-        if page is None:
+        if page is None or e.id in SENTENCE_SKIP:
             continue
         blocks = read_blocks(bk, max(1, page + PAGE_OFFSET[0] - 3), min(page + PAGE_OFFSET[0] + 4, max(bk.pages)))
         section = find_section(blocks, ptitle(e), stops)
