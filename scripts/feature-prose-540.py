@@ -1212,7 +1212,7 @@ def _covers(p: list[str], t: list[str]) -> bool:
 
 # ---- comparing the draft with print ------------------------------------------------------------------
 
-LOOSE_TRADE = re.compile(r"(?:^|(?<=[.!?]\s)|(?<=\n))(?:This|These|It)\b[^.]{0,60}?\b(?:replaces?|alters?|changes?|modif(?:y|ies))\b[^.]*\.", re.I)
+LOOSE_TRADE = re.compile(r"(?:^|(?<=[.!?]\s)|(?<=\n))(?:This|These|It)\b[^.]{0,60}?\b(?:replaces?|alters?|changes?|modifies)\b[^.]*\.", re.I)
 PROGRESSION = re.compile(r"(?:every|per)\s+\w+\s+(?:\w+\s+)?levels?(?:\s+(?:he|she|they|it|you)\s+(?:has|have))?\s+(?:beyond|after|above|thereafter)|every\s+\w+\s+levels?\s+thereafter", re.I)
 
 
@@ -3719,6 +3719,8 @@ def finalize(e: Entry, res: dict, class_cache: dict | None = None) -> dict:
 # The Player Companions that set their archetype titles in small capitals (a capital and its small capitals 5 units apart), and whose
 # archetypes are followed by sections of the chapter of their own (feats, techniques, spells): any title ends the section of an archetype.
 SMALL_CAP_BOOKS = ("blood-of-the-ancients", "blood-of-the-beast", "heroes-of-the-high-court", "martial-arts-handbook")
+# ... and of these, the ones whose chapter titles or capitals stand above the usual top of the body (Blood of the Ancients keeps 88)
+HIGH_TITLE_BOOKS = ("blood-of-the-beast", "heroes-of-the-high-court", "martial-arts-handbook")
 
 
 def configure_book(book: str) -> None:
@@ -3732,7 +3734,7 @@ def configure_book(book: str) -> None:
     SMALL_CAP_TITLES["on"] = book in SMALL_CAP_BOOKS
     # a title in small capitals and a chapter title can stand higher than the body of the other books (Heroes of the High Court p. 29: capital at 86; Martial Arts Handbook p. 18: chapter title at 70; the running heads stand at 13-29)
     global BODY_TOP
-    BODY_TOP = (BODY_CAP_TOP if book in SMALL_CAP_BOOKS else 88, BODY_TOP[1])
+    BODY_TOP = (BODY_CAP_TOP if book in HIGH_TITLE_BOOKS else 88, BODY_TOP[1])
 
 
 def run_compare(args) -> int:
@@ -4705,6 +4707,8 @@ def self_test() -> int:
                 "A swarm monger bonds with a familiar. Beginning at 5th level, creatures take 1d6 damage.")[1], "print", "Beginning at Nth level is wording")
     eq(cmp_rule("values", "**Ability:** A scavenger can use inspiration.\n\n**Alters:** Inspiration\n",
                 "A scavenger can use inspiration. This ability modifies inspiration.")[1], "print", "a 'modifies' sentence is not a rule word")
+    eq(strip_trade_sentences("This ability works like modify memory to erase the memory of an event. The rest stays.").strip(),
+       "This ability works like modify memory to erase the memory of an event. The rest stays.", "the spell modify memory is not a trade verb")
     # a citation of a Player Companion, a Campaign Setting or an Adventure Path after a link goes (owner ruling 26)
     eq(drop_linked_citation(CITE_BOOK, "[lunar](ref/mystery/lunar) (Pathfinder Player Companion: Blood of the Moon 28), [nature](ref/mystery/nature)",
                             [("lunar", "ref/mystery/lunar")]), "[lunar](ref/mystery/lunar), [nature](ref/mystery/nature)", "a Player Companion citation after a link goes")
