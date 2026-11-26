@@ -52,8 +52,8 @@ As a free action, a geminate invoker can enter a self-imposed trance, ignoring t
 of his body. This ability functions similarly to a barbarian's rage, except where noted below, and
 feats, spells, and abilities that affect a barbarian's rage (such as the
 [Extra Rage](ref/feat/extra-rage) feat) apply to an geminate invoker's trance. A geminate invoker
-gains rage powers as per a normal barbarian, but he can never gain totem rage powers via this
-ability.
+gains rage powers as per a normal barbarian, but he can never gain totem rage powers (_Pathfinder
+RPG Advanced Player's Guide_ 74) via this ability.
 
 Instead of the normal rage bonuses and penalties, a geminate invoker in a trance gains a +4 morale
 bonus to his Constitution; gains a +2 morale bonus on Reflex and Will saving throws; takes no
@@ -67,8 +67,9 @@ This ability alters rage.
 ## Haunt Channeler (Su) {#haunt-channeler}
 
 At 3rd level, a geminate invoker gains the power to sense and absorb lingering spiritual energy.
-This functions identically to the [medium](ref/class/medium) class ability of the same name, except
-the geminate invoker deals 1d6 points of damage to haunts for every 3 barbarian levels he has.
+This functions identically to the [medium](ref/class/medium) class ability of the same name
+(_Pathfinder RPG Occult Adventures_ 31), except the geminate invoker deals 1d6 points of damage to
+haunts for every 3 barbarian levels he has.
 
 This ability replaces trap sense.
 

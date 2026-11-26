@@ -34,7 +34,7 @@ following class features.
 ## Demonic Magic {#demonic-magic}
 
 A demonic apostle must choose to channel negative energy, and must select either the Chaos or Evil
-domain or the Demon subdomain as her sole domain.
+domain or the Demon subdomain (_Advanced Player's Guide_ 89) as her sole domain.
 
 ## Demonic Familiar {#demonic-familiar}
 

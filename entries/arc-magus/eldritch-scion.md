@@ -51,8 +51,8 @@ bonus spells per day if he has a high Charisma score.
 
 An eldritch scion's selection of spells is limited. He has the same number of spells known as a bard
 of the same level, and can choose new spells to replace old ones at 5th level and every 3 class
-levels after that, just as a bard does. See the bard for more information on swapping spells known.
-This replaces the magus's spells class feature.
+levels after that, just as a bard does. See the bard (_Core Rulebook_ 35) for more information on
+swapping spells known. This replaces the magus's spells class feature.
 
 ## Bloodline {#bloodline}
 

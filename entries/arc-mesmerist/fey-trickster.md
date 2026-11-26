@@ -106,15 +106,18 @@ The fey trickster is constantly under the effects of _[haste](ref/spell/haste)_.
 
 ### Nymph {#nymph}
 
-The fey trickster gains the [nymph's](ref/monster/nymph) unearthly grace ability
+The fey trickster gains the [nymph's](ref/monster/nymph) unearthly grace ability (_Pathfinder RPG
+Bestiary_ 217)
 
 ### Quickling {#quickling}
 
-The fey trickster gains the [quickling's](ref/monster/quickling) supernatural speed ability.
+The fey trickster gains the [quickling's](ref/monster/quickling) supernatural speed ability
+(_Pathfinder RPG Bestiary 2_ 227).
 
 ### Rusalka {#rusalka}
 
 The fey trickster gains the [rusalka's](ref/monster/rusalka) tresses ability and four tress primary
-[natural attacks](ref/umr/natural-attacks) similar to those of a rusalka.
+[natural attacks](ref/umr/natural-attacks) similar to those of a rusalka (_Pathfinder RPG Bestiary
+3_ 232).
 
 This ability replaces rule minds.

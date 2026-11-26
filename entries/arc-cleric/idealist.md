@@ -44,7 +44,7 @@ _Astral: Summon monster I_, _dismissal_, and _lesser create demiplane_.
 
 _Axis: Protection from chaos_, _order's wrath_, and _dictum_.
 
-_Boneyard: Deathwatch_, _death ward_, and _arbitrament_.
+_Boneyard: Deathwatch_, _death ward_, and _arbitrament_ (page 39).
 
 _Elysium: Remove fear_, _freedom of movement_, and _word of chaos_.
 

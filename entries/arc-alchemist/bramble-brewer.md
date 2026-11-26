@@ -48,10 +48,11 @@ replaces the 2nd-level discovery class feature.
 At 1st level, a bramble brewer's mutagen still contains transformative power, but grants a treelike
 sturdiness rather than the feral power of standard mutagens. When imbibed, dendrite mutagen grants a
 +4 natural armor bonus, a +2 alchemical bonus to one physical ability score, and a -2 penalty to the
-corresponding mental ability score (as per the normal mutagen class feature). In addition, the
-alchemist gains [fast healing](ref/umr/fast-healing) 1 as long as he is in an area of bright light
-(such as sunlight or inside the area of a _[daylight](ref/spell/daylight)_ spell). This otherwise
-works like the standard mutagen class feature and replaces that ability.
+corresponding mental ability score (as per the normal mutagen class feature; _Advanced Player's
+Guide_ 28). In addition, the alchemist gains [fast healing](ref/umr/fast-healing) 1 as long as he is
+in an area of bright light (such as sunlight or inside the area of a
+_[daylight](ref/spell/daylight)_ spell). This otherwise works like the standard mutagen class
+feature and replaces that ability.
 
 A bramble brewer who selects the [greater mutagen](ref/discovery/greater-mutagen) discovery can
 create a dendrite mutagen that still grants a +4 natural armor bonus, and also grants a +4

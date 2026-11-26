@@ -78,11 +78,11 @@ recovered from a burial site, using it as an [occultist](ref/class/occultist)
 [necromancy implement](ref/implement/necromancy) and gaining its base focus power. The gravedigger
 cannot invest mental focus into the implement and thus doesn't receive any resonant powers. However,
 once per day she can expend one use of inspiration to use any focus power she knows that has a cost
-of 1 point of mental focus. She can do this an additional time each day at 3rd level and every 3
-investigator levels thereafter. To activate a focus power that costs more than 1 point of mental
-focus, the gravedigger can expend that number of daily uses of this ability (as well as uses of
-inspiration) at the same time. In addition, any number of times per day, she can expend 1 use of
-inspiration to use _[grave words](ref/spell/grave-words)_ as
+of 1 point of mental focus (_Occult Adventures_ 47). She can do this an additional time each day at
+3rd level and every 3 investigator levels thereafter. To activate a focus power that costs more than
+1 point of mental focus, the gravedigger can expend that number of daily uses of this ability (as
+well as uses of inspiration) at the same time. In addition, any number of times per day, she can
+expend 1 use of inspiration to use _[grave words](ref/spell/grave-words)_ as
 [spell-like ability](ref/umr/spell-like-abilities).
 
 This ability replaces trapfinding and trap sense.

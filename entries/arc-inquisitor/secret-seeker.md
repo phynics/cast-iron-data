@@ -36,10 +36,11 @@ means of inquiry.
 ## Occult Lore (Su) {#occult-lore}
 
 A secret seeker gains access to the [prognostication](ref/skill/sense-motive) and
-[read aura](ref/skill/perception) occult skill unlocks, but not the other occult skill unlocks. If
-she ever chooses to gain the [Psychic Sensitivity](ref/feat/psychic-sensitivity) feat or otherwise
-gains access to all occult skill unlocks, she receives [Psychic Maestro](ref/feat/psychic-maestro)
-as a bonus feat, with prognostication and read aura as the two occult skill unlocks selected.
+[read aura](ref/skill/perception) occult skill unlocks (_Pathfinder RPG Occult Adventures_ 196–197),
+but not the other occult skill unlocks. If she ever chooses to gain the
+[Psychic Sensitivity](ref/feat/psychic-sensitivity) feat or otherwise gains access to all occult
+skill unlocks, she receives [Psychic Maestro](ref/feat/psychic-maestro) as a bonus feat, with
+prognostication and read aura as the two occult skill unlocks selected.
 
 This ability replaces monster lore.
 

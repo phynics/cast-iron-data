@@ -77,14 +77,15 @@ stone_, _move earth_, _stone to flesh_, _tar pool_, _transmute metal to wood_; 6
 object_, _transmute blood to acid_.
 
 Starting at 8th level, the blood alchemist can also create a [magic circle](ref/spell/magic-circle),
-as per the magic circles [occultist](ref/class/occultist) class ability, though it costs 1 point
-from his blood pool instead of 1 point of mental focus.
+as per the magic circles [occultist](ref/class/occultist) class ability (_Pathfinder RPG Occult
+Adventures_ 49), though it costs 1 point from his blood pool instead of 1 point of mental focus.
 
 Starting at 12th level, he can also create a binding circle, as per the occultist class ability of
-the same name, though it costs 2 points from his blood pool instead of 2 points of mental focus.
+the same name (_Occult Adventures_ 49), though it costs 2 points from his blood pool instead of 2
+points of mental focus.
 
 Starting at 16th level, the blood alchemist can draw magic circles and binding circles more quickly
-but with a shorter duration, as per the occultist fast circles ability.
+but with a shorter duration, as per the occultist fast circles ability (_Occult Adventures_ 49).
 
 This ability replaces bombs.
 

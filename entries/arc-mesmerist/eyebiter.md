@@ -88,7 +88,7 @@ shaken effect and the nonlethal damage.
 ### Spellblight {#spellblight}
 
 At 14th level, the eyebiter can afflict the target with the ebon eyes, the eldritch cataracts, or
-the hemoculysis spellblight.
+the hemoculysis spellblight (_Ultimate Magic_ 95).
 
 This ability replaces all instances of touch treatment.
 

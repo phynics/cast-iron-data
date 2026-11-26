@@ -71,9 +71,9 @@ travel at its full base speed. This ability replaces aspect.
 ## Stone Curse (Su) {#stone-curse}
 
 At 18th level, a [shaitan](ref/monster/genie-shaitan) binder may select stone curse as a 4-point
-evolution. This allows the eidolon to trap creatures in stone like the shaitan stone curse ability.
-The DC to resist or break free of the stone curse is 10 + 1/2 the eidolon's Hit Dice + the eidolon's
-Strength score. This ability replaces greater aspect.
+evolution. This allows the eidolon to trap creatures in stone like the shaitan stone curse ability
+(_Bestiary_ 143). The DC to resist or break free of the stone curse is 10 + 1/2 the eidolon's Hit
+Dice + the eidolon's Strength score. This ability replaces greater aspect.
 
 ## Noble Eidolon (Sp) {#noble-eidolon}
 

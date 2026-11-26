@@ -56,7 +56,8 @@ This ability alters implements.
 ## Hauntist (Su) {#hauntist}
 
 At 5th level, a haunt collector with at least one haunted implement gains the medium's haunt
-channeler class feature, with an effective medium level equal to his occultist level - 2.
+channeler class feature (_Occult Adventures_ 31), with an effective medium level equal to his
+occultist level - 2.
 
 This ability replaces aura sight.
 

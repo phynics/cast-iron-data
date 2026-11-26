@@ -40,9 +40,9 @@ by someone else.
 
 At 6th level, a mutagenic mauler gains a +2 bonus on damage rolls when she attacks in melee while in
 her mutagenic form. This bonus increases to +3 at 11th level, and to +4 at 16th level. At 10th
-level, a mutagenic mauler learns one of the following alchemist discoveries:
-[feral mutagen](ref/discovery/feral-mutagen) or [infuse mutagen](ref/discovery/infuse-mutagen),
-[preserve organs](ref/discovery/preserve-organs),
+level, a mutagenic mauler learns one of the following alchemist discoveries (_Advanced Player's
+Guide_ 28): [feral mutagen](ref/discovery/feral-mutagen) or
+[infuse mutagen](ref/discovery/infuse-mutagen), [preserve organs](ref/discovery/preserve-organs),
 [spontaneous healing](ref/discovery/spontaneous-healing). At 12th level, the mutagenic mauler learns
 the [greater mutagen](ref/discovery/greater-mutagen) discovery.
 

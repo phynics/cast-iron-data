@@ -51,9 +51,9 @@ replaces wild empathy.
 
 At 2nd level, a trophy hunter gains the [Amateur Gunslinger](ref/feat/amateur-gunslinger) feat and
 [Exotic Weapon Proficiency](ref/feat/exotic-weapon-proficiency) (firearms), and can use any
-1st-level gunslinger deed. At every four levels thereafter, the trophy hunter can take a grit feat
-or select a gunslinger deed of his level or lower, ranger's choice. This ability replaces all combat
-style feats.
+1st-level gunslinger deed (page 10). At every four levels thereafter, the trophy hunter can take a
+grit feat or select a gunslinger deed of his level or lower, ranger's choice. This ability replaces
+all combat style feats.
 
 ## Hunter's Aim (Ex) {#hunter-s-aim}
 

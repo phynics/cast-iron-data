@@ -101,9 +101,9 @@ monk class feature. This ability replaces abundant step.
 
 ## Defensive Roll (Ex) {#defensive-roll}
 
-At 13th level, a martial artist may use the defensive roll advanced rogue talent once per day, plus
-once per three levels beyond 13th (to a maximum of 3 times a day at 19th level). This ability
-replaces diamond soul.
+At 13th level, a martial artist may use the defensive roll advanced rogue talent (_Core Rulebook_
+69) once per day, plus once per three levels beyond 13th (to a maximum of 3 times a day at 19th
+level). This ability replaces diamond soul.
 
 ## Quivering Palm {#quivering-palm}
 

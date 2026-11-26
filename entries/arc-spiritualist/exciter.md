@@ -61,15 +61,16 @@ This ability alters phantom and emotional focus and replaces the 6th-level phant
 
 An exciter gains the ability to enter an ecstatic state in which he's consumed and overwhelmed by
 his passions and driven into a fighting fury. This functions similarly to a
-[bloodrager's](ref/class/bloodrager) bloodrage, treating his spiritualist level as his bloodrager
-level, though he doesn't qualify for feats or other elements that require rage or bloodrage. When
-entering a rapture, the exciter loses all other benefits from having his phantom confined in his
-consciousness (such as the [Skill Focus](ref/feat/skill-focus) feats and bonus against
-mind-affecting effects), but he can choose to exchange the normal +4 morale bonus to his Strength
-and Constitution scores normally gained from bloodrage for a +4 morale bonus to his Dexterity and
-Charisma scores or a +2 morale bonus to his Strength, Dexterity, Constitution, and Charisma scores.
-In addition to the fatigue for ending a bloodrage, an exciter can't enter a rapture again for 1
-minute after ending his last rapture.
+[bloodrager's](ref/class/bloodrager) bloodrage (_Pathfinder RPG_ _Advanced Class Guide_ 15),
+treating his spiritualist level as his bloodrager level, though he doesn't qualify for feats or
+other elements that require rage or bloodrage. When entering a rapture, the exciter loses all other
+benefits from having his phantom confined in his consciousness (such as the
+[Skill Focus](ref/feat/skill-focus) feats and bonus against mind-affecting effects), but he can
+choose to exchange the normal +4 morale bonus to his Strength and Constitution scores normally
+gained from bloodrage for a +4 morale bonus to his Dexterity and Charisma scores or a +2 morale
+bonus to his Strength, Dexterity, Constitution, and Charisma scores. In addition to the fatigue for
+ending a bloodrage, an exciter can't enter a rapture again for 1 minute after ending his last
+rapture.
 
 This ability replaces a spiritualist's ability to manifest his phantom and use emotional focus
 abilities that require a manifested phantom.
@@ -106,12 +107,12 @@ This ability replaces the 10th-, 14th-, and 18th-level phantom recall and spirit
 
 ## Perfect Passion (Su) {#perfect-passion}
 
-At 4th level, an exciter can cast psychic spells with an emotion component even while in his
-rapture. He can cast these spells defensively and attempt [concentration](ref/rule/concentration)
-checks for these spells without impairment, despite being in a rapture. He also can attempt
-Charisma- and Intelligence-based skill checks related to psychic spells with an emotion component
-while in his rapture. He cannot cast arcane or divine spells or psychic spells that have a thought
-component while in a rapture.
+At 4th level, an exciter can cast psychic spells with an emotion component (_Pathfinder RPG Occult
+Adventures_ 144) even while in his rapture. He can cast these spells defensively and attempt
+[concentration](ref/rule/concentration) checks for these spells without impairment, despite being in
+a rapture. He also can attempt Charisma- and Intelligence-based skill checks related to psychic
+spells with an emotion component while in his rapture. He cannot cast arcane or divine spells or
+psychic spells that have a thought component while in a rapture.
 
 This ability replaces spiritual interference.
 

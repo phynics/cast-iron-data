@@ -38,7 +38,7 @@ he atones for his transgressions. In time, likely after benefitting from an
 _[atonement](ref/spell/atonement)_ spell, an ex–pact witch can forge a bond with another plane that
 matches his new alignment.
 
-## Table 1–1: Planar Pacts {#table-1-1-planar-pacts}
+**Table 1–1: Planar Pacts**
 
 |Plane|Alignment|Familiar|
 | --- | --- | --- |

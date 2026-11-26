@@ -132,9 +132,10 @@ denied their Dexterity bonus against your allies. You grant this bonus to yourse
 ally for every four sorcerer levels you possess (to a maximum of five allies at 20th level). The
 allies must be within 30 feet of you and you must have line of effect to each affected ally.
 
-_Earth Glide (Su)_: At 15th level, you gain the earth glide universal monster ability with a speed
-equal to your base speed. This does not give you the ability to breathe while passing through earth,
-so you must hold your breath or use some alternate method to breathe while using this ability.
+_Earth Glide (Su)_: At 15th level, you gain the earth glide universal monster ability (_Bestiary 2_
+296) with a speed equal to your base speed. This does not give you the ability to breathe while
+passing through earth, so you must hold your breath or use some alternate method to breathe while
+using this ability.
 
 _Nimble Walker (Su)_: At 20th level, you gain a +5 racial bonus on Reflex saving throws and on
 Acrobatics checks made to move through a creature's threatened area or through its space. You also

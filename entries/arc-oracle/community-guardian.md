@@ -36,7 +36,7 @@ Any good.
 
 ## Recommended Mysteries {#recommended-mysteries}
 
-ancestor, life, lore, nature.
+ancestor (_Ultimate Magic_ 53), life, lore, nature.
 
 ## Class Skills {#class-skills}
 
