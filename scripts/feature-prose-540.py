@@ -3886,7 +3886,8 @@ LEVEL_FROM_PRINT = {
 CHOICE_INTRO = re.compile(r"\b(?:select|selects|choose|chooses|take|takes|pick|picks)\b[^.]{0,100}?\b(?:from|among|of|in)\s+(?:the\s+|these\s+|those\s+)?"
                           r"(?:following|listed below|below)\b|\bfrom (?:those|the list) (?:listed )?below\b|"
                           r"\b(?:select|selects|choose|chooses|take|takes|pick|picks)\s+(?:any\s+of\s+)?the\s+following\b"
-                          r"|\badds? the following (?!spells?\b)[^.]{0,120}\bto (?:the|her|his) list\b|\bways? listed below\b|\b(?:are|is) (?:listed|noted|described|shown) below\b|\bas noted below\b", re.I)
+                          r"|\badds? the following (?!spells?\b)[^.]{0,120}\bto (?:the|her|his) list\b|\bways? listed below\b|\b(?:are|is) (?:listed|noted|described|shown) below\b|\bas noted below\b"
+                          r"|\b(?:can|may) (?:also )?(?:select|choose|take) the following additional\b|\b(?:can|may) (?:also )?be (?:selected|taken|chosen) by any\b", re.I)
 LEVEL_IN_FIRST_PARAGRAPH = {
     ("ref/arc-paladin/invigorator", "champion-of-life"),     # a flavor sentence, then "At 20th level, three times per day ..."
     ("ref/arc-brawler/wild-child", "wild-tricks"),
@@ -5379,6 +5380,7 @@ def self_test() -> int:
     eq([x["runs"][0][0] for x in _main], ["Text before.", "Channel Energy (Su): text"], "lore box apart: the text around it stays")
     eq([x["runs"][0][0] for x in _box], ["Armor Master Archetypes and Prestige Classes", "Many organizations"], "lore box apart: its lines")
     BOX_LORE["titles"] = frozenset()
+    eq([bool(CHOICE_INTRO.search(t)) for t in ("He can select the following additional discoveries: x.", "These talents can be selected by any rogue.", "These can also be taken by any fighter.", "He can take a feat.")], [True, True, True, False], "choice lead-ins of ruling 57's message")
     eq(bool(CAPS_TITLE.fullmatch("BLIGHTSEEKER (ALCHEMIST ARCHETYPE)")), True, "caps title")
     eq(bool(CAPS_TITLE.fullmatch("Blightseeker (Alchemist Archetype)")), False, "caps title lower case")
     eq(bool(CAPS_TITLE_HEAD.fullmatch("PSYCHIC MARAUDER (PSYCHIC")) and bool(CAPS_TITLE_TAIL.fullmatch("ARCHETYPE)")), True, "caps title wrapped")
@@ -6121,6 +6123,8 @@ TRADE_RENAMES.update({
 # print: "This ability alters sacred weapon and also replaces sacred armor": the app reads one `alters` phrase ("and also replaces" is no split)
 TRADE_RENAMES[("ref/arc-warpriest/shieldbearer", "Sacred weapon")] = "Sacred weapon and also replaces sacred armor"
 TRADE_MERGED["ref/arc-warpriest/shieldbearer"] = [("alters", "sacred armor")]
+# ruling 55 ("modifies" is an alters verb): the gap that its sentence leaves in this batch (the verb itself is the cross-batch PR's)
+TRADE_ADDITIONS["ref/arc-warpriest/shieldbearer"] = [{"alters": "Channel energy", "feature": "channel-energy"}]
 TRADE_ADDITIONS["ref/arc-alchemist/oozemaster"] = [{"replaces": "The bomb class feature", "feature": "bomb"}]
 TRADE_RENAMES[("ref/arc-alchemist/oozemaster", "Brew Potion")] = "Brew Potion, though an oozemaster can still select Brew Potion without meeting the feat's prerequisites"
 for _eid in ("ref/arc-bard/luring-piper", "ref/arc-druid/defender-of-the-true-world", "ref/arc-occultist/psychodermist"):

@@ -20,11 +20,12 @@ features = [
   { anchor = "shield-adept", level = 1 },
   { anchor = "sacred-weapon" },
   { anchor = "sacred-shield", level = 4 },
-  { anchor = "channel-energy" },
+  { anchor = "channel-energy", level = 4 },
 ]
 trades = [
   { replaces = "Focus weapon", feature = "focus-weapon", by = ["shield-adept"] },
   { alters = "Sacred weapon and also replaces sacred armor", feature = "sacred-weapon", by = ["sacred-weapon"] },
+  { alters = "Channel energy", feature = "channel-energy", by = ["channel-energy"] },
 ]
 +++
 

@@ -3,6 +3,8 @@ ref/arc-alchemist/oozemaster	This ability replaces Brew Potion, though an oozema
 ref/arc-alchemist/oozemaster	This replaces poison resistance and poison immunity.
 ref/arc-bard/luring-piper	This alters the bard’s class skills.
 ref/arc-bard/luring-piper	This ability replaces bardic knowledge.
+ref/arc-bard/luring-piper	This ability modifies bardic performance.
+ref/arc-bard/luring-piper	This performance modifies fascinate.
 ref/arc-bard/luring-piper	This performance replaces the bard’s dirge of doom.
 ref/arc-bard/luring-piper	This performance replaces soothing performance.
 ref/arc-bard/luring-piper	This ability replaces well-versed.
@@ -13,6 +15,7 @@ ref/arc-cavalier/disciple-of-the-pike	This ability replaces banner and greater b
 ref/arc-cavalier/disciple-of-the-pike	This ability replaces mighty charge.
 ref/arc-cavalier/disciple-of-the-pike	This ability replaces supreme charge.
 ref/arc-druid/defender-of-the-true-world	This alters the druid’s class skills.
+ref/arc-druid/defender-of-the-true-world	This modifies spontaneous casting.
 ref/arc-druid/defender-of-the-true-world	This replaces wild empathy.
 ref/arc-druid/defender-of-the-true-world	This ability replaces trackless step.
 ref/arc-druid/defender-of-the-true-world	This ability alters resist nature’s lure.
@@ -33,4 +36,6 @@ ref/arc-occultist/psychodermist	This ability replaces object reading.
 ref/arc-occultist/psychodermist	This ability replaces aura sight.
 ref/arc-occultist/psychodermist	This replaces outside contact.
 ref/arc-occultist/psychodermist	This replaces binding circles and fast circles.
+ref/arc-paladin/banishing-warden	This modifies smite evil.
 ref/arc-paladin/banishing-warden	This ability replaces the mercy gained at 3rd level.
+ref/arc-paladin/banishing-warden	This ability modifies aura of justice.
