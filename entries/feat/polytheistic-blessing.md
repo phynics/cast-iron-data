@@ -90,7 +90,7 @@ he or she is the head of the pantheon.
 
 **Common Believers** drow, murderers, psychopaths
 
-**Granted Spell-Like Ability** _lesser confusion_
+**Granted Spell-Like Ability** _[lesser confusion](ref/spell/confusion-lesser)_
 
 ### Dwarven Pantheon (Racial)
 
