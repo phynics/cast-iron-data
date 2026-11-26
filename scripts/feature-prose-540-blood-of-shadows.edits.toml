@@ -1,0 +1,17 @@
+[[edit]]
+entry = "ref/arc-rogue/shadow-walker"
+anchor = "advanced-talents"
+note = "hand-written from print (Blood of Shadows p. 9): the page goes on, after the sentence of the advanced talents, with the introduction of the wayang section of the chapter (\"Wayang history has been stained ...\"), which the extraction takes for part of this section (the title of that section is set in a face that the layer does not mark as a title); only the printed sentence stays."
+text = '''
+The following advanced rogue talents complement the shadow walker archetype: hide in plain sight, see in darkness, slippery mind, unwitting ally, and weapon snatcher.
+'''
+
+[[edit]]
+entry = "ref/arc-sorcerer/umbral-scion"
+anchor = "crippling-darkness"
+note = "hand-written from print (Blood of Shadows p. 19): the introduction of the tactics chapter that follows (\"Every adventurer eventually finds herself in shadowy places ...\") is run into the last paragraph of the archetype, because the title of that chapter is not marked as a title by the layer; only the feature stays."
+text = '''
+At 13th level, when an umbral scion targets a creature within an area of dim light or darkness with a spell of the shadow subschool or a spell with the darkness or shadow descriptor, the DC for the spell increases by 1. This bonus increases by 1 at 18th level.
+
+This ability replaces the 13th-level bloodline feat.
+'''

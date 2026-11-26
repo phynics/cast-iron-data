@@ -16,13 +16,21 @@ page = "9"
 
 [fields]
 kind = "archetype"
+features = [
+  { anchor = "castle-defender", level = 1 },
+  { anchor = "castle-lore", level = 3 },
+  { anchor = "guard-companion", level = 4 },
+  { anchor = "mighty-defense", level = 11 },
+  { anchor = "defending-challenge", level = 12 },
+  { anchor = "supreme-defense", level = 20 },
+]
 trades = [
-  { replaces = "Mount", feature = "mount" },
-  { replaces = "Cavalier's charge", feature = "cavalier-s-charge" },
-  { replaces = "Expert trainer", feature = "expert-trainer" },
-  { replaces = "Mighty charge", feature = "mighty-charge" },
-  { replaces = "Demanding challenge", feature = "demanding-challenge" },
-  { replaces = "Supreme charge", feature = "supreme-charge" },
+  { replaces = "Mount", feature = "mount", by = ["castle-defender"] },
+  { replaces = "Cavalier's charge", feature = "cavalier-s-charge", by = ["castle-lore"] },
+  { replaces = "Expert trainer", feature = "expert-trainer", by = ["guard-companion"] },
+  { replaces = "Mighty charge", feature = "mighty-charge", by = ["mighty-defense"] },
+  { replaces = "Demanding challenge", feature = "demanding-challenge", by = ["defending-challenge"] },
+  { replaces = "Supreme charge", feature = "supreme-charge", by = ["supreme-defense"] },
 ]
 +++
 
@@ -31,128 +39,56 @@ not as celebrated as the cavaliers who ride forth to take on distant foes, the c
 brave or important, for the castellan and his allies are the last line of defense for those who
 depend on the fortification for protection.
 
-**Castle Defender**
+## Castle Defender {#castle-defender}
 
-**At 1st Level:** A castellan gains a +1 bonus to Armor Class and an additional +1 bonus on attack
-rolls when he is on [higher ground](ref/rule/combat-modifiers). He also gains an additional +1 bonus
-to Armor Class and on Reflex saves when he has [cover](ref/rule/cover) other than soft cover from
-other creatures.
+At 1st level, a castellan gains a +1 bonus to Armor Class and an additional +1 bonus on attack rolls
+when he is on [higher ground](ref/rule/combat-modifiers). He also gains an additional +1 bonus to
+Armor Class and on Reflex saves when he has [cover](ref/rule/cover) other than soft cover from other
+creatures. At 6th level, a castellan gains [evasion](ref/ability/evasion) (as a rogue) when he has
+cover (but not soft cover) against the source of the attack. At 11th level, these bonuses increase
+by 1. At 16th level, he gains [improved evasion](ref/talent/improved-evasion) instead of evasion.
+Both the evasion and improved evasion abilities work even when the castellan wears medium or heavy
+armor. This ability replaces mount.
 
-**At 11th Level:** These bonuses increase by 1.
+## Castle Lore {#castle-lore}
 
-**At 16th Level:** He gains [improved evasion](ref/talent/improved-evasion) instead of evasion.
-
-**At 6th Level:** A castellan gains [evasion](ref/ability/evasion) (as a rogue) when he has cover
-(but not soft cover) against the source of the attack.
-
-**Replaces:** Mount
-
-**Special:** Both the evasion and improved evasion abilities work even when the castellan wears
-medium or heavy armor.
-
-**Castle Lore**
-
-**At 13th Level:** The bonuses increase to +6.
-
-**At 18th Level:** The bonuses increase to +8.
-
-**At 3rd Level:** The castellan gains a +2 bonus on initiative checks and Knowledge (engineering),
+At 3rd level, the castellan gains a +2 bonus on initiative checks and Knowledge (engineering),
 Knowledge (local), Knowledge (nobility), Perception, and Stealth checks when he is in urban terrain,
 including fortifications. A castellan in an urban environment can always act in a surprise round,
-though he remains [flat-footed](ref/rule/flat-footed) until he acts.
+though he remains [flat-footed](ref/rule/flat-footed) until he acts. At 8th level and every 5 levels
+thereafter, the castellan's bonuses on skill and initiative checks increase by 2. This ability
+replaces cavalier's charge.
 
-**At 8th Level:** The bonuses increase to +4.
+## Guard Companion {#guard-companion}
 
-**Replaces:** Cavalier's charge
-
-**Guard Companion**
-
-**Ability:** The castellan forms a bond with an [animal companion](ref/sidekick/animal-companion)
+At 4th level, the castellan forms a bond with an [animal companion](ref/sidekick/animal-companion)
 that serves as a guard. While most castellans select birds or canines, the castellan can choose any
 animal companions available to [rangers](ref/class/ranger). This ability functions like the
-[druid](ref/class/druid) _nature bond_ ability, except that the castellan's effective druid level is
-equal to his cavalier level - 3 and his animal companion doesn't gain the _share spells_ special
-ability.
+[druid](ref/class/druid) nature bond ability, except that the castellan's effective druid level is
+equal to his cavalier level - 3 and his animal companion doesn't gain the share spells special
+ability. This ability replaces expert trainer.
 
-**Gained:** At 4th Level
+## Mighty Defense {#mighty-defense}
 
-**Replaces:** Expert trainer
-
-;;;ab\{title="Ranger Animal Companions" icon=power next action=Choice\}
-
-- [Antelope](ref/companion/antelope)
-- [Armorfish](ref/companion/armorfish)
-- [Baboon](ref/companion/baboon)
-- [Badger](ref/companion/badger)
-- [Bird (Eagle, Hawk, or Owl)](ref/companion/bird)
-- [Bustard](ref/companion/bustard)
-- [Camel](ref/companion/camel)
-- [Capybara](ref/companion/capybara)
-- [Cheetah](ref/companion/cat-small-cheetah-leopard)
-- [Constrictor Snake](ref/companion/snake-constrictor)
-- [Dire Rat](ref/companion/dire-rat)
-- [Dog](ref/companion/dog)
-- [Elk](ref/companion/elk)
-- [Falcon](ref/companion/falcon)
-- [Giant Gecko](ref/companion/lizard-giant-gecko)
-- [Hobbe Hound](ref/companion/hobbe-hound)
-- [Horse](ref/companion/horse)
-- [Kangaroo](ref/companion/kangaroo)
-- [Leopard](ref/companion/cat-small-cheetah-leopard)
-- [Marsupial Devil](ref/companion/marsupial-devil)
-- [Pony](ref/companion/pony)
-- [Ram](ref/companion/ram)
-- [Reef Snake](ref/companion/reef-snake)
-- [Reindeer](ref/companion/reindeer)
-- [Shark](ref/companion/shark)
-- [Spitting Cobra](ref/companion/spitting-cobra)
-- [Stag](ref/companion/stag)
-- [Stingray](ref/companion/stingray)
-- [Swan, Trumpeter](ref/companion/swan-trumpeter)
-- [Thylacine](ref/companion/thylacine)
-- [Viper](ref/companion/snake-viper)
-- [Wolf](ref/companion/wolf)
-- [Wolfdog](ref/companion/wolfdog)
-- [Yak](ref/companion/yak)
-- [Zebra](ref/companion/zebra)
-
-If the campaign takes place wholly or partly in an aquatic environment, you may choose from this
-list instead: [Armorfish](ref/companion/armorfish), [Reef Snake](ref/companion/reef-snake),
-[Shark](ref/companion/shark), [Stingray](ref/companion/stingray).
-
-;;;
-
-**Mighty Defense**
-
-**Ability:** When the castellan [readies an action](ref/rule/ready) to make a melee attack against a
-creature that is not yet adjacent to him, he doubles the threat range of any melee weapons wielded
+At 11th level, when the castellan [readies an action](ref/rule/ready) to make a melee attack against
+a creature that is not yet adjacent to him, he doubles the threat range of any melee weapons wielded
 during the attack. This increase doesn't stack with other effects that increase the threat range of
 his weapons. In addition, the cavalier can attempt a free [dirty trick](ref/rule/dirty-trick),
 [disarm](ref/rule/disarm), [sunder](ref/rule/sunder), or [trip](ref/rule/trip) combat maneuver if
 his readied attack is successful. This free combat maneuver doesn't provoke an attack of
-opportunity.
+opportunity. This ability replaces mighty charge.
 
-**Gained:** At 11th Level
+## Defending Challenge {#defending-challenge}
 
-**Replaces:** Mighty charge
+At 12th level, the castellan takes no penalty to Armor Class when using his challenge ability. This
+ability replaces demanding challenge.
 
-**Defending Challenge**
+## Supreme Defense {#supreme-defense}
 
-**Gained:** At 12th Level
-
-**Passive:** The castellan takes no penalty to Armor Class when using his challenge ability.
-
-**Replaces:** Demanding challenge
-
-**Supreme Defense**
-
-**Ability:** Whenever the castellan readies an action to make a melee attack against a creature that
-is not yet adjacent to him, his readied attack deals double the normal amount of damage (or triple
-the damage if using a [brace](ref/misc/brace) weapon against a charge). In addition, if the cavalier
-confirms a critical hit on the readied attack, the target is [stunned](ref/misc/stunned) for 1d4
-rounds. A successful Will save (DC = 10 + the cavalier's class level + the cavalier's Strength
-modifier) reduces this to being [staggered](ref/misc/staggered) for 1d4 rounds.
-
-**Gained:** At 20th Level
-
-**Replaces:** Supreme charge
+At 20th level, whenever the castellan readies an action to make a melee attack against a creature
+that is not yet adjacent to him, his readied attack deals double the normal amount of damage (or
+triple the damage if using a [brace](ref/misc/brace) weapon against a charge). In addition, if the
+cavalier confirms a critical hit on the readied attack, the target is [stunned](ref/misc/stunned)
+for 1d4 rounds. A successful Will save (DC = 10 + the cavalier's class level + the cavalier's
+Strength modifier) reduces this to being [staggered](ref/misc/staggered) for 1d4 rounds. This
+ability replaces supreme charge.

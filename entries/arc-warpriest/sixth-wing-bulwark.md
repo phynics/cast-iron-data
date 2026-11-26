@@ -16,14 +16,23 @@ page = "32"
 
 [fields]
 kind = "archetype"
+features = [
+  { anchor = "sixth-wing-sworn" },
+  { anchor = "focus-shield", level = 1 },
+  { anchor = "sacred-shield", level = 1 },
+  { anchor = "shield-of-grace", level = 6 },
+  { anchor = "sacred-fortification", level = 7 },
+  { anchor = "intercession", level = 12 },
+  { anchor = "reflexive-fortification", level = 18 },
+]
 trades = [
-  { replaces = "Focus weapon", feature = "focus-weapon" },
-  { replaces = "Sacred weapon", feature = "sacred-weapon" },
-  { replaces = "Bonus feat gained at 6th level", feature = "bonus-feats", levels = [6] },
-  { replaces = "Bonus feat gained at 12th level", feature = "bonus-feats", levels = [12] },
-  { replaces = "Bonus feat gained at 18th level", feature = "bonus-feats", levels = [18] },
+  { replaces = "Focus weapon", feature = "focus-weapon", by = ["focus-shield"] },
+  { replaces = "Sacred weapon", feature = "sacred-weapon", by = ["sacred-shield"] },
+  { replaces = "Bonus feat gained at 6th level", feature = "bonus-feats", levels = [6], by = ["shield-of-grace"] },
+  { replaces = "Bonus feat gained at 12th level", feature = "bonus-feats", levels = [12], by = ["intercession"] },
+  { replaces = "Bonus feat gained at 18th level", feature = "bonus-feats", levels = [18], by = ["reflexive-fortification"] },
   { alters = "Weapon and armor proficiencies", feature = "weapon-and-armor-proficiencies" },
-  { alters = "Sacred armor", feature = "sacred-armor" },
+  { alters = "Sacred armor", feature = "sacred-armor", by = ["sacred-fortification"] },
 ]
 +++
 
@@ -32,95 +41,79 @@ successful campaign, are those who hold the line and defend against the incursio
 The Sixth Wing bulwark trains to do just that: fortifying herself and her allies to stand strong in
 the face of any opposition, no matter how dire.
 
-**Sixth Wing Sworn**
+## Sixth Wing Sworn {#sixth-wing-sworn}
 
-**Info:** A Sixth Wing bulwark must be a worshiper of [Ragathiel](ref/faith/ragathiel). If she ever
-changes her deity, she loses this archetype, cannot regain it, and becomes a normal warpriest.
+A Sixth Wing bulwark must be a worshiper of [Ragathiel](ref/faith/ragathiel). If she ever changes
+her deity, she loses this archetype, cannot regain it, and becomes a normal warpriest.
 
-**Weapon and Armor Proficiency**
+## Weapon and Armor Proficiency {#weapon-and-armor-proficiency}
 
-**Ability:** A Sixth Wing bulwark gains proficiency in [tower shields](ref/eq-armor/tower-shield).
+A Sixth Wing bulwark gains proficiency in [tower shields](ref/eq-armor/tower-shield).
 
-**Alters:** Weapon and armor proficiencies
+This alters the warpriest's weapon and armor proficiencies.
 
-**Focus Shield**
+## Focus Shield {#focus-shield}
 
-**Ability:** A Sixth Wing bulwark gains [Shield Focus](ref/feat/shield-focus) as a bonus feat.
+A Sixth Wing bulwark gains [Shield Focus](ref/feat/shield-focus) as a bonus feat.
 
-**Replaces:** Focus weapon
+This replaces focus weapon.
 
-**Sacred Shield (Su)**
+## Sacred Shield (Su) {#sacred-shield}
 
-**Ability:** Dedicated training and divine grace allow a Sixth Wing bulwark to lessen the burden of
-a shield's weight. As long as a Sixth Wing bulwark is wielding a shield, she reduces her total armor
-check penalty by an amount equal to 1 + [one-fifth](ref/misc/fractions-and-rounding) of her
-warpriest level.
+Dedicated training and divine grace allow a Sixth Wing bulwark to lessen the burden of a shield's
+weight. As long as a Sixth Wing bulwark is wielding a shield, she reduces her total armor check
+penalty by 1. This reduction improves by 1 for every 5 warpriest levels she has, to a maximum
+reduction of 5 at 20th level.
 
-**At 20th Level:** The fire resistance becomes [immunity](ref/umr/immunity) to fire.
+At 4th level, a Sixth Wing bulwark can call upon Ragathiel's might to bless her shield as a swift
+action. As long as she is wielding a shield, she gains DR 1/— and fire
+[resistance](ref/umr/resistance) 5. For every 4 levels beyond 4th, this DR increases by 1 (to a
+maximum of DR 5/— at 20th level) and her fire resistance increases by 5 (becoming
+[immunity](ref/umr/immunity) to fire at 20th level). A Sixth Wing bulwark can use this ability a
+number of rounds per day equal to her warpriest level; these rounds need not be consecutive.
 
-**At 4th Level:** A Sixth Wing bulwark can call upon Ragathiel's might to bless her shield as a
-**swift action**. As long as she is wielding a shield, she gains fire
-[resistance](ref/umr/resistance) 5 and DR/- equal to one-fourth of her warpriest level (DR 1/- at
-4th level, DR 2/- at 8th level, and so on). A Sixth Wing bulwark can use this ability a number of
-rounds per day equal to her warpriest level; these rounds need not be consecutive.
+As a swift action while her shield is benefitting from Ragathiel's blessing (or as part of the
+action to activate the blessing), a Sixth Wing bulwark can direct her shield to protect an ally
+within 60 feet. The shield sprouts burning wings and flies to defend the ally, providing its shield
+bonus, [damage reduction](ref/rule/damage-reduction), and fire resistance to that ally instead of
+the Sixth Wing bulwark. Rounds in which she uses her shield in this manner count normally against
+the rounds per day in which she can use this ability. As long as she has rounds of sacred shield
+remaining, she can recall her shield to her arm as a swift action and regain its benefits. A Sixth
+Wing bulwark must maintain one hand free to direct the shield; if she no longer has a hand free or
+if the duration of her sacred shield ability ends, the shield drops to the ground and ceases
+providing any benefit.
 
-**Replaces:** Sacred weapon
+This replaces sacred weapon.
 
-**Special:** As a **swift action** while her shield is benefitting from Ragathiel's blessing (or as
-part of the action to activate the blessing), a Sixth Wing bulwark can direct her shield to protect
-an ally within 60 feet. The shield sprouts burning wings and flies to defend the ally, providing its
-shield bonus, [damage reduction](ref/rule/damage-reduction), and fire resistance to that ally
-instead of the Sixth Wing bulwark. Rounds in which she uses her shield in this manner count normally
-against the rounds per day in which she can use this ability.
+## Shield of Grace (Su) {#shield-of-grace}
 
-As long as she has rounds of sacred shield remaining, she can recall her shield to her arm as a
-**swift action** and regain its benefits. A Sixth Wing bulwark must maintain one hand free to direct
-the shield; if she no longer has a hand free or if the duration of her sacred shield ability ends,
-the shield drops to the ground and ceases providing any benefit.
-
-At 8th level: The fire resistance increases to 10.
-
-At 12th level: The fire resistance increases to 15.
-
-At 16th level: The fire resistance increases to 20.
-
-**Shield of Grace (Su)**
-
-**Ability:** When a Sixth Wing bulwark uses her _sacred shield_ to protect an ally, she can deliver
-_blessings,_ healing from her _fervor_ ability, and touch spells through the shield to the ally
+At 6th level, when a Sixth Wing bulwark uses her sacred shield to protect an ally, she can deliver
+blessings, healing from her fervor ability, and touch spells through the shield to the ally
 benefiting from the shield's protection.
 
-**Gained:** At 6th Level
+This replaces the bonus feat gained at 6th level.
 
-**Replaces:** Bonus feat gained at 6th level
+## Sacred Fortification (Su) {#sacred-fortification}
 
-**Sacred Fortification (Su)**
+At 7th level, when a Sixth Wing bulwark activates her sacred armor ability, she can expend one use
+of fervor to also activate her sacred shield ability.
 
-**Ability:** When a Sixth Wing bulwark activates her sacred armor ability, she can expend one use of
-_fervor_ to also activate her _sacred shield_ ability.
+This alters sacred armor.
 
-**Alters:** Sacred armor
+## Intercession (Su) {#intercession}
 
-**Gained:** At 7th Level
+At 12th level, by expending a use of fervor as a swift action, a Sixth Wing bulwark can teleport to
+the location of a willing (or unconscious) ally and immediately teleport that ally to her own
+previous position, in effect switching places with the ally. A Sixth Wing bulwark must have line of
+effect to the target to use this ability.
 
-**Intercession (Su)**
+This replaces the bonus feat gained at 12th level.
 
-**Gained:** At 12th Level
+## Reflexive Fortification (Su) {#reflexive-fortification}
 
-**Replaces:** Bonus feat gained at 12th level
+At 18th level, a Sixth Wing bulwark can use her sacred shield ability as an immediate action when
+she is attacked. Alternatively, she can use this ability as an immediate action when an ally within
+30 feet is attacked to send her shield to protect that ally. She can use this ability even if she is
+surprised.
 
-**Swift:** By expending a use of _fervor,_ a Sixth Wing bulwark can teleport to the location of a
-willing (or unconscious) ally and immediately teleport that ally to her own previous position, in
-effect switching places with the ally. A Sixth Wing bulwark must have line of effect to the target
-to use this ability.
-
-**Reflexive Fortification (Su)**
-
-**Ability:** A Sixth Wing bulwark can use her _sacred shield_ ability as an **immediate action**
-when she is attacked. Alternatively, she can use this ability as an **immediate action** when an
-ally within 30 feet is attacked to send her shield to protect that ally. She can use this ability
-even if she is surprised.
-
-**Gained:** At 18th Level
-
-**Replaces:** Bonus feat gained at 18th level
+This replaces the bonus feat gained at 18th level.
