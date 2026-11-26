@@ -16,11 +16,18 @@ page = "44"
 
 [fields]
 kind = "archetype"
+features = [
+  { anchor = "lore", level = 3 },
+  { anchor = "learn-from-failure", level = 4 },
+  { anchor = "eye-of-the-sun-and-moon", level = 17 },
+  { anchor = "walk-with-the-master", level = 20 },
+]
 trades = [
-  { replaces = "Still mind", feature = "still-mind" },
-  { replaces = "Slow fall", feature = "slow-fall" },
-  { replaces = "Tongue of the sun and moon", feature = "tongue-of-the-sun-and-moon" },
-  { alters = "Perfect self", feature = "perfect-self" },
+  { replaces = "Still mind", feature = "still-mind", by = ["lore"] },
+  { replaces = "Slow fall", feature = "slow-fall", by = ["learn-from-failure"] },
+  { replaces = "Tongue of the sun and moon", feature = "tongue-of-the-sun-and-moon", by = ["eye-of-the-sun-and-moon"] },
+  { alters = "Perfect self", feature = "perfect-self", by = ["walk-with-the-master"] },
+  { alters = "Class skills" },
 ]
 +++
 
@@ -28,50 +35,47 @@ Perfect scholars, often worshipers of Irori, hone their minds and bodies through
 knowledge. They study and annotate the holy texts of Irori and other philosophies as well as collect
 lore on anatomy, medicine, philosophy, martial arts, and history, among other topics of erudition.
 
-**Gained class skills:** ka, kd, ke, kg, kh, kl, kna, kno, kp, kr, ling
+## Class Skills {#class-skills}
 
-**Lost class skills:** intm, perf
+A perfect scholar adds Knowledge (all) and Linguistics to his list of class skills, instead of
+Intimidate and Perform.
 
-**Lore (Ex)**
+This ability alters the monk's class skills.
 
-**Gained:** At 3rd Level
+## Lore (Ex) {#lore}
 
-**Passive:** The perfect scholar gains a bonus equal to 1/2 his monk level on Knowledge checks and
+At 3rd level, the perfect scholar gains a bonus equal to 1/2 his monk level on Knowledge checks and
 can attempt Knowledge checks untrained.
 
-**Replaces:** Still mind
+This ability replaces still mind. For the monk from _Pathfinder Unchained_, this ability is gained
+at 4th level.
 
-**Learn from Failure (Ex)**
+## Learn from Failure (Ex) {#learn-from-failure}
 
-**Ability:** When the perfect scholar misses with an attack roll or fails a
-[Research check](ref/rule/research), he gains an insight bonus on his next attack roll or Research
-check against the same target attempted in the next 24 hours. The insight bonus is equal to
-[half](ref/misc/fractions-and-rounding) his monk level - 1.
+At 4th level, when the perfect scholar misses with an attack roll or fails a
+[Research check](ref/rule/research), he gains a +1 insight bonus on his next attack roll or Research
+check against the same target attempted in the next 24 hours. An individual target cannot be
+affected by this ability more than once in a 24-hour period. At 6th level, and every 2 monk levels
+thereafter, this bonus increases by 1.
 
-**Gained:** At 4th Level
+This ability replaces slow fall. For the monk from _Pathfinder Unchained_, this ability replaces the
+ki power gained at 4th level.
 
-**Replaces:** Slow fall
+## Eye of the Sun and Moon (Ex) {#eye-of-the-sun-and-moon}
 
-**Special:** An individual target cannot be affected by this ability more than once in a 24-hour
-period.
+At 17th level, a perfect scholar can read all languages and write all languages he has read or
+heard.
 
-**Eye of the Sun and Moon (Ex)**
+This ability replaces tongue of the sun and moon. For the monk from _Pathfinder Unchained_, this
+ability is gained at 13th level.
 
-**Ability:** A perfect scholar can read all languages and write all languages he has read or heard.
+## Walk with the Master (Su) {#walk-with-the-master}
 
-**Gained:** At 17th Level
-
-**Replaces:** Tongue of the sun and moon
-
-**Walk with the Master (Su)**
-
-**Ability:** The perfect scholar has mastered his spiritual resonance, allowing him to travel as if
-using [etherealness](ref/spell/etherealness), [plane shift](ref/spell/plane-shift), or
-[shadow walk](ref/spell/shadow-walk) at his monk level by spending only 1 point from his _ki pool._
+At 20th level, the perfect scholar has mastered his spiritual resonance, allowing him to travel as
+if using _[etherealness](ref/spell/etherealness)_, _[plane shift](ref/spell/plane-shift)_, or
+_[shadow walk](ref/spell/shadow-walk)_ at his monk level by spending only 1 point from his ki pool.
 He cannot bring other creatures with him. He is treated as an [outsider](ref/type/outsider) rather
 than his original type, although he can be brought back to life as if he were still of his former
 type.
 
-**Alters:** Perfect self
-
-**Gained:** At 20th Level
+This ability alters perfect self.

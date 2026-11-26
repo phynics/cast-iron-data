@@ -16,12 +16,19 @@ page = "41"
 
 [fields]
 kind = "archetype"
+features = [
+  { anchor = "guardian-s-gaze", level = 2 },
+  { anchor = "desert-survivor", level = 2 },
+  { anchor = "liar-s-familiarity", level = 7 },
+  { anchor = "orchid-s-drop", level = 11 },
+  { anchor = "teleportation-warden", level = 13 },
+]
 trades = [
-  { replaces = "Poison lore", feature = "poison-lore" },
-  { replaces = "Poison resistance", feature = "poison-resistance", levels = [2, 5, 8] },
-  { replaces = "Investigator talent gained at 7th level", feature = "investigator-talent", levels = [7] },
-  { replaces = "Immunity to poison", feature = "poison-resistance", levels = [11] },
-  { replaces = "Investigator talent gained at 13th level", feature = "investigator-talent", levels = [13] },
+  { replaces = "Poison lore", feature = "poison-lore", by = ["guardian-s-gaze"] },
+  { replaces = "Poison resistance", feature = "poison-resistance", levels = [2, 5, 8], by = ["desert-survivor"] },
+  { replaces = "Investigator talent gained at 7th level", feature = "investigator-talent", levels = [7], by = ["liar-s-familiarity"] },
+  { replaces = "Immunity to poison", feature = "poison-resistance", levels = [11], by = ["orchid-s-drop"] },
+  { replaces = "Investigator talent gained at 13th level", feature = "investigator-talent", levels = [13], by = ["teleportation-warden"] },
 ]
 +++
 
@@ -29,64 +36,54 @@ Guardians of immortality are Thuvian investigators charged with hunting down tho
 to steal or learn for themselves the secret to creating the
 [sun orchid elixir](ref/magic-artifact/sun-orchid-elixir).
 
-**Guardian's Gaze (Ex)**
+## Guardian's Gaze (Ex) {#guardian-s-gaze}
 
-**Gained:** At 2nd Level
-
-**Passive:** A guardian of immortality adds 1/2 his investigator level as a bonus on Sense Motive
+At 2nd level, a guardian of immortality adds 1/2 his investigator level as a bonus on Sense Motive
 checks.
 
-**Replaces:** Poison lore
+This ability replaces poison lore.
 
-**Desert Survivor (Ex)**
+## Desert Survivor (Ex) {#desert-survivor}
 
-**Ability:** A guardian of immortality is trained by the druids of Duwwor to survive the hazards of
+At 2nd level, a guardian of immortality is trained by the druids of Duwwor to survive the hazards of
 the desert. He gains [Endurance](ref/feat/endurance) as a bonus feat and does not treat sand as
-[difficult terrain](ref/rule/terrain-and-obstacles).
+[difficult terrain](ref/rule/terrain-and-obstacles). At 5th level, he gains
+[resist](ref/umr/resistance) fire 10. At 8th level, he can see twice as far in sandstorms, clouds,
+and fog, and whenever he gains an advantage in a desert tile during a [pursuit](ref/rule/pursuit),
+he gains an additional advantage.
 
-**At 5th Level:** He gains [resist](ref/umr/resistance) fire 10.
+This ability replaces poison resistance.
 
-**At 8th Level:** He can see twice as far in sandstorms, clouds, and fog, and whenever he gains an
-advantage in a desert tile during a [pursuit](ref/rule/pursuit), he gains an additional advantage.
+## Liar's Familiarity (Ex) {#liar-s-familiarity}
 
-**Gained:** At 2nd Level
+At 7th level, a guardian of immortality learns Lamasaran decoy and forgery techniques to better
+defeat them. His inspiration applies automatically without using an action or a use of inspiration
+on saving throws to disbelieve illusions, Disguise skill checks, Perception checks to see through
+disguises, and Linguistics checks to create or detect forgeries.
 
-**Replaces:** Poison resistance
+This replaces the investigator talent gained at 7th level.
 
-**Liar's Familiarity (Ex)**
+## Orchid's Drop (Ex) {#orchid-s-drop}
 
-**Gained:** At 7th Level
-
-**Passive:** A guardian of immortality learns Lamasaran decoy and forgery techniques to better
-defeat them. His _inspiration_ applies automatically without using an action or a use of
-_inspiration_ on saving throws to disbelieve illusions, Disguise skill checks, Perception checks to
-see through disguises, and Linguistics checks to create or detect forgeries.
-
-**Replaces:** Investigator talent gained at 7th level
-
-**Orchid's Drop (Ex)**
-
-**Gained:** At 11th Level
-
-**Passive:** A guardian of immortality is entrusted with a secret solution designed by Thuvian
-alchemists to emulate certain aspects of the sun orchid elixir, granting him a +1 alchemical bonus
+At 11th level, a guardian of immortality is entrusted with a secret solution designed by Thuvian
+alchemists to emulate certain aspects of the _sun orchid elixir_, granting him a +1 alchemical bonus
 on all saving throws.
 
-**Replaces:** Immunity to poison
+This ability replaces immunity to poison.
 
-**Teleportation Warden (Su)**
+## Teleportation Warden (Su) {#teleportation-warden}
 
-**Ability:** A guardian of immortality is trained by the mages of Pashow to sense the impending
+At 13th level, a guardian of immortality is trained by the mages of Pashow to sense the impending
 arrival or departure of creatures using teleportation. This ability constantly functions like
-[trace teleport](ref/spell/trace-teleport). In addition, the guardian of immortality can use
-[conjuration foil](ref/spell/conjuration-foil) once per day as an **immediate action**.
+_[trace teleport](ref/spell/trace-teleport)_. In addition, the guardian of immortality can use
+_[conjuration foil](ref/spell/conjuration-foil)_ once per day as an immediate action.
 
-**Gained:** At 13th Level
+This replaces the investigator talent gained at 13th level.
 
-**Replaces:** Investigator talent gained at 13th level
+## Investigator Talents {#investigator-talents}
 
-**Investigator Talents:** The following investigator talents complement the guardian of immortality
-archetype: [alchemist discovery](ref/invtalent/alchemist-discovery),
+The following investigator talents complement the guardian of immortality archetype:
+[alchemist discovery](ref/invtalent/alchemist-discovery),
 [combat inspiration](ref/invtalent/combat-inspiration),
 [greater combat inspiration](ref/invtalent/greater-combat-inspiration),
 [inspired alertness](ref/invtalent/inspired-alertness),

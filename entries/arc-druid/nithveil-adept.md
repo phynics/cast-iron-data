@@ -16,10 +16,18 @@ page = "44"
 
 [fields]
 kind = "archetype"
+features = [
+  { anchor = "nithveil-skills", level = 1 },
+  { anchor = "nature-bond" },
+  { anchor = "animal-speech" },
+  { anchor = "resist-fey-influence", level = 4 },
+  { anchor = "locate-nithveil", level = 9 },
+]
 trades = [
-  { replaces = "Spontaneous casting", feature = "spontaneous-casting" },
-  { replaces = "Resist nature's lure", feature = "resist-nature-s-lure" },
-  { alters = "Nature bond", feature = "nature-bond" },
+  { replaces = "Spontaneous casting", feature = "spontaneous-casting", by = ["animal-speech"] },
+  { replaces = "Resist nature's lure", feature = "resist-nature-s-lure", by = ["resist-fey-influence"] },
+  { alters = "Nature bond", feature = "nature-bond", by = ["nature-bond"] },
+  { replaces = "Nature sense", feature = "nature-sense", by = ["nithveil-skills"] },
 ]
 +++
 
@@ -28,53 +36,45 @@ Nithveil, which appears on the new moon at seemingly random locations in the Gru
 Lands of the Linnorm Kings. The most common deities worshiped by these druids are the Green Mother
 and the Lantern King, Eldest patrons of intrigue and trickery.
 
-**Gained class skills:** bluff, diplo, dis, sm, perf, stl
+## Nithveil Skills {#nithveil-skills}
 
-**Additional:** This also replaces the Nature Sense ability
+A Nithveil adept adds Bluff, Diplomacy, Disguise, Sense Motive, Perform (any), and Stealth to her
+list of class skills.
 
-**Nature Bond (Su)**
+This ability replaces nature sense.
 
-**Alters:** Nature bond
+## Nature Bond (Su) {#nature-bond}
 
-**Choice:** A Nithveil adept cannot select an animal companion, and can take only a domain. If she
-worships an [Eldest](ref/rule/the-eldest), the Nithveil trickster can choose any of the domains or
-subdomains granted by that Eldest in addition to those normally available to druids.
+A Nithveil adept cannot select an animal companion, and can take only a domain. If she worships an
+[Eldest](ref/rule/the-eldest), the Nithveil trickster can choose any of the domains or subdomains
+granted by that Eldest in addition to those normally available to druids.
 
-**Animal Speech (Su)**
+This ability alters nature bond.
 
-**Flavor:** A Nithveil adept can imbue normal animals with the ability to speak for a brief period.
+## Animal Speech (Su) {#animal-speech}
 
-**Replaces:** Spontaneous casting
+A Nithveil adept can imbue normal animals with the ability to speak for a brief period. Once per day
+as a standard action, the Nithveil adept can touch an animal to grant it the ability to speak any
+language the druid knows for 1 minute per druid level. This does not increase the animal's
+Intelligence or improve its attitude, and the animal behaves as though communicating with someone
+under the effects of a _[speak with animals](ref/spell/speak-with-animals)_ spell, save that it can
+speak with anyone who understands the language the Nithveil adept grants it. The Nithveil adept
+gains one additional use of this ability at 4th level and every 4 levels thereafter.
 
-**Standard:** The Nithveil adept can touch an animal to grant it the ability to speak any language
-the druid knows for 1 minute per druid level. This does not increase the animal's Intelligence or
-improve its attitude, and the animal behaves as though communicating with someone under the effects
-of a [speak with animals](ref/spell/speak-with-animals) spell, save that it can speak with anyone
-who understands the language the Nithveil adept grants it.
+This ability replaces spontaneous casting.
 
-**Usage:** 1 time/day + 1 per 4 druid levels
+## Resist Fey Influence (Ex) {#resist-fey-influence}
 
-**Resist Fey Influence (Ex)**
+At 4th level, a Nithveil adept gains a +4 bonus on saving throws against the spell-like and
+supernatural abilities of fey. Once per day before attempting such a saving throw, the Nithveil
+adept can choose to roll two dice and take the better result, applying the +4 bonus as normal.
 
-**Ability:** Once per day before attempting such a saving throw, the Nithveil adept can choose to
-roll two dice and take the better result, applying the +4 bonus as normal.
+This ability replaces resist nature's lure.
 
-**Gained:** At 4th Level
+## Locate Nithveil (Sp) {#locate-nithveil}
 
-**Passive:** A Nithveil adept gains a +4 bonus on saving throws against the spell-like and
-supernatural abilities of fey.
-
-**Replaces:** Resist nature's lure
-
-**Locate Nithveil (Sp)**
-
-**Ability:** A Nithveil adept can cast [find the path](ref/spell/find-the-path) as a
+At 9th level, a Nithveil adept can cast _[find the path](ref/spell/find-the-path)_ as a
 [spell-like ability](ref/umr/spell-like-abilities), but only to locate Nithveil. The spell's
 duration is extended until the druid reaches her destination or until Nithveil recedes from the
-Material Plane at the end of the new moon.
-
-**Gained:** At 9th Level
-
-**Usage:** This ability can be used only once per month, during the new moon.
-
-**Usage:** This ability can be used only once per month, during the new moon.
+Material Plane at the end of the new moon. This ability can be used only once per month, during the
+new moon.

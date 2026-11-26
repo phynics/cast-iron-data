@@ -16,12 +16,18 @@ page = "38"
 
 [fields]
 kind = "archetype"
+features = [
+  { anchor = "hardy-killer", level = 2 },
+  { anchor = "track-victim", level = 4 },
+  { anchor = "swift-tracker", level = 8 },
+]
 trades = [
-  { replaces = "Ability to treat Acrobatics jump checks as if he had a running start" },
-  { replaces = "ability to reduce Acrobatics jump checks by half" },
-  { replaces = "Uncanny dodge", feature = "uncanny-dodge" },
-  { replaces = "Improved uncanny dodge", feature = "improved-uncanny-dodge" },
-  { alters = "Ki pool", feature = "ki-pool" },
+  { replaces = "Ability to treat Acrobatics jump checks as if he had a running start", by = ["hardy-killer"] },
+  { replaces = "ability to reduce Acrobatics jump checks by half", by = ["hardy-killer"] },
+  { replaces = "Uncanny dodge", feature = "uncanny-dodge", by = ["track-victim"] },
+  { replaces = "Improved uncanny dodge", feature = "improved-uncanny-dodge", by = ["swift-tracker"] },
+  { alters = "Ki pool", feature = "ki-pool", by = ["hardy-killer"] },
+  { alters = "Class skills" },
 ]
 +++
 
@@ -29,57 +35,53 @@ Frozen shadows belong to a rare ninja clan operating in Avistan, having migrated
 Linnorm Kings decades ago. Most members are Tian, Ulfen, and Varki humans, and they work as thieves,
 power brokers, and spies loosely guided by secretive masters with unknown agendas.
 
-**Gained class skills:** sur
+## Class Skills {#class-skills}
 
-**Lost class skills:** diplo
+A frozen shadow adds Survival to his list of class skills, instead of Diplomacy.
 
-**Hardy Killer (Ex)**
+This ability alters the ninja's class skills.
 
-**Ability:** A frozen shadow has become incredibly inured to his surrounding climate. At the
+## Hardy Killer (Ex) {#hardy-killer}
+
+At 2nd level, a frozen shadow has become incredibly inured to his surrounding climate. At the
 beginning of any day, the frozen shadow can spend 1 point from his ki pool to benefit from the
-effects of an [endure elements](ref/spell/endure-elements) spell.
+effects of an _[endure elements](ref/spell/endure-elements)_ spell. The frozen shadow does not treat
+any Acrobatics skill check to jump as if he had a running start, and at 10th level he cannot reduce
+the DC of Acrobatics skill checks made to jump by half.
 
-**Alters:** Ki pool
+This ability alters ki pool.
 
-**Gained:** At 2nd Level
+## Track Victim (Ex) {#track-victim}
 
-**Replaces:** Ability to treat Acrobatics jump checks as if he had a running start, ability to
-reduce Acrobatics jump checks by half
+Starting at 4th level, a frozen shadow adds half his ninja level on Survival checks to follow tracks
+and on Perception checks to see through disguises. Additionally, if the frozen shadow sees a
+creature that has changed its appearance using the Disguise skill, he can always attempt a
+Perception check to see through the disguise, even if the disguised creature did nothing to draw
+attention to itself. The frozen shadow also gains a +2 bonus to Will saving throws when attempting
+to disbelieve an illusion affecting a creature or creatures.
 
-**Track Victim (Ex)**
+This ability replaces uncanny dodge.
 
-**Gained:** At 4th Level
+## Swift Tracker (Ex) {#swift-tracker}
 
-**Passive:** A frozen shadow adds half his ninja level on Survival checks to follow tracks and on
-Perception checks to see through disguises. Additionally, if the frozen shadow sees a creature that
-has changed its appearance using the Disguise skill, he can always attempt a Perception check to see
-through the disguise, even if the disguised creature did nothing to draw attention to itself.
-
-**Replaces:** Uncanny dodge
-
-**Special:** The frozen shadow also gains a +2 bonus to Will saving throws when attempting to
-disbelieve an illusion affecting a creature or creatures.
-
-**Swift Tracker (Ex)**
-
-**Ability:** A frozen shadow can move at his normal speed while using Survival to follow tracks
+At 8th level, a frozen shadow can move at his normal speed while using Survival to follow tracks
 without taking the normal -5 penalty. He takes only a -10 penalty (instead of the normal -20) when
-moving up to twice his normal speed while tracking.
+moving up to twice his normal speed while tracking. Additionally, his bonus on Will saving throws to
+disbelieve illusions affecting a creature or creatures increases to +4.
 
-**Gained:** At 8th Level
+This replaces improved uncanny dodge.
 
-**Replaces:** Improved uncanny dodge
+## Ninja Tricks {#ninja-tricks}
 
-**Special:** Additionally, his bonus on Will saving throws to disbelieve illusions affecting a
-creature or creatures increases to +4.
-
-**The following ninja tricks complement the frozen shadow archetype:**
+The following ninja tricks complement the frozen shadow archetype:
 [bleeding attack](ref/ninjatrick/bleeding-attack), [darkvision](ref/ninjatrick/darkvision),
 [deadly range](ref/ninjatrick/deadly-range), [fast stealth](ref/ninjatrick/fast-stealth),
 [hidden weapons](ref/ninjatrick/hidden-weapons), [sudden disguise](ref/ninjatrick/sudden-disguise),
 [vanishing trick](ref/ninjatrick/vanishing-trick), and [wall climber](ref/ninjatrick/wall-climber).
 
-**The following advanced ninja tricks complement the frozen shadow archetype:**
+## Advanced Ninja Tricks {#advanced-ninja-tricks}
+
+The following advanced ninja tricks complement the frozen shadow archetype:
 [assassinate](ref/ninjatrick/assassinate), [ghost step](ref/ninjatrick/ghost-step),
 [invisible blade](ref/ninjatrick/invisible-blade),
 [master disguise](ref/ninjatrick/master-disguise), and
