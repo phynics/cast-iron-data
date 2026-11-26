@@ -1,0 +1,315 @@
+entry	sentence
+ref/arc-barbarian/breaker	This ability replaces fast movement.
+ref/arc-barbarian/breaker	This ability replaces trap sense.
+ref/arc-barbarian/brutal-pugilist	This ability replaces uncanny dodge.
+ref/arc-barbarian/brutal-pugilist	This ability replaces trap sense.
+ref/arc-barbarian/brutal-pugilist	This ability replaces improved uncanny dodge.
+ref/arc-barbarian/drunken-brute	This ability replaces fast movement.
+ref/arc-barbarian/elemental-kin	This ability replaces trap sense.
+ref/arc-barbarian/hurler	This ability replaces fast movement.
+ref/arc-barbarian/invulnerable-rager	This ability replaces uncanny dodge, improved uncanny dodge, and damage reduction.
+ref/arc-barbarian/invulnerable-rager	This ability replaces trap sense.
+ref/arc-barbarian/mounted-fury	This ability replaces fast movement.
+ref/arc-barbarian/mounted-fury	This ability replaces uncanny dodge and improved uncanny dodge.
+ref/arc-barbarian/savage-barbarian	This ability replaces trap sense.
+ref/arc-barbarian/savage-barbarian	This ability replaces damage reduction.
+ref/arc-barbarian/superstitious	This ability replaces trap sense.
+ref/arc-barbarian/superstitious	This ability replaces damage reduction.
+ref/arc-bard/arcane-duelist	This ability replaces bardic knowledge.
+ref/arc-bard/arcane-duelist	This performance replaces countersong.
+ref/arc-bard/arcane-duelist	This performance replaces suggestion.
+ref/arc-bard/arcane-duelist	This ability replaces mass suggestion.
+ref/arc-bard/arcane-duelist	This ability replaces versatile performance and well-versed.
+ref/arc-bard/arcane-duelist	This ability replaces lore master.
+ref/arc-bard/arcane-duelist	This ability replaces jack of all trades.
+ref/arc-bard/archivist	This ability replaces inspire courage.
+ref/arc-bard/archivist	This ability replaces suggestion.
+ref/arc-bard/archivist	This ability replaces mass suggestion.
+ref/arc-bard/archivist	This ability replaces versatile performance.
+ref/arc-bard/archivist	This ability replaces well-versed.
+ref/arc-bard/archivist	This ability replaces lore master.
+ref/arc-bard/archivist	This ability replaces jack of all trades.
+ref/arc-bard/court-bard	This performance replaces inspire courage.
+ref/arc-bard/court-bard	This performance replaces inspire competence.
+ref/arc-bard/court-bard	This performance replaces dirge of doom.
+ref/arc-bard/court-bard	This performance replaces frightening tune.
+ref/arc-bard/court-bard	This ability replaces bardic knowledge.
+ref/arc-bard/court-bard	This ability replaces lore master and jack of all trades.
+ref/arc-bard/detective	This performance replaces inspire courage.
+ref/arc-bard/detective	This performance replaces inspire greatness.
+ref/arc-bard/detective	This performance replaces inspire heroics.
+ref/arc-bard/detective	This ability replaces bardic knowledge.
+ref/arc-bard/detective	This ability replaces well-versed.
+ref/arc-bard/detective	This ability replaces versatile performance.
+ref/arc-bard/magician	This performance replaces dirge of doom.
+ref/arc-bard/magician	This performance replaces frightening tune.
+ref/arc-bard/magician	This ability replaces bardic knowledge.
+ref/arc-bard/magician	This ability replaces countersong.
+ref/arc-bard/magician	This ability replaces well-versed.
+ref/arc-bard/magician	This ability replaces versatile performance.
+ref/arc-bard/magician	This ability replaces lore master.
+ref/arc-bard/magician	This ability replaces jack of all trades.
+ref/arc-bard/sandman	This performance replaces inspire courage.
+ref/arc-bard/sandman	This performance replaces suggestion.
+ref/arc-bard/sandman	This ability replaces inspire greatness.
+ref/arc-bard/sandman	This performance replaces inspire heroics.
+ref/arc-bard/sandman	This performance replaces mass suggestion.
+ref/arc-bard/sandman	This performance replaces deadly performance.
+ref/arc-bard/sandman	This ability replaces bardic knowledge.
+ref/arc-bard/sandman	This ability replaces versatile performance.
+ref/arc-bard/sandman	This ability replaces inspire competence.
+ref/arc-bard/sandman	This ability replaces lore master.
+ref/arc-bard/savage-skald	This performance replaces fascinate.
+ref/arc-bard/savage-skald	This performance replaces suggestion.
+ref/arc-bard/savage-skald	This performance replaces jack of all trades.
+ref/arc-bard/savage-skald	This performance replaces soothing performance.
+ref/arc-bard/savage-skald	This performance replaces mass suggestion.
+ref/arc-bard/sea-singer	This performance replaces countersong.
+ref/arc-bard/sea-singer	This performance replaces inspire competence.
+ref/arc-bard/sea-singer	This performance replaces suggestion.
+ref/arc-bard/sea-singer	This performance replaces mass suggestion.
+ref/arc-bard/sea-singer	This ability replaces bardic knowledge.
+ref/arc-bard/sea-singer	This ability replaces versatile performance.
+ref/arc-bard/sea-singer	This ability replaces well-versed.
+ref/arc-bard/street-performer	This performance replaces inspire courage.
+ref/arc-bard/street-performer	This performance replaces inspire competence.
+ref/arc-bard/street-performer	This performance replaces inspire greatness.
+ref/arc-bard/street-performer	This performance replaces inspire heroics.
+ref/arc-bard/street-performer	This ability replaces countersong.
+ref/arc-bard/street-performer	This replaces bardic knowledge.
+ref/arc-bard/street-performer	This ability replaces lore master.
+ref/arc-druid/aquatic-druid	This ability replaces woodland stride.
+ref/arc-druid/aquatic-druid	This ability replaces trackless step.
+ref/arc-druid/aquatic-druid	This ability replaces resist nature’s lure.
+ref/arc-druid/aquatic-druid	This ability replaces venom immunity.
+ref/arc-druid/aquatic-druid	This ability replaces a thousand faces.
+ref/arc-druid/arctic-druid	This ability replaces woodland stride.
+ref/arc-druid/arctic-druid	This ability replaces trackless step.
+ref/arc-druid/arctic-druid	This ability replaces resist nature’s lure.
+ref/arc-druid/arctic-druid	This ability replaces venom immunity.
+ref/arc-druid/arctic-druid	This ability replaces a thousand faces.
+ref/arc-druid/bear-shaman	This ability replaces a thousand faces.
+ref/arc-druid/bear-shaman	This ability replaces venom immunity.
+ref/arc-druid/blight-druid	This ability replaces wild empathy.
+ref/arc-druid/blight-druid	This ability replaces trackless step and resist nature’s lure.
+ref/arc-druid/blight-druid	This ability replaces venom immunity.
+ref/arc-druid/blight-druid	This ability replaces a thousand faces.
+ref/arc-druid/cave-druid	This ability replaces the nature sense ability.
+ref/arc-druid/cave-druid	This ability replaces woodland stride.
+ref/arc-druid/cave-druid	This ability replaces trackless step.
+ref/arc-druid/cave-druid	This ability replaces resist nature’s lure.
+ref/arc-druid/desert-druid	This ability replaces woodland stride.
+ref/arc-druid/desert-druid	This ability replaces trackless step.
+ref/arc-druid/desert-druid	This ability replaces resist nature’s lure.
+ref/arc-druid/desert-druid	This ability replaces venom immunity.
+ref/arc-druid/desert-druid	This ability replaces a thousand faces.
+ref/arc-druid/eagle-shaman	This ability replaces venom immunity.
+ref/arc-druid/jungle-druid	This ability replaces woodland stride.
+ref/arc-druid/jungle-druid	This ability replaces trackless step.
+ref/arc-druid/jungle-druid	This ability replaces resist nature’s lure.
+ref/arc-druid/jungle-druid	This ability replaces a thousand faces.
+ref/arc-druid/lion-shaman	This ability replaces venom immunity.
+ref/arc-druid/mountain-druid	This ability replaces woodland stride.
+ref/arc-druid/mountain-druid	This ability replaces trackless step.
+ref/arc-druid/mountain-druid	This ability replaces resist nature’s lure.
+ref/arc-druid/mountain-druid	This ability replaces venom immunity.
+ref/arc-druid/mountain-druid	This ability replaces a thousand faces.
+ref/arc-druid/plains-druid	This ability replaces woodland stride.
+ref/arc-druid/plains-druid	This ability replaces trackless step.
+ref/arc-druid/plains-druid	This ability replaces resist nature’s lure.
+ref/arc-druid/plains-druid	This ability replaces venom immunity.
+ref/arc-druid/plains-druid	This ability replaces a thousand faces.
+ref/arc-druid/serpent-shaman	This ability replaces venom immunity.
+ref/arc-druid/swamp-druid	This ability replaces woodland stride.
+ref/arc-druid/swamp-druid	This ability replaces trackless step.
+ref/arc-druid/swamp-druid	This ability replaces resist nature’s lure.
+ref/arc-druid/swamp-druid	This ability replaces a thousand faces.
+ref/arc-druid/urban-druid	This ability replaces the ability to spontaneously cast summon nature’s ally spells.
+ref/arc-druid/urban-druid	This ability replaces a druid’s woodland stride and trackless step abilities.
+ref/arc-druid/urban-druid	This replaces the resist nature’s lure ability.
+ref/arc-druid/urban-druid	This ability replaces venom immunity.
+ref/arc-druid/wolf-shaman	This ability replaces venom immunity.
+ref/arc-fighter/archer	This ability replaces bravery.
+ref/arc-fighter/archer	This ability replaces armor training 1, 2, 3, and 4.
+ref/arc-fighter/archer	This ability replaces weapon training 1.
+ref/arc-fighter/archer	This ability replaces weapon training 2.
+ref/arc-fighter/archer	This ability replaces weapon training 3.
+ref/arc-fighter/archer	This ability replaces weapon training 4.
+ref/arc-fighter/archer	This ability replaces armor mastery.
+ref/arc-fighter/crossbowman	This ability replaces armor training 1.
+ref/arc-fighter/crossbowman	This ability replaces weapon training 1.
+ref/arc-fighter/crossbowman	This ability replaces armor training 2.
+ref/arc-fighter/crossbowman	This ability replaces weapon training 2.
+ref/arc-fighter/crossbowman	This ability replaces armor training 3.
+ref/arc-fighter/crossbowman	This ability replaces weapon training 3.
+ref/arc-fighter/crossbowman	This ability replaces armor training 4.
+ref/arc-fighter/crossbowman	This ability replaces weapon training 4.
+ref/arc-fighter/crossbowman	This ability replaces armor mastery.
+ref/arc-fighter/free-hand-fighter	This ability replaces bravery.
+ref/arc-fighter/free-hand-fighter	This ability replaces armor training 1, 2, 3, and 4.
+ref/arc-fighter/free-hand-fighter	This ability replaces weapon training 1 and 4.
+ref/arc-fighter/free-hand-fighter	This ability replaces weapon training 2.
+ref/arc-fighter/free-hand-fighter	This ability replaces weapon training 3.
+ref/arc-fighter/free-hand-fighter	This ability replaces armor mastery.
+ref/arc-fighter/mobile-fighter	This ability replaces bravery.
+ref/arc-fighter/mobile-fighter	This ability replaces weapon training 1, 2, 3, and 4.
+ref/arc-fighter/mobile-fighter	This ability replaces armor training 3.
+ref/arc-fighter/mobile-fighter	This ability replaces armor training 4.
+ref/arc-fighter/mobile-fighter	This ability replaces weapon mastery.
+ref/arc-fighter/phalanx-soldier	This ability replaces bravery.
+ref/arc-fighter/phalanx-soldier	This ability replaces armor training 1.
+ref/arc-fighter/phalanx-soldier	This ability replaces weapon training 1.
+ref/arc-fighter/phalanx-soldier	This ability replaces armor training 2 and 3.
+ref/arc-fighter/phalanx-soldier	This ability replaces weapon training 2, 3, and 4.
+ref/arc-fighter/phalanx-soldier	This ability replaces armor training 4.
+ref/arc-fighter/phalanx-soldier	This ability replaces weapon mastery.
+ref/arc-fighter/polearm-master	This ability replaces bravery.
+ref/arc-fighter/polearm-master	This ability replaces armor training 1, 2, 3, and 4.
+ref/arc-fighter/polearm-master	This ability replaces weapon training 1.
+ref/arc-fighter/polearm-master	This ability replaces weapon training 2.
+ref/arc-fighter/polearm-master	This ability replaces weapon training 3.
+ref/arc-fighter/polearm-master	This ability replaces weapon training 4.
+ref/arc-fighter/polearm-master	This ability replaces armor mastery.
+ref/arc-fighter/roughrider	This ability replaces bravery.
+ref/arc-fighter/roughrider	This ability replaces armor training 1.
+ref/arc-fighter/roughrider	This ability replaces weapon training 1, 2, 3, and 4.
+ref/arc-fighter/roughrider	This ability replaces armor training 2.
+ref/arc-fighter/roughrider	This ability replaces armor training 3.
+ref/arc-fighter/roughrider	This ability replaces armor training 4.
+ref/arc-fighter/roughrider	This ability replaces armor training 4.
+ref/arc-fighter/roughrider	This ability replaces armor mastery.
+ref/arc-fighter/savage-warrior	This ability replaces bravery.
+ref/arc-fighter/savage-warrior	This ability replaces weapon training 1.
+ref/arc-fighter/savage-warrior	This ability replaces weapon training 2.
+ref/arc-fighter/savage-warrior	This ability replaces weapon training 3.
+ref/arc-fighter/savage-warrior	This ability replaces weapon training 4.
+ref/arc-fighter/savage-warrior	This ability replaces weapon mastery.
+ref/arc-fighter/shielded-fighter	This ability replaces armor training 1, 2, 3, and 4.
+ref/arc-fighter/shielded-fighter	This ability replaces weapon training 1.
+ref/arc-fighter/shielded-fighter	This ability replaces weapon training 2 and 3.
+ref/arc-fighter/shielded-fighter	This ability replaces weapon training 4.
+ref/arc-fighter/shielded-fighter	This ability replaces armor mastery.
+ref/arc-fighter/shielded-fighter	This ability replaces weapon mastery.
+ref/arc-fighter/two-handed-fighter	This ability replaces bravery.
+ref/arc-fighter/two-handed-fighter	This ability replaces armor training 1.
+ref/arc-fighter/two-handed-fighter	This ability replaces armor training 2.
+ref/arc-fighter/two-handed-fighter	This ability replaces armor training 3.
+ref/arc-fighter/two-handed-fighter	This ability replaces armor training 4.
+ref/arc-fighter/two-handed-fighter	This ability replaces armor mastery.
+ref/arc-fighter/two-weapon-warrior	This ability replaces armor training 1 and 2.
+ref/arc-fighter/two-weapon-warrior	This ability replaces weapon training 1.
+ref/arc-fighter/two-weapon-warrior	This ability replaces weapon training 2.
+ref/arc-fighter/two-weapon-warrior	This ability replaces armor training 3.
+ref/arc-fighter/two-weapon-warrior	This ability replaces weapon training 3.
+ref/arc-fighter/two-weapon-warrior	This ability replaces armor training 4.
+ref/arc-fighter/two-weapon-warrior	This ability replaces weapon training 4.
+ref/arc-fighter/two-weapon-warrior	This ability replaces armor mastery.
+ref/arc-fighter/weapon-master	This ability replaces bravery.
+ref/arc-fighter/weapon-master	This ability replaces armor training 1, 2, 3, and 4.
+ref/arc-fighter/weapon-master	This ability replaces weapon training 1.
+ref/arc-fighter/weapon-master	This ability replaces weapon training 2.
+ref/arc-fighter/weapon-master	This ability replaces weapon training 3.
+ref/arc-fighter/weapon-master	This ability replaces weapon training 4.
+ref/arc-fighter/weapon-master	This ability replaces armor mastery.
+ref/arc-monk/drunken-master	This ability replaces still mind.
+ref/arc-monk/drunken-master	This ability replaces purity of body.
+ref/arc-monk/drunken-master	This ability replaces diamond body.
+ref/arc-monk/drunken-master	This ability replaces diamond soul.
+ref/arc-monk/drunken-master	This ability replaces empty body.
+ref/arc-monk/hungry-ghost-monk	This ability replaces Stunning Fist.
+ref/arc-monk/hungry-ghost-monk	This ability replaces purity of body.
+ref/arc-monk/hungry-ghost-monk	This ability replaces wholeness of body.
+ref/arc-monk/hungry-ghost-monk	This ability replaces diamond body.
+ref/arc-monk/ki-mystic	This ability replaces still mind.
+ref/arc-monk/ki-mystic	This ability replaces purity of body.
+ref/arc-monk/ki-mystic	This ability replaces diamond body.
+ref/arc-monk/ki-mystic	This ability replaces diamond soul.
+ref/arc-monk/ki-mystic	This ability replaces empty body.
+ref/arc-monk/monk-of-the-empty-hand	This replaces the normal monk weapon proficiencies.
+ref/arc-monk/monk-of-the-empty-hand	This ability replaces still mind.
+ref/arc-monk/monk-of-the-empty-hand	This ability replaces purity of body and diamond body.
+ref/arc-monk/monk-of-the-four-winds	This ability replaces Stunning Fist.
+ref/arc-monk/monk-of-the-four-winds	This ability replaces abundant step.
+ref/arc-monk/monk-of-the-four-winds	This ability replaces timeless body.
+ref/arc-monk/monk-of-the-four-winds	This ability replaces perfect self.
+ref/arc-monk/monk-of-the-healing-hand	This ability replaces wholeness of body.
+ref/arc-monk/monk-of-the-healing-hand	This ability replaces both diamond body and quivering palm.
+ref/arc-monk/monk-of-the-healing-hand	This ability replaces perfect self.
+ref/arc-monk/monk-of-the-lotus	This ability replaces Stunning Fist.
+ref/arc-monk/monk-of-the-lotus	This ability replaces abundant step.
+ref/arc-monk/monk-of-the-lotus	This ability replaces quivering palm.
+ref/arc-monk/monk-of-the-lotus	This ability replaces tongue of the sun and the moon.
+ref/arc-monk/monk-of-the-sacred-mountain	This ability replaces evasion.
+ref/arc-monk/monk-of-the-sacred-mountain	This ability replaces slow fall.
+ref/arc-monk/monk-of-the-sacred-mountain	This ability replaces high jump.
+ref/arc-monk/monk-of-the-sacred-mountain	This ability replaces improved evasion.
+ref/arc-monk/monk-of-the-sacred-mountain	This ability replaces tongue of the sun and the moon.
+ref/arc-monk/weapon-adept	This ability replaces Stunning Fist.
+ref/arc-monk/weapon-adept	This ability replaces evasion.
+ref/arc-monk/weapon-adept	This ability replaces improved evasion.
+ref/arc-monk/weapon-adept	This ability replaces timeless body.
+ref/arc-monk/weapon-adept	This ability replaces perfect self.
+ref/arc-monk/zen-archer	This ability replaces Stunning Fist.
+ref/arc-monk/zen-archer	This ability replaces evasion.
+ref/arc-monk/zen-archer	This ability replaces maneuver training.
+ref/arc-monk/zen-archer	This ability replaces still mind.
+ref/arc-monk/zen-archer	This ability replaces purity of body.
+ref/arc-monk/zen-archer	This ability replaces improved evasion.
+ref/arc-monk/zen-archer	This ability replaces diamond body.
+ref/arc-monk/zen-archer	This ability replaces tongue of the sun and moon.
+ref/arc-paladin/divine-defender	This ability replaces mercy.
+ref/arc-paladin/hospitaler	This replaces the standard paladin’s channel positive energy ability.
+ref/arc-paladin/hospitaler	This ability replaces aura of justice.
+ref/arc-paladin/sacred-servant	This replaces smite evil.
+ref/arc-paladin/sacred-servant	This ability replaces aura of resolve.
+ref/arc-paladin/shining-knight	This ability replaces divine health.
+ref/arc-paladin/shining-knight	This ability replaces aura of justice.
+ref/arc-paladin/undead-scourge	This ability replaces aura of resolve.
+ref/arc-paladin/undead-scourge	This ability replaces aura of justice.
+ref/arc-paladin/warrior-of-the-holy-light	This class feature replaces the paladin’s spells class feature.
+ref/arc-paladin/warrior-of-the-holy-light	This ability replaces aura of faith.
+ref/arc-ranger/beast-master	This ability replaces hunter’s bond.
+ref/arc-ranger/beast-master	This replaces the 6th-level combat style feat.
+ref/arc-ranger/beast-master	This ability replaces camouf lage.
+ref/arc-ranger/guide	This ability replaces favored enemy.
+ref/arc-ranger/guide	This ability replaces hunter’s bond.
+ref/arc-ranger/guide	This ability replaces evasion.
+ref/arc-ranger/guide	This ability replaces quarry and improved quarry.
+ref/arc-ranger/guide	This ability replaces improved evasion.
+ref/arc-ranger/horse-lord	This ability replaces hunter’s bond.
+ref/arc-ranger/horse-lord	This ability replaces camouf lage.
+ref/arc-ranger/horse-lord	This ability replaces hide in plain sight.
+ref/arc-ranger/shapeshifter	This ability replaces favored terrain.
+ref/arc-ranger/shapeshifter	This ability replaces camouf lage.
+ref/arc-ranger/shapeshifter	This ability replaces master hunter.
+ref/arc-ranger/skirmisher	This ability replaces the ranger’s spells class feature.
+ref/arc-ranger/spirit-ranger	This replaces hunter’s bond.
+ref/arc-ranger/spirit-ranger	This ability replaces camouf lage.
+ref/arc-ranger/urban-ranger	This ability replaces favored terrain.
+ref/arc-ranger/urban-ranger	This ability replaces endurance.
+ref/arc-ranger/urban-ranger	This replaces woodland stride.
+ref/arc-ranger/urban-ranger	This replaces camouf lage.
+ref/arc-ranger/urban-ranger	This ability replaces hide in plain sight.
+ref/arc-rogue/acrobat	This ability replaces trapfinding.
+ref/arc-rogue/acrobat	This ability replaces trap sense.
+ref/arc-rogue/burglar	This ability replaces uncanny dodge.
+ref/arc-rogue/burglar	This ability replaces improved uncanny dodge.
+ref/arc-rogue/cutpurse	This ability replaces trapfinding.
+ref/arc-rogue/cutpurse	This ability replaces trap sense.
+ref/arc-rogue/investigator	This ability replaces trapfinding.
+ref/arc-rogue/poisoner	This ability replaces trapfinding.
+ref/arc-rogue/poisoner	This ability replaces trap sense.
+ref/arc-rogue/rake	This ability replaces trapfinding.
+ref/arc-rogue/rake	This ability replaces trap sense.
+ref/arc-rogue/scout	This ability replaces uncanny dodge.
+ref/arc-rogue/scout	This ability replaces improved uncanny dodge.
+ref/arc-rogue/sniper	This ability replaces trapfinding.
+ref/arc-rogue/sniper	This ability replaces trap sense.
+ref/arc-rogue/spy	This ability replaces trapfinding.
+ref/arc-rogue/spy	This ability replaces trap sense.
+ref/arc-rogue/swashbuckler	This ability replaces trapfinding.
+ref/arc-rogue/swashbuckler	This ability replaces trap sense.
+ref/arc-rogue/thug	This ability replaces trapfinding.
+ref/arc-rogue/thug	This ability replaces trap sense.
+ref/arc-rogue/trapsmith	This ability replaces uncanny dodge.
+ref/arc-rogue/trapsmith	This ability replaces improved uncanny dodge.

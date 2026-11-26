@@ -1,0 +1,296 @@
+entry	sentence
+ref/arc-alchemist/beastmorph	This ability replaces swift alchemy.
+ref/arc-alchemist/beastmorph	This ability replaces swift poisoning.
+ref/arc-alchemist/beastmorph	This ability replaces poison resistance +2, +4, and +6, as well as poison immunity.
+ref/arc-alchemist/beastmorph	This ability replaces persistent mutagen.
+ref/arc-alchemist/ragechemist	This ability replaces poison use.
+ref/arc-alchemist/ragechemist	This ability replaces swift poisoning.
+ref/arc-alchemist/ragechemist	This ability replaces poison immunity.
+ref/arc-antipaladin/knight-of-the-sepulcher	This ability replaces the fiendish boon ability.
+ref/arc-antipaladin/knight-of-the-sepulcher	This ability replaces the aura of despair ability.
+ref/arc-antipaladin/knight-of-the-sepulcher	This ability replaces the smite good use gained at 10th level.
+ref/arc-antipaladin/knight-of-the-sepulcher	This ability replaces the aura of vengeance ability.
+ref/arc-antipaladin/knight-of-the-sepulcher	This ability replaces aura of sin.
+ref/arc-antipaladin/knight-of-the-sepulcher	This ability replaces cruelty.
+ref/arc-antipaladin/knight-of-the-sepulcher	This ability replaces aura of depravity.
+ref/arc-antipaladin/knight-of-the-sepulcher	This ability replaces unholy champion.
+ref/arc-barbarian/armored-hulk	This ability replaces fast movement.
+ref/arc-barbarian/armored-hulk	This ability replaces uncanny dodge.
+ref/arc-barbarian/armored-hulk	This ability replaces trap sense.
+ref/arc-barbarian/armored-hulk	This ability replaces improved uncanny dodge.
+ref/arc-barbarian/scarred-rager	This ability replaces fast movement.
+ref/arc-barbarian/scarred-rager	This ability replaces uncanny dodge.
+ref/arc-barbarian/scarred-rager	This ability replaces trap sense.
+ref/arc-barbarian/scarred-rager	This replaces improved uncanny dodge.
+ref/arc-barbarian/sea-reaver	This ability replaces fast movement.
+ref/arc-barbarian/sea-reaver	This ability replaces uncanny dodge.
+ref/arc-barbarian/sea-reaver	This ability replaces trap sense.
+ref/arc-barbarian/sea-reaver	This ability replaces improved uncanny dodge.
+ref/arc-barbarian/titan-mauler	This ability replaces fast movement.
+ref/arc-barbarian/titan-mauler	This ability replaces uncanny dodge.
+ref/arc-barbarian/titan-mauler	This ability replaces trap sense.
+ref/arc-barbarian/titan-mauler	This ability replaces improved uncanny dodge.
+ref/arc-barbarian/titan-mauler	This ability replaces indomitable will.
+ref/arc-barbarian/true-primitive	This ability replaces fast movement.
+ref/arc-barbarian/true-primitive	This ability replaces trap sense.
+ref/arc-barbarian/urban-barbarian	This ability replaces fast movement.
+ref/arc-barbarian/urban-barbarian	This ability alters rage.
+ref/arc-barbarian/wild-rager	This ability replaces uncanny dodge.
+ref/arc-barbarian/wild-rager	This ability replaces improved uncanny dodge.
+ref/arc-bard/archaeologist	This ability replaces the versatile performance ability.
+ref/arc-bard/archaeologist	This ability replaces well-versed.
+ref/arc-bard/daredevil	This ability replaces bardic knowledge.
+ref/arc-bard/daredevil	This ability replaces inspire courage.
+ref/arc-bard/daredevil	This ability replaces versatile performance.
+ref/arc-bard/daredevil	This ability replaces well-versed.
+ref/arc-bard/daredevil	This ability replaces lore master.
+ref/arc-bard/dervish-dancer	This ability replaces their proficiency with the rapier and whip.
+ref/arc-bard/dervish-dancer	This ability replaces bardic performance.
+ref/arc-bard/dervish-dancer	This ability replaces suggestion and mass suggestion.
+ref/arc-bard/dervish-dancer	This ability replaces dirge of doom.
+ref/arc-bard/dervish-dancer	This ability replaces bardic knowledge and lore master.
+ref/arc-cavalier/beast-rider	This ability replaces the standard cavalier’s mount and expert trainer abilities.
+ref/arc-cavalier/emissary	This ability replaces tactician.
+ref/arc-cavalier/emissary	This ability replaces banner.
+ref/arc-cavalier/emissary	This ability replaces greater tactician.
+ref/arc-cavalier/emissary	This ability replaces greater banner.
+ref/arc-cavalier/emissary	This ability replaces supreme charge.
+ref/arc-cavalier/gendarme	This ability replaces tactician, greater tactician, and master tactician, and alters the standard cavalier’s selection of bonus feats.
+ref/arc-cavalier/gendarme	This ability replaces supreme charge.
+ref/arc-cavalier/honor-guard	This ability replaces cavalier’s charge.
+ref/arc-cavalier/honor-guard	This ability replaces mighty charge.
+ref/arc-cavalier/honor-guard	This ability replaces demanding challenge.
+ref/arc-cavalier/luring-cavalier	This ability replaces cavalier’s charge.
+ref/arc-cavalier/luring-cavalier	This ability replaces mighty charge.
+ref/arc-cavalier/luring-cavalier	This ability replaces demanding challenge.
+ref/arc-cavalier/luring-cavalier	This ability replaces supreme charge.
+ref/arc-cavalier/musketeer	This ability replaces the standard cavalier’s mount ability.
+ref/arc-cavalier/musketeer	This ability replaces expert trainer.
+ref/arc-cavalier/standard-bearer	This ability replaces the standard cavalier’s mount ability.
+ref/arc-cavalier/standard-bearer	This ability replaces the standard cavalier’s banner ability.
+ref/arc-cavalier/standard-bearer	This ability replaces mighty charge.
+ref/arc-cavalier/standard-bearer	This ability replaces supreme charge.
+ref/arc-cavalier/strategist	This ability replaces expert trainer.
+ref/arc-cavalier/strategist	This ability replaces greater banner.
+ref/arc-cavalier/strategist	This ability replaces the cavalier’s 18th-level bonus feat.
+ref/arc-cleric/divine-strategist	This ability replaces channel energy.
+ref/arc-druid/ape-shaman	This ability replaces woodland stride.
+ref/arc-druid/ape-shaman	This ability replaces a thousand faces.
+ref/arc-druid/ape-shaman	This ability replaces venom immunity.
+ref/arc-druid/bat-shaman	This ability replaces woodland stride.
+ref/arc-druid/bat-shaman	This ability replaces venom immunity.
+ref/arc-druid/boar-shaman	This ability replaces woodland stride.
+ref/arc-druid/boar-shaman	This ability replaces venom immunity.
+ref/arc-druid/world-walker	This ability replaces trackless step and resist nature’s lore.
+ref/arc-druid/world-walker	This ability replaces both venom immunity and timeless body.
+ref/arc-fighter/armor-master	This ability replaces bravery.
+ref/arc-fighter/armor-master	This ability replaces weapon training 1 and 3, and armor mastery.
+ref/arc-fighter/armor-master	This ability replaces weapon training 2 and 4.
+ref/arc-fighter/armor-master	This ability replaces weapon mastery.
+ref/arc-fighter/brawler	This ability replaces armor training 1.
+ref/arc-fighter/brawler	This ability replaces weapon training 1 and 2.
+ref/arc-fighter/brawler	This ability replaces armor training 2, 3, and 4 and armor mastery.
+ref/arc-fighter/brawler	This ability replaces weapon training 3 and 4.
+ref/arc-fighter/cad	This ability replaces bravery.
+ref/arc-fighter/cad	This ability replaces armor training 1.
+ref/arc-fighter/cad	This ability replaces weapon training 1, 3, and 4.
+ref/arc-fighter/cad	This ability replaces armor training 2.
+ref/arc-fighter/cad	This ability replaces weapon training 2.
+ref/arc-fighter/cad	This ability replaces armor training 3.
+ref/arc-fighter/cad	This ability replaces weapon training 3 and 4.
+ref/arc-fighter/cad	This ability replaces armor training 4.
+ref/arc-fighter/cad	This ability replaces weapon mastery.
+ref/arc-fighter/dragoon	This ability replaces the 1st-level fighter bonus combat feat.
+ref/arc-fighter/dragoon	This ability replaces armor training 2.
+ref/arc-fighter/dragoon	This ability replaces weapon training 2, 3, and 4.
+ref/arc-fighter/dragoon	This ability replaces armor training 3.
+ref/arc-fighter/dragoon	This ability replaces armor training 4.
+ref/arc-fighter/gladiator	This ability replaces bravery.
+ref/arc-fighter/tactician	This ability replaces the bonus fighter combat feat gained at 1st level.
+ref/arc-fighter/tactician	This ability replaces bravery.
+ref/arc-fighter/tactician	This ability replaces weapon training 1.
+ref/arc-fighter/tactician	This ability replaces armor training 3.
+ref/arc-fighter/tactician	This ability replaces armor training 4.
+ref/arc-fighter/thunderstriker	This ability replaces armor training 1.
+ref/arc-fighter/thunderstriker	This ability replaces armor training 2.
+ref/arc-fighter/thunderstriker	This ability replaces armor training 3.
+ref/arc-fighter/thunderstriker	This ability replaces weapon training 3.
+ref/arc-fighter/thunderstriker	This ability replaces armor training 4.
+ref/arc-fighter/thunderstriker	This ability replaces weapon training 4.
+ref/arc-fighter/thunderstriker	This ability replaces armor mastery.
+ref/arc-fighter/tower-shield-specialist	This ability replaces bravery.
+ref/arc-fighter/tower-shield-specialist	This ability replaces weapon training 1.
+ref/arc-fighter/tower-shield-specialist	This ability replaces weapon training 2.
+ref/arc-fighter/tower-shield-specialist	This ability replaces weapon training 3.
+ref/arc-fighter/tower-shield-specialist	This ability replaces both weapon training 4 and weapon mastery.
+ref/arc-fighter/unarmed-fighter	This ability replaces the bonus feat at 1st level.
+ref/arc-fighter/unarmed-fighter	This ability replaces bravery.
+ref/arc-fighter/unarmed-fighter	This ability replaces armor training 1.
+ref/arc-fighter/unarmed-fighter	This ability replaces weapon training 1, 2, 3, and 4.
+ref/arc-fighter/unarmed-fighter	This ability replaces armor training 2.
+ref/arc-fighter/unarmed-fighter	This ability replaces the 8th-level bonus feat.
+ref/arc-fighter/unarmed-fighter	This ability replaces the 12th-level bonus feat.
+ref/arc-fighter/unarmed-fighter	This ability replaces weapon training 3.
+ref/arc-fighter/unarmed-fighter	This ability replaces armor training 4.
+ref/arc-fighter/unarmed-fighter	This ability replaces armor mastery.
+ref/arc-fighter/unbreakable	This ability replaces the fighter’s 1st-level bonus feat.
+ref/arc-fighter/unbreakable	This ability replaces bravery.
+ref/arc-fighter/unbreakable	This ability replaces weapon training 1.
+ref/arc-fighter/unbreakable	This ability replaces weapon training 2.
+ref/arc-fighter/unbreakable	This ability replaces armor training 3.
+ref/arc-fighter/unbreakable	This ability replaces weapon training 3.
+ref/arc-fighter/unbreakable	This ability replaces armor training 4.
+ref/arc-fighter/unbreakable	This ability replaces weapon training 4.
+ref/arc-fighter/unbreakable	This ability replaces weapon mastery.
+ref/arc-gunslinger/gun-tank	This ability replaces nimble.
+ref/arc-gunslinger/gun-tank	This ability replaces the bonus feats the gunslinger gains at 4th level and every four levels thereafter.
+ref/arc-gunslinger/musket-master	This replaces gun training 1, 2, 3, and 4.
+ref/arc-gunslinger/mysterious-stranger	This replaces the bleeding wound deed.
+ref/arc-gunslinger/mysterious-stranger	This ability replaces nimble.
+ref/arc-gunslinger/mysterious-stranger	This ability replaces gun training 1.
+ref/arc-inquisitor/iconoclast	This ability replaces monster lore.
+ref/arc-inquisitor/iconoclast	This ability replaces detect alignment.
+ref/arc-inquisitor/iconoclast	This ability replaces discern lies.
+ref/arc-inquisitor/iconoclast	This ability replaces exploit weakness.
+ref/arc-inquisitor/iconoclast	This ability replaces true judgment.
+ref/arc-inquisitor/spellbreaker	This ability replaces monster lore.
+ref/arc-inquisitor/spellbreaker	This ability replaces all bonus teamwork feats.
+ref/arc-inquisitor/spellbreaker	This ability replaces solo tactics.
+ref/arc-inquisitor/spellbreaker	This ability replaces true judgment.
+ref/arc-inquisitor/witch-hunter	This ability replaces monster lore.
+ref/arc-inquisitor/witch-hunter	This ability replaces detect alignment, discern lies, and true judgment.
+ref/arc-inquisitor/witch-hunter	This ability replaces track.
+ref/arc-inquisitor/witch-hunter	This ability replaces exploit weakness.
+ref/arc-magus/kensai	This ability replaces spell recall.
+ref/arc-magus/kensai	This ability replaces knowledge pool.
+ref/arc-magus/kensai	This ability replaces the medium armor ability.
+ref/arc-magus/kensai	This ability replaces the magus arcana normally gained at 9th level.
+ref/arc-magus/kensai	This ability replaces improved spell recall.
+ref/arc-magus/kensai	This ability replaces heavy armor.
+ref/arc-magus/kensai	This ability replaces greater spell access.
+ref/arc-magus/kensai	This ability replaces true magus.
+ref/arc-magus/myrmidarch	This ability replaces spell recall and improved spell recall.
+ref/arc-magus/myrmidarch	This ability replaces the magus arcana normally gained at 6th, 12th, and 18th levels.
+ref/arc-magus/myrmidarch	This ability replaces knowledge pool and the fighter training the magus gains at 10th level.
+ref/arc-magus/myrmidarch	This ability replaces improved spell combat and greater spell combat.
+ref/arc-magus/myrmidarch	This ability replaces true magus.
+ref/arc-magus/skirnir	This ability replaces spell combat.
+ref/arc-magus/skirnir	This ability replaces spell recall.
+ref/arc-magus/skirnir	This ability replaces knowledge pool.
+ref/arc-magus/skirnir	This ability replaces improved spell combat, greater spell combat, and greater spell access.
+ref/arc-magus/skirnir	This ability replaces counterstrike.
+ref/arc-magus/soul-forger	This ability replaces knowledge pool.
+ref/arc-magus/soul-forger	This ability replaces spell recall.
+ref/arc-magus/soul-forger	This ability replaces improved spell recall.
+ref/arc-magus/soul-forger	This ability replaces counterstrike.
+ref/arc-magus/soul-forger	This ability replaces greater spell access.
+ref/arc-monk/flowing-monk	This ability replaces stunning fist.
+ref/arc-monk/flowing-monk	This ability replaces the bonus feat gained at 2nd level.
+ref/arc-monk/flowing-monk	This ability replaces fast movement.
+ref/arc-monk/flowing-monk	This ability replaces purity of body and diamond body.
+ref/arc-monk/flowing-monk	This ability replaces quivering palm.
+ref/arc-monk/maneuver-master	This ability replaces flurry of blows.
+ref/arc-monk/maneuver-master	This ability replaces still mind.
+ref/arc-monk/maneuver-master	This ability replaces slow fall.
+ref/arc-monk/maneuver-master	This ability replaces purity of body.
+ref/arc-monk/maneuver-master	This ability replaces diamond body.
+ref/arc-monk/maneuver-master	This ability replaces quivering palm.
+ref/arc-monk/martial-artist	This ability replaces still mind.
+ref/arc-monk/martial-artist	This ability replaces slow fall.
+ref/arc-monk/martial-artist	This ability replaces ki pool.
+ref/arc-monk/martial-artist	This ability replaces purity of body, diamond body, and perfect self.
+ref/arc-monk/martial-artist	This ability replaces wholeness of body, timeless body, and tongue of the sun and moon.
+ref/arc-monk/martial-artist	This ability replaces abundant step.
+ref/arc-monk/martial-artist	This ability replaces diamond soul.
+ref/arc-monk/martial-artist	This ability replaces empty body.
+ref/arc-monk/master-of-many-styles	This ability replaces a monk’s standard bonus feats.
+ref/arc-monk/master-of-many-styles	This ability replaces f lurry of blows.
+ref/arc-monk/master-of-many-styles	This ability replaces perfect self.
+ref/arc-monk/sensei	This ability replaces f lurry of blows, fast movement, and improved evasion.
+ref/arc-monk/sensei	This ability replaces evasion and the bonus feat gained at 2nd level.
+ref/arc-monk/sensei	This ability replaces the bonus feats at 6th, 10th, and 14th level.
+ref/arc-monk/sohei	This ability alters the monk's weapon and armor proficiencies.
+ref/arc-monk/sohei	This ability replaces stunning fist.
+ref/arc-monk/sohei	This ability replaces fast movement and increased unarmed damage.
+ref/arc-monk/sohei	This ability replaces slow fall and abundant step.
+ref/arc-monk/sohei	This ability replaces purity of body, diamond body, quivering palm, timeless body, and tongue of the sun and moon.
+ref/arc-monk/tetori	This ability replaces flurry of blows.
+ref/arc-monk/tetori	This ability replaces slow fall.
+ref/arc-monk/tetori	This ability replaces high jump.
+ref/arc-monk/tetori	This ability replaces abundant step, improved evasion, timeless body, and tongue of the sun and moon.
+ref/arc-monk/tetori	This ability replaces diamond soul.
+ref/arc-monk/tetori	This ability replaces empty body.
+ref/arc-paladin/divine-hunter	This ability replaces her Heavy Armor Proficiency.
+ref/arc-paladin/divine-hunter	This ability replaces aura of courage.
+ref/arc-paladin/divine-hunter	This ability replaces the standard paladin’s divine bond.
+ref/arc-paladin/divine-hunter	This ability replaces the paladin’s 6th-level mercy.
+ref/arc-paladin/divine-hunter	This ability replaces aura of resolve.
+ref/arc-paladin/divine-hunter	This ability replaces aura of justice.
+ref/arc-paladin/divine-hunter	This ability replaces aura of faith.
+ref/arc-paladin/empyreal-knight	This ability replaces divine grace.
+ref/arc-paladin/empyreal-knight	This ability replaces lay on hands and channel positive energy.
+ref/arc-paladin/empyreal-knight	This ability replaces holy champion.
+ref/arc-paladin/holy-gun	This ability replaces detect evil.
+ref/arc-paladin/holy-gun	This ability replaces smite evil.
+ref/arc-paladin/holy-gun	This ability replaces the standard paladin’s divine bond.
+ref/arc-paladin/holy-tactician	This ability replaces smite evil.
+ref/arc-paladin/holy-tactician	This ability replaces divine health and divine bond.
+ref/arc-paladin/holy-tactician	This ability replaces aura of courage.
+ref/arc-paladin/holy-tactician	This ability replaces aura of resolve.
+ref/arc-paladin/holy-tactician	This ability replaces aura of justice.
+ref/arc-paladin/holy-tactician	This ability replaces holy champion.
+ref/arc-paladin/sacred-shield	This ability replaces smite evil.
+ref/arc-paladin/sacred-shield	This ability replaces channel positive energy.
+ref/arc-paladin/sacred-shield	This ability replaces the paladin’s aura of justice.
+ref/arc-paladin/sacred-shield	This ability replaces the sacred shield’s holy champion ability.
+ref/arc-ranger/battle-scout	This ability replaces the ranger’s second favored enemy.
+ref/arc-ranger/battle-scout	This ability replaces the ranger’s third favored enemy.
+ref/arc-ranger/battle-scout	This ability replaces the ranger’s fourth favored enemy.
+ref/arc-ranger/battle-scout	This ability replaces master hunter.
+ref/arc-ranger/deep-walker	This ability replaces favored terrain.
+ref/arc-ranger/deep-walker	This ability replaces woodland stride.
+ref/arc-ranger/deep-walker	This ability replaces camouf lage.
+ref/arc-ranger/deep-walker	This ability replaces hide in plain sight.
+ref/arc-ranger/falconer	This ability replaces wild empathy.
+ref/arc-ranger/falconer	This ability replaces the combat style feat the ranger gains at 6th level.
+ref/arc-ranger/trophy-hunter	This ability replaces wild empathy.
+ref/arc-ranger/trophy-hunter	This ability replaces all combat style feats.
+ref/arc-ranger/trophy-hunter	This ability replaces hunter’s bond.
+ref/arc-ranger/warden	This ability replaces the ranger’s first favored enemy ability.
+ref/arc-ranger/warden	This ability replaces all combat style feats.
+ref/arc-ranger/warden	This ability replaces hunter’s bond.
+ref/arc-ranger/warden	This ability replaces the ranger’s second, third, and fourth favored enemies.
+ref/arc-ranger/warden	This ability replaces the ranger’s fifth favored enemy and master hunter.
+ref/arc-ranger/wild-stalker	This ability replaces the ranger’s first favored enemy ability.
+ref/arc-ranger/wild-stalker	This ability replaces the ranger’s 2nd-level combat style feat.
+ref/arc-ranger/wild-stalker	This ability replaces hunter’s bond.
+ref/arc-ranger/wild-stalker	This ability replaces the ranger’s second, third, fourth, and fifth favored enemy abilities.
+ref/arc-ranger/wild-stalker	This ability replaces the ranger’s 6th-, 10th-, 14th-, and 18th-level combat style feat abilities.
+ref/arc-rogue/bandit	This ability replaces uncanny dodge.
+ref/arc-rogue/bandit	This ability replaces improved uncanny dodge.
+ref/arc-rogue/chameleon	This ability replaces trapfinding.
+ref/arc-rogue/chameleon	This ability replaces trap sense.
+ref/arc-rogue/charlatan	This ability replaces trapfinding.
+ref/arc-rogue/driver	This ability replaces trap sense.
+ref/arc-rogue/knife-master	This ability replaces trapfinding.
+ref/arc-rogue/knife-master	This ability replaces trap sense.
+ref/arc-rogue/pirate	This ability replaces trapfinding.
+ref/arc-rogue/pirate	This ability replaces the 2nd-level rogue talent.
+ref/arc-rogue/pirate	This ability replaces trap sense.
+ref/arc-rogue/roof-runner	This ability replaces trapfinding.
+ref/arc-rogue/roof-runner	This ability replaces trap sense.
+ref/arc-rogue/sanctified-rogue	This ability replaces uncanny dodge.
+ref/arc-rogue/sanctified-rogue	This ability replaces improved uncanny dodge.
+ref/arc-rogue/survivalist	This ability replaces trapfinding.
+ref/arc-rogue/survivalist	This ability replaces trap sense.
+ref/arc-wizard/arcane-bomber	This ability replaces arcane bond.
+ref/arc-wizard/arcane-bomber	This ability replaces cantrips, but the arcana bomber gains the detect magic and read magic cantrips and places them in his spellbook.
+ref/arc-wizard/arcane-bomber	This ability replaces arcane school.
+ref/arc-wizard/siege-mage	This ability replaces scribe scroll.
+ref/arc-wizard/siege-mage	This ability replaces arcane bond.
+ref/arc-wizard/siege-mage	This ability replaces cantrips, but the siege mage gains the detect magic and read magic cantrips and places them in his spellbook.
+ref/arc-wizard/siege-mage	This ability replaces arcane school.
+ref/arc-wizard/spellslinger	This ability replaces arcane bond.
+ref/arc-wizard/spellslinger	This ability replaces scribe scroll.
+ref/arc-wizard/spellslinger	This ability replaces cantrips, but the spellslinger gains the detect magic and read magic cantrips and places them in his spellbook.
+ref/arc-wizard/spellslinger	This ability replaces arcane school.
