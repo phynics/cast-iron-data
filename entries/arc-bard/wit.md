@@ -18,7 +18,7 @@ page = "23"
 kind = "archetype"
 features = [
   { anchor = "way-with-words", level = 1 },
-  { anchor = "counterargument" },
+  { anchor = "counterargument", level = 1 },
   { anchor = "bardic-performance" },
   { anchor = "cutting-remark", level = 3 },
   { anchor = "quick-witted", level = 2 },

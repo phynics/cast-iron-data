@@ -19,7 +19,7 @@ kind = "archetype"
 features = [
   { anchor = "insidious-personality", level = 1 },
   { anchor = "fanatical-stare", level = 1 },
-  { anchor = "cult-tricks" },
+  { anchor = "cult-tricks", level = 1 },
   { anchor = "false-healing", level = 3 },
   { anchor = "faithful-followers", level = 7 },
   { anchor = "fanatical-devotion", level = 10 },

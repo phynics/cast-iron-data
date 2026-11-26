@@ -18,7 +18,7 @@ page = "72"
 kind = "archetype"
 features = [
   { anchor = "hidden-blade", level = 1 },
-  { anchor = "sneak-stab" },
+  { anchor = "sneak-stab", level = 1 },
   { anchor = "blade-sense", level = 3 },
 ]
 trades = [

@@ -19,7 +19,7 @@ kind = "archetype"
 features = [
   { anchor = "ki-pool", level = 7 },
   { anchor = "quivering-palm", level = 15 },
-  { anchor = "final-revelation" },
+  { anchor = "final-revelation", level = 20 },
 ]
 trades = [
   { replaces = "Mystery bonus spells at these levels", feature = "mystery", levels = [2, 4, 8, 12, 14, 16], power = "bonus spells" },

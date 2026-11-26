@@ -18,7 +18,7 @@ page = "98"
 kind = "archetype"
 features = [
   { anchor = "vermin-companion", level = 1 },
-  { anchor = "vermin-empathy" },
+  { anchor = "vermin-empathy", level = 1 },
   { anchor = "vermin-focus", level = 1 },
   { anchor = "swarm-stride", level = 5 },
 ]

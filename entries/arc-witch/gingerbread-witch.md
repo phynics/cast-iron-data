@@ -17,7 +17,7 @@ page = "72"
 [fields]
 kind = "archetype"
 features = [
-  { anchor = "gingerbread-familiar" },
+  { anchor = "gingerbread-familiar", level = 1 },
   { anchor = "cauldron-cook", level = 1 },
   { anchor = "tricky-treats-hex", level = 4 },
   { anchor = "confection-conjuring", level = 8 },

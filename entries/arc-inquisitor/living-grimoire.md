@@ -18,7 +18,7 @@ page = "53"
 kind = "archetype"
 features = [
   { anchor = "holy-book", level = 1 },
-  { anchor = "spells" },
+  { anchor = "spells", level = 1 },
   { anchor = "sacred-word", level = 1 },
   { anchor = "blessed-script", level = 5 },
   { anchor = "word-of-god", level = 20 },

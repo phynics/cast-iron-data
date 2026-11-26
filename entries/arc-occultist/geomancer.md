@@ -17,8 +17,8 @@ page = "66"
 [fields]
 kind = "archetype"
 features = [
-  { anchor = "geomantic-focus" },
-  { anchor = "geomancy" },
+  { anchor = "geomantic-focus", level = 1 },
+  { anchor = "geomancy", level = 1 },
   { anchor = "survivalist", level = 2 },
   { anchor = "terrain-stride", level = 5 },
   { anchor = "dominion", level = 7 },

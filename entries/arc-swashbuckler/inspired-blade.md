@@ -17,7 +17,7 @@ page = "125"
 [fields]
 kind = "archetype"
 features = [
-  { anchor = "inspired-panache" },
+  { anchor = "inspired-panache", level = 1 },
   { anchor = "inspired-finesse", level = 1 },
   { anchor = "deeds" },
   { anchor = "inspired-strike", level = 11 },

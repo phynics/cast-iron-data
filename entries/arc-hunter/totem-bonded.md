@@ -17,7 +17,7 @@ page = "131"
 [fields]
 kind = "archetype"
 features = [
-  { anchor = "primeval-companion" },
+  { anchor = "primeval-companion", level = 1 },
   { anchor = "shared-strength", level = 1 },
 ]
 trades = [

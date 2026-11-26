@@ -18,7 +18,7 @@ page = "69"
 kind = "archetype"
 features = [
   { anchor = "spells" },
-  { anchor = "shared-consciousness" },
+  { anchor = "shared-consciousness", level = 1 },
   { anchor = "undead-phantom" },
   { anchor = "cling-of-the-grave" },
   { anchor = "unnatural-aura", level = 5 },

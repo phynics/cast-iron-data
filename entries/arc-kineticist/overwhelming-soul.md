@@ -18,7 +18,7 @@ page = "91"
 kind = "archetype"
 features = [
   { anchor = "mind-over-matter" },
-  { anchor = "mental-prowess" },
+  { anchor = "mental-prowess", level = 1 },
   { anchor = "overwhelming-power", level = 3 },
 ]
 trades = [

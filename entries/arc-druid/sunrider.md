@@ -17,7 +17,7 @@ page = "13"
 [fields]
 kind = "archetype"
 features = [
-  { anchor = "nature-bond" },
+  { anchor = "nature-bond", level = 1 },
   { anchor = "born-to-the-saddle", level = 2 },
   { anchor = "mounted-advantage", level = 3 },
   { anchor = "desert-born", level = 4 },

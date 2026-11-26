@@ -17,7 +17,7 @@ features = [
   { anchor = "compression" },
   { anchor = "fluidic-body" },
   { anchor = "morphic-weaponry", level = 1 },
-  { anchor = "ooze-empathy" },
+  { anchor = "ooze-empathy", level = 1 },
   { anchor = "damage-reduction", level = 2 },
   { anchor = "clinging-ooze", level = 4 },
 ]

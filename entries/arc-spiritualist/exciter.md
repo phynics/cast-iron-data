@@ -17,7 +17,7 @@ page = "68"
 [fields]
 kind = "archetype"
 features = [
-  { anchor = "merged-phantom" },
+  { anchor = "merged-phantom", level = 1 },
   { anchor = "rapture" },
   { anchor = "fast-movement", level = 1 },
   { anchor = "excitation", level = 2 },

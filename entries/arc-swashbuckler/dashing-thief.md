@@ -18,10 +18,10 @@ page = "51"
 kind = "archetype"
 features = [
   { anchor = "bold-thief" },
-  { anchor = "thief-s-confidence" },
+  { anchor = "thief-s-confidence", level = 1 },
   { anchor = "rogue-talents", level = 4 },
   { anchor = "dazing-charm-deed", level = 3 },
-  { anchor = "swaying-charm-deed" },
+  { anchor = "swaying-charm-deed", level = 15 },
 ]
 trades = [
   { replaces = "The swashbuckler's ability to regain panache from a killing blow", by = ["thief-s-confidence"] },

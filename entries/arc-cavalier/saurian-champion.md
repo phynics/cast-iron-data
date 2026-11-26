@@ -18,7 +18,7 @@ page = "45"
 kind = "archetype"
 features = [
   { anchor = "savage-combatant" },
-  { anchor = "titanic-challenge" },
+  { anchor = "titanic-challenge", level = 1 },
   { anchor = "wild-warrior", level = 1 },
   { anchor = "dinosaur-mount", level = 1 },
   { anchor = "nimble-rider", level = 2 },

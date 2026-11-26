@@ -18,7 +18,7 @@ page = "50"
 kind = "archetype"
 features = [
   { anchor = "shadowcaster" },
-  { anchor = "shade" },
+  { anchor = "shade", level = 1 },
   { anchor = "emotionless" },
   { anchor = "inhabit-shadow", level = 1 },
   { anchor = "shadow-bound", level = 1 },

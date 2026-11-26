@@ -17,7 +17,7 @@ page = "83"
 [fields]
 kind = "archetype"
 features = [
-  { anchor = "halfhearted-challenge" },
+  { anchor = "halfhearted-challenge", level = 1 },
   { anchor = "maiden-s-order", level = 1 },
   { anchor = "devoted-defender", level = 3 },
   { anchor = "maiden-s-loyalty", level = 4 },

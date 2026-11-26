@@ -18,7 +18,7 @@ page = "97"
 kind = "archetype"
 features = [
   { anchor = "feral-blessing" },
-  { anchor = "sacred-claws" },
+  { anchor = "sacred-claws", level = 1 },
   { anchor = "wild-shape", level = 7 },
 ]
 trades = [

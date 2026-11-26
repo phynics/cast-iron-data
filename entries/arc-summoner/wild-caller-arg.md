@@ -18,7 +18,7 @@ page = "44"
 kind = "archetype"
 features = [
   { anchor = "spells" },
-  { anchor = "eidolon" },
+  { anchor = "eidolon", level = 1 },
   { anchor = "summon-nature-s-ally-i", level = 1 },
 ]
 trades = [

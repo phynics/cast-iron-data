@@ -17,7 +17,7 @@ page = "90"
 [fields]
 kind = "archetype"
 features = [
-  { anchor = "season-of-the-witch" },
+  { anchor = "season-of-the-witch", level = 1 },
 ]
 trades = [
   { alters = "Patron", feature = "patron-spells", power = "patron", by = ["season-of-the-witch"] },

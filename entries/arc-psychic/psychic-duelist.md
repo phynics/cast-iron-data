@@ -22,7 +22,7 @@ features = [
   { anchor = "extended-effect" },
   { anchor = "faithful-creature" },
   { anchor = "punishing-thought-form" },
-  { anchor = "reciprocal-defense" },
+  { anchor = "reciprocal-defense", level = 1 },
   { anchor = "thought-made-real", level = 9 },
   { anchor = "expert-manifester", level = 17 },
 ]

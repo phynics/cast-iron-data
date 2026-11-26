@@ -17,7 +17,7 @@ page = "82"
 [fields]
 kind = "archetype"
 features = [
-  { anchor = "imperfect-control" },
+  { anchor = "imperfect-control", level = 1 },
   { anchor = "scars-of-the-past", level = 1 },
   { anchor = "armor-training", level = 3 },
 ]

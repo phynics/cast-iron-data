@@ -17,7 +17,7 @@ page = "116"
 [fields]
 kind = "archetype"
 features = [
-  { anchor = "smite-evil" },
+  { anchor = "smite-evil", level = 1 },
   { anchor = "channel-positive-energy" },
   { anchor = "aura-of-healing", level = 11 },
 ]

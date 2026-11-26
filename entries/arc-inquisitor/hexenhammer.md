@@ -18,7 +18,7 @@ page = "52"
 kind = "archetype"
 features = [
   { anchor = "withering-gaze", level = 1 },
-  { anchor = "pride-and-penance" },
+  { anchor = "pride-and-penance", level = 1 },
   { anchor = "cunning-mind", level = 2 },
   { anchor = "hexcrafter", level = 3 },
   { anchor = "dark-trade", level = 3 },

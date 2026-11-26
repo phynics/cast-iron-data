@@ -24,7 +24,7 @@ features = [
   { anchor = "sympathetic-alchemy" },
   { anchor = "telepathic-link" },
   { anchor = "evasion", level = 3 },
-  { anchor = "ability-score-increase" },
+  { anchor = "ability-score-increase", level = 5 },
   { anchor = "speech", level = 6 },
   { anchor = "spell-resistance", level = 9 },
   { anchor = "improved-evasion", level = 15 },
