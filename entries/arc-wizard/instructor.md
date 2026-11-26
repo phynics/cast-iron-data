@@ -16,37 +16,30 @@ page = "31"
 
 [fields]
 kind = "archetype"
+features = [
+  { anchor = "apprentice", level = 1 },
+  { anchor = "trained-teamwork", level = 5 },
+]
 trades = [
-  { replaces = "Arcane bond", feature = "arcane-bond" },
-  { alters = "5th-, 10th-, 15th-, and 20th-level bonus feats", feature = "bonus-feats", levels = [5, 10, 15, 20] },
+  { replaces = "Arcane bond", feature = "arcane-bond", by = ["apprentice"] },
+  { alters = "The bonus feats gained at 5th, 10th, 15th, and 20th level", feature = "bonus-feats", levels = [5, 10, 15, 20], by = ["trained-teamwork"] },
 ]
 +++
 
 Whether serving as staff at a formal school of magic or simply acting as a wandering teacher, an
 instructor has an apprentice who trades service to the instructor for lessons in magic.
 
-**Apprentice (Ex)**
+## Apprentice (Ex) {#apprentice}
 
-**Ability:** An instructor acquires the services of a loyal apprentice. She functions similarly to a
-cohort (see the [Leadership](ref/feat/leadership) feat), though your apprentice begins as a
-1st-level [commoner](ref/npcclass/commoner) with [Magical Aptitude](ref/feat/magical-aptitude) as
-their 1st-level feat and
+At 1st level, an instructor acquires the services of a loyal apprentice. She functions similarly to
+a cohort, though your apprentice begins as a 1st-level [commoner](ref/npcclass/commoner) with
+[Magical Aptitude](ref/feat/magical-aptitude) as their 1st-level feat and
 [NPC ability scores](ref/rule/step-1-the-basics-step-2-determine-ability-scores) (13, 12, 11, 10, 9,
-8 before racial modifiers).
-
-**At 3rd Level:** If the instructor's Leadership score is at least 2, the apprentice becomes a
-1st-level wizard of the same school specialization as the instructor, and she gains heroic ability
-scores (15, 14, 13, 12, 10, 8 before racial modifiers).
-
-**At 7th Level:** An instructor may select the Leadership feat - using his Intelligence modifier to
-determine his Leadership score - but doing so only provides followers, never a second cohort.
-
-**Gained:** At 1st Level
-
-**Replaces:** Arcane bond
-
-**Special:** The apprentice never gains item creation feats, but otherwise follows the normal rules
-for a cohort.
+8 before racial modifiers). When the instructor reaches 3rd level, if his
+[Leadership](ref/feat/leadership) score is at least 2, the apprentice becomes a 1st-level wizard of
+the same school specialization as the instructor, and she gains heroic ability scores (15, 14, 13,
+12, 10, 8 before racial modifiers). The apprentice never gains item creation feats, but otherwise
+follows the normal rules for a cohort.
 
 Each time the instructor gains a level, he may dismiss his existing apprentice as graduated (or
 expelled, depending on her performance), and gain a new cohort following the same rules. If an
@@ -55,14 +48,16 @@ score. This penalty is reduced by 1 for every level the instructor gains after t
 minimum of 0.
 
 Because cohorts are most interested in the instructor's magical ability, the instructor uses his
-Intelligence modifier, rather than Charisma, to determine his Leadership score.
+Intelligence modifier, rather than Charisma, to determine his Leadership score. At 7th level, an
+instructor may select the Leadership feat—using his Intelligence modifier to determine his
+Leadership score—but doing so only provides followers, never a second cohort.
 
-**Trained Teamwork (Ex)**
+This ability replaces arcane bond.
 
-**Ability:** The instructor can take a teamwork feat as a wizard bonus feat. As long as his
-apprentice is within 60 feet, the apprentice gains all such teamwork feats as bonus feats. The
+## Trained Teamwork (Ex) {#trained-teamwork}
+
+Starting at 5th level, the instructor can take a teamwork feat as his wizard bonus feat. As long as
+his apprentice is within 60 feet, the apprentice gains all such teamwork feats as bonus feats. The
 apprentice does not have to meet the feat's prerequisites.
 
-**Alters:** 5th-, 10th-, 15th-, and 20th-level bonus feats
-
-**Gained:** At 5th Level
+This ability modifies the bonus feats gained at 5th, 10th, 15th, and 20th level.

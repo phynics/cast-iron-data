@@ -2419,7 +2419,8 @@ ERRATA_BOOKS = {"advanced-class-guide": "Advanced Class Guide"}
 ERRATA_CTX: dict = {"book": "", "used": set()}
 # The titles of the boxes that a book sets in the foot of a column (`BOX_TITLES`).
 BOXES_OF_BOOK = {"inner-sea-magic": ("Black Blood of Orv",)}
-LORE_BOXES_OF_BOOK = {"armor-masters-handbook": ("Armor Master Archetypes and Prestige Classes",)}
+LORE_BOXES_OF_BOOK = {"armor-masters-handbook": ("Armor Master Archetypes and Prestige Classes",),
+                      "cohorts-and-companions": ("Equipment Cohorts", "Heroic Cohorts", "Cohorts of the Faith", "Student Cohorts")}
 SKIP_TABLES = {"on": False}         # the Advanced Race Guide sets its tables in sans-serif type
 # The Advanced Class Guide and the Advanced Race Guide set text beside illustrations: a line may be indented without
 # starting a paragraph, and a head may follow a sentence end in a line without the common indent. The other books
@@ -4366,7 +4367,7 @@ PLAYER_COMPANIONS = ("blood-of-the-ancients", "wilderness-origins", "legacy-of-t
 # archetypes are followed by sections of the chapter of their own (feats, techniques, spells): any title ends the section of an archetype.
 SMALL_CAP_BOOKS = ("blood-of-the-ancients", "blood-of-the-beast", "heroes-of-the-high-court", "martial-arts-handbook", "magic-tactics-toolbox", "potions-and-poisons", "heroes-from-the-fringe", "haunted-heroes-handbook", "legacy-of-dragons")
 # ... and of these, the ones whose chapter titles or capitals stand above the usual top of the body (Blood of the Ancients keeps 88)
-HIGH_TITLE_BOOKS = ("blood-of-the-beast", "heroes-of-the-high-court", "martial-arts-handbook", "magic-tactics-toolbox", "haunted-heroes-handbook", "familiar-folio", "advanced-class-origins")
+HIGH_TITLE_BOOKS = ("blood-of-the-beast", "heroes-of-the-high-court", "martial-arts-handbook", "magic-tactics-toolbox", "haunted-heroes-handbook", "familiar-folio", "advanced-class-origins", "cohorts-and-companions")
 
 # ---- Potions & Poisons, Construct Handbook, Magic Tactics Toolbox, Haunted Heroes Handbook, Heroes from the Fringe (one block of tables) ----
 MISPRINTS.extend([
@@ -5252,6 +5253,12 @@ def self_test() -> int:
     hc = head_candidate(Para("para", [("Aberrant", True, False), ("\u2014", False, False), ("Squeezer (Ex)", True, False), (": The familiar gains", False, False)], "16", 0))
     eq(hc[0] if hc else None, "Aberrant\u2014Squeezer (Ex)", "dash key head")
     eq(head_candidate(Para("para", [("Aberrant", True, False), ("Squeezer (Ex)", True, False), (": x", False, False)], "16", 0))[0], "AberrantSqueezer (Ex)", "no dash, one bold run")
+    BOX_LORE["titles"] = frozenset({squash("Armor Master Archetypes and Prestige Classes")})
+    _ln = lambda text, size, left: {"size": size, "runs": [(text, False, False)], "col": 1, "left": left, "margin": 468}
+    _main, _box = split_boxes([_ln("Text before.", 13, 468), _ln("Armor Master Archetypes and Prestige Classes", 15, 487), _ln("Many organizations", 13, 487), _ln("Channel Energy (Su): text", 13, 468)])
+    eq([x["runs"][0][0] for x in _main], ["Text before.", "Channel Energy (Su): text"], "lore box apart: the text around it stays")
+    eq([x["runs"][0][0] for x in _box], ["Armor Master Archetypes and Prestige Classes", "Many organizations"], "lore box apart: its lines")
+    BOX_LORE["titles"] = frozenset()
     eq(bool(CAPS_TITLE.fullmatch("BLIGHTSEEKER (ALCHEMIST ARCHETYPE)")), True, "caps title")
     eq(bool(CAPS_TITLE.fullmatch("Blightseeker (Alchemist Archetype)")), False, "caps title lower case")
     eq(bool(CAPS_TITLE_HEAD.fullmatch("PSYCHIC MARAUDER (PSYCHIC")) and bool(CAPS_TITLE_TAIL.fullmatch("ARCHETYPE)")), True, "caps title wrapped")
@@ -5965,6 +5972,13 @@ for _eid in ("ref/arc-summoner/storm-caller", "ref/arc-unchained-summoner/storm-
     EXTRA_LINKS[(_eid, "summon-storm-s-fury")] = list(_STORM)
     TRADE_ADDITIONS[_eid] = TRADE_ADDITIONS.get(_eid, []) + [{"alters": "the summoner's summon monster I\u2013IX abilities", "feature": "summon-monster-i"}]
 TRADE_ADDITIONS["ref/arc-alchemist/energy-scientist"] = [{"alters": "Class skills"}]
+EXTRA_LINKS[("ref/arc-investigator/dread-investigator", "investigator-talent")] = [("alchemical discovery", "ref/invtalent/alchemist-discovery")]
+TRADE_RENAMES.update({
+    ("ref/arc-warpriest/proselytizer", "3rd-level bonus feat"): "Bonus feat gained at 3rd level",
+    ("ref/arc-wizard/bonded-wizard", "5th- and 15th-level bonus feats"): "A wizard's bonus feats normally gained at 5th and 15th level",
+    ("ref/arc-wizard/bonded-wizard", "10th-level bonus feat"): "The wizard's bonus feat normally gained at 10th level",
+    ("ref/arc-wizard/instructor", "5th-, 10th-, 15th-, and 20th-level bonus feats"): "The bonus feats gained at 5th, 10th, 15th, and 20th level",
+})
 # print: "This ability alters sacred weapon and also replaces sacred armor": the app reads one `alters` phrase ("and also replaces" is no split)
 TRADE_RENAMES[("ref/arc-warpriest/shieldbearer", "Sacred weapon")] = "Sacred weapon and also replaces sacred armor"
 TRADE_MERGED["ref/arc-warpriest/shieldbearer"] = [("alters", "sacred armor")]
