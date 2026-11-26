@@ -20,7 +20,7 @@ features = [
   { anchor = "dreamshard-focus", level = 1 },
   { anchor = "lucid-dreamer", level = 3 },
   { anchor = "soothe-dreaming", level = 4 },
-  { anchor = "dream-infiltrator" },
+  { anchor = "dream-infiltrator", level = 8 },
 ]
 trades = [
   { replaces = "Sneak attack", feature = "sneak-attack", by = ["dreamshard-focus"] },

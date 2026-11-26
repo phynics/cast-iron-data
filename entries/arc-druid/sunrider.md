@@ -20,7 +20,7 @@ features = [
   { anchor = "nature-bond" },
   { anchor = "born-to-the-saddle", level = 2 },
   { anchor = "mounted-advantage", level = 3 },
-  { anchor = "desert-born" },
+  { anchor = "desert-born", level = 4 },
   { anchor = "concerted-effort", level = 4 },
 ]
 trades = [

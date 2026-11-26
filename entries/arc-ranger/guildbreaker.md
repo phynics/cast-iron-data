@@ -19,7 +19,7 @@ kind = "archetype"
 features = [
   { anchor = "favored-organization" },
   { anchor = "read-the-city", level = 1 },
-  { anchor = "deep-cover" },
+  { anchor = "deep-cover", level = 4 },
   { anchor = "crowd-stride", level = 7 },
 ]
 trades = [

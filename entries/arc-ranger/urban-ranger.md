@@ -21,7 +21,7 @@ features = [
   { anchor = "favored-community", level = 3 },
   { anchor = "trapfinding", level = 3 },
   { anchor = "push-through", level = 7 },
-  { anchor = "blend-in" },
+  { anchor = "blend-in", level = 12 },
   { anchor = "invisibility-trick", level = 17 },
 ]
 trades = [

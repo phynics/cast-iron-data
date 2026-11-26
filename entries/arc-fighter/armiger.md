@@ -19,7 +19,7 @@ kind = "archetype"
 features = [
   { anchor = "hellknight-order", level = 1 },
   { anchor = "studious-squire", level = 1 },
-  { anchor = "ardent" },
+  { anchor = "ardent", level = 2 },
 ]
 trades = [
   { replaces = "Bonus feats gained at 1st and 10th levels", feature = "bonus-feats", levels = [1, 10], by = ["studious-squire"] },

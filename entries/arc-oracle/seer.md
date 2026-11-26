@@ -18,7 +18,7 @@ page = "59"
 kind = "archetype"
 features = [
   { anchor = "natural-divination" },
-  { anchor = "gift-of-prophecy" },
+  { anchor = "gift-of-prophecy", level = 3 },
 ]
 trades = [
   { replaces = "Mystery bonus spells at these levels", feature = "mystery", levels = [4, 6, 8, 10, 12, 14, 16, 18], power = "bonus spells" },

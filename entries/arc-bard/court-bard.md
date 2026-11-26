@@ -19,9 +19,9 @@ kind = "archetype"
 features = [
   { anchor = "bardic-performance" },
   { anchor = "satire", level = 1 },
-  { anchor = "mockery" },
-  { anchor = "glorious-epic" },
-  { anchor = "scandal" },
+  { anchor = "mockery", level = 3 },
+  { anchor = "glorious-epic", level = 8 },
+  { anchor = "scandal", level = 14 },
   { anchor = "heraldic-expertise", level = 1 },
   { anchor = "wide-audience", level = 5 },
 ]

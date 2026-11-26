@@ -17,7 +17,7 @@ page = "41"
 [fields]
 kind = "archetype"
 features = [
-  { anchor = "favored-nation" },
+  { anchor = "favored-nation", level = 1 },
   { anchor = "rumor-empathy", level = 1 },
   { anchor = "favored-terrain", level = 3 },
   { anchor = "hobnob", level = 4 },
