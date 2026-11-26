@@ -16,10 +16,15 @@ page = "24"
 
 [fields]
 kind = "archetype"
+features = [
+  { anchor = "underwater-hunter" },
+  { anchor = "marine-magic", level = 5 },
+  { anchor = "rudderless-attack", level = 5 },
+]
 trades = [
-  { replaces = "Track", feature = "track" },
-  { replaces = "Discern lies", feature = "discern-lies" },
-  { alters = "Spellcasting", feature = "spells" },
+  { replaces = "Track", feature = "track", by = ["underwater-hunter"] },
+  { replaces = "Discern lies", feature = "discern-lies", by = ["rudderless-attack"] },
+  { alters = "Spellcasting", feature = "spells", by = ["marine-magic"] },
 ]
 +++
 
@@ -30,50 +35,35 @@ deities all have organized churches beneath the waves that engage zealous follow
 apostates and enemies. Regardless of their faith, these undersea zealots are known as keepers of the
 current.
 
-**Underwater Hunter (Ex)**
+## Underwater Hunter (Ex) {#underwater-hunter}
 
-**Flavor:** Tracking creatures underwater is particularly challenging, but a keeper of the current
-can read traces of eddies in the water to follow her prey.
+Tracking creatures underwater is particularly challenging, but a keeper of the current can read
+traces of eddies in the water to follow her prey. A keeper of the current adds her level as a bonus
+on Survival checks to follow creatures underwater. She gains no bonus when finding or following
+tracks out of the water. Rules for using the Survival skill underwater are on page 47 of _Pathfinder
+Campaign Setting: Aquatic Adventures_.
 
-**Passive:** A keeper of the current adds her level as a bonus on Survival checks to follow
-creatures underwater. She gains no bonus when finding or following tracks out of the water.
+This ability replaces track.
 
-**Replaces:** Track
+## Marine Magic {#marine-magic}
 
-**Marine Magic**
+At 5th level and at every 3 levels thereafter, a keeper of the current can learn a spell with the
+water descriptor from the cleric, druid, inquisitor, or wizard spell list in place of a spell she
+already knows. In effect, she loses an old spell in exchange for a new one. The new spell's level
+must be the same as that of the spell being exchanged, and it must be at least 1 level lower than
+the highest-level inquisitor spell she can cast. The keeper of the current can swap out only a
+single spell at any given level and must choose whether to swap the spell at the same time she gains
+new spells known for the level.
 
-**Ability:** A keeper of the current can learn a spell with the water descriptor from the cleric,
-druid, inquisitor, or wizard spell list in place of a spell she already knows. In effect, she loses
-an old spell in exchange for a new one. The new spell's level must be the same as that of the spell
-being exchanged, and it must be at least 1 level lower than the highest-level inquisitor spell she
-can cast.
+This ability alters the inquisitor's spellcasting.
 
-**Alters:** Spellcasting
+## Rudderless Attack (Ex) {#rudderless-attack}
 
-**Gained:** At 5th Level
-
-**Special:** The keeper of the current can swap out only a single spell at any given level and must
-choose whether to swap the spell at the same time she gains new spells known for the level.
-
-At 8th level: She can swap out a 2nd spell, following the resrictions above.
-
-At 11th level: She can learn a 3rd spell, following the resrictions above.
-
-At 14th level: She can swap out a 4th spell, following the resrictions above.
-
-At 17th level: She can learn a 5th spell, following the resrictions above.
-
-At 20th level: She can swap out a 6th spell, following the resrictions above.
-
-**Rudderless Attack (Ex)**
-
-**Gained:** At 5th Level
-
-**Passive:** An opponent that takes extra damage from the keeper of the current's
-_[bane](ref/spell/bane)_ or _greater bane_ ability has its swim speed halved for 1d4 rounds. A
+At 5th level, an opponent that takes extra damage from the keeper of the current's
+[bane](ref/spell/bane) or greater bane ability has its swim speed halved for 1d4 rounds. A
 successful Fortitude saving throw (DC = 10 + half the inquisitor's level + her Wisdom modifier)
 negates this effect. If the keeper of the current targets a creature already affected by this
 ability, its swim speed is not further reduced but the duration of the effect is extended by 1d4
 rounds.
 
-**Replaces:** Discern lies
+This ability replaces discern lies.

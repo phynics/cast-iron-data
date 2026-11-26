@@ -16,9 +16,14 @@ page = "104"
 
 [fields]
 kind = "archetype"
+features = [
+  { anchor = "flying-beast-tamer", level = 1 },
+  { anchor = "sipping-pet" },
+]
 trades = [
-  { replaces = "Mutagen", feature = "mutagen" },
-  { replaces = "persistent mutagen", feature = "persistent-mutagen" },
+  { replaces = "Mutagen", feature = "mutagen", by = ["flying-beast-tamer"] },
+  { replaces = "persistent mutagen", feature = "persistent-mutagen", by = ["flying-beast-tamer"] },
+  { replaces = "Disable Device, Sleight of Hand, and Use Magic Device as class skills" },
 ]
 +++
 
@@ -27,35 +32,28 @@ vultures or dire bats to do their bidding. These goblins strap harnesses to the 
 flying animals and hang beneath them, dropping flaming alchemical solutions on the helpless folks
 below.
 
-**Prerequisites:** Goblin
+## Class Skills {#class-skills}
 
-**Gained class skills:** acro, ha, ride
+A winged marauder gains Acrobatics, Handle Animal, and Ride as class skills. These replace Disable
+Device, Sleight of Hand, and Use Magic Device as class skills.
 
-**Lost class skills:** dd, soh, umd
+## Flying Beast Tamer (Ex) {#flying-beast-tamer}
 
-**Flying Beast Tamer (Ex)**
-
-**Ability:** A winged marauder acquires a flying mount as an
+At 1st level, a winged marauder acquires a flying mount as an
 [animal companion](ref/sidekick/animal-companion). This works as the druid animal companion class
 feature, except the marauder must select a [dire bat](ref/companion/dire-bat) or
 [giant vulture](ref/companion/vulture-giant). The marauder's effective druid level is equal to his
-alchemist level.
+alchemist level. A marauder and his companion don't gain the share spells ability. This ability
+replaces the mutagen and persistent mutagen class features.
 
-**Gained:** At 1st Level
+## Discovery {#discovery}
 
-**Replaces:** Mutagen, persistent mutagen
+A winged marauder can select the following additional discovery.
 
-**Special:** A marauder and his companion don't gain the _share spells_ ability.
+## Sipping Pet (Ex) {#sipping-pet}
 
-**Discovery**
-
-**Passive:** A winged marauder can select the following additional discovery.
-
-**Sipping Pet (Ex)**
-
-**Prereq:** The [infusion](ref/discovery/infusion) discovery.
-
-**Standard:** The marauder can administer a dose of a liquid (such as an extract, infusion, potion,
-or an alchemical liquid like [antitoxin](ref/eq-misc/antitoxin)) to his animal companion, even if
-the companion is unconscious. The alchemist must be adjacent to or riding the companion to use this
-ability.
+As a standard action, the marauder can administer a dose of a liquid (such as an extract,
+[infusion](ref/discovery/infusion), potion, or an alchemical liquid like
+[antitoxin](ref/eq-misc/antitoxin)) to his animal companion, even if the companion is unconscious.
+The alchemist must be adjacent to or riding the companion to use this ability. An alchemist must
+have the infusion discovery to select this discovery.

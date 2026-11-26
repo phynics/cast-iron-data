@@ -16,10 +16,15 @@ page = "5"
 
 [fields]
 kind = "archetype"
+features = [
+  { anchor = "arcana-breaker", level = 3 },
+  { anchor = "underwater-striker", level = 4 },
+  { anchor = "wary-disarm", level = 8 },
+]
 trades = [
-  { replaces = "2nd-level rogue talent", feature = "rogue-talents", levels = [2] },
-  { replaces = "Uncanny dodge", feature = "uncanny-dodge" },
-  { replaces = "Improved uncanny dodge", feature = "improved-uncanny-dodge" },
+  { replaces = "2nd-level rogue talent", feature = "rogue-talents", levels = [2], by = ["arcana-breaker"] },
+  { replaces = "Uncanny dodge", feature = "uncanny-dodge", by = ["underwater-striker"] },
+  { replaces = "Improved uncanny dodge", feature = "improved-uncanny-dodge", by = ["wary-disarm"] },
 ]
 +++
 
@@ -30,47 +35,43 @@ types, using their skills to bypass traps and dispatch animated guardians put in
 the lost cities' original founders. These seekers rarely travel far inland, though they may journey
 to larger landlocked bodies of water, such as Lake Encarthan, to explore submerged ruins there.
 
-**Arcana Breaker (Su)**
+## Arcana Breaker (Su) {#arcana-breaker}
 
-**Flavor:** Typically, only magical traps survive for long periods underwater, so a seeker of the
-lost specializes in noticing and disarming such traps.
+Typically, only magical traps survive for long periods underwater, so a seeker of the lost
+specializes in noticing and disarming such traps. At 3rd level, a seeker of the lost gains a +1
+competence bonus on Perception checks to notice magical traps and on Disable Device checks to disarm
+magical traps. This bonus increases by an additional +1 every 3 levels beyond 3rd (to a maximum of
++6 at 18th level).
 
-**At 3rd Level:** A seeker of the lost gains a competence bonus on Perception checks to notice
-magical traps and on Disable Device checks to disarm magical traps. This bonus is equal to one-third
-of her rogue level.
+This ability replaces the 2nd-level rogue talent.
 
-**Replaces:** 2nd-level rogue talent
+## Underwater Striker (Ex) {#underwater-striker}
 
-**Underwater Striker (Ex)**
+At 4th level, a seeker of the lost gains the ability to strike precisely underwater. When a seeker
+of the lost makes a sneak attack with a melee weapon, the damage is not halved for
+[being made underwater](ref/rule/physical-attacks-underwater), as is usually the case for attacks
+that deal slashing or bludgeoning damage or, if the rogue is
+[off-balance](ref/rule/off-balance-and-prone-underwater), attacks that deal piercing damage (see
+_Pathfinder Campaign Setting: Aquatic Adventures_ for more information about being off-balance). In
+addition, when a seeker of the lost makes a sneak attack with a melee weapon against a construct,
+she ignores any [hardness](ref/umr/hardness) the construct has.
 
-**Ability:** When a seeker of the lost makes a sneak attack with a melee weapon, the damage is not
-halved for [being made underwater](ref/rule/physical-attacks-underwater), as is usually the case for
-attacks that deal slashing or bludgeoning damage or, if the rogue is
-[off-balance](ref/rule/off-balance-and-prone-underwater), attacks that deal piercing damage.
+This ability replaces uncanny dodge.
 
-**Flavor:** A seeker of the lost gains the ability to strike precisely underwater.
+## Wary Disarm (Ex) {#wary-disarm}
 
-**Gained:** At 4th Level
+At 8th level, whenever a seeker of the lost attempts to disarm a trap using Disable Device, she does
+not spring the trap unless she fails by an amount equal to her rogue level or more. If she does set
+off a trap she was attempting to disarm, she doubles her trap sense bonus to avoid the trap.
 
-**Replaces:** Uncanny dodge
+This ability replaces improved uncanny dodge.
 
-**Special:** In addition, when a seeker of the lost makes a sneak attack with a melee weapon against
-a construct, she ignores any [hardness](ref/umr/hardness) the construct has.
+## Rogue Talents {#rogue-talents}
 
-**Wary Disarm (Ex)**
+The following rogue talents complement the seeker of the lost archetype: canny observer, strong
+stroke, terrain mastery (water), and trap spotter.
 
-**Ability:** Whenever a seeker of the lost attempts to disarm a trap using Disable Device, she does
-not spring the trap unless she fails by an amount equal to her rogue level or more.
+## Advanced Talents {#advanced-talents}
 
-**Gained:** At 8th Level
-
-**Replaces:** Improved uncanny dodge
-
-**Special:** If she does set off a trap she was attempting to disarm, she doubles her _trap sense_
-bonus to avoid the trap.
-
-**These rogue talents complement this archetype:** Canny observer, strong stroke, terrain
-mastery\|water, trap spotter
-
-**These advanced rogue talents complement this archetype:** Defensive roll, dispelling attack, hide
-in plain sight\|water
+The following advanced rogue talents complement the seeker of the lost archetype: defensive roll,
+dispelling attack, and hide in plain sight (water).

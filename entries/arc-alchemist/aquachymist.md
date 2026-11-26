@@ -16,10 +16,16 @@ page = "49"
 
 [fields]
 kind = "archetype"
+features = [
+  { anchor = "sureseal-alchemy", level = 1 },
+  { anchor = "underwater-bombs", level = 1 },
+  { anchor = "amphibious-mutagen", level = 2 },
+]
 trades = [
-  { replaces = "The discovery at 2nd level", feature = "discovery", levels = [2] },
-  { alters = "Alchemy", feature = "alchemy" },
-  { alters = "Bombs", feature = "bomb" },
+  { replaces = "The discovery at 2nd level", feature = "discovery", levels = [2], by = ["amphibious-mutagen"] },
+  { alters = "Alchemy", feature = "alchemy", by = ["sureseal-alchemy"] },
+  { alters = "Bombs", feature = "bomb", by = ["underwater-bombs"] },
+  { alters = "Class skills" },
 ]
 +++
 
@@ -28,43 +34,37 @@ them pure is a tougher task beneath the waves. Aquachymists are those rare few a
 land-dwelling and aquatic races alike who strive to unlock new and fantastic secrets of alchemy that
 can be discovered only in the water's depths.
 
-**Gained class skills:** swim
+## Class Skills {#class-skills}
 
-**Lost class skills:** fly
+An aquachymist has Swim as a class skill instead of Fly.
 
-**Sureseal Alchemy (Su)**
+This alters the alchemist's class skills.
 
-**Alters:** Alchemy
+## Sureseal Alchemy (Su) {#sureseal-alchemy}
 
-**Gained:** At 1st Level
+An aquachymist's extracts and mutagens self-generate a flexible outer shell of sureseal, similar to
+[sureseal bladders](ref/eq-misc/sureseal-bladder-mundane) (see page 57), allowing the aquachymist to
+craft a waterproof supply without expending a plethora of sureseal bladders.
 
-**Passive:** An aquachymist's extracts and mutagens self-generate a flexible outer shell of
-_sureseal,_ similar to [sureseal bladders](ref/eq-misc/sureseal-bladder-mundane), allowing the
-aquachymist to craft a waterproof supply without expending a plethora of sureseal bladders.
+This ability alters alchemy.
 
-**Underwater Bombs (Su)**
+## Underwater Bombs (Su) {#underwater-bombs}
 
-**Ability:** An aquachymist's fire bombs deal steam damage, allowing them to deal damage underwater
-or on land. Since thrown weapons don't work well underwater, when the aquachymist creates a bomb, he
-either weights it or includes excess air as part of the action of creating the bomb, granting the
-bomb his choice of swiftly rising or swiftly sinking [buoyancy](ref/rule/buoyancy) and allowing him
-to target foes directly above or below him. If the attack misses, the bomb doesn't deal splash
-damage, but instead continues to travel up or down until it loses potency at the end of the
-alchemist's turn; the exception is when the aquachymist throws a swiftly sinking bomb close to the
-bottom, in which case it might reach the bottom and explode there.
+An aquachymist's fire bombs deal steam damage, allowing them to deal damage underwater or on land.
+Since thrown weapons don't work well underwater, when the aquachymist creates a bomb, he either
+weights it or includes excess air as part of the action of creating the bomb, granting the bomb his
+choice of swiftly rising or swiftly sinking [buoyancy](ref/rule/buoyancy) and allowing him to target
+foes directly above or below him. If the attack misses, the bomb doesn't deal splash damage, but
+instead continues to travel up or down until it loses potency at the end of the alchemist's turn;
+the exception is when the aquachymist throws a swiftly sinking bomb close to the bottom, in which
+case it might reach the bottom and explode there. Because of the strange aquadynamic features of the
+aquachymist's underwater bombs, they have a range increment of only 5 feet above the water.
 
-**Alters:** Bombs
+This ability alters bombs.
 
-**Gained:** At 1st Level
+## Amphibious Mutagen (Su) {#amphibious-mutagen}
 
-**Special:** Because of the strange aquadynamic features of the aquachymist's underwater bombs, they
-have a range increment of only 5 feet above the water.
-
-**Amphibious Mutagen (Su)**
-
-**Gained:** At 2nd Level
-
-**Passive:** An aquachymist's mutagen allows him to breathe both air and water for its duration, in
+At 2nd level, an aquachymist's mutagen allows him to breathe both air and water for its duration, in
 addition to its other effects.
 
-**Replaces:** The discovery at 2nd level
+This ability replaces the discovery at 2nd level.

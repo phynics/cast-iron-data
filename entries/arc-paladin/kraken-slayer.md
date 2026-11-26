@@ -16,11 +16,17 @@ page = "15"
 
 [fields]
 kind = "archetype"
+features = [
+  { anchor = "smite-deepest-evil", level = 1 },
+  { anchor = "divine-immunity", level = 3 },
+  { anchor = "divine-bond" },
+  { anchor = "aura-of-elusion", level = 14 },
+]
 trades = [
-  { replaces = "Divine health", feature = "divine-health" },
-  { replaces = "Aura of faith", feature = "aura-of-faith" },
-  { alters = "Smite evil", feature = "smite-evil" },
-  { alters = "Divine bond", feature = "divine-bond" },
+  { replaces = "Divine health", feature = "divine-health", by = ["divine-immunity"] },
+  { replaces = "Aura of faith", feature = "aura-of-faith", by = ["aura-of-elusion"] },
+  { alters = "Smite evil", feature = "smite-evil", by = ["smite-deepest-evil"] },
+  { alters = "Divine bond", feature = "divine-bond", by = ["divine-bond"] },
 ]
 +++
 
@@ -31,49 +37,41 @@ kraken slayer's greatest responsibility is to destroy evil; all other commitment
 wayside. Though kraken slayers uphold all promises they make, they must balance their obligations as
 kraken slayers with their role as knights and defenders of the ocean.
 
-**Smite Deepest Evil (Su)**
+## Smite Deepest Evil (Su) {#smite-deepest-evil}
 
-**Ability:** This functions as the _smite evil_ ability, but the kraken slayer does not get a bonus
-of 2 points of damage per level on the first successful attack against any creatures other than evil
-creatures with the aquatic or water subtype. She gains a bonus of 2 points of damage per level on
-all smite attacks made against evil creatures with the aquatic or water subtype.
+This functions as the smite evil ability, but the kraken slayer does not get a bonus of 2 points of
+damage per level on the first successful attack against any creatures other than evil creatures with
+the aquatic or water subtype. She gains a bonus of 2 points of damage per level on all smite attacks
+made against evil creatures with the aquatic or water subtype.
 
-**Alters:** Smite evil
+This ability alters smite evil.
 
-**Divine Immunity (Ex)**
+## Divine Immunity (Ex) {#divine-immunity}
 
-**Gained:** At 3rd Level
-
-**Passive:** A kraken slayer is immune to poisons and diseases, including supernatural and magical
+At 3rd level, a kraken slayer is immune to poisons and diseases, including supernatural and magical
 diseases, delivered by the natural attacks of creatures with the aquatic or water subtype.
 
-**Replaces:** Divine health
+This ability replaces divine health.
 
-**Divine Bond (Sp)**
+## Divine Bond (Sp) {#divine-bond}
 
-**Ability:** A kraken slayer who chooses a weapon as her _divine bond_ may either increase her
-weapon's enhancement bonus or add any of the following properties to her weapon:
-[axiomatic](ref/magic-enh/axiomatic), [brilliant energy](ref/magic-enh/brilliant-energy),
-[defending](ref/magic-enh/defending), [grayflame](ref/magic-enh/grayflame),
-[holy](ref/magic-enh/holy), [keen](ref/magic-enh/keen), [merciful](ref/magic-enh/merciful),
-[seaborne](ref/magic-enh/seaborne), and [speed](ref/magic-enh/speed).
-
-**Ability2:** A kraken slayer who chooses a mount must select one suitable for an aquatic
-environment, such as an [elasmosaurus](ref/companion/elasmosaurus),
+A kraken slayer who chooses a weapon as her divine bond may either increase her weapon's enhancement
+bonus or add any of the following properties to her weapon: _[axiomatic](ref/magic-enh/axiomatic)_,
+_[brilliant energy](ref/magic-enh/brilliant-energy)_, _[defending](ref/magic-enh/defending)_,
+_[grayflame](ref/magic-enh/grayflame)_, _[holy](ref/magic-enh/holy)_, _[keen](ref/magic-enh/keen)_,
+_[merciful](ref/magic-enh/merciful)_, _[seaborne](ref/magic-enh/seaborne)_, and
+_[speed](ref/magic-enh/speed)_. A kraken slayer who chooses a mount must select one suitable for an
+aquatic environment, such as an [elasmosaurus](ref/companion/elasmosaurus),
 [giant seahorse](ref/companion/seahorse-giant), or [orca](ref/companion/orca).
 
-**Alters:** Divine bond
+This ability alters divine bond.
 
-**Aura of Elusion (Su)**
+## Aura of Elusion (Su) {#aura-of-elusion}
 
-**Gained:** At 14th Level
-
-**Passive:** A kraken slayer gains a sacred bonus equal to her kraken slayer level on Escape Artist
-checks and combat maneuver checks to escape a grapple and to her CMD to avoid being grappled. Each
-ally within 10 feet of her gains a sacred bonus equal to half her kraken slayer level on Escape
+At 14th level, a kraken slayer gains a sacred bonus equal to her kraken slayer level on Escape
+Artist checks and combat maneuver checks to escape a grapple and to her CMD to avoid being grappled.
+Each ally within 10 feet of her gains a sacred bonus equal to half her kraken slayer level on Escape
 Artist checks and combat maneuver checks to escape a grapple and to CMD to avoid being grappled.
+This ability functions only while the paladin is conscious, not if she is unconscious or dead.
 
-**Replaces:** Aura of faith
-
-**Special:** This ability functions only while the paladin is conscious, not if she is unconscious
-or dead.
+This ability replaces aura of faith.
