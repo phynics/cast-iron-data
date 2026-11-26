@@ -1,0 +1,41 @@
+[[edit]]
+entry = "ref/arc-fighter/dragonheir-scion"
+anchor = "draconic-bloodline"
+note = "hand-written by the batch lead from print (Legacy of Dragons p. 13, page checked as an image): the two tables of dragon types and energy types (Chromatic Dragon Type / Energy Type and Metallic Dragon Type / Energy Type, five rows each) that the extraction ran into the paragraph, written as Markdown tables, each cell as printed. The paragraph is print's."
+text = '''
+Each dragonheir scion can draw her lineage back to the influence of a great draconic progenitor. At 1st level, a dragonheir scion must select one of the chromatic or metallic dragon types. Once chosen, this cannot be changed. A number of dragonheir scion's abilities deal damage and grant resistances based on her dragon type, as noted below. If a dragonheir scion takes a level in another class that grants a bloodline, the bloodlines must be of the same type, even if that means that the bloodline of one of the classes must change. Subject to GM discretion, the dragonheir scion can change her former bloodline to make them conform.
+
+|Chromatic Dragon Type|Energy Type|
+| --- | --- |
+|Black|Acid|
+|Blue|Electricity|
+|Green|Acid|
+|Red|Fire|
+|White|Cold|
+
+|Metallic Dragon Type|Energy Type|
+| --- | --- |
+|Brass|Fire|
+|Bronze|Electricity|
+|Copper|Acid|
+|Gold|Fire|
+|Silver|Cold|
+'''
+
+[[edit]]
+entry = "ref/arc-witch/wyrm-witch"
+anchor = "chromatic"
+note = "hand-written by the batch lead from print (Legacy of Dragons p. 15, page checked as an image): the text layer sets the last letter of \"frightful aspect\" outside the italic run (\"aspec\" in italics, then \"t\"); the spell is italic in print and written so."
+text = '''
+2nd—_cause fear_, 4th—_hold person_, 6th—_suggestion_, 8th—_aura of doom_, 10th—_dominate person_, 12th—_geas/quest_, 14th—_mass hold person_, 16th—_frightful aspect_, 18th—_overwhelming presence_.
+'''
+
+[[edit]]
+entry = "ref/arc-paladin/silver-champion"
+anchor = "dragon-magic"
+note = "hand-written by the batch lead from print (Legacy of Dragons p. 25, page checked as an image): print breaks the line after \"1st-\" of \"1st- through 4th-level\"; the extraction joined it as \"1st-through\", and the suspended hyphen is written with its space as the corpus has it. The paragraph and the closing sentence are print's."
+text = '''
+The silver champion does not have access to the normal paladin spell list. She instead adds the 1st- through 4th-level spells from the domains granted by Apsu (Artifice, Good, Law, [Scalykind](ref/domain/scalykind), [Travel](ref/domain/travel)) and the god's associated subdomains (Archon, Construct, Dragon, Exploration, Toil, and Trade) to her class spell list. A silver champion casts one fewer spell of each level than normal. If this reduces the number to less than 0, she can't cast spells of that level.
+
+This ability modifies the paladin's spellcasting.
+'''

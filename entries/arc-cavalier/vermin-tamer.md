@@ -16,10 +16,15 @@ page = "17"
 
 [fields]
 kind = "archetype"
+features = [
+  { anchor = "darklands-mount", level = 1 },
+  { anchor = "stuck-in-the-saddle", level = 4 },
+  { anchor = "disorienting-challenge", level = 12 },
+]
 trades = [
-  { replaces = "Expert training", feature = "expert-trainer" },
-  { replaces = "Demanding challenge", feature = "demanding-challenge" },
-  { alters = "Mount", feature = "mount" },
+  { replaces = "Expert training", feature = "expert-trainer", by = ["stuck-in-the-saddle"] },
+  { replaces = "Demanding challenge", feature = "demanding-challenge", by = ["disorienting-challenge"] },
+  { alters = "Mount", feature = "mount", by = ["darklands-mount"] },
 ]
 +++
 
@@ -30,20 +35,14 @@ strange fauna often find that such partnerships with native creatures serve both
 well. While these mounts may be harder to handle than typical mounts, their versatility and
 adaptations prove indispensable.
 
-**Darklands Mount (Ex)**
+## Darklands Mount (Ex) {#darklands-mount}
 
-**Action:** Ability
-
-**Alters:** Mount
-
-**Gained:** At 1st Level
-
-A vermin tamer chooses a creature native to the Darklands as his mount. This functions as a
-cavalier's mount. He can choose a [giant beetle](ref/companion/beetle-giant),
+At 1st level, a vermin tamer chooses a creature native to the Darklands as his mount. This functions
+as a cavalier's mount. He can choose a [giant beetle](ref/companion/beetle-giant),
 [giant centipede](ref/companion/centipede-giant), [giant gecko](ref/companion/lizard-giant-gecko),
 [giant slug](ref/companion/slug-giant), or [giant spider](ref/companion/spider-giant) as his mount.
-These mounts (except the giant gecko) and the rules for vermin companions are detailed here, under
-Vermin Companions.
+These mounts (except the giant gecko) and the rules for vermin companions are detailed on page 36 of
+_Pathfinder RPG Ultimate Magic_.
 
 The selected mount is combat trained. The vermin trainer does not take an armor check penalty on
 Ride checks while riding his mount. If the vermin tamer's starting mount is large enough to act as a
@@ -51,26 +50,22 @@ mount, it gains [Light Armor Proficiency](ref/feat/armor-proficiency-light) as a
 selected animal companion is too small to act as a proper mount, then the vermin tamer gains
 [Undersized Mount](ref/feat/undersized-mount) as a bonus feat.
 
-**Stuck in the Saddle (Ex)**
+This ability alters mount.
 
-**Flavor:** A practiced vermin tamer can remain steady in the saddle even in unconventional
-situations.
+## Stuck in the Saddle (Ex) {#stuck-in-the-saddle}
 
-**At 4th Level:** He gains a +4 circumstance bonus on any checks to stay in the saddle when his
-mount is climbing walls or flying.
+A practiced vermin tamer can remain steady in the saddle even in unconventional situations. At 4th
+level, he gains a +4 circumstance bonus on any checks to stay in the saddle when his mount is
+climbing walls or flying. At 8th level, this bonus increases to +8, and he never falls off his mount
+when he is rendered unconscious.
 
-**At 8th Level:** This bonus increases to +8, and he never falls off his mount when he is rendered
-unconscious.
+This replaces expert training.
 
-**Replaces:** Expert training
+## Disorienting Challenge (Ex) {#disorienting-challenge}
 
-**Disorienting Challenge (Ex)**
-
-**Gained:** At 12th Level
-
-**Passive:** Whenever a vermin tamer declares a _challenge,_ he can confound his target with the
+At 12th level, whenever a vermin tamer declares a challenge, he can confound his target with the
 erratic movements of his mount. As long as the vermin tamer begins his turn mounted, with his mount
-climbing or flying at a higher location than his target, the target of his _challenge_ takes a -2
+climbing or flying at a higher location than his target, the target of his challenge takes a -2
 penalty to its AC.
 
-**Replaces:** Demanding challenge
+This replaces demanding challenge.

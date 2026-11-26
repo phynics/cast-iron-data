@@ -16,9 +16,15 @@ page = "13"
 
 [fields]
 kind = "archetype"
+features = [
+  { anchor = "innate-coercion", level = 1 },
+  { anchor = "phantasmagoric-breath", level = 1 },
+  { anchor = "draconic-trick" },
+  { anchor = "masterful-draconic-trick", level = 12 },
+]
 trades = [
-  { replaces = "Consummate liar", feature = "consummate-liar" },
-  { replaces = "Painful stare", feature = "painful-stare" },
+  { replaces = "Consummate liar", feature = "consummate-liar", by = ["innate-coercion"] },
+  { replaces = "Painful stare", feature = "painful-stare", by = ["phantasmagoric-breath"] },
 ]
 +++
 
@@ -27,73 +33,47 @@ swagger, and fear inspired by dragons to bully and browbeat others into obedienc
 dragon-inspired psychic magic-users typically employ draconic imagery in their dress and the
 manifestations of their powers.
 
-**Innate Coercion**
+## Innate Coercion {#innate-coercion}
 
-**Gained:** At 1st Level
-
-**Passive:** A mindwyrm mesmer gains a bonus equal to 1/2 his mesmerist level (minimum 1) on
+At 1st level, a mindwyrm mesmer gains a bonus equal to 1/2 his mesmerist level (minimum 1) on
 Intimidate checks. In addition, a mindwyrm mesmer never takes penalties on Intimidate checks for
 being smaller than his target.
 
-**Replaces:** Consummate liar
+This ability replaces consummate liar.
 
-**Phantasmagorical Breath (Su)**
+## Phantasmagoric Breath (Su) {#phantasmagoric-breath}
 
-**Flavor:** A mindwyrm mesmer has learned to mimic a [true dragon's](ref/family/dragon-true)
-destructive breath using his psychic ability.
+At 1st level, a mindwyrm mesmer has learned to mimic a [true dragon's](ref/family/dragon-true)
+destructive breath using his psychic ability. A number of times per day equal to his Charisma bonus
+(minimum 1 per day), a mindwyrm mesmer can unleash his phantasmagoric breath in either a 30-foot
+cone or a 60-foot line as a standard action. The breath induces a psychosomatic response in
+creatures caught in the area, dealing 1d6 points of energy damage at 1st level, plus an additional
+1d6 points of energy damage at 3rd level and for every 2 mesmerist levels thereafter. The mindwyrm
+mesmer selects the type of energy damage this deals (acid, cold, electricity, or fire) when this
+ability is first gained; once made, this choice can't be changed. Creatures affected can attempt a
+Will save (DC = 10 + 1/2 the mindwyrm mesmer's mesmerist level + his Charisma modifier) to realize
+the true nature of the attack, which negates all damage. This is a mind-affecting effect.
 
-**Gained:** At 1st Level
+This ability replaces painful stare.
 
-**Replaces:** Painful stare
+## Draconic Trick (Su) {#draconic-trick}
 
-**Standard:** A mindwyrm mesmer can unleash his phantasmagoric breath in either a 30-foot cone or a
-60-foot line. The breath induces a psychosomatic response in creatures caught in the area, dealing
-1d6 points of energy damage. The mindwyrm mesmer selects the type of energy damage this deals (acid,
-cold, electricity, or fire) when this ability is first gained; once made, this choice can't be
-changed. Creatures affected can attempt a Will save (DC = 10 + 1/2 the mindwyrm mesmer's mesmerist
-level + his Charisma modifier) to realize the true nature of the attack, which negates all damage.
-This is a mind-affecting effect.
+The following new trick can be selected by a mindwyrm mesmer.
 
-**Usage:** Charisma modifier times/day (minimum 1)
+### Threatening Mien {#threatening-mien}
 
-At 3rd level: The energy damage increases to 2d6.
+The subject's actions appear to be lethal in the extreme. A mindwyrm mesmer can trigger this trick
+when the subject moves adjacent to an enemy. Enemies adjacent to the subject take a -4 penalty on
+attacks against targets other than the subject. This trick lasts for 1 round per mindwyrm mesmer's
+mesmerist level.
 
-At 5th level: The energy damage increases to 3d6.
+## Masterful Draconic Trick (Su) {#masterful-draconic-trick}
 
-At 7th level: The energy damage increases to 4d6.
+The following new masterful trick can be selected by a mindwyrm mesmer of 12th level or higher.
 
-At 9th level: The energy damage increases to 5d6.
+### Frightful Countenance {#frightful-countenance}
 
-At 11th level: The energy damage increases to 6d6.
-
-At 13th level: The energy damage increases to 7d6.
-
-At 15th level: The energy damage increases to 8d6.
-
-At 17th level: The energy damage increases to 9d6.
-
-At 19th level: The energy damage increases to 10d6.
-
-**Draconic Trick (Su)**
-
-**Info:** The following new trick can be selected by a mindwyrm mesmer.
-
-**Threatening Mien**
-
-**Ability:** The subject's actions appear to be lethal in the extreme. A mindwyrm mesmer can trigger
-this trick when the subject moves adjacent to an enemy. Enemies adjacent to the subject take a -4
-penalty on attacks against targets other than the subject. This trick lasts for 1 round per mindwyrm
-mesmer's mesmerist level.
-
-**Masterful Draconic Trick (Su)**
-
-**At 12th Level:** The following new masterful trick can be selected by a mindwyrm mesmer of 12th
-level or higher.
-
-**Frightful Countenance**
-
-**Ability:** The subject's appearance changes into that which frightens an attacker to the core. The
-mindwyrm mesmer can trigger this trick when the subject is targeted by an attack or by a spell that
-requires an attack roll. The attacker must succeed at a Will save or the attack misses and the
-attacker immediately becomes [shaken](ref/misc/shaken) for 1d4 rounds. This is a mind-affecting fear
-effect.
+The subject's appearance changes into that which frightens an attacker to the core. The mindwyrm
+mesmer can trigger this trick when the subject is targeted by an attack or by a spell that requires
+an attack roll. The attacker must succeed at a Will save or the attack misses and the attacker
+immediately becomes [shaken](ref/misc/shaken) for 1d4 rounds. This is a mind-affecting fear effect.

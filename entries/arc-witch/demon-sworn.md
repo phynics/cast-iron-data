@@ -16,12 +16,17 @@ page = "16"
 
 [fields]
 kind = "archetype"
+features = [
+  { anchor = "demonic-pact" },
+  { anchor = "cruel-hex", level = 1 },
+  { anchor = "manifest-pact", level = 6 },
+]
 trades = [
-  { replaces = "6th-level hex", feature = "hex", levels = [6] },
-  { alters = "Patron spells", feature = "patron-spells" },
-  { alters = "Hex", feature = "hex" },
-  { alters = "major hex", feature = "major-hex" },
-  { alters = "grand hex", feature = "grand-hex" },
+  { replaces = "Hex gained at 6th level", feature = "hex", levels = [6], by = ["manifest-pact"] },
+  { alters = "Patron spells", feature = "patron-spells", by = ["demonic-pact"] },
+  { alters = "Hex", feature = "hex", by = ["cruel-hex"] },
+  { alters = "major hex", feature = "major-hex", by = ["cruel-hex"] },
+  { alters = "grand hex", feature = "grand-hex", by = ["cruel-hex"] },
 ]
 +++
 
@@ -31,42 +36,28 @@ inhospitable locales on Golarion, many seek the succor of demons as a means of s
 are often made in haste, without a true understanding of the lifelong effects they'll have on those
 who make them.
 
-**Demonic Pact**
+## Demonic Pact {#demonic-pact}
 
-**Alters:** Patron spells
+A demon-sworn makes a pact with a demonic entity, forever binding her to the forces of the Abyss and
+corrupting her connection with her patron. At the indicated levels, she gains the spells below in
+place of her normal patron spells: 2nd—_protection from_ _good_, 6th—_unholy blight_, 10th—_dispel
+good_, 14th—_blasphemy_, 18th—_unholy aura_. Casting spells with the evil descriptor from this
+replacement list has no effect on the demon-sworn's alignment.
 
-**Info:** A demon-sworn makes a pact with a demonic entity, forever binding her to the forces of the
-Abyss and corrupting her connection with her patron. At the indicated witch levels, she gains the
-spells below in place of her normal patron spells.
+This ability modifies patron spells.
 
-**Spells:** Dispel good
+## Cruel Hex {#cruel-hex}
 
-**Spells:** Blasphemy
+A demon-sworn always inflicts some pain, whether she wants to or not. Each hex deals 1d4 points of
+nonlethal damage to creatures affected by it, in addition to any damage the hex normally deals. For
+major hexes, the damage increases to 2d4. For grand hexes, the damage increases to 4d4. Each die
+result of a natural 4 deals 1 point of lethal damage to the demon-sworn.
 
-**Spells:** Unholy aura
+This ability alters the witch's hex, major hex, and grand hex.
 
-**Spells:** Protection from good
+## Manifest Pact (Ex) {#manifest-pact}
 
-**Spells:** Unholy blight
-
-**Special:** Casting spells with the evil descriptor from this replacement list has no effect on the
-demonsworn's alignment.
-
-**Cruel Hex**
-
-**Ability:** Each hex deals 1d4 points of nonlethal damage to creatures affected by it, in addition
-to any damage the hex normally deals. For major hexes, the damage increases to 2d4. For grand hexes,
-the damage increases to 4d4.
-
-**Alters:** Hex, major hex, grand hex
-
-**Flavor:** A demon-sworn always inflicts some pain, whether she wants to or not.
-
-**Special:** Each die result of a natural 4 deals 1 point of lethal damage to the demon-sworn.
-
-**Manifest Pact (Ex)**
-
-**Ability:** The demon-sworn gains [Improved Familiar](ref/feat/improved-familiar) as a bonus feat.
+At 6th level, the demon-sworn gains [Improved Familiar](ref/feat/improved-familiar) as a bonus feat.
 The associated familiar is made up of the tiny amount of soul matter lost when the demon-sworn made
 her pact with demonic powers. The familiar must be a [quasit](ref/monster/demon-quasit), regardless
 of the demon-sworn's actual alignment, and it manifests by eating its way out of the demon-sworn's
@@ -79,6 +70,4 @@ also imparts the demon-sworn with 1 permanent
 [negative level](ref/rule/energy-drain-and-negative-levels), as if she had been hit by an
 energy-draining creature.
 
-**Gained:** At 6th Level
-
-**Replaces:** 6th-level hex
+This ability replaces the hex gained at 6th level.

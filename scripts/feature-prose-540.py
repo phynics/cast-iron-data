@@ -677,6 +677,7 @@ TEXT_EL = re.compile(r'<text top="(-?\d+)" left="(-?\d+)" width="(-?\d+)" height
 FONT_EL = re.compile(r'<fontspec id="(\d+)" size="(\d+)" family="([^"]*)" color="([^"]*)"')
 TAG_SPLIT = re.compile(r"(</?[bi]>)")
 BODY_TOP = (88, 1075)
+PAGE_SKIP: list[tuple[int, int]] = []     # printed pages (first, last) that hold other text than the archetypes (Legacy of Dragons pp. 16-23 and from 26)
 CHAPTER_END = [0]              # the last printed page of the chapter of archetypes, where the book sets other text on the next page (0: none)
 PAGE_OFFSET = [1]              # printed page = PDF page - this, when the page's folio is not in the text layer (Inner Sea Combat: 2)
 BODY_CAP_TOP = 60
@@ -907,6 +908,11 @@ def page_lines(book: Book, num: int) -> list[dict]:
             for _, raw, _w in ln["parts"]:
                 runs += runs_of(raw)
             ln["runs"] = runs
+            if ARCHETYPE_CAPS["on"] and 14 <= ln["size"] <= 16:
+                # Heroes of the Darklands sets "BLIGHTSEEKER (ALCHEMIST ARCHETYPE)" in capitals one size above the text (15 against 13)
+                txt = "".join(t for t, _, _ in runs).strip()
+                if CAPS_TITLE.fullmatch(txt):
+                    ln["size"] = 18
             if NO_STYLE["on"] and 12 <= ln["size"] <= 15:
                 # a title is set a size larger than the text (14 against 13) and ends "Archetype)": it is a title of the book's sections
                 txt = "".join(t for t, _, _ in runs).rstrip()
@@ -915,6 +921,12 @@ def page_lines(book: Book, num: int) -> list[dict]:
                     ln["runs"] = [(re.sub(r"\s*:$", "", txt), True, False)]
                 elif ln["size"] == 15 and re.fullmatch(r"[\"\u201c\ufffd]?[^\d()]{3,40}", txt):
                     ln["runs"] = []                 # a caption of an illustration or a table title in the larger type: not text of the archetype
+        if ARCHETYPE_CAPS["on"]:
+            # a title that wraps around art: "PSYCHIC MARAUDER (PSYCHIC" over "ARCHETYPE)" (Heroes of the Darklands p. 22)
+            for a, b in zip(cur, cur[1:]):
+                ta, tb = ("".join(t for t, _, _ in x["runs"]).strip() for x in (a, b))
+                if a["size"] in (14, 15, 16) and CAPS_TITLE_HEAD.fullmatch(ta) and CAPS_TITLE_TAIL.fullmatch(tb):
+                    a["size"] = b["size"] = 18
         lines += [ln for ln in cur if ln["runs"]]
     return lines
 
@@ -955,6 +967,11 @@ def split_boxes(plines: list[dict]) -> tuple[list[dict], list[dict]]:
     return main, box
 
 
+def page_skipped(printed: int | None) -> bool:
+    """True for a page whose printed number lies in `PAGE_SKIP`: the book sets other text there (feats, spells, a new chapter)."""
+    return printed is not None and any(a <= printed <= b for a, b in PAGE_SKIP)
+
+
 def read_blocks(book: Book, first: int, last: int) -> list[Para]:
     """Paragraphs and titles of the PDF pages `first`..`last`, columns in reading order."""
     items, boxes = [], []
@@ -962,6 +979,8 @@ def read_blocks(book: Book, first: int, last: int) -> list[Para]:
         last = min(last, CHAPTER_END[0] + PAGE_OFFSET[0])            # the pages after the chapter hold other text (Inner Sea Combat p. 47: the magic items)
     for num in range(first, last + 1):
         if num not in book.pages:
+            continue
+        if page_skipped(book.printed.get(num)):
             continue
         plines = page_lines(book, num)
         if BOX_TITLES["titles"]:
@@ -1194,6 +1213,10 @@ MARGIN_CAPTIONS = {"on": False}
 ITALIC_FIRST = {"on": False}            # the Campaign Setting books: the first letter of an italic word that the layer set apart ("s" + "un orchid elixir")
 LOWERCASE_CONTINUES = {"on": False}      # the Campaign Setting books: no paragraph starts in lower case
 BULLETS = {"on": False}         # a line that starts with a bullet starts a list item (Inner Sea Intrigue "Tinkering")
+CAPS_TITLE = re.compile(r"[A-Z0-9'\u2019 \-!.]+\([A-Z ]+ ARCHETYPE\)")
+CAPS_TITLE_HEAD = re.compile(r"[A-Z0-9'\u2019 \-!.]+\([A-Z ]+")
+CAPS_TITLE_TAIL = re.compile(r"ARCHETYPE\)")
+ARCHETYPE_CAPS = {"on": False}  # Heroes of the Darklands: a title in capitals "(CLASS ARCHETYPE)" one size above the text is a title
 NO_STYLE = {"on": False}        # Inner Sea Combat: the text layer has no bold or italic runs; a head is told by its shape
 CAPTIONS = {"on": False}        # the same books: a title that repeats the archetype's own name in large type is an illustration's caption
 
@@ -1248,7 +1271,7 @@ def find_section(blocks: list[Para], title: str, stops: set[str] | None = None) 
                     # another archetype, a class, a chapter title (a larger font) or a title of a type of rules ends the
                     # section; so does the "NEW RACIAL RULES" title that follows the archetypes of a race chapter
                     any_ends = ANY_TITLE_ENDS["on"] and not ANY_TITLE_STAYS.match(k)
-                    if (stops is None or any_ends or k in stops or k.endswith(("archetype", "mystery", "bloodline")) or nxt.size >= 30
+                    if (stops is None or any_ends or k in stops or k.endswith(("archetype", "mystery", "bloodline")) or nxt.size >= 30 or (ARCHETYPE_CAPS["on"] and nxt.size >= 20)
                             or CLASS_SUFFIX.search(nxt.plain()) or k == "newracialrules" or (TYPE_TITLE.search(nxt.plain()) and k not in KEEP_TITLES)
                             or (SECTION_STOPS["on"] and SECTION_STOP.match(re.sub(r"\s+", " ", nxt.plain()).strip()))):
                         out.end = nxt.plain().strip()
@@ -4132,7 +4155,7 @@ def finalize(e: Entry, res: dict, class_cache: dict | None = None) -> dict:
 
 # The Player Companions that set their archetype titles in small capitals (a capital and its small capitals 5 units apart), and whose
 # archetypes are followed by sections of the chapter of their own (feats, techniques, spells): any title ends the section of an archetype.
-SMALL_CAP_BOOKS = ("blood-of-the-ancients", "blood-of-the-beast", "heroes-of-the-high-court", "martial-arts-handbook")
+SMALL_CAP_BOOKS = ("blood-of-the-ancients", "blood-of-the-beast", "heroes-of-the-high-court", "martial-arts-handbook", "legacy-of-dragons")
 # ... and of these, the ones whose chapter titles or capitals stand above the usual top of the body (Blood of the Ancients keeps 88)
 HIGH_TITLE_BOOKS = ("blood-of-the-beast", "heroes-of-the-high-court", "martial-arts-handbook")
 
@@ -4142,14 +4165,17 @@ def configure_book(book: str) -> None:
     ERRATA_CTX["book"] = book
     PAGE_OFFSET[0] = 2 if book == "inner-sea-combat" else 1
     CHAPTER_END[0] = 47 if book == "inner-sea-combat" else 0
+    PAGE_SKIP[:] = [(16, 23), (26, 999)] if book == "legacy-of-dragons" else []
     LOWERCASE_CONTINUES["on"] = BULLETS["on"] = ITALIC_FIRST["on"] = CITE_EXT["on"] = LEAD_EXT["on"] = book in ("inner-sea-magic", "inner-sea-intrigue", "inner-sea-combat")
     OCR["on"] = NO_STYLE["on"] = book == "inner-sea-combat"
+    ARCHETYPE_CAPS["on"] = book == "heroes-of-the-darklands"
     PAGE_GEOMETRY["on"] = book in ("inner-sea-magic", "inner-sea-intrigue", "inner-sea-combat")
     MARGIN_CAPTIONS["on"] = CAPTIONS["on"] = book in ("inner-sea-magic", "inner-sea-intrigue", "inner-sea-combat")
     BOX_TITLES["titles"] = frozenset(squash(t) for t in BOXES_OF_BOOK.get(book, ()))
     SKIP_TABLES["on"] = book == "advanced-race-guide"
     ILLUSTRATED["on"] = book in ("advanced-class-guide", "advanced-race-guide", "adventurers-guide", "ultimate-wilderness",
-                                 "horror-adventures", "planar-adventures", "inner-sea-magic", "inner-sea-intrigue", "inner-sea-combat")
+                                 "horror-adventures", "planar-adventures", "inner-sea-magic", "inner-sea-intrigue", "inner-sea-combat",
+                                 "heroes-of-the-darklands", "legacy-of-dragons", "familiar-folio", "advanced-class-origins")
     SECTION_STOPS["on"] = book in ("adventurers-guide", "ultimate-wilderness", "horror-adventures", "planar-adventures")
     ANY_TITLE_ENDS["on"] = book in SMALL_CAP_BOOKS
     SMALL_CAP_TITLES["on"] = book in SMALL_CAP_BOOKS
@@ -4806,6 +4832,38 @@ TRADE_OP_FIXES.update({
 })
 
 
+# ---- the batch of Heroes of the Darklands, Legacy of Dragons, Familiar Folio and Advanced Class Origins (phynics/cast-iron#540, lead A, second batch) ----
+
+IMPORT_HEAD_FIXES.update({
+    # the import's misspelled heads (Legacy of Dragons p. 13)
+    ("ref/arc-fighter/dragonheir-scion", "Draconic Defense (Su)"): "Draconic Defenses (Su)",
+    ("ref/arc-fighter/dragonheir-scion", "Draconic Presense (Su)"): "Draconic Presence (Su)",
+    ("ref/arc-mesmerist/mindwyrm-mesmer", "Phantasmagorical Breath (Su)"): "Phantasmagoric Breath (Su)",
+})
+EXTRA_LINKS[("ref/arc-cavalier/drakerider", "approved-order")] = [("order of the beast", "ref/order/order-of-the-beast-isc")]
+
+TRADE_RENAMES.update({
+    # the printed words of the sentence of the feature that replaces them (ruling 22)
+    ("ref/arc-barbarian/beastkin-berserker", "4th, 8th, and 12th level rage powers"): "Rage powers gained at 4th, 8th, and 12th levels",
+    ("ref/arc-psychic/psychic-marauder", "3rd-, 11th-, and 19th-level phrenic amplifications"): "Phrenic amplifications gained at 3rd, 11th, and 19th levels",
+    ("ref/arc-vigilante/darklantern", "1st-level social talent"): "Social talent that the darklantern gains at 1st level",
+    ("ref/arc-witch/demon-sworn", "6th-level hex"): "Hex gained at 6th level",
+    ("ref/arc-alchemist/blightseeker", "The discovery gained at 6th level"): "Discoveries gained at 6th, 12th, and 18th levels",
+    ("ref/arc-kineticist/blightburner", "Basic geokinesis wild talent"): "Basic geokinesis wild talent gained from elemental focus",
+    ("ref/arc-druid/fungal-pilgrim", "Wild shape"): "Wild shape if the fungal pilgrim selected the Plant domain as her nature bond",
+})
+TRADE_RENAMES.update({
+    ("ref/arc-fighter/dragonheir-scion", "Bonus feat gained at 4th level"): "Bonus feat gained at 3rd level",
+    ("ref/arc-fighter/dragonheir-scion", "Bonus feat gained at 6th level.1-2"): "Bonus feat gained at 5th level",
+})
+TRADE_RENAMES[("ref/arc-samurai/sovereign-blade", "Bonus feats gained at 6th, 12th, and 18th level")] = "Bonus feats a samurai gained at 6th, 12th, and 18th level"
+TRADE_LEVELS[("ref/arc-fighter/dragonheir-scion", "Bonus feat gained at 3rd level")] = [3]
+TRADE_LEVELS[("ref/arc-fighter/dragonheir-scion", "Bonus feat gained at 5th level")] = [5]
+TRADE_ADDITIONS["ref/arc-fighter/dragonheir-scion"] = [{"alters": "Class skills"}]
+TRADE_ADDITIONS["ref/arc-druid/fungal-pilgrim"] = [{"replaces": "Wild shape if the fungal pilgrim selected an animal companion as her nature bond"}]
+TRADE_LEVELS[("ref/arc-alchemist/blightseeker", "Discoveries gained at 6th, 12th, and 18th levels")] = [6, 12, 18]
+TRADE_MERGED["ref/arc-alchemist/blightseeker"] = [("replaces", "The discovery gained at 12th level"), ("replaces", "The discovery gained at 18th level")]
+
 def self_test() -> int:
     import tempfile
     ok = 0
@@ -4839,6 +4897,13 @@ def self_test() -> int:
     eq(fix_ligatures("lots of f ine", {"fine"}), "lots of fine", "ligature fine")
     eq(fix_hyphens("two- weapon fighter", {"two-weapon"}), "two-weapon fighter", "hyphen kept")
     eq(fix_hyphens("conven- tional", {"conventional"}), "conventional", "hyphen dropped")
+    eq(bool(CAPS_TITLE.fullmatch("BLIGHTSEEKER (ALCHEMIST ARCHETYPE)")), True, "caps title")
+    eq(bool(CAPS_TITLE.fullmatch("Blightseeker (Alchemist Archetype)")), False, "caps title lower case")
+    eq(bool(CAPS_TITLE_HEAD.fullmatch("PSYCHIC MARAUDER (PSYCHIC")) and bool(CAPS_TITLE_TAIL.fullmatch("ARCHETYPE)")), True, "caps title wrapped")
+    eq([page_skipped(n) for n in (None, 15)], [False, False], "page skip off")
+    PAGE_SKIP[:] = [(16, 23), (26, 999)]
+    eq([page_skipped(n) for n in (None, 15, 16, 23, 24, 25, 26, 40)], [False, False, True, True, False, False, True, True], "page skip")
+    PAGE_SKIP[:] = []
     eq(apply_links("a bull rush works", [("bull rush", "ref/rule/bull-rush")])[0], "a [bull rush](ref/rule/bull-rush) works", "link")
     eq(apply_links("a trip", [("bull rush", "x")])[1], ["bull rush"], "link lost")
     # the owner's examples

@@ -16,15 +16,21 @@ page = "24"
 
 [fields]
 kind = "archetype"
+features = [
+  { anchor = "drake-companion", level = 1 },
+  { anchor = "dragon-sense", level = 1 },
+  { anchor = "resist-dragon-s-might" },
+  { anchor = "dragon-shape" },
+]
 trades = [
-  { replaces = "Nature bond", feature = "nature-bond" },
-  { replaces = "wild empathy", feature = "wild-empathy" },
-  { replaces = "woodland stride", feature = "woodland-stride" },
-  { replaces = "venom immunity", feature = "venom-immunity" },
-  { replaces = "a thousand faces", feature = "a-thousand-faces" },
-  { replaces = "timeless body", feature = "timeless-body" },
-  { replaces = "Nature sense", feature = "nature-sense" },
-  { replaces = "Resist nature's lure", feature = "resist-nature-s-lure" },
+  { replaces = "Nature bond", feature = "nature-bond", by = ["drake-companion"] },
+  { replaces = "wild empathy", feature = "wild-empathy", by = ["drake-companion"] },
+  { replaces = "woodland stride", feature = "woodland-stride", by = ["drake-companion"] },
+  { replaces = "venom immunity", feature = "venom-immunity", by = ["drake-companion"] },
+  { replaces = "a thousand faces", feature = "a-thousand-faces", by = ["drake-companion"] },
+  { replaces = "timeless body", feature = "timeless-body", by = ["drake-companion"] },
+  { replaces = "Nature sense", feature = "nature-sense", by = ["dragon-sense"] },
+  { replaces = "Resist nature's lure", feature = "resist-nature-s-lure", by = ["resist-dragon-s-might"] },
 ]
 +++
 
@@ -32,44 +38,35 @@ Some druids believe that dragons are the ultimate expression of nature, combinin
 with majestic beauty. These druids consort with dragons and eventually transform into draconic
 forms.
 
-**Drake Companion**
+## Drake Companion {#drake-companion}
 
-**Ability:** A draconic druid gains a [drake companion](ref/sidekick/drake) instead of an animal
-companion.
+A draconic druid gains a [drake companion](ref/sidekick/drake) instead of an animal companion.
 
-**Replaces:** Nature bond, wild empathy, woodland stride, venom immunity, a thousand faces, timeless
-body
+This ability replaces nature bond, wild empathy, woodland stride, venom immunity, a thousand faces,
+and timeless body.
 
-**Dragon Sense**
+## Dragon Sense {#dragon-sense}
 
-**Flavor:** A draconic druid studies dragons and their history.
+A draconic druid studies dragons and their history. She gains a +2 bonus on Knowledge (arcana) and
+Knowledge (history) checks.
 
-**Passive:** She gains a +2 bonus on Knowledge (arcana) and Knowledge (history) checks.
+This ability replaces nature sense.
 
-**Replaces:** Nature sense
+## Resist Dragon's Might {#resist-dragon-s-might}
 
-**Resist Dragon's Might**
-
-**Passive:** A draconic druid gains a +4 bonus on saving throws against the spells,
+A draconic druid gains a +4 bonus on saving throws against the spells,
 [spell-like abilities](ref/umr/spell-like-abilities), and supernatural abilities of dragons.
 
-**Replaces:** Resist nature's lure
+This ability replaces resist nature's lure.
 
-**Dragon Shape**
+## Dragon Shape {#dragon-shape}
 
-**Ability:** A draconic druid can't use _wild shape_ to change into any of the usual forms available
-to a druid. Instead, she can use _wild shape_ to change into a dragon-scaled version of herself with
+A draconic druid can't use wild shape to change into any of the usual forms available to a druid.
+Instead, at 4th level, she can use wild shape to change into a dragon-scaled version of herself with
 long fangs, gaining a +1 natural armor bonus to her AC and a [bite attack](ref/umr/natural-attacks)
 appropriate for her size (1d6 points of damage for a Medium druid) but otherwise retaining her usual
-form.
-
-**At 10th Level:** She can spend two uses of _wild shape_ to transform into a Medium dragon as per
-[form of the dragon I](ref/spell/form-of-the-dragon-1).
-
-**At 12th Level:** She can spend two uses to change into a Large dragon as per
-[form of the dragon II](ref/spell/form-of-the-dragon-2).
-
-**Gained:** At 4th Level
-
-**Special:** Each time that a draconic druid uses _wild shape_ counts as a separate casting of the
-_form of the dragon_ spell for the purpose of refreshing her uses of her breath weapon.
+form. At 10th level, she can spend two uses of wild shape to transform into a Medium dragon as per
+_[form of the dragon I](ref/spell/form-of-the-dragon-1)_, and at 12th level, she can spend two uses
+to change into a Large dragon as per _[form of the dragon II](ref/spell/form-of-the-dragon-2)_. Each
+time that a draconic druid uses wild shape counts as a separate casting of the spell for the purpose
+of refreshing her uses of her breath weapon.

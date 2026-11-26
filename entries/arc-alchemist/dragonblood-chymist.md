@@ -16,13 +16,18 @@ page = "12"
 
 [fields]
 kind = "archetype"
+features = [
+  { anchor = "dragonblood-mutagen", level = 1 },
+  { anchor = "explosive-breath", level = 1 },
+  { anchor = "draconic-resistances", level = 2 },
+]
 trades = [
-  { replaces = "2nd-, 12th-, 16th-level discoveries", feature = "discovery", levels = [2, 12, 16] },
-  { replaces = "Throw Anything", feature = "throw-anything" },
-  { replaces = "Poison resistance", feature = "poison-resistance" },
-  { replaces = "poison use", feature = "poison-use" },
-  { replaces = "swift poisoning", feature = "swift-poisoning" },
-  { alters = "Mutagen", feature = "mutagen" },
+  { replaces = "2nd-, 12th-, 16th-level discoveries", feature = "discovery", levels = [2, 12, 16], by = ["dragonblood-mutagen"] },
+  { replaces = "Throw Anything", feature = "throw-anything", by = ["explosive-breath"] },
+  { replaces = "Poison resistance", feature = "poison-resistance", by = ["draconic-resistances"] },
+  { replaces = "poison use", feature = "poison-use", by = ["draconic-resistances"] },
+  { replaces = "swift poisoning", feature = "swift-poisoning", by = ["draconic-resistances"] },
+  { alters = "Mutagen", feature = "mutagen", by = ["dragonblood-mutagen"] },
 ]
 +++
 
@@ -31,53 +36,39 @@ formidable than the blood of wyrms? The dragonblood chymists of Kaer Maga specia
 distillation of extracts and elixirs that allow them to experience the might of a dragon, however
 dangerous it might be
 
-**Dragonblood Mutagen (Su)**
+## Dragonblood Mutagen (Su) {#dragonblood-mutagen}
 
-**Alters:** Mutagen
+At 1st level, a dragonblood chymist discovers how to create a mutagen that he can imbibe in order to
+mimic the might of a dragon. While he maintains his original form, his features take on a draconic
+appearance, becoming scaly and lizard-like. He gains a +2 natural armor bonus and a +2 alchemical
+bonus to his Strength for 10 minutes per class level.
 
-**At 1st Level:** A dragonblood chymist discovers how to create a mutagen that he can imbibe in
-order to mimic the might of a dragon. While he maintains his original form, his features take on a
-draconic appearance, becoming scaly and lizard-like. He gains a +2 natural armor bonus and a +2
-alchemical bonus to his Strength for 10 minutes per class level.
-
-**At 12th Level:** The dragonblood mutagen grants a +4 natural armor bonus and a +4 alchemical bonus
-to his Strength.
-
-**At 16th Level:** The dragonblood mutagen grants a +6 natural armor bonus and a +6 alchemical bonus
-to his Strength.
-
-**At 2nd Level:** The dragonblood chymist has learned to concentrate the potency of his dragonblood
+At 2nd level, the dragonblood chymist has learned to concentrate the potency of his dragonblood
 mutagen such that it grants him two claw attacks and a bite attack. If these are the only attacks
 the dragonblood chymist makes in a round, they are primary attacks and are made using his full base
 attack bonus. Otherwise, these [natural attacks](ref/umr/natural-attacks) are treated as secondary
 attacks. The claw attacks deal 1d4 points of damage (1d3 if he is Small) and the bite attack deals
 1d6 points of damage (1d4 if he is Small). While the mutagen is in effect, he gains a +2 competence
-bonus on Intimidate checks.
+bonus on Intimidate checks. At 12th level, the dragonblood mutagen grants a +4 natural armor bonus
+and a +4 alchemical bonus to his Strength. At 16th level, the dragonblood mutagen grants a +6
+natural armor bonus and a +6 alchemical bonus to his Strength. This ability otherwise functions as
+mutagen.
 
-**Replaces:** 2nd-, 12th-, 16th-level discoveries
+This ability modifies the mutagen class feature; replaces the discoveries gained at 2nd, 12th, and
+16th levels; and precludes the dragonblood chymist from taking any other mutagen discoveries.
 
-**Special:** This ability otherwise functions as _mutagen_ and precludes the dragonblood chymist
-from taking any other _mutagen_ discoveries.
+## Explosive Breath (Su) {#explosive-breath}
 
-**Explosive Breath (Su)**
+At 1st level, a dragonblood chymist gains the ability to expel fire from his mouth in the same
+manner as a dragon. He gains the [breath weapon bomb](ref/discovery/breath-weapon-bomb) alchemist
+discovery but must apply this discovery to every bomb he creates.
 
-**Gained:** At 1st Level
+This ability replaces the Throw Anything ability.
 
-**Provokes attack of opportunity:** No
+## Draconic Resistances (Ex) {#draconic-resistances}
 
-**Replaces:** Throw Anything
+At 2nd level, a dragonblood chymist gains a +2 bonus on all saving throws against paralysis and
+sleep effects. This bonus increases to +4 at 6th level, and to +6 at 10th level. At 10th level, a
+dragonblood chymist becomes immune to paralysis and sleep effects.
 
-**Standard:** A dragonblood chymist gains the [breath weapon bomb](ref/discovery/breath-weapon-bomb)
-alchemist discovery but must apply this discovery to every bomb he creates.
-
-**Draconic Resistances (Ex)**
-
-**At 10th Level:** This bonus increases to +6. At 10th level, a dragonblood chymist becomes immune
-to paralysis and sleep effects.
-
-**At 2nd Level:** A dragonblood chymist gains a +2 bonus on all saving throws against paralysis and
-sleep effects.
-
-**At 6th Level:** This bonus increases to +4.
-
-**Replaces:** Poison resistance, poison use, swift poisoning
+This ability replaces poison resistance, poison use, and swift poisoning.
