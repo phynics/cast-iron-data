@@ -16,12 +16,19 @@ page = "21"
 
 [fields]
 kind = "archetype"
+features = [
+  { anchor = "fecund-familiar", level = 1 },
+  { anchor = "low-friends", level = 2 },
+  { anchor = "shadowy-opportunist", level = 1 },
+  { anchor = "child-of-pollution", level = 4 },
+  { anchor = "swarm-shape", level = 12 },
+]
 trades = [
-  { replaces = "Nature bond", feature = "nature-bond" },
-  { replaces = "Woodland stride", feature = "woodland-stride" },
-  { replaces = "Nature sense", feature = "nature-sense" },
-  { replaces = "Resist nature's lure", feature = "resist-nature-s-lure" },
-  { replaces = "The normal wild shape options gained at 12th level", feature = "wild-shape", levels = [12] },
+  { replaces = "Nature bond", feature = "nature-bond", by = ["fecund-familiar"] },
+  { replaces = "Woodland stride", feature = "woodland-stride", by = ["low-friends"] },
+  { replaces = "Nature sense", feature = "nature-sense", by = ["shadowy-opportunist"] },
+  { replaces = "Resist nature's lure", feature = "resist-nature-s-lure", by = ["child-of-pollution"] },
+  { replaces = "The normal wild shape options gained at 12th level", feature = "wild-shape", levels = [12], by = ["swarm-shape"] },
 ]
 +++
 
@@ -29,82 +36,66 @@ Swarm mongers are unparalleled survivors, thriving on the filthy fringes of soci
 druids commune with nature or even the spirit of a city, swarm mongers find beauty and strength in
 decay, and they draw their power from fungus, disease, and their own singular will to survive.
 
-**Prerequisites:** Ratfolk
+## Fecund Familiar (Ex) {#fecund-familiar}
 
-**Fecund Familiar (Ex)**
+A swarm monger bonds with an urban [familiar](ref/sidekick/familiar), treating her druid level as
+her [wizard](ref/class/wizard) level for the purposes of determining her familiar's abilities. The
+swarm monger must select her familiar from the [following options](ref/ability/familiars): cat,
+house centipede, rat, raven, or scarlet spider. The fecund familiar gains the benefits of its
+master's child of pollution, shadowy opportunist, and venom immunity class abilities.
 
-**Choice:** A swarm monger bonds with an urban [familiar](ref/sidekick/familiar), treating her druid
-level as her [wizard](ref/class/wizard) level for the purposes of determining her familiar's
-abilities. The swarm monger must select her familiar from the
-[following options](ref/ability/familiars): cat, house centipede, rat, raven, or scarlet spider.
-
-**At 12th Level:** Creatures that fail their Fortitude saving throws instead become
-[nauseated](ref/misc/nauseated).
-
-**At 5th Level:** Any creature damaged by a fecund familiar's swarm attack must succeed at a
-Fortitude saving throw (DC = 10 + 1/2 the swarm monger's druid level + the swarm monger's Wisdom
-modifier) or be [sickened](ref/misc/sickened) for 1d6 rounds.
-
-**Passive:** The fecund familiar gains the benefits of its master's _child of pollution, shadowy
-opportunist,_ and _venom immunity_ class abilities.
-
-**Replaces:** Nature bond
-
-**Special:** The swarm monger is immune to her own familiar's swarm attack. A fecund familiar cannot
-be reduced in size to Diminutive or smaller when in swarm form.
-
-**Standard:** A swarm monger can cause her familiar to burst forth into a full swarm of identical
-creatures, filling four contiguous 5-foot squares and gaining
+As a standard action, a swarm monger can cause her familiar to burst forth into a full swarm of
+identical creatures, filling four contiguous 5-foot squares and gaining
 [temporary hit points](ref/rule/temporary-hit-points) equal to
 [half](ref/misc/fractions-and-rounding) its master's maximum hit points. While in swarm form, the
-familiar loses the _improved evasion, share spells, deliver touch attack,_ and _scry on familiar_
+familiar loses the improved evasion, share spells, deliver touch attack, and scry on familiar
 special abilities. It uses its normal AC, saving throws, and skill bonuses, and it gains the
 [swarm](ref/subtype/swarm) subtype and the ability to make swarm attacks (dealing 1d6 points of
 damage at 1st level and using the swarm monger's druid level as the swarm's Hit Dice to determine
-damage increases as per the swarm subtype).
+damage increases as per the swarm subtype). The swarm monger is immune to her own familiar's swarm
+attack.
 
-**Usage:** A swarm monger can transform her familiar into a swarm a number of times each day equal
-to her Wisdom modifier (minimum 1), and the transformation lasts for 1 minute per druid level, or
-until the swarm monger reverts her familiar back to a singular form as a **standard action**.
+Beginning at 5th level, any creature damaged by a fecund familiar's swarm attack must succeed at a
+Fortitude saving throw (DC = 10 + 1/2 the swarm monger's druid level + the swarm monger's Wisdom
+modifier) or be [sickened](ref/misc/sickened) for 1d6 rounds. At 12th level, creatures that fail
+their Fortitude saving throws instead become [nauseated](ref/misc/nauseated).
 
-**Usage:** A swarm monger can transform her familiar into a swarm a number of times each day equal
-to her Wisdom modifier (minimum 1), and the transformation lasts for 1 minute per druid level, or
-until the swarm monger reverts her familiar back to a singular form as a **standard action**.
+A swarm monger can transform her familiar into a swarm a number of times each day equal to her
+Wisdom modifier (minimum 1), and the transformation lasts for 1 minute per druid level, or until the
+swarm monger reverts her familiar back to a singular form as a standard action. A fecund familiar
+cannot be reduced in size to Diminutive or smaller when in swarm form.
 
-**Low Friends (Ex)**
+This ability replaces nature bond.
 
-**Ability:** A swarm monger gains [Vermin Heart](ref/feat/vermin-heart) as a bonus feat.
+## Low Friends (Ex) {#low-friends}
 
-**Gained:** At 2nd Level
+At 2nd level, a swarm monger gains [Vermin Heart](ref/feat/vermin-heart) as a bonus feat.
 
-**Replaces:** Woodland stride
+This ability replaces woodland stride.
 
-**Shadowy Opportunist (Ex)**
+## Shadowy Opportunist (Ex) {#shadowy-opportunist}
 
-**Passive:** A swarm monger gains a +2 bonus on Knowledge (local) and Stealth checks.
+A swarm monger gains a +2 bonus on Knowledge (local) and Stealth checks.
 
-**Replaces:** Nature sense
+This ability replaces nature sense.
 
-**Child of Pollution (Su)**
+## Child of Pollution (Su) {#child-of-pollution}
 
-**Gained:** At 4th Level
+Starting at 4th level, a swarm monger gains a +4 bonus on saving throws against disease and poisons,
+and she can eat spoiled or rotting food and drink without ill effect. Once per day for every 4 druid
+levels she has, a swarm monger can devour a handful of rotting food as a standard action to gain a
+number of [temporary hit points](ref/rule/temporary-hit-points) equal to 1d8 + her druid level that
+last for 1 hour.
 
-**Passive:** A swarm monger gains a +4 bonus on saving throws against disease and poisons, and she
-can eat spoiled or rotting food and drink without ill effect.
+This ability replaces resist nature's lure.
 
-**Replaces:** Resist nature's lure
+## Swarm Shape (Su) {#swarm-shape}
 
-**Standard:** A swarm monger can devour a handful of rotting food to gain a number of
-[temporary hit points](ref/rule/temporary-hit-points) equal to 1d8 + her druid level that last for 1
-hour. She can use this ability a number of times a day equal to one-fourth of her druid level.
+At 12th level, a swarm monger can use wild shape to transform into a swarm of vermin, functioning as
+_[swarm skin](ref/spell/swarm-skin)_, but not allowing her to split into more than one contiguous
+swarm.
 
-**Swarm Shape (Su)**
+She doesn't leave her gear behind when she uses this ability, and she can revert to her mundane form
+normally.
 
-**Ability:** A swarm monger can use _wild shape_ to transform into a swarm of vermin, functioning as
-[swarm skin](ref/spell/swarm-skin), but not allowing her to split into more than one contiguous
-swarm. She doesn't leave her gear behind when she uses this ability, and she can revert to her
-mundane form normally.
-
-**Gained:** At 12th Level
-
-**Replaces:** The normal _wild shape_ options gained at 12th level
+This ability replaces the normal wild shape options gained at 12th level.

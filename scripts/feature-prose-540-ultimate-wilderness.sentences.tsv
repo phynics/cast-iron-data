@@ -229,6 +229,10 @@ ref/arc-fighter/viking	This replaces armor training.
 ref/arc-fighter/viking	This replaces weapon training.
 ref/arc-fighter/viking	This alters the fighter’s bonus feats.
 ref/arc-gunslinger/commando	This alters the gunslinger’s class skills.
+ref/arc-gunslinger/commando	This deed replaces utility shot.
+ref/arc-gunslinger/commando	This deed replaces expert loading.
+ref/arc-gunslinger/commando	This deed replaces lightning reload.
+ref/arc-gunslinger/commando	This deed replaces slinger’s luck.
 ref/arc-gunslinger/commando	This replaces nimble.
 ref/arc-gunslinger/commando	This replaces the bonus feat gained at 4th level.
 ref/arc-gunslinger/commando	This alters gun training.
@@ -477,9 +481,16 @@ ref/arc-slayer/woodland-sniper	This replaces swift tracker and slayer’s advanc
 ref/arc-summoner/leshy-caller	This alters the summoner’s eidolon.
 ref/arc-summoner/leshy-caller	This alters summon monster.
 ref/arc-swashbuckler/arrow-champion	This alters panache.
+ref/arc-swashbuckler/arrow-champion	This deed replaces opportune parry and riposte.
+ref/arc-swashbuckler/arrow-champion	This deed alters precise strike.
+ref/arc-swashbuckler/arrow-champion	This deed replaces swashbuckler’s initiative.
+ref/arc-swashbuckler/arrow-champion	This deed replaces superior feint.
 ref/arc-swashbuckler/arrow-champion	This replaces swashbuckler weapon training.
 ref/arc-swashbuckler/arrow-champion	This alters swashbuckler weapon mastery.
 ref/arc-swashbuckler/wildstrider	This alters the swashbuckler’s class skills.
+ref/arc-swashbuckler/wildstrider	This deed replaces dodging panache and alters derring-do and swashbuckler’s edge.
+ref/arc-swashbuckler/wildstrider	This deed replaces kip-up.
+ref/arc-swashbuckler/wildstrider	This deed replaces subtle blade.
 ref/arc-unchained-summoner/leshy-caller	This alters the summoner’s eidolon.
 ref/arc-unchained-summoner/leshy-caller	This alters summon monster.
 ref/arc-vigilante/avenging-beast	This alters the vigilante’s class skills.

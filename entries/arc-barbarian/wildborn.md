@@ -19,7 +19,7 @@ kind = "archetype"
 features = [
   { anchor = "illiteracy" },
   { anchor = "live-off-the-land", level = 3 },
-  { anchor = "inexhaustible" },
+  { anchor = "inexhaustible", level = 7 },
 ]
 trades = [
   { replaces = "Trap sense", feature = "trap-sense", by = ["live-off-the-land"] },

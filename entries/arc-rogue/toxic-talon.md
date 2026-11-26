@@ -19,7 +19,7 @@ kind = "archetype"
 features = [
   { anchor = "forceful-breath" },
   { anchor = "poison-adept", level = 1 },
-  { anchor = "toxin-resistance" },
+  { anchor = "toxin-resistance", level = 3 },
   { anchor = "catalyst", level = 4 },
   { anchor = "split-toxin", level = 8 },
 ]

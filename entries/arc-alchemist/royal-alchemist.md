@@ -16,9 +16,13 @@ page = "11"
 
 [fields]
 kind = "archetype"
+features = [
+  { anchor = "alchemical-antidote", level = 2 },
+]
 trades = [
-  { replaces = "Poison use", feature = "poison-use" },
-  { replaces = "swift poisoning", feature = "swift-poisoning" },
+  { replaces = "Poison use", feature = "poison-use", by = ["alchemical-antidote"] },
+  { replaces = "swift poisoning", feature = "swift-poisoning", by = ["alchemical-antidote"] },
+  { alters = "Class skills" },
 ]
 +++
 
@@ -30,40 +34,39 @@ and priests of the region. Today, royal alchemists are found in the courts of Ch
 and, surprisingly, Geb, where living visitors to the Blood Lords are offered protection from the
 death around them.
 
-**Gained class skills:** diplo, kno
+## Class Skills {#class-skills}
 
-**Lost class skills:** kna, sur
+A royal alchemist adds Diplomacy and Knowledge (nobility) to his list of class skills instead of
+Knowledge (nature) and Survival.
 
-**Alchemical Antidote**
+This alters the alchemist's class skills.
 
-**Ability:** The royal alchemist can also create an antidote that protects against diseases. For
-every 2 points the royal alchemist spends from his pool, the imbiber of the alchemical antidote
-gains a +1 alchemical bonus on saving throws against disease for 24 hours. The royal alchemist can
-expend 10 points from his pool to provide immunity to diseases or poisons (decided by him at the
-time of the antidote's creation); this immunity lasts for a number of minutes equal to the royal
-alchemist's Intelligence bonus (minimum 1) after the antidote is imbibed. An alchemical remedy can
-protect against either diseases or poisons, but not both.
+## Alchemical Antidote {#alchemical-antidote}
 
-**Flavor:** A royal alchemist can blend special mixes of antitoxin, medicine, and other remedies
-into alchemical antidotes that can be imbibed by anyone.
+At 2nd level, a royal alchemist can blend special mixes of antitoxin, medicine, and other remedies
+into alchemical antidotes that can be imbibed by anyone. The royal alchemist creates his alchemical
+antidotes when he prepares his extracts for the day; they remain potent for 1 day before losing
+their properties, and the cost of the materials used to make them is insignificant. An alchemical
+antidote does not qualify as an extract or an infusion for the purpose of feats or discoveries.
 
-**At 6th Level:** The royal alchemist can alter the distribution of the bonuses of any unused
-alchemical antidotes as a **full-round action**, either combining them or splitting the bonuses
-further. The royal alchemist must be holding all unused alchemical antidotes he wishes to alter in
-this way.
+The royal alchemist has a pool of points equal to 1/2 his alchemist level + his Intelligence bonus
+that he can divide among any number of alchemical antidotes, though the maximum number of points he
+can spend on a single antidote is equal to 1/2 his alchemist level (minimum 1).
 
-**Info:** The royal alchemist creates his alchemical antidotes when he prepares his extracts for the
-day; they remain potent for 1 day before losing their properties, and the cost of the materials used
-to make them is insignificant. An alchemical antidote does not qualify as an extract or an infusion
-for the purpose of feats or discoveries.
+Each point grants the imbiber of the alchemical antidote a +1 alchemical bonus on saving throws
+against poison for a number of hours equal to the royal alchemist's Intelligence bonus (minimum 1).
 
-**Gained:** At 2nd Level
+The royal alchemist can also create an antidote that protects against diseases. For every 2 points
+the royal alchemist spends from his pool, the imbiber of the alchemical antidote gains a +1
+alchemical bonus on saving throws against disease for 24 hours. The royal alchemist can expend 10
+points from his pool to provide immunity to diseases or poisons (decided by him at the time of the
+antidote's creation); this immunity lasts for a number of minutes equal to the royal alchemist's
+Intelligence bonus (minimum 1) after the antidote is imbibed.
 
-**Passive:** The royal alchemist has a pool of points equal to
-[half](ref/misc/fractions-and-rounding) his alchemist level + his Intelligence bonus that he can
-divide among any number of alchemical antidotes, though the maximum number of points he can spend on
-a single antidote is equal to 1/2 his alchemist level (minimum 1). Each point grants the imbiber of
-the alchemical antidote a +1 alchemical bonus on saving throws against poison for a number of hours
-equal to the royal alchemist's Intelligence bonus (minimum 1).
+An alchemical remedy can protect against either diseases or poisons, but not both.
 
-**Replaces:** Poison use, swift poisoning
+At 6th level, the royal alchemist can alter the distribution of the bonuses of any unused alchemical
+antidotes as a full-round action, either combining them or splitting the bonuses further. The royal
+alchemist must be holding all unused alchemical antidotes he wishes to alter in this way.
+
+This ability replaces the alchemist's poison use and swift poisoning.

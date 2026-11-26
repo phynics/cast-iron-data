@@ -17,7 +17,7 @@ page = "23"
 [fields]
 kind = "archetype"
 features = [
-  { anchor = "leshy-element" },
+  { anchor = "leshy-element", level = 6 },
   { anchor = "basic-leshykinesis" },
   { anchor = "photosynthetic-buffer" },
   { anchor = "green-rebirth", level = 20 },

@@ -20,10 +20,10 @@ features = [
   { anchor = "wanderer-s-insight" },
   { anchor = "planar-lore" },
   { anchor = "bardic-performance" },
-  { anchor = "quintessence-infusion" },
-  { anchor = "mantra-of-tabris" },
-  { anchor = "amoral-scholar" },
-  { anchor = "scrivener-s-versatility" },
+  { anchor = "quintessence-infusion", level = 9 },
+  { anchor = "mantra-of-tabris", level = 15 },
+  { anchor = "amoral-scholar", level = 2 },
+  { anchor = "scrivener-s-versatility", level = 2 },
 ]
 trades = [
   { replaces = "Inspire greatness", feature = "bardic-performance", power = "inspire greatness", by = ["quintessence-infusion"] },

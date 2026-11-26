@@ -16,7 +16,7 @@ kind = "archetype"
 features = [
   { anchor = "wilderness-training" },
   { anchor = "conditioning", level = 2 },
-  { anchor = "reconnaissance-training" },
+  { anchor = "reconnaissance-training", level = 2 },
   { anchor = "mobility-training", level = 3 },
   { anchor = "mobile-mastery", level = 19 },
 ]

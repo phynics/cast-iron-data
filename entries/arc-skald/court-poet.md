@@ -16,10 +16,16 @@ page = "6"
 
 [fields]
 kind = "archetype"
+features = [
+  { anchor = "raging-song" },
+  { anchor = "insightful-contemplation", level = 1 },
+  { anchor = "song-of-inspiration", level = 6 },
+  { anchor = "handling-the-crowd", level = 2 },
+]
 trades = [
-  { replaces = "Inspired rage", feature = "inspired-rage" },
-  { replaces = "Song of strength", feature = "song-of-strength" },
-  { replaces = "Well-versed", feature = "well-versed" },
+  { replaces = "Inspired rage", feature = "inspired-rage", by = ["insightful-contemplation"] },
+  { replaces = "Song of strength", feature = "song-of-strength", by = ["song-of-inspiration"] },
+  { replaces = "Well-versed", feature = "well-versed", by = ["handling-the-crowd"] },
 ]
 +++
 
@@ -31,43 +37,35 @@ ideal, captivating courts with complicated poetic traditions and inspiring other
 Some court poets go on to create their own works, weaving their magic and force of personality into
 their unique performances.
 
-**Raging Song (Su)**
+## Raging Song (Su) {#raging-song}
 
-**Info:** A court poet gains the following _raging songs,_ allowing her to use oratory, music, and
-other performances to elevate the aesthetic sensibilities of her allies.
+A court poet gains the following raging songs, allowing her to use oratory, music, and other
+performances to elevate the aesthetic sensibilities of her allies.
 
-**Insightful Contemplation (Su)**
+## Insightful Contemplation (Su) {#insightful-contemplation}
 
-**Ability:** Affected allies gain a +2 morale bonus to Intelligence and Charisma and a +1 morale
+At 1st level, affected allies gain a +2 morale bonus to Intelligence and Charisma and a +1 morale
 bonus on Will saving throws, but they also take a -1 penalty to AC. While under the effects of
-_insightful contemplation,_ allies other than the court poet can't use any Strength-based skills or
-make any physical effort that requires a Constitution check.
+insightful contemplation, allies other than the court poet can't use any Strength-based skills or
+make any physical effort that requires a Constitution check. At 4th level and every 4 skald levels
+thereafter, the song's bonus on Will saves increases by 1; the penalty to AC doesn't change. At 8th
+and 16th levels, the song's bonuses to Intelligence and Charisma increase by 2. (Unlike the
+barbarian's rage ability, those affected are not fatigued after the song ends.)
 
-**Gained:** At 1st Level
+This ability replaces inspired rage.
 
-**Replaces:** Inspired rage
+## Song of Inspiration (Su) {#song-of-inspiration}
 
-**Special:** Unlike the barbarian's rage ability, those affected are not fatigued after the song
-ends.
+At 6th level, a court poet can use raging song to inspire her allies to greater mental clarity. Once
+each round while the court poet uses this performance, allies within 60 feet who can hear her can
+add 1/2 the court poet's skald level to a single Wisdom check or Wisdom-based skill check.
 
-**Song of Inspiration (Su)**
+This ability replaces song of strength.
 
-**Ability:** Once each round while the court poet uses this performance, allies within 60 feet who
-can hear her can add 1/2 the court poet's skald level to a single Wisdom check or Wisdom-based skill
-check.
+## Handling the Crowd (Ex) {#handling-the-crowd}
 
-**Flavor:** A court poet can use _raging song_ to inspire her allies to greater mental clarity.
-
-**Gained:** At 6th Level
-
-**Replaces:** Song of strength
-
-**Handling the Crowd (Ex)**
-
-**Gained:** At 2nd Level
-
-**Passive:** A court poet gains a +1 bonus to AC and on Perform checks when adjacent to two or more
+At 2nd level, a court poet gains a +1 bonus to AC and on Perform checks when adjacent to two or more
 creatures. In addition, her movement is not impeded by crowds and she gains a bonus equal to 1/2 her
 skald level on Diplomacy checks to influence crowds.
 
-**Replaces:** Well-versed
+This ability replaces well-versed.

@@ -16,12 +16,20 @@ page = "18"
 
 [fields]
 kind = "archetype"
+features = [
+  { anchor = "yokai-heart" },
+  { anchor = "oni-mask", level = 1 },
+  { anchor = "steel-dictate", level = 1 },
+  { anchor = "deceitful-form", level = 4 },
+  { anchor = "deadly-horns", level = 6 },
+  { anchor = "third-eye", level = 12 },
+]
 trades = [
-  { replaces = "Social talent gained at 1st level", feature = "social-talent", levels = [1] },
-  { replaces = "Vigilante talents gained at 4th, 14th, and 18th levels", feature = "vigilante-talent", levels = [4, 14, 18] },
-  { replaces = "Vigilante talent gained at 6th level", feature = "vigilante-talent", levels = [6] },
-  { replaces = "Vigilante talent gained at 12th level", feature = "vigilante-talent", levels = [12] },
-  { alters = "Dual identity", feature = "dual-identity" },
+  { replaces = "Social talent gained at 1st level", feature = "social-talent", levels = [1], by = ["steel-dictate"] },
+  { replaces = "Vigilante talents gained at 4th, 14th, and 18th levels", feature = "vigilante-talent", levels = [4, 14, 18], by = ["deceitful-form"] },
+  { replaces = "Vigilante talent gained at 6th level", feature = "vigilante-talent", levels = [6], by = ["deadly-horns"] },
+  { replaces = "Vigilante talent gained at 12th level", feature = "vigilante-talent", levels = [12], by = ["third-eye"] },
+  { alters = "Dual identity", feature = "dual-identity", by = ["oni-mask"] },
 ]
 +++
 
@@ -30,74 +38,57 @@ In the despotic nation of Chu Ye, merciless [oni](ref/family/oni) oppress the hu
 for their own ambitions. Donning terrifying masks, these vigilantes forsake their humanity to become
 more like the evil beings they mimic.
 
-**Yokai Heart (Su)**
+## Yokai Heart (Su) {#yokai-heart}
 
-**Flavor:** A Chu Ye enforcer seeks to transmute himself into a destructive spirit and terrorize his
-enemies.
-
-**Info:** His vigilante identity alignment must be non-good. While in his vigilante identity, the
-Chu Ye enforcer gains [darkvision](ref/rule/darkvision) with a range of 60 feet and
+A Chu Ye enforcer seeks to transmute himself into a destructive spirit and terrorize his enemies.
+His vigilante identity alignment must be non-good. While in his vigilante identity, the Chu Ye
+enforcer gains [darkvision](ref/rule/darkvision) with a range of 60 feet and
 [low-light vision](ref/rule/low-light-vision), and he counts as both a native
 [outsider](ref/type/outsider) with the [oni](ref/subtype/oni) subtype and his original type for any
 effect related to type, whichever is worse for him.
 
-**Oni Mask (Ex)**
+## Oni Mask (Ex) {#oni-mask}
 
-**Ability:** A Chu Ye enforcer gains a grotesque horned mask that he must wear when assuming his
-vigilante identity. The mask has 10 hit points per vigilante level he has and
-[hardness](ref/umr/hardness) 5.
-
-**Alters:** Dual identity
-
-**Passive:** While wearing the mask, the Chu Ye enforcer gains a bonus to Intimidate equal to
-[half](ref/misc/fractions-and-rounding) his level (minimum +1).
-
-**Special:** Without this mask, a Chu Ye enforcer can't assume his vigilante identity. A Chu Ye
+A Chu Ye enforcer gains a grotesque horned mask that he must wear when assuming his vigilante
+identity. The mask has 10 hit points per vigilante level he has and [hardness](ref/umr/hardness) 5.
+While wearing the mask, the Chu Ye enforcer gains a bonus to Intimidate equal to 1/2 his level
+(minimum +1). Without this mask, a Chu Ye enforcer can't assume his vigilante identity. A Chu Ye
 enforcer who loses his mask can replace it after 1 day through a specialized ritual that takes 8
 hours to complete and costs 200 gp per vigilante level he has.
 
-**Steel Dictate (Ex)**
+This alters dual identity.
 
-**Ability:** A Chu Ye enforcer gains [Improved Unarmed Strike](ref/feat/improved-unarmed-strike) as
-a bonus feat, and when he hits with his unarmed strike, he gains a bonus on damage rolls equal to
-half his vigilante level (minimum +1, maximum of +5).
+## Steel Dictate (Ex) {#steel-dictate}
 
-**Replaces:** Social talent gained at 1st level
+A Chu Ye enforcer gains [Improved Unarmed Strike](ref/feat/improved-unarmed-strike) as a bonus feat,
+and when he hits with his unarmed strike, he gains a bonus on damage rolls equal to
+[half](ref/misc/fractions-and-rounding) his vigilante level (minimum +1, maximum of +5).
 
-**Deceitful Form (Sp)**
+This replaces the social talent gained at 1st level.
 
-**At 14th Level:** He can instead use this ability as per [giant form I](ref/spell/giant-form-1).
+## Deceitful Form (Sp) {#deceitful-form}
 
-**At 18th Level:** He can use this ability as per [giant form II](ref/spell/giant-form-2).
+At 4th level, a Chu Ye enforcer gains the [shapechanger](ref/subtype/shapechanger) subtype and the
+ability to change his form, as per _[alter self](ref/spell/alter-self)_, for a number of minutes per
+day equal to his vigilante level. These minutes do not need to be consecutive, but they must be
+spent in 1-minute increments. At 14th level, he can instead use this ability as per
+_[giant form I](ref/spell/giant-form-1)_. At 18th level, he can use this ability as per
+_[giant form II](ref/spell/giant-form-2)_.
 
-**At 4th Level:** A Chu Ye enforcer gains the [shapechanger](ref/subtype/shapechanger) subtype and
-the ability to change his form, as per [alter self](ref/spell/alter-self).
+This replaces the vigilante talents gained at 4th, 14th, and 18th levels.
 
-**Replaces:** Vigilante talents gained at 4th, 14th, and 18th levels
+## Deadly Horns (Ex) {#deadly-horns}
 
-**Usage:** 1 minute/day per vigilante level; these minutes need not be consecutive, but must be
-spent in 1-minute increments
-
-**Deadly Horns (Ex)**
-
-**Ability:** While in his vigilante identity, a Chu Ye enforcer gains a gore attack. This is a
+At 6th level, while in his vigilante identity, a Chu Ye enforcer gains a gore attack. This is a
 primary [natural attack](ref/umr/natural-attacks) that deals 1d6 points of piercing damage.
 
-**Gained:** At 6th Level
+This replaces the vigilante talent gained at 6th level.
 
-**Replaces:** Vigilante talent gained at 6th level
+## Third Eye (Su) {#third-eye}
 
-**Third Eye (Su)**
+At 12th level, a Chu Ye enforcer's mask manifests a third eye. As a swift action a number of times
+per day equal to his vigilante level, he can launch a beam of fire from the eye as a ranged touch
+attack with a range of 180 feet. On a hit, the beam deals 4d6 points of fire damage. At 18th level,
+the beam damage increases to 8d6 points of fire damage.
 
-**Flavor:** A Chu Ye enforcer's mask manifests a third eye.
-
-**At 18th Level:** The beam damage increases to 8d6 points of fire damage.
-
-**Gained:** At 12th Level
-
-**Replaces:** Vigilante talent gained at 12th level
-
-**Swift:** He can launch a beam of fire from the mask's third eye as a ranged touch attack with a
-range of 180 feet. On a hit, the beam deals 4d6 points of fire damage.
-
-**Usage:** 1 time/day per vigilante level
+This replaces the vigilante talent gained at 12th level.

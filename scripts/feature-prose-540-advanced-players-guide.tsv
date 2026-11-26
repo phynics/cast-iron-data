@@ -27,8 +27,8 @@ ref/arc-barbarian/superstitious	Rage Powers	rage-powers	no		print	print	print as
 ref/arc-bard/arcane-duelist	Arcane Strike	arcane-strike	yes	1	print	print	level 1: replaces Bardic knowledge, of which one is gained at 1st level in the class table; print: Advanced Player's Guide, 2nd printing	80	ed5cfae04aa1e4d39d6622dd9bfcfe0c4f795f2a50752101f84183d434bf04a9
 ref/arc-bard/arcane-duelist	Bardic Performance	bardic-performance	yes		draft	draft		80	679b8c6938cc2e31cafa61a07cf1a62277fed0ceb220e67c1504076766268c48
 ref/arc-bard/arcane-duelist	Rallying Cry (Su)	rallying-cry	yes	1	print	print		80	ce6eac091207bba88616642f60f5093f61652ae3a2ccd9765fa78d999c825716
-ref/arc-bard/arcane-duelist	Bladethirst (Su)	bladethirst	yes		print	print		80	9abad3da1aa339c3f423336ba41e95158897e164cf646fef5771ac5ae2817bb3
-ref/arc-bard/arcane-duelist	Mass Bladethirst (Su)	mass-bladethirst	yes		print	print		80	3f7a70881451c4ddd4b838ad5ddda1bcf83b4551dcb454957db92331e227531b
+ref/arc-bard/arcane-duelist	Bladethirst (Su)	bladethirst	yes	6	print	print	level 6: print says "An arcane duelist of 6th level" in its first paragraph, as the import has it	80	9abad3da1aa339c3f423336ba41e95158897e164cf646fef5771ac5ae2817bb3
+ref/arc-bard/arcane-duelist	Mass Bladethirst (Su)	mass-bladethirst	yes	18	print	print	level 18: print says "An arcane duelist of 18th level" in its first paragraph, as the import has it	80	3f7a70881451c4ddd4b838ad5ddda1bcf83b4551dcb454957db92331e227531b
 ref/arc-bard/arcane-duelist	Bonus Feats	bonus-feats	no		print	print	hand review (ruling 14, print): Same five feats at the same levels. It is a scaffold heading; its trade is ruling 13.	80	9fc00c123e99b4da6c2372427c0c61e2e89c0b68447a460e6435912ecd00f23f
 ref/arc-bard/arcane-duelist	Arcane Bond (Ex)	arcane-bond	yes	5	print	print	hand review (ruling 14, print): The restriction is printed; the import dropped it.	80	c866f7ddc12bbe6267345e37a3a1d7b42e01a7f70a473246091d1f11af510999
 ref/arc-bard/arcane-duelist	Arcane Armor (Ex)	arcane-armor	yes	10	print	print	hand review (ruling 14, print): Same rule, different words.	80	d47ffee3d97182bcd22bd8ae107030bf8ae0d83d2c661fef14471a514d3fad7f
@@ -43,9 +43,9 @@ ref/arc-bard/archivist	Jack of All Trades (Ex)	jack-of-all-trades	yes	5	print	pr
 ref/arc-bard/archivist	Probable Path (Ex)	probable-path	yes	10	print	print		81	3c8ec558326b58cb67883fe8253c7c5ccff170ac49de8fb3eb6af045f2e8ed8e
 ref/arc-bard/court-bard	Bardic Performance	bardic-performance	yes		draft	draft	print: Advanced Player's Guide, 2nd printing	81	da3b7ac1b3ba8ef7b72a04a1a7c67048540ae27f5818614ba965755832bb1354
 ref/arc-bard/court-bard	Satire (Su)	satire	yes	1	print	print	level 1: replaces Inspire courage, of which one is gained at 1st level in the class table	81	f7dff2e6a1a787c6b2fde24cdb7e49d1736c879639aca7e09c664ac743bc1645
-ref/arc-bard/court-bard	Mockery (Su)	mockery	yes		print	print		81	d21fe564589494f89241aa3245ca7cccfff7cc8e047354642604a99021d10c89
-ref/arc-bard/court-bard	Glorious Epic (Su)	glorious-epic	yes		print	print	link of `half` placed in `heraldic-expertise`	81	ce5f313dc963e6007a31f1cf4dacb1dbf4e7cf3eca6bfc4863e12f78b36cf268
-ref/arc-bard/court-bard	Scandal (Su)	scandal	yes		print	print		81	4ce487683b307c863f01a0c403d8654c49553b3cf59035809ecb26e7191ee0d0
+ref/arc-bard/court-bard	Mockery (Su)	mockery	yes	3	print	print	level 3: print says "A court bard of 3rd level" in its first paragraph, as the import has it	81	d21fe564589494f89241aa3245ca7cccfff7cc8e047354642604a99021d10c89
+ref/arc-bard/court-bard	Glorious Epic (Su)	glorious-epic	yes	8	print	print	link of `half` placed in `heraldic-expertise`; level 8: print says "A court bard of 8th level" in its first paragraph, as the import has it	81	ce5f313dc963e6007a31f1cf4dacb1dbf4e7cf3eca6bfc4863e12f78b36cf268
+ref/arc-bard/court-bard	Scandal (Su)	scandal	yes	14	print	print	level 14: print says "A court bard of 14th level" in its first paragraph, as the import has it	81	4ce487683b307c863f01a0c403d8654c49553b3cf59035809ecb26e7191ee0d0
 ref/arc-bard/court-bard	Heraldic Expertise (Ex)	heraldic-expertise	yes	1	print	print	level 1: replaces Bardic knowledge, of which one is gained at 1st level in the class table	81	94b8e08947085b1d673897807699afa0a2338a3066e7c1fe5138b2011227fb9a
 ref/arc-bard/court-bard	Wide Audience (Su)	wide-audience	yes	5	print	print		81	246c41987a60c2c5d8eb40e319ace146b79d7cfe11dbf0e47d6117d7d04c0486
 ref/arc-bard/detective	Bardic Performance	bardic-performance	yes		draft	draft	print: Advanced Player's Guide, 2nd printing	81	952702d865565dd306fbb5c6b0fe1a346259a3f1a183144337c72a00b3edfcac
@@ -86,7 +86,7 @@ ref/arc-bard/savage-skald	Battle Song (Su)	battle-song	yes	18	print	print		84	95
 ref/arc-bard/sea-singer	Bardic Performance	bardic-performance	yes		draft	draft	print: Advanced Player's Guide, 2nd printing	84	542bdb64d6d8696383bf05f7d48a7b0867f3b7568e33433bbb72f663efd8114b
 ref/arc-bard/sea-singer	Sea Shanty (Su)	sea-shanty	yes	1	print	print	level 1: replaces Countersong, of which one is gained at 1st level in the class table	84	9fb1e6e7850b75b8d234e643bf907ace517c57511b6db68dd3d1ad344dc22d96
 ref/arc-bard/sea-singer	Still Water (Su)	still-water	yes	3	print	print		85	52e738367245aae2ba449106a5f3b8970aaf07a12f484d66f81c4c720ddccc7b
-ref/arc-bard/sea-singer	Whistle the Wind (Su)	whistle-the-wind	yes		print	print		85	cf3c9c9a6d083227ac21f94388f0369cd1080bd53dcc5980d66d8b84c4b332b1
+ref/arc-bard/sea-singer	Whistle the Wind (Su)	whistle-the-wind	yes	6	print	print	level 6: print says "A sea singer of 6th level" in its first paragraph, as the import has it	85	cf3c9c9a6d083227ac21f94388f0369cd1080bd53dcc5980d66d8b84c4b332b1
 ref/arc-bard/sea-singer	Call the Storm (Su)	call-the-storm	yes	18	print	print		85	58a3b4fb594bffb3b3bdc5500237ada9691df710e7db68637f592a873e95d50d
 ref/arc-bard/sea-singer	World Traveler (Ex)	world-traveler	yes	1	print	print	level 1: replaces Bardic knowledge, of which one is gained at 1st level in the class table	85	d9ac0b3b0f132d87964867302b385f0278665299f8d8c09229d27c1daac965ec
 ref/arc-bard/sea-singer	Familiar	familiar	yes	2	print	print		85	25fd7c4259b48f334696b29cff89368ad22fcd537fda3546b3095bcf53dec793
@@ -440,7 +440,7 @@ ref/arc-ranger/urban-ranger	Urban Ranger	urban-ranger	yes	1	print	print	head pri
 ref/arc-ranger/urban-ranger	Favored Community (Ex)	favored-community	yes	3	print	print	hand review (ruling 14, print): Same rule. The corpus row is garbled.	129	d131ffbc823bbec25e591a7f9d98ec3d55301538bd6324632563123c6251a406
 ref/arc-ranger/urban-ranger	Trapfinding (Ex)	trapfinding	yes	3	print	print		129	3170d201795e99824e3d0009e83ca7bab39b170246d10ff563fd8223abbdd409
 ref/arc-ranger/urban-ranger	Push Through (Ex)	push-through	yes	7	print	print		129	60799fd1e63e369192c1fc813afa6b69ee65596d41af8303e0cc8b7007e7a532
-ref/arc-ranger/urban-ranger	Blend In (Ex)	blend-in	yes		print	print		129	d24933f79bd07abf821574e3d85643db91315a6b1c0854c349b580532ef4b616
+ref/arc-ranger/urban-ranger	Blend In (Ex)	blend-in	yes	12	print	print	level 12: print says "An urban ranger of 12th level" in its first paragraph, as the import has it	129	d24933f79bd07abf821574e3d85643db91315a6b1c0854c349b580532ef4b616
 ref/arc-ranger/urban-ranger	Invisibility Trick (Sp)	invisibility-trick	yes	17	print	print		129	28e64757b1d4f671eb7bb41fbd36934e4d8818636ad32fc4f08e8082450249e0
 ref/arc-rogue/acrobat	Expert Acrobat (Ex)	expert-acrobat	yes	1	print	print	print: Advanced Player's Guide, 2nd printing	132	fdec2021a0e74829783ad7c6b9fca24e3a004bebac9d414b52426c4241486056
 ref/arc-rogue/acrobat	Second Chance (Ex)	second-chance	yes	3	print	print		132	c9793d953a7401ce679d59bff9526fe1640e002d86d1eefa1def59d1fdbc089b

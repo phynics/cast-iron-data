@@ -16,10 +16,17 @@ page = "25"
 
 [fields]
 kind = "archetype"
+features = [
+  { anchor = "spell-awareness" },
+  { anchor = "jinx-eating", level = 2 },
+  { anchor = "jinx-gorging", level = 6 },
+  { anchor = "jinx-feast", level = 10 },
+]
 trades = [
-  { replaces = "2nd-level hex", feature = "hex", levels = [2] },
-  { replaces = "6th-level hex", feature = "hex", levels = [6] },
-  { replaces = "10th-level hex", feature = "hex", levels = [10] },
+  { replaces = "Witch's hex normally gained at 2nd level", feature = "hex", levels = [2], by = ["jinx-eating"] },
+  { replaces = "Hex normally gained at 6th level", feature = "hex", levels = [6], by = ["jinx-gorging"] },
+  { replaces = "Major hex gained at 10th level", feature = "hex", levels = [10], by = ["jinx-feast"] },
+  { alters = "Class skills" },
 ]
 +++
 
@@ -33,72 +40,65 @@ tengus still practice this curious art of misdirection and dealing in ill fortun
 patron is normally [Deception](ref/patron/deception), [Shadow](ref/patron/shadow), or
 [Trickery](ref/patron/trickery).
 
-**Gained class skills:** bluff, dis, sm
+## Class Skills {#class-skills}
 
-**Spell Awareness (Ex)**
+A jinx witch adds Bluff, Disguise, and Sense Motive to her list of class skills.
 
-**Flavor:** A jinx witch is skilled at identifying hostile spells and effects that target her.
+This alters the witch's class skills.
 
-**Passive:** She adds 1/2 her witch level to Spellcraft checks to identify spells being cast if she
-is targeted by the spell.
+## Spell Awareness (Ex) {#spell-awareness}
 
-**Jinx-Eating (Su)**
+A jinx witch is skilled at identifying hostile spells and effects that target her. She adds 1/2 her
+witch level to Spellcraft checks to identify spells being cast if she is targeted by the spell.
 
-**Ability:** The witch treats her caster level as 1 higher when casting the next prepared spell she
-casts after eating a jinx in this manner. If the spell cast is of the same school as the eaten
-spell, the witch instead treats her caster level as 2 higher. A jinx witch can store only one eaten
-spell at a time.
+## Jinx-Eating (Su) {#jinx-eating}
 
-**Flavor:** A jinx witch learns to absorb (or "eat") antagonistic magical effects targeting her.
+At 2nd level, a jinx witch learns to absorb (or "eat") antagonistic magical effects targeting her.
+If a jinx witch succeeds at a Will or Fortitude saving throw that negates a hostile spell effect,
+she can consume the spell energy as an immediate action. The witch treats her caster level as 1
+higher when casting the next prepared spell she casts after eating a jinx in this manner. If the
+spell cast is of the same school as the eaten spell, the witch instead treats her caster level as 2
+higher. A jinx witch can store only one eaten spell at a time, and can use this ability a number of
+times each day equal to 3 + her Intelligence modifier. If the jinx witch uses this ability to eat a
+spell that targets more than one creature or that creates an area of effect, it uses 2 of her daily
+uses of the ability and all other targets or creatures in the area of effect receive a +2 bonus on
+their respective saving throws. If the jinx witch does not use the bonus provided by an eaten spell
+within 1 hour, the stored energy dissipates harmlessly.
 
-**Immediate:** If a jinx witch succeeds at a Will or Fortitude saving throw that negates a hostile
-spell effect, she can consume the spell energy.
+This ability replaces the witch's hex normally gained at 2nd level.
 
-**Gained:** At 2nd Level
+## Jinx-Gorging (Su) {#jinx-gorging}
 
-**Replaces:** 2nd-level hex
+At 6th level, when the jinx witch applies a bonus from a spell consumed with her jinx-eating ability
+to a spell of the same school as the eaten spell, and of the same or lower spell level, she does not
+expend the prepared spell slot. She cannot affect the spell with metamagic or other effects that
+would change its effective spell level.
 
-**Special:** If the jinx witch uses this ability to eat a spell that targets more than one creature
-or that creates an area of effect, it uses 2 of her daily uses of the ability and all other targets
-or creatures in the area of effect receive a +2 bonus on their respective saving throws. If the jinx
-witch does not use the bonus provided by an eaten spell within 1 hour, the stored energy dissipates
-harmlessly.
+This ability replaces the hex normally gained at 6th level.
 
-**Usage:** Intelligence3 modifier times/day
+## Jinx-Feast (Su) {#jinx-feast}
 
-**Jinx-Gorging (Su)**
-
-**Ability:** When the jinx witch applies a bonus from a spell consumed with her _jinx-eating_
-ability to a spell of the same school as the eaten spell, and of the same or lower spell level, she
-does not expend the prepared spell slot.
-
-**Gained:** At 6th Level
-
-**Replaces:** 6th-level hex
-
-**Special:** She cannot affect the spell with metamagic or other effects that would change its
-effective spell level.
-
-**Jinx-Feast (Su)**
-
-**Ability:** When the jinx witch uses her _jinx-eating_ ability, she also gains the ability to cast
+At 10th level, when the jinx witch uses her jinx-eating ability, she also gains the ability to cast
 the eaten spell as a [spell-like ability](ref/umr/spell-like-abilities), using her witch level as
-her caster level and her Intelligence modifier to determine the spell-like ability's saving throw
-DC.
+her caster level and her Intelligence modifier to determine the
+[spell-like ability](ref/umr/spell-like-abilities)'s saving throw DC. If the eaten spell is not on
+her spell list or is of a spell level higher than the witch is capable of casting herself, she must
+succeed at a [concentration](ref/rule/concentration) check (DC = 20 + the spell's level) in order to
+cast it; failing this check results in the loss of the spell-like ability with no effect.
 
-**Gained:** At 10th Level
+This ability replaces the major hex gained at 10th level.
 
-**Replaces:** 10th-level hex
+## Hexes {#hexes}
 
-**Special:** If the eaten spell is not on her spell list or is of a spell level higher than the
-witch is capable of casting herself, she must succeed at a [concentration](ref/rule/concentration)
-check (DC = 20 + the spell's level) in order to cast it; failing this check results in the loss of
-the [spell-like ability](ref/umr/spell-like-abilities) with no effect.
+The following witch hexes complement the jinx witch archetype: beast of ill omen, evil eye, fortune,
+and misfortune.
 
-**The following witch hexes complement this archetype:** Beast of ill omen, evil eye, fortune,
-misfortune
+## Major Hexes {#major-hexes}
 
-**The following major hexes complement this archetype:** Hag's eye, retribution, waxen image
+The following major hexes complement the jinx witch archetype: hag's eye, retribution, and waxen
+image.
 
-**The following grand hexes complement this archetype:** Death curse, dire prophecy, natural
-disaster
+## Grand Hexes {#grand-hexes}
+
+The following grand hexes complement the jinx witch archetype: death curse, dire prophecy, and
+natural disaster.
