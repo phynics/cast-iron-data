@@ -1,0 +1,10 @@
+[[add]]
+entry = "ref/arc-shaman/serendipity-shaman"
+anchor = "fortune-ultimate-magic"
+head = 'Fortune (Ultimate Magic page 58)'
+parent = "fortune"
+after = "fortune"
+note = 'text of another owner book (owner ruling 32): print gives the hex Fortune as a pointer to the dual-cursed oracle revelation of the same name (Ultimate Magic 58), and the import carried the revelation as the hex text. The section is the revelation as Ultimate Magic page 58 prints it, checked against that print; ruling 9 fix, recorded: print has "for every six oracle level beyond 5th", written "levels".'
+text = '''
+At 5th level, as an immediate action, you can reroll any one d20 roll that you have just made before the results of the roll are revealed. You must take the result of the reroll, even if it's worse than the original roll. You can use this ability once per day at 5th level, and one additional time per day for every six oracle levels beyond 5th.
+'''

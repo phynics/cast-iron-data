@@ -16,102 +16,99 @@ page = "6"
 
 [fields]
 kind = "archetype"
+features = [
+  { anchor = "feather-touch" },
+  { anchor = "nonlethal-strikes" },
+  { anchor = "tenet-of-life" },
+  { anchor = "life-giving-blows", level = 6 },
+  { anchor = "wholeness-of-body-and-spirit", level = 7 },
+  { anchor = "incapacitating-palm", level = 15 },
+  { anchor = "resilient-body", level = 19 },
+]
 trades = [
   { replaces = "Weapon proficiency", feature = "weapon-and-armor-proficiencies", power = "weapons" },
-  { replaces = "Bonus feats gained at 6th and 10th levels", feature = "bonus-feat", levels = [6, 10] },
-  { replaces = "Empty body", feature = "empty-body" },
-  { alters = "Unarmed strike", feature = "unarmed-strike" },
-  { alters = "Wholeness of body", feature = "wholeness-of-body" },
-  { alters = "Quivering palm", feature = "quivering-palm" },
+  { replaces = "Bonus feats gained at 6th and 10th levels", feature = "bonus-feat", levels = [6, 10], by = ["life-giving-blows"] },
+  { replaces = "Empty body", feature = "empty-body", by = ["resilient-body"] },
+  { alters = "Unarmed strike", feature = "unarmed-strike", by = ["nonlethal-strikes"] },
+  { alters = "Wholeness of body", feature = "wholeness-of-body", by = ["wholeness-of-body-and-spirit"] },
+  { alters = "Quivering palm", feature = "quivering-palm", by = ["incapacitating-palm"] },
 ]
 +++
 
 The practices of softstrike monks date back to the peaceful eras of Imperial Lung Wa. Still common
 among warriors today, softstrike monks employ a nonlethal but effective form of combat.
 
-**Weapon Proficiency**
+## Weapon Proficiency {#weapon-proficiency}
 
-**Info:** A softstrike monk is proficient with the [aklys](ref/eq-weapon/aklys),
-[bolas](ref/eq-weapon/bolas), [club](ref/eq-weapon/club), [light flail](ref/eq-weapon/light-flail),
+A softstrike monk is proficient with the [aklys](ref/eq-weapon/aklys), [bolas](ref/eq-weapon/bolas),
+[club](ref/eq-weapon/club), [light flail](ref/eq-weapon/light-flail),
 [light mace](ref/eq-weapon/light-mace), [nunchaku](ref/eq-weapon/nunchaku),
 [quarterstaff](ref/eq-weapon/quarterstaff), [sap](ref/eq-weapon/sap), [sling](ref/eq-weapon/sling),
 and any weapon with the monk special quality that can deal bludgeoning damage. He is considered
 proficient only with monk weapons that can deal multiple types of damage when dealing bludgeoning
 damage.
 
-**Replaces:** Weapon proficiency
+This replaces the monk's weapon proficiency.
 
-**Feather Touch (Ex)**
+## Feather Touch (Ex) {#feather-touch}
 
-**Passive:** A softstrike monk does not take the normal -4 penalty on attack rolls for using a
-lethal weapon to deal nonlethal damage. In addition, he can use his _stunning fist_ ability while
-making a nonlethal attack with a weapon.
+A softstrike monk does not take the normal -4 penalty on attack rolls for using a lethal weapon to
+deal nonlethal damage. In addition, he can use his stunning fist ability while making a nonlethal
+attack with a weapon.
 
-**Nonlethal Strikes (Ex)**
+## Nonlethal Strikes (Ex) {#nonlethal-strikes}
 
-**Ability:** When a softstrike monk deals nonlethal damage with his unarmed strikes, his monk level
-is treated as 4 levels higher for the purposes of determining the damage he deals (to a maximum of
-4d8 at 20th level for a Medium monk).
+A softstrike monk focuses on blows that do not inflict deadly harm. When a softstrike monk deals
+nonlethal damage with his unarmed strikes, his monk level is treated as 4 levels higher for the
+purposes of determining the damage he deals (to a maximum of 4d8 at 20th level for a Medium monk).
+When dealing lethal damage with his unarmed strikes, his monk level is treated as if it were 4
+levels lower (minimum 1st level) for the purpose of determining damage.
 
-**Alters:** Unarmed strike
+This alters unarmed strike.
 
-**Flavor:** A softstrike monk focuses on blows that do not inflict deadly harm.
+## Tenet of Life (Su) {#tenet-of-life}
 
-**Special:** When dealing lethal damage with his unarmed strikes, his monk level is treated as if it
-were 4 levels lower (minimum 1st level) for the purpose of determining damage.
+Though a softstrike monk accepts that death may happen in combat, he cannot abide killing in cold
+blood. If he slays an [unconscious](ref/misc/unconscious) or [helpless](ref/misc/helpless) living
+foe, or merely stands by and allows such a killing to occur, he becomes [shaken](ref/misc/shaken)
+for 1 hour. In addition, the act disrupts the softstrike monk's ki; if he has a ki pool, he loses a
+number of ki points equal to half his level, as if they had been spent.
 
-**Tenet of Life (Su)**
+## Life-Giving Blows (Su) {#life-giving-blows}
 
-**Passive:** Though a softstrike monk accepts that death may happen in combat, he cannot abide
-killing in cold blood. If he slays an [unconscious](ref/misc/unconscious) or
-[helpless](ref/misc/helpless) living foe, or merely stands by and allows such a killing to occur, he
-becomes [shaken](ref/misc/shaken) for 1 hour. In addition, the act disrupts the softstrike monk's
-ki; if he has a _ki pool,_ he loses a number of ki points equal to half his level, as if they had
-been spent.
+At 6th level, a softstrike monk can force a piece of his life force into a nonliving creature to
+disrupt its animating essence. If he hits an undead foe with an unarmed attack, he can spend 1 ki
+point as a free action to remove the target's immunity to nonlethal damage for a number of minutes
+equal to his Wisdom modifier. If, during this time, the target's nonlethal damage exceeds its
+current hit points, it is destroyed. At 10th level, a softstrike monk can also use this ability
+against constructs.
 
-**Life-Giving Blows (Su)**
+This replaces the bonus feats gained at 6th and 10th levels.
 
-**Flavor:** A softstrike monk can force a piece of his life force into a nonliving creature to
-disrupt its animating essence.
+## Wholeness of Body and Spirit (Su) {#wholeness-of-body-and-spirit}
 
-**Free:** If he hits an undead foe with an unarmed attack, he can spend 1 ki point to remove the
-target's immunity to nonlethal damage for a number of minutes equal to his Wisdom modifier. If,
-during this time, the target's nonlethal damage exceeds its current hit points, it is destroyed.
-
-**At 10th Level:** A softstrike monk can also use this ability against constructs.
-
-**Gained:** At 6th Level
-
-**Replaces:** Bonus feats gained at 6th and 10th levels
-
-**Wholeness of Body and Spirit (Su)**
-
-**Ability:** A softstrike monk can use wholeness of body on both himself and other creatures, though
-it heals only nonlethal damage. If he uses this ability on an unconscious foe, he can spend 1
+At 7th level, a softstrike monk can use wholeness of body on both himself and other creatures,
+though it heals only nonlethal damage. If he uses this ability on an unconscious foe, he can spend 1
 additional ki point to force the creature to accept a pact of life. The creature must succeed at a
 Will saving throw (DC = 10 + half the softstrike monk's level + his Wisdom modifier) or the pact
 renders it unable to directly attack the monk and any allies within 60 feet, as per
-[sanctuary](ref/spell/sanctuary), for a number of days equal to the softstrike monk's level.
+_[sanctuary](ref/spell/sanctuary)_, for a number of days equal to the softstrike monk's level.
 
-**Alters:** Wholeness of body
+This alters wholeness of body. (For an unchained monk from _Pathfinder Unchained_, this ability
+applies only if the monk selects the wholeness of body ki power.)
 
-**Gained:** At 7th Level
+## Incapacitating Palm (Su) {#incapacitating-palm}
 
-**Incapacitating Palm (Su)**
-
-**Ability:** A softstrike monk renders the target of his _quivering palm_ unconscious instead of
+At 15th level, a softstrike monk renders the target of his quivering palm unconscious instead of
 killing the creature. Upon failing its Fortitude saving throw, the target is knocked unconscious for
 a number of minutes equal to the softstrike monk's level.
 
-**Alters:** Quivering palm
+This alters quivering palm. (For an unchained monk, this ability applies only if the monk selects
+the quivering palm ki power.)
 
-**Gained:** At 15th Level
+## Resilient Body (Su) {#resilient-body}
 
-**Resilient Body (Su)**
-
-**Gained:** At 19th Level
-
-**Passive:** A softstrike monk's mastery of nonlethal combat lets him apply his techniques to his
+At 19th level, a softstrike monk's mastery of nonlethal combat lets him apply his techniques to his
 defense. A softstrike monk converts any precision damage he takes to nonlethal damage.
 
-**Replaces:** Empty body
+This replaces empty body.

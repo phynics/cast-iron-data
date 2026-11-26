@@ -16,18 +16,29 @@ page = "29"
 
 [fields]
 kind = "archetype"
+features = [
+  { anchor = "spells" },
+  { anchor = "implements" },
+  { anchor = "cantrips", level = 1 },
+  { anchor = "mental-focus" },
+  { anchor = "devoted-mystic" },
+  { anchor = "silksworn-eloquence", level = 8 },
+  { anchor = "silksworn-deception", level = 12 },
+  { anchor = "silksworn-arcana", level = 16 },
+  { anchor = "implement-mastery", level = 20 },
+]
 trades = [
-  { replaces = "Knacks", feature = "knacks" },
-  { replaces = "Outside contact", feature = "outside-contact" },
-  { replaces = "Magic circles", feature = "magic-circles" },
-  { replaces = "Binding circles", feature = "binding-circles" },
-  { replaces = "Fast circles", feature = "fast-circles" },
-  { alters = "Spells", feature = "spells" },
-  { alters = "Implements", feature = "implements" },
-  { alters = "Mental focus", feature = "mental-focus" },
-  { alters = "Implements" },
-  { alters = "weapon and armor proficiencies", feature = "weapon-and-armor-proficiencies" },
-  { alters = "Implement mastery", feature = "implement-mastery" },
+  { replaces = "Knacks", feature = "knacks", by = ["cantrips"] },
+  { replaces = "Outside contact", feature = "outside-contact", by = ["devoted-mystic"] },
+  { replaces = "Magic circles", feature = "magic-circles", by = ["silksworn-eloquence"] },
+  { replaces = "Binding circles", feature = "binding-circles", by = ["silksworn-deception"] },
+  { replaces = "Fast circles", feature = "fast-circles", by = ["silksworn-arcana"] },
+  { alters = "Spells", feature = "spells", by = ["spells"] },
+  { alters = "Implements", feature = "implements", by = ["implements", "devoted-mystic"] },
+  { alters = "Mental focus", feature = "mental-focus", by = ["mental-focus"] },
+  { alters = "weapon and armor proficiencies", feature = "weapon-and-armor-proficiencies", by = ["devoted-mystic"] },
+  { alters = "Implement mastery", feature = "implement-mastery", by = ["implement-mastery"] },
+  { alters = "Class skills" },
 ]
 +++
 
@@ -37,104 +48,88 @@ from wearing luxurious garments and can be found in many noble courts throughout
 they often keep their abilities secret. Silksworn are even found among the mystics and the magical
 practitioners of Nex, each seeking the patronage of one or more of the Arclords.
 
-**Gained class skills:** bluff, kno
+## Class Skills {#class-skills}
 
-**Lost class skills:** ke, kp
+A silksworn adds Bluff and Knowledge (nobility) to his list of class skills, instead of Knowledge
+(engineering) and Knowledge (planes).
 
-**Spells**
+This alters the occultist's class skills.
 
-**Alters:** Spells
+## Spells {#spells}
 
-**Info:** A silksworn's spells are considered arcane spells, not psychic spells, and his spells use
-verbal and somatic components instead of thought and emotion components.
+A silksworn's spells are considered arcane spells, not psychic spells, and his spells use verbal and
+somatic components instead of thought and emotion components.
 
-**Implements**
+This alters the occultist's spells.
 
-**Alters:** Implements
+## Implements {#implements}
 
-**Info:** When a silksworn chooses an implement school, he does not choose a specific object.
-Instead, a silksworn must be wearing an ostentatious garment or magic item worth 10 gp or more of
-the appropriate type and in the appropriate slot: abjuration (wrists), conjuration (shoulders),
+When a silksworn chooses an implement school, he does not choose a specific object. Instead, a
+silksworn must be wearing an ostentatious garment or magic item worth 10 gp or more of the
+appropriate type and in the appropriate slot: abjuration (wrists), conjuration (shoulders),
 divination (eyes), enchantment (neck), evocation (hands), illusion (head), necromancy (chest), and
 transmutation (feet). A silksworn who does not meet this requirement is treated as lacking the
 appropriate implement for the purpose of his class features, including spellcasting.
 
-**Cantrips**
+This alters the occultist's implements.
 
-**Ability:** Each time he selects an implement school, a silksworn gains one cantrip, or 0-level
-arcane spell (including when he selects a school that he has already learned to use). These cantrips
-otherwise behave as an occultist's knacks.
+## Cantrips {#cantrips}
 
-**Replaces:** Knacks
+Each time he selects an implement school, a silksworn gains one cantrip, or 0-level arcane spell
+(including when he selects a school that he has already learned to use). These cantrips otherwise
+behave as an occultist's knacks.
 
-**Mental Focus (Su)**
+This ability replaces knacks.
 
-**Alters:** Mental focus
+## Mental Focus (Su) {#mental-focus}
 
-**Passive:** The silksworn's available mental focus is equal to his occultist level + his
-Intelligence modifier + his Charisma modifier.
+The silksworn's available mental focus is equal to his occultist level + his Intelligence modifier +
+his Charisma modifier.
 
-**Devoted Mystic**
+This ability alters mental focus.
 
-**Alters:** Implements, weapon and armor proficiencies
+## Devoted Mystic {#devoted-mystic}
 
-**At 1st Level:** The silksworn gains access to four implement schools instead of two.
+A silksworn is proficient with only simple weapons and isn't proficient with any armor or shields.
 
-**At 8th Level:** This does not allow the silksworn to cast spells of a level he does not yet have
-access to.
+At 1st level, the silksworn gains access to four implement schools instead of two. At 2nd level and
+every 4 occultist levels thereafter, the silksworn gains access to an additional implement school,
+to a maximum of nine schools at 18th level.
 
-**Info:** A silksworn is proficient with only simple weapons and isn't proficient with any armor or
-shields.
+At 8th, 12th, and 16th levels, the silksworn increases the number of spells of each level he can
+cast each day by one. This does not allow the silksworn to cast spells of a level he does not yet
+have access to.
 
-**Repeat At:** The silksworn increases the number of spells of each level he can cast each day by
-one., 8, 12, 16
+This ability alters implements and the occultist's weapon and armor proficiencies, and replaces
+outside contact.
 
-**Replaces:** Outside contact
+## Silksworn Eloquence (Ex) {#silksworn-eloquence}
 
-At 5th level: The silksworn gains access to his 5th implement school.
-
-At 9th level: The silksworn gains access to his 6th implement school.
-
-At 13th level: The silksworn gains access to his 7th implement school.
-
-At 17th level: The silksworn gains access to his 8th implement school.
-
-**Silksworn Eloquence (Ex)**
-
-**Gained:** At 8th Level
-
-**Passive:** A silksworn gains a +1 bonus on Bluff and Diplomacy checks for each magical article of
+At 8th level, a silksworn gains a +1 bonus on Bluff and Diplomacy checks for each magical article of
 clothing occupying one of his implement schools' magic item slots.
 
-**Replaces:** Magic circles
+This ability replaces magic circles.
 
-**Silksworn Deception (Su)**
+## Silksworn Deception (Su) {#silksworn-deception}
 
-**Ability:** Whenever the silksworn casts a spell, he can attempt a Bluff check opposed by Sense
-Motive checks from those observing him. Those who fail are unaware of his spellcasting, unless an
-effect obviously originates from the silksworn.
+At 12th level, a silksworn can hide his speech and gestures within his extravagant clothing.
+Whenever the silksworn casts a spell, he can attempt a Bluff check opposed by Sense Motive checks
+from those observing him. Those who fail are unaware of his spellcasting, unless an effect obviously
+originates from the silksworn.
 
-**Flavor:** A silksworn can hide his speech and gestures within his extravagant clothing.
+This ability replaces binding circles.
 
-**Gained:** At 12th Level
+## Silksworn Arcana (Su) {#silksworn-arcana}
 
-**Replaces:** Binding circles
-
-**Silksworn Arcana (Su)**
-
-**Gained:** At 16th Level
-
-**Passive:** When a silksworn casts a spell while wearing a magic article of clothing in the
+At 16th level, when a silksworn casts a spell while wearing a magic article of clothing in the
 appropriate school's magic item slot, the spell's saving throw DC increases by 2.
 
-**Replaces:** Fast circles
+This ability replaces fast circles.
 
-**Implement Mastery (Su)**
+## Implement Mastery (Su) {#implement-mastery}
 
-**Ability:** A silksworn chooses two implement schools instead of one, and _implement mastery's_
+At 20th level, a silksworn chooses two implement schools instead of one, and implement mastery's
 effects apply to both. The silksworn gains 4 additional points of mental focus for each school's
 implement.
 
-**Alters:** Implement mastery
-
-**Gained:** At 20th Level
+This alters the occultist's implement mastery.

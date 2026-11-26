@@ -16,13 +16,20 @@ page = "29"
 
 [fields]
 kind = "archetype"
+features = [
+  { anchor = "hinterlander", level = 1 },
+  { anchor = "adaptable-study", level = 4 },
+  { anchor = "trailblazer", level = 7 },
+  { anchor = "fast-study", level = 11 },
+  { anchor = "master-explorer" },
+]
 trades = [
-  { replaces = "Track", feature = "track" },
-  { replaces = "Hunter's bond", feature = "hunter-s-bond" },
-  { replaces = "Woodland stride", feature = "woodland-stride" },
-  { replaces = "Quarry", feature = "quarry" },
-  { replaces = "improved quarry", feature = "improved-quarry" },
-  { replaces = "Master hunter", feature = "master-hunter" },
+  { replaces = "Track", feature = "track", by = ["hinterlander"] },
+  { replaces = "Hunter's bond", feature = "hunter-s-bond", by = ["adaptable-study"] },
+  { replaces = "Woodland stride", feature = "woodland-stride", by = ["trailblazer"] },
+  { replaces = "Quarry", feature = "quarry", by = ["fast-study"] },
+  { replaces = "improved quarry", feature = "improved-quarry", by = ["fast-study"] },
+  { replaces = "Master hunter", feature = "master-hunter", by = ["master-explorer"] },
 ]
 +++
 
@@ -32,66 +39,53 @@ ba-sadhaks, or fortune-finders. So successful have these canny explorers been at
 at large that the secrets of their success are closely guarded, resulting in only extremely rare
 non-vanaran fortune-finders.
 
-**Hinterlander (Ex)**
+## Hinterlander (Ex) {#hinterlander}
 
-**Passive:** A fortune-finder adds 1/2 his level (minimum 1) on all Climb and Swim checks.
+A fortune-finder adds 1/2 his level (minimum 1) on all Climb and Swim checks.
 
-**Replaces:** Track
+This replaces track.
 
-**Adaptable Study (Ex)**
+## Adaptable Study (Ex) {#adaptable-study}
 
-**Flavor:** A fortune-finder can adapt and orient himself to new environments and new enemies.
+At 4th level, a fortune-finder can adapt and orient himself to new environments and new enemies. He
+gains a +1 bonus on initiative checks and Knowledge (geography), Perception, Stealth, and Survival
+checks whenever he is in a terrain he hasn't selected as one of his favored terrains. He leaves no
+trail and can't be tracked in any such terrain (though he can leave a trail if he so chooses).
 
-**Gained:** At 4th Level
+In addition to this, the fortune-finder can study an opponent he can see as a move action. He then
+gains a bonus on Bluff, Knowledge, Perception, Sense Motive, and Survival checks attempted against
+that opponent, as well as on weapon attack and damage rolls against it. The bonus is equal to half
+the fortune-finder's highest favored enemy bonus. A fortune-finder can't attempt Knowledge checks
+untrained to identify an opponent he has studied with adaptable study. Bonuses from adaptable study
+don't stack with those from the favored enemy ability. The ranger can study only a single target at
+a time.
 
-**Move:** The fortune-finder can study an opponent he can see. He then gains a bonus on Bluff,
-Knowledge, Perception, Sense Motive, and Survival checks attempted against that opponent, as well as
-on weapon attack and damage rolls against it. The bonus is equal to half the fortune-finder's
-highest _favored enemy_ bonus.
+This ability replaces hunter's bond.
 
-**Passive:** He gains a +1 bonus on initiative checks and Knowledge (geography), Perception,
-Stealth, and Survival checks whenever he is in a terrain he hasn't selected as one of his _favored
-terrains._ He leaves no trail and can't be tracked in any such terrain (though he can leave a trail
-if he so chooses).
+## Trailblazer (Ex) {#trailblazer}
 
-**Replaces:** Hunter's bond
-
-**Special:** A fortune-finder can't attempt Knowledge checks untrained to identify an opponent he
-has studied with _adaptable study._ Bonuses from _adaptable study_ don't stack with those from the
-_favored enemy_ ability. The ranger can study only a single target at a time.
-
-**Trailblazer (Ex)**
-
-**Ability:** A fortune-finder can move through any sort of
+Starting at 7th level, a fortune-finder can move through any sort of
 [difficult terrain](ref/rule/terrain-and-obstacles) at his normal speed. Terrain that is enchanted
 or magically manipulated to impede movement, however, still affects the fortune-finder.
 
-**Gained:** At 7th Level
+This ability replaces woodland stride.
 
-**Replaces:** Woodland stride
+## Fast Study (Ex) {#fast-study}
 
-**Fast Study (Ex)**
-
-**At 19th Level:** He can study an opponent using _adaptable study_ as an **immediate**, **swift**,
-or **move** action and can maintain the bonuses from _adaptable study_ against a total of three
+Beginning at 11th level, a fortune-finder can study an opponent using adaptable study as a swift or
+move action. In addition to this, he can maintain bonuses from adaptable study against one
+additional opponent. At 19th level, he can study an opponent using adaptable study as an immediate,
+swift, or move action and can maintain the bonuses from adaptable study against a total of three
 opponents.
 
-**At 11th Level:** A fortune-finder can study an opponent using _adaptable study_ as a **swift** or
-**move action**. In addition to this, he can maintain bonuses from _adaptable study_ against one
-additional opponent.
+This ability replaces quarry and improved quarry.
 
-**Replaces:** Quarry, improved quarry
+## Master Explorer (Ex) {#master-explorer}
 
-**Master Explorer (Ex)**
+A fortune-finder of 20th level becomes a master explorer. He can move through any sort of terrain
+that impedes movement at his full speed, even if it is enchanted or magically manipulated to impede
+motion. As a full-round action, he can study one opponent he can see and has already studied with
+adaptable study, increasing the benefits he gains from that ability to equal his full favored enemy
+bonus.
 
-**Ability:** He can move through any sort of terrain that impedes movement at his full speed, even
-if it is enchanted or magically manipulated to impede motion.
-
-**Flavor:** A fortune-finder becomes a master explorer.
-
-**Fullround:** He can study one opponent he can see and has already studied with _adaptable study,_
-increasing the benefits he gains from that ability to equal his full _favored enemy_ bonus.
-
-**Gained:** At 20th Level
-
-**Replaces:** Master hunter
+This ability replaces master hunter.

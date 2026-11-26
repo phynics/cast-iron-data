@@ -16,13 +16,20 @@ page = "11"
 
 [fields]
 kind = "archetype"
+features = [
+  { anchor = "balanced-stride", level = 2 },
+  { anchor = "spear-parry", level = 3 },
+  { anchor = "weapon-training", level = 5 },
+  { anchor = "weapon-mastery", level = 20 },
+]
 trades = [
-  { replaces = "Bravery", feature = "bravery" },
-  { replaces = "Armor training 1, 2, 3, and 4", feature = "armor-training", levels = [3, 7, 11, 15] },
-  { replaces = "armor mastery", feature = "armor-mastery" },
+  { replaces = "Bravery", feature = "bravery", by = ["balanced-stride"] },
+  { replaces = "Armor training 1, 2, 3, and 4", feature = "armor-training", levels = [3, 7, 11, 15], by = ["spear-parry"] },
+  { replaces = "armor mastery", feature = "armor-mastery", by = ["spear-parry"] },
   { alters = "The fighter's armor proficiencies", feature = "weapon-and-armor-proficiencies", power = "armor" },
-  { alters = "Weapon training", feature = "weapon-training" },
-  { alters = "Weapon mastery", feature = "weapon-mastery" },
+  { alters = "Weapon training", feature = "weapon-training", by = ["weapon-training"] },
+  { alters = "Weapon mastery", feature = "weapon-mastery", by = ["weapon-mastery"] },
+  { alters = "Class skills" },
 ]
 +++
 
@@ -30,72 +37,46 @@ The spear is one of the oldest weapons known to most humanoid races, and no weap
 use across the different continents of Golarion. One of the oldest spear-fighting styles originates
 in Vudra, where many martial arts traditions consider the spear to be the ultimate weapon.
 
-**Gained class skills:** acro
+## Class Skills {#class-skills}
 
-**Lost class skills:** ride
+A spear fighter adds Acrobatics to his list of class skills and removes Ride as a class skill.
 
-**Armor Proficiency**
+This alters the fighter's class skills.
 
-**Ability:** He gains [Dodge](ref/feat/dodge) as a bonus feat, even if he doesn't fulfill the
-prerequisites, but he can't use this feat while wearing heavy armor or using a shield.
+## Armor Proficiency {#armor-proficiency}
 
-**Alters:** The fighter's armor proficiencies
+A spear fighter is not proficient with heavy armor or tower shields. Instead, he gains
+[Dodge](ref/feat/dodge) as a bonus feat, even if he doesn't fulfill the prerequisites, but he can't
+use this feat while wearing heavy armor or using a shield.
 
-**Info:** A spear fighter is not proficient with heavy armor or tower shields.
+This alters the fighter's armor proficiencies.
 
-**Balanced Stride (Ex)**
+## Balanced Stride (Ex) {#balanced-stride}
 
-**Gained:** At 2nd Level
+At 2nd level, the spear fighter gains a +1 bonus on Acrobatics checks to avoid attacks of
+opportunity. This bonus increases by 1 for every 4 levels he has beyond 2nd.
 
-**Passive:** The spear fighter gains a +1 bonus on Acrobatics checks to avoid attacks of
-opportunity.
+This replaces bravery.
 
-**Replaces:** Bravery
+## Spear Parry (Ex) {#spear-parry}
 
-At 6th level: This bonus increases to +2.
-
-At 10th level: This bonus increases to +3.
-
-At 14th level: This bonus increases to +4.
-
-At 18th level: This bonus increases to +5.
-
-**Spear Parry (Ex)**
-
-**Ability:** A spear fighter learns to parry his opponents' attacks with his spear. This functions
+At 3rd level, a spear fighter learns to parry his opponents' attacks with his spear. This functions
 as a swashbuckler's [opportune parry and riposte](ref/swashdeed/opportune-parry-and-riposte) deed
 except as noted below. The spear fighter must use a weapon from the spears
 [weapon group](ref/ability/weapon-groups) to perform the parry. He doesn't need panache to parry an
 attack or to make an attack against a creature whose attack he has parried; instead, he takes a
 cumulative -4 penalty on all attacks (including further parry attempts) until the end of his next
-turn.
+turn. At 7th, 11th, and 15th levels, the penalty decreases by 1. At 19th level, a spear fighter can
+use spear parry without penalty.
 
-**At 11th Level:** The penalty is reduced to -2.
+This replaces armor training 1, 2, 3, and 4, and armor mastery.
 
-**At 17th Level:** The penalty becomes -1.
+## Weapon Training (Ex) {#weapon-training}
 
-**At 19th Level:** A spear fighter can use _spear parry_ without penalty.
-
-**At 7th Level:** The penalty becomes -3.
-
-**Gained:** At 3rd Level
-
-**Replaces:** Armor training 1, 2, 3, and 4, armor mastery
-
-**Weapon Training (Ex)**
-
-**Alters:** Weapon training
-
-**Choice:** A spear fighter must choose the spears weapon group for the _weapon training_ class
+At 5th level, a spear fighter must choose the spears weapon group for the weapon training class
 feature.
 
-**Gained:** At 5th Level
+## Weapon Mastery (Ex) {#weapon-mastery}
 
-**Weapon Mastery (Ex)**
-
-**Alters:** Weapon mastery
-
-**Choice:** A spear fighter must choose a weapon from the spears weapon group for his _weapon
-mastery_ class feature.
-
-**Gained:** At 20th Level
+At 20th level, a spear fighter must choose a weapon from the spears weapon group for his weapon
+mastery class feature.
