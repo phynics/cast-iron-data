@@ -24,6 +24,7 @@ trades = [
   { replaces = "Touch treatment", feature = "touch-treatment", by = ["feign-destiny"] },
   { alters = "Mesmerist tricks", feature = "mesmerist-tricks", by = ["subject-of-the-stars"] },
   { alters = "manifold tricks", feature = "manifold-tricks", by = ["subject-of-the-stars"] },
+  { alters = "Class skills" },
 ]
 +++
 

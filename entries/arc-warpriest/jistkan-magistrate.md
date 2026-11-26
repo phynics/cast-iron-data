@@ -27,6 +27,7 @@ trades = [
   { alters = "Spontaneous casting", feature = "spontaneous-casting", by = ["spontaneous-summons"] },
   { alters = "Bonus languages", feature = "bonus-languages", by = ["bonus-languages"] },
   { alters = "Channel", feature = "channel-energy", by = ["channel-element"] },
+  { alters = "Class skills" },
 ]
 +++
 
@@ -73,10 +74,12 @@ At 4th level, a Jistkan magistrate gains [Elemental Channel](ref/feat/elemental-
 feat, choosing the elemental subtype that matches his blessing. He doesn't gain the ability to harm
 undead with channeled energy (if he channels positive energy) or heal undead (if he channels
 negative energy). Instead, he can channel a blast of elemental matter and energy that buffets his
-targets. The Jistkan artificer's blessing determines the damage type of this attack, as indicated by
-the table below. A successful Reflex save halves the damage.
+targets. The Jistkan magistrate's blessing determines the damage type of this attack, as indicated
+by the table below. A successful Reflex save halves the damage.
 
 This alters channel.
+
+**Channel Element Damage**
 
 |Blessing|Damage type|
 | --- | --- |

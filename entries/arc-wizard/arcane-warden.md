@@ -19,7 +19,7 @@ kind = "archetype"
 features = [
   { anchor = "universal-magic" },
   { anchor = "ready-for-anything", level = 1 },
-  { anchor = "generous-touch" },
+  { anchor = "generous-touch", level = 1 },
   { anchor = "restorative-shelter" },
 ]
 trades = [

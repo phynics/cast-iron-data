@@ -117,7 +117,7 @@ gain the resonance powers of up to four _ioun stones_ in her ioun cloud. At 16th
 has at least 7 points of burn, she gains the resonance powers of all of the _ioun stones_ in her
 ioun cloud.
 
-In place of gaining the resonant power of a _[deep red sphere](ref/magic-ioun/deep-red-sphere)_,
+In place of gaining the resonant power of a _deep rose sphere_,
 _[incandescent blue sphere](ref/magic-ioun/incandescent-blue-sphere)_,
 _[pale blue rhomboid](ref/magic-ioun/pale-blue-rhomboid)_,
 _[pink and green sphere](ref/magic-ioun/pink-and-green-sphere)_,

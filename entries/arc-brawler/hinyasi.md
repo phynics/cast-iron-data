@@ -63,6 +63,8 @@ At 10th level, she chooses a second combat maneuver that she can use with this a
 can still perform only one improvised maneuver per round. At 16th level, she chooses a third, though
 she can still perform only one improvised maneuver per round.
 
+This replaces knockout.
+
 ## Improvisation Mastery (Ex) {#improvisation-mastery}
 
 At 5th level, a hinyasi picks one type of improvised weapon (light, one-handed, or two-handed) and

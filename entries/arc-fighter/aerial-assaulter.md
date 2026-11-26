@@ -27,6 +27,7 @@ trades = [
   { replaces = "Bonus feats gained at 2nd and 12th level", feature = "bonus-feats", levels = [2, 12], by = ["take-the-high-ground"] },
   { replaces = "Armor mastery", feature = "armor-mastery", by = ["aerial-dodge"] },
   { replaces = "Weapon mastery", feature = "weapon-mastery", by = ["high-ground-mastery"] },
+  { alters = "Skills" },
 ]
 +++
 

@@ -45,6 +45,9 @@ Usage
     feature-prose-540.py --check   [CORPUS] [--book ID]   no PDF needed: exit 1 unless a rerun changes nothing
     feature-prose-540.py --compare [CORPUS] --book ID --books DIR --cache DIR [--only ID-PREFIX]
                                                           fill the review TSV and the proposals from print
+    feature-prose-540.py --print-sentences [CORPUS] --book ID --books DIR --cache DIR
+                                                          write `<book>.sentences.tsv`: the printed "This replaces/alters ..." sentences
+                                                          of every archetype; `--check` fails when the entry lacks one
     feature-prose-540.py --write   [CORPUS] [--book ID] [--checker BIN] [--only ID-PREFIX]
                                                           convert the entries whose rows are all decided
 
@@ -2597,6 +2600,10 @@ TRADE_ADDITIONS = {
     # Blood of the Ancients: "This replaces poison resistance and poison immunity." (Antiquarian, Curse Resistance)
     "ref/arc-investigator/antiquarian": [{"replaces": "Poison resistance and poison immunity", "feature": "poison-resistance"}],
     "ref/arc-wizard/arcane-warden": [{"alters": "Class skills"}],       # "This alters the wizard's class skills." (Universal Magic)
+    # Opus review of the pilot (the check of #329 reads the sections before the first listed feature): "This alters the ... class skills"
+    "ref/arc-warpriest/jistkan-magistrate": [{"alters": "Class skills"}],
+    "ref/arc-mesmerist/chart-caster": [{"alters": "Class skills"}],
+    "ref/arc-fighter/aerial-assaulter": [{"alters": "Skills"}],     # print: "This alters the fighter's skills." (Class Skills section)
 }
 
 
@@ -2635,6 +2642,7 @@ TRADE_MERGED = {
 # progressions ("At 6th level ..., at 9th level ...") that this reading would take for the level of the feature.
 LEVEL_ONE_REPLACES = {
     ("ref/arc-warpriest/divine-commander", "mount"),
+    ("ref/arc-wizard/arcane-warden", "generous-touch"),     # replaces the hand of the apprentice universalist school ability, a 1st-level power (rulings 11 and 35)
 }
 
 LEVEL_IN_FIRST_PARAGRAPH = {
@@ -3024,7 +3032,7 @@ def finalize(e: Entry, res: dict, class_cache: dict | None = None) -> dict:
                 r["notes"].append("level from the trade")
             elif (e.id, r["anchor"]) in LEVEL_ONE_REPLACES:
                 r["level"] = 1
-                r["notes"].append("level 1 (ruling 35): replaces " + ", ".join(trade_name(t)[1] for t in mine) + ", a 1st-level feature of the class (the class table lists it as `Blessing (minor)`)")
+                r["notes"].append("level 1 (ruling 35): replaces " + ", ".join(trade_name(t)[1] for t in mine) + ", a 1st-level feature of the class" + (" (the class table lists it as `Blessing (minor)`)" if e.id == "ref/arc-warpriest/divine-commander" else ""))
             elif mine:
                 # ruling 11: the feature replaces features that the base class gains at 1st level. Print states no level here, so
                 # the import's level (a line of the feature's own text, "At 2nd Level: ...") does not stop the rule (final review of
@@ -3426,6 +3434,72 @@ def printed_trade_gaps(e: Entry) -> list[str]:
     return out
 
 
+# ---- the printed trade sentences (opus audit of the Blood of the Ancients pilot) -----------------------------------
+
+PRINTED_TRADE = re.compile(r"This (?:ability |class feature |performance |archetype )?(?:replaces|alters|changes)\b[^.]*\.")
+
+
+def sentences_path(corpus: Path, book: str) -> Path:
+    return corpus / "scripts" / f"feature-prose-540-{book}.sentences.tsv"
+
+
+def letters_key(text: str) -> str:
+    """The comparison key of a sentence: letters and digits only, Markdown and the quote styles gone."""
+    t = re.sub(r"\[([^\]]*)\]\([^)]*\)", r"\1", text)
+    t = t.replace(SUPERSCRIPT, "").replace("\u2019", "'").replace("\\", "")
+    return re.sub(r"[^a-z0-9]", "", t.lower())
+
+
+def printed_trade_sentences(section: list) -> list[str]:
+    """Every "This replaces/alters/changes ..." sentence of the printed span of an archetype, in print order."""
+    text = " ".join(re.sub(r"\s+", " ", b.plain()) for b in section if b.kind == "para")
+    return [m.group(0).strip() for m in PRINTED_TRADE.finditer(text)]
+
+
+def run_print_sentences(args) -> int:
+    """Writes `<book>.sentences.tsv`: the printed trade sentences of every archetype of the book (converted or not), so that
+    `--check` can require them in the entries without the book. Needs `--books` and `--cache`."""
+    corpus = Path(args.corpus).resolve()
+    book = args.book
+    configure_book(book)
+    pdf = find_pdf(Path(args.books), publication_title(corpus, book))
+    if not pdf:
+        raise SystemExit(f"no copy of {publication_title(corpus, book)!r} under {args.books}")
+    bk = load_book(book_xml(pdf, Path(args.cache)))
+    entries = load_entries(corpus, book, args.only)
+    stops = {squash(x.title) for x in entries} | CLASS_TITLES | UNTYPED_ARCHETYPE_TITLES
+    rows = []
+    for e in entries:
+        page = int(e.page) if e.page.isdigit() else None
+        if page is None:
+            continue
+        blocks = read_blocks(bk, max(1, page + 1 - 3), min(page + 1 + 4, max(bk.pages)))
+        section = find_section(blocks, e.title, stops)
+        if section is None:
+            print(f"warning: {e.id}: title not found near page {page}")
+            continue
+        rows += [(e.id, sent) for sent in printed_trade_sentences(section)]
+    lines = ["entry\tsentence"] + [f"{eid}\t{sent}" for eid, sent in rows]
+    sentences_path(corpus, book).write_text("\n".join(lines) + "\n", encoding="utf-8")
+    print(f"{len(rows)} printed trade sentences of {len(entries)} archetypes")
+    return 0
+
+
+def missing_printed_sentences(corpus: Path, book: str, entries: list) -> list[str]:
+    path = sentences_path(corpus, book)
+    if not path.exists():
+        return []
+    by = {e.id: letters_key(e.body) for e in entries}
+    out = []
+    for n, ln in enumerate(path.read_text(encoding="utf-8").split("\n")[1:], 2):
+        if not ln:
+            continue
+        eid, sent = ln.split("\t", 1)
+        if eid in by and letters_key(sent) not in by[eid]:
+            out.append(f"{eid}: the printed sentence \"{sent}\" is not in the entry")
+    return out
+
+
 def run_check(args) -> int:
     corpus = Path(args.corpus).resolve()
     book = args.book
@@ -3473,6 +3547,7 @@ def run_check(args) -> int:
     for k in by_entry:
         if k not in ids:
             errors.append(f"{k}: in the review TSV but not an entry of {book}")
+    errors += missing_printed_sentences(corpus, book, entries)
     print(f"{book}: {len(entries)} archetypes, {converted} converted, {held} not converted")
     for err in errors:
         print("error:", err)
@@ -3677,6 +3752,13 @@ def self_test() -> int:
     text, _, notes = print_md(pf, [], set(), "ref/arc-monk/black-asp")
     eq(text, "Items (as if he had cast greater magic aura; see page 219) and and end.", "a citation with words stays, a bare one goes")
     eq(is_scaffold("Weapon and Armor Proficiencies") and is_scaffold("Class Skills") and is_scaffold("Skill Ranks per Level"), True, "scaffold variants")
+    # the printed trade sentences of a span, and the key that finds them in an entry
+    span = [Para("para", [("Improvised Maneuver (Ex): At 4th level, a hinyasi learns. This combat maneuver still provokes.", False, False)], 1, 0),
+            Para("para", [("This replaces knockout.", False, False)], 1, 0),
+            Para("para", [("This alters the warpriest\u2019s blessings.", False, False)], 1, 0)]
+    eq(printed_trade_sentences(span), ["This replaces knockout.", "This alters the warpriest\u2019s blessings."], "printed trade sentences")
+    eq(letters_key("This alters the warpriest\u2019s _[blessings](ref/x/y)_.") in letters_key("a\n\nThis alters the warpriest's blessings.\n"), True, "a printed sentence is found in the entry")
+    eq(letters_key("This replaces knockout.") in letters_key("At 4th level, a hinyasi learns to confound."), False, "a missing printed sentence")
     # Blood of the Ancients: a title in small capitals sets a capital (size 18, top 469) and its small capitals (size 13, top 474) in one family
     cap = Book({"5": 18, "6": 13, "28": 13}, {1: [(469, 108, 5, "a", 13), (474, 122, 6, "erial", 43), (469, 165, 5, " a", 18), (474, 184, 6, "ssaulter", 71),
                                                   (492, 108, 28, "Body text starts here.", 200), (498, 400, 28, "x", 10)]}, {}, set(), fams={"5": "Didot", "6": "Didot", "28": "Nexus"})
@@ -3818,6 +3900,8 @@ def main() -> int:
     ap.add_argument("--check", action="store_true")
     ap.add_argument("--compare", action="store_true")
     ap.add_argument("--write", action="store_true")
+    ap.add_argument("--print-sentences", action="store_true",
+                    help="write `<book>.sentences.tsv`, the printed trade sentences of the book (needs --books and --cache); --check requires them in the entries")
     ap.add_argument("--book", default=None, help="publication id (--check without it covers every book with a review TSV)")
     ap.add_argument("--books")
     ap.add_argument("--cache")
@@ -3832,6 +3916,10 @@ def main() -> int:
         return self_test()
     if (args.compare or args.write) and not args.book:
         raise SystemExit("--compare and --write need --book ID")
+    if args.print_sentences:
+        if not (args.book and args.books and args.cache):
+            raise SystemExit("--print-sentences needs --book ID, --books DIR and --cache DIR")
+        return run_print_sentences(args)
     if args.compare:
         if not (args.books and args.cache):
             raise SystemExit("--compare needs --books DIR and --cache DIR")
@@ -3842,7 +3930,7 @@ def main() -> int:
         corpus = Path(args.corpus).resolve()
         books = [args.book] if args.book else sorted(
             p.name[len("feature-prose-540-"):-len(".tsv")] for p in (corpus / "scripts").glob("feature-prose-540-*.tsv")
-            if not p.name.endswith((".decisions.tsv", ".queue.tsv")))
+            if not p.name.endswith((".decisions.tsv", ".queue.tsv", ".sentences.tsv")))
         status = 0
         for b in books:
             args.book = b
