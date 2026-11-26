@@ -80,6 +80,12 @@ Hold rules (owner decision of 2026-11-26, phynics/cast-iron#540; each is a switc
   usage     a `Usage` row whose words are in print in order is print's
   dropped   a corpus table that the print span lacks is a hold; so is a print span that ends at a title no rule names as another section
             of the book (a table title, a box): the entry needs a decision (`sidebar`, `drop`, `print`) or an edit
+  choices   a listed feature whose text says that the reader selects from what follows ("can select an edge from those listed below",
+            "can select from any of the following hexes") and whose next section is a listed feature too: the sections are probably its
+            options (owner rulings 15 and 34, review of #338); a hold until a decision on the feature (`list`: they are features) or on the
+            options (`sub-of:`) settles it
+  lostlevel the import had a level (`Gained`) and the converted feature has none: a hold until a decision on the feature says that print
+            gives no level (owner ruling 4)
   and `--print-sentences` / `<book>.sentences.tsv`: the printed "This replaces/alters ..." sentences of every archetype, which `--check`
   requires in the entries unless the review records the difference (a misprint fix, a Paizo errata)
 
@@ -132,7 +138,7 @@ FORGET_CHECKER_HOLDS = False
 # switch so that a measurement can turn it off (`--rules` of scripts/feature-prose-540-measure.py): `hyphens` (a hyphen is a space),
 # `prereq` (a "Prereq: Nth-level" row is print's "must be at least Nth level"), `usage` (a `Usage` row that print says word for word
 # is print's), `values` (values level by level), `dropped` (a dropped table or paragraph is a hold).
-RULES = {"hyphens": True, "prereq": True, "usage": True, "values": True, "dropped": True}
+RULES = {"hyphens": True, "prereq": True, "usage": True, "values": True, "dropped": True, "choices": True, "lostlevel": True}
 HYPHEN_SPACES = [False]      # on while `compare_feature` runs: the comparison of the rule `hyphens`, not the choice of the text that is written
 
 TSV_HEADER = [
@@ -3261,9 +3267,22 @@ TRADE_MERGED = {
 # progressions ("At 6th level ..., at 9th level ...") that this reading would take for the level of the feature.
 LEVEL_ONE_REPLACES = {
     ("ref/arc-warpriest/divine-commander", "mount"),
+    ("ref/arc-gunslinger/black-powder-vaulter", "mobile-reload"),   # replaces the deadeye deed, a 1st-level deed (Martial Arts Handbook p. 10)
+    ("ref/arc-gunslinger/black-powder-vaulter", "daring-vault"),    # replaces the gunslinger's dodge deed, a 1st-level deed
     ("ref/arc-wizard/arcane-warden", "generous-touch"),     # replaces the hand of the apprentice universalist school ability, a 1st-level power (rulings 11 and 35)
 }
 
+# a lead at the start of a later sentence of the first paragraph, or "of Nth level" in its first sentence
+LATER_LEAD = re.compile(r"(?:(?<=[.!?]\s)|(?<=[.!?][\"\u201d]\s))(?:At|Starting at|Beginning at)\s+(\d+)(st|nd|rd|th)\s+level\b", re.I)
+OF_LEVEL = re.compile(r"^[^.]*?\bof\s+(\d+)(st|nd|rd|th)\s+level\b(?!\s+or\s+lower)", re.I)
+# A level that the text of the feature does not state but the section before it does (review of #338): "must take the following revelation at 3rd level"
+LEVEL_FROM_PRINT = {
+    ("ref/arc-oracle/inerrant-voice", "revelations"): (3, "its own sentence: \"must take the following revelation at 3rd level\""),
+    ("ref/arc-oracle/inerrant-voice", "vigilant-protector"): (3, "the Revelations paragraph before it: \"must take the following revelation at 3rd level\""),
+}
+# a feature that offers a choice from what follows ("can select an edge from those listed below", "can select from any of the following hexes")
+CHOICE_INTRO = re.compile(r"\b(?:select|selects|choose|chooses|take|takes|pick|picks)\b[^.]{0,100}?\b(?:from|among|of|in)\s+(?:the\s+|these\s+|those\s+)?"
+                          r"(?:following|listed below|below)\b|\bfrom (?:those|the list) (?:listed )?below\b", re.I)
 LEVEL_IN_FIRST_PARAGRAPH = {
     ("ref/arc-brawler/wild-child", "wild-tricks"),
     ("ref/arc-bloodrager/spelleater", "blood-of-life"),
@@ -3421,6 +3440,7 @@ def first_level_key(name: str) -> str:
     channel energy, bomb, bomb and witch's familiar."""
     name = re.sub(r"\[([^\]]*)\]\([^)]*\)", r"\1", ABILITY_TAG.sub("", name))
     name = re.sub(r"[_*]", "", name)
+    name = re.sub(r"^\d+(?:st|nd|rd|th)\s+", "", name.strip())                    # the class table of the ranger: "1st favored enemy"
     name = re.sub(r"\s+(?:\d+/\w+|\d+d\d+|[+\-]\d.*|\d+)$", "", name.strip())
     name = re.sub(r"^[a-z]+'s\s+", "", fold(name))                 # "witch's familiar" is the name familiar
     return " ".join(stem(w) for w in re.findall(r"[a-z0-9']+", name))
@@ -3672,6 +3692,16 @@ def finalize(e: Entry, res: dict, class_cache: dict | None = None) -> dict:
                 if m and 1 <= int(m.group(1)) <= 20 and m.group(2) == ordinal(int(m.group(1)))[len(m.group(1)):]:
                     r["level"] = int(m.group(1))
                     r["notes"].append(f"level {r['level']}: print says \"{m.group(0)}\" in its first paragraph, after an opening sentence")
+        if r["level"] is None and r["listed"] and (e.id, r["anchor"]) in LEVEL_FROM_PRINT:
+            r["level"], why = LEVEL_FROM_PRINT[(e.id, r["anchor"])]
+            r["notes"].append(f"level {r['level']}: {why}")
+        if r["level"] is None and r["listed"] and r["level_import"] is not None:
+            # a lead after an opening sentence ("... honed. At 3rd level, if ...") or "a fortune-finder of 20th level becomes ...": print gives the
+            # level that the import's Gained row has (review of #338)
+            m = LATER_LEAD.search(first) or OF_LEVEL.search(first)
+            if m and int(m.group(1)) == r["level_import"] and ordinal(int(m.group(1)))[len(m.group(1)):] == m.group(2):
+                r["level"] = int(m.group(1))
+                r["notes"].append(f"level {r['level']}: print says \"{m.group(0).strip()[-40:]}\" in its first paragraph, as the import has it")
         if r["level"] is None and r["listed"]:
             m = re.match(r"[^.]*?\bgains this ability at (\d+)(st|nd|rd|th) level\b", first)
             if m and 1 <= int(m.group(1)) <= 20 and m.group(2) == ordinal(int(m.group(1)))[len(m.group(1)):]:
@@ -3708,6 +3738,21 @@ def finalize(e: Entry, res: dict, class_cache: dict | None = None) -> dict:
                 and (e.id, r["anchor"]) not in decisions:
             r["status"] = "hold"
             r["notes"].append(f"level: corpus {ordinal(r['level_import'])}, print {ordinal(r['level'])}")
+    # owner review of #338: the lead decides the two cases that a first read of print does not show
+    if RULES["lostlevel"]:
+        for r in rows:
+            if r["listed"] and r["level"] is None and r["level_import"] is not None and r["status"] != "hold" and (e.id, r["anchor"]) not in decisions:
+                r["status"] = "hold"
+                r["notes"].append(f"level: the import had {ordinal(r['level_import'])} and print gives none (no lead, no trade that proves it): "
+                                  "decide `print` (no level), or give it in `LEVEL_FROM_PRINT`")
+    if RULES["choices"]:
+        for i, r in enumerate(rows):
+            nxt = rows[i + 1] if i + 1 < len(rows) else None
+            if (r["listed"] and not r.get("parent") and r["status"] != "hold" and (e.id, r["anchor"]) not in decisions and CHOICE_INTRO.search(r["print"] or "")
+                    and nxt is not None and nxt["listed"] and not nxt.get("parent")):
+                r["status"] = "hold"
+                r["notes"].append(f"choices: the text says that the reader selects from what follows, and the next section `{nxt['anchor']}` is a listed feature: "
+                                  "decide `sub-of:` for the options (rulings 15 and 34), or `list` on this feature if they are features")
     if e.id in OPENING_NOTES:
         rows[0]["notes"].append(OPENING_NOTES[e.id])
     for text in res.get("opening_dropped", []):
@@ -3937,6 +3982,8 @@ MISPRINTS.extend([
     ("ref/arc-ranger/fortune-finder", "the fortune-seeker's highest", "the fortune-finder's highest",
      "the archetype is the fortune-finder; the same paragraph says \"fortune-finder\" (Blood of the Beast p. 30)"),
     ("ref/arc-skald/war-painter", "A war painter cab apply", "A war painter can apply", "a letter b for an n"),
+    ("ref/arc-ranger/poison-darter", "the poison dart can choose", "the poison darter can choose",
+     "the archetype is the poison darter; the same feature says \"poison darter\" throughout (Blood of the Beast p. 9)"),
 ])
 CONTEXT_LINKS.update({
     ("ref/arc-druid/swarm-monger", "swarm"): "gains the swarm",
@@ -4695,6 +4742,15 @@ def self_test() -> int:
     eq(kinds2, [("title", 36), ("title", 27), ("para", 0)], "a title of another size is a title of its own")
     eq(fix_ligatures("he gains 1 point of inf luence over him and f ighter", {"influence", "fighter"}), "he gains 1 point of influence over him and fighter",
        "a ligature pair after a word that ends in f")
+    # review of #338: the class table of the ranger writes "1st favored enemy"; a lead after an opening sentence; "of 20th level"; a choice from what follows
+    eq(first_level_key("1st favored enemy"), first_level_key("Favored enemy"), "a class table entry with an ordinal in front")
+    eq(first_level_key("Favored enemy"), first_level_key("favored enemies"), "plural of the class table name")
+    eq(LATER_LEAD.search("Eventually, a loyalist trains. At 5th level, a loyalist chooses one house.").group(1), "5", "a lead after an opening sentence")
+    eq(OF_LEVEL.search("A fortune-finder of 20th level becomes a master explorer.").group(1), "20", "of Nth level in the first sentence")
+    eq(bool(LATER_LEAD.search("At 5th level, a loyalist chooses.")), False, "a lead at the start is the ordinary lead")
+    eq(bool(CHOICE_INTRO.search("An opportunist can select an edge from those listed below.")), True, "choices: from those listed below")
+    eq(bool(CHOICE_INTRO.search("A serendipity shaman can select from any of the following hexes, in addition to general shaman hexes.")), True, "choices: of the following hexes")
+    eq(bool(CHOICE_INTRO.search("A fighter can select any feat he qualifies for.")), False, "choices: no list follows")
     # a progression in print with a class word, or "he has", between the number and "levels"
     eq(progression_levels("This bonus increases by 1 for every 4 fighter levels beyond 2nd."), {6, 10, 14, 18}, "progression with a class word")
     eq(progression_levels("This bonus increases by 1 for every 4 levels he has beyond 2nd."), {6, 10, 14, 18}, "progression with 'he has'")
@@ -4840,7 +4896,7 @@ def main() -> int:
     ap.add_argument("--forget-checker-holds", action="store_true",
                     help="--compare: forget the holds that an earlier --write recorded from the checker (after the script or the app changed)")
     ap.add_argument("--checker")
-    ap.add_argument("--rules", default="all", help="the hold rules that are on: all, none, or names joined by + (hyphens, prereq, usage, values, dropped)")
+    ap.add_argument("--rules", default="all", help="the hold rules that are on: all, none, or names joined by + (hyphens, prereq, usage, values, dropped, choices, lostlevel)")
     args = ap.parse_args()
     for k in RULES:
         RULES[k] = args.rules == "all" or k in args.rules.split("+")
