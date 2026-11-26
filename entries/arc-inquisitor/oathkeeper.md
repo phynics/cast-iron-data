@@ -16,10 +16,15 @@ page = "30"
 
 [fields]
 kind = "archetype"
+features = [
+  { anchor = "divine-witness", level = 1 },
+  { anchor = "oathbreaker-s-scourge", level = 2 },
+]
 trades = [
-  { replaces = "Monster lore", feature = "monster-lore" },
-  { replaces = "Track", feature = "track" },
+  { replaces = "Monster lore", feature = "monster-lore", by = ["divine-witness"] },
+  { replaces = "Track", feature = "track", by = ["oathbreaker-s-scourge"] },
   { alters = "Alignment requirements" },
+  { alters = "Class skills" },
 ]
 +++
 
@@ -29,27 +34,25 @@ previously oversaw religious vows in more formal settings, though more pursue mo
 contracts. Wronged merchants or cheated customers often seek out oathkeepers to bring justice when
 local authorities fail.
 
-**Alignment**
+## Alignment {#alignment}
 
-**Alters:** Alignment requirements
+An oathkeeper must be of a lawful alignment, and her alignment must be within one step of her
+deity's.
 
-**Info:** An oathkeeper must be of a lawful alignment, and her alignment must be within one step of
-her deity's.
+This alters the inquisitor's alignment requirements.
 
-**Gained class skills:** app
+## Class Skills {#class-skills}
 
-**Lost class skills:** kna
+An oathkeeper removes Knowledge (nature) from her list of class skills and adds Appraise.
 
-**Divine Witness (Su)**
+This alters the inquisitor's class skills.
 
-**Action:** Ability
-
-**Replaces:** Monster lore
+## Divine Witness (Su) {#divine-witness}
 
 Every oathkeeper inquisitor develops a unique personal symbol, which she can use to seal an
 agreement between two or more willing parties. The agreement, whether it's a trade contract, a
 truce, or a political marriage, must be as detailed as possible and then signed in the oathkeeper's
-presence by every creature involved. Creatures must sign of their own free will - any magical or
+presence by every creature involved. Creatures must sign of their own free will—any magical or
 physical coercion will cause the contract to crumble into ash when the oathkeeper attempts to place
 her seal upon it. So long as no mystic or physical force is influencing any participating creature,
 the oathkeeper can mystically seal the arrangement with her personal symbol, binding all signing
@@ -61,27 +64,25 @@ and the offending creature is cursed, taking a penalty on all d20 rolls equal to
 Wisdom modifier for a number of weeks equal to the oathkeeper's inquisitor level. Furthermore, the
 inquisitor's symbol appears as a mystic symbol on the offending creature's throat and hands,
 allowing the oathkeeper to know the creature's location at all times, as per the
-[discern location](ref/spell/discern-location) spell.
+_[discern location](ref/spell/discern-location)_ spell.
 
 If a creature is forced into breaking the agreement by magic or overwhelming physical force (for
 example, breaking an agreement not to harm via a [compulsion](ref/spelldef/compulsion) spell or by
 physically hurling an oathbound creature to deal damage to another), then the agreement dissipates
 harmlessly. The oathkeeper's curse is a curse effect, but it can be removed only with a
-[miracle](ref/spell/miracle) or [wish](ref/spell/wish) spell.
+_[miracle](ref/spell/miracle)_ or _[wish](ref/spell/wish)_ spell.
 
-**Oathbreaker's Scourge (Su)**
+This replaces monster lore.
 
-**Ability:** If an oathkeeper is given physical evidence of a broken agreement and asked to hunt
+## Oathbreaker's Scourge (Su) {#oathbreaker-s-scourge}
+
+At 2nd level, if an oathkeeper is given physical evidence of a broken agreement and asked to hunt
 down the contract's breaker by the offended party, the oathkeeper gains a +4 sacred or profane bonus
 on Diplomacy and Survival skill checks to gather information about and track the target. The
 inquisitor is also treated as being 3 levels higher for the purpose of one judgment she uses against
-the deal breaker, so long as she keeps possession of the evidence.
+the deal breaker, so long as she keeps possession of the evidence. If the oathkeeper uses
+oathbreaker's scourge when attacking someone who is actually innocent of fraud—due to forgery, hasty
+judgments, or other deceptions—she loses access to all of her oathkeeper archetype abilities for 1
+month or until she is the target of an _[atonement](ref/spell/atonement)_ spell.
 
-**Gained:** At 2nd Level
-
-**Replaces:** Track
-
-**Special:** If the oathkeeper uses oathbreaker's scourge when attacking someone who is actually
-innocent of fraud - due to forgery, hasty judgments, or other deceptions - she loses access to all
-of her oathkeeper archetype abilities for 1 month or until she is the target of an
-[atonement](ref/spell/atonement) spell.
+This replaces track.
