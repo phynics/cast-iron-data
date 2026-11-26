@@ -1,0 +1,14 @@
+entry	anchor	decision	note
+ref/arc-familiar/elemental-familiar	air-familiar	drop	lead review (ruling 14, structural): the import heads each manifestation ("Air Familiar"); print has them as sentences of one paragraph (Plane-Hopper's Handbook p. 26).
+ref/arc-familiar/elemental-familiar	earth-familiar	drop	lead review (ruling 14, structural): see Air Familiar.
+ref/arc-familiar/elemental-familiar	elemental-manifestation	print	lead review (ruling 14): print gives the four manifestations (air, earth, fire and water familiars) in one paragraph of the feature; the corpus has them as four heads. Print wins.
+ref/arc-familiar/elemental-familiar	fire-familiar	drop	lead review (ruling 14, structural): see Air Familiar.
+ref/arc-familiar/elemental-familiar	water-familiar	drop	lead review (ruling 14, structural): see Air Familiar.
+ref/arc-gunslinger/planar-rifter	deeds	unlist	lead review (ruling 54): "Deeds: A planar rifter gains the following deeds." has no level and no trade and holds only a lead-in sentence; the deeds under it stay listed features.
+ref/arc-gunslinger/planar-rifter	planar-resistance	print	lead review (ruling 16): print points to the infused bullet "(see infused bullet on page 6)", a printed "see" cross-reference that stays; the corpus words it "(see infused bullet)". Print wins.
+ref/arc-occultist/planar-harmonizer	conductor	print	lead review (ruling 14): print says the plane shift spell is added "to her list as a 5th-level occultist spell" and the 14th-level change in two sentences; the corpus has rows ("At 10th Level", "At 14th Level"); the corpus says 10th level for the plane shift row where print says nothing (it is a 5th-level spell). Print wins. Level 1: it alters implements, a 1st-level class feature (ruling 50).
+ref/arc-occultist/planar-harmonizer	end:arcanist-exploits	drop	lead review (ruling 41): "Arcanist Exploits" is the section of the chapter that follows the archetypes (Plane-Hopper's Handbook p. 7), not part of the archetype.
+ref/arc-paladin/chaos-knight	aura-of-chaos	print	hand text (an edit): see the note of the edit.
+ref/arc-paladin/chaos-knight	blessings-of-the-maelstrom	print	hand text (an edit, ruling 44): see the note of the edit. Print states the progression in words ("At 5th level and every 3 levels thereafter"); the corpus rows give 2 creatures at 5th, up to 7 at 20th.
+ref/arc-paladin/chaos-knight	end:expanded-oddities	drop	lead review (ruling 41): "Expanded Oddities" is the section of the ganzi chapter that follows the archetype (Plane-Hopper's Handbook p. 18), not part of the archetype.
+ref/arc-paladin/chaos-knight	entropic-touch	print	lead review (ruling 14): print says "A chaos knight can use this ability a number of times per day equal to half his paladin level + his Charisma modifier" in the paragraph; the corpus has the usage twice as rows. Print wins.

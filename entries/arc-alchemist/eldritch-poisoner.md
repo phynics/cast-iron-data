@@ -16,44 +16,35 @@ page = "28"
 
 [fields]
 kind = "archetype"
+features = [
+  { anchor = "arcanotoxin", level = 1 },
+  { anchor = "toxicologist", level = 1 },
+  { anchor = "sneak-attack", level = 1 },
+  { anchor = "careful-injection", level = 4 },
+]
 trades = [
-  { replaces = "Bomb", feature = "bomb" },
-  { replaces = "Throw Anything", feature = "throw-anything" },
-  { replaces = "Mutagen", feature = "mutagen" },
-  { replaces = "persistent mutagen", feature = "persistent-mutagen" },
-  { replaces = "The discovery gained at 4th level", feature = "discovery", levels = [4] },
+  { replaces = "Bomb", feature = "bomb", by = ["arcanotoxin"] },
+  { replaces = "Throw Anything", feature = "throw-anything", by = ["toxicologist"] },
+  { replaces = "Mutagen", feature = "mutagen", by = ["sneak-attack"] },
+  { replaces = "persistent mutagen", feature = "persistent-mutagen", by = ["sneak-attack"] },
+  { replaces = "The discovery gained at 4th level", feature = "discovery", levels = [4], by = ["careful-injection"] },
 ]
 +++
 
 Eldritch poisoners are masters of the toxic arts, synthesizing lethal and incapacitating poisons
 with uncanny speed and expertise.
 
-**Arcanotoxin (Su)**
+## Arcanotoxin (Su) {#arcanotoxin}
 
-**Action:** Choice
+An eldritch poisoner can blend volatile chemicals and her own personal magic to create deadly
+poisons known as arcanotoxins. She can use this ability a number of times each day equal to her
+alchemist level + her Intelligence modifier. An arcanotoxin functions only when used by the eldritch
+poisoner and becomes inert if not used within 1 minute. Creating an arcanotoxin is a standard
+action, and it can be applied to a weapon as a move action.
 
-**Flavor:** An eldritch poisoner can blend volatile chemicals and her own personal magic to create
-deadly poisons known as arcanotoxins.
-
-**Gained:** At 1st Level
-
-**Move:** Apply an arcanotoxin to a weapon.
-
-**Replaces:** Bomb
-
-**Special:** An arcanotoxin functions only when used by the eldritch poisoner and becomes inert if
-not used within 1 minute.
-
-**Standard:** Create an arcanotoxin.
-
-**Usage:** alchemist level + Intelligence modifier times/day
-
-_The base stats for the arcanotoxin are presented below this ability block._
-
-At 1st level, an eldritch poisoner must choose whether her arcanotoxin deals 1d2 Strength or
-Dexterity damage. At 3rd level and every 2 alchemist levels thereafter (5th, 7th, 9th, and so on),
-she can enhance her arcanotoxin in one of the following ways. She can't select the same improvement
-twice in a row.
+At 1st level, an eldritch poisoner must choose whether her arcanotoxin deals Strength or Dexterity
+damage. At 3rd level and every 2 alchemist levels thereafter, she can enhance her arcanotoxin in one
+of the following ways. She can't select the same improvement twice in a row.
 
 - Select one additional form of ability damage: Charisma, Dexterity, Intelligence, Strength, or
   Wisdom.
@@ -69,150 +60,109 @@ arcanotoxin, such as the save DC or onset time. Some discoveries apply secondary
 arcanotoxin can cause only one secondary effect. Alchemist discoveries that affect mundane poisons
 do not apply to an arcanotoxin.
 
+This ability replaces bomb.
+
 **Arcanotoxin**
 
-**Type:** Poison (injury)
+**Type** poison, injury; **Save** Fortitude DC = 10 + 1/2 the eldritch poisoner's alchemist level +
+her Intelligence modifier\
+**Frequency** 1/round for 2 rounds\
+**Effect** 1d2 ability damage (see above); **Cure** 1 save
 
-**Save:** Fortitude 10 + 1/2 the eldritch poisoner's level + her Int modifier
+## Toxicologist (Ex) {#toxicologist}
 
-**Frequency:** 1/round for 2 rounds
+An eldritch poisoner gains a +2 bonus on Craft (alchemy) checks to create poisons and antitoxins,
+and creates them in [half](ref/misc/fractions-and-rounding) the normal amount of time. This ability
+replaces Throw Anything.
 
-**Effect:** 1d2 ability damage (see above)
+## Sneak Attack (Ex) {#sneak-attack}
 
-**Cure:** 1 save
+At 1st level, the eldritch poisoner gains a [sneak attack](ref/ability/sneak-attack) identical to
+the rogue class feature, dealing 1d6 points of sneak attack damage at 1st level; the damage
+increases by 1d6 at 4th level and every 4 alchemist levels thereafter. This ability replaces mutagen
+and persistent mutagen.
 
-**Toxicologist (Ex)**
+## Discoveries {#discoveries}
 
-**Gained:** At 1st Level
+An eldritch poisoner can select any of the following discoveries, in addition to those available to
+other alchemists. Arcanotoxin discoveries with a save DC use her arcanotoxin's save DC.
 
-**Passive:** An eldritch poisoner gains a +2 bonus on Craft (alchemy) checks to create poisons and
-antitoxins, and creates them in half the normal amount of time.
+### Antidote (Su) {#antidote}
 
-**Replaces:** Throw Anything
+The eldritch poisoner can sacrifice one use of her arcanotoxin to create an extract of
+_[delay poison](ref/spell/delay-poison)_, which she can feed to an adjacent, willing creature as a
+standard action. Beginning at 10th level, she can instead use this ability to create an extract of
+_[neutralize poison](ref/spell/neutralize-poison)_.
 
-**Sneak Attack (Ex)**
+### Apothecary (Ex, Sp) {#apothecary}
 
-**Ability:** At 1st level, the eldritch poisoner gains a [sneak attack](ref/ability/sneak-attack)
-identical to the rogue class feature, dealing 1d6 points of sneak attack damage.
+The eldritch poisoner can use _[detect poison](ref/spell/detect-poison)_ at will as a
+[spell-like ability](ref/umr/spell-like-abilities) and gains a bonus equal to 1/2 her alchemist
+level on Heal checks to identify or treat poisons and to the bonus she grants when successfully
+treating a poison.
 
-**At 12th Level:** The damage becomes 4d6.
+### Combine Toxins (Ex) {#combine-toxins}
 
-**At 16th Level:** The damage becomes 5d6.
+An eldritch poisoner can diversify her arcanotoxin, dealing damage to any two ability scores with a
+single dose. The alchemist must already know how to target both ability scores with her arcanotoxin.
+A combined toxin reduces the damage die of its arcanotoxin by one step, to a minimum of 1 point of
+ability damage to each ability score.
 
-**At 20th Level:** The damage becomes 6d6.
+### Contact Toxin (Su) {#contact-toxin}
 
-**At 4th Level:** The damage becomes 2d6.
+The eldritch poisoner can create her arcanotoxin as a contact poison. A vial of contact arcanotoxin
+can be thrown up to 30 feet as a ranged touch attack or smeared onto a surface as a standard action,
+but it becomes inert after 1 minute. The arcanotoxin's save DC is reduced by 2. The eldritch
+poisoner must be at least 4th level to select this discovery.
 
-**At 8th Level:** The damage becomes 3d6.
+### Envenom (Su) {#envenom}
 
-**Gained:** At 1st Level
+The eldritch poisoner can create and apply her arcanotoxin to a held weapon (her own or an ally's)
+as a move action. The toxin lasts 1 minute or until used.
 
-**Replaces:** Mutagen, persistent mutagen
+### Lethal Toxin (Su) {#lethal-toxin}
 
-**Discoveries**
+The eldritch poisoner's arcanotoxin can deal Constitution damage. She must be at least 10th level to
+select this discovery.
 
-**Gained:** At 1st Level
+### Mind-Altering Toxin (Su) {#mind-altering-toxin}
 
-**Passive:** An eldritch poisoner can select any of the following eleven discoveries, in addition to
-those available to other alchemists.
+Whenever a creature fails its saving throw against the eldritch poisoner's arcanotoxin, it also
+becomes [dazzled](ref/misc/dazzled) by hallucinations for the toxin's duration as a secondary
+effect. When the alchemist reaches 10th level, targets become [confused](ref/misc/confused) instead.
+The alchemist must be at least 6th level to select this discovery.
 
-**Special:** Arcanotoxin discoveries with a save DC use her arcanotoxin's save DC.
+### Paralytic Toxin (Su) {#paralytic-toxin}
 
-**Antidote (Su)**
+Whenever a creature fails its saving throw against the eldritch poisoner's arcanotoxin, it also
+becomes [staggered](ref/misc/staggered) for the toxin's duration as a secondary effect. Beginning at
+15th level, the target becomes [paralyzed](ref/rule/paralyzed) instead. The poisoner must be at
+least 8th level to select this discovery.
 
-**Ability:** The eldritch poisoner can sacrifice one use of her arcanotoxin to create an extract of
-[delay poison](ref/spell/delay-poison) which she can feed to an adjacent, willing creature as a
-**standard action**.
+### Sickening Toxin (Su) {#sickening-toxin}
 
-**At 10th Level:** She can instead use this ability to create an extract of
-[neutralize poison](ref/spell/neutralize-poison).
+When a creature fails its save against the eldritch poisoner's arcanotoxin, it also becomes
+[sickened](ref/misc/sickened) for the toxin's duration as a secondary effect. When the alchemist
+reaches 12th level, targets become [nauseated](ref/misc/nauseated) instead.
 
-**Apothecary (Ex, Sp)**
+### Tailored Toxin (Ex) {#tailored-toxin}
 
-**Passive:** She gains bonus equal to [half](ref/misc/fractions-and-rounding) her alchemist level on
-Heal checks to identify or treat poisons and to the bonus she grants when successfully treating a
-poison.
+Choose one creature type (and subtype, for humanoids or outsiders). The eldritch poisoner's
+arcanotoxin is particularly effective against such creatures, increasing the save DC by 2. This
+discovery can be selected more than once; each time it applies to a different creature type (or
+subtype).
 
-**Standard:** The eldritch poisoner can use [detect poison](ref/spell/detect-poison) at will as a
-[spell-like ability](ref/umr/spell-like-abilities).
+### Toxic Fumes (Ex) {#toxic-fumes}
 
-**Combine Toxins (Ex)**
+The eldritch poisoner can create her arcanotoxin as an inhaled poison. She can throw a vial of
+arcanotoxin up to 30 feet as a ranged touch attack, affecting all creatures in a 10-foot-by-10-foot
+square. The arcanotoxin's save DC is reduced by 4, its duration is halved, and a successful save
+immediately ends the inhaled arcanotoxin's effect. The eldritch poisoner must be at least 6th level
+to select this discovery.
 
-**Passive:** An eldritch poisoner can diversify her arcanotoxin, dealing damage to any two ability
-scores with a single dose. The alchemist must already know how to target both ability scores with
-her arcanotoxin. A combined toxin reduces the damage die of its arcanotoxin by one step, to a
-minimum of 1 point of ability damage to each ability score.
+## Careful Injection (Ex) {#careful-injection}
 
-**Contact Toxin (Su)**
-
-**Passive:** The eldritch poisoner can create her arcanotoxin as a contact poison. A vial of contact
-arcanotoxin can be thrown up to 30 feet as a ranged touch attack or smeared onto a surface as a
-**standard action**, but it becomes inert after 1 minute. The arcanotoxin's save DC is reduced by 2.
-
-**Prereq:** 4th-level alchemist
-
-**Envenom (Su**
-
-**Move:** The eldritch poisoner can create and apply her arcanotoxin to a held weapon (her own or an
-ally's). The toxin lasts 1 minute or until used.
-
-**Lethal Toxin (Su)**
-
-**Ability:** The eldritch poisoner's arcanotoxin can deal Constitution damage.
-
-**Prereq:** 10th-level alchemist
-
-**Mind-Altering Toxin (Su)**
-
-**At 10th Level:** Targets become [confused](ref/misc/confused) instead.
-
-**Passive:** Whenever a creature fails its saving throw against the eldritch poisoner's arcanotoxin,
-it also becomes [dazzled](ref/misc/dazzled) by hallucinations for the toxin's duration as a
-secondary effect.
-
-**Prereq:** 6th-level alchemist
-
-**Paralytic Toxin (Su)**
-
-**At 15th Level:** The target becomes [paralyzed](ref/rule/paralyzed) instead.
-
-**Passive:** Whenever a creature fails its saving throw against the eldritch poisoner's arcanotoxin,
-it also becomes [staggered](ref/misc/staggered) for the toxin's duration as a secondary effect.
-
-**Prereq:** 8th-level alchemist
-
-**Sickening Toxin (Su)**
-
-**At 12th Level:** When the alchemist reaches 12th level, targets become
-[nauseated](ref/misc/nauseated) instead.
-
-**Passive:** When a creature fails its save against the eldritch poisoner's arcanotoxin, it also
-becomes [sickened](ref/misc/sickened) for the toxin's duration as a secondary effect.
-
-**Tailored Toxin (Ex)**
-
-**Ability:** Choose one creature type (and subtype, for humanoids or outsiders). The eldritch
-poisoner's arcanotoxin is particularly effective against such creatures, increasing the save DC
-by 2.
-
-**Special:** This discovery can be selected more than once; each time it applies to a different
-creature type (or subtype).
-
-**Toxic Fumes (Ex)**
-
-**Ability:** The eldritch poisoner can create her arcanotoxin as an inhaled poison. She can throw a
-vial of arcanotoxin up to 30 feet as a ranged touch attack, affecting all creatures in a
-10-foot-by-10-foot square. The arcanotoxin's save DC is reduced by 4, its duration is halved, and a
-successful save immediately ends the inhaled arcanotoxin's effect.
-
-**Prereq:** 6th-level alchemist
-
-**Careful Injection (Ex)**
-
-**Gained:** At 4th Level
-
-**Passive:** An eldritch poisoner can forgo some of her sneak attack damage in order to increase the
-save DC of a poison or arcanotoxin on the weapon used to make the sneak attack. The poison's DC
-increases by 1 for every 1d6 points of sneak attack damage forgone.
-
-**Replaces:** The discovery gained at 4th level
+At 4th level, an eldritch poisoner can forgo some of her sneak attack damage in order to increase
+the save DC of a poison or arcanotoxin on the weapon used to make the sneak attack. The poison's DC
+increases by 1 for every 1d6 points of sneak attack damage forgone. This ability replaces the
+discovery gained at 4th level.
