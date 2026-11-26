@@ -47,7 +47,7 @@ power.
 
 A storyteller does not receive his spirit's seance boon. He can't choose to channel a weaker spirit
 to reduce his influence from spirit surge. Because of his obsession with legends, he begins with 2
-points of inf luence after a seance rather than 1.
+points of influence after a seance rather than 1.
 
 This ability alters spirit.
 

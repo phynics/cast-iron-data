@@ -52,10 +52,10 @@ these rounds don't need to be consecutive. After his spirit dance ends, the spir
 penalty on attack rolls, saving throws, and skill checks for 1 minute and can't enter a spirit dance
 again during that time. He also can't enter a spirit dance while [shaken](ref/misc/shaken),
 [frightened](ref/misc/frightened), or [panicked](ref/misc/panicked). He combines all influence
-incurred during spirit dances into a single pool. At 3 points of inf luence or higher, he takes a -2
-penalty on initiative checks even when he's not in a spirit dance, and at 5 points of inf luence or
+incurred during spirit dances into a single pool. At 3 points of influence or higher, he takes a -2
+penalty on initiative checks even when he's not in a spirit dance, and at 5 points of influence or
 higher, his current spirit takes control as it would for a normal medium (this control is not
-limited by rounds of spirit dance). A spirit dancer can accept 1 point of inf luence to recover 4
+limited by rounds of spirit dance). A spirit dancer can accept 1 point of influence to recover 4
 rounds of spirit dance, up to his normal daily maximum.
 
 A spirit dancer continues to track daily uses of abilities from each of his spirits even while he is
