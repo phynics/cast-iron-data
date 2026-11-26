@@ -32,7 +32,7 @@ trades = [
 ]
 +++
 
-Instead of using song and dance, a fortune-teller (see page 37)influences people by divining their
+Instead of using song and dance, a fortune-teller (see page 37) influences people by divining their
 fate. Though he learns a great deal about the paths of destiny, his true skill is in making others
 think he knows more than he truly does.
 

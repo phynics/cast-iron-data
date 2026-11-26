@@ -50,14 +50,14 @@ This ability alters spirit.
 
 ## Surge of the Void (Su) {#surge-of-the-void}
 
-The voice of the void can use spirit [surge](ref/umr/surge) additional times per day without
-incurring influence, but each time he does, he is [confused](ref/misc/confused) for 1 round. If this
-confusion would cause him to babble, he can instead act normally, but his emissary gains 1 point of
-influence over him. The voice of the void can't use this ability if he is immune to confusion, but
-he can remove the confused condition when he is affected by it. This temporary confusion clearly
-indicates the voice of the void isn't fully in control, so if he uses this power on a Diplomacy
-check in a negotiation, for example, it might prejudice the other party against him regardless of
-his check result.
+The voice of the void can use [spirit surge](ref/class/medium#spirit-surge) additional times per day
+without incurring influence, but each time he does, he is [confused](ref/misc/confused) for 1 round.
+If this confusion would cause him to babble, he can instead act normally, but his emissary gains 1
+point of influence over him. The voice of the void can't use this ability if he is immune to
+confusion, but he can remove the confused condition when he is affected by it. This temporary
+confusion clearly indicates the voice of the void isn't fully in control, so if he uses this power
+on a Diplomacy check in a negotiation, for example, it might prejudice the other party against him
+regardless of his check result.
 
 This ability modifies spirit surge.
 
@@ -67,10 +67,10 @@ Emissaries demand that a medium perform acts appealing to their alien whims. The
 taboos for an ordinary medium, but in addition to the base taboo, they require bizarre and alien
 acts that distance the voice of the void from his own humanity. These blasphemies cause the medium
 to take a -1 penalty on Charisma checks and Charisma-based skill checks whenever he accepts a taboo.
-The increased devotion required to maintain a [blasphemy](ref/spell/blasphemy) reaps a greater
-reward, however. If the voice of the void is under a [blasphemy](ref/spell/blasphemy), the die for
-his spirit [surge](ref/umr/surge) changes from 1d6 to 1d8, increasing to 1d10 at 10th level and 1d12
-at 20th level.
+The increased devotion required to maintain a blasphemy reaps a greater reward, however. If the
+voice of the void is under a blasphemy, the die for his
+[spirit surge](ref/class/medium#spirit-surge) changes from 1d6 to 1d8, increasing to 1d10 at 10th
+level and 1d12 at 20th level.
 
 This ability alters taboo.
 
@@ -80,10 +80,7 @@ At 3rd level, the voice of the void can funnel energy from the emissaries' realm
 number of times per day equal to his Charisma modifier, the medium can unleash a
 [burst](ref/misc/burst) of energy that damages all other creatures except aberrations within 30 feet
 of him. The burst deals 1d6 points of damage + 1d6 additional points of damage for every 2 medium
-levels the medium has beyond 3rd.
-
-Creatures receive a Will save to halve the damage (DC = 10 + 1/2 the medium's level + the medium's
-Charisma modifier). Creatures with fewer HD than half the medium's level who fail the Will save are
-also confused for 1d4 rounds.
-
-This ability replaces haunt channeler.
+levels the medium has beyond 3rd. Creatures receive a Will save to halve the damage (DC = 10 + 1/2
+the medium's level + the medium's Charisma modifier). Creatures with fewer HD than half the medium's
+level who fail the Will save are also confused for 1d4 rounds. This ability replaces haunt
+channeler.

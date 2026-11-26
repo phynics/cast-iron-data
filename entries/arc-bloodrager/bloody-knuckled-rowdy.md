@@ -17,8 +17,8 @@ page = "13"
 [fields]
 kind = "archetype"
 features = [
-  { anchor = "bloody-knuckles" },
-  { anchor = "reduced-spells-known", level = 4 },
+  { anchor = "bloody-knuckles", level = 7 },
+  { anchor = "reduced-spells-known" },
   { anchor = "pugilist", level = 1 },
   { anchor = "combat-style-student", level = 2 },
   { anchor = "hand-to-hand-training", level = 3 },
@@ -28,6 +28,7 @@ trades = [
   { replaces = "Uncanny dodge", feature = "uncanny-dodge", by = ["combat-style-student"] },
   { replaces = "improved uncanny dodge", feature = "improved-uncanny-dodge", by = ["combat-style-student"] },
   { alters = "Spellcasting", feature = "spells", by = ["reduced-spells-known"] },
+  { replaces = "Damage reduction", feature = "damage-reduction", by = ["bloody-knuckles"] },
 ]
 +++
 

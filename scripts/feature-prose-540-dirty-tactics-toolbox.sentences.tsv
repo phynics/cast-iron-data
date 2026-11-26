@@ -1,5 +1,6 @@
 entry	sentence
 ref/arc-alchemist/toxicant	This ability replaces mutagen.
+ref/arc-alchemist/toxicant	This ability replaces persistent mutagen.
 ref/arc-barbarian/untamed-rager	This ability replaces uncanny dodge.
 ref/arc-barbarian/untamed-rager	This ability replaces trap sense.
 ref/arc-barbarian/untamed-rager	This ability replaces improved uncanny dodge.
@@ -7,6 +8,7 @@ ref/arc-barbarian/untamed-rager	This ability replaces damage reduction.
 ref/arc-cleric/asmodean-advocate	This ability alters domains.
 ref/arc-druid/kraken-caller	This ability alters the druid’s bonus languages class feature.
 ref/arc-druid/kraken-caller	This ability replaces woodland stride.
+ref/arc-druid/kraken-caller	This ability replaces trackless step.
 ref/arc-druid/kraken-caller	This ability replaces resist nature’s lure.
 ref/arc-druid/kraken-caller	This ability alters wild shape.
 ref/arc-druid/kraken-caller	This ability replaces a thousand faces.

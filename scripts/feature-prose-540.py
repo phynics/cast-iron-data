@@ -572,6 +572,15 @@ I_OPEN, I_CLOSE = "\x01", "\x02"
 LINK_SPAN = re.compile(r"(?<!\\)\[[^\[\]]*\]\([^()\s]*\)")
 
 
+LINK_CTX = {"title": ""}        # the title of the archetype whose text the links are placed in (`LINK_TITLE_SPAN`)
+
+
+def LINK_TITLE_SPAN(title: str):
+    """The archetype's own name as it stands in running text (case folded, any blanks)."""
+    words = [re.escape(w) for w in re.findall(r"[A-Za-z0-9']+", re.sub(r"\s*\([^()]*\)$", "", title))]
+    return re.compile(r"\b" + r"\s+".join(words) + r"\b", re.I) if words else re.compile(r"(?!x)x")
+
+
 def apply_links(text: str, links: list[tuple[str, str]]) -> tuple[str, list[str]]:
     """Wrap an occurrence of each old link text that is not inside a link already: the longer labels first (so
     "planar ally" does not take the words of "lesser planar ally"), and an occurrence with the same case as the
@@ -586,7 +595,13 @@ def apply_links(text: str, links: list[tuple[str, str]]) -> tuple[str, list[str]
             continue
         pat = re.compile(r"(?<![\w\[])" + r"[\s-]+".join(words) + r"(?![\w\]])", re.I)
         spans = [(m.start(), m.end()) for m in LINK_SPAN.finditer(text)]
-        free = [m for m in pat.finditer(text) if not any(a <= m.start() < b for a, b in spans)]
+        # an import link lands on the first occurrence of its text; that is not an occurrence inside the archetype's own name ("a mirror witch"
+        # for the link of "mirror") or inside a longer italic name ("cause fear" for the link of "fear"): the next occurrence takes it
+        spans += [(m.start(), m.end()) for m in LINK_TITLE_SPAN(LINK_CTX["title"]).finditer(text)] if LINK_CTX["title"] else []
+        longer = [(m.start(), m.end()) for m in re.finditer(I_OPEN + "([^" + I_OPEN + I_CLOSE + "]*)" + I_CLOSE, text)]
+        free = [m for m in pat.finditer(text) if not any(a <= m.start() < b for a, b in spans)
+                and not any(a <= m.start() and m.end() <= b and re.sub(r"[^a-z0-9]", "", text[a + 1:b - 1].lower()) != re.sub(r"[^a-z0-9]", "", m.group(0).lower())
+                            and not LINK_SPAN.search(text[a:b]) for a, b in longer)]
         chosen = next((m for m in free if m.group(0) == plain), free[0] if free else None)
         if chosen is None:
             lost.append(label)
@@ -628,6 +643,7 @@ def finish_text(s: str, vocab: set[str]) -> str:
     s = re.sub(r"\s+", " ", s).strip()
     s = s.replace("’", "'").replace("‘", "'").replace("“", '"').replace("”", '"')
     s = s.replace("\u00ad", "")
+    s = re.sub(r"(?<=\d)\)(?=[a-z])", ") ", s)               # "(see page 37)influences": the extraction lost the blank behind the parenthesis of a page reference
     s = re.sub(r"(?<=[A-Za-z0-9])/ (?=[A-Za-z0-9])", "/", s)                       # "law/" at a line end, "chaos" on the next ("DR 5/", "cold iron"; "1/", "round")
     s = re.sub(r"(?<=[A-Za-z" + I_CLOSE + r"]) +(?=['\u2019]s\b)", "", s)         # "thief 's" (kerning of an italic or bold run)
     s = re.sub("\ufffd(?=\\d)", "\u00d7", s)             # a multiplication sign that the extraction lost ("a x2 becomes a x3")
@@ -1034,6 +1050,10 @@ def read_blocks(book: Book, first: int, last: int) -> list[Para]:
     return out
 
 
+ART_INDENT = {"on": False}      # the Tactics Toolboxes and the Villain Codex wrap text around figures: a line set in deeper than a first-line indent continues its paragraph
+ART_INDENT_MAX = 20
+
+
 RUN_IN_HEAD_ONLY = re.compile(r"^.{3,70}\((?:Ex|Su|Sp)(?:,\s*(?:Ex|Su|Sp))*\)\s*:\s*$")
 
 
@@ -1077,6 +1097,10 @@ def _assemble(book: Book, items: list[tuple[int, list[dict]]]) -> list[Para]:
             else:
                 insets[ln["col"]] = None
                 starts = indent >= 8
+            if ART_INDENT["on"] and starts and indent > ART_INDENT_MAX and out and out[-1].kind == "para":
+                # beside art the lines are set in by the outline of the figure: only the first-line indent of the book starts a paragraph, and a bold head
+                cand_a = head_candidate(Para("para", list(ln["runs"]), shown, ln["col"]))
+                starts = bool(cand_a and cand_a[2])
             if ILLUSTRATED["on"] and starts and out and out[-1].kind == "para" and not re.search(r"[.!?:)\"”…]\s*$", out[-1].plain()) \
                     and not (all(bold for t, bold, _i in out[-1].runs if t.strip())
                              and not next((bold for t, bold, _i in ln["runs"] if t.strip()), True)):
@@ -3882,7 +3906,7 @@ CHOICE_INTRO = re.compile(r"\b(?:select|selects|choose|chooses|take|takes|pick|p
                           r"(?:following|listed below|below)\b|\bfrom (?:those|the list) (?:listed )?below\b|"
                           r"\b(?:select|selects|choose|chooses|take|takes|pick|picks)\s+(?:any\s+of\s+)?the\s+following\b"
                           r"|\badds? the following (?!spells?\b)[^.]{0,120}\bto (?:the|her|his) list\b|\bways? listed below\b|\b(?:are|is) (?:listed|noted|described|shown) below\b|\bas noted below\b"
-                          r"|\b(?:can|may) (?:select|choose|take) the following additional\b|\b(?:can|may) (?:also )?be (?:selected|taken|chosen) by any\b", re.I)
+                          r"|\b(?:can|may) (?:also )?(?:select|choose|take) the following additional\b|\b(?:can|may) (?:also )?be (?:selected|taken|chosen) by any\b", re.I)
 LEVEL_IN_FIRST_PARAGRAPH = {
     ("ref/arc-paladin/invigorator", "champion-of-life"),     # a flavor sentence, then "At 20th level, three times per day ..."
     ("ref/arc-brawler/wild-child", "wild-tricks"),
@@ -4051,10 +4075,11 @@ def first_level_key(name: str) -> str:
     channel energy, bomb, bomb and witch's familiar."""
     name = re.sub(r"\[([^\]]*)\]\([^)]*\)", r"\1", ABILITY_TAG.sub("", name))
     name = re.sub(r"[_*]", "", name)
+    name = re.sub(r"^((?:the|a|an)\s+)?(\S.*?\S)\s+bonus feats?$", r"\1\2", name.strip(), flags=re.I)   # "The Brew Potion bonus feat" is the name Brew Potion, as the alchemist table writes it
     name = re.sub(r"\s*\((?:minor|major|[a-z]+)\)\s*$", "", name.strip(), flags=re.I)  # the class table of the warpriest: "Blessings (minor)"
     name = re.sub(r"^\d+(?:st|nd|rd|th)\s+", "", name.strip())                    # the class table of the ranger: "1st favored enemy"
     name = re.sub(r"[,;]?\s+and (?:all|each|every)\s+(?:of\s+)?(?:its\s+|the\s+)?(?:improvements?|upgrades?)\b.*$", "", name, flags=re.I)   # "Shifter aspect and all improvements to it"
-    name = re.sub(r"\s+(?:\d+/\w+|\d+d\d+|[+\-]\d.*|\d+)$", "", name.strip())
+    name = re.sub(r"\s+(?:\d+/[\w-]+|\d+d\d+|[+\-]\d.*|\d+)$", "", name.strip())
     name = re.sub(r"\s*\([^()]*\)$", "", name.strip())                          # "blessings (minor)" is the name blessings
     name = re.sub(r"^(?:the|a|an)\s+", "", fold(name))              # "The cavalier's order" is the name order
     name = re.sub(r"^[a-z]+'s\s+", "", name)                       # "witch's familiar" is the name familiar
@@ -4066,6 +4091,7 @@ def first_level_alt_key(name: str) -> str:
     name = re.sub(r"\[([^\]]*)\]\([^)]*\)", r"\1", ABILITY_TAG.sub("", name))
     name = re.sub(r"[_*]", "", name)
     name = re.sub(r"\s*\([^()]*\)$", "", fold(name).strip())
+    name = re.sub(r"^((?:the|a|an)\s+)?(\S.*?\S)\s+bonus feats?$", r"\1\2", name.strip(), flags=re.I)
     name = re.sub(r"^(?:the|a|an)\s+", "", name).replace("'s ", " ")
     return " ".join(stem(w) for w in re.findall(r"[a-z0-9]+", name))
 
@@ -4100,6 +4126,34 @@ def class_first_level(corpus: Path, class_id: str, cache: dict) -> set[str]:
     keys |= {first_level_key(x) for x in FIRST_LEVEL_EXTRA.get(class_id, ())}
     cache[class_id] = keys
     return keys
+
+
+def class_feature_levels(corpus: Path, class_id: str, cache: dict) -> dict[str, int]:
+    """The lowest level at which the Special column of the class table of a base class lists each feature (the names as
+    `first_level_key` reads them): owner ruling 57 gives a feature that prints no level and alters or replaces a whole class feature
+    the level at which the class gains it."""
+    key = ("levels", class_id)
+    if key in cache:
+        return cache[key]
+    path = corpus / "entries" / (class_id.removeprefix("ref/") + ".md")
+    out: dict[str, int] = {}
+    if path.exists():
+        col = None
+        for ln in path.read_text(encoding="utf-8").split("\n"):
+            cells = [c.strip() for c in ln.strip().strip("|").split("|")]
+            if col is None and ln.startswith("|Level|") and "Special" in cells:
+                col = cells.index("Special")
+            elif col is not None:
+                m = re.match(r"\|(\d+)(?:st|nd|rd|th)\|", ln)
+                if not m:
+                    if out:
+                        break
+                    continue
+                if col < len(cells):
+                    for item in re.split(r",(?![^()]*\))", cells[col]):
+                        out.setdefault(first_level_key(item), int(m.group(1)))
+    cache[key] = out
+    return out
 
 
 def fold_table_sections(rows: list[dict], decisions: dict, entry_id: str, problems: list[str]) -> None:
@@ -4384,6 +4438,26 @@ def finalize(e: Entry, res: dict, class_cache: dict | None = None) -> dict:
                                                      else ", ".join(trade_name(t)[0] + " " + trade_name(t)[1] for t in ops))
                                       + (", of which one is gained at 1st level (the printed level of the trade, or the class table)" if named
                                          else ", of which one is gained at 1st level in the class table"))
+                else:
+                    # owner ruling 57: a feature that prints no level and alters or replaces a whole class feature gets the lowest level at which
+                    # the class gains it (or the lowest level of the trade); a level in the feature's own text wins (ruling 51)
+                    lows, named_lows = [], []
+                    for t in mine:
+                        if trade_name(t)[0] not in ("replaces", "alters"):
+                            continue
+                        cls = t.get("class") or (e.classes[0] if e.classes else "")
+                        if t.get("levels"):
+                            lows.append(min(t["levels"]))
+                            named_lows.append(f"{trade_name(t)[0]} {trade_name(t)[1]} (level {min(t['levels'])} of the trade)")
+                            continue
+                        tab = class_feature_levels(corpus, cls, class_cache) if cls else {}
+                        lv = tab.get(first_level_key(trade_name(t)[1])) or tab.get(first_level_alt_key(trade_name(t)[1]))
+                        if lv:
+                            lows.append(lv)
+                            named_lows.append(f"{trade_name(t)[0]} {trade_name(t)[1]} (gained at level {lv} in the class table)")
+                    if lows:
+                        r["level"] = min(lows)
+                        r["notes"].append(f"level {r['level']} (ruling 57): " + ", ".join(named_lows))
         if (e.id, r["anchor"]) in LEVEL_NONE and r["level"] is not None:
             r["notes"].append(f"no level: print states none and the feature alters a part of a class feature (owner rulings 4 and 48); the reader would take {r['level']}")
             r["level"] = None
@@ -4493,17 +4567,12 @@ TRADE_ADDITIONS.setdefault("ref/arc-ranger/realm-wanderer", []).append({"alters"
 TRADE_ADDITIONS.setdefault("ref/arc-ninja/hunting-serpent", []).append({"alters": "Class skills"})     # "This ability alters the ninja's class skills." (the Class Skills section before the first feature)
 for _eid, _cls in (("ref/arc-monk/hellcat", "monk"), ("ref/arc-fighter/relic-master", "fighter"), ("ref/arc-fighter/varisian-free-style-fighter", "fighter")):
     TRADE_ADDITIONS.setdefault(_eid, []).append({"alters": "Class skills"})     # "This alters the %s's class skills." (the Class Skills section before the first feature)
-# Owner ruling 57: a feature with no printed level that alters or replaces a whole class feature gained at level N gets level N (the class table
-# lists it at N); a part of a feature gives none (ruling 48). The rows stand until the generic rule is in the script (lead C's #346).
-for (_eid, _a), (_lv, _why) in {
-    ("ref/arc-druid/kraken-caller", "wild-shape"): (4, "alters wild shape, a whole class feature that the druid table lists at 4th level"),
-    ("ref/arc-alchemist/vaultbreaker", "breaking-and-entering"): (1, "replaces the Brew Potion bonus feat, which the alchemist table lists at 1st level"),
-    ("ref/arc-alchemist/vaultbreaker", "rogue-talents"): (2, "alters discoveries, a whole class feature that the alchemist table lists at 2nd level"),
-    ("ref/arc-medium/voice-of-the-void", "blasphemy"): (2, "alters taboo, a whole class feature that the medium table lists at 2nd level"),
-    ("ref/arc-bloodrager/bloody-knuckled-rowdy", "reduced-spells-known"): (4, "alters spellcasting, a whole class feature that the bloodrager table lists at 4th level (blood casting)"),
-    ("ref/arc-alchemist/mnemostiller", "brewed-memories"): (2, "replaces poison resistance, a whole class feature that the alchemist table lists at 2nd level"),
-}.items():
-    LEVEL_FROM_PRINT[(_eid, _a)] = (_lv, f"owner ruling 57: {_why}")
+# Bloody-Knuckled Rowdy (Melee Tactics Toolbox p. 13): "does not gain damage reduction" is a replaced class feature (ruling 36), stated in the prose of Bloody Knuckles
+TRADE_ADDITIONS["ref/arc-bloodrager/bloody-knuckled-rowdy"] = [{"replaces": "Damage reduction", "feature": "damage-reduction"}]
+TRADE_PROSE_BY[("ref/arc-bloodrager/bloody-knuckled-rowdy", "Damage reduction")] = "bloody-knuckles"
+LINK_DROP.update({("ref/arc-medium/voice-of-the-void", "surge"), ("ref/arc-medium/voice-of-the-void", "blasphemy")})     # the monster rule "surge" and the spell blasphemy, for the medium's spirit surge and the archetype's ability
+for _a in ("surge-of-the-void", "blasphemy"):
+    EXTRA_LINKS[("ref/arc-medium/voice-of-the-void", _a)] = [("spirit surge", "ref/class/medium#spirit-surge")]
 TRADE_RENAMES[("ref/arc-alchemist/vaultbreaker", "Brew Potion")] = "The Brew Potion bonus feat"
 TRADE_RENAMES[("ref/arc-alchemist/vaultbreaker", "Throw Anything")] = "The Throw Anything bonus feat"
 LEVEL_FROM_PRINT[("ref/arc-alchemist/mnemostiller", "natural-empath")] = (2, "print says \"He gains infusion as a bonus discovery at 2nd level\"")
@@ -4536,7 +4605,9 @@ def configure_book(book: str) -> None:
     UPPER_HEAD_ENDS["on"] = book == "villain-codex"
     ILLUSTRATED["on"] = book in ("advanced-class-guide", "advanced-race-guide", "adventurers-guide", "ultimate-wilderness",
                                  "horror-adventures", "planar-adventures", "inner-sea-magic", "inner-sea-intrigue", "inner-sea-combat", "construct-handbook",
-                                 "heroes-of-the-darklands", "legacy-of-dragons", "familiar-folio", "advanced-class-origins")
+                                 "heroes-of-the-darklands", "legacy-of-dragons", "familiar-folio", "advanced-class-origins",
+                                 "dirty-tactics-toolbox", "melee-tactics-toolbox", "villain-codex")
+    ART_INDENT["on"] = book in ("dirty-tactics-toolbox", "melee-tactics-toolbox", "villain-codex")
     SECTION_STOPS["on"] = book in ("adventurers-guide", "ultimate-wilderness", "horror-adventures", "planar-adventures")
     ANY_TITLE_ENDS["on"] = book in SMALL_CAP_BOOKS or book in PLAYER_COMPANIONS or book == "advanced-class-origins"
     SMALL_CAP_TITLES["on"] = book in SMALL_CAP_BOOKS or book in PLAYER_COMPANIONS
@@ -4596,6 +4667,7 @@ def run_compare(args) -> int:
         if section is None:
             rows.append(entry_hold_row(e, f"title not found near page {page}"))
             continue
+        LINK_CTX["title"] = e.title
         res = compare_entry(e, section, bk)
         res["decisions"] = decisions
         res["edits"] = edits
@@ -5207,6 +5279,7 @@ LEVEL_FROM_PRINT.update({
 LEVEL_NONE = {
     ("ref/arc-medium/nexian-channeler", "third-eye"),
 }
+LEVEL_NONE.add(("ref/arc-bloodrager/bloody-knuckled-rowdy", "reduced-spells-known"))      # it changes the spells known, a part of spellcasting (ruling 48)
 # a feature that replaces or alters only a part of a feature gets no level from the trade (owner ruling 48)
 NO_LEVEL_ONE = {
     ("ref/arc-gunslinger/bushwhacker", "craven-deeds"),       # "replaces some of her deeds with the following deeds"
@@ -5349,6 +5422,20 @@ def self_test() -> int:
     hc = head_candidate(Para("para", [("Aberrant", True, False), ("\u2014", False, False), ("Squeezer (Ex)", True, False), (": The familiar gains", False, False)], "16", 0))
     eq(hc[0] if hc else None, "Aberrant\u2014Squeezer (Ex)", "dash key head")
     eq(head_candidate(Para("para", [("Aberrant", True, False), ("Squeezer (Ex)", True, False), (": x", False, False)], "16", 0))[0], "AberrantSqueezer (Ex)", "no dash, one bold run")
+    UPPER_HEAD_ENDS["on"] = True
+    _P = lambda text, bold: Para("para", [(text, bold, False)], "1", 0)
+    _sec = [Para("title", [("Rogue", True, False)], "1", 0), _P("Opening.", False), Para("para", [("Alpha (Ex)", True, False), (": text", False, False)], "1", 0), _P("more text", False), _P("EQUIPMENT", True), _P("Bag PRICE 5 GP", False)]
+    _op, _ft = split_print(_sec, ["Alpha (Ex)"])
+    eq([f.head for f in _ft], ["Alpha (Ex)"], "UPPER_HEAD_ENDS: the first head in capitals that the entry does not expect ends the span")
+    _op, _ft = split_print(_sec, ["Alpha (Ex)", "Equipment"])
+    eq([f.head for f in _ft], ["Alpha (Ex)", "EQUIPMENT"], "UPPER_HEAD_ENDS: a head in capitals that the entry expects stays")
+    _op, _ft = split_print([_sec[0], Para("para", [("ALPHA ABILITY", True, False), (": text", False, False)], "1", 0), _P("more", False)], ["Alpha Ability"])
+    eq([f.head for f in _ft], ["ALPHA ABILITY"], "UPPER_HEAD_ENDS: the first head never ends the span")
+    UPPER_HEAD_ENDS["on"] = False
+    LINK_CTX["title"] = "Mirror Witch (Witch Archetype)"
+    eq(apply_links("a mirror witch uses a mirror (worth 10 gp)", [("mirror", "ref/eq-misc/mirror")])[0], "a mirror witch uses a [mirror](ref/eq-misc/mirror) (worth 10 gp)", "a link skips the archetype's own name")
+    eq(apply_links("%scause fear%s, then %sfear%s" % (I_OPEN, I_CLOSE, I_OPEN, I_CLOSE), [("fear", "ref/spell/fear")])[0], "%scause fear%s, then %s[fear](ref/spell/fear)%s" % (I_OPEN, I_CLOSE, I_OPEN, I_CLOSE), "a link skips a longer italic spell name")
+    LINK_CTX["title"] = ""
     eq(bool(CAPS_TITLE.fullmatch("BLIGHTSEEKER (ALCHEMIST ARCHETYPE)")), True, "caps title")
     eq(bool(CAPS_TITLE.fullmatch("Blightseeker (Alchemist Archetype)")), False, "caps title lower case")
     eq(bool(CAPS_TITLE_HEAD.fullmatch("PSYCHIC MARAUDER (PSYCHIC")) and bool(CAPS_TITLE_TAIL.fullmatch("ARCHETYPE)")), True, "caps title wrapped")
@@ -5722,6 +5809,9 @@ def self_test() -> int:
     eq(first_level_key("Shifter aspect and all improvements of shifter aspect"), "shifter aspect", "improvements of")
     eq(first_level_key("Wild shape"), "wild shape", "a plain name is unchanged")
     eq(first_level_key("Blessings (minor)"), first_level_key("Blessings"), "a parenthesis of the class table")
+    eq(finish_text("a fortune-teller (see page 37)influences people", set()), "a fortune-teller (see page 37) influences people", "a blank behind a page reference")
+    eq(first_level_key("The Brew Potion bonus feat"), first_level_key("Brew Potion"), "a bonus feat of a name is that name, as the class table writes it")
+    eq(first_level_key("Bonus feats"), "bonu feat", "Bonus feats alone stays")
     eq(first_level_key("Deadeye deed") in {first_level_key(x) for x in FIRST_LEVEL_EXTRA["ref/class/gunslinger"]}, True, "a 1st-level deed")
     eq(first_level_key("Spontaneous casting") in {first_level_key(x) for x in FIRST_LEVEL_EXTRA["ref/class/druid"]}, True, "the druid's spontaneous casting")
     eq(final_citations("a _[spirit-bound blade](ref/spell/x)_ (_Pathfinder RPG Occult Adventures_ 186) for", "x"), "a _[spirit-bound blade](ref/spell/x)_ for",

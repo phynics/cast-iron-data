@@ -51,9 +51,7 @@ druid's bonus languages class feature.
 ## Dauntless Swimmer (Ex) {#dauntless-swimmer}
 
 At 2nd level, a kraken caller can always take 10 on Swim checks, even if she is rushed or
-threatened.
-
-This ability replaces woodland stride.
+threatened. This ability replaces woodland stride.
 
 ## Hold Breath (Ex) {#hold-breath}
 
@@ -64,18 +62,15 @@ step.
 ## Resist the Waves' Lure (Ex) {#resist-the-waves-lure}
 
 At 4th level, a kraken caller gains a +4 bonus on saving throws against the spell-like and
-supernatural abilities of creatures with the aquatic subtype.
-
-This ability replaces resist nature's lure.
+supernatural abilities of creatures with the aquatic subtype. This ability replaces resist nature's
+lure.
 
 ## Wild Shape (Su) {#wild-shape}
 
 A kraken caller's options for wild shape are limited to animals with the aquatic or water subtype or
-that have the amphibious special quality.
-
-The kraken caller can alternatively expend a daily use of wild shape to grow tentacles out of her
-body while otherwise retaining her own form. This effect lasts for 10 minutes per level, or until
-the kraken caller changes back.
+that have the amphibious special quality. The kraken caller can alternatively expend a daily use of
+wild shape to grow tentacles out of her body while otherwise retaining her own form. This effect
+lasts for 10 minutes per level, or until the kraken caller changes back.
 
 At 4th level, the kraken caller grows two tentacles while in this form. The tentacles have a reach
 of 5 feet regardless of the kraken caller's size, and the kraken caller can use them as secondary

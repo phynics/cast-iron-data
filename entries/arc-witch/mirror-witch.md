@@ -36,10 +36,10 @@ power, using it as a conduit to patrons who dwell in strange dimensions.
 
 ## Patron Mirror (Su) {#patron-mirror}
 
-At 1st level, a [mirror](ref/eq-misc/mirror) witch creates a direct link to the power of her patron.
-She chooses a patron as normal, but instead of gaining a familiar that serves as the conduit to her
-patron, she uses a mirror (worth at least 10 gp) to speak to a fragment of her patron's power. This
-fragment teaches her magic and acts as a counselor.
+At 1st level, a mirror witch creates a direct link to the power of her patron. She chooses a patron
+as normal, but instead of gaining a familiar that serves as the conduit to her patron, she uses a
+[mirror](ref/eq-misc/mirror) (worth at least 10 gp) to speak to a fragment of her patron's power.
+This fragment teaches her magic and acts as a counselor.
 
 The mirror is essentially an immobile familiar. The mirror witch can activate it with a minute-long
 ritual that calls the patron fragment to manifest itself through the mirror. While this connection
@@ -150,10 +150,10 @@ When using the mirror's [scrying](ref/spell/scrying) ability, _detect chaos_, _d
 good_, _detect law_, _[detect magic](ref/spell/detect-magic)_, _[message](ref/spell/message)_,
 _[read magic](ref/spell/read-magic)_, and _[tongues](ref/spell/tongues)_ all function reliably
 through the sensor. Also, if the mirror witch is at least 15th level, there is a 5% chance each of
-the following spells operates successfully through the sensor: _cause [fear](ref/spell/fear)_,
+the following spells operates successfully through the sensor: _cause fear_,
 _[charm person](ref/spell/charm-person)_, _[command](ref/spell/command)_,
 _[crushing despair](ref/spell/crushing-despair)_, _[deep slumber](ref/spell/deep-slumber)_,
-_[enthrall](ref/spell/enthrall)_, _fear_, _[hold person](ref/spell/hold-person)_,
+_[enthrall](ref/spell/enthrall)_, _[fear](ref/spell/fear)_, _[hold person](ref/spell/hold-person)_,
 _[moonstruck](ref/spell/moonstruck)_, _[seek thoughts](ref/spell/seek-thoughts)_, and
 _[sleep](ref/spell/sleep)_; a creature that succeeds at its saving throw against one of these linked
 spells is forever immune to that particular mirror witch's attempts to cast that spell on that

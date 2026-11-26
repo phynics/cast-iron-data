@@ -56,14 +56,10 @@ replaces weapon training 2.
 
 At 13th level, when a drill sergeant wields a weapon he has weapon training in, all allies within 30
 feet who can see and hear the drill sergeant gain [half](ref/misc/fractions-and-rounding) his weapon
-training bonus when they wield any weapon from the same weapon group.
-
-This bonus doesn't stack with any weapon training bonus an ally already possesses.
-
-This ability replaces weapon training 3.
+training bonus when they wield any weapon from the same weapon group. This bonus doesn't stack with
+any weapon training bonus an ally already possesses. This ability replaces weapon training 3.
 
 ## Master Tactician (Ex) {#master-tactician}
 
-At 17th level, the drill sergeant gains the cavalier's master tactician class feature.
-
-This ability replaces weapon training 4.
+At 17th level, the drill sergeant gains the cavalier's master tactician class feature. This ability
+replaces weapon training 4.

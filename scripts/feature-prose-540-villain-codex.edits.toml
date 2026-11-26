@@ -33,7 +33,7 @@ entry = "ref/arc-witch/mirror-witch"
 anchor = "patron-mirror"
 note = "hand-written by the batch lead from print (Villain Codex pp. 152-153): the section as print sets it, without the table that floats in the text and without the subhead Patron Mirror and the descriptions of the table's columns (they are the section `patron-mirror-table`, below it)"
 text = '''
-At 1st level, a [mirror](ref/eq-misc/mirror) witch creates a direct link to the power of her patron. She chooses a patron as normal, but instead of gaining a familiar that serves as the conduit to her patron, she uses a mirror (worth at least 10 gp) to speak to a fragment of her patron's power. This fragment teaches her magic and acts as a counselor.
+At 1st level, a mirror witch creates a direct link to the power of her patron. She chooses a patron as normal, but instead of gaining a familiar that serves as the conduit to her patron, she uses a [mirror](ref/eq-misc/mirror) (worth at least 10 gp) to speak to a fragment of her patron's power. This fragment teaches her magic and acts as a counselor.
 
 The mirror is essentially an immobile familiar. The mirror witch can activate it with a minute-long ritual that calls the patron fragment to manifest itself through the mirror. While this connection is open, she can prepare spells, add new spells to the mirror, and use the mirror's special abilities. In place of the boost granted by an ordinary familiar, the mirror grants the mirror witch a +2 bonus on Diplomacy checks regardless of whether the mirror is nearby. The mirror can't be used for abilities that require the presence of a familiar, such as the [blight](ref/hex/blight) hex.
 
