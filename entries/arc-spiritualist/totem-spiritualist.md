@@ -16,11 +16,18 @@ page = "6"
 
 [fields]
 kind = "archetype"
+features = [
+  { anchor = "phantom-animal", level = 1 },
+  { anchor = "shared-instincts", level = 1 },
+  { anchor = "special" },
+  { anchor = "animal-senses", level = 9 },
+  { anchor = "twin-phantoms", level = 17 },
+]
 trades = [
-  { replaces = "Phantom", feature = "phantom" },
-  { replaces = "See invisibility", feature = "see-invisibility" },
-  { replaces = "Dual bond", feature = "dual-bond" },
-  { alters = "Shared consciousness", feature = "shared-consciousness" },
+  { replaces = "Phantom", feature = "phantom", by = ["phantom-animal"] },
+  { replaces = "See invisibility", feature = "see-invisibility", by = ["animal-senses"] },
+  { replaces = "Dual bond", feature = "dual-bond", by = ["twin-phantoms"] },
+  { alters = "Shared consciousness", feature = "shared-consciousness", by = ["shared-instincts"] },
 ]
 +++
 
@@ -29,27 +36,7 @@ arts. One of the few traditions to survive to the present day is that of the tot
 These specialized spiritualists call upon phantoms that are manifestations of animals and
 personifications of nature.
 
-**Phantom Animal**
-
-**Action:** Ability
-
-**At 12th Level:** She can _gain_ or _empower_ again.
-
-**At 17th Level:** She can _gain_ or _empower_ again.
-
-**At 7th Level:** The totem spiritualist can either _gain an additional phantom animal_ or _empower
-a phantom animal,_ as described in the options below.
-
-**Replaces:** Phantom
-
-**Special:** A totem spiritualist can release a phantom animal from her service much like a
-[druid](ref/class/druid) releases an animal companion. If a totem spiritualist releases a phantom
-animal from service, she can gain a new one by performing a ritual requiring 24 uninterrupted hours
-of meditation in an environment where the animal that the phantom resembles typically lives.
-
-A totem spiritualist treats any druid levels she has as effective spiritualist levels to determine
-the abilities of her phantom animals, but does not treat her spiritualist levels as effective druid
-levels to determine the abilities of animal companions.
+## Phantom Animal {#phantom-animal}
 
 A totem spiritualist calls upon spirits of nature known as phantom animals to assist her in her
 journeys. A phantom animal functions like an [animal companion](ref/sidekick/animal-companion)
@@ -59,56 +46,63 @@ A totem spiritualist begins play with a phantom animal. The phantom animal uses 
 animal companion and follows the standard animal companion progression in regard to Hit Dice, base
 attack bonus, saving throws, skills, feats, natural armor bonus, Strength and Dexterity bonuses, and
 [bonus tricks](ref/ability/animal-tricks), but not its special abilities. A phantom animal instead
-gains the special abilities of [a standard phantom](ref/sidekick/phantom). A phantom animal is
-capable of becoming harbored in the spiritualist's consciousness or becoming fully or partially
-manifested. A phantom animal is otherwise considered a phantom for the purposes of all feats and
-abilities.
+gains the special abilities of [a standard phantom](ref/sidekick/phantom) listed in the table on
+page 77 of _Occult Adventures_. A phantom animal is capable of becoming harbored in the
+spiritualist's consciousness or becoming fully or partially manifested. A phantom animal is
+otherwise considered a phantom for the purposes of all feats and abilities.
 
-**Gain an Additional Phantom Animal**
+At 7th level and every 5 spiritualist levels thereafter, the totem spiritualist can choose to gain
+an additional phantom animal. This additional phantom animal uses the appropriate statistics for a
+phantom animal of its level. A totem spiritualist can have only one active phantom animal at a time.
+Dismissing an active phantom animal to call another requires a ritual that takes 1 minute to
+perform.
 
-**Ability:** This additional phantom animal uses the appropriate statistics for a phantom animal of
-its level.
+Instead of gaining an additional phantom animal, the totem spiritualist can choose to empower a
+phantom animal with which she is already bonded. The first time the phantom animal is empowered, it
+gains two bonus tricks. The second time it is empowered, the phantom animal gains the
+[hunter](ref/class/hunter)'s [animal focus](ref/ability/animal-foci) class ability, treating the
+totem spiritualist's spiritualist level as her effective hunter level. The third time it is
+empowered, the damage dice of the phantom animal's natural attacks increase
+[by one step](ref/misc/damage-die-adjustments).
 
-**Special:** A totem spiritualist can have only one active phantom animal at a time. Dismissing an
-active phantom animal to call another requires a ritual that takes 1 minute to perform.
+A totem spiritualist can release a phantom animal from her service much like a
+[druid](ref/class/druid) releases an animal companion. If a totem spiritualist releases a phantom
+animal from service, she can gain a new one by performing a ritual requiring 24 uninterrupted hours
+of meditation in an environment where the animal that the phantom resembles typically lives.
 
-**Empower a Phantom Animal**
+A totem spiritualist treats any druid levels she has as effective spiritualist levels to determine
+the abilities of her phantom animals, but does not treat her spiritualist levels as effective druid
+levels to determine the abilities of animal companions.
 
-**Ability:** The first time the phantom animal is empowered, it gains two bonus tricks. The second
-time it is empowered, the phantom animal gains the hunter's [animal focus](ref/ability/animal-foci)
-class ability, treating the totem spiritualist's spiritualist level as her effective
-[hunter](ref/class/hunter) level. The third time it is empowered, the damage dice of the phantom
-animal's natural attacks increase [by one step](ref/misc/damage-die-adjustments).
+This ability replaces phantom.
 
-**Shared Instincts (Su)**
+## Shared Instincts (Su) {#shared-instincts}
 
-**Alters:** Shared consciousness
+A totem spiritualist doesn't gain Skill Focus feats while a phantom animal is confined in her
+consciousness. She instead gains a number of bonus ranks in Knowledge (nature) equal to the phantom
+animal's Hit Dice.
 
-**Passive:** A totem spiritualist doesn't gain Skill Focus feats while a phantom animal is confined
-in her consciousness. She instead gains a number of bonus ranks in Knowledge (nature) equal to the
-phantom animal's Hit Dice.
+This ability alters shared consciousness.
 
-**Animal Senses (Su)**
+## Special {#special}
 
-**Ability:** If her phantom animal has any of the following abilities, she gains them whenever the
-phantom animal is harbored in her consciousness: [blindsense](ref/umr/blindsense),
-[darkvision](ref/rule/darkvision), [low-light vision](ref/rule/low-light-vision), and
-[scent](ref/umr/scent).
+Alertness, phantom touch, telepathy, weapon of the mind Quick manifest Ectoplasmic pool Reshape
+Phantom tether — Quick reshape — Etheric strikes Soul eater
 
-**Flavor:** A totem spiritualist shares her phantom animal's senses.
+## Animal Senses (Su) {#animal-senses}
 
-**Gained:** At 9th Level
+At 9th level, a totem spiritualist shares her phantom animal's senses. If her phantom animal has any
+of the following abilities, she gains them whenever the phantom animal is harbored in her
+consciousness: [blindsense](ref/umr/blindsense), [darkvision](ref/rule/darkvision),
+[low-light vision](ref/rule/low-light-vision), and [scent](ref/umr/scent).
 
-**Replaces:** See invisibility
+This ability replaces _see invisibility_.
 
-**Twin Phantoms (Su)**
+## Twin Phantoms (Su) {#twin-phantoms}
 
-**Flavor:** The totem spiritualist can call upon two of her phantom animals at once.
-
-**Gained:** At 17th Level
-
-**Replaces:** Dual bond
-
-**Standard:** She can manifest a second phantom animal. The phantom animal remains for a number of
-rounds per day equal to her spiritualist level and can be dismissed as a **free action**. This
+At 17th level, the totem spiritualist can call upon two of her phantom animals at once. As a
+standard action, she can manifest a second phantom animal. The phantom animal remains for a number
+of rounds per day equal to her spiritualist level and can be dismissed as a free action. This
 duration does not need to be consecutive.
+
+This replaces dual bond.

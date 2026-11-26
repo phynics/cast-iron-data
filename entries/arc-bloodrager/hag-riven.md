@@ -16,93 +16,82 @@ page = "27"
 
 [fields]
 kind = "archetype"
+features = [
+  { anchor = "arcane-influence" },
+  { anchor = "claws-of-the-hag", level = 1 },
+  { anchor = "sorcerous-claws", level = 5 },
+  { anchor = "scarred-hide", level = 7 },
+  { anchor = "hexing-claws", level = 10 },
+]
 trades = [
-  { replaces = "Fast movement", feature = "fast-movement" },
-  { replaces = "uncanny dodge", feature = "uncanny-dodge" },
-  { replaces = "Improved uncanny dodge", feature = "improved-uncanny-dodge" },
-  { replaces = "Damage reduction", feature = "damage-reduction" },
-  { alters = "Weapon and armor proficiencies", feature = "weapon-and-armor-proficiencies" },
+  { replaces = "Fast movement", feature = "fast-movement", by = ["claws-of-the-hag"] },
+  { replaces = "uncanny dodge", feature = "uncanny-dodge", by = ["claws-of-the-hag"] },
+  { replaces = "Improved uncanny dodge", feature = "improved-uncanny-dodge", by = ["sorcerous-claws"] },
+  { replaces = "Damage reduction", feature = "damage-reduction", by = ["hexing-claws"] },
+  { alters = "Weapon and armor proficiencies", feature = "weapon-and-armor-proficiencies", by = ["arcane-influence"] },
 ]
 +++
 
 All [changelings](ref/race/changeling) have the potential to transform into [hags](ref/family/hag),
-but the process is a slow one, requiring several nights to complete. When left incomplete - by
-virtue of a wily changeling's escape or her mother's death - the creature is scarred and saturated
-in arcane power. Though she remains in possession of her own faculties, the seeds of hag hatred
-sprout within her. These hag-riven wield powerful magic interlaced with more powerful emotions.
+but the process is a slow one, requiring several nights to complete. When left incomplete—by virtue
+of a wily changeling's escape or her mother's death—the creature is scarred and saturated in
+[arcane](ref/blrgbloodline/arcane) power. Though she remains in possession of her own faculties, the
+seeds of [hag](ref/blrgbloodline/hag) hatred sprout within her. These hag-riven wield powerful magic
+interlaced with more powerful emotions.
 
-The painful rituals that create a hag-riven can work for any creatures tenacious enough to endure
-them, and the art has sprung up as a defense against the devastating power of hags in various remote
-communities.
+The painful rituals that create a [hag](ref/blrgbloodline/hag)-riven can work for any creatures
+tenacious enough to endure them, and the art has sprung up as a defense against the devastating
+power of [hags](ref/family/hag) in various remote communities.
 
-**Prerequisites:** Must select one of these bloodrager bloodlines:
-[arcane](ref/blrgbloodline/arcane), [destined](ref/blrgbloodline/destined),
-[elemental](ref/blrgbloodline/elemental), [fey](ref/blrgbloodline/fey), or
-[hag](ref/blrgbloodline/hag).
+## Arcane Influence {#arcane-influence}
 
-**Arcane Influence**
+A hag-riven bloodrager does not gain proficiency with martial weapons and must choose from one of
+the following bloodrager bloodlines: arcane, destined, elemental, fey, or hag (see below).
 
-**Alters:** Weapon and armor proficiencies
+This alters the bloodrager's weapon and armor proficiencies.
 
-**Passive:** A hag-riven bloodrager does not gain proficiency with martial weapons.
+## Claws of the Hag (Ex) {#claws-of-the-hag}
 
-**Claws of the Hag (Ex)**
-
-**Ability:** A hag-riven grows a pair of vicious claws that are treated as
+A hag-riven grows a pair of vicious claws that are treated as
 [natural weapons](ref/rule/natural-attacks). These claws are primary attacks and deal 1d4 points of
-damage each (1d3 for a Small creature) plus the hag-riven's Strength modifier.
+damage each (1d3 for a Small creature) plus the hag-riven's Strength modifier. At 2nd level, these
+claws are considered magic weapons for the purpose of overcoming
+[damage reduction](ref/rule/damage-reduction). At 5th level, the damage increases to 1d6 points (1d4
+for a Small creature). At 13th level, the hag-riven's claws threaten a critical hit on a natural
+roll of 19–20. At 16th level, the damage increases again to 1d8 points (1d6 for a Small creature).
 
-**At 13th Level:** The hag-riven's claws threaten a critical hit on a natural roll of 19-20.
+This replaces fast movement and uncanny dodge.
 
-**At 16th Level:** The damage increases again to 1d8 points (1d6 for a Small creature).
+## Sorcerous Claws (Su) {#sorcerous-claws}
 
-**At 2nd Level:** These claws are considered magic weapons for the purpose of overcoming
-[damage reduction](ref/rule/damage-reduction).
+At 5th level, a hag-riven can expend one of her daily spell slots as a swift action to grant her
+claws an enhancement bonus equal to the level of the spell slot sacrificed. This bonus lasts for 1
+minute and stacks with existing enhancement bonuses (such as those provided by
+_[magic fang](ref/spell/magic-fang)_ or magic items) to a maximum of +5. Multiple uses of this
+ability do not stack with themselves.
 
-**At 5th Level:** The damage increases to 1d6 points (1d4 for a Small creature).
+Beginning at 7th level, the hag-riven can also expend some or all of the bonus provided by her
+sorcerous claws to add any of the following weapon properties to her claws for 1 minute:
+_[flaming](ref/magic-enh/flaming)_, _[flaming burst](ref/magic-enh/flaming-burst)_,
+_[frost](ref/magic-enh/frost)_, _[icy burst](ref/magic-enh/icy-burst)_,
+_[keen](ref/magic-enh/keen)_, _[nullifying](ref/magic-enh/nullifying)_,
+_[seaborne](ref/magic-enh/seaborne)_, _[spellstealing](ref/magic-enh/spellstealing)_,
+_[shock](ref/magic-enh/shock)_, _[shocking burst](ref/magic-enh/shocking-burst)_, or
+_[wounding](ref/magic-enh/wounding)_. Her claws must have a minimum enhancement bonus of +1 before
+any special abilities can be added.
 
-**Replaces:** Fast movement, uncanny dodge
+This replaces improved uncanny dodge.
 
-**Sorcerous Claws (Su)**
+## Scarred Hide (Ex) {#scarred-hide}
 
-**At 7th Level:** The hag-riven can also expend some or all of the bonus provided by her sorcerous
-claws to add any of the following weapon properties to her claws for 1 minute:
-[flaming](ref/magic-enh/flaming), [flaming burst](ref/magic-enh/flaming-burst),
-[frost](ref/magic-enh/frost), [icy burst](ref/magic-enh/icy-burst), [keen](ref/magic-enh/keen),
-[nullifying](ref/magic-enh/nullifying), [seaborne](ref/magic-enh/seaborne),
-[spellstealing](ref/magic-enh/spellstealing), [shock](ref/magic-enh/shock),
-[shocking burst](ref/magic-enh/shocking-burst), or [wounding](ref/magic-enh/wounding). Her claws
-must have a minimum enhancement bonus of +1 before any special abilities can be added.
+At 7th level, a hag-riven's scarred flesh becomes thick and leathery. She gains a +1 natural armor
+bonus to AC. At 10th, 13th, 16th, and 19th levels, this bonus increases by 1.
 
-**Gained:** At 5th Level
+## Hexing Claws (Su) {#hexing-claws}
 
-**Replaces:** Improved uncanny dodge
-
-**Special:** Multiple uses of this ability do not stack with themselves.
-
-**Swift:** A hag-riven can expend one of her daily spell slots to grant her claws an enhancement
-bonus equal to the level of the spell slot sacrificed. This bonus lasts for 1 minute and stacks with
-existing enhancement bonuses (such as those provided by [magic fang](ref/spell/magic-fang) or magic
-items) to a maximum of +5.
-
-**Scarred Hide (Ex)**
-
-**At 10th Level:** The bonus becomes +2.
-
-**At 13th Level:** The bonus becomes +3.
-
-**At 16th Level:** The bonus becomes +4.
-
-**At 19th Level:** The bonus becomes +5.
-
-**At 7th Level:** A hag-riven's scarred flesh becomes thick and leathery. She gains a +1 natural
-armor bonus to AC.
-
-**Hexing Claws (Su)**
-
-**At 10th Level:** A hag-riven gains [Critical Focus](ref/feat/critical-focus) as a bonus feat, but
-she can apply its benefits only to her claw attacks. Each morning, she can select a single feat with
+At 10th level, a hag-riven gains [Critical Focus](ref/feat/critical-focus) as a bonus feat, but she
+can apply its benefits only to her claw attacks. Each morning, she can select a single feat with
 Critical Focus as a prerequisite and apply its benefits to her claw attacks. She must meet all other
 prerequisites for any feat she wishes to apply with this ability.
 
-**Replaces:** [Damage reduction](ref/rule/damage-reduction)
+This replaces [damage reduction](ref/rule/damage-reduction).

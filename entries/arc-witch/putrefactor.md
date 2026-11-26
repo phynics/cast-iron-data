@@ -16,13 +16,20 @@ page = "16"
 
 [fields]
 kind = "archetype"
+features = [
+  { anchor = "infestation-of-entropy", level = 1 },
+  { anchor = "disgorge-familiar", level = 1 },
+  { anchor = "verminous-blood", level = 2 },
+  { anchor = "putrefied-innards", level = 4 },
+  { anchor = "disgorge-swarm", level = 6 },
+]
 trades = [
-  { replaces = "1st-level hex", feature = "hex", levels = [1] },
-  { replaces = "2nd-level hex", feature = "hex", levels = [2] },
-  { replaces = "4th-, 10th-, and 16th-level hexes", feature = "hex", levels = [4, 10, 16] },
-  { replaces = "6th-level hex", feature = "hex", levels = [6] },
-  { alters = "Familiar", feature = "witch-s-familiar" },
-  { alters = "patron", feature = "patron-spells", power = "patron" },
+  { replaces = "Hex gained at 1st level", feature = "hex", levels = [1], by = ["disgorge-familiar"] },
+  { replaces = "Hex gained at 2nd level", feature = "hex", levels = [2], by = ["verminous-blood"] },
+  { replaces = "The hexes gained at 4th, 10th, and 16th levels", feature = "hex", levels = [4, 10, 16], by = ["putrefied-innards"] },
+  { replaces = "Hex gained at 6th level", feature = "hex", levels = [6], by = ["disgorge-swarm"] },
+  { alters = "Familiar", feature = "witch-s-familiar", by = ["infestation-of-entropy"] },
+  { alters = "patron", feature = "patron-spells", power = "patron", by = ["infestation-of-entropy"] },
 ]
 +++
 
@@ -31,85 +38,64 @@ see the veneer of civilization peel back to reveal the filth and rot that underl
 arcane power they inherit is bleak and tainted, eating them from the inside out and transforming
 them into living avatars of entropy.
 
-**Infestation of Entropy**
+## Infestation of Entropy {#infestation-of-entropy}
 
-**Alters:** Familiar, patron
-
-**Choice:** A putrefactor must be of chaotic alignment and must choose one of the following patrons:
-[Animals](ref/patron/animals), [Death](ref/patron/death), [Plague](ref/patron/plague), or
-[Rot](ref/patron/rot).
-
-**Info:** A putrefactor's body hosts various pests - insects, rats, or other scavengers - as part of
-her connection with her patron. She treats the infestation as her familiar, and she communes with
-the infestation to prepare spells. She still selects a familiar, which must be a
+A putrefactor's body hosts various pests—insects, rats, or other scavengers—as part of her
+connection with her patron. She treats the infestation as her familiar, and she communes with the
+infestation to prepare spells. She still selects a familiar, which must be a
 [house centipede](ref/monster/familiar-house-centipede), [rat](ref/monster/familiar-rat),
 [scarlet spider](ref/carried/ultimate-magic/monsters/new-familiars/small-and-vermin-familiars/familiar/spider/scarlet),
-or [toad](ref/monster/familiar-toad); the familiar crawls within her among the other vermin.
+or [toad](ref/monster/familiar-toad); the familiar crawls within her among the other vermin. A
+putrefactor must be of chaotic alignment and must choose one of the following patrons:
+[Animals](ref/patron/animals), [Death](ref/patron/death), [Plague](ref/patron/plague), or
+[Rot](ref/patron/rot) (see Witch Patron Themes on page 17).
 
-**Disgorge Familiar (Ex)**
+This alters the witch's familiar and patron.
 
-**Info:** While within her, the familiar cannot be targeted for effects or take any action, but
-effects affecting it persist, and their duration continues until the next time she disgorges it.
+## Disgorge Familiar (Ex) {#disgorge-familiar}
 
-**Replaces:** 1st-level hex
+As a standard action, a putrefactor can cough up her familiar, allowing it to act as a separate
+entity. She can also devour it again as a standard action when the familiar is within reach. While
+within her, the familiar cannot be targeted for effects or take any action, but effects affecting it
+persist, and their duration continues until the next time she disgorges it.
 
-**Standard:** A putrefactor can cough up her familiar, allowing it to act as a separate entity. She
-can also devour it again as a standard action when the familiar is within reach.
+This replaces the hex gained at 1st level.
 
-**Verminous Blood (Ex)**
+## Verminous Blood (Ex) {#verminous-blood}
 
-**Flavor:** The swarming creatures within a putrefactor begin to replace her bodily fluids.
+At 2nd level, the swarming creatures within a putrefactor begin to replace her bodily fluids.
+Whenever she takes slashing or piercing damage from a melee attack, the creatures spill out and bite
+the attacker, dealing 1d6 points of damage, which count as damage from a Diminutive
+[swarm](ref/subtype/swarm). A creature can take damage from this ability only once per round. This
+damage increases by 1d6 at 8th level and every 4 levels thereafter.
 
-**Gained:** At 2nd Level
+This replaces the hex gained at 2nd level.
 
-**Passive:** Whenever she takes slashing or piercing damage from a melee attack, the creatures spill
-out and bite the attacker, dealing 1d6 points of damage, which count as damage from a Diminutive
-[swarm](ref/subtype/swarm). A creature can take damage from this ability only once per round.
+## Putrefied Innards (Ex) {#putrefied-innards}
 
-**Replaces:** 2nd-level hex
+At 4th level, the infestation begins assuming various functions of the witch's organs. She gains a
+25% chance to negate the extra damage from critical hits and sneak attacks, as per the
+_[light fortification](ref/magic-enh/fortification-light)_ magic armor ability. At 10th level, this
+increases to a 50% chance (as per _[moderate fortification](ref/magic-enh/fortification-moderate)_),
+and at 16th level it increases to a 75% chance (as per
+_[heavy fortification](ref/magic-enh/fortification-heavy)_). Whenever the putrefactor negates
+additional damage from a melee attack in this way, the attacker takes damage as if exposed to her
+verminous blood, even if it has already been targeted by this ability this round.
 
-At 8th level: This damage increases to 2d6.
+This replaces the hexes gained at 4th, 10th, and 16th level.
 
-At 12th level: This damage increases to 3d6.
+## Disgorge Swarm (Ex) {#disgorge-swarm}
 
-At 16th level: This damage increases to 4d6.
+At 6th level, while her familiar is inside her, the putrefactor can disgorge all the crawling
+creatures within her at once as a standard action, retaining only her familiar. When she does, she
+loses 2 hit points per class level and forms a spider swarm as per the spell
+_[vomit swarm](ref/spell/vomit-swarm)_. The swarm gains the Armor Class and saving throw bonuses of
+her familiar. The swarm deals her verminous blood damage instead of its normal damage; while the
+swarm lasts, the putrefactor loses access to her verminous blood ability. The witch can target
+creatures with her hexes as if she occupied both the swarm's space and her own. When the duration
+ends, the swarm tries its best to return to her and crawl back into her body, restoring hit points
+equal to its current hit points, up to her maximum hit points. If the swarm dies or cannot return to
+her once the spell's duration ends, the witch does not regain any of her spent hit points. Once she
+reabsorbs the swarm, she can't disgorge it again for 1 hour.
 
-At 20th level: This damage increases to 5d6.
-
-**Putrefied Innards (Ex)**
-
-**Flavor:** The infestation begins assuming various functions of the witch's organs.
-
-**At 10th Level:** This increases to a 50% chance (as per
-[moderate fortification](ref/magic-enh/fortification-moderate)).
-
-**At 16th Level:** This increases to a 75% chance (as per
-[heavy fortification](ref/magic-enh/fortification-heavy)).
-
-**At 4th Level:** She gains a 25% chance to negate the extra damage from critical hits and sneak
-attacks, as per the [light fortification](ref/magic-enh/fortification-light) magic armor ability.
-
-**Replaces:** 4th-, 10th-, and 16th-level hexes
-
-**Special:** Whenever the putrefactor negates additional damage from a melee attack in this way, the
-attacker takes damage as if exposed to her _verminous blood,_ even if it has already been targeted
-by this ability this round.
-
-**Disgorge Swarm (Ex)**
-
-**Gained:** At 6th Level
-
-**Replaces:** 6th-level hex
-
-**Special:** The witch can target creatures with her hexes as if she occupied both the swarm's space
-and her own. When the duration ends, the swarm tries its best to return to her and crawl back into
-her body, restoring hit points equal to its current hit points, up to her maximum hit points. If the
-swarm dies or cannot return to her once the spell's duration ends, the witch does not regain any of
-her spent hit points. Once she reabsorbs the swarm, she can't disgorge it again for 1 hour.
-
-**Standard:** While her familiar is inside her, the putrefactor can disgorge all the crawling
-creatures within her at once, retaining only her familiar. When she does, she loses 2 hit points per
-class level and forms a spider swarm as per the spell [vomit swarm](ref/spell/vomit-swarm). The
-swarm gains the Armor Class and saving throw bonuses of her familiar. The swarm deals her _verminous
-blood_ damage instead of its normal damage; while the swarm lasts, the putrefactor loses access to
-her _verminous blood_ ability.
+This replaces the hex gained at 6th level.

@@ -16,10 +16,15 @@ page = "25"
 
 [fields]
 kind = "archetype"
+features = [
+  { anchor = "monster-insight", level = 2 },
+  { anchor = "signs-and-portents", level = 2 },
+  { anchor = "predictive-strike", level = 5 },
+]
 trades = [
-  { replaces = "Well-versed", feature = "well-versed" },
-  { replaces = "All types of versatile performance", feature = "versatile-performance" },
-  { replaces = "Spell kenning", feature = "spell-kenning" },
+  { replaces = "Well-versed", feature = "well-versed", by = ["monster-insight"] },
+  { replaces = "All types of versatile performance", feature = "versatile-performance", by = ["signs-and-portents"] },
+  { replaces = "Spell kenning", feature = "spell-kenning", by = ["predictive-strike"] },
 ]
 +++
 
@@ -29,46 +34,29 @@ a Bekyar skald spent time in Nex, was exposed to the idea of divination as a too
 of [Cold Irony](ref/eq-spellbook/cold-irony), and fabricated tales of how that knowledge came to be
 in his hands.
 
-**Monster Insight (Ex)**
+## Monster Insight (Ex) {#monster-insight}
 
-**Ability:** The augur applies his Charisma modifier in addition to his Intelligence modifier when
-attempting Knowledge checks to identify the abilities and weaknesses of creatures.
+At 2nd level, the augur applies his Charisma modifier in addition to his Intelligence modifier when
+attempting Knowledge checks to identify the abilities and weaknesses of creatures. Monster insight
+counts as the monster lore class feature for prerequisites. This ability replaces well-versed.
 
-**Gained:** At 2nd Level
+## Signs and Portents (Su) {#signs-and-portents}
 
-**Replaces:** Well-versed
+At 2nd level, an augur can read signs and portents to attempt to ascertain how events in the near
+future will play out. This allows the augur to cast _[augury](ref/spell/augury)_ as a
+[spell-like ability](ref/umr/spell-like-abilities). At 7th level, he can instead use signs and
+portents to cast _[divination](ref/spell/divination)_ as a
+[spell-like ability](ref/umr/spell-like-abilities), and at 12th level, he can instead cast
+_[commune](ref/spell/commune)_ as a [spell-like ability](ref/umr/spell-like-abilities). At 17th
+level, he can use signs and portents twice per day. This ability replaces all types of versatile
+performance.
 
-**Special:** Monster insight counts as the _monster lore_ class feature for prerequisites.
+## Predictive Strike (Su) {#predictive-strike}
 
-**Signs and Portents (Su)**
-
-**At 12th Level:** He can instead cast [commune](ref/spell/commune) as a
-[spell-like ability](ref/umr/spell-like-abilities).
-
-**At 17th Level:** He can use _signs and portents_ twice per day.
-
-**At 2nd Level:** An augur can read signs and portents to attempt to ascertain how events in the
-near future will play out. This allows the augur to cast [augury](ref/spell/augury) as a
-[spell-like ability](ref/umr/spell-like-abilities) once a day.
-
-**At 7th Level:** He can instead use _signs and portents_ to cast [divination](ref/spell/divination)
-as a [spell-like ability](ref/umr/spell-like-abilities).
-
-**Replaces:** All types of versatile performance
-
-**Predictive Strike (Su)**
-
-**Flavor:** The augur accurately divines the possible movements of his enemies in combat.
-
-**Free:** Once per day, he can declare one of his melee attacks to be a _predictive strike._ Against
-the augur's attack, the target is [flat-footed](ref/rule/flat-footed) and gains no benefits from
+At 5th level, the augur accurately divines the possible movements of his enemies in combat. Once per
+day as a free action, he can declare one of his melee attacks to be a predictive strike. Against the
+augur's attack, the target is [flat-footed](ref/rule/flat-footed) and gains no benefits from
 [concealment](ref/rule/concealment) or [cover](ref/rule/cover). Attacks from other creatures are
-treated normally. The target still benefits from total concealment and total cover normally.
-
-**At 11th Level:** The augur can use this ability on a total of two attacks per day.
-
-**At 17th Level:** He can use this on three attacks per day.
-
-**Gained:** At 5th Level
-
-**Replaces:** Spell kenning
+treated normally. The target still benefits from total concealment and total cover normally. At 11th
+level, the augur can use this ability a total of two attacks per day, and at 17th, three attacks per
+day. This replaces spell kenning.

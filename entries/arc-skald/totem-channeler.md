@@ -16,63 +16,52 @@ page = "24"
 
 [fields]
 kind = "archetype"
+features = [
+  { anchor = "totemic-versatility", level = 1 },
+  { anchor = "tandem-totems", level = 5 },
+  { anchor = "totem-s-guidance", level = 9 },
+]
 trades = [
-  { replaces = "Bardic knowledge", feature = "bardic-knowledge" },
-  { replaces = "Spell kenning", feature = "spell-kenning" },
-  { replaces = "Damage reduction", feature = "damage-reduction" },
-  { alters = "Rage powers", feature = "rage-powers" },
+  { replaces = "Bardic knowledge", feature = "bardic-knowledge", by = ["totemic-versatility"] },
+  { replaces = "Spell kenning", feature = "spell-kenning", by = ["tandem-totems"] },
+  { replaces = "Damage reduction", feature = "damage-reduction", by = ["totem-s-guidance"] },
+  { alters = "Rage powers", feature = "rage-powers", by = ["totemic-versatility"] },
 ]
 +++
 
 Some Shoanti skalds discover deeper truths in their tribes' totems. These skalds, known as totem
 channelers, learn how to share the totems' gifts with their allies in the heat of battle.
 
-**Totemic Versatility (Ex)**
+## Totemic Versatility (Ex) {#totemic-versatility}
 
-**Alters:** Rage powers
+When a totem channeler learns a new rage power, he can select from more than one group of totem rage
+powers, even though he normally could not do so. Totem rage powers grant benefits related to a
+theme, are organized in groups of three, and usually have the word "totem" in their name. (Rules for
+totem rage powers begin on page 74 of _Pathfinder RPG Advanced Player's Guide_.) When the totem
+channeler starts an inspired rage raging song, he can add totem rage powers from only one group at a
+time. He can change the group of added totem rage powers by ending the current inspired rage and
+starting a new one.
 
-**Choice:** When a totem channeler learns a new rage power, he can select from more than one group
-of totem rage powers, even though he normally could not do so. Totem rage powers grant benefits
-related to a theme, are organized in groups of three, and usually have the word "totem" in their
-name.
+This replaces bardic knowledge and alters rage powers.
 
-**Replaces:** Bardic knowledge
+## Tandem Totems (Ex) {#tandem-totems}
 
-**Special:** When the totem channeler starts an _inspired rage raging song,_ he can add totem rage
-powers from only one group at a time. He can change the group of added totem rage powers by ending
-the current _inspired rage_ and starting a new one.
-
-**Tandem Totems (Ex)**
-
-**Ability:** When a totem channeler starts an _inspired rage raging song_ and adds a totem rage
+At 5th level, when a totem channeler starts an inspired rage raging song and adds a totem rage
 power, he can add totem rage powers from a different group. Adding or maintaining totem rage powers
-from the additional group requires spending 1 additional round of _raging song_ each round.
+from the additional group requires spending 1 additional round of raging song each round. He can
+activate up to two additional totem groups at 11th level and up to three additional totem groups at
+17th level. He must spend 1 additional round of raging song each round for each additional totem
+group. If the totem channeler does not have enough rounds of raging song remaining to maintain his
+inspired rage, the song ends.
 
-**At 11th Level:** He can activate up to two additional totem groups.
+This replaces spell kenning.
 
-**At 17th Level:** He can add up to three additional totem groups.
+## Totem's Guidance (Su) {#totem-s-guidance}
 
-**Gained:** At 5th Level
+At 9th level, the totem channeler can draw strength and protection from his totem powers when he
+wades into battle with song on his lips. When he adds a totem rage power to his inspired rage, he
+and his allies gain a +1 insight bonus to AC and on saving throws for the duration of the totem
+channeler's raging song. At 14th level, this bonus increases to +2. This bonus applies only to the
+first totem rage power he applies to his inspired rage.
 
-**Replaces:** Spell kenning
-
-**Special:** He must spend 1 additional round of _raging song_ each round for each additional totem
-group. If the totem channeler does not have enough rounds of _raging song_ remaining to maintain his
-_inspired rage,_ the song ends.
-
-**Totem's Guidance (Su)**
-
-**Ability:** When he adds a totem rage power to his _inspired rage,_ he and his allies gain a +1
-insight bonus to AC and on saving throws for the duration of the totem channeler's _raging song._
-
-**Flavor:** The totem channeler can draw strength and protection from his totem powers when he wades
-into battle with song on his lips.
-
-**At 14th Level:** This bonus increases to +2.
-
-**Gained:** At 9th Level
-
-**Replaces:** [Damage reduction](ref/rule/damage-reduction)
-
-**Special:** This bonus applies only to the first totem rage power he applies to his _inspired
-rage._
+This replaces [damage reduction](ref/rule/damage-reduction).

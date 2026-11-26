@@ -1,0 +1,32 @@
+[[edit]]
+entry = "ref/arc-spiritualist/phantom-blade"
+anchor = "phantom-weapon-ability-descriptions"
+note = "hand-written by the batch lead from print (Psychic Anthology pp. 5-6, rulings 18 and 44): the Phantom Weapon Progression table that the Phantom Blade uses, set by print in the foot of a column of the Totem Spiritualist (p. 6); it goes behind the paragraph that introduces the abilities, with its printed title on a bold line above it"
+text = '''
+A _phantom weapon_ has special abilities (or imparts abilities to its wielder) depending on the wielder's spiritualist level. These abilities are cumulative. A _phantom weapon_ normally refuses to use any of its abilities when wielded by anyone other than its phantom blade, and acts as an incorporeal masterwork weapon of its type.
+
+**Phantom Weapon Progression**
+
+|Spiritualist Class Level|Enhancement Bonus|Cha|Int/Wis|Ego|Special|
+|---|---|---|---|---|---|
+|1st–2nd|+0|10|6|5|Alertness, phantom touch, telepathy, weapon of the mind|
+|3rd–4th|+1|11|7|5|Quick manifest|
+|5th–6th|+2|12|8|8|Ectoplasmic pool|
+|7th–8th|+2|13|9|10|Reshape|
+|9th–10th|+3|14|10|12|Phantom tether|
+|11th–12th|+3|15|11|14|—|
+|13th–14th|+4|16|12|16|Quick reshape|
+|15th–16th|+4|17|13|18|—|
+|17th–18th|+5|18|14|22|Etheric strikes|
+|19th–20th|+5|19|15|24|Soul eater|
+'''
+
+[[edit]]
+entry = "ref/arc-spiritualist/phantom-blade"
+anchor = "weapon-of-the-mind"
+note = "the script's text with the end of the last paragraph that print sets at the top of the next column, behind the box of kindness phantoms that the extraction read in between (Psychic Anthology p. 5)"
+text = '''
+The phantom blade can harbor her _phantom weapon_ in her consciousness or manifest it in its ectoplasmic form. The phantom blade can manifest the weapon through a ritual that takes 1 minute to perform. Harboring the _phantom weapon_ requires a full-round action.
+
+While the weapon is harbored, the phantom blade gains [Improved Unarmed Strike](ref/feat/improved-unarmed-strike) as a bonus feat and treats her unarmed strike damage as a [monk](ref/class/monk) of her level - 2. If the phantom blade already has this feat, she instead gains [Weapon Focus](ref/feat/weapon-focus) (unarmed strike). The phantom blade's unarmed strikes gain the phantom weapon's enhancement bonus and other abilities when the weapon is harbored. The phantom weapon also recovers a number of hit points equal to its ego score every hour that it is harbored.
+'''

@@ -1,0 +1,29 @@
+[[add]]
+entry = "ref/arc-druid/supernaturalist"
+anchor = "plant-bond-arg"
+head = "Plant Bond (Advanced Race Guide page 25)"
+parent = "eldritch-botanist"
+after = "eldritch-botanist"
+note = "ruling 46: the ability that Eldritch Botanist points to, with the text as the Advanced Race Guide prints it (the Treesinger, p. 25)"
+text = '''
+At 1st level, a treesinger forms a mystic bond with plant life. This bond can take one of two forms. The first grants the treesinger one of the following domains: Plant (Core Rulebook); Growth (Advanced Player's Guide); Jungle, Swamp (Ultimate Magic). When determining the powers and bonus spells granted by this domain, the treesinger's effective cleric level is equal to her druid level. A treesinger who selects this option also receives additional domain spell slots, just like a cleric. She must prepare the spell from her domain in this slot, and this spell cannot be used to cast a spell spontaneously.
+
+The second option is to form a close bond with a plant companion. A treesinger may begin play with any of the plants listed in Plant Companions (see page 26). This plant is a loyal companion that accompanies the treesinger on her adventures. Except for the companion being a creature of the plant type, drawn from the list of plant companions, this ability otherwise works like the standard druid's animal companion ability.
+
+Plant bond replaces the druid's nature bond ability.
+'''
+
+[[add]]
+entry = "ref/arc-druid/supernaturalist"
+anchor = "plant-bond-arg-green-empathy"
+head = "Green Empathy (Advanced Race Guide page 25)"
+parent = "eldritch-botanist"
+after = "plant-bond-arg"
+note = "ruling 46: the ability that Eldritch Botanist points to, with the text as the Advanced Race Guide prints it (the Treesinger, p. 25)"
+text = '''
+At 1st level, a treesinger can improve the attitude of a plant creature. This ability functions just like a Diplomacy check made to improve the attitude of a person. The treesinger rolls 1d20 and adds her druid level and her Charisma modifier to determine the wild empathy check result. The typical wild plant creature has a starting attitude of indifferent.
+
+To use green empathy, the treesinger and the plant creature must be within 30 feet of one another under normal conditions. Generally, influencing a plant creature in this way takes 1 minute but, as with influencing people, it might take more or less time.
+
+A treesinger can also use this ability to influence an animal, but she takes a –4 penalty on the check. This ability replaces the wild empathy class feature.
+'''

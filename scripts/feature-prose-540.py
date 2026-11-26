@@ -946,6 +946,7 @@ def merge_runs(runs: list[tuple[str, bool, bool]]) -> list[tuple[str, bool, bool
 # "Black Blood of Orv", p. 33: the box is set in from the margin, above the end of the introduction of the next archetype). Its lines
 # are read apart, and the box is set behind the section's last paragraph, before the next title.
 BOX_TITLES: dict = {"titles": frozenset()}
+BOX_TO_END = {"on": False}      # a box at the foot of a column (a table) runs to the end of that column (Psychic Anthology p. 6: the Phantom Weapon Progression)
 BOX_INSET = 16                  # the lines of a box are set this far in from the margin of the column; the text around it is not
 
 
@@ -957,7 +958,7 @@ def split_boxes(plines: list[dict]) -> tuple[list[dict], list[dict]]:
         title = ln["size"] >= 16 and squash("".join(t for t, _, _ in ln["runs"])) in BOX_TITLES["titles"]
         if title:
             boxing = ln["col"]
-        elif boxing is not None and (ln["col"] != boxing or ln["left"] - ln["margin"] < BOX_INSET):
+        elif boxing is not None and (ln["col"] != boxing or (not BOX_TO_END["on"] and ln["left"] - ln["margin"] < BOX_INSET)):
             boxing = None            # the text of the column goes on at its own margin below the box
         (box if boxing is not None else main).append(ln)
     return main, box
@@ -2351,7 +2352,8 @@ MISPRINTS = [
 ERRATA_BOOKS = {"advanced-class-guide": "Advanced Class Guide"}
 ERRATA_CTX: dict = {"book": "", "used": set()}
 # The titles of the boxes that a book sets in the foot of a column (`BOX_TITLES`).
-BOXES_OF_BOOK = {"inner-sea-magic": ("Black Blood of Orv",)}
+BOXES_OF_BOOK = {"inner-sea-magic": ("Black Blood of Orv",),
+                 "psychic-anthology": ("Phantom Weapon Progression",)}       # the table of the Phantom Blade, set in the foot of a column of the Totem Spiritualist (p. 6)
 SKIP_TABLES = {"on": False}         # the Advanced Race Guide sets its tables in sans-serif type
 # The Advanced Class Guide and the Advanced Race Guide set text beside illustrations: a line may be indented without
 # starting a paragraph, and a head may follow a sentence end in a line without the common indent. The other books
@@ -3280,6 +3282,24 @@ def assign_by(trades: list[dict], listed: list[dict], opening: list[str]) -> tup
 # A stored trade whose printed name the reader cannot match to the printed sentence takes the printed
 # words (owner instruction of 2026-11-24; the `feature` link and the ids stay). The TSV note records it.
 TRADE_RENAMES = {
+    ("ref/arc-witch/hagbound", "1st-level hex"): "Hex gained at 1st level",
+    ("ref/arc-witch/hagbound", "2nd-, 8th-, and 14th-level hexes"): "The hexes gained at 2nd, 8th, and 14th levels",
+    ("ref/arc-witch/hagbound", "4th- and 12th-level hexes"): "The hexes gained at 4th and 12th levels",
+    ("ref/arc-witch/hagbound", "10th-level hex"): "Hex gained at 10th level",
+    ("ref/arc-witch/hagbound", "20th-level hex"): "Hex gained at 20th level",
+    ("ref/arc-witch/putrefactor", "1st-level hex"): "Hex gained at 1st level",
+    ("ref/arc-witch/putrefactor", "2nd-level hex"): "Hex gained at 2nd level",
+    ("ref/arc-witch/putrefactor", "4th-, 10th-, and 16th-level hexes"): "The hexes gained at 4th, 10th, and 16th levels",
+    ("ref/arc-witch/putrefactor", "6th-level hex"): "Hex gained at 6th level",
+    ("ref/arc-sorcerer/stone-warder", "3rd-level bloodline spell"): "The bloodline spell gained at 3rd level",
+    ("ref/arc-sorcerer/stone-warder", "7th-level bloodline feat"): "The bloodline feat gained at 7th level",
+    ("ref/arc-witch/rhetorician", "1st-level hex"): "Hex gained at 1st level",
+    ("ref/arc-witch/rhetorician", "All spells granted by the witch's patron"): "All the spells the witch gains from her patron",
+    ("ref/arc-monk/elemental-monk", "All bonus feats"): "All of the monk's bonus feats",
+    ("ref/arc-ninja/mask-of-the-living-god", "Weapon and armor proficiency"): "The mask of the Living God's weapon and armor proficiency",
+    ("ref/arc-oracle/divine-numerologist", "The bonus spells gained at 10th, 12th, 14th, 16th, and 18th levels from the oracle's mystery"): "The oracle's normal mystery bonus spells at these levels",
+    # Batch of Psychic Anthology, Disciple's Doctrine, Occult Origins, Arcane Anthology and Blood of the Coven: the printed words of the sentence (ruling 22)
+    ("ref/arc-kineticist/kinetic-knight", "3rd-level infusion"): "The kineticist infusion gained at 3rd level",
     ("ref/arc-oracle/pei-zin-practitioner", "Class skills gained from the oracle's mystery"): "The additional class skills the oracle gains from her mystery",
     ("ref/arc-paladin/faithful-wanderer", "Skills per level"): "Class skills",
     ("ref/arc-oracle/hermit", "The bonus spells gained at 4th, 8th, 12th, and 16th levels from the oracle's mystery"): "The oracle's normal mystery bonus spells at these levels",
@@ -3560,6 +3580,7 @@ TRADE_OP_FIXES = {
 # A trade that print states in a trade sentence and that the entry does not store (data fix inside the
 # pilot's book; the TSV note records it). The other four shaman archetypes store `Venom immunity`.
 TRADE_ADDITIONS = {
+    "ref/arc-kineticist/kinetic-knight": [{"alters": "Class skills"}],     # "This ability alters the kineticist's class skills." (Courtly)
     "ref/arc-shifter/feyform-shifter": [{"alters": "Shifter aspect", "feature": "shifter-aspect"}],     # owner ruling 49
     "ref/arc-druid/nature-priest": [{"alters": "Class skills"}],     # "This alters the druid's class skills." (Faithful)
     "ref/arc-kineticist/elysiokineticist": [{"alters": "The class skills granted by the wood element"}],     # "This alters elemental focus and the class skills granted by the wood element, and it replaces expanded element."
@@ -3603,6 +3624,11 @@ TRADE_ADDITIONS = {
 # Batch 5 (Opus review of #329): the sentences "This alters the ...'s class skills" and the like that print sets in a section before the first
 # feature (Class Skills, Alignment) state a trade that the import did not store; each is stored without `by` (ruling 6, as for Magic Warrior).
 SCAFFOLD_TRADE_ADDITIONS = {
+    # Psychic Anthology, Disciple's Doctrine, Occult Origins, Arcane Anthology, Blood of the Coven: a sentence of a section before the first feature
+    "ref/arc-samurai/ward-speaker": [{"alters": "Alignment"}],
+    "ref/arc-warpriest/fist-of-the-godclaw": [{"alters": "Alignment restriction"}],
+    "ref/arc-monk/serpent-fire-adept": [{"alters": "Class skills"}],
+    "ref/arc-shaman/true-silvered-throne": [{"alters": "Class skills"}],
     # Batches 6 to 9 (Player Companions): "This alters the ...'s class skills." in the Class Skills section before the first feature
     "ref/arc-bard/solacer": [{"alters": "Class skills"}],
     "ref/arc-cavalier/hooded-knight": [{"alters": "Class skills"}],
@@ -3729,7 +3755,12 @@ UPGRADE_WORDS = re.compile(r"\b(?:increases?|improves?|becomes?|rises?|grows?|de
 OF_LEVEL = re.compile(r"^[^.]*?\bof\s+(\d+)(st|nd|rd|th)\s+level\b(?!\s+or\s+lower)", re.I)
 # A level that the text of the feature does not state but the section before it does (review of #338): "must take the following revelation at 3rd level"
 LEVEL_FROM_PRINT = {
+    # Psychic Anthology, Disciple's Doctrine, Occult Origins, Arcane Anthology, Blood of the Coven (ruling 50)
+    ("ref/arc-bard/arrowsong-minstrel", "diminished-spellcasting"): (1, "ruling 50: alters the bard's spellcasting (one fewer spell of each level per day, the whole feature, a 1st-level class feature)"),
+    ("ref/arc-occultist/reliquarian", "spells"): (1, "ruling 50: alters the occultist's spells (the whole spellcasting, divine spells with a divine focus, a 1st-level class feature)"),
+    ("ref/arc-warpriest/fist-of-the-godclaw", "blessings-of-the-godclaw"): (1, "ruling 50: alters blessings, a 1st-level class feature (the class table lists blessings (minor))"),
     # batches 6 to 9 (review of #339)
+    ("ref/arc-rogue/eldritch-scoundrel", "uncanny-training"): (4, "print says \"Beginning at 4th level, she can take uncanny dodge instead of a rogue talent\""),
     ("ref/arc-bard/first-world-minstrel", "gremlin-s-luck"): (8, "print says \"A First World minstrel of 8th level or higher\""),
     ("ref/arc-oracle/hermit", "recluse-s-stride"): (1, "print says \"You must take this revelation at 1st level\""),
     ("ref/arc-cleric/angelfire-apostle", "diminished-spellcasting"): (1, "ruling 50: alters the cleric's spellcasting (one fewer spell slot of each level, the whole feature, a 1st-level class feature)"),
@@ -3777,6 +3808,7 @@ TRADE_EXTRA_BY = {
 }
 
 TRADE_PROSE_BY = {
+    ("ref/arc-ninja/mask-of-the-living-god", "Spend ki to make an additional attack"): "expurgate",     # "The mask of the Living God cannot spend a point from his ki pool to make an additional attack." (ruling 28)
     ("ref/arc-shifter/feyform-shifter", "Shifter aspect"): "fey-aspect",     # owner ruling 49: "This alters and replaces all improvements to shifter aspect" stores both trades
     ("ref/arc-inquisitor/faith-hunter", "justice"): "sworn-enemy",
     ("ref/arc-inquisitor/faith-hunter", "destruction judgments"): "sworn-enemy",
@@ -4259,7 +4291,7 @@ def finalize(e: Entry, res: dict, class_cache: dict | None = None) -> dict:
 
 
 # The Player Companions that set their titles in small capitals and give each archetype no box of its own (batches 6 to 9).
-PLAYER_COMPANIONS = ("blood-of-the-ancients", "wilderness-origins", "legacy-of-the-first-world", "people-of-the-wastes", "healers-handbook")
+PLAYER_COMPANIONS = ("blood-of-the-ancients", "wilderness-origins", "legacy-of-the-first-world", "people-of-the-wastes", "healers-handbook", "psychic-anthology", "disciples-doctrine", "occult-origins", "arcane-anthology", "blood-of-the-coven")
 
 # The Player Companions that set their archetype titles in small capitals (a capital and its small capitals 5 units apart), and whose
 # archetypes are followed by sections of the chapter of their own (feats, techniques, spells): any title ends the section of an archetype.
@@ -4278,6 +4310,7 @@ def configure_book(book: str) -> None:
     PAGE_GEOMETRY["on"] = book in ("inner-sea-magic", "inner-sea-intrigue", "inner-sea-combat")
     MARGIN_CAPTIONS["on"] = CAPTIONS["on"] = book in ("inner-sea-magic", "inner-sea-intrigue", "inner-sea-combat")
     BOX_TITLES["titles"] = frozenset(squash(t) for t in BOXES_OF_BOOK.get(book, ()))
+    BOX_TO_END["on"] = book == "psychic-anthology"
     SKIP_TABLES["on"] = book == "advanced-race-guide"
     ILLUSTRATED["on"] = book in ("advanced-class-guide", "advanced-race-guide", "adventurers-guide", "ultimate-wilderness",
                                  "horror-adventures", "planar-adventures", "inner-sea-magic", "inner-sea-intrigue", "inner-sea-combat")
@@ -5369,6 +5402,17 @@ def self_test() -> int:
     para = "This ability replaces the revelation gained at 7th level and nothing else of the class."
     eq(repeated_paragraphs(para + "\n\nOther text of the feature that is long enough to count.\n\n" + para), [para[:60]], "an edit that states a paragraph twice")
     eq(repeated_paragraphs(para + "\n\n" + para.replace("7th", "9th")), [], "two different paragraphs")
+    # a box at the foot of a column (Psychic Anthology's Phantom Weapon Progression) runs to the end of the column when its rows are not set in
+    mk = lambda text, size, col, left: {"size": size, "col": col, "left": left, "margin": 108, "runs": [(text, False, False)]}
+    lines = [mk("Body text.", 13, 0, 108), mk("Phantom Weapon Progression", 20, 0, 108), mk("1st-2nd +0 10 6 5", 13, 0, 108), mk("3rd-4th +1 11 7 5", 13, 0, 108)]
+    BOX_TITLES["titles"] = frozenset({squash("Phantom Weapon Progression")})
+    BOX_TO_END["on"] = False
+    main_off, box_off = split_boxes(lines)
+    BOX_TO_END["on"] = True
+    main_on, box_on = split_boxes(lines)
+    BOX_TITLES["titles"] = frozenset()
+    BOX_TO_END["on"] = False
+    eq((len(main_off), len(box_off), len(main_on), len(box_on)), (3, 1, 1, 3), "a box of the foot of a column takes its rows when the book says so")
     eq("carried" in DECISIONS, True, "the decision for a section that an edit carries")
     # "This change remains in effect" is no trade sentence; "alters and replaces X" has no phrase of its own to cover
     eq(trade_sentences("This change remains in effect for 1 minute."), [], "a noun after This is no verb")
