@@ -16,71 +16,61 @@ page = "22"
 
 [fields]
 kind = "archetype"
+features = [
+  { anchor = "stone-scouting", level = 1 },
+  { anchor = "vermin-affinity", level = 1 },
+  { anchor = "dungeon-ally", level = 4 },
+  { anchor = "subterranean-stride", level = 7 },
+  { anchor = "improved-stone-scouting", level = 8 },
+]
 trades = [
-  { replaces = "Track", feature = "track" },
-  { replaces = "Wild empathy", feature = "wild-empathy" },
-  { replaces = "Woodland stride", feature = "woodland-stride" },
-  { replaces = "Swift tracker", feature = "swift-tracker" },
-  { alters = "Hunter's bond", feature = "hunter-s-bond" },
+  { replaces = "Track", feature = "track", by = ["stone-scouting"] },
+  { replaces = "Wild empathy", feature = "wild-empathy", by = ["vermin-affinity"] },
+  { replaces = "Woodland stride", feature = "woodland-stride", by = ["subterranean-stride"] },
+  { replaces = "Swift tracker", feature = "swift-tracker", by = ["improved-stone-scouting"] },
+  { alters = "Hunter's bond", feature = "hunter-s-bond", by = ["dungeon-ally"] },
 ]
 +++
 
 These rangers specialize in surviving hostile subterranean environs. They are well equipped to avoid
 traps, spot secret passages, and deal with inimical dungeon tenants.
 
-**Gained class skills:** dd, ke
+## Class Skills {#class-skills}
 
-**Lost class skills:** ride
+A dungeon rover gains Disable Device and Knowledge (engineering) as class skills and loses Ride as a
+class skill.
 
-**Stone Scouting (Ex)**
+## Stone Scouting (Ex) {#stone-scouting}
 
-**Passive:** A dungeon rover gains a +2 bonus on Perception checks to notice underground
-environmental hazards, including traps, potential cave-ins, and dangerous flora. A dungeon rover
-receives a check to notice these hazards whenever he passes within 10 feet of them, whether or not
-he is actively looking.
+A dungeon rover gains a +2 bonus on Perception checks to notice underground environmental hazards,
+including traps, potential cave-ins, and dangerous flora. A dungeon rover receives a check to notice
+these hazards whenever he passes within 10 feet of them, whether or not he is actively looking. This
+ability replaces track.
 
-**Replaces:** Track
+## Vermin Affinity (Ex) {#vermin-affinity}
 
-**Vermin Affinity (Ex)**
+A dungeon rover gains the ability to improve the attitude of mindless subterranean creatures. This
+ability functions as the [wild empathy](ref/ability/wild-empathy) class feature, except a dungeon
+rover can influence any vermin (even those without Intelligence scores) instead of animals.
+Additionally, a dungeon rover can influence oozes with a -4 penalty on his vermin affinity check.
+This ability replaces wild empathy.
 
-**Ability:** A dungeon rover gains the ability to improve the attitude of mindless subterranean
-creatures. This ability functions as the [wild empathy](ref/ability/wild-empathy) class feature,
-except a dungeon rover can influence any vermin (even those without Intelligence scores) instead of
-animals. Additionally, a dungeon rover can influence oozes with a -4 penalty on his vermin affinity
-check.
+## Dungeon Ally (Ex) {#dungeon-ally}
 
-**Replaces:** Wild empathy
-
-**Dungeon Ally (Ex)**
-
-**Ability:** A dungeon rover may select a [giant slug](ref/companion/slug-giant), a
+At 4th level, a dungeon rover may select a [giant slug](ref/companion/slug-giant), a
 [giant centipede](ref/companion/centipede-giant), a [goblin dog](ref/companion/goblin-dog), a
-[giant scorpion](ref/companion/scorpion-giant), or any poisonous snake
-([reef snake](ref/companion/reef-snake), [riding python](ref/companion/riding-python),
-[spitting cobra](ref/companion/spitting-cobra), or [viper](ref/companion/snake-viper)) as his
+[giant scorpion](ref/companion/scorpion-giant), or any poisonous snake as his
 [animal companion](ref/sidekick/animal-companion), in addition to the usual animal companion options
-available to rangers with the _hunter's bond_ class feature.
+available to rangers with the hunter's bond class feature. This ability modifies hunter's bond.
 
-**Alters:** Hunter's bond
+## Subterranean Stride (Ex) {#subterranean-stride}
 
-**Gained:** At 4th Level
-
-**Subterranean Stride (Ex)**
-
-**Gained:** At 7th Level
-
-**Passive:** A dungeon rover is never slowed by [difficult terrain](ref/rule/terrain-and-obstacles)
+At 7th level, a dungeon rover is never slowed by [difficult terrain](ref/rule/terrain-and-obstacles)
 while underground. However, areas that are enchanted or magically manipulated to impede motion still
-affect him.
+affect him. This ability replaces woodland stride.
 
-**Replaces:** Woodland stride
+## Improved Stone Scouting (Ex) {#improved-stone-scouting}
 
-**Improved Stone Scouting (Ex)**
-
-**Gained:** At 8th Level
-
-**Passive:** A dungeon rover's bonus on Perception checks to notice underground environmental
+At 8th level, a dungeon rover's bonus on Perception checks to notice underground environmental
 hazards increases to +4. Additionally, the rover receives a check to notice these irregularities
-whenever he passes within 15 feet of them.
-
-**Replaces:** Swift tracker
+whenever he passes within 15 feet of them. This ability replaces swift tracker.

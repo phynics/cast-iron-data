@@ -16,69 +16,66 @@ page = "8"
 
 [fields]
 kind = "archetype"
+features = [
+  { anchor = "angelic-grace" },
+  { anchor = "spells", level = 1 },
+  { anchor = "corpse-speaker", level = 1 },
+  { anchor = "keen-ritualist", level = 10 },
+]
 trades = [
-  { replaces = "Countersong", feature = "bardic-performance", power = "countersong" },
-  { replaces = "Jack-of-all-trades", feature = "jack-of-all-trades" },
-  { alters = "The bard's class skills" },
-  { alters = "Spells", feature = "spells" },
+  { replaces = "Countersong", feature = "bardic-performance", power = "countersong", by = ["corpse-speaker"] },
+  { replaces = "Jack-of-all-trades", feature = "jack-of-all-trades", by = ["keen-ritualist"] },
+  { alters = "The bard's class skills", by = ["angelic-grace"] },
+  { alters = "Spells", feature = "spells", by = ["spells"] },
 ]
 +++
 
-Working from the shadows of Ustalav's high society, the Esoteric Order of the Palatine
-Eye^[1](ref/arc-bard/speaker-of-the-palatine-eye#footnote-nosource)^ is a mystical cult built around
-the quest for immortality. Founded by a count who claimed to have been enlightened by angels, the
-Order follows a strict hierarchy, and membership is open only to the elite. The more money a member
-provides the Order, the more secrets he learns to aid his path toward angelic ascension.
+Working from the shadows of Ustalav's high society, the Esoteric Order of the Palatine Eye is a
+mystical cult built around the quest for immortality. Founded by a count who claimed to have been
+enlightened by angels, the Order follows a strict hierarchy, and membership is open only to the
+elite. The more money a member provides the Order, the more secrets he learns to aid his path toward
+angelic ascension. More information on the Esoteric Order of the Palatine Eye can be found in
+_Pathfinder Adventure Path \#44: Trial of the Beast_.
 
 A speaker of the Palatine Eye influences others using his occult knowledge rather than the
-boisterous enthusiasm of most bards.
+boisterous enthusiasm of most bards. He must be a worshipper of [Pharasma](ref/faith/pharasma), but
+he may worship additional deities as well.
 
-**Prerequisites:** He must be a worshipper of [Pharasma](ref/faith/pharasma), but he may worship
-additional deities as well.
+## Angelic Grace (Ex) {#angelic-grace}
 
-**Angelic Grace (Ex)**
+Members of the Order of the Palatine Eye carry themselves with the austerity and import their
+heavenly aspirations demand. A speaker of the Palatine Eye does not have Acrobatics or Escape Artist
+as class skills, but he gains Celestial as a bonus language. This does not count toward the number
+of languages he is otherwise able to learn.
 
-**Ability:** Members of the Order of the Palatine Eye carry themselves with the austerity and import
-their heavenly aspirations demand. A speaker of the Palatine Eye does not have Acrobatics or Escape
-Artist as class skills, but he gains Celestial as a bonus language. This does not count toward the
-number of languages he is otherwise able to learn.
+This alters the bard's class skills.
 
-**Alters:** The bard's class skills
+## Spells {#spells}
 
-**Spells**
+A speaker of the Palatine Eye draws his powers from the mysterious rites of the Esoteric Order of
+the Palatine Eye. He casts psychic spells from the mesmerist list instead of arcane spells from the
+bard spell list. He otherwise casts spells, learns spells, and determines his spell allotment and
+spell DCs as a bard.
 
-**Alters:** Spells
+This alters spells.
 
-**Info:** A speaker of the Palatine Eye draws his powers from the mysterious rites of the Esoteric
-Order of the Palatine Eye. He casts psychic spells from the mesmerist list instead of arcane spells
-from the bard spell list. He otherwise casts spells, learns spells, and determines his spell
-allotment and spell DCs as a bard.
+## Corpse Speaker (Su) {#corpse-speaker}
 
-**Corpse Speaker (Su)**
-
-**Ability:** A speaker of the Palatine Eye can make it appear as if a corpse is speaking, similar to
-[ventriloquism](ref/spell/ventriloquism). A creature must succeed at a Will saving throw (DC = 10 +
-[half](ref/misc/fractions-and-rounding) the bard's level + the bard's Charisma modifier) to see
+A speaker of the Palatine Eye can make it appear as if a corpse is speaking, similar to
+_[ventriloquism](ref/spell/ventriloquism)_. A creature must succeed at a Will saving throw (DC =
+10 + [half](ref/misc/fractions-and-rounding) the bard's level + the bard's Charisma modifier) to see
 through the ruse. A creature that fails the saving throw is convinced that the corpse is speaking of
 its own volition.
 
-**Replaces:** Countersong
+This replaces countersong.
 
-**Keen Ritualist (Ex)**
+## Keen Ritualist (Ex) {#keen-ritualist}
 
-**At 10th Level:** A speaker of the Palatine Eye reduces the number of secondary casters required to
-cast a [ritual](ref/rule/occult-rituals) by 2.
+At 10th level, a speaker of the Palatine Eye reduces the number of secondary casters required to
+cast a [ritual](ref/rule/occult-rituals) by 2. At 16th level, the DCs of skill checks the speaker of
+the Palatine Eye attempts during a ritual are reduced by 2. At 19th level, a speaker of the Palatine
+Eye can perform any ritual by himself without needing to satisfy any secondary caster requirements.
+The DCs of skill checks he attempts during a ritual are reduced by an additional 2, for a maximum DC
+reduction of 4.
 
-**At 16th Level:** The DCs of skill checks the speaker of the Palatine Eye attempts during a ritual
-are reduced by 2.
-
-**At 19th Level:** A speaker of the Palatine Eye can perform any ritual by himself without needing
-to satisfy any secondary caster requirements. The DCs of skill checks he attempts during a ritual
-are reduced by an additional 2, for a maximum DC reduction of 4.
-
-**Replaces:** Jack-of-all-trades
-
-###### ^1^ {#footnote-nosource}
-
-More information on the Esoteric Order of the Palatine Eye can be found in Pathfinder Adventure Path
-\#44: Trial of the Beast.
+This replaces jack-of-all-trades.
