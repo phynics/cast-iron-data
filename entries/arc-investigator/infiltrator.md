@@ -47,14 +47,21 @@ At 2nd level, an infiltrator learns to mimic voices and sounds around him. Using
 requires a special Disguise check, and creatures hearing the voice can make a Perception check to
 discover the ruse. An infiltrator can attempt to emulate any creature or other sound he's heard
 clearly for at least 1 minute. The bonuses or penalties to this special Disguise check are modified
-in the following ways, all of which are cumulative. Disguised Voice Check Modifier Voice is not your
-own, but not that of a +5 distinct individual Voice is that of a different gender -2 Voice is that
-of a different race -2 Voice is that of a different age category -2 Voice is that of a different
-size category -5 Also, the creature making the Perception check gains a bonus based on its
-familiarity with specific voices, just as if it were confronted with a normal disguise (_Core
-Rulebook_ 95). This ability is a language-dependent effect, meaning that if a creature cannot hear
-or understand what the infiltrator is saying, the ruse fails. Magic items, feats, and traits that
-affect typical disguises do not affect this disguise check.
+in the following ways, all of which are cumulative.
+
+|Disguised Voice|Check Modifier|
+| --- | --- |
+|Voice is not your own, but not that of a distinct individual|+5|
+|Voice is that of a different gender|-2|
+|Voice is that of a different race|-2|
+|Voice is that of a different age category|-2|
+|Voice is that of a different size category|-5|
+
+Also, the creature making the Perception check gains a bonus based on its familiarity with specific
+voices, just as if it were confronted with a normal disguise (_Core Rulebook_ 95). This ability is a
+language-dependent effect, meaning that if a creature cannot hear or understand what the infiltrator
+is saying, the ruse fails. Magic items, feats, and traits that affect typical disguises do not
+affect this disguise check.
 
 At 8th level, the infiltrator gains the effects of its master of disguise class feature on this
 special use of the Disguise skill (no penalty for a voice of a different gender, race, or age

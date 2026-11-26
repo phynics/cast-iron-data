@@ -16,10 +16,15 @@ page = "43"
 
 [fields]
 kind = "archetype"
+features = [
+  { anchor = "aura-of-blood", level = 3 },
+  { anchor = "aura-of-putrefaction", level = 8 },
+  { anchor = "aura-of-quietus", level = 14 },
+]
 trades = [
-  { replaces = "Aura of cowardice", feature = "aura-of-cowardice" },
-  { replaces = "Aura of despair", feature = "aura-of-despair" },
-  { replaces = "Aura of sin", feature = "aura-of-sin" },
+  { replaces = "Aura of cowardice", feature = "aura-of-cowardice", by = ["aura-of-blood"] },
+  { replaces = "Aura of despair", feature = "aura-of-despair", by = ["aura-of-putrefaction"] },
+  { replaces = "Aura of sin", feature = "aura-of-sin", by = ["aura-of-quietus"] },
 ]
 +++
 
@@ -30,35 +35,23 @@ brutal lives swathed in blood and carnage before someone puts them to the blade.
 dozens of rough rampagers wreaking havoc when Rovagug's spawn escape, acting as heralds and
 harbingers of the greater destruction created by the Rough Beast's terrifying children.
 
-**Aura of Blood (Su)**
+## Aura of Blood (Su) {#aura-of-blood}
 
-**Gained:** At 3rd Level
-
-**Passive:** A rough rampager radiates a palpably daunting aura that causes all enemies within 10
+At 3rd level, a rough rampager radiates a palpably daunting aura that causes all enemies within 10
 feet to take a -4 penalty on Constitution or Heal checks to stop [bleed](ref/rule/bleed) damage and
 checks to stabilize while [dying](ref/misc/dying). This ability functions only while the antipaladin
-is conscious.
+is conscious. This ability replaces aura of cowardice.
 
-**Replaces:** Aura of cowardice
+## Aura of Putrefaction (Su) {#aura-of-putrefaction}
 
-**Aura of Putrefaction (Su)**
-
-**Gained:** At 8th Level
-
-**Passive:** A rough rampager radiates an aura that causes the wounds of enemies within 10 feet to
+At 8th level, a rough rampager radiates an aura that causes the wounds of enemies within 10 feet to
 weep blood. Injured enemies in the area take 1 point of bleed damage per round. This ability
-functions only while the antipaladin is conscious.
+functions only while the antipaladin is conscious. This ability replaces aura of despair.
 
-**Replaces:** Aura of despair
+## Aura of Quietus (Su) {#aura-of-quietus}
 
-**Aura of Quietus (Su)**
-
-**Gained:** At 14th Level
-
-**Passive:** A rough rampager radiates an aura that causes the failure of healing spells,
+At 14th level, a rough rampager radiates an aura that causes the failure of healing spells,
 [spell-like abilities](ref/umr/spell-like-abilities), and supernatural abilities used to restore
 enemies within 10 feet of him. This is not an antimagic field, however, and ongoing or passive
 effects are not affected. Casters can overcome this ability with a successful caster level check
-versus the rough rampager's class level + 11.
-
-**Replaces:** Aura of sin
+versus the rough rampager's class level + 11. This ability replaces aura of sin.

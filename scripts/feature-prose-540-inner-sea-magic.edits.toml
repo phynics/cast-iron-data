@@ -1,0 +1,12 @@
+[[add]]
+entry = "ref/arc-oracle/black-blooded-oracle"
+anchor = "black-blood-of-orv"
+head = "Black Blood of Orv"
+parent = ""
+after = "darkvision"
+note = "text of the box Black Blood of Orv (Inner Sea Magic p. 33, ruling 41), word for word from print: print sets the box in the page of the Crypt Breaker, but it holds the rules for black blood that this archetype uses (\"See the sidebar on the facing page for rules on the black blood itself\", p. 32); an unlisted section of this entry"
+text = '''
+Black blood wells from the walls of a singular vault deep in Orv, a region known quite aptly as the Land of Black Blood. This noxious fluid repulses and freezes all natural life, although certain creatures like aberrations, undead, and black-blooded oracles possess an uncanny immunity to its effects. Any other creature that comes into contact with black blood takes 1d6 points of cold damage—10d6 points of cold damage per round if fully immersed.
+
+Although black blood isn't itself inherently evil, a pint of black blood can be used as unholy water. A spellcaster who consumes a dose of black blood casts all necromantic spells at +1 caster level for the next 10 minutes, but takes 3d6 points of cold damage and 1 point of Constitution damage by drinking the stuff. Normally, a dose of black blood becomes inert an hour after being harvested from the source in the Land of Black Blood, losing all mystical properties. _Gentle repose_ can preserve up to 1 gallon of black blood's magical properties for increased lengths of time, but no other method of stabilizing the stuff has yet been developed. The blood of a black-blooded oracle is diluted and does not have the properties of full-strength black blood.
+'''
