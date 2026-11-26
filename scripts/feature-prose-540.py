@@ -5275,7 +5275,7 @@ IMPORT_HEAD_FIXES.update({
 # `by` (rulings 13 and 55) and Draconic Might gains no level from it
 TRADE_NO_BY.setdefault("ref/arc-monk/scaled-fist", []).append("Bonus feats")
 # Ectoplasm Master (Haunted Heroes Handbook p. 14): "This discovery modifies the alchemist's bombs" (ruling 55); one discovery of a list is a part of bombs, so no level
-TRADE_ADDITIONS.setdefault("ref/arc-alchemist/ectoplasm-master", []).append({"alters": "The alchemist's bombs", "feature": "bomb"})
+TRADE_ADDITIONS.setdefault("ref/arc-alchemist/ectoplasm-master", []).append({"alters": "The alchemist's bombs and doesn't stack with other discoveries that modify bombs", "feature": "bomb"})
 NO_LEVEL_ONE.add(("ref/arc-alchemist/ectoplasm-master", "ectoplasm-master-discoveries"))
 # Iron-Ring Striker (Martial Arts Handbook p. 5): the stored name is the printed words of "This modifies the bonus feat gained at 5th level"
 TRADE_RENAMES[("ref/arc-magus/iron-ring-striker", "5th-level bonus feat")] = "Bonus feat gained at 5th level"
