@@ -16,11 +16,14 @@ page = "24"
 
 [fields]
 kind = "archetype"
+features = [
+  { anchor = "drake-companion", level = 1 },
+]
 trades = [
-  { replaces = "Spirit", feature = "spirit" },
-  { replaces = "spirit animal", feature = "spirit-animal" },
-  { replaces = "hexes gained at 4th and 10th levels", feature = "hex", levels = [4, 10] },
-  { alters = "Spirit magic", feature = "spirit-magic" },
+  { replaces = "Spirit", feature = "spirit", by = ["drake-companion"] },
+  { replaces = "spirit animal", feature = "spirit-animal", by = ["drake-companion"] },
+  { replaces = "hexes gained at 4th and 10th levels", feature = "hex", levels = [4, 10], by = ["drake-companion"] },
+  { alters = "Spirit magic", feature = "spirit-magic", by = ["drake-companion"] },
 ]
 +++
 
@@ -29,17 +32,16 @@ and imperial dragons who act as mentors. Some of these shamans draw their powers
 dragons, rather than from spirits. These shamans each gain a powerful drake as an ally, and view
 caring for that drake as a sacred duty.
 
-**Drake Companion**
+## Drake Companion {#drake-companion}
 
-**Alters:** Spirit magic
+A draconic shaman gains a [drake companion](ref/sidekick/drake) instead of a spirit animal, and she
+communes with the drake to prepare her spells just as other shamans commune with their spirit
+animals. She doesn't gain a primary spirit, but she still gains wandering spirit at 4th level. She
+must select all her hexes (other than her wandering hexes) from the list of shaman hexes, and she
+can't select the witch hex shaman hex. She doesn't gain spirit magic slots until 4th level when she
+gains her wandering spirit. Any ability granted by a wandering spirit that would normally affect a
+spirit animal (such as [nature's](ref/shamanspirit/nature) true spirit ability) has no effect for a
+draconic shaman.
 
-**Info:** A draconic shaman gains a [drake companion](ref/sidekick/drake) instead of a spirit
-animal, and she communes with the drake to prepare her spells just as other shamans commune with
-their spirit animals. She doesn't gain a primary spirit, but she still gains _wandering spirit_ at
-4th level. She must select all her hexes (other than her wandering hexes) from the list of shaman
-hexes, and she can't select the _witch hex_ shaman hex. She doesn't gain _spirit magic_ slots until
-4th level when she gains her _wandering spirit._ Any ability granted by a _wandering spirit_ that
-would normally affect a spirit animal (such as [nature's](ref/shamanspirit/nature) _true spirit
-ability_) has no effect for a draconic shaman.
-
-**Replaces:** Spirit, spirit animal, hexes gained at 4th and 10th levels
+This ability replaces spirit, spirit animal, and the hexes gained at 4th and 10th levels and alters
+spirit magic.

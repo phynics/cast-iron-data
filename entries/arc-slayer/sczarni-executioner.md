@@ -16,13 +16,20 @@ page = "21"
 
 [fields]
 kind = "archetype"
+features = [
+  { anchor = "bloodstained-hands" },
+  { anchor = "focused-killer", level = 1 },
+  { anchor = "painful-strike", level = 4 },
+  { anchor = "assassinate", level = 10 },
+  { anchor = "swift-death", level = 14 },
+]
 trades = [
-  { replaces = "Swift tracker", feature = "swift-tracker" },
-  { replaces = "Quarry", feature = "quarry" },
-  { replaces = "improved quarry", feature = "improved-quarry" },
-  { alters = "Studied target", feature = "studied-target" },
-  { alters = "Slayer talent received at 4th level", feature = "slayer-talents", levels = [4] },
-  { alters = "Slayer talent received at 10th level", feature = "slayer-talents", levels = [10] },
+  { replaces = "Swift tracker", feature = "swift-tracker", by = ["painful-strike"] },
+  { replaces = "Quarry", feature = "quarry", by = ["swift-death"] },
+  { replaces = "improved quarry", feature = "improved-quarry", by = ["swift-death"] },
+  { alters = "Studied target", feature = "studied-target", by = ["focused-killer"] },
+  { alters = "Slayer talent received at 4th level", feature = "slayer-talents", levels = [4], by = ["painful-strike"] },
+  { alters = "Slayer talent received at 10th level", feature = "slayer-talents", levels = [10], by = ["assassinate"] },
 ]
 +++
 
@@ -32,61 +39,43 @@ to the highest bidder. Though a few unscrupulous Sczarni executioners exploit th
 force families to pay higher rates for their services, most of these assassins follow a strict
 personal code and maintain absolute transparency with their employers.
 
-**Bloodstained Hands (Ex)**
+Talents marked with an asterisk (\*) add effects to a slayer's sneak attack. Only one of these
+talents can be applied to an individual attack, and the decision of which to use must be made before
+the attack roll is made.
 
-**Info:** If he ever becomes nonevil, he loses this archetype and becomes a regular slayer.
+## Class Skills {#class-skills}
 
-**Prereq:** A Sczarni executioner must be evil.
+A Sczarni executioner doesn't receive Knowledge (dungeoneering) (Int), Knowledge (geography) (Int),
+Ride (Dex), or Survival (Wis) as class skills. Instead, he receives Appraise (Int), Diplomacy (Cha),
+and Escape Artist (Dex) in addition to the other standard slayer class skills.
 
-**Gained class skills:** app, diplo, ea
+## Bloodstained Hands (Ex) {#bloodstained-hands}
 
-**Lost class skills:** kd, kg, ride, sur
+A Sczarni executioner must be evil. If he ever becomes nonevil, he loses this archetype and becomes
+a regular slayer.
 
-**Focused Killer (Ex)**
+## Focused Killer (Ex) {#focused-killer}
 
-**Alters:** Studied target
+At 1st level, a Sczarni executioner's studied target bonuses and the DCs of his slayer abilities
+increase by 1 against humanoid opponents, but decrease by 1 against non-humanoid targets. This
+ability alters studied target.
 
-**Gained:** At 1st Level
+## Painful Strike\* (Ex) {#painful-strike}
 
-**Passive:** A Sczarni executioner's _studied target_ bonuses and the DCs of his slayer abilities
-increase by 1 against humanoid opponents, but decrease by 1 against non-humanoid targets.
+At 4th level, a Sczarni executioner automatically gains this talent. Sczarni executioners are
+trained to cause excruciating pain when striking targets, often leaving them reeling in agony or
+completely incapacitated as they slowly bleed out. A creature that takes sneak attack damage from a
+Sczarni executioner must make a successful Fortitude save (DC = 10 + 1/2 the Sczarni executioner's
+class level + his Intelligence modifier) or become [sickened](ref/misc/sickened) for 1d4 rounds.
+This ability alters the slayer talent received at 4th level and replaces swift tracker.
 
-**Painful Strike (Ex)**
+## Assassinate (Ex) {#assassinate}
 
-**Ability:** A Sczarni executioner automatically gains this talent. A creature that takes sneak
-attack damage from a Sczarni executioner must make a successful a Fortitude save (DC = 10 + 1/2 the
-Sczarni executioner's class level + his Intelligence modifier) or become
-[sickened](ref/misc/sickened) for 1d4 rounds.
-
-**Alters:** Slayer talent received at 4th level
-
-**Flavor:** Sczarni executioners are trained to cause excruciating pain when striking targets, often
-leaving them reeling in agony or completely incapacitated as they slowly bleed out.
-
-**Gained:** At 4th Level
-
-**Replaces:** Swift tracker
-
-**Special:** This is considered a Primary Sneak Attack Talent. Only one such talent can be applied
-to an individual attack, and the decision of which to use must be made before the attack roll is
-made.
-
-**Assassinate (Ex)**
-
-**Ability:** A Sczarni executioner must select the [assassinate](ref/slayertalent/assassinate)
+At 10th level, a Sczarni executioner must select the [assassinate](ref/slayertalent/assassinate)
 advanced slayer talent.
 
-**Alters:** Slayer talent received at 10th level
+## Swift Death (Ex) {#swift-death}
 
-**Gained:** At 10th Level
-
-**Swift Death (Ex)**
-
-**Ability:** Once per day a Sczarni executioner can attempt to _assassinate_ a foe without
-_studying_ his foe beforehand. He must still succeed at a sneak attack against the target.
-
-**At 19th Level:** He can make two such attacks per day.
-
-**Gained:** At 14th Level
-
-**Replaces:** Quarry, improved quarry
+At 14th level, once per day a Sczarni executioner can attempt to assassinate a foe without studying
+his foe beforehand. He must still succeed at a sneak attack against the target. At 19th level, he
+can make two such attacks per day. This ability replaces quarry and improved quarry.

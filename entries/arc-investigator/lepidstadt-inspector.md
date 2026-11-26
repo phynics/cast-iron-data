@@ -16,13 +16,19 @@ page = "15"
 
 [fields]
 kind = "archetype"
+features = [
+  { anchor = "interrogation", level = 1 },
+  { anchor = "keen-mind", level = 3 },
+  { anchor = "perceptive-tracking", level = 3 },
+  { anchor = "relentless-pursuit", level = 5 },
+]
 trades = [
-  { replaces = "Trapfinding", feature = "trapfinding" },
-  { replaces = "Trap sense", feature = "trap-sense" },
-  { replaces = "poison resistance", feature = "poison-resistance", levels = [2, 5, 8] },
-  { replaces = "poison immunity", feature = "poison-resistance", levels = [11] },
-  { replaces = "Swift alchemy", feature = "swift-alchemy" },
-  { replaces = "investigator talent gained at 5th level", feature = "investigator-talent", levels = [5] },
+  { replaces = "Trapfinding", feature = "trapfinding", by = ["interrogation"] },
+  { replaces = "Trap sense", feature = "trap-sense", by = ["keen-mind"] },
+  { replaces = "poison resistance", feature = "poison-resistance", levels = [2, 5, 8], by = ["keen-mind"] },
+  { replaces = "poison immunity", feature = "poison-resistance", levels = [11], by = ["keen-mind"] },
+  { replaces = "Swift alchemy", feature = "swift-alchemy", by = ["relentless-pursuit"] },
+  { replaces = "investigator talent gained at 5th level", feature = "investigator-talent", levels = [5], by = ["relentless-pursuit"] },
 ]
 +++
 
@@ -35,47 +41,32 @@ to deal with mystical threats, but they are also mindful that what some claim ar
 problems may well be just the result of more mundane threats such as bandits, wild beasts, or public
 hysteria.
 
-**Interrogation (Ex)**
+## Interrogation (Ex) {#interrogation}
 
-**Flavor:** A Lepidstadt inspector is a master of harrying others until they cooperate with his
-investigations, and knows instinctively when the answers he receives are falsehoods.
+A Lepidstadt inspector is a master of harrying others until they cooperate with his investigations,
+and knows instinctively when the answers he receives are falsehoods. He adds 1/2 his class level
+(minimum 1) to Intimidate checks made to influence a creature's attitude and to Sense Motive checks.
+This ability replaces trapfinding.
 
-**Passive:** He adds 1/2 his class level (minimum 1) to Intimidate checks made to influence a
-creature's attitude and to Sense Motive checks.
+## Keen Mind (Ex) {#keen-mind}
 
-**Replaces:** Trapfinding
+At 3rd level, a Lepidstadt inspector's strong, analytical mind resists attacks and hazards that
+would muddy his clear thoughts. He gains a +1 bonus on Perception checks and Will saves. These
+bonuses increase to +2 at 9th level and +3 at 15th level. This ability replaces trap sense, poison
+resistance, and poison immunity.
 
-**Keen Mind (Ex)**
+## Perceptive Tracking (Ex) {#perceptive-tracking}
 
-**Flavor:** A Lepidstadt inspector's strong, analytical mind resists attacks and hazards that would
-muddy his clear thoughts.
-
-**At 15th Level:** These bonuses become +3.
-
-**At 3rd Level:** He gains a +1 bonus on Perception checks and Will saves.
-
-**At 9th Level:** These bonuses increase to +2.
-
-**Replaces:** Trap sense, poison resistance, poison immunity
-
-**Perceptive Tracking (Ex)**
-
-**Info:** A Lepidstadt inspector must take the
+At 3rd level, a Lepidstadt inspector must take the
 [perceptive tracking](ref/invtalent/perceptive-tracking) talent as his investigator talent. He
 doesn't need to be trained in Perception to do so.
 
-**Gained:** At 3rd Level
+## Relentless Pursuit (Ex) {#relentless-pursuit}
 
-**Relentless Pursuit (Ex)**
-
-**Flavor:** A Lepidstadt inspector can learn enough about a suspect through observation that he can
-deduce the most effective way to deal with the subject.
-
-**Gained:** At 5th Level
-
-**Passive:** Once per day, if a Lepidstadt inspector finds a creature's tracks using _perceptive
-tracking,_ he gains a +2 bonus on Bluff, Knowledge, Perception, Sense Motive, and Survival checks
-against or about that creature, as well as on weapon attack and damage rolls against that creature.
-These bonuses last until the Lepidstadt inspector selects a new subject for _relentless pursuit._
-
-**Replaces:** Swift alchemy, investigator talent gained at 5th level
+At 5th level, a Lepidstadt inspector can learn enough about a suspect through observation that he
+can deduce the most effective way to deal with the subject. Once per day, if a Lepidstadt inspector
+finds a creature's tracks using perceptive tracking, he gains a +2 bonus on Bluff, Knowledge,
+Perception, Sense Motive, and Survival checks against or about that creature, as well as on weapon
+attack and damage rolls against that creature. These bonuses last until the Lepidstadt inspector
+selects a new subject for relentless pursuit. This ability replaces swift alchemy and the
+investigator talent gained at 5th level.

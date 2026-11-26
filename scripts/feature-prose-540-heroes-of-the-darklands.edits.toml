@@ -1,0 +1,41 @@
+[[edit]]
+entry = "ref/arc-alchemist/blightseeker"
+anchor = "blights"
+note = "hand-written by the batch lead from print (Heroes of the Darklands pp. 10-11, ruling 45): print sets the blights as lists, four groups by level (1st, 6th, 12th, 18th), each introduced by its own sentence, and closes with the trade sentence. The extraction attached each introducing sentence to the item before it, and the import split the ability into four Blights sections. Written as one feature with a Markdown bullet list per group, one item per printed line."
+text = '''
+At 1st level, a blightseeker gains the blights from the list below. When he prepares bombs at the start of the day, a blightseeker chooses which blight to apply to each bomb. If a blight has no duration listed, it lasts a number of rounds equal to the blightseeker's Intelligence modifier.
+
+At 1st level, a blightseeker gains the following blights.
+
+- Impairing: The target's base land speed decreases by 10 feet, to a minimum of 10 feet. This effect doesn't stack with itself.
+
+- Minor Sickening: The target is [sickened](ref/misc/sickened), but it takes only a -1 penalty on affected rolls.
+
+At 6th level, a blightseeker adds the following blights to the list of those that can be applied to his bombs.
+
+- Fatiguing: The target is [fatigued](ref/misc/fatigued).
+
+- Fear-Inducing: The target is [shaken](ref/misc/shaken).
+
+- Sickening: The target is sickened.
+
+At 12th level, a blightseeker adds the following blights to the list of those blights that can be applied to his bombs.
+
+- Confusing: The target is [confused](ref/misc/confused).
+
+- Exhausting: The target is [exhausted](ref/misc/exhausted).
+
+- Nauseating: The target is [nauseated](ref/misc/nauseated) for 1 round.
+
+- Staggering: The target becomes [staggered](ref/misc/staggered) for 1 round.
+
+At 18th level, a blightseeker adds the following blights to the list of those that can be selected.
+
+- Blinding: The target is [blinded](ref/misc/blinded).
+
+- Deafening: The target is [deafened](ref/misc/deafened).
+
+- Stunning: The target is [stunned](ref/misc/stunned) for 1 round.
+
+This ability replaces the discoveries gained at 6th, 12th, and 18th levels.
+'''

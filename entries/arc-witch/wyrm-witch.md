@@ -16,8 +16,12 @@ page = "15"
 
 [fields]
 kind = "archetype"
+features = [
+  { anchor = "draconic-patronage" },
+  { anchor = "wyrmwitch-s-hoard", level = 1 },
+]
 trades = [
-  { replaces = "Witch's familiar", feature = "witch-s-familiar" },
+  { replaces = "Witch's familiar", feature = "witch-s-familiar", by = ["wyrmwitch-s-hoard"] },
 ]
 +++
 
@@ -26,141 +30,51 @@ and maintain vast piles of valuables is an important part of its personality. So
 particularly those in rich mercantile nations like Druma or Katapesh, have learned to use treasure
 to access other draconic powers.
 
-**Draconic Patronage**
+## Draconic Patronage {#draconic-patronage}
 
-**Choice:** A wyrmwitch must select one of the following patrons when he gains this archetype. The
-patron grants spells at the listed witch level.
+A wyrmwitch must select one of the following patrons when he gains this archetype. Only witches with
+the wyrmwitch archetype can select these patrons.
 
-**Special:** Only witches with the wyrmwitch archetype can select these patrons.
+### Chromatic {#chromatic}
 
-**Chromatic**
+2nd—_cause fear_, 4th—_hold person_, 6th—_suggestion_, 8th—_aura of doom_, 10th—_dominate person_,
+12th—_geas/quest_, 14th—_mass hold person_, 16th—_frightful aspect_, 18th—_overwhelming presence_.
 
-**Spells:** Dominate person
+### Esoteric {#esoteric}
 
-**Spells:** Geas/quest
+2nd—_memory lapse_, 4th—_psychic reading_, 6th—_nondetection_, 8th—_hypercognition_, 10th—_mind
+probe_, 12th—_telepathy_, 14th—_insanity_, 16th—_screen_, 18th—_bilocation_.
 
-**Spells:** Mass hold person
+### Imperial {#imperial}
 
-**Spells:** Frightful aspect
+2nd—_endure elements_, 4th—_gust of wind_, 6th—_hydraulic torrent_, 8th—_obsidian flow_,
+10th—_fickle winds_, 12th—_move earth_, 14th—_reverse gravity_, 16th—_wall of lava_, 18th—_world
+wave_.
 
-**Spells:** Overwhelming presence
+### Metallic {#metallic}
 
-**Spells:** Cause fear
+2nd—_protection from evil_, 4th—_weapon of awe_, 6th—_heroism_, 8th—_dispel evil_, 10th—_commune_,
+12th—_greater heroism_, 14th—_limited wish_, 16th—_holy aura_, 18th—_miracle_.
 
-**Spells:** Hold person
+### Outer {#outer}
 
-**Spells:** Suggestion
+2nd—_deja vu_, 4th—_darkness_, 6th—_blink_, 8th—_black tentacles_, 10th—_mindwipe_, 12th—_shadow
+walk_, 14th—_lunar veil_, 16th—_orb of the void_, 18th—_weird_.
 
-**Spells:** Aura of doom
+### Primal {#primal}
 
-**Esoteric**
+2nd—_burning hands_, 4th—_elemental touch_, 6th—_elemental aura_, 8th—_planar adaptation_,
+10th—_elemental body II_, 12th—_chain lightning_, 14th—_vortex_, 16th—_polar ray_, 18th—_fiery
+body_.
 
-**Spells:** Mind probe
+## Wyrmwitch's Hoard (Ex) {#wyrmwitch-s-hoard}
 
-**Spells:** Telepathy
-
-**Spells:** Insanity
-
-**Spells:** Screen
-
-**Spells:** Bilocation
-
-**Spells:** Memory lapse
-
-**Spells:** Psychic reading
-
-**Spells:** Nondetection
-
-**Spells:** Hypercognition
-
-**Imperial**
-
-**Spells:** Fickle winds
-
-**Spells:** Move earth
-
-**Spells:** Reverse gravity
-
-**Spells:** Wall of lava
-
-**Spells:** World wave
-
-**Spells:** Endure elements
-
-**Spells:** Gust of wind
-
-**Spells:** Hydraulic torrent
-
-**Spells:** Obsidian flow
-
-**Metallic**
-
-**Spells:** Commune
-
-**Spells:** Greater heroism
-
-**Spells:** Limited wish
-
-**Spells:** Holy aura
-
-**Spells:** Miracle
-
-**Spells:** Protection from evil
-
-**Spells:** Weapon of awe
-
-**Spells:** Heroism
-
-**Spells:** Dispel evil
-
-**Outer**
-
-**Spells:** Mindwipe
-
-**Spells:** Shadow walk
-
-**Spells:** Lunar veil
-
-**Spells:** Orb of the void
-
-**Spells:** Weird
-
-**Spells:** Deja vu
-
-**Spells:** Darkness
-
-**Spells:** Blink
-
-**Spells:** Black tentacles
-
-**Primal**
-
-**Spells:** Elemental body II
-
-**Spells:** Chain lightning
-
-**Spells:** Vortex
-
-**Spells:** Polar ray
-
-**Spells:** Fiery body
-
-**Spells:** Burning hands
-
-**Spells:** Elemental touch
-
-**Spells:** Elemental aura
-
-**Spells:** Planar adaptation
-
-**Wyrmwitch's Hoard**
-
-**Ability:** Unlike traditional witches, a wyrmwitch does not have a familiar. Instead, a wyrmwitch
-develops a metaphysical link with a bonded hoard of treasure that serves as a conduit to the
-wyrmwitch's patron. A wyrmwitch's hoard must have a value of 50 gp plus 100 gp for every character
-level he has beyond 1st. Only nonmagical objects that are not alchemical items, weapons, armor, or
-useful tools can be part of a wyrmwitch's hoard. If the hoard falls below this value, the wyrmwitch
-cannot sleep on his hoard (see below) or add new spells to it until its value is restored.
+Unlike traditional witches, a wyrmwitch does not have a familiar. Instead, a wyrmwitch develops a
+metaphysical link with a bonded hoard of treasure that serves as a conduit to the wyrmwitch's
+patron. A wyrmwitch's hoard must have a value of 50 gp plus 100 gp for every character level he has
+beyond 1st. Only nonmagical objects that are not alchemical items, weapons, armor, or useful tools
+can be part of a wyrmwitch's hoard. If the hoard falls below this value, the wyrmwitch cannot sleep
+on his hoard (see below) or add new spells to it until its value is restored.
 
 A wyrmwitch's spells come from this link with his hoard, and its ability to hold spells functions in
 a manner identical to the way a witch's spells are normally granted by a familiar. A wyrmwitch can
@@ -181,4 +95,4 @@ casting, even if the spell is not prepared. This spell is treated like any other
 wyrmwitch, including when determining casting time, duration, and other effects dependent on the
 wyrmwitch's level. This spell cannot be modified by metamagic feats or other abilities.
 
-**Replaces:** Witch's familiar
+This ability replaces witch's familiar.

@@ -16,15 +16,19 @@ page = "24"
 
 [fields]
 kind = "archetype"
+features = [
+  { anchor = "drake-mount", level = 1 },
+  { anchor = "approved-order" },
+]
 trades = [
-  { replaces = "Mount", feature = "mount" },
-  { replaces = "tactician", feature = "tactician" },
-  { replaces = "expert trainer", feature = "expert-trainer" },
-  { replaces = "banner", feature = "banner" },
-  { replaces = "greater tactician", feature = "greater-tactician" },
-  { replaces = "greater banner", feature = "greater-banner" },
-  { replaces = "master tactician", feature = "master-tactician" },
-  { alters = "Cavalier's charge", feature = "cavalier-s-charge" },
+  { replaces = "Mount", feature = "mount", by = ["drake-mount"] },
+  { replaces = "tactician", feature = "tactician", by = ["drake-mount"] },
+  { replaces = "expert trainer", feature = "expert-trainer", by = ["drake-mount"] },
+  { replaces = "banner", feature = "banner", by = ["drake-mount"] },
+  { replaces = "greater tactician", feature = "greater-tactician", by = ["drake-mount"] },
+  { replaces = "greater banner", feature = "greater-banner", by = ["drake-mount"] },
+  { replaces = "master tactician", feature = "master-tactician", by = ["drake-mount"] },
+  { alters = "Cavalier's charge", feature = "cavalier-s-charge", by = ["drake-mount"] },
 ]
 +++
 
@@ -36,20 +40,18 @@ Triaxus, envious of the close connection between dragonriders and dragons, attem
 relationship by raising drake hatchlings. These efforts aren't always successful, sometimes leaving
 the would-be drakeriders dead or maimed.
 
-**Drake Mount**
+## Drake Mount {#drake-mount}
 
-**Ability:** A drakerider gains a [drake companion](ref/sidekick/drake) instead of a mount. She
-gains cavalier's charge at 9th level instead of 3rd.
+A drakerider gains a [drake companion](ref/sidekick/drake) instead of a mount. She gains cavalier's
+charge at 9th level instead of 3rd.
 
-**Alters:** Cavalier's charge
+This ability replaces mount, tactician, expert trainer, banner, greater tactician, greater banner,
+and master tactician and alters cavalier's charge.
 
-**Replaces:** Mount, tactician, expert trainer, banner, greater tactician, greater banner, master
-tactician
+## Approved Order {#approved-order}
 
-**Approved Order**
-
-**Info:** A drakerider can join only an order approved by its mount. Suitable orders include
-[order of the beast (ISC)](ref/order/order-of-the-beast-isc),
+A drakerider can join only an order approved by its mount. Suitable orders include
+[order of the beast](ref/order/order-of-the-beast-isc),
 [order of the cockatrice](ref/order/order-of-the-cockatrice), and
 [order of the dragon](ref/order/order-of-the-dragon), as well as other fitting orders at the GM's
 discretion.

@@ -12,40 +12,38 @@ page = "10"
 
 [fields]
 kind = "archetype"
+features = [
+  { anchor = "deceitful" },
+  { anchor = "mockingbird", level = 5 },
+  { anchor = "master-s-guise", level = 11 },
+]
 trades = [
-  { replaces = "Alertness" },
-  { replaces = "Speak with master" },
-  { replaces = "speak with animals of its kind" },
-  { replaces = "Spell resistance" },
+  { replaces = "Alertness", by = ["deceitful"] },
+  { replaces = "Speak with master", by = ["mockingbird"] },
+  { replaces = "speak with animals of its kind", by = ["mockingbird"] },
+  { replaces = "Spell resistance", by = ["master-s-guise"] },
 ]
 +++
 
 A decoy misdirects its master's enemies, allowing the master to strike by surprise.
 
-**Gained class skills:** bluff
+## Class Skills {#class-skills}
 
-**Deceitful**
+A decoy treats Bluff as a class skill.
 
-**Passive:** A decoy gains [Deceitful](ref/feat/deceitful) as a bonus feat.
+## Deceitful {#deceitful}
 
-**Replaces:** Alertness
+A decoy gains [Deceitful](ref/feat/deceitful) as a bonus feat. This replaces alertness.
 
-**Mockingbird (Ex)**
+## Mockingbird (Ex) {#mockingbird}
 
-**At 5th Level:** A decoy can speak any of its master's languages.
+At 5th level, a decoy can speak any of its master's languages. At 7th level, it can mimic its
+master's voice and intonation perfectly. This ability replaces speak with master and speak with
+animals of its kind.
 
-**At 7th Level:** It can mimic its master's voice and intonation perfectly.
+## Master's Guise (Sp) {#master-s-guise}
 
-**Replaces:** Speak with master, speak with animals of its kind
-
-**Master's Guise (Sp)**
-
-**Gained:** At 11th Level
-
-**Replaces:** [Spell resistance](ref/rule/spell-resistance)
-
-**Special:** It can hold this form for up to 1 minute per caster level; upon changing back, the
-decoy must remain in its natural form for an equal amount of time before transforming again.
-
-**Standard:** A decoy can transform into a perfect likeness of its master, as the
-[alter self](ref/spell/alter-self) spell.
+At 11th level, a decoy can transform into a perfect likeness of its master, as the
+_[alter self](ref/spell/alter-self)_ spell. It can hold this form for up to 1 minute per caster
+level; upon changing back, the decoy must remain in its natural form for an equal amount of time
+before transforming again. This ability replaces [spell resistance](ref/rule/spell-resistance).

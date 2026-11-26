@@ -16,11 +16,16 @@ page = "17"
 
 [fields]
 kind = "archetype"
+features = [
+  { anchor = "dubious-recognition", level = 1 },
+  { anchor = "double-speak", level = 7 },
+  { anchor = "sudden-betrayal", level = 14 },
+]
 trades = [
-  { replaces = "Track", feature = "track" },
-  { replaces = "Stalker", feature = "stalker" },
-  { replaces = "Quarry", feature = "quarry" },
-  { replaces = "improved quarry", feature = "improved-quarry" },
+  { replaces = "Track", feature = "track", by = ["dubious-recognition"] },
+  { replaces = "Stalker", feature = "stalker", by = ["double-speak"] },
+  { replaces = "Quarry", feature = "quarry", by = ["sudden-betrayal"] },
+  { replaces = "improved quarry", feature = "improved-quarry", by = ["sudden-betrayal"] },
 ]
 +++
 
@@ -32,34 +37,30 @@ areas, and his ability to adapt allows him to preempt opponents' schemes. Not al
 be comfortable with having someone so adept at backstabbing among their ranks, but most tend to be
 grateful that he uses his skills to their benefit.
 
-**Dubious Recognition (Ex)**
+## Dubious Recognition (Ex) {#dubious-recognition}
 
-**Passive:** A turncoat adds half his level (minimum 1) to Sense Motive checks to recognize when a
-creature is lying or attempting to take advantage of the turncoat and his allies.
+A turncoat adds half his level (minimum 1) to Sense Motive checks to recognize when a creature is
+lying or attempting to take advantage of the turncoat and his allies.
 
-**Replaces:** Track
+This replaces track.
 
-**Double Speak (Ex)**
+## Double Speak (Ex) {#double-speak}
 
-**Ability:** A turncoat can attempt a Bluff check in place of a Diplomacy check against a _studied
-target._ The target can attempt an opposed Sense Motive check.
+At 7th level, a turncoat can attempt a Bluff check in place of a Diplomacy check against a studied
+target. The target can attempt an opposed Sense Motive check.
 
-**Gained:** At 7th Level
+This ability replaces stalker.
 
-**Replaces:** Stalker
+## Sudden Betrayal (Ex) {#sudden-betrayal}
 
-**Sudden Betrayal (Ex)**
+At 14th level, as a standard action a turncoat can choose a single creature within 30 feet. He gains
+a +4 circumstance bonus on [Diplomacy](ref/skill/diplomacy) checks against this target. If the
+target has an attitude of indifferent or better toward him, the first attack roll the turncoat makes
+against that target is automatically treated as threatening a critical hit. If the target's attitude
+is friendly or better, a successful attack is treated as a confirmed critical hit. This ability can
+be used only once per day.
 
-**At 19th Level:** The bonus increases to +6, and the attack is treated as a confirmed critical hit
-if the target is at least indifferent to the turncoat.
+At 19th level, the bonus increases to +6, and the attack is treated as a confirmed critical hit if
+the target is at least indifferent to the turncoat.
 
-**Gained:** At 14th Level
-
-**Replaces:** Quarry, improved quarry
-
-**Standard:** A turncoat can choose a single creature within 30 feet. He gains a +4 circumstance
-bonus on [Diplomacy](ref/skill/diplomacy) checks against this target. If the target has an attitude
-of indifferent or better toward him, the first attack roll the turncoat makes against that target is
-automatically treated as threatening a critical hit. If the target's attitude is friendly or better,
-a successful attack is treated as a confirmed critical hit. This ability can be used only once per
-day.
+This ability replaces quarry and improved quarry.
