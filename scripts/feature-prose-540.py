@@ -133,6 +133,7 @@ FORGET_CHECKER_HOLDS = False
 # `prereq` (a "Prereq: Nth-level" row is print's "must be at least Nth level"), `usage` (a `Usage` row that print says word for word
 # is print's), `values` (values level by level), `dropped` (a dropped table or paragraph is a hold).
 RULES = {"hyphens": True, "prereq": True, "usage": True, "values": True, "dropped": True}
+HYPHEN_SPACES = [False]      # on while `compare_feature` runs: the comparison of the rule `hyphens`, not the choice of the text that is written
 
 TSV_HEADER = [
     "entry", "feature", "anchor", "listed", "level", "source", "status", "note", "page", "span_sha256",
@@ -254,7 +255,7 @@ def tokens(text: str, drop: set[str] = frozenset()) -> list[str]:
     out = []
     for raw in TOKEN.findall(text):
         t = raw.strip("-'/")
-        if RULES["hyphens"] and re.search(r"[a-z0-9]-[a-z0-9]", t) and not NUMBER_TOKEN.match(t) and t != "full-round":
+        if RULES["hyphens"] and HYPHEN_SPACES[0] and re.search(r"[a-z0-9]-[a-z0-9]", t) and not NUMBER_TOKEN.match(t) and t != "full-round":
             # a hyphen is a space ("brown-fur", "5-foot"): the parts are tokens of their own
             for part in t.split("-"):
                 if part and part not in IGNORED:
@@ -1501,6 +1502,14 @@ def take_printed_usage(rows: list[str], p_clean: str) -> tuple[str, list[str], l
 
 
 def compare_feature(draft: Draft, print_text: str, drop: set[str], title_tokens: set[str]) -> Compare:
+    HYPHEN_SPACES[0] = True
+    try:
+        return _compare_feature(draft, print_text, drop, title_tokens)
+    finally:
+        HYPHEN_SPACES[0] = False
+
+
+def _compare_feature(draft: Draft, print_text: str, drop: set[str], title_tokens: set[str]) -> Compare:
     """Draft against the printed paragraph. Differences in words that carry no rule (articles, pronouns, the
     person, connectives, action labels, the order of sentences) are wording; a number or any other word that
     only one side has is a changed number or rule word (held). Printed progressions are expanded against the
@@ -1508,6 +1517,10 @@ def compare_feature(draft: Draft, print_text: str, drop: set[str], title_tokens:
     (ruling 10)."""
     notes: list[str] = []
     info: list[str] = []
+    if RULES["hyphens"]:
+        # the title's own hyphenated words are compared as their parts, like the text ("Two-Handed Fighter")
+        title_tokens = title_tokens | {x if NUMBER_TOKEN.match(x) else stem(x) for t in title_tokens if "-" in t for x in t.split("-") if x}
+        drop = drop | {x if NUMBER_TOKEN.match(x) else stem(x) for t in drop if "-" in t for x in t.split("-") if x}      # (the feature's own name)
     skip = drop | title_tokens
     p_clean = strip_trade_sentences(print_text)
     d_clean = strip_trade_sentences(draft.core)
@@ -4296,11 +4309,17 @@ def self_test() -> int:
 
     # rule 2: a hyphen is a space
     RULES["hyphens"] = False
+    HYPHEN_SPACES[0] = True
     off2 = (tokens("a mind-affecting 1st-detect effect"), tokens("a mind affecting effect"))
     RULES["hyphens"] = True
     on2 = (tokens("a mind-affecting 1st-detect effect"), tokens("a mind affecting 1 detect effect"))
     eq((off2[0] == off2[1], on2[0] == on2[1]), (False, True), "rule 2: mind-affecting is mind affecting, 1st-detect is 1 detect")
     eq(tokens("a full-round action and a 5-foot step"), ["full-round", "action", "5", "foot", "step"], "rule 2: full-round stays one word (an action)")
+    HYPHEN_SPACES[0] = False
+    eq(tokens("a mind-affecting effect"), ["mind-affecting", "effect"], "rule 2 is a rule of the comparison of a feature: other uses of the words keep the hyphen")
+    d2_ = build_draft(parse_import("Intro.\n\n**Counter-Grapple (Ex)**\n\n**Gained:** At 1st Level\n\n**Passive:** A monk who is grappled gains a counter-grapple.\n")[1][0])
+    eq(compare_feature(d2_, "At 1st level, a monk who is grappled gains a counter grapple.", set(tokens("Counter-Grapple")), set()).status, "print",
+       "rule 2: the feature's own hyphenated name is dropped as its parts")
     eq(cmp_rule("hyphens", "**Gained:** At 1st Level\n\n**Passive:** The transmuter takes a 5-foot step.",
                 "At 1st level, the transmuter takes a 10 foot step.")[1], "hold", "rule 2: a different number is still a hold")
     # rule 3: a `Prereq: Nth-level` row is print's "must be at least Nth level"

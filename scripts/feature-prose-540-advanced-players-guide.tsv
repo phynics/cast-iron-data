@@ -18,8 +18,8 @@ ref/arc-barbarian/invulnerable-rager	Rage Powers	rage-powers	no		print	print	pri
 ref/arc-barbarian/mounted-fury	Fast Rider (Ex)	fast-rider	yes	1	print	print	level 1: replaces Fast movement, of which one is gained at 1st level in the class table; print: Advanced Player's Guide, 2nd printing	79	d89d56a436849b1642d697b6a021d0c069a85909ab5402af615277540ed2b312
 ref/arc-barbarian/mounted-fury	Bestial Mount (Ex)	bestial-mount	yes	5	print	print		79	fcabff98a12823e43f9df58a447f35aaf1b656957ccc4989c2f246d368702696
 ref/arc-barbarian/mounted-fury	Rage Powers	rage-powers	no		print	print		79	ce2e7d741524c4487e9810bbf76660a002ee0b0914d0b42fc17d8f0b45809722
-ref/arc-barbarian/savage-barbarian	Naked Courage (Ex)	naked-courage	yes	3	print	print	print: Advanced Player's Guide, 2nd printing	79	b6c81958beef9afd5d9ce9a1100259d94eeac1ecff56936000d4a2e533affa18
-ref/arc-barbarian/savage-barbarian	Natural Toughness (Ex)	natural-toughness	yes	7	print	print		79	f8e98c00a8507baefe2581e685cf5350ba16021a09047349052edb282e1ebed5
+ref/arc-barbarian/savage-barbarian	Naked Courage (Ex)	naked-courage	yes	3	print	print	rule 1: the corpus rows and the printed values agree level by level; print's wording taken; print: Advanced Player's Guide, 2nd printing	79	b6c81958beef9afd5d9ce9a1100259d94eeac1ecff56936000d4a2e533affa18
+ref/arc-barbarian/savage-barbarian	Natural Toughness (Ex)	natural-toughness	yes	7	print	print	rule 1: the corpus rows and the printed values agree level by level; print's wording taken	79	f8e98c00a8507baefe2581e685cf5350ba16021a09047349052edb282e1ebed5
 ref/arc-barbarian/savage-barbarian	Rage Powers	rage-powers	no		print	print	print asterisks without their key dropped	79	62426a3dcf7e0dde2488495eea96d075423b8fa704bef5065464950eb255add3
 ref/arc-barbarian/superstitious	Sixth Sense (Ex)	sixth-sense	yes	3	print	print	rule 8: the printed progression and the corpus's fraction of the level give the same values; print's wording taken; print: Advanced Player's Guide, 2nd printing	79	2f19e6083a3f16e4cbbaa4ee623e88e013cbc3486d51afffbf5427f2762b0998
 ref/arc-barbarian/superstitious	Keen Senses (Ex)	keen-senses	yes	7	print	print		79	c71cccf7b9e3331d9f6ffad42839927d1d73186676f68edd35c0dcf2924e1ea2
@@ -34,7 +34,7 @@ ref/arc-bard/arcane-duelist	Arcane Bond (Ex)	arcane-bond	yes	5	print	print	hand 
 ref/arc-bard/arcane-duelist	Arcane Armor (Ex)	arcane-armor	yes	10	print	print	hand review (ruling 14, print): Same rule, different words.	80	d47ffee3d97182bcd22bd8ae107030bf8ae0d83d2c661fef14471a514d3fad7f
 ref/arc-bard/arcane-duelist	Bonded Object	bonded-object	no			print	hand review (ruling 14, structural): The text is copied from the wizard class, not from this book. Drop the section (ruling 10).; link of the dropped section not placed: concentration; link of the dropped section not placed: Craft Magic Arms and Armor		88c771b5f0846b0a5977c33d693b48c40eb3df8c8af382b95cfd3f6a5db080ba
 ref/arc-bard/archivist	Bardic Performance	bardic-performance	yes		draft	draft	print: Advanced Player's Guide, 2nd printing	80	c32b37516bf1780dba27961c20374e9c098bd093cc90488ffbffd1a3924772c5
-ref/arc-bard/archivist	Naturalist (Ex)	naturalist	yes	1	print	print	level 1: replaces Inspire courage, of which one is gained at 1st level in the class table	80	13ddacfb62f8161597d458ee00e3cd63f17378450d1800b51048adcd1fe7bf2f
+ref/arc-bard/archivist	Naturalist (Ex)	naturalist	yes	1	print	print	rule 1: the corpus rows and the printed values agree level by level; print's wording taken; level 1: replaces Inspire courage, of which one is gained at 1st level in the class table	80	13ddacfb62f8161597d458ee00e3cd63f17378450d1800b51048adcd1fe7bf2f
 ref/arc-bard/archivist	Lamentable Belaborment (Ex)	lamentable-belaborment	yes	6	print	print	link of `half` placed in `magic-lore`	80	f51dc4826c2576461e9d8d4afc49acefba640dfd7d4c48f3dae7c24477f1ba7c
 ref/arc-bard/archivist	Pedantic Lecture (Su)	pedantic-lecture	yes	18	print	print		80	ab6378cf7968e3836a03def1968dc70461c2c3df7b0b18a40b374da76efe7072
 ref/arc-bard/archivist	Lore Master (Ex)	lore-master	yes	2	print	print	ruling 10: corpus text that print does not have is dropped: “At 2nd level, an archivist may take …”	80	060f3c4d2897edbf14acee5a474ace86a51216ab1e18416693e47109b2b0e00c
@@ -49,14 +49,14 @@ ref/arc-bard/court-bard	Scandal (Su)	scandal	yes		print	print		81	4ce487683b307c
 ref/arc-bard/court-bard	Heraldic Expertise (Ex)	heraldic-expertise	yes	1	print	print	level 1: replaces Bardic knowledge, of which one is gained at 1st level in the class table	81	94b8e08947085b1d673897807699afa0a2338a3066e7c1fe5138b2011227fb9a
 ref/arc-bard/court-bard	Wide Audience (Su)	wide-audience	yes	5	print	print		81	246c41987a60c2c5d8eb40e319ace146b79d7cfe11dbf0e47d6117d7d04c0486
 ref/arc-bard/detective	Bardic Performance	bardic-performance	yes		draft	draft	print: Advanced Player's Guide, 2nd printing	81	952702d865565dd306fbb5c6b0fe1a346259a3f1a183144337c72a00b3edfcac
-ref/arc-bard/detective	Careful Teamwork (Su)	careful-teamwork	yes	1	print	print	level 1: replaces Inspire courage, of which one is gained at 1st level in the class table	81	efe7ef0c89d6cc57357e87d216737fa0dc62d574fadda83d3dc999cb9dc3e9a7
+ref/arc-bard/detective	Careful Teamwork (Su)	careful-teamwork	yes	1	print	print	rule 1: the corpus rows and the printed values agree level by level; print's wording taken; level 1: replaces Inspire courage, of which one is gained at 1st level in the class table	81	efe7ef0c89d6cc57357e87d216737fa0dc62d574fadda83d3dc999cb9dc3e9a7
 ref/arc-bard/detective	True Confession (Su)	true-confession	yes	9	print	print	hand review (ruling 14, print): Same values.; link of `half` placed in `eye-for-detail`	81	40613f9b417fd8a8c35ba4aabccca6acdd9a04fb29de471820320c27c07d07d2
 ref/arc-bard/detective	Show Yourselves (Ex)	show-yourselves	yes	15	print	print		82	444383c70a8465384e121acc14b03f45b56f96e151ab4fe89abbede25cc00e8a
 ref/arc-bard/detective	Eye for Detail (Ex)	eye-for-detail	yes	1	print	print	level 1: replaces Bardic knowledge, of which one is gained at 1st level in the class table	82	8cf98670d1470549f1c01aee6b8714042a2e2e99f5de5593dac4dc81df7d8185
 ref/arc-bard/detective	Arcane Insight (Ex)	arcane-insight	yes	2	print	print		82	50d3a1fcd24f05d198d0f43b707751d5e4a79c630e7e38dbba17ff235c7ff3b1
-ref/arc-bard/detective	Arcane Investigation	arcane-investigation	yes		print	print	hand review (ruling 14, print): The corpus's list is the expansion of print's rule. Same spell list.	82	c54f244fe5b803100f0010f775c597ccd271d8e5a8b72669bc6cfa949c1fb4d1
+ref/arc-bard/detective	Arcane Investigation	arcane-investigation	yes		print	print		82	c54f244fe5b803100f0010f775c597ccd271d8e5a8b72669bc6cfa949c1fb4d1
 ref/arc-bard/magician	Bardic Performance	bardic-performance	yes		draft	draft	print: Advanced Player's Guide, 2nd printing	82	12e1b83a5747f511bbfdf22cb61fa47d64c5f7b3e6e82ac644d52e6a0b0a2f19
-ref/arc-bard/magician	Dweomercraft (Su)	dweomercraft	yes	1	print	print	level 1: replaces Inspire courage, of which one is gained at 1st level in the class table	82	41110e04fac102552e66d6ef1e7fc9298942fb8c015c53fe91c20bd35732ef2b
+ref/arc-bard/magician	Dweomercraft (Su)	dweomercraft	yes	1	print	print	rule 1: the corpus rows and the printed values agree level by level; print's wording taken; level 1: replaces Inspire courage, of which one is gained at 1st level in the class table	82	41110e04fac102552e66d6ef1e7fc9298942fb8c015c53fe91c20bd35732ef2b
 ref/arc-bard/magician	Spell Suppression (Su)	spell-suppression	yes	8	print	print	misprint fixed: print has "A 8th level", the lead is "At 8th level"	82	bc748bea7935d1d2ad3428d5380d70d9c7007333b1b2e20ccd1d41e5edaac5cd
 ref/arc-bard/magician	Metamagic Mastery (Ex)	metamagic-mastery	yes	14	print	print		82	0a9229b7dff095f56b8c94c8d280d46ed43735278c153ae29b40c4b6faf56755
 ref/arc-bard/magician	Magical Talent (Ex)	magical-talent	yes	1	print	print	level 1: replaces Bardic knowledge, of which one is gained at 1st level in the class table	82	2e62692cb4f3655f37dea241f34b28a59541992bd2484796fab90b9457e30587
@@ -192,14 +192,14 @@ ref/arc-druid/wolf-shaman	Wild Shape (Su)	wild-shape	yes	6	print	print		103	d0b9
 ref/arc-druid/wolf-shaman	Bonus Feat	bonus-feat	yes	9	print	print	ruling 10: corpus text that print does not have is dropped: “At 9th level, a wolf shaman gains …”	103	bbfb715e8a4d774a095185ae6da93a21eabd0bc5394f45fadc47f5a044c69a61
 ref/arc-fighter/archer	Hawkeye (Ex)	hawkeye	yes	2	print	print	ruling 8: print corrects the corpus (+1 at 2nd level and every 4 levels beyond; the corpus gave 1 + one-fourth of the level); print: Advanced Player's Guide, 2nd printing	104	663f9ecd5421b3f0195ff4da855b9871ffa1203ed9bffa761acab5e45ce34316
 ref/arc-fighter/archer	Trick Shot (Ex)	trick-shot	yes	3	print	print	hand review (ruling 14, print): Same values.	104	1e60c77ba07d23175d562f8a614b3b89fd443b36e455deb635d15df37373a6e5
-ref/arc-fighter/archer	Expert Archer (Ex)	expert-archer	yes	5	print	print		104	3792c425e12944edad20442fb90d5ddf3f0662b66001f26ce68b35dee5378aef
+ref/arc-fighter/archer	Expert Archer (Ex)	expert-archer	yes	5	print	print	rule 1: the corpus rows and the printed values agree level by level; print's wording taken	104	3792c425e12944edad20442fb90d5ddf3f0662b66001f26ce68b35dee5378aef
 ref/arc-fighter/archer	Safe Shot (Ex)	safe-shot	yes	9	print	print		104	07a9b892920a3cbd94f71739c74801dfd7c3c734a198bf11549fa1c4d460b4b0
-ref/arc-fighter/archer	Evasive Archer (Ex)	evasive-archer	yes	13	print	print	hand review (ruling 14, print): Same value.	104	d5437ea5d801a906adba6ab27efb5b627d6dc81df2d2705a022e6073754a3abe
+ref/arc-fighter/archer	Evasive Archer (Ex)	evasive-archer	yes	13	print	print	rule 1: the corpus rows and the printed values agree level by level; print's wording taken	104	d5437ea5d801a906adba6ab27efb5b627d6dc81df2d2705a022e6073754a3abe
 ref/arc-fighter/archer	Volley (Ex)	volley	yes	17	print	print		104	194bb32d75235ee918ff3a33dec2869d19144e499145c04f60a7c4233bc7ee82
 ref/arc-fighter/archer	Ranged Defense (Ex)	ranged-defense	yes	19	print	print		104	1e03a12acd0df72da5dbfc250d3d77f65a81e139f7f11458bef3e4342b4639ff
 ref/arc-fighter/archer	Weapon Mastery (Ex)	weapon-mastery	yes		draft	draft		104	1c4b1e5557e36838d4f7f389a505efe6b89be0981b152a96f14938c18d99f32f
 ref/arc-fighter/crossbowman	Deadshot (Ex)	deadshot	yes	3	print	print	link not placed: half; print: Advanced Player's Guide, 2nd printing	104	f550cf2a701bbd88b28f128e929027c23546b5fdf851a445a252ea53d4f9eb81
-ref/arc-fighter/crossbowman	Crossbow Expert (Ex)	crossbow-expert	yes	5	print	print		104	720e6f9fc7821133c1249b41063f7934cecb41a52077458c972c373348bde24d
+ref/arc-fighter/crossbowman	Crossbow Expert (Ex)	crossbow-expert	yes	5	print	print	rule 1: the corpus rows and the printed values agree level by level; print's wording taken	104	720e6f9fc7821133c1249b41063f7934cecb41a52077458c972c373348bde24d
 ref/arc-fighter/crossbowman	Improved Deadshot (Ex)	improved-deadshot	yes	7	print	print		104	c0b0b86d39e1f2d132c75f8cdfb7d9302de7e7f7a4b1006cf8bfb186dde07454
 ref/arc-fighter/crossbowman	Quick Sniper (Ex)	quick-sniper	yes	9	print	print		104	15a02a1ac47b9ef87c45a2c467bea8cd87c91cf3531ff5a0705a2a8193688a2b
 ref/arc-fighter/crossbowman	Greater Deadshot (Ex)	greater-deadshot	yes	11	print	print		104	52e5c72f41116ac02d436c427d095b0d989d2611d2ee527ebc17958204bfb0aa
@@ -208,14 +208,14 @@ ref/arc-fighter/crossbowman	Pinpoint Targeting	pinpoint-targeting	yes	15	print	p
 ref/arc-fighter/crossbowman	Meteor Shot (Ex)	meteor-shot	yes	17	print	print		104	692362f4d54431caff0192c0a034b97e0f4b3480b329a319a0546f25aa010162
 ref/arc-fighter/crossbowman	Penetrating Shot (Ex)	penetrating-shot	yes	19	print	print		104	c24e7eb3671caad1af4aa6314dbba4502b3c04cb565ce79000f58844dd85c6c1
 ref/arc-fighter/crossbowman	Weapon Mastery (Ex)	weapon-mastery	yes		print	print	hand review (ruling 14, print): Same rule.	105	1006d74f5e319f4070469cf7e5f631206255fb7099dca988a04482b40d5c0c6d
-ref/arc-fighter/free-hand-fighter	Deceptive Strike (Ex)	deceptive-strike	yes	2	print	print	print: Advanced Player's Guide, 2nd printing	105	49a44763dd6898383c4a4e30132780613bc6ac3b003af7ab1614b7387484b4fe
-ref/arc-fighter/free-hand-fighter	Elusive (Ex)	elusive	yes	3	print	print		105	9d6e451ed83b662f13f976d3c090196ed2d3a3ade15c4a520cb529b282bcc5f1
-ref/arc-fighter/free-hand-fighter	Singleton (Ex)	singleton	yes	5	print	print		105	b29f3f3630d5908aedeb63b1074558aaa2e44b7784709071e0fb027d910ae00b
+ref/arc-fighter/free-hand-fighter	Deceptive Strike (Ex)	deceptive-strike	yes	2	print	print	rule 1: the corpus rows and the printed values agree level by level; print's wording taken; print: Advanced Player's Guide, 2nd printing	105	49a44763dd6898383c4a4e30132780613bc6ac3b003af7ab1614b7387484b4fe
+ref/arc-fighter/free-hand-fighter	Elusive (Ex)	elusive	yes	3	print	print	rule 1: the corpus rows and the printed values agree level by level; print's wording taken	105	9d6e451ed83b662f13f976d3c090196ed2d3a3ade15c4a520cb529b282bcc5f1
+ref/arc-fighter/free-hand-fighter	Singleton (Ex)	singleton	yes	5	print	print	rule 1: the corpus rows and the printed values agree level by level; print's wording taken	105	b29f3f3630d5908aedeb63b1074558aaa2e44b7784709071e0fb027d910ae00b
 ref/arc-fighter/free-hand-fighter	Timely Tip (Ex)	timely-tip	yes	9	print	print		105	a1a037d59544611cf920f54c1639b51cc1b6bb2e47be778c291cd2286974a001
 ref/arc-fighter/free-hand-fighter	Interference (Ex)	interference	yes	13	print	print		105	d9684dd5461928447c9e29568e707c41a1ae22e9f17f46c6eb34752602406400
 ref/arc-fighter/free-hand-fighter	Reversal (Ex)	reversal	yes	19	print	print		105	eda4bb704d9d1d7a9453d63ba566325b1cf6dc098c522d3057b9fca85616dde6
-ref/arc-fighter/mobile-fighter	Agility (Ex)	agility	yes	2	print	print	print: Advanced Player's Guide, 2nd printing	105	ad844d87e4cc4abc34a2e5561cd725e21986854ed81bbe6cc0eca4a72b2e2c99
-ref/arc-fighter/mobile-fighter	Leaping Attack (Ex)	leaping-attack	yes	5	print	print		105	65c9f26a51579086d2a80ccc4082742cd5c3439f52e595382441e5b1333fb038
+ref/arc-fighter/mobile-fighter	Agility (Ex)	agility	yes	2	print	print	rule 1: the corpus rows and the printed values agree level by level; print's wording taken; print: Advanced Player's Guide, 2nd printing	105	ad844d87e4cc4abc34a2e5561cd725e21986854ed81bbe6cc0eca4a72b2e2c99
+ref/arc-fighter/mobile-fighter	Leaping Attack (Ex)	leaping-attack	yes	5	print	print	rule 1: the corpus rows and the printed values agree level by level; print's wording taken	105	65c9f26a51579086d2a80ccc4082742cd5c3439f52e595382441e5b1333fb038
 ref/arc-fighter/mobile-fighter	Rapid Attack (Ex)	rapid-attack	yes	11	print	print		105	72750eeb244e6298e7efa4cae286539749e794d0a2def7cd0ce690ec29595ca7
 ref/arc-fighter/mobile-fighter	Fleet Footed (Ex)	fleet-footed	yes	15	print	print	hand review (ruling 14, print): Same values (3 at 15th, 4 at 20th).	105	1a65daca0385a3eb0dd80b7a0dda274e63e068d728d2f1baa2e728b1ff78d580
 ref/arc-fighter/mobile-fighter	Whirlwind Blitz (Ex)	whirlwind-blitz	yes	20	print	print		105	30a63945dc88a9eed7a1b1ada397c955b1daab912f67105032dc9225854bbdd9
@@ -227,50 +227,50 @@ ref/arc-fighter/phalanx-soldier	Shield Ally (Ex)	shield-ally	yes	9	print	print		
 ref/arc-fighter/phalanx-soldier	Irresistible Advance (Ex)	irresistible-advance	yes	15	print	print		106	5b85157a9c58bbe185796856f27d3226924160b22c03f691eac108b16604435f
 ref/arc-fighter/phalanx-soldier	Shielded Fortress (Ex)	shielded-fortress	yes	20	print	print		106	7feb101c7b9575a5aa89f77bf0eb468f966ae09e36e621a209ca569dc5febb17
 ref/arc-fighter/polearm-master	Pole Fighting (Ex)	pole-fighting	yes	2	print	print	print: Advanced Player's Guide, 2nd printing	106	7dff03c469d261f52ece3a1d9f161ee46396740fe279f3797fe6330c98114788
-ref/arc-fighter/polearm-master	Steadfast Pike (Ex)	steadfast-pike	yes	3	print	print		106	68ed8f12c8c5ef41c79773cf18d0acc5977b8d14307fc4df8799b94630a8616a
-ref/arc-fighter/polearm-master	Polearm Training (Ex)	polearm-training	yes	5	print	print		106	32fe65e186fc4759ae179ef10dcc132da32a20446f7efeae46d33ba324f62b33
+ref/arc-fighter/polearm-master	Steadfast Pike (Ex)	steadfast-pike	yes	3	print	print	rule 1: the corpus rows and the printed values agree level by level; print's wording taken	106	68ed8f12c8c5ef41c79773cf18d0acc5977b8d14307fc4df8799b94630a8616a
+ref/arc-fighter/polearm-master	Polearm Training (Ex)	polearm-training	yes	5	print	print	rule 1: the corpus rows and the printed values agree level by level; print's wording taken	106	32fe65e186fc4759ae179ef10dcc132da32a20446f7efeae46d33ba324f62b33
 ref/arc-fighter/polearm-master	Flexible Flanker (Ex)	flexible-flanker	yes	9	print	print		106	f7ac9bbee503e0900db24afbebb031cb29fd16ffb7888f173809ddda92dc0701
 ref/arc-fighter/polearm-master	Sweeping Fend (Ex)	sweeping-fend	yes	13	print	print	owner decision of 2026-11-24 (corpus-errata): print (The rule differs: the corpus gives trips the trip weapon feature, and the –4 applies only to bull rush. This is not a paraphrase. The corpus kept print's last sentence, which only makes sense under print's rule. So someone revised print's first sentence on purpose, which is the shape of an errata edit. The owner decides.)	106	ab4d6cb3faf61a5732892efe22dd39fc009c59b76d1d599515bebe267b2891a4
 ref/arc-fighter/polearm-master	Step Aside (Ex)	step-aside	yes	17	print	print		106	40f81122d8b55fead492c2e9d897dc8702c7ffdf92747a0e39f4b0bf81d02cf2
 ref/arc-fighter/polearm-master	Polearm Parry (Ex)	polearm-parry	yes	19	print	print	hand review (ruling 14, print): Paraphrase.	106	7a7b254aaaf06c197f7303387cf8e21466db652455005ccf9a48f11fc6dfd733
 ref/arc-fighter/polearm-master	Weapon Mastery (Ex)	weapon-mastery	yes		print	print		106	d30546f188fde3cdb5dffe0b2f5b8c91d96ad2ad264aa050f32775c6e9501300
-ref/arc-fighter/roughrider	Steadfast Mount (Ex)	steadfast-mount	yes	2	print	print	opening text written from print: the import differs in —; duplicate trade left out: replaces "Armor training 4" was stored twice, once without its feature link; print: Advanced Player's Guide, 2nd printing	106	6c0ca36f98eb3fe4222abcb22344a4f7ce91d41c9163583629e0cdf0a1edfe12
+ref/arc-fighter/roughrider	Steadfast Mount (Ex)	steadfast-mount	yes	2	print	print	rule 1: the corpus rows and the printed values agree level by level; print's wording taken; opening text written from print: the import differs in —; duplicate trade left out: replaces "Armor training 4" was stored twice, once without its feature link; print: Advanced Player's Guide, 2nd printing	106	6c0ca36f98eb3fe4222abcb22344a4f7ce91d41c9163583629e0cdf0a1edfe12
 ref/arc-fighter/roughrider	Armored Charger (Ex)	armored-charger	yes	3	print	print		106	5e2f6603ed2d83f40e199e3daeee5a63479d748b4737a3798a2d9285a8b4d7bd
-ref/arc-fighter/roughrider	Mounted Mettle (Ex)	mounted-mettle	yes	5	print	print		106	a8302d30e5c5c7e161581cac955ecd51bf68b48b3e6f3656c56b58dc62729308
+ref/arc-fighter/roughrider	Mounted Mettle (Ex)	mounted-mettle	yes	5	print	print	rule 1: the corpus rows and the printed values agree level by level; print's wording taken	106	a8302d30e5c5c7e161581cac955ecd51bf68b48b3e6f3656c56b58dc62729308
 ref/arc-fighter/roughrider	Leap from the Saddle (Ex)	leap-from-the-saddle	yes	7	print	print		106	d62bca8d0396cfb44d443eefba3f486338b555a878d13f31dce4eda58d591145
 ref/arc-fighter/roughrider	Relentless Steed (Ex)	relentless-steed	yes	11	print	print		106	e6e064f2dc5fbbe537f1b38f98c0d03530c233548a414553893f9b9aafb21c98
 ref/arc-fighter/roughrider	Ride Them Down (Ex)	ride-them-down	yes	15	print	print		107	8d5f59741e6280643ea6925847b98f3cb4c8222ba5917b225bf15505a13e707a
 ref/arc-fighter/roughrider	Unavoidable Onslaught (Ex)	unavoidable-onslaught	yes	15	print	print		107	2f52028dbcfb892b4d6a4b2298c322d14ab4d4aae9806f14e9a63750e35ab2f1
 ref/arc-fighter/roughrider	Indomitable Steed (Ex)	indomitable-steed	yes	19	print	print		107	8146305d2d3fb86f70edb1f1a71df20da8955aa56aa44317f340ffc7d08a3489
-ref/arc-fighter/savage-warrior	Spark of Life (Ex)	spark-of-life	yes	2	print	print	print: Advanced Player's Guide, 2nd printing	107	eae59a4bfa420bdb6f124a04101fdd17779583dfa2dbdffa74767b573de8b7b8
-ref/arc-fighter/savage-warrior	Natural Savagery (Ex)	natural-savagery	yes	5	print	print		107	a5966bffe064e577589959c36e5b433fd09ae88bca2c20b4c68b272ea0b4f2a3
+ref/arc-fighter/savage-warrior	Spark of Life (Ex)	spark-of-life	yes	2	print	print	rule 1: the corpus rows and the printed values agree level by level; print's wording taken; print: Advanced Player's Guide, 2nd printing	107	eae59a4bfa420bdb6f124a04101fdd17779583dfa2dbdffa74767b573de8b7b8
+ref/arc-fighter/savage-warrior	Natural Savagery (Ex)	natural-savagery	yes	5	print	print	rule 1: the corpus rows and the printed values agree level by level; print's wording taken	107	a5966bffe064e577589959c36e5b433fd09ae88bca2c20b4c68b272ea0b4f2a3
 ref/arc-fighter/savage-warrior	Savage Charge (Ex)	savage-charge	yes	9	print	print	trade added: replaces "The normal attack roll bonus and AC penalty for charging", which print states and the entry did not store	107	e5f0c940b02f9d5443a2973ab53ee1878474681f5c065f64826f9024e579d5c5
 ref/arc-fighter/savage-warrior	Careful Claw (Ex)	careful-claw	yes	13	print	print		108	ea315a4db1924d56e65000608e62ea771a331fa66fc0b63fe1d21a6c6584e567
 ref/arc-fighter/savage-warrior	Greater Savage Charge (Ex)	greater-savage-charge	yes	17	print	print		108	7e86776dfd70fc6a51ed5c5467e0d04961d272ff8a958214f8ef72ea1bc0207c
 ref/arc-fighter/savage-warrior	Natural Weapon Mastery (Ex)	natural-weapon-mastery	yes	20	print	print		108	310b81bd4494fc0d08b34d7f55794ab59d4a616d9c1d57cbb9d1d248f9594047
-ref/arc-fighter/shielded-fighter	Active Defense (Ex)	active-defense	yes	3	print	print	print: Advanced Player's Guide, 2nd printing	108	6cc1ebcc43157d0d37bb1fa9b38e7b1aac566e7b4ee02f6fd731fdb632555dd1
-ref/arc-fighter/shielded-fighter	Shield Fighter (Ex)	shield-fighter	yes	5	print	print		108	7a1a495d8cd4808e22e50de0ee4343c54438d6563af13b434b3f964ea0101f72
+ref/arc-fighter/shielded-fighter	Active Defense (Ex)	active-defense	yes	3	print	print	rule 1: the corpus rows and the printed values agree level by level; print's wording taken; print: Advanced Player's Guide, 2nd printing	108	6cc1ebcc43157d0d37bb1fa9b38e7b1aac566e7b4ee02f6fd731fdb632555dd1
+ref/arc-fighter/shielded-fighter	Shield Fighter (Ex)	shield-fighter	yes	5	print	print	rule 1: the corpus rows and the printed values agree level by level; print's wording taken	108	7a1a495d8cd4808e22e50de0ee4343c54438d6563af13b434b3f964ea0101f72
 ref/arc-fighter/shielded-fighter	Shield Buffet (Ex)	shield-buffet	yes	9	print	print		108	5c4366dcf1769c3c843a04e937cd1e125c45605b8f24d2e09b242cc13ddfa0e4
 ref/arc-fighter/shielded-fighter	Shield Guard (Ex)	shield-guard	yes	17	print	print		108	3c42b5fedaff073c79232aa696cce79dc9a3b73eb7024f0c70838072a80415e2
 ref/arc-fighter/shielded-fighter	Shield Mastery (Ex)	shield-mastery	yes	19	print	print		108	783c80bd98856cc66d27dace07bf2bf81587e548d8a286a0a68e0b6b517aa52f
 ref/arc-fighter/shielded-fighter	Shield Ward (Ex)	shield-ward	yes	20	print	print		108	d3143b211436ba61dc4108215b0d27144fccf62a56983c126800e4352373baaa
-ref/arc-fighter/two-handed-fighter	Shattering Strike (Ex)	shattering-strike	yes	2	print	print	print: Advanced Player's Guide, 2nd printing	108	5a90db7fcf1372279da97fee68555823ebb2e3273d9f3bfd7f52ccf8eaf89958
+ref/arc-fighter/two-handed-fighter	Shattering Strike (Ex)	shattering-strike	yes	2	print	print	rule 1: the corpus rows and the printed values agree level by level; print's wording taken; print: Advanced Player's Guide, 2nd printing	108	5a90db7fcf1372279da97fee68555823ebb2e3273d9f3bfd7f52ccf8eaf89958
 ref/arc-fighter/two-handed-fighter	Overhand Chop (Ex)	overhand-chop	yes	3	print	print		108	06cbf7dce513e2232833ac753681c8e5dc3e0090dfafab02f9ec75e5dc3856c4
 ref/arc-fighter/two-handed-fighter	Weapon Training (Ex)	weapon-training	yes		print	print		108	f0f1c953f451ba9648dd2d3979c409d0525e86d114943270e92607ae505264c1
 ref/arc-fighter/two-handed-fighter	Backswing (Ex)	backswing	yes	7	print	print		108	436ae7a234494d5ccb48e169228b6c3898b205b6f9070ee36c27c88a968d9e8e
 ref/arc-fighter/two-handed-fighter	Piledriver (Ex)	piledriver	yes	11	print	print		108	8457d38a21b64f239802029ea6a8d616c0163f03fab357e30c7265e481f460ed
 ref/arc-fighter/two-handed-fighter	Greater Power Attack (Ex)	greater-power-attack	yes	15	print	print		108	3abac54a448452b115f7d3d51b8d590217061f56e894784a6ac59894939ae248
 ref/arc-fighter/two-handed-fighter	Devastating Blow (Ex)	devastating-blow	yes	19	print	print		109	349a31809f5929b1c45cab0257a41ec695d1611dbcd57d4ea3788a0cdf39ca3c
-ref/arc-fighter/two-weapon-warrior	Defensive Flurry (Ex)	defensive-flurry	yes	3	print	print	print: Advanced Player's Guide, 2nd printing	109	092bf480ba87aea098bc621cfb5c478d4df28f282863d793be2a74f2c8aa737e
-ref/arc-fighter/two-weapon-warrior	Twin Blades (Ex)	twin-blades	yes	5	print	print		109	5d816cb85a18d9d2779bdcfbd04cfbb13d05aec093292782e3ae97343b8b2ed3
+ref/arc-fighter/two-weapon-warrior	Defensive Flurry (Ex)	defensive-flurry	yes	3	print	print	rule 1: the corpus rows and the printed values agree level by level; print's wording taken; print: Advanced Player's Guide, 2nd printing	109	092bf480ba87aea098bc621cfb5c478d4df28f282863d793be2a74f2c8aa737e
+ref/arc-fighter/two-weapon-warrior	Twin Blades (Ex)	twin-blades	yes	5	print	print	rule 1: the corpus rows and the printed values agree level by level; print's wording taken	109	5d816cb85a18d9d2779bdcfbd04cfbb13d05aec093292782e3ae97343b8b2ed3
 ref/arc-fighter/two-weapon-warrior	Doublestrike (Ex)	doublestrike	yes	9	print	print		109	db07712665398a7c03d27d101a752449a1880b85de0270939d60cf6a3217c54d
 ref/arc-fighter/two-weapon-warrior	Improved Balance (Ex)	improved-balance	yes	11	print	print		109	cb101e378fa6a55da6743e7f5f6a95a925da9e04d32d000ea54cdc7307c9b81c
 ref/arc-fighter/two-weapon-warrior	Equal Opportunity (Ex)	equal-opportunity	yes	13	print	print		109	fe05e4c6a8336294e1f8994ca819e3efc991373944f6f0877cff9001b9b4f253
 ref/arc-fighter/two-weapon-warrior	Perfect Balance (Ex)	perfect-balance	yes	15	print	print		109	19aba166a2937d2983b172a397e3e1b6b613ad8d1308cf9757492eb854744e8d
 ref/arc-fighter/two-weapon-warrior	Deft Doublestrike (Ex)	deft-doublestrike	yes	17	print	print		109	f30025be3bb2004a0cdd7f38cc919efd1293220f35c971fbc3e2d5b7a1b8cd8b
 ref/arc-fighter/two-weapon-warrior	Deadly Defense (Ex)	deadly-defense	yes	19	print	print		109	4f92bbc951ef5322d924094bc30743ec8f8a0e757d73aaf38a69c4ae87b6be92
-ref/arc-fighter/weapon-master	Weapon Guard (Ex)	weapon-guard	yes	2	print	print	print: Advanced Player's Guide, 2nd printing	109	770dbdeb32ad756ce193df436f332aebfdad2bc93d5e042963033b7a26e3520c
-ref/arc-fighter/weapon-master	Weapon Training (Ex)	weapon-training	yes	3	print	print		109	e69f54f9e8c281eebf266caaba4bae4d9dd7bc6a70bf9586d9fc7262981fb2b9
+ref/arc-fighter/weapon-master	Weapon Guard (Ex)	weapon-guard	yes	2	print	print	rule 1: the corpus rows and the printed values agree level by level; print's wording taken; print: Advanced Player's Guide, 2nd printing	109	770dbdeb32ad756ce193df436f332aebfdad2bc93d5e042963033b7a26e3520c
+ref/arc-fighter/weapon-master	Weapon Training (Ex)	weapon-training	yes	3	print	print	rule 1: the corpus rows and the printed values agree level by level; print's wording taken	109	e69f54f9e8c281eebf266caaba4bae4d9dd7bc6a70bf9586d9fc7262981fb2b9
 ref/arc-fighter/weapon-master	Reliable Strike (Ex)	reliable-strike	yes	5	print	print		109	ec6799aea88676d1ce889626ede6309dba581f46afe4b9f7800d2c15a978dddb
 ref/arc-fighter/weapon-master	Mirror Move (Ex)	mirror-move	yes	9	print	print		109	4adfd5d6a44d844789f64df5ae56e1b8d00ba50a63edf0272b5fadba20e02dc5
 ref/arc-fighter/weapon-master	Deadly Critical (Ex)	deadly-critical	yes	13	print	print		109	aabb093d52f696eaba81b780fa60a09cff1d7df6ca5aceb906a791f58969ae8f
@@ -331,7 +331,7 @@ ref/arc-monk/zen-archer	Bonus Feats	bonus-feats	no		print	print	print asterisks 
 ref/arc-monk/zen-archer	Perfect Strike (Ex)	perfect-strike	yes	1	print	print		115	080f499f26f63dc6556b56cbae9a83516b7bab03af6860bbc59ba130c0865e08
 ref/arc-monk/zen-archer	Way of the Bow (Ex)	way-of-the-bow	yes	2	print	print		115	e63509416fac0f9f6a60477d64f575162c551a83a3022bee5cf4035dcfd94f41
 ref/arc-monk/zen-archer	Zen Archery (Ex)	zen-archery	yes	3	print	print		115	c49a7204c1cb391a1212246407a8bd0fcabad47d16c40e775dd0cf717297a0cf
-ref/arc-monk/zen-archer	Point Blank Master (Ex)	point-blank-master	yes	3	print	print	hand review (ruling 14, print): The feat chapter of the same book prints the head "Point Blank Master (Combat)". Put the link on the printed name and drop the asterisk.; print asterisks without their key dropped	115	b497c5b0e3c55d0fd42728e623716d46bc459affd1f8c446a9c45d362d5a763a
+ref/arc-monk/zen-archer	Point Blank Master (Ex)	point-blank-master	yes	3	print	print	print asterisks without their key dropped	115	b497c5b0e3c55d0fd42728e623716d46bc459affd1f8c446a9c45d362d5a763a
 ref/arc-monk/zen-archer	Ki Pool (Su)	ki-pool	yes	4	draft	draft		115	8d2ca40842463a40d36c85736f7c37afc2fdf19ca0e67d3dc74d01e07e50f42e
 ref/arc-monk/zen-archer	Ki Arrows (Su)	ki-arrows	yes	5	print	print		115	68d5e051aa54cdc23d12d9e33c7073c212ba1ba143e2be80ad0f065d885f8507
 ref/arc-monk/zen-archer	Reflexive Shot (Ex)	reflexive-shot	yes	9	print	print		115	7a4b662bae84ba17da8901a0a3139e74465b8934c23585a66689d681f5c5d7dd
@@ -470,7 +470,7 @@ ref/arc-rogue/scout	Skirmisher (Ex)	skirmisher	yes	8	print	print		134	b7fd647d7e
 ref/arc-rogue/scout	Rogue Talents	rogue-talents	no		print	print	print asterisks without their key dropped	134	882a78a1089890899ded2e84493d927fc491348fdcd63c0e0b2f6b5dfdf6e8a1
 ref/arc-rogue/scout	Advanced Talents	advanced-talents	no		print	print	print asterisks without their key dropped	134	c6762a41747453230fe8c39364f6b7d5022c0fea19c840e416ac82e2e8b668aa
 ref/arc-rogue/sniper	Accuracy (Ex)	accuracy	yes	1	print	print	print: Advanced Player's Guide, 2nd printing	134	744edfb32e79fda470f611f02a8b0c5ef11e5be3d9add95b49c445a28908e19c
-ref/arc-rogue/sniper	Deadly Range (Ex)	deadly-range	yes	3	print	print		134	98c73f6494319f39e350adcdf9405339d71a1a133558d1955cec8f74194cf7c5
+ref/arc-rogue/sniper	Deadly Range (Ex)	deadly-range	yes	3	print	print	rule 1: the corpus rows and the printed values agree level by level; print's wording taken	134	98c73f6494319f39e350adcdf9405339d71a1a133558d1955cec8f74194cf7c5
 ref/arc-rogue/sniper	Rogue Talents	rogue-talents	no		print	print	print asterisks without their key dropped	135	fb7899fc30b2861a055d86c824073a5a670393ab0c502b3fc3d92e7eabbb8e88
 ref/arc-rogue/sniper	Advanced Talents	advanced-talents	no		print	print	print asterisks without their key dropped	135	95d3d01375b3394c9b653d077a06e9471d67729abb86b4cf77c555cc1e6e3749
 ref/arc-rogue/spy	Skilled Liar (Ex)	skilled-liar	yes	1	print	print	level 1: replaces Trapfinding, of which one is gained at 1st level in the class table; print: Advanced Player's Guide, 2nd printing	135	16a44a0d2a11c39b883653de4473f472b24f3d581fb833463dabb396126386a3
