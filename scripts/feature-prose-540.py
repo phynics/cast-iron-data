@@ -2300,16 +2300,17 @@ def link_names_ability(label: str, target: str) -> bool:
     "[nymph's] unearthly grace") names the owner of the ability that a following citation cites, not the ability. A link to one thing
     of a class (`ref/class/gunslinger#gunsmith`) is such a thing."""
     plain = re.sub(r"[\x01\x02_*\\]", "", label)
-    return bool(re.search(r"['\u2019]s$", plain) or re.fullmatch(r"ref/(?:class|pclass)/[^#]+", target))
+    return bool(re.search(r"(?:['\u2019]s|s['\u2019])$", plain) or re.fullmatch(r"ref/(?:class|pclass)/[^#]+", target))
 
 
 def drop_linked_citation(pattern: str, text: str, links: list[tuple[str, str]], entry_id: str = "") -> str:
     """Owner ruling 26 (Muse review of #335): a printed page citation goes where the link just before it already points at the thing
     that the citation cites ("mutagen (Ultimate Magic 14)", "[steal] combat maneuver (Advanced Player's Guide 322)": the link may cover
     only part of the phrase, with up to five plain words between it and the parenthesis). The link is the one that `apply_links` will
-    place, and the nearest one before the parenthesis. The citation stays where no link takes its place (Idealist's "arbitrament
-    (page 39)": a comma ends the phrase), and where words stand between the parenthesis and a link on a class or a possessive word,
-    because the citation names an ability of that class. `EDGE_CITATIONS` has the few that the words cannot show."""
+    place, and the nearest one before the parenthesis. A name that repeats a link label of the same paragraph and ends the phrase is that
+    link's second mention and goes too, unless "see" points at it. The citation stays where no link takes its place (Idealist's
+    "arbitrament (page 39)": a comma ends the phrase), and where words stand between the parenthesis and a link on a class or a
+    possessive word, because the citation names an ability of that class. `EDGE_CITATIONS` has the few that the words cannot show."""
     marks = r"[\x01\x02_*\\]"
     probe = apply_links(text, links)[0]                    # the text as it will read with its links, to see which words they cover
     here, there = list(re.finditer(pattern, text)), list(re.finditer(pattern, probe))
@@ -2326,8 +2327,36 @@ def drop_linked_citation(pattern: str, text: str, links: list[tuple[str, str]], 
         else:
             before = re.sub(marks, "", probe[:q.start()]).rstrip()
             hit = re.search(r"\[([^\]]+)\]\(([^)]*)\)((?:\s+[\w'\u2019-]+){0,5})$", before)
-            drop = bool(hit) and (not hit.group(3).strip() or not link_names_ability(hit.group(1), hit.group(2)))
+            if hit:
+                drop = not hit.group(3).strip() or not link_names_ability(hit.group(1), hit.group(2))
+            else:
+                # the name is a second mention of a link of the same paragraph ("[black blade] ... a black blade (Ultimate Magic 47)"),
+                # unless it is a pointer ("See the bard (Core Rulebook 35)": owner ruling 16 keeps a cross-reference)
+                para = before.rsplit("\n\n", 1)[-1]
+                names = [re.sub(r"[\\]", "", lb).lower() for lb, _ in re.findall(r"\[([^\]]+)\]\(([^)]*)\)", para)]
+                tail = para.lower()
+                drop = (any(lb and re.search(r"(?<![\w'])" + re.escape(lb) + r"$", tail) for lb in names)
+                        and not re.search(r"\bsee\b(?:\s+[\w'\u2019-]+){0,3}$", tail))
         out.append("" if drop else m.group(0))
+    out.append(text[at:])
+    return "".join(out)
+
+
+def drop_semicolon_citation(pattern: str, text: str, links: list[tuple[str, str]]) -> str:
+    """The "; Book 28" at the end of a parenthesis ("(including the alchemist's bomb class ability; Advanced Player's Guide 28)"): it
+    goes where the parenthesis has a link before the semicolon, because the link names the rule (owner ruling 26)."""
+    probe = apply_links(text, links)[0]
+    here, there = list(re.finditer(pattern, text)), list(re.finditer(pattern, probe))
+    if len(here) != len(there):
+        raise ValueError(f"a link falls inside a citation: {text[:80]!r}")
+    out, at = [], 0
+    for m, q in zip(here, there):
+        out.append(text[at:m.start()])
+        at = m.end()
+        seen = re.sub(r"\[([^\]]*)\]\([^)]*\)", "\x03\\1", probe[:q.start()])     # a link marks its label, its target has no parenthesis
+        opened = seen.rfind("(")
+        linked = opened >= 0 and ")" not in seen[opened:] and "\x03" in seen[opened:]
+        out.append("" if linked else m.group(0))
     out.append(text[at:])
     return "".join(out)
 
@@ -2363,9 +2392,10 @@ def print_md(feat: PrintFeature, links: list[tuple[str, str]], vocab: set[str], 
     xref = drop_linked_citation(CITE_BOOK, text, links, entry_id)
     # a bare book citation at the end of a parenthesis ("(including the alchemist's bomb class ability; Advanced
     # Player's Guide 28)", owner ruling 26): the corpus links the named rule
-    xref = re.sub(r";\s*[\x01_]*(?:Pathfinder (?:RPG|Roleplaying Game) )?(?:Core Rulebook|Advanced Player.s Guide|Bestiary(?: [2-5])?|"
-                  r"Ultimate (?:Magic|Combat|Equipment|Campaign)|Advanced Race Guide|Game[Mm]astery Guide|Monster Codex|Occult Adventures)"
-                  r"[\x02_]*[,\s]*(?:page[\s_\x01\x02]*)?\d+(?:[–-]\d+)?(?=\))", "", xref)
+    xref = drop_semicolon_citation(
+        r";\s*[\x01_]*(?:Pathfinder (?:RPG|Roleplaying Game) )?(?:Core Rulebook|Advanced Player.s Guide|Bestiary(?: [2-5])?|"
+        r"Ultimate (?:Magic|Combat|Equipment|Campaign)|Advanced Race Guide|Game[Mm]astery Guide|Monster Codex|Occult Adventures)"
+        r"[\x02_]*[,\s]*(?:page[\s_\x01\x02]*)?\d+(?:[–-]\d+)?(?=\))", xref, links)
     # a book reference in front of or behind a level inside a list ("(Advanced Player's Guide 212; 4th)", "(14th, Ultimate Magic)",
     # "(Ultimate Combat, 2nd)", owner ruling 26): the level stays, the reference goes
     book = (r"[\x01_]*(?:Pathfinder (?:RPG|Roleplaying Game) )?(?:Core Rulebook|Advanced Player.s Guide|Bestiary(?: [2-5])?|"
@@ -4393,6 +4423,14 @@ def self_test() -> int:
        "He uses the [alchemist's](ref/class/alchemist) mutagen ability (Advanced Player's Guide 28) daily.", "a possessive link keeps it")
     eq(cited("She has the cavalier class feature (Advanced Player's Guide 34).", [("cavalier", "ref/class/cavalier")]),
        "She has the [cavalier](ref/class/cavalier) class feature (Advanced Player's Guide 34).", "a class link keeps it")
+    eq(cited("It is a black blade. It advances as a black blade (Ultimate Magic 47) here.", [("black blade", "ref/arc-magus/bladebound")]),
+       "It is a [black blade](ref/arc-magus/bladebound). It advances as a black blade here.", "a second mention of a linked name of the paragraph loses its citation")
+    eq(cited("Bards cast spells, just as a bard does. See the bard (Core Rulebook 35) for more.", [("bard", "ref/class/bard")]),
+       "Bards cast spells, just as a [bard](ref/class/bard) does. See the bard (Core Rulebook 35) for more.", "a pointer (see) keeps it")
+    eq(cited("It uses the mutagens' strength (Advanced Player's Guide 28) daily.", [("mutagens'", "ref/class/alchemist")]),
+       "It uses the [mutagens'](ref/class/alchemist) strength (Advanced Player's Guide 28) daily.", "a plural possessive keeps it")
+    eq(cited("It is an ability (including a bomb ability; Advanced Player's Guide 28) here.", []),
+       "It is an ability (including a bomb ability; Advanced Player's Guide 28) here.", "an unlinked parenthesis keeps its book citation")
     eq(cited("A steal is easy. She makes a steal combat maneuver (Advanced Player's Guide 322) now.", [("steal", "ref/rule/steal")]),
        "A [steal](ref/rule/steal) is easy. She makes a steal combat maneuver (Advanced Player's Guide 322) now.", "a mention that the link does not cover keeps it")
     eq(cited("She attracts phantoms like a spiritualist (Occult Adventures 72), though she rests.", [("spiritualist", "ref/class/spiritualist")]),
