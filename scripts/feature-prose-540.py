@@ -583,7 +583,8 @@ def finish_text(s: str, vocab: set[str]) -> str:
     s = re.sub(I_OPEN + r"\s+", " " + I_OPEN, s)
     s = re.sub(r"\s+" + I_CLOSE, I_CLOSE + " ", s)
     s = re.sub(I_CLOSE + I_OPEN, "", s)
-    s = re.sub(r"(?<![A-Za-z'\u2019])([A-Za-z])" + I_OPEN + r"(?=[a-z])", I_OPEN + r"\1", s)       # the first letter of an italic word set apart ("s" + "un orchid elixir")
+    if ITALIC_FIRST["on"]:
+        s = re.sub(r"(?<![A-Za-z'\u2019])([A-Za-z])" + I_OPEN + r"(?=[a-z])", I_OPEN + r"\1", s)       # the first letter of an italic word set apart ("s" + "un orchid elixir")
     s = re.sub(r"(\\\[|\()\s+", r"\1", s)        # no blank after an opening bracket or parenthesis
     s = re.sub(r"\s+(\)|\\\])", r"\1", s)        # none before a closing one
     s = re.sub(r"\s+", " ", s).strip()
@@ -1117,8 +1118,9 @@ SMALL_CAP_TITLES = {"on": False}
 # Campaign Setting books (Inner Sea Magic, Inner Sea Intrigue): an illustration's caption in large type stands in the margin beside the
 # column; it is not a title and must not end the section of the archetype.
 MARGIN_CAPTIONS = {"on": False}
+ITALIC_FIRST = {"on": False}            # the Campaign Setting books: the first letter of an italic word that the layer set apart ("s" + "un orchid elixir")
 LOWERCASE_CONTINUES = {"on": False}      # the Campaign Setting books: no paragraph starts in lower case
-BULLETS = {"on": True}          # a line that starts with a bullet starts a list item (Inner Sea Intrigue "Tinkering")
+BULLETS = {"on": False}         # a line that starts with a bullet starts a list item (Inner Sea Intrigue "Tinkering")
 NO_STYLE = {"on": False}        # Inner Sea Combat: the text layer has no bold or italic runs; a head is told by its shape
 CAPTIONS = {"on": False}        # the same books: a title that repeats the archetype's own name in large type is an illustration's caption
 
@@ -2527,22 +2529,43 @@ def join_wrapped(raw_paras: list[str], vocab: set[str]) -> list[str]:
 
 
 # The parentheses that are only a page citation (owner ruling 26): one that a link replaces goes, any other stays as printed
-CITE_RPG = r"\s*\(" + I_OPEN + r"?Pathfinder RPG[^()]*?(?:page[\s_\x01\x02]*|[\s\x01\x02]+)\d+(?:[–-]\d+)?[\x02_]*\)"
+CITE_RPG = r"\s*\(" + I_OPEN + r"?Pathfinder RPG[^()]*?(?:page[\s_\x01\x02]*|[\s\x01\x02]+)\d+(?:[–-]\d+)?\)"
 CITE_BOOK = (r"\s*\([\x01_]*(?:Pathfinder (?:RPG|Roleplaying Game) )?(?:Core Rulebook|Advanced Player.s Guide|Bestiary(?: [2-5])?|"
+             r"Ultimate (?:Magic|Combat|Equipment|Campaign)|Advanced Race Guide|Game[Mm]astery Guide|Monster Codex|Occult Adventures)"
+             r"[\x02_]*[,\s]*(?:page[\s_\x01\x02]*)?\d+(?:[–-]\d+)?\)")
+CITE_PAGE = r"\s*\(\s*(?:[\x01_]*[A-Z][\w'\u2019:, \-]*?[\x02_]*\s+)?page[\s_\x01\x02]*\d+(?:[\u2013-]\d+)?\s*\)"
+
+
+CITE_SEMI = (r";\s*[\x01_]*(?:Pathfinder (?:RPG|Roleplaying Game) )?(?:Core Rulebook|Advanced Player.s Guide|Bestiary(?: [2-5])?|"
+             r"Ultimate (?:Magic|Combat|Equipment|Campaign)|Advanced Race Guide|Game[Mm]astery Guide|Monster Codex|Occult Adventures)"
+             r"[\x02_]*[,\s]*(?:page[\s_\x01\x02]*)?\d+(?:[–-]\d+)?(?=\))")
+
+
+# The same patterns for the Campaign Setting books (`CITE_EXT`): the italic of a title may end after the page ("_Ultimate Intrigue 102_"), the
+# words of a title may be italic one by one ("_Ultimate_ _Intrigue_ 142"), and the Inner Sea World Guide, Ultimate Intrigue and Pathfinder
+# Unchained are cited. The other books keep the patterns above, so that their entries regenerate as they were written.
+CITE_EXT = {"on": False}
+CITE_RPG_X = r"\s*\(" + I_OPEN + r"?Pathfinder RPG[^()]*?(?:page[\s_\x01\x02]*|[\s\x01\x02]+)\d+(?:[–-]\d+)?[\x02_]*\)"
+CITE_BOOK_X = (r"\s*\([\x01_]*(?:Pathfinder (?:RPG|Roleplaying Game) )?(?:Core Rulebook|Advanced Player.s Guide|Bestiary(?: [2-5])?|"
              r"Ultimate[\s\x01\x02_]+(?:Magic|Combat|Equipment|Campaign|Intrigue)|Advanced Race Guide|Game[Mm]astery Guide|Monster Codex|Occult Adventures|Inner Sea World Guide|Pathfinder Unchained)"
              r"[\x02_]*[,\s]*(?:page[\s_\x01\x02]*)?\d+(?:[–-]\d+)?[\x02_]*\)")
 CITE_PAGE = r"\s*\(\s*(?:[\x01_]*[A-Z][\w'\u2019:, \-]*?[\x02_]*\s+)?page[\s_\x01\x02]*\d+(?:[\u2013-]\d+)?\s*\)"
 
 
-CITE_SEMI = (r";\s*[\x01_]*(?:Pathfinder (?:RPG|Roleplaying Game) )?(?:Core Rulebook|Advanced Player.s Guide|Bestiary(?: [2-5])?|"
+CITE_SEMI_X = (r";\s*[\x01_]*(?:Pathfinder (?:RPG|Roleplaying Game) )?(?:Core Rulebook|Advanced Player.s Guide|Bestiary(?: [2-5])?|"
              r"Ultimate[\s\x01\x02_]+(?:Magic|Combat|Equipment|Campaign|Intrigue)|Advanced Race Guide|Game[Mm]astery Guide|Monster Codex|Occult Adventures|Inner Sea World Guide|Pathfinder Unchained)"
              r"[\x02_]*[,\s]*(?:page[\s_\x01\x02]*)?\d+(?:[–-]\d+)?[\x02_]*(?=\))")
+
+
+def _cites() -> tuple[str, str, str, str]:
+    """The patterns of a page citation (RPG title, book title, page only, after a semicolon) for the book at hand."""
+    return (CITE_RPG_X, CITE_BOOK_X, CITE_PAGE, CITE_SEMI_X) if CITE_EXT["on"] else (CITE_RPG, CITE_BOOK, CITE_PAGE, CITE_SEMI)
 
 
 def strip_citations(text: str) -> str:
     """The text without its bare page citations: a page number that stays as printed is not a rule word."""
     text = re.sub(r"_([^_]*)_", lambda m: I_OPEN + m.group(1) + I_CLOSE, text)    # the patterns read the marks that print_md sets
-    for pattern in (CITE_RPG, CITE_BOOK, CITE_PAGE, CITE_SEMI):
+    for pattern in _cites():
         text = re.sub(pattern, "", text)
     return text.replace(I_OPEN, "_").replace(I_CLOSE, "_")
 
@@ -2648,23 +2671,28 @@ def print_md(feat: PrintFeature, links: list[tuple[str, str]], vocab: set[str], 
     # print sets the italic of a title inside a parenthesis; the extraction can open it before the parenthesis ("_(Occult Adventures_ 48)")
     text = re.sub(r"\x01\(([^()\x01\x02]*)\x02", "(\x01\\1\x02", text)
     # a page reference of the book ("Pathfinder RPG Core Rulebook page 469"): the corpus links instead
-    text = drop_linked_citation(CITE_RPG, text, links, entry_id)
+    cite_rpg, cite_book, cite_page, cite_semi = _cites()
+    text = drop_linked_citation(cite_rpg, text, links, entry_id)
     # a "(see ...)" cross-reference stays (owner ruling 16 of 2026-11-24). A page citation of another book without
     # "see" ("(Core Rulebook 123)", "(page 83)"): the corpus links instead
-    xref = drop_linked_citation(CITE_BOOK, text, links, entry_id)
+    xref = drop_linked_citation(cite_book, text, links, entry_id)
     # a bare book citation at the end of a parenthesis ("(including the alchemist's bomb class ability; Advanced
     # Player's Guide 28)", owner ruling 26): the corpus links the named rule
-    xref = drop_semicolon_citation(CITE_SEMI, xref, links)
+    xref = drop_semicolon_citation(cite_semi, xref, links)
     # a book reference in front of or behind a level inside a list ("(Advanced Player's Guide 212; 4th)", "(14th, Ultimate Magic)",
     # "(Ultimate Combat, 2nd)", owner ruling 26): the level stays, the reference goes
     book = (r"[\x01_]*(?:Pathfinder (?:RPG|Roleplaying Game) )?(?:Core Rulebook|Advanced Player.s Guide|Bestiary(?: [2-5])?|"
-            r"Ultimate[\s\x01\x02_]+(?:Magic|Combat|Equipment|Campaign|Intrigue)|Advanced Race Guide|Game[Mm]astery Guide|Monster Codex|Occult Adventures|Inner Sea World Guide|Pathfinder Unchained)[\x02_]*")
+            r"Ultimate (?:Magic|Combat|Equipment|Campaign)|Advanced Race Guide|Game[Mm]astery Guide|Monster Codex|Occult Adventures)[\x02_]*")
+    if CITE_EXT["on"]:
+        book = (r"[\x01_]*(?:Pathfinder (?:RPG|Roleplaying Game) )?(?:Core Rulebook|Advanced Player.s Guide|Bestiary(?: [2-5])?|"
+                r"Ultimate[\s\x01\x02_]+(?:Magic|Combat|Equipment|Campaign|Intrigue)|Advanced Race Guide|Game[Mm]astery Guide|Monster Codex|Occult Adventures|"
+                r"Inner Sea World Guide|Pathfinder Unchained)[\x02_]*")
     xref = re.sub(r"\(" + book + r"(?:\s*\d+(?:[–-]\d+)?)?[;,]\s*(?=\d+(?:st|nd|rd|th))", "(", xref)
     xref = re.sub(r",\s*" + book + r"(?:\s*\d+(?:[–-]\d+)?)?(?=\))", "", xref)
     # a parenthesis that is only "page 83" or "Core Rulebook page 469" (a title of capitalized words, then the page): a
     # citation with words of its own ("as if he had cast greater magic aura; see page 219", "as lesser simulacrum on
     # page 238 of Ultimate Magic") has a rule or a pointer and stays (owner rulings 16 and 26)
-    xref = drop_linked_citation(CITE_PAGE, xref, links, entry_id)
+    xref = drop_linked_citation(cite_page, xref, links, entry_id)
     if xref != text:
         notes.append("printed cross-reference left out")
         text = xref
@@ -3947,7 +3975,7 @@ def configure_book(book: str) -> None:
     ERRATA_CTX["book"] = book
     PAGE_OFFSET[0] = 2 if book == "inner-sea-combat" else 1
     CHAPTER_END[0] = 47 if book == "inner-sea-combat" else 0
-    LOWERCASE_CONTINUES["on"] = book in ("inner-sea-magic", "inner-sea-intrigue", "inner-sea-combat")
+    LOWERCASE_CONTINUES["on"] = BULLETS["on"] = ITALIC_FIRST["on"] = CITE_EXT["on"] = book in ("inner-sea-magic", "inner-sea-intrigue", "inner-sea-combat")
     OCR["on"] = NO_STYLE["on"] = book == "inner-sea-combat"
     PAGE_GEOMETRY["on"] = book in ("inner-sea-magic", "inner-sea-intrigue", "inner-sea-combat")
     MARGIN_CAPTIONS["on"] = CAPTIONS["on"] = book in ("inner-sea-magic", "inner-sea-intrigue", "inner-sea-combat")
@@ -5038,15 +5066,18 @@ def self_test() -> int:
     eq(styled_head([("At 1st level, a thing: it", False, False)])[0][1], False, "a sentence is no head")
     eq(ocr_italics([("grant the firearm flaming burst or stalking. More", False, False)]),
        [("grant the firearm ", False, False), ("flaming burst", False, True), (" or ", False, False), ("stalking", False, True), (". More", False, False)], "ocr italics")
+    BULLETS["on"] = ITALIC_FIRST["on"] = CITE_EXT["on"] = True
     eq(join_wrapped(["At 2nd level:", "\u2022 The first item.", "\u2022 This ability replaces poison use."], set()),
        ["At 2nd level:", "- The first item.", "This ability replaces poison use."], "bullet items; a bullet before the trade sentence is no item")
     eq(join_wrapped(["\u2022 One without an end", "\u2022 Two."], set()), ["- One without an end", "- Two."], "bullet items do not merge")
     eq(finish_text("the s" + I_OPEN + "un orchid elixir" + I_CLOSE + ", granting", set()), "the " + I_OPEN + "sun orchid elixir" + I_CLOSE + ", granting", "a split italic first letter")
-    eq(len(re.findall(CITE_BOOK, "x (" + I_OPEN + "Ultimate" + I_CLOSE + " " + I_OPEN + "Intrigue" + I_CLOSE + " 142) y")), 1, "citation with split italic words")
-    eq(len(re.findall(CITE_BOOK, "x (" + I_OPEN + "Ultimate Intrigue 102" + I_CLOSE + ") y")), 1, "citation whose italic holds the page")
-    eq(len(re.findall(CITE_BOOK, "x (Inner Sea World Guide 286) y")), 1, "citation of the Inner Sea World Guide")
+    eq(len(re.findall(CITE_BOOK_X, "x (" + I_OPEN + "Ultimate" + I_CLOSE + " " + I_OPEN + "Intrigue" + I_CLOSE + " 142) y")), 1, "citation with split italic words")
+    eq(len(re.findall(CITE_BOOK_X, "x (" + I_OPEN + "Ultimate Intrigue 102" + I_CLOSE + ") y")), 1, "citation whose italic holds the page")
+    eq(len(re.findall(CITE_BOOK_X, "x (Inner Sea World Guide 286) y")), 1, "citation of the Inner Sea World Guide")
     geo = Book({}, {1: [(200, 108, 0, "a", 300)] * 3 + [(200, 440, 0, "b", 300)] * 3 + [(200, 122, 0, "c", 300)], 2: []}, {}, set())
     geo.fonts = {"0": 13}
+    BULLETS["on"] = ITALIC_FIRST["on"] = CITE_EXT["on"] = False
+    eq(len(re.findall(CITE_BOOK, "x (Inner Sea World Guide 286) y")), 0, "the other books do not cite the Inner Sea World Guide")
     PAGE_GEOMETRY["on"] = True
     eq(page_geometry(geo, 1), (432, (108, 440)), "page geometry: the right column starts at 440")
     PAGE_GEOMETRY["on"] = False
