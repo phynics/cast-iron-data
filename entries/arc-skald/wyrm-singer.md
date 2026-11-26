@@ -16,55 +16,55 @@ page = "14"
 
 [fields]
 kind = "archetype"
+features = [
+  { anchor = "draconic-rage", level = 1 },
+  { anchor = "wyrm-saga", level = 14 },
+  { anchor = "breath-weapon", level = 12 },
+]
 trades = [
-  { replaces = "Inspired rage", feature = "inspired-rage" },
-  { replaces = "Song of the fallen", feature = "song-of-the-fallen" },
-  { replaces = "Rage power gained at 12th level", feature = "rage-powers", levels = [12] },
+  { replaces = "Inspired rage", feature = "inspired-rage", by = ["draconic-rage"] },
+  { replaces = "Song of the fallen", feature = "song-of-the-fallen", by = ["wyrm-saga"] },
+  { replaces = "Rage power gained at 12th level", feature = "rage-powers", levels = [12], by = ["breath-weapon"] },
 ]
 +++
 
 Wyrm singers spin fragments of the story of the ongoing struggle between noble Apsu and wicked
 Dahak.
 
-**Wyrm Song (Su)**
+## Wyrm Song (Su) {#wyrm-song}
 
-**Info:** A wyrm singer gains the following _raging songs._
+A wyrm singer gains the following raging songs.
 
-**Draconic Rage (Su)**
+## Draconic Rage (Su) {#draconic-rage}
 
-**Ability:** A wyrm singer can kindle an echo of ancient rage felt between warring dragon clans in
-his allies. This ability acts as _inspired rage,_ except instead of _inspire rage's_ normal bonuses,
-those affected gain a morale bonus on melee attack and damage rolls equal to 2 +
-[one-eighth](ref/misc/fractions-and-rounding) of his skald level. Those affected also gain a morale
-bonus on saving throws against paralysis and sleep effects equal to 2 + one-fourth of his skald
-level. They still take a -1 penalty to their AC.
+At 1st level, a wyrm singer can kindle an echo of ancient rage felt between warring dragon clans in
+his allies. This ability acts as inspired rage, except those affected gain a +2 morale bonus on
+melee attack and damage rolls and a +2 morale bonus on saving throws against paralysis and sleep
+effects (but they still take a -1 penalty to their AC), rather than inspired rage's normal bonuses.
+At 4th level and every 4 skald levels thereafter, the song's bonuses on saves against paralysis and
+sleep effects increase by 1. At 8th and 16th levels, the song's bonus on melee attack and damage
+rolls increases by 1.
 
-**Gained:** At 1st Level
+This ability replaces inspired rage.
 
-**Replaces:** Inspired rage
+## Wyrm Saga (Su) {#wyrm-saga}
 
-**Wyrm Saga (Su)**
-
-**Ability:** A wyrm singer embraces the essence of the draconic histories, allowing his allies to
+At 14th level, a wyrm singer embraces the essence of the draconic histories, allowing his allies to
 manifest aspects of a dragon in their physical forms. The wyrm singer selects a single ally within
-60 feet to take on a draconic aspect (as per [form of the dragon I](ref/spell/form-of-the-dragon-1))
-of a type of the wyrm singer's choice. The ally cannot use the breath weapon attack provided by
-_form of the dragon._ The wyrm singer must expend 1 round of _raging song_ each round to maintain
-wyrm saga, and can affect only a single ally at a time.
+60 feet to take on a draconic aspect (as per
+_[form of the dragon I](ref/spell/form-of-the-dragon-1)_) of a type of the wyrm singer's choice. The
+ally cannot use the breath weapon attack provided by _form of the dragon_. The wyrm singer must
+expend 1 round of raging song each round to maintain wyrm saga, and can affect only a single ally at
+a time.
 
-**Gained:** At 14th Level
+This ability replaces song of the fallen.
 
-**Replaces:** Song of the fallen
+## Breath Weapon (Su) {#breath-weapon}
 
-**Breath Weapon (Su)**
-
-**Gained:** At 12th Level
-
-**Replaces:** Rage power gained at 12th level
-
-**Swift:** Once per day, a wyrm singer can grant a breath weapon attack to himself or an ally
-affected by his draconic rage _raging song._ Using the breath weapon is a **standard action**, and
-it affects creatures in a 30-foot cone or a 60-foot line. The breath weapons deals 1d6 points of
-damage per 2 skald levels the wyrm singer has, and is of an energy type of the wyrm singer's choice
-(acid, cold, electricity, or fire). Creatures caught in the area can attempt a Reflex save (DC =
-10 + 1/2 the wyrm singer's skald level + his Charisma modifier) to halve the damage.
+At 12th level, once per day as a swift action, a wyrm singer can grant a breath weapon attack to
+himself or an ally affected by his draconic rage raging song. Using the breath weapon is a standard
+action, and it affects creatures in a 30-foot cone or a 60-foot line. The breath weapons deals 1d6
+points of damage per 2 skald levels the wyrm singer has, and is of an energy type of the wyrm
+singer's choice (acid, cold, electricity, or fire). Creatures caught in the area can attempt a
+Reflex save (DC = 10 + 1/2 the wyrm singer's skald level + his Charisma modifier) to halve the
+damage. This ability replaces the rage power gained at 12th level.

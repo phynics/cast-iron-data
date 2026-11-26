@@ -16,64 +16,57 @@ page = "25"
 
 [fields]
 kind = "archetype"
+features = [
+  { anchor = "deity" },
+  { anchor = "drake-mount", level = 5 },
+  { anchor = "dragon-magic" },
+]
 trades = [
-  { replaces = "Divine bond", feature = "divine-bond" },
-  { replaces = "channel energy", feature = "channel-energy" },
-  { replaces = "aura of justice", feature = "aura-of-justice" },
-  { replaces = "aura of righteousness", feature = "aura-of-righteousness" },
-  { alters = "Smite evil", feature = "smite-evil" },
-  { alters = "mercy", feature = "mercy" },
-  { alters = "Spellcasting", feature = "spells" },
+  { replaces = "Divine bond", feature = "divine-bond", by = ["drake-mount"] },
+  { replaces = "channel energy", feature = "channel-energy", by = ["drake-mount"] },
+  { replaces = "aura of justice", feature = "aura-of-justice", by = ["drake-mount"] },
+  { replaces = "aura of righteousness", feature = "aura-of-righteousness", by = ["drake-mount"] },
+  { alters = "Smite evil", feature = "smite-evil", by = ["drake-mount"] },
+  { alters = "mercy", feature = "mercy", by = ["drake-mount"] },
+  { alters = "Spellcasting", feature = "spells", by = ["dragon-magic"] },
 ]
 +++
 
-Paladins who serve as priests of Apsu are almost always on the move, wandering from place to place
-and trying to show their dedication to the Waybringer in their deeds rather than depending on mere
-words. Good-aligned dragons are more likely to treat such paladins as they would treat other dragons
-(though perhaps not with the respect reserved for other true dragons), and evil dragons often target
-them as special threats.
+Paladins who serve as priests of [Apsu](ref/faith/apsu) are almost always on the move, wandering
+from place to place and trying to show their dedication to the Waybringer in their deeds rather than
+depending on mere words. Good-aligned dragons are more likely to treat such paladins as they would
+treat other dragons (though perhaps not with the respect reserved for other true dragons), and evil
+dragons often target them as special threats.
 
-More rarely a drake is so inspired by a paladin of Apsu that it chooses to assist the paladin in all
-her actions. These drake allies see the benefit of a silver champion remaining mobile and understand
-the powerful threats the champion must face, and in time even consent to serve their chosen paladins
-as a steed. Silver champions are often concerned by their drake allies' pragmatic natures, however,
-and are sure to treat them with respect, knowing that these lesser dragons must constantly be
-inspired to act on their better natures.
+More rarely a drake is so inspired by a paladin of [Apsu](ref/faith/apsu) that it chooses to assist
+the paladin in all her actions. These drake allies see the benefit of a silver champion remaining
+mobile and understand the powerful threats the champion must face, and in time even consent to serve
+their chosen paladins as a steed. Silver champions are often concerned by their drake allies'
+pragmatic natures, however, and are sure to treat them with respect, knowing that these lesser
+dragons must constantly be inspired to act on their better natures.
 
-**Prerequisites:** A silver champion must worship [Apsu](ref/faith/apsu).
+## Deity {#deity}
 
-**Drake Mount**
+A silver champion must worship Apsu.
 
-**Ability:** A silver champion gains a [drake companion](ref/sidekick/drake).
+## Drake Mount {#drake-mount}
 
-**Alters:** Smite evil, mercy
-
-**Gained:** At 5th Level
-
-**Replaces:** Divine bond, channel energy, aura of justice, aura of righteousness
-
-**Special:** If the drake companion is at least one size larger than the silver champion, it gains
-the _[mount](ref/spell/mount)_ drake power as a bonus power. However, a silver champion doesn't gain
-additional uses per day of _smite evil_ at 4th, 10th, and 16th levels, and doesn't gain mercies at
+At 5th level, a silver champion gains a [drake companion](ref/sidekick/drake). If the drake
+companion is at least one size larger than the silver champion, it gains the
+[mount](ref/spell/mount) drake power as a bonus power. However, a silver champion doesn't gain
+additional uses per day of smite evil at 4th, 10th, and 16th levels, and doesn't gain mercies at
 6th, 12th, and 18th levels.
 
-**Dragon Magic**
+This ability replaces divine bond, channel energy, aura of justice, and aura of righteousness, and
+alters smite evil and mercy.
 
-**Alters:** Spellcasting
+## Dragon Magic {#dragon-magic}
 
-**Info:** The silver champion does not have access to the normal paladin spell list. She instead
-adds the 1st- through 4th-level spells from the domains granted by Apsu (Artifice, Good, Law,
+The silver champion does not have access to the normal paladin spell list. She instead adds the 1st-
+through 4th-level spells from the domains granted by Apsu (Artifice, Good, Law,
 [Scalykind](ref/domain/scalykind), [Travel](ref/domain/travel)) and the god's associated subdomains
-(Archon, Construct, Dragon, Exploration, Toil, and Trade) to her class spell list. (The list of
-spells is included below.) A silver champion casts one fewer spell of each level than normal. If
-this reduces the number to less than 0, she can't cast spells of that level.
+(Archon, Construct, Dragon, Exploration, Toil, and Trade) to her class spell list. A silver champion
+casts one fewer spell of each level than normal. If this reduces the number to less than 0, she
+can't cast spells of that level.
 
-**Spells:** Animate rope, command, divine favor, expeditious retreat, floating disk, longstrider,
-magic fang, protection from chaos, protection from evil
-
-**Spells:** Align weapon\|(good or law only), animal trance, locate object, wood shape
-
-**Spells:** Draconic reservoir, fly, greater magic fang, magic circle against chaos, magic circle
-against evil, prayer, stone shape
-
-**Spells:** Dimension door, dragon's breath, holy smite, minor creation, order's wrath, poison
+This ability modifies the paladin's spellcasting.

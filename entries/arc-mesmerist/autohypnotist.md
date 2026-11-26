@@ -16,50 +16,46 @@ page = "17"
 
 [fields]
 kind = "archetype"
+features = [
+  { anchor = "autohypnosis", level = 1 },
+  { anchor = "wide-stare", level = 5 },
+]
 trades = [
-  { replaces = "Mental potency", feature = "mental-potency" },
-  { alters = "Hypnotic stare", feature = "hypnotic-stare" },
+  { replaces = "Mental potency", feature = "mental-potency", by = ["wide-stare"] },
+  { alters = "Hypnotic stare", feature = "hypnotic-stare", by = ["autohypnosis"] },
 ]
 +++
 
 An autohypnotist has incredibly powerful psychic abilities that he can't entirely control. As a
 result, maintaining his powers against an opponent hinders him as much as his target.
 
-**Autohypnosis (Su)**
+## Autohypnosis (Su) {#autohypnosis}
 
-**Action:** Ability
+At 1st level, an autohypnotist has mastered techniques that make his hypnotic stare ability more
+potent, but at a terrible cost—the autohypnotist succumbs to his own power when he uses it. Whenever
+the autohypnotist focuses his stare on an opponent, the penalties that opponent takes from the
+hypnotic stare (as well as any bold stare improvements or stare feats that the autohypnotist has)
+increase by 1. However, the autohypnotist takes the same penalties as his target while focusing his
+stare, including those of any bold stare improvements he has.
 
-**Alters:** Hypnotic stare
-
-**Gained:** At 1st Level
-
-An autohypnotist has mastered techniques that make his _hypnotic stare_ ability more potent, but at
-a terrible cost - the autohypnotist succumbs to his own power when he uses it. Whenever the
-autohypnotist focuses his stare on an opponent, the penalties that opponent takes from the _hypnotic
-stare_ (as well as any _bold stare_ improvements or stare feats that the autohypnotist has) increase
-by 1. However, the autohypnotist takes the same penalties as his target while focusing his stare,
-including those of any _bold stare_ improvements he has.
-
-An autohypnotist can reduce or negate the penalty he imposes upon himself with his _hypnotic stare,_
+An autohypnotist can reduce or negate the penalty he imposes upon himself with his hypnotic stare,
 but doing so allows his opponent an opportunity to escape from the stare as well. The autohypnotist
-can reduce the penalty he takes from his _hypnotic stare_ ability by
-[half](ref/misc/fractions-and-rounding) for 1 round as a **swift action**. If he does so, there is a
-25% chance that his _hypnotic stare_ ends altogether. Alternatively, he can choose to negate the
-penalty he takes from his _hypnotic stare_ for 1 round, but his _hypnotic stare_ then has a 50%
-chance of ending.
+can reduce the penalty he takes from his hypnotic stare ability by
+[half](ref/misc/fractions-and-rounding) for 1 round as a swift action. If he does so, there is a 25%
+chance that his hypnotic stare ends altogether. Alternatively, he can choose to negate the penalty
+he takes from his hypnotic stare for 1 round, but his hypnotic stare then has a 50% chance of
+ending.
 
-**Wide Stare (Su)**
+This ability alters hypnotic stare.
 
-**Gained:** At 5th Level
+## Wide Stare (Su) {#wide-stare}
 
-**Replaces:** Mental potency
+At 5th level, whenever an autohypnotist is focusing his stare on a foe, he can broaden his hypnotic
+stare as a standard action. When he does so, all creatures within 10 feet of his opponent take
+penalties from the mesmerist's hypnotic stare and bold stare class features as if he were
+maintaining his hypnotic stare against each of those creatures, except such creatures treat his
+hypnotic stare penalty as if it were 2 lower. When the autohypnotist uses this ability, he cannot
+exclude allies or any other creatures from this effect. If the autohypnotist's hypnotic stare ends
+for the focused opponent, this effect ends.
 
-**Special:** When the autohypnotist uses this ability, he cannot exclude allies or any other
-creatures from this effect. If the autohypnotist's _hypnotic stare_ ends for the focused opponent,
-this effect ends.
-
-**Standard:** Whenever an autohypnotist is focusing his stare on a foe, he can broaden his _hypnotic
-stare._ When he does so, all creatures within 10 feet of his opponent take penalties from the
-mesmerist's _hypnotic stare_ and _bold stare_ class features as if he were maintaining his _hypnotic
-stare_ against each of those creatures, except such creatures treat his _hypnotic stare_ penalty as
-if it were 2 lower.
+This ability replaces mental potency.

@@ -16,78 +16,46 @@ page = "20"
 
 [fields]
 kind = "archetype"
+features = [
+  { anchor = "mind-arsenal", level = 2 },
+  { anchor = "touch-treatment", level = 3 },
+  { anchor = "spells" },
+]
 trades = [
-  { replaces = "Lay on hands", feature = "lay-on-hands" },
-  { replaces = "Mercy", feature = "mercy" },
-  { replaces = "Channel positive energy", feature = "channel-positive-energy" },
+  { replaces = "Lay on hands", feature = "lay-on-hands", by = ["mind-arsenal"] },
+  { replaces = "Mercy", feature = "mercy", by = ["touch-treatment"] },
+  { replaces = "Channel positive energy", feature = "channel-positive-energy", by = ["spells"] },
 ]
 +++
 
 Veterans of mystical battles against demons of the Worldwound, mind swords merge psychic and divine
 power, probing and cleansing minds while their telekinetic blades cleave demonic flesh.
 
-**Mind Arsenal (Su)**
+## Mind Arsenal (Su) {#mind-arsenal}
 
-**At 12th Level:** A mind sword can expend one use of this ability as a **full-round action** to
-combine melee attacks and ranged attacks aimed at different targets within 60 feet as part of a
-single full-attack action.
+At 2nd level, a mind sword can make a telekinetic attack with a melee weapon. This functions as the
+hand of the apprentice [universalist](ref/arcaneschool/universalist) wizard school ability, but any
+calculations of that ability based on Intelligence are instead based on Charisma. At 6th level, a
+mind sword can expend two uses of this ability as a full-round action to attack the same opponent
+multiple times, as if using the full-attack action. At 12th level, a mind sword can expend one use
+of this ability as a full-round action to combine melee attacks and ranged attacks aimed at
+different targets within 60 feet as part of a single full-attack action. This ability replaces lay
+on hands.
 
-**At 2nd Level:** A mind sword can make a telekinetic attack with a melee weapon. This functions as
-the _hand of the apprentice_ [universalist](ref/arcaneschool/universalist) wizard school ability,
-but any calculations of that ability based on Intelligence are instead based on Charisma.
+## Touch Treatment (Su) {#touch-treatment}
 
-**At 6th Level:** A mind sword can expend two uses of this ability as a **full-round action** to
-attack the same opponent multiple times, as if using the full-attack action.
+At 3rd level, a mind sword can expend one use of her mind arsenal ability to remove minor harmful
+mental conditions, as per the [mesmerist](ref/class/mesmerist) touch treatment class feature
+(_Pathfinder RPG Occult Adventures_ 43). At 9th level, she can remove moderate conditions, and at
+15th level, she can remove major conditions. This ability replaces mercy.
 
-**Replaces:** Lay on hands
+## Spells {#spells}
 
-**Touch Treatment (Su)**
-
-**At 15th Level:** She can remove conditions as per the "greater" ability of _touch treatment._
-
-**At 3rd Level:** A mind sword can expend one use of her _mind arsenal_ ability to remove minor
-harmful mental conditions, as per the [mesmerist](ref/class/mesmerist) _touch treatment_ class
-feature (minor ability).
-
-**At 9th Level:** Her _treatment_ expands to the "moderate" version of the ability.
-
-**Replaces:** Mercy
-
-**Touch Treatment (Su)**
-
-**Flavor:** Text from the mesmerist ability.
-
-**At 10th Level:** You can now also remove the _cowering, nauseated, panicked,_ and _stunned_
-conditions. This is the "greater" ability.
-
-**At 14th Level:** You can instead expend one use of touch treatment to replicate the effects of
-[break enchantment](ref/spell/break-enchantment). This targets only one creature you are touching
-and follows all other restrictions of touch treatment.
-
-**At 6th Level:** You can now also remove the _confused, dazed, frightened,_ and _sickened_
-conditions. This is the "moderate" ability.
-
-**At 3rd Level:** You can help allies shake off harmful conditions - especially those that affect
-their minds - by channeling psychic energy through your healing hands. You must be able to touch
-your target. You can remove the _fascinated_ or _shaken_ condition from your target each time you
-use this ability. This is the "minor" ability.
-
-**Spells**
-
-**Info:** A mind sword adds the following psychic spells to her paladin spell list at the listed
-spell levels.
-
-**Replaces:** Channel positive energy
-
-**Spells:** Detect psychic significance, mage hand, telekinetic projectile, thought shield I
-
-**Spells:** Apport object, enshroud thoughts, mental barrier I, thought shield II
-
-**Spells:** Intellect fortress I, mental barrier II, telekinetic maneuver, thought shield III
-
-**Spells:** Intellect fortress II, telekinesis, thought shield IV, thoughtsense, tower of iron will
-I
-
-**Special:** The mind sword can prepare and cast these psychic spells as divine paladin spells.
-However, the mind sword cannot use these spells for item creation, including making potions or
-scrolls of these spells.
+A mind sword adds the following psychic spells to her paladin spell list at the listed spell levels:
+1st—_detect psychic significance, mage hand, telekinetic projectile, thought shield I_; 2nd—_apport
+object, enshroud thoughts, mental barrier I, thought shield II_; 3rd—_intellect fortress I, mental
+barrier II, telekinetic maneuver, thought shield III_; 4th—_intellect fortress II, telekinesis,
+thought shield IV, thoughtsense, tower of iron will I_. The mind sword can prepare and cast these
+psychic spells as divine paladin spells. However, the mind sword cannot use these spells for item
+creation, including making potions or scrolls of these spells. This ability replaces channel
+positive energy.

@@ -16,119 +16,104 @@ page = "26"
 
 [fields]
 kind = "archetype"
+features = [
+  { anchor = "propitiation", level = 1 },
+  { anchor = "resilient-stand", level = 11 },
+]
 trades = [
-  { replaces = "Resolve", feature = "resolve" },
-  { replaces = "greater resolve", feature = "greater-resolve" },
-  { replaces = "true resolve", feature = "true-resolve" },
-  { alters = "Honorable stand", feature = "honorable-stand" },
+  { replaces = "Resolve", feature = "resolve", by = ["propitiation"] },
+  { replaces = "greater resolve", feature = "greater-resolve", by = ["propitiation"] },
+  { replaces = "true resolve", feature = "true-resolve", by = ["propitiation"] },
+  { alters = "Honorable stand", feature = "honorable-stand", by = ["resilient-stand"] },
+  { alters = "Alignment" },
 ]
 +++
 
 The ward speaker draws power from simple rituals to honor the spirits found throughout the world so
 that he might better protect those entrusted to his care.
 
-**Prerequisites:** Nonevil alignment
+## Alignment {#alignment}
 
-**Propitiation (Ex, Su, Sp)**
+A ward speaker must be of a nonevil alignment.
 
-**Ability:** A ward speaker can perform a special ritual to _propitiate_ [kami](ref/family/kami) and
-gain a sliver of their power. This ritual must be performed at a shrine or a location warded by a
-specific type of kami. The _propitiation_ takes 1 minute and involves clapping, ringing bells,
-bowing, and token offerings of coins, food, incense, or other gifts. The ward speaker's
-_propitiation_ must be performed uninterrupted to receive any benefits from it. At the end of this
-ritual, the ward speaker immediately gains a _fortune_ depending on the type of kami he sought to
-_propitiate._
+This alters the samurai's alignment.
 
-**Immediate:** The ward speaker can dismiss the _fortune_ to reroll one d20 roll before the results
-of the roll are revealed; he must use the result of the second roll, even if it's worse.
+## Propitiation (Ex, Su, Sp) {#propitiation}
 
-**Replaces:** Resolve, greater resolve, true resolve
+A ward speaker can perform a special ritual to propitiate [kami](ref/family/kami) and gain a sliver
+of their power. This ritual must be performed at a shrine or a location warded by a specific type of
+kami. The propitiation takes 1 minute and involves clapping, ringing bells, bowing, and token
+offerings of coins, food, incense, or other gifts. The ward speaker's propitiation must be performed
+uninterrupted to receive any benefits from it. At the end of this ritual, the ward speaker
+immediately gains a fortune depending on the type of kami he sought to propitiate. Common kami are
+presented beginning on page 159 of _Bestiary 3_, and the fortunes each of those kami grant are
+listed below.
 
-**Special:** If not dismissed, a _fortune_ remains in effect until the ward speaker regains the use
-of his daily abilities, at which point the _fortune_ and its benefits end. If a ward speaker
-dismisses a _fortune_ to receive a benefit based on the specific kami he _propitiated_ (see below),
-he does not also gain the reroll described here. He can maintain only one _fortune_ at a time;
-performing a _propitiation_ while he already has a _fortune_ active ends the previous _fortune_ and
-its benefits.
+As an immediate action, the ward speaker can dismiss the fortune to reroll one d20 roll before the
+results of the roll are revealed; he must use the result of the second roll, even if it's worse. If
+not dismissed, a fortune remains in effect until the ward speaker regains the use of his daily
+abilities, at which point the fortune and its benefits end. If a ward speaker dismisses a fortune to
+receive a benefit based on the specific kami he propitiated (see below), he does not also gain the
+reroll described here.
 
-**Usage:** 1 time/day + 1 per 3 samurai levels beyond 1st
+The ward speaker can perform this ritual once per day at 1st level, plus one additional time per day
+for every 3 levels beyond 1st, to a maximum of seven times per day at 19th level. He can maintain
+only one fortune at a time; performing a propitiation while he already has a fortune active ends the
+previous fortune and its benefits.
 
-**Jinushigami (Ex, Sp)**
+This replaces resolve, greater resolve, and true resolve.
 
-**At 17th Level:** Once per day, he can dismiss this _fortune_ as an **immediate action** to cast
-[earthquake](ref/spell/earthquake) as a [spell-like ability](ref/umr/spell-like-abilities), using
-his samurai level as his caster level.
+### Jinushigami (Ex, Sp) {#jinushigami}
 
-**At 9th Level:** This enhancement bonus increases to 20 feet.
+The ward speaker (and his mount, if he has one) gains a 10-foot enhancement bonus to base speed. At
+9th level, this enhancement bonus increases to 20 feet. At 17th level, once per day, he can dismiss
+this fortune as an immediate action to cast _[earthquake](ref/spell/earthquake)_ as a
+[spell-like ability](ref/umr/spell-like-abilities), using his samurai level as his caster level.
 
-**Passive:** The ward speaker (and his mount, if he has one) gains a 10-foot enhancement bonus to
-base speed.
+### Kodama (Su) {#kodama}
 
-**Kodama (Su)**
-
-**At 17th Level:** It is instead staggered for 1 minute.
-
-**At 9th Level:** It is instead staggered for 2d4 rounds.
-
-**Special:** Once a creature has been targeted by this ability, it cannot be targeted by it again
-for 24 hours
-
-**Standard:** The ward speaker can afflict one target that can see him with a distracting
+As a standard action, the ward speaker can afflict one target that can see him with a distracting
 [gaze](ref/umr/gaze). If the target fails a Will save (DC = 10 + half the ward speaker's samurai
-level), it is [staggered](ref/misc/staggered) for 1d4 rounds.
+level), it is [staggered](ref/misc/staggered) for 1d4 rounds. At 9th level, it is instead staggered
+for 2d4 rounds. At 17th level, it is instead staggered for 1 minute. Once a creature has been
+targeted by this ability, it cannot be targeted by it again for 24 hours.
 
-**Shikigami (Ex)**
+### Shikigami (Ex) {#shikigami}
 
-**Ability:** The ward speaker gains [Catch Off-Guard](ref/feat/catch-off-guard) and
-[Throw Anything](ref/feat/throw-anything) as bonus feats.
+The ward speaker gains [Catch Off-Guard](ref/feat/catch-off-guard) and
+[Throw Anything](ref/feat/throw-anything) as bonus feats. At 9th level, he gains
+[Toughness](ref/feat/toughness) and [Step Up](ref/feat/step-up). At 17th level, he gains
+[Following Step](ref/feat/following-step) and [Step Up and Strike](ref/feat/step-up-and-strike),
+even if he does not meet the prerequisites.
 
-**At 17th Level:** He gains [Following Step](ref/feat/following-step) and
-[Step Up and Strike](ref/feat/step-up-and-strike), even if he does not meet the prerequisites.
+### Toshigami (Sp) {#toshigami}
 
-**At 9th Level:** He gains [Toughness](ref/feat/toughness) and [Step Up](ref/feat/step-up).
-
-**Toshigami (Sp)**
-
-**Ability:** The ward speaker can speak with plants, as the
-[speak with plants](ref/spell/speak-with-plants) spell.
-
-**At 17th Level:** Once per day, the ward speaker can instead dismiss this _fortune_ to cast
-[temporal stasis](ref/spell/temporal-stasis) as a
-[spell-like ability](ref/umr/spell-like-abilities).
-
-**At 9th Level:** The ward speaker can dismiss this _fortune_ as an **immediate action** to cast
-[haste](ref/spell/haste) as a [spell-like ability](ref/umr/spell-like-abilities).
-
-**Special:** The ward speaker's caster level for these
+The ward speaker can [speak with plants](ref/spell/speak-with-plants), as the _speak with plants_
+spell. At 9th level, the ward speaker can dismiss this fortune as an immediate action to cast
+_[haste](ref/spell/haste)_ as a [spell-like ability](ref/umr/spell-like-abilities). Once per day at
+17th level, the ward speaker can instead dismiss this fortune to cast
+_[temporal stasis](ref/spell/temporal-stasis)_ as a
+[spell-like ability](ref/umr/spell-like-abilities). The ward speaker's caster level for these
 [spell-like abilities](ref/umr/spell-like-abilities) is equal to his samurai level.
 
-**Zuishin (Sp)**
+### Zuishin (Sp) {#zuishin}
 
-**Immediate:** The ward speaker can dismiss this _fortune_ to cast
-[cure light wounds](ref/spell/cure-light-wounds) as a
-[spell-like ability](ref/umr/spell-like-abilities).
+As an immediate action, the ward speaker can dismiss this fortune to cast
+_[cure light wounds](ref/spell/cure-light-wounds)_ as a
+[spell-like ability](ref/umr/spell-like-abilities). At 9th level, the ward speaker can dismiss this
+fortune to cast _[cure serious wounds](ref/spell/cure-serious-wounds),
+[lesser restoration](ref/spell/restoration-lesser), [remove curse](ref/spell/remove-curse),_ or
+_[remove disease](ref/spell/remove-disease)_; at 17th level, he also adds
+_[breath of life](ref/spell/breath-of-life)_ and _[heal](ref/spell/heal)_ to this list. The ward
+speaker's caster level for these [spell-like abilities](ref/umr/spell-like-abilities) is equal to
+his samurai level.
 
-**At 17th Level:** He also adds [breath of life](ref/spell/breath-of-life) and
-[heal](ref/spell/heal) to this list.
+## Resilient Stand (Ex) {#resilient-stand}
 
-**At 9th Level:** The ward speaker can dismiss this _fortune_ to cast
-[cure serious wounds](ref/spell/cure-serious-wounds),
-[lesser restoration](ref/spell/restoration-lesser), [remove curse](ref/spell/remove-curse), or
-[remove disease](ref/spell/remove-disease).
+At 11th level, the spirits can bolster a ward speaker's willpower and resolve, granting him an inner
+reservoir he can use when he needs it most. If a ward speaker has not expended his daily uses of
+propitiation, he can call upon the spirits to reroll a saving throw during an honorable stand
+instead of expending a use of resolve to do so. He must take the result of the second roll, even if
+it is worse. This expends a daily use of propitiation.
 
-**Special:** The ward speaker's caster level for these
-[spell-like abilities](ref/umr/spell-like-abilities) is equal to his samurai level.
-
-**Resilient Stand (Ex)**
-
-**Ability:** If a ward speaker has not expended his daily uses of _propitiation,_ he can call upon
-the spirits to reroll a saving throw during an _honorable stand_ instead of expending a use of
-_resolve_ to do so. He must take the result of the second roll, even if it is worse. This expends a
-daily use of _propitiation._
-
-**Alters:** Honorable stand
-
-**Flavor:** The spirits can bolster a ward speaker's willpower and resolve, granting him an inner
-reservoir he can use when he needs it most.
-
-**Gained:** At 11th Level
+This alters honorable stand.

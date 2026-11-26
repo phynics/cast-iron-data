@@ -16,9 +16,15 @@ page = "17"
 
 [fields]
 kind = "archetype"
+features = [
+  { anchor = "revelations", level = 1 },
+  { anchor = "calculate-the-odds", level = 1 },
+  { anchor = "program-the-divine-algorithm", level = 7 },
+  { anchor = "final-revelation", level = 20 },
+]
 trades = [
-  { replaces = "The bonus spells gained at 10th, 12th, 14th, 16th, and 18th levels from the oracle's mystery", feature = "mystery", levels = [10, 12, 14, 16, 18], power = "bonus spells" },
-  { replaces = "1st- and 7th-level revelations", feature = "revelation", levels = [1, 7] },
+  { replaces = "The oracle's normal mystery bonus spells at these levels", feature = "mystery", levels = [10, 12, 14, 16, 18], power = "bonus spells" },
+  { replaces = "1st- and 7th-level revelations", feature = "revelation", levels = [1, 7], by = ["revelations"] },
 ]
 +++
 
@@ -28,73 +34,52 @@ and extract meaningful portents. The divine numerologist's ultimate goal is to l
 the patterns in the equations and algorithms that underscore even the most chaotic forms of reality
 and use them to their personal advantage.
 
-**Recommended Mysteries:** Any.
+## Recommended Mysteries {#recommended-mysteries}
 
-**Bonus Spells**
+Any.
 
-**Info:** The oracle gains these bonus spells at the listed levels.
+## Bonus Spells {#bonus-spells}
 
-**Replaces:** The bonus spells gained at 10th, 12th, 14th, 16th, and 18th levels from the oracle's
-mystery
+_Prying eyes_ (10th), _numerological evocation_ (12th; _Pathfinder Campaign Setting: Occult
+Mysteries_ 51), _greater arcane sight_ (14th), _moment of prescience_ (16th), _foresight_ (18th).
 
-**Spells:** Prying eyes
+These bonus spells replace the oracle's mystery bonus spells at these levels.
 
-**Spells:** Numerological evocation
+## Revelations {#revelations}
 
-**Spells:** Greater arcane sight
+A divine numerologist must take the following revelations at the listed levels.
 
-**Spells:** Moment of prescience
+## Calculate the Odds (Su) {#calculate-the-odds}
 
-**Spells:** Foresight
+At 1st level, as a swift action that does not provoke attacks of opportunity, the divine
+numerologist can quickly tabulate the variables affecting the current situation. This grants the
+divine numerologist a circumstance bonus equal to her Charisma modifier (minimum +1) to her next d20
+roll within 1 round. If the divine numerologist does not use this bonus within 1 round, the use of
+this ability is wasted. The divine numerologist can use this ability once per day at 1st level, plus
+one additional time per day at 7th and 15th levels.
 
-**Revelations**
+## Program the Divine Algorithm (Su) {#program-the-divine-algorithm}
 
-**Ability:** A divine numerologist must take the following revelations at the listed levels.
-
-**Replaces:** 1st- and 7th-level revelations
-
-**Calculate the Odds (Su)**
-
-**Gained:** At 1st Level
-
-**Provokes attack of opportunity:** No
-
-**Swift:** Once per day, the divine numerologist can quickly tabulate the variables affecting the
-current situation. This grants the divine numerologist a circumstance bonus equal to her Charisma
-modifier (minimum +1) to her next d20 roll within 1 round. If the divine numerologist does not use
-this bonus within 1 round, the use of this ability is wasted.
-
-**Program the Divine Algorithm (Su)**
-
-**Flavor:** The divine numerologist's mastery of the divine mathematics allows her to set specific
+At 7th level, the divine numerologist's mastery of the divine mathematics allows her to set specific
 parameters in the divine equation to adjust the outcome of an event right as it is about to occur.
+As an immediate action that does not provoke attacks of opportunity, the divine numerologist can
+take the average of a single roll of one or more dice, averaging each die separately (for example,
+the average of a d20 roll is 10, the average of 3d6 is 9, and so on). When using this ability, the
+divine numerologist can add any modifiers to the roll as normal.
 
-**Immediate:** Once per day, the divine numerologist can take the average of a single roll of one or
-more dice, averaging each die separately (for example, the average of a d20 roll is 10, the average
-of 3d6 is 9, and so on). When using this ability, the divine numerologist can add any modifiers to
-the roll as normal.
+The divine numerologist must decide to use this ability immediately before the roll she chooses to
+affect, and the divine numerologist cannot reroll this roll, even if she has a feat or another
+ability that would normally allow her to do so.
 
-**At 11th Level:** She may use this ability twice a day.
+The divine numerologist can use this ability once per day at 7th level and twice per day at 11th
+level. At 15th level, the divine numerologist can use this ability three times per day, and instead
+of treating a roll as its average, she can instead treat the roll as its maximum result (for
+example, the divine numerologist can treat a d20 roll as if the result were 20).
 
-**At 15th Level:** She can use this three times a day, and instead of treating a roll as its
-average, she can instead treat the roll as its maximum result (for example, the divine numerologist
-can treat a d20 roll as if the result were 20).
+## Final Revelation {#final-revelation}
 
-**Gained:** At 7th Level
-
-**Provokes attack of opportunity:** No
-
-**Special:** The divine numerologist must decide to use this ability immediately before the roll she
-chooses to affect, and the divine numerologist cannot reroll this roll, even if she has a feat or
-another ability that would normally allow her to do so.
-
-**Final Revelation**
-
-**Ability:** Once per day when the divine numerologist or another allied creature within 30 feet of
-her threatens a critical hit, the critical hit is automatically confirmed.
-
-**Gained:** At 20th Level
-
-**Passive:** A divine numerologist understands the math behind the entirety of existence well enough
-to significantly tweak her own personal fate. The divine numerologist ceases aging. She no longer
-suffers age-related penalties to ability scores and cannot be magically aged.
+At 20th level, a divine numerologist understands the math behind the entirety of existence well
+enough to significantly tweak her own personal fate. The divine numerologist ceases aging. She no
+longer suffers age-related penalties to ability scores and cannot be magically aged. Additionally,
+once per day when the divine numerologist or another allied creature within 30 feet of her threatens
+a critical hit, the critical hit is automatically confirmed.

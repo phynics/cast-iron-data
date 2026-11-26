@@ -16,9 +16,14 @@ page = "25"
 
 [fields]
 kind = "archetype"
+features = [
+  { anchor = "debater", level = 1 },
+  { anchor = "eldritch-glibness", level = 2 },
+  { anchor = "public-speaker" },
+]
 trades = [
-  { replaces = "1st-level hex", feature = "hex", levels = [1] },
-  { replaces = "All spells granted by the witch's patron", feature = "patron-spells" },
+  { replaces = "Hex gained at 1st level", feature = "hex", levels = [1], by = ["debater"] },
+  { replaces = "All the spells the witch gains from her patron", feature = "patron-spells", by = ["eldritch-glibness"] },
 ]
 +++
 
@@ -29,52 +34,28 @@ their familiars that boost their ability to outtalk and outthink their foes, lea
 they are destined to be emissaries for their patrons once some long-term plans of their patrons'
 come to fruition.
 
-**Gained class skills:** perf
+## Debater (Ex) {#debater}
 
-**Debater (Ex)**
+A rhetorician is an expert at making counterarguments and treating everything as a debate. When an
+opponent attempts a Diplomacy check to change another target's attitude or request aid, the
+rhetorician can attempt to make a counterargument to negate the opponent's efforts. The rhetorician
+attempts a Diplomacy check as an immediate action, with a DC equal to the result of the opponent's
+Diplomacy check. The target of the opponent's Diplomacy check must be able to see and hear the
+rhetorician. If the rhetorician's Diplomacy check is successful, the opponent's Diplomacy check
+fails. This ability replaces the hex gained at 1st level.
 
-**Ability:** When an opponent attempts a Diplomacy check to change another target's attitude or
-request aid, the rhetorician can attempt to make a counterargument to negate the opponent's efforts.
-The rhetorician attempts a Diplomacy check as an **immediate action**, with a DC equal to the result
-of the opponent's Diplomacy check. The target of the opponent's Diplomacy check must be able to see
-and hear the rhetorician. If the rhetorician's Diplomacy check is successful, the opponent's
-Diplomacy check fails.
+## Eldritch Glibness {#eldritch-glibness}
 
-**Flavor:** A rhetorician is an expert at making counterarguments and treating everything as a
-debate.
+At 2nd level and every two witch levels thereafter, a rhetorician gains the following spells as
+spells known at the spell levels listed in parentheses. These spells are automatically added to the
+list of spells stored by her familiar. She treats these as being on the witch class spell list:
+2nd—_confusion, lesser_ (1st), 4th—_detect thoughts_ (2nd), 6th—_glibness_ (3rd), 8th—_sculpt sound_
+(4th), 10th—_modify memory_ (5th), 12th—_symbol of persuasion_ (6th), 14th—_song of discord_ (7th),
+16th—_greater shout_ (8th), 18th—_weird_ (9th). This ability replaces all the spells the witch gains
+from her patron.
 
-**Replaces:** 1st-level hex
+## Public Speaker (Ex) {#public-speaker}
 
-**Eldritch Glibness**
-
-**Ability:** A rhetorician gains the following spells as spells known at the given witch levels, and
-at the spell levels listed in parentheses. These spells are automatically added to the list of
-spells stored by her familiar. She treats these as being on the witch class spell list.
-
-**Gained:** At 2nd Level
-
-**Replaces:** All spells granted by the witch's patron
-
-**Spells:** Modify memory\|(5th)
-
-**Spells:** Symbol of persuasion\|(6th)
-
-**Spells:** Song of discord\|(7th)
-
-**Spells:** Greater shout\|(8th)
-
-**Spells:** Weird\|(9th)
-
-**Spells:** Confusion, lesser\|(1st)
-
-**Spells:** Detect thoughts\|(2nd)
-
-**Spells:** Glibness\|(3rd)
-
-**Spells:** Sculpt sound\|(4th)
-
-**Public Speaker (Ex)**
-
-**Ability:** A rhetorician is trained to project her voice with great skill and effect; the DC to
-hear her speak in difficult conditions is reduced by an amount equal to her class level + her
-Intelligence modifier (minimum 0).
+A rhetorician gains Perform as a class skill. In addition, she is trained to project her voice with
+great skill and effect; the DC to hear her speak in difficult conditions is reduced by an amount
+equal to her class level + her Intelligence modifier (minimum 0).

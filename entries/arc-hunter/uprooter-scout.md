@@ -16,12 +16,17 @@ page = "13"
 
 [fields]
 kind = "archetype"
+features = [
+  { anchor = "lore-of-the-blight", level = 6 },
+  { anchor = "unnatural-stride", level = 10 },
+  { anchor = "demon-s-end", level = 17 },
+]
 trades = [
-  { replaces = "Improved empathic link", feature = "improved-empathic-link" },
-  { replaces = "speak with master", feature = "speak-with-master" },
-  { replaces = "greater empathic link", feature = "greater-empathic-link" },
-  { replaces = "Raise animal companion", feature = "raise-animal-companion" },
-  { replaces = "One with the wild", feature = "one-with-the-wild" },
+  { replaces = "Improved empathic link", feature = "improved-empathic-link", by = ["lore-of-the-blight"] },
+  { replaces = "speak with master", feature = "speak-with-master", by = ["lore-of-the-blight"] },
+  { replaces = "greater empathic link", feature = "greater-empathic-link", by = ["lore-of-the-blight"] },
+  { replaces = "Raise animal companion", feature = "raise-animal-companion", by = ["unnatural-stride"] },
+  { replaces = "One with the wild", feature = "one-with-the-wild", by = ["demon-s-end"] },
 ]
 +++
 
@@ -32,41 +37,25 @@ scout who accompanied an expedition into the Worldwound to put his
 [demon](ref/family/demon)-fighting skills to work there has retired to Mendev to teach his
 techniques to others, so these skills are slowly being passed on to non-elves.
 
-**Lore of the Blight (Ex)**
+## Lore of the Blight (Ex) {#lore-of-the-blight}
 
-**Gained:** At 6th Level
-
-**Passive:** An Uprooter scout and her animal companion gain a +2 bonus on initiative checks and on
+At 6th level, an Uprooter scout and her animal companion gain a +2 bonus on initiative checks and on
 Knowledge (geography), Perception, Stealth, and Survival skill checks when she's in
 [the Abyss](ref/rule/the-abyss) or Abyss-tainted terrain (such as Tanglebriar or the Worldwound).
 When she travels through this terrain, she leaves no trail and can't be tracked (though she can
-leave a trail if she so chooses).
+leave a trail if she so chooses). This bonus increases to +4 at 11th level and +6 at 16th level.
+This ability replaces improved empathic link, speak with master, and greater empathic link.
 
-**Replaces:** Improved empathic link, speak with master, greater empathic link
+## Unnatural Stride (Ex) {#unnatural-stride}
 
-At 11th level: This bonus increases to +4.
-
-At 16th level: This bonus increases to +6.
-
-**Unnatural Stride (Ex)**
-
-**Ability:** The Uprooter scout and her animal companion learn how to move through undergrowth (as
+At 10th level, the Uprooter scout and her animal companion learn how to move through undergrowth (as
 [woodland stride](ref/ability/woodland-stride)) that has been enchanted, corrupted, or magically
-manipulated.
+manipulated. This ability replaces raise animal companion.
 
-**Gained:** At 10th Level
+## Demon's End (Ex) {#demon-s-end}
 
-**Replaces:** Raise animal companion
-
-**Demon's End (Ex)**
-
-**Flavor:** Even demons must respect the number of their kindred an Uprooter scout has slain, and
-lesser demons quake before her.
-
-**Gained:** At 17th Level
-
-**Replaces:** One with the wild
-
-**Swift:** The Uprooter scout and her companion can attempt to demoralize a demon, rolling 1d20 and
-adding the scout's level and her Charisma modifier to determine the
-[Intimidate](ref/skill/intimidate) check result.
+At 17th level, even demons must respect the number of their kindred an Uprooter scout has slain, and
+lesser demons quake before her. The Uprooter scout and her companion can attempt to demoralize a
+demon as a swift action, rolling 1d20 and adding the scout's level and her Charisma modifier to
+determine the [Intimidate](ref/skill/intimidate) check result. This ability replaces one with the
+wild.

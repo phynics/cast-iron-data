@@ -16,12 +16,19 @@ page = "20"
 
 [fields]
 kind = "archetype"
+features = [
+  { anchor = "aberration-hunter", level = 1 },
+  { anchor = "alien-prescience", level = 2 },
+  { anchor = "discern-weakness", level = 7 },
+  { anchor = "steely-mind", level = 8 },
+  { anchor = "aberration-slayer", level = 20 },
+]
 trades = [
-  { replaces = "Track", feature = "track" },
-  { replaces = "Slayer talent received at 2nd level", feature = "slayer-talents", levels = [2] },
-  { replaces = "Stalker", feature = "stalker" },
-  { replaces = "Slayer talent received at 8th level", feature = "slayer-talents", levels = [8] },
-  { alters = "Master slayer", feature = "master-slayer" },
+  { replaces = "Track", feature = "track", by = ["aberration-hunter"] },
+  { replaces = "Slayer talent received at 2nd level", feature = "slayer-talents", levels = [2], by = ["alien-prescience"] },
+  { replaces = "Stalker", feature = "stalker", by = ["discern-weakness"] },
+  { replaces = "Slayer talent received at 8th level", feature = "slayer-talents", levels = [8], by = ["steely-mind"] },
+  { alters = "Master slayer", feature = "master-slayer", by = ["aberration-slayer"] },
 ]
 +++
 
@@ -32,61 +39,35 @@ the bizarre alien technology that pervades the land. Pureblades from Alkenstar a
 into the magic-starved Mana Wastes to eliminate aberrations before the creatures can threaten their
 lands.
 
-**Aberration Hunter (Ex)**
+## Aberration Hunter (Ex) {#aberration-hunter}
 
-**Ability:** In addition, a Pureblade can attempt Knowledge (dungeoneering) skill checks untrained
-when trying to identify aberrations.
+If a Pureblade deals damage to an aberration, as an immediate action he can apply his studied target
+bonus against that target even if he didn't sneak attack it. In addition, a Pureblade can attempt
+Knowledge (dungeoneering) skill checks untrained when trying to identify aberrations. This ability
+replaces track.
 
-**Immediate:** If a Pureblade deals damage to an aberration, he can apply his _studied target_ bonus
-against that target even if he didn't sneak attack it.
+## Alien Prescience (Sp) {#alien-prescience}
 
-**Replaces:** Track
+At 2nd level, as a standard action a Pureblade can detect aberrations. This works like
+_[detect undead](ref/spell/detect-undead)_, except it detects aberrations instead of undead. This
+ability replaces the slayer talent received at 2nd level.
 
-**Alien Prescience (Sp)**
+## Discern Weakness (Ex) {#discern-weakness}
 
-**Gained:** At 2nd Level
+At 7th level, a Pureblade becomes an expert at locating an aberration's weak points. The Pureblade
+rolls twice to confirm critical hits against aberrations and keeps the higher roll. This ability
+replaces stalker.
 
-**Replaces:** Slayer talent received at 2nd level
+## Steely Mind (Ex) {#steely-mind}
 
-**Standard:** A Pureblade can _detect aberrations._ This works like
-[detect undead](ref/spell/detect-undead), except it detects aberrations instead of undead.
+At 8th level, a Pureblade gains a +2 resistance bonus on saving throws against mind-affecting spells
+and effects. This bonus increases to +4 at 12th level and +6 at 16th level. In addition, once per
+day as a standard action, a Pureblade can shed a magical effect placed on him by an aberration as
+_[break enchantment](ref/spell/break-enchantment)_, using his slayer level as his caster level. A
+Pureblade can use this ability twice per day at 12th level and three times per day at 16th level.
+This ability replaces the slayer talent received at 8th level.
 
-**Discern Weakness (Ex)**
+## Aberration Slayer (Ex) {#aberration-slayer}
 
-**Ability:** The Pureblade rolls twice to confirm critical hits against aberrations and keeps the
-higher roll.
-
-**Flavor:** A Pureblade becomes an expert at locating an aberration's weak points.
-
-**Gained:** At 7th Level
-
-**Replaces:** Stalker
-
-**Steely Mind (Ex)**
-
-**At 12th Level:** A Pureblade can shed a magical effect twice per day.
-
-**At 16th Level:** He can shed a magical effect three times per day.
-
-**Gained:** At 8th Level
-
-**Passive:** A Pureblade gains a +2 resistance bonus on saving throws against mind-affecting spells
-and effects.
-
-**Replaces:** Slayer talent received at 8th level
-
-**Standard:** Once per day, a Pureblade can shed a magical effect placed on him by an aberration as
-[break enchantment](ref/spell/break-enchantment), using his slayer level as his caster level.
-
-At 12th level: The resistance bonus increases to +4.
-
-At 16th level: The resistance bonus increases to +6.
-
-**Aberration Slayer (Ex)**
-
-**Ability:** A Pureblade can use his _master slayer_ ability on any aberration, even if it's not his
-_studied target._
-
-**Alters:** Master slayer
-
-**Gained:** At 20th Level
+At 20th level, a Pureblade can use his master slayer ability on any aberration, even if it's not his
+studied target. This ability alters master slayer.

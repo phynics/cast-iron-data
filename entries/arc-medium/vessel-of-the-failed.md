@@ -16,12 +16,18 @@ page = "7"
 
 [fields]
 kind = "archetype"
+features = [
+  { anchor = "will-of-the-failed", level = 1 },
+  { anchor = "reckless-surge", level = 1 },
+  { anchor = "heroic-exceptions" },
+  { anchor = "spiritual-swan-song", level = 15 },
+]
 trades = [
-  { replaces = "Trance of three", feature = "trance-of-three" },
-  { alters = "Spirit", feature = "spirit" },
-  { alters = "spirit mastery", feature = "spirit-mastery" },
-  { alters = "Spirit surge", feature = "spirit-surge" },
-  { alters = "Taboo", feature = "taboo" },
+  { replaces = "Trance of three", feature = "trance-of-three", by = ["spiritual-swan-song"] },
+  { alters = "Spirit", feature = "spirit", by = ["will-of-the-failed"] },
+  { alters = "spirit mastery", feature = "spirit-mastery", by = ["will-of-the-failed"] },
+  { alters = "Spirit surge", feature = "spirit-surge", by = ["reckless-surge"] },
+  { alters = "Taboo", feature = "taboo", by = ["heroic-exceptions"] },
 ]
 +++
 
@@ -30,29 +36,23 @@ failed; these spirits grant the medium abilities wrought from the spirits' ultim
 vessel of the failed intimately understands the shaky line between success and failure and embraces
 walking that line to gain power from the spirits he calls.
 
-**Will of the Failed (Su)**
-
-**Action:** Ability
-
-**Alters:** Spirit, spirit mastery
-
-**Special:** A vessel of the failed cannot channel a weaker spirit.
+## Will of the Failed (Su) {#will-of-the-failed}
 
 A vessel of the failed is intimately familiar with the supernatural stubbornness of the brash heroes
-who have met their demise pursuing the Test of the Starstone, and he can tap into this strength when
-he needs it the most.
+who have met their demise pursuing the Test of the _Starstone_, and he can tap into this strength
+when he needs it the most.
 
 When a spirit attains 5 or more points of influence over the vessel of the failed, the vessel can
 attempt a Will saving throw (DC = 15 + half the vessel's class level) to avoid completely losing
-control to the spirit. The first time in a single 24-hour _seance_ period that the vessel succeeds
-at this saving throw, he is [deafened](ref/misc/deafened) until he awakens the next day with the
-spirit gone. The second time the vessel succeeds at this saving throw during that period, he is also
+control to the spirit. The first time in a single 24-hour seance period that the vessel succeeds at
+this saving throw, he is [deafened](ref/misc/deafened) until he awakens the next day with the spirit
+gone. The second time the vessel succeeds at this saving throw during that period, he is also
 [blinded](ref/misc/blinded). The third time, he is also [staggered](ref/misc/staggered). These
 conditions are unavoidable and cannot be removed through magic or any other method. (If he wishes,
 the vessel of the failed can choose to forgo this saving throw and lose control to the spirit as
 normal.)
 
-The fourth time in a single _seance_ period that a spirit gains 5 or more influence points over the
+The fourth time in a single seance period that a spirit gains 5 or more influence points over the
 vessel of the failed, the vessel must succeed at a Will save or he loses control to the spirit and
 effectively becomes an NPC under the GM's control until after he awakens the next day with the
 spirit gone.
@@ -61,98 +61,88 @@ If a spirit ever attains 7 or more points of influence over the vessel, the vess
 loses control to the spirit and effectively becomes an NPC under the GM's control until after he
 awakens the next day with the spirit gone.
 
-**Reckless Surge (Su)**
+A vessel of the failed cannot channel a weaker spirit.
 
-**Ability:** A vessel of the failed can attempt to tap into his spirit's bravado - though harnessing
-such moxie is never guaranteed. If the vessel allows his spirit to gain 2 additional points of
-influence over him after failing a d20 roll that was modified by his spirit bonus, there is a 75%
-chance (1-75 on a d%) that he can add 3d6 to the check's result without taking an action. (At 10th
-level, these dice increase to 3d8, and at 20th level, they increase to 3d10.) However, there is a
-25% chance (76-100 on a d%) that the vessel instead gains no bonus from this ability. The vessel of
-the failed must allow his spirit to gain the 2 points of influence over him before determining
-whether he receives any bonus.
+This alters spirit and spirit mastery.
 
-**Alters:** Spirit surge
+## Reckless Surge (Su) {#reckless-surge}
 
-**At 10th Level:** Instead of 3d6, the medium can add 3d8.
+A vessel of the failed can attempt to tap into his spirit's bravado—though harnessing such moxie is
+never guaranteed. If the vessel allows his spirit to gain 2 additional points of influence over him
+after failing a d20 roll that was modified by his spirit bonus, there is a 75% chance (1–75 on a d%)
+that he can add 3d6 to the check's result without taking an action. (At 10th level, these dice
+increase to 3d8, and at 20th level, they increase to 3d10.) However, there is a 25% chance (76–100
+on a d%) that the vessel instead gains no bonus from this ability. The vessel of the failed must
+allow his spirit to gain the 2 points of influence over him before determining whether he receives
+any bonus.
 
-**At 20th Level:** Instead of 3d8, the medium can add 3d10.
+The vessel of the failed can use the spirit surge ability as normal. However, using reckless surge
+in the way described above always requires the vessel to allow his spirit to gain 2 additional
+points of influence over him, regardless of abilities that allow him to otherwise use spirit surge
+without incurring influence (such as taboo or spirit mastery).
 
-**Special:** The vessel of the failed can use the _spirit surge_ ability as normal. However, using
-_reckless surge_ in the way described above always requires the vessel to allow his spirit to gain 2
-additional points of influence over him, regardless of abilities that allow him to otherwise use
-_spirit surge_ without incurring influence (such as _taboo_ or _spirit mastery_).
+This alters spirit surge.
 
-**Heroic Exceptions (Ex)**
+## Heroic Exceptions (Ex) {#heroic-exceptions}
 
-**Ability:** Each time a vessel of the failed breaks a _taboo_ he has accepted, he can allow his
-spirit to gain 1 additional point of influence over him. When he does so, the penalty he takes on
-attack rolls, damage rolls, ability checks, skill checks, and saving throws changes from -2 to -1.
-This influence is in addition to the influence the spirit normally gains for breaking the _taboo_ in
-the first place.
+Each time a vessel of the failed breaks a taboo he has accepted, he can allow his spirit to gain 1
+additional point of influence over him. When he does so, the penalty he takes on attack rolls,
+damage rolls, ability checks, skill checks, and saving throws changes from -2 to -1. This influence
+is in addition to the influence the spirit normally gains for breaking the taboo in the first place.
+If the vessel continues violating the taboo while taking a reduced penalty, the duration of the
+reduced penalty extends, but the spirit doesn't gain additional influence over the vessel.
 
-**Alters:** Taboo
+This alters taboo.
 
-**Special:** If the vessel continues violating the _taboo_ while taking a reduced penalty, the
-duration of the reduced penalty extends, but the spirit doesn't gain additional influence over the
-vessel.
+## Spiritual Swan Song (Sp) {#spiritual-swan-song}
 
-**Spiritual Swan Song (Sp)**
-
-**Action:** Ability
-
-**Flavor:** When the circumstances are right, the vessel of the failed can become a conduit for his
-spirit's brush with divinity.
-
-**Gained:** At 15th Level
-
-**Replaces:** Trance of three
-
-Whenever the vessel makes a successful saving throw via the _will of the failed_ ability to avoid
-completely losing control to his spirit, the vessel gains one use of a
-[spell-like ability](ref/umr/spell-like-abilities) tied to the spirit's legend, as noted below.
+At 15th level, when the circumstances are right, the vessel of the failed can become a conduit for
+his spirit's brush with divinity. Whenever the vessel makes a successful saving throw via the will
+of the failed ability to avoid completely losing control to his spirit, the vessel gains one use of
+a [spell-like ability](ref/umr/spell-like-abilities) tied to the spirit's legend, as noted below.
 
 When he gains a use of a [spell-like ability](ref/umr/spell-like-abilities), the vessel of the
-failed can expend it anytime before his next _seance._ (A vessel might gain multiple uses of these
+failed can expend it anytime before his next seance. (A vessel might gain multiple uses of these
 spell-like abilities, depending on how many times he successfully saves to avoid losing control to a
 spirit.) However, if he loses contact with a spirit during that time, he also loses all uses of the
 spell-like ability gained from avoiding losing control to that spirit. If the vessel does not expend
 his uses of these abilities, they disappear when he loses contact with that spirit or when he starts
-a new _seance,_ whichever comes first.
+a new seance, whichever comes first.
 
-**Archmage**
+This replaces trance of three.
 
-**Ability:** The vessel of the failed can cast [chain lightning](ref/spell/chain-lightning),
-[freezing sphere](ref/spell/freezing-sphere), or [sirocco](ref/spell/sirocco) as a
+### Archmage {#archmage}
+
+The vessel of the failed can cast _[chain lightning](ref/spell/chain-lightning),
+[freezing sphere](ref/spell/freezing-sphere)_, or _[sirocco](ref/spell/sirocco)_ as a
 [spell-like ability](ref/umr/spell-like-abilities). The vessel must choose which one when he gains a
-use of this ability. If he gains multiple uses of this ability in a single _seance_ period, the
-vessel of the failed can make a different choice each time.
+use of this ability. If he gains multiple uses of this ability in a single seance period, the vessel
+of the failed can make a different choice each time.
 
-**Champion**
+### Champion {#champion}
 
-**Ability:** The vessel of the failed can cast [blade barrier](ref/spell/blade-barrier) as a
+The vessel of the failed can cast _[blade barrier](ref/spell/blade-barrier)_ as a
 [spell-like ability](ref/umr/spell-like-abilities).
 
-**Guardian**
+### Guardian {#guardian}
 
-**Ability:** The vessel of the failed can cast [antimagic field](ref/spell/antimagic-field) as a
+The vessel of the failed can cast _[antimagic field](ref/spell/antimagic-field)_ as a
 [spell-like ability](ref/umr/spell-like-abilities).
 
-**Hierophant**
+### Hierophant {#hierophant}
 
-**Ability:** The vessel of the failed can cast
-[mass cure moderate wounds](ref/spell/cure-moderate-wounds-mass) or
-[mass inflict moderate wounds](ref/spell/inflict-moderate-wounds-mass) as a
+The vessel of the failed can cast _[mass cure moderate wounds](ref/spell/cure-moderate-wounds-mass)_
+or _[mass inflict moderate wounds](ref/spell/inflict-moderate-wounds-mass)_ as a
 [spell-like ability](ref/umr/spell-like-abilities). The vessel must choose which of these two he can
 use when he gains a use of this ability. If the vessel of the failed gains multiple uses of this
-ability in a single _seance_ period, he can choose a difference spell-like ability each time.
+ability in a single seance period, he can choose a difference spell-like ability each time.
 
-**Marshal**
+### Marshal {#marshal}
 
-**Ability:** The vessel of the failed can cast [greater heroism](ref/spell/heroism-greater) as a
+The vessel of the failed can cast _[greater heroism](ref/spell/heroism-greater)_ as a
 [spell-like ability](ref/umr/spell-like-abilities).
 
-**Trickster**
+### Trickster {#trickster}
 
-**Ability:** The vessel of the failed can cast [true seeing](ref/spell/true-seeing) as a
+The vessel of the failed can cast _[true seeing](ref/spell/true-seeing)_ as a
 [spell-like ability](ref/umr/spell-like-abilities).
