@@ -967,6 +967,7 @@ def merge_runs(runs: list[tuple[str, bool, bool]]) -> list[tuple[str, bool, bool
 # "Black Blood of Orv", p. 33: the box is set in from the margin, above the end of the introduction of the next archetype). Its lines
 # are read apart, and the box is set behind the section's last paragraph, before the next title.
 BOX_TITLES: dict = {"titles": frozenset()}
+BOX_LORE: dict = {"titles": frozenset()}      # boxes of pure lore or of references to other books, set in a column: read apart and left out (owner ruling 41)
 BOX_INSET = 16                  # the lines of a box are set this far in from the margin of the column; the text around it is not
 
 
@@ -975,7 +976,8 @@ def split_boxes(plines: list[dict]) -> tuple[list[dict], list[dict]]:
     follows it in its column)."""
     main, box, boxing = [], [], None
     for ln in plines:
-        title = ln["size"] >= 16 and squash("".join(t for t, _, _ in ln["runs"])) in BOX_TITLES["titles"]
+        key = squash("".join(t for t, _, _ in ln["runs"]))
+        title = (ln["size"] >= 16 and key in BOX_TITLES["titles"]) or (ln["size"] >= 14 and key in BOX_LORE["titles"])
         if title:
             boxing = ln["col"]
         elif boxing is not None and (ln["col"] != boxing or ln["left"] - ln["margin"] < BOX_INSET):
@@ -1000,8 +1002,10 @@ def read_blocks(book: Book, first: int, last: int) -> list[Para]:
         if page_skipped(book.printed.get(num)):
             continue
         plines = page_lines(book, num)
-        if BOX_TITLES["titles"]:
+        if BOX_TITLES["titles"] or BOX_LORE["titles"]:
             plines, box = split_boxes(plines)
+            if box and squash("".join(t for t, _, _ in box[0]["runs"])) in BOX_LORE["titles"]:
+                box = []                        # a lore box is left out
             if box:
                 boxes.append((num, box))
         items.append((num, plines))
@@ -1017,6 +1021,9 @@ def read_blocks(book: Book, first: int, last: int) -> list[Para]:
 
 
 RUN_IN_HEAD_ONLY = re.compile(r"^.{3,70}\((?:Ex|Su|Sp)(?:,\s*(?:Ex|Su|Sp))*\)\s*:\s*$")
+
+
+FRAGMENT_TITLES = {"on": False}
 
 
 def _assemble(book: Book, items: list[tuple[int, list[dict]]]) -> list[Para]:
@@ -1042,6 +1049,8 @@ def _assemble(book: Book, items: list[tuple[int, list[dict]]]) -> list[Para]:
                 if any(len(b) >= 4 and (big.startswith(b) or b.startswith(big)) for b in seen_big):
                     continue
                 seen_big.append(big)
+            if ln["size"] >= 16 and len(squash("".join(t for t, _, _ in ln["runs"]))) <= 2 and FRAGMENT_TITLES["on"]:
+                continue                        # a title of one or two letters is a fragment of a drop capital or a vertical tab (Armor Master's Handbook p. 4), not a title
             if ln["size"] >= 16:
                 insets[ln["col"]] = ln["left"] if indent >= 8 else None
                 if out and out[-1].kind == "title" and out[-1].col == ln["col"] and out[-1].page == shown \
@@ -2410,6 +2419,7 @@ ERRATA_BOOKS = {"advanced-class-guide": "Advanced Class Guide"}
 ERRATA_CTX: dict = {"book": "", "used": set()}
 # The titles of the boxes that a book sets in the foot of a column (`BOX_TITLES`).
 BOXES_OF_BOOK = {"inner-sea-magic": ("Black Blood of Orv",)}
+LORE_BOXES_OF_BOOK = {"armor-masters-handbook": ("Armor Master Archetypes and Prestige Classes",)}
 SKIP_TABLES = {"on": False}         # the Advanced Race Guide sets its tables in sans-serif type
 # The Advanced Class Guide and the Advanced Race Guide set text beside illustrations: a line may be indented without
 # starting a paragraph, and a head may follow a sentence end in a line without the common indent. The other books
@@ -4419,15 +4429,18 @@ def configure_book(book: str) -> None:
     CHAPTER_END[0] = 47 if book == "inner-sea-combat" else 0
     PAGE_SKIP[:] = [(16, 23), (26, 999)] if book == "legacy-of-dragons" else []
     LOWERCASE_CONTINUES["on"] = BULLETS["on"] = ITALIC_FIRST["on"] = CITE_EXT["on"] = LEAD_EXT["on"] = book in ("inner-sea-magic", "inner-sea-intrigue", "inner-sea-combat")
-    LEAD_EXT["on"] = LEAD_EXT["on"] or book in ("heroes-of-the-darklands", "legacy-of-dragons", "familiar-folio", "advanced-class-origins")
+    LEAD_EXT["on"] = LEAD_EXT["on"] or book in ("heroes-of-the-darklands", "legacy-of-dragons", "familiar-folio", "advanced-class-origins", "armor-masters-handbook")
     OCR["on"] = NO_STYLE["on"] = book == "inner-sea-combat"
     ARCHETYPE_CAPS["on"] = book == "heroes-of-the-darklands"
+    FRAGMENT_TITLES["on"] = book == "armor-masters-handbook"
+    LOWERCASE_CONTINUES["on"] = LOWERCASE_CONTINUES["on"] or book == "armor-masters-handbook"
     LIST_CONTINUES["on"] = book == "potions-and-poisons"
     BULLETS["on"] = BULLETS["on"] or book == "potions-and-poisons"           # the Toxin Codexer's Modify Toxin prints bullet lists (ruling 45, review of #342)
     OUTER_TAB["on"] = book == "construct-handbook"
     PAGE_GEOMETRY["on"] = book in ("inner-sea-magic", "inner-sea-intrigue", "inner-sea-combat", "construct-handbook")
     MARGIN_CAPTIONS["on"] = CAPTIONS["on"] = book in ("inner-sea-magic", "inner-sea-intrigue", "inner-sea-combat")
     BOX_TITLES["titles"] = frozenset(squash(t) for t in BOXES_OF_BOOK.get(book, ()))
+    BOX_LORE["titles"] = frozenset(squash(t) for t in LORE_BOXES_OF_BOOK.get(book, ()))
     SKIP_TABLES["on"] = book == "advanced-race-guide"
     ILLUSTRATED["on"] = book in ("advanced-class-guide", "advanced-race-guide", "adventurers-guide", "ultimate-wilderness",
                                  "horror-adventures", "planar-adventures", "inner-sea-magic", "inner-sea-intrigue", "inner-sea-combat", "construct-handbook",
@@ -5952,6 +5965,9 @@ for _eid in ("ref/arc-summoner/storm-caller", "ref/arc-unchained-summoner/storm-
     EXTRA_LINKS[(_eid, "summon-storm-s-fury")] = list(_STORM)
     TRADE_ADDITIONS[_eid] = TRADE_ADDITIONS.get(_eid, []) + [{"alters": "the summoner's summon monster I\u2013IX abilities", "feature": "summon-monster-i"}]
 TRADE_ADDITIONS["ref/arc-alchemist/energy-scientist"] = [{"alters": "Class skills"}]
+# print: "This ability alters sacred weapon and also replaces sacred armor": the app reads one `alters` phrase ("and also replaces" is no split)
+TRADE_RENAMES[("ref/arc-warpriest/shieldbearer", "Sacred weapon")] = "Sacred weapon and also replaces sacred armor"
+TRADE_MERGED["ref/arc-warpriest/shieldbearer"] = [("alters", "sacred armor")]
 TRADE_ADDITIONS["ref/arc-alchemist/oozemaster"] = [{"replaces": "The bomb class feature", "feature": "bomb"}]
 TRADE_RENAMES[("ref/arc-alchemist/oozemaster", "Brew Potion")] = "Brew Potion, though an oozemaster can still select Brew Potion without meeting the feat's prerequisites"
 for _eid in ("ref/arc-bard/luring-piper", "ref/arc-druid/defender-of-the-true-world", "ref/arc-occultist/psychodermist"):
