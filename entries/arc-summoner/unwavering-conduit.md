@@ -16,10 +16,15 @@ page = "17"
 
 [fields]
 kind = "archetype"
+features = [
+  { anchor = "eidolon-of-law", level = 1 },
+  { anchor = "unwavering-monsters" },
+  { anchor = "law-magic" },
+]
 trades = [
-  { alters = "Eidolon", feature = "eidolon" },
-  { alters = "Summon monster", feature = "summon-monster-i" },
-  { alters = "Spells known", feature = "sec-spells-known" },
+  { alters = "Eidolon", feature = "eidolon", by = ["eidolon-of-law"] },
+  { alters = "Summon monster", feature = "summon-monster-i", by = ["unwavering-monsters"] },
+  { alters = "Spells known", feature = "sec-spells-known", by = ["law-magic"] },
 ]
 +++
 
@@ -28,68 +33,46 @@ Eternal City of Axis, Heaven, or Hell to enforce whichever laws the summoner fin
 good unwavering conduits often work with Riftwardens to protect the integrity of the Great Beyond,
 while lawful evil unwavering conduits are commonly diabolists in Cheliax.
 
-**Prerequisites:** Alignment must be lawful
+## Alignment {#alignment}
 
-**Eidolon of Law**
+Any lawful.
 
-**Alters:** Eidolon
+## Eidolon of Law {#eidolon-of-law}
 
-**Info:** An unwavering conduit's eidolon must be of a lawful alignment. Once selected, the
-evolutions of the unwavering conduit's eidolon cannot be changed when a new class level is gained
-(though they can be altered normally with the [transmogrify](ref/spell/transmogrify) spell). At
-least half the eidolon's skill points must be spent on skills in which the unwavering conduit also
-has ranks.
+An unwavering conduit's eidolon must be of a lawful alignment (if using the summoner from
+_Pathfinder Unchained_, the eidolon must be of the archon, devil, or inevitable subtype). Once
+selected, the evolutions of the unwavering conduit's eidolon cannot be changed when a new class
+level is gained (though they can be altered normally with the
+_[transmogrify](ref/spell/transmogrify)_ spell; see _Pathfinder RPG Advanced Player's Guide_ 250).
+At least half the eidolon's skill points must be spent on skills in which the unwavering conduit
+also has ranks. The eidolon gains a +1 resistance bonus on saving throws against spells and
+abilities of the conjuration, enchantment, and transmutation schools. This bonus increases to +2 at
+3rd level, and by an additional 1 for every 3 levels thereafter. The eidolon has 1 fewer evolution
+point than normal for an eidolon of the unwavering conduit's summoner level. This ability alters
+eidolon.
 
-**Passive:** The eidolon gains a resistance bonus on saving throws against spells and abilities of
-the conjuration, enchantment, and transmutation schools. This bonus is equal to 1 + one-third of the
-summoner's level.
+## Unwavering Monsters {#unwavering-monsters}
 
-**Special:** The eidolon has 1 fewer evolution point than normal for an eidolon of the unwavering
-conduit's summoner level.
-
-**Unwavering Monsters**
-
-**Alters:** Summon monster
-
-**At 2nd Level:** Creatures summoned by the unwavering conduit receive a +1 resistance bonus on
-saving throws against spells and abilities of the conjuration, enchantment, and transmutation
-schools.
-
-**At 3rd Level:** The unwavering conduit's summoning power to be more set than a standard
-summoner's. Each time he uses _[summon monster](ref/spell/summon-monster)_ to summon multiple
-monsters, rather than rolling a die to see how many creatures he summons, he receives a specific
-number (two creatures for 1d3, or four creatures for 1d4+1). If an item, spell, or ability would
-increase the number of creatures summoned, the set number increases by that amount.
-
-**Info:** Since an unwavering conduit's power is drawn from planar energies aligned with law, all
-the creatures he summons must be of a lawful alignment. If a creature would normally be celestial or
+Since an unwavering conduit's power is drawn from planar energies aligned with law, all the
+creatures he summons must be of a lawful alignment. If a creature would normally be celestial or
 fiendish, it is instead a [resolute creature](ref/template/resolute).
 
-At 6th level: The resistance bonus increases to +2.
+This also causes the unwavering conduit's summoning power to be more set than a standard summoner's.
+Beginning at 3rd level, each time he uses _[summon monster](ref/spell/summon-monster)_ to summon
+multiple monsters, rather than rolling a die to see how many creatures he summons, he receives a
+specific number (two creatures for 1d3, or four creatures for 1d4+1). If an item, spell, or ability
+would increase the number of creatures summoned, the set number increases by that amount.
 
-At 10th level: The resistance bonus increases to +3.
+Also, starting at 2nd level, creatures summoned by the unwavering conduit receive a +1 resistance
+bonus on saving throws against spells and abilities of the conjuration, enchantment, and
+transmutation schools. This bonus increases to +2 at 6th level, and by an additional 1 every 4 class
+levels thereafter.
 
-At 14th level: The resistance bonus increases to +4.
+This ability alters _summon monster_.
 
-At 18th level: The resistance bonus increases to +5.
+## Law Magic {#law-magic}
 
-**Law Magic**
-
-**Alters:** Spells known
-
-**Info:** The unwavering conduit gains the following bonus spells known at the listed spell level.
-
-**Spells:** Protection from chaos
-
-**Spells:** Arrow of law
-
-**Spells:** Magic circle against chaos
-
-**Spells:** Order's wrath
-
-**Spells:** Dispel chaos
-
-**Spells:** Dictum
-
-**Special:** The unwavering conduit gains one fewer spell known per spell level for spell levels
-1-6.
+The unwavering conduit gains the following bonus spells known at the listed spell level:
+1st—_protection from chaos_, 2nd—_arrow of law_, 3rd—_magic circle against chaos_, 4th—_order's
+wrath_, 5th—_dispel chaos_, 6th—_dictum_. The unwavering conduit gains one fewer spell known per
+spell level for spell levels 1–6. This ability alters the summoner's spells known.
