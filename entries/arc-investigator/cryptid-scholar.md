@@ -17,7 +17,7 @@ page = "18"
 [fields]
 kind = "archetype"
 features = [
-  { anchor = "intuitive-monster-lore", level = 2 },
+  { anchor = "intuitive-monster-lore" },
   { anchor = "opportune-advice", level = 4 },
   { anchor = "knowledgeable-strike", level = 4 },
 ]

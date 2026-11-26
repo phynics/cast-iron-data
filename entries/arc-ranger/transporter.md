@@ -20,7 +20,7 @@ features = [
   { anchor = "trailbreaker", level = 1 },
   { anchor = "plot-course", level = 3 },
   { anchor = "smuggler-s-bond", level = 4 },
-  { anchor = "hideaway", level = 7 },
+  { anchor = "hideaway" },
 ]
 trades = [
   { replaces = "Wild empathy", feature = "wild-empathy", by = ["trailbreaker"] },

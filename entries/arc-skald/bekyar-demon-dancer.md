@@ -17,7 +17,7 @@ page = "18"
 [fields]
 kind = "archetype"
 features = [
-  { anchor = "versatile-performance", level = 2 },
+  { anchor = "versatile-performance" },
   { anchor = "fiendish-maw", level = 3 },
   { anchor = "abyssal-wrath", level = 6 },
   { anchor = "demonic-conquest", level = 7 },

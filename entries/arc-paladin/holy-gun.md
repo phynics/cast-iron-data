@@ -22,7 +22,7 @@ features = [
   { anchor = "smiting-shot", level = 1 },
   { anchor = "divine-bond", level = 5 },
   { anchor = "holy-grit", level = 11 },
-  { anchor = "holy-slinger", level = 20 },
+  { anchor = "holy-slinger" },
 ]
 trades = [
   { replaces = "Detect evil", feature = "detect-evil", by = ["have-gun"] },

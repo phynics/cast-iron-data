@@ -19,7 +19,7 @@ kind = "archetype"
 features = [
   { anchor = "emotional-intensity" },
   { anchor = "mind-burn", level = 1 },
-  { anchor = "mental-overflow", level = 3 },
+  { anchor = "mental-overflow" },
 ]
 trades = [
   { alters = "Class skills", by = ["emotional-intensity"] },

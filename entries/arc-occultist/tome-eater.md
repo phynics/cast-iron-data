@@ -18,7 +18,7 @@ page = "102"
 kind = "archetype"
 features = [
   { anchor = "bonded-tome", level = 1 },
-  { anchor = "devour-books-and-scrolls", level = 4 },
+  { anchor = "devour-books-and-scrolls" },
   { anchor = "word-sense", level = 5 },
 ]
 trades = [

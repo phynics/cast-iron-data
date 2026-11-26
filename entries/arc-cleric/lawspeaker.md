@@ -17,7 +17,7 @@ page = "11"
 [fields]
 kind = "archetype"
 features = [
-  { anchor = "divine-judgment", level = 1 },
+  { anchor = "divine-judgment" },
   { anchor = "circumvent-obfuscation" },
 ]
 trades = [

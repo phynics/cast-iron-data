@@ -24,7 +24,7 @@ features = [
   { anchor = "evasive-archer", level = 13 },
   { anchor = "volley", level = 17 },
   { anchor = "ranged-defense", level = 19 },
-  { anchor = "weapon-mastery", level = 20 },
+  { anchor = "weapon-mastery" },
 ]
 trades = [
   { replaces = "Bravery", feature = "bravery", by = ["hawkeye"] },

@@ -18,7 +18,7 @@ page = "116"
 kind = "archetype"
 features = [
   { anchor = "smite-evil", level = 1 },
-  { anchor = "channel-positive-energy", level = 4 },
+  { anchor = "channel-positive-energy" },
   { anchor = "aura-of-healing", level = 11 },
 ]
 trades = [

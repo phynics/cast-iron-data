@@ -25,7 +25,7 @@ features = [
   { anchor = "ground-breaker", level = 13 },
   { anchor = "hammer-master", level = 17 },
   { anchor = "devastating-blow", level = 19 },
-  { anchor = "weapon-mastery", level = 20 },
+  { anchor = "weapon-mastery" },
 ]
 trades = [
   { replaces = "Armor training 1", feature = "armor-training", levels = [3], by = ["sledgehammer"] },

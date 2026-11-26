@@ -19,7 +19,7 @@ kind = "archetype"
 features = [
   { anchor = "lyric-sorrow", level = 1 },
   { anchor = "darkness-denied", level = 2 },
-  { anchor = "spurn-harm", level = 5 },
+  { anchor = "spurn-harm" },
 ]
 trades = [
   { replaces = "Soothing performance", feature = "bardic-performance", power = "soothing performance", by = ["lyric-sorrow"] },

@@ -21,7 +21,7 @@ features = [
   { anchor = "deity", level = 1 },
   { anchor = "disarming-discernment", level = 1 },
   { anchor = "feytongue", level = 1 },
-  { anchor = "feywatcher", level = 3 },
+  { anchor = "feywatcher" },
   { anchor = "magic-of-the-eldest", level = 3 },
 ]
 trades = [

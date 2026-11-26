@@ -19,7 +19,7 @@ kind = "archetype"
 features = [
   { anchor = "summon-dinosaur", level = 1 },
   { anchor = "dinosaur-bond", level = 1 },
-  { anchor = "dinosaur-shape", level = 4 },
+  { anchor = "dinosaur-shape" },
   { anchor = "primeval-voice", level = 4 },
 ]
 trades = [

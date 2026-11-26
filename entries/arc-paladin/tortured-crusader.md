@@ -20,7 +20,7 @@ features = [
   { anchor = "torment" },
   { anchor = "self-sufficient" },
   { anchor = "all-is-darkness", level = 1 },
-  { anchor = "alone-in-the-dark", level = 3 },
+  { anchor = "alone-in-the-dark" },
   { anchor = "second-chance", level = 2 },
   { anchor = "last-stand", level = 11 },
 ]

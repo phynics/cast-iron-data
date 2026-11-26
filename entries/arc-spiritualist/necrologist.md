@@ -24,7 +24,7 @@ features = [
   { anchor = "unnatural-aura", level = 5 },
   { anchor = "channel-resistance", level = 6 },
   { anchor = "lifedrinker", level = 13 },
-  { anchor = "bonded-manifestation", level = 3 },
+  { anchor = "bonded-manifestation" },
   { anchor = "channel-energy", level = 4 },
   { anchor = "necropsychic-conduit", level = 12 },
 ]

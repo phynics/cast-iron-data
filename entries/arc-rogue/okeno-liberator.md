@@ -18,7 +18,7 @@ page = "41"
 kind = "archetype"
 features = [
   { anchor = "bond-breaker", level = 1 },
-  { anchor = "covert-commander", level = 3 },
+  { anchor = "covert-commander" },
   { anchor = "catch-off-guard", level = 4 },
 ]
 trades = [

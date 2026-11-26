@@ -18,7 +18,7 @@ page = "24"
 kind = "archetype"
 features = [
   { anchor = "studied-stalker", level = 1 },
-  { anchor = "butterfly-s-kiss", level = 3 },
+  { anchor = "butterfly-s-kiss" },
   { anchor = "innocent-butterfly", level = 7 },
   { anchor = "deadly-butterfly", level = 19 },
 ]

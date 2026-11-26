@@ -19,7 +19,7 @@ kind = "archetype"
 features = [
   { anchor = "diminished-spellcasting", level = 1 },
   { anchor = "arcane-pool", level = 1 },
-  { anchor = "unarmed-spellstrike", level = 2 },
+  { anchor = "unarmed-spellstrike" },
   { anchor = "unarmed-strike" },
   { anchor = "bonus-feat", level = 5 },
   { anchor = "empower-combat", level = 7 },

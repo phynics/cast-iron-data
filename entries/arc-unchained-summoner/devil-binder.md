@@ -19,7 +19,7 @@ kind = "archetype"
 features = [
   { anchor = "infernal-binding", level = 1 },
   { anchor = "infernal-arcana", level = 1 },
-  { anchor = "infernal-affinity", level = 2 },
+  { anchor = "infernal-affinity" },
   { anchor = "smite-chaos", level = 6 },
 ]
 trades = [

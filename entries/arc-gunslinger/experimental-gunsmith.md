@@ -18,7 +18,7 @@ page = "34"
 kind = "archetype"
 features = [
   { anchor = "experimental-firearm", level = 1 },
-  { anchor = "innovations", level = 5 },
+  { anchor = "innovations" },
 ]
 trades = [
   { replaces = "Gunsmith", feature = "gunsmith", by = ["experimental-firearm"] },

@@ -20,7 +20,7 @@ features = [
   { anchor = "single-minded" },
   { anchor = "public-speaker" },
   { anchor = "sermonic-performance", level = 1 },
-  { anchor = "spontaneous-casting", level = 1 },
+  { anchor = "spontaneous-casting" },
 ]
 trades = [
   { replaces = "The 1st-, 9th-, and 15th-level channel energy abilities", feature = "channel-energy", levels = [1, 9, 15], by = ["sermonic-performance"] },

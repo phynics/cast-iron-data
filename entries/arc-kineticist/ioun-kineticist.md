@@ -17,10 +17,10 @@ page = "12"
 [fields]
 kind = "archetype"
 features = [
-  { anchor = "ioun-focus", level = 1 },
+  { anchor = "ioun-focus" },
   { anchor = "ioun-cloud" },
   { anchor = "basic-iounkinesis" },
-  { anchor = "ioun-buffer", level = 6 },
+  { anchor = "ioun-buffer" },
   { anchor = "personal-resonance", level = 6 },
   { anchor = "azlanti-blast" },
 ]

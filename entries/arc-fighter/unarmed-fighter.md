@@ -27,7 +27,7 @@ features = [
   { anchor = "eye-gouge", level = 13 },
   { anchor = "sucker-punch", level = 17 },
   { anchor = "sheer-toughness", level = 19 },
-  { anchor = "weapon-mastery", level = 20 },
+  { anchor = "weapon-mastery" },
 ]
 trades = [
   { replaces = "The bonus feat at 1st level", feature = "bonus-feats", levels = [1], by = ["unarmed-style"] },

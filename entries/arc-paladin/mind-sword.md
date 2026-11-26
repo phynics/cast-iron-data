@@ -19,7 +19,7 @@ kind = "archetype"
 features = [
   { anchor = "mind-arsenal", level = 2 },
   { anchor = "touch-treatment", level = 3 },
-  { anchor = "spells", level = 4 },
+  { anchor = "spells" },
 ]
 trades = [
   { replaces = "Lay on hands", feature = "lay-on-hands", by = ["mind-arsenal"] },

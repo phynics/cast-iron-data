@@ -19,7 +19,7 @@ kind = "archetype"
 features = [
   { anchor = "scholastic" },
   { anchor = "skill-over-strength", level = 2 },
-  { anchor = "swords-secret", level = 3 },
+  { anchor = "swords-secret" },
 ]
 trades = [
   { replaces = "Proficiency with medium armor", feature = "weapon-and-armor-proficiencies", power = "medium armor", by = ["scholastic"] },

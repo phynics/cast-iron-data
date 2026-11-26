@@ -19,7 +19,7 @@ kind = "archetype"
 features = [
   { anchor = "studied-target", level = 1 },
   { anchor = "sneak-attack", level = 4 },
-  { anchor = "talented-slayer", level = 8 },
+  { anchor = "talented-slayer" },
 ]
 trades = [
   { replaces = "Judgment 1/day", feature = "judgment", levels = [1], by = ["studied-target"] },

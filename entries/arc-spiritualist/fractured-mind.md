@@ -30,7 +30,7 @@ via = "ref/emotionalfocus/kindness"
 kind = "archetype"
 features = [
   { anchor = "emotional-spellcasting" },
-  { anchor = "emotional-power", level = 5 },
+  { anchor = "emotional-power" },
 ]
 trades = [
   { replaces = "Detect undead", feature = "detect-undead", by = ["emotional-power"] },

@@ -19,7 +19,7 @@ kind = "archetype"
 features = [
   { anchor = "intimidating-prowess" },
   { anchor = "unshakable", level = 2 },
-  { anchor = "raging-song", level = 5 },
+  { anchor = "raging-song" },
   { anchor = "minions", level = 7 },
   { anchor = "intimidated-push", level = 8 },
 ]

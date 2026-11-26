@@ -18,10 +18,10 @@ page = "17"
 kind = "archetype"
 features = [
   { anchor = "diminished-spellcasting" },
-  { anchor = "golem-arm", level = 1 },
-  { anchor = "improved-unarmed-strike", level = 1 },
+  { anchor = "golem-arm" },
+  { anchor = "improved-unarmed-strike" },
   { anchor = "empowered-arm", level = 3 },
-  { anchor = "unarmed-spellstrike", level = 2 },
+  { anchor = "unarmed-spellstrike" },
 ]
 trades = [
   { replaces = "The magus arcana gained at 3rd level", feature = "magus-arcana", levels = [3], by = ["empowered-arm"] },

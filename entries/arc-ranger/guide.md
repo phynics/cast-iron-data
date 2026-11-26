@@ -19,7 +19,7 @@ kind = "archetype"
 features = [
   { anchor = "ranger-s-focus", level = 1 },
   { anchor = "terrain-bond", level = 4 },
-  { anchor = "ranger-s-luck", level = 9 },
+  { anchor = "ranger-s-luck" },
   { anchor = "inspired-moment", level = 11 },
   { anchor = "improved-ranger-s-luck", level = 16 },
 ]

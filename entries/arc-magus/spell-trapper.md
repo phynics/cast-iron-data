@@ -17,7 +17,7 @@ page = "15"
 [fields]
 kind = "archetype"
 features = [
-  { anchor = "diminished-arcana", level = 3 },
+  { anchor = "diminished-arcana" },
   { anchor = "spell-traps", level = 4 },
   { anchor = "distant-trapping", level = 10 },
 ]

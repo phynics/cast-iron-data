@@ -18,8 +18,8 @@ page = "67"
 kind = "archetype"
 features = [
   { anchor = "family-jewels", level = 1 },
-  { anchor = "emotional-reading", level = 2 },
-  { anchor = "courtly-contacts", level = 8 },
+  { anchor = "emotional-reading" },
+  { anchor = "courtly-contacts" },
 ]
 trades = [
   { replaces = "Object reading", feature = "object-reading", by = ["emotional-reading"] },

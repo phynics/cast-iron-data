@@ -26,7 +26,7 @@ features = [
   { anchor = "pinpoint-targeting", level = 15 },
   { anchor = "meteor-shot", level = 17 },
   { anchor = "penetrating-shot", level = 19 },
-  { anchor = "weapon-mastery", level = 20 },
+  { anchor = "weapon-mastery" },
 ]
 trades = [
   { replaces = "Armor training 1", feature = "armor-training", levels = [3], by = ["deadshot"] },

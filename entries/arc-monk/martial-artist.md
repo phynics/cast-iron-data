@@ -24,7 +24,7 @@ features = [
   { anchor = "physical-resistance", level = 7 },
   { anchor = "bonus-feat", level = 12 },
   { anchor = "defensive-roll", level = 13 },
-  { anchor = "quivering-palm", level = 15 },
+  { anchor = "quivering-palm" },
   { anchor = "greater-defensive-roll", level = 19 },
 ]
 trades = [

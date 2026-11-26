@@ -19,7 +19,7 @@ kind = "archetype"
 features = [
   { anchor = "spells" },
   { anchor = "inflexible-will", level = 1 },
-  { anchor = "detect-chaos", level = 2 },
+  { anchor = "detect-chaos" },
   { anchor = "fearsome-jurist", level = 5 },
   { anchor = "aura-of-repetition", level = 8 },
   { anchor = "double-jeopardy", level = 12 },

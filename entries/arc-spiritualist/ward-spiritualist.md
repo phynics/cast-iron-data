@@ -18,7 +18,7 @@ page = "18"
 kind = "archetype"
 features = [
   { anchor = "kami-phantom", level = 1 },
-  { anchor = "ward-implement", level = 2 },
+  { anchor = "ward-implement" },
   { anchor = "merged-manifestation", level = 3 },
 ]
 trades = [

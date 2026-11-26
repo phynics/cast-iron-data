@@ -23,7 +23,7 @@ features = [
   { anchor = "deny-death", level = 2 },
   { anchor = "read-the-bones", level = 2 },
   { anchor = "focus-talent" },
-  { anchor = "kill-the-dead", level = 4 },
+  { anchor = "kill-the-dead" },
   { anchor = "grave-lamp", level = 4 },
 ]
 trades = [

@@ -19,7 +19,7 @@ kind = "archetype"
 features = [
   { anchor = "geistform-phantom", level = 1 },
   { anchor = "emotionless", level = 1 },
-  { anchor = "spiritual-manifestation", level = 3 },
+  { anchor = "spiritual-manifestation" },
 ]
 trades = [
   { replaces = "The phantom's emotional focus", feature = "phantom", power = "emotional focus", by = ["emotionless"] },

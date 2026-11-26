@@ -19,7 +19,7 @@ kind = "archetype"
 features = [
   { anchor = "astrology", level = 1 },
   { anchor = "starfinding", level = 1 },
-  { anchor = "investigator-talents", level = 3 },
+  { anchor = "investigator-talents" },
 ]
 trades = [
   { replaces = "Trapfinding", feature = "trapfinding", by = ["starfinding"] },

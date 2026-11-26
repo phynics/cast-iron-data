@@ -19,7 +19,7 @@ kind = "archetype"
 features = [
   { anchor = "judgment" },
   { anchor = "silversmith", level = 2 },
-  { anchor = "bane", level = 5 },
+  { anchor = "bane" },
   { anchor = "sun-strike", level = 5 },
 ]
 trades = [

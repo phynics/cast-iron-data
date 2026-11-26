@@ -20,7 +20,7 @@ features = [
   { anchor = "spellcasting" },
   { anchor = "spellbook" },
   { anchor = "spill-blood", level = 1 },
-  { anchor = "cabalist-talents", level = 2 },
+  { anchor = "cabalist-talents" },
   { anchor = "bloodbound-spell", level = 5 },
   { anchor = "bloody-horror", level = 11 },
   { anchor = "shadowy-appearance", level = 17 },

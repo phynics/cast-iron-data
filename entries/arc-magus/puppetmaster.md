@@ -17,11 +17,11 @@ page = "27"
 [fields]
 kind = "archetype"
 features = [
-  { anchor = "spells", level = 7 },
+  { anchor = "spells" },
   { anchor = "arcane-pool", level = 1 },
   { anchor = "puppet-combat", level = 1 },
   { anchor = "charmstrike", level = 2 },
-  { anchor = "the-show-must-go-on", level = 7 },
+  { anchor = "the-show-must-go-on" },
   { anchor = "scene-stealer", level = 20 },
 ]
 trades = [

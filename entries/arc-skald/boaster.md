@@ -21,7 +21,7 @@ features = [
   { anchor = "song-of-endurance", level = 3 },
   { anchor = "song-of-surmounting", level = 7 },
   { anchor = "frightful-boast", level = 14 },
-  { anchor = "rage-power", level = 3 },
+  { anchor = "rage-power" },
   { anchor = "greater-endurance", level = 6 },
 ]
 trades = [

@@ -20,7 +20,7 @@ features = [
   { anchor = "dreams-of-pain", level = 1 },
   { anchor = "somnomancer", level = 1 },
   { anchor = "sleepless", level = 2 },
-  { anchor = "touch-of-night", level = 3 },
+  { anchor = "touch-of-night" },
   { anchor = "dreamwalker", level = 5 },
   { anchor = "traumatic-spell", level = 11 },
 ]
