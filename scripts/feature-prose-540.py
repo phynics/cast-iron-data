@@ -1422,7 +1422,9 @@ def read_decisions(corpus: Path, book: str) -> dict[tuple[str, str], tuple[str, 
     decisions (owner rulings 15 and 18) also take print's wording: `unlist` makes the feature a plain heading that is
     no class feature, `sub-of:ANCHOR` a subheading of that feature, `list` a class feature that the option rule
     would have made a subheading. `after:ANCHOR` (joined to another decision with `;`) moves the row behind that
-    feature: a sidebar that print sets before the text it belongs after."""
+    feature: a sidebar that print sets before the text it belongs after. `fold-into:ANCHOR` (owner ruling 44) folds a section
+    whose print head is the title of a table into the end of that feature: the head becomes a bold line directly above the
+    Markdown table, which is the section's text."""
     path = decisions_path(corpus, book)
     out: dict[tuple[str, str], tuple[str, str]] = {}
     if not path.exists():
