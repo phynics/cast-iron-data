@@ -31,7 +31,7 @@ trades = [
 Some sorcerers have trouble accessing their innate gifts and must find another way to unlock them.
 For a sorcerer of sleep, the mind-altering drug [pesh](ref/drug/pesh) (see page 19) is the key. The
 garbled visions the drug provides allow a sorcerer of sleep to reach an ideal state for channeling
-her [arcane](ref/sorcbloodline/arcane) power. The arcane and
+her arcane power. The [arcane](ref/sorcbloodline/arcane) and
 [dreamspun](ref/sorcbloodline/dreamspun) bloodlines are the sorcerer heritages most often associated
 with pesh, though a sorcerer of sleep might exhibit any bloodline; pesh is a tool to enhance her
 gifts, rather than their source.

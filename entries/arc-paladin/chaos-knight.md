@@ -60,11 +60,11 @@ creature at a time.
 
 This replaces mercy.
 
-|D4|Blessing|
+|d4|Blessing|
 | --- | --- |
 |1|The creature gains a sacred bonus to AC equal to 1/5 the paladin's level (minimum +1).|
 |2|The creature gains a sacred bonus on weapon damage rolls equal to the chaos knight's Charisma modifier.|
-|3|The creature gains [fast healing](ref/umr/fast-healing) 2. This [fast healing](ref/umr/fast-healing) increases by 1 for every 3 levels the chaos knight has.|
+|3|The creature gains [fast healing](ref/umr/fast-healing) 2. This fast healing increases by 1 for every 3 levels the chaos knight has.|
 |4|The creature gains an enhancement bonus to its movement speeds, adding 5 feet of movement for every 2 levels the chaos knight has (to a maximum of +40 feet).|
 
 ## Aura of Chaos (Su) {#aura-of-chaos}

@@ -31,13 +31,12 @@ trades = [
 ]
 +++
 
-Umbral scions are sorcerers who are able to expertly control their especially potent
-[shadow](ref/sorcbloodline/shadow) heritage. The majority of umbral sorcerers hail from the
-Darklands.
+Umbral scions are sorcerers who are able to expertly control their especially potent shadow
+heritage. The majority of umbral sorcerers hail from the Darklands.
 
 ## Bloodline {#bloodline}
 
-An umbral scion must have the shadow bloodline.
+An umbral scion must have the [shadow](ref/sorcbloodline/shadow) bloodline.
 
 ## Diminished Spellcasting {#diminished-spellcasting}
 

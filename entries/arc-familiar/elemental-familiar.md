@@ -25,6 +25,12 @@ trades = [
 
 The raw power of an elemental plane suffuses the body of an elemental familiar.
 
+## Planar Companion Archetypes {#planar-companion-archetypes}
+
+Rare creatures are born with a spark of elemental power. When selecting either of the archetypes
+below, choose one of the following elements that define which abilities the archetype grants: air,
+earth, fire, or water.
+
 ## Elemental Type (Ex) {#elemental-type}
 
 An elemental familiar gains a subtype that matches its element: air, earth, fire, or water.

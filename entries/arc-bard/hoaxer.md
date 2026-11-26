@@ -94,11 +94,10 @@ performance. This performance replaces countersong.
 
 ## Personal Guarantee (Su) {#personal-guarantee}
 
-A hoaxer can prevent his hexed wares from afflicting a target until he is safely out of sight.
-
-He can spend up to 1 round of bardic performance per bard level while hexing an object. For every
-round expended, the object's hex is delayed for 1 minute before triggering and hexing its current
-owner. This performance replaces distraction.
+A hoaxer can prevent his hexed wares from afflicting a target until he is safely out of sight. He
+can spend up to 1 round of bardic performance per bard level while hexing an object. For every round
+expended, the object's hex is delayed for 1 minute before triggering and hexing its current owner.
+This performance replaces distraction.
 
 ## Curse Breaker (Su) {#curse-breaker}
 
@@ -118,9 +117,7 @@ replaces versatile performance.
 ## Versed in Curses (Ex) {#versed-in-curses}
 
 At 2nd level, a hoaxer gains a +4 bonus on saving throws against curses, hexes, and
-language-dependent effects.
-
-This ability replaces well-versed.
+language-dependent effects. This ability replaces well-versed.
 
 ## Curse Crafter (Ex) {#curse-crafter}
 
@@ -128,6 +125,4 @@ At 5th level, a hoaxer learns how to craft cursed items. He gains one item creat
 feat at 5th level, plus an additional item creation feat every 6 levels thereafter. He can use these
 feats only to craft cursed items. In addition, he can craft items that appear magical but have no
 true magical properties—as if permanently affected by the _[magic aura](ref/spell/magic-aura)_
-spell—for 50 gp.
-
-This ability replaces lore master.
+spell—for 50 gp. This ability replaces lore master.
