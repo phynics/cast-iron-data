@@ -19,7 +19,7 @@ kind = "archetype"
 features = [
   { anchor = "divine-spellcasting" },
   { anchor = "spiritual-resistance", level = 1 },
-  { anchor = "divine-teachings" },
+  { anchor = "divine-teachings", level = 4 },
 ]
 trades = [
   { replaces = "Shared consciousness", feature = "shared-consciousness", by = ["spiritual-resistance"] },

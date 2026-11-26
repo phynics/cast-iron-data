@@ -16,10 +16,15 @@ page = "16"
 
 [fields]
 kind = "archetype"
+features = [
+  { anchor = "shield-hand" },
+  { anchor = "strong-side-fist" },
+  { anchor = "lead-leg", level = 5 },
+]
 trades = [
-  { replaces = "The brawler's AC bonus", feature = "ac-bonus" },
-  { replaces = "Maneuver training", feature = "maneuver-training" },
-  { replaces = "Close weapon mastery", feature = "close-weapon-mastery" },
+  { replaces = "The brawler's AC bonus", feature = "ac-bonus", by = ["shield-hand"] },
+  { replaces = "Maneuver training", feature = "maneuver-training", by = ["strong-side-fist"] },
+  { replaces = "Close weapon mastery", feature = "close-weapon-mastery", by = ["lead-leg"] },
 ]
 +++
 
@@ -30,56 +35,41 @@ boxing tournaments, developed this style for their competitions. Many guests and
 witnessed these tournaments over the years, and as a result, the style has spread throughout
 Golarion.
 
-**Shield-Hand (Ex)**
+## Shield-Hand (Ex) {#shield-hand}
 
-**Ability:** A strong-side boxer can use her off hand as if it were a
-[buckler](ref/eq-armor/buckler), gaining a natural armor bonus to her AC as long as she does not use
-her off hand to make attacks. This bonus is equal to 1 + one-fifth of her brawler level.
+A strong-side boxer can use her off hand as if it were a [buckler](ref/eq-armor/buckler), gaining a
++1 natural armor bonus to her AC as long as she does not use her off hand to make attacks. At 5th
+level and every 5 levels thereafter, this bonus increases by 1, to a maximum of +5 at 20th level.
+While using her off hand in this manner, the strong-side boxer treats that hand as a buckler for the
+purposes of other feats and abilities (though she is also considered to have a free hand).
 
-**Replaces:** The brawler's AC bonus
+This replaces the brawler's AC bonus.
 
-**Special:** While using her off hand in this manner, the strong-side boxer treats that hand as a
-buckler for the purposes of other feats and abilities (though she is also considered to have a free
-hand).
+## Strong-Side Fist (Ex) {#strong-side-fist}
 
-**Strong-Side Fist (Ex)**
+A strong-side boxer can spend 1 minute to wrap one of her hands in rope or cord. The strong-side
+boxer can carry items or wield weapons in a wrapped hand, but she takes a -2 penalty on
+Dexterity-based skill checks that requires the use of that hand (such as Disable Device and Sleight
+of Hand checks). Unwrapping a hand is a move action that provokes attacks of opportunity. At 3rd
+level, as a full-round action that provokes attacks of opportunity, a strong-side boxer can dip her
+wrapped hand in resin and then crushed glass or small metal spikes, which remain on her wrapped hand
+for 1 hour. If she chooses crushed glass, she can deal slashing damage with her unarmed strikes; if
+she chooses spikes, she can deal piercing damage with her unarmed strikes for the duration. Whether
+she chooses crushed glass or metal spikes, she deals an additional 1 point of
+[bleed](ref/rule/bleed) damage with her unarmed strikes. At 7th level, the bleed damage increases to
+1d4. At 11th level, the bleed damage increases to 1d6. At 15th level, the bleed damage increases to
+2d4. At 19th level, the bleed damage is multiplied on a critical hit. Bleed damage from this ability
+does not stack with bleed damage from other sources.
 
-**At 19th Level:** The bleed damage is multiplied on a critical hit.
+This replaces maneuver training.
 
-**At 1st Level:** A strong-side boxer can spend 1 minute to wrap one of her hands in rope or cord.
-The strong-side boxer can carry items or wield weapons in a wrapped hand, but she takes a -2 penalty
-on Dexterity-based skill checks that requires the use of that hand (such as Disable Device and
-Sleight of Hand checks). Unwrapping a hand is a **move action** that provokes attacks of
-opportunity.
+## Lead Leg (Ex) {#lead-leg}
 
-**At 11th Level:** The bleed damage increases to 1d6.
-
-**At 15th Level:** The bleed damage becomes 2d4.
-
-**At 3rd Level:** As a **full-round action** that provokes attacks of opportunity, a strong-side
-boxer can dip her wrapped hand in resin and then crushed glass or small metal spikes, which remain
-on her wrapped hand for 1 hour. If she chooses crushed glass, she can deal slashing damage with her
-unarmed strikes; if she chooses spikes, she can deal piercing damage with her unarmed strikes for
-the duration. Whether she chooses crushed glass or metal spikes, she deals an additional 1 point of
-[bleed](ref/rule/bleed) damage with her unarmed strikes.
-
-**At 7th Level:** The bleed damage becomes 1d4.
-
-**Replaces:** Maneuver training
-
-**Special:** Bleed damage from this ability does not stack with bleed damage from other sources.
-
-**Lead Leg (Ex)**
-
-**Ability:** A strong-side boxer can spend 1 minute to wrap one of her legs in a chain, and can
+At 5th level, a strong-side boxer can spend 1 minute to wrap one of her legs in a chain, and can
 thereafter use the chain-wrapped leg both defensively and offensively. While her leg is wrapped, she
 is considered to be wearing a [chain shirt](ref/eq-armor/chain-shirt), gaining all the appropriate
 bonuses and penalties. The chain can be enchanted as armor and is treated as
-[masterwork](ref/rule/masterwork-armor).
+[masterwork](ref/rule/masterwork-armor). Once per round while wearing the chain, she can apply a +4
+circumstance bonus to a [trip](ref/rule/trip) attempt as an immediate action.
 
-**Immediate:** Once per round while wearing the chain, she can apply a +4 circumstance bonus to a
-[trip](ref/rule/trip) attempt.
-
-**Gained:** At 5th Level
-
-**Replaces:** Close weapon mastery
+This replaces close weapon mastery.

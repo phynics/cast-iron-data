@@ -17,7 +17,7 @@ page = "41"
 [fields]
 kind = "archetype"
 features = [
-  { anchor = "favored-nation" },
+  { anchor = "favored-nation", level = 1 },
   { anchor = "rumor-empathy", level = 1 },
   { anchor = "favored-terrain", level = 3 },
   { anchor = "hobnob", level = 4 },
@@ -71,9 +71,9 @@ A successful rumor empathy check allows the dandy to increase or decrease the ru
 step. For example, he could make an indifferent rumor friendly and thus positive toward its target,
 or an unfriendly rumor hostile and thus even more negative toward its target than it was originally.
 
-The difficulty of inf luencing a rumor depends on the size of the community in which it is
-spreading. The DC of the check is 15 in a village or smaller settlement. This DC increases by 5 and
-the number of days required to attempt the check increases by 2 for every
+The difficulty of influencing a rumor depends on the size of the community in which it is spreading.
+The DC of the check is 15 in a village or smaller settlement. This DC increases by 5 and the number
+of days required to attempt the check increases by 2 for every
 [settlement size category](ref/rule/settlements-and-districts) larger than a village—to a maximum of
 DC 40 and 11 days to affect a rumor spreading through an entire metropolis.
 

@@ -19,7 +19,7 @@ kind = "archetype"
 features = [
   { anchor = "aldori-swashbuckler" },
   { anchor = "deeds" },
-  { anchor = "inevitable-victory" },
+  { anchor = "inevitable-victory", level = 3 },
   { anchor = "sweeping-wind-feint", level = 7 },
   { anchor = "dragon-s-rage", level = 11 },
   { anchor = "terror-of-the-great-wyrm", level = 15 },

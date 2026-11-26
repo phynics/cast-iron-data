@@ -19,7 +19,7 @@ kind = "archetype"
 features = [
   { anchor = "imperfect-control" },
   { anchor = "scars-of-the-past", level = 1 },
-  { anchor = "armor-training" },
+  { anchor = "armor-training", level = 3 },
 ]
 trades = [
   { replaces = "Seamless guise", feature = "seamless-guise", by = ["scars-of-the-past"] },

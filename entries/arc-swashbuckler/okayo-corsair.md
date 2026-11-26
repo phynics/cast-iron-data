@@ -16,14 +16,23 @@ page = "11"
 
 [fields]
 kind = "archetype"
+features = [
+  { anchor = "okayo-finesse", level = 1 },
+  { anchor = "okayo-panache", level = 1 },
+  { anchor = "deeds" },
+  { anchor = "ki-panache", level = 3 },
+  { anchor = "slow-fall", level = 7 },
+  { anchor = "high-jump", level = 11 },
+  { anchor = "abundant-step", level = 15 },
+]
 trades = [
   { replaces = "Weapon and armor proficiency", feature = "weapon-and-armor-proficiencies" },
-  { replaces = "Swashbuckler finesse", feature = "swashbuckler-finesse" },
-  { replaces = "Menacing swordplay", feature = "deeds", power = "menacing swordplay" },
-  { replaces = "Superior feint", feature = "deeds", power = "superior feint" },
-  { replaces = "Bleeding wound", feature = "deeds", power = "bleeding wound" },
-  { replaces = "Dizzying defense", feature = "deeds", power = "dizzying defense" },
-  { alters = "Panache", feature = "panache" },
+  { replaces = "Swashbuckler finesse", feature = "swashbuckler-finesse", by = ["okayo-finesse"] },
+  { replaces = "Menacing swordplay", feature = "deeds", power = "menacing swordplay", by = ["ki-panache"] },
+  { replaces = "Superior feint", feature = "deeds", power = "superior feint", by = ["slow-fall"] },
+  { replaces = "Bleeding wound", feature = "deeds", power = "bleeding wound", by = ["high-jump"] },
+  { replaces = "Dizzying defense", feature = "deeds", power = "dizzying defense", by = ["abundant-step"] },
+  { alters = "Panache", feature = "panache", by = ["okayo-panache"] },
   { alters = "Bonus feats", feature = "bonus-feats" },
 ]
 +++
@@ -32,85 +41,72 @@ An Okayo corsair practices a unique acrobatic martial art that draws inspiration
 mysticism of monastic combat traditions and the flair of a swashbuckler. This style originated among
 pirates of the Dragon Empires and has since spread and become popular in the Shackles.
 
-**Weapon and Armor Proficiency**
+## Weapon and Armor Proficiency {#weapon-and-armor-proficiency}
 
-**Info:** Okayo corsairs are proficient with simple weapons and all weapons from the monk
+Okayo corsairs are proficient with simple weapons and all weapons from the monk
 [weapon group](ref/ability/weapon-groups), as well as light armor and bucklers.
 
-**Replaces:** Weapon and armor proficiency
+This replaces the swashbuckler's weapon and armor proficiency.
 
-**Okayo Finesse (Ex)**
+## Okayo Finesse (Ex) {#okayo-finesse}
 
-**Ability:** An Okayo corsair gains the benefits of the [Weapon Finesse](ref/feat/weapon-finesse)
-feat with light or one-handed melee weapons from the monk weapon group, and she can use her Charisma
-score in place of Intelligence and Wisdom for the purpose of meeting prerequisites for combat feats.
-This ability counts as the Weapon Finesse feat for the purpose of meeting feat prerequisites.
+An Okayo corsair gains the benefits of the [Weapon Finesse](ref/feat/weapon-finesse) feat with light
+or one-handed melee weapons from the monk weapon group, and she can use her Charisma score in place
+of Intelligence and Wisdom for the purpose of meeting prerequisites for combat feats. This ability
+counts as the Weapon Finesse feat for the purpose of meeting feat prerequisites.
 
-**Replaces:** Swashbuckler finesse
+This replaces swashbuckler finesse.
 
-**Okayo Panache (Ex)**
+## Okayo Panache (Ex) {#okayo-panache}
 
-**Ability:** An Okayo corsair regains panache only when she confirms a critical hit or makes a
-killing blow with a light or one-handed weapon from the monk weapon group. Additionally, the Okayo
-corsair gains the ability to use a light or one-handed monk weapon for her swashbuckler class
-features, deeds, and feats, even if the weapon is not a piercing weapon, but she can't use other
-light or one-handed weapons with her class features or deeds.
+An Okayo corsair regains panache only when she confirms a critical hit or makes a killing blow with
+a light or one-handed weapon from the monk weapon group. Additionally, the Okayo corsair gains the
+ability to use a light or one-handed monk weapon for her swashbuckler class features, deeds, and
+feats, even if the weapon is not a piercing weapon, but she can't use other light or one-handed
+weapons with her class features or deeds.
 
-**Alters:** Panache
+This alters panache.
 
-**Deeds**
+## Deeds {#deeds}
 
-**Ability:** An Okayo corsair gains the following deeds.
+An Okayo corsair gains the following deeds.
 
-**Ki Panache (Su)**
+## Ki Panache (Su) {#ki-panache}
 
-**Flavor:** A power similar to a monk's _ki_ awakens within the Okayo corsair.
+At 3rd level, a power similar to a monk's ki awakens within the Okayo corsair. She can spend 1
+panache point as a swift action to gain one of the following three benefits: she can make one
+additional attack at her highest attack bonus when making a full attack, she can increase her speed
+by 20 feet for 1 round, or she can give herself a +4 dodge bonus to AC for 1 round.
 
-**Gained:** At 3rd Level
+This deed replaces menacing swordplay.
 
-**Replaces:** Menacing swordplay
+## Slow Fall (Su) {#slow-fall}
 
-**Swift:** She can spend 1 panache point to gain one of the following three benefits: she can make
-one additional attack at her highest attack bonus when making a full attack, she can increase her
-speed by 20 feet for 1 round, or she can give herself a +4 dodge bonus to AC for 1 round.
-
-**Slow Fall (Su)**
-
-**Ability:** The Okayo corsair can spend 1 panache point to slow her descent as per
-[feather fall](ref/spell/feather-fall), treating her swashbuckler level as her caster level,
+At 7th level, the Okayo corsair can spend 1 panache point to slow her descent as per
+_[feather fall](ref/spell/feather-fall)_, treating her swashbuckler level as her caster level,
 provided that she is adjacent to a wall.
 
-**Gained:** At 7th Level
+This deed replaces superior feint.
 
-**Replaces:** Superior feint
+## High Jump (Su) {#high-jump}
 
-**High Jump (Su)**
+At 11th level, so long as the Okayo corsair has at least 1 panache point, she adds her level as a
+bonus on Acrobatics checks to jump and always counts as having a running start. She can spend 1
+panache point as a swift action to gain a +20 bonus on Acrobatics checks to jump for 1 round.
 
-**Gained:** At 11th Level
+This deed replaces bleeding wound.
 
-**Passive:** So long as the Okayo corsair has at least 1 panache point, she adds her level as a
-bonus on Acrobatics checks to jump and always counts as having a running start.
+## Abundant Step (Su) {#abundant-step}
 
-**Replaces:** Bleeding wound
+At 15th level, an Okayo corsair can spend 2 panache points as a move action to move magically
+between spaces, as _[dimension door](ref/spell/dimension-door)_. Her caster level for this effect is
+equal to her swashbuckler level. She can't take other creatures with her when she uses this ability.
 
-**Swift:** She can spend 1 panache point to gain a +20 bonus on Acrobatics checks to jump for 1
-round.
+This deed replaces dizzying defense.
 
-**Abundant Step (Su)**
+## Bonus Feats {#bonus-feats}
 
-**Gained:** At 15th Level
+At 4th level, an Okayo corsair's swashbuckler levels are considered both fighter levels and monk
+levels for the purpose of meeting combat feat prerequisites.
 
-**Move:** An Okayo corsair can spend 2 panache points to move magically between spaces, as
-[dimension door](ref/spell/dimension-door). Her caster level for this effect is equal to her
-swashbuckler level. She can't take other creatures with her when she uses this ability.
-
-**Replaces:** Dizzying defense
-
-**Bonus Feats**
-
-**Alters:** Bonus feats
-
-**Info:** An Okayo corsair's swashbuckler levels are considered both fighter levels and monk levels
-for the purpose of meeting combat feat prerequisites.
-
-**Gained:** At 4th Level
+This alters the bonus feat class ability.

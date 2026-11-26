@@ -21,7 +21,7 @@ features = [
   { anchor = "limning-verse", level = 1 },
   { anchor = "shattering-crescendo", level = 6 },
   { anchor = "devilbane-refrain", level = 8 },
-  { anchor = "dedicated-performance" },
+  { anchor = "dedicated-performance", level = 2 },
 ]
 trades = [
   { replaces = "Fascinate", feature = "bardic-performance", power = "fascinate", by = ["limning-verse"] },
