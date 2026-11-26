@@ -16,89 +16,75 @@ page = "6"
 
 [fields]
 kind = "archetype"
+features = [
+  { anchor = "falcata-emphasis", level = 1 },
+  { anchor = "shield-catch", level = 3 },
+  { anchor = "rondelero-chop", level = 11 },
+  { anchor = "shattering-chop", level = 15 },
+  { anchor = "buckler-bash", level = 2 },
+  { anchor = "rondelero-flexibility", level = 6 },
+  { anchor = "charmed-life", level = 10 },
+]
 trades = [
-  { replaces = "Derring-do", feature = "deeds", power = "derring-do" },
-  { replaces = "Kip-up", feature = "deeds", power = "kip-up" },
-  { replaces = "Bleeding wound", feature = "deeds", power = "bleeding wound" },
-  { replaces = "Perfect thrust", feature = "deeds", power = "perfect thrust" },
-  { alters = "Charmed life", feature = "charmed-life" },
+  { replaces = "The derring-do deed", feature = "deeds", power = "derring-do", by = ["falcata-emphasis"] },
+  { replaces = "Kip-up", feature = "deeds", power = "kip-up", by = ["shield-catch"] },
+  { replaces = "Bleeding wound", feature = "deeds", power = "bleeding wound", by = ["rondelero-chop"] },
+  { replaces = "Perfect thrust", feature = "deeds", power = "perfect thrust", by = ["shattering-chop"] },
+  { alters = "Charmed life", feature = "charmed-life", by = ["charmed-life"] },
 ]
 +++
 
 Rondelero swashbucklers are Taldan specialists in an aggressive, lightly armored fighting style that
 utilizes the falcata and buckler.
 
-**Falcata Emphasis (Ex)**
+## Falcata Emphasis (Ex) {#falcata-emphasis}
 
-**Ability:** A rondelero swashbuckler is proficient with [falcatas](ref/eq-weapon/falcata) and can
-treat a falcata as a one-handed piercing melee weapon for the purposes of _swashbuckler finesse_ as
-well as all feats and class abilities that refer to such a weapon.
+At 1st level, a rondelero swashbuckler is proficient with [falcatas](ref/eq-weapon/falcata) and can
+treat a falcata as a one-handed piercing melee weapon for the purposes of the swashbuckler's finesse
+as well as all feats and class abilities that refer to such a weapon. This ability replaces the
+derring-do deed.
 
-**Gained:** At 1st Level
+## Rondelero Deeds (Ex) {#rondelero-deeds}
 
-**Replaces:** Derring-do
+A rondelero swashbuckler gains the following deeds at the appropriate levels.
 
-**Rondelero Deeds (Ex)**
+## Shield Catch (Ex) {#shield-catch}
 
-**Ability:** A rondelero swashbuckler gains the following deeds at the appropriate levels.
-
-**Shield Catch (Ex)**
-
-**Gained:** At 3rd Level
-
-**Passive:** While he has at least 1 panache point, the rondelero swashbuckler gains a +4 bonus on
+At 3rd level, while he has at least 1 panache point, the rondelero swashbuckler gains a +4 bonus on
 all combat maneuver checks to [disarm](ref/rule/disarm) that he attempts with his
-[buckler](ref/eq-armor/buckler).
+[buckler](ref/eq-armor/buckler). This deed replaces kip-up.
 
-**Replaces:** Kip-up
+## Rondelero Chop (Ex) {#rondelero-chop}
 
-**Rondelero Chop (Ex)**
-
-**Immediate:** When the rondelero swashbuckler hits with a melee attack using a light or one-handed
+At 11th level, when the rondelero swashbuckler hits with a melee attack using a light or one-handed
 slashing melee weapon, he can spend 1 panache point to attempt a [sunder](ref/rule/sunder) combat
-maneuver check against the target of his attack without provoking attacks of opportunity.
+maneuver check against the target of his attack as an immediate action without provoking attacks of
+opportunity. This deed replaces bleeding wound.
 
-**Gained:** At 11th Level
+## Shattering Chop (Ex) {#shattering-chop}
 
-**Replaces:** Bleeding wound
+At 15th level, while the rondelero swashbuckler has at least 1 panache point, he can attempt a
+shattering chop as a full-round action, pooling all of his attack potential into a single melee
+sunder combat maneuver with a light or one-handed slashing weapon. When he does, he gains a +4 bonus
+on her combat maneuver check and ignores half of the [hardness](ref/umr/hardness) of the item he
+sunders. This deed replaces perfect thrust.
 
-**Shattering Chop (Ex)**
+## Buckler Bash (Ex) {#buckler-bash}
 
-**Fullround:** While the rondelero swashbuckler has at least 1 panache point, he can attempt a
-_shattering chop,_ pooling all of his attack potential into a single melee sunder combat maneuver
-with a light or one-handed slashing weapon. When he does, he gains a +4 bonus on his combat maneuver
-check and ignores half of the [hardness](ref/umr/hardness) of the item he sunders.
+At 2nd level, a rondelero swashbuckler can perform a [shield bash](ref/misc/shield-bash) with a
+buckler (use the same damage and critical multiplier as for a light shield). He can treat a buckler
+as a one-handed piercing melee weapon for the purposes of the swashbuckler's finesse and all feats
+and class abilities that refer to such a weapon.
 
-**Gained:** At 15th Level
+## Rondelero Flexibility (Ex) {#rondelero-flexibility}
 
-**Replaces:** Perfect thrust
-
-**Buckler Bash (Ex)**
-
-**Ability:** A rondelero swashbuckler can perform a [shield bash](ref/misc/shield-bash) with a
-buckler (use the same damage and critical multiplier as for a
-[light wooden shield](ref/eq-armor/light-wooden-shield)). He can treat a buckler as a one-handed
-piercing melee weapon for the purposes of _swashbuckler finesse_ and all feats and class abilities
-that refer to such a weapon.
-
-**Gained:** At 2nd Level
-
-**Rondelero Flexibility (Ex)**
-
-**Ability:** As a full-attack action, a rondelero swashbuckler wielding a falcata in one hand and a
+At 6th level, as a full-attack action, a rondelero swashbuckler wielding a falcata in one hand and a
 buckler in the other can alternate between using his falcata and his buckler for each attack. This
 does not grant additional attacks or incur penalties as two-weapon fighting does, and does not cause
 her to lose his Armor Class bonus from her buckler.
 
-**Gained:** At 6th Level
+## Charmed Life (Ex) {#charmed-life}
 
-**Charmed Life (Ex)**
-
-**Alters:** Charmed life
-
-**At 10th Level:** A rondelero swashbuckler does not gain _charmed life_ until 10th level, at which
-point he can use the ability only once per day.
-
-**At 14th Level:** He can use it twice a day.
-
-**At 18th Level:** He can use this three times per day.
+A rondelero swashbuckler does not gain charmed life until 10th level, at which point he can use the
+ability only once per day. At 14th level and again at 18th level, he can use the ability an
+additional time per day. This ability alters charmed life.

@@ -16,12 +16,17 @@ page = "11"
 
 [fields]
 kind = "archetype"
+features = [
+  { anchor = "pressuring-strikes", level = 2 },
+  { anchor = "debilitating-blows", level = 7 },
+  { anchor = "disabling-palm", level = 15 },
+]
 trades = [
-  { replaces = "2nd-, 6th-, 10th-, 14th-, and 18th-level bonus feats", feature = "bonus-feat", levels = [2, 6, 10, 14, 18] },
-  { replaces = "Wholeness of body", feature = "wholeness-of-body" },
-  { replaces = "diamond body", feature = "diamond-body" },
-  { replaces = "diamond soul", feature = "diamond-soul" },
-  { alters = "Quivering palm", feature = "quivering-palm" },
+  { replaces = "2nd-, 6th-, 10th-, 14th-, and 18th-level bonus feats", feature = "bonus-feat", levels = [2, 6, 10, 14, 18], by = ["pressuring-strikes"] },
+  { replaces = "Wholeness of body", feature = "wholeness-of-body", by = ["debilitating-blows"] },
+  { replaces = "diamond body", feature = "diamond-body", by = ["debilitating-blows"] },
+  { replaces = "diamond soul", feature = "diamond-soul", by = ["debilitating-blows"] },
+  { alters = "Quivering palm", feature = "quivering-palm", by = ["disabling-palm"] },
 ]
 +++
 
@@ -29,49 +34,33 @@ A body contains many points where the flesh, mind, and spirit coincide. A monk o
 skilled at manipulating these points. With precise strikes, she temporarily disrupts a body's
 connection with the rest of the self.
 
-**Pressuring Strikes (Ex)**
+## Pressuring Strikes (Ex) {#pressuring-strikes}
 
-**Ability:** A monk of the mantis gains the [sneak attack](ref/ability/sneak-attack) ability. This
+At 2nd level, a monk of the mantis gains the [sneak attack](ref/ability/sneak-attack) ability. This
 ability functions as the [rogue](ref/class/rogue) ability of the same name, except it can be used
-only during a _flurry of blows._ The initial sneak attack damage is +1d6.
+only during a flurry of blows. The initial sneak attack damage is +1d6, and the damage increases by
+1d6 every 4 levels beyond 2nd. This ability replaces the monk's 2nd-, 6th-, 10th-, 14th-, and
+18th-level bonus feats.
 
-**Gained:** At 2nd Level
+## Debilitating Blows (Ex) {#debilitating-blows}
 
-**Replaces:** 2nd-, 6th-, 10th-, 14th-, and 18th-level bonus feats
-
-At 6th level: The damage increases to +2d6.
-
-At 10th level: The damage increases to +3d6.
-
-At 14th level: The damage increases to +4d6.
-
-At 18th level: The damage increases to +5d6.
-
-**Debilitating Blows (Ex)**
-
-**Flavor:** A monk of the mantis's knowledge of anatomy allows her to deal blows that both deal
-damage and impose debilitating conditions.
-
-**At 11th Level:** If the monk of the mantis stuns a target with Stunning Fist, the target is also
-[exhausted](ref/misc/exhausted) for 1 round after the Stunning Fist effect ends.
-
-**At 13th Level:** The monk can spend 1 point from her _ki pool_ as part of her Stunning Fist attack
-to increase the duration of these additional effects to a number of rounds equal to her Wisdom bonus
-(minimum 2 rounds).
-
-**At 7th Level:** If a monk of the mantis stuns a target with
+A monk of the mantis's knowledge of anatomy allows her to deal blows that both deal damage and
+impose debilitating conditions. At 7th level, if a monk of the mantis stuns a target with
 [Stunning Fist](ref/feat/stunning-fist), the target is also [entangled](ref/rule/entangled) for 1
-round after the Stunning Fist effect ends.
+round after the Stunning Fist effect ends. At 11th level, if the monk of the mantis stuns a target
+with Stunning Fist, the target is also [exhausted](ref/misc/exhausted) for 1 round after the
+Stunning Fist effect ends. At 13th level, the monk can spend 1 point from her ki pool as part of her
+Stunning Fist attack to increase the duration of these additional effects to a number of rounds
+equal to her Wisdom bonus (minimum 2 rounds). This ability replaces wholeness of body, diamond body,
+and diamond soul. (For the unchained monk from _Pathfinder RPG Pathfinder Unchained_, this ability
+is gained at 6th level, improves at 10th and 12th levels, and replaces the ki powers gained at those
+levels.)
 
-**Replaces:** Wholeness of body, diamond body, diamond soul
+## Disabling Palm (Su) {#disabling-palm}
 
-**Disabling Palm (Su)**
-
-**Ability:** A monk of the mantis can render the target of her _quivering palm_ unconscious instead
-of killing the creature. Upon failing its Fortitude saving throw, the target either is knocked
-[unconscious](ref/misc/unconscious) for a number of minutes equal to the monk of the mantis's monk
-level or dies (the monk of the mantis's choice).
-
-**Alters:** Quivering palm
-
-**Gained:** At 15th Level
+At 15th level, a monk of the mantis can render the target of her quivering palm
+[unconscious](ref/misc/unconscious) instead of killing the creature. Upon failing its Fortitude
+saving throw, the target either is knocked unconscious for a number of minutes equal to the monk of
+the mantis's monk level or dies (the monk of the mantis's choice). This alters quivering palm. (For
+the monk class from _Pathfinder Unchained_, this ability applies only if the monk selects the
+quivering palm ki power.)
