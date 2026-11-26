@@ -3278,6 +3278,12 @@ UPGRADE_WORDS = re.compile(r"\b(?:increases?|improves?|becomes?|rises?|grows?|de
 OF_LEVEL = re.compile(r"^[^.]*?\bof\s+(\d+)(st|nd|rd|th)\s+level\b(?!\s+or\s+lower)", re.I)
 # A level that the text of the feature does not state but the section before it does (review of #338): "must take the following revelation at 3rd level"
 LEVEL_FROM_PRINT = {
+    # owner ruling 50 (review of #338): altering the whole spellcasting of the class, or its implements, is altering a whole 1st-level feature
+    ("ref/arc-occultist/silksworn", "spells"): (1, "ruling 50: alters the occultist's spells (the whole spellcasting, a 1st-level class feature)"),
+    ("ref/arc-occultist/silksworn", "implements"): (1, "ruling 50: alters the occultist's implements, a 1st-level class feature on the class table"),
+    ("ref/arc-occultist/silksworn", "devoted-mystic"): (1, "ruling 50: alters implements, a 1st-level class feature on the class table (and the printed four schools \"at 1st level\")"),
+    ("ref/arc-magus/iron-ring-striker", "diminished-spellcasting"): (1, "ruling 50: alters the magus's spellcasting (the whole feature, a 1st-level class feature)"),
+    ("ref/arc-witch/witch-watcher", "diminished-spellcasting"): (1, "ruling 50: alters the witch's spellcasting (the whole feature, a 1st-level class feature)"),
     ("ref/arc-oracle/inerrant-voice", "revelations"): (3, "its own sentence: \"must take the following revelation at 3rd level\""),
     ("ref/arc-oracle/inerrant-voice", "vigilant-protector"): (3, "the Revelations paragraph before it: \"must take the following revelation at 3rd level\""),
 }
@@ -3443,7 +3449,8 @@ def first_level_key(name: str) -> str:
     name = re.sub(r"[_*]", "", name)
     name = re.sub(r"^\d+(?:st|nd|rd|th)\s+", "", name.strip())                    # the class table of the ranger: "1st favored enemy"
     name = re.sub(r"\s+(?:\d+/\w+|\d+d\d+|[+\-]\d.*|\d+)$", "", name.strip())
-    name = re.sub(r"^[a-z]+'s\s+", "", fold(name))                 # "witch's familiar" is the name familiar
+    name = re.sub(r"^(?:the|a|an)\s+", "", fold(name))              # "The cavalier's order" is the name order
+    name = re.sub(r"^[a-z]+'s\s+", "", name)                       # "witch's familiar" is the name familiar
     return " ".join(stem(w) for w in re.findall(r"[a-z0-9']+", name))
 
 
@@ -3732,10 +3739,14 @@ def finalize(e: Entry, res: dict, class_cache: dict | None = None) -> dict:
                     firsts.append(1 in (t.get("levels") or ()) or bool(re.search(r"\b1st\b", trade_name(t)[1]))
                                   or (bool(cls) and first_level_key(trade_name(t)[1]) in class_first_level(corpus, cls, class_cache)))
                 # ruling 35: level 1 when any feature that it replaces is a 1st-level feature, even if it also replaces later ones
-                if any(f and trade_name(t)[0] == "replaces" for f, t in zip(firsts, mine)):
+                # owner ruling 50: altering a whole 1st-level feature counts like replacing it; a part of a feature (a proficiency, class skills,
+                # a spell list) is no class-table name and gives none (ruling 48)
+                if any(f and trade_name(t)[0] in ("replaces", "alters") for f, t in zip(firsts, mine)):
                     r["level"] = 1
                     named = any(f and (1 in (t.get("levels") or ()) or re.search(r"\b1st\b", trade_name(t)[1])) for f, t in zip(firsts, mine))
-                    r["notes"].append("level 1: replaces " + ", ".join(trade_name(t)[1] for t in mine if trade_name(t)[0] == "replaces")
+                    ops = [t for t in mine if trade_name(t)[0] in ("replaces", "alters")]
+                    r["notes"].append("level 1: " + ("replaces " + ", ".join(trade_name(t)[1] for t in ops) if all(trade_name(t)[0] == "replaces" for t in ops)
+                                                     else ", ".join(trade_name(t)[0] + " " + trade_name(t)[1] for t in ops))
                                       + (", of which one is gained at 1st level (the printed level of the trade, or the class table)" if named
                                          else ", of which one is gained at 1st level in the class table"))
         if r["level"] is not None and r["level_import"] is not None and r["level"] != r["level_import"] and r["status"] != "hold" \
@@ -4839,6 +4850,27 @@ def self_test() -> int:
     props["feature"][0]["print"] = "At 3rd level, a ranger learns a type."
     out = convert_text(ent, props, [{"anchor": f["anchor"], "status": "print"} for f in props["feature"]])
     eq('by = ["adaptation"]' in out, True, "a trade sentence of an option belongs to its feature")
+    # owner rulings 48 and 50: a feature with no printed level that alters a whole 1st-level feature of the class table is level 1; a part is none
+    with tempfile.TemporaryDirectory() as tmp:
+        root_ = Path(tmp)
+        (root_ / "entries" / "class").mkdir(parents=True)
+        (root_ / "entries" / "arc-cavalier").mkdir(parents=True)
+        (root_ / "entries" / "class" / "cavalier.md").write_text(
+            "|Level|Base Attack Bonus|Fort Save|Ref Save|Will Save|Special|\n|---|---|---|---|---|---|\n|1st|+1|+2|+0|+0|Challenge 1/day, mount, order, tactician|\n",
+            encoding="utf-8")
+        trades_ = [{"alters": "Mount", "feature": "mount"}, {"alters": "Weapon proficiencies", "feature": "wp"}, {"alters": "The cavalier's order", "feature": "order"},
+                   {"replaces": "Tactician", "feature": "tactician"}]
+        fld_ = "".join("  { " + ("alters" if "alters" in t_ else "replaces") + ' = "' + (t_.get("alters") or t_.get("replaces")) + '", feature = "' + t_["feature"] + '" },\n' for t_ in trades_)
+        ent_ = Entry(root_ / "entries" / "arc-cavalier" / "x.md", "ref/arc-cavalier/x", "X", "archetype",
+                     'id = "ref/arc-cavalier/x"\n\n[fields]\nkind = "archetype"\ntrades = [\n' + fld_ + "]", "Intro.\n", {"fields": {"trades": trades_}}, None, "", ["ref/class/cavalier"])
+
+        def row_(a, txt):
+            return {"anchor": a, "span": "", "page": "", "pseudo": False, "draft": "", "level_import": None, "head": a, "print": txt, "status": "print",
+                    "notes": [], "listed": True, "name": a, "option": False}
+        out_ = finalize(ent_, {"rows": [row_("steed", "A rider gets a steed. This ability alters mount."), row_("arms", "A rider drills. This ability alters weapon proficiencies."),
+                                       row_("code", "A rider swears a code. This ability alters the cavalier's order."), row_("tact", "A rider plans. This ability replaces tactician.")],
+                               "problems": [], "opening": [], "decisions": {}, "edits": {}})
+        eq([r["level"] for r in out_["rows"]], [1, None, 1, 1], "ruling 50: altering the whole mount or order is level 1, altering a part (weapon proficiencies) none; replacing stays level 1")
     # front matter edit
     front = 'id = "x"\n\n[fields]\nkind = "archetype"\ntrades = [\n  { replaces = "Bravery", feature = "bravery" },\n  { replaces = "Armor training", feature = "armor-training" },\n]'
     got = edit_front(front, [{"anchor": "a", "level": 2, "listed": True}, {"anchor": "b", "listed": True}], {0: ["a"], 1: []}, 2)
