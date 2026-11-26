@@ -9,7 +9,7 @@ At 5th level and every 3 levels thereafter, the chaos knight can grant a blessin
 
 This replaces mercy.
 
-|D4|Blessing|
+|d4|Blessing|
 | --- | --- |
 |1|The creature gains a sacred bonus to AC equal to 1/5 the paladin's level (minimum +1).|
 |2|The creature gains a sacred bonus on weapon damage rolls equal to the chaos knight's Charisma modifier.|
@@ -25,4 +25,26 @@ text = '''
 At 14th level, a chaos knight treats his weapons as chaos-aligned for the purposes of bypassing [damage reduction](ref/rule/damage-reduction). In addition, the chaos knight treats attacks targeting enemies within 10 feet of him as chaos-aligned for the purpose of overcoming damage reduction.
 
 This replaces aura of faith.
+'''
+
+[[add]]
+entry = "ref/arc-companion/elemental-companion"
+anchor = "planar-companion-archetypes"
+head = "Planar Companion Archetypes"
+parent = ""
+after = ""
+note = "text of the introduction of the section Planar Companion Archetypes (Plane-Hopper's Handbook p. 26, ruling 41), word for word from print: it holds the rule that both archetypes of the section use (\"When selecting either of the archetypes below, choose one of the following elements ...\"), so the entry carries it as an unlisted section (review of #351)"
+text = '''
+Rare creatures are born with a spark of elemental power. When selecting either of the archetypes below, choose one of the following elements that define which abilities the archetype grants: air, earth, fire, or water.
+'''
+
+[[add]]
+entry = "ref/arc-familiar/elemental-familiar"
+anchor = "planar-companion-archetypes"
+head = "Planar Companion Archetypes"
+parent = ""
+after = ""
+note = "text of the introduction of the section Planar Companion Archetypes (Plane-Hopper's Handbook p. 26, ruling 41), word for word from print: it holds the rule that both archetypes of the section use (\"When selecting either of the archetypes below, choose one of the following elements ...\"), so the entry carries it as an unlisted section (review of #351)"
+text = '''
+Rare creatures are born with a spark of elemental power. When selecting either of the archetypes below, choose one of the following elements that define which abilities the archetype grants: air, earth, fire, or water.
 '''

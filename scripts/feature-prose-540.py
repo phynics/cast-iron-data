@@ -1094,6 +1094,16 @@ def _assemble(book: Book, items: list[tuple[int, list[dict]]]) -> list[Para]:
             else:
                 insets[ln["col"]] = None
                 starts = indent >= 8
+            if ART_RUNS["on"] and starts and out and out[-1].kind == "para" and li > 0 and plines[li - 1]["col"] == ln["col"]:
+                # text that wraps around art is set flush to the column's right edge and steps in at the left (468, 480, 493,
+                # 498), so an indent means nothing there. A paragraph ends in a short line: a line that fills the column
+                # to its right edge is not the last of its paragraph, whatever it ends in. A head with its colon
+                # ("Versed in Curses (Ex):") still starts a paragraph
+                col_right = max(l["right"] for l in plines if l["col"] == ln["col"])
+                first = next(((t, b, i) for t, b, i in ln["runs"] if t.strip()), None)
+                colon_head = bool(first and (first[1] or first[2]) and re.match(r"\s*[^:]{3,70}:", "".join(t for t, _, _ in ln["runs"])))
+                if plines[li - 1]["right"] >= col_right - 12 and not colon_head:
+                    starts = False
             if ILLUSTRATED["on"] and starts and out and out[-1].kind == "para" and not re.search(r"[.!?:)\"”…]\s*$", out[-1].plain()) \
                     and not (all(bold for t, bold, _i in out[-1].runs if t.strip())
                              and not next((bold for t, bold, _i in ln["runs"] if t.strip()), True)):
@@ -2488,6 +2498,7 @@ SKIP_TABLES = {"on": False}         # the Advanced Race Guide sets its tables in
 # starting a paragraph, and a head may follow a sentence end in a line without the common indent. The other books
 # have regular columns, where those two rules would join a head to the line before it.
 ILLUSTRATED = {"on": False}
+ART_RUNS = {"on": False}           # black-markets, blood-of-shadows: text beside art steps right line by line
 
 
 def _arc(entry: str) -> str:
@@ -3000,13 +3011,33 @@ def print_md(feat: PrintFeature, links: list[tuple[str, str]], vocab: set[str], 
     lost: list[str] = []
     if links:
         links = [l for l in links if (entry_id, l[0]) not in LINK_DROP]
-        for label, target in list(links):
-            phrase = CONTEXT_LINKS.get((entry_id, label))
-            if phrase and phrase in text:
-                text = text.replace(phrase, phrase[: -len(label)] + f"[{label}]({target})", 1)
-                links.remove((label, target))
+        text, links = apply_context_links(entry_id, text, links)
         text, lost = apply_links(text, links)
     return render_marks(text), lost, notes
+
+
+def opening_with_links(entry_id: str, text: str, links: list[tuple[str, str]], deferred: list[tuple[str, str]]) -> str:
+    """The links of the opening placed in the text of the opening. A link that CONTEXT_LINKS ties to a phrase that the opening does
+    not hold goes to `deferred`: a section places it (Umbral Scion: the import's "Prerequisites: Shadow bloodline" is printed in
+    the Bloodline section, and the opening says "potent shadow heritage")."""
+    text, rest = apply_context_links(entry_id, text, links)
+    for l in list(rest):
+        if (entry_id, l[0]) in CONTEXT_LINKS:
+            rest.remove(l)
+            deferred.append(l)
+    return apply_links(text, rest)[0]
+
+
+def apply_context_links(entry_id: str, text: str, links: list[tuple[str, str]]) -> tuple[str, list[tuple[str, str]]]:
+    """Place the links that CONTEXT_LINKS ties to a phrase of this text (the link keeps the case that print has); returns
+    the text and the links still to place."""
+    rest = list(links)
+    for label, target in links:
+        phrase = CONTEXT_LINKS.get((entry_id, label))
+        if phrase and phrase in text:
+            text = text.replace(phrase, phrase[: -len(label)] + f"[{phrase[-len(label):]}]({target})", 1)
+            rest.remove((label, target))
+    return text, rest
 
 
 def final_citations(text: str, entry_id: str = "") -> str:
@@ -3111,6 +3142,7 @@ OPENING_NOTES = {
 # Eldritch Botanist. The entry writes the link in the section's own text (owner review of #344).
 LINK_DROP = {
     ("ref/arc-druid/supernaturalist", "plant"),
+    ("ref/arc-paladin/chaos-knight", "fast healing"),       # the import links "fast healing" twice in the table row; the hand text of Blessings of the Maelstrom links the first mention (review of #351)
 }
 
 
@@ -4227,6 +4259,7 @@ def finalize(e: Entry, res: dict, class_cache: dict | None = None) -> dict:
     dropped: list[dict] = []
     opening = list(res["opening"])
     opening_from_print = False
+    deferred: list[tuple[str, str]] = []          # links of the opening that CONTEXT_LINKS ties to a phrase of a section
     by_anchor = {r["anchor"]: r for r in rows}
     for r in list(rows):
         dec = decisions.get((e.id, r["anchor"]))
@@ -4263,7 +4296,7 @@ def finalize(e: Entry, res: dict, class_cache: dict | None = None) -> dict:
             dropped.append(r)
             if kind == "to-opening":
                 opening_from_print = True
-                opening = [apply_links(o, res.get("opening_links", []))[0] for o in res["opening"]]
+                opening = [opening_with_links(e.id, o, res.get("opening_links", []), deferred) for o in res["opening"]]
         elif kind == "hold":
             r["status"] = "hold"
             r["notes"] = [note] + [n for n in r["notes"] if n.startswith(("print asterisks", "misprint", "link", "anchor", "errata"))]
@@ -4292,7 +4325,7 @@ def finalize(e: Entry, res: dict, class_cache: dict | None = None) -> dict:
         row = {"anchor": add["anchor"], "span": "", "page": "", "pseudo": False, "draft": "", "level_import": None,
                "head": add["head"], "print": add["text"].strip("\n"), "status": "print", "notes": [add["note"]],
                "listed": False, "name": add["head"], "option": False, "parent": add["parent"] or None}
-        at = next((i for i, x in enumerate(rows) if x["anchor"] == add["after"]), len(rows) - 1)
+        at = -1 if not add["after"] else next((i for i, x in enumerate(rows) if x["anchor"] == add["after"]), len(rows) - 1)      # an empty `after` puts the section before the first feature
         rows.insert(at + 1, row)
     # owner ruling 44: a printed table title goes on a bold line directly above the Markdown table, not in a heading. A section
     # whose print head is the title of a table (Table 2-2: Homunculus Companions, Monk Moves, 4th-Level Ki Powers) is folded behind
@@ -4310,10 +4343,12 @@ def finalize(e: Entry, res: dict, class_cache: dict | None = None) -> dict:
             r["status"] = "print"
     if res.get("opening_diff") and not opening_from_print and rows:
         opening_from_print = True
-        opening = [apply_links(o, res.get("opening_links", []))[0] for o in res["opening"]]
+        opening = [opening_with_links(e.id, o, res.get("opening_links", []), deferred) for o in res["opening"]]
         rows[0]["notes"].append("opening text written from print: the import differs in " + ", ".join(res["opening_diff"][:12])
                                 + (" ..." if len(res["opening_diff"]) > 12 else ""))
     res["opening"] = opening
+    for label, target in deferred:
+        place_elsewhere(rows, label, target)
     # a link that its own section could not place goes on the first free occurrence of its words in any section of the
     # entry (owner review of batch 3); only the links that find no place anywhere stay in the notes
     for r in rows:
@@ -4686,6 +4721,7 @@ def configure_book(book: str) -> None:
     ILLUSTRATED["on"] = book in ("advanced-class-guide", "advanced-race-guide", "adventurers-guide", "ultimate-wilderness",
                                  "horror-adventures", "planar-adventures", "inner-sea-magic", "inner-sea-intrigue", "inner-sea-combat", "construct-handbook",
                                  "heroes-of-the-darklands", "legacy-of-dragons", "familiar-folio", "advanced-class-origins")
+    ART_RUNS["on"] = book in ("black-markets", "blood-of-shadows")
     SECTION_STOPS["on"] = book in ("adventurers-guide", "ultimate-wilderness", "horror-adventures", "planar-adventures")
     ANY_TITLE_ENDS["on"] = book in SMALL_CAP_BOOKS or book in PLAYER_COMPANIONS or book in ("monster-codex", "advanced-class-origins", "black-markets", "blood-of-shadows")
     STAYS_EXTRA["set"] = frozenset({"discoveries"}) if book == "blood-of-shadows" else frozenset()
@@ -4926,6 +4962,9 @@ MISPRINTS.extend([
 ])
 CONTEXT_LINKS.update({
     ("ref/arc-druid/swarm-monger", "swarm"): "gains the swarm",
+    # review of #351: the link of the import belongs on the word that print marks, not on the first one of the text
+    ("ref/arc-sorcerer/sorcerer-of-sleep", "arcane"): "The arcane",                # "The arcane and dreamspun bloodlines" (Black Markets p. 26), not "her arcane power"
+    ("ref/arc-sorcerer/umbral-scion", "Shadow"): "have the shadow",                # "must have the shadow bloodline" (Blood of Shadows p. 19), not "potent shadow heritage"
 })
 # the print head of a section that the book sets in small capitals comes out in mixed case ("vesteD powers"): written as the book titles it
 HEAD_REWRITES.update({
@@ -6088,6 +6127,32 @@ def self_test() -> int:
        ("Spell Strike (Su)", [(":", False, False), (" The blade adept", False, False)]), "an italic head with its colon inside")
     eq(head_candidate(Para("para", [("Cat's Charge (Ex", False, True), ("): At 11th level", False, False)], 1, 0))[0], "Cat's Charge (Ex)",
        "an italic head with the parenthesis split")
+    # review of #351: a tag that the layer breaks at its comma ("Apothecary (Ex, Sp)", Black Markets p. 28) joins into one head, in italics or in bold
+    eq(head_candidate(Para("para", [("Apothecary (Ex", False, True), (",", False, False), ("Sp)", False, True), (": The alchemist", False, False)], 1, 0))[:2],
+       ("Apothecary (Ex, Sp)", [(": The alchemist", False, False)]), "an italic head with its tag split at the comma")
+    eq(head_candidate(Para("para", [("Apothecary (Ex", True, False), (",", False, False), ("Sp)", True, False), (": The alchemist", False, False)], 1, 0))[:2],
+       ("Apothecary (Ex, Sp)", [(": The alchemist", False, False)]), "a bold head with its tag split at the comma")
+    eq(head_candidate(Para("para", [("Apothecary (Ex)", False, True), (", Sp", False, False), (": x", False, False)], 1, 0))[0], "Apothecary (Ex)",
+       "a balanced tag is not joined to what follows")
+    # review of #351: a line that fills the column to its right edge is not the last of its paragraph beside art (Black Markets p. 29, Blood of Shadows p. 9)
+    def art_line(text, left, right, head=False):
+        return {"size": 13, "col": 1, "left": left, "margin": 468, "right": right, "top": 0,
+                "runs": [(text, False, head)] if not head else [("Curse Breaker (Su)", False, True), (text, False, False)]}
+    art = [art_line("Personal Guarantee (Su): A hoaxer can prevent his wares from afflicting a target until he is safely out of sight.", 481, 800),
+           art_line("He can spend up to 1 round of bardic performance per", 480, 800),
+           art_line("owner. This performance replaces distraction.", 498, 640),
+           art_line("This ability replaces nothing else.", 482, 700),
+           art_line(": A hoaxer of 12th level or higher can use performance", 519, 800, head=True)]
+    ART_RUNS["on"] = False
+    off = len(_assemble(Book({}, {}, {}, set()), [(1, art)]))
+    ART_RUNS["on"] = True
+    on = [p.plain() for p in _assemble(Book({}, {}, {}, set()), [(1, art)])]
+    ART_RUNS["on"] = False
+    eq((off, len(on)), (5, 3), "a full line before an indented one does not end a paragraph beside art; a short line, or a head with its colon, still does")
+    eq(on[0].endswith("distraction."), True, "the full line joins the next")
+    # review of #351: a link that belongs to a phrase goes there, keeping print's case
+    eq(apply_context_links("ref/arc-sorcerer/umbral-scion", "must have the shadow bloodline", [("Shadow", "ref/sorcbloodline/shadow")]),
+       ("must have the [shadow](ref/sorcbloodline/shadow) bloodline", []), "a context link keeps the case of print")
     eq(SUPERSCRIPT_MARK.fullmatch("UM") is not None and SUPERSCRIPT_MARK.fullmatch("sAPG").group(1) == "s", True, "a superscript mark")
     eq(finish_text("a \ufffd2 becomes a \ufffd3", set()), "a \u00d72 becomes a \u00d73", "a lost multiplication sign")
     ERRATA_CTX.update(book="advanced-class-guide", used=set())
