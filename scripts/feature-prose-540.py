@@ -2885,7 +2885,8 @@ def strip_citations(text: str) -> str:
 EDGE_CITATIONS = {
     ("ref/arc-rogue/heister", "95–96"): True,        # "Escape Artist check to move through a tight space where her head fits ..."
     ("ref/arc-bard/prankster", "322"): True,         # "steal an object ... This functions as the steal combat maneuver": the link is on the first mention
-    ("ref/arc-inquisitor/secret-seeker", "196–197"): False,   # [read aura] goes to Perception; the citation names the occult skill unlocks
+    ("ref/arc-inquisitor/secret-seeker", "196–197"): False,
+    ("ref/arc-summoner/shaitan-binder", "143"): False,        # [shaitan] is the creature; the citation names its stone curse ability (#335 review), also where the link lands on the later mention   # [read aura] goes to Perception; the citation names the occult skill unlocks
     # review of #342 (ruling 26): the two words of the rule that cut each way here
     ("ref/arc-witch/havocker", "14"): True,          # "[kineticist] element (Occult Adventures 14)": the class link makes the rule keep a citation that names an ability of the class; the link names the element's owner and the corpus links the element, so it goes
     ("ref/arc-medium/uda-wendo", "11"): True,        # "[kineticist] ... (Occult Adventures 11)": the same case
