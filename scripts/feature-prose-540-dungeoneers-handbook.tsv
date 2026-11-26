@@ -1,0 +1,28 @@
+entry	feature	anchor	listed	level	source	status	note	page	span_sha256
+ref/arc-alchemist/blazing-torchbearer	Everburning Flame (Ex)	everburning-flame	yes	1	print	print	level 1: replaces Brew Potion, of which one is gained at 1st level in the class table	22	012fde0e70e6307f695c7b06667adea8831236633c362d8fd7542ff3d47305fd
+ref/arc-alchemist/blazing-torchbearer	Intense Light (Ex)	intense-light	yes	2	print	print		22	1b6bb7779947b0c8490ca2b21ade5168242743d3b153de715b6722c5c07feb8e
+ref/arc-alchemist/blazing-torchbearer	Explosive Torch (Ex)	explosive-torch	yes	4	print	print		22	0e0a5ca0ccc1a2581da651c03c865317aa4558c72118163b78dad2d1eeabfd94
+ref/arc-alchemist/trap-breaker	Trapfinding (Ex)	trapfinding	yes	2	print	print	link not placed: half	24	de7c65163837ad9dc4e71855f4c881e0407f551f8fb5006044eec35850b81c30
+ref/arc-alchemist/trap-breaker	Explosive Disarm (Ex)	explosive-disarm	yes	5	print	print		24	f41d58a4664f95536bdba976078582a4bde61284b7dda6dc402a16f7e441e85b
+ref/arc-alchemist/trap-breaker	Land Mine (Ex)	land-mine	yes	6	print	print	lead review (ruling 14): print says "All alchemist land mines are mechanical traps with the qualities Trigger: location and Reset: none" in the paragraph (the qualities in italics); the corpus has Trigger and Reset rows and a Set row. Print wins.	24	b4c171dd2c1592e2e7b052a1776f56d92be2a96480ed049429d0249c091dac1f
+ref/arc-alchemist/trap-breaker	Mine Engineering (Ex)	mine-engineering	yes	10	print	print		24	8dd425ed9366cc4ea82029d7991a4ee1a1d2ba28e6c0c89a29c32b6561d59247
+ref/arc-alchemist/trap-breaker	Alchemist Land Minds	alchemist-land-minds	no			print	lead review (ruling 14, structural): the import heads the qualities of the land mines ("Alchemist Land Minds") as a section; print has them in the paragraph of Land Mine, which stands.		aee2535eeb3d5f61f7868c422e500845a98b569cb679baedea6e1ffd5b35136e
+ref/arc-monk/terra-cotta-monk	Class Skills	class-skills	no		print	print	head printed, not in the import: added from print; opening text written from print: the import differs in class, class, dd, gained, kd, ke, kh, lost, perf, ride, skill, skill ...	23	
+ref/arc-monk/terra-cotta-monk	Trap Intuition (Ex)	trap-intuition	yes	2	print	print		23	0fe5617cb3b975f0172ffc5556332258867f2062c5e5be67bba0811f88f92b17
+ref/arc-monk/terra-cotta-monk	Stone Grip (Su)	stone-grip	yes	5	print	print		23	ec1ddd93b2583fabedfb513043712f1de9f3783d9037e498ff215eaa707fd4a0
+ref/arc-monk/terra-cotta-monk	Trap Dodge (Ex)	trap-dodge	yes	10	print	print		24	a7facf2d1b81ad54f05382d69d9abc7dfa555320c51f912ce9321bca723d8e2d
+ref/arc-monk/terra-cotta-monk	Sudden Adit (Su)	sudden-adit	yes	12	print	print		24	523849373296de85ab0300e838393fb083b691d8fef34e39fe379bc09c01afa6
+ref/arc-monk/terra-cotta-monk	Petrifying Strike (Su)	petrifying-strike	yes	15	print	print		24	c3bad723d6043c8c1d186a773ca07b6f5cccc9f721aceb95aa4b937cdba6475b
+ref/arc-monk/terra-cotta-monk	Rainmaker (Su)	rainmaker	yes	19	print	print		24	94ef522fb6642cdca45f891e810a140b8284197d67498fc95f2ffc51035bc2f7
+ref/arc-ranger/dungeon-rover	Class Skills	class-skills	no		print	print	head printed, not in the import: added from print; opening text written from print: the import differs in class, class, dd, gained, ke, lost, ride, skill, skill	23	
+ref/arc-ranger/dungeon-rover	Stone Scouting (Ex)	stone-scouting	yes	1	print	print	level 1: replaces Track, of which one is gained at 1st level in the class table	23	7ae2752a4abf404f3250a3ddf5715eeff89f1113f8287e6ee4bc6202057fdbd6
+ref/arc-ranger/dungeon-rover	Vermin Affinity (Ex)	vermin-affinity	yes	1	print	print	level 1: replaces Wild empathy, of which one is gained at 1st level in the class table	23	a8f9ac4d796588c4bf3b16244b98eb1a238af2b03bd8d4bcda3ad679ac454c9d
+ref/arc-ranger/dungeon-rover	Dungeon Ally (Ex)	dungeon-ally	yes	4	print	print	lead review (ruling 14): print says "or any poisonous snake" where the corpus lists spitting cobra, riding python, reef snake and viper with links; print names no snake. Print wins.; link not placed: spitting cobra, riding python, reef snake, viper	23	f8ce3e03747992b2e1153dca80615e1671057e86cb14492d10a8de79c2363563
+ref/arc-ranger/dungeon-rover	Subterranean Stride (Ex)	subterranean-stride	yes	7	print	print		23	6e71e2403998aebcb9342e0b52c5aa36f7357c7ebb31e7f8bb1e8e17e63f6109
+ref/arc-ranger/dungeon-rover	Improved Stone Scouting (Ex)	improved-stone-scouting	yes	8	print	print		23	1f326239409cae94779a7639a533a9295b83f6a0e9e7960b3ffe8cf14c2f5a84
+ref/arc-ranger/groom	Hide the Horses (Ex)	hide-the-horses	yes	1	print	print	level 1: replaces Track, of which one is gained at 1st level in the class table	22	97aa744db40dac3475c795db032d8aa454984cf6c4137f63aaae1a4e10c2ddff
+ref/arc-ranger/groom	Horse Whisperer (Su)	horse-whisperer	yes	3	print	print		22	d5b0010c69b51ff7fd5a1987fd33d9031d454e91d2601252ae0165331eea0120
+ref/arc-ranger/groom	Scout the Area (Ex)	scout-the-area	yes	3	print	print		22	452a8259146666231bcc0f48f20d02e731c05d76d0cc43b57689e3b198e45af5
+ref/arc-rogue/sapper	Destructive Dismantle (Ex)	destructive-dismantle	yes	1	print	print	level 1: replaces Trapfinding, of which one is gained at 1st level in the class table	22	8b23e0026b451d7f5a7f362adcdac37f2b48300c2df3f2aceacd1a6b63245c26
+ref/arc-rogue/sapper	Sapping (Ex)	sapping	yes	2	print	print		22	e7aba10b927a4a6239f46245503e76d39b29777525c891048d15e37ab79c1180
+ref/arc-rogue/sapper	Fence (Ex)	fence	yes	4	print	print		22	52a95e354496d1a2f32421939383c2b421f71c92a2b61af2613949c526d5bb4b
