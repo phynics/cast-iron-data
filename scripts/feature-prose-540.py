@@ -581,15 +581,22 @@ def finish_text(s: str, vocab: set[str]) -> str:
 
 
 def fix_ligatures(s: str, vocab: set[str]) -> str:
-    """`f ighter`, `inf lict`: the fi and fl ligatures leave a blank that a word does not have."""
-
-    def join(m: re.Match) -> str:
+    """`f ighter`, `inf lict`: the fi and fl ligatures leave a blank that a word does not have. A pair that does not join ("of inf") does not
+    hide the next one that starts inside it ("inf luence")."""
+    pat = re.compile(r"\b([A-Za-z]*f) ([il][a-z]*)\b")
+    out, i = [], 0
+    while True:
+        m = pat.search(s, i)
+        if not m:
+            out.append(s[i:])
+            return "".join(out)
         a, b = m.group(1), m.group(2)
         if (a + b).lower() in vocab:
-            return a + b
-        return m.group(0)
-
-    return re.sub(r"\b([A-Za-z]*f) ([il][a-z]*)\b", join, s)
+            out += [s[i:m.start()], a + b]
+            i = m.end()
+        else:
+            out.append(s[i:m.start(2)])
+            i = m.start(2)
 
 
 def fix_hyphens(s: str, vocab: set[str]) -> str:
@@ -4684,6 +4691,8 @@ def self_test() -> int:
     kinds2 = [(b.kind, b.size) for b in read_blocks(two, 1, 1)]
     SMALL_CAP_TITLES["on"] = False
     eq(kinds2, [("title", 36), ("title", 27), ("para", 0)], "a title of another size is a title of its own")
+    eq(fix_ligatures("he gains 1 point of inf luence over him and f ighter", {"influence", "fighter"}), "he gains 1 point of influence over him and fighter",
+       "a ligature pair after a word that ends in f")
     # a progression in print with a class word, or "he has", between the number and "levels"
     eq(progression_levels("This bonus increases by 1 for every 4 fighter levels beyond 2nd."), {6, 10, 14, 18}, "progression with a class word")
     eq(progression_levels("This bonus increases by 1 for every 4 levels he has beyond 2nd."), {6, 10, 14, 18}, "progression with 'he has'")
