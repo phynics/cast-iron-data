@@ -68,10 +68,10 @@ abilities that apply only to edged weapons. This ability replaces armor training
 ## Banner (Ex) {#banner}
 
 At 9th level, a dragoon may attach a banner to his lance. This is identical to the
-[cavalier](ref/class/cavalier) class feature. The bonuses provided by the dragoon's banner increase
-by +1 for every five levels beyond 9th (to a maximum of +3 at 19th level). Cavalier levels stack
-with his dragoon level for determining the effect of his banner, and he can take the better banner
-progression. This ability replaces weapon training 2, 3, and 4.
+[cavalier](ref/class/cavalier) class feature (_Advanced Player's Guide_ 34). The bonuses provided by
+the dragoon's banner increase by +1 for every five levels beyond 9th (to a maximum of +3 at 19th
+level). Cavalier levels stack with his dragoon level for determining the effect of his banner, and
+he can take the better banner progression. This ability replaces weapon training 2, 3, and 4.
 
 ## Piercing Lance (Ex) {#piercing-lance}
 

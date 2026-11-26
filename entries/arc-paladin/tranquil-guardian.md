@@ -53,8 +53,8 @@ or unarmed strike. Using serene strike is a free action. This ability replaces a
 ## Divine Bond (Su) {#divine-bond}
 
 A tranquil guardian who chooses a weapon as her divine bond may only increase her weapon's
-enhancement bonus or add the following properties to her weapon: _conductive__, defending,
-disruptive, grayflame_, or _merciful_.
+enhancement bonus or add the following properties to her weapon: _conductive_ (_Advanced Player's
+Guide_ 286)_, defending, disruptive, grayflame_ (_Advanced Player's Guide_ 288), or _merciful_.
 
 ## Aura of Calm (Su) {#aura-of-calm}
 

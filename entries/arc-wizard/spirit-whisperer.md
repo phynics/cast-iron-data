@@ -41,8 +41,8 @@ rather than appeasing them in the effort to gain and use arcane knowledge.
 When a spirit whisperer chooses an arcane bond, he must choose the familiar arcane bond, and the
 familiar gains the spirit animal ability of his selected spirit (see spirit link, below). The spirit
 whisperer does not need a spellbook, but instead stores and prepares his spell by communing with the
-familiar as the [witch's](ref/class/witch) familiar class feature. This ability alters arcane bond
-and replaces the spellbooks class feature.
+familiar as the [witch's](ref/class/witch) familiar class feature (_Advanced Player's Guide_ 67).
+This ability alters arcane bond and replaces the spellbooks class feature.
 
 ## Spirit Link (Su) {#spirit-link}
 

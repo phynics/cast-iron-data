@@ -49,8 +49,8 @@ surprise round. This ability replaces still mind.
 ## Brawler Maneuver Training (Ex) {#brawler-maneuver-training}
 
 At 4th level, a wildcat gains additional training with the [dirty trick](ref/rule/dirty-trick)
-combat maneuver. He gains a +1 bonus on combat maneuver checks when attempting this combat maneuver
-and a +1 bonus to his CMD when defending against this maneuver.
+combat maneuver (_Advanced Player's Guide_ 320). He gains a +1 bonus on combat maneuver checks when
+attempting this combat maneuver and a +1 bonus to his CMD when defending against this maneuver.
 
 At 7th, 10th, and 16th levels, a wildcat becomes further trained in another combat maneuver, gaining
 the above +1 bonus on combat maneuver checks and to CMD. In addition, the bonuses granted by

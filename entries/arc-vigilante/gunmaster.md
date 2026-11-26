@@ -42,10 +42,10 @@ This alters the vigilante's weapon and armor proficiencies.
 ## Gunmaster {#gunmaster}
 
 At 1st level, a gunmaster gains the [gunslinger's](ref/class/gunslinger)
-[gunsmith](ref/class/gunslinger#gunsmith) ability. Additionally, the
-[Gunsmithing](ref/feat/gunsmithing) bonus feat allows the gunmaster to repair and restore his
-initial battered firearm as if he were a gunslinger. At 5th level, and every 4 vigilante levels
-thereafter, the gunmaster gains a +1 bonus on attack and damage rolls with all firearms.
+[gunsmith](ref/class/gunslinger#gunsmith) ability (_Pathfinder RPG Ultimate Combat_ 9).
+Additionally, the [Gunsmithing](ref/feat/gunsmithing) bonus feat allows the gunmaster to repair and
+restore his initial battered firearm as if he were a gunslinger. At 5th level, and every 4 vigilante
+levels thereafter, the gunmaster gains a +1 bonus on attack and damage rolls with all firearms.
 
 This ability replaces vigilante specialization.
 

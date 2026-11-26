@@ -78,7 +78,7 @@ spells known for the rest of the day (even if she failed to cast the spell durin
 she remembered it), unless _spell recollection_ allowed her to cast a spell of a higher level than
 she would normally be able to cast.
 
-Table 2–1: Spell Recollection
+**Table 2–1: Spell Recollection**
 
 |d%|Result|
 | --- | --- |

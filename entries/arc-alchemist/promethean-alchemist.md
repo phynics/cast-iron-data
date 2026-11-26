@@ -122,7 +122,7 @@ Common (can't speak).
 1/minute for 60 minutes, _effect_ sleep for 1 minute, _cure_ 1 save, Con-based DC with a +2 racial
 bonus).
 
-### Table 2–2: Homunculus Companions {#table-2-2-homunculus-companions}
+**Table 2–2: Homunculus Companions**
 
 |Level|HD|BAB|Saves|Skills|Feats|Str/Dex Bonus|Special|
 | --- | --- | --- | --- | --- | --- | --- | --- |

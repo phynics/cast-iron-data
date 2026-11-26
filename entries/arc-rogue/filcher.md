@@ -61,10 +61,10 @@ her target that she cannot see. This ability replaces trap sense +1, +2, +3, +4,
 
 At 4th level, a filcher learns how pluck items off her opponents even in combat. She gains
 [Improved Steal](ref/feat/improved-steal) as a bonus feat and can use her Sleight of Hand bonus
-instead of her CMB when performing a [steal](ref/rule/steal) combat maneuver. If the filcher gains
-bonuses on combat maneuver checks from any feats, spells, magic items, or similar effects, they are
-added to the Sleight of Hand bonus when using the steal maneuver. This ability replaces uncanny
-dodge.
+instead of her CMB when performing a [steal](ref/rule/steal) combat maneuver (_Advanced Player's
+Guide_ 322). If the filcher gains bonuses on combat maneuver checks from any feats, spells, magic
+items, or similar effects, they are added to the Sleight of Hand bonus when using the steal
+maneuver. This ability replaces uncanny dodge.
 
 ## Superior Filching (Ex) {#superior-filching}
 

@@ -51,26 +51,30 @@ summon spell to summon multiple creatures from a lower-level list).
 _Summon Monster I_: No changes.
 
 _Summon Monster II_: A shadow caller cannot summon Small elementals or lemures, but instead can
-summon zoogs.
+summon zoogs (_Bestiary 3_ 288).
 
 _Summon Monster III_: A shadow caller cannot summon dretches or lantern archons, but can summon
-augur kytons.
+augur kytons (_Bestiary 3_ 171).
 
 _Summon Monster IV_: A shadow caller cannot summon Medium elementals, hell hounds, hound archons, or
-mephits, but can summon allips, gloomwings, and shadows.
+mephits, but can summon allips (_Bestiary 3_ 12), gloomwings (_Bestiary 2_ 133), and shadows
+(_Bestiary_ 245).
 
 _Summon Monster V_: A shadow caller cannot summon babau, bearded devils, bralani azatas, Large
-elementals, salamanders, or xills, but can summon shadow mastiffs and shae.
+elementals, salamanders, or xills, but can summon shadow mastiffs (_Bestiary 3_ 241) and shae
+(_Bestiary 3_ 242).
 
 _Summon Monster VI_: A shadow caller cannot summon Huge elementals, erinyes, lillend azatas, or
-succubi, but can summon cloakers.
+succubi, but can summon cloakers (_Bestiary_ 47).
 
 _Summon Monster VII_: A shadow caller cannot summon bebiliths, bone devils, greater elementals, or
-vrocks, but can summon greater shadows.
+vrocks, but can summon greater shadows (_Bestiary_ 245).
 
-_Summon Monster VIII_: A shadow caller can only summon derghodaemons and young umbral dragons.
+_Summon Monster VIII_: A shadow caller can only summon derghodaemons (_Bestiary 3_ 66) and young
+umbral dragons (_Bestiary 2_ 102).
 
-_Summon Monster IX_: A shadow caller can only summon interlocutor kytons and nightwings.
+_Summon Monster IX_: A shadow caller can only summon interlocutor kytons (_Bestiary 3_ 174) and
+nightwings (_Bestiary 3_ 203).
 
 This ability otherwise functions as and replaces the summoner's normal _summon monster_ spell-like
 abilities.

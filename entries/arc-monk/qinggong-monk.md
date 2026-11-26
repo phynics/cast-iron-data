@@ -92,7 +92,7 @@ Feats or spells marked with a single asterisk (\*) are described in this book. F
 marked with two asterisks (\*\*) are in the _Advanced Player's Guide_. Feats marked with a dagger
 (†) are _ki_ powers that can be activated as an immediate action.
 
-### 4th-Level Ki Powers {#4th-level-ki-powers}
+**4th-Level Ki Powers**
 
 |Ki power|Details|
 | --- | --- |
@@ -112,7 +112,7 @@ marked with two asterisks (\*\*) are in the _Advanced Player's Guide_. Feats mar
 |[Throw Anything](ref/feat/throw-anything)|1 _ki_ point|
 |_[true strike](ref/spell/true-strike)_|self only, 1 _ki_ point|
 
-### 6th-Level Ki Powers {#6th-level-ki-powers}
+**6th-Level Ki Powers**
 
 |Ki power|Details|
 | --- | --- |
@@ -126,7 +126,7 @@ marked with two asterisks (\*\*) are in the _Advanced Player's Guide_. Feats mar
 |[Snatch Arrows](ref/feat/snatch-arrows)†|1 _ki_ point|
 |Spring Attack|1 _ki_ point|
 
-### 8th-Level Ki Powers {#8th-level-ki-powers}
+**8th-Level Ki Powers**
 
 |Ki power|Details|
 | --- | --- |
@@ -141,7 +141,7 @@ marked with two asterisks (\*\*) are in the _Advanced Player's Guide_. Feats mar
 |[Whirlwind Attack](ref/feat/whirlwind-attack)|2 _ki_ points|
 |wholeness of body|monk ability, level 7, 2 _ki_ points|
 
-### 10th-Level Ki Powers {#10th-level-ki-powers}
+**10th-Level Ki Powers**
 
 |Ki power|Details|
 | --- | --- |
@@ -158,7 +158,7 @@ marked with two asterisks (\*\*) are in the _Advanced Player's Guide_. Feats mar
 |[Step Up and Strike](ref/feat/step-up-and-strike)\*\*, †|2 _ki_ points|
 |[Wind Stance](ref/feat/wind-stance)|2 _ki_ points|
 
-### 12th-Level Ki Powers {#12th-level-ki-powers}
+**12th-Level Ki Powers**
 
 |Ki power|Details|
 | --- | --- |
@@ -171,7 +171,7 @@ marked with two asterisks (\*\*) are in the _Advanced Player's Guide_. Feats mar
 |[Punishing Kick](ref/feat/punishing-kick)\*\*|2 _ki_ points|
 |_[shadow walk](ref/spell/shadow-walk)_|3 _ki_ points|
 
-### 14th-Level Ki Powers {#14th-level-ki-powers}
+**14th-Level Ki Powers**
 
 |Ki power|Details|
 | --- | --- |
@@ -184,7 +184,7 @@ marked with two asterisks (\*\*) are in the _Advanced Player's Guide_. Feats mar
 |_[ki shout](ref/spell/ki-shout)_\*|3 _ki_ points|
 |_[sonic thrust](ref/spell/sonic-thrust)_\*|2 _ki_ points|
 
-### 16th-Level Ki Powers {#16th-level-ki-powers}
+**16th-Level Ki Powers**
 
 |Ki power|Details|
 | --- | --- |
@@ -196,14 +196,14 @@ marked with two asterisks (\*\*) are in the _Advanced Player's Guide_. Feats mar
 |quivering palm|monk ability, 2 _ki_ points|
 |_[strangling hair](ref/spell/strangling-hair)\*_|3 _ki_ points|
 
-### 18th-Level Ki Powers {#18th-level-ki-powers}
+**18th-Level Ki Powers**
 
 |Ki power|Details|
 | --- | --- |
 |timeless body|monk ability, 0 _ki_ points|
 |tongue of the sun and moon|monk ability, 0 _ki_ points|
 
-### 20th-Level Ki Powers {#20th-level-ki-powers}
+**20th-Level Ki Powers**
 
 |Ki power|Details|
 | --- | --- |

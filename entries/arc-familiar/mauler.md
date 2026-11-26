@@ -62,7 +62,7 @@ At 3rd level, a mauler gains the ability to transform into a larger, more feroci
 a standard action three times per day. In battle form, the mauler's size becomes Medium and it gains
 a +2 size bonus to its Strength score. Since many familiars are Tiny or Diminutive, be sure to check
 for any additional Strength and Dexterity adjustments for increasing in size from Tiny or Diminutive
-to Medium. This is a polymorph effect.
+to Medium (_Pathfinder RPG Core Rulebook_ 212). This is a polymorph effect.
 
 This replaces deliver touch spells.
 

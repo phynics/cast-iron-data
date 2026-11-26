@@ -54,11 +54,12 @@ This ability replaces the social talent gained at 1st level.
 ## Implements and Focus Powers (Su) {#implements-and-focus-powers}
 
 At 2nd level, a psychometrist learns to use the powers of one
-[implement school](ref/ability/implements) from the [occultist](ref/class/occultist) class; the
-conjuration implement school is not available to a psychometrist. This implement school does not
-allow the psychometrist to cast any spells of that school of magic, though, and he can't use
-spell-trigger or spell-completion magic items from any schools without succeeding at the appropriate
-Use Magic Device check. A psychometrist can't select an implement school more than once.
+[implement school](ref/ability/implements) from the [occultist](ref/class/occultist) class (_Occult
+Adventures_ 47); the conjuration implement school is not available to a psychometrist. This
+implement school does not allow the psychometrist to cast any spells of that school of magic,
+though, and he can't use spell-trigger or spell-completion magic items from any schools without
+succeeding at the appropriate Use Magic Device check. A psychometrist can't select an implement
+school more than once.
 
 The psychometrist treats his vigilante level as his occultist level for purposes of determining how
 his implements' focus powers work, and for determining at what level he may choose certain focus
@@ -90,7 +91,7 @@ Intelligence modifier.
 ## Object Reading (Su) {#object-reading}
 
 At 2nd level, a psychometrist can read information from items he examines, and gains the occultist's
-[object reading](ref/spell/object-reading) ability .
+[object reading](ref/spell/object-reading) ability _(Occult Adventures_ 48).
 
 This ability replaces unshakable.
 

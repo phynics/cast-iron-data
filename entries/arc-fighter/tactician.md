@@ -64,19 +64,19 @@ every four levels after 2nd level (to a maximum of +5 at 18th level). This abili
 
 ## Tactician (Ex) {#tactician}
 
-At 5th level, a tactician gains this ability as the [cavalier](ref/class/cavalier) class feature. He
-may use this ability once per day at 5th level, plus one additional time for every five levels after
-5th (to a maximum of four times at 20th level). If the tactician also has cavalier levels, these
-levels stack for determining the number of uses per day, and he can take the better progression.
-This ability replaces weapon training 1.
+At 5th level, a tactician gains this ability as the [cavalier](ref/class/cavalier) class feature
+(_Advanced Player's Guide_ 33). He may use this ability once per day at 5th level, plus one
+additional time for every five levels after 5th (to a maximum of four times at 20th level). If the
+tactician also has cavalier levels, these levels stack for determining the number of uses per day,
+and he can take the better progression. This ability replaces weapon training 1.
 
 ## Cooperative Combatant (Ex) {#cooperative-combatant}
 
-At 11th level, when a tactician uses the [aid another](ref/rule/aid-another-2) special attack, he
-may affect one additional ally per point of Intelligence bonus. For each ally that a tactician aids,
-he can pick whether to grant that ally the +2 bonus on its next attack against the opponent or the
-+2 bonus to AC against the opponent's next attack on that ally, and can grant different allies
-different bonuses. This ability replaces armor training 3.
+At 11th level, when a tactician uses the [aid another](ref/rule/aid-another-2) special attack (_Core
+Rulebook_ 197), he may affect one additional ally per point of Intelligence bonus. For each ally
+that a tactician aids, he can pick whether to grant that ally the +2 bonus on its next attack
+against the opponent or the +2 bonus to AC against the opponent's next attack on that ally, and can
+grant different allies different bonuses. This ability replaces armor training 3.
 
 ## Battle Insight (Ex) {#battle-insight}
 

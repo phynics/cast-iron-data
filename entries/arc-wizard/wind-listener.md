@@ -65,9 +65,9 @@ At 10th level, the wind listener gains the ability to become airy and translucen
 action, gaining DR 10/magic and the effects of
 _[greater invisibility](ref/spell/invisibility-greater)_ for a number of rounds per day equal to his
 level. These rounds need not be consecutive. Like the
-[natural invisibility](ref/umr/natural-invisibility) universal monster ability, this ability is not
-subject to _[invisibility purge](ref/spell/invisibility-purge)_. This ability replaces the bonus
-feat gained at 10th level.
+[natural invisibility](ref/umr/natural-invisibility) universal monster ability (_Bestiary 2_ 299),
+this ability is not subject to _[invisibility purge](ref/spell/invisibility-purge)_. This ability
+replaces the bonus feat gained at 10th level.
 
 ## Listening to the Wind (Sp) {#listening-to-the-wind}
 

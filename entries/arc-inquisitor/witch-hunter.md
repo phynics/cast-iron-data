@@ -60,11 +60,11 @@ At 6th level, the witch hunter learns how to sense unique spell signatures, and 
 of a cast spell or spell effect cast back to its source. Once per day, when the witch hunter comes
 into contact with or is exposed to a spell effect or a magic item, she can spend a full-round action
 to examine the spell effect or magic item, and then gains the effect of a
-_[locate creature](ref/spell/locate-creature)_ spell. She can do this even if the spell effect was
-instantaneous, but must start her examination within 1 round after she experienced the spell's
-effect. Instead of locating a known creature, the witch hunter locates the caster of the spell
-effect or magic item she examined. Doing so does not allow the witch hunter to gain any intelligence
-about the spellcaster other than its location. This ability replaces track.
+_[locate creature](ref/spell/locate-creature)_ spell (_Core Rulebook_ 305). She can do this even if
+the spell effect was instantaneous, but must start her examination within 1 round after she
+experienced the spell's effect. Instead of locating a known creature, the witch hunter locates the
+caster of the spell effect or magic item she examined. Doing so does not allow the witch hunter to
+gain any intelligence about the spellcaster other than its location. This ability replaces track.
 
 ## Witch's Bane Judgment (Ex) {#witch-s-bane-judgment}
 

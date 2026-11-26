@@ -101,10 +101,10 @@ This replaces the bonus feat gained at 4th level.
 
 ## Trapsmith {#trapsmith}
 
-At 5th level, a commando can learn how to create one ranger trap in place of gaining the next level
-of gun training. A commando can use a known trap a number of times per day equal to her Wisdom bonus
-(minimum 1). The DC for a commando's trap is equal to 10 + half her commando level + her Wisdom
-bonus, and it lasts 1 day per 2 levels she has.
+At 5th level, a commando can learn how to create one ranger trap (_Pathfinder RPG Ultimate Magic_
+64) in place of gaining the next level of gun training. A commando can use a known trap a number of
+times per day equal to her Wisdom bonus (minimum 1). The DC for a commando's trap is equal to 10 +
+half her commando level + her Wisdom bonus, and it lasts 1 day per 2 levels she has.
 
 A commando can set only extraordinary ranger traps with this ability; as with extraordinary ranger
 traps, the trap DC for these traps has a -2 penalty.

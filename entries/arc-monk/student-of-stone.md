@@ -70,8 +70,8 @@ ability replaces high jump.
 ## Body of Stone (Ex) {#body-of-stone}
 
 At 9th level, a student of stone gains the benefits of the
-_[light fortification](ref/magic-enh/fortification-light)_ armor property. This ability replaces
-improved evasion.
+_[light fortification](ref/magic-enh/fortification-light)_ armor property (_Core Rulebook_ 463).
+This ability replaces improved evasion.
 
 ## Soul of Stone (Su) {#soul-of-stone}
 

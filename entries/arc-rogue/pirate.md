@@ -35,8 +35,8 @@ life upon the waves, plundering ships and shorelines as suits her whim.
 ## Sea Legs (Ex) {#sea-legs}
 
 At 1st level, a pirate becomes adept at moving on ships, boats, and similar vessels. She gains the
-[Sea Legs](ref/feat/sea-legs) feat as a bonus feat, even if she does not meet the prerequisites.
-This ability replaces trapfinding.
+[Sea Legs](ref/feat/sea-legs) feat (page 117) as a bonus feat, even if she does not meet the
+prerequisites. This ability replaces trapfinding.
 
 ## Swinging Reposition (Ex) {#swinging-reposition}
 

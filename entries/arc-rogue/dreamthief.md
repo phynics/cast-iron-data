@@ -55,11 +55,11 @@ This alters the rogue's class skills.
 ## Dreamshard Focus (Su) {#dreamshard-focus}
 
 At 1st level, a dreamthief selects an [emotional focus](ref/ability/emotional-focus) from among
-those available to a spiritualist's phantom. She gains the abilities granted by that emotional focus
-(with the exception of the focus determining her good saving throws—she retains the typical rogue
-saves). For each of the two skills associated with that emotional focus, a dreamthief gains ranks in
-that skill equal to her rogue level; this does not allow her ranks in these skills to exceed her Hit
-Dice.
+those available to a spiritualist's phantom (_Pathfinder RPG Occult Adventures_ 80). She gains the
+abilities granted by that emotional focus (with the exception of the focus determining her good
+saving throws—she retains the typical rogue saves). For each of the two skills associated with that
+emotional focus, a dreamthief gains ranks in that skill equal to her rogue level; this does not
+allow her ranks in these skills to exceed her Hit Dice.
 
 A dreamthief is considered to be both a phantom and a spiritualist for the purpose of emotional
 focus abilities whose effect references both a phantom and a spiritualist, such as dutiful strike,
@@ -84,9 +84,9 @@ This replaces trap sense.
 ## Soothe Dreaming (Su) {#soothe-dreaming}
 
 At 4th level, a dreamthief can steal negative emotions, freeing allies from harmful conditions. This
-acts as the [mesmerist's](ref/class/mesmerist) touch treatment ability, treating her rogue level as
-her mesmerist level; a dreamthief can use this ability once per day for every 3 rogue levels she
-has.
+acts as the [mesmerist's](ref/class/mesmerist) touch treatment ability (_Occult Adventures_ 43),
+treating her rogue level as her mesmerist level; a dreamthief can use this ability once per day for
+every 3 rogue levels she has.
 
 This replaces uncanny dodge.
 

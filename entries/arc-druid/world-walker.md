@@ -36,14 +36,15 @@ to be gained from mastering those mysteries.
 ## Favored Terrain (Ex) {#favored-terrain}
 
 At 3rd level, the world walker gains the ranger's [favored terrain](ref/ability/favored-terrain)
-ability. She treats her druid level as her ranger level for this ability. If she has levels in both
-classes, both class's levels stack for determining the effect of this ability. This ability replaces
-trackless step and resist nature's lure.
+ability (_Core Rulebook_ 65). She treats her druid level as her ranger level for this ability. If
+she has levels in both classes, both class's levels stack for determining the effect of this
+ability. This ability replaces trackless step and resist nature's lure.
 
 ## Path of Trees (Su) {#path-of-trees}
 
 At 9th level, once a day, a wanderer can step within a tree and then teleport from that tree to
-another one in a manner similar to the _[tree stride](ref/spell/tree-stride)_ spell. She gains an
-extra use of this ability each day at 12th level, and a third use of this ability at 15th level.
-Furthermore, a world walker of 13th level or higher can use this ability to teleport to any other
-tree of its type up to 100 miles away. This ability replaces both venom immunity and timeless body.
+another one in a manner similar to the _[tree stride](ref/spell/tree-stride)_ spell (_Core Rulebook_
+362). She gains an extra use of this ability each day at 12th level, and a third use of this ability
+at 15th level. Furthermore, a world walker of 13th level or higher can use this ability to teleport
+to any other tree of its type up to 100 miles away. This ability replaces both venom immunity and
+timeless body.

@@ -60,7 +60,7 @@ ability replaces weapon training 1 and 3, and armor mastery.
 
 At 9th level, an armor master can use his armor to shield critical areas from injury. He treats any
 armor he wears as if it had the _[light fortification](ref/magic-enh/fortification-light)_ special
-ability. At 13th level, his armor gains the
+ability (_Core Rulebook_ 463). At 13th level, his armor gains the
 _[moderate fortification](ref/magic-enh/fortification-moderate)_ special ability. This fortification
 does not stack in any way with armor that has these special abilities. In these cases the armor
 master takes the better of the two fortifications. This ability replaces weapon training 2 and 4.

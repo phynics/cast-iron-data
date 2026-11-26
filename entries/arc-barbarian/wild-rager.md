@@ -38,10 +38,10 @@ A wild rager's rage functions as normal, except that when she reduces a creature
 points, she must attempt a Will save (DC 10 + 1/2 the barbarian's level + the barbarian's
 Constitution modifier) or become confused. For the remainder of her current turn, she attacks the
 nearest creature other than herself. On the following round, refer to the
-_[confusion](ref/spell/confusion)_ spell to determine her actions. At the end of this round, and
-each round thereafter, she can attempt a new saving throw to end the _confusion_ effect. The rounds
-during which she is confused do not count against the rounds she has spent raging that day, but she
-cannot end her rage voluntarily, nor can she use rage powers while confused.
+_[confusion](ref/spell/confusion)_ spell (_Core Rulebook_ 258) to determine her actions. At the end
+of this round, and each round thereafter, she can attempt a new saving throw to end the _confusion_
+effect. The rounds during which she is confused do not count against the rounds she has spent raging
+that day, but she cannot end her rage voluntarily, nor can she use rage powers while confused.
 
 ## Wild Fighting (Ex) {#wild-fighting}
 

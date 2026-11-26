@@ -13,11 +13,11 @@ Instead of the normal arcane pool amount, the bladebound magus's arcane pool has
 [[edit]]
 entry = "ref/arc-magus/bladebound"
 anchor = "black-blade-ability-descriptions"
-note = 'hand-written from print (ruling 18, Ultimate Magic pp. 47-48): the paragraph is split by Table 1–3, which is written as a Markdown table after it'
+note = 'hand-written from print (ruling 18, Ultimate Magic pp. 47-48): the paragraph is split by Table 1–3, which is written as a Markdown table after it, under its printed title on a bold line (ruling 44; print sets the dash of the title as an em dash, the book writes every other table number with an en dash, ruling 9)'
 text = '''
 A _black blade_ has special abilities (or imparts abilities to its wielder) depending on the wielder's magus level. The abilities are cumulative. A _black blade_ normally refuses to use any of its abilities when wielded by anyone other than its magus, and acts as a masterwork weapon of its type.
 
-Table 1–3: Black Blade Progression
+**Table 1–3: Black Blade Progression**
 
 | Magus class level | Enhancement bonus | Int | Wis/Cha | Ego | Special |
 |---|---|---|---|---|---|

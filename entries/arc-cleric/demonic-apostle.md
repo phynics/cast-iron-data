@@ -34,15 +34,16 @@ following class features.
 ## Demonic Magic {#demonic-magic}
 
 A demonic apostle must choose to channel negative energy, and must select either the Chaos or Evil
-domain or the Demon subdomain as her sole domain.
+domain or the Demon subdomain (_Advanced Player's Guide_ 89) as her sole domain.
 
 ## Demonic Familiar {#demonic-familiar}
 
 At 1st level, a demonic apostle gains a [familiar](ref/ability/familiars) as a wizard equal to her
 cleric level, or if she already has a familiar, her cleric levels stack to determine the familiar's
-abilities. At 3rd level, her familiar gains the [fiendish](ref/template/fiendish) template. At 7th
-level, the demonic apostle exchanges her familiar for a [quasit](ref/monster/demon-quasit) without
-the need to take the [Improved Familiar](ref/feat/improved-familiar) feat.
+abilities. At 3rd level, her familiar gains the [fiendish](ref/template/fiendish) template
+(_Bestiary_ 294). At 7th level, the demonic apostle exchanges her familiar for a
+[quasit](ref/monster/demon-quasit) without the need to take the
+[Improved Familiar](ref/feat/improved-familiar) feat.
 
 ## Demonic Channel (Su) {#demonic-channel}
 

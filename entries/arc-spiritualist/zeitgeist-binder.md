@@ -40,11 +40,12 @@ personifies a community.
 
 A zeitgeist binder's phantom is called a zeitgeist. In addition to an emotion, a zeitgeist is tied
 to one [aspect of its settlement](ref/rule/the-settlement-stat-block): corruption, crime, economy,
-law, lore, or society. In order to select an aspect, that aspect of the settlement must have a
-positive modifier (for instance, a settlement with a negative lore modifier or a modifier of 0 could
-not manifest a lore zeitgeist). Although a zeitgeist personifies a single chosen settlement, a
-zeitgeist binder can call it anywhere, but outside the bounds of its settlement, it loses the
-benefits of its settlement aspect and settlement avatar abilities.
+law, lore, or society (_Pathfinder RPG GameMastery Guide_ 204). In order to select an aspect, that
+aspect of the settlement must have a positive modifier (for instance, a settlement with a negative
+lore modifier or a modifier of 0 could not manifest a lore zeitgeist). Although a zeitgeist
+personifies a single chosen settlement, a zeitgeist binder can call it anywhere, but outside the
+bounds of its settlement, it loses the benefits of its settlement aspect and settlement avatar
+abilities.
 
 This ability alters phantom.
 
@@ -52,8 +53,9 @@ This ability alters phantom.
 
 A zeitgeist binder gains a number of [spell-like abilities](ref/umr/spell-like-abilities) tied to
 her zeitgeist's settlement aspect. Other than being based on Wisdom instead of Charisma, these work
-the same way as the [fractured mind's](ref/arc-spiritualist/fractured-mind) emotional power ability.
-The _[masterwork transformation](ref/spell/masterwork-transformation)_ spell-like ability does not
+the same way as the [fractured mind's](ref/arc-spiritualist/fractured-mind) emotional power ability
+(_Pathfinder RPG_ _Occult Adventures_ 109). The
+_[masterwork transformation](ref/spell/masterwork-transformation)_ spell-like ability does not
 ignore the material component.
 
 ### Corruption {#corruption}

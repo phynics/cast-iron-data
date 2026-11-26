@@ -98,7 +98,7 @@ no armor to benefit from this ability.
 
 This ability replaces AC bonus.
 
-### Monk Moves {#monk-moves-table}
+**Monk Moves**
 
 |Monk Ability|Level Gained|
 | --- | --- |

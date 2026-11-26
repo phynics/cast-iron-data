@@ -48,11 +48,11 @@ rather than a square. This ability replaces the rogue talent gained at 4th level
 
 ## Discovery (Su) {#discovery}
 
-At 10th level, an underground chemist can select one of the following alchemist discoveries in place
-of a rogue talent: [concentrate poison](ref/discovery/concentrate-poison),
-[dilution](ref/discovery/dilution), [enhance potion](ref/discovery/enhance-potion),
-[extend potion](ref/discovery/extend-potion), [mummification](ref/discovery/mummification),
-[nauseating flesh](ref/discovery/nauseating-flesh),
+At 10th level, an underground chemist can select one of the following alchemist discoveries
+(_Advanced Player's Guide_ 28) in place of a rogue talent:
+[concentrate poison](ref/discovery/concentrate-poison), [dilution](ref/discovery/dilution),
+[enhance potion](ref/discovery/enhance-potion), [extend potion](ref/discovery/extend-potion),
+[mummification](ref/discovery/mummification), [nauseating flesh](ref/discovery/nauseating-flesh),
 [poison conversion](ref/discovery/poison-conversion),
 [preserve organs](ref/discovery/preserve-organs),
 [spontaneous healing](ref/discovery/spontaneous-healing), or

@@ -67,8 +67,9 @@ effects. This ability otherwise functions as and replaces [bane](ref/spell/bane)
 ## Aura of Repetition (Su) {#aura-of-repetition}
 
 At 8th level, once per day while using her judgment, an exarch can project an aura of repetition, as
-the Toil subdomain power. If the exarch takes Artifice (Toil) as her domain, the save DC of her aura
-increases by 2 but its duration does not increase. This ability replaces her second judgment.
+the Toil subdomain power (_Advanced Player's Guide_ 97). If the exarch takes Artifice (Toil) as her
+domain, the save DC of her aura increases by 2 but its duration does not increase. This ability
+replaces her second judgment.
 
 ## Double Jeopardy (Su) {#double-jeopardy}
 

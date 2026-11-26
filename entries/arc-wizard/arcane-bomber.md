@@ -35,12 +35,13 @@ considerable magical power.
 ## Bomb (Su) {#bomb}
 
 At 1st level, the arcane bomber gains an ability nearly identical to the
-[alchemist's](ref/class/alchemist) bomb ability. Unlike the alchemist, at 1st level, the arcane
-bomber chooses one type of energy from the following list: acid, cold, fire, and electricity. He can
-throw bombs of that type, but cannot modify them with discoveries. This ability stacks with the
-alchemist bomb ability to determine the level of bomb damage, but an arcane bomber that becomes an
-alchemist does not gain that class's bomb ability, nor does an alchemist that becomes an arcane
-bomber gain this bomb ability. This ability replaces arcane bond.
+[alchemist's](ref/class/alchemist) bomb ability (_Advanced Player's Guide_ 28). Unlike the
+alchemist, at 1st level, the arcane bomber chooses one type of energy from the following list: acid,
+cold, fire, and electricity. He can throw bombs of that type, but cannot modify them with
+discoveries. This ability stacks with the alchemist bomb ability to determine the level of bomb
+damage, but an arcane bomber that becomes an alchemist does not gain that class's bomb ability, nor
+does an alchemist that becomes an arcane bomber gain this bomb ability. This ability replaces arcane
+bond.
 
 ## Spellblast Bombs (Su) {#spellblast-bombs}
 

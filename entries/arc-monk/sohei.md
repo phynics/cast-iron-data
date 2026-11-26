@@ -85,8 +85,9 @@ turn. This ability replaces slow fall and abundant step.
 ## Weapon Training (Ex) {#weapon-training}
 
 At 6th level, a sohei gains weapon training in one of the following
-[weapon groups](ref/ability/weapon-groups), as the [fighter](ref/class/fighter) class feature: bows,
-crossbows, monk weapons, polearms, spears, or thrown weapons. He may select an additional group of
-weapons for every six levels after 6th, to a maximum of three at 18th level. A sohei may use flurry
-of blows and ki strike with any weapon in which he has weapon training. This ability replaces purity
-of body, diamond body, quivering palm, timeless body, and tongue of the sun and moon.
+[weapon groups](ref/ability/weapon-groups), as the [fighter](ref/class/fighter) class feature (_Core
+Rulebook_ 56): bows, crossbows, monk weapons, polearms, spears, or thrown weapons. He may select an
+additional group of weapons for every six levels after 6th, to a maximum of three at 18th level. A
+sohei may use flurry of blows and ki strike with any weapon in which he has weapon training. This
+ability replaces purity of body, diamond body, quivering palm, timeless body, and tongue of the sun
+and moon.

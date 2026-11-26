@@ -38,11 +38,11 @@ trading those secrets for personal gain.
 ## Inspiration (Ex) {#inspiration}
 
 At 1st level, a snoop gains an ability similar to the [investigator's](ref/class/investigator)
-inspiration class ability. The snoop begins with an inspiration pool equal to
-[half](ref/misc/fractions-and-rounding) her rogue level plus her Intelligence modifier (minimum of
-1). Unlike an investigator, a snoop can only use inspiration on skill checks, not on attack rolls or
-saving throws. This ability is otherwise identical to the investigator class ability of the same
-name.
+inspiration class ability (_Pathfinder RPG Advanced Class Guide_ 31). The snoop begins with an
+inspiration pool equal to [half](ref/misc/fractions-and-rounding) her rogue level plus her
+Intelligence modifier (minimum of 1). Unlike an investigator, a snoop can only use inspiration on
+skill checks, not on attack rolls or saving throws. This ability is otherwise identical to the
+investigator class ability of the same name.
 
 This ability replaces trapfinding and evasion.
 

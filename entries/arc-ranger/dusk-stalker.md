@@ -59,5 +59,5 @@ a mind-affecting fear effect. This ability replaces hunter's bond.
 
 ## Dark Sight (Su) {#dark-sight}
 
-At 12th level, a dusk stalker gains the [see in darkness](ref/umr/see-in-darkness) ability. This
-ability replaces camouflage.
+At 12th level, a dusk stalker gains the [see in darkness](ref/umr/see-in-darkness) ability
+(_Bestiary 2_ 301). This ability replaces camouflage.

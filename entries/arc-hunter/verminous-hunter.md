@@ -38,9 +38,9 @@ mantis instead of the snake, or the moth instead of the owl.
 
 ## Vermin Companion (Ex) {#vermin-companion}
 
-At 1st level, a verminous hunter must choose a vermin companion instead of an animal companion. This
-ability alters animal companion. The hunter tactics class ability allows a verminous hunter to grant
-her teamwork feats to a mindless vermin companion.
+At 1st level, a verminous hunter must choose a vermin companion instead of an animal companion
+(_Ultimate Magic_ 36). This ability alters animal companion. The hunter tactics class ability allows
+a verminous hunter to grant her teamwork feats to a mindless vermin companion.
 
 ## Vermin Empathy (Ex) {#vermin-empathy}
 

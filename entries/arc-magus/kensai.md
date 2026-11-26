@@ -60,8 +60,8 @@ of that level.
 ## Canny Defense (Ex) {#canny-defense}
 
 At 1st level, when a kensai is wielding his chosen weapon, he gains the canny defense ability. This
-is identical to the [duelist prestige class](ref/pclass/duelist) ability of the same name, save that
-his chosen weapon may be of any type.
+is identical to the [duelist prestige class](ref/pclass/duelist) ability of the same name (_Core
+Rulebook_ 382), save that his chosen weapon may be of any type.
 
 ## Weapon Focus (Ex) {#weapon-focus}
 

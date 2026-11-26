@@ -78,7 +78,7 @@ wielder's magus level. The abilities are cumulative. A _black blade_ normally re
 its abilities when wielded by anyone other than its magus, and acts as a
 [masterwork weapon](ref/rule/masterwork-weapons) of its type.
 
-Table 1–3: Black Blade Progression
+**Table 1–3: Black Blade Progression**
 
 |Magus class level|Enhancement bonus|Int|Wis/Cha|Ego|Special|
 | --- | --- | --- | --- | --- | --- |
