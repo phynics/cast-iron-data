@@ -5429,6 +5429,9 @@ def self_test() -> int:
     eq(_close_italics("(" + I_OPEN + "Core Rulebook" + I_CLOSE + " 5)"), "", "a citation with both marks leaves none")
     eq(len(dead_ocr_patterns()) > 0, True, "with no hits every OCR pattern is dead")
     BULLETS["on"] = ITALIC_FIRST["on"] = CITE_EXT["on"] = False
+    eq(_close_italics("(Pathfinder RPG Ultimate Magic" + I_CLOSE + " 230)"), I_CLOSE, "every book restores the italic that a dropped citation shared with the name")
+    eq(len(NO_LEVEL_ONE) > 0 and ("ref/arc-gunslinger/bushwhacker", "craven-deeds") in NO_LEVEL_ONE, True, "ruling 48: a part of a feature has no level from the trade")
+    eq(LEVEL_FROM_PRINT[("ref/arc-swashbuckler/wildstrider", "subterfuge")][0], 1, "a deed that replaces a 1st-level deed has level 1")
     eq(len(re.findall(CITE_BOOK, "x (Inner Sea World Guide 286) y")), 0, "the other books do not cite the Inner Sea World Guide")
     PAGE_GEOMETRY["on"] = True
     eq(page_geometry(geo, 1), (432, (108, 440)), "page geometry: the right column starts at 440")
