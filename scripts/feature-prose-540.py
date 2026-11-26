@@ -620,7 +620,7 @@ def finish_text(s: str, vocab: set[str]) -> str:
     s = re.sub(r"(?<=\w) – (?=\d)", " - ", s)             # a minus operator ("druid level – 2")
     s = fix_ligatures(s, vocab)
     s = fix_hyphens(s, vocab)
-    s = re.sub("(?<=[A-Za-z0-9)_])\u2014 +(?=\\S)", "\u2014", s)   # a line that ends in an em dash joins the next one without a blank ("DR 5/\u2014 against" keeps its blank)
+    s = re.sub("(?<=[A-Za-z0-9)_" + I_CLOSE + "])\u2014 +(?=\\S)", "\u2014", s)   # a line that ends in an em dash joins the next one without a blank ("DR 5/\u2014 against" keeps its blank); an italic label ("3rd\u2014") too
     s = re.sub(r"(?<=[A-Za-z0-9" + I_CLOSE + r"]) +(?=[,;])", "", s)          # a superscript at a line end leaves "resistance , create"
     # an italic run of marks only (", " or "." between two words) is plain text: the period of "possession (see page 181)." is not italic
     s = re.sub(I_OPEN + r"([\s,.;:!?]+)" + I_CLOSE, r"\1", s)
@@ -1207,6 +1207,7 @@ CHAPTER_TITLES = {"on": False}
 MARGIN_CAPTIONS = {"on": False}
 ITALIC_FIRST = {"on": False}            # the Campaign Setting books: the first letter of an italic word that the layer set apart ("s" + "un orchid elixir")
 LOWERCASE_CONTINUES = {"on": False}      # the Campaign Setting books: no paragraph starts in lower case
+LIST_CONTINUES = {"on": False}  # a line of a list item that print wraps without a bullet continues the item (Potions and Poisons: the bullets hang)
 BULLETS = {"on": False}         # a line that starts with a bullet starts a list item (Inner Sea Intrigue "Tinkering")
 NO_STYLE = {"on": False}        # Inner Sea Combat: the text layer has no bold or italic runs; a head is told by its shape
 CAPTIONS = {"on": False}        # the same books: a title that repeats the archetype's own name in large type is an illustration's caption
@@ -2655,7 +2656,7 @@ def join_wrapped(raw_paras: list[str], vocab: set[str]) -> list[str]:
         if item:
             paras.append(s)
             continue
-        if paras and not paras[-1].startswith("- ") and not re.search(r"(?:[.!?:]|[.!?]\))\s*$", paras[-1].rstrip().removesuffix(I_CLOSE)):      # a semicolon ends no paragraph
+        if paras and (LIST_CONTINUES["on"] or not paras[-1].startswith("- ")) and not re.search(r"(?:[.!?:]|[.!?]\))\s*$", paras[-1].rstrip().removesuffix(I_CLOSE)):      # a semicolon ends no paragraph
             gap = "" if re.search(r"[A-Za-z0-9]/$", paras[-1].rstrip()) else " "      # a slash at a line end joins the next word ("DR 5/" "cold iron")
             joined = fix_hyphens(paras[-1].rstrip() + gap + s, vocab)
             joined = re.sub(I_CLOSE + r"\s+" + I_OPEN + r"(?=[,;.)])", "", joined)      # an italic run that a line end cut
@@ -2714,6 +2715,10 @@ EDGE_CITATIONS = {
     ("ref/arc-rogue/heister", "95–96"): True,        # "Escape Artist check to move through a tight space where her head fits ..."
     ("ref/arc-bard/prankster", "322"): True,         # "steal an object ... This functions as the steal combat maneuver": the link is on the first mention
     ("ref/arc-inquisitor/secret-seeker", "196–197"): False,   # [read aura] goes to Perception; the citation names the occult skill unlocks
+    # review of #342 (ruling 26): the two words of the rule that cut each way here
+    ("ref/arc-witch/havocker", "14"): True,          # "[kineticist] element (Occult Adventures 14)": the class link makes the rule keep a citation that names an ability of the class; the link names the element's owner and the corpus links the element, so it goes
+    ("ref/arc-medium/uda-wendo", "11"): True,        # "[kineticist] ... (Occult Adventures 11)": the same case
+    ("ref/arc-magus/spell-trapper", "64"): False,    # "ranger traps (Ultimate Magic 64)": "traps" links to the rule of traps, which the second-mention rule takes for the name before the parenthesis; ranger traps are another thing, and no link names them
 }
 
 
@@ -4278,6 +4283,12 @@ def finalize(e: Entry, res: dict, class_cache: dict | None = None) -> dict:
             "opening_from_print": opening_from_print}
 
 
+# An entry whose `[[sources]]` page row names a page other than the one that print has the archetype on (the page rows follow print): cited page,
+# printed page. `--compare` holds an entry that cites a wrong page and is not listed; `--write` puts the printed page in the row.
+PAGE_FIXES = {
+    "ref/arc-witch/invoker": ("14", "20"),          # Haunted Heroes Handbook: the Invoker is printed on page 20 (owner answer on #342)
+}
+
 # The Player Companions that set their titles in small capitals and give each archetype no box of its own (batches 6 to 9).
 PLAYER_COMPANIONS = ("blood-of-the-ancients", "wilderness-origins", "legacy-of-the-first-world", "people-of-the-wastes", "healers-handbook")
 
@@ -4293,6 +4304,7 @@ MISPRINTS.extend([
      "the major hex is retribution (the corpus links it); print makes the name plural beside \"infected wounds\" and \"nightmares\" (Magic Tactics Toolbox p. 23)"),
     ("ref/arc-shifter/wild-effigy", "The enahncement increases", "The enhancement increases", "a transposition of letters (Construct Handbook p. 13)"),
     ("ref/arc-rogue/construct-saboteur", "can user her arcane prowess", "can use her arcane prowess", "a stray letter (Construct Handbook p. 12)"),
+    ("ref/arc-druid/mantella", "the mantilla can never", "the mantella can never", "the name of the archetype, misspelled once in print (Potions and Poisons p. 4); the meaning is certain (owner ruling 9)"),
 ])
 TRADE_RENAMES.update({
     ("ref/arc-alchemist/dimensional-excavator", "4th-level discovery"): "Discovery gained at 4th level",
@@ -4323,6 +4335,21 @@ for _eid in (        # "This alters the rogue's class skills." (the Class Skills
         "ref/arc-magus/spell-trapper"):
     TRADE_ADDITIONS.setdefault(_eid, []).append({"alters": "Class skills"})
 TRADE_ADDITIONS.setdefault("ref/arc-slayer/spiritslayer", []).append({"alters": "Sneak attack", "feature": "sneak-attack"})    # "This talent alters the spiritslayer's sneak attack"
+# "A cruorchymist doesn't gain the poison use, poison resistance, poison immunity, or swift poisoning class features." (Diminished Poisoning, Construct
+# Handbook p. 12): a trade stated in the prose of its own feature (owner ruling 36); one trade each, `by` that feature (poison immunity is gained with poison resistance at 10th level, as the other alchemist archetypes store it)
+TRADE_ADDITIONS.setdefault("ref/arc-alchemist/cruorchymist", []).extend(
+    [{"replaces": "Poison use", "feature": "poison-use"}, {"replaces": "Poison resistance", "feature": "poison-resistance"},
+     {"replaces": "Poison immunity", "feature": "poison-resistance"}, {"replaces": "Swift poisoning", "feature": "swift-poisoning"}])
+for _name in ("Poison use", "Poison resistance", "Poison immunity", "Swift poisoning"):
+    TRADE_PROSE_BY[("ref/arc-alchemist/cruorchymist", _name)] = "diminished-poisoning"
+TRADE_LEVELS[("ref/arc-alchemist/cruorchymist", "Poison resistance")] = [2, 5, 8]
+TRADE_LEVELS[("ref/arc-alchemist/cruorchymist", "Poison immunity")] = [10]
+# the levels that review of #342 read from the middle of a feature (owner rulings 4 and 51)
+LEVEL_FROM_PRINT.update({
+    ("ref/arc-bard/disciple-of-the-forked-tongue", "serpent-of-the-mind"): (2, "print says \"at 2nd level and every 4 levels thereafter\" (Potions and Poisons p. 7): the level is stated inside the sentence (ruling 4)"),
+    ("ref/arc-wizard/pact-wizard-hhh", "great-power-greater-expense"): (5, "print says \"At 5th level, the pact wizard chooses one oracle curse\" in its second sentence (Haunted Heroes Handbook p. 20)"),
+    ("ref/arc-druid/toxicologist", "toxic-shaper"): (8, "ruling 51: print says \"At 8th level\" in the feature itself; it wins over the 4th level at which the druid gains wild shape"),
+})
 
 
 def configure_book(book: str) -> None:
@@ -4332,6 +4359,8 @@ def configure_book(book: str) -> None:
     CHAPTER_END[0] = 47 if book == "inner-sea-combat" else 0
     LOWERCASE_CONTINUES["on"] = BULLETS["on"] = ITALIC_FIRST["on"] = CITE_EXT["on"] = LEAD_EXT["on"] = book in ("inner-sea-magic", "inner-sea-intrigue", "inner-sea-combat")
     OCR["on"] = NO_STYLE["on"] = book == "inner-sea-combat"
+    LIST_CONTINUES["on"] = book == "potions-and-poisons"
+    BULLETS["on"] = BULLETS["on"] or book == "potions-and-poisons"           # the Toxin Codexer's Modify Toxin prints bullet lists (ruling 45, review of #342)
     OUTER_TAB["on"] = book == "construct-handbook"
     PAGE_GEOMETRY["on"] = book in ("inner-sea-magic", "inner-sea-intrigue", "inner-sea-combat", "construct-handbook")
     MARGIN_CAPTIONS["on"] = CAPTIONS["on"] = book in ("inner-sea-magic", "inner-sea-intrigue", "inner-sea-combat")
@@ -4391,6 +4420,10 @@ def run_compare(args) -> int:
             if whole is None:
                 whole = read_blocks(bk, 1, top)
             section = find_section(whole, e.title, stops)
+            # a hold until the entry's page row is a decided data fix (`PAGE_FIXES`): the fallback found the title elsewhere (review of #342)
+            if section is not None and PAGE_FIXES.get(e.id) != (e.page, str(section[0].page)):
+                rows.append(entry_hold_row(e, f"the entry cites page {page}; the title is printed on page {section[0].page}"))
+                continue
         if section is None:
             rows.append(entry_hold_row(e, f"title not found near page {page}"))
             continue
@@ -4628,6 +4661,8 @@ def convert_text(e: Entry, prop: dict, rows: list[dict]) -> str:
         text = feature_text(f, status.get(f["anchor"], "print"))
         parts += [p for p in text.split("\n\n") if p.strip()]
     front = edit_front(e.front, feats, by, len(trades_of(e)), TRADE_ADDITIONS.get(e.id), dropped_trade_indices(e))
+    if e.id in PAGE_FIXES:
+        front = front.replace(f'page = "{PAGE_FIXES[e.id][0]}"', f'page = "{PAGE_FIXES[e.id][1]}"', 1)
     for (eid, old), anchor in TRADE_RELINKS.items():
         if eid == e.id:
             front = re.sub(r'^(\s*\{ \w+ = "' + re.escape(old) + r'", feature = ")[^"]*"', r"\g<1>" + anchor + '"', front, count=1, flags=re.M)
@@ -5228,6 +5263,7 @@ def self_test() -> int:
     text, _, notes = print_md(pf, [("alchemist's", "ref/class/alchemist")], set(), "ref/arc-gunslinger/gun-tank")
     eq(text, "(including the [alchemist's](ref/class/alchemist) bomb class ability). It works.", "ruling 26: a bare book citation goes, the link stays")
     eq(finish_text("gains DR 5/\u2014 against ranged attacks, 1st\u2014 _spell_", set()), "gains DR 5/\u2014 against ranged attacks, 1st\u2014_spell_", "an em dash joins the next line after a word, not after DR 5/")
+    eq(finish_text(I_OPEN + "3rd" + I_CLOSE + "\u2014 blue whinnis", set()), I_OPEN + "3rd" + I_CLOSE + "\u2014blue whinnis", "an em dash after an italic label joins the next line without a blank (review of #342)")
     # a mark in the middle of a line keeps the blank of its word space; before a comma it keeps none; at a line end the blank joins the line
     bk = Book({"1": 16}, {1: [(500, 108, 1, "the Lingering Performance", 137), (501, 245, 1, SUPERSCRIPT + " ", 17), (500, 263, 1, "feat, and", 50),
                               (520, 108, 1, "simulacrum", 60), (521, 170, 1, SUPERSCRIPT, 15), (520, 190, 1, ", then", 40),
@@ -5680,6 +5716,10 @@ def self_test() -> int:
     eq(join_wrapped(["At 2nd level:", "\u2022 The first item.", "\u2022 This ability replaces poison use."], set()),
        ["At 2nd level:", "- The first item.", "This ability replaces poison use."], "bullet items; a bullet before the trade sentence is no item")
     eq(join_wrapped(["\u2022 One without an end", "\u2022 Two."], set()), ["- One without an end", "- Two."], "bullet items do not merge")
+    LIST_CONTINUES["on"] = True
+    eq(join_wrapped(["\u2022 Grant a +2 bonus or impose a -2", "penalty on saving throws.", "\u2022 Two."], set()), ["- Grant a +2 bonus or impose a -2 penalty on saving throws.", "- Two."],
+       "a wrapped line of a list item continues it where print hangs its bullets")
+    LIST_CONTINUES["on"] = False
     eq(finish_text("the s" + I_OPEN + "un orchid elixir" + I_CLOSE + ", granting", set()), "the " + I_OPEN + "sun orchid elixir" + I_CLOSE + ", granting", "a split italic first letter")
     eq(len(re.findall(CITE_BOOK_X, "x (" + I_OPEN + "Ultimate" + I_CLOSE + " " + I_OPEN + "Intrigue" + I_CLOSE + " 142) y")), 1, "citation with split italic words")
     eq(len(re.findall(CITE_BOOK_X, "x (" + I_OPEN + "Ultimate Intrigue 102" + I_CLOSE + ") y")), 1, "citation whose italic holds the page")

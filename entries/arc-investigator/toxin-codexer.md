@@ -48,7 +48,7 @@ When a toxin codexer prepares his extracts, he can use his slots to prepare shor
 instead of extracts. The following poisons can be prepared into extract slots:
 
 _1st_—arsenic, giant wasp poison, medium spider venom; _2nd_—black adder venom, id moss, striped
-toadstool; _3rd_— blue whinnis, lich dust, sassone leaf residue; _4th_—dark reaver powder, purple
+toadstool; _3rd_—blue whinnis, lich dust, sassone leaf residue; _4th_—dark reaver powder, purple
 worm poison, third eye; _5th_—deathblade, hemlock, witch hunter's sword; _6th_—black lotus extract,
 dragon bile, king's sleep.
 
@@ -71,22 +71,32 @@ they still count as poison effects. A modified toxin becomes inert if not used w
 As a move action, the toxin codexer can expend one use of inspiration to apply one of the following
 effects to a poison in his possession, choosing either the benefit or the detriment when an effect
 has both options. These effects last for a number of rounds equal to the investigator's Intelligence
-modifier unless otherwise stated. • Grant a +2 alchemical bonus or impose a -2 alchemical penalty on
-saving throws against [exhaustion](ref/misc/exhausted), [fatigue](ref/misc/fatigued), and sleep
-effects. • Grant a +4 alchemical bonus or impose a -4 alchemical penalty on saving throws against
-effects with the pain descriptor.
+modifier unless otherwise stated.
 
-At 6th level, the toxin codexer can also choose from the following effects: • Affect a target so the
-first time she takes damage each round, she takes an additional 1d6 points of nonlethal damage. This
-is a pain effect. • Inflict or remove the fatigued condition.
+- Grant a +2 alchemical bonus or impose a -2 alchemical penalty on saving throws against
+  [exhaustion](ref/misc/exhausted), [fatigue](ref/misc/fatigued), and sleep effects.
 
-At 9th level, the toxin codexer can also choose from the following effects: • Deal 1 point of
-[bleed](ref/rule/bleed) damage or cure any ongoing bleed effects. • Cure one disease or poison whose
-save DC does not exceed that of the modified poison. This has no effect on magical curses, diseases,
-or poisons.
+- Grant a +4 alchemical bonus or impose a -4 alchemical penalty on saving throws against effects
+  with the pain descriptor.
 
-At 12th level, the toxin codexer can also choose from the following effects: • Cure one magical
-disease or poison whose save DC does not exceed that of the modified poison. • Bestow a 30% spell
-failure chance on a target.
+At 6th level, the toxin codexer can also choose from the following effects:
+
+- Affect a target so the first time she takes damage each round, she takes an additional 1d6 points
+  of nonlethal damage. This is a pain effect.
+
+- Inflict or remove the fatigued condition.
+
+At 9th level, the toxin codexer can also choose from the following effects:
+
+- Deal 1 point of [bleed](ref/rule/bleed) damage or cure any ongoing bleed effects.
+
+- Cure one disease or poison whose save DC does not exceed that of the modified poison. This has no
+  effect on magical curses, diseases, or poisons.
+
+At 12th level, the toxin codexer can also choose from the following effects:
+
+- Cure one magical disease or poison whose save DC does not exceed that of the modified poison.
+
+- Bestow a 30% spell failure chance on a target.
 
 This replaces keen recollection and trap sense.

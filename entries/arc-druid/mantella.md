@@ -33,7 +33,7 @@ personal biology. The mantella is an archetype available to grippli druids.
 ## Poison Affinity (Su) {#poison-affinity}
 
 At 4th level, if a form the mantella assumes with wild shape has any poison abilities, the mantella
-also gains those abilities. However, the mantilla can never use wild shape to take the form of an
+also gains those abilities. However, the mantella can never use wild shape to take the form of an
 elemental.
 
 This alters wild shape.

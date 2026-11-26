@@ -72,7 +72,7 @@ simultaneously, albeit with some potential side effects. As a full-round action,
 combine an extract with a potion in his possession. The concocter can then drink the mixture as a
 standard action. If he does not consume the mixture within 2 rounds of creating it, the mixture
 grows inert and both the extract and the potion are ruined. This ability cannot be used with a
-potion into which he has fused his mutagen using his _mutagenic mixology_ ability.
+potion into which he has fused his mutagen using his mutagenic mixology ability.
 
 The exact effects of drinking one of these mixtures are volatile and unpredictable. Each time the
 concocter drinks a mixture, roll on the following table to determine the result.

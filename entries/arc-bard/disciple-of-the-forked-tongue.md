@@ -20,7 +20,7 @@ features = [
   { anchor = "bardic-performance" },
   { anchor = "discordant-spiral", level = 1 },
   { anchor = "venomous-whispers", level = 9 },
-  { anchor = "serpent-of-the-mind" },
+  { anchor = "serpent-of-the-mind", level = 2 },
 ]
 trades = [
   { replaces = "Inspire courage", feature = "bardic-performance", power = "inspire courage", by = ["discordant-spiral"] },

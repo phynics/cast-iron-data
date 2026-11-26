@@ -12,7 +12,7 @@ relations = [
 ]
 [[sources]]
 publication = "haunted-heroes-handbook"
-page = "14"
+page = "20"
 
 [fields]
 kind = "archetype"

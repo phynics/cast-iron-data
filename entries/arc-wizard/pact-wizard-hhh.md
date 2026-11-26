@@ -19,7 +19,7 @@ kind = "archetype"
 features = [
   { anchor = "effortless-magic", level = 1 },
   { anchor = "patron-spells", level = 1 },
-  { anchor = "great-power-greater-expense" },
+  { anchor = "great-power-greater-expense", level = 5 },
 ]
 trades = [
   { replaces = "Scribe Scroll", feature = "scribe-scroll", by = ["patron-spells"] },

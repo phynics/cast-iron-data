@@ -20,7 +20,7 @@ features = [
   { anchor = "expanded-repertoire", level = 1 },
   { anchor = "natural-poison-lore", level = 2 },
   { anchor = "expert-poisoner", level = 4 },
-  { anchor = "toxic-shaper" },
+  { anchor = "toxic-shaper", level = 8 },
 ]
 trades = [
   { replaces = "Spontaneous casting", feature = "spontaneous-casting", by = ["expanded-repertoire"] },

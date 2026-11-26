@@ -50,12 +50,12 @@ This modifies the magus arcana ability.
 ## Spell Traps (Sp) {#spell-traps}
 
 At 4th level, a spell trapper learns how to craft magical [traps](ref/rule/traps) in exchange for
-the use of spell slots. These traps work as ranger traps, except they always count as
-[spell-like abilities](ref/umr/spell-like-abilities). A spell trap is always considered magical, and
-is treated as a spell with a spell level equal to 1/3 the spell trapper's class level. A magical
-trap lasts only 1 hour per level or until triggered, whichever comes first. A trap's DC decreases by
-1 for each full hour that passes after it is set. Upon gaining this ability, the spell trapper
-automatically knows the [snare trap](ref/rangertrap/snare-trap).
+the use of spell slots. These traps work as ranger traps (_Ultimate Magic_ 64), except they always
+count as [spell-like abilities](ref/umr/spell-like-abilities). A spell trap is always considered
+magical, and is treated as a spell with a spell level equal to 1/3 the spell trapper's class level.
+A magical trap lasts only 1 hour per level or until triggered, whichever comes first. A trap's DC
+decreases by 1 for each full hour that passes after it is set. Upon gaining this ability, the spell
+trapper automatically knows the [snare trap](ref/rangertrap/snare-trap).
 
 Setting a spell trap is a full-round action that provokes attacks of opportunity. If attacked during
 the course of conjuring a trap, the spell trapper must attempt a

@@ -25,6 +25,10 @@ features = [
 trades = [
   { replaces = "Mutagen", feature = "mutagen", by = ["blood-familiar"] },
   { replaces = "Brew Potion", feature = "brew-potion", by = ["blood-treatment"] },
+  { replaces = "Poison use", feature = "poison-use", by = ["diminished-poisoning"] },
+  { replaces = "Poison resistance", feature = "poison-resistance", levels = [2, 5, 8], by = ["diminished-poisoning"] },
+  { replaces = "Poison immunity", feature = "poison-resistance", levels = [10], by = ["diminished-poisoning"] },
+  { replaces = "Swift poisoning", feature = "swift-poisoning", by = ["diminished-poisoning"] },
 ]
 +++
 

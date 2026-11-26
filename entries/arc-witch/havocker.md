@@ -37,13 +37,13 @@ patrons, some are instead taught the secrets of harnessing raw, destructive elem
 
 A havocker's patron grants her the ability to devastate her foes with a specific
 [element](ref/ability/elements). At 1st level, rather than selecting a standard patron and gaining
-patron spells, the witch selects a specific [kineticist](ref/class/kineticist) element (_Pathfinder
-RPG Occult Adventures_ 14), which represents the shadowy forces from which she gains her familiar
-and class powers. The havocker gains the elemental focus and kinetic blast class features with the
-associated element, using her witch level as her effective kineticist level. If the havocker takes
-levels in another class that grants an elemental focus, the elemental focuses must be the same type,
-even if that means that the elemental focus of one of the classes must change. Subject to GM
-discretion, the havocker can change her former elemental focus to make them conform.
+patron spells, the witch selects a specific [kineticist](ref/class/kineticist) element, which
+represents the shadowy forces from which she gains her familiar and class powers. The havocker gains
+the elemental focus and kinetic blast class features with the associated element, using her witch
+level as her effective kineticist level. If the havocker takes levels in another class that grants
+an elemental focus, the elemental focuses must be the same type, even if that means that the
+elemental focus of one of the classes must change. Subject to GM discretion, the havocker can change
+her former elemental focus to make them conform.
 
 This ability alters the witch's familiar and replaces the witch's 1st-level hex.
 

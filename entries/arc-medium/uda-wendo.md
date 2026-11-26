@@ -51,12 +51,12 @@ Rather than channeling spirits, an uda [wendo](ref/faith/wendo) channels the wen
 entities that walk among mortals. This functions like channeling a spirit, except instead of
 requiring a favored location to channel a wendo, an uda wendo must offer the wendo a sacrifice worth
 at least 50 gp per Hit Die the uda wendo has. Alternatively, the uda wendo can instead accept 1
-point of burn, as per the [kineticist](ref/class/kineticist) class ability (_Pathfinder RPG Occult
-Adventures_ 11), instead of sacrificing material wealth. While channeling a wendo, the uda wendo
-gains the 1st-level domain power of one [druid animal or terrain domain](ref/ability/druid-domains),
-or the 1st-level domain power of one of the following cleric domains: [Air](ref/domain/air),
-[Animal](ref/domain/animal), Community, Darkness, Death, [Destruction](ref/domain/destruction),
-[Earth](ref/domain/earth), [Fire](ref/domain/fire), [Healing](ref/domain/healing), Knowledge,
+point of burn, as per the [kineticist](ref/class/kineticist) class ability, instead of sacrificing
+material wealth. While channeling a wendo, the uda wendo gains the 1st-level domain power of one
+[druid animal or terrain domain](ref/ability/druid-domains), or the 1st-level domain power of one of
+the following cleric domains: [Air](ref/domain/air), [Animal](ref/domain/animal), Community,
+Darkness, Death, [Destruction](ref/domain/destruction), [Earth](ref/domain/earth),
+[Fire](ref/domain/fire), [Healing](ref/domain/healing), Knowledge,
 [Protection](ref/domain/protection), Rune, Strength, [Sun](ref/domain/sun), Trickery,
 [War](ref/domain/war), [Water](ref/domain/water), or [Weather](ref/domain/weather). The uda wendo
 has an effective cleric or druid level equal to 1/2 his medium level (minimum 1st) for the purpose
