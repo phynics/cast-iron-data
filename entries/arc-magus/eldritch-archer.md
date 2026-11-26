@@ -28,7 +28,6 @@ trades = [
   { alters = "Arcane pool", feature = "arcane-pool", by = ["arcane-pool"] },
   { alters = "Spell combat", feature = "spell-combat", by = ["ranged-spell-combat"] },
   { alters = "Spellstrike", feature = "spellstrike", by = ["ranged-spellstrike"] },
-  { alters = "Class skills" },
 ]
 +++
 

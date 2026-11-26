@@ -4590,8 +4590,6 @@ for _eid in ("ref/arc-gunslinger/blatherskite", "ref/arc-alchemist/aquachymist",
 for _eid in ("ref/arc-druid/planar-extremist", "ref/arc-investigator/ruthless-agent"):
     TRADE_ADDITIONS.setdefault(_eid, []).append({"alters": "Alignment"})
 TRADE_ADDITIONS.setdefault("ref/arc-alchemist/winged-marauder", []).append({"replaces": "Disable Device, Sleight of Hand, and Use Magic Device as class skills"})
-# owner ruling 55: "This ability modifies X" states an alters trade; the reader of the script learns the verb in the cross-batch PR (earlier books), so the trade has no `by` here
-TRADE_ADDITIONS.setdefault("ref/arc-magus/eldritch-archer", []).append({"alters": "Class skills", "_no_by": True})       # "This ability modifies the magus's class skills." (ruling 55)
 # Blood of the Sea
 TRADE_RENAMES.update({
     ("ref/arc-oracle/oceans-echo", "Bonus skills from the oracle's mystery"): "Additional class skills from her mystery",
