@@ -19,7 +19,6 @@ kind = "archetype"
 features = [
   { anchor = "wild-knowledge", level = 1 },
   { anchor = "nature-magic", level = 1 },
-  { anchor = "bardic-performance" },
   { anchor = "song-of-the-wild", level = 3 },
 ]
 trades = [

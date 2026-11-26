@@ -54,7 +54,7 @@ This ability alters phantom.
 A zeitgeist binder gains a number of [spell-like abilities](ref/umr/spell-like-abilities) tied to
 her zeitgeist's settlement aspect. Other than being based on Wisdom instead of Charisma, these work
 the same way as the [fractured mind's](ref/arc-spiritualist/fractured-mind) emotional power ability
-(_Pathfinder RPG_ _Occult Adventures_ 109). The
+(_Pathfinder RPG Occult Adventures_ 109). The
 _[masterwork transformation](ref/spell/masterwork-transformation)_ spell-like ability does not
 ignore the material component.
 

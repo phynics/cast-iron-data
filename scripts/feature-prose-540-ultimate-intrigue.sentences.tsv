@@ -1,5 +1,6 @@
 entry	sentence
 ref/arc-alchemist/alchemical-sapper	This alters the alchemist’s class skills.
+ref/arc-alchemist/alchemical-sapper	This ability modifies bomb.
 ref/arc-alchemist/alchemical-sapper	This ability replaces mutagen.
 ref/arc-alchemist/alchemical-sapper	This ability replaces poison resistance.
 ref/arc-alchemist/alchemical-sapper	This ability replaces swift alchemy.
@@ -96,6 +97,7 @@ ref/arc-inquisitor/umbral-stalker	This ability alters domain.
 ref/arc-inquisitor/umbral-stalker	This ability replaces the justice judgment.
 ref/arc-inquisitor/umbral-stalker	This ability replaces stern gaze.
 ref/arc-inquisitor/umbral-stalker	This ability alters exploit weakness.
+ref/arc-inquisitor/vigilant-defender	This ability modifies judgment.
 ref/arc-inquisitor/vigilant-defender	This ability replaces stern gaze.
 ref/arc-inquisitor/vigilant-defender	This ability replaces exploit weakness.
 ref/arc-inquisitor/vigilant-defender	This ability alters true judgment.

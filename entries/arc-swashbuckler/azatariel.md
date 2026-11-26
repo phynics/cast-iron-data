@@ -17,7 +17,6 @@ page = "10"
 [fields]
 kind = "archetype"
 features = [
-  { anchor = "deeds" },
   { anchor = "bralani-s-swiftness", level = 3 },
   { anchor = "whimsical-riposte", level = 3 },
   { anchor = "lillend-s-misdirection", level = 7 },

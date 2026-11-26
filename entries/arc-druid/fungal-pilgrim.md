@@ -26,7 +26,7 @@ trades = [
   { replaces = "Wild shape if the fungal pilgrim selected the Plant domain as her nature bond", feature = "wild-shape", by = ["spore-spawning"] },
   { replaces = "Timeless body", feature = "timeless-body", by = ["mycological-transformation"] },
   { alters = "Nature bond", feature = "nature-bond", by = ["devotion-to-ascension"] },
-  { replaces = "Wild shape if the fungal pilgrim selected an animal companion as her nature bond", by = ["fungal-companion"] },
+  { replaces = "Wild shape if the fungal pilgrim selected an animal companion as her nature bond", feature = "wild-shape", by = ["fungal-companion"] },
 ]
 +++
 

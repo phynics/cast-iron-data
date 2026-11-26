@@ -19,7 +19,6 @@ kind = "archetype"
 features = [
   { anchor = "animal-friend", level = 1 },
   { anchor = "nature-s-speaker" },
-  { anchor = "bardic-performance" },
   { anchor = "soothing-performance", level = 3 },
   { anchor = "attract-rats", level = 6 },
   { anchor = "summon-nature-s-ally", level = 1 },

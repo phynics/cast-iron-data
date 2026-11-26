@@ -19,7 +19,6 @@ kind = "archetype"
 features = [
   { anchor = "devout" },
   { anchor = "twilight-envoy", level = 1 },
-  { anchor = "raging-song" },
   { anchor = "inspired-devotion" },
   { anchor = "song-of-understanding", level = 6 },
   { anchor = "song-of-secrecy", level = 10 },

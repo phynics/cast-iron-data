@@ -17,7 +17,6 @@ page = "52"
 [fields]
 kind = "archetype"
 features = [
-  { anchor = "deeds" },
   { anchor = "social-panache", level = 1 },
   { anchor = "incredible-aspirations", level = 7 },
   { anchor = "unshakable-presence", level = 11 },
