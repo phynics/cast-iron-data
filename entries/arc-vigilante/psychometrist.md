@@ -91,7 +91,7 @@ Intelligence modifier.
 ## Object Reading (Su) {#object-reading}
 
 At 2nd level, a psychometrist can read information from items he examines, and gains the occultist's
-[object reading](ref/spell/object-reading) ability _(Occult Adventures_ 48).
+[object reading](ref/spell/object-reading) ability.
 
 This ability replaces unshakable.
 

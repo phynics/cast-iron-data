@@ -50,14 +50,12 @@ At 3rd level, the swordmaster chooses one trance from the list below. She choose
 ### Crane Trance (Ex) {#crane-trance}
 
 The swordmaster's blade rises and falls with the graceful sweeping arcs of the mountain crane. When
-in this trance, a swordmaster gains the benefits of the [Crane Style](ref/feat/crane-style) feat
-(_Ultimate Combat_ 93).
+in this trance, a swordmaster gains the benefits of the [Crane Style](ref/feat/crane-style) feat.
 
 ### Dragon Trance (Ex) {#dragon-trance}
 
 Like the dragon, the swordmaster has honed the steadiness of her mind and body. When in this trance,
-a swordmaster gains the benefits of the [Dragon Style](ref/feat/dragon-style) feat (_Ultimate
-Combat_ 98).
+a swordmaster gains the benefits of the [Dragon Style](ref/feat/dragon-style) feat.
 
 ### Leopard Trance (Ex) {#leopard-trance}
 

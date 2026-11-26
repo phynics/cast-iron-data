@@ -97,8 +97,8 @@ This ability replaces the investigator's poison resistance and poison immunity.
 
 ## Read the Bones (Su) {#read-the-bones}
 
-At 2nd level, a gravedigger can perform [object reading](ref/spell/object-reading) as an occultist
-(_Occult Adventures_ 48), but only on corpses, bones, and other physical remains.
+At 2nd level, a gravedigger can perform [object reading](ref/spell/object-reading) as an occultist,
+but only on corpses, bones, and other physical remains.
 
 This ability replaces poison lore.
 

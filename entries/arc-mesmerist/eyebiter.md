@@ -39,15 +39,15 @@ might that they can leave the eyebiter's body and move about on their own.
 
 An eyebiter imbues one of his eyes with limited sentience, so that he can pluck it out and allow it
 to move on its own. The eyeball familiar functions similarly to the
-[tumor familiar](ref/discovery/tumor-familiar) alchemist discovery (_Pathfinder RPG Ultimate Magic_
-17) except as follows. The eyeball familiar does not have [fast healing](ref/umr/fast-healing). The
-eyeball familiar doesn't resemble an animal, and its size is Fine for a Medium or smaller eyebiter
-(or one size category larger for every size category the eyebiter is larger than Medium). It has a
-fly speed of 20 feet (perfect maneuverability) and no physical attacks (though it can still deliver
-touch spells once the eyebiter has reached 3rd level). The eyeball has a Strength score of 1, a
-Dexterity score of 12, and a Constitution score of 10. It has no set Hit Die, base saves, or skill
-ranks of its own, though it uses its master's when a familiar normally would. It doesn't grant its
-master any familiar bonus, nor can it ever be an improved familiar.
+[tumor familiar](ref/discovery/tumor-familiar) alchemist discovery except as follows. The eyeball
+familiar does not have [fast healing](ref/umr/fast-healing). The eyeball familiar doesn't resemble
+an animal, and its size is Fine for a Medium or smaller eyebiter (or one size category larger for
+every size category the eyebiter is larger than Medium). It has a fly speed of 20 feet (perfect
+maneuverability) and no physical attacks (though it can still deliver touch spells once the eyebiter
+has reached 3rd level). The eyeball has a Strength score of 1, a Dexterity score of 12, and a
+Constitution score of 10. It has no set Hit Die, base saves, or skill ranks of its own, though it
+uses its master's when a familiar normally would. It doesn't grant its master any familiar bonus,
+nor can it ever be an improved familiar.
 
 Whenever the eyebiter's eyeball familiar leaves his body, he is [dazzled](ref/misc/dazzled) until it
 returns (if it is destroyed, the eyebiter loses that eye until he gains the effects of a

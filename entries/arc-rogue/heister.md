@@ -47,10 +47,9 @@ This ability replaces the rogue talent gained at 2nd level.
 At 4th level, a heister gains [Stealthy](ref/feat/stealthy) as a bonus feat.
 
 Additionally, a heister counts as a creature one size category smaller than she actually is when
-determining whether or not she is [squeezing](ref/misc/squeezing) into an enclosed space
-(_Pathfinder RPG Core Rulebook_ 193–194). Finally, when a heister uses the
-[Escape Artist](ref/skill/escape-artist) skill to move through a tight space where her head fits but
-her shoulders do not (_Core Rulebook_ 95–96), the DC is 20, instead of 30.
+determining whether or not she is [squeezing](ref/misc/squeezing) into an enclosed space. Finally,
+when a heister uses the [Escape Artist](ref/skill/escape-artist) skill to move through a tight space
+where her head fits but her shoulders do not, the DC is 20, instead of 30.
 
 This ability replaces uncanny dodge and the rogue talent gained at 4th level.
 

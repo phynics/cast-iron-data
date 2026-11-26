@@ -34,10 +34,10 @@ bramble brewer has the following class features.
 
 ## Briar Bombs (Su) {#briar-bombs}
 
-At 2nd level, a bramble brewer gains the [tanglefoot bomb](ref/discovery/tanglefoot-bomb) discovery
-(_Ultimate Magic_ 17), but the entanglement's duration persists for a number of rounds equal to the
-bramble brewer's Intelligence modifier (minimum 1 round). Additionally, when a bramble brewer throws
-a tanglefoot bomb, it transforms all squares in its splash radius into
+At 2nd level, a bramble brewer gains the [tanglefoot bomb](ref/discovery/tanglefoot-bomb) discovery,
+but the entanglement's duration persists for a number of rounds equal to the bramble brewer's
+Intelligence modifier (minimum 1 round). Additionally, when a bramble brewer throws a tanglefoot
+bomb, it transforms all squares in its splash radius into
 [difficult terrain](ref/rule/terrain-and-obstacles) that persists for as long as the bomb's
 entangling effect. Although these bombs deal no damage, for every 1d6 points of damage the bramble
 brewer's regular bombs deal, the briar bomb's splash radius increases by 5 feet. This ability

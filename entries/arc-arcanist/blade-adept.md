@@ -42,10 +42,11 @@ exploits gained at 1st and 9th levels.
 ## Sentient Sword (Su) {#sentient-sword}
 
 At 3rd level, the blade adept's bonded sword becomes a powerful, sentient
-_[black blade](ref/arc-magus/bladebound)_. The blade advances as a _black blade_ using the blade
-adept's class level in place of the magus's class level and points from her arcane reservoir in
-place of the magus's arcane pool. A blade adept with this class feature cannot have a familiar of
-any kind, even from another class. This ability replaces the arcanist exploit gained at 3rd level.
+_[black blade](ref/arc-magus/bladebound)_. The blade advances as a _black blade_ (_Ultimate Magic_
+47) using the blade adept's class level in place of the magus's class level and points from her
+arcane reservoir in place of the magus's arcane pool. A blade adept with this class feature cannot
+have a familiar of any kind, even from another class. This ability replaces the arcanist exploit
+gained at 3rd level.
 
 ## Adept Exploits {#adept-exploits}
 

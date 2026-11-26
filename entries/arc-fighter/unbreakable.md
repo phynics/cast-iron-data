@@ -62,19 +62,19 @@ ability replaces bravery.
 
 ## Heroic Recovery (Ex) {#heroic-recovery}
 
-At 5th level, an unbreakable gains the [Heroic Recovery](ref/feat/heroic-recovery) feat (_Advanced
-Player's Guide_ 162) as a bonus feat, if he does not have it already. If he already has this feat,
-the unbreakable can choose any combat feat instead. In addition, he may use this feat one additional
-time per day for every four levels after 5th (to a maximum of 4 times per day at 17th level). This
-ability replaces weapon training 1.
+At 5th level, an unbreakable gains the [Heroic Recovery](ref/feat/heroic-recovery) feat as a bonus
+feat, if he does not have it already. If he already has this feat, the unbreakable can choose any
+combat feat instead. In addition, he may use this feat one additional time per day for every four
+levels after 5th (to a maximum of 4 times per day at 17th level). This ability replaces weapon
+training 1.
 
 ## Heroic Defiance (Ex) {#heroic-defiance}
 
-At 9th level, an unbreakable gains the [Heroic Defiance](ref/feat/heroic-defiance) feat (_Advanced
-Player's Guide_ 162) as a bonus feat, if he does not have it already. If he already has this feat,
-the unbreakable can choose any combat feat instead. In addition, he may use this feat one additional
-time per day for every four levels after 9th (to a maximum of 3 times per day at 19th level). This
-ability replaces weapon training 2.
+At 9th level, an unbreakable gains the [Heroic Defiance](ref/feat/heroic-defiance) feat as a bonus
+feat, if he does not have it already. If he already has this feat, the unbreakable can choose any
+combat feat instead. In addition, he may use this feat one additional time per day for every four
+levels after 9th (to a maximum of 3 times per day at 19th level). This ability replaces weapon
+training 2.
 
 ## Quick Recovery (Ex) {#quick-recovery}
 

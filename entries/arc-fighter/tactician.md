@@ -72,11 +72,11 @@ and he can take the better progression. This ability replaces weapon training 1.
 
 ## Cooperative Combatant (Ex) {#cooperative-combatant}
 
-At 11th level, when a tactician uses the [aid another](ref/rule/aid-another-2) special attack (_Core
-Rulebook_ 197), he may affect one additional ally per point of Intelligence bonus. For each ally
-that a tactician aids, he can pick whether to grant that ally the +2 bonus on its next attack
-against the opponent or the +2 bonus to AC against the opponent's next attack on that ally, and can
-grant different allies different bonuses. This ability replaces armor training 3.
+At 11th level, when a tactician uses the [aid another](ref/rule/aid-another-2) special attack, he
+may affect one additional ally per point of Intelligence bonus. For each ally that a tactician aids,
+he can pick whether to grant that ally the +2 bonus on its next attack against the opponent or the
++2 bonus to AC against the opponent's next attack on that ally, and can grant different allies
+different bonuses. This ability replaces armor training 3.
 
 ## Battle Insight (Ex) {#battle-insight}
 

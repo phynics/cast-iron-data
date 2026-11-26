@@ -1999,18 +1999,50 @@ def strip_citations(text: str) -> str:
     return text.replace(I_OPEN, "_").replace(I_CLOSE, "_")
 
 
-def drop_linked_citation(pattern: str, text: str, links: list[tuple[str, str]]) -> str:
-    """Owner ruling 26: a printed page citation after a name goes where the corpus links that name instead ("mutagen (Ultimate
-    Magic 14)"); where no link takes its place it stays as printed (Idealist's "arbitrament (page 39)"; Opus review of #329).
-    The name is the text just before the parenthesis; a label of the feature's links that ends it is the link."""
-    labels = [re.sub(r"[\x01\x02_*\\]", "", label).lower() for label, _ in links]
+# A citation that the link rule cannot judge from the words before it (owner ruling 26, Muse review of #335): the page number of the
+# parenthesis, per entry. True drops it (the sentence's link already points at the cited thing), False keeps it.
+EDGE_CITATIONS = {
+    ("ref/arc-rogue/heister", "95–96"): True,        # "Escape Artist check to move through a tight space where her head fits ..."
+    ("ref/arc-bard/prankster", "322"): True,         # "steal an object ... This functions as the steal combat maneuver": the link is on the first mention
+    ("ref/arc-inquisitor/secret-seeker", "196–197"): False,   # [read aura] goes to Perception; the citation names the occult skill unlocks
+}
 
-    def rep(m: re.Match) -> str:
-        before = re.sub(r"[\x01\x02_*\\\s]+$", "", m.string[:m.start()]).lower()
-        before = re.sub(r"[\x01\x02_*\\]", "", before)
-        return "" if any(lb and before.endswith(lb) for lb in labels) else m.group(0)
 
-    return re.sub(pattern, rep, text)
+def link_names_ability(label: str, target: str) -> bool:
+    """A link on a class or a possessive word ("[alchemist's](ref/class/alchemist) mutagen ability", "[cavalier] class feature",
+    "[nymph's] unearthly grace") names the owner of the ability that a following citation cites, not the ability. A link to one thing
+    of a class (`ref/class/gunslinger#gunsmith`) is such a thing."""
+    plain = re.sub(r"[\x01\x02_*\\]", "", label)
+    return bool(re.search(r"['\u2019]s$", plain) or re.fullmatch(r"ref/(?:class|pclass)/[^#]+", target))
+
+
+def drop_linked_citation(pattern: str, text: str, links: list[tuple[str, str]], entry_id: str = "") -> str:
+    """Owner ruling 26 (Muse review of #335): a printed page citation goes where the link just before it already points at the thing
+    that the citation cites ("mutagen (Ultimate Magic 14)", "[steal] combat maneuver (Advanced Player's Guide 322)": the link may cover
+    only part of the phrase, with up to five plain words between it and the parenthesis). The link is the one that `apply_links` will
+    place, and the nearest one before the parenthesis. The citation stays where no link takes its place (Idealist's "arbitrament
+    (page 39)": a comma ends the phrase), and where words stand between the parenthesis and a link on a class or a possessive word,
+    because the citation names an ability of that class. `EDGE_CITATIONS` has the few that the words cannot show."""
+    marks = r"[\x01\x02_*\\]"
+    probe = apply_links(text, links)[0]                    # the text as it will read with its links, to see which words they cover
+    here, there = list(re.finditer(pattern, text)), list(re.finditer(pattern, probe))
+    if len(here) != len(there):
+        raise ValueError(f"a link falls inside a citation: {text[:80]!r}")
+    out, at = [], 0
+    for m, q in zip(here, there):
+        out.append(text[at:m.start()])
+        at = m.end()
+        pages = re.findall(r"\d+(?:[–-]\d+)?", m.group(0))
+        edge = EDGE_CITATIONS.get((entry_id, pages[-1] if pages else ""))
+        if edge is not None:
+            drop = edge
+        else:
+            before = re.sub(marks, "", probe[:q.start()]).rstrip()
+            hit = re.search(r"\[([^\]]+)\]\(([^)]*)\)((?:\s+[\w'\u2019-]+){0,5})$", before)
+            drop = bool(hit) and (not hit.group(3).strip() or not link_names_ability(hit.group(1), hit.group(2)))
+        out.append("" if drop else m.group(0))
+    out.append(text[at:])
+    return "".join(out)
 
 
 def print_md(feat: PrintFeature, links: list[tuple[str, str]], vocab: set[str], entry_id: str = "",
@@ -2035,11 +2067,13 @@ def print_md(feat: PrintFeature, links: list[tuple[str, str]], vocab: set[str], 
         if eid == entry_id and wrong in text:
             text = text.replace(wrong, right)
             notes.append(f"misprint fixed: print has \"{wrong}\", written \"{right}\" ({why})")
+    # print sets the italic of a title inside a parenthesis; the extraction can open it before the parenthesis ("_(Occult Adventures_ 48)")
+    text = re.sub(r"\x01\(([^()\x01\x02]*)\x02", "(\x01\\1\x02", text)
     # a page reference of the book ("Pathfinder RPG Core Rulebook page 469"): the corpus links instead
-    text = drop_linked_citation(CITE_RPG, text, links)
+    text = drop_linked_citation(CITE_RPG, text, links, entry_id)
     # a "(see ...)" cross-reference stays (owner ruling 16 of 2026-11-24). A page citation of another book without
     # "see" ("(Core Rulebook 123)", "(page 83)"): the corpus links instead
-    xref = drop_linked_citation(CITE_BOOK, text, links)
+    xref = drop_linked_citation(CITE_BOOK, text, links, entry_id)
     # a bare book citation at the end of a parenthesis ("(including the alchemist's bomb class ability; Advanced
     # Player's Guide 28)", owner ruling 26): the corpus links the named rule
     xref = re.sub(r";\s*[\x01_]*(?:Pathfinder (?:RPG|Roleplaying Game) )?(?:Core Rulebook|Advanced Player.s Guide|Bestiary(?: [2-5])?|"
@@ -2054,7 +2088,7 @@ def print_md(feat: PrintFeature, links: list[tuple[str, str]], vocab: set[str], 
     # a parenthesis that is only "page 83" or "Core Rulebook page 469" (a title of capitalized words, then the page): a
     # citation with words of its own ("as if he had cast greater magic aura; see page 219", "as lesser simulacrum on
     # page 238 of Ultimate Magic") has a rule or a pointer and stays (owner rulings 16 and 26)
-    xref = drop_linked_citation(CITE_PAGE, xref, links)
+    xref = drop_linked_citation(CITE_PAGE, xref, links, entry_id)
     if xref != text:
         notes.append("printed cross-reference left out")
         text = xref
@@ -3064,6 +3098,23 @@ def class_first_level(corpus: Path, class_id: str, cache: dict) -> set[str]:
     return keys
 
 
+def fold_table_sections(rows: list[dict], decisions: dict, entry_id: str, problems: list[str]) -> None:
+    """The `fold-into:ANCHOR` decisions of an entry (owner ruling 44): the section moves behind the end of the section that the
+    decision names, its head as a bold line directly above its text (the Markdown table)."""
+    for (eid, anchor), (kind, note) in decisions.items():
+        if eid != entry_id or not kind.startswith("fold-into:"):
+            continue
+        row = next((x for x in rows if x["anchor"] == anchor), None)
+        target = next((x for x in rows if x["anchor"] == kind.split(":", 1)[1]), None)
+        if row is None or target is None:
+            problems.append(f"the fold-into decision of `{anchor}` names a section that is not there")
+            continue
+        rows.remove(row)
+        target["print"] += "\n\n**" + re.sub(r"(?<!\\)([*_])", r"\\\1", row["head"]) + "**\n\n" + row["print"]
+        target["notes"].append(f"table `{anchor}` set under this section behind its printed title (ruling 44): {note}")
+        target["status"] = "print" if target["status"] == "draft" else target["status"]
+
+
 def finalize(e: Entry, res: dict, class_cache: dict | None = None) -> dict:
     """Anchors, levels, `by` and the entry-level problems, from the compared rows."""
     class_cache = {} if class_cache is None else class_cache
@@ -3149,18 +3200,7 @@ def finalize(e: Entry, res: dict, class_cache: dict | None = None) -> dict:
     # owner ruling 44: a printed table title goes on a bold line directly above the Markdown table, not in a heading. A section
     # whose print head is the title of a table (Table 2-2: Homunculus Companions, Monk Moves, 4th-Level Ki Powers) is folded behind
     # the end of the section `fold-into:ANCHOR` names; its head becomes the bold line and its text the table
-    for (eid, anchor), (kind, note) in decisions.items():
-        if eid != e.id or not kind.startswith("fold-into:"):
-            continue
-        row = next((x for x in rows if x["anchor"] == anchor), None)
-        target = next((x for x in rows if x["anchor"] == kind.split(":", 1)[1]), None)
-        if row is None or target is None:
-            problems.append(f"the fold-into decision of `{anchor}` names a section that is not there")
-            continue
-        rows.remove(row)
-        target["print"] += "\n\n**" + re.sub(r"(?<!\\)([*_])", r"\\\1", row["head"]) + "**\n\n" + row["print"]
-        target["notes"].append(f"table `{anchor}` set under this section behind its printed title (ruling 44): {note}")
-        target["status"] = "print" if target["status"] == "draft" else target["status"]
+    fold_table_sections(rows, decisions, e.id, problems)
     # an anchor that two kept rows share is a problem; rows that a decision dropped are not kept (Leshy Caller's four sets of
     # stat rows, each dropped, share their anchors)
     for a, n in Counter(r["anchor"] for r in rows).items():
@@ -3816,6 +3856,7 @@ def run_check(args) -> int:
 # ---- --self-test ----------------------------------------------------------------------------------------
 
 def self_test() -> int:
+    import tempfile
     ok = 0
 
     def eq(a, b, what):
@@ -4019,6 +4060,43 @@ def self_test() -> int:
     pf = PrintFeature("Hidden Magic (Sp)", [[("Items (as if he had cast greater magic aura; see page 219) and mutagen (page 83) and arbitrament (Core Rulebook page 469) end.", False, False)]], 67)
     text, _, notes = print_md(pf, [("mutagen", "ref/discovery/mutagen")], set(), "ref/arc-monk/black-asp")
     eq(text, "Items (as if he had cast greater magic aura; see page 219) and [mutagen](ref/discovery/mutagen) and arbitrament (Core Rulebook page 469) end.", "a citation with words stays, a linked bare one goes, an unlinked one stays")
+    # a link that covers part of the phrase still takes the citation of the thing it names; a class or possessive link does not
+    # (owner ruling 26, Muse review of #335)
+    def cited(text_in, links_in, entry="ref/arc-monk/black-asp"):
+        return print_md(PrintFeature("Hidden Magic (Sp)", [[(text_in, False, False)]], 67), links_in, set(), entry)[0]
+    eq(cited("She gains a bonus when performing a steal combat maneuver (Advanced Player's Guide 322) at once.", [("steal", "ref/rule/steal")]),
+       "She gains a bonus when performing a [steal](ref/rule/steal) combat maneuver at once.", "a link on the first word of the phrase takes the citation")
+    eq(cited("He uses the alchemist's mutagen ability (Advanced Player's Guide 28) daily.", [("alchemist's", "ref/class/alchemist")]),
+       "He uses the [alchemist's](ref/class/alchemist) mutagen ability (Advanced Player's Guide 28) daily.", "a possessive link keeps it")
+    eq(cited("She has the cavalier class feature (Advanced Player's Guide 34).", [("cavalier", "ref/class/cavalier")]),
+       "She has the [cavalier](ref/class/cavalier) class feature (Advanced Player's Guide 34).", "a class link keeps it")
+    eq(cited("A steal is easy. She makes a steal combat maneuver (Advanced Player's Guide 322) now.", [("steal", "ref/rule/steal")]),
+       "A [steal](ref/rule/steal) is easy. She makes a steal combat maneuver (Advanced Player's Guide 322) now.", "a mention that the link does not cover keeps it")
+    eq(cited("She attracts phantoms like a spiritualist (Occult Adventures 72), though she rests.", [("spiritualist", "ref/class/spiritualist")]),
+       "She attracts phantoms like a [spiritualist](ref/class/spiritualist), though she rests.", "a class link right before the citation takes it")
+    eq(cited("It gets implements from the occultist class (Occult Adventures 47).", [("implements", "ref/ability/implements"), ("occultist", "ref/class/occultist")]),
+       "It gets [implements](ref/ability/implements) from the [occultist](ref/class/occultist) class (Occult Adventures 47).", "the nearest link decides")
+    eq(cited("It acts as the gunsmith ability (Ultimate Combat 9).", [("gunsmith", "ref/class/gunslinger#gunsmith")]),
+       "It acts as the [gunsmith](ref/class/gunslinger#gunsmith) ability.", "a link to one thing of a class takes it")
+    eq(cited("Deathwatch, death ward, and arbitrament (page 39) end.", [("death ward", "ref/spell/death-ward")]),
+       "Deathwatch, [death ward](ref/spell/death-ward), and arbitrament (page 39) end.", "a comma between the link and the citation keeps it")
+    eq(cited("A tight space where her head fits but her shoulders do not (Core Rulebook 95–96).", [("Escape Artist", "ref/skill/escape-artist")], "ref/arc-rogue/heister"),
+       "A tight space where her head fits but her shoulders do not.", "an edge citation of the list is dropped")
+    # ruling 44: a section whose head is a table title is folded behind the section it names, the head as a bold line
+    rows_ = [{"anchor": "alignment", "head": "Alignment", "print": "A paragraph.", "status": "draft", "notes": []},
+             {"anchor": "table-1-1-pacts", "head": "Table 1–1: Planar Pacts", "print": "|A|B|\n|---|---|\n|1|2|", "status": "print", "notes": []},
+             {"anchor": "planar-pact", "head": "Planar Pact (Su)", "print": "Text.", "status": "print", "notes": []}]
+    probs_: list[str] = []
+    fold_table_sections(rows_, {("ref/arc-witch/pact-witch", "table-1-1-pacts"): ("fold-into:alignment", "why")}, "ref/arc-witch/pact-witch", probs_)
+    eq([r["anchor"] for r in rows_], ["alignment", "planar-pact"], "the table section is gone")
+    eq(rows_[0]["print"], "A paragraph.\n\n**Table 1–1: Planar Pacts**\n\n|A|B|\n|---|---|\n|1|2|", "the title is a bold line directly above the table")
+    eq((rows_[0]["status"], probs_), ("print", []), "the target takes print's text")
+    fold_table_sections(rows_, {("ref/arc-witch/pact-witch", "gone"): ("fold-into:alignment", "why")}, "ref/arc-witch/pact-witch", probs_)
+    eq(len(probs_), 1, "a fold of a section that is not there is a problem")
+    with tempfile.TemporaryDirectory() as tmp_:
+        (Path(tmp_) / "scripts").mkdir()
+        decisions_path(Path(tmp_), "bk").write_text("\t".join(DECISION_HEADER) + "\ne\ta\tfold-into:x\tn\n", encoding="utf-8")
+        eq(read_decisions(Path(tmp_), "bk"), {("e", "a"): ("fold-into:x", "n")}, "the decision reader takes fold-into")
     eq(is_scaffold("Weapon and Armor Proficiencies") and is_scaffold("Class Skills") and is_scaffold("Skill Ranks per Level"), True, "scaffold variants")
     # the printed trade sentences of a span, and the key that finds them in an entry
     span = [Para("para", [("Improvised Maneuver (Ex): At 4th level, a hinyasi learns. This combat maneuver still provokes.", False, False)], 1, 0),
@@ -4054,7 +4132,6 @@ def self_test() -> int:
     eq(len(find_section(blocks, "Aerial Assaulter", {"x"}) or []), 4, "a sidebar title stays in the section of other books")
     eq(join_wrapped(["the vox's mesmerist spells use both", "thought and verbal components. Next."], set()), ["the vox's mesmerist spells use both thought and verbal components. Next."], "wrapped sidebar lines join")
     # ruling 11: the Special column of the class table, with its suffixes, never a spell-slot or fast-movement column
-    import tempfile
     with tempfile.TemporaryDirectory() as tmp:
         (Path(tmp) / "entries" / "class").mkdir(parents=True)
         (Path(tmp) / "entries" / "class" / "witch.md").write_text(

@@ -55,8 +55,7 @@ focus on the undead, he takes a -2 penalty when attempting such checks regarding
 
 An undead master can forge an arcane bond with an object, but that object must be made at least
 partially of [bone](ref/eq-material/bone). Alternatively, he can animate a corpse companion, as per
-the [undead lord](ref/arc-cleric/undead-lord) cleric archetype (_Pathfinder RPG Ultimate Magic_ 32).
-He can't gain a familiar.
+the [undead lord](ref/arc-cleric/undead-lord) cleric archetype. He can't gain a familiar.
 
 This ability alters arcane bond.
 

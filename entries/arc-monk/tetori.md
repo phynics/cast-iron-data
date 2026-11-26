@@ -59,8 +59,8 @@ while grappling, and retains his Dexterity bonus to AC when pinning an opponent 
 special attack when using unarmed strikes (_Pathfinder RPG Bestiary_ 301), and can use this ability
 against creatures his own size or smaller by spending 1 point from his ki pool, or against larger
 creatures by spending 2 points from his ki pool. At 15th level, a tetori gains the
-[constrict](ref/umr/constrict) special attack (_Bestiary_ 298), inflicting his unarmed strike damage
-on any successful [grapple](ref/rule/grapple) check. This ability replaces flurry of blows.
+[constrict](ref/umr/constrict) special attack, inflicting his unarmed strike damage on any
+successful [grapple](ref/rule/grapple) check. This ability replaces flurry of blows.
 
 ## Counter-Grapple (Ex) {#counter-grapple}
 
@@ -102,5 +102,5 @@ effect. This ability replaces diamond soul.
 ## Iron Body (Su) {#iron-body}
 
 At 19th level, as a move action, a tetori can make his tissues ultra-dense for 1 minute as the
-_[iron body](ref/spell/iron-body)_ spell (_Core Rulebook_ 302) by spending 3 points from his ki
-pool. This ability replaces empty body.
+_[iron body](ref/spell/iron-body)_ spell by spending 3 points from his ki pool. This ability
+replaces empty body.

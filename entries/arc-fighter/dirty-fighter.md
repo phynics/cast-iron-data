@@ -44,9 +44,8 @@ This ability replaces bravery.
 ## Maneuver Training (Ex) {#maneuver-training}
 
 At 5th level, a dirty fighter becomes a master of dirty tricks. He gains a +2 bonus on
-[dirty trick](ref/rule/dirty-trick) combat maneuver checks (_Advanced Player's Guide_ 320) and +2 to
-his CMD when he is the target of a dirty trick combat maneuver. This ability replaces weapon
-training 1.
+[dirty trick](ref/rule/dirty-trick) combat maneuver checks and +2 to his CMD when he is the target
+of a dirty trick combat maneuver. This ability replaces weapon training 1.
 
 ## Speedy Tricks (Ex) {#speedy-tricks}
 

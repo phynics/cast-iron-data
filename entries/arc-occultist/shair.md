@@ -45,9 +45,9 @@ on the [elemental](ref/family/elemental) planes. She learns how to contact a sec
 and a third jin at 14th level. Each of these jin is connected to one of the eight schools of magic,
 just like an occultist [implement](ref/ability/implements), but also to the
 [air](ref/arcaneschool/air), [earth](ref/arcaneschool/earth), [fire](ref/arcaneschool/fire), or
-[water](ref/arcaneschool/water) school (_Advanced Player's Guide_ 142). Each jin works like a living
-implement for both of its schools. To provide the implement component for a spell or focus power, a
-jin must be within 30 feet of its master.
+[water](ref/arcaneschool/water) school. Each jin works like a living implement for both of its
+schools. To provide the implement component for a spell or focus power, a jin must be within 30 feet
+of its master.
 
 The elemental schools don't have focus powers or resonant powers. Instead, the sha'ir considers all
 wizard spells of 6th level and lower from the lists corresponding to her jin's elemental schools to

@@ -67,11 +67,10 @@ feet and the ability to breathe underwater.
 ## Elemental Revelation (Su) {#elemental-revelation}
 
 At 20th level, you fully harness the power of the elements. You can apply the
-[Elemental Spell](ref/feat/elemental-spell) metamagic feat (_Pathfinder RPG Advanced Player's Guide_
-158) to spells you cast without increasing the level or casting time. You can choose acid, cold,
-electricity, or fire each time you use this ability. Whenever you score a critical hit with an
-attack that deals energy damage, you ignore the target's energy resistance (if any). If you score
-such a critical hit against a creature that has immunity to the energy type you are attacking with,
-the creature takes half damage from the attack.
+[Elemental Spell](ref/feat/elemental-spell) metamagic feat to spells you cast without increasing the
+level or casting time. You can choose acid, cold, electricity, or fire each time you use this
+ability. Whenever you score a critical hit with an attack that deals energy damage, you ignore the
+target's energy resistance (if any). If you score such a critical hit against a creature that has
+immunity to the energy type you are attacking with, the creature takes half damage from the attack.
 
 This replaces final revelation.
