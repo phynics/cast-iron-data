@@ -5470,6 +5470,10 @@ LEVEL_NONE = {
     ("ref/arc-medium/nexian-channeler", "third-eye"),
 }
 LEVEL_NONE.add(("ref/arc-bloodrager/bloody-knuckled-rowdy", "reduced-spells-known"))      # it changes the spells known, a part of spellcasting (ruling 48)
+LEVEL_NONE.add(("ref/arc-sorcerer/wishcrafter", "wishbound-arcana"))      # it replaces the bloodline arcana, a part of the bloodline (ruling 48)
+# Diminished Spellcasting alters the whole spellcasting of the class, a 1st-level class feature (owner ruling 50; the corpus was split 7/7 on it)
+LEVEL_FROM_PRINT.update({(f"ref/arc-{e}", "diminished-spellcasting"): (1, "ruling 50: alters the whole spellcasting, a 1st-level class feature") for e in (
+    "magus/esoteric", "magus/myrmidarch", "magus/skirnir", "magus/jistkan-artificer", "magus/kensai", "magus/soul-forger", "oracle/purifier")})
 # a feature that replaces or alters only a part of a feature gets no level from the trade (owner ruling 48)
 LEVEL_FROM_PRINT.update({
     # Geist Channeler (Occult Adventures p. 109): "This ability alters the phantom" (Geistform Phantom) and "This ability modifies the phantom and replaces the
