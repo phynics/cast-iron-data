@@ -715,6 +715,7 @@ def render_marks(s: str) -> str:
     """Italic marks to underscores. Two italic runs with only a space between them are one name that the line wrap of print cut
     ("_riding_ _possession_"): one span (review of #344)."""
     s = SPLIT_ITALIC.sub(lambda m: m.group(1) + " ", s)
+    s = re.sub(I_OPEN + r"\(([^" + I_OPEN + I_CLOSE + r")]*)" + I_CLOSE, lambda m: "(" + I_OPEN + m.group(1) + I_CLOSE, s)      # print sets the parenthesis of a citation in italics: the mark goes inside it
     return s.replace(I_OPEN, "_").replace(I_CLOSE, "_")
 
 
@@ -4687,15 +4688,16 @@ PAGE_FIXES = {
 
 # The Player Companions that set their titles in small capitals and give each archetype no box of its own (batches 6 to 9).
 BATCH_B_BOOKS = ("psychic-anthology", "disciples-doctrine", "occult-origins", "arcane-anthology", "blood-of-the-coven")     # the lead reader of `LEAD_EXT` reads them (review of #344)
+BATCH_B4_BOOKS = ("merchants-manifest", "champions-of-corruption")     # the lead reader of `LEAD_EXT` reads them (batch B4)
 BATCH_B3_BOOKS = ("dirty-tactics-toolbox", "villain-codex", "weapon-masters-handbook", "melee-tactics-toolbox", "distant-realms")     # the lead reader of `LEAD_EXT` reads them (batch B3)
 PLAYER_COMPANIONS = ("blood-of-the-ancients", "wilderness-origins", "legacy-of-the-first-world", "people-of-the-wastes", "healers-handbook", "psychic-anthology", "disciples-doctrine", "occult-origins", "arcane-anthology", "blood-of-the-coven",
                      "elemental-masters-handbook", "monster-hunters-handbook", "monster-summoners-handbook", "armor-masters-handbook", "cohorts-and-companions")
 
 # The Player Companions that set their archetype titles in small capitals (a capital and its small capitals 5 units apart), and whose
 # archetypes are followed by sections of the chapter of their own (feats, techniques, spells): any title ends the section of an archetype.
-SMALL_CAP_BOOKS = ("blood-of-the-ancients", "blood-of-the-beast", "heroes-of-the-high-court", "martial-arts-handbook", "magic-tactics-toolbox", "potions-and-poisons", "heroes-from-the-fringe", "haunted-heroes-handbook", "antiheros-handbook", "blood-of-the-sea", "aquatic-adventures", "legacy-of-dragons", "plane-hoppers-handbook", "dirty-tactics-toolbox", "weapon-masters-handbook", "melee-tactics-toolbox")
+SMALL_CAP_BOOKS = ("blood-of-the-ancients", "blood-of-the-beast", "heroes-of-the-high-court", "martial-arts-handbook", "magic-tactics-toolbox", "potions-and-poisons", "heroes-from-the-fringe", "haunted-heroes-handbook", "antiheros-handbook", "blood-of-the-sea", "aquatic-adventures", "legacy-of-dragons", "plane-hoppers-handbook", "dirty-tactics-toolbox", "weapon-masters-handbook", "melee-tactics-toolbox", *BATCH_B4_BOOKS)
 # ... and of these, the ones whose chapter titles or capitals stand above the usual top of the body (Blood of the Ancients keeps 88)
-HIGH_TITLE_BOOKS = ("blood-of-the-beast", "heroes-of-the-high-court", "martial-arts-handbook", "magic-tactics-toolbox", "haunted-heroes-handbook", "familiar-folio", "advanced-class-origins", "cohorts-and-companions", "dirty-tactics-toolbox", "weapon-masters-handbook", "melee-tactics-toolbox")
+HIGH_TITLE_BOOKS = ("blood-of-the-beast", "heroes-of-the-high-court", "martial-arts-handbook", "magic-tactics-toolbox", "haunted-heroes-handbook", "familiar-folio", "advanced-class-origins", "cohorts-and-companions", "dirty-tactics-toolbox", "weapon-masters-handbook", "melee-tactics-toolbox", *BATCH_B4_BOOKS)
 
 # ---- Potions & Poisons, Construct Handbook, Magic Tactics Toolbox, Haunted Heroes Handbook, Heroes from the Fringe (one block of tables) ----
 MISPRINTS.extend([
@@ -4809,6 +4811,13 @@ LEVEL_FROM_PRINT.update({
 })
 
 
+# ---- Batch B4: Merchant's Manifest, Champions of Corruption ----
+for _eid in ("ref/arc-paladin/knight-of-coins", "ref/arc-inquisitor/oathkeeper"):
+    TRADE_ADDITIONS.setdefault(_eid, []).append({"alters": "Class skills"})     # "This alters the paladin's class skills and skill ranks per level." (the Class Skills section before the first feature)
+LEVEL_FROM_PRINT[("ref/arc-antipaladin/dread-vanguard", "beacon-of-evil")] = (4, "owner ruling 57: replaces the spells class feature, which the antipaladin gains at 4th level (the spells per day begin there), and print's first step of the ability is \"At 4th level and every 4 levels thereafter\"")
+TRADE_RENAMES[("ref/arc-paladin/knight-of-coins", "3rd-, 9th-, and 15th-level mercies")] = "The mercies gained at 3rd, 9th, and 15th levels"
+
+
 # ---- Batch B3: Dirty Tactics Toolbox, Villain Codex, Weapon Master's Handbook, Melee Tactics Toolbox, Distant Realms ----
 TRADE_RENAMES.update({
     ("ref/arc-swashbuckler/rondelero-swashbuckler", "Derring-do"): "The derring-do deed",
@@ -4841,7 +4850,7 @@ def configure_book(book: str) -> None:
     CHAPTER_END[0] = 47 if book == "inner-sea-combat" else 0
     PAGE_SKIP[:] = [(16, 23), (26, 999)] if book == "legacy-of-dragons" else []
     LOWERCASE_CONTINUES["on"] = BULLETS["on"] = ITALIC_FIRST["on"] = CITE_EXT["on"] = LEAD_EXT["on"] = book in ("inner-sea-magic", "inner-sea-intrigue", "inner-sea-combat")
-    LEAD_EXT["on"] = LEAD_EXT["on"] or book in BATCH_B_BOOKS or book in BATCH_B3_BOOKS or book in ("heroes-of-the-darklands", "legacy-of-dragons", "familiar-folio", "advanced-class-origins", "armor-masters-handbook", "cohorts-and-companions",
+    LEAD_EXT["on"] = LEAD_EXT["on"] or book in BATCH_B_BOOKS or book in BATCH_B3_BOOKS or book in BATCH_B4_BOOKS or book in ("heroes-of-the-darklands", "legacy-of-dragons", "familiar-folio", "advanced-class-origins", "armor-masters-handbook", "cohorts-and-companions",
                                                                                                   "elemental-masters-handbook", "monster-hunters-handbook", "monster-summoners-handbook")
     OCR["on"] = NO_STYLE["on"] = book in ("inner-sea-combat", "monster-codex")
     MC_TITLES["on"] = book == "monster-codex"
@@ -5128,6 +5137,21 @@ for _eid in (        # "This alters the cavalier's class skills." (the Class Ski
         "ref/arc-medium/medium-of-the-master"):
     TRADE_ADDITIONS.setdefault(_eid, []).append({"alters": "Class skills"})
 TRADE_RENAMES.update({
+    ("ref/arc-bard/buccaneer", "Bardic knowledge"): "bardic knowledge",
+    ("ref/arc-bard/buccaneer", "Suggestion"): "suggestion",
+    ("ref/arc-bard/buccaneer", "Lore master"): "lore master",
+    ("ref/arc-bard/buccaneer", "Mass suggestion"): "mass suggestion",
+    ("ref/arc-fighter/corsair", "The fighter's 2nd-level bonus feat"): "the fighter's 2nd-level bonus feat",
+    ("ref/arc-fighter/corsair", "Armor training"): "armor training",
+    ("ref/arc-fighter/corsair", "The fighter's 6th-level bonus feat"): "the fighter's 6th-level bonus feat",
+    ("ref/arc-ranger/freebooter", "Favored enemy"): "favored enemy",
+    ("ref/arc-ranger/freebooter", "Hunter's bond"): "hunter's bond",
+    ("ref/arc-ranger/freebooter", "Woodland stride"): "woodland stride",
+    ("ref/arc-rogue/smuggler", "Trapfinding"): "trapfinding",
+    ("ref/arc-rogue/smuggler", "Evasion"): "Evasion",
+    ("ref/arc-rogue/smuggler", "Trap sense"): "trap sense",
+})
+TRADE_RENAMES.update({
     ("ref/arc-witch/jinx-witch", "2nd-level hex"): "Witch's hex normally gained at 2nd level",
     ("ref/arc-witch/jinx-witch", "6th-level hex"): "Hex normally gained at 6th level",
     ("ref/arc-witch/jinx-witch", "10th-level hex"): "Major hex gained at 10th level",
@@ -5342,7 +5366,7 @@ def letters_key(text: str) -> str:
 
 def printed_trade_sentences(section: list) -> list[str]:
     """Every "This replaces/alters/changes ..." sentence of the printed span of an archetype, in print order."""
-    text = " ".join(re.sub(r"\s+", " ", b.plain()) for b in section if b.kind == "para")
+    text = re.sub(r"\s+", " ", " ".join(b.plain() for b in section if b.kind == "para"))
     text = re.sub(r"\b1oth\b", "10th", text)      # the text layer reads a zero as a letter
     return [re.sub(r"\s+", " ", m.group(0)).strip() for m in PRINTED_TRADE.finditer(text)]
 
@@ -6041,6 +6065,8 @@ def self_test() -> int:
             Para("para", [("This replaces knockout.", False, False)], 1, 0),
             Para("para", [("This alters the warpriest\u2019s blessings.", False, False)], 1, 0)]
     eq(printed_trade_sentences(span), ["This replaces knockout.", "This alters the warpriest\u2019s blessings."], "printed trade sentences")
+    split_trade = [Para("para", [("This  ", False, False)], 1, 0), Para("para", [("ability replaces suggestion.", False, False)], 1, 0)]
+    eq(printed_trade_sentences(split_trade), ["This ability replaces suggestion."], "a trade sentence split between extracted paragraphs")
     eq(letters_key("This alters the warpriest\u2019s _[blessings](ref/x/y)_.") in letters_key("a\n\nThis alters the warpriest's blessings.\n"), True, "a printed sentence is found in the entry")
     eq(letters_key("This replaces knockout.") in letters_key("At 4th level, a hinyasi learns to confound."), False, "a missing printed sentence")
     import tempfile
@@ -6416,6 +6442,7 @@ def self_test() -> int:
     eq(finish_text("the s" + I_OPEN + "un orchid elixir" + I_CLOSE + ", granting", set()), "the " + I_OPEN + "sun orchid elixir" + I_CLOSE + ", granting", "a split italic first letter")
     eq(len(re.findall(CITE_BOOK_X, "x (" + I_OPEN + "Ultimate" + I_CLOSE + " " + I_OPEN + "Intrigue" + I_CLOSE + " 142) y")), 1, "citation with split italic words")
     eq(render_marks(f"a {I_OPEN}riding{I_CLOSE} {I_OPEN}possession{I_CLOSE} (10th), {I_OPEN}x{I_CLOSE}, {I_OPEN}y{I_CLOSE}"), "a _riding possession_ (10th), _x_, _y_", "italic runs that the line wrap of print splits are one span")
+    eq(render_marks(f"x {I_OPEN}(Pathfinder RPG Ultimate Combat{I_CLOSE} 65)"), "x (_Pathfinder RPG Ultimate Combat_ 65)", "the parenthesis of a citation stays outside the italics")
     eq(render_marks(f"{I_OPEN}a{I_CLOSE} {I_OPEN}[b](t){I_CLOSE}"), "_a_ _[b](t)_", "a span with a link keeps its own marks")
     eq(len(re.findall(CITE_BOOK_X, "x (" + I_OPEN + "Ultimate Intrigue 102" + I_CLOSE + ") y")), 1, "citation whose italic holds the page")
     eq(len(re.findall(CITE_BOOK_X, "x (Inner Sea World Guide 286) y")), 1, "citation of the Inner Sea World Guide")
