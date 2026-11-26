@@ -16,10 +16,13 @@ page = "12"
 
 [fields]
 kind = "archetype"
+features = [
+  { anchor = "inspiring-song", level = 1 },
+]
 trades = [
-  { replaces = "Bonus skills from the oracle's mystery", feature = "mystery", power = "class skills" },
-  { replaces = "The bonus spells gained at 4th, 8th, 10th, 12th, and 14th levels from the oracle's mystery", feature = "mystery", levels = [4, 8, 10, 12, 14], power = "bonus spells" },
-  { replaces = "Revelations gained at 1st, 3rd, and 15th level", feature = "revelation", levels = [1, 3, 15] },
+  { replaces = "Additional class skills from her mystery", feature = "mystery", power = "class skills" },
+  { replaces = "Mystery bonus spells at these levels", feature = "mystery", levels = [4, 8, 10, 12, 14], power = "bonus spells" },
+  { replaces = "Revelations gained at 1st, 3rd, and 15th level", feature = "revelation", levels = [1, 3, 15], by = ["inspiring-song"] },
 ]
 +++
 
@@ -28,44 +31,30 @@ a rare few merfolk can manipulate the forces of nature and weave them into song.
 a merfolk gifted with the powers of an oracle and a singing voice that evokes the legendary tales of
 merfolk virtuosos.
 
-**Replaces:** Bonus skills from the oracle's mystery
+## Class Skills {#class-skills}
 
-**Gained class skills:** bluff, intm, kna, perf
+An ocean's echo adds Bluff, Intimidate, Knowledge (nature), and Perform to her list of class skills.
+These replace the additional class skills from her mystery.
 
-**Bonus Spells**
+## Bonus Spells {#bonus-spells}
 
-**Info:** The oracle gains these bonus spells at the listed levels.
+_Sound burst_ (4th), _shout_ (8th), _song of discord_ (10th), _greater shout_ (12th), and _pied
+piping_ (14th). These bonus spells replace the oracle's mystery bonus spells at these levels.
 
-**Replaces:** The bonus spells gained at 4th, 8th, 10th, 12th, and 14th levels from the oracle's
-mystery
+## Inspiring Song (Ex) {#inspiring-song}
 
-**Spells:** Song of discord
+The voice of an ocean's echo provides inspiration to allies. This ability is identical to bardic
+performance (using Perform \[sing\] only), allowing her to
+[inspire courage](ref/performance/inspire-courage) at 1st level,
+[inspire competence](ref/performance/inspire-competence) at 3rd level, and
+[inspire heroics](ref/performance/inspire-heroics) at 15th level, as a bard of the ocean's echo's
+level. It is usable a total number of rounds per day equal to her level + her Charisma modifier
+(minimum 1).
 
-**Spells:** Greater shout
+This ability replaces the revelations gained at 1st, 3rd, and 15th level.
 
-**Spells:** Pied piping
+## Recommended Mysteries {#recommended-mysteries}
 
-**Spells:** Sound burst
-
-**Spells:** Shout
-
-**Inspiring Song (Ex)**
-
-**Ability:** This ability is identical to bardic performance (using Perform \[sing\] only), as a
-bard of the ocean's echo's level.
-
-**Flavor:** The voice of an ocean's echo provides inspiration to allies.
-
-**At 1st Level:** She can [inspire courage](ref/performance/inspire-courage).
-
-**At 15th Level:** She learns to [inspire heroics](ref/performance/inspire-heroics).
-
-**At 3rd Level:** She can [inspire competence](ref/performance/inspire-competence).
-
-**Replaces:** Revelations gained at 1st, 3rd, and 15th level
-
-**Usage:** oracle level + Charisma modifier rounds/day
-
-**Recommended Mysteries:** [Ancestor](ref/mystery/ancestor), [heavens](ref/mystery/heavens),
-[life](ref/mystery/life), [lore](ref/mystery/lore), [nature](ref/mystery/nature),
-[time](ref/mystery/time), [waves](ref/mystery/waves), [wind](ref/mystery/wind).
+[Ancestor](ref/mystery/ancestor), [heavens](ref/mystery/heavens), [life](ref/mystery/life),
+[lore](ref/mystery/lore), [nature](ref/mystery/nature), [time](ref/mystery/time),
+[waves](ref/mystery/waves), [wind](ref/mystery/wind).

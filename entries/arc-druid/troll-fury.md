@@ -16,62 +16,52 @@ page = "224"
 
 [fields]
 kind = "archetype"
+features = [
+  { anchor = "inspire-fervor", level = 1 },
+  { anchor = "chosen-prey", level = 4 },
+  { anchor = "troll-fury-s-mark", level = 9 },
+]
 trades = [
-  { replaces = "Wild empathy", feature = "wild-empathy" },
-  { replaces = "Resist nature's lure", feature = "resist-nature-s-lure" },
-  { replaces = "Venom immunity", feature = "venom-immunity" },
+  { replaces = "Wild empathy", feature = "wild-empathy", by = ["inspire-fervor"] },
+  { replaces = "Resist nature's lure", feature = "resist-nature-s-lure", by = ["chosen-prey"] },
+  { replaces = "Venom immunity", feature = "venom-immunity", by = ["troll-fury-s-mark"] },
 ]
 +++
 
-Troll furies combine a druid's love of natural balance with a single-minded devotion to the welfare
-of the troll tribe. Trolls require a lot of prey to keep fed, and if their hunting grounds are upset
-by incursions of other monsters, civilized deforestation, or careless trolls who eat more than they
-need, a troll tribe can find itself without a sustainable food source.
+[Troll](ref/monster/troll) furies combine a druid's love of natural balance with a single-minded
+devotion to the welfare of the troll tribe. Trolls require a lot of prey to keep fed, and if their
+hunting grounds are upset by incursions of other monsters, civilized deforestation, or careless
+trolls who eat more than they need, a troll tribe can find itself without a sustainable food source.
 
-Troll furies take the long view on sustainability, protecting the trolls' territory from gluttonous
-trolls and outsiders alike, and even hunting down tribal enemies when necessary. Holding themselves
-aloof from the rest of troll society, troll furies command great respect and can rally a region's
-trolls quickly to deal with threats to their existence and the health of their environment.
+[Troll](ref/monster/troll) furies take the long view on sustainability, protecting the trolls'
+territory from gluttonous trolls and outsiders alike, and even hunting down tribal enemies when
+necessary. Holding themselves aloof from the rest of troll society, troll furies command great
+respect and can rally a region's trolls quickly to deal with threats to their existence and the
+health of their environment.
 
-**Prerequisites:** [Troll](ref/monster/troll)
+## Inspire Fervor (Ex) {#inspire-fervor}
 
-**Inspire Fervor (Ex)**
-
-**Gained:** At 1st Level
-
-**Replaces:** Wild empathy
-
-**Standard:** Once per day, a troll fury can chant over another troll within 30 feet, bolstering it
-against fear and improving its combat abilities. This works like the
+At 1st level, once per day as a standard action, a troll fury can chant over another troll within 30
+feet, bolstering it against fear and improving its combat abilities. This works like the
 [inspire courage](ref/performance/inspire-courage) bard ability, but affects only one troll and
 lasts 1 minute. The troll fury uses her druid level as her bard level to determine the effects of
-this ability.
+this ability. This ability replaces wild empathy.
 
-**Chosen Prey (Ex)**
+## Chosen Prey (Ex) {#chosen-prey}
 
-**Ability:** A troll fury can change her favored enemy type once per week by performing a ritual
-that takes 1 hour to perform.
-
-**Choice:** A troll fury can select one creature type from the ranger's
+At 4th level, a troll fury can select one creature type from the ranger's
 [favored enemy](ref/ability/favored-enemy) list and gains a favored enemy bonus against that
 creature type with an effective ranger level equal to her druid level. This ability never grants the
-troll fury favored enemy bonuses against a second favored enemy creature type.
+troll fury favored enemy bonuses against a second favored enemy creature type. A troll fury can
+change her favored enemy type once per week by performing a ritual that takes 1 hour to perform. If
+a troll fury already has a favored enemy from another class, the levels from the classes that grant
+favored enemies stack with this one to determine the favored enemy bonuses, and in this case she can
+gain other favored enemy creature types. This ability replaces resist nature's lure.
 
-**Gained:** At 4th Level
+## Troll Fury's Mark (Su) {#troll-fury-s-mark}
 
-**Replaces:** Resist nature's lure
-
-**Special:** If a troll fury already has a favored enemy from another class, the levels from the
-classes that grant favored enemies stack with this one to determine the favored enemy bonuses, and
-in this case she can gain other favored enemy creature types.
-
-**Troll Fury's Mark (Su)**
-
-**Gained:** At 9th Level
-
-**Passive:** Each time a troll fury or her animal companion damages a creature with a natural
+At 9th level, each time a troll fury or her animal companion damages a creature with a natural
 attack, the troll fury gains a +10 insight bonus on Survival checks to track that creature for 24
 hours. The duration of this ability does not stack with itself. Each time the troll fury or her
-animal companion hits the target, this ability lasts for the next 24 hours.
-
-**Replaces:** Venom immunity
+animal companion hits the target, this ability lasts for the next 24 hours. This ability replaces
+venom immunity.
