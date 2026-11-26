@@ -84,6 +84,20 @@ focus. If circumstances cause him to lose one Skill Focus feat, he loses both.
 
 This ability replaces bloodline, all bloodline spells, and all bloodline powers.
 
+### Kindness (Psychic Anthology page 5) {#kindness}
+
+A bloodrager with the id rager archetype (Pathfinder Player Companion: Occult Origins 23) can select
+[kindness](ref/emotionalfocus/kindness) as his emotional focus. The phantom gains a number of ranks
+in Diplomacy and Heal equal to its number of Hit Dice. While confined in the spiritualist's
+consciousness, the phantom grants the spiritualist Skill Focus in each of these skills.
+
+### Whimsey (Heroes from the Fringe page 19) {#whimsey}
+
+A bloodrager with the id rager archetype (Pathfinder Player Companion: Occult Origins 23) can select
+[whimsy](ref/emotionalfocus/whimsey) as his emotional focus. The phantom gains a number of ranks in
+Acrobatics and Perception equal to its number of Hit Dice. While confined in the spiritualist's
+consciousness, the phantom grants the spiritualist Skill Focus in each of these skills.
+
 ## Atavistic Caster {#atavistic-caster}
 
 At 4th level, a id rager's bloodrager spells are treated as [psychic magic](ref/rule/psychic-magic).

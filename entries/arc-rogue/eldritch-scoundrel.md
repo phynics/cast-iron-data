@@ -19,7 +19,7 @@ kind = "archetype"
 features = [
   { anchor = "spells" },
   { anchor = "alarm-sense", level = 3 },
-  { anchor = "sneak-attack" },
+  { anchor = "sneak-attack", level = 3 },
   { anchor = "rogue-talents", level = 4 },
   { anchor = "uncanny-training", level = 4 },
 ]

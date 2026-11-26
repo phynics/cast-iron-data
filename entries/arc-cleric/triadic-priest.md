@@ -57,7 +57,7 @@ bonded allies or everyone except her bonded allies.
 ## Bonded Domain (Su) {#bonded-domain}
 
 A triadic priest selects only one domain granted by her deity. However, while she is within 10 feet
-of least one of her bonded allies, she gains the following benefits.
+of at least one of her bonded allies, she gains the following benefits.
 
 This alters the domains class feature.
 

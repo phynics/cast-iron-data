@@ -19,7 +19,7 @@ kind = "archetype"
 features = [
   { anchor = "etheric-channel" },
   { anchor = "spirit-senses", level = 2 },
-  { anchor = "disrupting-phantom" },
+  { anchor = "disrupting-phantom", level = 4 },
   { anchor = "locate-haunts", level = 9 },
   { anchor = "disruptive-influence", level = 14 },
 ]

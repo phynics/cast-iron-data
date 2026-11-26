@@ -19,7 +19,7 @@ kind = "archetype"
 features = [
   { anchor = "hag-phantom", level = 1 },
   { anchor = "hag-spellcasting" },
-  { anchor = "death-curse" },
+  { anchor = "death-curse", level = 4 },
 ]
 trades = [
   { replaces = "Shared consciousness", feature = "shared-consciousness", by = ["hag-phantom"] },

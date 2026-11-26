@@ -21,8 +21,8 @@ features = [
   { anchor = "phantom" },
   { anchor = "divine-purpose" },
   { anchor = "thanatopic-bonded-manifestation", level = 3 },
-  { anchor = "iron-bond" },
-  { anchor = "undeniable-bond" },
+  { anchor = "iron-bond", level = 9 },
+  { anchor = "undeniable-bond", level = 16 },
 ]
 trades = [
   { replaces = "Phantom's antagonistic ability", by = ["divine-purpose"] },
@@ -47,7 +47,8 @@ _[sanctify corpse](ref/spell/sanctify-corpse)_ to her list of spells known.
 
 ## Phantom {#phantom}
 
-A phantom who bonds with a fated guide must have the remorse emotional focus (see page 19).
+A phantom who bonds with a fated guide must have the [remorse](ref/emotionalfocus/remorse) emotional
+focus (see page 19).
 
 ## Divine Purpose {#divine-purpose}
 

@@ -254,6 +254,17 @@ def ext_lead_level(first: str) -> tuple[int | None, str]:
     m = re.match(r"[^.!?]*?\bof\s+" + LEAD_NTH + r"\s+level or higher\b", text)
     if m and ok(m):
         return ok(m), f'"{m.group(0)[m.group(0).index(" of ") + 1:]}" in the first sentence'
+    # review of #344: "doesn't acquire the sneak attack until 3rd level", "When the fated guide reaches 9th level, her phantom gains", and
+    # "... and at 4th level this grants her a death curse" state the level of the feature in its first sentence
+    m = re.match(r"[^.!?]*?\buntil\s+" + LEAD_NTH + r"[ -]level\b", text, re.I)
+    if m and ok(m):
+        return ok(m), f'"{m.group(0)[m.group(0).lower().index("until"):]}" in the first sentence'
+    m = re.match(r"(?:When|Once|As soon as|Upon)\s+[^.!?,]*?\breaches\s+" + LEAD_NTH + r"[ -]level\b", text, re.I)
+    if m and ok(m):
+        return ok(m), f'"{m.group(0)[m.group(0).lower().index("reaches"):]}" in the first sentence'
+    m = re.match(r"[^.!?]*?\bat\s+" + LEAD_NTH + r"[ -]level\s+this\s+grants\b", text, re.I)
+    if m and ok(m):
+        return ok(m), f'"{m.group(0)[m.group(0).lower().rindex(" at ") + 1:]}" in the first sentence'
     sentences = re.split(r"(?<=[.!?])\s+", text, maxsplit=1)
     if len(sentences) == 2:
         # not "At": a later "At 4th level, ..." is an upgrade of the feature (Hamatulatsu Master's Stunning Fist), not its lead
@@ -675,7 +686,13 @@ def fix_hyphens(s: str, vocab: set[str]) -> str:
     return re.sub(r"\b([0-9]*[A-Za-z]+)- (?=[a-z])([A-Za-z]+)\b", join, s)
 
 
+SPLIT_ITALIC = re.compile("(" + I_OPEN + "[^" + I_OPEN + I_CLOSE + r"\[\]]*)" + I_CLOSE + " " + I_OPEN + "(?=[^" + I_OPEN + I_CLOSE + r"\[\]]*" + I_CLOSE + ")")
+
+
 def render_marks(s: str) -> str:
+    """Italic marks to underscores. Two italic runs with only a space between them are one name that the line wrap of print cut
+    ("_riding_ _possession_"): one span (review of #344)."""
+    s = SPLIT_ITALIC.sub(lambda m: m.group(1) + " ", s)
     return s.replace(I_OPEN, "_").replace(I_CLOSE, "_")
 
 
@@ -2854,7 +2871,7 @@ def print_md(feat: PrintFeature, links: list[tuple[str, str]], vocab: set[str], 
         notes.append(f"errata: Paizo errata for {ERRATA_BOOKS.get(ERRATA_CTX['book'], '')} p. {feat.errata} replaces this ability")
     lost: list[str] = []
     if links:
-        links = list(links)
+        links = [l for l in links if (entry_id, l[0]) not in LINK_DROP]
         for label, target in list(links):
             phrase = CONTEXT_LINKS.get((entry_id, label))
             if phrase and phrase in text:
@@ -2961,6 +2978,19 @@ OPENING_NOTES = {
 # A link of the import that belongs on one phrase of the text, not on the first occurrence of its word: the entry, the
 # label and the words that end with it. Fey Caller (Ultimate Intrigue p. 71): the import links "fey" in "also counts as a
 # fey", the first "fey" of the text is the name of the archetype.
+# A link of the import that belongs to text this entry no longer has in the place where the placement would put it: the link of the
+# domain list of the Treesinger's Plant Bond (an unlisted section written in full, ruling 46) would otherwise land on "target plant" of
+# Eldritch Botanist. The entry writes the link in the section's own text (owner review of #344).
+LINK_DROP = {
+    ("ref/arc-druid/supernaturalist", "plant"),
+}
+
+
+MISPRINTS.append(
+    ("ref/arc-cleric/triadic-priest", "within 10 feet of least one", "within 10 feet of at least one",
+     "print has \"of least one\" where \"of at least one\" belongs (Blood of the Coven p. 19; owner ruling 9, review of #344)"))
+
+
 CONTEXT_LINKS = {
     ("ref/arc-gunslinger/scatter-gunner", "scatter"): "with the scatter",     # the link of the import is on "scatter weapon quality", not on the archetype's name
     ("ref/arc-unchained-summoner/fey-caller", "fey"): "counts as a fey",
@@ -3776,7 +3806,7 @@ LEVEL_FROM_PRINT = {
 # a feature that offers a choice from what follows ("can select an edge from those listed below", "can select from any of the following hexes")
 CHOICE_INTRO = re.compile(r"\b(?:select|selects|choose|chooses|take|takes|pick|picks)\b[^.]{0,100}?\b(?:from|among|of|in)\s+(?:the\s+|these\s+|those\s+)?"
                           r"(?:following|listed below|below)\b|\bfrom (?:those|the list) (?:listed )?below\b"
-                          r"|\badds? the following (?!spells?\b)[^.]{0,120}\bto (?:the|her|his) list\b|\bways? listed below\b", re.I)
+                          r"|\badds? the following (?!spells?\b)[^.]{0,120}\bto (?:the|her|his) list\b|\bways? listed below\b|\b(?:are|is) (?:listed|noted|described|shown) below\b|\bas noted below\b", re.I)
 LEVEL_IN_FIRST_PARAGRAPH = {
     ("ref/arc-paladin/invigorator", "champion-of-life"),     # a flavor sentence, then "At 20th level, three times per day ..."
     ("ref/arc-brawler/wild-child", "wild-tricks"),
@@ -4263,6 +4293,9 @@ def finalize(e: Entry, res: dict, class_cache: dict | None = None) -> dict:
                                                      else ", ".join(trade_name(t)[0] + " " + trade_name(t)[1] for t in ops))
                                       + (", of which one is gained at 1st level (the printed level of the trade, or the class table)" if named
                                          else ", of which one is gained at 1st level in the class table"))
+        if (e.id, r["anchor"]) in LEVEL_NONE and r["level"] is not None:
+            r["notes"].append(f"no level: print states none and the feature alters a part of a class feature (owner rulings 4 and 48); the reader would take {r['level']}")
+            r["level"] = None
         if r["level"] is not None and r["level_import"] is not None and r["level"] != r["level_import"] and r["status"] != "hold" \
                 and (e.id, r["anchor"]) not in decisions:
             r["status"] = "hold"
@@ -4291,6 +4324,7 @@ def finalize(e: Entry, res: dict, class_cache: dict | None = None) -> dict:
 
 
 # The Player Companions that set their titles in small capitals and give each archetype no box of its own (batches 6 to 9).
+BATCH_B_BOOKS = ("psychic-anthology", "disciples-doctrine", "occult-origins", "arcane-anthology", "blood-of-the-coven")     # the lead reader of `LEAD_EXT` reads them (review of #344)
 PLAYER_COMPANIONS = ("blood-of-the-ancients", "wilderness-origins", "legacy-of-the-first-world", "people-of-the-wastes", "healers-handbook", "psychic-anthology", "disciples-doctrine", "occult-origins", "arcane-anthology", "blood-of-the-coven")
 
 # The Player Companions that set their archetype titles in small capitals (a capital and its small capitals 5 units apart), and whose
@@ -4306,6 +4340,7 @@ def configure_book(book: str) -> None:
     PAGE_OFFSET[0] = 2 if book == "inner-sea-combat" else 1
     CHAPTER_END[0] = 47 if book == "inner-sea-combat" else 0
     LOWERCASE_CONTINUES["on"] = BULLETS["on"] = ITALIC_FIRST["on"] = CITE_EXT["on"] = LEAD_EXT["on"] = book in ("inner-sea-magic", "inner-sea-intrigue", "inner-sea-combat")
+    LEAD_EXT["on"] = LEAD_EXT["on"] or book in BATCH_B_BOOKS
     OCR["on"] = NO_STYLE["on"] = book == "inner-sea-combat"
     PAGE_GEOMETRY["on"] = book in ("inner-sea-magic", "inner-sea-intrigue", "inner-sea-combat")
     MARGIN_CAPTIONS["on"] = CAPTIONS["on"] = book in ("inner-sea-magic", "inner-sea-intrigue", "inner-sea-combat")
@@ -4963,6 +4998,11 @@ LEVEL_FROM_PRINT.update({
     ("ref/arc-familiar/mascot", "heart-of-the-team"): (13, "\"Once per day at 13th level\""),
     ("ref/arc-swashbuckler/wildstrider", "subterfuge"): (1, "owner rulings 35 and 48: the deed replaces dodging panache, a 1st-level deed (and alters derring-do)"),
 })
+# a feature whose print states no level although a reader of the text would take one (a step of the feature, "Beginning at 2nd level, when he selects a taboo"):
+# the feature alters a part of a class feature, so it has none (owner ruling 48 on Nexian Channeler's Third Eye, review of #344)
+LEVEL_NONE = {
+    ("ref/arc-medium/nexian-channeler", "third-eye"),
+}
 # a feature that replaces or alters only a part of a feature gets no level from the trade (owner ruling 48)
 NO_LEVEL_ONE = {
     ("ref/arc-gunslinger/bushwhacker", "craven-deeds"),       # "replaces some of her deeds with the following deeds"
@@ -5652,6 +5692,8 @@ def self_test() -> int:
     eq(join_wrapped(["\u2022 One without an end", "\u2022 Two."], set()), ["- One without an end", "- Two."], "bullet items do not merge")
     eq(finish_text("the s" + I_OPEN + "un orchid elixir" + I_CLOSE + ", granting", set()), "the " + I_OPEN + "sun orchid elixir" + I_CLOSE + ", granting", "a split italic first letter")
     eq(len(re.findall(CITE_BOOK_X, "x (" + I_OPEN + "Ultimate" + I_CLOSE + " " + I_OPEN + "Intrigue" + I_CLOSE + " 142) y")), 1, "citation with split italic words")
+    eq(render_marks(f"a {I_OPEN}riding{I_CLOSE} {I_OPEN}possession{I_CLOSE} (10th), {I_OPEN}x{I_CLOSE}, {I_OPEN}y{I_CLOSE}"), "a _riding possession_ (10th), _x_, _y_", "italic runs that the line wrap of print splits are one span")
+    eq(render_marks(f"{I_OPEN}a{I_CLOSE} {I_OPEN}[b](t){I_CLOSE}"), "_a_ _[b](t)_", "a span with a link keeps its own marks")
     eq(len(re.findall(CITE_BOOK_X, "x (" + I_OPEN + "Ultimate Intrigue 102" + I_CLOSE + ") y")), 1, "citation whose italic holds the page")
     eq(len(re.findall(CITE_BOOK_X, "x (Inner Sea World Guide 286) y")), 1, "citation of the Inner Sea World Guide")
     geo = Book({}, {1: [(200, 108, 0, "a", 300)] * 3 + [(200, 440, 0, "b", 300)] * 3 + [(200, 122, 0, "c", 300)], 2: []}, {}, set())
@@ -5664,6 +5706,12 @@ def self_test() -> int:
     eq(ext_lead_level("A Chelish diva of 8th level or higher can use her performance.")[0], 8, "lead: of Nth level or higher")
     eq(ext_lead_level("A siege gunner is trained in siegecraft. Starting at 2nd level, a siege gunner gains a bonus.")[0], 2, "lead: second sentence, starting at")
     eq(ext_lead_level("A master expands the conditions. At 4th level, she can choose to make the target shaken.")[0], None, "an upgrade in the second sentence is no lead")
+    eq(ext_lead_level("The scoundrel doesn't acquire the sneak attack ability until 3rd level, when she gains +1d6.")[0], 3, "lead: until Nth level")
+    eq(ext_lead_level("When the fated guide reaches 9th level, her phantom gains a +4 bonus.")[0], 9, "lead: reaches Nth level")
+    eq(ext_lead_level("A hag phantom is animated by a curse, and at 4th level this grants her a death curse.")[0], 4, "lead: at Nth level this grants")
+    eq(ext_lead_level("A fated guide can use this until she reaches the end of the day.")[0], None, "no level in until")
+    eq(bool(CHOICE_INTRO.search("the fortunes each of those kami grant are listed below.")), True, "a lead-in that lists below")
+    eq(bool(CHOICE_INTRO.search("as noted below, each one has its own cost.")), True, "a lead-in that says as noted below")
     eq(ext_lead_level("At 2th level, a thing")[0], None, "lead: a wrong suffix")
     CITE_EXT["on"] = True
     eq(_close_italics("(Pathfinder RPG Ultimate Magic" + I_CLOSE + " 230)"), I_CLOSE, "a dropped citation closes the italic that it shared with the name")

@@ -1,3 +1,33 @@
+[[edit]]
+entry = "ref/arc-spiritualist/fated-guide"
+anchor = "phantom"
+note = "the printed sentence, with the link to the emotional focus (ruling 52)"
+text = '''
+A phantom who bonds with a fated guide must have the [remorse](ref/emotionalfocus/remorse) emotional focus (see page 19).
+'''
+
+[[add]]
+entry = "ref/arc-bloodrager/id-rager"
+anchor = "kindness"
+head = "Kindness (Psychic Anthology page 5)"
+parent = "atavistic-avatar"
+after = "atavistic-avatar"
+note = "text of another owner book (owner ruling 32): the emotional focus Kindness of Psychic Anthology page 5, which the id rager can select; checked against that print; the import held it as a skills row of the list of foci"
+text = '''
+A bloodrager with the id rager archetype (Pathfinder Player Companion: Occult Origins 23) can select [kindness](ref/emotionalfocus/kindness) as his emotional focus. The phantom gains a number of ranks in Diplomacy and Heal equal to its number of Hit Dice. While confined in the spiritualist's consciousness, the phantom grants the spiritualist Skill Focus in each of these skills.
+'''
+
+[[add]]
+entry = "ref/arc-bloodrager/id-rager"
+anchor = "whimsey"
+head = "Whimsey (Heroes from the Fringe page 19)"
+parent = "atavistic-avatar"
+after = "kindness"
+note = "text of another owner book (owner ruling 32): the emotional focus Whimsy of Heroes from the Fringe page 19, which the id rager can select; checked against that print; the import held it as a skills row of the list of foci"
+text = '''
+A bloodrager with the id rager archetype (Pathfinder Player Companion: Occult Origins 23) can select [whimsy](ref/emotionalfocus/whimsey) as his emotional focus. The phantom gains a number of ranks in Acrobatics and Perception equal to its number of Hit Dice. While confined in the spiritualist's consciousness, the phantom grants the spiritualist Skill Focus in each of these skills.
+'''
+
 [[add]]
 entry = "ref/arc-druid/supernaturalist"
 anchor = "plant-bond-arg"
@@ -6,7 +36,7 @@ parent = "eldritch-botanist"
 after = "eldritch-botanist"
 note = "ruling 46: the ability that Eldritch Botanist points to, with the text as the Advanced Race Guide prints it (the Treesinger, p. 25)"
 text = '''
-At 1st level, a treesinger forms a mystic bond with plant life. This bond can take one of two forms. The first grants the treesinger one of the following domains: Plant (Core Rulebook); Growth (Advanced Player's Guide); Jungle, Swamp (Ultimate Magic). When determining the powers and bonus spells granted by this domain, the treesinger's effective cleric level is equal to her druid level. A treesinger who selects this option also receives additional domain spell slots, just like a cleric. She must prepare the spell from her domain in this slot, and this spell cannot be used to cast a spell spontaneously.
+At 1st level, a treesinger forms a mystic bond with plant life. This bond can take one of two forms. The first grants the treesinger one of the following domains: [Plant](ref/domain/plant) (Core Rulebook); Growth (Advanced Player's Guide); Jungle, Swamp (Ultimate Magic). When determining the powers and bonus spells granted by this domain, the treesinger's effective cleric level is equal to her druid level. A treesinger who selects this option also receives additional domain spell slots, just like a cleric. She must prepare the spell from her domain in this slot, and this spell cannot be used to cast a spell spontaneously.
 
 The second option is to form a close bond with a plant companion. A treesinger may begin play with any of the plants listed in Plant Companions (see page 26). This plant is a loyal companion that accompanies the treesinger on her adventures. Except for the companion being a creature of the plant type, drawn from the list of plant companions, this ability otherwise works like the standard druid's animal companion ability.
 

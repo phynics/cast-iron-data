@@ -18,7 +18,7 @@ page = "10"
 kind = "archetype"
 features = [
   { anchor = "legend-of-nex", level = 1 },
-  { anchor = "third-eye", level = 1 },
+  { anchor = "third-eye" },
   { anchor = "impossible-eye", level = 3 },
   { anchor = "third-eye-mastery", level = 19 },
   { anchor = "living-third-eye", level = 20 },

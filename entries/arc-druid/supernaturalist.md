@@ -43,15 +43,14 @@ proficiencies.
 
 A supernaturalist can affect plants with mind-affecting effects she creates and with spells that
 normally affect animals. Any such spell that allows a Will save can instead be negated by the target
-[plant](ref/domain/plant) with a successful Fortitude save at the same DC. She also can choose plant
-bond and green empathy, as a treesinger druid (_Advanced Race Guide_ 25), in place of nature bond
-and wild empathy.
+plant with a successful Fortitude save at the same DC. She also can choose plant bond and green
+empathy, as a treesinger druid (_Advanced Race Guide_ 25), in place of nature bond and wild empathy.
 
 ### Plant Bond (Advanced Race Guide page 25) {#plant-bond-arg}
 
 At 1st level, a treesinger forms a mystic bond with plant life. This bond can take one of two forms.
-The first grants the treesinger one of the following domains: Plant (Core Rulebook);
-[Growth](ref/domain/plant) (Advanced Player's Guide); [Jungle](ref/druiddomain/jungle),
+The first grants the treesinger one of the following domains: [Plant](ref/domain/plant) (Core
+Rulebook); [Growth](ref/domain/plant) (Advanced Player's Guide); [Jungle](ref/druiddomain/jungle),
 [Swamp](ref/druiddomain/swamp) (Ultimate Magic). When determining the powers and bonus spells
 granted by this domain, the treesinger's effective cleric level is equal to her druid level. A
 treesinger who selects this option also receives additional domain spell slots, just like a cleric.

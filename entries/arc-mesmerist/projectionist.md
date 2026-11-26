@@ -37,7 +37,7 @@ A projectionist's psychic powers manifest in an almost predictable manner, makin
 versatile than other spellcasters. At each of the indicated levels, a projectionist must choose the
 indicated spell to learn—he cannot choose other spells. The spells that a projectionist must learn
 (and the level at which he must choose them) are _enter image_ (4th), _lesser object possession_
-(7th), _riding_ _possession_ (10th), _object possession_ (13th), and _greater object_ _possession_
+(7th), _riding possession_ (10th), _object possession_ (13th), and _greater object possession_
 (16th). The projectionist adds _greater object possession_ to his spell list as a 6th-level spell.
 
 This ability alters the mesmerist's spellcasting.

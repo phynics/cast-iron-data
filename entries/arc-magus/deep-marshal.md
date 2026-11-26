@@ -57,10 +57,11 @@ level: _[crafter's curse](ref/spell/crafters-curse)_,
 _[crafter's fortune](ref/spell/crafters-fortune)_, _[erase](ref/spell/erase)_,
 _[expeditious excavation](ref/spell/expeditious-excavation)_, _[fabricate](ref/spell/fabricate)_,
 _[greater make whole](ref/spell/make-whole-greater)_ (_Technology Guide_ 10),
-_[knock](ref/spell/knock)_, _major_ _creation_, _[make whole](ref/spell/make-whole)_,
-_[mending](ref/spell/mending)_, _[minor creation](ref/spell/minor-creation)_,
-_[move earth](ref/spell/move-earth)_, _[passwall](ref/spell/passwall)_,
-_[stone shape](ref/spell/stone-shape)_, _[transmute mud to rock](ref/spell/transmute-mud-to-rock)_,
+_[knock](ref/spell/knock)_, _[major creation](ref/spell/major-creation)_,
+_[make whole](ref/spell/make-whole)_, _[mending](ref/spell/mending)_,
+_[minor creation](ref/spell/minor-creation)_, _[move earth](ref/spell/move-earth)_,
+_[passwall](ref/spell/passwall)_, _[stone shape](ref/spell/stone-shape)_,
+_[transmute mud to rock](ref/spell/transmute-mud-to-rock)_,
 _[transmute rock to mud](ref/spell/transmute-rock-to-mud)_, and all 0- through 6th-level
 sorcerer/wizard spells of the abjuration school. She must still add such spells to her spellbook to
 prepare them. If a spell appears on both the magus and sorcerer/wizard spell lists, the magus uses

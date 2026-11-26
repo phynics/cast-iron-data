@@ -31,8 +31,8 @@ dangers, and he models his fighting style after their teachings.
 
 ## Planar Combatant (Ex) {#planar-combatant}
 
-At 2nd level, an elemental envoy must choose the elemental combat style on this page, choosing his
-combat style feats from that list.
+At 2nd level, an elemental envoy must choose the elemental [combat style](ref/ability/combat-styles)
+on this page, choosing his combat style feats from that list.
 
 This alters the ranger's combat style feats.
 

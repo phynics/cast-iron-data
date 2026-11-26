@@ -17,7 +17,6 @@ page = "17"
 [fields]
 kind = "archetype"
 features = [
-  { anchor = "recommended-mysteries" },
   { anchor = "revelations", level = 1 },
   { anchor = "calculate-the-odds", level = 1 },
   { anchor = "program-the-divine-algorithm", level = 7 },

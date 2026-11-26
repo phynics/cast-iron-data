@@ -18,11 +18,6 @@ page = "26"
 kind = "archetype"
 features = [
   { anchor = "propitiation", level = 1 },
-  { anchor = "jinushigami" },
-  { anchor = "kodama" },
-  { anchor = "shikigami" },
-  { anchor = "toshigami" },
-  { anchor = "zuishin" },
   { anchor = "resilient-stand", level = 11 },
 ]
 trades = [
@@ -68,14 +63,14 @@ previous fortune and its benefits.
 
 This replaces resolve, greater resolve, and true resolve.
 
-## Jinushigami (Ex, Sp) {#jinushigami}
+### Jinushigami (Ex, Sp) {#jinushigami}
 
 The ward speaker (and his mount, if he has one) gains a 10-foot enhancement bonus to base speed. At
 9th level, this enhancement bonus increases to 20 feet. At 17th level, once per day, he can dismiss
 this fortune as an immediate action to cast _[earthquake](ref/spell/earthquake)_ as a
 [spell-like ability](ref/umr/spell-like-abilities), using his samurai level as his caster level.
 
-## Kodama (Su) {#kodama}
+### Kodama (Su) {#kodama}
 
 As a standard action, the ward speaker can afflict one target that can see him with a distracting
 [gaze](ref/umr/gaze). If the target fails a Will save (DC = 10 + half the ward speaker's samurai
@@ -83,7 +78,7 @@ level), it is [staggered](ref/misc/staggered) for 1d4 rounds. At 9th level, it i
 for 2d4 rounds. At 17th level, it is instead staggered for 1 minute. Once a creature has been
 targeted by this ability, it cannot be targeted by it again for 24 hours.
 
-## Shikigami (Ex) {#shikigami}
+### Shikigami (Ex) {#shikigami}
 
 The ward speaker gains [Catch Off-Guard](ref/feat/catch-off-guard) and
 [Throw Anything](ref/feat/throw-anything) as bonus feats. At 9th level, he gains
@@ -91,7 +86,7 @@ The ward speaker gains [Catch Off-Guard](ref/feat/catch-off-guard) and
 [Following Step](ref/feat/following-step) and [Step Up and Strike](ref/feat/step-up-and-strike),
 even if he does not meet the prerequisites.
 
-## Toshigami (Sp) {#toshigami}
+### Toshigami (Sp) {#toshigami}
 
 The ward speaker can [speak with plants](ref/spell/speak-with-plants), as the _speak with plants_
 spell. At 9th level, the ward speaker can dismiss this fortune as an immediate action to cast
@@ -101,7 +96,7 @@ _[temporal stasis](ref/spell/temporal-stasis)_ as a
 [spell-like ability](ref/umr/spell-like-abilities). The ward speaker's caster level for these
 [spell-like abilities](ref/umr/spell-like-abilities) is equal to his samurai level.
 
-## Zuishin (Sp) {#zuishin}
+### Zuishin (Sp) {#zuishin}
 
 As an immediate action, the ward speaker can dismiss this fortune to cast
 _[cure light wounds](ref/spell/cure-light-wounds)_ as a
