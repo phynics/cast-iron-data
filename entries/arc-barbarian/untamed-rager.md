@@ -16,57 +16,40 @@ page = "15"
 
 [fields]
 kind = "archetype"
+features = [
+  { anchor = "despicable-tactics", level = 2 },
+  { anchor = "feral-appearance", level = 3 },
+  { anchor = "deplorable-tactics", level = 5 },
+  { anchor = "dishonorable", level = 7 },
+]
 trades = [
-  { replaces = "Uncanny dodge", feature = "uncanny-dodge" },
-  { replaces = "Trap sense", feature = "trap-sense" },
-  { replaces = "Improved uncanny dodge", feature = "improved-uncanny-dodge" },
-  { replaces = "Damage reduction", feature = "damage-reduction" },
+  { replaces = "Uncanny dodge", feature = "uncanny-dodge", by = ["despicable-tactics"] },
+  { replaces = "Trap sense", feature = "trap-sense", by = ["feral-appearance"] },
+  { replaces = "Improved uncanny dodge", feature = "improved-uncanny-dodge", by = ["deplorable-tactics"] },
+  { replaces = "Damage reduction", feature = "damage-reduction", by = ["dishonorable"] },
 ]
 +++
 
 There are no rules in the wild. Some barbarians enter combat with only victory in mind and do
 anything in their power to achieve it.
 
-**Despicable Tactics**
+## Despicable Tactics {#despicable-tactics}
 
-**Ability:** The untamed rager gains [Improved Dirty Trick](ref/feat/improved-dirty-trick) as a
-bonus feat.
+At 2nd level, the untamed rager gains [Improved Dirty Trick](ref/feat/improved-dirty-trick) as a
+bonus feat. This ability replaces uncanny dodge.
 
-**Gained:** At 2nd Level
+## Feral Appearance (Ex) {#feral-appearance}
 
-**Replaces:** Uncanny dodge
+At 3rd level, the untamed rager gains a +1 bonus on Intimidate checks. This bonus increases by 1
+every 3 barbarian levels thereafter. This ability replaces trap sense.
 
-**Feral Appearance (Ex)**
+## Deplorable Tactics {#deplorable-tactics}
 
-**Gained:** At 3rd Level
+At 5th level, the untamed rager gains [Greater Dirty Trick](ref/feat/greater-dirty-trick) as a bonus
+feat. This ability replaces improved uncanny dodge.
 
-**Passive:** The untamed rager gains a bonus on Intimidate checks equal to
-[one-third](ref/misc/fractions-and-rounding) of her barbarian level.
+## Dishonorable (Ex) {#dishonorable}
 
-**Replaces:** Trap sense
-
-**Deplorable Tactics**
-
-**Ability:** The untamed rager gains [Greater Dirty Trick](ref/feat/greater-dirty-trick) as a bonus
-feat.
-
-**Gained:** At 5th Level
-
-**Replaces:** Improved uncanny dodge
-
-**Dishonorable (Ex)**
-
-**Gained:** At 7th Level
-
-**Passive:** The untamed rager gains a +1 bonus on combat maneuver checks when performing dirty
-tricks and to her CMD to resist others' dirty tricks.
-
-**Replaces:** [Damage reduction](ref/rule/damage-reduction)
-
-At 10th level: The bonus increases to +2.
-
-At 13th level: The bonus increases to +3.
-
-At 16th level: The bonus increases to +4.
-
-At 19th level: The bonus increases to +5.
+At 7th level and every 3 barbarian levels thereafter, the untamed rager gains a +1 bonus on combat
+maneuver checks when performing dirty tricks and to her CMD to resist others' dirty tricks. This
+ability replaces [damage reduction](ref/rule/damage-reduction).

@@ -16,66 +16,58 @@ page = "13"
 
 [fields]
 kind = "archetype"
+features = [
+  { anchor = "staggering-reflexes", level = 1 },
+  { anchor = "ambuscading-sneak-attack", level = 4 },
+  { anchor = "danger-awareness", level = 8 },
+  { anchor = "exceptional-reflexes", level = 12 },
+  { anchor = "masterful-reflexes", level = 20 },
+]
 trades = [
-  { replaces = "Trapfinding", feature = "trapfinding" },
-  { replaces = "Uncanny dodge", feature = "uncanny-dodge" },
-  { replaces = "Improved uncanny dodge", feature = "improved-uncanny-dodge" },
-  { replaces = "Rogue talent gained at 12th level", feature = "rogue-talents", levels = [12] },
-  { replaces = "Rogue talent gained at 20th level", feature = "rogue-talents", levels = [20] },
+  { replaces = "Trapfinding", feature = "trapfinding", by = ["staggering-reflexes"] },
+  { replaces = "Uncanny dodge", feature = "uncanny-dodge", by = ["ambuscading-sneak-attack"] },
+  { replaces = "Improved uncanny dodge", feature = "improved-uncanny-dodge", by = ["danger-awareness"] },
+  { replaces = "Rogue talent gained at 12th level", feature = "rogue-talents", levels = [12], by = ["exceptional-reflexes"] },
+  { replaces = "Rogue talent gained at 20th level", feature = "rogue-talents", levels = [20], by = ["masterful-reflexes"] },
 ]
 +++
 
 A clever rogue knows the easiest battle to win is the one that's over before your foe knows it has
 begun. Some rogues thus specialize in setting up ambushes to catch their opponents off guard.
 
-**Staggering Reflexes (Ex)**
+## Staggering Reflexes (Ex) {#staggering-reflexes}
 
-**Gained:** At 1st Level
-
-**Passive:** A waylayer gains a bonus on initiative checks equal to 1/2 her level (minimum +1) if
+At 1st level, a waylayer gains a bonus on initiative checks equal to 1/2 her level (minimum +1) if
 she acts in a surprise round, and is never [flat-footed](ref/rule/flat-footed) at the start of
-combat (even if she fails to act during the surprise round).
+combat (even if she fails to act during the surprise round). This ability replaces trapfinding.
 
-**Replaces:** Trapfinding
+## Ambuscading Sneak Attack (Ex) {#ambuscading-sneak-attack}
 
-**Ambuscading Sneak Attack (Ex)**
+At 4th level, a waylayer becomes especially skilled at attacking unaware foes. When she makes a
+sneak attack during a surprise round, she uses d8s to roll sneak attack damage instead of d6s. This
+ability replaces uncanny dodge.
 
-**Ability:** When she makes a sneak attack during a surprise round, she uses d8s to roll sneak
-attack damage instead of d6s.
+## Danger Awareness (Ex) {#danger-awareness}
 
-**Flavor:** A waylayer becomes especially skilled at attacking unaware foes.
+At 8th level, a waylayer is never considered an unaware combatant and is always able to act in the
+surprise round. This replaces improved uncanny dodge.
 
-**Gained:** At 4th Level
+## Exceptional Reflexes (Ex) {#exceptional-reflexes}
 
-**Replaces:** Uncanny dodge
+At 12th level, a waylayer can move up to her speed before taking her action in a surprise round.
+This replaces the rogue talent gained at 12th level.
 
-**Danger Awareness (Ex)**
+## Masterful Reflexes (Ex) {#masterful-reflexes}
 
-**Gained:** At 8th Level
+At 20th level, a waylayer's initiative roll is automatically a natural 20. This ability replaces the
+rogue talent gained at 20th level.
 
-**Passive:** A waylayer is never considered an unaware combatant and is always able to act in the
-surprise round.
+## Rogue Talents {#rogue-talents}
 
-**Replaces:** Improved uncanny dodge
+The following rogue talents complement the waylayer archetype: camouflage, cunning trigger, quick
+trapsmith, slow reactions, surprise attack, and underhanded.
 
-**Exceptional Reflexes (Ex)**
+## Advanced Talents {#advanced-talents}
 
-**Ability:** A waylayer can move up to her speed before taking her action in a surprise round.
-
-**Gained:** At 12th Level
-
-**Replaces:** Rogue talent gained at 12th level
-
-**Masterful Reflexes (Ex)**
-
-**Ability:** A waylayer's initiative roll is automatically a natural 20.
-
-**Gained:** At 20th Level
-
-**Replaces:** Rogue talent gained at 20th level
-
-**These rogue talents complement this archetype:** Camouflage, cunning trigger, quick trapsmith,
-slow reactions, surprise attack, underhanded
-
-**These advanced rogue talents complement this archetype:** Entanglement of blades, hide in plain
-sight, knock-out blow, weapon snatcher
+The following advanced talents complement the waylayer archetype: entanglement of blades, hide in
+plain sight, knock-out blow, and weapon snatcher.

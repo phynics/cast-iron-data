@@ -16,82 +16,71 @@ page = "19"
 
 [fields]
 kind = "archetype"
+features = [
+  { anchor = "diminished-spellcasting", level = 1 },
+  { anchor = "shrouded-spells" },
+  { anchor = "encroaching-darkness", level = 1 },
+  { anchor = "potent-shadows", level = 7 },
+  { anchor = "crippling-darkness", level = 13 },
+]
 trades = [
-  { replaces = "1st-level bloodline power", feature = "bloodline", levels = [1], power = "bloodline power" },
-  { replaces = "7th-level bloodline feat", feature = "bloodline", levels = [7], power = "bloodline feat" },
-  { replaces = "13th-level bloodline feat", feature = "bloodline", levels = [13], power = "bloodline feat" },
-  { alters = "Spellcasting", feature = "spells" },
+  { replaces = "Shadowstrike bloodline power", feature = "bloodline", levels = [1], power = "bloodline power", by = ["encroaching-darkness"] },
+  { replaces = "7th-level bloodline feat", feature = "bloodline", levels = [7], power = "bloodline feat", by = ["potent-shadows"] },
+  { replaces = "13th-level bloodline feat", feature = "bloodline", levels = [13], power = "bloodline feat", by = ["crippling-darkness"] },
+  { alters = "Spellcasting", feature = "spells", by = ["diminished-spellcasting"] },
 ]
 +++
 
 Umbral scions are sorcerers who are able to expertly control their especially potent shadow
 heritage. The majority of umbral sorcerers hail from the Darklands.
 
-**Prerequisites:** [Shadow](ref/sorcbloodline/shadow) bloodline
+## Bloodline {#bloodline}
 
-**Diminished Spellcasting**
+An umbral scion must have the [shadow](ref/sorcbloodline/shadow) bloodline.
 
-**Alters:** Spellcasting
+## Diminished Spellcasting {#diminished-spellcasting}
 
-**Info:** An umbral scion can cast one fewer spell per day of each level than normal. If this
-reduces the number to 0, she can cast spells of that level only if her Charisma score grants her
+An umbral scion can cast one fewer spell per day of each level than normal. If this reduces the
+number to 0, she can cast spells of that level only if her Charisma score grants her
 [bonus spells](ref/rule/determine-bonuses) of that level.
 
-**Shrouded Spells (Su)**
+This ability alters the sorcerer's spellcasting.
 
-**Flavor:** An umbral scion is enveloped by wisps of shadow whenever she casts a spell.
+## Shrouded Spells (Su) {#shrouded-spells}
 
-**Passive:** The DC to identify spells cast by an umbral scion increases by 2. If the spell is being
-cast within an area of [dim light](ref/rule/vision-and-light) or darkness, the DC increases by 5
-instead.
+An umbral scion is enveloped by wisps of shadow whenever she casts a spell. The DC to identify
+spells cast by an umbral scion increases by 2. If the spell is being cast within an area of
+[dim light](ref/rule/vision-and-light) or darkness, the DC increases by 5 instead.
 
-**Encroaching Darkness (Su)**
+## Encroaching Darkness (Su) {#encroaching-darkness}
 
-**Flavor:** An umbral scion is capable of influencing light around her.
+An umbral scion is capable of influencing light around her. As a standard action, she can produce a
+10-foot-radius veil centered on a creature or object within 30 feet. This veil decreases the
+[light level](ref/rule/vision-and-light) by one step and remains for a number of rounds equal to the
+sorcerer's Charisma modifier. At 7th level, the veil increases to a 30-foot radius. At 8th level,
+the veil decreases the light level by two steps. If the light level is decreased past darkness, the
+veil is treated as _[deeper darkness](ref/spell/deeper-darkness)_. At 14th level, the veil increases
+to 60 feet and grants any creature within it [cover](ref/rule/cover) (even against senses normally
+able to penetrate total darkness, such as the [see in darkness](ref/umr/see-in-darkness) ability).
+An umbral scion can use this ability a number of times per day equal to 3 + her Charisma modifier.
 
-**At 14th Level:** The veil increases to 60 feet and grants any creature within it
-[cover](ref/rule/cover) (even against senses normally able to penetrate total darkness, such as the
-[see in darkness](ref/umr/see-in-darkness) ability).
+This ability replaces the shadowstrike bloodline power.
 
-**At 7th Level:** The veil increases to a 30-foot radius.
+## Potent Shadows (Su) {#potent-shadows}
 
-**At 8th Level:** The veil decreases the light level by two steps. If the light level is decreased
-past darkness, the veil is treated as [deeper darkness](ref/spell/deeper-darkness).
-
-**Replaces:** 1st-level bloodline power
-
-**Standard:** She can produce a 10-foot-radius veil centered on a creature or object within 30 feet.
-This veil decreases the [light level](ref/rule/vision-and-light) by one step and remains for a
-number of rounds equal to the sorcerer's Charisma modifier.
-
-**Usage:** Charisma3 modifier times/day
-
-**Potent Shadows (Su)**
-
-**Gained:** At 7th Level
-
-**Passive:** When an umbral scion casts a spell of the
+At 7th level, when an umbral scion casts a spell of the
 [shadow subschool](ref/spelldef/shadow-subschool) or a spell with the
 [darkness](ref/spelldef/darkness) or [shadow descriptor](ref/spelldef/shadow-descriptor) within an
 area of dim light or darkness, she treats her caster level as 1 higher. Only the sorcerer herself
-needs to be in dim light or darkness.
+needs to be in dim light or darkness. This bonus increases by 1 every 4 sorcerer levels beyond 7th
+she has to a maximum of +4 at 19th level.
 
-**Replaces:** 7th-level bloodline feat
+This ability replaces the 7th-level bloodline feat.
 
-At 11th level: This bonus increases to +2.
+## Crippling Darkness (Su) {#crippling-darkness}
 
-At 15th level: This bonus increases to +3.
+At 13th level, when an umbral scion targets a creature within an area of dim light or darkness with
+a spell of the shadow subschool or a spell with the darkness or shadow descriptor, the DC for the
+spell increases by 1. This bonus increases by 1 at 18th level.
 
-At 19th level: This bonus increases to +4.
-
-**Crippling Darkness (Su)**
-
-**At 18th Level:** This bonus increases by 1.
-
-**Gained:** At 13th Level
-
-**Passive:** When an umbral scion targets a creature within an area of dim light or darkness with a
-spell of the shadow subschool or a spell with the darkness or shadow descriptor, the DC for the
-spell increases by 1.
-
-**Replaces:** 13th-level bloodline feat
+This ability replaces the 13th-level bloodline feat.

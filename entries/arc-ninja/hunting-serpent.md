@@ -16,51 +16,53 @@ page = "104"
 
 [fields]
 kind = "archetype"
+features = [
+  { anchor = "relentless-pursuit", level = 3 },
+  { anchor = "death-mark", level = 4 },
+  { anchor = "certain-demise", level = 10 },
+]
 trades = [
-  { replaces = "No trace", feature = "no-trace" },
-  { replaces = "Uncanny dodge", feature = "uncanny-dodge" },
-  { replaces = "improved uncanny dodge", feature = "improved-uncanny-dodge" },
-  { replaces = "ninja tricks gained at 12th and 16th levels", feature = "ninja-tricks", levels = [12, 16] },
-  { replaces = "Ninja trick gained at 10th level", feature = "ninja-tricks", levels = [10] },
+  { replaces = "No trace", feature = "no-trace", by = ["relentless-pursuit"] },
+  { replaces = "Uncanny dodge", feature = "uncanny-dodge", by = ["death-mark"] },
+  { replaces = "improved uncanny dodge", feature = "improved-uncanny-dodge", by = ["death-mark"] },
+  { replaces = "ninja tricks gained at 12th and 16th levels", feature = "ninja-tricks", levels = [12, 16], by = ["death-mark"] },
+  { replaces = "Ninja trick gained at 10th level", feature = "ninja-tricks", levels = [10], by = ["certain-demise"] },
+  { alters = "Class skills" },
 ]
 +++
 
 The order dispatches specially trained killers to hunt relentlessly and fight from the shadows.
 
-**Gained class skills:** sur
+## Class Skills {#class-skills}
 
-**Lost class skills:** kno
+A hunting serpent gains Survival as a class skill but loses Knowledge (nobility).
 
-**Relentless Pursuit (Ex)**
+This ability alters the ninja's class skills.
 
-**Gained:** At 3rd Level
+## Relentless Pursuit (Ex) {#relentless-pursuit}
 
-**Passive:** A hunting serpent gains a bonus on Diplomacy checks to gather information and on
-Survival checks to identify or follow tracks. The bonus is equal to
-[one-third](ref/misc/fractions-and-rounding) of her ninja level.
+At 3rd level, a hunting serpent gains a +1 bonus on Diplomacy checks to gather information and on
+Survival checks to identify or follow tracks. The bonus increases by 1 for every 3 ninja levels
+beyond 3rd.
 
-**Replaces:** No trace
+This ability replaces no trace.
 
-**Death Mark (Ex)**
+## Death Mark (Ex) {#death-mark}
 
-**Gained:** At 4th Level
-
-**Replaces:** Uncanny dodge, improved uncanny dodge, ninja tricks gained at 12th and 16th levels
-
-**Special:** The effects of _death mark_ last for 24 hours, until the marked creature is slain, or
+At 4th level, as a swift action once per day, a hunting serpent can mark an opponent damaged by her
+sneak attack for death. A hunting serpent gains a +1 competence bonus on attack and damage rolls
+against an opponent affected by death mark as well as on Survival checks to track the marked
+creature. The bonuses from death mark and its number of uses per day increase by 1 at 8th, 12th, and
+16th levels. The effects of death mark last for 24 hours, until the marked creature is slain, or
 until the hunting serpent chooses to mark another creature, whichever comes first.
 
-**Swift:** Once per day, a hunting serpent can mark an opponent damaged by her sneak attack for
-death. A hunting serpent gains a +1 competence bonus on attack and damage rolls against an opponent
-affected by _death mark_ as well as on Survival checks to track the marked creature.
+This ability replaces uncanny dodge, improved uncanny dodge, and the ninja tricks gained at 12th and
+16th levels.
 
-**Certain Demise (Ex)**
+## Certain Demise (Ex) {#certain-demise}
 
-**Ability:** The hunting serpent's sneak attack damage applies on the first attack she makes each
-round against the target of her _death mark_ ability, even if it normally wouldn't.
+At 10th level, the hunting serpent's sneak attack damage applies on the first attack she makes each
+round against the target of her death mark ability, even if it normally wouldn't. Other effects that
+trigger on a sneak attack do not apply with this ability.
 
-**Gained:** At 10th Level
-
-**Replaces:** Ninja trick gained at 10th level
-
-**Special:** Other effects that trigger on a sneak attack do not apply with this ability.
+This ability replaces the ninja trick gained at 10th level.

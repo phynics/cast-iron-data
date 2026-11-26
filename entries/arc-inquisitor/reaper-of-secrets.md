@@ -16,55 +16,50 @@ page = "17"
 
 [fields]
 kind = "archetype"
+features = [
+  { anchor = "bound-by-secrecy" },
+  { anchor = "deceitful-lore", level = 1 },
+  { anchor = "soul-piercing-gaze", level = 1 },
+  { anchor = "mind-game-tactics", level = 3 },
+]
 trades = [
-  { replaces = "Monster lore", feature = "monster-lore" },
-  { replaces = "Stern gaze", feature = "stern-gaze" },
-  { replaces = "Solo tactics", feature = "solo-tactics" },
+  { replaces = "Monster lore", feature = "monster-lore", by = ["deceitful-lore"] },
+  { replaces = "Stern gaze", feature = "stern-gaze", by = ["soul-piercing-gaze"] },
+  { replaces = "Solo tactics", feature = "solo-tactics", by = ["mind-game-tactics"] },
 ]
 +++
 
 Masters of mind tricks and deception, these divine assassins track down and kill anyone who has
 forbidden knowledge about their faiths.
 
-**Bound by Secrecy (Ex)**
+## Bound by Secrecy (Ex) {#bound-by-secrecy}
 
-**Info:** A reaper of secrets must choose [Norgorber](ref/faith/norgorber) as her deity. If she ever
-changes her deity, she loses this archetype and becomes a normal inquisitor.
+A reaper of secrets must choose [Norgorber](ref/faith/norgorber) as her deity. If she ever changes
+her deity, she loses this archetype and becomes a normal inquisitor.
 
-**Deceitful Lore (Ex)**
+## Deceitful Lore (Ex) {#deceitful-lore}
 
-**Gained:** At 1st Level
+At 1st level, a reaper of secrets adds her Wisdom modifier on Bluff and Disguise skill checks in
+addition to her Charisma modifier. This ability replaces monster lore.
 
-**Passive:** A reaper of secrets adds her Wisdom modifier on Bluff and Disguise skill checks in
-addition to her Charisma modifier.
+## Soul-Piercing Gaze (Su) {#soul-piercing-gaze}
 
-**Replaces:** Monster lore
+At 1st level, as a swift action, a reaper of secrets can focus on a single creature she can see. She
+then gains an insight bonus on Perception and Sense Motive checks against that creature equal to 1/2
+her level (minimum +1). The effect ends if she focuses on a new target. This ability replaces stern
+gaze.
 
-**Soul-Piercing Gaze (Su)**
+## Mind-Game Tactics (Su) {#mind-game-tactics}
 
-**Gained:** At 1st Level
+At 3rd level, a reaper of secrets can read other creatures so well she can use their reactions to
+gain a tactical advantage. She treats any creature targeted by her soul-piercing gaze as if it were
+her ally and possessed the same teamwork feats as she does for the purposes of positioning and
+threatening when she determines whether she receives a benefit from her teamwork feats. She cannot
+use this ability to benefit from any teamwork feats that require particular actions from allies,
+such as [Swap Places](ref/feat/swap-places).
 
-**Replaces:** Stern gaze
+For example, a reaper of secrets with the [Precise Strike](ref/feat/precise-strike) feat gains the
+bonus from that feat if she and the target of her soul-piercing gaze occupy flanking positions
+relative to the creature she attacks.
 
-**Swift:** A reaper of secrets can focus on a single creature she can see. She then gains an insight
-bonus on Perception and Sense Motive checks against that creature equal to 1/2 her level (minimum
-+1). The effect ends if she focuses on a new target.
-
-**Mind-Game Tactics (Su)**
-
-**Ability:** She treats any creature targeted by her _soul-piercing gaze_ as if it were her ally and
-possessed the same teamwork feats as she does for the purposes of positioning and threatening when
-she determines whether she receives a benefit from her teamwork feats. She cannot use this ability
-to benefit from any teamwork feats that require particular actions from allies, such as
-[Swap Places](ref/feat/swap-places).
-
-**Flavor:** A reaper of secrets can read other creatures so well she can use their reactions to gain
-a tactical advantage.
-
-**Gained:** At 3rd Level
-
-**Replaces:** Solo tactics
-
-**Special:** For example, a reaper of secrets with the [Precise Strike](ref/feat/precise-strike)
-feat gains the bonus from that feat if she and the target of her _soul-piercing gaze_ occupy
-flanking positions relative to the creature she attacks.
+This ability replaces solo tactics.
