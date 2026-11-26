@@ -94,7 +94,7 @@ Player Companions (batches 6 to 9: Wilderness Origins, Legacy of the First World
 `PLAYER_COMPANIONS` books read their titles like Blood of the Ancients (small capitals, any title ends an archetype's span), and their
 chapter-opening title sits above the body (`CHAPTER_TITLES`: type of 40 or more at top 40..88), so that it ends the span of the last
 archetype of the chapter. Printed citations of other books ("(Ultimate Wilderness 58)", "(Pathfinder Player Companion: Heroes of
-the Wild 26)") go after a link that names the thing (owner ruling 26); `LEVEL_STATED` gives a level that print states in other words.
+the Wild 26)") go after a link that names the thing (owner ruling 26); `LEVEL_FROM_PRINT` gives a level that print states in other words.
 The trades the books need are rows of `TRADE_RENAMES`, `TRADE_ADDITIONS` and `SCAFFOLD_TRADE_ADDITIONS` (a block each, at the top of the dict).
 
 Files
@@ -3356,6 +3356,10 @@ UPGRADE_WORDS = re.compile(r"\b(?:increases?|improves?|becomes?|rises?|grows?|de
 OF_LEVEL = re.compile(r"^[^.]*?\bof\s+(\d+)(st|nd|rd|th)\s+level\b(?!\s+or\s+lower)", re.I)
 # A level that the text of the feature does not state but the section before it does (review of #338): "must take the following revelation at 3rd level"
 LEVEL_FROM_PRINT = {
+    # batches 6 to 9 (review of #339)
+    ("ref/arc-bard/first-world-minstrel", "gremlin-s-luck"): (8, "print says \"A First World minstrel of 8th level or higher\""),
+    ("ref/arc-oracle/hermit", "recluse-s-stride"): (1, "print says \"You must take this revelation at 1st level\""),
+    ("ref/arc-cleric/angelfire-apostle", "diminished-spellcasting"): (1, "ruling 50: alters the cleric's spellcasting (one fewer spell slot of each level, the whole feature, a 1st-level class feature)"),
     # owner ruling 50 (review of #338): altering the whole spellcasting of the class, or its implements, is altering a whole 1st-level feature
     ("ref/arc-occultist/silksworn", "spells"): (1, "ruling 50: alters the occultist's spells (the whole spellcasting, a 1st-level class feature)"),
     ("ref/arc-occultist/silksworn", "implements"): (1, "ruling 50: alters the occultist's implements, a 1st-level class feature on the class table"),
@@ -3369,12 +3373,6 @@ LEVEL_FROM_PRINT = {
 CHOICE_INTRO = re.compile(r"\b(?:select|selects|choose|chooses|take|takes|pick|picks)\b[^.]{0,100}?\b(?:from|among|of|in)\s+(?:the\s+|these\s+|those\s+)?"
                           r"(?:following|listed below|below)\b|\bfrom (?:those|the list) (?:listed )?below\b"
                           r"|\badds? the following (?!spells?\b)[^.]{0,120}\bto (?:the|her|his) list\b|\bways? listed below\b", re.I)
-# A level that print states in words that the lead rules do not read: the entry, the anchor, the level and the printed words (Batches 6 to 9).
-LEVEL_STATED = {
-    ("ref/arc-bard/first-world-minstrel", "gremlin-s-luck"): (8, "A First World minstrel of 8th level or higher"),     # review of #339
-    ("ref/arc-oracle/hermit", "recluse-s-stride"): (1, "You must take this revelation at 1st level"),
-}
-
 LEVEL_IN_FIRST_PARAGRAPH = {
     ("ref/arc-paladin/invigorator", "champion-of-life"),     # a flavor sentence, then "At 20th level, three times per day ..."
     ("ref/arc-brawler/wild-child", "wild-tricks"),
@@ -3814,9 +3812,6 @@ def finalize(e: Entry, res: dict, class_cache: dict | None = None) -> dict:
         if r["level"] is None and r["listed"] and (e.id, r["anchor"]) in LEVEL_FROM_PRINT:
             r["level"], why = LEVEL_FROM_PRINT[(e.id, r["anchor"])]
             r["notes"].append(f"level {r['level']}: {why}")
-        if r["level"] is None and r["listed"] and (e.id, r["anchor"]) in LEVEL_STATED:
-            r["level"], said = LEVEL_STATED[(e.id, r["anchor"])]
-            r["notes"].append(f"level {r['level']}: print says \"{said}\"")
         if r["level"] is None and r["listed"] and r["level_import"] is not None and (e.id, r["anchor"]) not in LEVEL_ONE_REPLACES:
             # a lead after an opening sentence ("... honed. At 3rd level, if ...") or "a fortune-finder of 20th level becomes ...": print gives the
             # level that the import's Gained row has (review of #338)
@@ -4896,7 +4891,7 @@ def self_test() -> int:
     # "This change remains in effect" is no trade sentence; "alters and replaces X" has no phrase of its own to cover
     eq(trade_sentences("This change remains in effect for 1 minute."), [], "a noun after This is no verb")
     eq(trade_sentences("This changes the sentence name.")[0][0], "alters", "changes is an alters verb")
-    eq(LEVEL_STATED[("ref/arc-oracle/hermit", "recluse-s-stride")][0], 1, "a level that print states in other words")
+    eq(LEVEL_FROM_PRINT[("ref/arc-oracle/hermit", "recluse-s-stride")][0], 1, "a level that print states in other words")
     # Blood of the Beast, Heroes of the High Court, Martial Arts Handbook (#540 batch of 2026-11-26)
     # a title in small capitals can stand 7 units from its capital (size 27 over size 19), and a class in a title can carry stray blanks
     cap2 = Book({"5": 27, "6": 19, "28": 13}, {1: [(696, 108, 5, "r", 14), (703, 123, 6, "oyal", 42), (696, 165, 5, " a", 28), (703, 194, 6, "lChemist", 82),
