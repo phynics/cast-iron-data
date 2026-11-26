@@ -16,53 +16,49 @@ page = "39"
 
 [fields]
 kind = "archetype"
+features = [
+  { anchor = "iomedae-worshiper" },
+  { anchor = "first-into-battle", level = 2 },
+  { anchor = "prayer-of-the-fourth-act", level = 6 },
+  { anchor = "worthy-enemy", level = 11 },
+]
 trades = [
-  { replaces = "Divine grace", feature = "divine-grace" },
-  { replaces = "6th-level mercy", feature = "mercy", levels = [6] },
-  { replaces = "Aura of justice", feature = "aura-of-justice" },
+  { replaces = "Divine grace", feature = "divine-grace", by = ["first-into-battle"] },
+  { replaces = "Mercy gained at 6th level", feature = "mercy", levels = [6], by = ["prayer-of-the-fourth-act"] },
+  { replaces = "Aura of justice", feature = "aura-of-justice", by = ["worthy-enemy"] },
 ]
 +++
 
-The goddess Iomedae was once a mortal paladin, and those holy champions who follow her path seek to
-uphold her specific code of conduct in the hopes of honoring her name and destroying evil. Valor,
-justice, and honor are their lifeblood, and they would sooner cut out their own hearts than betray
-their comrades and faith. A sword of valor has the following class features.
+The goddess [Iomedae](ref/faith/iomedae) was once a mortal paladin, and those holy champions who
+follow her path seek to uphold her specific code of conduct in the hopes of honoring her name and
+destroying evil. Valor, justice, and honor are their lifeblood, and they would sooner cut out their
+own hearts than betray their comrades and faith. A sword of valor has the following class features.
 
-**Prerequisites:** Must have [Iomedae](ref/faith/iomedae) as a patron deity
+## Iomedae Worshiper {#iomedae-worshiper}
 
-**First Into Battle (Su)**
+A sword of valor must have Iomedae as a patron deity.
 
-**Ability:** A sword of valor can spend 1 use of _smite evil_ or _lay on hands_ to act in the
-surprise round, even if she is surprised. When the paladin makes an Initiative check, she gains a
-bonus to the check equal to her Charisma bonus.
+## First Into Battle (Su) {#first-into-battle}
 
-**Gained:** At 2nd Level
+At 2nd level, a sword of valor can spend 1 use of smite evil or lay on hands to act in the surprise
+round, even if she is surprised. When the paladin makes an Initiative check, she gains a bonus to
+the check equal to her Charisma bonus. This ability replaces divine grace.
 
-**Replaces:** Divine grace
+## Prayer of the Fourth Act (Su) {#prayer-of-the-fourth-act}
 
-**Prayer of the Fourth Act (Su)**
-
-**Ability:** By spending 1 minute leading a prayer to Iomedae, the sword of valor can spend one use
-of _channel energy_ to give living creatures in the channel burst
+At 6th level, by spending 1 minute leading a prayer to Iomedae, the sword of valor can spend one use
+of channel energy to give living creatures in the channel burst
 [temporary hit points](ref/rule/temporary-hit-points) equal to the amount that ability normally
-heals. These temporary hit points last for no more than 1 hour.
+heals. These temporary hit points last for no more than 1 hour. This replaces the paladin's mercy
+gained at 6th level.
 
-**Gained:** At 6th Level
+## Worthy Enemy (Su) {#worthy-enemy}
 
-**Replaces:** 6th-level mercy
-
-**Worthy Enemy (Su)**
-
-**Ability:** When a sword of valor critically hits an enemy with a _smite,_ the target must make a
+At 11th level, when a sword of valor critically hits an enemy with a smite, the target must make a
 Will saving throw (DC = 10 + 1/2 the paladin's level + the paladin's Charisma bonus) or be compelled
-to surrender to the paladin, as if affected by a [suggestion](ref/spell/suggestion) spell (CL = the
-paladin's level) to lay down arms and give up the fight. An enemy that succumbs to this ability
+to surrender to the paladin, as if affected by a _[suggestion](ref/spell/suggestion)_ spell (CL =
+the paladin's level) to lay down arms and give up the fight. An enemy that succumbs to this ability
 remains docile until it is injured by the paladin or one of his obvious allies, at which point the
-compulsion to surrender immediately ends and the enemy is free to make his own choices again.
-
-**Gained:** At 11th Level
-
-**Replaces:** Aura of justice
-
-**Special:** If the enemy makes the save, it is not subject to this ability for 24 hours. _Worthy
-enemy_ is a mind-affecting effect.
+compulsion to surrender immediately ends and the enemy is free to make his own choices again. If the
+enemy makes the save, it is not subject to this ability for 24 hours. Worthy enemy is a
+mind-affecting effect. This ability replaces aura of justice.
