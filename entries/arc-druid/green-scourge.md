@@ -42,22 +42,22 @@ can instead choose to lose a higher-level spell in order to increase the enhance
 [shillelagh](ref/spell/shillelagh), or to add any of the following weapon special abilities to her
 _[shillelagh](ref/spell/shillelagh)_ or _[flame blade](ref/spell/flame-blade)_:
 _[bane](ref/magic-enh/bane)_ (aberrations only), _[frost](ref/magic-enh/frost)_,
-_[mighty cleaving](ref/magic-enh/mighty-cleaving)_, _[returning](ref/magic-enh/returning),
-[shock](ref/magic-enh/shock)_, _[throwing](ref/magic-enh/throwing)_, or
-_[vicious](ref/magic-enh/vicious)_. If the target weapon is a
-[quarterstaff](ref/eq-weapon/quarterstaff), these bonuses apply to only one of its ends. If a
-[flame blade](ref/spell/flame-blade) gains the _frost_ or _shock_ special ability, the base damage
-of the spell changes to match the energy type; neither a [flame blade](ref/spell/flame-blade) nor
-[shillelagh](ref/spell/shillelagh) can gain both of these special abilities. A green scourge cannot
-add the _throwing_ property to a _[flame blade](ref/spell/flame-blade)_ unless she also adds the
-_returning_ property.
+_[mighty cleaving](ref/magic-enh/mighty-cleaving)_, _returning, shock_,
+_[throwing](ref/magic-enh/throwing)_, or _[vicious](ref/magic-enh/vicious)_. If the target weapon is
+a [quarterstaff](ref/eq-weapon/quarterstaff), these bonuses apply to only one of its ends. If a
+[flame blade](ref/spell/flame-blade) gains the _frost_ or _[shock](ref/magic-enh/shock)_ special
+ability, the base damage of the spell changes to match the energy type; neither a
+[flame blade](ref/spell/flame-blade) nor [shillelagh](ref/spell/shillelagh) can gain both of these
+special abilities. A green scourge cannot add the _throwing_ property to a
+_[flame blade](ref/spell/flame-blade)_ unless she also adds the
+_[returning](ref/magic-enh/returning)_ property.
 
 When adding weapon special abilities or increasing the enhancement bonus, the final level of the
 spell expended is 1 higher than the base spell level (2nd for _[shillelagh](ref/spell/shillelagh)_
 and 3rd for _[flame blade](ref/spell/flame-blade)_), increased by the additional special abilities'
 total base price modifier (see Table 15–9 on page 469 of the _Core Rulebook_). For example, creating
-an _aberration-[bane](ref/spell/bane) vicious flame blade_ requires spending a 5th-level spell slot,
-which also counts as a 5th-level spell for purposes of dispelling.
+an _aberration-bane vicious flame blade_ requires spending a 5th-level spell slot, which also counts
+as a 5th-level spell for purposes of dispelling.
 
 This ability alters spontaneous casting.
 
