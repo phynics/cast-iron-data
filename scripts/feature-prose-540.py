@@ -6531,9 +6531,8 @@ TRADE_RENAMES.update({
     ("ref/arc-wizard/bonded-wizard", "10th-level bonus feat"): "The wizard's bonus feat normally gained at 10th level",
     ("ref/arc-wizard/instructor", "5th-, 10th-, 15th-, and 20th-level bonus feats"): "The bonus feats gained at 5th, 10th, 15th, and 20th level",
 })
-# print: "This ability alters sacred weapon and also replaces sacred armor": the app reads one `alters` phrase ("and also replaces" is no split)
-TRADE_RENAMES[("ref/arc-warpriest/shieldbearer", "Sacred weapon")] = "Sacred weapon and also replaces sacred armor"
-TRADE_MERGED["ref/arc-warpriest/shieldbearer"] = [("alters", "sacred armor")]
+# print: "This ability alters sacred weapon and also replaces sacred armor": two trades, as the app reads it since #737 ("and also <verb>" splits)
+TRADE_OP_FIXES[("ref/arc-warpriest/shieldbearer", "sacred armor")] = "replaces"
 # ruling 55 ("modifies" is an alters verb): the gap that its sentence leaves in this batch (the verb itself is the cross-batch PR's)
 TRADE_ADDITIONS["ref/arc-warpriest/shieldbearer"] = [{"alters": "Channel energy", "feature": "channel-energy"}]
 TRADE_ADDITIONS["ref/arc-alchemist/oozemaster"] = [{"replaces": "The bomb class feature", "feature": "bomb"}]
