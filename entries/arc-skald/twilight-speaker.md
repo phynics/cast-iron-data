@@ -16,97 +16,96 @@ page = "12"
 
 [fields]
 kind = "archetype"
+features = [
+  { anchor = "devout" },
+  { anchor = "twilight-envoy", level = 1 },
+  { anchor = "raging-song" },
+  { anchor = "inspired-devotion" },
+  { anchor = "song-of-understanding", level = 6 },
+  { anchor = "song-of-secrecy", level = 10 },
+  { anchor = "community-domain", level = 2 },
+  { anchor = "findeladlara-s-blessing", level = 7 },
+  { anchor = "findeladlara-s-hand", level = 20 },
+]
 trades = [
-  { replaces = "Bardic knowledge", feature = "bardic-knowledge" },
-  { replaces = "Inspired rage", feature = "inspired-rage" },
-  { replaces = "song of strength", feature = "song-of-strength" },
-  { replaces = "dirge of doom", feature = "dirge-of-doom" },
-  { replaces = "Versatile performance", feature = "versatile-performance" },
-  { replaces = "well-versed", feature = "well-versed" },
-  { replaces = "Lore master", feature = "lore-master" },
-  { replaces = "Master skald", feature = "master-skald" },
+  { replaces = "Bardic knowledge", feature = "bardic-knowledge", by = ["twilight-envoy"] },
+  { replaces = "Inspired rage", feature = "inspired-rage", by = ["song-of-secrecy"] },
+  { replaces = "song of strength", feature = "song-of-strength", by = ["song-of-secrecy"] },
+  { replaces = "dirge of doom", feature = "dirge-of-doom", by = ["song-of-secrecy"] },
+  { replaces = "Versatile performance", feature = "versatile-performance", by = ["community-domain"] },
+  { replaces = "well-versed", feature = "well-versed", by = ["community-domain"] },
+  { replaces = "Lore master", feature = "lore-master", by = ["findeladlara-s-blessing"] },
+  { replaces = "Master skald", feature = "master-skald", by = ["findeladlara-s-hand"] },
 ]
 +++
 
 From the extraordinarily reclusive Snowcaster elves come the twilight speakers, who consider it a
 sacred duty to seek out and befriend non-elven communities. These elves travel among outsiders as
 envoys, diplomats, traders, and even spies as events demand. Deeply devoted to the elven goddess
-Findeladlara, twilight speakers wander far and wide, vigilant for threats to their homes and their
-people.
+Findeladlara (_Pathfinder Campaign Setting: Inner Sea Gods_ 183), twilight speakers wander far and
+wide, vigilant for threats to their homes and their people.
 
-**Prerequisites:** Elf
+Twilight speaker is a skald archetype that is available only to elves.
 
-**Devout**
+## Devout {#devout}
 
-**Ability:** A twilight speaker must worship the elven goddess
-[Findeladlara](ref/faith/findeladlara), and his alignment must be within one step of chaotic good. A
-twilight speaker who does not meet these requirements cannot use _inspired devotion_ or
-_Findeladlara's blessing._
+A twilight speaker must worship the elven goddess [Findeladlara](ref/faith/findeladlara), and his
+alignment must be within one step of chaotic good. A twilight speaker who does not meet these
+requirements cannot use inspired devotion or Findeladlara's blessing.
 
-**Twilight Envoy**
+## Twilight Envoy {#twilight-envoy}
 
-**Passive:** A twilight speaker gains a bonus equal to half his skald level on Bluff, Diplomacy, and
-Sense Motive checks.
+A twilight speaker gains a bonus equal to half his skald level on Bluff, Diplomacy, and Sense Motive
+checks.
 
-**Replaces:** Bardic knowledge
+This replaces bardic knowledge.
 
-**Raging Song (Su)**
+## Raging Song (Su) {#raging-song}
 
-**Info:** A twilight speaker gains the following _raging songs._
+A twilight speaker gains the following raging songs.
 
-**Inspired Devotion (Su)**
+## Inspired Devotion (Su) {#inspired-devotion}
 
-**Ability:** Affected allies gain a competence bonus on attack rolls and a morale bonus on saving
-throws. Both of these bonuses are equal to 1 + [one-sixth](ref/misc/fractions-and-rounding) of his
-skald level.
+The twilight speaker inspires fervor rather than fury. Affected allies gain a +1 competence bonus on
+attack rolls and a +1 morale bonus on saving throws. At 6th, 12th, and 18th levels, these bonuses
+increase by 1.
 
-**Flavor:** The twilight speaker inspires fervor rather than fury.
+## Song of Understanding (Su) {#song-of-understanding}
 
-**Song of Understanding (Su)**
-
-**Ability:** A twilight speaker can use his _raging song_ to create an aura that allows creatures to
-speak and understand each others' languages. By expending 4 rounds of _raging song,_ the twilight
+At 6th level, a twilight speaker can use his raging song to create an aura that allows creatures to
+speak and understand each others' languages. By expending 4 rounds of raging song, the twilight
 speaker creates an aura that grants him and creatures in a 60-foot [spread](ref/misc/spread)
-centered on him the effects of [tongues](ref/spell/tongues). This aura uses the skald's level as the
-caster level for all purposes, including duration. A twilight speaker can dismiss this aura as a
-**standard action**.
+centered on him the effects of _[tongues](ref/spell/tongues)_. This aura uses the skald's level as
+the caster level for all purposes, including duration. A twilight speaker can dismiss this aura as a
+standard action.
 
-**Gained:** At 6th Level
+## Song of Secrecy (Su) {#song-of-secrecy}
 
-**Song of Secrecy (Su)**
-
-**Ability:** A twilight speaker can use his song to shroud allies from detection. Affected allies
+At 10th level, a twilight speaker can use his song to shroud allies from detection. Affected allies
 gain a bonus equal to half the twilight speaker's skald level on Stealth checks, and they can
 attempt such checks without [cover](ref/rule/cover) or [concealment](ref/rule/concealment). Song of
 secrecy is audible only to those affected.
 
-**Gained:** At 10th Level
+This replaces inspired rage, song of strength, and dirge of doom.
 
-**Replaces:** Inspired rage, song of strength, dirge of doom
+## Community Domain {#community-domain}
 
-**Community Domain**
-
-**Ability:** A twilight speaker gains the Community domain and gains the powers and spells of the
+At 2nd level, a twilight speaker gains the Community domain and gains the powers and spells of the
 domain. He treats his skald level as his cleric level, and he uses his Charisma modifier in place of
 his Wisdom modifier for the purposes of the domain's abilities.
 
-**Gained:** At 2nd Level
+This replaces versatile performance and well-versed.
 
-**Replaces:** Versatile performance, well-versed
+## Findeladlara's Blessing (Su) {#findeladlara-s-blessing}
 
-**Findeladlara's Blessing (Su)**
+At 7th level, once per day a twilight speaker can activate any spell trigger or spell completion
+item as though the spell were on the skald spell list. He can use this ability an additional time
+per day at 13th and 19th levels.
 
-**Ability:** Once per day a twilight speaker can activate any spell trigger or spell completion item
-as though the spell were on the skald spell list.
+This ability replaces lore master.
 
-**Gained:** At 7th Level
+## Findeladlara's Hand {#findeladlara-s-hand}
 
-**Replaces:** Lore master
+At 20th level, the twilight speaker can use Findeladlara's blessing at will.
 
-**Findeladlara's Hand**
-
-**Ability:** The twilight speaker can use _Findeladlara's blessing_ at will.
-
-**Gained:** At 20th Level
-
-**Replaces:** Master skald
+This replaces master skald.

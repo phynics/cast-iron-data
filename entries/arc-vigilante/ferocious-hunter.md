@@ -16,11 +16,17 @@ page = "26"
 
 [fields]
 kind = "archetype"
+features = [
+  { anchor = "hidden-heritage", level = 1 },
+  { anchor = "symbol-of-pride", level = 2 },
+  { anchor = "spirit-of-ferocity", level = 3 },
+  { anchor = "symbol-of-mastery", level = 8 },
+]
 trades = [
-  { replaces = "Vigilante talent gained at 2nd level", feature = "vigilante-talent", levels = [2] },
-  { replaces = "Unshakable", feature = "unshakable" },
-  { replaces = "Vigilante talent gained at 8th level", feature = "vigilante-talent", levels = [8] },
-  { alters = "Dual identity", feature = "dual-identity" },
+  { replaces = "Vigilante talent gained at 2nd level", feature = "vigilante-talent", levels = [2], by = ["symbol-of-pride"] },
+  { replaces = "Unshakable", feature = "unshakable", by = ["spirit-of-ferocity"] },
+  { replaces = "Vigilante talent gained at 8th level", feature = "vigilante-talent", levels = [8], by = ["symbol-of-mastery"] },
+  { alters = "Dual identity", feature = "dual-identity", by = ["hidden-heritage"] },
 ]
 +++
 
@@ -32,44 +38,36 @@ desire to show the world that half-orcs are deserving of respect. By taking on a
 allows them to show their true colors, they can become a champion of the downtrodden and a hero
 among half-orcs.
 
-**Prerequisites:** Half-orc
+## Hidden Heritage (Ex) {#hidden-heritage}
 
-**Hidden Heritage (Ex)**
-
-**Alters:** Dual identity
-
-**Info:** A ferocious hunter must present as human for his social identity and as a half-orc for his
-vigilante identity in order to gain the benefits of dual identity. He gains
+A ferocious hunter must present as human for his social identity and as a half-orc for his vigilante
+identity in order to gain the benefits of dual identity. He gains
 [Pass for Human](ref/feat/pass-for-human) as a bonus feat. In addition, his alignment stays the same
 when he switches between identities.
 
-**Symbol of Pride**
+This alters dual identity.
 
-**Ability:** A ferocious hunter gains the [signature weapon](ref/vigtalent/signature-weapon)
+## Symbol of Pride {#symbol-of-pride}
+
+At 2nd level, a ferocious hunter gains the [signature weapon](ref/vigtalent/signature-weapon)
 vigilante talent, but must select a [falchion](ref/eq-weapon/falchion),
 [greataxe](ref/eq-weapon/greataxe), or a weapon with "orc" in its name as his chosen weapon. He
 gains this talent regardless of his chosen vigilante specialization.
 
-**Gained:** At 2nd Level
+This replaces the vigilante talent gained at 2nd level.
 
-**Replaces:** Vigilante talent gained at 2nd level
+## Spirit of Ferocity (Ex) {#spirit-of-ferocity}
 
-**Spirit of Ferocity (Ex)**
+Starting at 3rd level, when using orc ferocity to continue fighting after falling below 0 hit
+points, a ferocious hunter fights on for a number of rounds equal to his Constitution modifier.
 
-**Ability:** When using _orc ferocity_ to continue fighting after falling below 0 hit points, a
-ferocious hunter fights on for a number of rounds equal to his Constitution modifier.
+This replaces unshakable.
 
-**Gained:** At 3rd Level
+## Symbol of Mastery {#symbol-of-mastery}
 
-**Replaces:** Unshakable
-
-**Symbol of Mastery**
-
-**Ability:** A ferocious hunter gains [Improved Critical](ref/feat/improved-critical) with the
-weapon chosen for the _symbol of pride_ ability. His base attack bonus is equal to his vigilante
-level for the purpose of qualifying for [Critical Focus](ref/feat/critical-focus) and any feats that
+At 8th level, a ferocious hunter gains [Improved Critical](ref/feat/improved-critical) with the
+weapon chosen for the symbol of pride ability. His base attack bonus is equal to his vigilante level
+for the purpose of qualifying for [Critical Focus](ref/feat/critical-focus) and any feats that
 require Critical Focus as a prerequisite.
 
-**Gained:** At 8th Level
-
-**Replaces:** Vigilante talent gained at 8th level
+This replaces the vigilante talent gained at 8th level.

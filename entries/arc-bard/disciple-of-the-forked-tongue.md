@@ -16,72 +16,54 @@ page = "7"
 
 [fields]
 kind = "archetype"
+features = [
+  { anchor = "bardic-performance" },
+  { anchor = "discordant-spiral", level = 1 },
+  { anchor = "venomous-whispers", level = 9 },
+  { anchor = "serpent-of-the-mind", level = 2 },
+]
 trades = [
-  { replaces = "Inspire courage", feature = "bardic-performance", power = "inspire courage" },
-  { replaces = "Inspire greatness", feature = "bardic-performance", power = "inspire greatness" },
-  { replaces = "Versatile performance", feature = "versatile-performance" },
+  { replaces = "Inspire courage", feature = "bardic-performance", power = "inspire courage", by = ["discordant-spiral"] },
+  { replaces = "Inspire greatness", feature = "bardic-performance", power = "inspire greatness", by = ["venomous-whispers"] },
+  { replaces = "Versatile performance", feature = "versatile-performance", by = ["serpent-of-the-mind"] },
 ]
 +++
 
 Studied in venomous words as well as venomous blood, a disciple of the forked tongue knows just the
 right phrase to slowly poison the soul. His voice can sink deep into his victims' hearts, destroying
-friendships and devouring the mind.
+friendships and devouring the mind. The disciple of the forked tongue is an archetype of the bard
+class available to vishkanya characters.
 
-**Prerequisites:** Vishkanya
+## Bardic Performance {#bardic-performance}
 
-**Bardic Performance**
+A disciple of the forked tongue gains the following bardic performances.
 
-**Info:** A disciple of the forked tongue gains the following bardic performances.
+## Discordant Spiral (Su) {#discordant-spiral}
 
-**Discordant Spiral (Su)**
+The disciple can disrupt the thought processes of enemies who hear his performance, causing them to
+take a -1 penalty on saves against mind-affecting and
+[curse](ref/carried/bestiary/rules/universal-monster-rules/curse) effects and a -2 penalty on
+[concentration](ref/rule/concentration) checks. These penalties increase by 1 at 5th level and every
+6 levels thereafter.
 
-**Ability:** The disciple can disrupt the thought processes of enemies who hear his performance,
-causing them to take a -1 penalty on saves against mind-affecting and curse effects and a -2 penalty
-on [concentration](ref/rule/concentration) checks.
+This replaces inspire courage.
 
-**At 11th Level:** These penalties become -3 and -4.
+## Venomous Whispers (Su) {#venomous-whispers}
 
-**At 17th Level:** These penalties become -4 and -5.
-
-**At 5th Level:** These penalties become -2 and -3, respectively.
-
-**Replaces:** Inspire courage
-
-**Venomous Whispers (Su)**
-
-**Ability:** A disciple of the forked tongue can use his performance to sow distrust into the mind
+At 9th level, a disciple of the forked tongue can use his performance to sow distrust into the mind
 of an enemy within 30 feet. An affected creature treats its allies as hostile for the purposes of
-their spells and abilities - it is never considered a willing target of spells and must attempt
-saving throws against them when possible, and it gains no benefit from allied bardic performances
-and other abilities that specifically target allies.
+their spells and abilities—it is never considered a willing target of spells and must attempt saving
+throws against them when possible, and it gains no benefit from allied bardic performances and other
+abilities that specifically target allies. For every 3 levels a disciple of the forked tongue has
+beyond 9th, he can target one additional enemy while using this performance (up to a maximum of four
+at 18th level).
 
-**At 12th Level:** He can now affect two creatures at the same time.
+This replaces inspire greatness.
 
-**At 15th Level:** He can now affect three creatures at the same time.
+## Serpent of the Mind (Su) {#serpent-of-the-mind}
 
-**At 18th Level:** He can now affect four creatures at the same time.
+A disciple of the forked tongue can add one spell with the
+[curse](ref/carried/bestiary/rules/universal-monster-rules/curse) descriptor from the spell list of
+any spellcasting class to his list of spells known at 2nd level and every 4 levels thereafter.
 
-**Gained:** At 9th Level
-
-**Replaces:** Inspire greatness
-
-**Serpent of the Mind (Su)**
-
-**At 10th Level:** He adds another
-_[curse](ref/carried/bestiary/rules/universal-monster-rules/curse)_ spell.
-
-**At 14th Level:** He adds another
-_[curse](ref/carried/bestiary/rules/universal-monster-rules/curse)_ spell.
-
-**At 18th Level:** He adds another
-_[curse](ref/carried/bestiary/rules/universal-monster-rules/curse)_ spell.
-
-**At 2nd Level:** A disciple of the forked tongue can add one spell with the
-[curse](ref/spelldef/curse) descriptor from the spell list of any spellcasting class to his list of
-spells known.
-
-**At 6th Level:** He adds another
-_[curse](ref/carried/bestiary/rules/universal-monster-rules/curse)_ spell to his list of spells
-known.
-
-**Replaces:** Versatile performance
+This replaces versatile performance.

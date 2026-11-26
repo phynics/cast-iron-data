@@ -16,87 +16,81 @@ page = "12"
 
 [fields]
 kind = "archetype"
+features = [
+  { anchor = "arcane-strike", level = 1 },
+  { anchor = "arcane-sabotage", level = 2 },
+  { anchor = "dismantling-strikes", level = 3 },
+]
 trades = [
-  { replaces = "Trapfinding", feature = "trapfinding" },
-  { replaces = "Rogue talent gained at 2nd level", feature = "rogue-talents", levels = [2] },
-  { replaces = "Trap sense", feature = "trap-sense" },
+  { replaces = "Trapfinding", feature = "trapfinding", by = ["arcane-strike"] },
+  { replaces = "Rogue talent gained at 2nd level", feature = "rogue-talents", levels = [2], by = ["arcane-sabotage"] },
+  { replaces = "Trap sense", feature = "trap-sense", by = ["dismantling-strikes"] },
+  { alters = "Class skills" },
 ]
 +++
 
 The construct saboteur harnesses arcane energy to combat the golems and eldritch guardians that
 prowl the depths of ancient ruins and forgotten tombs.
 
-**Gained class skills:** ka, ke
+## Class Skills {#class-skills}
 
-**Lost class skills:** kd, kl
+A construct saboteur has Knowledge (arcana) and Knowledge (engineering) but does not have Knowledge
+(dungeoneering) and Knowledge (local) as class skills.
 
-**Arcane Strike (Ex)**
+This alters the rogue's class skills.
 
-**Ability:** A construct saboteur gains [Arcane Strike](ref/feat/arcane-strike) as a bonus feat,
-even if she does not meet the prerequisites. She uses her construct saboteur class level in place of
-her caster level for the purposes of the feat's effects.
+## Arcane Strike (Ex) {#arcane-strike}
 
-**Replaces:** Trapfinding
+A construct saboteur gains [Arcane Strike](ref/feat/arcane-strike) as a bonus feat, even if she does
+not meet the prerequisites. She uses her construct saboteur class level in place of her caster level
+for the purposes of the feat's effects.
 
-**Arcane Sabotage (Su)**
+This replaces trapfinding.
 
-**Ability:** She gains one sabotage ability (listed below). Whenever she uses Arcane Strike to
-attack a construct, she can activate one of her sabotage abilities that she has gained.
+## Arcane Sabotage (Su) {#arcane-sabotage}
 
-**Flavor:** A construct saboteur can user her arcane prowess to hinder constructs.
+At 2nd level, a construct saboteur can use her arcane prowess to hinder constructs. Whenever she
+uses Arcane Strike to attack a construct, she can activate one of the following sabotage abilities
+that she has gained. She gains one sabotage ability at 2nd level and can thereafter select any
+sabotage ability in place of a rogue talent. The DC for any sabotage ability that requires a saving
+throw is 10 + half the construct saboteur's level + the construct saboteur's Intelligence modifier.
 
-**At 4th Level:** From here on out, she can select any sabotage ability in place of a rogue talent.
+### Diminish Senses {#diminish-senses}
 
-**Gained:** At 2nd Level
+A jolt of energy overwhelms the construct's senses. The construct is [blinded](ref/misc/blinded) for
+1 round. A construct saboteur can forgo dealing sneak attack damage to extend the duration of the
+blindness by 1 round for every 2d6 points of sneak attack damage forgone in this way. A construct
+can negate this effect with a successful Will save.
 
-**Replaces:** Rogue talent gained at 2nd level
+### Magic Vulnerability {#magic-vulnerability}
 
-**Special:** The DC for any sabotage ability that requires a saving throw is 10 + half the construct
-saboteur's level + the construct saboteur's Intelligence modifier.
-
-**Diminish Senses**
-
-**Ability:** A jolt of energy overwhelms the construct's senses. The construct is
-[blinded](ref/misc/blinded) for 1 round. A construct saboteur can forgo dealing sneak attack damage
-to extend the duration of the blindness by 1 round for every 2d6 points of sneak attack damage
-forgone in this way. A construct can negate this effect with a successful Will save.
-
-**Magic Vulnerability**
-
-**Ability:** A field of energy enshrouds the construct, disabling its immunity to magic for 1 round.
-The construct instead gains [spell resistance](ref/rule/spell-resistance) equal to 15 + its CR. A
+A field of energy enshrouds the construct, disabling its immunity to magic for 1 round. The
+construct instead gains [spell resistance](ref/rule/spell-resistance) equal to 15 + its CR. A
 construct saboteur can forgo dealing sneak attack damage to reduce this spell resistance. The
 construct's spell resistance is reduced by 1 for every 1d6 points of sneak attack damage forgone in
 this way. A construct can negate this effect with a successful Will save.
 
-**Overwhelming Jolt**
+### Overwhelming Jolt {#overwhelming-jolt}
 
-**Ability:** A sudden burst of power moves over the surface of the construct, giving it the
+A sudden burst of power moves over the surface of the construct, giving it the
 [staggered](ref/misc/staggered) condition for 1 round. A construct can negate this effect with a
 successful Will save.
 
-**Slowing Pulse**
+### Slowing Pulse {#slowing-pulse}
 
-**Ability:** A surge of slowing energy ripples through the construct, reducing its speed by 5 feet
-for a number of rounds equal to the construct saboteur's Intelligence modifier. A construct saboteur
-can forgo dealing sneak attack damage to reduce the construct's speed by an additional 5 feet for
-every 1d6 points of sneak attack damage forgone in this way. This ability cannot lower a construct's
-movement speed below 5 feet. A construct can reduce the duration of this effect to 1 round with a
-successful Reflex save.
+A surge of slowing energy ripples through the construct, reducing its speed by 5 feet for a number
+of rounds equal to the construct saboteur's Intelligence modifier. A construct saboteur can forgo
+dealing sneak attack damage to reduce the construct's speed by an additional 5 feet for every 1d6
+points of sneak attack damage forgone in this way. This ability cannot lower a construct's movement
+speed below 5 feet. A construct can reduce the duration of this effect to 1 round with a successful
+Reflex save.
 
-**Dismantling Strikes (Ex)**
+This replaces the rogue talent gained at 2nd level.
 
-**At 3rd Level:** A construct saboteur ignores the first 2 points of DR or
-[hardness](ref/umr/hardness) when attacking constructs.
+## Dismantling Strikes (Ex) {#dismantling-strikes}
 
-**Replaces:** Trap sense
+At 3rd level, a construct saboteur ignores the first 2 points of DR or [hardness](ref/umr/hardness)
+when attacking constructs. This value increases by 2 every 3 levels after 3rd, to a total of 12
+points of DR or hardness ignored at level 18.
 
-At 6th level: The amount of DR ignored increases to 4.
-
-At 9th level: The amount of DR ignored increases to 6.
-
-At 12th level: The amount of DR ignored increases to 8.
-
-At 15th level: The amount of DR ignored increases to 10.
-
-At 18th level: The amount of DR ignored increases to 12.
+This replaces trap sense.

@@ -16,11 +16,16 @@ page = "18"
 
 [fields]
 kind = "archetype"
+features = [
+  { anchor = "intuitive-monster-lore" },
+  { anchor = "opportune-advice", level = 4 },
+  { anchor = "knowledgeable-strike", level = 4 },
+]
 trades = [
-  { replaces = "Poison lore", feature = "poison-lore" },
-  { replaces = "poison resistance", feature = "poison-resistance" },
-  { replaces = "Studied combat", feature = "studied-combat" },
-  { replaces = "Studied strike", feature = "studied-strike" },
+  { replaces = "Poison lore", feature = "poison-lore", by = ["intuitive-monster-lore"] },
+  { replaces = "poison resistance", feature = "poison-resistance", by = ["intuitive-monster-lore"] },
+  { replaces = "Studied combat", feature = "studied-combat", by = ["opportune-advice"] },
+  { replaces = "Studied strike", feature = "studied-strike", by = ["opportune-advice", "knowledgeable-strike"] },
 ]
 +++
 
@@ -31,61 +36,44 @@ with their fellow scholars (many of whom find a cryptid scholar's peculiar speci
 best). Although competent as lone monster hunters, cryptid scholars excel when they have associates
 with whom to share their insights.
 
-**Intuitive Monster Lore (Ex)**
+## Intuitive Monster Lore (Ex) {#intuitive-monster-lore}
 
-**At 5th Level:** A cryptid scholar can take 10 on such checks, even when threatened or distracted.
+A cryptid scholar adds his Wisdom modifier on Knowledge skill checks in addition to his Intelligence
+modifier when attempting skill checks to identify the abilities and weaknesses of creatures. At 5th
+level, a cryptid scholar can take 10 on such checks, even when threatened or distracted.
 
-**Passive:** A cryptid scholar adds his Wisdom modifier on Knowledge skill checks in addition to his
-Intelligence modifier when attempting skill checks to identify the abilities and weaknesses of
-creatures.
+This ability replaces poison lore and poison resistance.
 
-**Replaces:** Poison lore, poison resistance
+## Opportune Advice (Ex) {#opportune-advice}
 
-**Opportune Advice (Ex)**
+At 4th level, when the cryptid scholar succeeds at a Knowledge check to identify a monster's special
+powers or vulnerabilities, he can take a move action to share his insights with his allies. Allies
+within 30 feet who can hear the cryptid scholar gain a +1 insight bonus to their ACs and on saving
+throws against extraordinary, supernatural, and [spell-like abilities](ref/umr/spell-like-abilities)
+used by creatures of the same type and all the same subtypes as the monster identified. This bonus
+lasts for a number of rounds equal to the cryptid scholar's Intelligence modifier (minimum 1) or
+until he uses knowledgeable strike (see below), whichever comes first. This bonus increases by 1 at
+8th level and every 4 investigator levels thereafter (to a maximum of +5 at 20th level). A creature
+cannot benefit from opportune advice regarding more than one specific kind of monster at a time.
 
-**Info:** The cryptid scholar cannot choose investigator talents that add effects to _studied
-combat_ or _studied strike._
+Once the cryptid scholar has used this ability to provide a bonus against a specific kind of
+monster, he can't grant a bonus against that same kind of monster again for 24 hours, unless he
+expends one use of inspiration when taking a move action to use this ability.
 
-**Gained:** At 4th Level
+This ability replaces studied combat, and the cryptid scholar cannot choose investigator talents
+that add effects to studied combat or studied strike.
 
-**Move:** When the cryptid scholar succeeds at a Knowledge check to identify a monster's special
-powers or vulnerabilities, he can share his insights with his allies. Allies within 30 feet who can
-hear the cryptid scholar gain an insight bonus to their ACs and on saving throws against
-extraordinary, supernatural, and [spell-like abilities](ref/umr/spell-like-abilities) used by
-creatures of the same type and all the same subtypes as the monster identified. This bonus is equal
-to one-fourth of his investigator level, and it lasts for a number of rounds equal to the cryptid
-scholar's Intelligence modifier (minimum 1) or until he uses _knowledgeable strike_ (see below),
-whichever comes first. A creature cannot benefit from opportune advice regarding more than one
-specific kind of monster at a time.
+## Knowledgeable Strike (Ex) {#knowledgeable-strike}
 
-**Replaces:** Studied combat
+At 4th level, the cryptid scholar can direct allies to exploit a monster's weaknesses. If the
+cryptid scholar ends his opportune advice early as a move action, each ally within 30 feet who can
+hear the cryptid scholar deals additional damage on its next successful unarmed, natural, or weapon
+attack against that specific kind of monster within 1 round. The additional damage is 1d6 at 4th
+level and increases by 1d6 for every 4 investigator levels thereafter (to a maximum of 5d6 at 20th
+level). The damage of knowledgeable strike is precision damage and is not multiplied on a critical
+hit; creatures that are immune to sneak attacks are also immune to knowledgeable strike. Ranged
+attacks gain this additional damage only against a target within 30 feet. The ally must be able to
+see the target well enough to pick out a vital spot and must be able to reach such a spot.
+Knowledgeable strike cannot be used against a creature with [concealment](ref/rule/concealment).
 
-**Special:** Once the cryptid scholar has used this ability to provide a bonus against a specific
-kind of monster, he can't grant a bonus against that same kind of monster again for 24 hours, unless
-he expends one use of _inspiration_ when taking a move action to use this ability.
-
-**Knowledgeable Strike (Ex)**
-
-**Ability:** If the cryptid scholar ends his _opportune advice_ early as a **move action**, each
-ally within 30 feet who can hear the cryptid scholar deals +1d6 additional damage on its next
-successful unarmed, natural, or weapon attack against that specific kind of monster within 1 round.
-
-**Flavor:** The cryptid scholar can direct allies to exploit a monster's weaknesses.
-
-**Gained:** At 4th Level
-
-**Replaces:** Studied strike
-
-**Special:** The damage of _knowledgeable strike_ is precision damage and is not multiplied on a
-critical hit; creatures that are immune to sneak attacks are also immune to _knowledgeable strike._
-Ranged attacks gain this additional damage only against a target within 30 feet. The ally must be
-able to see the target well enough to pick out a vital spot and must be able to reach such a spot.
-_Knowledgeable strike_ cannot be used against a creature with [concealment](ref/rule/concealment).
-
-At 8th level: The damage increases to +2d6.
-
-At 12th level: The damage increases to +3d6.
-
-At 16th level: The damage increases to +4d6.
-
-At 20th level: The damage increases to +5d6.
+This ability replaces studied strike.

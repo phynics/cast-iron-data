@@ -16,68 +16,60 @@ page = "8"
 
 [fields]
 kind = "archetype"
+features = [
+  { anchor = "substance-tolerance", level = 2 },
+  { anchor = "volatile-bombs", level = 2 },
+  { anchor = "batch-brew", level = 6 },
+]
 trades = [
-  { replaces = "Poison resistance", feature = "poison-resistance" },
-  { replaces = "the discovery gained at 10th level", feature = "discovery", levels = [10] },
-  { replaces = "Poison use", feature = "poison-use" },
-  { replaces = "Swift poisoning", feature = "swift-poisoning" },
+  { replaces = "Poison resistance", feature = "poison-resistance", by = ["substance-tolerance"] },
+  { replaces = "the discovery gained at 10th level", feature = "discovery", levels = [10], by = ["substance-tolerance"] },
+  { replaces = "Poison use", feature = "poison-use", by = ["volatile-bombs"] },
+  { replaces = "Swift poisoning", feature = "swift-poisoning", by = ["batch-brew"] },
 ]
 +++
 
 Little more than moonshiners to some, fermenters focus their efforts on imbibing substances,
 learning from the resulting effects on their bodies, and infusing this knowledge into their skill
 sets. Fermenters consider themselves living experiments and accept the risks and benefits inherent
-in their work.
+in their work. (For more information on tinctures, see pages 22–23.)
 
-**Substance Tolerance (Ex)**
+## Substance Tolerance (Ex) {#substance-tolerance}
 
-**At 10th Level:** The bonus to resist addiction increases to +4, and the fermenter suffers no
-penalties at all from drinking tinctures, including conditions and other non-numerical penalties
-([starlight juice](ref/eq-misc/starlight-juice) would not make her dazzled, for example).
-Additionally, she can consume a number of alcoholic beverages equal to one plus four times her
-Constitution modifier before becoming sickened.
-
-**At 8th Level:** The bonus to resist addiction increases to +3.
-
-**Gained:** At 2nd Level
-
-**Passive:** Whenever a fermenter consumes a drug, she gains a +2 bonus on her saving throw to
+At 2nd level, whenever a fermenter consumes a drug, she gains a +2 bonus on her saving throw to
 resist becoming [addicted](ref/rule/addiction). Whenever she consumes a tincture, she gains its
 usual benefits, but all penalties imposed are reduced by 1. (If the tincture's penalties instead
 impose a condition or another penalty that is not numerical, such as the penalties imposed by
-starlight juice, this ability has no effect at 2nd level.) Additionally, the fermenter can consume a
-number of alcoholic beverages equal to one plus three times her Constitution modifier before
-becoming [sickened](ref/misc/sickened) for 1 hour per drink above this maximum.
-([Normal rules for drunkenness can be found here.](ref/rule/drunkenness))
+[starlight juice](ref/eq-misc/starlight-juice), this ability has no effect at 2nd level.)
+Additionally, the fermenter can consume a number of alcoholic beverages equal to one plus three
+times her Constitution modifier before becoming [sickened](ref/misc/sickened) for 1 hour per drink
+above this maximum. (Normal rules for drunkenness can be found on page 237 of the _GameMastery
+Guide_.)
 
-**Replaces:** Poison resistance, the discovery gained at 10th level
+The bonus on saving throws to resist addiction increases to +3 at 8th level and to +4 at 10th level.
+At 10th level, the fermenter suffers no penalties at all from drinking tinctures, including
+conditions and other nonnumerical penalties (starlight juice would not make her dazzled, for
+example). Additionally, at 10th level she can consume a number of alcoholic beverages equal to one
+plus four times her Constitution modifier before becoming sickened.
 
-**Volatile Bombs (Ex)**
+This replaces poison resistance and the discovery gained at 10th level.
 
-**Flavor:** A fermenter under the influence can make her bombs more potent, but they also become
-unstable and more difficult to aim.
+## Volatile Bombs (Ex) {#volatile-bombs}
 
-**At 13th Level:** The penalty becomes -4.
+At 2nd level, a fermenter under the influence can make her bombs more potent, but they also become
+unstable and more difficult to aim. As long as the fermenter is under the effects of a drug or
+tincture, or has imbibed an alcoholic drink in the past 10 minutes, her bombs deal 1 additional
+point of damage per damage die. While this ability is in effect, she also takes a -2 penalty on
+attack rolls made with her bombs. At 7th level and every 6 levels thereafter, this penalty increases
+by 1 (to a maximum penalty of -5 at 19th level).
 
-**At 19th Level:** The penalty increases to -5.
+This replaces poison use.
 
-**At 7th Level:** The penalty increases to -3.
+## Batch Brew (Ex) {#batch-brew}
 
-**Gained:** At 2nd Level
-
-**Passive:** As long as the fermenter is under the effects of a drug or tincture, or has imbibed an
-alcoholic drink in the past 10 minutes, her bombs deal 1 additional point of damage per damage die.
-While this ability is in effect, she also takes a -2 penalty on attack rolls made with her bombs.
-
-**Replaces:** Poison use
-
-**Batch Brew (Ex)**
-
-**Ability:** A fermenter learns how to brew tinctures in larger batches. Whenever she creates a
+At 6th level, a fermenter learns how to brew tinctures in larger batches. Whenever she creates a
 tincture using Craft (alchemy), she can simultaneously create a number of additional tinctures equal
 to her Intelligence modifier. She expends resources for each tincture separately, but she attempts a
 single Craft check and applies the result to each tincture being brewed.
 
-**Gained:** At 6th Level
-
-**Replaces:** Swift poisoning
+This replaces swift poisoning.
