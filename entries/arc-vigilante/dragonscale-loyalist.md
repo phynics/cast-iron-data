@@ -18,10 +18,10 @@ page = "24"
 kind = "archetype"
 features = [
   { anchor = "ruby-courtier", level = 1 },
-  { anchor = "reflexive-reaction" },
-  { anchor = "false-allegiance" },
-  { anchor = "dragonscale-vigilance" },
-  { anchor = "conqueror-s-wrath" },
+  { anchor = "reflexive-reaction", level = 3 },
+  { anchor = "false-allegiance", level = 5 },
+  { anchor = "dragonscale-vigilance", level = 11 },
+  { anchor = "conqueror-s-wrath", level = 17 },
 ]
 trades = [
   { replaces = "1st-level social talent", feature = "social-talent", levels = [1], by = ["ruby-courtier"] },

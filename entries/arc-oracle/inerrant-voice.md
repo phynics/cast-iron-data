@@ -17,8 +17,8 @@ page = "17"
 [fields]
 kind = "archetype"
 features = [
-  { anchor = "revelations" },
-  { anchor = "vigilant-protector" },
+  { anchor = "revelations", level = 3 },
+  { anchor = "vigilant-protector", level = 3 },
 ]
 trades = [
   { replaces = "Bonus spells at those levels gained from the oracle's mystery", feature = "mystery", levels = [2, 4, 8, 14], power = "bonus spells" },

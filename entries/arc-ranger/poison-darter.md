@@ -17,7 +17,7 @@ page = "9"
 [fields]
 kind = "archetype"
 features = [
-  { anchor = "debilitating-venom" },
+  { anchor = "debilitating-venom", level = 1 },
   { anchor = "poison-use", level = 1 },
   { anchor = "poison-style", level = 2 },
   { anchor = "precise-dart", level = 4 },
@@ -49,7 +49,7 @@ modifier; _frequency_ 1/round for 4 rounds; _effect_ 1d3 Dexterity damage; _cure
 At 5th level, the frequency increases to 6 rounds, and the toxin [sickens](ref/misc/sickened) a
 creature for 1 round every time it fails its saving throw to resist the poison. At 10th level, the
 poison's Dexterity damage increases to 1d4, and two successful saving throws are needed to cure the
-poison. At 15th level, the poison dart can choose to deal Strength, Dexterity, or Constitution
+poison. At 15th level, the poison darter can choose to deal Strength, Dexterity, or Constitution
 damage with the debilitating venom, selected when he creates the toxin. At 20th level, the poison's
 damage die increases to 1d6.
 

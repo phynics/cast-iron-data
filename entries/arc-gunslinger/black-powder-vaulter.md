@@ -18,8 +18,8 @@ page = "10"
 kind = "archetype"
 features = [
   { anchor = "deeds" },
-  { anchor = "mobile-reload" },
-  { anchor = "daring-vault" },
+  { anchor = "mobile-reload", level = 1 },
+  { anchor = "daring-vault", level = 1 },
   { anchor = "shot-on-the-run", level = 3 },
   { anchor = "art-of-the-gun", level = 7 },
   { anchor = "dual-shot-on-the-run", level = 11 },

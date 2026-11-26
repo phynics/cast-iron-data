@@ -15,8 +15,8 @@ ref/arc-fighter/spear-fighter	Spear Parry (Ex)	spear-parry	yes	3	print	print	lea
 ref/arc-fighter/spear-fighter	Weapon Training (Ex)	weapon-training	yes	5	draft	draft		12	d4748dd3ffb8270a30d4dbe7061652fb1383c3f353db46019122a2938ae61503
 ref/arc-fighter/spear-fighter	Weapon Mastery (Ex)	weapon-mastery	yes	20	draft	draft		12	f88469758ebbed44d40483e3b386c49cdaa7e812ba508697ef94059cef45f8ef
 ref/arc-gunslinger/black-powder-vaulter	Deeds	deeds	yes		draft	draft	opening text written from print: the import differs in —	10	961c891a979f6c43201e5ca95e4c4cff118af0aade87c0764baffff0d30148c1
-ref/arc-gunslinger/black-powder-vaulter	Mobile Reload (Ex)	mobile-reload	yes		print	print		10	95271a96461f2e1996d8a35ba02e9ed0e4333e2f61a80e829a7c79ed1590f29a
-ref/arc-gunslinger/black-powder-vaulter	Daring Vault (Ex)	daring-vault	yes		print	print		10	81f2828a5003c7d3a7c6761aecfc7c616bb4747a88377146fbf4ee5a185bb382
+ref/arc-gunslinger/black-powder-vaulter	Mobile Reload (Ex)	mobile-reload	yes	1	print	print	level 1 (ruling 35): replaces Deadeye deed, a 1st-level feature of the class	10	95271a96461f2e1996d8a35ba02e9ed0e4333e2f61a80e829a7c79ed1590f29a
+ref/arc-gunslinger/black-powder-vaulter	Daring Vault (Ex)	daring-vault	yes	1	print	print	level 1 (ruling 35): replaces Gunslinger's dodge deed, a 1st-level feature of the class	10	81f2828a5003c7d3a7c6761aecfc7c616bb4747a88377146fbf4ee5a185bb382
 ref/arc-gunslinger/black-powder-vaulter	Shot on the Run (Ex)	shot-on-the-run	yes	3	print	print		10	eb72fa785cee49bd2234022f96cd49dddfe98f1fa0e7d1ec61261c713849a3c5
 ref/arc-gunslinger/black-powder-vaulter	Art of the Gun (Ex)	art-of-the-gun	yes	7	print	print		10	1ed748b41f37c3fb70df3cb3bfd18e69a0ea914ec32511f0b975c68724cf79b8
 ref/arc-gunslinger/black-powder-vaulter	Dual Shot on the Run (Ex)	dual-shot-on-the-run	yes	11	print	print		10	a12627ae3ccc1da9117dedbe11d2f152e7eb23d6666489b3217244f00bc4fe49

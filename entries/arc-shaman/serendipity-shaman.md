@@ -18,11 +18,7 @@ page = "5"
 kind = "archetype"
 features = [
   { anchor = "luck-magic" },
-  { anchor = "channel-luck" },
-  { anchor = "fortune" },
-  { anchor = "misfortune" },
-  { anchor = "spirit-magic" },
-  { anchor = "tweak-the-odds" },
+  { anchor = "luck-hexes" },
 ]
 trades = [
   { alters = "Spirit", feature = "spirit", by = ["luck-magic"] },
@@ -56,7 +52,7 @@ A serendipity shaman can select from any of the following hexes, in addition to 
 and the hexes granted by her spirit. When she gains the wandering spirit class feature, she can
 select one of these hexes in place of a wandering hex.
 
-## Channel Luck (Su) {#channel-luck}
+### Channel Luck (Su) {#channel-luck}
 
 A serendipity shaman gains the ability to channel luck, as the cleric
 [variant channeling](ref/ability/variant-channeling) ability of the same name, using her shaman
@@ -66,31 +62,31 @@ energy ability for the purpose of meeting feat prerequisites or prestige class r
 exception of [Selective Channeling](ref/feat/selective-channeling), which the shaman can take as
 normal. A shaman must be at least 8th level before selecting this hex.
 
-## Fortune (Ex) {#fortune}
+### Fortune (Ex) {#fortune}
 
 This hex functions as the dual-cursed oracle revelation of the same name (_Ultimate Magic_ 58),
 using the shaman's class level as her effective oracle level.
 
-### Fortune (Ultimate Magic page 58) {#fortune-ultimate-magic}
+#### Fortune (Ultimate Magic page 58) {#fortune-ultimate-magic}
 
 At 5th level, as an immediate action, you can reroll any one d20 roll that you have just made before
 the results of the roll are revealed. You must take the result of the reroll, even if it's worse
 than the original roll. You can use this ability once per day at 5th level, and one additional time
 per day for every six oracle levels beyond 5th.
 
-## Misfortune (Ex) {#misfortune}
+### Misfortune (Ex) {#misfortune}
 
 As a standard action, a serendipity shaman can afflict one target within 30 feet with misfortune,
 causing it to take a -2 penalty on all saving throws against the shaman's spells. The effect lasts
 for 1 minute or until the target hits the shaman with an attack.
 
-## Spirit Magic {#spirit-magic}
+### Spirit Magic {#spirit-magic}
 
 A serendipity shaman adds both her spirit's spirit magic spells and the domain spells from the Luck
 cleric domain to the list of spells she can cast with the spirit magic ability. This hex cannot be
 taken as a wandering hex.
 
-## Tweak the Odds (Su) {#tweak-the-odds}
+### Tweak the Odds (Su) {#tweak-the-odds}
 
 Whenever the serendipity shaman or one of her allies within 30 feet rolls an ability check, attack
 roll, saving throw, or skill check, the shaman can use this ability as an immediate action to tweak

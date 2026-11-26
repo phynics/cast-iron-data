@@ -21,7 +21,7 @@ features = [
   { anchor = "adaptable-study", level = 4 },
   { anchor = "trailblazer", level = 7 },
   { anchor = "fast-study", level = 11 },
-  { anchor = "master-explorer" },
+  { anchor = "master-explorer", level = 20 },
 ]
 trades = [
   { replaces = "Track", feature = "track", by = ["hinterlander"] },
