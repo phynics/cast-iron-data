@@ -60,8 +60,7 @@ additional spells known (of any level she can cast) each time she gains a rogue 
 archetype.
 
 An eldritch scoundrel can cast only a certain number of spells of each spell level per day. Her base
-daily spell allotment is the same as the [magus](ref/class/magus) class (_Pathfinder RPG Ultimate
-Magic_ 10).
+daily spell allotment is the same as the [magus](ref/class/magus) class.
 
 ## Alarm Sense (Su) {#alarm-sense}
 
