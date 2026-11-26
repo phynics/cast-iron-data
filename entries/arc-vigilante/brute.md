@@ -17,7 +17,7 @@ page = "54"
 [fields]
 kind = "archetype"
 features = [
-  { anchor = "chaotic-vigilante" },
+  { anchor = "chaotic-vigilante", level = 1 },
   { anchor = "brutish-fortitude" },
   { anchor = "brute-form", level = 1 },
   { anchor = "brute-talents" },

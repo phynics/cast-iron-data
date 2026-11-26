@@ -17,7 +17,7 @@ page = "58"
 [fields]
 kind = "archetype"
 features = [
-  { anchor = "thorough-change" },
+  { anchor = "thorough-change", level = 1 },
   { anchor = "mount", level = 1 },
   { anchor = "furious-charge", level = 6 },
   { anchor = "mighty-charge", level = 12 },

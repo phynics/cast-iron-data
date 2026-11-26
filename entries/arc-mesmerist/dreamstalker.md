@@ -17,7 +17,7 @@ page = "60"
 [fields]
 kind = "archetype"
 features = [
-  { anchor = "dreams-of-pain" },
+  { anchor = "dreams-of-pain", level = 1 },
   { anchor = "somnomancer", level = 1 },
   { anchor = "sleepless", level = 2 },
   { anchor = "touch-of-night" },

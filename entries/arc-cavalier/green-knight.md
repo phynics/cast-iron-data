@@ -19,7 +19,7 @@ kind = "archetype"
 features = [
   { anchor = "beast-tongue", level = 1 },
   { anchor = "implacable-knight", level = 1 },
-  { anchor = "nature-s-servant" },
+  { anchor = "nature-s-servant", level = 1 },
   { anchor = "ferocious", level = 3 },
   { anchor = "woodland-stride", level = 4 },
   { anchor = "stalwart", level = 9 },

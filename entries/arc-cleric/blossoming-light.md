@@ -19,7 +19,7 @@ kind = "archetype"
 features = [
   { anchor = "promise-of-faith" },
   { anchor = "promise-of-purity" },
-  { anchor = "luminous-font" },
+  { anchor = "luminous-font", level = 1 },
 ]
 trades = [
   { alters = "The cleric's armor proficiencies", feature = "weapon-and-armor-proficiencies", power = "armor", by = ["promise-of-faith"] },

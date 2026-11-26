@@ -17,7 +17,7 @@ page = "98"
 [fields]
 kind = "archetype"
 features = [
-  { anchor = "wild-empathy" },
+  { anchor = "wild-empathy", level = 1 },
   { anchor = "aquatic-adaptation", level = 2 },
   { anchor = "natural-swimmer", level = 3 },
   { anchor = "resist-ocean-s-fury", level = 4 },

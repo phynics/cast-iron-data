@@ -17,8 +17,8 @@ page = "18"
 [fields]
 kind = "archetype"
 features = [
-  { anchor = "shifter-s-slam" },
-  { anchor = "leafshifter-s-aspect" },
+  { anchor = "shifter-s-slam", level = 1 },
+  { anchor = "leafshifter-s-aspect", level = 1 },
 ]
 trades = [
   { alters = "Shifter claws", feature = "shifter-claws", by = ["shifter-s-slam"] },

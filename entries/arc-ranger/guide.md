@@ -21,7 +21,7 @@ features = [
   { anchor = "terrain-bond", level = 4 },
   { anchor = "ranger-s-luck" },
   { anchor = "inspired-moment", level = 11 },
-  { anchor = "improved-ranger-s-luck" },
+  { anchor = "improved-ranger-s-luck", level = 16 },
 ]
 trades = [
   { replaces = "Favored enemy", feature = "favored-enemy", by = ["ranger-s-focus"] },

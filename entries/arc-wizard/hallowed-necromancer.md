@@ -17,7 +17,7 @@ page = "74"
 [fields]
 kind = "archetype"
 features = [
-  { anchor = "arcane-school" },
+  { anchor = "arcane-school", level = 1 },
   { anchor = "turn-undead" },
   { anchor = "positive-touch", level = 1 },
   { anchor = "deathbane", level = 5 },

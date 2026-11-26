@@ -17,7 +17,7 @@ page = "62"
 [fields]
 kind = "archetype"
 features = [
-  { anchor = "steal-power" },
+  { anchor = "steal-power", level = 1 },
   { anchor = "elemental-might" },
   { anchor = "life-buffer", level = 6 },
   { anchor = "stolen-strength", level = 6 },

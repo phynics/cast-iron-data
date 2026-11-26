@@ -17,7 +17,7 @@ page = "63"
 [fields]
 kind = "archetype"
 features = [
-  { anchor = "talismanic-implements" },
+  { anchor = "talismanic-implements", level = 1 },
   { anchor = "spellbound-talisman", level = 2 },
   { anchor = "shared-talisman", level = 4 },
   { anchor = "warding-seal", level = 5 },

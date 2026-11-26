@@ -20,7 +20,7 @@ page = "25"
 [fields]
 kind = "archetype"
 features = [
-  { anchor = "rebellious-identity" },
+  { anchor = "rebellious-identity", level = 1 },
   { anchor = "bellflower-crop" },
   { anchor = "crop-vigilance", level = 1 },
   { anchor = "obsequious", level = 1 },

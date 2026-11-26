@@ -18,7 +18,7 @@ page = "101"
 kind = "archetype"
 features = [
   { anchor = "sleuth-s-luck", level = 1 },
-  { anchor = "deeds" },
+  { anchor = "deeds", level = 1 },
   { anchor = "daring", level = 1 },
   { anchor = "opportunistic-evasion", level = 1 },
   { anchor = "sleuth-s-initiative", level = 1 },

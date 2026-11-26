@@ -17,7 +17,7 @@ page = "43"
 [fields]
 kind = "archetype"
 features = [
-  { anchor = "venomous-strike" },
+  { anchor = "venomous-strike", level = 1 },
 ]
 trades = [
   { replaces = "Knockout", feature = "knockout", by = ["venomous-strike"] },

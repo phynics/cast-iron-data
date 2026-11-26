@@ -14,7 +14,7 @@ relations = [
 [fields]
 kind = "archetype"
 features = [
-  { anchor = "gunsmith" },
+  { anchor = "gunsmith", level = 1 },
   { anchor = "deeds" },
   { anchor = "up-close-and-deadly", level = 1 },
   { anchor = "deadeye", level = 7 },

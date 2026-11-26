@@ -19,7 +19,7 @@ kind = "archetype"
 features = [
   { anchor = "walk-the-planes", level = 1 },
   { anchor = "planar-adaptation", level = 8 },
-  { anchor = "planar-associates" },
+  { anchor = "planar-associates", level = 1 },
   { anchor = "planar-redoubt", level = 15 },
 ]
 trades = [

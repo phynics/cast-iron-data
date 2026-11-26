@@ -17,7 +17,7 @@ page = "35"
 [fields]
 kind = "archetype"
 features = [
-  { anchor = "icy-bombs" },
+  { anchor = "icy-bombs", level = 1 },
   { anchor = "cold-sweat", level = 2 },
   { anchor = "frost-bomb", level = 2 },
 ]

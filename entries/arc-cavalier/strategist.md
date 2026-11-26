@@ -17,7 +17,7 @@ page = "39"
 [fields]
 kind = "archetype"
 features = [
-  { anchor = "tactician" },
+  { anchor = "tactician", level = 1 },
   { anchor = "drill-instructor", level = 4 },
   { anchor = "tactical-advantage", level = 14 },
   { anchor = "strategic-supremacy", level = 18 },

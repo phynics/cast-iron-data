@@ -17,7 +17,7 @@ page = "68"
 [fields]
 kind = "archetype"
 features = [
-  { anchor = "knowledge-is-power" },
+  { anchor = "knowledge-is-power", level = 1 },
   { anchor = "broker-secrets", level = 2 },
   { anchor = "share-memory", level = 4 },
   { anchor = "steal-secret", level = 8 },

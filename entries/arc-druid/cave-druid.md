@@ -18,8 +18,8 @@ page = "99"
 kind = "archetype"
 features = [
   { anchor = "cavesense", level = 1 },
-  { anchor = "nature-bond" },
-  { anchor = "wild-empathy" },
+  { anchor = "nature-bond", level = 1 },
+  { anchor = "wild-empathy", level = 1 },
   { anchor = "tunnelrunner", level = 2 },
   { anchor = "lightfoot", level = 3 },
   { anchor = "resist-subterranean-corruption", level = 4 },

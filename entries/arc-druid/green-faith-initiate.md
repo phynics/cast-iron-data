@@ -20,7 +20,7 @@ page = "10"
 [fields]
 kind = "archetype"
 features = [
-  { anchor = "mediator-s-ear" },
+  { anchor = "mediator-s-ear", level = 3 },
   { anchor = "zephyr-message", level = 6 },
   { anchor = "path-to-refuge", level = 9 },
   { anchor = "secrets-across-lifetimes", level = 10 },

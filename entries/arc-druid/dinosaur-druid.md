@@ -17,7 +17,7 @@ page = "47"
 [fields]
 kind = "archetype"
 features = [
-  { anchor = "summon-dinosaur" },
+  { anchor = "summon-dinosaur", level = 1 },
   { anchor = "dinosaur-bond" },
   { anchor = "dinosaur-shape" },
   { anchor = "primeval-voice", level = 4 },

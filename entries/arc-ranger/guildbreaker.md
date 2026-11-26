@@ -17,7 +17,7 @@ page = "41"
 [fields]
 kind = "archetype"
 features = [
-  { anchor = "favored-organization" },
+  { anchor = "favored-organization", level = 1 },
   { anchor = "read-the-city", level = 1 },
   { anchor = "deep-cover", level = 4 },
   { anchor = "crowd-stride", level = 7 },

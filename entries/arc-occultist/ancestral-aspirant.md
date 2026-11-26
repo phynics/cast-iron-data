@@ -17,7 +17,7 @@ page = "67"
 [fields]
 kind = "archetype"
 features = [
-  { anchor = "family-jewels" },
+  { anchor = "family-jewels", level = 1 },
   { anchor = "emotional-reading" },
   { anchor = "courtly-contacts" },
 ]

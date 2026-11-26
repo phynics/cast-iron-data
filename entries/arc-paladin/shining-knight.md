@@ -18,7 +18,7 @@ page = "117"
 kind = "archetype"
 features = [
   { anchor = "skilled-rider", level = 3 },
-  { anchor = "divine-bond" },
+  { anchor = "divine-bond", level = 5 },
   { anchor = "knight-s-charge", level = 11 },
 ]
 trades = [

@@ -22,12 +22,12 @@ features = [
   { anchor = "pirate-s-jargon", level = 3 },
   { anchor = "rope-swing", level = 7 },
   { anchor = "captain-s-curse", level = 11 },
-  { anchor = "grit" },
+  { anchor = "grit", level = 1 },
   { anchor = "liquid-courage", level = 2 },
   { anchor = "bonus-feat" },
   { anchor = "exotic-pet", level = 5 },
   { anchor = "sword-and-pistol", level = 9 },
-  { anchor = "gun-training" },
+  { anchor = "gun-training", level = 13 },
   { anchor = "raider-s-riposte", level = 17 },
 ]
 trades = [

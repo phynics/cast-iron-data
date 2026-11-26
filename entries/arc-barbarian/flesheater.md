@@ -17,7 +17,7 @@ page = "114"
 [fields]
 kind = "archetype"
 features = [
-  { anchor = "rage" },
+  { anchor = "rage", level = 1 },
   { anchor = "one-flesh", level = 2 },
   { anchor = "unbound-rage", level = 11 },
   { anchor = "feast", level = 14 },
