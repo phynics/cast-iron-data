@@ -46,7 +46,7 @@ ref/arc-barbarian/true-primitive	Trophy Fetish (Ex)	trophy-fetish	yes	3	print	pr
 ref/arc-barbarian/true-primitive	Rage Powers	rage-powers	no		print	print	print asterisks without their key dropped	31	426033b5e48349fcd18d1afc6381d8879e1fdb84526357e7aba68de60f29f12b
 ref/arc-barbarian/urban-barbarian	Weapon and Armor Proficiency	weapon-and-armor-proficiency	no		print	print	hand review (ruling 14, print): print's wording is taken: the values that the corpus restates as rows, fractions or a longer text equal print's, checked sentence by sentence; where print has a rule or value that the corpus lacks, print wins.; print: Ultimate Combat, 3rd printing	31	8fb9cd050aac86b688f709cf1de7358621d4f444717c6e5aab379656eda3dc2c
 ref/arc-barbarian/urban-barbarian	Skills	skills	no		print	print	head printed, not in the import: added from print	31	
-ref/arc-barbarian/urban-barbarian	Crowd Control (Ex)	crowd-control	yes	1	print	print	printed cross-reference left out; link not placed: half	31	88010eb41b4919e5eb0314b6555122480bb92b27de63c89085b24183e0cf302a
+ref/arc-barbarian/urban-barbarian	Crowd Control (Ex)	crowd-control	yes	1	print	print	link not placed: half	31	88010eb41b4919e5eb0314b6555122480bb92b27de63c89085b24183e0cf302a
 ref/arc-barbarian/urban-barbarian	Controlled Rage (Ex)	controlled-rage	yes		print	print		31	51238716dafde2a865a6a9c0770f11ca0d3cdf48d85f15cfbb35a22939fc85fa
 ref/arc-barbarian/urban-barbarian	Rage Powers	rage-powers	no		print	print	print asterisks without their key dropped	31	3b969636aad5e428df5023f68725ab4a4acdc1a9b01ee8449b8c7bc5ad6cd338
 ref/arc-barbarian/wild-rager	Uncontrolled Rage (Ex)	uncontrolled-rage	yes		print	print	printed cross-reference left out; link not placed: half; print: Ultimate Combat, 3rd printing	31	51f4797997c493537229a2e2342cbfa9f192c812f77bea4d9ec139c1f2f17200
@@ -192,7 +192,7 @@ ref/arc-fighter/dragoon	Weapon and Armor Proficiency	weapon-and-armor-proficienc
 ref/arc-fighter/dragoon	Skilled Rider (Ex)	skilled-rider	yes	1	print	print		46	3c284cb6e03eb78af641be12862d05b19f36b8461a8ad8482153dba7cb52de7e
 ref/arc-fighter/dragoon	Spear Training (Ex)	spear-training	yes	5	print	print		46	a64081097dbd77974b7007262c1e5dcd29105d2dd4d2a158f743ec69a9b4a773
 ref/arc-fighter/dragoon	Spinning Lance (Ex)	spinning-lance	yes	7	print	print		46	0340e5428fbd69a8445fc1f05273c451490a233740173931a0737e6205488466
-ref/arc-fighter/dragoon	Banner (Ex)	banner	yes	9	print	print	rule 1: the corpus rows and the printed values agree level by level; print's wording taken; printed cross-reference left out	47	1d849d389f4e9f85d88b4afe1e879fb3d1270cf412ffb1582e5fb39682bc62f1
+ref/arc-fighter/dragoon	Banner (Ex)	banner	yes	9	print	print	rule 1: the corpus rows and the printed values agree level by level; print's wording taken	47	1d849d389f4e9f85d88b4afe1e879fb3d1270cf412ffb1582e5fb39682bc62f1
 ref/arc-fighter/dragoon	Piercing Lance (Ex)	piercing-lance	yes	11	print	print		47	2c8672c051f44d3f0e96110c2b6bab11964cc86bb644065c443c14e6801c65f4
 ref/arc-fighter/dragoon	Leaping Lance (Ex)	leaping-lance	yes	15	print	print	ruling 10: corpus text that print does not have is dropped: “This ability qualifies you for the [Rebounding …”; link not placed: Rebounding Leap	47	a7e9f586ea7a5802a0e1e72f464a812f6a6c5f802ad5e7d6be6edc123269b6bb
 ref/arc-fighter/dragoon	Weapon Mastery	weapon-mastery	yes		print	print		47	78a3196ad40065d04edf6c0752c9659ab91866b0e55d457ed44be541bdebfa38
@@ -204,7 +204,7 @@ ref/arc-fighter/tactician	Weapon and Armor Proficiency	weapon-and-armor-proficie
 ref/arc-fighter/tactician	Strategic Training (Ex)	strategic-training	yes	1	print	print	level from the trade	47	e02c898db621fa5c56201c00f8d590feffe2e6d329306375daa6aefc960e1ce5
 ref/arc-fighter/tactician	Bonus Feats	bonus-feats	no		draft	draft		47	0bbb0c6f85bbe1a99bf6c7ac7258e7c816cb10564a204b6e6b53d40a12d07425
 ref/arc-fighter/tactician	Tactical Awareness (Ex)	tactical-awareness	yes	2	print	print	rule 1: the corpus rows and the printed values agree level by level; print's wording taken	47	b9dfde27a6c4447d9790880a58ea4578bc75e3a75c22461f1580da12dd5c378e
-ref/arc-fighter/tactician	Tactician (Ex)	tactician	yes	5	print	print	printed cross-reference left out	47	6b0eb4a645ff49c406b8770313f175030e5c0d761543b9ec1fd0115b019c9114
+ref/arc-fighter/tactician	Tactician (Ex)	tactician	yes	5	print	print		47	6b0eb4a645ff49c406b8770313f175030e5c0d761543b9ec1fd0115b019c9114
 ref/arc-fighter/tactician	Cooperative Combatant (Ex)	cooperative-combatant	yes	11	print	print	printed cross-reference left out	47	985754c4ef6926b8b8a8816bb378d6f62d8f60bc2ee650d9c341968ed049833b
 ref/arc-fighter/tactician	Battle Insight (Ex)	battle-insight	yes	15	print	print		47	106485dec48d65aeeb66494079db7fe859453f44a5d29d5d592eaa2b37539952
 ref/arc-fighter/tactician	Armor Proficiency	armor-proficiency	no			print	hand review (ruling 14, structural): the corpus section 'Armor Proficiency' has no printed head; it is a copy or an unpacking of text that print gives elsewhere (ruling 10).		c73e78b91c5e4e11c03e3efc9b213e6d61e9410711290b4e4968af71ca0d1f8d
@@ -285,7 +285,7 @@ ref/arc-inquisitor/witch-hunter	Witch's Bane Judgment (Ex)	witch-s-bane-judgment
 ref/arc-inquisitor/witch-hunter	Witch's Bane	witch-s-bane	no		print	print	option item, not a feature (ruling 15): a subheading of `witch-s-bane-judgment`	53	72df4506127a918a3cd88bde40e26c8fc3f40417e701dc0dff6707bc416aef2b
 ref/arc-magus/kensai	Weapon and Armor Proficiency	weapon-and-armor-proficiency	no		draft	draft	print: Ultimate Combat, 3rd printing	55	6f68f3f20957025546a787596611fc9ecc42c823d9a3ceec9892b163dfb8f1a9
 ref/arc-magus/kensai	Diminished Spellcasting	diminished-spellcasting	yes		draft	draft		55	17e6c3eead34f0919b6168e7ba72c5d5165bc320b1fc42e1d8c14737690efada
-ref/arc-magus/kensai	Canny Defense (Ex)	canny-defense	yes	1	draft	draft	printed cross-reference left out	55	d05f40898a0719e43ac04c8c8d72dc49044f12d236cc44fe6b099d366b1535cb
+ref/arc-magus/kensai	Canny Defense (Ex)	canny-defense	yes	1	draft	draft		55	d05f40898a0719e43ac04c8c8d72dc49044f12d236cc44fe6b099d366b1535cb
 ref/arc-magus/kensai	Weapon Focus (Ex)	weapon-focus	yes	1	print	print	ruling 10: corpus text that print does not have is dropped: “At 1st level, a kensai gains either …”; link not placed: Modified Weapon Proficiency	55	a6ea768f94253cfbe4246ac9cebf06d70e354f13ac21e1da3a5bbb00f2a11751
 ref/arc-magus/kensai	Perfect Strike (Ex)	perfect-strike	yes	4	print	print		55	27cedd90f83251bd143f7ab77dfb51158950f0b6ca6a6a272b9afd5dbc69a1bb
 ref/arc-magus/kensai	Fighter Training (Ex)	fighter-training	yes	7	print	print		55	3bef76610c9d0623a8f5aec758affcaad6f70a95bb0dfd91f1c1741b94b94b84
@@ -475,7 +475,7 @@ ref/arc-rogue/survivalist	Hardy (Ex)	hardy	yes	1	print	print	opening text writte
 ref/arc-rogue/survivalist	Endure Elements (Sp)	endure-elements	yes	3	print	print		73	cdefadc1df5b296bda87e47387d2a5595a2418ece682c39586626caa371f7bf0
 ref/arc-rogue/survivalist	Rogue Talents	rogue-talents	no		print	print	print asterisks without their key dropped	73	66ed3d1e6b2f37cef69b7c563399d75d58a73630fa0a4bbbb5ba615d6813c0df
 ref/arc-rogue/survivalist	Advanced Talents	advanced-talents	no		print	print	print asterisks without their key dropped	73	828444fa80772737963cf2163f37a7b1c318d47d7d56694c1ab406ac5eff3260
-ref/arc-wizard/arcane-bomber	Bomb (Su)	bomb	yes	1	print	print	printed cross-reference left out; print: Ultimate Combat, 3rd printing	74	cd3b0eeeab7558d4286c91c4515384a5c88a1b082ffc5f03d6637d650493b576
+ref/arc-wizard/arcane-bomber	Bomb (Su)	bomb	yes	1	print	print	print: Ultimate Combat, 3rd printing	74	cd3b0eeeab7558d4286c91c4515384a5c88a1b082ffc5f03d6637d650493b576
 ref/arc-wizard/arcane-bomber	Spellblast Bombs (Su)	spellblast-bombs	yes	1	print	print	ruling 10: corpus text that print does not have is dropped: “At 1st level, the arcana bomber gains …”	74	5e77f7428ee0a8a35b8f5304ca0d804ed762d569fe5436dedfcd6b14fc17b5d1
 ref/arc-wizard/arcane-bomber	School of the Bomb	school-of-the-bomb	yes	1	print	print	level 1: replaces Arcane school, of which one is gained at 1st level in the class table	74	3b867f94fe6aba8fd44070a38fa1cde71689eb4b4783072115db515fd3b57c4c
 ref/arc-wizard/arcane-bomber	Bomb (Su)	school-of-the-bomb-bomb	no			print	hand review (ruling 14, structural): the corpus section 'Bomb (Su)' has no printed head; it is a copy or an unpacking of text that print gives elsewhere (ruling 10).; link of the dropped section not placed: half; link of the dropped section not placed: Throw Splash Weapon special attack; link of the dropped section not placed: Vital Strike; link of the dropped section not placed: Point-Blank Shot; link of the dropped section not placed: Weapon Focus		f10cc5547247d38aaac9049abc9e2bace54f9ab8f72d606414b1ceaedb3c0fc7
