@@ -19,7 +19,7 @@ kind = "archetype"
 features = [
   { anchor = "drake-companion", level = 1 },
   { anchor = "dragon-sense", level = 1 },
-  { anchor = "resist-dragon-s-might" },
+  { anchor = "resist-dragon-s-might", level = 4 },
   { anchor = "dragon-shape", level = 4 },
 ]
 trades = [

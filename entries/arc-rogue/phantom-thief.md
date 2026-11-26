@@ -18,7 +18,7 @@ page = "46"
 kind = "archetype"
 features = [
   { anchor = "refined-education", level = 1 },
-  { anchor = "broad-education" },
+  { anchor = "broad-education", level = 2 },
   { anchor = "social-sense", level = 3 },
   { anchor = "master-of-all", level = 20 },
 ]

@@ -18,7 +18,7 @@ page = "26"
 kind = "archetype"
 features = [
   { anchor = "benefactor-ethos" },
-  { anchor = "benefactor-hexes" },
+  { anchor = "benefactor-hexes", level = 2 },
 ]
 trades = [
   { alters = "Spellcasting", feature = "spells", by = ["benefactor-ethos"] },

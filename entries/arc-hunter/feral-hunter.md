@@ -19,7 +19,7 @@ kind = "archetype"
 features = [
   { anchor = "solitary" },
   { anchor = "feral-focus", level = 1 },
-  { anchor = "precise-summoned-animal" },
+  { anchor = "precise-summoned-animal", level = 2 },
   { anchor = "wild-shape", level = 4 },
   { anchor = "summon-pack", level = 6 },
 ]

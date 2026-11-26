@@ -20,7 +20,7 @@ features = [
   { anchor = "spellcasting" },
   { anchor = "transformation-sequence" },
   { anchor = "animal-guide", level = 1 },
-  { anchor = "staunch-ally" },
+  { anchor = "staunch-ally", level = 5 },
 ]
 trades = [
   { replaces = "4th-, 8th-, 10th-, 14th-, and 16th-level vigilante talents", feature = "vigilante-talent", levels = [4, 8, 10, 14, 16], by = ["spellcasting"] },

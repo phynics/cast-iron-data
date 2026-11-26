@@ -18,7 +18,7 @@ page = "15"
 kind = "archetype"
 features = [
   { anchor = "spirit-sense", level = 2 },
-  { anchor = "spiritslayer-talents" },
+  { anchor = "spiritslayer-talents", level = 3 },
   { anchor = "ghost-slayer", level = 7 },
 ]
 trades = [

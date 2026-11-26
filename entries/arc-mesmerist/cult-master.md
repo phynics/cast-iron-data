@@ -23,7 +23,7 @@ features = [
   { anchor = "false-healing", level = 3 },
   { anchor = "faithful-followers", level = 7 },
   { anchor = "fanatical-devotion", level = 10 },
-  { anchor = "masterful-cult-tricks" },
+  { anchor = "masterful-cult-tricks", level = 12 },
   { anchor = "reborn", level = 20 },
 ]
 trades = [

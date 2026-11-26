@@ -21,9 +21,9 @@ features = [
   { anchor = "purify-body-and-mind", level = 2 },
   { anchor = "student-of-the-beyond", level = 2 },
   { anchor = "ambush-defenses", level = 3 },
-  { anchor = "cultic-study" },
-  { anchor = "cult-combat" },
-  { anchor = "cult-strike" },
+  { anchor = "cultic-study", level = 4 },
+  { anchor = "cult-combat", level = 4 },
+  { anchor = "cult-strike", level = 4 },
   { anchor = "summoning-sense", level = 7 },
   { anchor = "extraplanar-expulsion", level = 13 },
 ]
