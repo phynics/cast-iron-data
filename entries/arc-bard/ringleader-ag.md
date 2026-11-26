@@ -17,7 +17,7 @@ page = "33"
 [fields]
 kind = "archetype"
 features = [
-  { anchor = "cunning-plan" },
+  { anchor = "cunning-plan", level = 1 },
   { anchor = "never-lose-face", level = 2 },
   { anchor = "sinister-mien", level = 2 },
   { anchor = "countless-contingencies", level = 6 },

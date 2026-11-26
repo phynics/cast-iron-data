@@ -18,7 +18,7 @@ page = "167"
 kind = "archetype"
 features = [
   { anchor = "divine-spellcasting" },
-  { anchor = "spirit-phantom" },
+  { anchor = "spirit-phantom", level = 1 },
   { anchor = "spirit-manifestation", level = 3 },
   { anchor = "spirit-awareness", level = 5 },
   { anchor = "involuate", level = 11 },

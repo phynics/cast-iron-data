@@ -17,7 +17,7 @@ page = "71"
 [fields]
 kind = "archetype"
 features = [
-  { anchor = "vigilante-specialization" },
+  { anchor = "vigilante-specialization", level = 1 },
   { anchor = "thwart-pursuit", level = 3 },
   { anchor = "studied-target", level = 4 },
   { anchor = "charming", level = 5 },

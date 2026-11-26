@@ -17,9 +17,9 @@ page = "75"
 [fields]
 kind = "archetype"
 features = [
-  { anchor = "necromantic-focus" },
+  { anchor = "necromantic-focus", level = 1 },
   { anchor = "necropolitan" },
-  { anchor = "corpse-bond" },
+  { anchor = "corpse-bond", level = 1 },
   { anchor = "command-undead", level = 1 },
   { anchor = "reanimator" },
   { anchor = "lich-loved", level = 20 },

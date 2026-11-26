@@ -17,7 +17,7 @@ page = "104"
 [fields]
 kind = "archetype"
 features = [
-  { anchor = "phrenic-charisma" },
+  { anchor = "phrenic-charisma", level = 1 },
   { anchor = "formless-body" },
   { anchor = "blurred-body", level = 1 },
   { anchor = "gaseous-body", level = 5 },

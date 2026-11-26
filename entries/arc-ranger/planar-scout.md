@@ -17,7 +17,7 @@ page = "17"
 [fields]
 kind = "archetype"
 features = [
-  { anchor = "planar-empathy" },
+  { anchor = "planar-empathy", level = 1 },
   { anchor = "planar-terrains", level = 3 },
   { anchor = "planar-bond", level = 4 },
   { anchor = "planar-adaptation", level = 9 },

@@ -17,7 +17,7 @@ page = "50"
 [fields]
 kind = "archetype"
 features = [
-  { anchor = "devolved-companion" },
+  { anchor = "devolved-companion", level = 1 },
   { anchor = "undomesticate", level = 4 },
   { anchor = "devolution", level = 9 },
 ]

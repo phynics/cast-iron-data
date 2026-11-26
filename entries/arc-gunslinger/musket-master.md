@@ -17,7 +17,7 @@ page = "50"
 [fields]
 kind = "archetype"
 features = [
-  { anchor = "gunsmith" },
+  { anchor = "gunsmith", level = 1 },
   { anchor = "deeds" },
   { anchor = "steady-aim", level = 1 },
   { anchor = "fast-musket", level = 3 },

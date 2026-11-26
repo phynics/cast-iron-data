@@ -18,7 +18,7 @@ page = "56"
 kind = "archetype"
 features = [
   { anchor = "emotional-intensity" },
-  { anchor = "mind-burn" },
+  { anchor = "mind-burn", level = 1 },
   { anchor = "mental-overflow" },
 ]
 trades = [

@@ -17,7 +17,7 @@ page = "130"
 [fields]
 kind = "archetype"
 features = [
-  { anchor = "harangue-giant" },
+  { anchor = "harangue-giant", level = 1 },
   { anchor = "smell-giants", level = 2 },
   { anchor = "giant-baiter", level = 3 },
 ]

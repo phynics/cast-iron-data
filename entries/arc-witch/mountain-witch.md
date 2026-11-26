@@ -18,7 +18,7 @@ page = "132"
 kind = "archetype"
 features = [
   { anchor = "spells" },
-  { anchor = "stone-spirit-hex" },
+  { anchor = "stone-spirit-hex", level = 1 },
   { anchor = "mountain-beast-empathy", level = 2 },
 ]
 trades = [

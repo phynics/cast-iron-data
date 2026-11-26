@@ -17,7 +17,7 @@ page = "126"
 [fields]
 kind = "archetype"
 features = [
-  { anchor = "avenger-finesse" },
+  { anchor = "avenger-finesse", level = 1 },
   { anchor = "secret-identity", level = 3 },
   { anchor = "greater-charmed-life", level = 4 },
   { anchor = "avenger-s-target", level = 5 },

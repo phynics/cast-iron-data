@@ -17,7 +17,7 @@ page = "19"
 [fields]
 kind = "archetype"
 features = [
-  { anchor = "infused-summoning" },
+  { anchor = "infused-summoning", level = 1 },
   { anchor = "primal-bond", level = 1 },
   { anchor = "fey-shape" },
 ]

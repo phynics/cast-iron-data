@@ -18,7 +18,7 @@ page = "11"
 kind = "archetype"
 features = [
   { anchor = "wanderer-s-insight" },
-  { anchor = "planar-lore" },
+  { anchor = "planar-lore", level = 1 },
   { anchor = "bardic-performance" },
   { anchor = "quintessence-infusion", level = 9 },
   { anchor = "mantra-of-tabris", level = 15 },

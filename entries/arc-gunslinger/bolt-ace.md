@@ -18,7 +18,7 @@ page = "94"
 kind = "archetype"
 features = [
   { anchor = "crossbow-maven", level = 1 },
-  { anchor = "grit" },
+  { anchor = "grit", level = 1 },
   { anchor = "deeds" },
   { anchor = "sharp-shoot", level = 1 },
   { anchor = "vigilant-loading", level = 1 },

@@ -19,7 +19,7 @@ kind = "archetype"
 features = [
   { anchor = "diminished-spellcasting" },
   { anchor = "arcane-bond", level = 1 },
-  { anchor = "spell-combat" },
+  { anchor = "spell-combat", level = 1 },
   { anchor = "spellstrike" },
   { anchor = "master-smith" },
   { anchor = "fortify-bond", level = 4 },

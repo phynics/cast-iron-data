@@ -17,8 +17,8 @@ page = "43"
 [fields]
 kind = "archetype"
 features = [
-  { anchor = "nature-bond" },
-  { anchor = "wild-empathy" },
+  { anchor = "nature-bond", level = 1 },
+  { anchor = "wild-empathy", level = 1 },
   { anchor = "totem-transformation", level = 2 },
   { anchor = "totemic-summons", level = 5 },
   { anchor = "wild-shape", level = 6 },

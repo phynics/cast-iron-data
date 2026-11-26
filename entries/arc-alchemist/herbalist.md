@@ -17,7 +17,7 @@ page = "22"
 [fields]
 kind = "archetype"
 features = [
-  { anchor = "herbalism" },
+  { anchor = "herbalism", level = 1 },
   { anchor = "natural-magic", level = 1 },
   { anchor = "seedpods", level = 1 },
 ]

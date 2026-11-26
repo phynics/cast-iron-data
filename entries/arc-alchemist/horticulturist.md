@@ -21,7 +21,7 @@ page = "24"
 kind = "archetype"
 features = [
   { anchor = "seed-extract", level = 1 },
-  { anchor = "herbal-bombs" },
+  { anchor = "herbal-bombs", level = 1 },
   { anchor = "plant-voice", level = 2 },
   { anchor = "plant-familiar", level = 4 },
   { anchor = "fury-of-nature", level = 14 },

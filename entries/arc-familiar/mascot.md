@@ -21,7 +21,7 @@ features = [
   { anchor = "share-spells", level = 3 },
   { anchor = "deliver-touch-spells", level = 5 },
   { anchor = "speak-with-team", level = 7 },
-  { anchor = "heart-of-the-team" },
+  { anchor = "heart-of-the-team", level = 13 },
 ]
 trades = [
   { replaces = "Alertness", by = ["affinity-for-my-team"] },

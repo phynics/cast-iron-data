@@ -17,7 +17,7 @@ page = "101"
 [fields]
 kind = "archetype"
 features = [
-  { anchor = "mastermind-s-inspiration" },
+  { anchor = "mastermind-s-inspiration", level = 1 },
   { anchor = "a-quiet-word", level = 1 },
   { anchor = "mastermind-defense", level = 4 },
   { anchor = "impregnable-mind", level = 9 },

@@ -17,9 +17,9 @@ page = "95"
 [fields]
 kind = "archetype"
 features = [
-  { anchor = "diminished-spirits" },
+  { anchor = "diminished-spirits", level = 1 },
   { anchor = "knowledge-of-tales", level = 1 },
-  { anchor = "versatile-surge" },
+  { anchor = "versatile-surge", level = 1 },
   { anchor = "storyteller-s-performance", level = 2 },
   { anchor = "learn-the-story", level = 7 },
   { anchor = "living-story", level = 20 },

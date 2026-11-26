@@ -17,7 +17,7 @@ page = "32"
 [fields]
 kind = "archetype"
 features = [
-  { anchor = "unassuming" },
+  { anchor = "unassuming", level = 1 },
   { anchor = "inattention-blindness", level = 1 },
   { anchor = "null-aura", level = 4 },
   { anchor = "evasive", level = 3 },

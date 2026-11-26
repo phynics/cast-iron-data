@@ -2727,7 +2727,7 @@ def _close_italics(citation: str) -> str:
     """What stays of a dropped citation: the italic that the text layer set over a spell name and the title in its citation as one run
     ("_overwhelming presence (Pathfinder RPG Ultimate Magic_ 230)") closes where the citation was, so that the name keeps its italics."""
     extra = citation.count(I_CLOSE) - citation.count(I_OPEN)
-    return I_CLOSE * extra if CITE_EXT["on"] and extra > 0 else ""
+    return I_CLOSE * extra if extra > 0 else ""
 
 
 def drop_linked_citation(pattern: str, text: str, links: list[tuple[str, str]], entry_id: str = "") -> str:
@@ -4241,7 +4241,7 @@ def finalize(e: Entry, res: dict, class_cache: dict | None = None) -> dict:
             elif (e.id, r["anchor"]) in LEVEL_ONE_REPLACES:
                 r["level"] = 1
                 r["notes"].append("level 1 (ruling 35): replaces " + ", ".join(trade_name(t)[1] for t in mine) + ", a 1st-level feature of the class" + (" (the class table lists it as `Blessing (minor)`)" if e.id == "ref/arc-warpriest/divine-commander" else ""))
-            elif mine:
+            elif mine and (e.id, r["anchor"]) not in NO_LEVEL_ONE:
                 # ruling 11: the feature replaces features that the base class gains at 1st level. Print states no level here, so
                 # the import's level (a line of the feature's own text, "At 2nd Level: ...") does not stop the rule (final review of
                 # batch 3); a differing import level is the hold below, which a hand decision settles.
@@ -4940,6 +4940,33 @@ TRADE_RENAMES.update({
     ("ref/arc-oracle/keleshite-prophet", "The bonus spells gained at 6th, 10th, 12th, 16th, and 18th levels from the oracle's mystery"):
         "Bonus spells at those levels gained from the oracle's mystery",
 })
+
+# the lost levels of the earlier books (cross-batch review of the level rules, owner rulings 4, 35, 48 and 50): print states the level in
+# a later sentence or paragraph of the feature, or the replaced feature is a 1st-level deed
+LEVEL_FROM_PRINT.update({
+    ("ref/arc-investigator/sleuth", "deeds"): (1, "its next sentence: \"At 1st level, a sleuth gains the following deeds\""),
+    ("ref/arc-sorcerer/eldritch-scrapper", "bloodline-weapons"): (3, "\"at 3rd level she can select that 1st-level bloodline power in place of her 3rd-level\""),
+    ("ref/arc-bard/sandman", "greater-stealspell"): (15, "\"A sandman's stealspell power improves at 15th level\""),
+    ("ref/arc-monk/monk-of-the-empty-hand", "bonus-feat"): (6, "\"adds the following feats to his list of bonus feats at 6th level\""),
+    ("ref/arc-paladin/shining-knight", "divine-bond"): (5, "\"Upon reaching 5th level, a shining knight must form a bond with a mount\""),
+    ("ref/arc-ranger/guide", "improved-ranger-s-luck"): (16, "\"Upon reaching 16th level\""),
+    ("ref/arc-cleric/forgemaster", "craft-magic-arms-and-armor"): (3, "\"gains this as a bonus feat at 3rd level\""),
+    ("ref/arc-gunslinger/buccaneer", "gun-training"): (13, "\"A buccaneer gains this ability only at 13th level\""),
+    ("ref/arc-oracle/reincarnated-oracle", "oracle-s-curse"): (1, "\"must choose the haunted or tongues curse at 1st level\""),
+    ("ref/arc-oracle/shigenjo", "final-revelation"): (20, "\"Upon reaching 20th level, you achieve true enlightenment\""),
+    ("ref/arc-medium/storm-dreamer", "storm-trance"): (3, "\"A 3rd-level storm dreamer can enter a meditative trance\""),
+    ("ref/arc-swashbuckler/dashing-thief", "swaying-charm-deed"): (15, "\"At 15th level, when a dashing thief successfully dazes a creature\""),
+    ("ref/arc-alchemist/promethean-alchemist", "ability-score-increase"): (5, "\"The homunculus adds 1 to one of its ability scores at 5th level\""),
+    ("ref/arc-druid/green-faith-initiate", "mediator-s-ear"): (3, "\"By 3rd level, a Green Faith initiate is respected\""),
+    ("ref/arc-familiar/animal-exemplar", "influence-animals"): (3, "\"gains speak with animals ... at 3rd level instead of 7th level\""),
+    ("ref/arc-familiar/egotist", "order-master"): (3, "\"gains speak with master at 3rd level instead of 5th level\""),
+    ("ref/arc-familiar/mascot", "heart-of-the-team"): (13, "\"Once per day at 13th level\""),
+    ("ref/arc-swashbuckler/wildstrider", "subterfuge"): (1, "owner rulings 35 and 48: the deed replaces dodging panache, a 1st-level deed (and alters derring-do)"),
+})
+# a feature that replaces or alters only a part of a feature gets no level from the trade (owner ruling 48)
+NO_LEVEL_ONE = {
+    ("ref/arc-gunslinger/bushwhacker", "craven-deeds"),       # "replaces some of her deeds with the following deeds"
+}
 
 LEVEL_FROM_PRINT[("ref/arc-oracle/keleshite-prophet", "divining-dance")] = (
     1, 'print says the prophet "must take the following revelation at 1st level" (Inner Sea Intrigue p. 42): a fixed ability, no choice (ruling 47)')
@@ -5643,6 +5670,9 @@ def self_test() -> int:
     eq(_close_italics("(" + I_OPEN + "Core Rulebook" + I_CLOSE + " 5)"), "", "a citation with both marks leaves none")
     eq(len(dead_ocr_patterns()) > 0, True, "with no hits every OCR pattern is dead")
     BULLETS["on"] = ITALIC_FIRST["on"] = CITE_EXT["on"] = False
+    eq(_close_italics("(Pathfinder RPG Ultimate Magic" + I_CLOSE + " 230)"), I_CLOSE, "every book restores the italic that a dropped citation shared with the name")
+    eq(len(NO_LEVEL_ONE) > 0 and ("ref/arc-gunslinger/bushwhacker", "craven-deeds") in NO_LEVEL_ONE, True, "ruling 48: a part of a feature has no level from the trade")
+    eq(LEVEL_FROM_PRINT[("ref/arc-swashbuckler/wildstrider", "subterfuge")][0], 1, "a deed that replaces a 1st-level deed has level 1")
     eq(len(re.findall(CITE_BOOK, "x (Inner Sea World Guide 286) y")), 0, "the other books do not cite the Inner Sea World Guide")
     PAGE_GEOMETRY["on"] = True
     eq(page_geometry(geo, 1), (432, (108, 440)), "page geometry: the right column starts at 440")

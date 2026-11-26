@@ -18,7 +18,7 @@ page = "182"
 kind = "archetype"
 features = [
   { anchor = "gozreh-s-domain", level = 1 },
-  { anchor = "storm-trance" },
+  { anchor = "storm-trance", level = 3 },
   { anchor = "dream-storm", level = 5 },
   { anchor = "storm-seer", level = 7 },
 ]

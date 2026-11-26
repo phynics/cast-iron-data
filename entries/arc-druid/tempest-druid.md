@@ -22,7 +22,7 @@ kind = "archetype"
 features = [
   { anchor = "armor-and-weapon-proficiencies" },
   { anchor = "spontaneous-domain-casting" },
-  { anchor = "nature-bond" },
+  { anchor = "nature-bond", level = 1 },
   { anchor = "sodden-shore-sense", level = 1 },
   { anchor = "electrical-resistance", level = 3 },
   { anchor = "eyes-of-the-storm", level = 4 },

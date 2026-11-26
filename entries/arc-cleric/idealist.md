@@ -18,7 +18,7 @@ page = "15"
 kind = "archetype"
 features = [
   { anchor = "planar-bond", level = 1 },
-  { anchor = "invoke-realm" },
+  { anchor = "invoke-realm", level = 1 },
 ]
 trades = [
   { alters = "Spontaneous casting", feature = "spontaneous-casting", by = ["planar-bond"] },

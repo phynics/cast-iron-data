@@ -17,7 +17,7 @@ page = "93"
 [fields]
 kind = "archetype"
 features = [
-  { anchor = "channel-self" },
+  { anchor = "channel-self", level = 1 },
   { anchor = "nothing-is-taboo" },
   { anchor = "ease-passage", level = 3 },
   { anchor = "lingering-spirit", level = 5 },
