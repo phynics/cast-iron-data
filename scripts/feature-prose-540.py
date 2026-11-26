@@ -1500,6 +1500,8 @@ def _clean_phrase(phrase: str) -> str:
     phrase = phrase.strip().rstrip(".").strip()
     phrase = re.sub(r",\s+but\b.*$", "", phrase)                              # R8: the phrase ends at ", but "
     phrase = re.sub(r",\s+and\s+(?:it\s+)?counts?\s+as\b.*$", "", phrase)    # R17: ", and counts as" and ", and it counts as" end the phrase
+    phrase = re.sub(r",?\s+and\s+(?:it\s+)?(?:does not|cannot)\b.*$", "", phrase)    # app #737: ", and does not", ", and it does not" and ", and cannot" end the phrase
+    phrase = re.sub(r"^and functions as\s+", "", phrase)                  # app #737: "modifies and functions as X" names X
     # R9 and R18: a parenthesis of 4+ words is an aside, at the end of the phrase or inside it
     phrase = re.sub(r"\s*\(([^()]*)\)", lambda m: "" if len(m.group(1).split()) >= 4 else m.group(0), phrase)
     return phrase.strip().rstrip(".").strip()
@@ -1529,11 +1531,13 @@ def trade_sentences(text: str, head: str = "") -> list[tuple[str, str, bool]]:
         rest = sentence[verb.end():]
         # R11: two verbs, two sentences; "changes" is a verb only as the first one (owner ruling 25)
         # R16: the second clause may have a subject: ", and it replaces X" (it, this, he, she, they, with "also")
-        clause = r"(?:(?:it|this|he|she|they)\s+(?:also\s+)?)?"
-        parts = re.split(r"\s*,?\s+and\s+(?=" + clause + r"(?:replaces?|alters?)\b)", rest, flags=re.I)
-        ops = [verb.group(1)] + [re.match(clause + r"(replaces?|alters?)", x, re.I).group(1) for x in parts[1:]]
+        # app #737: "and also <verb>" and ", and it also changes/modifies X" split too; "and it changes X" without "also" stays prose (ruling 25)
+        subj = r"(?:(?:it|this|he|she|they)\s+)?"
+        clause = r"(?:" + subj + r"also\s+(?:replaces?|alters?|changes?|modifies)|" + subj + r"(?:replaces?|alters?))"
+        parts = re.split(r"\s*,?\s+and\s+(?=" + clause + r"\b)", rest, flags=re.I)
+        ops = [verb.group(1)] + [re.match(r"(?:" + subj + r"(?:also\s+)?)(replaces?|alters?|changes?|modifies)", x, re.I).group(1) for x in parts[1:]]
         for op_word, part in zip(ops, parts):
-            part = re.sub(r"^" + clause + r"(?:replaces?|alters?)\b", "", part.strip(), flags=re.I)
+            part = re.sub(r"^" + subj + r"(?:also\s+)?(?:replaces?|alters?|changes?|modifies)\b", "", part.strip(), flags=re.I) if part is not parts[0] else part
             ph = _clean_phrase(part)
             if re.search(r"\bas indicated below$", ph, re.I):      # owner ruling 40: a cross-reference, like "(see ...)"; it stores no trade
                 continue
@@ -6112,6 +6116,14 @@ def self_test() -> int:
        [("replaces", "Dodge, Mobility, and Spring Attack on his bonus feat list", True)], "bonus feat choices are a bare subject")
     eq(trade_sentences("These choices replace Dodge."), [], "choices alone is no subject word")
     eq(trade_sentences("This ability modifies bonus feats."), [("alters", "bonus feats", False)], "ruling 55: modifies is an alters verb")
+    eq(trade_sentences("This ability modifies bonus feats and also replaces the 5th-level bonus feat."),
+       [("alters", "bonus feats", False), ("replaces", "the 5th-level bonus feat", False)], "app #737: and also <verb> splits")
+    eq(trade_sentences("This ability alters rogue talents, and it also modifies trapfinding."),
+       [("alters", "rogue talents", False), ("alters", "trapfinding", False)], "app #737: and it also modifies splits")
+    eq(trade_sentences("This ability alters rogue talents, and it changes trapfinding."), [("alters", "rogue talents, and it changes trapfinding", False)],
+       "ruling 25: and it changes without also is prose")
+    eq(trade_sentences("This ability modifies the bombs and does not stack with other discoveries."), [("alters", "the bombs", False)], "app #737: and does not ends the phrase")
+    eq(trade_sentences("This ability modifies and functions as true judgment."), [("alters", "true judgment", False)], "app #737: modifies and functions as X names X")
     eq(trade_sentences("This discovery modifies the alchemist's bombs and doesn't stack with other discoveries that modify bombs."),
        [("alters", "the alchemist's bombs and doesn't stack with other discoveries that modify bombs", False)], "ruling 55: the phrase after modifies")
     # ---- Campaign Setting books (Inner Sea Magic, Intrigue, Combat; phynics/cast-iron#540) ----
