@@ -3274,6 +3274,7 @@ LEVEL_ONE_REPLACES = {
 
 # a lead at the start of a later sentence of the first paragraph, or "of Nth level" in its first sentence
 LATER_LEAD = re.compile(r"(?:(?<=[.!?]\s)|(?<=[.!?][\"\u201d]\s))(?:At|Starting at|Beginning at)\s+(\d+)(st|nd|rd|th)\s+level\b", re.I)
+UPGRADE_WORDS = re.compile(r"\b(?:increases?|improves?|becomes?|rises?|grows?|decreases?|additional|instead)\b", re.I)
 OF_LEVEL = re.compile(r"^[^.]*?\bof\s+(\d+)(st|nd|rd|th)\s+level\b(?!\s+or\s+lower)", re.I)
 # A level that the text of the feature does not state but the section before it does (review of #338): "must take the following revelation at 3rd level"
 LEVEL_FROM_PRINT = {
@@ -3698,7 +3699,10 @@ def finalize(e: Entry, res: dict, class_cache: dict | None = None) -> dict:
         if r["level"] is None and r["listed"] and r["level_import"] is not None:
             # a lead after an opening sentence ("... honed. At 3rd level, if ...") or "a fortune-finder of 20th level becomes ...": print gives the
             # level that the import's Gained row has (review of #338)
-            m = LATER_LEAD.search(first) or OF_LEVEL.search(first)
+            m = LATER_LEAD.search(first)
+            if m and UPGRADE_WORDS.search(first[m.start():].split(". ", 1)[0]):
+                m = None                      # "At 5th level, if the target is Large or larger, these bonuses increase": a step of the feature, not its level
+            m = m or OF_LEVEL.search(first)
             if m and int(m.group(1)) == r["level_import"] and ordinal(int(m.group(1)))[len(m.group(1)):] == m.group(2):
                 r["level"] = int(m.group(1))
                 r["notes"].append(f"level {r['level']}: print says \"{m.group(0).strip()[-40:]}\" in its first paragraph, as the import has it")
@@ -4748,6 +4752,7 @@ def self_test() -> int:
     eq(LATER_LEAD.search("Eventually, a loyalist trains. At 5th level, a loyalist chooses one house.").group(1), "5", "a lead after an opening sentence")
     eq(OF_LEVEL.search("A fortune-finder of 20th level becomes a master explorer.").group(1), "20", "of Nth level in the first sentence")
     eq(bool(LATER_LEAD.search("At 5th level, a loyalist chooses.")), False, "a lead at the start is the ordinary lead")
+    eq(bool(UPGRADE_WORDS.search("At 5th level, if the target is Large or larger, these bonuses increase by an additional 1.")), True, "a step of a feature is not its level")
     eq(bool(CHOICE_INTRO.search("An opportunist can select an edge from those listed below.")), True, "choices: from those listed below")
     eq(bool(CHOICE_INTRO.search("A serendipity shaman can select from any of the following hexes, in addition to general shaman hexes.")), True, "choices: of the following hexes")
     eq(bool(CHOICE_INTRO.search("A fighter can select any feat he qualifies for.")), False, "choices: no list follows")
