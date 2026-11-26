@@ -4538,18 +4538,20 @@ def finalize(e: Entry, res: dict, class_cache: dict | None = None) -> dict:
                                          else ", of which one is gained at 1st level in the class table"))
                 elif RULE57["on"]:
                     # owner ruling 57: the rulings 35, 48 and 50 hold for any level: a feature with no printed level that alters or replaces a whole class feature
-                    # that the class table lists at level N gets level N, the lowest of its trades (a trade of some levels or of a power is a part: none)
+                    # that the class table lists at level N gets level N, the lowest of its trades (a trade of a power is a part: none; a trade that names its levels counts with its lowest level)
                     found = []
                     for t in mine:
                         op, name = trade_name(t)
                         cls = t.get("class") or (e.classes[0] if e.classes else "")
-                        if op in ("replaces", "alters") and cls and not t.get("levels") and not t.get("power"):
+                        if op in ("replaces", "alters") and t.get("levels") and not t.get("power"):
+                            found.append((min(t["levels"]), op, name))       # the lowest level of a trade that names its levels (the bonus feat gained at 3rd level: Emotional Appeal)
+                        elif op in ("replaces", "alters") and cls and not t.get("levels") and not t.get("power"):
                             lv = table_level(class_table_levels(corpus, cls, class_cache), name)
                             if lv:
                                 found.append((lv, op, name))
                     if found:
                         r["level"] = min(lv for lv, _o, _n in found)
-                        r["notes"].append(f"level {r['level']} (ruling 57): " + ", ".join(f"{o} {n} (gained at level {lv} in the class table)" for lv, o, n in found))
+                        r["notes"].append(f"level {r['level']} (ruling 57): " + ", ".join(f"{o} {n} (level {lv})" for lv, o, n in found))
         if (e.id, r["anchor"]) in LEVEL_NONE and r["level"] is not None:
             r["notes"].append(f"no level: print states none and the feature alters a part of a class feature (owner rulings 4 and 48); the reader would take {r['level']}")
             r["level"] = None
