@@ -1816,6 +1816,29 @@ def read_edits(corpus: Path, book: str) -> dict[tuple[str, str], tuple[str, str]
     return out
 
 
+def apply_edit(r: dict, edit: tuple[str, str] | None) -> dict:
+    """A hand-written text of a review (`read_edits`) replaces the text of the row; it is never added to it, so that applying an edit again
+    gives the same row (review of #339: Pei Zin's list stood three times when a tool appended it at every regeneration)."""
+    if edit:
+        r["print"] = edit[0]
+        r["status"] = "print"
+        r["notes"] = [edit[1]] + [n for n in r["notes"] if n.startswith(("print:", "level", "ruling"))]
+    return r
+
+
+def repeated_paragraphs(text: str) -> list[str]:
+    """The paragraphs of 40 or more letters that a text states twice (a printed text may repeat a sentence, never a whole paragraph of an edit)."""
+    seen: set[str] = set()
+    out: list[str] = []
+    for para in re.split(r"\n\s*\n", text):
+        key = re.sub(r"\s+", " ", para).strip()
+        if len(re.sub(r"[^A-Za-z]", "", key)) >= 40:
+            if key in seen:
+                out.append(key[:60])
+            seen.add(key)
+    return out
+
+
 def read_adds(corpus: Path, book: str) -> dict[str, list[dict]]:
     """Sections that another owner book prints and that the entry carries (owner ruling 32 of 2026-11-25): `[[add]]` in
     `scripts/feature-prose-540-<book>.edits.toml` with `entry`, `anchor`, `head`, `parent`, `after`, `note` and `text`.
@@ -3678,11 +3701,7 @@ def finalize(e: Entry, res: dict, class_cache: dict | None = None) -> dict:
             problems.append(f"the print span ends at the title \"{end}\", which names no other section of the book (a table, a box?): "
                             f"decide `sidebar` (a lore box, ruling 41) or `drop`, or write it with an edit, for `{anchor_of(end)}`")
     for r in rows:
-        edit = res.get("edits", {}).get((e.id, r["anchor"]))
-        if edit:
-            r["print"] = edit[0]
-            r["status"] = "print"
-            r["notes"] = [edit[1]] + [n for n in r["notes"] if n.startswith(("print:", "level", "ruling"))]
+        apply_edit(r, res.get("edits", {}).get((e.id, r["anchor"])))
     for add in res.get("adds", {}).get(e.id, []):
         row = {"anchor": add["anchor"], "span": "", "page": "", "pseudo": False, "draft": "", "level_import": None,
                "head": add["head"], "print": add["text"].strip("\n"), "status": "print", "notes": [add["note"]],
@@ -4470,6 +4489,8 @@ def run_check(args) -> int:
         if k not in ids:
             errors.append(f"{k}: in the review TSV but not an entry of {book}")
     errors += missing_printed_sentences(corpus, book, entries)
+    for (eid, anchor), (text, _note) in read_edits(corpus, book).items():
+        errors += [f"{eid}: the edit of `{anchor}` states a paragraph twice (\"{dup}...\")" for dup in repeated_paragraphs(text)]
     print(f"{book}: {len(entries)} archetypes, {converted} converted, {held} not converted")
     for err in errors:
         print("error:", err)
@@ -4887,6 +4908,16 @@ def self_test() -> int:
                 "to manipulate the time stream in a variety of ways listed below."):
         eq(bool(CHOICE_INTRO.search(txt)), True, "a lead-in that offers a choice from the sections that follow: " + txt[:30])
     eq(bool(CHOICE_INTRO.search("At 3rd level, the bonus increases by 1.")), False, "no choice in a plain feature")
+    # review of #339: an edit replaces the text of a row, so applying it twice gives the same row; an edit that repeats a paragraph is an error
+    row0 = {"print": "text that print gives", "status": "hold", "notes": ["a hold note", "level 1: x"]}
+    ed = ("The edit text.\n\n- A list item.", "hand-written note")
+    once = apply_edit(dict(row0, notes=list(row0["notes"])), ed)
+    twice = apply_edit(dict(once, notes=list(once["notes"])), ed)
+    eq((once, once["print"]), (twice, "The edit text.\n\n- A list item."), "applying an edit twice gives the same row")
+    eq(apply_edit(dict(row0), None), row0, "no edit leaves the row")
+    para = "This ability replaces the revelation gained at 7th level and nothing else of the class."
+    eq(repeated_paragraphs(para + "\n\nOther text of the feature that is long enough to count.\n\n" + para), [para[:60]], "an edit that states a paragraph twice")
+    eq(repeated_paragraphs(para + "\n\n" + para.replace("7th", "9th")), [], "two different paragraphs")
     eq("carried" in DECISIONS, True, "the decision for a section that an edit carries")
     # "This change remains in effect" is no trade sentence; "alters and replaces X" has no phrase of its own to cover
     eq(trade_sentences("This change remains in effect for 1 minute."), [], "a noun after This is no verb")
