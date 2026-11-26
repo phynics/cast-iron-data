@@ -6398,6 +6398,11 @@ TRADE_ADDITIONS.setdefault("ref/arc-unchained-summoner/devil-impostor", []).appe
 # "This replaces the paladin's class skills list." is print's sentence of the Class Skills section before the first feature: stored
 # without `by`, as above
 TRADE_ADDITIONS.setdefault("ref/arc-paladin/iomedaen-enforcer", []).append({"replaces": "The paladin's class skills list"})
+# print's sentence is "This modifies the normal eidolon rules." (ruling 55 reads modifies as alters): the stored name follows the printed
+# phrase, as the app's drift reader compares the two (app #737; the link to the eidolon feature stays)
+TRADE_RENAMES[("ref/arc-unchained-summoner/devil-impostor", "Eidolon")] = "The normal eidolon rules"
+LEVEL_FROM_PRINT[("ref/arc-unchained-summoner/devil-impostor", "deceptive-eidolon")] = (
+    1, "ruling 57: it alters the eidolon class feature, which the unchained summoner gains at 1st level; the stored name follows print's sentence")
 
 
 def main() -> int:

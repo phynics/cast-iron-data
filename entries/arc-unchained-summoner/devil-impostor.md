@@ -29,7 +29,7 @@ trades = [
   { replaces = "Shield ally", feature = "shield-ally", by = ["devil-s-flesh"] },
   { replaces = "Greater shield ally", feature = "greater-shield-ally", by = ["devil-s-tongue"] },
   { replaces = "Transposition", feature = "transposition", by = ["fiendish-appearance"] },
-  { alters = "Eidolon", feature = "eidolon", by = ["deceptive-eidolon"] },
+  { alters = "The normal eidolon rules", feature = "eidolon", by = ["deceptive-eidolon"] },
   { alters = "Summon monster", feature = "summon-monster-i", by = ["fiendish-summons"] },
   { alters = "Class skills" },
 ]
