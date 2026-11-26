@@ -4970,6 +4970,11 @@ def printed_trade_sentences(section: list) -> list[str]:
     return [re.sub(r"\s+", " ", m.group(0)).strip() for m in PRINTED_TRADE.finditer(text)]
 
 
+# A printed trade sentence that print leaves without its period, so that it runs into the head of the next ability: the sentence ends where the
+# head begins (Honor Guard, Ultimate Combat p. 37: "This modifies the challenge ability" and then "Intercept (Ex):")
+SENTENCE_TRIMS = {"ref/arc-cavalier/honor-guard": "This modifies the challenge ability"}
+
+
 def run_print_sentences(args) -> int:
     """Writes `<book>.sentences.tsv`: the printed trade sentences of every archetype of the book (converted or not), so that
     `--check` can require them in the entries without the book. Needs `--books` and `--cache`."""
@@ -4995,7 +5000,7 @@ def run_print_sentences(args) -> int:
         if section is None:
             print(f"warning: {e.id}: title not found near page {page}")
             continue
-        rows += [(e.id, sent) for sent in printed_trade_sentences(section)]
+        rows += [(e.id, (lambda t: t if t and sent.startswith(t) else sent)(SENTENCE_TRIMS.get(e.id))) for sent in printed_trade_sentences(section)]
     lines = ["entry\tsentence"] + [f"{eid}\t{sent}" for eid, sent in rows]
     sentences_path(corpus, book).write_text("\n".join(lines) + "\n", encoding="utf-8")
     print(f"{len(rows)} printed trade sentences of {len(entries)} archetypes")
