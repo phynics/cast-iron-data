@@ -89,8 +89,7 @@ performance, enhancing his allies' ability to combat devils and similar fiends. 
 creature must be able to hear the argent voice's singing and be within 30 feet of him. Natural and
 manufactured weapons wielded by affected allies are treated as though they were silver for the
 purpose of bypassing [damage reduction](ref/rule/damage-reduction). At 14th level, allies' natural
-and manufactured weapons also gain the benefit of the _evil outsider [bane](ref/magic-enh/bane)_
-weapon special ability.
+and manufactured weapons also gain the benefit of the _evil outsider bane_ weapon special ability.
 
 This replaces dirge of doom and frightening tune.
 

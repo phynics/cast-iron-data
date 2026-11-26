@@ -39,7 +39,7 @@ of strength and ferocity, and yet also a quiet protector rich in wisdom.
 
 ## Nature Bond {#nature-bond}
 
-A [bear](ref/companion/bear) shaman who chooses an animal companion must select a bear. If choosing
+A bear shaman who chooses an animal companion must select a [bear](ref/companion/bear). If choosing
 a domain, the bear shaman must choose from the [Animal](ref/domain/animal),
 [Earth](ref/domain/earth), [Protection](ref/domain/protection), and Strength domains.
 

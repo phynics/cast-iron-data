@@ -37,7 +37,7 @@ shark, a shark shaman leaves blood and fear in her wake.
 
 ## Nature Bond {#nature-bond}
 
-A [shark](ref/companion/shark) shaman who chooses an animal companion must select a shark. If
+A shark shaman who chooses an animal companion must select a [shark](ref/companion/shark). If
 choosing a domain, a shark shaman may choose the [Animal](ref/domain/animal), Death,
 [War](ref/domain/war), or [Water](ref/domain/water) domain.
 
@@ -76,6 +76,6 @@ the form of a shark, she instead uses her druid level +2.
 At 9th level and every 4 levels thereafter, a shark shaman gains one of the following bonus feats:
 [Bleeding Critical](ref/feat/bleeding-critical),
 [Improved Initiative](ref/feat/improved-initiative),
-[Lightning Reflexes](ref/feat/lightning-reflexes), [Self- Sufficient](ref/feat/self-sufficient), or
+[Lightning Reflexes](ref/feat/lightning-reflexes), [Self-Sufficient](ref/feat/self-sufficient), or
 [Skill Focus](ref/feat/skill-focus) (Swim). She must meet prerequisites for these bonus feats. This
 ability replaces venom immunity.
