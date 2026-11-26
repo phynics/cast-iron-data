@@ -16,11 +16,17 @@ page = "33"
 
 [fields]
 kind = "archetype"
+features = [
+  { anchor = "tekritanin", level = 1 },
+  { anchor = "expert-mediator", level = 2 },
+  { anchor = "hidden-meaning", level = 2 },
+  { anchor = "fluent-speaker", level = 3 },
+]
 trades = [
-  { replaces = "Trapfinding", feature = "trapfinding" },
-  { replaces = "Poison lore", feature = "poison-lore" },
-  { replaces = "Poison resistance", feature = "poison-resistance" },
-  { replaces = "Trap sense", feature = "trap-sense" },
+  { replaces = "Trapfinding", feature = "trapfinding", by = ["tekritanin"] },
+  { replaces = "Poison lore", feature = "poison-lore", by = ["expert-mediator"] },
+  { replaces = "Poison resistance", feature = "poison-resistance", by = ["hidden-meaning"] },
+  { replaces = "Trap sense", feature = "trap-sense", by = ["fluent-speaker"] },
 ]
 +++
 
@@ -28,72 +34,52 @@ The Tekritanin League facilitated trade and settled disputes between a vast arra
 cultures. The arbiters were the first line of diplomatic defense, solving problems before they could
 become disruptive.
 
-**Tekritanin (Ex)**
+## Tekritanin (Ex) {#tekritanin}
 
-**Ability:** A Tekritanin arbiter gains Tekritanin as a bonus language. Tekritanin is a fluid and
-evolving hybrid tongue which shares roots with many modern languages. When the arbiter speaks
-Tekritanin, any creature that speaks a common Inner Sea human language will understand him well
-enough to allow the arbiter to use the Diplomacy skill or affect the creature with
-language-dependent effects. At the GM's discretion, some human languages might be too divergent or
-unrelated to Tekritanin to use this ability immediately. In this case, the arbiter must interact
-with creatures speaking the language for at least 1 hour to permanently apply this ability to the
-foreign language.
+A Tekritanin arbiter gains Tekritanin as a bonus language. Tekritanin is a fluid and evolving hybrid
+tongue which shares roots with many modern languages. When the arbiter speaks Tekritanin, any
+creature that speaks a common Inner Sea human language will understand him well enough to allow the
+arbiter to use the Diplomacy skill or affect the creature with language-dependent effects. At the
+GM's discretion, some human languages might be too divergent or unrelated to Tekritanin to use this
+ability immediately. In this case, the arbiter must interact with creatures speaking the language
+for at least 1 hour to permanently apply this ability to the foreign language. A Tekritanin arbiter
+adds 1/2 his level (minimum 1) to Linguistics checks.
 
-**Passive:** A Tekritanin arbiter adds 1/2 his level (minimum 1) to Linguistics checks.
+This replaces trapfinding.
 
-**Replaces:** Trapfinding
+## Expert Mediator (Ex) {#expert-mediator}
 
-**Expert Mediator (Ex)**
+A Tekritanin arbiter learns to forge lasting harmony between enemies. At 2nd level, whenever the
+arbiter uses the Diplomacy skill to improve the starting attitude of a creature, that attitude shift
+lasts for 24 hours instead of 1d4 hours, barring any circumstance or event that causes it to be
+decreased. If the arbiter spends 1 minute continuously interacting with a creature, he can attempt a
+Sense Motive check (DC = 10 + the creature's Bluff skill bonus) to identify the creature's starting
+attitude (per the Diplomacy skill) in regard to all other creatures present (including himself).
+With this understanding, the arbiter can use the Diplomacy skill to improve a target's attitude
+toward any other creature present. This functions as if using the Diplomacy skill to improve the
+target's attitude toward the arbiter, but instead uses the Diplomacy DC determined by the target's
+starting attitude toward the creature of the arbiter's choosing.
 
-**Ability:** Whenever the arbiter uses the Diplomacy skill to improve the starting attitude of a
-creature, that attitude shift lasts for 24 hours instead of 1d4 hours, barring any circumstance or
-event that causes it to be decreased. If the arbiter spends 1 minute continuously interacting with a
-creature, he can attempt a Sense Motive check (DC = 10 + the creature's Bluff skill bonus) to
-identify the creature's starting attitude (per the Diplomacy skill) in regard to all other creatures
-present (including himself). With this understanding, the arbiter can use the Diplomacy skill to
-improve a target's attitude toward any other creature present. This functions as if using the
-Diplomacy skill to improve the target's attitude toward the arbiter, but instead uses the Diplomacy
-DC determined by the target's starting attitude toward the creature of the arbiter's choosing.
+This replaces poison lore.
 
-**Flavor:** A Tekritanin arbiter learns to forge lasting harmony between enemies.
+## Hidden Meaning (Ex) {#hidden-meaning}
 
-**Gained:** At 2nd Level
+A Tekritanin arbiter's deep knowledge of language provides him protection from effects that require
+communication. At 2nd level, he gains a +2 bonus on all saving throws against language-dependent
+effects. This bonus increases to +4 at 5th level and to +6 at 8th level. At 11th level, he gains
+immunity to language-dependent effects.
 
-**Replaces:** Poison lore
+This replaces poison resistance.
 
-**Hidden Meaning (Ex)**
+## Fluent Speaker (Ex) {#fluent-speaker}
 
-**Flavor:** A Tekritanin arbiter's deep knowledge of language provides him protection from effects
-that require communication.
+At 3rd level, a Tekritanin arbiter learns to speak one language with the skill of a native speaker.
+He chooses one language he knows and gains a +1 bonus on Disguise checks to appear as an individual
+native to any region where the language is primarily spoken. In addition, he gains a +1 bonus on
+both Diplomacy checks to change initial attitudes and Sense Motive checks to detect falsehoods when
+dealing with individuals with the selected language as their native language. At 6th level and every
+3 levels thereafter, these bonuses increase by 1 and the Tekritanin arbiter can select one
+additional language that his bonuses apply to, up to a maximum of +6 each for six languages at 18th
+level.
 
-**At 11th Level:** He gains immunity to language-dependent effects.
-
-**At 5th Level:** This bonus increases to +4.
-
-**At 8th Level:** The bonus becomes +6.
-
-**Gained:** At 2nd Level
-
-**Passive:** He gains a +2 bonus on all saving throws against language-dependent effects.
-
-**Replaces:** Poison resistance
-
-**Fluent Speaker (Ex)**
-
-**Ability:** A Tekritanin arbiter learns to speak one language with the skill of a native speaker.
-
-**Choice:** He chooses one language he knows and gains a bonus on Disguise checks to appear as an
-individual native to any region where the language is primarily spoken. This bonus is equal to
-one-third of his investigator level.
-
-**Gained:** At 3rd Level
-
-**Passive:** In addition, he gains the same bonus on both Diplomacy checks to change initial
-attitudes and Sense Motive checks to detect falsehoods when dealing with individuals with the
-selected language as their native language.
-
-**Replaces:** Trap sense
-
-**Special:** Whenever his bonus increases (at 6th level and every 3 levels thereafter), the
-Tekritanin arbiter can select one additional language that his bonuses apply to, up to a maximum of
-+6 each for six languages at 18th level.
+This replaces trap sense.

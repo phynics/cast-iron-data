@@ -1,0 +1,79 @@
+entry	feature	status	producer_model	verifier_model	tiebreak_model	page	verdict	agreed
+ref/arc-alchemist/aerochemist	aerodynamic-prowess	decided	opencode/deepseek-v4.1-flash	codex/gpt-6-luna	opencode/deepseek-v4-pro	28	print	no
+ref/arc-alchemist/aerochemist	aeromantic-concoction	decided	codex/gpt-6-luna	opencode/deepseek-v4.1-flash		27	print	yes
+ref/arc-alchemist/aerochemist	bombs-away	script				28	print	
+ref/arc-arcanist/aeromancer	air-mastery	decided	codex/gpt-6-luna	opencode/deepseek-v4.1-flash		26	print	yes
+ref/arc-arcanist/aeromancer	rebuking-gale	script				27	print	
+ref/arc-arcanist/aeromancer	wind-s-embrace	script				26	print	
+ref/arc-bard/dwarven-scholar	bardic-performance	script				30	draft	
+ref/arc-bard/dwarven-scholar	dwarven-training	script				30	print	
+ref/arc-bard/dwarven-scholar	studied-insight	script				30	draft	
+ref/arc-bard/dwarven-scholar	war-chant	script				30	print	
+ref/arc-bard/dwarven-scholar	weapon-and-armor-proficiency	script				30	print	
+ref/arc-brawler/hinyasi	improvised-maneuver	decided	opencode/deepseek-v4.1-flash	codex/gpt-6-luna		11	edit	yes
+ref/arc-brawler/hinyasi	humble-beginnings	script				11	print	
+ref/arc-brawler/hinyasi	improvisation-mastery	script				11	print	
+ref/arc-brawler/hinyasi	improvisation-training	script				11	print	
+ref/arc-cleric/lawspeaker	circumvent-obfuscation	decided	codex/gpt-6-luna	opencode/deepseek-v4.1-flash		11	print	yes
+ref/arc-cleric/lawspeaker	alignment	script				11	print	
+ref/arc-cleric/lawspeaker	divine-judgment	script				11	print	
+ref/arc-fighter/aerial-assaulter	take-the-high-ground	decided	opencode/deepseek-v4.1-flash	codex/gpt-6-luna	opencode/deepseek-v4-pro	27	print	no
+ref/arc-fighter/aerial-assaulter	aerial-dodge	script				27	print	
+ref/arc-fighter/aerial-assaulter	aerial-expertise	script				27	print	
+ref/arc-fighter/aerial-assaulter	class-skills	script				27	print	
+ref/arc-fighter/aerial-assaulter	high-ground-mastery	script				27	print	
+ref/arc-investigator/antiquarian	curse-resistance	decided	codex/gpt-6-luna	opencode/deepseek-v4.1-flash		17	print	yes
+ref/arc-investigator/antiquarian	item-lore	script				16	print	
+ref/arc-investigator/antiquarian	relic-magic	script				16	print	
+ref/arc-investigator/antiquarian	swift-search	script				17	print	
+ref/arc-investigator/jinyiwei	celestial-insight	decided	opencode/deepseek-v4.1-flash	codex/gpt-6-luna		21	print	yes
+ref/arc-investigator/jinyiwei	divine-inspiration	script				21	print	
+ref/arc-investigator/jinyiwei	imperial-judgment	script				21	print	
+ref/arc-investigator/jinyiwei	suspicious-mind	script				21	print	
+ref/arc-investigator/tekritanin-arbiter	fluent-speaker	decided	opencode/deepseek-v4.1-flash	codex/gpt-6-luna		33	print	yes
+ref/arc-investigator/tekritanin-arbiter	hidden-meaning	decided	codex/gpt-6-luna	opencode/deepseek-v4.1-flash		33	print	yes
+ref/arc-investigator/tekritanin-arbiter	expert-mediator	script				33	print	
+ref/arc-investigator/tekritanin-arbiter	tekritanin	script				33	print	
+ref/arc-kineticist/ioun-kineticist	ioun-cloud	decided	opencode/deepseek-v4.1-flash	codex/gpt-6-luna	opencode/glm-5.3	12	print	no
+ref/arc-kineticist/ioun-kineticist	ioun-focus	decided	codex/gpt-6-luna	opencode/deepseek-v4.1-flash	opencode/deepseek-v4-pro	12	print	no
+ref/arc-kineticist/ioun-kineticist	personal-resonance	decided	codex/gpt-6-luna	opencode/deepseek-v4.1-flash	opencode/glm-5.3	12	edit	no
+ref/arc-kineticist/ioun-kineticist	azlanti-blast	script				13	draft	
+ref/arc-kineticist/ioun-kineticist	basic-iounkinesis	script				12	print	
+ref/arc-kineticist/ioun-kineticist	ioun-buffer	script				12	print	
+ref/arc-magus/jistkan-artificer	break-spell	decided	opencode/deepseek-v4.1-flash	codex/gpt-6-luna	opencode/deepseek-v4-pro	17	print	no
+ref/arc-magus/jistkan-artificer	flurrying-arm	decided	codex/gpt-6-luna	opencode/deepseek-v4.1-flash		17	print	yes
+ref/arc-magus/jistkan-artificer	unarmed-strike	decided	opencode/deepseek-v4.1-flash	codex/gpt-6-luna		17	edit	yes
+ref/arc-magus/jistkan-artificer	diminished-spellcasting	script				17	print	
+ref/arc-magus/jistkan-artificer	empowered-arm	script				17	print	
+ref/arc-magus/jistkan-artificer	golem-arm	script				17	print	
+ref/arc-magus/jistkan-artificer	improved-unarmed-strike	script				17	print	
+ref/arc-magus/jistkan-artificer	magus-arcana	script				17	draft	
+ref/arc-magus/jistkan-artificer	sharpened-arm	script				17	draft	
+ref/arc-magus/jistkan-artificer	shielding-arm	script				17	draft	
+ref/arc-magus/jistkan-artificer	unarmed-spellstrike	script				17	print	
+ref/arc-mesmerist/chart-caster	feign-destiny	decided	opencode/deepseek-v4.1-flash	codex/gpt-6-luna		10	print	yes
+ref/arc-mesmerist/chart-caster	subject-of-the-stars	decided	codex/gpt-6-luna	opencode/deepseek-v4.1-flash		10	print	yes
+ref/arc-mesmerist/chart-caster	class-skills	script				10	print	
+ref/arc-samurai/ironbound-sword	subduing-knockout	decided	codex/gpt-6-luna	opencode/deepseek-v4.1-flash		20	print	yes
+ref/arc-samurai/ironbound-sword	blade-reversal	script				20	print	
+ref/arc-samurai/ironbound-sword	merciful-combatant	script				20	print	
+ref/arc-slayer/spawn-slayer	studied-spawn	decided	codex/gpt-6-luna	opencode/deepseek-v4.1-flash	opencode/deepseek-v4-pro	24	print	no
+ref/arc-slayer/spawn-slayer	force-vulnerability	script				24	print	
+ref/arc-slayer/spawn-slayer	gain-leverage	script				24	print	
+ref/arc-vigilante/imperial-agent	false-flag	script				21	print	
+ref/arc-vigilante/imperial-agent	manipulative	script				21	print	
+ref/arc-vigilante/imperial-agent	slander	script				21	print	
+ref/arc-warpriest/jistkan-magistrate	elemental-binder	decided	opencode/deepseek-v4.1-flash	codex/gpt-6-luna		17	print	yes
+ref/arc-warpriest/jistkan-magistrate	bonus-languages	script				18	print	
+ref/arc-warpriest/jistkan-magistrate	channel-element	script				18	print	
+ref/arc-warpriest/jistkan-magistrate	class-skills	script				17	print	
+ref/arc-warpriest/jistkan-magistrate	spontaneous-summons	script				17	print	
+ref/arc-wizard/arcane-warden	ready-for-anything	decided	codex/gpt-6-luna	opencode/deepseek-v4.1-flash		14	print	yes
+ref/arc-wizard/arcane-warden	class-skills	script				14	print	
+ref/arc-wizard/arcane-warden	generous-touch	script				14	print	
+ref/arc-wizard/arcane-warden	restorative-shelter	script				14	print	
+ref/arc-wizard/arcane-warden	universal-magic	script				14	print	
+ref/arc-wizard/poleiheira-adherent	mount	decided	opencode/deepseek-v4.1-flash	codex/gpt-6-luna		18	print	yes
+ref/arc-wizard/poleiheira-adherent	bonded-book	script				18	print	
+ref/arc-wizard/poleiheira-adherent	great-odyssey	script				18	print	
+ref/arc-wizard/poleiheira-adherent	master-mariner	script				18	draft	
