@@ -3259,7 +3259,6 @@ TEXT_REPAIRS = {
     ("ref/arc-summoner/morphic-savant", "chaos-magic"): [("3rd \u2014_magic circle", "3rd\u2014_magic circle")],
     ("ref/arc-unchained-summoner/morphic-savant", "chaos-magic"): [("3rd \u2014_magic circle", "3rd\u2014_magic circle")],
     ("ref/arc-wizard/bonded-wizard", "bonded-force"): [("[shield](ref/spell/shield) bonus", "shield bonus")],
-    ("ref/arc-druid/elemental-ally", "elemental-eidolons"): [("an [elemental](ref/eidolon/elemental) ally", "an elemental ally")],
 }
 
 

@@ -36,12 +36,12 @@ they are considered similar to genie-binders.
 
 ## Elemental Eidolons {#elemental-eidolons}
 
-At 1st level, an elemental ally has four elemental eidolons she can summon, one each for the
-elements of air, earth, fire, and water. Their abilities and statistics are determined using the
-rules for elemental eidolons for the summoner class from page 33 of _Pathfinder RPG Pathfinder
-Unchained_, as if the elemental ally were a summoner of her druid level, except they gain no
-additional evolution pool (just those evolutions from their base form and base evolutions from their
-subtype).
+At 1st level, an elemental ally has four [elemental](ref/eidolon/elemental) eidolons she can summon,
+one each for the elements of air, earth, fire, and water. Their abilities and statistics are
+determined using the rules for elemental eidolons for the summoner class from page 33 of _Pathfinder
+RPG Pathfinder Unchained_, as if the elemental ally were a summoner of her druid level, except they
+gain no additional evolution pool (just those evolutions from their base form and base evolutions
+from their subtype).
 
 Each of the four elementals has its own base form, skills, and feats. The elemental ally can summon
 one of these elementals with the same 1-minute ritual a summoner normally uses to do so. The

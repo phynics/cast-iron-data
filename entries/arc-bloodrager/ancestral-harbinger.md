@@ -52,17 +52,17 @@ This ability replaces uncanny dodge and the bloodline feats gained at 6th and 18
 
 ## Spirit Servants {#spirit-servants}
 
-At 5th level, an ancestral harbinger adds _[summon monster](ref/spell/summon-monster) I_ to her
-class spell list and gains it as a bonus spell known. She also gains _summon monster II_ at 8th
-level, _summon monster III_ at 11th level, and _summon monster IV_ at 14th level. These spells can
-be used only to summon types of monsters with strong ties to the ancestral harbinger's family
-history, ranging from clan totems to monsters of the same type as those famously killed by her
-forebears. For each of these spells, the ancestral harbinger selects a number of monsters she can
-summon equal to her Charisma bonus (minimum 1) to represent these spirits. These monsters are
-selected from the options on the _summon monster_ creature list or the expanded summoning list (see
-page 28) that are appropriate for the spell level. At 7th level and every 2 bloodrager levels
-thereafter, the ancestral harbinger can swap one selected monster from one of these spells for a new
-monster from the same level's summoning lists.
+At 5th level, an ancestral harbinger adds _summon monster I_ to her class spell list and gains it as
+a bonus spell known. She also gains _summon monster II_ at 8th level, _summon monster III_ at 11th
+level, and _summon monster IV_ at 14th level. These spells can be used only to summon types of
+monsters with strong ties to the ancestral harbinger's family history, ranging from clan totems to
+monsters of the same type as those famously killed by her forebears. For each of these spells, the
+ancestral harbinger selects a number of monsters she can summon equal to her Charisma bonus (minimum
+1) to represent these spirits. These monsters are selected from the options on the
+_[summon monster](ref/spell/summon-monster)_ creature list or the expanded summoning list (see page
+28) that are appropriate for the spell level. At 7th level and every 2 bloodrager levels thereafter,
+the ancestral harbinger can swap one selected monster from one of these spells for a new monster
+from the same level's summoning lists.
 
 The ancestral harbinger has a mystic tie to the spirit servants summoned with this ability. When the
 ancestral harbinger is in a bloodrage, all of her spirit servants gain a +2 morale bonus to AC and
