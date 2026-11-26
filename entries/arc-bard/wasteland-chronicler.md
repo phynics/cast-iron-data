@@ -16,9 +16,13 @@ page = "25"
 
 [fields]
 kind = "archetype"
+features = [
+  { anchor = "wasteland-knowledge", level = 1 },
+  { anchor = "wasteland-specialist", level = 3 },
+]
 trades = [
-  { replaces = "Bardic knowledge", feature = "bardic-knowledge" },
-  { replaces = "Inspire competence", feature = "bardic-performance", power = "inspire competence" },
+  { replaces = "Bardic knowledge", feature = "bardic-knowledge", by = ["wasteland-knowledge"] },
+  { replaces = "Inspire competence", feature = "bardic-performance", power = "inspire competence", by = ["wasteland-specialist"] },
 ]
 +++
 
@@ -27,30 +31,24 @@ there and meet the inhabitants of such regions, and chronicle their findings. Th
 chronicler has discovered a connection to the wastelands and can use his performance to guide
 himself and others through these regions safely.
 
-**Wasteland Knowledge (Ex)**
+## Wasteland Knowledge (Ex) {#wasteland-knowledge}
 
-**Passive:** A wasteland chronicler adds [half](ref/misc/fractions-and-rounding) his level (minimum
-1) as a bonus on Knowledge (geography), Knowledge (local), Knowledge (nature), Knowledge (planes),
-and Survival checks.
+A wasteland chronicler adds [half](ref/misc/fractions-and-rounding) his level (minimum 1) as a bonus
+on Knowledge (geography), Knowledge (local), Knowledge (nature), Knowledge (planes), and Survival
+checks.
 
-**Replaces:** Bardic knowledge
+This replaces bardic knowledge.
 
-**Wasteland Specialist (Ex)**
+## Wasteland Specialist (Ex) {#wasteland-specialist}
 
-**At 13th Level:** He gains another favored terrain.
-
-**At 18th Level:** He gains the final favored terrain.
-
-**At 3rd Level:** The wasteland chronicler gains the benefits of the
+At 3rd level and every 5 levels thereafter, the wasteland chronicler gains the benefits of the
 [favored terrain](ref/ability/favored-terrain) ranger class feature, but the wasteland chronicler
 can choose only cold, desert, mountain, or swamp from the ranger's favored terrain list. In
 addition, the wasteland chronicler adds half his level (minimum 1) as a bonus on Diplomacy checks to
 influence the attitude of wasteland dwellers.
 
-**At 8th Level:** He gains another favored terrain.
+If the wasteland chronicler has the favored terrain ability from any other classes, the levels from
+these different sources stack for the purposes of improving the bonuses of selected favored terrains
+and choosing new favored terrains.
 
-**Replaces:** Inspire competence
-
-**Special:** If the wasteland chronicler has the favored terrain ability from any other classes, the
-levels from these different sources stack for the purposes of improving the bonuses of selected
-favored terrains and choosing new favored terrains.
+This replaces inspire competence.

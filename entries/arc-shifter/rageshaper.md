@@ -17,7 +17,7 @@ page = "82"
 [fields]
 kind = "archetype"
 features = [
-  { anchor = "devastating-form" },
+  { anchor = "devastating-form", level = 1 },
   { anchor = "terrible-slam" },
   { anchor = "invulnerable-defenses", level = 2 },
   { anchor = "unrestrained-stride", level = 3 },

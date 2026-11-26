@@ -16,98 +16,93 @@ page = "18"
 
 [fields]
 kind = "archetype"
+features = [
+  { anchor = "twinned-eidolon" },
+  { anchor = "teamwork-feats", level = 4 },
+  { anchor = "twinned-transposition", level = 6 },
+  { anchor = "twin-summoner", level = 16 },
+]
 trades = [
-  { replaces = "Shield ally", feature = "shield-ally" },
-  { replaces = "greater shield ally", feature = "greater-shield-ally" },
-  { replaces = "Maker's call", feature = "maker-s-call" },
-  { replaces = "transposition", feature = "transposition" },
-  { replaces = "Merge forms", feature = "merge-forms" },
+  { replaces = "Shield ally", feature = "shield-ally", by = ["teamwork-feats"] },
+  { replaces = "greater shield ally", feature = "greater-shield-ally", by = ["teamwork-feats"] },
+  { replaces = "Maker's call", feature = "maker-s-call", by = ["twinned-transposition"] },
+  { replaces = "transposition", feature = "transposition", by = ["twinned-transposition"] },
+  { replaces = "Merge forms", feature = "merge-forms", by = ["twin-summoner"] },
 ]
 +++
 
 Reflecting the connected nature of Imbrex, a twinned summoner and his eidolon appear identical save
 for any obvious differences, such as evolutions or equipment.
 
-**Twinned Eidolon**
+## Twinned Eidolon {#twinned-eidolon}
 
-**Info:** The twinned summoner's eidolon is restricted to the biped base form. If the summoner's
-natural size is smaller than Medium, the twinned summoner's eidolon must be Small. This ability may
-require a different base form to match the twinned summoner's natural form, at the GM's discretion,
+The twinned summoner's eidolon is restricted to the biped base form. An unchained summoner's eidolon
+is instead restricted to the twinned eidolon subtype (see below). If the summoner's natural size is
+smaller than Medium, the twinned summoner's eidolon must be Small. This ability may require a
+different base form or subtype to match the twinned summoner's natural form, at the GM's discretion,
 if the twinned summoner is not a bipedal creature.
 
-**Teamwork Feats (Ex)**
+## Teamwork Feats (Ex) {#teamwork-feats}
 
-**At 12th Level:** The summoner gains another bonus teamwork feat he meets the prerequisites of.
+At 4th level and at 12th level, a twinned summoner gains a bonus teamwork feat. He must meet the
+prerequisites of the selected teamwork feat. The twinned summoner automatically grants all of his
+teamwork feats to his eidolon. The eidolon doesn't need to meet the prerequisites of these teamwork
+feats.
 
-**At 4th Level:** A twinned summoner gains a bonus teamwork feat. He must meet the prerequisites of
-the selected teamwork feat.
+This ability replaces shield ally and greater shield ally.
 
-**Replaces:** Shield ally, greater shield ally
+## Twinned Transposition (Su) {#twinned-transposition}
 
-**Special:** The twinned summoner automatically grants all of his teamwork feats to his eidolon. The
-eidolon doesn't need to meet the prerequisites of these teamwork feats.
+At 6th level, as a standard action, a twinned summoner can swap locations with his eidolon as if
+each were using _[dimension door](ref/spell/dimension-door)_, using the twinned summoner's caster
+level. If the eidolon is out of range, the ability is wasted. If either the twinned summoner or his
+eidolon occupies more squares than the other, each must occupy one or more squares that were
+occupied by the other if possible, or as close as possible if not. The twinned summoner can use this
+ability once per day at 6th level, plus one additional time per day for every 4 levels beyond 6th.
+At 8th level, he can use this ability as a swift action.
 
-**Twinned Transposition (Su)**
+This ability replaces maker's call and transposition.
 
-**At 8th Level:** He can use this ability as a **swift action**.
+## Twin Summoner (Su) {#twin-summoner}
 
-**Gained:** At 6th Level
+At 16th level, a twinned summoner can touch his eidolon as a standard action, enhancing its
+similarity to the summoner. The eidolon loses any natural weapons or size increases gained from
+evolutions, and its Intelligence, Wisdom, and Charisma scores change to match the base scores of the
+summoner. The eidolon can cast any of the summoner's spells known using the summoner's caster level
+and spell slots. It doesn't gain the benefit of any of the summoner's items, feats, or other effects
+that affect spellcasting. The eidolon can keep this form for a number of minutes per day equal to
+the summoner's class level. This duration does not need to be consecutive, but it must be spent in
+1-minute increments. The summoner can end this effect as a free action.
 
-**Replaces:** Maker's call, transposition
+This ability replaces the merge forms class feature.
 
-**Standard:** A twinned summoner can swap locations with his eidolon as if each were using
-[dimension door](ref/spell/dimension-door), using the twinned summoner's caster level. If the
-eidolon is out of range, the ability is wasted. If either the twinned summoner or his eidolon
-occupies more squares than the other, each must occupy one or more squares that were occupied by the
-other if possible, or as close as possible if not.
+## Evolutions {#twinned-eidolon-evolutions}
 
-**Usage:** 1 time/day + 1 per 4 summoner levels beyond 6th
+Any eidolon that serves a twinned summoner and meets the prerequisites can take the following new
+evolutions. These evolutions cannot be selected with the aspect ability.
 
-**Twin Summoner (Su)**
+### 1-Point Evolution {#one-point-evolution}
 
-**Gained:** At 16th Level
+The following evolution costs 1 point from the eidolon's evolution pool.
 
-**Replaces:** Merge forms
+#### Shared Evolution (Su) {#shared-evolution}
 
-**Special:** The summoner can end this effect as a **free action**.
+Select a 1-point or 2-point evolution the eidolon has. As a standard action, the eidolon can touch
+the summoner and transfer the selected evolution to him. This functions as the summoner's aspect
+ability, and the same limitations apply. The summoner can touch the eidolon as a standard action to
+return the evolution. The evolution returns to the eidolon automatically if the eidolon is dismissed
+by the summoner or sent back to its home plane.
 
-**Standard:** A twinned summoner can touch his eidolon, enhancing its similarity to the summoner.
-The eidolon loses any natural weapons or size increases gained from evolutions, and its
-Intelligence, Wisdom, and Charisma scores change to match the base scores of the summoner. The
-eidolon can cast any of the summoner's spells known using the summoner's caster level and spell
-slots. It doesn't gain the benefit of any of the summoner's items, feats, or other effects that
-affect spellcasting.
+### 2-Point Evolutions {#two-point-evolutions}
 
-**Usage:** 1 minute/day per summoner level; these minutes need not be consecutive, but must be spent
-in 1-minute increments
+The following evolutions cost 2 points from the eidolon's evolution pool.
 
-**Twinned Eidolon Evolutions**
+#### Extra Feat (Ex) {#extra-feat}
 
-**Info:** The following evolutions are only available to this archetype.
+The eidolon gains an extra feat. It must meet the prerequisites of the feat.
 
-**Shared Evolution**
+#### Shared Slot (Su) {#shared-slot}
 
-**Special:** The summoner can touch the eidolon as a **standard action** to return the evolution.
-The evolution returns to the eidolon automatically if the eidolon is dismissed by the summoner or
-sent back to its home plane.
-
-**Standard:** The eidolon can touch the summoner and transfer a 1-point or 2-point evolution to him.
-This functions as the summoner's _aspect_ ability, and the same limitations apply.
-
-**Cost:** 1 point
-
-**Extra Feat**
-
-**Ability:** The eidolon gains an extra feat. It must meet the prerequisites of the feat.
-
-**Cost:** 2 points
-
-**Shared Slot**
-
-**Ability:** Select a magic item slot. A magic item worn by the eidolon in that slot remains active
-even if the summoner is also wearing a magic item in that slot.
-
-**Special:** This evolution can be selected more than once. Each time an eidolon selects this
-evolution, it applies to a new slot.
-
-**Cost:** 2 points
+Select a magic item slot. A magic item worn by the eidolon in that slot remains active even if the
+summoner is also wearing a magic item in that slot. This evolution can be selected more than once.
+Each time an eidolon selects this evolution, it applies to a new slot.

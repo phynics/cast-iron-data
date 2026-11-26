@@ -16,12 +16,18 @@ page = "17"
 
 [fields]
 kind = "archetype"
+features = [
+  { anchor = "atomized-extracts", level = 1 },
+  { anchor = "effervescent-bombs", level = 1 },
+  { anchor = "pheromones", level = 1 },
+  { anchor = "persistent-pheromones", level = 14 },
+]
 trades = [
-  { replaces = "Brew potion", feature = "brew-potion" },
-  { replaces = "Mutagen", feature = "mutagen" },
-  { replaces = "Persistent mutagen", feature = "persistent-mutagen" },
-  { alters = "Extracts", feature = "extracts" },
-  { alters = "Bomb", feature = "bomb" },
+  { replaces = "Brew potion", feature = "brew-potion", by = ["atomized-extracts"] },
+  { replaces = "Mutagen", feature = "mutagen", by = ["pheromones"] },
+  { replaces = "Persistent mutagen", feature = "persistent-mutagen", by = ["persistent-pheromones"] },
+  { alters = "Extracts", feature = "extracts", by = ["atomized-extracts"] },
+  { alters = "Bomb", feature = "bomb", by = ["effervescent-bombs"] },
 ]
 +++
 
@@ -30,55 +36,46 @@ transformative mutagens, others prefer subtlety and elegance. A perfumer alchemi
 to their most pure and rarefied forms to spread on the wind, and would rather share a head-turning
 aroma at a social than drink a bone-twisting mutagen before a brawl.
 
-**Atomized Extracts (Su)**
+## Atomized Extracts (Su) {#atomized-extracts}
 
-**Ability:** A perfumer's extracts are stored in atomizers, rather than bottles or vials, allowing
-him to spray them at himself or an adjacent ally. The target is considered the imbiber, as if she
-had drunk an extract prepared with the [infusion](ref/discovery/infusion) discovery. As the contents
-of an atomizer are inhaled, the target must be able to breathe. Atomized extracts are considered
-extracts for purposes of other abilities, and become inert when not in the alchemist's possession.
+A perfumer's extracts are stored in atomizers, rather than bottles or vials, allowing him to spray
+them at himself or an adjacent ally. The target is considered the imbiber, as if she had drunk an
+extract prepared with the [infusion](ref/discovery/infusion) discovery. As the contents of an
+atomizer are inhaled, the target must be able to breathe. Atomized extracts are considered extracts
+for purposes of other abilities, and become inert when not in the alchemist's possession.
 
-**Alters:** Extracts
+This alters extracts and replaces brew potion.
 
-**Replaces:** Brew potion
+## Effervescent Bombs (Su) {#effervescent-bombs}
 
-**Effervescent Bombs (Su)**
+Rather than deal direct damage, a perfumer's bombs create an effervescent puddle in a 5-foot radius
+for a number of rounds equal to the alchemist's intelligence bonus (minimum 1). Each creature within
+this area takes 1d4 points of fire damage immediately and again each round it remains within or
+enters the puddle. A creature caught in the puddle when it is first created can attempt a Reflex
+save (DC = 10 + [half](ref/misc/fractions-and-rounding) the perfumer's level + the perfumer's
+Intelligence modifier) for half damage. The effervescent bombs' damage increases by 1d4 at 3rd level
+and every odd level thereafter. Effervescent bombs otherwise functions as bombs, and discoveries
+that apply to bombs apply to effervescent bombs.
 
-**Ability:** Rather than deal direct damage, a perfumer's bombs create an effervescent puddle in a
-5-foot radius for a number of rounds equal to the alchemist's intelligence bonus (minimum 1). Each
-creature within this area takes 1d4 points of fire damage immediately and again each round it
-remains within or enters the puddle. A creature caught in the puddle when it is first created can
-attempt a Reflex save (DC = 10 + [half](ref/misc/fractions-and-rounding) the perfumer's level + the
-perfumer's Intelligence modifier) for half damage.
+This alters bomb.
 
-**Alters:** Bomb
+## Pheromones (Su) {#pheromones}
 
-**Special:** The effervescent bombs' damage increases by 1d4 at 3rd level and every odd level
-thereafter. Effervescent bombs otherwise functions as bombs, and discoveries that apply to bombs
-apply to effervescent bombs.
+A perfumer can spend 1 hour to distill a special mixture of exotic pheromones and alchemical
+reagents and store it in an atomizer. The mixture remains potent until used or until the perfumer
+distills another pheromone mixture, at which point the first becomes inert and the duration of its
+effects immediately end. Spraying this mixture on a willing creature as a standard action grants the
+target a +4 alchemical bonus to Charisma and a -2 penalty to Constitution for 10 minutes per
+alchemist level. Additionally, the target creature gains a +2 alchemical bonus on Diplomacy and
+Bluff checks.
 
-**Pheromones (Su)**
+This replaces mutagen. A perfumer can never gain the mutagen, cognatogen, or inspired cognatogen
+ability, even from a discovery or another class.
 
-**Ability:** A perfumer can spend 1 hour to distill a special mixture of exotic pheromones and
-alchemical reagents and store it in an atomizer. The mixture remains potent until used or until the
-perfumer distills another pheromone mixture, at which point the first becomes inert and the duration
-of its effects immediately end.
+## Persistent Pheromones {#persistent-pheromones}
 
-**Replaces:** Mutagen
-
-**Special:** A perfumer can never gain the _mutagen, cognatogen,_ or _inspired cognatogen_ ability,
-even from a discovery or another class.
-
-**Standard:** Spraying this mixture on a willing creature grants the target a +4 alchemical bonus to
-Charisma and a -2 penalty to Constitution for 10 minutes per alchemist level. Additionally, the
-target creature gains a +2 alchemical bonus on Diplomacy and Bluff checks.
-
-**Persistent Pheromones**
-
-**Ability:** The alchemist gains the ability to distill extremely potent pheromones. His pheromone
+At 14th level, the alchemist gains the ability to distill extremely potent pheromones. His pheromone
 atomizers can be sprayed on up to four different targets before becoming fully used. This allows a
 perfumer to affect multiple targets with a single atomizer.
 
-**Gained:** At 14th Level
-
-**Replaces:** Persistent mutagen
+This replaces persistent mutagen.

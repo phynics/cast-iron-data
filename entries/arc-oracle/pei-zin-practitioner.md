@@ -16,10 +16,15 @@ page = "20"
 
 [fields]
 kind = "archetype"
+features = [
+  { anchor = "master-herbalist" },
+  { anchor = "healer-s-way", level = 1 },
+  { anchor = "master-healing-technique", level = 7 },
+]
 trades = [
-  { replaces = "Class skills gained from the oracle's mystery", feature = "mystery", power = "class skills" },
-  { replaces = "Revelation gained at 1st level", feature = "revelation", levels = [1] },
-  { replaces = "Revelation gained at 7th level", feature = "revelation", levels = [7] },
+  { replaces = "The additional class skills the oracle gains from her mystery", feature = "mystery", power = "class skills", by = ["master-herbalist"] },
+  { replaces = "Revelation gained at 1st level", feature = "revelation", levels = [1], by = ["healer-s-way"] },
+  { replaces = "Revelation gained at 7th level", feature = "revelation", levels = [7], by = ["master-healing-technique"] },
 ]
 +++
 
@@ -31,73 +36,55 @@ medicine and coaxing divine miracles.
 
 Like other masters of the art, Pei Zin practitioners can use the
 [Profession (herbalist)](ref/skill/profession-any) skill in place of Craft (alchemy) to create
-alchemical remedies with recipes that include certain plant-derived reagents.
+alchemical remedies with recipes that include certain plant-derived reagents. More information is on
+pages 24–25 of _Pathfinder Player Companion: Alchemy Manual._
 
-**Master Herbalist (Su)**
+## Master Herbalist (Su) {#master-herbalist}
 
-**Passive:** A Pei Zin practitioner has mastered countless alchemical techniques that supplement her
-divine powers and greatly aid her when she heals the sick and wounded. She gains a competence bonus
-on Profession (herbalist) checks equal to 1/2 her oracle level (minimum 1), and uses her Charisma
+A Pei Zin practitioner has mastered countless alchemical techniques that supplement her divine
+powers and greatly aid her when she heals the sick and wounded. She gains a competence bonus on
+Profession (herbalist) checks equal to 1/2 her oracle level (minimum 1), and uses her Charisma
 modifier in place of her Wisdom modifier when attempting Profession (herbalist) checks.
-
-**Replaces:** Class skills gained from the oracle's mystery
-
-**Special:** Additionally, a Pei Zin practitioner can identify potions as if via
-[detect magic](ref/spell/detect-magic) using Profession (herbalist) instead of Spellcraft, and she
+Additionally, a Pei Zin practitioner can identify potions as if via
+_[detect magic](ref/spell/detect-magic)_ using Profession (herbalist) instead of Spellcraft, and she
 can attempt such a check after holding a potion for 1 round.
 
-**Healer's Way (Su)**
+This ability replaces the additional class skills the oracle gains from her mystery.
 
-**Flavor:** A Pei Zin practitioner combines alchemy, acupuncture, and divine magic to heal wounds by
-touch.
+## Healer's Way (Su) {#healer-s-way}
 
-**Replaces:** Revelation gained at 1st level
+A Pei Zin practitioner combines alchemy, acupuncture, and divine magic to heal wounds by touch. She
+can use this ability a number of times per day equal to 1 + her Charisma modifier. With one use of
+this ability, she uses positive energy to heal the target of 1d6 hit points for every 2 oracle
+levels she has. Using this ability is a standard action unless the oracle targets herself, in which
+case it is a swift action. Using this ability requires only one free hand. This ability counts as a
+paladin's [lay on hands](ref/ability/lay-on-hands) ability for the purposes of feats, spells, and
+effects that work with that class feature when it is used for healing purposes. Unlike lay on hands,
+this ability cannot be used to harm undead.
 
-**Special:** This ability counts as a paladin's [lay on hands](ref/ability/lay-on-hands) ability for
-the purposes of feats, spells, and effects that work with that class feature when it is used for
-healing purposes. Unlike _lay on hands,_ this ability cannot be used to harm undead.
+This ability replaces the revelation gained at 1st level.
 
-**Standard:** With one use of this ability, she uses positive energy to heal the target of 1d6 hit
-points for every 2 oracle levels she has. Using this ability is a standard action unless the oracle
-targets herself, in which case it is a **swift action**. Using this ability requires only one free
-hand.
+## Master Healing Technique (Su) {#master-healing-technique}
 
-**Usage:** Charisma1 modifier times/day
+At 7th level, whenever a Pei Zin practitioner heals a living creature with her healer's way ability,
+as a free action she can attempt a Profession (herbalist) check to remove a condition from the
+target, with each condition having an accompanying Profession (herbalist) DC (see the list below).
+She cannot take 10 or 20 on this check, nor can she receive aid from any creature except another Pei
+Zin practitioner (though the practitioner need not be an oracle; see pages 24–25 of _Pathfinder
+Player Companion: Alchemy Manual_). Failure by 5 or more causes the target to become
+[sickened](ref/misc/sickened) for 1 round (if the Pei Zin practitioner is attempting to remove the
+sickened condition, this extends it by 1 round). Similarly, failure by 10 or more instead causes the
+target to become [nauseated](ref/misc/nauseated) for 1 round or to have its existing nauseated
+condition extended by 1 round. A creature that cannot be sickened or nauseated cannot have
+conditions removed by this ability.
 
-**Master Healing Technique (Su)**
+- Minor Conditions (DC 20): Fatigued, shaken, and sickened.
+- Major Conditions (DC 25): Dazed and staggered.
+- Severe Conditions (DC 30): Confused, exhausted, frightened, and nauseated.
+- Dire Conditions (DC 35): Blinded, deafened, paralyzed, and stunned.
 
-**Free:** Whenever a Pei Zin practitioner heals a living creature with her _healer's way_ ability,
-she can attempt a Profession (herbalist) check to remove a condition from the target, with each
-condition having an accompanying Profession (herbalist) DC (see the list below). She cannot take 10
-or 20 on this check, nor can she receive aid from any creature except another Pei Zin practitioner
-(though the practitioner need not be an oracle).
+This ability replaces the revelation gained at 7th level.
 
-**Gained:** At 7th Level
+## Recommended Mysteries {#recommended-mysteries}
 
-**Replaces:** Revelation gained at 7th level
-
-**Special:** Failure by 5 or more causes the target to become [sickened](ref/misc/sickened) for 1
-round (if the Pei Zin practitioner is attempting to remove the sickened condition, this extends it
-by 1 round). Similarly, failure by 10 or more instead causes the target to become
-[nauseated](ref/misc/nauseated) for 1 round or to have its existing nauseated condition extended by
-1 round. A creature that cannot be sickened or nauseated cannot have conditions removed by this
-ability.
-
-**Minor Conditions (DC 20)**
-
-**Ability:** She can remove the fatigued, shaken, and sickened conditions.
-
-**Major Conditions (DC 25)**
-
-**Ability:** She can remove the dazed and staggered conditions.
-
-**Severe Conditions (DC 30)**
-
-**Ability:** She can remove the confused, exhausted, frightened, and nauseated conditions.
-
-**Dire Conditions (DC 35)**
-
-**Ability:** She can remove the blinded, deafened, paralyzed, and stunned conditions.
-
-**Recommended Mysteries:** [Life](ref/mystery/life), [nature](ref/mystery/nature),
-[succor](ref/mystery/succor).
+[Life](ref/mystery/life), [nature](ref/mystery/nature), [succor](ref/mystery/succor).
