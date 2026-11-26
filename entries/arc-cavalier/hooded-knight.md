@@ -17,7 +17,7 @@ page = "26"
 [fields]
 kind = "archetype"
 features = [
-  { anchor = "feytouched-mount" },
+  { anchor = "feytouched-mount", level = 1 },
   { anchor = "hero-of-the-roads", level = 1 },
   { anchor = "champion-of-the-roads", level = 9 },
   { anchor = "paragon-of-the-roads", level = 17 },

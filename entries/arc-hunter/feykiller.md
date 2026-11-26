@@ -17,7 +17,7 @@ page = "13"
 [fields]
 kind = "archetype"
 features = [
-  { anchor = "animal-focus" },
+  { anchor = "animal-focus", level = 1 },
   { anchor = "iron-talons", level = 1 },
   { anchor = "resist-nature-s-lure", level = 4 },
   { anchor = "grounded", level = 17 },

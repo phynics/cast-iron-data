@@ -17,7 +17,7 @@ page = "12"
 [fields]
 kind = "archetype"
 features = [
-  { anchor = "scatter-specialist" },
+  { anchor = "scatter-specialist", level = 1 },
   { anchor = "careful-shot", level = 1 },
   { anchor = "scatter-artist", level = 3 },
   { anchor = "overload", level = 7 },

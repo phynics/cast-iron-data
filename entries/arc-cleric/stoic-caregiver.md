@@ -17,8 +17,8 @@ page = "6"
 [fields]
 kind = "archetype"
 features = [
-  { anchor = "positive-channeler" },
-  { anchor = "domains" },
+  { anchor = "positive-channeler", level = 1 },
+  { anchor = "domains", level = 1 },
   { anchor = "midwife-training" },
   { anchor = "fated-cures" },
   { anchor = "three-aspect-channel", level = 6 },

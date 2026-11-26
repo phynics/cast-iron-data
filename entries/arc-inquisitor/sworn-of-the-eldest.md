@@ -18,7 +18,7 @@ page = "11"
 kind = "archetype"
 features = [
   { anchor = "whimsical-worship" },
-  { anchor = "deity" },
+  { anchor = "deity", level = 1 },
   { anchor = "disarming-discernment", level = 1 },
   { anchor = "feytongue", level = 1 },
   { anchor = "feywatcher" },

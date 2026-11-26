@@ -17,7 +17,7 @@ page = "28"
 [fields]
 kind = "archetype"
 features = [
-  { anchor = "fire-focus" },
+  { anchor = "fire-focus", level = 1 },
   { anchor = "galloping-siphon", level = 1 },
   { anchor = "mount", level = 4 },
 ]

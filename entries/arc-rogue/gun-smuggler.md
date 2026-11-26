@@ -19,7 +19,7 @@ kind = "archetype"
 features = [
   { anchor = "hidden-gun", level = 1 },
   { anchor = "secret-sidearm" },
-  { anchor = "selective-targeting" },
+  { anchor = "selective-targeting", level = 1 },
   { anchor = "stolen-shots", level = 3 },
   { anchor = "uncanny-aim", level = 4 },
 ]

@@ -19,7 +19,7 @@ kind = "archetype"
 features = [
   { anchor = "diminished-spellcasting" },
   { anchor = "extra-channel", level = 1 },
-  { anchor = "channel-angelfire" },
+  { anchor = "channel-angelfire", level = 1 },
   { anchor = "versatile-healing-channel", level = 5 },
   { anchor = "cleansing-flames", level = 9 },
 ]

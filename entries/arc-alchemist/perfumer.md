@@ -18,7 +18,7 @@ page = "17"
 kind = "archetype"
 features = [
   { anchor = "atomized-extracts", level = 1 },
-  { anchor = "effervescent-bombs" },
+  { anchor = "effervescent-bombs", level = 1 },
   { anchor = "pheromones", level = 1 },
   { anchor = "persistent-pheromones", level = 14 },
 ]

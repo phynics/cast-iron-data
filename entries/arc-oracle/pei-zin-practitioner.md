@@ -85,6 +85,13 @@ conditions removed by this ability.
 
 This ability replaces the revelation gained at 7th level.
 
+- Minor Conditions (DC 20): Fatigued, shaken, and sickened.
+- Major Conditions (DC 25): Dazed and staggered.
+- Severe Conditions (DC 30): Confused, exhausted, frightened, and nauseated.
+- Dire Conditions (DC 35): Blinded, deafened, paralyzed, and stunned.
+
+This ability replaces the revelation gained at 7th level.
+
 ## Recommended Mysteries {#recommended-mysteries}
 
 [Life](ref/mystery/life), [nature](ref/mystery/nature), [succor](ref/mystery/succor).

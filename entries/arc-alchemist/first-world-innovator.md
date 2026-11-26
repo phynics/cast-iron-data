@@ -18,7 +18,7 @@ page = "6"
 kind = "archetype"
 features = [
   { anchor = "primal-reagents", level = 1 },
-  { anchor = "limited-bombs" },
+  { anchor = "limited-bombs", level = 1 },
   { anchor = "refined-reagents", level = 2 },
 ]
 trades = [

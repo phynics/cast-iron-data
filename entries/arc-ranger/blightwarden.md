@@ -17,7 +17,7 @@ page = "17"
 [fields]
 kind = "archetype"
 features = [
-  { anchor = "hunt-the-blighted" },
+  { anchor = "hunt-the-blighted", level = 1 },
   { anchor = "emulate-taint-ex-su-or-sp", level = 1 },
   { anchor = "blightwalker", level = 3 },
   { anchor = "resist-corruption", level = 3 },

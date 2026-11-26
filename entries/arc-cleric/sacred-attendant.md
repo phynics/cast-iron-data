@@ -17,8 +17,8 @@ page = "4"
 [fields]
 kind = "archetype"
 features = [
-  { anchor = "channel-beauty" },
-  { anchor = "domains" },
+  { anchor = "channel-beauty", level = 1 },
+  { anchor = "domains", level = 1 },
   { anchor = "nimble" },
   { anchor = "nurture-grace" },
   { anchor = "inspiring-camaraderie", level = 8 },

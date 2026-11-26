@@ -17,7 +17,7 @@ page = "6"
 [fields]
 kind = "archetype"
 features = [
-  { anchor = "fey-aspect" },
+  { anchor = "fey-aspect", level = 1 },
   { anchor = "fey-shape", level = 4 },
   { anchor = "fey-shifter", level = 9 },
   { anchor = "greater-fey-shifter", level = 14 },

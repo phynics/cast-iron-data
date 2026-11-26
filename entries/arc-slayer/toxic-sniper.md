@@ -18,7 +18,7 @@ page = "27"
 kind = "archetype"
 features = [
   { anchor = "scrapper-s-gun", level = 1 },
-  { anchor = "sharpshooter-s-study" },
+  { anchor = "sharpshooter-s-study", level = 1 },
   { anchor = "toxic-grit", level = 2 },
   { anchor = "toxic-shots", level = 4 },
   { anchor = "marksman", level = 6 },

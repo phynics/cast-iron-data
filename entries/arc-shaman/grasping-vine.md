@@ -18,7 +18,7 @@ page = "16"
 kind = "archetype"
 features = [
   { anchor = "spirit" },
-  { anchor = "plant-spirit" },
+  { anchor = "plant-spirit", level = 1 },
   { anchor = "verdant-magic" },
   { anchor = "greentongue", level = 2 },
   { anchor = "flower-s-form", level = 8 },

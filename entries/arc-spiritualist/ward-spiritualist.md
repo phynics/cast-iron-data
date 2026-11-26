@@ -17,7 +17,7 @@ page = "18"
 [fields]
 kind = "archetype"
 features = [
-  { anchor = "kami-phantom" },
+  { anchor = "kami-phantom", level = 1 },
   { anchor = "ward-implement" },
   { anchor = "merged-manifestation", level = 3 },
 ]

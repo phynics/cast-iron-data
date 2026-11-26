@@ -17,7 +17,7 @@ page = "15"
 [fields]
 kind = "archetype"
 features = [
-  { anchor = "plant-mount" },
+  { anchor = "plant-mount", level = 1 },
   { anchor = "effloresce", level = 2 },
   { anchor = "sinuous-steps", level = 3 },
 ]

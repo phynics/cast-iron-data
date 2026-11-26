@@ -3343,6 +3343,7 @@ TRADE_MERGED = {
 # of batch 1): the level is the first "At Nth level" of the paragraph. The paragraphs of the other features hold
 # progressions ("At 6th level ..., at 9th level ...") that this reading would take for the level of the feature.
 LEVEL_ONE_REPLACES = {
+    ("ref/arc-paladin/faithful-wanderer", "hidden-aura"),    # replaces aura of good, a 1st-level feature: the printed "At 3rd level, her alignment aura emulates ..." is a step of it (review of #339)
     ("ref/arc-warpriest/divine-commander", "mount"),
     ("ref/arc-gunslinger/black-powder-vaulter", "mobile-reload"),   # replaces the deadeye deed, a 1st-level deed (Martial Arts Handbook p. 10)
     ("ref/arc-gunslinger/black-powder-vaulter", "daring-vault"),    # replaces the gunslinger's dodge deed, a 1st-level deed
@@ -3816,7 +3817,7 @@ def finalize(e: Entry, res: dict, class_cache: dict | None = None) -> dict:
         if r["level"] is None and r["listed"] and (e.id, r["anchor"]) in LEVEL_STATED:
             r["level"], said = LEVEL_STATED[(e.id, r["anchor"])]
             r["notes"].append(f"level {r['level']}: print says \"{said}\"")
-        if r["level"] is None and r["listed"] and r["level_import"] is not None:
+        if r["level"] is None and r["listed"] and r["level_import"] is not None and (e.id, r["anchor"]) not in LEVEL_ONE_REPLACES:
             # a lead after an opening sentence ("... honed. At 3rd level, if ...") or "a fortune-finder of 20th level becomes ...": print gives the
             # level that the import's Gained row has (review of #338)
             m = LATER_LEAD.search(first)

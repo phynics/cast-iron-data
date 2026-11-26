@@ -17,7 +17,7 @@ page = "18"
 [fields]
 kind = "archetype"
 features = [
-  { anchor = "elysium-s-soul" },
+  { anchor = "elysium-s-soul", level = 1 },
   { anchor = "basic-elysiokinesis" },
   { anchor = "elysian-infusion", level = 1 },
   { anchor = "elysian-aura", level = 2 },

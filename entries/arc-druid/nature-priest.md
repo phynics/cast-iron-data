@@ -19,7 +19,7 @@ kind = "archetype"
 features = [
   { anchor = "faithful" },
   { anchor = "studious-piety", level = 1 },
-  { anchor = "chosen-druid" },
+  { anchor = "chosen-druid", level = 1 },
   { anchor = "shepherd-of-the-faithful", level = 4 },
   { anchor = "divine-servants", level = 9 },
 ]
