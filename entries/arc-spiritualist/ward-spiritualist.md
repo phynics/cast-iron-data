@@ -16,12 +16,17 @@ page = "18"
 
 [fields]
 kind = "archetype"
+features = [
+  { anchor = "kami-phantom" },
+  { anchor = "ward-implement" },
+  { anchor = "merged-manifestation", level = 3 },
+]
 trades = [
-  { replaces = "Bonded senses", feature = "bonded-senses" },
-  { replaces = "phantom recall", feature = "phantom-recall" },
-  { replaces = "greater spiritual interference", feature = "greater-spiritual-interference" },
-  { alters = "Phantom", feature = "phantom" },
-  { alters = "Spellcasting", feature = "spells" },
+  { replaces = "Bonded senses", feature = "bonded-senses", by = ["ward-implement"] },
+  { replaces = "phantom recall", feature = "phantom-recall", by = ["ward-implement"] },
+  { replaces = "greater spiritual interference", feature = "greater-spiritual-interference", by = ["ward-implement"] },
+  { alters = "Phantom", feature = "phantom", by = ["kami-phantom"] },
+  { alters = "Spellcasting", feature = "spells", by = ["ward-implement"] },
 ]
 +++
 
@@ -30,29 +35,17 @@ chance or tragedy than a career choice, there are some individuals who seek out 
 spiritualist ventures into the wilderness and petitions a [kami](ref/family/kami) to help her in her
 travels, either taking an existing ward with her or becoming the kami's new ward.
 
-**Kami Phantom (Su)**
+## Kami Phantom (Su) {#kami-phantom}
 
-**Alters:** Phantom
+The ward spiritualist's [phantom](ref/sidekick/phantom) is less powerful than most, but it has an
+innate connection to its ward. The ward spiritualist's phantom is a kami phantom, functioning as
+normal for a phantom, except that its base attack bonus is equal to three-quarters its Hit Dice (as
+a [rogue](ref/class/rogue)) and its Hit Dice are d8s instead of d10s. Additionally, a kami phantom
+cannot manifest as incorporeal, only ectoplasmic.
 
-**Info:** The ward spiritualist's phantom is less powerful than most, but it has an innate
-connection to its ward. The ward spiritualist's phantom is a kami phantom, functioning as normal for
-a [phantom](ref/sidekick/phantom), except that its base attack bonus is equal to three-quarters its
-Hit Dice (as a [rogue](ref/class/rogue)) and its Hit Dice are d8s instead of d10s. Additionally, a
-kami phantom cannot manifest as incorporeal, only ectoplasmic.
+This alters phantom.
 
-**Ward Implement (Su)**
-
-**Action:** Ability
-
-**Alters:** Spellcasting
-
-**Repeat At:** She gains a focus power for her implement school., 2, 6, 10
-
-**Replaces:** Bonded senses, phantom recall, greater spiritual interference
-
-**Special:** She must meet the prerequisites of these focus powers, treating her spiritualist level
-as her occultist level for focus power prerequisites. She also treats her spiritualist level as her
-occultist level for feat prerequisites.
+## Ward Implement (Su) {#ward-implement}
 
 The ward spiritualist gains a single implement school of her choice, as an
 [occultist](ref/class/occultist), along with its resonant focus power and base focus power. The ward
@@ -71,92 +64,35 @@ She can remove the focus or somatic component of her spells, but this requires a
 [concentration](ref/rule/concentration) check with a DC equal to 15 + twice the spell level, which
 is increased for a thought component as normal.
 
-**Merged Manifestation (Su)**
+She gains a focus power for her implement school at 2nd level, and again at 6th level and 12th
+level. She must meet the prerequisites of these focus powers, treating her spiritualist level as her
+occultist level for focus power prerequisites. She also treats her spiritualist level as her
+occultist level for feat prerequisites.
 
-**Ability:** The ward spiritualist learns how to merge her kami phantom with her ward implement.
-This functions as _bonded manifestation,_ except that she does not choose ectoplasmic or
-incorporeal. Instead, she gains different benefits depending on whether she has a physical implement
-or is her own implement.
+This alters spellcasting and replaces bonded senses, phantom recall, and greater spiritual
+interference.
 
-**Gained:** At 3rd Level
+## Merged Manifestation (Su) {#merged-manifestation}
 
-**Physical Implement**
+At 3rd level, the ward spiritualist learns how to merge her kami phantom with her ward implement.
+This functions as bonded manifestation, except that she does not choose ectoplasmic or incorporeal.
+Instead, she gains different benefits depending on whether she has a physical implement or is her
+own implement.
 
-**Ability:** If she has a physical implement, when using her _merged manifestation,_ her implement
-functions as a one-handed [improvised weapon](ref/misc/improvised-weapons) of appropriate size, and
-she does not take the usual penalties associated with wielding an improvised weapon. Additionally,
-it is considered to have a +1 enhancement bonus for the duration of the _merged manifestation._
+If she has a physical implement, when using her merged manifestation, her implement functions as a
+one-handed [improvised weapon](ref/misc/improvised-weapons) of appropriate size, and she does not
+take the usual penalties associated with wielding an improvised weapon. Additionally, it is
+considered to have a +1 enhancement bonus for the duration of the merged manifestation. This
+enhancement bonus increases by 1 at 8th level, and again at 13th level and 18th level. At 8th level,
+and again at 18th level, it deals damage as a weapon
+[one size category larger](ref/misc/damage-die-adjustments). At 13th level, her implement also gains
+the benefits of _[spirit-bound blade](ref/spell/spirit-bound-blade)_ (_Pathfinder RPG Occult
+Adventures_ 186) for the duration of the merged manifestation.
 
-**At 13th Level:** Her implement also gains the benefits of
-[spirit-bound blade](ref/spell/spirit-bound-blade) for the duration of the _merged manifestation._
-
-**At 18th Level:** It now deals damage as a weapon two size categories larger.
-
-**At 8th Level:** It deals damage as a weapon
-[one size category larger](ref/misc/damage-die-adjustments).
-
-At 8th level: The enhancement bonus increases to +2.
-
-At 13th level: The enhancement bonus increases to +3.
-
-At 18th level: The enhancement bonus increases to +4.
-
-**Is Her Own Implement**
-
-**Ability:** If she is her own implement, when using her _merged manifestation,_ she gains the
-_unarmed strike_ class feature as a 1st level [unchained monk](ref/class/unchained-monk).
-
-**At 13th Level:** Her unarmed damage is that of an 8th-level unchained monk, and her unarmed
-strikes gain the benefits of _[spirit-bound blade](ref/spell/spirit-bound-blade)_ for the duration
-of the _merged manifestation._
-
-**At 18th Level:** Her unarmed damage is that of a 12th level unchained monk, and she can use
-_flurry of blows_ as an 11th-level unchained monk.
-
-**At 8th Level:** Her unarmed strike damage is that of a 4th-level unchained monk, and she gains
-_flurry of blows_ as a 1st-level unchained monk.
-
-**Unarmed Strike (Ex)**
-
-**Action:** Ability
-
-**Flavor:** Text from the unchained monk class ability.
-
-**At 1st Level:** Your unarmed strike deals 1d4 (Small), 1d6 (Medium), or 1d8 (Large) damage.
-
-**At 12th Level:** Your unarmed strike now deals 1d10 (Small), 2d6 (Medium), or 3d6 (Large) damage.
-
-**At 16th Level:** Your unarmed strike now deals 2d6 (Small), 2d8 (Medium), or 3d8 (Large) damage.
-
-**At 20th Level:** Your unarmed strike now deals 2d8 (Small), 2d10 (Medium), or 4d8 (Large) damage.
-
-**At 4th Level:** Your unarmed strike now deals 1d6 (Small), 1d8 (Medium), or 2d6 (Large) damage.
-
-**At 8th Level:** Your unarmed strike now deals 1d8 (Small), 1d10 (Medium), or 2d8 (Large) damage.
-
-**Special:** Your unarmed strike is treated as both a manufactured weapon and a natural weapon for
-the purpose of spells and effects that enhance or improve either manufactured weapons or natural
-weapons.
-
-You gain [Improved Unarmed Strike](ref/feat/improved-unarmed-strike) as a bonus feat. Your attacks
-can be with fists, elbows, knees, and feet. This means that you can make unarmed strikes with your
-hands full. There is no such thing as an off-hand attack when you're striking unarmed. You can apply
-your full Strength bonus on damage rolls for all your unarmed strikes. Your unarmed strikes deal
-lethal damage, although you can choose to deal nonlethal damage with no penalty on the attack roll.
-You can make this choice while grappling as well.
-
-**Flurry of Blows (Ex)**
-
-**Flavor:** Text from the unchained monk class ability.
-
-**Fullround:** You can make a flurry of blows as a full-attack action. When doing this, you can make
-one additional attack at your highest base attack bonus. This additional attack stacks with the
-bonus attacks from [haste](ref/spell/haste) and other similar effects. When using this ability, you
-can make these attacks with any combination of your unarmed strikes and weapons that have the monk
-special weapon quality. You take no penalty for using multiple weapons when making a flurry of
-blows, but you do not gain any additional attacks beyond what's already granted by the flurry for
-doing so. (You can still gain additional attacks from a high base attack bonus, from this ability,
-and from _[haste](ref/spell/haste)_ and similar effects).
-
-**At 11th Level:** You can now make two additional attacks at your highest base attack bonus during
-your flurry of blows. This still stacks with _[haste](ref/spell/haste)_ and similar effects.
+If she is her own implement, when using her merged manifestation, she gains the unarmed strike class
+feature as a 1st level [unchained monk](ref/class/unchained-monk) (_Pathfinder RPG Pathfinder
+Unchained_ 14). At 8th level, her unarmed strike damage is that of a 4th-level unchained monk, and
+she gains flurry of blows as a 1st-level unchained monk. At 13th level, her unarmed damage is that
+of an 8th-level unchained monk, and her unarmed strikes gain the benefits of _spirit-bound blade_
+for the duration of the merged manifestation. At 18th level, her unarmed damage is that of a 12th
+level unchained monk, and she can use flurry of blows as an 11th-level unchained monk.

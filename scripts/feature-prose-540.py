@@ -83,6 +83,14 @@ Hold rules (owner decision of 2026-11-26, phynics/cast-iron#540; each is a switc
   and `--print-sentences` / `<book>.sentences.tsv`: the printed "This replaces/alters ..." sentences of every archetype, which `--check`
   requires in the entries unless the review records the difference (a misprint fix, a Paizo errata)
 
+Player Companions (batches 6 to 9: Wilderness Origins, Legacy of the First World, People of the Wastes, Healer's Handbook)
+-----
+`PLAYER_COMPANIONS` books read their titles like Blood of the Ancients (small capitals, any title ends an archetype's span), and their
+chapter-opening title sits above the body (`CHAPTER_TITLES`: type of 40 or more at top 40..88), so that it ends the span of the last
+archetype of the chapter. Printed citations of other books ("(Ultimate Wilderness 58)", "(Pathfinder Player Companion: Heroes of
+the Wild 26)") go after a link that names the thing (owner ruling 26); `LEVEL_STATED` gives a level that print states in other words.
+The trades the books need are rows of `TRADE_RENAMES`, `TRADE_ADDITIONS` and `SCAFFOLD_TRADE_ADDITIONS` (a block each, at the top of the dict).
+
 Files
 -----
 `scripts/feature-prose-540-<book>.tsv`
@@ -729,7 +737,7 @@ def page_lines(book: Book, num: int) -> list[dict]:
     for top, left, font, raw, width in book.pages.get(num, []):
         if SKIP_TABLES["on"] and str(font) in book.sans and book.fonts[str(font)] <= 13:
             continue        # a table of the race chapter that stands on the page of the archetype: its cells are not the text
-        if BODY_TOP[0] <= top <= BODY_TOP[1]:
+        if BODY_TOP[0] <= top <= BODY_TOP[1] or (CHAPTER_TITLES["on"] and 40 <= top < BODY_TOP[0] and book.fonts[str(font)] >= 40):
             by_col[0 if left < COL_SPLIT else 1].append((top, left, font, raw, width))
     lines = []
     for col in (0, 1):
@@ -884,6 +892,9 @@ ANY_TITLE_ENDS = {"on": False}
 # Blood of the Ancients sets its titles in small capitals (a capital and its small capitals sit 5 units apart in one family of type), and
 # a chapter title that a page repeats unseen over the first lines of a column. Other books read as before.
 SMALL_CAP_TITLES = {"on": False}
+# Wilderness Origins, Legacy of the First World, People of the Wastes and Healer's Handbook set the title of a chapter-opening page
+# above the body (top < `BODY_TOP[0]`) in type of 40 or more, so that the first lines of a column sit below it. The title ends a section.
+CHAPTER_TITLES = {"on": False}
 
 # A title with a parenthesized type that does not end the section: the box of rules that the archetype uses (owner ruling 41;
 # Elemental Aspects of the Elementalist Shifter, Ultimate Wilderness pp. 78-80, "(Elementalist Shifter Aspects)")
@@ -1017,7 +1028,7 @@ TRADE_SUBJECT_WORDS = (r"ability|abilities|class|feature|features|power|powers|a
                        r"talent|talents|hex|hexes|discovery|discoveries|revelation|revelations|mercy|mercies|deed|deeds|exploit|"
                        r"exploits|arcana|arcanum|feat|feats|also|otherwise|acts|works|functions|as|like|and|bonus|spells|skills")
 TRADE_SENTENCE = re.compile(
-    r"(?:^|(?<=[.!?]\s)|(?<=[.!?]\)\s))((?:This|These|It)\b(?:\s+(?:bonus\s+feats?\s+choices?|" + TRADE_SUBJECT_WORDS + r"))*\s+(replaces?|alters?|changes?)\b[^.]*\.)",
+    r"(?:^|(?<=[.!?]\s)|(?<=[.!?]\)\s))((?:This|These|It)\b(?:\s+(?:bonus\s+feats?\s+choices?|" + TRADE_SUBJECT_WORDS + r"))*\s+(replaces?|alters?|changes)\b[^.]*\.)",
     re.I,
 )
 
@@ -1733,7 +1744,9 @@ def read_decisions(corpus: Path, book: str) -> dict[tuple[str, str], tuple[str, 
     decisions (owner rulings 15 and 18) also take print's wording: `unlist` makes the feature a plain heading that is
     no class feature, `sub-of:ANCHOR` a subheading of that feature, `list` a class feature that the option rule
     would have made a subheading. `after:ANCHOR` (joined to another decision with `;`) moves the row behind that
-    feature: a sidebar that print sets before the text it belongs after. `fold-into:ANCHOR` (owner ruling 44) folds a section
+    feature: a sidebar that print sets before the text it belongs after. `end:SLUG` (with `sidebar`, `drop` or `print`) records the
+    title that ends the print span (the next section of the chapter, a box) in a row of its own, so that it never meets a feature
+    of the same slug (a plain slug still works, as in the earlier books). `fold-into:ANCHOR` (owner ruling 44) folds a section
     whose print head is the title of a table into the end of that feature: the head becomes a bold line directly above the
     Markdown table, which is the section's text."""
     path = decisions_path(corpus, book)
@@ -1913,6 +1926,13 @@ def publication_title(corpus: Path, book: str) -> str:
 # Misprints of the book that are fixed because the meaning is certain (owner ruling 9 of 2026-11-24): the
 # entry, the printed words, the words written, and why. The review table's note records each fix.
 MISPRINTS = [
+    ("ref/arc-summoner/twinned-summoner", "usin\u0192g", "using", "a stray glyph inside \"using\" in print (the page image shows \"usin\u0192g\")"),
+    ("ref/arc-unchained-summoner/twinned-summoner", "usin\u0192g", "using", "a stray glyph inside \"using\" in print (the page image shows \"usin\u0192g\")"),
+    # Batches 6 to 9 (Player Companions)
+    ("ref/arc-skald/serpent-herald", "battle roar knockback", "battle roar, knockback",
+     "a comma is missing in print's list of rage powers (the list reads \"animal fury, battle roar, knockback, knockdown, ...\" in the Deepwater Rager's and every other list of the book)"),
+    ("ref/arc-rogue/shadow-scion", "complement the shadow walker archetype", "complement the shadow scion archetype",
+     "the archetype of the entry is the shadow scion; \"shadow walker\" is a leftover name (owner ruling 43: a wrong proper name is fixed when the intended name is certain)"),
     ("ref/arc-vigilante/zealot", "This alter's the vigilante's skill ranks per level", "This alters the vigilante's skill ranks per level",
      "alters: the printed \"alter's\" is a slip for the verb of the trade sentence"),
     ("ref/arc-spiritualist/involutionist", "available at 11th, 15th, and 17th levels", "available at 11th, 15th, and 19th levels",
@@ -2271,15 +2291,15 @@ def join_wrapped(raw_paras: list[str], vocab: set[str]) -> list[str]:
 
 
 # The parentheses that are only a page citation (owner ruling 26): one that a link replaces goes, any other stays as printed
-CITE_RPG = r"\s*\(" + I_OPEN + r"?Pathfinder RPG[^()]*?(?:page[\s_\x01\x02]*|[\s\x01\x02]+)\d+(?:[–-]\d+)?\)"
-CITE_BOOK = (r"\s*\([\x01_]*(?:Pathfinder (?:RPG|Roleplaying Game) )?(?:Core Rulebook|Advanced Player.s Guide|Bestiary(?: [2-5])?|"
-             r"Ultimate (?:Magic|Combat|Equipment|Campaign)|Advanced Race Guide|Game[Mm]astery Guide|Monster Codex|Occult Adventures)"
+CITE_RPG = r"\s*\(" + I_OPEN + r"?Pathfinder (?:RPG|Player Companion:|Campaign Setting:)[^()]*?(?:page[\s_\x01\x02]*|[\s\x01\x02]+)\d+(?:[–-]\d+)?\)"
+CITE_BOOK = (r"\s*\([\x01_]*(?:Pathfinder (?:RPG|Roleplaying Game) )?(?:Core Rulebook|Advanced Player.s Guide|Bestiary(?: [2-6])?|Inner Sea Bestiary|Horror Adventures|"
+             r"Ultimate (?:Magic|Combat|Equipment|Campaign|Wilderness|Intrigue)|Advanced Race Guide|Game[Mm]astery Guide|Monster Codex|Occult Adventures|Pathfinder Unchained)"
              r"[\x02_]*[,\s]*(?:page[\s_\x01\x02]*)?\d+(?:[–-]\d+)?\)")
 CITE_PAGE = r"\s*\(\s*(?:[\x01_]*[A-Z][\w'\u2019:, \-]*?[\x02_]*\s+)?page[\s_\x01\x02]*\d+(?:[\u2013-]\d+)?\s*\)"
 
 
-CITE_SEMI = (r";\s*[\x01_]*(?:Pathfinder (?:RPG|Roleplaying Game) )?(?:Core Rulebook|Advanced Player.s Guide|Bestiary(?: [2-5])?|"
-             r"Ultimate (?:Magic|Combat|Equipment|Campaign)|Advanced Race Guide|Game[Mm]astery Guide|Monster Codex|Occult Adventures)"
+CITE_SEMI = (r";\s*[\x01_]*(?:Pathfinder (?:RPG|Roleplaying Game) )?(?:Core Rulebook|Advanced Player.s Guide|Bestiary(?: [2-6])?|Inner Sea Bestiary|Horror Adventures|"
+             r"Ultimate (?:Magic|Combat|Equipment|Campaign|Wilderness|Intrigue)|Advanced Race Guide|Game[Mm]astery Guide|Monster Codex|Occult Adventures|Pathfinder Unchained)"
              r"[\x02_]*[,\s]*(?:page[\s_\x01\x02]*)?\d+(?:[–-]\d+)?(?=\))")
 
 
@@ -2503,6 +2523,12 @@ def feature_links(entry_id: str, f, head: str) -> list[tuple[str, str]]:
 
 # A misprint of an opening text, which the compare keeps from the import when the words agree: the entry and the note
 # that the review table records (owner ruling 9).
+# The opening text keeps the import's words when its words (stemmed) are the printed ones; an entry whose import differs from print in
+# an ending only (a plural possessive) is named here, with the printed word, so that its opening text is written from print.
+OPENING_FROM_PRINT_FORCED = {
+    "ref/arc-cavalier/verdivant": "leshys'",         # print: "Some vine leshys' spirits ..."; the import: "Some vine leshy spirits ..."
+}
+
 OPENING_NOTES = {
     "ref/arc-bard/masked-performer": 'misprint fixed: print has "a entertainer" in the opening text, written "an entertainer" (the import has the article right)',
 }
@@ -2696,6 +2722,8 @@ def compare_entry(e: Entry, section: list[Para], book: Book) -> dict:
     diff = sorted(((imp_words - print_words) + (print_words - imp_words)).elements())
     if not diff and "\u2014" in " ".join(kept) and "\u2014" not in " ".join(logical(b) for i, b in enumerate(opening_imp) if i not in gone):
         diff = ["\u2014"]          # the import writes the printed em dash as " - "
+    if not diff and e.id in OPENING_FROM_PRINT_FORCED:
+        diff = [OPENING_FROM_PRINT_FORCED[e.id]]
     return {"rows": rows, "problems": problems, "opening": kept, "opening_links": links,
             "opening_dropped": [logical(opening_imp[i]) for i in gone], "opening_diff": diff,
             "section_end": (getattr(section, "end", None), getattr(section, "end_known", True))}
@@ -2824,6 +2852,21 @@ def assign_by(trades: list[dict], listed: list[dict], opening: list[str]) -> tup
 # A stored trade whose printed name the reader cannot match to the printed sentence takes the printed
 # words (owner instruction of 2026-11-24; the `feature` link and the ids stay). The TSV note records it.
 TRADE_RENAMES = {
+    ("ref/arc-oracle/pei-zin-practitioner", "Class skills gained from the oracle's mystery"): "The additional class skills the oracle gains from her mystery",
+    ("ref/arc-paladin/faithful-wanderer", "Skills per level"): "Class skills",
+    ("ref/arc-oracle/hermit", "The bonus spells gained at 4th, 8th, 12th, and 16th levels from the oracle's mystery"): "The oracle's normal mystery bonus spells at these levels",
+    ("ref/arc-wizard/chronomancer", "10th-, 15th-, and 20th-level bonus feats"): "The bonus feats gained at 10th, 15th, and 20th levels",
+    ("ref/arc-witch/seducer", "1st-level hex"): "Hex gained at 1st level",
+    ("ref/arc-witch/seducer", "6th-level hex"): "Hex gained at 6th level",
+    ("ref/arc-witch/seducer", "8th-level hex"): "Hex gained at 8th level",
+    # Batches 6 to 9 (Player Companions: Wilderness Origins, Legacy of the First World, People of the Wastes, Healer's Handbook): a stored name
+    # that is not the printed wording of its sentence, rewritten as the sentence says it (ruling 22; `feature`, `levels` and ids stay)
+    ("ref/arc-psychic/esoteric-starseeker", "Discipline spells"): "The bonus spells normally granted by the psychic's discipline",
+    ("ref/arc-psychic/esoteric-starseeker", "1st- and 11th-level phrenic amplifications"): "The phrenic amplifications gained at 1st and 11th levels",
+    ("ref/arc-psychic/magaambyan-telepath", "1st- and 11th-level phrenic amplifications"): "The phrenic amplifications gained at 1st and 11th levels",
+    ("ref/arc-shifter/feyform-shifter", "Shifter aspect and all improvements to it"): "All improvements to shifter aspect",
+    ("ref/arc-shifter/dragonblood-shifter", "Shifter aspect"): "Shifter aspect and all improvements to shifter aspect",
+    ("ref/arc-shifter/swarm-shifter", "shifter aspect"): "Shifter aspect, and all improvements to shifter aspect",
     # The Paizo errata for Advanced Class Guide (p. 89) moves the bonus combat feats that the Wild Child replaces; the stored
     # names follow the 1st printing, so they are aligned with the sentences of the corrected text (levels: TRADE_LEVELS).
     ("ref/arc-brawler/wild-child", "Bonus combat feats gained at 2nd, 5th, 11th, and 14th levels"):
@@ -3089,6 +3132,13 @@ TRADE_OP_FIXES = {
 # A trade that print states in a trade sentence and that the entry does not store (data fix inside the
 # pilot's book; the TSV note records it). The other four shaman archetypes store `Venom immunity`.
 TRADE_ADDITIONS = {
+    "ref/arc-druid/nature-priest": [{"alters": "Class skills"}],     # "This alters the druid's class skills." (Faithful)
+    "ref/arc-kineticist/elysiokineticist": [{"alters": "The class skills granted by the wood element"}],     # "This alters elemental focus and the class skills granted by the wood element, and it replaces expanded element."
+    # "This ability replaces the ki power gained at 4th level for an unchained monk." (Healing Ki, Greater Hone Body, Hone Soul)
+    "ref/arc-monk/disciple-of-wholeness": [{"replaces": "The ki power gained at 4th level for an unchained monk", "levels": [4]},
+                                           {"replaces": "The ki power gained at 12th level for an unchained monk", "levels": [12]},
+                                           {"replaces": "The ki power gained at 14th level for an unchained monk", "levels": [14]}],
+    # Batches 6 to 9 (Player Companions): a printed sentence that no stored trade states
     # Printed sentences that name a base-class feature the import stored no trade for (ruling 31)
     "ref/arc-summoner/shadow-caller": [{"replaces": "Summon monster spell-like abilities", "feature": "summon-monster-i"}],
     "ref/arc-summoner/wild-caller-arg": [{"alters": "Eidolon", "feature": "eidolon"}],
@@ -3124,6 +3174,13 @@ TRADE_ADDITIONS = {
 # Batch 5 (Opus review of #329): the sentences "This alters the ...'s class skills" and the like that print sets in a section before the first
 # feature (Class Skills, Alignment) state a trade that the import did not store; each is stored without `by` (ruling 6, as for Magic Warrior).
 SCAFFOLD_TRADE_ADDITIONS = {
+    # Batches 6 to 9 (Player Companions): "This alters the ...'s class skills." in the Class Skills section before the first feature
+    "ref/arc-bard/solacer": [{"alters": "Class skills"}],
+    "ref/arc-cavalier/hooded-knight": [{"alters": "Class skills"}],
+    "ref/arc-brawler/constructed-pugilist": [{"alters": "Class skills"}],
+    "ref/arc-kineticist/cinderlands-adept": [{"alters": "Class skills"}],
+    "ref/arc-ninja/petal-ninja": [{"alters": "Class skills"}],
+    "ref/arc-paladin/champion-of-the-cascade": [{"alters": "Class skills"}],
     "ref/arc-swashbuckler/daring-infiltrator": [{"alters": "The swashbuckler's class skill list"}],
     "ref/arc-swashbuckler/mysterious-avenger": [{"alters": "Class skills"}],
     "ref/arc-warpriest/cult-leader": [{"replaces": "Class skills"}],
@@ -3234,7 +3291,13 @@ LEVEL_ONE_REPLACES = {
     ("ref/arc-wizard/arcane-warden", "generous-touch"),     # replaces the hand of the apprentice universalist school ability, a 1st-level power (rulings 11 and 35)
 }
 
+# A level that print states in words that the lead rules do not read: the entry, the anchor, the level and the printed words (Batches 6 to 9).
+LEVEL_STATED = {
+    ("ref/arc-oracle/hermit", "recluse-s-stride"): (1, "You must take this revelation at 1st level"),
+}
+
 LEVEL_IN_FIRST_PARAGRAPH = {
+    ("ref/arc-paladin/invigorator", "champion-of-life"),     # a flavor sentence, then "At 20th level, three times per day ..."
     ("ref/arc-brawler/wild-child", "wild-tricks"),
     ("ref/arc-bloodrager/spelleater", "blood-of-life"),
     ("ref/arc-investigator/empiricist", "ceaseless-observation"),
@@ -3511,7 +3574,7 @@ def finalize(e: Entry, res: dict, class_cache: dict | None = None) -> dict:
     # rule names as the start of another section of the book (a table title, a box): the entry needs a decision about it
     end, known = res.get("section_end", (None, True))
     if RULES["dropped"] and end and not known:
-        dec_end = decisions.get((e.id, anchor_of(end)))
+        dec_end = decisions.get((e.id, "end:" + anchor_of(end))) or decisions.get((e.id, anchor_of(end)))     # `end:SLUG` names the title that ends the span, so that it cannot meet a feature of the same slug
         if not dec_end or dec_end[0].split(";")[0] not in ("sidebar", "drop", "print"):
             problems.append(f"the print span ends at the title \"{end}\", which names no other section of the book (a table, a box?): "
                             f"decide `sidebar` (a lore box, ruling 41) or `drop`, or write it with an edit, for `{anchor_of(end)}`")
@@ -3642,6 +3705,9 @@ def finalize(e: Entry, res: dict, class_cache: dict | None = None) -> dict:
                 if m and 1 <= int(m.group(1)) <= 20 and m.group(2) == ordinal(int(m.group(1)))[len(m.group(1)):]:
                     r["level"] = int(m.group(1))
                     r["notes"].append(f"level {r['level']}: print says \"{m.group(0)}\" in its first paragraph, after an opening sentence")
+        if r["level"] is None and r["listed"] and (e.id, r["anchor"]) in LEVEL_STATED:
+            r["level"], said = LEVEL_STATED[(e.id, r["anchor"])]
+            r["notes"].append(f"level {r['level']}: print says \"{said}\"")
         if r["level"] is None and r["listed"]:
             m = re.match(r"[^.]*?\bgains this ability at (\d+)(st|nd|rd|th) level\b", first)
             if m and 1 <= int(m.group(1)) <= 20 and m.group(2) == ordinal(int(m.group(1)))[len(m.group(1)):]:
@@ -3686,6 +3752,10 @@ def finalize(e: Entry, res: dict, class_cache: dict | None = None) -> dict:
             "opening_from_print": opening_from_print}
 
 
+# The Player Companions that set their titles in small capitals and give each archetype no box of its own (batches 6 to 9).
+PLAYER_COMPANIONS = ("blood-of-the-ancients", "wilderness-origins", "legacy-of-the-first-world", "people-of-the-wastes", "healers-handbook")
+
+
 def configure_book(book: str) -> None:
     """The layout switches of a book (the leaf tool `feature-prose-540-leaves.py` sets the same ones)."""
     ERRATA_CTX["book"] = book
@@ -3693,8 +3763,9 @@ def configure_book(book: str) -> None:
     ILLUSTRATED["on"] = book in ("advanced-class-guide", "advanced-race-guide", "adventurers-guide", "ultimate-wilderness",
                                  "horror-adventures", "planar-adventures")
     SECTION_STOPS["on"] = book in ("adventurers-guide", "ultimate-wilderness", "horror-adventures", "planar-adventures")
-    ANY_TITLE_ENDS["on"] = book in ("blood-of-the-ancients",)
-    SMALL_CAP_TITLES["on"] = book in ("blood-of-the-ancients",)
+    ANY_TITLE_ENDS["on"] = book in PLAYER_COMPANIONS
+    SMALL_CAP_TITLES["on"] = book in PLAYER_COMPANIONS
+    CHAPTER_TITLES["on"] = book in PLAYER_COMPANIONS and book != "blood-of-the-ancients"
 
 
 def run_compare(args) -> int:
@@ -3885,6 +3956,15 @@ def edit_front(front: str, feats: list[dict], by: dict[int, list[str]], n_trades
 
 # A head that print sets in capitals as the title of a box is written in title case, like the other boxes (Opus review of batch 4)
 HEAD_REWRITES = {
+    # Legacy of the First World p. 19 (ruling 41): the printed heads of the evolutions that only twinned summoners' eidolons take
+    ("ref/arc-summoner/twinned-summoner", "twinned-eidolon-evolutions"): "Evolutions",
+    ("ref/arc-summoner/twinned-summoner", "shared-evolution"): "Shared Evolution (Su)",
+    ("ref/arc-summoner/twinned-summoner", "extra-feat"): "Extra Feat (Ex)",
+    ("ref/arc-summoner/twinned-summoner", "shared-slot"): "Shared Slot (Su)",
+    ("ref/arc-unchained-summoner/twinned-summoner", "twinned-eidolon-evolutions"): "Evolutions",
+    ("ref/arc-unchained-summoner/twinned-summoner", "shared-evolution"): "Shared Evolution (Su)",
+    ("ref/arc-unchained-summoner/twinned-summoner", "extra-feat"): "Extra Feat (Ex)",
+    ("ref/arc-unchained-summoner/twinned-summoner", "shared-slot"): "Shared Slot (Su)",
     ("ref/arc-summoner/leshy-caller", "plant-eidolon-subtype"): "Plant Eidolon Subtype",
     ("ref/arc-unchained-summoner/leshy-caller", "plant-eidolon-subtype"): "Plant Eidolon Subtype",
 }
@@ -4055,7 +4135,7 @@ def printed_trade_gaps(e: Entry) -> list[str]:
         # review of #329: Planar Scout, Witch Killer, Dreamthief and Experimenter print "This alters the ... class skills" there)
         sentences = trade_sentences(part[m.end():], ABILITY_TAG.sub("", head or m.group(1)).strip())
         for sop, ph, _bare in sentences:
-            if re.match(r"(?:grants|to|does|do|not)\b", ph) or any(
+            if not ph.strip() or re.match(r"(?:grants|to|does|do|not)\b", ph) or any(
                     x["entry"] == e.id and squash(x["sentence"]) in squash(ph) for x in trade_sentence_exceptions(e.path.parents[2])):
                 continue                    # "This change to spells doesn't apply", "This ability does not alter ...": no trade sentence
             if not any(op == sop and covers(ph, name) for op, name in trades):
@@ -4582,6 +4662,31 @@ def self_test() -> int:
     eq(len(find_section(blocks, "Aerial Assaulter", {"x"}) or []), 2, "any title ends the section")
     ANY_TITLE_ENDS["on"] = False
     eq(len(find_section(blocks, "Aerial Assaulter", {"x"}) or []), 4, "a sidebar title stays in the section of other books")
+    # batches 6 to 9 (Player Companions): a chapter title above the body ends a section, and only in those books
+    chap = Book({"23": 60, "24": 13}, {1: [(72, 105, 23, "Wardens of the Wild", 500), (150, 108, 24, "In the wilds of the world.", 300), (11, 497, 23, "Running head", 300)]},
+                {1: 18}, set())
+    CHAPTER_TITLES["on"] = True
+    got = ["".join(t for t, _, _ in ln["runs"]) for ln in page_lines(chap, 1)]
+    CHAPTER_TITLES["on"] = False
+    got_off = ["".join(t for t, _, _ in ln["runs"]) for ln in page_lines(chap, 1)]
+    eq((got, got_off), (["Wardens of the Wild", "In the wilds of the world."], ["In the wilds of the world."]),
+       "a chapter title above the body is a line (the running head at the top is not), in the books that set it so")
+    configure_book("healers-handbook")
+    eq((CHAPTER_TITLES["on"], SMALL_CAP_TITLES["on"], ANY_TITLE_ENDS["on"]), (True, True, True), "a Player Companion of batches 6 to 9 reads its titles that way")
+    configure_book("blood-of-the-ancients")
+    eq((CHAPTER_TITLES["on"], SMALL_CAP_TITLES["on"]), (False, True), "Blood of the Ancients sets its chapter titles in the body")
+    configure_book("ultimate-magic")
+    eq((CHAPTER_TITLES["on"], SMALL_CAP_TITLES["on"], ANY_TITLE_ENDS["on"]), (False, False, False), "the other books read as before")
+    # a printed book citation of another publication goes after a link that already names the thing, in the books of the new batches
+    eq(strip_citations("positive blast (_Ultimate Wilderness_ 60) as"), "positive blast as", "a citation of Ultimate Wilderness")
+    eq(strip_citations("corruption (Horror Adventures 14) progressing"), "corruption progressing", "a citation of Horror Adventures")
+    eq(strip_citations("seven (_Pathfinder Player Companion: Heroes of the Wild_ 26) here"), "seven here", "a citation of a Player Companion")
+    eq(strip_citations("a template (Bestiary 6 46), another (Inner Sea Bestiary 28\u201329)."), "a template, another.", "Bestiary 6 and Inner Sea Bestiary")
+    eq(strip_citations("the grapple weapon (Adventurer's Guide 12)"), "the grapple weapon (Adventurer's Guide 12)", "a book that no pattern names stays")
+    # "This change remains in effect" is no trade sentence; "alters and replaces X" has no phrase of its own to cover
+    eq(trade_sentences("This change remains in effect for 1 minute."), [], "a noun after This is no verb")
+    eq(trade_sentences("This changes the sentence name.")[0][0], "alters", "changes is an alters verb")
+    eq(LEVEL_STATED[("ref/arc-oracle/hermit", "recluse-s-stride")][0], 1, "a level that print states in other words")
     eq(join_wrapped(["the vox's mesmerist spells use both", "thought and verbal components. Next."], set()), ["the vox's mesmerist spells use both thought and verbal components. Next."], "wrapped sidebar lines join")
     # ruling 11: the Special column of the class table, with its suffixes, never a spell-slot or fast-movement column
     with tempfile.TemporaryDirectory() as tmp:

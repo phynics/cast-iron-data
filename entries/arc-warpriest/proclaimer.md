@@ -16,69 +16,50 @@ page = "19"
 
 [fields]
 kind = "archetype"
+features = [
+  { anchor = "righteous-oath" },
+  { anchor = "cleanser-of-evil", level = 2 },
+  { anchor = "zone-of-sanctification", level = 4 },
+]
 trades = [
-  { replaces = "Sacred armor", feature = "sacred-armor" },
-  { replaces = "Channel energy", feature = "channel-energy" },
-  { alters = "Spellcasting", feature = "spells" },
-  { alters = "Fervor", feature = "fervor" },
+  { replaces = "Sacred armor", feature = "sacred-armor", by = ["cleanser-of-evil"] },
+  { replaces = "Channel energy", feature = "channel-energy", by = ["zone-of-sanctification"] },
+  { alters = "Spellcasting", feature = "spells", by = ["righteous-oath"] },
+  { alters = "Fervor", feature = "fervor", by = ["cleanser-of-evil"] },
 ]
 +++
 
-A proclaimer is the polar opposite of a
-[faithful wanderer (paladin)](ref/arc-paladin/faithful-wanderer), rushing into Abyss-twisted wastes
-with nothing but his weapon in his hand and his faith in his heart, shouting his deity's name to the
-skies. Most proclaimers don't survive their first day in a hostile environment, but those who do
-become the stuff of legend, bolstering the spirits of crusaders near and far.
+A proclaimer is the polar opposite of a faithful wanderer (see above), rushing into Abyss-twisted
+wastes with nothing but his weapon in his hand and his faith in his heart, shouting his deity's name
+to the skies. Most proclaimers don't survive their first day in a hostile environment, but those who
+do become the stuff of legend, bolstering the spirits of crusaders near and far.
 
-**Righteous Oath**
+## Righteous Oath {#righteous-oath}
 
-**Alters:** Spellcasting
+A proclaimer cannot be evil or worship an evil deity, and he must choose cure spells for his
+spontaneous casting.
 
-**Info:** A proclaimer cannot be evil or worship an evil deity, and he must choose cure spells for
-his spontaneous casting.
+This alters the warpriest's spellcasting.
 
-**Cleanser of Evil (Su)**
+## Cleanser of Evil (Su) {#cleanser-of-evil}
 
-**Alters:** Fervor
+At 2nd level, a proclaimer can hold his weapon aloft and shout his deity's name as a swift action,
+spending one use of fervor to deal 1d6 points of damage to all evil outsiders within 5 feet. At 5th
+level and every 3 levels thereafter, this damage increases by an additional 1d6. This damage has the
+same alignment as the proclaimer's deity (for example, it counts as good and lawful for a worshiper
+of [Ragathiel](ref/faith/ragathiel) who uses this ability). At 7th level, the effect expands to
+include an area within 10 feet of the proclaimer, and it expands by 5 feet every 6 levels
+thereafter. A proclaimer can't use fervor to damage undead or to heal.
 
-**At 13th Level:** The effect expands to 15 feet.
+This alters fervor and replaces sacred armor.
 
-**At 19th Level:** The effect expands to 20 feet.
+## Zone of Sanctification (Su) {#zone-of-sanctification}
 
-**At 7th Level:** The effect expands to include an area within 10 feet of the proclaimer.
+At 4th level, when a proclaimer uses fervor to damage evil outsiders with his cleanser of evil
+ability, he can spend one additional use of fervor as a move action to create a zone of
+sanctification in the same area for 1 round. All evil outsiders in the zone when it becomes active
+must succeed at a Will saving throw (DC 10 + half the proclaimer's level + his Wisdom modifier) or
+be pushed back until they are out of the area. Evil outsiders that end their turns in the area take
+damage as if affected by cleanser of evil.
 
-**Gained:** At 2nd Level
-
-**Replaces:** Sacred armor
-
-**Special:** A proclaimer can't use _fervor_ to damage undead or to heal.
-
-**Swift:** A proclaimer can hold his weapon aloft and shout his deity's name, spending one use of
-_fervor_ to deal 1d6 points of damage to all evil outsiders within 5 feet. This damage has the same
-alignment as the proclaimer's deity (for example, it counts as good and lawful for a worshiper of
-[Ragathiel](ref/faith/ragathiel) who uses this ability).
-
-At 5th level: This damage increases to 2d6.
-
-At 8th level: This damage increases to 3d6.
-
-At 11th level: This damage increases to 4d6.
-
-At 14th level: This damage increases to 5d6.
-
-At 17th level: This damage increases to 6d6.
-
-At 20th level: This damage increases to 7d6.
-
-**Zone of Sanctification (Su)**
-
-**Ability:** When a proclaimer uses _fervor_ to damage evil outsiders with his _cleanser of evil_
-ability, he can spend one additional use of _fervor_ as a **move action** to create a _zone of
-sanctification_ in the same area for 1 round. All evil outsiders in the _zone_ when it becomes
-active must succeed at a Will saving throw (DC 10 + half the proclaimer's level + his Wisdom
-modifier) or be pushed back until they are out of the area. Evil outsiders that end their turns in
-the area take damage as if affected by _cleanser of evil._
-
-**Gained:** At 4th Level
-
-**Replaces:** Channel energy
+This replaces channel energy.

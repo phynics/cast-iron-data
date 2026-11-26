@@ -16,12 +16,18 @@ page = "13"
 
 [fields]
 kind = "archetype"
+features = [
+  { anchor = "animal-focus" },
+  { anchor = "iron-talons", level = 1 },
+  { anchor = "resist-nature-s-lure", level = 4 },
+  { anchor = "grounded", level = 17 },
+]
 trades = [
-  { replaces = "Wild empathy", feature = "wild-empathy" },
-  { replaces = "speak with master", feature = "speak-with-master" },
-  { replaces = "Improved empathic link", feature = "improved-empathic-link" },
-  { replaces = "One with the wild", feature = "one-with-the-wild" },
-  { alters = "Animal focus", feature = "animal-focus" },
+  { replaces = "Wild empathy", feature = "wild-empathy", by = ["iron-talons"] },
+  { replaces = "speak with master", feature = "speak-with-master", by = ["iron-talons"] },
+  { replaces = "Improved empathic link", feature = "improved-empathic-link", by = ["resist-nature-s-lure"] },
+  { replaces = "One with the wild", feature = "one-with-the-wild", by = ["grounded"] },
+  { alters = "Animal focus", feature = "animal-focus", by = ["animal-focus"] },
 ]
 +++
 
@@ -29,88 +35,62 @@ Some hunters in fey-plagued regions are dedicated to tracking down and eradicati
 They use their connection to the natural world to ground their senses and fight corrupted First
 World intrusions.
 
-**Animal Focus (Su)**
+## Animal Focus (Su) {#animal-focus}
 
-**Ability:** A feykiller emulates animals that grant her the ability to unmask fey trickery. She
-adds the following choices to her [animal focus](ref/ability/animal-foci) ability instead of the
-bear, frog, monkey, mouse, and snake choices.
+A feykiller emulates animals that grant her the ability to unmask fey trickery. She adds the
+following choices to her [animal focus](ref/ability/animal-foci) ability instead of the bear, frog,
+monkey, mouse, and snake choices.
 
-**Alters:** Animal focus
+### Crow {#crow}
 
-**Special:** She retains the bat, bull, falcon, owl, stag, tiger, and wolf aspects.
+The creature gains a +4 competence bonus on Knowledge checks to identify the abilities and
+weaknesses of creatures. This bonus increases to +6 at 8th level and +8 at 15th level.
 
-**Crow**
+### Goat {#goat}
 
-**Passive:** The creature gains a +4 competence bonus on Knowledge checks to identify the abilities
-and weaknesses of creatures.
+The creature gains a +2 competence bonus on saving throws against enchantment spells and
+[spell-like abilities](ref/umr/spell-like-abilities). This bonus increases to +4 at 8th level and +6
+at 15th level.
 
-At 8th level: This bonus increases to +6.
+### Mongoose {#mongoose}
 
-At 15th level: This bonus increases to +8.
+The creature gains a +2 competence bonus on grapple combat maneuver checks and on saving throws
+against poison. These bonuses increase to +4 at 8th level and +6 at 15th level.
 
-**Goat**
+### Shark {#shark}
 
-**Passive:** The creature gains a +2 competence bonus on saving throws against enchantment spells
-and [spell-like abilities](ref/umr/spell-like-abilities).
+The creature gains a +4 competence bonus on Survival checks to track a creature that has taken
+damage from the hunter or her animal companion in the past 24 hours. This bonus increases to +6 at
+8th level and +8 at 15th level.
 
-At 8th level: This bonus increases to +4.
+### Turtle {#turtle}
 
-At 15th level: This bonus increases to +6.
+The creature gains a +2 enhancement bonus to its natural armor bonus. This bonus increases to +4 at
+8th level and +6 at 15th level. (A creature without natural armor has an effective natural armor
+bonus of +0.)
 
-**Mongoose**
+This ability alters animal focus.
 
-**Passive:** The creature gains a +2 competence bonus on grapple combat maneuver checks and on
-saving throws against poison.
+## Iron Talons (Ex) {#iron-talons}
 
-At 8th level: These bonuses increase to +4.
+Through training and prayer, a feykiller imbues her animal companion with an enhanced ability to
+fight fey. One of the animal companion's natural attacks, as selected by the feykiller, is treated
+as cold iron for the purpose of overcoming [damage reduction](ref/rule/damage-reduction). At 7th
+level, all of her animal companion's natural attacks are treated as cold iron.
 
-At 15th level: These bonuses increase to +6.
+This ability replaces wild empathy and speak with master.
 
-**Shark**
+## Resist Nature's Lure (Ex) {#resist-nature-s-lure}
 
-**Passive:** The creature gains a +4 competence bonus on Survival checks to track a creature that
-has taken damage from the hunter or her animal companion in the past 24 hours.
+At 4th level, a feykiller gains the [resist nature's lure](ref/ability/resist-natures-lure) druid
+class feature whenever her animal companion is within 60 feet.
 
-At 8th level: This bonus increases to +6.
+This ability replaces improved empathic link.
 
-At 15th level: This bonus increases to +8.
+## Grounded (Su) {#grounded}
 
-**Turtle**
+At 17th level, a feykiller gains a +4 insight bonus on saving throws against illusion and
+enchantment effects, and she is immune to illusion and enchantment effects created by fey. This
+ability functions only when her animal companion is within 60 feet.
 
-**Passive:** The creature gains a +2 enhancement bonus to its natural armor bonus.
-
-At 8th level: This bonus increases to +4.
-
-At 15th level: This bonus increases to +6.
-
-**Iron Talons (Ex)**
-
-**Flavor:** Through training and prayer, a feykiller imbues her animal companion with an enhanced
-ability to fight fey.
-
-**At 7th Level:** All of her animal companion's natural attacks are treated as cold iron.
-
-**Passive:** One of the animal companion's natural attacks, as selected by the feykiller, is treated
-as cold iron for the purpose of overcoming [damage reduction](ref/rule/damage-reduction).
-
-**Replaces:** Wild empathy, speak with master
-
-**Resist Nature's Lure (Ex)**
-
-**Gained:** At 4th Level
-
-**Passive:** At 4th level, a feykiller gains the
-[resist nature's lure](ref/ability/resist-natures-lure) druid class feature whenever her animal
-companion is within 60 feet.
-
-**Replaces:** Improved empathic link
-
-**Grounded (Su)**
-
-**Gained:** At 17th Level
-
-**Passive:** A feykiller gains a +4 insight bonus on saving throws against illusion and enchantment
-effects, and she is immune to illusion and enchantment effects created by fey. This ability
-functions only when her animal companion is within 60 feet.
-
-**Replaces:** One with the wild
+This ability replaces one with the wild.

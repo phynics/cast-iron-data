@@ -16,12 +16,19 @@ page = "7"
 
 [fields]
 kind = "archetype"
+features = [
+  { anchor = "spirit-animal" },
+  { anchor = "unstable-spellcasting" },
+  { anchor = "hexes" },
+  { anchor = "primal-blessing", level = 4 },
+  { anchor = "greater-primal-blessing", level = 12 },
+]
 trades = [
-  { replaces = "Abilities the spirit animal gains from the shaman's chosen spirit" },
-  { replaces = "Hex gained at 8th level", feature = "hex", levels = [8] },
-  { replaces = "Hexes gained at 4th and 12th levels", feature = "hex", levels = [4, 12] },
-  { alters = "Spirit magic", feature = "spirit-magic" },
-  { alters = "Hexes", feature = "hex" },
+  { replaces = "Abilities the spirit animal gains from the shaman's chosen spirit", by = ["spirit-animal"] },
+  { replaces = "Hex gained at 8th level", feature = "hex", levels = [8], by = ["unstable-spellcasting"] },
+  { replaces = "Hexes gained at 4th and 12th levels", feature = "hex", levels = [4, 12], by = ["hexes"] },
+  { alters = "Spirit magic", feature = "spirit-magic", by = ["unstable-spellcasting"] },
+  { alters = "Hexes", feature = "hex", by = ["hexes"] },
 ]
 +++
 
@@ -32,82 +39,68 @@ learns to stabilize these erratic energies and draw upon them to her benefit. Su
 learn to guide their spirits toward coherence and lucidity, and in the process learn to bend chance
 and fortune in their favor.
 
-**Spirit Animal**
+## Spirit Animal {#spirit-animal}
 
-**Info:** A primal warden's spirit animal exhibits unusual physical features for a creature of its
-type, such as unnatural colorations and extra or missing appendages.
+A primal warden's spirit animal exhibits unusual physical features for a creature of its type, such
+as unnatural colorations and extra or missing appendages. Each day, the spirit animal gains
+resistance 10 against a random element. Roll 1d4 to determine the type of resistance (1 = acid, 2 =
+cold, 3 = electricity, 4 = fire).
 
-**Passive:** Each day, the spirit animal gains resistance 10 against a random element. Roll 1d4 to
-determine the type of resistance (1 = acid, 2 = cold, 3 = electricity, 4 = fire).
+This replaces the abilities the shaman's spirit animal gains from the shaman's chosen spirit.
 
-**Replaces:** Abilities the spirit animal gains from the shaman's chosen spirit
+## Unstable Spellcasting {#unstable-spellcasting}
 
-**Unstable Spellcasting**
+A primal warden's spirit is ever shifting, and the spells it grants the primal warden change from
+moment to moment.
 
-**Ability:** When the primal warden would spontaneously cast a 1st- through 8th-level spell using
-the _spirit magic_ class feature, she produces a random spell from the list of shaman spells of 1
-spell level higher than the spell slot expended; use an appropriate die or another randomization
-method to determine the spell. When she would spontaneously cast a 9th-level spell using _spirit
-magic,_ she instead casts a random 9th-level spell from the shaman spell list, treating her caster
-level as 2 higher. There is no way to predict the spell before the shaman begins casting it using
-_spirit magic,_ and she cannot enhance the spell using metamagic feats. The spell uses the shaman's
-caster level, even if that caster level would normally be too low to cast the spell.
+When the primal warden would spontaneously cast a 1st-through 8th-level spell using the spirit magic
+class feature, she produces a random spell from the list of shaman spells on page 48 of the
+_Pathfinder RPG Advanced Class Guide_ of 1 spell level higher than the spell slot expended; use an
+appropriate die or another randomization method to determine the spell. When she would spontaneously
+cast a 9th-level spell using spirit magic, she instead casts a random 9th-level spell from the
+shaman spell list in the _Advanced Class Guide_, treating her caster level as 2 higher.
 
-**Alters:** Spirit magic
+There is no way to predict the spell before the shaman begins casting it using spirit magic, and she
+cannot enhance the spell using metamagic feats. The spell uses the shaman's caster level, even if
+that caster level would normally be too low to cast the spell. There are 47 potential 2nd-level
+spells, 46 potential 3rd-level spells, 41 potential 4th-level spells, 30 potential 5th-level spells,
+22 potential 6th-level spells, 22 potential 7th-level spells, 18 potential 8th-level spells, and 14
+potential 9th-level spells.
 
-**Flavor:** A primal warden's spirit is ever shifting, and the spells it grants the primal warden
-change from moment to moment.
+At 8th level, after determining the spell that she would cast using spirit magic, once per day as a
+free action, the primal warden shaman can choose to randomly select another spell instead, using the
+same method of randomization as she used before (if she obtains the same result a second time, she
+must keep that result). At 12th level and every 4 shaman levels thereafter, she can choose to
+randomly select a different spirit magic spell one additional time per day, up to a maximum of four
+times per day at 20th level. She cannot use this ability more than once in the same round.
 
-**At 12th Level:** She cannot use this ability more than once in the same round.
+This alters spirit magic and replaces the hex gained at 8th level.
 
-**At 8th Level:** After determining the spell that she would cast using _spirit magic,_ once per day
-as a **free action**, the primal warden shaman can choose to randomly select another spell instead,
-using the same method of randomization as she used before (if she obtains the same result a second
-time, she must keep that result).
+## Hexes {#hexes}
 
-**Replaces:** Hex gained at 8th level
+A primal warden shaman gains the hexes below at the specified levels.
 
-**Special:** There are 126 potential 2nd-level spells, 111 potential 3rd-level spells, 102 potential
-4th-level spells, 71 potential 5th-level spells, 50 potential 6th-level spells, 40 potential
-7th-level spells, 28 potential 8th-level spells, and 20 potential 9th-level spells.
+A primal warden shaman cannot select the chant hex, the evil eye hex, the misfortune hex, or any
+witch hexes.
 
-At 12th level: She can choose to randomly select a different _spirit magic_ spell 2 times per day.
+This alters hexes and replaces the hexes gained at 4th and 12th levels.
 
-At 16th level: She can choose to randomly select a different _spirit magic_ spell 3 times per day.
+## Primal Blessing (Su) {#primal-blessing}
 
-At 20th level: She can choose to randomly select a different _spirit magic_ spell 4 times per day.
+At 4th level, the shaman gains the ability to channel primal magic into a target within 30 feet.
+Roll 1d4 to determine the effect. On a result of 1, the target takes a -2 penalty on attack rolls,
+saving throws, and skill checks. On a result of 2, the target's size is enlarged or reduced, as per
+_[enlarge person](ref/spell/enlarge-person)_ or _[reduce person](ref/spell/reduce-person)_, and the
+effect functions even if the target is not a humanoid; roll randomly to determine the effect. On a
+result of 3, the target gains a +20-foot enhancement bonus to her base speed. On a result of 4, all
+attacks against the target suffer a 20% miss chance. The effects of this hex last for 1 minute. A
+creature affected by this hex cannot be affected by it again for 24 hours.
 
-**Hexes**
+## Greater Primal Blessing (Su) {#greater-primal-blessing}
 
-**Ability:** A primal warden shaman gains the hexes below at the specified levels. A primal warden
-shaman cannot select the _chant_ hex, the _evil eye_ hex, the _misfortune_ hex, or any witch hexes.
-
-**Alters:** Hexes
-
-**Replaces:** Hexes gained at 4th and 12th levels
-
-**Primal Blessing (Su)**
-
-**Ability:** The shaman gains the ability to channel primal magic into a target within 30 feet. Roll
-1d4 to determine the effect. **On a result of 1,** the target takes a -2 penalty on attack rolls,
-saving throws, and skill checks. **On a result of 2,** the target's size is enlarged or reduced, as
-per [enlarge person](ref/spell/enlarge-person) or [reduce person](ref/spell/reduce-person), and the
-effect functions even if the target is not a humanoid; roll randomly to determine the effect. **On a
-result of 3,** the target gains a +20-foot enhancement bonus to her base speed. **On a result of
-4,** all attacks against the target suffer a 20% miss chance.
-
-**Gained:** At 4th Level
-
-**Special:** The effects of this hex last for 1 minute. A creature affected by this hex cannot be
-affected by it again for 24 hours.
-
-**Greater Primal Blessing (Su)**
-
-**Ability:** The shaman's _primal blessing_ hex improves. This functions as the _primal blessing_
-hex in all ways, except that the shaman has a chance to bestow greater benefits upon her targets.
-Roll 1d6 to determine the effect. On a result of 1-4, refer to the primal blessing ability to
-determine the effect. **On a roll of 5,** the target gains a luck bonus on attack rolls and saving
-throws and to her Armor Class. **On a roll of 6,** the target gains the benefit of the
-[haste](ref/spell/haste) spell, using the primal warden's shaman level as her caster level.
-
-**Gained:** At 12th Level
+At 12th level, the shaman's primal blessing hex improves. This functions as the primal blessing hex
+in all ways, except that the shaman has a chance to bestow greater benefits upon her targets. Roll
+1d6 to determine the effect. On a result of 1–4, refer to the primal blessing ability to determine
+the effect. On a roll of 5, the target gains a +2 luck bonus on attack rolls and saving throws and
+to her Armor Class. On a roll of 6, the target gains the benefit of the _[haste](ref/spell/haste)_
+spell, using the primal warden's shaman level as her caster level.

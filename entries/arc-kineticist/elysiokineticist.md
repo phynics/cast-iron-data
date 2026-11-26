@@ -16,87 +16,77 @@ page = "18"
 
 [fields]
 kind = "archetype"
+features = [
+  { anchor = "elysium-s-soul" },
+  { anchor = "basic-elysiokinesis" },
+  { anchor = "elysian-infusion", level = 1 },
+  { anchor = "elysian-aura", level = 2 },
+  { anchor = "ghaelelight-blast", level = 15 },
+]
 trades = [
-  { replaces = "Expanded element", feature = "expanded-element" },
-  { replaces = "Basic phytokinesis utility wild talent granted by the wood element", feature = "elemental-focus", power = "basic utility wild talent" },
-  { replaces = "Infusion gained at 1st level", feature = "infusion", levels = [1] },
-  { replaces = "Flesh of wood defense wild talent granted by the wood element", feature = "elemental-defense" },
-  { alters = "Elemental focus", feature = "elemental-focus" },
+  { replaces = "Expanded element", feature = "expanded-element", by = ["elysium-s-soul"] },
+  { replaces = "Basic phytokinesis utility wild talent granted by the wood element", feature = "elemental-focus", power = "basic utility wild talent", by = ["basic-elysiokinesis"] },
+  { replaces = "Infusion gained at 1st level", feature = "infusion", levels = [1], by = ["elysian-infusion"] },
+  { replaces = "Flesh of wood defense wild talent granted by the wood element", feature = "elemental-defense", by = ["elysian-aura"] },
+  { alters = "Elemental focus", feature = "elemental-focus", by = ["elysium-s-soul"] },
+  { alters = "The class skills granted by the wood element", by = ["elysium-s-soul"] },
 ]
 +++
 
-Similar to how phytokineticists draw their power from the First World, elysiokineticists trace their
-abilities to the riotous wilderness of the plane known as Elysium. Many such kineticists vow to
-fight against evil planar intrusions into the Material Plane, particularly the Worldwound.
+Similar to how phytokineticists (_Pathfinder RPG Ultimate Wilderness_ 58) draw their power from the
+First World, elysiokineticists trace their abilities to the riotous wilderness of the plane known as
+Elysium. Many such kineticists vow to fight against evil planar intrusions into the Material Plane,
+particularly the Worldwound.
 
-**Prerequisites:** Must be chaotic good
+## Elysium's Soul {#elysium-s-soul}
 
-**Elysium's Soul**
+An elysiokineticist must be chaotic good, and she has alignment auras of chaotic and good as if she
+were a chaotic good [outsider](ref/type/outsider) with a number of Hit Dice equal to her kineticist
+level. She must choose wood (_Ultimate Wilderness_ 58) as her primary
+[element](ref/ability/elements) and [positive blast](ref/kinetic/positive-blast) as her first simple
+blast. At 7th level, she gains [verdant blast](ref/kinetic/verdant-blast) and
+[wood blast](ref/kinetic/wood-blast), as well as a 3rd-level or lower wild talent of her choice. At
+15th level, she gains a 7th-level wild talent of her choice. She gains Heal and Knowledge (religion)
+as class skills but does not gain Handle Animal and Knowledge (nature) as class skills.
 
-**Alters:** Elemental focus
+This alters elemental focus and the class skills granted by the wood element, and it replaces
+expanded element.
 
-**At 15th Level:** She gains a 7th-level wild talent of her choice.
+## Basic Elysiokinesis (Sp) {#basic-elysiokinesis}
 
-**At 7th Level:** She gains [verdant blast](ref/kinetic/verdant-blast) and
-[wood blast](ref/kinetic/wood-blast), as well as a 3rd-level or lower wild talent of her choice.
+An elysiokineticist can use the power of Elysium to assist others and bolster their vigor, allowing
+her to cast _[resistance](ref/spell/resistance), [stabilize](ref/spell/stabilize)_, or
+_[virtue](ref/spell/virtue)_ as a [spell-like ability](ref/umr/spell-like-abilities) at will as a
+standard action.
 
-**Info:** She must choose wood as her primary [element](ref/ability/elements) and
-[positive blast](ref/kinetic/positive-blast) as her first simple blast.
+This replaces the basic phytokinesis utility wild talent granted by the wood element.
 
-**Passive:** An elysiokineticist has alignment auras of chaotic and good as if she were a chaotic
-good [outsider](ref/type/outsider) with a number of Hit Dice equal to her kineticist level.
+## Elysian Infusion (Su) {#elysian-infusion}
 
-**Replaces:** Expanded element
+An elysiokineticist can infuse her positive blast with the power of Elysium to battle evil. The
+infused blast damages evil outsiders as if they were undead and counts as both chaotic and good.
+This is a 1st-level substance infusion that costs 1 point of burn and can be used with positive
+blast.
 
-**Gained class skills:** heal, kr
+This replaces the infusion gained at 1st level.
 
-**Lost class skills:** ha, kna
+## Elysian Aura (Su) {#elysian-aura}
 
-**Additional:** These replacements alter the class skills granted by the wood element.
-
-**Basic Elysiokinesis (Sp)**
-
-**Flavor:** An elysiokineticist can use the power of Elysium to assist others and bolster their
-vigor.
-
-**Replaces:** Basic phytokinesis utility wild talent granted by the wood element
-
-**Standard:** She can cast [resistance](ref/spell/resistance), [stabilize](ref/spell/stabilize), or
-[virtue](ref/spell/virtue) as a [spell-like ability](ref/umr/spell-like-abilities) at will.
-
-**Elysian Infusion (Su)**
-
-**Ability:** The infused _positive blast_ damages evil outsiders as if they were undead and counts
-as both chaotic and good. This is a 1st-level substance infusion that costs 1 point of burn and can
-be used with _positive blast._
-
-**Flavor:** An elysiokineticist can infuse her _positive blast_ with the power of Elysium to battle
-evil.
-
-**Replaces:** Infusion gained at 1st level
-
-**Elysian Aura (Su)**
-
-**Gained:** At 2nd Level
-
-**Passive:** An elysiokineticist infuses herself with a holy aura, granting her protection against
+At 2nd level, an elysiokineticist infuses herself with a holy aura, granting her protection against
 evil attacks. She gains a +1 deflection bonus to AC and a +1 resistance bonus on saving throws; both
 apply only against attacks from evil creatures. By accepting 1 point of burn, she can increase both
-bonuses by 1.
+bonuses by 1. At 5th level and every 3 levels thereafter, she can accept 1 additional point of burn
+to further increase both bonuses by 1 (to a maximum of +7 at 17th level). Whenever she accepts burn
+while using a wood wild talent, the energy causes her elysian aura bonuses to apply against all
+attacks for 1 round, and during that time she is protected from evil mental and possession effects,
+as per _[protection from evil](ref/spell/protection-from-evil)_. She can dismiss or restore this
+effect as an immediate action.
 
-**Replaces:** _Flesh of wood_ defense wild talent granted by the wood element
+This replaces the flesh of wood defense wild talent granted by the wood element.
 
-**Special:** Whenever she accepts burn while using a wood wild talent, the energy causes her
-_elysian aura_ bonuses to apply against all attacks for 1 round, and during that time she is
-protected from evil mental and possession effects, as per
-[protection from evil](ref/spell/protection-from-evil). She can dismiss or restore this effect as an
-**immediate action**.
+## Ghaelelight Blast (Su) {#ghaelelight-blast}
 
-**Ghaelelight Blast (Su)**
-
-**Ability:** An elysiokineticist gains the _ghaelelight composite blast,_ which costs 2 points of
-burn. A _ghaelelight blast_ is an energy blast that deals damage as a simple energy blast instead of
-a composite energy blast and deals chaotic and good damage. It is associated with the same infusions
-as _positive blast._
-
-**Gained:** At 15th Level
+At 15th level, an elysiokineticist gains the ghaelelight composite blast, which costs 2 points of
+burn. A ghaelelight blast is an energy blast that deals damage as a simple energy blast instead of a
+composite energy blast and deals chaotic and good damage. It is associated with the same infusions
+as positive blast.

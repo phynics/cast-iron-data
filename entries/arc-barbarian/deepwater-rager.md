@@ -16,72 +16,72 @@ page = "28"
 
 [fields]
 kind = "archetype"
+features = [
+  { anchor = "strong-lungs", level = 1 },
+  { anchor = "spiraling-charge", level = 2 },
+  { anchor = "disorienting-grapple", level = 5 },
+  { anchor = "crushing-grapple", level = 14 },
+  { anchor = "full-lungs", level = 17 },
+]
 trades = [
-  { replaces = "Fast movement", feature = "fast-movement" },
-  { replaces = "Uncanny dodge", feature = "uncanny-dodge" },
-  { replaces = "Improved uncanny dodge", feature = "improved-uncanny-dodge" },
-  { replaces = "Indomitable will", feature = "indomitable-will" },
-  { replaces = "Tireless rage", feature = "tireless-rage" },
+  { replaces = "Fast movement", feature = "fast-movement", by = ["strong-lungs"] },
+  { replaces = "Uncanny dodge", feature = "uncanny-dodge", by = ["spiraling-charge"] },
+  { replaces = "Improved uncanny dodge", feature = "improved-uncanny-dodge", by = ["disorienting-grapple"] },
+  { replaces = "Indomitable will", feature = "indomitable-will", by = ["crushing-grapple"] },
+  { replaces = "Tireless rage", feature = "tireless-rage", by = ["full-lungs"] },
 ]
 +++
 
 Deepwater ragers bellow ferociously as they charge their enemies, tackling them into the raging
-seas. This archetype is compatible with both barbarians and unchained barbarians.
+seas. This archetype is compatible with both barbarians and unchained barbarians (_Pathfinder RPG
+Pathfinder Unchained_).
 
-**Strong Lungs (Ex)**
+## Strong Lungs (Ex) {#strong-lungs}
 
-**Passive:** A deepwater rager can [hold her breath](ref/misc/hold-your-breath) for a number of
-rounds equal to four times her Constitution score, and she does not reduce the duration of her held
-breath by taking a standard action or a full-round action. Additionally, as long as she is able to
-speak, the deepwater rager adds her Constitution modifier to Intimidate skill checks in addition to
-her Charisma modifier.
+A deepwater rager can [hold her breath](ref/misc/hold-your-breath) for a number of rounds equal to
+four times her Constitution score, and she does not reduce the duration of her held breath by taking
+a standard action or a full-round action. Additionally, as long as she is able to speak, the
+deepwater rager adds her Constitution modifier to Intimidate skill checks in addition to her
+Charisma modifier.
 
-**Replaces:** Fast movement
+This ability replaces fast movement.
 
-**Spiraling Charge (Ex)**
+## Spiraling Charge (Ex) {#spiraling-charge}
 
-**Ability:** A deepwater rager is not required to move in a straight line when she charges, provided
-that no space she moves into while charging is farther away from her target than the space that she
-is leaving. The deepwater rager must be able to see her target at the beginning of her charge and
-cannot use this ability while mounted.
+At 2nd level, a deepwater rager is not required to move in a straight line when she charges,
+provided that no space she moves into while charging is farther away from her target than the space
+that she is leaving. The deepwater rager must be able to see her target at the beginning of her
+charge and cannot use this ability while mounted.
 
-**Gained:** At 2nd Level
+This ability replaces uncanny dodge.
 
-**Replaces:** Uncanny dodge
+## Disorienting Grapple (Ex) {#disorienting-grapple}
 
-**Disorienting Grapple (Ex)**
-
-**Flavor:** A deepwater rager becomes an expert in flipping and spinning opponents as they are
-grappled.
-
-**Gained:** At 5th Level
-
-**Passive:** An opponent [grappled](ref/rule/grapple) by the deepwater rager gains the
+At 5th level, a deepwater rager becomes an expert in flipping and spinning opponents as they are
+[grappled](ref/rule/grapple). An opponent grappled by the deepwater rager gains the
 [sickened](ref/misc/sickened) condition for as long as it has the grappled condition. When the
 creature's grappled condition ends, for any reason, it must succeed at an Acrobatics check (with a
 DC equal to the deepwater rager's CMD) or fall [prone](ref/rule/prone).
 
-**Replaces:** Improved uncanny dodge
+This ability replaces improved uncanny dodge.
 
-**Crushing Grapple (Ex)**
+## Crushing Grapple (Ex) {#crushing-grapple}
 
-**Ability:** A deepwater rager gains the [constrict](ref/umr/constrict) special attack, which deals
-an amount of damage equal to the damage her unarmed strike deals.
+At 14th level, a deepwater rager gains the [constrict](ref/umr/constrict) special attack, which
+deals an amount of damage equal to the damage her unarmed strike deals.
 
-**Gained:** At 14th Level
+This ability replaces indomitable will.
 
-**Replaces:** Indomitable will
+## Full Lungs (Ex) {#full-lungs}
 
-**Full Lungs (Ex)**
+At 17th level, a deepwater rager does not need to breathe while she is raging.
 
-**Gained:** At 17th Level
+This ability replaces tireless rage.
 
-**Passive:** A deepwater rager does not need to breathe while she is _raging._
+## Rage Powers {#rage-powers}
 
-**Replaces:** Tireless rage
-
-**Rage Powers:** The following rage powers complement the deepwater rager archetype:
+The following rage powers complement the deepwater rager archetype:
 [battle roar](ref/ragepower/battle-roar), [bestial swimmer](ref/ragepower/bestial-swimmer),
 [brawler](ref/ragepower/brawler), [intimidating glare](ref/ragepower/intimidating-glare),
-[raging swimmer](ref/ragepower/raging-swimmer), [rolling dodge](ref/ragepower/rolling-dodge),
+[raging swimmer](ref/ragepower/raging-swimmer), [rolling dodge](ref/ragepower/rolling-dodge), and
 [terrifying howl](ref/ragepower/terrifying-howl).

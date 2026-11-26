@@ -16,52 +16,49 @@ page = "22"
 
 [fields]
 kind = "archetype"
+features = [
+  { anchor = "healing-touch", level = 1 },
+  { anchor = "natural-medic" },
+  { anchor = "enemy-of-blight", level = 4 },
+  { anchor = "guide-across-lifetimes", level = 13 },
+]
 trades = [
-  { replaces = "Nature sense", feature = "nature-sense" },
-  { replaces = "Spontaneous casting", feature = "spontaneous-casting" },
-  { replaces = "Resist nature's lure", feature = "resist-nature-s-lure" },
-  { replaces = "A thousand faces", feature = "a-thousand-faces" },
+  { replaces = "Nature sense", feature = "nature-sense", by = ["healing-touch"] },
+  { replaces = "Spontaneous casting", feature = "spontaneous-casting", by = ["natural-medic"] },
+  { replaces = "Resist nature's lure", feature = "resist-nature-s-lure", by = ["enemy-of-blight"] },
+  { replaces = "A thousand faces", feature = "a-thousand-faces", by = ["guide-across-lifetimes"] },
 ]
 +++
 
 Restorers carefully tend to the health of both the environment and creatures in it. Restorers in the
-most remote places often choose druidic herbalism as their nature bond option.
+most remote places often choose druidic herbalism as their nature bond option (see below).
 
-**Healing Touch (Ex)**
+## Healing Touch (Ex) {#healing-touch}
 
-**Passive:** A restorer gains a +2 bonus on Heal checks. When a restorer uses Heal to provide first
-aid, the bonus increases to +3.
+A restorer gains a +2 bonus on Heal checks. When a restorer uses Heal to provide first aid, the
+bonus increases to +3.
 
-**Replaces:** Nature sense
+This ability replaces nature sense.
 
-**Natural Medic**
+## Natural Medic {#natural-medic}
 
-**Ability:** A restorer can channel stored spell energy into healing spells that she did not prepare
-ahead of time. The restorer can "lose" any prepared spell in order to cast any cure spell she can
-cast of the same spell level or lower (a _cure_ spell is any spell with "cure" in its name).
+A restorer can channel stored spell energy into healing spells that she did not prepare ahead of
+time. The restorer can "lose" any prepared spell in order to cast any cure spell she can cast of the
+same spell level or lower (a cure spell is any spell with "cure" in its name).
 
-**Replaces:** Spontaneous casting
+This ability replaces spontaneous casting.
 
-**Enemy of Blight (Ex)**
+## Enemy of Blight (Ex) {#enemy-of-blight}
 
-**Ability:** A restorer can ignore the effects of an overgrown area that has been magically
-manipulated to impede motion.
+At 4th level, a restorer can ignore the effects of an overgrown area that has been magically
+manipulated to impede motion. She can ignore these effects for a number of rounds per day equal to
+double her Wisdom bonus. These rounds don't have to be used consecutively.
 
-**Gained:** At 4th Level
+This ability replaces resist nature's lure.
 
-**Replaces:** Resist nature's lure
+## Guide across Lifetimes (Sp) {#guide-across-lifetimes}
 
-**Usage:** She can ignore these effects for a number of rounds per day equal to double her Wisdom
-bonus. These rounds don't have to be used consecutively.
+At 13th level, once per day as a full-round action, a restorer can cast
+_[reincarnate](ref/spell/reincarnate)_ without a material component.
 
-**Usage:** She can ignore these effects for a number of rounds per day equal to double her Wisdom
-bonus. These rounds don't have to be used consecutively.
-
-**Guide across Lifetimes (Sp)**
-
-**Fullround:** Once per day, a restorer can cast [reincarnate](ref/spell/reincarnate) without a
-material component.
-
-**Gained:** At 13th Level
-
-**Replaces:** A thousand faces
+This ability replaces a thousand faces.

@@ -12,19 +12,24 @@ page = "20"
 
 [fields]
 kind = "archetype"
+features = [
+  { anchor = "genius-that-creeps-and-crawls" },
+]
 trades = [
-  { replaces = "Share Spells" },
+  { replaces = "Share Spells", by = ["genius-that-creeps-and-crawls"] },
 ]
 +++
 
 Sometimes, when an insect or other vermin is chosen to be an animal companion, it proves cleverer
 than expected. On occasion, it proves much cleverer.
 
-**Special Requirement:** Only vermin companions may become unexpected intellectuals.
+## Special Requirement {#special-requirement}
 
-**Genius that Creeps and Crawls (Ex)**
+Only vermin companions may become unexpected intellectuals.
 
-**Passive:** The unexpected intellectual gains an Intelligence score of 2 and can gain skills and
-feats. It loses the mindless quality.
+## Genius that Creeps and Crawls (Ex) {#genius-that-creeps-and-crawls}
 
-**Replaces:** Share Spells
+The unexpected intellectual gains an Intelligence score of 2 and can gain skills and feats. It loses
+the mindless quality.
+
+This replaces share spells.

@@ -16,12 +16,20 @@ page = "11"
 
 [fields]
 kind = "archetype"
+features = [
+  { anchor = "whimsical-worship" },
+  { anchor = "deity" },
+  { anchor = "disarming-discernment", level = 1 },
+  { anchor = "feytongue", level = 1 },
+  { anchor = "feywatcher" },
+  { anchor = "magic-of-the-eldest", level = 3 },
+]
 trades = [
-  { replaces = "Monster lore", feature = "monster-lore" },
-  { replaces = "Stern gaze", feature = "stern-gaze" },
-  { replaces = "Solo tactics", feature = "solo-tactics" },
-  { replaces = "All teamwork feats", feature = "teamwork-feat" },
-  { alters = "Domain", feature = "domain" },
+  { replaces = "Monster lore", feature = "monster-lore", by = ["disarming-discernment"] },
+  { replaces = "Stern gaze", feature = "stern-gaze", by = ["feytongue"] },
+  { replaces = "Solo tactics", feature = "solo-tactics", by = ["feywatcher"] },
+  { replaces = "All teamwork feats", feature = "teamwork-feat", by = ["magic-of-the-eldest"] },
+  { alters = "Domain", feature = "domain", by = ["deity"] },
 ]
 +++
 
@@ -31,59 +39,45 @@ deities do, they still occasionally require mortal agents to advance their aims.
 consider their chosen Eldest to be akin to powerful patrons or fey royalty and serve them
 faithfully.
 
-**Prerequisites:** Gathlain; Must worship one of the Eldest
+## Whimsical Worship (Ex) {#whimsical-worship}
 
-**Whimsical Worship (Ex)**
+A sworn of the Eldest uses her Charisma modifier, rather than her Wisdom modifier, to determine all
+class features and effects relating to her inquisitor class, including her spells, cunning
+initiative, and true judgment abilities.
 
-**Info:** A sworn of the Eldest uses her Charisma modifier, rather than her Wisdom modifier, to
-determine all class features and effects relating to her inquisitor class, including her spells,
-_cunning initiative,_ and _true judgment_ abilities.
+## Deity {#deity}
 
-**Deity**
+A sworn of the Eldest must select one of the Eldest (_Ultimate Wilderness_ 130) as a deity and must
+select a domain or subdomain of that Eldest for her domain ability; she cannot be devoted to an
+ideal or philosophy.
 
-**Alters:** Domain
+This alters domain.
 
-**Info:** A sworn of the Eldest must select a domain or subdomain of her chosen Eldest for her
-domain ability; she cannot be devoted to an ideal or philosophy.
+## Disarming Discernment (Ex) {#disarming-discernment}
 
-**Disarming Discernment (Ex)**
+A sworn of the Eldest adds her Charisma modifier on Sense Motive skill checks, in addition to her
+Wisdom modifier.
 
-**Passive:** A sworn of the Eldest adds her Charisma modifier on Sense Motive skill checks, in
-addition to her Wisdom modifier.
+This replaces monster lore.
 
-**Replaces:** Monster lore
+## Feytongue (Ex) {#feytongue}
 
-**Feytongue (Ex)**
+A sworn of the Eldest receives a morale bonus equal to half her inquisitor level (minimum +1) on
+Bluff and Diplomacy checks.
 
-**Passive:** A sworn of the Eldest receives a morale bonus equal to half her inquisitor level
-(minimum +1) on Bluff and Diplomacy checks.
+This replaces stern gaze.
 
-**Replaces:** Stern gaze
+## Feywatcher (Ex) {#feywatcher}
 
-**Feywatcher (Ex)**
-
-**Passive:** Resistant to the tricky ways of other fey, a sworn of the Eldest gains the
+Resistant to the tricky ways of other fey, a sworn of the Eldest gains the
 [resist nature's lure](ref/ability/resist-natures-lure) druid class feature.
 
-**Replaces:** Solo tactics
+This replaces solo tactics.
 
-**Magic of the Eldest**
+## Magic of the Eldest {#magic-of-the-eldest}
 
-**Ability:** A sworn of the Eldest gains a bonus 1st-level spell slot, and she learns the
-corresponding spell listed for her domain as a bonus spell known.
+At 3rd level and every 3 levels thereafter, a sworn of the Eldest gains a bonus spell slot of the
+highest spell level she can cast, and she learns the corresponding spell listed for her domain as a
+bonus spell known. She can use this bonus spell slot only to cast the domain spell of that level.
 
-**Gained:** At 3rd Level
-
-**Replaces:** All teamwork feats
-
-**Special:** She can use these bonus spell slots only to cast the domain spell of that level.
-
-At 6th level: She gains a bonus 2nd-level spell slot and learns the corresponding domain spell.
-
-At 9th level: She gains a bonus 3rd-level spell slot and learns the corresponding domain spell.
-
-At 12th level: She gains a bonus 4th-level spell slot and learns the corresponding domain spell.
-
-At 15th level: She gains a bonus 5th-level spell slot and learns the corresponding domain spell.
-
-At 18th level: She gains a bonus 6th-level spell slot and learns the corresponding domain spell.
+This replaces all teamwork feats.
