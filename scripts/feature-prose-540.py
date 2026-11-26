@@ -3881,7 +3881,8 @@ LEVEL_FROM_PRINT = {
 CHOICE_INTRO = re.compile(r"\b(?:select|selects|choose|chooses|take|takes|pick|picks)\b[^.]{0,100}?\b(?:from|among|of|in)\s+(?:the\s+|these\s+|those\s+)?"
                           r"(?:following|listed below|below)\b|\bfrom (?:those|the list) (?:listed )?below\b|"
                           r"\b(?:select|selects|choose|chooses|take|takes|pick|picks)\s+(?:any\s+of\s+)?the\s+following\b"
-                          r"|\badds? the following (?!spells?\b)[^.]{0,120}\bto (?:the|her|his) list\b|\bways? listed below\b|\b(?:are|is) (?:listed|noted|described|shown) below\b|\bas noted below\b", re.I)
+                          r"|\badds? the following (?!spells?\b)[^.]{0,120}\bto (?:the|her|his) list\b|\bways? listed below\b|\b(?:are|is) (?:listed|noted|described|shown) below\b|\bas noted below\b"
+                          r"|\b(?:can|may) (?:select|choose|take) the following additional\b|\b(?:can|may) (?:also )?be (?:selected|taken|chosen) by any\b", re.I)
 LEVEL_IN_FIRST_PARAGRAPH = {
     ("ref/arc-paladin/invigorator", "champion-of-life"),     # a flavor sentence, then "At 20th level, three times per day ..."
     ("ref/arc-brawler/wild-child", "wild-tricks"),
@@ -4492,6 +4493,17 @@ TRADE_ADDITIONS.setdefault("ref/arc-ranger/realm-wanderer", []).append({"alters"
 TRADE_ADDITIONS.setdefault("ref/arc-ninja/hunting-serpent", []).append({"alters": "Class skills"})     # "This ability alters the ninja's class skills." (the Class Skills section before the first feature)
 for _eid, _cls in (("ref/arc-monk/hellcat", "monk"), ("ref/arc-fighter/relic-master", "fighter"), ("ref/arc-fighter/varisian-free-style-fighter", "fighter")):
     TRADE_ADDITIONS.setdefault(_eid, []).append({"alters": "Class skills"})     # "This alters the %s's class skills." (the Class Skills section before the first feature)
+# Owner ruling 57: a feature with no printed level that alters or replaces a whole class feature gained at level N gets level N (the class table
+# lists it at N); a part of a feature gives none (ruling 48). The rows stand until the generic rule is in the script (lead C's #346).
+for (_eid, _a), (_lv, _why) in {
+    ("ref/arc-druid/kraken-caller", "wild-shape"): (4, "alters wild shape, a whole class feature that the druid table lists at 4th level"),
+    ("ref/arc-alchemist/vaultbreaker", "breaking-and-entering"): (1, "replaces the Brew Potion bonus feat, which the alchemist table lists at 1st level"),
+    ("ref/arc-alchemist/vaultbreaker", "rogue-talents"): (2, "alters discoveries, a whole class feature that the alchemist table lists at 2nd level"),
+    ("ref/arc-medium/voice-of-the-void", "blasphemy"): (2, "alters taboo, a whole class feature that the medium table lists at 2nd level"),
+    ("ref/arc-bloodrager/bloody-knuckled-rowdy", "reduced-spells-known"): (4, "alters spellcasting, a whole class feature that the bloodrager table lists at 4th level (blood casting)"),
+    ("ref/arc-alchemist/mnemostiller", "brewed-memories"): (2, "replaces poison resistance, a whole class feature that the alchemist table lists at 2nd level"),
+}.items():
+    LEVEL_FROM_PRINT[(_eid, _a)] = (_lv, f"owner ruling 57: {_why}")
 TRADE_RENAMES[("ref/arc-alchemist/vaultbreaker", "Brew Potion")] = "The Brew Potion bonus feat"
 TRADE_RENAMES[("ref/arc-alchemist/vaultbreaker", "Throw Anything")] = "The Throw Anything bonus feat"
 LEVEL_FROM_PRINT[("ref/arc-alchemist/mnemostiller", "natural-empath")] = (2, "print says \"He gains infusion as a bonus discovery at 2nd level\"")
@@ -5789,6 +5801,9 @@ def self_test() -> int:
     eq(bool(CHOICE_INTRO.search("An opportunist can select an edge from those listed below.")), True, "choices: from those listed below")
     eq(bool(CHOICE_INTRO.search("A serendipity shaman can select from any of the following hexes, in addition to general shaman hexes.")), True, "choices: of the following hexes")
     eq(bool(CHOICE_INTRO.search("A fighter can select any feat he qualifies for.")), False, "choices: no list follows")
+    eq(bool(CHOICE_INTRO.search("A bard can select the following additional masterpieces.")), True, "choices: can select the following additional")
+    eq(bool(CHOICE_INTRO.search("These talents can be selected by any rogue.")), True, "choices: can be selected by any")
+    eq(bool(CHOICE_INTRO.search("The talent can also be taken by any ninja.")), True, "choices: can also be taken by any")
     eq(first_level_key("Blessings"), first_level_key("Blessings (minor)"), "a parenthesis after the name in the class table")
     eq(first_level_alt_key("Nature's bond"), first_level_key("Nature bond"), "a possessive kept as a word: Nature's bond is the druid's nature bond")
     # review of the batch of 2026-11-26: "can select the following slayer talents" is a choice; "receives this ability at 7th level"; spontaneous casting

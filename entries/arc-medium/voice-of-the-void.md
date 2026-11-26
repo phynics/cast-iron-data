@@ -19,7 +19,7 @@ kind = "archetype"
 features = [
   { anchor = "emissary", level = 1 },
   { anchor = "surge-of-the-void", level = 1 },
-  { anchor = "blasphemy" },
+  { anchor = "blasphemy", level = 2 },
   { anchor = "void-channeler", level = 3 },
 ]
 trades = [

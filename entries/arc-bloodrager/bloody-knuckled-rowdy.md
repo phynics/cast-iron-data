@@ -18,7 +18,7 @@ page = "13"
 kind = "archetype"
 features = [
   { anchor = "bloody-knuckles" },
-  { anchor = "reduced-spells-known" },
+  { anchor = "reduced-spells-known", level = 4 },
   { anchor = "pugilist", level = 1 },
   { anchor = "combat-style-student", level = 2 },
   { anchor = "hand-to-hand-training", level = 3 },

@@ -1,6 +1,6 @@
 entry	feature	anchor	listed	level	source	status	note	page	span_sha256
 ref/arc-bloodrager/bloody-knuckled-rowdy	Bloody Knuckles	bloody-knuckles	yes		draft	draft		13	46a3f05da68aaac3c9dc324ab7ce09c6b5431f473759b444f2c83fbcfe59de3d
-ref/arc-bloodrager/bloody-knuckled-rowdy	Reduced Spells Known	reduced-spells-known	yes		print	print		13	62d6fb49bce2ed8a7bbc0a6628f7fd6ab31ac26dcd6ee92b67afd7e8457c1ce6
+ref/arc-bloodrager/bloody-knuckled-rowdy	Reduced Spells Known	reduced-spells-known	yes	4	print	print	level 4: owner ruling 57: alters spellcasting, a whole class feature that the bloodrager table lists at 4th level (blood casting)	13	62d6fb49bce2ed8a7bbc0a6628f7fd6ab31ac26dcd6ee92b67afd7e8457c1ce6
 ref/arc-bloodrager/bloody-knuckled-rowdy	Pugilist (Ex)	pugilist	yes	1	print	print		13	b36efad7633d06b8358a88f67f5dcb2a25c14ceb6a8b5dc8257a14882b9935e3
 ref/arc-bloodrager/bloody-knuckled-rowdy	Combat Style Student	combat-style-student	yes	2	print	print		13	7aa9333644ea6480383501c7ab7951f77b1ceb32edac5657751e59eec8ab0c4d
 ref/arc-bloodrager/bloody-knuckled-rowdy	Hand-to-Hand Training (Ex)	hand-to-hand-training	yes	3	draft	draft		13	e399066a59dd665e4bd040bad25dfddddf162dba8799f6f2cd66c5f5c5171b3d

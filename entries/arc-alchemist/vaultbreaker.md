@@ -17,8 +17,8 @@ page = "236"
 [fields]
 kind = "archetype"
 features = [
-  { anchor = "breaking-and-entering" },
-  { anchor = "rogue-talents" },
+  { anchor = "breaking-and-entering", level = 1 },
+  { anchor = "rogue-talents", level = 2 },
   { anchor = "safecracking", level = 1 },
   { anchor = "enhanced-safecracking", level = 3 },
 ]

@@ -22,7 +22,7 @@ features = [
   { anchor = "dauntless-swimmer", level = 2 },
   { anchor = "hold-breath", level = 3 },
   { anchor = "resist-the-waves-lure", level = 4 },
-  { anchor = "wild-shape" },
+  { anchor = "wild-shape", level = 4 },
   { anchor = "beast-of-the-depths", level = 13 },
 ]
 trades = [

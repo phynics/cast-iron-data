@@ -20,7 +20,7 @@ features = [
   { anchor = "mental-ambix", level = 1 },
   { anchor = "rasugen", level = 1 },
   { anchor = "anguish-bomb", level = 1 },
-  { anchor = "brewed-memories" },
+  { anchor = "brewed-memories", level = 2 },
   { anchor = "natural-empath", level = 2 },
   { anchor = "mind-delver", level = 10 },
 ]
