@@ -16,55 +16,43 @@ page = "7"
 
 [fields]
 kind = "archetype"
+features = [
+  { anchor = "familiar", level = 1 },
+  { anchor = "share-training", level = 2 },
+  { anchor = "steel-will", level = 2 },
+]
 trades = [
-  { replaces = "The bonus feat gained at 1st level", feature = "bonus-feats", levels = [1] },
-  { replaces = "The bonus feat gained at 2nd level", feature = "bonus-feats", levels = [2] },
-  { replaces = "Bravery", feature = "bravery" },
+  { replaces = "The bonus feat gained at 1st level", feature = "bonus-feats", levels = [1], by = ["familiar"] },
+  { replaces = "The bonus feat gained at 2nd level", feature = "bonus-feats", levels = [2], by = ["share-training"] },
+  { replaces = "Bravery", feature = "bravery", by = ["steel-will"] },
 ]
 +++
 
 Eldritch guardians are trained to detect and give warning about magic threats to the people and
 places they protect.
 
-**Gained class skills:** per, spc, umd
+## Class Skills {#class-skills}
 
-**Lost class skills:** intm, ride, swim
+The eldritch guardian adds Perception, Spellcraft, and Use Magic Device to his list of class skills,
+but does not gain Intimidate, Ride, or Swim as class skills.
 
-**Familiar (Ex)**
+## Familiar (Ex) {#familiar}
 
-**Ability:** An eldritch guardian gains a [familiar](ref/sidekick/familiar), treating his fighter
-level as his effective [wizard](ref/class/wizard) level for the purpose of this ability.
+At 1st level, an eldritch guardian gains a [familiar](ref/sidekick/familiar), treating his fighter
+level as his effective [wizard](ref/class/wizard) level for the purpose of this ability. This
+ability replaces the bonus feat gained at 1st level.
 
-**Gained:** At 1st Level
+## Share Training (Ex) {#share-training}
 
-**Replaces:** The bonus feat gained at 1st level
-
-**Share Training (Ex)**
-
-**Ability:** When the familiar can see and hear its master, it can use any combat feat possessed by
+At 2nd level, when the familiar can see and hear its master, it can use any combat feat possessed by
 the eldritch guardian. The familiar doesn't have to meet the feat's prerequisites, but at the GM's
 discretion may be precluded from using certain combat feats due to its physical form. For example,
 an eldritch guardian's pig familiar with access to
 [Exotic Weapon Proficiency](ref/feat/exotic-weapon-proficiency) (spiked chain) would not gain the
 ability to use spiked chains, since it doesn't have any limbs capable of properly handling them.
+This ability replaces the bonus feat gained at 2nd level.
 
-**Gained:** At 2nd Level
+## Steel Will (Ex) {#steel-will}
 
-**Replaces:** The bonus feat gained at 2nd level
-
-**Steel Will (Ex)**
-
-**Gained:** At 2nd Level
-
-**Passive:** The eldritch guardian gains a +1 bonus on Will saves against fear and mind-affecting
-effects.
-
-**Replaces:** Bravery
-
-At 6th level: This bonus increases to +2.
-
-At 10th level: This bonus increases to +3.
-
-At 14th level: This bonus increases to +4.
-
-At 18th level: This bonus increases to +5.
+At 2nd level, the eldritch guardian gains a +1 bonus on Will saves against fear and mind-affecting
+effects. This bonus increases by 1 for every 4 levels beyond 2nd. This ability replaces bravery.

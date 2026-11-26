@@ -16,11 +16,17 @@ page = "22"
 
 [fields]
 kind = "archetype"
+features = [
+  { anchor = "skewed-mentality", level = 2 },
+  { anchor = "aura-of-insanity", level = 3 },
+  { anchor = "cracked-perspectives", level = 9 },
+  { anchor = "unreal-understanding", level = 20 },
+]
 trades = [
-  { replaces = "Detect thoughts", feature = "detect-thoughts" },
-  { replaces = "3rd-, 11th-, and 19th-level phrenic amplifications", feature = "phrenic-amplifications", levels = [3, 11, 19] },
-  { replaces = "Telepathic bond", feature = "telepathic-bond" },
-  { replaces = "Remade self", feature = "remade-self" },
+  { replaces = "Detect thoughts", feature = "detect-thoughts", by = ["skewed-mentality"] },
+  { replaces = "Phrenic amplifications gained at 3rd, 11th, and 19th levels", feature = "phrenic-amplifications", levels = [3, 11, 19], by = ["aura-of-insanity"] },
+  { replaces = "Telepathic bond", feature = "telepathic-bond", by = ["cracked-perspectives"] },
+  { replaces = "Remade self", feature = "remade-self", by = ["unreal-understanding"] },
 ]
 +++
 
@@ -34,62 +40,52 @@ upon the world around her.
 Psychic marauders in Orv have often been corrupted by the influence of
 [aboleths](ref/monster/alghollthu-aboleth) or [neothelids](ref/monster/neothelid).
 
-**Alignment**
+## Alignment {#alignment}
 
-**Info:** A psychic marauder must be of nonlawful alignment. A psychic marauder that becomes lawful
-loses her _aura of insanity._ However, she retains all other benefits of this archetype.
+A psychic marauder must be of nonlawful alignment. A psychic marauder that becomes lawful loses her
+aura of insanity. However, she retains all other benefits of this archetype.
 
-**Skewed Mentality (Ex)**
+## Skewed Mentality (Ex) {#skewed-mentality}
 
-**Gained:** At 2nd Level
-
-**Passive:** A psychic marauder becomes alienated from reality as others perceive it. The psychic
+At 2nd level, a psychic marauder becomes alienated from reality as others perceive it. The psychic
 marauder uses her Charisma modifier on Will saves instead of her Wisdom modifier.
 
-**Replaces:** Detect thoughts
+This ability replaces _detect thoughts_.
 
-**Aura of Insanity (Su)**
+## Aura of Insanity (Su) {#aura-of-insanity}
 
-**Flavor:** A psychic marauder's madness begins to leak out.
+At 3rd level, a psychic marauder's madness begins to leak out. As a standard action, the psychic
+marauder can spend 1 point from her phrenic pool to manifest an aura of insanity, letting bits of
+her psyche penetrate the minds of those around her. The aura is centered on the psychic marauder and
+has a radius of 10 feet, increasing by 5 feet for every 3 class levels beyond 3rd. Any creature
+starting its turn within the aura must succeed at a Will save (DC = 10 + half the psychic marauder's
+level + the psychic marauder's Charisma modifier) or be [confused](ref/misc/confused) for 1 round.
+The psychic marauder can exclude a number of targets inside the radius equal to 1 + 1 for every 3
+class levels beyond 3rd, shielding them from her madness. The aura of insanity lasts for a number of
+rounds equal to the psychic marauder's Charisma modifier. This is a mind-affecting effect.
 
-**At 11th Level:** When a creature rolls to determine the effects of a confusion effect while within
-the _aura of insanity,_ the psychic marauder can spend 1 point from her phrenic pool to force the
-affected creature to roll twice. The psychic marauder selects which result is used.
+At 11th level, when a creature rolls to determine the effects of a confusion effect while within the
+aura of insanity, the psychic marauder can spend 1 point from her phrenic pool to force the affected
+creature to roll twice. The psychic marauder selects which result is used.
 
-**At 19th Level:** When a creature would roll to determine the effects of a confusion effect while
-within the _aura of insanity,_ the psychic marauder can spend 2 points from her phrenic pool to
-select the result of the affected creature's confused condition without rolling. This does not allow
-the psychic marauder to control how that result is applied.
+At 19th level, when a creature would roll to determine the effects of a confusion effect while
+within the aura of insanity, the psychic marauder can spend 2 points from her phrenic pool to select
+the result of the affected creature's confused condition without rolling. This does not allow the
+psychic marauder to control how that result is applied.
 
-**Gained:** At 3rd Level
+This ability replaces the phrenic amplifications gained at 3rd, 11th, and 19th levels.
 
-**Replaces:** 3rd-, 11th-, and 19th-level phrenic amplifications
+## Cracked Perspectives (Ex) {#cracked-perspectives}
 
-**Special:** The _aura of insanity_ lasts for a number of rounds equal to the psychic marauder's
-Charisma modifier. This is a mind-affecting effect.
-
-**Standard:** The psychic marauder can spend 1 point from her phrenic pool to manifest an _aura of
-insanity,_ letting bits of her psyche penetrate the minds of those around her. The _aura_ is
-centered on the psychic marauder and has a radius of 10 feet. Any creature starting its turn within
-the _aura_ must succeed at a Will save (DC = 10 + half the psychic marauder's level + the psychic
-marauder's Charisma modifier) or be [confused](ref/misc/confused) for 1 round. The psychic marauder
-can exclude one target inside the radius, shielding them from her madness.
-
-**Cracked Perspectives (Ex)**
-
-**Gained:** At 9th Level
-
-**Passive:** A psychic marauder's growing madness renders her immune to confusion and insanity
+At 9th level, a psychic marauder's growing madness renders her immune to confusion and insanity
 effects.
 
-**Replaces:** Telepathic bond
+This ability replaces telepathic bond.
 
-**Unreal Understanding (Ex)**
+## Unreal Understanding (Ex) {#unreal-understanding}
 
-**Gained:** At 20th Level
-
-**Passive:** A psychic marauder's mindset becomes completely aberrant, to the point that no outside
-force can penetrate her psyche. Because of this, the psychic marauder becomes immune to all
+At 20th level, a psychic marauder's mindset becomes completely aberrant, to the point that no
+outside force can penetrate her psyche. Because of this, the psychic marauder becomes immune to all
 mind-affecting effects.
 
-**Replaces:** Remade self
+This ability replaces remade self.

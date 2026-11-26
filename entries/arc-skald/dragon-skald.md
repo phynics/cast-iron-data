@@ -16,11 +16,17 @@ page = "19"
 
 [fields]
 kind = "archetype"
+features = [
+  { anchor = "wind-whistler", level = 1 },
+  { anchor = "sea-legs", level = 1 },
+  { anchor = "fearless-raider", level = 2 },
+  { anchor = "glorious-epic", level = 3 },
+]
 trades = [
-  { replaces = "Scribe Scroll", feature = "scribe-scroll" },
-  { replaces = "Bardic knowledge", feature = "bardic-knowledge" },
-  { replaces = "Well-versed", feature = "well-versed" },
-  { replaces = "Song of marching", feature = "song-of-marching" },
+  { replaces = "Scribe Scroll", feature = "scribe-scroll", by = ["wind-whistler"] },
+  { replaces = "Bardic knowledge", feature = "bardic-knowledge", by = ["sea-legs"] },
+  { replaces = "Well-versed", feature = "well-versed", by = ["fearless-raider"] },
+  { replaces = "Song of marching", feature = "song-of-marching", by = ["glorious-epic"] },
 ]
 +++
 
@@ -28,48 +34,34 @@ The Ulfen prize skalds on sea raids and linnorm hunts. Dragon skald performances
 whistling, or blowing mighty horns, and viking sailors often talk about having a skald along to
 whistle up a wind or sing away the mists on the morning of a momentous raid.
 
-**Wind Whistler (Su)**
+## Wind Whistler (Su) {#wind-whistler}
 
-**Ability:** A dragon skald adds [alter winds](ref/spell/alter-winds),
-[fog cloud](ref/spell/fog-cloud), and [obscuring mist](ref/spell/obscuring-mist) to his class spell
-list, at the same levels the wizard gains them. He still must add these spells to his spells known
-as normal.
+At 1st level, a dragon skald adds _[alter winds](ref/spell/alter-winds)_,
+_[fog cloud](ref/spell/fog-cloud)_, and _[obscuring mist](ref/spell/obscuring-mist)_ to his class
+spell list, at the same levels the wizard gains them. He still must add these spells to his spells
+known as normal. This ability replaces Scribe Scroll.
 
-**Gained:** At 1st Level
+## Sea Legs (Ex) {#sea-legs}
 
-**Replaces:** Scribe Scroll
+A dragon skald adds 1/2 his class level (minimum 1) on all Profession (sailor) checks, Survival
+checks while at sea, Acrobatics and Climb checks made while aboard a boat, and Swim checks. This
+ability replaces bardic knowledge.
 
-**Sea Legs (Ex)**
+## Fearless Raider (Ex) {#fearless-raider}
 
-**Passive:** A dragon skald adds 1/2 his class level (minimum 1) on all Profession (sailor) checks,
-Survival checks while at sea, Acrobatics and Climb checks made while aboard a boat, and Swim checks.
+At 2nd level, the dragon skald becomes resistant to fear effects. The dragon skald gains a +4 bonus
+on saving throws against fear effects, and DCs to affect the dragon skald with the Intimidate skill
+increase by 4. This ability replaces well-versed.
 
-**Replaces:** Bardic knowledge
+## Raging Song (Su) {#raging-song}
 
-**Fearless Raider (Ex)**
+A dragon skald gains access to the following raging song.
 
-**Flavor:** The dragon skald becomes resistant to fear effects.
+## Glorious Epic (Su) {#glorious-epic}
 
-**Gained:** At 2nd Level
-
-**Passive:** The dragon skald gains a +4 bonus on saving throws against fear effects, and DCs to
-affect the dragon skald with the Intimidate skill increase by 4.
-
-**Replaces:** Well-versed
-
-**Raging Song (Su)**
-
-**Info:** A dragon skald gains access to the following _raging song._
-
-**Glorious Epic (Su)**
-
-**Ability:** A dragon skald learns how to truly extol the virtues and prowess of the heroic figures
-in his epic tales. By performing for 10 minutes and expending 1 round of _raging song,_ the dragon
+At 3rd level, a dragon skald learns how to truly extol the virtues and prowess of the heroic figures
+in his epic tales. By performing for 10 minutes and expending 1 round of raging song, the dragon
 skald can influence opinions positively towards a heroic subject of the dragon skald's choice. If
 the subject of the epic attempts a Diplomacy or Intimidate check against anyone who listened to the
 full performance, he receives a circumstance bonus on that check equal to the Will save bonus
-granted by the dragon skald's _inspired rage._
-
-**Gained:** At 3rd Level
-
-**Replaces:** Song of marching
+granted by the dragon skald's inspired rage. This ability replaces song of marching.

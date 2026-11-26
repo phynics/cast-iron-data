@@ -16,11 +16,17 @@ page = "24"
 
 [fields]
 kind = "archetype"
+features = [
+  { anchor = "freedom-s-focus", level = 1 },
+  { anchor = "devilslayer", level = 4 },
+  { anchor = "channel-liberty", level = 4 },
+  { anchor = "shield-against-hellspawn", level = 7 },
+]
 trades = [
-  { alters = "Blessings", feature = "blessings" },
-  { alters = "Sacred weapon", feature = "sacred-weapon" },
-  { alters = "Channel energy", feature = "channel-energy" },
-  { alters = "Sacred armor", feature = "sacred-armor" },
+  { alters = "Blessings", feature = "blessings", by = ["freedom-s-focus"] },
+  { alters = "Sacred weapon", feature = "sacred-weapon", by = ["devilslayer"] },
+  { alters = "Channel energy", feature = "channel-energy", by = ["channel-liberty"] },
+  { alters = "Sacred armor", feature = "sacred-armor", by = ["shield-against-hellspawn"] },
 ]
 +++
 
@@ -29,43 +35,27 @@ other Andorens. These liberty's blades become warpriests of deities who spread f
 head to lives of adventure as [Eagle Knights](ref/rule/aff-vangard) or adventurers, championing
 liberty wherever they go.
 
-**Prerequisites:** Must worship a good deity who grants the Liberation blessing
+## Freedom's Focus (Su) {#freedom-s-focus}
 
-**Freedom's Focus (Su)**
+A liberty's blade must worship a good deity who grants the [Liberation](ref/blessing/liberation)
+blessing, and he must select the Liberation blessing. He does not gain a second blessing. This
+ability alters blessings.
 
-**Alters:** Blessings
+## Devilslayer (Su) {#devilslayer}
 
-**Info:** A liberty's blade must select the [Liberation](ref/blessing/liberation) blessing. He does
-not gain a second blessing.
+At 4th level, a liberty's blade adds _[devil-bane](ref/magic-enh/bane)_ to the list of enhancements
+he can add to his sacred weapon. This ability alters sacred weapon.
 
-**Devilslayer (Su)**
+## Channel Liberty (Su) {#channel-liberty}
 
-**Ability:** A liberty's blade adds [devil bane](ref/magic-enh/bane) to the list of enhancements he
-can add to his _sacred weapon._
-
-**Alters:** Sacred weapon
-
-**Gained:** At 4th Level
-
-**Channel Liberty (Su)**
-
-**Ability:** When a liberty's blade channels energy to heal, the effects of his healing is halved,
+At 4th level, when a liberty's blade channels energy to heal, the effects of his healing is halved,
 but all creatures affected by his healing instantly benefit as if from a
-[liberating command](ref/spell/liberating-command) spell at the liberty's blade's caster level.
-
+_[liberating command](ref/spell/liberating-command)_ spell at the liberty's blade's caster level.
 When channeling to harm, the liberty's blade harms devils as if using
 [Alignment Channel](ref/feat/alignment-channel) instead of harming undead, and she deals double the
-normal amount of damage.
+normal amount of damage. This ability alters channel energy.
 
-**Alters:** Channel energy
+## Shield Against Hellspawn (Su) {#shield-against-hellspawn}
 
-**Gained:** At 4th Level
-
-**Shield Against Hellspawn (Su)**
-
-**Ability:** A liberty's blade adds [devil defiant](ref/magic-enh/defiant) to the list of
-enhancements that he can add to his _sacred armor._
-
-**Alters:** Sacred armor
-
-**Gained:** At 7th Level
+At 7th level, a liberty's blade adds _[devil-defiant](ref/magic-enh/defiant)_ to the list of
+enhancements that he can add to his sacred armor. This ability alters sacred armor.
