@@ -35,11 +35,9 @@ members of other races over the ages.
 
 ## Earthlink (Su) {#earthlink}
 
-The earth grants an earthshadow swiftness and hones her senses.
-
-When an earthshadow is in direct contact with an expanse of natural earth or unworked stone that is
-at least as large as she is, she adds half her rogue level (minimum 1) to Acrobatics and Perception
-checks.
+The earth grants an earthshadow swiftness and hones her senses. When an earthshadow is in direct
+contact with an expanse of natural earth or unworked stone that is at least as large as she is, she
+adds half her rogue level (minimum 1) to Acrobatics and Perception checks.
 
 This replaces trapfinding.
 

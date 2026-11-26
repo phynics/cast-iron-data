@@ -18,7 +18,7 @@ page = "17"
 kind = "archetype"
 features = [
   { anchor = "eidolon-of-law", level = 1 },
-  { anchor = "unwavering-monsters" },
+  { anchor = "unwavering-monsters", level = 1 },
   { anchor = "law-magic" },
 ]
 trades = [

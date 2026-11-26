@@ -36,9 +36,8 @@ construct rider gains Ride (Dex) and Knowledge (engineering) (Int) as class skil
 A construct rider assembles a construct mount shaped like a riding animal. A Medium alchemist can
 select a [camel](ref/companion/camel) or a [horse](ref/companion/horse). A Small alchemist can
 select a [pony](ref/companion/pony) or [wolf](ref/companion/wolf), but can also select a
-[boar](ref/companion/boar) or a [dog](ref/companion/dog) if he's at least 4th level.
-
-The GM may approve other animals as mounts.
+[boar](ref/companion/boar) or a [dog](ref/companion/dog) if he's at least 4th level. The GM may
+approve other animals as mounts.
 
 This construct mount acts in most ways as a druid [animal companion](ref/sidekick/animal-companion),
 using the character's alchemist level as his effective druid level. A construct mount is a

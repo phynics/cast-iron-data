@@ -18,7 +18,7 @@ page = "7"
 kind = "archetype"
 features = [
   { anchor = "shield-adept", level = 1 },
-  { anchor = "sacred-weapon" },
+  { anchor = "sacred-weapon", level = 1 },
   { anchor = "sacred-shield", level = 4 },
   { anchor = "channel-energy", level = 4 },
 ]

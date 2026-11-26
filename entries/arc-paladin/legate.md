@@ -47,9 +47,8 @@ ability at a cost of a +4 bonus. The armor must have least a +1 enhancement bonu
 abilities can be added. The bonus and special abilities granted are determined when this ability is
 used and cannot be changed until this ability is used again. If the legate has a steed bond and is
 riding her steed, she can include her steed when summoning celestial armor, granting the steed
-barding with the same bonuses and special abilities as her own.
-
-The legate can use this ability a number of times per day equal to her Wisdom bonus plus
-[half](ref/misc/fractions-and-rounding) her paladin level.
+barding with the same bonuses and special abilities as her own. The legate can use this ability a
+number of times per day equal to her Wisdom bonus plus [half](ref/misc/fractions-and-rounding) her
+paladin level.
 
 This ability replaces mercy.

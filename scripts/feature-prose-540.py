@@ -3114,6 +3114,22 @@ def cut_section(entry_id: str, section: list[Para]) -> list[Para]:
     return section
 
 
+# Paragraphs that print sets beside art, where the line that continues a paragraph is set in like a first line: the text that starts the line, joined to
+# the paragraph before it (the review of #347, checked on the page images)
+PARA_JOINS = {
+    ("ref/arc-fighter/molthuni-defender", "armored-defense"): ("This bonus also applies to the DC",),
+    ("ref/arc-paladin/legate", "celestial-armor"): ("The legate can use this ability a number of times",),
+    ("ref/arc-alchemist/construct-rider", "craft-mount"): ("The GM may approve other animals as mounts.",),
+    ("ref/arc-rogue/earthshadow", "earthlink"): ("When an earthshadow is in direct contact",),
+}
+
+
+def join_paras(entry_id: str, anchor: str, text: str) -> str:
+    for start in PARA_JOINS.get((entry_id, anchor), ()):
+        text = text.replace("\n\n" + start, " " + start, 1)
+    return text
+
+
 def compare_entry(e: Entry, section: list[Para], book: Book) -> dict:
     """The comparison of one archetype with its printed section: a row for each printed head, in print
     order, then one for each feature of the import that print lacks."""
@@ -3172,6 +3188,7 @@ def compare_entry(e: Entry, section: list[Para], book: Book) -> dict:
         f = feats[idx]
         draft = build_draft(f)
         text, lost, pnotes = print_md(pf, feature_links(e.id, f, head), vocab, e.id, keep)
+        text = join_paras(e.id, anchor_of(head), text)
         # a printed "(see ...)" cross-reference is kept in the text but is not a rule word: the corpus links instead
         cmp = compare_feature(draft, strip_citations(re.sub(r"\s*\([Ss]ee\b[^()]*\)", "", text)), set(tokens(ABILITY_TAG.sub("", f.name))), title_tokens)
         # the whole row, then its parts: a name that is a list ("The 1st-, 9th-, and 15th-level channel energy
@@ -4135,6 +4152,33 @@ def class_feature_levels(corpus: Path, class_id: str, cache: dict) -> dict[str, 
     return out
 
 
+_LEVEL_WORDS = re.compile(r"\b\d+(?:st|nd|rd|th)\b|\blevels?\b|\bgained\b|\bnormally\b", re.I)
+
+
+def table_level(tab: dict[str, int], name: str) -> int | None:
+    """The lowest level at which the class table lists the feature that a trade names. A name that the printed sentence makes longer
+    still counts when it starts with the table's name or the table's name starts with it ("The bomb class feature", "Brew Potion,
+    though an oozemaster can still select ...", "Sacred weapon and also replaces sacred armor" for the names bomb, brew potion, sacred
+    weapon; "Summon monster" for the table's "summon monster I"). A name that states a level ("Bonus feats gained at 3rd level") is a part of
+    a feature and is matched only by the exact name (owner ruling 48)."""
+    keys = [first_level_key(name), first_level_alt_key(name)]
+    for k in keys:
+        if k in tab:
+            return tab[k]
+    if _LEVEL_WORDS.search(name):
+        return None
+    best = None
+    for k in dict.fromkeys(keys):
+        kt = k.split()
+        if not kt:
+            continue
+        for tk, lv in tab.items():
+            tt = tk.split()
+            if tt and (kt[:len(tt)] == tt or tt[:len(kt)] == kt) and (len(tt) > 1 or len(kt) > 1 or len(tk) >= 4) and (best is None or lv < best):
+                best = lv
+    return best
+
+
 def fold_table_sections(rows: list[dict], decisions: dict, entry_id: str, problems: list[str]) -> None:
     """The `fold-into:ANCHOR` decisions of an entry (owner ruling 44): the section moves behind the end of the section that the
     decision names, its head as a bold line directly above its text (the Markdown table)."""
@@ -4405,7 +4449,8 @@ def finalize(e: Entry, res: dict, class_cache: dict | None = None) -> dict:
                     # and 6th levels", "1st-, 7th-, and 15th-level deeds"), or the class table lists it at 1st level
                     firsts.append(1 in (t.get("levels") or ()) or bool(re.search(r"\b1st\b", trade_name(t)[1]))
                                   or (bool(cls) and (first_level_key(trade_name(t)[1]) in class_first_level(corpus, cls, class_cache)
-                                                     or first_level_alt_key(trade_name(t)[1]) in class_first_level(corpus, cls, class_cache))))
+                                                     or first_level_alt_key(trade_name(t)[1]) in class_first_level(corpus, cls, class_cache)
+                                                     or table_level(class_feature_levels(corpus, cls, class_cache), trade_name(t)[1]) == 1)))
                 # ruling 35: level 1 when any feature that it replaces is a 1st-level feature, even if it also replaces later ones
                 # owner ruling 50: altering a whole 1st-level feature counts like replacing it; a part of a feature (a proficiency, class skills,
                 # a spell list) is no class-table name and gives none (ruling 48)
@@ -4430,7 +4475,7 @@ def finalize(e: Entry, res: dict, class_cache: dict | None = None) -> dict:
                             named_lows.append(f"{trade_name(t)[0]} {trade_name(t)[1]} (level {min(t['levels'])} of the trade)")
                             continue
                         tab = class_feature_levels(corpus, cls, class_cache) if cls else {}
-                        lv = tab.get(first_level_key(trade_name(t)[1])) or tab.get(first_level_alt_key(trade_name(t)[1]))
+                        lv = table_level(tab, trade_name(t)[1])
                         if lv:
                             lows.append(lv)
                             named_lows.append(f"{trade_name(t)[0]} {trade_name(t)[1]} (gained at level {lv} in the class table)")

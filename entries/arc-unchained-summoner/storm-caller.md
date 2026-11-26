@@ -18,7 +18,7 @@ page = "16"
 kind = "archetype"
 features = [
   { anchor = "stormy-eidolon", level = 1 },
-  { anchor = "summon-storm-s-fury" },
+  { anchor = "summon-storm-s-fury", level = 1 },
   { anchor = "electrical-polarity", level = 4 },
   { anchor = "storm-s-wings", level = 6 },
 ]

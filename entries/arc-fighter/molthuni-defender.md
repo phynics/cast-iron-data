@@ -33,11 +33,10 @@ military to gain citizenship, though a noteworthy minority are from stouter non-
 ## Armored Defense (Ex) {#armored-defense}
 
 At 3rd level, a Molthuni defender gains a bonus to his CMD against bull rush, dirty trick, drag,
-grapple, overrun, reposition, and trip combat maneuver checks.
-
-This bonus also applies to the DC of foes' Acrobatics checks to move through squares he threatens.
-This bonus is +1 when the Molthuni defender is wearing medium armor, and +3 when he is wearing heavy
-armor. At 7th, 11th, and 15th levels, these bonuses increase by 1.
+grapple, overrun, reposition, and trip combat maneuver checks. This bonus also applies to the DC of
+foes' Acrobatics checks to move through squares he threatens. This bonus is +1 when the Molthuni
+defender is wearing medium armor, and +3 when he is wearing heavy armor. At 7th, 11th, and 15th
+levels, these bonuses increase by 1.
 
 In addition to this, the Molthuni defender is able to choose one of the following combat maneuvers:
 bull rush, dirty trick, drag, grapple, overrun, reposition, or trip. When he is wearing medium or

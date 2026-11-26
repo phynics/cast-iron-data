@@ -17,7 +17,7 @@ page = "16"
 kind = "archetype"
 features = [
   { anchor = "eidolon-of-chaos", level = 1 },
-  { anchor = "morphic-monsters" },
+  { anchor = "morphic-monsters", level = 1 },
   { anchor = "chaos-magic" },
 ]
 trades = [

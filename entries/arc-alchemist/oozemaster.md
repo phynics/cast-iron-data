@@ -17,8 +17,8 @@ page = "17"
 [fields]
 kind = "archetype"
 features = [
-  { anchor = "ooze-bomb" },
-  { anchor = "ooze-toxin" },
+  { anchor = "ooze-bomb", level = 1 },
+  { anchor = "ooze-toxin", level = 1 },
   { anchor = "ooze-resistance", level = 2 },
 ]
 trades = [
