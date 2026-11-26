@@ -17,8 +17,7 @@ page = "61"
 [fields]
 kind = "spell"
 school = "illusion"
-subschools = ["Glamer"]
-descriptors = ["glamer"]
+subschools = ["glamer"]
 levels = [
   { class = "Arcanist", level = 2 },
   { class = "Bard", level = 2 },
@@ -49,8 +48,7 @@ Duration: 1 hour/level
 Saving throw: Will
 Spell resistance: no
 Target: you
-Subschool: Glamer
-Descriptors: glamer
+Subschool: glamer
 :::
 
 You are cloaked in an illusion of authority. Others perceive you to be a legitimate figure of

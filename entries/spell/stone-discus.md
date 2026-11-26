@@ -14,7 +14,7 @@ page = "194"
 [fields]
 kind = "spell"
 school = "conjuration"
-subschools = ["Creation"]
+subschools = ["creation"]
 descriptors = ["earth"]
 levels = [
   { class = "Arcanist", level = 2 },
@@ -48,7 +48,7 @@ Duration: instantaneous
 Saving throw: none
 Spell resistance: no
 Effect: one or more stone discuses
-Subschool: Creation
+Subschool: creation
 Descriptors: earth
 :::
 

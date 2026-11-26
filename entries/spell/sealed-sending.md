@@ -14,7 +14,7 @@ page = "61"
 [fields]
 kind = "spell"
 school = "conjuration"
-subschools = ["Creation"]
+subschools = ["creation"]
 descriptors = ["language-dependant"]
 levels = [
   { class = "Arcanist", level = 5 },
@@ -43,7 +43,7 @@ Duration: 1 hour/level or until discharged
 Saving throw: none
 Spell resistance: no (harmless)
 Effect: one nonmagical parchment with a written message
-Subschool: Creation
+Subschool: creation
 Descriptors: language-dependant
 :::
 

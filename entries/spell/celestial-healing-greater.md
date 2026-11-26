@@ -17,7 +17,7 @@ page = "13"
 [fields]
 kind = "spell"
 school = "conjuration"
-subschools = ["Healing"]
+subschools = ["healing"]
 descriptors = ["good"]
 levels = [
   { class = "Arcanist", level = 4 },
@@ -53,7 +53,7 @@ Duration: 1 round/2 levels
 Saving throw: Will negates (harmless)
 Spell resistance: yes (harmless)
 Target: creature touched
-Subschool: Healing
+Subschool: healing
 Descriptors: good
 :::
 

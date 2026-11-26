@@ -23,7 +23,7 @@ page = "295"
 [fields]
 kind = "spell"
 school = "conjuration"
-subschools = ["Teleportation"]
+subschools = ["teleportation"]
 levels = [
   { class = "Arcanist", level = 9 },
   { class = "Cleric", level = 9 },
@@ -54,7 +54,7 @@ Duration: instantaneous
 Saving throw: none and Will negates (object)
 Spell resistance: no and yes (object)
 Target: you and touched objects or other touched willing creatures
-Subschool: Teleportation
+Subschool: teleportation
 :::
 
 This spell functions as [teleport](ref/spell/teleport), except there is truly no range limit and you

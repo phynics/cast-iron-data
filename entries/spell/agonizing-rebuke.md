@@ -14,7 +14,7 @@ page = "125"
 [fields]
 kind = "spell"
 school = "illusion"
-subschools = ["Phantasm"]
+subschools = ["phantasm"]
 descriptors = ["emotion", "mind-affecting", "pain"]
 levels = [
   { class = "Antipaladin", level = 2 },
@@ -49,7 +49,7 @@ Duration: 1 round/level
 Saving throw: Will negates
 Spell resistance: yes
 Target: one living creature
-Subschool: Phantasm
+Subschool: phantasm
 Descriptors: emotion, mind-affecting, pain
 :::
 

@@ -14,7 +14,7 @@ page = "223"
 [fields]
 kind = "spell"
 school = "conjuration"
-subschools = ["Creation"]
+subschools = ["creation"]
 descriptors = ["water"]
 levels = [
   { class = "Arcanist", level = 4 },
@@ -49,7 +49,7 @@ Duration: concentration+ 1 round/level
 Saving throw: none, see text
 Spell resistance: yes
 Effect: wall up to 10 ft./level long and 5 ft./level high (S)
-Subschool: Creation
+Subschool: creation
 Descriptors: water
 :::
 

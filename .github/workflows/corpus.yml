@@ -2,7 +2,7 @@ name: corpus
 
 # Checks every pull request the way the app reads the corpus. The checker is built from the
 # current `main` of Cast Iron, so a corpus change that the app's content build would reject
-# fails here, before a tag and a pin bump. Eight checks run:
+# fails here, before a tag and a pin bump. Nine checks run:
 #   1. `fmt --check`: every file is in canonical form.
 #   2. `check`: references resolve (the compiler runs it first and stops on any problem).
 #   3. The app's compiler, given the same inputs as `cargo xtask content`: every id in the app's
@@ -21,7 +21,11 @@ name: corpus
 #   7. `scripts/spell-levels-284.py --self-test` and `--check` (phynics/cast-iron-data#284):
 #      `scripts/spell-levels-284.tsv` is well formed, and every class level that print confirmed is in
 #      its spell entry (the `levels` table and the stat block row).
-#   8. `scripts/faction-traits-285.py generate --check` (phynics/cast-iron-data#285): the 85 faction
+#   8. `scripts/typed-field-spellings-287.py --self-test` and `--check` (phynics/cast-iron-data#287):
+#      no typed field holds an old spelling (a legacy creature type, a capitalised size or
+#      subschool, an abbreviated alignment, a hit die with a period, a bracket in a school, or
+#      `glamer` among the descriptors).
+#   9. `scripts/faction-traits-285.py generate --check` (phynics/cast-iron-data#285): the 85 faction
 #      traits of the two Pathfinder Society guild guides are the files that
 #      `scripts/faction-traits-285.tsv` writes, and no faction-trait file lacks a row.
 # When Cast Iron `main` changes the corpus format, this workflow fails until a corpus pull
@@ -108,6 +112,10 @@ jobs:
           python3 corpus/scripts/faction-traits-285.py generate --check \
             --tsv corpus/scripts/faction-traits-285.tsv --corpus corpus \
             --published-ids app/sources/published-ids.txt
+      - name: Typed field spellings (#287)
+        run: |
+          python3 corpus/scripts/typed-field-spellings-287.py --self-test
+          python3 corpus/scripts/typed-field-spellings-287.py corpus --check
       - name: Check and content build
         run: |
           "$RUNNER_TEMP/checker/bin/cast-iron-compile" \

@@ -12,39 +12,43 @@ page = "186"
 
 [fields]
 kind = "archetype"
+features = [
+  { anchor = "not-quite-animal" },
+  { anchor = "augmented-body" },
+  { anchor = "augmented-sight" },
+  { anchor = "constructed-form", level = 6 },
+]
 trades = [
-  { replaces = "Share Spells" },
-  { replaces = "Devotion" },
+  { replaces = "Share Spells", by = ["augmented-sight"] },
+  { replaces = "Devotion", by = ["constructed-form"] },
 ]
 +++
 
 Augmented companions have suffered an injury, such as the loss of a wing, and parts of their bodies
 have been replaced by a master construct crafter. This procedure grants them unusual abilities.
 
-**Not Quite Animal**
+## Not Quite Animal {#not-quite-animal}
 
-**Passive:** The DC to use Handle Animal on an augmented companion is 5 higher, as if it were a
-nonanimal with an Intelligence score of 1 or 2.
+The DC to use Handle Animal on an augmented companion is 5 higher, as if it were a nonanimal with an
+Intelligence score of 1 or 2.
 
-**Augmented Body (Ex)**
+## Augmented Body (Ex) {#augmented-body}
 
-**Passive:** An augmented companion heals only [half](ref/misc/fractions-and-rounding) as much as
-normal from positive energy healing effects but also heals half the usual amount from effects that
-specifically heal constructs.
+An augmented companion heals only [half](ref/misc/fractions-and-rounding) as much as normal from
+positive energy healing effects but also heals half the usual amount from effects that specifically
+heal constructs.
 
-**Augmented Sight (Ex)**
+## Augmented Sight (Ex) {#augmented-sight}
 
-**Passive:** An augmented companion gains [low-light vision](ref/rule/low-light-vision) and
+An augmented companion gains [low-light vision](ref/rule/low-light-vision) and
 [darkvision](ref/rule/darkvision) to a range of 60 feet.
 
-**Replaces:** Share Spells
+This replaces share spells.
 
-**Constructed Form (Ex)**
+## Constructed Form (Ex) {#constructed-form}
 
-**Gained:** At 6th Level
-
-**Passive:** An augmented companion gains a +4 morale bonus on Fortitude saves against effects that
+At 6th level, an augmented companion gains a +4 morale bonus on Fortitude saves against effects that
 could not normally affect objects or constructs, and it takes only half damage from bleed effects.
 However, it can be affected by attacks that specifically target constructs.
 
-**Replaces:** Devotion
+This replaces devotion.

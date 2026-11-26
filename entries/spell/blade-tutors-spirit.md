@@ -14,7 +14,7 @@ page = "30"
 [fields]
 kind = "spell"
 school = "conjuration"
-subschools = ["Creation"]
+subschools = ["creation"]
 levels = [
   { class = "Antipaladin", level = 2 },
   { class = "Arcanist", level = 2 },
@@ -48,7 +48,7 @@ Duration: 1 minute/level
 Saving throw: none
 Spell resistance: no
 Target: you
-Subschool: Creation
+Subschool: creation
 :::
 
 You summon an insubstantial spirit of force that resembles a cloudy vapor hovering around your fists

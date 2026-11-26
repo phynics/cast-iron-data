@@ -17,7 +17,7 @@ page = "62"
 [fields]
 kind = "spell"
 school = "conjuration"
-subschools = ["Teleportation"]
+subschools = ["teleportation"]
 levels = [
   { class = "Arcanist", level = 3 },
   { class = "Bard", level = 2 },
@@ -48,7 +48,7 @@ Duration: instantaneous
 Saving throw: none
 Spell resistance: no
 Target: one held item
-Subschool: Teleportation
+Subschool: teleportation
 :::
 
 By flicking a finger in the appropriate direction and proclaiming ownership, you attempt to

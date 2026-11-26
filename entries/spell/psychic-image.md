@@ -14,7 +14,7 @@ page = "183"
 [fields]
 kind = "spell"
 school = "illusion"
-subschools = ["Shadow"]
+subschools = ["shadow"]
 levels = [
   { class = "Psychic", level = 9 },
 ]
@@ -40,7 +40,7 @@ Duration: 1 round/level (D)
 Saving throw: Will disbelief (if interacted with)
 Spell resistance: yes
 Effect: one shadow duplicate
-Subschool: Shadow
+Subschool: shadow
 :::
 
 You envelop your consciousness in a quasi-real image of yourself. Your psychic image looks, sounds,

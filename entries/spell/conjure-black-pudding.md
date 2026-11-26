@@ -14,7 +14,7 @@ page = "211"
 [fields]
 kind = "spell"
 school = "conjuration"
-subschools = ["Summoning"]
+subschools = ["summoning"]
 descriptors = ["acid"]
 levels = [
   { class = "Arcanist", level = 6 },
@@ -47,7 +47,7 @@ Duration: 1 round/level (D)
 Saving throw: none
 Spell resistance: no
 Effect: one summoned black pudding
-Subschool: Summoning
+Subschool: summoning
 Descriptors: acid
 :::
 

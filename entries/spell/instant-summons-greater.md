@@ -17,7 +17,7 @@ page = "217"
 [fields]
 kind = "spell"
 school = "conjuration"
-subschools = ["Summoning"]
+subschools = ["summoning"]
 levels = [
   { class = "Arcanist", level = 8 },
   { class = "Psychic", level = 8 },
@@ -47,7 +47,7 @@ Target: up to one object per 3 caster levels, each weighing 10 lbs. or less whos
 Duration: permanent until discharged
 Saving throw: none
 Spell resistance: no
-Subschool: Summoning
+Subschool: summoning
 :::
 
 ### Greater Instant Summons

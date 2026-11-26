@@ -14,7 +14,7 @@ page = "177"
 [fields]
 kind = "spell"
 school = "conjuration"
-subschools = ["Creation"]
+subschools = ["creation"]
 levels = [
   { class = "Druid", level = 2 },
   { class = "Hunter", level = 2 },
@@ -42,7 +42,7 @@ Duration: instantaneous
 Saving throw: none
 Spell resistance: no
 Effect: 5-ft. square of climbable beanstalks
-Subschool: Creation
+Subschool: creation
 :::
 
 You cause a thick, sturdy beanstalk to sprout from the ground and grow upward to a height of 10

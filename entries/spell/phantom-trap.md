@@ -14,8 +14,7 @@ page = "320"
 [fields]
 kind = "spell"
 school = "illusion"
-subschools = ["Glamer"]
-descriptors = ["glamer"]
+subschools = ["glamer"]
 levels = [
   { class = "Arcanist", level = 2 },
   { class = "Mesmerist", level = 2 },
@@ -48,8 +47,7 @@ Duration: permanent (D)
 Saving throw: none
 Spell resistance: no
 Target: object touched
-Subschool: Glamer
-Descriptors: glamer
+Subschool: glamer
 :::
 
 This spell makes a lock or other small mechanism seem to be trapped to anyone who can detect traps.

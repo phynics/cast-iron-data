@@ -14,7 +14,7 @@ page = "149"
 [fields]
 kind = "spell"
 school = "conjuration"
-subschools = ["Creation"]
+subschools = ["creation"]
 descriptors = ["earth"]
 levels = [
   { class = "Cleric", level = 1 },
@@ -45,7 +45,7 @@ Duration: instantaneous
 Saving throw: none
 Spell resistance: yes
 Target: one creature
-Subschool: Creation
+Subschool: creation
 Descriptors: earth
 :::
 

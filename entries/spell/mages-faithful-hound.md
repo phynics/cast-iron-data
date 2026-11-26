@@ -14,7 +14,7 @@ page = "306"
 [fields]
 kind = "spell"
 school = "conjuration"
-subschools = ["Creation"]
+subschools = ["creation"]
 levels = [
   { class = "Arcanist", level = 5 },
   { class = "Sorcerer", level = 5 },
@@ -46,7 +46,7 @@ Duration: 1 hour/caster level or until discharged, then 1 round/caster level; se
 Saving throw: none
 Spell resistance: no
 Effect: phantom watchdog
-Subschool: Creation
+Subschool: creation
 :::
 
 You conjure up a phantom watchdog that is invisible to everyone but yourself. It then guards the

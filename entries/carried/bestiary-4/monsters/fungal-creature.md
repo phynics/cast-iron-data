@@ -14,8 +14,8 @@ kind = "creature"
 cr = "8"
 creature_type = "plant"
 subtypes = ["augmented fey"]
-size = "Medium"
-alignment = "CG"
+size = "medium"
+alignment = "chaotic good"
 ac = "23, touch 21, flat-footed 19 (+7 deflection, +4 Dex, +2 natural)"
 hp = "84 (8d8+48)"
 fortitude = "+15"
@@ -30,8 +30,8 @@ abilities = ["14", "19", "22", "16", "17", "25"]
 ::: statblock
 CR: 8
 XP: 4,800
-Alignment: CG
-Size: Medium
+Alignment: chaotic good
+Size: medium
 Type: Plant (augmented fey)
 Init: +4
 Senses: [darkvision](ref/rule/darkvision) 60 ft., [low-light vision](ref/rule/low-light-vision);Perception +14

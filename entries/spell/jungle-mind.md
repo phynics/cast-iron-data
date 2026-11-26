@@ -14,7 +14,7 @@ page = "28"
 [fields]
 kind = "spell"
 school = "divination"
-subschools = ["Scrying"]
+subschools = ["scrying"]
 levels = [
   { class = "Druid", level = 5 },
   { class = "Hunter", level = 4 },
@@ -44,7 +44,7 @@ Duration: 10 minutes/level
 Saving throw: Will negates (see text)
 Spell resistance: no
 Target: you
-Subschool: Scrying
+Subschool: scrying
 :::
 
 You merge your mind into the jungle's social hierarchy, mystically establishing yourself as a master

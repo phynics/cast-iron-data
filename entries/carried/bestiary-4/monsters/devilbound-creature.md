@@ -14,8 +14,8 @@ kind = "creature"
 cr = "13"
 creature_type = "humanoid"
 subtypes = ["human"]
-size = "Medium"
-alignment = "LE"
+size = "medium"
+alignment = "lawful evil"
 ac = "21, touch 10, flat-footed 21 (+4 armor, +7 natural)"
 hp = "121 (13d6+73); regeneration 5 (good spells, good weapons)"
 fortitude = "+13"
@@ -29,8 +29,8 @@ abilities = ["8", "10", "18", "15", "12", "24"]
 ::: statblock
 CR: 13
 XP: 25,600
-Alignment: LE
-Size: Medium
+Alignment: lawful evil
+Size: medium
 Type: Humanoid (human)
 Race: pit fiend-bound human sorcerer 13
 Sex: female

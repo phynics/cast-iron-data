@@ -14,7 +14,7 @@ page = "177"
 [fields]
 kind = "spell"
 school = "conjuration"
-subschools = ["Creation"]
+subschools = ["creation"]
 levels = [
   { class = "Occultist", level = 2 },
   { class = "Shaman", level = 2 },
@@ -44,7 +44,7 @@ Duration: 1 hour/level (D)
 Saving throw: none
 Spell resistance: no
 Effect: a horse-like wicker construct
-Subschool: Creation
+Subschool: creation
 :::
 
 Reeds, grasses, creepers, or thin tree branches (your choice) that you touch animate, twisting and

@@ -14,7 +14,7 @@ page = "251"
 [fields]
 kind = "spell"
 school = "conjuration"
-subschools = ["Creation"]
+subschools = ["creation"]
 descriptors = ["water"]
 levels = [
   { class = "Arcanist", level = 9 },
@@ -45,7 +45,7 @@ Duration: 5 rounds
 Saving throw: see text
 Spell resistance: no
 Effect: 10-ft.-deep wave 10 ft. wide/level and 2 ft. tall/level
-Subschool: Creation
+Subschool: creation
 Descriptors: water
 :::
 

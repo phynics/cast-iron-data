@@ -17,7 +17,7 @@ page = "107"
 [fields]
 kind = "spell"
 school = "conjuration"
-subschools = ["Creation"]
+subschools = ["creation"]
 levels = [
   { class = "Arcanist", level = 4 },
   { class = "Sorcerer", level = 4 },
@@ -46,7 +46,7 @@ Duration: 1 minute/level
 Saving throw: Reflex partial, see text
 Spell resistance: no
 Effect: cloud spreads in 20-ft. radius, 20 ft. high
-Subschool: Creation
+Subschool: creation
 :::
 
 > _[Drow](ref/race/drow) have access to the following spell._

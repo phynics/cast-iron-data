@@ -14,8 +14,7 @@ page = "210"
 [fields]
 kind = "spell"
 school = "illusion"
-subschools = ["Glamer"]
-descriptors = ["glamer"]
+subschools = ["glamer"]
 levels = [
   { class = "Antipaladin", level = 3 },
   { class = "Bard", level = 4 },
@@ -50,8 +49,7 @@ Duration: 10 minutes/level (D)
 Saving throw: Will negates
 Spell resistance: yes
 Target: one creature
-Subschool: Glamer
-Descriptors: glamer
+Subschool: glamer
 :::
 
 You subtly alter both the target's aura and subtle cues in its body language, tone of voice, and

@@ -17,7 +17,7 @@ page = "263"
 [fields]
 kind = "spell"
 school = "conjuration"
-subschools = ["Healing"]
+subschools = ["healing"]
 levels = [
   { class = "Bard", level = 5 },
   { class = "Cleric", level = 5 },
@@ -54,7 +54,7 @@ Duration: instantaneous
 Saving throw: Will half (harmless) or Will half; see text
 Spell resistance: yes (harmless) or yes; see text
 Target: one creature/level, no two of which can be more than 30 ft. apart
-Subschool: Healing
+Subschool: healing
 :::
 
 You channel positive energy to cure 1d8 points of damage + 1 point per caster level (maximum +25) on

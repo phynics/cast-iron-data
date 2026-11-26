@@ -14,8 +14,8 @@ page = "108"
 [fields]
 kind = "spell"
 school = "illusion"
-subschools = ["Glamer"]
-descriptors = ["evil", "glamer"]
+subschools = ["glamer"]
+descriptors = ["evil"]
 levels = [
   { class = "Arcanist", level = 3 },
   { class = "Cleric", level = 3 },
@@ -52,8 +52,8 @@ Duration: 10 minutes/level (D)
 Saving throw: Will disbelief or Will negates (see text)
 Spell resistance: no
 Target: one or more undead creatures
-Subschool: Glamer
-Descriptors: evil, glamer
+Subschool: glamer
+Descriptors: evil
 :::
 
 The illusion makes undead creatures of Medium size or smaller appear as if they were living humanoid

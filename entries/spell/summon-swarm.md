@@ -14,7 +14,7 @@ page = "354"
 [fields]
 kind = "spell"
 school = "conjuration"
-subschools = ["Summoning"]
+subschools = ["summoning"]
 levels = [
   { class = "Arcanist", level = 2 },
   { class = "Bard", level = 2 },
@@ -50,7 +50,7 @@ Duration: concentration+ 2 rounds
 Saving throw: none
 Spell resistance: no
 Effect: one swarm of bats, rats, or spiders
-Subschool: Summoning
+Subschool: summoning
 :::
 
 You summon a swarm of [bats](ref/monster/bat-bat-swarm), [rats](ref/monster/rat-rat-swarm), or

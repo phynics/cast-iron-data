@@ -17,7 +17,7 @@ page = "74"
 [fields]
 kind = "spell"
 school = "conjuration"
-subschools = ["Creation"]
+subschools = ["creation"]
 levels = [
   { class = "Alchemist", level = 3 },
   { class = "Cleric", level = 4 },
@@ -51,7 +51,7 @@ Duration: 1 minute
 Saving throw: none (see below)
 Spell resistance: no
 Effect: 1 dose of a drug/3 levels
-Subschool: Creation
+Subschool: creation
 :::
 
 The caster conjures into being one of the following drugs: [aether](ref/drug/aether),

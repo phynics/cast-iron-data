@@ -14,7 +14,7 @@ page = "361"
 [fields]
 kind = "spell"
 school = "conjuration"
-subschools = ["Teleportation"]
+subschools = ["teleportation"]
 levels = [
   { class = "Druid", level = 6 },
   { class = "Hunter", level = 6 },
@@ -43,7 +43,7 @@ Duration: 1 round
 Saving throw: none
 Spell resistance: no
 Target: you and touched objects or other touched willing creatures
-Subschool: Teleportation
+Subschool: teleportation
 :::
 
 You can enter any normal plant (equal to your size or larger) and pass any distance to a plant of

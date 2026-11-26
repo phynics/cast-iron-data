@@ -13,8 +13,8 @@ provenance = [
 kind = "creature"
 cr = "6"
 creature_type = "animal"
-size = "Large"
-alignment = "N"
+size = "large"
+alignment = "neutral"
 ac = "21, touch 9, flat-footed 21 (+12 natural, -1 size)"
 hp = "67 (9d8+27)"
 fortitude = "+11"
@@ -27,8 +27,8 @@ abilities = ["25", "10", "17", "2", "13", "6"]
 ::: statblock
 CR: 6
 XP: 2,400
-Alignment: N
-Size: Large
+Alignment: neutral
+Size: large
 Type: Animal
 Init: +0
 Senses: [low-light vision](ref/rule/low-light-vision), scent; Perception +16
@@ -77,5 +77,5 @@ Ac: +2 natural armor
 Level: 7th
 Attack: 2 claws (1d10)
 Ability Scores: Str +8, Dex -2, Con +4.
-Size: Large
+Size: large
 :::

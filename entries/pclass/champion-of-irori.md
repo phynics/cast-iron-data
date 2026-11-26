@@ -14,7 +14,7 @@ page = "16"
 [fields]
 kind = "class"
 class_type = "prestige"
-hit_die = "d8."
+hit_die = "d8"
 +++
 
 The little-known champions of Irori give their lives in service to the perfection and uplift of
@@ -45,7 +45,7 @@ The Champion of Irori's class skills are [Acrobatics](ref/skill/acrobatics) (Dex
 [Spellcraft](ref/skill/spellcraft) (Int).
 
 **Skill Points at each Level:** 4 + Int modifier.\
-**Hit Die:** d8.
+**Hit Die:** d8
 
 ### Class Features
 

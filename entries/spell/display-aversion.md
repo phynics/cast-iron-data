@@ -17,7 +17,7 @@ page = "30"
 [fields]
 kind = "spell"
 school = "illusion"
-subschools = ["Shadow"]
+subschools = ["shadow"]
 levels = [
   { class = "Arcanist", level = 3 },
   { class = "Bard", level = 2 },
@@ -54,7 +54,7 @@ Duration: concentration+ 1d4 rounds
 Saving throw: none
 Spell resistance: no
 Effect: visual figment that cannot extend beyond four 10-ft. cubes + one 10-ft. cube/level (S)
-Subschool: Shadow
+Subschool: shadow
 :::
 
 This spell functions like [minor image](ref/spell/minor-image), except it always creates an animated

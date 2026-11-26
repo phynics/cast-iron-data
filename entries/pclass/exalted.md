@@ -14,7 +14,7 @@ page = "200"
 [fields]
 kind = "class"
 class_type = "prestige"
-hit_die = "d8."
+hit_die = "d8"
 +++
 
 The exalted exemplifies the teachings of her faith. More than a religious leader, she is the
@@ -48,7 +48,7 @@ The Exalted's class skills are [Craft](ref/skill/craft-any) (Int), [Diplomacy](r
 (oratory) (Cha), Profession (Wis), Sense Motive (Wis), and Spellcraft (Int).
 
 **Skill Points at each Level:** 2 + Int modifier.\
-**Hit Die:** d8.
+**Hit Die:** d8
 
 ### Class Features
 

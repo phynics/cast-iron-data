@@ -14,7 +14,7 @@ page = "240"
 [fields]
 kind = "spell"
 school = "conjuration"
-subschools = ["Healing"]
+subschools = ["healing"]
 levels = [
   { class = "Cleric", level = 3 },
   { class = "Inquisitor", level = 2 },
@@ -45,7 +45,7 @@ Duration: 10 minutes/level (D)
 Saving throw: Will negates (harmless)
 Spell resistance: yes (harmless)
 Target: creature touched
-Subschool: Healing
+Subschool: healing
 :::
 
 To use this spell, you first touch the intended recipient, creating a sympathetic field of healing

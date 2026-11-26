@@ -14,7 +14,7 @@ page = "29"
 [fields]
 kind = "spell"
 school = "illusion"
-subschools = ["Phantasm"]
+subschools = ["phantasm"]
 levels = [
   { class = "Bard", level = 2 },
   { class = "Cleric", level = 2 },
@@ -44,7 +44,7 @@ Duration: 1 hour/level (D)
 Saving throw: none
 Spell resistance: no
 Target: 1 rose touched
-Subschool: Phantasm
+Subschool: phantasm
 :::
 
 This spell creates an illusory trail in the form of a misty and visible scent coming from the rose

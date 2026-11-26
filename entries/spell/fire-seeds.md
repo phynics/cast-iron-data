@@ -14,7 +14,7 @@ page = "282"
 [fields]
 kind = "spell"
 school = "conjuration"
-subschools = ["Creation"]
+subschools = ["creation"]
 descriptors = ["fire"]
 levels = [
   { class = "Druid", level = 6 },
@@ -43,7 +43,7 @@ Duration: 10 min./level or until used
 Saving throw: none or Reflex half; see text
 Spell resistance: no
 Targets: up to four acorns or up to eight holly berries
-Subschool: Creation
+Subschool: creation
 Descriptors: fire
 :::
 

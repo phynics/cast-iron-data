@@ -14,8 +14,7 @@ page = "21"
 [fields]
 kind = "spell"
 school = "illusion"
-subschools = ["Glamer"]
-descriptors = ["glamer"]
+subschools = ["glamer"]
 levels = [
   { class = "Adept", level = 2 },
   { class = "Antipaladin", level = 1 },
@@ -51,8 +50,7 @@ Duration: 10 minutes/level
 Saving throw: none
 Spell resistance: no
 Target: you
-Subschool: Glamer
-Descriptors: glamer
+Subschool: glamer
 :::
 
 For the duration of this spell, you may ignore any divine focus components of your spells, allowing

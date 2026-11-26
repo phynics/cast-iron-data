@@ -14,7 +14,7 @@ page = "238"
 [fields]
 kind = "spell"
 school = "conjuration"
-subschools = ["Healing"]
+subschools = ["healing"]
 levels = [
   { class = "Summoner", level = 1 },
   { class = "Unchained Summoner", level = 1 },
@@ -41,7 +41,7 @@ Target: eidolon touched
 Duration: instantaneous
 Saving throw: none
 Spell resistance: no
-Subschool: Healing
+Subschool: healing
 :::
 
 By laying your hand upon an eidolon, you cause its wounds to close and its form to solidify. This

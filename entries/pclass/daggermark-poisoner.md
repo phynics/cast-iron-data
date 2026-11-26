@@ -14,7 +14,7 @@ page = "18"
 [fields]
 kind = "class"
 class_type = "prestige"
-hit_die = "d8."
+hit_die = "d8"
 +++
 
 Poison is a common weapon of cultures and nations across Golarion, but the craft reaches its acme in
@@ -38,7 +38,7 @@ The Daggermark Poisoner's class skills are [Bluff](ref/skill/bluff) (Cha),
 [Stealth](ref/skill/stealth) (Dex).
 
 **Skill Points at each Level:** 4 + Int modifier.\
-**Hit Die:** d8.
+**Hit Die:** d8
 
 ### Class Features
 

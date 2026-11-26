@@ -14,8 +14,7 @@ page = "364"
 [fields]
 kind = "spell"
 school = "illusion"
-subschools = ["Glamer"]
-descriptors = ["glamer"]
+subschools = ["glamer"]
 levels = [
   { class = "Arcanist", level = 6 },
   { class = "Bard", level = 6 },
@@ -47,8 +46,7 @@ Duration: concentration+ 1 hour/level (D)
 Saving throw: Will negates; see text
 Spell resistance: yes; see text
 Targets: one or more creatures, no two of which can be more than 30 ft. apart
-Subschool: Glamer
-Descriptors: glamer
+Subschool: glamer
 :::
 
 You instantly change the appearance of the subjects and then maintain that appearance for the

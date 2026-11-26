@@ -17,8 +17,7 @@ page = "210"
 [fields]
 kind = "spell"
 school = "illusion"
-subschools = ["Glamer"]
-descriptors = ["glamer"]
+subschools = ["glamer"]
 levels = [
   { class = "Witch", level = 3 },
 ]
@@ -44,8 +43,7 @@ Duration: permanent until discharged
 Saving throw: Will negates
 Spell resistance: yes
 Target: one skull
-Subschool: Glamer
-Descriptors: glamer
+Subschool: glamer
 :::
 
 This spell functions as [magic mouth](ref/spell/magic-mouth), except rather than creating an

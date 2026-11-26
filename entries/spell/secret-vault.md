@@ -20,7 +20,7 @@ page = "31"
 [fields]
 kind = "spell"
 school = "conjuration"
-subschools = ["Summoning"]
+subschools = ["summoning"]
 levels = [
   { class = "Arcanist", level = 8 },
   { class = "Sorcerer", level = 8 },
@@ -49,7 +49,7 @@ Duration: 60 days or until discharged
 Saving throw: none
 Spell resistance: no
 Target: one chamber and up to 10 cu. ft. of goods/caster level
-Subschool: Summoning
+Subschool: summoning
 :::
 
 ### Secret Vault

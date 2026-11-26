@@ -14,7 +14,7 @@ page = "26"
 [fields]
 kind = "spell"
 school = "conjuration"
-subschools = ["Creation"]
+subschools = ["creation"]
 levels = [
   { class = "Cleric", level = 2 },
   { class = "Druid", level = 2 },
@@ -48,7 +48,7 @@ Duration: 1 hour/level (D)
 Saving throw: none
 Spell resistance: no
 Effect: raft large enough for caster and one passenger/2 levels
-Subschool: Creation
+Subschool: creation
 :::
 
 This spell assembles a sturdy raft and oars from driftwood, reeds, and other river detritus. The

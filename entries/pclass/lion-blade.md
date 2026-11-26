@@ -17,7 +17,7 @@ page = "22"
 [fields]
 kind = "class"
 class_type = "prestige"
-hit_die = "d8."
+hit_die = "d8"
 +++
 
 Trained in the hidden Shadow Schools beneath the streets of Cassomir and Oppara, the Lion Blades of
@@ -56,7 +56,7 @@ The Lion Blade's class skills are [Acrobatics](ref/skill/acrobatics) (Dex), [Blu
 [Sense Motive](ref/skill/sense-motive) (Wis).
 
 **Skill Points at each Level:** 6 + Int modifier.\
-**Hit Die:** d8.
+**Hit Die:** d8
 
 ### Class Features
 

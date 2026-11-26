@@ -33,6 +33,7 @@ trades = [
   { replaces = "Poison immunity", feature = "poison-resistance", levels = [10], by = ["selective-detonation"] },
   { alters = "Extracts", feature = "extracts", by = ["diminished-alchemy"] },
   { alters = "Bomb", feature = "bomb", by = ["demolition-bomb"] },
+  { alters = "Class skills" },
 ]
 +++
 

@@ -16,13 +16,21 @@ page = "175"
 
 [fields]
 kind = "archetype"
+features = [
+  { anchor = "avian-empathy" },
+  { anchor = "raven-companion", level = 4 },
+  { anchor = "silver-champion", level = 7 },
+  { anchor = "mimic-figurine", level = 8 },
+  { anchor = "cheat-death", level = 12 },
+  { anchor = "argent-magic" },
+]
 trades = [
-  { replaces = "Woodland stride", feature = "woodland-stride" },
-  { replaces = "Swift tracker", feature = "swift-tracker" },
-  { replaces = "Camouflage", feature = "camouflage" },
-  { alters = "Wild empathy", feature = "wild-empathy" },
-  { alters = "Hunter's bond", feature = "hunter-s-bond" },
-  { alters = "Spellcasting", feature = "spells" },
+  { replaces = "Woodland stride", feature = "woodland-stride", by = ["silver-champion"] },
+  { replaces = "Swift tracker", feature = "swift-tracker", by = ["mimic-figurine"] },
+  { replaces = "Camouflage", feature = "camouflage", by = ["cheat-death"] },
+  { alters = "Wild empathy", feature = "wild-empathy", by = ["avian-empathy"] },
+  { alters = "Hunter's bond", feature = "hunter-s-bond", by = ["raven-companion"] },
+  { alters = "Spellcasting", feature = "spells", by = ["argent-magic"] },
 ]
 +++
 
@@ -33,81 +41,76 @@ as fearsome weapons against House Thrune and its diabolic servants. These ranger
 masters, eschew a ranger's usual connection to the natural world to form a mystic bond with their
 birds and to grant both animal and master a number of specialized abilities. Over time, the feathers
 of these raven companions take on a silvery sheen, causing them to resemble the birds produced by
-the figurines of wondrous power, which served as the original Silver Ravens' namesake.
+the _figurines of wondrous power_, which served as the original Silver Ravens' namesake.
 
-Raven masters serve as messengers and spies for the Silver Ravens, using their ravens to scout the
-border between Ravounel and Cheliax and report any suspicious Thrune troop movements. Outside of
-Cheliax, raven companions alight on the rooftops and window ledges of palaces and keeps to eavesdrop
-on tyrants and dictators, feeding these precious secrets to the raven master so that she can more
-efficiently foment and organize rebellion.
+Raven masters serve as messengers and spies for the [Silver Ravens](ref/rule/aff-rebels), using
+their ravens to scout the border between Ravounel and Cheliax and report any suspicious Thrune troop
+movements. Outside of Cheliax, raven companions alight on the rooftops and window ledges of palaces
+and keeps to eavesdrop on tyrants and dictators, feeding these precious secrets to the raven master
+so that she can more efficiently foment and organize rebellion.
 
-**Gained class skills:** bluff, dis, soh
+## Class Skills {#class-skills}
 
-**Lost class skills:** climb, heal, intm, ride, swim
+A raven master adds Bluff, Disguise, and Sleight of Hand to her list of class skills. She does not
+gain Climb, Heal, Intimidate, Ride, or Swim as class skills.
 
-**Avian Empathy (Ex)**
+This alters the ranger's class skills.
 
-**Alters:** Wild empathy
+## Avian Empathy (Ex) {#avian-empathy}
 
-**Info:** A raven master's _wild empathy_ affects only birds.
+A raven master's wild empathy affects only birds. This alters wild empathy.
 
-**Raven Companion (Ex)**
+## Raven Companion (Ex) {#raven-companion}
 
-**Ability:** A raven master earns the trust and companionship of a particularly large, powerful, and
-intelligent raven. This ability functions like the druid animal companion ability, except that the
-raven master's effective druid level is equal to her ranger level - 3. The raven master must select
-a [bird](ref/companion/bird) as her animal companion. The raven companion starts with an
-Intelligence score of 3 and can speak one language known by the raven master. In addition to the
-normal abilities an [animal companion](ref/sidekick/animal-companion) gains as the raven master
-increases in level, the raven companion gains the following abilities.
+At 4th level, a raven master earns the trust and companionship of a particularly large, powerful,
+and intelligent raven. This ability functions like the druid
+[animal companion](ref/sidekick/animal-companion) ability, except that the raven master's effective
+druid level is equal to her ranger level - 3. The raven master must select a
+[bird](ref/companion/bird) as her animal companion. The raven companion starts with an Intelligence
+score of 3 and can speak one language known by the raven master. In addition to the normal abilities
+an animal companion gains as the raven master increases in level, the raven companion gains the
+following abilities.
 
-**Alters:** Hunter's bond
+This ability alters hunter's bond and replaces specific ranger abilities as indicated below.
 
-**Gained:** At 4th Level
+## Silver Champion (Ex) {#silver-champion}
 
-**Silver Champion (Ex)**
-
-**At 7th Level:** The raven companion takes on a silvery, metallic appearance. It treats all of its
+At 7th level, the raven companion takes on a silvery, metallic appearance. It treats all of its
 natural attacks as though they were magic and silver for the purpose of bypassing
 [damage reduction](ref/rule/damage-reduction).
 
-**Replaces:** Woodland stride
+This ability replaces woodland stride.
 
-**Mimic Figurine (Su)**
+## Mimic Figurine (Su) {#mimic-figurine}
 
-**At 8th Level:** Once per day as a **standard action**, the raven master can transform her raven
-companion into a token similar to a
-[figurine of wondrous power](ref/magic-wondrous/figurine-of-wondrous-power). Any gear worn by the
+At 8th level, once per day as a standard action, the raven master can transform her raven companion
+into a token similar to a
+_[figurine of wondrous power](ref/magic-wondrous/figurine-of-wondrous-power)_. Any gear worn by the
 raven melds into its body as part of this transformation, but held items do not. The raven can
 remain in this form indefinitely, or until the raven master spends a standard action to activate the
-statuette as though it were a _figurine of wondrous power._
+statuette as though it were a _figurine of wondrous power_.
 
-**Replaces:** Swift tracker
+This ability replaces swift tracker.
 
-**Cheat Death (Sp)**
+## Cheat Death (Sp) {#cheat-death}
 
-**At 12th Level:** Once per week, when a raven companion would otherwise be slain by an attack,
-spell, or effect, it can turn into a _figurine of wondrous power_ as per its _mimic figurine_
-ability as an **immediate action**. Once transformed this way, the raven companion cannot transform
-back into a raven until the raven master next prepares spells.
+At 12th level, once per week, when a raven companion would otherwise be slain by an attack, spell,
+or effect, it can turn into a _figurine of wondrous power_ as per its mimic figurine ability as an
+immediate action. Once transformed this way, the raven companion cannot transform back into a raven
+until the raven master next prepares spells.
 
-**Replaces:** Camouflage
+This ability replaces camouflage.
 
-**Argent Magic**
+## Argent Magic {#argent-magic}
 
-**Ability:** A raven master casts spells as do most rangers, but her spell list is somewhat expanded
-from the normal options most rangers can choose from, for her association with the bards and other
-talented performers among the Silver Ravens allows her to add a limited number of bard spells to her
-spell list. These spells function as divine spells, and are cast and prepared in the same manner as
-her other ranger spells.
+A raven master casts spells as do most rangers, but her spell list is somewhat expanded from the
+normal options most rangers can choose from, for her association with the bards and other talented
+performers among the Silver Ravens allows her to add a limited number of bard spells to her spell
+list. These spells function as divine spells, and are cast and prepared in the same manner as her
+other ranger spells.
 
-**Alters:** Spellcasting
+At 6th level, the raven master selects one 1st-level bard spell of her choice and adds it to her
+spell list as a 1st-level ranger spell. At 9th level she does the same but for a 2nd-level bard
+spell. She adds a 3rd-level bard spell at 12th level, and adds a 4th-level bard spell at 15th level.
 
-**At 12th Level:** She adds a 3rd-level bard spell.
-
-**At 15th Level:** She adds a 4th-level bard spell.
-
-**At 6th Level:** The raven master selects one 1st-level bard spell of her choice and adds it to her
-spell list as a 1st-level ranger spell.
-
-**At 9th Level:** She does the same but for a 2nd-level bard spell.
+This ability alters the ranger's spellcasting.

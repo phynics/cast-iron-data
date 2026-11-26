@@ -14,7 +14,7 @@ page = "290"
 [fields]
 kind = "spell"
 school = "conjuration"
-subschools = ["Creation"]
+subschools = ["creation"]
 levels = [
   { class = "Arcanist", level = 2 },
   { class = "Bloodrager", level = 2 },
@@ -51,7 +51,7 @@ Duration: 1 round/level
 Saving throw: Will negates (blinding only)
 Spell resistance: no
 Area: creatures and objects within 10-ft.-radius spread
-Subschool: Creation
+Subschool: creation
 :::
 
 A cloud of golden particles covers everyone and everything in the area, causing creatures to become

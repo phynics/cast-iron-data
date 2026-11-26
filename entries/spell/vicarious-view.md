@@ -14,7 +14,7 @@ page = "229"
 [fields]
 kind = "spell"
 school = "divination"
-subschools = ["Scrying"]
+subschools = ["scrying"]
 levels = [
   { class = "Arcanist", level = 4 },
   { class = "Bard", level = 4 },
@@ -52,7 +52,7 @@ Duration: 1 minute/level (D)
 Saving throw: Will negates (object)
 Spell resistance: yes (object)
 Effect: magical sensor
-Subschool: Scrying
+Subschool: scrying
 :::
 
 You plant a scrying sensor on a touched creature, object, or point in space, allowing you to see and

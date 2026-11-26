@@ -17,7 +17,7 @@ page = "337"
 [fields]
 kind = "spell"
 school = "divination"
-subschools = ["Scrying"]
+subschools = ["scrying"]
 levels = [
   { class = "Arcanist", level = 7 },
   { class = "Bard", level = 6 },
@@ -56,7 +56,7 @@ Effect: magical sensor
 Duration: 1 hour/level
 Saving throw: Will negates
 Spell resistance: yes
-Subschool: Scrying
+Subschool: scrying
 :::
 
 ### Greater Scrying

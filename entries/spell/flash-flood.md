@@ -14,7 +14,7 @@ page = "27"
 [fields]
 kind = "spell"
 school = "conjuration"
-subschools = ["Creation"]
+subschools = ["creation"]
 descriptors = ["water"]
 levels = [
   { class = "Arcanist", level = 6 },
@@ -46,7 +46,7 @@ Duration: instantaneous and 1 round per level; see text
 Saving throw: Reflex partial, see text
 Spell resistance: no
 Area: cone-shaped burst
-Subschool: Creation
+Subschool: creation
 Descriptors: water
 :::
 

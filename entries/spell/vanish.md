@@ -17,8 +17,7 @@ page = "253"
 [fields]
 kind = "spell"
 school = "illusion"
-subschools = ["Glamer"]
-descriptors = ["glamer"]
+subschools = ["glamer"]
 levels = [
   { class = "Arcanist", level = 1 },
   { class = "Bard", level = 1 },
@@ -53,8 +52,7 @@ Duration: 1 round/level (up to 5 rounds) (D)
 Saving throw: Will negates (harmless)
 Spell resistance: yes (harmless)
 Target: creature touched
-Subschool: Glamer
-Descriptors: glamer
+Subschool: glamer
 :::
 
 This spell functions like [invisibility](ref/spell/invisibility), except the effect only lasts for 1

@@ -14,7 +14,7 @@ page = "40"
 [fields]
 kind = "class"
 class_type = "prestige"
-hit_die = "d10."
+hit_die = "d10"
 +++
 
 Any good pit fighter will tell you, it doesn't matter how well you fight-all the crowd cares about
@@ -49,7 +49,7 @@ The Pit Fighter's class skills are [Acrobatics](ref/skill/acrobatics) (Dex),
 [Intimidate](ref/skill/intimidate) (Cha), and [Perform](ref/skill/perform-any) (Cha).
 
 **Skill Points at each Level:** 2 + Int modifier.\
-**Hit Die:** d10.
+**Hit Die:** d10
 
 ### Class Features
 

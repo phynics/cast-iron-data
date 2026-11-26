@@ -14,7 +14,7 @@ page = "367"
 [fields]
 kind = "spell"
 school = "conjuration"
-subschools = ["Creation"]
+subschools = ["creation"]
 descriptors = ["earth"]
 levels = [
   { class = "Adept", level = 5 },
@@ -56,7 +56,7 @@ Duration: instantaneous
 Saving throw: see text
 Spell resistance: no
 Effect: stone wall whose area is up to one 5-ft. square/level (S)
-Subschool: Creation
+Subschool: creation
 Descriptors: earth
 :::
 

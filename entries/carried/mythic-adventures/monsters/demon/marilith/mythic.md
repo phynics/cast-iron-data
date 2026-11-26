@@ -14,8 +14,8 @@ kind = "creature"
 cr = "21"
 creature_type = "outsider"
 subtypes = ["chaotic", "demon", "evil", "extraplanar", "mythic"]
-size = "Large"
-alignment = "CE"
+size = "large"
+alignment = "chaotic evil"
 ac = "40, touch 17, flat-footed 36 (+4 deflection, +4 Dex, +23 natural, -1 size)"
 hp = "344 (16d10+256); fast healing 5"
 fortitude = "+25"
@@ -30,8 +30,8 @@ abilities = ["31", "19", "32", "18", "18", "27"]
 ::: statblock
 CR: 21
 XP: 409,600
-Alignment: CE
-Size: Large
+Alignment: chaotic evil
+Size: large
 Type: Outsider (chaotic, demon, evil, extraplanar, mythic)
 Init: +4
 Senses: [darkvision](ref/rule/darkvision) 60 ft., true seeing; Perception +31

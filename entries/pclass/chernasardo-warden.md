@@ -14,7 +14,7 @@ page = "68"
 [fields]
 kind = "class"
 class_type = "prestige"
-hit_die = "d8."
+hit_die = "d8"
 +++
 
 Chernasardo warden is a title that few can reasonably hope to earn. Among the freedom fighters,
@@ -52,7 +52,7 @@ The Chernasardo Warden's class skills are [Acrobatics](ref/skill/acrobatics) (De
 [Survival](ref/skill/survival) (Wis).
 
 **Skill Points at each Level:** 6 + Int modifier.\
-**Hit Die:** d8.
+**Hit Die:** d8
 
 ### Class Features
 

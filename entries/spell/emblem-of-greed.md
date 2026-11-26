@@ -14,7 +14,7 @@ page = "20"
 [fields]
 kind = "spell"
 school = "transmutation"
-subschools = ["Polymorph"]
+subschools = ["polymorph"]
 levels = [
   { class = "Arcanist", level = 6 },
   { class = "Cleric", level = 6 },
@@ -50,7 +50,7 @@ Duration: 1 minute/level
 Saving throw: none
 Spell resistance: no
 Target: 1 masterwork melee weapon touched
-Subschool: Polymorph
+Subschool: polymorph
 :::
 
 You transform one melee weapon into a burning [glaive](ref/eq-weapon/glaive) similar to the ones

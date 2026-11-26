@@ -16,242 +16,123 @@ page = "66"
 
 [fields]
 kind = "archetype"
+features = [
+  { anchor = "geomantic-focus" },
+  { anchor = "geomancy" },
+  { anchor = "survivalist", level = 2 },
+  { anchor = "terrain-stride", level = 5 },
+  { anchor = "dominion", level = 7 },
+  { anchor = "wall-of-terrain", level = 13 },
+]
 trades = [
-  { replaces = "Magic item skill", feature = "magic-item-skill" },
-  { replaces = "Aura sight", feature = "aura-sight" },
-  { replaces = "7th-level focus power", feature = "focus-powers", levels = [7] },
-  { replaces = "13th-level focus power", feature = "focus-powers", levels = [13] },
-  { alters = "Mental focus", feature = "mental-focus" },
-  { alters = "Implements", feature = "implements" },
+  { replaces = "Magic item skill", feature = "magic-item-skill", by = ["survivalist"] },
+  { replaces = "Aura sight", feature = "aura-sight", by = ["terrain-stride"] },
+  { replaces = "Focus power gained at 7th level", feature = "focus-powers", levels = [7], by = ["dominion"] },
+  { replaces = "Focus power gained at 13th level", feature = "focus-powers", levels = [13], by = ["wall-of-terrain"] },
+  { alters = "Mental focus", feature = "mental-focus", by = ["geomantic-focus"] },
+  { alters = "Implements", feature = "implements", by = ["geomancy"] },
 ]
 +++
 
 A geomancer studies every type of land, deriving power from the differences between types of
 terrain.
 
-**Gained class skills:** kg, kna, sur
+## Class Skills {#class-skills}
 
-**Lost class skills:** dd, ke, kr
+A geomancer adds Knowledge (geography), Knowledge (nature), and Survival to his list of class skills
+instead of Disable Device, Knowledge (engineering), and Knowledge (religion).
 
-**Geomantic Focus (Su)**
+This alters the occultist's class skills.
 
-**Ability:** When a geomancer invests mental focus into his implements for the day, he can store
-some of it in the surrounding terrain. As long as he remains in physical contact with the terrain,
-he gains the _survivalist_ resonant power (see below) and the ability to use the _terrain stride,
-dominion,_ and _wall of terrain_ focus powers as appropriate for his level.
+## Geomantic Focus (Su) {#geomantic-focus}
 
-**Alters:** Mental focus
+When a geomancer invests mental focus into his implements for the day, he can store some of it in
+the surrounding terrain. As long as he remains in physical contact with the terrain, he gains the
+survivalist resonant power and the ability to use the terrain stride, dominion, and wall of terrain
+focus powers as appropriate for his level.
 
-**Geomancy (Su)**
+This alters mental focus.
 
-**Ability:** A geomancer learns one fewer implement school at 1st level. Instead, the spells that he
-knows are partially determined by the type of terrain he is currently in (and the level of spells he
-can cast). When he leaves a type of terrain, he loses knowledge of the spells that terrain grants
-and instead knows the spells granted by the new type of terrain he has entered. If a specific
-terrain falls into more than one category, the geomancer chooses which list of spells he receives
-when he enters the terrain. The spells at each spell level for the various types of terrain are
-listed below.
+## Geomancy (Su) {#geomancy}
 
-**Alters:** Implements
+A geomancer learns one fewer implement school at 1st level. Instead, the spells that he knows are
+partially determined by the type of terrain he is currently in (and the level of spells he can
+cast). When he leaves a type of terrain, he loses knowledge of the spells that terrain grants and
+instead knows the spells granted by the new type of terrain he has entered. If a specific terrain
+falls into more than one category, the geomancer chooses which list of spells he receives when he
+enters the terrain. The spells at each spell level for the various types of terrain are listed
+below.
 
-**Cold Terrain**
+_Cold:_ 1st—_frostbite_, 2nd—_frigid touch_, 3rd—_sleet storm_, 4th—_creeping ice_, 5th—_icy
+prison_, 6th—_freezing sphere._
 
-**Spells:** Frostbite
+_Desert:_ 1st—_sun metal_, 2nd—_shifting sand_, 3rd—_cup of dust_, 4th—_fire shield_, 5th—_flame
+strike_, 6th—_sirocco_.
 
-**Spells:** Frigid touch
+_Forest:_ 1st—_entangle_, 2nd—_tree shape_, 3rd—_speak with plants_, 4th—_arboreal hammer_,
+5th—_tree stride_, 6th—_liveoak_.
 
-**Spells:** Sleet storm
+_Jungle:_ 1st—_nauseating dart_, 2nd—_sickening entanglement_, 3rd—_venomous bolt_, 4th—_poison_,
+5th—_snake staff_, 6th—_swarm skin_.
 
-**Spells:** Creeping ice
+_Mountain:_ 1st—_stone fist_, 2nd—_stone call_, 3rd—_stone shape_, 4th—_obsidian flow_, 5th—_cave
+fangs_, 6th—_move earth_.
 
-**Spells:** Icy prison
+_Plains:_ 1st—_mount_, 2nd—_gust of wind_, 3rd—_plant growth_, 4th—_aspect of the stag_,
+5th—_control winds_, 6th—_whip of ants._
 
-**Spells:** Freezing sphere
+### Planes (Other Than the Material Plane) {#planes-other-than-the-material-plane}
 
-**Desert Terrain**
+1st—_endure elements_, 2nd—_rope trick_, 3rd—_blink_, 4th—_dimensional anchor_, 5th—_planar
+adaptation_, 6th—_plane shift_.
 
-**Spells:** Sun metal
+_Swamp:_ 1st—_mudball_, 2nd—_burst of nettles_, 3rd—_lily pad stride_, 4th—_slowing mud_,
+5th—_insect plague_, 6th—_mass fester_.
 
-**Spells:** Shifting sand
+_Underground:_ 1st—_expeditious excavation_, 2nd—_[darkvision](ref/rule/darkvision)_, 3rd—_meld into
+stone_, 4th—_echolocation_, 5th—_suffocation_, 6th—_conjure black pudding_.
 
-**Spells:** Cup of dust
+_Urban:_ 1st—_urban grace_, 2nd—_share language_, 3rd—_urban step_, 4th—_zone of silence_,
+5th—_telepathic bond_, 6th—_statue_.
 
-**Spells:** Fire shield
+_Water:_ 1st—_air bubble_, 2nd—_slipstream_, 3rd—_water breathing_, 4th—_fluid form_, 5th—_geyser_,
+6th—_control water_.
 
-**Spells:** Flame strike
+This alters implements.
 
-**Spells:** Sirocco
+## Survivalist (Su) {#survivalist}
 
-**Forest Terrain**
-
-**Spells:** Entangle
-
-**Spells:** Tree shape
-
-**Spells:** Speak with plants
-
-**Spells:** Arboreal hammer
-
-**Spells:** Tree stride
-
-**Spells:** Liveoak
-
-**Jungle Terrain**
-
-**Spells:** Nauseating dart
-
-**Spells:** Sickening entanglement
-
-**Spells:** Venomous bolt
-
-**Spells:** Poison
-
-**Spells:** Snake staff
-
-**Spells:** Swarm skin
-
-**Mountain Terrain**
-
-**Spells:** Stone fist
-
-**Spells:** Stone call
-
-**Spells:** Stone shape
-
-**Spells:** Obsidian flow
-
-**Spells:** Cave fangs
-
-**Spells:** Move earth
-
-**Plains Terrain**
-
-**Spells:** Mount
-
-**Spells:** Gust of wind
-
-**Spells:** Plant growth
-
-**Spells:** Aspect of the stag
-
-**Spells:** Control winds
-
-**Spells:** Whip of ants
-
-**Planes (Other Than the Material Plane)**
-
-**Spells:** Endure elements
-
-**Spells:** Rope trick
-
-**Spells:** Blink
-
-**Spells:** Dimensional anchor
-
-**Spells:** Planar adaptation
-
-**Spells:** Plane shift
-
-**Swamp Terrain**
-
-**Spells:** Mudball
-
-**Spells:** Burst of nettles
-
-**Spells:** Lily pad stride
-
-**Spells:** Slowing mud
-
-**Spells:** Insect plague
-
-**Spells:** Mass fester
-
-**Underground Terrain**
-
-**Spells:** Expeditious excavation
-
-**Spells:** [Darkvision](ref/rule/darkvision)
-
-**Spells:** Meld into stone
-
-**Spells:** Echolocation
-
-**Spells:** Suffocation
-
-**Spells:** Conjure black pudding
-
-**Urban Terrain**
-
-**Spells:** Urban grace
-
-**Spells:** Share language
-
-**Spells:** Urban step
-
-**Spells:** Zone of silence
-
-**Spells:** Telepathic bond
-
-**Spells:** Statue
-
-**Water Terrain**
-
-**Spells:** Air bubble
-
-**Spells:** Slipstream
-
-**Spells:** Water breathing
-
-**Spells:** Fluid form
-
-**Spells:** Geyser
-
-**Spells:** Control water
-
-**Survivalist (Su)**
-
-**Gained:** At 2nd Level
-
-**Passive:** A geomancer gains a +1 bonus on Survival checks for every point of mental focus
+At 2nd level, a geomancer gains a +1 bonus on Survival checks for every point of mental focus
 invested in the terrain (to a maximum equal to his occultist level).
 
-**Replaces:** Magic item skill
+This replaces magic item skill.
 
-**Terrain Stride (Su)**
+## Terrain Stride (Su) {#terrain-stride}
 
-**At 5th Level:** The geomancer can expend 2 points of mental focus invested in the terrain to
-instead increase all of his movement speeds by 20 feet. This affects only movement speeds he already
-has.
+At 5th level, as a swift action, a geomancer can expend 1 point of mental focus invested in the
+terrain to increase all of his movement speeds by 10 feet. At 5th level, the geomancer can expend 2
+points of mental focus invested in the terrain to instead increase all of his movement speeds by 20
+feet. This affects only movement speeds he already has.
 
-**Gained:** At 5th Level
+This replaces aura sight.
 
-**Replaces:** Aura sight
+## Dominion (Su) {#dominion}
 
-**Swift:** A geomancer can expend 1 point of mental focus invested in the terrain to increase all of
-his movement speeds by 10 feet.
+At 7th level, as a standard action, a geomancer can expend 1 or more points of mental focus invested
+in the terrain to infuse himself and each of his allies within 30 feet of him with the might of the
+land. Affected creatures gain a +1 morale bonus on attack rolls, damage rolls, and Fortitude saves
+for every point of mental focus expended. These bonuses last for 1 minute and can't exceed
+one-quarter the geomancer's occultist level.
 
-**Dominion (Su)**
+This replaces the focus power gained at 7th level.
 
-**Gained:** At 7th Level
+## Wall of Terrain (Sp) {#wall-of-terrain}
 
-**Replaces:** 7th-level focus power
-
-**Standard:** A geomancer can expend 1 or more points of mental focus invested in the terrain to
-infuse himself and each of his allies within 30 feet of him with the might of the land. Affected
-creatures gain a +1 morale bonus on attack rolls, damage rolls, and Fortitude saves for every point
-of mental focus expended. These bonuses last for 1 minute and can't exceed one-quarter the
-geomancer's occultist level.
-
-**Wall of Terrain (Sp)**
-
-**Gained:** At 13th Level
-
-**Replaces:** 13th-level focus power
-
-**Special:** By expending an extra point of generic mental focus, he can increase the
+At 13th level, as a standard action, a geomancer can expend 3 points of mental focus invested in the
+terrain to fashion a solid wall of the surrounding terrain, no matter its actual composition. This
+functions as per _[wall of stone](ref/spell/wall-of-stone)_, using the geomancer's occultist level
+as his caster level. By expending an extra point of generic mental focus, he can increase the
 [hardness](ref/umr/hardness) of the wall to 10 and give it an extra 5 hit points per inch of
 thickness.
 
-**Standard:** A geomancer can expend 3 points of mental focus invested in the terrain to fashion a
-solid wall of the surrounding terrain, no matter its actual composition. This functions as per
-[wall of stone](ref/spell/wall-of-stone), using the geomancer's occultist level as his caster level.
+This replaces the focus power gained at 13th level.

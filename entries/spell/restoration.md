@@ -17,7 +17,7 @@ page = "334"
 [fields]
 kind = "spell"
 school = "conjuration"
-subschools = ["Healing"]
+subschools = ["healing"]
 levels = [
   { class = "Adept", level = 4 },
   { class = "Alchemist", level = 4 },
@@ -53,7 +53,7 @@ Duration: instantaneous
 Saving throw: Will negates (harmless)
 Spell resistance: yes (harmless)
 Target: creature touched
-Subschool: Healing
+Subschool: healing
 :::
 
 This spell functions like [lesser restoration](ref/spell/restoration-lesser), except that it also

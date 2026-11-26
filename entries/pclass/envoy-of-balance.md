@@ -14,7 +14,7 @@ page = "30"
 [fields]
 kind = "class"
 class_type = "prestige"
-hit_die = "d6."
+hit_die = "d6"
 +++
 
 Standing beyond good and evil, outside law and chaos, an envoy of balance serves as the countering
@@ -42,7 +42,7 @@ The Envoy of Balance's class skills are [Diplomacy](ref/skill/diplomacy) (Cha),
 [Use Magic Device](ref/skill/use-magic-device) (Cha).
 
 **Skill Points at each Level:** 2 + Int modifier.\
-**Hit Die:** d6.
+**Hit Die:** d6
 
 ### Class Features
 

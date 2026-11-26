@@ -16,7 +16,7 @@ page = "54"
 [fields]
 kind = "spell"
 school = "conjuration"
-subschools = ["Calling"]
+subschools = ["calling"]
 levels = [
   { class = "Cleric", level = 5 },
   { class = "Medium", level = 3 },
@@ -48,7 +48,7 @@ Duration: concentration
 Saving throw: Will negates, see text
 Spell resistance: no
 Effect: call the spirit of a single deceased humanoid creature
-Subschool: Calling
+Subschool: calling
 :::
 
 You attempt to cause the spirit of a specific individual to manifest from its final resting place.

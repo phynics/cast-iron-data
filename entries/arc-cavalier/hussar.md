@@ -31,6 +31,7 @@ trades = [
   { replaces = "Bonus feats gained at 6th, 12th, and 18th levels", feature = "bonus-feat", levels = [6, 12, 18], by = ["skillful-rider"] },
   { replaces = "Greater tactician", feature = "greater-tactician", by = ["maneuverable-mount"] },
   { replaces = "Master tactician", feature = "master-tactician", by = ["sudden-swerve"] },
+  { alters = "Class skills", by = ["agile-warrior"] },
 ]
 +++
 

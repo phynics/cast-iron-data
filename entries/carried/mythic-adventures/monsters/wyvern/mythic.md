@@ -14,8 +14,8 @@ kind = "creature"
 cr = "8"
 creature_type = "dragon"
 subtypes = ["mythic"]
-size = "Large"
-alignment = "N"
+size = "large"
+alignment = "neutral"
 ac = "22, touch 10, flat-footed 21 (+1 Dex, +12 natural, -1 size)"
 hp = "103 (7d12+58)"
 fortitude = "+9"
@@ -29,8 +29,8 @@ abilities = ["21", "12", "18", "7", "12", "9"]
 ::: statblock
 CR: 8
 XP: 4,800
-Alignment: N
-Size: Large
+Alignment: neutral
+Size: large
 Type: Dragon (mythic)
 Init: +8M
 Senses: [darkvision](ref/rule/darkvision) 60 ft., [low-light vision](ref/rule/low-light-vision), scent; Perception +18

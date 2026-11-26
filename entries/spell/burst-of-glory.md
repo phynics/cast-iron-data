@@ -17,7 +17,7 @@ page = "21"
 [fields]
 kind = "spell"
 school = "enchantment"
-subschools = ["Compulsion"]
+subschools = ["compulsion"]
 descriptors = ["mind-affecting"]
 levels = [
   { class = "Cleric", level = 5 },
@@ -49,7 +49,7 @@ Duration: 1 round/level (d; see text)
 Saving throw: Will negates (harmless)
 Spell resistance: yes (harmless)
 Area: 10-ft.-radius burst, centered on you
-Subschool: Compulsion
+Subschool: compulsion
 Descriptors: mind-affecting
 :::
 

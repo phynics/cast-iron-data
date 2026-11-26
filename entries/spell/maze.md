@@ -14,7 +14,7 @@ page = "312"
 [fields]
 kind = "spell"
 school = "conjuration"
-subschools = ["Teleportation"]
+subschools = ["teleportation"]
 levels = [
   { class = "Arcanist", level = 8 },
   { class = "Psychic", level = 8 },
@@ -46,7 +46,7 @@ Duration: see text
 Saving throw: none
 Spell resistance: yes
 Target: one creature
-Subschool: Teleportation
+Subschool: teleportation
 :::
 
 You banish the subject into an extradimensional labyrinth. Each round on its turn, it may attempt a

@@ -14,7 +14,7 @@ page = "30"
 [fields]
 kind = "class"
 class_type = "prestige"
-hit_die = "d10."
+hit_die = "d10"
 +++
 
 Guardians of a sacred trust, the Knights of Ozem are a chivalrous order based out of Lastwall and
@@ -50,7 +50,7 @@ The Knight of Ozem's class skills are [Heal](ref/skill/heal) (Wis),
 [Sense Motive](ref/skill/sense-motive) (Wis), and [Spellcraft](ref/skill/spellcraft) (Int).
 
 **Skill Points at each Level:** 4 + Int modifier.\
-**Hit Die:** d10.
+**Hit Die:** d10
 
 ### Class Features
 

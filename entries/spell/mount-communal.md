@@ -17,7 +17,7 @@ page = "237"
 [fields]
 kind = "spell"
 school = "conjuration"
-subschools = ["Summoning"]
+subschools = ["summoning"]
 levels = [
   { class = "Arcanist", level = 2 },
   { class = "Magus", level = 2 },
@@ -50,7 +50,7 @@ Duration: 2 hours/level (D)
 Saving throw: none
 Spell resistance: no
 Effect: up to six mounts
-Subschool: Summoning
+Subschool: summoning
 :::
 
 ### Communal Mount

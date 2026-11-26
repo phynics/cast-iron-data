@@ -14,7 +14,7 @@ page = "28"
 [fields]
 kind = "spell"
 school = "illusion"
-subschools = ["Figment"]
+subschools = ["figment"]
 levels = [
   { class = "Arcanist", level = 2 },
   { class = "Bard", level = 2 },
@@ -52,7 +52,7 @@ Duration: concentration+ 3 rounds
 Saving throw: Will disbelief (harmless)
 Spell resistance: no
 Effect: 15-ft.-radius spherical projection of night sky
-Subschool: Figment
+Subschool: figment
 :::
 
 You project an image of the night sky based on your current location and the local time, allowing

@@ -14,7 +14,7 @@ page = "14"
 [fields]
 kind = "class"
 class_type = "prestige"
-hit_die = "d6."
+hit_die = "d6"
 +++
 
 The true power in Numeria lies with the Technic League, not the Black Sovereign, and it is
@@ -41,7 +41,7 @@ The Technomancer's class skills are [Appraise](ref/skill/appraise) (Int),
 [Spellcraft](ref/skill/spellcraft) (Int).
 
 **Skill Points at each Level:** 4 + Int modifier.\
-**Hit Die:** d6.
+**Hit Die:** d6
 
 ### Class Features
 

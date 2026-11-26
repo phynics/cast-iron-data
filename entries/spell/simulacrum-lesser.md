@@ -17,7 +17,7 @@ page = "238"
 [fields]
 kind = "spell"
 school = "illusion"
-subschools = ["Shadow"]
+subschools = ["shadow"]
 levels = [
   { class = "Arcanist", level = 4 },
   { class = "Psychic", level = 4 },
@@ -47,7 +47,7 @@ Effect: one duplicate creature
 Duration: 1 hour/level
 Saving throw: none
 Spell resistance: no
-Subschool: Shadow
+Subschool: shadow
 :::
 
 ### Lesser Simulacrum

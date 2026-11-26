@@ -14,7 +14,7 @@ page = "192"
 [fields]
 kind = "spell"
 school = "conjuration"
-subschools = ["Creation"]
+subschools = ["creation"]
 levels = [
   { class = "Druid", level = 4 },
   { class = "Hunter", level = 4 },
@@ -42,7 +42,7 @@ Duration: 1 round/level (see text)
 Saving throw: Fortitude negates
 Spell resistance: yes
 Targets: one creature/level, no two of which can be more than 30 ft. apart
-Subschool: Creation
+Subschool: creation
 :::
 
 You coat the targets in thick, sticky mud. The mud acts as a [slow](ref/spell/slow) spell and also

@@ -14,8 +14,7 @@ page = "273"
 [fields]
 kind = "spell"
 school = "illusion"
-subschools = ["Glamer"]
-descriptors = ["glamer"]
+subschools = ["glamer"]
 levels = [
   { class = "Alchemist", level = 3 },
   { class = "Arcanist", level = 3 },
@@ -56,8 +55,7 @@ Duration: 1 round/level (D)
 Saving throw: Will negates (harmless)
 Spell resistance: yes (harmless)
 Target: creature touched
-Subschool: Glamer
-Descriptors: glamer
+Subschool: glamer
 :::
 
 The subject of this spell appears to be about 2 feet away from its true location. The creature

@@ -14,7 +14,7 @@ page = "243"
 [fields]
 kind = "spell"
 school = "divination"
-subschools = ["Scrying"]
+subschools = ["scrying"]
 levels = [
   { class = "Alchemist", level = 4 },
   { class = "Arcanist", level = 4 },
@@ -48,7 +48,7 @@ Duration: 1 minute/level (D)
 Saving throw: none
 Spell resistance: no
 Effect: magical sensor
-Subschool: Scrying
+Subschool: scrying
 :::
 
 You create an invisible magical sensor that sends you visual information. You can create the arcane

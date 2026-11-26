@@ -14,7 +14,7 @@ page = "30"
 [fields]
 kind = "spell"
 school = "illusion"
-subschools = ["Phantasm"]
+subschools = ["phantasm"]
 descriptors = ["mind-affecting"]
 levels = [
   { class = "Arcanist", level = 4 },
@@ -46,7 +46,7 @@ Duration: instantaneous
 Saving throw: Will disbelief, then Will partial (see text)
 Spell resistance: yes
 Target: one creature
-Subschool: Phantasm
+Subschool: phantasm
 Descriptors: mind-affecting
 :::
 

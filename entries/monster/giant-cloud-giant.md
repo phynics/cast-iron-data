@@ -17,7 +17,7 @@ cr = "11"
 creature_type = "humanoid"
 subtypes = ["giant"]
 size = "huge"
-alignment = "NG or NE"
+alignment = "neutral good or neutral evil"
 ac = "25/9/24"
 hp = "168~16d8+96"
 fortitude = "+16"
@@ -34,7 +34,7 @@ hair flutters as if in a breeze._
 
 ::: statblock
 Challenge rating: 11
-Alignment: NG or NE
+Alignment: neutral good or neutral evil
 Size: huge
 Type: humanoid
 Initiative: +1

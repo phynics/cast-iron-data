@@ -14,7 +14,7 @@ page = "21"
 [fields]
 kind = "spell"
 school = "conjuration"
-subschools = ["Creation"]
+subschools = ["creation"]
 levels = [
   { class = "Arcanist", level = 5 },
   { class = "Bard", level = 5 },
@@ -45,7 +45,7 @@ Duration: 2 hours/level (D)
 Saving throw: none
 Spell resistance: no
 Effect: 20-ft.-square structure
-Subschool: Creation
+Subschool: creation
 :::
 
 You conjure a small stone building on any relatively flat nonliving surface at least 20 feet square

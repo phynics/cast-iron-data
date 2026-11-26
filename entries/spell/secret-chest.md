@@ -20,7 +20,7 @@ page = "31"
 [fields]
 kind = "spell"
 school = "conjuration"
-subschools = ["Summoning"]
+subschools = ["summoning"]
 levels = [
   { class = "Arcanist", level = 5 },
   { class = "Mesmerist", level = 5 },
@@ -53,7 +53,7 @@ Duration: 60 days or until discharged
 Saving throw: none
 Spell resistance: no
 Target: one chest and up to 1 cu. ft. of goods/caster level
-Subschool: Summoning
+Subschool: summoning
 :::
 
 You hide a chest on the Ethereal Plane for as long as 60 days and can retrieve it at will. The chest

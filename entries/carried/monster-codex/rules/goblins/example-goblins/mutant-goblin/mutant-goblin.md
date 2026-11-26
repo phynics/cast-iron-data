@@ -15,8 +15,8 @@ kind = "creature"
 cr = "3"
 creature_type = "humanoid"
 subtypes = ["goblinoid"]
-size = "Small"
-alignment = "NE"
+size = "small"
+alignment = "neutral evil"
 ac = "16, touch 12, flat-footed 13 (+3 Dex, +4 natural, -2 rage, +1 size)"
 hp = "37 (3d12+12); fast healing 1"
 fortitude = "+7"
@@ -32,8 +32,8 @@ abilities = ["21", "17", "18", "8", "12", "6"]
 ::: statblock
 CR: 3
 XP: 800
-Alignment: NE
-Size: Small
+Alignment: neutral evil
+Size: small
 Type: Humanoid (goblinoid)
 Class Levels: barbarian 3
 Init: +7

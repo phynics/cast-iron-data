@@ -14,7 +14,7 @@ page = "22"
 [fields]
 kind = "spell"
 school = "transmutation"
-subschools = ["Polymorph"]
+subschools = ["polymorph"]
 levels = [
   { class = "Alchemist", level = 6 },
   { class = "Arcanist", level = 9 },
@@ -45,7 +45,7 @@ Duration: instantaneous
 Saving throw: none
 Spell resistance: no
 Target: golem touched
-Subschool: Polymorph
+Subschool: polymorph
 :::
 
 You turn one type of golem into another. The golem must be willing - it must be commanded to

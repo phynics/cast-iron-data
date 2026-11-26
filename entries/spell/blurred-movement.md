@@ -17,8 +17,7 @@ page = "176"
 [fields]
 kind = "spell"
 school = "illusion"
-subschools = ["Glamer"]
-descriptors = ["glamer"]
+subschools = ["glamer"]
 levels = [
   { class = "Alchemist", level = 1 },
   { class = "Arcanist", level = 1 },
@@ -58,8 +57,7 @@ Duration: 1 minute/level (D)
 Saving throw: none
 Spell resistance: no
 Target: you
-Subschool: Glamer
-Descriptors: glamer
+Subschool: glamer
 :::
 
 This spell functions as [blur](ref/spell/blur), except that the blurring occurs only when you move

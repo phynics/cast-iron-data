@@ -14,7 +14,7 @@ page = "72"
 [fields]
 kind = "class"
 class_type = "prestige"
-hit_die = "d8."
+hit_die = "d8"
 +++
 
 Of all the members of the [Eagle Knights](ref/rule/aff-vangard), Twilight Talons often pay the
@@ -69,7 +69,7 @@ The Twilight Talon's class skills are [Acrobatics](ref/skill/acrobatics) (Dex),
 [Survival](ref/skill/survival) (Wis).
 
 **Skill Points at each Level:** 6 + Int modifier.\
-**Hit Die:** d8.
+**Hit Die:** d8
 
 ### Class Features
 

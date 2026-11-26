@@ -14,8 +14,7 @@ page = "20"
 [fields]
 kind = "spell"
 school = "illusion"
-subschools = ["Glamer"]
-descriptors = ["glamer"]
+subschools = ["glamer"]
 levels = [
   { class = "Antipaladin", level = 1 },
   { class = "Arcanist", level = 1 },
@@ -51,8 +50,7 @@ Duration: 10 minutes/level (D)
 Saving throw: none and Will disbelief (see text)
 Spell resistance: yes
 Target: one creature touched
-Subschool: Glamer
-Descriptors: glamer
+Subschool: glamer
 :::
 
 The target's wounds to seem to disappear. A creature attempting a Heal check to tell the severity of

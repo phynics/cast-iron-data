@@ -14,7 +14,7 @@ page = "164"
 [fields]
 kind = "class"
 class_type = "prestige"
-hit_die = "d8."
+hit_die = "d8"
 +++
 
 [Rivethun](ref/rule/aff-animists) teachings cultivate strength and empathy through knowledge,
@@ -49,7 +49,7 @@ The Rivethun Emissary's class skills are [Diplomacy](ref/skill/diplomacy) (Cha),
 (Wis), [Spellcraft](ref/skill/spellcraft) (Int), and [Survival](ref/skill/survival) (Wis).
 
 **Skill Points at each Level:** 4 + Int modifier.\
-**Hit Die:** d8.
+**Hit Die:** d8
 
 ### Class Features
 

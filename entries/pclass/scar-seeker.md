@@ -14,7 +14,7 @@ page = "26"
 [fields]
 kind = "class"
 class_type = "prestige"
-hit_die = "d10."
+hit_die = "d10"
 +++
 
 The empyreal lord Vildeis doesn't demand acts of self-mortification. Nonetheless, some devoted turn
@@ -42,7 +42,7 @@ The Scar Seeker's class skills are [Heal](ref/skill/heal) (Wis), [Intimidate](re
 [Sense Motive](ref/skill/sense-motive) (Wis), and [Spellcraft](ref/skill/spellcraft) (Int).
 
 **Skill Points at each Level:** 2 + Int modifier.\
-**Hit Die:** d10.
+**Hit Die:** d10
 
 ### Class Features
 

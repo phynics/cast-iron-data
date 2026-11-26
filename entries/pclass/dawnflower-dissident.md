@@ -14,7 +14,7 @@ page = "20"
 [fields]
 kind = "class"
 class_type = "prestige"
-hit_die = "d8."
+hit_die = "d8"
 +++
 
 The church of Sarenrae is known across Golarion for its benevolence. In some regions, it is a faith
@@ -50,7 +50,7 @@ The Dawnflower Dissident's class skills are [Bluff](ref/skill/bluff) (Cha),
 [Sleight of Hand](ref/skill/sleight-of-hand) (Dex), and [Stealth](ref/skill/stealth) (Dex).
 
 **Skill Points at each Level:** 2 + Int modifier.\
-**Hit Die:** d8.
+**Hit Die:** d8
 
 ### Class Features
 

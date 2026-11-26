@@ -13,7 +13,8 @@ page = "212"
 
 [fields]
 kind = "spell"
-school = "abjuration [chaotic, evil, good, or lawful]"
+school = "abjuration"
+descriptors = ["chaotic", "evil", "good", "lawful"]
 levels = [
   { class = "Antipaladin", level = 2 },
   { class = "Inquisitor", level = 2 },

@@ -17,7 +17,7 @@ page = "311"
 [fields]
 kind = "spell"
 school = "conjuration"
-subschools = ["Creation"]
+subschools = ["creation"]
 levels = [
   { class = "Adept", level = 5 },
   { class = "Arcanist", level = 5 },
@@ -52,7 +52,7 @@ Duration: see text
 Saving throw: none
 Spell resistance: no
 Effect: unattended, nonmagical object of nonliving matter, up to 1 cu. ft./level
-Subschool: Creation
+Subschool: creation
 :::
 
 ### Major Creation

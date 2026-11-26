@@ -14,8 +14,8 @@ kind = "creature"
 cr = "10"
 creature_type = "undead"
 subtypes = ["augmented humanoid", "human", "mythic"]
-size = "Medium"
-alignment = "NE"
+size = "medium"
+alignment = "neutral evil"
 ac = "29, touch 16, flat-footed 24 (+3 armor, +1 deflection, +4 Dex, +1 dodge, +10 natural)"
 hp = "117 (7d10+74); fast healing 5"
 fortitude = "+11"
@@ -31,8 +31,8 @@ abilities = ["26", "18", "-", "14", "10", "19"]
 ::: statblock
 CR: 10
 XP: 9,600
-Alignment: NE
-Size: Medium
+Alignment: neutral evil
+Size: medium
 Type: Undead (augmented humanoid, human, mythic)
 Race: human vampire fighter 7
 Init: +12M

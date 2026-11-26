@@ -14,7 +14,7 @@ page = "120"
 [fields]
 kind = "spell"
 school = "illusion"
-subschools = ["Figment"]
+subschools = ["figment"]
 levels = [
   { class = "Arcanist", level = 4 },
   { class = "Bloodrager", level = 4 },
@@ -48,7 +48,7 @@ Duration: 1 minute/level
 Saving throw: none
 Spell resistance: no
 Target: you
-Subschool: Figment
+Subschool: figment
 :::
 
 You create several illusory doubles of yourself, where you and each image all seem slightly off or

@@ -14,7 +14,7 @@ page = "105"
 [fields]
 kind = "spell"
 school = "conjuration"
-subschools = ["Creation"]
+subschools = ["creation"]
 levels = [
   { class = "Arcanist", level = 2 },
   { class = "Druid", level = 2 },
@@ -45,7 +45,7 @@ Duration: 1 hour/level (d) (see text)
 Saving throw: none
 Spell resistance: no
 Target: 5 cubic feet of earth or mud
-Subschool: Creation
+Subschool: creation
 :::
 
 You create a Small minion out of mud, and it obeys your commands. The mud buddy has AC 12, 10 hit

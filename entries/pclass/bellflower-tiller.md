@@ -17,7 +17,7 @@ page = "10"
 [fields]
 kind = "class"
 class_type = "prestige"
-hit_die = "d8."
+hit_die = "d8"
 +++
 
 Perhaps no group has done more to sow the seeds of freedom in devil-haunted Cheliax than the
@@ -69,7 +69,7 @@ The Bellflower Tiller's class skills are [Acrobatics](ref/skill/acrobatics) (Dex
 [Stealth](ref/skill/stealth) (Dex), and [Survival](ref/skill/survival) (Wis).
 
 **Skill Points at each Level:** 6 + Int modifier.\
-**Hit Die:** d8.
+**Hit Die:** d8
 
 ### Class Features
 

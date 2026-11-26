@@ -14,7 +14,7 @@ page = "14"
 [fields]
 kind = "class"
 class_type = "prestige"
-hit_die = "d10."
+hit_die = "d10"
 +++
 
 With Aroden's death came the Age of Lost Omens, the tumultuous time in which imperial Lung Wa
@@ -45,7 +45,7 @@ The Devoted Muse's class skills are [Acrobatics](ref/skill/acrobatics) (Dex),
 (Int), Perception (Wis), Perform (all) (Cha), Sense Motive (Wis), Sleight of Hand (Dex), Swim (Str).
 
 **Skill Points at each Level:** 4 + Int modifier.\
-**Hit Die:** d10.
+**Hit Die:** d10
 
 ### Class Features
 

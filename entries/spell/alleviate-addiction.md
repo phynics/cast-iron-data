@@ -14,7 +14,7 @@ page = "19"
 [fields]
 kind = "spell"
 school = "conjuration"
-subschools = ["Healing"]
+subschools = ["healing"]
 levels = [
   { class = "Alchemist", level = 1 },
   { class = "Cleric", level = 1 },
@@ -50,7 +50,7 @@ Duration: 1 hour/level
 Saving throw: Fortitude negates (harmless)
 Spell resistance: yes (harmless)
 Target: creature touched
-Subschool: Healing
+Subschool: healing
 :::
 
 The subject ignores the effects of addictions. The subject can naturally recover from damage dealt

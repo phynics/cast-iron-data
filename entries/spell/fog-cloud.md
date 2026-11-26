@@ -17,7 +17,7 @@ page = "11"
 [fields]
 kind = "spell"
 school = "conjuration"
-subschools = ["Creation"]
+subschools = ["creation"]
 levels = [
   { class = "Arcanist", level = 2 },
   { class = "Druid", level = 2 },
@@ -51,7 +51,7 @@ Duration: 10 minutes/level
 Saving throw: none
 Spell resistance: no
 Effect: fog spreads in 20-ft. radius
-Subschool: Creation
+Subschool: creation
 :::
 
 A bank of fog billows out from the point you designate. The fog obscures all sight, including

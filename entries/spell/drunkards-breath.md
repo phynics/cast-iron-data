@@ -17,7 +17,7 @@ page = "61"
 [fields]
 kind = "spell"
 school = "conjuration"
-subschools = ["Creation"]
+subschools = ["creation"]
 levels = [
   { class = "Bard", level = 2 },
   { class = "Cleric", level = 2 },
@@ -47,7 +47,7 @@ Duration: 1 round/level
 Saving throw: Fortitude negates; see text
 Spell resistance: no
 Area: cone-shaped burst
-Subschool: Creation
+Subschool: creation
 :::
 
 This spell emanates from your mouth and functions like [stinking cloud](ref/spell/stinking-cloud),

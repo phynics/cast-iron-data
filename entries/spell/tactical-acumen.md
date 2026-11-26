@@ -14,7 +14,7 @@ page = "246"
 [fields]
 kind = "spell"
 school = "enchantment"
-subschools = ["Compulsion"]
+subschools = ["compulsion"]
 descriptors = ["mind-affecting"]
 levels = [
   { class = "Arcanist", level = 2 },
@@ -52,7 +52,7 @@ Duration: 1 round/level (D)
 Saving throw: none
 Spell resistance: no
 Area: The caster and all allies within a 30-ft.-radius burst, centered on the caster
-Subschool: Compulsion
+Subschool: compulsion
 Descriptors: mind-affecting
 :::
 

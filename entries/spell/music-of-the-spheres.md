@@ -14,7 +14,7 @@ page = "59"
 [fields]
 kind = "spell"
 school = "conjuration"
-subschools = ["Healing"]
+subschools = ["healing"]
 descriptors = ["sonic"]
 levels = [
   { class = "Bard", level = 5 },
@@ -46,7 +46,7 @@ Duration: concentration, up to 1 round per level
 Saving throw: none
 Spell resistance: yes
 Area: 20-ft.-radius spherical emanation, centered on you
-Subschool: Healing
+Subschool: healing
 Descriptors: sonic
 :::
 

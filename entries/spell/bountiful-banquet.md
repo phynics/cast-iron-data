@@ -14,7 +14,7 @@ page = "205"
 [fields]
 kind = "spell"
 school = "conjuration"
-subschools = ["Creation"]
+subschools = ["creation"]
 levels = [
   { class = "Bard", level = 4 },
   { class = "Cleric", level = 4 },
@@ -47,7 +47,7 @@ Duration: 1 hour; see text
 Saving throw: none
 Spell resistance: no
 Effect: feast for two creatures/level
-Subschool: Creation
+Subschool: creation
 :::
 
 You conjure a beautiful and delicious feast with hors d-oeuvres, four courses worth of food, and

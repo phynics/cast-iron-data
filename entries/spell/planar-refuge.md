@@ -14,7 +14,7 @@ page = "31"
 [fields]
 kind = "spell"
 school = "conjuration"
-subschools = ["Creation"]
+subschools = ["creation"]
 levels = [
   { class = "Arcanist", level = 7 },
   { class = "Cleric", level = 7 },
@@ -49,7 +49,7 @@ Duration: 1 day/level
 Saving throw: none
 Spell resistance: no
 Effect: 50-ft.-radius area of safe environment
-Subschool: Creation
+Subschool: creation
 :::
 
 This spell enforces the rules of the Material Plane on other planes of existence. Upon casting this

@@ -16,60 +16,56 @@ page = "55"
 
 [fields]
 kind = "archetype"
+features = [
+  { anchor = "animal-companion" },
+  { anchor = "brachiation", level = 1 },
+  { anchor = "improved-unarmed-strike", level = 2 },
+  { anchor = "tree-stride", level = 10 },
+]
 trades = [
-  { replaces = "Animal focus", feature = "animal-focus" },
-  { replaces = "second animal focus", feature = "second-animal-focus" },
-  { replaces = "Precise companion", feature = "precise-companion" },
-  { replaces = "Raise animal companion", feature = "raise-animal-companion" },
-  { alters = "Animal companion", feature = "animal-companion" },
+  { replaces = "Animal focus", feature = "animal-focus", by = ["brachiation"] },
+  { replaces = "second animal focus", feature = "second-animal-focus", by = ["brachiation"] },
+  { replaces = "Precise companion", feature = "precise-companion", by = ["improved-unarmed-strike"] },
+  { replaces = "Raise animal companion", feature = "raise-animal-companion", by = ["tree-stride"] },
+  { alters = "Animal companion", feature = "animal-companion", by = ["animal-companion"] },
 ]
 +++
 
 Some hunters are masters of the wild. Whether raised by apes or having some other link with simian
 creatures, these hunters glide through the wilderness with ease.
 
-**Animal Companion**
+## Animal Companion {#animal-companion}
 
-**Alters:** Animal companion
+As a free action, a treestrider must select an [ape](ref/companion/ape) as her animal companion.
 
-**Info:** A treestrider must select an [ape](ref/companion/ape) as her animal companion.
+This alters animal companion.
 
-**Brachiation (Ex)**
+## Brachiation (Ex) {#brachiation}
 
-**Free:** A treestrider can gain a climb speed equal to half her base speed. In addition, she can
-use her climb speed to move through the canopies of forests or jungles, provided the limbs of the
-trees are strong enough to support her weight. The treestrider's companion gains a +10-foot
-enhancement bonus to its climb speed.
+A treestrider can gain a climb speed equal to half her base speed as a free action for 1 minute per
+hunter level per day. This duration must be spent in 1-minute increments. In addition, she can use
+her climb speed to move through the canopies of forests or jungles, provided the limbs of the trees
+are strong enough to support her weight. The treestrider's companion gains a +10-foot enhancement
+bonus to its climb speed. At 8th level, the treestrider's climb speed increases to equal her base
+speed, the duration of her brachiation increases to 10 minutes per hunter level per day (usable in
+10-minute increments), and the enhancement bonus to her companion's climb speed increases to +20
+feet. At 15th level, she can use brachiation with no limit on the duration.
 
-**At 15th Level:** She can use _brachiation_ with no limit on the duration.
+This replaces animal focus and second animal focus.
 
-**At 8th Level:** The treestrider's climb speed increases to equal her base speed, the duration of
-her _brachiation_ increases to 10 minutes per hunter level per day (usable in 10-minute increments),
-and the enhancement bonus to her companion's climb speed increases to +20 feet.
+## Improved Unarmed Strike (Ex) {#improved-unarmed-strike}
 
-**Replaces:** Animal focus, second animal focus
-
-**Usage:** 1 minute/day per hunter level; these minutes need not be consecutive, but must be spent
-in 1-minute increments
-
-**Improved Unarmed Strike (Ex)**
-
-**Ability:** A treestrider gains [Improved Unarmed Strike](ref/feat/improved-unarmed-strike) as a
+At 2nd level, a treestrider gains [Improved Unarmed Strike](ref/feat/improved-unarmed-strike) as a
 bonus feat.
 
-**Gained:** At 2nd Level
+This replaces precise companion.
 
-**Replaces:** Precise companion
+## Tree Stride (Sp) {#tree-stride}
 
-**Tree Stride (Sp)**
+At 10th level, a treestrider can use a full-round action to move between two trees, as per the spell
+_[tree stride](ref/spell/tree-stride)_. Unlike the spell, this ability has a duration of
+instantaneous and the treestrider can make only a single transfer. She can bring her animal
+companion with her, but if she does, her companion can't take any actions that round. Tree stride
+can be used a number of times per day equal to 3 + the hunter's Wisdom modifier.
 
-**Fullround:** A treestrider can move between two trees, as per the spell
-[tree stride](ref/spell/tree-stride). Unlike the spell, this ability has a duration of instantaneous
-and the treestrider can make only a single transfer. She can bring her animal companion with her,
-but if she does, her companion can't take any actions that round.
-
-**Gained:** At 10th Level
-
-**Replaces:** Raise animal companion
-
-**Usage:** Wis3 modifier times/day
+This replaces raise animal companion.

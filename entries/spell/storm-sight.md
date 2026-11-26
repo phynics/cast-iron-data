@@ -14,7 +14,7 @@ page = "184"
 [fields]
 kind = "spell"
 school = "divination"
-subschools = ["Scrying"]
+subschools = ["scrying"]
 levels = [
   { class = "Arcanist", level = 2 },
   { class = "Cleric", level = 2 },
@@ -49,7 +49,7 @@ Duration: 1 minute/level (D)
 Saving throw: Will negates (harmless)
 Spell resistance: yes (harmless)
 Target: you
-Subschool: Scrying
+Subschool: scrying
 :::
 
 You step into any magical or naturally occurring storm and commune directly with the power of the

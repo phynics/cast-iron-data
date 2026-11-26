@@ -14,7 +14,7 @@ page = "359"
 [fields]
 kind = "spell"
 school = "conjuration"
-subschools = ["Teleportation"]
+subschools = ["teleportation"]
 levels = [
   { class = "Arcanist", level = 9 },
   { class = "Psychic", level = 9 },
@@ -46,7 +46,7 @@ Duration: 10 minutes/level (D)
 Saving throw: none
 Spell resistance: yes
 Effect: 5-ft.-radius circle that teleports those who activate it
-Subschool: Teleportation
+Subschool: teleportation
 :::
 
 You create a circle on the floor or other horizontal surface that teleports, as

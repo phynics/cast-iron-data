@@ -17,7 +17,7 @@ page = "52"
 [fields]
 kind = "class"
 class_type = "prestige"
-hit_die = "d6."
+hit_die = "d6"
 +++
 
 While genies chafe at being bound and bottled, they respect power - especially masters of the art of
@@ -45,7 +45,7 @@ The Genie Binder's class skills are [Bluff](ref/skill/bluff) (Cha), [Diplomacy](
 (Wis), and [Spellcraft](ref/skill/spellcraft) (Int).
 
 **Skill Points at each Level:** 2 + Int modifier.\
-**Hit Die:** d6.
+**Hit Die:** d6
 
 ### Class Features
 

@@ -14,7 +14,7 @@ page = "27"
 [fields]
 kind = "spell"
 school = "divination"
-subschools = ["Scrying"]
+subschools = ["scrying"]
 levels = [
   { class = "Cleric", level = 3 },
   { class = "Druid", level = 2 },
@@ -50,7 +50,7 @@ Saving throw: none
 Spell resistance: no
 Target: nonmagical freshwater waterway
 Effect: magical sensor
-Subschool: Scrying
+Subschool: scrying
 :::
 
 You can view events transpiring along a natural watercourse you touch. You can see anything on or

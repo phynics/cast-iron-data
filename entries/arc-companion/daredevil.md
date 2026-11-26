@@ -12,36 +12,37 @@ page = "187"
 
 [fields]
 kind = "archetype"
+features = [
+  { anchor = "artful-acrobat" },
+  { anchor = "uncanny-dodge", level = 6 },
+  { anchor = "devil-may-care", level = 9 },
+]
 trades = [
-  { replaces = "Share Spells" },
-  { replaces = "Devotion" },
-  { replaces = "Multiattack" },
+  { replaces = "Share Spells", by = ["artful-acrobat"] },
+  { replaces = "Devotion", by = ["uncanny-dodge"] },
+  { replaces = "Multiattack", by = ["devil-may-care"] },
 ]
 +++
 
 Daredevil companions join the fray with graceful leaps or swooping dives, heedless of the danger.
 
-**Artful Acrobat (Ex)**
+## Artful Acrobat (Ex) {#artful-acrobat}
 
-**Passive:** A daredevil gains a competence bonus on Acrobatics checks equal to
+A daredevil gains a competence bonus on Acrobatics checks equal to
 [half](ref/misc/fractions-and-rounding) its Hit Dice.
 
-**Replaces:** Share Spells
+This replaces share spells.
 
-**Uncanny Dodge (Ex)**
+## Uncanny Dodge (Ex) {#uncanny-dodge}
 
-**Ability:** A daredevil gains [Mobility](ref/feat/mobility) as a bonus feat without needing to meet
-the prerequisites. If it already has Mobility, it gains [Spring Attack](ref/feat/spring-attack)
+At 6th level, a daredevil gains [Mobility](ref/feat/mobility) as a bonus feat without needing to
+meet the prerequisites. If it already has Mobility, it gains [Spring Attack](ref/feat/spring-attack)
 instead.
 
-**Gained:** At 6th Level
+This replaces devotion.
 
-**Replaces:** Devotion
+## Devil May Care (Ex) {#devil-may-care}
 
-**Devil May Care (Ex)**
+At 9th level, a daredevil can't be flanked.
 
-**Gained:** At 9th Level
-
-**Passive:** A daredevil can't be flanked.
-
-**Replaces:** Multiattack
+This replaces Multiattack.

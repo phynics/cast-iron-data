@@ -14,8 +14,7 @@ page = "21"
 [fields]
 kind = "spell"
 school = "illusion"
-subschools = ["Glamer"]
-descriptors = ["glamer"]
+subschools = ["glamer"]
 levels = [
   { class = "Antipaladin", level = 3 },
   { class = "Arcanist", level = 3 },
@@ -50,8 +49,7 @@ Duration: 1 round/level (D)
 Saving throw: Will partial
 Spell resistance: yes
 Target: creature touched
-Subschool: Glamer
-Descriptors: glamer
+Subschool: glamer
 :::
 
 You cause the target to become invisible and silent, but only to his allies. Any creature with an

@@ -14,7 +14,7 @@ page = "41"
 [fields]
 kind = "spell"
 school = "transmutation"
-subschools = ["Polymorph"]
+subschools = ["polymorph"]
 levels = [
   { class = "Alchemist", level = 3 },
   { class = "Arcanist", level = 3 },
@@ -48,7 +48,7 @@ Duration: 10 minutes/level (D)
 Saving throw: none
 Spell resistance: no
 Target: you
-Subschool: Polymorph
+Subschool: polymorph
 :::
 
 When you cast this spell, you assume the form of a native outsider from the following list: aasimar,

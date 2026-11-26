@@ -14,8 +14,8 @@ provenance = [
 kind = "creature"
 creature_type = "humanoid"
 subtypes = ["human", "shapechanger"]
-size = "Large"
-alignment = "LG"
+size = "large"
+alignment = "lawful good"
 ac = "23, touch 11, flat-footed 21 (+4 armor, +2 Dex, +8 natural, -1 size)"
 hp = "46 (4d10+20)"
 fortitude = "+6"
@@ -30,8 +30,8 @@ abilities = ["21", "14", "19", "12", "12", "8"]
 
 ::: statblock
 XP: 1,200
-Alignment: LG
-Size: Large
+Alignment: lawful good
+Size: large
 Type: Humanoid (human, shapechanger)
 Init: +2
 Senses: [low-light vision](ref/rule/low-light-vision), scent; Perception +8

@@ -14,7 +14,7 @@ page = "107"
 [fields]
 kind = "spell"
 school = "transmutation"
-subschools = ["Polymorph"]
+subschools = ["polymorph"]
 levels = [
   { class = "Alchemist", level = 2 },
   { class = "Antipaladin", level = 3 },
@@ -52,7 +52,7 @@ Duration: 24 hours (D)
 Saving throw: Will negates (harmless)
 Spell resistance: yes (harmless)
 Target: willing drow touched
-Subschool: Polymorph
+Subschool: polymorph
 :::
 
 > _[Drow](ref/race/drow) have access to the following spell._

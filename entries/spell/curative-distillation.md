@@ -14,7 +14,7 @@ page = "8"
 [fields]
 kind = "spell"
 school = "conjuration"
-subschools = ["Healing"]
+subschools = ["healing"]
 levels = [
   { class = "Alchemist", level = 2 },
   { class = "Cleric", level = 3 },
@@ -45,7 +45,7 @@ Duration: instantaneous
 Saving throw: Will half (harmless)
 Spell resistance: yes (harmless)
 Target: one living creature touched
-Subschool: Healing
+Subschool: healing
 :::
 
 You concentrate the healing potential of the material component so that it's exceptionally potent

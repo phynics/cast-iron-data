@@ -1,0 +1,59 @@
+[[edit]]
+entry = "ref/arc-spiritualist/involutionist"
+anchor = "spirit-phantom"
+note = "hand-written from print (Adventurer's Guide p. 168, ruling 18): the table of the spirits and their associated skills, which the extraction ran into the paragraph, as a Markdown table; the spirit names keep the links of the corpus"
+text = '''
+An involutionist's phantom is manifested from her own psyche and invested into the spirit-stuff of the world around her. Rather than an emotional focus, the involutionist selects a spirit from those available to the [shaman](ref/class/shaman). A spirit phantom always has good Fortitude and Reflex saves, and it gains a number of ranks equal to the phantom's Hit Dice in two skills depending on the spirit it represents, as summarized on the table below.
+
+| Spirit | Associated Skills |
+|---|---|
+| [Battle](ref/shamanspirit/battle) | Intimidate and Sense Motive |
+| [Bones](ref/shamanspirit/bones) | Heal and Stealth |
+| [Flame](ref/shamanspirit/flame) | Acrobatics and Intimidate |
+| [Heavens](ref/shamanspirit/heavens) | Acrobatics and Fly |
+| [Life](ref/shamanspirit/life) | Diplomacy and Heal |
+| [Lore](ref/shamanspirit/lore) | Knowledge (arcana) and Linguistics |
+| [Nature](ref/shamanspirit/nature) | Knowledge (nature) and Survival |
+| [Stone](ref/shamanspirit/stone) | Appraise and Knowledge (engineering) |
+| [Waves](ref/shamanspirit/waves) | Diplomacy and Swim |
+| [Wind](ref/shamanspirit/wind) | Bluff and Sense Motive |
+
+When fully manifested, the involutionist's spirit phantom gains the special ability normally applied to a shaman's spirit animal. The spirit phantom also gains a single hex from the list of those provided by that spirit. At 7th, 12th, and 17th levels, the spirit phantom gains one additional hex from this list.
+
+This ability alters phantom and replaces its emotional focus abilities.
+'''
+
+[[edit]]
+entry = "ref/arc-brawler/winding-path-renegade"
+anchor = "mystery-of-unfolding-wind"
+note = "hand-written from print (Adventurer's Guide p. 106): the paragraph goes on after the words \"enormous leaps.\"; the extraction cut it there and ran the rest into the table that follows"
+text = '''
+At 2nd level, the winding path renegade adds 10 to the range increments of ranged weapons she wields and gains [Deflect Arrows](ref/feat/deflect-arrows) as a bonus feat. At 8th level, she can harness the power of the wind to make enormous leaps. As a move action, she can leap without attempting an Acrobatics check, jumping any distance up to her speed (upward movement counts as double, as when flying). She can leap in this way a number of times per day equal to her class level. At 14th level, when using the Deflect Arrows feat, the winding path renegade can send one projectile back at her attacker, using the same attack roll and damage roll the attacker rolled against her. Even if the deflected attack had more than one projectile (as with [Manyshot](ref/feat/manyshot)), the winding path renegade sends only one projectile back at the attacker. The others are deflected as normal.
+'''
+
+[[add]]
+entry = "ref/arc-brawler/winding-path-renegade"
+anchor = "monk-moves-table"
+head = "Monk Moves"
+parent = "mystery-of-untwisting-iron-monk-moves"
+after = "mystery-of-untwisting-iron-monk-moves"
+note = "hand-written from print (Adventurer's Guide p. 106, ruling 18): the Monk Moves table that print sets under the feature, as a Markdown table; the extraction read its title and header as heads"
+text = '''
+| Monk Ability | Level Gained |
+|---|---|
+| [Evasion](ref/ability/evasion) | 4th |
+| Fast movement | 4th |
+| Slow fall | 4th |
+| High jump | 5th |
+| [Improved evasion](ref/ability/improved-evasion) | 9th |
+'''
+
+[[edit]]
+entry = "ref/arc-unchained-summoner/devil-binder"
+anchor = "infernal-affinity-ex-su-or-sp"
+note = "hand-written from print (Adventurer's Guide p. 95): the sidebar The Test, which print sets at the foot of the page, was read in the middle of the paragraph; the paragraph is whole here and the sidebar is left out"
+text = '''
+A devil binder wrenches Hell's power from her eidolon. This grants the devil binder the bloodline powers of the [infernal](ref/sorcbloodline/infernal) sorcerer bloodline (gained at the following levels): corrupting touch (4th), infernal resistances (8th), hellfire (12th), on dark wings (16th), and power of the Pit (20th). The devil binder treats her summoner level as her sorcerer level for the purpose of determining their effects.
+
+This replaces bond senses, shield ally, transposition, greater shield ally, merge forms, and twin eidolon.
+'''

@@ -14,7 +14,7 @@ page = "263"
 [fields]
 kind = "spell"
 school = "conjuration"
-subschools = ["Healing"]
+subschools = ["healing"]
 levels = [
   { class = "Adept", level = 1 },
   { class = "Alchemist", level = 1 },
@@ -57,7 +57,7 @@ Duration: instantaneous
 Saving throw: Will half (harmless)
 Spell resistance: yes (harmless); see text
 Target: creature touched
-Subschool: Healing
+Subschool: healing
 :::
 
 When laying your hand upon a living creature, you channel positive energy that cures 1d8 points of

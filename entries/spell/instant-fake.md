@@ -14,7 +14,7 @@ page = "217"
 [fields]
 kind = "spell"
 school = "illusion"
-subschools = ["Figment"]
+subschools = ["figment"]
 levels = [
   { class = "Arcanist", level = 4 },
   { class = "Bard", level = 3 },
@@ -50,7 +50,7 @@ Duration: 1 minute/level
 Saving throw: Will disbelief (if interacted with)
 Spell resistance: no
 Target: one object weighting no more than 1 lb./level
-Subschool: Figment
+Subschool: figment
 :::
 
 You create an illusory duplicate of the target item. If you hold the charge on this spell, you can

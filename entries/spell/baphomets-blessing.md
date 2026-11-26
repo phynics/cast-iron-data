@@ -10,7 +10,7 @@ page = "229"
 [fields]
 kind = "spell"
 school = "transmutation"
-subschools = ["Polymorph"]
+subschools = ["polymorph"]
 levels = [
   { class = "Cleric", level = 4 },
   { class = "Druid", level = 4 },
@@ -44,7 +44,7 @@ Duration: 1 round/level
 Saving throw: Fortitude negates
 Spell resistance: yes
 Target: one living creature
-Subschool: Polymorph
+Subschool: polymorph
 :::
 
 You change the target's head into that of a bull. The creature's Intelligence becomes 2, and it

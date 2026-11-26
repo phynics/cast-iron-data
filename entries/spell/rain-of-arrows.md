@@ -14,7 +14,7 @@ page = "31"
 [fields]
 kind = "spell"
 school = "conjuration"
-subschools = ["Creation"]
+subschools = ["creation"]
 levels = [
   { class = "Arcanist", level = 8 },
   { class = "Sorcerer", level = 8 },
@@ -42,7 +42,7 @@ Duration: instantaneous
 Saving throw: Reflex half
 Spell resistance: no
 Effect: 15-ft.-radius cloud of arrows
-Subschool: Creation
+Subschool: creation
 :::
 
 You point your finger and conjure a cloud of magical arrows that rain down on any creatures and

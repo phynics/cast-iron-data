@@ -14,8 +14,7 @@ page = "223"
 [fields]
 kind = "spell"
 school = "illusion"
-subschools = ["Glamer"]
-descriptors = ["glamer"]
+subschools = ["glamer"]
 levels = [
   { class = "Arcanist", level = 4 },
   { class = "Bard", level = 4 },
@@ -56,8 +55,7 @@ Duration: 10 minutes/level
 Saving throw: Will negates (object)
 Spell resistance: yes (object)
 Target: up to one natural or manufactured weapon per 3 caster levels
-Subschool: Glamer
-Descriptors: glamer
+Subschool: glamer
 :::
 
 The target weapons and any ammunition they fire make no sound as part of their normal functions as a

@@ -14,7 +14,7 @@ page = "234"
 [fields]
 kind = "spell"
 school = "conjuration"
-subschools = ["Teleportation"]
+subschools = ["teleportation"]
 descriptors = ["language-dependant"]
 levels = [
   { class = "Antipaladin", level = 3 },
@@ -44,7 +44,7 @@ Duration: instantaneous
 Saving throw: none
 Spell resistance: yes
 Target: one willing creature that is grappled
-Subschool: Teleportation
+Subschool: teleportation
 Descriptors: language-dependant
 :::
 

@@ -17,8 +17,7 @@ page = "314"
 [fields]
 kind = "spell"
 school = "illusion"
-subschools = ["Glamer"]
-descriptors = ["glamer"]
+subschools = ["glamer"]
 levels = [
   { class = "Arcanist", level = 5 },
   { class = "Bard", level = 5 },
@@ -50,8 +49,7 @@ Duration: concentration+1 hour/level (D)
 Saving throw: Will disbelief (if interacted with)
 Spell resistance: no
 Area: one 20-ft. cube/level (S)
-Subschool: Glamer
-Descriptors: glamer
+Subschool: glamer
 :::
 
 This spell functions like [hallucinatory terrain](ref/spell/hallucinatory-terrain), except that it

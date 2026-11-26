@@ -17,7 +17,7 @@ page = "60"
 [fields]
 kind = "class"
 class_type = "prestige"
-hit_die = "d10."
+hit_die = "d10"
 +++
 
 For pain tasters, agony is more than a pleasure - it's a path to power. Until recently, pain tasting
@@ -44,7 +44,7 @@ The Pain Taster's class skills are [Disguise](ref/skill/disguise) (Cha),
 (Int), [Sense Motive](ref/skill/sense-motive) (Wis), and [Survival](ref/skill/survival) (Wis).
 
 **Skill Points at each Level:** 2 + Int modifier.\
-**Hit Die:** d10.
+**Hit Die:** d10
 
 ### Class Features
 

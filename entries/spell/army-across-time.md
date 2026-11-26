@@ -17,7 +17,7 @@ page = "30"
 [fields]
 kind = "spell"
 school = "conjuration"
-subschools = ["Summoning"]
+subschools = ["summoning"]
 levels = [
   { class = "Arcanist", level = 5 },
   { class = "Bard", level = 4 },
@@ -57,7 +57,7 @@ Duration: 1 round/level
 Saving throw: none
 Spell resistance: no
 Effect: five 5-ft. cubes of temporal possibility plus one additional cube/level
-Subschool: Summoning
+Subschool: summoning
 :::
 
 ### Army Across Time

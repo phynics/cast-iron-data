@@ -14,7 +14,7 @@ page = "22"
 [fields]
 kind = "class"
 class_type = "prestige"
-hit_die = "d6."
+hit_die = "d6"
 +++
 
 The ancient traditions of Thassilonian magic became mired in the culture of sin due to the legacy of
@@ -49,7 +49,7 @@ The Runeguard's class skills are [Appraise](ref/skill/appraise) (Int), [Heal](re
 [Spellcraft](ref/skill/spellcraft) (Int), and [Use Magic Device](ref/skill/use-magic-device) (Cha).
 
 **Skill Points at each Level:** 2 + Int modifier.\
-**Hit Die:** d6.
+**Hit Die:** d6
 
 ### Class Features
 

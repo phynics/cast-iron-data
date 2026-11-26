@@ -17,7 +17,7 @@ page = "17"
 [fields]
 kind = "spell"
 school = "conjuration"
-subschools = ["Teleportation"]
+subschools = ["teleportation"]
 levels = [
   { class = "Alchemist", level = 3 },
   { class = "Arcanist", level = 3 },
@@ -53,7 +53,7 @@ Duration: instantaneous
 Saving throw: none
 Spell resistance: yes
 Target: one willing creature touched
-Subschool: Teleportation
+Subschool: teleportation
 :::
 
 ### Phase Step

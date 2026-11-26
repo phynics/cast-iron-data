@@ -17,7 +17,7 @@ page = "22"
 [fields]
 kind = "class"
 class_type = "prestige"
-hit_die = "d10."
+hit_die = "d10"
 +++
 
 Golden Legionnaires are members of the [Eagle Knights](ref/rule/aff-vangard) branch known formally
@@ -66,7 +66,7 @@ The Golden Legionnaire's class skills are [Climb](ref/skill/climb) (Str), [Heal]
 [Swim](ref/skill/swim) (Str).
 
 **Skill Points at each Level:** 2 + Int modifier.\
-**Hit Die:** d10.
+**Hit Die:** d10
 
 ### Class Features
 

@@ -14,7 +14,7 @@ page = "9"
 [fields]
 kind = "spell"
 school = "illusion"
-subschools = ["Shadow"]
+subschools = ["shadow"]
 levels = [
   { class = "Arcanist", level = 1 },
   { class = "Bard", level = 1 },
@@ -48,7 +48,7 @@ Duration: 1 minute/level (D)
 Saving throw: Will negates (harmless)
 Spell resistance: yes (harmless)
 Target: creature touched
-Subschool: Shadow
+Subschool: shadow
 :::
 
 In areas of darkness, the target of shadowfade is invisible to creatures using

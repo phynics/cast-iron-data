@@ -12,10 +12,10 @@ provenance = [
 [fields]
 kind = "creature"
 cr = "6"
-creature_type = "magicalBeast"
+creature_type = "magical beast"
 subtypes = ["cold", "mythic"]
-size = "Large"
-alignment = "NE"
+size = "large"
+alignment = "neutral evil"
 ac = "19, touch 10, flat-footed 18 (+1 Dex, +9 natural, -1 size)"
 hp = "77 (6d10+44)"
 fortitude = "+9"
@@ -29,8 +29,8 @@ abilities = ["22", "13", "18", "9", "13", "10"]
 ::: statblock
 CR: 6
 XP: 2,400
-Alignment: NE
-Size: Large
+Alignment: neutral evil
+Size: large
 Type: Magical Beast (cold, mythic)
 Init: +5
 Senses: [darkvision](ref/rule/darkvision) 60 ft., [low-light vision](ref/rule/low-light-vision), scent; Perception +11

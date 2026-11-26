@@ -14,8 +14,7 @@ page = "31"
 [fields]
 kind = "spell"
 school = "illusion"
-subschools = ["Glamer"]
-descriptors = ["glamer"]
+subschools = ["glamer"]
 levels = [
   { class = "Medium", level = 4 },
   { class = "Mesmerist", level = 4 },
@@ -45,8 +44,7 @@ Duration: 1 round/level (D)
 Saving throw: none
 Spell resistance: no
 Area: 60-ft.-radius emanation centered on a point in space
-Subschool: Glamer
-Descriptors: glamer
+Subschool: glamer
 :::
 
 Creatures within the area cannot send or receive telepathic messages, and anyone in the area casting

@@ -14,7 +14,7 @@ page = "236"
 [fields]
 kind = "spell"
 school = "conjuration"
-subschools = ["Healing"]
+subschools = ["healing"]
 descriptors = ["earth", "water"]
 levels = [
   { class = "Druid", level = 3 },
@@ -44,7 +44,7 @@ Duration: 1 round/level (D)
 Saving throw: none
 Spell resistance: no
 Area: dust, earth, sand, or water in one 5-ft. square/level
-Subschool: Healing
+Subschool: healing
 Descriptors: earth, water
 :::
 

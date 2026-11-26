@@ -14,7 +14,7 @@ page = "9"
 [fields]
 kind = "spell"
 school = "conjuration"
-subschools = ["Creation"]
+subschools = ["creation"]
 levels = [
   { class = "Arcanist", level = 2 },
   { class = "Cleric", level = 2 },
@@ -52,7 +52,7 @@ Duration: 1 round/level (D)
 Saving throw: none
 Spell resistance: no
 Effect: whip of earth and stone
-Subschool: Creation
+Subschool: creation
 :::
 
 A 15-foot-long lash of crumbling crystal and earth emerges from the palm of your hand. This weapon

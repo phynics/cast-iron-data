@@ -16,66 +16,69 @@ page = "47"
 
 [fields]
 kind = "archetype"
+features = [
+  { anchor = "summon-dinosaur" },
+  { anchor = "dinosaur-bond" },
+  { anchor = "dinosaur-shape" },
+  { anchor = "primeval-voice", level = 4 },
+]
 trades = [
-  { replaces = "Resist nature's lure", feature = "resist-nature-s-lure" },
-  { alters = "Nature's bond", feature = "nature-bond" },
-  { alters = "Wild shape", feature = "wild-shape" },
+  { replaces = "Resist nature's lure", feature = "resist-nature-s-lure", by = ["primeval-voice"] },
+  { alters = "Nature's bond", feature = "nature-bond", by = ["dinosaur-bond"] },
+  { alters = "Wild shape", feature = "wild-shape", by = ["dinosaur-shape"] },
+  { alters = "Spontaneous casting", feature = "spontaneous-casting", by = ["summon-dinosaur"] },
 ]
 +++
 
 A dinosaur druid speaks for the spirit of prehistoric nature, even taking the form of great beasts
 of legend.
 
-;;;ab\{title="Summon Dinosaur (Sp)" action=Ability icon=magic alter="Spontaneous casting"\}
+## Summon Dinosaur (Sp) {#summon-dinosaur}
 
-A dinosaur druid can summon a wide range of dinosaurs and related prehistoric beasts using
-[summon nature's ally](ref/spell/summon-natures-ally) spells. She adds the following options to
-these spells when using _spontaneous casting_ to cast such a spell.
+A dinosaur druid can summon a wide range of dinosaurs and related prehistoric beasts using _summon
+nature's ally_ spells. She adds the following options to these spells when using spontaneous casting
+to cast such a spell.
 
-**Summon Nature's Ally I:** Compsognathus
+_Summon Nature's Ally I:_ Compsognathus.
 
-**Summon Nature's Ally II:** Dimorphodon, troodon
+_Summon Nature's Ally II:_ Dimorphodon, troodon.
 
-**Summon Nature's Ally III:** Plesiosaurus, velociraptor
+_Summon Nature's Ally III:_ Plesiosaurus, velociraptor.
 
-**Summon Nature's Ally IV:** Dimetrodon, pachycephalosaurus, parasaurolophus
+_Summon Nature's Ally IV:_ Dimetrodon, pachycephalosaurus, parasaurolophus.
 
-**Summon Nature's Ally V:** Amargasaurus, ceratosaurus, iguanodon, kentrosaurus, styracosaurus
+_Summon Nature's Ally V:_ Amargasaurus, ceratosaurus, iguanodon, kentrosaurus, styracosaurus.
 
-**Summon Nature's Ally VI:** Allosaurus, quetzalcoatlus, tylosaurus
+_Summon Nature's Ally VI:_ Allosaurus, quetzalcoatlus, tylosaurus.
 
-**Summon Nature's Ally VII:** Therizinosaurus
+_Summon Nature's Ally VII:_ Therizinosaurus.
 
-**Summon Nature's Ally VIII:** Diplodocus, spinosaurus
+_Summon Nature's Ally VIII:_ Diplodocus, spinosaurus.
 
-**Summon Nature's Ally IX:** Giganotosaurus
+_Summon Nature's Ally IX:_ Giganotosaurus.
 
-;;;
+This alters spontaneous casting.
 
-**Dinosaur Bond (Ex)**
+## Dinosaur Bond (Ex) {#dinosaur-bond}
 
-**Alters:** Nature's bond
+A dinosaur druid must choose an animal companion as her nature's bond, and the animal companion must
+be a dinosaur (including those detailed in _Pathfinder RPG Bestiary_ volumes).
 
-**Choice:** A dinosaur druid must choose an animal companion as her _nature's bond,_ and the animal
-companion must be a dinosaur.
+This alters nature's bond.
 
-**Dinosaur Shape (Su)**
+## Dinosaur Shape (Su) {#dinosaur-shape}
 
-**Ability:** When she assumes the form of a dinosaur via _wild shape,_ she gains a +2 size bonus to
-her Constitution in addition to the other modifiers granted by
-_[beast shape](ref/spell/beast-shape)._ When she uses _wild shape_ to assume the form of a creature
-other than a dinosaur, the _wild shape_ effect lasts for only 1 minute per level, rather than 1 hour
-per level.
+A dinosaur druid specializes in assuming the form of dinosaurs when using wild shape. When she
+assumes the form of a dinosaur via wild shape, she gains a +2 size bonus to her Constitution in
+addition to the other modifiers granted by _[beast shape](ref/spell/beast-shape)_. When she uses
+wild shape to assume the form of a creature other than a dinosaur, the wild shape effect lasts for
+only 1 minute per level, rather than 1 hour per level.
 
-**Alters:** Wild shape
+This alters wild shape.
 
-**Flavor:** A dinosaur druid specializes in assuming the form of dinosaurs when using _wild shape._
+## Primeval Voice (Su) {#primeval-voice}
 
-**Primeval Voice (Su)**
+At 4th level, a dinosaur druid gains the ability to speak with dinosaurs (as per
+_[speak with animals](ref/spell/speak-with-animals)_) at all times.
 
-**Ability:** A dinosaur druid gains the ability to speak with dinosaurs (as per
-[speak with animals](ref/spell/speak-with-animals)) at all times.
-
-**Gained:** At 4th Level
-
-**Replaces:** Resist nature's lure
+This replaces resist nature's lure.

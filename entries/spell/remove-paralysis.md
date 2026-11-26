@@ -14,7 +14,7 @@ page = "332"
 [fields]
 kind = "spell"
 school = "conjuration"
-subschools = ["Healing"]
+subschools = ["healing"]
 levels = [
   { class = "Cleric", level = 2 },
   { class = "Inquisitor", level = 2 },
@@ -46,7 +46,7 @@ Duration: instantaneous
 Saving throw: Will negates (harmless)
 Spell resistance: yes (harmless)
 Targets: up to four creatures, no two of which can be more than 30 ft. apart
-Subschool: Healing
+Subschool: healing
 :::
 
 You can free one or more creatures from the effects of temporary paralysis or related magic,

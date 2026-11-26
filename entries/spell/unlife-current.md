@@ -17,7 +17,7 @@ page = "61"
 [fields]
 kind = "spell"
 school = "conjuration"
-subschools = ["Healing"]
+subschools = ["healing"]
 descriptors = ["water"]
 levels = [
   { class = "Antipaladin", level = 3 },
@@ -51,7 +51,7 @@ Duration: 1 round
 Saving throw: Will half
 Spell resistance: yes
 Area: current or portion of current up to 20 feet wide and 100 feet long
-Subschool: Healing
+Subschool: healing
 Descriptors: water
 :::
 

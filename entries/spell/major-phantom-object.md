@@ -17,7 +17,7 @@ page = "39"
 [fields]
 kind = "spell"
 school = "illusion"
-subschools = ["Shadow"]
+subschools = ["shadow"]
 descriptors = ["shadow"]
 levels = [
   { class = "Arcanist", level = 5 },
@@ -48,7 +48,7 @@ Duration: 10 minutes/level (D)
 Saving throw: none
 Spell resistance: no
 Effect: illusory, unattended, nonmagical object, up to 1 cu. ft./level
-Subschool: Shadow
+Subschool: shadow
 Descriptors: shadow
 :::
 

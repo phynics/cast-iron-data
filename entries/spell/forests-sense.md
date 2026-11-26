@@ -14,7 +14,7 @@ page = "231"
 [fields]
 kind = "spell"
 school = "divination"
-subschools = ["Scrying"]
+subschools = ["scrying"]
 levels = [
   { class = "Druid", level = 4 },
   { class = "Hunter", level = 3 },
@@ -44,7 +44,7 @@ Duration: 1 minute/level (d); see text
 Saving throw: Will negates
 Spell resistance: yes
 Target: one creature
-Subschool: Scrying
+Subschool: scrying
 :::
 
 You can sense the location of a target creature within range if it is also within 10 feet of a

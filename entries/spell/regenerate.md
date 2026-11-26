@@ -14,7 +14,7 @@ page = "331"
 [fields]
 kind = "spell"
 school = "conjuration"
-subschools = ["Healing"]
+subschools = ["healing"]
 levels = [
   { class = "Cleric", level = 7 },
   { class = "Druid", level = 9 },
@@ -45,7 +45,7 @@ Duration: instantaneous
 Saving throw: Fortitude negates (harmless)
 Spell resistance: yes (harmless)
 Target: living creature touched
-Subschool: Healing
+Subschool: healing
 :::
 
 The subject's severed body members (fingers, toes, hands, feet, arms, legs, tails, or even heads of

@@ -14,7 +14,7 @@ page = "24"
 [fields]
 kind = "class"
 class_type = "prestige"
-hit_die = "d8."
+hit_die = "d8"
 +++
 
 A secretive society brought into being during the early days of the Red Revolution in Galt, the Gray
@@ -49,7 +49,7 @@ The Gray Gardener's class skills are [Bluff](ref/skill/bluff) (Cha),
 [Stealth](ref/skill/stealth) (Dex).
 
 **Skill Points at each Level:** 6 + Int modifier.\
-**Hit Die:** d8.
+**Hit Die:** d8
 
 ### Class Features
 

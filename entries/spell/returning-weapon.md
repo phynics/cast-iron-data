@@ -14,7 +14,7 @@ page = "242"
 [fields]
 kind = "spell"
 school = "conjuration"
-subschools = ["Teleportation"]
+subschools = ["teleportation"]
 levels = [
   { class = "Arcanist", level = 2 },
   { class = "Bloodrager", level = 1 },
@@ -56,7 +56,7 @@ Duration: 1 minute/level
 Saving throw: Will negates (harmless) (object)
 Spell resistance: yes (harmless) (object)
 Target: one weapon that can be thrown
-Subschool: Teleportation
+Subschool: teleportation
 :::
 
 For the duration of the spell, the target weapon acts as if it had the returning weapon special

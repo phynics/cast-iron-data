@@ -14,7 +14,7 @@ page = "32"
 [fields]
 kind = "class"
 class_type = "prestige"
-hit_die = "d10."
+hit_die = "d10"
 +++
 
 The nation of Rahadoum holds all religions equally in contempt. From calling down the holy fires of
@@ -55,7 +55,7 @@ The Pure Legion Enforcer's class skills are [Diplomacy](ref/skill/diplomacy) (Ch
 and [Survival](ref/skill/survival) (Wis).
 
 **Skill Points at each Level:** 4 + Int modifier.\
-**Hit Die:** d10.
+**Hit Die:** d10
 
 ### Class Features
 

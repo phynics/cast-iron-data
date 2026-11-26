@@ -16,48 +16,39 @@ page = "42"
 
 [fields]
 kind = "archetype"
+features = [
+  { anchor = "favored-turf", level = 3 },
+  { anchor = "terrain-mastery", level = 4 },
+]
 trades = [
-  { replaces = "Maneuver training", feature = "maneuver-training" },
-  { replaces = "Knockout", feature = "knockout" },
+  { replaces = "Maneuver training", feature = "maneuver-training", by = ["favored-turf"] },
+  { replaces = "Knockout", feature = "knockout", by = ["terrain-mastery"] },
 ]
 +++
 
 A turfer has a mastery over particular types of terrain.
 
-**Favored Turf (Ex)**
+## Favored Turf (Ex) {#favored-turf}
 
-**Choice:** A turfer chooses a type of terrain from the ranger's
+At 3rd level, a turfer chooses a type of terrain from the ranger's
 [favored terrain](ref/ability/favored-terrain) list. When in that type of terrain, she gains a +2
 bonus on initiative checks and a +1 bonus on combat maneuver checks and to CMD.
 
-**At 11th Level:** She gains another terrain and increases the bonuses in one of her terrains, as
-above.
+At 7th level and every 4 brawler levels thereafter, the turfer chooses an additional terrain in
+which to gain these bonuses. Each time, in one selected terrain (including the one just chosen), her
+bonus on initiative checks increases by 2, and her bonus on combat maneuver checks and to CMD
+increases by 1.
 
-**At 15th Level:** She gains a fourth terrain and chooses one to increase bonuses in.
+This replaces maneuver training.
 
-**At 19th Level:** She chooses a fifth terrain and increases the bonuses in one of her terrains.
+## Terrain Mastery (Su) {#terrain-mastery}
 
-**At 7th Level:** The turfer chooses an additional terrain in which to gain these bonuses. In one
-terrain of her choice (including the one just chosen), her bonus on initiative checks increases by
-2, and her bonus on combat maneuver checks and to CMD increases by 1.
-
-**Gained:** At 3rd Level
-
-**Replaces:** Maneuver training
-
-**Terrain Mastery (Su)**
-
-**At 10th Level:** Her enhancement bonus to her base speed increases to +20 feet.
-
-**At 16th Level:** Her enhancement bonus increases to +30 feet.
-
-**At 4th Level:** A turfer gains the benefits of [endure elements](ref/spell/endure-elements) and a
-+10 foot enhancement bonus to her base speed, but only in her favored terrains. In addition, she can
+At 4th level, a turfer gains the benefits of _[endure elements](ref/spell/endure-elements)_ and a
++10-foot enhancement bonus to her base speed, but only in her favored terrains. In addition, she can
 move through [difficult terrain](ref/rule/terrain-and-obstacles) in her favored terrains at her
 normal speed without taking damage or suffering any other impairment, but she can't do so through
-difficult terrain that has been magically manipulated.
+difficult terrain that has been magically manipulated. At 10th and 16th levels, her enhancement
+bonus to her base speed increases by 10 feet within her favored terrains. The turfer loses this
+ability if she wears medium or heavy armor or carries a medium or heavy load.
 
-**Replaces:** Knockout
-
-**Special:** The turfer loses this ability if she wears medium or heavy armor or carries a medium or
-heavy load.
+This replaces knockout.

@@ -14,7 +14,7 @@ page = "227"
 [fields]
 kind = "spell"
 school = "illusion"
-subschools = ["Phantasm"]
+subschools = ["phantasm"]
 levels = [
   { class = "Arcanist", level = 2 },
   { class = "Bard", level = 2 },
@@ -48,7 +48,7 @@ Duration: 5 minute/level (maximum 1 hour)
 Saving throw: Will negates
 Spell resistance: yes
 Target: one humanoid creature
-Subschool: Phantasm
+Subschool: phantasm
 :::
 
 This spell induces a hallucinogenic reality in the mind of your target. Surfaces seem to swim, and

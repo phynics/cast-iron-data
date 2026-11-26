@@ -14,7 +14,7 @@ page = "119"
 [fields]
 kind = "spell"
 school = "conjuration"
-subschools = ["Creation"]
+subschools = ["creation"]
 descriptors = ["earth"]
 levels = [
   { class = "Arcanist", level = 1 },
@@ -48,7 +48,7 @@ Duration: instantaneous
 Saving throw: Reflex negates, see text
 Spell resistance: no
 Effect: single fist-sized blob of sticky mud
-Subschool: Creation
+Subschool: creation
 Descriptors: earth
 :::
 

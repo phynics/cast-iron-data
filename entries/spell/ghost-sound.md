@@ -14,7 +14,7 @@ page = "289"
 [fields]
 kind = "spell"
 school = "illusion"
-subschools = ["Figment"]
+subschools = ["figment"]
 levels = [
   { class = "Adept", level = 0 },
   { class = "Arcanist", level = 0 },
@@ -50,7 +50,7 @@ Duration: 1 round/level (D)
 Saving throw: Will disbelief
 Spell resistance: no
 Effect: illusory sounds
-Subschool: Figment
+Subschool: figment
 :::
 
 Ghost sound allows you to create a volume of sound that rises, recedes, approaches, or remains at a

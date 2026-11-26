@@ -16,11 +16,18 @@ page = "69"
 
 [fields]
 kind = "archetype"
+features = [
+  { anchor = "tree-bound-curse", level = 1 },
+  { anchor = "revelations" },
+  { anchor = "transform-wood", level = 1 },
+  { anchor = "living-steel-dolls", level = 11 },
+  { anchor = "tree-soul-revelation", level = 20 },
+]
 trades = [
-  { replaces = "Bonus skills from the oracle's mystery", feature = "mystery", power = "class skills" },
-  { replaces = "The bonus spells gained at 2nd, 10th, 12th, 14th, 16th, and 18th levels from the oracle's mystery", feature = "mystery", levels = [2, 10, 12, 14, 16, 18], power = "bonus spells" },
-  { replaces = "Oracle's curse", feature = "oracle-s-curse" },
-  { replaces = "Final revelation", feature = "final-revelation" },
+  { replaces = "The class skills granted by the oracle's mystery and class skills", feature = "mystery", power = "class skills" },
+  { replaces = "The oracle's mystery bonus spells at these levels", feature = "mystery", levels = [2, 10, 12, 14, 16, 18], power = "bonus spells" },
+  { replaces = "Oracle's curse", feature = "oracle-s-curse", by = ["tree-bound-curse"] },
+  { replaces = "Final revelation", feature = "final-revelation", by = ["tree-soul-revelation"] },
 ]
 +++
 
@@ -33,92 +40,72 @@ react and have a somewhat prickly personality. Regardless of the trees they form
 attachment to, tree soul oracles tend to be steadfast and stubborn, having an aura of timelessness
 even as the world changes around them.
 
-**Replaces:** Bonus skills from the oracle's mystery
+## Class Skills {#class-skills}
 
-**Gained class skills:** acro, climb, kna, sur
+A tree soul adds Acrobatics, Climb, Knowledge (nature), and Survival to her list of class skills.
 
-**Weapon and Armor Proficiency**
+This replaces the class skills granted by the oracle's mystery and class skills.
 
-**Ability:** Tree souls are proficient with light and medium armor but are prohibited from wearing
-metal armor. A tree soul can also wear wooden armor that has been altered by the
-[ironwood](ref/spell/ironwood) spell so that it functions as though it were steel. Tree souls are
-proficient with shields (except tower shields) but can use only those crafted from wood.
+## Weapon and Armor Proficiency {#weapon-and-armor-proficiency}
 
-**Info:** A tree soul who wears prohibited armor or uses a prohibited shield is unable to cast
-oracle spells or use any of her supernatural or spell-like class abilities while doing so and for 24
-hours thereafter.
+Tree souls are proficient with light and medium armor but are prohibited from wearing metal armor. A
+tree soul can also wear wooden armor that has been altered by the _[ironwood](ref/spell/ironwood)_
+spell so that it functions as though it were steel. Tree souls are proficient with shields (except
+tower shields) but can use only those crafted from wood.
 
-**Recommended Mysteries:** [Ancestor](ref/mystery/ancestor), [lore](ref/mystery/lore),
-[nature](ref/mystery/nature), [wood](ref/mystery/wood).
+A tree soul who wears prohibited armor or uses a prohibited shield is unable to cast oracle spells
+or use any of her supernatural or spell-like class abilities while doing so and for 24 hours
+thereafter.
 
-**Bonus Spells**
+## Recommended Mysteries {#recommended-mysteries}
 
-**Info:** The oracle gains these bonus spells at the listed levels.
+[Ancestor](ref/mystery/ancestor), [lore](ref/mystery/lore), [nature](ref/mystery/nature),
+[wood](ref/mystery/wood).
 
-**Replaces:** The bonus spells gained at 2nd, 10th, 12th, 14th, 16th, and 18th levels from the
-oracle's mystery
+## Bonus Spells {#bonus-spells}
 
-**Spells:** Tree stride
+_Warp wood_ (2nd), _tree stride_ (10th), _ironwood_ (12th), _changestaff_ (14th), _repel metal or
+stone_ (16th), _greater siege of trees_ (18th). These bonus spells replace the oracle's mystery
+bonus spells at these levels.
 
-**Spells:** Ironwood
+## Tree Bound Curse (Su) {#tree-bound-curse}
 
-**Spells:** Changestaff
-
-**Spells:** Repel metal or stone
-
-**Spells:** Greater siege of trees
-
-**Spells:** Warp wood
-
-**Tree Bound Curse (Su)**
-
-**Ability:** You bind your power to a specific tree. Any damage to the tree deals the same amount of
-damage to you, overcoming DR, energy resistance, and immunities. Damage you take in this way cannot
-be healed by normal or magical means until your bonded tree is healed or destroyed. The damage can
-reduce you to 0 hit points but not below. If the tree is destroyed, you are considered to be
+You bind your power to a specific tree. Any damage to the tree deals the same amount of damage to
+you, overcoming DR, energy resistance, and immunities. Damage you take in this way cannot be healed
+by normal or magical means until your bonded tree is healed or destroyed. The damage can reduce you
+to 0 hit points but not below. If the tree is destroyed, you are considered to be
 [staggered](ref/misc/staggered) and are unable to cast oracle spells or use supernatural or
 spell-like class abilities until you bond with a new tree in a ceremony that takes 12 hours to
-complete.
+complete. Once per month, you can create a new bond with a different tree in a ceremony at that tree
+that takes 12 hours to complete. You lose your bond with your previous tree in the process.
 
-**Replaces:** Oracle's curse
+This replaces oracle's curse.
 
-**Special:** Once per month, you can create a new bond with a different tree in a ceremony at that
-tree that takes 12 hours to complete. You lose your bond with your previous tree in the process.
+## Revelations {#revelations}
 
-**Revelations**
+A tree soul oracle must take the following revelations at the listed levels.
 
-**Info:** A tree soul oracle must take the following revelations at the listed levels.
+## Transform Wood (Su) {#transform-wood}
 
-**Transform Wood (Su)**
+At 1st level, as a standard action you can temporarily transform a number of 5-foot cubes of wood
+each day equal to 1 + your Charisma modifier. The wood takes on the quality of
+[darkwood](ref/eq-material/darkwood) for 1 minute per oracle level. At 11th level, you can have it
+instead take on the quality of [living steel](ref/eq-material/living-steel) for the same duration.
 
-**At 11th Level:** You can have it instead take on the quality of
-[living steel](ref/eq-material/living-steel) for the same duration.
+## Living Steel Dolls (Ex) {#living-steel-dolls}
 
-**Gained:** At 1st Level
+At 11th level, you add _[animate objects](ref/spell/animate-objects)_ to your list of spells known.
+When you cast this spell on wooden objects, the objects' wooden parts immediately transform into
+living steel. If the objects are destroyed or the duration ends, the wooden parts revert back to
+their original material.
 
-**Standard:** You can temporarily transform a number of 5-foot cubes of wood each day equal to 1 +
-your Charisma modifier. The wood takes on the quality of [darkwood](ref/eq-material/darkwood) for 1
-minute per oracle level.
+## Tree Soul Revelation (Su) {#tree-soul-revelation}
 
-**Living Steel Dolls (Ex)**
-
-**Ability:** You add [animate objects](ref/spell/animate-objects) to your list of spells known. When
-you cast this spell on wooden objects, the objects' wooden parts immediately transform into living
-steel. If the objects are destroyed or the duration ends, the wooden parts revert back to their
-original material.
-
-**Gained:** At 11th Level
-
-**Tree Soul Revelation (Su)**
-
-**Gained:** At 20th Level
-
-**Passive:** Your skin takes on the appearance and properties of a tree trunk. This bark-like skin
+At 20th level, your skin takes on the appearance and properties of a tree trunk. This bark-like skin
 grants you a +4 natural armor bonus to your Armor Class and DR 10/slashing. You also regrow any
-severed limbs except your head within 24 hours as per [regenerate](ref/spell/regenerate).
-
-**Replaces:** Final revelation
-
-**Standard:** Once a day, you can assume the form of a [treant](ref/monster/treant), as per
-[plant shape III](ref/spell/plant-shape-3), for a number of minutes equal to 3 + your Charisma
+severed limbs except your head within 24 hours as per _[regenerate](ref/spell/regenerate)_. Finally,
+once a day as a standard action, you can assume the form of a [treant](ref/monster/treant), as per
+_[plant shape III](ref/spell/plant-shape-3)_, for a number of minutes equal to 3 + your Charisma
 modifier (minimum 1).
+
+This replaces final revelation.

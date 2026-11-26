@@ -15,8 +15,8 @@ kind = "creature"
 cr = "1"
 creature_type = "outsider"
 subtypes = ["elemental", "extraplanar", "water"]
-size = "Small"
-alignment = "N"
+size = "small"
+alignment = "neutral"
 ac = "17, touch 11, flat-footed 17 (+6 natural, +1 size)"
 hp = "13 (2d10+2)"
 fortitude = "+4"
@@ -30,8 +30,8 @@ abilities = ["14", "10", "13", "4", "11", "11"]
 ::: statblock
 CR: 1
 XP: 400
-Alignment: N
-Size: Small
+Alignment: neutral
+Size: small
 Type: Outsider (elemental, extraplanar, water)
 Init: +0
 Senses: [darkvision](ref/rule/darkvision) 60 ft.; Perception +4

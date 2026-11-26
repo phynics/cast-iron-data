@@ -17,7 +17,7 @@ page = "61"
 [fields]
 kind = "spell"
 school = "conjuration"
-subschools = ["Creation"]
+subschools = ["creation"]
 levels = [
   { class = "Arcanist", level = 2 },
   { class = "Cleric", level = 2 },
@@ -52,7 +52,7 @@ Duration: 1 hour/level
 Saving throw: Reflex negates; see text
 Spell resistance: no
 Effect: one set of restraints; see text
-Subschool: Creation
+Subschool: creation
 :::
 
 You summon a set of Small or Medium masterwork restraints into being. When you cast this spell, you

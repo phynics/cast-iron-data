@@ -14,7 +14,7 @@ page = "241"
 [fields]
 kind = "spell"
 school = "enchantment"
-subschools = ["Compulsion"]
+subschools = ["compulsion"]
 descriptors = ["mind-affecting", "sonic"]
 levels = [
   { class = "Adept", level = 2 },
@@ -47,7 +47,7 @@ Duration: concentration
 Saving throw: Will negates
 Spell resistance: yes
 Targets: animals or magical beasts with Intelligence 1 or 2
-Subschool: Compulsion
+Subschool: compulsion
 Descriptors: mind-affecting, sonic
 :::
 

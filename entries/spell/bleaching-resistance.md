@@ -14,7 +14,7 @@ page = "218"
 [fields]
 kind = "spell"
 school = "enchantment"
-subschools = ["Compulsion"]
+subschools = ["compulsion"]
 descriptors = ["mind-affecting"]
 levels = [
   { class = "Alchemist", level = 4 },
@@ -50,7 +50,7 @@ Duration: 24 hours
 Saving throw: none
 Spell resistance: no
 Target: you
-Subschool: Compulsion
+Subschool: compulsion
 Descriptors: mind-affecting
 :::
 

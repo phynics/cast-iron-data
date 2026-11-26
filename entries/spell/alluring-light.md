@@ -14,7 +14,7 @@ page = "72"
 [fields]
 kind = "spell"
 school = "enchantment"
-subschools = ["Compulsion"]
+subschools = ["compulsion"]
 levels = [
   { class = "Bard", level = 1 },
   { class = "Skald", level = 1 },
@@ -42,7 +42,7 @@ Duration: instantaneous
 Saving throw: Will negates (see text)
 Spell resistance: yes
 Area: 30-ft.-radius emanation centered on you
-Subschool: Compulsion
+Subschool: compulsion
 :::
 
 You glow with a soft radiance that calls out to all who see it. Each enemy that fails its save is

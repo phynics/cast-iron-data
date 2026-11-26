@@ -17,7 +17,7 @@ page = "234"
 [fields]
 kind = "spell"
 school = "conjuration"
-subschools = ["Healing"]
+subschools = ["healing"]
 levels = [
   { class = "Summoner", level = 3 },
   { class = "Unchained Summoner", level = 3 },
@@ -44,7 +44,7 @@ Duration: 1 round/level
 Saving throw: none
 Spell resistance: no
 Target: you
-Subschool: Healing
+Subschool: healing
 :::
 
 ### Improved Life Conduit

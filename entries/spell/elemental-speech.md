@@ -13,7 +13,8 @@ page = "218"
 
 [fields]
 kind = "spell"
-school = "divination [air, earth, fire, or water]"
+school = "divination"
+descriptors = ["air", "earth", "fire", "water"]
 levels = [
   { class = "Arcanist", level = 2 },
   { class = "Bard", level = 3 },

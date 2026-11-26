@@ -14,8 +14,7 @@ page = "220"
 [fields]
 kind = "spell"
 school = "illusion"
-subschools = ["Glamer"]
-descriptors = ["glamer"]
+subschools = ["glamer"]
 levels = [
   { class = "Arcanist", level = 1 },
   { class = "Bard", level = 1 },
@@ -47,8 +46,7 @@ Duration: 1 round/level (D)
 Saving throw: Will disbelief
 Spell resistance: no
 Target: one door, window, or similar portal no more than 10 feet by 10 feet in area
-Subschool: Glamer
-Descriptors: glamer
+Subschool: glamer
 :::
 
 You alter the appearance of a door and disguise whether it is open or closed. You can cause the

@@ -14,7 +14,7 @@ page = "119"
 [fields]
 kind = "spell"
 school = "conjuration"
-subschools = ["Creation", "Teleportation"]
+subschools = ["creation", "teleportation"]
 levels = [
   { class = "Alchemist", level = 3 },
   { class = "Arcanist", level = 4 },
@@ -49,7 +49,7 @@ Duration: 1 round/level
 Saving throw: none
 Spell resistance: no
 Effect: creates one ooze duplicate of the caster
-Subschool: Creation, Teleportation
+Subschool: creation, teleportation
 :::
 
 > _[Goblins](ref/race/goblin) have access to the following spell._

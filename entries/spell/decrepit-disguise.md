@@ -14,8 +14,7 @@ page = "163"
 [fields]
 kind = "spell"
 school = "illusion"
-subschools = ["Glamer"]
-descriptors = ["glamer"]
+subschools = ["glamer"]
 levels = [
   { class = "Arcanist", level = 1 },
   { class = "Bard", level = 1 },
@@ -49,8 +48,7 @@ Duration: 1 day/level
 Saving throw: none (object) or Will disbelief (if interacted with)
 Spell resistance: no
 Target: one object of no more than 10 cu. ft./level
-Subschool: Glamer
-Descriptors: glamer
+Subschool: glamer
 :::
 
 You make an object seem like a worthless version of itself. A masterwork or magic sword could seem

@@ -15,8 +15,8 @@ kind = "creature"
 cr = "2"
 creature_type = "undead"
 subtypes = ["augmented human"]
-size = "Medium"
-alignment = "NE"
+size = "medium"
+alignment = "neutral evil"
 ac = "18, touch 15, flat-footed 13 (+4 Dex, +1 dodge, +3 natural)"
 hp = "15 (2d8+3)"
 fortitude = "+0"
@@ -31,8 +31,8 @@ abilities = ["18", "19", "-", "8", "13", "10"]
 ::: statblock
 CR: 2
 XP: 600
-Alignment: NE
-Size: Medium
+Alignment: neutral evil
+Size: medium
 Type: Undead (augmented human)
 Class Levels: rogue 2
 Init: +8

@@ -16,11 +16,18 @@ page = "84"
 
 [fields]
 kind = "archetype"
+features = [
+  { anchor = "fermented-fruit", level = 1 },
+  { anchor = "drunken-dancer", level = 2 },
+  { anchor = "raging-song" },
+  { anchor = "song-of-urging", level = 3 },
+  { anchor = "maddening-dance", level = 10 },
+]
 trades = [
-  { replaces = "Scribe Scroll", feature = "scribe-scroll" },
-  { replaces = "Versatile performance", feature = "versatile-performance" },
-  { replaces = "Song of marching", feature = "song-of-marching" },
-  { replaces = "Dirge of doom", feature = "dirge-of-doom" },
+  { replaces = "Scribe Scroll", feature = "scribe-scroll", by = ["fermented-fruit"] },
+  { replaces = "Versatile performance", feature = "versatile-performance", by = ["drunken-dancer"] },
+  { replaces = "Song of marching", feature = "song-of-marching", by = ["song-of-urging"] },
+  { replaces = "Dirge of doom", feature = "dirge-of-doom", by = ["maddening-dance"] },
 ]
 +++
 
@@ -29,90 +36,76 @@ listeners. To these skalds, the passionate frenzy of a celebration or feast shar
 with the violence of combat, and several of their talents blur the line between festival and battle
 in dramatic ways.
 
-**Fermented Fruit (Sp)**
+## Fermented Fruit (Sp) {#fermented-fruit}
 
-**Ability:** A bacchanal adds [goodberry](ref/spell/goodberry) to his list of 1st-level skald spells
-known. In addition, he can cast it as a [spell-like ability](ref/umr/spell-like-abilities) once per
-day. When he casts _[goodberry](ref/spell/goodberry)_ as a spell or spell-like ability, the targeted
-berries ferment; this causes each berry to act as a serving of an alcoholic beverage. A creature
-that eats a fermented berry does not gain a meal's nourishment, but it is cured of 1 point of damage
-and becomes slightly foolhardy as if tipsy, gaining a +1 bonus on saves against fear effects for 1
-minute after eating the berry.
+A bacchanal adds _[goodberry](ref/spell/goodberry)_ to his list of 1st-level skald spells known. In
+addition, he can cast it as a [spell-like ability](ref/umr/spell-like-abilities) once per day. When
+he casts _[goodberry](ref/spell/goodberry)_ as a spell or spell-like ability, the targeted berries
+ferment; this causes each berry to act as a serving of an alcoholic beverage. A creature that eats a
+fermented berry does not gain a meal's nourishment, but it is cured of 1 point of damage and becomes
+slightly foolhardy as if tipsy, gaining a +1 bonus on saves against fear effects for 1 minute after
+eating the berry.
 
-**Replaces:** Scribe Scroll
+This replaces Scribe Scroll.
 
-**Drunken Dancer (Su)**
+## Drunken Dancer (Su) {#drunken-dancer}
 
-**At 12th Level:** The bacchanal can gain the benefits of [heroism](ref/spell/heroism) (for the
-duration of the _raging song_) in this manner.
+At 2nd level, while maintaining a raging song, a bacchanal can consume a berry affected by
+_[goodberry](ref/spell/goodberry)_, a potion, or a serving of alcohol as a move action that does not
+provoke attacks of opportunity. A berry affected by _[goodberry](ref/spell/goodberry)_ or a potion
+has its normal effect, while an alcoholic drink or a berry affected by
+_[goodberry](ref/spell/goodberry)_ via fermented fruit (see above) allows the skald to maintain his
+raging song that round without expending a round of raging song for the day (instead of the normal
+effects of the alcohol or fermented berry). For each alcoholic drink or fermented berry consumed
+while raging, the skald is [nauseated](ref/misc/nauseated) for 1 round after his raging song ends.
+The internal fortitude rage power prevents this nauseated condition from occurring.
 
-**At 17th Level:** He can gain the benefits of [persistent vigor](ref/spell/persistent-vigor) (for
-the duration of the _raging song_) in this manner.
+At 7th level, when the bacchanal consumes an alcoholic drink or fermented berry while maintaining
+his rage song, he can gain the benefits of _[cure light wounds](ref/spell/cure-light-wounds)_ or
+_[remove fear](ref/spell/remove-fear)_ (for the duration of the raging song) at his caster level by
+spending 2 rounds of raging song. At 12th level, the bacchanal can gain the benefits of
+_[heroism](ref/spell/heroism)_ (for the duration of the raging song) in this manner. At 17th level,
+he can gain the benefits of _[persistent vigor](ref/spell/persistent-vigor)_ (for the duration of
+the raging song) in this manner.
 
-**At 7th Level:** When the bacchanal consumes an alcoholic drink or fermented berry while
-maintaining his rage song, he can gain the benefits of
-[cure light wounds](ref/spell/cure-light-wounds) or [remove fear](ref/spell/remove-fear) (for the
-duration of the _raging song_) at his caster level by spending 2 rounds of _raging song._
+This replaces versatile performance.
 
-**Gained:** At 2nd Level
+## Raging Song (Su) {#raging-song}
 
-**Move:** While maintaining a _raging song,_ a bacchanal can consume a berry affected by
-_[goodberry](ref/spell/goodberry),_ a potion, or a serving of alcohol. A berry affected by
-_[goodberry](ref/spell/goodberry)_ or a potion has its normal effect, while an alcoholic drink or a
-berry affected by _[goodberry](ref/spell/goodberry)_ via _fermented fruit_ (see above) allows the
-skald to maintain his _raging song_ that round without expending a round of _raging song_ for the
-day (instead of the normal effects of the alcohol or fermented berry).
+A bacchanal gains access to the following raging songs.
 
-**Provokes attack of opportunity:** No
+## Song of Urging (Su) {#song-of-urging}
 
-**Replaces:** Versatile performance
+At 3rd level, the bacchanal's raging song can wordlessly influence creatures of the wild. This
+raging song functions just like a [Diplomacy](ref/skill/diplomacy) check to make a simple request or
+an Intimidate check but can influence only animals. The bacchanal rolls 1d20 and adds his skald
+level and his Charisma modifier to determine the urging check's result. Bonuses and penalties that
+apply to wild empathy checks apply to these urging checks. The typical domestic animal has a
+starting attitude of indifferent, while wild animals are usually unfriendly. The song can influence
+plants or magical beasts with Intelligence scores of 1 or 2 as well as drunken creatures of any
+Intelligence (even without sharing a language), but against these nonanimals, the bacchanal takes a
+-4 penalty on this check. The bacchanal must continue to perform the song for the entire time
+required for the check; otherwise, its effect is wasted, but only 1 round of raging song is expended
+regardless of how long the check takes.
 
-**Special:** For each alcoholic drink or fermented berry consumed while raging, the skald is
-[nauseated](ref/misc/nauseated) for 1 round after his _raging song_ ends. The _internal fortitude_
-rage power prevents this nauseated condition from occurring.
+This raging song replaces song of marching.
 
-**Raging Song (Su)**
+## Maddening Dance (Su) {#maddening-dance}
 
-**Info:** A bacchanal gains access to the following _raging songs._
-
-**Song of Urging (Su)**
-
-**Ability:** This _raging song_ functions just like a [Diplomacy](ref/skill/diplomacy) check to make
-a simple request or an Intimidate check but can influence only animals. The bacchanal rolls 1d20 and
-adds his skald level and his Charisma modifier to determine the _urging_ check's result. Bonuses and
-penalties that apply to wild empathy checks apply to these _urging_ checks. The typical domestic
-animal has a starting attitude of indifferent, while wild animals are usually unfriendly. The song
-can influence plants or magical beasts with Intelligence scores of 1 or 2 as well as drunken
-creatures of any Intelligence (even without sharing a language), but against these non-animals, the
-bacchanal takes a -4 penalty on this check. The bacchanal must continue to perform the song for the
-entire time required for the check; otherwise, its effect is wasted, but only 1 round of _raging
-song_ is expended regardless of how long the check takes.
-
-**Flavor:** The bacchanal's _raging song_ can wordlessly influence creatures of the wild.
-
-**Gained:** At 3rd Level
-
-**Replaces:** Song of marching
-
-**Maddening Dance (Su)**
-
-**Ability:** The bacchanal's _raging song_ can compel a creature within 30 feet to perform an
+At 10th level, the bacchanal's raging song can compel a creature within 30 feet to perform an
 ecstatic dance. Unless it succeeds at its Will save, the victim becomes
 [confused](ref/misc/confused), takes a -2 penalty to its AC and on Reflex saving throws, and loses
 the benefit of any shield it holds. The effect ends when the target can no longer hear the bacchanal
-from within 30 feet.
+from within 30 feet. As an immediate action, an ally of the bacchanal within 30 feet can dance along
+as a full-round action (taking all penalties except the confused condition for that round) to allow
+the bacchanal to target an additional creature. A creature that succeeds at the Will saving throw
+against this raging song is immune to this effect for 24 hours. This is a compulsion, emotion,
+enchantment, and mind-affecting effect.
 
-**Info:** As an **immediate action**, an ally of the bacchanal within 30 feet can dance along as a
-**full-round action** (taking all penalties except the confused condition for that round) to allow
-the bacchanal to target an additional creature.
+This raging song replaces dirge of doom.
 
-**Gained:** At 10th Level
+## Rage Powers {#rage-powers}
 
-**Replaces:** Dirge of doom
-
-**Special:** A creature that succeeds at the Will saving throw against this _raging song_ is immune
-to this effect for 24 hours. This is a compulsion, emotion, enchantment, and mind-affecting effect.
-
-**The following rage powers complement the bacchanal archetype:** animal fury, boasting taunt,
-fearless rage, fierce fortitude, increased [damage reduction](ref/rule/damage-reduction), internal
-fortitude, liquid courage, night vision, roaring drunk, staggering drunk
+The following rage powers complement the bacchanal archetype: animal fury, boasting taunt, fearless
+rage, fierce fortitude, increased [damage reduction](ref/rule/damage-reduction), internal fortitude,
+liquid courage, night vision, roaring drunk, and staggering drunk.

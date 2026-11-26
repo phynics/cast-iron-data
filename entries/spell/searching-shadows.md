@@ -14,7 +14,7 @@ page = "62"
 [fields]
 kind = "spell"
 school = "illusion"
-subschools = ["Shadow"]
+subschools = ["shadow"]
 descriptors = ["shadow"]
 levels = [
   { class = "Arcanist", level = 2 },
@@ -45,7 +45,7 @@ Duration: concentration
 Saving throw: Reflex partial
 Spell resistance: yes
 Effect: shadows in a 10-foot-radius spread
-Subschool: Shadow
+Subschool: shadow
 Descriptors: shadow
 :::
 

@@ -14,8 +14,7 @@ page = "192"
 [fields]
 kind = "spell"
 school = "illusion"
-subschools = ["Glamer"]
-descriptors = ["glamer"]
+subschools = ["glamer"]
 levels = [
   { class = "Arcanist", level = 2 },
   { class = "Bard", level = 2 },
@@ -52,8 +51,7 @@ Duration: 1 minute/level (D)
 Saving throw: none
 Spell resistance: no (object)
 Area: 5-ft.-diameter emanation centered on an object or a point in space
-Subschool: Glamer
-Descriptors: glamer
+Subschool: glamer
 :::
 
 You protect an area against casual eavesdropping. Sounds and sonic effects that originate inside the

@@ -17,7 +17,7 @@ page = "235"
 [fields]
 kind = "spell"
 school = "conjuration"
-subschools = ["Healing"]
+subschools = ["healing"]
 levels = [
   { class = "Summoner", level = 2 },
   { class = "Unchained Summoner", level = 2 },
@@ -44,7 +44,7 @@ Target: eidolon touched
 Duration: instantaneous
 Saving throw: Will negates (harmless)
 Spell resistance: yes (harmless)
-Subschool: Healing
+Subschool: healing
 :::
 
 This spell functions as [lesser restoration](ref/spell/restoration-lesser), except it only affects

@@ -14,7 +14,7 @@ page = "240"
 [fields]
 kind = "creature"
 cr = "19"
-creature_type = "magicalBeast"
+creature_type = "magical beast"
 subtypes = ["aquatic"]
 size = "gargantuan"
 alignment = "neutral"

@@ -12,8 +12,8 @@ provenance = [
 [fields]
 kind = "creature"
 creature_type = "animal"
-size = "Medium"
-alignment = "N"
+size = "medium"
+alignment = "neutral"
 ac = "19, touch 13, flat-footed 16 (+3 Dex, +6 natural)"
 hp = "26 (4d8+8)"
 fortitude = "+6"
@@ -27,8 +27,8 @@ abilities = ["14", "16", "14", "2", "15", "7"]
 ::: statblock
 CR: —
 XP: —
-Alignment: N
-Size: Medium
+Alignment: neutral
+Size: medium
 Type: Animal
 Race: animal companion
 Init: +3

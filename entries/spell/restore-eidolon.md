@@ -17,7 +17,7 @@ page = "235"
 [fields]
 kind = "spell"
 school = "conjuration"
-subschools = ["Healing"]
+subschools = ["healing"]
 levels = [
   { class = "Summoner", level = 3 },
   { class = "Unchained Summoner", level = 3 },
@@ -44,7 +44,7 @@ Duration: instantaneous
 Saving throw: Will negates (harmless)
 Spell resistance: yes (harmless)
 Target: eidolon touched
-Subschool: Healing
+Subschool: healing
 :::
 
 ### Restore Eidolon

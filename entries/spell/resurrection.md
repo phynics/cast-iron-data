@@ -17,7 +17,7 @@ page = "334"
 [fields]
 kind = "spell"
 school = "conjuration"
-subschools = ["Healing"]
+subschools = ["healing"]
 levels = [
   { class = "Cleric", level = 7 },
   { class = "Oracle", level = 7 },
@@ -47,7 +47,7 @@ Duration: instantaneous
 Saving throw: none, see text
 Spell resistance: yes
 Target: dead creature touched
-Subschool: Healing
+Subschool: healing
 :::
 
 This spell functions like [raise dead](ref/spell/raise-dead), except that you are able to restore

@@ -14,7 +14,7 @@ page = "236"
 [fields]
 kind = "spell"
 school = "conjuration"
-subschools = ["Healing"]
+subschools = ["healing"]
 descriptors = ["light"]
 levels = [
   { class = "Cleric", level = 5 },
@@ -43,7 +43,7 @@ Duration: 1 round/level
 Saving throw: none
 Spell resistance: no
 Effect: 5-ft.-square pillar of positive energy, 20 ft. high
-Subschool: Healing
+Subschool: healing
 Descriptors: light
 :::
 

@@ -16,12 +16,18 @@ page = "37"
 
 [fields]
 kind = "archetype"
+features = [
+  { anchor = "marsh-march", level = 1 },
+  { anchor = "home", level = 2 },
+  { anchor = "stubborn", level = 3 },
+  { anchor = "wrastlin", level = 6 },
+]
 trades = [
-  { replaces = "Fast movement", feature = "fast-movement" },
-  { replaces = "Uncanny dodge", feature = "uncanny-dodge" },
-  { replaces = "improved uncanny dodge", feature = "improved-uncanny-dodge" },
-  { replaces = "Trap sense", feature = "trap-sense" },
-  { replaces = "6th-level rage power", feature = "rage-powers", levels = [6] },
+  { replaces = "Fast movement", feature = "fast-movement", by = ["marsh-march"] },
+  { replaces = "Uncanny dodge", feature = "uncanny-dodge", by = ["home"] },
+  { replaces = "improved uncanny dodge", feature = "improved-uncanny-dodge", by = ["home"] },
+  { replaces = "Trap sense", feature = "trap-sense", by = ["stubborn"] },
+  { replaces = "Rage power normally gained at 6th level", feature = "rage-powers", levels = [6], by = ["wrastlin"] },
 ]
 +++
 
@@ -36,70 +42,50 @@ sides of the cultural divide. When a brutish swamper joins an adventuring party,
 to value the skills and talents of their more urbanized companions, but never fully understand the
 desire to live lives surrounded by creature comforts.
 
-**Gained class skills:** kg, kl
+## Swamp Skills {#swamp-skills}
 
-**Marsh March (Ex)**
+A brutish swamper adds Knowledge (geography) and Knowledge (local) to her list of class skills.
 
-**Passive:** A brutish swamper can move through the underbrush and muddy terrain of bogs and swamps
-at her normal speed without taking damage or suffering other impairments. Briars, mud, thorns, and
-overgrown areas that have been magically manipulated to impede motion, however, still affect her.
+This alters the barbarian's skills.
 
-**Replaces:** Fast movement
+## Marsh March (Ex) {#marsh-march}
 
-**Home (Ex)**
+A brutish swamper can move through the underbrush and muddy terrain of bogs and swamps at her normal
+speed without taking damage or suffering other impairments. Briars, mud, thorns, and overgrown areas
+that have been magically manipulated to impede motion, however, still affect her.
 
-**At 11th Level:** The bonus becomes +5.
+This replaces fast movement.
 
-**At 14th Level:** The bonus becomes +6.
+## Home (Ex) {#home}
 
-**At 17th Level:** The bonus becomes +7.
+At 2nd level, a brutish swamper gains a +2 bonus on initiative checks and Knowledge (geography),
+Perception, Stealth, and Survival checks when in swamps. This bonus increases by +1 at 5th level and
+again every 3 levels after 5th (up to a maximum bonus of +8 at 20th level).
 
-**At 20th Level:** The bonus becomes +8.
+This replaces uncanny dodge and improved uncanny dodge.
 
-**At 5th Level:** The bonus becomes +3.
+## Stubborn (Ex) {#stubborn}
 
-**At 8th Level:** The bonus becomes +4.
-
-**Gained:** At 2nd Level
-
-**Passive:** A brutish swamper gains a +2 bonus on initiative checks and Knowledge (geography),
-Perception, Stealth, and Survival checks when in swamps.
-
-**Replaces:** Uncanny dodge, improved uncanny dodge
-
-**Stubborn (Ex)**
-
-**Gained:** At 3rd Level
-
-**Passive:** A brutish swamper resists any attempts to change her attitude or compel her to action.
+At 3rd level, a brutish swamper resists any attempts to change her attitude or compel her to action.
 Diplomacy and Intimidate checks against her take a -2 penalty, and no result can shift her attitude
-more than one step in a 24-hour period.
+more than one step in a 24-hour period. These penalties increase by 2 for every 3 levels the brutish
+swamper has beyond 3rd.
 
-**Replaces:** Trap sense
+This replaces trap sense.
 
-At 6th level: The penalty increases to -4.
+## Wrastlin' (Ex) {#wrastlin}
 
-At 9th level: The penalty increases to -6.
-
-At 12th level: The penalty increases to -8.
-
-At 15th level: The penalty increases to -10.
-
-At 18th level: The penalty increases to -12.
-
-**Wrastlin (Ex)**
-
-**Gained:** At 6th Level
-
-**Passive:** While _raging,_ a brutish swamper gains a +2 bonus to her CMD against
+At 6th level, while raging, a brutish swamper gains a +2 bonus to her CMD against
 [grapple](ref/rule/grapple) combat maneuvers and a +2 bonus on damage rolls made as part of
 successful grapple combat maneuver checks.
 
-**Replaces:** 6th-level rage power
+This replaces the rage power normally gained at 6th level.
 
-**Rage Powers:** The following rage powers complement the brutish swamper archetype:
+## Rage Powers {#rage-powers}
+
+The following rage powers complement the brutish swamper archetype:
 [brawler](ref/ragepower/brawler), [greater brawler](ref/ragepower/greater-brawler),
 [greater tyrant totem](ref/ragepower/greater-tyrant-totem),
 [lesser tyrant totem](ref/ragepower/lesser-tyrant-totem),
 [lizard stride](ref/ragepower/lizard-stride), [low-light vision](ref/ragepower/low-light-vision),
-[superstition](ref/ragepower/superstition), [tyrant totem](ref/ragepower/tyrant-totem).
+[superstition](ref/ragepower/superstition), and [tyrant totem](ref/ragepower/tyrant-totem).

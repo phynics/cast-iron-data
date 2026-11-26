@@ -17,7 +17,7 @@ page = "109"
 [fields]
 kind = "spell"
 school = "transmutation"
-subschools = ["Polymorph"]
+subschools = ["polymorph"]
 levels = [
   { class = "Alchemist", level = 4 },
   { class = "Arcanist", level = 4 },
@@ -58,7 +58,7 @@ Target: you
 Duration: 1 day/level (D)
 Saving throw: none
 Spell resistance: no
-Subschool: Polymorph
+Subschool: polymorph
 :::
 
 ### Greater Assume Appearance

@@ -17,8 +17,7 @@ page = "302"
 [fields]
 kind = "spell"
 school = "illusion"
-subschools = ["Glamer"]
-descriptors = ["glamer"]
+subschools = ["glamer"]
 levels = [
   { class = "Alchemist", level = 4 },
   { class = "Antipaladin", level = 4 },
@@ -62,8 +61,7 @@ Target: you or creature touched
 Duration: 1 round/level (D)
 Saving throw: Will negates (harmless)
 Spell resistance: yes (harmless)
-Subschool: Glamer
-Descriptors: glamer
+Subschool: glamer
 :::
 
 ### Greater Invisibility

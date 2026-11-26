@@ -14,7 +14,7 @@ page = "46"
 [fields]
 kind = "class"
 class_type = "prestige"
-hit_die = "d8."
+hit_die = "d8"
 +++
 
 Many are the mortals who serve the gods, in small ways and large. Some give offerings to many
@@ -50,7 +50,7 @@ The Divine Scion's class skills are [Diplomacy](ref/skill/diplomacy) (Cha), [Fly
 [Spellcraft](ref/skill/spellcraft) (Int).
 
 **Skill Points at each Level:** 2 + Int modifier.\
-**Hit Die:** d8.
+**Hit Die:** d8
 
 ### Class Features
 

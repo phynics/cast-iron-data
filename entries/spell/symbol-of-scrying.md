@@ -17,7 +17,7 @@ page = "241"
 [fields]
 kind = "spell"
 school = "divination"
-subschools = ["Scrying"]
+subschools = ["scrying"]
 levels = [
   { class = "Arcanist", level = 5 },
   { class = "Cleric", level = 5 },
@@ -51,7 +51,7 @@ Duration: see text
 Saving throw: none
 Spell resistance: no
 Effect: one symbol
-Subschool: Scrying
+Subschool: scrying
 :::
 
 This spell functions as [symbol of death](ref/spell/symbol-of-death), except that, when triggered,

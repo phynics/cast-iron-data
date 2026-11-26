@@ -23,7 +23,7 @@ page = "282"
 [fields]
 kind = "class"
 class_type = "prestige"
-hit_die = "d8."
+hit_die = "d8"
 +++
 
 Initiates of the [Red Mantis](ref/rule/aff-assassins) usually begin their training as rogues, often
@@ -54,7 +54,7 @@ The Red Mantis Assassin's class skills are [Acrobatics](ref/skill/acrobatics) (D
 (Wis), [Sense Motive](ref/skill/sense-motive) (Wis), and [Stealth](ref/skill/stealth) (Dex).
 
 **Skill Points at each Level:** 6 + Int modifier.\
-**Hit Die:** d8.
+**Hit Die:** d8
 
 ### Class Features and Spells Per Day
 

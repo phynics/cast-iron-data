@@ -12,33 +12,33 @@ page = "188"
 
 [fields]
 kind = "archetype"
+features = [
+  { anchor = "expanded-tricks", level = 3 },
+  { anchor = "perspicacious-mind" },
+]
 trades = [
-  { replaces = "Evasion" },
-  { replaces = "Improved Evasion" },
-  { replaces = "The 4th- or 7th-level ability score advancement" },
+  { replaces = "Evasion", by = ["expanded-tricks"] },
+  { replaces = "Improved Evasion", by = ["expanded-tricks"] },
+  { replaces = "The 4th- or 7th-level ability score advancement", by = ["perspicacious-mind"] },
 ]
 +++
 
 Precocious companions are able to learn far more tricks than other companions; this ability to learn
 allows their masters to use them for a wider variety of tasks.
 
-**Expanded Tricks (Ex)**
+## Expanded Tricks (Ex) {#expanded-tricks}
 
-**At 15th Level:** The DC of the Handle Animal check to push a precocious companion to perform an
-unlearned trick is only 15, instead of 25.
-
-**Gained:** At 3rd Level
-
-**Passive:** A precocious companion gains twice as many bonus tricks as normal for an animal
+At 3rd level, a precocious companion gains twice as many bonus tricks as normal for an animal
 companion. A [hunter's](ref/class/hunter) animal companion can't use the additional bonus tricks to
-learn hunter's tricks.
+learn hunter's tricks. At 15th level, the DC of the Handle Animal check to push a precocious
+companion to perform an unlearned trick is only 15, instead of 25.
 
-**Replaces:** Evasion, Improved Evasion
+This replaces evasion and improved evasion.
 
-**Perspicacious Mind (Ex)**
+## Perspicacious Mind (Ex) {#perspicacious-mind}
 
-**Ability:** At 4th or 7th level, whenever the precocious companion would normally gain the choice
-of a listed score advancement or a +2 bonus to Dexterity and Constitution, it instead gains a +2
-bonus to its Intelligence score and a +4 bonus to its Wisdom and Charisma scores.
+At 4th or 7th level, whenever the precocious companion would normally gain the choice of a listed
+score advancement or a +2 bonus to Dexterity and Constitution, it instead gains a +2 bonus to its
+Intelligence score and a +4 bonus to +4 its Wisdom and Charisma scores.
 
-**Replaces:** The 4th- or 7th-level ability score advancement
+This replaces the 4th- or 7th-level ability score advancement.

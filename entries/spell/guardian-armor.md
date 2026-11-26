@@ -14,7 +14,7 @@ page = "23"
 [fields]
 kind = "spell"
 school = "conjuration"
-subschools = ["Teleportation"]
+subschools = ["teleportation"]
 levels = [
   { class = "Antipaladin", level = 1 },
   { class = "Arcanist", level = 1 },
@@ -51,7 +51,7 @@ Duration: instantaneous
 Saving throw: none
 Spell resistance: yes
 Target: one willing creature; see below
-Subschool: Teleportation
+Subschool: teleportation
 :::
 
 This spell teleports the suit of armor you are wearing off of your body and onto an ally within

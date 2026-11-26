@@ -14,7 +14,7 @@ page = "27"
 [fields]
 kind = "spell"
 school = "conjuration"
-subschools = ["Healing"]
+subschools = ["healing"]
 levels = [
   { class = "Cleric", level = 3 },
   { class = "Druid", level = 3 },
@@ -46,7 +46,7 @@ Duration: 1 minute/level or until discharged
 Saving throw: none
 Spell resistance: no
 Target: you
-Subschool: Healing
+Subschool: healing
 :::
 
 You surround yourself with a positive energy field that damages undead opponents. Each time an

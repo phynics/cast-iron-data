@@ -14,8 +14,8 @@ provenance = [
 kind = "creature"
 cr = "2"
 creature_type = "undead"
-size = "Medium"
-alignment = "NE"
+size = "medium"
+alignment = "neutral evil"
 ac = "21, touch 11, flat-footed 20 (+6 armor, +1 Dex, +2 natural, +2 shield)"
 hp = "17 (3 HD; 2d8+1d10+3)"
 fortitude = "+3"
@@ -28,8 +28,8 @@ abilities = ["17", "13", "-", "9", "10", "12"]
 ::: statblock
 CR: 2
 XP: 600
-Alignment: NE
-Size: Medium
+Alignment: neutral evil
+Size: medium
 Type: Undead
 Race: human
 Class Levels: warrior 1

@@ -17,7 +17,7 @@ page = "233"
 [fields]
 kind = "spell"
 school = "conjuration"
-subschools = ["Summoning"]
+subschools = ["summoning"]
 levels = [
   { class = "Arcanist", level = 3 },
   { class = "Bard", level = 3 },
@@ -55,7 +55,7 @@ Duration: concentration+ 2 rounds
 Saving throw: none
 Spell resistance: no
 Effect: one swarm of poisonous frogs
-Subschool: Summoning
+Subschool: summoning
 :::
 
 ### Rain of Frogs

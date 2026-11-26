@@ -14,7 +14,7 @@ page = "380"
 [fields]
 kind = "class"
 class_type = "prestige"
-hit_die = "d12."
+hit_die = "d12"
 +++
 
 As some of the most ancient, powerful, and capricious creatures in existence, dragons occasionally
@@ -62,7 +62,7 @@ The Dragon Disciple's class skills are [Diplomacy](ref/skill/diplomacy) (Cha),
 [Spellcraft](ref/skill/spellcraft) (Int).
 
 **Skill Points at each Level:** 2 + Int modifier.\
-**Hit Die:** d12.
+**Hit Die:** d12
 
 ### Class Features
 

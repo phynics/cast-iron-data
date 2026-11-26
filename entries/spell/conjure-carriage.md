@@ -14,7 +14,7 @@ page = "207"
 [fields]
 kind = "spell"
 school = "conjuration"
-subschools = ["Creation"]
+subschools = ["creation"]
 levels = [
   { class = "Arcanist", level = 3 },
   { class = "Bard", level = 3 },
@@ -48,7 +48,7 @@ Duration: 1 hour/level (D)
 Saving throw: none
 Spell resistance: no
 Effect: one quasi-real carriage, horses, and driver
-Subschool: Creation
+Subschool: creation
 :::
 
 You create a fine wooden carriage with whatever cosmetic embellishments you desire. It is well

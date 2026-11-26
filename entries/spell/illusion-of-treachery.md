@@ -14,8 +14,7 @@ page = "216"
 [fields]
 kind = "spell"
 school = "illusion"
-subschools = ["Glamer"]
-descriptors = ["glamer"]
+subschools = ["glamer"]
 levels = [
   { class = "Antipaladin", level = 3 },
   { class = "Arcanist", level = 4 },
@@ -49,8 +48,7 @@ Duration: 1 round/level (D)
 Saving throw: Will disbelief
 Spell resistance: yes
 Target: one creature
-Subschool: Glamer
-Descriptors: glamer
+Subschool: glamer
 :::
 
 You create an illusion that takes the same space as a foe and mimics its movements perfectly.

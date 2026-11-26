@@ -14,7 +14,7 @@ page = "13"
 [fields]
 kind = "spell"
 school = "conjuration"
-subschools = ["Teleportation"]
+subschools = ["teleportation"]
 descriptors = ["electricity"]
 levels = [
   { class = "Arcanist", level = 3 },
@@ -45,7 +45,7 @@ Duration: instantaneous
 Saving throw: Reflex half
 Spell resistance: yes
 Target: you
-Subschool: Teleportation
+Subschool: teleportation
 Descriptors: electricity
 :::
 

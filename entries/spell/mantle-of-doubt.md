@@ -14,7 +14,7 @@ page = "30"
 [fields]
 kind = "spell"
 school = "illusion"
-subschools = ["Phantasm"]
+subschools = ["phantasm"]
 descriptors = ["emotion", "fear", "mind-affecting"]
 levels = [
   { class = "Mesmerist", level = 6 },
@@ -43,7 +43,7 @@ Duration: 1 round/level (D)
 Saving throw: none
 Spell resistance: no
 Target: you
-Subschool: Phantasm
+Subschool: phantasm
 Descriptors: emotion, fear, mind-affecting
 :::
 

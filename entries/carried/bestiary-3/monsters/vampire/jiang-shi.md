@@ -14,8 +14,8 @@ kind = "creature"
 cr = "6"
 creature_type = "undead"
 subtypes = ["augmented humanoid"]
-size = "Medium"
-alignment = "LE"
+size = "medium"
+alignment = "lawful evil"
 ac = "25, touch 22, flat-footed 18 (+6 Dex, +1 dodge, +3 natural, +1 monk, +4 Wis)"
 hp = "51 (5d8++25); fast healing 5"
 fortitude = "+8"
@@ -30,8 +30,8 @@ abilities = ["16", "23", "-", "12", "18", "16"]
 ::: statblock
 CR: 6
 XP: 2,400
-Alignment: LE
-Size: Medium
+Alignment: lawful evil
+Size: medium
 Type: Undead (augmented humanoid)
 Race: human
 Class Levels: monk 5

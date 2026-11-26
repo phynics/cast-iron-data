@@ -17,7 +17,7 @@ page = "213"
 [fields]
 kind = "spell"
 school = "conjuration"
-subschools = ["Calling"]
+subschools = ["calling"]
 levels = [
   { class = "Druid", level = 9 },
   { class = "Shaman", level = 9 },
@@ -44,7 +44,7 @@ Effect: up to three called fey, totaling no more than 18 Hit Dice, no two of whi
 Duration: instantaneous
 Saving throw: none
 Spell resistance: no
-Subschool: Calling
+Subschool: calling
 :::
 
 ### Greater Entice Fey

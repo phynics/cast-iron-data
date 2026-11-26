@@ -14,7 +14,7 @@ page = "186"
 [fields]
 kind = "spell"
 school = "transmutation"
-subschools = ["Polymorph"]
+subschools = ["polymorph"]
 levels = [
   { class = "Arcanist", level = 7 },
   { class = "Sorcerer", level = 7 },
@@ -45,7 +45,7 @@ Duration: 1 minute/level (D)
 Saving throw: none
 Spell resistance: no
 Target: you
-Subschool: Polymorph
+Subschool: polymorph
 :::
 
 You exchange the crude matter of your material body with the insubstantial essence of the Plane of

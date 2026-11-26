@@ -16,125 +16,89 @@ page = "52"
 
 [fields]
 kind = "archetype"
+features = [
+  { anchor = "shifting-companion", level = 3 },
+  { anchor = "terrain-chameleon", level = 1 },
+  { anchor = "savage-diplomacy", level = 2 },
+  { anchor = "animal-shape", level = 5 },
+  { anchor = "improved-shifting-companion", level = 10 },
+  { anchor = "one-with-the-wild", level = 17 },
+]
 trades = [
-  { replaces = "Teamwork feats", feature = "teamwork-feat" },
-  { replaces = "hunter's tactics", feature = "hunter-tactics" },
-  { replaces = "Wild empathy", feature = "wild-empathy" },
-  { replaces = "Precise companion", feature = "precise-companion" },
-  { replaces = "Woodland stride", feature = "woodland-stride" },
-  { replaces = "Raise animal companion", feature = "raise-animal-companion" },
-  { alters = "One with the wild", feature = "one-with-the-wild" },
+  { replaces = "Teamwork feats", feature = "teamwork-feat", by = ["shifting-companion"] },
+  { replaces = "hunter's tactics", feature = "hunter-tactics", by = ["shifting-companion"] },
+  { replaces = "Wild empathy", feature = "wild-empathy", by = ["terrain-chameleon"] },
+  { replaces = "Precise companion", feature = "precise-companion", by = ["savage-diplomacy"] },
+  { replaces = "Woodland stride", feature = "woodland-stride", by = ["animal-shape"] },
+  { replaces = "Raise animal companion", feature = "raise-animal-companion", by = ["improved-shifting-companion"] },
+  { alters = "One with the wild", feature = "one-with-the-wild", by = ["one-with-the-wild"] },
 ]
 +++
 
 Some hunters are masters of blending into every situation, even making their companions appear
 humanoid for brief periods of time.
 
-**Gained class skills:** diplo
+## Skills {#skills}
 
-**Shifting Companion (Su)**
+A chameleon adept adds Diplomacy to her list of class skills.
 
-**Gained:** At 3rd Level
+This alters the hunter's class skills.
 
-**Replaces:** Teamwork feats, hunter's tactics
+## Shifting Companion (Su) {#shifting-companion}
 
-**Special:** The companion is no more intelligent or less savage than normal; the hunter still needs
-to control it as normal, and it still can't activate magic items or wield manufactured weapons.
+At 3rd level as a standard action, a chameleon adept can cause her companion to assume a humanoid
+form of the same race as herself. This functions as _[alter self](ref/spell/alter-self)_, except it
+is used on an adjacent animal companion to have it assume a humanoid form. The companion always
+assumes the same form, selected when the hunter reaches 3rd level. The hunter can change this form
+when she gains a new level, but the companion loses the old form and can't resume it unless the
+chameleon adept chooses that form when she reaches a new level. The companion is no more intelligent
+or less savage than normal; the hunter still needs to control it as normal, and it still can't
+activate magic items or wield manufactured weapons. The hunter can use this ability for 10 minutes
+per day per hunter level. This duration does not need to be consecutive, but it must be spent in
+10-minute increments.
 
-**Standard:** A chameleon adept can cause her companion to assume a humanoid form of the same race
-as herself. This functions as [alter self](ref/spell/alter-self), except it is used on an adjacent
-animal companion to have it assume a humanoid form. The companion always assumes the same form,
-selected when the hunter reaches 3rd level. The hunter can change this form when she gains a new
-level, but the companion loses the old form and can't resume it unless the chameleon adept chooses
-that form when she reaches a new level.
+This replaces teamwork feats and hunter's tactics.
 
-**Usage:** 10 minutes/day per hunter level; these minutes need not be consecutive, but must be spent
-in 10-minute increments
+## Terrain Chameleon (Su) {#terrain-chameleon}
 
-**Terrain Chameleon (Su)**
-
-**Choice:** Choose one type of terrain from the ranger's list of
+Choose one type of terrain from the ranger's list of
 [favored terrains](ref/ability/favored-terrain). When in the specified type of terrain, a chameleon
 adept gains a bonus equal to [half](ref/misc/fractions-and-rounding) her hunter level on Stealth
 checks.
 
-**Replaces:** Wild empathy
+This replaces wild empathy.
 
-**Savage Diplomacy (Ex)**
+## Savage Diplomacy (Ex) {#savage-diplomacy}
 
-**Gained:** At 2nd Level
+At 2nd level, while in humanoid form, a chameleon adept's animal companion grants its master a +2
+circumstance bonus on Diplomacy and Intimidate checks. Savage diplomacy functions only as long as
+the creature being influenced can see both the companion and the master. This bonus increases by 1
+at 5th level and every 4 levels thereafter, to a maximum of +6 at 17th level.
 
-**Passive:** While in humanoid form, a chameleon adept's animal companion grants its master a +2
-circumstance bonus on Diplomacy and Intimidate checks. _Savage diplomacy_ functions only as long as
-the creature being influenced can see both the companion and the master.
+This replaces precise companion.
 
-**Replaces:** Precise companion
+## Animal Shape (Su) {#animal-shape}
 
-At 5th level: This bonus increases to +3.
+At 5th level as a standard action, a chameleon adept can assume a form superficially identical to
+her animal companion's animal form. She gains no bonuses or natural attacks while in this form, only
+forms of movement. Her size category does not change. This is a polymorph effect. She can assume
+this form for 1 minute per level per day, in 1-minute increments. She can dismiss this ability at
+any point as a standard action.
 
-At 9th level: This bonus increases to +4.
+This replaces woodland stride.
 
-At 13th level: This bonus increases to +5.
+## Improved Shifting Companion (Su) {#improved-shifting-companion}
 
-At 17th level: This bonus increases to +6.
-
-**Animal Shape (Su)**
-
-**Gained:** At 5th Level
-
-**Replaces:** Woodland stride
-
-**Special:** She can dismiss this ability at any point as a **standard action**.
-
-**Standard:** A chameleon adept can assume a form superficially identical to her animal companion's
-animal form. She gains no bonuses or natural attacks while in this form, only forms of movement. Her
-size category does not change. This is a polymorph effect.
-
-**Usage:** 1 minute/day per hunter level; these minutes need not be consecutive, but must be spent
-in 1-minute increments
-
-**Improved Shifting Companion (Su)**
-
-**Ability:** A chameleon adept's animal companion improves its ability to change shape. It can use
-_wild shape,_ as a [druid](ref/class/druid) of half the hunter's level, to gain the effects of
-[beast shape I.](ref/spell/beast-shape-1) Unlike a druid's _wild shape,_ this ability does not
+At 10th level, a chameleon adept's animal companion improves its ability to change shape. It can use
+wild shape, as a [druid](ref/class/druid) of half the hunter's level, to gain the effects of
+_[beast shape I](ref/spell/beast-shape-1)_. Unlike a druid's wild shape, this ability does not
 improve to encompass larger or smaller animals or elementals.
 
-**Gained:** At 10th Level
+This replaces raise animal companion.
 
-**Replaces:** Raise animal companion
+## One with the Wild (Ex) {#one-with-the-wild}
 
-**Wild Shape (Su)**
+At 17th level, when the companion is using wild shape to appear as a different type of animal, it
+counts as being in that animal focus for the purpose of one with the wild.
 
-**Flavor:** Relevant text from the druid class ability.
-
-**At 10th Level:** You can _wild shape_ 4 times/day.
-
-**At 6th Level:** You can _wild shape_ twice a day as [beast shape II](ref/spell/beast-shape-2).
-
-**At 8th Level:** You can _wild shape_ 3 times/day.
-
-**Provokes attack of opportunity:** No
-
-**Special:** You can communicate normally with other animals of the same general grouping as your
-new form. (The normal sound a wild parrot makes is a squawk, so changing to this form does not
-permit speech.)
-
-**Standard:** You gain the ability to turn yourself into any Small or Medium animal and back again.
-Your options for new forms include all creatures with the animal type. This ability functions like
-the [beast shape I](ref/spell/beast-shape-1) spell, except as noted here. The effect lasts for 1
-hour per druid level, or until you change back. The form chosen must be that of an animal with which
-you are familiar.
-
-**Usage:** Once a day.
-
-**Usage:** Once a day.
-
-**One with the Wild (Ex)**
-
-**Alters:** One with the wild
-
-**Gained:** At 17th Level
-
-**Passive:** When the companion is using _wild shape_ to appear as a different type of animal, it
-counts as being in that _animal focus_ for the purpose of _one with the wild._
+This alters one with the wild.

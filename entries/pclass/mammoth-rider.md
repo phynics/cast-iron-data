@@ -17,7 +17,7 @@ page = "36"
 [fields]
 kind = "class"
 class_type = "prestige"
-hit_die = "d12."
+hit_die = "d12"
 +++
 
 From the inhospitable arctic wastes of the far north come the mighty mammoth riders, fearsome
@@ -42,7 +42,7 @@ The Mammoth Rider's class skills are [Handle Animal](ref/skill/handle-animal) (C
 (Dex), and [Survival](ref/skill/survival) (Wis).
 
 **Skill Points at each Level:** 4 + Int modifier.\
-**Hit Die:** d12.
+**Hit Die:** d12
 
 ### Class Features
 

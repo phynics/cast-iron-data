@@ -17,7 +17,7 @@ page = "28"
 [fields]
 kind = "spell"
 school = "transmutation"
-subschools = ["Polymorph"]
+subschools = ["polymorph"]
 levels = [
   { class = "Alchemist", level = 5 },
   { class = "Antipaladin", level = 4 },
@@ -57,7 +57,7 @@ Target: humanoid creature touched
 Duration: 1 hour/level
 Saving throw: Fortitude negates
 Spell resistance: yes
-Subschool: Polymorph
+Subschool: polymorph
 :::
 
 ### Greater Claim Identity

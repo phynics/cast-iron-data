@@ -14,7 +14,7 @@ page = "199"
 [fields]
 kind = "spell"
 school = "illusion"
-subschools = ["Pattern"]
+subschools = ["pattern"]
 descriptors = ["mind-affecting"]
 levels = [
   { class = "Arcanist", level = 3 },
@@ -47,7 +47,7 @@ Duration: 1 round/level
 Saving throw: see text
 Spell resistance: no
 Effect: transparent wall whose area is up to one 10-ft. square/level
-Subschool: Pattern
+Subschool: pattern
 Descriptors: mind-affecting
 :::
 

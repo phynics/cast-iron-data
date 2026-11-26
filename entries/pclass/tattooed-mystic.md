@@ -14,7 +14,7 @@ page = "56"
 [fields]
 kind = "class"
 class_type = "prestige"
-hit_die = "d6."
+hit_die = "d6"
 +++
 
 The tattooed mystics of Varisia are renowned throughout Avistan for both the artistry with which
@@ -42,7 +42,7 @@ The Tattooed Mystic's class skills are [Knowledge (arcana)](ref/skill/knowledge-
 (Int), and [Spellcraft](ref/skill/spellcraft) (Int).
 
 **Skill Points at each Level:** 2 + Int modifier.\
-**Hit Die:** d6.
+**Hit Die:** d6
 
 ### Class Features
 

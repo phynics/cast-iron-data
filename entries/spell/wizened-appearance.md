@@ -14,7 +14,7 @@ page = "229"
 [fields]
 kind = "spell"
 school = "transmutation"
-subschools = ["Polymorph"]
+subschools = ["polymorph"]
 levels = [
   { class = "Alchemist", level = 1 },
   { class = "Arcanist", level = 1 },
@@ -51,7 +51,7 @@ Duration: 1 hour/level
 Saving throw: Fortitude negates
 Spell resistance: yes
 Target: creature touched
-Subschool: Polymorph
+Subschool: polymorph
 :::
 
 You polymorph your target to look like an older version of itself. You select how much older (for

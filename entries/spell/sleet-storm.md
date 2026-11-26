@@ -14,7 +14,7 @@ page = "344"
 [fields]
 kind = "spell"
 school = "conjuration"
-subschools = ["Creation"]
+subschools = ["creation"]
 descriptors = ["cold"]
 levels = [
   { class = "Arcanist", level = 3 },
@@ -49,7 +49,7 @@ Duration: 1 round/level
 Saving throw: none
 Spell resistance: no
 Area: cylinder (40-ft. radius, 20 ft. high)
-Subschool: Creation
+Subschool: creation
 Descriptors: cold
 :::
 

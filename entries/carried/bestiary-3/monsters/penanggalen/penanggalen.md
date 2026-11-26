@@ -15,8 +15,8 @@ kind = "creature"
 cr = "5"
 creature_type = "undead"
 subtypes = ["augmented humanoid"]
-size = "Medium"
-alignment = "NE"
+size = "medium"
+alignment = "neutral evil"
 ac = "21, touch 15, flat-footed 16 (+4 Dex, +1 dodge, +6 natural)"
 hp = "45 (5d6+25); fast healing 5"
 fortitude = "+4"
@@ -31,8 +31,8 @@ abilities = ["18", "18", "-", "17", "16", "16"]
 ::: statblock
 CR: 5
 XP: 1,600
-Alignment: NE
-Size: Medium
+Alignment: neutral evil
+Size: medium
 Type: Undead (augmented humanoid)
 Race: human
 Class Levels: witch 5

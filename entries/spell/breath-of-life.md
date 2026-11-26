@@ -14,7 +14,7 @@ page = "251"
 [fields]
 kind = "spell"
 school = "conjuration"
-subschools = ["Healing"]
+subschools = ["healing"]
 levels = [
   { class = "Cleric", level = 5 },
   { class = "Oracle", level = 5 },
@@ -44,7 +44,7 @@ Duration: instantaneous
 Saving throw: Will negates (harmless) or Will half, see text
 Spell resistance: yes (harmless) or yes, see text
 Target: creature touched
-Subschool: Healing
+Subschool: healing
 :::
 
 This spell cures 5d8 points of damage + 1 point per caster level (maximum +25).

@@ -16,79 +16,65 @@ page = "166"
 
 [fields]
 kind = "archetype"
+features = [
+  { anchor = "contemplative" },
+  { anchor = "trance" },
+  { anchor = "haunt-channeler", level = 3 },
+  { anchor = "spirit-conduit", level = 4 },
+]
 trades = [
-  { replaces = "Trap sense", feature = "trap-sense" },
-  { replaces = "4th, 8th, and 12th level rage powers", feature = "rage-powers", levels = [4, 8, 12] },
-  { alters = "The barbarian's class skills" },
-  { alters = "alignment" },
-  { alters = "Rage", feature = "rage" },
+  { replaces = "Trap sense", feature = "trap-sense", by = ["haunt-channeler"] },
+  { replaces = "Rage powers gained at 4th, 8th, and 12th levels", feature = "rage-powers", levels = [4, 8, 12], by = ["spirit-conduit"] },
+  { alters = "The barbarian's class skills", by = ["contemplative"] },
+  { alters = "alignment", by = ["contemplative"] },
+  { alters = "Rage", feature = "rage", by = ["trance"] },
 ]
 +++
 
 Geminate invokers are barbarians who use [Rivethun](ref/rule/aff-animists) traditions to invite
-spirits into their bodies. The spirits' aid enables them to overcome the distractions of the flesh:
-they can ignore pain, and even defy death. These ascetics make up much of the Rivethun martial
+spirits into their bodies. The spirits' aid enables them to overcome the distractions of the
+flesh—they can ignore pain, and even defy death. These ascetics make up much of the Rivethun martial
 forces.
 
-**Contemplative (Ex)**
+## Contemplative (Ex) {#contemplative}
 
-**Alters:** The barbarian's class skills, alignment
+A geminate invoker adds [Knowledge (history)](ref/skill/knowledge-history),
+[Knowledge (religion)](ref/skill/knowledge-religion), and [Linguistics](ref/skill/linguistics) to
+his list of class skills. Unlike most barbarians, a geminate invoker can be lawful, but must
+maintain a neutral element to his alignment. A geminate invoker who ceases to be neutral-aligned
+cannot activate his trance ability.
 
-**Info:** Unlike most barbarians, a geminate invoker can be lawful, but must maintain a neutral
-element to his alignment. A geminate invoker who ceases to be neutral-aligned cannot activate his
-trance ability.
+This alters the barbarian's class skills and alignment.
 
-**Passive:** A geminate invoker adds [Knowledge (history)](ref/skill/knowledge-history),
-[Knowledge (religion)](ref/skill/knowledge-religion), and [Linguistics](ref/skill/linguistics) (INT)
-to his list of class skills.
+## Trance (Ex) {#trance}
 
-**Trance (Ex)**
+As a free action, a geminate invoker can enter a self-imposed trance, ignoring the physical limits
+of his body. This ability functions similarly to a barbarian's rage, except where noted below, and
+feats, spells, and abilities that affect a barbarian's rage (such as the
+[Extra Rage](ref/feat/extra-rage) feat) apply to an geminate invoker's trance. A geminate invoker
+gains rage powers as per a normal barbarian, but he can never gain totem rage powers via this
+ability.
 
-**Alters:** Rage
+Instead of the normal rage bonuses and penalties, a geminate invoker in a trance gains a +4 morale
+bonus to his Constitution; gains a +2 morale bonus on Reflex and Will saving throws; takes no
+penalties to AC; can still use Dexterity-, Intelligence-, and Charisma-based skills; and gains
+[Diehard](ref/feat/diehard) as a bonus feat. The Constitution bonus increases to +6 and the save
+bonus increases to +3 when he gains greater rage, and they increase to a +8 Constitution bonus and a
++4 bonus on saves when he gains mighty rage.
 
-**Free:** A geminate invoker can enter a self-imposed trance, ignoring the physical limits of his
-body. This ability functions similarly to a barbarian's _rage,_ except where noted below, and feats,
-spells, and abilities that affect a barbarian's _rage_ (such as the
-[Extra Rage](ref/feat/extra-rage) feat) apply to an geminate invoker's trance. Instead of the normal
-_rage_ bonuses and penalties, a geminate invoker in a trance gains a +4 morale bonus to his
-Constitution; gains a +2 morale bonus on Reflex and Will saving throws; takes no penalties to AC;
-can still use Dexterity-, Intelligence-, and Charisma-based skills; and gains
-[Diehard](ref/feat/diehard) as a bonus feat.
+This ability alters rage.
 
-**Special:** The Constitution bonus increases to +6 and the save bonus increases to +3 when he gains
-_greater rage,_ and they increase to a +8 Constitution bonus and a +4 bonus on saves when he gains
-_mighty rage._ A geminate invoker gains rage powers as per a normal barbarian, but he can never gain
-totem rage powers via this ability.
+## Haunt Channeler (Su) {#haunt-channeler}
 
-**Haunt Channeler (Su)**
+At 3rd level, a geminate invoker gains the power to sense and absorb lingering spiritual energy.
+This functions identically to the [medium](ref/class/medium) class ability of the same name, except
+the geminate invoker deals 1d6 points of damage to haunts for every 3 barbarian levels he has.
 
-**Ability:** A geminate invoker gains the power to sense and absorb lingering spiritual energy. This
-functions identically to the [medium](ref/class/medium) class ability of the same name, except the
-geminate invoker deals 1d6 points of damage to haunts for every 3 barbarian levels he has.
+This ability replaces trap sense.
 
-**Gained:** At 3rd Level
+## Spirit Conduit (Su) {#spirit-conduit}
 
-**Replaces:** Trap sense
-
-**Haunt Channeler (Su)**
-
-**Ability:** Your touch funnels a portion of the haunt into yourself, dealing 1d6 points of damage
-to the haunt per \[3 barbarian levels\] you possess as if via positive energy and allowing you to
-ask the haunt a single question. The haunt can answer the question however it chooses.
-
-**Ability2:** Additionally, you can forgo your saving throw against a haunt's effects to funnel the
-haunt entirely into yourself. If you do so, you suffer the haunt's full effect, but the haunt
-doesn't affect anyone else (even if it normally would). The haunt then gains control of your body
-for 24 hours. Once per minute, you can attempt to end this possession early by succeeding at a Will
-save (DC = 20 + 1/2 your medium level).
-
-**Flavor:** Text from the medium class
-
-**Passive:** You can always act on the surprise round against a haunt.
-
-**Spirit Conduit (Su)**
-
-**Ability:** A geminate invoker can invite a spirit into his body each time he enters a trance,
+At 4th level, a geminate invoker can invite a spirit into his body each time he enters a trance,
 gaining a lesser totem rage power for the duration of his trance. He can select a new totem each
 time he enters his trance, though the GM might rule that certain totem spirits are simply not
 available in certain locations (such as channeling a celestial totem in an evil god's temple).
@@ -96,12 +82,8 @@ Invoking a totem counter to his alignment (such as a neutral good character invo
 requires the geminate invoker to succeed at a DC 12 Charisma check each round to dominate the
 spirit. Failure indicates the spirit escapes, immediately ending the trance.
 
-**At 12th Level:** He now also gains the _greater totem rage power_ that uses the previously granted
-powers as prerequisites.
+At 8th level, the geminate invoker gains a second totem rage power, though it must use the
+previously granted lesser totem rage power as a prerequisite. At 12th level, he also gains the
+greater totem rage power that uses the previously granted powers as prerequisites.
 
-**At 8th Level:** The geminate invoker gains a second totem rage power, though it must use the
-previously granted _lesser totem rage power_ as a prerequisite.
-
-**Gained:** At 4th Level
-
-**Replaces:** 4th, 8th, and 12th level rage powers
+This ability replaces the rage powers gained at 4th, 8th, and 12th levels.

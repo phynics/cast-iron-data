@@ -14,7 +14,7 @@ page = "313"
 [fields]
 kind = "spell"
 school = "enchantment"
-subschools = ["Compulsion"]
+subschools = ["compulsion"]
 descriptors = ["mind-affecting"]
 levels = [
   { class = "Arcanist", level = 5 },
@@ -50,7 +50,7 @@ Duration: 30 minutes and 2d6 rounds; see text
 Saving throw: Will negates
 Spell resistance: yes
 Effect: fog spreads in 20-ft. radius, 20 ft. high
-Subschool: Compulsion
+Subschool: compulsion
 Descriptors: mind-affecting
 :::
 

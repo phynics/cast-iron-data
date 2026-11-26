@@ -17,7 +17,7 @@ page = "241"
 [fields]
 kind = "spell"
 school = "conjuration"
-subschools = ["Summoning"]
+subschools = ["summoning"]
 levels = [
   { class = "Druid", level = 1 },
   { class = "Hunter", level = 1 },
@@ -45,7 +45,7 @@ Duration: 1 round/level (D)
 Saving throw: none
 Spell resistance: no
 Effect: 1d3 summoned creatures
-Subschool: Summoning
+Subschool: summoning
 :::
 
 This spell functions as [summon nature's ally I](ref/spell/summon-natures-ally-1), except you can

@@ -14,7 +14,7 @@ page = "43"
 [fields]
 kind = "spell"
 school = "conjuration"
-subschools = ["Teleportation"]
+subschools = ["teleportation"]
 levels = [
   { class = "Cleric", level = 3 },
   { class = "Inquisitor", level = 3 },
@@ -43,7 +43,7 @@ Duration: instantaneous
 Saving throw: Will negates (object)
 Spell resistance: yes (object)
 Target: you and touched objects
-Subschool: Teleportation
+Subschool: teleportation
 :::
 
 You transform yourself into a helical beam of divine energy that instantly transports you upward to

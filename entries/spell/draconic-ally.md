@@ -14,7 +14,7 @@ page = "28"
 [fields]
 kind = "spell"
 school = "conjuration"
-subschools = ["Creation"]
+subschools = ["creation"]
 descriptors = ["draconic"]
 levels = [
   { class = "Antipaladin", level = 3 },
@@ -51,7 +51,7 @@ Duration: 1 day/level (D)
 Saving throw: none
 Spell resistance: no
 Effect: one intelligent draconic servant
-Subschool: Creation
+Subschool: creation
 Descriptors: draconic
 :::
 

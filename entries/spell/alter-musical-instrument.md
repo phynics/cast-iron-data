@@ -14,7 +14,7 @@ page = "173"
 [fields]
 kind = "spell"
 school = "illusion"
-subschools = ["Figment"]
+subschools = ["figment"]
 levels = [
   { class = "Arcanist", level = 1 },
   { class = "Bard", level = 1 },
@@ -47,7 +47,7 @@ Duration: 1 hour/level (D)
 Saving throw: Fortitude negates (object)
 Spell resistance: yes (object)
 Target: one musical instrument
-Subschool: Figment
+Subschool: figment
 :::
 
 You alter an instrument so it sounds like a different kind of instrument you are familiar with. The

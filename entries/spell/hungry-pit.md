@@ -17,7 +17,7 @@ page = "228"
 [fields]
 kind = "spell"
 school = "conjuration"
-subschools = ["Creation"]
+subschools = ["creation"]
 levels = [
   { class = "Arcanist", level = 5 },
   { class = "Sorcerer", level = 5 },
@@ -47,7 +47,7 @@ Duration: 1 round + 1 round/level
 Saving throw: Reflex negates, Reflex half, see text
 Spell resistance: no
 Effect: 10-ft.-by-10-ft. hole, 10 ft. deep/2 levels
-Subschool: Creation
+Subschool: creation
 :::
 
 ### Hungry Pit

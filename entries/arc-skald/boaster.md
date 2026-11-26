@@ -16,14 +16,23 @@ page = "84"
 
 [fields]
 kind = "archetype"
+features = [
+  { anchor = "endurance", level = 1 },
+  { anchor = "raging-song" },
+  { anchor = "song-of-endurance", level = 3 },
+  { anchor = "song-of-surmounting", level = 7 },
+  { anchor = "frightful-boast", level = 14 },
+  { anchor = "rage-power" },
+  { anchor = "greater-endurance", level = 6 },
+]
 trades = [
-  { replaces = "Scribe Scroll", feature = "scribe-scroll" },
-  { replaces = "Uncanny dodge", feature = "uncanny-dodge" },
-  { replaces = "Lore master", feature = "lore-master" },
-  { replaces = "Song of the fallen", feature = "song-of-the-fallen" },
-  { replaces = "Rage power gained at 6th level", feature = "rage-powers", levels = [6] },
-  { alters = "Song of marching", feature = "song-of-marching" },
-  { alters = "Rage powers", feature = "rage-powers" },
+  { replaces = "Scribe Scroll", feature = "scribe-scroll", by = ["endurance"] },
+  { replaces = "Uncanny dodge", feature = "uncanny-dodge", by = ["song-of-endurance"] },
+  { replaces = "Lore master", feature = "lore-master", by = ["song-of-surmounting"] },
+  { replaces = "Song of the fallen", feature = "song-of-the-fallen", by = ["frightful-boast"] },
+  { replaces = "Rage power gained at 6th level", feature = "rage-powers", levels = [6], by = ["greater-endurance"] },
+  { alters = "Song of marching", feature = "song-of-marching", by = ["song-of-endurance"] },
+  { alters = "Rage powers", feature = "rage-powers", by = ["rage-power"] },
 ]
 +++
 
@@ -32,74 +41,64 @@ remarkable feats. With a properly delivered boast, a boaster can inspire listene
 more often than not, succeed at stunts or tasks they may not have realized they were capable of
 doing.
 
-**Endurance**
+## Endurance {#endurance}
 
-**Ability:** The boaster gains [Endurance](ref/feat/endurance) as a bonus feat.
+The boaster gains [Endurance](ref/feat/endurance) as a bonus feat.
 
-**Replaces:** Scribe Scroll
+This replaces Scribe Scroll.
 
-**Raging Song (Su)**
+## Raging Song (Su) {#raging-song}
 
-**Info:** A boaster gains access to the following _raging songs._
+A boaster gains access to the following raging songs.
 
-**Song of Endurance (Su)**
+## Song of Endurance (Su) {#song-of-endurance}
 
-**Ability:** The boaster's _raging song_ can inspire his allies to great feats of endurance. This
-_raging song_ functions as _song of marching_ except affected allies also gain the benefits of the
+At 3rd level, the boaster's raging song can inspire his allies to great feats of endurance. This
+raging song functions as song of marching except affected allies also gain the benefits of the
 Endurance feat in addition to the benefits of any of the following feats the boaster has (even if
 they don't meet the prerequisites): [Deathless Initiate](ref/feat/deathless-initiate),
 [Deathless Master](ref/feat/deathless-master), [Deathless Zealot](ref/feat/deathless-zealot),
 [Diehard](ref/feat/diehard), [Fast Healer](ref/feat/fast-healer),
 [Heroic Defiance](ref/feat/heroic-defiance), and [Heroic Recovery](ref/feat/heroic-recovery).
 
-**Alters:** Song of marching
+This raging song replaces uncanny dodge and alters song of marching.
 
-**Gained:** At 3rd Level
+## Song of Surmounting (Su) {#song-of-surmounting}
 
-**Replaces:** Uncanny dodge
-
-**Song of Surmounting (Su)**
-
-**Ability:** The boaster's _raging song_ can inspire allies to move quickly and easily. By spending
-1 round of _raging song,_ the boaster can affect all allies within 90 feet for 1 hour. Affected
-allies gain a benefit according to the surrounding terrain (the benefits don't stack): a climb speed
-equal to half their base speed (forest, jungle, mountain, underground), a swim speed equal to their
-base speed (swamp, water), or a +10 foot enhancement bonus to their base speed (cold, desert, hill,
+At 7th level, the boaster's raging song can inspire allies to move quickly and easily. By spending 1
+round of raging song, the boaster can affect all allies within 90 feet for 1 hour. Affected allies
+gain a benefit according to the surrounding terrain (the benefits don't stack): a climb speed equal
+to half their base speed (forest, jungle, mountain, underground), a swim speed equal to their base
+speed (swamp, water), or a +10 foot enhancement bonus to their base speed (cold, desert, hill,
 plains, or urban). The skald must continue to perform the song for the remainder of the hour;
-otherwise, its effects end, but only 1 round of _raging song_ is expended for that hour.
+otherwise, its effects end, but only 1 round of raging song is expended for that hour. At 13th
+level, the speed or bonus granted by this ability doubles. At 19th level, this ability grants triple
+the listed speed or bonus.
 
-**At 13th Level:** The speed or bonus granted by this ability doubles.
+This raging song replaces lore master.
 
-**At 19th Level:** This ability grants triple the listed speed or bonus.
+## Frightful Boast (Su) {#frightful-boast}
 
-**Gained:** At 7th Level
-
-**Replaces:** Lore master
-
-**Frightful Boast (Su)**
-
-**Ability:** The boaster's _raging song_ can frighten foes, as per the
+At 14th level, the boaster's raging song can frighten foes, as per the
 [frightening tune](ref/performance/frightening-tune) bardic performance.
 
-**Gained:** At 14th Level
+This replaces song of the fallen.
 
-**Replaces:** Song of the fallen
+## Rage Power (Ex) {#rage-power}
 
-**Rage Power (Ex)**
+The boaster does not gain this ability until 4th level.
 
-**Alters:** Rage powers
+This alters the skald's rage powers.
 
-**Info:** The boaster does not gain this ability until 4th level.
+## Greater Endurance {#greater-endurance}
 
-**Greater Endurance**
+At 6th level, the boaster gains a bonus feat that he qualifies for. The feat must have Endurance as
+a prerequisite (such as Diehard or Fast Healer).
 
-**Ability:** The boaster gains a bonus feat that he qualifies for. The feat must have Endurance as a
-prerequisite (such as Diehard or Fast Healer).
+This replaces the rage power gained at 6th level.
 
-**Gained:** At 6th Level
+## Rage Powers {#rage-powers}
 
-**Replaces:** Rage power gained at 6th level
-
-**The following rage powers complement the boaster archetype:** boasting taunt, come and get me,
+The following rage powers complement the boaster archetype: boasting taunt, come and get me,
 fearless rage, fierce fortitude, intimidating glare, raging climber, raging flier, raging leaper,
-raging swimmer, sprint, strength surge, swift foot
+raging swimmer, sprint, strength surge, and swift foot.

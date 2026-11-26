@@ -14,8 +14,7 @@ page = "301"
 [fields]
 kind = "spell"
 school = "illusion"
-subschools = ["Glamer"]
-descriptors = ["glamer"]
+subschools = ["glamer"]
 levels = [
   { class = "Adept", level = 2 },
   { class = "Alchemist", level = 2 },
@@ -59,8 +58,7 @@ Duration: 1 minute/level (D)
 Saving throw: Will negates (harmless) or Will negates (harmless, object)
 Spell resistance: yes (harmless) or yes (harmless, object)
 Target: you or a creature or object weighing no more than 100 lbs./level
-Subschool: Glamer
-Descriptors: glamer
+Subschool: glamer
 :::
 
 The creature or object touched becomes invisible. If the recipient is a creature carrying gear, that

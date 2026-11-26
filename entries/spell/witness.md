@@ -14,7 +14,7 @@ page = "249"
 [fields]
 kind = "spell"
 school = "divination"
-subschools = ["Scrying"]
+subschools = ["scrying"]
 levels = [
   { class = "Bard", level = 3 },
   { class = "Inquisitor", level = 3 },
@@ -47,7 +47,7 @@ Duration: 1 minute/level (D)
 Saving throw: Will negates (harmless)
 Spell resistance: yes (harmless)
 Target: one living creature
-Subschool: Scrying
+Subschool: scrying
 :::
 
 You link your senses to the target, allowing you to see and hear through its eyes and ears. As a

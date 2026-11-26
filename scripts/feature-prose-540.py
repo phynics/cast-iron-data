@@ -102,6 +102,8 @@ PRINTINGS = {
     "ultimate-combat": "Ultimate Combat, 3rd printing",
     "occult-adventures": "Occult Adventures, 1st printing",
     "ultimate-intrigue": "Ultimate Intrigue, 1st printing",
+    "ultimate-wilderness": "Ultimate Wilderness, 1st printing",
+    "adventurers-guide": "Adventurer's Guide, 1st printing",
 }
 ROOT = HERE.parent
 FORGET_CHECKER_HOLDS = False
@@ -752,14 +754,17 @@ def read_blocks(book: Book, first: int, last: int) -> list[Para]:
             else:
                 insets[ln["col"]] = None
                 starts = indent >= 8
-            if ILLUSTRATED["on"] and starts and out and out[-1].kind == "para" and not re.search(r"[.!?:;)\"”…]\s*$", out[-1].plain()) \
+            if ILLUSTRATED["on"] and starts and out and out[-1].kind == "para" and not re.search(r"[.!?:)\"”…]\s*$", out[-1].plain()) \
                     and not (all(bold for t, bold, _i in out[-1].runs if t.strip())
                              and not next((bold for t, bold, _i in ln["runs"] if t.strip()), True)):
                 # beside an illustration a line may be indented without starting a paragraph: a paragraph does not
                 # start in the middle of a sentence (a line of bold type only is a head, which has no sentence end, and
                 # the next line in plain type starts its text: "4th-Level Ki Powers" of the Qinggong Monk; a second line
-                # in bold type is the rest of the head: "Musketeer Instruction" over "(Ex)")
-                starts = False
+                # in bold type is the rest of the head: "Musketeer Instruction" over "(Ex)"). A bold head with its colon ("Summon
+                # Fey Allies:") after a table, which ends without a sentence end, still starts one
+                cand0 = head_candidate(Para("para", list(ln["runs"]), shown, ln["col"]))
+                starts = bool(cand0 and cand0[2] and cand0[1] and cand0[1][0][0].lstrip().startswith(":") and len(cand0[0]) <= 60
+                              and not all(bold for t, bold, _i in out[-1].runs if t.strip()))
             if ILLUSTRATED["on"] and not starts and out and out[-1].kind == "para" and re.search(r"[.)!?\"”]\s*$", out[-1].plain()):
                 # beside an illustration the lines have no common indent: a head ("Rope Swing (Ex):") after the end of a
                 # sentence still starts a paragraph
@@ -793,6 +798,18 @@ CLASS_SUFFIX = re.compile(r"\s*\((?:Alchemist|Antipaladin|Barbarian|Bard|Cavalie
 UNTYPED_ARCHETYPE_TITLES = {squash(x) for x in ("Totem Warrior", "Animal Shamans")}
 
 
+# The Adventurer's Guide sets each archetype at the end of the chapter of a Pathfinder Society faction, followed by the faction's
+# affiliation, equipment, feats, magic items and spells; the Ultimate Wilderness sets a race's equipment, feats, magic items and
+# spells after the archetype of its chapter. These titles are the next section of the book, not a sidebar of the archetype.
+SECTION_STOP = re.compile(r"^(?:AFFILIATION\b|.*\bAFFILIATION$|EQUIPMENT\b|FEATS?\b|MAGIC ITEMS?\b|SPELLS?$|CLASS OPTIONS?\b|"
+                          r"VIGILANTE CLASS OPTION|INVESTIGATOR TALENTS|[A-Z]+ (?:EQUIPMENT|FEATS|MAGIC ITEMS?|SPELLS?)$)")
+SECTION_STOPS = {"on": False}
+
+# A title with a parenthesized type that does not end the section: the box of rules that the archetype uses (owner ruling 41;
+# Elemental Aspects of the Elementalist Shifter, Ultimate Wilderness pp. 78-80, "(Elementalist Shifter Aspects)")
+KEEP_TITLES = {squash("Elemental Aspects (Elementalist Shifter Aspects)")}
+
+
 def find_section(blocks: list[Para], title: str, stops: set[str] | None = None) -> list[Para] | None:
     """The blocks of an archetype: from its title to the next title of another archetype or of a class. Another
     title in between (a sidebar, a table heading) is a heading of the section. With no `stops`, the next title of
@@ -813,7 +830,8 @@ def find_section(blocks: list[Para], title: str, stops: set[str] | None = None) 
                     # another archetype, a class, a chapter title (a larger font) or a title of a type of rules ends the
                     # section; so does the "NEW RACIAL RULES" title that follows the archetypes of a race chapter
                     if (stops is None or k in stops or k.endswith(("archetype", "mystery", "bloodline")) or nxt.size >= 30
-                            or CLASS_SUFFIX.search(nxt.plain()) or k == "newracialrules" or TYPE_TITLE.search(nxt.plain())):
+                            or CLASS_SUFFIX.search(nxt.plain()) or k == "newracialrules" or (TYPE_TITLE.search(nxt.plain()) and k not in KEEP_TITLES)
+                            or (SECTION_STOPS["on"] and SECTION_STOP.match(re.sub(r"\s+", " ", nxt.plain()).strip()))):
                         break
                     out.append(Para("para", [(t, True, i) for t, _, i in nxt.runs], nxt.page, nxt.col))
                 else:
@@ -971,7 +989,10 @@ def trade_sentences(text: str, head: str = "") -> list[tuple[str, str, bool]]:
         ops = [verb.group(1)] + [re.match(clause + r"(replaces?|alters?)", x, re.I).group(1) for x in parts[1:]]
         for op_word, part in zip(ops, parts):
             part = re.sub(r"^" + clause + r"(?:replaces?|alters?)\b", "", part.strip(), flags=re.I)
-            out.append((_op_of(op_word), _clean_phrase(part), bare))
+            ph = _clean_phrase(part)
+            if re.search(r"\bas indicated below$", ph, re.I):      # owner ruling 40: a cross-reference, like "(see ...)"; it stores no trade
+                continue
+            out.append((_op_of(op_word), ph, bare))
     return out
 
 
@@ -1337,7 +1358,7 @@ def trade_name(t: dict) -> tuple[str, str]:
 
 
 DECISION_HEADER = ["entry", "anchor", "decision", "note"]
-DECISIONS = ("print", "drop", "to-opening", "hold", "unlist", "list")
+DECISIONS = ("print", "drop", "to-opening", "hold", "unlist", "list", "sidebar")
 
 
 def decisions_path(corpus: Path, book: str) -> Path:
@@ -1529,6 +1550,8 @@ def publication_title(corpus: Path, book: str) -> str:
 # Misprints of the book that are fixed because the meaning is certain (owner ruling 9 of 2026-11-24): the
 # entry, the printed words, the words written, and why. The review table's note records each fix.
 MISPRINTS = [
+    ("ref/arc-spiritualist/involutionist", "available at 11th, 15th, and 17th levels", "available at 11th, 15th, and 19th levels",
+     "19th: the spiritualist's calm spirit gains an additional use per 4 levels beyond 7th (11th, 15th, 19th), the ability itself says 'At 15th and 19th levels', and the stored trade says 19th"),
     ("ref/arc-summoner/naturalist", "on its feat.", "on its feet.", "feet: the sentence is about the hooves of the eidolon (antlers and hoof like nails)"),
     ("ref/arc-summoner/naturalist", "superficial physical charges", "superficial physical changes",
      "changes: the same ability says \"superficial physical changes appropriate to that aspect\" two paragraphs earlier"),
@@ -1871,7 +1894,7 @@ def join_wrapped(raw_paras: list[str], vocab: set[str]) -> list[str]:
         s = finish_text(raw, vocab)
         if not s:
             continue
-        if paras and not re.search(r"(?:[.!?:;]|[.!?]\))\s*$", paras[-1].rstrip().removesuffix(I_CLOSE)):
+        if paras and not re.search(r"(?:[.!?:]|[.!?]\))\s*$", paras[-1].rstrip().removesuffix(I_CLOSE)):      # a semicolon ends no paragraph
             gap = "" if re.search(r"[A-Za-z0-9]/$", paras[-1].rstrip()) else " "      # a slash at a line end joins the next word ("DR 5/" "cold iron")
             joined = fix_hyphens(paras[-1].rstrip() + gap + s, vocab)
             joined = re.sub(I_CLOSE + r"\s+" + I_OPEN + r"(?=[,;.)])", "", joined)      # an italic run that a line end cut
@@ -2133,7 +2156,7 @@ def compare_entry(e: Entry, section: list[Para], book: Book) -> dict:
         # a head that only lists the options that complement the archetype ("The following slayer talents complement the
         # sniper archetype: ...") is a label, not a feature
         plain = re.sub(r"\[([^\]]*)\]\([^)]*\)", r"\1", r["print"]).replace("_", "")
-        if r["listed"] and re.match(r"(?:The following|These)\b[^.:]{0,120}\bcomplement\b", plain) and not trade_sentences(plain):
+        if r["listed"] and re.match(r"(?:The following|These)\b[^.:]{0,120}\bcomplements?\b", plain) and not trade_sentences(plain):
             r["listed"] = False
             r["notes"].append("label head (a list of the options that complement the archetype), not a feature")
     for r in rows:
@@ -2424,6 +2447,61 @@ TRADE_RENAMES = {
     ("ref/arc-alchemist/reanimator", "7th-level bomb damage increase"): "Increase to bomb damage at this level",
     ("ref/arc-alchemist/reanimator", "13th-level bomb damage increase"): "Increase to bomb damage at this level",
     ("ref/arc-alchemist/reanimator", "15th-level bomb damage increase"): "Increase to bomb damage at this level",
+    # Batch 4 (Ultimate Wilderness, Adventurer's Guide), owner ruling 22: the stored name is the printed wording (the TSV note records each)
+    ('ref/arc-alchemist/ice-chemist', '2nd-level discovery'): 'Discovery that the alchemist normally gains at 2nd level',
+    ('ref/arc-antipaladin/blighted-myrmidon', '10th-level use of smite good'): 'Use of smite good gained at 10th level',
+    ('ref/arc-barbarian/brutish-swamper', '6th-level rage power'): 'Rage power normally gained at 6th level',
+    ('ref/arc-barbarian/pack-hunter', '6th-level rage power'): 'Rage power normally gained at 6th level',
+    ('ref/arc-barbarian/sharptooth', '6th- and 12th-level rage powers'): 'Rage powers normally gained at 6th and 12th levels',
+    ('ref/arc-monk/water-dancer', 'Bonus feat gained at 1st level'): 'Bonus feat the monk normally gains at 1st level',
+    ('ref/arc-occultist/geomancer', '7th-level focus power'): 'Focus power gained at 7th level',
+    ('ref/arc-occultist/geomancer', '13th-level focus power'): 'Focus power gained at 13th level',
+    ('ref/arc-occultist/occult-historian', '3rd-level focus power'): 'Focus power gained at 3rd level',
+    ('ref/arc-paladin/hunting-paladin', '1st-level use of smite evil'): 'Use of smite evil gained at 1st level',
+    ('ref/arc-witch/herb-witch', '1st- and 10th-level hexes'): 'Hexes gained at 1st and 10th levels',
+    ('ref/arc-fighter/aldori-defender', '6th level fighter bonus feat'): 'Bonus feat the fighter would normally gain at 6th level',
+    ('ref/arc-fighter/aldori-defender', '8th level fighter bonus feat'): 'Bonus feat the fighter would normally gain at 8th level',
+    ('ref/arc-fighter/aldori-defender', '10th level fighter bonus feat'): 'Bonus feat the fighter would normally gain at 10th level',
+    ('ref/arc-monk/brazen-disciple', 'Bonus feats gained at 1st level and at 6th level'): "Monk's bonus feats at 1st level and at 6th level",
+    ('ref/arc-occultist/curator', '3rd-level focus power'): 'Focus power gained at 3rd level',
+    ('ref/arc-ranger/lantern-lighter', '8th-level favored terrain'): 'Favored terrain gained at 8th level',
+    ('ref/arc-oracle/elementalist-oracle', "The bonus spells gained at 4th, 6th, 8th, 10th, 12th and 18th levels from the oracle's mystery"): "The oracle's mystery bonus spells at these levels",
+    ('ref/arc-oracle/river-soul', "The bonus spells gained at 2nd, 6th, 8th, 10th, and 18th levels from the oracle's mystery"): "The oracle's mystery bonus spells at these levels",
+    ('ref/arc-oracle/tree-soul', "The bonus spells gained at 2nd, 10th, 12th, 14th, 16th, and 18th levels from the oracle's mystery"): "The oracle's mystery bonus spells at these levels",
+    ('ref/arc-oracle/river-soul', "Bonus skills from the oracle's mystery"): "The class skills granted by the oracle's mystery",
+    ('ref/arc-oracle/tree-soul', "Bonus skills from the oracle's mystery"): "The class skills granted by the oracle's mystery",
+    ('ref/arc-shifter/oozemorph', 'Chimeric aspect'): 'Chimeric form',
+    ('ref/arc-shifter/oozemorph', 'greater chimeric aspect'): 'Greater chimeric form',
+    ('ref/arc-swashbuckler/arrow-champion', 'Swashbuckler initiative'): "Swashbuckler's initiative",
+    ('ref/arc-occultist/curator', '6th- and 14th-level implements'): 'Implements learned at 6th level and 14th level',
+    ('ref/arc-druid/tempest-druid', 'Spontaneous casting'): "The druid's normal ability to spontaneously cast summon spells",
+    ('ref/arc-gunslinger/commando', 'Utility shot deed'): 'Utility shot',
+    ('ref/arc-gunslinger/commando', 'Expert loading deed'): 'Expert loading',
+    ('ref/arc-gunslinger/commando', 'Lightning reload deed'): 'Lightning reload',
+    ('ref/arc-gunslinger/commando', "Slinger's luck deed"): "Slinger's luck",
+    ('ref/arc-paladin/wilderness-warden', '3rd-, 9th-, and 15th-level mercies'): 'Mercies gained at 3rd level, 9th level, and 15th level',
+    ('ref/arc-monk/water-dancer', 'Bonus feats gained at 2nd, 6th, 10th, 14th, and 18th levels'): 'Bonus feats at 2nd, 6th, 10th, 14th, and 18th levels',
+    ('ref/arc-barbarian/geminate-invoker', '4th, 8th, and 12th level rage powers'): 'Rage powers gained at 4th, 8th, and 12th levels',
+    ('ref/arc-alchemist/horticulturist', '2nd-level discovery'): 'Discovery normally gained at 2nd level',
+    ('ref/arc-druid/green-faith-initiate', 'Daily use of wild shape gained at 6th level'): "The druid's additional daily use of wild shape gained at 6th level",
+    ('ref/arc-druid/green-faith-initiate', 'Daily use of wild shape gained at 10th level'): "The druid's additional daily use of wild shape gained at 10th level",
+    ('ref/arc-fighter/skirmisher', "The fighter's armor proficiency"): "The fighter's weapon and armor proficiency",
+    ('ref/arc-oracle/tree-soul', "The class skills granted by the oracle's mystery"): "The class skills granted by the oracle's mystery and class skills",
+    ('ref/arc-shifter/fiendflesh-shifter', 'shifter aspect'): 'Shifter aspect, and all improvements to shifter aspect',
+    ('ref/arc-shifter/rageshaper', 'shifter aspect'): 'Shifter aspect, and all improvements to shifter aspect',
+    ('ref/arc-shifter/oozemorph', 'shifter aspect'): 'Shifter aspect, and all improvements of shifter aspect',
+    ('ref/arc-shifter/verdant-shifter', 'Shifter aspect'): 'Shifter aspect and all improvements of shifter aspect',
+    ('ref/arc-shifter/weretouched', 'Shifter aspect'): 'Shifter aspect and all of its improvements',
+    ('ref/arc-witch/herb-witch', 'Patron'): "The witch's patron spells",
+    ('ref/arc-witch/season-witch', '1st-level hex'): 'Hex gained at 1st level',
+    ('ref/arc-bard/brazen-deceiver', 'distraction'): 'Distraction bardic performances',
+    ('ref/arc-swashbuckler/dashing-thief', "swashbuckler's edge"): "Swashbuckler's edge deeds",
+    ('ref/arc-bloodrager/enlightened-bloodrager', '1st-level bloodline power'): 'Bloodline power the bloodrager normally gains at 1st level',
+    ('ref/arc-bloodrager/enlightened-bloodrager', 'bloodline bonus spells'): 'All bonus spells gained as part of a bloodline',
+    ('ref/arc-swashbuckler/dashing-thief', 'Regain panache from a killing blow'): "The swashbuckler's ability to regain panache from a killing blow",
+    ('ref/arc-swashbuckler/dashing-thief', 'Menacing swordplay'): 'Menacing swordplay deed',
+    ('ref/arc-swashbuckler/dashing-thief', 'Dizzying defense'): 'Dizzying defense deed',
+    ('ref/arc-fighter/skirmisher', '2nd level fighter bonus feat'): 'Bonus feat the fighter normally receives at 2nd level',
 }
 
 
@@ -2449,6 +2527,7 @@ TRADE_LEVELS = {
 # the op that print says. Reanimator (Ultimate Magic p. 20): "functions as and replaces the standard alchemist
 # bomb class feature", stored as `alters`.
 TRADE_OP_FIXES = {
+    ("ref/arc-druid/rot-warden", "Wild shape"): "alters",       # Opus review of batch 4: "This alters wild shape."
     ("ref/arc-alchemist/reanimator", "Bombs"): "replaces",
     ("ref/arc-inquisitor/infiltrator", "Stern gaze"): "replaces",
     ("ref/arc-bard/geisha", "Armor and weapon proficiencies"): "replaces",
@@ -2476,6 +2555,20 @@ TRADE_ADDITIONS = {
     "ref/arc-druid/eagle-shaman": [{"replaces": "Venom immunity", "feature": "venom-immunity"}],
     "ref/arc-bard/silver-balladeer": [{"alters": "Alignment"}],
     "ref/arc-rogue/phantom-thief": [{"alters": "Class skills"}],
+    # Batch 4: the sentence "alters the ... class skills and ..." names class skills; the import stored no trade for them
+    "ref/arc-swashbuckler/dashing-thief": [{"alters": "Class skills"}],
+    "ref/arc-swashbuckler/rostland-bravo": [{"alters": "Class skills"}],
+    "ref/arc-magus/magic-warrior": [{"alters": "Class skills"}],
+    # Opus review of batch 4: a printed "This alters/replaces ..." sentence that no stored trade states (the check `printed_trade_gaps`)
+    "ref/arc-fighter/savage-warrior": [{"replaces": "The normal attack roll bonus and AC penalty for charging"}],
+    "ref/arc-paladin/scion-of-talmandor": [{"alters": "Class skills"}],
+    "ref/arc-alchemist/alchemical-sapper": [{"alters": "Class skills"}],
+    "ref/arc-antipaladin/tyrant": [{"alters": "Class skills"}],
+    "ref/arc-cavalier/hussar": [{"alters": "Class skills"}],
+    "ref/arc-hunter/roof-runner": [{"alters": "Class skills"}, {"replaces": "The hunter's proficiency with medium armor and shields"}],
+    "ref/arc-druid/dinosaur-druid": [{"alters": "Spontaneous casting", "feature": "spontaneous-casting"}],
+    "ref/arc-summoner/leshy-caller": [{"alters": "Eidolon", "feature": "eidolon"}],
+    "ref/arc-unchained-summoner/leshy-caller": [{"alters": "Eidolon", "feature": "eidolon"}],
 }
 
 
@@ -2541,6 +2634,18 @@ TRADE_PROSE_BY = {
     ("ref/arc-inquisitor/faith-hunter", "destruction judgments"): "sworn-enemy",
     ("ref/arc-rogue/phantom-thief", "Debilitating injury"): "refined-education",
     ("ref/arc-rogue/phantom-thief", "Rogue's edge (unchained rogue only)"): "refined-education",
+}
+
+
+# An anchor that the dedupe of the extraction made long, or that reads unnaturally, written as the head says it (the TSV note records it).
+ANCHOR_FIXES = {
+    # Winding Path Renegade (Adventurer's Guide p. 106): the table title "Monk Moves" is its own section, so the dedupe gave the
+    # feature "Monk Moves (Ex)" the long anchor of its predecessor
+    ("ref/arc-brawler/winding-path-renegade", "mystery-of-untwisting-iron-monk-moves"): "monk-moves",
+    # Opus review of batch 4: the anchor without the ability tag, and a name that reads naturally
+    ("ref/arc-unchained-summoner/devil-binder", "infernal-affinity-ex-su-or-sp"): "infernal-affinity",
+    ("ref/arc-summoner/leshy-caller", "alignment-base-form"): "plant-eidolon-base-form",
+    ("ref/arc-unchained-summoner/leshy-caller", "alignment-base-form"): "plant-eidolon-base-form",
 }
 
 
@@ -2697,9 +2802,6 @@ def finalize(e: Entry, res: dict, class_cache: dict | None = None) -> dict:
             r["notes"].append(f"anchor `{r['anchor']}` occurs twice; this one is `{new}`")
             r["anchor"] = new
         seen.add(r["anchor"])
-    for a, n in Counter(r["anchor"] for r in rows).items():
-        if n > 1:
-            problems.append(f"anchor `{a}` occurs {n} times")
     # hand decisions of the review (ruling 14)
     decisions = res.get("decisions", {})
     dropped: list[dict] = []
@@ -2725,6 +2827,12 @@ def finalize(e: Entry, res: dict, class_cache: dict | None = None) -> dict:
             target["print"] += "\n\n" + tail
             r["notes"] = [note] + [n for n in r["notes"] if n.startswith(("print asterisks", "misprint", "link", "anchor", "errata"))]
             r["status"] = "print"
+        elif kind == "sidebar":
+            # a box of the page that is not part of the archetype (lore of a faction, a deity, an order): the book prints it beside the
+            # archetype, the corpus does not have it; it is left out and the note says so (Adventurer's Guide, Ultimate Wilderness)
+            rows.remove(r)
+            r["notes"], r["status"] = [note], "print"
+            dropped.append(r)
         elif kind in ("drop", "to-opening"):
             if kind == "drop" and r.get("print", "").strip() and r.get("span"):
                 # the head is printed and the corpus has it: dropping it would leave print's text out
@@ -2760,6 +2868,11 @@ def finalize(e: Entry, res: dict, class_cache: dict | None = None) -> dict:
                "listed": False, "name": add["head"], "option": False, "parent": add["parent"] or None}
         at = next((i for i, x in enumerate(rows) if x["anchor"] == add["after"]), len(rows) - 1)
         rows.insert(at + 1, row)
+    # an anchor that two kept rows share is a problem; rows that a decision dropped are not kept (Leshy Caller's four sets of
+    # stat rows, each dropped, share their anchors)
+    for a, n in Counter(r["anchor"] for r in rows).items():
+        if n > 1:
+            problems.append(f"anchor `{a}` occurs {n} times")
     # a decided row of the first kind that moved text into another row is re-decided there
     for r in rows:
         dec = decisions.get((e.id, r["anchor"]))
@@ -2797,6 +2910,15 @@ def finalize(e: Entry, res: dict, class_cache: dict | None = None) -> dict:
     left = [r["head"] for r in rows if "head not printed" in r["notes"] and r["status"] == "hold"]
     if left:
         problems.append("head not printed: " + ", ".join(left))
+    # an anchor that the dedupe of the extraction made long, written as the head says it (the TSV note records it)
+    for (eid, old), new in ANCHOR_FIXES.items():
+        if eid == e.id and any(r["anchor"] == old for r in rows) and not any(r["anchor"] == new for r in rows):
+            for r in rows:
+                if r["anchor"] == old:
+                    r["anchor"] = new
+                    r["notes"].append(f"anchor `{old}` is `{new}`: the section that shared the name is not an entry of its own")
+                if r.get("parent") == old:
+                    r["parent"] = new
     # ruling 15: an option item is a plain subheading of the nearest feature before it (none: a plain heading)
     holder = None
     for r in rows:
@@ -2907,7 +3029,8 @@ def run_compare(args) -> int:
     title = publication_title(corpus, book)
     ERRATA_CTX["book"] = book
     SKIP_TABLES["on"] = book == "advanced-race-guide"
-    ILLUSTRATED["on"] = book in ("advanced-class-guide", "advanced-race-guide")
+    ILLUSTRATED["on"] = book in ("advanced-class-guide", "advanced-race-guide", "adventurers-guide", "ultimate-wilderness")
+    SECTION_STOPS["on"] = book in ("adventurers-guide", "ultimate-wilderness")
     pdf = find_pdf(Path(args.books), title)
     if not pdf:
         raise SystemExit(f"no copy of {title!r} under {args.books}")
@@ -3089,6 +3212,13 @@ def edit_front(front: str, feats: list[dict], by: dict[int, list[str]], n_trades
     return "\n".join(out)
 
 
+# A head that print sets in capitals as the title of a box is written in title case, like the other boxes (Opus review of batch 4)
+HEAD_REWRITES = {
+    ("ref/arc-summoner/leshy-caller", "plant-eidolon-subtype"): "Plant Eidolon Subtype",
+    ("ref/arc-unchained-summoner/leshy-caller", "plant-eidolon-subtype"): "Plant Eidolon Subtype",
+}
+
+
 def convert_text(e: Entry, prop: dict, rows: list[dict]) -> str:
     status = {r["anchor"]: r["status"] for r in rows if r["anchor"]}
     feats = prop["feature"]
@@ -3106,7 +3236,8 @@ def convert_text(e: Entry, prop: dict, rows: list[dict]) -> str:
         while up.get("parent"):
             depth += 1
             up = next((x for x in feats if x["anchor"] == up["parent"]), {})
-        parts.append(f"{'#' * (2 + depth)} {re.sub(r'(?<!\\)([*_])', r'\\\1', f['head'])} {{#{f['anchor']}}}")
+        head = HEAD_REWRITES.get((e.id, f["anchor"]), f["head"])
+        parts.append(f"{'#' * (2 + depth)} {re.sub(r'(?<!\\)([*_])', r'\\\1', head)} {{#{f['anchor']}}}")
         text = feature_text(f, status.get(f["anchor"], "print"))
         parts += [p for p in text.split("\n\n") if p.strip()]
     front = edit_front(e.front, feats, by, len(trades_of(e)), TRADE_ADDITIONS.get(e.id), dropped_trade_indices(e))
@@ -3139,11 +3270,15 @@ def convert_text(e: Entry, prop: dict, rows: list[dict]) -> str:
 
 def stale_rows(e: Entry, rows: list[dict]) -> list[str]:
     """The rows whose import span changed since the compare (the entry was edited in between)."""
-    probe = {namekey(r["feature"]) for r in rows if r["feature"]}
-    _, feats = parse_import(e.body, probe)
+    # The compare read the import with the printed bold heads as the names of its features; an option that print sets in italics
+    # ("Spells:" under Pathfinders Past) is no such name, and a row `**Spells:** Stone shield` of another feature must not split it.
+    # So the spans are read with the names of all rows and with the names of the listed rows only.
     spans: dict[str, set[str]] = {}
-    for f in feats:
-        spans.setdefault(namekey(import_name(e.id, f.name)), set()).add(f.span_sha())
+    for probe in ({namekey(r["feature"]) for r in rows if r["feature"]},
+                  {namekey(r["feature"]) for r in rows if r["feature"] and r.get("listed", "yes") == "yes"}):
+        _, feats = parse_import(e.body, probe)
+        for f in feats:
+            spans.setdefault(namekey(import_name(e.id, f.name)), set()).add(f.span_sha())
     bad = []
     for r in rows:
         if r["span_sha256"] and r["feature"]:
@@ -3221,6 +3356,37 @@ def recheck(corpus: Path, args, written: list[Entry], originals: dict[Path, str]
 
 # ---- --check --------------------------------------------------------------------------------------------
 
+# A printed trade sentence that states no trade on purpose (listed in the PR body): Weretouched's Lycanthrope Aspect says
+# "This alters her other class features, as detailed in each relevant class feature", a cross-reference to the features that follow.
+TRADE_GAPS_ALLOWED = {("ref/arc-shifter/weretouched", "her other class features, as detailed in each relevant class feature")}
+
+
+def printed_trade_gaps(e: Entry) -> list[str]:
+    """The printed trade sentences of a converted entry that no stored trade states (Opus review of batch 4: the app's check does
+    not require a stored trade for every printed sentence). Every "This alters X" or "This replaces X" in the text of a feature
+    (its unlisted subheadings count with it) needs a stored trade of that op whose name covers X; a phrase that ends "as indicated
+    below" is a cross-reference (ruling 40) and states none."""
+    fields = e.data.get("fields") or {}
+    listed = {f["anchor"] for f in fields.get("features") or []}
+    trades = [trade_name(t) for t in trades_of(e)]
+    out: list[str] = []
+    head = None
+    for part in re.split(r"(?m)^(?=#+ )", e.body):
+        m = re.match(r"#+ (.*?)(?: \{#([^}]+)\})?\n", part)
+        if not m:
+            continue
+        if m.group(2) in listed:
+            head = m.group(1)
+        if head is None:
+            continue
+        for sop, ph, _bare in trade_sentences(part[m.end():], ABILITY_TAG.sub("", head).strip()):
+            if re.match(r"(?:grants|to|does|do|not)\b", ph) or (e.id, ph) in TRADE_GAPS_ALLOWED:
+                continue                    # "This change to spells doesn't apply", "This ability does not alter ...": no trade sentence
+            if not any(op == sop and covers(ph, name) for op, name in trades):
+                out.append(f'{head}: the sentence "This {sop} {ph}" has no stored trade')
+    return out
+
+
 def run_check(args) -> int:
     corpus = Path(args.corpus).resolve()
     book = args.book
@@ -3249,6 +3415,7 @@ def run_check(args) -> int:
                 errors.append(f"{e.id}: converted, but a row is not decided")
             if e.id in props:
                 errors.append(f"{e.id}: converted, but still in the proposals")
+            errors += [f"{e.id}: {gap}" for gap in printed_trade_gaps(e)]
             continue
         if not mine:
             errors.append(f"{e.id}: not in the review TSV; run --compare")
@@ -3411,6 +3578,10 @@ def self_test() -> int:
        [("replaces", "alchemy and Throw Anything", False)], "R18 an aside inside the phrase")
     eq(trade_asides("This ability replaces alchemy (which also includes bombs, extracts, and mutagen) and Throw Anything."),
        [("replaces", "which also includes bombs, extracts, and mutagen")], "R18 the aside states the same-op trades")
+    eq(trade_sentences("This ability alters hunter's bond and replaces specific ranger abilities as indicated below."),
+       [("alters", "hunter's bond", False)], "ruling 40: 'as indicated below' is a cross-reference, no trade")
+    eq(trade_sentences("This ability replaces specific ranger abilities as indicated below."), [], "ruling 40: alone, it names no trade")
+    eq(trade_sentences("This ability replaces woodland stride as indicated by the table."), [("replaces", "woodland stride as indicated by the table", False)], "ruling 40: only 'as indicated below'")
     eq(trade_sentences("This ability functions like alter self, except as noted here. This ability alters alchemy."),
        [("alters", "alchemy", False)], "R19 'alter self' is the spell")
     eq(trade_sentences("This ability functions as alter self, beast shape IV, or giant form II, as appropriate."), [], "R19 no verb at all")

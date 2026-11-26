@@ -14,7 +14,7 @@ page = "25"
 [fields]
 kind = "spell"
 school = "conjuration"
-subschools = ["Summoning"]
+subschools = ["summoning"]
 levels = [
   { class = "Arcanist", level = 3 },
   { class = "Bard", level = 3 },
@@ -47,7 +47,7 @@ Duration: 1 round/level
 Saving throw: none
 Spell resistance: no
 Effect: 10-ft.-square swarm of leshys
-Subschool: Summoning
+Subschool: summoning
 :::
 
 > _[Vine leshys](ref/race/vine-leshy) have access to the following spell._

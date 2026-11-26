@@ -14,7 +14,7 @@ page = "8"
 [fields]
 kind = "class"
 class_type = "prestige"
-hit_die = "d8."
+hit_die = "d8"
 +++
 
 The Eldest appreciate a broad range of talents in their servants. While some of their faithful are
@@ -44,7 +44,7 @@ The Feysworn's class skills are [Bluff](ref/skill/bluff) (Cha),
 (Wis), [Spellcraft](ref/skill/spellcraft) (Int), and [Survival](ref/skill/survival) (Wis).
 
 **Skill Points at each Level:** 2 + Int modifier.\
-**Hit Die:** d8.
+**Hit Die:** d8
 
 ### Class Features
 

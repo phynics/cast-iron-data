@@ -14,7 +14,7 @@ page = "21"
 [fields]
 kind = "spell"
 school = "conjuration"
-subschools = ["Healing"]
+subschools = ["healing"]
 levels = [
   { class = "Cleric", level = 2 },
   { class = "Druid", level = 2 },
@@ -48,7 +48,7 @@ Duration: 1 hour/level
 Saving throw: none
 Spell resistance: no
 Target: you
-Subschool: Healing
+Subschool: healing
 :::
 
 A cloak you are wearing transforms into a canvas tent large enough to hold four Medium creatures,

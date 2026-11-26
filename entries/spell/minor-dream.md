@@ -17,7 +17,7 @@ page = "39"
 [fields]
 kind = "spell"
 school = "illusion"
-subschools = ["Figment"]
+subschools = ["figment"]
 descriptors = ["mind-affecting"]
 levels = [
   { class = "Alchemist", level = 2 },
@@ -56,7 +56,7 @@ Duration: see text
 Saving throw: none
 Spell resistance: no
 Target: you or one gnome touched
-Subschool: Figment
+Subschool: figment
 Descriptors: mind-affecting
 :::
 

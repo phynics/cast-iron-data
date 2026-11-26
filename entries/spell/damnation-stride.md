@@ -17,7 +17,7 @@ page = "173"
 [fields]
 kind = "spell"
 school = "conjuration"
-subschools = ["Teleportation"]
+subschools = ["teleportation"]
 descriptors = ["fire"]
 levels = [
   { class = "Arcanist", level = 5 },
@@ -50,7 +50,7 @@ Duration: instantaneous
 Saving throw: Reflex half, see text
 Spell resistance: no
 Target: you (teleportation) and creatures within a 10-foot-radius burst (burst of flame) (see text)
-Subschool: Teleportation
+Subschool: teleportation
 Descriptors: fire
 :::
 

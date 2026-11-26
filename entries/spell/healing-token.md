@@ -14,7 +14,7 @@ page = "9"
 [fields]
 kind = "spell"
 school = "conjuration"
-subschools = ["Healing"]
+subschools = ["healing"]
 levels = [
   { class = "Cleric", level = 2 },
   { class = "Druid", level = 2 },
@@ -48,7 +48,7 @@ Duration: 10 minutes/level
 Saving throw: Will negates (object)
 Spell resistance: yes (object)
 Target: one touched holy symbol per 3 caster levels
-Subschool: Healing
+Subschool: healing
 :::
 
 You imbue one touched holy symbol per 3 caster levels with a connection to your own divine power,

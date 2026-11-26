@@ -16,45 +16,44 @@ page = "87"
 
 [fields]
 kind = "archetype"
+features = [
+  { anchor = "strike-first-strike-last", level = 1 },
+  { anchor = "quick-start", level = 6 },
+  { anchor = "astonishing-strike", level = 14 },
+]
 trades = [
-  { replaces = "Track", feature = "track" },
-  { replaces = "swift tracker", feature = "swift-tracker" },
-  { replaces = "6th-level slayer talent", feature = "slayer-talents", levels = [6] },
-  { replaces = "Quarry", feature = "quarry" },
-  { replaces = "improved quarry", feature = "improved-quarry" },
+  { replaces = "Track", feature = "track", by = ["strike-first-strike-last"] },
+  { replaces = "swift tracker", feature = "swift-tracker", by = ["strike-first-strike-last"] },
+  { replaces = "6th-level slayer talent", feature = "slayer-talents", levels = [6], by = ["quick-start"] },
+  { replaces = "Quarry", feature = "quarry", by = ["astonishing-strike"] },
+  { replaces = "improved quarry", feature = "improved-quarry", by = ["astonishing-strike"] },
 ]
 +++
 
 Slayers characterized by cunning and patience, guerrillas specialize in ambush and harassment of
 enemies.
 
-**Strike First, Strike Last (Ex)**
+## Strike First, Strike Last (Ex) {#strike-first-strike-last}
 
-**Passive:** A guerrilla adds half his level on Stealth checks when remaining motionless and reduces
-the penalty on Stealth checks when sniping by an equal amount. He also gains this bonus on his
-initiative checks in surprise rounds whenever he is aware of the surprise round and at least one
-enemy is unaware.
+A guerrilla adds half his level on Stealth checks when remaining motionless and reduces the penalty
+on Stealth checks when sniping by an equal amount. He also gains this bonus on his initiative checks
+in surprise rounds whenever he is aware of the surprise round and at least one enemy is unaware.
 
-**Replaces:** Track, swift tracker
+This replaces track and swift tracker.
 
-**Quick Start (Ex)**
+## Quick Start (Ex) {#quick-start}
 
-**Ability:** The guerrilla can take a normal [charge](ref/rule/charge) action during the surprise
+At 6th level, the guerrilla can take a normal [charge](ref/rule/charge) action during the surprise
 round, rather than a charge with half the usual distance.
 
-**Gained:** At 6th Level
+This replaces the 6th-level slayer talent.
 
-**Replaces:** 6th-level slayer talent
+## Astonishing Strike (Ex) {#astonishing-strike}
 
-**Astonishing Strike (Ex)**
-
-**Ability:** When the guerrilla deals sneak attack damage to a target of his _studied target_
+At 14th level, when the guerrilla deals sneak attack damage to a target of his studied target
 ability during the surprise round, that target is denied its Dexterity bonus to AC against attacks
-from the same guerrilla until the end of the guerrilla's next turn.
+from the same guerrilla until the end of the guerrilla's next turn. When the guerrilla reaches 19th
+level, this ability works any time he deals sneak attack damage to a target of his studied target
+ability during the first round of combat, whether or not it's a surprise round.
 
-**At 19th Level:** This ability works any time he deals sneak attack damage to a target of his
-_studied target_ ability during the first round of combat, whether or not it's a surprise round.
-
-**Gained:** At 14th Level
-
-**Replaces:** Quarry, improved quarry
+This replaces quarry and improved quarry.

@@ -17,7 +17,7 @@ page = "22"
 [fields]
 kind = "class"
 class_type = "prestige"
-hit_die = "d8."
+hit_die = "d8"
 +++
 
 The lands of Osirion, Rahadoum, and Thuvia - all once part of the realm of Ancient Osirion - are
@@ -50,7 +50,7 @@ The Living Monolith's class skills are [Acrobatics](ref/skill/acrobatics) (Dex),
 (Int), [Perception](ref/skill/perception) (Wis), and [Sense Motive](ref/skill/sense-motive) (Wis).
 
 **Skill Points at each Level:** 2 + Int modifier.\
-**Hit Die:** d8.
+**Hit Die:** d8
 
 ### Class Features
 

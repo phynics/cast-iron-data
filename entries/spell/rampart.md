@@ -14,7 +14,7 @@ page = "237"
 [fields]
 kind = "spell"
 school = "conjuration"
-subschools = ["Creation"]
+subschools = ["creation"]
 descriptors = ["earth"]
 levels = [
   { class = "Arcanist", level = 7 },
@@ -44,7 +44,7 @@ Duration: instantaneous
 Saving throw: none
 Spell resistance: no
 Effect: 10-ft.-high earthen wall, in a line up to 10 ft. long/2 levels, or a circle with radius of up to 3 ft. + 1 ft./level
-Subschool: Creation
+Subschool: creation
 Descriptors: earth
 :::
 

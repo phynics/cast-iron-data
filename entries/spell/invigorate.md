@@ -14,7 +14,7 @@ page = "230"
 [fields]
 kind = "spell"
 school = "illusion"
-subschools = ["Figment"]
+subschools = ["figment"]
 levels = [
   { class = "Bard", level = 1 },
   { class = "Medium", level = 1 },
@@ -44,7 +44,7 @@ Duration: 10 minutes/level (D)
 Saving throw: Will negates (harmless)
 Spell resistance: yes (harmless)
 Target: creature touched
-Subschool: Figment
+Subschool: figment
 :::
 
 This spell banishes feelings of weariness. For the duration, the subject takes no penalties from the

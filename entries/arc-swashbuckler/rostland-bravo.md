@@ -16,12 +16,21 @@ page = "23"
 
 [fields]
 kind = "archetype"
+features = [
+  { anchor = "aldori-swashbuckler" },
+  { anchor = "deeds" },
+  { anchor = "inevitable-victory" },
+  { anchor = "sweeping-wind-feint", level = 7 },
+  { anchor = "dragon-s-rage", level = 11 },
+  { anchor = "terror-of-the-great-wyrm", level = 15 },
+]
 trades = [
-  { replaces = "Menacing swordplay", feature = "deeds", power = "menacing swordplay" },
-  { replaces = "Superior feint", feature = "deeds", power = "superior feint" },
-  { replaces = "Bleeding wound", feature = "deeds", power = "bleeding wound" },
-  { replaces = "Swashbuckler's edge", feature = "deeds", power = "swashbuckler's edge" },
-  { alters = "Armor proficiencies", feature = "weapon-and-armor-proficiencies", power = "armor" },
+  { replaces = "Menacing swordplay", feature = "deeds", power = "menacing swordplay", by = ["inevitable-victory"] },
+  { replaces = "Superior feint", feature = "deeds", power = "superior feint", by = ["sweeping-wind-feint"] },
+  { replaces = "Bleeding wound", feature = "deeds", power = "bleeding wound", by = ["dragon-s-rage"] },
+  { replaces = "Swashbuckler's edge", feature = "deeds", power = "swashbuckler's edge", by = ["terror-of-the-great-wyrm"] },
+  { alters = "Armor proficiencies", feature = "weapon-and-armor-proficiencies", power = "armor", by = ["aldori-swashbuckler"] },
+  { alters = "Class skills", by = ["aldori-swashbuckler"] },
 ]
 +++
 
@@ -31,78 +40,64 @@ and street-corner duels at dawn and dusk are a constant of Restov life. In most 
 "lesser schools" do not teach official Aldori techniques, their methods mesh well with that
 signature style. Unsurprisingly, many students eventually train in the Aldori style, whether because
 they aspire to join the swordlords' ranks or simply for the challenge of mastering the legendary
-weapon. While some favor more technical approaches, others study flashier maneuvers, wielding the
-curved blade with artful flair. Disdainfully called "bravos" by classically trained rivals, students
-of this approach have claimed the label with pride. The Rostland bravos' most advanced techniques
-bear dragon-themed names as a snub to traditionalist Aldori swordlords, who have never forgotten
-their crushing defeat by Choral the Conqueror's dragons at the Valley of Fire.
+weapon.
 
-**Lost class skills:** climb, swim
+While some favor more technical approaches, others study flashier maneuvers, wielding the curved
+blade with artful flair. Disdainfully called "bravos" by classically trained rivals, students of
+this approach have claimed the label with pride. The Rostland bravos' most advanced techniques bear
+dragon-themed names as a snub to traditionalist Aldori swordlords, who have never forgotten their
+crushing defeat by Choral the Conqueror's dragons at the Valley of Fire.
 
-**Aldori Swashbuckler (Ex)**
+## Aldori Swashbuckler (Ex) {#aldori-swashbuckler}
 
-**Ability:** A Rostland bravo focuses on the
-[Aldori dueling sword](ref/eq-weapon/aldori-dueling-sword), scorning the bucklers used by duelists
-of other styles. In addition, the relative safety and creature comforts allowed by life in the
-sprawling city of Restov reduces her need for athleticism. A Rostland bravo gains
-[Exotic Weapon Proficiency](ref/feat/exotic-weapon-proficiency) (Aldori dueling sword) as a bonus
-feat.
+A Rostland bravo focuses on the [Aldori dueling sword](ref/eq-weapon/aldori-dueling-sword) (see page
+24), scorning the bucklers used by duelists of other styles. In addition, the relative safety and
+creature comforts allowed by life in the sprawling city of Restov reduces her need for athleticism.
+A Rostland bravo gains [Exotic Weapon Proficiency](ref/feat/exotic-weapon-proficiency) (Aldori
+dueling sword) as a bonus feat. The Rostland bravo is not proficient with bucklers, and does not
+gain Climb or Swim as class skills.
 
-**Alters:** Armor proficiencies
+This ability alters the swashbuckler's class skills and armor proficiencies.
 
-**Special:** The Rostland bravo is not proficient with bucklers.
+## Deeds {#deeds}
 
-**Deeds**
+A Rostland bravo's training and personality set her apart from the typical swashbuckler, and as a
+result of these differences (as well as the impact of her Aldori training), she gains the following
+deeds. These deeds function only when the bravo is wielding just an Aldori dueling sword.
 
-**Ability:** A Rostland bravo's training and personality set her apart from the typical
-swashbuckler, and as a result of these differences (as well as the impact of her Aldori training),
-she gains the following deeds.
+## Inevitable Victory (Ex) {#inevitable-victory}
 
-**Special:** These deeds function only when the bravo is wielding just an Aldori dueling sword.
+The Rostland bravo's technique is all about flair; a display of her skill is enough to make any
+Restov brawler reconsider picking a fight. At 3rd level, the Rostland bravo gains
+[Dazzling Display](ref/feat/dazzling-display) as a bonus feat. She can activate its effect only
+while wielding an Aldori dueling sword, and she must spend 1 panache point to do so.
 
-**Inevitable Victory (Ex)**
+This deed replaces menacing swordplay.
 
-**Flavor:** The Rostland bravo's technique is all about flair; a display of her skill is enough to
-make any Restov brawler reconsider picking a fight.
+## Sweeping Wind Feint (Ex) {#sweeping-wind-feint}
 
-**At 3rd Level:** The Rostland bravo gains [Dazzling Display](ref/feat/dazzling-display) as a bonus
-feat. She can activate its effect only while wielding an Aldori dueling sword, and she must spend 1
-panache point to do so.
+At 7th level, the Rostland bravo masters an exotic feinting style, tossing her blade to the other
+hand and performing a sweeping attack or upward slash before the opponent reacts. Once per round,
+she can spend 1 point of panache to attempt a [feint](ref/skill/bluff) as a swift action.
 
-**Replaces:** Menacing swordplay
+This deed replaces superior feint.
 
-**Sweeping Wind Feint (Ex)**
+## Dragon's Rage (Ex) {#dragon-s-rage}
 
-**Flavor:** The Rostland bravo masters an exotic feinting style, tossing her blade to the other hand
-and performing a sweeping attack or upward slash before the opponent reacts.
+At 11th level, the Rostland bravo can cast aside restraint in favor of a blindingly fast assault of
+unpredictable strikes inspired in part by the overwhelming brutality of a dragon in combat. Once per
+round as part of a full attack, the bravo can spend 1 panache point to make an additional attack
+with her Aldori dueling sword at her highest attack bonus. If she reduces a creature to 0 or fewer
+hit points with this additional attack, she regains 2 panache points rather than the normal 1 point
+she would gain from striking a killing blow.
 
-**Gained:** At 7th Level
+This deed replaces bleeding wound.
 
-**Replaces:** Superior feint
+## Terror of the Great Wyrm (Ex) {#terror-of-the-great-wyrm}
 
-**Swift:** Once per round, she can spend 1 point of panache to attempt a [feint](ref/skill/bluff).
-
-**Dragon's Rage (Ex)**
-
-**Ability:** Once per round as part of a full attack, the bravo can spend 1 panache point to make an
-additional attack with her Aldori dueling sword at her highest attack bonus. If she reduces a
-creature to 0 or fewer hit points with this additional attack, she regains 2 panache points rather
-than the normal 1 point she would gain from striking a killing blow.
-
-**Flavor:** The Rostland bravo can cast aside restraint in favor of a blindingly fast assault of
-unpredictable strikes inspired in part by the overwhelming brutality of a dragon in combat.
-
-**Gained:** At 11th Level
-
-**Replaces:** Bleeding wound
-
-**Terror of the Great Wyrm (Ex)**
-
-**Ability:** The Rostland bravo can use her _inevitable victory_ deed as part of a full attack or
-_dragon's rage._ If a creature demoralized in this way would be [shaken](ref/misc/shaken) for 3 or
+At 15th level, the Rostland bravo can use her inevitable victory deed as part of a full attack or
+dragon's rage. If a creature demoralized in this way would be [shaken](ref/misc/shaken) for 3 or
 more rounds, the Rostland bravo can make the target [frightened](ref/misc/frightened) for 1 round
 before becoming shaken for the appropriate duration.
 
-**Gained:** At 15th Level
-
-**Replaces:** Swashbuckler's edge
+This deed replaces swashbuckler's edge.

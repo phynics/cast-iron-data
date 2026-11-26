@@ -19,11 +19,17 @@ page = "25"
 
 [fields]
 kind = "archetype"
+features = [
+  { anchor = "mantis-sworn" },
+  { anchor = "sneak-attack", level = 4 },
+  { anchor = "sacred-reflexes", level = 7 },
+  { anchor = "aspect-of-the-mantis", level = 20 },
+]
 trades = [
   { replaces = "Weapon and armor proficiencies", feature = "weapon-and-armor-proficiencies" },
-  { replaces = "Sacred weapon", feature = "sacred-weapon" },
-  { replaces = "Sacred armor", feature = "sacred-armor" },
-  { alters = "Aspect of war", feature = "aspect-of-war" },
+  { replaces = "Sacred weapon", feature = "sacred-weapon", by = ["sneak-attack"] },
+  { replaces = "Sacred armor", feature = "sacred-armor", by = ["sacred-reflexes"] },
+  { alters = "Aspect of war", feature = "aspect-of-war", by = ["aspect-of-the-mantis"] },
 ]
 +++
 
@@ -43,72 +49,49 @@ among even their own kind. Whether the rise of the mantis zealot presages a dram
 in the religion's hierarchy and methods, or whether the faction may be burning too bright for its
 own good and is hurtling toward self-annihilation, remains to be seen.
 
-**Mantis Sworn (Ex)**
+## Mantis Sworn (Ex) {#mantis-sworn}
 
-**Info:** A mantis zealot must choose [Achaekek](ref/faith/achaekek) as his deity, and he must be
-lawful evil in alignment. If he ever changes his deity, he loses this archetype and becomes a normal
-warpriest.
+A mantis zealot must choose [Achaekek](ref/faith/achaekek) as his deity, and he must be lawful evil
+in alignment. If he ever changes his deity, he loses this archetype and becomes a normal warpriest.
 
-**Weapon and Armor Proficiency**
+## Weapon and Armor Proficiency {#weapon-and-armor-proficiency}
 
-**Ability:** Mantis zealots are proficient with simple and martial weapons, as well as with the
+Mantis zealots are proficient with simple and martial weapons, as well as with the
 [sawtooth sabre](ref/eq-weapon/sawtooth-sabre). They are proficient with light armor but not with
 shields.
 
-**Replaces:** Weapon and armor proficiencies
+This replaces the warpriest's weapon and armor proficiencies.
 
-**Sneak Attack (Ex)**
+## Sneak Attack (Ex) {#sneak-attack}
 
-**Ability:** A mantis zealot can make a [sneak attack](ref/ability/sneak-attack). This ability
-functions as the rogue class feature of the same name, and his sneak attack damage is +1d6.
+At 4th level, a mantis zealot can make a [sneak attack](ref/ability/sneak-attack). This ability
+functions as the rogue class feature of the same name. At 4th level, his sneak attack damage is
++1d6. This damage increases by 1d6 at 8th level and every 4 warpriest levels thereafter. If the
+zealot gets a sneak attack bonus from another source, the bonuses stack.
 
-**Gained:** At 4th Level
+This ability replaces sacred weapon.
 
-**Replaces:** Sacred weapon
+## Sacred Reflexes (Su) {#sacred-reflexes}
 
-**Special:** If the zealot gets a sneak attack bonus from another source, the bonuses stack.
+At 7th level, a mantis zealot can emulate Achaekek's grace and move with a supernatural fluidity. As
+long as he is wearing light or no armor, as a swift action he can gain
+[uncanny dodge](ref/ability/uncanny-dodge) as per the rogue class feature. He can use this ability
+for a number of minutes per day equal to his warpriest level. This duration does not need to be
+consecutive, but it must be spent in 1-minute increments. If he already has the uncanny dodge
+ability from another source, he instead gains
+[improved uncanny dodge](ref/ability/improved-uncanny-dodge) while this ability is active. At 10th
+level, when he uses this ability, he also gains [evasion](ref/ability/evasion) as per the
+[monk](ref/class/monk) class feature (or [improved evasion](ref/ability/improved-evasion) if he
+already has evasion from another source). At 13th level, he gains improved uncanny dodge instead of
+uncanny dodge. At 16th level, he can activate this ability as part of making an initiative check,
+before rolling the die. At 19th level, he gains improved evasion instead of evasion.
 
-At 8th level: This damage increases to +2d6.
+This ability replaces sacred armor.
 
-At 12th level: This damage increases to +3d6.
+## Aspect of the Mantis (Su) {#aspect-of-the-mantis}
 
-At 16th level: This damage increases to +4d6.
-
-At 20th level: This damage increases to +5d6.
-
-**Sacred Reflexes (Su)**
-
-**Flavor:** A mantis zealot can emulate Achaekek's grace and move with a supernatural fluidity.
-
-**At 10th Level:** When he uses this ability, he also gains [evasion](ref/ability/evasion) as per
-the [monk](ref/class/monk) class feature (or [improved evasion](ref/ability/improved-evasion) if he
-already has evasion from another source).
-
-**At 13th Level:** He gains _improved uncanny dodge_ instead of _uncanny dodge._
-
-**At 16th Level:** He can activate this ability as part of making an initiative check, before
-rolling the die.
-
-**At 19th Level:** He gains _improved evasion_ instead of _evasion._
-
-**Gained:** At 7th Level
-
-**Replaces:** Sacred armor
-
-**Swift:** As long as he is wearing light or no armor, he can gain
-[uncanny dodge](ref/ability/uncanny-dodge) as per the rogue class feature. If he already has the
-uncanny dodge ability from another source, he instead gains
-[improved uncanny dodge](ref/ability/improved-uncanny-dodge) while this ability is active.
-
-**Usage:** 1 minute/day per warpriest level; these minutes need not be consecutive, but must be
-spent in 1-minute increments
-
-**Aspect of the Mantis (Su)**
-
-**Ability:** When using _aspect of war,_ instead of moving at full speed regardless of his armor or
+At 20th level, when using aspect of war, instead of moving at full speed regardless of his armor or
 encumbrance, a mantis zealot deals a number of points of [bleed](ref/rule/bleed) damage equal to his
 Dexterity modifier with each attack.
 
-**Alters:** Aspect of war
-
-**Gained:** At 20th Level
+This ability alters aspect of war.

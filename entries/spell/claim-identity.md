@@ -14,7 +14,7 @@ page = "28"
 [fields]
 kind = "spell"
 school = "transmutation"
-subschools = ["Polymorph"]
+subschools = ["polymorph"]
 levels = [
   { class = "Alchemist", level = 3 },
   { class = "Antipaladin", level = 3 },
@@ -53,7 +53,7 @@ Duration: 1 hour/level
 Saving throw: Fortitude negates
 Spell resistance: yes
 Target: humanoid creature touched
-Subschool: Polymorph
+Subschool: polymorph
 :::
 
 You steal the target's face, transforming yourself into a flawless imitation of it. All of the

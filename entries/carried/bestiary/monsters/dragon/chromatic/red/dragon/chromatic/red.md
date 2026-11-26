@@ -14,15 +14,15 @@ kind = "creature"
 cr = "6"
 creature_type = "dragon"
 subtypes = ["fire"]
-size = "Small"
-alignment = "CE"
+size = "small"
+alignment = "chaotic evil"
 abilities = ["17", "14", "15", "10", "11", "10"]
 +++
 
 ::: statblock
 CR: 6
-Alignment: CE
-Size: Small
+Alignment: chaotic evil
+Size: small
 Type: dragon (fire)
 Hit Dice: 7d12
 Speed: 40 ft.

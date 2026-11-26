@@ -17,7 +17,7 @@ cr = "19"
 creature_type = "outsider"
 subtypes = ["extraplanar", "shapechanger"]
 size = "medium"
-alignment = "LN or CN"
+alignment = "lawful neutral or chaotic neutral"
 ac = "34/26/25"
 hp = "333~23d10+207"
 fortitude = "+16"
@@ -34,7 +34,7 @@ and shimmering gossamer wings._
 
 ::: statblock
 Challenge rating: 19
-Alignment: LN or CN
+Alignment: lawful neutral or chaotic neutral
 aura: aura of fate (30 ft.)
 Initiative: +12/+2; chronosurge
 Size: medium

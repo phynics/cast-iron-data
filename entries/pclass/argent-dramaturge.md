@@ -14,7 +14,7 @@ page = "172"
 [fields]
 kind = "class"
 class_type = "prestige"
-hit_die = "d6."
+hit_die = "d6"
 +++
 
 The city of Kintargo has a long and proud association with the arts, particularly the theater and
@@ -54,7 +54,7 @@ The Argent Dramaturge's class skills are [Bluff](ref/skill/bluff) (Cha),
 [Use Magic Device](ref/skill/use-magic-device) (Cha).
 
 **Skill Points at each Level:** 4 + Int modifier.\
-**Hit Die:** d6.
+**Hit Die:** d6
 
 ### Class Features
 

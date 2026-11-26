@@ -14,7 +14,7 @@ page = "248"
 [fields]
 kind = "spell"
 school = "conjuration"
-subschools = ["Summoning"]
+subschools = ["summoning"]
 levels = [
   { class = "Summoner", level = 2 },
   { class = "Unchained Summoner", level = 2 },
@@ -41,7 +41,7 @@ Duration: 1 minute/level (D)
 Saving throw: none
 Spell resistance: no
 Target: one eidolon
-Subschool: Summoning
+Subschool: summoning
 :::
 
 You open a rift between dimensions that summons your eidolon. Treat this as if you had summoned your

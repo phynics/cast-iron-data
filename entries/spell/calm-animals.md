@@ -14,7 +14,7 @@ page = "252"
 [fields]
 kind = "spell"
 school = "enchantment"
-subschools = ["Compulsion"]
+subschools = ["compulsion"]
 descriptors = ["emotion", "mind-affecting"]
 levels = [
   { class = "Druid", level = 1 },
@@ -45,7 +45,7 @@ Duration: 1 minute/level
 Saving throw: Will negates
 Spell resistance: yes
 Targets: animals within 30 ft. of each other
-Subschool: Compulsion
+Subschool: compulsion
 Descriptors: emotion, mind-affecting
 :::
 

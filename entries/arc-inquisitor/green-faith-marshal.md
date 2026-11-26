@@ -19,12 +19,18 @@ page = "24"
 
 [fields]
 kind = "archetype"
+features = [
+  { anchor = "power-of-nature", level = 1 },
+  { anchor = "wild-lore", level = 1 },
+  { anchor = "nature-s-ally", level = 5 },
+  { anchor = "wild-step", level = 11 },
+]
 trades = [
-  { replaces = "Stern gaze", feature = "stern-gaze" },
-  { replaces = "Monster lore", feature = "monster-lore" },
-  { replaces = "Discern lies", feature = "discern-lies" },
-  { replaces = "Stalwart", feature = "stalwart" },
-  { alters = "Domain", feature = "domain" },
+  { replaces = "Stern gaze", feature = "stern-gaze", by = ["power-of-nature"] },
+  { replaces = "Monster lore", feature = "monster-lore", by = ["wild-lore"] },
+  { replaces = "Discern lies", feature = "discern-lies", by = ["nature-s-ally"] },
+  { replaces = "Stalwart", feature = "stalwart", by = ["wild-step"] },
+  { alters = "Domain", feature = "domain", by = ["power-of-nature"] },
 ]
 +++
 
@@ -32,39 +38,33 @@ The [Green Faith](ref/faith/green-faith) marshal serves as a literal force of na
 and punishing those who have committed sins against nature through enslavement and mistreatment of
 animals or destruction of wild places.
 
-**Power of Nature**
+## Power of Nature {#power-of-nature}
 
-**Ability:** A Green Faith marshal gains one domain selected from the
-[animal and terrain domains](ref/ability/druid-domains). The 1st- through 6th-level bonus spells
-from this domain are added to the Green Faith marshal's spell list.
+A Green Faith marshal gains one domain selected from the
+[animal and terrain domains](ref/ability/druid-domains). The 1st-though 6th-level bonus spells from
+this domain are added to the Green Faith marshal's spell list.
 
-**Alters:** Domain
+This alters the inquisitor's domain ability and replaces stern gaze.
 
-**Replaces:** Stern gaze
+## Wild Lore (Ex) {#wild-lore}
 
-**Wild Lore (Ex)**
+A Green Faith marshal adds her Wisdom modifier to her Knowledge (nature) skill checks, in addition
+to her Intelligence modifier.
 
-**Passive:** A Green Faith marshal adds her Wisdom modifier to her Knowledge (nature) skill checks,
-in addition to her Intelligence modifier.
+This replaces monster lore.
 
-**Replaces:** Monster lore
+## Nature's Ally (Sp) {#nature-s-ally}
 
-**Nature's Ally (Sp)**
+At 5th level, a Green Faith marshal gains the ability to cast
+_[commune with nature](ref/spell/commune-with-nature)_ once per week.
 
-**Ability:** A Green Faith marshal gains the ability to cast
-[commune with nature](ref/spell/commune-with-nature) once per week.
+This replaces discern lies.
 
-**Gained:** At 5th Level
+## Wild Step (Ex) {#wild-step}
 
-**Replaces:** Discern lies
-
-**Wild Step (Ex)**
-
-**Gained:** At 11th Level
-
-**Passive:** A Green Faith marshal can move through any sort of naturally occurring
+At 11th level, a Green Faith marshal can move through any sort of naturally occurring
 [difficult terrain](ref/rule/terrain-and-obstacles) (such as natural thorns, briars, overgrown
 areas, and similar terrain) at her normal speed without taking damage or suffering any other
 impairment. Terrain that is enchanted or magically manipulated to impede motion still affects her.
 
-**Replaces:** Stalwart
+This replaces stalwart.

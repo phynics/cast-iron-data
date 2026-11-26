@@ -16,98 +16,99 @@ page = "44"
 
 [fields]
 kind = "archetype"
+features = [
+  { anchor = "beast-tongue", level = 1 },
+  { anchor = "implacable-knight", level = 1 },
+  { anchor = "nature-s-servant" },
+  { anchor = "ferocious", level = 3 },
+  { anchor = "woodland-stride", level = 4 },
+  { anchor = "stalwart", level = 9 },
+  { anchor = "oaken-vitality", level = 11 },
+  { anchor = "take-their-heads" },
+  { anchor = "indestructible", level = 20 },
+]
 trades = [
-  { replaces = "Tactician", feature = "tactician" },
-  { replaces = "Mount", feature = "mount" },
-  { replaces = "Cavalier's charge", feature = "cavalier-s-charge" },
-  { replaces = "Expert trainer", feature = "expert-trainer" },
-  { replaces = "banner", feature = "banner" },
-  { replaces = "Greater tactician", feature = "greater-tactician" },
-  { replaces = "Mighty charge", feature = "mighty-charge" },
-  { replaces = "greater banner", feature = "greater-banner" },
-  { replaces = "Master tactician", feature = "master-tactician" },
-  { replaces = "Supreme charge", feature = "supreme-charge" },
-  { alters = "Order", feature = "order" },
+  { replaces = "Tactician", feature = "tactician", by = ["beast-tongue"] },
+  { replaces = "Mount", feature = "mount", by = ["implacable-knight"] },
+  { replaces = "Cavalier's charge", feature = "cavalier-s-charge", by = ["ferocious"] },
+  { replaces = "Expert trainer", feature = "expert-trainer", by = ["woodland-stride"] },
+  { replaces = "banner", feature = "banner", by = ["woodland-stride"] },
+  { replaces = "Greater tactician", feature = "greater-tactician", by = ["stalwart"] },
+  { replaces = "Mighty charge", feature = "mighty-charge", by = ["oaken-vitality"] },
+  { replaces = "greater banner", feature = "greater-banner", by = ["oaken-vitality"] },
+  { replaces = "Master tactician", feature = "master-tactician", by = ["take-their-heads"] },
+  { replaces = "Supreme charge", feature = "supreme-charge", by = ["indestructible"] },
+  { alters = "Order", feature = "order", by = ["nature-s-servant"] },
 ]
 +++
 
 Some knights serve nature itself and can be found protecting unspoiled natural places or serving fey
 beings.
 
-**Beast Tongue (Ex)**
+## Beast Tongue (Ex) {#beast-tongue}
 
-**Ability:** A green knight can use Diplomacy to improve an animal's attitude. _Beast tongue_
-otherwise functions like the druid's [wild empathy](ref/ability/wild-empathy) ability, using the
-green knight's Diplomacy modifier and using her cavalier level as her effective druid level, and it
-counts as that ability for the purpose of other effects (such as feat prerequisites or effects that
-alter or improve _wild empathy_).
+A green knight can use Diplomacy to improve an animal's attitude. Beast tongue otherwise functions
+like the druid's [wild empathy](ref/ability/wild-empathy) ability, using the green knight's
+Diplomacy modifier and using her cavalier level as her effective druid level, and it counts as that
+ability for the purpose of other effects (such as feat prerequisites or effects that alter or
+improve wild empathy).
 
-**Gained:** At 1st Level
+This replaces tactician.
 
-**Replaces:** Tactician
+## Implacable Knight (Ex) {#implacable-knight}
 
-**Implacable Knight (Ex)**
+A green knight gains [Endurance](ref/feat/endurance) and [Diehard](ref/feat/diehard) as bonus feats.
 
-**Ability:** A green knight gains [Endurance](ref/feat/endurance) and [Diehard](ref/feat/diehard) as
-bonus feats.
+This replaces mount.
 
-**Gained:** At 1st Level
+## Nature's Servant (Ex) {#nature-s-servant}
 
-**Replaces:** Mount
+A green knight must select the [order of the Green](ref/order/order-of-the-green).
 
-**Nature's Servant (Ex)**
+This alters order.
 
-**Alters:** Order
+## Ferocious (Ex) {#ferocious}
 
-**Info:** A green knight must select the [order of the Green](ref/order/order-of-the-green).
+At 3rd level, a green knight is not staggered when below 0 hit points. At 9th level, taking actions
+when below 0 hit points does not cause her to lose hit points.
 
-**Ferocious (Ex)**
+This replaces cavalier's charge.
 
-**At 3rd Level:** A green knight is not staggered when below 0 hit points.
+## Woodland Stride (Ex) {#woodland-stride}
 
-**At 9th Level:** Taking actions when below 0 hit points does not cause her to lose hit points.
-
-**Replaces:** Cavalier's charge
-
-**Woodland Stride (Ex)**
-
-**At 4th Level:** A green knight gains the druid's [woodland stride](ref/ability/woodland-stride)
+At 4th level, a green knight gains the druid's [woodland stride](ref/ability/woodland-stride)
 ability.
 
-**Replaces:** Expert trainer, banner
+This replaces expert trainer and banner.
 
-**Stalwart (Ex)**
+## Stalwart (Ex) {#stalwart}
 
-**At 9th Level:** Whenever a green knight succeeds at a Fortitude or Will save against an effect
-that has a reduced effect on a successful save, she instead negates the effect.
+At 9th level, whenever a green knight succeeds at a Fortitude or Will save against an effect that
+has a reduced effect on a successful save, she instead negates the effect.
 
-**Replaces:** Greater tactician
+This replaces greater tactician.
 
-**Oaken Vitality (Su)**
+## Oaken Vitality (Su) {#oaken-vitality}
 
-**Flavor:** Nature protects a green knight from many afflictions.
+At 11th level, nature protects a green knight from many afflictions. The green knight becomes immune
+to disease, [infestations](ref/rule/infestations), and poison.
 
-**At 11th Level:** The green knight becomes immune to disease,
-[infestations](ref/rule/infestations), and poison.
+This replaces mighty charge and greater banner.
 
-**Replaces:** Mighty charge, greater banner
+## Take Their Heads (Su) {#take-their-heads}
 
-**Take Their Heads (Su)**
+A green knight's blade is blessed by mighty fey powers and unerringly seeks out foes' necks. At 17th
+level, any slashing weapon a green knight wields gains the _[vorpal](ref/magic-enh/vorpal)_ weapon
+special ability.
 
-**Flavor:** A green knight's blade is blessed by mighty fey powers and unerringly seeks out foes'
-necks.
+This replaces master tactician.
 
-**At 17th Level:** Any slashing weapon a green knight wields gains the
-[vorpal](ref/magic-enh/vorpal) weapon special ability.
+## Indestructible (Su) {#indestructible}
 
-**Replaces:** Master tactician
-
-**Indestructible (Su)**
-
-**At 20th Level:** A green knight is virtually impervious to death. She gains a +6 bonus to her
+At 20th level, a green knight is virtually impervious to death. She gains a +6 bonus to her
 Constitution score. In addition, the green knight becomes immune to death effects and to effects
 that would kill her without reducing her to 0 hit points, unless the effect involves decapitation.
 If she is decapitated, the green knight can continue to act normally. Reattachment requires the head
 and body to be joined and the application of any effect that restores hit points.
 
-**Replaces:** Supreme charge
+This replaces supreme charge.

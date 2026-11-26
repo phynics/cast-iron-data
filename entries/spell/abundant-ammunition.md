@@ -14,7 +14,7 @@ page = "222"
 [fields]
 kind = "spell"
 school = "conjuration"
-subschools = ["Summoning"]
+subschools = ["summoning"]
 levels = [
   { class = "Arcanist", level = 1 },
   { class = "Bard", level = 1 },
@@ -50,7 +50,7 @@ Duration: 1 minute/level
 Saving throw: none
 Spell resistance: no
 Target: one container touched
-Subschool: Summoning
+Subschool: summoning
 :::
 
 When cast on a container such as a quiver or a pouch that contains nonmagical ammunition or shuriken

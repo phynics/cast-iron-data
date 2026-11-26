@@ -14,7 +14,7 @@ page = "22"
 [fields]
 kind = "spell"
 school = "conjuration"
-subschools = ["Healing"]
+subschools = ["healing"]
 levels = [
   { class = "Cleric", level = 4 },
   { class = "Druid", level = 4 },
@@ -47,7 +47,7 @@ Duration: 1 round/level (D)
 Saving throw: none
 Spell resistance: no
 Target: one summoned creature you control
-Subschool: Healing
+Subschool: healing
 :::
 
 Instant restoration channels planar energy into a summoned creature. This spell can be cast as an

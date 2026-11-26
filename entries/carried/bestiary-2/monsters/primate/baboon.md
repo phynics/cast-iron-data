@@ -13,8 +13,8 @@ provenance = [
 kind = "creature"
 cr = "1/2"
 creature_type = "animal"
-size = "Small"
-alignment = "N"
+size = "small"
+alignment = "neutral"
 ac = "13, touch 13, flat-footed 11 (+2 Dex, +1 size)"
 hp = "5 (1d8+1)"
 fortitude = "+3"
@@ -27,8 +27,8 @@ abilities = ["12", "15", "12", "2", "12", "5"]
 ::: statblock
 CR: 1/2
 XP: 200
-Alignment: N
-Size: Small
+Alignment: neutral
+Size: small
 Type: Animal
 Init: +2
 Senses: [low-light vision](ref/rule/low-light-vision); Perception +1
@@ -69,7 +69,7 @@ Speed: 30 ft.
 Attack: bite (1d4)
 Ability Scores: Str 12, Dex 15, Con 12, Int 2, Wis 12, Cha 5
 Special Qualities: [low-light vision](ref/rule/low-light-vision).
-Size: Small
+Size: small
 :::
 
 ### 4th-Level Advancement {#4th-level-advancement}

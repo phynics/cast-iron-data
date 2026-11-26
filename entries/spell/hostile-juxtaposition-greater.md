@@ -17,7 +17,7 @@ page = "231"
 [fields]
 kind = "spell"
 school = "conjuration"
-subschools = ["Teleportation"]
+subschools = ["teleportation"]
 levels = [
   { class = "Arcanist", level = 7 },
   { class = "Mesmerist", level = 6 },
@@ -50,7 +50,7 @@ Target: one creature/4 levels
 Duration: 1 round/level or until discharged
 Saving throw: Will negates
 Spell resistance: yes
-Subschool: Teleportation
+Subschool: teleportation
 :::
 
 ### Greater Hostile Juxtaposition

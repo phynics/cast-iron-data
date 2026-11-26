@@ -14,7 +14,7 @@ page = "8"
 [fields]
 kind = "spell"
 school = "conjuration"
-subschools = ["Healing"]
+subschools = ["healing"]
 levels = [
   { class = "Cleric", level = 6 },
   { class = "Inquisitor", level = 6 },
@@ -47,7 +47,7 @@ Duration: instantaneous
 Saving throw: Will half; see text
 Spell resistance: yes; see text
 Targets: 1 living creature and another single living or undead creature
-Subschool: Healing
+Subschool: healing
 :::
 
 You borrow life force from a living creature and infuse it into another living creature, potentially
