@@ -35,8 +35,7 @@ trades = [
 [Count Ranalc](ref/faith/count-ranalc)'s worshipers congregate in the places between dark and light,
 searching for secrets that might one day free their patron from his mysterious exile. Shadow scions
 have learned some of these secrets and draw power from the shadows themselves. Many shadow scions
-are dedicated [fetchling](ref/race/fetchling) (_Pathfinder RPG Bestiary 2_ 123) or
-[wayang](ref/race/wayang) (_Pathfinder RPG Bestiary 4_ 274) devotees of Count Ranalc.
+are dedicated [fetchling](ref/race/fetchling) or [wayang](ref/race/wayang) devotees of Count Ranalc.
 
 ## Shadow Dweller (Ex) {#shadow-dweller}
 

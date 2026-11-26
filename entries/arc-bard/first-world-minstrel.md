@@ -20,7 +20,7 @@ features = [
   { anchor = "fey-magic" },
   { anchor = "wild-empathy", level = 1 },
   { anchor = "echoes-of-the-first-world", level = 1 },
-  { anchor = "gremlin-s-luck" },
+  { anchor = "gremlin-s-luck", level = 8 },
   { anchor = "resist-nature-s-lure", level = 2 },
 ]
 trades = [

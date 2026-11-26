@@ -17,7 +17,7 @@ page = "7"
 [fields]
 kind = "archetype"
 features = [
-  { anchor = "vermin-aspect" },
+  { anchor = "vermin-aspect", level = 1 },
   { anchor = "swarmer", level = 4 },
   { anchor = "swarm-flow", level = 9 },
   { anchor = "greater-swarm-flow", level = 14 },

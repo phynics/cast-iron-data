@@ -18,7 +18,7 @@ page = "22"
 kind = "archetype"
 features = [
   { anchor = "healing-touch", level = 1 },
-  { anchor = "natural-medic" },
+  { anchor = "natural-medic", level = 1 },
   { anchor = "enemy-of-blight", level = 4 },
   { anchor = "guide-across-lifetimes", level = 13 },
 ]

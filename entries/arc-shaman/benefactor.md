@@ -19,9 +19,6 @@ kind = "archetype"
 features = [
   { anchor = "benefactor-ethos" },
   { anchor = "benefactor-hexes" },
-  { anchor = "boon-reservoir" },
-  { anchor = "expanded-boon" },
-  { anchor = "suppress-curse" },
 ]
 trades = [
   { alters = "Spellcasting", feature = "spells", by = ["benefactor-ethos"] },
@@ -50,7 +47,7 @@ has the word "curse" in its name as a hex or a wandering hex.
 
 This ability alters hexes.
 
-## Boon Reservoir (Su) {#boon-reservoir}
+### Boon Reservoir (Su) {#boon-reservoir}
 
 Once per day, a benefactor can perform a 10-minute ritual with one of her allies, plus one
 additional ally for every 3 shaman levels she has. All creatures that participate in the ritual
@@ -59,7 +56,7 @@ benefactor's shaman level (minimum 1) for 24 hours. As an immediate action, a cr
 point from its boon reservoir to gain a +2 insight bonus on all saving throws it attempts until the
 start of its next turn. Boon reservoir points that are not spent within 24 hours are wasted.
 
-## Expanded Boon (Su) {#expanded-boon}
+### Expanded Boon (Su) {#expanded-boon}
 
 When a benefactor gains this hex, she chooses one of the following: ability checks, attack rolls, or
 skill checks. Instead of gaining an insight bonus on saving throws, any creature with a boon
@@ -68,7 +65,7 @@ bonus on rolls or checks of the chosen kind until the start of its next turn. Th
 multiple times. Each time, it applies to a different roll or check. A benefactor must have the boon
 reservoir hex before choosing this hex.
 
-## Suppress Curse (Sp) {#suppress-curse}
+### Suppress Curse (Sp) {#suppress-curse}
 
 As a standard action, a benefactor can attempt to suppress one curse effect that is affecting a
 creature or object with a touch. This functions as per _[remove curse](ref/spell/remove-curse)_,

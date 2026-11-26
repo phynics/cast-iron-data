@@ -17,7 +17,7 @@ page = "5"
 [fields]
 kind = "archetype"
 features = [
-  { anchor = "draconic-aspect" },
+  { anchor = "draconic-aspect", level = 1 },
   { anchor = "wyrmshifter", level = 9 },
   { anchor = "improved-wyrmshifter", level = 14 },
   { anchor = "greater-wyrmshifter", level = 20 },

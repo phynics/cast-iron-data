@@ -80,6 +80,12 @@ Hold rules (owner decision of 2026-11-26, phynics/cast-iron#540; each is a switc
   usage     a `Usage` row whose words are in print in order is print's
   dropped   a corpus table that the print span lacks is a hold; so is a print span that ends at a title no rule names as another section
             of the book (a table title, a box): the entry needs a decision (`sidebar`, `drop`, `print`) or an edit
+  choices   a listed feature whose text says that the reader selects from what follows ("can select an edge from those listed below",
+            "can select from any of the following hexes") and whose next section is a listed feature too: the sections are probably its
+            options (owner rulings 15 and 34, review of #338); a hold until a decision on the feature (`list`: they are features) or on the
+            options (`sub-of:`) settles it
+  lostlevel the import had a level (`Gained`) and the converted feature has none: a hold until a decision on the feature says that print
+            gives no level (owner ruling 4)
   and `--print-sentences` / `<book>.sentences.tsv`: the printed "This replaces/alters ..." sentences of every archetype, which `--check`
   requires in the entries unless the review records the difference (a misprint fix, a Paizo errata)
 
@@ -140,7 +146,7 @@ FORGET_CHECKER_HOLDS = False
 # switch so that a measurement can turn it off (`--rules` of scripts/feature-prose-540-measure.py): `hyphens` (a hyphen is a space),
 # `prereq` (a "Prereq: Nth-level" row is print's "must be at least Nth level"), `usage` (a `Usage` row that print says word for word
 # is print's), `values` (values level by level), `dropped` (a dropped table or paragraph is a hold).
-RULES = {"hyphens": True, "prereq": True, "usage": True, "values": True, "dropped": True}
+RULES = {"hyphens": True, "prereq": True, "usage": True, "values": True, "dropped": True, "choices": True, "lostlevel": True}
 HYPHEN_SPACES = [False]      # on while `compare_feature` runs: the comparison of the rule `hyphens`, not the choice of the text that is written
 
 TSV_HEADER = [
@@ -1730,7 +1736,7 @@ def trade_name(t: dict) -> tuple[str, str]:
 
 
 DECISION_HEADER = ["entry", "anchor", "decision", "note"]
-DECISIONS = ("print", "drop", "to-opening", "hold", "unlist", "list", "sidebar")
+DECISIONS = ("print", "drop", "to-opening", "hold", "unlist", "list", "sidebar", "carried")
 
 
 def decisions_path(corpus: Path, book: str) -> Path:
@@ -1744,7 +1750,7 @@ def read_decisions(corpus: Path, book: str) -> dict[tuple[str, str], tuple[str, 
     decisions (owner rulings 15 and 18) also take print's wording: `unlist` makes the feature a plain heading that is
     no class feature, `sub-of:ANCHOR` a subheading of that feature, `list` a class feature that the option rule
     would have made a subheading. `after:ANCHOR` (joined to another decision with `;`) moves the row behind that
-    feature: a sidebar that print sets before the text it belongs after. `end:SLUG` (with `sidebar`, `drop` or `print`) records the
+    feature: a sidebar that print sets before the text it belongs after. `carried` leaves out a section whose text an edit of another feature carries (a printed list, ruling 45). `end:SLUG` (with `sidebar`, `drop` or `print`) records the
     title that ends the print span (the next section of the chapter, a box) in a row of its own, so that it never meets a feature
     of the same slug (a plain slug still works, as in the earlier books). `fold-into:ANCHOR` (owner ruling 44) folds a section
     whose print head is the title of a table into the end of that feature: the head becomes a bold line directly above the
@@ -2453,6 +2459,19 @@ def print_md(feat: PrintFeature, links: list[tuple[str, str]], vocab: set[str], 
     return render_marks(text), lost, notes
 
 
+def final_citations(text: str, entry_id: str = "") -> str:
+    """Owner ruling 26 on the finished Markdown: a book citation that follows a link goes. `print_md` drops them before the links of the
+    entry are placed, so a link that only the placement of a lost link, or the import's own opening text, brings (Ward Spiritualist's
+    "[spirit-bound blade] (Pathfinder RPG Occult Adventures 186)", the openings of Shadow Scion, Nornkith and Wasteland Blightbreaker)
+    needs this second pass. The patterns and the rules are those of `print_md`, read on text that already has its links."""
+    marked = re.sub(r"_([^_\n]*)_", lambda m: I_OPEN + m.group(1) + I_CLOSE, text)
+    out = drop_linked_citation(CITE_RPG, marked, [], entry_id)
+    out = drop_linked_citation(CITE_BOOK, out, [], entry_id)
+    out = drop_semicolon_citation(CITE_SEMI, out, [])
+    out = drop_linked_citation(CITE_PAGE, out, [], entry_id)
+    return out.replace(I_OPEN, "_").replace(I_CLOSE, "_")
+
+
 def balance_marks(s: str) -> str:
     """Drops an italic mark that has no partner (a cut that took the text between two marks)."""
     out, depth, opened = [], 0, []
@@ -2538,6 +2557,7 @@ OPENING_NOTES = {
 # label and the words that end with it. Fey Caller (Ultimate Intrigue p. 71): the import links "fey" in "also counts as a
 # fey", the first "fey" of the text is the name of the archetype.
 CONTEXT_LINKS = {
+    ("ref/arc-gunslinger/scatter-gunner", "scatter"): "with the scatter",     # the link of the import is on "scatter weapon quality", not on the archetype's name
     ("ref/arc-unchained-summoner/fey-caller", "fey"): "counts as a fey",
 }
 
@@ -2842,6 +2862,11 @@ def assign_by(trades: list[dict], listed: list[dict], opening: list[str]) -> tup
                     by[i] = prose
                 else:
                     problems.append(f"the {op} trade `{name}` is not printed in a sentence, and no listed feature of that name prints it")
+    for i, t in enumerate(trades):
+        if t.get("_extra_by"):
+            # owner ruling 47: an ability gained at a fixed level that replaces a class feature carries the trade, though print states it once
+            have = set(by.get(i, [])) | {a for a in t["_extra_by"] if any(f["anchor"] == a for f in listed)}
+            by[i] = [f["anchor"] for f in listed if f["anchor"] in have]
     for f in listed:
         for sop, ph, bare in sentences[f["anchor"]]:
             if not bare and not any(sop == trade_name(t)[0] and covers(ph, trade_name(t)[1]) for t in trades):
@@ -3132,6 +3157,7 @@ TRADE_OP_FIXES = {
 # A trade that print states in a trade sentence and that the entry does not store (data fix inside the
 # pilot's book; the TSV note records it). The other four shaman archetypes store `Venom immunity`.
 TRADE_ADDITIONS = {
+    "ref/arc-shifter/feyform-shifter": [{"alters": "Shifter aspect", "feature": "shifter-aspect"}],     # owner ruling 49
     "ref/arc-druid/nature-priest": [{"alters": "Class skills"}],     # "This alters the druid's class skills." (Faithful)
     "ref/arc-kineticist/elysiokineticist": [{"alters": "The class skills granted by the wood element"}],     # "This alters elemental focus and the class skills granted by the wood element, and it replaces expanded element."
     # "This ability replaces the ki power gained at 4th level for an unchained monk." (Healing Ki, Greater Hone Body, Hone Soul)
@@ -3291,8 +3317,18 @@ LEVEL_ONE_REPLACES = {
     ("ref/arc-wizard/arcane-warden", "generous-touch"),     # replaces the hand of the apprentice universalist school ability, a 1st-level power (rulings 11 and 35)
 }
 
+# A level that the text of the feature does not state but the section before it does (review of #338): "must take the following revelation at 3rd level"
+LEVEL_FROM_PRINT = {
+    ("ref/arc-oracle/inerrant-voice", "revelations"): (3, "its own sentence: \"must take the following revelation at 3rd level\""),
+    ("ref/arc-oracle/inerrant-voice", "vigilant-protector"): (3, "the Revelations paragraph before it: \"must take the following revelation at 3rd level\""),
+}
+# a feature that offers a choice from what follows ("can select an edge from those listed below", "can select from any of the following hexes")
+CHOICE_INTRO = re.compile(r"\b(?:select|selects|choose|chooses|take|takes|pick|picks)\b[^.]{0,100}?\b(?:from|among|of|in)\s+(?:the\s+|these\s+|those\s+)?"
+                          r"(?:following|listed below|below)\b|\bfrom (?:those|the list) (?:listed )?below\b"
+                          r"|\badds? the following (?!spells?\b)[^.]{0,120}\bto (?:the|her|his) list\b|\bways? listed below\b", re.I)
 # A level that print states in words that the lead rules do not read: the entry, the anchor, the level and the printed words (Batches 6 to 9).
 LEVEL_STATED = {
+    ("ref/arc-bard/first-world-minstrel", "gremlin-s-luck"): (8, "A First World minstrel of 8th level or higher"),     # review of #339
     ("ref/arc-oracle/hermit", "recluse-s-stride"): (1, "You must take this revelation at 1st level"),
 }
 
@@ -3321,7 +3357,13 @@ LEVEL_IN_FIRST_PARAGRAPH = {
 
 # A stored trade that print states in the prose of a feature and in no trade sentence (owner ruling 28 of 2026-11-25):
 # the entry, the stored name, the feature whose text states it. The check accepts the prose of the feature as support.
+# A trade that names more features than the sentence that states it (owner ruling 47): the entry and the stored name (before a rename), the anchors.
+TRADE_EXTRA_BY = {
+    ("ref/arc-wizard/chronomancer", "10th-, 15th-, and 20th-level bonus feats"): ["accelerate", "complex-contingency", "parallel-self"],
+}
+
 TRADE_PROSE_BY = {
+    ("ref/arc-shifter/feyform-shifter", "Shifter aspect"): "fey-aspect",     # owner ruling 49: "This alters and replaces all improvements to shifter aspect" stores both trades
     ("ref/arc-inquisitor/faith-hunter", "justice"): "sworn-enemy",
     ("ref/arc-inquisitor/faith-hunter", "destruction judgments"): "sworn-enemy",
     ("ref/arc-rogue/phantom-thief", "Debilitating injury"): "refined-education",
@@ -3410,8 +3452,11 @@ def effective_trades_origin(e: Entry) -> list[tuple[dict, int | None]]:
             t2 = dict(t2, _no_by=True)
         if (e.id, name) in TRADE_PROSE_BY:
             t2 = dict(t2, _prose_by=TRADE_PROSE_BY[(e.id, name)])
+        if (e.id, name) in TRADE_EXTRA_BY:
+            t2 = dict(t2, _extra_by=TRADE_EXTRA_BY[(e.id, name)])
         out.append((t2, i))
-    return out + [(dict(t), None) for t in TRADE_ADDITIONS.get(e.id, [])]
+    return out + [(dict(t, _prose_by=TRADE_PROSE_BY[(e.id, trade_name(t)[1])]) if (e.id, trade_name(t)[1]) in TRADE_PROSE_BY else dict(t), None)
+                  for t in TRADE_ADDITIONS.get(e.id, [])]
 
 
 def effective_trades(e: Entry) -> list[dict]:
@@ -3454,9 +3499,19 @@ def first_level_key(name: str) -> str:
     channel energy, bomb, bomb and witch's familiar."""
     name = re.sub(r"\[([^\]]*)\]\([^)]*\)", r"\1", ABILITY_TAG.sub("", name))
     name = re.sub(r"[_*]", "", name)
+    name = re.sub(r"^\d+(?:st|nd|rd|th)\s+", "", name.strip())                    # the class table of the slayer: "1st studied target"
+    name = re.sub(r"[,;]?\s+and (?:all|each|every)\s+(?:of\s+)?(?:its\s+|the\s+)?(?:improvements?|upgrades?)\b.*$", "", name, flags=re.I)   # "Shifter aspect and all improvements to it"
     name = re.sub(r"\s+(?:\d+/\w+|\d+d\d+|[+\-]\d.*|\d+)$", "", name.strip())
     name = re.sub(r"^[a-z]+'s\s+", "", fold(name))                 # "witch's familiar" is the name familiar
     return " ".join(stem(w) for w in re.findall(r"[a-z0-9']+", name))
+
+
+# 1st-level features of a base class that its table does not list as such (owner ruling 48 of 2026-11-26): the druid's spontaneous casting, and the
+# gunslinger's 1st-level deeds (the table lists "Deeds"; their entries say "Prereq: 1st-level gunslinger"). Names as `first_level_key` reads them.
+FIRST_LEVEL_EXTRA = {
+    "ref/class/druid": ("Spontaneous casting",),
+    "ref/class/gunslinger": ("Deadeye", "Deadeye deed", "Gunslinger's dodge", "Gunslinger's dodge deed", "Quick clear", "Quick clear deed"),
+}
 
 
 def class_first_level(corpus: Path, class_id: str, cache: dict) -> set[str]:
@@ -3478,6 +3533,7 @@ def class_first_level(corpus: Path, class_id: str, cache: dict) -> set[str]:
                     for item in re.split(r",(?![^()]*\))", cells[col]):
                         keys.add(first_level_key(item))
                 break
+    keys |= {first_level_key(x) for x in FIRST_LEVEL_EXTRA.get(class_id, ())}
     cache[class_id] = keys
     return keys
 
@@ -3540,7 +3596,8 @@ def finalize(e: Entry, res: dict, class_cache: dict | None = None) -> dict:
             target["print"] += "\n\n" + tail
             r["notes"] = [note] + [n for n in r["notes"] if n.startswith(("print asterisks", "misprint", "link", "anchor", "errata"))]
             r["status"] = "print"
-        elif kind == "sidebar":
+        elif kind in ("sidebar", "carried"):
+            # `carried`: the section is a printed list whose text the hand-written edit of another feature carries (owner ruling 45); it is left out
             # a box of the page that is not part of the archetype (lore of a faction, a deity, an order): the book prints it beside the
             # archetype, the corpus does not have it; it is left out and the note says so (Adventurer's Guide, Ultimate Wilderness)
             rows.remove(r)
@@ -3631,6 +3688,11 @@ def finalize(e: Entry, res: dict, class_cache: dict | None = None) -> dict:
             if not any(f"[{label}]({target})" in o["print"] for o in rows):
                 at = place_elsewhere(rows, label, target)
                 r["notes"].append(f"link of the dropped section placed in `{at}`: {label}" if at else f"link of the dropped section not placed: {label}")
+    # the last links are placed: the citations that now follow a link go (owner ruling 26)
+    for r in rows:
+        if (e.id, r["anchor"]) not in res.get("edits", {}) and r["print"]:
+            r["print"] = final_citations(r["print"], e.id)         # a hand-written edit says what it keeps (ruling 42)
+    res["opening"] = [final_citations(o, e.id) for o in res["opening"]]
     res["problems"] = [p for p in problems if not p.startswith("head not printed")]
     problems = res["problems"]
     left = [r["head"] for r in rows if "head not printed" in r["notes"] and r["status"] == "hold"]
@@ -3705,6 +3767,9 @@ def finalize(e: Entry, res: dict, class_cache: dict | None = None) -> dict:
                 if m and 1 <= int(m.group(1)) <= 20 and m.group(2) == ordinal(int(m.group(1)))[len(m.group(1)):]:
                     r["level"] = int(m.group(1))
                     r["notes"].append(f"level {r['level']}: print says \"{m.group(0)}\" in its first paragraph, after an opening sentence")
+        if r["level"] is None and r["listed"] and (e.id, r["anchor"]) in LEVEL_FROM_PRINT:
+            r["level"], why = LEVEL_FROM_PRINT[(e.id, r["anchor"])]
+            r["notes"].append(f"level {r['level']}: {why}")
         if r["level"] is None and r["listed"] and (e.id, r["anchor"]) in LEVEL_STATED:
             r["level"], said = LEVEL_STATED[(e.id, r["anchor"])]
             r["notes"].append(f"level {r['level']}: print says \"{said}\"")
@@ -3744,6 +3809,21 @@ def finalize(e: Entry, res: dict, class_cache: dict | None = None) -> dict:
                 and (e.id, r["anchor"]) not in decisions:
             r["status"] = "hold"
             r["notes"].append(f"level: corpus {ordinal(r['level_import'])}, print {ordinal(r['level'])}")
+    # owner review of #338: the lead decides the two cases that a first read of print does not show
+    if RULES["lostlevel"]:
+        for r in rows:
+            if r["listed"] and r["level"] is None and r["level_import"] is not None and r["status"] != "hold" and (e.id, r["anchor"]) not in decisions:
+                r["status"] = "hold"
+                r["notes"].append(f"level: the import had {ordinal(r['level_import'])} and print gives none (no lead, no trade that proves it): "
+                                  "decide `print` (no level), or give it in `LEVEL_FROM_PRINT`")
+    if RULES["choices"]:
+        for i, r in enumerate(rows):
+            nxt = rows[i + 1] if i + 1 < len(rows) else None
+            if (r["listed"] and not r.get("parent") and (e.id, r["anchor"]) not in decisions and CHOICE_INTRO.search(r["print"] or "")
+                    and nxt is not None and nxt["listed"] and not nxt.get("parent")):
+                r["status"] = "hold"       # also a row that is a hold already: its note then says that the structure is one of the questions
+                r["notes"].append(f"choices: the text says that the reader selects from what follows, and the next section `{nxt['anchor']}` is a listed feature: "
+                                  "decide `sub-of:` for the options (rulings 15 and 34), or `list` on this feature if they are features")
     if e.id in OPENING_NOTES:
         rows[0]["notes"].append(OPENING_NOTES[e.id])
     for text in res.get("opening_dropped", []):
@@ -3980,6 +4060,7 @@ def convert_text(e: Entry, prop: dict, rows: list[dict]) -> str:
     probe = {namekey(f["head"]) for f in feats}
     opening, _ = parse_import(e.body, probe)
     parts = ["\n".join(b) for i, b in enumerate(opening) if i not in unprinted_notes(opening, prop.get("opening", []))]
+    parts = [final_citations(o, e.id) for o in parts]
     if prop.get("opening_from_print"):
         parts = list(prop["opening"])
     for f in feats:
@@ -4683,6 +4764,24 @@ def self_test() -> int:
     eq(strip_citations("seven (_Pathfinder Player Companion: Heroes of the Wild_ 26) here"), "seven here", "a citation of a Player Companion")
     eq(strip_citations("a template (Bestiary 6 46), another (Inner Sea Bestiary 28\u201329)."), "a template, another.", "Bestiary 6 and Inner Sea Bestiary")
     eq(strip_citations("the grapple weapon (Adventurer's Guide 12)"), "the grapple weapon (Adventurer's Guide 12)", "a book that no pattern names stays")
+    # review of #339: the class-table lookup (ruling 35 and 48), and the citation pass on the finished Markdown
+    eq(first_level_key("1st studied target"), first_level_key("Studied target"), "a class table entry with an ordinal in front")
+    eq(first_level_key("Shifter aspect, and all improvements to shifter aspect"), first_level_key("Shifter aspect"), "a name with all its improvements")
+    eq(first_level_key("Shifter aspect and all improvements of shifter aspect"), "shifter aspect", "improvements of")
+    eq(first_level_key("Wild shape"), "wild shape", "a plain name is unchanged")
+    eq(first_level_key("Deadeye deed") in {first_level_key(x) for x in FIRST_LEVEL_EXTRA["ref/class/gunslinger"]}, True, "a 1st-level deed")
+    eq(first_level_key("Spontaneous casting") in {first_level_key(x) for x in FIRST_LEVEL_EXTRA["ref/class/druid"]}, True, "the druid's spontaneous casting")
+    eq(final_citations("a _[spirit-bound blade](ref/spell/x)_ (_Pathfinder RPG Occult Adventures_ 186) for", "x"), "a _[spirit-bound blade](ref/spell/x)_ for",
+       "a citation after a link in finished Markdown goes")
+    eq(final_citations("a spirit-bound blade (_Pathfinder RPG Occult Adventures_ 186) for", "x"), "a spirit-bound blade (_Pathfinder RPG Occult Adventures_ 186) for",
+       "a citation after an unlinked name stays")
+    eq(final_citations("the [fey](ref/a) (see the Core Rulebook 12) and", "x"), "the [fey](ref/a) (see the Core Rulebook 12) and", "a cross-reference with see stays")
+    for txt in ("a mutated defender can select from the following mutant talents, in addition to the vigilante talents normally available to him.",
+                "A benefactor adds the following hexes to the list of shaman hexes she can choose from whenever she gains a new hex.",
+                "to manipulate the time stream in a variety of ways listed below."):
+        eq(bool(CHOICE_INTRO.search(txt)), True, "a lead-in that offers a choice from the sections that follow: " + txt[:30])
+    eq(bool(CHOICE_INTRO.search("At 3rd level, the bonus increases by 1.")), False, "no choice in a plain feature")
+    eq("carried" in DECISIONS, True, "the decision for a section that an edit carries")
     # "This change remains in effect" is no trade sentence; "alters and replaces X" has no phrase of its own to cover
     eq(trade_sentences("This change remains in effect for 1 minute."), [], "a noun after This is no verb")
     eq(trade_sentences("This changes the sentence name.")[0][0], "alters", "changes is an alters verb")

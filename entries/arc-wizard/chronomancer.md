@@ -17,11 +17,14 @@ page = "30"
 [fields]
 kind = "archetype"
 features = [
-  { anchor = "temporal-pool", level = 1 },
+  { anchor = "temporal-pool" },
+  { anchor = "accelerate", level = 10 },
+  { anchor = "complex-contingency", level = 15 },
+  { anchor = "parallel-self", level = 20 },
 ]
 trades = [
-  { replaces = "Arcane bond", feature = "arcane-bond", by = ["temporal-pool"] },
-  { replaces = "The bonus feats gained at 10th, 15th, and 20th levels", feature = "bonus-feats", levels = [10, 15, 20], by = ["temporal-pool"] },
+  { replaces = "Arcane bond", feature = "arcane-bond", by = ["parallel-self"] },
+  { replaces = "The bonus feats gained at 10th, 15th, and 20th levels", feature = "bonus-feats", levels = [10, 15, 20], by = ["accelerate", "complex-contingency", "parallel-self"] },
 ]
 +++
 
@@ -54,13 +57,13 @@ level (minimum 1) to immediately prepare the spell again, as if it had not been 
 components expended in the original casting remain expended, as are actions used to cast the
 original spell.
 
-### Accelerate {#accelerate}
+## Accelerate {#accelerate}
 
 At 10th level when casting a spell, the chronomancer can expend 2 points from his temporal pool to
 apply the effects of _[haste](ref/spell/haste)_ to one creature affected by the spell until the end
 of the chronomancer's next turn.
 
-### Complex Contingency {#complex-contingency}
+## Complex Contingency {#complex-contingency}
 
 At 15th level, the chronomancer can specify two trigger conditions when casting
 _[contingency](ref/spell/contingency)_. In addition, when the chronomancer's
@@ -68,7 +71,7 @@ _[contingency](ref/spell/contingency)_ would trigger, the chronomancer can expen
 temporal pool as an immediate action to prevent the _[contingency](ref/spell/contingency)_ from
 triggering, saving the stored effect for later.
 
-### Parallel Self {#parallel-self}
+## Parallel Self {#parallel-self}
 
 At 20th level, if the chronomancer is killed, he can immediately expend 10 points from his temporal
 pool to summon an alternate version of himself from a parallel existence, appearing up to 30 feet

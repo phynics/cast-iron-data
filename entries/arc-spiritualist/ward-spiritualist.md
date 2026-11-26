@@ -86,13 +86,13 @@ considered to have a +1 enhancement bonus for the duration of the merged manifes
 enhancement bonus increases by 1 at 8th level, and again at 13th level and 18th level. At 8th level,
 and again at 18th level, it deals damage as a weapon
 [one size category larger](ref/misc/damage-die-adjustments). At 13th level, her implement also gains
-the benefits of _[spirit-bound blade](ref/spell/spirit-bound-blade)_ (_Pathfinder RPG Occult
-Adventures_ 186) for the duration of the merged manifestation.
+the benefits of _[spirit-bound blade](ref/spell/spirit-bound-blade)_ for the duration of the merged
+manifestation.
 
 If she is her own implement, when using her merged manifestation, she gains the unarmed strike class
-feature as a 1st level [unchained monk](ref/class/unchained-monk) (_Pathfinder RPG Pathfinder
-Unchained_ 14). At 8th level, her unarmed strike damage is that of a 4th-level unchained monk, and
-she gains flurry of blows as a 1st-level unchained monk. At 13th level, her unarmed damage is that
-of an 8th-level unchained monk, and her unarmed strikes gain the benefits of _spirit-bound blade_
-for the duration of the merged manifestation. At 18th level, her unarmed damage is that of a 12th
-level unchained monk, and she can use flurry of blows as an 11th-level unchained monk.
+feature as a 1st level [unchained monk](ref/class/unchained-monk). At 8th level, her unarmed strike
+damage is that of a 4th-level unchained monk, and she gains flurry of blows as a 1st-level unchained
+monk. At 13th level, her unarmed damage is that of an 8th-level unchained monk, and her unarmed
+strikes gain the benefits of _spirit-bound blade_ for the duration of the merged manifestation. At
+18th level, her unarmed damage is that of a 12th level unchained monk, and she can use flurry of
+blows as an 11th-level unchained monk.

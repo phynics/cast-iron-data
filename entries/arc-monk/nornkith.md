@@ -39,8 +39,8 @@ trades = [
 +++
 
 Nornkith hone their bodies and minds to follow the branching threefold paths of fate. Nornkith seek
-to emulate the fey masters of fate called [norns](ref/monster/norn) (_Pathfinder RPG Bestiary 3_
-202) and eventually ascend to become norns in their own right.
+to emulate the fey masters of fate called [norns](ref/monster/norn) and eventually ascend to become
+norns in their own right.
 
 ## Conviction of Fate (Ex) {#conviction-of-fate}
 

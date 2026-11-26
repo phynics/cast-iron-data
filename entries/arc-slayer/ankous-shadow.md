@@ -17,7 +17,7 @@ page = "14"
 [fields]
 kind = "archetype"
 features = [
-  { anchor = "shadow-double" },
+  { anchor = "shadow-double", level = 1 },
   { anchor = "ankou-s-vision", level = 7 },
   { anchor = "shadow-prey" },
   { anchor = "unfettered-shadows", level = 20 },

@@ -19,8 +19,6 @@ kind = "archetype"
 features = [
   { anchor = "mutant-specialization", level = 1 },
   { anchor = "mutant-talents", level = 2 },
-  { anchor = "mutant-blast" },
-  { anchor = "mutated-lobe" },
 ]
 trades = [
   { replaces = "Vigilante specialization", feature = "vigilante-specialization", by = ["mutant-specialization"] },
@@ -53,7 +51,7 @@ following mutant talents, in addition to the vigilante talents normally availabl
 
 This alters vigilante talent.
 
-## Mutant Blast (Su) {#mutant-blast}
+### Mutant Blast (Su) {#mutant-blast}
 
 One of the mutated defender's extremities becomes elementally warped, and he can discharge a blast
 of energy from this limb. This functions as the [elemental](ref/sorcbloodline/elemental) ray
@@ -73,7 +71,7 @@ attack without fulfilling the subtype requirement, though he must replace one of
 natural weapon. A mutated defender can select this mutant talent multiple times, choosing a
 different evolution each time.
 
-## Mutated Lobe (Sp) {#mutated-lobe}
+### Mutated Lobe (Sp) {#mutated-lobe}
 
 A mutated defender's brain is enlarged and distended, granting him psychic powers. He can cast
 _[detect thoughts](ref/spell/detect-thoughts)_ as a

@@ -30,8 +30,7 @@ trades = [
 +++
 
 The deleterious effects of the weird hazards of the Mana Wastes require special skill to remedy.
-Many wasteland blightbreakers are also [chirurgeons](ref/arc-alchemist/chirurgeon) (_Pathfinder RPG
-Ultimate Magic_ 18).
+Many wasteland blightbreakers are also [chirurgeons](ref/arc-alchemist/chirurgeon).
 
 ## Healing Infusion (Sp, Su) {#healing-infusion}
 

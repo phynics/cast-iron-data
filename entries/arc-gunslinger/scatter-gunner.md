@@ -18,7 +18,7 @@ page = "12"
 kind = "archetype"
 features = [
   { anchor = "scatter-specialist" },
-  { anchor = "careful-shot" },
+  { anchor = "careful-shot", level = 1 },
   { anchor = "scatter-artist", level = 3 },
   { anchor = "overload", level = 7 },
   { anchor = "satchel-shot", level = 7 },
@@ -45,8 +45,8 @@ This alters gunsmith.
 
 ## Deeds {#deeds}
 
-A [scatter](ref/misc/scatter) gunner gains the following deeds, each of which functions only when he
-uses a weapon with the scatter weapon quality to make a scattering shot.
+A scatter gunner gains the following deeds, each of which functions only when he uses a weapon with
+the [scatter](ref/misc/scatter) weapon quality to make a scattering shot.
 
 ## Careful Shot (Ex) {#careful-shot}
 

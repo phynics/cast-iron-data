@@ -78,21 +78,10 @@ target to become [nauseated](ref/misc/nauseated) for 1 round or to have its exis
 condition extended by 1 round. A creature that cannot be sickened or nauseated cannot have
 conditions removed by this ability.
 
-### Minor Conditions (DC 20) {#minor-conditions-dc-20}
-
-Fatigued, shaken, and sickened.
-
-### Major Conditions (DC 25) {#major-conditions-dc-25}
-
-Dazed and staggered.
-
-### Severe Conditions (DC 30) {#severe-conditions-dc-30}
-
-Confused, exhausted, frightened, and nauseated.
-
-### Dire Conditions (DC 35) {#dire-conditions-dc-35}
-
-Blinded, deafened, paralyzed, and stunned.
+- Minor Conditions (DC 20): Fatigued, shaken, and sickened.
+- Major Conditions (DC 25): Dazed and staggered.
+- Severe Conditions (DC 30): Confused, exhausted, frightened, and nauseated.
+- Dire Conditions (DC 35): Blinded, deafened, paralyzed, and stunned.
 
 This ability replaces the revelation gained at 7th level.
 

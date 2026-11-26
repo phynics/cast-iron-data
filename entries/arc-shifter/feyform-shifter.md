@@ -29,6 +29,7 @@ trades = [
   { alters = "Chimeric aspect", feature = "chimeric-aspect", by = ["fey-shifter"] },
   { alters = "Greater chimeric aspect", feature = "greater-chimeric-aspect", by = ["greater-fey-shifter"] },
   { alters = "Final aspect", feature = "final-aspect", by = ["final-aspect"] },
+  { alters = "Shifter aspect", feature = "shifter-aspect", by = ["fey-aspect"] },
 ]
 +++
 

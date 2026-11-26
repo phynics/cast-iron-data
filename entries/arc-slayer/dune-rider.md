@@ -18,7 +18,7 @@ page = "86"
 kind = "archetype"
 features = [
   { anchor = "sand-foot", level = 1 },
-  { anchor = "desert-skirmisher" },
+  { anchor = "desert-skirmisher", level = 1 },
   { anchor = "galloping-fire", level = 4 },
   { anchor = "dust-vision", level = 8 },
   { anchor = "dunes-of-death", level = 20 },
