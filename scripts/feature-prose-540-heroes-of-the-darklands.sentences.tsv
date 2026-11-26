@@ -5,6 +5,7 @@ ref/arc-alchemist/blightseeker	This ability replaces persistent mutagen.
 ref/arc-barbarian/beastkin-berserker	This ability replaces fast movement.
 ref/arc-barbarian/beastkin-berserker	This ability replaces the rage powers gained at 4th, 8th, and 12th levels.
 ref/arc-bard/stonesinger	This ability alters spellcasting.
+ref/arc-bard/stonesinger	This ability modifies bardic performance.
 ref/arc-bard/stonesinger	This replaces countersong.
 ref/arc-bard/stonesinger	This replaces dirge of doom.
 ref/arc-cavalier/vermin-tamer	This ability alters mount.
@@ -38,5 +39,6 @@ ref/arc-slayer/turncoat	This ability replaces quarry and improved quarry.
 ref/arc-vigilante/darklantern	This ability alters dual identity.
 ref/arc-vigilante/darklantern	This replaces the social talent that the darklantern gains at 1st level.
 ref/arc-vigilante/darklantern	This replaces the vigilante talent gained at 4th level.
+ref/arc-witch/demon-sworn	This ability modifies patron spells.
 ref/arc-witch/demon-sworn	This ability alters the witch’s hex, major hex, and grand hex.
 ref/arc-witch/demon-sworn	This ability replaces the hex gained at 6th level.

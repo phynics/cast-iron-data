@@ -18,7 +18,6 @@ page = "84"
 kind = "archetype"
 features = [
   { anchor = "endurance", level = 1 },
-  { anchor = "raging-song" },
   { anchor = "song-of-endurance", level = 3 },
   { anchor = "song-of-surmounting", level = 7 },
   { anchor = "frightful-boast", level = 14 },

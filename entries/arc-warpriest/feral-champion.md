@@ -17,7 +17,7 @@ page = "97"
 [fields]
 kind = "archetype"
 features = [
-  { anchor = "feral-blessing" },
+  { anchor = "feral-blessing", level = 1 },
   { anchor = "sacred-claws", level = 1 },
   { anchor = "wild-shape", level = 7 },
 ]

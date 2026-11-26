@@ -18,7 +18,6 @@ page = "20"
 kind = "archetype"
 features = [
   { anchor = "dual-identity", level = 1 },
-  { anchor = "bardic-performance" },
   { anchor = "seamless-guise", level = 1 },
   { anchor = "exaggerated-pose", level = 3 },
   { anchor = "stage-combat", level = 6 },

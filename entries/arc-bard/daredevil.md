@@ -18,7 +18,6 @@ page = "32"
 kind = "archetype"
 features = [
   { anchor = "agile", level = 1 },
-  { anchor = "bardic-performance" },
   { anchor = "derring-do", level = 1 },
   { anchor = "canny-foe", level = 2 },
   { anchor = "dauntless", level = 2 },

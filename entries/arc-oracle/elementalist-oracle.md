@@ -20,7 +20,6 @@ page = "15"
 [fields]
 kind = "archetype"
 features = [
-  { anchor = "revelations" },
   { anchor = "elemental-linguist", level = 1 },
   { anchor = "elemental-form", level = 11 },
   { anchor = "elemental-revelation", level = 20 },

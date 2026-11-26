@@ -16,12 +16,20 @@ page = "18"
 
 [fields]
 kind = "archetype"
+features = [
+  { anchor = "shadow-smite", level = 1 },
+  { anchor = "illuminating-zeal", level = 4 },
+  { anchor = "shadow-s-embrace", level = 5 },
+  { anchor = "cloak-of-shadow", level = 8 },
+  { anchor = "clouding-smite", level = 11 },
+]
 trades = [
-  { replaces = "Channel positive energy", feature = "channel-positive-energy" },
-  { replaces = "Divine bond", feature = "divine-bond" },
-  { replaces = "Aura of resolve", feature = "aura-of-resolve" },
-  { replaces = "Aura of justice", feature = "aura-of-justice" },
-  { alters = "Smite evil", feature = "smite-evil" },
+  { replaces = "Channel positive energy", feature = "channel-positive-energy", by = ["illuminating-zeal"] },
+  { replaces = "Divine bond", feature = "divine-bond", by = ["shadow-s-embrace"] },
+  { replaces = "Aura of resolve", feature = "aura-of-resolve", by = ["cloak-of-shadow"] },
+  { replaces = "Aura of justice", feature = "aura-of-justice", by = ["clouding-smite"] },
+  { alters = "Smite evil", feature = "smite-evil", by = ["shadow-smite"] },
+  { alters = "Class skills" },
 ]
 +++
 
@@ -29,73 +37,55 @@ Some paladins focus their training to combat the shadows and use darkness to the
 as dusk knights, these paladins are primarily worshipers of [Abadar](ref/faith/abadar), but dusk
 knights who serve [Iomedae](ref/faith/iomedae) and [Irori](ref/faith/irori), though rare, do exist.
 
-**Gained class skills:** stl
+## Skills {#skills}
 
-**Lost class skills:** sm
+A dusk knight adds Stealth to her list of class skills, instead of Sense Motive.
 
-**Shadow Smite (Su)**
+This alters the paladin's class skills.
 
-**Ability:** A dusk knight gains [concealment](ref/rule/concealment) for 1 round per paladin level
-against the target of her _smite evil_ ability in addition to its other effects. The dusk knight
-doesn't deal additional damage with her _smite evil_ ability.
+## Shadow Smite (Su) {#shadow-smite}
 
-**Alters:** Smite evil
+A dusk knight gains [concealment](ref/rule/concealment) for 1 round per paladin level against the
+target of her smite evil ability in addition to its other effects. The dusk knight doesn't deal
+additional damage with her smite evil ability.
 
-**Illuminating Zeal (Su)**
+This ability alters smite evil.
 
-**Flavor:** A dusk knight gains the ability to grant [darkvision](ref/rule/darkvision) to her
-allies.
+## Illuminating Zeal (Su) {#illuminating-zeal}
 
-**Gained:** At 4th Level
+At 4th level, a dusk knight gains the ability to grant [darkvision](ref/rule/darkvision) to her
+allies. As a standard action, the dusk knight grants one target touched
+[darkvision](ref/rule/darkvision) with a range of 60 feet for 1 hour. If the target already has
+darkvision, the range increases by 60 feet instead. If the dusk knight targets herself, using this
+ability is a swift action. Using this ability consumes two uses of her lay on hands ability.
 
-**Replaces:** Channel positive energy
+This ability replaces channel positive energy.
 
-**Special:** If the dusk knight targets herself, using this ability is a **swift action**. Using
-this ability consumes two uses of her _lay on hands_ ability.
+## Shadow's Embrace (Su) {#shadow-s-embrace}
 
-**Standard:** The dusk knight grants one target touched [darkvision](ref/rule/darkvision) with a
-range of 60 feet for 1 hour. If the target already has darkvision, the range increases by 60 feet
-instead.
+At 5th level, a dusk knight learns to fight effectively in areas of darkness. She gains
+[Blind-Fight](ref/feat/blind-fight) as a bonus feat and [darkvision](ref/rule/darkvision) with a
+range of 60 feet. If she already has darkvision, the range increases by 30 feet instead. At 10th
+level, a dusk knight gains [Improved Blind-Fight](ref/feat/improved-blind-fight) as a bonus feat. At
+15th level, a dusk knight gains the [see in darkness](ref/umr/see-in-darkness) ability.
 
-**Shadow's Embrace (Su)**
+This ability replaces divine bond.
 
-**Ability:** She gains [Blind-Fight](ref/feat/blind-fight) as a bonus feat and
-[darkvision](ref/rule/darkvision) with a range of 60 feet. If she already has darkvision, the range
-increases by 30 feet instead.
+## Cloak of Shadow (Su) {#cloak-of-shadow}
 
-**Flavor:** A dusk knight learns to fight effectively in areas of darkness.
+At 8th level, a dusk knight becomes adept at moving through darkness. She ignores her armor penalty
+when attempting Stealth checks and gains a bonus on Stealth checks equal to half her paladin level
+while in areas of [dim light](ref/rule/vision-and-light) or darkness.
 
-**At 10th Level:** A dusk knight gains [Improved Blind-Fight](ref/feat/improved-blind-fight) as a
-bonus feat.
+This ability replaces aura of resolve.
 
-**At 15th Level:** A dusk knight gains the [see in darkness](ref/umr/see-in-darkness) ability.
+## Clouding Smite (Su) {#clouding-smite}
 
-**Gained:** At 5th Level
-
-**Replaces:** Divine bond
-
-**Cloak of Shadow (Su)**
-
-**Flavor:** A dusk knight becomes adept at moving through darkness.
-
-**Gained:** At 8th Level
-
-**Passive:** She ignores her armor penalty when attempting Stealth checks and gains a bonus on
-Stealth checks equal to half her paladin level while in areas of
-[dim light](ref/rule/vision-and-light) or darkness.
-
-**Replaces:** Aura of resolve
-
-**Clouding Smite (Su)**
-
-**Ability:** When a dusk knight successfully smites a foe, she reduces the target's
-[darkvision](ref/rule/darkvision) by 60 feet for the duration of the smite. If the target has the
-_[see in darkness](ref/carried/bestiary/rules/universal-monster-rules/see-in-darkness)_ ability, it
+At 11th level, a dusk knight's smite impairs her foe's abilities in the dark. When a dusk knight
+successfully smites a foe, she reduces the target's [darkvision](ref/rule/darkvision) by 60 feet for
+the duration of the smite. If the target has the
+[see in darkness](ref/carried/bestiary/rules/universal-monster-rules/see-in-darkness) ability, it
 must succeed at a Fortitude save or lose this ability for the duration of the smite. The save DC is
 equal to 10 + 1/2 the dusk knight's paladin level + her Charisma modifier.
 
-**Flavor:** A dusk knight's smite impairs her foe's abilities in the dark.
-
-**Gained:** At 11th Level
-
-**Replaces:** Aura of justice
+This ability replaces aura of justice.

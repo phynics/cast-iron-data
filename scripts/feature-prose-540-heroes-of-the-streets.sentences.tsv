@@ -23,6 +23,9 @@ ref/arc-hunter/urban-hunter	This ability replaces one with the wild.
 ref/arc-investigator/lamplighter	This ability alters the investigator’s class skills.
 ref/arc-investigator/lamplighter	This ability replaces poison lore, poison resistance, and poison immunity.
 ref/arc-investigator/lamplighter	This ability replaces keen recollection and trap sense.
+ref/arc-magus/eldritch-archer	This ability modifies the magus’s class skills.
+ref/arc-magus/eldritch-archer	This ability modifies the magus’s arcane pool.
+ref/arc-magus/eldritch-archer	This ability modifies spell combat.
 ref/arc-magus/eldritch-archer	This ability alters spellstrike.
 ref/arc-magus/eldritch-archer	This ability replaces counterstrike.
 ref/arc-rogue/dark-lurker	This ability replaces evasion; the dark lurker can take evasion as a rogue talent.
@@ -30,6 +33,7 @@ ref/arc-rogue/dark-lurker	This ability replaces the rogue talent gained at 2nd l
 ref/arc-rogue/dark-lurker	This ability replaces the rogue talent gained at 8th level.
 ref/arc-rogue/dark-lurker	This ability replaces the rogue talent gained at 14th level.
 ref/arc-rogue/dark-lurker	This ability replaces the rogue talent gained at 20th level.
+ref/arc-skald/urban-skald	This ability modifies the skald’s weapon and armor proficiencies.
 ref/arc-skald/urban-skald	This alters inspired rage.
 ref/arc-skald/urban-skald	This replaces song of marching and damage reduction.
 ref/arc-skald/urban-skald	This ability replaces dirge of doom.

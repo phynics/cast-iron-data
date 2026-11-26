@@ -19,7 +19,6 @@ kind = "archetype"
 features = [
   { anchor = "okayo-finesse", level = 1 },
   { anchor = "okayo-panache", level = 1 },
-  { anchor = "deeds" },
   { anchor = "ki-panache", level = 3 },
   { anchor = "slow-fall", level = 7 },
   { anchor = "high-jump", level = 11 },

@@ -17,7 +17,6 @@ page = "81"
 [fields]
 kind = "archetype"
 features = [
-  { anchor = "bardic-performance" },
   { anchor = "satire", level = 1 },
   { anchor = "mockery", level = 3 },
   { anchor = "glorious-epic", level = 8 },

@@ -17,7 +17,6 @@ page = "26"
 [fields]
 kind = "archetype"
 features = [
-  { anchor = "bardic-performance" },
   { anchor = "dance-of-the-dead", level = 10 },
   { anchor = "haunted-eyes", level = 2 },
   { anchor = "secrets-of-the-grave", level = 2 },

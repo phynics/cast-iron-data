@@ -20,7 +20,6 @@ features = [
   { anchor = "swift-target", level = 1 },
   { anchor = "nimble-toes", level = 3 },
   { anchor = "confounding-target", level = 4 },
-  { anchor = "deeds" },
   { anchor = "wall-run", level = 3 },
   { anchor = "impossible-leap", level = 7 },
   { anchor = "swift-strikes", level = 11 },
