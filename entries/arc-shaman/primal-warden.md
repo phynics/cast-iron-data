@@ -19,7 +19,7 @@ kind = "archetype"
 features = [
   { anchor = "spirit-animal" },
   { anchor = "unstable-spellcasting", level = 1 },
-  { anchor = "hexes", level = 2 },
+  { anchor = "hexes" },
   { anchor = "primal-blessing", level = 4 },
   { anchor = "greater-primal-blessing", level = 12 },
 ]

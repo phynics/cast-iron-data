@@ -18,7 +18,7 @@ page = "27"
 kind = "archetype"
 features = [
   { anchor = "toxic-secretions", level = 1 },
-  { anchor = "venom-immunity", level = 9 },
+  { anchor = "venom-immunity", level = 4 },
 ]
 trades = [
   { replaces = "Nature bond", feature = "nature-bond", by = ["toxic-secretions"] },

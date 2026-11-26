@@ -21,7 +21,7 @@ features = [
   { anchor = "spellbook" },
   { anchor = "mystic-bolts", level = 1 },
   { anchor = "piercing-bolts", level = 3 },
-  { anchor = "warlock-talents", level = 2 },
+  { anchor = "warlock-talents" },
 ]
 trades = [
   { replaces = "4th-, 8th-, 10th-, 14th-, and 16th-level vigilante talents", feature = "vigilante-talent", levels = [4, 8, 10, 14, 16], by = ["spellcasting"] },

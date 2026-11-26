@@ -20,7 +20,7 @@ features = [
   { anchor = "spells", level = 1 },
   { anchor = "psychic-meddler", level = 2 },
   { anchor = "phrenic-dabbler", level = 3 },
-  { anchor = "investigator-talents", level = 3 },
+  { anchor = "investigator-talents" },
 ]
 trades = [
   { replaces = "Alchemy", feature = "alchemy", by = ["spells"] },

@@ -20,7 +20,7 @@ features = [
   { anchor = "inspiration-for-subterfuge", level = 1 },
   { anchor = "spells", level = 1 },
   { anchor = "know-it-all", level = 2 },
-  { anchor = "restricted-talents", level = 3 },
+  { anchor = "restricted-talents" },
 ]
 trades = [
   { replaces = "Alchemy", feature = "alchemy", by = ["spells"] },

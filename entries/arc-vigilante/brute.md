@@ -20,7 +20,7 @@ features = [
   { anchor = "chaotic-vigilante", level = 1 },
   { anchor = "brutish-fortitude" },
   { anchor = "brute-form", level = 1 },
-  { anchor = "brute-talents", level = 2 },
+  { anchor = "brute-talents" },
   { anchor = "tear-them-apart", level = 20 },
 ]
 trades = [

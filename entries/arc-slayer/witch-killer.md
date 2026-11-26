@@ -18,7 +18,7 @@ page = "67"
 kind = "archetype"
 features = [
   { anchor = "studied-witch", level = 1 },
-  { anchor = "superstitious", level = 2 },
+  { anchor = "superstitious" },
   { anchor = "lingering-thrust", level = 4 },
   { anchor = "scent-magic", level = 5 },
   { anchor = "burn-the-witch", level = 10 },

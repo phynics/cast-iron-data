@@ -5470,6 +5470,37 @@ LEVEL_NONE = {
     ("ref/arc-medium/nexian-channeler", "third-eye"),
 }
 LEVEL_NONE.add(("ref/arc-bloodrager/bloody-knuckled-rowdy", "reduced-spells-known"))      # it changes the spells known, a part of spellcasting (ruling 48)
+# Ruling 57 and ruling 48 (cross-batch review): a feature that only adds options to, removes options from, or widens the choice of a pool (talents,
+# hexes, tricks, discoveries, spell lists, "in place of a talent") alters a part of the class feature, so it has no level from the trade (as Coral Witch,
+# #346); Eldritch Scion's bloodline is "selected at 1st level" while the feature it replaces is gained at 4th, so print gives it none
+LEVEL_NONE.update({
+    ("ref/arc-alchemist/crimson-chymist", "crimson-discoveries"),
+    ("ref/arc-investigator/psychic-detective", "investigator-talents"),
+    ("ref/arc-investigator/questioner", "restricted-talents"),
+    ("ref/arc-investigator/star-watcher", "investigator-talents"),
+    ("ref/arc-investigator/steel-hound", "investigator-talents"),
+    ("ref/arc-mesmerist/cult-master", "masterful-cult-tricks"),
+    ("ref/arc-rogue/phantom-thief", "broad-education"),
+    ("ref/arc-rogue/sylvan-trickster", "fey-tricks"),
+    ("ref/arc-shaman/benefactor", "benefactor-hexes"),
+    ("ref/arc-shaman/primal-warden", "hexes"),
+    ("ref/arc-slayer/spiritslayer", "spiritslayer-talents"),
+    ("ref/arc-slayer/witch-killer", "superstitious"),
+    ("ref/arc-vigilante/brute", "brute-talents"),
+    ("ref/arc-vigilante/cabalist", "cabalist-talents"),
+    ("ref/arc-vigilante/gunmaster", "gunmaster-talents"),
+    ("ref/arc-vigilante/warlock", "warlock-talents"),
+    ("ref/arc-vigilante/zealot", "zealot-talents"),
+    ("ref/arc-skald/battle-scion", "battle-prowess"),
+    ("ref/arc-kineticist/blood-kineticist", "blood-blast"),
+    ("ref/arc-magus/eldritch-scion", "bloodline"),
+})
+# Ruling 57 against a level that print states in the feature itself (ruling 51): the printed level wins
+LEVEL_FROM_PRINT.update({
+    ("ref/arc-druid/urushiol", "venom-immunity"): (4, "gains venom immunity at 4th level instead of 9th level"),
+    ("ref/arc-skald/boaster", "rage-power"): (4, "does not gain this ability until 4th level"),
+    ("ref/arc-bard/animal-speaker", "nature-s-speaker"): (5, "At 5th, 11th, and 17th level, the animal speaker selects another kind of animal friend"),
+})
 LEVEL_NONE.add(("ref/arc-sorcerer/wishcrafter", "wishbound-arcana"))      # it replaces the bloodline arcana, a part of the bloodline (ruling 48)
 # Diminished Spellcasting alters the whole spellcasting of the class, a 1st-level class feature (owner ruling 50; the corpus was split 7/7 on it)
 LEVEL_FROM_PRINT.update({(f"ref/arc-{e}", "diminished-spellcasting"): (1, "ruling 50: alters the whole spellcasting, a 1st-level class feature") for e in (

@@ -18,7 +18,7 @@ page = "48"
 kind = "archetype"
 features = [
   { anchor = "courtly-presence", level = 1 },
-  { anchor = "battle-prowess", level = 3 },
+  { anchor = "battle-prowess" },
   { anchor = "song-of-questing", level = 10 },
   { anchor = "once-and-future-scion", level = 20 },
 ]

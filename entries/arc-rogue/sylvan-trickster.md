@@ -18,7 +18,7 @@ page = "77"
 kind = "archetype"
 features = [
   { anchor = "wild-empathy", level = 1 },
-  { anchor = "fey-tricks", level = 2 },
+  { anchor = "fey-tricks" },
   { anchor = "resist-nature-s-lure", level = 4 },
   { anchor = "fey-resistance", level = 8 },
 ]

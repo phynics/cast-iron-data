@@ -17,7 +17,7 @@ page = "156"
 [fields]
 kind = "archetype"
 features = [
-  { anchor = "crimson-discoveries", level = 2 },
+  { anchor = "crimson-discoveries" },
   { anchor = "mantis-mutagen", level = 1 },
 ]
 trades = [

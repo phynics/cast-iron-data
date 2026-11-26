@@ -21,7 +21,7 @@ features = [
   { anchor = "wrack", level = 1 },
   { anchor = "bleeding-infusion", level = 5 },
   { anchor = "blood-tell", level = 6 },
-  { anchor = "blood-blast", level = 7 },
+  { anchor = "blood-blast" },
   { anchor = "blood-throw", level = 8 },
   { anchor = "gut-wrenching-infusion", level = 9 },
   { anchor = "vampiric-infusion", level = 11 },

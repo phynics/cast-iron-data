@@ -18,7 +18,7 @@ page = "103"
 kind = "archetype"
 features = [
   { anchor = "packing-heat", level = 2 },
-  { anchor = "investigator-talents", level = 3 },
+  { anchor = "investigator-talents" },
   { anchor = "shot-in-the-dark", level = 4 },
   { anchor = "talented-shot", level = 11 },
 ]
