@@ -16,11 +16,17 @@ page = "22"
 
 [fields]
 kind = "archetype"
+features = [
+  { anchor = "spell-scourge", level = 4 },
+  { anchor = "endure-torment", level = 6 },
+  { anchor = "inflict-pain", level = 7 },
+  { anchor = "ectoplasmic-swarm", level = 12 },
+]
 trades = [
-  { replaces = "Spiritual interference", feature = "spiritual-interference" },
-  { replaces = "Devotion" },
-  { replaces = "Calm spirit", feature = "calm-spirit" },
-  { replaces = "Greater spiritual interference", feature = "greater-spiritual-interference" },
+  { replaces = "Spiritual interference", feature = "spiritual-interference", by = ["spell-scourge"] },
+  { replaces = "Devotion", by = ["endure-torment"] },
+  { replaces = "Calm spirit", feature = "calm-spirit", by = ["inflict-pain"] },
+  { replaces = "Greater spiritual interference", feature = "greater-spiritual-interference", by = ["ectoplasmic-swarm"] },
 ]
 +++
 
@@ -34,56 +40,43 @@ with all around them, using the spirit's pain as a weapon. A scourge's phantom i
 wretched creature, and the torments it suffered in life are reflected in its ghostly or ectoplasmic
 appearance as wounds, scars, grotesque malformations, and tattered garments.
 
-**Spell Scourge (Su)**
+## Spell Scourge (Su) {#spell-scourge}
 
-**Ability:** When a scourge's phantom damages a creature, it causes severe pain, requiring that
+At 4th level, when a scourge's phantom damages a creature, it causes severe pain, requiring that
 creature to succeed at a [concentration](ref/rule/concentration) check (DC = 20 + spell level) to
 use spells, [spell-like abilities](ref/umr/spell-like-abilities), and other abilities that require
-concentration for 1 round.
+concentration for 1 round. The phantom gains a +2 bonus on attack and damage rolls when making
+attacks of opportunity. Any creature threatened by the scourge's phantom takes a -2 penalty on
+concentration checks.
 
-**Gained:** At 4th Level
+This ability replaces spiritual interference.
 
-**Passive:** The phantom gains a +2 bonus on attack and damage rolls when making attacks of
-opportunity. Any creature threatened by the scourge's phantom takes a -2 penalty on concentration
-checks.
+## Endure Torment (Ex) {#endure-torment}
 
-**Replaces:** Spiritual interference
-
-**Endure Torment (Ex)**
-
-**Gained:** At 6th Level
-
-**Passive:** A scourge's phantom gains immunity to pain effects and gains a +4 bonus on saving
+At 6th level, a scourge's phantom gains immunity to pain effects and gains a +4 bonus on saving
 throws against effects that could cause it to become [staggered](ref/misc/staggered) or
 [stunned](ref/misc/stunned).
 
-**Replaces:** Devotion
+This ability replaces devotion.
 
-**Inflict Pain (Sp)**
+## Inflict Pain (Sp) {#inflict-pain}
 
-**Ability:** A scourge can use [inflict pain](ref/spell/inflict-pain) as a
-[spell-like ability](ref/umr/spell-like-abilities). If her phantom is fully manifested, it can also
-use this ability, though doing so takes the phantom a **full-round action**, and it still counts
-against the scourge's daily uses of this ability.
+At 7th level, a scourge can use _[inflict pain](ref/spell/inflict-pain)_ as a
+[spell-like ability](ref/umr/spell-like-abilities) once per day, plus one additional use per day for
+every 4 spiritualist levels beyond 7th. If her phantom is fully manifested, it can also use this
+ability, though doing so takes the phantom a full-round action, and it still counts against the
+scourge's daily uses of this ability.
 
-**Gained:** At 7th Level
+This ability replaces calm spirit.
 
-**Replaces:** Calm spirit
+## Ectoplasmic Swarm (Su) {#ectoplasmic-swarm}
 
-**Usage:** 1 time/day + 1 per 4 spiritualist levels beyond 7th
+At 12th level, as a standard action, a scourge with a phantom manifested in ectoplasmic form can
+command it to break apart in a gruesome display of gore and agony, transforming it into a
+[swarm](ref/subtype/swarm) of Diminutive ectoplasmic organs and viscera. The phantom gains the swarm
+subtype, dealing its unmodified slam damage die as damage for its swarm attack. Its distraction DC
+is equal to 10 + 1/2 the phantom's Hit Dice + its Constitution modifier. In this form, the phantom
+is too diffuse to use _[inflict pain](ref/spell/inflict-pain)_ or any of its abilities from
+emotional focus (even passive abilities).
 
-**Ectoplasmic Swarm (Su)**
-
-**Gained:** At 12th Level
-
-**Replaces:** Greater spiritual interference
-
-**Special:** In this form, the phantom is too diffuse to use
-_[inflict pain](ref/spell/inflict-pain)_ or any of its abilities from emotional focus (even passive
-abilities).
-
-**Standard:** A scourge with a phantom manifested in ectoplasmic form can command it to break apart
-in a gruesome display of gore and agony, transforming it into a swarm of Diminutive ectoplasmic
-organs and viscera. The phantom gains the [swarm](ref/subtype/swarm) subtype, dealing its unmodified
-slam damage die as damage for its swarm attack. Its distraction DC is equal to 10 + 1/2 the
-phantom's Hit Dice + its Constitution modifier.
+This ability replaces greater spiritual interference.

@@ -16,9 +16,13 @@ page = "14"
 
 [fields]
 kind = "archetype"
+features = [
+  { anchor = "invoke-patron", level = 1 },
+  { anchor = "second-invocation", level = 10 },
+]
 trades = [
-  { replaces = "1st-, 8th- and 16th-level hexes", feature = "hex", levels = [1, 8, 16] },
-  { replaces = "10th-level hex", feature = "hex", levels = [10] },
+  { replaces = "1st-, 8th- and 16th-level hexes", feature = "hex", levels = [1, 8, 16], by = ["invoke-patron"] },
+  { replaces = "10th-level hex", feature = "hex", levels = [10], by = ["second-invocation"] },
 ]
 +++
 
@@ -27,112 +31,76 @@ enhancing her skills and granting her powerful abilities. Whether these spiritua
 from a single entity or a host of spiritual forces associated with the witch's patron can vary, and
 in many cases, a particular invoker never learns the truth of this matter.
 
-**Invoke Patron (Su)**
+## Invoke Patron (Su) {#invoke-patron}
 
-**Gained:** At 1st Level
+At 1st level, an invoker can invite spirits associated with her patron's themes into her body and
+mind as a swift action. This functions like a hunter's [animal focus](ref/ability/animal-foci),
+except she emulates facets of her patron, chosen from the list below. The invoker can use this
+ability for a number of minutes per day equal to her level; this duration need not be consecutive,
+but it must be spent in 1-minute increments.
 
-**Replaces:** 1st-, 8th- and 16th-level hexes
+This replaces the witch's 1st-, 8th-, and 16th-level hexes.
 
-**Swift:** An invoker can invite spirits associated with her patron's themes into her body and mind.
-This functions like a hunter's [animal focus](ref/ability/animal-foci), except she emulates facets
-of her patron, chosen from the list below.
+### Bondage {#bondage}
 
-**Usage:** 1 minute/day per witch level; these minutes need not be consecutive, but must be spent in
-1-minute increments
+The invoker gains a +2 enhancement bonus to her Strength. This bonus increases to +4 at 8th level
+and +6 at 16th level.
 
-**Bondage**
+### Bridge {#bridge}
 
-**At 16th Level:** This bonus increases to +6.
+The invoker treats other creatures as if their [damage reduction](ref/rule/damage-reduction) and
+[spell resistance](ref/rule/spell-resistance) were 2 lower. This increases to 5 lower at 8th level
+and 10 lower at 16th level.
 
-**At 8th Level:** This bonus increases to +4.
+### Crisis {#crisis}
 
-**Passive:** The invoker gains a +2 enhancement bonus to her Strength.
+The invoker gains a +2 enhancement bonus to her Constitution. This bonus increases to +4 at 8th
+level and +6 at 16th level.
 
-**Bridge**
+### Curiosity {#curiosity}
 
-**At 16th Level:** DR and SR are now 10 lower.
+The DCs of the invoker's hexes and patron spells increase by 1. These DCs increase by an additional
+1 at 8th level and 16th level.
 
-**At 8th Level:** DR and SR are now 5 lower.
+### Decisions {#decisions}
 
-**Passive:** The invoker treats other creatures as if their
-[damage reduction](ref/rule/damage-reduction) and [spell resistance](ref/rule/spell-resistance) were
-2 lower.
+The invoker gains a +2 enhancement bonus to Dexterity. This bonus increases to +4 at 8th level and
++6 at 16th level.
 
-**Crisis**
+### Fortune {#fortune}
 
-**At 16th Level:** This bonus increases to +6.
+The invoker gains a +1 resistance bonus on saving throws. This bonus increases to +3 at 8th level
+and +5 at 16th level.
 
-**At 8th Level:** This bonus increases to +4.
+### Paradise {#paradise}
 
-**Passive:** The invoker gains a +2 enhancement bonus to her Constitution.
+The invoker gains a +3 competence bonus on Acrobatics checks and
+[concentration](ref/rule/concentration) checks. This bonus increases to +6 at 8th level and +9 at
+16th level.
 
-**Curiosity**
+### Rapture {#rapture}
 
-**At 16th Level:** The DCs now increase by 3.
+The invoker can increase the duration of any spell she casts on herself by 1 round. This applies
+only to spells with a duration other than instantaneous. This increases to 2 rounds at 8th level and
+3 rounds at 16th level.
 
-**At 8th Level:** The DCs now increase by 2.
+### Reckoning {#reckoning}
 
-**Passive:** The DCs of the invoker's hexes and patron spells increase by 1.
+The invoker adds an insight bonus on damage rolls from attacks made with spells and natural attacks,
+gaining 1 point of damage per die rolled. At 8th level, the invoker gains a +4 bonus to confirm
+critical hits threatened with spells and natural attacks. At 16th level, the critical threat range
+of the invoker's spells and natural attacks doubles, as if from
+[Improved Critical](ref/feat/improved-critical).
 
-**Decisions**
+### Revelation {#revelation}
 
-**At 16th Level:** This bonus increases to +6.
+The invoker gains a +1 insight bonus on attack rolls made with weapons. This bonus increases to +2
+at 8th level and +3 at 16th level.
 
-**At 8th Level:** This bonus increases to +4.
+## Second Invocation (Su) {#second-invocation}
 
-**Passive:** The invoker gains a +2 enhancement bonus to Dexterity.
+At 10th level, whenever an invoker uses her invoke patron ability, she selects two different facets
+of her patron for herself instead of one. Otherwise, this functions like a hunter's second animal
+focus ability.
 
-**Fortune**
-
-**At 16th Level:** This bonus increases to +5.
-
-**At 8th Level:** This bonus increases to +3.
-
-**Passive:** The invoker gains a +1 resistance bonus on saving throws.
-
-**Paradise**
-
-**At 16th Level:** This bonus increases to +9.
-
-**At 8th Level:** This bonus increases to +6.
-
-**Passive:** The invoker gains a +3 competence bonus on Acrobatics checks and
-[concentration](ref/rule/concentration) checks.
-
-**Rapture**
-
-**At 16th Level:** This increases to 3 rounds.
-
-**At 8th Level:** This increases to 2 rounds.
-
-**Passive:** The invoker can increase the duration of any spell she casts on herself by 1 round.
-This applies only to spells with a duration other than instantaneous.
-
-**Reckoning**
-
-**At 16th Level:** The critical threat range of the invoker's spells and natural attacks doubles, as
-if from [Improved Critical](ref/feat/improved-critical).
-
-**At 8th Level:** The invoker gains a +4 bonus to confirm critical hits threatened with spells and
-natural attacks.
-
-**Passive:** The invoker adds an insight bonus on damage rolls from attacks made with spells and
-natural attacks, gaining 1 point of damage per die rolled.
-
-**Revelation**
-
-**At 16th Level:** This bonus increases to +3.
-
-**At 8th Level:** This bonus increases to +2.
-
-**Passive:** The invoker gains a +1 insight bonus on attack rolls made with weapons.
-
-**Second Invocation (Su)**
-
-**Ability:** Whenever an invoker uses her _invoke patron_ ability, she selects two different facets
-of her patron for herself instead of one. Otherwise, this functions like a hunter's _second animal
-focus_ ability.
-
-**Gained:** At 10th Level
-
-**Replaces:** 10th-level hex
+This ability replaces the witch's 10th-level hex.
