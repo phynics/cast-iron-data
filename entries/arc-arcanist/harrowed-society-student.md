@@ -16,92 +16,77 @@ page = "22"
 
 [fields]
 kind = "archetype"
+features = [
+  { anchor = "psychic-reader", level = 1 },
+  { anchor = "harrow-reservoir", level = 1 },
+  { anchor = "divine-the-mysteries", level = 5 },
+  { anchor = "trump-card", level = 9 },
+]
 trades = [
-  { replaces = "The 1st-level arcanist exploit", feature = "arcanist-exploits", levels = [1] },
-  { replaces = "Consume spells", feature = "consume-spells" },
-  { replaces = "The 9th-level arcanist exploit", feature = "arcanist-exploits", levels = [9] },
+  { replaces = "The 1st-level arcanist exploit", feature = "arcanist-exploits", levels = [1], by = ["psychic-reader"] },
+  { replaces = "Consume spells", feature = "consume-spells", by = ["harrow-reservoir"] },
+  { replaces = "The 9th-level arcanist exploit", feature = "arcanist-exploits", levels = [9], by = ["trump-card"] },
 ]
 +++
 
 Based out of Varisia's Twilight Academy, the secretive Harrowed Society focuses its efforts on the
 intellectual study of the region's supernatural quirks and hidden history, and embraces the use of
-the [harrow deck](ref/eq-misc/harrow-deck) to examine the world's occult mysteries.
+the [harrow deck](ref/eq-misc/harrow-deck) to examine the world's occult mysteries. (This archetype
+is intended for use with the _Pathfinder Cards: Deluxe Harrow Deck_. If you don't have access to
+that product, roll 1d6 to determine a drawn card's suit: 1 = hammers, 2 = keys, 3 = shields, 4 =
+books, 5 = stars, and 6 = crowns.)
 
-This archetype is intended for use with the Pathfinder Cards: Deluxe Harrow Deck. If you don't have
-access to that product, use the table presented at the bottom of the _harrow deck_ item page.
+## Psychic Reader (Ex) {#psychic-reader}
 
-**Psychic Reader (Ex)**
+A Harrowed Society student gains [Psychic Sensitivity](ref/feat/psychic-sensitivity) as a bonus feat
+and adds [Diplomacy](ref/skill/diplomacy), [Perception](ref/skill/perception), and
+[Sense Motive](ref/skill/sense-motive) to her list of class skills. This ability replaces the
+1st-level arcanist exploit.
 
-**Gained:** At 1st Level
+## Harrow Reservoir (Ex) {#harrow-reservoir}
 
-**Passive:** A Harrowed Society student gains [Psychic Sensitivity](ref/feat/psychic-sensitivity) as
-a bonus feat and adds [Diplomacy](ref/skill/diplomacy) (CHA), [Perception](ref/skill/perception)
-(WIS), and [Sense Motive](ref/skill/sense-motive) (WIS) to her list of class skills.
+Once per day, a Harrowed Society student can perform a harrow reading as a 5-minute ritual. She
+decides which suit most closely aligns with her task at hand and deals a nine-card spread. Each time
+that suit appears in her spread, she adds 1 point to her arcane reservoir, to a maximum of 1 point
+per 2 arcanist levels. Points gained in excess of her reservoir's maximum are lost. The Harrowed
+Society student can perform this reading one additional time per day at 8th level and at 16th level.
+This ability replaces consume spells.
 
-**Replaces:** The 1st-level arcanist exploit
+## Divine the Mysteries (Ex) {#divine-the-mysteries}
 
-**Harrow Reservoir (Ex)**
+At 5th level and every 2 levels thereafter, a Harrowed Society student can select a divination spell
+from the spell list of any class, including classes that cast divine or psychic spells, and add it
+to her list of spells known. This spell must be at least 1 level lower than the highest-level spell
+she can cast. She casts these spells as arcane spells, using her normal spell slots, but must use a
+harrow deck as an additional focus component.
 
-**Ability:** Once per day, a Harrowed Society student can perform a harrow reading as a 5-minute
-ritual. She decides which suit most closely aligns with her task at hand and deals a nine-card
-spread. Each time that suit appears in her spread, she adds 1 point to her arcane reservoir, to a
-maximum of 1 point per 2 arcanist levels. Points gained in excess of her reservoir's maximum are
-lost.
+If such a spell is normally a psychic spell with an emotion or thought component, she must also add
+that component.
 
-**At 16th Level:** This can be done three times a day.
+## Trump Card (Su) {#trump-card}
 
-**At 8th Level:** This can be done twice a day.
+At 9th level, a Harrowed Society student can expend 1 point from her arcane reservoir and draw a
+card from her harrow deck as a standard action to learn her own fate or that of an ally within 30
+feet. The target's fate depends on the suit of the card drawn from the deck.
 
-**Gained:** At 1st Level
+_Books_: The target gains a +2 insight bonus on her next caster level check.
 
-**Replaces:** Consume spells
+_Crowns_: The target gains a +2 insight bonus on her next saving throw.
 
-**Divine the Mysteries (Ex)**
+_Hammers_: The target gains a +4 insight bonus on the damage roll of her next successful melee
+attack.
 
-**Ability:** A Harrowed Society student can select a divination spell from the spell list of any
-class, including classes that cast divine or psychic spells, and add it to her list of spells known.
-This spell must be at least 1 level lower than the highest-level spell she can cast.
+_Keys_: The target gains a +4 insight bonus on her next initiative check.
 
-**Gained:** At 5th Level
+_Shields_: The next time the target receives magical healing, she regains an additional number of
+hit points equal to the Harrowed Society student's arcanist class level.
 
-**Special:** At every odd-numbered level beyond 5th (7th, 9th, 11th, and so on), a Harrowed Society
-student can select a new divination spell, following the same restrictions as above. She casts these
-spells as arcane spells, using her normal spell slots, but must use a harrow deck as an additional
-focus component. If such a spell is normally a psychic spell with an emotion or thought component,
-she must also add that component.
-
-**Trump Card (Su)**
-
-**Action:** Standard Action
-
-**Gained:** At 9th Level
-
-**Replaces:** The 9th-level arcanist exploit
-
-A Harrowed Society student can expend 1 point from her arcane reservoir and draw a card from her
-harrow deck to learn her own fate or that of an ally within 30 feet. The target's fate depends on
-the suit of the card drawn from the deck.
-
-> **Books:** The target gains a +2 insight bonus on her next caster level check.
->
-> **Crowns:** The target gains a +2 insight bonus on her next saving throw.
->
-> **Hammers:** The target gains a +4 insight bonus on the damage roll of her next successful melee
-> attack.
->
-> **Keys:** The target gains a +4 insight bonus on her next initiative check.
->
-> **Shields:** The next time the target receives magical healing, she regains an additional number
-> of hit points equal to the Harrowed Society student's arcanist class level.
->
-> **Stars:** The target gains a +4 insight bonus on her next skill check.
+_Stars_: The target gains a +4 insight bonus on her next skill check.
 
 A creature cannot have more than one trump card in effect at one time; drawing a new trump card for
-a target negates the effect of the previous trump card.
-
-A Harrow Society student can attempt to read the fate of an enemy within 30 feet, resulting in a
-penalty for that target equal to the bonus granted above, but the target is entitled to a Will save
-(DC = 10 + [half](ref/misc/fractions-and-rounding) the Harrowed Society student's arcanist level +
-her Charisma modifier) to negate the effect. This is considered a curse effect.
-
-A Harrow Society student can have trump cards in effect for multiple creatures at the same time.
+a target negates the effect of the previous trump card. A Harrow Society student can attempt to read
+the fate of an enemy within 30 feet, resulting in a penalty for that target equal to the bonus
+granted above, but the target is entitled to a Will save (DC = 10 + 1/2 the Harrowed Society
+student's arcanist level + her Charisma modifier) to negate the effect. This is considered a curse
+effect. A Harrow Society student can have trump cards in effect for multiple creatures at the same
+time. This ability replaces the 9th-level arcanist exploit.

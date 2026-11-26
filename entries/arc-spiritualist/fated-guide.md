@@ -16,85 +16,87 @@ page = "18"
 
 [fields]
 kind = "archetype"
+features = [
+  { anchor = "shepherd-to-the-dead" },
+  { anchor = "phantom" },
+  { anchor = "divine-purpose" },
+  { anchor = "thanatopic-bonded-manifestation", level = 3 },
+  { anchor = "iron-bond", level = 9 },
+  { anchor = "undeniable-bond", level = 16 },
+]
 trades = [
-  { replaces = "Phantom's antagonistic ability" },
-  { replaces = "See invisibility", feature = "see-invisibility" },
-  { replaces = "Call spirit", feature = "call-spirit" },
-  { alters = "Bonded manifestation", feature = "bonded-manifestation" },
+  { replaces = "Phantom's antagonistic ability", by = ["divine-purpose"] },
+  { replaces = "See invisibility", feature = "see-invisibility", by = ["iron-bond"] },
+  { replaces = "Call spirit", feature = "call-spirit", by = ["undeniable-bond"] },
+  { alters = "Bonded manifestation", feature = "bonded-manifestation", by = ["thanatopic-bonded-manifestation"] },
 ]
 +++
 
 Not all phantoms are restless dead escaping the afterlife. On rare occasions,
-[Pharasma](ref/faith/pharasma) returns a judged soul to the Material Plane - linking the spirit to a
-devout believer - to complete some final task, make amends for a crime, or grant a sharply divided
+[Pharasma](ref/faith/pharasma) returns a judged soul to the Material Plane—linking the spirit to a
+devout believer—to complete some final task, make amends for a crime, or grant a sharply divided
 soul a second chance. Sadly, from a soul's perspective, the journey along the River of Souls and its
 trials in the Boneyard last eons, and most phantoms return with little, if any, idea of who they
 were or the nature of their dedicated purposes. The fated guide helps her phantom uncover details
 about its life and what it can do to finally move on.
 
-**Prerequisites:** Phantom must have the [remorse](ref/emotionalfocus/remorse) emotional focus
+## Shepherd to the Dead {#shepherd-to-the-dead}
 
-**Shepherd to the Dead**
+A fated guide adds _[disrupt undead](ref/spell/disrupt-undead)_ and
+_[sanctify corpse](ref/spell/sanctify-corpse)_ to her list of spells known.
 
-**Info:** A fated guide adds [disrupt undead](ref/spell/disrupt-undead) and
-[sanctify corpse](ref/spell/sanctify-corpse) to her list of spells known.
+## Phantom {#phantom}
 
-**Divine Purpose**
+A phantom who bonds with a fated guide must have the [remorse](ref/emotionalfocus/remorse) emotional
+focus (see page 19).
 
-**Ability:** A fated guide's phantom gains [Deific Obedience](ref/feat/deific-obedience) as a bonus
-feat, though the spiritualist must obey her god's obedience to gain any benefit.
+## Divine Purpose {#divine-purpose}
 
-**Replaces:** Phantom's antagonistic ability
+A fated guide's phantom gains [Deific Obedience](ref/feat/deific-obedience) as a bonus feat, though
+the spiritualist must obey her god's obedience to gain any benefit. This replaces the phantom's
+antagonistic ability.
 
-**Thanatopic Bonded Manifestation (Su)**
+## Thanatopic Bonded Manifestation (Su) {#thanatopic-bonded-manifestation}
 
-**Ability:** When the fated guide uses this _thanatopic bond,_ she gains access to the benefits of
-her phantom's Deific Obedience feat, and can use [speak with dead](ref/spell/speak-with-dead) as per
-the spell, asking a maximum of one question per spiritualist level she has each day, and no more
-than one question per corpse; asking a question and getting an answer requires 2 full rounds.
+At 3rd level, a fated guide can bond with her phantom to channel the influence of Pharasma and her
+servitors. When a spiritualist gains this ability, she must replace her ability to form either an
+ectoplasmic bonded manifestation or an incorporeal bonded manifestation.
 
-**Alters:** Bonded manifestation
+When the fated guide uses this thanatopic bond, she gains access to the benefits of her phantom's
+Deific Obedience feat, and can use _[speak with dead](ref/spell/speak-with-dead)_ as per the spell,
+asking a maximum of one question per spiritualist level she has each day, and no more than one
+question per corpse; asking a question and getting an answer requires 2 full rounds.
 
-**Choice:** When a spiritualist gains this ability, she must replace her ability to form either an
-ectoplasmic _bonded manifestation_ or an incorporeal _bonded manifestation._
+At 8th level, the fated guide can act normally even after being reduced below 0 hit points.
 
-**Flavor:** A fated guide can bond with her phantom to channel the influence of Pharasma and her
-servitors.
+The spiritualist immediately dies if reduced to a number of negative hit points equal to her
+Constitution score. She takes 1 extra point of damage each round she performs a strenuous action,
+such as attacking or casting a spell, and immediately falls unconscious and begins dying if she
+dismisses the thanatopic bond or the duration of bonded manifestation expires. Maintaining her
+nearly dead form is taxing, and each round that she remains active below 0 hit points consumes 2
+rounds of bonded manifestation's duration.
 
-**At 13th Level:** While using her _thanatopic bonded manifestation,_ the fated guide can cast
-[antilife shell](ref/spell/antilife-shell) as a [spell-like ability](ref/umr/spell-like-abilities).
-Maintaining this spell quickly exhausts her phantom, and each round she maintains the spell consumes
-2 rounds of bonded manifestation's duration.
+At 13th level, while using her thanatopic bonded manifestation, the fated guide can cast
+_[antilife shell](ref/spell/antilife-shell)_ as a
+[spell-like ability](ref/umr/spell-like-abilities). Maintaining this spell quickly exhausts her
+phantom, and each round she maintains the spell consumes 2 rounds of bonded manifestation's
+duration.
 
-**At 18th Level:** The fated guide's touch banishes the unquiet dead. She can deal 10d6 points of
+At 18th level, the fated guide's touch banishes the unquiet dead. She can deal 10d6 points of
 positive energy damage (Will half; DC = 10 + 1/2 the fated guide's spiritualist level + her Wisdom
 modifier) as a touch attack against undead creatures. An undead creature that successfully saves
 against this touch attack is immune to the same fated guide's positive energy touch for 24 hours.
 
-**At 8th Level:** The fated guide can act normally even after being reduced below 0 hit points. The
-spiritualist immediately dies if reduced to a number of negative hit points equal to her
-Constitution score. She takes 1 extra point of damage each round she performs a strenuous action,
-such as attacking or casting a spell, and immediately falls unconscious and begins dying if she
-dismisses the _thanatopic bond_ or the duration of _bonded manifestation_ expires. Maintaining her
-nearly dead form is taxing, and each round that she remains active below 0 hit points consumes 2
-rounds of bonded manifestation's duration.
+This ability modifies bonded manifestation.
 
-**Gained:** At 3rd Level
+## Iron Bond (Ex) {#iron-bond}
 
-**Iron Bond (Ex)**
+When the fated guide reaches 9th level, her phantom gains a +4 bonus on saving throws against
+[banishment](ref/spell/banishment), [dismissal](ref/spell/dismissal), or other similar effects. This
+ability replaces the _see invisibility_ ability.
 
-**Gained:** At 9th Level
+## Undeniable Bond (Ex) {#undeniable-bond}
 
-**Passive:** Her phantom gains a +4 bonus on saving throws against
-[banishment](ref/spell/banishment), [dismissal](ref/spell/dismissal), or other similar effects.
-
-**Replaces:** See invisibility
-
-**Undeniable Bond (Ex)**
-
-**Gained:** At 16th Level
-
-**Passive:** Her phantom gains an additional +4 bonus on saving throws against _banishment,
-dismissal,_ or other similar effects, for a total of +8.
-
-**Replaces:** Call spirit
+When the fated guide reaches 16th level, her phantom gains an additional +4 bonus on saving throws
+against banishment, dismissal, or other similar effects, for a total of +8. This ability replaces
+the _call spirit_ ability.

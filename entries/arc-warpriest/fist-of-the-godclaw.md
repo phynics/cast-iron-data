@@ -16,67 +16,69 @@ page = "12"
 
 [fields]
 kind = "archetype"
+features = [
+  { anchor = "deities" },
+  { anchor = "blessings-of-the-godclaw", level = 1 },
+  { anchor = "detect-chaos", level = 3 },
+  { anchor = "alignment-channel", level = 6 },
+  { anchor = "aspect-of-law", level = 20 },
+]
 trades = [
-  { replaces = "Bonus feat gained at 3rd level", feature = "bonus-feats", levels = [3] },
-  { replaces = "Bonus feats gained at 6th level and 12th level", feature = "bonus-feats", levels = [6, 12] },
-  { replaces = "Aspect of war", feature = "aspect-of-war" },
-  { alters = "Blessings", feature = "blessings" },
+  { replaces = "Bonus feat gained at 3rd level", feature = "bonus-feats", levels = [3], by = ["detect-chaos"] },
+  { replaces = "Bonus feats gained at 6th level and 12th level", feature = "bonus-feats", levels = [6, 12], by = ["alignment-channel"] },
+  { replaces = "Aspect of war", feature = "aspect-of-war", by = ["aspect-of-law"] },
+  { alters = "Blessings", feature = "blessings", by = ["blessings-of-the-godclaw"] },
+  { alters = "Alignment restriction" },
 ]
 +++
 
 Devoted to the divine control of law above all else, these zealots seek to establish absolute order.
 Disciplined and precise, they lead their allies against the chaotic hordes.
 
-**Prerequisites:** Must be of a lawful alignment (in addition to the normal alignment restrictions).
+## Alignment {#alignment}
 
-**Deity**
+A fist of the Godclaw must be of a lawful alignment.
 
-**Info:** A fist of the Godclaw must worship [Abadar](ref/faith/abadar),
-[Asmodeus](ref/faith/asmodeus), [Iomedae](ref/faith/iomedae), [Irori](ref/faith/irori), or
-[Torag](ref/faith/torag). Alternatively, the fist of the Godclaw must venerate the pantheon of these
-deities known as the Godclaw.
+This alters the warpriest's alignment restriction.
 
-**Blessings of the Godclaw (Ex)**
+## Deities {#deities}
 
-**Alters:** Blessings
+A fist of the Godclaw must worship [Abadar](ref/faith/abadar), [Asmodeus](ref/faith/asmodeus),
+[Iomedae](ref/faith/iomedae), [Irori](ref/faith/irori), or [Torag](ref/faith/torag). Alternatively,
+the fist of the Godclaw must venerate the pantheon of these deities known as the Godclaw.
 
-**Info:** A fist of the Godclaw must select the [Law](ref/blessing/law) blessing and the
-[Godclaw](ref/blessing/godclaw) blessing.
+## Blessings of the Godclaw (Ex) {#blessings-of-the-godclaw}
 
-**Detect Chaos (Sp)**
+A fist of the [Godclaw](ref/blessing/godclaw) must select the [Law](ref/blessing/law) blessing and
+the Godclaw blessing (see below).
 
-**Ability:** A fist of the Godclaw can cast [detect chaos](ref/spell/detect-chaos) three times per
-day as a [spell-like ability](ref/umr/spell-like-abilities), using his warpriest level as his caster
-level. If the fist of the Godclaw already has, or later gains, the ability to cast
-_[detect chaos](ref/spell/detect-chaos),_ then he can cast _[detect chaos](ref/spell/detect-chaos)_
+This alters blessings.
+
+## Detect Chaos (Sp) {#detect-chaos}
+
+At 3rd level, a fist of the Godclaw can cast _[detect chaos](ref/spell/detect-chaos)_ three times
+per day as a [spell-like ability](ref/umr/spell-like-abilities), using his warpriest level as his
+caster level. If the fist of the Godclaw already has, or later gains, the ability to cast
+_[detect chaos](ref/spell/detect-chaos)_, then he can cast _[detect chaos](ref/spell/detect-chaos)_
 at will as a spell-like ability.
 
-**Gained:** At 3rd Level
+This replaces the bonus feat gained at 3rd level.
 
-**Replaces:** Bonus feat gained at 3rd level
+## Alignment Channel (Su) {#alignment-channel}
 
-**Alignment Channel (Su)**
+At 6th level, a fist of the Godclaw gains [Alignment Channel](ref/feat/alignment-channel) as a bonus
+feat. When he uses this feat and spends fervor to channel energy, he can harm only outsiders with
+the chaotic subtype. Additionally, when using this feat, he expends only one use of his fervor to
+channel energy and deals 1d6 points of damage for every 2 warpriest levels he has. At 12th level, a
+fist of the Godclaw can expend an additional use of fervor to channel energy as a move action.
 
-**Ability:** A fist of the Godclaw gains [Alignment Channel](ref/feat/alignment-channel) as a bonus
-feat. When he uses this feat and spends _fervor_ to _channel energy,_ he can harm only outsiders
-with the chaotic subtype. Additionally, when using this feat, he expends only one use of his
-_fervor_ to _channel energy_ and deals 1d6 points of damage for every 2 warpriest levels he has.
+This replaces the bonus feats gained at 6th level and 12th level.
 
-**At 12th Level:** A fist of the Godclaw can expend an additional use of _fervor_ to _channel
-energy_ as a **move action**.
+## Aspect of Law (Ex) {#aspect-of-law}
 
-**Gained:** At 6th Level
-
-**Replaces:** Bonus feats gained at 6th level and 12th level
-
-**Aspect of Law (Ex)**
-
-**Flavor:** A fist of the Godclaw can channel an aspect of law, growing even more inflexible.
-
-**Gained:** At 20th Level
-
-**Replaces:** Aspect of war
-
-**Swift:** Once per day, a warpriest can treat his level as his base attack bonus, gains DR
+At 20th level, a fist of the Godclaw can channel an aspect of law, growing even more inflexible.
+Once per day as a swift action, a warpriest can treat his level as his base attack bonus, gains DR
 20/chaotic, and becomes immune to mind-affecting effects. In addition, he can take the average
 result on any die roll instead of rolling normally. This ability lasts for 1 minute.
+
+This replaces aspect of war.

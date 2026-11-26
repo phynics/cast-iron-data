@@ -16,12 +16,20 @@ page = "16"
 
 [fields]
 kind = "archetype"
+features = [
+  { anchor = "hagbound" },
+  { anchor = "hag-s-claws", level = 1 },
+  { anchor = "hunched-muscle", level = 2 },
+  { anchor = "vain-glamour", level = 4 },
+  { anchor = "vile-curse", level = 10 },
+  { anchor = "hag-transformation", level = 20 },
+]
 trades = [
-  { replaces = "1st-level hex", feature = "hex", levels = [1] },
-  { replaces = "2nd-, 8th-, and 14th-level hexes", feature = "hex", levels = [2, 8, 14] },
-  { replaces = "4th- and 12th-level hexes", feature = "hex", levels = [4, 12] },
-  { replaces = "10th-level hex", feature = "hex", levels = [10] },
-  { replaces = "20th-level hex", feature = "hex", levels = [20] },
+  { replaces = "Hex gained at 1st level", feature = "hex", levels = [1], by = ["hag-s-claws"] },
+  { replaces = "The hexes gained at 2nd, 8th, and 14th levels", feature = "hex", levels = [2, 8, 14], by = ["hunched-muscle"] },
+  { replaces = "The hexes gained at 4th and 12th levels", feature = "hex", levels = [4, 12], by = ["vain-glamour"] },
+  { replaces = "Hex gained at 10th level", feature = "hex", levels = [10], by = ["vile-curse"] },
+  { replaces = "Hex gained at 20th level", feature = "hex", levels = [20], by = ["hag-transformation"] },
 ]
 +++
 
@@ -30,81 +38,61 @@ witch cursed by a hag to become her instrument of torment, a vain and petty witc
 power, or some other unfortunate soul, a hagbound witch finds its soul has been infected by a hag's
 spite and powerful, corrupt arcane magic. Her mind and body begin to transform to reflect her new
 being. Hagbound witches suffer a slow transformative taint that is similar to the
-[accursed corruption](ref/rule/accursed) and make ideal candidates for this additional power - and
+[accursed corruption](ref/rule/accursed) and make ideal candidates for this additional power—and
 tragedy.
 
-**Prerequisites:** Must be a 1st-level witch with no other class levels
+## Hagbound {#hagbound}
 
-**Hagbound**
-
-**Info:** The witch must select one of the following patrons: [Deception](ref/patron/deception),
-[Jynx](ref/patron/jynx), [Moon](ref/patron/moon), [Occult](ref/patron/occult),
+A hagbound can take this archetype only if her first character level is a witch level, and she must
+select one of the following patrons: [Deception](ref/patron/deception), [Jynx](ref/patron/jynx) (see
+Witch Patron Themes on page 17), [Moon](ref/patron/moon), [Occult](ref/patron/occult),
 [Plague](ref/patron/plague), [Shadow](ref/patron/shadow), [Strength](ref/patron/strength),
-[Vengeance](ref/patron/vengeance), or [Winter](ref/patron/winter).
+[Vengeance](ref/patron/vengeance), or [Winter](ref/patron/winter). She can escape her inevitable
+fate only by removing the hag's hold on her soul, typically with _[miracle](ref/spell/miracle)_ or
+an effect of similar power. Until then, she can't take levels in any class other than witch and her
+alignment can never become good. Removing the hag's hold causes her to lose this archetype and
+become a normal witch.
 
-**Special:** She can escape her inevitable fate only by removing the hag's hold on her soul,
-typically with [miracle](ref/spell/miracle) or an effect of similar power. Until then, she can't
-take levels in any class other than witch and her alignment can never become good. Removing the
-hag's hold causes her to lose this archetype and become a normal witch.
+## Hag's Claws (Ex) {#hag-s-claws}
 
-**Hag's Claws (Ex)**
+A hagbound's hands grow into a pair of [hideous claws](ref/umr/natural-attacks) that deal 1d4 points
+of damage for a Medium hagbound (1d3 for a Small creature).
 
-**Ability:** A hagbound's hands grow into a pair of [hideous claws](ref/umr/natural-attacks) that
-deal 1d4 points of damage for a Medium hagbound (1d3 for a Small creature).
+This replaces the hex gained at 1st level.
 
-**Replaces:** 1st-level hex
+## Hunched Muscle (Ex) {#hunched-muscle}
 
-**Hunched Muscle (Ex)**
+At 2nd level, warty growths and knobby muscles twist the hagbound's body. She gains a +2 size bonus
+to her Strength score. This bonus increases by 2 at 8th level and 14th level, to a maximum of +6.
 
-**Gained:** At 2nd Level
+This replaces the hexes gained at 2nd, 8th, and 14th levels.
 
-**Passive:** Warty growths and knobby muscles twist the hagbound's body. She gains a +2 size bonus
-to her Strength score.
+## Vain Glamour (Sp) {#vain-glamour}
 
-**Replaces:** 2nd-, 8th-, and 14th-level hexes
-
-At 8th level: This bonus increases to +4.
-
-At 14th level: This bonus increases to +6.
-
-**Vain Glamour (Sp)**
-
-**Ability:** The hagbound gains the ability to disguise her hideous form behind various pleasing
+At 4th level, the hagbound gains the ability to disguise her hideous form behind various pleasing
 shapes. This allows her to magically disguise herself at will, as per
-[disguise self](ref/spell/disguise-self).
+_[disguise self](ref/spell/disguise-self)_. At 12th level, she can transform herself at will rather
+than spin illusions, as per _[alter self](ref/spell/alter-self)_.
 
-**At 12th Level:** She can transform herself at will rather than spin illusions, as per
-[alter self](ref/spell/alter-self).
+This replaces the hexes gained at 4th and 12th levels.
 
-**Gained:** At 4th Level
+## Vile Curse (Sp) {#vile-curse}
 
-**Replaces:** 4th- and 12th-level hexes
+At 10th level, the hagbound becomes exceptionally skilled at cursing others. She can cast
+_[bestow curse](ref/spell/bestow-curse)_ at will, but its duration becomes 24 hours. Once a creature
+has been affected by this ability, it is immune to the witch's vile curse ability for 24 hours. If
+the witch learns some secret fear or vulnerability of her target and tailors the curse to exploit
+this, her target takes a -2 penalty on its Will saving throw against the effect.
 
-**Vile Curse (Sp)**
+This replaces the hex gained at 10th level.
 
-**Ability:** She can cast [bestow curse](ref/spell/bestow-curse) at will, but its duration becomes
-24 hours.
+## Hag Transformation {#hag-transformation}
 
-**Flavor:** The hagbound becomes exceptionally skilled at cursing others.
-
-**Gained:** At 10th Level
-
-**Replaces:** 10th-level hex
-
-**Special:** Once a creature has been affected by this ability, it is immune to the witch's _vile
-curse_ ability for 24 hours. If the witch learns some secret fear or vulnerability of her target and
-tailors the curse to exploit this, her target takes a -2 penalty on its Will saving throw against
-the effect.
-
-**Hag Transformation**
-
-**Ability:** The hagbound transforms into a true hag, purging all goodness and light from her in
+At 20th level, the hagbound transforms into a true hag, purging all goodness and light from her in
 exchange for dark power. Her alignment becomes evil if it isn't already. Her type changes to
 [monstrous humanoid](ref/type/monstrous-humanoid), and she gains [darkvision](ref/rule/darkvision)
 60 feet; immunity to charm, fear, and spell effects; and the ability to join a coven. She gains
 [spell resistance](ref/rule/spell-resistance) 31, and she grants this benefit to her other coven
 members.
 
-**Gained:** At 20th Level
-
-**Replaces:** 20th-level hex
+This replaces the hex gained at 20th level.
