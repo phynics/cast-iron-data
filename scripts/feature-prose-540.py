@@ -194,6 +194,10 @@ def ordinal(n: int) -> str:
 LEAD = re.compile(r"^(?:At|Starting at|Beginning at)\s+(\d+)(st|nd|rd|th)\s+level\b[,:]?\s*", re.I)
 
 
+# "Beginning at 5th level, ..." in the middle of a paragraph is "At 5th level, ..." (wording, not a rule word)
+LEVEL_LEAD_WORDS = re.compile(r"\b(?:Beginning|Starting) at (?=\d+(?:st|nd|rd|th)\b)", re.I)
+
+
 def lead_level(text: str) -> int | None:
     """The level of an "At Nth level" lead (also "Starting at", "Beginning at"), as the app's check reads it."""
     m = LEAD.match(text.strip())
@@ -617,6 +621,7 @@ TEXT_EL = re.compile(r'<text top="(-?\d+)" left="(-?\d+)" width="(-?\d+)" height
 FONT_EL = re.compile(r'<fontspec id="(\d+)" size="(\d+)" family="([^"]*)" color="([^"]*)"')
 TAG_SPLIT = re.compile(r"(</?[bi]>)")
 BODY_TOP = (88, 1075)
+BODY_CAP_TOP = 60
 SUPERSCRIPT = "\x04"
 DAGGER = "\x05"                 # a dagger of the book; DAGGER_KEEP says whether the entry keeps it
 DAGGER_KEEP = {"on": False}
@@ -737,7 +742,7 @@ def page_lines(book: Book, num: int) -> list[dict]:
         for top, left, font, raw, width in sorted(by_col[col], key=lambda x: (x[0], x[1])):
             # a title in small capitals sets its capitals and its small capitals 5 units apart (Blood of the Ancients): the
             # same family of type, a larger size above
-            if cur and (abs(cur[-1]["top"] - top) <= 4 or (SMALL_CAP_TITLES["on"] and abs(cur[-1]["top"] - top) <= 6
+            if cur and (abs(cur[-1]["top"] - top) <= 4 or (SMALL_CAP_TITLES["on"] and abs(cur[-1]["top"] - top) <= 8
                                                            and cur[-1]["size"] >= 16 and book.fams.get(str(font)) == cur[-1]["fam"])):
                 cur[-1]["parts"].append((left, raw, width))
                 cur[-1]["size"] = max(cur[-1]["size"], book.fonts[str(font)])
@@ -815,7 +820,9 @@ def read_blocks(book: Book, first: int, last: int) -> list[Para]:
                 seen_big.append(big)
             if ln["size"] >= 16:
                 insets[ln["col"]] = ln["left"] if indent >= 8 else None
-                if out and out[-1].kind == "title" and out[-1].col == ln["col"] and out[-1].page == shown:
+                if out and out[-1].kind == "title" and out[-1].col == ln["col"] and out[-1].page == shown \
+                        and not (SMALL_CAP_TITLES["on"] and out[-1].size != ln["size"]):
+                    # a title of two lines is set in one size; a chapter title (36) above an archetype title (27) are two titles
                     out[-1].runs += [(" ", True, False)] + ln["runs"]
                 else:
                     out.append(Para("title", list(ln["runs"]), shown, ln["col"], ln["size"]))
@@ -863,8 +870,14 @@ CLASS_TITLES = {squash(x) for x in (
 # section of an archetype: it is the next entry of the book, not a sidebar of this one
 TYPE_TITLE = re.compile(r"\([A-Za-z][A-Za-z' -]{3,}\)\s*$")           # the Advanced Player's Guide sets titles in mixed small caps
 
-CLASS_SUFFIX = re.compile(r"\s*\((?:Alchemist|Antipaladin|Barbarian|Bard|Cavalier|Cleric|Druid|Fighter|Gunslinger|Inquisitor|Magus|"
-                          r"Monk|Oracle|Paladin|Ranger|Rogue|Sorcerer|Summoner|Witch|Wizard)\)\s*$")
+CLASS_NAMES = ("Alchemist", "Antipaladin", "Arcanist", "Barbarian", "Bard", "Bloodrager", "Brawler", "Cavalier", "Cleric", "Druid", "Fighter",
+               "Gunslinger", "Hunter", "Inquisitor", "Investigator", "Kineticist", "Magus", "Medium", "Mesmerist", "Monk", "Occultist", "Oracle",
+               "Paladin", "Psychic", "Ranger", "Rogue", "Shaman", "Skald", "Slayer", "Sorcerer", "Spiritualist", "Summoner", "Swashbuckler",
+               "Vigilante", "Warpriest", "Witch", "Wizard")
+CLASS_SUFFIX = re.compile(r"\s*\((?:" + "|".join(CLASS_NAMES) + r")\)\s*$")
+# the squashed rest of a title after the name of the archetype, when the book prints the class in small capitals with stray blanks
+# ("PROWLER AT WOR LD'S END (BLOODR AGER)", "THRONEWARDEN (GUNSLINGER A) RCHETYPE"): the class, or the class and "archetype"
+CLASS_REMAINDERS = {squash(c) for c in CLASS_NAMES} | {squash(c) + "archetype" for c in CLASS_NAMES}
 
 
 # The titles of archetypes that print sets in the section of the archetype before them and that the corpus holds as headed
@@ -881,6 +894,9 @@ SECTION_STOPS = {"on": False}
 # Blood of the Ancients: no archetype holds a box or a heading of its own, and what follows each one (a spell, a feat, a trait, an
 # item of the chapter) has a title of its own: any title ends the section.
 ANY_TITLE_ENDS = {"on": False}
+# ... except the box of rules that an archetype carries as part of itself (owner ruling 41; the Invested Regent's Vested Powers and its lists of
+# powers per level, Heroes of the High Court pp. 22-23): squashed titles that do not end the section even then.
+ANY_TITLE_STAYS = re.compile(r"^(?:\d+(?:st|nd|rd|th)level)?vestedpowers$")
 # Blood of the Ancients sets its titles in small capitals (a capital and its small capitals sit 5 units apart in one family of type), and
 # a chapter title that a page repeats unseen over the first lines of a column. Other books read as before.
 SMALL_CAP_TITLES = {"on": False}
@@ -899,7 +915,11 @@ class Section(list):
 
 # Blood of the Ancients: the titles that start the next section of its chapter (rule 5: any other title that ends an archetype is a
 # table or a box that the entry may lack).
-CHAPTER_SECTION_TITLE = re.compile(r"(?i)(?:^|\s)(?:traits?|spells?|feats?|runes|rituals|magic items?|price|fighter style|philosophy)$|^items from\b|^rituals of\b")
+CHAPTER_SECTION_TITLE = re.compile(r"(?i)(?:^|\s)(?:traits?|spells?|feats?|runes|rituals|magic items?|price|fighter style|philosophy|"
+                                   r"tricks|talents|options|vested feats|favors|masterpieces|protective hexes|bloodlines|techniques|"
+                                   r"(?:advanced )?weapon training|style strikes|ki powers)$|^items from\b|^rituals of\b")
+# the same, in the letters of a title that the book sets in small capitals with stray blanks ("ST YLE ST RIKES")
+CHAPTER_SECTION_SQUASHED = re.compile(r"(?:stylestrikes|unarmedmastery|improvisedstyle|improvisedfeats|newstyles|archetypes)$")
 
 
 def find_section(blocks: list[Para], title: str, stops: set[str] | None = None) -> list[Para] | None:
@@ -911,7 +931,8 @@ def find_section(blocks: list[Para], title: str, stops: set[str] | None = None) 
         # Ultimate Magic and Ultimate Combat print "REANIMATOR (ARCHETYPE)"; Occult Adventures and Ultimate Intrigue print the
         # class on a second line ("ECTOCHYMIST (ALCHEMIST ARCHETYPE)"); the Advanced Race Guide "Saboteur (Alchemist)"
         sp = squash(b.plain()) if b.kind == "title" else ""
-        if b.kind == "title" and (sp in (key, key + "archetype") or squash(CLASS_SUFFIX.sub("", b.plain())) == key or (
+        if b.kind == "title" and (sp in (key, key + "archetype") or squash(CLASS_SUFFIX.sub("", b.plain())) == key
+                                  or (sp.startswith(key) and sp[len(key):] in CLASS_REMAINDERS) or (
                 sp.startswith(key) and sp.endswith("archetype") and len(sp) <= len(key) + len("archetype") + 24)):
             j = i + 1
             out = Section([b])
@@ -921,13 +942,14 @@ def find_section(blocks: list[Para], title: str, stops: set[str] | None = None) 
                     k = squash(nxt.plain())
                     # another archetype, a class, a chapter title (a larger font) or a title of a type of rules ends the
                     # section; so does the "NEW RACIAL RULES" title that follows the archetypes of a race chapter
-                    if (stops is None or ANY_TITLE_ENDS["on"] or k in stops or k.endswith(("archetype", "mystery", "bloodline")) or nxt.size >= 30
+                    any_ends = ANY_TITLE_ENDS["on"] and not ANY_TITLE_STAYS.match(k)
+                    if (stops is None or any_ends or k in stops or k.endswith(("archetype", "mystery", "bloodline")) or nxt.size >= 30
                             or CLASS_SUFFIX.search(nxt.plain()) or k == "newracialrules" or (TYPE_TITLE.search(nxt.plain()) and k not in KEEP_TITLES)
                             or (SECTION_STOPS["on"] and SECTION_STOP.match(re.sub(r"\s+", " ", nxt.plain()).strip()))):
                         out.end = nxt.plain().strip()
-                        out.end_known = not (ANY_TITLE_ENDS["on"] and stops is not None and k not in stops and not k.endswith(("archetype", "mystery", "bloodline"))
+                        out.end_known = not (any_ends and stops is not None and k not in stops and not k.endswith(("archetype", "mystery", "bloodline"))
                                              and nxt.size < 30 and not CLASS_SUFFIX.search(nxt.plain()) and k != "newracialrules"
-                                             and not TYPE_TITLE.search(nxt.plain()) and not CHAPTER_SECTION_TITLE.search(re.sub(r"\s+", " ", nxt.plain()).strip()))
+                                             and not TYPE_TITLE.search(nxt.plain()) and not CHAPTER_SECTION_TITLE.search(re.sub(r"\s+", " ", nxt.plain()).strip()) and not CHAPTER_SECTION_SQUASHED.search(k))
                         break
                     out.append(Para("para", [(t, True, i) for t, _, i in nxt.runs], nxt.page, nxt.col))
                 else:
@@ -1183,8 +1205,8 @@ def _covers(p: list[str], t: list[str]) -> bool:
 
 # ---- comparing the draft with print ------------------------------------------------------------------
 
-LOOSE_TRADE = re.compile(r"(?:^|(?<=[.!?]\s)|(?<=\n))(?:This|These|It)\b[^.]{0,60}?\b(?:replaces?|alters?|changes?)\b[^.]*\.", re.I)
-PROGRESSION = re.compile(r"(?:every|per)\s+\w+\s+(?:\w+\s+)?levels?\s+(?:beyond|after|above|thereafter)|every\s+\w+\s+levels?\s+thereafter", re.I)
+LOOSE_TRADE = re.compile(r"(?:^|(?<=[.!?]\s)|(?<=\n))(?:This|These|It)\b[^.]{0,60}?\b(?:replaces?|alters?|changes?|modif(?:y|ies))\b[^.]*\.", re.I)
+PROGRESSION = re.compile(r"(?:every|per)\s+\w+\s+(?:\w+\s+)?levels?(?:\s+(?:he|she|they|it|you)\s+(?:has|have))?\s+(?:beyond|after|above|thereafter)|every\s+\w+\s+levels?\s+thereafter", re.I)
 
 
 def strip_trade_sentences(text: str) -> str:
@@ -1220,7 +1242,7 @@ def progression_levels(text: str) -> set[int] | None:
         if step.isdigit():
             k, n = int(m.group(1)), int(step)
             return {k + n * j for j in range(0, 20) if k + n * j <= 20}
-    m = re.search(r"(?:every|for every|per)\s+(\w+)\s+levels?\s+(?:beyond|after|above|thereafter)\s*(?:(\d+)(?:st|nd|rd|th))?", t)
+    m = re.search(r"(?:every|for every|per)\s+(\w+)\s+(?:[a-z-]+\s+)?levels?(?:\s+(?:he|she|they|it|you)\s+(?:has|have))?\s+(?:beyond|after|above|thereafter)\s*(?:(\d+)(?:st|nd|rd|th))?", t)
     if not m:
         return None
     step = NUMBER_WORDS.get(m.group(1), m.group(1))
@@ -1251,7 +1273,7 @@ CORPUS_FRACTION = re.compile(
     r"(?:equal to\s+(?:a\s+)?)?(?:(\d+)\s*\+\s*)?(one-half|half|one-third|one-fourth|one-fifth|one-sixth|one-eighth)\s+"
     r"(?:of\s+)?(?:her|his|its|their|the)\s+(?:[\w-]+\s+){0,2}?levels?(?:\s*\((?:minimum|min\.?)\s*\+?(\d+)\))?", re.I)
 PRINT_PROGRESSION = re.compile(
-    r"(?:increases?|improves?|rises?|grows?)\s+by\s+\+?(\d+)[^.]*?(?:every|for every|per)\s+(\w+)\s+levels?\s+(?:after|beyond|above)\s+(\d+)(?:st|nd|rd|th)", re.I)
+    r"(?:increases?|improves?|rises?|grows?)\s+by\s+\+?(\d+)[^.]*?(?:every|for every|per)\s+(\w+)\s+(?:[a-z-]+\s+)?levels?(?:\s+(?:he|she|they|it|you)\s+(?:has|have))?\s+(?:after|beyond|above)\s+(\d+)(?:st|nd|rd|th)", re.I)
 PRINT_MAXIMUM = re.compile(r"maximum\s+(?:bonus\s+)?of\s+\+?(\d+)(?:[^.]*?\bat\s+(\d+)(?:st|nd|rd|th)\s+level)?", re.I)
 
 # Features where the owner ruled that print wins over a corpus value that the expansion shows to differ
@@ -1522,8 +1544,8 @@ def _compare_feature(draft: Draft, print_text: str, drop: set[str], title_tokens
         title_tokens = title_tokens | {x if NUMBER_TOKEN.match(x) else stem(x) for t in title_tokens if "-" in t for x in t.split("-") if x}
         drop = drop | {x if NUMBER_TOKEN.match(x) else stem(x) for t in drop if "-" in t for x in t.split("-") if x}      # (the feature's own name)
     skip = drop | title_tokens
-    p_clean = strip_trade_sentences(print_text)
-    d_clean = strip_trade_sentences(draft.core)
+    p_clean = LEVEL_LEAD_WORDS.sub("At ", strip_trade_sentences(print_text))
+    d_clean = LEVEL_LEAD_WORDS.sub("At ", strip_trade_sentences(draft.core))
     lp = lead_level(print_text)
     if draft.level is not None and lp is not None and draft.level != lp:
         notes.append(f"level: corpus {ordinal(draft.level)}, print {ordinal(lp)}")
@@ -2273,7 +2295,8 @@ def join_wrapped(raw_paras: list[str], vocab: set[str]) -> list[str]:
 # The parentheses that are only a page citation (owner ruling 26): one that a link replaces goes, any other stays as printed
 CITE_RPG = r"\s*\(" + I_OPEN + r"?Pathfinder RPG[^()]*?(?:page[\s_\x01\x02]*|[\s\x01\x02]+)\d+(?:[–-]\d+)?\)"
 CITE_BOOK = (r"\s*\([\x01_]*(?:Pathfinder (?:RPG|Roleplaying Game) )?(?:Core Rulebook|Advanced Player.s Guide|Bestiary(?: [2-5])?|"
-             r"Ultimate (?:Magic|Combat|Equipment|Campaign)|Advanced Race Guide|Game[Mm]astery Guide|Monster Codex|Occult Adventures)"
+             r"Ultimate (?:Magic|Combat|Equipment|Campaign)|Advanced Race Guide|Game[Mm]astery Guide|Monster Codex|Occult Adventures|"
+             r"Pathfinder (?:Player Companion|Campaign Setting|Adventure Path|Module)\b[^()]*?)"
              r"[\x02_]*[,\s]*(?:page[\s_\x01\x02]*)?\d+(?:[–-]\d+)?\)")
 CITE_PAGE = r"\s*\(\s*(?:[\x01_]*[A-Z][\w'\u2019:, \-]*?[\x02_]*\s+)?page[\s_\x01\x02]*\d+(?:[\u2013-]\d+)?\s*\)"
 
@@ -3686,6 +3709,11 @@ def finalize(e: Entry, res: dict, class_cache: dict | None = None) -> dict:
             "opening_from_print": opening_from_print}
 
 
+# The Player Companions that set their archetype titles in small capitals (a capital and its small capitals 5 units apart), and whose
+# archetypes are followed by sections of the chapter of their own (feats, techniques, spells): any title ends the section of an archetype.
+SMALL_CAP_BOOKS = ("blood-of-the-ancients", "blood-of-the-beast", "heroes-of-the-high-court", "martial-arts-handbook")
+
+
 def configure_book(book: str) -> None:
     """The layout switches of a book (the leaf tool `feature-prose-540-leaves.py` sets the same ones)."""
     ERRATA_CTX["book"] = book
@@ -3693,8 +3721,11 @@ def configure_book(book: str) -> None:
     ILLUSTRATED["on"] = book in ("advanced-class-guide", "advanced-race-guide", "adventurers-guide", "ultimate-wilderness",
                                  "horror-adventures", "planar-adventures")
     SECTION_STOPS["on"] = book in ("adventurers-guide", "ultimate-wilderness", "horror-adventures", "planar-adventures")
-    ANY_TITLE_ENDS["on"] = book in ("blood-of-the-ancients",)
-    SMALL_CAP_TITLES["on"] = book in ("blood-of-the-ancients",)
+    ANY_TITLE_ENDS["on"] = book in SMALL_CAP_BOOKS
+    SMALL_CAP_TITLES["on"] = book in SMALL_CAP_BOOKS
+    # a title in small capitals and a chapter title can stand higher than the body of the other books (Heroes of the High Court p. 29: capital at 86; Martial Arts Handbook p. 18: chapter title at 70; the running heads stand at 13-29)
+    global BODY_TOP
+    BODY_TOP = (BODY_CAP_TOP if book in SMALL_CAP_BOOKS else 88, BODY_TOP[1])
 
 
 def run_compare(args) -> int:
@@ -3890,6 +3921,47 @@ HEAD_REWRITES = {
 }
 
 
+# ---- Blood of the Beast, Heroes of the High Court, Martial Arts Handbook (one block, so that the lanes of #540 do not collide) ----
+MISPRINTS.extend([
+    ("ref/arc-inquisitor/ravener-hunter", "She cannot cast 2 with the", "She cannot cast spells with the",
+     "print has the digit 2 where \"spells\" belongs (Blood of the Beast p. 5); the corpus has \"spells\""),
+    ("ref/arc-ranger/fortune-finder", "the fortune-seeker's highest", "the fortune-finder's highest",
+     "the archetype is the fortune-finder; the same paragraph says \"fortune-finder\" (Blood of the Beast p. 30)"),
+    ("ref/arc-skald/war-painter", "A war painter cab apply", "A war painter can apply", "a letter b for an n"),
+])
+CONTEXT_LINKS.update({
+    ("ref/arc-druid/swarm-monger", "swarm"): "gains the swarm",
+})
+# the print head of a section that the book sets in small capitals comes out in mixed case ("vesteD powers"): written as the book titles it
+HEAD_REWRITES.update({
+    ("ref/arc-monk/invested-regent", "vested-powers"): "Vested Powers",
+    ("ref/arc-monk/invested-regent", "2nd-level-vested-powers"): "2nd-Level Vested Powers",
+    ("ref/arc-monk/invested-regent", "6th-level-vested-powers"): "6th-Level Vested Powers",
+    ("ref/arc-monk/invested-regent", "10th-level-vested-powers"): "10th-Level Vested Powers",
+    ("ref/arc-monk/invested-regent", "14th-level-vested-powers"): "14th-Level Vested Powers",
+    ("ref/arc-monk/invested-regent", "18th-level-vested-powers"): "18th-Level Vested Powers",
+})
+for _eid in (        # "This alters the cavalier's class skills." (the Class Skills section stands before the first feature): stored without `by`
+        "ref/arc-cavalier/first-mothers-fang", "ref/arc-witch/jinx-witch", "ref/arc-alchemist/royal-alchemist", "ref/arc-fighter/high-guardian",
+        "ref/arc-gunslinger/thronewarden", "ref/arc-occultist/silksworn", "ref/arc-brawler/battle-dancer", "ref/arc-fighter/spear-fighter",
+        "ref/arc-medium/medium-of-the-master"):
+    TRADE_ADDITIONS.setdefault(_eid, []).append({"alters": "Class skills"})
+TRADE_RENAMES.update({
+    ("ref/arc-witch/jinx-witch", "2nd-level hex"): "Witch's hex normally gained at 2nd level",
+    ("ref/arc-witch/jinx-witch", "6th-level hex"): "Hex normally gained at 6th level",
+    ("ref/arc-witch/jinx-witch", "10th-level hex"): "Major hex gained at 10th level",
+    ("ref/arc-swashbuckler/courser", "4th-level bonus feat"): "Bonus feat gained at 4th level",
+    ("ref/arc-swashbuckler/courser", "Opportune parry and riposte"): "Opportune parry and riposte deeds",
+    ("ref/arc-swashbuckler/courser", "Superior feint"): "Superior feint deed",
+    ("ref/arc-swashbuckler/courser", "Bleeding wound"): "Bleeding wound deed",
+    ("ref/arc-gunslinger/thronewarden", "Startling shot deed"): "Startling shot",
+    ("ref/arc-gunslinger/thronewarden", "Bleeding wound deed"): "Bleeding wound",
+    ("ref/arc-oracle/inerrant-voice", "The bonus spells gained at 2nd, 4th, 8th, and 14th levels from the oracle's mystery"):
+        "Bonus spells at those levels gained from the oracle's mystery",
+})
+
+
+
 def convert_text(e: Entry, prop: dict, rows: list[dict]) -> str:
     status = {r["anchor"]: r["status"] for r in rows if r["anchor"]}
     feats = prop["feature"]
@@ -4065,7 +4137,8 @@ def printed_trade_gaps(e: Entry) -> list[str]:
 
 # ---- the printed trade sentences (opus audit of the Blood of the Ancients pilot) -----------------------------------
 
-PRINTED_TRADE = re.compile(r"This (?:ability |class feature |performance |archetype )?(?:replaces|alters|changes)\b[^.]*\.")
+PRINTED_TRADE = re.compile(r"This (?:(?:ability|class feature|performance|archetype|deed|hex|talent|trick|power|discovery|revelation|exploit|mercy) )?"
+                           r"(?:replaces|alters|changes)\b[^.]*\.")
 
 
 def sentences_path(corpus: Path, book: str) -> Path:
@@ -4582,6 +4655,54 @@ def self_test() -> int:
     eq(len(find_section(blocks, "Aerial Assaulter", {"x"}) or []), 2, "any title ends the section")
     ANY_TITLE_ENDS["on"] = False
     eq(len(find_section(blocks, "Aerial Assaulter", {"x"}) or []), 4, "a sidebar title stays in the section of other books")
+    # Blood of the Beast, Heroes of the High Court, Martial Arts Handbook (#540 batch of 2026-11-26)
+    # a title in small capitals can stand 7 units from its capital (size 27 over size 19), and a class in a title can carry stray blanks
+    cap2 = Book({"5": 27, "6": 19, "28": 13}, {1: [(696, 108, 5, "r", 14), (703, 123, 6, "oyal", 42), (696, 165, 5, " a", 28), (703, 194, 6, "lChemist", 82),
+                                                   (730, 108, 28, "Body text starts here.", 200)]}, {}, set(), fams={"5": "Yngreena", "6": "Yngreena", "28": "Nexus"})
+    SMALL_CAP_TITLES["on"] = True
+    got2 = ["".join(t for t, _, _ in ln["runs"]) for ln in page_lines(cap2, 1)]
+    SMALL_CAP_TITLES["on"] = False
+    eq(got2[0], "royal alChemist", "a small-capital title of capitals 7 units above its small capitals is one line")
+    ANY_TITLE_ENDS["on"] = True
+    blocks = [Para("title", [("Prowler at Wor ld\u2019s End (Bloodr aGer)", True, False)], 4, 0, 20), Para("para", [("Text.", False, False)], 4, 0),
+              Para("title", [("mesmerist triCks", True, False)], 4, 0, 20), Para("para", [("Tricks.", False, False)], 4, 0)]
+    sec = find_section(blocks, "Prowler at World's End", {"x"})
+    eq((len(sec or []), sec.end, sec.end_known), (2, "mesmerist triCks", True), "a class in small capitals with a stray blank names the archetype; a chapter section ends it, known")
+    blocks[0] = Para("title", [("thronewarDen (GunslinGer  a) rChetype", True, False)], 8, 1, 27)
+    eq(len(find_section(blocks, "Thronewarden", {"x"}) or []), 2, "the rest of a title after the name is a class, or a class and archetype")
+    blocks = [Para("title", [("investeD reGent (monk arChetype)", True, False)], 22, 1, 27), Para("para", [("Text.", False, False)], 22, 1),
+              Para("title", [("vesteD powers", True, False)], 22, 1, 27), Para("para", [("Powers.", False, False)], 22, 1),
+              Para("title", [("2nD-level vesteD powers", True, False)], 23, 0, 21), Para("para", [("List.", False, False)], 23, 0),
+              Para("title", [("vesteD feats", True, False)], 23, 1, 27), Para("para", [("Feats.", False, False)], 23, 1)]
+    sec = find_section(blocks, "Invested Regent", {"x"})
+    eq((len(sec or []), sec.end, sec.end_known), (6, "vesteD feats", True), "the box of the Vested Powers stays in the section of the archetype; the Vested Feats end it")
+    ANY_TITLE_ENDS["on"] = False
+    # a chapter title and an archetype title that follow one another in a column are two titles when their sizes differ
+    two = Book({"1": 36, "2": 27, "3": 13}, {1: [(100, 468, 1, "ivInIty", 100), (150, 468, 2, "investeD reGent (monk arChetype)", 300), (190, 468, 3, "Text.", 100)]},
+               {}, set(), fams={"1": "A", "2": "A", "3": "B"})
+    SMALL_CAP_TITLES["on"] = True
+    kinds2 = [(b.kind, b.size) for b in read_blocks(two, 1, 1)]
+    SMALL_CAP_TITLES["on"] = False
+    eq(kinds2, [("title", 36), ("title", 27), ("para", 0)], "a title of another size is a title of its own")
+    # a progression in print with a class word, or "he has", between the number and "levels"
+    eq(progression_levels("This bonus increases by 1 for every 4 fighter levels beyond 2nd."), {6, 10, 14, 18}, "progression with a class word")
+    eq(progression_levels("This bonus increases by 1 for every 4 levels he has beyond 2nd."), {6, 10, 14, 18}, "progression with 'he has'")
+    eq(cmp_rule("values", "**Gained:** At 2nd Level\n\n**Passive:** A high guardian gains a +1 bonus.\n\nAt 6th level: This bonus increases to +2.\n\n"
+                "At 10th level: This bonus increases to +3.\n\nAt 14th level: This bonus increases to +4.\n\nAt 18th level: This bonus increases to +5.\n",
+                "At 2nd level, a high guardian gains a +1 bonus. This bonus increases by 1 for every 4 fighter levels beyond 2nd.")[1], "print",
+       "rule 1: a printed step 'for every 4 fighter levels beyond 2nd' equals the corpus rows")
+    # "Beginning at 5th level" inside a paragraph is "At 5th level"; "This ability modifies X." is a trade-like sentence, not a rule word
+    eq(cmp_rule("values", "**Passive:** A swarm monger bonds with a familiar.\n\n**At 5th Level:** Creatures take 1d6 damage.\n",
+                "A swarm monger bonds with a familiar. Beginning at 5th level, creatures take 1d6 damage.")[1], "print", "Beginning at Nth level is wording")
+    eq(cmp_rule("values", "**Ability:** A scavenger can use inspiration.\n\n**Alters:** Inspiration\n",
+                "A scavenger can use inspiration. This ability modifies inspiration.")[1], "print", "a 'modifies' sentence is not a rule word")
+    # a citation of a Player Companion, a Campaign Setting or an Adventure Path after a link goes (owner ruling 26)
+    eq(drop_linked_citation(CITE_BOOK, "[lunar](ref/mystery/lunar) (Pathfinder Player Companion: Blood of the Moon 28), [nature](ref/mystery/nature)",
+                            [("lunar", "ref/mystery/lunar")]), "[lunar](ref/mystery/lunar), [nature](ref/mystery/nature)", "a Player Companion citation after a link goes")
+    eq(drop_linked_citation(CITE_BOOK, "[volcano](ref/mystery/volcano) (Pathfinder Adventure Path #95: Anvil of Fire 72)",
+                            [("volcano", "ref/mystery/volcano")]), "[volcano](ref/mystery/volcano)", "an Adventure Path citation after a link goes")
+    eq(printed_trade_sentences([Para("para", [("This deed replaces the bleeding wound deed.", False, False)], 1, 0)]), ["This deed replaces the bleeding wound deed."],
+       "a printed trade sentence of a deed")
     eq(join_wrapped(["the vox's mesmerist spells use both", "thought and verbal components. Next."], set()), ["the vox's mesmerist spells use both thought and verbal components. Next."], "wrapped sidebar lines join")
     # ruling 11: the Special column of the class table, with its suffixes, never a spell-slot or fast-movement column
     with tempfile.TemporaryDirectory() as tmp:
