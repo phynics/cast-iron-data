@@ -1,0 +1,7 @@
+[[edit]]
+entry = "ref/arc-alchemist/winged-marauder"
+anchor = "flying-beast-tamer"
+note = "hand-written from print (Monster Codex p. 104): the paragraph wraps around an illustration and the layer sets the page number of the citation \"(Pathfinder RPG Bestiary 3 312)\" in a larger size, apart from its line; the two bare book citations after dire bat and giant vulture are left out where the corpus links the creature (ruling 26). \"share spells\" is roman in print, italic in the corpus: print wins."
+text = '''
+At 1st level, a winged marauder acquires a flying mount as an [animal companion](ref/sidekick/animal-companion). This works as the druid animal companion class feature, except the marauder must select a [dire bat](ref/companion/dire-bat) or [giant vulture](ref/companion/vulture-giant). The marauder's effective druid level is equal to his alchemist level. A marauder and his companion don't gain the share spells ability. This ability replaces the mutagen and persistent mutagen class features.
+'''

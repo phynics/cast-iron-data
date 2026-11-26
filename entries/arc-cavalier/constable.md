@@ -16,99 +16,76 @@ page = "17"
 
 [fields]
 kind = "archetype"
+features = [
+  { anchor = "apprehend", level = 1 },
+  { anchor = "squad-commander", level = 3 },
+  { anchor = "quick-interrogator", level = 4 },
+  { anchor = "badge", level = 5 },
+  { anchor = "instant-order", level = 11 },
+  { anchor = "greater-badge", level = 14 },
+]
 trades = [
-  { replaces = "Mount", feature = "mount" },
-  { replaces = "Cavalier's charge", feature = "cavalier-s-charge" },
-  { replaces = "Expert trainer", feature = "expert-trainer" },
-  { replaces = "Banner", feature = "banner" },
-  { replaces = "Mighty charge", feature = "mighty-charge" },
-  { replaces = "supreme charge", feature = "supreme-charge" },
-  { replaces = "Greater banner", feature = "greater-banner" },
+  { replaces = "Mount", feature = "mount", by = ["apprehend"] },
+  { replaces = "Cavalier's charge", feature = "cavalier-s-charge", by = ["squad-commander"] },
+  { replaces = "Expert trainer", feature = "expert-trainer", by = ["quick-interrogator"] },
+  { replaces = "Banner", feature = "banner", by = ["badge"] },
+  { replaces = "Mighty charge", feature = "mighty-charge", by = ["instant-order"] },
+  { replaces = "supreme charge", feature = "supreme-charge", by = ["instant-order"] },
+  { replaces = "Greater banner", feature = "greater-banner", by = ["greater-badge"] },
+  { alters = "Class skills" },
 ]
 +++
 
 Constables keep order in the narrow streets and dark alleys of settlements.
 
-**Gained class skills:** per
+## Class Skills {#class-skills}
 
-**Apprehend (Ex)**
+Perception is a class skill for constables. This alters the cavalier's class skills.
 
-**At 1st Level:** A constable gains [Improved Unarmed Strike](ref/feat/improved-unarmed-strike) as a
-bonus feat and can attempt a [grapple](ref/rule/grapple) combat maneuver check in place of the
-attack at the end of a [charge](ref/rule/charge).
+## Apprehend (Ex) {#apprehend}
 
-**At 2nd Level:** The constable receives a +1 bonus on Perception checks and combat maneuver checks
-to [disarm](ref/rule/disarm), grapple, or [trip](ref/rule/trip) opponents.
+A constable gains [Improved Unarmed Strike](ref/feat/improved-unarmed-strike) as a bonus feat and
+can attempt a [grapple](ref/rule/grapple) combat maneuver check in place of the attack at the end of
+a [charge](ref/rule/charge). At 2nd level, the constable receives a +1 bonus on Perception checks
+and combat maneuver checks to [disarm](ref/rule/disarm), grapple, or [trip](ref/rule/trip)
+opponents. At 7th level and every 5 levels thereafter, this bonus improves by 1. At 4th level, the
+constable does not treat [crowds](ref/rule/city-streets) as difficult terrain. This ability replaces
+mount.
 
-**At 4th Level:** The constable does not treat [crowds](ref/rule/city-streets) as difficult terrain.
+## Squad Commander (Ex) {#squad-commander}
 
-**Replaces:** Mount
+At 3rd level, a constable can spend 1 minute laying out a plan to activate the tactician ability
+without having it count against his number of uses per day. The ability must be triggered within 1
+hour of the plan being made, and the benefits last for 1 minute per cavalier level he has. The
+constable can have only one plan at a time, and if a new plan is made, any old plan is lost. This
+ability replaces cavalier's charge.
 
-At 7th level: The bonus increases to +2.
+## Quick Interrogator (Ex) {#quick-interrogator}
 
-At 12th level: The bonus increases to +3.
+At 4th level, a constable can attempt a [Diplomacy](ref/skill/diplomacy) check to gather information
+in 1d6 × 5 minutes and attempt a Diplomacy or [Intimidate](ref/skill/intimidate) check to change
+someone's attitude in 5 rounds. This ability replaces expert trainer.
 
-At 17th level: The bonus increases to +4.
+## Badge (Ex) {#badge}
 
-**Squad Commander (Ex)**
-
-**Ability:** A constable can spend 1 minute laying out a plan to activate the _tactician_ ability
-without having it count against his number of uses per day.
-
-**Gained:** At 3rd Level
-
-**Replaces:** Cavalier's charge
-
-**Special:** The ability must be triggered within 1 hour of the plan being made, and the benefits
-last for 1 minute per cavalier level he has. The constable can have only one plan at a time, and if
-a new plan is made, any old plan is lost.
-
-**Quick Interrogator (Ex)**
-
-**Ability:** A constable can attempt a Diplomacy check to gather information in 1d6 × 5 minutes and
-attempt a [Diplomacy](ref/skill/diplomacy) or [Intimidate](ref/skill/intimidate) check to change
-someone's attitude in 5 rounds.
-
-**Gained:** At 4th Level
-
-**Replaces:** Expert trainer
-
-**Badge (Ex)**
-
-**At 10th Level:** These bonuses become +3 and +2, respectively.
-
-**At 15th Level:** These bonuses become +4 and +3.
-
-**At 20th Level:** These bonuses increase to +5 and +4.
-
-**At 5th Level:** A constable's badge becomes a powerful symbol of rules and authority. As long as
-he wears his badge, allies within 30 feet who can see him gain a +2 morale bonus on saving throws
+At 5th level, a constable's badge becomes a powerful symbol of rules and authority. As long as he
+wears his badge, allies within 30 feet who can see him gain a +2 morale bonus on saving throws
 against charm, compulsion, and fear effects and a +1 morale bonus on attack rolls against targets
-the constable has challenged.
+the constable has challenged. At 10th level and every 5 levels thereafter, the bonuses increase
+by 1. This ability replaces banner.
 
-**Replaces:** Banner
+## Instant Order (Ex) {#instant-order}
 
-**Instant Order (Ex)**
+At 11th level, a constable can bark an order to an ally within 30 feet as a standard action. That
+ally can instantly take a single move or standard action to comply with the order. Taking the action
+[dazes](ref/misc/dazed) the ally for 1 round afterward. At 20th level, the constable can use this
+ability as a move action, but no more than once per round. This ability replaces mighty charge and
+supreme charge.
 
-**At 20th Level:** The constable can use this ability as a **move action**, but no more than once
-per round.
+## Greater Badge (Ex) {#greater-badge}
 
-**Gained:** At 11th Level
-
-**Replaces:** Mighty charge, supreme charge
-
-**Standard:** A constable can bark an order to an ally within 30 feet. That ally can instantly take
-a single **move** or **standard** action to comply with the order. Taking the action
-[dazes](ref/misc/dazed) the ally for 1 round afterward.
-
-**Greater Badge (Ex)**
-
-**Gained:** At 14th Level
-
-**Replaces:** Greater banner
-
-**Special:** A given ally can benefit from this ability only once per day.
-
-**Standard:** A constable can hold his badge aloft to inspire his allies to be steadfast. All allies
-within 30 feet gain a number of [temporary hit points](ref/rule/temporary-hit-points) equal to twice
-the constable's cavalier level for 10 minutes.
+At 14th level, a constable can hold his badge aloft as a standard action to inspire his allies to be
+steadfast. All allies within 30 feet gain a number of
+[temporary hit points](ref/rule/temporary-hit-points) equal to twice the constable's cavalier level
+for 10 minutes. A given ally can benefit from this ability only once per day. This ability replaces
+greater banner.

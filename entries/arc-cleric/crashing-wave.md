@@ -16,10 +16,16 @@ page = "23"
 
 [fields]
 kind = "archetype"
+features = [
+  { anchor = "sworn-to-the-sea" },
+  { anchor = "speech-of-the-sea" },
+  { anchor = "balanced-channel", level = 1 },
+  { anchor = "spontaneous-casting", level = 1 },
+]
 trades = [
-  { replaces = "Channel energy", feature = "channel-energy" },
-  { alters = "Bonus languages", feature = "bonus-languages" },
-  { alters = "Spontaneous casting", feature = "spontaneous-casting" },
+  { replaces = "Channel energy", feature = "channel-energy", by = ["balanced-channel"] },
+  { alters = "Bonus languages", feature = "bonus-languages", by = ["speech-of-the-sea"] },
+  { alters = "Spontaneous casting", feature = "spontaneous-casting", by = ["spontaneous-casting"] },
 ]
 +++
 
@@ -33,38 +39,27 @@ Among aquatic creatures, cecaelias, locathahs, and merfolk are the most likely t
 the crashing wave. Gnomes, halflings, and humans living on coastlines or working aboard ships may
 also answer the call to become crashing waves.
 
-**Sworn to the Sea**
+## Sworn to the Sea {#sworn-to-the-sea}
 
-**Info:** A crashing wave must select Gozreh as her deity.
+A crashing wave must select Gozreh as her deity.
 
-**Speech of the Sea**
+## Speech of the Sea {#speech-of-the-sea}
 
-**Alters:** Bonus languages
+A crashing wave's bonus language options include Aquan in addition to the bonus languages available
+to the character from her race. The crashing wave does not gain Abyssal, Celestial, or Infernal as
+bonus language options.
 
-**Info:** A crashing wave's bonus language options include Aquan in addition to the bonus languages
-available to the character from her race. The crashing wave does not gain Abyssal, Celestial, or
-Infernal as bonus language options.
+This ability alters bonus languages.
 
-**Balanced Channel (Su)**
+## Balanced Channel (Su) {#balanced-channel}
 
-**Action:** Standard
-
-**Flavor:** A crashing wave can channel the pure balance of the ocean - its wildness, its calm, its
-cruelty, and its gentleness.
-
-**Gained:** At 1st Level
-
-**Provokes attack of opportunity:** No
-
-**Replaces:** Channel energy
-
-**Special:** The cleric must be able to present her holy symbol to use this ability.
-
-**Usage:** Cha3 modifier times/day
-
-This energy can be used to harm or heal creatures, as the crashing wave chooses. Channeling this
-energy causes a 30-foot-radius [burst](ref/misc/burst) centered on the cleric. A crashing wave can
-choose whether to include herself in the effect.
+At 1st level, a crashing wave can channel the pure balance of the ocean—its wildness, its calm, its
+cruelty, and its gentleness. This energy can be used to harm or heal creatures, as the crashing wave
+chooses. Channeling this energy causes a 30-foot-radius [burst](ref/misc/burst) centered on the
+cleric. Using balanced channel is a standard action that does not provoke attacks of opportunity. A
+crashing wave can choose whether to include herself in the effect. The cleric must be able to
+present her holy symbol to use this ability, and she can channel energy a number of times equal to
+3 + her Charisma modifier.
 
 If the crashing wave chooses to harm, creatures within the burst that are chaotic good, chaotic
 evil, lawful good, or lawful evil take 1d6 points of damage plus 1d6 points of damage for every 2
@@ -83,28 +78,24 @@ chaotic good, chaotic evil, lawful good, or lawful evil. This healing is positiv
 creatures not healed by positive energy (such as undead) receive no healing from this effect, even
 if they have a neutral alignment.
 
-**Spontaneous Casting**
+This ability replaces channel energy.
 
-**Ability:** A crashing wave does not gain the ability to spontaneously cast _cure_ or _inflict_
-spells by sacrificing prepared spells. However, a crashing wave can spontaneously cast the following
-spells by sacrificing a prepared spell of the noted level or higher.
+## Spontaneous Casting {#spontaneous-casting}
 
-**Alters:** Spontaneous casting
+A crashing wave does not gain the ability to spontaneously cast cure or inflict spells by
+sacrificing prepared spells. However, a crashing wave can spontaneously cast the following spells by
+sacrificing a prepared spell of the noted level or higher.
 
-**Spells:** Bless water
+This ability alters spontaneous casting.
 
-**Spells:** Slipstream
-
-**Spells:** Water breathing
-
-**Spells:** Control water
-
-**Spells:** Geyser
-
-**Spells:** Fluid form
-
-**Spells:** Elemental body IV\|(water only)
-
-**Spells:** Seamantle
-
-**Spells:** Elemental swarm\|(water only)
+|Spell Level|Spontaneous Spell|
+| --- | --- |
+|1st|_Bless water_|
+|2nd|_Slipstream_|
+|3rd|_Water breathing_|
+|4th|_Control water_|
+|5th|_Geyser_|
+|6th|_Fluid form_|
+|7th|_Elemental body IV_ (water only)|
+|8th|_Seamantle_|
+|9th|_Elemental swarm_ (water only)|

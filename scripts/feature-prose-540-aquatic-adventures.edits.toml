@@ -1,0 +1,11 @@
+[[edit]]
+entry = "ref/arc-paladin/pearl-seeker"
+anchor = "divine-hippocampus"
+note = "hand-written from print (Aquatic Adventures pp. 53-54): the companion's statistics line sets its keys (Size, Speed, AC, Attack, Ability Scores, Special Qualities) in bold, which the extraction does not keep inside a paragraph; the text is the printed paragraph, the statistics line with its bold keys and the corpus's links, and the trade sentence."
+text = '''
+At 5th level, a pearl seeker must choose a mount as her divine bond, gaining a [hippocampus](ref/companion/hippocampus) mount with the following companion statistics.
+
+**Size** Large; **Speed** 5 ft., swim 80 ft.; **AC** +4 natural armor; **Attack** bite (1d6), tail slap (1d4; secondary attack); **Ability Scores** Str 18, Dex 13, Con 15, Int 2, Wis 12, Cha 11; **Special Qualities** [darkvision](ref/rule/darkvision) 60 ft., [low-light vision](ref/rule/low-light-vision), [scent](ref/umr/scent), [water dependency](ref/umr/water-dependency).
+
+This ability alters divine bond and replaces channel positive energy.
+'''
