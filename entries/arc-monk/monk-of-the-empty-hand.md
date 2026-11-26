@@ -18,7 +18,7 @@ page = "111"
 kind = "archetype"
 features = [
   { anchor = "flurry-of-blows", level = 1 },
-  { anchor = "bonus-feat" },
+  { anchor = "bonus-feat", level = 6 },
   { anchor = "versatile-improvisation", level = 3 },
   { anchor = "ki-pool", level = 4 },
   { anchor = "ki-weapons", level = 5 },

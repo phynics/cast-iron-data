@@ -19,7 +19,7 @@ kind = "archetype"
 features = [
   { anchor = "elemental-focus", level = 1 },
   { anchor = "nereid-s-grace", level = 1 },
-  { anchor = "unarmed-strike" },
+  { anchor = "unarmed-strike", level = 1 },
   { anchor = "burn", level = 2 },
   { anchor = "wild-talents", level = 2 },
   { anchor = "water-dance", level = 4 },

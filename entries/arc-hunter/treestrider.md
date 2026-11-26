@@ -17,7 +17,7 @@ page = "55"
 [fields]
 kind = "archetype"
 features = [
-  { anchor = "animal-companion" },
+  { anchor = "animal-companion", level = 1 },
   { anchor = "brachiation", level = 1 },
   { anchor = "improved-unarmed-strike", level = 2 },
   { anchor = "tree-stride", level = 10 },

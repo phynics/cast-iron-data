@@ -21,7 +21,7 @@ features = [
   { anchor = "steel-spells" },
   { anchor = "divine-smith" },
   { anchor = "runeforger", level = 1 },
-  { anchor = "craft-magic-arms-and-armor" },
+  { anchor = "craft-magic-arms-and-armor", level = 3 },
   { anchor = "master-smith", level = 5 },
 ]
 trades = [

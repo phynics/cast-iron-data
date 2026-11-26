@@ -17,7 +17,7 @@ page = "66"
 [fields]
 kind = "archetype"
 features = [
-  { anchor = "natural-focus" },
+  { anchor = "natural-focus", level = 1 },
   { anchor = "tree-talker", level = 8 },
   { anchor = "reflect-on-the-land", level = 12 },
 ]

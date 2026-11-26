@@ -17,7 +17,7 @@ page = "91"
 [fields]
 kind = "archetype"
 features = [
-  { anchor = "smite-nature" },
+  { anchor = "smite-nature", level = 1 },
   { anchor = "corrupted-companion", level = 5 },
   { anchor = "feed-on-decay", level = 10 },
   { anchor = "aura-of-decay", level = 11 },

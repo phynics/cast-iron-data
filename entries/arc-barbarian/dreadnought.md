@@ -17,7 +17,7 @@ page = "47"
 [fields]
 kind = "archetype"
 features = [
-  { anchor = "dead-calm" },
+  { anchor = "dead-calm", level = 1 },
   { anchor = "steady-gait", level = 1 },
   { anchor = "fearless-killer", level = 14 },
   { anchor = "instant-dispassion", level = 17 },

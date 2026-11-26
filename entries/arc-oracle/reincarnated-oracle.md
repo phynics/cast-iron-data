@@ -17,7 +17,7 @@ page = "199"
 [fields]
 kind = "archetype"
 features = [
-  { anchor = "oracle-s-curse" },
+  { anchor = "oracle-s-curse", level = 1 },
   { anchor = "location-memories" },
   { anchor = "spirit-memories" },
 ]

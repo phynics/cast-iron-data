@@ -18,7 +18,7 @@ page = "56"
 kind = "archetype"
 features = [
   { anchor = "dark-studies" },
-  { anchor = "soul-power" },
+  { anchor = "soul-power", level = 1 },
 ]
 trades = [
   { replaces = "Internal buffer", feature = "internal-buffer", by = ["soul-power"] },

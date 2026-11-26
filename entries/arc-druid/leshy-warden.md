@@ -22,7 +22,7 @@ kind = "archetype"
 features = [
   { anchor = "leshy-familiar", level = 1 },
   { anchor = "green-empathy", level = 1 },
-  { anchor = "leshy-summoner" },
+  { anchor = "leshy-summoner", level = 1 },
   { anchor = "leshy-tender", level = 4 },
   { anchor = "wild-shape", level = 6 },
   { anchor = "plant-whisperer", level = 13 },

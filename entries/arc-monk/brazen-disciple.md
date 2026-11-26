@@ -18,7 +18,7 @@ page = "104"
 kind = "archetype"
 features = [
   { anchor = "feinting-flurry", level = 1 },
-  { anchor = "bonus-feat" },
+  { anchor = "bonus-feat", level = 1 },
   { anchor = "efreeti-s-guile", level = 3 },
   { anchor = "confounding-koan", level = 12 },
   { anchor = "genie-apotheosis", level = 20 },

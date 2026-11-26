@@ -17,7 +17,7 @@ page = "94"
 [fields]
 kind = "archetype"
 features = [
-  { anchor = "leshy-eidolon" },
+  { anchor = "leshy-eidolon", level = 1 },
   { anchor = "summon-nature-s-ally" },
 ]
 trades = [

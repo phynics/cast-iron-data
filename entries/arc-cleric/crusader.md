@@ -17,7 +17,7 @@ page = "40"
 [fields]
 kind = "archetype"
 features = [
-  { anchor = "diminished-spellcasting" },
+  { anchor = "diminished-spellcasting", level = 1 },
   { anchor = "bonus-feat" },
   { anchor = "legion-s-blessing", level = 8 },
 ]

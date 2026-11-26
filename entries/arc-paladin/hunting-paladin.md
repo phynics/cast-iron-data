@@ -18,7 +18,7 @@ page = "70"
 kind = "archetype"
 features = [
   { anchor = "hunt-evil", level = 1 },
-  { anchor = "detect-evil" },
+  { anchor = "detect-evil", level = 1 },
   { anchor = "smite-evil", level = 4 },
   { anchor = "spells" },
   { anchor = "tireless-aura", level = 8 },

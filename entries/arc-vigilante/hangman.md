@@ -17,7 +17,7 @@ page = "70"
 [fields]
 kind = "archetype"
 features = [
-  { anchor = "vigilante-specialization" },
+  { anchor = "vigilante-specialization", level = 1 },
   { anchor = "hangman-s-noose", level = 2 },
   { anchor = "bound-to-truth", level = 3 },
   { anchor = "twisted-rope", level = 4 },

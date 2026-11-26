@@ -18,7 +18,7 @@ page = "13"
 kind = "archetype"
 features = [
   { anchor = "energy-focus" },
-  { anchor = "energist-bombs" },
+  { anchor = "energist-bombs", level = 1 },
   { anchor = "healing-ampoule", level = 2 },
   { anchor = "energist-resistance", level = 2 },
 ]

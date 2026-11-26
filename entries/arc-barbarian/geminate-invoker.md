@@ -18,7 +18,7 @@ page = "166"
 kind = "archetype"
 features = [
   { anchor = "contemplative" },
-  { anchor = "trance" },
+  { anchor = "trance", level = 1 },
   { anchor = "haunt-channeler", level = 3 },
   { anchor = "spirit-conduit", level = 4 },
 ]

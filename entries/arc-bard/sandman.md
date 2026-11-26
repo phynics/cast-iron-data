@@ -21,7 +21,7 @@ features = [
   { anchor = "stealspell", level = 1 },
   { anchor = "slumber-song", level = 6 },
   { anchor = "dramatic-subtext", level = 9 },
-  { anchor = "greater-stealspell" },
+  { anchor = "greater-stealspell", level = 15 },
   { anchor = "mass-slumber-song", level = 18 },
   { anchor = "spell-catching", level = 20 },
   { anchor = "master-of-deception", level = 1 },

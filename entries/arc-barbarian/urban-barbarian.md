@@ -18,7 +18,7 @@ page = "31"
 kind = "archetype"
 features = [
   { anchor = "crowd-control", level = 1 },
-  { anchor = "controlled-rage" },
+  { anchor = "controlled-rage", level = 1 },
 ]
 trades = [
   { replaces = "Fast movement", feature = "fast-movement", by = ["crowd-control"] },

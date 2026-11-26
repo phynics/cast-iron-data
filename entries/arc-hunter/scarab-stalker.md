@@ -20,7 +20,7 @@ page = "13"
 [fields]
 kind = "archetype"
 features = [
-  { anchor = "sacred-animal-focus" },
+  { anchor = "sacred-animal-focus", level = 1 },
   { anchor = "desert-walker", level = 5 },
 ]
 trades = [

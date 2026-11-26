@@ -17,7 +17,7 @@ page = "54"
 [fields]
 kind = "archetype"
 features = [
-  { anchor = "limited-alchemy" },
+  { anchor = "limited-alchemy", level = 1 },
   { anchor = "grave-magic" },
   { anchor = "relic-focus", level = 1 },
   { anchor = "deny-death", level = 2 },

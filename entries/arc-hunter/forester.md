@@ -17,7 +17,7 @@ page = "52"
 [fields]
 kind = "archetype"
 features = [
-  { anchor = "animal-focus" },
+  { anchor = "animal-focus", level = 1 },
   { anchor = "favored-terrain", level = 5 },
   { anchor = "bonus-feat", level = 2 },
   { anchor = "tactician", level = 3 },

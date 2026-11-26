@@ -17,8 +17,8 @@ page = "49"
 [fields]
 kind = "archetype"
 features = [
-  { anchor = "invoke-decay" },
-  { anchor = "nature-bond" },
+  { anchor = "invoke-decay", level = 1 },
+  { anchor = "nature-bond", level = 1 },
   { anchor = "vermin-empathy", level = 1 },
   { anchor = "swarmcaller", level = 3 },
   { anchor = "enduring-druid", level = 4 },

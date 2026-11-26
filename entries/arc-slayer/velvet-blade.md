@@ -17,7 +17,7 @@ page = "70"
 [fields]
 kind = "archetype"
 features = [
-  { anchor = "studied-socialite" },
+  { anchor = "studied-socialite", level = 1 },
   { anchor = "courtly-graces", level = 1 },
   { anchor = "treacherous-blade", level = 7 },
   { anchor = "silent-dispatch", level = 11 },

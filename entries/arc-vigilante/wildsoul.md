@@ -20,7 +20,7 @@ page = "7"
 [fields]
 kind = "archetype"
 features = [
-  { anchor = "natural-course" },
+  { anchor = "natural-course", level = 1 },
 ]
 trades = [
   { replaces = "Vigilante talents gained at 2nd, 6th, 12th, and 18th levels", feature = "vigilante-talent", levels = [2, 6, 12, 18], by = ["natural-course"] },

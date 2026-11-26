@@ -17,7 +17,7 @@ page = "109"
 [fields]
 kind = "archetype"
 features = [
-  { anchor = "geistform-phantom" },
+  { anchor = "geistform-phantom", level = 1 },
   { anchor = "emotionless" },
   { anchor = "spiritual-manifestation" },
 ]

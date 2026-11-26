@@ -17,7 +17,7 @@ page = "96"
 [fields]
 kind = "archetype"
 features = [
-  { anchor = "animal-mask" },
+  { anchor = "animal-mask", level = 1 },
   { anchor = "spellcasting" },
   { anchor = "patron-spells", level = 1 },
   { anchor = "wild-shape", level = 5 },

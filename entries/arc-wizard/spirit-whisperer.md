@@ -17,7 +17,7 @@ page = "133"
 [fields]
 kind = "archetype"
 features = [
-  { anchor = "arcane-bond" },
+  { anchor = "arcane-bond", level = 1 },
   { anchor = "spirit-link", level = 1 },
   { anchor = "spirit-hex", level = 5 },
 ]
