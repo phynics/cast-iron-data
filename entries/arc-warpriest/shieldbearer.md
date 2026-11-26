@@ -24,8 +24,7 @@ features = [
 ]
 trades = [
   { replaces = "Focus weapon", feature = "focus-weapon", by = ["shield-adept"] },
-  { alters = "Sacred weapon", feature = "sacred-weapon", by = ["sacred-weapon"] },
-  { replaces = "sacred armor", feature = "sacred-armor", by = ["sacred-weapon"] },
+  { alters = "Sacred weapon and also replaces sacred armor", feature = "sacred-weapon", by = ["sacred-weapon"] },
   { alters = "Channel energy", feature = "channel-energy", by = ["channel-energy"] },
 ]
 +++

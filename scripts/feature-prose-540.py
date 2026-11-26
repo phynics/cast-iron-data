@@ -1538,7 +1538,7 @@ def trade_sentences(text: str, head: str = "") -> list[tuple[str, str, bool]]:
         rest = sentence[verb.end():]
         # R11: two verbs, two sentences; "changes" is a verb only as the first one (owner ruling 25)
         # R16: the second clause may have a subject: ", and it replaces X" (it, this, he, she, they, with "also")
-        clause = r"(?:(?:(?:it|this|he|she|they)\s+)?(?:also\s+)?)?"          # "and also replaces X" (app #737)
+        clause = r"(?:(?:it|this|he|she|they)\s+(?:also\s+)?)?"
         parts = re.split(r"\s*,?\s+and\s+(?=" + clause + r"(?:replaces?|alters?)\b)", rest, flags=re.I)
         ops = [verb.group(1)] + [re.match(clause + r"(replaces?|alters?)", x, re.I).group(1) for x in parts[1:]]
         for op_word, part in zip(ops, parts):
@@ -5577,7 +5577,6 @@ def self_test() -> int:
                                        "Bonus feats gained at 3rd level", "Mount")],
        [1, 1, 1, 1, 1, 4, None, None], "table_level: a renamed trade still finds the class feature; a part of a feature does not")
     eq(join_paras("ref/arc-paladin/legate", "celestial-armor", "A.\n\nThe legate can use this ability a number of times per day."), "A. The legate can use this ability a number of times per day.", "join_paras")
-    eq(trade_sentences("This ability alters sacred weapon and also replaces sacred armor."), [("alters", "sacred weapon", False), ("replaces", "sacred armor", False)], "and also <verb> splits (app #737)")
     eq(bool(CAPS_TITLE.fullmatch("BLIGHTSEEKER (ALCHEMIST ARCHETYPE)")), True, "caps title")
     eq(bool(CAPS_TITLE.fullmatch("Blightseeker (Alchemist Archetype)")), False, "caps title lower case")
     eq(bool(CAPS_TITLE_HEAD.fullmatch("PSYCHIC MARAUDER (PSYCHIC")) and bool(CAPS_TITLE_TAIL.fullmatch("ARCHETYPE)")), True, "caps title wrapped")
@@ -6330,8 +6329,9 @@ TRADE_RENAMES.update({
     ("ref/arc-wizard/bonded-wizard", "10th-level bonus feat"): "The wizard's bonus feat normally gained at 10th level",
     ("ref/arc-wizard/instructor", "5th-, 10th-, 15th-, and 20th-level bonus feats"): "The bonus feats gained at 5th, 10th, 15th, and 20th level",
 })
-# print: "This ability alters sacred weapon and also replaces sacred armor": two trades, as the app reads it since #737 ("and also <verb>" splits)
-TRADE_OP_FIXES[("ref/arc-warpriest/shieldbearer", "sacred armor")] = "replaces"
+# print: "This ability alters sacred weapon and also replaces sacred armor": the app reads one `alters` phrase ("and also replaces" is no split)
+TRADE_RENAMES[("ref/arc-warpriest/shieldbearer", "Sacred weapon")] = "Sacred weapon and also replaces sacred armor"
+TRADE_MERGED["ref/arc-warpriest/shieldbearer"] = [("alters", "sacred armor")]
 # ruling 55 ("modifies" is an alters verb): the gap that its sentence leaves in this batch (the verb itself is the cross-batch PR's)
 TRADE_ADDITIONS["ref/arc-warpriest/shieldbearer"] = [{"alters": "Channel energy", "feature": "channel-energy"}]
 TRADE_ADDITIONS["ref/arc-alchemist/oozemaster"] = [{"replaces": "The bomb class feature", "feature": "bomb"}]
