@@ -16,9 +16,13 @@ page = "23"
 
 [fields]
 kind = "archetype"
+features = [
+  { anchor = "controlling-magic" },
+  { anchor = "spirit-surge", level = 3 },
+]
 trades = [
-  { replaces = "Spirit magic spells gained from the shaman's spirit", feature = "spirit-magic" },
-  { alters = "Deliver touch spells spirit animal ability" },
+  { replaces = "Spirit magic spells gained from the shaman's spirit", feature = "spirit-magic", by = ["controlling-magic"] },
+  { alters = "Deliver touch spells spirit animal ability", by = ["spirit-surge"] },
 ]
 +++
 
@@ -30,40 +34,22 @@ tribe's greater good. Other overseers become tyrants who enforce their will upon
 personal gain. In combat, an overseer manages the battlefield by debilitating foes using her hexes
 and specialized spells.
 
-**Controlling Magic (Su)**
+## Controlling Magic (Su) {#controlling-magic}
 
-**Info:** The overseer adds the following spells to the list of spells she can cast using _spirit
-magic_ at the given spell level:
+The overseer adds the following spells to the list of spells she can cast using spirit magic: _charm
+person_ (1st), _hideous laughter_ (2nd), _hold person_ (3rd), _crushing despair_ (4th), _feeblemind_
+(5th), _mass suggestion_ (6th), _power word blind_ (7th), _irresistible dance_ (8th), and _dominate
+monster_ (9th).
 
-**Replaces:** Spirit magic spells gained from the shaman's spirit
+This ability replaces the spirit magic spells gained from the shaman's spirit.
 
-**Spells:** Charm person
+## Spirit Surge (Ex) {#spirit-surge}
 
-**Spells:** Hideous laughter
-
-**Spells:** Hold person
-
-**Spells:** Crushing despair
-
-**Spells:** Feeblemind
-
-**Spells:** Mass suggestion
-
-**Spells:** Power word blind
-
-**Spells:** Irresistible dance
-
-**Spells:** Dominate monster
-
-**Spirit Surge (Ex)**
-
-**Ability:** An overseer gains the ability to cast any of her mind-affecting spells that target a
+At 3rd level, an overseer gains the ability to cast any of her mind-affecting spells that target a
 single creature through her spirit animal. When she's using this ability, the selected spell's range
 becomes touch, and she must deliver the spell through the spirit animal via the spirit animal's
-_deliver touch spells_ supernatural ability. The shaman's effective caster level for these spells is
-2 higher than her normal caster level. The overseer can deliver any other spells via the _deliver
-touch spells_ spirit animal ability.
+deliver touch spells supernatural ability. The shaman's effective caster level for these spells is 2
+higher than her normal caster level. The overseer can deliver any other spells via the deliver touch
+spells spirit animal ability.
 
-**Alters:** Deliver touch spells spirit animal ability
-
-**Gained:** At 3rd Level
+This alters the deliver touch spells spirit animal ability.

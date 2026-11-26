@@ -16,9 +16,14 @@ page = "18"
 
 [fields]
 kind = "archetype"
+features = [
+  { anchor = "gifted-detective", level = 1 },
+  { anchor = "a-thousand-faces", level = 11 },
+]
 trades = [
-  { replaces = "Monster lore", feature = "monster-lore" },
-  { replaces = "Stalwart", feature = "stalwart" },
+  { replaces = "Monster lore", feature = "monster-lore", by = ["gifted-detective"] },
+  { replaces = "Stalwart", feature = "stalwart", by = ["a-thousand-faces"] },
+  { alters = "Class skills" },
 ]
 +++
 
@@ -27,23 +32,24 @@ operating within an unfriendly society or infiltrating an enemy cult. This arche
 among Cult of the [Dawnflower](ref/faith/sarenrae) inquisitors operating in Taldor, but it is
 available to any inquisitor who prefers subtle investigation to forthright zeal.
 
-**Gained class skills:** dd, kh, kl, kno
+## Class Skills {#class-skills}
 
-**Lost class skills:** kd, kna
+An urban infiltrator adds Disable Device, Knowledge (history), Knowledge (local), and Knowledge
+(nobility) to her list of class skills in place of Knowledge (dungeoneering) and Knowledge (nature).
 
-**Gifted Detective (Ex)**
+This alters the inquisitor's class skills.
 
-**Passive:** An urban infiltrator adds her Wisdom modifier as well as her Charisma modifier on Bluff
-and Disguise skill checks and on Diplomacy checks to gather information. Attempting a Diplomacy
-check to gather information never takes an urban infiltrator more than 1 hour.
+## Gifted Detective (Ex) {#gifted-detective}
 
-**Replaces:** Monster lore
+An urban infiltrator adds her Wisdom modifier as well as her Charisma modifier on Bluff and Disguise
+skill checks and on Diplomacy checks to gather information. Attempting a Diplomacy check to gather
+information never takes an urban infiltrator more than 1 hour.
 
-**A Thousand Faces (Su)**
+This ability replaces monster lore.
 
-**Ability:** An urban inquisitor gains the ability to change her appearance at will, as if using the
-[alter self](ref/spell/alter-self) spell.
+## A Thousand Faces (Su) {#a-thousand-faces}
 
-**Gained:** At 11th Level
+At 11th level, an urban inquisitor gains the ability to change her appearance at will, as if using
+the _[alter self](ref/spell/alter-self)_ spell.
 
-**Replaces:** Stalwart
+This ability replaces stalwart.

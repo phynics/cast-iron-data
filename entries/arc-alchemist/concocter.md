@@ -16,10 +16,14 @@ page = "8"
 
 [fields]
 kind = "archetype"
+features = [
+  { anchor = "mutagenic-mixology", level = 2 },
+  { anchor = "extracting-mixology", level = 6 },
+]
 trades = [
-  { replaces = "The discoveries gained at 2nd and 4th levels", feature = "discovery", levels = [2, 4] },
-  { replaces = "Swift poisoning", feature = "swift-poisoning" },
-  { replaces = "the discovery gained at 6th level", feature = "discovery", levels = [6] },
+  { replaces = "The discoveries gained at 2nd and 4th levels", feature = "discovery", levels = [2, 4], by = ["mutagenic-mixology"] },
+  { replaces = "Swift poisoning", feature = "swift-poisoning", by = ["extracting-mixology"] },
+  { replaces = "the discovery gained at 6th level", feature = "discovery", levels = [6], by = ["extracting-mixology"] },
 ]
 +++
 
@@ -28,14 +32,10 @@ extracts, mutagens, and potions to create concoctions that give them exhilaratin
 seem reckless to those who aren't familiar with their ways, but those who know them understand that
 these alchemists simply have unorthodox methods.
 
-**Mutagenic Mixology (Ex)**
+## Mutagenic Mixology (Ex) {#mutagenic-mixology}
 
-**Ability:** Whenever a concocter brews a potion, he can mix in some of the chemicals he uses to
+At 2nd level, whenever a concocter brews a potion, he can mix in some of the chemicals he uses to
 create his mutagen, adding some of his mutagen's effects to this concoction.
-
-**Gained:** At 2nd Level
-
-**Replaces:** The discoveries gained at 2nd and 4th levels
 
 When he drinks this concoction, he gains the benefit of the potion as normal. Additionally, he gains
 a +2 natural armor bonus and a +4 alchemical bonus to one of his physical ability scores (Strength,
@@ -63,25 +63,27 @@ at a given time.
 A concocter can make one such concoction per day at 2nd level and a second per day at 4th level. A
 concoction becomes inert 24 hours after it is created.
 
-**Extracting Mixology (Ex)**
+This replaces the discoveries gained at 2nd and 4th levels.
 
-**Ability:** A concocter can combine an extract and a potion, allowing him to consume this mixture
-simultaneously, albeit with some potential side effects. As a **full-round action**, the concocter
-can combine an extract with a potion in his possession. The concocter can then drink the mixture as
-a **standard action**. If he does not consume the mixture within 2 rounds of creating it, the
-mixture grows inert and both the extract and the potion are ruined. This ability cannot be used with
-a potion into which he has fused his mutagen using his _mutagenic mixology_ ability.
+## Extracting Mixology (Ex) {#extracting-mixology}
 
-**Gained:** At 6th Level
-
-**Replaces:** Swift poisoning, the discovery gained at 6th level
+At 6th level, a concocter can combine an extract and a potion, allowing him to consume this mixture
+simultaneously, albeit with some potential side effects. As a full-round action, the concocter can
+combine an extract with a potion in his possession. The concocter can then drink the mixture as a
+standard action. If he does not consume the mixture within 2 rounds of creating it, the mixture
+grows inert and both the extract and the potion are ruined. This ability cannot be used with a
+potion into which he has fused his mutagen using his mutagenic mixology ability.
 
 The exact effects of drinking one of these mixtures are volatile and unpredictable. Each time the
 concocter drinks a mixture, roll on the following table to determine the result.
 
+**Mixture Effects**
+
 |d4|Effect|
 | --- | --- |
-|1|Either the extract (01-50 on a d%) or potion (51-100 on a d%) has no effect. The consumable that takes effect treats its caster level or the concocter's alchemist level as 2 higher, whichever is appropriate.|
+|1|Either the extract (01–50 on a d%) or potion (51–100 on a d%) has no effect. The consumable that takes effect treats its caster level or the concocter's alchemist level as 2 higher, whichever is appropriate.|
 |2|Both the extract and potion function normally.|
 |3|Both the extract and potion function normally but treat their caster level or the concocter's alchemist level as 2 higher, whichever is appropriate.|
 |4|Both the extract and potion function normally and are affected as though they were spells extended with the [Extend Spell](ref/feat/extend-spell) metamagic feat. If either the extract or the potion's duration is concentration, instantaneous, or permanent, both the extract and the potion simply function normally.|
+
+This replaces swift poisoning and the discovery gained at 6th level.

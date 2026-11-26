@@ -16,60 +16,58 @@ page = "12"
 
 [fields]
 kind = "archetype"
+features = [
+  { anchor = "adroit-poisoner", level = 2 },
+  { anchor = "subtle-poisoning", level = 4 },
+  { anchor = "needle-poisoner", level = 6 },
+  { anchor = "concealed-delivery", level = 8 },
+]
 trades = [
-  { replaces = "Evasion", feature = "evasion" },
-  { replaces = "Uncanny dodge", feature = "uncanny-dodge" },
-  { replaces = "Rogue talent gained at 6th level", feature = "rogue-talents", levels = [6] },
-  { replaces = "Improved uncanny dodge", feature = "improved-uncanny-dodge" },
+  { replaces = "Evasion", feature = "evasion", by = ["adroit-poisoner"] },
+  { replaces = "Uncanny dodge", feature = "uncanny-dodge", by = ["subtle-poisoning"] },
+  { replaces = "Rogue talent gained at 6th level", feature = "rogue-talents", levels = [6], by = ["needle-poisoner"] },
+  { replaces = "Improved uncanny dodge", feature = "improved-uncanny-dodge", by = ["concealed-delivery"] },
 ]
 +++
 
 While some assassins and killers prefer to be up front with their poison use, others favor a covert
 approach. Needlers use subtlety and misdirection to deliver deadly poisons to unsuspecting victims
 in creative and unorthodox ways. This archetype is appropriate for rogues built using the rules from
-the Pathfinder RPG Core Rulebook as well as for unchained rogues.
+the _Pathfinder RPG Core Rulebook_ as well as for unchained rogues (_Pathfinder RPG Pathfinder
+Unchained_ 20).
 
-**Adroit Poisoner (Ex)**
+## Adroit Poisoner (Ex) {#adroit-poisoner}
 
-**At 2nd Level:** A needler gains a +2 bonus on Sleight of Hand checks. This bonus increases to +4
-when the needler uses Sleight of Hand to draw a hidden weapon that is coated in poison.
+At 2nd level, a needler gains a +2 bonus on Sleight of Hand checks. This bonus increases to +4 when
+the needler uses Sleight of Hand to draw a hidden weapon that is coated in poison. At 8th level,
+these bonuses increase to +4 and +6, respectively.
 
-**At 8th Level:** These bonuses increase to +4 and +6, respectively.
+This replaces evasion.
 
-**Replaces:** Evasion
+## Subtle Poisoning (Ex) {#subtle-poisoning}
 
-**Subtle Poisoning (Ex)**
-
-**Ability:** A needler can apply a contact or ingested poison to her weapon and deliver it as if it
+At 4th level, a needler can apply a contact or ingested poison to her weapon and deliver it as if it
 were an injury poison. The poison must be delivered within 1 minute of this application, or it is
 wasted. The DC of the saving throw to resist the poison decreases by 1 when the needler uses this
 ability to deliver a contact or ingested poison via injury.
 
-**Gained:** At 4th Level
+This replaces uncanny dodge.
 
-**Replaces:** Uncanny dodge
+## Needle Poisoner (Ex) {#needle-poisoner}
 
-**Needle Poisoner (Ex)**
+At 6th level, a needler can apply a dose of poison to a weapon as a swift action. This ability
+counts as swift poisoning for the purpose of meeting prerequisites.
 
-**Gained:** At 6th Level
+This replaces the rogue talent gained at 6th level.
 
-**Replaces:** Rogue talent gained at 6th level
+## Concealed Delivery (Ex) {#concealed-delivery}
 
-**Special:** This ability counts as _swift poisoning_ for the purpose of meeting prerequisites.
-
-**Swift:** A needler can apply a dose of poison to a weapon.
-
-**Concealed Delivery (Ex)**
-
-**Flavor:** A needler learns how to deliver all types of poisons with subtlety.
-
-**Gained:** At 8th Level
-
-**Replaces:** Improved uncanny dodge
-
-**Standard:** She can deliver an ingested or inhaled poison to a creature within reach by placing a
-dose of poison on the target's lips, on the target's neck, or through other similar contact with the
+At 8th level, a needler learns how to deliver all types of poisons with subtlety. As a standard
+action, she can deliver an ingested or inhaled poison to a creature within reach by placing a dose
+of poison on the target's lips, on the target's neck, or through other similar contact with the
 target's skin as if the poison were a contact poison. Delivering poison in this way requires a
 successful Sleight of Hand check opposed by the target's Perception check. The poison is not lost on
 a failed check, but it must be successfully delivered within 1 minute of the first attempt, or it is
 wasted.
+
+This replaces improved uncanny dodge.

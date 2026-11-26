@@ -16,8 +16,12 @@ page = "22"
 
 [fields]
 kind = "archetype"
+features = [
+  { anchor = "dual-heritage", level = 1 },
+  { anchor = "half-elf-double-scion-talents" },
+]
 trades = [
-  { alters = "Dual identity", feature = "dual-identity" },
+  { alters = "Dual identity", feature = "dual-identity", by = ["dual-heritage"] },
 ]
 +++
 
@@ -27,45 +31,38 @@ of their heritage be known. This other identity can be either a force for good, 
 half-elf to express a part of himself that has been denied to him, or for evil, with the half-elf
 hurting others to make up for his own pain.
 
-**Prerequisites:** Half-elf
+## Dual Heritage {#dual-heritage}
 
-**Dual Heritage**
+A half-elf double scion appears to be an elf in one identity and a human in the other identity. He
+takes no penalties to Disguise checks to appear as the race that matches his current identity. The
+selection of which race is the social identity and which is the vigilante identity is made at 1st
+level and cannot be changed. Additionally, when a half-elf double scion switches from one identity
+to another, he is representing different aspects of his heritage rather than personality. As a
+result, a half-elf double scion has the same alignment in both of his identities.
 
-**Alters:** Dual identity
+This alters dual identity.
 
-**Info:** A half-elf double scion appears to be an elf in one identity and a human in the other
-identity. He takes no penalties to Disguise checks to appear as the race that matches his current
-identity. The selection of which race is the social identity and which is the vigilante identity is
-made at 1st level and cannot be changed. Additionally, when a half-elf double scion switches from
-one identity to another, he is representing different aspects of his heritage rather than
-personality. As a result, a half-elf double scion has the same alignment in both of his identities.
+## Half-Elf Double Scion Talents {#half-elf-double-scion-talents}
 
-**Half-Elf Double Scion Talents**
+A half-elf double scion can select from the following vigilante talents, in addition to general
+vigilante talents.
 
-**Info:** A half-elf double scion can select from the following vigilante talents, in addition to
-general vigilante talents.
+### Elven Weapon Command (Ex) {#elven-weapon-command}
 
-**Elven Weapon Command (Ex)**
+A half-elf double scion can wield traditional elven weapons as well as elves can. The half-elf
+double scion treats any weapon with the word "elven" in its name as a martial weapon, and gains
+[Weapon Focus](ref/feat/weapon-focus) as a bonus feat for one such weapon.
 
-**Ability:** The half-elf double scion treats any weapon with the word "elven" in its name as a
-martial weapon, and gains [Weapon Focus](ref/feat/weapon-focus) as a bonus feat for one such weapon.
+### Arrogant Strike (Ex) {#arrogant-strike}
 
-**Flavor:** A half-elf double scion can wield traditional elven weapons as well as elves can.
+A half-elf double scion has a highly confident style in battle, characteristic of both humans and
+elves. A half-elf double scion can declare that he is using this ability at the beginning of his
+turn as a free action. He automatically confirms any critical hits until the beginning of his next
+turn. He can use this ability once per day plus one additional time at 14th level and 18th level. A
+half-elf double scion must be at least 10th level to select this talent.
 
-**Arrogant Strike (Ex)**
+### Slick Step (Ex) {#slick-step}
 
-**Flavor:** A half-elf double scion has a highly confident style in battle, characteristic of both
-humans and elves.
-
-**Free:** A half-elf double scion can declare that he is using this ability. He automatically
-confirms any critical hits until the beginning of his next turn.
-
-**Prereq:** 10th-level vigilante
-
-**Usage:** 1 time/day + 1 per 4 vigilante levels beyond 10th
-
-**Slick Step (Ex)**
-
-**Move:** A half-elf double scion can move 10 feet without provoking an attack of opportunity. This
-movement cannot pass through an opponent's square and must otherwise be a legal movement. He cannot
-draw a weapon during this movement.
+A half-elf double scion can, as a move action, move 10 feet without provoking an attack of
+opportunity. This movement cannot pass through an opponent's square and must otherwise be a legal
+movement. He cannot draw a weapon during this movement.

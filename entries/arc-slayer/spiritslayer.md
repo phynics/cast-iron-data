@@ -16,9 +16,15 @@ page = "15"
 
 [fields]
 kind = "archetype"
+features = [
+  { anchor = "spirit-sense", level = 2 },
+  { anchor = "spiritslayer-talents" },
+  { anchor = "ghost-slayer", level = 7 },
+]
 trades = [
-  { replaces = "Slayer talent gained at 2nd level", feature = "slayer-talents", levels = [2] },
-  { replaces = "Stalker", feature = "stalker" },
+  { replaces = "Slayer talent gained at 2nd level", feature = "slayer-talents", levels = [2], by = ["spirit-sense"] },
+  { replaces = "Stalker", feature = "stalker", by = ["ghost-slayer"] },
+  { alters = "Sneak attack", feature = "sneak-attack", by = ["spiritslayer-talents"] },
 ]
 +++
 
@@ -28,80 +34,61 @@ demons, and other incorporeal creatures that their techniques have spread across
 region and beyond. Ironically, most now are trained and employed by the church of Pharasma to cull
 wicked spirits.
 
-**Spirit Sense (Ex)**
+## Spirit Sense (Ex) {#spirit-sense}
 
-**Ability:** He gains [Blind-Fight](ref/feat/blind-fight) as a bonus feat and ignores the usual +20
-bonus to the DC of any Perception check to pinpoint the location of an invisible creature.
+At 2nd level, a spiritslayer manifests an uncanny sixth sense regarding the presence of invisible
+creatures. He gains [Blind-Fight](ref/feat/blind-fight) as a bonus feat and ignores the usual +20
+bonus to the DC of any Perception check to pinpoint the location of an invisible creature. If the
+spiritslayer manages to pinpoint an invisible creature's location using a Perception check, he can
+study that creature with his studied target ability as a swift action.
 
-**Ability2:** If the spiritslayer manages to pinpoint an invisible creature's location using a
-Perception check, he can study that creature with his _studied target_ ability as a **swift
-action**.
+In addition, whenever the spiritslayer studies a possessed creature, he can automatically switch his
+studied target from the possessed creature to the possessing entity should that entity be expelled
+from his studied target. A spiritslayer adds his studied target bonus on attack rolls to all saving
+throws he attempts against possession effects used by his studied targets.
 
-**Ability3:** In addition, whenever the spiritslayer studies a possessed creature, he can
-automatically switch his _studied target_ from the possessed creature to the possessing entity
-should that entity be expelled from his _studied target._
+This ability replaces the slayer talent gained at 2nd level.
 
-**Flavor:** A spiritslayer manifests an uncanny sixth sense regarding the presence of invisible
-creatures.
+## Spiritslayer Talents {#spiritslayer-talents}
 
-**Gained:** At 2nd Level
+A spiritslayer can select the following slayer talents, in addition to general slayer talents.
 
-**Passive:** A spiritslayer adds his _studied target_ bonus on attack rolls to all saving throws he
-attempts against possession effects used by his _studied targets._
+### Disrupt Possession (Ex) {#disrupt-possession}
 
-**Replaces:** Slayer talent gained at 2nd level
+Whenever a spiritslayer with this talent deals sneak attack damage to a creature that is being
+possessed, he also deals his sneak attack damage to the possessing entity. Once per round, a
+possessed creature that is damaged by disrupt possession can attempt a new Will saving throw to end
+the possession, gaining a +1 bonus on its save for each sneak attack damage die the spiritslayer
+rolled. This talent alters the spiritslayer's sneak attack, and doesn't stack with other talents
+that alter sneak attack. A spiritslayer must be at least 8th level before selecting this talent.
 
-**Spiritslayer Talents**
+### Greater Spirit Sense {#greater-spirit-sense}
 
-**Ability:** A spiritslayer can select the following slayer talents, in addition to general slayer
-talents.
+A spiritslayer who selects this talent gains [Greater Blind-Fight](ref/feat/greater-blind-fight) as
+a bonus feat, ignoring its prerequisites. In addition, he adds 1/2 his slayer level to his
+Perception checks to pinpoint the location of ethereal creatures, and once per round he can attempt
+a Perception check to pinpoint the locations of all invisible creatures within 30 feet of him
+without needing to take an action. A spiritslayer must be at least 10th level and have the improved
+spirit sense spiritslayer talent before selecting this talent.
 
-**Disrupt Possession (Ex)**
+### Improved Spirit Sense {#improved-spirit-sense}
 
-**Ability:** Whenever a spiritslayer with this talent deals sneak attack damage to a creature that
-is being possessed, he also deals his sneak attack damage to the possessing entity. Once per round,
-a possessed creature that is damaged by _disrupt possession_ can attempt a new Will saving throw to
-end the possession, gaining a +1 bonus on its save for each sneak attack damage die the spiritslayer
-rolled.
+A spiritslayer who selects this talent gains [Improved Blind-Fight](ref/feat/improved-blind-fight)
+as a bonus feat, ignoring its prerequisites. In addition, he adds 1/2 his slayer level on Perception
+checks to pinpoint the location of an invisible creature. He can use Perception to pinpoint the
+location of an ethereal creature, but he doesn't gain this bonus on Perception checks when doing so.
+A spiritslayer must be at least 6th level before selecting this talent.
 
-**Prereq:** 8th-level slayer
+## Ghost Slayer (Ex) {#ghost-slayer}
 
-**Special:** This talent is considered a Primary Sneak Attack Talent, alters the spiritslayer's
-sneak attack, and doesn't stack with other talents that alter sneak attack.
-
-**Improved Spirit Sense**
-
-**Ability:** A spiritslayer who selects this talent gains
-[Improved Blind-Fight](ref/feat/improved-blind-fight) as a bonus feat, ignoring its prerequisites.
-In addition, he adds 1/2 his slayer level on Perception checks to pinpoint the location of an
-invisible creature.
-
-**Ability2:** He can use Perception to pinpoint the location of an ethereal creature, but he doesn't
-gain this bonus on Perception checks when doing so.
-
-**Prereq:** 6th-level slayer
-
-**Greater Spirit Sense**
-
-**Ability:** A spiritslayer who selects this talent gains
-[Greater Blind-Fight](ref/feat/greater-blind-fight) as a bonus feat, ignoring its prerequisites. In
-addition, he adds 1/2 his slayer level to his Perception checks to pinpoint the location of ethereal
-creatures, and once per round he can attempt a Perception check to pinpoint the locations of all
-invisible creatures within 30 feet of him without needing to take an action.
-
-**Prereq:** 10th-level slayer, Improved Spirit Sense
-
-**Ghost Slayer (Ex)**
-
-**At 14th Level:** The spiritslayer's attacks against outsiders or undead creatures with the
-incorporeal subtype ignore the 50% reduction in damage from magical corporeal sources that such
-creatures have and can deal precision-based damage to incorporeal creatures.
-
-**At 7th Level:** Whenever a spiritslayer makes an outsider or undead creature with the
-[incorporeal](ref/subtype/incorporeal) subtype his _studied target,_ his attacks count as magic for
+At 7th level, whenever a spiritslayer makes an outsider or undead creature with the
+[incorporeal](ref/subtype/incorporeal) subtype his studied target, his attacks count as magic for
 the purpose of striking that creature (though this doesn't give his attacks an enhancement bonus)
 and he can deal precision-based damage to such creatures (though his precision damage is reduced by
 50% unless he has a means to bypass the creature's reduction in damage from corporeal sources, such
-as a [ghost touch](ref/magic-enh/ghost-touch-weapon) weapon).
+as a _[ghost touch](ref/magic-enh/ghost-touch-weapon)_ weapon). At 14th level, the spiritslayer's
+attacks against outsiders or undead creatures with the incorporeal subtype ignore the 50% reduction
+in damage from magical corporeal sources that such creatures have and can deal precision-based
+damage to incorporeal creatures.
 
-**Replaces:** Stalker
+This ability replaces stalker.
