@@ -5271,10 +5271,9 @@ IMPORT_HEAD_FIXES.update({
         ("Dualistic Energy (Su)", "Elemental"), ("Amusing Familiar (Su)", "Fey"), ("Hellish Aura (Su)", "Infernal"),
         ("Unliving Physiology (Su)", "Undead"))},
 })
-# Scaled Fist (Legacy of Dragons p. 14): "This ability modifies bonus feats" stands under the unlisted Bonus Feats scaffold, so `alters Bonus feats` has
-# no printed home in a listed feature, but the app does not read "modifies" as a trade verb and a trade without `by` then drifts; the trade stays on
-# Draconic Might, which gains no level from it (the owner asked for no `by`: reported in the PR)
-NO_LEVEL_ONE.add(("ref/arc-monk/scaled-fist", "draconic-might"))
+# Scaled Fist (Legacy of Dragons p. 14): "This ability modifies bonus feats" stands under the unlisted Bonus Feats scaffold: `alters Bonus feats` has no
+# `by` (rulings 13 and 55) and Draconic Might gains no level from it
+TRADE_NO_BY.setdefault("ref/arc-monk/scaled-fist", []).append("Bonus feats")
 # Ectoplasm Master (Haunted Heroes Handbook p. 14): "This discovery modifies the alchemist's bombs" (ruling 55); one discovery of a list is a part of bombs, so no level
 TRADE_ADDITIONS.setdefault("ref/arc-alchemist/ectoplasm-master", []).append({"alters": "The alchemist's bombs", "feature": "bomb"})
 NO_LEVEL_ONE.add(("ref/arc-alchemist/ectoplasm-master", "ectoplasm-master-discoveries"))
