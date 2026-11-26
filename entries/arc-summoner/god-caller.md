@@ -17,7 +17,7 @@ page = "40"
 [fields]
 kind = "archetype"
 features = [
-  { anchor = "guidance" },
+  { anchor = "guidance", level = 1 },
   { anchor = "divine-word", level = 8 },
   { anchor = "divine-awareness", level = 10 },
   { anchor = "divine-might", level = 18 },
@@ -86,7 +86,7 @@ This ability replaces greater aspect.
 ## Overwhelming Presence (Sp) {#overwhelming-presence}
 
 At 20th level, a god caller's eidolon can use
-[overwhelming presence](ref/spell/overwhelming-presence) three times per day. The save DC is equal
+_[overwhelming presence](ref/spell/overwhelming-presence)_ three times per day. The save DC is equal
 to 19 + the eidolon's Charisma modifier.
 
 This ability replaces twin eidolon.

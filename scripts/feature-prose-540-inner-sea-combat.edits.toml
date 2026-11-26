@@ -9,7 +9,7 @@ A hamatulatsu master replaces the normal monk bonus feats with the following: [D
 [[edit]]
 entry = "ref/arc-cavalier/wave-rider"
 anchor = "seafaring-companion"
-note = "hand-written by the batch lead from the page (Inner Sea Combat p. 47, page checked as an image): the last line of the ability, \"to and replaces the cavalier's mount ability.\", is not in the text layer of the scan. Print says the ability \"functions identically to and replaces the cavalier's mount ability\" (the corpus has an alteration), so the stored trade is a replacement."
+note = "hand-written by the batch lead from the page (Inner Sea Combat p. 47, page checked as an image): the last line of the ability, \"to and replaces the cavalier's mount ability.\", is not in the text layer of the scan. Print says the ability \"functions identically to and replaces the cavalier's mount ability\" (the corpus has an alteration), so the stored trade is a replacement. The link of \"mount\" points at the cavalier's mount ability, not at the spell."
 text = '''
-At 1st level, a wave rider gains [Monstrous Mount](ref/feat/monstrous-mount) (see page 14) as a bonus feat. The wave rider can use this feat only to select a [hippocampus mount](ref/companion/hippocampus) (see page 14). Otherwise, this ability functions identically to and replaces the cavalier's mount ability.
+At 1st level, a wave rider gains [Monstrous Mount](ref/feat/monstrous-mount) (see page 14) as a bonus feat. The wave rider can use this feat only to select a [hippocampus mount](ref/companion/hippocampus) (see page 14). Otherwise, this ability functions identically to and replaces the cavalier's [mount](ref/class/cavalier#mount) ability.
 '''

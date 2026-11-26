@@ -93,7 +93,7 @@ This replaces the teamwork feat granted at 6th level.
 
 ## Greater Detect Magic (Sp) {#greater-detect-magic}
 
-At 12th level, a royal accuser can use [greater detect magic](ref/spell/detect-magic-greater) at
+At 12th level, a royal accuser can use _[greater detect magic](ref/spell/detect-magic-greater)_ at
 will.
 
 This ability replaces the teamwork feat granted at 12th.

@@ -18,7 +18,7 @@ page = "43"
 kind = "archetype"
 features = [
   { anchor = "nondetection" },
-  { anchor = "infiltrating-vessel" },
+  { anchor = "infiltrating-vessel", level = 3 },
   { anchor = "prepare-results", level = 4 },
 ]
 trades = [

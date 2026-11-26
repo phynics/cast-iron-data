@@ -78,5 +78,5 @@ _[dance of a hundred cuts](ref/spell/dance-of-a-hundred-cuts)_, using his monk l
 level. Unlike the spell, a monk of the seven forms must both move 10 feet and make a melee attack
 each round after he begins this trance to prevent the effect from ending. At 15th level, he can
 instead spend 3 ki points when using this ability to make his trance replicate
-[dance of a thousand cuts](ref/spell/dance-of-a-thousand-cuts) with the same limitations. This
+_[dance of a thousand cuts](ref/spell/dance-of-a-thousand-cuts)_ with the same limitations. This
 ability replaces abundant step and quivering palm.

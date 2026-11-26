@@ -18,7 +18,7 @@ page = "45"
 kind = "archetype"
 features = [
   { anchor = "grit" },
-  { anchor = "engineer-training" },
+  { anchor = "engineer-training", level = 2 },
   { anchor = "deeds" },
   { anchor = "targeted-blast", level = 1 },
   { anchor = "scattershot", level = 3 },
@@ -32,7 +32,7 @@ trades = [
 +++
 
 The Grand Duchy of Alkenstar has spawned all manner of firearm specialists, wielding small and large
-firearms alike. Siege gunners specialize in the very largest-[cannons](ref/eq-siegeengine/cannon),
+firearms alike. Siege gunners specialize in the very largest—[cannons](ref/eq-siegeengine/cannon),
 [bombards](ref/eq-siegeengine/bombard-standard), and [firedrakes](ref/eq-siegeengine/firedrake).
 These specialists are rarely seen outside of Alkenstar, however, in part because the duchy keeps
 close tabs on its most powerful guns and few are found elsewhere in the Inner Sea. A few siege

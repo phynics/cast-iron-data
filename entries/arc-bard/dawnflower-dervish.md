@@ -18,7 +18,7 @@ page = "34"
 kind = "archetype"
 features = [
   { anchor = "deity" },
-  { anchor = "battle-dance" },
+  { anchor = "battle-dance", level = 1 },
   { anchor = "dervish-dance", level = 1 },
   { anchor = "spinning-spellcaster", level = 5 },
   { anchor = "meditative-whirl", level = 8 },

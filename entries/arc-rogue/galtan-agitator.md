@@ -74,7 +74,7 @@ This replaces the rogue talent gained at 4th level.
 ## Revolutionary's Cause (Su) {#revolutionary-s-cause}
 
 At 8th level, the Galtan agitator can lift an enthralled crowd's emotions and turn them toward a
-common purpose. As a standard action after she has used her enthralling agitation —but before the
+common purpose. As a standard action after she has used her enthralling agitation—but before the
 [enthrall](ref/spell/enthrall) effect wears off—she can target the affected creatures with a
 plausible _[suggestion](ref/spell/suggestion)_ (DC = 10 + 1/2 her rogue level + her Charisma
 modifier). that has a duration of up to 1 day.

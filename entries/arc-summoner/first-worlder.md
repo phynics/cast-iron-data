@@ -19,7 +19,7 @@ kind = "archetype"
 features = [
   { anchor = "summon-nature-s-ally", level = 1 },
   { anchor = "fey-summons", level = 3 },
-  { anchor = "eidolon" },
+  { anchor = "eidolon", level = 1 },
 ]
 trades = [
   { replaces = "Summon monster ability of a normal summoner", feature = "summon-monster-i", by = ["summon-nature-s-ally"] },

@@ -22,7 +22,7 @@ features = [
   { anchor = "costume-proficiency", level = 5 },
   { anchor = "bardic-performance" },
   { anchor = "devastating-aria", level = 3 },
-  { anchor = "scathing-tirade" },
+  { anchor = "scathing-tirade", level = 8 },
 ]
 trades = [
   { replaces = "Bardic knowledge", feature = "bardic-knowledge", by = ["famous"] },

@@ -18,7 +18,7 @@ page = "43"
 kind = "archetype"
 features = [
   { anchor = "aura-of-the-grave", level = 3 },
-  { anchor = "corpse-rider" },
+  { anchor = "corpse-rider", level = 5 },
   { anchor = "aura-of-death", level = 8 },
   { anchor = "aura-of-rebirth", level = 11 },
   { anchor = "code-of-conduct" },
@@ -74,7 +74,7 @@ At 8th level, a seal-breaker radiates an aura that causes undead creatures withi
 At 11th level, if a living creature is slain within 10 feet of the seal-breaker, the seal-breaker
 can spend two uses of his smite good ability at the start of his next turn as a standard action to
 summon the spirit of a dead murderer to reanimate the corpse as a [mohrg](ref/monster/mohrg). The
-mohrg immediately rises and attacks the seal breaker's foes, acting under the antipaladin's command.
+mohrg immediately rises and attacks the seal-breaker's foes, acting under the antipaladin's command.
 After 1 minute, the murderer's soul leaves the body, which collapses, again lifeless. At 15th level,
 the seal-breaker can activate this ability as a move action. At 19th level, he can activate this
 ability as a swift action. This ability replaces aura of vengeance.

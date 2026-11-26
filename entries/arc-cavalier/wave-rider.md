@@ -39,4 +39,4 @@ not with shields. This replaces the cavalier's weapon and armor proficiencies.
 At 1st level, a wave rider gains [Monstrous Mount](ref/feat/monstrous-mount) (see page 14) as a
 bonus feat. The wave rider can use this feat only to select a
 [hippocampus mount](ref/companion/hippocampus) (see page 14). Otherwise, this ability functions
-identically to and replaces the cavalier's [mount](ref/spell/mount) ability.
+identically to and replaces the cavalier's [mount](ref/class/cavalier#mount) ability.

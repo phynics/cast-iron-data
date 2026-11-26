@@ -18,8 +18,8 @@ page = "44"
 kind = "archetype"
 features = [
   { anchor = "nithveil-skills", level = 1 },
-  { anchor = "nature-bond" },
-  { anchor = "animal-speech" },
+  { anchor = "nature-bond", level = 1 },
+  { anchor = "animal-speech", level = 1 },
   { anchor = "resist-fey-influence", level = 4 },
   { anchor = "locate-nithveil", level = 9 },
 ]

@@ -121,6 +121,6 @@ Gunslinger feat—two from the list of deeds available to 15th-level gunslingers
 list available to 19th-level gunslingers.
 
 In addition, if the Spellscar drifter confirms a critical hit on an attack made with a firearm, the
-target is [stunned](ref/misc/stunned) for 1d4 rounds. A successful Will saving throw (DC 10 + the
-Spellscar drifter's base attack bonus) = reduces this effect to [staggered](ref/misc/staggered)
+target is [stunned](ref/misc/stunned) for 1d4 rounds. A successful Will saving throw (DC = 10 + the
+Spellscar drifter's base attack bonus) reduces this effect to [staggered](ref/misc/staggered)
 instead of stunned. This ability replaces supreme charge.

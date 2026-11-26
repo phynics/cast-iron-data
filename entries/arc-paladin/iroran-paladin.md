@@ -24,7 +24,7 @@ features = [
   { anchor = "personal-trial", level = 1 },
   { anchor = "aura-of-excellence", level = 3 },
   { anchor = "ki-pool", level = 4 },
-  { anchor = "divine-body" },
+  { anchor = "divine-body", level = 5 },
   { anchor = "aura-of-perfection", level = 11 },
 ]
 trades = [
@@ -42,7 +42,7 @@ trades = [
 +++
 
 Iroran paladins meditate on self-perfection and train relentlessly, knowing that their example can
-inspire others to excel. [Irori](ref/faith/irori) offers no universal paladin code-each paladin in
+inspire others to excel. [Irori](ref/faith/irori) offers no universal paladin code—each paladin in
 his service creates his own code as part of his spiritual journey, seeing the adherence to such a
 self-formulated creed as one of the many tests one must face to reach perfection.
 
