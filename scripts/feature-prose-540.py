@@ -5169,6 +5169,12 @@ LEVEL_NONE = {
     ("ref/arc-medium/nexian-channeler", "third-eye"),
 }
 # a feature that replaces or alters only a part of a feature gets no level from the trade (owner ruling 48)
+LEVEL_FROM_PRINT.update({
+    # Geist Channeler (Occult Adventures p. 109): "This ability alters the phantom" (Geistform Phantom) and "This ability modifies the phantom and replaces the
+    # phantom's emotional focus" (Emotionless, ruling 55): two features state the one trade `alters Phantom`, a whole 1st-level feature (ruling 50)
+    ("ref/arc-spiritualist/geist-channeler", "geistform-phantom"): (1, "ruling 50: alters the phantom, a whole 1st-level feature (also stated by Emotionless)"),
+    ("ref/arc-spiritualist/geist-channeler", "emotionless"): (1, "rulings 50 and 55: modifies the phantom, a whole 1st-level feature"),
+})
 NO_LEVEL_ONE = {
     ("ref/arc-gunslinger/bushwhacker", "craven-deeds"),       # "replaces some of her deeds with the following deeds"
 }
