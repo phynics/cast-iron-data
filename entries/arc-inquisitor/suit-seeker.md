@@ -92,6 +92,8 @@ effect ends.
 A suit seeker does not gain access to and cannot use the justice, resistance, or purity judgments. A
 suit seeker makes the following adjustments to her judgments.
 
+This ability modifies judgment, second judgment, and third judgment.
+
 ## Smiting {#smiting}
 
 At 6th level, while the suit seeker has her smiting judgment active, her weapons can only count as
@@ -110,8 +112,6 @@ cards in her current improvised array. If multiple alignments are represented in
 array, the suit seeker must select one. If the array contains only neutral cards, the suit seeker
 cannot benefit from this judgment. She can change the alignment of this judgment to another
 alignment represented in the array as a swift action.
-
-This ability modifies judgment, second judgment, and third judgment.
 
 ## Eye of the Harrow (Su) {#eye-of-the-harrow}
 

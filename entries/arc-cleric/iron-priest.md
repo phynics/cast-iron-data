@@ -16,9 +16,13 @@ page = "12"
 
 [fields]
 kind = "archetype"
+features = [
+  { anchor = "channel-energy", level = 1 },
+  { anchor = "spontaneous-casting" },
+]
 trades = [
-  { alters = "Channel energy", feature = "channel-energy" },
-  { alters = "Casting", feature = "spells" },
+  { alters = "Channel energy", feature = "channel-energy", by = ["channel-energy"] },
+  { alters = "Casting", feature = "spells", by = ["spontaneous-casting"] },
 ]
 +++
 
@@ -28,23 +32,23 @@ channeled energy, but lack power over the undead. Appropriate deities for an Iro
 [Brigh](ref/faith/brigh), [Nethys](ref/faith/nethys), [Gorum](ref/faith/gorum), and
 [Haagenti](ref/faith/haagenti). An iron priest has the following class features.
 
-**Gained class skills:** dd, ke, kl, sur
+## Class Skills {#class-skills}
 
-**Lost class skills:** ka, kno, kp, sm
+The iron priest's class skills are Appraise (Int), Craft (Int), Diplomacy (Cha), Disable Device
+(Dex), Heal (Wis), Knowledge (engineering) (Int), Knowledge (history) (Int), Knowledge (local),
+Knowledge (religion) (Int), Linguistics (Int), Profession (Wis), Spellcraft (Int), and Survival
+(Wis).
 
-**Channel Energy (Su)**
+## Channel Energy (Su) {#channel-energy}
 
-**Ability:** When an iron priest _channels energy_ to heal or harm living creatures, she heals or
-harms constructs with the clockwork or robot subtypes as well. Constructs without those subtypes are
-also affected, but gain only half the normal amount of healing or take only half the normal amount
-of damage, as appropriate. An iron priest cannot harm or heal undead with _channel energy._
+When an iron priest channels energy to heal or harm living creatures, she heals or harms constructs
+with the clockwork or robot subtypes as well. Constructs without those subtypes are also affected,
+but gain only half the normal amount of healing or take only half the normal amount of damage, as
+appropriate. This ability alters channel energy.
 
-**Alters:** Channel energy
+## Spontaneous Casting {#spontaneous-casting}
 
-**Spontaneous Casting**
-
-**Ability:** An iron priest can spontaneously cast [make whole](ref/spell/make-whole) and
-[greater make whole](ref/spell/make-whole-greater) in place of _cure/inflict moderate wounds_ and
-_cure/inflict critical wounds,_ regardless of whether she channels positive or negative energy.
-
-**Alters:** Casting
+An iron priest can spontaneously cast _[make whole](ref/spell/make-whole)_ and
+_[greater make whole](ref/spell/make-whole-greater)_ in place of _cure/inflict moderate wounds_ and
+_cure/inflict critical wounds_, regardless of whether she channels positive or negative energy. This
+ability alters casting.
