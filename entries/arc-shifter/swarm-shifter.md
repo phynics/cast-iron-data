@@ -16,140 +16,113 @@ page = "7"
 
 [fields]
 kind = "archetype"
+features = [
+  { anchor = "vermin-aspect", level = 1 },
+  { anchor = "swarmer", level = 4 },
+  { anchor = "swarm-flow", level = 9 },
+  { anchor = "greater-swarm-flow", level = 14 },
+  { anchor = "final-aspect", level = 20 },
+]
 trades = [
-  { replaces = "Wild shape", feature = "wild-shape" },
-  { replaces = "shifter aspect", feature = "shifter-aspect" },
-  { replaces = "Chimeric aspect", feature = "chimeric-aspect" },
-  { replaces = "Greater chimeric aspect", feature = "greater-chimeric-aspect" },
-  { alters = "Final aspect", feature = "final-aspect" },
+  { replaces = "Wild shape", feature = "wild-shape", by = ["vermin-aspect"] },
+  { replaces = "Shifter aspect, and all improvements to shifter aspect", feature = "shifter-aspect", by = ["vermin-aspect"] },
+  { replaces = "Chimeric aspect", feature = "chimeric-aspect", by = ["swarm-flow"] },
+  { replaces = "Greater chimeric aspect", feature = "greater-chimeric-aspect", by = ["greater-swarm-flow"] },
+  { alters = "Final aspect", feature = "final-aspect", by = ["final-aspect"] },
 ]
 +++
 
 Swarm shifters channel the essence of the basest and most overlooked animals, vermin.
 
-**Swarm**
+## Vermin Aspect (Su) {#vermin-aspect}
 
-**Ability:** A shifter that uses **alternate natural attacks** can choose from Bite (B, P, S),
-Pincers (B), or Sting (P).
+As a swift action, a swarm shifter can transform into a swarm of vermin. While in her vermin form,
+she gains a +2 bonus to natural armor. Her size increases by one size category (as
+_[enlarge person](ref/spell/enlarge-person)_, except her reach does not increase to 10 feet), but
+she can occupy the same space as a creature of any size. She must still attack a target as normal,
+even if occupying the same space as her target. She can maintain this form for a number of minutes
+per day equal to 3 + her shifter level. The duration does not need to be consecutive, but it must be
+spent in 1-minute increments.
 
-**Vermin Aspect (Su)**
+At 5th level, a swarm shifter becomes immune to [bull rush](ref/rule/bull-rush),
+[grapple](ref/rule/grapple), and [trip](ref/rule/trip) combat maneuvers while in vermin form. At
+10th level, the swarm shifter's bonus to natural armor increases to +4 while in vermin form.
 
-**At 10th Level:** The swarm shifter's bonus to natural armor increases to +4 while in vermin form.
-
-**At 15th Level:** A swarm shifter gains the [distraction](ref/umr/distraction) universal monster
+At 15th level, a swarm shifter gains the [distraction](ref/umr/distraction) universal monster
 ability while in vermin form.
 
-**At 20th Level:** The swarm shifter becomes immune to critical hits and
-[flanking](ref/rule/flanking) while in vermin form, but unlike a normal swarm, doesn't become immune
-to normal weapon damage.
+At 20th level, the swarm shifter becomes immune to critical hits and [flanking](ref/rule/flanking)
+while in vermin form, but unlike a normal swarm, doesn't become immune to normal weapon damage.
 
-**At 5th Level:** A swarm shifter becomes immune to [bull rush](ref/rule/bull-rush),
-[grapple](ref/rule/grapple), and [trip](ref/rule/trip) combat maneuvers while in vermin form.
+This replaces wild shape, shifter aspect, and all improvements to shifter aspect.
 
-**Replaces:** Wild shape, shifter aspect
+## Swarmer (Su) {#swarmer}
 
-**Swift:** A swarm shifter can transform into a swarm of vermin. While in her vermin form, she gains
-a +2 bonus to natural armor. Her size increases by one size category (as
-[enlarge person](ref/spell/enlarge-person), except her reach does not increase to 10 feet), but she
-can occupy the same space as a creature of any size. She must still attack a target as normal, even
-if occupying the same space as her target.
+Starting at 4th level, while a swarm shifter is in her natural form, she can transform her hands
+into living vermin as a swift action at will. This grants her a touch attack that deals 1d6 points
+of piercing damage and counts as an area attack for the purpose of overcoming the
+[damage reduction](ref/rule/damage-reduction) of swarms. She doesn't add her Strength modifier as a
+bonus on damage rolls for this attack. This damage increases by 1d6 at 7th level and every 4 levels
+thereafter (maximum 6d6 points of damage at 20th level). A swarm shifter can't use her normal
+shifter claws while her hands are transformed in this way.
 
-**Usage:** 1 minute/day per shifter3 level; these minutes need not be consecutive, but must be spent
-in 1-minute increments
+At 10th level, a swarm shifter can use this ability to automatically deal her touch attack damage to
+foes that she is grappling.
 
-**Swarmer (Su)**
+At 15th level, a swarm shifter can use this ability while in her vermin form to automatically deal
+her touch attack damage to foes within her squares.
 
-**At 10th Level:** A swarm shifter can use this ability to automatically deal her touch attack
-damage to foes that she is grappling.
+## Swarm Flow (Su) {#swarm-flow}
 
-**At 15th Level:** A swarm shifter can use this ability while in her vermin form to automatically
-deal her touch attack damage to foes within her squares.
+At 9th level, when a swarm shifter uses her vermin aspect ability, she gains a swarm ability from
+the list below. She can select a different ability each time she uses her vermin aspect ability.
 
-**Gained:** At 4th Level
+### Crawling {#crawling}
 
-**Special:** A swarm shifter can't use her normal _shifter claws_ while her hands are transformed in
-this way.
+The swarm shifter gains a climb speed equal to her base speed.
 
-**Swift:** While a swarm shifter is in her natural form, she can transform her hands into living
-vermin at will. This grants her a touch attack that deals 1d6 points of piercing damage and counts
-as an area attack for the purpose of overcoming the [damage reduction](ref/rule/damage-reduction) of
-swarms. She doesn't add her Strength modifier as a bonus on damage rolls for this attack.
+### Flying {#flying}
 
-At 7th level: This damage increases to 2d6.
+The swarm shifter gains a fly speed equal to her base speed, with good maneuverability.
 
-At 11th level: This damage increases to 3d6.
+### Undulating {#undulating}
 
-At 15th level: This damage increases to 4d6.
+The swarm shifter gains a burrow speed equal to her base speed.
 
-At 19th level: This damage increases to 5d6.
+This replaces chimeric aspect.
 
-**Swarm Flow (Su)**
+## Greater Swarm Flow (Su) {#greater-swarm-flow}
 
-**Ability:** When a swarm shifter uses her _vermin aspect_ ability, she gains a swarm ability from
-the list below. She can select a different ability each time she uses her _vermin aspect_ ability.
+At 14th level, when using her vermin aspect ability, a swarm shifter also gains a greater swarm
+ability from the list below. She can select a different ability each time she uses her vermin aspect
+ability.
 
-**Gained:** At 9th Level
+### Crawling {#greater-swarm-flow-crawling}
 
-**Replaces:** Chimeric aspect
+The swarm shifter gains [tremorsense](ref/umr/tremorsense) with a range of 60 feet and a +4 bonus on
+Perception checks.
 
-**Crawling**
+### Flying {#greater-swarm-flow-flying}
 
-**Ability:** The swarm shifter gains a climb speed equal to her base speed.
+The swarm shifter's claws change to venomous stingers that deliver poison on each attack. (_Poison_:
+injury; _save_ Fort DC = 10 + half the swarm shifter's level + her Constitution modifier;
+_frequency_ 1/round for 6 rounds; _effect_ 1d3 Dexterity damage; _cure_ 2 consecutive saves).
 
-**Flying**
+### Undulating {#greater-swarm-flow-undulating}
 
-**Ability:** The swarm shifter gains a fly speed equal to her base speed, with good maneuverability.
+Whenever the swarm shifter is subject to a critical hit, she gains
+[fast healing](ref/umr/fast-healing) equal to 1/3 her level for a number of rounds equal to 3 + her
+Wisdom modifier.
 
-**Undulating**
+This replaces greater chimeric aspect.
 
-**Ability:** The swarm shifter gains a burrow speed equal to her base speed.
+## Final Aspect (Su) {#final-aspect}
 
-**Greater Swarm Flow (Su)**
-
-**Ability:** When using her _vermin aspect_ ability, a swarm shifter also gains a greater swarm
-ability from the list below. She can select a different ability each time she uses her _vermin
-aspect_ ability.
-
-**Gained:** At 14th Level
-
-**Replaces:** Greater chimeric aspect
-
-**Crawling**
-
-**Ability:** The swarm shifter gains [tremorsense](ref/umr/tremorsense) with a range of 60 feet and
-a +4 bonus on Perception checks.
-
-**Flying**
-
-**Action:** Ability
-
-The swarm shifter's claws change to venomous stingers that deliver poison on each attack.
-
-**Type:** Poison (Claw-injury)
-
-**Save:** Fortitude 10 + 1/2 the swarm shifter's level + her Con modifier
-
-**Frequency:** 1/round for 6 rounds
-
-**Effect:** Dexterity damage 1d3
-
-**Cure:** 2 consecutive saves
-
-**Undulating**
-
-**Passive:** Whenever the swarm shifter is subject to a critical hit, she gains
-[fast healing](ref/umr/fast-healing) equal to [one-third](ref/misc/fractions-and-rounding) of her
-shifter level for a number of rounds equal to 3 + her Wisdom modifier.
-
-**Final Aspect (Su)**
-
-**Ability:** A swarm shifter becomes an embodiment of swarms and can cast
-[swarm skin](ref/spell/swarm-skin) as a [spell-like ability](ref/umr/spell-like-abilities) at will
+At 20th level, a swarm shifter becomes an embodiment of swarms and can cast
+_[swarm skin](ref/spell/swarm-skin)_ as a [spell-like ability](ref/umr/spell-like-abilities) at will
 with a caster level equal to her character level. She can separate into up to five swarms,
 regardless of the number of levels required per swarm. When transforming into swarms with this
-ability, the swarm shifter still selects swarm abilities granted by the _swarm flow_ and _greater
-swarm flow_ abilities to apply to her swarm forms. The chosen swarm abilities apply to all swarms.
+ability, the swarm shifter still selects swarm abilities granted by the swarm flow and greater swarm
+flow abilities to apply to her swarm forms. The chosen swarm abilities apply to all swarms.
 
-**Alters:** Final aspect
-
-**Gained:** At 20th Level
+This modifies final aspect.

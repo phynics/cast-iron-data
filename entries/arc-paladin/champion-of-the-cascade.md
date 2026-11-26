@@ -16,11 +16,17 @@ page = "30"
 
 [fields]
 kind = "archetype"
+features = [
+  { anchor = "swiftsurge", level = 3 },
+  { anchor = "flowing-stride", level = 3 },
+  { anchor = "rising-tide", level = 5 },
+]
 trades = [
-  { replaces = "Divine health", feature = "divine-health" },
-  { replaces = "Mercy", feature = "mercy" },
-  { replaces = "Divine bond", feature = "divine-bond" },
+  { replaces = "Divine health", feature = "divine-health", by = ["swiftsurge"] },
+  { replaces = "Mercy", feature = "mercy", by = ["flowing-stride"] },
+  { replaces = "Divine bond", feature = "divine-bond", by = ["rising-tide"] },
   { alters = "Armor proficiency", feature = "weapon-and-armor-proficiencies", power = "armor" },
+  { alters = "Class skills" },
 ]
 +++
 
@@ -29,59 +35,51 @@ Rivers carve trails through the ground, enabling travel and trade and delivering
 necessary to make agrarian society possible. Champions of the cascade are paladins who defend the
 freedom and purity of waterways, protecting the very existence of the civilizations they belong to.
 
-**Armor Proficiency**
+## Armor Proficiency {#armor-proficiency}
 
-**Alters:** Armor proficiency
+A champion of the cascade is proficient with light armor, medium armor, and shields (except tower
+shields).
 
-**Info:** A champion of the cascade is proficient with light armor, medium armor, and shields
-(except tower shields).
+This alters the paladin's armor proficiency.
 
-**Gained class skills:** acro, kg, swim
+## Class Skills {#class-skills}
 
-**Lost class skills:** kno
+A champion of the cascade adds Acrobatics, Knowledge (geography), and Swim to her list of class
+skills and removes Knowledge (nobility).
 
-**Swiftsurge (Ex)**
+This alters the paladin's class skills.
 
-**Gained:** At 3rd Level
+## Swiftsurge (Ex) {#swiftsurge}
 
-**Passive:** A champion of the cascade does not take any penalty on Acrobatics or Swim checks due to
-her armor check penalty.
+At 3rd level, a champion of the cascade does not take any penalty on Acrobatics or Swim checks due
+to her armor check penalty.
 
-**Replaces:** Divine health
+This replaces divine health.
 
-**Flowing Stride (Su)**
+## Flowing Stride (Su) {#flowing-stride}
 
-**At 15th Level:** Healed creatures can walk on water for 24 hours.
+At 3rd level, whenever a champion of the cascade uses lay on hands to restore hit points to one
+target, she can grant a willing target the ability to walk on water as
+_[water walk](ref/spell/water-walk)_ for 1 minute. At 9th level, this extends to creatures healed by
+her channel positive energy. At 15th level, healed creatures can walk on water for 24 hours.
 
-**At 3rd Level:** Whenever a champion of the cascade uses _lay on hands_ to restore hit points to
-one target, she can grant a willing target the ability to walk on water as
-[water walk](ref/spell/water-walk) for 1 minute.
+This replaces mercy.
 
-**At 9th Level:** This extends to creatures healed by her _channel positive energy._
+## Rising Tide (Su) {#rising-tide}
 
-**Replaces:** Mercy
+At 5th level, a champion of the cascade's connection to her deity allows her to summon rivers and
+alter her surroundings. As a standard action, she can change up to two 5-foot squares per paladin
+level within 100 feet to become freshwater pools with a depth of up to 5 feet per paladin level. The
+squares must be adjacent to each other. Each creature standing in the area where she first creates
+the water must attempt a Reflex save (DC = 10 + half the paladin's level + the paladin's Charisma
+modifier) to jump to the nearest unaffected space and avoid falling into the water. The champion of
+the cascade can use this ability for 1 minute per paladin level. These minutes do not need to be
+consecutive, but they must be spent in 1-minute increments. The changed squares revert back to their
+original form after the duration ends, and any creatures in the water are shunted out to the nearest
+open space.
 
-**Rising Tide (Su)**
+At 10th level, as a swift action, she may spend 1 minute of her rising tide's duration to create a
+geyser in any body of water she has created, lifting an allied creature in that square up to 10 feet
+per paladin level into the air for 1 round.
 
-**Flavor:** A champion of the cascade's connection to her deity allows her to summon rivers and
-alter her surroundings
-
-**At 10th Level:** As a **swift action**, she may spend 1 minute of her _rising tide's_ duration to
-create a geyser in any body of water she has created, lifting an allied creature in that square up
-to 10 feet per paladin level into the air for 1 round.
-
-**Info:** The changed squares revert back to their original form after the duration ends, and any
-creatures in the water are shunted out to the nearest open space.
-
-**Gained:** At 5th Level
-
-**Replaces:** Divine bond
-
-**Standard:** She can change up to two 5-foot squares per paladin level within 100 feet to become
-freshwater pools with a depth of up to 5 feet per paladin level. The squares must be adjacent to
-each other. Each creature standing in the area where she first creates the water must attempt a
-Reflex save (DC = 10 + half the paladin's level + the paladin's Charisma modifier) to jump to the
-nearest unaffected space and avoid falling into the water.
-
-**Usage:** 1 minute/day per paladin level; these minutes need not be consecutive, but must be spent
-in 1-minute increments
+This replaces divine bond.
