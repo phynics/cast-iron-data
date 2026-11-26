@@ -16,14 +16,22 @@ page = "6"
 
 [fields]
 kind = "archetype"
+features = [
+  { anchor = "bullseye-shot", level = 1 },
+  { anchor = "archery-style", level = 2 },
+  { anchor = "vicious-aim", level = 4 },
+  { anchor = "iomedae-s-influence", level = 8 },
+  { anchor = "pinpoint-targeting", level = 11 },
+  { anchor = "quarry", level = 19 },
+]
 trades = [
-  { replaces = "Track", feature = "track" },
-  { replaces = "wild empathy", feature = "wild-empathy" },
-  { replaces = "Spellcasting ability", feature = "spells" },
-  { replaces = "Swift tracking", feature = "swift-tracker" },
-  { replaces = "Quarry", feature = "quarry" },
-  { replaces = "Improved quarry", feature = "improved-quarry" },
-  { alters = "Combat style", feature = "combat-style-feat" },
+  { replaces = "Track", feature = "track", by = ["bullseye-shot"] },
+  { replaces = "wild empathy", feature = "wild-empathy", by = ["bullseye-shot"] },
+  { replaces = "Spellcasting ability", feature = "spells", by = ["vicious-aim"] },
+  { replaces = "Swift tracking", feature = "swift-tracker", by = ["iomedae-s-influence"] },
+  { replaces = "Quarry", feature = "quarry", by = ["pinpoint-targeting"] },
+  { replaces = "Improved quarry", feature = "improved-quarry", by = ["quarry"] },
+  { alters = "Combat style", feature = "combat-style-feat", by = ["archery-style"] },
 ]
 +++
 
@@ -32,55 +40,35 @@ of Ilsur, who raised a small army with which he intended to overthrow the monarc
 the fall of the Chelish Empire. Though Ilsur's Arena teaches only the basics of these techniques, a
 few dedicated students strive toward true mastery in each generation.
 
-**Bullseye Shot (Ex)**
+## Bullseye Shot (Ex) {#bullseye-shot}
 
-**Ability:** An Ilsurian archer gains [Bullseye Shot](ref/feat/bullseye-shot) as a bonus feat. He
-need not meet its prerequisites.
+At 1st level, an Ilsurian archer gains the [Bullseye Shot](ref/feat/bullseye-shot) feat as a bonus
+feat. He need not meet its prerequisites. This ability replaces track and wild empathy.
 
-**Gained:** At 1st Level
+## Archery Style (Ex) {#archery-style}
 
-**Replaces:** Track, wild empathy
+At 2nd level, an Ilsurian archer must select the archery [combat style](ref/ability/combat-styles).
+This modifies the ranger's combat style feat class feature.
 
-**Archery Style (Ex)**
+## Vicious Aim (Ex) {#vicious-aim}
 
-**Alters:** Combat style
+At 4th level, an Ilsurian archer adds half his highest favored enemy bonus to all attack rolls and
+damage rolls for attacks made with ranged weapons. This does not stack with his normal favored enemy
+bonus when targeting a creature that qualifies as a favored enemy. This ability replaces all
+spellcasting, and the Ilsurian ranger is not considered to have a caster level.
 
-**Choice:** An Ilsurian archer must select the archery [combat style](ref/ability/combat-styles).
+## Iomedae's Influence (Ex) {#iomedae-s-influence}
 
-**Gained:** At 2nd Level
+At 8th level, an Ilsurian archer gains [Weapon Focus](ref/feat/weapon-focus) with the longsword as a
+bonus feat, due to the influence the church of [Iomedae](ref/faith/iomedae) has over Ilsurian
+causes. This ability replaces swift tracking.
 
-**Vicious Aim (Ex)**
+## Pinpoint Targeting (Ex) {#pinpoint-targeting}
 
-**Gained:** At 4th Level
+At 11th level, an Ilsurian ranger gains [Pinpoint Targeting](ref/feat/pinpoint-targeting) as a bonus
+feat, even if he does not meet its prerequisites. This replaces quarry.
 
-**Passive:** An Ilsurian archer adds half his highest _favored enemy_ bonus to all attack rolls and
-damage rolls for attacks made with ranged weapons. This does not stack with his normal _favored
-enemy_ bonus when targeting a creature that qualifies as a _favored enemy._
+## Quarry (Ex) {#quarry}
 
-**Replaces:** Spellcasting ability
-
-**Iomedae's Influence (Ex)**
-
-**Ability:** An Ilsurian archer gains [Weapon Focus](ref/feat/weapon-focus) (longsword) as a bonus
-feat, due to the influence the church of [Iomedae](ref/faith/iomedae) has over Ilsurian causes.
-
-**Gained:** At 8th Level
-
-**Replaces:** Swift tracking
-
-**Pinpoint Targeting (Ex)**
-
-**Ability:** An Ilsurian ranger gains [Pinpoint Targeting](ref/feat/pinpoint-targeting) as a bonus
-feat, even if he does not meet its prerequisites.
-
-**Gained:** At 11th Level
-
-**Replaces:** Quarry
-
-**Quarry (Ex)**
-
-**Ability:** An Ilsurian ranger gains the _quarry_ class feature.
-
-**Gained:** At 19th Level
-
-**Replaces:** Improved quarry
+At 19th level, an Ilsurian ranger gains the quarry class feature. This ability replaces improved
+quarry.

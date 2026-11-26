@@ -573,6 +573,15 @@ I_OPEN, I_CLOSE = "\x01", "\x02"
 LINK_SPAN = re.compile(r"(?<!\\)\[[^\[\]]*\]\([^()\s]*\)")
 
 
+LINK_CTX = {"title": ""}        # the title of the archetype whose text the links are placed in (`LINK_TITLE_SPAN`)
+
+
+def LINK_TITLE_SPAN(title: str):
+    """The archetype's own name as it stands in running text (case folded, any blanks)."""
+    words = [re.escape(w) for w in re.findall(r"[A-Za-z0-9']+", re.sub(r"\s*\([^()]*\)$", "", title))]
+    return re.compile(r"\b" + r"\s+".join(words) + r"\b", re.I) if words else re.compile(r"(?!x)x")
+
+
 def apply_links(text: str, links: list[tuple[str, str]]) -> tuple[str, list[str]]:
     """Wrap an occurrence of each old link text that is not inside a link already: the longer labels first (so
     "planar ally" does not take the words of "lesser planar ally"), and an occurrence with the same case as the
@@ -587,7 +596,13 @@ def apply_links(text: str, links: list[tuple[str, str]]) -> tuple[str, list[str]
             continue
         pat = re.compile(r"(?<![\w\[])" + r"[\s-]+".join(words) + r"(?![\w\]])", re.I)
         spans = [(m.start(), m.end()) for m in LINK_SPAN.finditer(text)]
-        free = [m for m in pat.finditer(text) if not any(a <= m.start() < b for a, b in spans)]
+        # an import link lands on the first occurrence of its text; that is not an occurrence inside the archetype's own name ("a mirror witch"
+        # for the link of "mirror") or inside a longer italic name ("cause fear" for the link of "fear"): the next occurrence takes it
+        spans += [(m.start(), m.end()) for m in LINK_TITLE_SPAN(LINK_CTX["title"]).finditer(text)] if LINK_CTX["title"] else []
+        longer = [(m.start(), m.end()) for m in re.finditer(I_OPEN + "([^" + I_OPEN + I_CLOSE + "]*)" + I_CLOSE, text)]
+        free = [m for m in pat.finditer(text) if not any(a <= m.start() < b for a, b in spans)
+                and not any(a <= m.start() and m.end() <= b and re.sub(r"[^a-z0-9]", "", text[a + 1:b - 1].lower()) != re.sub(r"[^a-z0-9]", "", m.group(0).lower())
+                            and not LINK_SPAN.search(text[a:b]) for a, b in longer)]
         chosen = next((m for m in free if m.group(0) == plain), free[0] if free else None)
         if chosen is None:
             lost.append(label)
@@ -629,6 +644,7 @@ def finish_text(s: str, vocab: set[str]) -> str:
     s = re.sub(r"\s+", " ", s).strip()
     s = s.replace("’", "'").replace("‘", "'").replace("“", '"').replace("”", '"')
     s = s.replace("\u00ad", "")
+    s = re.sub(r"(?<=\d)\)(?=[a-z])", ") ", s)               # "(see page 37)influences": the extraction lost the blank behind the parenthesis of a page reference
     s = re.sub(r"(?<=[A-Za-z0-9])/ (?=[A-Za-z0-9])", "/", s)                       # "law/" at a line end, "chaos" on the next ("DR 5/", "cold iron"; "1/", "round")
     s = re.sub(r"(?<=[A-Za-z" + I_CLOSE + r"]) +(?=['\u2019]s\b)", "", s)         # "thief 's" (kerning of an italic or bold run)
     s = re.sub("\ufffd(?=\\d)", "\u00d7", s)             # a multiplication sign that the extraction lost ("a x2 becomes a x3")
@@ -1050,6 +1066,10 @@ def read_blocks(book: Book, first: int, last: int) -> list[Para]:
     return out
 
 
+ART_INDENT = {"on": False}      # the Tactics Toolboxes and the Villain Codex wrap text around figures: a line set in deeper than a first-line indent continues its paragraph
+ART_INDENT_MAX = 20
+
+
 RUN_IN_HEAD_ONLY = re.compile(r"^.{3,70}\((?:Ex|Su|Sp)(?:,\s*(?:Ex|Su|Sp))*\)\s*:\s*$")
 
 
@@ -1093,6 +1113,10 @@ def _assemble(book: Book, items: list[tuple[int, list[dict]]]) -> list[Para]:
             else:
                 insets[ln["col"]] = None
                 starts = indent >= 8
+            if ART_INDENT["on"] and starts and indent > ART_INDENT_MAX and out and out[-1].kind == "para":
+                # beside art the lines are set in by the outline of the figure: only the first-line indent of the book starts a paragraph, and a bold head
+                cand_a = head_candidate(Para("para", list(ln["runs"]), shown, ln["col"]))
+                starts = bool(cand_a and cand_a[2])
             if ILLUSTRATED["on"] and starts and out and out[-1].kind == "para" and not re.search(r"[.!?:)\"”…]\s*$", out[-1].plain()) \
                     and not (all(bold for t, bold, _i in out[-1].runs if t.strip())
                              and not next((bold for t, bold, _i in ln["runs"] if t.strip()), True)):
@@ -1258,7 +1282,7 @@ TYPE_TITLE = re.compile(r"\([A-Za-z][A-Za-z' -]{3,}\)\s*$")           # the Adva
 CLASS_NAMES = ("Alchemist", "Antipaladin", "Arcanist", "Barbarian", "Bard", "Bloodrager", "Brawler", "Cavalier", "Cleric", "Druid", "Fighter",
                "Gunslinger", "Hunter", "Inquisitor", "Investigator", "Kineticist", "Magus", "Medium", "Mesmerist", "Monk", "Occultist", "Oracle",
                "Paladin", "Psychic", "Ranger", "Rogue", "Shaman", "Skald", "Slayer", "Sorcerer", "Spiritualist", "Summoner", "Swashbuckler",
-               "Vigilante", "Warpriest", "Witch", "Wizard")
+               "Vigilante", "Warpriest", "Witch", "Wizard", "Ninja", "Samurai")
 CLASS_SUFFIX = re.compile(r"\s*\((?:" + "|".join(CLASS_NAMES) + r")\)\s*$")
 # the squashed rest of a title after the name of the archetype, when the book prints the class in small capitals with stray blanks
 # ("PROWLER AT WOR LD'S END (BLOODR AGER)", "THRONEWARDEN (GUNSLINGER A) RCHETYPE"): the class, or the class and "archetype"
@@ -1426,6 +1450,10 @@ def head_candidate(p: Para) -> tuple[str, list, bool] | None:
     return head, rest, style == "bold"
 
 
+UPPER_HEAD_ENDS = {"on": False}
+UPPER_HEAD = re.compile(r"(?=(?:.*[A-Z]){4})[A-Z0-9 '\u2019,&:()/.\-]+")
+
+
 def head_of_para(p: Para) -> str | None:
     cand = head_candidate(p)
     return cand[0] if cand and cand[2] else None
@@ -1439,6 +1467,8 @@ def split_print(section: list[Para], expected: list[str]) -> tuple[list[list], l
     feats: list[PrintFeature] = []
     for p in section[1:]:
         cand = head_candidate(p)
+        if UPPER_HEAD_ENDS["on"] and feats and cand and cand[2] and UPPER_HEAD.fullmatch(cand[0]) and namekey(cand[0]) not in want:
+            break           # the Villain Codex sets the equipment, the spells, the magic items and the statistics of the villain's crew behind the archetype under heads in capitals
         is_head = False
         if cand:
             head, rest, bold = cand
@@ -4100,10 +4130,11 @@ def first_level_key(name: str) -> str:
     channel energy, bomb, bomb and witch's familiar."""
     name = re.sub(r"\[([^\]]*)\]\([^)]*\)", r"\1", ABILITY_TAG.sub("", name))
     name = re.sub(r"[_*]", "", name)
+    name = re.sub(r"^((?:the|a|an)\s+)?(\S.*?\S)\s+bonus feats?$", r"\1\2", name.strip(), flags=re.I)   # "The Brew Potion bonus feat" is the name Brew Potion, as the alchemist table writes it
     name = re.sub(r"\s*\((?:minor|major|[a-z]+)\)\s*$", "", name.strip(), flags=re.I)  # the class table of the warpriest: "Blessings (minor)"
     name = re.sub(r"^\d+(?:st|nd|rd|th)\s+", "", name.strip())                    # the class table of the ranger: "1st favored enemy"
     name = re.sub(r"[,;]?\s+and (?:all|each|every)\s+(?:of\s+)?(?:its\s+|the\s+)?(?:improvements?|upgrades?)\b.*$", "", name, flags=re.I)   # "Shifter aspect and all improvements to it"
-    name = re.sub(r"\s+(?:\d+/\w+|\d+d\d+|[+\-]\d.*|\d+)$", "", name.strip())
+    name = re.sub(r"\s+(?:\d+/[\w-]+|\d+d\d+|[+\-]\d.*|\d+)$", "", name.strip())
     name = re.sub(r"\s*\([^()]*\)$", "", name.strip())                          # "blessings (minor)" is the name blessings
     name = re.sub(r"^(?:the|a|an)\s+", "", fold(name))              # "The cavalier's order" is the name order
     name = re.sub(r"^[a-z]+'s\s+", "", name)                       # "witch's familiar" is the name familiar
@@ -4115,6 +4146,7 @@ def first_level_alt_key(name: str) -> str:
     name = re.sub(r"\[([^\]]*)\]\([^)]*\)", r"\1", ABILITY_TAG.sub("", name))
     name = re.sub(r"[_*]", "", name)
     name = re.sub(r"\s*\([^()]*\)$", "", fold(name).strip())
+    name = re.sub(r"^((?:the|a|an)\s+)?(\S.*?\S)\s+bonus feats?$", r"\1\2", name.strip(), flags=re.I)
     name = re.sub(r"^(?:the|a|an)\s+", "", name).replace("'s ", " ")
     return " ".join(stem(w) for w in re.findall(r"[a-z0-9]+", name))
 
@@ -4529,13 +4561,14 @@ PAGE_FIXES = {
 
 # The Player Companions that set their titles in small capitals and give each archetype no box of its own (batches 6 to 9).
 BATCH_B_BOOKS = ("psychic-anthology", "disciples-doctrine", "occult-origins", "arcane-anthology", "blood-of-the-coven")     # the lead reader of `LEAD_EXT` reads them (review of #344)
+BATCH_B3_BOOKS = ("dirty-tactics-toolbox", "villain-codex", "weapon-masters-handbook", "melee-tactics-toolbox", "distant-realms")     # the lead reader of `LEAD_EXT` reads them (batch B3)
 PLAYER_COMPANIONS = ("blood-of-the-ancients", "wilderness-origins", "legacy-of-the-first-world", "people-of-the-wastes", "healers-handbook", "psychic-anthology", "disciples-doctrine", "occult-origins", "arcane-anthology", "blood-of-the-coven")
 
 # The Player Companions that set their archetype titles in small capitals (a capital and its small capitals 5 units apart), and whose
 # archetypes are followed by sections of the chapter of their own (feats, techniques, spells): any title ends the section of an archetype.
-SMALL_CAP_BOOKS = ("blood-of-the-ancients", "blood-of-the-beast", "heroes-of-the-high-court", "martial-arts-handbook", "magic-tactics-toolbox", "potions-and-poisons", "heroes-from-the-fringe", "haunted-heroes-handbook", "antiheros-handbook", "blood-of-the-sea", "aquatic-adventures", "legacy-of-dragons")
+SMALL_CAP_BOOKS = ("blood-of-the-ancients", "blood-of-the-beast", "heroes-of-the-high-court", "martial-arts-handbook", "magic-tactics-toolbox", "potions-and-poisons", "heroes-from-the-fringe", "haunted-heroes-handbook", "antiheros-handbook", "blood-of-the-sea", "aquatic-adventures", "legacy-of-dragons", "dirty-tactics-toolbox", "weapon-masters-handbook", "melee-tactics-toolbox")
 # ... and of these, the ones whose chapter titles or capitals stand above the usual top of the body (Blood of the Ancients keeps 88)
-HIGH_TITLE_BOOKS = ("blood-of-the-beast", "heroes-of-the-high-court", "martial-arts-handbook", "magic-tactics-toolbox", "haunted-heroes-handbook", "familiar-folio", "advanced-class-origins")
+HIGH_TITLE_BOOKS = ("blood-of-the-beast", "heroes-of-the-high-court", "martial-arts-handbook", "magic-tactics-toolbox", "haunted-heroes-handbook", "familiar-folio", "advanced-class-origins", "dirty-tactics-toolbox", "weapon-masters-handbook", "melee-tactics-toolbox")
 
 # ---- Potions & Poisons, Construct Handbook, Magic Tactics Toolbox, Haunted Heroes Handbook, Heroes from the Fringe (one block of tables) ----
 MISPRINTS.extend([
@@ -4641,6 +4674,31 @@ LEVEL_FROM_PRINT.update({
 })
 
 
+# ---- Batch B3: Dirty Tactics Toolbox, Villain Codex, Weapon Master's Handbook, Melee Tactics Toolbox, Distant Realms ----
+TRADE_RENAMES.update({
+    ("ref/arc-swashbuckler/rondelero-swashbuckler", "Derring-do"): "The derring-do deed",
+})
+TRADE_ADDITIONS.setdefault("ref/arc-ranger/realm-wanderer", []).append({"alters": "Class skills"})     # "This alters the ranger's class skills." (the Class Skills section before the first feature)
+TRADE_ADDITIONS.setdefault("ref/arc-ninja/hunting-serpent", []).append({"alters": "Class skills"})     # "This ability alters the ninja's class skills." (the Class Skills section before the first feature)
+for _eid, _cls in (("ref/arc-monk/hellcat", "monk"), ("ref/arc-fighter/relic-master", "fighter"), ("ref/arc-fighter/varisian-free-style-fighter", "fighter")):
+    TRADE_ADDITIONS.setdefault(_eid, []).append({"alters": "Class skills"})     # "This alters the %s's class skills." (the Class Skills section before the first feature)
+# Bloody-Knuckled Rowdy (Melee Tactics Toolbox p. 13): "does not gain damage reduction" is a replaced class feature (ruling 36), stated in the prose of Bloody Knuckles
+TRADE_ADDITIONS["ref/arc-bloodrager/bloody-knuckled-rowdy"] = [{"replaces": "Damage reduction", "feature": "damage-reduction"}]
+TRADE_PROSE_BY[("ref/arc-bloodrager/bloody-knuckled-rowdy", "Damage reduction")] = "bloody-knuckles"
+LINK_DROP.update({("ref/arc-medium/voice-of-the-void", "surge"), ("ref/arc-medium/voice-of-the-void", "blasphemy")})     # the monster rule "surge" and the spell blasphemy, for the medium's spirit surge and the archetype's ability
+for _a in ("surge-of-the-void", "blasphemy"):
+    EXTRA_LINKS[("ref/arc-medium/voice-of-the-void", _a)] = [("spirit surge", "ref/class/medium#spirit-surge")]
+TRADE_RENAMES[("ref/arc-alchemist/vaultbreaker", "Brew Potion")] = "The Brew Potion bonus feat"
+TRADE_RENAMES[("ref/arc-alchemist/vaultbreaker", "Throw Anything")] = "The Throw Anything bonus feat"
+LEVEL_FROM_PRINT[("ref/arc-alchemist/mnemostiller", "natural-empath")] = (2, "print says \"He gains infusion as a bonus discovery at 2nd level\"")
+for _a, _lv, _col in (("cryptic-omens", 1, "1st-2nd"), ("seek-guidance", 1, "1st-2nd"), ("greater-omens", 3, "3rd-4th"), ("specialized-knowledge", 5, "5th-6th"),
+                      ("clairvoyance-clairaudience", 7, "7th-8th"), ("scrying", 11, "11th-12th"), ("mirror-casting", 13, "13th-14th")):
+    LEVEL_FROM_PRINT[("ref/arc-witch/mirror-witch", _a)] = (_lv, f"the Special column of the Patron Mirror table lists the ability at {_col} level (Villain Codex p. 153)")
+MISPRINTS.append(
+    ("ref/arc-warpriest/sixth-wing-bulwark", "This replaced the bonus feat", "This replaces the bonus feat",
+     "print has \"replaced\" where \"replaces\" belongs (Distant Realms p. 32; owner ruling 9)"))
+
+
 def configure_book(book: str) -> None:
     """The layout switches of a book (the leaf tool `feature-prose-540-leaves.py` sets the same ones)."""
     ERRATA_CTX["book"] = book
@@ -4648,7 +4706,7 @@ def configure_book(book: str) -> None:
     CHAPTER_END[0] = 47 if book == "inner-sea-combat" else 0
     PAGE_SKIP[:] = [(16, 23), (26, 999)] if book == "legacy-of-dragons" else []
     LOWERCASE_CONTINUES["on"] = BULLETS["on"] = ITALIC_FIRST["on"] = CITE_EXT["on"] = LEAD_EXT["on"] = book in ("inner-sea-magic", "inner-sea-intrigue", "inner-sea-combat")
-    LEAD_EXT["on"] = LEAD_EXT["on"] or book in BATCH_B_BOOKS or book in ("heroes-of-the-darklands", "legacy-of-dragons", "familiar-folio", "advanced-class-origins")
+    LEAD_EXT["on"] = LEAD_EXT["on"] or book in BATCH_B_BOOKS or book in BATCH_B3_BOOKS or book in ("heroes-of-the-darklands", "legacy-of-dragons", "familiar-folio", "advanced-class-origins")
     OCR["on"] = NO_STYLE["on"] = book in ("inner-sea-combat", "monster-codex")
     MC_TITLES["on"] = book == "monster-codex"
     ITALIC_JOIN["on"] = book in ("aquatic-adventures", "heroes-of-the-streets", "antiheros-handbook", "blood-of-the-sea")
@@ -4659,14 +4717,17 @@ def configure_book(book: str) -> None:
     BULLETS["on"] = BULLETS["on"] or book == "potions-and-poisons"           # the Toxin Codexer's Modify Toxin prints bullet lists (ruling 45, review of #342)
     OUTER_TAB["on"] = book == "construct-handbook"
     TAB_LEFT["min"], TAB_LEFT["title"] = (780, 15) if book == "aquatic-adventures" else (0, 16)
-    PAGE_GEOMETRY["on"] = book in ("inner-sea-magic", "inner-sea-intrigue", "inner-sea-combat", "construct-handbook", "aquatic-adventures")
+    PAGE_GEOMETRY["on"] = book in ("inner-sea-magic", "inner-sea-intrigue", "inner-sea-combat", "construct-handbook", "aquatic-adventures", "distant-realms")
     MARGIN_CAPTIONS["on"] = CAPTIONS["on"] = book in ("inner-sea-magic", "inner-sea-intrigue", "inner-sea-combat")
     BOX_TITLES["titles"] = frozenset(squash(t) for t in BOXES_OF_BOOK.get(book, ()))
     BOX_TO_END["on"] = book == "psychic-anthology"
     SKIP_TABLES["on"] = book == "advanced-race-guide"
+    UPPER_HEAD_ENDS["on"] = book == "villain-codex"
     ILLUSTRATED["on"] = book in ("advanced-class-guide", "advanced-race-guide", "adventurers-guide", "ultimate-wilderness",
                                  "horror-adventures", "planar-adventures", "inner-sea-magic", "inner-sea-intrigue", "inner-sea-combat", "construct-handbook",
-                                 "heroes-of-the-darklands", "legacy-of-dragons", "familiar-folio", "advanced-class-origins")
+                                 "heroes-of-the-darklands", "legacy-of-dragons", "familiar-folio", "advanced-class-origins",
+                                 "dirty-tactics-toolbox", "melee-tactics-toolbox", "villain-codex")
+    ART_INDENT["on"] = book in ("dirty-tactics-toolbox", "melee-tactics-toolbox", "villain-codex")
     SECTION_STOPS["on"] = book in ("adventurers-guide", "ultimate-wilderness", "horror-adventures", "planar-adventures")
     ANY_TITLE_ENDS["on"] = book in SMALL_CAP_BOOKS or book in PLAYER_COMPANIONS or book in ("monster-codex", "advanced-class-origins")
     SMALL_CAP_TITLES["on"] = book in SMALL_CAP_BOOKS or book in PLAYER_COMPANIONS
@@ -4726,6 +4787,7 @@ def run_compare(args) -> int:
         if section is None:
             rows.append(entry_hold_row(e, f"title not found near page {page}"))
             continue
+        LINK_CTX["title"] = e.title
         res = compare_entry(e, section, bk)
         res["decisions"] = decisions
         res["edits"] = edits
@@ -5339,6 +5401,7 @@ LEVEL_FROM_PRINT.update({
 LEVEL_NONE = {
     ("ref/arc-medium/nexian-channeler", "third-eye"),
 }
+LEVEL_NONE.add(("ref/arc-bloodrager/bloody-knuckled-rowdy", "reduced-spells-known"))      # it changes the spells known, a part of spellcasting (ruling 48)
 # a feature that replaces or alters only a part of a feature gets no level from the trade (owner ruling 48)
 NO_LEVEL_ONE = {
     ("ref/arc-gunslinger/bushwhacker", "craven-deeds"),       # "replaces some of her deeds with the following deeds"
@@ -5482,6 +5545,20 @@ def self_test() -> int:
     hc = head_candidate(Para("para", [("Aberrant", True, False), ("\u2014", False, False), ("Squeezer (Ex)", True, False), (": The familiar gains", False, False)], "16", 0))
     eq(hc[0] if hc else None, "Aberrant\u2014Squeezer (Ex)", "dash key head")
     eq(head_candidate(Para("para", [("Aberrant", True, False), ("Squeezer (Ex)", True, False), (": x", False, False)], "16", 0))[0], "AberrantSqueezer (Ex)", "no dash, one bold run")
+    UPPER_HEAD_ENDS["on"] = True
+    _P = lambda text, bold: Para("para", [(text, bold, False)], "1", 0)
+    _sec = [Para("title", [("Rogue", True, False)], "1", 0), _P("Opening.", False), Para("para", [("Alpha (Ex)", True, False), (": text", False, False)], "1", 0), _P("more text", False), _P("EQUIPMENT", True), _P("Bag PRICE 5 GP", False)]
+    _op, _ft = split_print(_sec, ["Alpha (Ex)"])
+    eq([f.head for f in _ft], ["Alpha (Ex)"], "UPPER_HEAD_ENDS: the first head in capitals that the entry does not expect ends the span")
+    _op, _ft = split_print(_sec, ["Alpha (Ex)", "Equipment"])
+    eq([f.head for f in _ft], ["Alpha (Ex)", "EQUIPMENT"], "UPPER_HEAD_ENDS: a head in capitals that the entry expects stays")
+    _op, _ft = split_print([_sec[0], Para("para", [("ALPHA ABILITY", True, False), (": text", False, False)], "1", 0), _P("more", False)], ["Alpha Ability"])
+    eq([f.head for f in _ft], ["ALPHA ABILITY"], "UPPER_HEAD_ENDS: the first head never ends the span")
+    UPPER_HEAD_ENDS["on"] = False
+    LINK_CTX["title"] = "Mirror Witch (Witch Archetype)"
+    eq(apply_links("a mirror witch uses a mirror (worth 10 gp)", [("mirror", "ref/eq-misc/mirror")])[0], "a mirror witch uses a [mirror](ref/eq-misc/mirror) (worth 10 gp)", "a link skips the archetype's own name")
+    eq(apply_links("%scause fear%s, then %sfear%s" % (I_OPEN, I_CLOSE, I_OPEN, I_CLOSE), [("fear", "ref/spell/fear")])[0], "%scause fear%s, then %s[fear](ref/spell/fear)%s" % (I_OPEN, I_CLOSE, I_OPEN, I_CLOSE), "a link skips a longer italic spell name")
+    LINK_CTX["title"] = ""
     eq(bool(CAPS_TITLE.fullmatch("BLIGHTSEEKER (ALCHEMIST ARCHETYPE)")), True, "caps title")
     eq(bool(CAPS_TITLE.fullmatch("Blightseeker (Alchemist Archetype)")), False, "caps title lower case")
     eq(bool(CAPS_TITLE_HEAD.fullmatch("PSYCHIC MARAUDER (PSYCHIC")) and bool(CAPS_TITLE_TAIL.fullmatch("ARCHETYPE)")), True, "caps title wrapped")
@@ -5855,6 +5932,9 @@ def self_test() -> int:
     eq(first_level_key("Shifter aspect and all improvements of shifter aspect"), "shifter aspect", "improvements of")
     eq(first_level_key("Wild shape"), "wild shape", "a plain name is unchanged")
     eq(first_level_key("Blessings (minor)"), first_level_key("Blessings"), "a parenthesis of the class table")
+    eq(finish_text("a fortune-teller (see page 37)influences people", set()), "a fortune-teller (see page 37) influences people", "a blank behind a page reference")
+    eq(first_level_key("The Brew Potion bonus feat"), first_level_key("Brew Potion"), "a bonus feat of a name is that name, as the class table writes it")
+    eq(first_level_key("Bonus feats"), "bonu feat", "Bonus feats alone stays")
     eq(first_level_key("Deadeye deed") in {first_level_key(x) for x in FIRST_LEVEL_EXTRA["ref/class/gunslinger"]}, True, "a 1st-level deed")
     eq(first_level_key("Spontaneous casting") in {first_level_key(x) for x in FIRST_LEVEL_EXTRA["ref/class/druid"]}, True, "the druid's spontaneous casting")
     eq(final_citations("a _[spirit-bound blade](ref/spell/x)_ (_Pathfinder RPG Occult Adventures_ 186) for", "x"), "a _[spirit-bound blade](ref/spell/x)_ for",
@@ -5940,6 +6020,9 @@ def self_test() -> int:
     eq(bool(CHOICE_INTRO.search("An opportunist can select an edge from those listed below.")), True, "choices: from those listed below")
     eq(bool(CHOICE_INTRO.search("A serendipity shaman can select from any of the following hexes, in addition to general shaman hexes.")), True, "choices: of the following hexes")
     eq(bool(CHOICE_INTRO.search("A fighter can select any feat he qualifies for.")), False, "choices: no list follows")
+    eq(bool(CHOICE_INTRO.search("A bard can select the following additional masterpieces.")), True, "choices: can select the following additional")
+    eq(bool(CHOICE_INTRO.search("These talents can be selected by any rogue.")), True, "choices: can be selected by any")
+    eq(bool(CHOICE_INTRO.search("The talent can also be taken by any ninja.")), True, "choices: can also be taken by any")
     eq(first_level_key("Blessings"), first_level_key("Blessings (minor)"), "a parenthesis after the name in the class table")
     eq(first_level_alt_key("Nature's bond"), first_level_key("Nature bond"), "a possessive kept as a word: Nature's bond is the druid's nature bond")
     # review of the batch of 2026-11-26: "can select the following slayer talents" is a choice; "receives this ability at 7th level"; spontaneous casting
