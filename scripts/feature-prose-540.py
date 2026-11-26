@@ -922,7 +922,7 @@ def page_lines(book: Book, num: int) -> list[dict]:
         for top, left, font, raw, width in sorted(by_col[col], key=lambda x: (x[0], x[1])):
             # a title in small capitals sets its capitals and its small capitals 5 units apart (Blood of the Ancients): the
             # same family of type, a larger size above
-            if cur and (abs(cur[-1]["top"] - top) <= 4 or (SMALL_CAP_TITLES["on"] and abs(cur[-1]["top"] - top) <= 8
+            if cur and (abs(cur[-1]["top"] - top) <= 4 or (SMALL_CAP_TITLES["on"] and abs(cur[-1]["top"] - top) <= SMALL_CAP_JOIN["gap"]
                                                            and cur[-1]["size"] >= TAB_LEFT["title"] and book.fams.get(str(font)) == cur[-1]["fam"])):
                 cur[-1]["parts"].append((left, raw, width))
                 cur[-1]["size"] = max(cur[-1]["size"], book.fonts[str(font)])
@@ -1281,10 +1281,15 @@ SECTION_STOPS = {"on": False}
 ANY_TITLE_ENDS = {"on": False}
 # ... except the box of rules that an archetype carries as part of itself (owner ruling 41; the Invested Regent's Vested Powers and its lists of
 # powers per level, Heroes of the High Court pp. 22-23): squashed titles that do not end the section even then.
-ANY_TITLE_STAYS = re.compile(r"^(?:\d+(?:st|nd|rd|th)level)?vestedpowers$")
+ANY_TITLE_STAYS = re.compile(r"^(?:(?:\d+(?:st|nd|rd|th)level)?vestedpowers|ex[a-z]+)$")
+# An archetype's closing section for characters who lose the class's features ("Ex-Insinuators", Agents of Evil p. 21) is part of the
+# archetype's own text: it does not end the span even in a book where any title ends it.
 # Blood of the Ancients sets its titles in small capitals (a capital and its small capitals sit 5 units apart in one family of type), and
 # a chapter title that a page repeats unseen over the first lines of a column. Other books read as before.
 SMALL_CAP_TITLES = {"on": False}
+# The baseline shift between a title's capitals and its small capitals (the same family of type): 5 units in Blood of the Ancients,
+# 8 elsewhere, 9 in Divine Anthology, whose titles are set in Anavio Condensed Small Caps at 18 points.
+SMALL_CAP_JOIN = {"gap": 8}
 # Wilderness Origins, Legacy of the First World, People of the Wastes and Healer's Handbook set the title of a chapter-opening page
 # above the body (top < `BODY_TOP[0]`) in type of 40 or more, so that the first lines of a column sit below it. The title ends a section.
 CHAPTER_TITLES = {"on": False}
@@ -1385,6 +1390,9 @@ class PrintFeature:
 
 
 DASH_KEY_LEAD = re.compile(r"[A-Z][A-Za-z'\u2019 -]{1,30}\u2014")
+# A printed "(see ...)" cross-reference is kept in the text (owner ruling 16) and is not a rule word: the comparison drops it from
+# both sides, because the corpus may write it where print words it, or may link the thing instead of printing the pointer.
+SEE_REF = re.compile(r"\s*\([Ss]ee\b[^()]*\)")
 # a key "Option\u2014Name (Ex)": a printed option of a choice, one for each bloodline, domain or the like (owner ruling 53)
 DASH_KEY = re.compile(r"[A-Z][A-Za-z'\u2019 -]{1,30}\u2014[A-Z].*")
 
@@ -1632,12 +1640,13 @@ def _covers(p: list[str], t: list[str]) -> bool:
 
 # ---- comparing the draft with print ------------------------------------------------------------------
 
-LOOSE_TRADE = re.compile(r"(?:^|(?<=[.!?]\s)|(?<=\n))(?:This|These|It)\b[^.]{0,60}?\b(?:replaces?|alters?|changes?|modifies)\b[^.]*\.", re.I)
+LOOSE_TRADE = re.compile(r"(?:^|(?<=[.!?]\s)|(?<=\n))(?:This|These|It)\b[^.]{0,60}?\b(?:replaces?|alters?|changes?|modifies?)\b(?!\s+(?:self|shape)\b)[^.]*\.", re.I)
 PROGRESSION = re.compile(r"(?:every|per)\s+\w+\s+(?:\w+\s+)?levels?(?:\s+(?:he|she|they|it|you)\s+(?:has|have))?\s+(?:beyond|after|above|thereafter)|every\s+\w+\s+levels?\s+thereafter", re.I)
 
 
 def strip_trade_sentences(text: str) -> str:
-    return LOOSE_TRADE.sub(" ", re.sub(r"\[([^\]]*)\]\([^)]*\)", r"\1", text))
+    # the italic marks are markup, not words: an italic spell name ("_alter self_") must not read as a trade verb for one side only
+    return LOOSE_TRADE.sub(" ", re.sub(r"\[([^\]]*)\]\([^)]*\)", r"\1", text.replace("_", "")))
 
 
 USAGE_SENTENCE = re.compile(r"\b(?:per|each|every) (?:day|week|encounter)\b|\bonce a day\b|\badditional (?:time|use)s?\b|\bper day\b", re.I)
@@ -1912,7 +1921,7 @@ def take_prerequisites(draft: Draft, p_clean: str, d_clean: str) -> tuple[str, s
     info: list[str] = []
     for pr in draft.prereq:
         m = PREREQ_LEVEL.match(pr.strip())
-        flat = re.sub(r"\[([^\]]*)\]\([^)]*\)", r"\1", pr).strip()
+        flat = re.sub(r"\[([^\]]*)\]\([^)]*\)", r"\1", pr).replace("_", "").strip()
         if not m or flat not in d_clean:
             continue
         sm = next((x for x in PRINT_AT_LEAST.finditer(p_clean) if x.group(1) == m.group(1)), None)
@@ -1980,8 +1989,8 @@ def _compare_feature(draft: Draft, print_text: str, drop: set[str], title_tokens
         title_tokens = title_tokens | {x if NUMBER_TOKEN.match(x) else stem(x) for t in title_tokens if "-" in t for x in t.split("-") if x}
         drop = drop | {x if NUMBER_TOKEN.match(x) else stem(x) for t in drop if "-" in t for x in t.split("-") if x}      # (the feature's own name)
     skip = drop | title_tokens
-    p_clean = LEVEL_LEAD_WORDS.sub("At ", strip_trade_sentences(print_text))
-    d_clean = LEVEL_LEAD_WORDS.sub("At ", strip_trade_sentences(draft.core))
+    p_clean = LEVEL_LEAD_WORDS.sub("At ", strip_trade_sentences(SEE_REF.sub("", print_text)))
+    d_clean = LEVEL_LEAD_WORDS.sub("At ", strip_trade_sentences(SEE_REF.sub("", draft.core)))
     lp = lead_level(print_text)
     if draft.level is not None and lp is not None and draft.level != lp:
         notes.append(f"level: corpus {ordinal(draft.level)}, print {ordinal(lp)}")
@@ -2471,7 +2480,8 @@ ERRATA_BOOKS = {"advanced-class-guide": "Advanced Class Guide"}
 ERRATA_CTX: dict = {"book": "", "used": set()}
 # The titles of the boxes that a book sets in the foot of a column (`BOX_TITLES`).
 BOXES_OF_BOOK = {"inner-sea-magic": ("Black Blood of Orv",),
-                 "psychic-anthology": ("Phantom Weapon Progression",)}       # the table of the Phantom Blade, set in the foot of a column of the Totem Spiritualist (p. 6)
+                 "psychic-anthology": ("Phantom Weapon Progression",),       # the table of the Phantom Blade, set in the foot of a column of the Totem Spiritualist (p. 6)
+                 "agents-of-evil": ("Playing an Insinuator", "Devils and Double-Dealing")}   # two lore boxes that interrupt the archetype's columns (pp. 17, 21)
 SKIP_TABLES = {"on": False}         # the Advanced Race Guide sets its tables in sans-serif type
 # The Advanced Class Guide and the Advanced Race Guide set text beside illustrations: a line may be indented without
 # starting a paragraph, and a head may follow a sentence end in a line without the common indent. The other books
@@ -3217,7 +3227,7 @@ def compare_entry(e: Entry, section: list[Para], book: Book) -> dict:
         draft = build_draft(f)
         text, lost, pnotes = print_md(pf, feature_links(e.id, f, head), vocab, e.id, keep)
         # a printed "(see ...)" cross-reference is kept in the text but is not a rule word: the corpus links instead
-        cmp = compare_feature(draft, strip_citations(re.sub(r"\s*\([Ss]ee\b[^()]*\)", "", text)), set(tokens(ABILITY_TAG.sub("", f.name))), title_tokens)
+        cmp = compare_feature(draft, strip_citations(text), set(tokens(ABILITY_TAG.sub("", f.name))), title_tokens)
         # the whole row, then its parts: a name that is a list ("The 1st-, 9th-, and 15th-level channel energy
         # abilities") is one stored trade, a row of several names is several
         named = list(dict.fromkeys(x.strip() for it in f.items if it.label in ("Replaces", "Alters")
@@ -4104,6 +4114,9 @@ def first_level_key(name: str) -> str:
     name = re.sub(r"^\d+(?:st|nd|rd|th)\s+", "", name.strip())                    # the class table of the ranger: "1st favored enemy"
     name = re.sub(r"[,;]?\s+and (?:all|each|every)\s+(?:of\s+)?(?:its\s+|the\s+)?(?:improvements?|upgrades?)\b.*$", "", name, flags=re.I)   # "Shifter aspect and all improvements to it"
     name = re.sub(r"\s+(?:\d+/\w+|\d+d\d+|[+\-]\d.*|\d+)$", "", name.strip())
+    # a step printed as a Roman numeral is the number of the step, as a digit is: the unchained summoner's table writes "summon
+    # monster I" ... "summon monster IX", and a trade names the whole feature ("Summon monster")
+    name = re.sub(r"\s+(?:x{0,3}(?:ix|iv|v?i{1,3})|x{1,3})$", "", name.strip(), flags=re.I)
     name = re.sub(r"\s*\([^()]*\)$", "", name.strip())                          # "blessings (minor)" is the name blessings
     name = re.sub(r"^(?:the|a|an)\s+", "", fold(name))              # "The cavalier's order" is the name order
     name = re.sub(r"^[a-z]+'s\s+", "", name)                       # "witch's familiar" is the name familiar
@@ -4509,11 +4522,15 @@ def finalize(e: Entry, res: dict, class_cache: dict | None = None) -> dict:
 # batch of 2026-11-26: "Aquakinetcist" for "Aquakineticist", Aquatic Adventures p. 50). The entry's title and id stay as they are.
 PRINT_TITLES = {
     "ref/arc-kineticist/aquakinetcist": "Aquakineticist",
+    "ref/arc-paladin/iomedaen-enforcer": "Iomedaean Enforcer",     # the printed spelling (Divine Anthology p. 6); the id stays
 }
 
 
 # The corpus titles that are corrected to the printed ones (the id stays; the precedent is #283): `--write` puts the printed title in the entry.
-TITLE_FIXES = {"ref/arc-kineticist/aquakinetcist": ("Aquakinetcist", "Aquakineticist")}
+TITLE_FIXES = {"ref/arc-kineticist/aquakinetcist": ("Aquakinetcist", "Aquakineticist"),
+               # print's own spelling throughout the entry ("the Iomedaean enforcer's class skills", Divine Anthology p. 6); ruling 43
+               # (a wrong proper name is fixed when the intended name is certain), as ruling 9 fixes a misprint. The id stays.
+               "ref/arc-paladin/iomedaen-enforcer": ("Iomedaen Enforcer", "Iomedaean Enforcer")}
 
 
 def ptitle(e: "Entry") -> str:
@@ -4533,9 +4550,14 @@ PLAYER_COMPANIONS = ("blood-of-the-ancients", "wilderness-origins", "legacy-of-t
 
 # The Player Companions that set their archetype titles in small capitals (a capital and its small capitals 5 units apart), and whose
 # archetypes are followed by sections of the chapter of their own (feats, techniques, spells): any title ends the section of an archetype.
-SMALL_CAP_BOOKS = ("blood-of-the-ancients", "blood-of-the-beast", "heroes-of-the-high-court", "martial-arts-handbook", "magic-tactics-toolbox", "potions-and-poisons", "heroes-from-the-fringe", "haunted-heroes-handbook", "antiheros-handbook", "blood-of-the-sea", "aquatic-adventures", "legacy-of-dragons")
+SMALL_CAP_BOOKS = ("blood-of-the-ancients", "blood-of-the-beast", "heroes-of-the-high-court", "martial-arts-handbook", "magic-tactics-toolbox", "potions-and-poisons", "heroes-from-the-fringe", "haunted-heroes-handbook", "antiheros-handbook", "blood-of-the-sea", "aquatic-adventures", "legacy-of-dragons",
+                   "divine-anthology")
+# ... and the ones whose chapter titles stand above the body in type of 40 or more (a chapter that ends the section of an archetype,
+# `CHAPTER_TITLES`); Agents of Evil sets a chapter title at top 82 and its archetypes are followed by the next chapter.
+CHAPTER_TITLE_BOOKS = ("agents-of-evil",)
 # ... and of these, the ones whose chapter titles or capitals stand above the usual top of the body (Blood of the Ancients keeps 88)
-HIGH_TITLE_BOOKS = ("blood-of-the-beast", "heroes-of-the-high-court", "martial-arts-handbook", "magic-tactics-toolbox", "haunted-heroes-handbook", "familiar-folio", "advanced-class-origins")
+HIGH_TITLE_BOOKS = ("blood-of-the-beast", "heroes-of-the-high-court", "martial-arts-handbook", "magic-tactics-toolbox", "haunted-heroes-handbook", "familiar-folio", "advanced-class-origins",
+                    "divine-anthology")     # the "ON VIRTUE" section title of Divine Anthology p. 16 is set at top 85, its small capitals at 94
 
 # ---- Potions & Poisons, Construct Handbook, Magic Tactics Toolbox, Haunted Heroes Handbook, Heroes from the Fringe (one block of tables) ----
 MISPRINTS.extend([
@@ -4659,6 +4681,7 @@ def configure_book(book: str) -> None:
     BULLETS["on"] = BULLETS["on"] or book == "potions-and-poisons"           # the Toxin Codexer's Modify Toxin prints bullet lists (ruling 45, review of #342)
     OUTER_TAB["on"] = book == "construct-handbook"
     TAB_LEFT["min"], TAB_LEFT["title"] = (780, 15) if book == "aquatic-adventures" else (0, 16)
+    SMALL_CAP_JOIN["gap"] = 10 if book == "divine-anthology" else 8     # the five-unit shift of Blood of the Ancients, the nine of Divine Anthology
     PAGE_GEOMETRY["on"] = book in ("inner-sea-magic", "inner-sea-intrigue", "inner-sea-combat", "construct-handbook", "aquatic-adventures")
     MARGIN_CAPTIONS["on"] = CAPTIONS["on"] = book in ("inner-sea-magic", "inner-sea-intrigue", "inner-sea-combat")
     BOX_TITLES["titles"] = frozenset(squash(t) for t in BOXES_OF_BOOK.get(book, ()))
@@ -4668,9 +4691,9 @@ def configure_book(book: str) -> None:
                                  "horror-adventures", "planar-adventures", "inner-sea-magic", "inner-sea-intrigue", "inner-sea-combat", "construct-handbook",
                                  "heroes-of-the-darklands", "legacy-of-dragons", "familiar-folio", "advanced-class-origins")
     SECTION_STOPS["on"] = book in ("adventurers-guide", "ultimate-wilderness", "horror-adventures", "planar-adventures")
-    ANY_TITLE_ENDS["on"] = book in SMALL_CAP_BOOKS or book in PLAYER_COMPANIONS or book in ("monster-codex", "advanced-class-origins")
+    ANY_TITLE_ENDS["on"] = book in SMALL_CAP_BOOKS or book in PLAYER_COMPANIONS or book in ("monster-codex", "advanced-class-origins", "agents-of-evil")
     SMALL_CAP_TITLES["on"] = book in SMALL_CAP_BOOKS or book in PLAYER_COMPANIONS
-    CHAPTER_TITLES["on"] = book in PLAYER_COMPANIONS and book != "blood-of-the-ancients"
+    CHAPTER_TITLES["on"] = (book in PLAYER_COMPANIONS and book != "blood-of-the-ancients") or book in CHAPTER_TITLE_BOOKS
     # a title in small capitals and a chapter title can stand higher than the body of the other books (Heroes of the High Court p. 29: capital at 86; Martial Arts Handbook p. 18: chapter title at 70; the running heads stand at 13-29)
     global BODY_TOP
     BODY_TOP = (BODY_CAP_TOP if book in HIGH_TITLE_BOOKS else 88, BODY_TOP[1])
@@ -6151,8 +6174,61 @@ def self_test() -> int:
     PAGE_GEOMETRY["on"] = True
     eq(page_geometry(geo, 1), (432, (108, 440)), "page geometry: the right column starts at 440")
     PAGE_GEOMETRY["on"] = False
+    # a printed "(see ...)" cross-reference stays in the text (ruling 16) and is no rule word on either side: the corpus may write it,
+    # print may write it, or the corpus may link the thing instead (Agents of Evil, Insinuator's Code of Conduct)
+    d_see = build_draft(parse_import("Intro.\n\n**Feature (Ex)**\n\n**Passive:** A monk gains a +1 bonus (see below).\n")[1][0])
+    eq(compare_feature(d_see, "A monk gains a +1 bonus.", set(), set()).status, "print",
+       "a (see ...) cross-reference of the corpus is no rule word")
+    eq(compare_feature(d_see, "A monk gains a +1 bonus (see the Stealth skill).", set(), set()).status, "print",
+       "another printed (see ...) cross-reference is no rule word")
+    # an italic spell name is not the trade verb "alter": "This functions as a modified alter self spell" is no trade sentence, and the
+    # italic marks are markup, so both sides read alike (Agents of Evil, Devil Impostor's Fiendish Appearance)
+    eq(strip_trade_sentences("This functions as a modified _alter self_ spell, transforming her."),
+       "This functions as a modified alter self spell, transforming her.", "an italic alter self is no trade sentence")
+    eq(strip_trade_sentences("This functions as change shape, as the universal monster ability."),
+       "This functions as change shape, as the universal monster ability.", "change shape is no trade sentence")
+    eq(strip_trade_sentences("This ability modifies bonus feats."), " ", "modifies is a trade verb (ruling 55)")
+    d_self = build_draft(parse_import("Intro.\n\n**Feature (Ex)**\n\n**Passive:** It functions as a modified alter self spell. She "
+                                      "keeps her gear.\n")[1][0])
+    eq(compare_feature(d_self, "It functions as a modified _alter self_ spell. She keeps her gear.", set(), set()).status, "draft",
+       "the italic marks of print change nothing in the comparison")
+    # a step printed as a Roman numeral is the number of a step of a class table, as a digit is (the unchained summoner's summon monster I-IX)
+    eq((first_level_key("Summon monster IX"), first_level_key("Summon monster")), ("summon monster", "summon monster"),
+       "the Roman numeral of a class-table step is its number (ruling 57)")
+    eq(first_level_key("Aura of evil XI") == "aura of evil", True, "a Roman numeral is stripped like a digit")
+    # an archetype's closing Ex- section stays in its span where any title ends the span (Agents of Evil, Ex-Insinuators)
+    eq(bool(ANY_TITLE_STAYS.match("exinsinuators")), True, "the Ex- section of an archetype does not end its span")
+    eq(bool(ANY_TITLE_STAYS.match("10thlevelvestedpowers")), True, "the vested powers of the Invested Regent still stay")
+    eq(bool(ANY_TITLE_STAYS.match("battlinggood")), False, "another title of the chapter still ends the span")
+    configure_book("agents-of-evil")
+    eq((CHAPTER_TITLES["on"], ANY_TITLE_ENDS["on"], SMALL_CAP_TITLES["on"]), (True, True, False),
+       "Agents of Evil: a chapter title above the body ends a section, its archetype titles are not small capitals")
+    configure_book("divine-anthology")
+    eq((SMALL_CAP_TITLES["on"], ANY_TITLE_ENDS["on"], CHAPTER_TITLES["on"], SMALL_CAP_JOIN["gap"], BODY_TOP[0]),
+       (True, True, False, 10, BODY_CAP_TOP), "Divine Anthology: letter-spaced small-capital titles, the first body line above 88")
+    configure_book("ultimate-magic")
+    eq(SMALL_CAP_JOIN["gap"], 8, "the other books keep the five-unit shift")
     print(f"self-test: {ok} checks passed")
     return 0
+
+
+# ---- Agents of Evil, Divine Anthology (batch E1 of 2026-11-26) ----------------------------------------------------------------
+# The per-entry rows of the two books, set in one place so that the other leads' batches (which add rows to the tables above) do not
+# meet them in a merge. Each row is a decision of the batch lead against print, recorded in the review note of its feature.
+MISPRINTS.extend([
+    ("ref/arc-cleric/appeaser", "cleric level + plus his Wisdom", "cleric level plus his Wisdom",
+     "print sets a plus sign and then the word (Agents of Evil p. 15: \"the appeaser's cleric level + plus his Wisdom modifier\"); the "
+     "sense is certain, a druid's and a cleric's domain minutes both read \"plus\", and ruling 9 fixes a misprint of certain meaning"),
+    ("ref/arc-cleric/divine-paragon", "an accelerated rate (see bel0w)", "an accelerated rate (see below)",
+     "a defect of the text layer, not of print: the page image of Divine Anthology p. 15 reads \"(see below)\"; the digit stands where the "
+     "layer lost the letter o"),
+])
+# "This alters the unchained summoner's class skills." is print's sentence of the Skills section before the first feature: it is stored
+# without `by` (ruling 6, as for the Class Skills sections of the earlier batches; the head is scaffold, ruling 33)
+TRADE_ADDITIONS.setdefault("ref/arc-unchained-summoner/devil-impostor", []).append({"alters": "Class skills"})
+# "This replaces the paladin's class skills list." is print's sentence of the Class Skills section before the first feature: stored
+# without `by`, as above
+TRADE_ADDITIONS.setdefault("ref/arc-paladin/iomedaen-enforcer", []).append({"replaces": "The paladin's class skills list"})
 
 
 def main() -> int:
