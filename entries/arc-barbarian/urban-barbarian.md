@@ -46,7 +46,7 @@ class skills; instead, she gains Diplomacy (Cha), Knowledge (local) (Int), Knowl
 At 1st level, an urban barbarian gains a +1 bonus on attack rolls and a +1 dodge bonus to AC when
 adjacent to two or more enemies. In addition, her movement is not impeded by
 [crowds](ref/rule/city-streets), and she gains a bonus equal to 1/2 her barbarian level on
-Intimidate checks to influence crowds (_Core Rulebook_ 436). This ability replaces fast movement.
+Intimidate checks to influence crowds. This ability replaces fast movement.
 
 ## Controlled Rage (Ex) {#controlled-rage}
 
