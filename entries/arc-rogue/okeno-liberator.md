@@ -16,10 +16,15 @@ page = "41"
 
 [fields]
 kind = "archetype"
+features = [
+  { anchor = "bond-breaker", level = 1 },
+  { anchor = "covert-commander" },
+  { anchor = "catch-off-guard", level = 4 },
+]
 trades = [
-  { replaces = "Trapfinding", feature = "trapfinding" },
-  { replaces = "Trap sense", feature = "trap-sense" },
-  { replaces = "Uncanny dodge", feature = "uncanny-dodge" },
+  { replaces = "Trapfinding", feature = "trapfinding", by = ["bond-breaker"] },
+  { replaces = "Trap sense", feature = "trap-sense", by = ["covert-commander"] },
+  { replaces = "Uncanny dodge", feature = "uncanny-dodge", by = ["catch-off-guard"] },
 ]
 +++
 
@@ -29,33 +34,28 @@ some freedom fighters actually endeavor to be captured, knowing that being taken
 Island in manacles is the easiest way to infiltrate the city, liberate other slaves, and lead them
 to freedom.
 
-**Bond Breaker (Ex)**
+## Bond Breaker (Ex) {#bond-breaker}
 
-**Passive:** An Okeno liberator adds 1/2 her class level to Escape Artist checks, and never takes a
-penalty on Disable Device checks when using improvised tools to open locks.
+An Okeno liberator adds 1/2 her class level to Escape Artist checks, and never takes a penalty on
+Disable Device checks when using improvised tools to open locks. This ability replaces trapfinding.
 
-**Replaces:** Trapfinding
+## Covert Commander (Ex) {#covert-commander}
 
-**Covert Commander (Ex)**
+An Okeno liberator grants all allies within 30 feet who are in her line of sight (but not herself) a
++1 competence bonus on Disguise and Stealth checks. This bonus increases by 1 for every 3 levels
+beyond 3rd. This ability replaces trap sense.
 
-**Ability:** An Okeno liberator grants all allies within 30 feet who are in her line of sight (but
-not herself) a competence bonus on Disguise and Stealth checks. This bonus is equal to one-third of
-her rogue level.
+## Catch Off-Guard (Ex) {#catch-off-guard}
 
-**Replaces:** Trap sense
+At 4th level, the Okeno liberator is adept at improvising weapons. She gains
+[Catch Off-Guard](ref/feat/catch-off-guard) as a bonus feat. This ability replaces uncanny dodge.
 
-**Catch Off-Guard (Ex)**
+## Rogue Talents {#rogue-talents}
 
-**Ability:** She gains [Catch Off-Guard](ref/feat/catch-off-guard) as a bonus feat.
+The following rogue talents complement the Okeno liberator archetype: deft palm, fast picks, fast
+stealth, quick disguise, slow reactions, underhanded.
 
-**Flavor:** The Okeno liberator is adept at improvising weapons.
+## Advanced Talents {#advanced-talents}
 
-**Gained:** At 4th Level
-
-**Replaces:** Uncanny dodge
-
-**These rogue talents complement this archetype:** Deft palm, fast picks, fast stealth, quick
-disguise, slow reactions, underhanded
-
-**These advanced rogue talents complement this archetype:** Defensive roll, fast tumble, knock-out
-blow, skill mastery, weapon snatcher
+The following advanced rogue talents complement the Okeno liberator archetype: defensive roll, fast
+tumble, knock-out blow, skill mastery, weapon snatcher.

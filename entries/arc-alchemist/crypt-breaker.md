@@ -16,11 +16,18 @@ page = "33"
 
 [fields]
 kind = "archetype"
+features = [
+  { anchor = "alkahest-bombs", level = 1 },
+  { anchor = "crypt-breaker-s-draught", level = 1 },
+  { anchor = "trapfinding", level = 1 },
+  { anchor = "discoveries" },
+  { anchor = "enhanced-alkahest", level = 14 },
+]
 trades = [
-  { replaces = "Bombs", feature = "bomb" },
-  { replaces = "Mutagen", feature = "mutagen" },
-  { replaces = "Brew potion", feature = "brew-potion" },
-  { replaces = "Persistent mutagen", feature = "persistent-mutagen" },
+  { replaces = "Bombs", feature = "bomb", by = ["alkahest-bombs"] },
+  { replaces = "Mutagen", feature = "mutagen", by = ["crypt-breaker-s-draught"] },
+  { replaces = "Brew Potion bonus feat", feature = "brew-potion", by = ["trapfinding"] },
+  { replaces = "Persistent mutagen", feature = "persistent-mutagen", by = ["enhanced-alkahest"] },
 ]
 +++
 
@@ -30,64 +37,44 @@ expeditions into dangerous tombs and catacombs, where their ability to create al
 designed to neutralize constructs and undead are often crucial to survival. A crypt breaker has the
 following class features.
 
-**Alkahest Bombs (Su)**
+## Alkahest Bombs (Su) {#alkahest-bombs}
 
-**Ability:** Against constructs and corporeal undead, alkahest bombs deal 1d8 points of damage, plus
-1d8 points of damage for every odd-numbered level instead of 1d6. Against all other creatures,
-alkahest bombs deal 1d4 points of damage, plus 1d4 points of force damage for every odd-numbered
-level. This otherwise works like the standard bombs class feature.
+A crypt breaker's bombs are specially designed to work best against constructs and corporeal
+undead—two foes commonly encountered in ancient tombs. Known as alkahest bombs, these bombs deal
+acid damage instead of fire damage. Alkahest is an alchemical fluid that eats away unliving flesh
+and animated constructs, but it doesn't work as well against other targets. Against constructs and
+corporeal undead, alkahest bombs deal 1d8 points of damage, plus 1d8 points of damage for every
+odd-numbered level instead of 1d6. Against all other creatures, alkahest bombs deal 1d4 points of
+damage, plus 1d4 points of force damage for every odd-numbered level. This ability otherwise
+functions as and replaces the standard alchemist bomb class feature.
 
-**Info:** A crypt breaker's bombs are specially designed to work best against constructs and
-corporeal undead - two foes commonly encountered in ancient tombs. Known as alkahest bombs, these
-bombs deal acid damage instead of fire damage. Alkahest is an alchemical fluid that eats away
-unliving flesh and animated constructs, but it doesn't work as well against other targets.
+## Crypt Breaker's Draught (Su) {#crypt-breaker-s-draught}
 
-**Gained:** At 1st Level
+Rather than develop mutagens that increase their natural armor and physical abilities at the expense
+of their minds, crypt breakers focus on the creation of special draughts that can enhance their
+senses. When a crypt breaker drinks one of these draughts, he gains a +4 bonus on all Perception
+checks and gains one of the following special senses: [darkvision](ref/rule/darkvision) 60 feet,
+[low-light vision](ref/rule/low-light-vision), or [scent](ref/umr/scent). While under the effects of
+a crypt breaker's draught, the alchemist also gains [light blindness](ref/umr/light-blindness). This
+ability replaces the [mutagen](ref/discovery/mutagen) class ability (a crypt breaker cannot create
+mutagens unless he selects the mutagen discovery from _Ultimate Magic_).
 
-**Replaces:** Bombs
+## Trapfinding {#trapfinding}
 
-**Crypt Breaker's Draught (Su)**
+A crypt breaker adds 1/2 his level on Perception checks made to locate traps and to Disable Device
+checks (minimum +1). A crypt breaker can use Disable Device to disarm magic traps. When determining
+the ability of a crypt breaker to [deal with locks or traps](ref/ability/trapfinding), treat his
+alchemist levels as rogue levels. This ability replaces the Brew Potion bonus feat.
 
-**Ability:** Rather than develop mutagens that increase their natural armor and physical abilities
-at the expense of their minds, crypt breakers focus on the creation of special draughts that can
-enhance their senses. When a crypt breaker drinks one of these draughts, he gains a +4 bonus on all
-Perception checks and gains one of the following special senses: [darkvision](ref/rule/darkvision)
-60 feet, [low-light vision](ref/rule/low-light-vision), or [scent](ref/umr/scent). While under the
-effects of a crypt breaker's draught, the alchemist also gains
-[light blindness](ref/umr/light-blindness).
+## Discoveries {#discoveries}
 
-**Gained:** At 1st Level
-
-**Replaces:** Mutagen
-
-**Special:** A crypt breaker cannot create mutagens unless he selects the
-[mutagen](ref/discovery/mutagen) discovery.
-
-**Trapfinding**
-
-**Gained:** At 1st Level
-
-**Passive:** A crypt breaker adds [half](ref/misc/fractions-and-rounding) his level on Perception
-checks made to locate traps and to Disable Device checks (minimum +1). A crypt breaker can use
-Disable Device to disarm magic traps. When determining the ability of a crypt breaker to
-[deal with locks or traps](ref/ability/trapfinding), treat his alchemist levels as rogue levels.
-
-**Replaces:** Brew potion
-
-**Discoveries**
-
-**Gained:** At 1st Level
-
-**Passive:** A crypt breaker may take the following rogue talents as discoveries:
+A crypt breaker may take the following rogue talents as discoveries:
 [quick disable](ref/talent/quick-disable), trap sense, and [trap spotter](ref/talent/trap-spotter).
 Treat the crypt breaker's alchemist level as his rogue level for these talents.
 
-**Enhanced Alkahest (Su)**
+## Enhanced Alkahest (Su) {#enhanced-alkahest}
 
-**Gained:** At 14th Level
-
-**Passive:** Against constructs and corporeal undead, the crypt breaker's alkahest bombs deal +1
-points of damage per die, and the bomb threatens a critical hit on a 19-20. This does not stack with
-other effects that improve critical hit threat ranges.
-
-**Replaces:** Persistent mutagen
+At 14th level, a crypt breaker's alkahest grows more potent. Against constructs and corporeal
+undead, the crypt breaker's alkahest bombs deal +1 points of damage per die, and the bomb threatens
+a critical hit on a 19–20. This does not stack with other effects that improve critical hit threat
+ranges. This ability replaces persistent mutagen.

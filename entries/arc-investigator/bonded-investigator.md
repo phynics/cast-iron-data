@@ -16,13 +16,19 @@ page = "38"
 
 [fields]
 kind = "archetype"
+features = [
+  { anchor = "familiar", level = 2 },
+  { anchor = "inspired-familiar", level = 4 },
+  { anchor = "studied-strike", level = 6 },
+  { anchor = "improved-familiar", level = 7 },
+]
 trades = [
-  { replaces = "Poison lore", feature = "poison-lore" },
-  { replaces = "poison resistance", feature = "poison-resistance", levels = [2, 5, 8] },
-  { replaces = "poison immunity", feature = "poison-resistance", levels = [11] },
-  { replaces = "Studied strike damage gained at 4th level", feature = "studied-strike", levels = [4] },
-  { replaces = "Investigator talent gained at 7th level", feature = "investigator-talent", levels = [7] },
-  { alters = "Studied strike", feature = "studied-strike" },
+  { replaces = "Poison lore", feature = "poison-lore", by = ["familiar"] },
+  { replaces = "poison resistance", feature = "poison-resistance", levels = [2, 5, 8], by = ["familiar"] },
+  { replaces = "poison immunity", feature = "poison-resistance", levels = [11], by = ["familiar"] },
+  { replaces = "Studied strike damage gained at 4th level", feature = "studied-strike", levels = [4], by = ["inspired-familiar"] },
+  { replaces = "Investigator talent gained at 7th level", feature = "investigator-talent", levels = [7], by = ["improved-familiar"] },
+  { alters = "Studied strike", feature = "studied-strike", by = ["studied-strike"] },
 ]
 +++
 
@@ -30,56 +36,45 @@ Bonded investigators use intelligent familiars to assist them in their investiga
 common in the Inner Sea region's bustling cities, where a rat, cat, raven, or another small animal
 can go largely unnoticed.
 
-**Familiar (Ex)**
+## Familiar (Ex) {#familiar}
 
-**Ability:** A bonded investigator gains a [familiar](ref/ability/familiars) to aid him. This
+At 2nd level, a bonded investigator gains a [familiar](ref/ability/familiars) to aid him. This
 [familiar](ref/sidekick/familiar) functions as the [wizard](ref/class/wizard) arcane bond class
 feature, using the bonded investigator's class level to determine the familiar's special abilities.
 The bonded investigator's extracts are considered spells for the purposes of familiar abilities like
-_share spell_ and _deliver touch spells._
+share spell and deliver touch spells.
 
-**Gained:** At 2nd Level
+This ability replaces poison lore, poison resistance, and poison immunity.
 
-**Replaces:** Poison lore, poison resistance, poison immunity
+## Inspired Familiar (Ex) {#inspired-familiar}
 
-**Inspired Familiar (Ex)**
+At 4th level, a bonded investigator's familiar becomes a cunning assistant to the investigator. The
+familiar can access the investigator's inspiration pool to augment its own actions; the use of
+inspiration is deducted from the investigator's number of daily uses as normal. The familiar can use
+the inspiration ability (and gains the increased benefits of investigator talents that affect the
+bonus dice used in this ability) but cannot expend uses of inspiration for other purposes.
 
-**Ability:** A bonded investigator's familiar becomes a cunning assistant to the investigator. The
-familiar can access the investigator's _inspiration pool_ to augment its own actions; the use of
-_inspiration_ is deducted from the investigator's number of daily uses as normal. The familiar can
-use the _inspiration_ ability (and gains the increased benefits of investigator talents that affect
-the bonus dice used in this ability) but cannot expend uses of _inspiration_ for other purposes.
+This ability replaces the studied strike damage gained at 4th level.
 
-**Gained:** At 4th Level
+## Studied Strike (Ex) {#studied-strike}
 
-**Replaces:** Studied strike damage gained at 4th level
+At 6th level, a bonded investigator gains studied strike +1d6. At 10th level and every 4
+investigator levels thereafter, this damage increases by +1d6.
 
-**Studied Strike (Ex)**
+This ability alters studied strike.
 
-**Ability:** A bonded investigator gains _studied strike_ +1d6.
+## Improved Familiar (Ex) {#improved-familiar}
 
-**Alters:** Studied strike
-
-**Gained:** At 6th Level
-
-At 10th level: This damage increases to +2d6.
-
-At 14th level: This damage increases to +3d6.
-
-At 18th level: This damage increases to +4d6.
-
-**Improved Familiar (Ex)**
-
-**Ability:** A bonded investigator gains the [Improved Familiar](ref/feat/improved-familiar) feat as
-a bonus feat, treating his investigator level as his arcane caster level for the purposes of
+At 7th level, a bonded investigator gains the [Improved Familiar](ref/feat/improved-familiar) feat
+as a bonus feat, treating his investigator level as his arcane caster level for the purposes of
 determining what familiars are available to him.
 
-**Gained:** At 7th Level
+This replaces the investigator talent gained at 7th level.
 
-**Replaces:** Investigator talent gained at 7th level
+## Investigator Talents {#investigator-talents}
 
-**Investigator Talents:** The following investigator talents complement the bonded investigator
-archetype: [effortless aid](ref/invtalent/effortless-aid),
+The following investigator talents complement the bonded investigator archetype:
+[effortless aid](ref/invtalent/effortless-aid),
 [perceptive tracking](ref/invtalent/perceptive-tracking),
 [tenacious inspiration](ref/invtalent/tenacious-inspiration), and
 [unconventional inspiration](ref/invtalent/unconventional-inspiration).

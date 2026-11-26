@@ -16,10 +16,15 @@ page = "43"
 
 [fields]
 kind = "archetype"
+features = [
+  { anchor = "nondetection" },
+  { anchor = "infiltrating-vessel", level = 3 },
+  { anchor = "prepare-results", level = 4 },
+]
 trades = [
-  { replaces = "Familiar's ability to deliver touch spells" },
-  { replaces = "4th-level hex", feature = "hex", levels = [4] },
-  { alters = "Familiar", feature = "witch-s-familiar" },
+  { replaces = "Familiar's ability to deliver touch spells", by = ["infiltrating-vessel"] },
+  { replaces = "4th-level hex", feature = "hex", levels = [4], by = ["prepare-results"] },
+  { alters = "Familiar", feature = "witch-s-familiar", by = ["infiltrating-vessel"] },
 ]
 +++
 
@@ -27,42 +32,30 @@ Among that nation's highly competitive arcane communities, Nexian spellspies are
 their familiars and divining talents to spy on their rivals and protect themselves from similar
 intrusions.
 
-**Nondetection**
+## Nondetection {#nondetection}
 
-**Info:** A Nexian spellspy treats [nondetection](ref/spell/nondetection) as a 4th-level witch
-spell.
+A Nexian spellspy treats _[nondetection](ref/spell/nondetection)_ as a 4th-level witch spell.
 
-**Infiltrating Vessel (Su)**
+## Infiltrating Vessel (Su) {#infiltrating-vessel}
 
-**Ability:** A Nexian spellspy cannot use her familiar to deliver touch spells for her. Instead, the
-Nexian spellspy can cast divination spells through her familiar. When the Nexian spellspy does this,
-she casts the spell as normal, but she treats her familiar's location as hers for purpose of
+At 3rd-level, a Nexian spellspy cannot use her familiar to deliver touch spells for her. Instead,
+the Nexian spellspy can cast divination spells through her familiar. When the Nexian spellspy does
+this, she casts the spell as normal, but she treats her familiar's location as hers for purpose of
 determining the spell's area of effect or range. The Nexian spellspy receives the spell's results as
 normal. This ability does not allow her to see through her familiar's eyes; for example, the Nexian
 spellspy would know about a powerful magic item detected through her familiar, but she would not
-know its exact location or exactly what the item looked like.
+know its exact location or exactly what the item looked like. Whenever a familiar would be able to
+deliver a hex, the Nexian spellspy can use the familiar as a vessel for her divinations in this way.
 
-**Alters:** Familiar
+This alters the witch's familiar.
 
-**Gained:** At 3rd Level
+## Prepare Results (Su) {#prepare-results}
 
-**Replaces:** Familiar's ability to deliver touch spells
-
-**Special:** Whenever a familiar would be able to deliver a hex, the Nexian spellspy can use the
-familiar as a vessel for her divinations in this way.
-
-**Prepare Results (Su)**
-
-**Flavor:** A Nexian spellspy's familiar can store the results of divinations for the purposes of
-providing false results to a rival diviner who has targeted the spellspy.
-
-**Gained:** At 4th Level
-
-**Replaces:** 4th-level hex
-
-**Standard:** The spellspy can store the results of one or more divinations she has cast within the
-past 24 hours. She can store results from any number of spells with a total spell level equal to the
-highest spell she can cast.
+At 4th level, a Nexian spellspy's familiar can store the results of divinations for the purposes of
+providing false results to a rival diviner who has targeted the spellspy. As a standard action, the
+spellspy can store the results of one or more divinations she has cast within the past 24 hours. She
+can store results from any number of spells with a total spell level equal to the highest spell she
+can cast.
 
 The next time a rival spellcaster would receive results from any of the specific divinations whose
 results are stored in her familiar in this manner, the stored results are transmitted to the rival
@@ -73,8 +66,18 @@ level + her Intelligence modifier) to recognize that the results are falsified. 
 spell, the stored results from the familiar might make this falsification obvious (and thus no Will
 saving throw is necessary to determine the falsification).
 
-**The following witch hexes complement this archetype:** Beast of ill-omen, evil eye, tongues
+This ability replaces the witch's 4th-level hex.
 
-**The following major hexes complement this archetype:** Beast eye, hag's eye, vision
+## Hexes {#hexes}
 
-**The following grand hex complements this archetype:** Dire prophecy
+The following witch hexes complement the Nexian spellspy archetype: beast of ill-omen, evil eye, and
+tongues.
+
+## Major Hexes {#major-hexes}
+
+The following major hexes complement the Nexian spellspy witch archetype: beast eye, hag's eye, and
+vision.
+
+## Grand Hex {#grand-hex}
+
+The following grand hex complements the Nexian spellspy archetype: dire prophecy.

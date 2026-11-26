@@ -16,13 +16,20 @@ page = "46"
 
 [fields]
 kind = "archetype"
+features = [
+  { anchor = "scribe-scroll", level = 1 },
+  { anchor = "comparative-arcane-studies", level = 6 },
+  { anchor = "critical-research-focus", level = 8 },
+  { anchor = "perfect-recollection", level = 19 },
+  { anchor = "one-with-the-library", level = 20 },
+]
 trades = [
-  { replaces = "Distraction", feature = "bardic-performance", power = "distraction" },
-  { replaces = "Suggestion", feature = "bardic-performance", power = "suggestion" },
-  { replaces = "jack-of-all-trades", feature = "jack-of-all-trades" },
-  { replaces = "Dirge of doom", feature = "bardic-performance", power = "dirge of doom" },
-  { replaces = "Mass suggestion", feature = "bardic-performance", power = "mass suggestion" },
-  { replaces = "Deadly performance", feature = "bardic-performance", power = "deadly performance" },
+  { replaces = "Distraction", feature = "bardic-performance", power = "distraction", by = ["scribe-scroll"] },
+  { replaces = "Suggestion", feature = "bardic-performance", power = "suggestion", by = ["comparative-arcane-studies"] },
+  { replaces = "jack-of-all-trades", feature = "jack-of-all-trades", by = ["comparative-arcane-studies"] },
+  { replaces = "Dirge of doom", feature = "bardic-performance", power = "dirge of doom", by = ["critical-research-focus"] },
+  { replaces = "Mass suggestion", feature = "bardic-performance", power = "mass suggestion", by = ["perfect-recollection"] },
+  { replaces = "Deadly performance", feature = "bardic-performance", power = "deadly performance", by = ["one-with-the-library"] },
 ]
 +++
 
@@ -31,47 +38,42 @@ such as Taldor's [Kitharodian Academy](ref/rule/f-bards) in Oppara, Forae Logos 
 [Pathfinder Society's](ref/rule/aff-scholars) Skyreach in Absalom, and the Grand Library of Eto in
 Osirion.
 
-**Scribe Scroll**
+## Scribe Scroll {#scribe-scroll}
 
-**Ability:** A studious librarian gains [Scribe Scroll](ref/feat/scribe-scroll) as a bonus feat.
+A studious librarian gains [Scribe Scroll](ref/feat/scribe-scroll) as a bonus feat.
 
-**Replaces:** Distraction
+This ability replaces distraction.
 
-**Comparative Arcane Studies (Su)**
+## Comparative Arcane Studies (Su) {#comparative-arcane-studies}
 
-**Ability:** A studious librarian can cast any spell from the bard, sorcerer/wizard, or witch spell
-lists from a scroll or spellbook in hand as if it were one of his bard spells known, expending a
-bard spell slot of the same spell level to cast the desired spell. Casting a spell from a scroll
-this way does not cause the spell to vanish from the scroll. A spell cast in this way cannot be
-modified by metamagic.
+At 6th level, the studious librarian is exposed to a wide variety of magical writing, and can use
+his own magic to duplicate spells from other classes' spell lists. Once per day, a studious
+librarian can cast any spell from the bard, sorcerer/wizard, or witch spell lists from a scroll or
+spellbook in hand as if it were one of his bard spells known, expending a bard spell slot of the
+same spell level to cast the desired spell. Casting a spell from a scroll this way does not cause
+the spell to vanish from the scroll. A spell cast in this way cannot be modified by metamagic. The
+studious librarian gains one additional daily use of this ability at 10th level and again every 4
+bard levels thereafter, to a maximum of four times per day at 18th level.
 
-**Flavor:** The studious librarian is exposed to a wide variety of magical writing, and can use his
-own magic to duplicate spells from other classes' spell lists.
+This ability replaces _suggestion_ and jack-of-all-trades.
 
-**Gained:** At 6th Level
+## Critical Research Focus (Ex) {#critical-research-focus}
 
-**Replaces:** Suggestion, jack-of-all-trades
-
-**Usage:** 1 time/day + 1 per 4 bard levels beyond 6th
-
-**Critical Research Focus (Ex)**
-
-**At 8th Level:** The studious librarian threatens a critical hit on
+At 8th level, the studious librarian threatens a critical hit on
 [a Research check](ref/rule/research) with a roll of 18, 19, or 20. He gains a +4 bonus on Research
 checks to confirm a critical hit.
 
-**Replaces:** Dirge of doom
+This ability replaces dirge of doom.
 
-**Perfect Recollection (Ex)**
+## Perfect Recollection (Ex) {#perfect-recollection}
 
-**At 19th Level:** The studious librarian can always take 20 on Knowledge checks.
+At 19th level, the studious librarian can always take 20 on Knowledge checks.
 
-**Replaces:** Mass suggestion
+This ability replaces _mass suggestion_.
 
-**One with the Library (Ex)**
+## One with the Library (Ex) {#one-with-the-library}
 
-**At 20th Level:** The studious librarian can replace one of her spells known with any bard spell
-from a scroll once per day by studying the scroll for 1 hour. Doing so erases the spell from the
-scroll.
+At 20th level, the studious librarian can replace one of her spells known with any bard spell from a
+scroll once per day by studying the scroll for 1 hour. Doing so erases the spell from the scroll.
 
-**Replaces:** Deadly performance
+This ability replaces deadly performance.

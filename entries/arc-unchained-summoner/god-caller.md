@@ -16,75 +16,77 @@ page = "40"
 
 [fields]
 kind = "archetype"
+features = [
+  { anchor = "guidance", level = 1 },
+  { anchor = "divine-word", level = 8 },
+  { anchor = "divine-awareness", level = 10 },
+  { anchor = "divine-might", level = 18 },
+  { anchor = "overwhelming-presence", level = 20 },
+]
 trades = [
-  { replaces = "Transposition", feature = "transposition" },
-  { replaces = "Aspect", feature = "aspect" },
-  { replaces = "Greater aspect", feature = "greater-aspect" },
-  { replaces = "Twin eidolon", feature = "twin-eidolon" },
-  { alters = "Life link", feature = "life-link" },
+  { replaces = "Transposition", feature = "transposition", by = ["divine-word"] },
+  { replaces = "Aspect", feature = "aspect", by = ["divine-awareness"] },
+  { replaces = "Greater aspect", feature = "greater-aspect", by = ["divine-might"] },
+  { replaces = "Twin eidolon", feature = "twin-eidolon", by = ["overwhelming-presence"] },
+  { alters = "Life link", feature = "life-link", by = ["guidance"] },
+  { alters = "Class skills" },
 ]
 +++
 
 God callers follow a fractured tradition that originated in the now-lost nation of Sarkoris. They
 speak to an assortment of ancient divine powers to lead their communities and sometimes stir up
-reformations in faiths with ideals similar to their personal convictions.
+reformations in faiths with ideals similar to their personal convictions. Any summoner (including
+the summoner from _Pathfinder Unchained_) can select the god caller archetype.
 
-**Gained class skills:** diplo, intm
+## Class Skills {#class-skills}
 
-**Lost class skills:** kd, ke, kg, kna, umd
+A god caller adds Diplomacy and Intimidate to his list of class skills, instead of Knowledge
+(dungeoneering, engineering, geography, and nature) and Use Magic Device.
 
-**Guidance (Sp)**
+This ability alters the summoner's class skills.
 
-**Ability:** The eidolon can use [guidance](ref/spell/guidance) as a
-[spell-like ability](ref/umr/spell-like-abilities) at will. However, the eidolon and the god caller
-must remain within 50 feet of one another for the eidolon to remain at full strength. If the eidolon
-is beyond 50 feet but closer than 1,000 feet, its current and maximum hit point totals are reduced
-by half.
+## Guidance (Sp) {#guidance}
 
-**Alters:** Life link
+A god caller's eidolon has a tiny spark of divinity. It can use _[guidance](ref/spell/guidance)_ as
+a [spell-like ability](ref/umr/spell-like-abilities) at will. However, the eidolon and the god
+caller must remain within 50 feet of one another for the eidolon to remain at full strength. If the
+eidolon is beyond 50 feet but closer than 1,000 feet, its current and maximum hit point totals are
+reduced by half.
 
-**Flavor:** A god caller's eidolon has a tiny spark of divinity.
+This ability alters life link.
 
-**Divine Word (Ex)**
+## Divine Word (Ex) {#divine-word}
 
-**Ability:** Once per day while his eidolon uses the aid another action to assist him in such a
-check, if the god caller would improve a target's attitude toward him, or gain a success if using
-the individual [influence rules](ref/rule/influence), he instead improves that target's attitude by
-2 steps or it counts as 2 successes.
-
-**Gained:** At 8th Level
-
-**Passive:** If a god caller's eidolon would grant him a bonus with the
+At 8th level, if a god caller's eidolon would grant him a bonus with the
 [aid another](ref/rule/aid-another) action on a Diplomacy or Intimidate check, the god caller can
-instead choose to roll twice and take the better result. He makes the choice before rolling.
+instead choose to roll twice and take the better result. He makes the choice before rolling. Once
+per day while his eidolon uses the aid another action to assist him in such a check, if the god
+caller would improve a target's attitude toward him, or gain a success if using the individual
+[influence rules](ref/rule/influence), he instead improves that target's attitude by 2 steps or it
+counts as 2 successes.
 
-**Replaces:** Transposition
+This ability replaces transposition.
 
-**Divine Awareness (Sp)**
+## Divine Awareness (Sp) {#divine-awareness}
 
-**Ability:** After 10 minutes of concentration, a god caller's eidolon can see from afar as per
-[clairaudience/clairvoyance](ref/spell/clairaudience-clairvoyance).
+At 10th level, after 10 minutes of concentration, a god caller's eidolon can see from afar as per
+_clairaudience_/_clairvoyance_. The eidolon can do this once per day at 10th level, and an
+additional time per day every 4 summoner levels thereafter (maximum of 3 times per day at 18th
+level).
 
-**Gained:** At 10th Level
+This ability replaces aspect.
 
-**Replaces:** Aspect
+## Divine Might (Ex) {#divine-might}
 
-**Usage:** 1 time/day + 1 per 4 summoner levels beyond 10th
-
-**Divine Might (Ex)**
-
-**Gained:** At 18th Level
-
-**Passive:** A god caller's eidolon's attacks are treated as epic for the purpose of overcoming
+At 18th level, a god caller's eidolon's attacks are treated as epic for the purpose of overcoming
 [damage reduction](ref/rule/damage-reduction) and harming mythic creatures.
 
-**Replaces:** Greater aspect
+This ability replaces greater aspect.
 
-**Overwhelming Presence (Sp)**
+## Overwhelming Presence (Sp) {#overwhelming-presence}
 
-**Ability:** A god caller's eidolon can use [overwhelming presence](ref/spell/overwhelming-presence)
-three times per day. The save DC is equal to 19 + the eidolon's Charisma modifier.
+At 20th level, a god caller's eidolon can use
+_[overwhelming presence](ref/spell/overwhelming-presence)_ three times per day. The save DC is equal
+to 19 + the eidolon's Charisma modifier.
 
-**Gained:** At 20th Level
-
-**Replaces:** Twin eidolon
+This ability replaces twin eidolon.

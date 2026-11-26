@@ -16,9 +16,12 @@ page = "47"
 
 [fields]
 kind = "archetype"
+features = [
+  { anchor = "seafaring-companion", level = 1 },
+]
 trades = [
   { replaces = "Weapon and armor proficiencies", feature = "weapon-and-armor-proficiencies" },
-  { alters = "Mount", feature = "mount" },
+  { replaces = "Mount", feature = "mount", by = ["seafaring-companion"] },
 ]
 +++
 
@@ -26,19 +29,14 @@ Throughout the Inner Sea region, wave riders patrol harbors, keeping them safe f
 creatures and watching for smugglers. The most famous of these is the hippocampus-riding Sea Cavalry
 of Absalom.
 
-**Weapon and Armor Proficiency**
+## Weapon and Armor Proficiency {#weapon-and-armor-proficiency}
 
-**Info:** Wave riders are proficient with all simple and martial weapons and with light and medium
-armor, but not with shields.
+Wave riders are proficient with all simple and martial weapons and with light and medium armor, but
+not with shields. This replaces the cavalier's weapon and armor proficiencies.
 
-**Replaces:** Weapon and armor proficiencies
+## Seafaring Companion {#seafaring-companion}
 
-**Seafaring Companion**
-
-**Ability:** A wave rider gains [Monstrous Mount](ref/feat/monstrous-mount) as a bonus feat. The
-wave rider can use this feat only to select a [hippocampus mount](ref/companion/hippocampus).
-Otherwise, this ability functions identically to the cavalier's _[mount](ref/spell/mount)_ ability.
-
-**Alters:** Mount
-
-**Gained:** At 1st Level
+At 1st level, a wave rider gains [Monstrous Mount](ref/feat/monstrous-mount) (see page 14) as a
+bonus feat. The wave rider can use this feat only to select a
+[hippocampus mount](ref/companion/hippocampus) (see page 14). Otherwise, this ability functions
+identically to and replaces the cavalier's [mount](ref/class/cavalier#mount) ability.

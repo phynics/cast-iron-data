@@ -16,45 +16,41 @@ page = "42"
 
 [fields]
 kind = "archetype"
+features = [
+  { anchor = "divining-dance", level = 1 },
+]
 trades = [
-  { replaces = "Bonus skills from the oracle's mystery", feature = "mystery", power = "class skills" },
-  { replaces = "The bonus spells gained at 6th, 10th, 12th, 16th, and 18th levels from the oracle's mystery", feature = "mystery", levels = [6, 10, 12, 16, 18], power = "bonus spells" },
+  { replaces = "Additional skills gained from the oracle's mystery", feature = "mystery", power = "class skills" },
+  { replaces = "Bonus spells at those levels gained from the oracle's mystery", feature = "mystery", levels = [6, 10, 12, 16, 18], power = "bonus spells" },
 ]
 +++
 
 Keleshite prophets help guide and serve the vast Padishah Empire of Kelesh and its interests across
 Golarion.
 
-**Recommended Mysteries:** Any.
+## Recommended Mysteries {#recommended-mysteries}
 
-**Replaces:** Bonus skills from the oracle's mystery
+Any.
 
-**Gained class skills:** ka, kd, ke, kg, kl, kna, kno, per, perf
+## Class Skills {#class-skills}
 
-**Bonus Spells**
+A Keleshite prophet adds Perception, Perform (dance), and all Knowledge skills to her list of class
+skills.
 
-**Info:** The oracle gains these bonus spells at the listed levels.
+These replace the additional skills gained from the oracle's mystery.
 
-**Replaces:** The bonus spells gained at 6th, 10th, 12th, 16th, and 18th levels from the oracle's
-mystery
+## Bonus Spells {#bonus-spells}
 
-**Spells:** Prying eyes
+A Keleshite prophet gains the following bonus spells: _clairaudience/clairvoyance_ (6th), _prying
+eyes_ (10th), _true seeing_ (12th), _prediction of failure_ (16th), _foresight_ (18th).
 
-**Spells:** True seeing
+These replace the bonus spells at those levels gained from the oracle's mystery.
 
-**Spells:** Prediction of failure
+## Revelations {#revelations}
 
-**Spells:** Foresight
+A Keleshite prophet must take the following revelation at 1st level.
 
-**Spells:** Clairaudience/clairvoyance
-
-**Revelations**
-
-**Info:** A Keleshite prophet must take the following revelation at 1st level.
-
-**Divining Dance (Su)**
-
-**Action:** Ability
+## Divining Dance (Su) {#divining-dance}
 
 Once per day, you can perform a sacred meditative dance that gives you great clarity of mind and
 prepares you for what lies ahead. This dance must last for at least 1 minute, uninterrupted, and you
@@ -66,10 +62,10 @@ if you wish (for example, if your Perform \[dance\] result is 15, you can choose
 on your divinations' saving throws instead of choosing to use _[augury](ref/spell/augury)_ once as a
 [spell-like ability](ref/umr/spell-like-abilities)).
 
-|Perform (dance) Result|Benefit|
+|Perform (Dance) Result|Benefit|
 | --- | --- |
-|0-9|Increase the saving throw DC of any divination spells you cast by 1.|
-|10-19|Once in the next 24 hours, as an **immediate action**, you can use [augury](ref/spell/augury) as a [spell-like ability](ref/umr/spell-like-abilities), using your oracle level as your caster level.|
-|20-29|Once in the next 24 hours, you can use [divination](ref/spell/divination) as a [spell-like ability](ref/umr/spell-like-abilities), using your oracle level as your caster level. If you are at least 8th level, you can cast it in 1 minute instead of 10 minutes.|
-|30-39|Once in the next 24 hours, you can use [commune](ref/spell/commune) as a [spell-like ability](ref/umr/spell-like-abilities), using your oracle level as your caster level. If you are at least 10th level, its casting time is in 1 minute instead of 10 minutes.|
-|40+|Once in the next 24 hours, you can use [contact other plane](ref/spell/contact-other-plane) as a [spell-like ability](ref/umr/spell-like-abilities), using your oracle level as your caster level.|
+|0–9|Increase the saving throw DC of any [divination](ref/spell/divination) spells you cast by 1.|
+|10–19|Once in the next 24 hours, as an immediate action, you can use _[augury](ref/spell/augury)_ as a [spell-like ability](ref/umr/spell-like-abilities), using your oracle level as your caster level.|
+|20–29|Once in the next 24 hours, you can use _[divination](ref/spell/divination)_ as a [spell-like ability](ref/umr/spell-like-abilities), using your oracle level as your caster level. If you are at least 8th level, you can cast it in 1 minute instead of 10 minutes.|
+|30–39|Once in the next 24 hours, you can use _[commune](ref/spell/commune)_ as a [spell-like ability](ref/umr/spell-like-abilities), using your oracle level as your caster level. If you are at least 10th level, its casting time is in 1 minute instead of 10 minutes.|
+|40+|Once in the next 24 hours, you can use _[contact other plane](ref/spell/contact-other-plane)_ as a [spell-like ability](ref/umr/spell-like-abilities), using your oracle level as your caster level.|

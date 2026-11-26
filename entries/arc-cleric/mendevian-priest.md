@@ -16,8 +16,13 @@ page = "36"
 
 [fields]
 kind = "archetype"
+features = [
+  { anchor = "diminished-spellcasting", level = 1 },
+  { anchor = "demonic-knowledge", level = 1 },
+  { anchor = "teamwork-feat", level = 4 },
+]
 trades = [
-  { replaces = "Domain", feature = "domains" },
+  { replaces = "Domain", feature = "domains", by = ["diminished-spellcasting"] },
 ]
 +++
 
@@ -27,33 +32,27 @@ from the Worldwound. Crusade-minded clerics of [Iomedae](ref/faith/iomedae),
 weaknesses of demons, and strike out to make a name for themselves. A Mendevian priest has the
 following class features.
 
-**Weapon and Armor Proficiency**
+## Weapon and Armor Proficiency {#weapon-and-armor-proficiency}
 
-**Info:** A Mendevian priest is proficient with all simple weapons, light armor, medium armor, heavy
-armor, shields (except tower shields), and the favored weapon of her deity.
+A Mendevian priest is proficient with all simple weapons, light armor, medium armor, heavy armor,
+shields (except tower shields), and the favored weapon of her deity.
 
-**Diminished Spellcasting**
+## Diminished Spellcasting {#diminished-spellcasting}
 
-**Info:** A Mendevian priest chooses only one domain from her deity's list of domains rather than
-the normal two domains. In all other respects, this works like and replaces the standard cleric
-domain ability.
+A Mendevian priest chooses only one domain from her deity's list of domains rather than the normal
+two domains. In all other respects, this works like and replaces the standard cleric domain ability.
 
-**Replaces:** Domain
+## Demonic Knowledge (Ex) {#demonic-knowledge}
 
-**Demonic Knowledge (Ex)**
+At 1st level, when making Knowledge (planes) checks regarding demons, demonic cults, and their
+magic, a Mendevian priest gains a bonus on the check equal to
+[half](ref/misc/fractions-and-rounding) her class level (minimum +1) and can make these Knowledge
+skill checks untrained.
 
-**Gained:** At 1st Level
+## Teamwork Feat {#teamwork-feat}
 
-**Passive:** When making Knowledge (planes) checks regarding demons, demonic cults, and their magic,
-a Mendevian priest gains a bonus on the check equal to [half](ref/misc/fractions-and-rounding) her
-class level (minimum +1) and can make these Knowledge skill checks untrained.
-
-**Teamwork Feat**
-
-**At 4th Level:** The Mendevian priest gains a bonus feat. This must be a teamwork feat,
+At 4th level and 8th level, the Mendevian priest gains a bonus feat. This must be a teamwork feat,
 [Alignment Channel](ref/feat/alignment-channel),
 [Greater Spell Penetration](ref/feat/greater-spell-penetration), [Leadership](ref/feat/leadership),
 or [Spell Penetration](ref/feat/spell-penetration). The cleric must meet the prerequisites of the
 selected bonus feat.
-
-**At 8th Level:** The cleric gains another bonus feat, following the same restrictions as above.

@@ -16,9 +16,13 @@ page = "35"
 
 [fields]
 kind = "archetype"
+features = [
+  { anchor = "false-arcanist", level = 1 },
+  { anchor = "unseen-devotion", level = 8 },
+]
 trades = [
-  { replaces = "One of the cleric's two 1st-level domain powers (her choice)", feature = "domains", levels = [1], power = "domain power" },
-  { replaces = "One of the cleric's two 8th-level domain powers (his choice)", feature = "domains", levels = [8], power = "domain power" },
+  { replaces = "One of the cleric's two 1st-level domain powers (her choice)", feature = "domains", levels = [1], power = "domain power", by = ["false-arcanist"] },
+  { replaces = "One of the cleric's two 8th-level domain powers (his choice)", feature = "domains", levels = [8], power = "domain power", by = ["unseen-devotion"] },
 ]
 +++
 
@@ -31,36 +35,24 @@ beliefs. Clerics in these circumstances must conceal their true natures, practic
 secret, and always be on guard for betrayal and discovery. A hidden priest has the following class
 features.
 
-**False Arcanist (Ex)**
+## False Arcanist (Ex) {#false-arcanist}
 
-**Action:** Ability
-
-**Gained:** At 1st Level
-
-**Passive:** A hidden priest adds [half](ref/misc/fractions-and-rounding) his class level (minimum
-+1) on all Bluff skill checks to send secret messages about religious matters, and on all Sense
-Motive checks to recognize similar messages. He also adds this bonus on Perception and Sense Motive
-checks relating to agents of the laws against his religion (including city guards in lands where
-these laws are in effect).
-
-**Replaces:** One of the cleric's two 1st-level domain powers (her choice)
-
-A hidden priest is able to disguise his cleric spellcasting, presenting it as arcane magic of some
-kind. Typically, this is as alchemist, bard, sorcerer, or wizard magic, and the cleric disguises the
-words and gestures of the cleric spell with accoutrements appropriate to his apparent profession. He
-must make a skill check (DC 10 + twice the level of the spell) to disguise his casting and
-successfully cast the spell. The type of skill check depends on the type of caster he pretends to
-be: Craft (alchemy) for alchemist, Perform for bard, Knowledge (arcana) for sorcerer or wizard.
-Using Spellcraft to identify the spell works normally, though unless the observer beats the DC by 10
-or more, she doesn't suspect the source of the magic is divine.
+At 1st level, a hidden priest is able to disguise his cleric spellcasting, presenting it as arcane
+magic of some kind. Typically, this is as alchemist, bard, sorcerer, or wizard magic, and the cleric
+disguises the words and gestures of the cleric spell with accoutrements appropriate to his apparent
+profession. He must make a skill check (DC 10 + twice the level of the spell) to disguise his
+casting and successfully cast the spell. The type of skill check depends on the type of caster he
+pretends to be: Craft (alchemy) for alchemist, Perform for bard, Knowledge (arcana) for sorcerer or
+wizard. Using Spellcraft to identify the spell works normally, though unless the observer beats the
+DC by 10 or more, she doesn't suspect the source of the magic is divine.
 
 For example, a hidden priest pretending to be an alchemist wants to cast
-[cure light wounds](ref/spell/cure-light-wounds) on a wounded townsperson. If he makes a DC 12 Craft
-(alchemy) check, he disguises his spellcasting as the mixing of an alchemical extract or potion
-(perhaps with the words disguised as reciting an obscure formula or talking herself through the list
-of ingredients), which he gives to the target. An observer making a DC 16 Spellcraft check can
-identify his spell as _[cure light wounds](ref/spell/cure-light-wounds),_ but doesn't realize his
-"alchemical" methods are a sham unless her check result is 26 or higher.
+_[cure light wounds](ref/spell/cure-light-wounds)_ on a wounded townsperson. If he makes a DC 12
+Craft (alchemy) check, he disguises his spellcasting as the mixing of an alchemical extract or
+potion (perhaps with the words disguised as reciting an obscure formula or talking herself through
+the list of ingredients), which he gives to the target. An observer making a DC 16 Spellcraft check
+can identify his spell as _[cure light wounds](ref/spell/cure-light-wounds)_, but doesn't realize
+his "alchemical" methods are a sham unless her check result is 26 or higher.
 
 When the hidden priest uses this ability, he must still provide any divine focus components for the
 spells he casts. However, the divine focus doesn't need to be an obvious symbol of his faith. It
@@ -72,19 +64,21 @@ as he would his true one (for example, he couldn't leave the coin in his shoe). 
 a divine focus with a specific or minimum cost, the replacement divine focus must be of similar
 value to be used as the divine focus.
 
-**Unseen Devotion (Su)**
+A hidden priest adds [half](ref/misc/fractions-and-rounding) his class level (minimum +1) on all
+Bluff skill checks to send secret messages about religious matters, and on all Sense Motive checks
+to recognize similar messages. He also adds this bonus on Perception and Sense Motive checks
+relating to agents of the laws against his religion (including city guards in lands where these laws
+are in effect).
 
-**Ability:** A hidden priest can apply the [Silent Spell](ref/feat/silent-spell) and
+This ability replaces one of the cleric's two 1st-level domain powers (her choice).
+
+## Unseen Devotion (Su) {#unseen-devotion}
+
+At 8th level, a hidden priest can apply the [Silent Spell](ref/feat/silent-spell) and
 [Still Spell](ref/feat/still-spell) feats to a spell he is about to cast. This does not alter the
-level of the spell or the casting time.
-
-**Gained:** At 8th Level
-
-**Replaces:** One of the cleric's two 8th-level domain powers (his choice)
-
-**Special:** Even though this ability does not modify the spell's actual level, he cannot use this
-ability to cast a spell whose modified spell level would be above the level of the highest-level
-spell that he is capable of casting. This ability always applies both feats (the cleric cannot use
-it to just apply one or the other).
-
-**Usage:** 1 time/day + 1 per 4 cleric levels beyond 8th
+level of the spell or the casting time. He can use this ability once per day at 8th level and one
+additional time per day for every four additional cleric levels beyond 8th. Even though this ability
+does not modify the spell's actual level, he cannot use this ability to cast a spell whose modified
+spell level would be above the level of the highest-level spell that he is capable of casting. This
+ability always applies both feats (the cleric cannot use it to just apply one or the other). This
+ability replaces one of the cleric's two 8th-level domain powers (his choice).

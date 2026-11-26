@@ -1,0 +1,15 @@
+[[edit]]
+entry = "ref/arc-monk/hamatulatsu-master"
+anchor = "bonus-feats"
+note = "hand-written by the batch lead from the page (Inner Sea Combat p. 38, pages checked as images): the text layer is a scan, and its extraction breaks the sentence \"At 10th level, the following feats are added to the list:\" into two paragraphs where the page runs on. The three page citations (Pathfinder Campaign Setting: The Inner Sea World Guide 287, Ultimate Combat 105 twice) follow a feat that the entry links, so they are left out (owner ruling 26)."
+text = '''
+A hamatulatsu master replaces the normal monk bonus feats with the following: [Deflect Arrows](ref/feat/deflect-arrows), [Dodge](ref/feat/dodge), [Exotic Weapon Proficiency](ref/feat/exotic-weapon-proficiency), [Improved Grapple](ref/feat/improved-grapple), [Intimidating Prowess](ref/feat/intimidating-prowess), [Scorpion Style](ref/feat/scorpion-style), or [Weapon Focus](ref/feat/weapon-focus). At 6th level, the following feats are added to the list: [Gorgon's Fist](ref/feat/gorgons-fist), [Hamatulatsu](ref/feat/hamatulatsu), [Improved Sunder](ref/feat/improved-sunder), [Mobility](ref/feat/mobility), [Power Attack](ref/feat/power-attack). At 10th level, the following feats are added to the list: [Critical Focus](ref/feat/critical-focus), [Impaling Critical](ref/feat/impaling-critical) (unarmed strike), [Improved Critical](ref/feat/improved-critical), [Medusa's Wrath](ref/feat/medusas-wrath), [Snatch Arrows](ref/feat/snatch-arrows). At 14th level, the following feat is added to the list: [Improved Impaling Critical](ref/feat/improved-impaling-critical). Anytime a hamatulatsu master would gain a bonus feat, she can instead choose to gain two additional uses of stunning fist per day.
+'''
+
+[[edit]]
+entry = "ref/arc-cavalier/wave-rider"
+anchor = "seafaring-companion"
+note = "hand-written by the batch lead from the page (Inner Sea Combat p. 47, page checked as an image): the last line of the ability, \"to and replaces the cavalier's mount ability.\", is not in the text layer of the scan. Print says the ability \"functions identically to and replaces the cavalier's mount ability\" (the corpus has an alteration), so the stored trade is a replacement. The link of \"mount\" points at the cavalier's mount ability, not at the spell."
+text = '''
+At 1st level, a wave rider gains [Monstrous Mount](ref/feat/monstrous-mount) (see page 14) as a bonus feat. The wave rider can use this feat only to select a [hippocampus mount](ref/companion/hippocampus) (see page 14). Otherwise, this ability functions identically to and replaces the cavalier's [mount](ref/class/cavalier#mount) ability.
+'''
