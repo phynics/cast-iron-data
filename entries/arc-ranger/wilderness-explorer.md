@@ -30,8 +30,7 @@ trades = [
   { replaces = "Quarry", feature = "quarry", by = ["guardian-spirit"] },
   { replaces = "Improved quarry", feature = "improved-quarry", by = ["manifest-spirit"] },
   { alters = "Favored terrain", feature = "favored-terrain", by = ["indigenous-spirit", "guardian-spirit", "manifest-spirit"] },
-  { alters = "Favored terrain", by = ["indigenous-spirit", "guardian-spirit", "manifest-spirit"] },
-  { alters = "Favored terrain", by = ["indigenous-spirit", "guardian-spirit", "manifest-spirit"] },
+  { alters = "Class skills" },
 ]
 +++
 

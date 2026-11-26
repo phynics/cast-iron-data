@@ -104,6 +104,8 @@ PRINTINGS = {
     "ultimate-intrigue": "Ultimate Intrigue, 1st printing",
     "ultimate-wilderness": "Ultimate Wilderness, 1st printing",
     "adventurers-guide": "Adventurer's Guide, 1st printing",
+    "horror-adventures": "Horror Adventures, 1st printing",
+    "planar-adventures": "Planar Adventures, 1st printing",
 }
 ROOT = HERE.parent
 FORGET_CHECKER_HOLDS = False
@@ -501,6 +503,12 @@ def clean_runs(runs: list[tuple[str, bool, bool]]) -> str:
         else:
             out.append(text)
     s = "".join(out)
+    if DAGGER in s:
+        if DAGGER_KEEP["on"]:
+            s = re.sub(r"^(\s*)" + DAGGER + r"+ ", "\\1\u2020", s)          # the key paragraph: "\u2020This spell is ..."
+            s = s.replace(DAGGER, "\u2020")
+        else:
+            s = re.sub(DAGGER + r"+ ?(?=[,.;:)])", "", s).replace(DAGGER, "")
     return s
 
 
@@ -516,6 +524,7 @@ def finish_text(s: str, vocab: set[str]) -> str:
     s = fix_ligatures(s, vocab)
     s = fix_hyphens(s, vocab)
     s = re.sub("(?<=[A-Za-z0-9)_])\u2014 +(?=\\S)", "\u2014", s)   # a line that ends in an em dash joins the next one without a blank ("DR 5/\u2014 against" keeps its blank)
+    s = re.sub(r"(?<=[A-Za-z0-9" + I_CLOSE + r"]) +(?=[,;])", "", s)          # a superscript at a line end leaves "resistance , create"
     # an italic run of marks only (", " or "." between two words) is plain text: the period of "possession (see page 181)." is not italic
     s = re.sub(I_OPEN + r"([\s,.;:!?]+)" + I_CLOSE, r"\1", s)
     # the extraction pads italic runs with blanks
@@ -570,6 +579,8 @@ FONT_EL = re.compile(r'<fontspec id="(\d+)" size="(\d+)" family="([^"]*)" color=
 TAG_SPLIT = re.compile(r"(</?[bi]>)")
 BODY_TOP = (88, 1075)
 SUPERSCRIPT = "\x04"
+DAGGER = "\x05"                 # a dagger of the book; DAGGER_KEEP says whether the entry keeps it
+DAGGER_KEEP = {"on": False}
 COL_SPLIT = 460
 COL_LEFT = (108, 468)      # the left edge of the two columns of the Advanced Player's Guide
 
@@ -583,7 +594,7 @@ class Para:
     size: int = 0                            # the font size of a title
 
     def plain(self) -> str:
-        return "".join(t for t, _, _ in self.runs)
+        return "".join(t for t, _, _ in self.runs).replace(DAGGER, "")
 
 
 def runs_of(raw: str) -> list[tuple[str, bool, bool]]:
@@ -637,7 +648,17 @@ def load_book(xml_path: Path) -> Book:
             mark = SUPERSCRIPT_MARK.fullmatch(plain) if (fonts.get(font, 99) <= 8 or int(_h) <= 11) else None
             if mark and mark.group(1):
                 raw, plain = mark.group(1), mark.group(1)
-            elif (mark and not mark.group(1)) or (int(_h) <= 11 and re.fullmatch(r"[A-Z]{2,4}|[\u2020\u2021]+", plain)):
+            elif int(_h) <= 11 and re.fullmatch(r"[\u2020\u2021]+", plain):
+                # a dagger: kept as DAGGER; the text of an entry that prints the key of its daggers keeps it (owner ruling 10), the
+                # others drop it with the other marks (`clean_runs`)
+                items.append((top, left, int(font), DAGGER * len(plain) + (" " if raw != raw.rstrip() else ""), int(_w)))
+                continue
+            elif int(_h) <= 11 and re.fullmatch(r"[A-Z]{2,4}[.,;:)]+", plain):
+                # a mark with the punctuation that follows it in one element ("UW."): the mark goes, the punctuation stays
+                items.append((top, left, int(font), SUPERSCRIPT, 0))
+                items.append((top, left, int(font), re.sub(r"^[A-Z]+", "", raw), int(_w)))
+                continue
+            elif (mark and not mark.group(1)) or (int(_h) <= 11 and re.fullmatch(r"[A-Z]{2,4}", plain)):
                 # left out of the text; `page_lines` keeps the blank that ends a line when the mark stood last
                 # a mark that carries the blank of the word space after it ("Performance" + "APG " + "feat") keeps it
                 items.append((top, left, int(font), SUPERSCRIPT + (" " if raw != raw.rstrip() else ""), int(_w)))
@@ -1004,10 +1025,38 @@ CLASS_WORDS = {"alchemist", "barbarian", "bard", "cavalier", "cleric", "druid", 
                "magus", "monk", "oracle", "paladin", "ranger", "rogue", "sorcerer", "summoner", "witch", "wizard", "both"}
 
 
+_ORD_STEM = re.compile(r"^(?:(?:the|a|an)\s+)?\d+(?:st|nd|rd|th)-$", re.I)
+_ORD_FULL = re.compile(r"^(?:(?:the|a|an)\s+)?\d+(?:st|nd|rd|th)-(\S+(?:\s+.*)?)$", re.I)
+
+
+def expand_suspended(text: str) -> str:
+    """The app's list expansion of suspended hyphens (app #727): each suspended item takes the tail of the next full item after it, so
+    "the 4th- and 14th-level vigilante talents and the 9th- and 19th-level social talents" expands per list. A suspended ordinal ("the
+    4th-") takes only the tail of a full item that starts with an ordinal ("level vigilante talents"); any other suspended item
+    ("low-") takes the hyphen tail of the next full hyphenated item ("level" of "high-level"). A suspended item with no full item
+    after it stays as it is: no tail is borrowed from an earlier list. Text without a suspended item is returned as it is."""
+    items = [x.strip() for x in re.split(r",|\band\b|\bor\b", text) if x.strip()]
+    if not any(x.endswith("-") for x in items):
+        return text
+    out = []
+    for i, item in enumerate(items):
+        if item.endswith("-"):
+            later = items[i + 1:]
+            if _ORD_STEM.match(item):
+                tail = next((m.group(1) for m in (_ORD_FULL.match(x) for x in later) if m), None)
+            else:
+                tail = next((x.split("-", 1)[1] for x in later if "-" in x and not x.endswith("-") and x.split("-", 1)[1]), None)
+            if tail:
+                out.append(item + tail)
+                continue
+        out.append(item)
+    return ", ".join(out)
+
+
 def phrase_tokens(text: str, possessor: bool = True) -> list[str]:
     """Words of a trade name or of a printed phrase, as the app reads them: no articles, no class names, ordinals as
     digits, "gained at 4th level" as "4th-level", "1 to 4" as one range."""
-    text = fold(text)
+    text = expand_suspended(fold(text))                                                     # app #727
     text = text.replace(" as well as ", " and ")                                           # R7
     text = re.sub(r"\b(?:normal|normally)\s+", "", text)                                     # R2
     # R10: a possessor phrase before a name ("the sacred shield's holy champion ability") is not part of the name
@@ -1016,7 +1065,8 @@ def phrase_tokens(text: str, possessor: bool = True) -> list[str]:
     text = text.replace("'s", "") if possessor else text.replace("'s", "possessive")      # plain reading: a possessor stays a word
     text = re.sub(r"\b(\d+)(?:st|nd|rd|th)?\s*(?:to|-|through)\s*(\d+)(?:st|nd|rd|th)?\b(?!-level)", lambda m: " ".join(
         str(n) for n in range(int(m.group(1)), int(m.group(2)) + 1)) if 0 < int(m.group(1)) < int(m.group(2)) <= 20 else m.group(0), text)   # R6
-    text = re.sub(r"\b(\w+) gained at (\d+(?:st|nd|rd|th)) levels?\b", r"\2-level \1", text)
+    # R4 no longer turns "hex gained at 4th level" into "4th-level hex": the app (#728) compares the printed words, so a stored name
+    # "4th-level hex" does not cover the sentence "the hex gained at 4th level" (owner ruling 22)
     words = re.findall(r"[a-z0-9]+(?:-[a-z0-9]+)*", text)
     out = []
     for w in words:
@@ -1550,6 +1600,8 @@ def publication_title(corpus: Path, book: str) -> str:
 # Misprints of the book that are fixed because the meaning is certain (owner ruling 9 of 2026-11-24): the
 # entry, the printed words, the words written, and why. The review table's note records each fix.
 MISPRINTS = [
+    ("ref/arc-vigilante/zealot", "This alter's the vigilante's skill ranks per level", "This alters the vigilante's skill ranks per level",
+     "alters: the printed \"alter's\" is a slip for the verb of the trade sentence"),
     ("ref/arc-spiritualist/involutionist", "available at 11th, 15th, and 17th levels", "available at 11th, 15th, and 19th levels",
      "19th: the spiritualist's calm spirit gains an additional use per 4 levels beyond 7th (11th, 15th, 19th), the ability itself says 'At 15th and 19th levels', and the stored trade says 19th"),
     ("ref/arc-summoner/naturalist", "on its feat.", "on its feet.", "feet: the sentence is about the hooves of the eidolon (antlers and hoof like nails)"),
@@ -2055,6 +2107,17 @@ CONTEXT_LINKS = {
 }
 
 
+def dagger_key_printed(pfeats: list[PrintFeature], opening: list[list] | None = None) -> bool:
+    """Whether the printed section holds the key of its daggers: a paragraph that starts with the dagger ("†This spell is not
+    added to your cleric list ...", Idealist): then its marks stay (owner ruling 10)."""
+    paras = [runs for pf in pfeats for runs in pf.paras] + list(opening or [])
+    for runs in paras:
+        t = "".join(r[0] for r in runs).lstrip()
+        if t.startswith(DAGGER) and len(t.split()) >= 4:
+            return True
+    return False
+
+
 def marks_key_printed(pfeats: list[PrintFeature], vocab: set[str]) -> bool:
     """Whether the printed section holds a key of its asterisks (a sentence that names the asterisk and is not the
     book's "An asterisk (*) indicates ..." line): then its marks stay (owner ruling 10)."""
@@ -2067,9 +2130,31 @@ def marks_key_printed(pfeats: list[PrintFeature], vocab: set[str]) -> bool:
     return False
 
 
+# Where the printed section of an archetype ends although no title follows: the next section of the chapter begins with a bold
+# line that is no feature of the archetype. Elder Mythos Cultist (Horror Adventures p. 49) is followed by "NEW DOMAIN" and "NEW
+# SUBDOMAINS" (the corpus has them as the Void domain and the subdomains); Psychokineticist (p. 57) by "UTILITY WILD TALENTS" (the
+# corpus has Elemental Whispers and Greater Elemental Whispers as wild talents).
+SECTION_ENDS = {
+    "ref/arc-cleric/elder-mythos-cultist": "NEW DOMAIN",
+    "ref/arc-kineticist/psychokineticist": "UTILITY WILD TALENTS",
+}
+
+
+def cut_section(entry_id: str, section: list[Para]) -> list[Para]:
+    """The section up to the line that SECTION_ENDS names for the entry."""
+    end = SECTION_ENDS.get(entry_id)
+    if not end:
+        return section
+    for i, p in enumerate(section[1:], 1):
+        if squash(p.plain()).startswith(squash(end)):
+            return section[:i]
+    return section
+
+
 def compare_entry(e: Entry, section: list[Para], book: Book) -> dict:
     """The comparison of one archetype with its printed section: a row for each printed head, in print
     order, then one for each feature of the import that print lacks."""
+    section = cut_section(e.id, section)
     plain_names = [m.group(1) for b in blocks_of(e.body) for m in [NAME_BLOCK.match(logical(b))] if m]
     probe = {namekey(h) for h in [head_of_para(p) for p in section[1:]] if h}
     opening_imp, feats = parse_import(e.body, probe)
@@ -2103,6 +2188,7 @@ def compare_entry(e: Entry, section: list[Para], book: Book) -> dict:
                 used.add(idx)
                 matched[n] = idx
     keep = marks_key_printed(pfeats, vocab)
+    DAGGER_KEEP["on"] = dagger_key_printed(pfeats, opening_print)
     problems: list[str] = []
     lost_heads = [feats[i].name for i in range(len(feats)) if i not in used]
     if lost_heads:
@@ -2501,7 +2587,46 @@ TRADE_RENAMES = {
     ('ref/arc-swashbuckler/dashing-thief', 'Regain panache from a killing blow'): "The swashbuckler's ability to regain panache from a killing blow",
     ('ref/arc-swashbuckler/dashing-thief', 'Menacing swordplay'): 'Menacing swordplay deed',
     ('ref/arc-swashbuckler/dashing-thief', 'Dizzying defense'): 'Dizzying defense deed',
+    # Batch 5 (Horror Adventures, Planar Adventures), owner ruling 22: the stored name is the printed wording (the TSV note records each)
+    ('ref/arc-alchemist/mad-scientist', '2nd-level discovery'): 'Discovery gained at 2nd level',
+    ('ref/arc-alchemist/energist', '2nd-level discovery'): 'Discovery gained at 2nd level',
+    ('ref/arc-cleric/elder-mythos-cultist', 'Alignment'): "The cleric's required alignment",
+    ('ref/arc-swashbuckler/azatariel', 'Menacing swordplay'): 'Menacing swordplay deed',
+    ('ref/arc-occultist/talisman-crafter', '5th- and 17th-level focus powers'): 'Focus powers normally gained at 5th and 17th levels',
+    ('ref/arc-spiritualist/exciter', 'ability to use emotional focus abilities that require a manifested phantom'): 'Use emotional focus abilities that require a manifested phantom',
+    ('ref/arc-alchemist/mad-scientist', '4th-level discovery'): 'Discovery gained at 4th level',
+    ('ref/arc-alchemist/mad-scientist', 'Mutagen'): "The alchemist's mutagen",
+    ('ref/arc-witch/gingerbread-witch', '4th-level hex'): 'Hex gained at 4th level',
+    ('ref/arc-swashbuckler/azatariel', 'Precise strike'): 'Precise strike deed',
+    ('ref/arc-witch/gingerbread-witch', '1st- and 10th-level hexes'): 'Hexes gained at 1st and 10th levels',
+    ('ref/arc-wizard/hallowed-necromancer', 'Grave touch necromancy school ability'): 'Grave touch',
+    ('ref/arc-wizard/hallowed-necromancer', '5th-level bonus feat'): 'Bonus feat gained at 5th level',
+    ('ref/arc-wizard/hallowed-necromancer', '10th-level bonus feat'): 'Bonus feat gained at 10th level',
+    ('ref/arc-wizard/hallowed-necromancer', 'Power over undead necromancy school ability'): 'Power over undead',
+    ('ref/arc-wizard/undead-master', '5th-, 10th-, and 15th-level bonus feats'): 'Bonus feats gained at 5th, 10th, and 15th levels',
+    ('ref/arc-wizard/undead-master', '20th-level bonus feat'): 'Bonus feat gained at 20th level',
+    ('ref/arc-wizard/worldseeker', '5th-level bonus feat'): 'Bonus feat gained at 5th level',
+    ('ref/arc-wizard/worldseeker', '15th-level bonus feat'): 'Bonus feat gained at 15th level',
+    ('ref/arc-witch/gingerbread-witch', '8th-level hex'): 'Hex gained at 8th level',
+    ('ref/arc-witch/gingerbread-witch', '12th-level hex'): 'Hex gained at 12th level',
+    ('ref/arc-witch/gingerbread-witch', '16th-level hex'): 'Hex gained at 16th level',
+    ('ref/arc-swashbuckler/azatariel', 'Targeted strike'): 'Targeted strike deed',
+    ('ref/arc-swashbuckler/azatariel', 'Bleeding wound'): 'Bleeding wound deed',
+    ('ref/arc-swashbuckler/azatariel', 'Bonus feats'): "The swashbuckler's bonus feats",
     ('ref/arc-fighter/skirmisher', '2nd level fighter bonus feat'): 'Bonus feat the fighter normally receives at 2nd level',
+    ('ref/arc-witch/tatterdemalion', '4th-, 8th-, 12th-, and 16th-level hexes'): 'Hexes gained at 4th, 8th, 12th, and 16th levels',
+    # The app's check of the printed trade sentences (phynics/cast-iron#728): the stored name is the printed words (ruling 22)
+    ('ref/arc-paladin/soul-sentinel', '6th-level mercy'): 'Mercy gained at 6th level',
+    ('ref/arc-paladin/soul-sentinel', '12th-level mercy'): 'Mercy gained at 12th level',
+    ('ref/arc-witch/flood-walker', '1st-level hex'): 'Hex gained at 1st level',
+    ('ref/arc-witch/flood-walker', '6th-level hex'): 'Hex gained at 6th level',
+    ('ref/arc-witch/flood-walker', '10th-level hex'): 'Hex gained at 10th level',
+    ('ref/arc-witch/gravewalker', '4th-level hex'): "Witch's hex gained at 4th level",
+    ('ref/arc-witch/gravewalker', '8th-level hex'): "Witch's hex gained at 8th level",
+    ('ref/arc-witch/hedge-witch', '4th-level hex'): "Witch's hex gained at 4th level",
+    ('ref/arc-witch/hedge-witch', '8th-level hex'): "Witch's hex gained at 8th level",
+    ('ref/arc-witch/pact-witch', '6th-level hex'): 'Hex normally gained at 6th level',
+    ('ref/arc-witch/tatterdemalion', '1st-level hex'): 'Hex gained at 1st level',
 }
 
 
@@ -2527,6 +2652,7 @@ TRADE_LEVELS = {
 # the op that print says. Reanimator (Ultimate Magic p. 20): "functions as and replaces the standard alchemist
 # bomb class feature", stored as `alters`.
 TRADE_OP_FIXES = {
+    ("ref/arc-witch/gravewalker", "Patron spells"): "replaces",     # print: "This replaces the patron spells."
     ("ref/arc-druid/rot-warden", "Wild shape"): "alters",       # Opus review of batch 4: "This alters wild shape."
     ("ref/arc-alchemist/reanimator", "Bombs"): "replaces",
     ("ref/arc-inquisitor/infiltrator", "Stern gaze"): "replaces",
@@ -2559,6 +2685,8 @@ TRADE_ADDITIONS = {
     "ref/arc-swashbuckler/dashing-thief": [{"alters": "Class skills"}],
     "ref/arc-swashbuckler/rostland-bravo": [{"alters": "Class skills"}],
     "ref/arc-magus/magic-warrior": [{"alters": "Class skills"}],
+    "ref/arc-kineticist/dark-elementalist": [{"alters": "Class skills"}],
+    "ref/arc-fighter/gloomblade": [{"alters": "Class skills"}],
     # Opus review of batch 4: a printed "This alters/replaces ..." sentence that no stored trade states (the check `printed_trade_gaps`)
     "ref/arc-fighter/savage-warrior": [{"replaces": "The normal attack roll bonus and AC penalty for charging"}],
     "ref/arc-paladin/scion-of-talmandor": [{"alters": "Class skills"}],
@@ -2570,6 +2698,81 @@ TRADE_ADDITIONS = {
     "ref/arc-summoner/leshy-caller": [{"alters": "Eidolon", "feature": "eidolon"}],
     "ref/arc-unchained-summoner/leshy-caller": [{"alters": "Eidolon", "feature": "eidolon"}],
 }
+
+
+# Batch 5 (Opus review of #329): the sentences "This alters the ...'s class skills" and the like that print sets in a section before the first
+# feature (Class Skills, Alignment) state a trade that the import did not store; each is stored without `by` (ruling 6, as for Magic Warrior).
+SCAFFOLD_TRADE_ADDITIONS = {
+    "ref/arc-swashbuckler/daring-infiltrator": [{"alters": "The swashbuckler's class skill list"}],
+    "ref/arc-swashbuckler/mysterious-avenger": [{"alters": "Class skills"}],
+    "ref/arc-warpriest/cult-leader": [{"replaces": "Class skills"}],
+    "ref/arc-warpriest/sacred-fist": [{"replaces": "Class skills"}],
+    "ref/arc-ranger/beast-master": [{"replaces": "Class skills"}],
+    "ref/arc-arcanist/magaambyan-initiate": [{"alters": "Alignment"}],
+    "ref/arc-druid/sunrider": [{"alters": "Class skills"}],
+    "ref/arc-druid/tempest-druid": [{"alters": "Alignment"}],
+    "ref/arc-monk/brazen-disciple": [{"alters": "Class skills"}],
+    "ref/arc-ranger/raven-master": [{"alters": "Class skills"}],
+    "ref/arc-shaman/name-keeper": [{"alters": "Class skills"}],
+    "ref/arc-slayer/witch-killer": [{"alters": "Class skills"}],
+    "ref/arc-vigilante/experimenter": [{"alters": "Class skills"}],
+    "ref/arc-alchemist/ectochymist": [{"alters": "Class skills"}],
+    "ref/arc-fighter/sensate": [{"replaces": "Class skills"}],
+    "ref/arc-investigator/psychic-detective": [{"alters": "Class skills"}],
+    "ref/arc-mesmerist/vexing-daredevil": [{"alters": "Class skills"}],
+    "ref/arc-monk/karmic-monk": [{"alters": "Class skills"}],
+    "ref/arc-occultist/battle-host": [{"alters": "Class skills"}],
+    "ref/arc-ranger/planar-scout": [{"alters": "The ranger's skills"}],
+    "ref/arc-rogue/dreamthief": [{"alters": "Class skills"}],
+    "ref/arc-alchemist/interrogator": [{"alters": "Class skills"}],
+    "ref/arc-alchemist/metamorph": [{"alters": "Class skills"}],
+    "ref/arc-druid/skinshaper": [{"alters": "Class skills"}],
+    "ref/arc-hunter/courtly-hunter": [{"alters": "Class skills"}],
+    "ref/arc-inquisitor/cloaked-wolf": [{"alters": "Class skills"}],
+    "ref/arc-inquisitor/umbral-stalker": [{"alters": "Class skills"}],
+    "ref/arc-mesmerist/fey-trickster": [{"alters": "Class skills"}],
+    "ref/arc-monk/sage-counselor": [{"alters": "Class skills"}],
+    "ref/arc-occultist/ancestral-aspirant": [{"alters": "Class skills"}],
+    "ref/arc-occultist/secret-broker": [{"alters": "Class skills"}],
+    "ref/arc-paladin/gray-paladin": [{"alters": "Class skills"}],
+    "ref/arc-ranger/code-runner": [{"alters": "Class skills"}],
+    "ref/arc-ranger/dandy": [{"alters": "Class skills"}],
+    "ref/arc-ranger/guildbreaker": [{"alters": "Class skills"}],
+    "ref/arc-rogue/consigliere": [{"alters": "Class skills"}],
+    "ref/arc-slayer/velvet-blade": [{"alters": "Class skills"}],
+    "ref/arc-swashbuckler/veiled-blade": [{"alters": "Class skills"}],
+    "ref/arc-unchained-summoner/fey-caller": [{"alters": "Class skills"}],
+    "ref/arc-vigilante/cabalist": [{"alters": "Class skills"}],
+    "ref/arc-vigilante/magical-child": [{"alters": "Class skills"}],
+    "ref/arc-vigilante/mounted-fury": [{"alters": "Class skills"}],
+    "ref/arc-vigilante/psychometrist": [{"alters": "Class skills"}],
+    "ref/arc-vigilante/warlock": [{"alters": "Class skills"}],
+    "ref/arc-vigilante/zealot": [{"alters": "Class skills"}, {"alters": "Skill ranks per level"}],
+    "ref/arc-barbarian/brutish-swamper": [{"alters": "The barbarian's skills"}],
+    "ref/arc-barbarian/cave-dweller": [{"alters": "The barbarian's skills"}],
+    "ref/arc-bard/cultivator": [{"alters": "Class skills"}],
+    "ref/arc-cavalier/saurian-champion": [{"alters": "Class skills"}],
+    "ref/arc-gunslinger/commando": [{"alters": "Class skills"}],
+    "ref/arc-hunter/chameleon-adept": [{"alters": "Class skills"}],
+    "ref/arc-hunter/patient-ambusher": [{"alters": "Class skills"}],
+    "ref/arc-investigator/natural-philosopher": [{"alters": "Class skills"}],
+    "ref/arc-occultist/geomancer": [{"alters": "Class skills"}],
+    "ref/arc-occultist/naturalist": [{"alters": "Class skills"}],
+    "ref/arc-oracle/river-soul": [{"alters": "Class skills"}],
+    "ref/arc-paladin/forest-preserver": [{"alters": "Class skills"}],
+    "ref/arc-paladin/hunting-paladin": [{"alters": "Class skills"}],
+    "ref/arc-paladin/wilderness-warden": [{"alters": "Class skills"}],
+    "ref/arc-ranger/wilderness-explorer": [{"alters": "Class skills"}],
+    "ref/arc-rogue/desert-raider": [{"alters": "Class skills"}],
+    "ref/arc-rogue/river-rat": [{"alters": "Class skills"}],
+    "ref/arc-rogue/sly-saboteur": [{"alters": "Class skills"}],
+    "ref/arc-rogue/sylvan-trickster": [{"alters": "Class skills"}],
+    "ref/arc-swashbuckler/wildstrider": [{"alters": "Class skills"}],
+    "ref/arc-vigilante/avenging-beast": [{"alters": "Class skills"}],
+    "ref/arc-witch/flood-walker": [{"alters": "Class skills"}],
+}
+for _eid, _adds in SCAFFOLD_TRADE_ADDITIONS.items():
+    TRADE_ADDITIONS[_eid] = TRADE_ADDITIONS.get(_eid, []) + [a for a in _adds if a not in TRADE_ADDITIONS.get(_eid, [])]
 
 
 # A stored trade that only repeats another one (Roughrider stores `Armor training 4` twice, once without
@@ -2689,6 +2892,10 @@ def dropped_trade_indices(e: Entry) -> set[int]:
     for i, t in enumerate(trades_of(e)):
         key = trade_name(t)
         if key in TRADE_MERGED.get(e.id, []) or key in TRADE_REMOVALS.get(e.id, []):
+            out.add(i)
+        elif "feature" not in t and any(     # owner ruling 5 (Opus review of #329): a repeat of a linked trade, names equal without case, is left out
+                j != i and (trade_name(u)[0], trade_name(u)[1].lower()) == (key[0], key[1].lower()) and "feature" in u
+                for j, u in enumerate(trades_of(e))):
             out.add(i)
         elif (key[0], key[1].lower()) in [(o, n.lower()) for o, n in TRADE_DROPS.get(e.id, [])] and "feature" not in t and any(
                 j != i and (trade_name(u)[0], trade_name(u)[1].lower()) == (key[0], key[1].lower()) and "feature" in u
@@ -3029,8 +3236,8 @@ def run_compare(args) -> int:
     title = publication_title(corpus, book)
     ERRATA_CTX["book"] = book
     SKIP_TABLES["on"] = book == "advanced-race-guide"
-    ILLUSTRATED["on"] = book in ("advanced-class-guide", "advanced-race-guide", "adventurers-guide", "ultimate-wilderness")
-    SECTION_STOPS["on"] = book in ("adventurers-guide", "ultimate-wilderness")
+    ILLUSTRATED["on"] = book in ("advanced-class-guide", "advanced-race-guide", "adventurers-guide", "ultimate-wilderness", "horror-adventures", "planar-adventures")
+    SECTION_STOPS["on"] = book in ("adventurers-guide", "ultimate-wilderness", "horror-adventures", "planar-adventures")
     pdf = find_pdf(Path(args.books), title)
     if not pdf:
         raise SystemExit(f"no copy of {title!r} under {args.books}")
@@ -3356,9 +3563,12 @@ def recheck(corpus: Path, args, written: list[Entry], originals: dict[Path, str]
 
 # ---- --check --------------------------------------------------------------------------------------------
 
-# A printed trade sentence that states no trade on purpose (listed in the PR body): Weretouched's Lycanthrope Aspect says
-# "This alters her other class features, as detailed in each relevant class feature", a cross-reference to the features that follow.
-TRADE_GAPS_ALLOWED = {("ref/arc-shifter/weretouched", "her other class features, as detailed in each relevant class feature")}
+# The printed trade sentences that state no trade on purpose are listed in `trade-sentence-exceptions.toml` in the corpus root (the file
+# that the app's check reads; one `[[exception]]` row each with `entry`, `feature`, `sentence`, `reason` and `issue`); the script reads the
+# same file, so the two never disagree. A sentence matches when its squashed text contains the row's squashed `sentence`.
+def trade_sentence_exceptions(root: Path) -> list[dict]:
+    path = root / "trade-sentence-exceptions.toml"
+    return tomllib.loads(path.read_text(encoding="utf-8")).get("exception", []) if path.exists() else []
 
 
 def printed_trade_gaps(e: Entry) -> list[str]:
@@ -3377,10 +3587,12 @@ def printed_trade_gaps(e: Entry) -> list[str]:
             continue
         if m.group(2) in listed:
             head = m.group(1)
-        if head is None:
-            continue
-        for sop, ph, _bare in trade_sentences(part[m.end():], ABILITY_TAG.sub("", head).strip()):
-            if re.match(r"(?:grants|to|does|do|not)\b", ph) or (e.id, ph) in TRADE_GAPS_ALLOWED:
+        # an unlisted section before the first listed feature ("Class Skills", "Alignment") counts with its own heading (Opus
+        # review of #329: Planar Scout, Witch Killer, Dreamthief and Experimenter print "This alters the ... class skills" there)
+        sentences = trade_sentences(part[m.end():], ABILITY_TAG.sub("", head or m.group(1)).strip())
+        for sop, ph, _bare in sentences:
+            if re.match(r"(?:grants|to|does|do|not)\b", ph) or any(
+                    x["entry"] == e.id and squash(x["sentence"]) in squash(ph) for x in trade_sentence_exceptions(e.path.parents[2])):
                 continue                    # "This change to spells doesn't apply", "This ability does not alter ...": no trade sentence
             if not any(op == sop and covers(ph, name) for op, name in trades):
                 out.append(f'{head}: the sentence "This {sop} {ph}" has no stored trade')
@@ -3585,6 +3797,14 @@ def self_test() -> int:
     eq(trade_sentences("This ability functions like alter self, except as noted here. This ability alters alchemy."),
        [("alters", "alchemy", False)], "R19 'alter self' is the spell")
     eq(trade_sentences("This ability functions as alter self, beast shape IV, or giant form II, as appropriate."), [], "R19 no verb at all")
+    # the list expansion of suspended hyphens (app #727)
+    eq(expand_suspended("the 4th- and 14th-level vigilante talents and the 9th- and 19th-level social talents"),
+       "the 4th-level vigilante talents, 14th-level vigilante talents, the 9th-level social talents, 19th-level social talents", "two suspended lists, each against its own tail")
+    eq(expand_suspended("low- and high-level"), "low-level, high-level", "a non-ordinal stem takes the generic hyphen tail")
+    eq(expand_suspended("the 4th- and low-light vision"), "the 4th-, low-light vision", "a suspended ordinal takes only an ordinal tail: no tail, no expansion")
+    eq(expand_suspended("1st-level hexes, 4th-"), "1st-level hexes, 4th-", "a trailing suspended item stays: no backward tail")
+    eq(expand_suspended("bonus feats gained at 2nd, 6th, and 10th levels"), "bonus feats gained at 2nd, 6th, and 10th levels", "no suspended item: unchanged")
+    eq(covers("the 4th- and 14th-level vigilante talents and the 9th- and 19th-level social talents", "9th- and 19th-level social talents"), True, "a name against its own list")
     eq(trade_sentences("This ability replaces arcane pool, and it counts as arcane pool for feats."), [("replaces", "arcane pool", False)], "R17 ', and it counts as'")
     eq(trade_sentences("This ability alters self, except as noted here."), [("alters", "self, except as noted here", False)], "R19 'alters self' is not skipped")
     eq(trade_sentences("This ability alters self-sufficiency."), [("alters", "self-sufficiency", False)], "R19 'self-' is not skipped")

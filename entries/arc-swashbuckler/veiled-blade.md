@@ -28,6 +28,7 @@ trades = [
   { replaces = "Menacing swordplay deed", feature = "deeds", power = "menacing swordplay", by = ["hidden-blade"] },
   { replaces = "Swashbuckler's grace deed", feature = "deeds", power = "swashbuckler's grace", by = ["instant-unveil"] },
   { replaces = "Swashbuckler's edge deed", feature = "deeds", power = "swashbuckler's edge", by = ["soul-veil"] },
+  { alters = "Class skills" },
 ]
 +++
 

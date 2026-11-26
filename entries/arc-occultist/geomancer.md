@@ -31,6 +31,7 @@ trades = [
   { replaces = "Focus power gained at 13th level", feature = "focus-powers", levels = [13], by = ["wall-of-terrain"] },
   { alters = "Mental focus", feature = "mental-focus", by = ["geomantic-focus"] },
   { alters = "Implements", feature = "implements", by = ["geomancy"] },
+  { alters = "Class skills" },
 ]
 +++
 

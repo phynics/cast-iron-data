@@ -16,30 +16,34 @@ page = "55"
 
 [fields]
 kind = "archetype"
+features = [
+  { anchor = "expert-profiler", level = 1 },
+  { anchor = "divination-analysis", level = 2 },
+  { anchor = "blood-sleuth", level = 4 },
+  { anchor = "pack-psychology", level = 7 },
+]
 trades = [
-  { replaces = "Trapfinding", feature = "trapfinding" },
-  { replaces = "poison lore", feature = "poison-lore" },
-  { replaces = "trap sense", feature = "trap-sense" },
-  { replaces = "Poison resistance", feature = "poison-resistance", levels = [2, 5, 8] },
-  { replaces = "poison immunity", feature = "poison-resistance", levels = [11] },
-  { replaces = "Swift alchemy", feature = "swift-alchemy" },
-  { replaces = "Investigator talent at 7th level", feature = "investigator-talent", levels = [7] },
+  { replaces = "Trapfinding", feature = "trapfinding", by = ["expert-profiler"] },
+  { replaces = "poison lore", feature = "poison-lore", by = ["expert-profiler"] },
+  { replaces = "trap sense", feature = "trap-sense", by = ["expert-profiler"] },
+  { replaces = "Poison resistance", feature = "poison-resistance", levels = [2, 5, 8], by = ["divination-analysis"] },
+  { replaces = "poison immunity", feature = "poison-resistance", levels = [11], by = ["divination-analysis"] },
+  { replaces = "Swift alchemy", feature = "swift-alchemy", by = ["blood-sleuth"] },
+  { replaces = "Investigator talent at 7th level", feature = "investigator-talent", levels = [7], by = ["pack-psychology"] },
 ]
 +++
 
 Profilers understand the human psyche to an intense degree, allowing them to predict the criminals
 they hunt.
 
-**Expert Profiler (Ex)**
+## Expert Profiler (Ex) {#expert-profiler}
 
-**At 1st Level:** A profiler gains a bonus equal to 1/2 his class level (minimum +1) on Sense Motive
-checks.
+A profiler gains a bonus equal to 1/2 his class level (minimum +1) on Sense Motive checks. At 2nd
+level, he can use inspiration on any Sense Motive check without expending a use of inspiration,
+provided he is trained in the skill.
 
-**At 2nd Level:** He can use _inspiration_ on any Sense Motive check without expending a use of
-_inspiration,_ provided he is trained in the skill.
-
-**At 3rd Level:** He can attempt to predict a creature's movements using his knowledge of the
-creature's psychology. He can use this ability only on a creature familiar to him (for example, a
+At 3rd level, he can attempt to predict a creature's movements using his knowledge of the creature's
+psychology. He can use this ability only on a creature familiar to him (for example, a
 [serial killer](ref/arc-vigilante/serial-killer) whose crimes the profiler has studied will suffice,
 even if the profiler hasn't yet identified the serial killer's true identity). To do so, he starts
 from a place where he knows that the creature has been and why (most often the scene of a crime) and
@@ -47,52 +51,40 @@ attempts a Sense Motive check against a DC equal to 40 or to 20 + the creature's
 whichever is higher, which the GM rolls in secret. On a failure, the profiler's guess about the
 creatures movements is inaccurate. On a success, the profiler is able to track the creature's
 general movements as if using Survival to track (though the usual modifiers on Survival checks to
-track don't apply, and this ability allows her to track a creature using pass without trace or
+track don't apply, and this ability allows her to track a creature using _pass without trace_ or
 otherwise leaving no trail). After at most 1 hour (or sooner if there are many possible options for
 the creature to take, at the GM's discretion), if the profiler has not yet found further evidence of
 the creature's passing (such as footprints, fingerprints, or any other indication that the creature
 came this way), he loses track of the creature's movements; if he does, he can try to guess where
 the creature went next by attempting another check.
 
-**Replaces:** Trapfinding, poison lore, trap sense
+This ability replaces trapfinding, poison lore, and trap sense.
 
-**Divination Analysis (Su)**
+## Divination Analysis (Su) {#divination-analysis}
 
-**Ability:** A profiler has analyzed the workings of the mind. His caster level to determine the
+At 2nd level, a profiler has analyzed the workings of the mind. His caster level to determine the
 duration of his divination extracts increases by 1, and he gains a +1 bonus on saving throws against
-divinations.
+divinations. The increases to caster level and bonus on saving throws increase by 1 at 5th level and
+by another 1 at 8th level. At 11th level, a profiler can expend one use of inspiration to add 1d6 to
+the result of a [concentration](ref/rule/concentration) check when using a divination extract or
+investigator [spell-like ability](ref/umr/spell-like-abilities).
 
-**At 11th Level:** A profiler can expend one use of _inspiration_ to add 1d6 to the result of a
-[concentration](ref/rule/concentration) check when using a divination extract or investigator
-[spell-like ability](ref/umr/spell-like-abilities).
+This ability replaces poison resistance and poison immunity.
 
-**At 5th Level:** The increases to caster level becomes 2 and the bonus on saving throws increases
-to +2.
+## Blood Sleuth (Sp) {#blood-sleuth}
 
-**At 8th Level:** These increase to 3 and +3, respectively.
-
-**Gained:** At 2nd Level
-
-**Replaces:** Poison resistance, poison immunity
-
-**Blood Sleuth (Sp)**
-
-**Ability:** A profiler can expend one use of his _inspiration_ to use
-[discern next of kin](ref/spell/discern-next-of-kin) as a
+At 4th level, a profiler can expend one use of his inspiration to use
+_[discern next of kin](ref/spell/discern-next-of-kin)_ as a
 [spell-like ability](ref/umr/spell-like-abilities). Alternatively, he can expend two uses of
-_inspiration_ to use [blood biography](ref/spell/blood-biography) as a spell-like ability.
+inspiration to use _[blood biography](ref/spell/blood-biography)_ as a spell-like ability.
 
-**Gained:** At 4th Level
+This ability replaces swift alchemy.
 
-**Replaces:** Swift alchemy
+## Pack Psychology (Su) {#pack-psychology}
 
-**Pack Psychology (Su)**
-
-**Gained:** At 7th Level
-
-**Passive:** A profiler can understand the way that groups act together, allowing him to exploit the
-vulnerabilities in their attacks. A profiler can't be [flanked](ref/rule/flanking) by creatures with
-an Intelligence score and he gains a +1 bonus to his AC against such creatures when they would
+At 7th level, a profiler can understand the way that groups act together, allowing him to exploit
+the vulnerabilities in their attacks. A profiler can't be [flanked](ref/rule/flanking) by creatures
+with an Intelligence score and he gains a +1 bonus to his AC against such creatures when they would
 otherwise flank him, as he plays their movements against each other.
 
-**Replaces:** Investigator talent at 7th level
+This ability replaces the investigator talent at 7th level.

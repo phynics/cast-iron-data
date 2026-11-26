@@ -30,6 +30,7 @@ trades = [
   { replaces = "stunning appearance", feature = "stunning-appearance", by = ["wild-shape"] },
   { alters = "Skill ranks per level" },
   { alters = "Dual identity", feature = "dual-identity", by = ["animal-mask"] },
+  { alters = "Class skills" },
 ]
 +++
 

@@ -25,6 +25,7 @@ trades = [
   { replaces = "Hunter's bond", feature = "hunter-s-bond", by = ["animal-companion"] },
   { replaces = "6th-level combat style feat", feature = "combat-style-feat", levels = [6], by = ["improved-empathic-link"] },
   { replaces = "Camouflage", feature = "camouflage", by = ["strong-bond"] },
+  { replaces = "Class skills" },
 ]
 +++
 

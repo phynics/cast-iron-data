@@ -23,10 +23,11 @@ features = [
   { anchor = "breath-siphon", level = 10 },
 ]
 trades = [
-  { replaces = "1st-level hex", feature = "hex", levels = [1], by = ["gasping-breath-aura"] },
-  { replaces = "6th-level hex", feature = "hex", levels = [6], by = ["river-stride"] },
-  { replaces = "10th-level hex", feature = "hex", levels = [10], by = ["breath-siphon"] },
+  { replaces = "Hex gained at 1st level", feature = "hex", levels = [1], by = ["gasping-breath-aura"] },
+  { replaces = "Hex gained at 6th level", feature = "hex", levels = [6], by = ["river-stride"] },
+  { replaces = "Hex gained at 10th level", feature = "hex", levels = [10], by = ["breath-siphon"] },
   { alters = "Patron spells", feature = "patron-spells", by = ["patron-spells"] },
+  { alters = "Class skills" },
 ]
 +++
 

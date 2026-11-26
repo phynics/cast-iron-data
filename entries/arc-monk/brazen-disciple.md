@@ -29,6 +29,7 @@ trades = [
   { replaces = "Abundant step", feature = "abundant-step", by = ["confounding-koan"] },
   { replaces = "Perfect self", feature = "perfect-self", by = ["genie-apotheosis"] },
   { alters = "Bonus feats", feature = "bonus-feat", by = ["bonus-feat"] },
+  { alters = "Class skills" },
 ]
 +++
 

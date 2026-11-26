@@ -27,6 +27,7 @@ trades = [
   { replaces = "Swift tracker", feature = "swift-tracker", by = ["silent-dispatch"] },
   { alters = "Armor proficiency", feature = "weapon-and-armor-proficiencies", power = "armor" },
   { alters = "Studied target", feature = "studied-target", by = ["studied-socialite"] },
+  { alters = "Class skills" },
 ]
 +++
 

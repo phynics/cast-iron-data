@@ -28,6 +28,7 @@ trades = [
   { replaces = "improved uncanny dodge", feature = "improved-uncanny-dodge", by = ["home"] },
   { replaces = "Trap sense", feature = "trap-sense", by = ["stubborn"] },
   { replaces = "Rage power normally gained at 6th level", feature = "rage-powers", levels = [6], by = ["wrastlin"] },
+  { alters = "The barbarian's skills" },
 ]
 +++
 

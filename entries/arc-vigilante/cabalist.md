@@ -34,6 +34,7 @@ trades = [
   { alters = "Skill ranks per level" },
   { alters = "Armor and weapon proficiencies", feature = "weapon-and-armor-proficiencies" },
   { alters = "Vigilante talents", feature = "vigilante-talent", by = ["cabalist-talents"] },
+  { alters = "Class skills" },
 ]
 +++
 

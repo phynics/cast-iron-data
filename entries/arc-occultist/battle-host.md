@@ -37,6 +37,7 @@ trades = [
   { alters = "implement mastery", feature = "implement-mastery", by = ["panoply-bond"] },
   { alters = "Magic item skill", feature = "magic-item-skill", by = ["battle-skill"] },
   { alters = "Object reading", feature = "object-reading", by = ["battle-reading"] },
+  { alters = "Class skills" },
 ]
 +++
 

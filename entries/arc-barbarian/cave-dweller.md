@@ -25,6 +25,7 @@ trades = [
   { replaces = "Fast movement", feature = "fast-movement", by = ["tight-tunnels"] },
   { replaces = "Trap sense", feature = "trap-sense", by = ["tunnel-vision"] },
   { replaces = "Damage reduction", feature = "damage-reduction", by = ["sun-walker"] },
+  { alters = "The barbarian's skills" },
 ]
 +++
 

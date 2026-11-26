@@ -34,6 +34,7 @@ trades = [
   { replaces = "Nimble", feature = "nimble", by = ["favored-terrain"] },
   { replaces = "The bonus feat gained at 4th level", feature = "bonus-feats", levels = [4], by = ["track"] },
   { alters = "Gun training", feature = "gun-training", by = ["trapsmith"] },
+  { alters = "Class skills" },
 ]
 +++
 

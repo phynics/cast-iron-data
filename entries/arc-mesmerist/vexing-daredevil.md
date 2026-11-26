@@ -26,6 +26,7 @@ trades = [
   { replaces = "Touch treatment", feature = "touch-treatment" },
   { replaces = "Bold stare", feature = "bold-stare", by = ["dazzling-feint"] },
   { replaces = "Glib lie", feature = "glib-lie", by = ["shimmering-body"] },
+  { alters = "Class skills" },
 ]
 +++
 

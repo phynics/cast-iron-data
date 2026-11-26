@@ -29,6 +29,7 @@ trades = [
   { replaces = "Vigilante talent gained at 12th level", feature = "vigilante-talent", levels = [12], by = ["mighty-charge"] },
   { alters = "Dual identity", feature = "dual-identity", by = ["thorough-change"] },
   { alters = "Vengeance strike", feature = "vengeance-strike", by = ["vengeance-strike"] },
+  { alters = "Class skills" },
 ]
 +++
 

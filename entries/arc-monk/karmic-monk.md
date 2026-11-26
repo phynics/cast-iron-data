@@ -33,6 +33,7 @@ trades = [
   { alters = "Alignment requirement" },
   { alters = "Slow fall at 19th level to become slow fall 80 feet", feature = "slow-fall", by = ["karmic-disruption"] },
   { alters = "Perfect self", feature = "perfect-self", by = ["harmonic-self"] },
+  { alters = "Class skills" },
 ]
 +++
 

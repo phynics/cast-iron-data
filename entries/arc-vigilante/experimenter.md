@@ -16,140 +16,93 @@ page = "70"
 
 [fields]
 kind = "archetype"
+features = [
+  { anchor = "forbidden-science", level = 1 },
+  { anchor = "mutagenic-change", level = 1 },
+  { anchor = "brew-potion", level = 3 },
+  { anchor = "lore-master", level = 5 },
+  { anchor = "craft-construct", level = 11 },
+  { anchor = "mutable-mutagen", level = 17 },
+]
 trades = [
-  { replaces = "Vigilante specialization", feature = "vigilante-specialization" },
-  { replaces = "1st-level social talent", feature = "social-talent", levels = [1] },
-  { replaces = "Unshakable", feature = "unshakable" },
-  { replaces = "Startling appearance", feature = "startling-appearance" },
-  { replaces = "Frightening appearance", feature = "frightening-appearance" },
-  { replaces = "Stunning appearance", feature = "stunning-appearance" },
+  { replaces = "Vigilante specialization", feature = "vigilante-specialization", by = ["forbidden-science"] },
+  { replaces = "1st-level social talent", feature = "social-talent", levels = [1], by = ["mutagenic-change"] },
+  { replaces = "Unshakable", feature = "unshakable", by = ["brew-potion"] },
+  { replaces = "Startling appearance", feature = "startling-appearance", by = ["lore-master"] },
+  { replaces = "Frightening appearance", feature = "frightening-appearance", by = ["craft-construct"] },
+  { replaces = "Stunning appearance", feature = "stunning-appearance", by = ["mutable-mutagen"] },
   { alters = "Weapon and armor proficiencies", feature = "weapon-and-armor-proficiencies" },
+  { alters = "Class skills" },
 ]
 +++
 
 Some vigilantes adopt lives of secrecy to hide their strange experiments from public view.
 
-**Gained class skills:** ka, kd, ke, kg, kh, kl, kna, kno, kp, kr
+## Class Skills {#class-skills}
 
-**Weapon and Armor Proficiency**
+An experimenter adds all Knowledge skills to his list of class skills.
 
-**Alters:** Weapon and armor proficiencies
+This alters the vigilante's class skills.
 
-**Info:** Experimenters aren't proficient with martial weapons, medium armor, or shields.
+## Weapon and Armor Proficiencies {#weapon-and-armor-proficiencies}
 
-**Forbidden Science (Ex)**
+Experimenters aren't proficient with martial weapons, medium armor, or shields.
 
-**Ability:** He can take alchemical discoveries in place of vigilante talents, but only discoveries
-that affect his mutagen (including _cognatogen_ discoveries).
+This alters the vigilante's weapon and armor proficiencies.
 
-**Passive:** An experimenter gains a bonus equal to 1/2 his vigilante level on Craft (alchemy)
-checks to create alchemical items and on Knowledge (engineering) checks (minimum +1). He also learns
-how to craft a _mutagen_ as if he were an [alchemist](ref/class/alchemist) of his class level.
+## Forbidden Science (Ex) {#forbidden-science}
 
-**Replaces:** Vigilante specialization
+An experimenter gains a bonus equal to 1/2 his vigilante level on Craft (alchemy) checks to create
+alchemical items and on Knowledge (engineering) checks (minimum +1). He also learns how to craft a
+mutagen as if he were an [alchemist](ref/class/alchemist) of his class level. He can take alchemical
+discoveries in place of vigilante talents, but only discoveries that affect his mutagen (including
+cognatogen discoveries).
 
-**Special:** When an experimenter is confused, dazed, frightened, panicked, or stunned, he must
-attempt a Will save (DC = 20 + his vigilante level) each round at the start of his turn. If he
+When an experimenter is [confused](ref/misc/confused), dazed, frightened, panicked, or stunned, he
+must attempt a Will save (DC = 20 + his vigilante level) each round at the start of his turn. If he
 fails, he transforms as if he had consumed his mutagen (determine which ability score gets the bonus
 randomly). This doesn't consume his mutagen, and lasts a number of rounds equal to 3 + his vigilante
 level, after which the transformation ends and he becomes [fatigued](ref/misc/fatigued). While
-transformed in this way, he is [confused](ref/misc/confused), and he rerolls any result of "act
-normally." Since the confusion is part of the mutagenic transformation, abilities that prevent or
-remove confusion don't apply to this effect, though abilities that end the effect of a mutagen work
-normally. He forgets everything that happened while he was involuntarily transformed.
+transformed in this way, he is confused, and he rerolls any result of "act normally." Since the
+confusion is part of the mutagenic transformation, abilities that prevent or remove confusion don't
+apply to this effect, though abilities that end the effect of a mutagen work normally. He forgets
+everything that happened while he was involuntarily transformed.
 
-**Mutagen (Su)**
+This ability replaces vigilante specialization.
 
-**Action:** Info
+## Mutagenic Change (Ex) {#mutagenic-change}
 
-**Flavor:** Text from the alchemist class ability.
+As a full-round action, an experimenter can consume his mutagen (if he has one) and shift from his
+social identity to his vigilante identity, as if he had the
+[quick change](ref/soctalent/quick-change) social talent.
 
-**Gained:** At 1st Level
+This ability replaces the 1st-level social talent.
 
-**Special:** As with an extract or bomb, a mutagen that is not in your possession becomes inert
-until you pick it up again.
+## Brew Potion {#brew-potion}
 
-**Standard:** You can drink a mutagen to heighten your physical prowess at the cost of your
-personality. You gain a +2 natural armor bonus, a +4 alchemical bonus to a physical stat, and a -2
-penalty to a mental stat. See below for details.
-
-**Usage:** A mutagen lasts for 10 minutes per alchemist level.
-
-**Usage:** A mutagen lasts for 10 minutes per alchemist level.
-
-You learn how to create a mutagen that you can imbibe in order to heighten your physical prowess at
-the cost of your personality. It takes 1 hour to brew a dose of mutagen, and once brewed, it remains
-potent until used. You can only maintain one dose of mutagen at a time - if you brew a second dose,
-any existing mutagen becomes inert.
-
-When you brew a mutagen, you select one physical ability score for it to boost - either Strength,
-Dexterity, or Constitution. If the mutagen enhances your Strength, it applies a penalty to your
-Intelligence. If it enhances your Dexterity, it applies a penalty to your Wisdom. If it enhances
-your Constitution, it applies a penalty to your Charisma.
-
-A non-alchemist who drinks a mutagen must make a Fortitude save (DC 10 + 1/2 your alchemist level +
-your Intelligence modifier) or become [nauseated](ref/misc/nauseated) for 1 hour - a non-alchemist
-can never gain the benefit of a mutagen, but you can gain the effects of another alchemist's mutagen
-if you drink it. (Although if the other alchemist creates a different mutagen, the effects of the
-"stolen" mutagen immediately cease.) The effects of a mutagen do not stack. Whenever you drink a
-mutagen, the effects of any previous mutagen immediately end.
-
-**Mutagenic Change (Ex)**
-
-**Fullround:** An experimenter can consume his mutagen (if he has one) and shift from his social
-identity to his vigilante identity, as if he had the [quick change](ref/soctalent/quick-change)
-social talent.
-
-**Replaces:** 1st-level social talent
-
-**Brew Potion**
-
-**Ability:** An experimenter gains [Brew Potion](ref/feat/brew-potion) as a bonus feat. He treats
+At 3rd level, an experimenter gains [Brew Potion](ref/feat/brew-potion) as a bonus feat. He treats
 his vigilante level as his caster level and can use Craft (alchemy) instead of Spellcraft to brew
-potions.
-
-**Gained:** At 3rd Level
-
-**Replaces:** Unshakable
-
-**Special:** He can use another potion of the same spell as a sample to provide the necessary spell
+potions. He can use another potion of the same spell as a sample to provide the necessary spell
 without consuming the potion, increasing the DC by 5.
 
-**Lore Master (Ex)**
+This ability replaces unshakable.
 
-**Ability:** An experimenter gains the _lore master_ [bard](ref/class/bard) class feature.
+## Lore Master (Ex) {#lore-master}
 
-**Gained:** At 5th Level
+At 5th level, an experimenter gains the lore master [bard](ref/class/bard) class feature.
 
-**Replaces:** Startling appearance
+This ability replaces startling appearance.
 
-**Lore Master (Ex)**
+## Craft Construct {#craft-construct}
 
-**Ability:** You can take 10 on any Knowledge skill check that you have ranks in even when
-threatened or distracted. You can also choose not to take 10 and can instead roll normally.
-
-**Flavor:** Text from the bard class ability.
-
-**At 11th Level:** You can Take 20 twice a day.
-
-**At 17th Level:** You can Take 20 three times a day.
-
-**Standard:** Once per day, you can take 20 on any Knowledge skill check.
-
-**Craft Construct**
-
-**Ability:** An experimenter gains [Craft Construct](ref/feat/craft-construct) as a bonus feat. He
+At 11th level, an experimenter gains [Craft Construct](ref/feat/craft-construct) as a bonus feat. He
 treats his vigilante level as his caster level and can use Knowledge (engineering) instead of
 Spellcraft to craft a construct.
 
-**Gained:** At 11th Level
+This ability replaces frightening appearance.
 
-**Replaces:** Frightening appearance
+## Mutable Mutagen (Su) {#mutable-mutagen}
 
-**Mutable Mutagen**
+At 17th level, the duration of an experimenter's mutagen increases to 1 hour per level.
 
-**Ability:** The duration of an experimenter's mutagen increases to 1 hour per level.
-
-**Gained:** At 17th Level
-
-**Replaces:** Stunning appearance
+This ability replaces stunning appearance.

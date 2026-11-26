@@ -25,6 +25,7 @@ trades = [
   { replaces = "Trapfinding", feature = "trapfinding", by = ["desert-tracker"] },
   { replaces = "Rogue talent gained at 2nd level", feature = "rogue-talents", levels = [2], by = ["sun-at-your-back"] },
   { replaces = "Trap sense", feature = "trap-sense", by = ["light-step"] },
+  { alters = "Class skills" },
 ]
 +++
 

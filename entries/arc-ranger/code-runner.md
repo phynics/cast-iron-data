@@ -23,6 +23,7 @@ features = [
 trades = [
   { replaces = "Wild empathy", feature = "wild-empathy", by = ["mnemonic-genius"] },
   { replaces = "Hunter's bond", feature = "hunter-s-bond", by = ["resist-interrogation"] },
+  { alters = "Class skills" },
 ]
 +++
 

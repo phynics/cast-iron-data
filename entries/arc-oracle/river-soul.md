@@ -29,6 +29,7 @@ trades = [
   { replaces = "Oracle's curse", feature = "oracle-s-curse", by = ["river-bound-curse"] },
   { replaces = "Revelations gained at 1st and 11th levels", feature = "revelation", levels = [1, 11], by = ["revelations"] },
   { replaces = "Final revelation", feature = "final-revelation", by = ["river-soul-revelation"] },
+  { alters = "Class skills" },
 ]
 +++
 

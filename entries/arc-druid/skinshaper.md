@@ -23,6 +23,7 @@ features = [
 trades = [
   { replaces = "Wild shape", feature = "wild-shape", by = ["skinshaping"] },
   { replaces = "A thousand faces", feature = "a-thousand-faces", by = ["flashmorph"] },
+  { alters = "Class skills" },
 ]
 +++
 

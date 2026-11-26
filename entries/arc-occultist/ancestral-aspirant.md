@@ -25,6 +25,7 @@ trades = [
   { replaces = "Object reading", feature = "object-reading", by = ["emotional-reading"] },
   { replaces = "Outside contact", feature = "outside-contact", by = ["courtly-contacts"] },
   { alters = "Implements", feature = "implements", by = ["family-jewels"] },
+  { alters = "Class skills" },
 ]
 +++
 

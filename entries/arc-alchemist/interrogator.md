@@ -24,6 +24,7 @@ trades = [
   { replaces = "Bomb", feature = "bomb", by = ["injections"] },
   { replaces = "Mutagen", feature = "mutagen", by = ["serums"] },
   { replaces = "persistent mutagen", feature = "persistent-mutagen", by = ["serums"] },
+  { alters = "Class skills" },
 ]
 +++
 

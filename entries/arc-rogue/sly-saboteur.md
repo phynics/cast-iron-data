@@ -25,6 +25,7 @@ trades = [
   { replaces = "Trap sense", feature = "trap-sense", by = ["scamper"] },
   { replaces = "Uncanny dodge", feature = "uncanny-dodge", by = ["catastrophic-failure"] },
   { replaces = "Improved uncanny dodge", feature = "improved-uncanny-dodge", by = ["disable-magic-device"] },
+  { alters = "Class skills" },
 ]
 +++
 
