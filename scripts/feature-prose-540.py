@@ -636,6 +636,7 @@ def finish_text(s: str, vocab: set[str]) -> str:
     s = re.sub(r"(?<=\w) – (?=\d)", " - ", s)             # a minus operator ("druid level – 2")
     s = fix_ligatures(s, vocab)
     s = fix_hyphens(s, vocab)
+    s = re.sub(r"\b([A-Z][a-z]+)- ([A-Z][a-z]+)\b", r"\1-\2", s)        # "Sahir-" at a line end and "Afiyun" at the start of the next: a compound of two capitalized words
     s = re.sub("(?<=[A-Za-z0-9)_" + I_CLOSE + "])\u2014 +(?=\\S)", "\u2014", s)   # a line that ends in an em dash joins the next one without a blank ("DR 5/\u2014 against" keeps its blank); an italic label ("3rd\u2014") too
     s = re.sub(r"(?<=[A-Za-z0-9" + I_CLOSE + r"]) +(?=[,;])", "", s)          # a superscript at a line end leaves "resistance , create"
     # an italic run of marks only (", " or "." between two words) is plain text: the period of "possession (see page 181)." is not italic
@@ -1114,7 +1115,7 @@ def _assemble(book: Book, items: list[tuple[int, list[dict]]]) -> list[Para]:
                 # sentence still starts a paragraph
                 cand = head_candidate(Para("para", list(ln["runs"]), shown, ln["col"]))
                 starts = bool(cand and cand[1] and cand[1][0][0].lstrip().startswith(":") and len(cand[0]) <= 60)
-            if BULLETS["on"] and re.match(r"\s*\u2022\s", "".join(t for t, _, _ in ln["runs"])):
+            if BULLETS["on"] and re.match(r"\s*[\u2022\u2219]\s", "".join(t for t, _, _ in ln["runs"])):
                 starts = True                   # a printed list item starts a paragraph of its own
             if not out or out[-1].kind == "title" or starts:
                 out.append(Para("para", list(ln["runs"]), shown, ln["col"]))
@@ -1281,6 +1282,7 @@ SECTION_STOPS = {"on": False}
 ANY_TITLE_ENDS = {"on": False}
 # ... except the box of rules that an archetype carries as part of itself (owner ruling 41; the Invested Regent's Vested Powers and its lists of
 # powers per level, Heroes of the High Court pp. 22-23): squashed titles that do not end the section even then.
+STAYS_EXTRA = {"set": frozenset()}      # titles that stay inside the section of an archetype in the book at hand (Blood of Shadows: the "Discoveries" of the Gloom Chymist)
 ANY_TITLE_STAYS = re.compile(r"^(?:\d+(?:st|nd|rd|th)level)?vestedpowers$")
 # Blood of the Ancients sets its titles in small capitals (a capital and its small capitals sit 5 units apart in one family of type), and
 # a chapter title that a page repeats unseen over the first lines of a column. Other books read as before.
@@ -1357,7 +1359,7 @@ def find_section(blocks: list[Para], title: str, stops: set[str] | None = None) 
                         continue                # section of the archetype before it): not a title
                     # another archetype, a class, a chapter title (a larger font) or a title of a type of rules ends the
                     # section; so does the "NEW RACIAL RULES" title that follows the archetypes of a race chapter
-                    any_ends = ANY_TITLE_ENDS["on"] and not ANY_TITLE_STAYS.match(k)
+                    any_ends = ANY_TITLE_ENDS["on"] and not ANY_TITLE_STAYS.match(k) and k not in STAYS_EXTRA["set"]
                     if (stops is None or any_ends or k in stops or k.endswith(("archetype", "mystery", "bloodline")) or nxt.size >= 30 or (ARCHETYPE_CAPS["on"] and nxt.size >= 20)
                             or CLASS_SUFFIX.search(nxt.plain()) or k == "newracialrules" or (TYPE_TITLE.search(nxt.plain()) and k not in KEEP_TITLES)
                             or (SECTION_STOPS["on"] and SECTION_STOP.match(re.sub(r"\s+", " ", nxt.plain()).strip()))):
@@ -1412,6 +1414,9 @@ def head_candidate(p: Para) -> tuple[str, list, bool] | None:
         head = head.strip() + "\u2014" + rest[1][0].strip()
         i += 2
         rest = runs[i:]
+    while head.count("(") > head.count(")") and len(rest) >= 2 and rest[0][0].strip() == "," and (rest[1][1] if style == "bold" else rest[1][2]):
+        head += ", " + rest[1][0].strip()                 # "_Apothecary (Ex_, _Sp)_:": the layer breaks the tag at its comma (Black Markets p. 28)
+        rest = rest[2:]
     head = re.sub(r"\s+", " ", head).strip()
     if head.count("(") > head.count(")") and rest and rest[0][0].lstrip().startswith(")"):
         # "_Cat's Charge (Ex_): " the italics end inside the parenthesis
@@ -2154,6 +2159,10 @@ class Entry:
 OPENING_ONLY = {"ref/arc-sorcerer/bloodline-familiars", "ref/arc-bloodrager/bloodline-familiars"}
 
 
+# A broken head of the import that the script reads as the head that print has (the import is not edited by hand): Black Markets p. 28 "Envenom (Su" for "Envenom (Su)"
+IMPORT_BODY_FIXES = {"ref/arc-alchemist/eldritch-poisoner": [("**Envenom (Su**", "**Envenom (Su)**")]}
+
+
 def load_entries(corpus: Path, book: str | None, only: str = "") -> list[Entry]:
     out = []
     for path in sorted((corpus / "entries").rglob("*.md")):
@@ -2174,6 +2183,8 @@ def load_entries(corpus: Path, book: str | None, only: str = "") -> list[Entry]:
         if only and not data["id"].startswith(only):
             continue
         classes = [r["target"] for r in data.get("relations", []) if r.get("kind") == "archetype"]
+        for old_, new_ in IMPORT_BODY_FIXES.get(data["id"], []):
+            body = body.replace(old_, new_)
         out.append(Entry(path, data["id"], data["title"], "archetype", front, body, data, first, page, classes))
     return out
 
@@ -2763,7 +2774,7 @@ def join_wrapped(raw_paras: list[str], vocab: set[str]) -> list[str]:
         s = finish_text(raw, vocab)
         if not s:
             continue
-        item = BULLETS["on"] and bool(re.match(r"\u2022\s", s))
+        item = BULLETS["on"] and bool(re.match(r"[\u2022\u2219]\s", s))
         if item:
             s = "- " + s[1:].strip()
             if re.match(r"- This (?:ability |performance )?(?:replaces|alters)\b", s):
@@ -4533,7 +4544,7 @@ PLAYER_COMPANIONS = ("blood-of-the-ancients", "wilderness-origins", "legacy-of-t
 
 # The Player Companions that set their archetype titles in small capitals (a capital and its small capitals 5 units apart), and whose
 # archetypes are followed by sections of the chapter of their own (feats, techniques, spells): any title ends the section of an archetype.
-SMALL_CAP_BOOKS = ("blood-of-the-ancients", "blood-of-the-beast", "heroes-of-the-high-court", "martial-arts-handbook", "magic-tactics-toolbox", "potions-and-poisons", "heroes-from-the-fringe", "haunted-heroes-handbook", "antiheros-handbook", "blood-of-the-sea", "aquatic-adventures", "legacy-of-dragons")
+SMALL_CAP_BOOKS = ("blood-of-the-ancients", "blood-of-the-beast", "heroes-of-the-high-court", "martial-arts-handbook", "magic-tactics-toolbox", "potions-and-poisons", "heroes-from-the-fringe", "haunted-heroes-handbook", "antiheros-handbook", "blood-of-the-sea", "aquatic-adventures", "legacy-of-dragons", "plane-hoppers-handbook")
 # ... and of these, the ones whose chapter titles or capitals stand above the usual top of the body (Blood of the Ancients keeps 88)
 HIGH_TITLE_BOOKS = ("blood-of-the-beast", "heroes-of-the-high-court", "martial-arts-handbook", "magic-tactics-toolbox", "haunted-heroes-handbook", "familiar-folio", "advanced-class-origins")
 
@@ -4590,6 +4601,14 @@ for _eid in ("ref/arc-gunslinger/blatherskite", "ref/arc-alchemist/aquachymist",
 for _eid in ("ref/arc-druid/planar-extremist", "ref/arc-investigator/ruthless-agent"):
     TRADE_ADDITIONS.setdefault(_eid, []).append({"alters": "Alignment"})
 TRADE_ADDITIONS.setdefault("ref/arc-alchemist/winged-marauder", []).append({"replaces": "Disable Device, Sleight of Hand, and Use Magic Device as class skills"})
+# ---- Black Markets, Plane-Hopper's Handbook, Blood of Shadows (batch of 2026-11-27) ----
+LEVEL_FROM_PRINT[("ref/arc-sorcerer/umbral-scion", "diminished-spellcasting")] = (1, "ruling 50: alters the sorcerer's spellcasting (the whole spellcasting, a 1st-level class feature)")
+TRADE_ADDITIONS.setdefault("ref/arc-paladin/dusk-knight", []).append({"alters": "Class skills"})       # "This alters the paladin's class skills." (Skills)
+TRADE_RENAMES.update({
+    ("ref/arc-sorcerer/umbral-scion", "1st-level bloodline power"): "Shadowstrike bloodline power",      # "This ability replaces the shadowstrike bloodline power."
+    ("ref/arc-occultist/planar-harmonizer", "7th-level focus power"): "Focus power gained at 7th level",
+    ("ref/arc-occultist/planar-harmonizer", "5th-level focus power"): "Focus power gained at 5th level",
+})
 # Blood of the Sea
 TRADE_RENAMES.update({
     ("ref/arc-oracle/oceans-echo", "Bonus skills from the oracle's mystery"): "Additional class skills from her mystery",
@@ -4655,8 +4674,8 @@ def configure_book(book: str) -> None:
     global OCR_PHRASES, OCR_JOINED, OCR_ITALICS
     OCR_PHRASES, OCR_JOINED, OCR_ITALICS = (MC_OCR_PHRASES, MC_OCR_JOINED, MC_OCR_ITALICS) if book == "monster-codex" else ISC_OCR
     ARCHETYPE_CAPS["on"] = book == "heroes-of-the-darklands"
-    LIST_CONTINUES["on"] = book == "potions-and-poisons"
-    BULLETS["on"] = BULLETS["on"] or book == "potions-and-poisons"           # the Toxin Codexer's Modify Toxin prints bullet lists (ruling 45, review of #342)
+    LIST_CONTINUES["on"] = book in ("potions-and-poisons", "black-markets")
+    BULLETS["on"] = BULLETS["on"] or book in ("potions-and-poisons", "black-markets")           # the Toxin Codexer's Modify Toxin prints bullet lists (ruling 45, review of #342)
     OUTER_TAB["on"] = book == "construct-handbook"
     TAB_LEFT["min"], TAB_LEFT["title"] = (780, 15) if book == "aquatic-adventures" else (0, 16)
     PAGE_GEOMETRY["on"] = book in ("inner-sea-magic", "inner-sea-intrigue", "inner-sea-combat", "construct-handbook", "aquatic-adventures")
@@ -4668,7 +4687,8 @@ def configure_book(book: str) -> None:
                                  "horror-adventures", "planar-adventures", "inner-sea-magic", "inner-sea-intrigue", "inner-sea-combat", "construct-handbook",
                                  "heroes-of-the-darklands", "legacy-of-dragons", "familiar-folio", "advanced-class-origins")
     SECTION_STOPS["on"] = book in ("adventurers-guide", "ultimate-wilderness", "horror-adventures", "planar-adventures")
-    ANY_TITLE_ENDS["on"] = book in SMALL_CAP_BOOKS or book in PLAYER_COMPANIONS or book in ("monster-codex", "advanced-class-origins")
+    ANY_TITLE_ENDS["on"] = book in SMALL_CAP_BOOKS or book in PLAYER_COMPANIONS or book in ("monster-codex", "advanced-class-origins", "black-markets", "blood-of-shadows")
+    STAYS_EXTRA["set"] = frozenset({"discoveries"}) if book == "blood-of-shadows" else frozenset()
     SMALL_CAP_TITLES["on"] = book in SMALL_CAP_BOOKS or book in PLAYER_COMPANIONS
     CHAPTER_TITLES["on"] = book in PLAYER_COMPANIONS and book != "blood-of-the-ancients"
     # a title in small capitals and a chapter title can stand higher than the body of the other books (Heroes of the High Court p. 29: capital at 86; Martial Arts Handbook p. 18: chapter title at 70; the running heads stand at 13-29)
@@ -5641,6 +5661,7 @@ def self_test() -> int:
     text, _, notes = print_md(pf, [("alchemist's", "ref/class/alchemist")], set(), "ref/arc-gunslinger/gun-tank")
     eq(text, "(including the [alchemist's](ref/class/alchemist) bomb class ability). It works.", "ruling 26: a bare book citation goes, the link stays")
     eq(finish_text("gains DR 5/\u2014 against ranged attacks, 1st\u2014 _spell_", set()), "gains DR 5/\u2014 against ranged attacks, 1st\u2014_spell_", "an em dash joins the next line after a word, not after DR 5/")
+    eq(finish_text("adds Sahir- Afiyun (see page 18)", set()), "adds Sahir-Afiyun (see page 18)", "a compound of two capitalized words that a line end split keeps its hyphen without a blank")
     eq(finish_text(I_OPEN + "3rd" + I_CLOSE + "\u2014 blue whinnis", set()), I_OPEN + "3rd" + I_CLOSE + "\u2014blue whinnis", "an em dash after an italic label joins the next line without a blank (review of #342)")
     # a mark in the middle of a line keeps the blank of its word space; before a comma it keeps none; at a line end the blank joins the line
     bk = Book({"1": 16}, {1: [(500, 108, 1, "the Lingering Performance", 137), (501, 245, 1, SUPERSCRIPT + " ", 17), (500, 263, 1, "feat, and", 50),
