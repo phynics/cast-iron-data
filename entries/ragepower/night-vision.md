@@ -18,5 +18,5 @@ ability_type = "Ex"
 
 The barbarian's senses grow incredibly sharp while raging and she gains
 [darkvision](ref/rule/darkvision) 60 feet. A barbarian must have
-[low-light vision](ref/ragepower/low-light-vision) as a rage power or a racial trait to select this
-rage power.
+[low-light vision](ref/ragepower/low-light-vision) as a rage power or a
+[racial trait](ref/rule/low-light-vision) to select this rage power.
