@@ -8,20 +8,19 @@ provenance = [
 ]
 [[sources]]
 publication = "ultimate-combat"
-page = "15"
+page = "14-15"
 
 [fields]
 kind = "class_option"
 group = "ninja-trick"
+ability_type = "Su"
 +++
 
-**Ki Block (Su)**
+Tricks marked with an asterisk (\*) add effects to a ninja’s sneak attack. Only one of these tricks
+can be applied to an individual attack and the decision must be made before the attack is made.
 
-**Flavor:** A ninja with this trick can prevent a creature from using its ki pool.
-
-**Ability:** Whenever the ninja deals sneak attack damage, the target must make a Will save or be
-unable to spend any points from its ki pool for a number of rounds equal to the ninja's Charisma
-modifier. The DC of this save is 10 + 1/2 the ninja's level + the ninja's Charisma modifier.
-
-**Special:** The number of points in the target's ki pool is unaffected, and abilities that do not
-require the subject to spend ki still function.
+A ninja with this trick can prevent a creature from using its ki pool. Whenever the ninja deals
+sneak attack damage, the target must make a Will save or be unable to spend any points from its ki
+pool for a number of rounds equal to the ninja's Charisma modifier. The DC of this save is 10 + 1/2
+the ninja's level + the ninja's Charisma modifier. The number of points in the target's ki pool is
+unaffected, and abilities that do not require the subject to spend ki still function.

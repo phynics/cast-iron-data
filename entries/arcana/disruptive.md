@@ -13,10 +13,8 @@ page = "54"
 [fields]
 kind = "class_option"
 group = "magus-arcana"
+ability_type = "Ex"
 +++
 
-**Disruptive (Ex)**
-
-**Ability:** The magus gains [Disruptive](ref/feat/disruptive) as a bonus feat.
-
-**Prereq:** 6th-level magus
+The magus gains [Disruptive](ref/feat/disruptive) as a bonus feat. The magus must be at least 6th
+level before selecting this arcana.

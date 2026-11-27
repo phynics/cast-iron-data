@@ -13,12 +13,10 @@ page = "69"
 [fields]
 kind = "class_option"
 group = "rogue-talent"
+ability_type = "Ex"
 +++
 
-**Grit (Ex)**
-
-**Ability:** A rogue with this talent gains the [Amateur Gunslinger](ref/feat/amateur-gunslinger)
-feat and one grit feat of her choice. She must fulfill the prerequisites of the grit feat in order
-to choose it.
-
-**Prereq:** [Firearm training](ref/talent/firearm-training)
+A rogue with this talent gains the [Amateur Gunslinger](ref/feat/amateur-gunslinger) feat and one
+grit feat of her choice. She must fulfill the prerequisites of the grit feat in order to choose it.
+A rogue must have the [firearm training](ref/talent/firearm-training) talent before choosing this
+one.

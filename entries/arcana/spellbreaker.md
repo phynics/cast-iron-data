@@ -13,10 +13,8 @@ page = "55"
 [fields]
 kind = "class_option"
 group = "magus-arcana"
+ability_type = "Ex"
 +++
 
-**Spellbreaker (Ex)**
-
-**Ability:** The magus gains [Spellbreaker](ref/feat/spellbreaker) as a bonus feat.
-
-**Prereq:** 9th-level magus
+The magus gains [Spellbreaker](ref/feat/spellbreaker) as a bonus feat. The magus must be at least
+9th level before selecting this arcana.

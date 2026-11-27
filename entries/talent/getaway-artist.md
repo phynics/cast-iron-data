@@ -13,10 +13,9 @@ page = "69"
 [fields]
 kind = "class_option"
 group = "rogue-talent"
+ability_type = "Ex"
 +++
 
-**Getaway Artist (Ex)**
-
-**Passive:** A rogue with this talent adds [Fly](ref/skill/fly),
-[Handle Animal](ref/skill/handle-animal), and [Ride](ref/skill/ride) to her list of class skills,
-and gains a +2 bonus on all [driving checks](ref/rule/vehicle-basics).
+A rogue with this talent adds [Fly](ref/skill/fly), [Handle Animal](ref/skill/handle-animal), and
+[Ride](ref/skill/ride) to her list of class skills, and gains a +2 bonus on all
+[driving checks](ref/rule/vehicle-basics).

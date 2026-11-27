@@ -13,11 +13,10 @@ page = "15"
 [fields]
 kind = "class_option"
 group = "ninja-trick"
+ability_type = "Ex"
 +++
 
-**Flurry of Stars (Ex)**
-
-**Swift:** A ninja with this ability can expend 1 ki point from her ki pool before she makes a
-full-attack attack with [shuriken](ref/eq-weapon/shuriken). During that attack, she can throw two
+A ninja with this ability can expend 1 ki point from her ki pool as a swift action before she makes
+a full attack with [shuriken](ref/eq-weapon/shuriken). During that attack, she can throw two
 additional shuriken at her highest attack bonus, but all of her shuriken attacks are made at a -2
 penalty, including the two extra attacks.

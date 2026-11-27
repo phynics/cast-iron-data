@@ -13,11 +13,8 @@ page = "70"
 [fields]
 kind = "class_option"
 group = "rogue-talent"
+ability_type = "Ex"
 +++
 
-**Getaway Master (Ex)**
-
-**Ability:** A rogue with this talent gains a +10 bonus on all
-[drive checks](ref/rule/vehicle-basics).
-
-**Prereq:** [Getaway artist](ref/talent/getaway-artist)
+A rogue with this talent gains a +10 bonus on all [drive checks](ref/rule/vehicle-basics). The rogue
+must have the [getaway artist](ref/talent/getaway-artist) rogue talent before choosing this talent.

@@ -13,11 +13,8 @@ page = "69"
 [fields]
 kind = "class_option"
 group = "rogue-talent"
+ability_type = "Ex"
 +++
 
-**Hold Breath (Ex)**
-
-**Passive:** A rogue with this talent increases the number of rounds she can
-[hold her breath](ref/misc/hold-your-breath) by 2.
-
-**Special:** She can take this talent multiple times.
+A rogue with this talent increases the number of rounds she can
+[hold her breath](ref/misc/hold-your-breath) by 2. She can take this talent multiple times.

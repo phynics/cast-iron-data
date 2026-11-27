@@ -13,8 +13,7 @@ page = "15"
 [fields]
 kind = "class_option"
 group = "ninja-trick"
+ability_type = "Ex"
 +++
 
-**Fast Stealth (Ex)**
-
-**Ability:** A ninja with this trick can move at full speed using the Stealth skill without penalty.
+A ninja with this trick can move at full speed using the Stealth skill without penalty.

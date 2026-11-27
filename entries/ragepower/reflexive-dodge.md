@@ -13,11 +13,10 @@ page = "27"
 [fields]
 kind = "class_option"
 group = "rage-power"
+ability_type = "Ex"
 +++
 
-**Reflexive Dodge (Ex)**
-
-**Passive:** While using her _rolling dodge_ rage power, the barbarian may apply her dodge bonus to
-AC as a bonus on Reflex saving throws.
-
-**Prereq:** 6th-level barbarian, [rolling dodge](ref/ragepower/rolling-dodge)
+While using her [rolling dodge](ref/ragepower/rolling-dodge) rage power, the barbarian may apply her
+dodge bonus to AC as a bonus on Reflex saving throws. A barbarian must have the
+[rolling dodge](ref/ragepower/rolling-dodge) rage power and be at least 6th level before selecting
+this rage power.

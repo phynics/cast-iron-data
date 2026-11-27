@@ -13,12 +13,10 @@ page = "54"
 [fields]
 kind = "class_option"
 group = "magus-arcana"
+ability_type = "Su"
 +++
 
-**Ghost Blade (Su)**
-
-**Ability:** Whenever the magus enchants his weapon using his arcane pool, he may spend 1 additional
-point from his arcane pool to add the [brilliant energy](ref/magic-enh/brilliant-energy) and
-[ghost touch](ref/magic-enh/ghost-touch-weapon) special abilities to the list of available options.
-
-**Prereq:** 9th-level magus
+Whenever the magus enchants his weapon using his arcane pool, he may spend 1 additional point from
+his arcane pool to add the _[brilliant energy](ref/magic-enh/brilliant-energy)_ and
+_[ghost touch](ref/magic-enh/ghost-touch-weapon)_ special abilities to the list of available
+options. The magus must be at least 9th level before selecting this arcana.

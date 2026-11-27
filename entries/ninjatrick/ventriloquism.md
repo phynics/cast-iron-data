@@ -13,10 +13,9 @@ page = "16"
 [fields]
 kind = "class_option"
 group = "ninja-trick"
+ability_type = "Su"
 +++
 
-**Ventriloquism (Su)**
-
-**Swift:** The ninja can throw her voice as if using the spell
-[ventriloquism](ref/spell/ventriloquism). She can use this ability for 1 minute per ninja level.
+As a swift action, the ninja can throw her voice as if using the spell
+_[ventriloquism](ref/spell/ventriloquism)_. She can use this ability for 1 minute per ninja level.
 Each use of this ability uses up 1 ki point.

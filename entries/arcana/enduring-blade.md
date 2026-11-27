@@ -13,11 +13,9 @@ page = "54"
 [fields]
 kind = "class_option"
 group = "magus-arcana"
+ability_type = "Su"
 +++
 
-**Enduring Blade (Su)**
-
-**Ability:** Whenever the magus enchants his weapon using his arcane pool, he may spend 1 additional
-point from his arcane pool to increase the duration to 1 minute per magus level.
-
-**Prereq:** 6th-level magus
+Whenever the magus enchants his weapon using his arcane pool, he may spend 1 additional point from
+his arcane pool to increase the duration to 1 minute per magus level. The magus must be at least 6th
+level before selecting this arcana.

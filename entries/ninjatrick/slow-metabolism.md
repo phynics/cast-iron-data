@@ -13,15 +13,11 @@ page = "15"
 [fields]
 kind = "class_option"
 group = "ninja-trick"
+ability_type = "Ex"
 +++
 
-**Slow Metabolism (Ex)**
-
-**Flavor:** The ninja has a slower-than-normal metabolism.
-
-**Ability:** She can [hold her breath](ref/misc/hold-your-breath) for twice as long as normal before
-needing to make Constitution checks (four times her Constitution score).
-
-In addition, whenever the ninja is poisoned, the time between saving throws (the poison's frequency)
-is doubled. Thus, a poison that has a frequency of _1/round for 6 rounds_ would instead be _1/2
-rounds for 12 rounds._
+The ninja has a slower-than-normal metabolism. She can [hold her breath](ref/misc/hold-your-breath)
+for twice as long as normal before needing to make Constitution checks (four times her Constitution
+score). In addition, whenever the ninja is poisoned, the time between saving throws (the poison's
+frequency) is doubled. Thus, a poison that has a frequency of "1/round for 6 rounds" would instead
+be "1/2 rounds for 12 rounds."

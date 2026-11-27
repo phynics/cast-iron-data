@@ -15,7 +15,4 @@ kind = "class_option"
 group = "ninja-trick"
 +++
 
-**Weapon Training (Ex)**
-
-**Ability:** A ninja who selects this ninja trick gains [Weapon Focus](ref/feat/weapon-focus) as a
-bonus feat.
+A ninja who selects this ninja trick gains [Weapon Focus](ref/feat/weapon-focus) as a bonus feat.

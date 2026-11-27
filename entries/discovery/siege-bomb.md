@@ -15,16 +15,16 @@ kind = "class_option"
 group = "alchemist-discovery"
 +++
 
-**Siege Bomb**
+Discoveries that modify bombs and are marked with a single asterisk (\*) do not stack. Only one such
+discovery can be applied to an individual bomb.
 
-**Standard:** The alchemist infuses a single piece of ammunition on a loaded siege weapon with the
-power of his bomb. As long as the siege engine with this ammunition is fired before the start of the
-alchemist's next turn, the ammunition does damage normally, and also deals the damage of the
-alchemist's bomb. The splash radius of the bomb effect is 20 feet rather than 5 feet.
-
+As a standard action, the alchemist infuses a single piece of ammunition on a loaded siege weapon
+with the power of his bomb. As long as the siege engine with this ammunition is fired before the
+start of the alchemist's next turn, the ammunition does damage normally, and also deals the damage
+of the alchemist's bomb. The splash radius of the bomb effect is 20 feet rather than 5 feet.
 Creatures that take the bomb's damage (either direct damage or splash damage), take 1d6 points of
-fire damage each round until the fire is extinguished. Extinguishing the flames is a **full-round
-action** that requires a Reflex save. Rolling on the ground provides the target with a +2 bonus on
-the save. Dousing the target with at least 2 gallons of water automatically extinguishes the flames.
-
-**Prereq:** 12th-level alchemist, [explosive bomb](ref/discovery/explosive-bomb)
+fire damage each round until the fire is extinguished. Extinguishing the flames is a full-round
+action that requires a Reflex save. Rolling on the ground provides the target with a +2 bonus on the
+save. Dousing the target with at least 2 gallons of water automatically extinguishes the flames. An
+alchemist must be at least 12th level and must possess the
+[explosive bomb](ref/discovery/explosive-bomb) discovery before selecting this discovery.

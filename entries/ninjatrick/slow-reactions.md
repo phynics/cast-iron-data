@@ -8,14 +8,16 @@ provenance = [
 ]
 [[sources]]
 publication = "ultimate-combat"
-page = "16"
+page = "14-16"
 
 [fields]
 kind = "class_option"
 group = "ninja-trick"
+ability_type = "Ex"
 +++
 
-**Slow Reactions (Ex)**
+Tricks marked with an asterisk (\*) add effects to a ninja’s sneak attack. Only one of these tricks
+can be applied to an individual attack and the decision must be made before the attack is made.
 
-**Ability:** Opponents that are damaged by the ninja's sneak attack can't make attacks of
-opportunity for 1 round.
+Opponents that are damaged by the ninja's sneak attack can't make attacks of opportunity for 1
+round.

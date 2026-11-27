@@ -13,21 +13,15 @@ page = "27"
 [fields]
 kind = "class_option"
 group = "rage-power"
+ability_type = "Su"
 +++
 
-**Dragon Totem Wings (Su)**
-
-**Passive:** When a barbarian selects this rage power, [Fly](ref/skill/fly) (Dex) becomes a class
-skill for her.
-
-**Standard:** While _raging_ and wearing medium or lighter armor, the barbarian can manifest a pair
-of spiritual dragon wings that grant her a fly speed equal to her base speed (average
-maneuverability). She can expend 2 rounds of her _rage_ to instead use an **immediate action** to
-gain this fly speed.
-
-**Prereq:** [Dragon totem](ref/ragepower/dragon-totem),
-[dragon totem resilience](ref/ragepower/dragon-totem-resilience), 10th-level barbarian
-
-**Special:** She can end her fly speed at any time, even when it is not her turn. Each round she
-spends _raging_ and flying counts as 2 rounds of _rage._ Her ability to fly ends automatically when
-she ceases _raging._
+When a barbarian selects this rage power, the [Fly](ref/skill/fly) (Dex) skill becomes a class skill
+for her. While raging and wearing medium or lighter armor, the barbarian can spend a standard action
+to manifest a pair of spiritual dragon wings that grant her a fly speed equal to her base speed
+(average maneuverability). She can expend 2 rounds of her rage to instead spend an immediate action
+to gain this fly speed. She can end her fly speed at any time, even when it is not her turn. Each
+round she spends raging and flying counts as 2 rounds of rage. Her ability to fly ends automatically
+when she ceases raging. A barbarian must have the [dragon totem](ref/ragepower/dragon-totem) and
+[dragon totem resilience](ref/ragepower/dragon-totem-resilience) rage powers, and she must be at
+least 10th level before selecting this rage power.

@@ -15,11 +15,7 @@ kind = "class_option"
 group = "alchemist-discovery"
 +++
 
-**Nauseating Flesh**
-
-**Passive:** The alchemist's body is suffused with poison. Any creature that bites, engulfs, or
-swallows the alchemist must make a Fortitude saving throw or be [nauseated](ref/misc/nauseated) for
-1d4 rounds. The alchemist with this discovery does not suffer the effect of the poison of his own
-_nauseating flesh._
-
-**Prereq:** 12th-level alchemist
+The alchemist's body is suffused with poison. Any creature that bites, engulfs, or swallows the
+alchemist must make a Fortitude saving throw or be [nauseated](ref/misc/nauseated) for 1d4 rounds.
+An alchemist must be at least 12th level before selecting this discovery. The alchemist with this
+discovery does not suffer the effect of the poison of his own nauseating flesh.

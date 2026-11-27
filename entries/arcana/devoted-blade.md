@@ -13,14 +13,12 @@ page = "54"
 [fields]
 kind = "class_option"
 group = "magus-arcana"
+ability_type = "Su"
 +++
 
-**Devoted Blade (Su)**
-
-**Ability:** Whenever the magus enhances his weapon using his arcane pool, he may spend 1 additional
-point from his arcane pool to add either the [anarchic](ref/magic-enh/anarchic),
-[axiomatic](ref/magic-enh/axiomatic), [holy](ref/magic-enh/holy), or [unholy](ref/magic-enh/unholy)
-special ability to the list of available options. A magus may only add one of these abilities if it
-matches his own alignment.
-
-**Prereq:** 12th-level magus
+Whenever the magus enhances his weapon using his arcane pool, he may spend 1 additional point from
+his arcane pool to add either the _[anarchic](ref/magic-enh/anarchic)_,
+_[axiomatic](ref/magic-enh/axiomatic)_, _[holy](ref/magic-enh/holy)_, or
+_[unholy](ref/magic-enh/unholy)_ special ability to the list of available options. A magus may only
+add one of these abilities if it matches his own alignment. The magus must be at least 12th level
+before selecting this arcana.

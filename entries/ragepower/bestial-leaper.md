@@ -13,11 +13,9 @@ page = "26"
 [fields]
 kind = "class_option"
 group = "rage-power"
+ability_type = "Ex"
 +++
 
-**Bestial Leaper (Ex)**
-
-**Ability:** While _raging,_ the barbarian can take a **move action** to move and can take her
-normal **standard action** at any point during the move.
-
-**Prereq:** 6th-level barbarian, [raging leaper](ref/ragepower/raging-leaper)
+While raging, the barbarian can take a move action to move and can take her normal standard action
+at any point during the move. A barbarian must have the [raging leaper](ref/ragepower/raging-leaper)
+rage power and be at least 6th level before selecting this rage power.
