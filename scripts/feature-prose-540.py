@@ -2484,9 +2484,15 @@ PDF_TITLES = {
     "pathfinder-139-the-dead-road": "139 The Dead Roads", "pathfinder-144-midwives-to-death": "144 Midwives to Death",
     "pathfinder-5-sins-of-the-saviors": "5 Sins of the Saviors",
 }
+# The Adventure Path volumes sit in a folder of their own and are named by number ("139 The Dead Roads.pdf"): the file of a publication id
+PDF_STEMS = {"pathfinder-139-the-dead-road": "139 The Dead Roads", "pathfinder-144-midwives-to-death": "144 Midwives to Death",
+             "pathfinder-5-sins-of-the-saviors": "PZO9005 5 Sins of the Saviors"}
+PDF_HINT = {"stem": ""}
 
 
 def find_pdf(books: Path, title: str) -> Path | None:
+    if PDF_HINT["stem"]:
+        return next((f for f in sorted(books.rglob("*.pdf")) if f.stem == PDF_HINT["stem"]), None)
     want = tok_set(title) - {"the", "of", "and", "a"}
     best, score = None, 0.0
     for f in sorted(books.rglob("*.pdf")):
@@ -4740,6 +4746,7 @@ PRINT_TITLES = {
     "ref/arc-companion/accursed-companion": "Accursed Companions",      # the print heading is plural (Horror Realms p. 10)
     "ref/arc-kineticist/aquakinetcist": "Aquakineticist",
     "ref/arc-paladin/iomedaen-enforcer": "Iomedaean Enforcer",     # the printed spelling (Divine Anthology p. 6); the id stays
+    "ref/arc-summoner/wild-caller-hotw": "Wild Caller",                            # Heroes of the Wild p. 25 prints no mark of the second archetype of the name
 }
 
 
@@ -4932,6 +4939,7 @@ MISPRINTS.append(
 def configure_book(book: str) -> None:
     """The layout switches of a book (the leaf tool `feature-prose-540-leaves.py` sets the same ones)."""
     ERRATA_CTX["book"] = book
+    PDF_HINT["stem"] = PDF_STEMS.get(book, "")
     PAGE_OFFSET[0] = 2 if book == "inner-sea-combat" else 1
     CHAPTER_END[0] = 47 if book == "inner-sea-combat" else 0
     PAGE_SKIP[:] = [(16, 23), (26, 999)] if book == "legacy-of-dragons" else []
