@@ -1,0 +1,11 @@
+entry	anchor	decision	note
+ref/arc-gunslinger/wyrm-sniper	anti-air-targeting	print	hand text (an edit): see the note of the edit.
+ref/arc-gunslinger/wyrm-sniper	artillery-proficiency	print	lead review (ruling 14): print has "See page 26 of this book for new anti-dragon siege weaponry" in the paragraph (a reference in prose); the corpus does not. Print wins.
+ref/arc-gunslinger/wyrm-sniper	deeds	unlist;print	lead review (ruling 54): "Deeds: A wyrm sniper swaps a trio of deeds for the following deeds." has no level and no trade and holds only a lead-in sentence; the deeds under it stay listed features.
+ref/arc-gunslinger/wyrm-sniper	heavy-gunner	print	lead review (ruling 14): level 5 in the text ("Starting at 5th level"), and the progression in words ("Every 4 levels thereafter (9th, 13th, and 17th)"). Print wins.
+ref/arc-gunslinger/wyrm-sniper	master-siege-engineer	print	lead review (ruling 14): level 12 in the text ("At 12th level"). Print wins.
+ref/arc-gunslinger/wyrm-sniper	siege-commander	print	lead review (ruling 14): the head is an italic subhead in print under the box of the page; level 4 in the text ("At 4th level"). Print wins.
+ref/arc-ranger/dragon-hunter	dragoncrafting	print	lead review (ruling 14): print has "See page 18 of this book for more information" in the paragraph (a reference in prose); the corpus does not. Print wins.
+ref/arc-ranger/dragon-hunter	elemental-resilience	print	lead review (ruling 14): print says "He may use this ability once per day"; the corpus has the use as a usage row. Print wins.
+ref/arc-sorcerer/dragon-drinker	blood-drinking	print	lead review (ruling 8): the held difference is a progression that print states in words ("At 5th level ... At 7th level ... heals 1d8 points of damage instead of the standard 1d4. At 11th level"); the corpus has rows for it. Print wins.
+ref/arc-sorcerer/dragon-drinker	end:dragon-hunter	drop	lead review (ruling 41): the title that ends this section is the title of the next archetype of the book, Dragon Hunter; not part of this archetype.
