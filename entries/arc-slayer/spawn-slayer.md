@@ -17,7 +17,7 @@ page = "24"
 [fields]
 kind = "archetype"
 features = [
-  { anchor = "studied-spawn" },
+  { anchor = "studied-spawn", level = 1 },
   { anchor = "gain-leverage", level = 7 },
   { anchor = "force-vulnerability", level = 20 },
 ]

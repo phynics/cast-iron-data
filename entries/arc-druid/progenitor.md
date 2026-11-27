@@ -19,7 +19,7 @@ kind = "archetype"
 features = [
   { anchor = "infused-summoning", level = 1 },
   { anchor = "primal-bond", level = 1 },
-  { anchor = "fey-shape" },
+  { anchor = "fey-shape", level = 4 },
 ]
 trades = [
   { replaces = "Nature bond", feature = "nature-bond", by = ["primal-bond"] },

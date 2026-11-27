@@ -17,7 +17,7 @@ page = "55"
 [fields]
 kind = "archetype"
 features = [
-  { anchor = "diminished-spellcasting" },
+  { anchor = "diminished-spellcasting", level = 1 },
   { anchor = "canny-defense", level = 1 },
   { anchor = "weapon-focus", level = 1 },
   { anchor = "perfect-strike", level = 4 },

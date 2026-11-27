@@ -56,15 +56,11 @@ grants the armor a +1 enhancement bonus. For every three levels beyond 5th, the 
 +1 enhancement bonus, to a maximum of +6 at 20th level. These bonuses can be added to the armor,
 stacking with existing armor bonuses to a maximum of +3, or they can be used to add any of the
 following armor properties (asterisks note new armor properties found in Chapter 7):
-_[champion](ref/magic-enh/champion)_\*, _[ghost touch](ref/magic-enh/ghost-touch-armor),
-[heavy fortification](ref/magic-enh/fortification-heavy),
-[invulnerability](ref/magic-enh/invulnerability),
-[light fortification](ref/magic-enh/fortification-light),
-[moderate fortification](ref/magic-enh/fortification-moderate),
-[spell resistance](ref/magic-enh/spell-resistance)_ (13, 15, 17, or 19). Adding these properties
-consumes an amount of bonus equal to the property's cost (see Table 15–4 of the _Core Rulebook_). In
-addition, the bonuses can be consumed at the listed amount to add any of the following armor
-properties: _[energy resistance](ref/magic-enh/energy-resistance)_ for +3 bonus,
+_[champion](ref/magic-enh/champion)_\*, _ghost touch, heavy fortification, invulnerability, light
+fortification, moderate fortification, spell resistance_ (13, 15, 17, or 19). Adding these
+properties consumes an amount of bonus equal to the property's cost (see Table 15–4 of the _Core
+Rulebook_). In addition, the bonuses can be consumed at the listed amount to add any of the
+following armor properties: _[energy resistance](ref/magic-enh/energy-resistance)_ for +3 bonus,
 _[improved energy resistance](ref/magic-enh/energy-resistance-improved)_ for +5 bonus, or
 _[righteous](ref/magic-enh/righteous)_\* for +4 bonus. These bonuses are added to any properties the
 armor already has, but duplicate abilities do not stack. If the armor is not magical, at least a +1

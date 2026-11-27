@@ -39,7 +39,7 @@ by the spirit's morals or ethics.
 
 ## Spirit (Su) {#spirit}
 
-A [spirit](ref/ability/shaman-spirits) summoner forms a mystical bond with one spirit from the
+A spirit summoner forms a mystical bond with one [spirit](ref/ability/shaman-spirits) from the
 shaman class (see page 37). He gains the spirit ability of that spirit and uses his summoner level
 as his shaman level for determining its effects. The spirit summoner can select spells granted by
 that spirit as summoner spells known, using the shaman level of the spell as the summoner spell

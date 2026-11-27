@@ -19,8 +19,8 @@ kind = "archetype"
 features = [
   { anchor = "misdirection", level = 1 },
   { anchor = "guileful-lore", level = 1 },
-  { anchor = "forbidden-lore" },
-  { anchor = "necessary-lies" },
+  { anchor = "forbidden-lore", level = 2 },
+  { anchor = "necessary-lies", level = 5 },
 ]
 trades = [
   { replaces = "Monster lore", feature = "monster-lore", by = ["guileful-lore"] },

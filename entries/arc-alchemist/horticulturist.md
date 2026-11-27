@@ -43,18 +43,19 @@ with strange and wondrous herbal concoctions.
 
 ## Seed Extract {#seed-extract}
 
-At 1st level, a horticulturist adds _[summon nature's ally I](ref/spell/summon-natures-ally-1)–VI_
-as 1st-through 6th-level extracts, respectively, to his class extract list. For example, he
-automatically adds _summon nature's ally I_ to his formula book at 1st level and adds the next
-higher-level spell to his formula book each time he gains the ability to use extracts of that level.
-The horticulturist uses these special extracts to plant a seed that grows into a creature, bypassing
-the restriction for single target or personal effects. Using these extracts takes 1 round (as the
-spell's normal casting time), and the creature summoned must be placed in a space adjacent to the
-horticulturist. The horticulturist can use these extracts to summon only animals and plants on the
-appropriate _summon nature's ally_ list. Creatures the horticulturist summons with these extracts
-become creatures with the plant type (gaining [low-light vision](ref/rule/low-light-vision) and
-immunity to mind-affecting, paralysis, poison, polymorph, sleep, and stunning effects) rather than
-their normal type, but their attack bonuses, Hit Dice, saving throws, and skills don't change.
+At 1st level, a horticulturist adds _summon nature's ally I–VI_ as 1st-through 6th-level extracts,
+respectively, to his class extract list. For example, he automatically adds
+_[summon nature's ally I](ref/spell/summon-natures-ally-1)_ to his formula book at 1st level and
+adds the next higher-level spell to his formula book each time he gains the ability to use extracts
+of that level. The horticulturist uses these special extracts to plant a seed that grows into a
+creature, bypassing the restriction for single target or personal effects. Using these extracts
+takes 1 round (as the spell's normal casting time), and the creature summoned must be placed in a
+space adjacent to the horticulturist. The horticulturist can use these extracts to summon only
+animals and plants on the appropriate _summon nature's ally_ list. Creatures the horticulturist
+summons with these extracts become creatures with the plant type (gaining
+[low-light vision](ref/rule/low-light-vision) and immunity to mind-affecting, paralysis, poison,
+polymorph, sleep, and stunning effects) rather than their normal type, but their attack bonuses, Hit
+Dice, saving throws, and skills don't change.
 
 This replaces the mutagen class feature and the discovery normally gained at 2nd level. A
 horticulturist can't choose mutagen discoveries.

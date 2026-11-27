@@ -38,7 +38,7 @@ deadly hunters.
 
 ## Nature Bond {#nature-bond}
 
-A [lion](ref/companion/cat-big) shaman who chooses an animal companion must select a lion. If
+A lion shaman who chooses an animal companion must select a [lion](ref/companion/cat-big). If
 choosing a domain, the lion shaman must choose from the [Animal](ref/domain/animal), Glory,
 Nobility, and [Sun](ref/domain/sun) domains.
 

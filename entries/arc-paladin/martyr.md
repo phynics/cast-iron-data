@@ -19,7 +19,7 @@ kind = "archetype"
 features = [
   { anchor = "stigmata", level = 1 },
   { anchor = "see-no-evil-hear-no-evil", level = 2 },
-  { anchor = "aura-mastery" },
+  { anchor = "aura-mastery", level = 3 },
   { anchor = "aura-of-health", level = 3 },
   { anchor = "martyr-s-mercy", level = 3 },
 ]

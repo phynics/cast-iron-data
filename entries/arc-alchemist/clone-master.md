@@ -46,7 +46,7 @@ book as a 3rd-level extract.
 
 ## Rebirth {#rebirth}
 
-At 8th level, a [clone](ref/spell/clone) master can prepare a clone of himself that awakens if he is
+At 8th level, a clone master can prepare a [clone](ref/spell/clone) of himself that awakens if he is
 slain. Creating the clone costs 5,000 gp, takes 1 week of work, and requires 3 additional weeks for
 the clone to grow to maturity. If he dies, the clone awakens as if the alchemist had used the
 _clone_ spell on himself. He can have one inert of himself at a time. Unused clones created by a
@@ -59,7 +59,7 @@ At 13th level, a clone master adds _[simulacrum](ref/spell/simulacrum)_ to his f
 
 ## Clone {#clone}
 
-At 16th level, a [clone](ref/spell/clone) master adds _clone_ to his formula book as a 6th-level
+At 16th level, a clone master adds _[clone](ref/spell/clone)_ to his formula book as a 6th-level
 extract.
 
 ## Discoveries {#discoveries}

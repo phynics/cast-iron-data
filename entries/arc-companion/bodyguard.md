@@ -34,10 +34,9 @@ hours and always ready to leap into action to protect their masters.
 
 ## Animal Feats {#animal-feats}
 
-In addition to the standard feats available to animal companions, a bodyguard can select
-[Bodyguard](ref/feat/bodyguard), [Combat Patrol](ref/feat/combat-patrol),
-[Heroic Defiance](ref/feat/heroic-defiance), [Heroic Recovery](ref/feat/heroic-recovery), and
-[In Harm's Way](ref/feat/in-harms-way).
+In addition to the standard feats available to animal companions, a bodyguard can select Bodyguard,
+[Combat Patrol](ref/feat/combat-patrol), [Heroic Defiance](ref/feat/heroic-defiance),
+[Heroic Recovery](ref/feat/heroic-recovery), and [In Harm's Way](ref/feat/in-harms-way).
 
 ## Shared Vigilance (Ex) {#shared-vigilance}
 

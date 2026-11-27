@@ -19,7 +19,7 @@ kind = "archetype"
 features = [
   { anchor = "hag-sense", level = 1 },
   { anchor = "studied-coven", level = 2 },
-  { anchor = "disrupt-coven" },
+  { anchor = "disrupt-coven", level = 7 },
   { anchor = "unseen-sense", level = 11 },
 ]
 trades = [
