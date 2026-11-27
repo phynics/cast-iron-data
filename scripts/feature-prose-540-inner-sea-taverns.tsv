@@ -1,0 +1,10 @@
+entry	feature	anchor	listed	level	source	status	note	page	span_sha256
+ref/arc-alchemist/mixologist	Alcoholic Alchemy (Su)	alcoholic-alchemy	yes	1	print	print	opening text written from print: the import differs in alternate, archetype, drunkenness, heavy, make, note, rule, use; level 1: replaces Mutagen, alters Alchemy, alters brew potion, of which one is gained at 1st level in the class table	57	ba9ffc9452a21260cb60b0a8642a335a57417399138a8435d6dcdb3ef88bbb26
+ref/arc-alchemist/mixologist	Alcoholic Bombs (Su)	alcoholic-bombs	yes	2	print	print	level from the trade	58	1e0bcae2ccbda4d3ea84fd4752c8ed1ccfcab6b700b57b9033fcb5fa4edf9cd4
+ref/arc-alchemist/mixologist	Alcoholic Resistance (Ex)	alcoholic-resistance	yes	2	print	print		58	fdb699881ac169e688ba30a2f33eb8e7296b3631bc847d229668b1be8b8cc9cb
+ref/arc-alchemist/mixologist	Mixologist Master (Su)	mixologist-master	yes	14	print	print		58	031f38ced9b0070ea2418ac3a14571cf06b7c81230f5fe06feab438b7a2c5b5d
+ref/arc-brawler/bouncer	Crowd Control (Ex)	crowd-control	yes		draft	draft	opening note that print does not have dropped (ruling 10): “> **Note:** This archetype extensively uses the optional [Bar …”	58	bcd06759f09c5a9e721605de0edc5bc106f0069886c15742a507277400cf9794
+ref/arc-brawler/bouncer	Lesser Flexibility (Ex)	lesser-flexibility	yes	1	print	print	level 1: alters Martial flexibility, of which one is gained at 1st level in the class table	58	ac7a0d56f70dc68a067b0bc4cb459828178a4616140c6bb6e16aedeb66b98af3
+ref/arc-brawler/bouncer	Drunk Handler (Ex)	drunk-handler	yes	2	print	print		58	d6e3f07a8c7907e9b13bbfa82105968ff63237f6f07738e8d092acd4e03707aa
+ref/arc-brawler/bouncer	Drunk Knockout (Ex)	drunk-knockout	yes	4	draft	draft		58	165bf3d3de1ccd04a3cf063ebce64bc718e8720d1fc848c17082c4d048ae8565
+ref/arc-brawler/bouncer	Bar Fight Mastery (Ex)	bar-fight-mastery	yes	5	print	print		58	3c64a6e643d8a6e4f2de3b9de344c1b4cd4ee17335de38784ebb99cc991e22e3
