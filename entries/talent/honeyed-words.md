@@ -13,11 +13,9 @@ page = "131"
 [fields]
 kind = "class_option"
 group = "rogue-talent"
+ability_type = "Ex"
 +++
 
-**Honeyed Words (Ex)**
-
-**Ability:** The rogue can roll two dice while making a Bluff check, and take the better result. She
-must choose to use this talent before making the Bluff check.
-
-**Usage:** 1 time/day + 1 per 5 rogue levels
+Once per day, the rogue can roll two dice while making a Bluff check, and take the better result.
+She must choose this talent before making the Bluff check. A rogue can use this ability one
+additional time per day for every five rogue levels she possesses.

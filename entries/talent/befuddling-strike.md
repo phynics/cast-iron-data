@@ -13,9 +13,8 @@ page = "130"
 [fields]
 kind = "class_option"
 group = "rogue-talent"
+ability_type = "Ex"
 +++
 
-**Befuddling Strike (Ex)**
-
-**Passive:** When the rogue deals sneak attack damage against an opponent, that opponent takes a -2
-penalty on attack rolls against the rogue for 1d4 rounds.
+When the rogue deals sneak attack damage against an opponent, that opponent takes a -2 penalty on
+attack rolls against the rogue for 1d4 rounds.

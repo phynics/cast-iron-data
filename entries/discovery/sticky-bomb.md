@@ -15,11 +15,8 @@ kind = "class_option"
 group = "alchemist-discovery"
 +++
 
-**Sticky Bomb**
-
-**Ability:** The effects of the alchemist's bombs are persistent and continue to damage creatures
-for 1 round after the initial damage. Creatures that take a direct hit from a _sticky bomb_ take the
-splash damage 1 round later. Bombs that have effects that would normally occur 1 round later instead
-have those effects occur 2 rounds later.
-
-**Prereq:** 10th-level alchemist
+The effects of the alchemist's bombs are persistent and continue to damage creatures for 1 round
+after the initial damage. Creatures that take a direct hit from a sticky bomb take the splash damage
+1 round later. Bombs that have effects that would normally occur 1 round later instead have those
+effects occur 2 rounds later. An alchemist must be at least 10th level before selecting this
+discovery.

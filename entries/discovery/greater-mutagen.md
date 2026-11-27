@@ -15,11 +15,7 @@ kind = "class_option"
 group = "alchemist-discovery"
 +++
 
-**Greater Mutagen**
-
-**Passive:** The alchemist's _mutagen_ now grants a +4 natural armor bonus, a +6 alchemical bonus to
-one physical ability score (Strength, Dexterity, or Constitution), and a +4 alchemical bonus to a
-second physical ability score. The alchemist takes a -2 penalty on both associated mental ability
-scores as long as the _mutagen_ persists.
-
-**Prereq:** 12th-level alchemist
+The alchemist's mutagen now grants a +4 natural armor bonus, a +6 alchemical bonus to one physical
+ability score (Strength, Dexterity, or Constitution), and a +4 alchemical bonus to a second physical
+ability score. The alchemist takes a -2 penalty on both associated mental ability scores as long as
+the mutagen persists. An alchemist must be at least 12th level before selecting this discovery.

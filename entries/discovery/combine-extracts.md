@@ -15,10 +15,7 @@ kind = "class_option"
 group = "alchemist-discovery"
 +++
 
-**Combine Extracts**
-
-**Ability:** When the alchemist creates an extract, he can place two formulae into one extract. When
-the extract is consumed, both formulae take effect. This extract has a level two levels higher than
-the highest-level formulae placed in the extract.
-
-**Prereq:** 8th-level alchemist
+When the alchemist creates an extract, he can place two formulae into one extract. When the extract
+is consumed, both formulae take effect. This extract has a level two levels higher than the
+highest-level formulae placed in the extract. An alchemist must be at least 8th level before
+selecting this discovery.

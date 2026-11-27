@@ -15,10 +15,8 @@ kind = "class_option"
 group = "alchemist-discovery"
 +++
 
-**Poison Bomb**
-
-**Ability:** The effects of the smoke created by an alchemist's bomb duplicates the effects of
-[cloudkill](ref/spell/cloudkill) instead of [fog cloud](ref/spell/fog-cloud), filling an area equal
-to twice the bomb's splash radius for 1 round per level.
-
-**Prereq:** 12th-level alchemist, [smoke bomb](ref/discovery/smoke-bomb)
+The effects of the smoke created by an alchemist's bomb duplicates the effects of
+_[cloudkill](ref/spell/cloudkill)_ instead of _[fog cloud](ref/spell/fog-cloud)_, filling an area
+equal to twice the bomb's splash radius for 1 round per level. An alchemist must be at least 12th
+level and must possess the [smoke bomb](ref/discovery/smoke-bomb) discovery before selecting this
+discovery.

@@ -13,11 +13,9 @@ page = "130"
 [fields]
 kind = "class_option"
 group = "rogue-talent"
+ability_type = "Ex"
 +++
 
-**Charmer (Ex)**
-
-**Ability:** The rogue can roll two dice while making a Diplomacy check, and take the better result.
-She must choose to use this talent before making the Diplomacy check.
-
-**Usage:** 1 time/day + 1 per 5 rogue levels
+Once per day, the rogue can roll two dice while making a Diplomacy check, and take the better
+result. She must choose to use this talent before making the Diplomacy check. A rogue can use this
+ability one additional time per day for every 5 rogue levels she possesses.

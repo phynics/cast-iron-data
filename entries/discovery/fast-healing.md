@@ -15,7 +15,5 @@ kind = "class_option"
 group = "alchemist-discovery"
 +++
 
-**Fast Healing**
-
-**Passive:** The alchemist's flesh responds to damage with shocking speed - he gains
+The alchemist's flesh responds to damage with shocking speed—he gains
 [fast healing](ref/umr/fast-healing) 5.

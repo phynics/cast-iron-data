@@ -13,10 +13,9 @@ page = "131"
 [fields]
 kind = "class_option"
 group = "rogue-talent"
+ability_type = "Ex"
 +++
 
-**Fast Tumble (Ex)**
-
-**Ability:** When a rogue with this talent uses [Acrobatics](ref/skill/acrobatics) to move at full
-speed through a threatened square without provoking an attack of opportunity, the DC of the
-Acrobatics check does not increase by 10.
+When a rogue with this talent uses [Acrobatics](ref/skill/acrobatics) to move at full speed through
+a threatened square without provoking an attack of opportunity, the DC of the Acrobatics check does
+not increase by 10.

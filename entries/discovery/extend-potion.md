@@ -15,8 +15,6 @@ kind = "class_option"
 group = "alchemist-discovery"
 +++
 
-**Extend Potion**
-
-**Ability:** A number of times per day equal to his Intelligence modifier, the alchemist can cause
-any potion he drinks that does not have an instantaneous duration to function at twice its normal
-duration. This does not apply to extracts.
+A number of times per day equal to his Intelligence modifier, the alchemist can cause any potion he
+drinks that does not have an instantaneous duration to function at twice its normal duration. This
+does not apply to extracts.
