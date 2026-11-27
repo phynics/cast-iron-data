@@ -15,13 +15,9 @@ kind = "class_option"
 group = "rage-power"
 +++
 
-**Energy Absorption (Su)**
-
-**Ability:** While _raging,_ the barbarian can absorb energy from a single attack of her chosen
-energy type once per _rage._ She does not make a saving throw against the effect but takes no damage
-from it, instead gaining 1 temporary hit point per 3 points of damage the attack would have
-inflicted. These [temporary hit points](ref/rule/temporary-hit-points) last until the end of the
-barbarian's _rage._
-
-**Prereq:** 12th-level barbarian,
-[greater energy resistance](ref/ragepower/greater-energy-resistance)
+While raging, the barbarian can absorb energy from a single attack of her chosen energy type once
+per rage. She does not make a saving throw against the effect but takes no damage from it, instead
+gaining 1 temporary hit point per 3 points of damage the attack would have inflicted. These
+[temporary hit points](ref/rule/temporary-hit-points) last until the end of the barbarian's rage. A
+barbarian must have the [greater energy resistance](ref/ragepower/greater-energy-resistance) rage
+power to select this rage power. A barbarian must be at least 12th level to select this rage power.

@@ -15,14 +15,11 @@ kind = "class_option"
 group = "rage-power"
 +++
 
-**Ferocious Trample (Ex)**
-
-**Ability:** While _raging_ and mounted, the barbarian's mount gains the [trample](ref/umr/trample)
-special attack. This attack inflicts 1d8 points of damage for a Medium mount, 2d6 for a Large mount,
-or 2d8 for a Huge mount, plus 1-1/2 times the mount's Strength modifier. A successful Reflex save
-(DC 10 + 1/2 the barbarian's level + the mount's Strength modifier) halves this damage.
-
-Creatures in the mount's path or that threaten squares it passes through may make attacks of
-opportunity against either the barbarian or the mount, but not both.
-
-**Prereq:** 8th-level barbarian, [ferocious mount](ref/ragepower/ferocious-mount)
+While raging and mounted, the barbarian's mount gains the [trample](ref/umr/trample) special attack.
+This attack inflicts 1d8 points of damage for a Medium mount, 2d6 for a Large mount, or 2d8 for a
+Huge mount, plus 1–1/2 times the mount's Strength modifier. A successful Reflex save (DC 10 + 1/2
+the barbarian's level + the mount's Strength modifier) halves this damage. Creatures in the mount's
+path or that threaten squares it passes through may make attacks of opportunity against either the
+barbarian or the mount, but not both. A barbarian must have the
+[ferocious mount](ref/ragepower/ferocious-mount) rage power to select this rage power. A barbarian
+must be at least 8th level to select this rage power.

@@ -15,11 +15,8 @@ kind = "class_option"
 group = "rage-power"
 +++
 
-**Come and Get Me (Ex)**
-
-**Free:** While _raging,_ the barbarian may leave herself open to attack while preparing devastating
-counterattacks. Enemies gain a +4 bonus on attack and damage rolls against the barbarian until the
-beginning of her next turn, but every attack against the barbarian provokes an attack of opportunity
-from her, which is resolved prior to resolving each enemy attack.
-
-**Prereq:** 12th-level barbarian
+While raging, as a free action the barbarian may leave herself open to attack while preparing
+devastating counterattacks. Enemies gain a +4 bonus on attack and damage rolls against the barbarian
+until the beginning of her next turn, but every attack against the barbarian provokes an attack of
+opportunity from her, which is resolved prior to resolving each enemy attack. A barbarian must be at
+least 12th level to select this rage power.

@@ -15,15 +15,8 @@ kind = "class_option"
 group = "witch-hex"
 +++
 
-**Major Healing (Su)**
-
-**Flavor:** By calling upon eerie powers, the witch's touch can mend even the most terrible wounds
-of those she touches.
-
-**Ability:** This acts as [cure serious wounds](ref/spell/cure-serious-wounds), using the witch's
-caster level.
-
-**At 15th level,** this hex acts like [cure critical wounds](ref/spell/cure-critical-wounds).
-
-**Special:** Once a creature has benefited from the _major healing_ hex, it cannot benefit from it
-again for 24 hours.
+By calling upon eerie powers, the witch's touch can mend even the most terrible wounds of those she
+touches. This acts as _[cure serious wounds](ref/spell/cure-serious-wounds)_, using the witch's
+caster level. Once a creature has benefited from the major healing hex, it cannot benefit from it
+again for 24 hours. At 15th level, this hex acts like
+_[cure critical wounds](ref/spell/cure-critical-wounds)_.

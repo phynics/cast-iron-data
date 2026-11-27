@@ -16,11 +16,16 @@ page = "71"
 
 [fields]
 kind = "archetype"
+features = [
+  { anchor = "bestial-bond", level = 4 },
+  { anchor = "variant-companion", level = 4 },
+  { anchor = "undying-bond", level = 6 },
+  { anchor = "exotic-companion", level = 9 },
+]
 trades = [
-  { replaces = "Resist nature's lure", feature = "resist-nature-s-lure" },
-  { replaces = "Daily use of wild shape at 6th level", feature = "wild-shape", levels = [6] },
-  { replaces = "venom immunity", feature = "venom-immunity" },
-  { replaces = "Venom immunity" },
+  { replaces = "Resist nature's lure", feature = "resist-nature-s-lure", by = ["exotic-companion"] },
+  { replaces = "Second daily use of wild shape at level 6", feature = "wild-shape", levels = [6], by = ["exotic-companion"] },
+  { replaces = "venom immunity", feature = "venom-immunity", by = ["exotic-companion"] },
 ]
 +++
 
@@ -31,72 +36,69 @@ have discovered these practices independently. Tamers develop a stronger bond wi
 than some of the most powerful druids or rangers, and often travel to exotic locations to find
 strange specimens to tame, with bragging rights going to those with the most unusual creature.
 
-**Gained class skills:** intm, ka
+## Class Skills {#class-skills}
 
-**Lost class skills:** diplo, heal
+Eliminate Diplomacy and Heal from the druid's class skill list.
 
-**Bestial Bond (Sp)**
+Add Intimidate and Knowledge (arcana).
 
-**Ability:** The druid can call out to savage powers of the wilds, entreating them to aid her and
-her companion. Doing so allows her to cast [cure serious wounds](ref/spell/cure-serious-wounds),
-[neutralize poison](ref/spell/neutralize-poison), or [remove disease](ref/spell/remove-disease) on
-her animal companion as a [spell-like ability](ref/umr/spell-like-abilities) by channeling the power
-of nature. The druid does not need to have these spells prepared as they come directly from the
-goddess. Using this ability, however, causes the druid to take 1d4 points of
+## Class Features {#class-features}
+
+All of the following are features of the ashvawg tamer druid variant class.
+
+## Bestial Bond (Sp) {#bestial-bond}
+
+At 4th level, the druid can call out to savage powers of the wilds, entreating them to aid her and
+her companion. Doing so allows her to cast _[cure serious wounds](ref/spell/cure-serious-wounds)_,
+_[neutralize poison](ref/spell/neutralize-poison)_, or _[remove disease](ref/spell/remove-disease)_
+on her animal companion as a [spell-like ability](ref/umr/spell-like-abilities) by channeling the
+power of nature. The druid does not need to have these spells prepared as they come directly from
+the goddess. Using this ability, however, causes the druid to take 1d4 points of
 [Wisdom damage](ref/rule/ability-damage-drain). Any effect that prevents this Wisdom damage from
 occurring also prevents the use of this ability.
 
-**Gained:** At 4th Level
+## Variant Companion (Ex) {#variant-companion}
 
-**Replaces:** Resist nature's lure
-
-**Variant Companion (Ex)**
-
-**At 1st Level:** [Darkmantle](ref/monster/darkmantle), [krenshar](ref/monster/krenshar),
-[shocker lizard](ref/monster/shocker-lizard).
-
-**At 10th Level:** (Level - 9) [Girallon](ref/monster/girallon), [griffon](ref/monster/griffon),
-[owlbear](ref/monster/owlbear), [sea cat](ref/monster/sea-cat)
-
-**At 13th Level:** (Level - 12) [Bulette](ref/monster/bulette), [chimera](ref/monster/chimera)
-
-**At 4th Level:** (Level - 3) [Hippogriff](ref/monster/hippogriff)
-
-**Info:** The druid adds additional non-animals to her alternate list of animal companions. If she
-chooses one of these creatures as an animal companion, she may use her _wild empathy_ ability to
+At 4th level the druid adds additional non-animals to her alternate list of animal companions. If
+she chooses one of these creatures as an animal companion, she may use her wild empathy ability to
 influence the creature (even though it is not an animal and its intelligence may be above 2), though
 she takes a -4 penalty on this check. If the druid and the companion share a common language these
 checks are not needed. If the companion's intelligence is 3 or higher, the number of "tricks" the
 druid can teach it refers to the number of commands the creature understands regardless of language.
 
-**Gained:** At 4th Level
+- 1st Level or Higher: [darkmantle](ref/monster/darkmantle), [krenshar](ref/monster/krenshar),
+  [shocker lizard](ref/monster/shocker-lizard)
 
-**Undying Bond (Sp)**
+- 4th Level or Higher (Level -3): [hippogriff](ref/monster/hippogriff)
 
-**Ability:** The druid can use her _bestial bond_ ability to cast
-[resurrection](ref/spell/resurrection) on her animal companion.
+- 10th Level or Higher (Level -9): [girallon](ref/monster/girallon), [griffon](ref/monster/griffon),
+  [owlbear](ref/monster/owlbear), [sea cat](ref/monster/sea-cat)
 
-**Gained:** At 6th Level
+- 13th Level or Higher (Level -12): [bulette](ref/monster/bulette), [chimera](ref/monster/chimera)
 
-**Replaces:** Daily use of _wild shape_ at 6th level, venom immunity
+## Undying Bond (Sp) {#undying-bond}
 
-**Special:** Hereafter, the druid has one fewer daily use of the _wild shape_ ability than a
-standard druid of her level.
+At 6th level the druid can use her bestial bond ability to cast
+_[resurrection](ref/spell/resurrection)_ on her animal companion.
 
-**Exotic Companion (Ex)**
+## Exotic Companion (Ex) {#exotic-companion}
 
-**At 10th Level:** (Level - 9) [Ettercap](ref/monster/ettercap), [manticore](ref/monster/manticore),
-[minotaur](ref/monster/minotaur), [winter wolf](ref/monster/worg-winter-wolf)
-
-**At 13th Level:** (Level - 12) [Behir](ref/monster/behir), [dragonne](ref/monster/dragonne),
-[hieracosphinx](ref/monster/sphinx-hieracosphinx)
-
-**At 7th Level:** (Level - 6) [Worg](ref/monster/worg)
-
-**Info:** The druid adds additional non-animals to her alternate list of animal companions, all of
-them with higher intelligence and strange shapes. It otherwise functions as the _variant companion_
+At 9th level the druid adds additional non-animals to her alternate list of animal companions, all
+of them with higher intelligence and strange shapes. It otherwise functions as the variant companion
 ability.
 
-**Gained:** At 9th Level
+- 7th Level or Higher (Level -6): [worg](ref/monster/worg)
 
-**Replaces:** Venom immunity
+- 10th Level or Higher (Level -9): [ettercap](ref/monster/ettercap),
+  [manticore](ref/monster/manticore), [minotaur](ref/monster/minotaur),
+  [winter wolf](ref/monster/worg-winter-wolf)
+
+- 13th Level or Higher (Level -12): [behir](ref/monster/behir), [dragonne](ref/monster/dragonne),
+  [hieracosphinx](ref/monster/sphinx-hieracosphinx)
+
+**Resist Nature's Lure** The druid does not gain this ability.
+
+**Wild Shape (Su)** The druid does not gain her second daily use of her wild shape ability at
+level 6. Hereafter she has one fewer daily use of the ability than a standard druid of her level.
+
+**Venom Immunity (Ex)** The druid does not gain this ability.

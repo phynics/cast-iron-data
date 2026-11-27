@@ -15,9 +15,6 @@ kind = "class_option"
 group = "rage-power"
 +++
 
-**Smasher (Ex)**
-
-**Ability:** Once per _rage,_ whenever the barbarian makes an attack against an unattended object or
-a [sunder](ref/rule/sunder) combat maneuver, she can ignore the object's
-[hardness](ref/umr/hardness). This ability must be used before the attack roll or sunder check is
-made.
+Once per rage, whenever the barbarian makes an attack against an unattended object or a
+[sunder](ref/rule/sunder) combat maneuver, she can ignore the object's [hardness](ref/umr/hardness).
+This ability must be used before the attack roll or sunder check is made.
