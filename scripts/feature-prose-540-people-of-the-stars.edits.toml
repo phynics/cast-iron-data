@@ -1,0 +1,19 @@
+[[edit]]
+entry = "ref/arc-cavalier/qabarat-outrider"
+anchor = "mindlink-pulse"
+note = "hand-written from print (People of the Stars p. 11): the sidebar of the planet Golarion fills the right column, and the last sentence of the ability stands in that column below the sidebar (\"(assuming they were to begin with). This ability replaces greater banner.\"); the text is the printed ability, whole."
+text = '''
+At 14th level, a Qabarat outrider can send a pulse of psychic energy through the minds of allies within range of his limited telepathy as a standard action. If he does so during a surprise round, any allies not normally able to act in the surprise round can act. If an ally would normally be denied the ability to act in the surprise round, that ally's initiative is equal to her initiative roll, or to the initiative of the outrider - 1, whichever is lower.
+
+Whether or not it is a surprise round, when the outrider uses this ability, allies within range are no longer flat-footed (assuming they were to begin with). This ability replaces greater banner.
+'''
+
+[[edit]]
+entry = "ref/arc-ranger/bow-nomad"
+anchor = "exploit-the-gap"
+note = "hand-written from print (People of the Stars p. 9): the text layer sets the \"0\" of \"(to a minimum of 0)\" at the start of the next line, in front of the trade sentence (\"(to a minimum of) for 1 round. 0 This ability replaces favored terrain.\"); the text is the printed ability."
+text = '''
+At 18th level, a bow nomad can exploit the natural weaknesses of her foes. When a bow nomad makes a full attack with her twin bows, each arrow that deals damage in that attack also reduces the target's natural armor bonus (if any) by 1 (to a minimum of 0) for 1 round.
+
+This ability replaces favored terrain.
+'''
