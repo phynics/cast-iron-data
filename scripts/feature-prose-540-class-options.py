@@ -289,6 +289,24 @@ def place_links(text: str, links: list[tuple[str, str]]) -> tuple[str, list[str]
     return text, lost
 
 
+STOP_TITLES: set[str] = set()          # squash of the title of every class option: another one ends a section
+
+
+def anchor_section(blocks: list, title: str) -> list | None:
+    """The blocks of a multi-power entry from the printed title of the entry to the next title of another class option (or any larger
+    title): the window is anchored at the title, so a head of a neighbour that follows on the page is not read as the entry's power. None
+    when the title is not printed on those pages."""
+    key = fp.squash(re.sub(r"\s*\((?:[A-Z]{2,4}|HotW)\)\s*$", "", title))
+    at = next((i for i, b in enumerate(blocks) if b.kind == "title" and fp.squash(b.plain()) in (key, key + "bloodline", key + "mystery", key + "school")), None)
+    if at is None:
+        return None
+    for j in range(at + 1, len(blocks)):
+        b = blocks[j]
+        if b.kind == "title" and (fp.squash(b.plain()) in STOP_TITLES - {key} or b.size > blocks[at].size):
+            return blocks[at + 1:j]
+    return blocks[at + 1:]
+
+
 HEADING_FAMILIES = {"evolution"}     # ruling 61: an evolution opens with the printed sentence of its group heading ("2-Point Evolutions: The following ...")
 
 
@@ -331,6 +349,13 @@ def compare_one(e, book, bk, other=None) -> list[dict]:
     page = int(e.page)
     last = page + (3 if shape == "multi" else 1)
     blocks = fp.read_blocks(bk, max(1, page + fp.PAGE_OFFSET[0] - 1), min(last + fp.PAGE_OFFSET[0], max(bk.pages)))
+    unanchored = False
+    if shape == "multi":
+        anchored = anchor_section(blocks, e.title)
+        if anchored is None:
+            unanchored = True
+        else:
+            blocks = anchored
     section = [fp.Para("title", [(e.title, True, False)], page, 0, 20)] + blocks
     res = fp.compare_entry(e, section, bk)
     by_span = {r["span"]: r for r in res["rows"] if r["span"]}
@@ -348,13 +373,15 @@ def compare_one(e, book, bk, other=None) -> list[dict]:
         for sp, r2 in got.items():
             if not_printed(sp) and not any("head not printed" in n_ for n_ in r2["notes"]):
                 by_span[sp] = r2
-                where[sp] = f"{pub} p. {pg}"
+                where[sp] = (pub, pg)
     rows, seen = [], Counter()
     blocks_b = rw.parse_blocks(e.body.split("\n"))
     cands = rw.candidates(blocks_b, True)
     promo = promoted(blocks_b, cands)
     info = {rw.span_sha(blocks_b[c.start:c.end]): (section_of(blocks_b, c.start), promo.get(c.start - 1)) for c in cands}
     problems = []                                       # what holds every power of the entry
+    if unanchored:
+        problems.append("the printed title of the entry is not on the cited pages: the window is not anchored")
     outside = outside_rows(e.body)
     if outside:
         problems.append("import rows outside the powers (" + ", ".join(outside[:4]) + ") are not transcribed from print yet")
@@ -368,9 +395,10 @@ def compare_one(e, book, bk, other=None) -> list[dict]:
         f = by_name.get(name, [None] * seen[name])[seen[name] - 1] if name in by_name else None
         r = by_span.get(f.span_sha()) if f is not None else None
         if r is not None and f.span_sha() in where:
-            r = dict(r, notes=[f"printed in {where[f.span_sha()]}"] + list(r["notes"]))
+            r = dict(r, notes=[f"printed in {where[f.span_sha()][0]} p. {where[f.span_sha()][1]}"] + list(r["notes"]))
         section, pr = info.get(sha, ("", None))
-        common = dict(base, feature=name, section=section, book=book, by="", ability_tag=ability_tag_of(name) if shape == "single" else "",
+        src = where.get(f.span_sha()) if f is not None else None           # a power that another source of the entry prints has its own book and page
+        common = dict(base, feature=name, section=section, book=src[0] if src else book, by="", ability_tag=ability_tag_of(name) if shape == "single" else "",
                       reviewed_537="yes" if (e.id, sha) in REVIEWED else "", links_lost="", span_sha256=sha)
         if r is None:
             rows.append(dict(common, anchor=fp.anchor_of(name), verdict="missing-head", status="hold", level_import="",
@@ -391,6 +419,8 @@ def compare_one(e, book, bk, other=None) -> list[dict]:
         if problems:
             notes += problems
             status = "hold"
+        if src:
+            common["page"] = src[1]
         if shape == "single":
             printed, lost = place_links(printed, plinks)
             common["links_lost"] = "|".join(lost)
@@ -438,6 +468,8 @@ def run_compare(args) -> int:
             for f in fp.parse_import(x.body, set())[1]:
                 names += [f.name, fp.tail_name(f.name)]
     install_split(names)
+    STOP_TITLES.clear()
+    STOP_TITLES.update(fp.squash(re.sub(r"\s*\((?:[A-Z]{2,4}|HotW)\)\s*$", "", x.title)) for x in load_class_options(corpus))
     fp.KNOWN_OPTIONS[:] = [fp.item_tokens(x.title) for x in load_class_options(corpus)]      # ruling 60: a sentence that names a longer option holds
     REVIEWED.update(reviewed_spans(corpus))
     DECISIONS.clear()
@@ -472,6 +504,14 @@ def run_compare(args) -> int:
             if r.get("print"):
                 props.setdefault(e.id, {"id": e.id, "feature": []})["feature"].append({"anchor": r["anchor"], "print": r["print"]})
             rows.append(r)
+    twice: dict[tuple[str, str, str], set[str]] = {}
+    for r in rows:                                  # one printed paragraph claimed by two entries holds both: an owner decides whose it is
+        if r["print_sha256"]:
+            twice.setdefault((r["book"], fp.namekey(r["feature"]), r["print_sha256"]), set()).add(r["entry"])
+    for r in rows:
+        if r["print_sha256"] and len(twice[(r["book"], fp.namekey(r["feature"]), r["print_sha256"])]) > 1:
+            r["note"] = (r["note"] + "; " if r["note"] else "") + "the print head matches more than one entry: " + ", ".join(sorted(twice[(r["book"], fp.namekey(r["feature"]), r["print_sha256"])]))[:120]
+            r["status"] = "hold" if r["status"] in SETTLED else r["status"]
     old = read_tsv(tsv_file(corpus, book))
     old_props = read_props(proposals_file(corpus, book))
     compared = {r["entry"] for r in rows}
@@ -669,8 +709,9 @@ def run_write(args) -> int:
         lost = keep - heading_keys(body)
         assert not lost, f"{e.id}: the keys {sorted(lost)} would move"                  # rule 3 of AGENTS.md: the keys of the headings stay
         front = features_front(e.front, features) if features else e.front
-        if mine[0]["page"] and mine[0]["page"] != e.page:
-            front = with_page(front, mine[0]["page"])
+        own = [r for r in mine if r["book"] == book]
+        if own and own[0]["page"] and own[0]["page"] != e.page:
+            front = with_page(front, own[0]["page"])
         e.path.write_text("+++\n" + front.strip("\n") + "\n+++\n" + body, encoding="utf-8")
         for r in mine:
             r["status"] = LEDGER
@@ -786,6 +827,14 @@ def self_test() -> int:
     eq(group_heading(type("E", (), {"title": "Nothing"})(), blk), None, "ruling 61: a head that is not printed has no heading")
     eq(group_heading(type("E", (), {"title": "Bite"})(), blk[2:]), None, "ruling 61: no title above the head, no heading")
     eq(with_page('[[sources]]\npublication = "x"\npage = "62"\n\n[fields]\n', "61-62"), '[[sources]]\npublication = "x"\npage = "61-62"\n\n[fields]\n', "ruling 61: the page row becomes a range")
+    STOP_TITLES.clear()
+    STOP_TITLES.update({"aquatic", "boreal", "deepearth"})
+    ab = [P("title", [("Aquatic", True, False)], 136, 0, 18), P("para", [("Dehydrating Touch (Sp)", True, False), (": A touch.", False, False)], 136, 0),
+          P("title", [("Boreal", True, False)], 136, 1, 18), P("para", [("Freezing Bolt (Sp)", True, False), (": A bolt.", False, False)], 136, 1)]
+    eq([q.plain()[:8] for q in anchor_section(ab, "Aquatic")], ["Dehydrat"], "item 3: the section of an entry ends at the title of the next class option")
+    eq(anchor_section(ab, "Serpentine"), None, "item 3: a title that is not printed gives no window")
+    eq([q.plain()[:6] for q in anchor_section(ab, "Boreal")], ["Freezi"], "item 3: the window starts at the entry's own title")
+    STOP_TITLES.clear()
     single = "\n**Animal Fury (Ex)**\n\n**Ability:** A bite attack.\n\n**Special:** A grapple.\n"
     multi = ("\n**Deities**\n\n**Details:** Gorum.\n\n### Revelations\n\nAn oracle can choose from the following.\n\n"
              "**Battlecry (Ex)**\n\n**Standard:** A cry.\n\n**Usage:** 1 time/day\n\n**At 10th level,** more.\n\n"
