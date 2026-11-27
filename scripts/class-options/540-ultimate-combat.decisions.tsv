@@ -23,7 +23,7 @@ ref/deed/stunning-shot	stunning-shot	print	Printed prerequisite and effect text 
 ref/deed/utility-shot	utility-shot	print	The printed 3rd-level lead replaces the equivalent imported prerequisite row; print wording is used. Ultimate Combat p. 11.
 ref/discovery/breath-weapon-bomb	breath-weapon-bomb	print	The printed rule term “Intelligent modifier” is a certain misprint; corrected under ruling 43. The bomb-mark restriction from the printed introduction opens the entry. Ultimate Combat p. 24.
 ref/discovery/explosive-missile	explosive-missile	print	The print text for this entry ends before the separately headed Immolation Bomb. Ultimate Combat p. 24.
-ref/discovery/immolation-bomb	immolation-bomb	hold	Printed name carries a footnote star; the compare did not match the head to this entry. Ultimate Combat p. 24.
+ref/discovery/immolation-bomb	immolation-bomb	hold	Printed head carries a footnote star, so it stays held. The text also reads “Intelligent modifier” for the save DC; record the certain misprint with its errata row when the entry is written. Ultimate Combat p. 24.
 ref/discovery/poison-conversion	poison-conversion	print	The print text for this entry ends before the separately headed Siege Bomb. Ultimate Combat p. 24.
 ref/discovery/siege-bomb	siege-bomb	hold	Printed name carries a footnote star; the compare did not match the head to this entry. Ultimate Combat p. 24.
 ref/inquisition/black-powder	granted-powers	hold	Granted Powers contains several effects rather than one separately named power; keep held pending scope ruling. Ultimate Combat p. 52.

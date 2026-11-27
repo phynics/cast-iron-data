@@ -16,7 +16,7 @@ group = "rage-power"
 ability_type = "Ex"
 +++
 
-When using the [ground breaker](ref/ragepower/ground-breaker)\*\* rage power, the barbarian can
-extend the radius of the effect by 5 feet. This rage power can be selected up to three times, and
-its effects stack. A barbarian must have the [ground breaker](ref/ragepower/ground-breaker) rage
-power and be at least 8th level before selecting this rage power.
+When using the [ground breaker](ref/ragepower/ground-breaker) rage power, the barbarian can extend
+the radius of the effect by 5 feet. This rage power can be selected up to three times, and its
+effects stack. A barbarian must have the [ground breaker](ref/ragepower/ground-breaker) rage power
+and be at least 8th level before selecting this rage power.

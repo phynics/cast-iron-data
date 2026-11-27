@@ -16,6 +16,9 @@ group = "ninja-trick"
 ability_type = "Ex"
 +++
 
+Tricks marked with an asterisk (\*) add effects to a ninja’s sneak attack. Only one of these tricks
+can be applied to an individual attack and the decision must be made before the attack is made.
+
 A ninja with this trick can cause living opponents to [bleed](ref/rule/bleed) by hitting them with a
 sneak attack. This attack causes the target to take 1 additional point of damage each round for each
 die of the ninja's sneak attack. Bleeding creatures take that amount of damage every round at the

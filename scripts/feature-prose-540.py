@@ -1781,8 +1781,8 @@ def head_of_para(p: Para) -> str | None:
 
 # A source mark of print between a head and its colon: an asterisk or a dagger, with the bracket a superscript sometimes leaves ("(Su)*:").
 # Only a mark (`*`, `†`, `‡`) is a source mark: "(Su)" before a colon is the ability tag and stays.
-SOURCE_MARK_TAIL = re.compile(r"^\s*[\*†‡]+\s*(?=:)")
-SOURCE_MARK_END = re.compile(r"\s*[\*†‡]+\s*$")
+SOURCE_MARK_TAIL = re.compile(r"^\s*[\*†‡]+\s*(?=(?:\([^()]+\)\s*)?:)")
+SOURCE_MARK_END = re.compile(r"[\*†‡]+(?=\s*(?:\([^()]+\))?\s*$)")
 
 
 def split_print(section: list[Para], expected: list[str]) -> tuple[list[list], list[PrintFeature]]:
@@ -1800,13 +1800,18 @@ def split_print(section: list[Para], expected: list[str]) -> tuple[list[list], l
             head, rest, bold = cand
             marked = False
             if SOURCE_MARK_END.search(head):
-                head = SOURCE_MARK_END.sub("", head)      # "Plague Bomb (Su)*:" (the mark is inside the italic run, Ultimate Magic p. 16)
+                head = SOURCE_MARK_END.sub("", head).rstrip()      # "Plague Bomb (Su)*:" (the mark is inside the italic run, Ultimate Magic p. 16)
                 cand = (head, rest, bold)
                 marked = True
             if rest and not rest[0][0].lstrip().startswith(":") and SOURCE_MARK_TAIL.match(rest[0][0]):
-                # a source mark between a head and its colon ("Tanglefoot Bomb (Su)*:", Ultimate Magic p. 17): the mark is not the head's name
+                # a source mark between a head and its colon, with or without a tag after it: the mark is not the head's name
                 rest = list(rest)
-                rest[0] = (SOURCE_MARK_TAIL.sub("", rest[0][0], count=1), rest[0][1], rest[0][2])
+                text = SOURCE_MARK_TAIL.sub("", rest[0][0], count=1)
+                tag = re.match(r"^\s*(\([^()]+\))(?=\s*:)", text)
+                if tag:
+                    head += " " + tag.group(1)
+                    text = text[tag.end():]
+                rest[0] = (text, rest[0][1], rest[0][2])
                 cand = (head, rest, bold)
                 marked = True
             colon = rest and rest[0][0].lstrip().startswith(":") if rest else False
@@ -6464,12 +6469,16 @@ def self_test() -> int:
     UPPER_HEAD_ENDS["on"] = False
     # a source mark on a printed head (review of #374): the mark is dropped, the ability tag stays
     _mk = lambda text: Para("para", [(text, False, True), (": text", False, False)], "1", 0)
-    _secm = [Para("title", [("Discoveries", True, False)], "1", 0), _mk("Bomb (Su)*"), _mk("Claw (Ex)"), _mk("Plain *")]
-    _opm, _ftm = split_print(_secm, ["Bomb (Su)", "Claw (Ex)", "Plain"])
-    eq([(f.head, f.marked) for f in _ftm], [("Bomb (Su)", True), ("Claw (Ex)", False), ("Plain", True)],
+    _secm = [Para("title", [("Discoveries", True, False)], "1", 0), _mk("Bomb (Su)*"), _mk("Claw (Ex)"), _mk("Plain *"),
+             _mk("Bleeding Attack* (Ex)"), _mk("Plain (Ex)")]
+    _opm, _ftm = split_print(_secm, ["Bomb (Su)", "Claw (Ex)", "Plain", "Bleeding Attack (Ex)", "Plain (Ex)"])
+    eq([(f.head, f.marked) for f in _ftm], [("Bomb (Su)", True), ("Claw (Ex)", False), ("Plain", True),
+                                           ("Bleeding Attack (Ex)", True), ("Plain (Ex)", False)],
        "a source mark on a head is dropped and recorded; an ability tag is never a mark")
     _opm, _ftm = split_print([_secm[0], Para("para", [("Bomb (Su)", False, True), ("*: a mark outside the italic", False, False)], "1", 0)], ["Bomb (Su)"])
     eq([(f.head, f.marked) for f in _ftm], [("Bomb (Su)", True)], "a mark between the head and its colon is dropped too")
+    _opm, _ftm = split_print([_secm[0], Para("para", [("Confounding Blades", False, True), ("* (Ex): text", False, False)], "1", 0)], ["Confounding Blades (Ex)"])
+    eq([(f.head, f.marked) for f in _ftm], [("Confounding Blades (Ex)", True)], "a source mark before an ability tag is dropped without dropping the tag")
     # a link takes the mark it replaces ("vanish**" against "glide**"); an unlinked marked word keeps it
     _mr = [[("Choose ", False, False), ("vanish", False, True), ("** or ", False, False), ("glide", False, True), ("**.", False, False)]]
     _txt = print_md(PrintFeature("x", _mr, 1), [("vanish", "ref/spell/vanish")], set(), "e", keep_marks=True)[0]

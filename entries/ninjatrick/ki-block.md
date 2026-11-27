@@ -8,13 +8,16 @@ provenance = [
 ]
 [[sources]]
 publication = "ultimate-combat"
-page = "15"
+page = "14-15"
 
 [fields]
 kind = "class_option"
 group = "ninja-trick"
 ability_type = "Su"
 +++
+
+Tricks marked with an asterisk (\*) add effects to a ninja’s sneak attack. Only one of these tricks
+can be applied to an individual attack and the decision must be made before the attack is made.
 
 A ninja with this trick can prevent a creature from using its ki pool. Whenever the ninja deals
 sneak attack damage, the target must make a Will save or be unable to spend any points from its ki

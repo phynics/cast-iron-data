@@ -8,7 +8,7 @@ provenance = [
 ]
 [[sources]]
 publication = "ultimate-combat"
-page = "70"
+page = "69-70"
 
 [fields]
 kind = "class_option"
@@ -16,8 +16,9 @@ group = "rogue-talent"
 ability_type = "Ex"
 +++
 
-Talents marked with an asterisk (\*) add effects to their sneak attack. Only one of these talents
-can be applied to an individual attack, and the decision must be made before the roll is made.
+Talents marked with an asterisk (\*) add effects to a rogue’s sneak attack. Only one of these
+talents can be applied to an individual attack, and the decision must be made before the roll is
+made.
 
 A rogue with this talent gains a +4 circumstance bonus on all
 [Sleight of Hand](ref/skill/sleight-of-hand) checks made to conceal a weapon. Furthermore, if she

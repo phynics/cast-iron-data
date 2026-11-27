@@ -183,6 +183,11 @@ anchor = "explosive-missile"
 print = "As a standard action, the alchemist can infuse a single arrow, crossbow bolt, or one-handed firearm bullet with the power of his bomb, load the ammunition, and shoot the ranged weapon. He must be proficient with the weapon in order to accomplish this. When the infused ammunition hits its target, it deals damage normally and detonates as if the alchemist had thrown the bomb at the target. If the explosive missile misses, it does not detonate. An alchemist must be at least 4th level before selecting this discovery."
 
 [[entry]]
+id = "ref/discovery/immolation-bomb"
+anchor = "immolation-bomb"
+print = "Discoveries that modify bombs and are marked with a single asterisk (\\*) do not stack. Only one such discovery can be applied to an individual bomb.\n\nWhen the alchemist creates a bomb, he can choose to have its substance coat the direct target's body, causing the bomb to deal its damage over time instead of all at once. The bomb's effect lasts for a number of rounds equal to the number of damage dice the bomb would normally deal (for instance, a 5d6 bomb lasts for 5 rounds). When the bomb hits the direct target, the bomb deals 1d6 + the alchemist's Intelligence modifier in damage, and those within the splash zone take damage equal to 1 + the alchemist's Intelligence modifier. It repeats this damage against the direct target of the bomb each round the immolation bomb lasts, dealing the damage at the start of the alchemist's turn. Splash damage is dealt again to any creature that is adjacent to the direct target when it takes damage from the immolation bomb. A creature taking damage from an immolation bomb's direct hit can attempt to extinguish the flames as a full-round action that requires a Reflex save (DC = 10 + 1/2 the alchemist's level + the alchemist's Intelligent modifier). Because of the alchemical nature of this bomb, rolling on the ground does not grant a bonus on the saving throw, and dousing a creature with water does not stop it from burning. These bombs can be used underwater. An alchemist must be at least 3rd level before selecting this discovery."
+
+[[entry]]
 id = "ref/discovery/nauseating-flesh"
 anchor = "nauseating-flesh"
 print = "The alchemist's body is suffused with poison. Any creature that bites, engulfs, or swallows the alchemist must make a Fortitude saving throw or be [nauseated](ref/misc/nauseated) for 1d4 rounds. An alchemist must be at least 12th level before selecting this discovery. The alchemist with this discovery does not suffer the effect of the poison of his own nauseating flesh."
@@ -191,6 +196,11 @@ print = "The alchemist's body is suffused with poison. Any creature that bites, 
 id = "ref/discovery/poison-conversion"
 anchor = "poison-conversion"
 print = "By spending 1 minute, the alchemist can convert 1 dose of poison from its current type (contact, ingested, inhaled, or injury) to another type. For example, the alchemist can convert a dose of [Small centipede poison](ref/eq-poison/small-centipede-poison) (an injury poison) to an inhaled poison. This process requires an [alchemy lab](ref/misc/alchemy-lab). An alchemist must be at least 6th level before selecting this discovery."
+
+[[entry]]
+id = "ref/discovery/siege-bomb"
+anchor = "siege-bomb"
+print = "Discoveries that modify bombs and are marked with a single asterisk (\\*) do not stack. Only one such discovery can be applied to an individual bomb.\n\nAs a standard action, the alchemist infuses a single piece of ammunition on a loaded siege weapon with the power of his bomb. As long as the siege engine with this ammunition is fired before the start of the alchemist's next turn, the ammunition does damage normally, and also deals the damage of the alchemist's bomb. The splash radius of the bomb effect is 20 feet rather than 5 feet. Creatures that take the bomb's damage (either direct damage or splash damage), take 1d6 points of fire damage each round until the fire is extinguished. Extinguishing the flames is a full-round action that requires a Reflex save. Rolling on the ground provides the target with a +2 bonus on the save. Dousing the target with at least 2 gallons of water automatically extinguishes the flames. An alchemist must be at least 12th level and must possess the [explosive bomb](ref/discovery/explosive-bomb) discovery before selecting this discovery."
 
 [[entry]]
 id = "ref/inquisition/black-powder"
@@ -215,7 +225,7 @@ print = "A ninja with this master trick can kill foes that are unable to defend 
 [[entry]]
 id = "ref/ninjatrick/bleeding-attack"
 anchor = "bleeding-attack"
-print = "A ninja with this trick can cause living opponents to [bleed](ref/rule/bleed) by hitting them with a sneak attack. This attack causes the target to take 1 additional point of damage each round for each die of the ninja's sneak attack. Bleeding creatures take that amount of damage every round at the start of each of their turns. The bleeding can be stopped by a DC 15 Heal check or the application of any effect that heals hit point damage. Bleed damage from this ability does not stack with itself. Bleed damage bypasses any DR the creature might possess."
+print = "Tricks marked with an asterisk (\\*) add effects to a ninja’s sneak attack. Only one of these tricks can be applied to an individual attack and the decision must be made before the attack is made.\n\nA ninja with this trick can cause living opponents to [bleed](ref/rule/bleed) by hitting them with a sneak attack. This attack causes the target to take 1 additional point of damage each round for each die of the ninja's sneak attack. Bleeding creatures take that amount of damage every round at the start of each of their turns. The bleeding can be stopped by a DC 15 Heal check or the application of any effect that heals hit point damage. Bleed damage from this ability does not stack with itself. Bleed damage bypasses any DR the creature might possess."
 
 [[entry]]
 id = "ref/ninjatrick/blinding-bomb"
@@ -305,7 +315,7 @@ print = "Whenever a ninja uses the [vanishing trick](ref/ninjatrick/vanishing-tr
 [[entry]]
 id = "ref/ninjatrick/ki-block"
 anchor = "ki-block"
-print = "A ninja with this trick can prevent a creature from using its ki pool. Whenever the ninja deals sneak attack damage, the target must make a Will save or be unable to spend any points from its ki pool for a number of rounds equal to the ninja's Charisma modifier. The DC of this save is 10 + 1/2 the ninja's level + the ninja's Charisma modifier. The number of points in the target's ki pool is unaffected, and abilities that do not require the subject to spend ki still function."
+print = "Tricks marked with an asterisk (\\*) add effects to a ninja’s sneak attack. Only one of these tricks can be applied to an individual attack and the decision must be made before the attack is made.\n\nA ninja with this trick can prevent a creature from using its ki pool. Whenever the ninja deals sneak attack damage, the target must make a Will save or be unable to spend any points from its ki pool for a number of rounds equal to the ninja's Charisma modifier. The DC of this save is 10 + 1/2 the ninja's level + the ninja's Charisma modifier. The number of points in the target's ki pool is unaffected, and abilities that do not require the subject to spend ki still function."
 
 [[entry]]
 id = "ref/ninjatrick/ki-charge"
@@ -325,7 +335,7 @@ print = "Whenever the ninja throws a [smoke bomb](ref/ninjatrick/smoke-bomb), sh
 [[entry]]
 id = "ref/ninjatrick/pressure-points"
 anchor = "pressure-points"
-print = "A ninja with this trick can strike at an opponent's vital pressure points, causing weakness and intense pain. Whenever the ninja deals sneak attack damage, she also deals 1 point of [Strength or Dexterity damage](ref/rule/ability-damage-drain), decided by the ninja. Unlike normal ability damage, this damage can be healed by a DC 15 Heal check. Each successful check heals 1 point of damage caused by this trick. A ninja with this trick receives a +10 insight bonus on this Heal check."
+print = "Tricks marked with an asterisk (\\*) add effects to a ninja’s sneak attack. Only one of these tricks can be applied to an individual attack and the decision must be made before the attack is made.\n\nA ninja with this trick can strike at an opponent's vital pressure points, causing weakness and intense pain. Whenever the ninja deals sneak attack damage, she also deals 1 point of [Strength or Dexterity damage](ref/rule/ability-damage-drain), decided by the ninja. Unlike normal ability damage, this damage can be healed by a DC 15 Heal check. Each successful check heals 1 point of damage caused by this trick. A ninja with this trick receives a +10 insight bonus on this Heal check."
 
 [[entry]]
 id = "ref/ninjatrick/rogue-talent"
@@ -355,7 +365,7 @@ print = "The ninja has a slower-than-normal metabolism. She can [hold her breath
 [[entry]]
 id = "ref/ninjatrick/slow-reactions"
 anchor = "slow-reactions"
-print = "Opponents that are damaged by the ninja's sneak attack can't make attacks of opportunity for 1 round."
+print = "Tricks marked with an asterisk (\\*) add effects to a ninja’s sneak attack. Only one of these tricks can be applied to an individual attack and the decision must be made before the attack is made.\n\nOpponents that are damaged by the ninja's sneak attack can't make attacks of opportunity for 1 round."
 
 [[entry]]
 id = "ref/ninjatrick/smoke-bomb"
@@ -860,12 +870,12 @@ print = "While raging, the barbarian deals normal damage to incorporeal creature
 [[entry]]
 id = "ref/ragepower/greater-ground-breaker"
 anchor = "greater-ground-breaker"
-print = "When using the [ground breaker](ref/ragepower/ground-breaker)\\*\\* rage power, the barbarian can extend the radius of the effect by 5 feet. This rage power can be selected up to three times, and its effects stack. A barbarian must have the [ground breaker](ref/ragepower/ground-breaker) rage power and be at least 8th level before selecting this rage power."
+print = "When using the [ground breaker](ref/ragepower/ground-breaker) rage power, the barbarian can extend the radius of the effect by 5 feet. This rage power can be selected up to three times, and its effects stack. A barbarian must have the [ground breaker](ref/ragepower/ground-breaker) rage power and be at least 8th level before selecting this rage power."
 
 [[entry]]
 id = "ref/ragepower/greater-guarded-life"
 anchor = "greater-guarded-life"
-print = "When using the [guarded life](ref/ragepower/guarded-life)\\*\\* rage power, 1 additional hit point of lethal damage per barbarian level is converted to nonlethal damage. A barbarian must have the [guarded life](ref/ragepower/guarded-life) rage power and be at least 6th level before selecting this rage power."
+print = "When using the [guarded life](ref/ragepower/guarded-life) rage power, 1 additional hit point of lethal damage per barbarian level is converted to nonlethal damage. A barbarian must have the [guarded life](ref/ragepower/guarded-life) rage power and be at least 6th level before selecting this rage power."
 
 [[entry]]
 id = "ref/ragepower/hive-totem"
@@ -956,6 +966,11 @@ print = "While raging, the barbarian doubles her fast movement bonus to land spe
 id = "ref/talent/black-market-connections"
 anchor = "black-market-connections"
 print = "A rogue with this talent gains better access to magic items from black market connections. She treats every [settlement](ref/rule/settlements-and-districts) as one size greater (see Table 15–1 on page 461 of the _Core Rulebook_) for the purpose of determining the gp limit of the base value of items for sale, as well as the number of minor, medium, and major magic items for sale in the settlement. If the settlement is already a metropolis, all minor and medium magic items are for sale, as well as 3d8 major magic items. With a successful Diplomacy check, the rogue can treat the settlement as two sizes larger. If the settlement is already a metropolis and she succeeds at the check, all magic items are for sale. If the settlement is already a large city and she succeeds at the check, all minor and medium magic items are for sale, as well as 3d8 major magic items. With a successful check, the rogue can also sell stolen items on the black market. If the check fails by 5 or more, the rogue does something to spook the market, and treats the city as normal for 1 week. Furthermore, those in control of the black market may alert the authorities to the rogue's presence in an act of reprisal for spooking the market or to divert attention away from their illicit activities. The DCs of the checks are by settlement size and are given in the table below. Community Size DC Thorp 10 Hamlet 12 Village 15 Small town 18 Large town 20 Small city 25 Large city 30 Metropolis 35"
+
+[[entry]]
+id = "ref/talent/confounding-blades"
+anchor = "confounding-blades"
+print = "Talents marked with an asterisk (\\*) add effects to a rogue’s sneak attack. Only one of these talents can be applied to an individual attack, and the decision must be made before the roll is made.\n\nWhen a rogue with this talent hits a creature with a melee weapon that deals sneak attack damage, her target cannot make attacks of opportunity for 1d4+1 rounds. The rogue must have the [slow reactions](ref/talent/slow-reactions) rogue talent before she can choose this talent."
 
 [[entry]]
 id = "ref/talent/convincing-lie"
@@ -1064,7 +1079,7 @@ print = "A rogue with this talent gains a [favored terrain](ref/ability/favored-
 [[entry]]
 id = "ref/talent/underhanded"
 anchor = "underhanded"
-print = "Talents marked with an asterisk (\\*) add effects to their sneak attack. Only one of these talents can be applied to an individual attack, and the decision must be made before the roll is made.\n\nA rogue with this talent gains a +4 circumstance bonus on all [Sleight of Hand](ref/skill/sleight-of-hand) checks made to conceal a weapon. Furthermore, if she makes a sneak attack during the surprise round using a concealed weapon that her opponent didn't know about, she does not have to roll sneak attack damage, and the sneak attack deals maximum damage. A rogue can only use the underhanded talent a number of times per day equal to her Charisma modifier (minimum 0)."
+print = "Talents marked with an asterisk (\\*) add effects to a rogue’s sneak attack. Only one of these talents can be applied to an individual attack, and the decision must be made before the roll is made.\n\nA rogue with this talent gains a +4 circumstance bonus on all [Sleight of Hand](ref/skill/sleight-of-hand) checks made to conceal a weapon. Furthermore, if she makes a sneak attack during the surprise round using a concealed weapon that her opponent didn't know about, she does not have to roll sneak attack damage, and the sneak attack deals maximum damage. A rogue can only use the underhanded talent a number of times per day equal to her Charisma modifier (minimum 0)."
 
 [[entry]]
 id = "ref/talent/unwitting-ally"
