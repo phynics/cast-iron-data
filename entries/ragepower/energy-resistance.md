@@ -13,6 +13,7 @@ page = "75"
 [fields]
 kind = "class_option"
 group = "rage-power"
+ability_type = "Ex"
 +++
 
 While raging, the barbarian gains [resistance](ref/umr/resistance) to one energy type (acid, cold,

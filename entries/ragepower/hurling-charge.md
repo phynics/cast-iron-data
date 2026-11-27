@@ -13,6 +13,7 @@ page = "76"
 [fields]
 kind = "class_option"
 group = "rage-power"
+ability_type = "Ex"
 +++
 
 While raging and making a [charge](ref/rule/charge) attack, the barbarian may draw and throw a

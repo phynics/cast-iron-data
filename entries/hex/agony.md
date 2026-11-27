@@ -13,6 +13,7 @@ page = "67"
 [fields]
 kind = "class_option"
 group = "witch-hex"
+ability_type = "Su"
 +++
 
 With a quick incantation, a witch can place this hex on one creature within 60 feet, causing them to

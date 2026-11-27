@@ -13,6 +13,7 @@ page = "74"
 [fields]
 kind = "class_option"
 group = "rage-power"
+ability_type = "Su"
 +++
 
 While raging, the barbarian's form becomes infused with chaos. She gains a +4 bonus on Escape Artist

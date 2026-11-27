@@ -13,6 +13,7 @@ page = "60"
 [fields]
 kind = "class_option"
 group = "summoner-evolution"
+ability_type = "Su"
 +++
 
 1-Point Evolutions: The following evolutions cost 1 point from the eidolon's evolution pool.

@@ -13,6 +13,7 @@ page = "66"
 [fields]
 kind = "class_option"
 group = "witch-hex"
+ability_type = "Ex"
 +++
 
 The witch counts as a [hag](ref/family/hag) for the purpose of joining a hag's coven. The coven must

@@ -13,6 +13,7 @@ page = "69"
 [fields]
 kind = "class_option"
 group = "witch-hex"
+ability_type = "Su"
 +++
 
 The witch can touch a creature, causing it to drift off into a permanent slumber. The creature

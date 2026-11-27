@@ -13,6 +13,7 @@ page = "74"
 [fields]
 kind = "class_option"
 group = "rage-power"
+ability_type = "Su"
 +++
 
 While raging, the barbarian gains a +1 deflection bonus to AC against the attacks of lawful

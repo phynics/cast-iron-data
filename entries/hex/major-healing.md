@@ -13,6 +13,7 @@ page = "68"
 [fields]
 kind = "class_option"
 group = "witch-hex"
+ability_type = "Su"
 +++
 
 By calling upon eerie powers, the witch's touch can mend even the most terrible wounds of those she

@@ -13,6 +13,7 @@ page = "69"
 [fields]
 kind = "class_option"
 group = "witch-hex"
+ability_type = "Su"
 +++
 
 This powerful hex seizes a creature's heart, causing death within just a few moments. This hex has a

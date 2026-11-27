@@ -13,6 +13,7 @@ page = "74"
 [fields]
 kind = "class_option"
 group = "rage-power"
+ability_type = "Su"
 +++
 
 While raging, the barbarian gains two [claw attacks](ref/umr/natural-attacks). These attacks are

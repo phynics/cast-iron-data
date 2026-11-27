@@ -13,6 +13,7 @@ page = "68"
 [fields]
 kind = "class_option"
 group = "witch-hex"
+ability_type = "Su"
 +++
 
 A witch can place a retribution hex on a creature within 60 feet, causing terrible wounds to open

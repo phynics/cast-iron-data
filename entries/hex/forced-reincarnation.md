@@ -13,6 +13,7 @@ page = "69"
 [fields]
 kind = "class_option"
 group = "witch-hex"
+ability_type = "Su"
 +++
 
 The witch causes a creature within 30 feet to die and be immediately _reincarnated_ into a new body.
