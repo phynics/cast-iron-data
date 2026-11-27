@@ -21,7 +21,7 @@ ref/deed/slingers-luck	slinger-s-luck	print	Printed prerequisite and effect text
 ref/deed/startling-shot	startling-shot	print	The printed omission in “with least 1 grit point” is corrected to “with at least 1 grit point” under ruling 43; errata row added. Ultimate Combat p. 11.
 ref/deed/stunning-shot	stunning-shot	print	Printed prerequisite and effect text were checked against the cited page; the differences are import row structure or wording. Ultimate Combat p. 12.
 ref/deed/utility-shot	utility-shot	print	The printed 3rd-level lead replaces the equivalent imported prerequisite row; print wording is used. Ultimate Combat p. 11.
-ref/discovery/breath-weapon-bomb	breath-weapon-bomb	print	The printed rule term “Intelligent modifier” is a certain misprint; corrected under ruling 43. Ultimate Combat p. 24.
+ref/discovery/breath-weapon-bomb	breath-weapon-bomb	print	The printed rule term “Intelligent modifier” is a certain misprint; corrected under ruling 43. The bomb-mark restriction from the printed introduction opens the entry. Ultimate Combat p. 24.
 ref/discovery/explosive-missile	explosive-missile	print	The print text for this entry ends before the separately headed Immolation Bomb. Ultimate Combat p. 24.
 ref/discovery/immolation-bomb	immolation-bomb	hold	Printed name carries a footnote star; the compare did not match the head to this entry. Ultimate Combat p. 24.
 ref/discovery/poison-conversion	poison-conversion	print	The print text for this entry ends before the separately headed Siege Bomb. Ultimate Combat p. 24.
@@ -37,6 +37,7 @@ ref/ninjatrick/shadow-clone	shadow-clone	print	“Costs 1 ki point” and “use
 ref/ninjatrick/smoke-bomb	smoke-bomb	print	The printed standard-action sentence matches the imported action row; print wording is used. Ultimate Combat p. 16.
 ref/ninjatrick/snatch-arrows	snatch-arrows	print	The printed head has no ability tag; the imported prerequisite qualifier is absent from print. Ultimate Combat p. 15.
 ref/ninjatrick/unarmed-combat-mastery	unarmed-combat-mastery	print	The imported prerequisite adds “whether from ... or not,” which is absent from print; the printed prerequisite/effect is used. Ultimate Combat p. 17.
+ref/ninjatrick/weapon-training	weapon-training	print	The printed head has no (Ex) tag; the imported tag is omitted under ruling 63. Ultimate Combat p. 16.
 ref/order/order-of-the-blue-rose	inner-peace	hold	multi-power: separate reviewed batch
 ref/order/order-of-the-blue-rose	shield-of-blades	hold	multi-power: separate reviewed batch
 ref/order/order-of-the-seal	i-shall-not-be-moved	hold	multi-power: separate reviewed batch
@@ -80,3 +81,4 @@ ref/talent/confounding-blades	confounding-blades	hold	Printed name carries a foo
 ref/talent/familiar	familiar	print	Printed prerequisite and effect text were checked against the cited page; the differences are import row structure or wording. Ultimate Combat p. 70.
 ref/talent/hard-minded	hard-minded	print	The printed repeated “again” is a certain misprint; corrected under ruling 43. Ultimate Combat p. 70.
 ref/talent/rumormonger	rumormonger	print	The settlement and DC table is printed as a table in the option; print says “through,” correcting the import typo “though.” Ultimate Combat p. 71.
+ref/talent/underhanded	underhanded	print	The printed rule for asterisk-marked talents opens the entry. Ultimate Combat p. 69.

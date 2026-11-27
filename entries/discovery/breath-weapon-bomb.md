@@ -15,6 +15,9 @@ kind = "class_option"
 group = "alchemist-discovery"
 +++
 
+Discoveries that modify bombs and are marked with a single asterisk (\*) do not stack. Only one such
+discovery can be applied to an individual bomb.
+
 Instead of drawing the components of, creating, and throwing a bomb, the alchemist can draw the
 components, drink them, mix them within his body, and then expel them as a breath weapon as a
 standard action. This breath weapon is a 15-foot cone and has the same DC as the bomb. Each creature

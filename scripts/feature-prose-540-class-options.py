@@ -284,10 +284,46 @@ WRITE_ABILITY_TYPE = True                                    # ruling 63: `[fiel
 
 
 def ability_tag_of(name: str) -> str:
-    """The printed ability tag of a power name, without the parentheses and in print's case: "Su", "Ex or Sp", "Su, Sp"; "" when the name has
-    none or its text is not a tag ("su", " Su", "see text"): the app refuses such a value."""
+    """Read a final ability tag only when its words match the app's closed tag grammar."""
     m = TAG.search(name)
     return m.group(1) if m and TAG_WORDS.fullmatch(m.group(1)) else ""
+
+
+def ability_tag_of_printed_head(head: str) -> str:
+    """Read the tag from print's head, allowing source marks around the tag without deleting the tag itself."""
+    clean = re.sub(r"[\*†‡]+\s*$", "", head).strip()
+    clean = re.sub(r"[\*†‡]+\s*(?=\([^()]+\)\s*$)", "", clean).strip()
+    return ability_tag_of(clean)
+
+
+def ability_tag_for_option(book: str, imported_head: str, printed_head: str) -> str:
+    """Use print's matched head for this batch; preserve established output for other books."""
+    return ability_tag_of_printed_head(printed_head) if book == "ultimate-combat" else ability_tag_of(imported_head)
+
+
+HEAD_MARK_INTROS = {
+    ("ultimate-combat", "ref/discovery/breath-weapon-bomb"): (
+        "Discoveries that modify bombs and are marked with a single asterisk (\\*) do not stack. "
+        "Only one such discovery can be applied to an individual bomb."),
+    ("ultimate-combat", "ref/talent/underhanded"): (
+        "Talents marked with an asterisk (\\*) add effects to their sneak attack. Only one of these talents can be applied to an individual attack, "
+        "and the decision must be made before the roll is made."),
+}
+
+
+def marked_head_intro(book: str, entry_id: str) -> str:
+    """The printed intro sentence that explains a marked head in this batch; no other book or head is changed."""
+    return HEAD_MARK_INTROS.get((book, entry_id), "")
+
+
+def prepend_intro(body: str, intro: str) -> str:
+    """Add a printed marked-head intro once, escaping literal Markdown marks and migrating its unescaped near miss."""
+    if not intro or body.startswith(intro):
+        return body
+    legacy = intro.replace(r"\*", "*")
+    if legacy != intro and body.startswith(legacy):
+        body = body[len(legacy):].lstrip("\n")
+    return intro + "\n\n" + body
 
 
 def with_ability_type(front: str, tag: str) -> str:
@@ -295,7 +331,8 @@ def with_ability_type(front: str, tag: str) -> str:
     if 'kind = "class_option"' not in front:
         return front
     if not tag:
-        return re.sub(r"^ability_type = [^\n]*\n?", "", front, flags=re.M)
+        without = re.sub(r"^ability_type = [^\n]*\n?", "", front, flags=re.M)
+        return re.sub(r"\n{2,}$", "\n", without)
     if not TAG_WORDS.fullmatch(tag) or re.search(r"^ability_type = ", front, re.M):
         return front
     out, n = re.subn(r'(^group = "[^"]*")(\n|\Z)', lambda m: m.group(1) + f'\nability_type = "{tag}"\n', front, count=1, flags=re.M)
@@ -645,7 +682,7 @@ def compare_one(e, book, bk, other=None) -> list[dict]:
             r = dict(r, notes=[f"printed in {where[f.span_sha()][0]} p. {where[f.span_sha()][1]}"] + list(r["notes"]))
         section, pr = info.get(sha, ("", None))
         src = where.get(f.span_sha()) if f is not None else None           # a power that another source of the entry prints has its own book and page
-        common = dict(base, feature=name, section=section, book=src[0] if src else book, by="", ability_tag=ability_tag_of(name) if shape == "single" else "",
+        common = dict(base, feature=name, section=section, book=src[0] if src else book, by="", ability_tag=ability_tag_for_option(book, name, r["head"] if r is not None else "") if shape == "single" else "",
                       reviewed_537="yes" if (e.id, sha) in REVIEWED else "", links_lost="", span_sha256=sha)
         if r is None:
             rows.append(dict(common, anchor=fp.anchor_of(name), verdict="missing-head", status="hold", level_import="",
@@ -706,6 +743,7 @@ def compare_one(e, book, bk, other=None) -> list[dict]:
         elif decided and decided[0] == "hold":
             status = "hold"                                  # held by decision: an errata check, a ruling that has not landed
             notes.append(f"held by decision: {decided[1]}")
+        printed = prepend_intro(printed, marked_head_intro(book, e.id) if shape == "single" else "")
         rows.append(dict(common, anchor=anchor, verdict=verdict, status=status,
                          level_import=r["level_import"] if r["level_import"] is not None else "",
                          level=level_of(r["print"]) or "", note="; ".join(notes)[:400], print=printed,
@@ -873,8 +911,13 @@ def run_compare(args) -> int:
     kept = [r for r in old if r["status"] == LEDGER and r["entry"] not in compared]       # the ledger of the entries written already
     for r in kept:
         if (r["entry"], r["anchor"]) in old_props:
+            printed = old_props[(r["entry"], r["anchor"])]
+            intro = marked_head_intro(book, r["entry"])
+            if intro:
+                printed = prepend_intro(printed, intro)
+                r["print_sha256"] = hashlib.sha256(printed.encode()).hexdigest()
             props.setdefault(r["entry"], {"id": r["entry"], "feature": []})["feature"].append(
-                {"anchor": r["anchor"], "print": old_props[(r["entry"], r["anchor"])]})
+                {"anchor": r["anchor"], "print": printed})
     write_tsv(tsv_file(corpus, book), sorted(kept + rows, key=lambda r: r["entry"]))
     write_props(proposals_file(corpus, book), dict(sorted(props.items())))
     print(report(rows, cen))
@@ -1154,6 +1197,15 @@ def run_write(args) -> int:
     for e in load_class_options(corpus, book, families):
         mine = by_entry.get(e.id)
         shape = shape_of(e.body)[0]
+        intro = marked_head_intro(book, e.id)
+        if shape == "none" and mine and all(r["status"] == LEDGER for r in mine) and intro:
+            proposal = props.get((e.id, mine[0]["anchor"]), "")
+            assert proposal.startswith(intro), f"{e.id}: proposal lacks the printed intro for its marked head"
+            body = prepend_intro(e.body, intro)
+            if body != e.body:
+                write_atomic(e.path, "+++\n" + e.front.strip("\n") + "\n+++\n" + body)
+                converted += 1
+            continue
         if shape == "none" or not mine or any(r["status"] not in SETTLED for r in mine):
             continue
         blocks = rw.parse_blocks(e.body.split("\n"))
@@ -1206,9 +1258,12 @@ def run_ability_type(args) -> int:
             untagged += 1
         if mine:
             new = with_ability_type(e.front, tag)
-            if new != e.front:
-                write_atomic(e.path, e.path.read_text(encoding="utf-8").replace(e.front, new, 1))
-                done += 1
+            current = e.path.read_text(encoding="utf-8")
+            canonical = "+++\n" + new.strip("\n") + "\n+++\n" + e.body
+            if new != e.front or (not tag and current != canonical):
+                if current != canonical:
+                    write_atomic(e.path, canonical)
+                    done += 1
     print(f"ability_type: {done} entries changed, {untagged} written single-power entries have no printed tag (no key)")
     return 0
 
@@ -1500,9 +1555,17 @@ def self_test() -> int:
     eq(with_ability_type('[fields]\nkind = "class_option"\ngroup = "hex"', "Ex or Sp"), '[fields]\nkind = "class_option"\ngroup = "hex"\nability_type = "Ex or Sp"\n', "ruling 63: a combined tag, a front that ends at group")
     eq(with_ability_type('[fields]\nkind = "class_option"\ngroup = "hex"\n', ""), '[fields]\nkind = "class_option"\ngroup = "hex"\n', "ruling 63: an entry whose print has no tag gets no key")
     eq(with_ability_type('[fields]\nkind = "class_option"\ngroup = "hex"\nability_type = "Ex"\n', ""), '[fields]\nkind = "class_option"\ngroup = "hex"\n', "ruling 63: an unprinted imported tag is removed")
+    eq(with_ability_type('[fields]\nkind = "class_option"\ngroup = "hex"\nability_type = "Ex"\n\n', ""), '[fields]\nkind = "class_option"\ngroup = "hex"\n', "removing a stale tag leaves canonical front matter spacing")
     eq([with_ability_type('[fields]\nkind = "class_option"\ngroup = "hex"\n', x) for x in ("su", " Su", "(Su)", "see text")] == ['[fields]\nkind = "class_option"\ngroup = "hex"\n'] * 4, True, "ruling 63: a value that is no printed tag fails the same rule as the app's")
     eq(with_ability_type('[fields]\nkind = "archetype"\ngroup = "x"\n', "Su"), '[fields]\nkind = "archetype"\ngroup = "x"\n', "ruling 63: only on a class option")
     eq([ability_tag_of(n) for n in ("Foo (su)", "Foo (Su, Sp)", "Foo (Ex, or Sp)", "Foo (Ex/Sp)", "Foo (Ex and Su)")], ["", "Su, Sp", "Ex, or Sp", "", "Ex and Su"], "ruling 63: the separators of the app's rule")
+    eq([ability_tag_of_printed_head(n) for n in ("Blast Bomb* (Ex)", "Blast Bomb (Ex)*", "Blast Bomb (Ex)†", "Blast Bomb (ex)*", "Blast Bomb (Explanatory)*", "Blast Bomb (Ex/Sp)*", "Blast Bomb*")], ["Ex", "Ex", "Ex", "", "", "", ""], "source marks never strip a printed ability tag; malformed near misses stay untagged")
+    eq((ability_tag_for_option("ultimate-combat", "Foo", "Foo (Su)"), ability_tag_for_option("advanced-players-guide", "Foo (Ex)", "Foo")), ("Su", "Ex"), "printed-head tags are scoped to Ultimate Combat and do not change other books")
+    eq(prepend_intro("The power text.", "Printed intro."), "Printed intro.\n\nThe power text.", "a marked-head intro opens the entry")
+    eq(prepend_intro("Printed intro.\n\nThe power text.", "Printed intro."), "Printed intro.\n\nThe power text.", "a marked-head intro is idempotent")
+    eq(prepend_intro("Marked with *\n\nThe power text.", r"Marked with \*"), r"Marked with \*" + "\n\nThe power text.", "a marked-head intro escapes and replaces the unescaped near miss")
+    eq(marked_head_intro("ultimate-combat", "ref/discovery/breath-weapon-bomb").startswith("Discoveries that modify bombs"), True, "the bomb-mark key is scoped to the printed discovery")
+    eq(marked_head_intro("advanced-players-guide", "ref/discovery/breath-weapon-bomb"), "", "a marked-head intro never changes another book")
     eq(with_ability_type('[fields]\nkind = "class_option"\nability_type = "Ex"\n', "Su"), '[fields]\nkind = "class_option"\nability_type = "Ex"\n', "ruling 63: a key that is there stays")
     eq(WRITE_ABILITY_TYPE, True, "ruling 63: the writer is on, the app reads the key")
     eq(outside_rows(multi), ["Details"], "the import rows outside the powers are listed")
