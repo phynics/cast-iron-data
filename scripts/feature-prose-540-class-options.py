@@ -346,7 +346,9 @@ def marked_head_intro(book: str, entry_id: str) -> str:
     """The printed intro sentence for a marked head, read from its book during --compare."""
     text, _ = INTRO_MARK_TEXT.get((book, entry_id.split("/")[1]), INTRO_MARK.get("by", {}).get(entry_id.split("/")[1], ("", 0)))
     text = text.replace("(*)", r"(\*)")
-    return text.replace("’", "'") if book == "ultimate-intrigue" else text
+    if book in {"ultimate-intrigue", "pathfinder-unchained"}:
+        return text.replace("’", "'")
+    return text
 
 
 def marked_head_page(book: str, entry_id: str) -> int:
@@ -602,7 +604,9 @@ def print_match_body(book: str, entry_id: str, body: str) -> str:
 
 
 def pathfinder_unchained_links(entry_id: str, text: str) -> str:
-    """Link references to the book's own Grab evolution instead of the monster-rule ability."""
+    """Keep printed option links, while resolving book-local option names correctly."""
+    if entry_id == "ref/unchevolution/tail-slap":
+        text = re.sub(r"\[tail\]\(ref/unchevolution/tail\)", "tail", text, flags=re.I)
     if entry_id in {"ref/unchevolution/constrict", "ref/unchevolution/swallow-whole"}:
         text = re.sub(r"\[grab\]\(ref/(?:carried/bestiary/rules/universal-monster-rules/)?grab\)",
                       "[grab](ref/unchevolution/grab)", text, flags=re.I)
@@ -682,7 +686,7 @@ def anchor_section(blocks: list, title: str, own: frozenset | set = frozenset(),
     return blocks[at + 1:], False
 
 
-HEADING_FAMILIES = {"evolution"}  # ruling 61
+HEADING_FAMILIES = {"evolution", "unchevolution"}  # ruling 61
 INTRO_MARKS_BOOKS = ("ultimate-magic", "advanced-class-guide", "core-rulebook", "pathfinder-unchained")
 FAMILY_WORDS = (("investigator", "invtalent"), ("slayer", "slayertalent"), ("rage power", "ragepower"), ("bloodrage", "ragepower"), ("discover", "discovery"), ("hex", "shamanhex"), ("deed", "swashdeed"), ("arcana", "arcana"), ("evolution", "evolution"))
 class IntroMarkMap:
@@ -1951,7 +1955,8 @@ def refresh_written_proposal(corpus: Path, book: str, row: dict, original: str) 
     if book == "pathfinder-unchained":
         printed = pathfinder_unchained_links(entry_id, clean_pathfinder_unchained_print(printed))
     printed = class_option_errata(corpus, entry_id, printed)
-    intro = marked_head_intro(book, entry_id) if entry_id in MARKED_HEAD_ENTRIES else ""
+    claims_marked_intro = "opens with print's sentence about the mark" in row["note"]
+    intro = marked_head_intro(book, entry_id) if entry_id in MARKED_HEAD_ENTRIES or claims_marked_intro else ""
     if intro:
         printed = prepend_intro(printed, intro)
         intro_page = marked_head_page(book, entry_id)
@@ -1988,6 +1993,9 @@ def run_headings(args) -> int:
             skipped += 1
             continue
         if gh[0] in e.body:
+            if gh[1] < page and e.page != f"{gh[1]}-{page}":
+                write_atomic(e.path, "+++\n" + with_page(e.front, f"{gh[1]}-{page}").strip("\n") + "\n+++\n" + e.body)
+                done += 1
             continue
         body = "\n" + gh[0] + "\n\n" + e.body.lstrip("\n")
         text = e.path.read_text(encoding="utf-8").replace(e.body, body, 1)
@@ -2102,6 +2110,14 @@ def run_neighbours(args) -> int:
     return 0
 
 
+def existing_unchained_evolution_intro(entry_id: str, body: str) -> str:
+    """Retain the ruling 61 cost sentence when refreshing a written evolution from its option prose."""
+    if entry_id.split("/")[1] != "unchevolution":
+        return ""
+    match = re.match(r"^([1-4]-Point Evolutions: The following evolutions cost [1-4] points? from the eidolon's evolution pool\.)\n\n", body.lstrip("\n"))
+    return match.group(1) if match else ""
+
+
 def run_write(args) -> int:
     """Writes the entries whose rows are all settled, marks their rows `written` (the ledger), and runs the corpus formatter when
     `--checker` is given. An entry that is written has no import row, so a second run changes nothing."""
@@ -2121,7 +2137,17 @@ def run_write(args) -> int:
             proposal = props.get((e.id, mine[0]["anchor"]), "")
             if book == "pathfinder-unchained" and mine[0]["shape"] == "single":
                 # This book's print cleanup may refine a retained written span; use the refreshed proposal on rerun.
+                group_intro = existing_unchained_evolution_intro(e.id, e.body)
                 body = drop_unkeyed_link_marks(e.id, proposal)
+                claims_marked_intro = any("opens with print's sentence about the mark" in r.get("note", "") for r in mine)
+                if claims_marked_intro:
+                    intro = proposal.split("\n\n", 1)[0]
+                    assert re.match(r"^(?:Discoveries|Talents|Tricks|Investigator talents).*marked with .*asterisk", intro), (
+                        f"{e.id}: ledger claims a marked-head intro but proposal lacks it"
+                    )
+                    body = prepend_intro(body, intro)
+                if group_intro:
+                    body = group_intro + "\n\n" + body.lstrip("\n")
                 body = class_option_errata(corpus, e.id, body)
             else:
                 intro = proposal.split("\n\n", 1)[0]
@@ -2137,7 +2163,10 @@ def run_write(args) -> int:
                 body = class_option_errata(corpus, e.id, body)
             front = e.front
             own = [r for r in mine if r["book"] == book]
-            if own and own[0]["page"] and own[0]["page"] != e.page:
+            page_numbers = re.findall(r"\d+", e.page)
+            keeps_intro_range = (e.id.split("/")[1] == "unchevolution" and len(page_numbers) > 1
+                                 and own and own[0]["page"] == page_numbers[-1])
+            if own and own[0]["page"] and own[0]["page"] != e.page and not keeps_intro_range:
                 front = with_page(front, own[0]["page"])
             if body != e.body or front != e.front:
                 write_atomic(e.path, "+++\n" + front.strip("\n") + "\n+++\n" + body)
@@ -2413,6 +2442,8 @@ def self_test() -> int:
     eq(pathfinder_unchained_links("ref/unchevolution/swallow-whole",
        "using the [grab](ref/carried/bestiary/rules/universal-monster-rules/grab) ability"),
        "using the [grab](ref/unchevolution/grab) ability", "an evolution named in print links to the Unchained evolution")
+    eq(pathfinder_unchained_links("ref/unchevolution/tail-slap", "use its [tail](ref/unchevolution/tail) to strike"),
+       "use its tail to strike", "a body-part tail is not linked to the Tail evolution")
     eq(clean_core_rulebook_print("ref/performance/fascinate", "takes a -4 penalty"), "takes a –4 penalty",
        "CRB Fascinate preserves print's en dash")
     eq(core_rulebook_links("ref/performance/soothing-performance", "removes fatigued, sickened, and shaken."),
@@ -2719,7 +2750,11 @@ def self_test() -> int:
     eq(apply_multi_decisions([{"anchor": "other", "status": "print", "note": ""}], "ref/x/multi")[0]["status"], "print",
        "a multi-power decision does not hold a different anchor")
     DECISIONS.clear()
-    eq(HEADING_FAMILIES, {"evolution"}, "the group-heading rule is on with the per-book map")
+    eq(HEADING_FAMILIES, {"evolution", "unchevolution"}, "evolution and Unchained evolution group-heading rules are enabled")
+    eq(existing_unchained_evolution_intro("ref/unchevolution/ability-increase", "1-Point Evolutions: The following evolutions cost 1 point from the eidolon's evolution pool.\n\nPower."),
+       "1-Point Evolutions: The following evolutions cost 1 point from the eidolon's evolution pool.", "written evolution refresh keeps its ruling 61 sentence")
+    eq(existing_unchained_evolution_intro("ref/talent/ability", "1-Point Evolutions: The following evolutions cost 1 point from the eidolon's evolution pool.\n\nPower."),
+       "", "evolution group intro preservation is family-scoped")
     # an import label row inside a power's span is part of the draft: print without it holds, print with it agrees (never dropped silently)
     inner = "**Gift (Su)**\n\n**Ability:** A gift of sight.\n\n**Details:** Gorum guards it.\n"
     _, ff = fp.parse_import(inner, set())
