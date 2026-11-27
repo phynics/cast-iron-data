@@ -135,32 +135,62 @@ def install_split(names: list[str]) -> None:
         fp.split_print = wrapped
 
 
+def reviewed_spans(corpus: Path) -> dict[tuple[str, str], str]:
+    """The 423 hand replacements of #537 as (entry id, span hash) -> print reference: print-reviewed text in row form. A power whose
+    current span still hashes to a resolution's `span_sha256` has a reviewed source; its verdict is `reviewed-537`, and the wording is
+    print's (a resolution never overrides the print compare)."""
+    out: dict[tuple[str, str], str] = {}
+    for r in rw.load_resolutions(corpus / rw.RESOLUTIONS_FILE).values():
+        out[(r.id, r.span_sha256)] = r.print                                                    # the span as the import had it
+        out[(r.id, hashlib.sha256(rw.resolution_power_text(r).encode()).hexdigest())] = r.print   # the span once the resolution is applied (the corpus today)
+    return out
+
+
+REVIEWED: dict[tuple[str, str], str] = {}
+
+
+def powers_of(e) -> list[tuple[str, str]]:
+    """The powers of an entry as (name, span hash): the candidates of `rewrite-class-option-powers.py` (a bold name that stands over
+    import rows), in body order, with its hash of the span. A bold name over other rows (Deities, Bonus Spells) is no power."""
+    blocks = rw.parse_blocks(e.body.split("\n"))
+    return [(re.sub(r":$", "", c.name), rw.span_sha(blocks[c.start:c.end])) for c in rw.candidates(blocks, True)]
+
+
 def compare_one(e, book, bk) -> list[dict]:
-    """The rows of one entry: one per import power, from the shared print comparison of the archetype pass."""
+    """The rows of one entry: one per power, from the shared print comparison of the archetype pass."""
     shape, n = shape_of(e.body)
     base = {"entry": e.id, "shape": shape, "page": e.page, "span": "", "note": ""}
+    powers = powers_of(e)
     _, feats = fp.parse_import(e.body, set())
+    by_name: dict[str, list] = {}
+    for f in feats:
+        by_name.setdefault(re.sub(r":$", "", f.name), []).append(f)
     if not e.page.isdigit():
-        return [dict(base, feature=f.name, anchor=fp.anchor_of(f.name), verdict="nopage", status="hold", level_import="", level="",
-                     note="no page is cited", span_sha256=f.span_sha()) for f in feats]
+        return [dict(base, feature=n_, anchor=fp.anchor_of(n_), verdict="nopage", status="hold", level_import="", level="",
+                     note="no page is cited", span_sha256=sha) for n_, sha in powers]
     page = int(e.page)
     last = page + (3 if shape == "multi" else 1)
     blocks = fp.read_blocks(bk, max(1, page + fp.PAGE_OFFSET[0] - 1), min(last + fp.PAGE_OFFSET[0], max(bk.pages)))
     section = [fp.Para("title", [(e.title, True, False)], page, 0, 20)] + blocks
     res = fp.compare_entry(e, section, bk)
     by_span = {r["span"]: r for r in res["rows"] if r["span"]}
-    rows = []
-    for f in feats:
-        r = by_span.get(f.span_sha())
+    rows, seen = [], Counter()
+    for name, sha in powers:
+        seen[name] += 1
+        f = by_name.get(name, [None] * seen[name])[seen[name] - 1] if name in by_name else None
+        r = by_span.get(f.span_sha()) if f is not None else None
         if r is None:
-            rows.append(dict(base, feature=f.name, anchor=fp.anchor_of(f.name), verdict="missing-head", status="hold", level_import="",
-                             level="", note="head not printed on the cited page and the next ones", span_sha256=f.span_sha(), print=""))
+            rows.append(dict(base, feature=name, anchor=fp.anchor_of(name), verdict="missing-head", status="hold", level_import="",
+                             level="", note="head not printed on the cited page and the next ones", span_sha256=sha, print=""))
             continue
         verdict = {"draft": "agree", "print": "differ", "hold": "hold"}[r["status"]]
-        notes = "; ".join(n for n in r["notes"] if n)[:300]
-        rows.append(dict(base, feature=f.name, anchor=r["anchor"], verdict=verdict, status=r["status"],
+        if (e.id, sha) in REVIEWED:
+            verdict = "reviewed-537" if verdict != "hold" else "hold"          # a hold stays a hold: the resolution is a source, not an answer
+        note_r = f"resolution of #537: {REVIEWED[(e.id, sha)]}" if (e.id, sha) in REVIEWED else ""
+        notes = "; ".join([n_ for n_ in r["notes"] if n_] + ([note_r] if note_r else []))[:300]
+        rows.append(dict(base, feature=name, anchor=r["anchor"], verdict=verdict, status=r["status"],
                          level_import=r["level_import"] if r["level_import"] is not None else "",
-                         level=level_of(r["print"]) or "", note=notes, span_sha256=f.span_sha(), print=r["print"]))
+                         level=level_of(r["print"]) or "", note=notes, span_sha256=sha, print=r["print"]))
     return rows
 
 
@@ -181,6 +211,7 @@ def run_compare(args) -> int:
             for f in fp.parse_import(x.body, set())[1]:
                 names += [f.name, fp.tail_name(f.name)]
     install_split(names)
+    REVIEWED.update(reviewed_spans(corpus))
     entries = [x for x in everything if not families or x.id.split("/")[1] in families]
     cen = census(entries)
     rows, props = [], {}
@@ -203,7 +234,9 @@ def report(rows: list[dict], cen: dict) -> str:
     for r in rows:
         per_entry.setdefault(r["entry"], []).append(r)
     held = sum(1 for rs in per_entry.values() if any(r["status"] == "hold" for r in rs))
-    lines = [f"entries: {cen['single']} single-power, {cen['multi']} multi-power, {cen['none']} without import rows (out of the rewrite)",
+    reach = sum(1 for r in rows if "resolution of #537" in r.get("note", ""))
+    lines = [f"resolutions of #537 that reach these powers: {reach}",
+             f"entries: {cen['single']} single-power, {cen['multi']} multi-power, {cen['none']} without import rows (out of the rewrite)",
              f"powers: {len(rows)}; verdicts: " + ", ".join(f"{k} {v}" for k, v in sorted(verdicts.items())),
              f"entries with a hold: {held} of {len(per_entry)}"]
     if cen["none"]:
@@ -336,8 +369,7 @@ def run_check(args) -> int:
                 pending += 1                  # a part of the book that no batch has compared yet: reported, not an error
                 continue
             have = {r["span_sha256"] for r in mine}
-            _, feats = fp.parse_import(e.body, set())
-            if have != {f.span_sha() for f in feats}:
+            if have != {sha for _, sha in powers_of(e)}:
                 errors.append(f"{eid}: the table is stale (the spans of the import rows changed)")
         print(f"{book}: {len(entries)} class options: {cen['single']} single-power and {cen['multi']} multi-power not converted, "
               f"{cen['none']} without import rows (reported, not rewritten); {pending} with import rows not compared yet")
@@ -390,6 +422,9 @@ def self_test() -> int:
     front = 'id = "ref/mystery/battle"\n[fields]\nkind = "class_option"\ngroup = "oracle-mystery"\n'
     eq(features_front(front, feats).split("\n")[4:8], ["features = [", '  { anchor = "battlecry" },', '  { anchor = "clarity", level = 7 },', "]"],
        "`features` follow `group`")
+    rows = [{"entry": "ref/x/a", "verdict": "agree", "status": "draft", "note": ""}, {"entry": "ref/x/b", "verdict": "hold", "status": "hold", "note": "resolution of #537: Book p. 1"}]
+    out = report(rows, {"single": 2, "multi": 0, "none": 1, "none_by_family": Counter({"talent": 1})})
+    eq("entries with a hold: 1 of 2" in out and "reach these powers: 1" in out and "talent 1" in out, True, "the report counts holds, resolutions and the options without import rows")
     eq(level_of("At 7th level, a reroll."), 7, "the level of a printed lead")
     eq(level_of("Once per day, a reroll."), None, "no printed lead, no level")
     for line in bad:
