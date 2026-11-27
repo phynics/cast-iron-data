@@ -5942,6 +5942,10 @@ LEVEL_FROM_PRINT.update({
     ("ref/arc-skald/boaster", "rage-power"): (4, "does not gain this ability until 4th level"),
     ("ref/arc-bard/animal-speaker", "nature-s-speaker"): (5, "At 5th, 11th, and 17th level, the animal speaker selects another kind of animal friend"),
 })
+# Dragon Drinker (Dragonslayer's Handbook p. 22): Bleeding Spells replaces the bloodline arcana, a whole 1st-level sorcerer feature, so it gets
+# level 1 (owner review of #360 under rulings 35, 48, 50 and 57); its trade names the 1st level so that the lookup finds the feature
+LEVEL_FROM_PRINT[("ref/arc-sorcerer/dragon-drinker", "bleeding-spells")] = (1, "review of #360: replaces the bloodline arcana, a whole 1st-level class feature (rulings 35, 48, 50, 57)")
+TRADE_LEVELS[("ref/arc-sorcerer/dragon-drinker", "Bloodline arcana")] = [1]
 LEVEL_NONE.add(("ref/arc-sorcerer/wishcrafter", "wishbound-arcana"))      # it replaces the bloodline arcana, a part of the bloodline (ruling 48)
 # Diminished Spellcasting alters the whole spellcasting of the class, a 1st-level class feature (owner ruling 50; the corpus was split 7/7 on it)
 LEVEL_FROM_PRINT.update({(f"ref/arc-{e}", "diminished-spellcasting"): (1, "ruling 50: alters the whole spellcasting, a 1st-level class feature") for e in (
