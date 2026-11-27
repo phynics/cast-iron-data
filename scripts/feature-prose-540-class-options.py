@@ -313,6 +313,9 @@ INTRO_MARK_SPECS = {
         "talent": ("Talents marked with an asterisk", "sneak attack"),
         "ninjatrick": ("Tricks marked with an asterisk", "sneak attack"),
     },
+    "ultimate-intrigue": {
+        "vigtalent": ("marked with an asterisk", "hidden strike"),
+    },
 }
 INTRO_MARK_TEXT: dict[tuple[str, str], tuple[str, int]] = {}
 MARKED_HEAD_ENTRIES: set[str] = set()
@@ -441,6 +444,26 @@ def place_links(text: str, links: list[tuple[str, str]]) -> tuple[str, list[str]
             if not any(a_ <= m.start() < b_ for a_, b_ in spans):
                 text = text[:m.start()] + f"[{m.group(1)}]({target})" + text[m.end():]
     return text, lost
+
+
+def link_intrigue_class_prerequisites(text: str) -> str:
+    """Link printed vigilante and specialization prerequisites to their class entries."""
+    out = []
+    for match in re.finditer(r"[^.!?]*[.!?]?", text):
+        sentence = match.group(0)
+        if re.search(r"\bonly an? stalker vigilante\b", sentence, re.I) and re.search(r"\bcan select this talent\b", sentence, re.I):
+            sentence = re.sub(r"\bstalker vigilante\b", "[stalker vigilante](ref/class/vigilante#stalker)", sentence, count=1, flags=re.I)
+        elif re.search(r"\bonly an? avenger vigilante\b", sentence, re.I) and re.search(r"\bcan select this talent\b", sentence, re.I):
+            sentence = re.sub(r"\bavenger vigilante\b", "[avenger vigilante](ref/class/vigilante#avenger)", sentence, count=1, flags=re.I)
+        elif re.search(r"\ba vigilante must\b", sentence, re.I):
+            sentence = re.sub(r"\bvigilante\b", "[vigilante](ref/class/vigilante)", sentence, count=1, flags=re.I)
+        out.append(sentence)
+    return "".join(out)
+
+
+def repair_intrigue_italic_link_boundary(text: str) -> str:
+    """Keep the printed comma inside an italic spell name after its link is placed (Another Day, p. 13)."""
+    return re.sub(r"(\]\([^)]*\))_, __ (a caster level check)", r"\1,_ \2", text)
 
 
 STOP_TITLES: set[str] = set()          # squash of the title of every class option: another one ends a section
@@ -626,6 +649,23 @@ def fence(rows: list[dict], shape: str) -> list[dict]:
     return rows
 
 
+def apply_multi_decisions(rows: list[dict], entry_id: str) -> list[dict]:
+    """Apply explicit hold decisions after section rows have been added to a multi-power entry."""
+    for row in rows:
+        decision = DECISIONS.get((entry_id, row.get("anchor", "")))
+        if decision and decision[0] == "hold":
+            row["status"] = "hold"
+            marker = f"held by decision: {decision[1]}"
+            if marker not in row.get("note", ""):
+                row["note"] = "; ".join(x for x in (row.get("note", ""), marker) if x)
+    return rows
+
+
+def print_decision_resolves(decision, status: str, source_status: str, problems: list[str], hard: bool) -> bool:
+    """A print decision resolves a comparison hold only when no independent blocker remains."""
+    return bool(decision and decision[0] == "print" and status == "hold" and (source_status in SETTLED or source_status == "hold") and not problems and not hard)
+
+
 def headings_as_names(body: str) -> str:
     """The body with each Markdown heading as a bold name (`### Order Abilities` as `**Order Abilities**`), so that the print comparison reads
     it as a feature of its own."""
@@ -783,10 +823,10 @@ def compare_one(e, book, bk, other=None) -> list[dict]:
         notes = [n_ for n_ in r["notes"] if n_] + ([note_r] if note_r else []) + notes_tag
         status, printed = r["status"], r["print"]
         if notes_tag:
-            status, hard_tag = "hold", True
+            status = "hold"
         anchor = pr[1] if pr else r["anchor"]
         anchors_seen[anchor] += 1
-        hard = bool(notes_tag)                          # a hold that no decision lifts: it is a fact of the entry, not a difference with print
+        hard = False                                    # an explicit print decision may settle a tag difference under ruling 63
         if anchors_seen[anchor] > 1 or (anchor in taken and not pr):
             notes.append(f"anchor collision: {anchor}")
             status, hard = "hold", True
@@ -822,6 +862,9 @@ def compare_one(e, book, bk, other=None) -> list[dict]:
                 common["page"] = f"{intro_page}-{page}"
         if shape == "single":
             printed, lost = place_links(printed, plinks)
+            if book == "ultimate-intrigue":
+                printed = link_intrigue_class_prerequisites(printed)
+                printed = repair_intrigue_italic_link_boundary(printed)
             common["links_lost"] = "|".join(lost)
             printed = drop_unkeyed_link_marks(e.id, printed)
         if shape == "single" and e.id.split("/")[1] in HEADING_FAMILIES:
@@ -837,7 +880,7 @@ def compare_one(e, book, bk, other=None) -> list[dict]:
                 if gh[1] < page:
                     common["page"] = f"{gh[1]}-{page}"           # the sentence is on the page before: the entry cites both (ruling 61)
         decided = DECISIONS.get((e.id, anchor))
-        if decided and decided[0] == "print" and status == "hold" and r["status"] == "hold" and not problems and not hard:
+        if print_decision_resolves(decided, status, r["status"], problems, hard):
             status = "print"
             notes.append(f"decision: {decided[1]}")
         elif decided and decided[0] == "hold":
@@ -850,6 +893,7 @@ def compare_one(e, book, bk, other=None) -> list[dict]:
                          print_sha256=hashlib.sha256(printed.encode()).hexdigest()))
     if shape == "multi":
         rows = add_sections(e0, rows, res, feats, powers, by_name, base, book, problems, anchors_seen, variants)
+        rows = apply_multi_decisions(rows, e0.id)
     return fence(rows, shape)
 
 
@@ -1575,6 +1619,14 @@ def self_test() -> int:
     DECISIONS[("ref/x/y", "z")] = ("hold", "an errata check")
     DECISIONS[("ref/x/y", "w")] = ("print", "settled")
     eq((DECISIONS[("ref/x/y", "z")][0], DECISIONS[("ref/x/y", "w")][0]), ("hold", "print"), "a decision is a hold or print")
+    eq(print_decision_resolves(("print", "printed tag"), "hold", "hold", [], False), True,
+       "ruling 63: an explicit print decision can use the printed tag")
+    eq(print_decision_resolves(("print", "printed tag"), "hold", "draft", [], False), True,
+       "ruling 63: a tag-only hold can settle an otherwise matching draft")
+    eq(print_decision_resolves(("print", "printed tag"), "hold", "hold", [], True), False,
+       "a print decision cannot clear an independent hard blocker")
+    eq(print_decision_resolves(("print", "printed tag"), "hold", "hold", ["number difference"], False), False,
+       "a print decision cannot clear a number difference")
     DECISIONS.clear()
     eq((title_as_head(fp.Para("title", [("Table 2\u20139: Eidolon Base Statistics", True, False)], 59, 0, 18)).runs[0][1],
         title_as_head(fp.Para("title", [("2-Point Evolutions", True, False)], 61, 0, 18)).runs[0][1]), (False, True),
@@ -1701,6 +1753,14 @@ def self_test() -> int:
         marker, prefer = INTRO_MARK_SPECS["ultimate-combat"][family]
         discovered = IntroMarkMap(uc_book(expected), marker, prefer)
         eq(discovered.text, expected, f"Ultimate Combat {family} marked-head intro equals the printed text word for word")
+    ui_sentence = ("A stalker vigilante can apply only one talent marked with an asterisk (*) to a given hidden strike, and only when that hidden strike is dealt against a foe that is unaware of the stalker vigilante’s presence (or who considers him an ally), unless otherwise noted.")
+    ui_intro = fp.Book({"30": 13}, {1: [(200, 108, 30, ui_sentence, 300)]}, {1: 13}, set())
+    ui_marker, ui_prefer = INTRO_MARK_SPECS["ultimate-intrigue"]["vigtalent"]
+    eq((IntroMarkMap(ui_intro, ui_marker, ui_prefer).text, IntroMarkMap(ui_intro, ui_marker, ui_prefer).page),
+       (ui_sentence, 13), "Ultimate Intrigue p. 13: the marked-talent intro is extracted word for word")
+    ui_near_miss = fp.Book({"30": 13}, {1: [(200, 108, 30, "An unmarked with an asterisk phrase is not a mark rule.", 300)]}, {1: 13}, set())
+    eq((IntroMarkMap(ui_near_miss, ui_marker, ui_prefer).text, IntroMarkMap(ui_near_miss, ui_marker, ui_prefer).page),
+       ("", 0), "the Ultimate Intrigue intro matcher rejects a near miss inside unmarked")
     STOP_TITLES.clear()
     STOP_TITLES.update({"aquatic", "boreal", "deepearth"})
     ab = [P("title", [("Aquatic", True, False)], 136, 0, 18), P("para", [("Dehydrating Touch (Sp)", True, False), (": A touch.", False, False)], 136, 0),
@@ -1726,6 +1786,15 @@ def self_test() -> int:
     eq([r["status"] for r in fence([dict(r) for r in mr], "single")], ["print", "draft"], "the fence leaves a single power")
     eq(fence([dict(mr[0])], "multi")[0]["note"], "multi-power window not anchored yet", "the fence says why")
     globals()["MULTI_FENCE"] = False
+    DECISIONS.clear()
+    DECISIONS[("ref/x/multi", "power")] = ("hold", "multi-power: separate reviewed batch")
+    md = apply_multi_decisions([{"anchor": "power", "status": "print", "note": "printed"}, {"anchor": "power", "status": "draft", "note": ""}], "ref/x/multi")
+    eq([(x["status"], x["note"]) for x in md], [("hold", "printed; held by decision: multi-power: separate reviewed batch"),
+                                                   ("hold", "held by decision: multi-power: separate reviewed batch")],
+       "a multi-power hold applies to added rows with the same anchor")
+    eq(apply_multi_decisions([{"anchor": "other", "status": "print", "note": ""}], "ref/x/multi")[0]["status"], "print",
+       "a multi-power decision does not hold a different anchor")
+    DECISIONS.clear()
     eq(HEADING_FAMILIES, {"evolution"}, "the group-heading rule is on with the per-book map")
     # an import label row inside a power's span is part of the draft: print without it holds, print with it agrees (never dropped silently)
     inner = "**Gift (Su)**\n\n**Ability:** A gift of sight.\n\n**Details:** Gorum guards it.\n"
@@ -1844,6 +1913,24 @@ def self_test() -> int:
        "It has a [tail slap attack](ref/umr/natural-attacks). It needs the [tail](ref/evolution/tail) evolution to take this evolution.", "a link of another rule stays")
     eq(place_links("It has [claws](ref/evolution/claws).", [("claws", "ref/evolution/claws"), ("tail", "ref/evolution/tail")]),
        ("It has [claws](ref/evolution/claws).", ["tail"]), "ruling 60: an item that stands nowhere is reported")
+    eq(link_intrigue_class_prerequisites("Only a stalker vigilante can select this talent."),
+       "Only a [stalker vigilante](ref/class/vigilante#stalker) can select this talent.",
+       "Ultimate Intrigue: a printed specialization prerequisite links to that specialization")
+    eq(link_intrigue_class_prerequisites("Only an avenger vigilante can select this talent."),
+       "Only an [avenger vigilante](ref/class/vigilante#avenger) can select this talent.",
+       "Ultimate Intrigue: the other printed specialization prerequisite links to its specialization")
+    eq(link_intrigue_class_prerequisites("A vigilante must be at least 3rd level."),
+       "A [vigilante](ref/class/vigilante) must be at least 3rd level.",
+       "Ultimate Intrigue: a printed level prerequisite links to the class")
+    eq(link_intrigue_class_prerequisites("A stalker vigilante can use this ability."),
+       "A stalker vigilante can use this ability.",
+       "Ultimate Intrigue: an ordinary class reference is not treated as a prerequisite")
+    eq(repair_intrigue_italic_link_boundary("_[deathwatch](ref/spell/deathwatch)_, __ a caster level check"),
+       "_[deathwatch](ref/spell/deathwatch),_ a caster level check",
+       "Ultimate Intrigue: a link does not split the printed italic comma")
+    eq(repair_intrigue_italic_link_boundary("_[deathwatch](ref/spell/deathwatch)_, __ not a caster level check"),
+       "_[deathwatch](ref/spell/deathwatch)_, __ not a caster level check",
+       "Ultimate Intrigue: italic repair does not rewrite unrelated text")
     for line in bad:
         print("FAIL", line)
     print(f"self-test: {ok} checks passed" if not bad else f"self-test: {len(bad)} failures")

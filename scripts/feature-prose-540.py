@@ -1783,6 +1783,7 @@ def head_of_para(p: Para) -> str | None:
 # Only a mark (`*`, `†`, `‡`) is a source mark: "(Su)" before a colon is the ability tag and stays.
 SOURCE_MARK_TAIL = re.compile(r"^\s*[\*†‡]+\s*(?=(?:\([^()]+\)\s*)?:)")
 SOURCE_MARK_END = re.compile(r"[\*†‡]+(?=\s*(?:\([^()]+\))?\s*$)")
+SOURCE_MARK_BEFORE_TAG = re.compile(r"[\*†‡]+(?=\s*\((?:Ex|Su|Sp)\b)")
 
 
 def split_print(section: list[Para], expected: list[str]) -> tuple[list[list], list[PrintFeature]]:
@@ -1799,6 +1800,10 @@ def split_print(section: list[Para], expected: list[str]) -> tuple[list[list], l
         if cand:
             head, rest, bold = cand
             marked = False
+            if SOURCE_MARK_BEFORE_TAG.search(head):
+                head = SOURCE_MARK_BEFORE_TAG.sub("", head)
+                cand = (head, rest, bold)
+                marked = True
             if SOURCE_MARK_END.search(head):
                 head = SOURCE_MARK_END.sub("", head).rstrip()      # "Plague Bomb (Su)*:" (the mark is inside the italic run, Ultimate Magic p. 16)
                 cand = (head, rest, bold)
@@ -6475,6 +6480,10 @@ def self_test() -> int:
     eq([(f.head, f.marked) for f in _ftm], [("Bomb (Su)", True), ("Claw (Ex)", False), ("Plain", True),
                                            ("Bleeding Attack (Ex)", True), ("Plain (Ex)", False)],
        "a source mark on a head is dropped and recorded; an ability tag is never a mark")
+    _opm, _ftm = split_print([_secm[0], Para("para", [("Trick* (Ex)", True, False), (": text", False, False)], "1", 0)], ["Trick (Ex)"])
+    eq([(f.head, f.marked) for f in _ftm], [("Trick (Ex)", True)], "an asterisk before a printed ability tag is a source mark and the tag stays")
+    _opm, _ftm = split_print([_secm[0], Para("para", [("Trick* (Extra)", True, False), (": text", False, False)], "1", 0)], ["Trick* (Extra)"])
+    eq([(f.head, f.marked) for f in _ftm], [("Trick* (Extra)", False)], "an asterisk before a non-ability parenthesis is not stripped as a source mark")
     _opm, _ftm = split_print([_secm[0], Para("para", [("Bomb (Su)", False, True), ("*: a mark outside the italic", False, False)], "1", 0)], ["Bomb (Su)"])
     eq([(f.head, f.marked) for f in _ftm], [("Bomb (Su)", True)], "a mark between the head and its colon is dropped too")
     _opm, _ftm = split_print([_secm[0], Para("para", [("Confounding Blades", False, True), ("* (Ex): text", False, False)], "1", 0)], ["Confounding Blades (Ex)"])
