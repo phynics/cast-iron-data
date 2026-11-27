@@ -3304,6 +3304,11 @@ def compare_entry(e: Entry, section: list[Para], book: Book) -> dict:
     probe = {namekey(h) for h in [head_of_para(p) for p in section[1:]] if h}
     opening_imp, feats = parse_import(e.body, probe)
     names = [f.name for f in feats]
+    # a subtitle set in a box over the introduction ("Focused Performance" over "Bards who have successfully mastered ...") is no head of its own
+    if IGNORED_SUBTITLES.get(e.id):
+        kept = Section([p for p in section if not (p.kind == "para" and squash(p.plain()) in IGNORED_SUBTITLES[e.id] and p is not section[0])])
+        kept.end, kept.end_known = getattr(section, "end", None), getattr(section, "end_known", True)
+        section = kept
     opening_print, pfeats = split_print(section, plain_names + [tail_name(n) for n in names] + ITALIC_HEADS.get(e.id, []))
     ERRATA_CTX["used"] -= {u for u in ERRATA_CTX["used"] if u[0] == e.id}
     for pf in pfeats:
@@ -4686,6 +4691,7 @@ def finalize(e: Entry, res: dict, class_cache: dict | None = None) -> dict:
 # The title that print sets over an archetype whose corpus title differs: a misspelling of the corpus title, kept until the owner decides (#540,
 # batch of 2026-11-26: "Aquakinetcist" for "Aquakineticist", Aquatic Adventures p. 50). The entry's title and id stay as they are.
 PRINT_TITLES = {
+    "ref/arc-bard/pitax-academy-of-grand-arts": "The Academy of Grand Arts",      # the box of the Pitax page (Guide to the River Kingdoms p. 40)
     "ref/arc-kineticist/aquakinetcist": "Aquakineticist",
 }
 
@@ -6593,6 +6599,7 @@ MISPRINTS.extend([
     ("ref/arc-bard/luring-piper", "using the lurid piper's bard level", "using the luring piper's bard level",
      "the archetype is the luring piper; \"lurid piper\" is a wrong proper name (Monster Hunter's Handbook p. 11; owner ruling 43)"),
 ])
+IGNORED_SUBTITLES = {"ref/arc-bard/pitax-academy-of-grand-arts": ("focusedperformance",)}
 # Italic heads that the print sets as the options of a feature and that the import lacks (an italic head is a head only when the entry expects its name)
 ITALIC_HEADS = {
     "ref/arc-summoner/wild-caller-hotw": ["Base Form", "Cactus (desert)", "Conifer (forest, mountain)", "Mushroom (swamp, underground)", "Tree (forest, jungle, swamp)"],
