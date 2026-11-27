@@ -198,6 +198,11 @@ print = "When you cast an evocation spell that does acid, cold, electricity, or 
 
 [[entry]]
 id = "ref/arcaneschool/water"
+anchor = "elemental-manipulation"
+print = "At 8th level, you can emit a 30-foot aura that transforms magical energy. Choose an energy type from acid, cold, electricity, and fire, and a second type to transform it into. Any magical source of energy of this type with a caster level equal to or less than your wizard level is altered to the chosen energy type. This includes supernatural effects from creatures with Hit Dice no greater than your caster level. For example, you could transform a white dragon's frigid breath weapon (a supernatural ability), but not a fire elemental's fiery touch (an extraordinary ability). If an effect lies only partially within your aura, only the portions within the aura are transformed. You can use this ability for a number of rounds per day equal to your wizard level. The rounds do not need to be consecutive."
+
+[[entry]]
+id = "ref/arcaneschool/water"
 anchor = "freezing-shards"
 print = "As a standard action, you can cause shards of ice to burst forth from the ground around you. The shards deal 1d4 points of piercing damage and 1d6 points of cold damage + 1 point for every 2 wizard levels you have to all creatures within 5 feet of you. A successful Reflex save (DC = 10 + [half](ref/misc/fractions-and-rounding) your wizard level + your Intelligence modifier) negates the piercing damage and halves the cold damage. The shards remain until the beginning of your next turn; during this time, the area is [difficult terrain](ref/rule/terrain-and-obstacles). You are not affected by your own freezing shards and can move through the area normally. You can use this ability a number of times per day equal to 3 + your Intelligence modifier."
 
@@ -256,7 +261,7 @@ print = "The alchemist can place a bomb so that it explodes a number of rounds a
 [[entry]]
 id = "ref/discovery/dilution"
 anchor = "dilution"
-print = "Once per day, the alchemist can dilute any one potion or elixir, creating two doses of the same potion from one. Diluting a potion costs a number of gp equal to one-quarter of the potion's market value. A potion that has been diluted cannot be diluted again."
+print = "Once per day, the alchemist can dilute any one potion or elixir, creating two doses of the same potion from one. Diluting a potion costs a number of gp equal to one-quarter of the potion's market value. A potion that has been diluted cannot be diluted again. This discovery cannot be used to dilute extracts or mutagens. An alchemist must be at least 12th level before selecting this discovery."
 
 [[entry]]
 id = "ref/discovery/dispelling-bomb"
@@ -296,7 +301,7 @@ print = "A number of times per day equal to his Intelligence modifier, the alche
 [[entry]]
 id = "ref/discovery/fast-bombs"
 anchor = "fast-bombs"
-print = "An alchemist with this discovery can quickly create enough bombs to throw more than one in a single round. The alchemist can prepare and throw additional bombs as a full-round action if his base attack bonus is high enough to grant him additional attacks. This functions just like a full-attack with a"
+print = "An alchemist with this discovery can quickly create enough bombs to throw more than one in a single round. The alchemist can prepare and throw additional bombs as a full-round action if his base attack bonus is high enough to grant him additional attacks. This functions just like a full-attack with a ranged weapon. An alchemist must be at least 8th level before selecting this discovery."
 
 [[entry]]
 id = "ref/discovery/fast-healing"
@@ -801,7 +806,7 @@ anchor = "spell-resistance"
 print = '''
 4-Point Evolutions: The following evolutions cost 4 points from the eidolon's evolution pool.
 
-An eidolon is protected against magic, gaining spell resistance. The eidolon's spell resistance is equal to 11 + the summoner's level. This spell'''
+An eidolon is protected against magic, gaining spell resistance. The eidolon's spell resistance is equal to 11 + the summoner's level. This spell resistance does not apply to spells cast by the summoner. The summoner must be at least 9th level before selecting this evolution.'''
 
 [[entry]]
 id = "ref/evolution/sting"
@@ -1256,7 +1261,47 @@ print = "Whenever a creature takes damage from one of your spells or effects tha
 [[entry]]
 id = "ref/mystery/bones"
 anchor = "death-s-touch"
-print = "You can cause terrible wounds to appear on a creature with a melee touch attack. This attack deals 1d6 points of negative energy damage +1 point for every two oracle levels you possess. If used against an"
+print = "You can cause terrible wounds to appear on a creature with a melee touch attack. This attack deals 1d6 points of negative energy damage +1 point for every two oracle levels you possess. If used against an undead creature, it heals damage and grants a +2 [channel resistance](ref/rule/channel-resistance) for 1 minute. You can use this ability a number of times per day equal to 3 + your Charisma modifier."
+
+[[entry]]
+id = "ref/mystery/bones"
+anchor = "near-death"
+print = "You gain a +2 insight bonus on saves against diseases, mind-affecting effects, and poisons. At 7th level, this bonus also applies on saves against death effects, sleep effects, and stunning. At 11th level, the bonus increases to +4."
+
+[[entry]]
+id = "ref/mystery/bones"
+anchor = "raise-the-dead"
+print = "As a standard action, you can summon a single [skeleton](ref/template/skeleton) or [zombie](ref/template/zombie) to serve you. The undead creature has a number of Hit Dice equal to your oracle level. It remains for a number of rounds equal to your Charisma modifier. At 7th level, you can summon a bloody skeleton or fast zombie. At 15th level, you can summon an [advanced](ref/template/advanced) skeleton or zombie. You can use this ability once per day plus one additional time per day at 10th level."
+
+[[entry]]
+id = "ref/mystery/bones"
+anchor = "resist-life"
+print = "You are treated as an undead creature when you are targeted by positive or negative energy. You are not subject to [Turn Undead](ref/feat/turn-undead) or [Command Undead](ref/feat/command-undead) (or any other effect that specifically targets undead), unless you are actually an undead creature. At 7th level, you receive [channel resistance](ref/rule/channel-resistance) +2. This bonus increases by +2 at 11th and 15th level."
+
+[[entry]]
+id = "ref/mystery/bones"
+anchor = "soul-siphon"
+print = "As a ranged touch attack, you can unleash a ray that causes a target to gain one [negative level](ref/rule/energy-drain-and-negative-levels). The ray has a range of 30 feet. This negative level lasts for a number of minutes equal to your Charisma modifier. Whenever this ability gives a target a negative level, you heal a number of hit points equal to your oracle level. You can use this ability once per day, plus one additional time at 11th level and every four levels thereafter. You must be at least 7th level to select this revelation."
+
+[[entry]]
+id = "ref/mystery/bones"
+anchor = "spirit-walk"
+print = "As a standard action, you can become incorporeal and invisible. While in this form, you can move in any direction and through any object (except for those made of force). You can take no action other than to move while in this form. You remain in this form for a number of rounds equal to your oracle level, but you can end this effect prematurely with a standard action. You can use this ability once per day at 11th level, and twice per day at 15th level. You must be at least 11th level to select this revelation."
+
+[[entry]]
+id = "ref/mystery/bones"
+anchor = "undead-servitude"
+print = "You gain Command Undead as a bonus feat. You can [channel negative energy](ref/ability/channel-energy) a number of times per day equal to 3 + your Charisma modifier, but only to use Command Undead. You can take other feats to add to this ability, such as Improved Channeling, but not feats that alter this ability, such as [Alignment Channel](ref/feat/alignment-channel)."
+
+[[entry]]
+id = "ref/mystery/bones"
+anchor = "voice-of-the-grave"
+print = "You can _[speak with dead](ref/spell/speak-with-dead)_, as per the spell, for a number of rounds per day equal to your oracle level. These rounds do not need to be consecutive. At 5th level, and every five levels thereafter, the dead creature takes a cumulative -2 penalty on its Will save to resist this effect."
+
+[[entry]]
+id = "ref/mystery/bones"
+anchor = "sec-final-revelation"
+print = "Upon reaching 20th level, you become a master of death. Once per round, you can cast _bleed_ or _stabilize_ as a free action. If you are brought to below 0 hit points, you automatically stabilize. You can cast _animate dead_ at will without paying a material component cost (although you are still subject to the usual Hit Die control limit). Once per day, you can cast _power word kill_, but the spell can target a creature with 150 hit points or less."
 
 [[entry]]
 id = "ref/mystery/flame"
@@ -1347,6 +1392,66 @@ print = "An oracle with the heavens mystery adds Fly, Knowledge (arcana), Percep
 id = "ref/mystery/heavens"
 anchor = "bonus-spells"
 print = "_color spray_ (2nd), _hypnotic pattern_ (4th), _daylight_ (6th), _rainbow pattern_ (8th), _overland flight_ (10th), _chain lightning_ (12th), _prismatic spray_ (14th), _sunburst_ (16th), _meteor swarm_ (18th)."
+
+[[entry]]
+id = "ref/mystery/heavens"
+anchor = "revelations"
+print = "An oracle with the heavens mystery can choose from any of the following revelations."
+
+[[entry]]
+id = "ref/mystery/heavens"
+anchor = "awesome-display"
+print = "Your phantasmagoric displays accurately model the mysteries of the night sky, dumbfounding all who behold them. Each creature affected by your illusion (pattern) spells is treated as if its total number of Hit Dice were equal to its number of Hit Dice minus your Charisma modifier (if positive)."
+
+[[entry]]
+id = "ref/mystery/heavens"
+anchor = "coat-of-many-stars"
+print = "You conjure a coat of starry radiance that grants you a +4 armor bonus. At 7th level, and every four levels thereafter, this bonus increases by +2. At 13th level, this armor grants you DR 5/slashing. You can use this coat for 1 hour per day per oracle level. The duration does not need to be consecutive; it can instead be spent in 1-hour increments."
+
+[[entry]]
+id = "ref/mystery/heavens"
+anchor = "dweller-in-darkness"
+print = "Once per day, you cast your psyche into the void of space to attract the attention of a terrible otherworldly being. The dweller in darkness behaves in all ways as if you had cast _[phantasmal killer](ref/spell/phantasmal-killer)_. At 17th level, the dweller in darkness can be perceived by more than one creature, as if you had cast _[weird](ref/spell/weird)_. You must be at least 11th level to choose this revelation."
+
+[[entry]]
+id = "ref/mystery/heavens"
+anchor = "guiding-star"
+print = "Whenever you can see the open sky at night, you can determine your precise location. When the night sky is visible to you, you may also add your Charisma modifier to your Wisdom modifier on all Wisdom-based checks. In addition, once per night while outdoors, you can cast one spell as if it were modified by the [Empower Spell](ref/feat/empower-spell), [Extend Spell](ref/feat/extend-spell), [Silent Spell](ref/feat/silent-spell), or [Still spell](ref/feat/still-spell) feat without increasing the spell's casting time or level."
+
+[[entry]]
+id = "ref/mystery/heavens"
+anchor = "interstellar-void"
+print = "You call upon the frigid depths of outer space to bring a terrible chill to your enemies. As a standard action, one target within 30 feet is cloaked in the void and takes 1d6 points of cold damage per level. A successful Fortitude save halves this damage. At 10th level, the interstellar void is so extreme that enemies who fail their saving throw are fatigued. At 15th level, creatures who fail their save are [exhausted](ref/misc/exhausted) and [stunned](ref/misc/stunned) for 1 round. You can use this ability once per day plus one additional time per day at 10th level."
+
+[[entry]]
+id = "ref/mystery/heavens"
+anchor = "lure-of-the-heavens"
+print = "Your connection to the skies above is so strong that your feet barely touch the ground. At 1st level, you no longer leave tracks. At 5th level, you can hover up to 6 inches above the ground or even above liquid surfaces, as if [levitating](ref/spell/levitate). At 10th level, you gain the ability to _[fly](ref/spell/fly)_, as per the spell, for a number of minutes per day equal to your oracle level. This duration does not need to be consecutive, but it must be spent in 1-minute increments."
+
+[[entry]]
+id = "ref/mystery/heavens"
+anchor = "mantle-of-moonlight"
+print = "Your innate understanding of the moon renders you immune to [lycanthropy](ref/rule/lycanthropy). Additionally, you may disrupt a [lycanthrope's](ref/template/lycanthrope) connection to the moon with a successful touch attack. This action automatically forces the lycanthrope into its humanoid form, which it must remain in for a number of rounds equal to your oracle level. Upon reaching 5th level, you can use this ability to force others into a _[rage](ref/spell/rage)_, as per the spell. Using this ability is a melee touch attack. You can use this ability once per day at 5th level plus one additional time per day for every 5 levels above 5th."
+
+[[entry]]
+id = "ref/mystery/heavens"
+anchor = "moonlight-bridge"
+print = "You summon a bridge of shimmering moonlight. The 10-foot-wide span touches the ground at a point adjacent to your position. From this point it can extend in any direction for 10 feet per oracle level. The path persists until you have crossed over the bridge or for 24 hours, whichever is shorter. You may summon a moonlight bridge a number of times per day equal to your Charisma bonus. Should the bridge be attacked, treat it as a _[wall of force](ref/spell/wall-of-force)_."
+
+[[entry]]
+id = "ref/mystery/heavens"
+anchor = "spray-of-shooting-stars"
+print = "As a standard action, you can unleash a ball of energy that explodes in a 5-foot-radius [burst](ref/misc/burst) dealing 1d4 points of fire damage per level. A successful Reflex save halves this damage. This attack has a range of 60 feet. You can fire one explosive ball per day, plus one additional ball per day at 5th level and for every 5 levels thereafter. You can fire more than one ball at a time, but creatures caught inside more than one simultaneous explosions only take damage once."
+
+[[entry]]
+id = "ref/mystery/heavens"
+anchor = "star-chart"
+print = "Your copious notes contain a working model of the night sky expressed in artistic scribbles and arcane mathematical formulae. Once per day, you may spend 10 minutes contemplating your star chart to gain the benefit of the spell _[commune](ref/spell/commune)_. You must be at least 7th level to select this revelation."
+
+[[entry]]
+id = "ref/mystery/heavens"
+anchor = "sec-final-revelation"
+print = "Upon achieving 20th level, your rapport with the heavens grants you perfect harmony with the universe. You receive a bonus on all saving throws equal to your Charisma modifier. You automatically stabilize if you are below 0 hit points, are immune to fear effects, and automatically confirm all critical hits. Should you die, you are reborn 3 days later in the form of a star child, who matures over the course of 7 days (treat as the _reincarnate_ spell)."
 
 [[entry]]
 id = "ref/mystery/life"
@@ -1456,7 +1561,47 @@ print = "Once per day, you can spend a full hour in uninterrupted meditation. Du
 [[entry]]
 id = "ref/mystery/lore"
 anchor = "brain-drain"
-print = "You can take a standard action to violently probe the mind of a single intelligent enemy"
+print = "You can take a standard action to violently probe the mind of a single intelligent enemy within 100 feet. The target receives a Will save to negate the effect and immediately knows the source of this harmful mental prying. Those who fail this save are wracked with pain, taking 1d4 points of damage per oracle level. After successfully attacking with this ability, you may use a full-round action to sort through the jumble of stolen thoughts and memories to make a single [Knowledge](ref/skill/knowledge-all) check using the victim's skill bonus. The randomly stolen thoughts remain in your mind for a number of rounds equal to your Charisma modifier. Treat the knowledge gained as if you used _[detect thoughts](ref/spell/detect-thoughts)_. This is a mind-affecting effect. You can use this ability once per day at 1st level, plus one additional time per day at 5th level and for every 5 levels beyond 5th."
+
+[[entry]]
+id = "ref/mystery/lore"
+anchor = "focused-trance"
+print = "You can enter a deep meditation, blocking out visual and auditory stimuli and allowing you to concentrate on a single problem, philosophical issue, or memory. This trance lasts 1d6 rounds, during which time you can only take move actions. During this period, you gain a bonus equal to your level on all saves against sonic effects and gaze attacks. When you come out of your trance, you may make a single Intelligence-based skill check with a +20 circumstance bonus. You may enter your focused trance a number of times per day equal to your Charisma modifier."
+
+[[entry]]
+id = "ref/mystery/lore"
+anchor = "lore-keeper"
+print = "Instead of encyclopedic knowledge, you learn most of your information through tales, songs, and poems. You may use your Charisma modifier instead of your Intelligence modifier on all [Knowledge](ref/skill/knowledge-all) checks."
+
+[[entry]]
+id = "ref/mystery/lore"
+anchor = "mental-acuity"
+print = "Your explorations into the secret mysteries of the world have granted you a preternatural understanding of all things—and you just keep getting smarter. You gain a +1 inherent bonus to Intelligence upon taking this revelation and another at every third oracle level gained thereafter. You must be at least 7th level to select this revelation."
+
+[[entry]]
+id = "ref/mystery/lore"
+anchor = "sidestep-secret"
+print = "Your innate understanding of the universe has granted you preternatural reflexes and the uncanny ability to step out of danger at the very last second. Add your Charisma modifier (instead of your Dexterity modifier) to your Armor Class and all Reflex saving throws. Your armor's maximum Dexterity bonus applies to your Charisma instead of your Dexterity."
+
+[[entry]]
+id = "ref/mystery/lore"
+anchor = "spontaneous-symbology"
+print = "Your knowledge of the secret history of the world has unveiled the mysterious symbols that govern reality. You can cast any \"symbol\" spell using a spell slot of the appropriate level, even if the spell is not on your list of spells known. A symbol spell is any spell with the word \"symbol\" in its name. You must be at least 11th level to select this revelation."
+
+[[entry]]
+id = "ref/mystery/lore"
+anchor = "think-on-it"
+print = "Once per day, the oracle of lore can re-attempt any previously failed Knowledge check. On this attempt, add a +10 competence bonus on the check."
+
+[[entry]]
+id = "ref/mystery/lore"
+anchor = "whirlwind-lesson"
+print = "You can quickly browse through a magical tome or manual, gaining its benefits with only a single 8-hour study session (rather than the usual 48 hours over a period of 6 days). At 7th level, you may allow another character to join in your study; both of you gain the full benefit of having read the book. At 15th level, you may share your whirlwind lesson with a number of characters equal to your oracle level. The benefits to you are permanent, whereas your students gain the tome or manual's benefits for a number of days equal to your Charisma modifier but then forget what they have learned."
+
+[[entry]]
+id = "ref/mystery/lore"
+anchor = "sec-final-revelation"
+print = "You gain the ability to take 20 on all Knowledge skill checks. Your understanding of the fundamental underpinnings of reality has also become so advanced that once per day, you can cast _wish_. This ability does not require a material component, but the _wish_ cannot be used to grant ability score bonuses, nor can it be used to replicate spells with expensive material components."
 
 [[entry]]
 id = "ref/mystery/nature"
@@ -1562,6 +1707,51 @@ print = "You gain [resist](ref/umr/resistance) acid 5. This resistance increases
 id = "ref/mystery/stone"
 anchor = "clobbering-strike"
 print = "Whenever you score a critical hit against an opponent with a spell that requires an attack roll, you may immediately attempt to [trip](ref/rule/trip) your opponent as a swift action. You do not provoke an attack of opportunity as normal for this trip attempt. You cannot be tripped in return when using this ability."
+
+[[entry]]
+id = "ref/mystery/stone"
+anchor = "crystal-sight"
+print = "You can see through stone, earth, or sand as easily as if it were transparent crystal. Your gaze can penetrate a number of feet equal to your oracle level, or 1/12th this thickness of metal. You can use this ability a number of rounds per day equal to your oracle level, but these rounds do not need to be consecutive."
+
+[[entry]]
+id = "ref/mystery/stone"
+anchor = "earth-glide"
+print = "You can pass through stone, dirt, or almost any other sort of earth except worked stone and metal as easily as a fish swims through water. If protected against fire damage, you can even [glide](ref/spell/glide) through lava. You [glide](ref/spell/glide) at your base land speed. While gliding, you breathe stone as if it were air (you do not need to hold your breath). Your burrowing leaves behind no tunnel or hole, nor does it create any ripple or sign of your presence. A _[move earth](ref/spell/move-earth)_ spell cast on an area where you are flings you back 30 feet, [stunning](ref/misc/stunned) you for 1 round unless you succeed on a DC 15 Fortitude save. Activating this ability is a free action. You can glide for 1 minute per day per oracle level. This duration does not need to be consecutive, but it must be spent in 1-minute increments. You must be at least 7th level to select this revelation. You can bring other creatures with you when you glide, but each passenger costs an additional minute per minute of travel."
+
+[[entry]]
+id = "ref/mystery/stone"
+anchor = "mighty-pebble"
+print = "As a standard action, you can charge and throw a pebble (or other stone of similar size) that detonates when it strikes a target as a ranged attack. The pebble has a range increment of 20 feet and has a +1 enhancement bonus to attack and damage for every four oracle levels you possess. Any creature struck by the pebble takes 1d6 points of bludgeoning damage per two oracle levels you possess (minimum 1d6). Creatures in squares adjacent to the target take half damage, or no damage if they make a Reflex saving throw. If the attack roll misses, treat the pebble as a [thrown splash weapon](ref/rule/throw-splash-weapon) to determine where it lands. You can use this ability once per day, plus one additional time per day at 5th level and every five levels thereafter."
+
+[[entry]]
+id = "ref/mystery/stone"
+anchor = "rock-throwing"
+print = "You are an accomplished rock thrower and have a +1 racial bonus on attack rolls with thrown rocks. You can hurl rocks up to two categories smaller than your own size. The range increment for a rock is 20 feet, and you can hurl it up to 5 range increments. Damage for a hurled rock is 2d4 for a Medium creature or 2d3 for a Small creature, plus 1-1/2 your Strength bonus."
+
+[[entry]]
+id = "ref/mystery/stone"
+anchor = "shard-explosion"
+print = "As a swift action, you can cause jagged pieces of stone to explode outward from your body. These shards deal 1d6 points of piercing damage per two oracle levels (minimum 1d6) to all creatures within a 10-foot [burst](ref/misc/burst). A Reflex save halves this damage. In addition, the broken shards make the area [difficult terrain](ref/rule/terrain-and-obstacles) until your next turn. You can use this ability once per day, plus one additional time per day at 5th level and every five levels thereafter."
+
+[[entry]]
+id = "ref/mystery/stone"
+anchor = "steelbreaker-skin"
+print = "As a standard action, you can harden your flesh so that weapons that strike you are damaged or destroyed. Anytime a melee or ranged weapon strikes you, the weapon takes an amount of damage equal to your oracle level. This ability does not prevent the weapon from harming you unless the damage destroys the weapon attacking you. You can use this ability once per day, but the duration is 1 minute/level. You must be at least 7th level to select this revelation. At 15th level, the damage from this ability ignores up to 10 points of [hardness](ref/umr/hardness)."
+
+[[entry]]
+id = "ref/mystery/stone"
+anchor = "stone-stability"
+print = "You receive a +4 bonus to your Combat Maneuver Defense when resisting a [bull rush](ref/rule/bull-rush) or trip attempt while standing on the ground. At 5th level, you gain [Improved Trip](ref/feat/improved-trip) as a bonus feat. At 10th level, you gain [Greater Trip](ref/feat/greater-trip) as a bonus feat. You do not need to meet the prerequisites to gain these feats."
+
+[[entry]]
+id = "ref/mystery/stone"
+anchor = "touch-of-acid"
+print = "As a standard action, you can perform a melee touch attack that deals 1d6 points of acid damage +1 point for every two oracle levels you possess. You can use this ability a number of times per day equal to 3 + your Charisma modifier. At 11th level, any weapon that you wield deals +1d6 points of acid damage, similar to how a _[flaming](ref/magic-enh/flaming)_ weapon operates."
+
+[[entry]]
+id = "ref/mystery/stone"
+anchor = "sec-final-revelation"
+print = "Upon reaching 20th level, you become a master of acid and earth. You can apply any one of the following feats to any acid or earth spell without increasing the level or casting time: Enlarge Spell, Extend Spell, Silent Spell, or Still Spell."
 
 [[entry]]
 id = "ref/mystery/waves"
@@ -1676,12 +1866,50 @@ print = "As a standard action, you can become invisible (as per the _[invisibili
 [[entry]]
 id = "ref/mystery/wind"
 anchor = "lightning-breath"
-print = "As a standard action, you can breathe a 30-foot line of electricity. This line deals 1d4"
+print = "As a standard action, you can breathe a 30-foot line of electricity. This line deals 1d4 points of electricity damage per oracle level. A Reflex save halves this damage. You can use this ability once per day, plus one additional time per day at 5th level and every five levels thereafter."
+
+[[entry]]
+id = "ref/mystery/wind"
+anchor = "spark-skin"
+print = "You gain [resist](ref/umr/resistance) electricity 5. This resistance increases to 10 at 5th level and 20 at 11th level. At 17th level, you gain immunity to electricity."
+
+[[entry]]
+id = "ref/mystery/wind"
+anchor = "thunderburst"
+print = "As a standard action, you can create a blast of air accompanied by a loud peal of thunder. The blast has a range of 100 feet and has a 20-foot radius, increasing by 5 feet for every 4 oracle levels after 7th. Creatures in the area take 1d6 points of bludgeoning damage per oracle level and are [deafened](ref/misc/deafened) for 1 hour, with a Fortitude save resulting in half damage and no deafness. You must be at least 7th level to select this revelation. You can use this ability once per day, plus one additional time per day at 11th level and every four levels thereafter."
+
+[[entry]]
+id = "ref/mystery/wind"
+anchor = "touch-of-electricity"
+print = "As a standard action, you can perform a melee touch attack that deals 1d6 points of electricity damage +1 point for every two oracle levels you possess. You can use this ability a number of times per day equal to 3 + your Charisma modifier. At 11th level, any weapon that you wield is treated as a _[shock](ref/magic-enh/shock)_ weapon."
+
+[[entry]]
+id = "ref/mystery/wind"
+anchor = "vortex-spells"
+print = "Whenever you score a critical hit against an opponent with an attack spell, the target is [staggered](ref/misc/staggered) for 1 round. At 11th level, the duration increases to 1d4 rounds."
+
+[[entry]]
+id = "ref/mystery/wind"
+anchor = "wind-sight"
+print = "You ignore penalties on [Perception](ref/skill/perception) checks based on wind and the first 100 feet of distance. At 7th level, as a standard action, you can see and hear into any area (as if using _clairaudience_ and _clairvoyance_) within range as long as there is an unobstructed path for air to travel between you and the target area (this does not require line of effect, meaning the path can turn corners and go through spaces no smaller than 1 inch in diameter). You can use this ability a number of rounds per day equal to your oracle level, but these rounds do not need to be consecutive."
+
+[[entry]]
+id = "ref/mystery/wind"
+anchor = "wings-of-air"
+print = "As a swift action, you can manifest a pair of translucent, cloud-like wings that grant you a fly speed of 60 feet with good maneuverability. At 10th level, your speed increases to 90 feet and your maneuverability increases to perfect. You can use these wings for 1 minute per day per oracle level. This duration does not need to be consecutive, but it must be spent in 1-minute increments. You must be at least 7th level to select this revelation."
+
+[[entry]]
+id = "ref/mystery/wind"
+anchor = "sec-final-revelation"
+print = "Upon reaching 20th level, you become a master of air and electricity. You can apply any one of the following feats to any air or electricity spell without increasing the level or casting time: Enlarge Spell, Extend Spell, Silent Spell, or Still Spell."
 
 [[entry]]
 id = "ref/oraclecurse/clouded-vision"
 anchor = "clouded-vision"
-print = "Your eyes are obscured, making it difficult for you to see. You cannot see anything beyond 30 feet, but you can see as if you had [darkvision](ref/rule/darkvision). At 5th level, this distance increases to 60 feet. At 10th level, you gain [blindsense](ref/umr/blindsense) out to a range of 30 feet. At 15th level, you gain [blindsight](ref/umr/blindsight) out to a range of 15 feet."
+print = '''
+Your eyes are obscured, making it difficult for you to see. You cannot see anything beyond 30 feet, but you can see as if you had [darkvision](ref/rule/darkvision). At 5th level, this distance increases to 60 feet. At 10th level, you gain [blindsense](ref/umr/blindsense) out to a range of 30 feet. At 15th level, you gain [blindsight](ref/umr/blindsight) out to a range of 15 feet.
+
+Table 2–5: Oracle Base Attack Fort Ref Will Level Bonus Save Save Save Special 1st +0 +0 +0 +2 Mystery, oracle's curse, orisons, revelation 2nd +1 +0 +0 +3 Mystery spell 3rd +2 +1 +1 +3 Revelation 4th +3 +1 +1 +4 Mystery spell 5th +3 +1 +1 +4 — 6th +4 +2 +2 +5 Mystery spell 7th +5 +2 +2 +5 Revelation 8th +6/+1 +2 +2 +6 Mystery spell 9th +6/+1 +3 +3 +6 — 10th +7/+2 +3 +3 +7 Mystery spell 11th +8/+3 +3 +3 +7 Revelation 12th +9/+4 +4 +4 +8 Mystery spell 13th +9/+4 +4 +4 +8 — 14th +10/+5 +4 +4 +9 Mystery spell 15th +11/+6/+1 +5 +5 +9 Revelation 16th +12/+7/+2 +5 +5 +10 Mystery spell 17th +12/+7/+2 +5 +5 +10 — 18th +13/+8/+3 +6 +6 +11 Mystery spell 19th +14/+9/+4 +6 +6 +11 Revelation 20th +15/+10/+5 +6 +6 +12 Final revelation _Deaf_: You cannot hear and suffer all of the usual penalties for being deafened. You cast all of your spells as if they were modified by the Silent Spell feat. This does not increase their level or casting time. At 5th level, you receive a +3 competence bonus on Perception checks that do not rely upon hearing, and the initiative penalty for being deaf is reduced to -2. At 10th level, you gain scent and you do not suffer any penalty on initiative checks due to being deaf. At 15th level, you gain tremorsense out to a range of 30 feet.'''
 
 [[entry]]
 id = "ref/oraclecurse/haunted"
@@ -1691,7 +1919,7 @@ print = "Malevolent spirits follow you wherever you go, causing minor mishaps an
 [[entry]]
 id = "ref/oraclecurse/lame"
 anchor = "lame"
-print = "One of your legs is permanently wounded, reducing your base land speed by 10 feet if your base speed is 30 feet or more. If your base speed is less than 30 feet, your speed is reduced by 5 feet. Your speed is never reduced"
+print = "One of your legs is permanently wounded, reducing your base land speed by 10 feet if your base speed is 30 feet or more. If your base speed is less than 30 feet, your speed is reduced by 5 feet. Your speed is never reduced Spells per Day 1st 2nd 3rd 4th 5th 6th 7th 8th 9th 3 — — — — — — — — 4 — — — — — — — — 5 — — — — — — — — 6 3 — — — — — — — 6 4 — — — — — — — 6 5 3 — — — — — — 6 6 4 — — — — — — 6 6 5 3 — — — — — 6 6 6 4 — — — — — 6 6 6 5 3 — — — — 6 6 6 6 4 — — — — 6 6 6 6 5 3 — — — 6 6 6 6 6 4 — — — 6 6 6 6 6 5 3 — — 6 6 6 6 6 6 4 — — 6 6 6 6 6 6 5 3 — 6 6 6 6 6 6 6 4 — 6 6 6 6 6 6 6 5 3 6 6 6 6 6 6 6 6 4 6 6 6 6 6 6 6 6 6 due to encumbrance. At 5th level, you are immune to the [fatigued](ref/misc/fatigued) condition (but not exhaustion). At 10th level, your speed is never reduced by armor. At 15th level, you are immune to the [exhausted](ref/misc/exhausted) condition."
 
 [[entry]]
 id = "ref/oraclecurse/tongues"
@@ -1786,7 +2014,7 @@ print = "At 8th level, the cavalier can spend a standard action to grant one of 
 [[entry]]
 id = "ref/order/order-of-the-dragon"
 anchor = "act-as-one"
-print = "At 15th level, the cavalier can spend a standard action to move up to his speed and make a melee attack. All allies within 30 feet can also move up to their speed and make a melee attack as an immediate action. This movement and attack can be made as a [charge](ref/rule/charge)"
+print = "At 15th level, the cavalier can spend a standard action to move up to his speed and make a melee attack. All allies within 30 feet can also move up to their speed and make a melee attack as an immediate action. This movement and attack can be made as a [charge](ref/rule/charge) if the movement qualifies. All attacks are made at a +2 bonus (this stacks with the bonus from a charge) and all participants receive a +2 dodge bonus to their AC for 1 round. A cavalier can use this ability once per combat."
 
 [[entry]]
 id = "ref/order/order-of-the-lion"
@@ -1826,7 +2054,7 @@ print = "At 8th level, an order of the lion cavalier can call out to his allies,
 [[entry]]
 id = "ref/order/order-of-the-lion"
 anchor = "shield-of-the-liege"
-print = "At 15th level, an order of the lion cavalier can protect those around him. Allies that are adjacent to the cavalier receive a +2 shield bonus to their AC. In addition, as an immediate action, the cavalier can redirect an attack made at a creature adjacent to himself, as long as the creature making the attack is within the cavalier's reach. This ability must be declared before the attack roll is made. The attack is made against the cavalier's AC and defenses, even if the creature could not normally"
+print = "At 15th level, an order of the lion cavalier can protect those around him. Allies that are adjacent to the cavalier receive a +2 shield bonus to their AC. In addition, as an immediate action, the cavalier can redirect an attack made at a creature adjacent to himself, as long as the creature making the attack is within the cavalier's reach. This ability must be declared before the attack roll is made. The attack is made against the cavalier's AC and defenses, even if the creature could not normally reach or attack the cavalier. The cavalier loses any cover or concealment bonuses when subject to the redirected attack."
 
 [[entry]]
 id = "ref/order/order-of-the-shield"
@@ -2411,6 +2639,21 @@ print = "Starting at 1st level, you can make a melee touch attack as a standard 
 id = "ref/sorcbloodline/aquatic"
 anchor = "aquatic-adaptation"
 print = "At 3rd level, you gain a swim speed of 30 feet. At 9th level, you gain the [amphibious](ref/umr/amphibious) special quality and develop a fat layer that grants a +1 natural armor bonus and [resist](ref/umr/resistance) cold 5. When immersed in water, you gain [blindsense](ref/umr/blindsense) 30 feet. At 15th level, you gain a swim speed of 60 feet and [blindsense](ref/rule/blindsight-and-blindsense) of 60 feet in water."
+
+[[entry]]
+id = "ref/sorcbloodline/aquatic"
+anchor = "aquatic-telepathy"
+print = "At 9th level, you gain [telepathy](ref/umr/telepathy) (100 feet) and can communicate with creatures with a swim speed or the aquatic or water types regardless of intelligence. You may cast _[suggestion](ref/spell/suggestion)_ on such creatures a number of times per day equal to your Charisma modifier. This ability is telepathic and does not require audible or visual components. At 15th level, once per day you can telepathically call and request a service from an aquatic, water, or swimming creature as if using _[demand](ref/spell/demand)_ or _[greater planar ally](ref/spell/planar-ally-greater)_."
+
+[[entry]]
+id = "ref/sorcbloodline/aquatic"
+anchor = "raise-the-deep"
+print = "At 15th level, you raise water as per _[control water](ref/spell/control-water)_, but no water need be present. This created water is stationary and does not flow out of the area where you create it; it lasts 1 round per sorcerer level and then disappears. At 20th level, the dimensions of the effect are doubled. You may use this ability once per day."
+
+[[entry]]
+id = "ref/sorcbloodline/aquatic"
+anchor = "deep-one"
+print = "At 20th level, you gain [blindsense](ref/rule/blindsight-and-blindsense) 60 feet and your body is covered with fine, slippery scales granting DR 10/piercing, resist cold 20, and continuous _[freedom of movement](ref/spell/freedom-of-movement)_. Underwater, you gain evasion and [blindsight](ref/umr/blindsight) 120 feet, and you are immune to [pressure damage](ref/rule/water-dangers) from deep water."
 
 [[entry]]
 id = "ref/sorcbloodline/aquatic"

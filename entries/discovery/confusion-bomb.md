@@ -16,6 +16,9 @@ group = "alchemist-discovery"
 ability_type = "Su"
 +++
 
+Discoveries that modify bombs and are marked with a single asterisk (\*) do not stack. Only one such
+discovery can be applied to an individual bomb.
+
 The alchemist's bombs twist the target's perception of friend and foe. A creature that takes a
 direct hit from a [confusion](ref/spell/confusion) bomb takes damage from the bomb and is under the
 effect of a _confusion_ spell for 1 round per caster level of the alchemist. Reduce the amount of

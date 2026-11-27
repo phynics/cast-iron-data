@@ -86,6 +86,10 @@ Knowledge (planes), Spellcraft
 |19th|+9/+4|+6|+6|+11|-|4|4|4|4|4|4|4|4|3|3|
 |20th|+10/+5|+6|+6|+12|Hex|4|4|4|4|4|4|4|4|4|4|
 
+### Class Features {#class-features}
+
+The following are the class features of the witch.
+
 #### Weapon and Armor Proficiency {#weapon-and-armor-proficiencies}
 
 Witches are proficient with all simple weapons. They are not proficient with any type of armor or

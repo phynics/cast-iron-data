@@ -124,6 +124,10 @@ axis or the good/evil axis.
 |19th|6|6|6|6|5|5|4|
 |20th|6|6|6|6|6|5|5|
 
+### Class Features {#class-features}
+
+The following are class features of the inquisitor.
+
 #### Weapon and Armor Proficiency {#weapon-and-armor-proficiencies}
 
 An inquisitor is proficient with all simple weapons, plus the hand crossbow, longbow, repeating
@@ -250,7 +254,7 @@ inquisitor does not receive this increase.
 
 ##### Resistance {#resistance}
 
-The inquisitor is shielded by a f lickering aura, gaining 2 points of energy resistance against one
+The inquisitor is shielded by a flickering aura, gaining 2 points of energy resistance against one
 energy type (acid, cold, electricity, fire, or sonic) chosen when the judgment is declared. The
 protection increases by 2 for every three inquisitor levels she possesses.
 

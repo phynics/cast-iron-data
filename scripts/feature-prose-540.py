@@ -691,6 +691,11 @@ def finish_text(s: str, vocab: set[str]) -> str:
     return s
 
 
+# Words that print sets with a ligature and that the book's own word list may hold only in the broken form ("f lickering", Advanced Player's Guide p. 39,
+# where the word list has the fragment "lickering" and no "flickering"): the join is made without the word list.
+LIGATURE_WORDS = {"flickering", "flicker", "flickers", "flickered"}
+
+
 def fix_ligatures(s: str, vocab: set[str]) -> str:
     """`f ighter`, `inf lict`: the fi and fl ligatures leave a blank that a word does not have. A pair that does not join ("of inf") does not
     hide the next one that starts inside it ("inf luence")."""
@@ -702,7 +707,7 @@ def fix_ligatures(s: str, vocab: set[str]) -> str:
             out.append(s[i:])
             return "".join(out)
         a, b = m.group(1), m.group(2)
-        if (a + b).lower() in vocab:
+        if (a + b).lower() in vocab or (a + b).lower() in LIGATURE_WORDS:
             out += [s[i:m.start()], a + b]
             i = m.end()
         else:
@@ -745,7 +750,7 @@ def render_marks(s: str) -> str:
 TEXT_EL = re.compile(r'<text top="(-?\d+)" left="(-?\d+)" width="(-?\d+)" height="(-?\d+)" font="(\d+)">(.*?)</text>', re.S)
 FONT_EL = re.compile(r'<fontspec id="(\d+)" size="(\d+)" family="([^"]*)" color="([^"]*)"')
 TAG_SPLIT = re.compile(r"(</?[bi]>)")
-BODY_TOP = (88, 1075)
+BODY_TOP = (88,)                      # the top of the body; the bottom is `Book.body_bottom`
 BODY_BOTTOM_FORCE = [0]
 BODY_BOTTOM_BOOKS = {"dungeoneers-handbook": 1110, "the-harrow-handbook": 1110, "technology-guide": 1110, "animal-archive": 1110, "giant-hunters-handbook": 1110, "kobolds-of-golarion": 1110, "people-of-the-stars": 1110, "champions-of-balance": 1110, "bastards-of-golarion": 1110, "knights-of-the-inner-sea": 1110, "people-of-the-river": 1110, "undead-slayers-handbook": 1110, "dragonslayers-handbook": 1110, "ranged-tactics-toolbox": 1110, "demon-hunters-handbook": 1110, "people-of-the-north": 1110, "faiths-and-philosophies": 1110, "alchemy-manual": 1110}      # the body runs to 1089 and the folios are not in the text layer (Dungeoneer's Handbook)
 PAGE_SKIP: list[tuple[int, int]] = []     # printed pages (first, last) that hold other text than the archetypes (Legacy of Dragons pp. 16-23 and from 26)
@@ -852,6 +857,9 @@ def ocr_repair(text: str) -> str:
 SUPERSCRIPT_MARK = re.compile(r"([a-z]*)(?:APG|UM|UC|UE|UI|ARG|ACG|OA|ISM|B[2-6]|†)")
 
 
+LINK_FRAGMENT = re.compile(r"</?a\b[^>]*>")
+
+
 def load_book(xml_path: Path) -> Book:
     start = BODY_BOTTOM_FORCE[0] or 1075             # set by `configure_book` for the book: no value of the book read before
     xml = xml_path.read_text(encoding="utf-8")
@@ -868,6 +876,7 @@ def load_book(xml_path: Path) -> Book:
                 continue
             seen.add(key)
             top, left = int(top), int(left)
+            raw = LINK_FRAGMENT.sub("", raw)       # a PDF link of the book (the Core Rulebook links its tables and rules: `<a href="...html#181">Fort Ref</a>`): its text stays, the tag goes
             if OCR["on"]:
                 raw = ocr_repair(raw)
             plain = html.unescape(re.sub(r"</?[bi]>", "", raw)).strip()
@@ -5560,7 +5569,7 @@ def configure_book(book: str) -> None:
     # a title in small capitals and a chapter title can stand higher than the body of the other books (Heroes of the High Court p. 29: capital at 86; Martial Arts Handbook p. 18: chapter title at 70; the running heads stand at 13-29)
     global BODY_TOP
     BODY_BOTTOM_FORCE[0] = BODY_BOTTOM_BOOKS.get(book, 0)
-    BODY_TOP = (BODY_CAP_TOP if book in HIGH_TITLE_BOOKS else 88, BODY_BOTTOM_BOOKS.get(book, 1075))       # the bottom of a loaded book is `Book.body_bottom`
+    BODY_TOP = (BODY_CAP_TOP if book in HIGH_TITLE_BOOKS else 88,)       # the bottom of a loaded book is `Book.body_bottom`
 
 
 def run_compare(args) -> int:
@@ -7070,6 +7079,7 @@ def self_test() -> int:
     kinds2 = [(b.kind, b.size) for b in read_blocks(two, 1, 1)]
     SMALL_CAP_TITLES["on"] = False
     eq(kinds2, [("title", 36), ("title", 27), ("para", 0)], "a title of another size is a title of its own")
+    eq(fix_ligatures("shielded by a f lickering aura", set()), "shielded by a flickering aura", "a ligature word that the book's word list lacks is joined (Judgment: Resistance)")
     eq(fix_ligatures("he gains 1 point of inf luence over him and f ighter", {"influence", "fighter"}), "he gains 1 point of influence over him and fighter",
        "a ligature pair after a word that ends in f")
     # review of #338: the class table of the ranger writes "1st favored enemy"; a lead after an opening sentence; "of 20th level"; a choice from what follows
@@ -7418,6 +7428,16 @@ def self_test() -> int:
        "Horror Realms: no blank indent, the two plain headings of the Accursed Companions stay")
     configure_book("ultimate-magic")
     eq((BLANK_INDENT["on"], OUTER_TAB["on"], STAYS_EXTRA["set"]), (False, False, frozenset()), "the other books keep their reading")
+    import tempfile
+    with tempfile.TemporaryDirectory() as td:
+        xml = Path(td) / "b.xml"
+        xml.write_text('<pdf2xml><fontspec id="0" size="13" family="ABCDEF+Body" color="#000000"/><page number="1">'
+                       '<text top="100" left="50" width="200" height="13" font="0"><b>Channel Energy (Su): </b>Regardless of <a href="PZO1110 Core Rulebook (6th).html#181">alignment</a>, any cleric</text>'
+                       '<text top="120" left="50" width="200" height="13" font="0">can <a href="x.html#2">release</a> a wave.</text></page></pdf2xml>', encoding="utf-8")
+        bk_ = load_book(xml)
+        eq("".join(r[4] if False else r[3] for r in bk_.pages[1]).count("<a"), 0, "the link tags of a PDF (the Core Rulebook) are not text of the page")
+        eq(" ".join(re.sub(r"<[^>]+>", "", r[3]) for r in bk_.pages[1]).split(), ["Channel", "Energy", "(Su):", "Regardless", "of", "alignment,", "any", "cleric", "can", "release", "a", "wave."],
+           "the text of a link stays")
     # a book keeps its own body bottom: reading one book after loading another is the same in either order (the ledgers of a compare no longer depend on which book
     # was loaded last: `other()` of the class-option script loads the second source of an entry while the first is read)
     import tempfile as _tf
@@ -7436,6 +7456,13 @@ def self_test() -> int:
             loaded = {pth: load_book(pth) for pth in order}
             results.append(tuple("low on the page" in " ".join(x.plain() for x in read_blocks(loaded[pth], 1, 1)) for pth in (pa, pb)))
         eq(results, [(False, True), (False, True)], "a book keeps its own body bottom whichever book was loaded after it")
+        # the order of `other()` in the class-option script: load A, read A, load B, read A again (the second source of an entry is loaded while the first is read)
+        def low_line(book) -> bool:
+            return "low on the page" in " ".join(x.plain() for x in read_blocks(book, 1, 1))
+        book_a = load_book(pa)
+        first = low_line(book_a)
+        book_b = load_book(pb)
+        eq((first, low_line(book_a), low_line(book_b), low_line(book_a)), (False, False, True, False), "load A, read A, load B, read A: A is read the same before and after B is loaded")
         eq((load_book(pa).body_bottom, load_book(pb).body_bottom), (1059, 1075), "the body bottom is a field of the book")
     configure_book("ultimate-magic")
     print(f"self-test: {ok} checks passed")
