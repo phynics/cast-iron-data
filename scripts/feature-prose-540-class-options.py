@@ -42,6 +42,8 @@ Usage
     feature-prose-540-class-options.py [CORPUS] --check [--book ID]      no PDF needed; exit 1 on a stale row, a settled entry that is not
                                                                          written, a written entry that holds an import label or lacks its text
     feature-prose-540-class-options.py [CORPUS] --headings --book ID ...  ruling 61 for the evolutions that are written
+    feature-prose-540-class-options.py [CORPUS] --neighbours --book ID ...  before a book batch: the printed titles and heads each multi-power window holds that are not its own, and whether it ends
+    feature-prose-540-class-options.py [CORPUS] --compare ... --variants   ruling 65: settle variant sections (held by default)
     feature-prose-540-class-options.py [CORPUS] --ability-type --book ID  ruling 63: off until the app reads `ability_type`
 """
 
@@ -363,6 +365,9 @@ STOP_TITLES: set[str] = set()          # squash of the title of every class opti
 
 
 SUFFIXES = ("", "bloodline", "mystery", "school")
+# The words that a printed neighbour can carry after the name of an option ("Earth", "Earth School", "Earth Bloodline"). A group with another
+# printed suffix ("Domain", "Order", "Patron", ...) needs it added here before its batch: until then its window does not end at that neighbour
+# (the entry holds, "no end title", or the neighbour shows in `--neighbours`), which is safe but not settled.
 
 
 def anchor_section(blocks: list, title: str, own: frozenset | set = frozenset()) -> tuple[list, bool] | None:
@@ -448,7 +453,7 @@ def variant_section(blocks: list, bk2, e, missing: list, expected: list[str]):
     """Ruling 65: the section of another book that prints a variant of the entry under its own title (an elemental bloodline of Advanced
     Player's Guide that Ultimate Magic p. 71 prints as "Envenomed"). The section is the first title of the window whose heads include one of
     the missing powers (a "Replacement Bloodline Arcana" is print's "Bloodline Arcana" there). Returns (title, text, heads, replacement rows)
-    or None when the heads stand under the entry's own title."""
+    or None when the heads stand under the entry's own title. A title that is another option of the corpus is skipped."""
     specific = {fp.namekey(f.name) for f in missing if not f.name.startswith("Replacement ")}      # "Water Blast", not the generic "Bloodline Arcana"
     want = specific or {fp.namekey(re.sub(r"^Replacement\s+", "", f.name)) for f in missing}
     titles = [i for i, b in enumerate(blocks) if b.kind == "title"]
@@ -458,6 +463,8 @@ def variant_section(blocks: list, bk2, e, missing: list, expected: list[str]):
         heads = {fp.namekey(fp.head_text(f.head)): f for f in pfs}
         if not set(heads) & want:
             continue
+        if fp.squash(blocks[i].plain()) in STOP_TITLES - {fp.squash(e.title)}:
+            continue                       # the title of another option of the corpus is no variant of this one
         if fp.squash(blocks[i].plain()) == fp.squash(e.title):
             return None
         parts = fp.join_wrapped([fp.clean_runs(r) for r in op], bk2.vocab)
@@ -475,7 +482,7 @@ def variant_section(blocks: list, bk2, e, missing: list, expected: list[str]):
                     cmp = fp.compare_feature(fp.build_draft(f), text, set(fp.tokens(fp.ABILITY_TAG.sub("", f.name))), set())
                     replaced[f.span_sha()] = {"anchor": fp.anchor_of(f.name), "span": f.span_sha(), "status": cmp.status, "notes": list(cmp.notes) + ["print's "
                                               + fp.head_text(pf.head) + " in the variant"], "print": text, "level_import": None, "head": f.name, "name": f.name}
-        return title, "\n\n".join(parts), replaced, blocks[i].page
+        return title, "\n\n".join(parts), replaced, blocks[i].page, n + 1 < len(titles)       # the last: whether another title ends the section
     return None
 
 
@@ -587,6 +594,7 @@ def compare_one(e, book, bk, other=None) -> list[dict]:
     res = fp.compare_entry(e, section, bk)
     by_span = {r["span"]: r for r in res["rows"] if r["span"]}
     where = {}                                       # span -> "Publication p. N" of a power that another source of the entry prints
+    noend: set[str] = set()                          # spans found in a second-source window that has no end title: they hold
     variants: list[tuple[str, str, tuple]] = []      # (book, page, (title, text, replaced rows)) of a variant section (ruling 65)
     for src in (e.data.get("sources") or [])[1:]:
         pub, pg = src.get("publication"), str(src.get("page", ""))
@@ -599,7 +607,7 @@ def compare_one(e, book, bk, other=None) -> list[dict]:
         got = other(pub, int(pg), e, shape, [f for f in missing if fp.namekey(f.name) in power_keys], [f.name for f in feats])      # the variant is found by powers, not by section labels
         if got is None:
             continue
-        got, var = got
+        got, var, ended2 = got
         if var:
             variants.append((pub, pg, var))
             got = dict(got, **var[2])
@@ -607,6 +615,8 @@ def compare_one(e, book, bk, other=None) -> list[dict]:
             if not_printed(sp) and not any("head not printed" in n_ for n_ in r2["notes"]):
                 by_span[sp] = r2
                 where[sp] = (pub, pg)
+                if not ended2:
+                    noend.add(sp)
     rows, seen = [], Counter()
     blocks_b = rw.parse_blocks(e0.body.split("\n"))
     cands = rw.candidates(blocks_b, True)
@@ -667,6 +677,9 @@ def compare_one(e, book, bk, other=None) -> list[dict]:
             status = "hold"
         if src:
             common["page"] = src[1]
+        if f is not None and f.span_sha() in noend:
+            notes.append("the second-source window has no end title: the text may run into another option")
+            status, hard = "hold", True
         if shape == "single":
             printed, lost = place_links(printed, plinks)
             common["links_lost"] = "|".join(lost)
@@ -698,6 +711,7 @@ def compare_one(e, book, bk, other=None) -> list[dict]:
     return fence(rows, shape)
 
 
+VARIANTS_ON = False                  # ruling 65 variants stay held until a reviewer has read the first settled one (`--variants` turns this on)
 PRINT_ONLY_OK = {"classskill", "classskills", "bonusspells", "bonusfeats", "deities"}      # the sections that print sets for every class option of a kind
 
 
@@ -718,7 +732,9 @@ def add_sections(e, power_rows: list[dict], res: dict, feats: list, powers: list
     opening = "\n\n".join(res.get("opening") or [])
     sec = dict(base, shape="section", book=book, by="", ability_tag="", reviewed_537="", links_lost="", level_import="", level="", section="")
     if opening:
-        ordered.append(dict(sec, feature="(opening)", anchor="opening", verdict="agree", status="print", span_sha256="", note="the opening text of print",
+        ocut = incomplete_paragraph(opening)
+        ordered.append(dict(sec, feature="(opening)", anchor="opening", verdict="agree", status="hold" if ocut else "print", span_sha256="",
+                            note="the opening text of print" + (f"; print text may be cut at a page or column break: ...{ocut}" if ocut else ""),
                             print=opening, print_sha256=hashlib.sha256(opening.encode()).hexdigest()))
     used = set()
     for r_ in res["rows"]:
@@ -739,6 +755,10 @@ def add_sections(e, power_rows: list[dict], res: dict, feats: list, powers: list
         if re.search(r"[a-z][A-Z]", label):
             notes.append("the label has capitals inside a word (OCR small capitals): not settled")
             status = "hold"
+        cut = incomplete_paragraph(r_["print"])
+        if cut:
+            notes.append(f"print text may be cut at a page or column break: ...{cut}")
+            status = "hold"
         if re.match(r"^(?:- |\* |\||\d+[.)] )", r_["print"].lstrip()):
             notes.append("the section opens with a list or a table: not settled (the run-in label cannot lead it)")
             status = "hold"
@@ -747,15 +767,18 @@ def add_sections(e, power_rows: list[dict], res: dict, feats: list, powers: list
                             print_sha256=hashlib.sha256(r_["print"].encode()).hexdigest()))
     ordered += [r for sha, r in by_sha.items() if sha not in used]       # a power that print has nowhere on the pages (a hold)
     olds = old_heading_levels(e.body)
-    for pub, pg, (vtitle, vtext, _, vpage) in variants or []:             # ruling 65: the variant is its own unlisted section, with its book and the printed page
+    for pub, pg, (vtitle, vtext, _, vpage, vended) in variants or []:             # ruling 65: the variant is its own unlisted section, with its book and the printed page
         theirs = [r for r in ordered if r["shape"] == "multi" and r["book"] == pub]
-        inside = all(norm(r["print"]) in norm(vtext) for r in theirs if r["print"])        # every power that it holds lies inside its text
+        inside = bool(theirs) and all(norm(r["print"]) in norm(vtext) for r in theirs if r["print"])        # every power that it holds lies inside its text (and it holds one)
         vslug = fp.anchor_of(vtitle)
         # the import has a heading for it ("### Seaborn (Wildblooded Mutation)"): the section keeps that heading's key, written out
         old = next((s for s in olds if s == vslug or s.startswith(vslug + "-")), vslug)
         ordered.append(dict(sec, shape="variant", feature=vtitle, anchor=old, book=pub, page=str(vpage), verdict="agree",
-                            status="hold" if any(r["status"] == "hold" for r in theirs) or problems or not inside else "print", span_sha256="",
-                            note=f"a variant that {pub} p. {vpage} prints under its own title" + ("" if inside else "; a power that it holds is not inside its text"), print=vtext,
+                            status="hold" if (any(r["status"] == "hold" for r in theirs) or problems or not inside or not vended or not VARIANTS_ON or incomplete_paragraph(vtext)) else "print",
+                            span_sha256="",
+                            note=f"a variant that {pub} p. {vpage} prints under its own title" + ("" if inside else "; no power of the entry is inside its text, or one is not")
+                            + ("" if vended else "; its section has no end title") + ("" if VARIANTS_ON else "; variants are held until a reviewer has read the first settled one (--variants)")
+                            + (f"; print text may be cut: ...{incomplete_paragraph(vtext)}" if incomplete_paragraph(vtext) else ""), print=vtext,
                             print_sha256=hashlib.sha256(vtext.encode()).hexdigest()))
     have = {fp.slugify(fp.ABILITY_TAG.sub("", r["feature"])) for r in ordered} | {r["anchor"] for r in ordered if r["shape"] == "variant"}
     for slug in olds:
@@ -813,7 +836,8 @@ def run_compare(args) -> int:
             anchored2 = anchor_section(blocks2, e.title, {fp.squash(fp.ABILITY_TAG.sub("", n_)) for n_ in expected})
             win = anchored2[0] if anchored2 is not None else blocks2          # the second source's section of the same title, else the whole window (a variant has its own title)
             res2 = fp.compare_entry(e, [fp.Para("title", [(e.title, True, False)], pg, 0, 20)] + win, bk2)
-            return {r["span"]: r for r in res2["rows"] if r["span"]}, variant_section(blocks2, bk2, e, missing, expected)
+            return ({r["span"]: r for r in res2["rows"] if r["span"]}, variant_section(blocks2, bk2, e, missing, expected),
+                    anchored2[1] if anchored2 is not None else True)           # a window with no end title holds
         finally:
             fp.configure_book(book)
     entries = [x for x in everything if not families or x.id.split("/")[1] in families]
@@ -870,14 +894,19 @@ def report(rows: list[dict], cen: dict) -> str:
     return "\n".join(lines)
 
 
+def write_atomic(path: Path, text: str) -> None:
+    """A temp file, then a rename: a crash leaves the old file, never half of a new one."""
+    tmp = path.with_name(path.name + ".tmp")
+    tmp.write_text(text, encoding="utf-8")
+    tmp.replace(path)
+
+
 def write_tsv(path: Path, rows: list[dict]) -> None:
     path.parent.mkdir(parents=True, exist_ok=True)
     lines = ["\t".join(HEADER)]
     for r in rows:
         lines.append("\t".join(str(r.get(k, "")).replace("\t", " ").replace("\n", " ") for k in HEADER))
-    tmp = path.with_suffix(path.suffix + ".tmp")
-    tmp.write_text("\n".join(lines) + "\n", encoding="utf-8")
-    tmp.replace(path)                                   # atomic: a crash leaves the old ledger, not half of one
+    write_atomic(path, "\n".join(lines) + "\n")                  # a crash leaves the old ledger, not half of one
 
 
 def read_tsv(path: Path) -> list[dict]:
@@ -894,7 +923,7 @@ def write_props(path: Path, props: dict) -> None:
     for e in props.values():
         for f in e["feature"]:
             out += ["[[entry]]", f"id = {fp.toml_str(e['id'])}", f"anchor = {fp.toml_str(f['anchor'])}", f"print = {fp.toml_str(f['print'])}", ""]
-    path.write_text("\n".join(out), encoding="utf-8")
+    write_atomic(path, "\n".join(out))
 
 
 def read_props(path: Path) -> dict[tuple[str, str], str]:
@@ -994,7 +1023,7 @@ def run_headings(args) -> int:
         text = e.path.read_text(encoding="utf-8").replace(e.body, body, 1)
         if gh[1] < page:
             text = with_page(text, f"{gh[1]}-{page}")           # the sentence is on the page before: the entry cites both (ruling 61)
-        e.path.write_text(text, encoding="utf-8")
+        write_atomic(e.path, text)
         done += 1
     print(f"group headings: {done} entries changed, {skipped} not changed")
     return 0
@@ -1058,6 +1087,51 @@ def heading_keys(body: str) -> set[str]:
     return keys
 
 
+def run_neighbours(args) -> int:
+    """A report before a book batch: for each multi-power entry of the book, the printed titles and bold heads that its window holds and that are
+    not its own (its powers and sections are), and whether the window found an end. A lead reads it to check the printed neighbours."""
+    corpus = Path(args.corpus).resolve()
+    book = args.book
+    title = fp.publication_title(corpus, book)
+    fp.configure_book(book)
+    pdf = fp.find_pdf(Path(args.books), title)
+    if not pdf:
+        raise SystemExit(f"no copy of {title!r} under {args.books}")
+    bk = fp.load_book(fp.book_xml(pdf, Path(args.cache)))
+    everything = load_class_options(corpus)
+    STOP_TITLES.clear()
+    STOP_TITLES.update(fp.squash(re.sub(r"\s*\((?:[A-Z]{2,4}|HotW)\)\s*$", "", x.title)) for x in everything)
+    install_split([x.title for x in everything])
+    families = set(args.families.split(",")) if args.families else None
+    bad = 0
+    for e in load_class_options(corpus, book, families):
+        shape, _ = shape_of(e.body)
+        if shape != "multi" or not e.page.isdigit():
+            continue
+        page = int(e.page)
+        blocks = fp.read_blocks(bk, max(1, page + fp.PAGE_OFFSET[0] - 1), min(page + 3 + fp.PAGE_OFFSET[0], max(bk.pages)))
+        _, feats = fp.parse_import(headings_as_names(e.body), set())
+        own = {fp.squash(fp.ABILITY_TAG.sub("", f.name)) for f in feats} | PRINT_ONLY_OK
+        anch = anchor_section(blocks, e.title, own)
+        if anch is None:
+            print(f"{e.id} (p. {page}): the printed title is not on the pages")
+            bad += 1
+            continue
+        win, ended = anch
+        others = []
+        for b in win:
+            if b.kind == "title":
+                label = b.plain().strip()
+            else:
+                label = (fp.head_of_para(b) or "") if b.kind == "para" else ""
+            if label and fp.squash(fp.ABILITY_TAG.sub("", label)) not in own:
+                others.append(("title " if b.kind == "title" else "head ") + re.sub(r"\s+", " ", label))
+        bad += 0 if ended else 1
+        print(f"{e.id} (p. {page}): {len(win)} blocks, end {'found' if ended else 'NOT FOUND'}; not its own: " + ("; ".join(others) if others else "none"))
+    print(f"neighbours: {bad} entries without a title or an end")
+    return 0
+
+
 def run_write(args) -> int:
     """Writes the entries whose rows are all settled, marks their rows `written` (the ledger), and runs the corpus formatter when
     `--checker` is given. An entry that is written has no import row, so a second run changes nothing."""
@@ -1097,7 +1171,7 @@ def run_write(args) -> int:
         own = [r for r in mine if r["book"] == book]
         if own and own[0]["page"] and own[0]["page"] != e.page:
             front = with_page(front, own[0]["page"])
-        e.path.write_text("+++\n" + front.strip("\n") + "\n+++\n" + body, encoding="utf-8")
+        write_atomic(e.path, "+++\n" + front.strip("\n") + "\n+++\n" + body)
         for r in mine:
             r["status"] = LEDGER
         write_tsv(tsv_file(corpus, book), rows)               # per entry: a failure on a later entry leaves the ledger as true as the entries
@@ -1126,7 +1200,7 @@ def run_ability_type(args) -> int:
         if mine and tag:
             new = with_ability_type(e.front, tag)
             if new != e.front:
-                e.path.write_text(e.path.read_text(encoding="utf-8").replace(e.front, new, 1), encoding="utf-8")
+                write_atomic(e.path, e.path.read_text(encoding="utf-8").replace(e.front, new, 1))
                 done += 1
     print(f"ability_type: {done} entries changed, {untagged} written single-power entries have no printed tag (no key)")
     return 0
@@ -1281,6 +1355,37 @@ def self_test() -> int:
     eq(adopt_tables("A talent. Disguise Time Minor details only 1 full-round action Disguise as a different race 1 minute", cbody)[0],
        "A talent.\n\n|Disguise|Time|\n| --- | --- |\n|Minor details only|1 full-round action|\n|Disguise as a different race|1 minute|", "ruling 62: the rows run together as one paragraph are the table")
     eq(adopt_tables(ptxt.replace("1 minute", "2 minutes"), cbody)[1], 0, "ruling 62: a row that differs is no table")
+    # the fences of the re-check: sections meet the guard in compare, a variant is not another option, an empty `theirs` is no proof, the second source ends
+    import types
+    VE = types.SimpleNamespace(title="Aquatic", id="ref/sorcbloodline/aquatic")
+    vb = [P("title", [("Seaborn", True, False)], 72, 1, 18), P("para", [("Water Blast (Sp)", True, False), (": A bolt of water.", False, False)], 72, 1),
+          P("title", [("Sage", True, False)], 72, 1, 18), P("para", [("Dull (Su)", True, False), (": Dull.", False, False)], 72, 1)]
+    bk2 = types.SimpleNamespace(vocab=set())
+    miss = [fp.ImportFeature("Water Blast (Sp)")]
+    STOP_TITLES.clear()
+    got = variant_section(vb, bk2, VE, miss, ["Water Blast (Sp)"])
+    eq((got[0], got[3], got[4]), ("Seaborn", 72, True), "ruling 65: the variant is the title whose section holds the power; the page is the printed one; another title ends it")
+    eq(variant_section(vb[:2], bk2, VE, miss, ["Water Blast (Sp)"])[4], False, "a variant section with no end title says so")
+    STOP_TITLES.update({"seaborn"})
+    eq(variant_section(vb, bk2, VE, miss, ["Water Blast (Sp)"]), None, "a title that is another option of the corpus is no variant")
+    STOP_TITLES.clear()
+    eq(add_sections.__defaults__ is not None, True, "add_sections takes the variants")
+    cutsec = {"opening": ["Cavaliers who join. For 1"], "rows": [sect("Edicts", "Protect the faith. And", [])]}
+    got2 = add_sections(EE, [], cutsec, [], [], {}, {"entry": "x", "shape": "multi", "page": "1", "note": ""}, "b", [], Counter(), [])
+    eq([(r["feature"], r["status"]) for r in got2], [("(opening)", "hold"), ("Edicts", "hold")], "the completeness guard holds a cut opening and a cut section in compare")
+    vr = [{"shape": "multi", "book": "ultimate-magic", "status": "print", "print": "At 3rd level, a lick.", "feature": "Envenom (Su)", "anchor": "envenom", "level": ""}]
+    vv = [("ultimate-magic", "71", ("Envenomed", "Print's variant.\n\n**Envenom (Su):** At 3rd level, a lick.", {}, 71, True))]
+    sec0 = lambda rows, v: [r for r in add_sections(EE, rows, {"opening": [], "rows": []}, [], [("Envenom (Su)", "s1")] if rows else [], {}, {"entry": "x", "shape": "multi", "page": "1", "note": ""}, "b", [], Counter(), v) if r["shape"] == "variant"]
+    eq(sec0(vr, vv)[0]["status"], "hold", "ruling 65: a variant is held while the switch is off")
+    globals()["VARIANTS_ON"] = True
+    eq((sec0(vr, vv)[0]["status"], sec0([], vv)[0]["status"]), ("print", "hold"), "ruling 65: with the switch on a variant that holds its power settles; one that holds none does not (not vacuous)")
+    globals()["VARIANTS_ON"] = False
+    import tempfile
+    with tempfile.TemporaryDirectory() as td:
+        tp = Path(td) / "x.md"
+        tp.write_text("old")
+        write_atomic(tp, "new")
+        eq((tp.read_text(), sorted(x.name for x in Path(td).iterdir())), ("new", ["x.md"]), "an atomic write leaves the new file and no temp file")
     STOP_TITLES.clear()
     STOP_TITLES.update({"aquatic", "boreal", "deepearth"})
     ab = [P("title", [("Aquatic", True, False)], 136, 0, 18), P("para", [("Dehydrating Touch (Sp)", True, False), (": A touch.", False, False)], 136, 0),
@@ -1417,6 +1522,8 @@ def main() -> int:
     ap.add_argument("--write", action="store_true")
     ap.add_argument("--headings", action="store_true", help="ruling 61: put the printed group heading in the converted evolution entries")
     ap.add_argument("--check", action="store_true")
+    ap.add_argument("--neighbours", action="store_true", help="a report before a book batch: for each multi-power entry, the printed titles and heads its window holds that are not its own, and whether it found an end (needs --book, --books, --cache)")
+    ap.add_argument("--variants", action="store_true", help="ruling 65: settle variant sections (held by default until a reviewer has read the first settled one)")
     ap.add_argument("--ability-type", action="store_true", help="ruling 63: write ability_type for the written single-power entries (off until the app reads the key)")
     ap.add_argument("--checker", help="the cast-iron-corpus binary: `--write` runs its `fmt` afterwards")
     ap.add_argument("--book")
@@ -1428,6 +1535,11 @@ def main() -> int:
         return self_test()
     if args.compare:
         return run_compare(args)
+    if args.variants:
+        global VARIANTS_ON
+        VARIANTS_ON = True
+    if args.neighbours:
+        return run_neighbours(args)
     if args.ability_type:
         return run_ability_type(args)
     if args.headings:
