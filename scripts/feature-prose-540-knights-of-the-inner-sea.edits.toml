@@ -1,0 +1,7 @@
+[[edit]]
+entry = "ref/arc-fighter/weapon-bearer-squire"
+anchor = "weapon-rack"
+note = "hand-written from print (Knights of the Inner Sea p. 21): the ability is one paragraph that wraps around the art in the right column, so that the text layer breaks it into two (\"... without provoking attacks of opportunity. The knight and the weapon bearer squire must be adjacent ...\"); review of #360."
+text = '''
+At 1st level, once per round, a knight can retrieve an item carried by his weapon bearer squire as a move action that does not provoke attacks of opportunity. In addition, a weapon bearer squire can pick up items dropped by her knight as an immediate action without provoking attacks of opportunity. The knight and the weapon bearer squire must be adjacent to each other and must both be able to move and communicate to use these abilities. This ability replaces the 1st-level fighter bonus combat feat.
+'''
