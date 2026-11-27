@@ -54,6 +54,7 @@ import re
 import sys
 import tomllib
 from collections import Counter
+from dataclasses import dataclass
 from pathlib import Path
 
 HERE = Path(__file__).resolve().parent
@@ -110,16 +111,18 @@ def read_decisions(path: Path) -> dict[tuple[str, str], tuple[str, str]]:
 
 # ---- the entries ---------------------------------------------------------------------------------
 
-def load_class_options(corpus: Path, book: str | None = None, families: set[str] | None = None) -> list:
-    """The class-option entries (the archetype `Entry` type with kind `class_option`), in id order, whose first source is `book`."""
+def load_entries(corpus: Path, kind: str = "class_option", book: str | None = None, families: set[str] | None = None) -> list:
+    """The entries of a kind (the archetype `Entry` type), in id order, whose first source is `book`. `class_option` is the pilot's kind;
+    `class` (the base classes: heads and anchors exist already) and `none` (the 33 rule entries, `[fields] kind = "none"`) take the same
+    loader, with their own power extractor (`power_records`)."""
     out = []
     for path in sorted((corpus / "entries").rglob("*.md")):
         text = path.read_text(encoding="utf-8")
-        if 'kind = "class_option"' not in text[:4000]:
+        if f'kind = "{kind}"' not in text[:4000]:
             continue
         front, body = fp.split_entry(text)
         data = tomllib.loads(front)
-        if (data.get("fields") or {}).get("kind") != "class_option":
+        if (data.get("fields") or {}).get("kind") != kind:
             continue
         sources = data.get("sources") or []
         first = sources[0]["publication"] if sources else (data.get("source_ids") or [None])[0]
@@ -128,8 +131,44 @@ def load_class_options(corpus: Path, book: str | None = None, families: set[str]
         if families and data["id"].split("/")[1] not in families:
             continue
         page = str(sources[0].get("page", "")) if sources else ""
-        out.append(fp.Entry(path, data["id"], data["title"], "class_option", front, body, data, first, page, []))
+        out.append(fp.Entry(path, data["id"], data["title"], kind, front, body, data, first, page, []))
     return out
+
+
+def load_class_options(corpus: Path, book: str | None = None, families: set[str] | None = None) -> list:
+    return load_entries(corpus, "class_option", book, families)
+
+
+@dataclass
+class Power:
+    """One power of an entry, whatever the kind: where it is in the body, what it is called, and where print has it."""
+    name: str
+    span_sha: str                  # hash of its span in the body (the key of the ledger)
+    anchor: str                    # the URL key: derived from the name, or the explicit one of an existing head
+    head_level: int = 0            # 0: no head yet (an import name); else the number of # of its head
+    section: str = ""              # the section heading above it
+    book: str = ""                 # the publication that prints it (the first source unless the entry cites a second)
+    page: str = ""
+
+
+def power_records(e, kind: str = "class_option") -> list[Power]:
+    """The powers of an entry as records, with one extractor per kind: `class_option` the bold names over import rows (the candidates of
+    the rewrite script), `class` the `####` heads that exist already (their explicit anchors are kept), `none` (a rule entry) is a copy of
+    the converted parent and has none of its own."""
+    blocks = rw.parse_blocks(e.body.split("\n"))
+    if kind == "class_option":
+        return [Power(re.sub(r":$", "", c.name), rw.span_sha(blocks[c.start:c.end]), fp.anchor_of(c.name), 0, section_of(blocks, c.start), e.book or "", e.page)
+                for c in rw.candidates(blocks, True)]
+    if kind == "class":
+        out = []
+        for i, b in enumerate(blocks):
+            m = re.match(r"^(#{3,6})\s+(.*?)(?:\s*\{#([^}]+)\})?\s*$", b.text)
+            if m and len(m.group(1)) == 4:
+                end = next((j for j in range(i + 1, len(blocks)) if blocks[j].kind == "boundary" and blocks[j].text.startswith("#")), len(blocks))
+                out.append(Power(m.group(2), rw.span_sha(blocks[i:end]), m.group(3) or fp.slugify(fp.ABILITY_TAG.sub("", m.group(2))), 4,
+                                 section_of(blocks, i), e.book or "", e.page))
+        return out
+    return []
 
 
 def shape_of(body: str) -> tuple[str, int]:
@@ -873,6 +912,11 @@ def self_test() -> int:
     eq((title_as_head(fp.Para("title", [("Table 2\u20139: Eidolon Base Statistics", True, False)], 59, 0, 18)).runs[0][1],
         title_as_head(fp.Para("title", [("2-Point Evolutions", True, False)], 61, 0, 18)).runs[0][1]), (False, True),
        "ruling 62: the title of a table stays in the text of the power, a section heading ends it")
+    cls = type("C", (), {"body": "\n### Class Features\n\n#### Alchemy (Su) {#alchemy}\n\nAt 1st level, an alchemist.\n\n#### Swift Alchemy (ex)\n\nAt 4th level.\n", "book": "x", "page": "1"})()
+    eq([(q.name, q.anchor, q.head_level, q.section) for q in power_records(cls, "class")],
+       [("Alchemy (Su)", "alchemy", 4, "Class Features"), ("Swift Alchemy (ex)", "swift-alchemy", 4, "Class Features")], "the powers of a base class are its #### heads, with their keys")
+    eq([(q.name, q.head_level) for q in power_records(type("S", (), {"body": "\n**Animal Fury (Ex)**\n\n**Ability:** A bite attack.\n", "book": "x", "page": "1"})(), "class_option")], [("Animal Fury (Ex)", 0)], "the powers of a class option are its import names")
+    eq(power_records(cls, "none"), [], "a rule entry has no power of its own")
     STOP_TITLES.clear()
     STOP_TITLES.update({"aquatic", "boreal", "deepearth"})
     ab = [P("title", [("Aquatic", True, False)], 136, 0, 18), P("para", [("Dehydrating Touch (Sp)", True, False), (": A touch.", False, False)], 136, 0),
