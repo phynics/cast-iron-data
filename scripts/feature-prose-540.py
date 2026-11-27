@@ -1080,6 +1080,7 @@ RUN_IN_HEAD_ONLY = re.compile(r"^.{3,70}\((?:Ex|Su|Sp)(?:,\s*(?:Ex|Su|Sp))*\)\s*
 
 
 FRAGMENT_TITLES = {"on": False}
+SUFFIXED_TITLE_FIRST = {"on": False}      # Familiar Folio: a feat has the name of the archetype (School Familiar); the title that ends "Archetype)" starts it
 
 
 def _assemble(book: Book, items: list[tuple[int, list[dict]]]) -> list[Para]:
@@ -1384,7 +1385,15 @@ def find_section(blocks: list[Para], title: str, stops: set[str] | None = None) 
     title in between (a sidebar, a table heading) is a heading of the section. With no `stops`, the next title of
     any kind ends it."""
     key = squash(re.sub(r"\s*\([A-Z]{2,4}\)\s*$", "", title))        # "Ringleader (UI)": the corpus's mark of a second archetype of the name
+    start = 0
+    if SUFFIXED_TITLE_FIRST["on"]:
+        # a feat or a heading of the same name stands before the archetype's title ("School Familiar" the feat, "School Familiar (Familiar Archetype)"):
+        # the title that says "Archetype)" is the start
+        start = next((i for i, b in enumerate(blocks) if b.kind == "title" and squash(b.plain()).startswith(key) and squash(b.plain()).endswith("archetype")
+                      and len(squash(b.plain())) > len(key)), 0)
     for i, b in enumerate(blocks):
+        if i < start:
+            continue
         # Ultimate Magic and Ultimate Combat print "REANIMATOR (ARCHETYPE)"; Occult Adventures and Ultimate Intrigue print the
         # class on a second line ("ECTOCHYMIST (ALCHEMIST ARCHETYPE)"); the Advanced Race Guide "Saboteur (Alchemist)"
         sp = squash(b.plain()) if b.kind == "title" else ""
@@ -2211,7 +2220,7 @@ class Entry:
 
 
 # Entries whose print has no head of its own: the printed text is the opening (Familiar Folio p. 16, Bloodline Familiars)
-OPENING_ONLY = {"ref/arc-sorcerer/bloodline-familiars", "ref/arc-bloodrager/bloodline-familiars"}
+OPENING_ONLY = {"ref/arc-sorcerer/bloodline-familiars", "ref/arc-bloodrager/bloodline-familiars", "ref/arc-witch/patron-familiars"}
 
 
 # A broken head of the import that the script reads as the head that print has (the import is not edited by hand): Black Markets p. 28 "Envenom (Su" for "Envenom (Su)"
@@ -3266,6 +3275,10 @@ TEXT_REPAIRS = {
     ("ref/arc-summoner/morphic-savant", "chaos-magic"): [("3rd \u2014_magic circle", "3rd\u2014_magic circle")],
     ("ref/arc-unchained-summoner/morphic-savant", "chaos-magic"): [("3rd \u2014_magic circle", "3rd\u2014_magic circle")],
     ("ref/arc-wizard/bonded-wizard", "bonded-force"): [("[shield](ref/spell/shield) bonus", "shield bonus")],
+    ("ref/arc-witch/patron-familiars", "strength-strength-of-mind"): [("[Strength](ref/patron/strength)", "Strength")],
+    ("ref/arc-witch/patron-familiars", "water-amphibious-familiar"): [("[water](ref/patron/water)", "water")],
+    ("ref/arc-witch/patron-familiars", "wisdom-preternatural-wisdom"): [("[Wisdom](ref/patron/wisdom)", "Wisdom")],
+    ("ref/arc-witch/patron-familiars", "animals-animal-speaker"): [("speak with all [animals](ref/patron/animals) (as though", "speak with all animals (as though")],
 }
 
 
@@ -3304,9 +3317,16 @@ def compare_entry(e: Entry, section: list[Para], book: Book) -> dict:
     used: set[int] = set()
     last = -1
     matched: list[int | None] = []
+    def keys_of(head: str) -> set[str]:
+        # a key "Lesser\u2014Energy Block (Su)" (owner ruling 53) names the import's "Energy Block (Su)" too
+        out = {namekey(head)}
+        if DASH_KEY.fullmatch(head):
+            out.add(namekey(head.split("\u2014", 1)[1]))
+        return out
+
     for pf in pfeats:
-        key = namekey(pf.head)
-        idx = next((i for i in range(last + 1, len(feats)) if i not in used and namekey(import_name(e.id, feats[i].name)) == key), None)
+        key = keys_of(pf.head)
+        idx = next((i for i in range(last + 1, len(feats)) if i not in used and namekey(import_name(e.id, feats[i].name)) in key), None)
         if idx is not None:
             used.add(idx)
             last = idx
@@ -3314,8 +3334,8 @@ def compare_entry(e: Entry, section: list[Para], book: Book) -> dict:
     # a head that print sets in another order than the import (a sidebar before a list) matches wherever it stands
     for n, pf in enumerate(pfeats):
         if matched[n] is None:
-            key = namekey(pf.head)
-            idx = next((i for i in range(len(feats)) if i not in used and namekey(import_name(e.id, feats[i].name)) == key), None)
+            key = keys_of(pf.head)
+            idx = next((i for i in range(len(feats)) if i not in used and namekey(import_name(e.id, feats[i].name)) in key), None)
             if idx is not None:
                 used.add(idx)
                 matched[n] = idx
@@ -4857,6 +4877,7 @@ def configure_book(book: str) -> None:
     OCR_PHRASES, OCR_JOINED, OCR_ITALICS = (MC_OCR_PHRASES, MC_OCR_JOINED, MC_OCR_ITALICS) if book == "monster-codex" else ISC_OCR
     ARCHETYPE_CAPS["on"] = book == "heroes-of-the-darklands"
     FRAGMENT_TITLES["on"] = book == "armor-masters-handbook"
+    SUFFIXED_TITLE_FIRST["on"] = book == "familiar-folio"
     LOWERCASE_CONTINUES["on"] = LOWERCASE_CONTINUES["on"] or book == "armor-masters-handbook"
     LIST_CONTINUES["on"] = book in ("potions-and-poisons", "black-markets")
     BULLETS["on"] = BULLETS["on"] or book in ("potions-and-poisons", "black-markets")           # the Toxin Codexer's Modify Toxin prints bullet lists (ruling 45, review of #342)
@@ -5236,6 +5257,8 @@ def stale_rows(e: Entry, rows: list[dict]) -> list[str]:
     for r in rows:
         if r["span_sha256"] and r["feature"]:
             have = spans.get(namekey(r["feature"]))
+            if have is None and DASH_KEY.fullmatch(r["feature"]):
+                have = spans.get(namekey(r["feature"].split("\u2014", 1)[1]))      # print's key "Agility\u2014Supernatural Speed (Su)" is the import's "Supernatural Speed (Su)"
             if have is None or r["span_sha256"] not in have:
                 bad.append(r["feature"])     # the feature changed, or its name is gone
     return bad
