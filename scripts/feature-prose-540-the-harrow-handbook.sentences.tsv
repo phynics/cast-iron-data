@@ -1,6 +1,7 @@
 entry	sentence
 ref/arc-inquisitor/suit-seeker	This ability modifies judgment, second judgment, and third judgment.
 ref/arc-inquisitor/suit-seeker	This ability replaces detect alignment.
+ref/arc-inquisitor/suit-seeker	This ability replaces true judgment.
 ref/arc-magus/card-caster	This ability modifies arcane pool.
 ref/arc-magus/card-caster	This ability replaces and modifies spellstrike.
 ref/arc-magus/card-caster	This ability replaces the magus arcana gained at 3rd level.
@@ -13,5 +14,7 @@ ref/arc-rogue/sczarni-swindler	This ability replaces evasion.
 ref/arc-rogue/sczarni-swindler	This ability replaces trap sense.
 ref/arc-rogue/sczarni-swindler	This ability replaces uncanny dodge.
 ref/arc-rogue/sczarni-swindler	This ability replaces improved uncanny dodge.
+ref/arc-summoner/story-summoner	This ability replaces transposition.
+ref/arc-summoner/story-summoner	This ability replaces bond senses.
 ref/arc-witch/cartomancer	This ability replaces the witch's familiar.
 ref/arc-witch/cartomancer	This replaces the witch's 2nd-level hex.

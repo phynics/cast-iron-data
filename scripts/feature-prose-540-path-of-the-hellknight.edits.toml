@@ -1,0 +1,27 @@
+[[edit]]
+entry = "ref/arc-vigilante/faceless-enforcer"
+anchor = "enforcer-s-wrath"
+note = "hand-written by the batch lead from print (Path of the Hellknight p. 51): the head and the text that the extraction lost among the lines of Faceless Infiltrator"
+text = '''
+At 6th level, a faceless enforcer has become adept at using his vigilante identity to terrify and coerce lone enemies, particularly among the group he is currently infiltrating. He gains a +4 bonus on Intimidate checks against enemies when no other opponents are within 30 feet of him (or the creature he is intimidating). This bonus stacks with any bonuses the vigilante receives from [renown](ref/soctalent/renown) or similar abilities. Additionally, if the vigilante successfully demoralizes a lone opponent with Intimidate, the opponent is shaken for 1 additional round.
+
+This ability replaces the vigilante talent gained at 6th level.
+'''
+
+[[edit]]
+entry = "ref/arc-vigilante/faceless-enforcer"
+anchor = "faceless-infiltrator"
+note = "hand-written by the batch lead from print (Path of the Hellknight p. 51): the page sets the text around a figure, and the extraction interleaved its lines with those of Enforcer's Wrath; the paragraphs are print's, in print's order"
+text = '''
+At 5th level, when he changes his identity, a faceless enforcer has a third option (instead of social or vigilante): he can assume a fictional identity with no known ties to his [Hellknight](ref/rule/aff-lawknights) affiliation, his social identity, or his vigilante identity. When he gains this ability, the faceless enforcer must choose a group, organization, or social structure he wishes to infiltrate (such as the beggars in Egorian's Cheapside or the city's congregation of the Midnight Temple to Asmodeus), and the fictional identity he creates must be a recruit, ally, or prospective employee of that group. This fictional identity's alignment must be within one step from either his vigilante or his social identity. A faceless enforcer can use social and vigilante talents when in his fictional identity, but he risks exposing his secret when he does so.
+
+When he gains this ability, the faceless enforcer creates mundane records that can verify his fictional identity. While he is in his fictional identity, a faceless enforcer appears to be an otherwise ordinary member of his race, and he receives a +10 bonus on Disguise checks to appear to be the fictional person he says he is. He must create the appearance for this fictional identity using whatever clothing and tools he has at his disposal. If the faceless enforcer changes from his vigilante identity to his fictional identity and vice versa, changing identities takes him the normal amount of time to don or remove his armor (see the armored juggernaut ability). If he changes from his fictional identity to his social identity and vice versa, it takes him 1 minute. Any attempts to scry or otherwise locate the fictional identity work as normal if the faceless enforcer is in his fictional identity. Otherwise, it reveals a random member of the group he is attempting to infiltrate.
+
+At 11th level, the faceless enforcer's bonus on Disguise checks to appear to be his fictional identity increases to +20. Any spell or ability designed to locate the fictional individual while the faceless enforcer is in that identity has a 50% chance of instead finding a random member of the group. Although this ability does not give the faceless enforcer any special knowledge of the group outside what he gleans himself, the faceless enforcer's training grants him a +10 circumstance bonus on Bluff checks to maintain his fictional guise.
+
+At 17th level, attempts to scry or otherwise locate the faceless enforcer's fictional identity always reveal a random member of the group he has infiltrated. Furthermore, his bonus on Bluff checks to maintain his fictional identity increases to +15.
+
+Every month, a faceless enforcer can create a new fictional identity, if he wishes, but not another fictional identity that is attempting to infiltrate the same group. A faceless enforcer cannot select the [any guise](ref/soctalent/any-guise), [everyman](ref/soctalent/everyman), or [many guises](ref/soctalent/many-guises) social talents.
+
+This ability replaces the social talents gained at 5th, 11th, and 17th levels.
+'''
