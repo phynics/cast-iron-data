@@ -13,11 +13,9 @@ page = "14"
 [fields]
 kind = "class_option"
 group = "ninja-trick"
+ability_type = "Su"
 +++
 
-**Acrobatic Master (Su)**
-
-**Swift:** A ninja with this trick can focus her ki to grant her a +20 bonus on one Acrobatics check
-of her choice made before the start of her next turn.
-
-**Special:** Using this ability expends 1 ki point from her ki pool.
+As a swift action, a ninja with this trick can focus her ki to grant her a +20 bonus on one
+Acrobatics check of her choice made before the start of her next turn. Using this ability expends 1
+ki point from her ki pool.

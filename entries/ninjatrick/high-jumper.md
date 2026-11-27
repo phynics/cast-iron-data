@@ -13,11 +13,9 @@ page = "15"
 [fields]
 kind = "class_option"
 group = "ninja-trick"
+ability_type = "Ex"
 +++
 
-**High Jumper (Ex)**
-
-**Passive:** When a ninja with this trick makes a [high jump](ref/skill/acrobatics), the DC for that
-jump is half the normal DC.
-
-**Prereq:** [Acrobatic master](ref/ninjatrick/acrobatic-master)
+When a ninja with this trick makes a [high jump](ref/skill/acrobatics), the DC for that jump is half
+the normal DC. The ninja must have the [acrobatic master](ref/ninjatrick/acrobatic-master) trick
+before taking this talent.

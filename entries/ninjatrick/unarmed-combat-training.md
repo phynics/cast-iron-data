@@ -13,9 +13,8 @@ page = "16"
 [fields]
 kind = "class_option"
 group = "ninja-trick"
+ability_type = "Ex"
 +++
 
-**Unarmed Combat Training (Ex)**
-
-**Ability:** A ninja who selects this ninja trick gains
+A ninja who selects this ninja trick gains
 [Improved Unarmed Strike](ref/feat/improved-unarmed-strike) as a bonus feat.

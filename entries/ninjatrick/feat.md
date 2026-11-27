@@ -15,6 +15,4 @@ kind = "class_option"
 group = "ninja-trick"
 +++
 
-**Feat**
-
-**Ability:** A ninja may gain any feat that she qualifies for in place of a ninja trick.
+A ninja may gain any feat that she qualifies for in place of a ninja trick.

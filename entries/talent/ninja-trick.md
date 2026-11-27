@@ -13,12 +13,10 @@ page = "70"
 [fields]
 kind = "class_option"
 group = "rogue-talent"
+ability_type = "Ex"
 +++
 
-**Ninja Trick (Ex)**
-
-**Ability:** A rogue with this talent can choose a trick from the ninja trick list. The rogue cannot
-choose a ninja trick with the same name as a rogue talent.
-
-**Special:** The rogue can choose but cannot use talents that require ki points, unless she has a ki
-pool. A rogue can pick this talent more than once.
+A rogue with this talent can choose a trick from the ninja trick list (see pages 14–16). The rogue
+can choose but cannot use talents that require ki points, unless she has a ki pool. A rogue can pick
+this talent more than once. The rogue cannot choose a ninja trick with the same name as a rogue
+talent.

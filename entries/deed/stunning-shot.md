@@ -13,15 +13,11 @@ page = "12"
 [fields]
 kind = "class_option"
 group = "gunslinger-deed"
+ability_type = "Ex"
 +++
 
-**Stunning Shot (Ex)**
-
-**Ability:** When a gunslinger hits a creature, she can spend 2 grit points to
+At 19th level, when a gunslinger hits a creature, she can spend 2 grit points to
 [stun](ref/misc/stunned) the creature for 1 round. The creature must make a Fortitude saving throw
 (the DC = 10 + 1/2 the gunslinger's level + the gunslinger's Wisdom modifier). If the creature
-fails, it is stunned for 1 round.
-
-**Prereq:** 19th-level gunslinger
-
-**Special:** Creatures that are immune to critical hits are also immune to this effect.
+fails, it is stunned for 1 round. Creatures that are immune to critical hits are also immune to this
+effect.

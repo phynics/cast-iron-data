@@ -13,9 +13,8 @@ page = "16"
 [fields]
 kind = "class_option"
 group = "ninja-trick"
+ability_type = "Ex"
 +++
 
-**Slow Reactions (Ex)**
-
-**Ability:** Opponents that are damaged by the ninja's sneak attack can't make attacks of
-opportunity for 1 round.
+Opponents that are damaged by the ninja's sneak attack can't make attacks of opportunity for 1
+round.

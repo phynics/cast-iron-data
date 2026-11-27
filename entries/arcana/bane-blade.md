@@ -13,11 +13,9 @@ page = "54"
 [fields]
 kind = "class_option"
 group = "magus-arcana"
+ability_type = "Su"
 +++
 
-**Bane Blade (Su)**
-
-**Ability:** Whenever the magus enhances his weapon using his arcane pool, he may spend 1 additional
-point from his arcane pool to add the [bane](ref/magic-enh/bane) special ability to the weapon.
-
-**Prereq:** 15th-level magus
+Whenever the magus enhances his weapon using his arcane pool, he may spend 1 additional point from
+his arcane pool to add the _[bane](ref/magic-enh/bane)_ special ability to the weapon. The magus
+must be at least 15th level before selecting this arcana.

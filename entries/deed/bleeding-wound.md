@@ -13,19 +13,13 @@ page = "12"
 [fields]
 kind = "class_option"
 group = "gunslinger-deed"
+ability_type = "Ex"
 +++
 
-**Bleeding Wound (Ex)**
-
-**Free:** When the gunslinger hits a living creature with a firearm attack, she can spend 1 grit
-point to have that attack deal extra [bleed](ref/rule/bleed) damage. The amount of bleed damage is
-equal to the gunslinger's Dexterity modifier.
-
-Alternatively, the gunslinger can spend 2 grit points to deal 1 point of
+At 11th level, when the gunslinger hits a living creature with a firearm attack, she can spend 1
+grit point as a free action to have that attack deal extra [bleed](ref/rule/bleed) damage. The
+amount of bleed damage is equal to the gunslinger's Dexterity modifier. Alternatively, the
+gunslinger can spend 2 grit points to deal 1 point of
 [Strength, Dexterity, or Constitution bleed damage](ref/rule/ability-damage-drain) (gunslinger's
-choice) instead.
-
-**Prereq:** 11th-level gunslinger
-
-**Special:** Creatures that are immune to [sneak attacks](ref/ability/sneak-attack) are also immune
-to these types of bleed damage.
+choice) instead. Creatures that are immune to [sneak attacks](ref/ability/sneak-attack) are also
+immune to these types of bleed damage.

@@ -13,16 +13,12 @@ page = "28"
 [fields]
 kind = "class_option"
 group = "rage-power"
+ability_type = "Ex"
 +++
 
-**Renewed Life (Ex)**
-
-**Passive:** While _raging,_ the barbarian ignores the effect of one temporary
+While raging, the barbarian ignores the effect of one temporary
 [negative level](ref/rule/energy-drain-and-negative-levels) per four barbarian levels she has
-(maximum 5).
-
-Once per day, when a barbarian with temporary negative levels ends her _rage,_ she can attempt
-saving throws to remove a number of negative levels equal to the number of levels she could ignore
-while _raging._
-
-**Prereq:** 6th-level barbarian, [renewed vitality](ref/ragepower/renewed-vitality)
+(maximum 5). Once per day, when a barbarian with temporary negative levels ends her rage, she can
+attempt saving throws to remove a number of negative levels equal to the number of levels she could
+ignore while raging. A barbarian must have the [renewed vitality](ref/ragepower/renewed-vitality)
+rage power and be at least 6th level before selecting this rage power.

@@ -13,8 +13,7 @@ page = "15"
 [fields]
 kind = "class_option"
 group = "ninja-trick"
+ability_type = "Ex"
 +++
 
-**Combat Trick (Ex)**
-
-**Ability:** A ninja who selects this trick gains a bonus combat feat.
+A ninja who selects this trick gains a bonus combat feat.

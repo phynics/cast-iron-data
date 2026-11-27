@@ -15,9 +15,5 @@ kind = "class_option"
 group = "ninja-trick"
 +++
 
-**Rogue Talent**
-
-**Ability:** The ninja can select a rogue talent in place of a ninja trick. The ninja cannot select
-a rogue talent that has the same name as a ninja trick.
-
-**Special:** The ninja can select this talent multiple times.
+The ninja can select a rogue talent in place of a ninja trick. The ninja cannot select a rogue
+talent that has the same name as a ninja trick. The ninja can select this talent multiple times.

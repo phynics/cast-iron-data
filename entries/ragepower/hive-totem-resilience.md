@@ -13,13 +13,11 @@ page = "27"
 [fields]
 kind = "class_option"
 group = "rage-power"
+ability_type = "Su"
 +++
 
-**Hive Totem Resilience (Su)**
-
-**Passive:** While _raging,_ the barbarian takes no damage from attacks by swarms of vermin,
-preventing harmful secondary effects of such attacks like poison or bleed. She also gains a bonus on
-combat maneuver checks and to CMD when grappling equal to
-[one-fourth](ref/misc/fractions-and-rounding) of her barbarian level.
-
-**Prereq:** [Hive totem](ref/ragepower/hive-totem), 6th-level barbarian
+While raging, the barbarian takes no damage from attacks by swarms of vermin, preventing harmful
+secondary effects of such attacks like poison or bleed. She also gains a +1 bonus on combat maneuver
+checks and to CMD when grappling for every four barbarian levels she has (maximum +5). A barbarian
+must have the [hive totem](ref/ragepower/hive-totem) rage power and be at least 6th level before
+selecting this rage power.

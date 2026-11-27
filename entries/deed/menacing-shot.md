@@ -13,13 +13,10 @@ page = "12"
 [fields]
 kind = "class_option"
 group = "gunslinger-deed"
+ability_type = "Ex"
 +++
 
-**Menacing Shot (Ex)**
-
-**Ability:** The gunslinger can spend 1 grit point, shoot a firearm into the air, and affect all
+At 15th level, the gunslinger can spend 1 grit point, shoot a firearm into the air, and affect all
 living creatures within a 30-foot-radius [burst](ref/misc/burst) as if they were subject to the
-[fear](ref/spell/fear) spell. The DC of this effect is equal to 10 + 1/2 the gunslinger's level +
+_[fear](ref/spell/fear)_ spell. The DC of this effect is equal to 10 + 1/2 the gunslinger's level +
 the gunslinger's Wisdom modifier.
-
-**Prereq:** 15th-level gunslinger

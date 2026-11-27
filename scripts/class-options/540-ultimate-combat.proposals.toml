@@ -1,0 +1,779 @@
+# Printed proposals for Ultimate Combat class options. The complete Black Market Connections text and table are recorded despite the completeness hold.
+
+[[entry]]
+id = "ref/arcana/accurate-strike"
+anchor = "accurate-strike"
+print = '''The magus can expend 2 points from his arcane pool as a swift action to resolve all of his melee weapon attacks until the end of his turn as melee touch attacks. The magus must be at least 9th level before selecting this arcana.'''
+
+[[entry]]
+id = "ref/arcana/arcane-cloak"
+anchor = "arcane-cloak"
+print = '''The magus can expend 1 point from his arcane pool to add his Intelligence bonus to [Stealth](ref/skill/stealth) checks and [Bluff](ref/skill/bluff) checks to create a diversion in order to hide. This bonus lasts for 1 minute.'''
+
+[[entry]]
+id = "ref/arcana/arcane-edge"
+anchor = "arcane-edge"
+print = '''The magus can expend 1 point from his arcane pool as an immediate action after hitting a target with a slashing or piercing weapon in order to deal an amount of [bleed](ref/rule/bleed) damage equal to his Intelligence modifier (minimum 0). The magus must be at least 9th level before he selects this arcana.'''
+
+[[entry]]
+id = "ref/arcana/arcane-redoubt"
+anchor = "arcane-redoubt"
+print = '''As a swift action, the magus can expend 1 point from his arcane pool to treat his shield bonus to AC (including any enhancement bonus) as a bonus to touch AC until the beginning of his next turn.'''
+
+[[entry]]
+id = "ref/arcana/arcane-redoubt-greater"
+anchor = "greater-arcane-redoubt"
+print = '''Whenever the magus uses his [arcane redoubt](ref/arcana/arcane-redoubt) magus arcana, he may spend an additional point from his arcane pool in order to apply his shield bonus to AC (including any enhancement bonus) as a bonus on Reflex saves until the beginning of his next turn. If he is targeted with an effect requiring a Reflex save while using this power, he may spend 2 points from his arcane pool as an immediate action to grant himself [evasion](ref/ability/evasion), or 4 points to grant himself [improved evasion](ref/talent/improved-evasion). The magus must have the [arcane redoubt](ref/arcana/arcane-redoubt) magus arcana and be at least 12th level to select this magus arcana.'''
+
+[[entry]]
+id = "ref/arcana/bane-blade"
+anchor = "bane-blade"
+print = '''Whenever the magus enhances his weapon using his arcane pool, he may spend 1 additional point from his arcane pool to add the _[bane](ref/magic-enh/bane)_ special ability to the weapon. The magus must be at least 15th level before selecting this arcana.'''
+
+[[entry]]
+id = "ref/arcana/devoted-blade"
+anchor = "devoted-blade"
+print = '''Whenever the magus enhances his weapon using his arcane pool, he may spend 1 additional point from his arcane pool to add either the _[anarchic](ref/magic-enh/anarchic)_, _[axiomatic](ref/magic-enh/axiomatic)_, _[holy](ref/magic-enh/holy)_, or _[unholy](ref/magic-enh/unholy)_ special ability to the list of available options. A magus may only add one of these abilities if it matches his own alignment. The magus must be at least 12th level before selecting this arcana.'''
+
+[[entry]]
+id = "ref/arcana/disruptive"
+anchor = "disruptive"
+print = '''The magus gains [Disruptive](ref/feat/disruptive) as a bonus feat. The magus must be at least 6th level before selecting this arcana.'''
+
+[[entry]]
+id = "ref/arcana/enduring-blade"
+anchor = "enduring-blade"
+print = '''Whenever the magus enchants his weapon using his arcane pool, he may spend 1 additional point from his arcane pool to increase the duration to 1 minute per magus level. The magus must be at least 6th level before selecting this arcana.'''
+
+[[entry]]
+id = "ref/arcana/ghost-blade"
+anchor = "ghost-blade"
+print = '''Whenever the magus enchants his weapon using his arcane pool, he may spend 1 additional point from his arcane pool to add the _[brilliant energy](ref/magic-enh/brilliant-energy)_ and _[ghost touch](ref/magic-enh/ghost-touch-weapon)_ special abilities to the list of available options. The magus must be at least 9th level before selecting this arcana.'''
+
+[[entry]]
+id = "ref/arcana/lingering-pain"
+anchor = "lingering-pain"
+print = '''The magus can expend 1 point from his arcane pool as an immediate action after hitting a target with a weapon attack. All damage from that attack (including damage from a spell cast using the spellstrike ability) is considered continuous damage for the purposes of any [concentration](ref/rule/concentration) checks made by the target prior to the beginning of the magus's next turn.'''
+
+[[entry]]
+id = "ref/arcana/prescient-attack"
+anchor = "prescient-attack"
+print = '''The magus can expend 1 point from his arcane pool as an immediate action after hitting a target with a weapon attack, allowing him to anticipate his opponent's defenses. The target is denied its Dexterity bonus against the magus's attacks until the end of the magus's next turn. The magus must be at least 6th level before selecting this arcana.'''
+
+[[entry]]
+id = "ref/arcana/prescient-defense"
+anchor = "prescient-defense"
+print = '''The magus can expend 1 point from his arcane pool as an immediate action after hitting a target with a weapon attack, granting him a premonition of his enemy's intentions. The magus gains a bonus to his AC and on Reflex saves equal to his Intelligence modifier (minimum 0) against attacks by that opponent until the beginning of his next turn. The magus must be at least 9th level before selecting this arcana.'''
+
+[[entry]]
+id = "ref/arcana/rod-mastery"
+anchor = "rod-mastery"
+print = '''Whenever the magus uses a rod, he calculates the DC for any spell it contains using his Intelligence modifier (minimum 0) instead of the minimum modifier needed to cast a spell of that level.'''
+
+[[entry]]
+id = "ref/arcana/rod-wielder"
+anchor = "rod-wielder"
+print = '''The magus adds his Intelligence bonus (minimum 0) on caster level checks made to overcome [spell resistance](ref/rule/spell-resistance) when using a spell contained within a rod or when making a spellstrike attack channeled through a rod.'''
+
+[[entry]]
+id = "ref/arcana/spellbreaker"
+anchor = "spellbreaker"
+print = '''The magus gains [Spellbreaker](ref/feat/spellbreaker) as a bonus feat. The magus must be at least 9th level before selecting this arcana.'''
+
+[[entry]]
+id = "ref/deed/bleeding-wound"
+anchor = "bleeding-wound"
+print = '''At 11th level, when the gunslinger hits a living creature with a firearm attack, she can spend 1 grit point as a free action to have that attack deal extra [bleed](ref/rule/bleed) damage. The amount of bleed damage is equal to the gunslinger's Dexterity modifier. Alternatively, the gunslinger can spend 2 grit points to deal 1 point of [Strength, Dexterity, or Constitution bleed damage](ref/rule/ability-damage-drain) (gunslinger's choice) instead. Creatures that are immune to [sneak attacks](ref/ability/sneak-attack) are also immune to these types of bleed damage.'''
+
+[[entry]]
+id = "ref/deed/cheat-death"
+anchor = "cheat-death"
+print = '''At 19th level, whenever the gunslinger is reduced to 0 or fewer hit points, she can spend all of her remaining grit points (minimum 1) to instead be reduced to 1 hit point.'''
+
+[[entry]]
+id = "ref/deed/dead-shot"
+anchor = "dead-shot"
+print = '''At 7th level, as a full-round action, the gunslinger can take careful aim and pool all of her attack potential into a single, deadly shot. When she does this, she shoots the firearm at a single target, but makes as many attack rolls as she can, based on her base attack bonus. She makes the attack rolls in order from highest bonus to lowest, as if she were making a full attack. If any of the attack rolls hit the target, the gunslinger's single attack is considered to have hit. For each additional successful attack roll beyond the first, the gunslinger increases the damage of the shot by the base damage dice of the firearm. For instance, if a 7th-level gunslinger firing a musket hits with both attacks, she does 2d12 points of damage with the shot, instead of 1d12 points of damage, before adding any damage modifiers. Precision damage and extra damage from weapon special abilities (such as _[flaming](ref/magic-enh/flaming)_) are added with damage modifiers and are not increased by this deed. If one or more rolls are critical threats, she confirms the critical once using her highest base attack bonus -5. For each critical threat beyond the first, she reduces this penalty by 1 (to a maximum of 0). The gunslinger only misfires on a dead shot if all the attack rolls are misfires. She cannot perform this deed with a [blunderbuss](ref/eq-weapon/blunderbuss) or other [scatter](ref/misc/scatter) weapon when attacking creatures in a cone. The gunslinger must spend 1 grit point to perform this deed.'''
+
+[[entry]]
+id = "ref/deed/deadeye"
+anchor = "deadeye"
+print = '''At 1st level, the gunslinger can resolve an attack against touch AC instead of normal AC when firing beyond her firearm's first range increment. Performing this deed costs 1 grit point per range increment beyond the first. The gunslinger still takes the -2 penalty on attack rolls for each range increment beyond the first when she performs this deed.'''
+
+[[entry]]
+id = "ref/deed/deaths-shot"
+anchor = "death-s-shot"
+print = '''At 19th level, when the gunslinger scores a critical hit, she can spend 1 grit point to deal normal damage, and the target must succeed at a Fortitude saving throw with a DC equal to 10 + 1/2 the gunslinger's level + the gunslinger's Dexterity modifier. On a failed saving throw, the target dies. This is a death attack. Performing this deed does not allow the gunslinger to regain grit from confirming a critical hit or making a killing blow.'''
+
+[[entry]]
+id = "ref/deed/evasive"
+anchor = "evasive"
+print = '''At 15th level, when the gunslinger has at least 1 grit point, she gains the benefit of the [evasion](ref/ability/evasion), [uncanny dodge](ref/ability/uncanny-dodge), and [improved uncanny dodge](ref/ability/improved-uncanny-dodge) rogue class features. She uses her gunslinger level as her rogue level for improved uncanny dodge.'''
+
+[[entry]]
+id = "ref/deed/expert-loading"
+anchor = "expert-loading"
+print = '''At 11th level, whenever the gunslinger rolls a misfire with a gun that has the broken condition, she can spend 1 grit point to keep the gun from exploding, though it retains the broken condition.'''
+
+[[entry]]
+id = "ref/deed/gunslinger-initiative"
+anchor = "gunslinger-initiative"
+print = '''At 3rd level, as long as the gunslinger has at least 1 grit point, she gains the following benefits. First, she gains a +2 bonus on initiative checks. Furthermore, if she has the [Quick Draw](ref/feat/quick-draw) feat, her hands are free and unrestrained, and the firearm is not hidden, she can draw a single firearm as part of the initiative check.'''
+
+[[entry]]
+id = "ref/deed/gunslingers-dodge"
+anchor = "gunslinger-s-dodge"
+print = '''At 1st level, the gunslinger gains an uncanny knack for getting out of the way of ranged attacks. When a ranged attack is made against the gunslinger, she can spend 1 grit point to move 5 feet as an immediate action; doing so grants the gunslinger a +2 bonus to AC against the triggering attack. This movement is not a 5-foot step, and provokes attacks of opportunity. Alternatively, the gunslinger can drop [prone](ref/rule/prone) to gain a +4 bonus to AC against the triggering attack. The gunslinger can only perform this deed while wearing medium or light armor, and while carrying no more than a light load.'''
+
+[[entry]]
+id = "ref/deed/lightning-reload"
+anchor = "lightning-reload"
+print = '''At 11th level, as long as the gunslinger has at least 1 grit point, she can reload a single barrel of a one-handed or two-handed firearm as a swift action once per round. If she has the [Rapid Reload](ref/feat/rapid-reload) feat or is using an alchemical cartridge (or both), she can reload a single barrel of the weapon as a free action each round instead. Furthermore, using this deed does not provoke attacks of opportunity.'''
+
+[[entry]]
+id = "ref/deed/menacing-shot"
+anchor = "menacing-shot"
+print = '''At 15th level, the gunslinger can spend 1 grit point, shoot a firearm into the air, and affect all living creatures within a 30-foot-radius [burst](ref/misc/burst) as if they were subject to the _[fear](ref/spell/fear)_ spell. The DC of this effect is equal to 10 + 1/2 the gunslinger's level + the gunslinger's Wisdom modifier.'''
+
+[[entry]]
+id = "ref/deed/pistol-whip"
+anchor = "pistol-whip"
+print = '''At 3rd level, the gunslinger can make a surprise melee attack with the butt or handle of her firearm as a standard action. When she does, she is considered to be proficient with the firearm as a melee weapon and gains a bonus on the attack and damage rolls equal to the enhancement bonus of the firearm. The damage dealt by the pistol-whip is of the bludgeoning type, and is determined by the size of the firearm. One-handed firearms deal 1d6 points of damage (1d4 if wielded by Small creatures) and two-handed firearms deal 1d10 points of damage (1d8 if wielded by Small creatures). Regardless of the gunslinger's size, the critical multiplier of this attack is 20/×2. If the attack hits, the gunslinger can make a [combat maneuver](ref/rule/combat-maneuvers) check to knock the target [prone](ref/rule/prone) as a free action. Performing this deed costs 1 grit point.'''
+
+[[entry]]
+id = "ref/deed/quick-clear"
+anchor = "quick-clear"
+print = '''At 1st level, as a standard action, the gunslinger can remove the broken condition from a single firearm she is currently wielding, as long as that condition was gained by a firearm misfire. The gunslinger must have at least 1 grit point to perform this deed. Alternatively, if the gunslinger spends 1 grit point to perform this deed, she can perform quick clear as a move-equivalent action instead of a standard action.'''
+
+[[entry]]
+id = "ref/deed/slingers-luck"
+anchor = "slinger-s-luck"
+print = '''At 15th level, the gunslinger can spend grit to reroll a saving throw or a skill check. It costs 2 grit points to reroll a saving throw, and 1 grit point to reroll a skill check. The gunslinger must take the result of the second roll, even if it is lower. The deed's cost cannot be reduced by the true grit class ability, the [Signature Deed](ref/feat/signature-deed) feat, or any other effect that reduces the amount of grit a deed costs.'''
+
+[[entry]]
+id = "ref/deed/startling-shot"
+anchor = "startling-shot"
+print = '''At 7th level, a gunslinger with at least 1 grit point can spend a standard action to purposely miss a creature that she could normally hit with a firearm attack. When she does, that creature becomes [flat-footed](ref/rule/flat-footed) until the start of its next turn.'''
+
+[[entry]]
+id = "ref/deed/stunning-shot"
+anchor = "stunning-shot"
+print = '''At 19th level, when a gunslinger hits a creature, she can spend 2 grit points to [stun](ref/misc/stunned) the creature for 1 round. The creature must make a Fortitude saving throw (the DC = 10 + 1/2 the gunslinger's level + the gunslinger's Wisdom modifier). If the creature fails, it is stunned for 1 round. Creatures that are immune to critical hits are also immune to this effect.'''
+
+[[entry]]
+id = "ref/deed/utility-shot"
+anchor = "utility-shot"
+print = '''At 3rd level, if the gunslinger has at least 1 grit point, she can perform all of the following utility shots. Each utility shot can be applied to any single attack with a firearm, but the gunslinger must declare the utility shot she is using before firing the shot. • _Blast Lock_: The gunslinger makes an attack roll against a lock within the first range increment of her firearm. A Diminutive lock usually has AC 7, and larger locks have a lower AC. The lock gains a bonus to its AC against this attack based on its quality. A simple lock has a +10 bonus to AC, an average lock has a +15 bonus to AC, a good lock has a +20 bonus to AC, and a superior lock has a +30 bonus to AC. _[Arcane lock](ref/spell/arcane-lock)_ grants a +10 bonus to the AC of a lock against this attack. On a hit, the lock is destroyed, and the object can be opened as if it were unlocked. On a miss, the lock is destroyed, but the object is jammed and still considered locked. It can still be unlocked by successfully performing this deed, by using the Disable Device skill, or with the break DC, though the DC for either break or Disable Device or the AC increases by 10.
+
+A key, combination, or similar mechanical method of unlocking the lock no longer works, though _[knock](ref/spell/knock)_ can still be employed to bypass the lock, and the creator of an _[arcane lock](ref/spell/arcane-lock)_ can still bypass the wards of that spell. • _Scoot Unattended Object_: The gunslinger makes an attack roll against a Tiny or smaller unattended object within the first range increment of her firearm. A Tiny unattended object has an AC of 5, a Diminutive unattended object has an AC of 7, and a Fine unattended object has an AC of 11. On a hit, the gunslinger does not damage the object with the shot, but can move it up to 15 feet farther away from the shot's origin. On a miss, she damages the object normally. • _Stop Bleeding_: The gunslinger makes a firearm attack and then presses the hot barrel against herself or an adjacent creature to staunch a bleeding wound. Instead of dealing damage, the shot ends a single [bleed](ref/rule/bleed) condition affecting the creature. The gunslinger does not have to make an attack roll when performing the deed in this way; she can instead shoot the firearm into the air, but that shot still uses up ammunition normally.'''
+
+[[entry]]
+id = "ref/discovery/breath-weapon-bomb"
+anchor = "breath-weapon-bomb"
+print = '''Instead of drawing the components of, creating, and throwing a bomb, the alchemist can draw the components, drink them, mix them within his body, and then expel them as a breath weapon as a standard action. This breath weapon is a 15-foot cone and has the same DC as the bomb. Each creature within the cone takes damage as if it had suffered a direct hit from the alchemist's bomb, but succeeding at a Reflex save (DC = 10 + 1/2 the alchemist's level + the alchemist's Intelligent modifier) halves the damage. Unlike throwing normal bombs, drawing, drinking, and expelling breath weapon bombs does not provoke attacks of opportunity. An alchemist must be at least 6th level before selecting this discovery.'''
+
+[[entry]]
+id = "ref/discovery/explosive-missile"
+anchor = "explosive-missile"
+print = '''As a standard action, the alchemist can infuse a single arrow, crossbow bolt, or one-handed firearm bullet with the power of his bomb, load the ammunition, and shoot the ranged weapon. He must be proficient with the weapon in order to accomplish this. When the infused ammunition hits its target, it deals damage normally and detonates as if the alchemist had thrown the bomb at the target. If the explosive missile misses, it does not detonate. An alchemist must be at least 4th level before selecting this discovery.'''
+
+[[entry]]
+id = "ref/discovery/nauseating-flesh"
+anchor = "nauseating-flesh"
+print = '''The alchemist's body is suffused with poison. Any creature that bites, engulfs, or swallows the alchemist must make a Fortitude saving throw or be [nauseated](ref/misc/nauseated) for 1d4 rounds. An alchemist must be at least 12th level before selecting this discovery. The alchemist with this discovery does not suffer the effect of the poison of his own nauseating flesh.'''
+
+[[entry]]
+id = "ref/discovery/poison-conversion"
+anchor = "poison-conversion"
+print = '''By spending 1 minute, the alchemist can convert 1 dose of poison from its current type (contact, ingested, inhaled, or injury) to another type. For example, the alchemist can convert a dose of [Small centipede poison](ref/eq-poison/small-centipede-poison) (an injury poison) to an inhaled poison. This process requires an [alchemy lab](ref/misc/alchemy-lab). An alchemist must be at least 6th level before selecting this discovery.'''
+
+[[entry]]
+id = "ref/inquisition/black-powder"
+anchor = "granted-powers"
+print = '''You gain [Exotic Weapon Proficiency](ref/feat/exotic-weapon-proficiency) (firearms) and [Gunsmithing](ref/feat/gunsmithing) as bonus feats. When you hit an arcane spellcaster or a creature that uses [spell-like abilities](ref/umr/spell-like-abilities) with a firearm attack, that creature must succeed at a Fortitude saving throw. If the spellcaster fails, he takes a -4 penalty on [concentration](ref/rule/concentration) checks for 1 round.'''
+
+[[entry]]
+id = "ref/inquisition/spellkiller"
+anchor = "granted-powers"
+print = '''You gain Exotic Weapon Proficiency (firearms) and Gunsmithing as bonus feats. When you hit an arcane spellcaster or a creature that uses [spell-like abilities](ref/umr/spell-like-abilities) with a firearm attack, that creature must succeed at a Fortitude saving throw. If the spellcaster fails, he takes a -4 penalty on concentration checks for 1 round.'''
+
+[[entry]]
+id = "ref/ninjatrick/acrobatic-master"
+anchor = "acrobatic-master"
+print = '''As a swift action, a ninja with this trick can focus her ki to grant her a +20 bonus on one Acrobatics check of her choice made before the start of her next turn. Using this ability expends 1 ki point from her ki pool.'''
+
+[[entry]]
+id = "ref/ninjatrick/assassinate"
+anchor = "assassinate"
+print = '''A ninja with this master trick can kill foes that are unable to defend themselves. To attempt to assassinate a target, the ninja must first study her target for 1 round as a standard action. On the following round, if the ninja makes a sneak attack against the target and the target is denied its Dexterity bonus to AC, the sneak attack has the additional effect of possibly killing the target. This attempt automatically fails if the target recognizes the ninja as an enemy. If the sneak attack is successful and the target of this attack fails a Fortitude save, it dies. The DC of this save is equal to 10 + 1/2 the ninja's level + the ninja's Charisma modifier. If the save is successful, the target still takes the sneak attack damage as normal, but it is immune to that ninja's assassinate ability for 1 day.'''
+
+[[entry]]
+id = "ref/ninjatrick/bleeding-attack"
+anchor = "bleeding-attack"
+print = '''A ninja with this trick can cause living opponents to [bleed](ref/rule/bleed) by hitting them with a sneak attack. This attack causes the target to take 1 additional point of damage each round for each die of the ninja's sneak attack. Bleeding creatures take that amount of damage every round at the start of each of their turns. The bleeding can be stopped by a DC 15 Heal check or the application of any effect that heals hit point damage. Bleed damage from this ability does not stack with itself. Bleed damage bypasses any DR the creature might possess.'''
+
+[[entry]]
+id = "ref/ninjatrick/blinding-bomb"
+anchor = "blinding-bomb"
+print = '''Whenever the ninja throws a [smoke bomb](ref/ninjatrick/smoke-bomb), all living creatures in the cloud must make a Fortitude save or be [blinded](ref/misc/blinded) by the black smoke for 1d4 rounds. The DC of this saving throw is equal to 10 + 1/2 the ninja's level + the ninja's Charisma modifier. This trick cannot be combined with a [choking bomb](ref/ninjatrick/choking-bomb), but the ninja can combine a blinding bomb with a [poison bomb](ref/ninjatrick/poison-bomb). The ninja must have the [choking bomb](ref/ninjatrick/choking-bomb) ninja trick before selecting this trick.'''
+
+[[entry]]
+id = "ref/ninjatrick/choking-bomb"
+anchor = "choking-bomb"
+print = '''Whenever a ninja throws a smoke bomb, all living creatures in the resulting cloud must make a Fortitude save or become [staggered](ref/misc/staggered) by the choking black smoke for 1d4 rounds. The DC of this saving throw is equal to 10 + 1/2 the ninja's level + the ninja's Charisma modifier. The ninja can decide to create an ordinary smoke bomb or add poison to this smoke bomb as normal. The ninja must have the [poison bomb](ref/ninjatrick/poison-bomb) ninja trick before selecting this trick.'''
+
+[[entry]]
+id = "ref/ninjatrick/combat-trick"
+anchor = "combat-trick"
+print = '''A ninja who selects this trick gains a bonus combat feat.'''
+
+[[entry]]
+id = "ref/ninjatrick/darkvision"
+anchor = "darkvision"
+print = '''This trick allows the ninja to use her ki to enhance her sight, granting darkvision out to a range of 60 feet. Using this trick is a standard action that costs 1 ki point. The enhanced senses last for 1 hour.'''
+
+[[entry]]
+id = "ref/ninjatrick/deadly-range"
+anchor = "deadly-range"
+print = '''A ninja with this ninja trick increases the range at which she can deal sneak attack damage by 10 feet. A ninja can take this trick more than once. Its effects stack.'''
+
+[[entry]]
+id = "ref/ninjatrick/deadly-shuriken"
+anchor = "deadly-shuriken"
+print = '''As a full-round action, a ninja with this master trick can take careful aim and pool all of her attack potential into a single, deadly [shuriken](ref/eq-weapon/shuriken) throw. When she does this, she throws a single shuriken at a single target, but makes as many attack rolls as she can, based on her base attack bonus. She makes the attack rolls in order from highest bonus to lowest, as if she were making a full attack. If any of the attack rolls hit the target, the attack hits. For each additional successful attack roll beyond the first, the ninja increases the damage by 1d6. Precision damage and extra damage from weapon special abilities (such as _[flaming](ref/magic-enh/flaming)_) are added with damage modifiers and are not increased by this advanced talent. If one or more rolls are critical threats, she confirms the critical once using her highest base attack bonus -5. For each critical threat beyond the first, she reduces this penalty by 1 (to a maximum of 0).'''
+
+[[entry]]
+id = "ref/ninjatrick/deflect-arrows"
+anchor = "deflect-arrows"
+print = '''A ninja who selects this ninja trick gains the [Deflect Arrows](ref/feat/deflect-arrows) feat as a bonus feat. The ninja must have the [Improved Unarmed Strike](ref/feat/improved-unarmed-strike) combat feat before taking this trick.'''
+
+[[entry]]
+id = "ref/ninjatrick/evasion"
+anchor = "evasion"
+print = '''A ninja can avoid even magical and unusual attacks with great agility. If she makes a successful Reflex saving throw against an attack that normally deals half damage on a successful save, she instead takes no damage. [Evasion](ref/ability/evasion) can be used only if the ninja is wearing light armor or no armor. A helpless ninja does not gain the benefit of evasion.'''
+
+[[entry]]
+id = "ref/ninjatrick/fast-stealth"
+anchor = "fast-stealth"
+print = '''A ninja with this trick can move at full speed using the Stealth skill without penalty.'''
+
+[[entry]]
+id = "ref/ninjatrick/feat"
+anchor = "feat"
+print = '''A ninja may gain any feat that she qualifies for in place of a ninja trick.'''
+
+[[entry]]
+id = "ref/ninjatrick/feather-fall"
+anchor = "feather-fall"
+print = '''As an immediate action, the ninja can slow her descent as if using _[feather fall](ref/spell/feather-fall)_. This ability uses her ninja level as the caster level. Each use of this ability uses up 1 ki point.'''
+
+[[entry]]
+id = "ref/ninjatrick/flurry-of-stars"
+anchor = "flurry-of-stars"
+print = '''A ninja with this ability can expend 1 ki point from her ki pool as a swift action before she makes a full attack with [shuriken](ref/eq-weapon/shuriken). During that attack, she can throw two additional shuriken at her highest attack bonus, but all of her shuriken attacks are made at a -2 penalty, including the two extra attacks.'''
+
+[[entry]]
+id = "ref/ninjatrick/forgotten-trick"
+anchor = "forgotten-trick"
+print = '''A ninja with this ability can recall one trick taught to her by her ancient masters. When she uses this ability, she selects one ninja trick (not a master trick or rogue talent) that she does not know and can use that ninja trick for a number of rounds equal to her level. She must pay any ki costs associated with the trick as normal. Using this ability expends 2 ki point from her ki pool, plus the ki cost of the trick she chooses.'''
+
+[[entry]]
+id = "ref/ninjatrick/ghost-step"
+anchor = "ghost-step"
+print = '''As a swift action, a ninja with this trick can pass through walls as if she were a ghost. Until the end of her turn, she can pass through a wall or other surface that is up to 5 feet thick per level as if she were incorporeal. She must exit the solid material by the end of her turn. Each use of this ability uses up 1 ki point.'''
+
+[[entry]]
+id = "ref/ninjatrick/hidden-weapons"
+anchor = "hidden-weapons"
+print = '''A ninja with this ability can easily conceal weapons on her body. The ninja adds her level on opposed Sleight of Hand checks made to conceal a weapon. In addition, she can draw hidden weapons as a move action, instead of as a standard action.'''
+
+[[entry]]
+id = "ref/ninjatrick/high-jumper"
+anchor = "high-jumper"
+print = '''When a ninja with this trick makes a [high jump](ref/skill/acrobatics), the DC for that jump is half the normal DC. The ninja must have the [acrobatic master](ref/ninjatrick/acrobatic-master) trick before taking this talent.'''
+
+[[entry]]
+id = "ref/ninjatrick/invisible-blade"
+anchor = "invisible-blade"
+print = '''Whenever a ninja uses the [vanishing trick](ref/ninjatrick/vanishing-trick) ninja trick, she is treated as if she were under the effects of _[greater invisibility](ref/spell/invisibility-greater)_. The ninja must have the [vanishing trick](ref/ninjatrick/vanishing-trick) ninja trick before selecting this ninja trick.'''
+
+[[entry]]
+id = "ref/ninjatrick/ki-block"
+anchor = "ki-block"
+print = '''A ninja with this trick can prevent a creature from using its ki pool. Whenever the ninja deals sneak attack damage, the target must make a Will save or be unable to spend any points from its ki pool for a number of rounds equal to the ninja's Charisma modifier. The DC of this save is 10 + 1/2 the ninja's level + the ninja's Charisma modifier. The number of points in the target's ki pool is unaffected, and abilities that do not require the subject to spend ki still function.'''
+
+[[entry]]
+id = "ref/ninjatrick/ki-charge"
+anchor = "ki-charge"
+print = '''A ninja with this trick can invest a portion of her ki into a single thrown weapon, such as a [shuriken](ref/eq-weapon/shuriken), and throw it as a standard action. The thrown weapon explodes on impact in a 5-foot [burst](ref/misc/burst), dealing 1d6 points of fire damage plus 1d6 points of fire damage for every four levels of the ninja above 2nd, to a maximum 4d6 at 18th level. Creatures caught in the blast receive a Reflex save to halve the damage. The DC of this save is 10 + 1/2 the ninja's level + the ninja's Charisma modifier. If the thrown weapon hits a creature, that creature takes a -2 penalty on the saving throw. If the thrown weapon misses, treat it as a [thrown splash weapon](ref/rule/throw-splash-weapon). Using this ability expends 1 ki point from her ki pool.'''
+
+[[entry]]
+id = "ref/ninjatrick/master-disguise"
+anchor = "master-disguise"
+print = '''A ninja with this trick can take on the appearance of other creatures and individuals. Whenever the ninja uses the [sudden disguise](ref/ninjatrick/sudden-disguise) ninja trick, the duration increases to 10 minutes per level. Alternatively, the ninja can use the [sudden disguise](ref/ninjatrick/sudden-disguise) ninja trick to take on the appearance of a specific individual that the ninja has seen before for 1 minute per level. Creatures that are familiar with the individual receive a Will saving throw to see through the illusion. The DC of this saving throw is 10 + 1/2 the ninja's level + the ninja's Charisma modifier. This illusion also changes the ninja's speech, if she has heard the individual talk and can speak his language. The ninja must have the sudden disguise ninja trick before selecting this trick.'''
+
+[[entry]]
+id = "ref/ninjatrick/poison-bomb"
+anchor = "poison-bomb"
+print = '''Whenever the ninja throws a [smoke bomb](ref/ninjatrick/smoke-bomb), she can decide to include 1 dose of any inhaled poison she possesses. This poison affects all creatures in the smoke and lasts as long as the smoke lasts. She must pay for the poison normally. The ninja must have the [smoke bomb](ref/ninjatrick/smoke-bomb) ninja trick before selecting this trick.'''
+
+[[entry]]
+id = "ref/ninjatrick/pressure-points"
+anchor = "pressure-points"
+print = '''A ninja with this trick can strike at an opponent's vital pressure points, causing weakness and intense pain. Whenever the ninja deals sneak attack damage, she also deals 1 point of [Strength or Dexterity damage](ref/rule/ability-damage-drain), decided by the ninja. Unlike normal ability damage, this damage can be healed by a DC 15 Heal check. Each successful check heals 1 point of damage caused by this trick. A ninja with this trick receives a +10 insight bonus on this Heal check.'''
+
+[[entry]]
+id = "ref/ninjatrick/rogue-talent"
+anchor = "rogue-talent"
+print = '''The ninja can select a rogue talent in place of a ninja trick. The ninja cannot select a rogue talent that has the same name as a ninja trick. The ninja can select this talent multiple times.'''
+
+[[entry]]
+id = "ref/ninjatrick/see-the-unseen"
+anchor = "see-the-unseen"
+print = '''A ninja with this trick learns how to see that which cannot be seen. As a swift action, the ninja can cast _[see invisibility](ref/spell/see-invisibility)_, using her level as the caster level. Each use of this ability uses up 1 ki point.'''
+
+[[entry]]
+id = "ref/ninjatrick/shadow-clone"
+anchor = "shadow-clone"
+print = '''The ninja can create 1d4 shadowy duplicates of herself that conceal her true location. This ability functions as _[mirror image](ref/spell/mirror-image)_, using the ninja's level as her caster level. Using this ability is a standard action that uses up 1 ki point.'''
+
+[[entry]]
+id = "ref/ninjatrick/shadow-split"
+anchor = "shadow-split"
+print = '''This trick allows the ninja to create an illusory double of herself that moves away from her, allowing the ninja to create a distraction. When she uses this ability, an illusory double appears and moves away from the ninja, heading in one direction. The double climbs walls, jumps pits, or simply passes through obstacles, moving at twice the ninja's speed in the direction indicated by the ninja when the ability is used. Its course cannot be changed. The double persists for 1 round per level of the ninja. Those who interact with the double receive a Will saving throw to recognize that it is fake. The DC of this save is 10 + 1/2 the ninja's level + the ninja's Charisma modifier. Each use of this ability uses up 1 ki point. The ninja must possess the [shadow clone](ref/ninjatrick/shadow-clone) ninja trick before selecting this trick.'''
+
+[[entry]]
+id = "ref/ninjatrick/slow-metabolism"
+anchor = "slow-metabolism"
+print = '''The ninja has a slower-than-normal metabolism. She can [hold her breath](ref/misc/hold-your-breath) for twice as long as normal before needing to make Constitution checks (four times her Constitution score). In addition, whenever the ninja is poisoned, the time between saving throws (the poison's frequency) is doubled. Thus, a poison that has a frequency of "1/round for 6 rounds" would instead be "1/2 rounds for 12 rounds."'''
+
+[[entry]]
+id = "ref/ninjatrick/slow-reactions"
+anchor = "slow-reactions"
+print = '''Opponents that are damaged by the ninja's sneak attack can't make attacks of opportunity for 1 round.'''
+
+[[entry]]
+id = "ref/ninjatrick/smoke-bomb"
+anchor = "smoke-bomb"
+print = '''This ability allows a ninja to throw a smoke bomb that creates a cloud of smoke with a 15-foot radius. This acts like the smoke from a [smokestick](ref/eq-misc/smokestick). The ninja can center this smoke on herself, or throw the bomb as a ranged touch attack with a range of 20 feet. Using this ability is a standard action. Each use of this ability uses up 1 ki point.'''
+
+[[entry]]
+id = "ref/ninjatrick/snatch-arrows"
+anchor = "snatch-arrows"
+print = '''A ninja who selects this ninja trick gains the [Snatch Arrows](ref/feat/snatch-arrows) feat as a bonus feat. The ninja must have the [Improved Unarmed Strike](ref/feat/improved-unarmed-strike) feat and the [Deflect Arrows](ref/feat/deflect-arrows) feat before taking this trick.'''
+
+[[entry]]
+id = "ref/ninjatrick/style-master"
+anchor = "style-master"
+print = '''A ninja who selects this ninja trick gains a style feat that she qualifies for as a bonus feat.'''
+
+[[entry]]
+id = "ref/ninjatrick/sudden-disguise"
+anchor = "sudden-disguise"
+print = '''As a swift action, a ninja can change her appearance for 1 minute per level. This ability functions as _[disguise self](ref/spell/disguise-self)_. Each use of this ability uses up 1 ki point.'''
+
+[[entry]]
+id = "ref/ninjatrick/unarmed-combat-mastery"
+anchor = "unarmed-combat-mastery"
+print = '''A ninja who selects this trick deals damage with her unarmed strikes as if she were a [monk](ref/class/monk) of her ninja level -4. If the ninja has levels in monk, this ability stacks with monk levels to determine how much damage she can do with her unarmed strikes. A ninja must have the [Improved Unarmed Strike](ref/feat/improved-unarmed-strike) feat before taking this trick.'''
+
+[[entry]]
+id = "ref/ninjatrick/unarmed-combat-training"
+anchor = "unarmed-combat-training"
+print = '''A ninja who selects this ninja trick gains [Improved Unarmed Strike](ref/feat/improved-unarmed-strike) as a bonus feat.'''
+
+[[entry]]
+id = "ref/ninjatrick/unbound-steps"
+anchor = "unbound-steps"
+print = '''This trick allows a ninja to use her ki to walk through the air. Whenever the ninja uses the light steps class feature, she can walk on air, rising or descending as she desires. She must end her move on a solid surface. Each use of this ability uses up 1 ki point.'''
+
+[[entry]]
+id = "ref/ninjatrick/undetected-sabotage"
+anchor = "undetected-sabotage"
+print = '''Whenever a ninja with this trick uses [Disable Device](ref/skill/disable-device) to sabotage or disable a device, she can make a [Stealth](ref/skill/stealth) check with a bonus equal to her level. Anyone who inspects the device does not notice the sabotage and assumes the object works unless he beats the ninja's check with an opposed [Perception](ref/skill/perception) skill check.'''
+
+[[entry]]
+id = "ref/ninjatrick/vanishing-trick"
+anchor = "vanishing-trick"
+print = '''As a swift action, the ninja can disappear for 1 round per level. This ability functions as _[invisibility](ref/spell/invisibility)_. Using this ability uses up 1 ki point.'''
+
+[[entry]]
+id = "ref/ninjatrick/ventriloquism"
+anchor = "ventriloquism"
+print = '''As a swift action, the ninja can throw her voice as if using the spell _[ventriloquism](ref/spell/ventriloquism)_. She can use this ability for 1 minute per ninja level. Each use of this ability uses up 1 ki point.'''
+
+[[entry]]
+id = "ref/ninjatrick/wall-climber"
+anchor = "wall-climber"
+print = '''A ninja with this ability gains a climb speed of 20 feet, but only on vertical surfaces. This ability cannot be used to scale perfectly smooth surfaces or to climb on the underside of horizontal surfaces.'''
+
+[[entry]]
+id = "ref/ninjatrick/weapon-training"
+anchor = "weapon-training"
+print = '''A ninja who selects this ninja trick gains [Weapon Focus](ref/feat/weapon-focus) as a bonus feat.'''
+
+[[entry]]
+id = "ref/order/order-of-the-blue-rose"
+anchor = "flat-of-the-blade"
+print = '''At 2nd level, the cavalier of the order of the blue rose gains the ability to moderate his attacks in order to take an enemy alive. He no longer takes a -4 penalty when attacking with a lethal weapon to deal nonlethal damage. When dealing nonlethal damage, the cavalier receives a +2 bonus on damage rolls. When the cavalier makes use of this ability, he must attempt to subdue his target without killing it; dealing lethal damage after using this ability, or allowing his allies to kill the target, is considered a violation of his edicts.'''
+
+[[entry]]
+id = "ref/order/order-of-the-blue-rose"
+anchor = "inner-peace"
+print = '''At 8th level, the cavalier has learned that while not all things in the world will go as he wishes, he must remain calm and centered. Once per day as an immediate action, the cavalier may ignore an amount of damage from a single source (one attack, spell, or effect) equal to his cavalier level plus his Charisma modifier. He can only ignore hit point damage in this fashion. The cavalier can use this ability one additional time per day at 12th level and every four levels thereafter (to a maximum of four times per day at 20th level).'''
+
+[[entry]]
+id = "ref/order/order-of-the-blue-rose"
+anchor = "shield-of-blades"
+print = '''At 15th level, the cavalier gains an expert sense of impending violence around him. When taking the [total defense](ref/misc/total-defense) action, the cavalier can extend his protection to those around him, granting a +2 circumstance bonus to AC to all adjacent allies. In addition, while taking the total defense action, as an immediate action, the cavalier can attempt to deflect an attack by making an attack roll opposed by the attacker's original attack roll. If successful, the attack is deflected and deals no damage.'''
+
+[[entry]]
+id = "ref/order/order-of-the-seal"
+anchor = "keeper"
+print = '''At 2nd level, once per day the cavalier must select a location, or a secret that he has sworn to protect. If he chooses a location, he gains a +2 morale bonus on attack rolls when directly defending his charge. If he chooses a secret, he gains a +2 morale bonus on saving throws and opposed checks to resist revealing information about his charge. He gains these bonuses until he picks a new object, location, or secret to protect.'''
+
+[[entry]]
+id = "ref/order/order-of-the-seal"
+anchor = "i-shall-not-be-moved"
+print = '''At 8th level, the cavalier can draw on his dedication to overcome physical weakness. Whenever the cavalier does not move more than a 5-foot step, he receives a +2 dodge bonus to his CMD to resist bull rush, overrun, reposition, and trip combat maneuvers until his next turn.'''
+
+[[entry]]
+id = "ref/order/order-of-the-seal"
+anchor = "staggering-assault"
+print = '''At 15th level, the cavalier can drive opponents back without giving ground. As a full-round action, the cavalier can make a single attack at his highest attack bonus. If the attack hits, the attack does damage as normal, and the cavalier may attempt a [bull rush](ref/rule/bull-rush) against the target. The cavalier gains a bonus on the bull rush combat maneuver check equal to half the amount of damage dealt on the initial attack.'''
+
+[[entry]]
+id = "ref/order/order-of-the-tome"
+anchor = "specialized-knowledge"
+print = '''At 2nd level, an order of the tome cavalier chooses either Knowledge (arcana) or Knowledge (religion). He can make the chosen skill checks untrained. He cannot change his chosen skill later. If he has ranks in his chosen skill, he receives a bonus on the check equal to 1/2 his cavalier level (minimum +1) as long as that check involves a book, tome, scroll, or any other form of written knowledge.'''
+
+[[entry]]
+id = "ref/order/order-of-the-tome"
+anchor = "powerful-knowledge"
+print = '''At 8th level, the cavalier gains the ability to read scrolls and cast arcane or divine spells from a scroll as if he had a caster level of his cavalier level -4. He can decipher all scrolls, using his Linguistics skill in place of [Spellcraft](ref/skill/spellcraft), and does not need to cast _[read magic](ref/spell/read-magic)_ in order to decipher a scroll. Which type of spell the cavalier can cast is based on the Knowledge skill he chose for specialized knowledge. If he chose Knowledge (arcana), he can cast any arcane spells from a scroll. If he chose Knowledge (religion), he can cast any divine spells from a scroll. Furthermore, he gains a +1 bonus to an ability score for purposes of determining the level of spells he can cast from a scroll, and this bonus increases by +1 at 10th level and every 5 levels thereafter (to a maximum of +4 at 20th level). The ability score that gains the bonus is dependent on which skill the cavalier picked for his specialized knowledge ability. If the cavalier picked Knowledge (arcana), he gains the bonus to Intelligence. If he picked Knowledge (religion), he gains the bonus to Wisdom.'''
+
+[[entry]]
+id = "ref/order/order-of-the-tome"
+anchor = "defensive-knowledge"
+print = '''At 15th level, an order of the tome cavalier can grant nearby allies some of the boons of his cavalier challenge. While allies are adjacent to the cavalier, they gain a +2 bonus on all saving throws against spells or [spell-like abilities](ref/umr/spell-like-abilities) cast by the subject of the cavalier's challenge. In addition, as an immediate action, a number of times per day equal to the cavalier's Intelligence modifier (minimum 1) or Wisdom modifier (minimum 1), the cavalier can allow an ally adjacent to him to reroll a single failed saving throw against a spell or [spell-like ability](ref/umr/spell-like-abilities) from the target of his challenge. The ally must be able to see and hear the cavalier in order to gain this reroll. The ability score that determines how many times per day a cavalier can use this ability depends on which Knowledge skill the cavalier picked for specialized knowledge. If the cavalier picked Knowledge (arcana), the number of times per day this ability can be used is based on Intelligence. If he picked Knowledge (religion) it is based on Wisdom.'''
+
+[[entry]]
+id = "ref/order/order-of-the-warrior"
+anchor = "honor-in-all-things"
+print = '''At 2nd level, the order of the warrior samurai draws strength from his sense of honor. Whenever the samurai makes a skill check or saving throw, he can call upon his honor as a free action to grant him a +4 morale bonus on the roll. He can use this ability once per day at 2nd level, plus one additional time per day for every four levels beyond 2nd (maximum of five times per day at 18th level).'''
+
+[[entry]]
+id = "ref/order/order-of-the-warrior"
+anchor = "way-of-the-samurai"
+print = '''At 8th level, the order of the warrior samurai's sense of honor and loyalty drives him to accomplish seemingly impossible tasks. The samurai can, as a standard action, focus his mind and will. Once during the next minute, he can choose to roll an attack roll, skill check, or saving throw three times and take the best result. He must decide to use this ability before the roll is made. Using this ability expends one daily use of his resolve.'''
+
+[[entry]]
+id = "ref/order/order-of-the-warrior"
+anchor = "strike-true"
+print = '''At 15th level, the order of the warrior samurai can use his years of training and focus to make the perfect strike. When he uses this ability, the samurai makes an attack as normal. If the attack hits, it is a critical threat. The samurai must roll to confirm the critical as normal. The attack deals the maximum amount of damage, although additional dice from weapon qualities, [sneak attack](ref/ability/sneak-attack), and additional dice from a critical hit are rolled normally. The damage from this attack ignores any [damage reduction](ref/rule/damage-reduction) the target might have and also causes the target to become [blinded](ref/misc/blinded), [deafened](ref/misc/deafened), [sickened](ref/misc/sickened), or [staggered](ref/misc/staggered) for 1d4 rounds (the samurai's choice). Making this attack is a standard action. The samurai can use this ability once per day.'''
+
+[[entry]]
+id = "ref/order/ronin"
+anchor = "self-reliant"
+print = '''At 2nd level, the ronin learns to rely solely on himself, even in the most difficult of times. Whenever the ronin fails a Will saving throw against an effect with a duration greater than 1 round, he can attempt another saving throw at the end of the second round of the effect. If he makes this saving throw, it has the same effect as if he had made the original save (negating part or all of the effect). In addition, whenever a ronin is brought below 0 hit points, on his next turn he can roll twice to stabilize, taking the better result.'''
+
+[[entry]]
+id = "ref/order/ronin"
+anchor = "without-master"
+print = '''At 8th level, the ronin's fierce independence allows him to overcome staggering odds. The ronin can summon up this willpower as an immediate action, and can use it in one of three ways. He can use his willpower whenever an attack would reduce him to fewer than 0 hit points but wouldn't kill him, to instead be at 1 hit point and conscious. He can use his willpower after making an attack roll to confirm a critical hit in order to reroll the confirmation roll. Finally, he can use his willpower to take 10 on a skill check during combat, even if the situation or the skill would not normally allow him to take 10. A ronin can use this ability once during a combat.'''
+
+[[entry]]
+id = "ref/order/ronin"
+anchor = "chosen-destiny"
+print = '''At 15th level, the ronin is the master of his own destiny. Whenever the ronin makes a saving throw against a charm or compulsion effect, he may roll twice and take the better result. In addition, once per day, the ronin can treat any one d20 roll as if the result were a natural 20. He must declare the use of this ability before the roll is made.'''
+
+[[entry]]
+id = "ref/ragepower/auspicious-mark"
+anchor = "auspicious-mark"
+print = '''The barbarian has been marked by the spirits, as indicated by an impressive tattoo, scar, or birthmark she possesses. Once per rage, as a swift action that costs 2 rounds of rage, the barbarian can call upon the spirits' favor. Using auspicious mark grants her a +1d6 bonus on one d20 roll she has just made. She can call on the auspicious mark after seeing the result of the d20 roll.'''
+
+[[entry]]
+id = "ref/ragepower/bestial-climber"
+anchor = "bestial-climber"
+print = '''While raging, the barbarian gains a natural climb speed equal to her land speed. A barbarian must have the [raging climber](ref/ragepower/raging-climber) rage power and be at least 6th level before selecting this rage power.'''
+
+[[entry]]
+id = "ref/ragepower/bestial-leaper"
+anchor = "bestial-leaper"
+print = '''While raging, the barbarian can take a move action to move and can take her normal standard action at any point during the move. A barbarian must have the [raging leaper](ref/ragepower/raging-leaper) rage power and be at least 6th level before selecting this rage power.'''
+
+[[entry]]
+id = "ref/ragepower/bestial-swimmer"
+anchor = "bestial-swimmer"
+print = '''While raging, the barbarian gains a natural swim speed equal to her normal land speed. A barbarian must have the [raging swimmer](ref/ragepower/raging-swimmer) rage power and be at least 6th level before selecting this rage power.'''
+
+[[entry]]
+id = "ref/ragepower/bleeding-blow"
+anchor = "bleeding-blow"
+print = '''When she uses her [powerful blow](ref/ragepower/powerful-blow) rage power, the barbarian also deals [bleed](ref/rule/bleed) damage equal to her bonus damage with the powerful blow. This bleed damage bypasses [damage reduction](ref/rule/damage-reduction). A barbarian must have the [powerful blow](ref/ragepower/powerful-blow) rage power and be at least 8th level before selecting this rage power.'''
+
+[[entry]]
+id = "ref/ragepower/body-bludgeon"
+anchor = "body-bludgeon"
+print = '''While raging, if the barbarian [pins](ref/rule/grapple-conditions) an opponent that is smaller than her, she can then use that opponent as a two-handed [improvised weapon](ref/misc/improvised-weapons) that deals 1d8 points of bludgeoning damage, assuming the opponent is sized Small. Larger or smaller creatures used as a bludgeon deal damage based on their size using this base damage. A size Tiny creature deals 1d6 points of damage, a size Medium creature deals 1d10 points of damage, [and so on](ref/misc/damage-die-adjustments). The barbarian can make a single attack using the pinned opponent as part of the action she uses to maintain the grapple, using her highest attack bonus. Whenever the barbarian hits using the pinned opponent as a weapon, she deals damage to her target normally, and the grappled opponent used as a bludgeon also takes the same damage she dealt to the target. If the pinned opponent is unable to resist being pinned for any reason, the barbarian can use that opponent as an improvised weapon without grappling or pinning the opponent, until the creature is reduced to 0 or fewer hit points, at which point the creature becomes useless as an improvised weapon. A barbarian must be at least 10th level before selecting this rage power.'''
+
+[[entry]]
+id = "ref/ragepower/crippling-blow"
+anchor = "crippling-blow"
+print = '''When using her [powerful blow](ref/ragepower/powerful-blow) rage power, the barbarian can forgo the normal bonus to damage (including any bleed damage granted by the [bleeding blow](ref/ragepower/bleeding-blow) rage power or similar boosts to the damage of the [powerful blow](ref/ragepower/powerful-blow) rage power) and instead deals 1 point of [ability damage](ref/rule/ability-damage-drain) to the target's Strength or Dexterity score for every four class levels the barbarian has attained. The target can attempt a Fortitude saving throw (DC 10 + 1/2 the barbarian's level + the barbarian's Strength modifier) to halve this ability damage. A barbarian must have the [powerful blow](ref/ragepower/powerful-blow) rage power and be at least 8th level before selecting this rage power.'''
+
+[[entry]]
+id = "ref/ragepower/deadly-accuracy"
+anchor = "deadly-accuracy"
+print = '''If the barbarian scores a critical threat when using her [surprise accuracy](ref/ragepower/surprise-accuracy) rage power, she applies double the surprise accuracy bonus when rolling to confirm the critical. A barbarian must have the [surprise accuracy](ref/ragepower/surprise-accuracy) rage power and be at least 4th level before selecting this rage power.'''
+
+[[entry]]
+id = "ref/ragepower/dragon-totem"
+anchor = "dragon-totem"
+print = '''The barbarian must select a single color of dragon (black, blue, brass, bronze, copper, gold, green, red, silver, or white) as her totem. While raging, she gains a +1 bonus on Perception checks and a +1 morale bonus on saving throws against fear, paralysis, and sleep effects. This bonus increases by +1 for each additional dragon totem rage power (such as [dragon totem resilience](ref/ragepower/dragon-totem-resilience) and [dragon totem wings](ref/ragepower/dragon-totem-wings)) the barbarian possesses. A barbarian must have the [animal fury](ref/ragepower/animal-fury) and [intimidating glare](ref/ragepower/intimidating-glare) rage powers and be at least 6th level before selecting this rage power.'''
+
+[[entry]]
+id = "ref/ragepower/dragon-totem-resilience"
+anchor = "dragon-totem-resilience"
+print = '''While raging, the barbarian gains resistance to the energy type that is associated with her [dragon totem](ref/ragepower/dragon-totem)—acid (black, copper, green), cold (silver, white), electricity (blue, bronze), or fire (brass, gold, red). This resistance equals double her current DR/— from her barbarian [damage reduction](ref/rule/damage-reduction) class feature; this DR increases by 2 for each [dragon totem](ref/ragepower/dragon-totem) rage power she possesses, including this one. A barbarian must have the [dragon totem](ref/ragepower/dragon-totem) rage power and be at least 8th level before selecting this rage power.'''
+
+[[entry]]
+id = "ref/ragepower/dragon-totem-wings"
+anchor = "dragon-totem-wings"
+print = '''When a barbarian selects this rage power, the [Fly](ref/skill/fly) (Dex) skill becomes a class skill for her. While raging and wearing medium or lighter armor, the barbarian can spend a standard action to manifest a pair of spiritual dragon wings that grant her a fly speed equal to her base speed (average maneuverability). She can expend 2 rounds of her rage to instead spend an immediate action to gain this fly speed. She can end her fly speed at any time, even when it is not her turn. Each round she spends raging and flying counts as 2 rounds of rage. Her ability to fly ends automatically when she ceases raging. A barbarian must have the [dragon totem](ref/ragepower/dragon-totem) and [dragon totem resilience](ref/ragepower/dragon-totem-resilience) rage powers, and she must be at least 10th level before selecting this rage power.'''
+
+[[entry]]
+id = "ref/ragepower/eater-of-magic"
+anchor = "eater-of-magic"
+print = '''Once per rage, when a barbarian fails a saving throw against a spell, supernatural ability, or [spell-like ability](ref/umr/spell-like-abilities), she can reroll the saving throw against the effect (this is not an action). If she succeeds at the second saving throw, she is not affected by the spell, supernatural ability, or spell-like ability and gains a number of [temporary hit points](ref/rule/temporary-hit-points) equal to the effect's caster level (in the case of spell or spell-like abilities) or the CR of the effect's creator (in the case of supernatural abilities). These temporary hit points last until damage is applied to them or 1 minute, whichever occurs first. A barbarian must have the [superstition](ref/ragepower/superstition) rage power and be at least 10th level before selecting this rage power.'''
+
+[[entry]]
+id = "ref/ragepower/ghost-rager"
+anchor = "ghost-rager"
+print = '''While raging, the barbarian deals normal damage to incorporeal creatures even when using nonmagical weapons. She also gains a +3 morale bonus to touch AC, which increases by 1 at 8th level and every 4 levels thereafter (to a maximum of +7 at 20th level). This can't raise her touch AC above her full AC. A barbarian must be at least 6th level before selecting this rage power.'''
+
+[[entry]]
+id = "ref/ragepower/greater-ground-breaker"
+anchor = "greater-ground-breaker"
+print = '''When using the [ground breaker](ref/ragepower/ground-breaker)\*\* rage power, the barbarian can extend the radius of the effect by 5 feet. This rage power can be selected up to three times, and its effects stack. A barbarian must have the [ground breaker](ref/ragepower/ground-breaker) rage power and be at least 8th level before selecting this rage power.'''
+
+[[entry]]
+id = "ref/ragepower/greater-guarded-life"
+anchor = "greater-guarded-life"
+print = '''When using the [guarded life](ref/ragepower/guarded-life)\*\* rage power, 1 additional hit point of lethal damage per barbarian level is converted to nonlethal damage. A barbarian must have the [guarded life](ref/ragepower/guarded-life) rage power and be at least 6th level before selecting this rage power.'''
+
+[[entry]]
+id = "ref/ragepower/hive-totem"
+anchor = "hive-totem"
+print = '''While raging, the barbarian takes half damage from attacks by swarms of vermin, including spells and effects that act like a swarm of vermin (like _[summon swarm](ref/spell/summon-swarm)_ used to summon spiders or _[insect plague](ref/spell/insect-plague)_). She also gains a +1 bonus on Strength ability checks and to CMD against bull rush, drag, and trip attacks for every four barbarian levels she has (maximum +5). A barbarian must have the [animal fury](ref/ragepower/animal-fury) power and be at least 4th level before selecting this rage power.'''
+
+[[entry]]
+id = "ref/ragepower/hive-totem-resilience"
+anchor = "hive-totem-resilience"
+print = '''While raging, the barbarian takes no damage from attacks by swarms of vermin, preventing harmful secondary effects of such attacks like poison or bleed. She also gains a +1 bonus on combat maneuver checks and to CMD when grappling for every four barbarian levels she has (maximum +5). A barbarian must have the [hive totem](ref/ragepower/hive-totem) rage power and be at least 6th level before selecting this rage power.'''
+
+[[entry]]
+id = "ref/ragepower/hive-totem-toxicity"
+anchor = "hive-totem-toxicity"
+print = '''While raging, the barbarian increases her bite damage die type with the [animal fury](ref/ragepower/animal-fury) rage power [by one die type](ref/misc/damage-die-adjustments) and decreases the penalty on attack rolls with that bite to -2. Once per rage, a bite that hits can deliver an injury [toxin](ref/rule/poison) that has a frequency of once per round for 4 rounds, deals 1d3 points of [Constitution damage](ref/rule/ability-damage-drain), and has a cure of one save. The saving throw has a Fortitude save DC of 10 + 1/2 the barbarian's level + the barbarian's Constitution modifier. A barbarian must have the [hive totem](ref/ragepower/hive-totem) and [hive totem resilience](ref/ragepower/hive-totem-resilience) rage powers and be at least 8th level before selecting this rage power.'''
+
+[[entry]]
+id = "ref/ragepower/lethal-accuracy"
+anchor = "lethal-accuracy"
+print = '''When using her [surprise accuracy](ref/ragepower/surprise-accuracy) rage power, the barbarian's critical multiplier for damage increases by 1 (a ×2 multiplier becomes ×3, a 19–20/×2 multiplier becomes 19–20/×3, a ×3 multiplier becomes ×4, and a ×4 multiplier becomes ×5). A barbarian must have the [surprise accuracy](ref/ragepower/surprise-accuracy) and [deadly accuracy](ref/ragepower/deadly-accuracy) rage powers and be 16th level before selecting this rage power.'''
+
+[[entry]]
+id = "ref/ragepower/perfect-clarity"
+anchor = "perfect-clarity"
+print = '''While using her [moment of clarity](ref/ragepower/moment-of-clarity) rage power, the barbarian can roll twice for any miss chance or Will saving throws to disbelieve illusions, taking the better result. A barbarian must have the [moment of clarity](ref/ragepower/moment-of-clarity) rage power before selecting this rage power.'''
+
+[[entry]]
+id = "ref/ragepower/primal-scent"
+anchor = "primal-scent"
+print = '''When using her [scent](ref/rule/scent) rage power, the barbarian adds half her barbarian level on Survival checks made to track by [scent](ref/ragepower/scent) and on Perception checks to pinpoint the location of creatures she cannot see. If she pinpoints the location of a creature that has total [concealment](ref/rule/concealment), she treats it as having concealment. A barbarian must have the [scent](ref/ragepower/scent) rage power and be at least 8th level before selecting this rage power.'''
+
+[[entry]]
+id = "ref/ragepower/reflexive-dodge"
+anchor = "reflexive-dodge"
+print = '''While using her [rolling dodge](ref/ragepower/rolling-dodge) rage power, the barbarian may apply her dodge bonus to AC as a bonus on Reflex saving throws. A barbarian must have the [rolling dodge](ref/ragepower/rolling-dodge) rage power and be at least 6th level before selecting this rage power.'''
+
+[[entry]]
+id = "ref/ragepower/regenerative-vigor"
+anchor = "regenerative-vigor"
+print = '''After using her [renewed vigor](ref/ragepower/renewed-vigor) rage power until her current rage ends, the barbarian gains [fast healing](ref/umr/fast-healing) 1 for every 6 barbarian levels she has (maximum [fast healing](ref/umr/fast-healing) 3). She regains hit points from fast healing at the start of each of her turns. A barbarian must have the [renewed vigor](ref/ragepower/renewed-vigor) rage power and be at least 6th level before selecting this rage power.'''
+
+[[entry]]
+id = "ref/ragepower/renewed-life"
+anchor = "renewed-life"
+print = '''While raging, the barbarian ignores the effect of one temporary [negative level](ref/rule/energy-drain-and-negative-levels) per four barbarian levels she has (maximum 5). Once per day, when a barbarian with temporary negative levels ends her rage, she can attempt saving throws to remove a number of negative levels equal to the number of levels she could ignore while raging. A barbarian must have the [renewed vitality](ref/ragepower/renewed-vitality) rage power and be at least 6th level before selecting this rage power.'''
+
+[[entry]]
+id = "ref/ragepower/renewed-vitality"
+anchor = "renewed-vitality"
+print = '''While raging, the barbarian ignores the effect of 1 point of ability penalty or damage per two barbarian levels she has (maximum 10). Once per day, when a barbarian with ability penalties or damage ends her rage, she can reroll a saving throw, if any, against an effect that imposed an ability penalty or dealt her ability damage. If successful, she removes an amount of ability penalty or damage equal to the amount she can ignore while raging. A barbarian must have the [renewed vigor](ref/ragepower/renewed-vigor) rage power and be at least 4th level before selecting this rage power.'''
+
+[[entry]]
+id = "ref/ragepower/sharpened-accuracy"
+anchor = "sharpened-accuracy"
+print = '''When using her [surprise accuracy](ref/ragepower/surprise-accuracy) rage power, the barbarian ignores the miss chance for [concealment](ref/rule/concealment) and treats total concealment as concealment. She also ignores cover penalties except those from total cover. A barbarian must have the [surprise accuracy](ref/ragepower/surprise-accuracy) rage power and be at least 8th level before selecting this rage power.'''
+
+[[entry]]
+id = "ref/ragepower/spell-sunder"
+anchor = "spell-sunder"
+print = '''Once per rage, the barbarian can attempt to [sunder](ref/rule/sunder) an ongoing spell effect by succeeding at a combat maneuver check. For any effect other than one on a creature, the barbarian must make her combat maneuver check against a CMD of 15 plus the effect's caster level. To sunder an effect on a creature, the barbarian must succeed at a normal sunder combat maneuver against the creature's CMD + 5, ignoring any miss chance caused by a spell or [spell-like ability](ref/umr/spell-like-abilities). If successful, the barbarian suppresses the effect for 1 round, or 2 rounds if she exceeded the CMD by 5 to 9. If she exceeds the CMD by 10 or more, the effect is dispelled. A barbarian must have the [witch hunter](ref/ragepower/witch-hunter) rage power and be at least 6th level before selecting this rage power.'''
+
+[[entry]]
+id = "ref/ragepower/sprint"
+anchor = "sprint"
+print = '''Once per rage, the barbarian can use a single full-round run action to move up to 6 times her speed or a single full-round [charge](ref/rule/charge) action to move up to 3 times her speed. A barbarian must have the [swift foot](ref/ragepower/swift-foot) rage power and be at least 4th level before selecting this rage power.'''
+
+[[entry]]
+id = "ref/ragepower/sunder-enchantment"
+anchor = "sunder-enchantment"
+print = '''While raging, whenever the barbarian succeeds at a [sunder](ref/rule/sunder) combat maneuver on a magical item, that item's magical abilities are suppressed for 1 round, plus 1 round for every 5 points by which her combat maneuver check exceeded the target's CMD. A barbarian must have the [spell sunder](ref/ragepower/spell-sunder) rage power and be at least 8th level before selecting this rage power.'''
+
+[[entry]]
+id = "ref/ragepower/world-serpent-spirit"
+anchor = "world-serpent-spirit"
+print = '''While raging, the barbarian considers her weapons to be chaotic-, evil-, good-, and lawful-aligned for the purposes of overcoming [damage reduction](ref/rule/damage-reduction). She also gains a +1 resistance bonus on saving throws against spells and effects that have an alignment descriptor or come from an outsider or aberration. This bonus increases by +1 for each world serpent rage power the barbarian possesses, excluding this one. A barbarian must have the [world serpent totem](ref/ragepower/world-serpent-totem) rage power and be at least 6th level before selecting this rage power.'''
+
+[[entry]]
+id = "ref/ragepower/world-serpent-totem"
+anchor = "world-serpent-totem"
+print = '''While raging, the barbarian gains a +1 insight bonus to AC against outsiders and aberrations. This bonus increases by +1 for each world serpent rage power the barbarian possesses, excluding this one.'''
+
+[[entry]]
+id = "ref/ragepower/world-serpent-totem-unity"
+anchor = "world-serpent-totem-unity"
+print = '''While raging, the barbarian doubles her fast movement bonus to land speed and cannot be knocked [prone](ref/rule/prone). She also doubles her [world serpent totem](ref/ragepower/world-serpent-totem) insight bonus to AC against attack rolls made by an outsider or aberration to confirm a critical hit against her. A barbarian must have the [world serpent totem](ref/ragepower/world-serpent-totem) and world serpent totem spirit rage powers and be at least 10th level before selecting this rage power.'''
+
+[[entry]]
+id = "ref/talent/black-market-connections"
+anchor = "black-market-connections"
+print = '''A rogue with this talent gains better access to magic items from black market connections. She treats every [settlement](ref/rule/settlements-and-districts) as one size greater (see Table 15–1 on page 461 of the _Core Rulebook_) for the purpose of determining the gp limit of the base value of items for sale, as well as the number of minor, medium, and major magic items for sale in the settlement. If the settlement is already a metropolis, all minor and medium magic items are for sale, as well as 3d8 major magic items. With a successful Diplomacy check, the rogue can treat the settlement as two sizes larger. If the settlement is already a metropolis and she succeeds at the check, all magic items are for sale. If the settlement is already a large city and she succeeds at the check, all minor and medium magic items are for sale, as well as 3d8 major magic items. With a successful check, the rogue can also sell stolen items on the black market. If the check fails by 5 or more, the rogue does something to spook the market, and treats the city as normal for 1 week. Furthermore, those in control of the black market may alert the authorities to the rogue's presence in an act of reprisal for spooking the market or to divert attention away from their illicit activities. The DCs of the checks are by settlement size and are given in the table below.
+
+| Community Size | DC |
+| --- | ---: |
+| Thorp | 10 |
+| Hamlet | 12 |
+| Village | 15 |
+| Small town | 18 |
+| Large town | 20 |
+| Small city | 25 |
+| Large city | 30 |
+| Metropolis | 35 |'''
+
+[[entry]]
+id = "ref/talent/convincing-lie"
+anchor = "convincing-lie"
+print = '''When a rogue with this talent lies, she creates fabrications so convincing that others treat them as truth. When a rogue with this talent successfully uses the [Bluff](ref/skill/bluff) skill to convince someone that what she is saying is true, if that individual is questioned later about the statement or story, that person uses the rogue's Bluff skill modifier to convince the questioner, rather than his own. If his Bluff skill modifier is better than the rogue's, the individual can use his own modifier and gain a +2 bonus on any check to convince others of the lie. This effect lasts for a number of days equal to 1/2 the rogue's level + the rogue's Charisma modifier.'''
+
+[[entry]]
+id = "ref/talent/deft-palm"
+anchor = "deft-palm"
+print = '''A rogue with this talent can make a [Sleight of Hand](ref/skill/sleight-of-hand) check to conceal a weapon while holding it in plain sight, even while she is being observed.'''
+
+[[entry]]
+id = "ref/talent/esoteric-scholar"
+anchor = "esoteric-scholar"
+print = '''Once a day, a rogue with this talent may attempt a [Knowledge](ref/skill/knowledge-all) check, even when she is not trained in that Knowledge skill.'''
+
+[[entry]]
+id = "ref/talent/familiar"
+anchor = "familiar"
+print = '''A rogue with this talent gains a [familiar](ref/sidekick/familiar) as the [familiar](ref/ability/familiars) option of the wizard's arcane bond class feature. This ability functions exactly like that part of the class feature, but the rogue's effective wizard level is her rogue level -4. The rogue must have the [minor magic](ref/talent/minor-magic) and [major magic](ref/talent/major-magic) talents before she can choose this talent.'''
+
+[[entry]]
+id = "ref/talent/firearm-training"
+anchor = "firearm-training"
+print = '''A rogue with this talent gains [Exotic Weapon Proficiency](ref/feat/exotic-weapon-proficiency) (firearms).'''
+
+[[entry]]
+id = "ref/talent/getaway-artist"
+anchor = "getaway-artist"
+print = '''A rogue with this talent adds [Fly](ref/skill/fly), [Handle Animal](ref/skill/handle-animal), and [Ride](ref/skill/ride) to her list of class skills, and gains a +2 bonus on all [driving checks](ref/rule/vehicle-basics).'''
+
+[[entry]]
+id = "ref/talent/getaway-master"
+anchor = "getaway-master"
+print = '''A rogue with this talent gains a +10 bonus on all [drive checks](ref/rule/vehicle-basics). The rogue must have the [getaway artist](ref/talent/getaway-artist) rogue talent before choosing this talent.'''
+
+[[entry]]
+id = "ref/talent/grit"
+anchor = "grit"
+print = '''A rogue with this talent gains the [Amateur Gunslinger](ref/feat/amateur-gunslinger) feat and one grit feat of her choice. She must fulfill the prerequisites of the grit feat in order to choose it. A rogue must have the [firearm training](ref/talent/firearm-training) talent before choosing this one.'''
+
+[[entry]]
+id = "ref/talent/hard-minded"
+anchor = "hard-minded"
+print = '''A rogue with this talent is hard to fool with illusions. She automatically receives a save to disbelieve any illusion she can see each round at the start of her turn, even if she hasn't interacted with it. If she fails a saving throw against an illusion that is not to disbelieve, she can attempt to save again again 1 round later at the same DC. She gets only one extra chance to succeed at her saving throw.'''
+
+[[entry]]
+id = "ref/talent/hide-in-plain-sight"
+anchor = "hide-in-plain-sight"
+print = '''A rogue with this talent can select a single terrain from the ranger's [favored terrain](ref/ability/favored-terrain) list. She is a master at hiding in that terrain, and while within that terrain, she can use the [Stealth](ref/skill/stealth) skill to hide, even while being observed. A rogue may take this advanced talent more than once, each time selecting a different terrain from the favored terrain list.'''
+
+[[entry]]
+id = "ref/talent/hold-breath"
+anchor = "hold-breath"
+print = '''A rogue with this talent increases the number of rounds she can [hold her breath](ref/misc/hold-your-breath) by 2. She can take this talent multiple times.'''
+
+[[entry]]
+id = "ref/talent/iron-guts"
+anchor = "iron-guts"
+print = '''A rogue with this talent has a cast-iron stomach or has trained herself to withstand poisons, especially ingested ones. She gains a +1 bonus on all saves against ingested poisons as well as a +4 bonus on saves against all spells and effects that cause the rogue to be [nauseated](ref/misc/nauseated) or [sickened](ref/misc/sickened).'''
+
+[[entry]]
+id = "ref/talent/ki-pool"
+anchor = "ki-pool"
+print = '''A rogue with this talent gains a small ki pool. This ki pool is similar to a [ninja's](ref/class/ninja) ki pool, but the rogue's ki pool does not grant any extra attacks. The rogue gains a number of ki points equal to her Wisdom modifier (minimum 1). These ki points replenish at the start of each day. If she already has a ki pool, or gains a ki pool later, she gains half her Wisdom bonus (minimum 1) as bonus ki points to her ki pool. She can spend a ki point to gain a +10- foot bonus to movement until the end of her turn.'''
+
+[[entry]]
+id = "ref/talent/master-tricks"
+anchor = "master-tricks"
+print = '''The rogue can select a ninja trick from the list of master tricks in place of a rogue talent. The rogue cannot select a ninja trick that has the same name as a rogue talent. The rogue can choose but cannot use tricks that require ki points, unless she has a ki pool.'''
+
+[[entry]]
+id = "ref/talent/ninja-trick"
+anchor = "ninja-trick"
+print = '''A rogue with this talent can choose a trick from the ninja trick list (see pages 14–16). The rogue can choose but cannot use talents that require ki points, unless she has a ki pool. A rogue can pick this talent more than once. The rogue cannot choose a ninja trick with the same name as a rogue talent.'''
+
+[[entry]]
+id = "ref/talent/rope-master"
+anchor = "rope-master"
+print = '''A rogue with this ability can move at her normal speed when using rope on a [Climb](ref/skill/climb) check, can take 10 when using [Acrobatics](ref/skill/acrobatics) to move over narrow surfaces even when in danger or distracted, and gains a +4 bonus when determining the DC to escape bonds when she ties up a creature.'''
+
+[[entry]]
+id = "ref/talent/rumormonger"
+anchor = "rumormonger"
+print = '''A rogue with this talent can attempt to spread a rumor through a small town or larger settlement by making a [Bluff](ref/skill/bluff) check. She can do so a number of times per week equal to her Charisma modifier (minimum 0). The DC is based on the size of the settlement, and it takes a week for the rumor to propagate through the settlement. If the check succeeds, the rumor is practically accepted as fact within the community; succeeding by 5 or more over the DC decreases the time it takes the rumor to propagate by 1d4 days. A failed check means the rumor failed to gain traction, while failing by 5 or more causes the opposite of the rumor or some other competing theory involving the rumor's subject to take hold.'''
+
+[[entry]]
+id = "ref/talent/strong-stroke"
+anchor = "strong-stroke"
+print = '''A rogue with this talent rolls twice when making [Swim](ref/skill/swim) checks and takes the better result. If she already rolls twice while making a Swim check because of another ability or effect, she gains a +2 insight bonus on both of those rolls instead. If the rogue is under the effect of a spell or ability that forces her to roll two dice and take the worse result, she only needs to roll 1d20 while making Swim checks.'''
+
+[[entry]]
+id = "ref/talent/terrain-mastery"
+anchor = "terrain-mastery"
+print = '''A rogue with this talent gains a [favored terrain](ref/ability/favored-terrain) as the ranger ability of the same name, though the favored terrain ability does not increase with her level as the ranger's ability does. A rogue can take this ability multiple times, each time applying it to a new terrain.'''
+
+[[entry]]
+id = "ref/talent/underhanded"
+anchor = "underhanded"
+print = '''A rogue with this talent gains a +4 circumstance bonus on all [Sleight of Hand](ref/skill/sleight-of-hand) checks made to conceal a weapon. Furthermore, if she makes a sneak attack during the surprise round using a concealed weapon that her opponent didn't know about, she does not have to roll sneak attack damage, and the sneak attack deals maximum damage. A rogue can only use the underhanded talent a number of times per day equal to her Charisma modifier (minimum 0).'''
+
+[[entry]]
+id = "ref/talent/unwitting-ally"
+anchor = "unwitting-ally"
+print = '''A rogue with this talent can spend a swift action to attempt to make an opponent act like an ally for purposes of providing a [flank](ref/rule/flanking) until the beginning of the rogue's next turn. The opponent must be able to hear and see the rogue, and the rogue must succeed at a Bluff check opposed by the opponent's Sense Motive. If the check succeeds, the opponent acts as an ally for the purpose of providing a flank. Whether or not the check succeeds, the rogue cannot use this trick again on the same opponent for the next 24 hours. If the rogue fails the check by 5 or more, she cannot use the unwitting ally ability on any opponent within line of sight of the failed attempt for 24 hours.'''
+
+[[entry]]
+id = "ref/talent/wall-scramble"
+anchor = "wall-scramble"
+print = '''A rogue with this talent rolls twice when making [Climb](ref/skill/climb) checks and takes the better of the two rolls. If she already rolls twice while making a Climb check because of another ability or effect, she gains a +2 insight bonus on both of those rolls instead. If the rogue is under the effect of a spell or ability that forces her to roll two dice and take the worse result, she only needs to roll 1d20 while making Climb checks.'''
+
+[[entry]]
+id = "ref/talent/weapon-snatcher"
+anchor = "weapon-snatcher"
+print = '''A rogue with this talent can make a [Sleight of Hand](ref/skill/sleight-of-hand) check in place of a combat maneuver check when attempting to [disarm](ref/rule/disarm) an opponent.'''

@@ -13,11 +13,8 @@ page = "12"
 [fields]
 kind = "class_option"
 group = "gunslinger-deed"
+ability_type = "Ex"
 +++
 
-**Expert Loading (Ex)**
-
-**Ability:** Whenever the gunslinger rolls a misfire with a gun that has the broken condition, she
+At 11th level, whenever the gunslinger rolls a misfire with a gun that has the broken condition, she
 can spend 1 grit point to keep the gun from exploding, though it retains the broken condition.
-
-**Prereq:** 11th-level gunslinger

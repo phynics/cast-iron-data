@@ -15,11 +15,8 @@ kind = "class_option"
 group = "alchemist-discovery"
 +++
 
-**Poison Conversion**
-
-**Ability:** By spending 1 minute, the alchemist can convert 1 dose of poison from its current type
-(contact, ingested, inhaled, or injury) to another type. For example, the alchemist can convert a
-dose of [Small centipede poison](ref/eq-poison/small-centipede-poison) (an injury poison) to an
-inhaled poison. This process requires an [alchemy lab](ref/misc/alchemy-lab).
-
-**Prereq:** 6th-level alchemist
+By spending 1 minute, the alchemist can convert 1 dose of poison from its current type (contact,
+ingested, inhaled, or injury) to another type. For example, the alchemist can convert a dose of
+[Small centipede poison](ref/eq-poison/small-centipede-poison) (an injury poison) to an inhaled
+poison. This process requires an [alchemy lab](ref/misc/alchemy-lab). An alchemist must be at least
+6th level before selecting this discovery.

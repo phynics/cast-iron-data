@@ -13,13 +13,10 @@ page = "27"
 [fields]
 kind = "class_option"
 group = "rage-power"
+ability_type = "Su"
 +++
 
-**Ghost Rager (Su)**
-
-**Passive:** While _raging,_ the barbarian deals normal damage to incorporeal creatures even when
-using nonmagical weapons. She also gains a morale bonus to touch AC equal to 2 +
-[one-fourth](ref/misc/fractions-and-rounding) of her barbarian level. This can't raise her touch AC
-above her full AC.
-
-**Prereq:** 6th-level barbarian
+While raging, the barbarian deals normal damage to incorporeal creatures even when using nonmagical
+weapons. She also gains a +3 morale bonus to touch AC, which increases by 1 at 8th level and every 4
+levels thereafter (to a maximum of +7 at 20th level). This can't raise her touch AC above her full
+AC. A barbarian must be at least 6th level before selecting this rage power.

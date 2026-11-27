@@ -13,13 +13,9 @@ page = "17"
 [fields]
 kind = "class_option"
 group = "ninja-trick"
+ability_type = "Su"
 +++
 
-**Unbound Steps (Su)**
-
-**Flavor:** This trick allows a ninja to use her ki to walk through the air.
-
-**Ability:** Whenever the ninja uses the _light steps_ class feature, she can walk on air, rising or
-descending as she desires. She must end her move on a solid surface.
-
-**Special:** Each use of this ability uses up 1 ki point.
+This trick allows a ninja to use her ki to walk through the air. Whenever the ninja uses the light
+steps class feature, she can walk on air, rising or descending as she desires. She must end her move
+on a solid surface. Each use of this ability uses up 1 ki point.
