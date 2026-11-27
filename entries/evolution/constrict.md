@@ -15,13 +15,11 @@ kind = "class_option"
 group = "summoner-evolution"
 +++
 
-**Constrict (Ex)**
+2-Point Evolutions: The following evolutions cost 2 points from the eidolon's evolution pool.
 
-**Flavor:** An eidolon gains powerful muscles that allow it to crush those it grapples.
-
-**Ability:** Whenever the eidolon successfully grapples a foe using the
-_[grab](ref/carried/bestiary/rules/universal-monster-rules/grab)_ evolution, it deals additional
+An eidolon gains powerful muscles that allow it to crush those it grapples. Whenever the eidolon
+successfully grapples a foe using the
+[grab](ref/carried/bestiary/rules/universal-monster-rules/grab) evolution, it deals additional
 damage equal to the amount of damage dealt by the attack used by the
-_[grab](ref/carried/bestiary/rules/universal-monster-rules/grab)_ evolution.
-
-**Prereq:** [Grab](ref/evolution/grab), serpentine base form
+[grab](ref/carried/bestiary/rules/universal-monster-rules/grab) evolution. This evolution is only
+available to eidolons of the serpentine base form.

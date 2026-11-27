@@ -15,10 +15,8 @@ kind = "class_option"
 group = "rage-power"
 +++
 
-**Greater Ferocious Mount (Ex)**
-
-**Passive:** While _raging_ and mounted, the barbarian's mount gains the benefits of any rage powers
-that are constant in effect when the barbarian is _raging._ It does not gain the benefit of any rage
-powers that require actions to activate, even if they are free actions.
-
-**Prereq:** 8th-level barbarian, [ferocious mount](ref/ragepower/ferocious-mount)
+While raging and mounted, the barbarian's mount gains the benefits of any rage powers that are
+constant in effect when the barbarian is raging. It does not gain the benefit of any rage powers
+that require actions to activate, even if they are free actions. A barbarian must have the
+[ferocious mount](ref/ragepower/ferocious-mount) rage power to select this rage power. A barbarian
+must be at least 8th level to select this rage power.

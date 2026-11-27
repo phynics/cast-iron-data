@@ -15,32 +15,27 @@ page = "40"
 
 [fields]
 kind = "archetype"
+features = [
+  { anchor = "focused-performance", level = 2 },
+]
 trades = [
-  { replaces = "Versatile performance", feature = "versatile-performance" },
+  { replaces = "Versatile performance", feature = "versatile-performance", by = ["focused-performance"] },
 ]
 +++
 
+While not as popular as some of the great bardic schools of the Inner Sea, Pitax's Academy of Grand
+Arts still manages to attract some students seeking greater specialization.
+
 Bards who have successfully mastered the strict curriculum of Pitax's Academy of Grand Arts to
 graduate are more adept in their assigned field of performance, at the expense of versatility in
-other areas. Such bards have the _focused performance_ alternate class ability, which replaces
-_versatile performance._
+other areas. Such bards have the focused performance alternate class ability, which replaces
+versatile performance.
 
-**Focused Performance (Ex)**
+## Focused Performance (Ex) {#focused-performance}
 
-**Ability:** The bard gains [Extra Performance](ref/feat/extra-performance) as a bonus feat, usable
-only with the chosen category of the Perform skill.
-
-**Choice:** A bard must choose one type of Perform skill.
-
-**At 14th Level:** The bard gains Extra Performance again as an additional bonus feat.
-
-**At 20th Level:** The bard again gains Extra Performance as an additional bonus feat.
-
-**At 8th Level:** The bard gains Extra Performance as an additional bonus feat.
-
-**Gained:** At 2nd Level
-
-**Replaces:** Versatile performance
-
-**Special:** The additional uses of bardic performance gained from the bonus feats cannot be used
-with any category of the Performance skill other than the one chosen at 2nd level.
+At 2nd level, a bard must choose one type of Perform skill. The bard gains
+[Extra Performance](ref/feat/extra-performance) as a bonus feat, usable only with the chosen
+category of the Perform skill. At 8th level, and every 6 levels thereafter, the bard gains Extra
+Performance as an additional bonus feat. The additional uses of bardic performance gained from these
+feats cannot be used with any category of the Performance skill other than the one chosen at 2nd
+level.

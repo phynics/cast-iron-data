@@ -16,15 +16,27 @@ page = "9"
 
 [fields]
 kind = "archetype"
+features = [
+  { anchor = "mute" },
+  { anchor = "eschew-materials", level = 1 },
+  { anchor = "symphony-of-silence", level = 3 },
+  { anchor = "maddening-harmonics", level = 14 },
+  { anchor = "ceaseless-performance", level = 15 },
+  { anchor = "song-of-the-conjunction", level = 18 },
+  { anchor = "insights-from-beyond", level = 2 },
+  { anchor = "dulled-horror", level = 2 },
+  { anchor = "eldritch-caesura", level = 10 },
+  { anchor = "ex-mute-musicians" },
+]
 trades = [
-  { replaces = "Bardic knowledge", feature = "bardic-knowledge" },
-  { replaces = "Inspire competence", feature = "bardic-performance", power = "inspire competence" },
-  { replaces = "Frightening tune", feature = "bardic-performance", power = "frightening tune" },
-  { replaces = "Inspire heroics", feature = "bardic-performance", power = "inspire heroics" },
-  { replaces = "Mass suggestion", feature = "bardic-performance", power = "mass suggestion" },
-  { replaces = "Versatile performance", feature = "versatile-performance" },
-  { replaces = "Well-versed", feature = "well-versed" },
-  { replaces = "Jack-of-all-trades", feature = "jack-of-all-trades" },
+  { replaces = "Bardic knowledge", feature = "bardic-knowledge", by = ["eschew-materials"] },
+  { replaces = "Inspire competence", feature = "bardic-performance", power = "inspire competence", by = ["symphony-of-silence"] },
+  { replaces = "Frightening tune", feature = "bardic-performance", power = "frightening tune", by = ["maddening-harmonics"] },
+  { replaces = "Inspire heroics", feature = "bardic-performance", power = "inspire heroics", by = ["ceaseless-performance"] },
+  { replaces = "Mass suggestion", feature = "bardic-performance", power = "mass suggestion", by = ["song-of-the-conjunction"] },
+  { replaces = "Versatile performance", feature = "versatile-performance", by = ["insights-from-beyond"] },
+  { replaces = "Well-versed", feature = "well-versed", by = ["dulled-horror"] },
+  { replaces = "Jack-of-all-trades", feature = "jack-of-all-trades", by = ["eldritch-caesura"] },
 ]
 +++
 
@@ -34,126 +46,97 @@ the darker aspects of [Desna](ref/faith/desna) as their inspiration for these pe
 mute musicians find their muse in the alien sounds of the Elder Mythos and the entities that orbit
 the blind idiot god [Azathoth](ref/faith/azathoth), who floats in the heart of the Dark Tapestry.
 
-**Mute (Ex)**
+## Mute (Ex) {#mute}
 
-**Ability:** A mute musician has a disability or injury (possibly self-inflicted or even
-psychological) that prevents her from speaking or vocalizing. Language-dependent effects (including
-Perform \[oratory\]) require the bard to be able to use telepathy, nonverbal languages, or writing
-to communicate. She cannot use Perform (sing) or speak languages, though she can still create
-audible bardic performances by means of a musical instrument. A mute musician can provide verbal and
-somatic components for spells she casts via any musical instrument in which she has ranks in the
-appropriate Perform skill.
+A mute musician has a disability or injury (possibly self-inflicted or even psychological) that
+prevents her from speaking or vocalizing. Language-dependent effects (including Perform \[oratory\])
+require the bard to be able to use telepathy, nonverbal languages, or writing to communicate. She
+cannot use Perform (sing) or speak languages, though she can still create audible bardic
+performances by means of a musical instrument. A mute musician can provide verbal and somatic
+components for spells she casts via any musical instrument in which she has ranks in the appropriate
+Perform skill.
 
-**Eschew Materials (Ex)**
+## Eschew Materials (Ex) {#eschew-materials}
 
-**Ability:** A mute musician gains [Eschew Materials](ref/feat/eschew-materials) as a bonus feat at
-1st level.
+A mute musician gains [Eschew Materials](ref/feat/eschew-materials) as a bonus feat at 1st level.
 
-**Replaces:** Bardic knowledge
+This ability replaces bardic knowledge.
 
-**Bardic Performance**
+## Bardic Performance {#bardic-performance}
 
-**Info:** A mute musician gains the following bardic performances.
+A mute musician gains the following bardic performances.
 
-**Symphony of Silence (Su)**
+## Symphony of Silence (Su) {#symphony-of-silence}
 
-**Ability:** The mute musician's music muffles all other sounds within a 30-foot radius. All
+At 3rd level, the mute musician's music muffles all other sounds within a 30-foot radius. All
 creatures in the area of effect gain a +2 bonus on all saving throws made against sonic attacks or
-language-dependent effects.
+language-dependent effects. This bonus increases to +3 at 7th level, +4 at 11th level, +5 at 15th
+level, and +6 at 19th level. Symphony of silence relies on audible components.
 
-**At 11th Level:** The bonus becomes +4.
+This bardic performance replaces inspire competence.
 
-**At 15th Level:** The bonus becomes +5.
+## Maddening Harmonics (Su) {#maddening-harmonics}
 
-**At 19th Level:** The bonus becomes +6.
-
-**At 7th Level:** The bonus becomes +3.
-
-**Gained:** At 3rd Level
-
-**Replaces:** Inspire competence
-
-**Special:** Symphony of silence relies on audible components.
-
-**Maddening Harmonics (Su)**
-
-**Ability:** The mute musician can create a performance so baffling and discordant that it usurps
+At 14th level, the mute musician can create a performance so baffling and discordant that it usurps
 all thought within a 30-foot radius with chaos and entropy. The mute musician can select which
 creatures in this area are affected by the maddening harmonics and which are not. All targeted
-creatures within this area must succeed at a Will saving throw (DC = 10 +
-[half](ref/misc/fractions-and-rounding) the bard's level + the bard's Charisma modifier) or be
-confused for as long as they can hear the performance.
+creatures within this area must succeed at a Will saving throw (DC = 10 + 1/2 the bard's level + the
+bard's Charisma modifier) or be confused for as long as they can hear the performance. If the
+creature succeeds at its saving throw, it is immune to this ability for 24 hours. This performance
+relies on audible components.
 
-**Gained:** At 14th Level
+This bardic performance replaces frightening tune.
 
-**Replaces:** Frightening tune
+## Ceaseless Performance (Su) {#ceaseless-performance}
 
-**Special:** If the creature succeeds at its saving throw, it is immune to this ability for 24
-hours. This performance relies on audible components.
-
-**Ceaseless Performance (Su)**
-
-**Ability:** The mute musician can continue taking the **free action** to maintain a bardic
+At 15th level, the mute musician can continue taking the free action to maintain a bardic
 performance even while confused, cowering in fear, dazed, nauseated, panicked, paralyzed, petrified,
 silenced, staggered, stunned, or unconscious. Even if the mute musician is killed, she can continue
 to take the free action to maintain her performance as long as she has rounds remaining. Only the
-utter destruction of the mute musician's body (such as via [destruction](ref/spell/destruction) or
-[disintegrate](ref/spell/disintegrate), or by reducing the bard to a negative hit point total equal
-to 10 × her Constitution score) causes the performance to end.
+utter destruction of the mute musician's body (such as via _[destruction](ref/spell/destruction)_ or
+_[disintegrate](ref/spell/disintegrate)_, or by reducing the bard to a negative hit point total
+equal to 10 × her Constitution score) causes the performance to end.
 
-**Gained:** At 15th Level
+This ability replaces inspire heroics.
 
-**Replaces:** Inspire heroics
+## Song of the Conjunction (Su) {#song-of-the-conjunction}
 
-**Song of the Conjunction (Su)**
-
-**Ability:** The mute musician can harmonize with the alien chorus beyond the music of the spheres,
-creating a portentous cosmic alignment. This effect duplicates a [gate](ref/spell/gate) used to
-travel, save that the destination point must be on the same plane as the bard, but it is not
+At 18th level, the mute musician can harmonize with the alien chorus beyond the music of the
+spheres, creating a portentous cosmic alignment. This effect duplicates a _[gate](ref/spell/gate)_
+used to travel, save that the destination point must be on the same plane as the bard, but it is not
 otherwise limited by distance.
 
-**Gained:** At 18th Level
+This bardic performance replaces mass suggestion.
 
-**Replaces:** Mass suggestion
+## Insights from Beyond (Ex) {#insights-from-beyond}
 
-**Insights from Beyond (Ex)**
+At 2nd level, a mute musician adds two abjuration, conjuration (calling), conjuration (summoning),
+or conjuration (teleportation) spells from the sorcerer/wizard spell list to her list of bard spells
+known. At 6th level and every 4 bard levels thereafter, she can choose two more spells to add to her
+spells known.
 
-**Choice:** A mute musician adds two abjuration, conjuration (calling), conjuration (summoning), or
-conjuration (teleportation) spells from the sorcerer/wizard spell list to her list of bard spells
-known.
+This class feature replaces versatile performance.
 
-**At 6th Level:** The bard can choose two more spells to add to her spells known.
+## Dulled Horror (Ex) {#dulled-horror}
 
-**Gained:** At 2nd Level
+At 2nd level, a mute musician gains a +4 bonus on saves against confusion, fear, insanity effects,
+and the supernatural abilities of aberrations.
 
-**Repeat:** The bard can choose two more spells to know., 10, 4
+This class feature replaces well-versed.
 
-**Replaces:** Versatile performance
+## Eldritch Caesura (Su) {#eldritch-caesura}
 
-**Dulled Horror (Ex)**
-
-**Gained:** At 2nd Level
-
-**Passive:** At 2nd level, a mute musician gains a +4 bonus on saves against confusion, fear,
-insanity effects, and the supernatural abilities of aberrations.
-
-**Replaces:** Well-versed
-
-**Eldritch Caesura (Su)**
-
-**Ability:** A mute musician can insert unsettling silences into her otherworldly music by spending
-an additional 1 round of bardic performance per round. This supernatural technique impossibly blurs
-the line between music and light, transmitting audible performances and sonic bard spells through
-most barriers save lead. This allows the music and sonic spells to affect creatures across planar
-boundaries (including on the [Ethereal](ref/rule/ethereal-plane) or
+At 10th level, a mute musician can insert unsettling silences into her otherworldly music by
+spending an additional 1 round of bardic performance per round. This supernatural technique
+impossibly blurs the line between music and light, transmitting audible performances and sonic bard
+spells through most barriers save lead. This allows the music and sonic spells to affect creatures
+across planar boundaries (including on the [Ethereal](ref/rule/ethereal-plane) or
 [Shadow Planes](ref/rule/shadow-plane)), vacuums, and areas of magical silence.
 
-**Gained:** At 10th Level
+This class feature replaces jack-of-all-trades.
 
-**Replaces:** Jack-of-all-trades
+## Ex-Mute Musicians {#ex-mute-musicians}
 
-**Ex-Mute Musicians**
-
-**Info:** A mute musician who regains the ability to speak or chooses to speak aloud loses all
-abilities granted by this archetype. She can regain the archetype's abilities by spending 24 hours
-without speaking.
+A mute musician who regains the ability to speak or chooses to speak aloud loses all abilities
+granted by this archetype. She can regain the archetype's abilities by spending 24 hours without
+speaking.
