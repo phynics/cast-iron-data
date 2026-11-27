@@ -181,6 +181,14 @@ def feature_text(it: dict) -> str:
     return text
 
 
+def class_features(plan: dict) -> list[tuple[str, int | None]]:
+    """The `features` of a class: (key, level) for each head, the level from the Special column of the class table (`class_table_levels`). Built for the
+    switch `WRITE_FEATURES`, which is off: where the app wants the key in the front matter of a class is not answered yet (owner call 5), so the
+    bodies are written without it and the front is not touched."""
+    lv = plan.get("levels", {})
+    return [(it["key"], lv.get(fp.first_level_key(it["head"]))) for it in plan["items"]]
+
+
 def settled(plan: dict) -> bool:
     return bool(plan["items"]) and not plan["extra"] and not plan["missing"] and all(i["status"] in ("print", "draft") for i in plan["items"])
 
@@ -223,6 +231,8 @@ def run_compare(args) -> int:
         if plan["extra"]:
             print("    print heads not in the corpus: " + ", ".join(plan["extra"][:8]))
         if args.write and settled(plan):
+            if WRITE_FEATURES:
+                raise SystemExit("the `features` of a class are not written yet: the app has not said where the key stands in a class (owner call 5)")
             co.write_atomic(e.path, "+++\n" + e.front.strip("\n") + "\n+++\n" + converted_body(e.body, plan))
             written += 1
             print("    written")
@@ -264,6 +274,9 @@ def self_test() -> int:
     eq(pick_options([("Clouded Vision", [("ref/oraclecurse/clouded-vision", "oracle-curse")]), ("Tongues", [("ref/shamanhex/tongues", "shaman-hex"), ("ref/oraclecurse/tongues", "oracle-curse")]),
                      ("Lame", [("ref/oraclecurse/lame", "oracle-curse")])]),
        [("Clouded Vision", "ref/oraclecurse/clouded-vision"), ("Tongues", "ref/oraclecurse/tongues"), ("Lame", "ref/oraclecurse/lame")], "owner call 4: a title that two groups share is linked from the group of the list")
+    eq(WRITE_FEATURES, False, "owner call 5: the `features` switch is off")
+    eq(class_features({"items": [{"key": "mystery", "head": "Mystery"}, {"key": "bomb", "head": "Bomb (Su)"}], "levels": {fp.first_level_key("Mystery"): 1}}),
+       [("mystery", 1), ("bomb", None)], "the levels of the features come from the class table, a feature that is not in it has none")
     eq((settled(plan), settled(dict(plan, extra=["X"])), settled(dict(plan, missing=["mystery"]))), (True, False, False), "a class is written all or nothing")
     P = fp.Para
     blocks = [P("title", [("Oracle", True, False)], 42, 1, 38), P("title", [("Class Features", True, False)], 42, 1, 18),
