@@ -2761,9 +2761,10 @@ MISPRINTS = [
 ERRATA_BOOKS = {"advanced-class-guide": "Advanced Class Guide"}
 ERRATA_CTX: dict = {"book": "", "used": set()}
 # The titles of the boxes that a book sets in the foot of a column (`BOX_TITLES`).
-BOXES_OF_BOOK = {"inner-sea-magic": ("Black Blood of Orv",),
+BOXES_OF_BOOK = {"dragonslayers-handbook": ("Other Dragonslayer Class Options",),      # the box at the top of the right column of p. 23, above the end of the Wyrm Sniper
+                 "inner-sea-magic": ("Black Blood of Orv",),
                  "psychic-anthology": ("Phantom Weapon Progression",),       # the table of the Phantom Blade, set in the foot of a column of the Totem Spiritualist (p. 6)
-                 "agents-of-evil": ("Playing an Insinuator", "Devils and Double-Dealing", "dragonslayers-handbook")}   # two lore boxes that interrupt the archetype's columns (pp. 17, 21)
+                 "agents-of-evil": ("Playing an Insinuator", "Devils and Double-Dealing")}   # two lore boxes that interrupt the archetype's columns (pp. 17, 21)
 LORE_BOXES_OF_BOOK = {"armor-masters-handbook": ("Armor Master Archetypes and Prestige Classes",),
                       "cohorts-and-companions": ("Equipment Cohorts", "Heroic Cohorts", "Cohorts of the Faith", "Student Cohorts")}
 SKIP_TABLES = {"on": False}         # the Advanced Race Guide sets its tables in sans-serif type
