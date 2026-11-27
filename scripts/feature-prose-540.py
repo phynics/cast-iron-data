@@ -4886,6 +4886,7 @@ MISPRINTS.append(("ref/arc-magus/kapenia-dancer", "hastened assault", "hasted as
 PRINT_TITLES["ref/arc-familiar/school-familiar"] = "School Familiar (Familiar Archetype)"
 PRINT_TITLES["ref/arc-companion/accursed-companion"] = "Accursed Companions"     # Horror Realms p. 10: the chapter section of the animal companion's manifestations
 OPENING_ONLY.update({"ref/arc-witch/patron-familiars", "ref/arc-companion/accursed-companion"})     # no listed feature: the entry is converted when no key row of the import is left
+EXTRA_LINKS[("ref/arc-companion/accursed-companion", "festering-flesh")] = [("sickened", "ref/misc/sickened")]     # the corpus links the condition; "nauseated" beside it is linked (review of #367)
 # the import's Patron rows link the patron theme (Agility, Animals, ...): print has no such link, and the label landed on an ordinary word of the text
 LINK_DROP.update({("ref/arc-witch/patron-familiars", w) for w in ("Agility", "Animals", "Deception", "Elements", "Endurance", "Plague", "Shadow", "Strength", "Transformation", "Trickery", "Water", "Wisdom")})
 IMPORT_HEAD_FIXES.update({

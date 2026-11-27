@@ -91,9 +91,9 @@ components. A successful Will save reduces the duration of the master's rage to 
 The companion looks horrific and smells worse. Its rancid flesh reeks of rot and crawls with fleas,
 ticks, and other vile parasites. Despite its obvious grotesqueness, the creature is quite
 affectionate, perhaps even overly and inappropriately so. This manifestation is always active—the
-accursed companion is immune to the sickened and [nauseated](ref/misc/nauseated) condition. The
-master, on the other hand, becomes consumed by fears of contagion to the extent that she takes a -2
-penalty on all saving throws against disease effects.
+accursed companion is immune to the [sickened](ref/misc/sickened) and
+[nauseated](ref/misc/nauseated) condition. The master, on the other hand, becomes consumed by fears
+of contagion to the extent that she takes a -2 penalty on all saving throws against disease effects.
 
 ### Palsy (Su) {#palsy}
 
