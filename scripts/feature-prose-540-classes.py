@@ -522,7 +522,6 @@ def class_decisions(corpus: Path, book: str) -> dict[tuple[str, str], tuple[str,
     return co.read_decisions(co.decisions_file(corpus, book))
 
 
-SEE_REF = re.compile(r"\s*\([Ss]ee\b[^()]*\)")
 SENTENCE_END = re.compile(r"(?<=[.!?])[\"\u201d\u2019)]*\s+(?=[A-Z\u201c\"(+\u2013\d])")
 MARKDOWN = re.compile(r"\[([^\]]*)\]\([^)]*\)")
 
@@ -556,46 +555,56 @@ def drop_cell_runs(sentence: str) -> str:
 HEADER_TOKENS = {"ref", "fort", "will", "save", "base", "attack", "bonus", "level", "special"}
 
 
-def segments(sentence: str, table_words: frozenset | set) -> list[list[str]]:
-    """The words of a sentence in runs of words that are not table tokens: the words of the class table (its Special column, its header), numbers and dice
-    ("+2,", "1d6") are cells, not prose."""
-    out, cur = [], []
-    for w in sentence.split():
-        letters = re.sub(r"[^a-z]", "", w.lower())
-        if (len(letters) >= 4 and letters in table_words) or letters in HEADER_TOKENS or (re.search(r"\d", w) and not re.search(r"[a-z]{3}", w.lower().replace("th", "").replace("st", "").replace("nd", "").replace("rd", ""))):
-            if cur:
-                out.append(cur)
-            cur = []
-        else:
-            cur.append(w)
-    if cur:
-        out.append(cur)
-    return out
+def table_word(token: str, table_words: frozenset | set) -> bool:
+    letters = re.sub(r"[^a-z]", "", token.lower())
+    return (len(letters) >= 4 and letters in table_words) or letters in HEADER_TOKENS
 
 
-def near_sentence(sq: str, written_sq: list[str]) -> bool:
-    """Whether the squashed sentence is nearly one sentence of the written text (a misprint of print that the corpus corrected: a letter or two): compared sentence
-    by sentence, so words that stand elsewhere in the entry do not count."""
-    return len(sq) >= 40 and any(abs(len(w) - len(sq)) <= 3 and difflib.SequenceMatcher(None, sq, w).ratio() >= 0.97 for w in written_sq)
+def split_junk(tokens: list[str], table_words: frozenset | set) -> list[list[str]] | None:
+    """The prose of a sentence that the text layer ran a class table into: the words before the header of the table ("Base Attack Fort Ref Will ...", "Spells per Day"
+    followed by its columns) and after its last row (the numbers after the "20th", then the words of the last Special cell). None when the sentence has no such
+    header. The two stretches must stand in the written text as they are: a number in them is a number of the sentence."""
+    n = len(tokens)
+    for i in range(n):
+        low = [re.sub(r"[^A-Za-z]", "", x).lower() for x in tokens[i:i + 2]]
+        nxt3 = tokens[i + 3] if i + 3 < n else ""
+        header = low == ["base", "attack"] or (low[:1] in (["spells"], ["extracts"], ["formulae"]) and ((low[1:2] == ["per"] and NUMERIC.match(nxt3 or "x") is not None)
+                                                                                                   or (low[1:2] == ["known"] and (NUMERIC.match(tokens[i + 2] if i + 2 < n else "x") is not None or (tokens[i + 2:i + 3] or [""])[0] == "Level"))))
+        if header:
+            end = i + last_cell_end(tokens[i:]) + 1
+            if end <= i + 2:
+                end = i + 3
+            while end < n and table_word(tokens[end], table_words):
+                end += 1                                                    # the Special cell of the last row
+            return [tokens[:i], tokens[end:]]
+    return None
+
+
+def junk_free(sentence: str, table_words: frozenset | set) -> list[str]:
+    """The stretches of prose of a sentence that a class table was run into (`split_junk`), as strings; [] when it has no table."""
+    pieces = split_junk(sentence.split(), table_words)
+    return [" ".join(p) for p in (pieces or []) if p]
 
 
 def lost_sentences(printed: str, written: str, table_words: frozenset | set = frozenset()) -> list[str]:
-    """The printed sentences that the written text lacks. A sentence is there when its letters and digits stand in the written text, or when it is nearly one
-    sentence of it (a letter or two differ). A sentence with cells or table words set into it is there when each run of its own words (at least three) stands
-    in the written text in that order; no allowance is made by the words of the whole text."""
-    plain = SEE_REF.sub("", plain_text(written))                  # a printed "(see ...)" cross-reference is kept in the text but the corpus may link the thing instead (ruling 16)
+    """The printed sentences that the written text lacks. A sentence is there when its letters and digits stand in the written text, or when it is one written
+    sentence up to noise (`co.near_exact`: the same digits, the same negations, at most two letters that differ). A sentence with a class table run into it is
+    there when the words before the table and the words after it each stand in the written text as they are, numbers included. No allowance is made by the
+    words of the whole text."""
+    plain = co.strip_see(plain_text(written))                     # a short printed "(see ...)" cross-reference is kept in the text but the corpus may link the thing (ruling 16)
     have = fp.squash(plain)
-    wsq = [fp.squash(x) for x in sentences(plain)]
+    wsents = sentences(plain)
     out = []
-    for s in sentences(printed):
+    for s in sentences(co.strip_see(printed)):
         s = re.sub(r"^\((?:Ex|Su|Sp)(?:(?:, or |, and |, | or | and )(?:Ex|Su|Sp))*\):\s*", "", s)       # the tag of a head stands in the head
-        s = SEE_REF.sub("", s)
-        s = drop_cell_runs(re.sub(r"\b(?:Spells|Extracts|Formulae)\s+(?:per\s+Day|Known)\b\s*", "", s))       # the title of the spell columns of a table
-        sq = fp.squash(s)
-        if sq in have or near_sentence(sq, wsq):
+        pieces = split_junk(s.split(), table_words)
+        if pieces is not None:
+            if all(not piece or fp.squash(" ".join(drop_cell_runs(" ".join(piece)).split())) in have for piece in pieces):
+                continue
+            out.append(s)
             continue
-        segs = [seg for seg in segments(s, table_words) if len(seg) >= 3]
-        if (TABLE_LEAK.search(s) or TABLE_RUN.search(s) or segs and sum(len(x) for x in segs) < len(s.split())) and segs and all(fp.squash(" ".join(seg)) in have for seg in segs):
+        s = drop_cell_runs(s)
+        if fp.squash(s) in have or co.near_exact(s, wsents):
             continue
         out.append(s)
     return out
@@ -611,7 +620,8 @@ def covered_loosely(sentence: str, text: str) -> bool:
     ws = re.findall(r"[a-z0-9']+", sentence.lower().replace("\u2019", "'"))
     for other in sentences(plain_text(text)):
         wo = re.findall(r"[a-z0-9']+", other.lower().replace("\u2019", "'"))
-        if ws and wo and difflib.SequenceMatcher(None, ws, wo).ratio() >= 0.8:
+        if (ws and wo and re.findall(r"\d+", sentence) == re.findall(r"\d+", other) and len(co.NEGATIONS.findall(sentence)) == len(co.NEGATIONS.findall(other))
+                and difflib.SequenceMatcher(None, ws, wo, autojunk=False).ratio() >= 0.8):
             return True
     return False
 
@@ -643,14 +653,14 @@ def gap_blocks(blocks: list, win: list, lacking: set[str], stop: str = "") -> li
     last = blocks.index(win[-1]) if win and win[-1] in blocks else 0
     out = []
     for b in blocks[last + 1:]:
-        if b.kind == "title" and not b.plain().strip().lower().startswith("table") and (fp.squash(b.plain()) in lacking or b.size >= 38 or fp.squash(b.plain()) == stop):
+        if b.kind == "title" and not b.plain().strip().lower().startswith("table") and (fp.squash(b.plain()) in lacking or b.size >= 38 or (stop and fp.squash(b.plain()) == stop)):
             break
         if b.kind == "para" and not is_table_para(b.plain()):
             out.append(b)
     return out
 
 
-def coverage_check(corpus: Path, e, items: list[dict], blocks: list, title, heads: list, lacking: set[str], region: tuple[int, int], lines: list[str], options: dict, own: dict) -> None:
+def coverage_check(corpus: Path, e, items: list[dict], blocks: list, title, heads: list, lacking: set[str], region: tuple[int, int], lines: list[str], options: dict, own: dict) -> list[str]:
     """Print-coverage check (independent of the comparison's own reading): every printed sentence of the span of a feature, read from the blocks of the page
     without the table handling of `window`, must stand in the written text of the class. The feature holds otherwise, with the sentences in its notes.
     A sentence of a printed head that has no item (a box, a section of its own) must stand somewhere in the written entry (features, unlisted sections,
@@ -670,6 +680,9 @@ def coverage_check(corpus: Path, e, items: list[dict], blocks: list, title, head
     gap = gap_blocks(blocks, rwin0, lacking | SECTIONS_BEHIND.get(e.id, set()), GAP_STOP.get(e.id, ""))
     gap_text = cut_tails(e.id, " ".join(" ".join(b.plain().split()) for b in gap))
     gap_lost = lost_sentences(gap_text, union, cells)
+    problems: list[str] = []
+    if gap_lost and not items:
+        problems.append(f"{len(gap_lost)} printed sentences between the class features and the next head that the corpus lacks, and no feature to hold: " + " | ".join(s[:70] for s in gap_lost[:3]))
     if gap_lost and items:
         host = next((x for x in items if not x.get("drop")), items[0])
         host["status"] = "hold"
@@ -686,7 +699,7 @@ def coverage_check(corpus: Path, e, items: list[dict], blocks: list, title, head
         if os.environ.get("COVDEBUG") and lost:
             print("COV", e.id, repr(name), "->", it["key"] if it else None, "|", [s[:90] for s in lost][:6])
         lost = lost_sentences(" ".join(lost), union, cells) if it is None else [s for s in lost if s in lost_sentences(s, union, cells)]
-        lost = [s for s in lost if not covered_loosely(s, " ".join(linked_text))]      # the entry of a linked option words its text as the import did
+        lost = [s for x in lost for s in (junk_free(x, cells) or [x]) if not covered_loosely(s, " ".join(linked_text))]      # the entry of a linked option words its text as the import did
         if lost:
             if it is None:
                 it = next((x for x in items if x.get("unlisted")), items[0] if items else None)
@@ -694,6 +707,9 @@ def coverage_check(corpus: Path, e, items: list[dict], blocks: list, title, head
                 it["status"] = "hold"
                 it["notes"].insert(0, f"print sentences that the written text lacks ({len(lost)}): " + " | ".join(s[:70] for s in lost[:3]))
                 it["lost"] = lost
+            else:
+                problems.append(f"{len(lost)} printed sentences of `{name}` are not in the entry and no feature holds them: " + " | ".join(s[:70] for s in lost[:3]))
+    return problems
 
 
 def compare_class(corpus: Path, e, bk, cache: dict, options: dict | None = None, decisions: dict | None = None) -> dict:
@@ -909,11 +925,11 @@ def compare_class(corpus: Path, e, bk, cache: dict, options: dict | None = None,
             cut = it["print"].index(tail_of[0])
             it["notes"].append(f"the end of the paragraph ({tail_of[0]}...) is the end of `{tail_of[1]}`, a link: it belongs to that entry, not here")
             it["print"] = it["print"][:cut].rstrip()
-    coverage_check(corpus, e, items, blocks, title, heads, lacking, region, lines, options or {}, own)
+    cov_problems = coverage_check(corpus, e, items, blocks, title, heads, lacking, region, lines, options or {}, own)
     unresolved = {i["key"] for i in items if "head not printed" in i["notes"] and not i.get("drop") and not i.get("split_from")}
     problems = [x for x in res["problems"] if not (x.startswith("head not printed: ") and fp.slugify(x.split(": ", 1)[1]) not in unresolved and
                                                     not any(fp.namekey(i["head"]) == fp.namekey(x.split(": ", 1)[1]) and "head not printed" in i["notes"] for i in items))]
-    return {"items": items, "extra": extra, "missing": missing, "window": len(win), "problems": problems + problems_extra, "region": region,
+    return {"items": items, "extra": extra, "missing": missing, "window": len(win), "problems": problems + problems_extra + cov_problems, "region": region,
             "levels": fp.class_table_levels(corpus, e.id, cache)}
 
 
@@ -1196,6 +1212,28 @@ def self_test() -> int:
        "a changed word is not a misprint: the sentence is lost")
     eq(lost_sentences("This is the end (see the atonement spell), as appropriate to the case at hand.", "This is the end, as appropriate to the case at hand."), [], "a printed cross-reference is no difference")
     eq(pick_options([("Aid", [("ref/a/aid", "g1")]), ("Bar", [("ref/b/bar", "g2")]), ("Cat", [("ref/c/cat", "g1")])])[1], ["Bar"], "an item whose only entry is in another group than the list's is no link and no fallback")
+    # the exact rules of the coverage check (review of #380): one character must not pass in a long sentence
+    long_s = "While this dare is active, you gain a +2 dodge bonus to AC against attacks of opportunity made by any creature that you threaten in melee."
+    eq(lost_sentences(long_s, long_s.replace("+2", "+3")), [long_s], "a changed digit is a loss (a ratio would pass it)")
+    eq(lost_sentences("The creature can be affected by this spell if it fails the save against the effect.", "The creature cannot be affected by this spell if it fails the save against the effect."),
+       ["The creature can be affected by this spell if it fails the save against the effect."], "a dropped or added negation is a loss")
+    eq(lost_sentences("The creature can see the fiendish light that shines from the weapon of the antipaladin.", "The creature can hear the fiendish light that shines from the weapon of the antipaladin."),
+       ["The creature can see the fiendish light that shines from the weapon of the antipaladin."], "one swapped word in a long sentence is a loss")
+    eq(lost_sentences("An antipaladin who atones regains the abilities of his class (see the atonement spell).", "An antipaladin who atones regains the abilities of his class."), [], "a short cross-reference is no difference")
+    eq(lost_sentences("An antipaladin who atones regains the abilities of his class (but not his weapon bond).", "An antipaladin who atones regains the abilities of his class."),
+       ["An antipaladin who atones regains the abilities of his class (but not his weapon bond)."], "another parenthetical is text")
+    eq(lost_sentences("An antipaladin who atones regains the abilities of his class (see page 41 of the book).", "An antipaladin who atones regains the abilities of his class."),
+       ["An antipaladin who atones regains the abilities of his class (see page 41 of the book)."], "a reference with a number is text")
+    table = "Base Attack Fort Ref Will Level Bonus Save Save Save Special 1st +0 +2 +0 +2 Aura 20th +15/+10/+5 +12 +6 +12 True judgment"
+    eq(lost_sentences("The character gains a 6 bonus on checks " + table + " purpose of overcoming damage.", "The character gains a 3 bonus on checks. Purpose of overcoming damage."),
+       ["The character gains a 6 bonus on checks " + table + " purpose of overcoming damage."], "a number before a class table in the sentence is compared too")
+    eq(lost_sentences("The character gains a 3 bonus on checks " + table + " purpose of overcoming damage.", "The character gains a 3 bonus on checks. Purpose of overcoming damage.", {"aura", "true", "judgment"}), [],
+       "the words before and after a class table stand in the text: the sentence is there")
+    eq(lost_sentences("The character gains a bonus " + table + " the end.", "The character gains a bonus."), ["The character gains a bonus " + table + " the end."], "a short run after the table must stand too")
+    gb = [Pp("title", [("Class Features", True, False)], 1, 0, 18), Pp("para", [("Last feature text.", False, False)], 1, 0), Pp("para", [("1st +0 +2 +0 +2 2nd +1 +3 +0 +3", False, False)], 1, 0),
+          Pp("para", [("Text of a section.", False, False)], 1, 0), Pp("title", [("Next Class", True, False)], 2, 0, 38), Pp("para", [("Next class text.", False, False)], 2, 0)]
+    eq([b.plain() for b in gap_blocks(gb, gb[:2], set(), "")], ["Text of a section."], "the gap skips the paragraph of cells and stops at a large title")
+    eq([b.plain() for b in gap_blocks(gb, gb[:2], set(), "")] == [b.plain() for b in gap_blocks(gb, gb[:2], set())], True, "an empty stop title stops nothing")
     for line in bad:
         print("FAIL", line)
     print(f"self-test: {ok} checks passed" if not bad else f"self-test: {len(bad)} failures")
