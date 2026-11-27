@@ -1,0 +1,31 @@
+[[edit]]
+entry = "ref/arc-paladin/divine-guardian"
+anchor = "bonus-feat"
+note = "hand-written by the batch lead from print (Cohorts and Companions p. 23): the extraction ran the first paragraph of the next section of the chapter (\"Leader of the Faith\", whose title is set as an outline that the text layer does not carry) into the end of this ability; the ability ends at \"the Spellbreaker feat\"."
+text = '''
+A divine guardian gains a bonus feat at 7th level, and additional bonus feats at 10th and 13th level. These bonus feats must be chosen from the following list: [Diehard](ref/feat/diehard), [Endurance](ref/feat/endurance), [Greater Shield Focus](ref/feat/greater-shield-focus), [Greater Shield Specialization](ref/feat/greater-shield-specialization), [Heroic Defiance](ref/feat/heroic-defiance), [Heroic Recovery](ref/feat/heroic-recovery), [Missile Shield](ref/feat/missile-shield), [Ray Shield](ref/feat/ray-shield), [Saving Shield](ref/feat/saving-shield), [Shield Focus](ref/feat/shield-focus), [Shield Specialization](ref/feat/shield-specialization), or [Tower Shield Proficiency](ref/feat/tower-shield-proficiency). She must meet these feats' prerequisites, but for purposes of meeting the prerequisites of these bonus feats, she treats her paladin level as her fighter level, may use her Charisma score as her Dexterity score, and is considered to have the [Spellbreaker](ref/feat/spellbreaker) feat.
+'''
+
+[[edit]]
+entry = "ref/arc-warpriest/proselytizer"
+anchor = "sacred-subdual"
+note = "hand-written by the batch lead from print (Cohorts and Companions p. 25): the table of deities and conversion bonuses that print sets across both columns below the text (a table of the chapter's section Leader of the Faith, not of the archetype) was read between this ability and the next; the ability is print's paragraph and its trade sentence."
+text = '''
+When a proselytizer uses his sacred weapon damage in place of his normal weapon damage, all damage he deals with that weapon is nonlethal damage. This ability modifies sacred weapon.
+'''
+
+[[edit]]
+entry = "ref/arc-warpriest/proselytizer"
+anchor = "voice-of-the-faithful"
+note = "hand-written by the batch lead from print (Cohorts and Companions p. 25): the extraction ran the text of the next sections of the chapter (the lead-in of Crime in Downtime) into the end of this ability, and the import carries the sections Converting NPCs and Successful Conversion in it; the ability is print's two sentences."
+text = '''
+A proselytizer of 10th level or higher can expend a use of his major blessing to be able to speak to and understand any creature with a language for 1 hour. This ability modifies blessings (major).
+'''
+
+[[edit]]
+entry = "ref/arc-wizard/instructor"
+anchor = "trained-teamwork"
+note = "hand-written by the batch lead from print (Cohorts and Companions p. 31): the extraction ran the advertisement for the Monster Summoner's Handbook that print sets after the archetype into the end of this ability; the ability is print's paragraph and its trade sentence."
+text = '''
+Starting at 5th level, the instructor can take a teamwork feat as his wizard bonus feat. As long as his apprentice is within 60 feet, the apprentice gains all such teamwork feats as bonus feats. The apprentice does not have to meet the feat's prerequisites. This ability modifies the bonus feats gained at 5th, 10th, 15th, and 20th level.
+'''

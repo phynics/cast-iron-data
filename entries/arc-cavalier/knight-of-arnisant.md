@@ -16,13 +16,20 @@ page = "5"
 
 [fields]
 kind = "archetype"
+features = [
+  { anchor = "shield-expertise", level = 1 },
+  { anchor = "deflective-shield", level = 4 },
+  { anchor = "heraldic-banner", level = 5 },
+  { anchor = "soul-shield", level = 9 },
+  { anchor = "defensive-challenge", level = 12 },
+  { anchor = "heart-shield", level = 17 },
+]
 trades = [
-  { replaces = "Tactician", feature = "tactician" },
-  { replaces = "Expert trainer", feature = "expert-trainer" },
-  { replaces = "Greater tactician", feature = "greater-tactician" },
-  { replaces = "Demanding challenge", feature = "demanding-challenge" },
-  { replaces = "Greater tactician" },
-  { alters = "Banner", feature = "banner" },
+  { replaces = "Tactician", feature = "tactician", by = ["shield-expertise"] },
+  { replaces = "Expert trainer", feature = "expert-trainer", by = ["deflective-shield"] },
+  { replaces = "Greater tactician", feature = "greater-tactician", by = ["soul-shield", "heart-shield"] },
+  { replaces = "Demanding challenge", feature = "demanding-challenge", by = ["defensive-challenge"] },
+  { alters = "Banner", feature = "banner", by = ["heraldic-banner"] },
 ]
 +++
 
@@ -34,63 +41,50 @@ protected him. Many of these cavaliers further emulate him by joining the
 where the movement originated, but they can be found everywhere from the general's homeland of
 Taldor to the front lines of the Worldwound.
 
-**Shield Expertise**
+## Shield Expertise {#shield-expertise}
 
-**Ability:** A knight of Arnisant gains the [Shield Focus](ref/feat/shield-focus) feat as a bonus
+At 1st level, a knight of Arnisant gains the [Shield Focus](ref/feat/shield-focus) feat as a bonus
 feat. His cavalier levels count as fighter levels for the purpose of qualifying for all feats that
 list the Shield Focus feat as a prerequisite.
 
-**Gained:** At 1st Level
+This ability replaces tactician.
 
-**Replaces:** Tactician
+## Deflective Shield (Ex) {#deflective-shield}
 
-**Deflective Shield (Ex)**
+At 4th level, a knight of Arnisant specializes in using his shield to deflect attacks. He adds a
+bonus equal to his shield bonus to AC to his touch AC and his CMD, up to a maximum of
+[half](ref/misc/fractions-and-rounding) his cavalier level. He does not include any enhancement
+bonus he has from a magic shield in this calculation.
 
-**Flavor:** A knight of Arnisant specializes in using his shield to deflect attacks.
+This ability replaces expert trainer.
 
-**Gained:** At 4th Level
+## Heraldic Banner (Ex) {#heraldic-banner}
 
-**Passive:** He adds a bonus equal to his shield bonus to AC to his touch AC and his CMD, up to a
-maximum of [half](ref/misc/fractions-and-rounding) his cavalier level. He does not include any
-enhancement bonus he has from a magic shield in this calculation.
-
-**Replaces:** Expert trainer
-
-**Heraldic Banner (Ex)**
-
-**Ability:** A knight of Arnisant uses his shield as a _banner,_ though its benefits apply only to
+At 5th level, a knight of Arnisant uses his shield as a banner, though its benefits apply only to
 allies within 30 feet.
 
-**Alters:** Banner
+This ability alters banner.
 
-**Gained:** At 5th Level
+## Soul Shield (Su) {#soul-shield}
 
-**Soul Shield (Su)**
-
-**Gained:** At 9th Level
-
-**Passive:** When carrying a shield, a knight of Arnisant adds a bonus equal to his shield bonus to
+At 9th level, when carrying a shield, a knight of Arnisant adds a bonus equal to his shield bonus to
 AC on all saving throws against curse spells and effects, up to a maximum of half his cavalier
 level. He does not include any enhancement bonus from a magic shield in this calculation.
 
-**Replaces:** Greater tactician
+This ability replaces greater tactician.
 
-**Defensive Challenge (Ex)**
+## Defensive Challenge (Ex) {#defensive-challenge}
 
-**Gained:** At 12th Level
-
-**Passive:** Whenever a knight of Arnisant declares a _challenge,_ his target must pay particular
+At 12th level, whenever a knight of Arnisant declares a challenge, his target must pay particular
 attention to him. As long as the target is within the threatened area of the cavalier, it takes a -2
 penalty on attack rolls against anyone other than the knight of Arnisant.
 
-**Replaces:** Demanding challenge
+This ability replaces demanding challenge.
 
-**Heart Shield (Su)**
+## Heart Shield (Su) {#heart-shield}
 
-**Gained:** At 17th Level
-
-**Passive:** When carrying a shield, a knight of Arnisant adds a bonus equal to his shield bonus to
-AC on saving throws against death spells and magical death effects, up to a maximum of half his
+At 17th level, when carrying a shield, a knight of Arnisant adds a bonus equal to his shield bonus
+to AC on saving throws against death spells and magical death effects, up to a maximum of half his
 cavalier level. He does not include any enhancement bonus from a magic shield in this calculation.
 
-**Replaces:** Greater tactician
+This ability replaces greater tactician.

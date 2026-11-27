@@ -16,54 +16,51 @@ page = "18"
 
 [fields]
 kind = "archetype"
+features = [
+  { anchor = "smite-evil", level = 1 },
+  { anchor = "banishing-smite", level = 3 },
+  { anchor = "smiting-aura", level = 11 },
+]
 trades = [
-  { replaces = "3rd-level mercy", feature = "mercy", levels = [3] },
-  { alters = "Smite evil", feature = "smite-evil" },
-  { alters = "Aura of justice", feature = "aura-of-justice" },
+  { replaces = "Mercy gained at 3rd level", feature = "mercy", levels = [3], by = ["banishing-smite"] },
+  { alters = "Smite evil", feature = "smite-evil", by = ["smite-evil"] },
+  { alters = "Aura of justice", feature = "aura-of-justice", by = ["smiting-aura"] },
 ]
 +++
 
 The banishing warden is an expert at fighting all types of evil outsiders and sending them back to
 their native planes.
 
-**Gained class skills:** kp
+## Class Skills {#class-skills}
 
-**Lost class skills:** kno
+A banishing warden gains Knowledge (planes) as a class skill but does not gain Knowledge (nobility)
+as a class skill.
 
-**Smite Evil (Su)**
+## Smite Evil (Su) {#smite-evil}
 
-**Alters:** Smite evil
+A banishing warden's smite evil deals its bonus damage only on the first attack against outsiders
+(but not dragons or undead). However, it damages any evil outsider, not only those with the evil
+subtype (including [native](ref/subtype/native) outsiders).
 
-**Info:** A banishing warden's _smite evil_ deals its bonus damage only on the first attack against
-outsiders (but not dragons or undead). However, it damages any evil outsider, not only those with
-the evil subtype (including [native](ref/subtype/native) outsiders).
+This modifies smite evil.
 
-**Banishing Smite (Su)**
+## Banishing Smite (Su) {#banishing-smite}
 
-**Ability:** When the banishing warden confirms a critical hit against a target of her _smite evil_
-effect, she can attempt to forcibly [banish](ref/spell/banishment) the target to its home plane. The
-creature struck must succeed at a Will save (DC = 10 + half the banishing warden's level + the
-banishing warden's Charisma modifier) or be sent back to its home plane as per
-[dismissal](ref/spell/dismissal).
+At 3rd level, once per day when the banishing warden confirms a critical hit against a target of her
+smite evil effect, she can attempt to forcibly [banish](ref/spell/banishment) the target to its home
+plane. The creature struck must succeed at a Will save (DC = 10 + half the banishing warden's
+level + the banishing warden's Charisma modifier) or be sent back to its home plane as per
+_[dismissal](ref/spell/dismissal)_. At 10th level, a creature dismissed in this manner takes an
+amount of damage equal to 2 points per paladin level at the start of its next turn. The banishing
+warden gains an additional daily use of this ability at 9th and 15th level.
 
-**At 10th Level:** A creature dismissed in this manner takes an amount of damage equal to 2 points
-per paladin level at the start of its next turn.
+This ability replaces the mercy gained at 3rd level. A banishing warden still receives the benefits
+of the mercy class ability starting at 6th level and onward.
 
-**Gained:** At 3rd Level
+## Smiting Aura (Su) {#smiting-aura}
 
-**Replaces:** 3rd-level mercy
+At 11th level, when an ally of the banishing warden is affected by her aura of justice, that ally
+can use banishing smite. This counts toward the banishing warden's number of uses per day and cannot
+be activated if the banishing warden has no uses of banishing smite remaining.
 
-**Special:** A banishing warden still receives the benefits of the _mercy_ class ability starting at
-6th level and onward.
-
-**Usage:** 1 time/day + 1 per 6 paladin levels beyond 3rd
-
-**Smiting Aura (Su)**
-
-**Ability:** When an ally of the banishing warden is affected by her _aura of justice,_ that ally
-can use _banishing smite._ This counts toward the banishing warden's number of uses per day and
-cannot be activated if the banishing warden has no uses of _banishing smite_ remaining.
-
-**Alters:** Aura of justice
-
-**Gained:** At 11th Level
+This ability modifies aura of justice.
