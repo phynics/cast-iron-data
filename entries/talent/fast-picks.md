@@ -13,9 +13,8 @@ page = "130"
 [fields]
 kind = "class_option"
 group = "rogue-talent"
+ability_type = "Ex"
 +++
 
-**Fast Picks (Ex)**
-
-**Ability:** A rogue with this talent can use the [Disable Device](ref/skill/disable-device) skill
-to attempt to open a lock as a **standard action** instead of a **full-round action**.
+A rogue with this talent can use the [Disable Device](ref/skill/disable-device) skill to attempt to
+open a lock as a standard action instead of a full-round action.

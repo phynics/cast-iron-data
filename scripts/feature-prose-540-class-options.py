@@ -48,6 +48,7 @@ Usage
 from __future__ import annotations
 
 import argparse
+import dataclasses
 import hashlib
 import importlib.util
 import re
@@ -476,11 +477,20 @@ def fence(rows: list[dict], shape: str) -> list[dict]:
     return rows
 
 
+def headings_as_names(body: str) -> str:
+    """The body with each Markdown heading as a bold name (`### Order Abilities` as `**Order Abilities**`), so that the print comparison reads
+    it as a feature of its own."""
+    return re.sub(r"(?m)^#{1,6}[ \t]+(.*?)(?:[ \t]*\{#[^}]+\})?[ \t]*$", r"**\1**", body)
+
+
 def compare_one(e, book, bk, other=None) -> list[dict]:
     """The rows of one entry: one per power, from the shared print comparison of the archetype pass."""
     shape, n = shape_of(e.body)
     base = {"entry": e.id, "shape": shape, "page": e.page, "span": "", "note": ""}
     powers = powers_of(e)
+    e0 = e                               # the entry as it is: its body is what the writer reads
+    if shape == "multi":                 # a heading of the import is a head that print sets ("Order Abilities"): its paragraph is its own, not the one above's
+        e = dataclasses.replace(e, body=headings_as_names(e.body))
     _, feats = fp.parse_import(e.body, set())
     by_name: dict[str, list] = {}
     for f in feats:
@@ -522,20 +532,20 @@ def compare_one(e, book, bk, other=None) -> list[dict]:
                 by_span[sp] = r2
                 where[sp] = (pub, pg)
     rows, seen = [], Counter()
-    blocks_b = rw.parse_blocks(e.body.split("\n"))
+    blocks_b = rw.parse_blocks(e0.body.split("\n"))
     cands = rw.candidates(blocks_b, True)
     promo = promoted(blocks_b, cands)
     info = {rw.span_sha(blocks_b[c.start:c.end]): (section_of(blocks_b, c.start), promo.get(c.start - 1)) for c in cands}
     problems = []                                       # what holds every power of the entry
     if unanchored:
         problems.append("the printed title of the entry is not on the cited pages: the window is not anchored")
-    outside = outside_rows(e.body) if shape == "single" else []        # a multi-power entry's other sections are rows of their own (below)
+    outside = outside_rows(e0.body) if shape == "single" else []        # a multi-power entry's other sections are rows of their own (below)
     if outside:
         problems.append("import rows outside the powers (" + ", ".join(outside[:4]) + ") are not transcribed from print yet")
-    if TRADE_LABEL.search(e.body):
+    if TRADE_LABEL.search(e0.body):
         problems.append("a trade row (Replaces/Alters): class-option trades are not written yet")
-    taken = set(re.findall(r"\{#([^}]+)\}", e.body))
-    plinks = prereq_links(e.body)
+    taken = set(re.findall(r"\{#([^}]+)\}", e0.body))
+    plinks = prereq_links(e0.body)
     anchors_seen: Counter = Counter()
     for name, sha in powers:
         seen[name] += 1
@@ -596,7 +606,7 @@ def compare_one(e, book, bk, other=None) -> list[dict]:
                          level=level_of(r["print"]) or "", note="; ".join(notes)[:400], print=printed,
                          print_sha256=hashlib.sha256(printed.encode()).hexdigest()))
     if shape == "multi":
-        rows = add_sections(e, rows, res, feats, powers, by_name, base, book, problems, anchors_seen, variants)
+        rows = add_sections(e0, rows, res, feats, powers, by_name, base, book, problems, anchors_seen, variants)
     return fence(rows, shape)
 
 
@@ -1055,7 +1065,7 @@ def run_check(args) -> int:
             if not mine:
                 pending += 1                  # a part of the book that no batch has compared yet: reported, not an error
                 continue
-            have = {r["span_sha256"] for r in mine if r["shape"] != "section"}
+            have = {r["span_sha256"] for r in mine if r["shape"] not in ("section", "variant")}
             if have != {sha for _, sha in powers_of(e)}:
                 errors.append(f"{eid}: the table is stale (the spans of the import rows changed)")
             elif all(r["status"] in SETTLED for r in mine):
@@ -1130,6 +1140,7 @@ def self_test() -> int:
     vb, vf = convert_multi("ref/order/x", vrows, vprops, set(), {}, "advanced-players-guide")
     eq(("## Envenomed {#envenomed}" in vb, "## Envenom (Su)" in vb, [a for a, _ in vf]), (True, False, ["calling", "retribution"]),
        "ruling 65: a variant of another book is its own unlisted section, its powers are not written twice and not listed")
+    eq(headings_as_names("\n### Order Abilities\n\nAn order.\n\n## Done {#done}\n"), "\n**Order Abilities**\n\nAn order.\n\n**Done**\n", "a heading is a bold name, the lines around it stay")
     eq(old_heading_levels("\n### Bloodline Powers\n\n## Done {#done}\n"), {"bloodline-powers": 3}, "the headings of an import without a key")
     STOP_TITLES.clear()
     STOP_TITLES.update({"aquatic", "boreal", "deepearth"})

@@ -15,7 +15,5 @@ kind = "class_option"
 group = "rogue-talent"
 +++
 
-**Strong Impression**
-
-**Ability:** A rogue who selects this talent gains
-[Intimidating Prowess](ref/feat/intimidating-prowess) as a bonus feat.
+A rogue who selects this talent gains [Intimidating Prowess](ref/feat/intimidating-prowess) as a
+bonus feat.

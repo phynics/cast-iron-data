@@ -13,9 +13,8 @@ page = "132"
 [fields]
 kind = "class_option"
 group = "rogue-talent"
+ability_type = "Ex"
 +++
 
-**Master of Disguise (Ex)**
-
-**Ability:** Once per day, a rogue with this talent gains a +10 bonus on a single
-[Disguise](ref/skill/disguise) check.
+Once per day, a rogue with this talent gains a +10 bonus on a single [Disguise](ref/skill/disguise)
+check.

@@ -13,10 +13,8 @@ page = "130"
 [fields]
 kind = "class_option"
 group = "rogue-talent"
+ability_type = "Ex"
 +++
 
-**Coax Information (Ex)**
-
-**Ability:** A rogue with this talent can use [Bluff](ref/skill/bluff) or
-[Diplomacy](ref/skill/diplomacy) in place of [Intimidate](ref/skill/intimidate) to force an opponent
-to act friendly toward her.
+A rogue with this talent can use [Bluff](ref/skill/bluff) or [Diplomacy](ref/skill/diplomacy) in
+place of [Intimidate](ref/skill/intimidate) to force an opponent to act friendly toward her.

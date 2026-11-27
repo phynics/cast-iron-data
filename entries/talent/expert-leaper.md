@@ -13,10 +13,9 @@ page = "130"
 [fields]
 kind = "class_option"
 group = "rogue-talent"
+ability_type = "Ex"
 +++
 
-**Expert Leaper (Ex)**
-
-**Passive:** When making jump checks, the rogue is always considered to have a running start. Also,
-when the rogue deliberately falls, a DC 15 Acrobatics check allows her to ignore the first 20 feet
-fallen, instead of the first 10 feet.
+When making jump checks, the rogue is always considered to have a running start. Also, when the
+rogue deliberately falls, a DC 15 Acrobatics check allows her to ignore the first 20 feet fallen,
+instead of the first 10 feet.

@@ -13,10 +13,9 @@ page = "130"
 [fields]
 kind = "class_option"
 group = "rogue-talent"
+ability_type = "Ex"
 +++
 
-**Assault Leader (Ex)**
-
-**Ability:** Once per day, when the rogue misses with an attack on a flanked opponent, she can
-designate a single ally who is also [flanking](ref/rule/flanking) the target that her attack missed.
-That ally can make a single melee attack against the opponent as an immediate action.
+Once per day, when the rogue misses with an attack on a flanked opponent, she can designate a single
+ally who is also [flanking](ref/rule/flanking) the target that her attack missed. That ally can make
+a single melee attack against the opponent as an immediate action.

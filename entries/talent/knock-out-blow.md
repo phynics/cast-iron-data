@@ -13,14 +13,13 @@ page = "132"
 [fields]
 kind = "class_option"
 group = "rogue-talent"
+ability_type = "Ex"
 +++
 
-**Knock-Out Blow (Ex)**
-
-**Ability:** Once per day, the rogue can forgo her sneak attack damage to attempt to knock out an
-opponent. She must declare the use of _knock-out blow_ before she makes the attack. If the attack
-hits, it does normal damage, but instead of dealing sneak attack damage (and instead of any effect
-that triggers when the rogue deals sneak attack damage), the target falls
-[unconscious](ref/misc/unconscious) for 1d4 rounds. A successful Fortitude save reduces this effect
-to [staggered](ref/misc/staggered) for 1 round. The DC of this save is equal to 10 + 1/2 the rogue's
-level + the rogue's Intelligence modifier.
+Once per day, the rogue can forgo her sneak attack damage to attempt to knock out an opponent. She
+must declare the use of knock-out blow before she makes the attack. If the attack hits, it does
+normal damage, but instead of dealing sneak attack damage (and instead of any effect that triggers
+when the rogue deals sneak attack damage), the target falls [unconscious](ref/misc/unconscious) for
+1d4 rounds. A successful Fortitude save reduces this effect to [staggered](ref/misc/staggered) for 1
+round. The DC of this save is equal to 10 + 1/2 the rogue's level + the rogue's Intelligence
+modifier.
