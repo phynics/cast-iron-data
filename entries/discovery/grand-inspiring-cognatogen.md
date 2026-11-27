@@ -17,9 +17,8 @@ ability_type = "Su"
 +++
 
 The alchemist's inspiring cognatogen now grants a +4 dodge bonus to AC and a +4 bonus to Reflex
-saving throws; a -6 penalty to Strength and Constitution; and the effects of having the
-[item lore](ref/invtalent/item-lore), [tenacious inspiration](ref/invtalent/tenacious-inspiration),
-and [underworld inspiration](ref/invtalent/underworld-inspiration) investigator talents. An
-alchemist must be at least 16th level and have the
+saving throws; a -6 penalty to Strength and Constitution; and the effects of having the item lore,
+tenacious inspiration, and underworld inspiration investigator talents. An alchemist must be at
+least 16th level and have the
 [greater inspiring cognatogen](ref/discovery/greater-inspiring-cognatogen) discovery to select this
 discovery.
