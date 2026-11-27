@@ -15,13 +15,7 @@ kind = "class_option"
 group = "alchemist-discovery"
 +++
 
-**Fast Bombs**
-
-**Flavor:** An alchemist with this discovery can quickly create enough bombs to throw more than one
-in a single round.
-
-**Full-round:** The alchemist can prepare and throw additional bombs if his base attack bonus is
-high enough to grant him additional attacks. This functions just like a full-attack with a ranged
-weapon.
-
-**Prereq:** 8th-level alchemist
+An alchemist with this discovery can quickly create enough bombs to throw more than one in a single
+round. The alchemist can prepare and throw additional bombs as a full-round action if his base
+attack bonus is high enough to grant him additional attacks. This functions just like a full-attack
+with a ranged weapon. An alchemist must be at least 8th level before selecting this discovery.
