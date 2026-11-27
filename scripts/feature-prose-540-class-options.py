@@ -52,6 +52,7 @@ from __future__ import annotations
 import argparse
 import csv
 import dataclasses
+import difflib
 import hashlib
 import importlib.util
 import re
@@ -702,7 +703,7 @@ def print_lost(printed: str, written: str) -> list[str]:
     which at most one word (four letters or more, at least eight of them) is missing is there (a misprint of print that the corpus corrected)."""
     plain = re.sub(r"[_*>]|^\s*[-\u2022]\s+", "", re.sub(r"\[([^\]]*)\]\([^)]*\)", r"\1", written), flags=re.M)
     have = fp.squash(plain)
-    words = set(re.findall(r"[a-z]{4,}", plain.lower().replace("\u2019", "'")))
+    wsq = [fp.squash(x) for x in SENTENCE_END.split(" ".join(plain.split()))]
     out = []
     for s in SENTENCE_END.split(" ".join(printed.split())):
         if len(re.sub(r"[^A-Za-z]", "", s)) < 12:
@@ -721,9 +722,9 @@ def print_lost(printed: str, written: str) -> list[str]:
         s = " ".join(kept)
         if fp.squash(s) in have:
             continue
-        ws = re.findall(r"[a-z]{4,}", s.lower().replace("\u2019", "'"))
-        if len(ws) >= 8 and sum(w not in words for w in ws) <= 1:
-            continue
+        sq = fp.squash(s)
+        if len(sq) >= 40 and any(abs(len(w) - len(sq)) <= 3 and difflib.SequenceMatcher(None, sq, w).ratio() >= 0.97 for w in wsq):
+            continue                                    # nearly one written sentence (a letter or two differ), compared sentence by sentence
         out.append(s)
     return out
 
@@ -1892,6 +1893,9 @@ def self_test() -> int:
         print("FAIL", line)
     eq(print_lost("Whenever she uses it, she can invoke true judgment on a foe. Regardless of whether the save is made, the target is immune for 24 hours.", "Whenever she uses it, she can invoke true judgment on a foe."),
        ["Regardless of whether the save is made, the target is immune for 24 hours."], "the coverage check names a printed sentence that the written text lacks")
+    eq(print_lost("The alchemist can brew an elixir of life once per day at sixteenth level.", "An elixir of life: the alchemist can brew once. The alchemist has per day sixteenth level."),
+       ["The alchemist can brew an elixir of life once per day at sixteenth level."], "a sentence whose words stand elsewhere in the text is still lost")
+    eq(print_lost("The alchemist can brew an elixer of life once per day at sixteenth level.", "The alchemist can brew an elixir of life once per day at sixteenth level."), [], "a letter differs: the sentence is there")
     eq(print_lost("This ability 4 4 3 3 is the equivalent of a spell of a level equal to one-third the level.", "This ability is the equivalent of a spell of a level equal to one-third the level."), [], "cells inside a printed sentence are no words of it")
     eq(print_lost("(Su): The witch can create a magic sensor that she can see through.", "The [witch](ref/x) can create a magic sensor that she can see through."), [], "the tag of a head and a link are not differences")
     eq([bool(TABLE_HEAD_RE.match(x)) for x in ("1st 2nd 3rd 4th", "0 1st 2nd 3rd", "Spells per Day", "Extracts per Day", "2-Point Evolutions", "3rd-Level Spells", "1st-Level Witch Spells", "1 Point Evolutions", "4th Level")],
