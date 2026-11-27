@@ -102,254 +102,215 @@ Knowledge (nobility), Knowledge (planes), Knowledge (religion), Linguistics, Spe
 |19th|6|6|6|6|5|5|4|
 |20th|6|6|6|6|6|5|5|
 
-#### Weapon and Armor Proficiencies {#weapon-and-armor-proficiencies}
+#### Weapon and Armor Proficiency {#weapon-and-armor-proficiencies}
 
-**Weapons:** All simple weapons
-
-**Armor:** Light armor
-
-**Shields:** No
-
-**Notes:** A summoner can cast summoner spells while wearing light armor without incurring the
-normal arcane spell failure chance. Like any other arcane spellcaster, a summoner wearing medium or
-heavy armor, or using a shield, incurs a chance of arcane spell failure if the spell in question has
-a somatic component. A multiclass summoner still incurs the normal arcane spell failure chance for
-arcane spells received from other classes.
+Summoners are proficient with all simple weapons. Summoners are also proficient with light armor. A
+summoner can cast summoner spells while wearing light armor without incurring the normal arcane
+spell failure chance. Like any other arcane spellcaster, a summoner wearing medium or heavy armor,
+or using a shield, incurs a chance of arcane spell failure if the spell in question has a somatic
+component. A multiclass summoner still incurs the normal arcane spell failure chance for arcane
+spells received from other classes.
 
 #### Spells {#spells}
 
-**Spell list:** Arcane spells from the summoner list, from 1st level
+A summoner casts arcane spells drawn from the summoner spell list (see page 64). He can cast any
+spell he knows without preparing it ahead of time, assuming he has not yet used up his allotment of
+spells per day for the spell's level.
 
-**Key ability:** Charisma. Minimum score 10 + spell level; save DC 10 + spell level + Charisma
-modifier; a high score grants bonus spells per day.
+To learn or cast a spell, a summoner must have a Charisma score equal to at least 10 + the spell
+level. The Difficulty Class for a saving throw against a summoner's spell is 10 + the spell level +
+the summoner's Charisma modifier.
 
-**Casting:** Spontaneous: cast any spell known without preparation, within the daily allotment per
-spell level.
+A summoner can cast only a certain number of spells of each spell level each day. His base daily
+spell allotment is given on Table 2–7. In addition, he receives bonus spells per day if he has a
+high Charisma score (see Table 1–3 of the _Pathfinder RPG Core Rulebook_).
 
-**Spells known:** Very limited selection; starts with four 0-level and two 1st-level spells and
-grows by level as shown on the table. Charisma does not change the number known.
+A summoner's selection of spells is extremely limited. A summoner begins play knowing four 0-level
+spells and two 1st-level spells of the summoner's choice. At each new summoner level, he gains one
+or more new spells as indicated on Table 2–8. (Unlike spells per day, the number of spells a
+summoner knows is not affected by his Charisma score. The numbers on Table 2–8 are fixed.)
 
-**Spell swap:** At 5th, 8th, 11th, and every 3 levels after, one known spell may be exchanged for
-another of the same level that is at least one level below the highest level you can cast.
+Upon reaching 5th level, and at every third summoner level thereafter (8th, 11th, and so on), a
+summoner can choose to learn a new spell in place of one he already knows. In effect, the summoner
+"loses" the old spell in exchange for the new one. The new spell's level must be the same as that of
+the spell being exchanged, and it must be at least one level lower than the highest-level summoner
+spell he can cast. A summoner may swap out only a single spell at any given level and must choose
+whether or not to swap the spell at the same time that he gains new spells known for the level.
 
 #### Cantrips {#cantrips}
 
-**Ability:** 0-level arcane spells. Cast without using a spell slot; one placed in a higher slot
-(for example through metamagic) uses that slot.
+A summoner learns a number of cantrips, or 0-level spells, as noted on Table 2–8 under "Spells
+Known." These spells are cast like any other spell, but they may be cast any number of times per
+day. Cantrips prepared using other spell slots, due to metamagic feats, for example, consume spell
+slots as normally.
 
 #### Eidolon {#eidolon}
 
-**Action:** Ability
+A summoner begins play with the ability to summon to his side a powerful outsider called an
+[eidolon](ref/sidekick/eidolon). The eidolon forms a link with the summoner, who, forever after,
+summons an aspect of the same creature. An eidolon has the same alignment as the summoner that calls
+it and can speak all of his languages. Eidolons are treated as
+[summoned creatures](ref/spelldef/summoning), except that they are not sent back to their home plane
+until reduced to a number of negative hit points equal to or greater than their Constitution score.
+In addition, due to its tie to its summoner, an eidolon can touch and attack creatures warded by
+_[protection from evil](ref/spell/protection-from-evil)_ and similar effects that prevent contact
+with summoned creatures.
 
-**Gained:** At 1st Level
+A summoner can summon his eidolon in a ritual that takes 1 minute to perform. When summoned in this
+way, the eidolon hit points are unchanged from the last time it was summoned. The only exception to
+this is if the eidolon was slain, in which case it returns with
+[half](ref/misc/fractions-and-rounding) its normal hit points. The eidolon does not heal naturally.
+The eidolon remains until dismissed by the summoner (a standard action). If the eidolon is sent back
+to its home plane due to death, it cannot be summoned again until the following day. The eidolon
+cannot be sent back to its home plane by means of _[dispel magic](ref/spell/dispel-magic)_, but
+spells such as _[dismissal](ref/spell/dismissal)_ and _[banishment](ref/spell/banishment)_ work
+normally. If the summoner is unconscious, asleep, or killed, his eidolon is immediately banished.
 
-You begin play with the ability to summon to your side a powerful outsider called an eidolon. Your
-[eidolon](ref/sidekick/eidolon) forms a link with you, who, forever after, summons an aspect of the
-same creature. Your eidolon has the same alignment as you and can speak all of your languages.
-Eidolons are treated as [summoned creatures](ref/spelldef/summoning), except that they are not sent
-back to their home plane until reduced to a number of negative hit points equal to or greater than
-their Constitution score. In addition, due to its tie to its summoner, an eidolon can touch and
-attack creatures warded by [protection from evil](ref/spell/protection-from-evil) and similar
-effects that prevent contact with summoned creatures.
+The eidolon takes a form shaped by the summoner's desires. The eidolon's Hit Dice, saving throws,
+skills, feats, and abilities are tied to the summoner's class level and increase as the summoner
+gains levels. In addition, each eidolon receives a pool of evolution points, based on the summoner's
+class level, that can be used to give the eidolon different abilities and powers. Whenever the
+summoner gains a level, he must decide how these points are spent, and they are set until he gains
+another level of summoner.
 
-You can summon your eidolon in a ritual that takes 1 minute to perform. When summoned in this way,
-the eidolon hit points are unchanged from the last time it was summoned. The only exception to this
-is if the eidolon was slain, in which case it returns with [half](ref/misc/fractions-and-rounding)
-its normal hit points. The eidolon does not heal naturally. The eidolon remains until dismissed by
-you (a **standard action**). If the eidolon is sent back to its home plane due to death, it cannot
-be summoned again until the following day. The eidolon cannot be sent back to its home plane by
-means of [dispel magic](ref/spell/dispel-magic), but spells such as [dismissal](ref/spell/dismissal)
-and [banishment](ref/spell/banishment) work normally. If you are unconscious, asleep, or killed,
-your eidolon is immediately banished.
-
-The eidolon takes a form shaped by your desires. The eidolon's Hit Dice, saving throws, skills,
-feats, and abilities are tied to your class level and increase as you gain levels. In addition, each
-eidolon receives a pool of evolution points, based on your class level, that can be used to give the
-eidolon different abilities and powers, called evolutions. Whenever you gain a level, you must
-decide how these points are spent, and they are set until you gain another level of summoner.
-
-The eidolon's physical appearance is up to you, but it always appears as some sort of fantastical
-creature. This control is not fine enough to make the eidolon appear like a specific creature. The
-eidolon also bears a glowing rune that is identical to a rune that appears on your forehead as long
-as the eidolon is summoned. While this rune can be hidden through mundane means, it cannot be
-concealed through magic that changes appearance, such as [alter self](ref/spell/alter-self) or
-[polymorph](ref/spell/polymorph) (although [invisibility](ref/spell/invisibility) does conceal it as
-long as the spell lasts).
+The eidolon's physical appearance is up to the summoner, but it always appears as some sort of
+fantastical creature. This control is not fine enough to make the eidolon appear like a specific
+creature. The eidolon also bears a glowing rune that is identical to a rune that appears on the
+summoner's forehead as long as the eidolon is summoned. While this rune can be hidden through
+mundane means, it cannot be concealed through magic that changes appearance, such as
+_[alter self](ref/spell/alter-self)_ or _[polymorph](ref/spell/polymorph)_ (although
+_[invisibility](ref/spell/invisibility)_ does conceal it as long as the spell lasts).
 
 #### Life Link (Su) {#life-link}
 
-**Free:** Whenever your eidolon takes enough damage to send it back to its home plane, you can
-sacrifice any number of hit points. Each hit point sacrificed in this way prevents 1 point of damage
-done to your eidolon. This can prevent your eidolon from being sent back to its home plane.
+Starting at 1st level, a summoner forms a close bond with his eidolon. Whenever the eidolon takes
+enough damage to send it back to its home plane, the summoner can, as a free action, sacrifice any
+number of hit points. Each hit point sacrificed in this way prevents 1 point of damage done to the
+eidolon. This can prevent the eidolon from being sent back to its home plane.
 
-**Gained:** At 1st Level
-
-**Passive:** In addition, you and your eidolon must remain within 100 feet of one another for your
-eidolon to remain at full strength. If your eidolon is beyond 100 feet but closer than 1,000 feet,
-its current and maximum hit point totals are reduced by 50%. If your eidolon is more than 1,000 feet
-away but closer than 10,000 feet, its current and maximum hit point totals are reduced by 75%. If
-your eidolon is more than 10,000 feet away, it is immediately returned to its home plane. Current
-hit points lost in this way are not restored when your eidolon gets closer to its summoner, but its
+In addition, the eidolon and the summoner must remain within 100 feet of one another for the eidolon
+to remain at full strength. If the eidolon is beyond 100 feet but closer than 1,000 feet, its
+current and maximum hit point totals are reduced by 50%. If the eidolon is more than 1,000 feet away
+but closer than 10,000 feet, its current and maximum hit point totals are reduced by 75%. If the
+eidolon is more than 10,000 feet away, it is immediately returned to its home plane. Current hit
+points lost in this way are not restored when the eidolon gets closer to its summoner, but its
 maximum hit point total does return to normal.
 
 #### Summon Monster I (Sp) {#summon-monster-i}
 
-**At 19th Level:** This now behaves as either _[summon monster IX](ref/spell/summon-monster-9)_ or
-[gate](ref/spell/gate). If used as _[gate](ref/spell/gate),_ you must pay any required material
-components.
-
-**Section:** Summon Monster
-
-**Gained:** At 1st Level
-
-**Special:** You cannot have more than one _[summon monster](ref/spell/summon-monster)_ or
-_[gate](ref/spell/gate)_ spell active in this way at one time. If this ability is used again, any
-existing _[summon monster](ref/spell/summon-monster)_ or _[gate](ref/spell/gate)_ immediately ends.
-These summon spells are considered to be part of your spell list for the purposes of spell trigger
-and spell completion items. In addition, you can expend uses of this ability to fufill the
-construction requirements of any magic item you create, so long as you can use this ability to cast
-the required spell.
-
-**Standard:** You can cast [summon monster I](ref/spell/summon-monster-1) as a
-[spell-like ability](ref/umr/spell-like-abilities). Drawing upon this ability uses up the same power
-as you use to call your eidolon. As a result, you can only use this ability when your eidolon is not
-summoned. When you cast this spell, the creatures remain for 1 minute per level (instead of 1 round
-per level).
-
-**Usage:** Cha3 modifier times/day
-
-At 3rd level: This now behaves as [summon monster II](ref/spell/summon-monster-2).
-
-At 5th level: This now behaves as [summon monster III](ref/spell/summon-monster-3).
-
-At 7th level: This now behaves as [summon monster IV](ref/spell/summon-monster-4).
-
-At 9th level: This now behaves as [summon monster V](ref/spell/summon-monster-5).
-
-At 11th level: This now behaves as [summon monster VI](ref/spell/summon-monster-6).
-
-At 13th level: This now behaves as [summon monster VII](ref/spell/summon-monster-7).
-
-At 15th level: This now behaves as [summon monster VIII](ref/spell/summon-monster-8).
-
-At 17th level: This now behaves as [summon monster IX](ref/spell/summon-monster-9).
+Starting at 1st level, a summoner can cast _[summon monster I](ref/spell/summon-monster-1)_ as a
+[spell-like ability](ref/umr/spell-like-abilities) a number of times per day equal to 3 + his
+Charisma modifier. Drawing upon this ability uses up the same power as the summoner uses to call his
+eidolon. As a result, he can only use this ability when his eidolon is not summoned. He can cast
+this spell as a standard action and the creatures remain for 1 minute per level (instead of 1 round
+per level). At 3rd level, and every 2 levels thereafter, the power of this ability increases by one
+spell level, allowing him to summon more powerful creatures (to a maximum of
+_[summon monster IX](ref/spell/summon-monster-9)_ at 17th level). At 19th level, this ability can be
+used as _[gate](ref/spell/gate)_ or _[summon monster IX](ref/spell/summon-monster-9)_. If used as
+_[gate](ref/spell/gate)_, the summoner must pay any required material components. A summoner cannot
+have more than one _[summon monster](ref/spell/summon-monster)_ or _[gate](ref/spell/gate)_ spell
+active in this way at one time. If this ability is used again, any existing
+_[summon monster](ref/spell/summon-monster)_ or _[gate](ref/spell/gate)_ immediately ends. These
+summon spells are considered to be part of his spell list for the purposes of spell trigger and
+spell completion items. In addition, he can expend uses of this ability to fufill the construction
+requirements of any magic item he creates, so long as he can use this ability to cast the required
+spell.
 
 #### Bond Senses (Su) {#bond-senses}
 
-**Gained:** At 2nd Level
-
-**Standard:** You can share the senses of your eidolon, hearing, seeing, smelling, tasting, and
-touching everything your eidolon does. There is no range to this effect, but your eidolon and you
-must be on the same plane. You can end this effect as a **free action**.
-
-**Usage:** 1 time/day per summoner level
+Starting at 2nd level, a summoner can, as a standard action, share the senses of his eidolon,
+hearing, seeing, smelling, tasting, and touching everything the eidolon does. He can use this
+ability a number of rounds per day equal to his summoner level. There is no range to this effect,
+but the eidolon and the summoner must be on the same plane. The summoner can end this effect as a
+free action.
 
 #### Shield Ally (Ex) {#shield-ally}
 
-**Gained:** At 4th Level
-
-**Passive:** Whenever you are within your eidolon's reach, you receive a +2 shield bonus to your
-Armor Class and a +2 circumstance bonus on your saving throws. This bonus does not apply if your
-eidolon is [grappled](ref/rule/grapple-conditions), [helpless](ref/misc/helpless),
+At 4th level, whenever a summoner is within his eidolon's reach, the summoner receives a +2 shield
+bonus to his Armor Class and a +2 circumstance bonus on his saving throws. This bonus does not apply
+if the eidolon is [grappled](ref/rule/grapple-conditions), [helpless](ref/misc/helpless),
 [paralyzed](ref/rule/paralyzed), [stunned](ref/misc/stunned), or
 [unconscious](ref/misc/unconscious).
 
 #### Maker's Call (Su) {#maker-s-call}
 
-**Gained:** At 6th Level
-
-**Standard:** You can call your eidolon to your side. This functions as
-[dimension door](ref/spell/dimension-door), using your caster level. When used, your eidolon appears
-adjacent to you (or as close as possible if all adjacent spaces are occupied). If your eidolon is
-out of range, the ability is wasted.
-
-**Usage:** 1 time/day + 1 per 4 summoner levels beyond 6th
+At 6th level, as a standard action, a summoner can call his eidolon to his side. This functions as
+_[dimension door](ref/spell/dimension-door)_, using the summoner's caster level. When used, the
+eidolon appears adjacent to the summoner (or as close as possible if all adjacent spaces are
+occupied). If the eidolon is out of range, the ability is wasted. The summoner can use this ability
+once per day at 6th level, plus one additional time per day for every four levels beyond 6th.
 
 #### Transposition (Su) {#transposition}
 
-**Gained:** At 8th Level
-
-**Standard:** You can use your _maker's call_ ability to swap locations with your eidolon. If it is
-larger than you, you can appear in any square occupied by your eidolon. The eidolon must occupy the
-square that was occupied by you if able, or as close as possible if it is not able.
+At 8th level, a summoner can use his maker's call ability to swap locations with his eidolon. If it
+is larger than him, he can appear in any square occupied by the eidolon. The eidolon must occupy the
+square that was occupied by the summoner if able, or as close as possible if it is not able.
 
 #### Aspect (Su) {#aspect}
 
-**Ability:** You can divert up to 2 points from your eidolon's evolution pool to add evolutions to
-yourself. You cannot select any evolution that your eidolon could not possess, and you must be able
-to meet the requirements as well. You cannot select the _ability increase_ evolution through this
-ability. Any points spent in this way are taken from your eidolon's evolution pool (reducing the
-total number available to your eidolon). You can change the evolutions you receive from these points
-any time you can change your eidolon's evolutions.
-
-**Gained:** At 10th Level
+At 10th level, a summoner can divert up to 2 points from his eidolon's evolution pool to add
+evolutions to himself. He cannot select any evolution that the eidolon could not possess, and he
+must be able to meet the requirements as well. He cannot select the ability increase evolution
+through this ability. Any points spent in this way are taken from the eidolon's evolution pool
+(reducing the total number available to the eidolon). The summoner can change the evolutions he
+receives from these points any time he can change the eidolon's evolutions.
 
 #### Greater Shield Ally (Su) {#greater-shield-ally}
 
-**Gained:** At 12th Level
-
-**Passive:** Whenever an ally is within your eidolon's reach, the ally receives a +2 shield bonus to
-its Armor Class and a +2 circumstance bonus on its saving throws. If this ally is you, these bonuses
-increase to +4. This bonus does not apply if your eidolon is grappled, helpless, paralyzed, stunned,
-or unconscious.
+At 12th level, whenever an ally is within an eidolon's reach, the ally receives a +2 shield bonus to
+its Armor Class and a +2 circumstance bonus on its saving throws. If this ally is the summoner,
+these bonuses increase to +4. This bonus does not apply if the eidolon is grappled, helpless,
+paralyzed, stunned, or unconscious.
 
 #### Life Bond (Su) {#life-bond}
 
-**Gained:** At 14th Level
-
-**Passive:** As long as your eidolon has 1 or more hit points, you are protected from harm. Damage
-in excess of that which would reduce you to fewer than 0 hit points is instead transferred to your
-eidolon. This damage is transferred 1 point at a time, meaning that as soon as your eidolon is
-reduced to a number of negative hit points equal to its Constitution score, all excess damage
-remains with you. Effects that cause death but not damage are unaffected by this ability. This
-ability does not affect spells like [baleful polymorph](ref/spell/baleful-polymorph),
+At 14th level, a summoner's life becomes linked to his eidolon's. As long as the eidolon has 1 or
+more hit points, the summoner is protected from harm. Damage in excess of that which would reduce
+the summoner to fewer than 0 hit points is instead transferred to the eidolon. This damage is
+transferred 1 point at a time, meaning that as soon as the eidolon is reduced to a number of
+negative hit points equal to its Constitution score, all excess damage remains with the summoner.
+Effects that cause death but not damage are unaffected by this ability. This ability does not affect
+spells like [baleful polymorph](ref/spell/baleful-polymorph),
 [flesh to stone](ref/spell/flesh-to-stone), or [imprisonment](ref/spell/imprisonment), or other
 spells that do not cause actual damage.
 
 #### Merge Forms (Su) {#merge-forms}
 
-**Fullround:** You can touch your eidolon and merge forms with it. This transformation includes all
-of your gear. While merged in this way, you are protected from harm and cannot be the target of
-spells or effects. All effects and spells currently targeting you are suspended until you emerge
-from your eidolon (although durations continue to expire).
+At 16th level, as a full-round action, a summoner can touch his eidolon and the two can merge forms.
+This transformation includes all of the summoner's gear. While merged in this way, the summoner is
+protected from harm and cannot be the target of spells or effects. All effects and spells currently
+targeting the summoner are suspended until the summoner emerges from the eidolon (although durations
+continue to expire).
 
-**Gained:** At 16th Level
+The summoner can cast spells while inside the eidolon by taking control of the eidolon for the
+duration of the casting. Any material components used for these spells are taken from the summoner's
+gear, even though they are otherwise inaccessible. The summoner can direct all of the eidolon's
+actions while merged, can perceive through its senses, and can speak through its voice.
 
-**Special:** You can cast spells while inside your eidolon by taking control of your eidolon for the
-duration of the casting. Any material components used for these spells are taken from your gear,
-even though they are otherwise inaccessible. You can direct all of your eidolon's actions while
-merged, can perceive through its senses, and can speak through its voice. If your eidolon is
-returned to its home plane while you are merged with it, you are immediately ejected, taking 4d6
-points of damage, and are stunned for 1 round.
-
-**Swift:** You can end this effect at any time. You emerge in a square adjacent to your eidolon if
-able.
-
-**Usage:** 1 time/day per summoner level
+The summoner can use this ability for a number of rounds per day equal to his summoner level. He can
+end this effect at any time as a swift action. The summoner emerges in a square adjacent to the
+eidolon if able. If the eidolon is returned to its home plane while the summoner is merged with it,
+the summoner is immediately ejected, taking 4d6 points of damage, and is stunned for 1 round.
 
 #### Greater Aspect (Su) {#greater-aspect}
 
-**Ability:** You can divert more of your eidolon's evolutions to yourself. This ability functions as
-the _aspect_ ability, but up to 6 evolution points can be taken. Unlike the _aspect_ ability, your
-eidolon loses 1 point from its evolution pool for every 2 points (or fraction thereof) diverted to
-you.
-
-**Gained:** At 18th Level
+At 18th level, a summoner can divert more of his eidolon's evolutions to himself. This ability
+functions as the aspect ability, but up to 6 evolution points can be taken. Unlike the aspect
+ability, the eidolon loses 1 point from its evolution pool for every 2 points (or fraction thereof)
+diverted to the summoner.
 
 #### Twin Eidolon (Su) {#twin-eidolon}
 
-**Gained:** At 20th Level
-
-**Standard:** You can assume the shape of your eidolon, copying all of its evolutions, form, and
-abilities. Your Strength, Dexterity, and Constitution scores change to match the base scores of your
-eidolon. You can choose to have any gear that you carry become absorbed by your new form, as with
-spells from the polymorph subschool. Items with continuous effects continue to function while
-absorbed in this way. You lose your natural attacks and all racial traits (except bonus feats,
-skills, and languages) in favor of the abilities granted by your eidolon's evolutions. You retain
-all of your class features. You can end this effect as a **free action**.
-
-**Usage:** 1 minute/day per summoner level; these minutes need not be consecutive, but must be spent
-in 1-minute increments
+At 20th level, a summoner and his eidolon share a true connection. As a standard action, the
+summoner can assume the shape of his eidolon, copying all of its evolutions, form, and abilities.
+His Strength, Dexterity, and Constitution scores change to match the base scores of his eidolon. He
+can choose to have any gear that he carries become absorbed by his new form, as with spells from the
+polymorph subschool. Items with continuous effects continue to function while absorbed in this way.
+The summoner loses his natural attacks and all racial traits (except bonus feats, skills, and
+languages) in favor of the abilities granted by his eidolon's evolutions. The summoner retains all
+of his class features. The summoner can keep this form for a number of minutes per day equal to his
+summoner level. This duration does not need to be consecutive, but it must be spent in 1-minute
+increments. The summoner can end this effect as a free action.
 
 ### Alternate Capstones
 

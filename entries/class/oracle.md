@@ -102,94 +102,94 @@ described below.
 |19th|9|5|5|4|4|4|3|3|3|2|
 |20th|9|5|5|4|4|4|3|3|3|3|
 
-#### Weapon and Armor Proficiencies {#weapon-and-armor-proficiencies}
+#### Weapon and Armor Proficiency {#weapon-and-armor-proficiencies}
 
-**Weapons:** All simple weapons
-
-**Armor:** Light armor, Medium armor
-
-**Shields:** Yes, except tower shields
-
-**Notes:** Some oracle revelations grant additional proficiencies.
+Oracles are proficient with all simple weapons, light armor, medium armor, and shields (except tower
+shields). Some oracle revelations grant additional proficiencies.
 
 #### Spells {#spells}
 
-**Spell list:** Divine spells from the oracle list, from 1st level
+An oracle casts divine spells drawn from the cleric spell lists (see pages 226–229 of the
+_Pathfinder RPG Core Rulebook_). She can cast any spell she knows without preparing it ahead of
+time. To learn or cast a spell, an oracle must have a Charisma score equal to at least 10 + the
+spell level. The Difficulty Class for a saving throw against an oracle's spell is 10 + the spell's
+level + the oracle's Charisma modifier.
 
-**Key ability:** Charisma. Minimum score 10 + spell level; save DC 10 + spell level + Charisma
-modifier; a high score grants bonus spells per day.
+Like other spellcasters, an oracle can cast only a certain number of spells per day of each spell
+level. Her base daily spell allotment is given on Table 2–5. In addition, she receives bonus spells
+per day if she has a high Charisma score (see Table 1–3 of the _Pathfinder RPG Core Rulebook_).
 
-**Casting:** Spontaneous: cast any spell known without preparation, within the daily allotment per
-spell level.
+Unlike other divine spellcasters, an oracle's selection of spells is extremely limited. An oracle
+begins play knowing four 0-level spells and two 1st-level spells of her choice. At each new oracle
+level, she gains one or more new spells, as indicated on Table 2–6. Unlike spells per day, the
+number of spells an oracle knows is not affected by her Charisma score; the numbers on Table 2–6 are
+fixed.
 
-**Spells known:** Very limited selection; starts with four 0-level and two 1st-level spells and
-grows by level as shown on the table. Charisma does not change the number known.
+In addition to the spells gained by oracles as they gain levels, each oracle also adds all of either
+the cure spells or the inflict spells to her list of spells known (cure spells include all spells
+with "cure" in the name, inflict spells include all spells with "inflict" in the name). These spells
+are added as soon as the oracle is capable of casting them. This choice is made when the oracle
+gains her first level and cannot be changed.
 
-**Spell swap:** At 4th, 6th, 8th, and every 2 levels after, one known spell may be exchanged for
-another of the same level.
+Upon reaching 4th level, and at every even-numbered oracle level after that (6th, 8th, and so on),
+an oracle can choose to learn a new spell in place of one she already knows. In effect, the oracle
+loses the old spell in exchange for the new one. The new spell's level must be the same as that of
+the spell being exchanged. An oracle may swap only a single spell at any given level, and must
+choose whether or not to swap the spell at the same time that she gains new spells known for the
+level. She cannot swap any cure or inflict spells, nor can she swap any spells gained from her
+mystery.
 
-**Added to spells known:** all cure or all inflict spells (chosen at 1st level, permanent).
-
-**Notes:** No divine focus is needed for spells that list DF.
+Unlike a cleric, an oracle need not prepare her spells in advance. She can cast any spell she knows
+at any time, assuming she has not yet used up her spells per day for that spell level. Oracles do
+not need to provide a divine focus to cast spells that list divine focus (DF) as part of the
+components.
 
 #### Orisons {#orisons}
 
-**Ability:** 0-level divine spells. Cast without using a spell slot; one placed in a higher slot
-(for example through metamagic) uses that slot.
+Oracles learn a number of orisons, or 0-level spells, as noted on Table 2–6 under "Spells Known."
+These spells are cast like any other spell, but they do not consume any slots and may be used again.
 
 #### Mystery {#mystery}
 
-**Ability:** You must pick one [mystery](ref/ability/mysteries) upon taking your first level of
-oracle. Once made, this choice cannot be changed. This mystery grants additional class skills and
-other special abilities.
+Each oracle draws upon a divine [mystery](ref/ability/mysteries) to grant her spells and powers.
+This mystery also grants additional class skills and other special abilities. This mystery can
+represent a devotion to one ideal, prayers to deities that support the concept, or a natural calling
+to champion a cause. For example, an oracle with the [waves](ref/mystery/waves) mystery might have
+been born at sea and found a natural calling to worship the gods of the oceans, rivers, and lakes,
+be they benign or malevolent. Regardless of its source, the mystery manifests in a number of ways as
+the oracle gains levels. An oracle must pick one mystery upon taking her first level of oracle. Once
+made, this choice cannot be changed.
 
-**Flavor:** Each oracle draws upon a divine mystery to grant her spells and powers.
-
-**At 2nd Level:** At 2nd level, and every two levels thereafter (4th, 6th, 8th, and so on), you
-learn an additional spell derived from your mystery. These spells are in addition to the number of
-spells gained each level. They cannot be exchanged for different spells at higher levels.
-
-**Gained:** At 1st Level
-
-An oracle's mystery can represent a devotion to one ideal, prayers to deities that support the
-concept, or a natural calling to champion a cause. For example, an oracle with the
-[waves](ref/mystery/waves) mystery might have been born at sea and found a natural calling to
-worship the gods of the oceans, rivers, and lakes, be they benign or malevolent. Regardless of its
-source, the mystery manifests in a number of ways as the oracle gains levels.
+At 2nd level, and every two levels thereafter, an oracle learns an additional spell derived from her
+mystery. These spells are in addition to the number of spells given on Table 2–6. They cannot be
+exchanged for different spells at higher levels.
 
 #### Oracle's Curse (Ex) {#oracle-s-curse}
 
-**Ability:** You must choose a single oracle curse. Once made, this choice cannot be changed, and it
-cannot be removed or dispelled without the aid of a deity. Your curse is based on your oracle level
-plus one for every two levels or Hit Dice other than oracle.
+Each oracle is cursed, but this curse comes with a benefit as well as a hindrance. This choice is
+made at 1st level, and once made, it cannot be changed. The oracle's curse cannot be removed or
+dispelled without the aid of a deity. An oracle's curse is based on her oracle level plus one for
+every two levels or Hit Dice other than oracle. Each oracle must choose one of the following curses.
 
-**Flavor:** Each oracle is cursed, but this curse comes with a benefit as well as a hindrance.
-
-**Gained:** At 1st Level
+- [Clouded Vision](ref/oraclecurse/clouded-vision)
+- [Haunted](ref/oraclecurse/haunted)
+- [Lame](ref/oraclecurse/lame)
+- [Tongues](ref/oraclecurse/tongues)
+- [Wasting](ref/oraclecurse/wasting)
 
 #### Revelation {#revelation}
 
-**Ability:** You select a revelation from the list of revelations available to your mystery. Unless
-otherwise noted, activating the power of a revelation is a **standard action**.
-
-**Flavor:** An oracle uncovers a new secret about her mystery that grants her powers and abilities.
-
-**Gained:** At 1st Level
-
-**Repeat:** You gain a new revelation., 3, 4
-
-**Special:** If a revelation is chosen after 1st level, you gain all of the abilities and bonuses
-granted by that revelation based on your current level.
+At 1st level, 3rd level, and every four levels thereafter (7th, 11th, and so on), an oracle uncovers
+a new secret about her mystery that grants her powers and abilities. The oracle must select a
+revelation from the list of revelations available to her mystery. If a revelation is chosen at a
+later level, the oracle gains all of the abilities and bonuses granted by that revelation based on
+her current level. Unless otherwise noted, activating the power of a revelation is a standard
+action.
 
 #### Final Revelation {#final-revelation}
 
-**Ability:** You gain the _final revelation_ listed in your mystery. The nature of these bonuses
-depends upon the mystery.
-
-**Flavor:** At 20th level, an oracle learns the final revelation about her mystery, granting her
-amazing powers and abilities.
-
-**Gained:** At 20th Level
+At 20th level, an oracle learns the final revelation about her mystery, granting her amazing powers
+and abilities. The nature of these bonuses depends upon the oracle's mystery.
 
 ### Alternate Capstones
 

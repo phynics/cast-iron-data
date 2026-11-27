@@ -56,17 +56,70 @@ def feature_region(body: str) -> tuple[int, int] | None:
     return first, end
 
 
+NUMERIC = re.compile(r"^(?:[+\-\u2013\u2014]?\d+(?:/\d+)?(?:st|nd|rd|th)?|[\u2014\u2013-]|\+\d+)[,.]?$")
+
+
+def is_table_para(text: str) -> bool:
+    """A paragraph that is the cells of a class table: most of its words are numbers, dashes or ordinals, or it is the header row of the table (Fort, Ref and
+    Will saves). Print sets the class table in the middle of the text and the reader makes paragraphs of the cells."""
+    toks = text.split()
+    if len(toks) >= 4 and re.search(r"\bFort\b.*\bRef\b.*\bWill\b", text):
+        return True
+    return len(toks) >= 5 and sum(bool(NUMERIC.match(x)) for x in toks) / len(toks) >= 0.5
+
+
+def prose_after_cells(text: str) -> str:
+    """The text of a sentence that shares a paragraph with the cells of a table: after the leading numbers ("6 6 6 6 due to encumbrance. At 5th level, ...") or
+    after the last cell of a table ("... 6 6 6 4 \u2014 with the summoner. Effects that cause death ..."), when it holds a sentence (a full stop), else
+    nothing (a row of a table with words in its cells)."""
+    toks = text.split()
+    cands = []
+    i = 0
+    while i < len(toks) and NUMERIC.match(toks[i]):
+        i += 1
+    if i > 0:
+        cands.append(" ".join(toks[i:]))
+    k = max((n for n, x in enumerate(toks) if NUMERIC.match(x)), default=-1)
+    if 0 <= k < len(toks) - 1:
+        cands.append(" ".join(toks[k + 1:]))
+    for prose in cands:
+        if len(prose.split()) >= 4 and re.search(r"[a-z]{3}[^.]*\.\s", prose + " ") and not re.search(r"\b(?:Fort|Ref|Will)\b", prose):
+            return prose
+    return ""
+
+
 def window(blocks: list) -> list:
-    """The blocks of the section "Class Features" of the class: after that title, up to the next title that is not the title of a table."""
+    """The blocks of the section "Class Features" of the class: after that title, up to the next subsection or class title. A class table (its title and its
+    cells) and a sidebar title (set larger, 24) do not end it; the cells of the table are not text of a feature."""
     at = next((i for i, b in enumerate(blocks) if b.kind == "title" and fp.squash(b.plain()) == "classfeatures"), None)
     if at is None:
         return []
     out = []
     for b in blocks[at + 1:]:
-        # a sidebar or a table title is set larger (24) than a subsection title (18): the section ends at the next subsection or class title
         if b.kind == "title" and not b.plain().strip().lower().startswith("table") and (b.size == 18 or b.size >= 38):
             break
+        if b.kind == "title" and b.plain().strip().lower().startswith("table"):
+            continue                                       # the title of a class table is not text of a feature
+        if b.kind == "para" and is_table_para(b.plain()):
+            prose = prose_after_cells(b.plain())
+            if prose:                                      # the cells ran into the text of a sentence that the table broke: the sentence stays
+                out.append(fp.Para("para", [(prose, False, False)], b.page, b.col, 0))
+            continue
         out.append(b)
+    return join_across_tables(out)
+
+
+def join_across_tables(blocks: list) -> list:
+    """A sentence that print breaks for a class table (the table stands in the middle of it) continues in the next paragraph, in lower case: the two
+    are one paragraph. Only a paragraph that does not end in terminal punctuation, followed by one that starts in lower case, is joined."""
+    out: list = []
+    for b in blocks:
+        if (out and b.kind == "para" and out[-1].kind == "para" and not co.paragraph_complete(out[-1].plain())
+                and b.plain().strip()[:1].islower() and fp.head_candidate(b) is None):
+            a = out.pop()
+            out.append(fp.Para("para", list(a.runs) + [(" ", False, False)] + list(b.runs), a.page, a.col, 0))
+        else:
+            out.append(b)
     return out
 
 
@@ -74,6 +127,14 @@ HEAD_RE = re.compile(r"^#### (.*?)(?: \{#([^}]+)\})?\s*$")
 WRITE_FEATURES = False        # the `features` of a class (anchor and level from the class table): off until the app has answered (owner call 5); bodies are written without
 # The printed name of a head that the corpus names otherwise and that no plural or tag rule reaches: (class entry, key) -> print's head
 PRINT_NAMES: dict[tuple[str, str], str] = {("ref/class/antipaladin", "channel-energy"): "Channel Negative Energy (Su)"}
+
+
+# Print's layout puts a class table beside the text, and the text layer of the page runs words of the table's Special column into a sentence. Known cases:
+# (class entry, key) -> [(what the layer has, what the sentence says)], each checked against the page.
+LAYOUT_FIXES: dict[tuple[str, str], list[tuple[str, str]]] = {
+    ("ref/class/summoner", "eidolon"): [("the Twin eidolon summoner's class level", "the summoner's class level")],
+    ("ref/class/summoner", "life-link"): [("more than 1,000 feet Spells per Day 5 5 5 5 5 5 away", "more than 1,000 feet away")],       # the cells of Table 2-8 (Advanced Player's Guide, Summoner p. 56)   # Table 2-7 lists "Twin eidolon" at 20th level (Advanced Player's Guide, Summoner p. 55)
+}
 
 
 def stem(name: str) -> str:
@@ -114,7 +175,13 @@ def pick_options(items: list[tuple[str, list[tuple[str, str]]]]) -> list[tuple[s
     return out
 
 
-def compare_class(corpus: Path, e, bk, cache: dict, options: dict | None = None) -> dict:
+def class_decisions(corpus: Path, book: str) -> dict[tuple[str, str], tuple[str, str]]:
+    """The decisions of the book's class options file for classes: (class id, key) -> (decision, note); `print` settles a hold as print has it (the corpus
+    wording is the import's paraphrase, or print has text that the corpus lacks), `hold` keeps it for an errata check."""
+    return co.read_decisions(co.decisions_file(corpus, book))
+
+
+def compare_class(corpus: Path, e, bk, cache: dict, options: dict | None = None, decisions: dict | None = None) -> dict:
     """The comparison of one base class, as a plan for the writer: one item per `####` head of the class (its key, print's head text, print's text and
     status), the print heads that the corpus has no head for (`extra`), the heads that print does not have (`missing`), and the items of option lists
     (owner call 4: an item that has an entry of its own is a link, the feature keeps print's lead-in)."""
@@ -151,7 +218,25 @@ def compare_class(corpus: Path, e, bk, cache: dict, options: dict | None = None)
             missing.append(key)
             items.append({"key": key, "line": line, "head": text, "print": "", "status": "hold", "notes": ["head not printed"]})
         else:
-            items.append({"key": key, "line": line, "head": r["head"], "print": r["print"], "status": r["status"], "notes": list(r["notes"])})
+            status, notes = r["status"], list(r["notes"])
+            dec = (decisions or {}).get((e.id, key))
+            if dec and dec[0] == "print" and status == "hold":
+                status = "print"
+                notes.append(f"decision: {dec[1]}")
+            head, text = r["head"], r["print"]
+            tag = re.match(r"^\(((?:Ex|Su|Sp)(?:(?:, or |, and |, | or | and )(?:Ex|Su|Sp))*)\):\s*", text)
+            if tag:                                       # the tag of the head ("Summon Monster I" "(Sp):") stands in the first run: it belongs to the head
+                head = f"{head} ({tag.group(1)})" if not re.search(r"\((?:Ex|Su|Sp)[^)]*\)\s*$", head) else head
+                text = text[tag.end():]
+            for old, new in LAYOUT_FIXES.get((e.id, key), []):
+                if old in " ".join(text.split()):
+                    text = " ".join(text.split("\n\n")[0].split()).replace(old, new) if "\n\n" not in text else "\n\n".join(" ".join(x.split()).replace(old, new) for x in text.split("\n\n"))
+                    notes.append(f"layout: words of the class table's Special column are in the sentence ({old!r} is {new!r})")
+            cut = co.incomplete_paragraph(text)
+            if cut:                                       # the completeness guard: the window ended, or a table stands in the sentence
+                status = "hold"
+                notes.append(f"print text may be cut at a page or column break: ...{cut}")
+            items.append({"key": key, "line": line, "head": head, "print": text, "status": status, "notes": notes})
     extra, options = [], options or {}                          # the items of an option list are collected, then linked from one group
     last = None
     for r in res["rows"]:
@@ -219,7 +304,7 @@ def run_compare(args) -> int:
     for e in co.load_entries(corpus, "class", book):
         if not e.id.startswith("ref/class/") or (wanted and e.id.rsplit("/", 1)[1] not in wanted):
             continue
-        plan = compare_class(corpus, e, bk, cache, options)
+        plan = compare_class(corpus, e, bk, cache, options, class_decisions(corpus, book))
         c = Counter(x["status"] for x in plan["items"])
         total.update(c)
         links = sum(len(x.get("links", [])) for x in plan["items"])
@@ -274,18 +359,26 @@ def self_test() -> int:
     eq(pick_options([("Clouded Vision", [("ref/oraclecurse/clouded-vision", "oracle-curse")]), ("Tongues", [("ref/shamanhex/tongues", "shaman-hex"), ("ref/oraclecurse/tongues", "oracle-curse")]),
                      ("Lame", [("ref/oraclecurse/lame", "oracle-curse")])]),
        [("Clouded Vision", "ref/oraclecurse/clouded-vision"), ("Tongues", "ref/oraclecurse/tongues"), ("Lame", "ref/oraclecurse/lame")], "owner call 4: a title that two groups share is linked from the group of the list")
+    eq(LAYOUT_FIXES[("ref/class/summoner", "eidolon")][0][1], "the summoner's class level", "a known layout fix names the words of the table that the layer ran into a sentence")
     eq(WRITE_FEATURES, False, "owner call 5: the `features` switch is off")
     eq(class_features({"items": [{"key": "mystery", "head": "Mystery"}, {"key": "bomb", "head": "Bomb (Su)"}], "levels": {fp.first_level_key("Mystery"): 1}}),
        [("mystery", 1), ("bomb", None)], "the levels of the features come from the class table, a feature that is not in it has none")
+    eq(re.match(r"^\(((?:Ex|Su|Sp)[^)]*)\):\s*", "(Sp): Starting at 1st level, a summoner").group(1), "Sp", "the tag that print leaves in the first run is found")
     eq((settled(plan), settled(dict(plan, extra=["X"])), settled(dict(plan, missing=["mystery"]))), (True, False, False), "a class is written all or nothing")
     P = fp.Para
     blocks = [P("title", [("Oracle", True, False)], 42, 1, 38), P("title", [("Class Features", True, False)], 42, 1, 18),
               P("para", [("Spells: A.", False, False)], 42, 1), P("title", [("Table 2–5: Oracle", True, False)], 44, 0, 24), P("para", [("1st +0", False, False)], 44, 0),
               P("para", [("Orisons: B.", False, False)], 45, 0), P("title", [("Alternate Capstones", True, False)], 46, 0, 18), P("para", [("Late.", False, False)], 46, 0)]
-    eq([b.plain() for b in window(blocks)], ["Spells: A.", "Table 2–5: Oracle", "1st +0", "Orisons: B."], "the window runs over a table and ends at the next title")
+    eq([b.plain() for b in window(blocks)], ["Spells: A.", "1st +0", "Orisons: B."], "the window runs over a table (its title is no text) and ends at the next title")
     side = blocks[:3] + [P("title", [("Fall From Grace", True, False)], 46, 0, 24), P("para", [("Sidebar.", False, False)], 46, 0), P("title", [("Ex-Antipaladins", True, False)], 46, 0, 18)]
     eq([b.plain() for b in window(side)], ["Spells: A.", "Fall From Grace", "Sidebar."], "a sidebar title (larger) does not end the window, the next subsection does")
     eq(window([blocks[0]]), [], "a page without the Class Features title has no window")
+    eq((prose_after_cells("6 6 6 6 6 6 due to encumbrance. At 5th level, you are immune to fatigue."), prose_after_cells("1st +0 +0 +0 +2 Mystery, oracle's curse, orisons 3 \u2014 \u2014")),
+       ("due to encumbrance. At 5th level, you are immune to fatigue.", ""), "a sentence that the cells ran into stays, a table row with words in its cells does not")
+    cutp = [P("para", [("A damage remains", False, False)], 44, 0), P("para", [("with the summoner. Effects", False, False)], 45, 0), P("para", [("Next: B.", True, False)], 45, 0)]
+    eq([b.plain() for b in join_across_tables(cutp)], ["A damage remains with the summoner. Effects", "Next: B."], "a sentence that a table broke is joined, a new paragraph is not")
+    eq((is_table_para("6 6 6 6 6 6 6 6 6"), is_table_para("1st +0 +0 +0 +2 Mystery, oracle's curse, orisons 3 \u2014 \u2014 \u2014"), is_table_para("Base Attack Fort Ref Will Level Bonus Save Save Save Special"),
+        is_table_para("An oracle casts divine spells drawn from the cleric spell lists.")), (True, True, True, False), "the cells of a class table are no text of a feature")
     for line in bad:
         print("FAIL", line)
     print(f"self-test: {ok} checks passed" if not bad else f"self-test: {len(bad)} failures")
