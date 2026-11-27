@@ -36,20 +36,15 @@ disconnect, leaving your corporeal form helpless and your mind trapped within th
 Plane. This state lasts for 1 hour per manifestation level; if you are killed during this time, you
 rise 24 hours later as a [wraith](ref/monster/wraith) under the GM's control.
 
-**Corruption Stage 1**
+**Corruption Stage 1:** The first time you recover from this disconnected state, you return
+diminished, taking a permanent -2 penalty to your Charisma score, and your alignment shifts one step
+toward evil.
 
-**Details:** The first time you recover from this disconnected state, you return diminished, taking
-a permanent -2 penalty to your Charisma score, and your alignment shifts one step toward evil.
+**Corruption Stage 2:** The second time this happens, your alignment shifts another step toward evil
+and you take an additional -2 penalty to your Charisma score.
 
-**Corruption Stage 2**
-
-**Details:** The second time this happens, your alignment shifts another step toward evil and you
-take an additional -2 penalty to your Charisma score.
-
-**Corruption Stage 3**
-
-**Details:** The third time this happens, you die and your soul is consumed by the Negative Energy
-Plane. You can't be raised or resurrected except by powerful magic such as
+**Corruption Stage 3:** The third time this happens, you die and your soul is consumed by the
+Negative Energy Plane. You can't be raised or resurrected except by powerful magic such as
 [miracle](ref/spell/miracle) or [wish](ref/spell/wish). Even if you do get brought back, you are an
 evil lich NPC under the GM's control.
 
@@ -65,9 +60,9 @@ The following are manifestations of the lich corruption.
 
 **Agonizing Touch**
 
-**Flavor:** Your touch racks the living with pain.
+Your touch racks the living with pain.
 
-**Prereq:** Manifestation level 4th, death's caress
+**Prerequisites:** Manifestation level 4th, death's caress
 
 **Gift:** Once per day per manifestation level, you can make an _agonizing touch_ as a **standard
 action**. A living creature hit by this touch attack must succeed at a Fortitude save or be
@@ -80,9 +75,9 @@ chances you incur from other sources.
 
 **Bleak Aura**
 
-**Flavor:** Entropy seeps from your body.
+Entropy seeps from your body.
 
-**Prereq:** Manifestation level 4th, deathless
+**Prerequisites:** Manifestation level 4th, deathless
 
 **Gift:** Any living creature that ends its turn adjacent to you takes 1 point of negative energy
 damage for every 2 manifestation levels you have.
@@ -95,7 +90,7 @@ your presence if you're using [Stealth](ref/skill/stealth).
 
 **Cadaver's Countenance**
 
-**Flavor:** Your body takes on a deathly likeness.
+Your body takes on a deathly likeness.
 
 **Gift:** You gain a +1 natural armor bonus to your AC and a +2 bonus on saves against
 mind-affecting effects.
@@ -105,7 +100,7 @@ penalty to your Constitution.
 
 **Death's Caress**
 
-**Flavor:** Your touch drains the warmth of life from others.
+Your touch drains the warmth of life from others.
 
 **Gift:** You can make a touch attack as a **standard action** that deals cold damage equal to 1d4 +
 your manifestation level.
@@ -116,7 +111,7 @@ still a living creature. Other spells and effects don't treat you as undead.
 
 **Deathless**
 
-**Flavor:** You are inured to negative energy.
+You are inured to negative energy.
 
 **Gift:** You gain a +2 bonus on saving throws against spells and effects that work only on living
 creatures.
@@ -126,9 +121,9 @@ creature.
 
 **Greater Cadaver's Countenance**
 
-**Flavor:** You become emaciated and nearly skeletal.
+You become emaciated and nearly skeletal.
 
-**Prereq:** Manifestation level 4th, cadaver's countenance
+**Prerequisites:** Manifestation level 4th, cadaver's countenance
 
 **Gift:** You gain cold resistance 5 and DR equal to 1/2 your manifestation level that is overcome
 by bludgeoning damage.
@@ -141,9 +136,9 @@ energy affect you.
 
 **Malevolence**
 
-**Flavor:** You can wrench your soul from your body to possess another.
+You can wrench your soul from your body to possess another.
 
-**Prereq:** Manifestation level 7th, bleak aura, deathless
+**Prerequisites:** Manifestation level 7th, bleak aura, deathless
 
 **Gift:** You can touch a living creature as a **standard action** and force your soul into its
 body. If hit by this touch attack, the target must succeed at a Will save (DC = 15 + your
@@ -164,9 +159,9 @@ below 0 hit points, your soul leaves your body and you instantly die.
 
 **Master of the Dead**
 
-**Flavor:** You can animate the dead with your necromantic power.
+You can animate the dead with your necromantic power.
 
-**Prereq:** Manifestation level 6th, agonizing touch, death's caress
+**Prerequisites:** Manifestation level 6th, agonizing touch, death's caress
 
 **Gift:** You can cast [animate dead](ref/spell/animate-dead) at will as a
 [spell-like ability](ref/umr/spell-like-abilities) with a caster level equal to your character
@@ -182,9 +177,9 @@ bardic performances.
 
 **Necromantic Knowledge**
 
-**Flavor:** You have gained unusual insights into necromancy.
+You have gained unusual insights into necromancy.
 
-**Prereq:** Manifestation level 2nd, ability to cast spells
+**Prerequisites:** Manifestation level 2nd, ability to cast spells
 
 **Special:** You can gain this manifestation multiple times. Each time you gain the _gift,_ you gain
 a different necromancy spell, and each time you gain the _stain,_ the penalties stack.

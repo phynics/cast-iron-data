@@ -45,20 +45,15 @@ restrained, your corruption doesn't progress to the next stage. However, the DC 
 against your corruption progressing increases by 2. These increases stack each time this occurs, and
 they last until your corruption reaches the next stage.
 
-**Corruption Stage 1**
+**Corruption Stage 1:** The first time you lose control, you kill defenseless small animals, such as
+birds, rodents, and possibly even a dog.
 
-**Details:** The first time you lose control, you kill defenseless small animals, such as birds,
-rodents, and possibly even a dog.
+**Corruption Stage 2:** The second time this occurs, you kill larger animals, such as a horse, a
+cow, or a pig.
 
-**Corruption Stage 2**
-
-**Details:** The second time this occurs, you kill larger animals, such as a horse, a cow, or a pig.
-
-**Corruption Stage 3**
-
-**Details:** The third time this happens, you kill a nearby sentient humanoid, at which point the
-corruption becomes incurable and you are doomed to live a life of lycanthropy, forever turning evil
-and becoming an NPC under the GM's control.
+**Corruption Stage 3:** The third time this happens, you kill a nearby sentient humanoid, at which
+point the corruption becomes incurable and you are doomed to live a life of lycanthropy, forever
+turning evil and becoming an NPC under the GM's control.
 
 ### Removing the Corruption
 
@@ -72,9 +67,9 @@ The following are manifestations of the lycanthropy corruption.
 
 **Animalistic Health**
 
-**Flavor:** You are hardier in your animal form.
+You are hardier in your animal form.
 
-**Prereq:** Shift form
+**Prerequisite:** Shift form
 
 **Gift:** Whenever you _shift forms,_ you gain a +2 bonus to your Constitution score that lasts as
 long as you are in your _shifted form._ Hit points gained from this bonus are lost when you revert
@@ -84,9 +79,9 @@ to your normal form.
 
 **Animalistic Might**
 
-**Flavor:** You are stronger in your animal form.
+You are stronger in your animal form.
 
-**Prereq:** Shift form
+**Prerequisite:** Shift form
 
 **Gift:** Whenever you _shift forms,_ you gain a +2 bonus to your Strength score that lasts as long
 as you're in your _shifted form._
@@ -97,7 +92,7 @@ on throughout this size change might not fall off, at the GM's discretion.
 
 **Feral Senses**
 
-**Flavor:** You gain the senses of your animalistic side.
+You gain the senses of your animalistic side.
 
 **Gift:** You gain [low-light vision](ref/rule/low-light-vision).
 
@@ -111,9 +106,9 @@ At manifestation level 3rd, these penalties change to -4.
 
 **Fur Armor**
 
-**Flavor:** When in your _shifted form,_ you gain a thick coat of fur.
+When in your _shifted form,_ you gain a thick coat of fur.
 
-**Prereq:** Shift form
+**Prerequisite:** Shift form
 
 **Gift:** Whenever you _shift_ your form, your natural armor bonus increases by 1.
 
@@ -127,9 +122,9 @@ confusion, and you can't remove the confusion early by any means.
 
 **Greater Shift Form**
 
-**Flavor:** You can become an animal.
+You can become an animal.
 
-**Prereq:** Manifestation level 6th, shift form
+**Prerequisites:** Manifestation level 6th, shift form
 
 **Gift:** When you use _shift form,_ you can instead take your animal form, as if using
 [polymorph](ref/spell/polymorph). Nonmagical clothing and gear don't meld into your animal form. You
@@ -145,9 +140,9 @@ a daily use of shifting each minute until you have used up all of your uses for 
 
 **Lunar Call**
 
-**Flavor:** The moon's light affects your mind.
+The moon's light affects your mind.
 
-**Prereq:** Shift form
+**Prerequisite:** Shift form
 
 **Gift:** Whenever you are outside and the moon is visible, you gain a +1 morale bonus on attack
 rolls and damage rolls. These bonuses double during a full moon.
@@ -158,7 +153,7 @@ penalties double during a full moon.
 
 **Lycanthropic Empathy**
 
-**Flavor:** You can relate to the creatures that share your type.
+You can relate to the creatures that share your type.
 
 **Gift:** You can communicate with animals related to your animal type. You can use
 [Diplomacy](ref/skill/diplomacy) to alter such animals' attitudes, and you gain a +4 racial bonus on
@@ -170,7 +165,7 @@ and [Sense Motive](ref/skill/sense-motive) skill checks equal to your manifestat
 
 **Shift Form**
 
-**Flavor:** You have some control over your shift to a feral nature.
+You have some control over your shift to a feral nature.
 
 **Special:** Upon receiving this manifestation, you must take both the gift and the stain, even with
 the _useful corruption_ or _vile corruption_ [variants](ref/rule/corruption-variants).
@@ -193,9 +188,9 @@ not in combat or before you've acted in combat.
 
 **Silver Allergy**
 
-**Flavor:** You're resistant to harm, but can't abide the touch of silver.
+You're resistant to harm, but can't abide the touch of silver.
 
-**Prereq:** Manifestation level 4th, shift form
+**Prerequisites:** Manifestation level 4th, shift form
 
 **Gift:** When you are _shifted,_ you gain an amount of
 [damage reduction](ref/rule/damage-reduction) equal to half your manifestation level. This DR is

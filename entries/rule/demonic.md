@@ -35,21 +35,16 @@ this temptation and perform the action. What counts as significant is up to the 
 prevents you from performing this act, the GM chooses a time over the next week when you're
 compelled to otherwise further the cause of chaotic evil.
 
-**Corruption Stage 1**
+**Corruption Stage 1:** The first time you perform a significant act that matches the corruption's
+theme, your alignment shifts one step toward chaotic evil (toward evil first, if you aren't yet
+evil). Any attempt to raise you from the dead requires a successful caster level check (DC = 15 +
+double your manifestation level).
 
-**Details:** The first time you perform a significant act that matches the corruption's theme, your
-alignment shifts one step toward chaotic evil (toward evil first, if you aren't yet evil). Any
-attempt to raise you from the dead requires a successful caster level check (DC = 15 + double your
-manifestation level).
+**Corruption Stage 2:** The second time you perform such an act, your alignment shifts to chaotic
+evil.
 
-**Corruption Stage 2**
-
-**Details:** The second time you perform such an act, your alignment shifts to chaotic evil.
-
-**Corruption Stage 3**
-
-**Details:** The third time you perform such an act, you become a demonic entity under the GM's
-control.
+**Corruption Stage 3:** The third time you perform such an act, you become a demonic entity under
+the GM's control.
 
 ### Removing the Corruption
 
@@ -62,7 +57,7 @@ The following are manifestations of the demonic corruption.
 
 **Abyssal Deformity**
 
-**Flavor:** Your body mirrors the ugliness of your corruption.
+Your body mirrors the ugliness of your corruption.
 
 **Gift:** You gain a +3 bonus on Intimidate checks and on [Diplomacy](ref/skill/diplomacy) checks to
 interact with demons and their cults. Your stain penalty does not apply to these checks.
@@ -76,9 +71,9 @@ At manifestation level 5th, the penalties double.
 
 **Chaotic Mutation**
 
-**Flavor:** Your physical form is unpredictable.
+Your physical form is unpredictable.
 
-**Prereq:** Manifestation level 2nd
+**Prerequisite:** Manifestation level 2nd
 
 **Gift:** Permanent fleshcrafts cost 10% less to apply to you. Once per day, you can gain any one of
 the abilities listed in [alter self](ref/spell/alter-self), as well as an apt physical feature or
@@ -99,7 +94,7 @@ same day count as originating from the same area.
 
 **Corrupted Claws**
 
-**Flavor:** Your hands twist into terrible claws.
+Your hands twist into terrible claws.
 
 **Gift:** You gain a claw attack as a primary [natural weapon](ref/umr/natural-attacks). This attack
 deals 1d6 points of damage (or 1d3 points of damage if you are Small).
@@ -111,9 +106,9 @@ where you must hide your claws.
 
 **Demonic Enhancement**
 
-**Flavor:** Demonic power surges within you.
+Demonic power surges within you.
 
-**Prereq:** Manifestation level 4th
+**Prerequisite:** Manifestation level 4th
 
 **Gift:** You gain a +2 profane bonus to the ability score of your choice.
 
@@ -122,9 +117,9 @@ select as your gift).
 
 **Demonic Wings**
 
-**Flavor:** You've grown a pair of demonic wings from your back.
+You've grown a pair of demonic wings from your back.
 
-**Prereq:** Manifestation level 4th
+**Prerequisite:** Manifestation level 4th
 
 **Gift:** You gain a fly speed of 30 feet with poor maneuverability.
 
@@ -137,7 +132,7 @@ wings periodically flap and rasp reflexively, imposing a -4 penalty on
 
 **Hideous Urges**
 
-**Flavor:** Your base instincts grow stronger.
+Your base instincts grow stronger.
 
 **Gift:** Whenever you are [confused](ref/misc/confused), you can roll twice and take the result of
 your choice to determine the actual effects of confusion. Once per day, if you become dazed,
@@ -153,9 +148,9 @@ corrupted you. Unless you are prevented from doing so, your corruption progresse
 
 **Scarred by the Abyss**
 
-**Flavor:** Your body is horrifically scarred.
+Your body is horrifically scarred.
 
-**Prereq:** Manifestation level 5th
+**Prerequisite:** Manifestation level 5th
 
 **Gift:** You gain [damage reduction](ref/rule/damage-reduction) equal to half your manifestation
 level that can be overcome by cold iron or good weapons.
@@ -166,9 +161,9 @@ abilities created by outsiders with the lawful or good subtypes.
 
 **Terrible Truths**
 
-**Flavor:** The Abyss reveals the awful truths of reality to you.
+The Abyss reveals the awful truths of reality to you.
 
-**Prereq:** Manifestation level 5th
+**Prerequisite:** Manifestation level 5th
 
 **Special:** Upon receiving this manifestation, you must take both the gift and the stain, even with
 the _useful corruption_ or _vile corruption_ [variants](ref/rule/corruption-variants).
@@ -182,9 +177,9 @@ rounds equal to the number of rounds you used the gift.
 
 **Warping Claws**
 
-**Flavor:** Your claws carry the warping energies of the Abyss.
+Your claws carry the warping energies of the Abyss.
 
-**Prereq:** Manifestation level 7th, corrupted claws, demonic enhancement
+**Prerequisites:** Manifestation level 7th, corrupted claws, demonic enhancement
 
 **Gift:** The damage caused by your _corrupted claws_ increases as if you were one size larger. The
 threat range for your claws becomes 19-20. On a confirmed critical hit, a targeted creature must

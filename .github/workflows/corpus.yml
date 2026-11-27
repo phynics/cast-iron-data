@@ -20,6 +20,9 @@ name: corpus
 #      the ledger of the class options that are written (`scripts/class-options/540-<book>.tsv`) matches
 #      their entries (no import row or label left, the printed text is in the entry), and no entry is
 #      settled and not written. It needs no PDF.
+#   5c. `scripts/rule-entries-540.py --self-test` and `--check` (phynics/cast-iron#540): the 16 corruptions
+#      carry print's labels, the incidental rows and pages of the rule entries are fixed, and each rule copy
+#      of a converted class or spirit equals its parent. It needs no PDF.
 #   6. `scripts/errata.py --self-test` and `--check` (phynics/cast-iron-data#309): `scripts/errata.tsv`
 #      is well formed, every row's entry exists, and the entry holds the printed (or kept) value.
 #   7. `scripts/spell-levels-284.py --self-test` and `--check` (phynics/cast-iron-data#284):
@@ -107,6 +110,10 @@ jobs:
         run: |
           python3 corpus/scripts/feature-prose-540-class-options.py --self-test
           python3 corpus/scripts/feature-prose-540-class-options.py corpus --check
+      - name: Rule entries of the rewrite (#540)
+        run: |
+          python3 corpus/scripts/rule-entries-540.py --self-test
+          python3 corpus/scripts/rule-entries-540.py corpus --check
       - name: Errata review file (#309)
         run: |
           python3 corpus/scripts/errata.py --self-test
