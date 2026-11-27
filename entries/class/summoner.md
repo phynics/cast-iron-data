@@ -19,6 +19,23 @@ kind = "class"
 class_type = "base"
 hit_die = "d8"
 skill_ranks = "2 + Int modifier"
+features = [
+  { anchor = "spells" },
+  { anchor = "cantrips", level = 1 },
+  { anchor = "eidolon", level = 1 },
+  { anchor = "life-link", level = 1 },
+  { anchor = "summon-monster-i", level = 1 },
+  { anchor = "bond-senses", level = 2 },
+  { anchor = "shield-ally", level = 4 },
+  { anchor = "maker-s-call", level = 6 },
+  { anchor = "transposition", level = 8 },
+  { anchor = "aspect", level = 10 },
+  { anchor = "greater-shield-ally", level = 12 },
+  { anchor = "life-bond", level = 14 },
+  { anchor = "merge-forms", level = 16 },
+  { anchor = "greater-aspect", level = 18 },
+  { anchor = "twin-eidolon", level = 20 },
+]
 +++
 
 While many who dabble in the arcane become adept at beckoning monsters from the farthest reaches of

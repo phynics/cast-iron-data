@@ -165,7 +165,7 @@ def join_across_tables(blocks: list) -> list:
 
 
 HEAD_RE = re.compile(r"^#### (.*?)(?: \{#([^}]+)\})?\s*$")
-WRITE_FEATURES = False        # the `features` of a class (anchor and level from the class table): off until the app has answered (owner call 5); bodies are written without
+WRITE_FEATURES = True         # the `features` of a class (owner call 5 answered: the app accepts them on `kind = "class"`; `class_features`, `with_features`)
 # The printed name of a head that the corpus names otherwise and that no plural or tag rule reaches: (class entry, key) -> print's head
 PRINT_NAMES: dict[tuple[str, str], str] = {}
 
@@ -548,12 +548,52 @@ def feature_text(it: dict) -> str:
     return text
 
 
-def class_features(plan: dict) -> list[tuple[str, int | None]]:
-    """The `features` of a class: (key, level) for each head, the level from the Special column of the class table (`class_table_levels`). Built for the
-    switch `WRITE_FEATURES`, which is off: where the app wants the key in the front matter of a class is not answered yet (owner call 5), so the
-    bodies are written without it and the front is not touched."""
-    lv = plan.get("levels", {})
-    return [(it["key"], lv.get(fp.first_level_key(it["head"]))) for it in plan["items"]]
+# The headings that structure a page and are no class features (`NOT_FEATURE_HEADINGS` of the app's `check_features.rs`): they stay out of `features`.
+NOT_FEATURE_HEADINGS = {fp.squash(x) for x in (
+    "Size", "Speed", "Attack", "AC", "Ability Scores", "Companion Type", "Prerequisites", "Effect", "Use", "Cost", "Action", "Bonus Spells", "Bonus Feats",
+    "Weapon and Armor Proficiency", "Skills", "Alignment", "Weapon and Armor Proficiencies", "Weapon Proficiencies", "Armor Proficiency", "Armor Proficiencies",
+    "Skill Ranks per Level", "Class Skills", "Armor Proficiency and Class Skills")}
+# Level-4 sections that print sets behind the class features: sections of the page, no class features: (class entry, key)
+NOT_CLASS_FEATURES = {("ref/class/antipaladin", "code-of-conduct"), ("ref/class/antipaladin", "associates")}
+LEVEL_LEAD = re.compile(r"^(?:starting at |beginning at |starting with |at )(\d+)(?:st|nd|rd|th)\s+level\b", re.I)
+
+
+def level_lead(text: str) -> int | None:
+    """The level of an "At Nth level" or "Starting at Nth level" lead at the start of a paragraph (the app's `level_lead`)."""
+    m = LEVEL_LEAD.match(text.strip())
+    return int(m.group(1)) if m else None
+
+
+def class_features(class_id: str, body: str, levels: dict[str, int]) -> list[tuple[str, int | None]]:
+    """The `features` of a class, read from its body: (key, level) for each `####` head with its explicit anchor, in body order. A scaffold heading
+    (proficiencies, skills) and a section that print sets behind the features are left out. The level is the one of an "At Nth level" lead in the
+    first paragraph (the checker holds a stated level to it), else the lowest level at which the Special column of the class table lists the feature
+    (`class_table_levels`; ruling 57), else none."""
+    region = feature_region(body)
+    if region is None:
+        return []
+    lines = body.split("\n")
+    out: list[tuple[str, int | None]] = []
+    for line, head, key in corpus_heads(lines, region):
+        if fp.squash(fp.ABILITY_TAG.sub("", head)) in NOT_FEATURE_HEADINGS or (class_id, key) in NOT_CLASS_FEATURES:
+            continue
+        para = []
+        for ln in lines[line + 1:region[1]]:
+            if not ln.strip():
+                if para:
+                    break
+                continue
+            para.append(ln.strip())
+        lead = level_lead(" ".join(para))
+        out.append((key, lead if lead else levels.get(fp.first_level_key(head))))
+    return out
+
+
+def with_features(front: str, features: list[tuple[str, int | None]]) -> str:
+    """The front matter with the `features` of the class as the last rows of `[fields]` (the rows of a class end the front matter; an earlier list is replaced)."""
+    front = re.sub(r"^features = \[\n(?:  \{[^\n]*\},\n)*\]\n?", "", front.strip("\n") + "\n", flags=re.M).rstrip("\n")
+    items = "".join("  { anchor = \"%s\"%s },\n" % (a, f", level = {l}" if l else "") for a, l in features)
+    return front + "\nfeatures = [\n" + items + "]\n"
 
 
 def settled(plan: dict) -> bool:
@@ -605,14 +645,13 @@ def run_compare(args) -> int:
         if plan["extra"]:
             print("    print heads not in the corpus: " + ", ".join(plan["extra"][:8]))
         if args.write and settled(plan):
-            if WRITE_FEATURES:
-                raise SystemExit("the `features` of a class are not written yet: the app has not said where the key stands in a class (owner call 5)")
             body2 = converted_body(e.body, plan)
             gone = co.heading_keys(e.body) - co.heading_keys(body2)
             allowed = {"sec-" + it["key"] for it in plan["items"] if it.get("drop")} | {it["key"] for it in plan["items"] if it.get("drop")}
             if gone - allowed:
                 raise SystemExit(f"{e.id}: the heading keys {sorted(gone - allowed)} would move (only a dropped head without a reference may go)")
-            co.write_atomic(e.path, "+++\n" + e.front.strip("\n") + "\n+++\n" + body2)
+            front2 = with_features(e.front, class_features(e.id, body2, plan.get("levels", {}))) if WRITE_FEATURES else e.front.strip("\n") + "\n"
+            co.write_atomic(e.path, "+++\n" + front2 + "+++\n" + body2)
             written += 1
             print("    written")
     print("total: " + ", ".join(f"{k} {v}" for k, v in sorted(total.items())) + (f"; {written} classes written" if args.write else ""))
@@ -655,9 +694,13 @@ def self_test() -> int:
                      ("Lame", [("ref/oraclecurse/lame", "oracle-curse")])]),
        [("Clouded Vision", "ref/oraclecurse/clouded-vision"), ("Tongues", "ref/oraclecurse/tongues"), ("Lame", "ref/oraclecurse/lame")], "owner call 4: a title that two groups share is linked from the group of the list")
     eq(LAYOUT_FIXES[("ref/class/summoner", "eidolon")][0][1], "the summoner's class level", "a known layout fix names the words of the table that the layer ran into a sentence")
-    eq(WRITE_FEATURES, False, "owner call 5: the `features` switch is off")
-    eq(class_features({"items": [{"key": "mystery", "head": "Mystery"}, {"key": "bomb", "head": "Bomb (Su)"}], "levels": {fp.first_level_key("Mystery"): 1}}),
-       [("mystery", 1), ("bomb", None)], "the levels of the features come from the class table, a feature that is not in it has none")
+    eq(WRITE_FEATURES, True, "owner call 5 answered: the `features` are written")
+    body = "#### Weapon and Armor Proficiency {#weapon-and-armor-proficiencies}\n\nAre proficient.\n\n#### Mystery {#mystery}\n\nAt 1st level, an oracle.\n\n#### Bomb (Su) {#bomb}\n\nA\nbomb.\n\n#### Spells {#spells}\n\nAt 4th level, an antipaladin casts.\n\n#### Code of Conduct {#code-of-conduct}\n\nText.\n\n### Next\n"
+    eq(class_features("ref/class/oracle", body, {fp.first_level_key("Mystery"): 3, fp.first_level_key("Bomb"): 2}),
+       [("mystery", 1), ("bomb", 2), ("spells", 4), ("code-of-conduct", None)], "a stated level wins over the class table, the table gives the level otherwise, scaffold heads are left out")
+    eq(class_features("ref/class/antipaladin", body, {})[-1][0], "spells", "a section behind the features is no feature")
+    eq(with_features("id = \"x\"\n[fields]\nskill_ranks = \"2\"\n", [("a", 1), ("b", None)]), 'id = "x"\n[fields]\nskill_ranks = "2"\nfeatures = [\n  { anchor = "a", level = 1 },\n  { anchor = "b" },\n]\n', "features are the last rows of the front")
+    eq(with_features(with_features("[fields]\nx = 1\n", [("a", 1)]), [("a", 1)]), with_features("[fields]\nx = 1\n", [("a", 1)]), "an earlier list is replaced, not doubled")
     eq(re.match(r"^\(((?:Ex|Su|Sp)[^)]*)\):\s*", "(Sp): Starting at 1st level, a summoner").group(1), "Sp", "the tag that print leaves in the first run is found")
     eq((settled(plan), settled(dict(plan, extra=["X"])), settled(dict(plan, missing=["mystery"]))), (True, False, False), "a class is written all or nothing")
     P = fp.Para
@@ -683,6 +726,28 @@ def self_test() -> int:
     return 1 if bad else 0
 
 
+def run_features(args) -> int:
+    """The `features` of the base classes that are written already, read from their bodies (no print needed). Idempotent."""
+    corpus = Path(args.corpus).resolve()
+    wanted = set(args.classes.split(",")) if args.classes else None
+    cache: dict = {}
+    n = 0
+    for e in co.load_entries(corpus, "class", args.book):
+        if not e.id.startswith("ref/class/") or (wanted and e.id.rsplit("/", 1)[1] not in wanted):
+            continue
+        feats = class_features(e.id, e.body, fp.class_table_levels(corpus, e.id, cache))
+        front2 = with_features(e.front, feats)
+        if front2 != e.front.strip("\n") + "\n":
+            co.write_atomic(e.path, "+++\n" + front2 + "+++\n" + e.body)
+            n += 1
+        print(f"{e.id}: {len(feats)} features, levels " + ", ".join(f"{k}={l}" for k, l in feats if l)[:300] + "; none: " + ", ".join(k for k, l in feats if not l))
+    print(f"{n} entries changed")
+    if n and args.checker:
+        import subprocess
+        subprocess.run([args.checker, "fmt", str(corpus)], check=True)
+    return 0
+
+
 def main() -> int:
     ap = argparse.ArgumentParser(description=__doc__.split("\n")[0])
     ap.add_argument("corpus", nargs="?", default=str(HERE.parent))
@@ -692,14 +757,17 @@ def main() -> int:
     ap.add_argument("--classes")
     ap.add_argument("--books")
     ap.add_argument("--cache")
+    ap.add_argument("--features", action="store_true", help="write the `features` of the written classes of --book from their bodies")
     ap.add_argument("--write", action="store_true", help="write the classes whose items are all settled (the others are reported)")
     ap.add_argument("--checker", help="the cast-iron-corpus binary: `fmt` runs after a write")
     args = ap.parse_args()
     if args.self_test:
         return self_test()
+    if args.features:
+        return run_features(args)
     if args.compare:
         return run_compare(args)
-    ap.error("one of --self-test, --compare")
+    ap.error("one of --self-test, --compare, --features")
 
 
 if __name__ == "__main__":

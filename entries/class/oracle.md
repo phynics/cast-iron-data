@@ -19,6 +19,14 @@ kind = "class"
 class_type = "base"
 hit_die = "d8"
 skill_ranks = "4 + Int modifier"
+features = [
+  { anchor = "spells" },
+  { anchor = "orisons", level = 1 },
+  { anchor = "mystery", level = 1 },
+  { anchor = "oracle-s-curse", level = 1 },
+  { anchor = "revelation", level = 1 },
+  { anchor = "final-revelation", level = 20 },
+]
 +++
 
 Although the gods work through many agents, perhaps none is more mysterious than the oracle. These

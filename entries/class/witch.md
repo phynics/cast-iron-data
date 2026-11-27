@@ -19,6 +19,15 @@ kind = "class"
 class_type = "base"
 hit_die = "d6"
 skill_ranks = "2 + Int modifier"
+features = [
+  { anchor = "spells" },
+  { anchor = "cantrips", level = 1 },
+  { anchor = "hex", level = 1 },
+  { anchor = "witch-s-familiar", level = 1 },
+  { anchor = "patron-spells", level = 1 },
+  { anchor = "major-hex", level = 10 },
+  { anchor = "grand-hex", level = 18 },
+]
 +++
 
 Some gain power through study, some through devotion, others through blood, but the witch gains

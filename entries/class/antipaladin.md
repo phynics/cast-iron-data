@@ -19,6 +19,24 @@ kind = "class"
 class_type = "alternate"
 hit_die = "d10"
 skill_ranks = "2 + Int modifier"
+features = [
+  { anchor = "aura-of-evil", level = 1 },
+  { anchor = "detect-good", level = 1 },
+  { anchor = "smite-good", level = 1 },
+  { anchor = "unholy-resilience", level = 2 },
+  { anchor = "touch-of-corruption", level = 2 },
+  { anchor = "aura-of-cowardice", level = 3 },
+  { anchor = "plague-bringer", level = 3 },
+  { anchor = "cruelty", level = 3 },
+  { anchor = "channel-negative-energy", level = 4 },
+  { anchor = "spells", level = 4 },
+  { anchor = "fiendish-boon", level = 5 },
+  { anchor = "aura-of-despair", level = 8 },
+  { anchor = "aura-of-vengeance", level = 11 },
+  { anchor = "aura-of-sin", level = 14 },
+  { anchor = "aura-of-depravity", level = 17 },
+  { anchor = "unholy-champion", level = 20 },
+]
 +++
 
 Although it is a rare occurrence, [paladins](ref/class/paladin) do sometimes stray from the path of

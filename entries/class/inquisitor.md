@@ -19,6 +19,29 @@ kind = "class"
 class_type = "base"
 hit_die = "d8"
 skill_ranks = "6 + Int modifier"
+features = [
+  { anchor = "spells" },
+  { anchor = "orisons", level = 1 },
+  { anchor = "chaotic-evil-good-and-lawful-spells" },
+  { anchor = "domain", level = 1 },
+  { anchor = "judgment", level = 1 },
+  { anchor = "monster-lore", level = 1 },
+  { anchor = "stern-gaze", level = 1 },
+  { anchor = "cunning-initiative", level = 2 },
+  { anchor = "detect-alignment", level = 2 },
+  { anchor = "track", level = 2 },
+  { anchor = "teamwork-feat", level = 3 },
+  { anchor = "solo-tactics", level = 3 },
+  { anchor = "bane", level = 5 },
+  { anchor = "discern-lies", level = 5 },
+  { anchor = "second-judgment", level = 8 },
+  { anchor = "stalwart", level = 11 },
+  { anchor = "greater-bane", level = 12 },
+  { anchor = "exploit-weakness", level = 14 },
+  { anchor = "third-judgment", level = 16 },
+  { anchor = "slayer", level = 17 },
+  { anchor = "true-judgment", level = 20 },
+]
 +++
 
 Grim and determined, the inquisitor roots out enemies of the faith, using trickery and guile when

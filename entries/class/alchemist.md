@@ -22,6 +22,22 @@ kind = "class"
 class_type = "base"
 hit_die = "d8"
 skill_ranks = "4 + Int modifier"
+features = [
+  { anchor = "alchemy", level = 1 },
+  { anchor = "extracts" },
+  { anchor = "brew-potion", level = 1 },
+  { anchor = "bomb", level = 1 },
+  { anchor = "throw-anything", level = 1 },
+  { anchor = "mutagen", level = 1 },
+  { anchor = "discovery", level = 2 },
+  { anchor = "poison-resistance", level = 2 },
+  { anchor = "poison-use", level = 2 },
+  { anchor = "swift-alchemy", level = 3 },
+  { anchor = "swift-poisoning", level = 6 },
+  { anchor = "persistent-mutagen", level = 14 },
+  { anchor = "instant-alchemy", level = 18 },
+  { anchor = "grand-discovery", level = 20 },
+]
 +++
 
 Whether secreted away in a smoky basement laboratory or gleefully experimenting in a well-respected

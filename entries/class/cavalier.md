@@ -19,6 +19,22 @@ kind = "class"
 class_type = "base"
 hit_die = "d10"
 skill_ranks = "4 + Int modifier"
+features = [
+  { anchor = "challenge", level = 1 },
+  { anchor = "mount", level = 1 },
+  { anchor = "order", level = 1 },
+  { anchor = "tactician", level = 1 },
+  { anchor = "cavalier-s-charge", level = 3 },
+  { anchor = "expert-trainer", level = 4 },
+  { anchor = "banner", level = 5 },
+  { anchor = "bonus-feat", level = 6 },
+  { anchor = "greater-tactician", level = 9 },
+  { anchor = "mighty-charge", level = 11 },
+  { anchor = "demanding-challenge", level = 12 },
+  { anchor = "greater-banner", level = 14 },
+  { anchor = "master-tactician", level = 17 },
+  { anchor = "supreme-charge", level = 20 },
+]
 +++
 
 While many warriors strive to perfect their art, spending all of their time honing their skill at
