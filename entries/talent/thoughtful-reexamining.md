@@ -13,11 +13,10 @@ page = "132"
 [fields]
 kind = "class_option"
 group = "rogue-talent"
+ability_type = "Ex"
 +++
 
-**Thoughtful Reexamining (Ex)**
-
-**Ability:** Once per day, a rogue with this talent can reroll a
-[Knowledge](ref/skill/knowledge-all), [Sense Motive](ref/skill/sense-motive), or
-[Perception](ref/skill/perception) skill check to try to gain new or better information from the
-roll. This reroll can be made any time during the same day as the original check.
+Once per day, a rogue with this talent can reroll a [Knowledge](ref/skill/knowledge-all),
+[Sense Motive](ref/skill/sense-motive), or [Perception](ref/skill/perception) skill check to try to
+gain new or better information from the roll. This reroll can be made any time during the same day
+as the original check.

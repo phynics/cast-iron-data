@@ -13,10 +13,8 @@ page = "130"
 [fields]
 kind = "class_option"
 group = "rogue-talent"
+ability_type = "Ex"
 +++
 
-**Canny Observer (Ex)**
-
-**Passive:** When a rogue with this talent makes a Perception check to hear the details of a
-conversation or to find concealed or secret objects (including doors and traps), she gains a +4
-bonus.
+When a rogue with this talent makes a Perception check to hear the details of a conversation or to
+find concealed or secret objects (including doors and traps), she gains a +4 bonus.

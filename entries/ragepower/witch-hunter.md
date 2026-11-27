@@ -13,12 +13,10 @@ page = "77"
 [fields]
 kind = "class_option"
 group = "rage-power"
+ability_type = "Ex"
 +++
 
-**Witch Hunter (Ex)**
-
-**Passive:** While _raging,_ the barbarian gains a bonus on damage rolls against creatures
-possessing spells or [spell-like abilities](ref/umr/spell-like-abilities). This damage bonus is
-equal to 1 + [one-fourth](ref/misc/fractions-and-rounding) of her barbarian level.
-
-**Prereq:** [Superstition](ref/ragepower/superstition)
+While raging, the barbarian gains a +1 bonus on damage rolls against creatures possessing spells or
+[spell-like abilities](ref/umr/spell-like-abilities). This damage bonus increases by +1 for every
+four levels the barbarian has obtained. A barbarian must have the
+[superstition](ref/ragepower/superstition) rage power to select this rage power.

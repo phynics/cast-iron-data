@@ -15,9 +15,7 @@ kind = "class_option"
 group = "alchemist-discovery"
 +++
 
-**Eternal Potion**
-
-**Ability:** If an alchemist drinks a potion that he extends, the effects of that potion become
-permanent until he chooses to make another potion effect permanent.
-
-**Prereq:** 16th-level alchemist, [extend potion](ref/discovery/extend-potion)
+If an alchemist drinks a potion that he extends, the effects of that potion become permanent until
+he chooses to make another potion effect permanent. An alchemist must be at least 16th level and
+must possess the [extend potion](ref/discovery/extend-potion) discovery before selecting this
+discovery.

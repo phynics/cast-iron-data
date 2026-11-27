@@ -13,13 +13,12 @@ page = "131"
 [fields]
 kind = "class_option"
 group = "rogue-talent"
+ability_type = "Ex"
 +++
 
-**Quick Disguise (Ex)**
-
-**Ability:** A rogue with this talent can use the items at hand and seemingly innocuous material
-hidden on her person to create startlingly effective disguises, reducing the amount of time it takes
-to create a disguise using the [Disguise](ref/skill/disguise) skill.
+A rogue with this talent can use the items at hand and seemingly innocuous material hidden on her
+person to create startlingly effective disguises, reducing the amount of time it takes to create a
+disguise using the [Disguise](ref/skill/disguise) skill.
 
 The time needed for the rogue to alter her appearance in this manner is based on the complexity of
 the disguise, as noted on the following table. The times are cumulative, so if a female rogue wants

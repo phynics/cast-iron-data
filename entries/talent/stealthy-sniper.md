@@ -13,9 +13,8 @@ page = "132"
 [fields]
 kind = "class_option"
 group = "rogue-talent"
+ability_type = "Ex"
 +++
 
-**Stealthy Sniper (Ex)**
-
-**Ability:** When a rogue with this talent uses the [Stealth](ref/skill/stealth) skill to snipe, she
-only suffers a -10 penalty on the Stealth check, instead of -20.
+When a rogue with this talent uses the [Stealth](ref/skill/stealth) skill to snipe, she only suffers
+a -10 penalty on the Stealth check, instead of -20.

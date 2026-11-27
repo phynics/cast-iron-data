@@ -15,8 +15,6 @@ kind = "class_option"
 group = "alchemist-discovery"
 +++
 
-**Frost Bomb**
-
-**Ability:** When the alchemist creates a bomb, he can choose to have it inflict cold damage.
-Creatures that take a direct hit from a _frost bomb_ are [staggered](ref/misc/staggered) on their
-next turn unless they succeed on a Fortitude save.
+When the alchemist creates a bomb, he can choose to have it inflict cold damage. Creatures that take
+a direct hit from a frost bomb are [staggered](ref/misc/staggered) on their next turn unless they
+succeed on a Fortitude save.

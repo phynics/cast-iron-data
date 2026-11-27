@@ -13,9 +13,8 @@ page = "131"
 [fields]
 kind = "class_option"
 group = "rogue-talent"
+ability_type = "Ex"
 +++
 
-**Offensive Defense (Ex)**
-
-**Ability:** When a rogue with this talent hits a creature with a melee attack that deals sneak
-attack damage, the rogue gains a +1 dodge bonus to AC for each sneak attack die rolled for 1 round.
+When a rogue with this talent hits a creature with a melee attack that deals sneak attack damage,
+the rogue gains a +1 dodge bonus to AC for each sneak attack die rolled for 1 round.

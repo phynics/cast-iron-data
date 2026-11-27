@@ -13,11 +13,9 @@ page = "130"
 [fields]
 kind = "class_option"
 group = "rogue-talent"
+ability_type = "Ex"
 +++
 
-**Fast Getaway (Ex)**
-
-**Ability:** After successfully making a sneak attack or
-[Sleight of Hand](ref/skill/sleight-of-hand) check, a rogue with this talent can spend a **move
-action** to take the [withdraw](ref/rule/withdraw) action. She can move no more than her speed
-during this movement.
+After successfully making a sneak attack or [Sleight of Hand](ref/skill/sleight-of-hand) check, a
+rogue with this talent can spend a move action to take the [withdraw](ref/rule/withdraw) action. She
+can move no more than her speed during this movement.

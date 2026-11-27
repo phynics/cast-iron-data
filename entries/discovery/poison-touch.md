@@ -15,9 +15,6 @@ kind = "class_option"
 group = "alchemist-discovery"
 +++
 
-**Poison Touch**
-
-**Ability:** The alchemist gains a poisonous touch, as if under the effects of a
-[poison](ref/spell/poison) spell. He can suppress or activate this ability as a **free action**. The
-physical appearance of how the alchemist generates and delivers his poisonous touch varies from
-alchemist to alchemist.
+The alchemist gains a poisonous touch, as if under the effects of a _[poison](ref/spell/poison)_
+spell. He can suppress or activate this ability as a free action. The physical appearance of how the
+alchemist generates and delivers his poisonous touch varies from alchemist to alchemist.
