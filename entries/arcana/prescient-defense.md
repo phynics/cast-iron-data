@@ -13,13 +13,11 @@ page = "55"
 [fields]
 kind = "class_option"
 group = "magus-arcana"
+ability_type = "Su"
 +++
 
-**Prescient Defense (Su)**
-
-**Immediate:** The magus can expend 1 point from his arcane pool after hitting a target with a
-weapon attack, granting him a premonition of his enemy's intentions. The magus gains a bonus to his
-AC and on Reflex saves equal to his Intelligence modifier (minimum 0) against attacks by that
-opponent until the beginning of his next turn.
-
-**Prereq:** 9th-level magus
+The magus can expend 1 point from his arcane pool as an immediate action after hitting a target with
+a weapon attack, granting him a premonition of his enemy's intentions. The magus gains a bonus to
+his AC and on Reflex saves equal to his Intelligence modifier (minimum 0) against attacks by that
+opponent until the beginning of his next turn. The magus must be at least 9th level before selecting
+this arcana.

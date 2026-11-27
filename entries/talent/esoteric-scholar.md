@@ -13,9 +13,8 @@ page = "69"
 [fields]
 kind = "class_option"
 group = "rogue-talent"
+ability_type = "Ex"
 +++
 
-**Esoteric Scholar (Ex)**
-
-**Ability:** Once a day, a rogue with this talent may attempt a [Knowledge](ref/skill/knowledge-all)
-check, even when she is not trained in that Knowledge skill.
+Once a day, a rogue with this talent may attempt a [Knowledge](ref/skill/knowledge-all) check, even
+when she is not trained in that Knowledge skill.

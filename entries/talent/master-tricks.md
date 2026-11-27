@@ -15,8 +15,6 @@ kind = "class_option"
 group = "rogue-talent"
 +++
 
-**Master Tricks**
-
-**Ability:** The rogue can select a ninja trick from the list of master tricks in place of a rogue
-talent. The rogue cannot select a ninja trick that has the same name as a rogue talent. The rogue
-can choose but cannot use tricks that require ki points, unless she has a ki pool.
+The rogue can select a ninja trick from the list of master tricks in place of a rogue talent. The
+rogue cannot select a ninja trick that has the same name as a rogue talent. The rogue can choose but
+cannot use tricks that require ki points, unless she has a ki pool.

@@ -13,14 +13,11 @@ page = "71"
 [fields]
 kind = "class_option"
 group = "rogue-talent"
+ability_type = "Ex"
 +++
 
-**Hide in Plain Sight (Ex)**
-
-**Ability:** A rogue with this talent can select a single terrain from the ranger's
+A rogue with this talent can select a single terrain from the ranger's
 [favored terrain](ref/ability/favored-terrain) list. She is a master at hiding in that terrain, and
 while within that terrain, she can use the [Stealth](ref/skill/stealth) skill to hide, even while
-being observed.
-
-**Special:** A rogue may take this advanced talent more than once, each time selecting a different
-terrain from the favored terrain list.
+being observed. A rogue may take this advanced talent more than once, each time selecting a
+different terrain from the favored terrain list.

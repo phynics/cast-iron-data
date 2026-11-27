@@ -13,11 +13,10 @@ page = "27"
 [fields]
 kind = "class_option"
 group = "rage-power"
+ability_type = "Ex"
 +++
 
-**Greater Guarded Life (Ex)**
-
-**Passive:** When using the _guarded life_ rage power, 1 additional hit point of lethal damage per
-barbarian level is converted to nonlethal damage.
-
-**Prereq:** 6th-level barbarian, [guarded life](ref/ragepower/guarded-life)
+When using the [guarded life](ref/ragepower/guarded-life) rage power, 1 additional hit point of
+lethal damage per barbarian level is converted to nonlethal damage. A barbarian must have the
+[guarded life](ref/ragepower/guarded-life) rage power and be at least 6th level before selecting
+this rage power.

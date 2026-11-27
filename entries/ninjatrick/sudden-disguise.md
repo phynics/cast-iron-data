@@ -13,9 +13,8 @@ page = "16"
 [fields]
 kind = "class_option"
 group = "ninja-trick"
+ability_type = "Su"
 +++
 
-**Sudden Disguise (Su)**
-
-**Swift:** A ninja can change her appearance for 1 minute per level. This ability functions as
-[disguise self](ref/spell/disguise-self). Each use of this ability uses up 1 ki point.
+As a swift action, a ninja can change her appearance for 1 minute per level. This ability functions
+as _[disguise self](ref/spell/disguise-self)_. Each use of this ability uses up 1 ki point.

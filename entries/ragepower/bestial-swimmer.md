@@ -13,11 +13,9 @@ page = "26"
 [fields]
 kind = "class_option"
 group = "rage-power"
+ability_type = "Ex"
 +++
 
-**Bestial Swimmer (Ex)**
-
-**Ability:** While _raging,_ the barbarian gains a natural swim speed equal to her normal land
-speed.
-
-**Prereq:** 6th-level barbarian, [raging swimmer](ref/ragepower/raging-swimmer)
+While raging, the barbarian gains a natural swim speed equal to her normal land speed. A barbarian
+must have the [raging swimmer](ref/ragepower/raging-swimmer) rage power and be at least 6th level
+before selecting this rage power.

@@ -13,16 +13,15 @@ page = "26"
 [fields]
 kind = "class_option"
 group = "rage-power"
+ability_type = "Ex"
 +++
 
-**Crippling Blow (Ex)**
-
-**Ability:** When using her _powerful blow_ rage power, the barbarian can forgo the normal bonus to
-damage (including any bleed damage granted by the [bleeding blow](ref/ragepower/bleeding-blow) rage
-power or similar boosts to the damage of the _powerful blow_ rage power) and instead deals 1 point
-of [ability damage](ref/rule/ability-damage-drain) to the target's Strength or Dexterity score for
+When using her [powerful blow](ref/ragepower/powerful-blow) rage power, the barbarian can forgo the
+normal bonus to damage (including any bleed damage granted by the
+[bleeding blow](ref/ragepower/bleeding-blow) rage power or similar boosts to the damage of the
+[powerful blow](ref/ragepower/powerful-blow) rage power) and instead deals 1 point of
+[ability damage](ref/rule/ability-damage-drain) to the target's Strength or Dexterity score for
 every four class levels the barbarian has attained. The target can attempt a Fortitude saving throw
 (DC 10 + 1/2 the barbarian's level + the barbarian's Strength modifier) to halve this ability
-damage.
-
-**Prereq:** 8th-level barbarian, [powerful blow](ref/ragepower/powerful-blow)
+damage. A barbarian must have the [powerful blow](ref/ragepower/powerful-blow) rage power and be at
+least 8th level before selecting this rage power.

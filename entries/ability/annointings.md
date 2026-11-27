@@ -8,6 +8,7 @@ provenance = [
 ]
 [[sources]]
 publication = "arcane-anthology"
+page = "22"
 
 [fields]
 kind = "none"

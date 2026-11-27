@@ -50,6 +50,7 @@ Usage
 from __future__ import annotations
 
 import argparse
+import csv
 import dataclasses
 import hashlib
 import importlib.util
@@ -57,6 +58,7 @@ import re
 import sys
 import tempfile
 import tomllib
+import unicodedata
 from collections import Counter
 from dataclasses import dataclass
 from pathlib import Path
@@ -200,14 +202,15 @@ def level_of(text: str) -> int | None:
 EXTRA_NAMES: list[str] = []          # the names of every class option of the book: an italic head of a neighbour ends a power's text
 
 
-INVERTED_HEAD = re.compile(r"^(.+?),\s*(Lesser|Greater|Improved|Mass)(\s*\([A-Za-z]{2}\))?\s*:?$")
+INVERTED_HEAD = re.compile(r"^(.+?),\s*(Lesser|Greater|Improved|Mass|Arcing|Clinging|Thunderous)(\s*\([A-Za-z]{2}\))?\s*:?$")
+INVERTED_SUFFIX_VARIANTS = {"Arcing", "Clinging", "Thunderous"}
 
 
 VARIANT_FIRST = re.compile(r"^(Lesser|Greater|Improved|Mass) ")
 
 
 def inverted(name: str) -> str:
-    m = re.match(r"^(Lesser|Greater|Improved|Mass) (.+?)(\s*\([A-Za-z]{2}\))?$", name)
+    m = re.match(r"^(Lesser|Greater|Improved|Mass|Arcing|Clinging|Thunderous) (.+?)(\s*\([A-Za-z]{2}\))?$", name)
     return f"{m.group(2)}, {m.group(1)}{m.group(3) or ''}" if m else name
 
 
@@ -224,12 +227,14 @@ def title_as_head(q):
     return fp.Para("para", [(q.plain().strip(), True, False)], q.page, q.col, 0)
 
 
+# the bold header of a class table that print sets in the middle of the text ("Spells per Day", "1st 2nd 3rd 4th", "Extracts per Day"): no feature head
+TABLE_HEAD_RE = re.compile(r"^(?:(?:0\s+)?\d+(?:st|nd|rd|th)(?:\s+\d+(?:st|nd|rd|th))+\s*|(?:spells|extracts|formulae|powers)(?: known| per day|\s+per\s+\w+)\s*)$", re.I)
 TABLE_HEADS: set[str] = set()          # squash of the header row of each table of the entry that is compared
 
 
 def table_head_as_text(q):
     """The bold header row of a table that the corpus has ("Disguise Time") is no head of a feature: it stays text with its rows (ruling 62)."""
-    if q.kind == "para" and fp.squash(q.plain()) in TABLE_HEADS:
+    if q.kind == "para" and (fp.squash(q.plain()) in TABLE_HEADS or TABLE_HEAD_RE.match(q.plain().strip())):
         return fp.Para("para", [(q.plain(), False, False)], q.page, q.col, 0)
     return q
 
@@ -238,7 +243,7 @@ def install_split(names: list[str]) -> None:
     """The print reader takes an italic paragraph start as a head only when the entry expects that name. A page of class options sets
     the powers of other entries beside the entry's own (the evolutions are italic heads in one list), so every name of the book is
     expected, and a power's text ends at the next power of the page."""
-    EXTRA_NAMES[:] = list(names) + [inverted(n) for n in names if VARIANT_FIRST.match(n)]      # print sets the variant behind the name, in italics
+    EXTRA_NAMES[:] = list(names) + [inverted(n) for n in names if VARIANT_FIRST.match(n) or n.split(" ", 1)[0] in INVERTED_SUFFIX_VARIANTS]  # print can place a variant after its base name
     if not getattr(fp.split_print, "_class_options", False):
         orig = fp.split_print
 
@@ -284,12 +289,79 @@ WRITE_ABILITY_TYPE = True                                    # ruling 63: `[fiel
 
 
 def ability_tag_of(name: str) -> str:
-    """The printed ability tag of a power name, without the parentheses and in print's case: "Su", "Ex or Sp", "Su, Sp"; "" when the name has
-    none or its text is not a tag ("su", " Su", "see text"): the app refuses such a value."""
+    """Read a final ability tag only when its words match the app's closed tag grammar."""
     m = TAG.search(name)
     return m.group(1) if m and TAG_WORDS.fullmatch(m.group(1)) else ""
 
 
+def ability_tag_of_printed_head(head: str) -> str:
+    """Read the tag from print's head, allowing source marks around the tag without deleting the tag itself."""
+    clean = re.sub(r"[\*†‡]+\s*$", "", head).strip()
+    clean = re.sub(r"[\*†‡]+\s*(?=\([^()]+\)\s*$)", "", clean).strip()
+    return ability_tag_of(clean)
+
+
+def ability_tag_for_option(book: str, imported_head: str, printed_head: str) -> tuple[str, bool]:
+    """Read tags from print; Ultimate Combat never inherits a tag absent from its printed head."""
+    if book == "ultimate-combat":
+        imported, printed = ability_tag_of(imported_head), ability_tag_of_printed_head(printed_head)
+        return printed, bool(imported and printed and imported != printed)
+    return ability_tag_pair(imported_head, printed_head)
+
+
+INTRO_MARK_SPECS = {
+    "ultimate-magic": {"discovery": ("Discoveries that modify bombs and are marked with a single asterisk", "stack")},
+    "ultimate-combat": {
+        "discovery": ("Discoveries that modify bombs and are marked with a single asterisk", "stack"),
+        "talent": ("Talents marked with an asterisk", "sneak attack"),
+        "ninjatrick": ("Tricks marked with an asterisk", "sneak attack"),
+    },
+}
+INTRO_MARK_TEXT: dict[tuple[str, str], tuple[str, int]] = {}
+MARKED_HEAD_ENTRIES: set[str] = set()
+
+
+def marked_head_intro(book: str, entry_id: str) -> str:
+    """The printed intro sentence for a marked head, read from its book during --compare."""
+    text, _ = INTRO_MARK_TEXT.get((book, entry_id.split("/")[1]), INTRO_MARK.get("by", {}).get(entry_id.split("/")[1], ("", 0)))
+    return text.replace("(*)", r"(\*)")
+
+
+def marked_head_page(book: str, entry_id: str) -> int:
+    return INTRO_MARK_TEXT.get((book, entry_id.split("/")[1]), INTRO_MARK.get("by", {}).get(entry_id.split("/")[1], ("", 0)))[1]
+
+
+def prepend_intro(body: str, intro: str) -> str:
+    """Replace an old marked-head intro or add the printed one once, preserving literal stars as text."""
+    if not intro:
+        return body
+    if body.startswith(intro):
+        body = body[len(intro):].lstrip("\n")
+        return intro + "\n\n" + body
+    legacy = intro.replace(r"\*", "*")
+    if legacy != intro and body.startswith(legacy):
+        body = body[len(legacy):].lstrip("\n")
+    elif body:
+        first, sep, rest = body.partition("\n\n")
+        if "marked with" in first and "asterisk" in first:
+            body = rest if sep else ""
+    return intro + "\n\n" + body.lstrip("\n")
+
+
+def drop_marked_intro(body: str) -> str:
+    first, sep, rest = body.partition("\n\n")
+    if "marked with" in first and "asterisk" in first:
+        return rest if sep else ""
+    return body
+
+
+def drop_unkeyed_link_marks(entry_id: str, body: str) -> str:
+    """Ultimate Combat p. 27 prints doubled cross-reference marks with no key on the page."""
+    if entry_id == "ref/ragepower/greater-ground-breaker":
+        return body.replace("[ground breaker](ref/ragepower/ground-breaker)\\*\\*", "[ground breaker](ref/ragepower/ground-breaker)")
+    if entry_id == "ref/ragepower/greater-guarded-life":
+        return body.replace("[guarded life](ref/ragepower/guarded-life)\\*\\*", "[guarded life](ref/ragepower/guarded-life)")
+    return body
 def ability_tag_pair(import_name: str, print_head: str) -> tuple[str, bool]:
     """Ruling 63: the ability tag is print's. The printed head often carries it when the import's name does not ("Blinding Bomb (Su)" against
     "Blinding Bomb", Ultimate Magic p. 15); a tag that both state must agree, or the power holds."""
@@ -299,9 +371,13 @@ def ability_tag_pair(import_name: str, print_head: str) -> tuple[str, bool]:
 
 
 def with_ability_type(front: str, tag: str) -> str:
-    """The `[fields]` of a class option with `ability_type = "<tag>"` right after `group` (the app's canonical order: kind, group, ability_type,
-    features; ruling 63). An entry that has the key, a tag that is no tag, or no `[fields] kind = "class_option"` is left."""
-    if not tag or not TAG_WORDS.fullmatch(tag) or re.search(r"^ability_type = ", front, re.M) or 'kind = "class_option"' not in front:
+    """Synchronize `[fields] ability_type` with the printed tag; a blank tag removes a stale key (ruling 63)."""
+    if 'kind = "class_option"' not in front:
+        return front
+    if not tag:
+        without = re.sub(r"^ability_type = [^\n]*\n?", "", front, flags=re.M)
+        return re.sub(r"\n{2,}$", "\n", without)
+    if not TAG_WORDS.fullmatch(tag) or re.search(r"^ability_type = ", front, re.M):
         return front
     out, n = re.subn(r'(^group = "[^"]*")(\n|\Z)', lambda m: m.group(1) + f'\nability_type = "{tag}"\n', front, count=1, flags=re.M)
     assert n == 1, "a class option has a `group` row to put the key after"
@@ -503,38 +579,44 @@ def anchor_section(blocks: list, title: str, own: frozenset | set = frozenset(),
     return blocks[at + 1:], False
 
 
-HEADING_FAMILIES = {"evolution"}     # ruling 61: an evolution opens with the printed sentence of its group heading ("2-Point Evolutions: The following ...")
-
-# The books whose marked heads open with the section intro's sentence about the mark (the reviewer's lesson of the Ultimate Magic fix round):
-# the sentence is read from the book, one per family it names ("Discoveries that modify bombs and are marked with a single asterisk (*) do
-# not stack..." for the discoveries, "Investigator talents marked with an asterisk (*) add effects..." for the talents).
+HEADING_FAMILIES = {"evolution"}  # ruling 61
 INTRO_MARKS_BOOKS = ("ultimate-magic", "advanced-class-guide")
-FAMILY_WORDS = (("investigator", "invtalent"), ("slayer", "slayertalent"), ("rage power", "ragepower"), ("bloodrage", "ragepower"),
-                ("discover", "discovery"), ("hex", "shamanhex"), ("deed", "swashdeed"), ("arcana", "arcana"), ("evolution", "evolution"))
-
-
+FAMILY_WORDS = (("investigator", "invtalent"), ("slayer", "slayertalent"), ("rage power", "ragepower"), ("bloodrage", "ragepower"), ("discover", "discovery"), ("hex", "shamanhex"), ("deed", "swashdeed"), ("arcana", "arcana"), ("evolution", "evolution"))
+INTRO_MARK_SPECS = {
+    "ultimate-magic": {"discovery": ("Discoveries that modify bombs and are marked with a single asterisk", "stack")},
+    "ultimate-combat": {"discovery": ("Discoveries that modify bombs and are marked with a single asterisk", "stack"), "talent": ("Talents marked with an asterisk", "sneak attack"), "ninjatrick": ("Tricks marked with an asterisk", "sneak attack")},
+}
+INTRO_MARK_TEXT = {}
+INTRO_MARK = {"by": {}}
 class IntroMarkMap:
-    """The sentence(s) of a section intro that explains the mark on a head, by the family the intro names, and the printed page."""
-
-    def __init__(self, bk):
-        self.by_family: dict[str, tuple[str, int]] = {}
-        for b in fp.read_blocks(bk, 1, max(bk.pages)):
-            if b.kind != "para":
+    """Resolve marked-head intro sentences from print, by family or explicit rule."""
+    def __init__(self, bk, marker=None, prefer=None):
+        self.by_family = {}
+        self.text, self.page = "", 0
+        best = None
+        for block in fp.read_blocks(bk, 1, max(bk.pages)):
+            if block.kind != "para":
                 continue
-            t = " ".join(b.plain().split())
-            if "asterisk" not in t.casefold():
+            text = " ".join(block.plain().split())
+            if "asterisk" not in text.casefold():
                 continue
-            sents = re.split(r"(?<=[.!?])\s+", t)
-            at = next((i for i, x in enumerate(sents) if "marked with" in x.casefold() and "asterisk" in x.casefold()), None)
-            if at is None:
-                continue
-            family = next((fam for word, fam in FAMILY_WORDS if word in t.casefold()), None)
-            if family and family not in self.by_family:
-                self.by_family[family] = (" ".join(sents[at:]).strip(), b.page)
-
-
-INTRO_MARK: dict = {"by": {}}
-
+            sentences = re.split(r"(?<=[.!?])\s+", text)
+            for i, sentence in enumerate(sentences):
+                if "marked with" in sentence.casefold() and "asterisk" in sentence.casefold():
+                    family = next((fam for word, fam in FAMILY_WORDS if word in text.casefold()), None)
+                    if family and family not in self.by_family:
+                        self.by_family[family] = (" ".join(sentences[i:]).strip(), block.page)
+                    break
+            if marker and marker.lower() in text.lower():
+                idx = next(i for i, sentence in enumerate(sentences) if marker.lower() in sentence.lower())
+                candidate = (" ".join(sentences[idx:]).strip(), block.page)
+                if best is None or (prefer and prefer.lower() in candidate[0].lower()):
+                    best = candidate
+                if prefer and prefer.lower() in candidate[0].lower():
+                    break
+        if best:
+            self.text, self.page = best
+INTRO_MARK = {"by": {}}
 
 class GroupMap:
     """Ruling 61, per book: every group heading of the book with its intro sentence ("2-Point Evolutions: The following evolutions cost 2
@@ -742,6 +824,40 @@ def printed_page(e, bk) -> int | None:
             if h and FAMILY_OF_TITLE.get(fp.namekey(h[0])) == family:
                 return blocks[i].page
     return None
+SENTENCE_END = re.compile(r"(?<=[.!?])[\"\u201d\u2019)]*\s+(?=[A-Z\u201c\"(+\u2013\d])")
+CELL = re.compile(r"^(?:[+\-\u2013\u2014]?\d+(?:/[+\-\u2013\u2014]?\d+)*(?:st|nd|rd|th)?|[\u2014\u2013-])[,.]?$")
+
+
+def print_lost(printed: str, written: str) -> list[str]:
+    """Print-coverage check (review of #373): the printed sentences (at least 12 letters) of a power's span that the written text lacks. Compared by their letters
+    and digits; runs of three numeric tokens in a printed sentence (cells of a table that the text layer set inside it) are not words of it; a sentence of
+    which at most one word (four letters or more, at least eight of them) is missing is there (a misprint of print that the corpus corrected)."""
+    plain = re.sub(r"[_*>]|^\s*[-\u2022]\s+", "", re.sub(r"\[([^\]]*)\]\([^)]*\)", r"\1", written), flags=re.M)
+    have = fp.squash(plain)
+    words = set(re.findall(r"[a-z]{4,}", plain.lower().replace("\u2019", "'")))
+    out = []
+    for s in SENTENCE_END.split(" ".join(printed.split())):
+        if len(re.sub(r"[^A-Za-z]", "", s)) < 12:
+            continue
+        s = re.sub(r"^\((?:Ex|Su|Sp)(?:(?:, or |, and |, | or | and )(?:Ex|Su|Sp))*\):\s*", "", s)
+        toks, kept, run = s.split(), [], []
+        for x in toks + [""]:
+            if x and CELL.match(x):
+                run.append(x)
+                continue
+            if len(run) < 3:
+                kept += run
+            run = []
+            if x:
+                kept.append(x)
+        s = " ".join(kept)
+        if fp.squash(s) in have:
+            continue
+        ws = re.findall(r"[a-z]{4,}", s.lower().replace("\u2019", "'"))
+        if len(ws) >= 8 and sum(w not in words for w in ws) <= 1:
+            continue
+        out.append(s)
+    return out
 
 
 def compare_one(e, book, bk, other=None) -> list[dict]:
@@ -808,6 +924,8 @@ def compare_one(e, book, bk, other=None) -> list[dict]:
                 if not ended2:
                     noend.add(sp)
     rows, seen = [], Counter()
+    _, raw_pfs = fp.split_print(section, [f.name for f in feats])               # the printed span of each power, before the comparison cuts or joins anything
+    raw_text = {fp.namekey(fp.head_text(pf.head)): " ".join("".join(x[0] for x in para) for para in pf.paras) for pf in raw_pfs}
     blocks_b = rw.parse_blocks(e0.body.split("\n"))
     cands = rw.candidates(blocks_b, True)
     promo = promoted(blocks_b, cands)
@@ -833,7 +951,7 @@ def compare_one(e, book, bk, other=None) -> list[dict]:
         src = where.get(f.span_sha()) if f is not None else None           # a power that another source of the entry prints has its own book and page
         # ruling 63: the tag is print's. The import's head may lack it (the alchemist discoveries of Ultimate Magic print "(Su)" over a name
         # the import wrote without a tag), so the printed head is read; a tag that print and the import both state must agree, else the power holds
-        tag, disagree = ability_tag_pair(name, (r or {}).get("head", "")) if shape == "single" else ("", False)
+        tag, disagree = ability_tag_for_option(book, name, (r or {}).get("head", "")) if shape == "single" else ("", False)
         notes_tag = [f"print's tag differs from the import's: {r.get('head', '')!r} against {name!r}"] if disagree else []
         common = dict(base, feature=name, section=section, book=src[0] if src else book, by="", ability_tag=tag,
                       reviewed_537="yes" if (e.id, sha) in REVIEWED else "", links_lost="", span_sha256=sha)
@@ -870,6 +988,10 @@ def compare_one(e, book, bk, other=None) -> list[dict]:
         if cut:
             notes.append(f"print text may be cut at a page or column break: ...{cut}")
             status, hard = "hold", True
+        lost_s = print_lost(raw_text.get(fp.namekey(fp.head_text(r["head"])), ""), printed) if r.get("head") else []
+        if lost_s:
+            notes.append(f"print sentences that the written text lacks ({len(lost_s)}): " + " | ".join(x[:60] for x in lost_s[:2]))
+            status, hard = "hold", True
         if problems:
             notes += problems
             status = "hold"
@@ -885,6 +1007,13 @@ def compare_one(e, book, bk, other=None) -> list[dict]:
             notes.append("opens with print's sentence about the mark (the section intro)")
             if intro[1] and intro[1] < page:
                 common["page"] = f"{intro[1]}-{page}"
+        intro = marked_head_intro(book, e.id) if shape == "single" and r.get("marked") else ""
+        intro_page = marked_head_page(book, e.id) if intro else 0
+        if intro:
+            printed = intro + "\n\n" + printed
+            notes.append("opens with print's sentence about the mark (the section intro)")
+            if intro_page and intro_page < page:
+                common["page"] = f"{intro_page}-{page}"
         if shape == "single":
             printed, lost = place_links(printed, plinks)
             crossed = link_kind_mismatches(printed)
@@ -893,6 +1022,7 @@ def compare_one(e, book, bk, other=None) -> list[dict]:
                     f"\"{name}\" names a {target} ({group}) but print says {word}" for name, target, group, word in crossed))
                 status, hard = "hold", True
             common["links_lost"] = "|".join(lost)
+            printed = drop_unkeyed_link_marks(e.id, printed)
         if shape == "single" and e.id.split("/")[1] in HEADING_FAMILIES:
             gh = group_map(bk).of(e.title, page)
             if gh is None:
@@ -915,6 +1045,7 @@ def compare_one(e, book, bk, other=None) -> list[dict]:
         elif decided and decided[0] == "hold":
             status = "hold"                                  # held by decision: an errata check, a ruling that has not landed
             notes.append(f"held by decision: {decided[1]}")
+        printed = prepend_intro(printed, marked_head_intro(book, e.id) if shape == "single" and r.get("marked") else "")
         rows.append(dict(common, anchor=anchor, verdict=verdict, status=status,
                          level_import=r["level_import"] if r["level_import"] is not None else "",
                          level=level_of(r["print"]) or "", note="; ".join(notes)[:400], print=printed,
@@ -1023,8 +1154,28 @@ def run_compare(args) -> int:
     INTRO_MARK["by"] = {}
     if book in INTRO_MARKS_BOOKS:
         INTRO_MARK["by"] = IntroMarkMap(bk).by_family
+    INTRO_MARK_TEXT.clear()
+    for family, (marker, prefer) in INTRO_MARK_SPECS.get(book, {}).items():
+        intro = IntroMarkMap(bk, marker, prefer)
+        INTRO_MARK_TEXT[(book, family)] = (intro.text, intro.page)
     families = set(args.families.split(",")) if args.families else None
     everything = load_class_options(corpus, book)
+    MARKED_HEAD_ENTRIES.clear()
+    for entry in everything:
+        family = entry.id.split("/")[1]
+        if family not in INTRO_MARK_SPECS.get(book, {}):
+            continue
+        page_match = re.match(r"\d+", entry.page)
+        if not page_match:
+            continue
+        page = int(page_match.group())
+        blocks = fp.read_blocks(bk, max(1, page + fp.PAGE_OFFSET[0] - 1), min(page + 2 + fp.PAGE_OFFSET[0], max(bk.pages)))
+        section = [fp.Para("title", [(entry.title, True, False)], page, 0, 20)] + blocks
+        _, printed_heads = fp.split_print(section, [entry.title])
+        title_key = fp.namekey(entry.title)
+        if any((pf.marked or re.search(r"[*†‡]", fp.head_text(pf.head))) and fp.namekey(fp.ABILITY_TAG.sub("", re.sub(r"[*†‡]", "", fp.head_text(pf.head)))) == title_key
+               for pf in printed_heads):
+            MARKED_HEAD_ENTRIES.add(entry.id)
     names: list[str] = []
     for x in load_class_options(corpus):
         names.append(x.title)                      # a converted option has no import row left, but its italic head still ends the text above it
@@ -1070,7 +1221,8 @@ def run_compare(args) -> int:
             continue
         for r in compare_one(e, book, bk, other):
             if r.get("print"):
-                props.setdefault(e.id, {"id": e.id, "feature": []})["feature"].append({"anchor": r["anchor"], "print": r["print"]})
+                props.setdefault(e.id, {"id": e.id, "feature": []})["feature"].append(
+                    {"anchor": r["anchor"], "print": class_option_errata(corpus, e.id, r["print"])})
             rows.append(r)
     twice: dict[tuple[str, str, str], set[str]] = {}
     ledger_before = read_tsv(tsv_file(corpus, book))
@@ -1090,9 +1242,12 @@ def run_compare(args) -> int:
     compared = {r["entry"] for r in rows}
     kept = [r for r in old if r["status"] == LEDGER and r["entry"] not in compared]       # the ledger of the entries written already
     for r in kept:
-        if (r["entry"], r["anchor"]) in old_props:
+        # A written row records the text that was reviewed and emitted. Re-running a compare after another book's parser updates must
+        # preserve that record byte-for-byte; only entries not yet written are regenerated from the current print reader.
+        printed = old_props.get((r["entry"], r["anchor"]))
+        if printed:
             props.setdefault(r["entry"], {"id": r["entry"], "feature": []})["feature"].append(
-                {"anchor": r["anchor"], "print": old_props[(r["entry"], r["anchor"])]})
+                {"anchor": r["anchor"], "print": printed})
     write_tsv(tsv_file(corpus, book), sorted(kept + rows, key=lambda r: r["entry"]))
     write_props(proposals_file(corpus, book), dict(sorted(props.items())))
     print(report(rows, cen))
@@ -1154,6 +1309,29 @@ def read_props(path: Path) -> dict[tuple[str, str], str]:
     return {(x["id"], x["anchor"]): x["print"] for x in tomllib.loads(path.read_text(encoding="utf-8")).get("entry", [])}
 
 
+def apply_errata_text(text: str, fixes: list[tuple[str, str]]) -> str:
+    """Apply only exact, reviewed print corrections; leave unmatched near misses unchanged."""
+    for printed, corrected in fixes:
+        count = text.count(printed)
+        if count == 1:
+            text = text.replace(printed, corrected, 1)
+        elif count == 0:
+            continue
+        else:
+            raise ValueError(f"errata text occurs {count} times")
+    return text
+
+
+def class_option_errata(corpus: Path, entry_id: str, text: str) -> str:
+    path = corpus / "scripts" / "errata.tsv"
+    if not path.exists():
+        return text
+    with path.open(encoding="utf-8", newline="") as f:
+        fixes = [(r["printed_value"], r["kept_value"]) for r in csv.DictReader(f, delimiter="\t")
+                 if r["entry"] == entry_id and r["decision"] == "misprint-fix"]
+    return apply_errata_text(text, fixes)
+
+
 # ---- writing -------------------------------------------------------------------------------------
 
 def convert_body(e, texts: dict[str, str], levels: dict[str, int | None], anchors: dict[str, str],
@@ -1169,8 +1347,11 @@ def convert_body(e, texts: dict[str, str], levels: dict[str, int | None], anchor
     if shape == "single":
         c = cands[0]
         text = texts[rw.span_sha(blocks[c.start:c.end])]
-        keep_before = [b.text for b in blocks[:c.start] if not (b.text.startswith("|") and b.text in text)]
-        keep_after = [b.text for b in blocks[c.end:] if not (b.text.startswith("|") and b.text in text)]      # a table that the text holds already (ruling 62)
+        printed_key = prose_key(text)
+        keep_before = [b.text for b in blocks[:c.start] if not (b.text.startswith("|") and b.text in text)
+                       and not duplicate_print_block(b.text, printed_key)]
+        keep_after = [b.text for b in blocks[c.end:] if not (b.text.startswith("|") and b.text in text)
+                      and not duplicate_print_block(b.text, printed_key)]
         return "\n" + "\n\n".join(keep_before + [text] + keep_after).strip("\n") + "\n", []
     out, features, i = [], [], 0
     by_start = {c.start: c for c in cands}
@@ -1369,6 +1550,25 @@ def run_write(args) -> int:
     for e in load_class_options(corpus, book, families):
         mine = by_entry.get(e.id)
         shape = shape_of(e.body)[0]
+        if shape == "none" and mine and all(r["status"] == LEDGER for r in mine):
+            proposal = props.get((e.id, mine[0]["anchor"]), "")
+            intro = proposal.split("\n\n", 1)[0]
+            has_intro = bool(re.match(r"^(?:Discoveries|Talents|Tricks|Investigator talents).*marked with .*asterisk", intro))
+            if has_intro:
+                assert proposal.startswith(intro), f"{e.id}: proposal lacks the printed intro for its marked head"
+                body = prepend_intro(e.body, intro)
+            else:
+                body = drop_marked_intro(e.body)
+            body = drop_unkeyed_link_marks(e.id, body)
+            body = class_option_errata(corpus, e.id, body)
+            front = e.front
+            own = [r for r in mine if r["book"] == book]
+            if own and own[0]["page"] and own[0]["page"] != e.page:
+                front = with_page(front, own[0]["page"])
+            if body != e.body or front != e.front:
+                write_atomic(e.path, "+++\n" + front.strip("\n") + "\n+++\n" + body)
+                converted += 1
+            continue
         if shape == "none" or not mine or any(r["status"] not in SETTLED for r in mine):
             continue
         blocks = rw.parse_blocks(e.body.split("\n"))
@@ -1389,7 +1589,10 @@ def run_write(args) -> int:
         assert not lost, f"{e.id}: the keys {sorted(lost)} would move"                  # rule 3 of AGENTS.md: the keys of the headings stay
         front = features_front(e.front, features) if features else e.front
         if WRITE_ABILITY_TYPE and shape == "single":
-            front = with_ability_type(front, mine[0]["ability_tag"] or ability_tag_of(mine[0]["feature"]))
+            tag = mine[0]["ability_tag"]
+            if book != "ultimate-combat":
+                tag = tag or ability_tag_of(mine[0]["feature"])
+            front = with_ability_type(front, tag)
         own = [r for r in mine if r["book"] == book]
         if own and own[0]["page"] and own[0]["page"] != e.page:
             front = with_page(front, own[0]["page"])
@@ -1416,14 +1619,19 @@ def run_ability_type(args) -> int:
     done = untagged = 0
     for e in load_class_options(corpus, args.book):
         mine = [r for r in rows if r["entry"] == e.id and r["status"] == LEDGER and r["shape"] == "single"]
-        tag = (mine[0]["ability_tag"] or ability_tag_of(mine[0]["feature"])) if mine else ""
+        tag = mine[0]["ability_tag"] if mine else ""
+        if mine and args.book != "ultimate-combat":
+            tag = tag or ability_tag_of(mine[0]["feature"])
         if mine and not tag:
             untagged += 1
-        if mine and tag:
+        if mine:
             new = with_ability_type(e.front, tag)
-            if new != e.front:
-                write_atomic(e.path, e.path.read_text(encoding="utf-8").replace(e.front, new, 1))
-                done += 1
+            current = e.path.read_text(encoding="utf-8")
+            canonical = "+++\n" + new.strip("\n") + "\n+++\n" + e.body
+            if new != e.front or (not tag and current != canonical):
+                if current != canonical:
+                    write_atomic(e.path, canonical)
+                    done += 1
     print(f"ability_type: {done} entries changed, {untagged} written single-power entries have no printed tag (no key)")
     return 0
 
@@ -1433,6 +1641,20 @@ def run_ability_type(args) -> int:
 def norm(text: str) -> str:
     return re.sub(r"\s+", " ", re.sub(r"\[([^\]]*)\]\([^)]*\)", r"\1", text)).strip()
 
+
+
+def prose_key(text: str) -> str:
+    text = re.sub(r"\[([^\]]+)\]\([^)]+\)", r"\1", text)
+    return re.sub(r"[^a-z0-9]+", "", unicodedata.normalize("NFKD", text).casefold())
+
+
+def duplicate_print_block(block: str, printed_key: str) -> bool:
+    key = prose_key(block)
+    return len(key) >= 80 and key in printed_key
+
+
+def written_tag_error(entry_id: str, expected: str, actual: str) -> str | None:
+    return f"{entry_id}: ability_type {actual!r} differs from the printed tag {expected!r}" if actual != expected else None
 
 def run_check(args) -> int:
     corpus = Path(args.corpus).resolve()
@@ -1470,12 +1692,19 @@ def run_check(args) -> int:
                     text = props.get((eid, r["anchor"]))
                     if text is not None and norm(text) not in body:
                         errors.append(f"{eid}: written, but the printed text of `{r['anchor']}` is not in the entry")
+                singles = [r for r in mine if r["shape"] == "single"]
+                if singles:
+                    compact = lambda value: re.sub(r"\s+", " ", value).strip()
+                    proposal = props.get((eid, singles[0]["anchor"]))
+                    if args.book and proposal is not None and compact(proposal) != compact(e.body):
+                        errors.append(f"{eid}: written single-power body differs from its complete print proposal")
+                    expected_tag = singles[0]["ability_tag"]
+                    actual_tag = (e.data.get("fields") or {}).get("ability_type", "")
+                    tag_error = written_tag_error(eid, expected_tag, actual_tag)
+                    if tag_error:
+                        errors.append(tag_error)
                 # ruling 63: the ability tag is print's, so a written single-power entry whose printed head has one carries it
                 single = [r for r in mine if r["shape"] == "single"]
-                if single and single[0]["ability_tag"]:
-                    want_tag = f'ability_type = "{single[0]["ability_tag"]}"'
-                    if want_tag not in e.front:
-                        errors.append(f"{eid}: written, but the printed tag {single[0]['ability_tag']} is not in `[fields] ability_type`")
                 continue
             if shape == "none":
                 if mine and any(r["status"] != LEDGER for r in mine):
@@ -1511,6 +1740,21 @@ def self_test() -> int:
     eq(inverted("Greater Beast Totem (Su)"), "Beast Totem, Greater (Su)", "print sets the variant behind the name")
     eq(inverted("Beast Totem"), "Beast Totem", "a name without a variant stays")
     eq(INVERTED_HEAD.match("Beast Totem, Greater (Su)").groups(), ("Beast Totem", "Greater", " (Su)"), "the inverted head is read")
+    eq(INVERTED_HEAD.match("Pool Strike, Arcing (Su)").groups(), ("Pool Strike", "Arcing", " (Su)"), "an inverted Pool Strike head is read")
+    eq(inverted("Arcing Pool Strike (Su)"), "Pool Strike, Arcing (Su)", "the title's variant moves behind its base name")
+    eq(inverted("Weapon Training (Ex)"), "Weapon Training (Ex)", "a non-variant title remains unchanged")
+    errata_print = "The alchemist's Intelligent modifier applies."
+    errata_kept = "The alchemist's Intelligence modifier applies."
+    eq(apply_errata_text(errata_print, [("Intelligent modifier", "Intelligence modifier")]), errata_kept,
+       "an exact reviewed misprint is corrected")
+    eq(apply_errata_text(errata_kept, [("Intelligent modifier", "Intelligence modifier")]), errata_kept,
+       "a reviewed correction is idempotent")
+    try:
+        near_miss = "The alchemist's intellegent modifier applies."
+        eq(apply_errata_text(near_miss, [("Intelligent modifier", "Intelligence modifier")]), near_miss,
+           "a near-miss misprint stays unchanged")
+    except ValueError:
+        eq(False, True, "a near-miss misprint stays unchanged")
     eq(features_front('id = "x"\ngroup = "order"', [("a", None)]), 'id = "x"\ngroup = "order"\nfeatures = [\n  { anchor = "a" },\n]\n', "a front that ends at the group row gets its features")
     P = fp.Para
     E = type("E", (), {"title": "Wing Buffet"})()
@@ -1682,6 +1926,33 @@ def self_test() -> int:
     eq(anchor_section(school, "Metal", kind="domain"), None, "(ELEMENTAL SCHOOL) is no title of a domain entry")
     fire = [P("title", [("FIRE (SUBDOMAIN)", True, False)], 90, 0, 18), P("para", [("Fire Domain: A rule.", True, False)], 90, 0)]
     eq(anchor_section(fire, "Fire", kind="domain"), None, "FIRE (SUBDOMAIN) is no title of the entry Fire of a domain")
+    # the intro sentence of a marked head comes from the book's own intro (a fake page: the paragraph that names the mark)
+    ib = fp.Book({"30": 13, "40": 40}, {1: [(200, 108, 30, "DISCOVERIES", 100), (240, 108, 30, "The following new discoveries can be taken by any alchemist who meets the prerequisites. "
+                               "Discoveries that modify bombs and are marked with a single asterisk (*) do not stack. Only one such discovery can be "
+                               "applied to an individual bomb.", 320),
+                              (300, 108, 40, "Alchemical Simulacrum (Su)", 200)]}, {1: 15}, set())
+    eq(IntroMarkMap(ib, "Discoveries that modify bombs and are marked with a single asterisk", "stack").text, "Discoveries that modify bombs and are marked with a single asterisk (*) do not stack. Only one such discovery can be applied to an individual bomb.",
+       "the intro sentence of a marked group is read from the book")
+    eq(IntroMarkMap(ib, "Discoveries that modify bombs and are marked with a single asterisk", "stack").page, 15, "and its printed page")
+    nointro = fp.Book({"30": 13}, {1: [(200, 108, 30, "Plain text without a mark.", 300)]}, {1: 4}, set())
+    eq((IntroMarkMap(nointro, "marked with an asterisk", "sneak attack").text, IntroMarkMap(nointro, "marked with an asterisk", "sneak attack").page), ("", 0), "a book with no such intro gives no sentence (near miss: a paragraph with no mark)")
+    two = fp.Book({"30": 13, "40": 40}, {1: [(120, 108, 30, "Discoveries marked with a single asterisk (*) first appear in this book.", 300),
+                                              (200, 108, 40, "DISCOVERIES", 100),
+                                              (240, 108, 30, "The following new discoveries can be taken by any alchemist who meets the prerequisites. Discoveries that modify bombs "
+                                                             "and are marked with a single asterisk (*) do not stack. Only one such discovery can be applied to an individual bomb.", 320)]},
+                  {1: 15}, set())
+    eq((IntroMarkMap(two, "Discoveries that modify bombs and are marked with a single asterisk", "stack").text.startswith("Discoveries that modify bombs"), IntroMarkMap(two, "Discoveries that modify bombs and are marked with a single asterisk", "stack").page), (True, 15),
+       "the rule sentence is preferred over the chapter's mention of the mark")
+    uc_book = lambda text: fp.Book({"30": 13}, {1: [(200, 108, 30, text, 320)]}, {1: 14}, set())
+    expected_intros = {
+        "ninjatrick": "Tricks marked with an asterisk (*) add effects to a ninja's sneak attack. Only one of these tricks can be applied to an individual attack and the decision must be made before the attack is made.",
+        "talent": "Talents marked with an asterisk (*) add effects to a rogue's sneak attack. Only one of these talents can be applied to an individual attack, and the decision must be made before the roll is made.",
+        "discovery": "Discoveries that modify bombs and are marked with a single asterisk (*) do not stack. Only one such discovery can be applied to an individual bomb.",
+    }
+    for family, expected in expected_intros.items():
+        marker, prefer = INTRO_MARK_SPECS["ultimate-combat"][family]
+        discovered = IntroMarkMap(uc_book(expected), marker, prefer)
+        eq(discovered.text, expected, f"Ultimate Combat {family} marked-head intro equals the printed text word for word")
     STOP_TITLES.clear()
     STOP_TITLES.update({"aquatic", "boreal", "deepearth"})
     ab = [P("title", [("Aquatic", True, False)], 136, 0, 18), P("para", [("Dehydrating Touch (Sp)", True, False), (": A touch.", False, False)], 136, 0),
@@ -1743,6 +2014,13 @@ def self_test() -> int:
     body, feats = convert_body(E, {sha(single, 0): "At 1st level, a bite."}, {}, {})
     eq(body.strip(), "At 1st level, a bite.", "a single-power body is the printed paragraphs, no head, no features")
     eq(feats, [], "a single-power option gets no `features`")
+    duplicate = "- **Blast Lock:** The gunslinger makes an attack roll against a lock with enough detail to cross the threshold and be an exact duplicate of the text that print supplies."
+    printed = "_Blast Lock_: The gunslinger makes an attack roll against a lock with enough detail to cross the threshold and be an exact duplicate of the text that print supplies."
+    eq(duplicate_print_block(duplicate, prose_key(printed)), True, "a single-power writer drops a duplicated imported list item")
+    eq((duplicate_print_block("a" * 79, "a" * 100), duplicate_print_block("b" * 80, "a" * 100)),
+       (False, False), "duplicate imported blocks need 80 characters and must occur in print")
+    eq((written_tag_error("ref/x/y", "Su", "Su"), written_tag_error("ref/x/y", "Su", "")),
+       (None, "ref/x/y: ability_type '' differs from the printed tag 'Su'"), "run_check requires exact printed ability_tag equality")
     E.body = multi
     texts = {sha(multi, 0): "A cry that all allies hear.", sha(multi, 1): "At 7th level, a reroll."}
     levels = {sha(multi, 0): None, sha(multi, 1): 7}
@@ -1765,9 +2043,23 @@ def self_test() -> int:
     eq(with_ability_type('id = "x"\n[fields]\nkind = "class_option"\ngroup = "hex"\nfeatures = [\n]\n', "Su"), 'id = "x"\n[fields]\nkind = "class_option"\ngroup = "hex"\nability_type = "Su"\nfeatures = [\n]\n', "ruling 63: the key follows group")
     eq(with_ability_type('[fields]\nkind = "class_option"\ngroup = "hex"', "Ex or Sp"), '[fields]\nkind = "class_option"\ngroup = "hex"\nability_type = "Ex or Sp"\n', "ruling 63: a combined tag, a front that ends at group")
     eq(with_ability_type('[fields]\nkind = "class_option"\ngroup = "hex"\n', ""), '[fields]\nkind = "class_option"\ngroup = "hex"\n', "ruling 63: an entry whose print has no tag gets no key")
+    eq(with_ability_type('[fields]\nkind = "class_option"\ngroup = "hex"\nability_type = "Ex"\n', ""), '[fields]\nkind = "class_option"\ngroup = "hex"\n', "ruling 63: an unprinted imported tag is removed")
+    eq(with_ability_type('[fields]\nkind = "class_option"\ngroup = "hex"\nability_type = "Ex"\n\n', ""), '[fields]\nkind = "class_option"\ngroup = "hex"\n', "removing a stale tag leaves canonical front matter spacing")
     eq([with_ability_type('[fields]\nkind = "class_option"\ngroup = "hex"\n', x) for x in ("su", " Su", "(Su)", "see text")] == ['[fields]\nkind = "class_option"\ngroup = "hex"\n'] * 4, True, "ruling 63: a value that is no printed tag fails the same rule as the app's")
     eq(with_ability_type('[fields]\nkind = "archetype"\ngroup = "x"\n', "Su"), '[fields]\nkind = "archetype"\ngroup = "x"\n', "ruling 63: only on a class option")
     eq([ability_tag_of(n) for n in ("Foo (su)", "Foo (Su, Sp)", "Foo (Ex, or Sp)", "Foo (Ex/Sp)", "Foo (Ex and Su)")], ["", "Su, Sp", "Ex, or Sp", "", "Ex and Su"], "ruling 63: the separators of the app's rule")
+    eq([ability_tag_of_printed_head(n) for n in ("Blast Bomb* (Ex)", "Blast Bomb (Ex)*", "Blast Bomb (Ex)†", "Blast Bomb (ex)*", "Blast Bomb (Explanatory)*", "Blast Bomb (Ex/Sp)*", "Blast Bomb*")], ["Ex", "Ex", "Ex", "", "", "", ""], "source marks never strip a printed ability tag; malformed near misses stay untagged")
+    eq((ability_tag_for_option("ultimate-combat", "Foo (Ex)", "Foo (Su)"), ability_tag_for_option("ultimate-combat", "Foo (Ex)", "Foo"), ability_tag_for_option("advanced-players-guide", "Foo (Ex)", "Foo")), (("Su", True), ("", False), ("Ex", False)), "printed-head tags are scoped to Ultimate Combat and do not change other books")
+    eq(prepend_intro("The power text.", "Printed intro."), "Printed intro.\n\nThe power text.", "a marked-head intro opens the entry")
+    eq(prepend_intro("Printed intro.\n\nThe power text.", "Printed intro."), "Printed intro.\n\nThe power text.", "a marked-head intro is idempotent")
+    eq(prepend_intro("Marked with *\n\nThe power text.", r"Marked with \*"), r"Marked with \*" + "\n\nThe power text.", "a marked-head intro escapes and replaces the unescaped near miss")
+    eq(drop_unkeyed_link_marks("ref/ragepower/greater-ground-breaker", r"[ground breaker](ref/ragepower/ground-breaker)\*\* rage power"),
+       "[ground breaker](ref/ragepower/ground-breaker) rage power", "an unkeyed double mark after a link is dropped")
+    eq(drop_unkeyed_link_marks("ref/ragepower/greater-ground-breaker", r"[ground breaker](ref/ragepower/ground-breaker)\* key"),
+       r"[ground breaker](ref/ragepower/ground-breaker)\* key", "a near miss with one marked star is preserved")
+    INTRO_MARK_TEXT[("ultimate-combat", "discovery")] = (IntroMarkMap(ib, "Discoveries that modify bombs and are marked with a single asterisk", "stack").text, IntroMarkMap(ib, "Discoveries that modify bombs and are marked with a single asterisk", "stack").page)
+    eq(marked_head_intro("ultimate-combat", "ref/discovery/breath-weapon-bomb").startswith("Discoveries that modify bombs"), True, "the bomb-mark key is scoped to the printed discovery")
+    eq(marked_head_intro("advanced-players-guide", "ref/discovery/breath-weapon-bomb"), "", "a marked-head intro never changes another book")
     eq(with_ability_type('[fields]\nkind = "class_option"\nability_type = "Ex"\n', "Su"), '[fields]\nkind = "class_option"\nability_type = "Ex"\n', "ruling 63: a key that is there stays")
     eq(WRITE_ABILITY_TYPE, True, "ruling 63: the writer is on, the app reads the key")
     eq(outside_rows(multi), ["Details"], "the import rows outside the powers are listed")
@@ -1845,6 +2137,12 @@ def self_test() -> int:
         GROUP_OF_TARGET.clear()
     for line in bad:
         print("FAIL", line)
+    eq(print_lost("Whenever she uses it, she can invoke true judgment on a foe. Regardless of whether the save is made, the target is immune for 24 hours.", "Whenever she uses it, she can invoke true judgment on a foe."),
+       ["Regardless of whether the save is made, the target is immune for 24 hours."], "the coverage check names a printed sentence that the written text lacks")
+    eq(print_lost("This ability 4 4 3 3 is the equivalent of a spell of a level equal to one-third the level.", "This ability is the equivalent of a spell of a level equal to one-third the level."), [], "cells inside a printed sentence are no words of it")
+    eq(print_lost("(Su): The witch can create a magic sensor that she can see through.", "The [witch](ref/x) can create a magic sensor that she can see through."), [], "the tag of a head and a link are not differences")
+    eq([bool(TABLE_HEAD_RE.match(x)) for x in ("1st 2nd 3rd 4th", "0 1st 2nd 3rd", "Spells per Day", "Extracts per Day", "2-Point Evolutions", "3rd-Level Spells", "1st-Level Witch Spells", "1 Point Evolutions", "4th Level")],
+       [True, True, True, True, False, False, False, False, False], "the header of a class table is no head; a group heading that starts with a number or an ordinal is (near misses)")
     print(f"self-test: {ok} checks passed" if not bad else f"self-test: {len(bad)} failures")
     return 1 if bad else 0
 

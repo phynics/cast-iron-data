@@ -12,13 +12,29 @@ publication = "advanced-players-guide"
 page = "32"
 [[sources]]
 publication = "chronicle-of-legends"
-page = "28"
+page = "4, 28"
 
 [fields]
 kind = "class"
 class_type = "base"
 hit_die = "d10"
 skill_ranks = "4 + Int modifier"
+features = [
+  { anchor = "challenge", level = 1 },
+  { anchor = "mount", level = 1 },
+  { anchor = "order", level = 1 },
+  { anchor = "tactician", level = 1 },
+  { anchor = "cavalier-s-charge", level = 3 },
+  { anchor = "expert-trainer", level = 4 },
+  { anchor = "banner", level = 5 },
+  { anchor = "bonus-feat", level = 6 },
+  { anchor = "greater-tactician", level = 9 },
+  { anchor = "mighty-charge", level = 11 },
+  { anchor = "demanding-challenge", level = 12 },
+  { anchor = "greater-banner", level = 14 },
+  { anchor = "master-tactician", level = 17 },
+  { anchor = "supreme-charge", level = 20 },
+]
 +++
 
 While many warriors strive to perfect their art, spending all of their time honing their skill at
@@ -76,283 +92,216 @@ intrigue and can hold his own in even the most delicate of social situations.
 |19th|+19/+14/+9/+4|+11|+6|+6|Challenge 7/day|
 |20th|+20/+15/+10/+5|+12|+6|+6|Supreme charge|
 
-#### Weapon and Armor Proficiencies {#weapon-and-armor-proficiencies}
+#### Weapon and Armor Proficiency {#weapon-and-armor-proficiencies}
 
-**Weapons:** All simple weapons, All martial weapons
-
-**Armor:** Light armor, Medium armor, Heavy armor
-
-**Shields:** Yes, except tower shields
+Cavaliers are proficient with all simple and martial weapons, with all types of armor (heavy, light,
+and medium) and with shields (except tower shields).
 
 #### Challenge (Ex) {#challenge}
 
-**Special:** The challenge remains in effect until the target is dead or unconscious or until the
-combat ends. Each challenge also includes another effect which is listed in the section describing
-your _order._
+Once per day, a cavalier can challenge a foe to combat. As a swift action, the cavalier chooses one
+target within sight to challenge. The cavalier's melee attacks deal extra damage whenever the
+attacks are made against the target of his challenge. This extra damage is equal to the cavalier's
+level. The cavalier can use this ability once per day at 1st level, plus one additional time per day
+for every three levels beyond 1st, to a maximum of seven times per day at 19th level.
 
-**Swift:** You challenge a foe to combat, choosing one target within sight to challenge. Your melee
-attacks deal extra damage whenever the attacks are made against the target of your challenge. This
-extra damage is equal to your level. Challenging a foe requires much of your concentration. You take
-a -2 penalty to your Armor Class, except against attacks made by the target of your challenge.
+Challenging a foe requires much of the cavalier's concentration. The cavalier takes a -2 penalty to
+his Armor Class, except against attacks made by the target of his challenge.
 
-**Usage:** 1 time/day + 1 per 3 cavalier levels beyond 1st
+The challenge remains in effect until the target is dead or unconscious or until the combat ends.
+Each cavalier's challenge also includes another effect which is listed in the section describing the
+cavalier's order.
 
 #### Mount (Ex) {#mount}
 
-**Ability:** You gain the service of a loyal and trusty steed to carry you into battle. This mount
-functions as a druid's [animal companion](ref/sidekick/animal-companion), using your level as your
-effective druid level. The creature must be one that you are capable of riding and is suitable as a
-mount.
+A cavalier gains the service of a loyal and trusty steed to carry him into battle. This mount
+functions as a druid's [animal companion](ref/sidekick/animal-companion), using the cavalier's level
+as his effective druid level. The creature must be one that he is capable of riding and is suitable
+as a mount. A Medium cavalier can select a [camel](ref/companion/camel) or a
+[horse](ref/companion/horse). A Small cavalier can select a [pony](ref/companion/pony) or
+[wolf](ref/companion/wolf), but can also select a [boar](ref/companion/boar) or a
+[dog](ref/companion/dog) if he is at least 4th level. The GM might approve other animals as suitable
+mounts.
 
-**Gained:** At 1st Level
+A cavalier does not take an armor check penalty on Ride checks while riding his mount. The mount is
+always considered combat trained and begins play with
+[Light Armor Proficiency](ref/feat/armor-proficiency-light) as a bonus feat. A cavalier's mount does
+not gain the share spells special ability.
 
-**Passive:** You do not take an armor check penalty on Ride checks while riding your mount. The
-mount is always considered combat trained and begins play with
-[Light Armor Proficiency](ref/feat/armor-proficiency-light) as a bonus feat. Your mount does not
-gain the _share spells_ special ability.
+A cavalier's bond with his mount is strong, with the pair learning to anticipate each other's moods
+and moves. Should a cavalier's mount die, the cavalier may find another mount to serve him after 1
+week of mourning. This new mount does not gain the link, evasion, devotion, or improved evasion
+special abilities until the next time the cavalier gains a level.
 
-**Special:** Your bond with your mount is strong, with the two of you learning to anticipate each
-other's moods and moves. Should your mount die, you may find another mount to serve you after 1 week
-of mourning. This new mount does not gain the _link, evasion, devotion,_ or _improved evasion_
-special abilities until the next time you gain a level.
+##### Cavalier Mounts (Wilderness Origins page 23) {#cavalier-mounts-wilderness-origins}
 
-**Possible Mounts:** This mount may come from the following lists:
+A Medium cavalier can select an [axe beak](ref/companion/axe-beak), [elk](ref/companion/elk),
+[giant tortoise](ref/companion/tortoise-giant), [giant seahorse](ref/companion/seahorse-giant), or
+[giraffe](ref/companion/giraffe) as a mount. A Small cavalier can select an
+[antelope](ref/companion/antelope), [giant weasel](ref/companion/weasel-giant),
+[kangaroo](ref/companion/kangaroo), lizard ([giant gecko](ref/companion/lizard-giant-gecko)),
+[ram](ref/companion/ram), or [stag](ref/companion/stag) as a mount. The augmented companion,
+bodyguard, bully, daredevil, draconic companion, racer, and wrecker companion archetypes are all
+particularly appropriate for a cavalier's mount.
 
-**Medium cavaliers** may choose an [Axe Beak](ref/companion/axe-beak), [Camel](ref/companion/camel),
-[Elk](ref/companion/elk), [Giraffe](ref/companion/giraffe), [Horse](ref/companion/horse),
-[Giant Seahorse](ref/companion/seahorse-giant), [Giant Tortoise](ref/companion/tortoise-giant), or
-[Zebra](ref/companion/zebra).
+##### Cavalier Mounts (Ultimate Wilderness page 178) {#cavalier-mounts-ultimate-wilderness}
 
-**Small cavaliers** may choose an [Antelope](ref/companion/antelope), [Boar](ref/companion/boar)
-(requires 4th level), [Capybara](ref/companion/capybara), [Dog](ref/companion/dog) (requires 4th
-level), [Kangaroo](ref/companion/kangaroo), [Giant Gecko](ref/companion/lizard-giant-gecko),
-[Pony](ref/companion/pony), [Ram](ref/companion/ram), Reindeer (uses elk statistics),
-[Stag](ref/companion/stag), [Giant Weasel](ref/companion/weasel-giant), [Wolf](ref/companion/wolf),
-or [Wolfdog](ref/companion/wolfdog).
+A Medium cavalier can select a [zebra](ref/companion/zebra) as a mount. A Small cavalier can select
+a [capybara](ref/companion/capybara), [reindeer](ref/companion/reindeer), or
+[wolfdog](ref/companion/wolfdog) as a mount.
 
-The GM might approve other animals as suitable mounts.
+#### Order (Ex) {#order}
 
-#### Order (Ex): {#order}
+At 1st level, a cavalier must pledge himself to a specific [order](ref/ability/orders). The order
+grants the cavalier a number of bonuses, class skills, and special abilities. In addition, each
+order includes a number of edicts that the cavalier must follow. If he violates any of these edicts,
+he loses the benefits from his order's challenge ability for 24 hours. The violation of an edict is
+subject to GM interpretation.
 
-**Ability:** You must pledge yourself to a specific [order](ref/ability/orders). The order grants
-you a number of bonuses, class skills, and special abilities. In addition, each order includes a
-number of edicts that you must follow. If you violate any of these edicts, you lose the benefits
-from your order's _challenge_ ability for 24 hours. The violation of an edict is subject to GM
-interpretation.
-
-**Gained:** At 1st Level
-
-**Special:** You cannot change your order without undertaking a lengthy process to dedicate yourself
-to a new cause. When this choice is made, you immediately lose all of the benefits from your old
-order. You must then follow the edicts of your new order for one entire level without gaining any
-benefits from that order. Once accomplished, you gain all of the bonuses from your new order. (Note
-that the names of these orders might vary depending upon the campaign setting or GM's preference.)
+A cavalier cannot change his order without undertaking a lengthy process to dedicate himself to a
+new cause. When this choice is made, he immediately loses all of the benefits from his old order. He
+must then follow the edicts of his new order for one entire level without gaining any benefits from
+that order. Once accomplished, he gains all of the bonuses from his new order. Note that the names
+of these orders might vary depending upon the campaign setting or GM's preference.
 
 #### Tactician (Ex) {#tactician}
 
-**Ability:** You receive a teamwork feat as a bonus feat. You must meet the prerequisites for this
-feat.
-
-**Gained:** At 1st Level
-
-**Standard:** You can grant this feat to all allies within 30 feet who can see and hear you. Allies
-retain the use of this bonus feat for a number of rounds equal to 3 +
-[half](ref/misc/fractions-and-rounding) of your cavalier level. Allies do not need to meet the
-prerequisites of these bonus feats.
-
-**Usage:** 1 time/day + 1 per 5 cavalier levels
+At 1st level, a cavalier receives a teamwork feat as a bonus feat. He must meet the prerequisites
+for this feat. As a standard action, the cavalier can grant this feat to all allies within 30 feet
+who can see and hear him. Allies retain the use of this bonus feat for 3 rounds plus 1 round for
+every two levels the cavalier possesses. Allies do not need to meet the prerequisites of these bonus
+feats. The cavalier can use this ability once per day at 1st level, plus one additional time per day
+at 5th level and for every 5 levels thereafter.
 
 #### Cavalier's Charge (Ex) {#cavalier-s-charge}
 
-**Gained:** At 3rd Level
-
-**Passive:** You receive a +4 bonus on melee attack rolls on a [charge](ref/rule/charge) while
-mounted (instead of the normal +2). In addition, you do not suffer any penalty to your AC after
-making a charge attack while mounted.
+At 3rd level, a cavalier learns to make more accurate [charge](ref/rule/charge) attacks while
+mounted. The cavalier receives a +4 bonus on melee attack rolls on a charge while mounted (instead
+of the normal +2). In addition, the cavalier does not suffer any penalty to his AC after making a
+charge attack while mounted.
 
 #### Expert Trainer (Ex) {#expert-trainer}
 
-**Gained:** At 4th Level
-
-**Passive:** You receive a bonus equal to [half](ref/misc/fractions-and-rounding) your cavalier
-level whenever you use [Handle Animal](ref/skill/handle-animal) on an animal that serves as a mount.
-In addition, you can reduce the time needed to teach a mount a new
-[trick](ref/ability/animal-tricks) or train a mount for a general purpose to 1 day per 1 week
-required by increasing the DC by +5. You can also train more than one mount at once, although each
-mount after the first adds +2 to the DC.
+At 4th level, a cavalier learns to train mounts with speed and unsurpassed expertise. The cavalier
+receives a bonus equal to 1/2 his cavalier level whenever he uses
+[Handle Animal](ref/skill/handle-animal) on an animal that serves as a mount. In addition, he can
+reduce the time needed to teach a mount a new [trick](ref/ability/animal-tricks) or train a mount
+for a general purpose to 1 day per 1 week required by increasing the DC by +5. He can also train
+more than one mount at once, although each mount after the first adds +2 to the DC.
 
 #### Banner (Ex) {#banner}
 
-**Choice:** Choose one of the following standards. The "Original Standard" refers to the original
-_banner_ ability as printed in _Advanced Player's Guide,_ while the other standards were introduced
-in other rulebooks.
+At 5th level, a cavalier's banner becomes a symbol of inspiration to his allies and companions. As
+long as the cavalier's banner is clearly visible, all allies within 60 feet receive a +2 morale
+bonus on saving throws against fear and a +1 morale bonus on attack rolls made as part of a charge.
+At 10th level, and every five levels thereafter, these bonuses increase by +1. The banner must be at
+least Small or larger and must be carried or displayed by the cavalier or his mount to function.
 
-**Flavor:** A cavalier's banner becomes a symbol of inspiration to his allies and companions.
+##### Flying the Flag of War (Chronicle of Legends page 4) {#flying-the-flag-of-war}
 
-**Gained:** At 5th Level
+Some knights inspire and direct their allies with specialized tactics. A cavalier or samurai can
+select one of the following battle standards upon gaining the banner class feature, and its benefits
+replace the normal benefits of the banner and greater banner class features. A battle standard
+functions as the banner or greater banner class feature except where otherwise noted. A cavalier or
+samurai who replaces the banner or greater banner class feature via an archetype cannot select a
+battle standard, with the following exception: a standard bearer cavalier can select a battle
+standard at 1st level, and its effects increase as per the standard bearer's banner.
 
-**Passive:** As long as your banner is clearly visible, all allies within 60 feet gain the bonus
-specified by your standard.
+##### Fleet Standard (Ex) (Chronicle of Legends page 4) {#fleet-standard}
 
-**Special:** The banner must be at least Small or larger and must be carried or displayed by you or
-your mount to function.
+These banners are common among Jininese samurai. An ally who benefits from this standard increases
+her land speed by 5 feet and gains a +1 dodge bonus to AC during any round in which she moved at
+least 10 feet. This increase to land speed is an enhancement bonus. At 10th level and every 5 levels
+thereafter, the bonus to speed increases by 5 feet. At 14th level, an ally benefiting from the
+banner gains a +2 morale bonus on Reflex saving throws against effects that target an area, such as
+[fireball](ref/spell/fireball) or [breath weapons](ref/umr/breath-weapon). When the cavalier or
+samurai waves this standard, each ally within 60 feet can move up to her speed as an immediate
+action.
 
-#### Original Standard (Ex) {#original-standard}
+##### Jinx Standard (Ex) (Chronicle of Legends page 4) {#jinx-standard}
 
-**Passive:** An ally who benefits from this standard receives a morale bonus on saving throws
-against fear and a smaller morale bonus on attack rolls made as part of a charge. The save bonus is
-equal to 1 + [one-fifth](ref/misc/fractions-and-rounding) of your cavalier level, while the charge
-bonus is equal to one-fifth of your cavalier level.
+These grim fetishes are common among Jadwiga cavaliers. An ally who benefits from this standard
+gains a +1 bonus on caster level checks to bypass [spell resistance](ref/rule/spell-resistance) and
+a +1 bonus to the DC of her hexes and necromancy or enchantment spell she casts. At 10th level and
+every 5 levels thereafter, the bonus on caster level checks increases by 1. At 14th level, an ally
+benefiting from the banner gains a +2 morale bonus on saving throws against spells or effects that
+deal hit point damage. When the cavalier or samurai waves this standard, a number of allies equal to
+the cavalier or samurai's Charisma modifier (minimum 1) within 60 feet can attempt an Intimidate
+check to demoralize a foe as an immediate action.
 
-#### Fleet Standard (Ex) {#fleet-standard}
+##### Knave Standard (Ex) (Chronicle of Legends page 4) {#knave-standard}
 
-**Passive:** An ally who benefits from this standard increases their land speed by 5 feet and gains
-a +1 dodge bonus to AC during any round in which they moved at least 10 feet. This increase to land
-speed is an enhancement bonus.
+The knave standard is common among cavaliers of the River Kingdoms. An ally who benefits from this
+standard gains a +2 dodge bonus to AC against attacks of opportunity provoked by movement and a +1
+morale bonus on attack rolls that benefit from [flanking](ref/rule/flanking). At 10th level and
+every 5 levels thereafter, the bonus to AC increases by 1. At 14th level, an ally benefiting from
+the banner gains [sneak attack](ref/ability/sneak-attack) +1d6; this stacks with other sources of
+sneak attack. When the cavalier or samurai waves this standard, a number of allies equal to the
+cavalier or samurai's Charisma modifier (minimum 1) within 60 feet can each attempt a
+[feint](ref/rule/feint) against a foe she threatens as an immediate action.
 
-At 10th level: The bonus to speed increases to +10 feet.
+##### Stalwart Standard (Ex) (Chronicle of Legends page 4) {#stalwart-standard}
 
-At 15th level: The bonus to speed increases to +15 feet.
-
-At 20th level: The bonus to speed increases to +20 feet.
-
-#### Jinx Standard (Ex) {#jinx-standard}
-
-**Passive:** An ally who benefits from this standard gains a bonus on caster level checks to bypass
-[spell resistance](ref/rule/spell-resistance) and a bonus to the DC of their hexes and necromancy or
-enchantment spell they casts. These bonuses are equal to one-fifth of your cavalier level.
-
-#### Knave Standard (Ex) {#knave-standard}
-
-**Passive:** An ally who benefits from this standard gains a dodge bonus (equal to 1 + one-fifth of
-your cavalier level) to AC against attacks of opportunity provoked by movement, and a +1 morale
-bonus on attack rolls that benefit from [flanking](ref/rule/flanking).
-
-#### Stalwart Standard (Ex) {#stalwart-standard}
-
-**Passive:** An ally who benefits from this standard gains a morale bonus (equal to 1 + one-fifth
-your cavalier level) to CMD and a +1 morale bonus on attack rolls to creatures threatening an ally.
+These banners are common among the dwarven defenders of Kraggodan. An ally who benefits from this
+standard gains a +2 morale bonus to CMD and a +1 morale bonus on attack rolls to creatures
+threatening an ally. At 10th level and every 5 levels thereafter, the bonus to CMD increases by +1.
+At 14th level, an ally benefiting from the banner is treated as one size category larger for the
+purposes of determining which creatures can affect him with combat maneuvers. When the cavalier or
+samurai waves this standard, each ally within 60 feet can move up to 10 feet without provoking
+attacks of opportunities and ignoring [difficult terrain](ref/rule/terrain-and-obstacles) as an
+immediate action.
 
 #### Bonus Feat {#bonus-feat}
 
-**Ability:** You gain a bonus feat in addition to those gained from normal advancement. This bonus
-feat must be selected from those listed as combat feats. You must meet the prerequisites of this
-bonus feat.
-
-**Gained:** At 6th Level
-
-**Repeat At:** You gain another bonus feat, following the restrictions above., 12, 18
+At 6th level, and at every six levels thereafter, a cavalier gains a bonus feat in addition to those
+gained from normal advancement. These bonus feats must be selected from those listed as combat
+feats. The cavalier must meet the prerequisites of these bonus feats.
 
 #### Greater Tactician (Ex) {#greater-tactician}
 
-**Ability:** You receive an additional teamwork feat as a bonus feat. You must meet the
-prerequisites for this feat. You can grant this feat to your allies using the _tactician_ ability.
-
-**Section:** Other Abilities
-
-**Gained:** At 9th Level
-
-**Swift:** Using the _tactician_ ability becomes a **swift action**.
+At 9th level, the cavalier receives an additional teamwork feat as a bonus feat. He must meet the
+prerequisites for this feat. The cavalier can grant this feat to his allies using the tactician
+ability. Using the tactician ability is a swift action.
 
 #### Mighty Charge (Ex) {#mighty-charge}
 
-**Flavor:** A cavalier learns to make devastating charge attacks while mounted.
-
-**Free:** In addition, you can make a free [bull rush](ref/rule/bull-rush),
-[disarm](ref/rule/disarm), [sunder](ref/rule/sunder), or [trip](ref/rule/trip) combat maneuver if
-your charge attack is successful. This does not provoke an attack of opportunity.
-
-**Gained:** At 11th Level
-
-**Passive:** You double the threat range of any weapons wielded during a charge while mounted. This
-increase does not stack with other effects that increase the threat range of the weapon.
+At 11th level, a cavalier learns to make devastating charge attacks while mounted. Double the threat
+range of any weapons wielded during a charge while mounted. This increase does not stack with other
+effects that increase the threat range of the weapon. In addition, the cavalier can make a free
+[bull rush](ref/rule/bull-rush), [disarm](ref/rule/disarm), [sunder](ref/rule/sunder), or
+[trip](ref/rule/trip) combat maneuver if his charge attack is successful. This free combat maneuver
+does not provoke an attack of opportunity.
 
 #### Demanding Challenge (Ex) {#demanding-challenge}
 
-**Ability:** Whenever you declare a challenge, your target must pay attention to the threat you
-pose. As long as the target is within your threatened area, it takes a -2 penalty to its AC from
-attacks made by anyone other than you.
-
-**Gained:** At 12th Level
+At 12th level, whenever a cavalier declares a challenge, his target must pay attention to the threat
+he poses. As long as the target is within the threatened area of the cavalier, it takes a -2 penalty
+to its AC from attacks made by anyone other than the cavalier.
 
 #### Greater Banner (Ex) {#greater-banner}
 
-**Flavor:** A cavalier's banner becomes a rallying call to his allies.
-
-**Section:** Other Abilities
-
-**Gained:** At 14th Level
-
-**Passive:** All allies within 60 feet gain new benefits from your _banner._
-
-**Standard:** While your banner is displayed, you can wave the banner through the air, granting all
-allies within 60 feet certain benefits.
-
-#### Original Standard (Ex) {#original-standard-2}
-
-**Passive:** An ally benefiting from the banner receives a +2 morale bonus on saving throws against
-charm and compulsion spells and effects.
-
-**Standard:** Waving your _banner_ grants all allies within 60 feet an additional saving throw
-against any one spell or effect that is targeting them. This save is made at the original DC. Spells
-and effects that do not allow saving throws are unaffected by this ability. An ally cannot benefit
-from this ability more than once per day.
-
-#### Fleet Standard (Ex) {#fleet-standard-2}
-
-**Passive:** An ally benefiting from the banner gains a +2 morale bonus on Reflex saving throws
-against effects that target an area, such as [fireball](ref/spell/fireball) or
-[breath weapons](ref/umr/breath-weapon).
-
-**Standard:** Waving your _banner_ grants each ally within 60 feet the ability to move up to their
-speed as an **immediate action**.
-
-#### Jinx Standard (Ex) {#jinx-standard-2}
-
-**Passive:** An ally benefiting from the banner gains a +2 morale bonus on saving throws against
-spells or effects that deal hit point damage.
-
-**Standard:** Waving your _banner_ grants a number of allies equal to your Charisma modifier
-(minimum 1) within 60 feet the ability to attempt an Intimidate check to demoralize a foe as an
-**immediate action**.
-
-#### Knave Standard (Ex) {#knave-standard-2}
-
-**Passive:** An ally benefiting from the banner gains [sneak attack](ref/ability/sneak-attack) +1d6;
-this stacks with other sources of sneak attack.
-
-**Standard:** Waving your _banner_ grants a number of allies equal to your Charisma modifier
-(minimum 1) within 60 feet the ability to attempt a [feint](ref/rule/feint) against a foe they
-threaten as an **immediate action**.
-
-#### Stalwart Standard (Ex) {#stalwart-standard-2}
-
-**Passive:** An ally benefiting from the banner is treated as one size category larger for the
-purposes of determining which creatures can affect them with combat maneuvers.
-
-**Standard:** Waving your _banner_ grants each ally within 60 feet the ability to move up to 10 feet
-without provoking attacks of opportunities and ignoring
-[difficult terrain](ref/rule/terrain-and-obstacles) as an **immediate action**.
+At 14th level, the cavalier's banner becomes a rallying call to his allies. All allies within 60
+feet receive a +2 morale bonus on saving throws against charm and compulsion spells and effects. In
+addition, while his banner is displayed, the cavalier can spend a standard action to wave the banner
+through the air, granting all allies within 60 feet an additional saving throw against any one spell
+or effect that is targeting them. This save is made at the original DC. Spells and effects that do
+not allow saving throws are unaffected by this ability. An ally cannot benefit from this ability
+more than once per day.
 
 #### Master Tactician (Ex) {#master-tactician}
 
-**Ability:** You receive an additional teamwork feat as a bonus feat. You must meet the
-prerequisites for this feat. You can grant this feat to your allies using the _tactician_ ability.
-
-**Gained:** At 17th Level
-
-**Special:** Whenever you use the _tactician_ ability, you grant any two teamwork feats that you
-know. You can select from **any** of your teamwork feats, not just your bonus feats.
+At 17th level, the cavalier receives an additional teamwork feat as a bonus feat. He must meet the
+prerequisites for this feat. The cavalier can grant this feat to his allies using the tactician
+ability. Whenever the cavalier uses the tactician ability, he grants any two teamwork feats that he
+knows. He can select from any of his teamwork feats, not just his bonus feats.
 
 #### Supreme Charge (Ex) {#supreme-charge}
 
-**Gained:** At 20th Level
-
-**Passive:** Whenever you make a charge attack while mounted, you deal double the normal amount of
-damage (or triple if using a [lance](ref/eq-weapon/lance)). In addition, if you confirm a critical
-hit on a charge attack while mounted, the target is [stunned](ref/misc/stunned) for 1d4 rounds. A
-Will save reduces this to [staggered](ref/misc/staggered) for 1d4 rounds. The DC is equal to 10 +
-your base attack bonus.
+At 20th level, whenever the cavalier makes a charge attack while mounted, he deals double the normal
+amount of damage (or triple if using a [lance](ref/eq-weapon/lance)). In addition, if the cavalier
+confirms a critical hit on a charge attack while mounted, the target is [stunned](ref/misc/stunned)
+for 1d4 rounds. A Will save reduces this to [staggered](ref/misc/staggered) for 1d4 rounds. The DC
+is equal to 10 + the cavalier's base attack bonus.
 
 ### Alternate Capstones
 

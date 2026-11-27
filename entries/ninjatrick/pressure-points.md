@@ -8,21 +8,20 @@ provenance = [
 ]
 [[sources]]
 publication = "ultimate-combat"
-page = "15"
+page = "14-15"
 
 [fields]
 kind = "class_option"
 group = "ninja-trick"
+ability_type = "Su"
 +++
 
-**Pressure Points (Su)**
+Tricks marked with an asterisk (\*) add effects to a ninja’s sneak attack. Only one of these tricks
+can be applied to an individual attack and the decision must be made before the attack is made.
 
-**Flavor:** A ninja with this trick can strike at an opponent's vital _pressure points,_ causing
-weakness and intense pain.
-
-**Ability:** Whenever the ninja deals sneak attack damage, she also deals 1 point of
-[Strength or Dexterity damage](ref/rule/ability-damage-drain), decided by the ninja.
-
-**Special:** Unlike normal ability damage, this damage can be healed by a DC 15 Heal check. Each
-successful check heals 1 point of damage caused by this trick. A ninja with this trick receives a
-+10 insight bonus on this Heal check.
+A ninja with this trick can strike at an opponent's vital pressure points, causing weakness and
+intense pain. Whenever the ninja deals sneak attack damage, she also deals 1 point of
+[Strength or Dexterity damage](ref/rule/ability-damage-drain), decided by the ninja. Unlike normal
+ability damage, this damage can be healed by a DC 15 Heal check. Each successful check heals 1 point
+of damage caused by this trick. A ninja with this trick receives a +10 insight bonus on this Heal
+check.

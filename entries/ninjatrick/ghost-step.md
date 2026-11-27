@@ -13,14 +13,10 @@ page = "17"
 [fields]
 kind = "class_option"
 group = "ninja-trick"
+ability_type = "Su"
 +++
 
-**Ghost Step (Su)**
-
-**Flavor:** A ninja with this trick can pass through walls as if she were a ghost.
-
-**Swift:** Until the end of her turn, she can pass through a wall or other surface that is up to 5
-feet thick per level as if she were incorporeal. She must exit the solid material by the end of her
-turn.
-
-**Special:** Each use of this ability uses up 1 ki point.
+As a swift action, a ninja with this trick can pass through walls as if she were a ghost. Until the
+end of her turn, she can pass through a wall or other surface that is up to 5 feet thick per level
+as if she were incorporeal. She must exit the solid material by the end of her turn. Each use of
+this ability uses up 1 ki point.

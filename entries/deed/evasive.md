@@ -13,13 +13,10 @@ page = "12"
 [fields]
 kind = "class_option"
 group = "gunslinger-deed"
+ability_type = "Ex"
 +++
 
-**Evasive (Ex)**
-
-**Passive:** When the gunslinger has at least 1 grit point, she gains the benefit of the
+At 15th level, when the gunslinger has at least 1 grit point, she gains the benefit of the
 [evasion](ref/ability/evasion), [uncanny dodge](ref/ability/uncanny-dodge), and
 [improved uncanny dodge](ref/ability/improved-uncanny-dodge) rogue class features. She uses her
-gunslinger level as her rogue level for _improved uncanny dodge._
-
-**Prereq:** 15th-level gunslinger
+gunslinger level as her rogue level for improved uncanny dodge.

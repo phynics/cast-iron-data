@@ -8,16 +8,18 @@ provenance = [
 ]
 [[sources]]
 publication = "ultimate-combat"
-page = "70"
+page = "69-70"
 
 [fields]
 kind = "class_option"
 group = "rogue-talent"
+ability_type = "Ex"
 +++
 
-**Confounding Blades (Ex)**
+Talents marked with an asterisk (\*) add effects to a rogue’s sneak attack. Only one of these
+talents can be applied to an individual attack, and the decision must be made before the roll is
+made.
 
-**Ability:** When a rogue with this talent hits a creature with a melee weapon that deals sneak
-attack damage, her target cannot make attacks of opportunity for 1d4+1 rounds.
-
-**Prereq:** [Slow reactions](ref/talent/slow-reactions)
+When a rogue with this talent hits a creature with a melee weapon that deals sneak attack damage,
+her target cannot make attacks of opportunity for 1d4+1 rounds. The rogue must have the
+[slow reactions](ref/talent/slow-reactions) rogue talent before she can choose this talent.

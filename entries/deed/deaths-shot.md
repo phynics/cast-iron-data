@@ -13,16 +13,11 @@ page = "12"
 [fields]
 kind = "class_option"
 group = "gunslinger-deed"
+ability_type = "Ex"
 +++
 
-**Death's Shot (Ex)**
-
-**Ability:** When the gunslinger scores a critical hit, she can spend 1 grit point to deal normal
+At 19th level, when the gunslinger scores a critical hit, she can spend 1 grit point to deal normal
 damage, and the target must succeed at a Fortitude saving throw with a DC equal to 10 + 1/2 the
 gunslinger's level + the gunslinger's Dexterity modifier. On a failed saving throw, the target dies.
-This is a death attack.
-
-**Prereq:** 19th-level gunslinger
-
-**Special:** Performing this deed does not allow the gunslinger to regain grit from confirming a
-critical hit or making a killing blow.
+This is a death attack. Performing this deed does not allow the gunslinger to regain grit from
+confirming a critical hit or making a killing blow.

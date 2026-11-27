@@ -15,7 +15,4 @@ kind = "class_option"
 group = "ninja-trick"
 +++
 
-**Style Master**
-
-**Ability:** A ninja who selects this ninja trick gains a style feat that she qualifies for as a
-bonus feat.
+A ninja who selects this ninja trick gains a style feat that she qualifies for as a bonus feat.

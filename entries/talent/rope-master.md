@@ -13,11 +13,10 @@ page = "70"
 [fields]
 kind = "class_option"
 group = "rogue-talent"
+ability_type = "Ex"
 +++
 
-**Rope Master (Ex)**
-
-**Ability:** A rogue with this ability can move at her normal speed when using rope on a
-[Climb](ref/skill/climb) check, can take 10 when using [Acrobatics](ref/skill/acrobatics) to move
-over narrow surfaces even when in danger or distracted, and gains a +4 bonus when determining the DC
-to escape bonds when she ties up a creature.
+A rogue with this ability can move at her normal speed when using rope on a [Climb](ref/skill/climb)
+check, can take 10 when using [Acrobatics](ref/skill/acrobatics) to move over narrow surfaces even
+when in danger or distracted, and gains a +4 bonus when determining the DC to escape bonds when she
+ties up a creature.
