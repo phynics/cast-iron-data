@@ -595,6 +595,8 @@ def split_italic_list_links(text: str, links: list[tuple[str, str]]) -> str:
     labels = {re.sub(r"\\", "", l).strip().casefold() for l, _ in links}
     def repl(m: re.Match) -> str:
         items = [x.strip() for x in m.group(1).split(",")]
+        if len(items) < 2 or any(not item for item in items):
+            return m.group(0)
         if not any(x.casefold() in labels for x in items):
             return m.group(0)
         return ", ".join(I_OPEN + x + I_CLOSE for x in items)
@@ -793,6 +795,7 @@ class Book:
     vocab: set[str]
     sans: frozenset = frozenset()                        # the font ids of the sans-serif type that sets a table
     fams: dict = field(default_factory=dict)             # font id -> family, without the subset prefix
+    body_bottom: int = 1075                              # the bottom of the body of this book (above its page numbers): kept per book, so that reading one book after loading another is the same
 
 
 # Inner Sea Combat is a scan with an OCR text layer (ClearScan type): no bold or italic runs, and the OCR confuses a few
@@ -850,7 +853,7 @@ SUPERSCRIPT_MARK = re.compile(r"([a-z]*)(?:APG|UM|UC|UE|UI|ARG|ACG|OA|ISM|B[2-6]
 
 
 def load_book(xml_path: Path) -> Book:
-    global BODY_TOP
+    start = BODY_BOTTOM_FORCE[0] or 1075             # set by `configure_book` for the book: no value of the book read before
     xml = xml_path.read_text(encoding="utf-8")
     fonts = {fid: int(sz) for fid, sz, _fam, _col in FONT_EL.findall(xml)}
     pages: dict[int, list] = {}
@@ -891,7 +894,7 @@ def load_book(xml_path: Path) -> Book:
                 # a mark that carries the blank of the word space after it ("Performance" + "APG " + "feat") keeps it
                 items.append((top, left, int(font), SUPERSCRIPT + (" " if raw != raw.rstrip() else ""), int(_w)))
                 continue
-            if top > BODY_TOP[1] and plain.isdigit():
+            if top > start and plain.isdigit():
                 printed[num] = int(plain)
             items.append((top, left, int(font), raw, int(_w)))
             for w in re.findall(r"[A-Za-z]+(?:-[A-Za-z]+)*", plain):
@@ -904,14 +907,13 @@ def load_book(xml_path: Path) -> Book:
     # and Ultimate Combat, 1090 in Ultimate Intrigue (its body runs lower)
     foot = sorted(top for chunk_items in pages.values() for top, _l, _f, raw, _w in chunk_items
                   if top > 1060 and html.unescape(re.sub(r"</?[bi]>", "", raw)).strip().isdigit())
-    if foot:
-        BODY_TOP = (BODY_TOP[0], foot[len(foot) // 2] - 9)
+    bottom = foot[len(foot) // 2] - 9 if foot else start
     if BODY_BOTTOM_FORCE[0]:
-        BODY_TOP = (BODY_TOP[0], BODY_BOTTOM_FORCE[0])
+        bottom = BODY_BOTTOM_FORCE[0]
     vocab = {w for w, _ in words.items()}
     sans = frozenset(fid for fid, _sz, fam, _col in FONT_EL.findall(xml) if "Sans" in fam)
     fams = {fid: re.sub(r"^[A-Z]{6}\+", "", fam) for fid, _sz, fam, _col in FONT_EL.findall(xml)}
-    return Book(fonts, pages, printed, vocab, sans, fams)
+    return Book(fonts, pages, printed, vocab, sans, fams, bottom)
 
 
 # The Campaign Setting books set the right column of a page 28 units further left on some pages than on others (Inner Sea Intrigue
@@ -932,7 +934,7 @@ def page_geometry(book: Book, num: int) -> tuple[int, tuple[int, int]]:
         return COL_SPLIT, COL_LEFT
     count: Counter = Counter()
     for top, left, font, raw, width in book.pages.get(num, []):
-        if 12 <= book.fonts[str(font)] <= 14 and BODY_TOP[0] <= top <= BODY_TOP[1] and left > 90:
+        if 12 <= book.fonts[str(font)] <= 14 and BODY_TOP[0] <= top <= book.body_bottom and left > 90:
             count[left] += 1
     lefts = [(n, x) for x, n in count.items() if x < 360]
     rights = [(n, x) for x, n in count.items() if 360 <= x < OUTER_TAB["max"]]       # an Adventure Path volume: the lines of the contents tab (x 790 and more) are not a column
@@ -980,7 +982,7 @@ def page_lines(book: Book, num: int) -> list[dict]:
             continue        # the chapter tab of the Construct Handbook (INTRODUCTION / CRAFTING CONSTRUCTS / ARCHETYPES ...), set in 16-point type
         if MARGIN_CAPTIONS["on"] and left < col_left[0] - 20 and book.fonts[str(font)] >= 16:
             continue        # the caption of an illustration, set in the margin beside the column (Inner Sea Magic: "Crypt Breaker" in large type)
-        if BODY_TOP[0] <= top <= BODY_TOP[1] or (CHAPTER_TITLES["on"] and 40 <= top < BODY_TOP[0] and book.fonts[str(font)] >= 40):
+        if BODY_TOP[0] <= top <= book.body_bottom or (CHAPTER_TITLES["on"] and 40 <= top < BODY_TOP[0] and book.fonts[str(font)] >= 40):
             by_col[0 if left < split else 1].append((top, left, font, raw, width))
     lines = []
     for col in (0, 1):
@@ -5558,7 +5560,7 @@ def configure_book(book: str) -> None:
     # a title in small capitals and a chapter title can stand higher than the body of the other books (Heroes of the High Court p. 29: capital at 86; Martial Arts Handbook p. 18: chapter title at 70; the running heads stand at 13-29)
     global BODY_TOP
     BODY_BOTTOM_FORCE[0] = BODY_BOTTOM_BOOKS.get(book, 0)
-    BODY_TOP = (BODY_CAP_TOP if book in HIGH_TITLE_BOOKS else 88, BODY_BOTTOM_BOOKS.get(book, BODY_TOP[1]))
+    BODY_TOP = (BODY_CAP_TOP if book in HIGH_TITLE_BOOKS else 88, BODY_BOTTOM_BOOKS.get(book, 1075))       # the bottom of a loaded book is `Book.body_bottom`
 
 
 def run_compare(args) -> int:
@@ -6518,6 +6520,12 @@ def self_test() -> int:
     eq(split_italic_list_links(_il, [("remove disease", "ref/spell/remove-disease")]),
        I_OPEN + "owl's wisdom" + I_CLOSE + ", " + I_OPEN + "remove disease" + I_CLOSE, "an italic list is split for a link")
     eq(split_italic_list_links(_il, [("bless", "ref/spell/bless")]), _il, "an italic list that holds no link text stays whole")
+    _trailing_comma = I_OPEN + "modify memory," + I_CLOSE
+    eq(split_italic_list_links(_trailing_comma, [("modify memory", "ref/spell/modify-memory")]), _trailing_comma,
+       "a one-item italic phrase ending in a comma stays whole when its phrase is linked")
+    _one_item = I_OPEN + "modify memory" + I_CLOSE
+    eq(split_italic_list_links(_one_item, [("modify memory", "ref/spell/modify-memory")]), _one_item,
+       "a one-item italic phrase without a comma stays whole")
     LINK_CTX["title"] = "Mirror Witch (Witch Archetype)"
     eq(apply_links("a mirror witch uses a mirror (worth 10 gp)", [("mirror", "ref/eq-misc/mirror")])[0], "a mirror witch uses a [mirror](ref/eq-misc/mirror) (worth 10 gp)", "a link skips the archetype's own name")
     eq(apply_links("%scause fear%s, then %sfear%s" % (I_OPEN, I_CLOSE, I_OPEN, I_CLOSE), [("fear", "ref/spell/fear")])[0], "%scause fear%s, then %s[fear](ref/spell/fear)%s" % (I_OPEN, I_CLOSE, I_OPEN, I_CLOSE), "a link skips a longer italic spell name")
@@ -7410,6 +7418,26 @@ def self_test() -> int:
        "Horror Realms: no blank indent, the two plain headings of the Accursed Companions stay")
     configure_book("ultimate-magic")
     eq((BLANK_INDENT["on"], OUTER_TAB["on"], STAYS_EXTRA["set"]), (False, False, frozenset()), "the other books keep their reading")
+    # a book keeps its own body bottom: reading one book after loading another is the same in either order (the ledgers of a compare no longer depend on which book
+    # was loaded last: `other()` of the class-option script loads the second source of an entry while the first is read)
+    import tempfile as _tf
+    def synthetic(footer: int) -> str:
+        body = "".join(f'<text top="{200 + 20 * i}" left="100" width="300" height="13" font="0">Line {i} of the body text here.</text>' for i in range(5))
+        low = '<text top="1065" left="100" width="300" height="13" font="0">A line low on the page.</text>'
+        foot = f'<text top="{footer}" left="300" width="20" height="13" font="0">7</text>' if footer else ""
+        return f'<pdf2xml><fontspec id="0" size="13" family="ABCDEF+Body" color="#000000"/><page number="1">{body}{low}{foot}</page></pdf2xml>'
+    with _tf.TemporaryDirectory() as td:
+        pa, pb = Path(td) / "a.xml", Path(td) / "b.xml"
+        pa.write_text(synthetic(1068), encoding="utf-8")        # page numbers at 1068: the body ends at 1059, the low line is outside it
+        pb.write_text(synthetic(0), encoding="utf-8")           # no page numbers: the body ends at 1075, the low line is in it
+        configure_book("advanced-players-guide")
+        results = []
+        for order in ((pa, pb), (pb, pa)):
+            loaded = {pth: load_book(pth) for pth in order}
+            results.append(tuple("low on the page" in " ".join(x.plain() for x in read_blocks(loaded[pth], 1, 1)) for pth in (pa, pb)))
+        eq(results, [(False, True), (False, True)], "a book keeps its own body bottom whichever book was loaded after it")
+        eq((load_book(pa).body_bottom, load_book(pb).body_bottom), (1059, 1075), "the body bottom is a field of the book")
+    configure_book("ultimate-magic")
     print(f"self-test: {ok} checks passed")
     return 0
 
