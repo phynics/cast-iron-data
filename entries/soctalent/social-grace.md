@@ -13,7 +13,6 @@ page = "12"
 [fields]
 kind = "class_option"
 group = "social-talent"
-ability_type = "Ex"
 +++
 
 The vigilante selects any one Intelligence-, Wisdom-, or Charisma-based skill other than Perception

@@ -28,7 +28,7 @@ neighborhood in a larger settlement. He must spend at least 4 hours each day soc
 contacts. After spending 1 week doing this, whenever he is in his social identity, all NPCs in the
 community have a starting attitude toward him that is one category better, as long as each person's
 [initial attitude](ref/skill/diplomacy) would have at least been indifferent (see the Diplomacy
-skill description on pages 93– 94 of the _Pathfinder RPG Core Rulebook_ for more information).
+skill description on pages 93–94 of the _Pathfinder RPG Core Rulebook_ for more information).
 
 While he gains renown in an area using his social identity, he also spreads rumors and tales about
 his vigilante identity. Once he has gained renown in a community, he gains a +4 circumstance bonus

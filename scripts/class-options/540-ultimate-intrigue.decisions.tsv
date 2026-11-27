@@ -1,12 +1,18 @@
 entry	anchor	decision	note
+ref/inquisition/crime	criminal-minds	hold	multi-power: separate reviewed batch
+ref/inquisition/crime	thief-s-soul	hold	multi-power: separate reviewed batch
+ref/inquisition/secrets	closed-book	hold	multi-power: separate reviewed batch
+ref/inquisition/secrets	detect-secrets	hold	multi-power: separate reviewed batch
 ref/mystery/intrigue	assumed-form	hold	multi-power: separate reviewed batch
 ref/mystery/intrigue	class-skills	hold	multi-power: separate reviewed batch
 ref/mystery/intrigue	desire-sight	hold	multi-power: separate reviewed batch
 ref/mystery/intrigue	forgotten-presence	hold	multi-power: separate reviewed batch
+ref/mystery/intrigue	gossip-guru	hold	multi-power: separate reviewed batch
 ref/mystery/intrigue	hidden-magic	hold	multi-power: separate reviewed batch
 ref/mystery/intrigue	mirrored-retreat	hold	multi-power: separate reviewed batch
 ref/mystery/intrigue	poetic-vengeance	hold	multi-power: separate reviewed batch
 ref/mystery/intrigue	revelations	hold	multi-power: separate reviewed batch
+ref/mystery/intrigue	sec-final-revelation	hold	multi-power: separate reviewed batch
 ref/mystery/intrigue	tracer-touch	hold	multi-power: separate reviewed batch
 ref/mystery/intrigue	veiled-venom	hold	multi-power: separate reviewed batch
 ref/mystery/intrigue	whispered-glimpses	hold	multi-power: separate reviewed batch
@@ -16,12 +22,14 @@ ref/soctalent/social-grace	social-grace	print	Ultimate Intrigue p. 12: the 5th-l
 ref/talent/stalker-talent	stalker-talent	hold	Ultimate Intrigue p. 44: print restricts the talent to asterisk-marked options; the corpus says hidden-strike talents generally, a rule-word difference.
 ref/vigtalent/blind-spot	blind-spot	print	Ultimate Intrigue p. 13: the printed prerequisite is retained under ruling 60.
 ref/vigtalent/combat-skill	combat-skill	print	Ultimate Intrigue p. 14: the printed prerequisite is retained under ruling 60.
-ref/vigtalent/environmental-weapon	environmental-weapon	hold	Ultimate Intrigue p. 14: the printed head is “Environmental Weapon”; the entry title is “Environment Weapon”. Keep the title mismatch held.
+ref/vigtalent/environmental-weapon	environment-weapon	print	Ultimate Intrigue p. 14: the printed 5th-, 10th-, 15th-, and 20th-level progression equals the corpus Repeat row; print wording follows ruling 8.
 ref/vigtalent/evasive	evasive	print	Ultimate Intrigue p. 14: the printed prerequisite is retained under ruling 60.
 ref/vigtalent/fist-of-the-avenger	fist-of-the-avenger	print	Ultimate Intrigue p. 14: the printed prerequisite is retained under ruling 60.
 ref/vigtalent/foe-collision	foe-collision	print	Ultimate Intrigue p. 13-14: the printed prerequisite is retained under ruling 60.
 ref/vigtalent/heavy-training	heavy-training	print	Ultimate Intrigue p. 14: the printed prerequisite is retained under ruling 60.
 ref/vigtalent/hide-in-plain-sight	hide-in-plain-sight	print	Ultimate Intrigue p. 14: the printed prerequisite is retained under ruling 60.
+ref/vigtalent/inspired-vigilante	inspiration	hold	multi-power: separate reviewed batch
+ref/vigtalent/inspired-vigilante	inspired-vigilante	hold	multi-power: separate reviewed batch
 ref/vigtalent/inspired-vigilante	opening	hold	multi-power: separate reviewed batch
 ref/vigtalent/leave-an-opening	leave-an-opening	print	Ultimate Intrigue p. 13-14: the printed prerequisite is retained under ruling 60.
 ref/vigtalent/mad-rush	mad-rush	print	Ultimate Intrigue p. 15: the printed prerequisite is retained under ruling 60.

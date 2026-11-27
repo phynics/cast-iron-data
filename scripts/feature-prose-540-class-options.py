@@ -78,6 +78,7 @@ fp = _load("feature_prose_540", "feature-prose-540.py")
 rw = _load("rewrite_class_option_powers", "rewrite-class-option-powers.py")
 fp.LOOSE_ITEMS["on"] = True      # ruling 60: the loose reading of a prerequisite item (every word, any order, a sentence with "must" or "only available")
 fp.IMPORT_HEAD_FIXES[("ref/vigtalent/expose-weaknesses", "Expose Weaknesses (Ex)")] = "Expose Weakness (Ex)"  # print p. 14; the entry title agrees with print
+fp.IMPORT_HEAD_FIXES[("ref/vigtalent/environmental-weapon", "Environmental Weapon (Ex)")] = "Environment Weapon (Ex)"  # print p. 14; the import head has an extra syllable
 
 HEADER = ["entry", "feature", "anchor", "shape", "section", "book", "page", "level_import", "level", "by", "ability_tag", "verdict",
           "reviewed_537", "status", "links_lost", "print_sha256", "span_sha256", "note"]
@@ -466,8 +467,9 @@ def link_intrigue_class_prerequisites(text: str) -> str:
 
 
 def repair_intrigue_italic_link_boundary(text: str) -> str:
-    """Keep the printed comma inside an italic spell name after its link is placed (Another Day, p. 13)."""
-    return re.sub(r"(\]\([^)]*\))_, __ (a caster level check)", r"\1,_ \2", text)
+    """Repair the two empty emphasis artifacts left at linked italic commas in this book."""
+    text = re.sub(r"(\]\([^)]*\))_, __ (a caster level check)", r"\1,_ \2", text)
+    return re.sub(r"(\]\([^)]*\))_, __ (and he can say it)", r"\1_, \2", text)
 
 
 STOP_TITLES: set[str] = set()          # squash of the title of every class option: another one ends a section
@@ -674,6 +676,20 @@ def apply_multi_decisions(rows: list[dict], entry_id: str) -> list[dict]:
 def print_decision_resolves(decision, status: str, source_status: str, problems: list[str], hard: bool) -> bool:
     """A print decision resolves a comparison hold only when no independent blocker remains."""
     return bool(decision and decision[0] == "print" and status == "hold" and (source_status in SETTLED or source_status == "hold") and not problems and not hard)
+
+
+RULE_8_PRINTED_PROGRESSIONS = {
+    ("ref/vigtalent/environmental-weapon", "environment-weapon"):
+        ("At 5th, 10th, 15th, and 20th levels, the vigilante can select an additional type of terrain.",
+         "At and 20th levels, the vigilante can select an additional type of terrain."),
+}
+
+
+def ruling8_progression_decision(book: str, entry_id: str, anchor: str, decision, missing: list[str], print_text: str) -> bool:
+    """An explicit ruling-8 decision can settle only the reviewed printed progression sentence."""
+    expected = RULE_8_PRINTED_PROGRESSIONS.get((entry_id, anchor))
+    return bool(book == "ultimate-intrigue" and expected and decision and decision[0] == "print"
+                and "ruling 8" in decision[1].lower() and missing == [expected[1]] and expected[0] in print_text)
 
 
 def headings_as_names(body: str) -> str:
@@ -1027,7 +1043,9 @@ def compare_one(e, book, bk, other=None) -> list[dict]:
         lost_s = print_lost(raw_text.get(fp.namekey(fp.head_text(r["head"])), ""), printed) if r.get("head") else []
         if lost_s:
             notes.append(f"print sentences that the written text lacks ({len(lost_s)}): " + " | ".join(x[:60] for x in lost_s[:2]))
-            status, hard = "hold", True
+            status = "hold"
+            if not ruling8_progression_decision(book, e.id, anchor, DECISIONS.get((e.id, anchor)), lost_s, printed):
+                hard = True
         if problems:
             notes += problems
             status = "hold"
@@ -1836,9 +1854,9 @@ def self_test() -> int:
     eq(counts_for_duplicate_check({"book": "ultimate-magic", "shape": "section", "status": "hold", "note": "window is not anchored"}), True, "other books keep their prior duplicate-window behavior")
     eq(counts_for_duplicate_check({"shape": "single", "status": "hold", "note": "window is not anchored"}), True, "a single-power hold still participates in duplicate checks")
     eq(fp.import_name("ref/vigtalent/expose-weaknesses", "Expose Weaknesses (Ex)"), "Expose Weakness (Ex)", "Ultimate Intrigue p. 14: printed singular head matches its entry title")
-    eq(fp.import_name("ref/vigtalent/environmental-weapon", "Environmental Weapon (Ex)"), "Environmental Weapon (Ex)", "an unrelated printed title difference is not rewritten")
+    eq(fp.import_name("ref/vigtalent/environmental-weapon", "Environmental Weapon (Ex)"), "Environment Weapon (Ex)", "Ultimate Intrigue p. 14: the misspelled import head matches the entry title")
     eq(single_name_matches_title("ref/vigtalent/expose-weaknesses", "Expose Weakness", "Expose Weaknesses (Ex)"), True, "a printed singular head can match the exact entry title through its import-head correction")
-    eq(single_name_matches_title("ref/vigtalent/environmental-weapon", "Environment Weapon", "Environmental Weapon (Ex)"), False, "an unrelated import-head difference still holds")
+    eq(single_name_matches_title("ref/vigtalent/environmental-weapon", "Environment Weapon", fp.import_name("ref/vigtalent/environmental-weapon", "Environmental Weapon (Ex)")), True, "Ultimate Intrigue p. 14: the printed title matches after the import-head correction")
     eq(INVERTED_HEAD.match("Beast Totem, Greater (Su)").groups(), ("Beast Totem", "Greater", " (Su)"), "the inverted head is read")
     eq(INVERTED_HEAD.match("Pool Strike, Arcing (Su)").groups(), ("Pool Strike", "Arcing", " (Su)"), "an inverted Pool Strike head is read")
     eq(inverted("Arcing Pool Strike (Su)"), "Pool Strike, Arcing (Su)", "the title's variant moves behind its base name")
@@ -1882,6 +1900,17 @@ def self_test() -> int:
        "a print decision cannot clear an independent hard blocker")
     eq(print_decision_resolves(("print", "printed tag"), "hold", "hold", ["number difference"], False), False,
        "a print decision cannot clear a number difference")
+    env_decision = ("print", "Ultimate Intrigue p. 14: progression values agree under ruling 8")
+    env_sentence = "At 5th, 10th, 15th, and 20th levels, the vigilante can select an additional type of terrain."
+    env_lost = "At and 20th levels, the vigilante can select an additional type of terrain."
+    eq(ruling8_progression_decision("ultimate-intrigue", "ref/vigtalent/environmental-weapon", "environment-weapon", env_decision, [env_lost], env_sentence), True,
+       "Ultimate Intrigue p. 14: ruling 8 settles the reviewed Repeat progression")
+    eq(ruling8_progression_decision("ultimate-intrigue", "ref/vigtalent/environmental-weapon", "environment-weapon", env_decision, [env_lost.replace("20th", "19th")], env_sentence), False,
+       "ruling 8 decision does not clear a changed progression level")
+    eq(ruling8_progression_decision("ultimate-intrigue", "ref/vigtalent/environmental-weapon", "environment-weapon", env_decision, [env_lost], env_sentence.replace("20th", "19th")), False,
+       "ruling 8 decision does not clear when the printed sentence changed")
+    eq(ruling8_progression_decision("ultimate-magic", "ref/vigtalent/environmental-weapon", "environment-weapon", env_decision, [env_lost], env_sentence), False,
+       "the Ultimate Intrigue progression decision does not affect another book")
     DECISIONS.clear()
     eq((title_as_head(fp.Para("title", [("Table 2\u20139: Eidolon Base Statistics", True, False)], 59, 0, 18)).runs[0][1],
         title_as_head(fp.Para("title", [("2-Point Evolutions", True, False)], 61, 0, 18)).runs[0][1]), (False, True),
@@ -2186,6 +2215,12 @@ def self_test() -> int:
     eq(repair_intrigue_italic_link_boundary("_[deathwatch](ref/spell/deathwatch)_, __ not a caster level check"),
        "_[deathwatch](ref/spell/deathwatch)_, __ not a caster level check",
        "Ultimate Intrigue: italic repair does not rewrite unrelated text")
+    eq(repair_intrigue_italic_link_boundary("_[discern lies](ref/spell/discern-lies)_, __ and he can say it"),
+       "_[discern lies](ref/spell/discern-lies)_, and he can say it",
+       "Ultimate Intrigue p. 13: linked italic punctuation has no empty bold run")
+    eq(repair_intrigue_italic_link_boundary("_[discern lies](ref/spell/discern-lies)_, __ and she can say it"),
+       "_[discern lies](ref/spell/discern-lies)_, __ and she can say it",
+       "Ultimate Intrigue: italic repair leaves a near miss unchanged")
     for line in bad:
         print("FAIL", line)
     eq(print_lost("Whenever she uses it, she can invoke true judgment on a foe. Regardless of whether the save is made, the target is immune for 24 hours.", "Whenever she uses it, she can invoke true judgment on a foe."),

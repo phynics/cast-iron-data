@@ -1,21 +1,33 @@
 #!/usr/bin/env python3
-"""Check that written class-option bodies and their print proposals contain the same sentences."""
+"""Check written class-option sentences directly against the printed PDF text."""
 
 from __future__ import annotations
 
 import argparse
-import collections
+import csv
+import importlib.util
 import re
 import sys
 import tomllib
+import unicodedata
 from pathlib import Path
+
+
+HERE = Path(__file__).resolve().parent
+
+
+def load(name: str, path: Path):
+    spec = importlib.util.spec_from_file_location(name, path)
+    module = importlib.util.module_from_spec(spec)
+    sys.modules[name] = module
+    spec.loader.exec_module(module)
+    return module
 
 
 def plain(text: str) -> str:
     text = re.sub(r"\[([^\]]+)\]\([^)]+\)", r"\1", text)
     text = re.sub(r"\\([*])", r"\1", text)
-    text = text.replace("**", "").replace("_", "")
-    return " ".join(text.split()).casefold()
+    return " ".join(text.replace("**", "").replace("_", "").split()).casefold()
 
 
 def sentences(text: str) -> list[str]:
@@ -23,45 +35,65 @@ def sentences(text: str) -> list[str]:
     return [part.strip() for part in re.split(r"(?<=[.!?])\s+(?=[a-z0-9])", text) if part.strip()]
 
 
-def is_covered(sentence: str, body: str) -> bool:
-    if sentence in body:
-        return True
-    return any(sentences_match(sentence, candidate) for candidate in sentences(body))
-
-
-LIGATURES = str.maketrans({
-    "æ": "ae", "œ": "oe", "ﬁ": "fi", "ﬂ": "fl", "ﬀ": "ff", "ﬃ": "ffi", "ﬄ": "ffl",
-})
+NEGATIONS = re.compile(r"(?<![\w])(?:not|no|never|cannot)\b|(?<=\w)n['’]t\b", re.I)
 DIGITS = re.compile(r"\d+")
-NEGATIONS = re.compile(r"(?<![\w])(?:not|no|never|cannot)\b|(?<=\w)n['’]t\b")
+WORD = re.compile(r"[a-z]+(?:['’][a-z]+)?|\d+", re.I)
+LIGATURES = str.maketrans({"æ": "ae", "œ": "oe", "ﬁ": "fi", "ﬂ": "fl", "ﬀ": "ff", "ﬃ": "ffi", "ﬄ": "ffl"})
 
 
-def letter_form(text: str) -> str:
-    text = plain(text).translate(LIGATURES).replace("’", "'")
-    return "".join(ch for ch in text if ch.isalpha())
+def words(text: str) -> list[str]:
+    normalized = unicodedata.normalize("NFKD", plain(text)).translate(LIGATURES).replace("’", "'")
+    return [word.casefold() for word in WORD.findall(normalized)]
 
 
-def edit_distance_at_most_two(left: str, right: str) -> bool:
-    if abs(len(left) - len(right)) > 2:
+def edge_edit_at_most_two(left: str, right: str) -> bool:
+    """Allow up to two changed letters at one edge, with an unchanged core."""
+    if min(len(left), len(right)) < 6:
         return False
-    previous = list(range(len(right) + 1))
-    for i, a in enumerate(left, 1):
-        current = [i]
-        for j, b in enumerate(right, 1):
-            current.append(min(current[-1] + 1, previous[j] + 1, previous[j - 1] + (a != b)))
-        if min(current) > 2:
-            return False
-        previous = current
-    return previous[-1] <= 2
+    for cut_left in range(3):
+        for cut_right in range(3):
+            if cut_left + cut_right > 0 and left[cut_left:] == right[cut_right:]:
+                return True
+    for cut_left in range(3):
+        for cut_right in range(3):
+            if cut_left + cut_right > 0 and left[:len(left) - cut_left or None] == right[:len(right) - cut_right or None]:
+                return True
+    return False
 
 
 def sentences_match(left: str, right: str) -> bool:
     left, right = plain(left), plain(right)
     if DIGITS.findall(left) != DIGITS.findall(right):
         return False
-    if collections.Counter(NEGATIONS.findall(left)) != collections.Counter(NEGATIONS.findall(right)):
+    if len(NEGATIONS.findall(left)) != len(NEGATIONS.findall(right)):
         return False
-    return edit_distance_at_most_two(letter_form(left), letter_form(right))
+    a, b = words(left), words(right)
+    if len(a) != len(b):
+        return False
+    differences = [(x, y) for x, y in zip(a, b) if x != y]
+    if not differences:
+        return True
+    return len(differences) == 1 and edge_edit_at_most_two(*differences[0])
+
+
+def is_covered(sentence: str, body: str, errata: tuple[str, str] | None = None) -> tuple[bool, bool]:
+    candidates = sentences(body)
+    if any(sentences_match(sentence, candidate) for candidate in candidates):
+        return True, False
+    if errata:
+        printed, corrected = errata
+        printed_plain, corrected_plain = plain(printed), plain(corrected)
+        sentence_plain = plain(sentence)
+        candidates_plain = [plain(candidate) for candidate in candidates]
+        if printed_plain in sentence_plain and any(corrected_plain in candidate for candidate in candidates_plain):
+            return True, True
+        if corrected_plain in sentence_plain and any(printed_plain in candidate for candidate in candidates_plain):
+            return True, True
+    return False, False
+
+
+def tags_match(printed: str, ledger: str, entry: str) -> bool:
+    return printed == ledger == entry
 
 
 def source_page(front: str, book: str) -> str:
@@ -69,33 +101,100 @@ def source_page(front: str, book: str) -> str:
     return match.group(1) if match else ""
 
 
+def extract_print(corpus: Path, book: str, books_dir: Path, cache_dir: Path) -> tuple[dict[tuple[str, str], tuple[str, str]], object, object]:
+    """Return (entry, anchor) -> direct PDF text and printed head, never proposal text."""
+    options = load("class_options_for_sentence_audit", HERE.parent / "feature-prose-540-class-options.py")
+    fp = options.fp
+    fp.configure_book(book)
+    title = fp.publication_title(corpus, book)
+    pdf = fp.find_pdf(books_dir, title)
+    if not pdf:
+        raise SystemExit(f"no copy of {title!r} under {books_dir}")
+    source = fp.load_book(fp.book_xml(pdf, cache_dir))
+    ledger_path = HERE / f"540-{book}.tsv"
+    with ledger_path.open(encoding="utf-8", newline="") as f:
+        ledger = list(csv.DictReader(f, delimiter="\t"))
+    written = [row for row in ledger if row["status"] == "written" and row["shape"] == "single"]
+    options.install_split([row["feature"] for row in ledger])
+    entries = {entry.id: entry for entry in options.load_class_options(corpus, book)}
+
+    intro_specs = options.INTRO_MARK_SPECS.get(book, {})
+    for family, (marker, prefer) in intro_specs.items():
+        intro = options.IntroMarkMap(source, marker, prefer)
+        options.INTRO_MARK_TEXT[(book, family)] = (intro.text, intro.page)
+
+    texts: dict[tuple[str, str], tuple[str, str]] = {}
+    for row in written:
+        entry = entries.get(row["entry"])
+        page_numbers = [int(n) for n in re.findall(r"\d+", row["page"])]
+        if entry is None or not page_numbers:
+            continue
+        page, last_page = page_numbers[0], page_numbers[-1]
+        blocks = fp.read_blocks(source, max(1, page + fp.PAGE_OFFSET[0] - 1),
+                                min(last_page + 2 + fp.PAGE_OFFSET[0], max(source.pages)))
+        section = [fp.Para("title", [(entry.title, True, False)], page, 0, 20)] + blocks
+        _, printed = fp.split_print(section, [r["feature"] for r in ledger] + fp.ITALIC_HEADS.get(entry.id, []))
+        wanted = fp.import_name(entry.id, row["feature"])
+        wanted_key = fp.namekey(fp.ABILITY_TAG.sub("", wanted))
+        matches = [feature for feature in printed
+                   if fp.namekey(fp.ABILITY_TAG.sub("", fp.head_text(feature.head))) == wanted_key]
+        if len(matches) != 1:
+            continue
+        feature = matches[0]
+        links = re.findall(r"\[([^\]]+)\]\(([^)]+)\)", entry.body)
+        vocab = source.vocab | {w.lower() for w in re.findall(r"[A-Za-z]+(?:-[A-Za-z]+)*", entry.body)}
+        text, _, _ = fp.print_md(feature, links, vocab, entry.id)
+        family = entry.id.split("/")[1]
+        if row["note"] and "opens with print's sentence about the mark" in row["note"]:
+            intro = options.marked_head_intro(book, entry.id)
+            if intro:
+                text = intro + "\n\n" + text
+        texts[(entry.id, row["anchor"])] = (text, fp.head_text(feature.head))
+    return texts, entries, options
+
+
 def self_test() -> int:
-    checks = [
+    checks = 0
+
+    def eq(actual, expected, label):
+        nonlocal checks
+        checks += 1
+        if actual != expected:
+            print(f"FAIL: {label}: {actual!r} != {expected!r}")
+            return False
+        return True
+
+    good = [
         ("A linked [rule](ref/rule) applies.", ["a linked rule applies."]),
         ("A first sentence. A second sentence!", ["a first sentence.", "a second sentence!"]),
-        ("An unlinked sentence.", ["an unlinked sentence."]),
+        ("The ﬁrst-level effect deals +2 damage.", "The first-level effect deals +2 damage."),
     ]
-    for source, want in checks:
-        got = sentences(source)
-        if got != want:
-            print(f"FAIL: {source!r}: {got!r} != {want!r}")
+    for source, expected in good:
+        if isinstance(expected, list):
+            if not eq(sentences(source), expected, "sentence split"):
+                return 1
+        else:
+            if not eq(sentences_match(source, expected), True, "ligature equivalence"):
+                return 1
+    for left, right, label, expected in [
+        ("The effect deals +2 damage.", "The effect deals +3 damage.", "changed number", False),
+        ("The effect does not apply.", "The effect does apply.", "dropped negation", False),
+        ("His ability is useful.", "Her ability is useful.", "pronoun substitution", False),
+        ("The familiar can attack.", "The familar can attack.", "interior letter edit", False),
+        ("The familiar can attack.", "The familiarS can attack.", "one suffix letter", True),
+    ]:
+        if not eq(sentences_match(left, right), expected, label):
             return 1
-    if is_covered("an absent sentence.", "a nearby sentence."):
-        print("FAIL: a near miss counted as covered")
+    if not eq(tags_match("", "Ex", ""), False, "imported tag absent from print" ):
         return 1
-    if is_covered("an entry-only sentence.", "the print proposal"):
-        print("FAIL: an entry-only sentence counted as present in print")
+    if not eq(tags_match("Su", "Su", "Su"), True, "printed tag agrees across print, ledger, and entry"):
         return 1
-    if sentences_match("The effect deals +2 damage.", "The effect deals +3 damage."):
-        print("FAIL: a changed digit counted as a match")
+    if not eq(is_covered("an entry-only sentence.", "a printed sentence."), (False, False), "entry-only sentence is absent from print"):
         return 1
-    if sentences_match("The effect does not apply.", "The effect does apply."):
-        print("FAIL: a dropped negation counted as a match")
+    if not eq(is_covered("The text has an extra word.", "The text has a word.", ("extra word", "word")),
+              (True, True), "a recorded erratum explains a certain print correction"):
         return 1
-    if not sentences_match("The ﬁrst-level effect deals +2 damage.", "The first level effect deals +2 damage."):
-        print("FAIL: harmless ligature and spacing differences did not match")
-        return 1
-    print(f"self-test: {len(checks) + 5} checks passed")
+    print(f"self-test: {checks} checks passed")
     return 0
 
 
@@ -103,59 +202,93 @@ def main() -> int:
     ap = argparse.ArgumentParser(description=__doc__)
     ap.add_argument("corpus", type=Path, nargs="?", default=Path("."))
     ap.add_argument("book", nargs="?", default="")
+    ap.add_argument("--books", type=Path, help="directory containing the source PDFs")
+    ap.add_argument("--cache", type=Path, help="PDF text cache directory")
     ap.add_argument("--self-test", action="store_true")
     args = ap.parse_args()
     if args.self_test:
         return self_test()
+    if not (args.book and args.books and args.cache):
+        ap.error("book, --books, and --cache are required")
 
-    base = args.corpus / "scripts/class-options"
-    rows = (base / f"540-{args.book}.tsv").read_text(encoding="utf-8").splitlines()
-    header = rows[0].split("\t")
-    ledger = [dict(zip(header, row.split("\t"))) for row in rows[1:] if row.strip()]
-    proposals = tomllib.loads((base / f"540-{args.book}.proposals.toml").read_text(encoding="utf-8"))
-    written = [r for r in ledger if r["status"] == "written" and r["shape"] == "single"]
+    rows = list(csv.DictReader((args.corpus / "scripts/class-options" / f"540-{args.book}.tsv").open(encoding="utf-8"), delimiter="\t"))
     entries = {}
     pages = {}
+    fronts = {}
     for path in (args.corpus / "entries").rglob("*.md"):
         text = path.read_text(encoding="utf-8")
-        body = text.split("+++\n", 2)
-        if len(body) == 3:
-            match = re.search(r'^id = "([^"]+)"$', body[1], re.M)
-            if match:
-                entries[match.group(1)] = plain(body[2])
-                pages[match.group(1)] = source_page(body[1], args.book)
-    print_found = print_total = entry_found = entry_total = 0
-    page_matches = 0
-    exceptions = []
-    for row in written:
-        try:
-            body = entries[row["entry"]]
-            text = next(f["print"] for f in proposals["entry"]
-                        if f["id"] == row["entry"] and f["anchor"] == row["anchor"])
-        except (StopIteration, KeyError):
-            exceptions.append(f"{row['entry']}#{row['anchor']}: missing entry or proposal")
+        parts = text.split("+++\n", 2)
+        if len(parts) != 3:
             continue
-        if row.get("page") and pages.get(row["entry"]) == row["page"]:
+        match = re.search(r'^id = "([^"]+)"$', parts[1], re.M)
+        if match:
+            entries[match.group(1)] = plain(parts[2])
+            pages[match.group(1)] = source_page(parts[1], args.book)
+            fronts[match.group(1)] = parts[1]
+
+    printed, entries_raw, options = extract_print(args.corpus, args.book, args.books, args.cache)
+    errata_by_entry = {}
+    errata_path = args.corpus / "scripts/errata.tsv"
+    if errata_path.exists():
+        with errata_path.open(encoding="utf-8", newline="") as f:
+            for erratum in csv.DictReader(f, delimiter="\t"):
+                if erratum["book"] == args.book and erratum["decision"] == "misprint-fix":
+                    errata_by_entry[erratum["entry"]] = (erratum["printed_value"], erratum["kept_value"])
+    written = [row for row in rows if row["status"] == "written" and row["shape"] == "single"]
+    print_found = print_total = entry_found = entry_total = 0
+    page_matches = tag_matches = 0
+    exceptions = []
+    corrections = []
+    for row in written:
+        key = (row["entry"], row["anchor"])
+        source = printed.get(key)
+        body = entries.get(row["entry"])
+        if source is None or body is None:
+            exceptions.append(f"{row['entry']}#{row['anchor']}: no unique printed head or entry body")
+            continue
+        print_text, print_head = source
+        if pages.get(row["entry"]) == row["page"] and row["page"]:
             page_matches += 1
         else:
-            exceptions.append(f"PAGE {row['entry']}: ledger page {row.get('page')!r}, entry page {pages.get(row['entry'])!r}")
-        printed_sentences = sentences(text)
+            exceptions.append(f"PAGE {row['entry']}: ledger page {row['page']!r}, entry page {pages.get(row['entry'])!r}")
+
+        front = fronts[row["entry"]]
+        fields = re.search(r"(?ms)^\[fields\]\n(.*?)(?:\n\[|\Z)", front)
+        ability = re.search(r'^ability_type = "([^"]+)"$', fields.group(1), re.M) if fields else None
+        printed_tag = options.ability_tag_of_printed_head(print_head)
+        entry_tag = ability.group(1) if ability else ""
+        if tags_match(printed_tag, row["ability_tag"], entry_tag):
+            tag_matches += 1
+        else:
+            exceptions.append(f"TAG {row['entry']}: print {printed_tag!r}, ledger {row['ability_tag']!r}, entry {entry_tag!r}")
+
+        source_sentences = sentences(print_text)
         entry_sentences = sentences(body)
-        for sentence in printed_sentences:
+        errata = errata_by_entry.get(row["entry"])
+        for sentence in source_sentences:
             print_total += 1
-            if is_covered(sentence, body):
+            covered, corrected = is_covered(sentence, body, errata)
+            if covered:
                 print_found += 1
+                if corrected:
+                    corrections.append(f"ERRATA {row['entry']}: printed wording corrected under ruling 43")
             else:
                 exceptions.append(f"PRINT -> ENTRY {row['entry']}#{row['anchor']}: not found: {sentence}")
         for sentence in entry_sentences:
             entry_total += 1
-            if is_covered(sentence, plain(text)):
+            covered, corrected = is_covered(sentence, print_text, errata)
+            if covered:
                 entry_found += 1
+                if corrected:
+                    corrections.append(f"ERRATA {row['entry']}: corrected wording maps to print under ruling 43")
             else:
                 exceptions.append(f"ENTRY -> PRINT {row['entry']}#{row['anchor']}: extra: {sentence}")
     print(f"Print -> entry: {print_found} of {print_total} sentences found in {len(written)} written entries")
-    print(f"Entry -> print: {entry_found} of {entry_total} sentences found in print proposals")
+    print(f"Entry -> print: {entry_found} of {entry_total} sentences found in printed page text")
     print(f"Page metadata: {page_matches} of {len(written)} written entries match the ledger")
+    print(f"Printed ability tags: {tag_matches} of {len(written)} match the print head, ledger, and entry field")
+    for correction in corrections:
+        print(f"CORRECTION: {correction}")
     for exc in exceptions:
         print(f"EXCEPTION: {exc}")
     return 1 if exceptions else 0
