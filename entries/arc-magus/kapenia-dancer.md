@@ -15,7 +15,7 @@ publication = "varisia-birthplace-of-legends"
 page = "10"
 
 [fields]
-kind = "none"
+kind = "archetype"
 +++
 
 For some Varisians, their traditional dances pulse with the power of their ancestors. These dancers

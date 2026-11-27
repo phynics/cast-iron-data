@@ -15,7 +15,7 @@ publication = "advanced-race-guide"
 page = "170"
 
 [fields]
-kind = "none"
+kind = "archetype"
 +++
 
 Some tiefling magi can tap the dark energy of their fiendish blood to enhance their arcane and
