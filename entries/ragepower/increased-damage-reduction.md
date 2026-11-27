@@ -13,13 +13,9 @@ page = "33"
 [fields]
 kind = "class_option"
 group = "rage-power"
+ability_type = "Ex"
 +++
 
-**Increased Damage Reduction (Ex)**
-
-**Passive:** The barbarian's [damage reduction](ref/rule/damage-reduction) increases by 1/-. This
-increase is always active while the barbarian is _raging._
-
-**Prereq:** 8th-level barbarian
-
-**Special:** A barbarian can select this rage power up to three times. Its effects stack.
+The barbarian's [damage reduction](ref/rule/damage-reduction) increases by 1/—. This increase is
+always active while the barbarian is raging. A barbarian can select this rage power up to three
+times. Its effects stack. A barbarian must be at least 8th level before selecting this rage power.

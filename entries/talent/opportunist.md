@@ -13,13 +13,10 @@ page = "70"
 [fields]
 kind = "class_option"
 group = "rogue-talent"
+ability_type = "Ex"
 +++
 
-**Opportunist (Ex)**
-
-**Ability:** Once per round, the rogue can make an attack of opportunity against an opponent who has
-just been struck for damage in melee by another character. This attack counts as an attack of
-opportunity for that round.
-
-**Special:** Even a rogue with the [Combat Reflexes](ref/feat/combat-reflexes) feat can't use the
-_opportunist_ ability more than once per round.
+Once per round, the rogue can make an attack of opportunity against an opponent who has just been
+struck for damage in melee by another character. This attack counts as an attack of opportunity for
+that round. Even a rogue with the [Combat Reflexes](ref/feat/combat-reflexes) feat can't use the
+opportunist ability more than once per round.

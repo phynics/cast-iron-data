@@ -13,10 +13,9 @@ page = "33"
 [fields]
 kind = "class_option"
 group = "rage-power"
+ability_type = "Ex"
 +++
 
-**Intimidating Glare (Ex)**
-
-**Move:** The barbarian can make an Intimidate check against one adjacent foe. If the barbarian
-successfully demoralizes her opponent, the foe is [shaken](ref/misc/shaken) for 1d4 rounds + 1 round
-for every 5 points by which the barbarian's check exceeds the DC.
+The barbarian can make an Intimidate check against one adjacent foe as a move action. If the
+barbarian successfully demoralizes her opponent, the foe is [shaken](ref/misc/shaken) for 1d4
+rounds + 1 round for every 5 points by which the barbarian's check exceeds the DC.

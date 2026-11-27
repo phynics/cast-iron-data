@@ -13,10 +13,9 @@ page = "68"
 [fields]
 kind = "class_option"
 group = "rogue-talent"
+ability_type = "Ex"
 +++
 
-**Rogue Crawl (Ex)**
-
-**Ability:** While [prone](ref/rule/prone), a rogue with this ability can move at half speed. This
-movement provokes attacks of opportunity as normal. A rogue with this talent can take a 5-foot step
-while crawling.
+While [prone](ref/rule/prone), a rogue with this ability can move at half speed. This movement
+provokes attacks of opportunity as normal. A rogue with this talent can take a 5-foot step while
+crawling.

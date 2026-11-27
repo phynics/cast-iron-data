@@ -13,9 +13,8 @@ page = "69"
 [fields]
 kind = "class_option"
 group = "rogue-talent"
+ability_type = "Ex"
 +++
 
-**Surprise Attack (Ex)**
-
-**Passive:** During the surprise round, opponents are always considered
-[flat-footed](ref/rule/flat-footed) to a rogue with this ability, even if they have already acted.
+During the surprise round, opponents are always considered [flat-footed](ref/rule/flat-footed) to a
+rogue with this ability, even if they have already acted.

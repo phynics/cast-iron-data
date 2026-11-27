@@ -13,13 +13,10 @@ page = "33"
 [fields]
 kind = "class_option"
 group = "rage-power"
+ability_type = "Ex"
 +++
 
-**Superstition (Ex)**
-
-**Passive:** The barbarian gains a morale bonus on saving throws made to resist spells, supernatural
-abilities, and [spell-like abilities](ref/umr/spell-like-abilities). This bonus is equal to 2 +
-one-fourth of her barbarian level.
-
-**Special:** While _raging,_ the barbarian cannot be a willing target of any spell and must make
-saving throws to resist all spells, even those cast by allies.
+The barbarian gains a +2 morale bonus on saving throws made to resist spells, supernatural
+abilities, and [spell-like abilities](ref/umr/spell-like-abilities). This bonus increases by +1 for
+every 4 levels the barbarian has attained. While raging, the barbarian cannot be a willing target of
+any spell and must make saving throws to resist all spells, even those cast by allies.

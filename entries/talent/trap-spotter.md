@@ -13,9 +13,8 @@ page = "69"
 [fields]
 kind = "class_option"
 group = "rogue-talent"
+ability_type = "Ex"
 +++
 
-**Trap Spotter (Ex)**
-
-**Passive:** Whenever a rogue with this talent comes within 10 feet of a trap, she receives an
-immediate Perception skill check to notice the trap. This check should be made in secret by the GM.
+Whenever a rogue with this talent comes within 10 feet of a trap, she receives an immediate
+Perception skill check to notice the trap. This check should be made in secret by the GM.

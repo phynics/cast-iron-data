@@ -13,13 +13,9 @@ page = "33"
 [fields]
 kind = "class_option"
 group = "rage-power"
+ability_type = "Ex"
 +++
 
-**Mighty Swing (Ex)**
-
-**Immediate:** The barbarian automatically confirms a critical hit. This power can be used once a
-critical threat has been determined.
-
-**Prereq:** 12th-level barbarian
-
-**Special:** This power can only be used once per _rage._
+The barbarian automatically confirms a critical hit. This power is used as an immediate action once
+a critical threat has been determined. A barbarian must be at least 12th level before selecting this
+power. This power can only be used once per rage.
