@@ -18,14 +18,14 @@ page = "22"
 kind = "archetype"
 features = [
   { anchor = "bloodline" },
-  { anchor = "bleeding-spells", level = 1 },
+  { anchor = "bleeding-spells" },
   { anchor = "blood-drinking", level = 1 },
   { anchor = "energy-assimilation", level = 7 },
   { anchor = "breath-mimicry", level = 13 },
   { anchor = "blood-siphon", level = 19 },
 ]
 trades = [
-  { replaces = "Bloodline arcana", feature = "bloodline", levels = [1], power = "bloodline arcana", by = ["bleeding-spells"] },
+  { replaces = "Bloodline arcana", feature = "bloodline", power = "bloodline arcana", by = ["bleeding-spells"] },
   { replaces = "The claws bloodline power", feature = "bloodline", levels = [1], power = "bloodline power", by = ["blood-drinking"] },
   { replaces = "7th-level bloodline feat", feature = "bloodline", levels = [7], power = "bloodline feat", by = ["energy-assimilation"] },
   { replaces = "13th-level bloodline feat", feature = "bloodline", levels = [13], power = "bloodline feat", by = ["breath-mimicry"] },

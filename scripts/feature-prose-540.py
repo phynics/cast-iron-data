@@ -3673,10 +3673,6 @@ def compare_entry(e: Entry, section: list[Para], book: Book) -> dict:
         if o_notes and rows:
             rows[0]["notes"] += o_notes
     problems += errata_unused(e.id)
-    for text in opening + [r["print"] for r in rows]:
-        left = ocr_leftovers(text)
-        if left:
-            problems.append(f"an OCR repair still changes the printed text of `{e.id}` ({left[0]}): the layer broke a word that the repairs do not reach")
     links = [(m.group(2), m.group(3)) for b in opening_imp for m in LINK.finditer(logical(b))]
     for i, f in enumerate(feats):
         if i not in used or e.id in OPENING_ONLY:
@@ -4100,8 +4096,8 @@ TRADE_LEVELS = {
 # the op that print says. Reanimator (Ultimate Magic p. 20): "functions as and replaces the standard alchemist
 # bomb class feature", stored as `alters`.
 TRADE_OP_FIXES = {
-    ("ref/arc-bard/lotus-geisha", "Weapon proficiencies"): "replaces",
-    ("ref/arc-bard/juggler", "Weapon and armor proficiencies"): "replaces",     # print: "This replaces his normal weapon proficiencies." (Ranged Tactics Toolbox p. 7)     # print: "This replaces the normal bard weapon proficiencies." (Dragon Empires Primer p. 22)
+    ("ref/arc-bard/lotus-geisha", "Weapon proficiencies"): "replaces",     # print: "This replaces the normal bard weapon proficiencies." (Dragon Empires Primer p. 22)
+    ("ref/arc-bard/juggler", "Weapon and armor proficiencies"): "replaces",     # print: "This replaces his normal weapon proficiencies." (Ranged Tactics Toolbox p. 7)
     ("ref/arc-witch/gravewalker", "Patron spells"): "replaces",     # print: "This replaces the patron spells."
     ("ref/arc-druid/rot-warden", "Wild shape"): "alters",       # Opus review of batch 4: "This alters wild shape."
     ("ref/arc-alchemist/reanimator", "Bombs"): "replaces",
@@ -4704,6 +4700,10 @@ def finalize(e: Entry, res: dict, class_cache: dict | None = None) -> dict:
                             f"decide `sidebar` (a lore box, ruling 41) or `drop`, or write it with an edit, for `{anchor_of(end)}`")
     for r in rows:
         apply_edit(r, res.get("edits", {}).get((e.id, r["anchor"])))
+    for text in list(opening) + [r["print"] for r in rows]:          # the finished texts (a hand-written edit has replaced the layer's): an OCR repair that still changes one is a word that the layer broke and the repairs do not reach
+        left = ocr_leftovers(text)
+        if left:
+            problems.append(f"an OCR repair still changes the printed text of `{e.id}` ({left[0]}): the layer broke a word that the repairs do not reach")
     for add in res.get("adds", {}).get(e.id, []):
         row = {"anchor": add["anchor"], "span": "", "page": "", "pseudo": False, "draft": "", "level_import": None,
                "head": add["head"], "print": add["text"].strip("\n"), "status": "print", "notes": [add["note"]],
@@ -5978,10 +5978,6 @@ LEVEL_FROM_PRINT.update({
     ("ref/arc-skald/boaster", "rage-power"): (4, "does not gain this ability until 4th level"),
     ("ref/arc-bard/animal-speaker", "nature-s-speaker"): (5, "At 5th, 11th, and 17th level, the animal speaker selects another kind of animal friend"),
 })
-# Dragon Drinker (Dragonslayer's Handbook p. 22): Bleeding Spells replaces the bloodline arcana, a whole 1st-level sorcerer feature, so it gets
-# level 1 (owner review of #360 under rulings 35, 48, 50 and 57); its trade names the 1st level so that the lookup finds the feature
-LEVEL_FROM_PRINT[("ref/arc-sorcerer/dragon-drinker", "bleeding-spells")] = (1, "review of #360: replaces the bloodline arcana, a whole 1st-level class feature (rulings 35, 48, 50, 57)")
-TRADE_LEVELS[("ref/arc-sorcerer/dragon-drinker", "Bloodline arcana")] = [1]
 LEVEL_NONE.add(("ref/arc-sorcerer/wishcrafter", "wishbound-arcana"))      # it replaces the bloodline arcana, a part of the bloodline (ruling 48)
 # Diminished Spellcasting alters the whole spellcasting of the class, a 1st-level class feature (owner ruling 50; the corpus was split 7/7 on it)
 LEVEL_FROM_PRINT.update({(f"ref/arc-{e}", "diminished-spellcasting"): (1, "ruling 50: alters the whole spellcasting, a 1st-level class feature") for e in (

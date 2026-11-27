@@ -14,7 +14,7 @@ ref/arc-monk/far-strike-monk	Invisible Blade (Ex)	invisible-blade	yes	3	print	pr
 ref/arc-monk/far-strike-monk	Ki Pool (Su)	ki-pool	yes	4	draft	draft		10	64ebeb538fca07e406c621454f21fd7594f7be80bbc64ae5679e473c4f180f86
 ref/arc-monk/far-strike-monk	Ki Missile (Su)	ki-missile	yes	5	print	print		10	26524d9a7cf1648146cb017ea8e0107c6aa54dca6ed0be7d6da532c098c987e6
 ref/arc-monk/far-strike-monk	Trick Throw (Su)	trick-throw	yes	11	print	print		10	20d0415c37209172042718b41f0c4f779079906745924088d778268f6fa1e709
-ref/arc-ranger/toxophilite	Arrow-Splitter (Ex)	arrow-splitter	yes	1	print	print	opening text written from print: the import differs in legend, oflegend; level 1: replaces Wild empathy, of which one is gained at 1st level in the class table	12	a695d929a2b9a900c096d5b00bc9a6144bca7c77edc893917980d7ce5e616351
+ref/arc-ranger/toxophilite	Arrow-Splitter (Ex)	arrow-splitter	yes	1	print	print	level 1: replaces Wild empathy, of which one is gained at 1st level in the class table	12	a695d929a2b9a900c096d5b00bc9a6144bca7c77edc893917980d7ce5e616351
 ref/arc-ranger/toxophilite	Combat Style Feat (Ex)	combat-style-feat	yes	2	draft	draft		12	a9366a46397e31b944f55fbbb24f9715fe1f83043ce66356679a71cfd9ba6249
 ref/arc-ranger/toxophilite	Intercept Arrow (Ex)	intercept-arrow	yes	3	print	print		12	b9ca2a0c90bbedd1c369977a6a7c11cf12e2558737280f7d50c0c415497c03b1
 ref/arc-ranger/toxophilite	Improved Intercept (Ex)	improved-intercept	yes	11	print	print		12	fd3fccfe7ad1cd03d9f14ebb9cdd6366def50412ccab3a1bca7c63f040baff70

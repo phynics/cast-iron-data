@@ -17,6 +17,7 @@ page = "20"
 [fields]
 kind = "archetype"
 features = [
+  { anchor = "patron" },
   { anchor = "ectoplasmic-aptitude", level = 2 },
   { anchor = "shared-subconscious", level = 6 },
   { anchor = "soul-walker", level = 20 },

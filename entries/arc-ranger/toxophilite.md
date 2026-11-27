@@ -32,7 +32,7 @@ trades = [
 +++
 
 While many rangers use bows and arrows, the toxophilite takes special pride in her skill at archery.
-The toxophilite emulates the sharpshooting rangers oflegend, who could pin a fly to the wall with a
+The toxophilite emulates the sharpshooting rangers of legend, who could pin a fly to the wall with a
 single shot or split one arrow with another. A truly talented toxophilite can even shoot down an
 enemy's arrow while it's still in flight.
 
