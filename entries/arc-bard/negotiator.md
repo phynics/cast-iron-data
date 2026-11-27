@@ -65,16 +65,16 @@ mind-affecting ability that uses audible components. This performance replaces i
 
 ## Binding Contract (Sp) {#binding-contract}
 
-At 9th level, the negotiator can bind another creature's promise to the negotiator with a _geas_.
-This acts as _[lesser geas](ref/spell/geas-lesser)_, except the creature must have Hit Dice equal to
-or less than the negotiator's level. The target can negate this effect with a successful Will save
-(DC = 10 + 1/2 the negotiator's level + the negotiator's Charisma modifier). The _geas_ is
-discharged if the negotiator breaks his end of the bargain. Using this ability requires 3 rounds of
-continuous performance, and the target must be able to see and hear the bard throughout the
-performance. At 18th level, this effect acts as _[geas/quest](ref/spell/geas-quest)_ (no HD limit,
-and the target cannot attempt a saving throw). Binding contract is an enchantment (compulsion),
-mind-affecting, language-dependent ability that relies on audible components. This performance
-replaces inspire greatness.
+At 9th level, the negotiator can bind another creature's promise to the negotiator with a geas. This
+acts as _[lesser geas](ref/spell/geas-lesser)_, except the creature must have Hit Dice equal to or
+less than the negotiator's level. The target can negate this effect with a successful Will save (DC
+= 10 + 1/2 the negotiator's level + the negotiator's Charisma modifier). The geas is discharged if
+the negotiator breaks his end of the bargain. Using this ability requires 3 rounds of continuous
+performance, and the target must be able to see and hear the bard throughout the performance. At
+18th level, this effect acts as _[geas/quest](ref/spell/geas-quest)_ (no HD limit, and the target
+cannot attempt a saving throw). Binding contract is an enchantment (compulsion), mind-affecting,
+language-dependent ability that relies on audible components. This performance replaces inspire
+greatness.
 
 ## Rogue Talents {#rogue-talents}
 
