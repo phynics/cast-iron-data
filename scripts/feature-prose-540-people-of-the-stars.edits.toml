@@ -11,9 +11,7 @@ Whether or not it is a surprise round, when the outrider uses this ability, alli
 [[edit]]
 entry = "ref/arc-ranger/bow-nomad"
 anchor = "exploit-the-gap"
-note = "hand-written from print (People of the Stars p. 9): the text layer sets the \"0\" of \"(to a minimum of 0)\" at the start of the next line, in front of the trade sentence (\"(to a minimum of) for 1 round. 0 This ability replaces favored terrain.\"); the text is the printed ability."
+note = "hand-written from print (People of the Stars p. 9): the text layer sets the \"0\" of \"(to a minimum of 0)\" at the start of the next line, in front of the trade sentence (\"(to a minimum of) for 1 round. 0 This ability replaces favored terrain.\"); the text is the printed ability. Its closing sentence \"This ability replaces favored terrain.\" closes Trick Shot, and goes there (review of #360)."
 text = '''
 At 18th level, a bow nomad can exploit the natural weaknesses of her foes. When a bow nomad makes a full attack with her twin bows, each arrow that deals damage in that attack also reduces the target's natural armor bonus (if any) by 1 (to a minimum of 0) for 1 round.
-
-This ability replaces favored terrain.
 '''

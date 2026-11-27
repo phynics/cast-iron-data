@@ -28,7 +28,6 @@ trades = [
   { replaces = "Wild shape", feature = "wild-shape", by = ["trap"] },
   { replaces = "Venom immunity", feature = "venom-immunity", by = ["launch-trap"] },
   { alters = "Spellcasting", feature = "spells", by = ["diminished-spellcasting"] },
-  { alters = "Nature bond", feature = "nature-bond", by = ["nature-bond"] },
 ]
 +++
 
@@ -60,16 +59,13 @@ At 1st level, a survivor must select an animal companion as her nature bond.
 At 4th level, if a survivor makes a successful attack during a surprise round against a target that
 is unaware of her, her victim takes a penalty on its initiative check during the following round
 equal to [half](ref/misc/fractions-and-rounding) the damage dealt by the survivor's attack (minimum
-0, maximum equal to the survivor's class level).
-
-This cannot reduce an initiative result below 1.
-
+0, maximum equal to the survivor's class level). This cannot reduce an initiative result below 1.
 This ability replaces resist nature's lure.
 
 ## Trap {#trap}
 
-At 4th level, a survivor learns how to create a snare trap (_Pathfinder RPG Ultimate Magic_ 65) and
-one other ranger trap of her choice (see page 25 or _Ultimate Magic_ 64). At 6th level and every 2
+At 4th level, a survivor learns how to create a [snare trap](ref/rangertrap/snare-trap) and one
+other ranger trap of her choice (see page 25 or _Ultimate Magic_ 64). At 6th level and every 2
 levels thereafter, she learns another trap. The survivor can use these traps a total number of times
 per day equal to 1/2 her druid level + her Wisdom modifier. Once a trap is learned, it can't be
 unlearned and replaced with a different type of trap. The survivor cannot select an individual trap

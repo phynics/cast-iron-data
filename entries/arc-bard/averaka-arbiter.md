@@ -29,7 +29,7 @@ trades = [
 ]
 +++
 
-Some Averakan bards make it their mission to unify their fellow half-ores, and are equally skilled
+Some Averakan bards make it their mission to unify their fellow half-orcs, and are equally skilled
 at helping allies defeat common enemies and at building a new civilization that reflects their
 unique identity.
 
