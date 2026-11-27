@@ -24,6 +24,7 @@ from __future__ import annotations
 
 import argparse
 import dataclasses
+import difflib
 import importlib.util
 import os
 import re
@@ -177,6 +178,12 @@ PLACE_UNDER: dict[tuple[str, str], tuple[str, int]] = {
     ("ref/class/witch", "familiar-teaching-familiar"): ("witch-s-familiar", 5),
     ("ref/class/witch", "learn-from-a-scroll"): ("witch-s-familiar", 5),
 }
+# A box that interrupts a feature in print and that the corpus has as a `###` section: (class entry, key of the box) -> the key of the feature that its last
+# paragraph ends (the Antipaladin's box "Fall From Grace" stands inside Spells, p. 121)
+SIDEBAR_TAILS: dict[tuple[str, str], str] = {("ref/class/antipaladin", "fall-from-grace"): "spells"}
+# Sections that print sets behind the class features and that the corpus has inside a feature (the Antipaladin's code of conduct is a row of its
+# proficiencies): they become unlisted sections of their own, so the text stays where print has it.
+SECTIONS_BEHIND: dict[str, set[str]] = {"ref/class/antipaladin": {"codeofconduct", "associates"}}
 TABLE_LEAK = re.compile(r"\b(?:Spells|Extracts) per Day\s+(?:\d|1st|[\u2014\u2013])|(?:(?:[\u2014\u2013]|\d+)\s+){6,}")
 
 
@@ -281,7 +288,7 @@ def compare_class(corpus: Path, e, bk, cache: dict, options: dict | None = None,
     # a corpus head that print sets as the title of a section behind the class features ("Patron Spells" over the patrons of the Witch, p. 70): that
     # section is read as the text of the head
     lacking = {fp.squash(fp.ABILITY_TAG.sub("", h)) for _, h, _ in heads if fp.namekey(h) not in printed and not any(stem(ph) == stem(h) for ph in printed.values())}
-    win = win + section_behind(blocks, win, lacking)
+    win = win + section_behind(blocks, win, lacking | SECTIONS_BEHIND.get(e.id, set()))
     _, pfs = fp.split_print([title] + win, [h for _, h, _ in heads])
     printed = {fp.namekey(fp.head_text(f.head)): fp.head_text(f.head) for f in pfs}
     names = {}                                                    # key -> the name that the pseudo body gives the head
@@ -366,6 +373,17 @@ def compare_class(corpus: Path, e, bk, cache: dict, options: dict | None = None,
     new_items: list[tuple[str | None, dict]] = []                # (key of the item before it in print, the unlisted section)
     for r in res["rows"]:
         if r["span"] and r["span"] in all_spans:
+            if fp.squash(r["head"]) in SECTIONS_BEHIND.get(e.id, set()) and r["print"].strip():
+                # a row of the corpus (its code of conduct, under the proficiencies) that print sets as a paragraph of its own behind the last feature
+                head = r["head"].rstrip(":").strip()
+                key = fp.slugify(head)
+                status, notes = r["status"], list(r["notes"]) + ["printed behind the class features, a row of the proficiencies in the corpus: an unlisted section"]
+                if key in taken:
+                    status = "hold"
+                    notes.append(f"the new key `{key}` is a key of the class already")
+                taken.add(key)
+                new_items.append((items[-1]["key"], {"key": key, "line": -1, "head": head, "print": r["print"], "status": status, "notes": notes,
+                                                      "level": 4, "unlisted": True}))
             last = r
             continue
         opt = options.get(fp.namekey(r["head"]))
@@ -397,7 +415,26 @@ def compare_class(corpus: Path, e, bk, cache: dict, options: dict | None = None,
             it["links"] = pick_options(it.pop("candidates"))
         if re.search(r"[a-z][A-Z]", it["head"]) and fp.namekey(it["head"]) in {fp.namekey(t_) for _, t_, _ in heads}:
             it["head"] = next(t_ for _, t_, _ in heads if fp.namekey(t_) == fp.namekey(it["head"]))      # small capitals in the text layer ("Patron sPells")
-    for after, sec in new_items:
+    for after, sec in list(new_items):
+        tail_to = SIDEBAR_TAILS.get((e.id, sec["key"]))
+        if tail_to:
+            # a sidebar that the corpus has as a section of its own after the class features (`### Fall from Grace`): not a second copy. The paragraph after
+            # the box in the text layer is the end of the feature that the box interrupts; it goes back there. The rest of the box must be the section's text.
+            sect = re.search(r"^### " + re.escape(sec["head"]) + r"\s*\n(.*?)(?=^### |\Z)", e.body, re.M | re.S | re.I)
+            want = fp.squash(re.sub(r"\[([^\]]*)\]\([^)]*\)", r"\1", sect.group(1))) if sect else ""
+            sents = re.split(r"(?<=[.!?])\s+", sec["print"].strip())
+            host = next((x for x in items if x["key"] == tail_to), None)
+            scored = [(difflib.SequenceMatcher(None, fp.squash(" ".join(sents[:k])), want).ratio(), k) for k in range(1, len(sents))]
+            ratio, cut = max(scored, default=(0.0, 0))             # the end of the box that fits the section's text best
+            if ratio < 0.97 or host is None:
+                sec["status"] = "hold"
+                sec["notes"].append(f"the box does not match the section `### {sec['head']}` of the corpus (ratio {ratio:.3f})")
+                continue
+            tail = " ".join(sents[cut:])
+            host["print"] = host["print"].rstrip() + "\n\n" + tail
+            host["notes"].append(f"print sets the last sentences of this feature after the box `{sec['head']}`")
+            new_items.remove((after, sec))
+            continue
         placed = PLACE_UNDER.get((e.id, sec["key"]))
         if placed:
             after, sec["level"] = placed
