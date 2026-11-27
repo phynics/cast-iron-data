@@ -13,9 +13,8 @@ page = "11"
 [fields]
 kind = "class_option"
 group = "magus-arcana"
+ability_type = "Su"
 +++
 
-**Arcane Accuracy (Su)**
-
-**Swift:** The magus can expend 1 point from his arcane pool to grant himself an insight bonus equal
-to his Intelligence bonus on all attack rolls until the end of his turn.
+The magus can expend 1 point from his arcane pool as a swift action to grant himself an insight
+bonus equal to his Intelligence bonus on all attack rolls until the end of his turn.

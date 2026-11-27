@@ -13,11 +13,11 @@ page = "78"
 [fields]
 kind = "class_option"
 group = "summoner-evolution"
+ability_type = "Su"
 +++
 
-**See in Darkness (Su)**
+3-Point Evolutions: The following evolutions cost 3 points from the eidolon's evolution pool.
 
-**Ability:** An eidolon can see perfectly in darkness of any kind, including that created by
-[deeper darkness](ref/spell/deeper-darkness).
-
-**Prereq:** 9th-level summoner
+An eidolon can see perfectly in darkness of any kind, including that created by
+_[deeper darkness](ref/spell/deeper-darkness)_. The summoner must be at least 9th level before
+selecting this evolution.

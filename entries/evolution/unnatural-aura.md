@@ -8,14 +8,15 @@ provenance = [
 ]
 [[sources]]
 publication = "ultimate-magic"
-page = "77"
+page = "76-77"
 
 [fields]
 kind = "class_option"
 group = "summoner-evolution"
+ability_type = "Su"
 +++
 
-**Unnatural Aura (Su)**
+1-Point Evolutions: The following evolutions cost 1 point from the eidolon's evolution pool.
 
-**Passive:** An eidolon is obviously of unnatural origin. Normal animals do not willingly approach
-the eidolon unless the animal's master makes a DC 25 Handle Animal, Ride, or wild empathy check.
+An eidolon is obviously of unnatural origin. Normal animals do not willingly approach the eidolon
+unless the animal's master makes a DC 25 Handle Animal, Ride, or wild empathy check.

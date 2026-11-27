@@ -13,12 +13,9 @@ page = "12"
 [fields]
 kind = "class_option"
 group = "magus-arcana"
+ability_type = "Su"
 +++
 
-**Maximized Magic (Su)**
-
-**Ability:** The magus can cast one spell per day as if it were modified by the
+The magus can cast one spell per day as if it were modified by the
 [Maximize Spell](ref/feat/maximize-spell) feat. This does not increase the casting time or the level
-of the spell.
-
-**Prereq:** 12th-level magus
+of the spell. The magus must be at least 12th level before selecting this magus arcana.

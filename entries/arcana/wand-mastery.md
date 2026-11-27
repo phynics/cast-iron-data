@@ -13,9 +13,8 @@ page = "12"
 [fields]
 kind = "class_option"
 group = "magus-arcana"
+ability_type = "Su"
 +++
 
-**Wand Mastery (Su)**
-
-**Ability:** Whenever the magus uses a wand, he calculates the DC for any spell it contains using
-his Intelligence modifier, instead of the minimum modifier needed to cast a spell of that level.
+Whenever The magus uses a wand, he calculates the DC for any spell it contains using his
+Intelligence modifier, instead of the minimum modifier needed to cast a spell of that level.

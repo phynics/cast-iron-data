@@ -8,17 +8,18 @@ provenance = [
 ]
 [[sources]]
 publication = "ultimate-magic"
-page = "16"
+page = "15-16"
 
 [fields]
 kind = "class_option"
 group = "alchemist-discovery"
+ability_type = "Su"
 +++
 
-**Plague Bomb**
+Discoveries that modify bombs and are marked with a single asterisk (\*) do not stack. Only one such
+discovery can be applied to an individual bomb.
 
-**Ability:** The effects of the smoke created by an alchemist's bomb duplicates the effects of
-[contagion](ref/spell/contagion) instead of [fog cloud](ref/spell/fog-cloud), filling an area equal
-to twice the bomb's splash area for 1 round per level.
-
-**Prereq:** 8th-level alchemist, [smoke bomb](ref/discovery/smoke-bomb)
+The effects of the smoke created by an alchemist's bomb duplicates the effects of
+_[contagion](ref/spell/contagion)_ instead of _[fog cloud](ref/spell/fog-cloud)_, filling an area
+equal to twice the bomb's splash area for 1 round per level. An alchemist must be at least 8th level
+and must have the [smoke bomb](ref/discovery/smoke-bomb) discovery before selecting this discovery.

@@ -13,16 +13,12 @@ page = "82"
 [fields]
 kind = "class_option"
 group = "witch-hex"
+ability_type = "Su"
 +++
 
-**Ice Tomb (Su)**
-
-**Ability:** A storm of ice and freezing wind envelops the target, which takes 3d8 points of cold
-damage (Fortitude half). If the target fails its save, it is [paralyzed](ref/rule/paralyzed) and
-[unconscious](ref/misc/unconscious) but does not need to eat or breathe while the ice lasts.
-
-The ice has 20 hit points; destroying the ice frees the creature, which is
-[staggered](ref/misc/staggered) for 1d4 rounds after being released.
-
-**Special:** Whether or not the target's saving throw is successful, it cannot be the target of this
-hex again for 1 day.
+A storm of ice and freezing wind envelops the creature, which takes 3d8 points of cold damage
+(Fortitude half). If the target fails its save, it is [paralyzed](ref/rule/paralyzed) and
+[unconscious](ref/misc/unconscious) but does not need to eat or breathe while the ice lasts. The ice
+has 20 hit points; destroying the ice frees the creature, which is [staggered](ref/misc/staggered)
+for 1d4 rounds after being released. Whether or not the target's saving throw is successful, it
+cannot be the target of this hex again for 1 day.

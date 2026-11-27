@@ -13,12 +13,10 @@ page = "12"
 [fields]
 kind = "class_option"
 group = "magus-arcana"
+ability_type = "Su"
 +++
 
-**Hasted Assault (Su)**
-
-**Swift:** The magus can expend 1 point from his arcane pool to move more quickly. This functions as
-[haste](ref/spell/haste), but only targets the magus and lasts for a number of rounds equal to the
-magus's Intelligence bonus.
-
-**Prereq:** 9th-level magus
+The magus can expend 1 point from his arcane pool as a swift action to move more quickly. This
+functions as _[haste](ref/spell/haste)_, but only targets the magus and lasts for a number of rounds
+equal to the magus's Intelligence bonus. The magus must be at least 9th level before selecting this
+magus arcana.

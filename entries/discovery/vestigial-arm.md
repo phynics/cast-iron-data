@@ -13,22 +13,15 @@ page = "18"
 [fields]
 kind = "class_option"
 group = "alchemist-discovery"
+ability_type = "Ex"
 +++
 
-**Vestigial Arm**
-
-**Ability:** The alchemist gains a new arm (left or right) on his torso. The arm is fully under his
-control and cannot be concealed except with magic or bulky clothing.
-
-The arm does not give the alchemist any extra attacks or actions per round, though the arm can wield
-a weapon and make attacks as part of the alchemist's attack routine (using
-[two-weapon fighting](ref/rule/two-weapon-fighting)).
-
-The arm can manipulate or hold items as well as the alchemist's original arms (for example, allowing
-the alchemist to use one hand to wield a weapon, another hand to hold a potion, and the third hand
-to throw a bomb).
-
-The arm has its own "hand" and "ring" magic item slots (though the alchemist can still only wear two
-rings and two hand magic items at a time).
-
-**Special:** An alchemist may take this discovery up to two times.
+The alchemist gains a new arm (left or right) on his torso. The arm is fully under his control and
+cannot be concealed except with magic or bulky clothing. The arm does not give the alchemist any
+extra attacks or actions per round, though the arm can wield a weapon and make attacks as part of
+the alchemist's attack routine (using [two-weapon fighting](ref/rule/two-weapon-fighting)). The arm
+can manipulate or hold items as well as the alchemist's original arms (for example, allowing the
+alchemist to use one hand to wield a weapon, another hand to hold a potion, and the third hand to
+throw a bomb). The arm has its own "hand" and "ring" magic item slots (though the alchemist can
+still only wear two rings and two hand magic items at a time). An alchemist may take this discovery
+up to two times.

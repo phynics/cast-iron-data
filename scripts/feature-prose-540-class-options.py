@@ -289,6 +289,14 @@ def ability_tag_of(name: str) -> str:
     return m.group(1) if m and TAG_WORDS.fullmatch(m.group(1)) else ""
 
 
+def ability_tag_pair(import_name: str, print_head: str) -> tuple[str, bool]:
+    """Ruling 63: the ability tag is print's. The printed head often carries it when the import's name does not ("Blinding Bomb (Su)" against
+    "Blinding Bomb", Ultimate Magic p. 15); a tag that both state must agree, or the power holds."""
+    itag = ability_tag_of(import_name)
+    ptag = ability_tag_of(print_head or "")
+    return (ptag or itag), bool(itag and ptag and itag != ptag)
+
+
 def with_ability_type(front: str, tag: str) -> str:
     """The `[fields]` of a class option with `ability_type = "<tag>"` right after `group` (the app's canonical order: kind, group, ability_type,
     features; ruling 63). An entry that has the key, a tag that is no tag, or no `[fields] kind = "class_option"` is left."""
@@ -370,13 +378,31 @@ SUFFIXES = ("", "bloodline", "mystery", "school")
 # (the entry holds, "no end title", or the neighbour shows in `--neighbours`), which is safe but not settled.
 
 
-def anchor_section(blocks: list, title: str, own: frozenset | set = frozenset()) -> tuple[list, bool] | None:
+def group_kind(e) -> str:
+    """The kind word of the entry's group ("arcane-school" is a school, "druid-domain" a domain): a printed title may carry it in a
+    parenthesis after the entry's name ("METAL (ELEMENTAL SCHOOL)")."""
+    group = str(((e.data.get("fields") or {}).get("group") or ""))
+    return group.split("-")[-1] if group else ""
+
+
+def anchor_section(blocks: list, title: str, own: frozenset | set = frozenset(), kind: str = "") -> tuple[list, bool] | None:
     """The blocks of a multi-power entry from the printed title of the entry to the next title of another class option (or any larger title),
     and whether that end was found: the window is anchored at the title, so a head of a neighbour that follows on the page is not read as the
     entry's power. None when the title is not printed on those pages. A neighbour is a title or a bold head that is another option's name
     (with the same suffixes in both: "Earth", "Earth School", "Earth Bloodline"); the names of the entry's own powers (`own`) are none."""
     key = fp.squash(re.sub(r"\s*\((?:[A-Z]{2,4}|HotW)\)\s*$", "", title))
-    at = next((i for i, b in enumerate(blocks) if b.kind == "title" and fp.squash(b.plain()) in {key + s for s in SUFFIXES}), None)
+    # the printed title may carry its type in a parenthesis and in capitals ("METAL (ELEMENTAL SCHOOL)", Ultimate Magic p. 87): the name is
+    # what stands before it, and only when the parenthesis names the entry's own kind of option ("SCHOOL" for a school; "FIRE (SUBDOMAIN)"
+    # is no title of an entry named Fire)
+    def is_own(text: str) -> bool:
+        m = re.match(r"^(.*?)\s*\(([^()]*)\)\s*$", text)
+        if not m or not kind:
+            return False
+        words = {w.casefold() for w in re.findall(r"[A-Za-z]+", m.group(2))}
+        if kind.casefold() not in words:
+            return False
+        return fp.squash(m.group(1)) in {key + s for s in SUFFIXES}
+    at = next((i for i, b in enumerate(blocks) if b.kind == "title" and (fp.squash(b.plain()) in {key + s for s in SUFFIXES} or is_own(b.plain()))), None)
     if at is None:
         return None
     others = STOP_TITLES - {key} - set(own)
@@ -392,6 +418,43 @@ def anchor_section(blocks: list, title: str, own: frozenset | set = frozenset())
 
 
 HEADING_FAMILIES = {"evolution"}     # ruling 61: an evolution opens with the printed sentence of its group heading ("2-Point Evolutions: The following ...")
+
+# The family of a book whose marked heads open with the section intro's sentence about the mark. The sentence is read from the book (a
+# paragraph that says "marked with a single asterisk (*)"), like the group headings of ruling 61: the five marked discoveries of Ultimate
+# Magic (pp. 15-17) open with "Discoveries that modify bombs and are marked with a single asterisk (*) do not stack. Only one such
+# discovery can be applied to an individual bomb." from the intro of p. 15.
+INTRO_MARKS_OF_BOOK = {"ultimate-magic": "discovery"}
+
+
+class IntroMarkMap:
+    """The sentence of a section intro that explains the mark on a head, and the printed page it stands on."""
+
+    def __init__(self, bk):
+        self.text = ""
+        self.page = 0
+        # a book may say twice that a head is marked ("Discoveries marked with a single asterisk (*) first appear in this book." over the
+        # chapter, and the rule "Discoveries that modify bombs and are marked with a single asterisk (*) do not stack." over the list): the
+        # sentence that states the rule is the one that a marked entry opens with, and the chapter's one is the fallback
+        best = None
+        for b in fp.read_blocks(bk, 1, max(bk.pages)):
+            if b.kind != "para":
+                continue
+            t = " ".join(b.plain().split())
+            if "marked with a single asterisk" not in t:
+                continue
+            sents = re.split(r"(?<=[.!?])\s+", t)
+            at = next(i for i, x in enumerate(sents) if "marked with a single asterisk" in x)
+            text = " ".join(sents[at:]).strip()
+            if best is None:
+                best = (text, b.page)
+            if "stack" in text.lower():
+                best = (text, b.page)
+                break
+        if best:
+            self.text, self.page = best
+
+
+INTRO_MARK: dict = {"text": "", "page": 0}
 
 
 class GroupMap:
@@ -583,7 +646,7 @@ def compare_one(e, book, bk, other=None) -> list[dict]:
     blocks = fp.read_blocks(bk, max(1, page + fp.PAGE_OFFSET[0] - 1), min(last + fp.PAGE_OFFSET[0], max(bk.pages)))
     unanchored = False
     if shape == "multi":
-        anchored = anchor_section(blocks, e.title, {fp.squash(fp.ABILITY_TAG.sub("", n_)) for n_, _ in powers})
+        anchored = anchor_section(blocks, e.title, {fp.squash(fp.ABILITY_TAG.sub("", n_)) for n_, _ in powers}, group_kind(e))
         if anchored is None or not anchored[1]:
             unanchored = True                      # no title, or no end title: the window runs to the end of the pages
         if anchored is not None:
@@ -641,7 +704,11 @@ def compare_one(e, book, bk, other=None) -> list[dict]:
             r = dict(r, notes=[f"printed in {where[f.span_sha()][0]} p. {where[f.span_sha()][1]}"] + list(r["notes"]))
         section, pr = info.get(sha, ("", None))
         src = where.get(f.span_sha()) if f is not None else None           # a power that another source of the entry prints has its own book and page
-        common = dict(base, feature=name, section=section, book=src[0] if src else book, by="", ability_tag=ability_tag_of(name) if shape == "single" else "",
+        # ruling 63: the tag is print's. The import's head may lack it (the alchemist discoveries of Ultimate Magic print "(Su)" over a name
+        # the import wrote without a tag), so the printed head is read; a tag that print and the import both state must agree, else the power holds
+        tag, disagree = ability_tag_pair(name, (r or {}).get("head", "")) if shape == "single" else ("", False)
+        notes_tag = [f"print's tag differs from the import's: {r.get('head', '')!r} against {name!r}"] if disagree else []
+        common = dict(base, feature=name, section=section, book=src[0] if src else book, by="", ability_tag=tag,
                       reviewed_537="yes" if (e.id, sha) in REVIEWED else "", links_lost="", span_sha256=sha)
         if r is None:
             rows.append(dict(common, anchor=fp.anchor_of(name), verdict="missing-head", status="hold", level_import="",
@@ -649,11 +716,13 @@ def compare_one(e, book, bk, other=None) -> list[dict]:
             continue
         verdict = {"draft": "agree", "print": "differ", "hold": "hold"}[r["status"]]
         note_r = f"resolution of #537: {REVIEWED[(e.id, sha)]}" if (e.id, sha) in REVIEWED else ""
-        notes = [n_ for n_ in r["notes"] if n_] + ([note_r] if note_r else [])
+        notes = [n_ for n_ in r["notes"] if n_] + ([note_r] if note_r else []) + notes_tag
         status, printed = r["status"], r["print"]
+        if notes_tag:
+            status, hard_tag = "hold", True
         anchor = pr[1] if pr else r["anchor"]
         anchors_seen[anchor] += 1
-        hard = False                                    # a hold that no decision lifts: it is a fact of the entry, not a difference with print
+        hard = bool(notes_tag)                          # a hold that no decision lifts: it is a fact of the entry, not a difference with print
         if anchors_seen[anchor] > 1 or (anchor in taken and not pr):
             notes.append(f"anchor collision: {anchor}")
             status, hard = "hold", True
@@ -680,6 +749,12 @@ def compare_one(e, book, bk, other=None) -> list[dict]:
         if f is not None and f.span_sha() in noend:
             notes.append("the second-source window has no end title: the text may run into another option")
             status, hard = "hold", True
+        if shape == "single" and r.get("marked") and INTRO_MARK["text"] and e.id.split("/")[1] == INTRO_MARKS_OF_BOOK.get(book):
+            # the marked discoveries open with the section intro's own sentence about the mark, and the page row covers it
+            printed = INTRO_MARK["text"].replace("(*)", "(\\*)") + "\n\n" + printed
+            notes.append("opens with print's sentence about the mark (the section intro)")
+            if INTRO_MARK["page"] and INTRO_MARK["page"] < page:
+                common["page"] = f"{INTRO_MARK['page']}-{page}"
         if shape == "single":
             printed, lost = place_links(printed, plinks)
             common["links_lost"] = "|".join(lost)
@@ -802,6 +877,10 @@ def run_compare(args) -> int:
     if not pdf:
         raise SystemExit(f"no copy of {title!r} under {args.books}")
     bk = fp.load_book(fp.book_xml(pdf, Path(args.cache)))
+    INTRO_MARK.update({"text": "", "page": 0})
+    if book in INTRO_MARKS_OF_BOOK:
+        intro = IntroMarkMap(bk)
+        INTRO_MARK.update({"text": intro.text, "page": intro.page})
     families = set(args.families.split(",")) if args.families else None
     everything = load_class_options(corpus, book)
     names: list[str] = []
@@ -833,7 +912,7 @@ def run_compare(args) -> int:
         try:
             last2 = pg + (3 if shape == "multi" else 1)
             blocks2 = fp.read_blocks(bk2, max(1, pg + fp.PAGE_OFFSET[0] - 1), min(last2 + fp.PAGE_OFFSET[0], max(bk2.pages)))
-            anchored2 = anchor_section(blocks2, e.title, {fp.squash(fp.ABILITY_TAG.sub("", n_)) for n_ in expected})
+            anchored2 = anchor_section(blocks2, e.title, {fp.squash(fp.ABILITY_TAG.sub("", n_)) for n_ in expected}, group_kind(e))
             win = anchored2[0] if anchored2 is not None else blocks2          # the second source's section of the same title, else the whole window (a variant has its own title)
             res2 = fp.compare_entry(e, [fp.Para("title", [(e.title, True, False)], pg, 0, 20)] + win, bk2)
             return ({r["span"]: r for r in res2["rows"] if r["span"]}, variant_section(blocks2, bk2, e, missing, expected),
@@ -1112,7 +1191,7 @@ def run_neighbours(args) -> int:
         blocks = fp.read_blocks(bk, max(1, page + fp.PAGE_OFFSET[0] - 1), min(page + 3 + fp.PAGE_OFFSET[0], max(bk.pages)))
         _, feats = fp.parse_import(headings_as_names(e.body), set())
         own = {fp.squash(fp.ABILITY_TAG.sub("", f.name)) for f in feats} | PRINT_ONLY_OK
-        anch = anchor_section(blocks, e.title, own)
+        anch = anchor_section(blocks, e.title, own, group_kind(e))
         if anch is None:
             print(f"{e.id} (p. {page}): the printed title is not on the pages")
             bad += 1
@@ -1167,7 +1246,7 @@ def run_write(args) -> int:
         assert not lost, f"{e.id}: the keys {sorted(lost)} would move"                  # rule 3 of AGENTS.md: the keys of the headings stay
         front = features_front(e.front, features) if features else e.front
         if WRITE_ABILITY_TYPE and shape == "single":
-            front = with_ability_type(front, ability_tag_of(mine[0]["feature"]))
+            front = with_ability_type(front, mine[0]["ability_tag"] or ability_tag_of(mine[0]["feature"]))
         own = [r for r in mine if r["book"] == book]
         if own and own[0]["page"] and own[0]["page"] != e.page:
             front = with_page(front, own[0]["page"])
@@ -1194,7 +1273,7 @@ def run_ability_type(args) -> int:
     done = untagged = 0
     for e in load_class_options(corpus, args.book):
         mine = [r for r in rows if r["entry"] == e.id and r["status"] == LEDGER and r["shape"] == "single"]
-        tag = ability_tag_of(mine[0]["feature"]) if mine else ""
+        tag = (mine[0]["ability_tag"] or ability_tag_of(mine[0]["feature"])) if mine else ""
         if mine and not tag:
             untagged += 1
         if mine and tag:
@@ -1248,6 +1327,12 @@ def run_check(args) -> int:
                     text = props.get((eid, r["anchor"]))
                     if text is not None and norm(text) not in body:
                         errors.append(f"{eid}: written, but the printed text of `{r['anchor']}` is not in the entry")
+                # ruling 63: the ability tag is print's, so a written single-power entry whose printed head has one carries it
+                single = [r for r in mine if r["shape"] == "single"]
+                if single and single[0]["ability_tag"]:
+                    want_tag = f'ability_type = "{single[0]["ability_tag"]}"'
+                    if want_tag not in e.front:
+                        errors.append(f"{eid}: written, but the printed tag {single[0]['ability_tag']} is not in `[fields] ability_type`")
                 continue
             if shape == "none":
                 if mine and any(r["status"] != LEDGER for r in mine):
@@ -1386,6 +1471,38 @@ def self_test() -> int:
         tp.write_text("old")
         write_atomic(tp, "new")
         eq((tp.read_text(), sorted(x.name for x in Path(td).iterdir())), ("new", ["x.md"]), "an atomic write leaves the new file and no temp file")
+    # ruling 63 (review of #374): the tag is print's; a tag that print and the import both state must agree
+    eq([ability_tag_pair(n, h) for n, h in (("Blinding Bomb", "Blinding Bomb (Su)"), ("Blinding Bomb (Su)", "Blinding Bomb (Su)"),
+                                            ("Agony (Su)", "Agony (Ex)"), ("Agony (Su)", "Agony"), ("Plain", "Plain"))],
+       [("Su", False), ("Su", False), ("Ex", True), ("Su", False), ("", False)],
+       "the ability tag comes from print's head, and a disagreement holds")
+    # the title of a multi-power option may carry its kind in a parenthesis (§ review of #374): only its own kind matches
+    school = [P("title", [("METAL (ELEMENTAL SCHOOL)", True, False)], 87, 0, 18), P("para", [("Metal Magic: Add spells.", True, False)], 87, 0),
+              P("title", [("WOOD", True, False)], 87, 1, 18), P("para", [("Wood Magic: Add spells.", True, False)], 87, 1)]
+    STOP_TITLES.clear()
+    STOP_TITLES.update({"metal", "wood"})
+    eq(anchor_section(school, "Metal", kind="school")[1], True, "a printed title with its own kind in a parenthesis anchors the window")
+    eq([q.plain()[:4] for q in anchor_section(school, "Metal", kind="school")[0]], ["Meta"], "and the window starts after it")
+    eq(anchor_section(school, "Metal", kind="domain"), None, "(ELEMENTAL SCHOOL) is no title of a domain entry")
+    fire = [P("title", [("FIRE (SUBDOMAIN)", True, False)], 90, 0, 18), P("para", [("Fire Domain: A rule.", True, False)], 90, 0)]
+    eq(anchor_section(fire, "Fire", kind="domain"), None, "FIRE (SUBDOMAIN) is no title of the entry Fire of a domain")
+    # the intro sentence of a marked head comes from the book's own intro (a fake page: the paragraph that names the mark)
+    ib = fp.Book({"30": 13, "40": 40}, {1: [(200, 108, 30, "DISCOVERIES", 100), (240, 108, 30, "The following new discoveries can be taken by any alchemist who meets the prerequisites. "
+                               "Discoveries that modify bombs and are marked with a single asterisk (*) do not stack. Only one such discovery can be "
+                               "applied to an individual bomb.", 320),
+                              (300, 108, 40, "Alchemical Simulacrum (Su)", 200)]}, {1: 15}, set())
+    eq(IntroMarkMap(ib).text, "Discoveries that modify bombs and are marked with a single asterisk (*) do not stack. Only one such discovery can be applied to an individual bomb.",
+       "the intro sentence of a marked group is read from the book")
+    eq(IntroMarkMap(ib).page, 15, "and its printed page")
+    nointro = fp.Book({"30": 13}, {1: [(200, 108, 30, "Plain text without a mark.", 300)]}, {1: 4}, set())
+    eq((IntroMarkMap(nointro).text, IntroMarkMap(nointro).page), ("", 0), "a book with no such intro gives no sentence (near miss: a paragraph with no mark)")
+    two = fp.Book({"30": 13, "40": 40}, {1: [(120, 108, 30, "Discoveries marked with a single asterisk (*) first appear in this book.", 300),
+                                              (200, 108, 40, "DISCOVERIES", 100),
+                                              (240, 108, 30, "The following new discoveries can be taken by any alchemist who meets the prerequisites. Discoveries that modify bombs "
+                                                             "and are marked with a single asterisk (*) do not stack. Only one such discovery can be applied to an individual bomb.", 320)]},
+                  {1: 15}, set())
+    eq((IntroMarkMap(two).text.startswith("Discoveries that modify bombs"), IntroMarkMap(two).page), (True, 15),
+       "the rule sentence is preferred over the chapter's mention of the mark")
     STOP_TITLES.clear()
     STOP_TITLES.update({"aquatic", "boreal", "deepearth"})
     ab = [P("title", [("Aquatic", True, False)], 136, 0, 18), P("para", [("Dehydrating Touch (Sp)", True, False), (": A touch.", False, False)], 136, 0),
