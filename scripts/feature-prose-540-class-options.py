@@ -90,14 +90,14 @@ PRINT_TEXT_OVERRIDES = {
         "When she casts a spell, she can spend points from her phrenic pool to apply one of the chosen feats to the linked spell "
         "without increasing the spell's level or casting time. She must spend a number of points equal to double the number of levels "
         "by which the feat normally increases a spell's level (minimum 2 points). If the metamagic feat alters the spell's casting time "
-        "in a different way than the standard rules for a spontaneous caster using a metamagic feat (as in the case of "
+        "in a different way than the [standard rules](ref/rule/feats-basic) for a spontaneous caster using a metamagic feat (as in the case of "
         "[Quicken Spell](ref/feat/quicken-spell)), it changes the casting time accordingly. The psychic can still apply metamagic feats "
         "she knows to the spell while using this amplification, increasing the casting time and spell level as normal. This amplification "
         "can be applied only to a spell that the chosen metamagic feat could normally affect, and only if the spellcaster can cast spells "
         "of a high enough level that she would be able to apply the metamagic feat in question to the linked spell. For example, an "
-        "11th-level psychic could spend 8 points to _quicken_ a 1st-level spell, but couldn't _quicken_ a 2nd-level spell because she's "
+        "11th-level psychic could spend 8 points to quicken a 1st-level spell, but couldn't quicken a 2nd-level spell because she's "
         "unable to cast 6th-level spells. This ability doesn't require her to have any free spell slots in the relevant level, however, "
-        "so the psychic in the example could _quicken_ a 1st-level spell even if she had cast all her 5th-level spells for the day. "
+        "so the psychic in the example could quicken a 1st-level spell even if she had cast all her 5th-level spells for the day. "
         "A psychic can select this amplification multiple times, adding two additional options to the list of metamagic feats she can apply "
         "using this amplification each time."
     ),
@@ -117,6 +117,32 @@ PRINT_TEXT_OVERRIDES = {
         "spells that can be undercast."
     ),
 }
+
+
+OVERRIDE_MARKUP = re.compile(r"_(.+?)_|\[([^\]]+)\]\([^)]+\)")
+
+
+def print_override_runs(text: str) -> list[tuple[str, bool, bool]]:
+    """Turn a reviewed print transcription into the runs read by the shared print comparer."""
+    runs: list[tuple[str, bool, bool]] = []
+    at = 0
+    for match in OVERRIDE_MARKUP.finditer(text):
+        if match.start() > at:
+            runs.append((text[at:match.start()], False, False))
+        if match.group(1) is not None:
+            label = re.sub(r"\[([^\]]+)\]\([^)]+\)", r"\1", match.group(1))
+            runs.append((label, False, True))
+        else:
+            runs.append((match.group(2), False, False))
+        at = match.end()
+    if at < len(text):
+        runs.append((text[at:], False, False))
+    return runs
+
+
+def explicit_hold(status: str, decision: tuple[str, str] | None) -> str:
+    """A reviewed hold decision remains in force after a print-text correction."""
+    return "hold" if decision and decision[0] == "hold" else status
 
 HEADER = ["entry", "feature", "anchor", "shape", "section", "book", "page", "level_import", "level", "by", "ability_tag", "verdict",
           "reviewed_537", "status", "links_lost", "print_sha256", "span_sha256", "note"]
@@ -1197,6 +1223,24 @@ def compare_one(e, book, bk, other=None) -> list[dict]:
     TABLE_HEADS.clear()
     TABLE_HEADS.update(fp.squash(" ".join(c.strip() for c in tab[0].strip().strip("|").split("|"))) for tab in corpus_tables(e0.body))
     res = fp.compare_entry(e, section, bk)
+    override = PRINT_TEXT_OVERRIDES.get((book, e.id))
+    if override is not None and shape == "single":
+        # Re-run the shared comparison with a page-reviewed transcription before tag, number,
+        # link, decision, and completeness checks. This replaces only the damaged PDF text run.
+        printed_row = next((row for row in res["rows"] if row.get("head") and row.get("span")), None)
+        if printed_row is not None:
+            head = printed_row["head"]
+            head_run = head if head.rstrip().endswith(":") else head + ": "
+            corrected_section = [
+                section[0],
+                fp.Para("para", [(head_run, True, False), *print_override_runs(override)], page, 0),
+            ]
+            corrected = fp.compare_entry(e, corrected_section, bk)
+            expected_span = powers[0][1] if powers else ""
+            corrected_row = next((row for row in corrected["rows"] if row.get("span") == expected_span), None)
+            if corrected_row is None:
+                raise ValueError(f"print-text correction for {e.id} did not match its imported power")
+            res, section = corrected, corrected_section
     by_span = {r["span"]: r for r in res["rows"] if r["span"]}
     if page_found:
         for r_ in res["rows"]:
@@ -1380,7 +1424,7 @@ def compare_one(e, book, bk, other=None) -> list[dict]:
             status = "print"
             notes.append(f"decision: {decided[1]}")
         elif decided and decided[0] == "hold":
-            status = "hold"                                  # held by decision: an errata check, a ruling that has not landed
+            status = explicit_hold(status, decided)          # a print-text correction cannot erase an explicit hold
             notes.append(f"held by decision: {decided[1]}")
         printed = prepend_intro(printed, marked_head_intro(book, e.id) if shape == "single" and (r.get("marked") or e.id in MARKED_HEAD_ENTRIES) else "")
         rows.append(dict(common, anchor=anchor, verdict=verdict, status=status,
@@ -1482,6 +1526,7 @@ def run_audit(args) -> int:
     corpus = Path(args.corpus).resolve()
     book = args.book
     fp.configure_book(book)
+    sentence_audit = _load("written_sentence_audit_for_class_options", "class-options/check-written-sentences.py")
     pdf = fp.find_pdf(Path(args.books), fp.publication_title(corpus, book))
     bk = fp.load_book(fp.book_xml(pdf, Path(args.cache)))
     install_split([x.title for x in load_class_options(corpus)] + (["Master Strike (Ex)"] if book == "core-rulebook" else []))
@@ -1517,9 +1562,7 @@ def run_audit(args) -> int:
             continue
         for pf in mine:
             printed = " ".join("".join(x[0] for x in para) for para in pf.paras)
-            override = PRINT_TEXT_OVERRIDES.get((book, e.id))
-            if override is not None:
-                printed = re.sub(r"\[([^\]]+)\]\([^)]+\)", r"\1", override)
+            printed = sentence_audit.printed_region_text(book, e.id, printed)
             if book == "core-rulebook":
                 printed = clean_core_rulebook_print(e.id, printed)
             lost = print_lost(printed, e.body, errata_fixes(corpus, e.id))
@@ -1631,13 +1674,6 @@ def run_compare(args) -> int:
         if shape_of(e.body)[0] == "none":
             continue
         for r in compare_one(e, book, bk, other):
-            override = PRINT_TEXT_OVERRIDES.get((book, e.id))
-            if override is not None:
-                r["print"] = override
-                r["print_sha256"] = hashlib.sha256(override.encode()).hexdigest()
-                r["status"] = "print"
-                r["verdict"] = "differ"
-                r["note"] = "print transcription checked against the two-column page; the PDF text layer interleaves a neighboring table"
             if r.get("print"):
                 r["print"] = proposal_print(book, r["print"])
                 props.setdefault(e.id, {"id": e.id, "feature": []})["feature"].append(
@@ -2307,6 +2343,11 @@ def self_test() -> int:
        "Occult Adventures p. 62 keeps the printed page reference")
     eq(PRINT_TEXT_OVERRIDES.get(("ultimate-magic", "ref/phrenicamp/mimic-metamagic")), None,
        "the Occult Adventures table correction does not affect another book")
+    eq(print_override_runs("_mind thrust III_ quicken [Quicken Spell](ref/feat/quicken-spell)"),
+       [("mind thrust III", False, True), (" quicken ", False, False), ("Quicken Spell", False, False)],
+       "a reviewed print transcription keeps its actual italics and leaves the roman word quicken unitalicized")
+    eq(explicit_hold("print", ("hold", "owner hold")), "hold",
+       "an explicit hold remains in force after a print-text correction")
     eq(single_name_matches_title("ref/vigtalent/expose-weaknesses", "Expose Weakness", "Expose Weaknesses (Ex)"), True, "a printed singular head can match the exact entry title through its import-head correction")
     eq(single_name_matches_title("ref/vigtalent/environmental-weapon", "Environment Weapon", fp.import_name("ref/vigtalent/environmental-weapon", "Environmental Weapon (Ex)")), True, "Ultimate Intrigue p. 14: the printed title matches after the import-head correction")
     eq(INVERTED_HEAD.match("Beast Totem, Greater (Su)").groups(), ("Beast Totem", "Greater", " (Su)"), "the inverted head is read")

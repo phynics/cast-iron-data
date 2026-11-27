@@ -27,6 +27,44 @@ def load(name: str, path: Path):
 CLASS_OPTIONS = load("class_options_for_sentence_audit", HERE.parent / "feature-prose-540-class-options.py")
 
 
+# Direct page-region transcriptions for the three heads whose PDF text layer mixes neighboring
+# tables into the prose. These are checked against print separately from the writer's corrections.
+PRINT_REGION_TEXT = {
+    ("occult-adventures", "ref/phrenicamp/mimic-metamagic"): (
+        "When the psychic gains this amplification, she chooses two metamagic feats; she need not have these feats to select them. "
+        "When she casts a spell, she can spend points from her phrenic pool to apply one of the chosen feats to the linked spell "
+        "without increasing the spell's level or casting time. She must spend a number of points equal to double the number of levels "
+        "by which the feat normally increases a spell's level (minimum 2 points). If the metamagic feat alters the spell's casting time "
+        "in a different way than the standard rules for a spontaneous caster using a metamagic feat (as in the case of Quicken Spell), "
+        "it changes the casting time accordingly. The psychic can still apply metamagic feats she knows to the spell while using this "
+        "amplification, increasing the casting time and spell level as normal. This amplification can be applied only to a spell that the "
+        "chosen metamagic feat could normally affect, and only if the spellcaster can cast spells of a high enough level that she would be "
+        "able to apply the metamagic feat in question to the linked spell. For example, an 11th-level psychic could spend 8 points to "
+        "quicken a 1st-level spell, but couldn't quicken a 2nd-level spell because she's unable to cast 6th-level spells. This ability "
+        "doesn't require her to have any free spell slots in the relevant level, however, so the psychic in the example could quicken a "
+        "1st-level spell even if she had cast all her 5th-level spells for the day. A psychic can select this amplification multiple times, "
+        "adding two additional options to the list of metamagic feats she can apply using this amplification each time."
+    ),
+    ("occult-adventures", "ref/phrenicamp/ongoing-defense"): (
+        "The psychic can increase the duration of spells that improve her psychic defenses. She can spend 1 point from her phrenic pool "
+        "when she casts any intellect fortress, mental barrier, thought shield, or tower of iron will spell to extend the spell's duration "
+        "by 1 round."
+    ),
+    ("occult-adventures", "ref/phrenicamp/undercast-surge"): (
+        "When the psychic undercasts a spell (see page 144), she can spend points from her phrenic pool to increase the spell's effective "
+        "level, essentially using up a lower-level spell slot to cast a higher-level version of the spell. This costs 2 points per spell "
+        "level increased. She can't use this ability to cast a version higher than the version she knows. For instance, a psychic who knows "
+        "mind thrust III but not mind thrust IV could cast mind thrust II and spend 2 points to treat it as mind thrust III, but couldn't "
+        "spend 4 points to treat it as mind thrust IV. This amplification can be linked only to spells that can be undercast."
+    ),
+}
+
+
+def printed_region_text(book: str, entry_id: str, extracted: str) -> str:
+    """Return a direct transcription of the printed region when the PDF text layer interleaves tables."""
+    return PRINT_REGION_TEXT.get((book, entry_id), extracted)
+
+
 def printed_head_names(ledger: list[dict], entries: dict, entry_id: str) -> list[str]:
     """Include titles of options outside the rewrite, so their printed heads still bound adjacent text."""
     return ([row["feature"] for row in ledger]
@@ -140,7 +178,7 @@ def extract_print(corpus: Path, book: str, books_dir: Path, cache_dir: Path) -> 
         links = re.findall(r"\[([^\]]+)\]\(([^)]+)\)", entry.body)
         vocab = source.vocab | {w.lower() for w in re.findall(r"[A-Za-z]+(?:-[A-Za-z]+)*", entry.body)}
         text, _, _ = fp.print_md(feature, links, vocab, entry.id)
-        text = options.PRINT_TEXT_OVERRIDES.get((book, entry.id), text)
+        text = printed_region_text(book, entry.id, text)
         family = entry.id.split("/")[1]
         if row["note"] and "opens with print's sentence about the mark" in row["note"]:
             intro = options.marked_head_intro(book, entry.id)
@@ -191,6 +229,13 @@ def self_test() -> int:
 
     if not eq(printed_head_names([{"feature": "Free in Body"}], {"x": Entry("Greater Mask Misery")}, "x"),
               ["Free in Body", "Greater Mask Misery"], "printed heads include the title of an out-of-scope no-import option"):
+        return 1
+    if not eq(printed_region_text("occult-adventures", "ref/phrenicamp/mimic-metamagic", "a deliberately wrong proposal"),
+              PRINT_REGION_TEXT[("occult-adventures", "ref/phrenicamp/mimic-metamagic")],
+              "the sentence audit uses its own Occult Adventures p. 63 print transcription"):
+        return 1
+    if not eq("quicken" in words(printed_region_text("occult-adventures", "ref/phrenicamp/mimic-metamagic", "")), True,
+              "the direct print transcription includes roman quicken, independent of the writer's override"):
         return 1
     if not eq(tags_match("", "Ex", ""), False, "imported tag absent from print" ):
         return 1
