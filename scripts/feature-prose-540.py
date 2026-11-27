@@ -3343,6 +3343,9 @@ def import_name(entry_id: str, name: str) -> str:
 # anchor, the labels and targets. Gunmaster (Ultimate Intrigue p. 61): "the gunslinger's gunsmith ability".
 EXTRA_LINKS = {
     ("ref/arc-vigilante/gunmaster", "gunmaster"): [("gunsmith", "ref/class/gunslinger#gunsmith")],
+    # review of #357: Primal Bond names three domains and three subdomains; the import links Animal, Destruction, Growth and Rage
+    # but not Strength or Ferocity. The corpus holds the domain pages (entries/domain/strength.md), and Ferocity is a subdomain on it.
+    ("ref/arc-druid/goliath-druid", "primal-bond"): [("Strength", "ref/domain/strength"), ("Ferocity", "ref/domain/strength")],
 }
 
 # A link of the import that points at the wrong thing: the entry and the label, retargeted (the TSV does not list it; the PR says so).
