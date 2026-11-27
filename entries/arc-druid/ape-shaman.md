@@ -40,7 +40,7 @@ who rouse her anger.
 
 ## Nature Bond {#nature-bond}
 
-An [ape](ref/companion/ape) shaman who chooses an animal companion must select an ape or related
+An ape shaman who chooses an animal companion must select an [ape](ref/companion/ape) or related
 primate. If choosing a domain, the ape shaman must choose from the [Animal](ref/domain/animal),
 Community (Family subdomain), [Destruction](ref/domain/destruction) (Rage subdomain), and Strength
 domains.

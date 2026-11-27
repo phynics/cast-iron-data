@@ -18,7 +18,7 @@ page = "111"
 kind = "archetype"
 features = [
   { anchor = "mysteries-of-the-past" },
-  { anchor = "revelations-of-the-past" },
+  { anchor = "revelations-of-the-past", level = 4 },
 ]
 trades = [
   { replaces = "Familiar", feature = "spirit-animal", by = ["mysteries-of-the-past"] },

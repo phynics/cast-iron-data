@@ -43,11 +43,11 @@ This ability replaces trapfinding and the rogue talent gained at 2nd level.
 
 ## Grandmaster of Disguise (Ex) {#grandmaster-of-disguise}
 
-At 10th level, a [master of disguise](ref/talent/master-of-disguise) gains the master of disguise
-advanced rogue talent and can use it an unlimited number of times per day. Because she must still
-don a physical disguise to gain this bonus, it doesn't stack with the bonuses from spells like
-_[alter self](ref/spell/alter-self)_ and _[disguise self](ref/spell/disguise-self)_, but since it is
-completely nonmagical, it is more reliable when scrutinized under magical detection.
+At 10th level, a master of disguise gains the master of disguise advanced rogue talent and can use
+it an unlimited number of times per day. Because she must still don a physical disguise to gain this
+bonus, it doesn't stack with the bonuses from spells like _[alter self](ref/spell/alter-self)_ and
+_[disguise self](ref/spell/disguise-self)_, but since it is completely nonmagical, it is more
+reliable when scrutinized under magical detection.
 
 This ability replaces the rogue talent gained at 10th level.
 

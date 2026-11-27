@@ -18,8 +18,8 @@ page = "12"
 kind = "archetype"
 features = [
   { anchor = "outsider-invocation", level = 1 },
-  { anchor = "taboo" },
-  { anchor = "shared-seance" },
+  { anchor = "taboo", level = 2 },
+  { anchor = "shared-seance", level = 2 },
   { anchor = "servitor", level = 3 },
   { anchor = "site-channeling", level = 5 },
   { anchor = "ask-the-planes", level = 14 },

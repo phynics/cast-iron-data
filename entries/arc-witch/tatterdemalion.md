@@ -45,8 +45,8 @@ This alters the witch's weapon proficiencies.
 
 ## Cantrips {#cantrips}
 
-A tatterdemalion must choose _[mage hand](ref/spell/mage-hand), [open/close](ref/spell/open-close),_
-and _[prestidigitation](ref/spell/prestidigitation)_ as her prepared cantrips at 1st level, and they
+A tatterdemalion must choose _mage hand, open/close,_ and
+_[prestidigitation](ref/spell/prestidigitation)_ as her prepared cantrips at 1st level, and they
 require a piece of cloth, string, rope, or other woven material (including clothing) as a focus. Any
 action she takes with these cantrips must involve the focus. Starting at 2nd level, she can choose
 any cantrip for her remaining cantrip.

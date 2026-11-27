@@ -17,7 +17,7 @@ page = "124"
 [fields]
 kind = "archetype"
 features = [
-  { anchor = "animal-companion" },
+  { anchor = "animal-companion", level = 4 },
   { anchor = "improved-empathic-link", level = 6 },
   { anchor = "strong-bond", level = 12 },
 ]

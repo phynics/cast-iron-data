@@ -42,9 +42,8 @@ This alters the unchained summoner's class skills.
 
 Instead of summoning creatures from the _[summon monster](ref/spell/summon-monster)_ list, the fey
 caller's summoning [spell-like ability](ref/umr/spell-like-abilities) summons creatures from the
-list for the _[summon nature's ally](ref/spell/summon-natures-ally) spell_ of the same level. It
-still follows the other rules and restrictions for the summoner's _summon monster_ spell-like
-ability.
+list for the _summon nature's ally spell_ of the same level. It still follows the other rules and
+restrictions for the summoner's _summon monster_ spell-like ability.
 
 This ability alters the summoner's _summon monster_ spell-like ability.
 
