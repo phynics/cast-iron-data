@@ -1110,7 +1110,7 @@ def _assemble(book: Book, items: list[tuple[int, list[dict]]]) -> list[Para]:
             if ln["size"] >= TAB_LEFT["title"]:
                 insets[ln["col"]] = ln["left"] if indent >= 8 else None
                 if out and out[-1].kind == "title" and out[-1].col == ln["col"] and out[-1].page == shown \
-                        and (CLASS_PAREN_LINE.match("".join(t for t, _, _ in ln["runs"])) or not (SMALL_CAP_TITLES["on"] and out[-1].size != ln["size"])):
+                        and ((PAREN_JOIN["on"] and CLASS_PAREN_LINE.match("".join(t for t, _, _ in ln["runs"]))) or not (SMALL_CAP_TITLES["on"] and out[-1].size != ln["size"])):
                     # a title of two lines is set in one size; a chapter title (36) above an archetype title (27) are two titles
                     out[-1].runs += [(" ", True, False)] + ln["runs"]
                 else:
@@ -1348,6 +1348,7 @@ def is_ex_section(title: str, key: str) -> bool:
 # Blood of the Ancients sets its titles in small capitals (a capital and its small capitals sit 5 units apart in one family of type), and
 # a chapter title that a page repeats unseen over the first lines of a column. Other books read as before.
 SMALL_CAP_TITLES = {"on": False}
+PAREN_JOIN = {"on": False}          # the class line of a title joins the title above it (the books of batch B6 only: other books were read without it)
 # The baseline shift between a title's capitals and its small capitals (the same family of type): 5 units in Blood of the Ancients,
 # 8 elsewhere, 9 in Divine Anthology, whose titles are set in Anavio Condensed Small Caps at 18 points.
 SMALL_CAP_JOIN = {"gap": 8}
@@ -4952,6 +4953,7 @@ def configure_book(book: str) -> None:
     STAYS_EXTRA["set"] = (frozenset({"discoveries"}) if book == "blood-of-shadows" else
                           frozenset({"gaininganaccursedcompanion", "accursedcompanionmanifestations"}) if book == "horror-realms" else frozenset())     # the heads of the Accursed Companions section (Horror Realms p. 10)
     SMALL_CAP_TITLES["on"] = book in SMALL_CAP_BOOKS or book in PLAYER_COMPANIONS
+    PAREN_JOIN["on"] = book in BATCH_B6_BOOKS
     CHAPTER_TITLES["on"] = (book in PLAYER_COMPANIONS and book != "blood-of-the-ancients") or book in CHAPTER_TITLE_BOOKS
     # a title in small capitals and a chapter title can stand higher than the body of the other books (Heroes of the High Court p. 29: capital at 86; Martial Arts Handbook p. 18: chapter title at 70; the running heads stand at 13-29)
     global BODY_TOP
