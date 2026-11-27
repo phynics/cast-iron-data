@@ -12,7 +12,7 @@ relations = [
 ]
 [[sources]]
 publication = "pathfinder-144-midwives-to-death"
-page = "83"
+page = "82"
 
 [fields]
 kind = "archetype"

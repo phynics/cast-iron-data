@@ -4533,6 +4533,8 @@ def finalize(e: Entry, res: dict, class_cache: dict | None = None) -> dict:
         first["notes"].append("opening text written from print: the import differs in " + ", ".join(res["opening_diff"][:12])
                                 + (" ..." if len(res["opening_diff"]) > 12 else ""))
     res["opening"] = opening
+    if e.id in PAGE_FIXES and rows:
+        rows[0]["notes"].append(f"page row {PAGE_FIXES[e.id][0]} becomes {PAGE_FIXES[e.id][1]}: " + PAGE_FIX_REASONS.get(e.id, "the title is printed there"))
     for label, target in deferred:
         place_elsewhere(rows, label, target)
     # a link that its own section could not place goes on the first free occurrence of its words in any section of the
@@ -4763,7 +4765,11 @@ def ptitle(e: "Entry") -> str:
 
 # An entry whose `[[sources]]` page row names a page other than the one that print has the archetype on (the page rows follow print): cited page,
 # printed page. `--compare` holds an entry that cites a wrong page and is not listed; `--write` puts the printed page in the row.
+PAGE_FIX_REASONS = {
+    "ref/arc-unchained-summoner/soulbound-summoner": "the title and the opening text stand at the foot of page 82 (Pathfinder #144); the abilities follow on page 83 (owner answer on #366)",
+}
 PAGE_FIXES = {
+    "ref/arc-unchained-summoner/soulbound-summoner": ("83", "82"),
     "ref/arc-witch/invoker": ("14", "20"),
     "ref/arc-paladin/pearl-seeker": ("54", "53"),      # Aquatic Adventures: the archetype starts on page 53 (review of #346)          # Haunted Heroes Handbook: the Invoker is printed on page 20 (owner answer on #342)
 }
@@ -6792,13 +6798,12 @@ TRADE_ADDITIONS["ref/arc-summoner/wild-caller-hotw"] = [{"alters": "the summoner
 TRADE_RENAMES[("ref/arc-summoner/wild-caller-hotw", "Aspect")] = "Aspect, which is instead gained at 18th level in place of greater aspect"
 TRADE_MERGED["ref/arc-summoner/wild-caller-hotw"] = [("replaces", "Greater aspect")]
 # Pathfinder #5 p. 72: the book lists the abilities that the tamer does not gain after its features, in paragraphs of their own, and prints no "replaces"
-# sentence. The import's row of Undying Bond lumps wild shape and venom immunity; venom immunity is the ninth-level ability, which Exotic Companion
-# (ninth level) gives up, so that is the feature that holds it.
+# sentence. The list stands in no feature and not in the opening text (it is three unlisted sections), so the three trades have no `by` (owner answer on #366:
+# a feature that print never ties a trade to is no `by`; ruling 6 of 2026-11-24 for the opening).
+TRADE_NO_BY["ref/arc-druid/ashvawg-tamer"] = ["Resist nature's lure", "Daily use of wild shape at 6th level", "venom immunity"]
 HEAD_REWRITES[("ref/arc-spiritualist/grim-apostle", "horseman-focus")] = "Horseman Focus"      # the book sets the head in capitals (Pathfinder #144 p. 72)
 HEAD_REWRITES[("ref/arc-druid/ashvawg-tamer", "class-features")] = "Class Features"      # the book sets the head in a face with a lower-case f
-TRADE_PROSE_BY[("ref/arc-druid/ashvawg-tamer", "venom immunity")] = "exotic-companion"
 TRADE_RENAMES[("ref/arc-druid/ashvawg-tamer", "Daily use of wild shape at 6th level")] = "Second daily use of wild shape at level 6"
-TRADE_PROSE_BY[("ref/arc-druid/ashvawg-tamer", "Daily use of wild shape at 6th level")] = "undying-bond"      # the sixth-level feature (keyed by the name before the rename)
 # ---- Batch A3: Elemental Master's Handbook, Monster Hunter's Handbook, Monster Summoner's Handbook, Armor Master's Handbook, Cohorts and Companions ----
 LEVEL_FROM_PRINT.update({
     ("ref/arc-paladin/divine-guardian", "bonus-feat"): (7, "print says \"A divine guardian gains a bonus feat at 7th level\" (Cohorts and Companions p. 23); the hand edit of the ability keeps the level"),

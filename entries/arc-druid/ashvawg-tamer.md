@@ -23,9 +23,9 @@ features = [
   { anchor = "exotic-companion", level = 9 },
 ]
 trades = [
-  { replaces = "Resist nature's lure", feature = "resist-nature-s-lure", by = ["bestial-bond"] },
-  { replaces = "Second daily use of wild shape at level 6", feature = "wild-shape", levels = [6], by = ["undying-bond"] },
-  { replaces = "venom immunity", feature = "venom-immunity", by = ["exotic-companion"] },
+  { replaces = "Resist nature's lure", feature = "resist-nature-s-lure" },
+  { replaces = "Second daily use of wild shape at level 6", feature = "wild-shape", levels = [6] },
+  { replaces = "venom immunity", feature = "venom-immunity" },
 ]
 +++
 
