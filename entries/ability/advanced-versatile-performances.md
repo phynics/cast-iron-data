@@ -8,6 +8,7 @@ provenance = [
 ]
 [[sources]]
 publication = "blood-of-the-beast"
+page = "12"
 
 [fields]
 kind = "none"
