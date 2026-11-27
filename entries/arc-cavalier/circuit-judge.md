@@ -16,78 +16,68 @@ page = "32"
 
 [fields]
 kind = "archetype"
+features = [
+  { anchor = "circuit", level = 1 },
+  { anchor = "sentence", level = 1 },
+  { anchor = "double-jeopardy", level = 12 },
+]
 trades = [
-  { replaces = "Tactician", feature = "tactician" },
-  { replaces = "greater tactician", feature = "greater-tactician" },
-  { replaces = "master tactician", feature = "master-tactician" },
-  { replaces = "Challenge", feature = "challenge" },
-  { replaces = "Demanding challenge", feature = "demanding-challenge" },
+  { replaces = "Tactician", feature = "tactician", by = ["circuit"] },
+  { replaces = "greater tactician", feature = "greater-tactician", by = ["circuit"] },
+  { replaces = "master tactician", feature = "master-tactician", by = ["circuit"] },
+  { replaces = "Challenge", feature = "challenge", by = ["sentence"] },
+  { replaces = "Demanding challenge", feature = "demanding-challenge", by = ["double-jeopardy"] },
 ]
 +++
 
 A circuit judge claims a specific region, becoming an expert in the local laws and, perhaps,
 becoming a fearsome executioner.
 
-**Circuit (Ex)**
+## Circuit (Ex) {#circuit}
 
-**Choice:** A circuit judge chooses a single community. While in that community or within 25 miles
+At 1st level, a circuit judge chooses a single community. While in that community or within 25 miles
 of it, she adds [half](ref/misc/fractions-and-rounding) her cavalier level (minimum 1) on
 Intimidate, Knowledge (local), and Sense Motive skill checks (as well as any other law-related skill
-checks, at the GM's discretion).
+checks, at the GM's discretion). Whenever she advances in level, the range within which she gains
+this bonus expands by another 25 miles—50 miles at 2nd level, 75 miles at 3rd level, and so forth.
+This bonus on Intimidate checks increases by 2 when she enters a community within this area that she
+hasn't visited for 1 week or more.
 
-**At 17th Level:** The circuit judge can select a third community within the range, following the
-above restrictions and gaining the above's benefits.
+At 9th level and 17th level, the circuit judge can select another community within the range in
+which she gains this ability's bonus. She can measure from that community (as well as previous
+communities) to determine whether she gains this ability's bonus on the relevant skill checks.
 
-**At 9th Level:** The circuit judge can select another community within the range in which she gains
-this ability's bonus. She can measure from that community (as well as previous communities) to
-determine whether she gains this ability's bonus on the relevant skill checks.
+This ability replaces tactician, greater tactician, and master tactician.
 
-**Gained:** At 1st Level
+## Sentence (Ex) {#sentence}
 
-**Passive:** Whenever she advances in level, the range within which she gains this bonus expands by
-another 25 miles-50 miles at 2nd level, 75 miles at 3rd level, and so forth. This bonus on
-Intimidate checks increases by 2 when she enters a community within this area that she hasn't
-visited for 1 week or more.
+Once per day as a swift action, the circuit judge can choose one target within sight to sentence.
+The circuit judge gains the potential for a variety of bonuses related to that target. The circuit
+judge chooses the form of these benefits from the following list of inquisitor
+[judgments](ref/ability/judgments): destruction, justice, protection, purity, or smiting.
 
-**Replaces:** Tactician, greater tactician, master tactician
-
-**Sentence (Ex)**
-
-**Action:** Swift Action
-
-**Replaces:** Challenge
-
-**Usage:** Twice per day at 1st level, plus two additional times per day for every 3 cavalier levels
-beyond 1st, to a maximum of 14 times per day at 19th level.
-
-**Usage:** Twice per day at 1st level, plus two additional times per day for every 3 cavalier levels
-beyond 1st, to a maximum of 14 times per day at 19th level.
-
-The circuit judge can choose one target within sight to _sentence._ The circuit judge gains the
-potential for a variety of bonuses related to that target. The circuit judge chooses the form of
-these benefits from the following list of inquisitor [judgments](ref/ability/judgments):
-destruction, justice, protection, purity, or smiting.
-
-The benefits of these judgments apply only to the circuit judge and the target - the protection
-judgment's bonus to Armor Class, for example, applies only to attacks made by the _sentenced_ target
+The benefits of these judgments apply only to the circuit judge and the target—the protection
+judgment's bonus to Armor Class, for example, applies only to attacks made by the sentenced target
 (not any creature who attacks the circuit judge while the judgment is active). Treat the circuit
 judge's level as her inquisitor level for the purposes of determining how these judgments increase
-in power. She can switch her _sentence_ as a **swift action**, but doing so expends an additional
-daily use of this ability.
+in power. The circuit judge can use this ability twice per day at 1st level, plus two additional
+times per day for every 3 cavalier levels beyond 1st, to a maximum of 14 times per day at 19th
+level. She can switch her sentence as a swift action, but doing so expends an additional daily use
+of this ability.
 
-_Sentencing_ a foe requires much of the circuit judge's concentration. The circuit judge takes a -2
-penalty to her Armor Class, except against attacks made by the target of her _sentence._
+Sentencing a foe requires much of the circuit judge's concentration. The circuit judge takes a -2
+penalty to her Armor Class, except against attacks made by the target of her sentence.
 
-The _sentence_ remains in effect either until the target is dead or unconscious or until the combat
-ends. _Sentences_ are considered _challenges_ for the purposes of the effects listed in the
-challenge section describing the cavalier's [order](ref/ability/orders).
+The sentence remains in effect either until the target is dead or unconscious or until the combat
+ends. Sentences are considered challenges for the purposes of the effects listed in the challenge
+section describing the cavalier's [order](ref/ability/orders).
 
-**Double Jeopardy (Ex)**
+This ability replaces challenge.
 
-**Ability:** Whenever a circuit judge _sentences_ a foe, she can gain the benefits of two inquisitor
+## Double Jeopardy (Ex) {#double-jeopardy}
+
+At 12th level, whenever a circuit judge sentences a foe, she can gain the benefits of two inquisitor
 judgments against the foe instead of one. Using this ability does not expend a daily use of
-_sentence._
+sentence.
 
-**Gained:** At 12th Level
-
-**Replaces:** Demanding challenge
+This ability replaces demanding challenge.

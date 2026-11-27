@@ -15,7 +15,7 @@ publication = "elemental-masters-handbook"
 page = "8"
 
 [fields]
-kind = "none"
+kind = "archetype"
 +++
 
 Whether aiding the faithful or defending against the depredations of unbelievers, a foundation of

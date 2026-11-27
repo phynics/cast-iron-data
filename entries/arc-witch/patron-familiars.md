@@ -14,7 +14,7 @@ publication = "familiar-folio"
 page = "17"
 
 [fields]
-kind = "none"
+kind = "archetype"
 +++
 
 Witches' familiars are often tied to their patrons, enhancing and reinforcing the spellcasters'

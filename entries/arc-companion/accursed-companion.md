@@ -11,7 +11,7 @@ publication = "horror-realms"
 page = "10"
 
 [fields]
-kind = "none"
+kind = "archetype"
 +++
 
 When a character calls upon the aid and companionship of one of nature's children, she forges a
