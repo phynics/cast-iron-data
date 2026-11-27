@@ -13,16 +13,12 @@ page = "33"
 [fields]
 kind = "class_option"
 group = "investigator-talent"
+ability_type = "Ex"
 +++
 
-**Studied Defense (Ex)**
-
-**Ability:** When an investigator with this talent uses his _studied combat_ ability, he can chose
-to apply that ability's insight bonus to his AC against attacks made by the target of his _studied
-combat_ instead of to attack rolls against the target of his _studied combat._ (The insight bonus on
-damage rolls remains.)
-
-**Prereq:** 9th-level investigator
-
-**Special:** He must choose which type of bonus he gains when using _studied combat,_ and it cannot
-be changed until he uses _studied combat_ again.
+When an investigator with this talent uses his studied combat ability, he can chose to apply that
+ability's insight bonus to his AC against attacks made by the target of his studied combat instead
+of to attack rolls against the target of his studied combat. (The insight bonus on damage rolls
+remains.) He must choose which type of bonus he gains when using studied combat, and it cannot be
+changed until he uses studied combat again. An investigator must be at least 9th level to select
+this talent.

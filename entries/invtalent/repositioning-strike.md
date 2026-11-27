@@ -8,17 +8,19 @@ provenance = [
 ]
 [[sources]]
 publication = "advanced-class-guide"
-page = "33"
+page = "32-33"
 
 [fields]
 kind = "class_option"
 group = "investigator-talent"
+ability_type = "Ex"
 +++
 
-**Repositioning Strike (Ex)**
+Investigator talents marked with an asterisk (\*) add effects to an investigator’s studied combat or
+studied strike. Only one of these talents can be applied to an individual attack, but the decision
+can be made when the damage is dealt.
 
-**Free:** When the investigator deals damage with _studied strike,_ he can perform a
-[reposition](ref/rule/reposition) combat maneuver against the creature damaged by _studied strike._
-This reposition does not provoke attacks of opportunity.
-
-**Prereq:** 13th-level investigator
+When the investigator deals damage with studied strike, he can perform a
+[reposition](ref/rule/reposition) combat maneuver as a free action against the creature damaged by
+studied strike. This reposition does not provoke attacks of opportunity. An investigator must be at
+least 13th level to select this talent.

@@ -13,12 +13,9 @@ page = "33"
 [fields]
 kind = "class_option"
 group = "investigator-talent"
+ability_type = "Ex"
 +++
 
-**Item Lore (Ex)**
-
-**Ability:** An investigator can use [Spellcraft](ref/skill/spellcraft) to identify the properties
-and command words of magic items without the use of [detect magic](ref/spell/detect-magic) or
-similar spells.
-
-**Prereq:** 7th-level investigator
+An investigator can use [Spellcraft](ref/skill/spellcraft) to identify the properties and command
+words of magic items without the use of _[detect magic](ref/spell/detect-magic)_ or similar spells.
+An investigator must be at least 7th level to take this talent.

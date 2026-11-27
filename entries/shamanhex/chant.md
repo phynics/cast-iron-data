@@ -13,13 +13,11 @@ page = "36"
 [fields]
 kind = "class_option"
 group = "shaman-hex"
+ability_type = "Ex"
 +++
 
-**Chant (Su)**
-
-**Ability:** A shaman can chant as a **move action**. Any creature that is within 30 feet that is
-under the effects of the shaman's [charm](ref/shamanhex/charm), [evil eye](ref/shamanhex/evil-eye),
+A shaman can chant as a move action. Any creature that is within 30 feet that is under the effects
+of the shaman's [charm](ref/shamanhex/charm), [evil eye](ref/shamanhex/evil-eye),
 [fortune](ref/shamanhex/fortune), [fury](ref/shamanhex/fury), or
-[misfortune](ref/shamanhex/misfortune) hex has that effect's duration extended by 1 round.
-
-**Special:** A shaman cannot select both this hex and the witch's [cackle](ref/hex/cackle) hex.
+[misfortune](ref/shamanhex/misfortune) hex has that effect's duration extended by 1 round. A shaman
+cannot select both this hex and the witch's [cackle](ref/hex/cackle) hex.

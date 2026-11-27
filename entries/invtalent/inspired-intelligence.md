@@ -13,9 +13,8 @@ page = "33"
 [fields]
 kind = "class_option"
 group = "investigator-talent"
+ability_type = "Ex"
 +++
 
-**Inspired Intelligence (Ex)**
-
-**Ability:** An investigator can add his _inspiration_ die to all Knowledge, Linguistics, or
-Spellcraft checks without expending a use of _inspiration,_ even those he's not trained in.
+An investigator can add his inspiration die to all Knowledge, Linguistics, or Spellcraft checks
+without expending a use of inspiration, even those he's not trained in.

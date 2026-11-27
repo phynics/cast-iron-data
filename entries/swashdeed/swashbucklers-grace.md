@@ -13,12 +13,9 @@ page = "58"
 [fields]
 kind = "class_option"
 group = "swashbuckler-deed"
+ability_type = "Ex"
 +++
 
-**Swashbuckler's Grace (Ex)**
-
-**Passive:** While the swashbuckler has at least 1 panache point, she takes no penalty for moving at
-full speed when she uses Acrobatics to attempt to move through a threatened area or an enemy's
+At 7th level, while the swashbuckler has at least 1 panache point, she takes no penalty for moving
+at full speed when she uses Acrobatics to attempt to move through a threatened area or an enemy's
 space.
-
-**Prereq:** 7th-level swashbuckler

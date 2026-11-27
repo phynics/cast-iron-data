@@ -13,10 +13,9 @@ page = "32"
 [fields]
 kind = "class_option"
 group = "investigator-talent"
+ability_type = "Ex"
 +++
 
-**Expanded Inspiration (Ex)**
-
-**Ability:** An investigator can use his _inspiration_ ability when attempting Diplomacy, Heal,
-Perception, Profession, and Sense Motive checks without expending uses of _inspiration,_ provided
-he's trained in the skill.
+An investigator can use his inspiration ability when attempting Diplomacy, Heal, Perception,
+Profession, and Sense Motive checks without expending uses of inspiration, provided he's trained in
+the skill.

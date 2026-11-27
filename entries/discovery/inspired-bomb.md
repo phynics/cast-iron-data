@@ -13,12 +13,11 @@ page = "75"
 [fields]
 kind = "class_option"
 group = "alchemist-discovery"
+ability_type = "Su"
 +++
 
-**Inspired Bomb**
-
-**Ability:** An alchemist with this discovery can expend two uses of _inspiration_ to increase the
-bomb's damage by 1d6. The type of damage the bomb deals does not change. This cannot be applied to
+An alchemist with this discovery and a pool of inspiration (by way of a class feature, a feat, or
+the inspiring cognatogen discovery) can expend two uses of inspiration to increase the bomb's damage
+by 1d6. The type of damage the bomb deals does not change. Unlike other discoveries that affect
+bombs, this one can be applied to a bomb with another bomb discovery, though it cannot be applied to
 the same bomb more than once.
-
-**Prereq:** _Inspiration_ pool

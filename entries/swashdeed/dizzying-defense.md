@@ -13,16 +13,11 @@ page = "59"
 [fields]
 kind = "class_option"
 group = "swashbuckler-deed"
+ability_type = "Ex"
 +++
 
-**Dizzying Defense (Ex)**
-
-**Ability:** While wielding a light or one-handed piercing melee weapon in one hand, the
+At 15th level, while wielding a light or one-handed piercing melee weapon in one hand, the
 swashbuckler can spend 1 panache point to take the
-[fighting defensively](ref/misc/fighting-defensively) action as a **swift action** instead of a
-standard action.
-
-When fighting defensively in this manner, the dodge bonus to AC gained from that action increases to
-+4, and the penalty to attack rolls is reduced to -2.
-
-**Prereq:** 15th-level swashbuckler
+[fighting defensively](ref/misc/fighting-defensively) action as a swift action instead of a standard
+action. When fighting defensively in this manner, the dodge bonus to AC gained from that action
+increases to +4, and the penalty to attack rolls is reduced to -2.

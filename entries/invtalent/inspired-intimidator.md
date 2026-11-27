@@ -13,16 +13,13 @@ page = "33"
 [fields]
 kind = "class_option"
 group = "investigator-talent"
+ability_type = "Ex"
 +++
 
-**Inspired Intimidator (Ex)**
-
-**Ability:** When the investigator succeeds at an Intimidate check to demoralize an opponent, he can
-expend one use of _inspiration_ to automatically increase the result of the check by 5 for the
-purpose of determining the duration of the demoralize effect. He can choose to spend multiple uses
-to _inspiration_ in this manner to further increase the duration of the demoralize effect.
-
-**Prereq:** Trained in [Intimidate](ref/skill/intimidate)
-
-**Special:** The [underworld inspiration](ref/invtalent/underworld-inspiration) investigator talent
-has no effect on this talent.
+When the investigator succeeds at an [Intimidate](ref/skill/intimidate) check to demoralize an
+opponent, he can expend one use of inspiration to automatically increase the result of the check by
+5 for the purpose of determining the duration of the demoralize effect. He can choose to spend
+multiple uses to inspiration in this manner to further increase the duration of the demoralize
+effect. He must be trained in [Intimidate](ref/skill/intimidate) to take this talent. The
+[underworld inspiration](ref/invtalent/underworld-inspiration) investigator talent has no effect on
+this talent.

@@ -13,12 +13,9 @@ page = "32"
 [fields]
 kind = "class_option"
 group = "investigator-talent"
+ability_type = "Ex"
 +++
 
-**Effortless Aid (Ex)**
-
-**Ability:** The investigator can use an [aid another](ref/rule/aid-another-2) action as a **move
-action** instead of as a standard action.
-
-An investigator can expend one use of _inspiration_ to instead perform an aid another action as a
-**swift action**.
+The investigator can use an [aid another](ref/rule/aid-another-2) action as a move action instead of
+as a standard action. An investigator can expend one use of inspiration to instead perform an aid
+another action as a swift action.

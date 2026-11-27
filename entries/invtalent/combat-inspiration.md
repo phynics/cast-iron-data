@@ -13,11 +13,8 @@ page = "32"
 [fields]
 kind = "class_option"
 group = "investigator-talent"
+ability_type = "Ex"
 +++
 
-**Combat Inspiration (Ex)**
-
-**Passive:** When an investigator uses _inspiration_ on an attack roll or saving throw, he expends
-one use of _inspiration_ instead of two.
-
-**Prereq:** 9th-level investigator
+When an investigator uses inspiration on an attack roll or saving throw, he expends one use of
+inspiration instead of two. An investigator must be at least 9th level to select this talent.

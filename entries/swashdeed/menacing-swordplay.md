@@ -13,12 +13,9 @@ page = "57"
 [fields]
 kind = "class_option"
 group = "swashbuckler-deed"
+ability_type = "Ex"
 +++
 
-**Menacing Swordplay (Ex)**
-
-**Ability:** While she has at least 1 panache point, when a swashbuckler hits an opponent with a
+At 3rd level, while she has at least 1 panache point, when a swashbuckler hits an opponent with a
 light or one-handed piercing melee weapon, she can choose to use Intimidate to demoralize that
-opponent as a **swift action** instead of a standard action.
-
-**Prereq:** 3rd-level swashbuckler
+opponent (_Pathfinder RPG Core Rulebook_ 99) as a swift action instead of a standard action.

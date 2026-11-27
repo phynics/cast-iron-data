@@ -13,11 +13,10 @@ page = "114"
 [fields]
 kind = "class_option"
 group = "rage-power"
+ability_type = "Su"
 +++
 
-**Raging Flier (Su)**
-
-**Move:** Once per _rage,_ the character can fly up to her base speed. If she uses the
+Once per rage, the character can fly up to her base speed as a move action. If she uses the
 [charge](ref/rule/charge) action, she can use this flight as part of her movement during the charge.
-
-**Prereq:** 6th-level barbarian, [raging leaper](ref/ragepower/raging-leaper)
+A character must be at least 6th level and have the [raging leaper](ref/ragepower/raging-leaper)
+rage power to select this rage power.
