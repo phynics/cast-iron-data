@@ -17,6 +17,7 @@ page = "8"
 [fields]
 kind = "archetype"
 features = [
+  { anchor = "poisoner" },
   { anchor = "poison-use", level = 2 },
   { anchor = "toxic-words", level = 2 },
 ]
