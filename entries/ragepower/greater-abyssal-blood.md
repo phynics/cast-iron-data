@@ -13,11 +13,10 @@ page = "80"
 [fields]
 kind = "class_option"
 group = "rage-power"
+ability_type = "Su"
 +++
 
-**Greater Abyssal Blood (Su)**
+A greater blood rage power can only be taken by a 10th level or higher barbarian that already has
+the middle blood rage power.
 
-**Passive:** While _raging,_ the barbarian gains [resistance](ref/umr/resistance) 5 to acid, cold,
-and fire.
-
-**Prereq:** 10th-level barbarian, [abyssal blood](ref/ragepower/abyssal-blood)
+While raging, the barbarian gains [resistance](ref/umr/resistance) 5 to acid, cold, and fire.

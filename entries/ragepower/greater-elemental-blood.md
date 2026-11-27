@@ -13,13 +13,12 @@ page = "80"
 [fields]
 kind = "class_option"
 group = "rage-power"
+ability_type = "Su"
 +++
 
-**Greater Elemental Blood (Su)**
+A greater blood rage power can only be taken by a 10th level or higher barbarian that already has
+the middle blood rage power.
 
-**Ability:** While _raging,_ the barbarian gains a special movement type or bonus based on her
-chosen element: **acid** grants a burrow speed of 30 feet, **cold** grants a swim speed of 60 feet,
-**fire** grants an increase of 30 feet to her base land speed, and **electricity** grants a fly
-speed of 60 feet (good maneuverability).
-
-**Prereq:** 10th-level barbarian, [elemental blood](ref/ragepower/elemental-blood)
+While raging, the barbarian gains a special movement type or bonus based on her chosen element: acid
+grants a burrow speed of 30 feet, cold grants a swim speed of 60 feet, fire grants an increase of 30
+feet to her base land speed, and electricity grants a fly speed of 60 feet (good maneuverability).

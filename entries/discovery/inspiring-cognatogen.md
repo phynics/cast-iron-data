@@ -16,7 +16,7 @@ group = "alchemist-discovery"
 ability_type = "Su"
 +++
 
-An alchemist with this discovery leans how to make an inspiring
+An alchemist with this discovery learns how to make an inspiring
 [cognatogen](ref/discovery/cognatogen), a mutagen-like mixture that grants him inspiration (as the
 [investigator's](ref/class/investigator) class feature) at the expense of Strength and Constitution.
 Upon drinking the inspiring cognatogen, the alchemist gains a pool of inspiration equal to 1/2 his
