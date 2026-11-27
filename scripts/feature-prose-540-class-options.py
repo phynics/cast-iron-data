@@ -141,6 +141,9 @@ def install_split(names: list[str]) -> None:
         orig = fp.split_print
 
         def wrapped(section, expected):
+            # a printed section heading ("2-Point Evolutions", "Base Forms") ends the text of the power above it: it stands as a head of its own
+            section = section[:1] + [fp.Para("para", [(q.plain().strip(), True, False)], q.page, q.col, 0) if q.kind == "title" else q
+                                     for q in section[1:]]
             opening, feats = orig(section, list(expected) + EXTRA_NAMES)
             for f in feats:                      # print sets "Beast Totem, Greater (Su)" for the corpus title "Greater Beast Totem"
                 m = INVERTED_HEAD.match(f.head)
@@ -223,6 +226,7 @@ def run_compare(args) -> int:
     everything = load_class_options(corpus, book)
     names: list[str] = []
     for x in everything:
+        names.append(x.title)                      # a converted option has no import row left, but its italic head still ends the text above it
         if shape_of(x.body)[0] != "none":
             for f in fp.parse_import(x.body, set())[1]:
                 names += [f.name, fp.tail_name(f.name)]

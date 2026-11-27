@@ -15,9 +15,7 @@ kind = "class_option"
 group = "rage-power"
 +++
 
-**Lesser Chaos Totem (Su)**
-
-**Passive:** While _raging,_ the barbarian gains a +1 deflection bonus to AC against the attacks of
-lawful creatures and a +1 resistance bonus on saving throws against confusion, insanity, polymorph,
-and effects with the lawful descriptor. This bonus increases by +1 for each chaos totem rage power
-she possesses.
+While raging, the barbarian gains a +1 deflection bonus to AC against the attacks of lawful
+creatures and a +1 resistance bonus on saving throws against confusion, insanity, polymorph, and
+effects with the lawful descriptor. This bonus increases by +1 for each chaos totem rage power she
+possesses.

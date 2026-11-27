@@ -15,10 +15,6 @@ kind = "class_option"
 group = "summoner-evolution"
 +++
 
-**Weapon Training (Ex)**
-
-**Ability:** An eidolon learns to use a weapon, gaining
-[Simple Weapon Proficiency](ref/feat/simple-weapon-proficiency) as a bonus feat.
-
-**Special:** If 2 additional evolution points are spent, it gains proficiency with all martial
-weapons as well.
+An eidolon learns to use a weapon, gaining
+[Simple Weapon Proficiency](ref/feat/simple-weapon-proficiency) as a bonus feat. If 2 additional
+evolution points are spent, it gains proficiency with all martial weapons as well.
