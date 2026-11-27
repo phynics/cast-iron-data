@@ -25,7 +25,7 @@ additional creature with this ability. Each creature within range receives a Wil
 the bard's level + the bard's Cha modifier) to negate the effect. If a creature's saving throw
 succeeds, the bard cannot attempt to fascinate that creature again for 24 hours. If its saving throw
 fails, the creature sits quietly and observes the performance for as long as the bard continues to
-maintain it. While fascinated, a target takes a -4 penalty on all skill checks made as reactions,
+maintain it. While fascinated, a target takes a –4 penalty on all skill checks made as reactions,
 such as Perception checks. Any potential threat to the target allows the target to make a new saving
 throw against the effect. Any obvious threat, such as someone drawing a weapon, casting a spell, or
 aiming a weapon at the target, automatically breaks the effect. Fascinate is an enchantment

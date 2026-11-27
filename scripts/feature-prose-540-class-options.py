@@ -1769,6 +1769,8 @@ def clean_core_rulebook_print(entry_id: str, text: str) -> str:
         text = re.sub(r"\s*Master Strike\s+_?\(Ex\)_?\s*:\s*.*$", "", text, flags=re.S)
     if entry_id == "ref/ragepower/animal-fury":
         text = text.replace("base attack bonus -5", "base attack bonus –5")
+    if entry_id == "ref/performance/fascinate":
+        text = text.replace("takes a -4 penalty", "takes a –4 penalty")
     return re.sub(r"\s+", " ", text).strip()
 
 
@@ -2217,6 +2219,8 @@ def self_test() -> int:
        "CRB Feat stops before the Master Strike class feature")
     eq(clean_core_rulebook_print("ref/ragepower/animal-fury", "base attack bonus -5"), "base attack bonus –5",
        "CRB Animal Fury preserves print's en dash")
+    eq(clean_core_rulebook_print("ref/performance/fascinate", "takes a -4 penalty"), "takes a –4 penalty",
+       "CRB Fascinate preserves print's en dash")
     eq(core_rulebook_links("ref/performance/soothing-performance", "removes fatigued, sickened, and shaken."),
        "removes [fatigued](ref/misc/fatigued), [sickened](ref/misc/sickened), and [shaken](ref/misc/shaken).",
        "Core Rulebook links its printed conditions")
