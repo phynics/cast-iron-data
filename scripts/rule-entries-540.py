@@ -18,7 +18,7 @@ What it does
    option is converted when its ledger row is `written`; a base class when it has no import row left). `--check` fails when a copy's body hash
    differs from the converted parent's body. A parent that is not converted yet is reported, not an error.
 3. **The incidental rows** (ruling 3): the invented row `**Action:** Trick` of `ref/ability/companion-tricks`, and the pages of the entries whose
-   cited page is not the one that print has the stray row on.
+   cited page is not the printed page that print has the stray row on (only `high-rp-types`: the other two cite the printed pages already).
 """
 
 from __future__ import annotations
@@ -38,11 +38,13 @@ CORRUPTIONS = [
 ]
 CLASSES = ["barbarian", "bard", "cleric", "druid", "fighter", "monk", "paladin", "ranger", "rogue", "sorcerer", "wizard"]
 SPIRITS = ["archmage", "champion", "guardian", "hierophant", "marshal", "trickster"]
-# (entry id, the page that its cited page row must read, the book and the printed run-in that the stray row is): print has the row on that page
+# (entry id, the page that its cited page row held, the page it must read, the book): print has the stray row of `high-rp-types` on printed p. 215 of the
+# Advanced Race Guide. The other two rows were checked against the footers and are right as they stand: the heading and first paragraph of `grapple` are
+# on printed p. 199 of the Core Rulebook (PDF page 200), and those of `advanced-actions` on printed p. 105 of Pathfinder Unchained (PDF page 106).
 PAGE_FIXES = {
     "ref/rule/high-rp-types": ("217", "215", "Advanced Race Guide"),
-    "ref/rule/grapple": ("199", "200", "Core Rulebook"),
-    "ref/rule/advanced-actions": ("105", "106", "Pathfinder Unchained"),
+    "ref/rule/grapple": ("199", "199", "Core Rulebook"),
+    "ref/rule/advanced-actions": ("105", "105", "Pathfinder Unchained"),
 }
 INVENTED_ROW = ("ref/ability/companion-tricks", "**Action:** Trick")
 
