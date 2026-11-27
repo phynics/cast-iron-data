@@ -1339,6 +1339,7 @@ CHAPTER_TITLES = {"on": False}
 MARGIN_CAPTIONS = {"on": False}
 ITALIC_FIRST = {"on": False}            # the Campaign Setting books: the first letter of an italic word that the layer set apart ("s" + "un orchid elixir")
 LOWERCASE_CONTINUES = {"on": False}      # the Campaign Setting books: no paragraph starts in lower case
+RULE57_TRADE_LEVELS = {("ref/arc-warpriest/proselytizer", "emotional-appeal")}     # ruling 57: the lowest level across its trades, the bonus feat at 3rd (review of #347)
 RULE57 = {"on": True}           # owner ruling 57 (the level of a whole class feature at any level); `--rules` could turn it off
 LIST_CONTINUES = {"on": False}  # a line of a list item that print wraps without a bullet continues the item (Potions and Poisons: the bullets hang)
 BULLETS = {"on": False}         # a line that starts with a bullet starts a list item (Inner Sea Intrigue "Tinkering")
@@ -4306,31 +4307,27 @@ def class_table_levels(corpus: Path, class_id: str, cache: dict) -> dict[str, in
 
 
 
-_LEVEL_WORDS = re.compile(r"\b\d+(?:st|nd|rd|th)\b|\blevels?\b|\bgained\b|\bnormally\b", re.I)
+# A trade whose name print makes longer than the class table's name ("The bomb class feature", "Brew Potion, though an oozemaster can still select ...",
+# the summoner's "summon monster I-IX abilities"): the table's name for it, per entry (review of #347; a looser match would give levels to parts of
+# features that ruling 57 records as no level).
+TABLE_NAMES = {
+    ("ref/arc-alchemist/oozemaster", "The bomb class feature"): "Bomb",
+    ("ref/arc-alchemist/oozemaster", "Brew Potion, though an oozemaster can still select Brew Potion without meeting the feat's prerequisites"): "Brew potion",
+    ("ref/arc-summoner/morphic-savant", "Summon monster"): "Summon monster I",
+    ("ref/arc-unchained-summoner/morphic-savant", "Summon monster"): "Summon monster I",
+    ("ref/arc-summoner/unwavering-conduit", "Summon monster"): "Summon monster I",
+    ("ref/arc-summoner/storm-caller", "the summoner's summon monster I\u2013IX abilities"): "Summon monster I",
+    ("ref/arc-unchained-summoner/storm-caller", "the summoner's summon monster I\u2013IX abilities"): "Summon monster I",
+}
 
 
-def table_level(tab: dict[str, int], name: str) -> int | None:
-    """The lowest level at which the class table lists the feature that a trade names. A name that the printed sentence makes longer
-    still counts when it starts with the table's name or the table's name starts with it ("The bomb class feature", "Brew Potion,
-    though an oozemaster can still select ...", "Sacred weapon and also replaces sacred armor" for the names bomb, brew potion, sacred
-    weapon; "Summon monster" for the table's "summon monster I"). A name that states a level ("Bonus feats gained at 3rd level") is a part of
-    a feature and is matched only by the exact name (owner ruling 48)."""
-    keys = [first_level_key(name), first_level_alt_key(name)]
-    for k in keys:
-        if k in tab:
+def table_level(tab: dict[str, int], name: str, entry_id: str = "") -> int | None:
+    """The level at which the class table lists the feature that a trade names: the exact name (`first_level_key`), or the table's name that
+    `TABLE_NAMES` gives for a trade that print names longer."""
+    for k in (first_level_key(name), first_level_alt_key(name), first_level_key(TABLE_NAMES.get((entry_id, name), ""))):
+        if k and k in tab:
             return tab[k]
-    if _LEVEL_WORDS.search(name):
-        return None
-    best = None
-    for k in dict.fromkeys(keys):
-        kt = k.split()
-        if not kt:
-            continue
-        for tk, lv in tab.items():
-            tt = tk.split()
-            if tt and (kt[:len(tt)] == tt or tt[:len(kt)] == kt) and (len(tt) > 1 or len(kt) > 1 or len(tk) >= 4) and (best is None or lv < best):
-                best = lv
-    return best
+    return None
 
 
 def fold_table_sections(rows: list[dict], decisions: dict, entry_id: str, problems: list[str]) -> None:
@@ -4607,7 +4604,7 @@ def finalize(e: Entry, res: dict, class_cache: dict | None = None) -> dict:
                     firsts.append(1 in (t.get("levels") or ()) or bool(re.search(r"\b1st\b", trade_name(t)[1]))
                                   or (bool(cls) and (first_level_key(trade_name(t)[1]) in class_first_level(corpus, cls, class_cache)
                                                      or first_level_alt_key(trade_name(t)[1]) in class_first_level(corpus, cls, class_cache)
-                                                     or table_level(class_table_levels(corpus, cls, class_cache), trade_name(t)[1]) == 1)))
+                                                     or table_level(class_table_levels(corpus, cls, class_cache), trade_name(t)[1], e.id) == 1)))
                 # ruling 35: level 1 when any feature that it replaces is a 1st-level feature, even if it also replaces later ones
                 # owner ruling 50: altering a whole 1st-level feature counts like replacing it; a part of a feature (a proficiency, class skills,
                 # a spell list) is no class-table name and gives none (ruling 48)
@@ -4626,10 +4623,10 @@ def finalize(e: Entry, res: dict, class_cache: dict | None = None) -> dict:
                     for t in mine:
                         op, name = trade_name(t)
                         cls = t.get("class") or (e.classes[0] if e.classes else "")
-                        if op in ("replaces", "alters") and t.get("levels") and not t.get("power"):
-                            found.append((min(t["levels"]), op, name))       # the lowest level of a trade that names its levels (the bonus feat gained at 3rd level: Emotional Appeal)
+                        if op in ("replaces", "alters") and t.get("levels") and not t.get("power") and (e.id, r["anchor"]) in RULE57_TRADE_LEVELS:
+                            found.append((min(t["levels"]), op, name))       # the lowest level of a trade that names its levels, for the features that the review of a batch names (Emotional Appeal: the bonus feat gained at 3rd level)
                         elif op in ("replaces", "alters") and cls and not t.get("levels") and not t.get("power"):
-                            lv = table_level(class_table_levels(corpus, cls, class_cache), name)
+                            lv = table_level(class_table_levels(corpus, cls, class_cache), name, e.id)
                             if lv:
                                 found.append((lv, op, name))
                     if found:
@@ -5775,11 +5772,10 @@ def self_test() -> int:
     eq([x["runs"][0][0] for x in _box], ["Armor Master Archetypes and Prestige Classes", "Many organizations"], "lore box apart: its lines")
     BOX_LORE["titles"] = frozenset()
     eq([bool(CHOICE_INTRO.search(t)) for t in ("He can select the following additional discoveries: x.", "These talents can be selected by any rogue.", "These can also be taken by any fighter.", "He can take a feat.")], [True, True, True, False], "choice lead-ins of ruling 57's message")
-    _tab = {"bomb": 1, "brew potion": 1, "sacred weapon": 1, "sacred armor": 4, "summon monster i": 1, "bonus feat": 1, "channel energy": 4}
-    eq([table_level(_tab, n) for n in ("The bomb class feature", "Brew Potion, though an oozemaster can still select Brew Potion without meeting the feat's prerequisites",
-                                       "Sacred weapon and also replaces sacred armor", "Summon monster", "the summoner's summon monster I\u2013IX abilities", "Channel energy",
-                                       "Bonus feats gained at 3rd level", "Mount")],
-       [1, 1, 1, 1, 1, 4, None, None], "table_level: a renamed trade still finds the class feature; a part of a feature does not")
+    _tab = {"bomb": 1, "brew potion": 1, "sacred weapon": 1, "summon monster i": 1, "channel energy": 4}
+    eq([table_level(_tab, "The bomb class feature", "ref/arc-alchemist/oozemaster"), table_level(_tab, "The bomb class feature"), table_level(_tab, "Sacred weapon"), table_level(_tab, "Channel energy"),
+        table_level(_tab, "Summon monster", "ref/arc-summoner/morphic-savant"), table_level(_tab, "Mount")],
+       [1, None, 1, 4, 1, None], "table_level: the exact name, or the table's name that TABLE_NAMES gives for a renamed trade")
     eq(join_paras("ref/arc-paladin/legate", "celestial-armor", "A.\n\nThe legate can use this ability a number of times per day."), "A. The legate can use this ability a number of times per day.", "join_paras")
     UPPER_HEAD_ENDS["on"] = True
     _P = lambda text, bold: Para("para", [(text, bold, False)], "1", 0)
