@@ -31,23 +31,17 @@ about an hour, during which you're racked by pain and must attempt a Fortitude s
 manifestation level). On a success, you weather the episode. If you fail, your corruption progresses
 to the next stage, but you don't need to attempt any further saves until the next month.
 
-**Corruption Stage 1**
+**Corruption Stage 1:** The first time you fail the Fortitude save, your features shifts into an
+alien visage. You take a -2 penalty on Diplomacy, Disguise, and Handle Animal checks. Your alignment
+shifts one step toward neutral evil.
 
-**Details:** The first time you fail the Fortitude save, your features shifts into an alien visage.
-You take a -2 penalty on Diplomacy, Disguise, and Handle Animal checks. Your alignment shifts one
-step toward neutral evil.
-
-**Corruption Stage 2**
-
-**Details:** The second time you fail, your body transforms. You are affected by spells and
-abilities as if your creature type were aberration. Your mental link with the hive shifts your
+**Corruption Stage 2:** The second time you fail, your body transforms. You are affected by spells
+and abilities as if your creature type were aberration. Your mental link with the hive shifts your
 alignment to neutral evil.
 
-**Corruption Stage 3**
-
-**Details:** The third time you fail, you succumb to the link. You seek out an isolated place and
-wrap yourself in a cocoon of resinous mucous, in which your body dissolves into hive larva swarms,
-which erupt after 24 hours.
+**Corruption Stage 3:** The third time you fail, you succumb to the link. You seek out an isolated
+place and wrap yourself in a cocoon of resinous mucous, in which your body dissolves into hive larva
+swarms, which erupt after 24 hours.
 
 ### Removing the Corruption
 
@@ -60,9 +54,9 @@ The following are manifestations of the hive corruption.
 
 **Acid Blood**
 
-**Flavor:** Your blood burns like acid.
+Your blood burns like acid.
 
-**Prereq:** Manifestation level 3rd, transformed flesh
+**Prerequisites:** Manifestation level 3rd, transformed flesh
 
 **Gift:** If a creature damages you with a slashing or piercing manufactured weapon, it must succeed
 at a Reflex saving throw or its weapon takes 2 points of acid damage per manifestation level; this
@@ -77,9 +71,9 @@ are difficult or impossible to destroy.
 
 **Blindsense**
 
-**Flavor:** You can feel the unseen.
+You can feel the unseen.
 
-**Prereq:** Manifestation level 2nd, hive mind
+**Prerequisites:** Manifestation level 2nd, hive mind
 
 **Gift:** As a **move action**, you can force the hive mind to use its senses to assist you. You
 gain [blindsense](ref/umr/blindsense) with a range of 5 feet × 1/2 your manifestation level until
@@ -91,9 +85,9 @@ take a penalty on [Perception](ref/skill/perception) checks equal to your manife
 
 **Bristling Spines**
 
-**Flavor:** Your body becomes covered in chitinous spines.
+Your body becomes covered in chitinous spines.
 
-**Prereq:** Manifestation level 3rd, living weapon
+**Prerequisites:** Manifestation level 3rd, living weapon
 
 **Gift:** Your spines can pierce walls, allowing you to climb quickly. You gain a climb speed equal
 to half your base speed.
@@ -103,9 +97,9 @@ increases by 2. Even when not wearing armor, you take a -2 armor check penalty.
 
 **Greater Acid Blood**
 
-**Flavor:** Your blood becomes even more vitriolic.
+Your blood becomes even more vitriolic.
 
-**Prereq:** Manifestation level 5th, acid blood, transformed flesh
+**Prerequisites:** Manifestation level 5th, acid blood, transformed flesh
 
 **Gift:** Whenever you take slashing or piercing damage, all adjacent creatures take an amount of
 acid damage equal to 1/2 your manifestation level (Reflex negates).
@@ -118,9 +112,9 @@ longer stabilize you or end bleed effects - only a successful Heal check can do 
 
 **Greater Hive Mind**
 
-**Flavor:** The whispers of the hive call to you when awake or asleep.
+The whispers of the hive call to you when awake or asleep.
 
-**Prereq:** Manifestation level 5th, hive mind
+**Prerequisites:** Manifestation level 5th, hive mind
 
 **Gift:** As a **move action**, you can communicate telepathically with one creature within 30 feet
 for 1 round. The hive whispers through the connection, causing a creature that doesn't have the
@@ -135,7 +129,7 @@ take damage.
 
 **Hive Mind**
 
-**Flavor:** You hear whispers of the hive's collective consciousness.
+You hear whispers of the hive's collective consciousness.
 
 **Gift:** The strength of the hive mind bolsters your own, granting you a +1 bonus on Will saves.
 
@@ -147,9 +141,9 @@ checks and skill checks, and you can never take 10 on such checks.
 
 **Living Armor**
 
-**Flavor:** You can sheathe your body in an armored carapace.
+You can sheathe your body in an armored carapace.
 
-**Prereq:** Manifestation level 2nd, living weapon
+**Prerequisites:** Manifestation level 2nd, living weapon
 
 **Special:** Upon receiving this manifestation, you must take both the gift and the stain, even with
 the _useful corruption_ or _vile corruption_ [variants](ref/rule/corruption-variants).
@@ -168,7 +162,7 @@ point of bleed damage whenever you take piercing damage.
 
 **Living Weapon**
 
-**Flavor:** Your hands contort and mutate into horrible rending claws.
+Your hands contort and mutate into horrible rending claws.
 
 **Gift:** You gain two claw attacks as primary [natural weapons](ref/umr/natural-attacks). These
 claws each deal 1d4 points of damage if your size is Medium (1d3 if Small).
@@ -178,9 +172,9 @@ because of your deformed hands.
 
 **Resin Secretion**
 
-**Flavor:** Your body produces a resinous spittle.
+Your body produces a resinous spittle.
 
-**Prereq:** Manifestation level 5th, living weapon
+**Prerequisites:** Manifestation level 5th, living weapon
 
 **Special:** Upon receiving this manifestation, you must take both the gift and the stain, even with
 the _useful corruption_ or _vile corruption_ [variants](ref/rule/corruption-variants).
@@ -197,7 +191,7 @@ it early by any means.
 
 **Transformed Flesh**
 
-**Flavor:** Your gain some of a hive creature's resistance to acid.
+Your gain some of a hive creature's resistance to acid.
 
 **Gift:** You gain acid resistance 5.
 

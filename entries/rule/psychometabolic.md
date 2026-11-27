@@ -46,23 +46,17 @@ afflicted with the madness, your corruption doesn't progress. However, the DC of
 your corruption from progressing increases by 2. These increases stack each time this occurs, and
 they last until your corruption reaches the next corruption stage.
 
-**Corruption Stage 1**
+**Corruption Stage 1:** The first time you fail a Will save (as described above), your powers twist
+your mind. You are constantly afflicted with one madness of the GM's choice from among those listed
+above. This madness can't be cured or removed while you have this corruption.
 
-**Details:** The first time you fail a Will save (as described above), your powers twist your mind.
-You are constantly afflicted with one madness of the GM's choice from among those listed above. This
-madness can't be cured or removed while you have this corruption.
-
-**Corruption Stage 2**
-
-**Details:** The second time you fail a Will save (as described above), your powers erode your
-values and morals and replace them with megalomaniacal thoughts. You gain the
+**Corruption Stage 2:** The second time you fail a Will save (as described above), your powers erode
+your values and morals and replace them with megalomaniacal thoughts. You gain the
 [moral insanity](ref/madness/moral-insanity) madness. This madness can't be cured or removed while
 you have this corruption.
 
-**Corruption Stage 3**
-
-**Details:** The third time you fail a Will save (as described above), your body is twisted into a
-writhing mass of flesh that imprisons your mind. You become a
+**Corruption Stage 3:** The third time you fail a Will save (as described above), your body is
+twisted into a writhing mass of flesh that imprisons your mind. You become a
 [hungry flesh](ref/monster/hungry-flesh) under the GM's control, retaining all class levels and
 abilities that do not rely upon your original form.
 
@@ -79,7 +73,7 @@ The following are manifestations of the psychometabolic corruption.
 
 **Ameliorate Damage**
 
-**Flavor:** You can repair damage to your body.
+You can repair damage to your body.
 
 **Gift:** You can use any of the following spells as a
 [spell-like ability](ref/umr/spell-like-abilities) by spending a number of points from your
@@ -96,9 +90,9 @@ roll the amount of healing twice and use the lower result.
 
 **Defy Gravity**
 
-**Flavor:** You can lift creatures and objects with your mind.
+You can lift creatures and objects with your mind.
 
-**Prereq:** Manifestation level 2nd
+**Prerequisite:** Manifestation level 2nd
 
 **Gift:** By spending 2 points of psychometabolic power, you can use [levitate](ref/spell/levitate)
 as a [spell-like ability](ref/umr/spell-like-abilities).
@@ -111,7 +105,7 @@ skill checks.
 
 **Endless Echoes**
 
-**Flavor:** You hear voices in your head.
+You hear voices in your head.
 
 **Gift:** You gain telepathy with a range of 10 feet + 10 feet per manifestation level that you
 have. You can use [detect thoughts](ref/spell/detect-thoughts) as a
@@ -124,9 +118,9 @@ At manifestation level 4th, the penalty changes to -4.
 
 **Eschew Gravity**
 
-**Flavor:** You lift yourself with your mind.
+You lift yourself with your mind.
 
-**Prereq:** Defy gravity, manifestation level 5th
+**Prerequisites:** Defy gravity, manifestation level 5th
 
 **Gift:** By spending 3 points of psychometabolic power as a **swift action**, you can use
 [fly](ref/spell/fly) as a [spell-like ability](ref/umr/spell-like-abilities).
@@ -136,9 +130,9 @@ by 10 feet.
 
 **Mind Blast**
 
-**Flavor:** You can rend your foes' minds with psychic power.
+You can rend your foes' minds with psychic power.
 
-**Prereq:** Endless echoes, psychometabolic blast
+**Prerequisites:** Endless echoes, psychometabolic blast
 
 **Gift:** When you use the telekinetic blast gained from the _psychometabolic blast_ manifestation,
 you can spend 2 points of psychometabolic power to use the telekinetic force to wreck the mind of
@@ -154,7 +148,7 @@ psychometabolic point, you take nonlethal damage equal to your manifestation lev
 
 **Psychometabolic Blast**
 
-**Flavor:** You can attack your enemies with your mind.
+You can attack your enemies with your mind.
 
 **Gift:** You gain the [kineticist's](ref/class/kineticist) kinetic blast class feature, as well as
 the [telekinetic blast](ref/kinetic/telekinetic-blast) wild talent. Use your manifestation level as
@@ -169,9 +163,9 @@ checks and skill checks.
 
 **Psychometabolic Jaunt**
 
-**Flavor:** You can travel with a thought.
+You can travel with a thought.
 
-**Prereq:** Defy gravity, manifestation level 6th
+**Prerequisites:** Defy gravity, manifestation level 6th
 
 **Gift:** You can spend 4 psychometabolic points to use [dimension door](ref/spell/dimension-door)
 as a [spell-like ability](ref/umr/spell-like-abilities).
@@ -183,9 +177,9 @@ At manifestation level 9th, you can spend 6 psychometabolic points to instead us
 
 **Psychometabolic Shield**
 
-**Flavor:** You can project a shield with your mind.
+You can project a shield with your mind.
 
-**Prereq:** Manifestation level 2nd
+**Prerequisite:** Manifestation level 2nd
 
 **Gift:** You gain the [force ward](ref/kinetic/force-ward) defense wild talent. Use your kineticist
 level or your manifestation level (whichever is higher) as your effective kineticist level to

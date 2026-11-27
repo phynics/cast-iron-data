@@ -39,21 +39,15 @@ While your body parts are failing (after you've failed the Fort save but before 
 body), you don't have to attempt additional saves when you fail a Fortitude save or fall below 0 hit
 points. Once you've been repaired, you need to attempt saves in these circumstances again.
 
-**Corruption Stage 1**
+**Corruption Stage 1:** The first time your corruption progresses, you fall into routines easily,
+performing repetitive actions. Your alignment shifts one step toward neutral.
 
-**Details:** The first time your corruption progresses, you fall into routines easily, performing
-repetitive actions. Your alignment shifts one step toward neutral.
+**Corruption Stage 2:** The second time your corruption progresses, you find you can't bring
+yourself to care about things or even to love. Your alignment shifts to neutral.
 
-**Corruption Stage 2**
-
-**Details:** The second time your corruption progresses, you find you can't bring yourself to care
-about things or even to love. Your alignment shifts to neutral.
-
-**Corruption Stage 3**
-
-**Details:** The third time your corruption progresses, too much of your body is gone for your soul
-to remain. You become a mindless, destructive automaton or free-willed evil construct under the GM's
-control.
+**Corruption Stage 3:** The third time your corruption progresses, too much of your body is gone for
+your soul to remain. You become a mindless, destructive automaton or free-willed evil construct
+under the GM's control.
 
 ### Removing the Corruption
 
@@ -70,7 +64,7 @@ The following are manifestations of the promethean corruption.
 
 **Armored**
 
-**Flavor:** Your body is unnaturally hardened against attacks.
+Your body is unnaturally hardened against attacks.
 
 **Special:** Upon receiving this manifestation, you must take both the gift and the stain, even with
 the _useful corruption_ or _vile corruption_ [variants](ref/rule/corruption-variants).
@@ -86,7 +80,7 @@ At manifestation level 5th, this penalty changes to -2.
 
 **Berserk Fury**
 
-**Flavor:** The only emotion left to you is rage.
+The only emotion left to you is rage.
 
 **Special:** Upon receiving this manifestation, you must take both the gift and the stain, even with
 the _useful corruption_ or _vile corruption_ [variants](ref/rule/corruption-variants).
@@ -108,9 +102,9 @@ are multiple targets).
 
 **Greater Armored**
 
-**Flavor:** Your body is covered in thick armored plating.
+Your body is covered in thick armored plating.
 
-**Prereq:** Manifestation level 5th, armored
+**Prerequisites:** Manifestation level 5th, armored
 
 **Gift:** Your natural armor bonus to your AC from the armored manifestation increases by 2.
 
@@ -118,9 +112,9 @@ are multiple targets).
 
 **Greater Shattered Body**
 
-**Flavor:** Nearly all your body is replaced by artificial components.
+Nearly all your body is replaced by artificial components.
 
-**Prereq:** Manifestation level 5th, armored, shattered body
+**Prerequisites:** Manifestation level 5th, armored, shattered body
 
 **Special:** You can gain this manifestation only if you have failed another corruption progression
 saving throw and replaced more of your body with construct parts since the time you took _shattered
@@ -137,9 +131,9 @@ elixirs, extracts, or any other beneficial item that requires consumption.
 
 **Greater Shattered Mind**
 
-**Flavor:** You can understand no emotion but rage.
+You can understand no emotion but rage.
 
-**Prereq:** Manifestation level 6th, corruption stage 2, shattered mind
+**Prerequisites:** Manifestation level 6th, corruption stage 2, shattered mind
 
 **Gift:** You become immune to all mind-affecting emotion effects, except those that produce
 emotions of rage, hatred, or anger.
@@ -149,10 +143,10 @@ bonuses or bardic performances.
 
 **Promethean Transfiguration**
 
-**Flavor:** You are more machine now than mortal.
+You are more machine now than mortal.
 
-**Prereq:** Manifestation level 7th, corruption stage 2, armored, greater shattered body, greater
-shattered mind, shattered body, shattered mind
+**Prerequisites:** Manifestation level 7th, corruption stage 2, armored, greater shattered body,
+greater shattered mind, shattered body, shattered mind
 
 **Gift:** You become immune to bleed, disease, paralysis, poison, sleep effects, and stunning.
 
@@ -161,9 +155,9 @@ to your Constitution score.
 
 **Rampage**
 
-**Flavor:** When you fly into a rage, you destroy everything nearby.
+When you fly into a rage, you destroy everything nearby.
 
-**Prereq:** Berserk fury
+**Prerequisite:** Berserk fury
 
 **Gift:** While enraged, you deal double damage to objects and gain a +4 bonus on Strength checks to
 break objects.
@@ -175,9 +169,9 @@ remove this condition, nor does immunity to being staggered prevent it.
 
 **Replacement Limb**
 
-**Flavor:** One of your arms has been replaced by a prosthetic.
+One of your arms has been replaced by a prosthetic.
 
-**Prereq:** Armored, shattered body
+**Prerequisites:** Armored, shattered body
 
 **Gift:** You gain one slam attack as a primary [natural weapon](ref/umr/natural-attacks). This slam
 deals 1d6 points of damage if your size is Medium (1d4 if Small).
@@ -187,9 +181,9 @@ hands, as well as on Dexterity-based attack rolls.
 
 **Shattered Body**
 
-**Flavor:** The last time you added more construct parts to your body, you reached a tipping point.
+The last time you added more construct parts to your body, you reached a tipping point.
 
-**Prereq:** Armored
+**Prerequisite:** Armored
 
 **Special:** You can gain this manifestation only if you have failed at least one corruption
 progression saving throw and replaced more of your body with construct parts.
@@ -205,9 +199,9 @@ or a ranger's [favored enemy](ref/ability/favored-enemy) class feature).
 
 **Shattered Mind**
 
-**Flavor:** Your transformation damaged your psyche.
+Your transformation damaged your psyche.
 
-**Prereq:** Corruption Stage 1 or 2
+**Prerequisite:** Corruption Stage 1 or 2
 
 **Gift:** Your dulled emotions are more difficult to affect with magic. You gain a +2 bonus on Will
 saves against emotion effects, and if you have this manifestation's stain, you don't need to roll

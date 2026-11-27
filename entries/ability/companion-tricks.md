@@ -190,8 +190,6 @@ silk takes 10 minutes, and it can be done once per day. This silk functions iden
 
 **Cocoon**
 
-**Action:** Trick
-
 **Prereq:** _Spin silk_ trick
 
 **D C:** 15
