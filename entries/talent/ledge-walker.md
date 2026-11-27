@@ -13,10 +13,9 @@ page = "68"
 [fields]
 kind = "class_option"
 group = "rogue-talent"
+ability_type = "Ex"
 +++
 
-**Ledge Walker (Ex)**
-
-**Ability:** The rogue can move along narrow surfaces at full speed using the Acrobatics skill
+This ability allows a rogue to move along narrow surfaces at full speed using the Acrobatics skill
 without penalty. In addition, a rogue with this talent is not [flat-footed](ref/rule/flat-footed)
 when using Acrobatics to move along narrow surfaces.

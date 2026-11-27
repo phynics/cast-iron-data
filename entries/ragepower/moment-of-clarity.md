@@ -13,12 +13,10 @@ page = "33"
 [fields]
 kind = "class_option"
 group = "rage-power"
+ability_type = "Ex"
 +++
 
-**Moment of Clarity (Ex)**
-
-**Swift:** The barbarian does not gain any benefits or take any of the penalties from _rage_ for 1
-round. This includes the penalty to Armor Class and the restriction on what actions can be
-performed. This round still counts against her total number of rounds of _rage_ per day.
-
-**Usage:** Once per _rage_
+The barbarian does not gain any benefits or take any of the penalties from rage for 1 round.
+Activating this power is a swift action. This includes the penalty to Armor Class and the
+restriction on what actions can be performed. This round still counts against her total number of
+rounds of rage per day. This power can only be used once per rage.

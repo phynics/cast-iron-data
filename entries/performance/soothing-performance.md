@@ -18,8 +18,9 @@ ability_type = "Su"
 
 A bard of 12th level or higher can use his performance to create an effect equivalent to a
 _[mass cure serious wounds](ref/spell/cure-serious-wounds-mass),_ using the bard's level as the
-caster level. In addition, this performance removes the fatigued, sickened, and shaken conditions
-from all those affected. Using this ability requires 4 rounds of continuous performance, and the
-targets must be able to see and hear the bard throughout the performance. Soothing performance
-affects all targets that remain within 30 feet throughout the performance. Soothing performance
-relies on audible and visual components.
+caster level. In addition, this performance removes the [fatigued](ref/misc/fatigued),
+[sickened](ref/misc/sickened), and [shaken](ref/misc/shaken) conditions from all those affected.
+Using this ability requires 4 rounds of continuous performance, and the targets must be able to see
+and hear the bard throughout the performance. Soothing performance affects all targets that remain
+within 30 feet throughout the performance. Soothing performance relies on audible and visual
+components.

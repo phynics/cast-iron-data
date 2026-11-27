@@ -228,10 +228,7 @@ print = "As a standard action, you can touch a creature or an object that weighs
 [[entry]]
 id = "ref/arcaneschool/illusion"
 anchor = "face-in-the-crowd"
-print = '''
-At 1st level as a standard action, you can cause yourself to appear so normal, mundane, and unexceptional that you blend in to your surroundings. All creatures within 30 feet treat you as if you belonged there, effectively ignoring you. Creatures outside of this area may notice that you appear out of place, but as soon as they approach within 30 feet they are affected by the magic and no longer think something is amiss. If you interact with an affected creature in any way, it gains a Will save (DC 10 + 1/2 your wizard level + your Intelligence modifier) to disbelieve the illusion and notice you. The effect lasts for a number of minutes equal to your wizard level, or until the illusion is dispelled. The minutes do not need to be consecutive, but must be used in 1-minute increments. This is a mind-affecting phantasm effect.
-
-This ability does not turn you invisible and opponents are not considered [flat-footed](ref/rule/flat-footed). It does not allow you to disguise yourself as a specific individual, type of person, or member of another race, so you cannot blend into a group of uniformed guards or appear as a member of an individual's family, and a human cannot blend into a group of [gnolls](ref/monster/gnoll). You can blend in with any group made up of different types of people, such as a crowd of courtiers in a king's throne room, and you can disguise yourself (either through magic or more mundane means) to appear as a specific type of person or another race (such as a uniformed guard or a gnoll) before using this ability.'''
+print = "At 1st level as a standard action, you can cause yourself to appear so normal, mundane, and unexceptional that you blend in to your surroundings. All creatures within 30 feet treat you as if you belonged there, effectively ignoring you. Creatures outside of this area may notice that you appear out of place, but as soon as they approach within 30 feet they are affected by the magic and no longer think something is amiss. If you interact with an affected creature in any way, it gains a Will save (DC 10 + 1/2 your wizard level + your Intelligence modifier) to disbelieve the illusion and notice you. The effect lasts for a number of minutes equal to your wizard level, or until the illusion is dispelled. The minutes do not need to be consecutive, but must be used in 1-minute increments. This is a mind-affecting phantasm effect. This ability does not turn you invisible and opponents are not considered [flat-footed](ref/rule/flat-footed). It does not allow you to disguise yourself as a specific individual, type of person, or member of another race, so you cannot blend into a group of uniformed guards or appear as a member of an individual's family, and a human cannot blend into a group of [gnolls](ref/monster/gnoll). You can blend in with any group made up of different types of people, such as a crowd of courtiers in a king's throne room, and you can disguise yourself (either through magic or more mundane means) to appear as a specific type of person or another race (such as a uniformed guard or a gnoll) before using this ability."
 
 [[entry]]
 id = "ref/arcaneschool/illusion"
@@ -877,12 +874,7 @@ print = "1st—_cure light wounds,_ 2nd—_cure moderate wounds_, 3rd—_cure se
 [[entry]]
 id = "ref/domain/air"
 anchor = "lightning-rod"
-print = '''
-As a swift action when you cast a spell with the electricity descriptor, you can designate one creature within line of sight. The spell's damage against that creature increases by 50%, as if affected by the [Empower Spell](ref/feat/empower-spell) feat. This additional damage results from divine power that is not subject to being reduced by electricity resistance, and you take an equal amount of electricity damage immediately after you cast the spell.
-
-The spell can deal this additional damage only once, even if it could affect the target multiple times.
-
-You can use this ability once per day at 8th level and one additional time per day for every 4 cleric levels you have beyond 8th.'''
+print = "As a swift action when you cast a spell with the electricity descriptor, you can designate one creature within line of sight. The spell's damage against that creature increases by 50%, as if affected by the [Empower Spell](ref/feat/empower-spell) feat. This additional damage results from divine power that is not subject to being reduced by electricity resistance, and you take an equal amount of electricity damage immediately after you cast the spell. The spell can deal this additional damage only once, even if it could affect the target multiple times. You can use this ability once per day at 8th level and one additional time per day for every 4 cleric levels you have beyond 8th."
 
 [[entry]]
 id = "ref/domain/air"
@@ -2448,10 +2440,7 @@ print = "At 8th level, spells you cast that confer a morale effect upon you or y
 [[entry]]
 id = "ref/domain/chaos"
 anchor = "aura-of-bedlam"
-print = '''
-At 8th level, you can emit a 30-foot-radius aura of chaos and strife for 1 round per cleric level. Enemies in the aura take a -4 penalty on [concentration](ref/rule/concentration) checks and are treated as experiencing vigorous motion (concentration DC = 10 + spell level) when attempting to cast spells. This penalty increases by 1 for every 2 cleric levels you have beyond 8th.
-
-This is a mind-affecting effect. These rounds need not be consecutive.'''
+print = "At 8th level, you can emit a 30-foot-radius aura of chaos and strife for 1 round per cleric level. Enemies in the aura take a -4 penalty on [concentration](ref/rule/concentration) checks and are treated as experiencing vigorous motion (concentration DC = 10 + spell level) when attempting to cast spells. This penalty increases by 1 for every 2 cleric levels you have beyond 8th. This is a mind-affecting effect. These rounds need not be consecutive."
 
 [[entry]]
 id = "ref/domain/chaos"
@@ -2461,10 +2450,7 @@ print = "As a standard action, you dance, act like a buffoon, or commit some oth
 [[entry]]
 id = "ref/domain/chaos"
 anchor = "drunken-autonomy"
-print = '''
-As a swift action, whenever under the effects of mind-affecting magic, possession, or similar external control, you can channel the unrestricted nature of your god. Instead of acting under the compulsion, you instead act as though you had the [confused](ref/misc/confused) condition for 1 round. Producing the "act normally" result allows you to act free of mental compulsion for that round. You can use this ability a number of times per day equal to 3 + your Wisdom modifier.
-
-This replaces the touch of chaos domain power of the Chaos domain.'''
+print = "As a swift action, whenever under the effects of mind-affecting magic, possession, or similar external control, you can channel the unrestricted nature of your god. Instead of acting under the compulsion, you instead act as though you had the [confused](ref/misc/confused) condition for 1 round. Producing the \"act normally\" result allows you to act free of mental compulsion for that round. You can use this ability a number of times per day equal to 3 + your Wisdom modifier. This replaces the touch of chaos domain power of the Chaos domain."
 
 [[entry]]
 id = "ref/domain/chaos"
@@ -4548,10 +4534,7 @@ print = "You can cause the living to bleed at a touch, and find comfort in the p
 [[entry]]
 id = "ref/domain/death"
 anchor = "bleeding-touch"
-print = '''
-As a melee touch attack, you can cause a living creature to take 1d6 points of damage per round. This effect persists for a number of rounds equal to 1/2 your cleric level (minimum 1) or until stopped with a DC 15 Heal check or any spell or effect that heals damage.
-
-Table 3–6: Deities of the Pathfinder Chronicles Deity AL Portfolios Erastil LG God of farming, hunting, trade, family Iomedae LG Goddess of valor, rulership, justice, honor Torag LG God of the forge, protection, strategy Sarenrae NG Goddess of the sun, redemption, honesty, healing Shelyn NG Goddess of beauty, art, love, music Desna CG Goddess of dreams, stars, travelers, luck Cayden Cailean CG God of freedom, ale, wine, bravery Abadar LN God of cities, wealth, merchants, law Irori LN God of history, knowledge, self-perfection Gozreh N Deity of nature, weather, the sea Pharasma N Goddess of fate, death, prophecy, birth Nethys N God of magic Gorum CN God of strength, battle, weapons Calistria CN Goddess of trickery, lust, revenge Asmodeus LE God of tyranny, slavery, pride, contracts Zon-Kuthon LE God of envy, pain, darkness, loss Urgathoa NE Goddess of gluttony, disease, undeath Norgorber NE God of greed, secrets, poison, murder Lamashtu CE Goddess of madness, monsters, nightmares Rovagug CE God of wrath, disaster, destruction You can use this ability a number of times per day equal to 3 + your Wisdom modifier.'''
+print = "As a melee touch attack, you can cause a living creature to take 1d6 points of damage per round. This effect persists for a number of rounds equal to 1/2 your cleric level (minimum 1) or until stopped with a DC 15 Heal check or any spell or effect that heals damage. Table 3–6: Deities of the Pathfinder Chronicles Deity AL Portfolios Erastil LG God of farming, hunting, trade, family Iomedae LG Goddess of valor, rulership, justice, honor Torag LG God of the forge, protection, strategy Sarenrae NG Goddess of the sun, redemption, honesty, healing Shelyn NG Goddess of beauty, art, love, music Desna CG Goddess of dreams, stars, travelers, luck Cayden Cailean CG God of freedom, ale, wine, bravery Abadar LN God of cities, wealth, merchants, law Irori LN God of history, knowledge, self-perfection Gozreh N Deity of nature, weather, the sea Pharasma N Goddess of fate, death, prophecy, birth Nethys N God of magic Gorum CN God of strength, battle, weapons Calistria CN Goddess of trickery, lust, revenge Asmodeus LE God of tyranny, slavery, pride, contracts Zon-Kuthon LE God of envy, pain, darkness, loss Urgathoa NE Goddess of gluttony, disease, undeath Norgorber NE God of greed, secrets, poison, murder Lamashtu CE Goddess of madness, monsters, nightmares Rovagug CE God of wrath, disaster, destruction You can use this ability a number of times per day equal to 3 + your Wisdom modifier."
 
 [[entry]]
 id = "ref/domain/death"
@@ -4866,10 +4849,7 @@ print = "At 8th level, you can emit a 30-foot aura of madness for a number of ro
 [[entry]]
 id = "ref/domain/death"
 anchor = "touch-of-virulence"
-print = '''
-As a standard action, you can touch a diseased creature and exacerbate its condition.
-
-If it fails a Fortitude save (DC = 10 + 1/2 your cleric level + your Wisdom modifier), the creature takes damage as though it had failed its Fortitude save against the disease and any remaining onset time for the disease ends. You can use this ability once per day at 8th level, plus one additional time per day at 14th level and 20th level.'''
+print = "As a standard action, you can touch a diseased creature and exacerbate its condition. If it fails a Fortitude save (DC = 10 + 1/2 your cleric level + your Wisdom modifier), the creature takes damage as though it had failed its Fortitude save against the disease and any remaining onset time for the disease ends. You can use this ability once per day at 8th level, plus one additional time per day at 14th level and 20th level."
 
 [[entry]]
 id = "ref/domain/death"
@@ -4884,10 +4864,7 @@ print = "You can darken the shadows around you and cause them to hiss, confoundi
 [[entry]]
 id = "ref/domain/death"
 anchor = "necrotic-tending"
-print = '''
-You can touch an undead creature or area affected by a haunt as a standard action, restoring 1d8 hit points + 1 for every 2 cleric levels you have. This ability has no effect on other creatures. You can use this ability a number of times per day equal to 3 + your Wisdom modifier.
-
-This replaces the bleeding touch domain power of the Death domain.'''
+print = "You can touch an undead creature or area affected by a haunt as a standard action, restoring 1d8 hit points + 1 for every 2 cleric levels you have. This ability has no effect on other creatures. You can use this ability a number of times per day equal to 3 + your Wisdom modifier. This replaces the bleeding touch domain power of the Death domain."
 
 [[entry]]
 id = "ref/domain/death"
@@ -6704,10 +6681,7 @@ print = "At 8th level, after taking damage from any source, you may attempt a DC
 [[entry]]
 id = "ref/domain/evil"
 anchor = "touch-of-virulence"
-print = '''
-As a standard action, you can touch a diseased creature and exacerbate its condition.
-
-If it fails a Fortitude save (DC = 10 + 1/2 your cleric level + your Wisdom modifier), the creature takes damage as though it had failed its Fortitude save against the disease and any remaining onset time for the disease ends. You can use this ability once per day at 8th level, plus one additional time per day at 14th level and 20th level.'''
+print = "As a standard action, you can touch a diseased creature and exacerbate its condition. If it fails a Fortitude save (DC = 10 + 1/2 your cleric level + your Wisdom modifier), the creature takes damage as though it had failed its Fortitude save against the disease and any remaining onset time for the disease ends. You can use this ability once per day at 8th level, plus one additional time per day at 14th level and 20th level."
 
 [[entry]]
 id = "ref/domain/evil"
@@ -9014,10 +8988,7 @@ print = "Your divine patron guides your healing hands, allowing you to perform m
 [[entry]]
 id = "ref/domain/healing"
 anchor = "exorcise-haunt"
-print = '''
-You can emit a [burst](ref/misc/burst) of positive energy as a standard action. Any haunt within 15 feet of you takes 1d8 points of damage plus 1 for every 2 cleric levels you have. You can use this ability a number of times per day equal to 3 + your Wisdom modifier.
-
-This replaces the rebuke death domain power of the Healing domain.'''
+print = "You can emit a [burst](ref/misc/burst) of positive energy as a standard action. Any haunt within 15 feet of you takes 1d8 points of damage plus 1 for every 2 cleric levels you have. You can use this ability a number of times per day equal to 3 + your Wisdom modifier. This replaces the rebuke death domain power of the Healing domain."
 
 [[entry]]
 id = "ref/domain/healing"
@@ -10274,10 +10245,7 @@ print = "At 8th level, after taking damage from any source, you may attempt a DC
 [[entry]]
 id = "ref/domain/law"
 anchor = "prohibition"
-print = '''
-As a standard action, you can command a creature within 30 feet to refrain from committing a particular action (including any referenced in the spell _[forbid action](ref/spell/forbid-action)_). If the creature performs the named action before the beginning of your next turn, it takes 1d6 points of damage + 1 point for every 2 cleric levels you possess and the effect ends. This is a language-dependent effect. You can use this ability a number of times per day equal to 3 + your Wisdom modifier.
-
-If you have the spell rune domain power, you can attach a spell effect to the prohibition as if it were the spell rune domain ability; the spell takes effect if the creature performs the named action. This spell must be of at least 1 level lower than the highest-level cleric spell you can cast, and it must target one or more creatures. Regardless of the number of targets the spell can normally affect, it affects only the creature that triggers the rune. Attaching a spell in this way extends the duration of the prohibition by a number of rounds equal to the spell's level, or until it is discharged.'''
+print = "As a standard action, you can command a creature within 30 feet to refrain from committing a particular action (including any referenced in the spell _[forbid action](ref/spell/forbid-action)_). If the creature performs the named action before the beginning of your next turn, it takes 1d6 points of damage + 1 point for every 2 cleric levels you possess and the effect ends. This is a language-dependent effect. You can use this ability a number of times per day equal to 3 + your Wisdom modifier. If you have the spell rune domain power, you can attach a spell effect to the prohibition as if it were the spell rune domain ability; the spell takes effect if the creature performs the named action. This spell must be of at least 1 level lower than the highest-level cleric spell you can cast, and it must target one or more creatures. Regardless of the number of targets the spell can normally affect, it affects only the creature that triggers the rune. Attaching a spell in this way extends the duration of the prohibition by a number of rounds equal to the spell's level, or until it is discharged."
 
 [[entry]]
 id = "ref/domain/law"
@@ -13219,10 +13187,7 @@ print = "At 6th level, you can petition your divine patron for far greater power
 [[entry]]
 id = "ref/domain/nobility"
 anchor = "romance-beyond-death"
-print = '''
-You receive [Command Undead](ref/feat/command-undead) or [Turn Undead](ref/feat/turn-undead) as a bonus feat, depending on the type of energy you channel. Increase the DC of the saving throw against these feats' effects by 2 as long as the spirits involved were slain by drowning or killed themselves. If the circumstances of the affected undead's creation was linked to romance, increase the save DC by 4 instead.
-
-This replaces the leadership domain power of the Nobility domain.'''
+print = "You receive [Command Undead](ref/feat/command-undead) or [Turn Undead](ref/feat/turn-undead) as a bonus feat, depending on the type of energy you channel. Increase the DC of the saving throw against these feats' effects by 2 as long as the spirits involved were slain by drowning or killed themselves. If the circumstances of the affected undead's creation was linked to romance, increase the save DC by 4 instead. This replaces the leadership domain power of the Nobility domain."
 
 [[entry]]
 id = "ref/domain/nobility"
@@ -13775,10 +13740,7 @@ print = "Druids can prepare a number of orisons, or 0-level spells, each day, as
 [[entry]]
 id = "ref/domain/plant"
 anchor = "leshy-caller"
-print = '''
-You can spontaneously swap out any of your domain spells for a _[summon nature's ally](ref/spell/summon-natures-ally)_ spell of the same level or lower, to a maximum of _[summon nature's ally VII](ref/spell/summon-natures-ally-7)_. If you do, you must use the spell to summon one or more [leshys](ref/family/leshy). Add [leaf leshy](ref/monster/leshy-leaf-leshy), [gourd leshy](ref/monster/leshy-gourd-leshy), [fungus leshy](ref/monster/leshy-fungus-leshy), [seaweed leshy](ref/monster/leshy-seaweed-leshy), and [lotus leshy](ref/monster/leshy-lotus-leshy) to your _summon nature's ally I_, _II_, _III_, _IV_, and _V_ lists, respectively. You count as a plant creature for the purpose of creating leshys.
-
-As a standard action, you can grant a single leshy within 30 feet a +4 sacred bonus on its next attack roll before the start of your next turn. You can use this ability a number of times per day equal to 3 + your Wisdom modifier.'''
+print = "You can spontaneously swap out any of your domain spells for a _[summon nature's ally](ref/spell/summon-natures-ally)_ spell of the same level or lower, to a maximum of _[summon nature's ally VII](ref/spell/summon-natures-ally-7)_. If you do, you must use the spell to summon one or more [leshys](ref/family/leshy). Add [leaf leshy](ref/monster/leshy-leaf-leshy), [gourd leshy](ref/monster/leshy-gourd-leshy), [fungus leshy](ref/monster/leshy-fungus-leshy), [seaweed leshy](ref/monster/leshy-seaweed-leshy), and [lotus leshy](ref/monster/leshy-lotus-leshy) to your _summon nature's ally I_, _II_, _III_, _IV_, and _V_ lists, respectively. You count as a plant creature for the purpose of creating leshys. As a standard action, you can grant a single leshy within 30 feet a +4 sacred bonus on its next attack roll before the start of your next turn. You can use this ability a number of times per day equal to 3 + your Wisdom modifier."
 
 [[entry]]
 id = "ref/domain/plant"
@@ -14909,10 +14871,7 @@ print = "At 6th level, as a swift action, you can give your natural weapons or a
 [[entry]]
 id = "ref/domain/repose"
 anchor = "exorcism-of-undeath"
-print = '''
-Once per day as a full-round action, you can try to end any possession spells or effects, or effects that directly exercise mental control over a creature, as long as the effect was caused by an undead creature. You must touch the affected creature (this requires a melee touch attack if the target is neither willing nor helpless) and use a vial of [holy water](ref/eq-weapon/holy-water) as a material component that is consumed as part of using this ability. The target must immediately attempt a new Will save against the original save DC of the controlling effect. If the save is successful, the possession effect immediately ends, as if the target had succeeded at its original saving throw. If the possessing force is a [ghost](ref/template/ghost) or similar undead, it manifests adjacent to the target and is [staggered](ref/misc/staggered) for 1 round.
-
-This replaces the ward against death domain power of the Repose domain.'''
+print = "Once per day as a full-round action, you can try to end any possession spells or effects, or effects that directly exercise mental control over a creature, as long as the effect was caused by an undead creature. You must touch the affected creature (this requires a melee touch attack if the target is neither willing nor helpless) and use a vial of [holy water](ref/eq-weapon/holy-water) as a material component that is consumed as part of using this ability. The target must immediately attempt a new Will save against the original save DC of the controlling effect. If the save is successful, the possession effect immediately ends, as if the target had succeeded at its original saving throw. If the possessing force is a [ghost](ref/template/ghost) or similar undead, it manifests adjacent to the target and is [staggered](ref/misc/staggered) for 1 round. This replaces the ward against death domain power of the Repose domain."
 
 [[entry]]
 id = "ref/domain/repose"
@@ -15370,10 +15329,7 @@ print = "A druid can improve the attitude of an animal. This ability functions j
 [[entry]]
 id = "ref/domain/rune"
 anchor = "prohibition"
-print = '''
-As a standard action, you can command a creature within 30 feet to refrain from committing a particular action (including any referenced in the spell _[forbid action](ref/spell/forbid-action)_). If the creature performs the named action before the beginning of your next turn, it takes 1d6 points of damage + 1 point for every 2 cleric levels you possess and the effect ends. This is a language-dependent effect. You can use this ability a number of times per day equal to 3 + your Wisdom modifier.
-
-If you have the spell rune domain power, you can attach a spell effect to the prohibition as if it were the spell rune domain ability; the spell takes effect if the creature performs the named action. This spell must be of at least 1 level lower than the highest-level cleric spell you can cast, and it must target one or more creatures. Regardless of the number of targets the spell can normally affect, it affects only the creature that triggers the rune. Attaching a spell in this way extends the duration of the prohibition by a number of rounds equal to the spell's level, or until it is discharged.'''
+print = "As a standard action, you can command a creature within 30 feet to refrain from committing a particular action (including any referenced in the spell _[forbid action](ref/spell/forbid-action)_). If the creature performs the named action before the beginning of your next turn, it takes 1d6 points of damage + 1 point for every 2 cleric levels you possess and the effect ends. This is a language-dependent effect. You can use this ability a number of times per day equal to 3 + your Wisdom modifier. If you have the spell rune domain power, you can attach a spell effect to the prohibition as if it were the spell rune domain ability; the spell takes effect if the creature performs the named action. This spell must be of at least 1 level lower than the highest-level cleric spell you can cast, and it must target one or more creatures. Regardless of the number of targets the spell can normally affect, it affects only the creature that triggers the rune. Attaching a spell in this way extends the duration of the prohibition by a number of rounds equal to the spell's level, or until it is discharged."
 
 [[entry]]
 id = "ref/domain/rune"
@@ -17184,10 +17140,7 @@ print = "When another character within 30 feet casts a spell with a range greate
 [[entry]]
 id = "ref/domain/trickery"
 anchor = "deceptive-reprieve"
-print = '''
-When you touch a creature under direct mental control (such as that granted via _[dominate person](ref/spell/dominate-person)_, but not via _[charm person](ref/spell/charm-person)_) or the victim of [possession](ref/rule/possession), that creature can attempt a new Will save against the control or possession effect with a +2 bonus. If the creature succeeds, the effect or possession is temporarily halted, as per _[protection from evil](ref/spell/protection-from-evil)_, for a number of rounds equal to 1/2 your character level. While this ability is active, the target takes a -2 penalty on saves against new mind-affecting effects and new attempts at possession. You can use this ability a number of times per day equal to 3 + your Wisdom modifier.
-
-This replaces the copycat domain power of the Trickery domain.'''
+print = "When you touch a creature under direct mental control (such as that granted via _[dominate person](ref/spell/dominate-person)_, but not via _[charm person](ref/spell/charm-person)_) or the victim of [possession](ref/rule/possession), that creature can attempt a new Will save against the control or possession effect with a +2 bonus. If the creature succeeds, the effect or possession is temporarily halted, as per _[protection from evil](ref/spell/protection-from-evil)_, for a number of rounds equal to 1/2 your character level. While this ability is active, the target takes a -2 penalty on saves against new mind-affecting effects and new attempts at possession. You can use this ability a number of times per day equal to 3 + your Wisdom modifier. This replaces the copycat domain power of the Trickery domain."
 
 [[entry]]
 id = "ref/domain/trickery"
@@ -18537,12 +18490,12 @@ print = '''
 [[entry]]
 id = "ref/performance/countersong"
 anchor = "countersong"
-print = "At 1st level, a bard learns to counter magic effects that depend on sound (but not spells that have verbal components). Each round of the countersong he makes a [Perform](ref/skill/perform-any) (keyboard, percussion, wind, string, or sing) skill check. Any creature within 30 feet of the bard Spells per Day 1st 2nd 3rd 4th 5th 6th 1 — — — — — well-versed 2 — — — — — 3 — — — — — 3 1 — — — — 4 2 — — — — 4 3 — — — — 4 3 1 — — — 4 4 2 — — — 5 4 3 — — — 5 4 3 1 — — 5 4 4 2 — — 5 5 4 3 — — 5 5 4 3 1 — 5 5 4 4 2 — 5 5 5 4 3 — 5 5 5 4 3 1 5 5 5 4 4 2 5 5 5 5 4 3 5 5 5 5 5 4 5 5 5 5 5 5 (including the bard himself) that is affected by a sonic or language-dependent magical attack may use the bard's Perform check result in place of its saving throw if, after the saving throw is rolled, the Perform check result proves to be higher. If a creature within range of the countersong is already under the effect of a noninstantaneous sonic or language-dependent magical attack, it gains another saving throw against the effect each round it hears the countersong, but it must use the bard's Perform skill check result for the save. Countersong does not work on effects that don't allow saves. Countersong relies on audible components."
+print = "At 1st level, a bard learns to counter magic effects that depend on sound (but not spells that have verbal components). Each round of the countersong he makes a [Perform](ref/skill/perform-any) (keyboard, percussion, wind, string, or sing) skill check. Any creature within 30 feet of the bard (including the bard himself) that is affected by a sonic or language-dependent magical attack may use the bard's Perform check result in place of its saving throw if, after the saving throw is rolled, the Perform check result proves to be higher. If a creature within range of the countersong is already under the effect of a noninstantaneous sonic or language-dependent magical attack, it gains another saving throw against the effect each round it hears the countersong, but it must use the bard's Perform skill check result for the save. Countersong does not work on effects that don't allow saves. Countersong relies on audible components."
 
 [[entry]]
 id = "ref/performance/deadly-performance"
 anchor = "deadly-performance"
-print = "A bard of 20th level or higher can use his performance to cause one enemy to die from joy or sorrow. To be affected, the target must be able to see and hear the bard perform for 1 full round and be within 30 feet. The target receives a Will save (DC 10 + 1/2 the bard's level + the bard's Cha modifier) to negate the effect. If a creature's saving throw succeeds, the target is [staggered](ref/misc/staggered) for 1d4 rounds, and the bard cannot use deadly performance on that creature again for 24 hours. If a creature's saving throw fails, it dies. Deadly performance is a mind-affecting death effect that relies on audible and visual components."
+print = "A bard of 20th level or higher can use his performance to cause one enemy to die from joy or sorrow. To be affected, the target must be able to see and hear the bard [perform](ref/skill/perform-any) for 1 full round and be within 30 feet. The target receives a Will save (DC 10 + 1/2 the bard's level + the bard's Cha modifier) to negate the effect. If a creature's saving throw succeeds, the target is [staggered](ref/misc/staggered) for 1d4 rounds, and the bard cannot use deadly performance on that creature again for 24 hours. If a creature's saving throw fails, it dies. Deadly performance is a mind-affecting death effect that relies on audible and visual components."
 
 [[entry]]
 id = "ref/performance/dirge-of-doom"
@@ -18557,12 +18510,7 @@ print = "At 1st level, a bard can use his performance to counter magic effects t
 [[entry]]
 id = "ref/performance/fascinate"
 anchor = "fascinate"
-print = '''
-At 1st level, a bard can use his performance to cause one or more creatures to become [fascinated](ref/misc/fascinated) with him. Each creature to be fascinated must be within 90 feet, able to see and hear the bard, and capable of paying attention to him. The bard must also be able to see the creatures affected. The distraction of a nearby combat or other dangers prevents this ability from working. For every three levels the bard has attained beyond 1st, he can target one additional creature with this ability.
-
-Each creature within range receives a Will save (DC 10 + 1/2 the bard's level + the bard's Cha modifier) to negate the effect. If a creature's saving throw succeeds, the bard cannot attempt to fascinate that creature again for 24 hours. If its saving throw fails, the creature sits quietly and observes the performance for as long as the bard continues to maintain it. While fascinated, a target takes a -4 penalty on all skill checks made as reactions, such as Perception checks. Any potential threat to the target allows the target to make a new saving throw against the effect. Any obvious threat, such as someone drawing a weapon, casting a spell, or aiming a weapon at the target, automatically breaks the effect.
-
-Fascinate is an enchantment (compulsion), mind-affecting ability. Fascinate relies on audible and visual components in order to function.'''
+print = "At 1st level, a bard can use his performance to cause one or more creatures to become [fascinated](ref/misc/fascinated) with him. Each creature to be fascinated must be within 90 feet, able to see and hear the bard, and capable of paying attention to him. The bard must also be able to see the creatures affected. The distraction of a nearby combat or other dangers prevents this ability from working. For every three levels the bard has attained beyond 1st, he can target one additional creature with this ability. Each creature within range receives a Will save (DC 10 + 1/2 the bard's level + the bard's Cha modifier) to negate the effect. If a creature's saving throw succeeds, the bard cannot attempt to fascinate that creature again for 24 hours. If its saving throw fails, the creature sits quietly and observes the performance for as long as the bard continues to maintain it. While fascinated, a target takes a –4 penalty on all skill checks made as reactions, such as Perception checks. Any potential threat to the target allows the target to make a new saving throw against the effect. Any obvious threat, such as someone drawing a weapon, casting a spell, or aiming a weapon at the target, automatically breaks the effect. Fascinate is an enchantment (compulsion), mind-affecting ability. Fascinate relies on audible and visual components in order to function."
 
 [[entry]]
 id = "ref/performance/frightening-tune"
@@ -18572,12 +18520,7 @@ print = "A bard of 14th level or higher can use his performance to cause fear in
 [[entry]]
 id = "ref/performance/inspire-competence"
 anchor = "inspire-competence"
-print = '''
-A bard of 3rd level or higher can use his performance to help an ally succeed at a task. That ally must be within 30 feet and be able to hear the bard. The ally gets a +2 competence bonus on skill checks with a particular skill as long as she continues to hear the bard's performance. This bonus increases by +1 for every four levels the bard has attained beyond 3rd (+3 at 7th, +4 at 11th, +5 at 15th, and +6 at 19th). Certain uses of this ability are infeasible, such as Stealth, and may be disallowed at the GM's discretion. A bard can't inspire competence in himself. Inspire competence relies on audible components.
-
-Table 3–4: Bard Spells Known Spells Known Level 0 1st 2nd 3rd 4th 5th 6th 1st 4 2 — — — — — 2nd 5 3 — — — — — 3rd 6 4 — — — — — 4th 6 4 2 — — — — 5th 6 4 3 — — — — 6th 6 4 4 — — — — 7th 6 5 4 2 — — — 8th 6 5 4 3 — — — 9th 6 5 4 4 — — — 10th 6 5 5 4 2 — — 11th 6 6 5 4 3 — — 12th 6 6 5 4 4 — — 13th 6 6 5 5 4 2 — 14th 6 6 6 5 4 3 — 15th 6 6 6 5 4 4 — 16th 6 6 6 5 5 4 2 17th 6 6 6 6 5 4 3 18th 6 6 6 6 5 4 4 19th 6 6 6 6 5 5 4 20th 6 6 6 6 6 5 5 _Suggestion (Sp)_: A bard of 6th level or higher can use his performance to make a _suggestion_ (as per the spell) to a creature he has already fascinated (see above). Using this ability does not disrupt the fascinate effect, but it does require a standard action to activate (in addition to the free action to continue the fascinate effect). A bard can use this ability more than once against an individual creature during an individual performance.
-
-Making a _suggestion_ does not count against a bard's total rounds per day of bardic performance. A Will saving throw (DC 10 + 1/2 the bard's level + the bard's Cha modifier) negates the effect. This ability affects only a single creature. _Suggestion_ is an enchantment (compulsion), mind affecting, language-dependent ability and relies on audible components.'''
+print = "A bard of 3rd level or higher can use his performance to help an ally succeed at a task. That ally must be within 30 feet and be able to hear the bard. The ally gets a +2 competence bonus on skill checks with a particular skill as long as she continues to hear the bard's performance. This bonus increases by +1 for every four levels the bard has attained beyond 3rd (+3 at 7th, +4 at 11th, +5 at 15th, and +6 at 19th). Certain uses of this ability are infeasible, such as Stealth, and may be disallowed at the GM's discretion. A bard can't inspire competence in himself. Inspire competence relies on audible components."
 
 [[entry]]
 id = "ref/performance/inspire-courage"
@@ -18602,12 +18545,17 @@ print = "This ability functions just like _[suggestion](ref/performance/suggesti
 [[entry]]
 id = "ref/performance/soothing-performance"
 anchor = "soothing-performance"
-print = "A bard of 12th level or higher can use his performance to create an effect equivalent to a _[mass cure serious wounds](ref/spell/cure-serious-wounds-mass),_ using the bard's level as the caster level. In addition, this performance removes the fatigued, sickened, and shaken conditions from all those affected. Using this ability requires 4 rounds of continuous performance, and the targets must be able to see and hear the bard throughout the performance. Soothing performance affects all targets that remain within 30 feet throughout the performance. Soothing performance relies on audible and visual components."
+print = "A bard of 12th level or higher can use his performance to create an effect equivalent to a _[mass cure serious wounds](ref/spell/cure-serious-wounds-mass),_ using the bard's level as the caster level. In addition, this performance removes the [fatigued](ref/misc/fatigued), [sickened](ref/misc/sickened), and [shaken](ref/misc/shaken) conditions from all those affected. Using this ability requires 4 rounds of continuous performance, and the targets must be able to see and hear the bard throughout the performance. Soothing performance affects all targets that remain within 30 feet throughout the performance. Soothing performance relies on audible and visual components."
+
+[[entry]]
+id = "ref/performance/suggestion"
+anchor = "suggestion"
+print = "A bard of 6th level or higher can use his performance to make a _[suggestion](ref/spell/suggestion)_ (as per the spell) to a creature he has already [fascinated](ref/performance/fascinate) (see above). Using this ability does not disrupt the fascinate effect, but it does require a standard action to activate (in addition to the free action to continue the fascinate effect). A bard can use this ability more than once against an individual creature during an individual performance. Making a _suggestion_ does not count against a bard's total rounds per day of bardic performance. A Will saving throw (DC 10 + 1/2 the bard's level + the bard's Cha modifier) negates the effect. This ability affects only a single creature. _Suggestion_ is an enchantment (compulsion), mind affecting, language-dependent ability and relies on audible components."
 
 [[entry]]
 id = "ref/ragepower/animal-fury"
 anchor = "animal-fury"
-print = "While raging, the barbarian gains a [bite attack](ref/umr/natural-attacks). If used as part of a full attack action, the bite attack is made at the barbarian's full base attack bonus -5. If the bite hits, it deals 1d4 points of damage (assuming the barbarian is Medium; 1d3 points of damage if Small) plus half the barbarian's Strength modifier. A barbarian can make a bite attack as part of the action to maintain or break free from a grapple. This attack is resolved before the grapple check is made. If the bite attack hits, any grapple checks made by the barbarian against the target this round are at a +2 bonus."
+print = "While raging, the barbarian gains a [bite attack](ref/umr/natural-attacks). If used as part of a full attack action, the bite attack is made at the barbarian's full base attack bonus –5. If the bite hits, it deals 1d4 points of damage (assuming the barbarian is Medium; 1d3 points of damage if Small) plus half the barbarian's Strength modifier. A barbarian can make a bite attack as part of the action to maintain or break free from a grapple. This attack is resolved before the grapple check is made. If the bite attack hits, any grapple checks made by the barbarian against the target this round are at a +2 bonus."
 
 [[entry]]
 id = "ref/ragepower/clear-mind"
@@ -18632,12 +18580,12 @@ print = "The barbarian's [damage reduction](ref/rule/damage-reduction) increases
 [[entry]]
 id = "ref/ragepower/internal-fortitude"
 anchor = "internal-fortitude"
-print = "While raging, the barbarian is immune to the sickened and nauseated conditions. A barbarian must be at least 8th level before selecting this rage power."
+print = "While raging, the barbarian is immune to the [sickened](ref/misc/sickened) and [nauseated](ref/misc/nauseated) conditions. A barbarian must be at least 8th level before selecting this rage power."
 
 [[entry]]
 id = "ref/ragepower/intimidating-glare"
 anchor = "intimidating-glare"
-print = "The barbarian can make an Intimidate check against one adjacent foe as a move action. If the barbarian successfully demoralizes her opponent, the foe is [shaken](ref/misc/shaken) for 1d4 rounds + 1 round for every 5 points by which the barbarian's check exceeds the DC."
+print = "The barbarian can make an [Intimidate](ref/skill/intimidate) check against one adjacent foe as a move action. If the barbarian successfully demoralizes her opponent, the foe is [shaken](ref/misc/shaken) for 1d4 rounds + 1 round for every 5 points by which the barbarian's check exceeds the DC."
 
 [[entry]]
 id = "ref/ragepower/knockback"
@@ -18662,7 +18610,7 @@ print = "The barbarian does not gain any benefits or take any of the penalties f
 [[entry]]
 id = "ref/ragepower/night-vision"
 anchor = "night-vision"
-print = "The barbarian's senses grow incredibly sharp while raging and she gains [darkvision](ref/rule/darkvision) 60 feet. A barbarian must have [low-light vision](ref/ragepower/low-light-vision) as a rage power or a racial trait to select this rage power."
+print = "The barbarian's senses grow incredibly sharp while raging and she gains [darkvision](ref/rule/darkvision) 60 feet. A barbarian must have [low-light vision](ref/ragepower/low-light-vision) as a rage power or a [racial trait](ref/rule/low-light-vision) to select this rage power."
 
 [[entry]]
 id = "ref/ragepower/no-escape"
@@ -18777,10 +18725,7 @@ print = "Aberrant sorcerers show increasing signs of their tainted heritage as t
 [[entry]]
 id = "ref/sorcbloodline/aberrant"
 anchor = "acidic-ray"
-print = '''
-Starting at 1st level, you can fire an acidic ray as a standard action, targeting any foe within 30 feet as a ranged touch attack. The acidic ray deals 1d6 points of acid damage + 1 for every two sorcerer levels you possess. You can use this ability a number of times per day equal to 3 + your Charisma modifier.
-
-Spells per Day 1st 2nd 3rd 4th 5th 6th 7th 8th 9th 3 — — — — — — — — 4 — — — — — — — — — — — — — — — — 6 3 — — — — — — — 6 4 — — — — — — — 6 5 3 — — — — — — 6 6 4 — — — — — — 6 6 5 3 — — — — — 6 6 4 — — — — — 6 6 6 5 3 — — — — 6 6 6 6 4 — — — — 6 6 6 6 5 3 — — — 6 6 6 6 6 4 — — — 6 6 6 6 6 5 3 — — 6 6 6 6 6 4 — — 6 6 6 6 6 6 5 3 — 6 6 6 6 6 6 6 4 — 6 6 6 6 6 6 6 5 3 6 6 6 6 6 6 6 6 4 6 6 6 6 6 6 6 6 6'''
+print = "Starting at 1st level, you can fire an acidic ray as a standard action, targeting any foe within 30 feet as a ranged touch attack. The acidic ray deals 1d6 points of acid damage + 1 for every two sorcerer levels you possess. You can use this ability a number of times per day equal to 3 + your Charisma modifier. Spells per Day 1st 2nd 3rd 4th 5th 6th 7th 8th 9th 3 — — — — — — — — 4 — — — — — — — — — — — — — — — — 6 3 — — — — — — — 6 4 — — — — — — — 6 5 3 — — — — — — 6 6 4 — — — — — — 6 6 5 3 — — — — — 6 6 4 — — — — — 6 6 6 5 3 — — — — 6 6 6 6 4 — — — — 6 6 6 6 5 3 — — — 6 6 6 6 6 4 — — — 6 6 6 6 6 5 3 — — 6 6 6 6 6 4 — — 6 6 6 6 6 6 5 3 — 6 6 6 6 6 6 6 4 — 6 6 6 6 6 6 6 5 3 6 6 6 6 6 6 6 6 4 6 6 6 6 6 6 6 6 6"
 
 [[entry]]
 id = "ref/sorcbloodline/aberrant"
@@ -18810,32 +18755,7 @@ print = "Whenever you cast a spell of the polymorph subschool, one target of you
 [[entry]]
 id = "ref/sorcbloodline/aberrant"
 anchor = "warp-touch"
-print = '''
-Starting at 1st level, you create brief, disorienting changes in a creature's physical form. This ability affects one creature within 30 feet, which is [dazed](ref/misc/dazed) for 1 round (Fortitude negates; DC 10 + 1/2 your sorcerer level + your Charisma modifier). You can use this ability a number of times per day equal to 3 + your Charisma modifier. This bloodline power replaces acidic ray.
-
-Table 1–4: Warped Polymorph Benefits d12 Effect 1 Double-Jointed: +2 on Escape Artist checks.
-
-2 Webbed Digits: +2 on Swim checks.
-
-3 Iron Grip: +2 on Climb checks and to CMD against [disarm](ref/rule/disarm) maneuvers.
-
-4 Bug Eyes: +2 on Perception checks.
-
-5 Camouflage: +2 on Stealth checks.
-
-6 Tough Hide: +1 natural armor bonus.
-
-7 Hardy: +1 on Fortitude saving throws.
-
-8 Lively: +1 on Reflex saving throws.
-
-9 Astute: +1 on Will saves.
-
-10 Quick: +5 ft. movement rate.
-
-11 Vicious: +1 on melee attack rolls.
-
-12 Eagle Eyes: +1 on ranged attack rolls.'''
+print = "Starting at 1st level, you create brief, disorienting changes in a creature's physical form. This ability affects one creature within 30 feet, which is [dazed](ref/misc/dazed) for 1 round (Fortitude negates; DC 10 + 1/2 your sorcerer level + your Charisma modifier). You can use this ability a number of times per day equal to 3 + your Charisma modifier. This bloodline power replaces acidic ray. Table 1–4: Warped Polymorph Benefits d12 Effect 1 Double-Jointed: +2 on Escape Artist checks. 2 Webbed Digits: +2 on Swim checks. 3 Iron Grip: +2 on Climb checks and to CMD against [disarm](ref/rule/disarm) maneuvers. 4 Bug Eyes: +2 on Perception checks. 5 Camouflage: +2 on Stealth checks. 6 Tough Hide: +1 natural armor bonus. 7 Hardy: +1 on Fortitude saving throws. 8 Lively: +1 on Reflex saving throws. 9 Astute: +1 on Will saves. 10 Quick: +5 ft. movement rate. 11 Vicious: +1 on melee attack rolls. 12 Eagle Eyes: +1 on ranged attack rolls."
 
 [[entry]]
 id = "ref/sorcbloodline/aberrant"
@@ -18914,10 +18834,7 @@ print = "Whenever you cast a spell that deals hit point damage, one target of yo
 [[entry]]
 id = "ref/sorcbloodline/abyssal"
 anchor = "wings-of-the-abyss"
-print = '''
-At 9th level, you can sprout leathery wings and fly for a number of minutes per day equal to your sorcerer level, with a speed of 60 feet and good maneuverability.
-
-This duration does not need to be consecutive, but it must be used in 1-minute increments. This bloodline power replaces strength of the abyss.'''
+print = "At 9th level, you can sprout leathery wings and fly for a number of minutes per day equal to your sorcerer level, with a speed of 60 feet and good maneuverability. This duration does not need to be consecutive, but it must be used in 1-minute increments. This bloodline power replaces strength of the abyss."
 
 [[entry]]
 id = "ref/sorcbloodline/abyssal"
@@ -19685,7 +19602,7 @@ anchor = "bleeding-attack"
 print = '''
 Talents marked with an asterisk add effects to a rogue’s sneak attack. Only one of these talents can be applied to an individual attack and the decision must be made before the attack roll is made.
 
-A rogue with this ability can cause living opponents to [bleed](ref/rule/bleed) by hitting them with a sneak attack. This attack causes the target to take 1 additional point of damage each round for each die of the rogue's sneak attack (e.g., 4d6 equals 4 points of bleed). Bleeding creatures take that amount of damage every round at the start of each of their turns. The bleeding can be stopped by a DC 15 Heal check or the application of any effect that heals hit point damage. Bleeding damage from this ability does not stack with itself. Bleeding damage bypasses any [damage reduction](ref/rule/damage-reduction) the creature might possess.'''
+ A rogue with this ability can cause living opponents to [bleed](ref/rule/bleed) by hitting them with a sneak attack. This attack causes the target to take 1 additional point of damage each round for each die of the rogue's sneak attack (e.g., 4d6 equals 4 points of bleed). Bleeding creatures take that amount of damage every round at the start of each of their turns. The bleeding can be stopped by a DC 15 Heal check or the application of any effect that heals hit point damage. Bleeding damage from this ability does not stack with itself. Bleeding damage bypasses any [damage reduction](ref/rule/damage-reduction) the creature might possess.'''
 
 [[entry]]
 id = "ref/talent/combat-trick"
@@ -19698,7 +19615,7 @@ anchor = "crippling-strike"
 print = '''
 Talents marked with an asterisk add effects to a rogue’s sneak attack. Only one of these talents can be applied to an individual attack and the decision must be made before the attack roll is made.
 
-A rogue with this ability can sneak attack opponents with such precision that her blows weaken and hamper them. An opponent damaged by one of her sneak attacks also takes 2 points of [Strength damage](ref/rule/ability-damage-drain).'''
+ A rogue with this ability can sneak attack opponents with such precision that her blows weaken and hamper them. An opponent damaged by one of her sneak attacks also takes 2 points of [Strength damage](ref/rule/ability-damage-drain).'''
 
 [[entry]]
 id = "ref/talent/defensive-roll"
@@ -19711,7 +19628,7 @@ anchor = "dispelling-attack"
 print = '''
 Talents marked with an asterisk add effects to a rogue’s sneak attack. Only one of these talents can be applied to an individual attack and the decision must be made before the attack roll is made.
 
-Opponents that are dealt sneak attack damage by a rogue with this ability are affected by a targeted _[dispel magic](ref/spell/dispel-magic)_, targeting the lowest-level spell effect active on the target. The caster level for this ability is equal to the rogue's level. A rogue must have the [major magic](ref/talent/major-magic) rogue talent before choosing dispelling attack.'''
+ Opponents that are dealt sneak attack damage by a rogue with this ability are affected by a targeted _[dispel magic](ref/spell/dispel-magic)_, targeting the lowest-level spell effect active on the target. The caster level for this ability is equal to the rogue's level. A rogue must have the [major magic](ref/talent/major-magic) rogue talent before choosing dispelling attack.'''
 
 [[entry]]
 id = "ref/talent/fast-stealth"
@@ -19721,10 +19638,7 @@ print = "This ability allows a rogue to move at full speed using the [Stealth](r
 [[entry]]
 id = "ref/talent/feat"
 anchor = "feat"
-print = '''
-A rogue may gain any feat that she qualifies for in place of a rogue talent.
-
-Master Strike _(Ex)_: Upon reaching 20th level, a rogue becomes incredibly deadly when dealing sneak attack damage. Each time the rogue deals sneak attack damage, she can choose one of the following three effects: the target can be put to sleep for 1d4 hours, paralyzed for 2d6 rounds, or slain. Regardless of the effect chosen, the target receives a Fortitude save to negate the additional effect. The DC of this save is equal to 10 + 1/2 the rogue's level + the rogue's Intelligence modifier. Once a creature has been the target of a master strike, regardless of whether or not the save is made, that creature is immune to that rogue's master strike for 24 hours. Creatures that are immune to sneak attack damage are also immune to this ability.'''
+print = "A rogue may gain any feat that she qualifies for in place of a rogue talent."
 
 [[entry]]
 id = "ref/talent/finesse-rogue"
@@ -19774,10 +19688,7 @@ print = "While [prone](ref/rule/prone), a rogue with this ability can move at ha
 [[entry]]
 id = "ref/talent/skill-mastery"
 anchor = "skill-mastery"
-print = '''
-The rogue becomes so confident in the use of certain skills that she can use them reliably even under adverse conditions.
-
-Upon gaining this ability, she selects a number of skills equal to 3 + her Intelligence modifier. When making a skill check with one of these skills, she may take 10 even if stress and distractions would normally prevent her from doing so. A rogue may gain this special ability multiple times, selecting additional skills for skill mastery to apply to each time.'''
+print = "The rogue becomes so confident in the use of certain skills that she can use them reliably even under adverse conditions. Upon gaining this ability, she selects a number of skills equal to 3 + her Intelligence modifier. When making a skill check with one of these skills, she may take 10 even if stress and distractions would normally prevent her from doing so. A rogue may gain this special ability multiple times, selecting additional skills for skill mastery to apply to each time."
 
 [[entry]]
 id = "ref/talent/slippery-mind"
@@ -19790,7 +19701,7 @@ anchor = "slow-reactions"
 print = '''
 Talents marked with an asterisk add effects to a rogue’s sneak attack. Only one of these talents can be applied to an individual attack and the decision must be made before the attack roll is made.
 
-Opponents damaged by the rogue's sneak attack can't make attacks of opportunity for 1 round.'''
+ Opponents damaged by the rogue's sneak attack can't make attacks of opportunity for 1 round.'''
 
 [[entry]]
 id = "ref/talent/stand-up"
