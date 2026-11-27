@@ -17,22 +17,32 @@ Shapes (owner rulings of 2026-11-24 on the data plan)
 An entry converts all or nothing, and a converted entry has no import row left, which is also what takes it out of the scope of
 `rewrite-class-option-powers.py --check` (its resolutions and exceptions are then `retired`).
 
-Files (per book, beside the archetype files, which this script never touches)
------------------------------------------------------------------------------
-`scripts/feature-prose-540-<book>.class-options.tsv`
-    One row per power: entry, feature (the name as written), anchor, shape, level_import, level, verdict, status, page, span_sha256, note.
-    `verdict`: `agree` (the rule draft equals print), `differ` (print differs from the draft in wording only), `hold` (a number or a
-    rule word differs, or the draft cannot express print), `missing-head` (the import has a power that print does not show),
-    `nopage`, `nobook`. `status` is what `--write` goes by: `draft`, `print` or `hold` (as in the archetype table).
-`scripts/feature-prose-540-<book>.class-options.proposals.toml`
-    The printed text of each power, which a TSV cannot hold.
+Files (per book, in `scripts/class-options/`, which the archetype scripts' `scripts/feature-prose-540-*` glob does not reach)
+-------------------------------------------------------------------------------------------------------------------------
+`540-<book>.tsv`
+    One row per power (the ledger): entry, feature, anchor, shape, section, book, page, level_import, level, by, ability_tag, verdict,
+    reviewed_537, status, links_lost, print_sha256, span_sha256, note. `verdict`: `agree` (the rule draft equals print), `differ` (wording
+    only), `hold`, `missing-head`, `nopage`, `nobook`; `reviewed_537` is `yes` when a resolution of #537 reaches the power (the verdict stays
+    the print compare's). `status`: `draft` or `print` (settled), `hold`, `written` (settled and written into the entry; the row stays, and
+    `--check` reads the entry against it). `ability_tag` is the printed (Ex)/(Su)/(Sp) of a single-power option (ruling 63).
+`540-<book>.proposals.toml`
+    The printed text of each power, written ones included (a TSV cannot hold it).
+`540-<book>.decisions.tsv`
+    entry, anchor, decision, note. `print` settles a held power as print has it (an errata check done, an owner ruling); a hold settles by a
+    row here, not by a change of the script.
+
+What holds an entry (every power of it): import rows outside the powers (Details, Spells, Gained class skills: not transcribed from print
+yet), a trade row (Replaces/Alters), an anchor that collides, a single power whose name is not the title.
 
 Usage
 -----
     feature-prose-540-class-options.py --self-test
     feature-prose-540-class-options.py [CORPUS] --compare --book ID [--families a,b] [--books DIR --cache DIR]
-    feature-prose-540-class-options.py [CORPUS] --write --book ID [--families a,b]
-    feature-prose-540-class-options.py [CORPUS] --check [--book ID]      no PDF needed; exit 1 unless a rerun changes nothing
+    feature-prose-540-class-options.py [CORPUS] --write --book ID [--families a,b] [--checker BIN]   writes, marks `written`, runs `fmt`
+    feature-prose-540-class-options.py [CORPUS] --check [--book ID]      no PDF needed; exit 1 on a stale row, a settled entry that is not
+                                                                         written, a written entry that holds an import label or lacks its text
+    feature-prose-540-class-options.py [CORPUS] --headings --book ID ...  ruling 61 for the evolutions that are written
+    feature-prose-540-class-options.py [CORPUS] --ability-type --book ID  ruling 63: off until the app reads `ability_type`
 """
 
 from __future__ import annotations
