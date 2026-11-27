@@ -114,6 +114,8 @@ jobs:
         run: |
           python3 corpus/scripts/rule-entries-540.py --self-test
           python3 corpus/scripts/rule-entries-540.py corpus --check
+      - name: Ability lists as printed prose (#540)
+        run: python3 corpus/scripts/ability-lists-540.py --self-test
       - name: Errata review file (#309)
         run: |
           python3 corpus/scripts/errata.py --self-test

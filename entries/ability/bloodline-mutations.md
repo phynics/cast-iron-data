@@ -27,31 +27,24 @@ Alternatively, a bloodrager or sorcerer can select a bloodline mutation in place
 bonus feat, provided her class level is at least equal to the level of the bloodline ability the
 mutation normally replaces.
 
-**Blood Havoc**
-
-**Ability:** Whenever you cast a bloodrager or sorcerer spell that deals damage, add 1 point of
+**Blood Havoc:** Whenever you cast a bloodrager or sorcerer spell that deals damage, add 1 point of
 damage per die rolled. This benefit applies only to damaging spells that belong to schools you have
 selected with [Spell Focus](ref/feat/spell-focus) or that are bloodline spells for your bloodline.
+This ability replaces the sorcerer's 1st-level bloodline power or the bloodrager's 4th-level
+bloodline power.
 
-**Replaces:** The sorcerer's 1st-level bloodline power or the bloodrager's 4th-level bloodline power
+**Blood Intensity:** Whenever you cast a bloodrager or sorcerer spell that deals damage, you can
+increase its maximum number of damage dice by an amount equal to your Strength or Charisma modifier,
+whichever is higher. This otherwise functions as —and does not stack with—the
+[Intensified Spell](ref/feat/intensified-spell) feat. You can use this ability once per day at 3rd
+level and one additional time per day for every 4 caster levels you have beyond 3rd, up to five
+times per day at 19th level. This ability replaces the sorcerer's 3rd-level bloodline power or the
+bloodrager's 8th-level bloodline power.
 
-**Blood Intensity**
-
-**Ability:** Whenever you cast a bloodrager or sorcerer spell that deals damage, you can increase
-its maximum number of damage dice by an amount equal to your Strength or Charisma modifier,
-whichever is higher. This otherwise functions as — and does not stack with — the
-[Intensified Spell](ref/feat/intensified-spell) feat.
-
-**Replaces:** The sorcerer's 3rd-level bloodline power or the bloodrager's 8th-level bloodline power
-
-**Usage:** 1 time/day + 1 per 4 sorcerer or bloodrager levels beyond 3rd
-
-**Blood Piercing**
-
-**Ability:** When you cast a bloodrager or sorcerer spell that deals damage, creatures affected by
-the spell reduce their energy resistance and [spell resistance](ref/rule/spell-resistance) against
-the spell's effects by an amount equal to your Strength or Charisma modifier, whichever is higher.
-
-**Replaces:** The sorcerer's 9th-level bloodline power or the bloodrager's 4th-level bloodline power
-
-**Usage:** 1 time/day + 1 per 5 sorcerer or bloodrager levels beyond 4th
+**Blood Piercing:** When you cast a bloodrager or sorcerer spell that deals damage, creatures
+affected by the spell reduce their energy resistance and
+[spell resistance](ref/rule/spell-resistance) against the spell's effects by an amount equal to your
+Strength or Charisma modifier, whichever is higher. You can use this ability once per day at 4th
+level and one additional time per day for every 5 caster levels you have beyond 3rd, up to four
+times per day at 18th level. This ability replaces the sorcerer's 9th-level bloodline power or the
+bloodrager's 4th-level bloodline power.
