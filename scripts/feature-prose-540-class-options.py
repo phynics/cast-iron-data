@@ -78,6 +78,8 @@ def _load(name: str, file: str):
 fp = _load("feature_prose_540", "feature-prose-540.py")
 rw = _load("rewrite_class_option_powers", "rewrite-class-option-powers.py")
 fp.LOOSE_ITEMS["on"] = True      # ruling 60: the loose reading of a prerequisite item (every word, any order, a sentence with "must" or "only available")
+fp.IMPORT_HEAD_FIXES[("ref/vigtalent/expose-weaknesses", "Expose Weaknesses (Ex)")] = "Expose Weakness (Ex)"  # print p. 14; the entry title agrees with print
+fp.IMPORT_HEAD_FIXES[("ref/vigtalent/environmental-weapon", "Environmental Weapon (Ex)")] = "Environment Weapon (Ex)"  # print p. 14; the import head has an extra syllable
 
 HEADER = ["entry", "feature", "anchor", "shape", "section", "book", "page", "level_import", "level", "by", "ability_tag", "verdict",
           "reviewed_537", "status", "links_lost", "print_sha256", "span_sha256", "note"]
@@ -303,8 +305,8 @@ def ability_tag_of_printed_head(head: str) -> str:
 
 
 def ability_tag_for_option(book: str, imported_head: str, printed_head: str) -> tuple[str, bool]:
-    """Read tags from print; Ultimate Combat never inherits a tag absent from its printed head."""
-    if book in {"ultimate-combat", "core-rulebook"}:
+    """Read tags from print in the audited books; retain the established matcher elsewhere."""
+    if book in {"ultimate-combat", "ultimate-intrigue", "core-rulebook"}:
         imported, printed = ability_tag_of(imported_head), ability_tag_of_printed_head(printed_head)
         return printed, bool(imported and printed and imported != printed)
     return ability_tag_pair(imported_head, printed_head)
@@ -319,6 +321,9 @@ INTRO_MARK_SPECS = {
         "discovery": ("Discoveries that modify bombs and are marked with a single asterisk", "stack"),
         "talent": ("Talents marked with an asterisk", "sneak attack"),
         "ninjatrick": ("Tricks marked with an asterisk", "sneak attack"),
+    },
+    "ultimate-intrigue": {
+        "vigtalent": ("marked with an asterisk", "hidden strike"),
     },
     "core-rulebook": {
         "talent": ("Talents marked with an asterisk", "sneak attack"),
@@ -336,7 +341,8 @@ BLOOD_PREREQUISITE_INTROS = {
 def marked_head_intro(book: str, entry_id: str) -> str:
     """The printed intro sentence for a marked head, read from its book during --compare."""
     text, _ = INTRO_MARK_TEXT.get((book, entry_id.split("/")[1]), INTRO_MARK.get("by", {}).get(entry_id.split("/")[1], ("", 0)))
-    return text.replace("(*)", r"(\*)")
+    text = text.replace("(*)", r"(\*)")
+    return text.replace("’", "'") if book == "ultimate-intrigue" else text
 
 
 def marked_head_page(book: str, entry_id: str) -> int:
@@ -458,6 +464,25 @@ def place_links(text: str, links: list[tuple[str, str]]) -> tuple[str, list[str]
     return text, lost
 
 
+def link_intrigue_class_prerequisites(text: str) -> str:
+    """Link printed vigilante and specialization prerequisites to their class entries."""
+    out = []
+    for match in re.finditer(r"[^.!?]*[.!?]?", text):
+        sentence = match.group(0)
+        if re.search(r"\bonly an? stalker vigilante\b", sentence, re.I) and re.search(r"\bcan select this talent\b", sentence, re.I):
+            sentence = re.sub(r"\bstalker vigilante\b", "[stalker vigilante](ref/class/vigilante#stalker)", sentence, count=1, flags=re.I)
+        elif re.search(r"\bonly an? avenger vigilante\b", sentence, re.I) and re.search(r"\bcan select this talent\b", sentence, re.I):
+            sentence = re.sub(r"\bavenger vigilante\b", "[avenger vigilante](ref/class/vigilante#avenger)", sentence, count=1, flags=re.I)
+        elif re.search(r"\ba vigilante must\b", sentence, re.I):
+            sentence = re.sub(r"\bvigilante\b", "[vigilante](ref/class/vigilante)", sentence, count=1, flags=re.I)
+        out.append(sentence)
+    return "".join(out)
+
+
+def repair_intrigue_italic_link_boundary(text: str) -> str:
+    """Repair the two empty emphasis artifacts left at linked italic commas in this book."""
+    text = re.sub(r"(\]\([^)]*\))_, __ (a caster level check)", r"\1,_ \2", text)
+    return re.sub(r"(\]\([^)]*\))_, __ (and he can say it)", r"\1_, \2", text)
 CROSS_GROUP = re.compile(r"\[([^\]]*)\]\((ref/[^)]+)\)")
 CORPUS_ROOT: Path | None = None          # the tree the entry files are read from (the target group of a printed item, ruling 52)
 GROUP_OF_TARGET: dict[str, tuple[str, str] | None] = {}
@@ -586,6 +611,11 @@ def group_kind(e) -> str:
     return group.split("-")[-1] if group else ""
 
 
+def single_name_matches_title(entry_id: str, title: str, name: str) -> bool:
+    imported = fp.import_name(entry_id, name)
+    return fp.namekey(imported) == fp.namekey(title) or fp.namekey(inverted(imported)) == fp.namekey(title)
+
+
 def anchor_section(blocks: list, title: str, own: frozenset | set = frozenset(), kind: str = "") -> tuple[list, bool] | None:
     """The blocks of a multi-power entry from the printed title of the entry to the next title of another class option (or any larger title),
     and whether that end was found: the window is anchored at the title, so a head of a neighbour that follows on the page is not read as the
@@ -623,32 +653,34 @@ INTRO_MARKS_BOOKS = ("ultimate-magic", "advanced-class-guide", "core-rulebook")
 FAMILY_WORDS = (("investigator", "invtalent"), ("slayer", "slayertalent"), ("rage power", "ragepower"), ("bloodrage", "ragepower"), ("discover", "discovery"), ("hex", "shamanhex"), ("deed", "swashdeed"), ("arcana", "arcana"), ("evolution", "evolution"))
 class IntroMarkMap:
     """Resolve marked-head intro sentences from print, by family or explicit rule."""
+
     def __init__(self, bk, marker=None, prefer=None):
         self.by_family = {}
         self.text, self.page = "", 0
         best = None
+        marker_re = re.compile(r"(?<!\w)" + re.escape(marker) + r"(?!\w)", re.I) if marker else None
         for block in fp.read_blocks(bk, 1, max(bk.pages)):
             if block.kind != "para":
                 continue
             text = " ".join(block.plain().split())
-            if "asterisk" not in text.casefold():
-                continue
             sentences = re.split(r"(?<=[.!?])\s+", text)
-            for i, sentence in enumerate(sentences):
-                if "marked with" in sentence.casefold() and "asterisk" in sentence.casefold():
-                    family = next((fam for word, fam in FAMILY_WORDS if word in text.casefold()), None)
-                    if family and family not in self.by_family:
-                        self.by_family[family] = (" ".join(sentences[i:]).strip(), block.page)
-                    break
-            if marker and marker.lower() in text.lower():
-                idx = next(i for i, sentence in enumerate(sentences) if marker.lower() in sentence.lower())
-                candidate = (" ".join(sentences[idx:]).strip(), block.page)
-                if best is None or (prefer and prefer.lower() in candidate[0].lower()):
+            if "asterisk" in text.casefold():
+                for i, sentence in enumerate(sentences):
+                    if "marked with" in sentence.casefold() and "asterisk" in sentence.casefold():
+                        family = next((fam for word, fam in FAMILY_WORDS if word in text.casefold()), None)
+                        if family and family not in self.by_family:
+                            self.by_family[family] = (" ".join(sentences[i:]).strip(), block.page)
+                        break
+            if marker_re and marker_re.search(text):
+                at = next(i for i, sentence in enumerate(sentences) if marker_re.search(sentence))
+                candidate = (" ".join(sentences[at:]).strip(), block.page)
+                if best is None or (prefer and prefer.casefold() in candidate[0].casefold()):
                     best = candidate
-                if prefer and prefer.lower() in candidate[0].lower():
+                if prefer and prefer.casefold() in candidate[0].casefold():
                     break
         if best:
             self.text, self.page = best
+
 class GroupMap:
     """Ruling 61, per book: every group heading of the book with its intro sentence ("2-Point Evolutions: The following evolutions cost 2
     points from the eidolon's evolution pool.") and the printed page it stands on, from one read of the whole book. The group of a power is
@@ -752,6 +784,37 @@ def fence(rows: list[dict], shape: str) -> list[dict]:
             r["status"] = "hold"
             r["note"] = (r["note"] + "; " if r["note"] else "") + "multi-power window not anchored yet"
     return rows
+
+
+def apply_multi_decisions(rows: list[dict], entry_id: str) -> list[dict]:
+    """Apply explicit hold decisions after section rows have been added to a multi-power entry."""
+    for row in rows:
+        decision = DECISIONS.get((entry_id, row.get("anchor", "")))
+        if decision and decision[0] == "hold":
+            row["status"] = "hold"
+            marker = f"held by decision: {decision[1]}"
+            if marker not in row.get("note", ""):
+                row["note"] = "; ".join(x for x in (row.get("note", ""), marker) if x)
+    return rows
+
+
+def print_decision_resolves(decision, status: str, source_status: str, problems: list[str], hard: bool) -> bool:
+    """A print decision resolves a comparison hold only when no independent blocker remains."""
+    return bool(decision and decision[0] == "print" and status == "hold" and (source_status in SETTLED or source_status == "hold") and not problems and not hard)
+
+
+RULE_8_PRINTED_PROGRESSIONS = {
+    ("ref/vigtalent/environmental-weapon", "environment-weapon"):
+        ("At 5th, 10th, 15th, and 20th levels, the vigilante can select an additional type of terrain.",
+         "At and 20th levels, the vigilante can select an additional type of terrain."),
+}
+
+
+def ruling8_progression_decision(book: str, entry_id: str, anchor: str, decision, missing: list[str], print_text: str) -> bool:
+    """An explicit ruling-8 decision can settle only the reviewed printed progression sentence."""
+    expected = RULE_8_PRINTED_PROGRESSIONS.get((entry_id, anchor))
+    return bool(book == "ultimate-intrigue" and expected and decision and decision[0] == "print"
+                and "ruling 8" in decision[1].lower() and missing == [expected[1]] and expected[0] in print_text)
 
 
 def headings_as_names(body: str) -> str:
@@ -1195,14 +1258,14 @@ def compare_one(e, book, bk, other=None) -> list[dict]:
                     raw_text[raw_key] = blood_intro + " " + (complete or raw_text.get(raw_key, ""))
                 printed = blood_intro + "\n\n" + printed
         if notes_tag:
-            status = "hold"          # a lead decision `print` settles it (print's tag is the rule)
+            status = "hold"
         anchor = pr[1] if pr else r["anchor"]
         anchors_seen[anchor] += 1
-        hard = False                                    # a hold that no decision lifts: it is a fact of the entry, not a difference with print
+        hard = False                                    # an explicit print decision may settle a tag difference under ruling 63
         if anchors_seen[anchor] > 1 or (anchor in taken and not pr):
             notes.append(f"anchor collision: {anchor}")
             status, hard = "hold", True
-        if shape == "single" and fp.namekey(name) != fp.namekey(e.title) and fp.namekey(inverted(name)) != fp.namekey(e.title):
+        if shape == "single" and not single_name_matches_title(e.id, e.title, name):
             notes.append("the power's name differs from the title of the entry")
             status, hard = "hold", True
         if "dropped table" in " ".join(notes) and shape == "single":
@@ -1220,7 +1283,9 @@ def compare_one(e, book, bk, other=None) -> list[dict]:
         lost_s = print_lost(raw_text.get(fp.namekey(fp.head_text(r["head"])), ""), printed) if r.get("head") else []
         if lost_s:
             notes.append(f"print sentences that the written text lacks ({len(lost_s)}): " + " | ".join(x[:60] for x in lost_s[:2]))
-            status, hard = "hold", True
+            status = "hold"
+            if not ruling8_progression_decision(book, e.id, anchor, DECISIONS.get((e.id, anchor)), lost_s, printed):
+                hard = True
         if problems:
             notes += problems
             status = "hold"
@@ -1229,7 +1294,7 @@ def compare_one(e, book, bk, other=None) -> list[dict]:
         if f is not None and f.span_sha() in noend:
             notes.append("the second-source window has no end title: the text may run into another option")
             status, hard = "hold", True
-        intro = marked_head_intro(book, e.id) if shape == "single" and r.get("marked") else ""
+        intro = marked_head_intro(book, e.id) if shape == "single" and (r.get("marked") or e.id in MARKED_HEAD_ENTRIES) else ""
         intro_page = marked_head_page(book, e.id) if intro else 0
         if intro:
             printed = intro + "\n\n" + printed
@@ -1238,6 +1303,9 @@ def compare_one(e, book, bk, other=None) -> list[dict]:
                 common["page"] = f"{intro_page}-{page}"
         if shape == "single":
             printed, lost = place_links(printed, plinks)
+            if book == "ultimate-intrigue":
+                printed = link_intrigue_class_prerequisites(printed)
+                printed = repair_intrigue_italic_link_boundary(printed)
             if book == "core-rulebook":
                 printed = core_rulebook_links(e.id, printed)
             crossed = option_link_kind_mismatches(book, printed)
@@ -1265,7 +1333,10 @@ def compare_one(e, book, bk, other=None) -> list[dict]:
                 if gh[1] < page:
                     common["page"] = f"{gh[1]}-{page}"           # the sentence is on the page before: the entry cites both (ruling 61)
         decided = DECISIONS.get((e.id, anchor))
-        if decided and decided[0] == "print" and print_decision_may_settle(notes_tag, problems, {"notes": notes}):
+        if print_decision_resolves(decided, status, r["status"], problems, hard):
+            status = "print"
+            notes.append(f"decision: {decided[1]}")
+        elif decided and decided[0] == "print" and print_decision_may_settle(notes_tag, problems, {"notes": notes}):
             status = r["status"]                 # print's tag is the rule (ruling 63): the lead may settle a disagreement
             notes.append(f"decision: {decided[1]}")
         elif decided and decided[0] == "print" and status == "hold" and r["status"] == "hold" and not problems and not hard:
@@ -1274,13 +1345,14 @@ def compare_one(e, book, bk, other=None) -> list[dict]:
         elif decided and decided[0] == "hold":
             status = "hold"                                  # held by decision: an errata check, a ruling that has not landed
             notes.append(f"held by decision: {decided[1]}")
-        printed = prepend_intro(printed, marked_head_intro(book, e.id) if shape == "single" and r.get("marked") else "")
+        printed = prepend_intro(printed, marked_head_intro(book, e.id) if shape == "single" and (r.get("marked") or e.id in MARKED_HEAD_ENTRIES) else "")
         rows.append(dict(common, anchor=anchor, verdict=verdict, status=status,
                          level_import=r["level_import"] if r["level_import"] is not None else "",
                          level=level_of(r["print"]) or "", note="; ".join(notes)[:400], print=printed,
                          print_sha256=hashlib.sha256(printed.encode()).hexdigest()))
     if shape == "multi":
         rows = add_sections(e0, rows, res, feats, powers, by_name, base, book, problems, anchors_seen, variants)
+        rows = apply_multi_decisions(rows, e0.id)
     return fence(rows, shape)
 
 
@@ -1459,6 +1531,12 @@ def run_compare(args) -> int:
         if any((pf.marked or re.search(r"[*†‡]", fp.head_text(pf.head))) and fp.namekey(fp.ABILITY_TAG.sub("", re.sub(r"[*†‡]", "", fp.head_text(pf.head)))) == title_key
                for pf in printed_heads):
             MARKED_HEAD_ENTRIES.add(entry.id)
+    # Re-check marked heads already written in earlier runs; the imported head may no
+    # longer be available to the print-head scan after the entry has been rewritten.
+    MARKED_HEAD_ENTRIES.update(
+        row["entry"] for row in read_tsv(tsv_file(corpus, book))
+        if row.get("status") == LEDGER and "opens with print's sentence about the mark" in row.get("note", "")
+    )
     names: list[str] = []
     acg_written: dict[str, list[str]] = {}
     acg_ids = {x.id for x in load_class_options(corpus, "advanced-class-guide")}
@@ -1522,13 +1600,13 @@ def run_compare(args) -> int:
     ledger_before = read_tsv(tsv_file(corpus, book))
     ledger_props = read_props(proposals_file(corpus, book))
     for r in ledger_before:                         # the written entries count too: a paragraph that one of them has is claimed
-        if r["status"] == LEDGER and r["entry"] not in {x["entry"] for x in rows} and ledger_props.get((r["entry"], r["anchor"])):
+        if counts_for_duplicate_check(r) and r["status"] == LEDGER and r["entry"] not in {x["entry"] for x in rows} and ledger_props.get((r["entry"], r["anchor"])):
             twice.setdefault((r["book"], fp.namekey(r["feature"]), r["print_sha256"]), set()).add(r["entry"])
     for r in rows:                                  # one printed paragraph claimed by two entries holds both: an owner decides whose it is
-        if r.get("print"):
+        if r.get("print") and counts_for_duplicate_check(r):
             twice.setdefault((r["book"], fp.namekey(r["feature"]), r["print_sha256"]), set()).add(r["entry"])
     for r in rows:
-        if r.get("print") and len(twice[(r["book"], fp.namekey(r["feature"]), r["print_sha256"])]) > 1:
+        if r.get("print") and counts_for_duplicate_check(r) and len(twice[(r["book"], fp.namekey(r["feature"]), r["print_sha256"])]) > 1:
             r["note"] = (r["note"] + "; " if r["note"] else "") + "the print head matches more than one entry: " + ", ".join(sorted(twice[(r["book"], fp.namekey(r["feature"]), r["print_sha256"])]))[:120]
             r["status"] = "hold" if r["status"] in SETTLED else r["status"]
     old = read_tsv(tsv_file(corpus, book))
@@ -1563,6 +1641,12 @@ def report(rows: list[dict], cen: dict) -> str:
     if cen["none"]:
         lines.append("without import rows by family: " + ", ".join(f"{k} {v}" for k, v in sorted(cen["none_by_family"].items(), key=lambda kv: -kv[1])))
     return "\n".join(lines)
+
+
+def counts_for_duplicate_check(row: dict) -> bool:
+    """An unanchored multi-power window is held and cannot claim a head from its whole citation range."""
+    return not (row.get("book") == "ultimate-intrigue" and row.get("shape") in {"multi", "section", "variant"} and row.get("status") == "hold"
+                and "window is not anchored" in row.get("note", ""))
 
 
 def write_atomic(path: Path, text: str) -> None:
@@ -1970,7 +2054,9 @@ def run_write(args) -> int:
         if shape == "none" and mine and all(r["status"] == LEDGER for r in mine):
             proposal = props.get((e.id, mine[0]["anchor"]), "")
             intro = proposal.split("\n\n", 1)[0]
-            has_intro = bool(re.match(r"^(?:Discoveries|Talents|Tricks|Investigator talents).*marked with .*asterisk", intro))
+            has_intro = bool(re.match(r"^(?:Discoveries|Talents|Tricks|Investigator talents).*marked with .*asterisk", intro)) or (
+                book == "ultimate-intrigue" and any("opens with print's sentence about the mark" in r.get("note", "") for r in mine)
+            )
             if has_intro:
                 assert proposal.startswith(intro), f"{e.id}: proposal lacks the printed intro for its marked head"
                 body = prepend_intro(e.body, intro)
@@ -2157,6 +2243,14 @@ def self_test() -> int:
 
     eq(inverted("Greater Beast Totem (Su)"), "Beast Totem, Greater (Su)", "print sets the variant behind the name")
     eq(inverted("Beast Totem"), "Beast Totem", "a name without a variant stays")
+    eq(counts_for_duplicate_check({"book": "ultimate-intrigue", "shape": "section", "status": "hold", "note": "window is not anchored"}), False, "Ultimate Intrigue's unanchored held multi-power section cannot claim a single head")
+    eq(counts_for_duplicate_check({"shape": "multi", "status": "hold", "note": "a printed window is anchored"}), True, "an anchored multi-power hold still claims its print text")
+    eq(counts_for_duplicate_check({"book": "ultimate-magic", "shape": "section", "status": "hold", "note": "window is not anchored"}), True, "other books keep their prior duplicate-window behavior")
+    eq(counts_for_duplicate_check({"shape": "single", "status": "hold", "note": "window is not anchored"}), True, "a single-power hold still participates in duplicate checks")
+    eq(fp.import_name("ref/vigtalent/expose-weaknesses", "Expose Weaknesses (Ex)"), "Expose Weakness (Ex)", "Ultimate Intrigue p. 14: printed singular head matches its entry title")
+    eq(fp.import_name("ref/vigtalent/environmental-weapon", "Environmental Weapon (Ex)"), "Environment Weapon (Ex)", "Ultimate Intrigue p. 14: the misspelled import head matches the entry title")
+    eq(single_name_matches_title("ref/vigtalent/expose-weaknesses", "Expose Weakness", "Expose Weaknesses (Ex)"), True, "a printed singular head can match the exact entry title through its import-head correction")
+    eq(single_name_matches_title("ref/vigtalent/environmental-weapon", "Environment Weapon", fp.import_name("ref/vigtalent/environmental-weapon", "Environmental Weapon (Ex)")), True, "Ultimate Intrigue p. 14: the printed title matches after the import-head correction")
     eq(INVERTED_HEAD.match("Beast Totem, Greater (Su)").groups(), ("Beast Totem", "Greater", " (Su)"), "the inverted head is read")
     eq(INVERTED_HEAD.match("Pool Strike, Arcing (Su)").groups(), ("Pool Strike", "Arcing", " (Su)"), "an inverted Pool Strike head is read")
     eq(inverted("Arcing Pool Strike (Su)"), "Pool Strike, Arcing (Su)", "the title's variant moves behind its base name")
@@ -2267,6 +2361,25 @@ def self_test() -> int:
     DECISIONS[("ref/x/y", "z")] = ("hold", "an errata check")
     DECISIONS[("ref/x/y", "w")] = ("print", "settled")
     eq((DECISIONS[("ref/x/y", "z")][0], DECISIONS[("ref/x/y", "w")][0]), ("hold", "print"), "a decision is a hold or print")
+    eq(print_decision_resolves(("print", "printed tag"), "hold", "hold", [], False), True,
+       "ruling 63: an explicit print decision can use the printed tag")
+    eq(print_decision_resolves(("print", "printed tag"), "hold", "draft", [], False), True,
+       "ruling 63: a tag-only hold can settle an otherwise matching draft")
+    eq(print_decision_resolves(("print", "printed tag"), "hold", "hold", [], True), False,
+       "a print decision cannot clear an independent hard blocker")
+    eq(print_decision_resolves(("print", "printed tag"), "hold", "hold", ["number difference"], False), False,
+       "a print decision cannot clear a number difference")
+    env_decision = ("print", "Ultimate Intrigue p. 14: progression values agree under ruling 8")
+    env_sentence = "At 5th, 10th, 15th, and 20th levels, the vigilante can select an additional type of terrain."
+    env_lost = "At and 20th levels, the vigilante can select an additional type of terrain."
+    eq(ruling8_progression_decision("ultimate-intrigue", "ref/vigtalent/environmental-weapon", "environment-weapon", env_decision, [env_lost], env_sentence), True,
+       "Ultimate Intrigue p. 14: ruling 8 settles the reviewed Repeat progression")
+    eq(ruling8_progression_decision("ultimate-intrigue", "ref/vigtalent/environmental-weapon", "environment-weapon", env_decision, [env_lost.replace("20th", "19th")], env_sentence), False,
+       "ruling 8 decision does not clear a changed progression level")
+    eq(ruling8_progression_decision("ultimate-intrigue", "ref/vigtalent/environmental-weapon", "environment-weapon", env_decision, [env_lost], env_sentence.replace("20th", "19th")), False,
+       "ruling 8 decision does not clear when the printed sentence changed")
+    eq(ruling8_progression_decision("ultimate-magic", "ref/vigtalent/environmental-weapon", "environment-weapon", env_decision, [env_lost], env_sentence), False,
+       "the Ultimate Intrigue progression decision does not affect another book")
     DECISIONS.clear()
     eq((title_as_head(fp.Para("title", [("Table 2\u20139: Eidolon Base Statistics", True, False)], 59, 0, 18)).runs[0][1],
         title_as_head(fp.Para("title", [("2-Point Evolutions", True, False)], 61, 0, 18)).runs[0][1]), (False, True),
@@ -2440,6 +2553,23 @@ def self_test() -> int:
         marker, prefer = INTRO_MARK_SPECS["ultimate-combat"][family]
         discovered = IntroMarkMap(uc_book(expected), marker, prefer)
         eq(discovered.text, expected, f"Ultimate Combat {family} marked-head intro equals the printed text word for word")
+    ui_sentence = ("A stalker vigilante can apply only one talent marked with an asterisk (*) to a given hidden strike, and only when that hidden strike is dealt against a foe that is unaware of the stalker vigilante’s presence (or who considers him an ally), unless otherwise noted.")
+    ui_intro = fp.Book({"30": 13}, {1: [(200, 108, 30, ui_sentence, 300)]}, {1: 13}, set())
+    ui_marker, ui_prefer = INTRO_MARK_SPECS["ultimate-intrigue"]["vigtalent"]
+    eq((IntroMarkMap(ui_intro, ui_marker, ui_prefer).text, IntroMarkMap(ui_intro, ui_marker, ui_prefer).page),
+       (ui_sentence, 13), "Ultimate Intrigue p. 13: the marked-talent intro is extracted word for word")
+    ui_intro_key = ("ultimate-intrigue", "vigtalent")
+    previous_ui_intro = INTRO_MARK_TEXT.get(ui_intro_key)
+    INTRO_MARK_TEXT[ui_intro_key] = (ui_sentence, 13)
+    eq(marked_head_intro("ultimate-intrigue", "ref/vigtalent/foe-collision"),
+       ui_sentence.replace("(*)", r"(\*)").replace("’", "'"), "Ultimate Intrigue marked-talent intros use straight apostrophes")
+    if previous_ui_intro is None:
+        del INTRO_MARK_TEXT[ui_intro_key]
+    else:
+        INTRO_MARK_TEXT[ui_intro_key] = previous_ui_intro
+    ui_near_miss = fp.Book({"30": 13}, {1: [(200, 108, 30, "An unmarked with an asterisk phrase is not a mark rule.", 300)]}, {1: 13}, set())
+    eq((IntroMarkMap(ui_near_miss, ui_marker, ui_prefer).text, IntroMarkMap(ui_near_miss, ui_marker, ui_prefer).page),
+       ("", 0), "the Ultimate Intrigue intro matcher rejects a near miss inside unmarked")
     STOP_TITLES.clear()
     STOP_TITLES.update({"aquatic", "boreal", "deepearth"})
     ab = [P("title", [("Aquatic", True, False)], 136, 0, 18), P("para", [("Dehydrating Touch (Sp)", True, False), (": A touch.", False, False)], 136, 0),
@@ -2465,6 +2595,15 @@ def self_test() -> int:
     eq([r["status"] for r in fence([dict(r) for r in mr], "single")], ["print", "draft"], "the fence leaves a single power")
     eq(fence([dict(mr[0])], "multi")[0]["note"], "multi-power window not anchored yet", "the fence says why")
     globals()["MULTI_FENCE"] = False
+    DECISIONS.clear()
+    DECISIONS[("ref/x/multi", "power")] = ("hold", "multi-power: separate reviewed batch")
+    md = apply_multi_decisions([{"anchor": "power", "status": "print", "note": "printed"}, {"anchor": "power", "status": "draft", "note": ""}], "ref/x/multi")
+    eq([(x["status"], x["note"]) for x in md], [("hold", "printed; held by decision: multi-power: separate reviewed batch"),
+                                                   ("hold", "held by decision: multi-power: separate reviewed batch")],
+       "a multi-power hold applies to added rows with the same anchor")
+    eq(apply_multi_decisions([{"anchor": "other", "status": "print", "note": ""}], "ref/x/multi")[0]["status"], "print",
+       "a multi-power decision does not hold a different anchor")
+    DECISIONS.clear()
     eq(HEADING_FAMILIES, {"evolution"}, "the group-heading rule is on with the per-book map")
     # an import label row inside a power's span is part of the draft: print without it holds, print with it agrees (never dropped silently)
     inner = "**Gift (Su)**\n\n**Ability:** A gift of sight.\n\n**Details:** Gorum guards it.\n"
@@ -2536,7 +2675,7 @@ def self_test() -> int:
     eq(with_ability_type('[fields]\nkind = "archetype"\ngroup = "x"\n', "Su"), '[fields]\nkind = "archetype"\ngroup = "x"\n', "ruling 63: only on a class option")
     eq([ability_tag_of(n) for n in ("Foo (su)", "Foo (Su, Sp)", "Foo (Ex, or Sp)", "Foo (Ex/Sp)", "Foo (Ex and Su)")], ["", "Su, Sp", "Ex, or Sp", "", "Ex and Su"], "ruling 63: the separators of the app's rule")
     eq([ability_tag_of_printed_head(n) for n in ("Blast Bomb* (Ex)", "Blast Bomb (Ex)*", "Blast Bomb (Ex)†", "Blast Bomb (ex)*", "Blast Bomb (Explanatory)*", "Blast Bomb (Ex/Sp)*", "Blast Bomb*")], ["Ex", "Ex", "Ex", "", "", "", ""], "source marks never strip a printed ability tag; malformed near misses stay untagged")
-    eq((ability_tag_for_option("ultimate-combat", "Foo (Ex)", "Foo (Su)"), ability_tag_for_option("ultimate-combat", "Foo (Ex)", "Foo"), ability_tag_for_option("advanced-players-guide", "Foo (Ex)", "Foo")), (("Su", True), ("", False), ("Ex", False)), "printed-head tags are scoped to Ultimate Combat and do not change other books")
+    eq((ability_tag_for_option("ultimate-combat", "Foo (Ex)", "Foo (Su)"), ability_tag_for_option("ultimate-combat", "Foo (Ex)", "Foo"), ability_tag_for_option("advanced-players-guide", "Foo (Ex)", "Foo"), ability_tag_for_option("ultimate-intrigue", "Foo", "Foo (Su)")), (("Su", True), ("", False), ("Ex", False), ("Su", False)), "Ultimate Combat and Intrigue take tags from print; established behavior for other books stays")
     eq(prepend_intro("The power text.", "Printed intro."), "Printed intro.\n\nThe power text.", "a marked-head intro opens the entry")
     eq(prepend_intro("Printed intro.\n\nThe power text.", "Printed intro."), "Printed intro.\n\nThe power text.", "a marked-head intro is idempotent")
     eq(prepend_intro("Marked with *\n\nThe power text.", r"Marked with \*"), r"Marked with \*" + "\n\nThe power text.", "a marked-head intro escapes and replaces the unescaped near miss")
@@ -2583,6 +2722,30 @@ def self_test() -> int:
        "It has a [tail slap attack](ref/umr/natural-attacks). It needs the [tail](ref/evolution/tail) evolution to take this evolution.", "a link of another rule stays")
     eq(place_links("It has [claws](ref/evolution/claws).", [("claws", "ref/evolution/claws"), ("tail", "ref/evolution/tail")]),
        ("It has [claws](ref/evolution/claws).", ["tail"]), "ruling 60: an item that stands nowhere is reported")
+    eq(link_intrigue_class_prerequisites("Only a stalker vigilante can select this talent."),
+       "Only a [stalker vigilante](ref/class/vigilante#stalker) can select this talent.",
+       "Ultimate Intrigue: a printed specialization prerequisite links to that specialization")
+    eq(link_intrigue_class_prerequisites("Only an avenger vigilante can select this talent."),
+       "Only an [avenger vigilante](ref/class/vigilante#avenger) can select this talent.",
+       "Ultimate Intrigue: the other printed specialization prerequisite links to its specialization")
+    eq(link_intrigue_class_prerequisites("A vigilante must be at least 3rd level."),
+       "A [vigilante](ref/class/vigilante) must be at least 3rd level.",
+       "Ultimate Intrigue: a printed level prerequisite links to the class")
+    eq(link_intrigue_class_prerequisites("A stalker vigilante can use this ability."),
+       "A stalker vigilante can use this ability.",
+       "Ultimate Intrigue: an ordinary class reference is not treated as a prerequisite")
+    eq(repair_intrigue_italic_link_boundary("_[deathwatch](ref/spell/deathwatch)_, __ a caster level check"),
+       "_[deathwatch](ref/spell/deathwatch),_ a caster level check",
+       "Ultimate Intrigue: a link does not split the printed italic comma")
+    eq(repair_intrigue_italic_link_boundary("_[deathwatch](ref/spell/deathwatch)_, __ not a caster level check"),
+       "_[deathwatch](ref/spell/deathwatch)_, __ not a caster level check",
+       "Ultimate Intrigue: italic repair does not rewrite unrelated text")
+    eq(repair_intrigue_italic_link_boundary("_[discern lies](ref/spell/discern-lies)_, __ and he can say it"),
+       "_[discern lies](ref/spell/discern-lies)_, and he can say it",
+       "Ultimate Intrigue p. 13: linked italic punctuation has no empty bold run")
+    eq(repair_intrigue_italic_link_boundary("_[discern lies](ref/spell/discern-lies)_, __ and she can say it"),
+       "_[discern lies](ref/spell/discern-lies)_, __ and she can say it",
+       "Ultimate Intrigue: italic repair leaves a near miss unchanged")
     # ruling 52, as narrowed by the review of #373: another class's option may be linked on purpose; a link is wrong only when
     # print's own noun or class disagrees with the target (print says "deed" and the target is a hex)
     with tempfile.TemporaryDirectory() as td:

@@ -13,12 +13,8 @@ page = "16"
 [fields]
 kind = "class_option"
 group = "vigilante-talent"
+ability_type = "Ex"
 +++
 
-**Sure-Footed (Ex)**
-
-**Ability:** The vigilante can move at full speed while using the Stealth and Acrobatics skills
-without penalty.
-
-**At 8th level,** he can move at full speed across
-[difficult terrain](ref/rule/terrain-and-obstacles).
+The vigilante can move at full speed while using the Stealth and Acrobatics skills without penalty.
+At 8th level, he can move at full speed across [difficult terrain](ref/rule/terrain-and-obstacles).

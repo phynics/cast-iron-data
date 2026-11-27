@@ -13,14 +13,13 @@ page = "11"
 [fields]
 kind = "class_option"
 group = "social-talent"
+ability_type = "Ex"
 +++
 
-**Loyal Aid (Ex)**
-
-**Ability:** The vigilante gains the service of a number of loyal allies who can help him gather
-information, cover for his two identities, or perform minor tasks. Inside his area of _renown,_ a
-vigilante with this talent gains a bonus on [Diplomacy](ref/skill/diplomacy) checks to gather
-information equal to half his vigilante level.
+The vigilante gains the service of a number of loyal allies who can help him gather information,
+cover for his two identities, or perform minor tasks. Inside his area of
+[renown](ref/soctalent/renown), a vigilante with this talent gains a bonus on
+[Diplomacy](ref/skill/diplomacy) checks to gather information equal to half his vigilante level.
 
 In addition, if the vigilante wants, he can task his friends to help cover for him by spreading
 false tales of his location and activities to others. This has the effect of increasing the DC of
@@ -31,6 +30,5 @@ Finally, once per day, the vigilante can ask his allies to perform a minor task 
 usually involves delivering a message, purchasing a piece of mundane gear worth 100 gp or less
 (which the vigilante must pay for), or retrieving an object owned by the vigilante (that would be
 easily accessible by the ally). This task might take other forms as well, subject to GM discretion,
-but can never involve combat or danger.
-
-**Prereq:** 3rd-level vigilante, [renown](ref/soctalent/renown)
+but can never involve combat or danger. A [vigilante](ref/class/vigilante) must be at least 3rd
+level and have the [renown](ref/soctalent/renown) social talent to select this talent.

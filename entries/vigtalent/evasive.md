@@ -13,11 +13,9 @@ page = "14"
 [fields]
 kind = "class_option"
 group = "vigilante-talent"
+ability_type = "Ex"
 +++
 
-**Evasive (Ex)**
-
-**Ability:** The vigilante is hard to catch with area attacks. He gains the
-[evasion](ref/ability/evasion) ability.
-
-**At 12th level,** he gains the [improved evasion](ref/talent/improved-evasion) ability
+The vigilante is hard to catch with area attacks. He gains the [evasion](ref/ability/evasion)
+ability, and at 12th level, he gains the [improved evasion](ref/talent/improved-evasion) ability.
+Only a [stalker vigilante](ref/class/vigilante#stalker) can select this talent.

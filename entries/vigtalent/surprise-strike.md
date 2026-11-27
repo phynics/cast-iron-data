@@ -13,15 +13,9 @@ page = "16"
 [fields]
 kind = "class_option"
 group = "vigilante-talent"
+ability_type = "Ex"
 +++
 
-**Surprise Strike (Ex)**
-
-**Flavor:** The vigilante gains a greater advantage when his foe is unable to defend herself.
-
-**Ability:** Whenever he makes an attack against a foe that is denied her Dexterity bonus to AC, he
-gains a +1 bonus on his attack roll.
-
-**At 8th level,** this bonus increases to +2.
-
-**At 16th level,** this bonus increases to +3.
+The vigilante gains a greater advantage when his foe is unable to defend herself. Whenever he makes
+an attack against a foe that is denied her Dexterity bonus to AC, he gains a +1 bonus on his attack
+roll. This bonus increases to +2 at 8th level and to +3 at 16th level.

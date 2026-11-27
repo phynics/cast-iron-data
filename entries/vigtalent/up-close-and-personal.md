@@ -13,14 +13,12 @@ page = "17"
 [fields]
 kind = "class_option"
 group = "vigilante-talent"
+ability_type = "Ex"
 +++
 
-**Up Close and Personal (Ex)**
-
-**Swift:** When the vigilante attempts an [Acrobatics](ref/skill/acrobatics) check to move through
-an opponent's space during a move action, he can attempt a single melee attack against that
-opponent. If the Acrobatics check succeeds, this attack applies the vigilante's _hidden strike_
-damage as if the foe were unaware of the vigilante. Otherwise, the vigilante applies the _hidden
-strike_ damage he would deal if the target were denied its Dexterity bonus to AC.
-
-**Prereq:** 4th-level stalker
+When the vigilante attempts an [Acrobatics](ref/skill/acrobatics) check to move through an
+opponent's space during a move action, he can attempt a single melee attack against that opponent as
+a swift action. If the Acrobatics check succeeds, this attack applies the vigilante's hidden strike
+damage as if the foe were unaware of the vigilante. Otherwise, the vigilante applies the hidden
+strike damage he would deal if the target were denied its Dexterity bonus to AC. Only a
+[stalker vigilante](ref/class/vigilante#stalker) of at least 4th level can select this talent.

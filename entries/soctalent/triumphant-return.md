@@ -13,14 +13,11 @@ page = "13"
 [fields]
 kind = "class_option"
 group = "social-talent"
+ability_type = "Ex"
 +++
 
-**Triumphant Return (Ex)**
-
-**Flavor:** The vigilante's tales are never truly forgotten. This makes it easier to establish his
-_renown_ in a place he has established it before.
-
-**Ability:** In any settlement where the vigilante previously gained _renown,_ it takes only 3 days,
-rather than 1 week, to gain _renown_ again.
-
-**Prereq:** 3rd-level vigilante, [renown](ref/soctalent/renown)
+The vigilante's tales are never truly forgotten. This makes it easier to establish his
+[renown](ref/soctalent/renown) in a place he has established it before. In any settlement where the
+vigilante previously gained [renown](ref/soctalent/renown), it takes only 3 days, rather than 1
+week, to gain renown again. A [vigilante](ref/class/vigilante) must be at least 3rd level and have
+the renown social talent to select this talent.

@@ -13,11 +13,10 @@ page = "14"
 [fields]
 kind = "class_option"
 group = "vigilante-talent"
+ability_type = "Ex"
 +++
 
-**Fist of the Avenger (Ex)**
-
-**Ability:** The vigilante gains [Improved Unarmed Strike](ref/feat/improved-unarmed-strike) as a
-bonus feat, if he doesn't have this feat already. In addition, whenever he successfully attacks with
-his fist or a gauntlet, he gains a bonus on damage rolls equal to half his vigilante level (minimum
-+1, maximum of +5).
+The vigilante gains [Improved Unarmed Strike](ref/feat/improved-unarmed-strike) as a bonus feat, if
+he doesn't have this feat already. In addition, whenever he successfully attacks with his fist or a
+gauntlet, he gains a bonus on damage rolls equal to half his vigilante level (minimum +1, maximum of
++5). Only an [avenger vigilante](ref/class/vigilante#avenger) can select this talent.

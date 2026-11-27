@@ -13,17 +13,13 @@ page = "16"
 [fields]
 kind = "class_option"
 group = "vigilante-talent"
+ability_type = "Ex"
 +++
 
-**Signature Weapon (Ex)**
-
-**Ability:** The vigilante must select one type of weapon (such as longsword or crossbow) when he
-gains this talent. He gains [Weapon Focus](ref/feat/weapon-focus) as a bonus feat for his selected
-weapon type. If he already has the Weapon Focus feat with the selected weapon, he can immediately
-swap it for another feat for which he qualified at the level he chose Weapon Focus in the selected
-weapon.
-
-**At 8th level,** he also gains [Weapon Specialization](ref/feat/weapon-specialization) as a bonus
-feat for his selected weapon.
-
-**Special:** He doesn't have to meet any of the prerequisites for these feats.
+The vigilante must select one type of weapon (such as longsword or crossbow) when he gains this
+talent. He gains [Weapon Focus](ref/feat/weapon-focus) as a bonus feat for his selected weapon type.
+If he already has the Weapon Focus feat with the selected weapon, he can immediately swap it for
+another feat for which he qualified at the level he chose Weapon Focus in the selected weapon. At
+8th level, he also gains [Weapon Specialization](ref/feat/weapon-specialization) as a bonus feat for
+his selected weapon. He doesn't have to meet any of the prerequisites for these feats. Only an
+[avenger vigilante](ref/class/vigilante#avenger) can select this talent.

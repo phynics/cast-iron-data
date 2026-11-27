@@ -13,14 +13,13 @@ page = "15"
 [fields]
 kind = "class_option"
 group = "vigilante-talent"
+ability_type = "Ex"
 +++
 
-**Nothing Can Stop Me (Ex)**
-
-**Ability:** Once per round, while the vigilante is moving, he can make one attack as a **free
-action** against an unattended object in the way of his path, such as a door or table. If his attack
-deals enough damage to destroy the object, he can continue to move. If he doesn't destroy the
-object, his move ends. This attack is made as part of his **move action** and doesn't count against
-his attacks this round. If his attack inadvertently targets a creature (such as a
-[mimic](ref/monster/mimic)), it automatically misses and his move ends (although he can still attack
-the creature as normal at the end of his movement).
+Once per round, while the vigilante is moving, he can make one attack as a free action against an
+unattended object in the way of his path, such as a door or table. If his attack deals enough damage
+to destroy the object, he can continue to move. If he doesn't destroy the object, his move ends.
+This attack is made as part of his move action and doesn't count against his attacks this round. If
+his attack inadvertently targets a creature (such as a [mimic](ref/monster/mimic)), it automatically
+misses and his move ends (although he can still attack the creature as normal at the end of his
+movement). Only an [avenger vigilante](ref/class/vigilante#avenger) can select this talent.

@@ -13,16 +13,10 @@ page = "16"
 [fields]
 kind = "class_option"
 group = "vigilante-talent"
+ability_type = "Ex"
 +++
 
-**Sucker Punch (Ex)**
-
-**Ability:** Whenever the vigilante attacks a foe that is unaware of his presence (or who views him
-as an ally), and the attack deals nonlethal damage, the attack deals an additional 1d6 points of
-nonlethal damage.
-
-**At 6th level,** this additional damage increases to 2d6.
-
-**At 12th level,** this additional damage increases to 3d6.
-
-**At 18th level,** this additional damage increases to 4d6.
+Whenever the vigilante attacks a foe that is unaware of his presence (or who views him as an ally),
+and the attack deals nonlethal damage, the attack deals an additional 1d6 points of nonlethal
+damage. This additional damage increases by 1d6 at each of 6th, 12th, and 18th levels. Only an
+[avenger vigilante](ref/class/vigilante#avenger) can select this talent.

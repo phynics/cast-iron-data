@@ -13,18 +13,13 @@ page = "14"
 [fields]
 kind = "class_option"
 group = "vigilante-talent"
+ability_type = "Ex"
 +++
 
-**Environmental Weapon (Ex)**
-
-**Choice:** When the vigilante gains this talent, he must select one type of terrain from the
-ranger's list of [favored terrains](ref/ability/favored-terrain).
-
-**Swift:** While in the chosen terrain, the vigilante can find an
-[improvised weapon](ref/misc/improvised-weapons) if there are any loose or moveable objects around
-(subject to the GM's discretion). He doesn't take a penalty for using these improvised weapons.
-
-For example, if the vigilante selected the urban environment, he might attack a foe with a chair, an
-empty bottle, or even a door.
-
-**Repeat:** The vigilante can select an additional type of terrain., 5, 5
+When the vigilante gains this talent, he must select one type of terrain from the ranger's list of
+[favored terrains](ref/ability/favored-terrain). While in this terrain, as a swift action the
+vigilante can find an [improvised weapon](ref/misc/improvised-weapons) if there are any loose or
+moveable objects around (subject to the GM's discretion). He doesn't take a penalty for using these
+improvised weapons. For example, if the vigilante selected the urban environment, he might attack a
+foe with a chair, an empty bottle, or even a door. At 5th, 10th, 15th, and 20th levels, the
+vigilante can select an additional type of terrain.

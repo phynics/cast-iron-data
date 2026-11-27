@@ -13,19 +13,14 @@ page = "15"
 [fields]
 kind = "class_option"
 group = "vigilante-talent"
+ability_type = "Ex"
 +++
 
-**Returning Weapon (Ex)**
-
-**Flavor:** The vigilante has a signature type of thrown weapon that returns to him.
-
-**Choice:** Choose a type of thrown weapon, such as throwing axes.
-
-**Ability:** Whenever the vigilante uses the chosen type of weapon, it automatically returns as if
-it had the [returning](ref/magic-enh/returning) property.
-
-**At 14th level,** if the vigilante chose a type of thrown weapon that is treated as ammunition,
-such as [shuriken](ref/eq-weapon/shuriken), and buys a set of 50 magic ammunition of that type, he
+The vigilante has a signature type of thrown weapon that returns to him. Choose a type of thrown
+weapon, such as throwing axes. Whenever the vigilante uses that type of weapon, it automatically
+returns as if it had the _[returning](ref/magic-enh/returning)_ property. At 14th level, if the
+vigilante chose a type of thrown weapon that is treated as ammunition, such as
+[shuriken](ref/eq-weapon/shuriken), and buys a set of 50 magic ammunition of that type, he
 automatically replenishes them at no cost and never runs out. If he chose a non-ammunition thrown
 weapon instead, he can apply the magical properties of the first weapon he throws in a round to any
 nonmagical thrown weapons of that type he throws that round. This allows him to make a full attack
