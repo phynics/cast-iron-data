@@ -725,14 +725,49 @@ def near_exact(sentence: str, written: list[str]) -> bool:
     return False
 
 
-def print_lost(printed: str, written: str) -> list[str]:
+CITATION = re.compile(r"\s*\((?:Pathfinder RPG |Pathfinder Roleplaying Game )?[A-Z][A-Za-z'\u2019: ]+? \d+(?:[-\u2013]\d+)?\)")
+ERRATA_ROWS: dict[str, list[tuple[str, str]]] = {}
+
+
+def errata_fixes(corpus: Path, entry_id: str) -> list[tuple[str, str]]:
+    """The corrections of `scripts/errata.tsv` for an entry that the entry keeps (decision `misprint-fix` or `keep`): (printed value, kept value). The audit applies
+    them to the printed text before it compares: a misprint that the corpus corrects on purpose (owner ruling 43) is no loss."""
+    key = str(corpus)
+    if key not in ERRATA_ROWS:
+        rows: dict[str, list[tuple[str, str]]] = {}
+        path = corpus / "scripts" / "errata.tsv"
+        if path.exists():
+            lines = path.read_text(encoding="utf-8").split("\n")
+            head = lines[0].split("\t")
+            for ln in lines[1:]:
+                r = dict(zip(head, ln.split("\t")))
+                if r.get("decision") in ("misprint-fix", "keep") and r.get("kept_value") and r.get("printed_value"):
+                    rows.setdefault(r["entry"], []).append((r["printed_value"], r["kept_value"]))
+        ERRATA_ROWS[key] = rows
+    return ERRATA_ROWS[key].get(entry_id, [])
+
+
+def apply_fixes(text: str, fixes: list[tuple[str, str]]) -> str:
+    """The printed text with the corrections of the errata file applied (the printed value is found up to blanks and curly quotes)."""
+    text = text.replace("\u2019", "'")
+    for old, new in fixes:
+        pat = r"\s+".join(re.escape(w) for w in old.replace("\u2019", "'").split())
+        text = re.sub(pat, new.replace("\\", "\\\\"), text)
+    return text
+
+
+def print_lost(printed: str, written: str, fixes: list[tuple[str, str]] | None = None) -> list[str]:
     """Print-coverage check (review of #373): the printed sentences (at least 12 letters) of a power's span that the written text lacks. A sentence is there when
     its letters and digits stand in the written text, or when it is one written sentence up to noise (`near_exact`); runs of three numeric tokens in a printed
-    sentence (cells of a table that the text layer set inside it) are not words of it; a short printed cross-reference is no difference. The words of the whole
-    text give no allowance."""
+    sentence (cells of a table that the text layer set inside it) are not words of it; a short printed cross-reference is no difference; a citation of a book and
+    a page in parentheses ("(Core Rulebook 443)") is no difference when the written sentence has a link in its place (owner ruling 26); the corrections of the
+    errata file are applied to the printed text first (`fixes`). The words of the whole text give no allowance."""
+    if fixes:
+        printed = apply_fixes(printed, fixes)
     plain = strip_see(re.sub(r"[_*>]|^\s*[-\u2022]\s+", "", re.sub(r"\[([^\]]*)\]\([^)]*\)", r"\1", written), flags=re.M))
     have = fp.squash(plain)
     wsents = SENTENCE_END.split(" ".join(plain.split()))
+    linked = {fp.squash(re.sub(r"\[([^\]]*)\]\([^)]*\)", r"\1", x)) for x in SENTENCE_END.split(" ".join(re.sub(r"[_*>]", "", written).split())) if "](" in x}
     out = []
     for s in SENTENCE_END.split(" ".join(strip_see(printed).split())):
         if len(re.sub(r"[^A-Za-z]", "", s)) < 12:
@@ -753,6 +788,8 @@ def print_lost(printed: str, written: str) -> list[str]:
             continue                                        # the title of the spell columns of a class table, its cells gone
         if fp.squash(s) in have or near_exact(s, wsents):
             continue
+        if CITATION.search(s) and fp.squash(CITATION.sub("", s)) in linked:
+            continue                                        # ruling 26: the citation went where a link stands
         out.append(s)
     return out
 
@@ -1048,7 +1085,7 @@ def run_audit(args) -> int:
             continue
         for pf in mine:
             printed = " ".join("".join(x[0] for x in para) for para in pf.paras)
-            lost = print_lost(printed, e.body)
+            lost = print_lost(printed, e.body, errata_fixes(corpus, e.id))
             if lost:
                 held += 1
                 print(f"{e.id} ({book} p. {e.page}), head {fp.head_text(pf.head)!r}: {len(lost)} printed sentences that the entry lacks")
@@ -1977,6 +2014,18 @@ def self_test() -> int:
        ["While this deed is active, you gain a +2 dodge bonus to AC against attacks of opportunity made by any creature that you threaten."], "a changed digit is a loss")
     eq(print_lost("The creature can be affected by this spell if it fails the save against the effect.", "The creature cannot be affected by this spell if it fails the save against the effect."),
        ["The creature can be affected by this spell if it fails the save against the effect."], "a negation that differs is a loss")
+    eq(print_lost("While raging and mounted, the barbarian's mount gains the trample special attack (Pathfinder RPG Bestiary 305).", "While raging and mounted, the barbarian's mount gains the [trample](ref/umr/trample) special attack."), [],
+       "ruling 26: a citation of a book and a page goes where a link stands")
+    eq(print_lost("While raging and mounted, the barbarian's mount gains the trample special attack (Pathfinder RPG Bestiary 305).", "While raging and mounted, the barbarian's mount gains the trample special attack."),
+       ["While raging and mounted, the barbarian's mount gains the trample special attack (Pathfinder RPG Bestiary 305)."], "a citation with no link in its place is a loss")
+    eq(print_lost("While raging and mounted, the barbarian's mount gains the trample special attack (Pathfinder RPG Bestiary 305).", "While raging and mounted, the barbarian's mount gains the [trample](ref/umr/trample) special attack (Pathfinder RPG Bestiary 306)."),
+       ["While raging and mounted, the barbarian's mount gains the trample special attack (Pathfinder RPG Bestiary 305)."], "a citation with another page is no match")
+    fixes = [("she can attempt to save again again 1 round later at the same DC.", "she can attempt to save again 1 round later at the same DC.")]
+    eq(print_lost("If she fails a saving throw against an illusion that is not to disbelieve, she can attempt to save again again 1 round later at the same DC.",
+                  "If she fails a saving throw against an illusion that is not to disbelieve, she can attempt to save again 1 round later at the same DC.", fixes), [], "a misprint that the errata file corrects is no loss")
+    eq(print_lost("If she fails a saving throw against an illusion that is not to disbelieve, she can attempt to save again again 2 rounds later at the same DC.",
+                  "If she fails a saving throw against an illusion that is not to disbelieve, she can attempt to save again 1 round later at the same DC.", fixes),
+       ["If she fails a saving throw against an illusion that is not to disbelieve, she can attempt to save again again 2 rounds later at the same DC."], "the correction does not cover another change")
     eq(print_lost("The creature can see the fiendish light that shines from the weapon of the antipaladin.", "The creature can hear the fiendish light that shines from the weapon of the antipaladin."),
        ["The creature can see the fiendish light that shines from the weapon of the antipaladin."], "one swapped word in a long sentence is a loss")
     eq(print_lost("The creature regains the use of its class (see the atonement spell) after a week of prayer.", "The creature regains the use of its class after a week of prayer."), [], "a short cross-reference is no difference")
