@@ -13,14 +13,11 @@ page = "12"
 [fields]
 kind = "class_option"
 group = "social-talent"
+ability_type = "Ex"
 +++
 
-**Mockingbird (Ex)**
-
-**Ability:** The vigilante can mimic almost any sort of voice, or even animal calls and sound
-effects, and he can throw his voice at a distance.
-
-**Prereq:** 5th-level vigilante
-
-**Special:** This functions similarly to a combination of the [ghost sound](ref/spell/ghost-sound),
-[ventriloquism](ref/spell/ventriloquism), and [vocal alteration](ref/spell/vocal-alteration) spells.
+The vigilante can mimic almost any sort of voice, or even animal calls and sound effects, and he can
+throw his voice at a distance. This functions similarly to a combination of the
+_[ghost sound](ref/spell/ghost-sound)_, _[ventriloquism](ref/spell/ventriloquism)_, and
+_[vocal alteration](ref/spell/vocal-alteration)_ spells. A [vigilante](ref/class/vigilante) must be
+at least 5th level to choose this talent.

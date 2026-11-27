@@ -13,14 +13,10 @@ page = "11"
 [fields]
 kind = "class_option"
 group = "social-talent"
+ability_type = "Ex"
 +++
 
-**Feign Innocence (Ex)**
-
-**Flavor:** The vigilante's social identity seems so innocent that it is hard to believe he was
-involved in wrongdoing.
-
-**Passive:** Within his area of _renown,_ this provides a nonmagical effect identical to the
-[innocence](ref/spell/innocence) spell.
-
-**Prereq:** 5th-level vigilante, [renown](ref/soctalent/renown)
+The vigilante's social identity seems so innocent that it is hard to believe he was involved in
+wrongdoing. Within his area of [renown](ref/soctalent/renown), this provides a nonmagical effect
+identical to the _[innocence](ref/spell/innocence)_ spell. A [vigilante](ref/class/vigilante) must
+be at least 5th level and have the [renown](ref/soctalent/renown) social talent to take this talent.

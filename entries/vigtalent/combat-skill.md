@@ -13,13 +13,11 @@ page = "14"
 [fields]
 kind = "class_option"
 group = "vigilante-talent"
+ability_type = "Ex"
 +++
 
-**Combat Skill (Ex)**
-
-**Ability:** The vigilante gains any one combat feat as a bonus feat. He must meet the prerequisites
-for this feat, but he is treated as though he had a number of fighter levels equal to half his
-vigilante level for the purpose of qualifying for this feat.
-
-**Special:** This talent can be selected more than once, but each time the avenger must select a
-different feat.
+The vigilante gains any one combat feat as a bonus feat. He must meet the prerequisites for this
+feat, but he is treated as though he had a number of fighter levels equal to half his vigilante
+level for the purpose of qualifying for this feat. Only an
+[avenger vigilante](ref/class/vigilante#avenger) can select this talent, but he can select this
+talent more than once; each time he must select a different feat.

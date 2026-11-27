@@ -13,12 +13,11 @@ page = "16"
 [fields]
 kind = "class_option"
 group = "vigilante-talent"
+ability_type = "Ex"
 +++
 
-**Silent Dispatch (Ex)**
-
-**Ability:** When the vigilante ambushes an enemy or enemies unaware of his presence, he can attempt
-a Stealth check at a -5 penalty. The result indicates the DC of Perception checks to hear the
-vigilante's attacks until an opponent's first action, when the DC returns to the normal -10 for
-hearing battle. Other enemies present can still see the attack; this talent only prevents the sounds
-of battle from alerting others.
+When the vigilante ambushes an enemy or enemies unaware of his presence, he can attempt a Stealth
+check at a -5 penalty. The result indicates the DC of Perception checks to hear the vigilante's
+attacks until an opponent's first action, when the DC returns to the normal -10 for hearing battle.
+Other enemies present can still see the attack; this talent only prevents the sounds of battle from
+alerting others.

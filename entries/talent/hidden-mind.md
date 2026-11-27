@@ -13,11 +13,10 @@ page = "44"
 [fields]
 kind = "class_option"
 group = "rogue-talent"
+ability_type = "Ex"
 +++
 
-**Hidden Mind (Ex)**
-
-**Ability:** A rogue with this talent uses various devious techniques, including mental exercises
-and dusting her clothing with a small amount of lead, to protect herself from divinations, with the
-same benefits as if she cast [nondetection](ref/spell/nondetection) on herself with a caster level
-equal to her rogue level.
+A rogue with this talent uses various devious techniques, including mental exercises and dusting her
+clothing with a small amount of lead, to protect herself from divinations, with the same benefits as
+if she cast _[nondetection](ref/spell/nondetection)_ on herself with a caster level equal to her
+rogue level.

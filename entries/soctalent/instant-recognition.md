@@ -13,14 +13,11 @@ page = "11"
 [fields]
 kind = "class_option"
 group = "social-talent"
+ability_type = "Ex"
 +++
 
-**Instant Recognition (Ex)**
-
-**Flavor:** The vigilante is so well known that his name precedes him, even to other communities.
-
-**Ability:** It only takes 4 hours of effort to get the word out to transfer his _renown_ benefits
-to a new community.
-
-**Prereq:** 13th-level vigilante, [incredible renown](ref/soctalent/incredible-renown),
-[triumphant return](ref/soctalent/triumphant-return)
+The vigilante is so well known that his name precedes him, even to other communities. It only takes
+4 hours of effort to get the word out to transfer his renown benefits to a new community. A
+[vigilante](ref/class/vigilante) must be at least 13th level and have both the
+[incredible renown](ref/soctalent/incredible-renown) and
+[triumphant return](ref/soctalent/triumphant-return) social talents to select this talent.

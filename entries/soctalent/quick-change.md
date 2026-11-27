@@ -13,19 +13,13 @@ page = "12"
 [fields]
 kind = "class_option"
 group = "social-talent"
+ability_type = "Ex"
 +++
 
-**Quick Change (Ex)**
-
-**Flavor:** The vigilante learns to shift between his identities with ease.
-
-**Ability:** Instead of needing 1 minute to change his identity, he can now do so as a **full-round
-action**.
-
-**Prereq:** 7th-level vigilante
-
-**Special:** If, after a quick change, he encounters any creature familiar with both of his
-identities, he must attempt a [Disguise](ref/skill/disguise) check to avoid the creature seeing
-through his hastily donned disguise and realizing that the identities are, in fact, the same person.
-The vigilante can spend 1 additional round adjusting and perfecting his appearance and persona to
-negate the need for this check.
+The vigilante learns to shift between his identities with ease. Instead of needing 1 minute to
+change his identity, he can now do so as a full-round action. If, after a quick change, he
+encounters any creature familiar with both of his identities, he must attempt a
+[Disguise](ref/skill/disguise) check to avoid the creature seeing through his hastily donned
+disguise and realizing that the identities are, in fact, the same person. The vigilante can spend 1
+additional round adjusting and perfecting his appearance and persona to negate the need for this
+check. A [vigilante](ref/class/vigilante) must be at least 7th level to select this talent.

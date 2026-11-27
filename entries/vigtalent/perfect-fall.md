@@ -13,10 +13,9 @@ page = "15"
 [fields]
 kind = "class_option"
 group = "vigilante-talent"
+ability_type = "Ex"
 +++
 
-**Perfect Fall (Ex)**
-
-**Ability:** As long as there is a wall or another surface within arm's reach, the vigilante never
-takes falling damage. Even if no surface is available, he takes only half damage from falling and
-lands on his feet.
+As long as there is a wall or another surface within arm's reach, the vigilante never takes falling
+damage. Even if no surface is available, he takes only half damage from falling and lands on his
+feet.

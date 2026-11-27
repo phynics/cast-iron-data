@@ -13,14 +13,13 @@ page = "15"
 [fields]
 kind = "class_option"
 group = "vigilante-talent"
+ability_type = "Ex"
 +++
 
-**Pull into the Shadows (Ex)**
+As a full-round action, the vigilante can move up to his speed toward an opponent who is unaware of
+his presence (or who considers him an ally) and make a single attack against that opponent.
 
-**Full-round:** The vigilante can move up to his speed toward an opponent who is unaware of his
-presence (or who considers him an ally) and make a single attack against that opponent. If the
-attack hits, he can attempt a [drag](ref/rule/drag) combat maneuver against that enemy with a +4
-bonus and without provoking an attack of opportunity. If the drag succeeds, the vigilante doesn't
-need to have enough movement remaining to move with the enemy.
-
-**Special:** The vigilante can't use this ability on a true ally or a willing target.
+If the attack hits, he can attempt a [drag](ref/rule/drag) combat maneuver against that enemy with a
++4 bonus and without provoking an attack of opportunity. If the drag succeeds, the vigilante doesn't
+need to have enough movement remaining to move with the enemy. The vigilante can't use this ability
+on a true ally or a willing target.

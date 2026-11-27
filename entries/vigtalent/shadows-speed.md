@@ -13,10 +13,8 @@ page = "15"
 [fields]
 kind = "class_option"
 group = "vigilante-talent"
+ability_type = "Ex"
 +++
 
-**Shadow's Speed (Ex)**
-
-**Ability:** The vigilante's base speed increases by 10 feet.
-
-**At 10th level,** it increases by an additional 10 feet.
+The vigilante's base speed increases by 10 feet. At 10th level, it increases by an additional 10
+feet.
