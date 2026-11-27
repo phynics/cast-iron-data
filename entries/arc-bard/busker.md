@@ -15,7 +15,7 @@ publication = "heroes-of-the-streets"
 page = "26"
 
 [fields]
-kind = "none"
+kind = "archetype"
 +++
 
 A busker uses his dazzling physical stunts to get by on his own in the city streets. Buskers

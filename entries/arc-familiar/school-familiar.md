@@ -12,6 +12,7 @@ page = "14"
 
 [fields]
 kind = "archetype"
+<<<<<<< HEAD
 features = [
   { anchor = "school-link" },
   { anchor = "school-cantrip" },
@@ -19,6 +20,8 @@ features = [
   { anchor = "lesser-school-power" },
   { anchor = "greater-school-power" },
 ]
+=======
+>>>>>>> origin/main
 +++
 
 School familiars are tightly bound to the power of their master's chosen school of magic. A school
