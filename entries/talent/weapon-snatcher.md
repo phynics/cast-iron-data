@@ -13,9 +13,8 @@ page = "71"
 [fields]
 kind = "class_option"
 group = "rogue-talent"
+ability_type = "Ex"
 +++
 
-**Weapon Snatcher (Ex)**
-
-**Ability:** A rogue with this talent can make a [Sleight of Hand](ref/skill/sleight-of-hand) check
-in place of a combat maneuver check when attempting to [disarm](ref/rule/disarm) an opponent.
+A rogue with this talent can make a [Sleight of Hand](ref/skill/sleight-of-hand) check in place of a
+combat maneuver check when attempting to [disarm](ref/rule/disarm) an opponent.

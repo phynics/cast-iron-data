@@ -13,12 +13,11 @@ page = "26"
 [fields]
 kind = "class_option"
 group = "rage-power"
+ability_type = "Ex"
 +++
 
-**Bleeding Blow (Ex)**
-
-**Passive:** When she uses her _powerful blow_ rage power, the barbarian also deals
-[bleed](ref/rule/bleed) damage equal to her bonus damage with the _powerful blow._ This bleed damage
-bypasses [damage reduction](ref/rule/damage-reduction).
-
-**Prereq:** 8th-level barbarian, [powerful blow](ref/ragepower/powerful-blow)
+When she uses her [powerful blow](ref/ragepower/powerful-blow) rage power, the barbarian also deals
+[bleed](ref/rule/bleed) damage equal to her bonus damage with the powerful blow. This bleed damage
+bypasses [damage reduction](ref/rule/damage-reduction). A barbarian must have the
+[powerful blow](ref/ragepower/powerful-blow) rage power and be at least 8th level before selecting
+this rage power.

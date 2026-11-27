@@ -13,9 +13,8 @@ page = "16"
 [fields]
 kind = "class_option"
 group = "ninja-trick"
+ability_type = "Su"
 +++
 
-**Vanishing Trick (Su)**
-
-**Swift:** The ninja can disappear for 1 round per level. This ability functions as
-[invisibility](ref/spell/invisibility). Using this ability uses up 1 ki point.
+As a swift action, the ninja can disappear for 1 round per level. This ability functions as
+_[invisibility](ref/spell/invisibility)_. Using this ability uses up 1 ki point.

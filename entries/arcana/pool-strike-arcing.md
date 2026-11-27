@@ -13,14 +13,13 @@ page = "54"
 [fields]
 kind = "class_option"
 group = "magus-arcana"
+ability_type = "Su"
 +++
 
-**Arcing Pool Strike (Su)**
-
-**Ability:** The magus can expend 1 additional point from his arcane pool when using the
+The magus can expend 1 additional point from his arcane pool when using the
 [pool strike](ref/arcana/pool-strike) arcana. If his attack hits, the magus can target a number of
 enemies within 15 feet equal to his Intelligence modifier (minimum 0) with a ranged touch attack as
-a **free action**. Those struck take the same energy damage as the primary target of the pool
-strike, including increased damage on a critical hit.
-
-**Prereq:** 12th-level magus, [pool strike](ref/arcana/pool-strike)
+a free action. Those struck take the same energy damage as the primary target of the
+[pool strike](ref/arcana/pool-strike), including increased damage on a critical hit. The magus must
+be at least 12th level and must have the [pool strike](ref/arcana/pool-strike) magus arcana before
+selecting this magus arcana.

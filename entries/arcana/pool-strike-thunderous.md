@@ -13,13 +13,11 @@ page = "55"
 [fields]
 kind = "class_option"
 group = "magus-arcana"
+ability_type = "Su"
 +++
 
-**Thunderous Pool Strike (Su)**
-
-**Ability:** The magus can expend 1 additional point from his arcane pool when making a
-[pool strike](ref/arcana/pool-strike). His pool strike deals sonic damage and
-[deafens](ref/misc/deafened) a single target for 1 round (DC 10 + 1/2 magus level + Intelligence
-modifier).
-
-**Prereq:** 6th-level magus, [pool strike](ref/arcana/pool-strike)
+The magus can expend 1 additional point from his arcane pool when making a
+[pool strike](ref/arcana/pool-strike). His [pool strike](ref/arcana/pool-strike) deals sonic damage
+and [deafens](ref/misc/deafened) a single target for 1 round (DC 10 + 1/2 magus level + Intelligence
+modifier). The magus must be at least 6th level and must have the
+[pool strike](ref/arcana/pool-strike) magus arcana before selecting this magus arcana.

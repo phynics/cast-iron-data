@@ -13,10 +13,9 @@ page = "26"
 [fields]
 kind = "class_option"
 group = "rage-power"
+ability_type = "Ex"
 +++
 
-**Bestial Climber (Ex)**
-
-**Ability:** While _raging,_ the barbarian gains a natural climb speed equal to her land speed.
-
-**Prereq:** 6th-level barbarian, [raging climber](ref/ragepower/raging-climber)
+While raging, the barbarian gains a natural climb speed equal to her land speed. A barbarian must
+have the [raging climber](ref/ragepower/raging-climber) rage power and be at least 6th level before
+selecting this rage power.

@@ -13,11 +13,10 @@ page = "69"
 [fields]
 kind = "class_option"
 group = "rogue-talent"
+ability_type = "Ex"
 +++
 
-**Iron Guts (Ex)**
-
-**Passive:** A rogue with this talent has a cast-iron stomach or has trained herself to withstand
-poisons, especially ingested ones. She gains a +1 bonus on all saves against ingested poisons as
-well as a +4 bonus on saves against all spells and effects that cause the rogue to be
+A rogue with this talent has a cast-iron stomach or has trained herself to withstand poisons,
+especially ingested ones. She gains a +1 bonus on all saves against ingested poisons as well as a +4
+bonus on saves against all spells and effects that cause the rogue to be
 [nauseated](ref/misc/nauseated) or [sickened](ref/misc/sickened).

@@ -15,12 +15,6 @@ kind = "class_option"
 group = "ninja-trick"
 +++
 
-**Snatch Arrows**
-
-**Ability:** A ninja who selects this ninja trick gains the [Snatch Arrows](ref/feat/snatch-arrows)
-feat as a bonus feat.
-
-**Prereq:** [Improved Unarmed Strike](ref/feat/improved-unarmed-strike) (whether from
-[unarmed combat training](ref/ninjatrick/unarmed-combat-training) or not),
-[Deflect Arrows](ref/feat/deflect-arrows) (whether from
-[deflect arrows](ref/ninjatrick/deflect-arrows) trick or not)
+A ninja who selects this ninja trick gains the [Snatch Arrows](ref/feat/snatch-arrows) feat as a
+bonus feat. The ninja must have the [Improved Unarmed Strike](ref/feat/improved-unarmed-strike) feat
+and the [Deflect Arrows](ref/feat/deflect-arrows) feat before taking this trick.

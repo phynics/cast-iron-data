@@ -13,16 +13,12 @@ page = "69"
 [fields]
 kind = "class_option"
 group = "rogue-talent"
+ability_type = "Ex"
 +++
 
-**Ki Pool (Ex)**
-
-**Ability:** A rogue with this talent gains a small ki pool. This ki pool is similar to a
+A rogue with this talent gains a small ki pool. This ki pool is similar to a
 [ninja's](ref/class/ninja) ki pool, but the rogue's ki pool does not grant any extra attacks. The
 rogue gains a number of ki points equal to her Wisdom modifier (minimum 1). These ki points
-replenish at the start of each day.
-
-She can spend a ki point to gain a +10-foot bonus to movement until the end of her turn.
-
-**Special:** If she already has a ki pool, or gains a ki pool later, she gains half her Wisdom bonus
-(minimum 1) as bonus ki points to her ki pool.
+replenish at the start of each day. If she already has a ki pool, or gains a ki pool later, she
+gains half her Wisdom bonus (minimum 1) as bonus ki points to her ki pool. She can spend a ki point
+to gain a +10-foot bonus to movement until the end of her turn.

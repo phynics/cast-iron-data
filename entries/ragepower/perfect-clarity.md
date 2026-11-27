@@ -13,11 +13,10 @@ page = "27"
 [fields]
 kind = "class_option"
 group = "rage-power"
+ability_type = "Ex"
 +++
 
-**Perfect Clarity (Ex)**
-
-**Ability:** While using her _moment of clarity_ rage power, the barbarian can roll twice for any
-miss chance or Will saving throws to disbelieve illusions, taking the better result.
-
-**Prereq:** [Moment of clarity](ref/ragepower/moment-of-clarity)
+While using her [moment of clarity](ref/ragepower/moment-of-clarity) rage power, the barbarian can
+roll twice for any miss chance or Will saving throws to disbelieve illusions, taking the better
+result. A barbarian must have the [moment of clarity](ref/ragepower/moment-of-clarity) rage power
+before selecting this rage power.

@@ -13,11 +13,9 @@ page = "15"
 [fields]
 kind = "class_option"
 group = "ninja-trick"
+ability_type = "Su"
 +++
 
-**Feather Fall (Su)**
-
-**Immediate:** The ninja can slow her descent as if using [feather fall](ref/spell/feather-fall).
-This ability uses her ninja level as the caster level.
-
-**Special:** Each use of this ability uses up 1 ki point.
+As an immediate action, the ninja can slow her descent as if using
+_[feather fall](ref/spell/feather-fall)_. This ability uses her ninja level as the caster level.
+Each use of this ability uses up 1 ki point.

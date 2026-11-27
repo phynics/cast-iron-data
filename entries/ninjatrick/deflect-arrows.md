@@ -15,10 +15,6 @@ kind = "class_option"
 group = "ninja-trick"
 +++
 
-**Deflect Arrows (Ex)**
-
-**Ability:** A ninja who selects this ninja trick gains the
-[Deflect Arrows](ref/feat/deflect-arrows) feat as a bonus feat.
-
-**Prereq:** [Improved Unarmed Strike](ref/feat/improved-unarmed-strike) (whether from
-[unarmed combat training](ref/ninjatrick/unarmed-combat-training) trick or not)
+A ninja who selects this ninja trick gains the [Deflect Arrows](ref/feat/deflect-arrows) feat as a
+bonus feat. The ninja must have the [Improved Unarmed Strike](ref/feat/improved-unarmed-strike)
+combat feat before taking this trick.

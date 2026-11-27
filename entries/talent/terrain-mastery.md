@@ -13,12 +13,10 @@ page = "70"
 [fields]
 kind = "class_option"
 group = "rogue-talent"
+ability_type = "Ex"
 +++
 
-**Terrain Mastery (Ex)**
-
-**Ability:** A rogue with this talent gains a [favored terrain](ref/ability/favored-terrain) as the
-ranger ability of the same name, though the favored terrain ability does not increase with her level
-as the ranger's ability does.
-
-**Special:** A rogue can take this ability multiple times, each time applying it to a new terrain.
+A rogue with this talent gains a [favored terrain](ref/ability/favored-terrain) as the ranger
+ability of the same name, though the favored terrain ability does not increase with her level as the
+ranger's ability does. A rogue can take this ability multiple times, each time applying it to a new
+terrain.

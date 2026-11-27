@@ -13,12 +13,11 @@ page = "28"
 [fields]
 kind = "class_option"
 group = "rage-power"
+ability_type = "Ex"
 +++
 
-**Sharpened Accuracy (Ex)**
-
-**Passive:** When using her \*surprise accuracy \*rage power, the barbarian ignores the miss chance
-for [concealment](ref/rule/concealment) and treats total concealment as concealment. She also
-ignores cover penalties except those from total cover.
-
-**Prereq:** 8th-level barbarian, [surprise accuracy](ref/ragepower/surprise-accuracy)
+When using her [surprise accuracy](ref/ragepower/surprise-accuracy) rage power, the barbarian
+ignores the miss chance for [concealment](ref/rule/concealment) and treats total concealment as
+concealment. She also ignores cover penalties except those from total cover. A barbarian must have
+the [surprise accuracy](ref/ragepower/surprise-accuracy) rage power and be at least 8th level before
+selecting this rage power.
