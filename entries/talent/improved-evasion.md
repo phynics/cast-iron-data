@@ -13,11 +13,9 @@ page = "70"
 [fields]
 kind = "class_option"
 group = "rogue-talent"
+ability_type = "Ex"
 +++
 
-**Improved Evasion (Ex)**
-
-**Ability:** This works like [evasion](ref/ability/evasion), except that while the rogue still takes
-no damage on a successful Reflex saving throw against attacks, she henceforth takes only half damage
-on a failed save. A [helpless](ref/misc/helpless) rogue does not gain the benefit of _improved
-evasion._
+This works like [evasion](ref/ability/evasion), except that while the rogue still takes no damage on
+a successful Reflex saving throw against attacks, she henceforth takes only half damage on a failed
+save. A [helpless](ref/misc/helpless) rogue does not gain the benefit of improved evasion.

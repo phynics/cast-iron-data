@@ -13,17 +13,13 @@ page = "37"
 [fields]
 kind = "class_option"
 group = "bardic-performance"
+ability_type = "Su"
 +++
 
-**Dirge of Doom (Su)**
-
-**Gained:** At 8th Level
-
-**Ability:** A bard can use his performance to foster a sense of growing dread in his enemies,
-causing them to become [shaken](ref/misc/shaken). To be affected, an enemy must be within 30 feet
-and able to see and hear the bard's performance. The effect persists for as long as the enemy is
-within 30 feet and the bard continues his performance.
-
-**Special:** This performance cannot cause a creature to become [frightened](ref/misc/frightened) or
-[panicked](ref/misc/panicked), even if the targets are already shaken from another effect. _Dirge of
-doom_ is a mind-affecting fear effect, and it relies on audible and visual components.
+A bard of 8th level or higher can use his performance to foster a sense of growing dread in his
+enemies, causing them to become [shaken](ref/misc/shaken). To be affected, an enemy must be within
+30 feet and able to see and hear the bard's performance. The effect persists for as long as the
+enemy is within 30 feet and the bard continues his performance. This performance cannot cause a
+creature to become [frightened](ref/misc/frightened) or [panicked](ref/misc/panicked), even if the
+targets are already shaken from another effect. Dirge of doom is a mind-affecting fear effect, and
+it relies on audible and visual components.

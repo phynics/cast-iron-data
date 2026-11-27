@@ -15,7 +15,4 @@ kind = "class_option"
 group = "rogue-talent"
 +++
 
-**Weapon Training**
-
-**Ability:** A rogue that selects this talent gains [Weapon Focus](ref/feat/weapon-focus) as a bonus
-feat.
+A rogue that selects this talent gains [Weapon Focus](ref/feat/weapon-focus) as a bonus feat.

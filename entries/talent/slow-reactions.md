@@ -13,9 +13,10 @@ page = "68"
 [fields]
 kind = "class_option"
 group = "rogue-talent"
+ability_type = "Ex"
 +++
 
-**Slow Reactions (Ex)**
+Talents marked with an asterisk add effects to a rogue’s sneak attack. Only one of these talents can
+be applied to an individual attack and the decision must be made before the attack roll is made.
 
-**Ability:** Opponents damaged by the rogue's sneak attack can't make attacks of opportunity for 1
-round.
+Opponents damaged by the rogue's sneak attack can't make attacks of opportunity for 1 round.

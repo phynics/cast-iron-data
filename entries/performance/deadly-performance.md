@@ -13,18 +13,13 @@ page = "38"
 [fields]
 kind = "class_option"
 group = "bardic-performance"
+ability_type = "Su"
 +++
 
-**Deadly Performance (Su)**
-
-**Gained:** At 20th Level
-
-**Ability:** A bard can use his performance to cause one enemy to die from joy or sorrow. To be
-affected, the target must be able to see and hear the bard perform for 1 full round and be within 30
-feet. The target receives a Will save (DC 10 + 1/2 the bard's level + the bard's Cha modifier) to
-negate the effect. If a creature's saving throw succeeds, the target is
-[staggered](ref/misc/staggered) for 1d4 rounds, and the bard cannot use _deadly performance_ on that
-creature again for 24 hours. If a creature's saving throw fails, it dies.
-
-**Special:** _Deadly performance_ is a mind-affecting death effect that relies on audible and visual
-components.
+A bard of 20th level or higher can use his performance to cause one enemy to die from joy or sorrow.
+To be affected, the target must be able to see and hear the bard perform for 1 full round and be
+within 30 feet. The target receives a Will save (DC 10 + 1/2 the bard's level + the bard's Cha
+modifier) to negate the effect. If a creature's saving throw succeeds, the target is
+[staggered](ref/misc/staggered) for 1d4 rounds, and the bard cannot use deadly performance on that
+creature again for 24 hours. If a creature's saving throw fails, it dies. Deadly performance is a
+mind-affecting death effect that relies on audible and visual components.

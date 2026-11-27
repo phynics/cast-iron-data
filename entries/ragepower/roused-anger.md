@@ -13,10 +13,9 @@ page = "33"
 [fields]
 kind = "class_option"
 group = "rage-power"
+ability_type = "Ex"
 +++
 
-**Roused Anger (Ex)**
-
-**Ability:** The barbarian may enter a _rage_ even if fatigued. While _raging_ after using this
-ability, the barbarian is immune to the [fatigued](ref/misc/fatigued) condition. Once this _rage_
-ends, the barbarian is [exhausted](ref/misc/exhausted) for 10 minutes per round spent _raging._
+The barbarian may enter a rage even if [fatigued](ref/misc/fatigued). While raging after using this
+ability, the barbarian is immune to the fatigued condition. Once this rage ends, the barbarian is
+[exhausted](ref/misc/exhausted) for 10 minutes per round spent raging.
