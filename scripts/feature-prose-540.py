@@ -5014,7 +5014,7 @@ SMALL_CAP_BOOKS = ("blood-of-the-ancients", "blood-of-the-beast", "heroes-of-the
 CHAPTER_TITLE_BOOKS = ("agents-of-evil",)
 # ... and of these, the ones whose chapter titles or capitals stand above the usual top of the body (Blood of the Ancients keeps 88)
 HIGH_TITLE_BOOKS = ("dungeoneers-handbook", "the-harrow-handbook", "animal-archive", "blood-of-the-beast", "heroes-of-the-high-court", "martial-arts-handbook", "magic-tactics-toolbox", "haunted-heroes-handbook", "familiar-folio", "advanced-class-origins", "cohorts-and-companions", "dirty-tactics-toolbox", "weapon-masters-handbook", "melee-tactics-toolbox", *BATCH_B4_BOOKS, *BATCH_B5_BOOKS,
-                    "divine-anthology", "giant-hunters-handbook", "kobolds-of-golarion", "people-of-the-stars", "champions-of-balance", "bastards-of-golarion", "knights-of-the-inner-sea", "people-of-the-river", "undead-slayers-handbook", "dragonslayers-handbook", "ranged-tactics-toolbox", *BATCH_B6_BOOKS)     # the "ON VIRTUE" section title of Divine Anthology p. 16 is set at top 85, its small capitals at 94
+                    "divine-anthology", "giant-hunters-handbook", "kobolds-of-golarion", "people-of-the-stars", "champions-of-balance", "bastards-of-golarion", "knights-of-the-inner-sea", "people-of-the-river", "undead-slayers-handbook", "dragonslayers-handbook", "ranged-tactics-toolbox", "demon-hunters-handbook", "people-of-the-north", "faiths-and-philosophies", "alchemy-manual", *BATCH_B6_BOOKS)     # the "ON VIRTUE" section title of Divine Anthology p. 16 is set at top 85, its small capitals at 94
 
 # ---- Potions & Poisons, Construct Handbook, Magic Tactics Toolbox, Haunted Heroes Handbook, Heroes from the Fringe (one block of tables) ----
 MISPRINTS.extend([
