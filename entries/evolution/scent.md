@@ -8,12 +8,14 @@ provenance = [
 ]
 [[sources]]
 publication = "advanced-players-guide"
-page = "61"
+page = "60-61"
 
 [fields]
 kind = "class_option"
 group = "summoner-evolution"
 +++
+
+1-Point Evolutions: The following evolutions cost 1 point from the eidolon's evolution pool.
 
 An eidolon's sense of smell becomes quite acute. The eidolon gains the [scent](ref/umr/scent)
 special quality, allowing it to detect opponents within 30 feet by sense of smell. If the opponent

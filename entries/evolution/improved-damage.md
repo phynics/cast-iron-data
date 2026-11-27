@@ -15,6 +15,8 @@ kind = "class_option"
 group = "summoner-evolution"
 +++
 
+1-Point Evolutions: The following evolutions cost 1 point from the eidolon's evolution pool.
+
 One of the eidolon's natural attacks is particularly deadly. Select one natural attack form and
 [increase the damage die](ref/misc/damage-die-adjustments) type by one step. This evolution can be
 selected more than once. Its effects do not stack. Each time an eidolon selects this evolution, it

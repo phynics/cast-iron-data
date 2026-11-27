@@ -8,12 +8,14 @@ provenance = [
 ]
 [[sources]]
 publication = "advanced-players-guide"
-page = "62"
+page = "61-62"
 
 [fields]
 kind = "class_option"
 group = "summoner-evolution"
 +++
+
+2-Point Evolutions: The following evolutions cost 2 points from the eidolon's evolution pool.
 
 An eidolon grows large wings, like those of a bat, bird, insect, or dragon, gaining the ability to
 fly. The eidolon gains a fly speed equal to its base speed. The eidolon's maneuverability depends on

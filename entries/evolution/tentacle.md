@@ -8,12 +8,14 @@ provenance = [
 ]
 [[sources]]
 publication = "advanced-players-guide"
-page = "61"
+page = "60-61"
 
 [fields]
 kind = "class_option"
 group = "summoner-evolution"
 +++
+
+1-Point Evolutions: The following evolutions cost 1 point from the eidolon's evolution pool.
 
 An eidolon possesses a long, sinuous tentacle, granting it a
 [tentacle attack](ref/umr/natural-attacks). This attack is a secondary attack. The tentacle attack

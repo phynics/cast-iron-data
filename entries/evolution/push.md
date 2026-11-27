@@ -8,12 +8,14 @@ provenance = [
 ]
 [[sources]]
 publication = "advanced-players-guide"
-page = "61"
+page = "60-61"
 
 [fields]
 kind = "class_option"
 group = "summoner-evolution"
 +++
+
+1-Point Evolutions: The following evolutions cost 1 point from the eidolon's evolution pool.
 
 An eidolon gains the ability to push creatures away with a successful attack. Select one type of
 natural attack. Whenever the eidolon makes a successful attack of the selected type, it can attempt

@@ -15,6 +15,8 @@ kind = "class_option"
 group = "summoner-evolution"
 +++
 
+4-Point Evolutions: The following evolutions cost 4 points from the eidolon's evolution pool.
+
 An eidolon learns to exhale a cone or line of magical energy, gaining a breath weapon. Select either
 acid, cold, electricity, or fire. The eidolon can breathe a 30-foot cone (or 60-foot line) that
 deals 1d6 points of damage of the selected type per HD it possesses. Those caught in the breath

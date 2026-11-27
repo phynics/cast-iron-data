@@ -8,12 +8,14 @@ provenance = [
 ]
 [[sources]]
 publication = "advanced-players-guide"
-page = "64"
+page = "63-64"
 
 [fields]
 kind = "class_option"
 group = "summoner-evolution"
 +++
+
+4-Point Evolutions: The following evolutions cost 4 points from the eidolon's evolution pool.
 
 An eidolon's body gains the ability to heal wounds very quickly, giving it
 [fast healing](ref/umr/fast-healing) 1. The eidolon heals 1 point of damage each round, just like

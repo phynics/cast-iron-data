@@ -15,9 +15,6 @@ kind = "class_option"
 group = "rage-power"
 +++
 
-**Greater Brawler**
-
-**Ability:** While _raging,_ the barbarian is treated as if she has
-[Two-Weapon Fighting](ref/feat/two-weapon-fighting) when making unarmed strike attacks.
-
-**Prereq:** [Brawler](ref/ragepower/brawler)
+While raging, the barbarian is treated as if she has
+[Two-Weapon Fighting](ref/feat/two-weapon-fighting) when making unarmed strike attacks. A barbarian
+must have the [brawler](ref/ragepower/brawler) rage power to select this rage power.

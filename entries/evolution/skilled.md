@@ -8,12 +8,14 @@ provenance = [
 ]
 [[sources]]
 publication = "advanced-players-guide"
-page = "61"
+page = "60-61"
 
 [fields]
 kind = "class_option"
 group = "summoner-evolution"
 +++
+
+1-Point Evolutions: The following evolutions cost 1 point from the eidolon's evolution pool.
 
 An eidolon becomes especially adept at a specific skill, gaining a +8 racial bonus on that skill.
 This evolution can be selected more than once. Its effects do not stack. Each time an eidolon

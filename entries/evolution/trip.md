@@ -8,20 +8,18 @@ provenance = [
 ]
 [[sources]]
 publication = "advanced-players-guide"
-page = "63"
+page = "61-63"
 
 [fields]
 kind = "class_option"
 group = "summoner-evolution"
 +++
 
-**Trip (Ex)**
+2-Point Evolutions: The following evolutions cost 2 points from the eidolon's evolution pool.
 
-**Ability:** An eidolon becomes adept at knocking foes to the ground with its bite, granting it a
-[trip](ref/rule/trip) attack. Whenever the eidolon makes a successful bite attack of the selected
-type, it can attempt a free combat maneuver check. If successful, the target is knocked
-[prone](ref/rule/prone). If the check fails, the eidolon is not tripped in return.
-
-**Prereq:** [Bite](ref/evolution/bite)
-
-**Special:** This ability only works on creatures of a size equal to or smaller than the eidolon.
+An eidolon becomes adept at knocking foes to the ground with its [bite](ref/evolution/bite),
+granting it a [trip](ref/rule/trip) attack. Whenever the eidolon makes a successful bite attack of
+the selected type, it can attempt a free combat maneuver check. If successful, the target is knocked
+[prone](ref/rule/prone). If the check fails, the eidolon is not tripped in return. This ability only
+works on creatures of a size equal to or smaller than the eidolon. The eidolon must possess the bite
+evolution to select this evolution.

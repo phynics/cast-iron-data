@@ -15,6 +15,8 @@ kind = "class_option"
 group = "summoner-evolution"
 +++
 
+1-Point Evolutions: The following evolutions cost 1 point from the eidolon's evolution pool.
+
 An eidolon's maw is full of razor-sharp teeth, giving it a [bite attack](ref/umr/natural-attacks).
 This attack is a primary attack. The bite deals 1d6 points of damage (1d8 if Large, 2d6 if Huge). If
 the eidolon already has a bite attack, this evolution allows it to deal 1-1/2 times its Strength

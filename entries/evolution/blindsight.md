@@ -15,6 +15,8 @@ kind = "class_option"
 group = "summoner-evolution"
 +++
 
+4-Point Evolutions: The following evolutions cost 4 points from the eidolon's evolution pool.
+
 An eidolon's senses sharpen even further, granting it [blindsight](ref/umr/blindsight) out to a
 range of 30 feet. The eidolon can maneuver and attack as normal, ignoring darkness, invisibility,
 and most forms of [concealment](ref/rule/concealment) as long as it has line of effect to the

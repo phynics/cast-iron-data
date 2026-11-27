@@ -8,12 +8,14 @@ provenance = [
 ]
 [[sources]]
 publication = "advanced-players-guide"
-page = "62"
+page = "61-62"
 
 [fields]
 kind = "class_option"
 group = "summoner-evolution"
 +++
+
+2-Point Evolutions: The following evolutions cost 2 points from the eidolon's evolution pool.
 
 An eidolon's attacks become charged with energy. Pick one energy type: acid, cold, electricity, or
 fire. All of the eidolon's natural attacks deal 1d6 points of energy damage of the chosen type on a

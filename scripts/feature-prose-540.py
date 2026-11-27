@@ -1988,6 +1988,26 @@ PREREQ_LEVEL = re.compile(r"(\d+)(?:st|nd|rd|th)[- ]level\b", re.I)
 PRINT_AT_LEAST = re.compile(r"[^.]*\bmust be at least (\d+)(?:st|nd|rd|th)[- ]level\b[^.]*\.", re.I)
 
 
+# class options (#540, ruling 60): a `Prereq` row of a class option is print's sentences. The class-option script turns the loose reading on: a sentence with
+# "must" or "only available" that has every word of an item, in any order, is that item (qualifiers like "(arms)" count as words). The strict reading
+# (archetypes) wants "must possess/select/have/take/be".
+LOOSE_ITEMS = {"on": False}
+ITEM_STRICT = re.compile(r"[^.]*\bmust (?:possess|select|have|take|be)\b[^.]*\.")
+ITEM_LOOSE = re.compile(r"[^.]*(?:\bmust\b|\bonly available\b)[^.]*\.")
+
+
+ITEM_STOP = {"a", "an", "the", "of", "to", "is", "are", "has", "have", "with", "or", "and", "its", "it", "in"}
+
+
+def item_words(text: str, loose: bool) -> set[str] | list[str]:
+    """The words of an item, or of a printed sentence. The loose reading drops the little words ("has", "of") and the plural s
+    ("eidolon has quadruped base form" against "eidolons of the quadruped base form")."""
+    ws = re.findall(r"[a-z0-9]+", fold(text))
+    if not loose:
+        return ws
+    return {w[:-1] if len(w) > 3 and w.endswith("s") and not w.endswith("ss") else w for w in ws if w not in ITEM_STOP}
+
+
 def take_prerequisites(draft: Draft, p_clean: str, d_clean: str) -> tuple[str, str, list[str]]:
     """A `Prereq: 13th-level magus ...` row is print's "The magus must be at least 13th level and have ... before selecting this
     arcana" when the level is the same: both go out of the comparison (the other words of a prerequisite are not compared; the
@@ -1996,22 +2016,29 @@ def take_prerequisites(draft: Draft, p_clean: str, d_clean: str) -> tuple[str, s
     for pr in draft.prereq:
         m = PREREQ_LEVEL.search(pr.strip())       # class options (#540) name an item before the level ("Beast totem, 10th-level barbarian")
         flat = re.sub(r"\[([^\]]*)\]\([^)]*\)", r"\1", pr).replace("_", "").strip()
-        if not m or flat not in d_clean:
+        if flat not in d_clean or (not m and not LOOSE_ITEMS["on"]):
             continue
-        sm = next((x for x in PRINT_AT_LEAST.finditer(p_clean) if x.group(1) == m.group(1)), None)
-        if sm:
-            p_clean = p_clean.replace(sm.group(0), " ", 1)
-            d_clean = d_clean.replace(flat, " ", 1)
-            info.append(f"rule 3: the prerequisite row \"{flat[:40]}\" is print's \"must be at least {ordinal(int(m.group(1)))} level\" (the same level)")
+        if m:
+            sm = next((x for x in PRINT_AT_LEAST.finditer(p_clean) if x.group(1) == m.group(1)), None)
+            if sm:
+                p_clean = p_clean.replace(sm.group(0), " ", 1)
+                d_clean = d_clean.replace(flat, " ", 1)
+                info.append(f"rule 3: the prerequisite row \"{flat[:40]}\" is print's \"must be at least {ordinal(int(m.group(1)))} level\" (the same level)")
         # class options (#540): the items after the level ("11th-level summoner, blindsense") are print's "The eidolon must possess the blindsense
         # evolution to take this evolution": a sentence with "must" that names every word of an item is that item
-        for item in [x.strip() for x in flat.split(",") if x.strip() and not PREREQ_LEVEL.search(x)]:
-            words = re.findall(r"[a-z0-9]+", fold(item))
-            hit = next((x for x in re.finditer(r"[^.]*\bmust (?:possess|select|have|take|be)\b[^.]*\.", p_clean)
-                        if all(w in re.findall(r"[a-z0-9]+", fold(x.group(0))) for w in words)), None)
+        items = [x.strip() for x in flat.split(",") if x.strip() and not PREREQ_LEVEL.search(x)]
+        found = 0
+        for item in items:
+            loose = LOOSE_ITEMS["on"]
+            words = item_words(item, loose)
+            pat = ITEM_LOOSE if loose else ITEM_STRICT
+            hit = next((x for x in pat.finditer(p_clean) if all(w in item_words(x.group(0), loose) for w in words)), None)
             if hit:
+                found += 1
                 p_clean = p_clean.replace(hit.group(0), " ", 1)
                 info.append(f"rule 3: the prerequisite item \"{item[:30]}\" is print's sentence that says the eidolon or character must have it")
+        if not m and items and found == len(items):
+            d_clean = d_clean.replace(flat, " ", 1)           # a row without a level: gone when every item is print's sentence
     return p_clean, d_clean, info
 
 
@@ -6104,6 +6131,21 @@ def self_test() -> int:
     imp3c = "**Passive:** A barbarian pounces.\n\n**Prereq:** [Beast totem](ref/ragepower/beast-totem), 10th-level barbarian\n"
     p3c = "A barbarian pounces. A barbarian must have the beast totem rage power to select this rage power. A barbarian must be at least 10th level to select this rage power."
     eq(cmp_rule("prereq", imp3c, p3c)[1], "print", "rule 3: an item before the level is print's sentence too")
+    # ruling 60 (class options): the loose reading, every word of the item in a sentence with "must" or "only available"
+    LOOSE_ITEMS["on"] = True
+    try:
+        imp3d = "**Ability:** An eidolon grows pincers.\n\n**Prereq:** [Limbs](ref/evolution/limbs) (arms)\n"
+        p3d = "An eidolon grows pincers. The eidolon must have the arms (limbs) evolution to take this evolution."
+        eq(cmp_rule("prereq", imp3d, p3d)[1], "print", "ruling 60: a qualifier is a word and the order is free, a row without a level")
+        imp3e = "**Ability:** An eidolon rakes.\n\n**Prereq:** Claws, quadruped base form\n"
+        p3e = "An eidolon rakes. The eidolon must have the claws evolution. This evolution is only available to eidolons of the quadruped base form."
+        eq(cmp_rule("prereq", imp3e, p3e)[1], "print", "ruling 60: two items, \"must\" and \"only available\"")
+        eq(cmp_rule("prereq", imp3d, p3d.replace("arms", "legs"))[1], "hold", "ruling 60: a word of the item that print lacks stays held")
+        eq(cmp_rule("prereq", imp3d, "An eidolon grows pincers. The arms and the limbs are described above.")[1], "hold", "ruling 60: a sentence without \"must\" stays held")
+        eq(cmp_rule("prereq", imp3e, p3e.replace("claws", "burrow"))[1], "hold", "ruling 60: another item stays held")
+    finally:
+        LOOSE_ITEMS["on"] = False
+    eq(cmp_rule("prereq", imp3d, p3d)[1], "hold", "ruling 60: the archetype reading stays strict for a row without a level")
     # rule 4: a `Usage` row that print says word for word is print's
     imp4 = "**Ability:** A hunter can speak with animals.\n\n**Usage:** She can use this ability no more than once per minute.\n"
     eq(cmp_rule("usage", imp4, "A hunter can speak with animals. She can use this ability no more than once per minute.")[1], "print", "rule 4: the row is in print")

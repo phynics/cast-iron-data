@@ -15,6 +15,8 @@ kind = "class_option"
 group = "summoner-evolution"
 +++
 
+3-Point Evolutions: The following evolutions cost 3 points from the eidolon's evolution pool.
+
 An eidolon's body becomes resistant to harm, granting it damage reduction. Choose one alignment:
 chaotic, evil, good, or lawful. The eidolon gains DR 5 that can be bypassed by weapons that possess
 the chosen alignment. The alignment must be opposite to one of the alignments possessed by the

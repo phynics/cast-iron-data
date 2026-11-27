@@ -8,12 +8,14 @@ provenance = [
 ]
 [[sources]]
 publication = "advanced-players-guide"
-page = "62"
+page = "61-62"
 
 [fields]
 kind = "class_option"
 group = "summoner-evolution"
 +++
+
+2-Point Evolutions: The following evolutions cost 2 points from the eidolon's evolution pool.
 
 An eidolon grows an additional pair of limbs. These limbs can take one of two forms. They can be
 made into legs, complete with feet. Each pair of legs increases the eidolon's base speed by 10 feet.

@@ -15,6 +15,8 @@ kind = "class_option"
 group = "summoner-evolution"
 +++
 
+3-Point Evolutions: The following evolutions cost 3 points from the eidolon's evolution pool.
+
 An eidolon becomes unsettling to its foes, gaining the
 [frightful presence](ref/umr/frightful-presence) ability. The eidolon can activate this ability as
 part of an offensive action, such as a [charge](ref/rule/charge) or attack. Opponents within 30 feet

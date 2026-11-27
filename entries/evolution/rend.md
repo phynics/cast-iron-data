@@ -8,12 +8,14 @@ provenance = [
 ]
 [[sources]]
 publication = "advanced-players-guide"
-page = "62"
+page = "61-62"
 
 [fields]
 kind = "class_option"
 group = "summoner-evolution"
 +++
+
+2-Point Evolutions: The following evolutions cost 2 points from the eidolon's evolution pool.
 
 An eidolon learns to rip and tear the flesh of those it attacks with its
 [claws](ref/evolution/claws), gaining the [rend](ref/umr/rend) ability. Whenever the eidolon makes

@@ -8,12 +8,14 @@ provenance = [
 ]
 [[sources]]
 publication = "advanced-players-guide"
-page = "61"
+page = "60-61"
 
 [fields]
 kind = "class_option"
 group = "summoner-evolution"
 +++
+
+1-Point Evolutions: The following evolutions cost 1 point from the eidolon's evolution pool.
 
 An eidolon gains webbed hands, feet, or powerful flippers, giving it a swim speed equal to its base
 speed. This evolution does not give the eidolon the ability to breathe underwater. This evolution

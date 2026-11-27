@@ -8,12 +8,14 @@ provenance = [
 ]
 [[sources]]
 publication = "advanced-players-guide"
-page = "62"
+page = "61-62"
 
 [fields]
 kind = "class_option"
 group = "summoner-evolution"
 +++
+
+2-Point Evolutions: The following evolutions cost 2 points from the eidolon's evolution pool.
 
 An eidolon becomes attuned to vibrations in the ground, gaining [tremorsense](ref/umr/tremorsense)
 out to a range of 30 feet. This works like the [blindsense](ref/evolution/blindsense) evolution, but
