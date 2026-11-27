@@ -2003,21 +2003,87 @@ PREREQ_LEVEL = re.compile(r"(\d+)(?:st|nd|rd|th)[- ]level\b", re.I)
 PRINT_AT_LEAST = re.compile(r"[^.]*\bmust be at least (\d+)(?:st|nd|rd|th)[- ]level\b[^.]*\.", re.I)
 
 
+# class options (#540, rulings 60 and 61 of the data plan): a `Prereq` row of a class option is print's sentences. Only the class-option script turns
+# this on (`LOOSE_ITEMS`); with it off the function below is the archetype rule 3 and nothing else. An item of a row (an evolution, a rage
+# power, "serpentine base form") is print's sentence when that sentence
+#   - has a prerequisite frame ("to select/take/gain this ...", "before selecting", "only available to"),
+#   - has no negation ("must not possess", "is not available to"),
+#   - has every word of the item, in any order (the plural s and the little words do not count), and a qualifier in parentheses next to
+#     its head word ("limbs (arms)", not "limbs (legs)"),
+#   - does not name a longer known option that contains the item ("lesser beast totem" for "beast totem", "improved natural armor" for
+#     "natural armor", "tail slap" for "tail").
+# A row is all or nothing: one item left over, and the row and its sentences stay in the comparison.
+LOOSE_ITEMS = {"on": False}
+KNOWN_OPTIONS: list[list[str]] = []           # the word lists of the titles of every class option, set by the class-option script
+ITEM_FRAME = re.compile(r"\b(?:to|before)\s+(?:select|selecting|take|taking|gain|gaining|choose|choosing)\b|\bonly available to\b", re.I)
+ITEM_NEGATION = re.compile(r"\b(?:not|cannot|never|no|neither|nor)\b|n['\u2019]t\b", re.I)
+ITEM_SENTENCE = re.compile(r"[^.]*\.")
+ITEM_STOP = {"a", "an", "the", "of", "to", "is", "are", "has", "have", "with", "or", "and", "its", "it", "in"}
+
+
+def item_tokens(text: str) -> list[str]:
+    """The words of an item or of a printed sentence, in order: folded, without the little words, the plural s cut."""
+    ws = [w for w in re.findall(r"[a-z0-9]+", fold(text)) if w not in ITEM_STOP]
+    return [w[:-1] if len(w) > 3 and w.endswith("s") and not w.endswith("ss") else w for w in ws]
+
+
+def _contains(seq: list[str], part: list[str]) -> bool:
+    return any(seq[k:k + len(part)] == part for k in range(len(seq) - len(part) + 1))
+
+
+def item_sentence(item: str, p_clean: str) -> re.Match | None:
+    """The sentence of print that is the item (see above), or None."""
+    want = item_tokens(item)
+    if not want:
+        return None
+    qual = item_tokens(" ".join(re.findall(r"\(([^)]*)\)", item)))
+    head = [w for w in want if w not in qual]
+    for m in ITEM_SENTENCE.finditer(p_clean):
+        s = m.group(0)
+        if not ITEM_FRAME.search(s) or ITEM_NEGATION.search(s):
+            continue
+        toks = item_tokens(s)
+        if not all(w in toks for w in want):
+            continue
+        if qual and not all(any(toks[k] == w and any(toks[x] in head for x in (k - 1, k + 1) if 0 <= x < len(toks)) for k in range(len(toks))) for w in qual):
+            continue                                             # "limbs (arms)": the qualifier stands next to its head word
+        if any(len(o) > len(want) and _contains(o, want) and _contains(toks, o) for o in KNOWN_OPTIONS):
+            continue                                             # the sentence names a longer option that holds the item
+        return m
+    return None
+
+
 def take_prerequisites(draft: Draft, p_clean: str, d_clean: str) -> tuple[str, str, list[str]]:
     """A `Prereq: 13th-level magus ...` row is print's "The magus must be at least 13th level and have ... before selecting this
     arcana" when the level is the same: both go out of the comparison (the other words of a prerequisite are not compared; the
     number is the rule). A prerequisite of another shape stays in the comparison."""
     info: list[str] = []
+    loose = LOOSE_ITEMS["on"]
     for pr in draft.prereq:
-        m = PREREQ_LEVEL.match(pr.strip())
+        m = (PREREQ_LEVEL.search if loose else PREREQ_LEVEL.match)(pr.strip())     # a class option names an item before the level ("Beast totem, 10th-level barbarian")
         flat = re.sub(r"\[([^\]]*)\]\([^)]*\)", r"\1", pr).replace("_", "").strip()
-        if not m or flat not in d_clean:
+        if flat not in d_clean or (not m and not loose):
             continue
-        sm = next((x for x in PRINT_AT_LEAST.finditer(p_clean) if x.group(1) == m.group(1)), None)
-        if sm:
-            p_clean = p_clean.replace(sm.group(0), " ", 1)
+        sm = next((x for x in PRINT_AT_LEAST.finditer(p_clean) if x.group(1) == m.group(1)), None) if m else None
+        if not loose:
+            if sm:                                              # the archetype rule 3, as it was
+                p_clean = p_clean.replace(sm.group(0), " ", 1)
+                d_clean = d_clean.replace(flat, " ", 1)
+                info.append(f"rule 3: the prerequisite row \"{flat[:40]}\" is print's \"must be at least {ordinal(int(m.group(1)))} level\" (the same level)")
+            continue
+        # a class option: the row is all or nothing. It goes out of the comparison only when its level (if it has one) and every item are print's
+        items = [x.strip() for x in flat.split(",") if x.strip() and not PREREQ_LEVEL.search(x)]
+        hits = [item_sentence(item, p_clean) for item in items]
+        if (m is None or sm) and items + ([m] if m else []) and all(hits):
+            if sm:
+                p_clean = p_clean.replace(sm.group(0), " ", 1)
+                info.append(f"rule 3: the prerequisite row \"{flat[:40]}\" is print's \"must be at least {ordinal(int(m.group(1)))} level\" (the same level)")
+            for sent in {h.group(0) for h in hits}:
+                p_clean = p_clean.replace(sent, " ", 1)
+            info += [f"rule 3: the prerequisite item \"{item[:30]}\" is print's sentence that says the character must have it" for item in items]
             d_clean = d_clean.replace(flat, " ", 1)
-            info.append(f"rule 3: the prerequisite row \"{flat[:40]}\" is print's \"must be at least {ordinal(int(m.group(1)))} level\" (the same level)")
+        elif m or items:
+            info.append(f"rule 3: the prerequisite row \"{flat[:40]}\" is not all print's sentences: it stays in the comparison")
     return p_clean, d_clean, info
 
 
@@ -6225,6 +6291,40 @@ def self_test() -> int:
     p3 = "A Jistkan artificer can use his arm. He cannot be fooled. The magus must be at least 13th level and have the shielding arm arcana before selecting this arcana."
     eq(cmp_rule("prereq", imp3, p3), ("hold", "print"), "rule 3: the same level")
     eq(cmp_rule("prereq", imp3, p3.replace("13th", "14th"))[1], "hold", "rule 3: another level is a hold")
+    # class options (rulings 60 and 61 of the data plan): the loose reading of a prerequisite item, on for the class-option script only
+    def prereq_case(row: str, printed: str, known: tuple = ()) -> str:
+        LOOSE_ITEMS["on"] = True
+        KNOWN_OPTIONS[:] = [item_tokens(k) for k in known]
+        try:
+            return cmp_rule("prereq", "**Ability:** An eidolon grows pincers.\n\n**Prereq:** " + row + "\n", "An eidolon grows pincers. " + printed)[1]
+        finally:
+            LOOSE_ITEMS["on"] = False
+            KNOWN_OPTIONS[:] = []
+    eq(prereq_case("11th-level summoner, blindsense", "The eidolon must possess the blindsense evolution to take this evolution. The summoner must be at least 11th level."), "print", "ruling 60: an item and a level")
+    eq(prereq_case("11th-level summoner, burrow", "The eidolon must possess the blindsense evolution to take this evolution. The summoner must be at least 11th level."), "hold", "ruling 60: another item stays held")
+    eq(prereq_case("Beast totem, 10th-level barbarian", "A barbarian must have the beast totem rage power to select this rage power. A barbarian must be at least 10th level to select this rage power."), "print", "ruling 60: an item before the level")
+    eq(prereq_case("Limbs (arms)", "The eidolon must have the limbs (arms) evolution to take this evolution."), "print", "ruling 60: a qualifier next to its head word")
+    eq(prereq_case("Limbs (arms)", "The eidolon must have the limbs evolution to take this evolution, and an arm elsewhere."), "hold", "ruling 60: every word is there, the qualifier is not next to its head word")
+    eq(prereq_case("Limbs (arms)", "The eidolon must have the limbs (legs) evolution to take this evolution."), "hold", "ruling 60: limbs (arms) is not limbs (legs)")
+    eq(prereq_case("Claws, quadruped base form", "The eidolon must have the claws evolution to take this evolution. This evolution is only available to eidolons of the quadruped base form."), "print", "ruling 60: two items, \"to take\" and \"only available to\"")
+    eq(prereq_case("Claws, quadruped base form", "The eidolon must have the claws evolution to take this evolution. This evolution is only available to eidolons of the biped base form."), "hold", "ruling 60: one item left over holds the row")
+    eq(prereq_case("Serpentine base form", "This evolution is only available to eidolons that are not of the serpentine base form."), "hold", "ruling 60: the frame is there, the negation holds")
+    eq(prereq_case("Serpentine base form", "The serpentine base form is described above."), "hold", "ruling 60: every word is there, no frame holds")
+    eq(prereq_case("Serpentine base form", "This evolution is only available to eidolons of the biped base form."), "hold", "ruling 60: serpentine is not biped")
+    eq(prereq_case("Serpentine base form", "This evolution is only available to eidolons of the serpentine base form."), "print", "ruling 60: only available to, the item")
+    eq(prereq_case("Claws", "The eidolon must not possess the claws evolution to take this evolution."), "hold", "ruling 60: must not possess holds")
+    eq(prereq_case("Claws", "The claws are described above."), "hold", "ruling 60: a sentence with no frame holds")
+    eq(prereq_case("Beast totem", "A barbarian must have the lesser beast totem rage power to select this rage power.", ("Lesser Beast Totem",)), "hold", "ruling 60: a longer known option that holds the item holds")
+    eq(prereq_case("Beast totem", "A barbarian must have the beast totem rage power to select this rage power.", ("Lesser Beast Totem",)), "print", "ruling 60: the item itself is no longer option")
+    eq(prereq_case("Natural armor", "The eidolon must have the improved natural armor evolution to take this evolution.", ("Improved Natural Armor",)), "hold", "ruling 60: improved natural armor is not natural armor")
+    eq(prereq_case("Tail", "The eidolon must possess the tail evolution to take this evolution."), "print", "ruling 60: an item-only row")
+    eq(prereq_case("Tail", "The eidolon must possess the tail slap evolution to take this evolution.", ("Tail Slap",)), "hold", "ruling 60: tail is not tail slap")
+    eq(prereq_case("Limbs, claws", "The eidolon must have the limbs and claws evolutions to take this evolution."), "print", "ruling 60: two items in one sentence")
+    eq(prereq_case("Alignment", "An alignment must be opposite to one of the alignments possessed by the eidolon."), "hold", "ruling 60: every word is there, the sentence has no prerequisite frame")
+    eq(prereq_case("9th-level summoner, claws", "The eidolon must have the claws evolution to take this evolution."), "hold", "ruling 60: a level with no printed level sentence holds the row")
+    eq(prereq_case("9th-level summoner, claws", "The eidolon must have the claws evolution to take this evolution. The summoner must be at least 9th level."), "print", "ruling 60: the level and every item are print's")
+    eq(prereq_case("9th-level summoner, claws", "The eidolon must have the bite evolution to take this evolution. The summoner must be at least 9th level."), "hold", "ruling 60: the level matches, an item does not: the row stays")
+    eq(cmp_rule("prereq", "**Ability:** An eidolon grows pincers.\n\n**Prereq:** Claws\n", "An eidolon grows pincers. The eidolon must possess the claws evolution to take this evolution.")[1], "hold", "ruling 60: the archetype reading is untouched")
     # rule 4: a `Usage` row that print says word for word is print's
     imp4 = "**Ability:** A hunter can speak with animals.\n\n**Usage:** She can use this ability no more than once per minute.\n"
     eq(cmp_rule("usage", imp4, "A hunter can speak with animals. She can use this ability no more than once per minute.")[1], "print", "rule 4: the row is in print")
