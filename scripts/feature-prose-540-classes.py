@@ -181,6 +181,99 @@ PLACE_UNDER: dict[tuple[str, str], tuple[str, int]] = {
 # A box that interrupts a feature in print and that the corpus has as a `###` section: (class entry, key of the box) -> the key of the feature that its last
 # paragraph ends (the Antipaladin's box "Fall From Grace" stands inside Spells, p. 121)
 SIDEBAR_TAILS: dict[tuple[str, str], str] = {("ref/class/antipaladin", "fall-from-grace"): "spells"}
+# Text of another owner book that the class entry carries (owner ruling 32): the battle standards of the Cavalier are printed in Chronicle of Legends p. 4 (the
+# box "Flying the Flag of War"), not in Advanced Player's Guide; the corpus words them as heads of its own. Each section is print's text, typed from the other book
+# and checked against it (`OTHER_TEXT`, every word of the text must stand in that page of the book), under a head that names the book and the page (as the
+# class-option sections of ruling 32 do). A key that the corpus has as a head is reused (no key moves); the heads the corpus has twice (`-2`) go.
+# (class entry) -> (book, the pdf page that holds the text, the key of the item that the sections stand before, [(key, head, text)])
+OTHER_BOOK: dict[str, list[tuple[str, int, str, list[tuple[str, str, str]]]]] = {
+    "ref/class/cavalier": [("chronicle-of-legends", 6, "fleet-standard", [
+        ("flying-the-flag-of-war", "Flying the Flag of War (Chronicle of Legends page 4)",
+         "Some knights inspire and direct their allies with specialized tactics. A cavalier or samurai can select one of the following battle standards upon "
+         "gaining the banner class feature, and its benefits replace the normal benefits of the banner and greater banner class features. A battle standard "
+         "functions as the banner or greater banner class feature except where otherwise noted. A cavalier or samurai who replaces the banner or greater "
+         "banner class feature via an archetype cannot select a battle standard, with the following exception: a standard bearer cavalier can select a "
+         "battle standard at 1st level, and its effects increase as per the standard bearer's banner."),
+        ("fleet-standard", "Fleet Standard (Ex) (Chronicle of Legends page 4)",
+         "These banners are common among Jininese samurai. An ally who benefits from this standard increases her land speed by 5 feet and gains a +1 dodge "
+         "bonus to AC during any round in which she moved at least 10 feet. This increase to land speed is an enhancement bonus. At 10th level and every 5 "
+         "levels thereafter, the bonus to speed increases by 5 feet. At 14th level, an ally benefiting from the banner gains a +2 morale bonus on Reflex "
+         "saving throws against effects that target an area, such as [fireball](ref/spell/fireball) or [breath weapons](ref/umr/breath-weapon). When the cavalier or samurai waves this standard, each "
+         "ally within 60 feet can move up to her speed as an immediate action."),
+        ("jinx-standard", "Jinx Standard (Ex) (Chronicle of Legends page 4)",
+         "These grim fetishes are common among Jadwiga cavaliers. An ally who benefits from this standard gains a +1 bonus on caster level checks to bypass "
+         "[spell resistance](ref/rule/spell-resistance) and a +1 bonus to the DC of her hexes and necromancy or enchantment spell she casts. At 10th level and every 5 levels "
+         "thereafter, the bonus on caster level checks increases by 1. At 14th level, an ally benefiting from the banner gains a +2 morale bonus on saving "
+         "throws against spells or effects that deal hit point damage. When the cavalier or samurai waves this standard, a number of allies equal to the "
+         "cavalier or samurai's Charisma modifier (minimum 1) within 60 feet can attempt an Intimidate check to demoralize a foe as an immediate action."),
+        ("knave-standard", "Knave Standard (Ex) (Chronicle of Legends page 4)",
+         "The knave standard is common among cavaliers of the River Kingdoms. An ally who benefits from this standard gains a +2 dodge bonus to AC against "
+         "attacks of opportunity provoked by movement and a +1 morale bonus on attack rolls that benefit from [flanking](ref/rule/flanking). At 10th level and every 5 levels "
+         "thereafter, the bonus to AC increases by 1. At 14th level, an ally benefiting from the banner gains [sneak attack](ref/ability/sneak-attack) +1d6; this stacks with other "
+         "sources of sneak attack. When the cavalier or samurai waves this standard, a number of allies equal to the cavalier or samurai's Charisma "
+         "modifier (minimum 1) within 60 feet can each attempt a [feint](ref/rule/feint) against a foe she threatens as an immediate action."),
+        ("stalwart-standard", "Stalwart Standard (Ex) (Chronicle of Legends page 4)",
+         "These banners are common among the dwarven defenders of Kraggodan. An ally who benefits from this standard gains a +2 morale bonus to CMD and a "
+         "+1 morale bonus on attack rolls to creatures threatening an ally. At 10th level and every 5 levels thereafter, the bonus to CMD increases by +1. "
+         "At 14th level, an ally benefiting from the banner is treated as one size category larger for the purposes of determining which creatures can "
+         "affect him with combat maneuvers. When the cavalier or samurai waves this standard, each ally within 60 feet can move up to 10 feet without "
+         "provoking attacks of opportunities and ignoring [difficult terrain](ref/rule/terrain-and-obstacles) as an immediate action."),
+    ]),
+        # the mounts that other owner books add to the Mount of the Cavalier: Wilderness Origins p. 23 and Ultimate Wilderness p. 178 (the corpus has them as rows of the feature)
+        ("wilderness-origins", 25, "order", [
+            ("cavalier-mounts-wilderness-origins", "Cavalier Mounts (Wilderness Origins page 23)",
+             "A Medium cavalier can select an [axe beak](ref/companion/axe-beak), [elk](ref/companion/elk), [giant tortoise](ref/companion/tortoise-giant), "
+             "[giant seahorse](ref/companion/seahorse-giant), or [giraffe](ref/companion/giraffe) as a mount. A Small cavalier can select an "
+             "[antelope](ref/companion/antelope), [giant weasel](ref/companion/weasel-giant), [kangaroo](ref/companion/kangaroo), lizard "
+             "([giant gecko](ref/companion/lizard-giant-gecko)), [ram](ref/companion/ram), or [stag](ref/companion/stag) as a mount. The augmented companion, "
+             "bodyguard, bully, daredevil, draconic companion, racer, and wrecker companion archetypes are all particularly appropriate for a cavalier's mount."),
+        ]),
+        ("ultimate-wilderness", 179, "order", [
+            ("cavalier-mounts-ultimate-wilderness", "Cavalier Mounts (Ultimate Wilderness page 178)",
+             "A Medium cavalier can select a [zebra](ref/companion/zebra) as a mount. A Small cavalier can select a [capybara](ref/companion/capybara), "
+             "[reindeer](ref/companion/reindeer), or [wolfdog](ref/companion/wolfdog) as a mount."),
+        ]),
+    ],
+}
+OTHER_TEXT: dict[tuple[str, int], str] = {}      # (book, pdf page) -> the squashed text of the pages that `OTHER_BOOK` cites, filled by `load_other_books`
+
+
+def load_other_books(corpus: Path, books_dir: str, cache: str, main_book: str) -> None:
+    """Read the pages of the other owner books that `OTHER_BOOK` cites, so that each section can be checked against print."""
+    for book, page, _before, _secs in (x for xs in OTHER_BOOK.values() for x in xs):
+        if (book, page) in OTHER_TEXT:
+            continue
+        fp.configure_book(book)
+        pdf = fp.find_pdf(Path(books_dir), fp.publication_title(corpus, book))
+        if not pdf:
+            raise SystemExit(f"no copy of the book {book} under {books_dir}")
+        bk = fp.load_book(fp.book_xml(pdf, Path(cache)))
+        text = " ".join(b.plain() for b in fp.read_blocks(bk, page, page))
+        OTHER_TEXT[(book, page)] = fp.squash(re.sub(r"(?<=[a-z])(?:B[1-6]|UW|UC|UM|APG|ARG)(?=[\s,.;):])", "", text))      # the book markers after a name (ruling 26)
+    fp.configure_book(main_book)
+
+
+def other_book_sections(e_id: str, items: list[dict]) -> None:
+    """Put the sections of another owner book into the plan (see `OTHER_BOOK`): the corpus head of the same key becomes the section (text and head from
+    print), the other sections stand before `before`. A text that is not in the other book's page is a hold."""
+    for book, page, before, secs in OTHER_BOOK.get(e_id, []):
+        seen = OTHER_TEXT.get((book, page))
+        at = next((n for n, x in enumerate(items) if x["key"] == before), len(items))
+        for key, head, text in secs:
+            status, notes = "print", [f"text of another owner book (owner ruling 32): {book}, checked against that print"]
+            if seen is None or fp.squash(re.sub(r"\[([^\]]*)\]\([^)]*\)", r"\1", text)) not in seen:
+                status = "hold"
+                notes = [f"the text is not found on the page of {book} that it cites"]
+            old = next((x for x in items if x["key"] == key), None)
+            sec = {"key": key, "line": -1, "head": head, "print": text, "status": status, "notes": notes, "level": 5, "unlisted": True}
+            if old is not None:
+                old.update(sec, line=old["line"], drop=False)
+                at = items.index(old) + 1
+            else:
+                items.insert(at, sec)
+                at += 1
+
+
 # Sections that print sets behind the class features and that the corpus has inside a feature (the Antipaladin's code of conduct is a row of its
 # proficiencies): they become unlisted sections of their own, so the text stays where print has it.
 SECTIONS_BEHIND: dict[str, set[str]] = {"ref/class/antipaladin": {"codeofconduct", "associates"}}
@@ -492,10 +585,15 @@ def run_compare(args) -> int:
     options = option_title_keys(corpus)
     wanted = set(args.classes.split(",")) if args.classes else None
     total, cache, written = Counter(), {}, 0
+    plans = []
     for e in co.load_entries(corpus, "class", book):
         if not e.id.startswith("ref/class/") or (wanted and e.id.rsplit("/", 1)[1] not in wanted):
             continue
-        plan = compare_class(corpus, e, bk, cache, options, class_decisions(corpus, book))
+        plans.append((e, compare_class(corpus, e, bk, cache, options, class_decisions(corpus, book))))
+    # the other books are read after the class pages (reading another book first changes how the window of a class page is read)
+    load_other_books(corpus, args.books, args.cache, book)
+    for e, plan in plans:
+        other_book_sections(e.id, plan["items"])
         c = Counter(x["status"] for x in plan["items"])
         total.update(c)
         links = sum(len(x.get("links", [])) for x in plan["items"])
