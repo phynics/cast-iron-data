@@ -220,10 +220,6 @@ bonus feats are in addition to the feats that a character of any class gets from
 The wizard is not limited to the categories of item creation feats, metamagic feats, or Spell
 Mastery when choosing those feats.
 
-### Arcane Schools {#arcane-schools}
-
-The following descriptions detail each arcane school and its corresponding powers.
-
 ### Alternate Capstones
 
 When a character reaches the 20th level of a class, she gains a powerful class feature or ability,

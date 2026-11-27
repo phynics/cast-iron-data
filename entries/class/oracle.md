@@ -204,12 +204,6 @@ action.
 At 20th level, an oracle learns the final revelation about her mystery, granting her amazing powers
 and abilities. The nature of these bonuses depends upon the oracle's mystery.
 
-### Mysteries {#oracle-mysteries}
-
-Each oracle must choose from among the following mysteries. Unless otherwise noted, the DC to save
-against these revelations is equal to 10 + 1/2 the oracle's level + the oracle's Charisma modifier.
-Spells marked with an asterisk (\*) appear in Chapter 5 of this book.
-
 ### Alternate Capstones
 
 When a character reaches the 20th level of a class, she gains a powerful class feature or ability,

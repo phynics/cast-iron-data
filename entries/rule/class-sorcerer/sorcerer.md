@@ -175,11 +175,6 @@ list specific to each bloodline. The sorcerer must meet the prerequisites for th
 
 A sorcerer gains [Eschew Materials](ref/feat/eschew-materials) as a bonus feat at 1st level.
 
-### Sorcerer Bloodlines {#sorcerer-bloodlines}
-
-The following bloodlines represent only some of the possible sources of power that a sorcerer can
-draw upon. Unless otherwise noted, most sorcerers are assumed to have the arcane bloodline.
-
 ### Alternate Capstones
 
 When a character reaches the 20th level of a class, she gains a powerful class feature or ability,

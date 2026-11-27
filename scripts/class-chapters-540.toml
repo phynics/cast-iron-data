@@ -80,15 +80,16 @@ lead_ok = ["Table 3–8 determines many of the base statistics of the animal com
 [[class]]
 id = "ref/class/sorcerer"
 gap_stop = "Sorcerer Bloodlines"
-lead_key = "sorcerer-bloodlines"
+lead_entry = "ref/ability/sorcerer-bloodlines"
 
 [[class]]
 id = "ref/class/wizard"
 gap_stop = "Arcane Schools"
-lead_key = "arcane-schools"
 
 # `[[option_pick]]`: the entry that a class links where its option group holds two entries of one name (rage powers are one group for the Barbarian and the Unchained
 # Barbarian): the one printed in the book of the class.
+lead_entry = "ref/ability/arcane-schools"
+
 [[option_pick]]
 class = "ref/class/barbarian"
 name = "Guarded Stance"
@@ -196,8 +197,7 @@ lead_title = "Inquisitor Spells"
 
 [[class]]
 id = "ref/class/oracle"
-lead_key = "oracle-mysteries"
-lead_title = "Mysteries"
+lead_entry = "ref/ability/mysteries"
 
 [[class]]
 id = "ref/class/witch"

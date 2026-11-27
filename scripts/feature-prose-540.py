@@ -718,7 +718,7 @@ GLUE_TAIL = {"its", "his", "her", "the", "them", "their", "this", "that", "these
 def fix_glued(s: str, vocab: set[str]) -> str:
     """"ofits" for "of its": the text layer drops the blank at a line end (Core Rulebook, Detect Evil p. 60). A word that the book does not have, that is a short
     word of the language and one of a few words that follow it, is two words. A word that the word list has ("anthem": the book prints it, an entry holds it) is a
-    word of the language and stays (review of #389, 2026-11-28)."""
+    word of the language and stays (review of #389, 2026-11-27)."""
     def split(m: re.Match) -> str:
         w = m.group(0)
         if not w.islower() or w in vocab:
