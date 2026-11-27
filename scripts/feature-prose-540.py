@@ -2328,7 +2328,9 @@ PRINT_AT_LEAST_LOOSE = re.compile(r"[^.]*\bmust be at least (?:a |an )?(\d+)(?:s
 #     "natural armor", "tail slap" for "tail").
 # A row is all or nothing: one item left over, and the row and its sentences stay in the comparison.
 LOOSE_ITEMS = {"on": False}
-CLASS_WORDS = {c.casefold() for c in CLASS_NAMES}
+# the classes named in a lead level ("At 11th level, when the swashbuckler hits ..."); a set of its own, because CLASS_WORDS above is the
+# word filter of the comparison and must keep its own words ("both")
+LEAD_CLASS_WORDS = {c.casefold() for c in CLASS_NAMES}
 KNOWN_OPTIONS: list[list[str]] = []           # the word lists of the titles of every class option, set by the class-option script
 ITEM_FRAME = re.compile(r"\b(?:to|before)\s+(?:select|selecting|take|taking|gain|gaining|choose|choosing)\b|\bonly available to\b", re.I)
 ITEM_NEGATION = re.compile(r"\b(?:not|cannot|never|no|neither|nor)\b|n['\u2019]t\b", re.I)
@@ -2409,7 +2411,7 @@ def take_prerequisites(draft: Draft, p_clean: str, d_clean: str, lead: int | Non
                 p_clean = p_clean.replace(sent, " ", 1)
             info += [f"rule 3: the prerequisite item \"{item[:30]}\" is print's sentence that says the character must have it" for item in items]
             d_clean = d_clean.replace(flat, " ", 1)
-        elif m and lead == int(m.group(1)) and not items and all(w.casefold() in CLASS_WORDS for w in re.findall(r"[a-z]+", re.split(PREREQ_LEVEL, flat)[-1])):
+        elif m and lead == int(m.group(1)) and not items and all(w.casefold() in LEAD_CLASS_WORDS for w in re.findall(r"[a-z]+", re.split(PREREQ_LEVEL, flat)[-1])):
             # print states the level in the feature's own lead ("At 11th level, when the swashbuckler hits ...") and names only its class, so the
             # import's row restates print's lead: it goes (ruling 60; a different level or an item of its own stays in the comparison)
             d_clean = d_clean.replace(flat, " ")
@@ -6749,6 +6751,7 @@ def self_test() -> int:
         return compare_feature(d_, _lead, set(), set()).status
     eq([_lead_status("11th-level swashbuckler"), _lead_status("13th-level swashbuckler"), _lead_status("11th-level swashbuckler, panache")],
        ["print", "hold", "hold"], "a prerequisite row that restates print's lead level goes; another level or an item stays held")
+    eq("both" in CLASS_WORDS, True, "the class words of a lead level have a set of their own (near miss: the word filter keeps its own words)")
     LOOSE_ITEMS["on"] = False
     # a head with its ability tag after it starts a paragraph where the layer gives no indent (Advanced Class Guide p. 33)
     ILLUSTRATED["on"] = True
