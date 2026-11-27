@@ -727,6 +727,19 @@ def coverage_check(corpus: Path, e, items: list[dict], blocks: list, title, head
     return problems
 
 
+def printed_opening(e, win: list) -> tuple[str, str]:
+    """(the title, the text) of the printed paragraphs over the first printed head of the class features that the entry lacks ("The following are class features of
+    the inquisitor.", set under the title "Class Features"): the inventory of the opening (review of #379, 2026-11-27). Empty when the entry has them."""
+    first = next((n for n, b in enumerate(win) if b.kind == "para" and (hc := fp.head_candidate(b)) and hc[2]), None)
+    if not first:
+        return "", ""
+    text = " ".join(" ".join(b.plain().split()) for b in win[:first] if b.kind == "para" and not is_table_para(b.plain()))
+    if not text.strip() or not co.print_lost(text, plain_text(e.body)):
+        return "", ""
+    title = next((" ".join(b.plain().split()) for b in reversed(win[:first]) if b.kind == "title"), "Class Features")       # every class chapter sets its features under the title "Class Features"
+    return title, text
+
+
 def compare_class(corpus: Path, e, bk, cache: dict, options: dict | None = None, decisions: dict | None = None) -> dict:
     """The comparison of one base class, as a plan for the writer: one item per `####` head of the class (its key, print's head text, print's text and
     status), the print heads that the corpus has no head for (`extra`), the heads that print does not have (`missing`), and the items of option lists
@@ -941,10 +954,11 @@ def compare_class(corpus: Path, e, bk, cache: dict, options: dict | None = None,
             it["notes"].append(f"the end of the paragraph ({tail_of[0]}...) is the end of `{tail_of[1]}`, a link: it belongs to that entry, not here")
             it["print"] = it["print"][:cut].rstrip()
     cov_problems = coverage_check(corpus, e, items, blocks, title, heads, lacking, region, lines, options or {}, own)
+    opening = printed_opening(e, win)
     unresolved = {i["key"] for i in items if "head not printed" in i["notes"] and not i.get("drop") and not i.get("split_from")}
     problems = [x for x in res["problems"] if not (x.startswith("head not printed: ") and fp.slugify(x.split(": ", 1)[1]) not in unresolved and
                                                     not any(fp.namekey(i["head"]) == fp.namekey(x.split(": ", 1)[1]) and "head not printed" in i["notes"] for i in items))]
-    return {"items": items, "extra": extra, "missing": missing, "window": len(win), "problems": problems + problems_extra + cov_problems, "region": region,
+    return {"items": items, "extra": extra, "missing": missing, "window": len(win), "problems": problems + problems_extra + cov_problems, "region": region, "opening": opening,
             "levels": fp.class_table_levels(corpus, e.id, cache)}
 
 
@@ -1034,11 +1048,14 @@ def converted_body(body: str, plan: dict) -> str:
     lines = body.split("\n")
     a, b = plan["region"]
     out = []
+    title, text = plan.get("opening") or ("", "")
+    if text:
+        out += ([f"### {title} {{#{fp.slugify(title)}}}", ""] if title else []) + [text, ""]        # print's lead-in of the class features, under print's title
     for it in plan["items"]:
         if it.get("drop"):
             continue
         out += ["#" * it.get("level", 4) + f" {it['head']} {{#{it['key']}}}", "", feature_text(it), ""]
-    return "\n".join(lines[:a] + out + lines[b:]) if out else body
+    return "\n".join(lines[:a] + out + lines[b:]) if plan["items"] else body
 
 
 def keys_that_move(class_id: str, old_body: str, new_body: str, plan: dict) -> list[str]:
@@ -1081,6 +1098,8 @@ def run_compare(args) -> int:
                 print(f"    hold {x['head'][:34]}: {(x['notes'] or [''])[0][:100]}")
         if plan["extra"]:
             print("    print heads not in the corpus: " + ", ".join(plan["extra"][:8]))
+        if plan.get("opening", ("", ""))[1]:
+            print(f"    the entry lacks print's opening over the first head ({plan['opening'][0] or 'no title'}): {plan['opening'][1][:90]}")
         if args.write and settled(plan):
             body2 = converted_body(e.body, plan)
             moved = keys_that_move(e.id, e.body, body2, plan)
@@ -1140,6 +1159,12 @@ def self_test() -> int:
     eq(re.match(r"^\(((?:Ex|Su|Sp)[^)]*)\):\s*", "(Sp): Starting at 1st level, a summoner").group(1), "Sp", "the tag that print leaves in the first run is found")
     eq((settled(plan), settled(dict(plan, extra=["X"])), settled(dict(plan, missing=["mystery"]))), (True, False, False), "a class is written all or nothing")
     P = fp.Para
+    ent = type("E", (), {"body": "### Class Features and Spells Per Day\n\n#### Spells {#spells}\n\nAn oracle casts divine spells."})()
+    win2 = [P("para", [("The following are the class features of the oracle.", False, False)], 42, 1), P("para", [("Spells", True, False), (": An oracle casts divine spells.", False, False)], 42, 1)]
+    eq(printed_opening(ent, win2), ("Class Features", "The following are the class features of the oracle."), "the printed lead-in of the class features that the entry lacks is found (review of #379)")
+    ent2 = type("E", (), {"body": ent.body + "\n\nThe following are the class features of the oracle."})()
+    eq(printed_opening(ent2, win2), ("", ""), "a lead-in that the entry has is no loss (a rerun adds nothing)")
+    eq(printed_opening(ent, win2[1:]), ("", ""), "no paragraph over the first head: nothing to add")
     blocks = [P("title", [("Oracle", True, False)], 42, 1, 38), P("title", [("Class Features", True, False)], 42, 1, 18),
               P("para", [("Spells: A.", False, False)], 42, 1), P("title", [("Table 2–5: Oracle", True, False)], 44, 0, 24), P("para", [("1st +0", False, False)], 44, 0),
               P("para", [("Orisons: B.", False, False)], 45, 0), P("title", [("Alternate Capstones", True, False)], 46, 0, 18), P("para", [("Late.", False, False)], 46, 0)]

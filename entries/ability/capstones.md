@@ -8,11 +8,26 @@ provenance = [
 ]
 [[sources]]
 publication = "chronicle-of-legends"
-page = "28"
+page = "28-31"
 
 [fields]
 kind = "none"
 +++
+
+When a character reaches the 20th level of a class, she gains a powerful class feature or ability,
+sometimes referred to as a capstone. The following section provides new capstones for characters to
+select at 20th level. A character can select one of the following capstones in place of the capstone
+provided by her class. Some capstones are for specific classes, while others are for a range of
+classes that qualify for them.
+
+In some cases, a capstone specifies what ability it replaces. A character can't select a new
+capstone if she has previously traded away her class capstone via an archetype. Clerics and wizards
+can receive a capstone at 20th level, despite not having one to begin with.
+
+### Other Capstones {#other-capstones}
+
+The following capstone abilities are for characters who meet the specifications listed in the text
+for each.
 
 **Arch-Familiar (Su):** At 20th level, the character's [familiar](ref/sidekick/familiar) is smarter
 and savvier than plenty of adventurers—and also more dangerous! The familiar's Intelligence

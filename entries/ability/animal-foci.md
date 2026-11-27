@@ -8,7 +8,7 @@ provenance = [
 ]
 [[sources]]
 publication = "advanced-class-guide"
-page = "27"
+page = "27-28"
 
 [fields]
 kind = "none"
@@ -31,8 +31,6 @@ If the hunter's animal companion is dead, the hunter can apply her companion's a
 herself instead of her animal companion. This is in addition to the normal one she can choose, and
 (as with a companion's focus) remains in effect until the hunter changes it instead of counting
 against her minutes per day.
-
-### Animal Foci
 
 **Bat:** The creature gains [darkvision](ref/rule/darkvision) to a range of 60 feet. At 8th level,
 the range increases by 30 feet. At 15th level, the creature also gains

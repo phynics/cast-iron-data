@@ -51,8 +51,6 @@ grants her additional attacks of opportunity, she can use them to respond to mul
 of opportunity with her own attacks. This deed replaces the swashbuckler's grace deed and one other
 7th-level deed.
 
-### 11-Level Renowned Deed
-
 **Vengeful Soul (Ex):** Sometimes vengeance can take years or even decades, forcing the aggrieved
 swashbuckler to push the limits of her endurance. At 11th level, the swashbuckler gains the
 [samurai's](ref/class/samurai) greater resolve class feature. At 19th level, the swashbuckler gains

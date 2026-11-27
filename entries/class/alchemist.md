@@ -97,6 +97,10 @@ most adventuring groups.
 |19th|+14/+9/+4|+11|+11|+6|Bomb 10d6|5|5|5|5|5|4|
 |20th|+15/+10/+5|+12|+12|+6|Grand discovery|5|5|5|5|5|5|
 
+### Class Features {#class-features}
+
+The following are class features of the alchemist.
+
 #### Weapon and Armor Proficiency {#weapon-and-armor-proficiencies}
 
 Alchemists are proficient with all simple weapons and bombs. They are also proficient with light

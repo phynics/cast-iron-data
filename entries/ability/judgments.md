@@ -8,11 +8,22 @@ provenance = [
 ]
 [[sources]]
 publication = "advanced-players-guide"
-page = "39"
+page = "38-39"
 
 [fields]
 kind = "none"
 +++
+
+Starting at 1st level, an inquisitor can pronounce judgment upon her foes as a swift action.
+Starting when the judgment is made, the inquisitor receives a bonus or special ability based on the
+type of judgment made.
+
+At 1st level, an inquisitor can use this ability once per day. At 4th level and every three levels
+thereafter, the inquisitor can use this ability one additional time per day. Once activated, this
+ability lasts until the combat ends, at which point all of the bonuses immediately end. The
+inquisitor must participate in the combat to gain these bonuses. If she is frightened, panicked,
+paralyzed, stunned, unconscious, or otherwise prevented from participating in the combat, the
+ability does not end, but the bonuses do not resume until she can participate in the combat again.
 
 When the inquisitor uses this ability, she must select one type of judgment to make. As a swift
 action, she can change this judgment to another type. If the inquisitor is evil, she receives
@@ -50,7 +61,7 @@ on all saving throws. This bonus increases by +1 for every five inquisitor level
 At 10th level, this DR changes from magic to an alignment (chaotic, evil, good, or lawful) that is
 opposite the inquisitor's. If she is neutral, the inquisitor does not receive this increase.
 
-**Resistance:** The inquisitor is shielded by a f lickering aura, gaining 2 points of energy
+**Resistance:** The inquisitor is shielded by a flickering aura, gaining 2 points of energy
 [resistance](ref/umr/resistance) against one energy type (acid, cold, electricity, fire, or sonic)
 chosen when the judgment is declared. The protection increases by 2 for every three inquisitor
 levels she possesses.

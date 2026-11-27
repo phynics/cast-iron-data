@@ -691,6 +691,11 @@ def finish_text(s: str, vocab: set[str]) -> str:
     return s
 
 
+# Words that print sets with a ligature and that the book's own word list may hold only in the broken form ("f lickering", Advanced Player's Guide p. 39,
+# where the word list has the fragment "lickering" and no "flickering"): the join is made without the word list.
+LIGATURE_WORDS = {"flickering", "flicker", "flickers", "flickered"}
+
+
 def fix_ligatures(s: str, vocab: set[str]) -> str:
     """`f ighter`, `inf lict`: the fi and fl ligatures leave a blank that a word does not have. A pair that does not join ("of inf") does not
     hide the next one that starts inside it ("inf luence")."""
@@ -702,7 +707,7 @@ def fix_ligatures(s: str, vocab: set[str]) -> str:
             out.append(s[i:])
             return "".join(out)
         a, b = m.group(1), m.group(2)
-        if (a + b).lower() in vocab:
+        if (a + b).lower() in vocab or (a + b).lower() in LIGATURE_WORDS:
             out += [s[i:m.start()], a + b]
             i = m.end()
         else:
@@ -7026,6 +7031,7 @@ def self_test() -> int:
     kinds2 = [(b.kind, b.size) for b in read_blocks(two, 1, 1)]
     SMALL_CAP_TITLES["on"] = False
     eq(kinds2, [("title", 36), ("title", 27), ("para", 0)], "a title of another size is a title of its own")
+    eq(fix_ligatures("shielded by a f lickering aura", set()), "shielded by a flickering aura", "a ligature word that the book's word list lacks is joined (Judgment: Resistance)")
     eq(fix_ligatures("he gains 1 point of inf luence over him and f ighter", {"influence", "fighter"}), "he gains 1 point of influence over him and fighter",
        "a ligature pair after a word that ends in f")
     # review of #338: the class table of the ranger writes "1st favored enemy"; a lead after an opening sentence; "of 20th level"; a choice from what follows

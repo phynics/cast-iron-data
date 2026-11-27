@@ -8,7 +8,7 @@ provenance = [
 ]
 [[sources]]
 publication = "chronicle-of-legends"
-page = "4"
+page = "4-5"
 
 [fields]
 kind = "none"

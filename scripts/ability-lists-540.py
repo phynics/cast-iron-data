@@ -61,13 +61,19 @@ IN_CLASS_TABLE: dict[str, str] = {"judgments": "ref/class/inquisitor", "animal-f
 # Lists whose items print heads with a difficulty class ("Aid (DC 20):"): the "(DC 20)" is a suffix of the head, not of the name.
 DC_LISTS = {"companion-tricks"}
 DC_HEAD = re.compile(r"\s*\((DC \d+)\)\s*$")
-# Items that print sets in the list's section and that other entries hold (the other tricks of the page are in `animal-tricks`): left out of the written list.
+# Items that print sets in the list's section and that other entries hold: left out of the written list. `ELSEWHERE_COUNT` is the number of printed heads that the
+# review found there: the inventory check holds the list when print has more or fewer heads left out.
 ELSEWHERE: dict[str, str] = {
-    "companion-tricks": "the tricks that the import does not list here are in `animal-tricks`",
     "capstones": "the capstones of the classes are the `### Alternate Capstones` sections of the class entries",
     "gunslinger-renowned-deeds": "the standards and deeds printed on the same pages belong to other entries (the Cavalier's battle standards, the swashbuckler's deeds)",
     "swashbuckler-renowned-deeds": "the gunslinger's deeds printed at the head of the page belong to the gunslinger's list",
     "animal-foci": "the feature heads of the Hunter's chapter printed on the same pages belong to the class entry"}
+ELSEWHERE_COUNT: dict[str, int] = {"capstones": 38}          # the class-specific capstones of Chronicle of Legends pp. 28-30: each is in its class entry
+# Lists whose printed items that the import lacks are written from print (the import has 16 of the 31 tricks of Ultimate Wilderness pp. 214-217; no entry of the
+# corpus holds the others as items of their own, `animal-tricks` is one list of the Core Rulebook's version).
+PRINT_ONLY = {"companion-tricks"}
+# The first printed page of a list's section when the cited page is not where it starts (the Judgment ability starts on the page before its list of judgments).
+PAGE_START: dict[str, int] = {"judgments": 38}
 # Titles inside a list's section that do not end it: a box that print sets in the middle of the list ("Pathfinder Notes") is left out; a heading of the section
 # stays a heading of the entry ("Arcanist Exploits", in the Exploits of the Outer Rifts).
 SKIP_TITLES: dict[str, set[str]] = {"capstones": {"pathfindernotes"}}
@@ -79,15 +85,25 @@ _DEEDS_OPENING = ("Swashbucklers and gunslingers perform impressive deeds throug
                   "deeds. A swashbuckler or gunslinger (though not members of other classes) can select a renowned deed for her class upon reaching the class level listed in "
                   "the deed's description. This replaces the specific listed deed or deeds; if the character would not gain the appropriate deeds, she cannot select the "
                   "renowned deed, as if selecting an archetype.")
+_CAPSTONES_OPENING = ("When a character reaches the 20th level of a class, she gains a powerful class feature or ability, sometimes referred to as a capstone. The following "
+                      "section provides new capstones for characters to select at 20th level. A character can select one of the following capstones in place of the capstone "
+                      "provided by her class. Some capstones are for specific classes, while others are for a range of classes that qualify for them.")
 OPENING_TYPED: dict[str, list[tuple[str, str]]] = {
+    # print sets "Other Capstones" and its sentence at the end of the last class-specific capstone (the text layer joins them); the class-specific capstones are in the
+    # class entries, so the heading "Class-Specific Capstones" and its sentence are not written here
+    "capstones": [("p", _CAPSTONES_OPENING),
+                  ("p", "In some cases, a capstone specifies what ability it replaces. A character can't select a new capstone if she has previously traded away her class "
+                        "capstone via an archetype. Clerics and wizards can receive a capstone at 20th level, despite not having one to begin with."),
+                  ("h", "Other Capstones"),
+                  ("p", "The following capstone abilities are for characters who meet the specifications listed in the text for each.")],
     "gunslinger-renowned-deeds": [("p", _DEEDS_OPENING), ("h", "Gunslinger Renowned Deeds"), ("p", "The following renowned deeds are available for gunslingers.")],
     "swashbuckler-renowned-deeds": [("p", _DEEDS_OPENING), ("h", "Swashbuckler Renowned Deeds"), ("p", "The following renowned deeds are available for swashbucklers.")],
 }
 # Headings of the import that print does not have (ruling 10): "1st-Level Renowned Deed" groups the deeds by the level that the import read in them.
 INVENTED_HEADINGS = {"gunslinger-renowned-deeds", "swashbuckler-renowned-deeds"}
-INVENTED_RE = re.compile(r"^#+ \d+(?:st|nd|rd|th)-Level Renowned Deed\s*$")
+INVENTED_RE = re.compile(r"^#+ \d+(?:st|nd|rd|th)?-Level Renowned Deed\s*$")
 # The head of a class feature that print sets over the opening of the list ("Animal Focus (Su): At 1st level ..."): the paragraph is the list's opening.
-OPENING_LEAD: dict[str, str] = {"animal-foci": "Animal Focus"}
+OPENING_LEAD: dict[str, str] = {"animal-foci": "Animal Focus", "judgments": "Judgment"}
 # A list that has no section title of its own: the printed text of its first block.
 FIRST_BLOCK: dict[str, str] = {"capstones": r"^Antipaladin\u2014Tip of the Spear", "gunslinger-renowned-deeds": r"^Thundering Shot", "swashbuckler-renowned-deeds": r"^Vengeful Heart"}
 # The text of another section that the text layer joins to the last paragraph of an item: (entry, anchor) -> where it starts.
@@ -100,6 +116,25 @@ EXTRA_PAGES: dict[str, int] = {"capstones": 3, "companion-tricks": 3, "judgments
 
 
 print_lost = co.print_lost                      # the print-coverage check of the class-option script (#373)
+
+
+# The pages that the printed section of a list covers (the page row of the first source): the page row names where the section is, from its title or opening to its last item.
+PAGE_ROWS: dict[str, str] = {
+    "advanced-versatile-performances": "12-13", "animal-foci": "27-28", "annointings": "22-23", "bloodline-mutations": "10-11", "capstones": "28-31",
+    "companion-tricks": "214-217", "gunslinger-renowned-deeds": "4-5", "judgments": "38-39", "outer-rifts-exploits": "6-7"}
+# The title of the entry when the import's is a misspelling of print's (the section is "Anointings" in print).
+TITLE_ROWS: dict[str, str] = {"annointings": "Anointings"}
+
+
+def fixed_front(e) -> str:
+    """The front matter with the page row of the list's section and the corrected title."""
+    front = e.front
+    key = e.id.rsplit("/", 1)[1]
+    if key in PAGE_ROWS:
+        front = re.sub(r'^page = "[^"]*"', f'page = "{PAGE_ROWS[key]}"', front, count=1, flags=re.M)
+    if key in TITLE_ROWS:
+        front = re.sub(r'^title = "[^"]*"', f'title = "{TITLE_ROWS[key]}"', front, count=1, flags=re.M)
+    return front
 
 
 def load_lists(corpus: Path, ids: list[str] | None = None) -> list:
@@ -115,6 +150,7 @@ def first_page(page: str) -> int | None:
 CORPUS_DIR: list[Path] = [HERE.parent]
 CONTEXT_TEXT: dict[str, str] = {}              # entry -> the squashed text of the cited pages and the one before (the typed openings are checked against it)
 DC_OF: dict[tuple[str, str], str] = {}        # (entry, namekey of the head) -> "DC 20"
+TRAILING: dict[str, list[str]] = {}           # entry -> the printed heads that follow the last known item inside the titles of the section (an item that the entry lacks, at the end)
 
 
 def corpus_dir() -> Path:
@@ -149,7 +185,7 @@ def section_for(e, bk, names: set[str] | None = None) -> tuple[list, list[str]]:
     if page is None:
         return [], ["no page is cited"]
     nums = [int(x) for x in re.findall(r"\d+", e.page)]
-    lo, hi = min(nums), max(nums) + 1 + EXTRA_PAGES.get(e.id.rsplit("/", 1)[1], 0)       # the printed pages that the entry cites and the next one
+    lo, hi = min(nums + [PAGE_START.get(e.id.rsplit("/", 1)[1], min(nums))]), max(nums) + 1 + EXTRA_PAGES.get(e.id.rsplit("/", 1)[1], 0)       # the printed pages that the entry cites and the next one
     blocks = [b for b in fp.read_blocks(bk, max(1, lo - 2), min(hi + 4 + fp.PAGE_OFFSET[0], max(bk.pages))) if lo <= b.page <= hi]       # by the printed label of the block
     if e.id.rsplit("/", 1)[1] in IN_CLASS_TABLE:
         blocks = table_clean(blocks, cl.table_tail((corpus_dir() / "entries" / (IN_CLASS_TABLE[e.id.rsplit("/", 1)[1]].removeprefix("ref/") + ".md")).read_text(encoding="utf-8")))
@@ -188,6 +224,7 @@ def section_for(e, bk, names: set[str] | None = None) -> tuple[list, list[str]]:
         stop = items[-1] + 1
         while stop < len(inside) and inside[stop].kind == "para" and fp.head_candidate(inside[stop]) is None:
             stop += 1
+        TRAILING[e.id] = [fp.ABILITY_TAG.sub("", hc[0]).strip() for b in inside[stop:] if b.kind == "para" and (hc := fp.head_candidate(b)) and hc[2]]
         inside = inside[:stop]
     lead = OPENING_LEAD.get(e.id.rsplit("/", 1)[1])
     if lead:
@@ -301,11 +338,20 @@ def compare_list(corpus: Path, e, bk, decisions: dict, loader=None) -> dict:
                 r["notes"] = [n for n in r["notes"] if not n.startswith("dropped table")] + ["ruling 62: the table of the corpus is print's rows, cell by cell: kept as a table"]
                 if r["status"] == "hold" and only_table:
                     r["status"] = "print"
+    key = e.id.rsplit("/", 1)[1]
+    if key in PRINT_ONLY:
+        for r in rows:
+            if not r["span"] and r.get("print", "").strip():
+                r["extra"] = True                                           # a printed item that the import lacks: written from print
+                r["notes"].append("added from print: the import has no row for it")
+                if r["status"] == "hold" and not (r["notes"] and r["notes"][0].startswith("head not printed")):
+                    r["status"] = "print"
     probe = {fp.namekey(h) for h in [fp.head_of_para(p) for p in section[1:]] if h}
     _, feats = fp.parse_import(e.body, probe)
-    key = e.id.rsplit("/", 1)[1]
+    elsewhere: list[str] = []
     if key in ELSEWHERE:
         gone = {fp.squash(fp.ABILITY_TAG.sub("", r["head"])) for r in rows if not r["span"]}
+        elsewhere = [r["head"] for r in rows if not r["span"]]
         rows = [r for r in rows if r["span"]]
         kept, skipping = [section[0]], False
         for p in section[1:]:
@@ -334,12 +380,12 @@ def compare_list(corpus: Path, e, bk, decisions: dict, loader=None) -> dict:
     if unresolved:
         problems.append("head not printed: " + ", ".join(unresolved))
     return {"key": key, "rows": rows, "opening": res.get("opening", []), "opening_links": res.get("opening_links", []), "problems": notes + problems, "section": section,
-            "feats": feats}
+            "feats": feats, "elsewhere": elsewhere}
 
 
 def settled(plan: dict) -> bool:
     rows = plan["rows"]
-    return bool(rows) and not plan["problems"] and all(r["status"] in ("print", "draft") and (r["span"] or is_heading_row(plan, r)) for r in rows) and not any(f.pseudo for f in plan["feats"])
+    return bool(rows) and not plan["problems"] and all(r["status"] in ("print", "draft") and (r["span"] or r.get("extra") or is_heading_row(plan, r)) for r in rows) and not any(f.pseudo for f in plan["feats"])
 
 
 def is_heading_row(plan: dict, r: dict) -> bool:
@@ -374,20 +420,115 @@ def converted_body(e, plan: dict) -> str:
         para, lost = fp.apply_links(para, links)                         # the links of the import's opening, each placed once
         links = [l for l in links if l[0] in lost]
         out.append(para)
+    printed_titles = {fp.squash(p.plain()) for p in plan["section"][1:] if p.kind == "title"} | {fp.squash(x) for x in HEADING_TITLES.get(plan["key"], set())}
+    typed_heads = {fp.squash(text) for kind, text in (typed or []) if kind == "h"}
+
     def keep_heading(b):
-        return b and b[0].startswith("#") and not (plan["key"] in INVENTED_HEADINGS and INVENTED_RE.match(b[0]))
+        """A heading of the import stays only when print has it (ruling 10); one that the typed opening sets again is not written twice."""
+        if not (b and b[0].startswith("#")) or (plan["key"] in INVENTED_HEADINGS and INVENTED_RE.match(b[0])):
+            return False
+        title = fp.squash(re.sub(r"^#+\s*|\s*\{#[^}]*\}\s*$", "", b[0]))
+        return title in printed_titles and title not in typed_heads
     out += ["\n".join(b) for b in opening_imp if keep_heading(b)]
     by_feat = {f.span_sha(): f for f in feats}
     for r in plan["rows"]:
         if r.get("drop"):
             continue
-        if r["span"]:
+        if r.get("extra"):
+            out += item_paragraphs(r, DC_OF.get((e.id, fp.namekey(r["head"])), ""), "")
+        elif r["span"]:
             src = f"{fp.publication_title(CORPUS_DIR[0], r['source'][0])} page {r['source'][1]}" if r.get("source") else ""
             out += item_paragraphs(r, DC_OF.get((e.id, fp.namekey(r["head"])), ""), src)
             out += ["\n".join(b) for b in by_feat[r["span"]].raw[1:] if keep_heading(b)]
         elif is_heading_row(plan, r):
             out.append(f"### {r['head'].strip()} {{#{fp.slugify(r['head'])}}}")
     return "\n\n".join(out) + "\n"
+
+
+def entry_heads(body: str) -> list[str]:
+    """The heads of the written items: the bold run-in labels at the start of a paragraph, without their "(DC n)" and "(Book page n)"."""
+    heads = re.findall(r"^\*\*([^*\n]{2,80}?):\*\*", body, re.M)
+    return [re.sub(r"\s*\((?:DC \d+|[^()]* page \d+)\)", "", h) for h in heads]
+
+
+# Printed heads after the last item of a list that are no items of it: the next features of a class chapter (the lists that print sets inside one), or other sections.
+TRAILING_OK = {"judgments", "animal-foci", "capstones", "gunslinger-renowned-deeds", "swashbuckler-renowned-deeds", "outer-rifts-exploits", "advanced-weapon-training"}
+
+
+def head_problems(printed: list[str], entry: list[str], elsewhere: int, trailing: list[str]) -> list[str]:
+    """The heads of the printed section against the items of the entry: each printed head has an item (but as many as `elsewhere`), each item has a printed head, and
+    no printed head follows the last item."""
+    names = {fp.squash(fp.ABILITY_TAG.sub("", h)) for h in entry}
+    printed_keys = {fp.squash(fp.ABILITY_TAG.sub("", h)) for h in printed}
+    problems = []
+    absent = [h for h in printed if fp.squash(fp.ABILITY_TAG.sub("", h)) not in names]
+    if len(absent) != elsewhere:
+        problems.append(f"{len(absent)} printed heads have no item in the entry, {elsewhere} are expected elsewhere: " + ", ".join(absent))
+    invented = [h for h in entry if fp.squash(fp.ABILITY_TAG.sub("", h)) not in printed_keys]
+    if invented:
+        problems.append("items of the entry that the printed section lacks: " + ", ".join(invented[:10]))
+    if trailing:
+        problems.append("printed heads after the last item of the section: " + ", ".join(trailing[:10]))
+    return problems
+
+
+def printed_opening(e, bk, names: set[str]) -> str:
+    """The printed paragraphs over the first item of the list, read from the page before the cited ones too (the section of a list can start on an earlier page than
+    the one that the row cites): back from the first item over the paragraphs without a head of their own, up to a title or the head of another feature; the head of
+    the lead feature (`OPENING_LEAD`) gives its text to the opening."""
+    key = e.id.rsplit("/", 1)[1]
+    if key in OPENING_TYPED:
+        return ""
+    nums = [int(x) for x in re.findall(r"\d+", e.page)] or [0]
+    lo, hi = min(nums + [PAGE_START.get(key, min(nums))]), max(nums) + 1 + EXTRA_PAGES.get(key, 0)
+    blocks = [b for b in fp.read_blocks(bk, max(1, lo - 3), min(hi + 4 + fp.PAGE_OFFSET[0], max(bk.pages))) if lo - 1 <= b.page <= hi]
+    if key in IN_CLASS_TABLE:
+        blocks = table_clean(blocks, cl.table_tail((corpus_dir() / "entries" / (IN_CLASS_TABLE[key].removeprefix("ref/") + ".md")).read_text(encoding="utf-8")))
+    first = next((n for n, b in enumerate(blocks) if b.kind == "para" and (hc := fp.head_candidate(b)) and fp.squash(fp.ABILITY_TAG.sub("", re.sub(DC_HEAD, "", hc[0]))) in names), None)
+    if first is None:
+        return ""
+    out: list[str] = []
+    n = first - 1
+    while n >= 0 and blocks[n].kind == "para":
+        hc = fp.head_candidate(blocks[n])
+        if hc and hc[2]:
+            lead = OPENING_LEAD.get(key)
+            if lead and fp.squash(fp.ABILITY_TAG.sub("", hc[0])) == fp.squash(lead):
+                out.insert(0, " ".join("".join(x[0] for x in hc[1]).lstrip(": ").split()))
+            break
+        out.insert(0, " ".join(blocks[n].plain().split()))
+        n -= 1
+    return " ".join(out)
+
+
+def inventory(e, bk, body: str) -> list[str]:
+    """The check that every printed item head and the opening of the list are in the entry (review of #379, 2026-11-27): the heads of the printed section that the
+    entry has no item for must be as many as the review found elsewhere (`ELSEWHERE_COUNT`); the entry has no item that print lacks; the printed heads after the last
+    item are no more items; the paragraphs over the first printed item stand in the opening of the entry."""
+    key = e.id.rsplit("/", 1)[1]
+    names = {fp.squash(fp.ABILITY_TAG.sub("", h)) for h in entry_heads(body)}
+    section, notes = section_for(e, bk, names)
+    if not section:
+        return [f"no section found ({'; '.join(notes)})"]
+    problems: list[str] = []
+    printed = []
+    for p in section[1:]:
+        hc = fp.head_candidate(p) if p.kind == "para" else None
+        if hc:
+            printed.append(re.sub(DC_HEAD, "", fp.ABILITY_TAG.sub("", hc[0])).strip())
+    problems += head_problems(printed, entry_heads(body), ELSEWHERE_COUNT.get(key, 0), [] if key in TRAILING_OK else TRAILING.get(e.id, []))
+    for kind, text in OPENING_TYPED.get(key, []):
+        if kind == "p" and fp.squash(text) not in fp.squash(body):
+            problems.append(f"the typed opening is not in the entry: {text[:60]}...")
+        if kind == "p" and fp.squash(text) not in CONTEXT_TEXT.get(e.id, ""):
+            problems.append(f"the typed opening is not on the cited pages: {text[:60]}...")
+    opening = printed_opening(e, bk, names)
+    if opening:
+        before = body.split("\n**", 1)[0] if "\n**" in body else body
+        lost = print_lost(opening, before)
+        if lost:
+            problems.append(f"the opening over the first item lacks {len(lost)} printed sentences: " + " | ".join(x[:80] for x in lost[:3]))
+    return problems
 
 
 def coverage(plan: dict, new_body: str) -> list[str]:
@@ -415,6 +556,9 @@ def run_compare(args) -> int:
     total, written = Counter(), 0
     decisions = read_decisions(corpus)
     for e in load_lists(corpus, ids):
+        if co.shape_of(e.body)[0] == "none":
+            print(f"{e.id}: written already (a bold-lead item is no import row): skipped; `--audit` checks it against print")
+            continue                                                  # a rerun is a no-op: the writer reads import rows, never its own paragraphs
         fp.configure_book(e.book)
         if e.book not in books:
             pdf = fp.find_pdf(Path(args.books), fp.publication_title(corpus, e.book))
@@ -435,6 +579,9 @@ def run_compare(args) -> int:
         plan["opening_imp"] = fp.parse_import(e.body, set())[0]
         c = Counter(r["status"] for r in plan["rows"])
         total.update(c)
+        pages = sorted({b.page for b in plan["section"][1:] if isinstance(b.page, int)})
+        if pages:
+            print(f"    printed pages of the section: {pages[0]}-{pages[-1]} (row: {e.page})")
         print(f"{e.id} ({e.book} p. {e.page}): section {len(plan['section'])} blocks; " + ", ".join(f"{k} {v}" for k, v in sorted(c.items())) + "; problems: " + "; ".join(plan["problems"])[:200])
         for r in plan["rows"]:
             if r["status"] == "hold":
@@ -442,10 +589,15 @@ def run_compare(args) -> int:
         if settled(plan):
             new = converted_body(e, plan)
             lost = coverage(plan, new)
-            if lost:
+            inv = inventory(e, bk, new)
+            fp.configure_book(e.book)
+            if inv:
+                print("    held by the inventory check: " + " | ".join(x[:200] for x in inv))
+                lost = lost or ["inventory"]
+            elif lost:
                 print(f"    held by the coverage check ({len(lost)}): " + " | ".join(x[:70] for x in lost[:3]))
             elif args.write:
-                co.write_atomic(e.path, "+++\n" + e.front.strip("\n") + "\n+++\n\n" + new)
+                co.write_atomic(e.path, "+++\n" + fixed_front(e).strip("\n") + "\n+++\n\n" + new)
                 written += 1
                 print("    written")
     print("total: " + ", ".join(f"{k} {v}" for k, v in sorted(total.items())) + (f"; {written} lists written" if args.write else ""))
@@ -486,6 +638,12 @@ def run_audit(args) -> int:
                 kept.append(p)
         plan = {"key": key, "section": [section[0]] + kept}
         lost = coverage(plan, e.body)
+        inv = inventory(e, books[e.book], e.body)
+        if inv:
+            held += 1
+            print(f"{e.id} ({e.book} p. {e.page}): the inventory of heads and opening is not met")
+            for x in inv:
+                print("    " + x[:4000])
         if lost:
             held += 1
             print(f"{e.id} ({e.book} p. {e.page}): {len(lost)} printed sentences that the entry lacks")
@@ -525,7 +683,17 @@ def self_test() -> int:
     eq([b.plain() for b in cleaned], ["Smiting: ends for the purpose of overcoming (but not hardness)."], "the class table that the text layer runs into a list is cut, the sentence it broke is joined")
     rows = [{"anchor": "a", "status": "hold", "notes": ["head not printed"], "span": "s", "head": "A", "print": ""}]
     eq(resolve_missing(Path("."), type("E", (), {"id": "ref/ability/x", "data": {}})(), rows, {("ref/ability/x", "a"): ("drop", "an import copy")}, None)[0]["drop"], True, "an item that no owner book prints goes by a drop decision (ruling 10)")
-    eq(sorted(OPENING_TYPED), sorted(INVENTED_HEADINGS), "the two renowned-deed lists have a typed opening and drop the import's level headings")
+    eq(sorted(set(OPENING_TYPED) - {"capstones"}), sorted(INVENTED_HEADINGS), "the two renowned-deed lists have a typed opening and drop the import's level headings")
+    eq(head_problems(["Aid", "Bombard", "Cocoon"], ["Aid", "Cocoon"], 0, []), ["1 printed heads have no item in the entry, 0 are expected elsewhere: Bombard"],
+       "a printed head without an item holds the list (the 15 missing tricks of Companion Tricks)")
+    eq(head_problems(["Aid", "Bombard"], ["Aid"], 1, []), [], "a printed head that another entry holds is counted by the review, not found by the check")
+    eq(head_problems(["Aid"], ["Aid", "Fetch"], 0, []), ["items of the entry that the printed section lacks: Fetch"], "an item that print lacks holds the list")
+    eq(head_problems(["Aid"], ["Aid"], 0, ["Watch"]), ["printed heads after the last item of the section: Watch"], "a printed head after the last item holds the list")
+    eq(head_problems(["Aid (Su)"], ["Aid"], 0, []), [], "a tag of the ability is no part of the name")
+    eq(entry_heads("**Aid (DC 20):** x\n\n**Warrior Spirit (Su) (Magic Tactics Toolbox page 10):** y\n\nplain: no"), ["Aid", "Warrior Spirit (Su)"], "the heads of the written items")
+    eq(co.shape_of("+++\n+++\n\n**Aid (DC 20):** The animal helps.\n\n**Fetch (DC 15):** It fetches.\n")[0], "none", "a written list has no import row: a rerun skips it")
+    eq(INVENTED_RE.match("### 11-Level Renowned Deed") is not None and INVENTED_RE.match("### 1st-Level Renowned Deed") is not None, True, "the import's level headings go with or without an ordinal suffix")
+    eq(INVENTED_RE.match("### Gunslinger Renowned Deeds") is None, True, "the printed heading stays")
     eq(first_page("14-15"), 14, "the first of the cited pages")
     eq(first_page(""), None, "no page")
     for line in bad:

@@ -8,7 +8,7 @@ provenance = [
 ]
 [[sources]]
 publication = "ultimate-wilderness"
-page = "214"
+page = "214-217"
 
 [fields]
 kind = "none"
@@ -18,6 +18,23 @@ Animals can be trained to perform tricks, as detailed in the rules for Handle An
 RPG Core Rulebook_ 97). The following new tricks are presented in alphabetical order. Note that
 while the word "animal" is often used in the following descriptions, these tricks can be taught to
 any companion that can be trained.
+
+**Aid (DC 20):** The animal can use the aid another action to aid a specific ally in combat by
+attacking a specific foe the ally is fighting. You point to a particular creature that you wish the
+animal to aid, and you point to another that you want it to make an attack roll against, and it will
+comply if able. The normal creature type restrictions governing the attack trick still apply.
+
+**Bombard (DC 20):** A flying animal can deliver projectiles on command, attempting to drop a
+specified item that it can carry (often alchemist's fire or a similar splash weapon) on a designated
+point or opponent, using its base attack bonus to determine its attack roll. The animal cannot throw
+the object, and it must be able to fly directly over the target.
+
+**Break Out (DC 20):** On command, the animal attempts to break or gnaw through bars or bindings
+restricting it, its handler, or a person indicated by the handler. If the animal cannot break the
+restraints by itself, its attempts grant the restricted creature a +4 circumstance bonus on Escape
+Artist checks. Furthermore, the animal can take certain basic actions such as lifting a latch or
+bringing its master an unattended key. Weight and Strength restrictions still apply, and
+pickpocketing a key or picking any sort of lock is still far beyond the animal's ability.
 
 **Build Simple Structure (DC 25):** The companion can build simple structures on command, limited by
 its natural abilities and inclinations. The companion is able to build only structures that
@@ -29,6 +46,10 @@ nest, and any burrowing creature a small tunnel or hole. In general, this proces
 for each 5-foot square the structure occupies, but depending on the terrain and the type of
 structure, it might take as little as 1 minute or as much as 1 hour or more, at the GM's discretion.
 Only companions that naturally build structures can learn this trick.
+
+**Bury (DC 15):** An animal with this trick can be instructed to bury an object in its possession.
+The animal normally seeks a secluded place to bury its object. An animal that knows both the bury
+and fetch tricks can be instructed to fetch an item it has buried.
 
 **Cocoon (DC 15):** The companion can cocoon an object or a helpless or willing Huge or smaller
 creature in webbing. The amount of time this takes depends on the size of the creature or object to
@@ -47,15 +68,60 @@ check or combat maneuver check as a full-round action to escape (DC = 20 + the c
 Alternatively, a DC 25 Strength check can break the cocoon. The companion must know the spin silk
 trick before it can learn this trick.
 
+**Deliver (DC 15):** The animal takes an object (one you or an ally gives it, or one that it
+recovers with the fetch trick) to a place or person you indicate. If you indicate a place, the
+animal drops the item and returns to you. If you indicate a person, the animal stays adjacent to the
+person until the item is taken. (Retrieving an item from an animal using the deliver trick is a move
+action.)
+
 **Demolish (DC 15):** The companion can be commanded to attack and damage objects and structures. A
 companion must know the attack trick before it can be taught the demolish trick, and the companion
 must be trained to attack creatures of all types. The companion's handler can direct it either to
 make natural attacks against the object in question or to make a Strength check to attempt to break
 it (if applicable).
 
+**Detect (DC 25):** The animal is trained to seek out the smells of air currents, alchemical items
+and poisons, unusual noises or echoes, and other common elements that signify the presence of
+potential dangers or secret passages. When commanded, the animal uses its Perception skill to try to
+pinpoint the source of anything that strikes it as out of the ordinary about a room or location.
+Note that because the animal is not intelligent, any number of doors, scents, strange mechanisms, or
+unfamiliar objects might catch the animal's attention, and it cannot attempt the same Perception
+check more than once in this way.
+
+**Entertain (DC 25):** The animal can dance, sing, or perform some other impressive and enjoyable
+trick to entertain those around it. At the command of its owner, the animal can attempt a Perform
+check (or a Charisma check if it has no ranks in Perform) to show off its talent. Willing onlookers
+or those who fail an opposed Sense Motive check take a -2 penalty on Perception checks to notice
+anything but the animal entertaining them. Once an onlooker observes an animal's entertain trick,
+that creature cannot be distracted in this way by the same animal for 24 hours. Tricksters and con
+artists often teach their animals to perform this trick while they pickpocket viewers or sneak about
+unnoticed.
+
 **Feint (DC 20):** The companion is trained to [feint](ref/rule/feint) against opponents. A
 companion must know the attack trick before it can be taught the feint trick, and it performs feints
 only against targets it would normally attack.
+
+**Fetch (DC 15):** The animal goes and gets something. If you do not point out a specific item, the
+animal fetches a random object.
+
+**Flank (DC 20):** You can instruct an animal to attack a foe you point to and to always attempt to
+be adjacent to (and threatening) that foe. If you or an ally is also threatening the foe, the animal
+attempts to flank the foe, if possible. While animals following the attack trick will flank when
+convenient, this trick instructs them to flank even if doing so denies it a full attack or puts the
+animal companion at an inconvenience or at risk, such as from attacks of opportunity, dangerous
+positioning, or difficult terrain. The animal must know the attack trick before it can learn this
+trick, and it performs it only against foes it would normally attack.
+
+**Flee (DC 20):** The animal attempts to run away or hide as best it can, returning only when its
+handler commands it to do so. Until such a command is received, the animal does its best to track
+its handler and any accompanying creatures, remaining hidden but within range of its sight or
+hearing. This trick is particularly useful for adventurers and thieves in that it allows the animal
+to evade capture, and then return later to help free its friends.
+
+**Get Help (DC 20):** With this trick, a trainer can designate a number of creatures up to the
+animal's Intelligence score as "help." When the command is given, the animal attempts to find one of
+those creatures and bring it back to the handler, even if that means journeying a long distance to
+the last place it encountered the target creature.
 
 **Guide (DC 15):** The companion can serve as a guide to a character that is blinded or otherwise
 unable to see. While serving as a guide, the companion remains adjacent to the guided creature at
@@ -71,6 +137,13 @@ creatures. The companion can serve as a guide only as long as it is able to see 
 its ability to detect and avoid creatures and obstacles is limited by what it is able to perceive
 normally.
 
+**Hunt (DC 20):** This trick allows an animal to use its natural stalking or foraging instincts to
+find food and return it to the animal's handler. An animal with this trick can attempt Survival
+checks (or Wisdom checks, if the animal has no ranks in Survival) to provide food for others or lead
+them to water and shelter (as the "get along in the wild" use of the Survival skill). An animal with
+this trick can use the aid another action to grant a bonus on its handlers Survival checks for these
+purposes.
+
 **Intimidate (DC 15):** The companion bares its teeth, barks, bristles, growls, or otherwise
 threatens a creature you designate, or, alternatively, it can be trained to do so when it encounters
 any creature besides its handler. The companion takes a -4 penalty on
@@ -79,6 +152,14 @@ humanoid types unless it has also been trained to attack creatures of any type. 
 knows this trick automatically uses the [aid another](ref/rule/aid-another) action to assist
 Intimidate checks attempted by its handler, provided that it is within 15 feet of its handler at the
 time and has not been ordered to perform another task.
+
+**Maneuver (DC 20):** The animal is trained to use a specific combat maneuver on command, even when
+it naturally wouldn't do so (animals typically use combat maneuvers only when using a monster
+ability to make a free combat maneuver, since otherwise it would provoke an attack of opportunity).
+An animal must know the attack trick before it can be taught the maneuver trick, and it performs
+maneuvers only against targets it would normally attack. This trick can be taught to an animal
+multiple times. Each time it is taught, the animal can be commanded to use a different combat
+maneuver.
 
 **Mark Territory (DC 25):** Whether by spraying musk, rubbing its back against trees and rocks, or
 simply howling loudly, the companion lets other nearby animals know that it has claimed an area. By
@@ -90,6 +171,11 @@ encounter doesn't actually occur, as creatures might be warded off by the markin
 must renew any territorial markings at least once per week, or they lose their effectiveness. There
 is also a 10% chance per week that the markings attract the attention of a powerful predator, which
 actively seeks out the companion to challenge it (and its master) for the territory.
+
+**Menace (DC 20):** A menacing animal attempts to keep a creature you indicate from moving. It does
+its best to dissuade the target, but it attacks only if the target attempts to move from its present
+location or take any significant action (particularly a hostile-seeming action). As soon as the
+target stops moving, the animal ceases attacking but it continues to menace.
 
 **Milk Venom (DC 20):** The companion can be coaxed into providing a single dose of venom on
 command. This process takes 10 minutes, and it requires a vial or similar container in which to
@@ -157,6 +243,9 @@ attempts. If the companion remains rooted for at least 1 hour, it absorbs enough
 to feed itself for a day. A separate command causes the companion to uproot itself as a full-round
 action. The companion can take root only in areas of soft soil. Only plant companions can learn this
 trick.
+
+**Watch (DC 15):** The animal can be commanded to keep watch over a particular area, such as a
+campsite, and to raise an alarm if it notices any dangerous or sizable creature entering the area.
 
 **Withhold Venom (DC 20):** The companion can be ordered to avoid injecting [poison](ref/umr/poison)
 into creatures it strikes with whatever natural attack would normally deliver venom. As long as the

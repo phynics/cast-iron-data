@@ -92,6 +92,10 @@ intrigue and can hold his own in even the most delicate of social situations.
 |19th|+19/+14/+9/+4|+11|+6|+6|Challenge 7/day|
 |20th|+20/+15/+10/+5|+12|+6|+6|Supreme charge|
 
+### Class Features {#class-features}
+
+The following are the class features of the cavalier.
+
 #### Weapon and Armor Proficiency {#weapon-and-armor-proficiencies}
 
 Cavaliers are proficient with all simple and martial weapons, with all types of armor (heavy, light,
