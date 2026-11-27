@@ -75,10 +75,7 @@ must be at least 9th level before selecting this evolution.'''
 [[entry]]
 id = "ref/evolution/claws"
 anchor = "claws"
-print = '''
-1-Point Evolutions: The following evolutions cost 1 point from the eidolon's evolution pool.
-
-An eidolon has a pair of vicious claws at the end of its [limbs](ref/evolution/limbs), giving it two [claw attacks](ref/umr/natural-attacks). These attacks are primary attacks. The claws deal 1d4 points of damage (1d6 if Large, 1d8 if Huge). The eidolon must have the limbs evolution to take this evolution. This evolution can only be applied to the limbs (legs) evolution once This evolution can be selected more than once, but the eidolon must possess an equal number of the limbs evolution.'''
+print = "An eidolon has a pair of vicious claws at the end of its [limbs](ref/evolution/limbs), giving it two [claw attacks](ref/umr/natural-attacks). These attacks are primary attacks. The claws deal 1d4 points of damage (1d6 if Large, 1d8 if Huge). The eidolon must have the [limbs](ref/evolution/limbs) evolution to take this evolution. This evolution can only be applied to the limbs (legs) evolution once This evolution can be selected more than once, but the eidolon must possess an equal number of the limbs evolution."
 
 [[entry]]
 id = "ref/evolution/climb"
@@ -190,18 +187,12 @@ This attack is a primary attack. The gore deals 1d6 points of damage (1d8 if Lar
 [[entry]]
 id = "ref/evolution/grab"
 anchor = "grab"
-print = '''
-2-Point Evolutions: The following evolutions cost 2 points from the eidolon's evolution pool.
-
-An eidolon becomes adept at grappling foes, gaining the [grab](ref/umr/grab) ability. Pick bite, claw, pincers, slam, tail slap, or tentacle attacks. Whenever the eidolon makes a successful attack of the selected type, it can attempt a free combat maneuver check. If successful, the eidolon [grapples](ref/rule/grapple) the target. This ability only works on creatures of a size one category smaller than the eidolon or smaller. Eidolons with this evolution receive a +4 bonus on CMB checks made to grapple.'''
+print = "An eidolon becomes adept at grappling foes, gaining the [grab](ref/umr/grab) ability. Pick bite, claw, pincers, slam, tail slap, or tentacle attacks. Whenever the eidolon makes a successful attack of the selected type, it can attempt a free combat maneuver check. If successful, the eidolon [grapples](ref/rule/grapple) the target. This ability only works on creatures of a size one category smaller than the eidolon or smaller. Eidolons with this evolution receive a +4 bonus on CMB checks made to grapple."
 
 [[entry]]
 id = "ref/evolution/immunity"
 anchor = "immunity"
-print = '''
-2-Point Evolutions: The following evolutions cost 2 points from the eidolon's evolution pool.
-
-An eidolon's body becomes extremely resilient to one energy type, gaining [immunity](ref/umr/immunity) to that type. Pick one energy type: acid, cold, electricity, fire, or sonic. The eidolon gains immunity to that energy type. This evolution can be selected more than once. Its effects do not stack. Each time it applies to a different energy type. The summoner must be at least 7th level before selecting this evolution.'''
+print = "An eidolon's body becomes extremely resilient to one energy type, gaining [immunity](ref/umr/immunity) to that type. Pick one energy type: acid, cold, electricity, fire, or sonic. The eidolon gains immunity to that energy type. This evolution can be selected more than once. Its effects do not stack. Each time it applies to a different energy type. The summoner must be at least 7th level before selecting this evolution."
 
 [[entry]]
 id = "ref/evolution/improved-damage"
@@ -217,17 +208,12 @@ applies to a different natural attack.'''
 [[entry]]
 id = "ref/evolution/improved-natural-armor"
 anchor = "improved-natural-armor"
-print = '''
-1-Point Evolutions: The following evolutions cost 1 point from the eidolon's evolution pool.
-
-An eidolon's hide grows thick fur, rigid scales, or bony plates, giving it a +2 bonus to its natural armor. This evolution can be taken once for every five levels the summoner possesses.'''
+print = "An eidolon's hide grows thick fur, rigid scales, or bony plates, giving it a +2 bonus to its natural armor. This evolution can be taken once for every five levels the summoner possesses."
 
 [[entry]]
 id = "ref/evolution/large"
 anchor = "large"
 print = '''
-4-Point Evolutions: The following evolutions cost 4 points from the eidolon's evolution pool.
-
 An eidolon grows in size, becoming Large. The eidolon gains a +8 bonus to Strength, a +4 bonus to Constitution, and a +2 bonus to its natural armor. It takes a -2 penalty to its Dexterity. This size change also gives the creature a -1 size penalty to its AC and on attack rolls, a +1 bonus to its CMB and CMD, a -2 penalty on Fly skill checks, and a -4 penalty on Stealth skill checks. If the eidolon has the biped base form, it also gains 10- foot [reach](ref/evolution/reach). Any reach evolutions the eidolon possesses are added to this total. The eidolon must be Medium to take this evolution. The summoner must be at least 8th level before selecting this evolution.
 
 If 6 additional evolution points are spent, the eidolon instead becomes Huge. The eidolon gains a +16 bonus to Strength, a +8 bonus to Constitution, and a +5 bonus to its natural armor. It takes a -4 penalty to its Dexterity. This size change also give the creature a -2 size penalty to its AC and attack rolls, a +2 bonus to its CMB and CMD, 10-foot reach, a -4 penalty on Fly skill checks, and a -8 penalty on Stealth skill checks. If the eidolon has the biped base form, its reach increases to 15 feet (10 feet for all other base forms). Any reach evolutions the eidolon possesses are added to this total. These bonuses and penalties replace, and do not stack with, those gained from becoming Large. The summoner must be at least 13th level before selecting this option.
@@ -262,26 +248,17 @@ for the purpose of overcoming [damage reduction](ref/rule/damage-reduction).'''
 [[entry]]
 id = "ref/evolution/mount"
 anchor = "mount"
-print = '''
-1-Point Evolutions: The following evolutions cost 1 point from the eidolon's evolution pool.
-
-An eidolon is properly skilled and formed to serve as a [combat-trained](ref/rule/mounted-combat) mount. The eidolon must be at least one size category larger than its rider. This evolution is only available to eidolons of the quadruped and serpentine base forms.'''
+print = "An eidolon is properly skilled and formed to serve as a [combat-trained](ref/rule/mounted-combat) mount. The eidolon must be at least one size category larger than its rider. This evolution is only available to eidolons of the quadruped and serpentine base forms."
 
 [[entry]]
 id = "ref/evolution/pincers"
 anchor = "pincers"
-print = '''
-1-Point Evolutions: The following evolutions cost 1 point from the eidolon's evolution pool.
-
-An eidolon grows a large pincers at the end of one pair of its [limbs](ref/evolution/limbs), giving it two pincer attacks. These attacks are secondary attacks. The pincers deal 1d6 points of damage (1d8 if Large, 2d6 if Huge). Eidolons with the [grab](ref/evolution/grab) evolution linked to pincers gain a +2 bonus on CMB checks made to grapple. The eidolon must have the limbs (arms) evolution to take this evolution. Alternatively, the eidolon can replace the [claws](ref/evolution/claws) from its base form with pincers (this still costs 1 evolution point). This evolution can be selected more than once, but the eidolon must possess an equal number of the limbs evolution.'''
+print = "An eidolon grows a large pincers at the end of one pair of its [limbs](ref/evolution/limbs), giving it two pincer attacks. These attacks are secondary attacks. The pincers deal 1d6 points of damage (1d8 if Large, 2d6 if Huge). Eidolons with the [grab](ref/evolution/grab) evolution linked to pincers gain a +2 bonus on CMB checks made to grapple. The eidolon must have the [limbs](ref/evolution/limbs) (arms) evolution to take this evolution. Alternatively, the eidolon can replace the [claws](ref/evolution/claws) from its base form with pincers (this still costs 1 evolution point). This evolution can be selected more than once, but the eidolon must possess an equal number of the limbs evolution."
 
 [[entry]]
 id = "ref/evolution/poison"
 anchor = "poison"
-print = '''
-2-Point Evolutions: The following evolutions cost 2 points from the eidolon's evolution pool.
-
-An eidolon secretes toxic venom, gaining a poison attack. Pick one bite or sting attack. Whenever the selected attack hits, the target is poisoned. Eidolon poison—_type_ poison (injury); _save_ Fort negates; _frequency_ 1/round for 4 rounds; _effect_ 1d4 Str damage; _cure_ 1 save. The save DC is equal to 10 + 1/2 the eidolon's HD + the eidolon's Constitution modifier. For 2 additional evolution points, this poison deals Constitution damage instead. This poison can be used no more than once per round. The summoner must be at least 7th level before selecting this evolution.'''
+print = "An eidolon secretes toxic venom, gaining a poison attack. Pick one bite or sting attack. Whenever the selected attack hits, the target is poisoned. Eidolon poison—_type_ poison (injury); _save_ Fort negates; _frequency_ 1/round for 4 rounds; _effect_ 1d4 Str damage; _cure_ 1 save. The save DC is equal to 10 + 1/2 the eidolon's HD + the eidolon's Constitution modifier. For 2 additional evolution points, this poison deals Constitution damage instead. This poison can be used no more than once per round. The summoner must be at least 7th level before selecting this evolution."
 
 [[entry]]
 id = "ref/evolution/pounce"
@@ -360,10 +337,7 @@ The summoner must be at least 6th level before selecting this evolution.'''
 [[entry]]
 id = "ref/evolution/resistance"
 anchor = "resistance"
-print = '''
-1-Point Evolutions: The following evolutions cost 1 point from the eidolon's evolution pool.
-
-An eidolon's form takes on a resiliency to one particular energy type, which is usually reflected in its physical body (ashen hide for fire, icy breath for cold, and so on). Pick one energy type (acid, cold, electricity, fire, or sonic). The eidolon gains [resist](ref/umr/resistance) 5 against that energy type. This resistance increases by 5 for every 5 levels the summoner possesses, to a maximum of 15 at 10th level. This evolution can be selected more than once. Its effects do not stack. Each time an eidolon selects this evolution, it applies to a different energy type.'''
+print = "An eidolon's form takes on a resiliency to one particular energy type, which is usually reflected in its physical body (ashen hide for fire, icy breath for cold, and so on). Pick one energy type (acid, cold, electricity, fire, or sonic). The eidolon gains [resist](ref/umr/resistance) 5 against that energy type. This resistance increases by 5 for every 5 levels the summoner possesses, to a maximum of 15 at 10th level. This evolution can be selected more than once. Its effects do not stack. Each time an eidolon selects this evolution, it applies to a different energy type."
 
 [[entry]]
 id = "ref/evolution/scent"
@@ -392,18 +366,12 @@ selects this evolution, it applies to a different skill.'''
 [[entry]]
 id = "ref/evolution/slam"
 anchor = "slam"
-print = '''
-1-Point Evolutions: The following evolutions cost 1 point from the eidolon's evolution pool.
-
-An eidolon can deliver a devastating [slam attack](ref/umr/natural-attacks). This attack is a primary attack. The slam deals 1d8 points of damage (2d6 if Large, 2d8 if Huge). The eidolon must have the [limbs](ref/evolution/limbs) (arms) evolution to take this evolution. Alternatively, the eidolon can replace the [claws](ref/evolution/claws) from its base form with this slam attack (this still costs 1 evolution point). This evolution can be selected more than once, but the eidolon must possess an equal number of the limbs evolution.'''
+print = "An eidolon can deliver a devastating [slam attack](ref/umr/natural-attacks). This attack is a primary attack. The slam deals 1d8 points of damage (2d6 if Large, 2d8 if Huge). The eidolon must have the [limbs](ref/evolution/limbs) (arms) evolution to take this evolution. Alternatively, the eidolon can replace the [claws](ref/evolution/claws) from its base form with this slam attack (this still costs 1 evolution point). This evolution can be selected more than once, but the eidolon must possess an equal number of the limbs evolution."
 
 [[entry]]
 id = "ref/evolution/spell-resistance"
 anchor = "spell-resistance"
-print = '''
-4-Point Evolutions: The following evolutions cost 4 points from the eidolon's evolution pool.
-
-An eidolon is protected against magic, gaining spell resistance. The eidolon's spell resistance is equal to 11 + the summoner's level. This spell resistance does not apply to spells cast by the summoner. The summoner must be at least 9th level before selecting this evolution.'''
+print = "An eidolon is protected against magic, gaining spell resistance. The eidolon's spell resistance is equal to 11 + the summoner's level. This spell resistance does not apply to spells cast by the summoner. The summoner must be at least 9th level before selecting this evolution."
 
 [[entry]]
 id = "ref/evolution/sting"
@@ -1066,7 +1034,7 @@ power.'''
 [[entry]]
 id = "ref/ragepower/inspire-ferocity"
 anchor = "inspire-ferocity"
-print = "While raging, the barbarian can use a move action to impart her [reckless abandon](ref/ragepower/reckless-abandon) modifier to all willing allies within 30 feet for a number of rounds equal to her Charisma modifier (minimum 1). A barbarian must have the reckless abandon rage power to select this rage power."
+print = "While raging, the barbarian can use a move action to impart her [reckless abandon](ref/ragepower/reckless-abandon) modifier to all willing allies within 30 feet for a number of rounds equal to her Charisma modifier (minimum 1). A barbarian must have the [reckless abandon](ref/ragepower/reckless-abandon) rage power to select this rage power."
 
 [[entry]]
 id = "ref/ragepower/knockdown"
