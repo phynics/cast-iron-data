@@ -16,10 +16,15 @@ page = "25"
 
 [fields]
 kind = "archetype"
+features = [
+  { anchor = "immortal-commitment" },
+  { anchor = "bestial-identity", level = 1 },
+  { anchor = "agathion-blessing", level = 2 },
+]
 trades = [
-  { replaces = "Vigilante talents gained at 4th, 8th, 12th, and 16th levels", feature = "vigilante-talent", levels = [4, 8, 12, 16] },
-  { replaces = "Vigilante talent gained at 2nd level", feature = "vigilante-talent", levels = [2] },
-  { alters = "Dual identity", feature = "dual-identity" },
+  { replaces = "Vigilante talents gained at 4th, 8th, 12th, and 16th levels", feature = "vigilante-talent", levels = [4, 8, 12, 16], by = ["bestial-identity"] },
+  { replaces = "Vigilante talent gained at 2nd level", feature = "vigilante-talent", levels = [2], by = ["agathion-blessing"] },
+  { alters = "Dual identity", feature = "dual-identity", by = ["bestial-identity"] },
 ]
 +++
 
@@ -36,63 +41,53 @@ relied upon these abilities to scout Golarion before reclaiming their abandoned 
 the Age of Darkness, leading to reports of extraordinary fey animals stalking elven ruins in the
 century before their return.
 
-**Immortal Commitment (Su)**
+## Immortal Commitment (Su) {#immortal-commitment}
 
-**Flavor:** Becoming an agathiel commits a portion of the vigilante's soul to Nirvana, and in turn
-invests him with a portion of the plane's power.
-
-**Info:** An agathiel's social and vigilante identity alignments must both be within one step of
-neutral good. If either of the agathiel's alignments moves outside this range (because of his own
-actions or magical manipulation), he gains 1 permanent
+Becoming an agathiel commits a portion of the vigilante's soul to Nirvana, and in turn invests him
+with a portion of the plane's power. An agathiel's social and vigilante identity alignments must
+both be within one step of neutral good. If either of the agathiel's alignments moves outside this
+range (because of his own actions or magical manipulation), he gains 1 permanent
 [negative level](ref/rule/energy-drain-and-negative-levels) and loses the ability to assume his
 vigilante identity until both of his alignments are within one step of neutral good. This negative
-level cannot be overcome in any way (including by [restoration](ref/spell/restoration) spells) until
-the agathiel's alignment reverts.
+level cannot be overcome in any way (including by _[restoration](ref/spell/restoration)_ spells)
+until the agathiel's alignment reverts.
 
-**Bestial Identity (Su)**
+## Bestial Identity (Su) {#bestial-identity}
 
-**Alters:** Dual identity
+At 1st level, an agathiel's vigilante identity must invoke the appearance and behavior of a single
+Small or Medium creature of the animal type. The vigilante can attempt to appear to be a normal
+member of this animal type, but doing so imposes a -10 penalty on his Disguise check. The bonus
+provided by seamless guise still applies to the vigilante's attempts to appear to be an ordinary
+animal. Once the vigilante's animal form is selected, it cannot be changed.
 
-**At 1st Level:** An agathiel's vigilante identity must invoke the appearance and behavior of a
-single Small or Medium creature of the animal type. The vigilante can attempt to appear to be a
-normal member of this animal type, but doing so imposes a -10 penalty on his Disguise check. The
-bonus provided by _seamless guise_ still applies to the vigilante's attempts to appear to be an
-ordinary animal. Once the vigilante's animal form is selected, it cannot be changed.
+Beginning at 4th level, when an agathiel assumes his vigilante identity, he physically transforms
+into an animal, though he always retains unusual traits that set him apart from ordinary animals, as
+if using _[beast shape I](ref/spell/beast-shape-1)_, except the vigilante gains no ability
+adjustments and can select only a single animal ability from those listed in the spell's
+description. His social identity remains his true form, and unlike with
+_[beast shape I](ref/spell/beast-shape-1)_, an agathiel can remain in his animal form indefinitely.
+The agathiel's vigilante identity is considered a polymorph effect, and while in his vigilante
+identity, the agathiel is immune to other polymorph effects. Unlike with normal polymorph effects,
+the agathiel's equipment does not meld into his form, and instead changes shape to fit his animal
+form and provides the same function, though any equipment requiring hands cannot be used until he
+returns to his social identity.
 
-**At 12th Level:** He can instead select two abilities provided by
-_[beast shape II](ref/spell/beast-shape-2),_ or a single ability provided by
-[beast shape III](ref/spell/beast-shape-3).
+At 8th level, when assuming his vigilante identity, the vigilante can select two abilities provided
+by _[beast shape I](ref/spell/beast-shape-1)_, or select a single ability provided by
+_[beast shape II](ref/spell/beast-shape-2)_. At 12th level, he can instead select two abilities
+provided by _[beast shape II](ref/spell/beast-shape-2)_, or a single ability provided by
+_[beast shape III](ref/spell/beast-shape-3)_. At 16th level, he can instead select three abilities
+provided by _[beast shape III](ref/spell/beast-shape-3)_, or a single ability provided by
+_[beast shape IV](ref/spell/beast-shape-4)_.
 
-**At 16th Level:** He can instead select three abilities provided by
-_[beast shape III](ref/spell/beast-shape-3),_ or a single ability provided by
-[beast shape IV](ref/spell/beast-shape-4).
+This ability alters dual identity and replaces the vigilante talents gained at 4th, 8th, 12th, and
+16th levels.
 
-**At 4th Level:** When an agathiel assumes his vigilante identity, he physically transforms into an
-animal, though he always retains unusual traits that set him apart from ordinary animals, as if
-using [beast shape I](ref/spell/beast-shape-1), except the vigilante gains no ability adjustments
-and can select only a single animal ability from those listed in the spell's description. His social
-identity remains his true form, and unlike with _[beast shape I](ref/spell/beast-shape-1),_ an
-agathiel can remain in his animal form indefinitely. The agathiel's vigilante identity is considered
-a polymorph effect, and while in his vigilante identity, the agathiel is immune to other polymorph
-effects.
+## Agathion Blessing (Su) {#agathion-blessing}
 
-Unlike with normal polymorph effects, the agathiel's equipment does not meld into his form, and
-instead changes shape to fit his animal form and provides the same function, though any equipment
-requiring hands cannot be used until he returns to his social identity.
+Beginning at 2nd level, an agathiel gains [Aspect of the Beast](ref/feat/aspect-of-the-beast) as a
+bonus feat while in his vigilante identity. If he selects the claws of the beast option, he can
+select a bite attack (1d8), a gore attack (1d8), or 2 slam attacks (1d4 each), as appropriate to his
+animal identity.
 
-**At 8th Level:** When assuming his vigilante identity, the vigilante can select two abilities
-provided by _[beast shape I](ref/spell/beast-shape-1),_ or select a single ability provided by
-[beast shape II](ref/spell/beast-shape-2).
-
-**Replaces:** Vigilante talents gained at 4th, 8th, 12th, and 16th levels
-
-**Agathion Blessing (Su)**
-
-**Ability:** An agathiel gains [Aspect of the Beast](ref/feat/aspect-of-the-beast) as a bonus feat
-while in his vigilante identity. If he selects the \*claws of the beast \*option, he can select a
-bite attack (1d8), a gore attack (1d8), or 2 slam attacks (1d4 each), as appropriate to his animal
-identity.
-
-**Gained:** At 2nd Level
-
-**Replaces:** Vigilante talent gained at 2nd level
+This ability replaces the vigilante talent gained at 2nd level.
