@@ -25,6 +25,24 @@ kind = "class"
 class_type = "core"
 hit_die = "d10"
 skill_ranks = "2 + Int modifier"
+features = [
+  { anchor = "aura-of-good", level = 1 },
+  { anchor = "detect-evil", level = 1 },
+  { anchor = "smite-evil", level = 1 },
+  { anchor = "divine-grace", level = 2 },
+  { anchor = "lay-on-hands", level = 2 },
+  { anchor = "aura-of-courage", level = 3 },
+  { anchor = "divine-health", level = 3 },
+  { anchor = "mercy", level = 3 },
+  { anchor = "channel-positive-energy", level = 4 },
+  { anchor = "spells", level = 4 },
+  { anchor = "divine-bond", level = 5 },
+  { anchor = "aura-of-resolve", level = 8 },
+  { anchor = "aura-of-justice", level = 11 },
+  { anchor = "aura-of-faith", level = 14 },
+  { anchor = "aura-of-righteousness", level = 17 },
+  { anchor = "holy-champion", level = 20 },
+]
 +++
 
 Through a select, worthy few shines the power of the divine. Called paladins, these noble souls
@@ -83,390 +101,257 @@ strength to continue fighting.
 |19th|+19/+14/+9/+4|+11|+6|+11|Smite evil 7/day|4|3|3|2|
 |20th|+20/+15/+10/+5|+12|+6|+12|Holy champion|4|4|3|3|
 
-#### Weapon and Armor Proficiencies {#weapon-and-armor-proficiencies}
+### Class Features {#class-features}
 
-**Weapons:** All simple weapons, All martial weapons
+All of the following are class features of the paladin.
 
-**Armor:** Light armor, Medium armor, Heavy armor
+#### Weapon and Armor Proficiency {#weapon-and-armor-proficiencies}
 
-**Shields:** Yes, except tower shields
+Paladins are proficient with all simple and martial weapons, with all types of armor (heavy, medium,
+and light), and with shields (except tower shields).
 
-**Code of Conduct:** A paladin must be of lawful good alignment and loses all class features except
-proficiencies if she ever willingly commits an evil act.
+#### Aura of Good (Ex) {#aura-of-good}
+
+The power of a paladin's aura of good (see the _[detect good](ref/spell/detect-good)_ spell) is
+equal to her paladin level.
+
+#### Detect Evil (Sp) {#detect-evil}
+
+At will, a paladin can use _[detect evil](ref/spell/detect-evil),_ as the spell. A paladin can, as a
+move action, concentrate on a single item or individual within 60 feet and determine if it is evil,
+learning the strength of its aura as if having studied it for 3 rounds. While focusing on one
+individual or object, the paladin does not [detect evil](ref/spell/detect-evil) in any other object
+or individual within range.
+
+#### Smite Evil (Su) {#smite-evil}
+
+Once per day, a paladin can call out to the powers of good to aid her in her struggle against
+[evil](ref/subtype/evil). As a swift action, the paladin chooses one target within sight to smite.
+If this target is evil, the paladin adds her Charisma bonus (if any) to her attack rolls and adds
+her paladin level to all damage rolls made against the target of her smite. If the target of smite
+evil is an [outsider](ref/type/outsider) with the evil subtype, an evil-aligned
+[dragon](ref/type/dragon), or an [undead](ref/type/undead) creature, the bonus to damage on the
+first successful attack increases to 2 points of damage per level the paladin possesses. Regardless
+of the target, smite evil attacks automatically bypass any DR the creature might possess.
+
+In addition, while smite evil is in effect, the paladin gains a deflection bonus equal to her
+Charisma modifier (if any) to her AC against attacks made by the target of the smite. If the paladin
+targets a creature that is not evil, the smite is wasted with no effect.
+
+The smite evil effect remains until the target of the smite is dead or the next time the paladin
+rests and regains her uses of this ability. At 4th level, and at every three levels thereafter, the
+paladin may smite evil one additional time per day, as indicated on Table 3–11, to a maximum of
+seven times per day at 19th level.
+
+#### Divine Grace (Su) {#divine-grace}
+
+At 2nd level, a paladin gains a bonus equal to her Charisma bonus (if any) on all saving throws.
+
+#### Lay On Hands (Su) {#lay-on-hands}
+
+Beginning at 2nd level, a paladin can heal wounds (her own or those of others) by touch. Each day
+she can use this ability a number of times equal to 1/2 her paladin level plus her Charisma
+modifier. With one use of this ability, a paladin can heal 1d6 hit points of damage for every two
+paladin levels she possesses. Using this ability is a standard action, unless the paladin targets
+herself, in which case it is a swift action. Despite the name of this ability, a paladin only needs
+one free hand to use this ability.
+
+Alternatively, a paladin can use this healing power to deal damage to undead creatures, dealing 1d6
+points of damage for every two levels the paladin possesses. Using lay on hands in this way requires
+a successful melee touch attack and doesn't provoke an attack of opportunity. Undead do not receive
+a saving throw against this damage.
+
+#### Aura of Courage (Su) {#aura-of-courage}
+
+At 3rd level, a paladin is immune to fear (magical or otherwise). Each ally within 10 feet of her
+gains a +4 morale bonus on saving throws against fear effects. This ability functions only while the
+paladin is conscious, not if she is unconscious or dead.
+
+#### Divine Health (Ex) {#divine-health}
+
+At 3rd level, a paladin is immune to all diseases, including supernatural and magical diseases,
+including [mummy rot](ref/carried/core-rulebook/rules/glossary/special-abilities/curses/mummy-rot).
+
+#### Mercy (Su) {#mercy}
+
+At 3rd level, and every three levels thereafter, a paladin can select one mercy. Each mercy adds an
+effect to the paladin's lay on hands ability. Whenever the paladin uses lay on hands to heal damage
+to one target, the target also receives the additional effects from all of the mercies possessed by
+the paladin. A mercy can remove a condition caused by a curse, disease, or poison without curing the
+affliction. Such conditions return after 1 hour unless the mercy actually removes the affliction
+that causes the condition.
+
+At 3rd level, the paladin can select from the following initial mercies.
+
+- Fatigued: The target is no longer fatigued.
+- Shaken: The target is no longer shaken.
+- Sickened: The target is no longer sickened.
+
+At 6th level, a paladin adds the following mercies to the list of those that can be selected.
+
+- Dazed: The target is no longer dazed.
+- Diseased: The paladin's lay on hands ability also acts as _remove disease_, using the paladin's
+  level as the caster level.
+- Staggered: The target is no longer staggered, unless the target is at exactly 0 hit points.
+
+At 9th level, a paladin adds the following mercies to the list of those that can be selected.
+
+- Cursed: The paladin's lay on hands ability also acts as _remove curse,_ using the paladin's level
+  as the caster level.
+- Exhausted: The target is no longer exhausted. The paladin must have the fatigue mercy before
+  selecting this mercy.
+- Frightened: The target is no longer frightened. The paladin must have the shaken mercy before
+  selecting this mercy.
+- Nauseated: The target is no longer nauseated. The paladin must have the sickened mercy before
+  selecting this mercy.
+- Poisoned: The paladin's lay on hands ability also acts as _neutralize poison_, using the paladin's
+  level as the caster level.
+
+At 12th level, a paladin adds the following mercies to the list of those that can be selected.
+
+- Blinded: The target is no longer blinded.
+- Deafened: The target is no longer deafened.
+- Paralyzed: The target is no longer paralyzed.
+- Stunned: The target is no longer stunned.
+
+These abilities are cumulative. For example, a 12th-level paladin's lay on hands ability heals 6d6
+points of damage and might also cure fatigued and exhausted conditions as well as removing diseases
+and neutralizing poisons. Once a condition or spell effect is chosen, it can't be changed.
+
+#### Channel Positive Energy (Su) {#channel-positive-energy}
+
+When a paladin reaches 4th level, she gains the supernatural ability to
+[channel positive energy](ref/ability/channel-energy) like a cleric. Using this ability consumes two
+uses of her lay on hands ability. A paladin uses her level as her effective cleric level when
+channeling positive energy. This is a Charisma-based ability.
+
+#### Spells {#spells}
+
+Beginning at 4th level, a paladin gains the ability to cast a small number of divine spells which
+are drawn from the paladin spell list presented in Chapter 10. A paladin must choose and prepare her
+spells in advance.
+
+To prepare or cast a spell, a paladin must have a Charisma score equal to at least 10 + the spell
+level. The Difficulty Class for a saving throw against a paladin's spell is 10 + the spell level +
+the paladin's Charisma modifier.
+
+Like other spellcasters, a paladin can cast only a certain number of spells of each spell level per
+day. Her base daily spell allotment is given on Table 3–11. In addition, she receives
+[bonus spells per day](ref/rule/determine-bonuses) if she has a high Charisma score (see Table 1–3).
+When Table 3–11 indicates that the paladin gets 0 spells per day of a given spell level, she gains
+only the bonus spells she would be entitled to based on her Charisma score for that spell level.
+
+A paladin must spend 1 hour each day in quiet prayer and meditation to regain her daily allotment of
+spells. A paladin may prepare and cast any spell on the paladin spell list, provided that she can
+cast spells of that level, but she must choose which spells to prepare during her daily meditation.
+
+Through 3rd level, a paladin has no caster level. At 4th level and higher, her caster level is equal
+to her paladin level - 3.
+
+#### Divine Bond (Sp) {#divine-bond}
+
+Upon reaching 5th level, a paladin forms a divine bond with her god. This bond can take one of two
+forms. Once the form is chosen, it cannot be changed.
+
+The first type of bond allows the paladin to enhance her weapon as a standard action by calling upon
+the aid of a celestial spirit for 1 minute per paladin level. When called, the spirit causes a held
+weapon to shed light as a torch. At 5th level, this spirit grants the weapon a +1 enhancement bonus.
+For every three levels beyond 5th, the weapon gains another +1 enhancement bonus, to a maximum of +6
+at 20th level. These bonuses can be added to the weapon, stacking with existing weapon bonuses to a
+maximum of +5, or they can be used to add any of the following weapon properties: _axiomatic_,
+_brilliant energy, defending, disruption, flaming, flaming burst, holy, keen, merciful_, and
+_speed_. Adding these properties consumes an amount of bonus equal to the property's cost (see Table
+15–9). These bonuses are added to any properties the weapon already has, but duplicate abilities do
+not stack. If the weapon is not magical, at least a +1 enhancement bonus must be added before any
+other properties can be added. The bonus and properties granted by the spirit are determined when
+the spirit is called and cannot be changed until the spirit is called again. The celestial spirit
+imparts no bonuses if the weapon is held by anyone other than the paladin but resumes giving bonuses
+if returned to the paladin. These bonuses apply to only one end of a double weapon. A paladin can
+use this ability once per day at 5th level, and one additional time per day for every four levels
+beyond 5th, to a total of four times per day at 17th level.
+
+If a weapon bonded with a celestial spirit is destroyed, the paladin loses the use of this ability
+for 30 days, or until she gains a level, whichever comes first. During this 30- day period, the
+paladin takes a -1 penalty on attack and weapon damage rolls.
+
+The second type of bond allows a paladin to gain the service of an unusually intelligent, strong,
+and loyal steed to serve her in her crusade against evil. This mount is usually a horse (for a
+Medium paladin) or a pony (for a Small paladin), although more exotic mounts, such as a boar, camel,
+or dog are also suitable. This mount functions as a druid's animal companion, using the paladin's
+level as her effective druid level. Bonded mounts have an Intelligence of at least 6.
+
+Once per day, as a full-round action, a paladin may magically call her mount to her side. This
+ability is the equivalent of a spell of a level equal to one-third the paladin's level. The mount
+immediately appears adjacent to the paladin. A paladin can use this ability once per day at 5th
+level, and one additional time per day for every 4 levels thereafter, for a total of four times per
+day at 17th level.
+
+At 11th level, the mount gains the celestial template (see the _Pathfinder RPG Bestiary_) and
+becomes a magical beast for the purposes of determining which spells affect it. At 15th level, a
+paladin's mount gains spell resistance equal to the paladin's level + 11.
+
+Should the paladin's mount die, the paladin may not summon another mount for 30 days or until she
+gains a paladin level, whichever comes first. During this 30- day period, the paladin takes a -1
+penalty on attack and weapon damage rolls.
+
+#### Aura of Resolve (Su) {#aura-of-resolve}
+
+At 8th level, a paladin is immune to charm spells and
+[spell-like abilities](ref/umr/spell-like-abilities). Each ally within 10 feet of her gains a +4
+morale bonus on saving throws against charm effects.
+
+This ability functions only while the paladin is conscious, not if she is unconscious or dead.
+
+#### Aura of Justice (Su) {#aura-of-justice}
+
+At 11th level, a paladin can expend two uses of her smite evil ability to grant the ability to smite
+evil to all allies within 10 feet, using her bonuses. Allies must use this smite evil ability by the
+start of the paladin's next turn and the bonuses last for 1 minute. Using this ability is a free
+action. Evil creatures gain no benefit from this ability.
+
+#### Aura of Faith (Su) {#aura-of-faith}
+
+At 14th level, a paladin's weapons are treated as good-aligned for the purposes of overcoming
+[damage reduction](ref/rule/damage-reduction). Any attack made against an enemy within 10 feet of
+her is treated as good-aligned for the purposes of overcoming damage reduction.
+
+This ability functions only while the paladin is conscious, not if she is unconscious or dead.
+
+#### Aura of Righteousness (Su) {#aura-of-righteousness}
+
+At 17th level, a paladin gains DR 5/evil and immunity to compulsion spells and
+[spell-like abilities](ref/umr/spell-like-abilities). Each ally within 10 feet of her gains a +4
+morale bonus on saving throws against compulsion effects.
+
+This ability functions only while the paladin is conscious, not if she is unconscious or dead.
+
+#### Holy Champion (Su) {#holy-champion}
+
+At 20th level, a paladin becomes a conduit for the power of her god. Her DR increases to 10/evil.
+Whenever she uses smite evil and successfully strikes an evil outsider, the outsider is also subject
+to a _[banishment](ref/spell/banishment),_ using her paladin level as the caster level (her weapon
+and holy symbol automatically count as objects that the subject hates). After the
+_[banishment](ref/spell/banishment)_ effect and the damage from the attack is resolved, the smite
+immediately ends. In addition, whenever she channels positive energy or uses lay on hands to heal a
+creature, she heals the maximum possible amount.
+
+#### Code of Conduct {#code-of-conduct}
+
+A paladin must be of lawful good alignment and loses all class features except proficiencies if she
+ever willingly commits an evil act.
 
 Additionally, a paladin's code requires that she respect legitimate authority, act with honor (not
 lying, not cheating, not using poison, and so forth), help those in need (provided they do not use
 the help for evil or chaotic ends), and punish those who harm or threaten innocents.
 
-**Associates:** While she may adventure with good or neutral allies, a paladin avoids working with
-evil characters or with anyone who consistently offends her moral code. Under exceptional
-circumstances, a paladin can ally with evil associates, but only to defeat what she believes to be a
-greater evil. A paladin should seek an [atonement](ref/spell/atonement) spell periodically during
-such an unusual alliance, and should end the alliance immediately should she feel it is doing more
-harm than good. A paladin may accept only [henchmen, followers, or cohorts](ref/feat/leadership) who
-are lawful good.
-
-#### Aura of Good (Ex) {#aura-of-good}
-
-**Section:** Good and Evil
-
-**Gained:** At 1st Level
-
-**Passive:** The power of your _aura of good_ (see [detect good](ref/spell/detect-good)) is equal to
-your paladin level.
-
-#### Detect Evil (Sp) {#detect-evil}
-
-**Ability:** At will, you can use [detect evil](ref/spell/detect-evil), as the spell.
-
-**Gained:** At 1st Level
-
-**Move:** You can concentrate on a single item or individual within 60 feet and determine if it is
-evil, learning the strength of its aura as if having studied it for 3 rounds. While focusing on one
-individual or object, you do not _[detect evil](ref/spell/detect-evil)_ in any other object or
-individual within range.
-
-#### Smite Evil (Su) {#smite-evil}
-
-**Action:** Swift Action
-
-**Gained:** At 1st Level
-
-At 4th level: You can smite 2 times a day.
-
-At 7th level: You can smite 3 times a day.
-
-At 10th level: You can smite 4 times a day.
-
-At 13th level: You can smite 5 times a day.
-
-At 16th level: You can smite 6 times a day.
-
-At 19th level: You can smite 7 times a day.
-
-You can call out to the powers of good to aid you in your struggle against evil, choosing one target
-within sight to smite. If you target a creature that is not evil, the smite is wasted with no
-effect.
-
-If this target is evil, you add your Charisma bonus (if any) on your attack rolls and add your
-paladin level to all damage rolls made against the target of your smite. If the target of _smite
-evil_ is an [outsider](ref/type/outsider) with the [evil](ref/subtype/evil) subtype, an evil-aligned
-[dragon](ref/type/dragon), an [undead](ref/type/undead) creature, or a creature with levels in
-[antipaladin](ref/class/antipaladin), the bonus to damage on the first successful attack increases
-to 2 points of damage per paladin level. Regardless of the target, _smite evil_ attacks
-automatically bypass any DR the creature might possess.
-
-In addition, while _smite evil_ is in effect, you gain a deflection bonus equal to your Charisma
-modifier (if any) to your AC against attacks made by the target of the smite.
-
-The _smite evil_ effect remains until the target of the smite is dead or the next time you rest and
-regain your uses of this ability.
-
-**Oaths:** Optionally, a paladin may take [an oath](ref/ability/oaths). While all paladins have
-their own codes of conduct, either taught by an order, handed down from the gods, or inspired by
-personal conviction, an oathbound paladin devotes herself to a singular cause, which grants her
-additional powers but also gives further edicts she must follow. An oathbound paladin swears an oath
-to eradicate a certain kind of evil. This powerful oath gives her access to new spells and adds to
-or alters typical paladin abilities.
-
-#### Divine Grace (Su) {#divine-grace}
-
-**Section:** Grace and Healing
-
-**Gained:** At 2nd Level
-
-**Passive:** You gain a bonus equal to your Charisma bonus (if any) on all saving throws.
-
-#### Lay On Hands (Su) {#lay-on-hands}
-
-**Ability:** Alternatively, as a melee touch attack, you can use this healing power to deal damage
-to undead creatures, dealing 1d6 points of damage for every two paladin levels you possess. This
-doesn't provoke an attack of opportunity. Undead do not receive a saving throw against this damage.
-
-**Flavor:** A paladin can heal wounds (her own or those of others) by touch.
-
-**Gained:** At 2nd Level
-
-**Standard:** You heal 1d6 hit points of damage for every two paladin levels you possess. Despite
-the name of this ability, you only need one free hand to use this ability.
-
-**Swift:** You can heal yourself instead of another creature, as above.
-
-**Usage:** half your paladin level + Charisma modifier times/day
-
-#### Aura of Courage (Su) {#aura-of-courage}
-
-**Section:** Courage, Health, and Mercy
-
-**Gained:** At 3rd Level
-
-**Passive:** You are immune to fear (magical or otherwise). Each ally
-[within 10 feet of you](ref/misc/emanation) gains a +4 morale bonus on saving throws against fear
-effects. This ability functions only while you are conscious, not if you're unconscious or dead.
-
-#### Divine Health (Ex) {#divine-health}
-
-**Gained:** At 3rd Level
-
-**Passive:** You are immune to all diseases, including supernatural and magical diseases, including
-[mummy rot](ref/carried/core-rulebook/rules/glossary/special-abilities/curses/mummy-rot).
-
-#### Mercy (Su) {#mercy}
-
-**Ability:** You gain one mercy, which adds an effect to your _lay on hands_ ability. Whenever you
-use _lay on hands_ to heal damage to one target, the target also receives the additional effects
-from **all** of the mercies you possess. Once a condition or spell effect is chosen, it can't be
-changed.
-
-**Gained:** At 3rd Level
-
-**Repeat:** You gain a new mercy., 6, 3
-
-**Special:** A mercy can remove a condition caused by a curse, disease, or poison without curing the
-affliction. Such conditions return after 1 hour unless the mercy actually removes the affliction
-that causes the condition.
-
-#### Channel Positive Energy (Su) {#channel-positive-energy}
-
-**Gained:** At 4th Level
-
-**Standard:** You gain the supernatural ability to
-[channel positive energy](ref/ability/channel-energy) like a cleric. Using this ability consumes two
-uses of your _lay on hands_ ability. You use your level as your effective cleric level when
-channeling positive energy. This is a Charisma-based ability.
-
-#### Channel Energy (Su) {#channel-energy}
-
-**Choice:** A good cleric (or one who worships a good deity) channels **positive energy** and can
-choose to deal damage to undead creatures or to heal living creatures.
-
-**Flavor:** Relevant text from the cleric ability.
-
-**Provokes attack of opportunity:** No
-
-**Special:** Creatures healed by channeled energy cannot exceed their maximum hit point total - all
-excess healing is lost.
-
-**Standard:** You must present your holy symbol to channel energy. This causes a
-[burst](ref/misc/burst) that affects all creatures of one type (either undead or living) in a
-30-foot radius centered on you. This deals or heals (see below) 2d6 damage. You can choose whether
-or not to include yourself in this effect. Creatures that take damage from channeled energy receive
-a Will save to halve the damage, with a DC equal to 10 + [half](ref/misc/fractions-and-rounding)
-your cleric level + your Charisma modifier.
-
-At 5th level: The damage increases to 3d6.
-
-At 7th level: The damage increases to 4d6.
-
-At 9th level: The damage increases to 5d6.
-
-At 11th level: The damage increases to 6d6.
-
-At 13th level: The damage increases to 7d6.
-
-At 15th level: The damage increases to 8d6.
-
-At 17th level: The damage increases to 9d6.
-
-At 19th level: The damage increases to 10d6.
-
-Some deities may endow their mortal servants with the power to channel energies in other ways that
-more closely mirror their particular focus. If you serve a deity, you may choose one of these
-[variant channeling abilities](ref/ability/variant-channeling) instead.
-
-#### Spells {#spells}
-
-**Ability:** You gain the ability to cast a small number of divine spells which are drawn from the
-paladin spell list. The DC for a saving throw against spells you cast is 10 + the spell level + your
-Charisma modifier. You must choose and prepare your spells in advance. Like other spellcasters, you
-can cast only a certain number of spells of each spell level per day. In addition, you receive
-[bonus spells per day](ref/rule/determine-bonuses) if you have a high Charisma score.
-
-**Action:** Info
-
-**Section:** Spells
-
-**Gained:** At 4th Level
-
-**Special:** When it is indicated that you get 0 spells per day of a given spell level, you gain
-only the bonus spells you would be entitled to based on your Charisma score for that spell level.
-
-**Usage:** To prepare or cast a spell, you must have a Charisma score equal to at least 10 + the
-spell level.
-
-**Usage:** To prepare or cast a spell, you must have a Charisma score equal to at least 10 + the
-spell level.
-
-You must spend 1 hour each day in quiet prayer and meditation to regain your daily allotment of
-spells. You may prepare and cast any spell on the paladin spell list, provided that you can cast
-spells of that level, but you must choose which spells to prepare during your daily meditation.
-
-Through 3rd level, you have no caster level. At 4th level and higher, your caster level is equal to
-your paladin level - 3.
-
-#### Divine Bond (Sp, Su) {#divine-bond}
-
-**Ability:** This bond can take one of two forms: bonded weapon or bonded mount. Once the form is
-chosen, it cannot be changed.
-
-**Flavor:** A paladin forms a divine bond with her god.
-
-**Gained:** At 5th Level
-
-#### Bonded Weapon {#bonded-weapon}
-
-**Action:** Choice
-
-**Usage:** 1 time/day + 1 per 4 paladin levels beyond 5th
-
-The first type of bond allows the paladin to enhance your weapon as a **standard action** by calling
-upon the aid of a celestial spirit for 1 minute per paladin level. This is a
-[spell-like ability](ref/umr/spell-like-abilities). When called, the spirit causes the weapon to
-shed light as a [torch](ref/eq-misc/torch) and grants the weapon a +1 enhancement bonus.
-
-For every three levels beyond 5th, the weapon gains another +1 enhancement bonus, to a maximum of +6
-at 20th level. These bonuses can be added to the weapon, stacking with existing weapon bonuses to a
-maximum of +5, or they can be used to add any of the following weapon properties:
-[axiomatic](ref/magic-enh/axiomatic), [brilliant energy](ref/magic-enh/brilliant-energy),
-[defending](ref/magic-enh/defending), [disruption](ref/magic-enh/disruption),
-[flaming](ref/magic-enh/flaming), [flaming burst](ref/magic-enh/flaming-burst),
-[holy](ref/magic-enh/holy), [keen](ref/magic-enh/keen), [merciful](ref/magic-enh/merciful), and
-[speed](ref/magic-enh/speed). Adding these properties consumes an amount of bonus equal to the
-property's cost. These bonuses are added to any properties the weapon already has, but duplicate
-abilities do not stack. If the weapon is not magical, at least a +1 enhancement bonus must be added
-before any other properties can be added. The bonus and properties granted by the spirit are
-determined when the spirit is called and cannot be changed until the spirit is called again.
-
-The celestial spirit imparts no bonuses if the weapon is held by anyone other than you, but resumes
-giving bonuses if returned to you. These bonuses apply to only one end of a double weapon.
-
-If a weapon bonded with a celestial spirit is destroyed, you lose the use of this ability for 30
-days, or until you gain a level, whichever comes first. During this 30-day period, you take a -1
-penalty on attack and weapon damage rolls.
-
-#### Bonded Mount {#bonded-mount}
-
-**Action:** Choice
-
-**At 11th Level:** The mount gains the [celestial](ref/template/celestial) template and becomes a
-magical beast for the purposes of determining which spells affect it.
-
-**At 15th Level:** The mount gains [spell resistance](ref/rule/spell-resistance) equal to your
-level + 11.
-
-**Usage:** 1 time/day + 1 per 5 paladin levels beyond 4th
-
-The second type of bond allows you to gain the service of an unusually intelligent, strong, and
-loyal steed to serve you in your crusade against evil. This mount functions as a druid's
-[animal companion](ref/sidekick/animal-companion), using your level as your effective druid level.
-Bonded mounts have an Intelligence of at least 6. This mount may come from the following lists:
-
-> **Medium Paladins:** [Camel](ref/companion/camel), [Elk](ref/companion/elk),
-> [Giraffe](ref/companion/giraffe), [Horse](ref/companion/horse),
-> [Giant Seahorse](ref/companion/seahorse-giant), [Yak](ref/companion/yak),
-> [Zebra](ref/companion/zebra)
->
-> **Small Paladins:** [Antelope](ref/companion/antelope), [Boar](ref/companion/boar),
-> [Capybara](ref/companion/capybara), [Dog](ref/companion/dog), [Eohippus](ref/companion/eohippus),
-> [Pony](ref/companion/pony), [Ram](ref/companion/ram), [Reindeer](ref/companion/reindeer),
-> [Stag](ref/companion/stag), [Giant Weasel](ref/companion/weasel-giant),
-> [Wolfdog](ref/companion/wolfdog)
-
-As a **full-round action**, you may magically call your mount to your side. This
-[spell-like ability](ref/umr/spell-like-abilities) is the equivalent of a spell of a level equal to
-[one-third](ref/misc/fractions-and-rounding) your paladin level. The mount immediately appears
-adjacent to you.
-
-Should your mount die, you may not summon another mount for 30 days or until you gain an paladin
-level, whichever comes first. During this 30-day period, you take a -1 penalty on attack and weapon
-damage rolls.
-
-**Sources:** Healer's Handbook pg 25\
-Although all paladins commune with divine forces and celestial spirits, some are able to do so in
-ways that transcend the typical martial blessing or celestial servitor. The following three Divine
-Bond options are supernatural abilities that replace the Bonded Weapon/Bonded Mount ability.
-
-**Agathion Bond**: As a **standard action**, the paladin can call forth an
-[agathion](ref/family/agathion) spirit that bonds to her healing hands for 1 minute per paladin
-level, causing her to manifest physical traits evocative of one kind of agathion. This bond allows
-the paladin to add her Charisma bonus to the amount of hit points that she restores with her spells,
-her _lay on hands_ ability, and her _channel energy_ ability. For every 3 levels beyond 5th, she
-restores 1 additional hit point with those abilities, up to a maximum of 5 + her Charisma modifier
-at 20th level. The paladin can use this ability once per day at 5th level, and one additional time
-per day for every 4 levels beyond 5th, up to a total of four times per day at 17th level.
-
-**Angelic Bond**: As a **standard action**, the paladin can call forth an [angel](ref/family/angel)
-spirit that bonds to her, causing her to manifest a resplendent halo. This bond allows the paladin
-to shine light as per [continual flame](ref/spell/continual-flame) for 1 minute per paladin level.
-Additionally, while the halo shines, all allies within 20 feet gain the benefits of
-[protection from evil](ref/spell/protection-from-evil), except the deflection and resistance bonuses
-are +3. For every 3 levels she has beyond 5th, the deflection bonus and resistance bonus provided by
-this effect increases by 1, up to a maximum of +8 at 20th level. The paladin can use this ability
-once per day at 5th level, and one additional time per day for every 4 levels beyond 5th, up to a
-total of four times per day at 17th level.
-
-**Archon Bond**: As a **standard action**, the paladin can call forth an [archon](ref/family/archon)
-spirit that bonds to her brow, causing her eyes to glow with righteous fury for 1 minute per paladin
-level. While this bond is active, any hostile creature within a 10-foot radius of the paladin that
-looks at her must succeed at a Will saving throw (DC = 10 + 1/2 her paladin level + her Charisma
-modifier) or take a -2 penalty on attack rolls and saving throws and to AC for 24 hours. Whether or
-not the saving throw is successful, a creature cannot be affected by the same paladin's archon bond
-again for 24 hours, and the penalties from multiple archon bonds don't stack. Creatures that don't
-have eyesight are not affected by this ability. For every 3 levels beyond 5th, the radius of the
-paladin's archon bond increases by 5 feet, up to a 35-foot radius at 20th level. The paladin can use
-this ability once per day at 5th level, and one additional time per day for every 4 levels beyond
-5th, up to a total of four times per day at 17th level.
-
-#### Aura of Resolve/(Su) {#aura-of-resolve}
-
-**Section:** Other Abilities
-
-**Gained:** At 8th Level
-
-**Passive:** You are immune to charm spells and
-[spell-like abilities](ref/umr/spell-like-abilities). Each ally within 10 feet of you gains a +4
-morale bonus on saving throws against charm effects. This ability functions only while you are
-conscious, not if you are unconscious or dead.
-
-#### Aura of Justice (Su) {#aura-of-justice}
-
-**Free:** You can expend two uses of your _smite evil_ ability to grant the ability to _smite evil_
-to all allies within 10 feet, using your bonuses. Allies must use this _smite evil_ ability by the
-start of your next turn and the bonuses last for 1 minute. Evil creatures gain no benefit from this
-ability.
-
-**Gained:** At 11th Level
-
-#### Aura of Faith (Su) {#aura-of-faith}
-
-**Gained:** At 14th Level
-
-**Passive:** Your weapons are treated as good-aligned for the purposes of overcoming
-[damage reduction](ref/rule/damage-reduction). Any attack made against an enemy within 10 feet of
-you is treated as good-aligned for the purposes of overcoming damage reduction. This ability
-functions only while you are conscious, not if you are unconscious or dead.
-
-#### Aura of Righteousness (Su) {#aura-of-righteousness}
-
-**Gained:** At 17th Level
-
-**Passive:** You gain DR 5/evil and immunity to compulsion spells and
-[spell-like abilities](ref/umr/spell-like-abilities). Each ally within 10 feet of you gains a +4
-morale bonus on saving throws against compulsion effects. This ability functions only while you are
-conscious, not if you are unconscious or dead.
-
-#### Holy Champion (Su) {#holy-champion}
-
-**Flavor:** You become a conduit for the power of your god.
-
-**Gained:** At 20th Level
-
-**Passive:** Your DR increases to 10/evil. Whenever you use _smite evil_ and successfully strikes an
-evil outsider, the outsider is also subject to a [banishment](ref/spell/banishment), using your
-paladin level as the caster level (your weapon and holy symbol automatically count as objects that
-the subject hates). After the _[banishment](ref/spell/banishment)_ effect and the damage from the
-attack is resolved, the _smite_ immediately ends. In addition, whenever you channel positive energy
-or use _lay on hands_ to heal a creature, you heal the maximum possible amount.
+#### Associates {#associates}
+
+While she may adventure with good or neutral allies, a paladin avoids working with evil characters
+or with anyone who consistently offends her moral code. Under exceptional circumstances, a paladin
+can ally with evil associates, but only to defeat what she believes to be a greater evil. A paladin
+should seek an _[atonement](ref/spell/atonement)_ spell periodically during such an unusual
+alliance, and should end the alliance immediately should she feel it is doing more harm than good. A
+paladin may accept only [henchmen, followers, or cohorts](ref/feat/leadership) who are lawful good.
 
 ### Ex-Paladins
 
@@ -474,8 +359,8 @@ A paladin who ceases to be lawful good, who willfully commits an evil act, or wh
 of conduct loses all paladin spells and class features (including the service of the paladin's
 mount, but not weapon, armor, and shield proficiencies). She may not progress any further in levels
 as a paladin. She regains her abilities and advancement potential if she
-[atones](ref/spell/atonement) for her violations, as appropriate. (Also see the
-[Vindictive Bastard](ref/arc-paladin/vindictive-bastard) archetype for more options.)
+[atones](ref/spell/atonement) for her violations (see the _atonement_ spell description in Chapter
+10), as appropriate.
 
 ### Alternate Capstones
 

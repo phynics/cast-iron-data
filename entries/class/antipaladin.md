@@ -370,7 +370,7 @@ A antipaladin who ceases to be chaotic evil, who willfully commits an good act, 
 code of conduct loses all antipaladin spells and class features (including the fiendish boon, but
 not weapon, armor, and shield proficiencies). He may not progress any further in levels as an
 antipaladin. He regains his abilities and advancement potential if he atones for his violations (see
-[atonement](ref/spell/atonement)), as appropriate.
+the _[atonement](ref/spell/atonement)_ spell), as appropriate.
 
 ### Fall from Grace
 

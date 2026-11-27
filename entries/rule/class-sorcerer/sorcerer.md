@@ -108,68 +108,72 @@ alike.
 |19th|9|5|5|4|4|4|3|3|3|2|
 |20th|9|5|5|4|4|4|3|3|3|3|
 
-**Weapon and Armor Proficiencies**
+### Class Features {#class-features}
 
-**Weapons:** All simple weapons
+All of the following are class features of the sorcerer.
 
-**Armor:** No armor
+#### Weapon and Armor Proficiency {#weapon-and-armor-proficiencies}
 
-**Shields:** No
+Sorcerers are proficient with all simple weapons. They are not proficient with any type of armor or
+shield. Armor interferes with a sorcerer's gestures, which can cause her spells with somatic
+components to fail (see Arcane Spells and Armor on page 83).
 
-**Notes:** Armor interferes with a sorcerer's gestures, which can cause her spells with somatic
-components to fail.
+#### Spells {#spells}
 
-**Spells**
+A sorcerer casts arcane spells drawn primarily from the sorcerer/wizard spell list presented in
+Chapter 10. She can cast any spell she knows without preparing it ahead of time. To learn or cast a
+spell, a sorcerer must have a Charisma score equal to at least 10 + the spell level. The Difficulty
+Class for a saving throw against a sorcerer's spell is 10 + the spell level + the sorcerer's
+Charisma modifier.
 
-**Spell list:** Arcane spells from the sorcerer list, from 1st level
+Like other spellcasters, a sorcerer can cast only a certain number of spells of each spell level per
+day. Her base daily spell allotment is given on Table 3–14. In addition, she receives bonus spells
+per day if she has a high Charisma score (see Table 1–3).
 
-**Key ability:** Charisma. Minimum score 10 + spell level; save DC 10 + spell level + Charisma
-modifier; a high score grants bonus spells per day.
+A sorcerer's selection of spells is extremely limited. A sorcerer begins play knowing four 0-level
+spells and two 1st-level spells of her choice. At each new sorcerer level, she gains one or more new
+spells, as indicated on Table 3–15. (Unlike spells per day, the number of spells a sorcerer knows is
+not affected by her Charisma score; the numbers on Table 3–15 are fixed.) These new spells can be
+common spells chosen from the sorcerer/wizard spell list, or they can be unusual spells that the
+sorcerer has gained some understanding of through study.
 
-**Casting:** Spontaneous: cast any spell known without preparation, within the daily allotment per
-spell level.
+Upon reaching 4th level, and at every even-numbered sorcerer level after that (6th, 8th, and so on),
+a sorcerer can choose to learn a new spell in place of one she already knows. In effect, the
+sorcerer loses the old spell in exchange for the new one. The new spell's level must be the same as
+that of the spell being exchanged. A sorcerer may swap only a single spell at any given level, and
+must choose whether or not to swap the spell at the same time that she gains new spells known for
+the level.
 
-**Spells known:** Very limited selection; starts with four 0-level and two 1st-level spells and
-grows by level as shown on the table. Charisma does not change the number known.
+Unlike a wizard or a cleric, a sorcerer need not prepare her spells in advance. She can cast any
+spell she knows at any time, assuming she has not yet used up her spells per day for that spell
+level.
 
-**Spell swap:** At 4th, 6th, 8th, and every 2 levels after, one known spell may be exchanged for
-another of the same level.
+#### Cantrips {#cantrips}
 
-**Cantrips**
+Sorcerers learn a number of cantrips, or 0-level spells, as noted on Table 3–15 under "Spells
+Known." These spells are cast like any other spell, but they do not consume any slots and may be
+used again.
 
-**Ability:** 0-level arcane spells. Cast without using a spell slot; one placed in a higher slot
-(for example through metamagic) uses that slot.
+#### Bloodline {#bloodline}
 
-**Bloodline**
+Each sorcerer has a source of magic somewhere in her heritage that grants her spells, bonus feats,
+an additional class skill, and other special abilities. This source can represent a blood relation
+or an extreme event involving a creature somewhere in the family's past. For example, a sorcerer
+might have a dragon as a distant relative or her grandfather might have signed a terrible contract
+with a devil. Regardless of the source, this influence manifests in a number of ways as the sorcerer
+gains levels. A sorcerer must pick one [bloodline](ref/ability/sorcerer-bloodlines) upon taking her
+first level of sorcerer. Once made, this choice cannot be changed.
 
-**Ability:** You must pick one [bloodline](ref/ability/sorcerer-bloodlines) upon taking your first
-level of sorcerer. Once made, this choice cannot be changed. This bloodline grants you a bonus class
-skill, as well as additional abilities as you gain levels.
+At 3rd level, and every two levels thereafter, a sorcerer learns an additional spell, derived from
+her bloodline. These spells are in addition to the number of spells given on Table 3–15. These
+spells cannot be exchanged for different spells at higher levels.
 
-**Flavor:** Each sorcerer has a source of magic somewhere in her heritage that grants her special
-abilities. This source can represent a blood relation or an extreme event involving a creature
-somewhere in the family's past. For example, a sorcerer might have a dragon as a distant relative or
-her grandfather might have signed a terrible contract with a devil. Regardless of the source, this
-influence manifests in a number of ways as the sorcerer gains levels.
+At 7th level, and every six levels thereafter, a sorcerer receives one bonus feat, chosen from a
+list specific to each bloodline. The sorcerer must meet the prerequisites for these bonus feats.
 
-**Gained:** At 1st Level
+#### Eschew Materials {#eschew-materials}
 
-**Repeat:** You learn a new spell from your bloodline, and you receive one bonus feat, chosen from a
-list specific to your bloodline. You must meet the prerequisites for the feat., 7, 6
-
-**Repeat At:** You learn a new spell from your bloodline., 3, 5, 9, 11, 15, 17
-
-**Special:** Spells gained from your bloodline are in addition to the number of spells you gain
-every level. They cannot be exchanged for different spells at higher levels.
-
-Optionally, when a sorcerer gains a new bloodline power or bonus feat, she can swap it for a
-specific [bloodline mutation](ref/ability/bloodline-mutations) whose prerequisites she meets.
-
-**Eschew Materials**
-
-**Ability:** You gain [Eschew Materials](ref/feat/eschew-materials) as a bonus feat at 1st level.
-
-**Gained:** At 1st Level
+A sorcerer gains [Eschew Materials](ref/feat/eschew-materials) as a bonus feat at 1st level.
 
 ### Alternate Capstones
 

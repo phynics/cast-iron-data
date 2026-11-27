@@ -291,8 +291,8 @@ the summoner to fewer than 0 hit points is instead transferred to the eidolon. T
 transferred 1 point at a time, meaning that as soon as the eidolon is reduced to a number of
 negative hit points equal to its Constitution score, all excess damage remains with the summoner.
 Effects that cause death but not damage are unaffected by this ability. This ability does not affect
-spells like [baleful polymorph](ref/spell/baleful-polymorph),
-[flesh to stone](ref/spell/flesh-to-stone), or [imprisonment](ref/spell/imprisonment), or other
+spells like _[baleful polymorph](ref/spell/baleful-polymorph)_,
+_[flesh to stone](ref/spell/flesh-to-stone)_, or _[imprisonment](ref/spell/imprisonment)_, or other
 spells that do not cause actual damage.
 
 #### Merge Forms (Su) {#merge-forms}

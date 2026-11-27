@@ -672,6 +672,7 @@ def finish_text(s: str, vocab: set[str]) -> str:
     s = re.sub(r"(?<![\w)\]])–(?=\d)", "-", s)           # a minus sign
     s = re.sub(r"(?<=\w) – (?=\d)", " - ", s)             # a minus operator ("druid level – 2")
     s = fix_ligatures(s, vocab)
+    s = fix_glued(s, vocab)
     s = fix_hyphens(s, vocab)
     s = re.sub(r"\b([A-Z][a-z]+)- ([A-Z][a-z]+)\b", r"\1-\2", s)        # "Sahir-" at a line end and "Afiyun" at the start of the next: a compound of two capitalized words
     s = re.sub("(?<=[A-Za-z0-9)_" + I_CLOSE + "])\u2014 +(?=\\S)", "\u2014", s)   # a line that ends in an em dash joins the next one without a blank ("DR 5/\u2014 against" keeps its blank); an italic label ("3rd\u2014") too
@@ -693,7 +694,40 @@ def finish_text(s: str, vocab: set[str]) -> str:
 
 # Words that print sets with a ligature and that the book's own word list may hold only in the broken form ("f lickering", Advanced Player's Guide p. 39,
 # where the word list has the fragment "lickering" and no "flickering"): the join is made without the word list.
-LIGATURE_WORDS = {"flickering", "flicker", "flickers", "flickered"}
+LIGATURE_WORDS = {"flickering", "flicker", "flickers", "flickered", "halfling", "halflings"}
+
+
+CORPUS_LIGATURE_WORDS: list[set[str]] = []
+
+
+def corpus_ligature_words() -> set[str]:
+    """The words with "fi" or "fl" that the corpus has whole (a broken "f lanks" of one book is "flanks" where another entry has the word): read once from `entries/`."""
+    if not CORPUS_LIGATURE_WORDS:
+        words: set[str] = set()
+        pat = re.compile(r"\b[A-Za-z]*f[il][A-Za-z]*\b")
+        for path in (HERE.parent / "entries").rglob("*.md"):
+            words.update(w.lower() for w in pat.findall(path.read_text(encoding="utf-8")))
+        CORPUS_LIGATURE_WORDS.append(words)
+    return CORPUS_LIGATURE_WORDS[0]
+
+
+GLUE_HEAD = ("of", "to", "in", "if", "at", "as", "by", "on", "or", "an")
+GLUE_TAIL = {"its", "his", "her", "the", "them", "their", "this", "that", "these", "those", "any", "each", "she", "you", "your", "all", "both", "such"}       # three letters or more: "init." is no "in it"
+
+
+def fix_glued(s: str, vocab: set[str]) -> str:
+    """"ofits" for "of its": the text layer drops the blank at a line end (Core Rulebook, Detect Evil p. 60). A word that the book does not have, that is a short
+    word of the language and one of a few words that follow it, is two words. A word that the word list has ("anthem": the book prints it, an entry holds it) is a
+    word of the language and stays (review of #389, 2026-11-27)."""
+    def split(m: re.Match) -> str:
+        w = m.group(0)
+        if not w.islower() or w in vocab:
+            return w
+        for head in GLUE_HEAD:
+            if w.lower().startswith(head) and w[len(head):].lower() in GLUE_TAIL:
+                return w[:len(head)] + " " + w[len(head):]
+        return w
+    return re.sub(r"\b[A-Za-z]{4,9}\b", split, s)
 
 
 def fix_ligatures(s: str, vocab: set[str]) -> str:
@@ -707,7 +741,10 @@ def fix_ligatures(s: str, vocab: set[str]) -> str:
             out.append(s[i:])
             return "".join(out)
         a, b = m.group(1), m.group(2)
-        if (a + b).lower() in vocab or (a + b).lower() in LIGATURE_WORDS:
+        joined = (a + b).lower()
+        # a word that another entry has whole joins a broken one only when the left piece is no word of its own ("f lanks": "f"; not "of law", "of lightning", "belief in":
+        # the corpus has the glued errors "oflaw" and "beliefin" of its imports)
+        if joined in vocab or joined in LIGATURE_WORDS or (joined in corpus_ligature_words() and (len(a) < 2 or a.lower() not in vocab)):
             out += [s[i:m.start()], a + b]
             i = m.end()
         else:
@@ -7079,6 +7116,14 @@ def self_test() -> int:
     kinds2 = [(b.kind, b.size) for b in read_blocks(two, 1, 1)]
     SMALL_CAP_TITLES["on"] = False
     eq(kinds2, [("title", 36), ("title", 27), ("para", 0)], "a title of another size is a title of its own")
+    eq(fix_ligatures("the rogue f lanks and a half ling", set()), "the rogue flanks and a halfling", "a ligature word that another entry of the corpus has whole is joined (Rogue, Core Rulebook p. 68)")
+    eq(fix_glued("learning the strength ofits aura, and the atone ofthe soul", {"atone"}), "learning the strength of its aura, and the atone of the soul", "a word that the layer glued at a line end is two words (Core Rulebook p. 60)")
+    eq(fix_glued("the rousing anthem, init. and an ofits", {"anthem", "init"}), "the rousing anthem, init. and an of its", "a word of the word list stays (anthem), a two-letter tail is no glue (init)")
+    CORPUS_LIGATURE_WORDS[:] = [CORPUS_LIGATURE_WORDS[0] | {"oflaw", "oflightning", "beliefin", "ofleaders", "flanks"}] if CORPUS_LIGATURE_WORDS else [{"oflaw", "oflightning", "beliefin", "ofleaders", "flanks"}]
+    _v = {"of", "law", "lightning", "belief", "in", "leaders", "if", "lanks"}
+    eq(fix_ligatures("the rule of law, a bolt of lightning, a belief in it, the council of leaders", _v), "the rule of law, a bolt of lightning, a belief in it, the council of leaders",
+       "a glued import error of the corpus (oflaw, oflightning, beliefin, ofleaders) joins nothing")
+    eq(fix_ligatures("the rogue f lanks it", _v - {"lanks"}), "the rogue flanks it", "a broken word that another entry has whole still joins")
     eq(fix_ligatures("shielded by a f lickering aura", set()), "shielded by a flickering aura", "a ligature word that the book's word list lacks is joined (Judgment: Resistance)")
     eq(fix_ligatures("he gains 1 point of inf luence over him and f ighter", {"influence", "fighter"}), "he gains 1 point of influence over him and fighter",
        "a ligature pair after a word that ends in f")
