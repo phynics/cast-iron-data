@@ -107,83 +107,81 @@ Knowledge (engineering), Knowledge (geography), Knowledge (history), Knowledge (
 |19th|6|6|6|6|5|5|4|
 |20th|6|6|6|6|6|5|5|
 
-**Weapon and Armor Proficiencies**
+### Class Features {#class-features}
 
-**Weapons:** All simple weapons, longsword, rapier, sap, short sword, shortbow, whip
+All of the following are class features of the bard.
 
-**Armor:** Light armor
+#### Weapon and Armor Proficiency {#weapon-and-armor-proficiencies}
 
-**Shields:** Yes, except tower shields
-
-**Notes:** You can cast bard spells while wearing light armor and use a shield without incurring the
-normal arcane spell failure chance. Like any other arcane spellcaster, wearing medium or heavy armor
+A bard is proficient with all simple weapons, plus the longsword, rapier, sap, short sword,
+shortbow, and whip. Bards are also proficient with light armor and shields (except tower shields). A
+bard can cast bard spells while wearing light armor and use a shield without incurring the normal
+arcane spell failure chance. Like any other arcane spellcaster, a bard wearing medium or heavy armor
 incurs a chance of arcane spell failure if the spell in question has a somatic component. A
 multiclass bard still incurs the normal arcane spell failure chance for arcane spells received from
 other classes.
 
-**Spells**
+#### Spells {#spells}
 
-**Spell list:** Arcane spells from the bard list, from 1st level
+A bard casts arcane spells drawn from the bard spell list presented in Chapter 10. He can cast any
+spell he knows without preparing it ahead of time. Every bard spell has a verbal component (song,
+recitation, or music). To learn or cast a spell, a bard must have a Charisma score equal to at least
+10 + the spell level. The Difficulty Class for a saving throw against a bard's spell is 10 + the
+spell level + the bard's Charisma modifier.
 
-**Key ability:** Charisma. Minimum score 10 + spell level; save DC 10 + spell level + Charisma
-modifier; a high score grants bonus spells per day.
+Like other spellcasters, a bard can cast only a certain number of spells of each spell level per
+day. His base daily spell allotment is given on Table 3–3. In addition, he receives bonus spells per
+day if he has a high Charisma score (see Table 1–3).
 
-**Casting:** Spontaneous: cast any spell known without preparation, within the daily allotment per
-spell level.
+The bard's selection of spells is extremely limited. A bard begins play knowing four 0-level spells
+and two 1st-level spells of the bard's choice. At each new bard level, he gains one or more new
+spells, as indicated on Table 3–4. (Unlike spells per day, the number of spells a bard knows is not
+affected by his Charisma score. The numbers on Table 3–4 are fixed.)
 
-**Spells known:** Very limited selection; starts with four 0-level and two 1st-level spells and
-grows by level as shown on the table. Charisma does not change the number known.
+Upon reaching 5th level, and at every third bard level after that (8th, 11th, and so on), a bard can
+choose to learn a new spell in place of one he already knows. In effect, the bard "loses" the old
+spell in exchange for the new one. The new spell's level must be the same as that of the spell being
+exchanged, and it must be at least one level lower than the highest-level bard spell the bard can
+cast. A bard may swap only a single spell at any given level and must choose whether or not to swap
+the spell at the same time that he gains new spells known for the level.
 
-**Spell swap:** At 5th, 8th, 11th, and every 3 levels after, one known spell may be exchanged for
-another of the same level that is at least one level below the highest level you can cast.
+A bard need not prepare his spells in advance. He can cast any spell he knows at any time, assuming
+he has not yet used up his allotment of spells per day for the spell's level.
 
-**Notes:** Every spell has a verbal component (song, recitation, or music).
+#### Cantrips {#cantrips}
 
-**Cantrips**
+Bards learn a number of cantrips, or 0-level spells, as noted on Table 3–4 under "Spells Known."
+These spells are cast like any other spell, but they do not consume any slots and may be used again.
 
-**Ability:** 0-level arcane spells. Cast without using a spell slot; one placed in a higher slot
-(for example through metamagic) uses that slot.
+#### Bardic Knowledge (Ex) {#bardic-knowledge}
 
-**Bardic Knowledge (Ex)**
+A bard adds [half](ref/misc/fractions-and-rounding) his class level (minimum 1) on all Knowledge
+skill checks and may make all Knowledge skill checks untrained.
 
-**Gained:** At 1st Level
+#### Bardic Performance {#bardic-performance}
 
-**Passive:** You add [half](ref/misc/fractions-and-rounding) your class level (minimum 1) to all
-Knowledge skill checks and may make all Knowledge skill checks untrained.
+A bard is trained to use the Perform skill to create magical effects on those around him, including
+himself if desired. He can use this ability for a number of rounds per day equal to 4 + his Charisma
+modifier. At each level after 1st a bard can use bardic performance for 2 additional rounds per day.
+Each round, the bard can produce any one of the types of bardic performance that he has mastered, as
+indicated by his level.
 
-**Bardic Performance**
-
-**Action:** Standard Action
-
-**Flavor:** You are trained to use the Perform skill to create magical effects on those around you,
-including yourself if desired.
-
-**At 13th Level:** You can begin a performance as a **swift action**.
-
-**At 7th Level:** You can begin a performance as a **move-equivalent action**.
-
-**Gained:** At 1st Level
-
-**Usage:** 2 + twice your bard level + your Cha modifier rounds/day.
-
-**Usage:** 2 + twice your bard level + your Cha modifier rounds/day.
-
-Each round, you can produce any one of the types of bardic performance that you have mastered, as
-indicated by your level.
-
-Starting a bardic performance is a **standard action**, but it can be maintained each round as a
-**free action**. Changing a bardic performance from one effect to another requires you to stop the
+Starting a bardic performance is a standard action, but it can be maintained each round as a free
+action. Changing a bardic performance from one effect to another requires the bard to stop the
 previous performance and start a new one as a standard action. A bardic performance cannot be
-disrupted, but it ends immediately if you are killed, [paralyzed](ref/rule/paralyzed),
+disrupted, but it ends immediately if the bard is killed, [paralyzed](ref/rule/paralyzed),
 [stunned](ref/misc/stunned), knocked [unconscious](ref/misc/unconscious), or otherwise prevented
-from taking a free action to maintain it each round. You cannot have more than one bardic
+from taking a free action to maintain it each round. A bard cannot have more than one bardic
 performance in effect at one time.
+
+At 7th level, a bard can start a bardic performance as a move action instead of a standard action.
+At 13th level, a bard can start a bardic performance as a swift action.
 
 Each bardic performance has audible components, visual components, or both.
 
 If a bardic performance has audible components, the targets must be able to hear the bard for the
 performance to have any effect, and many such performances are language dependent (as noted in the
-description. A deaf bard has a 20% chance to fail when attempting to use a bardic performance with
+description). A deaf bard has a 20% chance to fail when attempting to use a bardic performance with
 an audible component. If he fails this check, the attempt still counts against his daily limit. Deaf
 creatures are immune to bardic performances with audible components.
 
@@ -192,79 +190,52 @@ the performance to have any effect. A blind bard has a 50% chance to fail when a
 bardic performance with a visual component. If he fails this check, the attempt still counts against
 his daily limit. Blind creatures are immune to bardic performances with visual components.
 
-Bardic performances are collected here.
+- [Countersong (Su)](ref/performance/countersong)
+- [Distraction (Su)](ref/performance/distraction)
+- [Fascinate (Su)](ref/performance/fascinate)
+- [Inspire Courage (Su)](ref/performance/inspire-courage)
+- [Inspire Competence (Su)](ref/performance/inspire-competence)
+- [Suggestion (Sp)](ref/performance/suggestion)
+- [Dirge of Doom (Su)](ref/performance/dirge-of-doom)
+- [Inspire Greatness (Su)](ref/performance/inspire-greatness)
+- [Soothing Performance (Su)](ref/performance/soothing-performance)
+- [Frightening Tune (Sp)](ref/performance/frightening-tune)
+- [Inspire Heroics (Su)](ref/performance/inspire-heroics)
+- [Mass Suggestion (Sp)](ref/performance/mass-suggestion)
+- [Deadly Performance (Su)](ref/performance/deadly-performance)
 
-**Bardic Masterpieces:** Talented bards can learn or create masterpieces, unusual applications of
-the bardic performance ability requiring special training. Each masterpiece has an associated cost
-to learn it. Typically, a bard must spend one of his bard spells known of a specific spell level or
-select it in place of a feat.
+#### Versatile Performance (Ex) {#versatile-performance}
 
-Also, a bard may learn [saga](ref/ability/sagas), which are useable with his bardic performance
-ability.
+At 2nd level, a bard can choose one type of Perform skill. He can use his bonus in that skill in
+place of his bonus in associated skills. When substituting in this way, the bard uses his total
+Perform skill bonus, including class skill bonus, in place of its associated skill's bonus, whether
+or not he has ranks in that skill or if it is a class skill. At 6th level, and every 4 levels
+thereafter, the bard can select an additional type of Perform to substitute.
 
-**Versatile Performance (Ex)**
+The types of Perform and their associated skills are: Act (Bluff, Disguise), Comedy (Bluff,
+Intimidate), Dance (Acrobatics, Fly), Keyboard Instruments (Diplomacy, Intimidate), Oratory
+(Diplomacy, Sense Motive), Percussion (Handle Animal, Intimidate), Sing (Bluff, Sense Motive),
+String (Bluff, Diplomacy), and Wind (Diplomacy, Handle Animal).
 
-**Action:** Choice
+#### Well-Versed (Ex) {#well-versed}
 
-**Gained:** At 2nd Level
-
-**Repeat:** You can select an additional type of Perform to substitute., 6, 4
-
-You can choose one type of Perform skill, using your bonus in that skill in place of your bonus in
-associated skills. When substituting in this way, you use your total Perform skill bonus, including
-class skill bonus, in place of its associated skill's bonus, whether or not you have ranks in that
-skill or if it is a class skill.
-
-The types of Perform and their associated skills are:
-
-- **Act:** Bluff, Disguise
-- **Comedy:** Bluff, Intimidate
-- **Dance:** Acrobatics, Fly
-- **Keyboard Instruments:** Diplomacy, Intimidate
-- **Oratory:** Diplomacy, Sense Motive
-- **Percussion:** Handle Animal, Intimidate
-- **Sing:** Bluff, Sense Motive
-- **String:** Bluff, Diplomacy
-- **Wind:** Diplomacy, Handle Animal
-
-Beginning at 6th level, instead of selecting an additional skill with versatile performance, a bard
-can choose an [advanced versatile performance](ref/ability/advanced-versatile-performances) for one
-Perform skill he previously selected with versatile performance. Some advanced versatile performance
-options can be selected only if the bard meets the option's prerequisites. A bard with an archetype
-that replaces versatile performance cannot select advanced versatile performance options.
-
-**Well-Versed (Ex)**
-
-**Flavor:** You become resistant to the bardic performance of others, and to sonic effects in
-general.
-
-**Gained:** At 2nd Level
-
-**Passive:** You gain a +4 bonus on saving throws made against bardic performance, sonic, and
+At 2nd level, the bard becomes resistant to the bardic performance of others, and to sonic effects
+in general. The bard gains a +4 bonus on saving throws made against bardic performance, sonic, and
 language-dependent effects.
 
-**Lore Master (Ex)**
+#### Lore Master (Ex) {#lore-master}
 
-**Ability:** You can take 10 on any Knowledge skill check that you have ranks in even when
-threatened or distracted. You can also choose not to take 10 and can instead roll normally.
+At 5th level, the bard becomes a master of lore and can take 10 on any Knowledge skill check that he
+has ranks in. A bard can choose not to take 10 and can instead roll normally. In addition, once per
+day, the bard can take 20 on any Knowledge skill check as a standard action. He can use this ability
+one additional time per day for every six levels he possesses beyond 5th, to a maximum of three
+times per day at 17th level.
 
-**Flavor:** You become a master of lore.
+#### Jack-of-All-Trades (Ex) {#jack-of-all-trades}
 
-**At 11th Level:** You can Take 20 twice a day.
-
-**At 17th Level:** You can Take 20 three times a day.
-
-**Gained:** At 5th Level
-
-**Standard:** Once per day, you can take 20 on any Knowledge skill check.
-
-**Jack-of-All-Trades (Ex)**
-
-**At 10th Level:** You can use any skill, even if the skill normally requires you to be trained.
-
-**At 16th Level:** You consider all skills to be class skills.
-
-**At 19th Level:** You can take 10 on any skill check, even if it is not normally allowed.
+At 10th level, the bard can use any skill, even if the skill normally requires him to be trained. At
+16th level, the bard considers all skills to be class skills. At 19th level, the bard can take 10 on
+any skill check, even if it is not normally allowed.
 
 ### Alternate Capstones
 

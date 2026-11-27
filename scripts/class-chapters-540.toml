@@ -1,0 +1,151 @@
+# Sections of other owner books that a base class entry carries (owner ruling 32, #540), read by `feature-prose-540-classes.py`.
+#
+# Each `[[other_book]]` names the class entry, the book, the PDF page that holds the text (the script checks every word of each section against that page), and the key
+# of the item that the sections stand before. Each `[[other_book.section]]` is print's text, typed from the other book, under a head that names the book and the page. A key
+# that the corpus has as a head is reused (no key moves); a head that the corpus has twice (`-2`) goes. Text is Markdown: a link is a link of the corpus.
+
+[[other_book]]
+class = "ref/class/cavalier"
+book = "chronicle-of-legends"
+page = 6
+before = "bonus-feat"
+
+[[other_book.section]]
+key = "flying-the-flag-of-war"
+head = "Flying the Flag of War (Chronicle of Legends page 4)"
+text = """Some knights inspire and direct their allies with specialized tactics. A cavalier or samurai can select one of the following battle standards upon gaining the banner class feature, and its benefits replace the normal benefits of the banner and greater banner class features. A battle standard functions as the banner or greater banner class feature except where otherwise noted. A cavalier or samurai who replaces the banner or greater banner class feature via an archetype cannot select a battle standard, with the following exception: a standard bearer cavalier can select a battle standard at 1st level, and its effects increase as per the standard bearer's banner."""
+
+[[other_book.section]]
+key = "fleet-standard"
+head = "Fleet Standard (Ex) (Chronicle of Legends page 4)"
+text = """These banners are common among Jininese samurai. An ally who benefits from this standard increases her land speed by 5 feet and gains a +1 dodge bonus to AC during any round in which she moved at least 10 feet. This increase to land speed is an enhancement bonus. At 10th level and every 5 levels thereafter, the bonus to speed increases by 5 feet. At 14th level, an ally benefiting from the banner gains a +2 morale bonus on Reflex saving throws against effects that target an area, such as [fireball](ref/spell/fireball) or [breath weapons](ref/umr/breath-weapon). When the cavalier or samurai waves this standard, each ally within 60 feet can move up to her speed as an immediate action."""
+
+[[other_book.section]]
+key = "jinx-standard"
+head = "Jinx Standard (Ex) (Chronicle of Legends page 4)"
+text = """These grim fetishes are common among Jadwiga cavaliers. An ally who benefits from this standard gains a +1 bonus on caster level checks to bypass [spell resistance](ref/rule/spell-resistance) and a +1 bonus to the DC of her hexes and necromancy or enchantment spell she casts. At 10th level and every 5 levels thereafter, the bonus on caster level checks increases by 1. At 14th level, an ally benefiting from the banner gains a +2 morale bonus on saving throws against spells or effects that deal hit point damage. When the cavalier or samurai waves this standard, a number of allies equal to the cavalier or samurai's Charisma modifier (minimum 1) within 60 feet can attempt an Intimidate check to demoralize a foe as an immediate action."""
+
+[[other_book.section]]
+key = "knave-standard"
+head = "Knave Standard (Ex) (Chronicle of Legends page 4)"
+text = """The knave standard is common among cavaliers of the River Kingdoms. An ally who benefits from this standard gains a +2 dodge bonus to AC against attacks of opportunity provoked by movement and a +1 morale bonus on attack rolls that benefit from [flanking](ref/rule/flanking). At 10th level and every 5 levels thereafter, the bonus to AC increases by 1. At 14th level, an ally benefiting from the banner gains [sneak attack](ref/ability/sneak-attack) +1d6; this stacks with other sources of sneak attack. When the cavalier or samurai waves this standard, a number of allies equal to the cavalier or samurai's Charisma modifier (minimum 1) within 60 feet can each attempt a [feint](ref/rule/feint) against a foe she threatens as an immediate action."""
+
+[[other_book.section]]
+key = "stalwart-standard"
+head = "Stalwart Standard (Ex) (Chronicle of Legends page 4)"
+text = """These banners are common among the dwarven defenders of Kraggodan. An ally who benefits from this standard gains a +2 morale bonus to CMD and a +1 morale bonus on attack rolls to creatures threatening an ally. At 10th level and every 5 levels thereafter, the bonus to CMD increases by +1. At 14th level, an ally benefiting from the banner is treated as one size category larger for the purposes of determining which creatures can affect him with combat maneuvers. When the cavalier or samurai waves this standard, each ally within 60 feet can move up to 10 feet without provoking attacks of opportunities and ignoring [difficult terrain](ref/rule/terrain-and-obstacles) as an immediate action."""
+
+[[other_book]]
+class = "ref/class/cavalier"
+book = "wilderness-origins"
+page = 25
+before = "order"
+
+[[other_book.section]]
+key = "cavalier-mounts-wilderness-origins"
+head = "Cavalier Mounts (Wilderness Origins page 23)"
+text = """A Medium cavalier can select an [axe beak](ref/companion/axe-beak), [elk](ref/companion/elk), [giant tortoise](ref/companion/tortoise-giant), [giant seahorse](ref/companion/seahorse-giant), or [giraffe](ref/companion/giraffe) as a mount. A Small cavalier can select an [antelope](ref/companion/antelope), [giant weasel](ref/companion/weasel-giant), [kangaroo](ref/companion/kangaroo), lizard ([giant gecko](ref/companion/lizard-giant-gecko)), [ram](ref/companion/ram), or [stag](ref/companion/stag) as a mount. The augmented companion, bodyguard, bully, daredevil, draconic companion, racer, and wrecker companion archetypes are all particularly appropriate for a cavalier's mount."""
+
+[[other_book]]
+class = "ref/class/cavalier"
+book = "ultimate-wilderness"
+page = 179
+before = "order"
+
+[[other_book.section]]
+key = "cavalier-mounts-ultimate-wilderness"
+head = "Cavalier Mounts (Ultimate Wilderness page 178)"
+text = """A Medium cavalier can select a [zebra](ref/companion/zebra) as a mount. A Small cavalier can select a [capybara](ref/companion/capybara), [reindeer](ref/companion/reindeer), or [wolfdog](ref/companion/wolfdog) as a mount."""
+
+# The window of a base class (`[[class]]`): the squashed titles inside "Class Features" that print sets as a section between two features and that do not end the window.
+[[class]]
+id = "ref/class/ranger"
+keep_titles = ["Ranger Favored Enemies", "Favored Terrains"]
+
+# `gap_stop`: the print title from which the section is other entries' (the gap check of the class stops there): the domains of the Cleric (`ref/domain/*`), the animal
+# companions of the Druid, the bloodlines of the Sorcerer (`ref/sorcbloodline/*`), the arcane schools of the Wizard (`ref/arcaneschool/*`).
+[[class]]
+id = "ref/class/cleric"
+gap_stop = "Domains"
+
+[[class]]
+id = "ref/class/druid"
+gap_stop = "Animal Companions"
+
+[[class]]
+id = "ref/class/sorcerer"
+gap_stop = "Sorcerer Bloodlines"
+
+[[class]]
+id = "ref/class/wizard"
+gap_stop = "Arcane Schools"
+
+# `[[option_pick]]`: the entry that a class links where its option group holds two entries of one name (rage powers are one group for the Barbarian and the Unchained
+# Barbarian): the one printed in the book of the class.
+[[option_pick]]
+class = "ref/class/barbarian"
+name = "Guarded Stance"
+entry = "ref/ragepower/guarded-stance"
+
+# `[[layout_fix]]`: words or cells of a class table that print's layout runs into a sentence of a feature (the text layer reads the table beside the text): the printed words
+# `find` (a plain string, or `re:` and a regular expression) and what the sentence says (`replace`). Each is checked against the page when it is added.
+
+[[layout_fix]]
+class = "ref/class/summoner"
+key = "eidolon"
+find = "the Twin eidolon summoner's class level"
+replace = "the summoner's class level"
+
+[[layout_fix]]
+class = "ref/class/inquisitor"
+key = "slayer"
+find = "cannot be changed for the remainder of the judgment"
+replace = "cannot be changed for the remainder of the judgment."
+
+[[layout_fix]]
+class = "ref/class/antipaladin"
+key = "fiendish-boon"
+find = "re:Spells per Day 1st 2nd 3rd 4th(?: [—–\\d]+)+ "
+replace = ""
+
+[[layout_fix]]
+class = "ref/class/inquisitor"
+key = "solo-tactics"
+find = "re:Spells per Day(?: \\d+)+ "
+replace = ""
+
+[[layout_fix]]
+class = "ref/class/summoner"
+key = "life-link"
+find = "more than 1,000 feet Spells per Day 5 5 5 5 5 5 away"
+replace = "more than 1,000 feet away"
+
+# the cells of Table 3-5 (Cleric spells per day) and its footnote that run into the sentence of Channel Energy (Core Rulebook p. 40); the Special cells of Table 3-9 in Armor Training (p. 55)
+
+[[layout_fix]]
+class = "ref/class/cleric"
+key = "channel-energy"
+find = "re:dealt (?:[\\d+\u2014\u2013-]+ )+Note: .\\+1. represents the domain spell slot or healed"
+replace = "dealt or healed"
+
+[[layout_fix]]
+class = "ref/class/fighter"
+key = "armor-training"
+find = "Bonus feat, weapon mastery In addition"
+replace = "In addition"
+
+[[option_pick]]
+class = "ref/class/rogue"
+name = "Skill Mastery"
+entry = "ref/talent/skill-mastery"
+
+# `sections_behind`: rows of the corpus (under the proficiencies) that print sets as paragraphs of their own behind the last feature (the Paladin's code of conduct and
+# her associates, Core Rulebook p. 63): they become unlisted sections of the class, as the Antipaladin's do.
+[[class]]
+id = "ref/class/paladin"
+sections_behind = ["Code of Conduct", "Associates"]
+
+# the Antipaladin's code of conduct and associates (Advanced Player's Guide p. 121)
+[[class]]
+id = "ref/class/antipaladin"
+sections_behind = ["Code of Conduct", "Associates"]

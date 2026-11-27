@@ -85,143 +85,117 @@ law/chaos axis or the good/evil axis.
 |19th|+14/+9/+4|+11|+6|+11|Channel energy 10d6|4|4+1|4+1|4+1|4+1|4+1|4+1|4+1|3+1|3+1|
 |20th|+15/+10/+5|+12|+6|+12|-|4|4+1|4+1|4+1|4+1|4+1|4+1|4+1|4+1|4+1|
 
-**Weapon and Armor Proficiencies**
+### Class Features {#class-features}
 
-**Weapons:** All simple weapons, The favored weapon of their deity
+The following are class features of the cleric.
 
-**Armor:** Light armor, Medium armor
+#### Weapon and Armor Proficiency {#weapon-and-armor-proficiencies}
 
-**Shields:** Yes, except tower shields
+Clerics are proficient with all simple weapons, light armor, medium armor, and shields (except tower
+shields). Clerics are also proficient with the favored weapon of their deity.
 
-**Bonus Languages**
+#### Bonus Languages {#bonus-languages}
 
-**Gained:** At 1st Level
+A cleric's bonus language options include Celestial, Abyssal, and Infernal (the languages of good,
+chaotic evil, and lawful evil outsiders, respectively). These choices are in addition to the bonus
+languages available to the character because of her race.
 
-**Passive:** Your bonus language options include Celestial, Abyssal, and Infernal (the languages of
-good, chaotic evil, and lawful evil outsiders, respectively). These choices are in addition to the
-bonus languages available to you because of your race.
+#### Aura (Ex) {#aura}
 
-**Aura (Ex)**
+A cleric of a chaotic, evil, good, or lawful deity has a particularly powerful aura corresponding to
+the deity's alignment (see the _[detect evil](ref/spell/detect-evil)_ spell for details).
 
-**Gained:** At 1st Level
+#### Spells {#spells}
 
-**Passive:** If you are a cleric of a chaotic, evil, good, or lawful deity, you have a particularly
-powerful aura corresponding to your deity's alignment (see [detect evil](ref/spell/detect-evil)).
+A cleric casts divine spells which are drawn from the cleric spell list presented in Chapter 10. Her
+alignment, however, may restrict her from casting certain spells opposed to her moral or ethical
+beliefs; see chaotic, evil, good, and lawful spells on page 41. A cleric must choose and prepare her
+spells in advance.
 
-**Spells**
+To prepare or cast a spell, a cleric must have a Wisdom score equal to at least 10 + the spell
+level. The Difficulty Class for a saving throw against a cleric's spell is 10 + the spell level +
+the cleric's Wisdom modifier.
 
-**Spell list:** Divine spells from the cleric list, from 1st level
+Like other spellcasters, a cleric can cast only a certain number of spells of each spell level per
+day. Her base daily spell allotment is given on Table 3–5. In addition, she receives bonus spells
+per day if she has a high Wisdom score (see Table 1–3).
 
-**Key ability:** Wisdom. Minimum score 10 + spell level; save DC 10 + spell level + Wisdom modifier;
-a high score grants bonus spells per day.
+Clerics meditate or pray for their spells. Each cleric must choose a time when she must spend 1 hour
+each day in quiet contemplation or supplication to regain her daily allotment of spells. A cleric
+may prepare and cast any spell on the cleric spell list, provided that she can cast spells of that
+level, but she must choose which spells to prepare during her daily meditation.
 
-**Casting:** Prepared: choose and prepare spells in advance.
+#### Orisons {#orisons}
 
-**Notes:** Alignment can bar spells opposed to it. Regains spells after 1 hour in meditation at a
-chosen time each day; any spell on the list can be prepared.
+Clerics can prepare a number of orisons, or 0-level spells, each day, as noted on Table 3–5 under
+"Spells per Day." These spells are cast like any other spell, but they are not expended when cast
+and may be used again.
 
-**Orisons**
+#### Chaotic, Evil, Good, and Lawful Spells {#chaotic-evil-good-and-lawful-spells}
 
-**Ability:** 0-level divine spells. Prepared like other spells but not expended when cast; one
-placed in a higher slot (for example through metamagic) uses that slot.
-
-**Chaotic, Evil, Good, and Lawful Spells**
-
-**Section:** Aligned Spells
-
-**Passive:** You can't cast spells of an alignment opposed to your own or your deity's (if you have
-one). Spells associated with particular alignments are indicated by the chaos, evil, good, and law
+A cleric can't cast spells of an alignment opposed to her own or her deity's (if she has one).
+Spells associated with particular alignments are indicated by the chaotic, evil, good, and lawful
 descriptors in their spell descriptions.
 
-**Channel Energy (Su)**
+#### Channel Energy (Su) {#channel-energy}
 
-**Choice:** A good cleric (or one who worships a good deity) channels **positive energy** and can
-choose to deal damage to undead creatures or to heal living creatures. An evil cleric (or one who
-worships an evil deity) channels **negative energy** and can choose to deal damage to living
-creatures or to heal undead creatures. A neutral cleric who worships a neutral deity (or one who is
-not devoted to a particular deity) must choose whether she channels positive or negative energy.
-Once this choice is made, it cannot be reversed. _This decision also determines whether the cleric
-casts spontaneous_ cure _or_ inflict _spells (see_ Spontaneous Casting _below)._
-
-**Flavor:** Regardless of alignment, any cleric can release a wave of energy by channeling the power
-of her faith through her holy (or unholy) symbol. This energy can be used to cause or heal damage,
+Regardless of alignment, any cleric can release a wave of energy by channeling the power of her
+faith through her holy (or unholy) symbol. This energy can be used to cause or heal damage,
 depending on the type of energy channeled and the creatures targeted.
 
-**Gained:** At 1st Level
+A good cleric (or one who worships a good deity) channels positive energy and can choose to deal
+damage to undead creatures or to heal living creatures. An evil cleric (or one who worships an evil
+deity) channels negative energy and can choose to deal damage to living creatures or to heal undead
+creatures. A neutral cleric who worships a neutral deity (or one who is not devoted to a particular
+deity) must choose whether she channels positive or negative energy. Once this choice is made, it
+cannot be reversed. This decision also determines whether the cleric casts spontaneous cure or
+inflict spells (see spontaneous casting).
 
-**Provokes attack of opportunity:** No
+Channeling energy causes a [burst](ref/misc/burst) that affects all creatures of one type (either
+undead or living) in a 30-foot radius centered on the cleric. The amount of damage dealt or healed
+is equal to 1d6 points of damage plus 1d6 points of damage for every two cleric levels beyond 1st
+(2d6 at 3rd, 3d6 at 5th, and so on). Creatures that take damage from channeled energy receive a Will
+save to halve the damage. The DC of this save is equal to 10 + 1/2 the cleric's level + the cleric's
+Charisma modifier. Creatures healed by channeled energy cannot exceed their maximum hit point
+total—all excess healing is lost. A cleric may channel energy a number of times per day equal to 3 +
+her Charisma modifier. This is a standard action that does not provoke an attack of opportunity. A
+cleric can choose whether or not to include herself in this effect. A cleric must be able to present
+her holy symbol to use this ability.
 
-**Special:** Creatures healed by channeled energy cannot exceed their maximum hit point total - all
-excess healing is lost.
+#### Domains {#domains}
 
-**Standard:** You must present your holy symbol to channel energy. This causes a
-[burst](ref/misc/burst) that affects all creatures of one type (either undead or living) in a
-30-foot radius centered on you. This deals or heals (see below) 1d6 damage. You can choose whether
-or not to include yourself in this effect. Creatures that take damage from channeled energy receive
-a Will save to halve the damage, with a DC equal to 10 + [half](ref/misc/fractions-and-rounding)
-your cleric level + your Charisma modifier.
+A cleric's deity influences her alignment, what magic she can perform, her values, and how others
+see her. A cleric chooses two [domains](ref/ability/domains) from among those belonging to her
+deity. A cleric can select an alignment domain (Chaos, Evil, Good, or Law) only if her alignment
+matches that domain. If a cleric is not devoted to a particular deity, she still selects two domains
+to represent her spiritual inclinations and abilities (subject to GM approval). The restriction on
+alignment domains still applies.
 
-**Usage:** Cha3 modifier times/day
-
-At 3rd level: The damage increases to 2d6.
-
-At 5th level: The damage increases to 3d6.
-
-At 7th level: The damage increases to 4d6.
-
-At 9th level: The damage increases to 5d6.
-
-At 11th level: The damage increases to 6d6.
-
-At 13th level: The damage increases to 7d6.
-
-At 15th level: The damage increases to 8d6.
-
-At 17th level: The damage increases to 9d6.
-
-At 19th level: The damage increases to 10d6.
-
-Some deities may endow their mortal servants with the power to channel energies in other ways that
-more closely mirror their particular focus. You may choose one of these
-[variant channeling abilities](ref/ability/variant-channeling) instead.
-
-**Domains**
-
-**Action:** Choice
-
-**Flavor:** A cleric's deity influences her alignment, what magic she can perform, her values, and
-how others see her.
-
-**Gained:** At 1st Level
-
-You choose two [domains](ref/ability/domains) from among those belonging to your deity. You can
-select an alignment domain (Chaos, Evil, Good, or Law) only if your alignment matches that domain.
-If you are not devoted to a particular deity, you still select two domains to represent your
-spiritual inclinations and abilities (subject to GM approval). The restriction on alignment domains
-still applies.
-
-Each domain grants a number of **domain powers**, dependent upon your cleric level, as well as a
-number of bonus spells. You gain one **domain spell slot** for each level of cleric spell you can
-cast, from 1st on up. Each day, you can prepare one of the spells from your two domains in that
-slot. If a domain spell is not on the cleric spell list, you can prepare it only in your domain
+Each domain grants a number of domain powers, dependent upon the level of the cleric, as well as a
+number of bonus spells. A cleric gains one domain spell slot for each level of cleric spell she can
+cast, from 1st on up. Each day, a cleric can prepare one of the spells from her two domains in that
+slot. If a domain spell is not on the cleric spell list, a cleric can prepare it only in her domain
 spell slot. Domain spells cannot be used to cast spells spontaneously.
 
-In addition, you gain the listed powers from both of your domains, if you are of a high enough
-level. Unless otherwise noted, using a domain power is a **standard action**.
+In addition, a cleric gains the listed powers from both of her domains, if she is of a high enough
+level. Unless otherwise noted, using a domain power is a standard action. Cleric domains are listed
+at the end of this class entry.
 
-**Spontaneous Casting:**
+#### Spontaneous Casting {#spontaneous-casting}
 
-**Ability:** You can "lose" any prepared spell that is not an orison or domain spell in order to
-cast any _cure_ spell of the same spell level or lower. This is only true if you channel positive
-energy. If you channel negative energy, you can convert spells to _inflict_ spells.
+A good cleric (or a neutral cleric of a good deity) can channel stored spell energy into healing
+spells that she did not prepare ahead of time. The cleric can "lose" any prepared spell that is not
+an orison or domain spell in order to cast any cure spell of the same spell level or lower (a cure
+spell is any spell with "cure" in its name).
 
-**Flavor:** A good cleric (or a neutral cleric of a good deity) can channel stored spell energy into
-healing spells that she did not prepare ahead of time.
+An evil cleric (or a neutral cleric who worships an evil deity) can't convert prepared spells to
+cure spells but can convert them to inflict spells (an inflict spell is one with "inflict" in its
+name).
 
-**Gained:** At 1st Level
-
-**Special:** A _cure spell_ is any spell with "cure" in its name, while an _inflict spell_ is one
-with "inflict" in its name. These spells are grouped here.
+A cleric who is neither good nor evil and whose deity is neither good nor evil can convert spells to
+either cure spells or inflict spells (player's choice). Once the player makes this choice, it cannot
+be reversed. This choice also determines whether the cleric channels positive or negative energy
+(see Channel Energy).
 
 ### Ex-Clerics
 

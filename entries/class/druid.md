@@ -22,6 +22,23 @@ kind = "class"
 class_type = "core"
 hit_die = "d8"
 skill_ranks = "4 + Int modifier"
+features = [
+  { anchor = "spells" },
+  { anchor = "orisons", level = 1 },
+  { anchor = "spontaneous-casting", level = 1 },
+  { anchor = "chaotic-evil-good-and-lawful-spells" },
+  { anchor = "bonus-languages" },
+  { anchor = "nature-bond", level = 1 },
+  { anchor = "nature-sense", level = 1 },
+  { anchor = "wild-empathy", level = 1 },
+  { anchor = "woodland-stride", level = 2 },
+  { anchor = "trackless-step", level = 3 },
+  { anchor = "resist-nature-s-lure", level = 4 },
+  { anchor = "wild-shape", level = 4 },
+  { anchor = "venom-immunity", level = 9 },
+  { anchor = "a-thousand-faces", level = 13 },
+  { anchor = "timeless-body", level = 15 },
+]
 +++
 
 Within the purity of the elements and the order of the wilds lingers a power beyond the marvels of
@@ -84,249 +101,188 @@ wonders.
 |19th|+14/+9/+4|+11|+6|+11|-|4|4|4|4|4|4|4|4|3|3|
 |20th|+15/+10/+5|+12|+6|+12|Wild shape (at will)|4|4|4|4|4|4|4|4|4|4|
 
-#### Weapon and Armor Proficiencies {#weapon-and-armor-proficiencies}
+### Class Features {#class-features}
 
-**Weapons:** club, dagger, dart, quarterstaff, scimitar, scythe, sickle, shortspear, sling, spear,
-All natural attacks (claw, bite, and so forth) of any form the druid assumes with wild shape
+All of the following are class features of the druid.
 
-**Armor:** Light armor, Medium armor
+#### Weapon and Armor Proficiency {#weapon-and-armor-proficiencies}
 
-**Shields:** Yes, except tower shields
+Druids are proficient with the following weapons: club, dagger, dart, quarterstaff, scimitar,
+scythe, sickle, shortspear, sling, and spear. They are also proficient with all natural attacks
+(claw, bite, and so forth) of any form they assume with wild shape (see below).
 
-**Armor Notes:** Druids are prohibited from wearing metal armor or using metal shields, but is
-allowed to wear wooden armor that has been altered by the [ironwood](ref/spell/ironwood) spell so
-that it functions as though it were steel.
+Druids are proficient with light and medium armor but are prohibited from wearing metal armor; thus,
+they may wear only padded, leather, or hide armor. A druid may also wear wooden armor that has been
+altered by the _[ironwood](ref/spell/ironwood)_ spell so that it functions as though it were steel.
+Druids are proficient with shields (except tower shields) but must use only those crafted from wood.
 
-**Notes:** A druid who wears prohibited armor or uses a prohibited shield is unable to cast druid
-spells or use any of her supernatural or spell-like class abilities while doing so and for 24 hours
-thereafter.
+A druid who wears prohibited armor or uses a prohibited shield is unable to cast druid spells or use
+any of her supernatural or spell-like class abilities while doing so and for 24 hours thereafter.
 
 #### Spells {#spells}
 
-**Spell list:** Divine spells from the druid list, from 1st level
+A druid casts divine spells which are drawn from the druid spell list presented in Chapter 10. Her
+alignment may restrict her from casting certain spells opposed to her moral or ethical beliefs; see
+Chaotic, Evil, Good, and Lawful Spells. A druid must choose and prepare her spells in advance.
 
-**Key ability:** Wisdom. Minimum score 10 + spell level; save DC 10 + spell level + Wisdom modifier;
-a high score grants bonus spells per day.
+To prepare or cast a spell, the druid must have a Wisdom score equal to at least 10 + the spell
+level. The Difficulty Class for a saving throw against a druid's spell is 10 + the spell level + the
+druid's Wisdom modifier.
 
-**Casting:** Prepared: choose and prepare spells in advance.
+Like other spellcasters, a druid can cast only a certain number of spells of each spell level per
+day. Her base daily spell allotment is given on Table 3–7. In addition, she receives bonus spells
+per day if she has a high Wisdom score (see Table 1–3).
 
-**Notes:** Alignment can bar spells opposed to it. Regains spells after 1 hour meditating on nature
-each day; any spell on the list can be prepared.
+A druid must spend 1 hour each day in a trance-like meditation on the mysteries of nature to regain
+her daily allotment of spells. A druid may prepare and cast any spell on the druid spell list,
+provided that she can cast spells of that level, but she must choose which spells to prepare during
+her daily meditation.
 
 #### Orisons {#orisons}
 
-**Ability:** 0-level divine spells. Prepared like other spells but not expended when cast; one
-placed in a higher slot (for example through metamagic) uses that slot.
+Druids can prepare a number of orisons, or 0-level spells, each day, as noted on Table 3–7 under
+"Spells per Day." These spells are cast like any other spell, but they are not expended when cast
+and may be used again.
 
 #### Spontaneous Casting {#spontaneous-casting}
 
-**Ability:** You can "lose" a prepared spell in order to cast any
-[summon nature's ally](ref/spell/summon-natures-ally) spell of the same level or lower.
-
-**Flavor:** A druid can channel stored spell energy into summoning spells that she hasn't prepared
-ahead of time.
-
-**Gained:** At 1st Level
+A druid can channel stored spell energy into summoning spells that she hasn't prepared ahead of
+time. She can "lose" a prepared spell in order to cast any
+_[summon nature's ally](ref/spell/summon-natures-ally)_ spell of the same level or lower.
 
 #### Chaotic, Evil, Good, and Lawful Spells {#chaotic-evil-good-and-lawful-spells}
 
-**Section:** Aligned Spells
-
-**Passive:** You can't cast spells of an alignment opposed to your own or your deity's (if you have
-one). Spells associated with particular alignments are indicated by the chaos, evil, good, and law
-descriptors in their spell descriptions.
+A druid can't cast spells of an alignment opposed to her own or her deity's (if she has one). Spells
+associated with particular alignments are indicated by the chaos, evil, good, and law descriptors in
+their spell descriptions.
 
 #### Bonus Languages {#bonus-languages}
 
-**Gained:** At 1st Level
+A druid's bonus language options include Sylvan, the language of woodland creatures. This choice is
+in addition to the bonus languages available to the character because of her race.
 
-**Passive:** Your bonus language options include Sylvan, the language of woodland creatures. This
-choice is in addition to the bonus languages available to you because of your race. You also know
-Druidic, a secret language known only to druids, which you learn upon becoming a 1st-level druid.
+A druid also knows Druidic, a secret language known only to druids, which she learns upon becoming a
+1st-level druid. Druidic is a free language for a druid; that is, she knows it in addition to her
+regular allotment of languages and it doesn't take up a language slot. Druids are forbidden to teach
+this language to nondruids.
 
-**Special:** Druidic is a free language; that is, you know it in addition to your regular allotment
-of languages and it doesn't take up a language slot. Druids are forbidden to teach this language to
-non-druids. Druidic has its own alphabet.
+Druidic has its own alphabet.
 
 #### Nature Bond (Ex) {#nature-bond}
 
-**Choice:** You form a bond with nature. This bond can take one of three forms: domain, companion,
-or herbalism.
+At 1st level, a druid forms a bond with nature. This bond can take one of two forms. The first is a
+close tie to the natural world, granting the druid one of the following cleric domains: Air, Animal,
+Earth, Fire, Plant, Water, or Weather. When determining the powers and bonus spells granted by this
+domain, the druid's effective cleric level is equal to her druid level. A druid that selects this
+option also receives additional domain spell slots, just like a cleric. She must prepare the spell
+from her domain in this slot and this spell cannot be used to cast a spell spontaneously.
 
-**Gained:** At 1st Level
+The second option is to form a close bond with an animal companion. A druid may begin play with any
+of the animals listed in the Animal Companions section beginning on page 51. This animal is a loyal
+companion that accompanies the druid on her adventures.
 
-#### Domain {#domain}
-
-**Ability:** You gain one of the following cleric domains: [Air](ref/domain/air),
-[Animal](ref/domain/animal), [Earth](ref/domain/earth), [Fire](ref/domain/fire),
-[Plant](ref/domain/plant), [Water](ref/domain/water), or [Weather](ref/domain/weather). Alternately,
-you can choose a [druid-specific domain](ref/ability/druid-domains). When determining the powers and
-bonus spells granted by this domain, your effective cleric level is equal to your druid level. A
-druid that selects this option also receives additional domain spell slots, just like a
-[cleric](ref/class/cleric). You must prepare the spell from your domain in this slot and this spell
-cannot be used to cast a spell spontaneously.
-
-#### Companion {#companion}
-
-**Ability:** You may begin play with any of the animals listed in Animal Companions, who becomes a
-loyal companion that accompanies you on your adventures. Unlike normal animals of its kind, an
-[animal companion's](ref/sidekick/animal-companion) Hit Dice, abilities, skills, and feats advance
-as you advance in level.
-
-**Special:** If you receive an animal companion from more than one source, your effective druid
-levels stack for the purposes of determining the statistics and abilities of the companion. Most
-animal companions increase in size when their druid reaches 4th or 7th level, depending on the
-companion. If you release your companion from service, you may gain a new one by performing a
-ceremony requiring 24 uninterrupted hours of prayer in the environment where the new companion
-typically lives. This ceremony can also replace an animal companion that has perished.
-
-#### Herbalism {#herbalism}
-
-**Ability:** You can create a free herbal concoction. Additional concoctions cost the same as
-creating an equivalent potion using Brew Potion. You can sell your concoctions just as if they were
-potions (though NPCs unfamiliar with druidic herbalism may need some convincing before purchasing
-these wares).
-
-**At 4th Level:** You can now make a concoction of any spell on any list that you can cast. Your
-additional concoctions take [half](ref/misc/fractions-and-rounding) the time to make, at half the
-cost. You can also disguise the effects of a concoction. When a creature fails a Perception or
-Spellcraft check to identify one, the concoction appears to be a different herbal concoction of your
-choice. You must designate this false result when creating the concoction. If a creature exceeds the
-check's DC by 5 or more, it correctly identifies the concoction, though not that you tried to fool
-it.
-
-**At 7th Level:** A creature must exceed the DC by 10 to correctly identify a disguised concoction.
-Also, you can create any herbal concoction in 1 minute. You can also create a special concoction of
-any spell higher than 3rd level that you can cast, but you must expend a spell slot of the same
-level. These special concoctions do not cost you anything to create and function like extracts
-created by an [alchemist](ref/class/alchemist) with the [infusion](ref/discovery/infusion)
-discovery.
-
-**Info:** You can use combinations of nuts, berries, dried herbs, and other natural ingredients
-along with appropriate containers to create herbal concoctions or magic consumables that function
-like potions. This acts like the [Brew Potion](ref/feat/brew-potion) feat, but only for spells on
-the druid spell list. Herbal concoctions are typically thick and sludgy, and their creation time,
-caster level, spell duplication capabilities, and all other variables and properties are identical
-to those of potions created using Brew Potion. Herbal concoctions created with herbs that cause
-special effects when ingested retain those effects as well as the appropriate spell effect.
-
-**Usage:** Wis modifier times/day
+Unlike normal animals of its kind, an animal companion's Hit Dice, abilities, skills, and feats
+advance as the druid advances in level. If a character receives an animal companion from more than
+one source, her effective druid levels stack for the purposes of determining the statistics and
+abilities of the companion. Most animal companions increase in size when their druid reaches 4th or
+7th level, depending on the companion. If a druid releases her companion from service, she may gain
+a new one by performing a ceremony requiring 24 uninterrupted hours of prayer in the environment
+where the new companion typically lives. This ceremony can also replace an animal companion that has
+perished.
 
 #### Nature Sense (Ex) {#nature-sense}
 
-**Gained:** At 1st Level
-
-**Passive:** You gain a +2 bonus on Knowledge (nature) and Survival checks.
+A druid gains a +2 bonus on Knowledge (nature) and Survival checks.
 
 #### Wild Empathy (Ex) {#wild-empathy}
 
-**Ability:** This ability functions just like a [Diplomacy](ref/skill/diplomacy) check made to
-improve the attitude of a person. You roll 1d20 and add your druid level and your Charisma modifier
-to determine the wild empathy check result. The typical domestic animal has a starting attitude of
-indifferent, while wild animals are usually unfriendly. You can also use this ability to influence a
-magical beast with an Intelligence score of 1 or 2, but you take a -4 penalty on the check.
+A druid can improve the attitude of an animal. This ability functions just like a
+[Diplomacy](ref/skill/diplomacy) check made to improve the attitude of a person (see Chapter 4). The
+druid rolls 1d20 and adds her druid level and her Charisma modifier to determine the wild empathy
+check result. The typical domestic animal has a starting attitude of indifferent, while wild animals
+are usually unfriendly.
 
-**Flavor:** A druid can improve the attitude of an animal.
+To use wild empathy, the druid and the animal must be within 30 feet of one another under normal
+conditions. Generally, influencing an animal in this way takes 1 minute but, as with influencing
+people, it might take more or less time.
 
-**Gained:** At 1st Level
-
-**Special:** To use wild empathy, you and the animal must be within 30 feet of one another under
-normal conditions. Generally, influencing an animal in this way takes 1 minute but, as with
-influencing people, it might take more or less time.
+A druid can also use this ability to influence a magical beast with an Intelligence score of 1 or 2,
+but she takes a -4 penalty on the check.
 
 #### Woodland Stride (Ex) {#woodland-stride}
 
-**Gained:** At 2nd Level
-
-**Passive:** You may move through any sort of undergrowth (such as natural thorns, briars, overgrown
-areas, and similar terrain) at your normal speed and without taking damage or suffering any other
-impairment. Thorns, briars, and overgrown areas that have been magically manipulated to impede
-motion, however, still affect you.
+Starting at 2nd level, a druid may move through any sort of undergrowth (such as natural thorns,
+briars, overgrown areas, and similar terrain) at her normal speed and without taking damage or
+suffering any other impairment. Thorns, briars, and overgrown areas that have been magically
+manipulated to impede motion, however, still affect her.
 
 #### Trackless Step (Ex) {#trackless-step}
 
-**Gained:** At 3rd Level
-
-**Passive:** You leave no trail in natural surroundings and cannot be tracked. You may choose to
-leave a trail if so desired.
+Starting at 3rd level, a druid leaves no trail in natural surroundings and cannot be tracked. She
+may choose to leave a trail if so desired.
 
 #### Resist Nature's Lure (Ex) {#resist-nature-s-lure}
 
-**Gained:** At 4th Level
-
-**Passive:** You gain a +4 bonus on saving throws against the spell-like and supernatural abilities
-of fey. This bonus also applies to spells and effects that utilize or target plants, such as
-[blight](ref/spell/blight), [entangle](ref/spell/entangle), [spike growth](ref/spell/spike-growth),
-and [warp wood](ref/spell/warp-wood).
+Starting at 4th level, a druid gains a +4 bonus on saving throws against the spell-like and
+supernatural abilities of fey. This bonus also applies to spells and effects that utilize or target
+plants, such as _blight, entangle, spike growth,_ and _[warp wood](ref/spell/warp-wood)._
 
 #### Wild Shape (Su) {#wild-shape}
 
-**At 10th Level:** You can _wild shape_ 4 times/day, and can choose to change into a Small, Medium,
-or Large elemental (as [elemental body III](ref/spell/elemental-body-3)) or a Small, Medium, or
-Large plant creature (as [plant shape II](ref/spell/plant-shape-2)).
+At 4th level, a druid gains the ability to turn herself into any Small or Medium animal and back
+again once per day. Her options for new forms include all creatures with the animal type. This
+ability functions like the _[beast shape I](ref/spell/beast-shape-1)_ spell, except as noted here.
+The effect lasts for 1 hour per druid level, or until she changes back. Changing form (to animal or
+back) is a standard action and doesn't provoke an attack of opportunity. The form chosen must be
+that of an animal with which the druid is familiar.
 
-**At 12th Level:** You can _wild shape_ 5 times/day, and can choose to change into a Small, Medium,
-Large, or Huge elemental (as [elemental body IV](ref/spell/elemental-body-4)) or a Small, Medium,
-Large, or Huge plant creature (as [plant shape III](ref/spell/plant-shape-3)).
+A druid loses her ability to speak while in animal form because she is limited to the sounds that a
+normal, untrained animal can make, but she can communicate normally with other animals of the same
+general grouping as her new form. (The normal sound a wild parrot makes is a squawk, so changing to
+this form does not permit speech.)
 
-**At 14th Level:** You can _wild shape_ 6 times/day.
+A druid can use this ability an additional time per day at 6th level and every two levels
+thereafter, for a total of eight times at 18th level. At 20th level, a druid can use wild shape at
+will. As a druid gains levels, this ability allows the druid to take on the form of larger and
+smaller animals, elementals, and plants. Each form expends one daily use of this ability, regardless
+of the form taken.
 
-**At 16th Level:** You can _wild shape_ 7 times/day.
+At 6th level, a druid can also use wild shape to change into a Large or Tiny animal or a Small
+elemental. When taking the form of an animal, a druid's wild shape now functions as
+_[beast shape II](ref/spell/beast-shape-2)_. When taking the form of an elemental, the druid's wild
+shape functions as _[elemental body I](ref/spell/elemental-body-1)_.
 
-**At 18th Level:** You can _wild shape_ 8 times/day.
+At 8th level, a druid can also use wild shape to change into a Huge or Diminutive animal, a Medium
+elemental, or a Small or Medium plant creature. When taking the form of animals, a druid's wild
+shape now functions as _[beast shape III](ref/spell/beast-shape-3)_. When taking the form of an
+elemental, the druid's wild shape now functions as
+_[elemental body II](ref/spell/elemental-body-2)_. When taking the form of a plant creature, the
+druid's wild shape functions as _[plant shape I](ref/spell/plant-shape-1)_.
 
-**At 20th Level:** You can _wild shape_ at will.
+At 10th level, a druid can also use wild shape to change into a Large elemental or a Large plant
+creature. When taking the form of an elemental, the druid's wild shape now functions as
+_[elemental body III](ref/spell/elemental-body-3)_. When taking the form of a plant, the druid's
+wild shape now functions as _[plant shape II](ref/spell/plant-shape-2)_.
 
-**At 6th Level:** You can _wild shape_ twice a day as [beast shape II](ref/spell/beast-shape-2), and
-you can now change into a Large or Tiny animal or a Small elemental (as
-[elemental body I](ref/spell/elemental-body-1)).
-
-**At 8th Level:** You can _wild shape_ 3 times/day as [beast shape III](ref/spell/beast-shape-3),
-and you can now change into a Huge or Diminutive animal, a Small or Medium elemental (as
-[elemental body II](ref/spell/elemental-body-2)), or a Small or Medium plant creature (as
-[plant shape I](ref/spell/plant-shape-1)).
-
-**Gained:** At 4th Level
-
-**Provokes attack of opportunity:** No
-
-**Special:** You lose your ability to speak while in animal form because you are limited to the
-sounds that a normal, untrained animal can make, but you can communicate normally with other animals
-of the same general grouping as your new form. (The normal sound a wild parrot makes is a squawk, so
-changing to this form does not permit speech.)
-
-**Standard:** You gain the ability to turn yourself into any Small or Medium animal and back again.
-Your options for new forms include all creatures with the animal type. This ability functions like
-the [beast shape I](ref/spell/beast-shape-1) spell, except as noted here. The effect lasts for 1
-hour per druid level, or until you change back. The form chosen must be that of an animal with which
-you are familiar.
-
-**Usage:** Once a day.
-
-**Usage:** Once a day.
+At 12th level, a druid can also use wild shape to change into a Huge elemental or a Huge plant
+creature. When taking the form of an elemental, the druid's wild shape now functions as
+_[elemental body IV](ref/spell/elemental-body-4)_. When taking the form of a plant, the druid's wild
+shape now functions as _[plant shape III](ref/spell/plant-shape-3)_.
 
 #### Venom Immunity (Ex) {#venom-immunity}
 
-**Section:** Other Abilities
-
-**Gained:** At 9th Level
-
-**Passive:** You have immunity to all poisons.
+At 9th level, a druid gains immunity to all poisons.
 
 #### A Thousand Faces (Su) {#a-thousand-faces}
 
-**Gained:** At 13th Level
-
-**Standard:** You can change your appearance at will, as if using the
-[alter self](ref/spell/alter-self) spell, but only while in your normal form.
+At 13th level, a druid gains the ability to change her appearance at will, as if using the
+_[alter self](ref/spell/alter-self)_ spell, but only while in her normal form.
 
 #### Timeless Body (Ex) {#timeless-body}
 
-**Gained:** At 15th Level
-
-**Passive:** You no longer take ability score penalties for aging and cannot be magically
-[aged](ref/rule/age). Any penalties you may have already incurred, however, remain in place. Bonuses
-still accrue, and you still die of old age when your time is up.
+After attaining 15th level, a druid no longer takes ability score penalties for aging and cannot be
+magically [aged](ref/rule/age). Any penalties she may have already incurred, however, remain in
+place. Bonuses still accrue, and the druid still dies of old age when her time is up.
 
 ### Ex-Druids
 

@@ -29,6 +29,7 @@ import importlib.util
 import os
 import re
 import sys
+import tomllib
 from collections import Counter
 from pathlib import Path
 
@@ -146,6 +147,16 @@ def cut_runs(runs: list, offset: int) -> list:
     return out
 
 
+def runs_after(runs: list, offset: int) -> list:
+    """The runs of a paragraph from the character `offset` of its text on."""
+    out, seen = [], 0
+    for txt, bold, it in runs:
+        if seen + len(txt) > offset:
+            out.append((txt[max(0, offset - seen):], bold, it))
+        seen += len(txt)
+    return out
+
+
 def split_table_runs(b, tail: str = ""):
     """The paragraphs that stay of a paragraph that holds the header and the cells of a class table after its text ("Witch's Familiar (Ex): At 1st level, ...
     [bold] Spells per Day 0 3 1 -- ..."): the text before the first bold run that is a table header, and a sentence that follows the cells. When the header
@@ -216,19 +227,50 @@ def table_tail(body: str) -> str:
     return last.split(",")[0].strip() if last and last != "\u2014" else ""
 
 
-def window(blocks: list, heads: set[str] | frozenset = frozenset(), raw: bool = False, tail: str = "") -> list:
+def table_last_cell(body: str) -> str:
+    """The whole Special cell of the last row of the class table ("Mighty rage, Rage power"; `table_tail` is its first part)."""
+    col, last = None, ""
+    for ln in body.split("\n"):
+        cells = [c.strip() for c in ln.strip().strip("|").split("|")]
+        if col is None and ln.startswith("|Level|") and "Special" in cells:
+            col = cells.index("Special")
+        elif col is not None and re.match(r"\|\d+(?:st|nd|rd|th)\|", ln) and col < len(cells):
+            last = re.sub(r"\[([^\]]*)\]\([^)]*\)", r"\1", cells[col])
+            if ln.startswith("|20th|"):
+                break
+    return "" if last == "\u2014" else last
+
+
+def window(blocks: list, heads: set[str] | frozenset = frozenset(), raw: bool = False, tail: str = "", cell: str = "") -> list:
     """The blocks of the section "Class Features" of the class: after that title, up to the next subsection or class title. A class table (its title and its
     cells) and a sidebar title (set larger, 24) do not end it; the cells of the table are not text of a feature."""
     at = next((i for i, b in enumerate(blocks) if b.kind == "title" and fp.squash(b.plain()) == "classfeatures"), None)
     if at is None:
         return []
     out = []
+    special = False                                        # the Special column that print sets beside the table, one block for each row (the Barbarian, p. 32)
     for b in blocks[at + 1:]:
+        if b.kind == "para" and b.plain().strip() == "Special":
+            special = True
+            continue
+        if special and b.kind == "para":
+            text = " ".join(b.plain().split())
+            if len(text.split()) <= 10 and not re.search(r"[.!?]$", text):
+                continue                                   # the cell of a row
+            special = False
+            if cell and text.lower().startswith(cell.lower() + " "):
+                b = fp.Para("para", runs_after(b.runs, len(cell) + 1), b.page, b.col, 0)       # the last cell, in front of the sentence that the table broke
         if b.kind == "title" and not b.plain().strip().lower().startswith("table") and (b.size == 18 or b.size >= 38) and fp.squash(b.plain()) not in heads:
             break                                          # a subsection title ends the window, unless the corpus has it as a feature head (Patron Spells)
         if b.kind == "title" and b.plain().strip().lower().startswith("table"):
             continue                                       # the title of a class table is not text of a feature
         if raw:                                            # the coverage check reads print without the table handling: only paragraphs that are cells alone go
+            if b.kind == "para" and b.runs and b.runs[0][1] and TABLE_RUN.match(b.runs[0][0].strip()) and is_table_para(b.plain()):
+                prose = prose_after_cells(b.plain(), tail)         # the header and the cells in front of a head (the Barbarian's Rage, p. 32): the head starts the paragraph
+                at = b.plain().find(prose[:25]) if prose else -1
+                if at >= 0:
+                    out.append(fp.Para("para", runs_after(b.runs, at), b.page, b.col, 0))
+                    continue
             if not (b.kind == "para" and is_table_para(b.plain()) and sum(not NUMERIC.match(x) for x in b.plain().split()) <= 12):
                 out.append(b)
             continue
@@ -245,7 +287,10 @@ def window(blocks: list, heads: set[str] | frozenset = frozenset(), raw: bool = 
         if b.kind == "para" and is_table_para(b.plain()):
             prose = prose_after_cells(b.plain(), tail)
             if prose:                                      # the cells ran into the text of a sentence that the table broke: the sentence stays
-                out.append(fp.Para("para", [(prose, False, False)], b.page, b.col, 0))
+                full = b.plain()
+                at = full.find(prose[:25])
+                runs = runs_after(b.runs, at) if at >= 0 else [(prose, False, False)]       # with its bold head, if it has one
+                out.append(fp.Para("para", runs, b.page, b.col, 0))
             continue
         out.append(b)
     return join_across_tables(out)
@@ -310,55 +355,24 @@ SIDEBAR_TAILS: dict[tuple[str, str], str] = {("ref/class/antipaladin", "fall-fro
 # and checked against it (`OTHER_TEXT`, every word of the text must stand in that page of the book), under a head that names the book and the page (as the
 # class-option sections of ruling 32 do). A key that the corpus has as a head is reused (no key moves); the heads the corpus has twice (`-2`) go.
 # (class entry) -> (book, the pdf page that holds the text, the key of the item that the sections stand before, [(key, head, text)])
-OTHER_BOOK: dict[str, list[tuple[str, int, str, list[tuple[str, str, str]]]]] = {
-    "ref/class/cavalier": [("chronicle-of-legends", 6, "bonus-feat", [
-        ("flying-the-flag-of-war", "Flying the Flag of War (Chronicle of Legends page 4)",
-         "Some knights inspire and direct their allies with specialized tactics. A cavalier or samurai can select one of the following battle standards upon "
-         "gaining the banner class feature, and its benefits replace the normal benefits of the banner and greater banner class features. A battle standard "
-         "functions as the banner or greater banner class feature except where otherwise noted. A cavalier or samurai who replaces the banner or greater "
-         "banner class feature via an archetype cannot select a battle standard, with the following exception: a standard bearer cavalier can select a "
-         "battle standard at 1st level, and its effects increase as per the standard bearer's banner."),
-        ("fleet-standard", "Fleet Standard (Ex) (Chronicle of Legends page 4)",
-         "These banners are common among Jininese samurai. An ally who benefits from this standard increases her land speed by 5 feet and gains a +1 dodge "
-         "bonus to AC during any round in which she moved at least 10 feet. This increase to land speed is an enhancement bonus. At 10th level and every 5 "
-         "levels thereafter, the bonus to speed increases by 5 feet. At 14th level, an ally benefiting from the banner gains a +2 morale bonus on Reflex "
-         "saving throws against effects that target an area, such as [fireball](ref/spell/fireball) or [breath weapons](ref/umr/breath-weapon). When the cavalier or samurai waves this standard, each "
-         "ally within 60 feet can move up to her speed as an immediate action."),
-        ("jinx-standard", "Jinx Standard (Ex) (Chronicle of Legends page 4)",
-         "These grim fetishes are common among Jadwiga cavaliers. An ally who benefits from this standard gains a +1 bonus on caster level checks to bypass "
-         "[spell resistance](ref/rule/spell-resistance) and a +1 bonus to the DC of her hexes and necromancy or enchantment spell she casts. At 10th level and every 5 levels "
-         "thereafter, the bonus on caster level checks increases by 1. At 14th level, an ally benefiting from the banner gains a +2 morale bonus on saving "
-         "throws against spells or effects that deal hit point damage. When the cavalier or samurai waves this standard, a number of allies equal to the "
-         "cavalier or samurai's Charisma modifier (minimum 1) within 60 feet can attempt an Intimidate check to demoralize a foe as an immediate action."),
-        ("knave-standard", "Knave Standard (Ex) (Chronicle of Legends page 4)",
-         "The knave standard is common among cavaliers of the River Kingdoms. An ally who benefits from this standard gains a +2 dodge bonus to AC against "
-         "attacks of opportunity provoked by movement and a +1 morale bonus on attack rolls that benefit from [flanking](ref/rule/flanking). At 10th level and every 5 levels "
-         "thereafter, the bonus to AC increases by 1. At 14th level, an ally benefiting from the banner gains [sneak attack](ref/ability/sneak-attack) +1d6; this stacks with other "
-         "sources of sneak attack. When the cavalier or samurai waves this standard, a number of allies equal to the cavalier or samurai's Charisma "
-         "modifier (minimum 1) within 60 feet can each attempt a [feint](ref/rule/feint) against a foe she threatens as an immediate action."),
-        ("stalwart-standard", "Stalwart Standard (Ex) (Chronicle of Legends page 4)",
-         "These banners are common among the dwarven defenders of Kraggodan. An ally who benefits from this standard gains a +2 morale bonus to CMD and a "
-         "+1 morale bonus on attack rolls to creatures threatening an ally. At 10th level and every 5 levels thereafter, the bonus to CMD increases by +1. "
-         "At 14th level, an ally benefiting from the banner is treated as one size category larger for the purposes of determining which creatures can "
-         "affect him with combat maneuvers. When the cavalier or samurai waves this standard, each ally within 60 feet can move up to 10 feet without "
-         "provoking attacks of opportunities and ignoring [difficult terrain](ref/rule/terrain-and-obstacles) as an immediate action."),
-    ]),
-        # the mounts that other owner books add to the Mount of the Cavalier: Wilderness Origins p. 23 and Ultimate Wilderness p. 178 (the corpus has them as rows of the feature)
-        ("wilderness-origins", 25, "order", [
-            ("cavalier-mounts-wilderness-origins", "Cavalier Mounts (Wilderness Origins page 23)",
-             "A Medium cavalier can select an [axe beak](ref/companion/axe-beak), [elk](ref/companion/elk), [giant tortoise](ref/companion/tortoise-giant), "
-             "[giant seahorse](ref/companion/seahorse-giant), or [giraffe](ref/companion/giraffe) as a mount. A Small cavalier can select an "
-             "[antelope](ref/companion/antelope), [giant weasel](ref/companion/weasel-giant), [kangaroo](ref/companion/kangaroo), lizard "
-             "([giant gecko](ref/companion/lizard-giant-gecko)), [ram](ref/companion/ram), or [stag](ref/companion/stag) as a mount. The augmented companion, "
-             "bodyguard, bully, daredevil, draconic companion, racer, and wrecker companion archetypes are all particularly appropriate for a cavalier's mount."),
-        ]),
-        ("ultimate-wilderness", 179, "order", [
-            ("cavalier-mounts-ultimate-wilderness", "Cavalier Mounts (Ultimate Wilderness page 178)",
-             "A Medium cavalier can select a [zebra](ref/companion/zebra) as a mount. A Small cavalier can select a [capybara](ref/companion/capybara), "
-             "[reindeer](ref/companion/reindeer), or [wolfdog](ref/companion/wolfdog) as a mount."),
-        ]),
-    ],
-}
+def load_manifest() -> dict:
+    """The data manifest of the class chapters (`class-chapters-540.toml`)."""
+    return tomllib.loads((HERE / "class-chapters-540.toml").read_text(encoding="utf-8"))
+
+
+def other_book_of(manifest: dict) -> dict[str, list[tuple[str, int, str, list[tuple[str, str, str]]]]]:
+    """(class entry) -> [(book, the pdf page that holds the text, the key of the item that the sections stand before, [(key, head, text)])]."""
+    out: dict[str, list] = {}
+    for ob in manifest.get("other_book", []):
+        out.setdefault(ob["class"], []).append((ob["book"], ob["page"], ob["before"], [(x["key"], x["head"], x["text"]) for x in ob["section"]]))
+    return out
+
+
+MANIFEST = load_manifest()
+OTHER_BOOK = other_book_of(MANIFEST)
+# Titles inside the class features that print sets as a section of their own and that do not end the window (the Ranger's lists of favored enemies and terrains stand
+# between two features): (class entry) -> squashed titles. From the manifest, `[[class]] keep_titles`.
+WINDOW_KEEP: dict[str, set[str]] = {c["id"]: {fp.squash(t) for t in c.get("keep_titles", [])} for c in MANIFEST.get("class", [])}
 OTHER_TEXT: dict[tuple[str, int], str] = {}      # (book, pdf page) -> the squashed text of the pages that `OTHER_BOOK` cites, filled by `load_other_books`
 
 
@@ -406,19 +420,17 @@ def other_book_sections(e_id: str, items: list[dict]) -> None:
 TAIL_OF_LINKED: dict[tuple[str, str], tuple[str, str]] = {("ref/class/witch", "learn-from-a-scroll"): ("witches within 10 feet", "ref/hex/hags-eye")}
 # Sections that print sets behind the class features and that the corpus has inside a feature (the Antipaladin's code of conduct is a row of its
 # proficiencies): they become unlisted sections of their own, so the text stays where print has it.
-SECTIONS_BEHIND: dict[str, set[str]] = {"ref/class/antipaladin": {"codeofconduct", "associates"}}
+SECTIONS_BEHIND: dict[str, set[str]] = {}
+for _c in MANIFEST.get("class", []):
+    SECTIONS_BEHIND.setdefault(_c["id"], set()).update(fp.squash(t) for t in _c.get("sections_behind", []))        # `[[class]] sections_behind` of the manifest
 TABLE_LEAK = re.compile(r"\b(?:Spells|Extracts) per Day\s+(?:\d|1st|[\u2014\u2013])|\bBase Attack\b|(?:(?:[\u2014\u2013]|[+\u2013-]?\d+(?:/[+\u2013-]?\d+)*(?:st|nd|rd|th)?)\s+){6,}")
 
 
 # Print's layout puts a class table beside the text, and the text layer of the page runs words of the table's Special column into a sentence. Known cases:
 # (class entry, key) -> [(what the layer has, what the sentence says)], each checked against the page.
-LAYOUT_FIXES: dict[tuple[str, str], list[tuple[str, str]]] = {
-    ("ref/class/summoner", "eidolon"): [("the Twin eidolon summoner's class level", "the summoner's class level")],
-    ("ref/class/inquisitor", "slayer"): [("cannot be changed for the remainder of the judgment", "cannot be changed for the remainder of the judgment.")],     # print's sentence has no full stop (errata row of ruling 43)
-    ("ref/class/antipaladin", "fiendish-boon"): [("re:Spells per Day 1st 2nd 3rd 4th(?: [\u2014\u2013\\d]+)+ ", "")],             # the cells of Table 2-13 (Advanced Player's Guide, Antipaladin p. 121)
-    ("ref/class/inquisitor", "solo-tactics"): [("re:Spells per Day(?: \\d+)+ ", "")],                                              # the cells of Table 2-4 (Inquisitor p. 40)
-    ("ref/class/summoner", "life-link"): [("more than 1,000 feet Spells per Day 5 5 5 5 5 5 away", "more than 1,000 feet away")],       # the cells of Table 2-8 (Advanced Player's Guide, Summoner p. 56)   # Table 2-7 lists "Twin eidolon" at 20th level (Advanced Player's Guide, Summoner p. 55)
-}
+LAYOUT_FIXES: dict[tuple[str, str], list[tuple[str, str]]] = {}
+for _fix in MANIFEST.get("layout_fix", []):
+    LAYOUT_FIXES.setdefault((_fix["class"], _fix["key"]), []).append((_fix["find"], _fix["replace"]))
 
 
 def stem(name: str) -> str:
@@ -501,7 +513,12 @@ def own_candidates(cands: list[tuple[str, str]], own: dict[str, str | None], fea
     return [(i, g) for i, g in cands if g in own and own[g] in (None, feature)]
 
 
-def pick_options(items: list[tuple[str, list[tuple[str, str]]]]) -> tuple[list[tuple[str, str]], list[str]]:
+# The entry that a class links when the group of its options holds two entries of the name (the Barbarian's and the Unchained Barbarian's rage powers share a group):
+# (class entry, squashed name) -> entry id. From the manifest, `[[option_pick]]`: the entry whose first source is the book of the class.
+OPTION_PICKS: dict[tuple[str, str], str] = {(x["class"], fp.squash(x["name"])): x["entry"] for x in MANIFEST.get("option_pick", [])}
+
+
+def pick_options(items: list[tuple[str, list[tuple[str, str]]]], picks: dict[str, str] | None = None) -> tuple[list[tuple[str, str]], list[str]]:
     """The links of one option list: (name, entry id) for each name, from the group that most of its items belong to, and the names that stay ambiguous
     (two entries of the chosen group, or none in it). No fallback to another group: an item without a candidate of its class is no link."""
     groups = Counter(g for _, cands in items for _, g in cands)
@@ -509,7 +526,10 @@ def pick_options(items: list[tuple[str, list[tuple[str, str]]]]) -> tuple[list[t
     out, unsure = [], []
     for name, cands in items:
         pool = sorted({i for i, g in cands if g in top})
-        if len(pool) == 1:
+        chosen = (picks or {}).get(fp.squash(fp.ABILITY_TAG.sub("", name)))
+        if chosen and chosen in pool:
+            out.append((name, chosen))
+        elif len(pool) == 1:
             out.append((name, pool[0]))
         else:
             unsure.append(name)
@@ -519,7 +539,10 @@ def pick_options(items: list[tuple[str, list[tuple[str, str]]]]) -> tuple[list[t
 def class_decisions(corpus: Path, book: str) -> dict[tuple[str, str], tuple[str, str]]:
     """The decisions of the book's class options file for classes: (class id, key) -> (decision, note); `print` settles a hold as print has it (the corpus
     wording is the import's paraphrase, or print has text that the corpus lacks), `hold` keeps it for an errata check."""
-    return co.read_decisions(co.decisions_file(corpus, book))
+    rows = dict(co.read_decisions(co.decisions_file(corpus, book)))
+    own = corpus / "scripts" / co.DIR / f"540-{book}.classes.decisions.tsv"        # the base classes of a book have a file of their own when the book's class options are written by another hand at the same time
+    rows.update(co.read_decisions(own))
+    return rows
 
 
 SENTENCE_END = re.compile(r"(?<=[.!?])[\"\u201d\u2019)]*\s+(?=[A-Z\u201c\"(+\u2013\d])")
@@ -618,6 +641,8 @@ def lost_sentences(printed: str, written: str, table_words: frozenset | set = fr
                 continue
             out.append(s)
             continue
+        if co.stands_in(s, plain, sq_w):
+            continue                                              # a list of ordinals ("(6th, 9th, 12th, 15th, and 18th level)") is no table: it stands as printed
         s = drop_cell_runs(s)
         if co.stands_in(s, plain, sq_w) or co.near_exact(s, wsents):
             continue
@@ -651,6 +676,16 @@ def table_words(body: str) -> set[str]:
 GAP_STOP: dict[str, str] = {
     "ref/class/alchemist": "alchemistformulae", "ref/class/cavalier": "cavalierorders", "ref/class/inquisitor": "inquisitorspells", "ref/class/oracle": "mysteries",
     "ref/class/summoner": "eidolons", "ref/class/witch": "witchspells"}
+GAP_STOP.update({c["id"]: fp.squash(c["gap_stop"]) for c in MANIFEST.get("class", []) if c.get("gap_stop")})        # `[[class]] gap_stop` of the manifest
+
+
+def layout_fixed(class_id: str, key: str, text: str) -> str:
+    """The text with the table words that the layout runs into it taken out (`LAYOUT_FIXES`, the manifest's `[[layout_fix]]`); the paragraph breaks do not matter to
+    the checks that use it."""
+    flat = " ".join(text.split())
+    for old, new in LAYOUT_FIXES.get((class_id, key), []):
+        flat = re.sub(old[3:], new, flat) if old.startswith("re:") else flat.replace(old, new)
+    return flat
 
 
 def cut_tails(class_id: str, text: str) -> str:
@@ -662,16 +697,76 @@ def cut_tails(class_id: str, text: str) -> str:
     return text
 
 
-def gap_blocks(blocks: list, win: list, lacking: set[str], stop: str = "") -> list:
+CLASS_TITLES: dict[str, set[str]] = {}
+
+
+def class_titles(corpus: Path) -> set[str]:
+    """The squashed titles of the base classes of the corpus: a class title in print (the Core Rulebook sets "MONK" over the same size as its subsections) ends the gap
+    of the class before it."""
+    key = str(corpus)
+    if key not in CLASS_TITLES:
+        CLASS_TITLES[key] = {fp.squash(m.group(1)) for p in (corpus / "entries" / "class").glob("*.md") if (m := re.search(r'^title = "([^"]+)"', p.read_text(encoding="utf-8")[:600], re.M))}
+    return CLASS_TITLES[key]
+
+
+def gap_blocks(blocks: list, win: list, lacking: set[str], stop: str | set[str] = "") -> list:
     """The blocks between the end of the class window (a subsection title ends it) and the next title that is a head the corpus lacks (`lacking`, read by
     `section_behind`), or the next large title: the sections that neither reading covers (the Witch's box "Witch's Familiar", p. 69)."""
     last = blocks.index(win[-1]) if win and win[-1] in blocks else 0
     out = []
     for b in blocks[last + 1:]:
-        if b.kind == "title" and not b.plain().strip().lower().startswith("table") and (fp.squash(b.plain()) in lacking or b.size >= 38 or (stop and fp.squash(b.plain()) == stop)):
+        if b.kind == "title" and not b.plain().strip().lower().startswith("table") and (fp.squash(b.plain()) in lacking or b.size >= 38 or (stop and fp.squash(b.plain()) in ({stop} if isinstance(stop, str) else stop))):
             break
         if b.kind == "para" and not is_table_para(b.plain()):
             out.append(b)
+    return out
+
+
+def gap_sections(blocks: list, win: list, lacking: set[str], stop: set[str]) -> list[tuple[str, list]]:
+    """The sections behind the class features, up to the same end as `gap_blocks`: (title, [paragraphs]) ("Ex-Barbarians")."""
+    last = blocks.index(win[-1]) if win and win[-1] in blocks else 0
+    out: list = []
+    for b in blocks[last + 1:]:
+        if b.kind == "title" and not b.plain().strip().lower().startswith("table"):
+            if fp.squash(b.plain()) in lacking or b.size >= 38 or fp.squash(b.plain()) in stop:
+                break
+            out.append((" ".join(b.plain().split()), []))
+        elif b.kind == "para" and out and not is_table_para(b.plain()):
+            out[-1][1].append(b)
+    return out
+
+
+def section_rewrites(corpus: Path, e, bk, blocks: list, rwin0: list, lacking: set[str], lines: list[str], region: tuple[int, int]) -> list[dict]:
+    """The `###` sections behind the class features that print sets under the same title ("Ex-Barbarians") and whose text differs from print's: each is written from
+    print (the links of the old text stay where their words are). A section with a table is left as it is."""
+    stops = class_titles(corpus) | ({GAP_STOP[e.id]} if e.id in GAP_STOP else set())
+    vocab = bk.vocab | {w.lower() for w in re.findall(r"[A-Za-z]+(?:-[A-Za-z]+)*", e.body)}
+    out = []
+    for title, paras in gap_sections(blocks, rwin0, lacking | SECTIONS_BEHIND.get(e.id, set()), stops):
+        at = next((i for i in range(region[1], len(lines)) if (m := re.match(r"^### (.*?)(?: \{#[^}]+\})?\s*$", lines[i])) and fp.squash(m.group(1)) == fp.squash(title)), None)
+        if at is None or not paras:
+            continue
+        end = next((i for i in range(at + 1, len(lines)) if re.match(r"^#{1,3} ", lines[i])), len(lines))
+        old = "\n".join(lines[at + 1:end]).strip()
+        if not old or any(ln.startswith("|") for ln in lines[at + 1:end]):
+            continue
+        pf = fp.PrintFeature(title, [b.runs for b in paras], paras[0].page)
+        text, _lost, _notes = fp.print_md(pf, [], vocab, e.id)
+        if not lost_sentences(" ".join(text.split()), old, frozenset()):
+            continue
+        links = re.findall(r"\[([^\]]+)\]\(([^)]+)\)", old)
+        if links:
+            text, unplaced, _ = fp.print_md(pf, links, vocab, e.id)
+            fallback = []
+            for label in unplaced:                                    # the words of the old link are not in print's sentence: the link goes on the title of its entry ("atones" -> "atonement")
+                target = next(t for l, t in links if l == label)
+                path = corpus / "entries" / (target.removeprefix("ref/") + ".md")
+                tm = re.search(r'^title = "([^"]+)"', path.read_text(encoding="utf-8")[:600], re.M) if path.exists() else None
+                if tm:
+                    fallback.append((tm.group(1).lower(), target))
+            if fallback:
+                text, _, _ = fp.print_md(pf, [(l, t) for l, t in links if l not in unplaced] + fallback, vocab, e.id)
+        out.append({"head": lines[at], "line": at, "end": end, "old": old, "print": text.strip()})
     return out
 
 
@@ -680,7 +775,7 @@ def coverage_check(corpus: Path, e, items: list[dict], blocks: list, title, head
     without the table handling of `window`, must stand in the written text of the class. The feature holds otherwise, with the sentences in its notes.
     A sentence of a printed head that has no item (a box, a section of its own) must stand somewhere in the written entry (features, unlisted sections,
     the text outside the feature region)."""
-    rwin0 = bold_option_heads(window(blocks, raw=True), set(option_names(options, own)))
+    rwin0 = bold_option_heads(window(blocks, WINDOW_KEEP.get(e.id, frozenset()), raw=True, tail=table_tail(e.body), cell=table_last_cell(e.body)), set(option_names(options, own)))
     rwin = rwin0 + section_behind(blocks, rwin0, lacking | SECTIONS_BEHIND.get(e.id, set()))
     _, rpfs = fp.split_print([title] + rwin, [h for _, h, _ in heads] + option_names(options, own) + EXTRA_HEADS.get(e.id, []))
     linked_text = []
@@ -692,7 +787,7 @@ def coverage_check(corpus: Path, e, items: list[dict], blocks: list, title, head
     union = "\n".join([feature_text(x) for x in items if not x.get("drop")] + lines[:region[0]] + lines[region[1]:] + linked_text)
     cells = table_words(e.body)
     linked = {fp.namekey(n) for x in items for n, _ in x.get("links", [])}      # an item of an option list that has an entry of its own: its text is that entry's
-    gap = gap_blocks(blocks, rwin0, lacking | SECTIONS_BEHIND.get(e.id, set()), GAP_STOP.get(e.id, ""))
+    gap = gap_blocks(blocks, rwin0, lacking | SECTIONS_BEHIND.get(e.id, set()), class_titles(corpus) | {GAP_STOP.get(e.id, "")} - {""})
     gap_text = cut_tails(e.id, " ".join(" ".join(b.plain().split()) for b in gap))
     gap_lost = lost_sentences(gap_text, union, cells)
     problems: list[str] = []
@@ -710,7 +805,7 @@ def coverage_check(corpus: Path, e, items: list[dict], blocks: list, title, head
             continue
         it = next((x for x in items if not x.get("drop") and (fp.namekey(fp.ABILITY_TAG.sub("", x["head"])) == fp.namekey(fp.ABILITY_TAG.sub("", name))
                                                              or stem(x["head"]) == stem(name))), None)
-        lost = lost_sentences(cut_tails(e.id, print_text(pf)), feature_text(it) if it else "", cells)
+        lost = lost_sentences(layout_fixed(e.id, it["key"], cut_tails(e.id, print_text(pf))) if it else cut_tails(e.id, print_text(pf)), feature_text(it) if it else "", cells)
         if os.environ.get("COVDEBUG") and lost:
             print("COV", e.id, repr(name), "->", it["key"] if it else None, "|", [s[:90] for s in lost][:6])
         lost = lost_sentences(" ".join(lost), union, cells) if it is None else [s for s in lost if s in lost_sentences(s, union, cells)]
@@ -752,9 +847,12 @@ def compare_class(corpus: Path, e, bk, cache: dict, options: dict | None = None,
     own = class_groups(corpus, e.id)
     page = int(e.page)
     blocks = fp.read_blocks(bk, page, min(page + 12, max(bk.pages)))
+    first_own = next((n for n, b in enumerate(blocks) if b.kind == "title" and fp.squash(b.plain()) == fp.squash(e.title)), None)
+    if first_own:
+        blocks = blocks[first_own:]              # the page row is where the class starts: the end of the class before it (the Fighter's features on the Monk's page) is not this class's window
     class_tail = table_tail(e.body)
     opt_names = set(option_names(options or {}, own))
-    win = bold_option_heads(window(blocks, tail=class_tail), opt_names)
+    win = bold_option_heads(window(blocks, WINDOW_KEEP.get(e.id, frozenset()), tail=class_tail, cell=table_last_cell(e.body)), opt_names)
     title = fp.Para("title", [(e.title, True, False)], page, 0, 20)
     expected = [h for _, h, _ in heads] + option_names(options or {}, own) + EXTRA_HEADS.get(e.id, [])
     _, pfs = fp.split_print([title] + win, expected)
@@ -913,7 +1011,7 @@ def compare_class(corpus: Path, e, bk, cache: dict, options: dict | None = None,
                 last = r                                         # a sidebar that stands inside a list (the Witch's familiar box in the major hexes) leaves the list open
     for it in items:
         if it.get("candidates"):
-            it["links"], unsure = pick_options(it.pop("candidates"))
+            it["links"], unsure = pick_options(it.pop("candidates"), {n: i for (c, n), i in OPTION_PICKS.items() if c == e.id})
             if unsure:
                 it["status"] = "hold"
                 it["notes"].insert(0, "option names with more than one entry of the class's groups: " + ", ".join(unsure))
@@ -953,12 +1051,16 @@ def compare_class(corpus: Path, e, bk, cache: dict, options: dict | None = None,
             cut = it["print"].index(tail_of[0])
             it["notes"].append(f"the end of the paragraph ({tail_of[0]}...) is the end of `{tail_of[1]}`, a link: it belongs to that entry, not here")
             it["print"] = it["print"][:cut].rstrip()
+    rwin_keep = bold_option_heads(window(blocks, WINDOW_KEEP.get(e.id, frozenset()), raw=True, tail=table_tail(e.body), cell=table_last_cell(e.body)), set(option_names(options or {}, own)))
+    rewrites = section_rewrites(corpus, e, bk, blocks, rwin_keep, lacking, lines, region)
+    for rw in sorted(rewrites, key=lambda x: -x["line"]):
+        lines[rw["line"] + 1:rw["end"]] = ["", rw["print"], ""]                  # the check reads the section as it is written
     cov_problems = coverage_check(corpus, e, items, blocks, title, heads, lacking, region, lines, options or {}, own)
     opening = printed_opening(e, win)
     unresolved = {i["key"] for i in items if "head not printed" in i["notes"] and not i.get("drop") and not i.get("split_from")}
     problems = [x for x in res["problems"] if not (x.startswith("head not printed: ") and fp.slugify(x.split(": ", 1)[1]) not in unresolved and
                                                     not any(fp.namekey(i["head"]) == fp.namekey(x.split(": ", 1)[1]) and "head not printed" in i["notes"] for i in items))]
-    return {"items": items, "extra": extra, "missing": missing, "window": len(win), "problems": problems + problems_extra + cov_problems, "region": region, "opening": opening,
+    return {"items": items, "extra": extra, "missing": missing, "window": len(win), "problems": problems + problems_extra + cov_problems, "region": region, "opening": opening, "body": "\n".join(lines), "rewrites": rewrites,
             "levels": fp.class_table_levels(corpus, e.id, cache)}
 
 
@@ -1101,7 +1203,7 @@ def run_compare(args) -> int:
         if plan.get("opening", ("", ""))[1]:
             print(f"    the entry lacks print's opening over the first head ({plan['opening'][0] or 'no title'}): {plan['opening'][1][:90]}")
         if args.write and settled(plan):
-            body2 = converted_body(e.body, plan)
+            body2 = converted_body(plan.get("body") or e.body, plan)
             moved = keys_that_move(e.id, e.body, body2, plan)
             if moved:
                 raise SystemExit(f"{e.id}: the heading keys {moved} would move (only a dropped head without a reference may go)")
@@ -1158,6 +1260,37 @@ def self_test() -> int:
     eq(with_features(with_features("[fields]\nx = 1\n", [("a", 1)]), [("a", 1)]), with_features("[fields]\nx = 1\n", [("a", 1)]), "an earlier list is replaced, not doubled")
     eq(re.match(r"^\(((?:Ex|Su|Sp)[^)]*)\):\s*", "(Sp): Starting at 1st level, a summoner").group(1), "Sp", "the tag that print leaves in the first run is found")
     eq((settled(plan), settled(dict(plan, extra=["X"])), settled(dict(plan, missing=["mystery"]))), (True, False, False), "a class is written all or nothing")
+    P = fp.Para
+    # the Core Rulebook's base classes (phynics/cast-iron#540, the Core Rulebook round)
+    eq(runs_after([("abc", True, False), ("defgh", False, True)], 4), [("efgh", False, True)], "the runs of a paragraph from a character on keep their style")
+    body_t = "|Level|Base Attack Bonus|Special|\n| --- | --- | --- |\n|19th|+19|Armor mastery|\n|20th|+20|[Damage reduction](ref/rule/damage-reduction) 5/-, Rage power|\n"
+    eq(table_last_cell(body_t), "Damage reduction 5/-, Rage power", "the whole Special cell of the last row, without its link")
+    cols = [P("title", [("Class Features", True, False)], 31, 1, 18), P("para", [("Fast Movement (Ex): A barbarian is fast.", False, False)], 31, 1),
+            P("title", [("Table 3-2: Barbarian", True, False)], 32, 0, 23), P("para", [("Special", False, False)], 32, 1), P("para", [("Fast movement, rage", False, False)], 32, 1),
+            P("para", [("Mighty rage, Rage power encounter or combat. If a barbarian falls unconscious.", False, False)], 32, 1)]
+    eq([b.plain() for b in window(cols, cell="Mighty rage, Rage power")], ["Fast Movement (Ex): A barbarian is fast.", "encounter or combat. If a barbarian falls unconscious."],
+       "the Special column that print sets beside a table is no text; the last cell in front of the broken sentence goes")
+    cells_head = P("para", [("Base Attack Fort Ref Will Level Bonus Save Save Save ", True, False), (" 1st +1 +2 +0 +0 20th +20/+15/+10/+5 +12 +6 +6 ", False, False), ("Rage (Ex)", True, False),
+                            (": A barbarian can call upon inner reserves of strength. Starting at 1st level, a barbarian can rage.", False, False)], 32, 0)
+    eq(window([P("title", [("Class Features", True, False)], 31, 1, 18), cells_head])[0].runs[0][:2], ("Rage (Ex)", True), "the bold head after the cells of a table stays a head")
+    eq(layout_fixed("ref/class/cleric", "channel-energy", 'dealt 4 4+1 4+1 \u2014 Note: "+1" represents the domain spell slot or healed is equal'), "dealt or healed is equal", "table cells and their note are taken out of the sentence")
+    eq(lost_sentences("These bonuses increase every three levels thereafter (6th, 9th, 12th, 15th, and 18th level).", "These bonuses increase every three levels thereafter (6th, 9th, 12th, 15th, and 18th level)."), [],
+       "a list of ordinals in a sentence is no table: it stands as printed")
+    eq(pick_options([("Guarded Stance (Ex)", [("ref/ragepower/guarded-stance", "rage-power"), ("ref/ragepower/guarded-stance-stance", "rage-power")])]), ([], ["Guarded Stance (Ex)"]),
+       "two entries of a name in one group stay unsure")
+    eq(pick_options([("Guarded Stance (Ex)", [("ref/ragepower/guarded-stance", "rage-power"), ("ref/ragepower/guarded-stance-stance", "rage-power")])], {"guardedstance": "ref/ragepower/guarded-stance"}),
+       ([("Guarded Stance (Ex)", "ref/ragepower/guarded-stance")], []), "the manifest's pick settles it")
+    gb = [P("title", [("Class Features", True, False)], 1, 0, 18), P("para", [("A.", False, False)], 1, 0), P("para", [("Gap text.", False, False)], 1, 0),
+          P("title", [("MONK", True, False)], 1, 0, 18), P("para", [("Monk text.", False, False)], 1, 0)]
+    eq([x.plain() for x in gap_blocks(gb, gb[:2], set(), {"monk"})], ["Gap text."], "the gap of a class ends at the title of the next class")
+    eq([x.plain() for x in gap_blocks(gb, gb[:2], set(), set())], ["Gap text.", "Monk text."], "without the stop it runs on into the next class")
+    for ob in MANIFEST.get("other_book", []):
+        eq(bool(ob["section"]) and all(x["key"] and x["head"] and x["text"] for x in ob["section"]), True, f"manifest: the sections of {ob['class']} are complete")
+    for kind in ("class", "layout_fix", "option_pick", "other_book"):
+        for x in MANIFEST.get(kind, []):
+            cid = x.get("id") or x["class"]
+            if (HERE.parent / "entries" / "class").exists():
+                eq((HERE.parent / "entries" / (cid.removeprefix("ref/") + ".md")).exists(), True, f"manifest: {cid} is a class entry")
     P = fp.Para
     ent = type("E", (), {"body": "### Class Features and Spells Per Day\n\n#### Spells {#spells}\n\nAn oracle casts divine spells."})()
     win2 = [P("para", [("The following are the class features of the oracle.", False, False)], 42, 1), P("para", [("Spells", True, False), (": An oracle casts divine spells.", False, False)], 42, 1)]
