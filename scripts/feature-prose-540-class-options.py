@@ -168,6 +168,19 @@ def inverted(name: str) -> str:
     return f"{m.group(2)}, {m.group(1)}{m.group(3) or ''}" if m else name
 
 
+TABLE_TITLE = re.compile(r"^table\b", re.I)
+
+
+def title_as_head(q):
+    """A printed section heading stands as a head of its own (it ends the power above it); the title of a table is the text of the power
+    that holds the table (ruling 62: the span runs over tables and lists up to the next name or heading), so it stays a paragraph."""
+    if q.kind != "title":
+        return q
+    if TABLE_TITLE.match(q.plain().strip()):
+        return fp.Para("para", [(q.plain().strip(), False, False)], q.page, q.col, 0)
+    return fp.Para("para", [(q.plain().strip(), True, False)], q.page, q.col, 0)
+
+
 def install_split(names: list[str]) -> None:
     """The print reader takes an italic paragraph start as a head only when the entry expects that name. A page of class options sets
     the powers of other entries beside the entry's own (the evolutions are italic heads in one list), so every name of the book is
@@ -178,8 +191,7 @@ def install_split(names: list[str]) -> None:
 
         def wrapped(section, expected):
             # a printed section heading ("2-Point Evolutions", "Base Forms") ends the text of the power above it: it stands as a head of its own
-            section = section[:1] + [fp.Para("para", [(q.plain().strip(), True, False)], q.page, q.col, 0) if q.kind == "title" else q
-                                     for q in section[1:]]
+            section = section[:1] + [title_as_head(q) for q in section[1:]]
             opening, feats = orig(section, list(expected) + EXTRA_NAMES)
             for f in feats:                      # print sets "Beast Totem, Greater (Su)" for the corpus title "Greater Beast Totem"
                 m = INVERTED_HEAD.match(f.head)
@@ -310,15 +322,46 @@ def anchor_section(blocks: list, title: str) -> list | None:
 HEADING_FAMILIES = {"evolution"}     # ruling 61: an evolution opens with the printed sentence of its group heading ("2-Point Evolutions: The following ...")
 
 
-def heading_blocks(bk, page: int) -> list:
-    """The print from three pages before the cited one to the next: a group of evolutions runs over pages, its heading stands at the start."""
-    return fp.read_blocks(bk, max(1, page + fp.PAGE_OFFSET[0] - 3), min(page + 1 + fp.PAGE_OFFSET[0], max(bk.pages)))
+class GroupMap:
+    """Ruling 61, per book: every group heading of the book with its intro sentence ("2-Point Evolutions: The following evolutions cost 2
+    points from the eidolon's evolution pool.") and the printed page it stands on, from one read of the whole book. The group of a power is
+    the last heading above its head in reading order."""
+
+    def __init__(self, bk):
+        self.blocks = fp.read_blocks(bk, 1, max(bk.pages))
+        self.headings: list[tuple[int, str, int]] = []                         # (index of the title block, text, printed page)
+        for i, b in enumerate(self.blocks[:-1]):
+            nxt = self.blocks[i + 1]
+            if b.kind == "title" and nxt.kind == "para":
+                text, _, _ = fp.print_md(fp.PrintFeature("", [nxt.runs], nxt.page, False), [], set())
+                if text.strip().startswith("The following"):
+                    self.headings.append((i, f"{re.sub(chr(10), ' ', b.plain()).strip()}: {text.strip()}", b.page))
+
+    def of(self, title: str, page: int) -> tuple[str, int] | None:
+        """(the heading paragraph, its page) for the power printed as `title` on the cited page or next to it, or None."""
+        want = fp.namekey(title)
+        at = next((i for i, p in enumerate(self.blocks) if p.kind == "para" and abs(p.page - page) <= 1
+                   and (c := fp.head_candidate(p)) and fp.namekey(c[0]) == want), None)
+        if at is None:
+            return None
+        before = [h for h in self.headings if h[0] < at]
+        if not before or self.blocks[at].page - before[-1][2] > 6:
+            return None
+        return before[-1][1], before[-1][2]
+
+
+GMAPS: dict[int, GroupMap] = {}
+
+
+def group_map(bk) -> GroupMap:
+    if id(bk) not in GMAPS:
+        GMAPS[id(bk)] = GroupMap(bk)
+    return GMAPS[id(bk)]
 
 
 def group_heading(e, blocks) -> tuple[str, int] | None:
-    """The group heading of a power as one paragraph, "2-Point Evolutions: The following evolutions cost 2 points from the eidolon's
-    evolution pool.", and the printed page it stands on: the last title above the head of the entry, and the paragraph under it when that
-    starts "The following"."""
+    """The group heading of a power from a list of blocks (a window of print): the last title above the head of the entry and the paragraph
+    under it when that starts "The following". `GroupMap` is the same for a whole book."""
     want = fp.namekey(e.title)
     at = next((i for i, p in enumerate(blocks) if p.kind == "para" and (c := fp.head_candidate(p)) and fp.namekey(c[0]) == want), None)
     if at is None:
@@ -425,7 +468,7 @@ def compare_one(e, book, bk, other=None) -> list[dict]:
             printed, lost = place_links(printed, plinks)
             common["links_lost"] = "|".join(lost)
         if shape == "single" and e.id.split("/")[1] in HEADING_FAMILIES:
-            gh = group_heading(e, heading_blocks(bk, page))
+            gh = group_map(bk).of(e.title, page)
             if gh is None:
                 notes.append("no group heading found above the head")
                 status = "hold"
@@ -654,7 +697,7 @@ def run_headings(args) -> int:
         if e.id.split("/")[1] not in HEADING_FAMILIES or shape_of(e.body)[0] != "none" or not e.page.isdigit():
             continue
         page = int(e.page)
-        gh = group_heading(e, heading_blocks(bk, page))
+        gh = group_map(bk).of(e.title, page)
         if gh is None or gh[1] > page:
             print(f"  {e.id}: " + ("no group heading found above the head" if gh is None else f"the group heading is on p. {gh[1]}, after the cited p. {page}"))
             skipped += 1
@@ -827,6 +870,9 @@ def self_test() -> int:
     eq(group_heading(type("E", (), {"title": "Nothing"})(), blk), None, "ruling 61: a head that is not printed has no heading")
     eq(group_heading(type("E", (), {"title": "Bite"})(), blk[2:]), None, "ruling 61: no title above the head, no heading")
     eq(with_page('[[sources]]\npublication = "x"\npage = "62"\n\n[fields]\n', "61-62"), '[[sources]]\npublication = "x"\npage = "61-62"\n\n[fields]\n', "ruling 61: the page row becomes a range")
+    eq((title_as_head(fp.Para("title", [("Table 2\u20139: Eidolon Base Statistics", True, False)], 59, 0, 18)).runs[0][1],
+        title_as_head(fp.Para("title", [("2-Point Evolutions", True, False)], 61, 0, 18)).runs[0][1]), (False, True),
+       "ruling 62: the title of a table stays in the text of the power, a section heading ends it")
     STOP_TITLES.clear()
     STOP_TITLES.update({"aquatic", "boreal", "deepearth"})
     ab = [P("title", [("Aquatic", True, False)], 136, 0, 18), P("para", [("Dehydrating Touch (Sp)", True, False), (": A touch.", False, False)], 136, 0),
