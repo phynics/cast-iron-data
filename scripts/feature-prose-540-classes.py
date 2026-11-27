@@ -241,7 +241,47 @@ def table_last_cell(body: str) -> str:
     return "" if last == "\u2014" else last
 
 
-def window(blocks: list, heads: set[str] | frozenset = frozenset(), raw: bool = False, tail: str = "", cell: str = "") -> list:
+# Tables that print sets in words under a title of their own inside the class features (the manifest's `[[word_table]]`): class entry -> specs, each with the token that
+# stands for the table in the text until the table is written.
+WORD_TABLES: dict[str, list[dict]] = {}              # filled where the manifest is read
+
+
+def word_table_words(spec: dict) -> list[str]:
+    """The words of a word table in the order of the text layer: the header, the cells row by row."""
+    cells = list(spec.get("header", [])) + [c for row in spec["rows"] for c in row]
+    return " ".join(cells).split()
+
+
+def word_table_md(spec: dict) -> str:
+    """The table as Markdown (ruling 62) or as a list (ruling 45)."""
+    if spec["kind"] == "list":
+        return "\n".join(f"- {row[0]}" for row in spec["rows"])
+    out = ["|" + "|".join(spec["header"]) + "|", "|" + "|".join(" --- " for _ in spec["header"]) + "|"]
+    return "\n".join(out + ["|" + "|".join(row) + "|" for row in spec["rows"]])
+
+
+def with_word_tables(class_id: str, text: str) -> str:
+    """The text with the token of each word table of the class replaced by the table."""
+    for spec in WORD_TABLES.get(class_id, []):
+        text = text.replace(spec["token"] + ".", word_table_md(spec))
+    return text
+
+
+def cut_word_table(b, spec: dict):
+    """The runs of the paragraph without the words of the table at its start, and without the words of the class table that the layout runs behind them (`after`);
+    None when the printed words are not the table's (the check that the typed table is print's)."""
+    toks = [(m.group(0), m.end()) for m in re.finditer(r"\S+", b.plain())]
+    want = word_table_words(spec)
+    if len(toks) < len(want) or [t for t, _ in toks[:len(want)]] != want:
+        return None
+    end = len(want)
+    after = spec.get("after", "").split()
+    if after and [t for t, _ in toks[end:end + len(after)]] == after:
+        end += len(after)
+    return runs_after(b.runs, toks[end - 1][1])
+
+
+def window(blocks: list, heads: set[str] | frozenset = frozenset(), raw: bool = False, tail: str = "", cell: str = "", tables: tuple | list = ()) -> list:
     """The blocks of the section "Class Features" of the class: after that title, up to the next subsection or class title. A class table (its title and its
     cells) and a sidebar title (set larger, 24) do not end it; the cells of the table are not text of a feature."""
     at = next((i for i, b in enumerate(blocks) if b.kind == "title" and fp.squash(b.plain()) == "classfeatures"), None)
@@ -249,7 +289,24 @@ def window(blocks: list, heads: set[str] | frozenset = frozenset(), raw: bool = 
         return []
     out = []
     special = False                                        # the Special column that print sets beside the table, one block for each row (the Barbarian, p. 32)
+    pending = None                                         # the word table whose title was the last block
+    leaks: list[tuple[int, str]] = []                      # (place in `out`, the words of the class table that the layout runs in front of the text after a word table)
     for b in blocks[at + 1:]:
+        if pending is not None:
+            spec, pending = pending, None
+            if b.kind == "para":
+                rest = cut_word_table(b, spec)
+                if rest is not None:
+                    if spec.get("after"):
+                        leaks.append((len(out), spec["after"]))
+                    if not raw:
+                        out.append(fp.Para("para", [(spec["token"] + ".", False, False)], b.page, b.col, 0))       # the full stop keeps it a paragraph of its own
+                    if "".join(x[0] for x in rest).strip():
+                        out.append(fp.Para("para", rest, b.page, b.col, 0))
+                    continue
+        if b.kind == "title" and any(fp.squash(b.plain()) == fp.squash(t["title"]) for t in tables):
+            pending = next(t for t in tables if fp.squash(b.plain()) == fp.squash(t["title"]))
+            continue
         if b.kind == "para" and b.plain().strip() == "Special":
             special = True
             continue
@@ -293,6 +350,13 @@ def window(blocks: list, heads: set[str] | frozenset = frozenset(), raw: bool = 
                 out.append(fp.Para("para", runs, b.page, b.col, 0))
             continue
         out.append(b)
+    for where, words in leaks:                                 # the first paragraph after the table that starts with those words (the class table stands between)
+        want = words.split()
+        for n in range(where, len(out)):
+            toks = [(m.group(0), m.end()) for m in re.finditer(r"\S+", out[n].plain())] if out[n].kind == "para" else []
+            if toks and [t for t, _ in toks[:len(want)]] == want:
+                out[n] = fp.Para("para", runs_after(out[n].runs, toks[len(want) - 1][1]), out[n].page, out[n].col, 0)
+                break
     return join_across_tables(out)
 
 
@@ -372,6 +436,8 @@ MANIFEST = load_manifest()
 OTHER_BOOK = other_book_of(MANIFEST)
 # Titles inside the class features that print sets as a section of their own and that do not end the window (the Ranger's lists of favored enemies and terrains stand
 # between two features): (class entry) -> squashed titles. From the manifest, `[[class]] keep_titles`.
+for _n, _wt in enumerate(MANIFEST.get("word_table", [])):
+    WORD_TABLES.setdefault(_wt["class"], []).append(dict(_wt, token=f"WORDTABLE{_n}Z"))
 WINDOW_KEEP: dict[str, set[str]] = {c["id"]: {fp.squash(t) for t in c.get("keep_titles", [])} for c in MANIFEST.get("class", [])}
 OTHER_TEXT: dict[tuple[str, int], str] = {}      # (book, pdf page) -> the squashed text of the pages that `OTHER_BOOK` cites, filled by `load_other_books`
 
@@ -775,7 +841,7 @@ def coverage_check(corpus: Path, e, items: list[dict], blocks: list, title, head
     without the table handling of `window`, must stand in the written text of the class. The feature holds otherwise, with the sentences in its notes.
     A sentence of a printed head that has no item (a box, a section of its own) must stand somewhere in the written entry (features, unlisted sections,
     the text outside the feature region)."""
-    rwin0 = bold_option_heads(window(blocks, WINDOW_KEEP.get(e.id, frozenset()), raw=True, tail=table_tail(e.body), cell=table_last_cell(e.body)), set(option_names(options, own)))
+    rwin0 = bold_option_heads(window(blocks, WINDOW_KEEP.get(e.id, frozenset()), raw=True, tail=table_tail(e.body), cell=table_last_cell(e.body), tables=WORD_TABLES.get(e.id, ())), set(option_names(options, own)))
     rwin = rwin0 + section_behind(blocks, rwin0, lacking | SECTIONS_BEHIND.get(e.id, set()))
     _, rpfs = fp.split_print([title] + rwin, [h for _, h, _ in heads] + option_names(options, own) + EXTRA_HEADS.get(e.id, []))
     linked_text = []
@@ -852,7 +918,7 @@ def compare_class(corpus: Path, e, bk, cache: dict, options: dict | None = None,
         blocks = blocks[first_own:]              # the page row is where the class starts: the end of the class before it (the Fighter's features on the Monk's page) is not this class's window
     class_tail = table_tail(e.body)
     opt_names = set(option_names(options or {}, own))
-    win = bold_option_heads(window(blocks, WINDOW_KEEP.get(e.id, frozenset()), tail=class_tail, cell=table_last_cell(e.body)), opt_names)
+    win = bold_option_heads(window(blocks, WINDOW_KEEP.get(e.id, frozenset()), tail=class_tail, cell=table_last_cell(e.body), tables=WORD_TABLES.get(e.id, ())), opt_names)
     title = fp.Para("title", [(e.title, True, False)], page, 0, 20)
     expected = [h for _, h, _ in heads] + option_names(options or {}, own) + EXTRA_HEADS.get(e.id, [])
     _, pfs = fp.split_print([title] + win, expected)
@@ -920,6 +986,7 @@ def compare_class(corpus: Path, e, bk, cache: dict, options: dict | None = None,
                 if fix(" ".join(text.split())) != " ".join(text.split()):
                     text = "\n\n".join(fix(" ".join(x.split())) for x in text.split("\n\n"))
                     notes.append(f"layout: words or cells of a class table are in the sentence ({old[:50]!r})")
+            text = with_word_tables(e.id, text)
             leak = TABLE_LEAK.search(" ".join(text.split()))
             if leak:                                      # cells of a class table in the sentence: a layout fix (`LAYOUT_FIXES`) must name them
                 status = "hold"
@@ -1284,6 +1351,18 @@ def self_test() -> int:
           P("title", [("MONK", True, False)], 1, 0, 18), P("para", [("Monk text.", False, False)], 1, 0)]
     eq([x.plain() for x in gap_blocks(gb, gb[:2], set(), {"monk"})], ["Gap text."], "the gap of a class ends at the title of the next class")
     eq([x.plain() for x in gap_blocks(gb, gb[:2], set(), set())], ["Gap text.", "Monk text."], "without the stop it runs on into the next class")
+    wt = {"class": "x", "title": "Favored Terrains", "kind": "list", "header": [], "rows": [["Jungle"], ["Plains"]], "after": "favored enemy, master hunter", "token": "WORDTABLE9Z"}
+    wt2 = {"class": "x", "title": "Enemies", "kind": "table", "header": ["Type", "Type"], "rows": [["Aberration", "Plant"]], "token": "WORDTABLE8Z"}
+    eq(word_table_md(wt), "- Jungle\n- Plains", "a column of single cells is a list (ruling 45)")
+    eq(word_table_md(wt2), "|Type|Type|\n| --- | --- |\n|Aberration|Plant|", "a table with a header is a Markdown table (ruling 62)")
+    printed = P("para", [("Jungle  Plains favored enemy, master hunter  ", False, False), ("Hunter's Bond (Ex)", True, False), (": At 4th level.", False, False)], 65, 1)
+    eq([x[0] for x in cut_word_table(printed, wt)], ["  ", "Hunter's Bond (Ex)", ": At 4th level."], "the words of the table and the class table's words behind it are cut, the bold head stays")
+    eq(cut_word_table(P("para", [("Jungle Swamp Plains", False, False)], 65, 1), wt), None, "words that are not the typed table's are not cut (the check that the table is print's)")
+    ww = [P("title", [("Class Features", True, False)], 64, 1, 18), P("para", [("Intro.", False, False)], 64, 1), P("title", [("Enemies", True, False)], 64, 1, 18),
+          P("para", [("Type Type Aberration Plant ", False, False), ("Track (Ex)", True, False), (": A ranger tracks.", False, False)], 64, 1)]
+    eq([b.plain().strip() for b in window(ww, tables=[wt2])], ["Intro.", "WORDTABLE8Z.", "Track (Ex): A ranger tracks."], "a word table in the window is a paragraph of its token, the text behind it a paragraph of its own")
+    eq([b.plain().strip() for b in window(ww, tables=[wt2], raw=True)], ["Intro.", "Track (Ex): A ranger tracks."], "the coverage reading leaves the table out")
+    eq(with_word_tables("x", "A.\n\nWORDTABLE8Z.\n\nB."), "A.\n\nWORDTABLE8Z.\n\nB.", "no table of the class: the text stays")
     for ob in MANIFEST.get("other_book", []):
         eq(bool(ob["section"]) and all(x["key"] and x["head"] and x["text"] for x in ob["section"]), True, f"manifest: the sections of {ob['class']} are complete")
     for kind in ("class", "layout_fix", "option_pick", "other_book"):

@@ -149,3 +149,23 @@ sections_behind = ["Code of Conduct", "Associates"]
 [[class]]
 id = "ref/class/antipaladin"
 sections_behind = ["Code of Conduct", "Associates"]
+
+# `[[word_table]]`: a table that print sets under a title of its own inside the class features and that the text layer reads as one run of words (the Ranger's favored enemies,
+# Core Rulebook p. 64, and favored terrains, p. 65). `rows` are typed from the page (the text layer's order of the cells, row by row; the column of each cell checked against
+# the page's geometry) and the writer checks that the words of `header`, `rows` and `after` are the first words of the printed run, else the table is not read and the
+# feature holds. `kind = "table"` is a Markdown table (ruling 62); `kind = "list"` is a column of single cells that print sets with no header: a list (ruling 45). `after`:
+# the words of the last row of the class table that the layout runs behind the cells.
+[[word_table]]
+class = "ref/class/ranger"
+title = "Ranger Favored Enemies"
+kind = "table"
+header = ["Type (Subtype)", "Type (Subtype)"]
+rows = [["Aberration", "Humanoid (other subtype)"], ["Animal", "Magical beast"], ["Construct", "Monstrous humanoid"], ["Dragon", "Ooze"], ["Fey", "Outsider (air)"], ["Humanoid (aquatic)", "Outsider (chaotic)"], ["Humanoid (dwarf)", "Outsider (earth)"], ["Humanoid (elf)", "Outsider (evil)"], ["Humanoid (giant)", "Outsider (fire)"], ["Humanoid (goblinoid)", "Outsider (good)"], ["Humanoid (gnoll)", "Outsider (lawful)"], ["Humanoid (gnome)", "Outsider (native)"], ["Humanoid (halfling)", "Outsider (water)"], ["Humanoid (human)", "Plant"], ["Humanoid (orc)", "Undead"], ["Humanoid (reptilian)", "Vermin"]]
+
+[[word_table]]
+class = "ref/class/ranger"
+title = "Favored Terrains"
+kind = "list"
+header = []
+rows = [["Cold (ice, glaciers, snow, and tundra)"], ["Desert (sand and wastelands)"], ["Forest (coniferous and deciduous)"], ["Jungle"], ["Mountain (including hills)"], ["Plains"], ["Planes (pick one, other than Material Plane)"], ["Swamp"], ["Underground (caves and dungeons)"], ["Urban (buildings, streets, and sewers)"], ["Water (above and below the surface)"]]
+after = "favored enemy, master hunter"
