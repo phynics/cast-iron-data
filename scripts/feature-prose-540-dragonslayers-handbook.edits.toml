@@ -1,0 +1,7 @@
+[[edit]]
+entry = "ref/arc-gunslinger/wyrm-sniper"
+anchor = "anti-air-targeting"
+note = "hand-written from print (Dragonslayer's Handbook p. 23): the box \"Other Dragonslayer Class Options\" fills the top of the right column and the extraction runs its text into the end of the deed (and, being OCR text, garbled); the box is a lore box of the book, not part of the archetype (ruling 41). The text is the printed deed."
+text = '''
+At 15th level, whenever a wyrm sniper targets a creature's wings with the targeting deed, the wyrm sniper completely disables one of the creature's wings on a successful hit. If the wyrm sniper hits her target, the creature falls to the ground, regardless of its altitude, taking the appropriate amount of falling damage as a result. As long as the target has at least one functioning wing, it may attempt a DC 20 Fly check to gain the benefits of _[feather fall](ref/spell/feather-fall)_ instead of plummeting to the ground. In either case, it must succeed at a Reflex save (DC 10 + 1/2 the wyrm sniper's level + the wyrm sniper's Wisdom modifier) or fall [prone](ref/rule/prone) when reaching the ground. This ability replaces the gunslinger's menacing shot deed.
+'''
