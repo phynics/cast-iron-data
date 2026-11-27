@@ -223,12 +223,14 @@ def title_as_head(q):
     return fp.Para("para", [(q.plain().strip(), True, False)], q.page, q.col, 0)
 
 
+# the bold header of a class table that print sets in the middle of the text ("Spells per Day", "1st 2nd 3rd 4th", "Extracts per Day"): no feature head
+TABLE_HEAD_RE = re.compile(r"^(?:\d+(?:st|nd|rd|th)?\b.*|(?:spells|extracts|formulae|powers)(?: known| per day|\s+per\s+\w+)\s*)$", re.I)
 TABLE_HEADS: set[str] = set()          # squash of the header row of each table of the entry that is compared
 
 
 def table_head_as_text(q):
     """The bold header row of a table that the corpus has ("Disguise Time") is no head of a feature: it stays text with its rows (ruling 62)."""
-    if q.kind == "para" and fp.squash(q.plain()) in TABLE_HEADS:
+    if q.kind == "para" and (fp.squash(q.plain()) in TABLE_HEADS or TABLE_HEAD_RE.match(q.plain().strip())):
         return fp.Para("para", [(q.plain(), False, False)], q.page, q.col, 0)
     return q
 
