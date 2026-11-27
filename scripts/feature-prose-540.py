@@ -595,6 +595,8 @@ def split_italic_list_links(text: str, links: list[tuple[str, str]]) -> str:
     labels = {re.sub(r"\\", "", l).strip().casefold() for l, _ in links}
     def repl(m: re.Match) -> str:
         items = [x.strip() for x in m.group(1).split(",")]
+        if len(items) < 2 or any(not item for item in items):
+            return m.group(0)
         if not any(x.casefold() in labels for x in items):
             return m.group(0)
         return ", ".join(I_OPEN + x + I_CLOSE for x in items)
@@ -6493,6 +6495,12 @@ def self_test() -> int:
     eq(split_italic_list_links(_il, [("remove disease", "ref/spell/remove-disease")]),
        I_OPEN + "owl's wisdom" + I_CLOSE + ", " + I_OPEN + "remove disease" + I_CLOSE, "an italic list is split for a link")
     eq(split_italic_list_links(_il, [("bless", "ref/spell/bless")]), _il, "an italic list that holds no link text stays whole")
+    _trailing_comma = I_OPEN + "modify memory," + I_CLOSE
+    eq(split_italic_list_links(_trailing_comma, [("modify memory", "ref/spell/modify-memory")]), _trailing_comma,
+       "a one-item italic phrase ending in a comma stays whole when its phrase is linked")
+    _one_item = I_OPEN + "modify memory" + I_CLOSE
+    eq(split_italic_list_links(_one_item, [("modify memory", "ref/spell/modify-memory")]), _one_item,
+       "a one-item italic phrase without a comma stays whole")
     LINK_CTX["title"] = "Mirror Witch (Witch Archetype)"
     eq(apply_links("a mirror witch uses a mirror (worth 10 gp)", [("mirror", "ref/eq-misc/mirror")])[0], "a mirror witch uses a [mirror](ref/eq-misc/mirror) (worth 10 gp)", "a link skips the archetype's own name")
     eq(apply_links("%scause fear%s, then %sfear%s" % (I_OPEN, I_CLOSE, I_OPEN, I_CLOSE), [("fear", "ref/spell/fear")])[0], "%scause fear%s, then %s[fear](ref/spell/fear)%s" % (I_OPEN, I_CLOSE, I_OPEN, I_CLOSE), "a link skips a longer italic spell name")

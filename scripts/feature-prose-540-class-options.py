@@ -708,24 +708,82 @@ def strip_see(text: str) -> str:
 
 
 def letter_edits(a: str, b: str) -> int:
-    """The letters that differ between two squashed texts (the longer side of each differing stretch)."""
+    """The letters that differ between two texts (the longer side of each differing stretch)."""
     return sum(max(i2 - i1, j2 - j1) for tag, i1, i2, j1, j2 in difflib.SequenceMatcher(None, a, b, autojunk=False).get_opcodes() if tag != "equal")
 
 
-def near_exact(sentence: str, written: list[str]) -> bool:
-    """Whether a printed sentence is one of the written sentences up to noise: the same digits in the same order, the same number of negations (not, no, never,
-    cannot, n't), and at most two letters that differ (spacing, a hyphen, a ligature, a misprint of print that the corpus corrected). A ratio would let a changed
-    digit or a dropped "not" through in a long sentence."""
+NUMBER_TOKEN = re.compile(r"(?<!\w)[+\-]?\d+(?:[,./]\d+)*(?:st|nd|rd|th)?(?!\w)")
+
+
+def number_tokens(text: str) -> list[str]:
+    """The numbers of a text as tokens with their sign, "/", "," and "." kept ("+2", "1/2", "1,000", "10th"), the dashes of print and of the corpus alike."""
+    return NUMBER_TOKEN.findall(text.replace("\u2212", "-").replace("\u2013", "-").replace("\u2014", "-"))
+
+
+def squash_map(text: str) -> tuple[str, list[int]]:
+    """The squashed text (letters and digits, lower case: `fp.squash`) and, for each of its characters, the place in the original text."""
+    out, idx = [], []
+    for i, ch in enumerate(text):
+        for c in unicodedata.normalize("NFKD", ch).lower().replace("\u2019", "'"):
+            if c.isascii() and c.isalnum():
+                out.append(c)
+                idx.append(i)
+    return "".join(out), idx
+
+
+def stands_in(sentence: str, written: str, sq_w: tuple[str, list[int]] | None = None) -> bool:
+    """Whether the letters and digits of a printed sentence stand in the written text, on word boundaries, and the numbers of the stretch that matches are the
+    numbers of the sentence, token by token, with sign, "/" and "," ("5" is not in "15", "1/2" is not "12", "+2" is not "-2")."""
     sq = fp.squash(sentence)
-    digits, negs = re.findall(r"\d+", sentence), len(NEGATIONS.findall(sentence))
+    if not sq:
+        return True
+    swq, idx = sq_w or squash_map(written)
+    want = number_tokens(sentence)
+    k = swq.find(sq)
+    while k >= 0:
+        a, b = idx[k], idx[k + len(sq) - 1] + 1
+        left_ok = a == 0 or not written[a - 1].isalnum()
+        right_ok = b >= len(written) or not written[b].isalnum()
+        if left_ok and right_ok and number_tokens(written[a:b]) == want:
+            return True
+        k = swq.find(sq, k + 1)
+    return False
+
+
+def sentence_words(text: str) -> list[str]:
+    return re.findall(r"[a-z0-9']+", unicodedata.normalize("NFKD", text).lower().replace("\u2019", "'"))
+
+
+def near_exact(sentence: str, written: list[str]) -> bool:
+    """Whether a printed sentence is one of the written sentences up to a misprint: the same words, the same numbers (as tokens), the same number of negations
+    (not, no, never, cannot, n't), and one word that differs by at most two letters, **in a word of six letters or more** (a misprint of print that the corpus
+    corrected, a ligature). A change of word identity (his/her, may/can, able/unable, valid/invalid) is a loss."""
+    ws = sentence_words(sentence)
+    nums, negs = number_tokens(sentence), len(NEGATIONS.findall(sentence))
     for w in written:
-        wq = fp.squash(w)
-        if abs(len(wq) - len(sq)) <= 2 and re.findall(r"\d+", w) == digits and len(NEGATIONS.findall(w)) == negs and letter_edits(sq, wq) <= 2:
+        ww = sentence_words(w)
+        if len(ww) != len(ws):
+            continue
+        diff = [(a, b) for a, b in zip(ws, ww) if a != b]
+        if (len(diff) == 1 and len(diff[0][0]) >= 6 and len(diff[0][1]) >= 6 and letter_edits(*diff[0]) <= 2
+                and number_tokens(w) == nums and len(NEGATIONS.findall(w)) == negs):
             return True
     return False
 
 
-CITATION = re.compile(r"\s*\((?:Pathfinder RPG |Pathfinder Roleplaying Game )?[A-Z][A-Za-z'\u2019: ]+? \d+(?:[-\u2013]\d+)?\)")
+PUBLICATION_TITLES: list[str] = []
+
+
+def citation_re() -> re.Pattern:
+    """A parenthetical citation of a book of `publications.toml` and a page: "(Core Rulebook 443)", "(Pathfinder RPG Bestiary 305)". Nothing else is a citation."""
+    if not PUBLICATION_TITLES:
+        path = HERE.parent / "publications.toml"
+        data = tomllib.loads(path.read_text(encoding="utf-8")) if path.exists() else {}
+        PUBLICATION_TITLES.extend(sorted({x["title"] for x in data.get("publication", []) if x.get("title")}, key=len, reverse=True))
+    alt = "|".join(re.escape(x) for x in PUBLICATION_TITLES) or "(?!)"
+    return re.compile(r"\s*\((?:Pathfinder RPG |Pathfinder Roleplaying Game |Pathfinder )?(?:" + alt + r") \d+(?:[-\u2013]\d+)?\)")
+
+
 ERRATA_ROWS: dict[str, list[tuple[str, str]]] = {}
 
 
@@ -751,7 +809,7 @@ def apply_fixes(text: str, fixes: list[tuple[str, str]]) -> str:
     """The printed text with the corrections of the errata file applied (the printed value is found up to blanks and curly quotes)."""
     text = text.replace("\u2019", "'")
     for old, new in fixes:
-        pat = r"\s+".join(re.escape(w) for w in old.replace("\u2019", "'").split())
+        pat = r"\s*".join(re.escape(c) for c in "".join(old.replace("\u2019", "'").split()))       # the layer breaks a word here and there ("Ref lex", "f lames")
         text = re.sub(pat, new.replace("\\", "\\\\"), text)
     return text
 
@@ -767,7 +825,12 @@ def print_lost(printed: str, written: str, fixes: list[tuple[str, str]] | None =
     plain = strip_see(re.sub(r"[_*>]|^\s*[-\u2022]\s+", "", re.sub(r"\[([^\]]*)\]\([^)]*\)", r"\1", written), flags=re.M))
     have = fp.squash(plain)
     wsents = SENTENCE_END.split(" ".join(plain.split()))
-    linked = {fp.squash(re.sub(r"\[([^\]]*)\]\([^)]*\)", r"\1", x)) for x in SENTENCE_END.split(" ".join(re.sub(r"[_*>]", "", written).split())) if "](" in x}
+    sq_w = squash_map(plain)
+    linked: dict[str, list[str]] = {}                                  # a written sentence with links: its letters, and the texts of its links
+    for x in SENTENCE_END.split(" ".join(re.sub(r"[_*>]", "", written).split())):
+        if "](" in x:
+            linked.setdefault(fp.squash(re.sub(r"\[([^\]]*)\]\([^)]*\)", r"\1", x)), []).extend(m.group(1) for m in re.finditer(r"\[([^\]]*)\]\([^)]*\)", x))
+    citation = citation_re()
     out = []
     for s in SENTENCE_END.split(" ".join(strip_see(printed).split())):
         if len(re.sub(r"[^A-Za-z]", "", s)) < 12:
@@ -786,10 +849,13 @@ def print_lost(printed: str, written: str, fixes: list[tuple[str, str]] | None =
         s = " ".join(kept)
         if re.fullmatch(r"(?:Spells|Extracts|Formulae|Powers)\s+(?:per\s+Day|Known)", s.strip(), re.I):
             continue                                        # the title of the spell columns of a class table, its cells gone
-        if fp.squash(s) in have or near_exact(s, wsents):
+        if stands_in(s, plain, sq_w) or near_exact(s, wsents):
             continue
-        if CITATION.search(s) and fp.squash(CITATION.sub("", s)) in linked:
-            continue                                        # ruling 26: the citation went where a link stands
+        m = citation.search(s)
+        if m and fp.squash(citation.sub("", s)) in linked:
+            near = [x.lower() for x in re.findall(r"[A-Za-z0-9']+", s[:m.start()])[-4:]]          # the citation followed these words
+            if any(w in near for x in linked[fp.squash(citation.sub("", s))] for w in re.findall(r"[a-z0-9']+", x.lower())):
+                continue                                    # ruling 26: the citation went where a link stands, on a word of the phrase that it followed
         out.append(s)
     return out
 
@@ -2020,9 +2086,34 @@ def self_test() -> int:
        ["While raging and mounted, the barbarian's mount gains the trample special attack (Pathfinder RPG Bestiary 305)."], "a citation with no link in its place is a loss")
     eq(print_lost("While raging and mounted, the barbarian's mount gains the trample special attack (Pathfinder RPG Bestiary 305).", "While raging and mounted, the barbarian's mount gains the [trample](ref/umr/trample) special attack (Pathfinder RPG Bestiary 306)."),
        ["While raging and mounted, the barbarian's mount gains the trample special attack (Pathfinder RPG Bestiary 305)."], "a citation with another page is no match")
+    eq(print_lost("The barbarian can make an overrun attempt against any creature that she charges at the end of her move, as a free action (Core Rulebook 443).",
+                  "The [barbarian](ref/class/barbarian) can make an overrun attempt against any creature that she charges at the end of her move, as a free action."),
+       ["The barbarian can make an overrun attempt against any creature that she charges at the end of her move, as a free action (Core Rulebook 443)."],
+       "a link far from the citation does not take it")
+    eq(print_lost("The target is sickened for 1 round per level (DC 15) of the caster.", "The target is sickened for 1 round per level of the caster."), ["The target is sickened for 1 round per level (DC 15) of the caster."], "(DC 15) is no citation")
+    eq(print_lost("The target is [sickened](ref/misc/sickened) for 1 round per level (Wisdom 13) of the caster.", "The target is sickened for 1 round per level of the caster."),
+       ["The target is [sickened](ref/misc/sickened) for 1 round per level (Wisdom 13) of the caster."], "(Wisdom 13) is no citation")
+    # the exact rules: signs, separators, digit edges, word identity
+    base = "The creature takes a {} penalty on all saving throws made against effects that the caster creates with this spell."
+    for old, new, what in (("+2", "-2", "a sign"), ("1/2", "12", "a slash"), ("1,000", "10,00", "a comma"), ("5", "15", "a digit edge")):
+        eq(print_lost(base.format(old), base.format(new)), [base.format(old)], f"the numbers are compared as tokens: {what} differs")
+    eq(print_lost("A creature of DC 1 or lower is not affected by this ability of the witch or any other creature of the kind.", "A creature of DC 15 or lower is not affected by this ability of the witch or any other creature of the kind."),
+       ["A creature of DC 1 or lower is not affected by this ability of the witch or any other creature of the kind."], "DC 1 is not DC 15")
+    swap = "The antipaladin can use this ability on {} creature within sight of the weapon that the spirit has made for him."
+    for old, new in (("his", "her"), ("any", "all"), ("able", "unable"), ("valid", "invalid"), ("aware", "unaware"), ("may", "can")):
+        eq(print_lost(swap.format(old), swap.format(new)), [swap.format(old)], f"a word of another identity is a loss: {old}/{new}")
+    eq(print_lost("The antipaladin can use this ability on an anitpaladin within sight of the weapon that the spirit has made for him.", "The antipaladin can use this ability on an antipaladin within sight of the weapon that the spirit has made for him."), [],
+       "a misprint of two letters in a long word is no loss")
+    ligature = [("a Reflex save (DC = 10 + 1/2 the alchemist's level + the alchemist's Intelligent modifier) halves the damage.", "a Reflex save (DC = 10 + 1/2 the alchemist's level + the alchemist's Intelligence modifier) halves the damage.")]
+    eq(print_lost("Each creature takes damage, but succeeding at a Ref lex save (DC = 10 + 1/2 the alchemist's level + the alchemist's Intelligent modifier) halves the damage.",
+                  "Each creature takes damage, but succeeding at a Reflex save (DC = 10 + 1/2 the alchemist's level + the alchemist's Intelligence modifier) halves the damage.", ligature), [],
+       "a correction of the errata file is found in the printed text up to the breaks that the layer sets inside a word")
     fixes = [("she can attempt to save again again 1 round later at the same DC.", "she can attempt to save again 1 round later at the same DC.")]
     eq(print_lost("If she fails a saving throw against an illusion that is not to disbelieve, she can attempt to save again again 1 round later at the same DC.",
                   "If she fails a saving throw against an illusion that is not to disbelieve, she can attempt to save again 1 round later at the same DC.", fixes), [], "a misprint that the errata file corrects is no loss")
+    eq(print_lost("If she fails a saving throw against an illusion that is not to disbelieve, she can attempt to save again again 1 round later at the same DC.",
+                  "If she fails a saving throw against an illusion that is not to detect, she can attempt to save again 1 round later at the same DC.", fixes),
+       ["If she fails a saving throw against an illusion that is not to disbelieve, she can attempt to save again 1 round later at the same DC."], "the fix applies and another word changes too: the sentence is a loss")
     eq(print_lost("If she fails a saving throw against an illusion that is not to disbelieve, she can attempt to save again again 2 rounds later at the same DC.",
                   "If she fails a saving throw against an illusion that is not to disbelieve, she can attempt to save again 1 round later at the same DC.", fixes),
        ["If she fails a saving throw against an illusion that is not to disbelieve, she can attempt to save again again 2 rounds later at the same DC."], "the correction does not cover another change")
@@ -2036,6 +2127,8 @@ def self_test() -> int:
     eq(print_lost("(Su): The witch can create a magic sensor that she can see through.", "The [witch](ref/x) can create a magic sensor that she can see through."), [], "the tag of a head and a link are not differences")
     eq([bool(TABLE_HEAD_RE.match(x)) for x in ("1st 2nd 3rd 4th", "0 1st 2nd 3rd", "Spells per Day", "Extracts per Day", "2-Point Evolutions", "3rd-Level Spells", "1st-Level Witch Spells", "1 Point Evolutions", "4th Level")],
        [True, True, True, True, False, False, False, False, False], "the header of a class table is no head; a group heading that starts with a number or an ordinal is (near misses)")
+    for line in bad:
+        print("FAIL", line)
     print(f"self-test: {ok} checks passed" if not bad else f"self-test: {len(bad)} failures")
     return 1 if bad else 0
 
