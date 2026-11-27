@@ -13,15 +13,12 @@ page = "18"
 [fields]
 kind = "class_option"
 group = "ki-power"
+ability_type = "Ex"
 +++
 
-**Light Steps (Ex)**
-
-**Flavor:** A monk with this ki power can move effortlessly across nearly any surface.
-
-**Ability:** Whenever the monk activates his _feather balance_ ki power, he can also ignore all
+A monk with this ki power can move effortlessly across nearly any surface. Whenever the monk
+activates his [feather balance](ref/kipower/feather-balance) ki power, he can also ignore all
 [difficult terrain](ref/rule/terrain-and-obstacles). In addition, while active, he can cross any
 solid surface, even if it would normally not support his weight. This does not allow him to walk on
-liquids.
-
-**Prereq:** 8th-level monk, [feather balance](ref/kipower/feather-balance)
+liquids. A monk must be at least 8th level and have the
+[feather balance](ref/kipower/feather-balance) ki power before selecting this ki power.

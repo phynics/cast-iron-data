@@ -13,13 +13,10 @@ page = "17"
 [fields]
 kind = "class_option"
 group = "ki-power"
+ability_type = "Ex"
 +++
 
-**High Jump (Ex)**
-
-**Passive:** A monk with this ki power adds his level as a bonus on all
-[Acrobatics](ref/skill/acrobatics) checks to jump, both for vertical jumps and horizontal jumps. In
-addition, he always counts as having a running start when attempting Acrobatics checks to jump.
-
-**Swift:** By spending 1 ki point, the monk gains a +20 bonus on Acrobatics checks to jump for 1
-round.
+A monk with this ki power adds his level as a bonus on all [Acrobatics](ref/skill/acrobatics) checks
+to jump, both for vertical jumps and horizontal jumps. In addition, he always counts as having a
+running start when attempting Acrobatics checks to jump. By spending 1 point from his ki pool as a
+swift action, the monk gains a +20 bonus on Acrobatics checks to jump for 1 round.

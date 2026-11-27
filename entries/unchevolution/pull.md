@@ -13,20 +13,15 @@ page = "35"
 [fields]
 kind = "class_option"
 group = "unchained-summoner-evolution"
+ability_type = "Ex"
 +++
 
-**Pull (Ex)**
+1-Point Evolutions: The following evolutions cost 1 point from the eidolon's evolution pool.
 
-**Flavor:** The eidolon gains the ability to pull creatures closer with a successful attack.
-
-**Ability:** Select one type of natural attack. Whenever the eidolon makes a successful attack of
-the selected type, it can attempt a free combat maneuver check. If the eidolon succeeds at this
-check, it pulls the target of the attack 5 feet closer to it.
-
-This ability works only on creatures of a size category equal to or smaller than the eidolon.
-Creatures pulled in this way do not provoke attacks of opportunity.
-
-**Prereq:** Eidolon has reach of 10 feet or more
-
-**Special:** This evolution can be selected more than once. Its effects do not stack. Each time an
-eidolon selects this evolution, it applies to a different natural attack.
+The eidolon gains the ability to pull creatures closer with a successful attack. Select one type of
+natural attack. Whenever the eidolon makes a successful attack of the selected type, it can attempt
+a free combat maneuver check. If the eidolon succeeds at this check, it pulls the target of the
+attack 5 feet closer to it. This ability works only on creatures of a size category equal to or
+smaller than the eidolon. Creatures pulled in this way do not provoke attacks of opportunity. This
+evolution can be selected more than once. Its effects do not stack. Each time an eidolon selects
+this evolution, it applies to a different natural attack. _Requirements_: Reach of 10 feet or more.

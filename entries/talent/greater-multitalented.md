@@ -13,11 +13,9 @@ page = "24"
 [fields]
 kind = "class_option"
 group = "rogue-talent"
+ability_type = "Ex"
 +++
 
-**Greater Multitalented (Ex)**
-
-**Ability:** A rogue with this talent can use the _multitalented_ rogue talent to gain additional
-uses of _advanced talents._
-
-**Prereq:** [Multitalented](ref/talent/multitalented)
+A rogue with this talent can use the [multitalented](ref/talent/multitalented) rogue talent to gain
+additional uses of advanced talents. A rogue must have the multitalented talent to select this
+talent.

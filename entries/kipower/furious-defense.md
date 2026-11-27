@@ -13,15 +13,10 @@ page = "17"
 [fields]
 kind = "class_option"
 group = "ki-power"
+ability_type = "Ex"
 +++
 
-**Furious Defense (Ex)**
-
-**Immediate:** By spending 1 ki point, a monk with this ki power can grant himself a +4 dodge bonus
-to AC until the end of his next turn.
-
-**Prereq:** 7th-level monk
-
-**Special:** The monk can activate this ability and the
-[formless mastery](ref/kipower/formless-mastery) ki power with the same immediate action for a total
-cost of 3 ki points.
+By spending 1 point from his ki pool as an immediate action, a monk with this ki power can grant
+himself a +4 dodge bonus to AC until the end of his next turn. The monk can activate this ability
+and the [formless mastery](ref/kipower/formless-mastery) ki power with the same immediate action for
+a total cost of 3 ki points. A monk must be at least 7th level before selecting this ki power.

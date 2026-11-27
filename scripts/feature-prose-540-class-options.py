@@ -305,10 +305,11 @@ def table_head_as_text(q):
     return q
 
 
-def install_split(names: list[str]) -> None:
+def install_split(names: list[str], book: str = "") -> None:
     """The print reader takes an italic paragraph start as a head only when the entry expects that name. A page of class options sets
     the powers of other entries beside the entry's own (the evolutions are italic heads in one list), so every name of the book is
     expected, and a power's text ends at the next power of the page."""
+    names = [print_match_title(book, f"ref/talent/{fp.anchor_of(name)}", name) for name in names]
     EXTRA_NAMES[:] = list(names) + [inverted(n) for n in names if VARIANT_FIRST.match(n) or n.split(" ", 1)[0] in INVERTED_SUFFIX_VARIANTS]  # print can place a variant after its base name
     if not getattr(fp.split_print, "_class_options", False):
         orig = fp.split_print
@@ -369,7 +370,7 @@ def ability_tag_of_printed_head(head: str) -> str:
 
 def ability_tag_for_option(book: str, imported_head: str, printed_head: str) -> tuple[str, bool]:
     """Read tags from print in the audited books; retain the established matcher elsewhere."""
-    if book in {"ultimate-combat", "ultimate-intrigue", "core-rulebook"}:
+    if book in {"ultimate-combat", "ultimate-intrigue", "core-rulebook", "pathfinder-unchained"}:
         imported, printed = ability_tag_of(imported_head), ability_tag_of_printed_head(printed_head)
         return printed, bool(imported and printed and imported != printed)
     return ability_tag_pair(imported_head, printed_head)
@@ -391,6 +392,9 @@ INTRO_MARK_SPECS = {
     "core-rulebook": {
         "talent": ("Talents marked with an asterisk", "sneak attack"),
     },
+    "pathfinder-unchained": {
+        "talent": ("Talents marked with an asterisk", "sneak attack"),
+    },
 }
 INTRO_MARK_TEXT: dict[tuple[str, str], tuple[str, int]] = {}
 MARKED_HEAD_ENTRIES: set[str] = set()
@@ -405,7 +409,9 @@ def marked_head_intro(book: str, entry_id: str) -> str:
     """The printed intro sentence for a marked head, read from its book during --compare."""
     text, _ = INTRO_MARK_TEXT.get((book, entry_id.split("/")[1]), INTRO_MARK.get("by", {}).get(entry_id.split("/")[1], ("", 0)))
     text = text.replace("(*)", r"(\*)")
-    return text.replace("’", "'") if book == "ultimate-intrigue" else text
+    if book in {"ultimate-intrigue", "pathfinder-unchained"}:
+        return text.replace("’", "'")
+    return text
 
 
 def marked_head_page(book: str, entry_id: str) -> int:
@@ -637,7 +643,37 @@ def link_kind_mismatches(text: str) -> list[tuple[str, str, str, str]]:
 
 def option_link_kind_mismatches(book: str, text: str) -> list[tuple[str, str, str, str]]:
     """Run the option-link check for books whose class-option prose has been reviewed for it."""
-    return link_kind_mismatches(text) if book in {"advanced-class-guide", "core-rulebook"} else []
+    return link_kind_mismatches(text) if book in {"advanced-class-guide", "core-rulebook", "pathfinder-unchained"} else []
+
+
+def printed_claim_key(row: dict[str, str]) -> tuple[str, str, str, str]:
+    """A Pathfinder Unchained option is claimed only against the same printed page, not a repeated eidolon entry."""
+    page = row["page"] if row["book"] == "pathfinder-unchained" else ""
+    return row["book"], page, fp.namekey(row["feature"]), row["print_sha256"]
+
+
+def print_match_title(book: str, entry_id: str, title: str) -> str:
+    """Drop the Unchained Rogue catalog suffix when matching its printed talent head."""
+    if book == "pathfinder-unchained" and entry_id.startswith("ref/talent/"):
+        return re.sub(r"\s*\(Unchained Rogue\)(?=\s*\((?:Ex|Su|Sp)\)$|$)", "", title)
+    return title
+
+
+def print_match_body(book: str, entry_id: str, body: str) -> str:
+    """Normalize the Unchained Rogue title suffix on imported power labels for print matching."""
+    if book == "pathfinder-unchained" and entry_id.startswith("ref/talent/"):
+        return body.replace(" (Unchained Rogue)", "")
+    return body
+
+
+def pathfinder_unchained_links(entry_id: str, text: str) -> str:
+    """Keep printed option links, while resolving book-local option names correctly."""
+    if entry_id == "ref/unchevolution/tail-slap":
+        text = re.sub(r"\[tail\]\(ref/unchevolution/tail\)", "tail", text, flags=re.I)
+    if entry_id in {"ref/unchevolution/constrict", "ref/unchevolution/swallow-whole"}:
+        text = re.sub(r"\[grab\]\(ref/(?:carried/bestiary/rules/universal-monster-rules/)?grab\)",
+                      "[grab](ref/unchevolution/grab)", text, flags=re.I)
+    return text
 
 
 HARD_HOLD_NOTE_PREFIXES = (
@@ -676,6 +712,8 @@ def group_kind(e) -> str:
 
 def single_name_matches_title(entry_id: str, title: str, name: str) -> bool:
     imported = fp.import_name(entry_id, name)
+    imported = print_match_title("pathfinder-unchained", entry_id, imported)
+    title = print_match_title("pathfinder-unchained", entry_id, title)
     return fp.namekey(imported) == fp.namekey(title) or fp.namekey(inverted(imported)) == fp.namekey(title)
 
 
@@ -711,8 +749,8 @@ def anchor_section(blocks: list, title: str, own: frozenset | set = frozenset(),
     return blocks[at + 1:], False
 
 
-HEADING_FAMILIES = {"evolution"}  # ruling 61
-INTRO_MARKS_BOOKS = ("ultimate-magic", "advanced-class-guide", "core-rulebook")
+HEADING_FAMILIES = {"evolution", "unchevolution"}  # ruling 61
+INTRO_MARKS_BOOKS = ("ultimate-magic", "advanced-class-guide", "core-rulebook", "pathfinder-unchained")
 FAMILY_WORDS = (("investigator", "invtalent"), ("slayer", "slayertalent"), ("rage power", "ragepower"), ("bloodrage", "ragepower"), ("discover", "discovery"), ("hex", "shamanhex"), ("deed", "swashdeed"), ("arcana", "arcana"), ("evolution", "evolution"))
 class IntroMarkMap:
     """Resolve marked-head intro sentences from print, by family or explicit rule."""
@@ -1105,7 +1143,7 @@ def citation_re() -> re.Pattern:
         path = HERE.parent / "publications.toml"
         data = tomllib.loads(path.read_text(encoding="utf-8")) if path.exists() else {}
         PUBLICATION_TITLES.extend(sorted({x["title"] for x in data.get("publication", []) if x.get("title")}, key=len, reverse=True))
-    alt = "|".join(re.escape(x) for x in PUBLICATION_TITLES) or "(?!)"
+    alt = "|".join(re.escape(x).replace("\\'", "['\u2019]").replace("'", "['\u2019]") for x in PUBLICATION_TITLES) or "(?!)"           # the title with the apostrophe of the text layer ("Advanced Player\u2019s Guide")
     return re.compile(r"\s*\((?:Pathfinder RPG |Pathfinder Roleplaying Game |Pathfinder )?(?:" + alt + r") \d+(?:[-\u2013]\d+)?\)")
 
 
@@ -1191,12 +1229,20 @@ def compare_one(e, book, bk, other=None) -> list[dict]:
     base = {"entry": e.id, "shape": shape, "page": e.page, "span": "", "note": ""}
     powers = powers_of(e)
     e0 = e                               # the entry as it is: its body is what the writer reads
+    title = print_match_title(book, e.id, e.title)
+    body = print_match_body(book, e.id, e.body)
+    if title != e.title or body != e.body:
+        e = dataclasses.replace(e, title=title, body=body)
     if shape == "multi":                 # a heading of the import is a head that print sets ("Order Abilities"): its paragraph is its own, not the one above's
         e = dataclasses.replace(e, body=headings_as_names(e.body))
     _, feats = fp.parse_import(e.body, set())
     by_name: dict[str, list] = {}
     for f in feats:
         by_name.setdefault(re.sub(r":$", "", f.name), []).append(f)
+    for name, _ in powers:
+        print_name = print_match_title("pathfinder-unchained", e.id, name)
+        if print_name != name and print_name in by_name:
+            by_name[name] = by_name[print_name]
     if not e.page.isdigit():
         # This batch’s missing-page recovery is scoped to the Advanced Class Guide.
         found = printed_page(e, bk) if book == "advanced-class-guide" else None
@@ -1307,6 +1353,10 @@ def compare_one(e, book, bk, other=None) -> list[dict]:
             rows.append(dict(common, anchor=fp.anchor_of(name), verdict="missing-head", status="hold", level_import="",
                              level="", note="head not printed on the cited page and the next ones", print="", print_sha256=""))
             continue
+        if r is None:
+            rows.append(dict(common, anchor=fp.anchor_of(name), verdict="missing-head", status="hold", level_import="",
+                             level="", note="head not printed on the cited page and the next ones", print="", print_sha256=""))
+            continue
         verdict = {"draft": "agree", "print": "differ", "hold": "hold"}[r["status"]]
         note_r = f"resolution of #537: {REVIEWED[(e.id, sha)]}" if (e.id, sha) in REVIEWED else ""
         notes = [n_ for n_ in r["notes"] if n_] + ([note_r] if note_r else []) + notes_tag
@@ -1315,6 +1365,8 @@ def compare_one(e, book, bk, other=None) -> list[dict]:
         status, printed = r["status"], clean_acg_print(e.id, r["print"])
         if book == "core-rulebook":
             printed = clean_core_rulebook_print(e.id, printed)
+        if book == "pathfinder-unchained":
+            printed = pathfinder_unchained_links(e.id, clean_pathfinder_unchained_print(printed))
         if book == "core-rulebook":
             printed = fp.render_marks(printed)   # keep print's italic markers as TOML-safe Markdown, not internal control bytes
         blood_intro = ""
@@ -1529,18 +1581,20 @@ def run_audit(args) -> int:
     sentence_audit = _load("written_sentence_audit_for_class_options", "class-options/check-written-sentences.py")
     pdf = fp.find_pdf(Path(args.books), fp.publication_title(corpus, book))
     bk = fp.load_book(fp.book_xml(pdf, Path(args.cache)))
-    install_split([x.title for x in load_class_options(corpus)] + (["Master Strike (Ex)"] if book == "core-rulebook" else []))
+    install_split([x.title for x in load_class_options(corpus)] + (["Master Strike (Ex)"] if book == "core-rulebook" else []), book)
     held, n, skipped = 0, 0, 0
-    others = [x.title for x in load_class_options(corpus, book)]               # a head of another class option ends the span of this one
+    others = [print_match_title(book, x.id, x.title) for x in load_class_options(corpus, book)]  # a printed head of another option ends the span
     rows = read_tsv(tsv_file(corpus, book))
     written = {eid for eid in {r["entry"] for r in rows} if all(r["status"] == LEDGER for r in rows if r["entry"] == eid)}
     for e in load_class_options(corpus, book):
         page = first_page(e.page)
         if e.id not in written or page is None:
             continue
-        heads = [e.title] + re.findall(r"^#{2,6}\s+(.*?)(?:\s*\{#[^}]*\})?\s*$", e.body, re.M) + re.findall(r"^\*\*([^*\n]{2,60}?):?\*\*", e.body, re.M)
+        head_page = last_page(e.page) or page
+        print_title = print_match_title(book, e.id, e.title)
+        heads = [print_title] + re.findall(r"^#{2,6}\s+(.*?)(?:\s*\{#[^}]*\})?\s*$", e.body, re.M) + re.findall(r"^\*\*([^*\n]{2,60}?):?\*\*", e.body, re.M)
         multi = len(re.findall(r"^#{2,6}\s+", e.body, re.M)) > 1
-        last = page + (3 if multi else 2)
+        last = head_page + (3 if multi else 2)
         blocks = fp.read_blocks(bk, max(1, page + fp.PAGE_OFFSET[0] - 1), min(last + fp.PAGE_OFFSET[0], max(bk.pages)))
         if book == "core-rulebook":
             blocks = core_rulebook_table_heads(blocks)
@@ -1548,7 +1602,7 @@ def run_audit(args) -> int:
             anchored = anchor_section(blocks, e.title, {fp.squash(fp.ABILITY_TAG.sub("", h)) for h in heads}, group_kind(e))
             if anchored is not None:
                 blocks = anchored[0]
-        _, pfs = fp.split_print([fp.Para("title", [(e.title, True, False)], page, 0, 20)] + blocks, heads + others)
+        _, pfs = fp.split_print([fp.Para("title", [(print_title, True, False)], page, 0, 20)] + blocks, heads + others)
         want = {fp.namekey(fp.ABILITY_TAG.sub("", h)) for h in heads} | {fp.namekey(inverted(h)) for h in heads}
         mine, seen = [], set()
         for pf in pfs:
@@ -1559,12 +1613,15 @@ def run_audit(args) -> int:
         n += 1
         if not mine:
             skipped += 1
+            print(f"  {e.id}: no printed head found on the cited pages")
             continue
         for pf in mine:
             printed = " ".join("".join(x[0] for x in para) for para in pf.paras)
             printed = sentence_audit.printed_region_text(book, e.id, printed)
             if book == "core-rulebook":
                 printed = clean_core_rulebook_print(e.id, printed)
+            if book == "pathfinder-unchained":
+                printed = pathfinder_unchained_links(e.id, clean_pathfinder_unchained_print(printed))
             lost = print_lost(printed, e.body, errata_fixes(corpus, e.id))
             if lost:
                 held += 1
@@ -1636,7 +1693,7 @@ def run_compare(args) -> int:
             # in the same order as before conversion so this batch does not change other books.
             for feature in acg_written.get(x.id, []):
                 names += [feature, fp.tail_name(feature)]
-    install_split(names + (["Master Strike (Ex)"] if book == "core-rulebook" else []))
+    install_split(names + (["Master Strike (Ex)"] if book == "core-rulebook" else []), book)
     STOP_TITLES.clear()
     STOP_TITLES.update(fp.squash(re.sub(r"\s*\((?:[A-Z]{2,4}|HotW)\)\s*$", "", x.title)) for x in load_class_options(corpus))
     fp.KNOWN_OPTIONS[:] = [fp.item_tokens(x.title) for x in load_class_options(corpus)]      # ruling 60: a sentence that names a longer option holds
@@ -1679,18 +1736,18 @@ def run_compare(args) -> int:
                 props.setdefault(e.id, {"id": e.id, "feature": []})["feature"].append(
                     {"anchor": r["anchor"], "print": class_option_errata(corpus, e.id, r["print"])})
             rows.append(r)
-    twice: dict[tuple[str, str, str], set[str]] = {}
+    twice: dict[tuple[str, str, str, str], set[str]] = {}
     ledger_before = read_tsv(tsv_file(corpus, book))
     ledger_props = read_props(proposals_file(corpus, book))
     for r in ledger_before:                         # the written entries count too: a paragraph that one of them has is claimed
         if counts_for_duplicate_check(r) and r["status"] == LEDGER and r["entry"] not in {x["entry"] for x in rows} and ledger_props.get((r["entry"], r["anchor"])):
-            twice.setdefault((r["book"], fp.namekey(r["feature"]), r["print_sha256"]), set()).add(r["entry"])
+            twice.setdefault(printed_claim_key(r), set()).add(r["entry"])
     for r in rows:                                  # one printed paragraph claimed by two entries holds both: an owner decides whose it is
         if r.get("print") and counts_for_duplicate_check(r):
-            twice.setdefault((r["book"], fp.namekey(r["feature"]), r["print_sha256"]), set()).add(r["entry"])
+            twice.setdefault(printed_claim_key(r), set()).add(r["entry"])
     for r in rows:
-        if r.get("print") and counts_for_duplicate_check(r) and len(twice[(r["book"], fp.namekey(r["feature"]), r["print_sha256"])]) > 1:
-            r["note"] = (r["note"] + "; " if r["note"] else "") + "the print head matches more than one entry: " + ", ".join(sorted(twice[(r["book"], fp.namekey(r["feature"]), r["print_sha256"])]))[:120]
+        if r.get("print") and counts_for_duplicate_check(r) and len(twice[printed_claim_key(r)]) > 1:
+            r["note"] = (r["note"] + "; " if r["note"] else "") + "the print head matches more than one entry: " + ", ".join(sorted(twice[printed_claim_key(r)]))[:120]
             r["status"] = "hold" if r["status"] in SETTLED else r["status"]
     old = read_tsv(tsv_file(corpus, book))
     old_props = read_props(proposals_file(corpus, book))
@@ -1789,7 +1846,7 @@ def class_option_errata(corpus: Path, entry_id: str, text: str) -> str:
         return text
     with path.open(encoding="utf-8", newline="") as f:
         fixes = [(r["printed_value"], r["kept_value"]) for r in csv.DictReader(f, delimiter="\t")
-                 if r["entry"] == entry_id and r["decision"] == "misprint-fix"]
+                 if r["entry"] == entry_id and r["decision"] in ("misprint-fix", "keep") and r["printed_value"] and r["kept_value"]]       # a kept Paizo errata is written as the errata has it
     return apply_errata_text(text, fixes)
 
 
@@ -1877,6 +1934,12 @@ def first_page(page: str) -> int | None:
     return int(match.group()) if match else None
 
 
+def last_page(page: str) -> int | None:
+    """The last folio in a single page or intro-to-head range."""
+    match = re.search(r"(?:^|-)\s*(\d+)\s*$", page)
+    return int(match.group(1)) if match else None
+
+
 def clean_acg_print(entry_id: str, text: str) -> str:
     """Clean ACG extraction artifacts and apply reviewed option-link corrections."""
     if entry_id == "ref/exploit/arcane-weapon":
@@ -1941,6 +2004,11 @@ def clean_core_rulebook_print(entry_id: str, text: str) -> str:
     return re.sub(r"\s+", " ", text).strip()
 
 
+def clean_pathfinder_unchained_print(text: str) -> str:
+    """Preserve print's en dash for negative numeric values, without changing fractional notation."""
+    return re.sub(r"(?<!\S)-(?=\d)", "–", text)
+
+
 CRB_PRINT_LINKS = {
     "ref/performance/soothing-performance": [("fatigued", "ref/misc/fatigued"), ("sickened", "ref/misc/sickened"), ("shaken", "ref/misc/shaken")],
     "ref/ragepower/internal-fortitude": [("sickened", "ref/misc/sickened"), ("nauseated", "ref/misc/nauseated")],
@@ -1967,8 +2035,11 @@ def refresh_written_proposal(corpus: Path, book: str, row: dict, original: str) 
     if book == "core-rulebook":
         printed = clean_core_rulebook_print(entry_id, printed)
         printed = core_rulebook_links(entry_id, printed)
+    if book == "pathfinder-unchained":
+        printed = pathfinder_unchained_links(entry_id, clean_pathfinder_unchained_print(printed))
     printed = class_option_errata(corpus, entry_id, printed)
-    intro = marked_head_intro(book, entry_id) if entry_id in MARKED_HEAD_ENTRIES else ""
+    claims_marked_intro = "opens with print's sentence about the mark" in row["note"]
+    intro = marked_head_intro(book, entry_id) if entry_id in MARKED_HEAD_ENTRIES or claims_marked_intro else ""
     if intro:
         printed = prepend_intro(printed, intro)
         intro_page = marked_head_page(book, entry_id)
@@ -2005,6 +2076,9 @@ def run_headings(args) -> int:
             skipped += 1
             continue
         if gh[0] in e.body:
+            if gh[1] < page and e.page != f"{gh[1]}-{page}":
+                write_atomic(e.path, "+++\n" + with_page(e.front, f"{gh[1]}-{page}").strip("\n") + "\n+++\n" + e.body)
+                done += 1
             continue
         body = "\n" + gh[0] + "\n\n" + e.body.lstrip("\n")
         text = e.path.read_text(encoding="utf-8").replace(e.body, body, 1)
@@ -2088,7 +2162,7 @@ def run_neighbours(args) -> int:
     everything = load_class_options(corpus)
     STOP_TITLES.clear()
     STOP_TITLES.update(fp.squash(re.sub(r"\s*\((?:[A-Z]{2,4}|HotW)\)\s*$", "", x.title)) for x in everything)
-    install_split([x.title for x in everything])
+    install_split([x.title for x in everything], book)
     families = set(args.families.split(",")) if args.families else None
     bad = 0
     for e in load_class_options(corpus, book, families):
@@ -2119,6 +2193,14 @@ def run_neighbours(args) -> int:
     return 0
 
 
+def existing_unchained_evolution_intro(entry_id: str, body: str) -> str:
+    """Retain the ruling 61 cost sentence when refreshing a written evolution from its option prose."""
+    if entry_id.split("/")[1] != "unchevolution":
+        return ""
+    match = re.match(r"^([1-4]-Point Evolutions: The following evolutions cost [1-4] points? from the eidolon's evolution pool\.)\n\n", body.lstrip("\n"))
+    return match.group(1) if match else ""
+
+
 def run_write(args) -> int:
     """Writes the entries whose rows are all settled, marks their rows `written` (the ledger), and runs the corpus formatter when
     `--checker` is given. An entry that is written has no import row, so a second run changes nothing."""
@@ -2136,20 +2218,38 @@ def run_write(args) -> int:
         shape = shape_of(e.body)[0]
         if shape == "none" and mine and all(r["status"] == LEDGER for r in mine):
             proposal = props.get((e.id, mine[0]["anchor"]), "")
-            intro = proposal.split("\n\n", 1)[0]
-            has_intro = bool(re.match(r"^(?:Discoveries|Talents|Tricks|Investigator talents).*marked with .*asterisk", intro)) or (
-                book == "ultimate-intrigue" and any("opens with print's sentence about the mark" in r.get("note", "") for r in mine)
-            )
-            if has_intro:
-                assert proposal.startswith(intro), f"{e.id}: proposal lacks the printed intro for its marked head"
-                body = prepend_intro(e.body, intro)
+            if book == "pathfinder-unchained" and mine[0]["shape"] == "single":
+                # This book's print cleanup may refine a retained written span; use the refreshed proposal on rerun.
+                group_intro = existing_unchained_evolution_intro(e.id, e.body)
+                body = drop_unkeyed_link_marks(e.id, proposal)
+                claims_marked_intro = any("opens with print's sentence about the mark" in r.get("note", "") for r in mine)
+                if claims_marked_intro:
+                    intro = proposal.split("\n\n", 1)[0]
+                    assert re.match(r"^(?:Discoveries|Talents|Tricks|Investigator talents).*marked with .*asterisk", intro), (
+                        f"{e.id}: ledger claims a marked-head intro but proposal lacks it"
+                    )
+                    body = prepend_intro(body, intro)
+                if group_intro:
+                    body = group_intro + "\n\n" + body.lstrip("\n")
+                body = class_option_errata(corpus, e.id, body)
             else:
-                body = drop_marked_intro(e.body)
-            body = drop_unkeyed_link_marks(e.id, body)
-            body = class_option_errata(corpus, e.id, body)
+                intro = proposal.split("\n\n", 1)[0]
+                has_intro = bool(re.match(r"^(?:Discoveries|Talents|Tricks|Investigator talents).*marked with .*asterisk", intro)) or (
+                    book == "ultimate-intrigue" and any("opens with print's sentence about the mark" in r.get("note", "") for r in mine)
+                )
+                if has_intro:
+                    assert proposal.startswith(intro), f"{e.id}: proposal lacks the printed intro for its marked head"
+                    body = prepend_intro(e.body, intro)
+                else:
+                    body = drop_marked_intro(e.body)
+                body = drop_unkeyed_link_marks(e.id, body)
+                body = class_option_errata(corpus, e.id, body)
             front = e.front
             own = [r for r in mine if r["book"] == book]
-            if own and own[0]["page"] and own[0]["page"] != e.page:
+            page_numbers = re.findall(r"\d+", e.page)
+            keeps_intro_range = (e.id.split("/")[1] == "unchevolution" and len(page_numbers) > 1
+                                 and own and own[0]["page"] == page_numbers[-1])
+            if own and own[0]["page"] and own[0]["page"] != e.page and not keeps_intro_range:
                 front = with_page(front, own[0]["page"])
             if body != e.body or front != e.front:
                 write_atomic(e.path, "+++\n" + front.strip("\n") + "\n+++\n" + body)
@@ -2358,8 +2458,19 @@ def self_test() -> int:
        "Core Rulebook ability tag comes from print's head")
     eq(ability_tag_for_option("core-rulebook", "Fast Stealth (Ex)", "Fast Stealth"), ("", False),
        "Core Rulebook does not inherit an unprinted tag")
+    eq(ability_tag_for_option("pathfinder-unchained", "Bite", "Bite (Ex)"), ("Ex", False),
+       "Pathfinder Unchained ability tag comes from print's head")
+    eq(ability_tag_for_option("pathfinder-unchained", "Bite (Su)", "Bite (Ex)"), ("Ex", True),
+       "Pathfinder Unchained printed tag disagrees with an imported tag")
+    pu_claim = {"book": "pathfinder-unchained", "page": "35", "feature": "Climb (Ex)", "print_sha256": "same"}
+    eq(printed_claim_key(pu_claim) == printed_claim_key({**pu_claim, "page": "31"}), False,
+       "Pathfinder Unchained repeated text on another page is not a duplicate claim")
+    eq(printed_claim_key(pu_claim) == printed_claim_key({**pu_claim, "page": "35"}), True,
+       "Pathfinder Unchained duplicate claims on the same page still hold")
     eq(INTRO_MARK_SPECS["core-rulebook"]["talent"], ("Talents marked with an asterisk", "sneak attack"),
        "Core Rulebook marked talent intro is registered")
+    eq(INTRO_MARK_SPECS["pathfinder-unchained"]["talent"], ("Talents marked with an asterisk", "sneak attack"),
+       "Pathfinder Unchained marked talent intro is registered")
     old_intro = INTRO_MARK_TEXT.get(("core-rulebook", "talent"))
     INTRO_MARK_TEXT[("core-rulebook", "talent")] = ("Talents marked with an asterisk add effects to sneak attack.", 68)
     eq(marked_head_intro("core-rulebook", "ref/talent/bleeding-attack"),
@@ -2369,6 +2480,17 @@ def self_test() -> int:
         INTRO_MARK_TEXT.pop(("core-rulebook", "talent"), None)
     else:
         INTRO_MARK_TEXT[("core-rulebook", "talent")] = old_intro
+    old_intro = INTRO_MARK_TEXT.get(("pathfinder-unchained", "talent"))
+    INTRO_MARK_TEXT[("pathfinder-unchained", "talent")] = ("Talents marked with an asterisk add effects to a rogue's sneak attack.", 20)
+    eq(marked_head_intro("pathfinder-unchained", "ref/talent/bleeding-attack-unchained-rogue"),
+       "Talents marked with an asterisk add effects to a rogue's sneak attack.",
+       "Pathfinder Unchained marked talent intro is read")
+    eq(marked_head_page("pathfinder-unchained", "ref/talent/bleeding-attack-unchained-rogue"), 20,
+       "Pathfinder Unchained marked intro page")
+    if old_intro is None:
+        INTRO_MARK_TEXT.pop(("pathfinder-unchained", "talent"), None)
+    else:
+        INTRO_MARK_TEXT[("pathfinder-unchained", "talent")] = old_intro
     errata_print = "The alchemist's Intelligent modifier applies."
     errata_kept = "The alchemist's Intelligence modifier applies."
     eq(apply_errata_text(errata_print, [("Intelligent modifier", "Intelligence modifier")]), errata_kept,
@@ -2402,6 +2524,7 @@ def self_test() -> int:
     eq(first_page("68-70"), 68, "range-page audit starts at the cited intro page")
     eq(first_page("70"), 70, "single-page audit starts at its page")
     eq(first_page("intro"), None, "page audit skips an invalid page")
+    eq([last_page("68-70"), last_page("70")], [70, 70], "range-page audit reads through the printed head page")
     eq("Table 1" in clean_acg_print("ref/exploit/arcane-weapon", "_spell_ Table 1–1: rows Magical supremacy _storing_"), False,
        "ACG Arcane Weapon drops its interleaved class table")
     eq("Spells per Day" in clean_core_rulebook_print("ref/performance/countersong", "An effect. Spells per Day 1st 1 2nd 2 (including the bard himself) uses Perform."), False,
@@ -2412,6 +2535,14 @@ def self_test() -> int:
        "CRB Feat stops before the Master Strike class feature")
     eq(clean_core_rulebook_print("ref/ragepower/animal-fury", "base attack bonus -5"), "base attack bonus –5",
        "CRB Animal Fury preserves print's en dash")
+    eq(clean_pathfinder_unchained_print("the penalty is -5, and damage is 1-1/2 times the modifier"),
+       "the penalty is –5, and damage is 1-1/2 times the modifier",
+       "Pathfinder Unchained negative values use print's en dash while fractions keep their hyphen")
+    eq(pathfinder_unchained_links("ref/unchevolution/swallow-whole",
+       "using the [grab](ref/carried/bestiary/rules/universal-monster-rules/grab) ability"),
+       "using the [grab](ref/unchevolution/grab) ability", "an evolution named in print links to the Unchained evolution")
+    eq(pathfinder_unchained_links("ref/unchevolution/tail-slap", "use its [tail](ref/unchevolution/tail) to strike"),
+       "use its tail to strike", "a body-part tail is not linked to the Tail evolution")
     eq(clean_core_rulebook_print("ref/performance/fascinate", "takes a -4 penalty"), "takes a –4 penalty",
        "CRB Fascinate preserves print's en dash")
     eq(core_rulebook_links("ref/performance/soothing-performance", "removes fatigued, sickened, and shaken."),
@@ -2451,6 +2582,11 @@ def self_test() -> int:
            [("test option", "ref/talent/test-option", "rogue-talent", "hex")], "Core Rulebook link-kind check catches a wrong option noun")
         eq(option_link_kind_mismatches("core-rulebook", "A rogue selects [test option](ref/talent/test-option) talent."), [],
            "Core Rulebook link-kind check keeps the matching option kind")
+        eq(option_link_kind_mismatches("pathfinder-unchained", "A rogue selects [test option](ref/talent/test-option) hex."),
+           [("test option", "ref/talent/test-option", "rogue-talent", "hex")],
+           "Pathfinder Unchained link-kind check catches a wrong option noun")
+        eq(option_link_kind_mismatches("pathfinder-unchained", "A rogue selects [test option](ref/talent/test-option) talent."), [],
+           "Pathfinder Unchained link-kind check keeps the matching option kind")
         eq(option_link_kind_mismatches("advanced-players-guide", "A rogue selects [test option](ref/talent/test-option) hex."), [],
            "the Core Rulebook link check stays book-gated")
         CORPUS_ROOT = old_root
@@ -2480,6 +2616,16 @@ def self_test() -> int:
     eq(ruling8_progression_decision("ultimate-magic", "ref/vigtalent/environmental-weapon", "environment-weapon", env_decision, [env_lost], env_sentence), False,
        "the Ultimate Intrigue progression decision does not affect another book")
     DECISIONS.clear()
+    eq(print_match_title("pathfinder-unchained", "ref/talent/ledge-walker-unchained-rogue", "Ledge Walker (Unchained Rogue)"),
+       "Ledge Walker", "Unchained rogue talent matching drops its corpus-only suffix")
+    eq(print_match_title("pathfinder-unchained", "ref/talent/ledge-walker-unchained-rogue", "Ledge Walker (Unchained Rogue) (Ex)"),
+       "Ledge Walker (Ex)", "Unchained rogue talent matching preserves the printed ability tag")
+    eq(print_match_title("advanced-players-guide", "ref/talent/ledge-walker-unchained-rogue", "Ledge Walker (Unchained Rogue)"),
+       "Ledge Walker (Unchained Rogue)", "talent title normalization stays Pathfinder Unchained-gated")
+    eq(print_match_body("pathfinder-unchained", "ref/talent/ledge-walker-unchained-rogue", "**Ledge Walker (Unchained Rogue) (Ex)**"),
+       "**Ledge Walker (Ex)**", "Unchained rogue talent labels match their printed heads")
+    eq(print_match_body("core-rulebook", "ref/talent/ledge-walker-unchained-rogue", "**Ledge Walker (Unchained Rogue) (Ex)**"),
+       "**Ledge Walker (Unchained Rogue) (Ex)**", "talent label normalization stays Pathfinder Unchained-gated")
     eq((title_as_head(fp.Para("title", [("Table 2\u20139: Eidolon Base Statistics", True, False)], 59, 0, 18)).runs[0][1],
         title_as_head(fp.Para("title", [("2-Point Evolutions", True, False)], 61, 0, 18)).runs[0][1]), (False, True),
        "ruling 62: the title of a table stays in the text of the power, a section heading ends it")
@@ -2703,7 +2849,11 @@ def self_test() -> int:
     eq(apply_multi_decisions([{"anchor": "other", "status": "print", "note": ""}], "ref/x/multi")[0]["status"], "print",
        "a multi-power decision does not hold a different anchor")
     DECISIONS.clear()
-    eq(HEADING_FAMILIES, {"evolution"}, "the group-heading rule is on with the per-book map")
+    eq(HEADING_FAMILIES, {"evolution", "unchevolution"}, "evolution and Unchained evolution group-heading rules are enabled")
+    eq(existing_unchained_evolution_intro("ref/unchevolution/ability-increase", "1-Point Evolutions: The following evolutions cost 1 point from the eidolon's evolution pool.\n\nPower."),
+       "1-Point Evolutions: The following evolutions cost 1 point from the eidolon's evolution pool.", "written evolution refresh keeps its ruling 61 sentence")
+    eq(existing_unchained_evolution_intro("ref/talent/ability", "1-Point Evolutions: The following evolutions cost 1 point from the eidolon's evolution pool.\n\nPower."),
+       "", "evolution group intro preservation is family-scoped")
     # an import label row inside a power's span is part of the draft: print without it holds, print with it agrees (never dropped silently)
     inner = "**Gift (Su)**\n\n**Ability:** A gift of sight.\n\n**Details:** Gorum guards it.\n"
     _, ff = fp.parse_import(inner, set())
@@ -2918,6 +3068,9 @@ def self_test() -> int:
        ["While raging and mounted, the barbarian's mount gains the trample special attack (Pathfinder RPG Bestiary 305)."], "a citation with no link in its place is a loss")
     eq(print_lost("While raging and mounted, the barbarian's mount gains the trample special attack (Pathfinder RPG Bestiary 305).", "While raging and mounted, the barbarian's mount gains the [trample](ref/umr/trample) special attack (Pathfinder RPG Bestiary 306)."),
        ["While raging and mounted, the barbarian's mount gains the trample special attack (Pathfinder RPG Bestiary 305)."], "a citation with another page is no match")
+    eq(print_lost("A hunter may teach her companion tricks from the skirmisher ranger archetype (Pathfinder RPG Advanced Player\u2019s Guide 128) instead of standard tricks.",
+                  "A hunter may teach her companion tricks from the [skirmisher](ref/arc-ranger/skirmisher) ranger archetype instead of standard tricks."), [],
+       "ruling 26: a citation whose title is set with the apostrophe of the text layer goes where a link stands")
     eq(print_lost("The barbarian can make an overrun attempt against any creature that she charges at the end of her move, as a free action (Core Rulebook 443).",
                   "The [barbarian](ref/class/barbarian) can make an overrun attempt against any creature that she charges at the end of her move, as a free action."),
        ["The barbarian can make an overrun attempt against any creature that she charges at the end of her move, as a free action (Core Rulebook 443)."],

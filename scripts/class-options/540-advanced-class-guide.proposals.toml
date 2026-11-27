@@ -487,7 +487,7 @@ print = "At 1st level, you can touch any one ranged weapon and enhance it with t
 [[entry]]
 id = "ref/blessing/animal"
 anchor = "soaring-assault-major"
-print = "At 10th level, you can touch an ally and give her the gift of f light for 1 minute (as _fly_). The ally gains a fly speed of 60 feet with average maneuverability. She gains a bonus on Fly skill checks equal to your level. Whenever the ally succeeds at a charge attack while flying, that attack deals an amount of additional electricity damage equal to your level."
+print = "At 10th level, you can touch an ally and give her the gift of flight for 1 minute (as _fly_). The ally gains a fly speed of 60 feet with average maneuverability. She gains a bonus on Fly skill checks equal to your level. Whenever the ally succeeds at a charge attack while flying, that attack deals an amount of additional electricity damage equal to your level."
 
 [[entry]]
 id = "ref/blessing/animal"
@@ -815,7 +815,7 @@ print = "At 1st level, you can touch any one ranged weapon and enhance it with t
 [[entry]]
 id = "ref/blessing/artifice"
 anchor = "soaring-assault-major"
-print = "At 10th level, you can touch an ally and give her the gift of f light for 1 minute (as _fly_). The ally gains a fly speed of 60 feet with average maneuverability. She gains a bonus on Fly skill checks equal to your level. Whenever the ally succeeds at a charge attack while flying, that attack deals an amount of additional electricity damage equal to your level."
+print = "At 10th level, you can touch an ally and give her the gift of flight for 1 minute (as _fly_). The ally gains a fly speed of 60 feet with average maneuverability. She gains a bonus on Fly skill checks equal to your level. Whenever the ally succeeds at a charge attack while flying, that attack deals an amount of additional electricity damage equal to your level."
 
 [[entry]]
 id = "ref/blessing/artifice"
@@ -1233,7 +1233,7 @@ print = "At 1st level, you can touch any one ranged weapon and enhance it with t
 [[entry]]
 id = "ref/blessing/chaos"
 anchor = "soaring-assault-major"
-print = "At 10th level, you can touch an ally and give her the gift of f light for 1 minute (as _fly_). The ally gains a fly speed of 60 feet with average maneuverability. She gains a bonus on Fly skill checks equal to your level. Whenever the ally succeeds at a charge attack while flying, that attack deals an amount of additional electricity damage equal to your level."
+print = "At 10th level, you can touch an ally and give her the gift of flight for 1 minute (as _fly_). The ally gains a fly speed of 60 feet with average maneuverability. She gains a bonus on Fly skill checks equal to your level. Whenever the ally succeeds at a charge attack while flying, that attack deals an amount of additional electricity damage equal to your level."
 
 [[entry]]
 id = "ref/blessing/chaos"
@@ -1651,7 +1651,7 @@ print = "At 1st level, you can touch any one ranged weapon and enhance it with t
 [[entry]]
 id = "ref/blessing/charm"
 anchor = "soaring-assault-major"
-print = "At 10th level, you can touch an ally and give her the gift of f light for 1 minute (as _fly_). The ally gains a fly speed of 60 feet with average maneuverability. She gains a bonus on Fly skill checks equal to your level. Whenever the ally succeeds at a charge attack while flying, that attack deals an amount of additional electricity damage equal to your level."
+print = "At 10th level, you can touch an ally and give her the gift of flight for 1 minute (as _fly_). The ally gains a fly speed of 60 feet with average maneuverability. She gains a bonus on Fly skill checks equal to your level. Whenever the ally succeeds at a charge attack while flying, that attack deals an amount of additional electricity damage equal to your level."
 
 [[entry]]
 id = "ref/blessing/charm"
@@ -17816,12 +17816,12 @@ print = "Whenever the arcanist uses the [flame arc](ref/exploit/flame-arc) explo
 [[entry]]
 id = "ref/exploit/consume-magic-items"
 anchor = "consume-magic-items"
-print = "The arcanist can consume the power of potions, scrolls, staves, and wands, using them to fill her arcane reservoir. Using this ability is a move action that provokes an attack of opportunity. When using this exploit, the arcanist adds a number of points to her arcane reservoir equal to 1/2 the level of the spell contained in the item (0-level and 1st-level spells do not recharge the arcanist's arcane reservoir). If used on a potion or scroll, the item is destroyed. If used on a wand, the wand loses 5 charges; if it has fewer than 5 charges, the wand is destroyed and the arcanist gains no benefit. If used on a staff, it loses 1 charge and the arcanist gains a number of points to his arcane reservoir equal to the level of the highest-level spell the staff can cast using only 1 charge; if the staff has no spells that require only 1 charge, the arcanist cannot consume that staff's magic. No more than 1 charge can be drawn from a staff each day in this way. Points gained in excess of the arcanist's reservoir's maximum are lost. This exploit has no effect on magic armor, weapons, rings, rods, wondrous items, or other magic items besides those noted above."
+print = "The arcanist can consume the power of potions, scrolls, staves, and wands, using them to fill her arcane reservoir. She can use this ability a number of times per day equal to her Charisma modifier (minimum 1). Using this ability is a move action that provokes an attack of opportunity. When using this exploit, the arcanist adds a number of points to her arcane reservoir equal to 1/2 the level of the spell contained in the item (0-level and 1st-level spells do not recharge the arcanist's arcane reservoir). If used on a potion or scroll, the item is destroyed. If used on a wand, the wand loses 5 charges; if it has fewer than 5 charges, the wand is destroyed and the arcanist gains no benefit. If used on a staff, it loses 1 charge and the arcanist gains a number of points to his arcane reservoir equal to the level of the highest-level spell the staff can cast using only 1 charge; if the staff has no spells that require only 1 charge, the arcanist cannot consume that staff's magic. No more than 1 charge can be drawn from a staff each day in this way. Points gained in excess of the arcanist's reservoir's maximum are lost. This exploit has no effect on magic armor, weapons, rings, rods, wondrous items, or other magic items besides those noted above."
 
 [[entry]]
 id = "ref/exploit/counter-drain"
 anchor = "counter-drain"
-print = "Whenever the arcanist successfully counters a spell, she regains a number of points to her arcane reservoir, which is determined by the level of the spell countered. Spells of 2nd level or lower do not restore any points to her arcane reservoir. Spells of 3rd and higher restore 1 point to her arcane reservoir for every three spell levels (rounded down), to a maximum of 3 points at 9th level. The arcanist must have the [counterspell](ref/exploit/counterspell) exploit to select this exploit."
+print = "Whenever the arcanist successfully uses the counterspell exploit, she regains a number of points to her arcane reservoir, which is determined by the level of the spell countered. Spells of 2nd level or lower do not restore any points to her arcane reservoir. Spells of 3rd and higher restore 1 point to her arcane reservoir for every three spell levels (rounded down), to a maximum of 3 points at 9th level. The arcanist must have the [counterspell](ref/exploit/counterspell) exploit to select this exploit."
 
 [[entry]]
 id = "ref/exploit/counterspell"
@@ -19084,7 +19084,7 @@ print = "A shaman who selects the heavens spirit has eyes that sparkle like star
 [[entry]]
 id = "ref/shamanspirit/restoration"
 anchor = "spirit-magic-spells"
-print = "_Color spray_ (1st), _hypnotic pattern_ (2nd), _daylight_ (3rd), _rainbow pattern_ (4th), _overland f light_ (5th), _chain lightning_ (6th), _prismatic spray_ (7th), _sunburst_ (8th), _meteor swarm_ (9th)."
+print = "_Color spray_ (1st), _hypnotic pattern_ (2nd), _daylight_ (3rd), _rainbow pattern_ (4th), _overland flight_ (5th), _chain lightning_ (6th), _prismatic spray_ (7th), _sunburst_ (8th), _meteor swarm_ (9th)."
 
 [[entry]]
 id = "ref/shamanspirit/restoration"
@@ -19319,7 +19319,7 @@ print = "Upon reaching 20th level, the shaman becomes an unending font of knowle
 [[entry]]
 id = "ref/shamanspirit/restoration"
 anchor = "nature"
-print = "A shaman who selects the nature spirit takes on an appearance that reflects the aspect of the natural world she has the closest connection to. A nature shaman from the forest has a green tinge to her skin and hair, with eyes of sparkling emerald and the scent of green leaves and f lowers about her. A nature shaman from the tundra is typically alabaster pale, with platinum hair and crystal blue eyes, and her skin always seems strangely cold."
+print = "A shaman who selects the nature spirit takes on an appearance that reflects the aspect of the natural world she has the closest connection to. A nature shaman from the forest has a green tinge to her skin and hair, with eyes of sparkling emerald and the scent of green leaves and flowers about her. A nature shaman from the tundra is typically alabaster pale, with platinum hair and crystal blue eyes, and her skin always seems strangely cold."
 
 [[entry]]
 id = "ref/shamanspirit/restoration"
@@ -19712,7 +19712,7 @@ print = "_Adjustable polymorph_\\*, _air geyser_\\*, _anti-incorporeal shell_\\*
 [[entry]]
 id = "ref/shamanspirit/wind"
 anchor = "5th-level-shaman-spells"
-print = "_Animal growth_, _baleful polymorph_, _blight_, _break enchantment_, _breath of life_, _call lightning storm_, _commune_, _commune with nature_, _control winds_, _cure light wounds (mass)_, _curse (major)_, _dispel chaos/evil/good/law_, _dominate person_, _feast on fear_\\*, _flame strike_, _ghostbane dirge (mass)_, _grove of respite_, _hex glyph (greater)_\\*, _inflict light wounds (mass)_, _insect plague_, _overland f light_, _rest eternal_, _stoneskin_, _true seeing_, _wall of fire_, _wall of thorns_."
+print = "_Animal growth_, _baleful polymorph_, _blight_, _break enchantment_, _breath of life_, _call lightning storm_, _commune_, _commune with nature_, _control winds_, _cure light wounds (mass)_, _curse (major)_, _dispel chaos/evil/good/law_, _dominate person_, _feast on fear_\\*, _flame strike_, _ghostbane dirge (mass)_, _grove of respite_, _hex glyph (greater)_\\*, _inflict light wounds (mass)_, _insect plague_, _overland flight_, _rest eternal_, _stoneskin_, _true seeing_, _wall of fire_, _wall of thorns_."
 
 [[entry]]
 id = "ref/shamanspirit/wind"
@@ -19828,7 +19828,7 @@ print = "At 3rd level, while she has at least 1 panache point, when a swashbuckl
 [[entry]]
 id = "ref/swashdeed/opportune-parry-and-riposte"
 anchor = "opportune-parry-and-riposte"
-print = "At 1st level, when an opponent makes a melee attack against the swashbuckler, she can spend 1 panache point and expend a use of an attack of opportunity to attempt to parry that attack. The swashbuckler makes an attack roll as if she were making an attack of opportunity; for each size category the attacking creature is larger than the swashbuckler, the swashbuckler takes a -2 penalty on this roll. If her result is greater than the attacking creature's result, the creature's attack automatically misses. The swashbuckler must declare the use of this ability after the creature's attack is announced, but before its attack roll is made. Upon performing a successful parry and if she has at least 1 panache point, the swashbuckler can as an immediate action make an attack against the creature whose attack she parried, provided that creature is within her reach."
+print = "At 1st level, when an opponent makes a melee attack against the swashbuckler, she can spend 1 panache point and expend a use of an attack of opportunity to attempt to parry that attack. The swashbuckler makes an attack roll as if she were making an attack of opportunity; for each size category the attacking creature is larger than the swashbuckler, the swashbuckler takes a -2 penalty on this roll. If her result is greater than the attacking creature's result, the creature's attack automatically misses. The swashbuckler must declare the use of this ability after the creature's attack is announced, but before its attack roll is made. Upon performing a successful parry and if she has at least 1 panache point, the swashbuckler can as an immediate action make an attack against the creature whose attack she parried, provided that creature is within her reach. This deed's cost cannot be reduced by any ability or effect that reduces the number of panache points a deed costs."
 
 [[entry]]
 id = "ref/swashdeed/perfect-thrust"

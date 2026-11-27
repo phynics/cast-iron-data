@@ -13,12 +13,10 @@ page = "17"
 [fields]
 kind = "class_option"
 group = "ki-power"
+ability_type = "Su"
 +++
 
-**Insightful Wisdom (Su)**
-
-**Immediate:** A monk with this ability can spend 2 ki points to give another ally within 30 feet
-just the right word of advice to prevent disaster. If the ally can hear the monk, she can reroll a
-single attack roll or saving throw. The ally must take the second result, even if it is worse.
-
-**Prereq:** 8th-level monk
+A monk with this ability can spend 2 ki points as an immediate action to give another ally within 30
+feet just the right word of advice to prevent disaster. If the ally can hear the monk, she can
+reroll a single attack roll or saving throw. The ally must take the second result, even if it is
+worse. A monk must be at least 8th level before selecting this ki power.

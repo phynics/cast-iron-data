@@ -13,13 +13,10 @@ page = "12"
 [fields]
 kind = "class_option"
 group = "rage-power"
+ability_type = "Ex"
 +++
 
-**Strength Stance (Ex)**
-
-**Flavor:** The barbarian can summon mighty strength.
-
-**Passive:** She gains a competence bonus on combat maneuvers and to her CMD. These bonuses are
-equal to 1 + [one-fourth](ref/misc/fractions-and-rounding) of her barbarian level. In addition, she
-gains a +8 competence bonus on Strength checks to lift, push, bend, or break objects (this does not
-apply to combat maneuvers).
+The barbarian can summon mighty strength. She gains a +1 competence bonus on combat maneuvers and to
+her CMD. These bonuses increase by 1 for every 4 levels the barbarian has. In addition, she gains a
++8 competence bonus on Strength checks to lift, push, bend, or break objects (this does not apply to
+combat maneuvers). This is a stance rage power.

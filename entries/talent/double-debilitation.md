@@ -8,16 +8,18 @@ provenance = [
 ]
 [[sources]]
 publication = "pathfinder-unchained"
-page = "24"
+page = "20-24"
 
 [fields]
 kind = "class_option"
 group = "rogue-talent"
+ability_type = "Ex"
 +++
 
-**Double Debilitation (Ex)**
+Talents marked with an asterisk add effects to a rogue's sneak attack. Only one of these talents can
+be applied to an individual attack, and the decision must be made before the attack roll is made.
 
-**Ability:** Whenever the rogue inflicts a penalty against a target using the _debilitating injury_
-class feature, she can select two penalties to inflict. The target can never be subject to more than
-two penalties in this way at one time. If any additional penalties are inflicted, any previous
-penalties immediately end. Any effect that heals damage to the target negates both of the penalties.
+Whenever the rogue inflicts a penalty against a target using the debilitating injury class feature,
+she can select two penalties to inflict. The target can never be subject to more than two penalties
+in this way at one time. If any additional penalties are inflicted, any previous penalties
+immediately end. Any effect that heals damage to the target negates both of the penalties.

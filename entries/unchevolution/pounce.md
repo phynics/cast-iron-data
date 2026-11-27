@@ -13,11 +13,10 @@ page = "38"
 [fields]
 kind = "class_option"
 group = "unchained-summoner-evolution"
+ability_type = "Ex"
 +++
 
-**Pounce (Ex)**
+3-Point Evolutions: The following evolutions cost 3 points from the eidolon's evolution pool.
 
-**Ability:** The eidolon gains quick reflexes, allowing it to make a full attack after a
-[charge](ref/rule/charge).
-
-**Prereq:** 7th-level unchained summoner, quadruped base form
+The eidolon gains quick reflexes, allowing it to make a full attack after a
+[charge](ref/rule/charge). _Requirements_: Summoner level 7th, quadruped base form.

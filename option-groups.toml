@@ -162,7 +162,7 @@ classes = ["ref/class/psychic"]
 [groups.rage-power]
 label = "Rage powers"
 singular = "Rage power"
-classes = ["ref/class/barbarian", "ref/class/bloodrager", "ref/class/unchained-barbarian", "ref/class/skald"]
+classes = ["ref/class/barbarian", "ref/class/unchained-barbarian", "ref/class/skald"]
 
 [groups.ranger-trap]
 label = "Ranger traps"

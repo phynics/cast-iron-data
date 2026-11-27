@@ -13,10 +13,10 @@ page = "22"
 [fields]
 kind = "class_option"
 group = "rogue-talent"
+ability_type = "Ex"
 +++
 
-**Ledge Walker (Unchained Rogue) (Ex)**
-
-**Ability:** The rogue can move along narrow surfaces at full speed using the Acrobatics skill
-without penalty. In addition, a rogue with this talent is not [flat-footed](ref/rule/flat-footed)
-when using Acrobatics to move along narrow surfaces and retains her Dexterity bonus to AC.
+This ability allows a rogue to move along narrow, uneven, or slippery surfaces (such as ice) at full
+speed using the Acrobatics skill without penalty. In addition, a rogue with this talent is not
+[flat-footed](ref/rule/flat-footed) when using Acrobatics to move along such surfaces, and retains
+her Dexterity bonus to AC.

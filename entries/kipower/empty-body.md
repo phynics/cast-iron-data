@@ -13,12 +13,10 @@ page = "16"
 [fields]
 kind = "class_option"
 group = "ki-power"
+ability_type = "Su"
 +++
 
-**Empty Body (Su)**
-
-**Move:** A monk with this ki power gains the ability to assume an ethereal state for 1 minute as
-though using the spell [etherealness](ref/spell/etherealness), using his monk level as his caster
-level. Using this ability consumes 3 points from the monk's ki pool.
-
-**Special:** This ability affects only the monk and cannot be used to make other creatures ethereal.
+A monk with this ki power gains the ability to assume an ethereal state for 1 minute as though using
+the spell _[etherealness](ref/spell/etherealness)_, using his monk level as his caster level. Using
+this ability is a move action that consumes 3 points from the monk's ki pool. This ability affects
+only the monk and cannot be used to make other creatures ethereal.

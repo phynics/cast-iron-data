@@ -8,20 +8,19 @@ provenance = [
 ]
 [[sources]]
 publication = "pathfinder-unchained"
-page = "36"
+page = "35-36"
 
 [fields]
 kind = "class_option"
 group = "unchained-summoner-evolution"
+ability_type = "Ex"
 +++
 
-**Slam (Ex)**
+1-Point Evolutions: The following evolutions cost 1 point from the eidolon's evolution pool.
 
-**Ability:** The eidolon can deliver a devastating [slam attack](ref/umr/natural-attacks). This
-attack is a primary attack. The slam deals 1d8 points of damage (2d6 if Large, 2d8 if Huge).
-
-**Prereq:** [Limbs](ref/unchevolution/limbs) (arms), or its base form has
-[claws](ref/unchevolution/claws) (this evolution replaces the claws)
-
-**Special:** This evolution can be selected more than once, up to the number of the eidolon's _limbs
-(arms)_ evolutions.
+The eidolon can deliver a devastating [slam attack](ref/umr/natural-attacks). This attack is a
+primary attack. The slam deals 1d8 points of damage (2d6 if Large, 2d8 if Huge). The eidolon must
+have the [limbs](ref/unchevolution/limbs) (arms) evolution to take this evolution. Alternatively,
+the eidolon can replace the [claws](ref/unchevolution/claws) from its base form with this slam
+attack (this still costs 1 evolution point). This evolution can be selected more than once, up to
+the number of the eidolon's limbs (arms) evolutions.

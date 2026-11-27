@@ -19,6 +19,29 @@ kind = "class"
 class_type = "hybrid"
 hit_die = "d8"
 skill_ranks = "6 + Int modifier"
+features = [
+  { anchor = "spells" },
+  { anchor = "orisons", level = 1 },
+  { anchor = "chaotic-evil-good-and-lawful-spells" },
+  { anchor = "animal-companion", level = 1 },
+  { anchor = "nature-training", level = 1 },
+  { anchor = "animal-focus", level = 1 },
+  { anchor = "wild-empathy", level = 1 },
+  { anchor = "precise-companion", level = 2 },
+  { anchor = "track", level = 2 },
+  { anchor = "teamwork-feat", level = 3 },
+  { anchor = "hunter-tactics", level = 3 },
+  { anchor = "improved-empathic-link", level = 4 },
+  { anchor = "woodland-stride", level = 5 },
+  { anchor = "bonus-tricks", level = 7 },
+  { anchor = "second-animal-focus", level = 8 },
+  { anchor = "swift-tracker", level = 8 },
+  { anchor = "raise-animal-companion", level = 10 },
+  { anchor = "speak-with-master", level = 11 },
+  { anchor = "greater-empathic-link", level = 14 },
+  { anchor = "one-with-the-wild", level = 17 },
+  { anchor = "master-hunter", level = 20 },
+]
 +++
 
 Hunters are warriors of the wilds that have forged close bonds with trusted animal companions. They
@@ -101,278 +124,240 @@ incredible speed, making them excellent scouts, explorers, and saboteurs.
 |19th|6|6|6|6|5|5|4|
 |20th|6|6|6|6|6|5|5|
 
-#### Weapon and Armor Proficiencies {#weapon-and-armor-proficiencies}
+### Class Features {#class-features}
 
-**Weapons:** All simple weapons, All martial weapons
+The following are the class features of the hunter.
 
-**Armor:** Light armor, Medium armor
+#### Weapon and Armor Proficiency {#weapon-and-armor-proficiencies}
 
-**Shields:** Yes, except tower shields
+A hunter is proficient with all simple and martial weapons and with light armor, medium armor, and
+shields (except tower shields).
 
 #### Spells {#spells}
 
-**Spell list:** Divine spells from the hunter list, from 1st level
+A hunter casts divine spells drawn from the druid and ranger spell lists (see Chapter 10 of the
+_Pathfinder RPG Core Rulebook_). Only druid spells of 6th level and lower and ranger spells are
+considered to be part of the hunter spell list. If a spell appears on both the druid and ranger
+spell lists, the hunter uses the lower of the two spell levels listed for the spell. For instance,
+_reduce animal_ is a 2nd-level druid spell and a 3rd-level ranger spell, making it a 2nd-level
+hunter spell. Likewise, _detect poison_ is a 0-level druid spell and a 2nd-level ranger spell,
+making it a 0-level hunter spell.
 
-**Key ability:** Wisdom. Minimum score 10 + spell level; save DC 10 + spell level + Wisdom modifier;
-a high score grants bonus spells per day.
+The hunter can cast any spell she knows without preparing it ahead of time. To learn or cast a
+spell, a hunter must have a Wisdom score equal to at least 10 + the spell's level. The Difficulty
+Class for a saving throw against a hunter's spell is 10 + the spell's level + the hunter's Wisdom
+modifier.
 
-**Casting:** Spontaneous: cast any spell known without preparation, within the daily allotment per
-spell level.
+A hunter cannot use spell completion or spell trigger magic items (without making a successful Use
+Magic Device check) of druid spells of 7th level or higher. Her alignment may restrict her from
+casting certain spells opposed to her moral or ethical beliefs; see Chaotic, Evil, Good, and Lawful
+Spells below.
 
-**Spells known:** Very limited selection; starts with four 0-level and two 1st-level spells and
-grows by level as shown on the table. Wisdom does not change the number known.
+Like other spellcasters, a hunter can cast only a certain number of spells of each spell level per
+day. Her base daily spell allotment is given on Table 1–6: Hunter. In addition, she receives bonus
+spells per day if she has a high Wisdom score (see Table 1–3 of the _Core Rulebook_).
 
-**Spell swap:** At 5th, 8th, 11th, and every 3 levels after, one known spell may be exchanged for
-another of the same level.
+Unlike druids and rangers, a hunter's selection of spells is extremely limited. A hunter begins play
+knowing four 0-level spells and two 1st-level spells of her choice. At each new hunter level, she
+gains one or more new spells, as indicated on Table 1–7: Hunter Spells Known. Unlike spells per day,
+the number of spells a hunter knows is not affected by her Wisdom score; the numbers on Table 1–7
+are fixed.
 
-**Added to spells known:** all summon nature's ally spells.
+In addition to the spells gained by hunters as they gain levels, each hunter also automatically adds
+all _summon nature's ally_ spells to her list of spells known. These spells are added as soon as the
+hunter is capable of casting them.
 
-**Notes:** Alignment can bar spells opposed to it.
+At 5th level and at every 3 levels thereafter, a hunter can choose to learn a new spell in place of
+one she already knows. In effect, the hunter loses the old spell in exchange for the new one. The
+new spell's level must be the same as that of the spell being exchanged. A hunter may swap only a
+single spell at any given level, and must choose whether or not to swap the spell at the same time
+that she gains new spells known for the level. She cannot swap any _summon nature's ally_ spells.
+
+Unlike a druid or ranger, a hunter need not prepare her spells in advance. She can cast any spell
+she knows at any time, assuming she has not yet used up her spells per day for that spell level.
 
 #### Orisons {#orisons}
 
-**Ability:** 0-level divine spells. Cast without using a spell slot; one placed in a higher slot
-(for example through metamagic) uses that slot.
+Hunters learn a number of orisons, or 0-level spells, as noted on Table 1–7: Hunter Spells Known.
+These spells are cast like any other spell, but they do not consume any slots and may be used again.
 
 #### Chaotic, Evil, Good, and Lawful Spells {#chaotic-evil-good-and-lawful-spells}
 
-**Section:** Aligned Spells
-
-**Passive:** You can't cast spells of an alignment opposed to your own or your deity's (if you have
-one). Spells associated with particular alignments are indicated by the chaos, evil, good, and law
+A hunter can't cast spells of an alignment opposed to her own or her deity's (if she has one).
+Spells associated with particular alignments are indicated by the chaos, evil, good, and law
 descriptors in their spell descriptions.
 
 #### Animal Companion (Ex) {#animal-companion}
 
-**Action:** Ability
+At 1st level, a hunter forms a bond with an [animal companion](ref/sidekick/animal-companion). A
+hunter may begin play with any of the animals available to a druid. This animal is a loyal companion
+that accompanies the hunter on her adventures. This ability functions like the druid animal
+companion ability (which is part of the nature bond class feature). The hunter's effective druid
+level is equal to her hunter level. If a character receives an animal companion from more than one
+source, her effective druid levels stack for the purposes of determining the companion's statistics
+and abilities. A hunter may teach her companion hunter's tricks from the
+[skirmisher](ref/arc-ranger/skirmisher) ranger archetype instead of standard tricks. The animal
+companion can use skirmisher tricks when commanded, a number of times per day equal to half its Hit
+Dice plus its Wisdom modifier.
 
-**Gained:** At 1st Level
-
-**Special:** You may teach your companion hunter's tricks from the
-[skirmisher](ref/arc-ranger/skirmisher) ranger archetype instead of standard
-[animal tricks](ref/ability/animal-tricks). The animal companion can use skirmisher tricks when
-commanded, a number of times per day equal to [half](ref/misc/fractions-and-rounding) its Hit Dice
-plus its Wisdom modifier.
-
-You form a bond with an [animal companion](ref/sidekick/animal-companion). You may begin play with
-any of the animals available to a druid. This animal is a loyal companion that accompanies you on
-your adventures. This ability functions like the druid _animal companion_ ability. Your effective
-druid level is equal to your hunter level. If you receive an animal companion from more than one
-source, your effective druid levels stack for the purposes of determining the companion's statistics
-and abilities.
-
-If you release your companion from service or your animal companion perishes, you may gain a new one
-by performing a ceremony requiring 24 uninterrupted hours of prayer in the environment where the new
-companion typically lives. While your animal companion is dead, any animal you summon with a
-_[summon nature's ally](ref/spell/summon-natures-ally)_ spell remains for 1 minute per level instead
-of 1 round per level. You cannot have more than one
+If a hunter releases her companion from service or her animal companion perishes, she may gain a new
+one by performing a ceremony requiring 24 uninterrupted hours of prayer in the environment where the
+new companion typically lives. While the hunter's animal companion is dead, any animal she summons
+with a _[summon nature's ally](ref/spell/summon-natures-ally)_ spell remains for 1 minute per level
+instead of 1 round per level. A hunter cannot have more than one
 _[summon nature's ally](ref/spell/summon-natures-ally)_ spell active in this way at one time. If
 this ability is used again, any existing _[summon nature's ally](ref/spell/summon-natures-ally)_
 immediately ends.
 
-An animal companion can also be taught special
-[animal companion tricks](ref/ability/companion-tricks), though they may need specific
-characteristics to learn them.
-
 #### Nature Training (Ex) {#nature-training}
 
-**Gained:** At 1st Level
-
-**Passive:** You count your total hunter level as both druid levels and ranger levels for the
-purpose of qualifying for feats, traits, and options that modify or improve an animal companion.
+A hunter counts her total hunter level as both druid levels and ranger levels for the purpose of
+qualifying for feats, traits, and options that modify or improve an animal companion.
 
 #### Animal Focus (Su) {#animal-focus}
 
-**Action:** Swift Action
+At 1st level, a hunter can take on the [aspect of an animal](ref/ability/animal-foci) as a swift
+action. She must select one type of animal to emulate, gaining a bonus or special ability based on
+the type of animal emulated and her hunter level. The hunter can use this ability for a number of
+minutes per day equal to her level. This duration does not need to be consecutive, but must be spent
+in 1-minute increments. The hunter can emulate only one animal at a time.
 
-**Section:** Animal Focus
+The hunter can also apply one of these aspects to her animal companion. Unlike with the hunter
+herself, there is no duration on the animal aspect applied to her animal companion. An aspect
+applied in this way does not count against the hunter's minutes of duration per day—it remains in
+effect until the hunter changes it. The companion's aspect can be the same aspect the hunter has
+taken on or a different one. The hunter can select or change the animal foci on both herself and her
+animal companion as part of the same swift action.
 
-**Gained:** At 1st Level
-
-**Usage:** 1 minute/day per hunter level; these minutes need not be consecutive, but must be spent
-in 1-minute increments
-
-You can take on the [aspect of an animal](ref/ability/animal-foci). You must select one type of
-animal to emulate, gaining a bonus or special ability based on the type of animal emulated and your
-hunter level. You can emulate only one animal at a time.
-
-You can also apply one of these aspects to your animal companion. Unlike with you, there is no
-duration on the animal aspect applied to your animal companion. An aspect applied in this way does
-not count against your minutes of duration per day - it remains in effect until you change it. The
-companion's aspect can be the same aspect you have taken on or a different one. You can select or
-change the animal foci on both you and your animal companion as part of the same swift action.
-
-If your animal companion is dead, you can apply your companion's animal focus to yourself instead of
-your animal companion. This is in addition to the normal one you can choose, and (as with a
-companion's focus) remains in effect until you change it instead of counting against your minutes
-per day.
-
-Characters with the _animal focus_ feature can also gain [ward aspects](ref/ability/ward-aspects) if
-they desire.
+If the hunter's animal companion is dead, the hunter can apply her companion's animal focus to
+herself instead of her animal companion. This is in addition to the normal one she can choose, and
+(as with a companion's focus) remains in effect until the hunter changes it instead of counting
+against her minutes per day.
 
 #### Wild Empathy (Ex) {#wild-empathy}
 
-**Ability:** This ability functions just like a [Diplomacy](ref/skill/diplomacy) check made to
-improve the attitude of a person. You roll 1d20 and add your hunter level and your Charisma modifier
-to determine the wild empathy check result. The typical domestic animal has a starting attitude of
-indifferent, while wild animals are usually unfriendly. You can also use this ability to influence a
-magical beast with an Intelligence score of 1 or 2, but you take a -4 penalty on the check.
+A hunter can improve the initial attitude of an animal. This ability functions as a
+[Diplomacy](ref/skill/diplomacy) check to improve the attitude of a person (see Chapter 4 of the
+_Core Rulebook_). The hunter rolls 1d20 and adds her hunter level and her Charisma modifier to
+determine the wild empathy check result. The typical domestic animal has a starting attitude of
+indifferent, while wild animals are usually unfriendly.
 
-**Flavor:** A hunter can improve the attitude of an animal.
+To use wild empathy, the hunter and the animal must be within 30 feet of one another under normal
+conditions. Generally, influencing an animal in this way takes 1 minute but, as with influencing
+people, it might take more or less time.
 
-**Gained:** At 1st Level
-
-**Special:** To use wild empathy, you and the animal must be within 30 feet of one another under
-normal conditions. Generally, influencing an animal in this way takes 1 minute but, as with
-influencing people, it might take more or less time.
+The hunter can also use this ability to influence a magical beast with an Intelligence score of 1 or
+2, but she takes a -4 penalty on the check.
 
 #### Precise Companion (Ex) {#precise-companion}
 
-**Ability:** Choose either [Precise Shot](ref/feat/precise-shot) or [Outflank](ref/feat/outflank) as
-a bonus feat. You do not need to meet the prerequisites for this feat. If you choose Outflank, you
-automatically grant this feat to your animal companion as well.
-
-**Section:** Precise Companion and Track
-
-**Gained:** At 2nd Level
+At 2nd level, a hunter chooses either [Precise Shot](ref/feat/precise-shot) or
+[Outflank](ref/feat/outflank) as a bonus feat. She does not need to meet the prerequisites for this
+feat. If she chooses Outflank, she automatically grants this feat to her animal companion as well.
 
 #### Track (Ex) {#track}
 
-**Gained:** At 2nd Level
-
-**Passive:** Add +1/2 your level to Survival skill checks made to follow tracks.
+At 2nd level, a hunter adds 1/2 her level to Survival skill checks made to follow tracks.
 
 #### Teamwork Feat {#teamwork-feat}
 
-**Ability:** You gain a bonus teamwork feat.
+At 3rd level and every 3 levels thereafter, the hunter gains a bonus teamwork feat in addition to
+those gained from normal advancement. The hunter must meet the prerequisites of the selected bonus
+teamwork feat.
 
-**Section:** Teamwork and Tactics
+As a standard action, the hunter can choose to learn a new bonus teamwork feat in place of the most
+recent bonus teamwork feat she has already learned.
 
-**Gained:** At 3rd Level
-
-**Repeat:** You gain a new bonus teamwork feat., 6, 3
-
-**Special:** You must meet the prerequisites of any teamwork feat you select.
-
-**Standard:** You can choose to learn a new bonus teamwork feat in place of the most recent bonus
-teamwork feat you already learned. In effect, you lose the bonus feat in exchange for the new one.
-You can change only the most recent teamwork feat gained. Whenever you gain a new teamwork feat,
-your previous teamwork feats become permanent.
-
-**Usage:** Wis modifier times/day
+In effect, the hunter loses the bonus feat in exchange for the new one. She can change only the most
+recent teamwork feat gained, and must meet the prerequisites for the newly selected feat. A hunter
+can change her most recent teamwork feat a number of times per day equal to her Wisdom modifier
+(minimum 1). Whenever she gains a new teamwork feat, her previous teamwork feats become permanent.
 
 #### Hunter Tactics (Ex) {#hunter-tactics}
 
-**Gained:** At 3rd Level
-
-**Passive:** You automatically grant your teamwork feats to your animal companion. The companion
-doesn't need to meet the prerequisites of these teamwork feats.
+At 3rd level, the hunter automatically grants her teamwork feats to her animal companion. The
+companion doesn't need to meet the prerequisites of these teamwork feats.
 
 #### Improved Empathic Link (Su) {#improved-empathic-link}
 
-**Ability:** You gain an empathic link with your animal companion. This functions like an empathic
-link with a [familiar](ref/sidekick/familiar), except you can also see through a companion's eyes as
-a **swift action**, maintaining this connection as long as you like (as long as the companion is
-within 1 mile) and ending it as a **free action**. You are [blinded](ref/misc/blinded) while
-maintaining this connection.
-
-**Gained:** At 4th Level
+At 4th level, the hunter gains an empathic link with her animal companion. This functions like an
+empathic link with a [familiar](ref/sidekick/familiar), except the hunter can also see through a
+companion's eyes as a swift action, maintaining this connection as long as she likes (as long as the
+companion is within 1 mile) and ending it as a free action. The hunter is
+[blinded](ref/misc/blinded) while maintaining this connection.
 
 #### Woodland Stride (Ex) {#woodland-stride}
 
-**Gained:** At 5th Level
+At 5th level, a hunter and her animal companion may move through any sort of undergrowth (such as
+natural thorns, briars, overgrown areas, and similar terrain) at their normal speed and without
+taking damage or suffering any other impairment.
 
-**Passive:** You and your animal companion may move through any sort of undergrowth (such as natural
-thorns, briars, overgrown areas, and similar terrain) at your normal speed and without taking damage
-or suffering any other impairment.
-
-**Special:** Thorns, briars, and overgrown areas that are enchanted or magically manipulated to
-impede motion will still affect you both.
+Thorns, briars, and overgrown areas that are enchanted or magically manipulated to impede motion
+will still affect the hunter and her animal companion.
 
 #### Bonus Tricks (Ex) {#bonus-tricks}
 
-**Ability:** Your animal companion learns a bonus trick (in addition to the bonus tricks gained from
-your effective druid level).
-
-**Gained:** At 7th Level
-
-**Repeat At:** Your companion gains another trick., 13, 19
+At 7th level and every 6 levels thereafter, a hunter's animal companion learns a bonus trick (in
+addition to the bonus tricks gained from the hunter's effective druid level).
 
 #### Second Animal Focus (Su) {#second-animal-focus}
 
-**Ability:** Whenever you use your _animal focus_ ability, you select two different animal aspects
-for yourself instead of one, and can assign two aspects to your companion instead of one. As with
-your companion's previous aspect, the second one does not count against the minutes per day you can
-take on an aspect.
+At 8th level, whenever a hunter uses her animal focus ability, she selects two different animal
+aspects for herself instead of one, and can assign two aspects to her companion instead of one. As
+with the companion's previous aspect, the second one does not count against the minutes per day a
+hunter can take on an aspect.
 
-**Gained:** At 8th Level
-
-**Special:** If your companion is dead and you've applied the companion's animal aspect to yourself,
-that aspect does not count toward your maximum of two aspects at once. You can still apply only one
-of the dead companion's aspects, not both.
+If the hunter's animal companion is dead and the hunter has applied the companion's animal aspect to
+herself, that aspect does not count toward her maximum of two aspects at once. The hunter can still
+apply only one of her dead companion's aspects to herself, not both.
 
 #### Swift Tracker (Ex) {#swift-tracker}
 
-**Ability:** You can move at your normal speed while using Survival to follow tracks without taking
-the normal -5 penalty. You take only a -10 penalty (instead of the normal -20) when moving at up to
-twice normal speed while tracking.
-
-**Gained:** At 8th Level
+At 8th level, a hunter can move at her normal speed while using Survival to follow tracks without
+taking the normal -5 penalty. She takes only a -10 penalty (instead of the normal -20) when moving
+at up to twice normal speed while tracking.
 
 #### Raise Animal Companion (Sp) {#raise-animal-companion}
 
-**Ability:** You gain [raise animal companion](ref/spell/raise-animal-companion) as a
-[spell-like ability](ref/umr/spell-like-abilities); this is not restricted to raising only your own
-animal companion. Using this spell-like ability gives you a permanent
-[negative level](ref/rule/energy-drain-and-negative-levels), which cannot be overcome in any way
-(including by [restoration](ref/spell/restoration)), but automatically ends after 24 hours.
-
-**At 16th Level:** This functions as [resurrection](ref/spell/resurrection) instead of
-[raise dead](ref/spell/raise-dead), but otherwise operates as normal.
-
-**Gained:** At 10th Level
+At 10th level, a hunter gains _[raise animal companion](ref/spell/raise-animal-companion)_ as a
+[spell-like ability](ref/umr/spell-like-abilities); this is not restricted to raising only her own
+animal companion. Using this spell-like ability gives the hunter a permanent
+[negative level](ref/rule/energy-drain-and-negative-levels). This negative level cannot be overcome
+in any way (including by _[restoration](ref/spell/restoration)_), but automatically ends after 24
+hours. At 16th level, this functions as _[resurrection](ref/spell/resurrection)_ instead of
+_[raise dead](ref/spell/raise-dead)_, but otherwise operates as normal.
 
 #### Speak with Master (Ex) {#speak-with-master}
 
-**Ability:** You and your animal companion can communicate verbally, as if using a common language.
-Other creatures cannot understand the communication without magical aid.
-
-**Gained:** At 11th Level
+At 11th level, a hunter and her animal companion can communicate verbally, as if they were using a
+common language. Other creatures cannot understand the communication without magical aid.
 
 #### Greater Empathic Link (Su) {#greater-empathic-link}
 
-**Ability:** The range of your _empathic link_ with your animal companion increases to 10 miles. If
-the animal companion is within 1 mile, you can communicate with it telepathically.
-
-**Section:** Other Abilities
-
-**Gained:** At 14th Level
+At 14th level, the range of the hunter's empathic link with her animal companion increases to 10
+miles. If the animal companion is within 1 mile, the hunter can communicate with it telepathically.
 
 #### One with the Wild (Ex) {#one-with-the-wild}
 
-**Gained:** At 17th Level
+At 17th level, the hunter and her animal companion are respected or even feared by other animals, so
+long as the animals are approximately of the same type as any of the hunter's current animal foci:
+bat for bats, tiger with felines, falcon for birds, snake for reptiles, and so on. No animal in this
+category (including dire varieties) willingly attacks the hunter or her companion unless magically
+compelled to or if the hunter or companion attacks it first.
 
-**Passive:** You and your animal companion are respected or even feared by other animals, so long as
-the animals are approximately of the same type as any of your current animal foci: bat for bats,
-tiger with felines, falcon for birds, snake for reptiles, and so on. No animal in this category
-(including dire varieties) willingly attacks you or your companion unless magically compelled to or
-if either of you attack it first.
-
-**Swift:** You and your companion can attempt to demoralize animals in the appropriate category,
-rolling 1d20 and adding your level and your Charisma modifier to determine the
+The hunter and her companion can attempt to demoralize animals in the appropriate category as a
+swift action, rolling 1d20 and adding the hunter's level and her Charisma modifier to determine the
 [Intimidate](ref/skill/intimidate) check result.
 
 #### Master Hunter (Ex) {#master-hunter}
 
-**Ability:** You can always move at full speed while using Survival to follow tracks without
-penalty. Additionally, each day when you regain your spell slots, you choose one _animal focus_ to
-be active on yourself for the entire day. This focus is in addition to using your _animal focus_
-class ability (including the additional focus ability you are able to use on yourself if your animal
+At 20th level, a hunter becomes a master hunter, able to track down foes with ease. She can always
+move at full speed while using Survival to follow tracks without penalty.
+
+Additionally, each day when the hunter regains her spell slots, she chooses one animal focus to be
+active on herself for the entire day. This focus is in addition to using her animal focus class
+ability (including the additional focus ability she is able to use on herself if her animal
 companion is dead).
-
-**Flavor:** You become a master hunter, able to track down foes with ease.
-
-**Gained:** At 20th Level
 
 ### Alternate Capstones
 

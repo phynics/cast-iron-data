@@ -24,4 +24,5 @@ on this roll. If her result is greater than the attacking creature's result, the
 automatically misses. The swashbuckler must declare the use of this ability after the creature's
 attack is announced, but before its attack roll is made. Upon performing a successful parry and if
 she has at least 1 panache point, the swashbuckler can as an immediate action make an attack against
-the creature whose attack she parried, provided that creature is within her reach.
+the creature whose attack she parried, provided that creature is within her reach. This deed's cost
+cannot be reduced by any ability or effect that reduces the number of panache points a deed costs.
