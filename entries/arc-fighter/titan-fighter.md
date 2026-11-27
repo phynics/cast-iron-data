@@ -16,60 +16,40 @@ page = "21"
 
 [fields]
 kind = "archetype"
+features = [
+  { anchor = "giant-weapon-wielder", level = 1 },
+  { anchor = "incredible-heft", level = 3 },
+  { anchor = "unstoppable-momentum", level = 5 },
+]
 trades = [
-  { replaces = "The fighter's 1st level bonus feat", feature = "bonus-feats", levels = [1] },
-  { replaces = "Armor training", feature = "armor-training" },
-  { replaces = "Weapon training", feature = "weapon-training" },
+  { replaces = "The fighter's 1st level bonus feat", feature = "bonus-feats", levels = [1], by = ["giant-weapon-wielder"] },
+  { replaces = "Armor training", feature = "armor-training", by = ["incredible-heft"] },
+  { replaces = "Weapon training", feature = "weapon-training", by = ["unstoppable-momentum"] },
 ]
 +++
 
 Titan fighters make use of enormous weapons others can barely lift. Titan fighters have the
 following class features.
 
-**Giant Weapon Wielder (Ex)**
+## Giant Weapon Wielder (Ex) {#giant-weapon-wielder}
 
-**Ability:** A titan fighter can wield two-handed melee weapons intended for creatures one size
+At 1st level, a titan fighter can wield two-handed melee weapons intended for creatures one size
 category larger than himself, treating them as two-handed weapons. He takes an additional -2 penalty
-on attack rolls when using an oversized two-handed weapon.
+on attack rolls when using an oversized two-handed weapon. This ability replaces the fighter's 1st
+level bonus feat.
 
-**Gained:** At 1st Level
+## Incredible Heft (Ex) {#incredible-heft}
 
-**Replaces:** The fighter's 1st level bonus feat
-
-**Incredible Heft (Ex)**
-
-**Gained:** At 3rd Level
-
-**Passive:** A titan fighter becomes more skilled at wielding weapons intended for creatures one
+At 3rd level, a titan fighter becomes more skilled at wielding weapons intended for creatures one
 size category larger than himself. The penalty on attack rolls for using such weapons is reduced by
-1, including when using oversized two-handed weapons.
+1, including when using oversized two-handed weapons. At 7th level and every 4 levels thereafter,
+this penalty is reduced by another 1 (minimum 0). This ability replaces armor training.
 
-**Replaces:** Armor training
+## Unstoppable Momentum (Ex) {#unstoppable-momentum}
 
-At 7th level: This penalty is now reduced by 2 (minimum 0).
-
-At 11th level: This penalty is now reduced by 3 (minimum 0).
-
-At 15th level: This penalty is now reduced by 4 (minimum 0).
-
-At 19th level: This penalty is now reduced by 5 (minimum 0).
-
-**Unstoppable Momentum (Ex)**
-
-**Ability:** When wielding oversized weapons, the titan fighter can attempt to
+At 5th level, a titan fighter gains a +1 bonus on combat maneuver checks and to CMD while wielding a
+weapon sized for a creature of a larger size category. At 9th level and every 4 levels thereafter,
+this bonus increases by 1. When wielding oversized weapons, the titan fighter can attempt to
 [bull rush](ref/rule/bull-rush), [drag](ref/rule/drag), [overrun](ref/rule/overrun),
 [reposition](ref/rule/reposition), and [trip](ref/rule/trip) creatures up to two sizes categories
-larger than himself.
-
-**Gained:** At 5th Level
-
-**Passive:** A titan fighter gains a +1 bonus on combat maneuver checks and to CMD while wielding a
-weapon sized for a creature of a larger size category.
-
-**Replaces:** Weapon training
-
-At 9th level: The bonus increases to +2.
-
-At 13th level: The bonus increases to +3.
-
-At 17th level: The bonus increases to +4.
+larger than himself. This ability replaces weapon training.

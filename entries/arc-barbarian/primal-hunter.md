@@ -16,9 +16,13 @@ page = "11"
 
 [fields]
 kind = "archetype"
+features = [
+  { anchor = "exceptional-pull", level = 1 },
+  { anchor = "focused-rage", level = 1 },
+]
 trades = [
-  { replaces = "Fast movement", feature = "fast-movement" },
-  { alters = "Rage", feature = "rage" },
+  { replaces = "Fast movement", feature = "fast-movement", by = ["exceptional-pull"] },
+  { alters = "Rage", feature = "rage", by = ["focused-rage"] },
 ]
 +++
 
@@ -26,33 +30,22 @@ Rather than exploding with anger, primal hunters focus their rage to strike dist
 able to hold their own in melee, primal hunters specialize in using some of the oldest of ranged
 weapons: bows, slings, and spears.
 
-**Exceptional Pull**
+## Exceptional Pull {#exceptional-pull}
 
-**Ability:** A primal hunter gains [Exceptional Pull](ref/feat/exceptional-pull) as a bonus feat,
-even if she doesn't meet the requirements.
+At 1st level, a primal hunter gains [Exceptional Pull](ref/feat/exceptional-pull) (see previous
+page) as a bonus feat, even if she doesn't meet the requirements. At 11th and 20th levels, the
+strength rating of weapons she wields increases by 1 (weapons without a strength rating are not
+affected). This ability replaces fast movement.
 
-**At 11th Level:** The strength rating of weapons she wields increases by 1 (weapons without a
-strength rating are not affected).
+## Focused Rage (Ex) {#focused-rage}
 
-**At 20th Level:** The strength rating now increases by 2.
+While raging, a primal hunter gains a +2 bonus on attack rolls with ranged weapons. This bonus
+increases to +3 at 11th level and to +4 at 20th level. While raging, a primal hunter can attempt
+Stealth checks but doesn't gain a morale bonus on Will saves. This ability alters rage.
 
-**Gained:** At 1st Level
+## Rage Powers {#rage-powers}
 
-**Replaces:** Fast movement
-
-**Focused Rage (Ex)**
-
-**Alters:** Rage
-
-**At 11th Level:** The bonus becomes +3.
-
-**At 20th Level:** The bonus becomes +4.
-
-**Passive:** While _raging,_ a primal hunter gains a +2 bonus on attack rolls with ranged weapons.
-While _raging,_ a primal hunter can attempt Stealth checks but doesn't gain a morale bonus on Will
-saves.
-
-**Rage Powers:** The following rage powers complement the primal hunter archetype:
+The following rage powers complement the primal hunter archetype:
 [deadly accuracy](ref/ragepower/deadly-accuracy), [lethal accuracy](ref/ragepower/lethal-accuracy),
 [reflexive dodge](ref/ragepower/reflexive-dodge), [rolling dodge](ref/ragepower/rolling-dodge),
 [sharpened accuracy](ref/ragepower/sharpened-accuracy),

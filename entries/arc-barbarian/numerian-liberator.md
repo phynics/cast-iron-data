@@ -16,10 +16,16 @@ page = "6"
 
 [fields]
 kind = "archetype"
+features = [
+  { anchor = "class-skill" },
+  { anchor = "hard-hitter", level = 2 },
+  { anchor = "disruptor", level = 5 },
+  { anchor = "hide-from-constructs", level = 14 },
+]
 trades = [
-  { replaces = "Uncanny dodge", feature = "uncanny-dodge" },
-  { replaces = "Improved uncanny dodge", feature = "improved-uncanny-dodge" },
-  { replaces = "Indomitable will", feature = "indomitable-will" },
+  { replaces = "Uncanny dodge", feature = "uncanny-dodge", by = ["hard-hitter"] },
+  { replaces = "Improved uncanny dodge", feature = "improved-uncanny-dodge", by = ["disruptor"] },
+  { replaces = "Indomitable will", feature = "indomitable-will", by = ["hide-from-constructs"] },
 ]
 +++
 
@@ -30,59 +36,43 @@ that roam Numeria. While many native Kellids oppose the Technic League and its e
 alien artifacts, the most stalwart and staunchly dedicated of these technophobic traditionalists
 refer to themselves as Numerian liberators.
 
-**Gained class skills:** stl
+## Class Skill {#class-skill}
 
-**Lost class skills:** climb
+A Numerian liberator gains Stealth as a class skill and removes Climb from her list of barbarian
+class skills.
 
-**Hard Hitter (Ex)**
+## Hard Hitter (Ex) {#hard-hitter}
 
-**Flavor:** A Numerian liberator can make devastating attacks against objects and foes with
-breakable components.
+At 2nd level, a Numerian liberator can make devastating attacks against objects and foes with
+breakable components. Damage dealt by the barbarian's attacks ignores an amount of an object's or
+creature's [hardness](ref/umr/hardness) (if any) equal to 1/2 her class level. This ability replaces
+the uncanny dodge.
 
-**Gained:** At 2nd Level
+## Disruptor {#disruptor}
 
-**Passive:** Damage dealt by the barbarian's attacks ignores an amount of an object's or creature's
-[hardness](ref/umr/hardness) (if any) equal to [half](ref/misc/fractions-and-rounding) her class
-level.
+At 5th level, for any foes in a Numerian liberator's threatened area, the DC to cast spells
+defensively increases by 1. The DC increases by 1 again for every 5 levels thereafter (to a maximum
+increase of 4 at 20th level). If the barbarian gains the [disruptive](ref/ragepower/disruptive) rage
+power, the two abilities stack. This ability replaces improved uncanny dodge.
 
-**Replaces:** Uncanny dodge
+## Hide from Constructs (Su) {#hide-from-constructs}
 
-**Disruptor**
+At 14th level, a Numerian liberator can control her movement, breathing, body temperature, and other
+physiological signs to confuse the artificial visions of constructs. At will, the barbarian can make
+herself undetectable to constructs as if she were affected by a
+[hide from undead](ref/spell/hide-from-undead) spell that instead hides the subject from constructs.
+Intelligent constructs receive a Will save (DC 10 + 1/2 the barbarian's level + the barbarian's
+Constitution modifier) to see through this effect. The barbarian must expend 1 round of rage for
+each round she uses this ability. This ability replaces indomitable will.
 
-**Gained:** At 5th Level
+## Rage Powers {#rage-powers}
 
-**Passive:** For any foes in a Numerian liberator's threatened area, the DC to cast spells
-defensively increases by an amount equal to one-fifth her barbarian level.
-
-**Replaces:** Improved uncanny dodge
-
-**Special:** If the barbarian gains the [disruptive](ref/ragepower/disruptive) rage power, the two
-abilities stack.
-
-**Hide from Constructs (Su)**
-
-**Ability:** At will, the barbarian can make herself undetectable to constructs as if she were
-affected by a [hide from undead](ref/spell/hide-from-undead) spell that instead hides the subject
-from constructs. Intelligent constructs receive a Will save (DC 10 + 1/2 the barbarian's level + the
-barbarian's Constitution modifier) to see through this effect.
-
-**Flavor:** A Numerian liberator can control her movement, breathing, body temperature, and other
-physiological signs to confuse the artificial visions of constructs.
-
-**Gained:** At 14th Level
-
-**Replaces:** Indomitable will
-
-**Usage:** The barbarian must expend 1 round of _rage_ for each round she uses this ability.
-
-**Usage:** The barbarian must expend 1 round of _rage_ for each round she uses this ability.
-
-**Rage Powers:** The following rage powers complement the Numerian liberator archetype:
-[deadly accuracy](ref/ragepower/deadly-accuracy),
+The following rage powers complement the Numerian liberator archetype (rage powers marked with an
+asterisk \[\*\] are detailed in this section): [deadly accuracy](ref/ragepower/deadly-accuracy),
 [energy absorption (fire)](ref/ragepower/energy-absorption),
 [energy resistance (fire)](ref/ragepower/energy-resistance),
 [greater energy resistance (fire)](ref/ragepower/greater-energy-resistance),
-[gearbreaker](ref/ragepower/gearbreaker), [guarded stance](ref/ragepower/guarded-stance),
+[gearbreaker](ref/ragepower/gearbreaker)\*, [guarded stance](ref/ragepower/guarded-stance),
 [lethal accuracy](ref/ragepower/lethal-accuracy),
 [low-light vision](ref/ragepower/low-light-vision), [night vision](ref/ragepower/night-vision),
 [rolling dodge](ref/ragepower/rolling-dodge), [reflexive dodge](ref/ragepower/reflexive-dodge),

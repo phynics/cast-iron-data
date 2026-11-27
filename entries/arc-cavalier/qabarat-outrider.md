@@ -16,12 +16,18 @@ page = "11"
 
 [fields]
 kind = "archetype"
+features = [
+  { anchor = "combat-expertise", level = 1 },
+  { anchor = "maneuver-tactics", level = 1 },
+  { anchor = "mindlink", level = 5 },
+  { anchor = "mindlink-pulse", level = 14 },
+]
 trades = [
-  { replaces = "Tactician", feature = "tactician" },
-  { replaces = "greater tactician", feature = "greater-tactician" },
-  { replaces = "master tactician", feature = "master-tactician" },
-  { replaces = "Banner", feature = "banner" },
-  { replaces = "Greater banner", feature = "greater-banner" },
+  { replaces = "Tactician", feature = "tactician", by = ["maneuver-tactics"] },
+  { replaces = "greater tactician", feature = "greater-tactician", by = ["maneuver-tactics"] },
+  { replaces = "master tactician", feature = "master-tactician", by = ["maneuver-tactics"] },
+  { replaces = "Banner", feature = "banner", by = ["mindlink"] },
+  { replaces = "Greater banner", feature = "greater-banner", by = ["mindlink-pulse"] },
 ]
 +++
 
@@ -30,103 +36,53 @@ known as the Qabarat outrider. In defense of the lashunta city-states, outriders
 regular troops, the members of which can link minds with one another to form bonds in battle few can
 match.
 
-**Prerequisites:** Lashunta
+## Armor Proficiency {#armor-proficiency}
 
-**Armor Proficiency**
+A Qabarat outrider does not gain proficiency with heavy armor.
 
-**Info:** A Qabarat outrider does not gain proficiency with heavy armor.
+## Combat Expertise {#combat-expertise}
 
-**Combat Expertise**
+At 1st level, a Qabarat outrider gains [Combat Expertise](ref/feat/combat-expertise) as a bonus
+feat, even if he does not meet the prerequisites.
 
-**Ability:** A Qabarat outrider gains [Combat Expertise](ref/feat/combat-expertise) as a bonus feat,
-even if he does not meet the prerequisites.
+## Maneuver Tactics (Ex) {#maneuver-tactics}
 
-**Gained:** At 1st Level
-
-**Maneuver Tactics (Ex)**
-
-**At 1st Level:** A Qabarat outrider receives an Improved combat maneuver feat (such as
+At 1st level, a Qabarat outrider receives an Improved combat maneuver feat (such as
 [Improved Feint](ref/feat/improved-feint)) as a bonus feat. He must meet the prerequisites for this
-feat. As a **standard action**, a Qabarat outrider can grant this feat to all allies within 30 feet,
+feat. As a standard action, a Qabarat outrider can grant this feat to all allies within 30 feet,
 regardless of whether they can see or hear him or they meet the feat's prerequisites. Allies retain
-this bonus feat for a number of rounds equal to 3 + [half](ref/misc/fractions-and-rounding) of his
-cavalier level.
+this bonus feat for 3 rounds, plus 1 round for every 2 levels the Qabarat outrider possesses. An
+outrider can use this ability once per day at 1st level, plus one additional time per day at 5th
+level and for every 5 levels thereafter.
 
-**At 17th Level:** A Qabarat outrider gains an Improved, Greater, or Strike combat maneuver feat
-(such as [Tripping Strike](ref/feat/tripping-strike)) as a bonus feat. He must meet the
-prerequisites for this feat. An outrider can grant this feat to his allies using the _maneuver
-tactics_ ability.
-
-**At 9th Level:** A Qabarat outrider gains an Improved or Greater combat maneuver feat (such as
+At 9th level, a Qabarat outrider gains an Improved or Greater combat maneuver feat (such as
 [Greater Overrun](ref/feat/greater-overrun)) for which he meets the prerequisites as a bonus feat.
-The outrider can grant this feat to his allies using the _maneuver tactics_ ability. Using the
-maneuver tactics ability becomes a **swift action**.
+The outrider can grant this feat to his allies using the maneuver tactics ability. Using the
+maneuver tactics ability becomes a swift action.
 
-**Replaces:** Tactician, greater tactician, master tactician
+At 17th level, a Qabarat outrider gains an Improved, Greater, or Strike combat maneuver feat (such
+as [Tripping Strike](ref/feat/tripping-strike); see Chapter 3 of the _Pathfinder RPG Advanced
+Player's Guide_ for more details) as a bonus feat. He must meet the prerequisites for this feat. An
+outrider can grant this feat to his allies using the maneuver tactics ability.
 
-**Special:** A list of "Improved", "Greater" and "Strike" feats is provided below.
+This ability replaces tactician, greater tactician, and master tactician.
 
-**Usage:** 1 time/day + 1 per 5 cavalier levels
+## Mindlink (Su) {#mindlink}
 
-### "Improved" Feats
-
-- [Improved Bull Rush](ref/feat/improved-bull-rush)
-- [Improved Dirty Trick](ref/feat/improved-dirty-trick)
-- [Improved Disarm](ref/feat/improved-disarm)
-- [Improved Drag](ref/feat/improved-drag)
-- [Improved Feint](ref/feat/improved-feint)
-- [Improved Grapple](ref/feat/improved-grapple)
-- [Improved Overrun](ref/feat/improved-overrun)
-- [Improved Reposition](ref/feat/improved-reposition)
-- [Improved Steal](ref/feat/improved-steal)
-- [Improved Sunder](ref/feat/improved-sunder)
-- [Improved Trip](ref/feat/improved-trip)
-
-### "Greater" Feats
-
-- [Greater Bull Rush](ref/feat/greater-bull-rush)
-- [Greater Dirty Trick](ref/feat/greater-dirty-trick)
-- [Greater Disarm](ref/feat/greater-disarm)
-- [Greater Drag](ref/feat/greater-drag)
-- [Greater Feint](ref/feat/greater-feint)
-- [Greater Grapple](ref/feat/greater-grapple)
-- [Greater Overrun](ref/feat/greater-overrun)
-- [Greater Reposition](ref/feat/greater-reposition)
-- [Greater Steal](ref/feat/greater-steal)
-- [Greater Sunder](ref/feat/greater-sunder)
-- [Greater Trip](ref/feat/greater-trip)
-
-### "Strike" Feats
-
-- [Bull Rush Strike](ref/feat/bull-rush-strike)
-- [Disarming Strike](ref/feat/disarming-strike)
-- [Repositioning Strike](ref/feat/repositioning-strike)
-- [Sundering Strike](ref/feat/sundering-strike)
-- [Tripping Strike](ref/feat/tripping-strike)
-
-**Mindlink (Su)**
-
-**Gained:** At 5th Level
-
-**Passive:** A Qabarat outrider's innate telepathy develops into a mindlink, allowing contact
+At 5th level, a Qabarat outrider's innate telepathy develops into a mindlink, allowing contact
 between himself and his allies and companions. As long as the Qabarat outrider is conscious, all
 allies within range of his limited telepathy racial ability (30 feet for most Qabarat outriders)
-receive a morale bonus (equal to 1 + [one-fifth](ref/misc/fractions-and-rounding) his cavalier
-level) on saving throws against charm and compulsion effects and a morale bonus (equal to one-fifth
-his cavalier level) on attack rolls made while [flanking](ref/rule/flanking).
+receive a +2 morale bonus on saving throws against charm and compulsion effects and a +1 morale
+bonus on attack rolls made while [flanking](ref/rule/flanking). At 10th level and every 5 levels
+thereafter, these bonuses increase by 1. This ability replaces banner.
 
-**Replaces:** Banner
+## Mindlink Pulse (Su) {#mindlink-pulse}
 
-**Mindlink Pulse (Su)**
+At 14th level, a Qabarat outrider can send a pulse of psychic energy through the minds of allies
+within range of his limited telepathy as a standard action. If he does so during a surprise round,
+any allies not normally able to act in the surprise round can act. If an ally would normally be
+denied the ability to act in the surprise round, that ally's initiative is equal to her initiative
+roll, or to the initiative of the outrider - 1, whichever is lower.
 
-**Gained:** At 14th Level
-
-**Replaces:** Greater banner
-
-**Standard:** A Qabarat outrider can send a pulse of psychic energy through the minds of allies
-within range of his limited telepathy. If he does so during a surprise round, any allies not
-normally able to act in the surprise round can act. If an ally would normally be denied the ability
-to act in the surprise round, that ally's initiative is equal to her initiative roll, or to the
-initiative of the outrider - 1, whichever is lower. Whether or not it is a surprise round, when the
-outrider uses this ability, allies within range are no longer [flat-footed](ref/rule/flat-footed)
-(assuming they were to begin with).
+Whether or not it is a surprise round, when the outrider uses this ability, allies within range are
+no longer flat-footed (assuming they were to begin with). This ability replaces greater banner.

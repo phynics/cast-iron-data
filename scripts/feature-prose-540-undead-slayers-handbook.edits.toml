@@ -1,0 +1,7 @@
+[[edit]]
+entry = "ref/arc-ranger/corpse-hunter"
+anchor = "spells"
+note = "hand-written from print (Undead Slayer's Handbook p. 24): the spell list runs around the art in the left column, so that the extraction breaks it into blocks and cannot set the spell names in italics as print does; the text is the printed paragraph."
+text = '''
+In addition to the default spells on the ranger spell list, a corpse hunter adds the following to his list of spells at the indicated spell levels: 1st—_bless water_, _detect undead_, _hide from undead_, _sanctify corpse_, 2nd—_halt undead_, 3rd—_speak with dead_, 4th—_searing light_.
+'''

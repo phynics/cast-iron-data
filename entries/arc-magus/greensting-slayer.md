@@ -16,10 +16,15 @@ page = "9"
 
 [fields]
 kind = "archetype"
+features = [
+  { anchor = "arcane-pool", level = 1 },
+  { anchor = "evasion", level = 7 },
+  { anchor = "improved-evasion", level = 13 },
+]
 trades = [
-  { replaces = "Medium armor", feature = "medium-armor" },
-  { replaces = "Heavy armor", feature = "heavy-armor" },
-  { alters = "Arcane pool", feature = "arcane-pool" },
+  { replaces = "Medium armor", feature = "medium-armor", by = ["evasion"] },
+  { replaces = "Heavy armor", feature = "heavy-armor", by = ["improved-evasion"] },
+  { alters = "Arcane pool", feature = "arcane-pool", by = ["arcane-pool"] },
 ]
 +++
 
@@ -28,61 +33,42 @@ Grounds in Erages. More than a few who study at Erages Academy follow this path 
 promises of wealth that the city's criminal element makes toward practiced brawlers and smugglers.
 Greensting slayers have the following class features.
 
-**Arcane Pool**
+## Arcane Pool {#arcane-pool}
 
-**Alters:** Arcane pool
+At 1st level, a greensting slayer can expend 1 point from his arcane pool as a swift action to add
+1d6 points of [sneak attack](ref/ability/sneak-attack) damage to his next melee attack that round.
+The attack must meet all of the usual prerequisites for making a sneak attack, as the
+[rogue](ref/class/rogue) class feature. For every 4 levels beyond 1st, the amount of sneak attack
+damage dealt by this ability increases by 1d6 (to a maximum of 5d6 at 17th level). If a greensting
+slayer gets a sneak attack from another source, the bonuses on damage stack.
 
-**Gained:** At 1st Level
+A greensting slayer cannot use his arcane pool to enhance his weapon. This modifies the arcane pool
+ability.
 
-**Special:** If a greensting slayer gets a sneak attack from another source, the bonuses on damage
-stack. A greensting slayer cannot use his _arcane pool_ to enhance his weapon.
+## Evasion (Ex) {#evasion}
 
-**Swift:** A greensting slayer can expend 1 point from his _arcane pool_ to add 1d6 points of
-[sneak attack](ref/ability/sneak-attack) damage to his next melee attack that round. The attack must
-meet all of the usual prerequisites for making a sneak attack, as the [rogue](ref/class/rogue) class
-feature.
+At 7th level, the greensting slayer gains [evasion](ref/ability/evasion), as the rogue class
+feature. This replaces the medium armor ability.
 
-At 5th level: The amount of sneak attack damage increases to +2d6.
+## Improved Evasion (Ex) {#improved-evasion}
 
-At 9th level: The amount of sneak attack damage increases to +3d6.
+At 13th level, the greensting slayer gains [improved evasion](ref/talent/improved-evasion), as the
+advanced rogue talent of the same name. This replaces the heavy armor ability.
 
-At 13th level: The amount of sneak attack damage increases to +4d6.
+## Magus Arcana {#magus-arcana}
 
-At 17th level: The amount of sneak attack damage increases to +5d6.
-
-**Evasion (Ex)**
-
-**Gained:** At 7th Level
-
-**Passive:** The greensting slayer gains [evasion](ref/ability/evasion), as the rogue class feature.
-
-**Replaces:** Medium armor
-
-**Improved Evasion (Ex)**
-
-**Gained:** At 13th Level
-
-**Passive:** The greensting slayer gains [improved evasion](ref/talent/improved-evasion), as the
-advanced rogue talent of the same name.
-
-**Replaces:** Heavy armor
-
-**Magus Arcana**
-
-**Info:** In addition to the new magus arcana presented below, the following magus arcana complement
-the greensting slayer archetype: [close range](ref/arcana/close-range),
+In addition to the new magus arcana presented below, the following magus arcana complement the
+greensting slayer archetype: [close range](ref/arcana/close-range),
 [hasted assault](ref/arcana/hasted-assault), [maneuver mastery](ref/arcana/maneuver-mastery),
 [pool strike](ref/arcana/pool-strike), and [silent magic](ref/arcana/silent-magic).
 
-**Dark Shifter (Su)**
+### Dark Shifter (Su) {#dark-shifter}
 
-**Move:** The magus can expend 1 point from his _arcane pool_ to change the target of an ongoing
-spell effect with the [darkness](ref/spelldef/darkness) descriptor within 60 feet. The new target
-must be within the spell's range, using the magus's level as the effective caster level for the
-purpose of determining the maximum range the effect can be moved from the magus.
-
-**Prereq:** 6th-level magus
-
-**Special:** If the spell effect the magus is moving originated from another creature, the magus
-must succeed at a caster level check to reposition the effect (DC = 11 + the effect's caster level).
-Failure wastes the magus's move action, but does not expend the point from his _arcane pool._
+The magus can expend 1 point from his arcane pool as a move action to change the target of an
+ongoing spell effect with the [darkness](ref/spelldef/darkness) descriptor within 60 feet. The new
+target must be within the spell's range, using the magus's level as the effective caster level for
+the purpose of determining the maximum range the effect can be moved from the magus. If the spell
+effect the magus is moving originated from another creature, the magus must succeed at a caster
+level check to reposition the effect (DC = 11 + the effect's caster level). Failure wastes the
+magus's move action, but does not expend the point from his arcane pool. The magus must be at least
+6th level before selecting this arcana.

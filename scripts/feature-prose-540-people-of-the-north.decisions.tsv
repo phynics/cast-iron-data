@@ -1,0 +1,4 @@
+entry	anchor	decision	note
+ref/arc-ranger/witchguard	bodyguard	print	lead review (ruling 14): print says "if he doesn't meet the prerequisite" (OCR "ifhe" repaired) and the feat mark is dropped; the corpus text differs in words. Print wins.
+ref/arc-ranger/witchguard	patron	print	lead review (ruling 14): print has the reference to the Advanced Player's Guide in the sentence ("as the witch class feature (Pathfinder RPG Advanced Player's Guide 70)"), which is prose and not a citation after a link; it stays as printed.
+ref/arc-ranger/witchguard	sworn-defender	print	lead review (ruling 14): print has "gains In Harm's Way as a bonus feat"; the corpus text is the import's. Print wins; the span is cut at the spell that follows the archetype (`SPAN_CUT`).
