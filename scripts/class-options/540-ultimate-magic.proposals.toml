@@ -1,0 +1,1482 @@
+# The printed text of the powers of the class options of the book, written ones included (the check reads an entry against it). Generated: never edit by hand.
+
+[[entry]]
+id = "ref/arcana/arcane-accuracy"
+anchor = "arcane-accuracy"
+print = "The magus can expend 1 point from his arcane pool as a swift action to grant himself an insight bonus equal to his Intelligence bonus on all attack rolls until the end of his turn."
+
+[[entry]]
+id = "ref/arcana/broad-study"
+anchor = "broad-study"
+print = "The magus selects another one of his spellcasting classes. The magus can use his spellstrike and spell combat abilities while casting or using spells from the spell list of that class. This does not allow him to cast arcane spells from that class's spell list without suffering the normal chances of arcane spell failure, unless the spell lacks somatic components. The magus must be at least 6th level and must possess levels in at least one other spellcasting class before selecting this arcana."
+
+[[entry]]
+id = "ref/arcana/close-range"
+anchor = "close-range"
+print = "The magus can deliver ray spells that feature a ranged touch attack as melee touch spells. He can use a ranged touch attack spell that targets more than one creature (such as _[scorching ray](ref/spell/scorching-ray)_), but he makes only one melee touch attack to deliver one of these ranged touch effects; additional ranged touch attacks from that spell are wasted and have no effect. These spells can be used with the spellstrike class feature."
+
+[[entry]]
+id = "ref/arcana/concentrate"
+anchor = "concentrate"
+print = "The magus can reroll any [concentration](ref/rule/concentration) check he has just made with a +4 bonus. He must use this ability after the roll is made, but before the roll's outcome is determined. The magus must take the second roll, even if it is worse. The magus can use this ability once per day."
+
+[[entry]]
+id = "ref/arcana/critical-strike"
+anchor = "critical-strike"
+print = "Whenever the magus scores a critical hit with a melee weapon, he may cast a spell with a range of touch as a swift action, then make a touch attack with that spell against the target of the critical hit as a free action. The magus can use this ability once per day. The magus must be at least 12th level before selecting this arcana."
+
+[[entry]]
+id = "ref/arcana/dispelling-strike"
+anchor = "dispelling-strike"
+print = "The magus can spend 1 or more points from his arcane pool as a swift action to imbue his weapon with a special power. If the weapon strikes a creature within the next minute, that creature is the subject of a targeted _[dispel magic](ref/spell/dispel-magic)_ using the magus's level as the caster level, except that this effect cannot dispel a spell of a level higher than the number of arcane pool points expended to activate this ability (treat higher-level spells as if they do not exist and apply the dispel attempt to the remaining spells with the highest caster level). Once the strike is made, the power dissipates, even if the dispel attempt is unsuccessful. The magus must be at least 9th level before selecting this arcana."
+
+[[entry]]
+id = "ref/arcana/empowered-magic"
+anchor = "empowered-magic"
+print = "The magus can cast one spell per day as if it were modified by the [Empower Spell](ref/feat/empower-spell) feat. This does not increase the casting time or the level of the spell. The magus must be at least 6th level before selecting this magus arcana."
+
+[[entry]]
+id = "ref/arcana/familiar"
+anchor = "familiar"
+print = "The magus gains a [familiar](ref/sidekick/familiar), using his magus level as his effective wizard level. This familiar follows the rules for [familiars](ref/ability/familiars) presented in the arcane bond wizard class feature."
+
+[[entry]]
+id = "ref/arcana/hasted-assault"
+anchor = "hasted-assault"
+print = "The magus can expend 1 point from his arcane pool as a swift action to move more quickly. This functions as _[haste](ref/spell/haste)_, but only targets the magus and lasts for a number of rounds equal to the magus's Intelligence bonus. The magus must be at least 9th level before selecting this magus arcana."
+
+[[entry]]
+id = "ref/arcana/maneuver-mastery"
+anchor = "maneuver-mastery"
+print = "The magus has mastered one [combat maneuver](ref/rule/combat-maneuvers). He selects one maneuver when selecting this arcana. Whenever he is attempting the selected maneuver, he uses his magus level in place of his base attack bonus (in addition to any base attack bonus gained from other classes). A magus can select this magus arcana more than once. Its effects do not stack. Each time he selects this arcana, he selects another combat maneuver."
+
+[[entry]]
+id = "ref/arcana/maximized-magic"
+anchor = "maximized-magic"
+print = "The magus can cast one spell per day as if it were modified by the [Maximize Spell](ref/feat/maximize-spell) feat. This does not increase the casting time or the level of the spell. The magus must be at least 12th level before selecting this magus arcana."
+
+[[entry]]
+id = "ref/arcana/pool-strike"
+anchor = "pool-strike"
+print = "The magus can expend 1 point from his arcane pool as a standard action to charge his free hand with energy. He can make a melee touch attack with that hand as a free action as part of activating this ability. If the touch attack hits, it releases the charge and deals 2d6 points of energy damage (acid, cold, electricity, or fire, chosen when he spends the arcane pool point to activate this ability). He can use this ability with the spellstrike class feature. If he misses with this attack, he can hold the charge for up to 1 minute before it dissipates. At 6th level, and every three levels thereafter, the amount of damage dealt by this attack increases by 1d6."
+
+[[entry]]
+id = "ref/arcana/quickened-magic"
+anchor = "quickened-magic"
+print = "The magus can cast one spell per day as if it were modified by the [Quicken Spell](ref/feat/quicken-spell) feat. This does not increase the level of the spell. The magus must be at least 15th level before selecting this magus arcana."
+
+[[entry]]
+id = "ref/arcana/reflection"
+anchor = "reflection"
+print = "The magus can sacrifice 1 or more points from his arcane pool as an immediate action to reflect a spell back at its caster. This functions as _[spell turning](ref/spell/spell-turning)_, but only if the targeted spell is of a level equal to or lower than the number of points expended. If insufficient points are expended, they instead grant an insight bonus on any saving throws allowed by the spell, equal to the number of points spent. The magus must be at least 15th level before selecting this magus arcana."
+
+[[entry]]
+id = "ref/arcana/silent-magic"
+anchor = "silent-magic"
+print = "The magus can cast one spell per day as if it were modified by the [Silent Spell](ref/feat/silent-spell) feat. This does not increase the casting time or the level of the spell."
+
+[[entry]]
+id = "ref/arcana/spell-blending"
+anchor = "spell-blending"
+print = "When a magus selects this arcana, he must select one spell from the wizard spell list that is of a magus spell level he can cast. He adds this spell to his spellbook and list of magus spells known as a magus spell of its wizard spell level. He can instead select two spells to add in this way, but both must be at least one level lower than the highest-level magus spell he can cast. A magus can select this magus arcana more than once."
+
+[[entry]]
+id = "ref/arcana/spell-shield"
+anchor = "spell-shield"
+print = "The magus can expend a point from his arcane pool as an immediate action to grant himself a shield bonus to AC equal to his Intelligence bonus until the end of his next turn."
+
+[[entry]]
+id = "ref/arcana/still-magic"
+anchor = "still-magic"
+print = "The magus can cast one spell per day as if it were modified by the [Still Spell](ref/feat/still-spell) feat. This does not increase the casting time or the level of the spell."
+
+[[entry]]
+id = "ref/arcana/wand-mastery"
+anchor = "wand-mastery"
+print = "Whenever The magus uses a wand, he calculates the DC for any spell it contains using his Intelligence modifier, instead of the minimum modifier needed to cast a spell of that level."
+
+[[entry]]
+id = "ref/arcana/wand-wielder"
+anchor = "wand-wielder"
+print = "The magus can activate a wand or staff in place of casting a spell when using spell combat."
+
+[[entry]]
+id = "ref/arcanedisc/arcane-builder"
+anchor = "arcane-builder"
+print = "You have an exceptional understanding of the theory behind creating magical items. Select one type of magic item (potions, wondrous items, and so on). You create items of this type 25% faster than normal, and gain a +4 bonus on Spellcraft checks (or other checks, as appropriate) to craft items of this type. You may select this discovery multiple times; its effects do not stack. Each time you select this discovery, it applies to a different type of magic item."
+
+[[entry]]
+id = "ref/arcanedisc/fast-study"
+anchor = "fast-study"
+print = "Normally, a wizard spends 1 hour preparing all of his spells for the day, or proportionately less if he only prepares some spells, with a minimum of 15 minutes of preparation. Thanks to mental discipline and clever mnemonics, you can prepare all of your spells in only 15 minutes, and your minimum preparation time is only 1 minute. You must be at least a 5th-level wizard to select this discovery."
+
+[[entry]]
+id = "ref/arcanedisc/feral-speech"
+anchor = "feral-speech"
+print = "You gain the ability to speak with and understand the response of any animal as if using _[speak with animals](ref/spell/speak-with-animals)_, though each time you speak to animals, you must decide to communicate with either amphibians, birds, fish, mammals, or reptiles, and can only speak to and understand animals of that type. You can make yourself understood as far as your voice carries. This discovery does not predispose any animal addressed toward you in any way. When you reach 12th level, you can also use this ability to communicate with vermin. You must be at least a 5th-level wizard to select this discovery."
+
+[[entry]]
+id = "ref/arcanedisc/golem-constructor"
+anchor = "golem-constructor"
+print = "You have learned the art and craft of creating a single type of [golem](ref/family/golem) (such as [stone golems](ref/monster/golem-stone-golem) or [iron golems](ref/monster/golem-iron-golem)). When creating a golem of this type, you count as having the [Craft Wondrous Item](ref/feat/craft-wondrous-item), [Craft Magic Arms and Armor](ref/feat/craft-magic-arms-and-armor), and [Craft Construct](ref/feat/craft-construct) feats. You must meet all other construction requirements for the golem as normal. You may select this discovery multiple times. Each time you select this discovery, it applies to a different kind of golem. You must be at least a 9th-level wizard to select this discovery."
+
+[[entry]]
+id = "ref/arcanedisc/immortality"
+anchor = "immortality"
+print = "You discover a cure for aging, and from this point forward you take no penalty to your physical ability scores from [advanced age](ref/rule/age). If you are already taking such penalties, they are removed at this time. You must be at least a 20th-level wizard to select this discovery."
+
+[[entry]]
+id = "ref/arcanedisc/multimorph"
+anchor = "multimorph"
+print = "Your studies in transmogrification have increased your control over shapechanging spells. When you cast a spell of the polymorph subschool on yourself, you may expend 1 minute of the spell's duration as a standard action to assume another form allowed by the spell. You can do this as often as you like, subject to the duration of the spell. You must be at least a 5th-level wizard to select this discovery."
+
+[[entry]]
+id = "ref/arcanedisc/opposition-research"
+anchor = "opposition-research"
+print = "By completing strenuous studies, you have broken through the mental barriers that made it hard for you to prepare spells from one of your opposition schools. Select one wizard opposition school; preparing spells of this school now only requires one spell slot of the appropriate level instead of two, and you no longer have the -4 Spellcraft penalty for crafting items from that school. You must be at least a 9th-level wizard to select this discovery."
+
+[[entry]]
+id = "ref/arcanedisc/split-slot"
+anchor = "split-slot"
+print = "Once per day when you prepare spells, you may treat any one of your open spell slots as if it were two spell slots that were two spell levels lower. For example, a 9th-level wizard can split a 5th-level slot into two 3rd-level slots, preparing _[fireball](ref/spell/fireball)_ and _[lightning bolt](ref/spell/lightning-bolt)_ in those 3rd-level slots. For all purposes, the two lower-level slots are treated as that lower level (so the split 5th-level slot used for a _fireball_ has a DC as if it were in a normal 3rd-level slot). Splitting a 2nd-level slot lets you prepare two additional cantrips (which you can cast over and over, just like normally prepared cantrips). This discovery has no effect on cantrips or 1st–level spells. You may select this discovery multiple times; each time you select it, you may split another spell slot when you prepare spells. You cannot split a slot that you created by splitting a higher-level slot. You must be at least 5th level to select this discovery."
+
+[[entry]]
+id = "ref/arcanedisc/staff-like-wand"
+anchor = "staff-like-wand"
+print = "Your research has unlocked a new power in conjunction with using a wand. Similar to using a magic staff, you use your own Intelligence score and relevant feats to set the DC for saves against spells you cast from a wand, and you can use your caster level when activating the power of a wand if it's higher than the caster level of the wand. You must be at least an 11th-level wizard and must have the [Craft Staff](ref/feat/craft-staff) feat to select this discovery."
+
+[[entry]]
+id = "ref/arcanedisc/true-name"
+anchor = "true-name"
+print = '''
+Your researches into ancient tomes and your inquisitions of bound spirits have led you to one of the best-hidden secrets of the multiverse: the true name of an outsider—the name that defines the very essence of the creature and that gives the speaker control over the being. This outsider can have no more than 12 Hit Dice. Once per day, you can speak the common name by which the outsider is known, and the outsider travels to you as if you had cast _[planar binding](ref/spell/planar-binding)_ upon it. It must obey you to the best of its ability, without pay or bargaining for its services, for its fear that you might release its true name to the wider world is enough to bring even the most recalcitrant of outsiders to bear.
+
+If the creature is within 100 feet, as a move action, you may punish it by deliberately mispronouncing its name, wracking its very essence and giving it the [sickened](ref/misc/sickened) and [staggered](ref/misc/staggered) conditions for 1 round (even if the creature is normally immune to these conditions). You cannot use true name in an area of [silence](ref/spell/silence), but the creature does not have to be able to hear you for it to be harmed by the ability.
+
+It is in your best interest to call this creature only sparingly, and occasionally reward it in some fashion to mollify its wrath. If you repeatedly fail to offer it a reward appropriate to its type and ethos, the creature may begin plotting ways to destroy the bond between you, whether by creating an accident that will destroy your memory of the name, by plaguing you with nuisances or dangers until you vow never to call on it again, or by actively seeking to destroy you through its own devices or those of an underling. If this creature is of a lawful type and you are violating its ethos, its superiors may even destroy it or you rather than allow you to contaminate their servant further. Worse, they may establish situations where it is necessary for you to summon this outsider, opening gateways to infernal or angelic interference, in order to gain a foothold on the Material Plane.
+
+You may select this discovery multiple times. Each time you select this discovery, it applies to a different, specific outsider. You must be at least an 11th-level wizard to select this discovery. If you select this discovery at 15th level or higher, the creature may have up to 18 Hit Dice and the call acts as _[greater planar binding](ref/spell/planar-binding-greater)_ instead of _[planar binding](ref/spell/planar-binding)_.'''
+
+[[entry]]
+id = "ref/arcaneschool/metal"
+anchor = "iron-skin"
+print = "You gain a +2 armor bonus to your Armor Class for 10 minutes; this bonus increases by +1 for every 5 caster levels (maximum +6 at 20th level). You can use this ability a number of times per day equal to 3 + your Intelligence bonus."
+
+[[entry]]
+id = "ref/arcaneschool/metal"
+anchor = "shrapnel-burst"
+print = "At 8th level, as a swift action, you can cause jagged pieces of metal to explode outward from your body. These shards deal 1d6 points of piercing damage per two wizard levels (minimum 1d6) to all creatures within a 10-foot-radius [burst](ref/misc/burst). A Reflex save halves this damage. In addition, the twisted scraps of metal make the area [difficult terrain](ref/rule/terrain-and-obstacles) until your next turn (at which time they disappear). You can use this ability once per day, plus one additional time per day at 13th level and 18th level. At 10th level, the shrapnel bypasses [damage reduction](ref/rule/damage-reduction) as if it were a [magic weapon](ref/spell/magic-weapon)."
+
+[[entry]]
+id = "ref/arcaneschool/wood"
+anchor = "flexible-enhancement"
+print = "A master of the wood element is able to bend like bamboo when stressed and snap back into place. You gain a +1 enhancement bonus to your Dexterity, Constitution, or Wisdom ability score. This bonus increases by +1 for every five wizard levels you possess to a maximum of +5 at 20th level. You can change this bonus to a new ability score when you prepare spells. At 20th level, this bonus applies to two of these ability scores of your choice."
+
+[[entry]]
+id = "ref/arcaneschool/wood"
+anchor = "splintered-spear"
+print = "As a standard action, you can create a wooden [shortspear](ref/eq-weapon/shortspear) appropriate to your size, which hurls itself as a ranged attack against one target within 100 feet (range penalties apply), using your Intelligence modifier as an attack bonus instead of your Strength or Dexterity modifier. The spear deals normal damage according to its size, plus your Intelligence modifier, then breaks into countless splinters; the target takes 1 point of [bleed](ref/rule/bleed) damage each round on its turn. At 6th-level and every 6 levels thereafter, the spear gains a +1 enhancement bonus and the bleed damage increases by +1. You can use this ability a number of times per day equal to 3 + your Intelligence modifier."
+
+[[entry]]
+id = "ref/arcaneschool/wood"
+anchor = "cooperative-defense"
+print = "At 8th level, whenever a spell or effect targets you and one or more allies within 30 feet, you can use this ability to allow your allies to use your saving throw against the effect in place of their own. Each ally must make this choice individually before the rolls are made. Using this ability is an immediate action. You can use this ability once per day at 8th level, and one additional time per day for every four wizard levels beyond 8th."
+
+[[entry]]
+id = "ref/discovery/alchemical-simulacrum"
+anchor = "alchemical-simulacrum"
+print = "The alchemist gains the ability to create a [lesser simulacrum](ref/spell/simulacrum-lesser). This works like the _[lesser simulacrum](ref/spell/simulacrum-lesser)_\\* spell, except it costs 100 gp in alchemical materials per Hit Die of the simulacrum, requires 24 hours to grow, and decays into inert flesh rather than ice or snow if killed. An alchemist must be at least 8th level before selecting this discovery. The created simulacrum is a creature, not a supernatural effect."
+
+[[entry]]
+id = "ref/discovery/alchemical-zombie"
+anchor = "alchemical-zombie"
+print = "The alchemist gains the ability to animate a relatively complete corpse as an alchemy-powered zombie. This process takes 1 hour and costs 100 gp in alchemical reagents per HD of the corpse being animated; the dead creature gains the [zombie template](ref/template/zombie). Zombies that are created in this manner count as undead created by _[animate dead](ref/spell/animate-dead)_ for the purposes of determining how many undead the alchemist can control. An alchemist must be at least 8th level before selecting this discovery. The created zombie is a creature, not a supernatural effect."
+
+[[entry]]
+id = "ref/discovery/blinding-bomb"
+anchor = "blinding-bomb"
+print = "When the alchemist creates a bomb, he can choose for it to detonate very brightly. Creatures that take a direct hit from a blinding bomb are [blinded](ref/misc/blinded) for 1 minute unless they succeed at a Fortitude save. Creatures in the splash area that fail their saves against the bomb are [dazzled](ref/misc/dazzled) for 1 minute. This is a light effect. An alchemist must be at least 8th level before selecting this discovery."
+
+[[entry]]
+id = "ref/discovery/bottled-ooze"
+anchor = "bottled-ooze"
+print = "The alchemist has learned how to preserve a sample of oozes in a sealed bottle, which he can prepare for use as an extract. When the alchemist activates the extract, he actually throws the bottle at a square within 30 feet, releasing the ooze, which reconstitutes and attacks the closest creature. The ooze is not under the alchemist's control, but is otherwise treated as a summoned creature. The ooze remains for 1 round per caster level, and decays into powder when the duration expires. If the alchemist has the [infusion](ref/discovery/infusion) discovery (see page 31 of the _Advanced Player's Guide_), another character can use the infused specimen. Creating a bottled ooze requires an extract with a level equal to the ooze's CR (so a CR 4 [gray ooze](ref/monster/gray-ooze) requires a 4th-level extract). An alchemist must be at least 6th level before selecting this discovery."
+
+[[entry]]
+id = "ref/discovery/cognatogen"
+anchor = "cognatogen"
+print = "The alchemist gains the ability to create a cognatogen, a mutagen-like mixture that heightens one mental ability score at the expense of a physical ability score. If the cognatogen enhances his Intelligence, it applies a penalty to his Strength. If it enhances his Wisdom, it applies a penalty to his Dexterity. If it enhances his Charisma, it applies a penalty to his Constitution. Otherwise, this ability works just like the mutagen ability (including the natural armor bonus). Anytime the alchemist would prepare a mutagen, he may instead prepare a cognatogen. All limitations of mutagens apply to cognatogens as if they were the same substance—an alchemist can only maintain one mutagen or cognatogen at a time, a cognatogen that is not in an alchemist's possession becomes inert, drinking a cognatogen makes a non-alchemist sick, and so on. When the effect of the cognatogen ends, the alchemist takes 2 points of [ability damage](ref/rule/ability-damage-drain) to the ability score penalized by the cognatogen. The [infuse mutagen](ref/discovery/infuse-mutagen) discovery and the persistent mutagen class ability apply to cognatogens."
+
+[[entry]]
+id = "ref/discovery/confusion-bomb"
+anchor = "confusion-bomb"
+print = "The alchemist's bombs twist the target's perception of friend and foe. A creature that takes a direct hit from a [confusion](ref/spell/confusion) bomb takes damage from the bomb and is under the effect of a _confusion_ spell for 1 round per caster level of the alchemist. Reduce the amount of normal damage dealt by the bomb by 2d6 (so a bomb that would normally deal 6d6+4 points of damage deals 4d6+4 points of damage instead). An alchemist must be at least 8th level before selecting this discovery."
+
+[[entry]]
+id = "ref/discovery/doppelganger-simulacrum"
+anchor = "doppelganger-simulacrum"
+print = "The alchemist learns how to create a [simulacrum](ref/spell/simulacrum), a soulless duplicate of his body, into which he can project his consciousness. As a full-round action, he may shift his consciousness from his current body to any one of his available doppelganger simulacra, which must be on the same plane as the alchemist. If killed in a simulacrum, he transfers to his own body automatically; if killed in his own body, he is dead. Unused simulacra (including his abandoned original body) appear to be lifeless corpses, though they do not decay. Creating a duplicate costs 1,000 gp in alchemical materials and requires 1 week to grow. An alchemist must be at least 10th level and must have the [alchemical simulacrum](ref/discovery/alchemical-simulacrum) discovery before selecting this discovery. The created simulacrum is a creature, not a supernatural effect."
+
+[[entry]]
+id = "ref/discovery/grand-cognatogen"
+anchor = "grand-cognatogen"
+print = "The alchemist's [cognatogen](ref/discovery/cognatogen) now grants a +6 natural armor bonus, a +8 alchemical bonus to one mental ability score (Intelligence, Wisdom, or Charisma), a +6 alchemical bonus to a second mental ability score, and a +4 alchemical bonus to a third mental ability score. The alchemist takes a -2 penalty to his Strength, Dexterity, and Constitution as long as the [cognatogen](ref/discovery/cognatogen) persists, and takes 2 points of [ability damage](ref/rule/ability-damage-drain) to each physical ability score when the cognatogen ends. An alchemist must be at least 16th level and must have the [greater cognatogen](ref/discovery/greater-cognatogen) discovery or class ability before selecting this discovery."
+
+[[entry]]
+id = "ref/discovery/greater-alchemical-simulacrum"
+anchor = "greater-alchemical-simulacrum"
+print = "The alchemist gains the ability to create a [simulacrum](ref/spell/simulacrum). This works like the _simulacrum_ spell, except it costs 100 gp in alchemical materials per Hit Die of the simulacrum, requires 24 hours to grow, and decays into inert flesh rather than ice or snow if killed. An alchemist must be at least 14th level and must have the [alchemical simulacrum](ref/discovery/alchemical-simulacrum) discovery before selecting this discovery. The created simulacrum is a creature, not a supernatural effect."
+
+[[entry]]
+id = "ref/discovery/greater-cognatogen"
+anchor = "greater-cognatogen"
+print = "The alchemist's mutagen now grants a +4 natural armor bonus, a +6 alchemical bonus to one mental ability score (Intelligence, Wisdom, or Charisma), and a +4 alchemical bonus to a second mental ability score. The alchemist takes a -2 penalty on both associated physical ability scores as long as the mutagen persists, and takes 2 points of [ability damage](ref/rule/ability-damage-drain) to both associated physical ability scores when the [cognatogen](ref/discovery/cognatogen) ends. An alchemist must be at least 12th level and must have the [cognatogen](ref/discovery/cognatogen) discovery or class ability before selecting this discovery."
+
+[[entry]]
+id = "ref/discovery/healing-touch"
+anchor = "healing-touch"
+print = "The alchemist gains the ability to heal other creatures. As a standard action, he may touch a creature and apply 1 round's effect of his [spontaneous healing](ref/discovery/spontaneous-healing) discovery to that creature; this counts toward his spontaneous healing limit for the day. The alchemist's daily limit for hit points healed by spontaneous healing increases to 5 × his alchemist level. This ability only functions if the target is the same type of creature (humanoid, undead, and so on) as the alchemist. An alchemist must be at least 6th level and must have the [spontaneous healing](ref/discovery/spontaneous-healing) discovery or class ability before selecting this discovery."
+
+[[entry]]
+id = "ref/discovery/lingering-spirit"
+anchor = "lingering-spirit"
+print = "The alchemist is familiar enough with the ties between his body and spirit that he lingers at death's door far longer than a normal person. He treats his Constitution as 10 points higher than normal for the purpose of determining when hit point damage kills him (so an alchemist with a Constitution of 10 and this discovery dies at -20 hit points instead of -10). Reducing him to 0 Constitution or its equivalent (from ability damage, ability drain, Constitution penalties, and so on) makes him unconscious and comatose, but he is only killed after taking an additional 5 points of Constitution damage, drain, or penalty (in effect, the alchemist must be brought to -5 Constitution in order to be killed by these attacks). An alchemist must be at least 4th level before selecting this discovery."
+
+[[entry]]
+id = "ref/discovery/mummification"
+anchor = "mummification"
+print = "The alchemist has mastered preserving flesh and applied this knowledge to his own body, turning himself into an undeadlike creature. After learning this discovery, the alchemist must perform a 30-day regimen of a special diet, rigorous exercise, and drinking a mildly poisonous alchemical tea. At the end of this regimen, he falls unconscious for 24 hours, then awakens as a \"living mummy.\" The alchemist's type does not change, but he becomes immune to cold, nonlethal damage, paralysis, and sleep. An alchemist must be at least 10th level and must have the [preserve organs](ref/discovery/preserve-organs) discovery before selecting this discovery."
+
+[[entry]]
+id = "ref/discovery/mutagen"
+anchor = "mutagen"
+print = "This discovery gives the alchemist the mutagen class ability, as described in the _Advanced Player's Guide_. (This discovery exists so alchemist archetypes who have variant mutagens, such as the [mindchemist](ref/arc-alchemist/mindchemist), can learn how to make standard mutagens.)"
+
+[[entry]]
+id = "ref/discovery/parasitic-twin"
+anchor = "parasitic-twin"
+print = "The alchemist's vestigial limbs are part of a parasitic twin on his torso, consisting of a head, a torso, and two arms (from the vestigial limb discovery). Normally, the twin is mostly recessed within the alchemist's body, with the visible arms acting like the [vestigial arm](ref/discovery/vestigial-arm) discovery, though the alchemist can manifest or hide the twin as a standard action. The twin is helpless, fully subservient to the alchemist, and cannot be targeted or harmed. Once per day, if the alchemist succumbs to a mental effect that would make him unconscious, helpless, or not in control of his own actions (such as _[charm person](ref/spell/charm-person)_, _[feeblemind](ref/spell/feeblemind)_, or _[hold person](ref/spell/hold-person)_), he can reroll his saving throw; success means the twin absorbs the effect and the alchemist can ignore it. Using this ability [sickens](ref/misc/sickened) the alchemist for the duration of the absorbed effect (removing the effect from the twin ends the sickened condition), and he cannot use the twin's limbs during that time, though passive effects (such as from rings worn on the vestigial limbs) continue normally. The alchemist must have selected the [vestigial arm](ref/discovery/vestigial-arm) discovery twice before selecting this discovery."
+
+[[entry]]
+id = "ref/discovery/plague-bomb"
+anchor = "plague-bomb"
+print = "The effects of the smoke created by an alchemist's bomb duplicates the effects of _[contagion](ref/spell/contagion)_ instead of _[fog cloud](ref/spell/fog-cloud)_, filling an area equal to twice the bomb's splash area for 1 round per level. An alchemist must be at least 8th level and must have the [smoke bomb](ref/discovery/smoke-bomb) discovery before selecting this discovery."
+
+[[entry]]
+id = "ref/discovery/preserve-organs"
+anchor = "preserve-organs"
+print = "The alchemist learns how to preserve and protect his vital organs, reducing the chance of a mortal wound. When a critical hit or sneak attack is scored on the alchemist, there is a 25% chance that the critical hit or sneak attack is negated and damage is instead rolled normally. This does not stack with similar abilities that negate critical hits and sneak attacks (such as _[fortification](ref/magic-enh/fortification)_ armor). An alchemist can take this discovery up to three times; the effects stack, increasing this chance to 50% and then 75%."
+
+[[entry]]
+id = "ref/discovery/spontaneous-healing"
+anchor = "spontaneous-healing"
+print = "The alchemist gains the ability to heal from wounds rapidly. As a free action once per round, he can heal 5 hit points as if he had the [fast healing](ref/umr/fast-healing) ability. He can heal 5 hit points per day in this manner for every 2 alchemist levels he possesses. If the alchemist falls unconscious because of hit point damage and he still has healing available from this ability, the ability activates automatically each round until he is conscious again or the ability is depleted for the day."
+
+[[entry]]
+id = "ref/discovery/strafe-bomb"
+anchor = "strafe-bomb"
+print = "The alchemist can throw bombs that splash in a 40-foot line rather than affecting a radius. The line starts at the alchemist and extends away from him in the direction he chooses. The alchemist designates one creature in the squares affected by the line to be the target of the bomb and makes his attack roll against that creature; all other squares in the line take splash damage. If the alchemist has the [explosive bomb](ref/discovery/explosive-bomb) discovery and throws an explosive strafe bomb, the line of splash damage is 80 feet long instead of 40 feet."
+
+[[entry]]
+id = "ref/discovery/sunlight-bomb"
+anchor = "sunlight-bomb"
+print = "The alchemist can throw bombs that explode with a searing radiance equivalent to that of sunlight and that act as blinding bombs. Undead, fungi, molds, oozes, slimes, and creatures to which sunlight is harmful or unnatural take +2 damage per die from the bomb. Undead that are harmed by sunlight and that fail their saves against the bomb are [staggered](ref/misc/staggered) for 1 round. An alchemist must be at least 10th level and must have the [blinding bomb](ref/discovery/blinding-bomb) discovery before he can select this discovery."
+
+[[entry]]
+id = "ref/discovery/tanglefoot-bomb"
+anchor = "tanglefoot-bomb"
+print = "A creature that takes a direct hit from a tanglefoot bomb must save against the bomb's DC or be [entangled](ref/rule/entangled) and glued to the floor as if it had failed its save against a [tanglefoot bag](ref/eq-weapon/tanglefoot-bag) (see page 160 of the _Core Rulebook_). Creatures in the splash area that fail their saves are entangled but not glued to the floor; those who make this save are not entangled at all."
+
+[[entry]]
+id = "ref/discovery/tentacle"
+anchor = "tentacle"
+print = "The alchemist gains a prehensile, arm-length tentacle on his body. The tentacle is fully under his control and cannot be concealed except with magic or bulky clothing. The tentacle does not give the alchemist any extra attacks or actions per round, though he can use it to make a [tentacle attack](ref/umr/natural-attacks) (1d4 damage for a Medium alchemist, 1d3 damage for a Small one) with the [grab](ref/umr/grab) ability (see page 301 of the _Pathfinder RPG Bestiary_). The tentacle can manipulate or hold items as well as the alchemist's original arms can (for example, allowing the alchemist to use one hand to wield a weapon, the tentacle to hold a potion, and the third hand to throw a bomb). Unlike an arm, the tentacle has no magic item slots."
+
+[[entry]]
+id = "ref/discovery/tumor-familiar"
+anchor = "tumor-familiar"
+print = "The alchemist creates a Diminutive or Tiny tumor on his body, usually on his back or stomach. As a standard action, the alchemist can have the tumor detach itself from his body as a separate creature vaguely resembling a kind of animal suitable for a [familiar](ref/ability/familiars) (bat, cat, and so on) and move about as if it were an independent creature. The tumor can reattach itself to the alchemist as a standard action. The tumor has all the abilities of the animal it resembles (for example, a batlike tumor can fly) and [familiar abilities](ref/sidekick/familiar) based on the alchemist's caster level (though some familiar abilities may be useless to an alchemist). The tumor acts as the alchemist's familiar whether attached or separated (providing a skill bonus, the [Alertness](ref/feat/alertness) feat, and so on). When attached to the alchemist, the tumor has [fast healing](ref/umr/fast-healing) 5. An alchemist's extracts and mutagens are considered spells for the purposes of familiar abilities like share spells and deliver touch spells. If a tumor familiar is lost or dies, it can be replaced 1 week later through a specialized procedure that costs 200 gp per alchemist level. The ritual takes 8 hours to complete."
+
+[[entry]]
+id = "ref/discovery/vestigial-arm"
+anchor = "vestigial-arm"
+print = "The alchemist gains a new arm (left or right) on his torso. The arm is fully under his control and cannot be concealed except with magic or bulky clothing. The arm does not give the alchemist any extra attacks or actions per round, though the arm can wield a weapon and make attacks as part of the alchemist's attack routine (using [two-weapon fighting](ref/rule/two-weapon-fighting)). The arm can manipulate or hold items as well as the alchemist's original arms (for example, allowing the alchemist to use one hand to wield a weapon, another hand to hold a potion, and the third hand to throw a bomb). The arm has its own \"hand\" and \"ring\" magic item slots (though the alchemist can still only wear two rings and two hand magic items at a time). An alchemist may take this discovery up to two times."
+
+[[entry]]
+id = "ref/discovery/wings"
+anchor = "wings"
+print = "The alchemist gains batlike, birdlike, or insectlike functional wings, allowing him to [fly](ref/spell/fly) as the _fly_ spell for a number of minutes per day equal to his caster level. These minutes do not need to be consecutive, but they must be spent in 1-minute increments. An alchemist can select this discovery multiple times; each time he does so, he adds his caster level to the number of minutes per day that he can fly with the wings. This flight is an extraordinary ability. An alchemist must be at least 6th level before selecting this discovery."
+
+[[entry]]
+id = "ref/druiddomain/aquatic"
+anchor = "sealord"
+print = "You can [channel energy](ref/ability/channel-energy) (as a cleric of your druid level) a number of times per day equal to 3 + your Charisma modifier, but only to heal creatures with the aquatic or water subtype or to command them (similar to using the [Command Undead](ref/feat/command-undead) feat against undead). You can take other feats to add to this ability, such as [Extra Channel](ref/feat/extra-channel) and [Improved Channel](ref/feat/improved-channel), but not feats that alter this ability, such as [Elemental Channel](ref/feat/elemental-channel) and [Alignment Channel](ref/feat/alignment-channel). The DC to save against this ability is equal to 10 + 1/2 your druid level + your Charisma modifier."
+
+[[entry]]
+id = "ref/druiddomain/aquatic"
+anchor = "seastrike"
+print = "At 6th level, as a free action, you may use natural and manufactured weapons in water as if you had continuous _[freedom of movement](ref/spell/freedom-of-movement)_. As a standard action, you can throw a weapon underwater without the normal penalties for throwing weapons; if your target is in or under the water, the weapon also acts as a _[returning](ref/magic-enh/returning)_ weapon (see page 471 of the _Core Rulebook_) for that attack."
+
+[[entry]]
+id = "ref/druiddomain/arctic"
+anchor = "call-cold"
+print = "You can [channel energy](ref/ability/channel-energy) (as a cleric of your druid level) a number of times per day equal to 3 + your Charisma modifier, but only to heal creatures with the cold subtype or to command them (similar to using the [Command Undead](ref/feat/command-undead) feat against undead). You can take other feats that add to this ability, such as [Extra Channel](ref/feat/extra-channel) and [Improved Channel](ref/feat/improved-channel), but not feats that alter this ability, such as [Elemental Channel](ref/feat/elemental-channel) and [Alignment Channel](ref/feat/alignment-channel). The DC to save against this ability is equal to 10 + 1/2 your druid level + your Charisma modifier."
+
+[[entry]]
+id = "ref/druiddomain/arctic"
+anchor = "banish-flame"
+print = "At 6th level, you may use your call cold ability to damage creatures with the fire subtype (as a cleric channeling negative energy) or to cause them to flee from you (as the [Turn Undead](ref/feat/turn-undead) feat). Alternatively, you may use this ability to negate magical fire effects as if using a targeted _[dispel magic](ref/spell/dispel-magic)_; at 12th level, this functions as targeted or area _[greater dispel magic](ref/spell/dispel-magic-greater)_ instead of _[dispel magic](ref/spell/dispel-magic)_."
+
+[[entry]]
+id = "ref/druiddomain/cave"
+anchor = "cavesight"
+print = "You can grant [darkvision](ref/rule/darkvision) 60 feet to a willing creature you touch. This effect lasts 1 minute, or 1 hour if used on yourself. You can use this ability a number of times per day equal to 3 + your Wisdom modifier."
+
+[[entry]]
+id = "ref/druiddomain/cave"
+anchor = "tremorsense"
+print = "At 6th level, you gain [tremorsense](ref/umr/tremorsense) 30 feet. At 12th level, you gain [tremorsense](ref/umr/tremorsense) 60 feet."
+
+[[entry]]
+id = "ref/druiddomain/desert"
+anchor = "heat-shimmer"
+print = "As a free action, you can surround yourself with heat distortion that acts as the _[blur](ref/spell/blur)_ spell. Creatures that strike you in melee while you're using this ability are [dazzled](ref/misc/dazzled) for 1 round (Fortitude negates). You may use this ability for a number of rounds per day equal to 3 + your Wisdom modifier. These rounds need not be consecutive."
+
+[[entry]]
+id = "ref/druiddomain/desert"
+anchor = "servant-of-the-sands"
+print = "At 8th level, once per day, you may call upon the aid of a [janni](ref/monster/genie-janni) as if using _[lesser planar ally](ref/spell/planar-ally-lesser)_. At 12th level, you may call upon the aid of any type of common (non-noble) genie as if using _[planar ally](ref/spell/planar-ally)_. At 16th level, you may call upon the aid of a noble genie as if using _[greater planar ally](ref/spell/planar-ally-greater)_. If you use this power while in desert terrain, you need not make an offering to call the creature(s), and the cost of any service is halved."
+
+[[entry]]
+id = "ref/druiddomain/eagle"
+anchor = "familiar"
+print = "You gain a [hawk](ref/monster/familiar-hawk) [familiar](ref/sidekick/familiar) (see page 82 of the _Core Rulebook_). Your effective wizard level for this ability is equal to your druid level. Your druid level stacks with levels from other classes that grant familiars when determining the powers of your familiar."
+
+[[entry]]
+id = "ref/druiddomain/eagle"
+anchor = "hawkeye"
+print = "As a swift action, you may add a bonus equal to [half](ref/misc/fractions-and-rounding) your druid level (minimum +1) on one ranged attack roll or on one [Perception](ref/skill/perception) check. You can use this ability a number of times per day equal to 3 + your Wisdom modifier."
+
+[[entry]]
+id = "ref/druiddomain/eagle"
+anchor = "aerial-evasion"
+print = "At 6th level, you gain the [evasion](ref/ability/evasion) ability (as a rogue) when you are flying. At 12th level, you gain [improved evasion](ref/talent/improved-evasion) while flying."
+
+[[entry]]
+id = "ref/druiddomain/frog"
+anchor = "familiar"
+print = "You gain a hawk [familiar](ref/sidekick/familiar) (see page 82 of the _Core Rulebook_). Your effective wizard level for this ability is equal to your druid level. Your druid level stacks with levels from other classes that grant [familiars](ref/ability/familiars) when determining the powers of your familiar."
+
+[[entry]]
+id = "ref/druiddomain/frog"
+anchor = "sticky-strike"
+print = "As a standard action, you can attempt a ranged touch attack with a sticky tendril against a target up to 15 feet away, then use the [pull](ref/umr/pull) universal monster ability (see page 303 of the _Pathfinder RPG Bestiary_) to pull the target 5 feet toward you. You gain a bonus on the pull's combat maneuver check equal to 1/2 your druid level. If the target is larger than you, you may pull yourself 5 feet toward the target without making a check. The target can remove the tendril by making an opposed Strength check as a standard action, or by dealing enough slashing damage to the tendril (hit points equal to your druid level, Armor Class equal to your touch Armor Class). You can dissolve the tendril as a free action. You can use this ability a number of times per day equal to 3 + your Wisdom modifier."
+
+[[entry]]
+id = "ref/druiddomain/frog"
+anchor = "webfoot"
+print = "At 6th level, you gain the [amphibious](ref/umr/amphibious) special quality and a swim speed equal to your land speed. At 12th level, you gain a climb speed equal to your land speed."
+
+[[entry]]
+id = "ref/druiddomain/jungle"
+anchor = "brachiation"
+print = "As a free action for a number of rounds per day equal to your druid level, you may climb with a climb speed equal to your land speed, and gain a bonus on [Acrobatics](ref/skill/acrobatics) checks equal to your druid level. These rounds do not have to be consecutive."
+
+[[entry]]
+id = "ref/druiddomain/jungle"
+anchor = "trap-sense"
+print = "At 3rd level, you gain the [trap sense](ref/ability/trap-sense) ability. This is identical to the rogue class ability. Your effective rogue level is equal to your druid level for the purpose of determining your trap sense bonus. Trap sense bonuses gained from multiple classes stack."
+
+[[entry]]
+id = "ref/druiddomain/monkey"
+anchor = "familiar"
+print = "You gain a hawk [familiar](ref/sidekick/familiar) (see page 82 of the _Core Rulebook_). Your effective wizard level for this ability is equal to your druid level. Your druid level stacks with levels from other classes that grant [familiars](ref/ability/familiars) when determining the powers of your familiar."
+
+[[entry]]
+id = "ref/druiddomain/monkey"
+anchor = "monkey-athletics"
+print = "As a free action, you may add a competence bonus equal to half your druid level (minimum of +1) on one [Acrobatics](ref/skill/acrobatics), [Climb](ref/skill/climb), [Disable Device](ref/skill/disable-device), or [Sleight of Hand](ref/skill/sleight-of-hand) check. You can use this ability a number of times per day equal to 3 + your Wisdom modifier."
+
+[[entry]]
+id = "ref/druiddomain/monkey"
+anchor = "ranged-legerdemain"
+print = "At 6th level, you can use the Disable Device and Sleight of Hand skills at a range of 30 feet. Working at a distance increases the normal skill check DC by 5, and you cannot take 10 on this check. Any object to be manipulated must weigh 5 pounds or less. You can only use this ability if you have at least 1 rank in the skill being used."
+
+[[entry]]
+id = "ref/druiddomain/mountain"
+anchor = "foothold"
+print = "As a standard action, you can cause an adjacent stone surface up to 10 feet square to mold itself into ridges and creases. A foothold that is created on a horizontal surface is treated as [difficult terrain](ref/rule/terrain-and-obstacles), and a Medium or smaller creature standing in the area or moving through it takes a -2 penalty on [Acrobatics](ref/skill/acrobatics) checks and to CMD due to poor footing. A foothold that is created on a vertical surface grants a +10 bonus on [Climb](ref/skill/climb) checks to climb it. The stone remains altered for 1 hour. You can use this ability a number of times per day equal to 3 + your Wisdom modifier."
+
+[[entry]]
+id = "ref/druiddomain/mountain"
+anchor = "thin-air"
+print = "At 8th level, as a free action, you can surround yourself with a 5-foot aura of supernaturally thin air that draws the breath from creatures adjacent to you. Creatures beginning their turn in the aura are [fatigued](ref/misc/fatigued) (Fortitude negates). A fatigued creature that begins its turn in the aura must save or suffer from [altitude sickness](ref/rule/mountain-travel), taking 1 point of ability damage to all ability scores (see page 430 of the _Core Rulebook_). At 16th level, the aura increases to 10 feet. Creatures that do not breathe are immune to this aura. You can use this ability for a number of rounds per day equal to your druid level; the rounds need not be consecutive."
+
+[[entry]]
+id = "ref/druiddomain/plains"
+anchor = "migrating-herd"
+print = "When you summon an [aurochs, bison](ref/monster/herd-animal-aurochs), elephant, [horse](ref/monster/horse), mastodon, [pony](ref/monster/horse-pony), or similar quadruped herbivore with a summoning spell, the duration of the spell is increased by 100% (this does not stack with [Extend Spell](ref/feat/extend-spell)). The creature's land speed is increased by 10 feet."
+
+[[entry]]
+id = "ref/druiddomain/plains"
+anchor = "pounce"
+print = "At 6th level, you may use the [pounce](ref/umr/pounce) special attack (see page 302 of the _Bestiary_) once per day. You may pounce one additional time per day for every 3 levels after 6th."
+
+[[entry]]
+id = "ref/druiddomain/serpent"
+anchor = "familiar"
+print = "You gain a hawk [familiar](ref/sidekick/familiar) (see page 82 of the _Core Rulebook_). Your effective wizard level for this ability is equal to your druid level. Your druid level stacks with levels from other classes that grant familiars when determining the powers of your familiar."
+
+[[entry]]
+id = "ref/druiddomain/serpent"
+anchor = "slither"
+print = "As a free action, you can distend and stretch your body to fit easily through narrow spaces for 1 round. You can move freely through a tight space that would normally require a creature of your size to [squeeze](ref/misc/squeezing) through. While slithering, you gain a +2 dodge bonus to Armor Class against attacks of opportunity provoked by your movement and a +2 bonus on CMB and on [Escape Artist](ref/skill/escape-artist) checks made to escape from a [grapple](ref/rule/grapple). You can use this ability a number of times per day equal to 3 + your Wisdom modifier."
+
+[[entry]]
+id = "ref/druiddomain/serpent"
+anchor = "venom-immunity"
+print = "At 6th level, you gain immunity to poisons from snakes, reptiles, and creatures with the reptilian subtype. At 12th level, you gain immunity to all poisons. This replaces venom immunity."
+
+[[entry]]
+id = "ref/druiddomain/swamp"
+anchor = "natural-healing"
+print = "You can [channel energy](ref/ability/channel-energy) (as a cleric of your druid level) a number of times per day equal to 3 + your Charisma modifier, but only to heal animals, plants, and vermin. You may reduce the number of dice healed to cure [ability damage](ref/rule/ability-damage-drain) (your choice) to all affected creatures, curing 1 point of ability damage for each d6 that the channel energy is reduced. You can take other feats to add to this ability, such as [Extra Channel](ref/feat/extra-channel), but not feats that alter this ability, such as [Elemental Channel](ref/feat/elemental-channel) and [Alignment Channel](ref/feat/alignment-channel)."
+
+[[entry]]
+id = "ref/druiddomain/swamp"
+anchor = "reed-hunter"
+print = "At 6th level, you gain [blindsense](ref/umr/blindsense) 30 feet with respect to [concealment](ref/rule/concealment) and [cover](ref/rule/cover) from fog, vegetation, or water. At 12th level, this improves to [blindsight](ref/umr/blindsight) 30 feet with respect to these conditions."
+
+[[entry]]
+id = "ref/druiddomain/wolf"
+anchor = "improved-trip"
+print = "You gain [Improved Trip](ref/feat/improved-trip) as a bonus feat."
+
+[[entry]]
+id = "ref/druiddomain/wolf"
+anchor = "pack-tactics"
+print = "At 8th level, as a free action on your turn, you can designate an adjacent square; your attacks are treated as coming from that square for the purposes of determining whether or not you are [flanking](ref/rule/flanking) (this applies even if that square is occupied by an object or creature). This ends at the start of your next turn or if you move. If you are flanking a creature without using this ability, you may add your Wisdom bonus to your attack roll rather than the normal +2 flanking bonus. You can use this ability a number of times per day equal to 3 + your Wisdom modifier."
+
+[[entry]]
+id = "ref/evolution/basic-magic"
+anchor = "basic-magic"
+print = '''
+1-Point Evolutions: The following evolutions cost 1 point from the eidolon's evolution pool.
+
+An eidolon learns to cast a basic spell as a [spell-like ability](ref/umr/spell-like-abilities). Select one spell from the following list: _[acid splash](ref/spell/acid-splash)_, _[dancing lights](ref/spell/dancing-lights)_, _[daze](ref/spell/daze)_, _[detect magic](ref/spell/detect-magic)_, _[flare](ref/spell/flare)_, _[ghost sound](ref/spell/ghost-sound)_, _[light](ref/spell/light)_, _[mage hand](ref/spell/mage-hand)_, _[ray of frost](ref/spell/ray-of-frost)_, _[stabilize](ref/spell/stabilize)_, or _[touch of fatigue](ref/spell/touch-of-fatigue)_. This spell can be cast once per day as a [spell-like ability](ref/umr/spell-like-abilities). At 4th level, this spell can be cast three times per day by spending 2 additional evolution points. The caster level for this evolution is equal to the eidolon's Hit Dice. The save DC for this spell is 10 + the eidolon's Charisma modifier. The eidolon must have a Charisma score of at least 10 to take this evolution. This evolution can be selected more than once. Each time an eidolon selects this evolution, it applies to a new spell.'''
+
+[[entry]]
+id = "ref/evolution/channel-resistance"
+anchor = "channel-resistance"
+print = '''
+2-Point Evolutions: The following evolutions each cost 2 points from the eidolon's evolution pool.
+
+An eidolon becomes less easily affected by the [channel energy](ref/ability/channel-energy) ability of clerics or paladins. The eidolon gains a +2 bonus on any saves that are made to resist the effects of channel energy, including effects that rely on the use of channel energy (such as the [Command Undead](ref/feat/command-undead) feat). At 7th level, this bonus can be increased to +4 by spending 2 additional evolution points. The eidolon must possess the [undead appearance](ref/evolution/undead-appearance) evolution to take this evolution.'''
+
+[[entry]]
+id = "ref/evolution/dimension-door"
+anchor = "dimension-door"
+print = '''
+4-Point Evolutions: The following evolutions cost 4 points from the eidolon's evolution pool.
+
+An eidolon learns to cast _[dimension door](ref/spell/dimension-door)_ as a [spell-like ability](ref/umr/spell-like-abilities) once per day. The caster level for this evolution is equal to the eidolon's Hit Dice. The save DC for this spell is 10 + 1/2 the eidolon's HD + the eidolon's Charisma modifier. The eidolon must have a Charisma score of at least 14 to take this evolution. The summoner must be at least 13th level before selecting this evolution.'''
+
+[[entry]]
+id = "ref/evolution/head"
+anchor = "head"
+print = '''
+2-Point Evolutions: The following evolutions each cost 2 points from the eidolon's evolution pool.
+
+An eidolon grows an additional head. The eidolon does not gain any additional natural attacks for the additional head, but the additional head does allow the eidolon to take other evolutions that add an additional attack to a head (such as a [bite](ref/evolution/bite), [gore](ref/evolution/gore), or [breath weapon](ref/umr/breath-weapon)). This evolution can be selected more than once.'''
+
+[[entry]]
+id = "ref/evolution/hooves"
+anchor = "hooves"
+print = '''
+1-Point Evolutions: The following evolutions cost 1 point from the eidolon's evolution pool.
+
+An eidolon has a pair of sharp hooves at the end of its [limbs](ref/evolution/limbs), giving it two [hoof attacks](ref/umr/natural-attacks). These attacks are secondary attacks. The hooves deal 1d4 points of damage (1d6 if Large, 1d8 if Huge). The eidolon must have the [limbs](ref/evolution/limbs) evolution to take this evolution. This evolution can only be applied to the limbs (legs) evolution once. Alternatively, the eidolon can replace the [claws](ref/evolution/claws) evolution from its base form with these hoof attacks (this still costs 1 evolution point). This evolution can be selected more than once, but the eidolon must possess an equal number of [limbs](ref/evolution/limbs) evolutions.'''
+
+[[entry]]
+id = "ref/evolution/incorporeal-form"
+anchor = "incorporeal-form"
+print = '''
+4-Point Evolutions: The following evolutions cost 4 points from the eidolon's evolution pool.
+
+Once per day, an eidolon can become [incorporeal](ref/subtype/incorporeal) for 1 round per summoner level. While in this form, the eidolon gains the [incorporeal](ref/umr/incorporeal) subtype and incorporeal quality. It only takes half damage from corporeal sources as long as they are magic (it takes no damage from nonmagical weapons and objects). Likewise, its spells or [spell-like abilities](ref/umr/spell-like-abilities) deal only half damage to corporeal creatures. Spells and other effects that do not deal damage function normally. The summoner must be at least 15th level before selecting this evolution.'''
+
+[[entry]]
+id = "ref/evolution/keen-scent"
+anchor = "keen-scent"
+print = '''
+2-Point Evolutions: The following evolutions each cost 2 points from the eidolon's evolution pool.
+
+An eidolon's sense of smell becomes even more acute. The eidolon can notice other creatures by [scent](ref/evolution/scent) in a 180-foot radius underwater and can detect blood in the water at ranges of up to a mile. The eidolon must possess the [gills](ref/evolution/gills) and [scent](ref/evolution/scent) evolutions to take this evolution.'''
+
+[[entry]]
+id = "ref/evolution/lifesense"
+anchor = "lifesense"
+print = '''
+4-Point Evolutions: The following evolutions cost 4 points from the eidolon's evolution pool.
+
+An eidolon can pinpoint living creatures with ease. The eidolon notices and locates living creatures within 60 feet, just as if it possessed the [blindsight](ref/evolution/blindsight) evolution. The eidolon must possess the [undead appearance](ref/evolution/undead-appearance) evolution to take this evolution. The summoner must be at least 11th level before selecting this evolution.'''
+
+[[entry]]
+id = "ref/evolution/low-light-vision"
+anchor = "low-light-vision"
+print = '''
+1-Point Evolutions: The following evolutions cost 1 point from the eidolon's evolution pool.
+
+An eidolon gains low-light vision, enabling it to see twice as far as a human in conditions of dim light.'''
+
+[[entry]]
+id = "ref/evolution/major-magic"
+anchor = "major-magic"
+print = '''
+3-Point Evolutions: The following evolutions cost 3 points from the eidolon's evolution pool.
+
+An eidolon learns to cast a major spell as a [spell-like ability](ref/umr/spell-like-abilities). Select one spell from the following list: _[acid arrow](ref/spell/acid-arrow)_, _[cure moderate wounds](ref/spell/cure-moderate-wounds)_, _[darkness](ref/spell/darkness)_, _[daze monster](ref/spell/daze-monster)_, _[glide](ref/spell/glide)_, _[invisibility](ref/spell/invisibility)_ (self only), _[lesser restoration](ref/spell/restoration-lesser)_, _[levitate](ref/spell/levitate)_, _[minor image](ref/spell/minor-image)_, _[scorching ray](ref/spell/scorching-ray)_, _[see invisibility](ref/spell/see-invisibility)_, or _[spider climb](ref/spell/spider-climb)_. This spell can be cast once per day as a [spell-like ability](ref/umr/spell-like-abilities).
+
+At 10th level, this spell can be cast three times per day by spending 2 additional evolution points. The caster level for this evolution is equal to the eidolon's Hit Dice - 2. The save DC for this spell is 10 + 1/2 the eidolon's HD + the eidolon's Charisma modifier. The eidolon must have a Charisma score of at least 12 and must possess the [minor magic](ref/evolution/minor-magic) evolution to take this evolution. The summoner must be at least 7th level before selecting this evolution. This evolution can be selected more than once. Each time an eidolon selects this evolution, it applies to a new spell from the above list.'''
+
+[[entry]]
+id = "ref/evolution/minor-magic"
+anchor = "minor-magic"
+print = "2-Point Evolutions: The following evolutions each cost 2 points from the eidolon's evolution pool.\n\nAn eidolon learns to cast a minor spell as a [spell-like ability](ref/umr/spell-like-abilities). Select one spell from the following list: _[burning hands](ref/spell/burning-hands)_, _[comprehend languages](ref/spell/comprehend-languages)_, _[cure light wounds](ref/spell/cure-light-wounds)_, _[detect chaos/evil/good/law](ref/spell/detect-evil)_, _[magic missile](ref/spell/magic-missile)_, _[obscuring mist](ref/spell/obscuring-mist)_, _[silent image](ref/spell/silent-image)_, _[vanish](ref/spell/vanish)_\\*\\* (self only), or _[ventriloquism](ref/spell/ventriloquism)_. This spell can be cast once per day as a [spell-like ability](ref/umr/spell-like-abilities). At 7th level, this spell can be cast three times per day by spending 2 additional evolution points. The caster level for this evolution is equal to the eidolon's Hit Dice - 2. The save DC for this spell is 10 + 1/2 the eidolon's HD + the eidolon's Charisma modifier. The eidolon must have a Charisma score of at least 11 and must possess the [basic magic](ref/evolution/basic-magic) evolution to take this evolution.\n\nThe summoner must be at least 4th level before selecting this evolution. This evolution can be selected more than once. Each time an eidolon selects this evolution, it applies to a new spell from the above list."
+
+[[entry]]
+id = "ref/evolution/no-breath"
+anchor = "no-breath"
+print = '''
+4-Point Evolutions: The following evolutions cost 4 points from the eidolon's evolution pool.
+
+An eidolon no longer needs to breathe. The eidolon does not breathe, and is immune to effects that require breathing (such as inhaled poison). This does not give immunity to cloud or gas attacks that do not require breathing. The summoner must be at least 11th level before selecting this evolution.'''
+
+[[entry]]
+id = "ref/evolution/see-in-darkness"
+anchor = "see-in-darkness"
+print = '''
+3-Point Evolutions: The following evolutions cost 3 points from the eidolon's evolution pool.
+
+An eidolon can see perfectly in darkness of any kind, including that created by _[deeper darkness](ref/spell/deeper-darkness)_. The summoner must be at least 9th level before selecting this evolution.'''
+
+[[entry]]
+id = "ref/evolution/ultimate-magic"
+anchor = "ultimate-magic"
+print = '''
+4-Point Evolutions: The following evolutions cost 4 points from the eidolon's evolution pool.
+
+An eidolon learns to cast a powerful spell as a [spell-like ability](ref/umr/spell-like-abilities). Select one spell from the following list: _[arcane sight](ref/spell/arcane-sight)_, _[create food and water](ref/spell/create-food-and-water)_, _[cure serious wounds](ref/spell/cure-serious-wounds)_, _[daylight](ref/spell/daylight)_, _[fireball](ref/spell/fireball)_, _[fly](ref/spell/fly)_, _[gaseous form](ref/spell/gaseous-form)_, _[lightning bolt](ref/spell/lightning-bolt)_, _[major image](ref/spell/major-image)_, _[stinking cloud](ref/spell/stinking-cloud)_, _[tongues](ref/spell/tongues)_, or _[water breathing](ref/spell/water-breathing)_. This spell can be cast once per day as a [spell-like ability](ref/umr/spell-like-abilities). The caster level for this evolution is equal to the eidolon's Hit Dice - 2. The save DC for this spell is 10 + 1/2 the eidolon's HD + the eidolon's Charisma modifier. The eidolon must have a Charisma score of at least 13 and must possess the [major magic](ref/evolution/major-magic) evolution to take this evolution.
+
+The summoner must be at least 11th level before selecting this evolution. This evolution can be selected more than once. Each time an eidolon selects this evolution, it applies to a new spell from the above list.'''
+
+[[entry]]
+id = "ref/evolution/undead-appearance"
+anchor = "undead-appearance"
+print = '''
+2-Point Evolutions: The following evolutions each cost 2 points from the eidolon's evolution pool.
+
+An eidolon appears as an undead creature, and mimics some of an undead creature's abilities and weaknesses. Negative energy heals the eidolon, and positive energy (including a cleric's [channel energy](ref/ability/channel-energy) ability) harms it. Spells and effects that target undead or have specific effects against undead (such as [Command Undead](ref/spell/command-undead), _[halt undead](ref/spell/halt-undead)_, and _[searing light](ref/spell/searing-light)_) affect the eidolon as if it were undead. The eidolon gains a +2 bonus on saves against disease, exhaustion, fatigue, paralysis, poison, sleep effects, and stunning.
+
+At 7th level, this bonus on saves can be increased to +4 by spending 2 additional evolution points. At 12th level, this protection can be increased to immunity against these attacks by spending 2 additional evolution points (the summoner must pay for the 7th-level upgrade before paying for this 12th-level upgrade).
+
+Although the eidolon appears undead, it is still an outsider.'''
+
+[[entry]]
+id = "ref/evolution/unnatural-aura"
+anchor = "unnatural-aura"
+print = '''
+1-Point Evolutions: The following evolutions cost 1 point from the eidolon's evolution pool.
+
+An eidolon is obviously of unnatural origin. Normal animals do not willingly approach the eidolon unless the animal's master makes a DC 25 Handle Animal, Ride, or wild empathy check.'''
+
+[[entry]]
+id = "ref/hex/beast-eye"
+anchor = "beast-eye"
+print = "The witch can project her senses into an animal within 100 feet, sensing whatever it senses. She cannot control the animal's actions. She can project her senses from that animal to another within 100 feet of it as a standard action, and can continue to make these sensory leaps, potentially viewing things very far from her actual location. She may return her senses to her own body as a free action. Normal animals get no saving throw against this ability, but animal companions, paladin mounts, and similar unusual animals may resist with a Will save; the witch may use this ability on her own familiar as if it were an animal. If the witch has the [coven](ref/hex/coven) hex, all other witches within 10 feet of her who also have the coven hex can see through this animal at will, although the acting witch still controls the ability. The witch can use this ability for a number of minutes per day equal to her level. These minutes need not be consecutive, but they must be spent in 1-minute increments."
+
+[[entry]]
+id = "ref/hex/beast-of-ill-omen"
+anchor = "beast-of-ill-omen"
+print = "The witch imbues her familiar with strange magic, putting a minor curse upon the next enemy to see it. The enemy must make a Will save or be affected by _[bane](ref/spell/bane)_ (caster level equal to the witch's level). The witch can use this hex on her familiar at a range of up to 60 feet. The affected enemy must be no more than 60 feet from the familiar to trigger the effect; seeing the familiar from a greater distance has no effect (though if the enemy and familiar approach to within 60 feet of each other, the hex takes effect). The _[bane](ref/spell/bane)_ affects the closest creature to the familiar (ties affect the creature with the highest initiative score). Whether or not the target's save is successful, the creature cannot be the target of the _[bane](ref/spell/bane)_ effect for 1 day (later uses of this hex ignore that creature when determining who is affected)."
+
+[[entry]]
+id = "ref/hex/child-scent"
+anchor = "child-scent"
+print = "The witch gains the [scent](ref/umr/scent) ability, but only with respect to humanoid children and immature animals. Thus, she could sniff out a child's hiding place or a den of wolf pups, but not the child's parents or the den mother."
+
+[[entry]]
+id = "ref/hex/cook-people"
+anchor = "cook-people"
+print = "The witch can create fabulous spells by cooking an intelligent humanoid creature in her [cauldron](ref/hex/cauldron), either alive or dead. Using this hex creates one meal or serving of food of the witch's choice, typically a delicious stew or a dough suitable for cookies, pastries, or other desserts. Cooking the victim takes 1 hour. Eating the food provides one of the following benefits for 1 hour: _[age resistance](ref/spell/age-resistance)_\\*, _[bear's endurance](ref/spell/bears-endurance)_, _[bull's strength](ref/spell/bulls-strength)_, _[cat's grace](ref/spell/cats-grace)_, _[eagle's splendor](ref/spell/eagles-splendor)_, _[fox's cunning](ref/spell/foxs-cunning)_, _[neutralize poison](ref/spell/neutralize-poison)_ (instantaneous) _owl's wisdom, remove disease_ (instantaneous). Alternatively, the witch can shape the dough into a Small, humanlike creature, animating it as a [homunculus](ref/monster/homunculus) for 1 hour. The witch must have the [cauldron](ref/hex/cauldron) hex to select this hex. Using this hex or knowingly eating its food is an evil act."
+
+[[entry]]
+id = "ref/hex/dire-prophecy"
+anchor = "dire-prophecy"
+print = "The witch curses the target so he is doomed to die (Will negates). As long as the curse persists, the target takes a -4 penalty to his Armor Class and on attack rolls, saves, ability checks, and skill checks. While the curse persists, the witch may end it by bringing its full force upon her victim all at once. Doing so gives the victim a penalty equal to the witch's caster level to his Armor Class or on any single attack roll, combat maneuver check, opposed ability or skill check, or saving throw. The witch must decide to apply this penalty before the roll to be modified is made. If the witch does not have line of sight to the target, the full force of the curse occurs when the GM considers it most appropriate, such as when the target is in mortal danger. A target can only have one dire prophecy upon him at a time. Whether or not the target's save against the hex is successful, a creature cannot be the target of this hex for 1 day. This is a curse effect."
+
+[[entry]]
+id = "ref/hex/feral-speech"
+anchor = "feral-speech"
+print = "This hex grants the witch the ability to speak with and understand the response of any animal as if using _[speak with animals](ref/spell/speak-with-animals)_, though each time she uses the hex, she must decide to communicate with either amphibians, birds, fish, mammals, or reptiles, and can only speak to and understand animals of that type. The witch can make herself understood as far as her voice carries. This hex does not predispose any animal so addressed toward the witch in any way. At 12th level, the witch can use this hex to communicate with vermin."
+
+[[entry]]
+id = "ref/hex/hidden-home"
+anchor = "hidden-home"
+print = "The witch can conceal or disguise her home and the area around it as if using _[mirage arcana](ref/spell/mirage-arcana)_. Before using the hex, she must spend 1 day pacing out the border of an area that measures roughly 40,000 square feet (approximately 200 feet by 200 feet) to define her home territory. Thereafter, she can use the hex to change the appearance of that area as a standard action as long as she is within the area. The illusion persists until the witch changes or dismisses it. For the purpose of this ability, a witch can only have one \"home\" at a time."
+
+[[entry]]
+id = "ref/hex/hoarfrost"
+anchor = "hoarfrost"
+print = "The target is rimed with a shell of frost needles that slowly work their way into its flesh (Fortitude negates). The target turns pale and blue, and takes 1 point of [Constitution damage](ref/rule/ability-damage-drain) per minute until it dies, saves (once per minute), or is cured. _[Break enchantment](ref/spell/break-enchantment)_, _[dispel magic](ref/spell/dispel-magic)_, _[remove curse](ref/spell/remove-curse)_, and similar spells end the effect. If the target saves, it is immune to this hex for 1 day. This is a cold effect."
+
+[[entry]]
+id = "ref/hex/ice-tomb"
+anchor = "ice-tomb"
+print = "A storm of ice and freezing wind envelops the creature, which takes 3d8 points of cold damage (Fortitude half). If the target fails its save, it is [paralyzed](ref/rule/paralyzed) and [unconscious](ref/misc/unconscious) but does not need to eat or breathe while the ice lasts. The ice has 20 hit points; destroying the ice frees the creature, which is [staggered](ref/misc/staggered) for 1d4 rounds after being released. Whether or not the target's saving throw is successful, it cannot be the target of this hex again for 1 day."
+
+[[entry]]
+id = "ref/hex/infected-wounds"
+anchor = "infected-wounds"
+print = "The target's wounds become infected (Fortitude negates). The target takes 1 point of [Constitution damage](ref/rule/ability-damage-drain) per day. After the first day, the target may save once per day to cure the infection. This is a disease effect."
+
+[[entry]]
+id = "ref/hex/nails"
+anchor = "nails"
+print = "The witch's nails are long and sharp, and count as [natural weapons](ref/umr/natural-attacks) that deal 1d3 points of damage (1d2 for a Small witch). These attacks are secondary attacks. If trimmed, the witch's nails regrow to their normal size in 1d4 days."
+
+[[entry]]
+id = "ref/hex/poison-steep"
+anchor = "poison-steep"
+print = "The witch can use her [cauldron](ref/hex/cauldron) to brew a foul toxin in which she can steep fruits and other delicious edibles, transforming them so that when eaten, they have the same effect as a _[poison](ref/spell/poison)_ spell. Brewing the toxin and then steeping the food takes 1 hour in total; steeping can affect up to 1 pound of food. The food is poisoned for 24 hours, and the poison cannot be transferred to other objects. The food tastes normal, but magic detects it as poisonous. The witch must have the [cauldron](ref/hex/cauldron) hex to select this hex."
+
+[[entry]]
+id = "ref/hex/prehensile-hair"
+anchor = "prehensile-hair"
+print = "The witch can instantly cause her hair (or even her eyebrows) to grow up to 10 feet long or to shrink to its normal length, and can manipulate her hair as if it were a limb with a Strength score equal to her Intelligence score. Her hair has reach 10 feet, and she can use it as a secondary [natural attack](ref/umr/natural-attacks) that deals 1d3 points of damage (1d2 for a Small witch). Her hair can manipulate objects (but not weapons) as dexterously as a human hand. The hair cannot be sundered or attacked as a separate creature. Pieces cut from the witch's elongated hair shrink away to nothing. Using her hair does not harm the witch's head or neck, even if she lifts something heavy with it. The witch can manipulate her hair a number of minutes each day equal to her level; these minutes do not need to be consecutive, but must be spent in 1-minute increments. A typical male witch with this hex can also manipulate his beard, moustache, or eyebrows."
+
+[[entry]]
+id = "ref/hex/scar"
+anchor = "scar"
+print = "This hex curses a single target touched with horrible scars of the witch's choosing, whether something as simple as a single letter on the target's forehead or blotchy, burnlike scars on his body. The target may make a Will save to resist this hex. These scars do not interfere with the target's senses or prevent it from using abilities, but may affect social interactions. They persist through disguises and shapechanging. The witch can use her hexes on the scarred target at a range of up to 1 mile, and she is considered to have a body part from the target for the purpose of _[scrying](ref/spell/scrying)_ and similar divination spells. The witch can withdraw this hex from a target as a move action at any range. The number of supernatural scars the witch can maintain at once is equal to her Intelligence bonus; once she reaches this limit, she must remove the scar from a current victim in order to mark another. Effects that remove curses can remove the scar."
+
+[[entry]]
+id = "ref/hex/speak-in-dreams"
+anchor = "speak-in-dreams"
+print = "The witch can contact a creature as if using _[dream](ref/spell/dream)_. The witch can use this ability on a number of creatures per day equal to her Intelligence bonus, but can dream-speak to those creatures as often as desired throughout that time period."
+
+[[entry]]
+id = "ref/hex/summon-spirit"
+anchor = "summon-spirit"
+print = "The witch calls forth the [ghost](ref/template/ghost) of a humanoid creature with no more than 18 Hit Dice. The ghost has its own personality and desires, but is willing to bargain with the witch, as if she had cast _[greater planar ally](ref/spell/planar-ally-greater)_. To seal an agreement with the witch, the ghost requires life energy equal to 1 temporary [negative level](ref/rule/energy-drain-and-negative-levels) (this is in addition to the standard payment for the ghost's service). This negative level persists as long as the ghost remains in the service of the witch; the witch can end the agreement as a standard action, immediately removing the negative level."
+
+[[entry]]
+id = "ref/hex/swamp-hag"
+anchor = "swamp-hag"
+print = "While traveling through swamps, mires, bogs, and similar terrain, the witch leaves no trail and cannot be tracked, as the [trackless step](ref/ability/trackless-step) druid ability. The witch can walk through mud and even quicksand as if it were normal ground."
+
+[[entry]]
+id = "ref/hex/unnerve-beasts"
+anchor = "unnerve-beasts"
+print = "The target becomes offensive to animals (Will negates). Animals become distraught and aggressive in the victim's presence—horses buck, dogs snap and bark, bulls charge, and so on. The hex lasts a number of hours equal to the witch's Intelligence modifier. A creature that saves against the hex cannot be affected by the hex for 1 day. The reaction of the animals is a mind-affecting charm effect, but the hex on the target is not."
+
+[[entry]]
+id = "ref/hex/water-lung"
+anchor = "water-lung"
+print = "An air-breathing target can breathe water or an aquatic target can breathe air. This lasts 1 minute. If the witch uses this hex on herself, she can maintain it while she sleeps, allowing her to safely sleep underwater."
+
+[[entry]]
+id = "ref/hex/witchs-brew"
+anchor = "witch-s-brew"
+print = "When the witch uses her [cauldron](ref/hex/cauldron) to brew a potion, she may spend double the cost to create 2 identical potions that day instead of just 1. At 15th level, she may spend triple the cost to create 3 identical potions that day. The witch must have the [cauldron](ref/hex/cauldron) hex to select this hex."
+
+[[entry]]
+id = "ref/hex/witchs-hut"
+anchor = "witch-s-hut"
+print = "The witch can animate a hut, small house, covered wagon, tent, or similar construction as an [animated object](ref/monster/animated-object). The hut can be of up to Huge size (approximately 15 feet by 15 feet). The animated hut's [hardness](ref/umr/hardness) increases to 8 and its hit points double. The witch can give the hut the following commands: guard (the hut watches for trespassers within 120 feet using the witch's Perception modifier and screams if it spots any), hide (all entrances are hidden by _illusory wall_ spells and locked with _[arcane lock](ref/spell/arcane-lock)_), and move (moves at speed 60 on giant bird or bone legs as directed by the witch, even obeying commands such as \"follow me from 100 feet away\"). The hut remains animate for 24 hours, until she dismisses it or she animates another, at which time the hut stops where it is and reverts to its nonmagical state."
+
+[[entry]]
+id = "ref/inquisition/anger"
+anchor = "divine-anger"
+print = "At 6th level, you gain the ability to rage like a [barbarian](ref/class/barbarian). Your effective barbarian level for this ability is your inquisitor level - 3. If you have levels in barbarian, these levels stack when determining the effect of your rage. You do not gain any rage powers from this granted power, though if you have rage powers from another class, you may use them with these rages. You can rage a number of rounds per day equal to your Wisdom bonus, plus 1 round for every inquisitor level above 4th."
+
+[[entry]]
+id = "ref/inquisition/conversion"
+anchor = "charm-of-wisdom"
+print = "You use your Wisdom modifier instead of your Charisma modifier when making [Bluff](ref/skill/bluff), [Diplomacy](ref/skill/diplomacy), and [Intimidate](ref/skill/intimidate) checks."
+
+[[entry]]
+id = "ref/inquisition/conversion"
+anchor = "swaying-word"
+print = "At 8th level, once per day you may speak a word of divinely inspired wisdom that causes a single creature to switch its alliance to you. The target must be within line of sight and able to hear you. If he fails his Will save, he is affected by _[dominate person](ref/spell/dominate-person)_, except the duration is only 1 minute."
+
+[[entry]]
+id = "ref/inquisition/fate"
+anchor = "augury"
+print = "Once per day, you can use _[augury](ref/spell/augury)_ as a [spell-like ability](ref/umr/spell-like-abilities)."
+
+[[entry]]
+id = "ref/inquisition/fate"
+anchor = "agent-of-fate"
+print = "At 8th level, when you use your _[augury](ref/spell/augury)_ [spell-like ability](ref/umr/spell-like-abilities), you gain a benefit that lasts until the end of your next combat. If the result was \"weal,\" all curing effects used on you cure an additional +1d10 hit points. If the result was \"woe,\" your melee attacks deal an additional +1d6 points of damage. If the result is \"weal and woe\" or \"nothing,\" you gain a +2 insight bonus to your Armor Class."
+
+[[entry]]
+id = "ref/inquisition/fervor"
+anchor = "fire-of-belief"
+print = "You can unleash a gout of holy or unholy flame that sears one target within 30 feet as a ranged touch attack. The target takes 1d6 points of fire damage plus [half](ref/misc/fractions-and-rounding) your inquisitor level (minimum +1). If you are good, the flames only harm nongood targets. If you are evil, the flames only harm nonevil targets. If you are neither good nor evil, when you gain this ability you must decide whether the flames harm only nongood or nonevil targets; once you make this decision, it cannot be changed (though if your alignment changes, the effect of the flames changes appropriately). You can use this ability a number of times per day equal to 3 + your Wisdom modifier."
+
+[[entry]]
+id = "ref/inquisition/fervor"
+anchor = "fervent-action"
+print = "At 8th level, once per day as a swift action, you can make a single melee attack at your highest attack bonus, move up to your speed, or cast a prepared inquisitor spell (of a spell level up to one lower than the highest level spell you can cast) as per Quickened Spell."
+
+[[entry]]
+id = "ref/inquisition/heresy"
+anchor = "righteous-infiltration"
+print = "You use your Wisdom modifier instead of your Charisma modifier when making [Bluff](ref/skill/bluff) and [Intimidate](ref/skill/intimidate) checks."
+
+[[entry]]
+id = "ref/inquisition/heresy"
+anchor = "blessed-infiltration"
+print = "At 4th level, when you make a Bluff, [Diplomacy](ref/skill/diplomacy), or [Stealth](ref/skill/stealth) check, you may roll twice and take the more favorable result. You can use this ability a number of times per day equal to your Wisdom bonus."
+
+[[entry]]
+id = "ref/inquisition/heresy"
+anchor = "word-of-anathema"
+print = "At 8th level, once per day, you can speak a word of anathema against a single creature within 60 feet (Will negates). This acts as _[bestow curse](ref/spell/bestow-curse)_ and lasts for 1 minute, giving the target a -4 penalty on attack rolls, saves, ability checks, and skill checks."
+
+[[entry]]
+id = "ref/inquisition/illumination"
+anchor = "illuminating-touch"
+print = "You cause your hand to shimmer with divine radiance, allowing you to touch a creature as a standard action and give it a bonus equal to 1/2 your inquisitor level on a single Will saving throw, [Knowledge](ref/skill/knowledge-all) check, [Perception](ref/skill/perception) check, or [Sense Motive](ref/skill/sense-motive) check. This ability lasts for 1 hour or until the creature chooses to apply the bonus to a roll. You can use this ability to grant the bonus a number of times per day equal to 3 + your Wisdom modifier."
+
+[[entry]]
+id = "ref/inquisition/illumination"
+anchor = "aura-of-enlightenment"
+print = "At 4th level, you can create a 30-foot-radius aura of normal [light](ref/spelldef/light). Allies in this aura gain a +2 insight bonus on skill checks. This counts as a 2nd-level light effect for the purpose of countering or dispelling darkness effects. You can use this aura for a number of rounds per day equal to your inquisitor level. These rounds do not need to be consecutive."
+
+[[entry]]
+id = "ref/inquisition/imprisonment"
+anchor = "caging-strike"
+print = "With a devastating weapon strike, spectral chains wrap around your target for a short period of time. Whenever you confirm a critical hit with a melee or ranged weapon attack (including spells that require attack rolls), you can choose to also [entangle](ref/rule/entangled) that target for 1d4 rounds (Fortitude negates). You may use this ability a number of times per day equal to 3 + your Wisdom modifier."
+
+[[entry]]
+id = "ref/inquisition/imprisonment"
+anchor = "divine-prison"
+print = "At 8th level, once per day upon making a successful melee attack, you can affect your target with _[hold monster](ref/spell/hold-monster)_ (Will negates)."
+
+[[entry]]
+id = "ref/inquisition/justice"
+anchor = "judicious-force"
+print = "If you or an ally within 10 feet makes a critical threat with a melee or ranged attack, as an immediate action you may add +4 to the confirmation roll. This does not stack with the [Critical Focus](ref/feat/critical-focus) feat. You may use this ability a number of times per day equal to your Wisdom bonus."
+
+[[entry]]
+id = "ref/inquisition/justice"
+anchor = "chains-of-justice"
+print = "At 6th level, once per day, you can bind an opponent within 60 feet to you with spectral chains (Will negates). When you take damage from an enemy, the bound target takes this damage as well. Whenever the bound target takes damage from you or one of your allies, you take this damage as well. You and the target are not physically bound to each other, and either can end the connection by breaking the line of effect or exceeding the ability's range. You may dismiss the chains as a standard action."
+
+[[entry]]
+id = "ref/inquisition/oblivion"
+anchor = "life-anchor"
+print = "You gain a 10-foot-radius aura that helps dying creatures cling to life. Within this aura, a dying creature (including yourself) adds your Wisdom bonus to it [stabilization checks](ref/misc/dying) (in addition to any other modifiers to stabilization checks)."
+
+[[entry]]
+id = "ref/inquisition/oblivion"
+anchor = "stare-of-oblivion"
+print = "At 8th level, you can use _[feeblemind](ref/spell/feeblemind)_ as a [gaze](ref/umr/gaze) attack against one creature (Will negates). This effect lasts 1d4 rounds. You can use this ability once per day at 8th level, and one additional time per day for every four levels beyond 8th."
+
+[[entry]]
+id = "ref/inquisition/order"
+anchor = "mantle-against-chaos"
+print = "You can use _[protection from chaos](ref/spell/protection-from-chaos)_ on yourself or another creature as a [spell-like ability](ref/umr/spell-like-abilities). You can use this ability for a number of minutes per day equal to your inquisitor level (minimum 1). This duration does not need to be consecutive, but it must be used in 1 minute increments."
+
+[[entry]]
+id = "ref/inquisition/order"
+anchor = "commanding-order"
+print = "At 8th level, you can use _[greater command](ref/spell/command-greater)_, except it only affects a single target. You can use this ability a number of times per day equal to 3 + your Wisdom bonus."
+
+[[entry]]
+id = "ref/inquisition/persistence"
+anchor = "relentless-footing"
+print = "As a swift action, you can add 10 feet to your land speed. This increase counts as an enhancement bonus, and it affects your [jumping](ref/skill/acrobatics) distance as normal for increased speed. You can use this ability a number of times per day equal to 3 + your Wisdom bonus (minimum 1)."
+
+[[entry]]
+id = "ref/inquisition/persistence"
+anchor = "inner-strength"
+print = "At 6th level, once per day, you may heal yourself as a swift action, healing 1d6 hit points for every two inquisitor levels you possess. When you use this ability, you can also remove one of the following conditions from yourself: blinded, confused, dazzled, deafened, frightened, nauseated, shaken, sickened, or staggered."
+
+[[entry]]
+id = "ref/inquisition/tactics"
+anchor = "inquisitor-s-direction"
+print = "At the start of your turn, you can choose to enter a tranquil, reflective state and forgo all actions (standard, move, swift, immediate, and free actions, including attacks of opportunity) for that round; one ally of your choice within 30 feet gains the benefit of _[haste](ref/spell/haste)_ for 1 round. You can use this ability a number of times per day equal to your 3 + Wisdom bonus (minimum 1)."
+
+[[entry]]
+id = "ref/inquisition/tactics"
+anchor = "grant-the-initiative"
+print = "At 8th level, you and all allies within 30 feet may add your Wisdom bonus to your initiative checks."
+
+[[entry]]
+id = "ref/inquisition/torture"
+anchor = "torturer-s-presence"
+print = "You gain a +2 bonus when using the [Intimidate](ref/skill/intimidate) skill. This is in addition to your bonus for Stern Gaze."
+
+[[entry]]
+id = "ref/inquisition/torture"
+anchor = "torturer-s-touch"
+print = "You may use _[touch of fatigue](ref/spell/touch-of-fatigue)_ as a [spell-like ability](ref/umr/spell-like-abilities). Creatures that are immune to pain effects are immune to this touch. You can use this ability a number of times per day equal to 3 + your Wisdom modifier."
+
+[[entry]]
+id = "ref/inquisition/torture"
+anchor = "critical-precision"
+print = "At 8th level, when you roll a critical threat, you may expend one use of your torturer's touch ability to add +4 on your critical confirmation roll. This does not stack with [Critical Focus](ref/feat/critical-focus)."
+
+[[entry]]
+id = "ref/inquisition/truth"
+anchor = "justice-s-true-path"
+print = "As a standard action, you can touch a creature, granting an insight bonus on one attack roll, skill check, ability check, or saving throw before your next turn; this bonus is equal to half your inquisitor level (minimum 1) and lasts for 1 round. You can use this ability a number of times per day equal to 3 + your Wisdom modifier."
+
+[[entry]]
+id = "ref/inquisition/truth"
+anchor = "grasp-of-honesty"
+print = "At 8th level, any creature you are grappling or pinning is affected by _[zone of truth](ref/spell/zone-of-truth)_ (Will negates). Outside of combat, you may use this ability by touching a target with both hands. You can use this ability a number of rounds per day equal to your inquisitor level. These rounds do not need to be consecutive. The effect ends if you stop grappling, pinning, or touching the target."
+
+[[entry]]
+id = "ref/inquisition/valor"
+anchor = "touch-of-resolve"
+print = "You may use _[remove fear](ref/spell/remove-fear)_ on a single creature a number of times per day equal to your 3 + your Wisdom bonus."
+
+[[entry]]
+id = "ref/inquisition/valor"
+anchor = "fearless"
+print = "At 8th level, you become immune to fear."
+
+[[entry]]
+id = "ref/inquisition/vengeance"
+anchor = "divine-retribution"
+print = "As a standard action, you can point at one creature within 30 feet to indicate that it is the target of divine wrath. A mishap or an accident appropriate to the environment occurs, such as a branch falling on the creature, rocks falling from the ceiling, or some other nonmagical misfortune; regardless of the cause, the mishap deals 1d6 points of damage + 1 point for every two inquisitor levels you possess (Reflex [half](ref/misc/fractions-and-rounding)). The GM decides whether this damage is bludgeoning, piercing, or slashing damage. You can use this ability a number of times per day equal to 3 + your Wisdom modifier."
+
+[[entry]]
+id = "ref/inquisition/vengeance"
+anchor = "final-vengeance"
+print = "At 8th level, once per day, you can make one melee attack against an opponent within reach in response to an attack that would reduce you to negative hit points. Once your attack is resolved, you suffer the normal effect of the attack that provoked this ability. Effects that kill you or do not reduce you to negative hit points (such as [ability damage or drain](ref/rule/ability-damage-drain), [negative levels](ref/rule/energy-drain-and-negative-levels), and _[disintegrate](ref/spell/disintegrate)_) do not trigger this ability."
+
+[[entry]]
+id = "ref/inquisition/zeal"
+anchor = "zealous-surge"
+print = "Once per day, when you are reduced to 0 or fewer hit points, you heal a number of hit points equal to your inquisitor level + your Wisdom modifier."
+
+[[entry]]
+id = "ref/inquisition/zeal"
+anchor = "scourge-of-the-enemy"
+print = "At 8th level, select one religion that is a rival or opponent of your religion. You treat members of this religion as if they were your [favored enemy](ref/ability/favored-enemy) (as the ranger class ability), gaining a +2 bonus on the appropriate rolls. At 13th level, these bonuses increase to +4, and at 18th level, the bonuses increase to +6. These bonuses do not stack with other favored enemy bonuses (use the highest bonus that applies)."
+
+[[entry]]
+id = "ref/mystery/ancestor"
+anchor = "ancestral-weapon"
+print = "You can summon a simple or martial weapon from your family's history that is appropriate for your current size. You are considered proficient with this weapon. At 3rd level, the weapon is considered [masterwork](ref/rule/masterwork-weapons). At 7th level, 15th level, and 19th level, the weapon gains a cumulative +1 enhancement bonus. At 11th level, the weapon gains the _[ghost touch](ref/magic-enh/ghost-touch-weapon)_ weapon property. You can use this ability for a number of minutes per day equal to your oracle level. This duration does not need to be consecutive, but it must be used in 1-minute increments. The weapon disappears after 1 round if it leaves your grasp."
+
+[[entry]]
+id = "ref/mystery/ancestor"
+anchor = "blood-of-heroes"
+print = "As a move action, you can call upon your ancestors to grant you extra bravery in battle. You gain a +1 morale bonus on attack rolls, damage rolls, and Will saves against fear for a number of rounds equal to your Charisma bonus. At 7th level, this bonus increases to +2, and at 14th level this bonus increases to +3. You can use this ability once per day, plus one additional time per day at 5th level, and every five levels thereafter."
+
+[[entry]]
+id = "ref/mystery/ancestor"
+anchor = "phantom-touch"
+print = "As a standard action, you can perform a melee touch attack that causes a living creature to become [shaken](ref/misc/shaken). This ability lasts for a number of rounds equal to 1/2 your oracle level (minimum 1 round). You can use this ability a number of times per day equal to 3 + your Charisma modifier."
+
+[[entry]]
+id = "ref/mystery/ancestor"
+anchor = "sacred-council"
+print = "As a move action, you can call upon your ancestors to provide council. This advice grants you a +2 bonus on any one d20 roll. This effect lasts for 1 round. You can use this ability a number of times per day equal to your Charisma bonus."
+
+[[entry]]
+id = "ref/mystery/ancestor"
+anchor = "spirit-of-the-warrior"
+print = "You can summon the spirit of a great warrior ancestor and allow it to possess you, becoming a mighty warrior yourself. You gain a +4 enhancement bonus to Strength, Dexterity, and Constitution, and a +4 natural armor bonus to AC. Your base attack bonus while possessed equals your oracle level (which may give you additional attacks), and you gain the [Improved Critical](ref/feat/improved-critical) feat with a weapon of your choice. You can use this ability for 1 round for every 2 oracle levels you possess. This duration does not need to be consecutive, but it must be spent in 1-round increments. You must be at least 11th level to select this revelation."
+
+[[entry]]
+id = "ref/mystery/ancestor"
+anchor = "spirit-shield"
+print = "You can call upon the spirits of your ancestors to form a shield around you that blocks incoming attacks and grants you a +4 armor bonus. At 7th level, and every four levels thereafter, this bonus increases by +2. At 13th level, this shield causes arrows, rays, and other ranged attacks requiring an attack roll against you to have a 50% miss chance. You can use this shield for 1 hour per day per oracle level. This duration does not need to be consecutive, but it must be spent in 1-hour increments."
+
+[[entry]]
+id = "ref/mystery/ancestor"
+anchor = "spirit-walk"
+print = "You can become incorporeal and invisible. While in this form, you can move in any direction and pass through solid objects (see page 301 of the _Pathfinder RPG Bestiary_). You can take no action other than to move while in this form. You remain in this form for a number of rounds equal to your oracle level, but you can end this effect prematurely as a standard action. You can use this ability once per day at 11th level, and twice per day at 15th level. You must be at least 11th level to select this revelation."
+
+[[entry]]
+id = "ref/mystery/ancestor"
+anchor = "storm-of-souls"
+print = "You can summon the spirits of your ancestors to attack in a ghostly barrage—their fury creates physical wounds on creatures in the area. The storm has a range of 100 feet and is a 20-foot-radius [burst](ref/misc/burst). Objects and creatures in the area take 1d8 hit points of damage for every two oracle levels you possess. Undead creatures in the area take 1d8 points of damage for every oracle level you possess. A successful Fortitude save reduces the damage to half. You must be at least 7th level to select this revelation. You can use this ability once per day, plus one additional time per day at 11th level and every four levels thereafter."
+
+[[entry]]
+id = "ref/mystery/ancestor"
+anchor = "voice-of-the-grave"
+print = "You can speak with the dead, as per the spell, for a number of rounds per day equal to your oracle level. These rounds do not need to be consecutive. At 5th level, and every five levels thereafter, the dead creature you question takes a cumulative -2 penalty on its Will save to resist this effect."
+
+[[entry]]
+id = "ref/mystery/ancestor"
+anchor = "wisdom-of-the-ancestors"
+print = "Once per day, you can enter a trance in which you [commune](ref/spell/commune) with the spirits of your ancestors. This trance lasts for 10 minutes, which must be uninterrupted and during which you can take no other actions. When you come out of this trance, you have gained mystical insight into the future. At 1st level, this insight acts as an _[augury](ref/spell/augury)_ spell with 80% effectiveness. At 5th level, the insight takes the form of a _[divination](ref/spell/divination)_ with 90% effectiveness. At 8th level, the knowledge you gain is equivalent to a _commune_ spell. None of these spell effects require material components."
+
+[[entry]]
+id = "ref/mystery/ancestor"
+anchor = "sec-final-revelation"
+print = "Upon reaching 20th level, you become one with the spirits of your ancestors. You gain a bonus on Will saving throws equal to your Charisma modifier, [blindsense](ref/umr/blindsense) out to a range of 60 feet, and a +4 bonus on your caster level for all divination spells. You can cast _[astral projection](ref/spell/astral-projection)_ as a [spell-like ability](ref/umr/spell-like-abilities) once per day without requiring material components."
+
+[[entry]]
+id = "ref/mystery/dark-tapestry"
+anchor = "brain-drain"
+print = "You can take a standard action to violently probe the mind of a single intelligent enemy within 100 feet. The target receives a Will save to negate the effect and immediately knows the source of this harmful mental prying. Those who fail this save are wracked with pain, taking 1d4 points of damage for every oracle level you possess. After successfully attacking with this ability, you may use a full-round action to sort through the jumble of stolen thoughts and memories to make a single [Knowledge](ref/skill/knowledge-all) check using the victim's skill bonus. The randomly stolen thoughts remain in your mind for a number of rounds equal to your Charisma modifier. Treat the knowledge gained as if you had used _[detect thoughts](ref/spell/detect-thoughts)_. This is a mind-affecting effect. You can use this ability once per day at 1st level, plus one additional time per day at 5th level and for every five levels beyond 5th."
+
+[[entry]]
+id = "ref/mystery/dark-tapestry"
+anchor = "cloak-of-darkness"
+print = "You conjure a cloak of shadowy darkness that grants you a +4 armor bonus and a +2 circumstance bonus on [Stealth](ref/skill/stealth) checks. At 7th level, and every four levels thereafter, these bonuses increase by +2. You can use this cloak for 1 hour per day per oracle level. The duration does not need to be consecutive, but it must be spent in 1-hour increments."
+
+[[entry]]
+id = "ref/mystery/dark-tapestry"
+anchor = "dweller-in-darkness"
+print = "Once per day, you cast your psyche into the void of space to attract the attention of a terrible otherworldly being. The dweller in darkness behaves in all ways as if you had cast _[phantasmal killer](ref/spell/phantasmal-killer)_. At 17th level, the dweller in darkness can be perceived by more than one creature, as if you had cast _[weird](ref/spell/weird)_. You must be at least 11th level to choose this revelation."
+
+[[entry]]
+id = "ref/mystery/dark-tapestry"
+anchor = "gift-of-madness"
+print = "You tap into the unthinkable void between the stars and cause a single living creature within 30 feet to become [confused](ref/misc/confused) for 1 round. A successful Will save negates the effect. This is a mind-affecting compulsion effect. At 7th level, the confusion lasts for a number of rounds equal to your oracle level. You can use this ability a number of times per day equal to 3 + your Charisma modifier."
+
+[[entry]]
+id = "ref/mystery/dark-tapestry"
+anchor = "interstellar-void"
+print = "You call upon the frigid depths of outer space to bring a terrible chill to your enemies. As a standard action, one target within 30 feet is cloaked in the void and takes 1d6 points of cold damage for every oracle level you possess. A successful Fortitude save halves this damage. At 10th level, the interstellar void is so extreme that a creature that fails its save is fatigued. At 15th level, a creature that fail its save is [exhausted](ref/misc/exhausted) and [stunned](ref/misc/stunned) for 1 round. You can use this ability once per day plus one additional time per day at 10th level."
+
+[[entry]]
+id = "ref/mystery/dark-tapestry"
+anchor = "many-forms"
+print = "As a standard action, you can assume the form of a Small or Medium humanoid, as the _[alter self](ref/spell/alter-self)_ spell. At 7th level, you can assume the form of a Small or Medium animal, as _[beast shape I](ref/spell/beast-shape-1)_. At 11th level, you can assume the form of a Small or Medium magical beast, as _[beast shape III](ref/spell/beast-shape-3)_. At 15th level, you can assume a variety of forms, as _[greater polymorph](ref/spell/polymorph-greater)_. You can use this ability for 1 minute per day per oracle level. This duration does not need to be consecutive, but it must be spent in 1-minute increments. You must be at least 3rd level to select this revelation."
+
+[[entry]]
+id = "ref/mystery/dark-tapestry"
+anchor = "pierce-the-veil"
+print = "Your bond with the alien denizens of the Dark Tapestry allows you to see in even the deepest darkness. You gain [darkvision](ref/rule/darkvision) 60 feet. At 11th level, you can see perfectly in darkness of any kind, even in absolute darkness or the darkness created by a _[deeper darkness](ref/spell/deeper-darkness)_ spell."
+
+[[entry]]
+id = "ref/mystery/dark-tapestry"
+anchor = "read-the-tapestry"
+print = "Once per day, you can spend 10 minutes meditating on the mysteries of the Dark Tapestry to send your mind to another plane and communicate with the strange or alien beings there. This functions as the _[contact other plane](ref/spell/contact-other-plane)_ spell. You must be at least 7th level to select this revelation."
+
+[[entry]]
+id = "ref/mystery/dark-tapestry"
+anchor = "touch-of-the-void"
+print = "As a standard action, you can perform a melee touch attack that deals 1d6 points of cold damage + 1 point for every two oracle levels you possess. At 7th level, the touched creature must also make a Fortitude saving throw or be [fatigued](ref/misc/fatigued) for a number of rounds equal to 1/2 your oracle level. This has no effect on a creature that is already fatigued. You can use this ability a number of times per day equal to 3 + your Charisma modifier."
+
+[[entry]]
+id = "ref/mystery/dark-tapestry"
+anchor = "wings-of-darkness"
+print = "As a swift action, you can manifest a set of translucent, inky wings that grant you a fly speed of 60 feet with good maneuverability. You can use these wings for 1 minute per day per oracle level. This duration does not need to be consecutive, but it must be spent in 1-minute increments. At 11th level, you can use these wings to fly as if with _[overland flight](ref/spell/overland-flight)_ once per day. Used in this way, the ability lasts for up to 1 hour per level, and counts as your total use of this ability for the day. You must be at least 7th level to select this revelation."
+
+[[entry]]
+id = "ref/mystery/dark-tapestry"
+anchor = "sec-final-revelation"
+print = "Upon reaching 20th level, you become one with the spirits of your ancestors. You gain a bonus on Will saving throws equal to your Charisma modifier, blindsense out to a range of 60 feet, and a +4 bonus on your caster level for all divination spells. You can cast _astral projection_ as a [spell-like ability](ref/umr/spell-like-abilities) once per day without requiring material components."
+
+[[entry]]
+id = "ref/mystery/metal"
+anchor = "armor-mastery"
+print = "You become more maneuverable while wearing armor. You can move at your normal speed in medium armor that is made of metal. This does not grant proficiency in armor. At 5th level, whenever you are wearing metal armor, you reduce the armor check penalty by 1 (to a minimum of 0) and increase the maximum Dexterity bonus allowed by your armor by 1. At 10th level, and again at 15th level, these bonuses increase by 1."
+
+[[entry]]
+id = "ref/mystery/metal"
+anchor = "dance-of-the-blades"
+print = "Your base speed increases by 10 feet. At 7th level, you gain a +1 bonus on attack rolls with a metal weapon in any round in which you move at least 10 feet. This bonus increases by +1 at 11th level, and every four levels thereafter. At 11th level, as a move action, you can maneuver your weapon to create a shield of whirling steel around yourself until the start of your next turn; non-incorporeal melee and ranged attacks against you have a 20% miss chance while the shield is active. You must be wielding a metal weapon to use this ability."
+
+[[entry]]
+id = "ref/mystery/metal"
+anchor = "iron-constitution"
+print = "You gain a +1 bonus on Fortitude saves. At 7th level, and again at 14th level, this bonus increases by +1."
+
+[[entry]]
+id = "ref/mystery/metal"
+anchor = "iron-skin"
+print = "Once per day, your skin hardens and takes on the appearance of iron, granting you DR 10/adamantine. This ability functions as _[stoneskin](ref/spell/stoneskin)_, using your oracle level as the caster level, except it only affects you. At 15th level, you can use this ability twice per day. You must be at least 11th level to select this revelation."
+
+[[entry]]
+id = "ref/mystery/metal"
+anchor = "iron-weapon"
+print = "You can create a melee simple or martial weapon that lasts for 1 minute for every oracle level you possess. This weapon is appropriate for your size and entirely made of metal (even if it would normally include non-metal parts, such as a spear's shaft) but functions as if it were a normal weapon of its type. You are considered proficient with this weapon. The weapon disappears after 1 round if it leaves your grasp. At 3rd level, the blade is made of cold iron. At 7th level, 15th level, and 19th level, the blade gains a +1 enhancement bonus. At 11th level, the blade is made of adamantine. You can use this ability a number of times per day equal to 3 + your Charisma modifier."
+
+[[entry]]
+id = "ref/mystery/metal"
+anchor = "riddle-of-steel"
+print = "Your sacred bond with metal gives you insight into its form and function. Once per day, you may spend 10 minutes meditating on the structure of a piece of unworked metal or ore to gain a +5 insight bonus on your next [Craft](ref/skill/craft-any) check to make something using that metal."
+
+[[entry]]
+id = "ref/mystery/metal"
+anchor = "rusting-grasp"
+print = "Once per day as a standard action, you can perform a melee touch attack that rusts iron, as the _[rusting grasp](ref/spell/rusting-grasp)_ spell. At 11th level, and every four levels thereafter, you can use this ability an additional time per day. You must be at least 7th level to select this revelation."
+
+[[entry]]
+id = "ref/mystery/metal"
+anchor = "skill-at-arms"
+print = "You gain proficiency in all martial weapons and heavy armor."
+
+[[entry]]
+id = "ref/mystery/metal"
+anchor = "steel-scarf"
+print = "As a swift action, you can harden a scarf, sleeve, cloak, or other piece of your clothing into something as hard as steel that stretches out to be up to 30 feet long. You can then strike outward with it as if it were a weapon making a melee attack. For the purpose of this ability, you are proficient with this weapon. You can use the weapon to perform combat maneuvers. Make a melee attack roll against a creature within 30 feet; you may use [Weapon Finesse](ref/feat/weapon-finesse) with this attack. If you hit, the weapon deals 1d8 points of slashing damage + 1 point for every two oracle levels you possess. After this attack, the clothing returns to its normal length and [hardness](ref/umr/hardness). You do not threaten an area with this weapon and cannot use it to make attacks of opportunity. You can use this ability a number of times per day equal to 3 + your Charisma modifier."
+
+[[entry]]
+id = "ref/mystery/metal"
+anchor = "vision-in-iron"
+print = "You can use any piece of polished metal at least the size of a dagger as a [scrying](ref/spell/scrying) device, as if using the spell _scrying_. At 15th level, this functions like _[greater scrying](ref/spell/scrying-greater)_. You can scry for a number of rounds per day equal to your oracle level; these rounds do not need to be consecutive. You must be at least 7th level to select this revelation."
+
+[[entry]]
+id = "ref/mystery/metal"
+anchor = "sec-final-revelation"
+print = "Upon reaching 20th level, you become one with the spirits of your ancestors. You gain a bonus on Will saving throws equal to your Charisma modifier, blindsense out to a range of 60 feet, and a +4 bonus on your caster level for all divination spells. You can cast _astral projection_ as a spell-like ability once per day without requiring material components."
+
+[[entry]]
+id = "ref/mystery/time"
+anchor = "aging-touch"
+print = "Your touch ages living creatures and objects. As a melee touch attack, you can deal 1 point of [Strength damage](ref/rule/ability-damage-drain) for every two oracle levels you possess to living creatures. Against objects or constructs, you can deal 1d6 points of damage per oracle level. If used against an object in another creature's possession, treat this attack as a [sunder](ref/rule/sunder) combat maneuver. You can use this ability once per day, plus one additional time per day for every five oracle levels you possess."
+
+[[entry]]
+id = "ref/mystery/time"
+anchor = "erase-from-time"
+print = "As a melee touch attack, you can temporarily remove a creature from time altogether. The target creature must make a Fortitude save or vanish completely for a number of rounds equal to 1/2 your oracle level (minimum 1 round). No magic or divinations can detect the creature during this time, as it exists outside of time and space—in effect, the creature ceases to exist for the duration of this ability. At the end of the duration, the creature reappears unharmed in the space it last occupied (or the nearest possible space, if the original space is now occupied). You can use this ability once per day, plus one additional time per day at 11th level."
+
+[[entry]]
+id = "ref/mystery/time"
+anchor = "knowledge-of-the-ages"
+print = "You can search through time to recall some bit of forgotten lore or information. You can retry any Knowledge skill check you have made within the past minute, gaining an insight bonus on the check equal to your Charisma modifier. You can use this ability a number times per day equal to your Charisma modifier."
+
+[[entry]]
+id = "ref/mystery/time"
+anchor = "momentary-glimpse"
+print = "Once per day, you can gain a glimpse into your immediate future. On the round after you use this ability, you gain a +2 insight bonus on a single attack roll, saving throw, or skill check or to your Armor Class until the start of your next turn. At 5th level, and every four levels thereafter, you can use this ability one additional time per day."
+
+[[entry]]
+id = "ref/mystery/time"
+anchor = "rewind-time"
+print = "Once per day as an immediate action, you can reroll any one d20 roll that you have just made before the results of the roll are revealed. You must take the result of the reroll, even if it's worse than the original roll. At 11th level, and every four levels thereafter, you can use this ability an additional time per day. You must be at least 7th level to select this revelation."
+
+[[entry]]
+id = "ref/mystery/time"
+anchor = "speed-or-slow-time"
+print = "As a standard action, you can speed up or [slow](ref/spell/slow) down time, as either the _[haste](ref/spell/haste)_ or _slow_ spell. You can use this ability once per day, plus one additional time per day at 12th level and 17th level. You must be at least 7th level before selecting this revelation."
+
+[[entry]]
+id = "ref/mystery/time"
+anchor = "temporal-celerity"
+print = "Whenever you roll for initiative, you can roll twice and take either result. At 7th level, you can always act in the surprise round, but if you fail to notice the ambush, you act last, regardless of your initiative result (you act in the normal order in following rounds). At 11th level, you can roll for initiative three times and take any one of the results."
+
+[[entry]]
+id = "ref/mystery/time"
+anchor = "time-flicker"
+print = "As a standard action, you can flicker in and out of time, gaining [concealment](ref/rule/concealment) (as the _[blur](ref/spell/blur)_ spell). You can use this ability for 1 minute per oracle level that you possess per day. This duration does not need to be consecutive, but it must be spent in 1-minute increments. At 7th level, each time you activate this ability, you can treat it as the _[blink](ref/spell/blink)_ spell, though each round spent this way counts as 1 minute of your normal time flicker duration. You must be at least 3rd level to select this revelation."
+
+[[entry]]
+id = "ref/mystery/time"
+anchor = "time-hop"
+print = "As a move action, you can teleport up to 10 feet per oracle level that you possess per day. This teleportation must be used in 5-foot increments. This movement does not provoke attacks of opportunity. You must have line of sight to your destination to use this ability. You can bring other willing creatures with you, but you must expend an equal amount of distance for each creature brought. You must be at least 7th level to select this revelation."
+
+[[entry]]
+id = "ref/mystery/time"
+anchor = "time-sight"
+print = "You can peer through the mists of time to see things as they truly are, as if using the _[true seeing](ref/spell/true-seeing)_ spell. At 15th level, this functions like _[moment of prescience](ref/spell/moment-of-prescience)_. At 18th level, this functions like _[foresight](ref/spell/foresight)_. You can use this ability for a number of minutes per day equal to your oracle level, but these minutes do not need to be consecutive. You must be at least 11th level to select this revelation."
+
+[[entry]]
+id = "ref/mystery/time"
+anchor = "sec-final-revelation"
+print = "Upon reaching 20th level, you become a truly alien and unnatural creature. You gain damage reduction 5/— and immunity to acid, critical hits, and sneak attacks. Once per day, you can cast _shapechange_ as a [spell-like ability](ref/umr/spell-like-abilities) without requiring a material component."
+
+[[entry]]
+id = "ref/mystery/wood"
+anchor = "lignification"
+print = "Once per day, you can turn a creature into wood. As a standard action, you may direct your gaze against a single creature within 30 feet. The targeted creature (along with all its carried gear) must make a Fortitude save or turn into a mindless, inert statue made out of wood for a number of rounds equal to 1/2 your oracle level. This ability otherwise functions as a _[flesh to stone](ref/spell/flesh-to-stone)_ spell, except the target turns to wood instead of stone. This can be reverse by any effect that can reverse _[flesh to stone](ref/spell/flesh-to-stone)_. At 15th level, you can use this ability twice per day. You must be at least 11th level to select this revelation."
+
+[[entry]]
+id = "ref/mystery/wood"
+anchor = "speak-with-wood"
+print = "You can talk to wood and learn what it knows. You must spend 1 minute meditating on and communing with the wood. At the end of this time, you can speak with the wood. This functions as the _[stone tell](ref/spell/stone-tell)_ spell, except with wood instead of stones. You can use this ability for 1 minute per oracle level. This duration does not need to be consecutive, but it must be used in 1-minute increments. You can speak with natural or worked wood. You must be at least 11th level to select this revelation."
+
+[[entry]]
+id = "ref/mystery/wood"
+anchor = "thorn-burst"
+print = "As a swift action, you can cause sharp splinters of wood to explode outward from your body. These splinters deal 1d6 points of piercing damage per two oracle levels (minimum 1d6) to all creatures within a 10- foot [burst](ref/misc/burst). A Reflex save halves this damage. In addition, the sharp splinters count as [caltrops](ref/eq-misc/caltrops) (see page 155 of the _Core Rulebook_) in the area until your next turn. You can use this ability once per day, plus one additional time per day at 5th level and every five levels thereafter."
+
+[[entry]]
+id = "ref/mystery/wood"
+anchor = "tree-form"
+print = "As a standard action, you can assume the form of a Large living or dead tree or shrub, as _[tree shape](ref/spell/tree-shape)_. At 9th level, you can assume the form of a Small or Medium plant creature, as _[plant shape I](ref/spell/plant-shape-1)_. At 11th level, you can assume the form of a Large plant creature, as _[plant shape II](ref/spell/plant-shape-2)_. At 13th level, you can assume the form of a Huge plant creature, as _[plant shape III](ref/spell/plant-shape-3)_. You can use this ability once per day, but the duration is 1 hour/level. You must be at least 3rd level to select this revelation."
+
+[[entry]]
+id = "ref/mystery/wood"
+anchor = "wood-armor"
+print = "You can conjure wooden armor around yourself, which grants you a +4 armor bonus. At 7th level, and every four levels thereafter, this bonus increases by +2. At 13th level, this armor grants you DR 5/slashing. You can use this armor for 1 hour per day per oracle level. This duration does not need to be consecutive, but it must be spent in 1-hour increments. The armor vanishes if you remove it."
+
+[[entry]]
+id = "ref/mystery/wood"
+anchor = "wood-bond"
+print = "Your mystical bond with wood is such that your weapons become an extension of your body. You gain a +1 competence bonus on attack rolls when wielding a weapon made of or mostly consisting of wood (such as a bow, club, quarterstaff, or spear). This bonus increases by +1 at 5th level and every five levels thereafter."
+
+[[entry]]
+id = "ref/mystery/wood"
+anchor = "wood-sight"
+print = "As a move action, you can alter your vision to see through underbrush and plant growth that would normally grant [concealment](ref/rule/concealment), up to a range of 60 feet (though darkness and other obstacles still may block your sight). At 7th level, you can use this ability to see through wood or other plant material as easily as if it were transparent glass, penetrating a number of feet of wood equal to your oracle level. You can use this ability a number of rounds per day equal to your oracle level, but these rounds do not need to be consecutive."
+
+[[entry]]
+id = "ref/mystery/wood"
+anchor = "wooden-weapon"
+print = "You can create a wooden [club](ref/eq-weapon/club), [quarterstaff](ref/eq-weapon/quarterstaff), [longspear](ref/eq-weapon/longspear), [shortspear](ref/eq-weapon/shortspear), or [spear](ref/eq-weapon/spear) that lasts for 1 minute for every oracle level you possess. This weapon is appropriate for your size. You are considered proficient with the weapon. The weapon disappears after 1 round if it leaves your grasp. At 3rd level, the weapon is considered [masterwork](ref/rule/masterwork-weapons). At 7th level, 15th level, and 19th level, the weapon gains a +1 enhancement bonus. At 11th level, the weapon gains the _[keen](ref/magic-enh/keen)_ weapon property (or the equivalent increase to its critical threat range, if it is a bludgeoning weapon). You can use this ability a number of times per day equal to 3 + your Charisma modifier."
+
+[[entry]]
+id = "ref/mystery/wood"
+anchor = "woodland-stride"
+print = "You can move through any sort of undergrowth (such as natural thorns, briars, overgrown areas, and similar terrain) at your normal speed and without taking damage or suffering any other impairment. Thorns, briars, and overgrown areas that have been magically manipulated to impede motion, however, still affect you."
+
+[[entry]]
+id = "ref/mystery/wood"
+anchor = "sec-final-revelation"
+print = "Upon reaching 20th level, you become a master of iron and steel. You gain the benefits of Weapon Focus, Greater Weapon Focus, and Improved Critical with any one metal weapon that you are proficient with. Your armor is like a second skin to you—while wearing metal armor you are proficient with, the armor's maximum Dexterity bonus increases by +5 and you take no armor check penalty. In addition, any metal you create with your magic (such as _wall of iron_) has its hardness increased by +10."
+
+[[entry]]
+id = "ref/oath/charity"
+anchor = "charitable-hands"
+print = "At 2nd level, a paladin with this oath heals 50% less when she uses lay on hands on herself, but 50% more than the normal amount when she uses it to heal others. Using lay on hands to harm undead deals the normal amount of damage. This ability otherwise works like and replaces lay on hands."
+
+[[entry]]
+id = "ref/oath/charity"
+anchor = "charitable-mercy"
+print = "At 5th level, a paladin with this oath is more flexible with her mercies than other paladins. At the start of each day, a paladin with this oath can select her mercies anew from the list of available mercies. This ability replaces divine bond."
+
+[[entry]]
+id = "ref/oath/chastity"
+anchor = "pure-of-mind"
+print = "At 2nd level, the paladin gains a +4 sacred bonus on saves against charm effects and figments, and gains a bonus equal to her Charisma modifier on Will saving throws. This ability replaces divine grace."
+
+[[entry]]
+id = "ref/oath/chastity"
+anchor = "pure-of-body"
+print = "Upon reaching 8th level, the paladin has a 50% chance to turn any critical hit or sneak attack against her into a normal hit, as if she were wearing _[fortification](ref/magic-enh/fortification)_ armor. This ability replaces aura of resolve."
+
+[[entry]]
+id = "ref/oath/corruption"
+anchor = "aura-of-purity"
+print = "At 3rd level, you gain a +4 sacred bonus on saves against spells and effects from creatures of the aberration type. Allies within 10 feet gain a +1 sacred bonus on these saves. This ability functions only while the paladin is conscious, not if she is unconscious or dead. This ability replaces aura of courage."
+
+[[entry]]
+id = "ref/oath/corruption"
+anchor = "cleansing-flame"
+print = "At 11th level, you may expend two uses of your smite evil ability to ignite your weapon with a cleansing blue flame for 1 minute. This flame sheds light as a [torch](ref/eq-misc/torch). Aberrations within 20 feet of the flame take a -4 penalty on attack rolls against you and your allies, and your allies within 20 feet of the flame gain a +2 sacred bonus on saving throws against spells and effects from aberrations. This ability replaces aura of justice."
+
+[[entry]]
+id = "ref/oath/corruption"
+anchor = "cast-into-the-void"
+print = '''
+At 20th level, a paladin becomes a conduit for the power of her god. Her DR increases to 10/evil. Whenever she uses smite evil and successfully strikes an aberration, the creature must make a Will save (DC 10 + 1/2 the paladin's level + the paladin's Charisma modifier) or be banished to oblivion. This ability does not kill the creature, but it is sent to a remote place, such as deep underground or far into space (if it is a creature native to space), and cannot return under its own power for at least 100 years.
+
+Whenever the paladin [channels positive energy](ref/ability/channel-energy) or uses lay on hands to heal a creature, she heals the maximum possible amount. This ability replaces holy champion.'''
+
+[[entry]]
+id = "ref/oath/fiends"
+anchor = "anchoring-aura"
+print = '''
+At 8th level, a paladin's aura hampers extradimensional travel by evil outsiders. The aura extends 20 feet from the paladin. Evil outsiders attempting to use abilities such as _[dimension door](ref/spell/dimension-door)_, _[plane shift](ref/spell/plane-shift)_, or _[teleport](ref/spell/teleport)_ to leave or enter the aura must succeed at a Will save (DC 10 + 1/2 the paladin's level + the paladin's Charisma modifier); failure means the ability does not function, as if the outsider were affected by _[dimensional anchor](ref/spell/dimensional-anchor)_. The aura functions only while the paladin is conscious, not if she is unconscious or dead.
+
+Alternatively, as an immediate action, the paladin can expend one use of her smite evil ability to target an evil outsider within 30 feet with _[dimensional anchor](ref/spell/dimensional-anchor)_. A targeted _[dimensional anchor](ref/spell/dimensional-anchor)_ persists even if the paladin is unconscious or dead.
+
+This ability replaces aura of resolve.'''
+
+[[entry]]
+id = "ref/oath/fiends"
+anchor = "holy-vessel"
+print = "At 9th level, a paladin whose divine bond is with a weapon can also use her divine bond to augment her armor or shield with enhancement bonuses, or add any of the following armor or shield properties: _[bashing](ref/magic-enh/bashing)_, _[fortification](ref/magic-enh/fortification)_, and _[spell resistance](ref/magic-enh/spell-resistance)_. Adding these properties consumes an amount of bonus equal to the property's cost (see Tables 15–4 and 15–5 in the _Core Rulebook_). She can divide her bonuses from the divine bond ability among her weapon, armor, and shield as she sees fit. This ability has no effect for a paladin whose divine bond is with a mount. This ability replaces the mercy gained at 9th level."
+
+[[entry]]
+id = "ref/oath/loyalty"
+anchor = "loyal-oath"
+print = '''
+Starting at 1st level, once per day as a swift action, an oathbound paladin can choose a willing creature within line of sight as the target of her loyal oath. When the paladin is adjacent to the target of her loyal oath, she grants the target a sacred bonus on saving throws and to Armor Class equal to the paladin's Charisma bonus. The loyal oath lasts 1 minute, or until the paladin dismisses it (a free action) or discharges it (see below), whichever comes first.
+
+If the target is struck by an enemy and the paladin is adjacent to that enemy, as an immediate action she may make a single melee attack against that enemy; making this attack ends the loyal oath. At 4th level and every three levels thereafter, the paladin may use her loyal oath one additional time per day. This ability replaces smite evil.'''
+
+[[entry]]
+id = "ref/oath/loyalty"
+anchor = "loyal-guardian"
+print = "At 8th level, whenever the target of the paladin's loyal oath is hit with a melee or ranged attack, if the paladin is adjacent to the target, she can spend an immediate action to have the attack automatically hit her instead of the intended target. This ends the loyal oath."
+
+[[entry]]
+id = "ref/oath/savagery"
+anchor = "holy-reach"
+print = "At 2nd level, an oathbound paladin can expend one use of her smite evil ability to extend her natural reach by 5 feet for 1 minute. This does not stack with the [Lunge](ref/feat/lunge) feat. This ability replaces divine grace."
+
+[[entry]]
+id = "ref/oath/savagery"
+anchor = "hordebreaker"
+print = "At 11th level, when the paladin hits an evil humanoid with an attack of opportunity, she deals an additional 1d6 points of damage. When using holy reach, the paladin may make a number of additional attacks of opportunity per round equal to her Charisma bonus. This increase stacks with similar increases from other sources such as [Combat Reflexes](ref/feat/combat-reflexes). This ability replaces aura of justice."
+
+[[entry]]
+id = "ref/oath/the-wyrm"
+anchor = "breath-evasion"
+print = "At 4th level, a paladin with this oath gains [evasion](ref/ability/evasion), but only against the breath weapons of creatures with the dragon type. This ability replaces channel positive energy."
+
+[[entry]]
+id = "ref/oath/the-wyrm"
+anchor = "divine-bond"
+print = "This works like the paladin's normal divine bond ability, except as follows. If the paladin's bond is with a weapon, she cannot use that ability to add the _brilliant energy_, _disruption_, or _merciful weapon_ properties, but she can add the _[bane](ref/magic-enh/bane)_ weapon property (but only against dragons). If the paladin's bond is with her steed, the steed gains the paladin's aura-based immunities and her aura does not affect allies. This replaces the standard divine bond ability."
+
+[[entry]]
+id = "ref/oath/the-wyrm"
+anchor = "dragon-slaying-strike"
+print = "At 20th level, an oathbound paladin becomes a conduit of holy power. Her DR increases to 10/evil. Whenever she uses smite evil and successfully strikes a dragon, the dragon is also subject to a single-target _[holy word](ref/spell/holy-word)_, using her paladin level + 10 as the caster level. After the banishment effect and the damage from the attack are resolved, the smite immediately ends. In addition, whenever she uses lay on hands to heal a creature, she heals the maximum possible amount. This ability replaces holy champion."
+
+[[entry]]
+id = "ref/oath/undeath"
+anchor = "detect-undead"
+print = "This ability works like the standard paladin ability to [detect evil](ref/spell/detect-evil), except as _[detect undead](ref/spell/detect-undead)_ instead of _[detect evil](ref/spell/detect-evil)_. This ability replaces _[detect evil](ref/spell/detect-evil)_."
+
+[[entry]]
+id = "ref/oath/undeath"
+anchor = "ghost-touch-aura"
+print = "At 3rd level, the paladin's armor is treated as if it had the _[ghost touch](ref/magic-enh/ghost-touch-armor)_ armor property. This does not affect the cost or effect of any other abilities of the armor. At 9th level, this ability also applies to the paladin's shield. This ability replaces the paladin's 3rd-level and 9th-level mercies."
+
+[[entry]]
+id = "ref/oath/undeath"
+anchor = "aura-of-life"
+print = '''
+At 8th level, the paladin gains a +4 morale bonus on saves against attacks that grant [negative levels](ref/rule/energy-drain-and-negative-levels) and saves to overcome negative levels. Each ally within 10 feet of her gains a +2 morale bonus on these saves.
+
+This ability functions only while the paladin is conscious, not if she is unconscious or dead. This ability replaces aura of resolve.'''
+
+[[entry]]
+id = "ref/oath/undeath"
+anchor = "superior-channeler"
+print = "At 11th level, a paladin can channel positive energy to harm undead by expending a single usage of her lay on hands ability instead of two. This ability replaces aura of justice."
+
+[[entry]]
+id = "ref/oath/vengeance"
+anchor = "channel-wrath"
+print = "When an oathbound paladin reach 4th level, she can spend two uses of her lay on hands ability to gain an extra use of smite evil that day. This ability has no effect for a paladin who does not have the smite evil ability. This ability replaces channel positive energy."
+
+[[entry]]
+id = "ref/oath/vengeance"
+anchor = "powerful-justice"
+print = "At 11th level, an oathbound paladin may spends one use of her smite evil ability to grant her allies within 10 feet the ability to smite evil, except they only gain the paladin's bonus to damage, not her smite's attack bonus or ability to bypass DR. This ability replaces aura of justice."
+
+[[entry]]
+id = "ref/sorcbloodline/accursed"
+anchor = "bloodline-arcana"
+print = "You count as a hag for the purpose of joining a hag's [coven](ref/hex/coven). The coven must contain at least one hag. In addition, whenever you are within 30 feet of another sorcerer with this bloodline or a [witch](ref/class/witch) with the coven hex, you can use the [aid another](ref/rule/aid-another-2) action to grant a +1 bonus to the other spellcaster's caster level for 1 round."
+
+[[entry]]
+id = "ref/sorcbloodline/accursed"
+anchor = "horrific-visage"
+print = "At 1st level, you can draw upon your hag ancestor to cause one target to perceive you as having a horrifying appearance. As a standard action, you can force one target within 30 feet to make a Will save (DC 10 + 1/2 your sorcerer level + your Charisma modifier) or be [shaken](ref/misc/shaken) for 1 round for every 2 sorcerer levels you possess (minimum 1 round). This is a mind-affecting, fear-based ability. This fear does not stack with other fear effects. You may use this ability a number of times per day equal to 3 + your Charisma modifier."
+
+[[entry]]
+id = "ref/sorcbloodline/accursed"
+anchor = "wretched-endurance"
+print = "At 3rd level, you gain a +2 bonus on all saving throws against charm, cold, fear, fire, and sleep effects. And 9th level, these bonuses increase to +4."
+
+[[entry]]
+id = "ref/sorcbloodline/accursed"
+anchor = "dread-gaze"
+print = "At 9th level, you gain a form of the [green hag's](ref/monster/hag-green-hag) evil eye power. As a standard action, you may fix your gaze on any one creature within 60 feet. The target must make a Will save (DC 10 + 1/2 your sorcerer level + your Charisma modifier) or be [staggered](ref/misc/staggered) for 1 round for every 2 sorcerer levels you possess. You may use this ability once per day at 9th level. At 17th level, you can use this ability twice per day. At 20th level, you may use this ability three times per day."
+
+[[entry]]
+id = "ref/sorcbloodline/accursed"
+anchor = "dream-walking"
+print = "At 15th level, you can enter the ethereal plane. This functions like _[ethereal jaunt](ref/spell/ethereal-jaunt)_, but with a duration of 1 minute for every 2 sorcerer levels you possess. Once during this trip, you may cast _[nightmare](ref/spell/nightmare)_ as a [spell-like ability](ref/umr/spell-like-abilities) on a creature you see on the Material Plane. (This is an exception to the normal rule that ethereal creatures cannot affect targets on the Material Plane)."
+
+[[entry]]
+id = "ref/sorcbloodline/accursed"
+anchor = "fearsome-survival"
+print = "At 20th level, your hag-blood gives you considerable resilience. You gain DR 10/cold iron, and gain SR equal to 6 + your sorcerer level."
+
+[[entry]]
+id = "ref/sorcbloodline/djinni"
+anchor = "bloodline-arcana"
+print = "You count as a hag for the purpose of joining a hag's coven. The coven must contain at least one hag. In addition, whenever you are within 30 feet of another sorcerer with this bloodline or a witch with the coven hex, you can use the aid another action to grant a +1 bonus to the other spellcaster's caster level for 1 round."
+
+[[entry]]
+id = "ref/sorcbloodline/djinni"
+anchor = "electricity-ray"
+print = "Starting at 1st level, you can unleash an elemental ray as a standard action, targeting any foe within 30 feet as a ranged touch attack. This ray deals 1d6 points of electricity damage + 1 for every two sorcerer levels you possess. You can use this ability a number of times per day equal to 3 + your Charisma modifier."
+
+[[entry]]
+id = "ref/sorcbloodline/djinni"
+anchor = "elemental-resistance"
+print = "At 3rd level, you gain electricity [resistance](ref/umr/resistance) 10. Your electricity resistance increases to 20 at 9th level."
+
+[[entry]]
+id = "ref/sorcbloodline/djinni"
+anchor = "whirlwind"
+print = "At 9th level, you gain the ability to turn into a 10-foot-high whirlwind once per day for 1 round per sorcerer level (see page 306 of the _Pathfinder RPG Bestiary_)."
+
+[[entry]]
+id = "ref/sorcbloodline/djinni"
+anchor = "elemental-movement"
+print = "At 15th level, you gain a fly speed of 60 feet with average maneuverability."
+
+[[entry]]
+id = "ref/sorcbloodline/djinni"
+anchor = "power-of-the-djinn"
+print = '''
+At 20th level, you gain the power of genies to grant wishes. Once per day, you can cast _[limited wish](ref/spell/limited-wish)_ as a [spell-like ability](ref/umr/spell-like-abilities). Such wishes must begin with the words "I wish," and cannot duplicate a wish you have granted within the past 24 hours. If you use this ability to duplicate a spell with a costly material component, you must provide that component.
+
+You also become immune to electricity damage, and can use _[plane shift](ref/spell/plane-shift)_ once per day to travel to or from the Plane of Air.'''
+
+[[entry]]
+id = "ref/sorcbloodline/efreeti"
+anchor = "bloodline-arcana"
+print = "You count as a hag for the purpose of joining a hag's coven. The coven must contain at least one hag. In addition, whenever you are within 30 feet of another sorcerer with this bloodline or a witch with the coven hex, you can use the aid another action to grant a +1 bonus to the other spellcaster's caster level for 1 round."
+
+[[entry]]
+id = "ref/sorcbloodline/efreeti"
+anchor = "fire-ray"
+print = "Starting at 1st level, you can unleash an elemental ray as a standard action, targeting any foe within 30 feet as a ranged touch attack. This ray deals 1d6 points of fire damage + 1 for every two sorcerer levels you possess. You can use this ability a number of times per day equal to 3 + your Charisma modifier."
+
+[[entry]]
+id = "ref/sorcbloodline/efreeti"
+anchor = "elemental-resistance"
+print = "At 3rd level, you gain electricity [resistance](ref/umr/resistance) 10. Your electricity resistance increases to 20 at 9th level."
+
+[[entry]]
+id = "ref/sorcbloodline/efreeti"
+anchor = "efreeti-form"
+print = "At 9th level, you gain the ability to assume the form of an efreeti once per day. This acts like the spell _[giant form I](ref/spell/giant-form-1)_, except you only use it to become an efreeti and its duration is 1 round per level. While in this form, you also gain an efreeti's [heat](ref/carried/bestiary/rules/universal-monster-rules/heat) ability."
+
+[[entry]]
+id = "ref/sorcbloodline/efreeti"
+anchor = "elemental-movement"
+print = "At 15th level, you gain a fly speed of 60 feet with average maneuverability."
+
+[[entry]]
+id = "ref/sorcbloodline/efreeti"
+anchor = "power-of-the-efreet"
+print = '''
+At 20th level, you gain the power of genies to grant wishes. Once per day, you can cast _[limited wish](ref/spell/limited-wish)_ as a [spell-like ability](ref/umr/spell-like-abilities). Such wishes must begin with the words "I wish," and cannot duplicate a wish you have granted within the past 24 hours. If you use this ability to duplicate a spell with a costly material component, you must provide that component.
+
+You also become immune to fire damage, and can use _[plane shift](ref/spell/plane-shift)_ once per day to travel to or from the Plane of Fire.'''
+
+[[entry]]
+id = "ref/sorcbloodline/maestro"
+anchor = "bloodline-arcana"
+print = "You count as a hag for the purpose of joining a hag's coven. The coven must contain at least one hag. In addition, whenever you are within 30 feet of another sorcerer with this bloodline or a witch with the coven hex, you can use the aid another action to grant a +1 bonus to the other spellcaster's caster level for 1 round."
+
+[[entry]]
+id = "ref/sorcbloodline/maestro"
+anchor = "beguiling-voice"
+print = "At 1st level, you can use the sound of your voice to lull a target creature into taking no action. This ability acts as the _[daze](ref/spell/daze)_ spell, except it is language-dependent, has a duration of 1 round, and affects a living creature whose Hit Dice do not exceed your sorcerer level. You can use this ability a number of times per day equal to 3 + your Charisma modifier."
+
+[[entry]]
+id = "ref/sorcbloodline/maestro"
+anchor = "fascinate"
+print = "At 3rd level, you gain the ability to use a Perform skill to cause one or more creatures to become fascinated with you. This acts as the [fascinate](ref/performance/fascinate) bardic perform ability, except the save DC is 10 + 1/2 your sorcerer level + your Charisma bonus, and it lasts 1 round/level. You may use this ability once per day at 3rd level, twice per day at 8th level, three times per day at 13th level, and four times per day at 18th level."
+
+[[entry]]
+id = "ref/sorcbloodline/maestro"
+anchor = "perfect-voice"
+print = "At 9th level, you understand all efforts to communicate through sound, and can make yourself understood to any creature able to understand language. You can speak to, and understand the speech of, any creature that understands at least one spoken language. The save DCs of language-dependent spells you cast increase by +1."
+
+[[entry]]
+id = "ref/sorcbloodline/maestro"
+anchor = "inspire"
+print = "At 15th level, your artistic magic can inspire your allies to great accomplishments. You can use _[greater heroism](ref/spell/heroism-greater)_ as a [spell-like ability](ref/umr/spell-like-abilities). You can use this ability once per day at 15th level, twice per day at 17th level, and three times per day at 19th level."
+
+[[entry]]
+id = "ref/sorcbloodline/maestro"
+anchor = "grand-maestro"
+print = "At 20th level, the power of pure magic music flows through you. You cast any spell with a verbal component as if it had the [Still Spell](ref/feat/still-spell) metamagic feat applied to it, with no increase to the casting time or spell slot required to cast it. You gain immunity to sonic damage and language-dependent spells."
+
+[[entry]]
+id = "ref/sorcbloodline/marid"
+anchor = "bloodline-arcana"
+print = "Whenever you cast a spell that deals energy damage, you can change the type of damage to fire. This also changes the spell's descriptors to match this energy type."
+
+[[entry]]
+id = "ref/sorcbloodline/marid"
+anchor = "frost-ray"
+print = "Starting at 1st level, you can unleash an elemental ray as a standard action, targeting any foe within 30 feet as a ranged touch attack. This ray deals 1d6 points of cold damage + 1 for every two sorcerer levels you possess. You can use this ability a number of times per day equal to 3 + your Charisma modifier."
+
+[[entry]]
+id = "ref/sorcbloodline/marid"
+anchor = "elemental-resistance"
+print = "At 3rd level, you gain electricity resistance 10. Your electricity resistance increases to 20 at 9th level."
+
+[[entry]]
+id = "ref/sorcbloodline/marid"
+anchor = "water-s-fury"
+print = "At 9th level, you gain the ability to summon a rushing jet of water from the elemental plane of water and direct it against your foes. As a standard action, you can create a jet of water in a 60-foot line that deals 1d6 points of damage per two sorcerer levels you possess, and [blinds](ref/misc/blinded) the target that was struck for 1d6 rounds. A Reflex save (DC 10 + 1/2 your sorcerer level + your Charisma bonus) reduces the damage by half and negates the blinding effect."
+
+[[entry]]
+id = "ref/sorcbloodline/marid"
+anchor = "elemental-movement"
+print = "At 15th level, you gain a fly speed of 60 feet with average maneuverability."
+
+[[entry]]
+id = "ref/sorcbloodline/marid"
+anchor = "power-of-the-marid"
+print = '''
+At 20th level, you gain the power of genies to grant wishes. Once per day, you can cast _[limited wish](ref/spell/limited-wish)_ as a [spell-like ability](ref/umr/spell-like-abilities). Such wishes must begin with the words "I wish," and cannot duplicate a wish you have granted within the past 24 hours. If you use this ability to duplicate a spell with a costly material component, you must provide that component.
+
+You become immune to cold damage, and can use _[plane shift](ref/spell/plane-shift)_ once per day to travel to or from the Plane of Water.'''
+
+[[entry]]
+id = "ref/sorcbloodline/rakshasa"
+anchor = "bloodline-arcana"
+print = "Whenever you cast a spell that deals energy damage, you can change the type of damage to fire. This also changes the spell's descriptors to match this energy type."
+
+[[entry]]
+id = "ref/sorcbloodline/rakshasa"
+anchor = "silver-tongue"
+print = "At 1st level, you can draw upon your outsider heritage to spin amazingly convincing lies. Activating this ability is a swift action. You gain a +5 bonus on one Bluff check made to convince another of the truth of your words (similar to using _[glibness](ref/spell/glibness)_). If a magical effect is used against you that would detect your lies or force you to speak the truth, the user of the effect must succeed on a caster level check (DC 10 + your sorcerer level) to succeed. Failure means the effect does not detect your lies or force you to speak only the truth. You can use this ability a number of times per day equal to 3 + your Charisma modifier."
+
+[[entry]]
+id = "ref/sorcbloodline/rakshasa"
+anchor = "mind-reader"
+print = "At 3rd level, you can read minds as a [spell-like ability](ref/umr/spell-like-abilities). This ability acts like _[detect thoughts](ref/spell/detect-thoughts)_, except it lasts only 1 round, you use it on a single target as a standard action, and if the target fails its Will save, you gain information as if you had concentrated on it for 3 rounds. You may use this ability once per day at 3rd level and one additional time per day for every four sorcerer levels you possess beyond 3rd, up to five times per day at 20th level."
+
+[[entry]]
+id = "ref/sorcbloodline/rakshasa"
+anchor = "hide-aura"
+print = "At 9th level, you can conceal yourself from prying magic. This ability acts like a constant _[nondetection](ref/spell/nondetection)_ spell cast upon yourself. You can end or restore this protection as a move action."
+
+[[entry]]
+id = "ref/sorcbloodline/rakshasa"
+anchor = "alter-self"
+print = "At 15th level, you can change your shape into that of any humanoid at will. This ability acts like _[alter self](ref/spell/alter-self)_, except you may remain in a chosen form as long as you want. _Outsider (Su)_: At 20th level, your natural form becomes that of an animal-headed humanoid, like a true rakshasa. This does not affect your ability to speak or cast spells. You can use your _alter self_ or other disguise and polymorph abilities to assume your original form or other forms when it suits you. You are forevermore treated as a native outsider rather than as a humanoid (or whatever your original type was) for the purpose of spells and other magical effects. Unlike other outsiders, you can still be brought back from the dead as if you were a member of your previous creature type. You gain DR 10/piercing."
+
+[[entry]]
+id = "ref/sorcbloodline/shaitan"
+anchor = "bloodline-arcana"
+print = "Whenever you cast a spell that deals energy damage, you can change the type of damage to cold. This also changes the spell's descriptors to match this energy type."
+
+[[entry]]
+id = "ref/sorcbloodline/shaitan"
+anchor = "acid-ray"
+print = "Starting at 1st level, you can unleash an elemental ray as a standard action, targeting any foe within 30 feet as a ranged touch attack. This ray deals 1d6 points of acid damage + 1 for every two sorcerer levels you possess. You can use this ability a number of times per day equal to 3 + your Charisma modifier."
+
+[[entry]]
+id = "ref/sorcbloodline/shaitan"
+anchor = "elemental-resistance"
+print = "At 3rd level, you gain cold [resistance](ref/umr/resistance) 10. At 9th level, your cold resistance increases to 20."
+
+[[entry]]
+id = "ref/sorcbloodline/shaitan"
+anchor = "avalanche"
+print = "At 9th level, whenever you hit a single target with a spell that deals damage, you may make a [bull rush](ref/rule/bull-rush) check as a swift action. Your CMB for this maneuver is equal to your sorcerer caster level + your Charisma bonus. You can make this maneuver even if the target is not in melee range, and you do not provoke an attack of opportunity for making this maneuver. If the target is in contact with earth, stone, or rock, you gain a +4 bonus on your CMB check."
+
+[[entry]]
+id = "ref/sorcbloodline/shaitan"
+anchor = "elemental-movement"
+print = "At 15th level, you gain a swim speed of 60 feet."
+
+[[entry]]
+id = "ref/sorcbloodline/shaitan"
+anchor = "power-of-the-shaitan"
+print = '''
+At 20th level, you gain the power of genies to grant wishes. Once per day, you can cast _[limited wish](ref/spell/limited-wish)_ as a [spell-like ability](ref/umr/spell-like-abilities). Such wishes must begin with the words "I wish," and cannot duplicate a wish you have granted within the past 24 hours. If you use this ability to duplicate a spell with a costly material component, you must provide that component.
+
+You become immune to acid damage, and can use _[plane shift](ref/spell/plane-shift)_ once per day to travel to or from the Plane of Earth.'''
