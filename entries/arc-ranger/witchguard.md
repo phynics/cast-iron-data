@@ -16,10 +16,16 @@ page = "25"
 
 [fields]
 kind = "archetype"
+features = [
+  { anchor = "defend-charge", level = 4 },
+  { anchor = "bodyguard", level = 3 },
+  { anchor = "patron", level = 4 },
+  { anchor = "sworn-defender", level = 7 },
+]
 trades = [
-  { replaces = "Hunter's bond", feature = "hunter-s-bond" },
-  { replaces = "Endurance", feature = "endurance" },
-  { replaces = "Woodland stride", feature = "woodland-stride" },
+  { replaces = "Hunter's bond", feature = "hunter-s-bond", by = ["defend-charge"] },
+  { replaces = "Endurance", feature = "endurance", by = ["bodyguard"] },
+  { replaces = "Woodland stride", feature = "woodland-stride", by = ["sworn-defender"] },
 ]
 +++
 
@@ -32,54 +38,37 @@ abilities to protect any kind of spellcaster, not just a witch. A witchguard is 
 foe that might threaten his charge, and he is ever prepared to lay down his life to protect the life
 of the person he is sworn to defend.
 
-**Gained class skills:** kno, sm
+## Class Skills {#class-skills}
 
-**Lost class skills:** ha, kd
+A witchguard adds Knowledge (nobility) and Sense Motive to his list of class skills, and removes
+Handle Animal and Knowledge (dungeoneering) from his list of class skills.
 
-**Defend Charge (Ex)**
+## Defend Charge (Ex) {#defend-charge}
 
-**Ability:** A witchguard forms a bond with a spellcaster he has sworn to defend. This bond allows
-the witchguard to spend a **move action** to grant an adjacent spellcaster a +2 dodge bonus to AC
-and a +2 circumstance bonus on [concentration](ref/rule/concentration) checks. The bonuses last for
-a number of rounds equal to the witchguard's Wisdom modifier (minimum 1).
+At 4th level, a witchguard forms a bond with a spellcaster he has sworn to defend. Once per day,
+this bond allows the witchguard to spend a move action to grant an adjacent spellcaster a +2 dodge
+bonus to AC and a +2 circumstance bonus on [concentration](ref/rule/concentration) checks. At 5th
+level and every 5 levels thereafter, these bonuses increase by 2. The bonuses last for a number of
+rounds equal to the witchguard's Wisdom modifier (minimum 1).
 
-**Gained:** At 4th Level
+At 4th level and every 3 levels thereafter, the witchguard can use this ability one additional time
+per day. This ability replaces hunter's bond.
 
-**Replaces:** Hunter's bond
+## Bodyguard (Ex) {#bodyguard}
 
-**Usage:** 1 time/day + 1 per 3 ranger levels beyond 4th
+At 3rd level, a witchguard gains [Bodyguard](ref/feat/bodyguard) as a bonus feat, even if he doesn't
+meet the prerequisite. This ability replaces endurance.
 
-At 5th level: These bonuses increase to +4.
+## Patron (Su) {#patron}
 
-At 10th level: These bonuses increase to +6.
+A witchguard learns something of arcane magic from the witches he defends. At 4th level, when a
+witchguard gains the ability to cast spells, he must also select a patron, as the witch class
+feature (_Pathfinder RPG Advanced Player's Guide_ 70). This patron is usually the same as the patron
+of the witch he is sworn to protect, but the witchguard may choose any patron. The witchguard adds
+the first four spells from his patron's spell list to his ranger spell list. The witchguard cannot
+cast patron spells of a level he is unable to cast.
 
-At 15th level: These bonuses increase to +8.
+## Sworn Defender (Ex) {#sworn-defender}
 
-At 20th level: These bonuses increase to +10.
-
-**Bodyguard (Ex)**
-
-**Ability:** A witchguard gains [Bodyguard](ref/feat/bodyguard) as a bonus feat, even if he doesn't
-meet the prerequisite.
-
-**Gained:** At 3rd Level
-
-**Replaces:** Endurance
-
-**Patron (Su)**
-
-**Flavor:** A witchguard learns something of arcane magic from the witches he defends.
-
-**At 4th Level:** When a witchguard gains the ability to cast spells, he must also select a patron,
-as the witch class feature. This patron is usually the same as the patron of the witch he is sworn
-to protect, but the witchguard may choose any patron. The witchguard adds the first four spells from
-his patron's spell list to his ranger spell list. The witchguard cannot cast patron spells of a
-level he is unable to cast.
-
-**Sworn Defender (Ex)**
-
-**Ability:** A witchguard gains [In Harm's Way](ref/feat/in-harms-way) as a bonus feat.
-
-**Gained:** At 7th Level
-
-**Replaces:** Woodland stride
+At 7th level, a witchguard gains [In Harm's Way](ref/feat/in-harms-way) as a bonus feat. This
+ability replaces woodland stride.

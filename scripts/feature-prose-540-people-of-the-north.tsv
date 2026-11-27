@@ -1,0 +1,6 @@
+entry	feature	anchor	listed	level	source	status	note	page	span_sha256
+ref/arc-ranger/witchguard	Class Skills	class-skills	no		print	print	head printed, not in the import: added from print	26	
+ref/arc-ranger/witchguard	Defend Charge (Ex)	defend-charge	yes	4	print	print	rule 1: the corpus rows and the printed values agree level by level; print's wording taken; opening text written from print: the import differs in class, class, gained, ha, kd, kno, lost, skill, skill, sm	26	5540980098b4bca5375a15c8d9ef27af9f9727f612c33d8c736cbc8b47c1b18a
+ref/arc-ranger/witchguard	Bodyguard (Ex)	bodyguard	yes	3	print	print		26	2273e300ac4b5bb3f39cf23e6c5edc48dca4b82f6f0aebda4740160a048c9382
+ref/arc-ranger/witchguard	Patron (Su)	patron	yes	4	print	print	level 4: print says "At 4th level" in its first paragraph, as the import has it	26	1d520ad19e379f453901d7babdb3ef47b8d914a07f142cc429fb2dc748925667
+ref/arc-ranger/witchguard	Sworn Defender (Ex)	sworn-defender	yes	7	print	print		26	ecf3cc62a605ea3e684cb3e76bb165fe531879ba3e8a968b639c0d55aff641b7
