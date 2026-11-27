@@ -13,6 +13,7 @@ page = "17"
 [fields]
 kind = "class_option"
 group = "alchemist-discovery"
+ability_type = "Ex"
 +++
 
 The alchemist gains a prehensile, arm-length tentacle on his body. The tentacle is fully under his

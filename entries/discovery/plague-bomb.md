@@ -8,12 +8,16 @@ provenance = [
 ]
 [[sources]]
 publication = "ultimate-magic"
-page = "16"
+page = "15-16"
 
 [fields]
 kind = "class_option"
 group = "alchemist-discovery"
+ability_type = "Su"
 +++
+
+Discoveries that modify bombs and are marked with a single asterisk (\*) do not stack. Only one such
+discovery can be applied to an individual bomb.
 
 The effects of the smoke created by an alchemist's bomb duplicates the effects of
 _[contagion](ref/spell/contagion)_ instead of _[fog cloud](ref/spell/fog-cloud)_, filling an area

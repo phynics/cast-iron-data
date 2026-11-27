@@ -13,6 +13,7 @@ page = "15"
 [fields]
 kind = "class_option"
 group = "alchemist-discovery"
+ability_type = "Su"
 +++
 
 The alchemist gains the ability to create a cognatogen, a mutagen-like mixture that heightens one

@@ -13,6 +13,7 @@ page = "16"
 [fields]
 kind = "class_option"
 group = "alchemist-discovery"
+ability_type = "Ex"
 +++
 
 The alchemist gains the ability to heal other creatures. As a standard action, he may touch a

@@ -13,6 +13,7 @@ page = "18"
 [fields]
 kind = "class_option"
 group = "alchemist-discovery"
+ability_type = "Ex"
 +++
 
 The alchemist gains a new arm (left or right) on his torso. The arm is fully under his control and

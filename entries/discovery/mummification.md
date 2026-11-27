@@ -13,6 +13,7 @@ page = "16"
 [fields]
 kind = "class_option"
 group = "alchemist-discovery"
+ability_type = "Ex"
 +++
 
 The alchemist has mastered preserving flesh and applied this knowledge to his own body, turning

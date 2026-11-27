@@ -13,6 +13,7 @@ page = "17"
 [fields]
 kind = "class_option"
 group = "alchemist-discovery"
+ability_type = "Ex"
 +++
 
 The alchemist creates a Diminutive or Tiny tumor on his body, usually on his back or stomach. As a

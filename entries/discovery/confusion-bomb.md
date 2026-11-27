@@ -13,6 +13,7 @@ page = "15"
 [fields]
 kind = "class_option"
 group = "alchemist-discovery"
+ability_type = "Su"
 +++
 
 The alchemist's bombs twist the target's perception of friend and foe. A creature that takes a

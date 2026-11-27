@@ -13,6 +13,7 @@ page = "16"
 [fields]
 kind = "class_option"
 group = "alchemist-discovery"
+ability_type = "Su"
 +++
 
 The alchemist's mutagen now grants a +4 natural armor bonus, a +6 alchemical bonus to one mental

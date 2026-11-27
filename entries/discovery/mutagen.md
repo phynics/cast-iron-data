@@ -13,6 +13,7 @@ page = "16"
 [fields]
 kind = "class_option"
 group = "alchemist-discovery"
+ability_type = "Su"
 +++
 
 This discovery gives the alchemist the mutagen class ability, as described in the _Advanced Player's

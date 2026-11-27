@@ -13,6 +13,7 @@ page = "15"
 [fields]
 kind = "class_option"
 group = "alchemist-discovery"
+ability_type = "Su"
 +++
 
 The alchemist has learned how to preserve a sample of oozes in a sealed bottle, which he can prepare

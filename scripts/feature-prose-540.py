@@ -585,6 +585,22 @@ def LINK_TITLE_SPAN(title: str):
     return re.compile(r"\b" + r"\s+".join(words) + r"\b", re.I) if words else re.compile(r"(?!x)x")
 
 
+ITALIC_LIST_SPAN = re.compile(I_OPEN + "([^" + I_OPEN + I_CLOSE + "]*,[^" + I_OPEN + I_CLOSE + "]*)" + I_CLOSE)
+
+
+def split_italic_list_links(text: str, links: list[tuple[str, str]]) -> str:
+    """An italic run that print sets over a list of names ("_owl's wisdom, remove disease_", Ultimate Magic p. 82) is split at its commas,
+    so that a link can take one name and both names stay italic. A run is split only when one of its comma-separated items is the text of a
+    link (near miss: an italic run that holds commas but none of the link texts stays whole)."""
+    labels = {re.sub(r"\\", "", l).strip().casefold() for l, _ in links}
+    def repl(m: re.Match) -> str:
+        items = [x.strip() for x in m.group(1).split(",")]
+        if not any(x.casefold() in labels for x in items):
+            return m.group(0)
+        return ", ".join(I_OPEN + x + I_CLOSE for x in items)
+    return ITALIC_LIST_SPAN.sub(repl, text)
+
+
 def apply_links(text: str, links: list[tuple[str, str]]) -> tuple[str, list[str]]:
     """Wrap an occurrence of each old link text that is not inside a link already: the longer labels first (so
     "planar ally" does not take the words of "lesser planar ally"), and an occurrence with the same case as the
@@ -1703,6 +1719,7 @@ class PrintFeature:
     page: int
     bold: bool = True                                # a bold head; an italic one is a sub-power or an option
     errata: int = 0                                  # the errata page that replaced this ability
+    marked: bool = False                             # print sets a source mark on the head ("Tanglefoot Bomb (Su)*")
 
 
 DASH_KEY_LEAD = re.compile(r"[A-Z][A-Za-z'\u2019 -]{1,30}\u2014")
@@ -1763,7 +1780,8 @@ def head_of_para(p: Para) -> str | None:
 
 
 # A source mark of print between a head and its colon: an asterisk or a dagger, with the bracket a superscript sometimes leaves ("(Su)*:").
-SOURCE_MARK_TAIL = re.compile(r"^\s*(?:[\*†‡]|\([^)]{1,3}\))+\s*(?=:)")
+# Only a mark (`*`, `†`, `‡`) is a source mark: "(Su)" before a colon is the ability tag and stays.
+SOURCE_MARK_TAIL = re.compile(r"^\s*[\*†‡]+\s*(?=:)")
 SOURCE_MARK_END = re.compile(r"\s*[\*†‡]+\s*$")
 
 
@@ -1780,14 +1798,17 @@ def split_print(section: list[Para], expected: list[str]) -> tuple[list[list], l
         is_head = False
         if cand:
             head, rest, bold = cand
+            marked = False
             if SOURCE_MARK_END.search(head):
                 head = SOURCE_MARK_END.sub("", head)      # "Plague Bomb (Su)*:" (the mark is inside the italic run, Ultimate Magic p. 16)
                 cand = (head, rest, bold)
+                marked = True
             if rest and not rest[0][0].lstrip().startswith(":") and SOURCE_MARK_TAIL.match(rest[0][0]):
                 # a source mark between a head and its colon ("Tanglefoot Bomb (Su)*:", Ultimate Magic p. 17): the mark is not the head's name
                 rest = list(rest)
                 rest[0] = (SOURCE_MARK_TAIL.sub("", rest[0][0], count=1), rest[0][1], rest[0][2])
                 cand = (head, rest, bold)
+                marked = True
             colon = rest and rest[0][0].lstrip().startswith(":") if rest else False
             tail_ok = not rest or colon or (bold and namekey(head) in want)     # print leaves out a colon here and there
             if tail_ok and (bold or (namekey(head) in want)):
@@ -1798,7 +1819,7 @@ def split_print(section: list[Para], expected: list[str]) -> tuple[list[list], l
             if rest and rest[0][0].lstrip().startswith(":"):
                 t = rest[0][0].lstrip()[1:]
                 rest[0] = (t, rest[0][1], rest[0][2])
-            feats.append(PrintFeature(head, [rest] if rest else [[]], p.page, cand[2]))
+            feats.append(PrintFeature(head, [rest] if rest else [[]], p.page, cand[2], marked=marked))
         elif feats:
             feats[-1].paras.append(p.runs)
         else:
@@ -2268,9 +2289,11 @@ def expand_rules(print_text: str, corpus_text: str) -> tuple[str, list[str]] | N
 
 
 PREREQ_LEVEL = re.compile(r"(\d+)(?:st|nd|rd|th)[- ]level\b", re.I)
-# "must be at least 13th level" (the archetype sentence), and the class-option sentence "You must be at least a 5th-level wizard to select
-# this discovery": the article of the second form is print's, the level is the rule.
-PRINT_AT_LEAST = re.compile(r"[^.]*\bmust be at least (?:a |an )?(\d+)(?:st|nd|rd|th)[- ]level\b[^.]*\.", re.I)
+# "must be at least 13th level": the archetype sentence, compared as it always was.
+PRINT_AT_LEAST = re.compile(r"[^.]*\bmust be at least (\d+)(?:st|nd|rd|th)[- ]level\b[^.]*\.", re.I)
+# ... and the class-option sentence "You must be at least a 5th-level wizard to select this discovery" (ruling 60): the article is print's,
+# the level is the rule. Used only while `LOOSE_ITEMS` is on, so an archetype's holds do not move.
+PRINT_AT_LEAST_LOOSE = re.compile(r"[^.]*\bmust be at least (?:a |an )?(\d+)(?:st|nd|rd|th)[- ]level\b[^.]*\.", re.I)
 
 
 # class options (#540, rulings 60 and 61 of the data plan): a `Prereq` row of a class option is print's sentences. Only the class-option script turns
@@ -2345,7 +2368,8 @@ def take_prerequisites(draft: Draft, p_clean: str, d_clean: str) -> tuple[str, s
         flat = re.sub(r"\[([^\]]*)\]\([^)]*\)", r"\1", pr).replace("_", "").strip()
         if flat not in d_clean or (not m and not loose):
             continue
-        sm = next((x for x in PRINT_AT_LEAST.finditer(p_clean) if x.group(1) == m.group(1)), None) if m else None
+        pattern = PRINT_AT_LEAST_LOOSE if loose else PRINT_AT_LEAST
+        sm = next((x for x in pattern.finditer(p_clean) if x.group(1) == m.group(1)), None) if m else None
         if not loose:
             if sm:                                              # the archetype rule 3, as it was
                 p_clean = p_clean.replace(sm.group(0), " ", 1)
@@ -3465,7 +3489,13 @@ def print_md(feat: PrintFeature, links: list[tuple[str, str]], vocab: set[str], 
     if links:
         links = [l for l in links if (entry_id, l[0]) not in LINK_DROP]
         text, links = apply_context_links(entry_id, text, links)
+        text = split_italic_list_links(text, links)
         text, lost = apply_links(text, links)
+        # a source mark that a placed link replaces (ruling 26): the spell lists of Major and Minor Magic then read alike ("glide" and
+        # "vanish", Ultimate Magic pp. 77-78); an unlinked marked word keeps its mark (the key is printed on the page)
+        text, dropped = re.subn(r"(\]\([^)]*\))([_" + I_OPEN + I_CLOSE + r"]*)(?:\\\*)+", r"\1\2", text)
+        if dropped:
+            notes.append("print asterisks replaced by their link dropped")
     return render_marks(text), lost, notes
 
 
@@ -3764,7 +3794,7 @@ def compare_entry(e: Entry, section: list[Para], book: Book) -> dict:
         if idx is None:
             text, _, pnotes = print_md(pf, [], vocab, e.id, keep)
             rows.append({"anchor": anchor_of(head), "span": "", "page": pf.page, "pseudo": False, "draft": "",
-                         "level_import": None, "head": head, "print": text, "status": "print",
+                         "level_import": None, "head": head, "print": text, "status": "print", "marked": pf.marked,
                          "notes": ["head printed, not in the import: added from print"] + pnotes,
                          "listed": not is_scaffold(head) and not is_option_head(head, pf.bold) and not DASH_KEY.fullmatch(head),
                          "option": is_option_head(head, pf.bold) and not DASH_KEY.fullmatch(head),
@@ -3782,7 +3812,7 @@ def compare_entry(e: Entry, section: list[Para], book: Book) -> dict:
                                    for x in [re.sub(r"\[([^\]]*)\]\([^)]*\)", r"\1", it.content)]
                                    + re.split(r",| and ", re.sub(r"\[([^\]]*)\]\([^)]*\)", r"\1", it.content)) if x.strip()))
         row = {"anchor": anchor_of(head), "span": f.span_sha(), "page": pf.page, "pseudo": f.pseudo,
-               "import_trades": named, "links": [],
+               "import_trades": named, "links": [], "marked": pf.marked,
                "draft": draft.text, "level_import": draft.level, "head": head, "print": text,
                "status": cmp.status, "notes": list(cmp.notes) + pnotes, "name": pf.head}
         if lost:
@@ -6432,6 +6462,24 @@ def self_test() -> int:
     _op, _ft = split_print([_sec[0], Para("para", [("ALPHA ABILITY", True, False), (": text", False, False)], "1", 0), _P("more", False)], ["Alpha Ability"])
     eq([f.head for f in _ft], ["ALPHA ABILITY"], "UPPER_HEAD_ENDS: the first head never ends the span")
     UPPER_HEAD_ENDS["on"] = False
+    # a source mark on a printed head (review of #374): the mark is dropped, the ability tag stays
+    _mk = lambda text: Para("para", [(text, False, True), (": text", False, False)], "1", 0)
+    _secm = [Para("title", [("Discoveries", True, False)], "1", 0), _mk("Bomb (Su)*"), _mk("Claw (Ex)"), _mk("Plain *")]
+    _opm, _ftm = split_print(_secm, ["Bomb (Su)", "Claw (Ex)", "Plain"])
+    eq([(f.head, f.marked) for f in _ftm], [("Bomb (Su)", True), ("Claw (Ex)", False), ("Plain", True)],
+       "a source mark on a head is dropped and recorded; an ability tag is never a mark")
+    _opm, _ftm = split_print([_secm[0], Para("para", [("Bomb (Su)", False, True), ("*: a mark outside the italic", False, False)], "1", 0)], ["Bomb (Su)"])
+    eq([(f.head, f.marked) for f in _ftm], [("Bomb (Su)", True)], "a mark between the head and its colon is dropped too")
+    # a link takes the mark it replaces ("vanish**" against "glide**"); an unlinked marked word keeps it
+    _mr = [[("Choose ", False, False), ("vanish", False, True), ("** or ", False, False), ("glide", False, True), ("**.", False, False)]]
+    _txt = print_md(PrintFeature("x", _mr, 1), [("vanish", "ref/spell/vanish")], set(), "e", keep_marks=True)[0]
+    eq((("[vanish](ref/spell/vanish)" in _txt), _txt.count("\\*\\*"), _txt.find("\\*\\*") > _txt.find("glide")), (True, 1, True),
+       "a mark that a link replaces is dropped; an unlinked mark stays (review of #374)")
+    # an italic list that print sets over two names is split at its comma when a link names one item, and both stay italic
+    _il = I_OPEN + "owl's wisdom, remove disease" + I_CLOSE
+    eq(split_italic_list_links(_il, [("remove disease", "ref/spell/remove-disease")]),
+       I_OPEN + "owl's wisdom" + I_CLOSE + ", " + I_OPEN + "remove disease" + I_CLOSE, "an italic list is split for a link")
+    eq(split_italic_list_links(_il, [("bless", "ref/spell/bless")]), _il, "an italic list that holds no link text stays whole")
     LINK_CTX["title"] = "Mirror Witch (Witch Archetype)"
     eq(apply_links("a mirror witch uses a mirror (worth 10 gp)", [("mirror", "ref/eq-misc/mirror")])[0], "a mirror witch uses a [mirror](ref/eq-misc/mirror) (worth 10 gp)", "a link skips the archetype's own name")
     eq(apply_links("%scause fear%s, then %sfear%s" % (I_OPEN, I_CLOSE, I_OPEN, I_CLOSE), [("fear", "ref/spell/fear")])[0], "%scause fear%s, then %s[fear](ref/spell/fear)%s" % (I_OPEN, I_CLOSE, I_OPEN, I_CLOSE), "a link skips a longer italic spell name")
@@ -6665,6 +6713,12 @@ def self_test() -> int:
         decisions_path(Path(tmp_), "bk").write_text("\t".join(DECISION_HEADER) + "\ne\ta\tfold-into:x\tn\n", encoding="utf-8")
         eq(read_decisions(Path(tmp_), "bk"), {("e", "a"): ("fold-into:x", "n")}, "the decision reader takes fold-into")
     eq(is_scaffold("Weapon and Armor Proficiencies") and is_scaffold("Class Skills") and is_scaffold("Skill Ranks per Level"), True, "scaffold variants")
+    # a class-option prerequisite may take an article ("must be at least a 5th-level wizard"), an archetype's stays as it was (review of #374)
+    eq((bool(PRINT_AT_LEAST.search("The magus must be at least 13th level and have X.")),
+        bool(PRINT_AT_LEAST.search("You must be at least a 5th-level wizard to select this discovery.")),
+        bool(PRINT_AT_LEAST_LOOSE.search("You must be at least a 5th-level wizard to select this discovery.")),
+        bool(PRINT_AT_LEAST_LOOSE.search("The magus must be at least 13th level and have X."))),
+       (True, False, True, True), "the article of a class-option prerequisite is read only in class-option mode")
     # the hold rules of the owner (phynics/cast-iron#540, after the Blood of the Ancients pilot): each is a switch, so each test runs the
     # same comparison with the rule off (the old script) and on
     def cmp_rule(rule: str, import_rows: str, printed: str, title: str = "Feature") -> tuple[str, str]:

@@ -13,6 +13,7 @@ page = "16"
 [fields]
 kind = "class_option"
 group = "alchemist-discovery"
+ability_type = "Ex"
 +++
 
 The alchemist's vestigial limbs are part of a parasitic twin on his torso, consisting of a head, a

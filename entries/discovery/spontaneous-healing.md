@@ -13,6 +13,7 @@ page = "17"
 [fields]
 kind = "class_option"
 group = "alchemist-discovery"
+ability_type = "Ex"
 +++
 
 The alchemist gains the ability to heal from wounds rapidly. As a free action once per round, he can

@@ -13,6 +13,7 @@ page = "16"
 [fields]
 kind = "class_option"
 group = "alchemist-discovery"
+ability_type = "Su"
 +++
 
 The alchemist's [cognatogen](ref/discovery/cognatogen) now grants a +6 natural armor bonus, a +8

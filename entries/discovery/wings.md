@@ -13,6 +13,7 @@ page = "18"
 [fields]
 kind = "class_option"
 group = "alchemist-discovery"
+ability_type = "Ex"
 +++
 
 The alchemist gains batlike, birdlike, or insectlike functional wings, allowing him to

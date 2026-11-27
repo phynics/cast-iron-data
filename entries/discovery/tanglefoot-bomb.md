@@ -8,12 +8,16 @@ provenance = [
 ]
 [[sources]]
 publication = "ultimate-magic"
-page = "17"
+page = "15-17"
 
 [fields]
 kind = "class_option"
 group = "alchemist-discovery"
+ability_type = "Su"
 +++
+
+Discoveries that modify bombs and are marked with a single asterisk (\*) do not stack. Only one such
+discovery can be applied to an individual bomb.
 
 A creature that takes a direct hit from a tanglefoot bomb must save against the bomb's DC or be
 [entangled](ref/rule/entangled) and glued to the floor as if it had failed its save against a

@@ -13,6 +13,7 @@ page = "15"
 [fields]
 kind = "class_option"
 group = "alchemist-discovery"
+ability_type = "Su"
 +++
 
 The alchemist gains the ability to animate a relatively complete corpse as an alchemy-powered

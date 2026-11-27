@@ -13,7 +13,11 @@ page = "15"
 [fields]
 kind = "class_option"
 group = "alchemist-discovery"
+ability_type = "Su"
 +++
+
+Discoveries that modify bombs and are marked with a single asterisk (\*) do not stack. Only one such
+discovery can be applied to an individual bomb.
 
 When the alchemist creates a bomb, he can choose for it to detonate very brightly. Creatures that
 take a direct hit from a blinding bomb are [blinded](ref/misc/blinded) for 1 minute unless they

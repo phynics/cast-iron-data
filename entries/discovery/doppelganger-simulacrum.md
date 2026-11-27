@@ -13,6 +13,7 @@ page = "15"
 [fields]
 kind = "class_option"
 group = "alchemist-discovery"
+ability_type = "Su"
 +++
 
 The alchemist learns how to create a [simulacrum](ref/spell/simulacrum), a soulless duplicate of his

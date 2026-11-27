@@ -236,7 +236,7 @@ print = "At 10th level, the scrollmaster can cast a wizard spell from a scroll a
 [[entry]]
 id = "ref/discovery/alchemical-simulacrum"
 anchor = "alchemical-simulacrum"
-print = "The alchemist gains the ability to create a [lesser simulacrum](ref/spell/simulacrum-lesser). This works like the _[lesser simulacrum](ref/spell/simulacrum-lesser)_\\* spell, except it costs 100 gp in alchemical materials per Hit Die of the simulacrum, requires 24 hours to grow, and decays into inert flesh rather than ice or snow if killed. An alchemist must be at least 8th level before selecting this discovery. The created simulacrum is a creature, not a supernatural effect."
+print = "The alchemist gains the ability to create a [lesser simulacrum](ref/spell/simulacrum-lesser). This works like the _[lesser simulacrum](ref/spell/simulacrum-lesser)_ spell, except it costs 100 gp in alchemical materials per Hit Die of the simulacrum, requires 24 hours to grow, and decays into inert flesh rather than ice or snow if killed. An alchemist must be at least 8th level before selecting this discovery. The created simulacrum is a creature, not a supernatural effect."
 
 [[entry]]
 id = "ref/discovery/alchemical-zombie"
@@ -246,7 +246,7 @@ print = "The alchemist gains the ability to animate a relatively complete corpse
 [[entry]]
 id = "ref/discovery/blinding-bomb"
 anchor = "blinding-bomb"
-print = "When the alchemist creates a bomb, he can choose for it to detonate very brightly. Creatures that take a direct hit from a blinding bomb are [blinded](ref/misc/blinded) for 1 minute unless they succeed at a Fortitude save. Creatures in the splash area that fail their saves against the bomb are [dazzled](ref/misc/dazzled) for 1 minute. This is a light effect. An alchemist must be at least 8th level before selecting this discovery."
+print = "Discoveries that modify bombs and are marked with a single asterisk (\\*) do not stack. Only one such discovery can be applied to an individual bomb.\n\nWhen the alchemist creates a bomb, he can choose for it to detonate very brightly. Creatures that take a direct hit from a blinding bomb are [blinded](ref/misc/blinded) for 1 minute unless they succeed at a Fortitude save. Creatures in the splash area that fail their saves against the bomb are [dazzled](ref/misc/dazzled) for 1 minute. This is a light effect. An alchemist must be at least 8th level before selecting this discovery."
 
 [[entry]]
 id = "ref/discovery/bottled-ooze"
@@ -311,7 +311,7 @@ print = "The alchemist's vestigial limbs are part of a parasitic twin on his tor
 [[entry]]
 id = "ref/discovery/plague-bomb"
 anchor = "plague-bomb"
-print = "The effects of the smoke created by an alchemist's bomb duplicates the effects of _[contagion](ref/spell/contagion)_ instead of _[fog cloud](ref/spell/fog-cloud)_, filling an area equal to twice the bomb's splash area for 1 round per level. An alchemist must be at least 8th level and must have the [smoke bomb](ref/discovery/smoke-bomb) discovery before selecting this discovery."
+print = "Discoveries that modify bombs and are marked with a single asterisk (\\*) do not stack. Only one such discovery can be applied to an individual bomb.\n\nThe effects of the smoke created by an alchemist's bomb duplicates the effects of _[contagion](ref/spell/contagion)_ instead of _[fog cloud](ref/spell/fog-cloud)_, filling an area equal to twice the bomb's splash area for 1 round per level. An alchemist must be at least 8th level and must have the [smoke bomb](ref/discovery/smoke-bomb) discovery before selecting this discovery."
 
 [[entry]]
 id = "ref/discovery/preserve-organs"
@@ -331,12 +331,12 @@ print = "The alchemist can throw bombs that splash in a 40-foot line rather than
 [[entry]]
 id = "ref/discovery/sunlight-bomb"
 anchor = "sunlight-bomb"
-print = "The alchemist can throw bombs that explode with a searing radiance equivalent to that of sunlight and that act as blinding bombs. Undead, fungi, molds, oozes, slimes, and creatures to which sunlight is harmful or unnatural take +2 damage per die from the bomb. Undead that are harmed by sunlight and that fail their saves against the bomb are [staggered](ref/misc/staggered) for 1 round. An alchemist must be at least 10th level and must have the [blinding bomb](ref/discovery/blinding-bomb) discovery before he can select this discovery."
+print = "Discoveries that modify bombs and are marked with a single asterisk (\\*) do not stack. Only one such discovery can be applied to an individual bomb.\n\nThe alchemist can throw bombs that explode with a searing radiance equivalent to that of sunlight and that act as blinding bombs. Undead, fungi, molds, oozes, slimes, and creatures to which sunlight is harmful or unnatural take +2 damage per die from the bomb. Undead that are harmed by sunlight and that fail their saves against the bomb are [staggered](ref/misc/staggered) for 1 round. An alchemist must be at least 10th level and must have the [blinding bomb](ref/discovery/blinding-bomb) discovery before he can select this discovery."
 
 [[entry]]
 id = "ref/discovery/tanglefoot-bomb"
 anchor = "tanglefoot-bomb"
-print = "A creature that takes a direct hit from a tanglefoot bomb must save against the bomb's DC or be [entangled](ref/rule/entangled) and glued to the floor as if it had failed its save against a [tanglefoot bag](ref/eq-weapon/tanglefoot-bag) (see page 160 of the _Core Rulebook_). Creatures in the splash area that fail their saves are entangled but not glued to the floor; those who make this save are not entangled at all."
+print = "Discoveries that modify bombs and are marked with a single asterisk (\\*) do not stack. Only one such discovery can be applied to an individual bomb.\n\nA creature that takes a direct hit from a tanglefoot bomb must save against the bomb's DC or be [entangled](ref/rule/entangled) and glued to the floor as if it had failed its save against a [tanglefoot bag](ref/eq-weapon/tanglefoot-bag) (see page 160 of the _Core Rulebook_). Creatures in the splash area that fail their saves are entangled but not glued to the floor; those who make this save are not entangled at all."
 
 [[entry]]
 id = "ref/discovery/tentacle"
@@ -6066,7 +6066,12 @@ At 10th level, this spell can be cast three times per day by spending 2 addition
 [[entry]]
 id = "ref/evolution/minor-magic"
 anchor = "minor-magic"
-print = "2-Point Evolutions: The following evolutions each cost 2 points from the eidolon's evolution pool.\n\nAn eidolon learns to cast a minor spell as a [spell-like ability](ref/umr/spell-like-abilities). Select one spell from the following list: _[burning hands](ref/spell/burning-hands)_, _[comprehend languages](ref/spell/comprehend-languages)_, _[cure light wounds](ref/spell/cure-light-wounds)_, _[detect chaos/evil/good/law](ref/spell/detect-evil)_, _[magic missile](ref/spell/magic-missile)_, _[obscuring mist](ref/spell/obscuring-mist)_, _[silent image](ref/spell/silent-image)_, _[vanish](ref/spell/vanish)_\\*\\* (self only), or _[ventriloquism](ref/spell/ventriloquism)_. This spell can be cast once per day as a [spell-like ability](ref/umr/spell-like-abilities). At 7th level, this spell can be cast three times per day by spending 2 additional evolution points. The caster level for this evolution is equal to the eidolon's Hit Dice - 2. The save DC for this spell is 10 + 1/2 the eidolon's HD + the eidolon's Charisma modifier. The eidolon must have a Charisma score of at least 11 and must possess the [basic magic](ref/evolution/basic-magic) evolution to take this evolution.\n\nThe summoner must be at least 4th level before selecting this evolution. This evolution can be selected more than once. Each time an eidolon selects this evolution, it applies to a new spell from the above list."
+print = '''
+2-Point Evolutions: The following evolutions each cost 2 points from the eidolon's evolution pool.
+
+An eidolon learns to cast a minor spell as a [spell-like ability](ref/umr/spell-like-abilities). Select one spell from the following list: _[burning hands](ref/spell/burning-hands)_, _[comprehend languages](ref/spell/comprehend-languages)_, _[cure light wounds](ref/spell/cure-light-wounds)_, _[detect chaos/evil/good/law](ref/spell/detect-evil)_, _[magic missile](ref/spell/magic-missile)_, _[obscuring mist](ref/spell/obscuring-mist)_, _[silent image](ref/spell/silent-image)_, _[vanish](ref/spell/vanish)_ (self only), or _[ventriloquism](ref/spell/ventriloquism)_. This spell can be cast once per day as a [spell-like ability](ref/umr/spell-like-abilities). At 7th level, this spell can be cast three times per day by spending 2 additional evolution points. The caster level for this evolution is equal to the eidolon's Hit Dice - 2. The save DC for this spell is 10 + 1/2 the eidolon's HD + the eidolon's Charisma modifier. The eidolon must have a Charisma score of at least 11 and must possess the [basic magic](ref/evolution/basic-magic) evolution to take this evolution.
+
+The summoner must be at least 4th level before selecting this evolution. This evolution can be selected more than once. Each time an eidolon selects this evolution, it applies to a new spell from the above list.'''
 
 [[entry]]
 id = "ref/evolution/no-breath"
@@ -6132,7 +6137,7 @@ print = "The witch gains the [scent](ref/umr/scent) ability, but only with respe
 [[entry]]
 id = "ref/hex/cook-people"
 anchor = "cook-people"
-print = "The witch can create fabulous spells by cooking an intelligent humanoid creature in her [cauldron](ref/hex/cauldron), either alive or dead. Using this hex creates one meal or serving of food of the witch's choice, typically a delicious stew or a dough suitable for cookies, pastries, or other desserts. Cooking the victim takes 1 hour. Eating the food provides one of the following benefits for 1 hour: _[age resistance](ref/spell/age-resistance)_\\*, _[bear's endurance](ref/spell/bears-endurance)_, _[bull's strength](ref/spell/bulls-strength)_, _[cat's grace](ref/spell/cats-grace)_, _[eagle's splendor](ref/spell/eagles-splendor)_, _[fox's cunning](ref/spell/foxs-cunning)_, _[neutralize poison](ref/spell/neutralize-poison)_ (instantaneous) _owl's wisdom, remove disease_ (instantaneous). Alternatively, the witch can shape the dough into a Small, humanlike creature, animating it as a [homunculus](ref/monster/homunculus) for 1 hour. The witch must have the [cauldron](ref/hex/cauldron) hex to select this hex. Using this hex or knowingly eating its food is an evil act."
+print = "The witch can create fabulous spells by cooking an intelligent humanoid creature in her [cauldron](ref/hex/cauldron), either alive or dead. Using this hex creates one meal or serving of food of the witch's choice, typically a delicious stew or a dough suitable for cookies, pastries, or other desserts. Cooking the victim takes 1 hour. Eating the food provides one of the following benefits for 1 hour: _[age resistance](ref/spell/age-resistance)_, _[bear's endurance](ref/spell/bears-endurance)_, _[bull's strength](ref/spell/bulls-strength)_, _[cat's grace](ref/spell/cats-grace)_, _[eagle's splendor](ref/spell/eagles-splendor)_, _[fox's cunning](ref/spell/foxs-cunning)_, _[neutralize poison](ref/spell/neutralize-poison)_ (instantaneous) _[owl's wisdom](ref/spell/owls-wisdom)_, _[remove disease](ref/spell/remove-disease)_ (instantaneous). Alternatively, the witch can shape the dough into a Small, humanlike creature, animating it as a [homunculus](ref/monster/homunculus) for 1 hour. The witch must have the [cauldron](ref/hex/cauldron) hex to select this hex. Using this hex or knowingly eating its food is an evil act."
 
 [[entry]]
 id = "ref/hex/dire-prophecy"

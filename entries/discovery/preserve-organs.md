@@ -13,6 +13,7 @@ page = "17"
 [fields]
 kind = "class_option"
 group = "alchemist-discovery"
+ability_type = "Ex"
 +++
 
 The alchemist learns how to preserve and protect his vital organs, reducing the chance of a mortal

@@ -13,6 +13,7 @@ page = "17"
 [fields]
 kind = "class_option"
 group = "alchemist-discovery"
+ability_type = "Su"
 +++
 
 The alchemist can throw bombs that splash in a 40-foot line rather than affecting a radius. The line

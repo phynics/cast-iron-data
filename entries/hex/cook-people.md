@@ -20,11 +20,12 @@ The witch can create fabulous spells by cooking an intelligent humanoid creature
 [cauldron](ref/hex/cauldron), either alive or dead. Using this hex creates one meal or serving of
 food of the witch's choice, typically a delicious stew or a dough suitable for cookies, pastries, or
 other desserts. Cooking the victim takes 1 hour. Eating the food provides one of the following
-benefits for 1 hour: _[age resistance](ref/spell/age-resistance)_\*,
+benefits for 1 hour: _[age resistance](ref/spell/age-resistance)_,
 _[bear's endurance](ref/spell/bears-endurance)_, _[bull's strength](ref/spell/bulls-strength)_,
 _[cat's grace](ref/spell/cats-grace)_, _[eagle's splendor](ref/spell/eagles-splendor)_,
 _[fox's cunning](ref/spell/foxs-cunning)_, _[neutralize poison](ref/spell/neutralize-poison)_
-(instantaneous) _owl's wisdom, remove disease_ (instantaneous). Alternatively, the witch can shape
-the dough into a Small, humanlike creature, animating it as a [homunculus](ref/monster/homunculus)
-for 1 hour. The witch must have the [cauldron](ref/hex/cauldron) hex to select this hex. Using this
-hex or knowingly eating its food is an evil act.
+(instantaneous) _[owl's wisdom](ref/spell/owls-wisdom)_,
+_[remove disease](ref/spell/remove-disease)_ (instantaneous). Alternatively, the witch can shape the
+dough into a Small, humanlike creature, animating it as a [homunculus](ref/monster/homunculus) for 1
+hour. The witch must have the [cauldron](ref/hex/cauldron) hex to select this hex. Using this hex or
+knowingly eating its food is an evil act.
