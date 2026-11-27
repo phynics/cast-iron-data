@@ -19,8 +19,17 @@ page = "43"
 
 [fields]
 kind = "archetype"
+features = [
+  { anchor = "familiar" },
+  { anchor = "cantrips" },
+  { anchor = "patron" },
+  { anchor = "ice-magic" },
+  { anchor = "cold-flesh", level = 1 },
+  { anchor = "frostfoot" },
+  { anchor = "frozen-caress" },
+]
 trades = [
-  { replaces = "4th-level hex", feature = "hex", levels = [4] },
+  { replaces = "4th-level hex", feature = "hex", levels = [4], by = ["cold-flesh"] },
 ]
 +++
 
@@ -36,66 +45,62 @@ Irrisen, they could be encountered in any part of the Inner Sea region, where th
 Irrisen's notoriety with each frozen spell and manipulative hex they cast. A winter witch has the
 following class features.
 
-**Familiar**
+## Familiar {#familiar}
 
-**Info:** Winter witches must choose a familiar that is native to the frozen north, even if they
-themselves operate in other regions. Traditionally, this limits winter witch
-[familiar](ref/ability/familiars) choices to bat, cat, fox, hawk, owl, rat, raven, or weasel.
+Winter witches must choose a [familiar](ref/ability/familiars) that is native to the frozen north,
+even if they themselves operate in other regions. Traditionally, this limits winter witch familiar
+choices to bat, cat, fox, hawk, owl, rat, raven, or weasel. A winter witch who gains the
+[Improved Familiar](ref/feat/improved-familiar) feat can select any familiar she desires, save for
+familiars with the fire subtype.
 
-**Special:** A winter witch who gains the [Improved Familiar](ref/feat/improved-familiar) feat can
-select any familiar she desires, save for familiars with the fire subtype.
+## Cantrips {#cantrips}
 
-**Cantrips**
-
-**Info:** A winter witch adds [ray of frost](ref/spell/ray-of-frost) to her spell list, but does not
+A winter witch adds _[ray of frost](ref/spell/ray-of-frost)_ to her spell list, but does not
 automatically learn this cantrip.
 
-**Patron**
+## Patron {#patron}
 
-**Info:** A winter witch must choose her patron from one of the following patron themes:
-[ancestors](ref/patron/ancestors), [deception](ref/patron/deception),
-[enchantment](ref/patron/enchantment), [endurance](ref/patron/endurance), [moon](ref/patron/moon),
-[occult](ref/patron/occult), [portents](ref/patron/portents), [stars](ref/patron/stars),
-[transformation](ref/patron/transformation), [trickery](ref/patron/trickery),
-[vengeance](ref/patron/vengeance), [water](ref/patron/water), [winter](ref/patron/winter), or
-[wisdom](ref/patron/wisdom).
+A winter witch must choose her patron from one of the following patron themes:
+[ancestors](ref/patron/ancestors)\*, [deception](ref/patron/deception),
+[enchantment](ref/patron/enchantment)\*, [endurance](ref/patron/endurance),
+[moon](ref/patron/moon)\*, [occult](ref/patron/occult)\*, [portents](ref/patron/portents)\*,
+[stars](ref/patron/stars)\*, [transformation](ref/patron/transformation),
+[trickery](ref/patron/trickery), [vengeance](ref/patron/vengeance)\*, [water](ref/patron/water),
+[winter](ref/patron/winter)\*, or [wisdom](ref/patron/wisdom). An asterisk (\*) indicates that the
+patron theme is detailed in _Ultimate Magic_.
 
-**Ice Magic**
+## Ice Magic {#ice-magic}
 
-**Passive:** When a winter witch casts a spell with the cold descriptor, the save DC of the spell
-increases by 1. A winter witch cannot learn or cast spells with the fire descriptor at all.
+When a winter witch casts a spell with the cold descriptor, the save DC of the spell increases by 1.
+A winter witch cannot learn or cast spells with the fire descriptor at all.
 
-**Cold Flesh (Ex)**
+## Cold Flesh (Ex) {#cold-flesh}
 
-**At 1st Level:** A winter witch gains [endure elements](ref/spell/endure-elements) as a constant
-[spell-like ability](ref/umr/spell-like-abilities), but only against cold temperatures.
+At 1st level, a winter witch gains _[endure elements](ref/spell/endure-elements)_ as a constant
+[spell-like ability](ref/umr/spell-like-abilities), but only against cold temperatures. At 4th
+level, she gains cold resistance 5, making her comfortable in near-freezing temperatures. At
+9th-level, this increases to cold resistance 10, and at 14th level, it becomes immunity to cold.
+This replaces the witch's 4th-level hex.
 
-**At 14th Level:** It becomes immunity to cold.
+## Hexes {#hexes}
 
-**At 4th Level:** She gains cold resistance 5, making her comfortable in near-freezing temperatures.
+The following hexes complement the winter witch archetype: beast eye\*, blight, cook people\*, evil
+eye, feral speech\*, hag's eye, hoarfrost\*, ice tomb\*, witch's hut.\* An asterisk (\*) indicates
+that the hex is detailed in _Ultimate Magic_.
 
-**At 9th Level:** This increases to cold resistance 10.
+A winter witch can select the following hexes:
 
-**Replaces:** 4th-level hex
+## Frostfoot (Su) {#frostfoot}
 
-**Hexes**
+This ability works like the _[spider climb](ref/spell/spider-climb)_ spell, but the surfaces the
+witch climbs must be icy. The witch can move across icy surfaces without penalty and does not need
+to make [Acrobatics](ref/skill/acrobatics) checks to run or charge on ice. She can move across
+regular [snow](ref/rule/rain-snow-sleet-and-hail) without penalty, and heavy snow costs her only 2
+squares of movement instead of 4.
 
-**Ability:** A winter witch can select the following hexes.
+## Frozen Caress (Su) {#frozen-caress}
 
-**Frostfoot (Su)**
-
-**Ability:** This ability works like the [spider climb](ref/spell/spider-climb) spell, but the
-surfaces the witch climbs must be icy. The witch can move across icy surfaces without penalty and
-does not need to make [Acrobatics](ref/skill/acrobatics) checks to run or charge on ice. She can
-move across regular [snow](ref/rule/rain-snow-sleet-and-hail) without penalty, and heavy snow costs
-her only 2 squares of movement instead of 4.
-
-**Frozen Caress (Su)**
-
-**Swift:** Whenever the winter witch casts a touch spell, she can infuse the magic with cold. This
-grants the spell the [cold](ref/spelldef/cold) descriptor, and adds 1d4 points of cold damage to the
-spell's effect. If the touch spell allows a saving throw, a successful save negates this additional
-cold damage.
-
-**The following hexes complement this archetype:** Beast eye, blight, cook people, evil eye, feral
-speech, hag's eye, hoarfrost, ice tomb, witch's hut
+Whenever the winter witch casts a touch spell, she can infuse the magic with
+[cold](ref/spelldef/cold) as a swift action. This grants the spell the cold descriptor, and adds 1d4
+points of cold damage to the spell's effect. If the touch spell allows a saving throw, a successful
+save negates this additional cold damage.
