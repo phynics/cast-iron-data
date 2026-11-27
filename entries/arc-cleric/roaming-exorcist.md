@@ -16,10 +16,18 @@ page = "18"
 
 [fields]
 kind = "archetype"
+features = [
+  { anchor = "dedicated-wanderer", level = 1 },
+  { anchor = "unseen-revealed", level = 1 },
+  { anchor = "spirit-sleuth", level = 2 },
+  { anchor = "curse-seeker", level = 5 },
+  { anchor = "dispossession", level = 8 },
+  { anchor = "curse-eater", level = 11 },
+]
 trades = [
-  { alters = "Domains", feature = "domains" },
-  { alters = "channel energy", feature = "channel-energy" },
-  { alters = "armor proficiency", feature = "weapon-and-armor-proficiencies", power = "armor" },
+  { alters = "Domains", feature = "domains", by = ["dedicated-wanderer"] },
+  { alters = "channel energy", feature = "channel-energy", by = ["dedicated-wanderer"] },
+  { alters = "armor proficiency", feature = "weapon-and-armor-proficiencies", power = "armor", by = ["dedicated-wanderer"] },
 ]
 +++
 
@@ -27,72 +35,55 @@ The roaming exorcist travels far and wide to root out possessions, hauntings, an
 roaming exorcist extracts unruly spirits from not only victims of possession, but also haunted sites
 and accursed items.
 
-**Skill Ranks per Level**
+## Skill Ranks per Level {#skill-ranks-per-level}
 
-**Info:** 4 + Int modifier.
+4 + Int modifier.
 
-**Dedicated Wanderer**
+## Dedicated Wanderer {#dedicated-wanderer}
 
-**Alters:** Domains, channel energy, armor proficiency
-
-**Flavor:** A roaming exorcist is dedicated to her cause and affords no time to other pursuits
-typical of clerics.
-
-**Info:** A roaming exorcist must choose to channel positive energy. She may choose only one domain
+A roaming exorcist is dedicated to her cause and affords no time to other pursuits typical of
+clerics. A roaming exorcist must choose to channel positive energy. She may choose only one domain
 from her deity's list of domains, rather than the normal two domains, and she does not gain Medium
 Armor Proficiency or Shield Proficiency.
 
-**Unseen Revealed (Ex)**
+## Unseen Revealed (Ex) {#unseen-revealed}
 
-**Gained:** At 1st Level
+At 1st level, a roaming exorcist gains a bonus equal to 1/2 her cleric level (minimum +1) on
+Perception checks to detect haunts and incorporeal creatures and on Sense Motive checks to determine
+whether a creature is possessed, under the effects of an enchantment or curse, or otherwise
+magically controlled.
 
-**Passive:** A roaming exorcist gains a bonus equal to [half](ref/misc/fractions-and-rounding) her
-cleric level (minimum +1) on Perception checks to detect haunts and incorporeal creatures and on
-Sense Motive checks to determine whether a creature is possessed, under the effects of an
-enchantment or curse, or otherwise magically controlled.
+## Spirit Sleuth (Ex) {#spirit-sleuth}
 
-**Spirit Sleuth (Ex)**
-
-**Free:** Upon interacting with a rejuvenating spirit or haunt for the first time (such as by
+At 2nd level, upon interacting with a rejuvenating spirit or haunt for the first time (such as by
 attacking the spirit or channeling energy to damage the haunt), a roaming exorcist can attempt a
-Sense Motive check to determine the specific course of action required to permanently neutralize the
-spirit or haunt (DC = 10 + the undead creature's Hit Dice or the haunt's CR).
+Sense Motive check as a free action to determine the specific course of action required to
+permanently neutralize the spirit or haunt (DC = 10 + the undead creature's Hit Dice or the haunt's
+CR).
 
-**Gained:** At 2nd Level
+## Curse Seeker (Su) {#curse-seeker}
 
-**Curse Seeker (Su)**
+At 5th level, a roaming exorcist can more readily identify cursed items. When identifying a magic
+item, the roaming exorcist needs to exceed the item's DC by only 5 (instead of by 10) in order to
+determine whether the item is cursed.
 
-**Flavor:** A roaming exorcist can more readily identify cursed items.
+## Dispossession (Su) {#dispossession}
 
-**Gained:** At 5th Level
-
-**Passive:** When identifying a magic item, the roaming exorcist needs to exceed the item's DC by
-only 5 (instead of by 10) in order to determine whether the item is cursed.
-
-**Dispossession (Su)**
-
-**Ability:** A roaming exorcist can expend one use of her _channel energy_ ability to force a
+At 8th level, a roaming exorcist can expend one use of her channel energy ability to force a
 possessing creature from its host body. The exorcist must make a melee touch attack against the
 possessed creature; if successful, the roaming exorcist deals damage to the possessing creature as
-if it were targeted by the roaming exorcist's _channel energy_ ability (regardless of the possessing
+if it were targeted by the roaming exorcist's channel energy ability (regardless of the possessing
 creature's creature type), and the possession effect ceases as the possessing creature is ejected
-from the host body. A successful Will save (DC = the roaming exorcist's _channel energy_ DC) halves
+from the host body. A successful Will save (DC = the roaming exorcist's channel energy DC) halves
 the damage taken, and the possessing creature resists being ejected from its host.
 
-**Gained:** At 8th Level
+## Curse Eater (Su) {#curse-eater}
 
-**Curse Eater (Su)**
-
-**Ability:** A roaming exorcist gains [Improved Disarm](ref/feat/improved-disarm) as a bonus feat,
-regardless of whether she meets the feat's prerequisites.
-
-**Gained:** At 11th Level
-
-**Passive:** The roaming exorcist gains a +2 bonus on combat maneuver checks to disarm a creature of
-a magic item she knows to be cursed.
-
-**Special:** If the roaming exorcist successfully disarms a creature of a cursed item without using
-a weapon, she may automatically pick up the disarmed cursed item without immediately succumbing to
-the item's curse. She may wield or hold this cursed item for a number of rounds equal to her
-Charisma modifier (minimum 1 round) - during which time she may use the item normally, as if it were
-not cursed - before the item's curse manifests again.
+At 11th level, a roaming exorcist gains [Improved Disarm](ref/feat/improved-disarm) as a bonus feat,
+regardless of whether she meets the feat's prerequisites. The roaming exorcist gains a +2 bonus on
+combat maneuver checks to disarm a creature of a magic item she knows to be cursed. If the roaming
+exorcist successfully disarms a creature of a cursed item without using a weapon, she may
+automatically pick up the disarmed cursed item without immediately succumbing to the item's curse.
+She may wield or hold this cursed item for a number of rounds equal to her Charisma modifier
+(minimum 1 round)—during which time she may use the item normally, as if it were not cursed—before
+the item's curse manifests again.

@@ -16,100 +16,70 @@ page = "24"
 
 [fields]
 kind = "archetype"
+features = [
+  { anchor = "undead-exterminator", level = 1 },
+  { anchor = "disrupt-control", level = 5 },
+  { anchor = "graveyard-stride", level = 7 },
+  { anchor = "incorporeal-armament", level = 8 },
+]
 trades = [
-  { replaces = "Woodland stride", feature = "woodland-stride" },
-  { replaces = "Swift tracker", feature = "swift-tracker" },
+  { replaces = "Woodland stride", feature = "woodland-stride", by = ["graveyard-stride"] },
+  { replaces = "Swift tracker", feature = "swift-tracker", by = ["incorporeal-armament"] },
 ]
 +++
 
-Many rangers count the undead among their _favored enemies,_ but some make a full-time job out of
+Many rangers count the undead among their favored enemies, but some make a full-time job out of
 hunting down and destroying these walking corpses. A corpse hunter has the following class features.
 
-**Gained class skills:** kr
+## Class Skills {#class-skills}
 
-**Lost class skills:** kna
+A corpse hunter adds Knowledge (religion) to his list of class skills, and removes Knowledge
+(nature) from his list of class skills.
 
-**Spells**
+## Spells {#spells}
 
-**Info:** In addition to the default spells on the ranger spell list, a corpse hunter adds the
-following to his list of spells at the indicated spell levels.
+In addition to the default spells on the ranger spell list, a corpse hunter adds the following to
+his list of spells at the indicated spell levels: 1st—_bless water_, _detect undead_, _hide from
+undead_, _sanctify corpse_, 2nd—_halt undead_, 3rd—_speak with dead_, 4th—_searing light_.
 
-**Spells:** Bless water, detect undead, hide from undead, sanctify corpse
+## Undead Exterminator {#undead-exterminator}
 
-**Spells:** Halt undead
-
-**Spells:** Speak with dead
-
-**Spells:** Searing light
-
-**Undead Exterminator**
-
-**Info:** A corpse hunter must select undead as his first and only _favored enemy,_ granting him a
+At 1st level, a corpse hunter must select undead as his first and only favored enemy, granting him a
 +2 bonus on Bluff, Knowledge, Perception, Sense Motive, and Survival checks when dealing with
-creatures of the undead type and a +2 bonus on weapon attack and damage rolls against undead.
+creatures of the undead type and a +2 bonus on weapon attack and damage rolls against undead. A
+corpse hunter does not gain additional favored enemies at 5th, 10th, 15th, and 20th level, though
+his favored enemy bonus against undead creatures increases by 2 at each of these levels (to a
+maximum bonus of +10 at 20th level).
 
-**Gained:** At 1st Level
+## Disrupt Control (Su) {#disrupt-control}
 
-At 5th level: He does not gain an additional _favored enemy,_ but his bonuses against undead
-increase to +4.
+At 5th level, a corpse hunter can infuse his attacks with divine power capable of harming an undead
+creature as well as its controller. As a standard action, the corpse hunter can make a single melee
+attack against an undead creature, or a single ranged attack against an undead creature within 30
+feet. If the attack is successful, he deals 1d4 points of
+[Charisma damage](ref/rule/ability-damage-drain) to the target undead creature in addition to normal
+damage. If the target undead creature is being controlled by another creature within 120 feet, the
+controller takes 1d4 points of Charisma damage as well; unlike the initial target, the controller
+may attempt a Will save (DC = 10 + 1/2 the corpse hunter's class level + the corpse hunter's Wisdom
+modifier) to halve the damage she would take from this attack. A corpse hunter can use this ability
+once per day at 5th level, plus an additional time per day at 10th level, 15th level, and 20th
+level. The amount of Charisma damage dealt increases to 1d6 at 10th level, 1d8 at 15th level, and
+2d4 at 20th level.
 
-At 10th level: He does not gain an additional _favored enemy,_ but his bonuses against undead
-increase to +6.
+## Graveyard Stride (Ex) {#graveyard-stride}
 
-At 15th level: He does not gain an additional _favored enemy,_ but his bonuses against undead
-increase to +8.
-
-At 20th level: He does not gain an additional _favored enemy,_ but his bonuses against undead
-increase to +10.
-
-**Disrupt Control (Su)**
-
-**Flavor:** A corpse hunter can infuse his attacks with divine power capable of harming an undead
-creature as well as its controller.
-
-**At 10th Level:** The amount of Charisma damage dealt increases to 1d6.
-
-**At 15th Level:** The amount of Charisma damage dealt increases to 1d8.
-
-**At 20th Level:** The amount of Charisma damage dealt increases to 2d4.
-
-**Gained:** At 5th Level
-
-**Standard:** The corpse hunter can make a single melee attack against an undead creature, or a
-single ranged attack against an undead creature within 30 feet. If the attack is successful, he
-deals 1d4 points of [Charisma damage](ref/rule/ability-damage-drain) to the target undead creature
-in addition to normal damage. If the target undead creature is being controlled by another creature
-within 120 feet, the controller takes 1d4 points of Charisma damage as well; unlike the initial
-target, the controller may attempt a Will save (DC = 10 + 1/2 the corpse hunter's class level + the
-corpse hunter's Wisdom modifier) to halve the damage she would take from this attack.
-
-**Usage:** 1 time/day per 5 ranger levels
-
-**Graveyard Stride (Ex)**
-
-**Gained:** At 7th Level
-
-**Passive:** A corpse hunter may move easily through
+At 7th level, a corpse hunter may move easily through
 [difficult terrain](ref/rule/terrain-and-obstacles) in areas where corpses are interred, such as
 graveyards, catacombs, crypts, or necropolises. When in such an environment, the corpse hunter may
 move at his normal speed without taking damage or suffering any impairment, although any magical
-effects and enchantments that impair movement still affect him.
+effects and enchantments that impair movement still affect him. This ability replaces woodland
+stride.
 
-**Replaces:** Woodland stride
+## Incorporeal Armament (Su) {#incorporeal-armament}
 
-**Incorporeal Armament (Su)**
-
-**Flavor:** A corpse hunter can channel his will into any weapon he wields, making it effective
-against incorporeal undead.
-
-**Free:** The corpse hunter can end this ability.
-
-**Gained:** At 8th Level
-
-**Replaces:** Swift tracker
-
-**Swift:** A corpse hunter may imbue a single wielded weapon with the
-[ghost touch](ref/magic-enh/ghost-touch-weapon) special ability, causing it to deal damage normally
-against incorporeal creatures.
-
-**Usage:** 2 times/day per ranger level
+At 8th level, a corpse hunter can channel his will into any weapon he wields, making it effective
+against incorporeal undead. A corpse hunter may imbue a single wielded weapon with the
+[ghost touch](ref/magic-enh/ghost-touch-weapon) special ability as a swift action, causing it to
+deal damage normally against incorporeal creatures. The corpse hunter may use this ability for a
+number of rounds per day equal to half his ranger level; these rounds need not be consecutive. The
+corpse hunter can end this ability as a free action. This ability replaces swift tracker.
