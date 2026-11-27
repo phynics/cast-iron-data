@@ -1076,7 +1076,7 @@ def citation_re() -> re.Pattern:
         path = HERE.parent / "publications.toml"
         data = tomllib.loads(path.read_text(encoding="utf-8")) if path.exists() else {}
         PUBLICATION_TITLES.extend(sorted({x["title"] for x in data.get("publication", []) if x.get("title")}, key=len, reverse=True))
-    alt = "|".join(re.escape(x) for x in PUBLICATION_TITLES) or "(?!)"
+    alt = "|".join(re.escape(x).replace("\\'", "['\u2019]").replace("'", "['\u2019]") for x in PUBLICATION_TITLES) or "(?!)"           # the title with the apostrophe of the text layer ("Advanced Player\u2019s Guide")
     return re.compile(r"\s*\((?:Pathfinder RPG |Pathfinder Roleplaying Game |Pathfinder )?(?:" + alt + r") \d+(?:[-\u2013]\d+)?\)")
 
 
@@ -1759,7 +1759,7 @@ def class_option_errata(corpus: Path, entry_id: str, text: str) -> str:
         return text
     with path.open(encoding="utf-8", newline="") as f:
         fixes = [(r["printed_value"], r["kept_value"]) for r in csv.DictReader(f, delimiter="\t")
-                 if r["entry"] == entry_id and r["decision"] == "misprint-fix"]
+                 if r["entry"] == entry_id and r["decision"] in ("misprint-fix", "keep") and r["printed_value"] and r["kept_value"]]       # a kept Paizo errata is written as the errata has it
     return apply_errata_text(text, fixes)
 
 
@@ -2934,6 +2934,9 @@ def self_test() -> int:
        ["While raging and mounted, the barbarian's mount gains the trample special attack (Pathfinder RPG Bestiary 305)."], "a citation with no link in its place is a loss")
     eq(print_lost("While raging and mounted, the barbarian's mount gains the trample special attack (Pathfinder RPG Bestiary 305).", "While raging and mounted, the barbarian's mount gains the [trample](ref/umr/trample) special attack (Pathfinder RPG Bestiary 306)."),
        ["While raging and mounted, the barbarian's mount gains the trample special attack (Pathfinder RPG Bestiary 305)."], "a citation with another page is no match")
+    eq(print_lost("A hunter may teach her companion tricks from the skirmisher ranger archetype (Pathfinder RPG Advanced Player\u2019s Guide 128) instead of standard tricks.",
+                  "A hunter may teach her companion tricks from the [skirmisher](ref/arc-ranger/skirmisher) ranger archetype instead of standard tricks."), [],
+       "ruling 26: a citation whose title is set with the apostrophe of the text layer goes where a link stands")
     eq(print_lost("The barbarian can make an overrun attempt against any creature that she charges at the end of her move, as a free action (Core Rulebook 443).",
                   "The [barbarian](ref/class/barbarian) can make an overrun attempt against any creature that she charges at the end of her move, as a free action."),
        ["The barbarian can make an overrun attempt against any creature that she charges at the end of her move, as a free action (Core Rulebook 443)."],

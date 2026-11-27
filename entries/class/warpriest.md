@@ -19,6 +19,21 @@ kind = "class"
 class_type = "hybrid"
 hit_die = "d8"
 skill_ranks = "2 + Int modifier"
+features = [
+  { anchor = "spells" },
+  { anchor = "orisons", level = 1 },
+  { anchor = "spontaneous-casting" },
+  { anchor = "chaotic-evil-good-and-lawful-spells" },
+  { anchor = "bonus-languages" },
+  { anchor = "aura", level = 1 },
+  { anchor = "blessings", level = 1 },
+  { anchor = "focus-weapon", level = 1 },
+  { anchor = "sacred-weapon", level = 1 },
+  { anchor = "fervor", level = 2 },
+  { anchor = "channel-energy", level = 4 },
+  { anchor = "sacred-armor", level = 7 },
+  { anchor = "aspect-of-war", level = 20 },
+]
 +++
 
 Capable of calling upon the power of the gods in the form of blessings and spells, warpriests blend
@@ -78,307 +93,263 @@ law/chaos axis or the good/evil axis.
 |19th|+14/+9/+4|+11|+6|+11|Sacred armor +5|2d6|5|5|5|5|5|5|4|
 |20th|+15/+10/+5|+12|+6|+12|Aspect of war, fervor 7d6, sacred weapon +5|2d8|5|5|5|5|5|5|5|
 
+### Class Features {#class-features}
+
+The following are the class features of the warpriest.
+
 #### Weapon and Armor Proficiencies {#weapon-and-armor-proficiencies}
 
-**Weapons:** All simple weapons, All martial weapons, The favored weapon of your deity
-
-**Armor:** Light armor, Medium armor, Heavy armor
-
-**Shields:** Yes, except tower shields
-
-**Notes:** If you worship a deity with unarmed strike as its favored weapon, you gain
+A warpriest is proficient with all simple and martial weapons, as well as the favored weapon of his
+deity, and with all armor (heavy, light, and medium) and shields (except tower shields). If the
+warpriest worships a deity with unarmed strike as its favored weapon, the warpriest gains
 [Improved Unarmed Strike](ref/feat/improved-unarmed-strike) as a bonus feat.
 
 #### Spells {#spells}
 
-**Spell list:** Divine spells from the warpriest list, from 1st level
+A warpriest casts divine spells drawn from the cleric spell list. His alignment, however, can
+restrict him from casting certain spells opposed to his moral or ethical beliefs; see the Chaotic,
+Evil, Good, and Lawful Spells section on page 62. A warpriest must choose and prepare his spells in
+advance.
 
-**Key ability:** Wisdom. Minimum score 10 + spell level; save DC 10 + spell level + Wisdom modifier;
-a high score grants bonus spells per day.
+A warpriest's highest level of spells is 6th. Cleric spells of 7th level and above are not on the
+warpriest class spell list, and a warpriest cannot use spell completion or spell trigger magic items
+(without making a successful Use Magic Device check) of cleric spells of 7th level or higher.
 
-**Casting:** Prepared: choose and prepare spells in advance.
+To prepare or cast a spell, a warpriest must have a Wisdom score equal to at least 10 + the spell's
+level. The saving throw DC against a warpriest's spell is 10 + the spell's level + the warpriest's
+Wisdom modifier.
 
-**Notes:** Alignment can bar spells opposed to it. Regains spells after 1 hour in contemplation or
-prayer each day; any spell on the list can be prepared.
+Like other spellcasters, a warpriest can cast only a certain number of spells of each spell level
+per day. His base daily spell allotment is given on Table 1–14. In addition, he receives bonus
+spells per day if he had a high Wisdom score (see Table 1–3 on page 17 of the _Core Rulebook_).
+
+Warpriests meditate or pray for their spells. Each warpriest must choose a time when he must spend 1
+hour each day in quiet contemplation or supplication to regain his daily allotment of spells. A
+warpriest can prepare and cast any spell on the cleric spell list, provided that he can cast spells
+of that level, but he must choose which spells to prepare during his daily meditation.
 
 #### Orisons {#orisons}
 
-**Ability:** 0-level divine spells. Prepared like other spells but not expended when cast; one
-placed in a higher slot (for example through metamagic) uses that slot.
+Warpriests can prepare a number of orisons, or 0-level spells, each day as noted on Table 1–14.
+These spells are cast as any other spell, but aren't expended when cast and can be used again.
 
 #### Spontaneous Casting {#spontaneous-casting}
 
-**Ability:** If you are good (or a neutral warpriest of a good deity), you can "lose" any prepared
-spell that is not an orison in order to cast any _cure_ spell of the same spell level or lower. If
-you are evil (or a neutral warpriest of an evil deity), you can convert spells to _inflict_ spells.
+A good warpriest (or a neutral warpriest of a good deity) can channel stored spell energy into
+healing spells that he did not prepare ahead of time. The warpriest can expend any prepared spell
+that isn't an orison to cast any cure spell of the same spell level or lower. A cure spell is any
+spell with "cure" in its name.
 
-**Flavor:** A good warpriest (or a neutral warpriest of a good deity) can channel stored spell
-energy into healing spells that he did not prepare ahead of time.
+An evil warpriest (or a neutral warpriest of an evil deity) can't convert spells to cure spells, but
+can convert them to inflict spells. An inflict spell is any spell with "inflict" in its name.
 
-**Gained:** At 1st Level
-
-**Special:** If you are neither good nor evil and your deity is neither good nor evil, you choose
-whether you can convert spells into either _cure spells_ or _inflict spells._ Once this choice is
-made, it cannot be changed. This choice also determines whether you channel positive or negative
-energy (see below).
-
-A _cure spell_ is any spell with "cure" in its name, while an _inflict spell_ is one with "inflict"
-in its name. These spells are grouped here.
+A warpriest that is neither good nor evil and whose deity is neither good nor evil chooses whether
+he can convert spells into either cure spells or inflict spells. Once this choice is made, it cannot
+be changed. This choice also determines whether the warpriest channels positive or negative energy
+(see Channel Energy, below).
 
 #### Chaotic, Evil, Good, and Lawful Spells {#chaotic-evil-good-and-lawful-spells}
 
-**Section:** Aligned Spells
-
-**Passive:** You can't cast spells of an alignment opposed to your own or your deity's (if you have
-one). Spells associated with particular alignments are indicated by the chaos, evil, good, and law
-descriptors in their spell descriptions.
+A warpriest cannot cast spells of an alignment opposed to his own or his deity's (if he has a
+deity). Spells associated with particular alignments are indicated by the chaotic, evil, good, and
+lawful descriptors in their spell descriptions.
 
 #### Bonus Languages {#bonus-languages}
 
-**Gained:** At 1st Level
-
-**Passive:** Your bonus language options include Abyssal, Celestial, and Infernal. These choices are
-in addition to the bonus languages available because of your race.
+A warpriest's bonus language options include Abyssal, Celestial, and Infernal. These choices are in
+addition to the bonus languages available to the character because of his race.
 
 #### Aura (Ex) {#aura}
 
-**Gained:** At 1st Level
-
-**Passive:** If you are a warpriest of a chaotic, evil, good, or lawful deity, you have a
-particularly powerful aura (as a [cleric](ref/class/cleric)) corresponding to your deity's alignment
-(see [detect evil](ref/spell/detect-evil)).
+A warpriest of a chaotic, evil, good, or lawful deity has a particularly powerful aura (as a
+[cleric](ref/class/cleric)) corresponding to the deity's alignment (see
+_[detect evil](ref/spell/detect-evil)_ on page 266 of the _Core Rulebook_ for details).
 
 #### Blessings (Su) {#blessings}
 
-**Ability:** You can select two [blessings](ref/ability/blessings) from among those granted by your
-deity (each deity grants the blessings tied to its domains), obtaining each blessing's **minor**
-power.
+A warpriest's deity influences his alignment, what magic he can perform, his values, and how others
+see him. Each warpriest can select two [blessings](ref/ability/blessings) from among those granted
+by his deity (each deity grants the blessings tied to its domains). A warpriest can select an
+alignment blessing ([Chaos](ref/blessing/chaos), [Evil](ref/blessing/evil),
+[Good](ref/blessing/good), or [Law](ref/blessing/law)) only if his alignment matches that domain. If
+a warpriest isn't devoted to a particular deity, he still selects two blessings to represent his
+spiritual inclinations and abilities, subject to GM approval. The restriction on alignment domains
+still applies.
 
-**Flavor:** A warpriest's deity influences his alignment, what magic he can perform, his values, and
-how others see him.
+Each blessing grants a minor power at 1st level and a major power at 10th level. A warpriest can
+call upon the power of his blessings a number of times per day (in any combination) equal to 3 + 1/2
+his warpriest level (to a maximum of 13 times per day at 20th level). Each time he calls upon any
+one of his blessings, it counts against his daily limit. The save DC for these blessings is equal to
+10 + 1/2 the warpriest's level + the warpriest's Wisdom modifier.
 
-**At 10th Level:** You obtain the **major** power of each of your blessings.
-
-**Gained:** At 1st Level
-
-**Special:** You can select an alignment blessing ([Chaos](ref/blessing/chaos),
-[Evil](ref/blessing/evil), [Good](ref/blessing/good), or [Law](ref/blessing/law)) only if your
-alignment matches that domain. If you aren't devoted to a particular deity, you still select two
-blessings to represent your spiritual inclinations and abilities, subject to GM approval. The
-restriction on alignment domains still applies.
-
-**Standard:** Unless otherwise stated, using a blessing is a standard action that does not provoke
-an attack of opportunity. Each time you call upon any one of your blessings, it counts against your
-daily limit.
-
-**Usage:** 3 times/day + [half](ref/misc/fractions-and-rounding) your warpriest level
-
-**Usage:** 3 times/day + [half](ref/misc/fractions-and-rounding) your warpriest level
+If a warpriest also has levels in a class that grants cleric domains, the blessings chosen must
+match the domains selected by that class. Subject to GM discretion, the warpriest can change his
+former blessings or domains to make them conform.
 
 #### Focus Weapon {#focus-weapon}
 
-**Ability:** You receive [Weapon Focus](ref/feat/weapon-focus) as a bonus feat (you can choose any
-weapon, not just your deity's favored weapon).
-
-**Section:** Focus and Sacred Weapon
-
-**Gained:** At 1st Level
-
-A warpriest may receive the [Modified Weapon Proficiency](ref/feat/modified-weapon-proficiency) feat
-instead of Weapon Focus, but only if he selects his deity's favored weapon. -- _Adventurer's Armory
-2 pg. 11_
+At 1st level, a warpriest receives [Weapon Focus](ref/feat/weapon-focus) as a bonus feat (he can
+choose any weapon, not just his deity's favored weapon).
 
 #### Sacred Weapon (Su) {#sacred-weapon}
 
-**Ability:** In addition to the favored weapon of your deity, you can designate a weapon as a sacred
-weapon by selecting that weapon with the Weapon Focus feat; if you have multiple Weapon Focus feats,
-this ability applies to all of them.
+At 1st level, weapons wielded by a warpriest are charged with the power of his faith. In addition to
+the favored weapon of his deity, the warpriest can designate a weapon as a sacred weapon by
+selecting that weapon with the Weapon Focus feat; if he has multiple Weapon Focus feats, this
+ability applies to all of them. Whenever the warpriest hits with his sacred weapon, the weapon
+damage is based on his level and not the weapon type. The damage for Medium warpriests is listed on
+Table 1–14; see the table below for Small and Large warpriests. The warpriest can decide to use the
+weapon's base damage instead of the sacred weapon damage—this must be declared before the attack
+roll is made. (If the weapon's base damage exceeds the sacred weapon damage, its damage is
+unchanged.) This increase in damage does not affect any other aspect of the weapon, and doesn't
+apply to alchemical items, bombs, or other weapons that only deal energy damage.
 
-**Action:** At 4th Level
+|Level|Damage (Small)|Damage (Large)|
+| --- | --- | --- |
+|1st–4th|1d4|1d8|
+|5th–9th|1d6|2d6|
+|10th–14th|1d8|2d8|
+|15th–19th|1d10|3d6|
+|20th|2d6|3d8|
 
-**Flavor:** Weapons wielded by a warpriest are charged with the power of his faith.
+At 4th level, the warpriest gains the ability to enhance one of his sacred weapons with divine power
+as a swift action. This power grants the weapon a +1 enhancement bonus. For every 4 levels beyond
+4th, this bonus increases by 1 (to a maximum of +5 at 20th level). If the warpriest has more than
+one sacred weapon, he can enhance another on the following round by using another swift action. The
+warpriest can use this ability a number of rounds per day equal to his warpriest level, but these
+rounds need not be consecutive.
 
-**Gained:** At 1st Level
-
-**Passive:** Whenever you hit with your sacred weapon, the weapon damage is based on your size and
-level and not the weapon type. (Only Medium warpriest damage is listed above; see the table below if
-you are Small or Large.) You can decide to use the weapon's base damage instead of the sacred weapon
-damage - this must be declared before the attack roll is made. (If the weapon's base damage exceeds
-the sacred weapon damage, its damage is unchanged.) This increase in damage does not affect any
-other aspect of the weapon, and doesn't apply to alchemical items, bombs, or other weapons that only
-deal energy damage.
-
-You gain the ability to enhance one of your sacred weapons with divine power as a **swift action**.
-This power grants the weapon an enhancement bonus. This bonus is equal to one-fourth of your
-warpriest level; see the table below. If you have more than one sacred weapon, you can enhance
-another on the following round by using another swift action. You can use this ability a number of
-rounds per day equal to your warpriest level, but these rounds need not be consecutive.
-
-|Level|Damage (Small)|Damage (Medium)|Damage (Large)|Enhancement Bonus|
-| --- | --- | --- | --- | --- |
-|1st-4th|1d4|1d6|1d8|-|
-|5th-7th|1d6|1d8|2d6|+1|
-|8th-9th|1d6|1d8|2d6|+2|
-|10th-11th|1d8|1d10|2d8|+2|
-|10th-14th|1d8|1d10|2d8|+3|
-|15th-19th|1d10|2d6|3d6|+4|
-|15th-19th|1d10|2d6|3d6|+4|
-|20th|2d6|2d8|3d8|+5|
-
-These bonuses stack with any existing bonuses the weapon might have, to a maximum of +5. You can
-enhance a weapon with any of the following weapon special abilities:
-[brilliant energy](ref/magic-enh/brilliant-energy), [defending](ref/magic-enh/defending),
-[disruption](ref/magic-enh/disruption), [flaming](ref/magic-enh/flaming),
-[frost](ref/magic-enh/frost), [keen](ref/magic-enh/keen), and [shock](ref/magic-enh/shock). In
-addition, if you are chaotic, you can add [anarchic](ref/magic-enh/anarchic) and
-[vicious](ref/magic-enh/vicious). If you are evil, you can add
-[mighty cleaving](ref/magic-enh/mighty-cleaving) and [unholy](ref/magic-enh/unholy). If you are
-good, you can add [ghost touch](ref/magic-enh/ghost-touch-weapon) and [holy](ref/magic-enh/holy). If
-you are lawful, you can add [axiomatic](ref/magic-enh/axiomatic) and
-[merciful](ref/magic-enh/merciful). If you are neutral (with no other alignment components), you can
-add [spell storing](ref/magic-enh/spell-storing) and [thundering](ref/magic-enh/thundering). Adding
-any of these special abilities replaces an amount of bonus equal to the special ability's base cost.
-Duplicate abilities do not stack. The weapon must have at least a +1 enhancement bonus before any
-other special abilities can be added.
+These bonuses stack with any existing bonuses the weapon might have, to a maximum of +5. The
+warpriest can enhance a weapon with any of the following weapon special abilities:
+_[brilliant energy](ref/magic-enh/brilliant-energy)_, _[defending](ref/magic-enh/defending)_,
+_[disruption](ref/magic-enh/disruption)_, _[flaming](ref/magic-enh/flaming)_,
+_[frost](ref/magic-enh/frost)_, _[keen](ref/magic-enh/keen)_, and _[shock](ref/magic-enh/shock)_. In
+addition, if the warpriest is chaotic, he can add _[anarchic](ref/magic-enh/anarchic)_ and
+_[vicious](ref/magic-enh/vicious)_. If he is evil, he can add
+_[mighty cleaving](ref/magic-enh/mighty-cleaving)_ and _[unholy](ref/magic-enh/unholy)_. If he is
+good, he can add _[ghost touch](ref/magic-enh/ghost-touch-weapon)_ and _[holy](ref/magic-enh/holy)_.
+If he is lawful, he can add _[axiomatic](ref/magic-enh/axiomatic)_ and
+_[merciful](ref/magic-enh/merciful)_. If he is neutral (with no other alignment components), he can
+add _[spell storing](ref/magic-enh/spell-storing)_ and _[thundering](ref/magic-enh/thundering)_.
+Adding any of these special abilities replaces an amount of bonus equal to the special ability's
+base cost (see Table 15–9 on page 469 of the _Core Rulebook_). Duplicate abilities do not stack. The
+weapon must have at least a +1 enhancement bonus before any other special abilities can be added.
 
 If multiple weapons are enhanced, each one consumes rounds of use individually. The enhancement
 bonus and special abilities are determined the first time the ability is used each day, and cannot
 be changed until the next day. These bonuses do not apply if another creature is wielding the
-weapon, but they continue to be in effect if the weapon otherwise leaves your possession (such as if
-the weapon is thrown). This ability can be ended as a **free action** at the start of your turn
-(that round does not count against the total duration, unless the ability is resumed during the same
-round). If you use this ability on a [double](ref/misc/double) weapon, the effects apply to only one
-end of the weapon.
+weapon, but they continue to be in effect if the weapon otherwise leaves the warpriest's possession
+(such as if the weapon is thrown). This ability can be ended as a free action at the start of the
+warpriest's turn (that round does not count against the total duration, unless the ability is
+resumed during the same round). If the warpriest uses this ability on a [double](ref/misc/double)
+weapon, the effects apply to only one end of the weapon.
 
 #### Fervor (Su) {#fervor}
 
-**Ability:** If you spontaneously cast _cure_ spells, this ability harms undead (no save) and heals
-other creatures as positive energy. Otherwise, it heals undead and harms other creatures (no save)
-as negative energy.
+At 2nd level, a warpriest can draw upon the power of his faith to heal wounds or harm foes. He can
+also use this ability to quickly cast spells that aid in his struggles. This ability can be used a
+number of times per day equal to 1/2 his warpriest level + his Wisdom modifier.
 
-**Flavor:** A warpriest can draw upon the power of his faith to heal wounds or harm foes. He can
-also use this ability to quickly cast spells that aid in his struggles.
+By expending one use of this ability, a good warpriest (or one who worships a good deity) can touch
+a creature to heal it of 1d6 points of damage, plus an additional 1d6 points of damage for every 3
+warpriest levels he possesses above 2nd (to a maximum of 7d6 at 20th level). Using this ability is a
+standard action (unless the warpriest targets himself, in which case it's a swift action).
+Alternatively, the warpriest can use this ability to harm an undead creature, dealing the same
+amount of damage he would otherwise heal with a melee touch attack. Using fervor in this way is a
+standard action that provokes an attack of opportunity. Undead do not receive a saving throw against
+this damage. This counts as positive energy.
 
-**Gained:** At 2nd Level
+An evil warpriest (or one who worships an evil deity) can use this ability to instead deal damage to
+living creatures with a melee touch attack and heal undead creatures with a touch. This counts as
+negative energy.
 
-**Standard:** By expending one use of this ability, you can touch a creature to heal it of 1d6
-points of damage, or damage it for the same amount. Attempting to harm is a melee touch attack that
-provokes attacks of opportunity.
+A neutral warpriest who worships a neutral deity (or one who is not devoted to a particular deity)
+uses this ability as a good warpriest if he chose to spontaneously cast cure spells or as an evil
+warpriest if he chose to spontaneously cast inflict spells.
 
-**Swift:** You can expend one use of this ability to either heal yourself (as if you touched a
-creature to heal it) or cast any one warpriest spell you have prepared with a casting time of 1
-round or shorter. The spell can target only you, even if it could normally affect other or multiple
-targets. Spells cast in this way ignore somatic components and do not provoke attacks of
-opportunity. You do not need to have a free hand to cast a spell in this way.
-
-**Usage:** Wis modifier times/day + 1/2 your warpriest level
-
-**Usage:** Wis modifier times/day + 1/2 your warpriest level
-
-At 5th level: The damage you deal or heal increases to 2d6.
-
-At 8th level: The damage you deal or heal increases to 3d6.
-
-At 11th level: The damage you deal or heal increases to 4d6.
-
-At 14th level: The damage you deal or heal increases to 5d6.
-
-At 17th level: The damage you deal or heal increases to 6d6.
-
-At 20th level: The damage you deal or heal increases to 7d6.
+As a swift action, a warpriest can expend one use of this ability to cast any one warpriest spell he
+has prepared with a casting time of 1 round or shorter. When cast in this way, the spell can target
+only the warpriest, even if it could normally affect other or multiple targets. Spells cast in this
+way ignore somatic components and do not provoke attacks of opportunity. The warpriest does not need
+to have a free hand to cast a spell in this way.
 
 #### Bonus Feats {#bonus-feats}
 
-**Ability:** You gain a bonus combat feat in addition to those gained from normal advancement. You
-must meet the prerequisites for this feat, but you treat your warpriest level as your base attack
-bonus (in addition to base attack bonuses gained from other classes and Hit Dice) for the purpose of
-qualifying for this feat. Finally, for the purposes of this feat, you can select one that have a
-minimum number of fighter levels as a prerequisite, treating your warpriest level as your fighter
-level.
-
-**Gained:** At 3rd Level
-
-**Repeat:** You gain another bonus combat feat, following the same restrictions as above., 6, 3
+At 3rd level and every 3 levels thereafter, a warpriest gains a bonus feat in addition to those
+gained from normal advancement. These bonus feats must be selected from those listed as combat
+feats. The warpriest must meet the prerequisites for these feats, but he treats his warpriest level
+as his base attack bonus (in addition to base attack bonuses gained from other classes and Hit Dice)
+for the purpose of qualifying for these feats. Finally, for the purposes of these feats, the
+warpriest can select feats that have a minimum number of fighter levels as a prerequisite, treating
+his warpriest level as his fighter level.
 
 #### Channel Energy (Su) {#channel-energy}
 
-**Ability:** You gain the ability to [channel energy](ref/ability/channel-energy) like a cleric, by
-presenting your holy (or unholy) symbol.
+Starting at 4th level, a warpriest can release a wave of energy by channeling the power of his faith
+through his holy (or unholy) symbol. This energy can be used to deal or heal damage, depending on
+the type of energy channeled and the creatures targeted. Using this ability is a standard action
+that expends two uses of his fervor ability and doesn't provoke an attack of opportunity. The
+warpriest must present a holy (or unholy) symbol to use this ability.
 
-**Gained:** At 4th Level
+A good warpriest (or one who worships a good deity) channels positive energy and can choose to heal
+living creatures or to deal damage to undead creatures. An evil cleric (or one who worships an evil
+deity) channels negative energy and can choose to deal damage to living creatures or heal undead
+creatures. A neutral cleric who worships a neutral deity (or one who is not devoted to a particular
+deity) channels positive energy if he chose to spontaneously cast cure spells or negative energy if
+he chose to spontaneously cast inflict spells.
 
-**Provokes attack of opportunity:** No
-
-**Special:** Creatures that take damage from channeled energy must succeed at a Will saving throw to
-halve the damage. The save DC is 10 + 1/2 your warpriest level + your Wisdom modifier.
-
-**Standard:** By expending two uses of your _fervor,_ you cause a [burst](ref/misc/burst) that heals
-(or deals damage to) all creatures in a 30-foot radius centered on you (following the same rules as
-your _fervor_). The amount of damage healed or dealt is equal to that of your _fervor_ ability. You
-can choose whether or not to include yourself in this effect.
+Channeling energy causes a [burst](ref/misc/burst) that affects all creatures of one type (either
+undead or living) in a 30-foot radius centered on the warpriest. The amount of damage dealt or
+healed is equal to the amount listed in the fervor ability. Creatures that take damage from
+channeled energy must succeed at a Will saving throw to halve the damage. The save DC is 10 + 1/2
+the warpriest's level + the warpriest's Wisdom modifier. Creatures healed by channeled energy cannot
+exceed their maximum hit point total—all excess healing is lost. A warpriest can choose whether or
+not to include himself in this effect.
 
 #### Sacred Armor (Su) {#sacred-armor}
 
-**Action:** Special
+At 7th level, the warpriest gains the ability to enhance his armor with divine power as a swift
+action. This power grants the armor a +1 enhancement bonus. For every 3 levels beyond 7th, this
+bonus increases by 1 (to a maximum of +5 at 19th level). The warpriest can use this ability a number
+of minutes per day equal to his warpriest level. This duration must be used in 1-minute increments,
+but they don't need to be consecutive.
 
-**Free:** When you grant this bonus, you can also use your _sacred weapon_ ability by expending one
-use of your _fervor._
-
-**Section:** Sacred Armor
-
-**Gained:** At 7th Level
-
-**Swift:** You grant your armor a +1 enhancement bonus.
-
-**Usage:** 1 minute/day per warpriest level; these minutes need not be consecutive, but must be
-spent in 1-minute increments
-
-At 10th level: The bonus increases to +2.
-
-At 13th level: The bonus increases to +3.
-
-At 16th level: The bonus increases to +4.
-
-At 19th level: The bonus increases to +5.
-
-These bonuses stack with any existing bonuses the armor might have, to a maximum of +5. You can
-enhance armor any of the following armor special abilities:
-[energy resistance](ref/magic-enh/energy-resistance) (normal, improved, and greater),
-[fortification](ref/magic-enh/fortification) (heavy, light, or moderate),
-[glamered](ref/magic-enh/glamered), and [spell resistance](ref/magic-enh/spell-resistance) (13, 15,
-17, and 19). Adding any of these special abilities replaces an amount of bonus equal to the special
-ability's base cost. For this purpose, _glamered_ counts as a +1 bonus, _energy resistance_ counts
-as +2, [improved energy resistance](ref/magic-enh/energy-resistance-improved) counts as +4, and
-[greater energy resistance](ref/magic-enh/energy-resistance-greater) counts as +5. Duplicate
+These bonuses stack with any existing bonuses the armor might have, to a maximum of +5. The
+warpriest can enhance armor any of the following armor special abilities:
+_[energy resistance](ref/magic-enh/energy-resistance)_ (normal, improved, and greater),
+_[fortification](ref/magic-enh/fortification)_ (heavy, light, or moderate),
+_[glamered](ref/magic-enh/glamered),_ and _[spell resistance](ref/magic-enh/spell-resistance)_ (13,
+15, 17, and 19). Adding any of these special abilities replaces an amount of bonus equal to the
+special ability's base cost (see Table 15–4 on page 463 of the _Core Rulebook_). For this purpose,
+_glamered_ counts as a +1 bonus, _energy resistance_ counts as +2,
+_[improved energy resistance](ref/magic-enh/energy-resistance-improved)_ counts as +4, and
+_[greater energy resistance](ref/magic-enh/energy-resistance-greater)_ counts as +5. Duplicate
 abilities do not stack. The armor must have at least a +1 enhancement bonus before any other special
 abilities can be added.
 
 The enhancement bonus and armor special abilities are determined the first time the ability is used
-each day and cannot be changed until the next day. These bonuses apply only while you are wearing
-the armor, and end immediately if the armor is removed or leaves your possession. This ability can
-be ended as a **free action** at the start of your turn. This ability cannot be applied to a shield.
+each day and cannot be changed until the next day. These bonuses apply only while the warpriest is
+wearing the armor, and end immediately if the armor is removed or leaves the warpriest's possession.
+This ability can be ended as a free action at the start of the warpriest's turn. This ability cannot
+be applied to a shield.
+
+When the warpriest uses this ability, he can also use his sacred weapon ability as a free action by
+expending one use of his fervor.
 
 #### Aspect of War (Su) {#aspect-of-war}
 
-**Flavor:** The warpriest can channel an aspect of war, growing in power and martial ability.
-
-**Gained:** At 20th Level
-
-**Swift:** You can treat your level as your base attack bonus, gain DR 10/-, and can move at your
-full speed regardless of the armor you are wearing or your encumbrance. In addition, the _blessings_
-you call upon don't count against your daily limit during this time. This ability lasts for 1
-minute.
-
-**Usage:** Once a day.
-
-**Usage:** Once a day.
+At 20th level, the warpriest can channel an aspect of war, growing in power and martial ability.
+Once per day as a swift action, a warpriest can treat his level as his base attack bonus, gains DR
+10/—, and can move at his full speed regardless of the armor he is wearing or his encumbrance. In
+addition, the blessings he calls upon don't count against his daily limit during this time. This
+ability lasts for 1 minute.
 
 ### Ex-Warpriests
 
 A warpriest who grossly violates the code of conduct required by his god loses all spells and class
 features, except for his armor, shield, weapon proficiencies, and bonus feats. He cannot thereafter
-gain levels as a warpriest of that god until he atones for his deeds (see
-[atonement](ref/spell/atonement)).
+gain levels as a warpriest of that god until he atones for his deeds (see the
+_[atonement](ref/spell/atonement)_ spell on page 245 of the _Core Rulebook_).
 
 ### Alternate Capstones
 

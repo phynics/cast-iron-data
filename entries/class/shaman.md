@@ -19,6 +19,17 @@ kind = "class"
 class_type = "hybrid"
 hit_die = "d8"
 skill_ranks = "4 + Int modifier"
+features = [
+  { anchor = "spells" },
+  { anchor = "orisons", level = 1 },
+  { anchor = "spirit", level = 1 },
+  { anchor = "spirit-animal", level = 1 },
+  { anchor = "spirit-magic", level = 1 },
+  { anchor = "hex", level = 2 },
+  { anchor = "wandering-spirit", level = 4 },
+  { anchor = "wandering-hex", level = 6 },
+  { anchor = "manifestation", level = 20 },
+]
 +++
 
 While some heroes speak to gods or consort with otherworldly muses, shamans commune with the spirits
@@ -75,171 +86,176 @@ Spellcraft
 |19th|+14/+9/+4|+6|+6|+11|-|4|4|4|4|4|4|4|4|3|3|
 |20th|+15/+10/+5|+6|+6|+12|Hex, manifestation, wandering spirit (true)|4|4|4|4|4|4|4|4|4|4|
 
+### Class Features {#class-features}
+
+The following are the class features of the shaman.
+
 #### Weapon and Armor Proficiencies {#weapon-and-armor-proficiencies}
 
-**Weapons:** All simple weapons
-
-**Armor:** Light armor, Medium armor
-
-**Shields:** No
+A shaman is proficient with all simple weapons, and with light and medium armor.
 
 #### Spells {#spells}
 
-**Spell list:** Divine spells from the shaman list, from 1st level
+A shaman casts divine spells drawn from the shaman spell list (see page 48). A shaman must choose
+and prepare her spells in advance.
 
-**Key ability:** Wisdom. Minimum score 10 + spell level; save DC 10 + spell level + Wisdom modifier;
-a high score grants bonus spells per day.
+To prepare or cast a spell, a shaman must have a Wisdom score equal to at least 10 + the spell's
+level. The saving throw DC against a shaman's spell is 10 + the spell's level + the shaman's Wisdom
+modifier.
 
-**Casting:** Prepared: choose and prepare spells in advance.
+Like other spellcasters, a shaman can cast only a certain number of spells of each spell level per
+day. Her base daily spell allotment is given on Table 1–9. In addition, she receives bonus spells
+per day if she has a high Wisdom score (see Table 1–3 in the _Pathfinder RPG Core Rulebook_).
 
-**Notes:** Regains spells after 1 hour in contemplation or prayer each day; any spell on the list
-can be prepared.
+Shamans commune with their spirit animals to prepare their spells. Each shaman must choose a time
+when she must spend 1 hour each day in quiet contemplation with her spirit animal to regain her
+daily allotment of spells. A shaman can prepare and cast any spell on the shaman spell list,
+provided that she can cast spells of that level, but she must choose which spells to prepare during
+her daily communion.
 
 #### Orisons {#orisons}
 
-**Ability:** 0-level divine spells. Prepared like other spells but not expended when cast; one
-placed in a higher slot (for example through metamagic) uses that slot.
+Shamans can prepare a number of orisons, or 0-level spells, each day as noted on Table 1–9. These
+spells are cast like any other spell, but they are not expended when cast and may be used again.
 
 #### Spirit (Su) {#spirit}
 
-**Ability:** You form a lasting bond with a single [spirit](ref/ability/shaman-spirits), which
-grants a number of abilities and defines many of your other class features.
+A shaman forms a mystical bond with the spirits of the world. She forms a lasting bond with a single
+[spirit](ref/ability/shaman-spirits) (see Spirits on page 37), which grants a number of abilities
+and defines many of her other class features.
 
-**Flavor:** A shaman forms a mystical bond with the spirits of the world.
+At 1st level, a shaman gains the spirit ability granted by her chosen spirit. She adds the spells
+granted by that spirit to the list of spells that she can cast using spirit magic. She also adds the
+hexes possessed by that spirit to the list of hexes that she can use with the hex and wandering hex
+class features.
 
-**At 1st Level:** You gain the _spirit ability_ granted by your chosen spirit. You add the spells
-granted by that spirit to the list of spells that you can cast using _spirit magic._ You also add
-the hexes possessed by that spirit to the list of hexes that you can use with the _hex_ and
-_wandering hex_ class features.
+At 8th level, the shaman gains the abilities listed in the greater version of her selected spirit.
+At 16th level, the shaman gains the abilities listed for the true version of her selected spirit.
 
-**At 16th Level:** You gain the abilities listed for the _true_ version of your selected spirit.
-
-**At 8th Level:** You gain the abilities listed in the _greater_ version of your selected spirit.
-
-**Special:** If you take levels in another class that grants a mystery (such as the oracle), the
-spirit and mystery must match, even if that means one of them must change. Subject to GM discretion,
-you can change your former mystery or spirit to make them conform.
+If the shaman takes levels in another class that grants a mystery (such as the oracle), the spirit
+and mystery must match, even if that means one of them must change. Subject to GM discretion, the
+shaman can change her former mystery or spirit to make them conform.
 
 #### Spirit Animal (Ex) {#spirit-animal}
 
-**Action:** Ability
+At 1st level, a shaman forms a close bond with a spirit animal tied to her chosen spirit. This
+animal is her conduit to the spirit world, guiding her along the path to enlightenment. The animal
+also aids a shaman by granting her a special ability. See the Spirit Animal section on page 47.
 
-**At 1st Level:** Your spirit animal gains specific abilities, depending upon the type of spirit
-selected by you using your spirit class feature. These abilities affect the animal's appearance and
-grant it special abilities that can aid it in serving you and the spirit it represents and is
-connected to. These abilities are described in the _spirit animal_ section of each individual
-_spirit_ description.
+A shaman must commune with her spirit animal each day to prepare her spells. While the spirit animal
+does not store the spells like a witch's [familiar](ref/sidekick/familiar) does, the spirit animal
+serves as her conduit to divine power. If a shaman's spirit animal is slain, she cannot prepare new
+spells or use her spirit magic class feature until the spirit animal is replaced.
 
-**At 3rd Level:** Your spirit animal can deliver touch spells or hexes for you. If you and the
-spirit animal are in contact at the time you cast a touch spell, you can designate your animal as
-the "toucher." The spirit animal can then deliver the touch spell just as you would. If you cast
-another spell before the touch is delivered, the touch spell dissipates. If you activate a _hex,_
-your spirit animal can be used to make the touch; you don't have to be in contact with the animal to
-use this ability with hexes.
+#### Spirit Magic {#spirit-magic}
 
-**Section:** Spirit Animal
+A shaman can spontaneously cast a limited number of spells per day beyond those she prepared ahead
+of time. She has one spell slot per day of each shaman spell level she can cast, not including
+orisons. She can choose these spells from the list of spells granted by her spirits (see the spirit
+class feature and the wandering spirit class feature) at the time she casts them. She can enhance
+these spells using any metamagic feat that she knows, using up a higher-level spell slot as required
+by the feat and increasing the time to cast the spell (see Spontaneous Casting and Metamagic Feats
+on page 113 of the _Core Rulebook_).
 
-**Gained:** At 1st Level
+#### Hex {#hex}
 
-You form a close bond with a spirit animal tied to your chosen _spirit._ This animal is your conduit
-to the spirit world, guiding you along the path to enlightenment.
+A shaman learns a number of magical tricks, called hexes, which grant her powers or weaken foes. At
+2nd level, a shaman learns one hex. At 4th, 8th, 10th, 12th, 16th, 18th, and 20th level, the shaman
+learns new hexes. A shaman can select from any of the following hexes or from any of the hexes
+listed in the description of her chosen spirit. A shaman cannot select a hex more than once unless
+noted otherwise.
 
-You must commune with your spirit animal each day to prepare your spells. While the spirit animal
-does not store the spells like a witch's familiar does, the spirit animal serves as your conduit to
-divine power. If your spirit animal is slain, you cannot prepare new spells or use your spirit magic
-class feature until the spirit animal is replaced.
+Using a hex is a standard action that doesn't provoke an attack of opportunity unless otherwise
+noted. The saving throw DC to resist a hex is equal to 10 + 1/2 the shaman's level + the shaman's
+Wisdom modifier.
 
-By communing with the incredible powers of your spirit, you forge a cherished bond with one specific
-servant of that spirit - known as a _spirit animal._ A spirit animal is a creature chosen by you to
-serve as a conduit, allowing you to more fully access the magic of your spirit on a daily basis.
-Your spirit animal also grants you special powers. This ability uses the same rules as the wizard's
-_arcane bond_ class feature and is treated as a [familiar](ref/sidekick/familiar), except as noted
-below.
+- [Chant (Ex)](ref/shamanhex/chant)
+- [Charm (Su)](ref/shamanhex/charm)
+- [Evil Eye (Su)](ref/shamanhex/evil-eye)
+- [Fetish (Ex)](ref/shamanhex/fetish)
+- [Fortune (Su)](ref/shamanhex/fortune)
+- [Fury (Su)](ref/shamanhex/fury)
+- [Healing (Su)](ref/shamanhex/healing)
+- [Misfortune (Su)](ref/shamanhex/misfortune)
+- [Secret (Ex)](ref/shamanhex/secret)
+- [Shapeshift (Su)](ref/shamanhex/shapeshift)
+- [Tongues (Su)](ref/shamanhex/tongues)
+- [Ward (Su)](ref/shamanhex/ward)
+- [Witch Hex](ref/shamanhex/witch-hex)
 
-You use your level as your effective wizard level when determining the abilities of your spirit
-animal. You can select [any familiar available to wizards](ref/ability/familiars) to serve as your
-spirit animal, although your spirit animal is augmented by the power of your chosen spirit. Once
-selected, the spirit animal cannot be changed. Although your spirit animal uses the statistics of a
-specific animal, it is treated as an outsider with the native subtype for the purposes of spells and
+#### Wandering Spirit (Su) {#wandering-spirit}
+
+At 4th level, a shaman can form a temporary bond with a spirit other than the one selected using her
+spirit class feature. She must make this selection each day when preparing her spells. While this
+feature is active, she gains the spirit ability granted by the spirit. She also adds the spells
+granted by that spirit to her list of spells that she can cast using spirit magic. She does not add
+the hexes from her wandering spirit to her list of hexes that she can choose from with the hex class
+feature. At 12th level, she gains the abilities listed in the greater version of her wandering
+spirit. At 20th level, she gains the ability listed in the true version of her wandering spirit.
+
+#### Wandering Hex {#wandering-hex}
+
+At 6th level, a shaman can temporarily gain the use of one of the hexes possessed by either one of
+her spirits. She must make this selection each day when she prepares her spells. For the purposes of
+this ability, she can select any hex possessed by her spirit or wandering spirit. If she selects it
+from her wandering spirit, she loses the hex immediately if she bonds with another spirit, although
+she can then select a different hex to gain using this ability, from either her spirit or her new
+wandering spirit. At 14th level, a shaman can select two wandering hexes each day instead of one.
+This ability otherwise functions as the hex class feature.
+
+#### Manifestation (Su) {#manifestation}
+
+Upon reaching 20th level, a shaman undergoes a transformation as she manifests as a pinnacle of her
+main spirit. The nature of this manifestation depends on the shaman's spirit, and is described in
+its entry.
+
+### Spirit Animal {#spirit-animal-rules}
+
+By communing with the incredible powers of her spirit, the shaman forges a cherished bond with one
+specific servant of that spirit—known as a spirit animal. A spirit animal is a creature chosen by a
+shaman to serve as a conduit, allowing her to more fully access the magic of her spirit on a daily
+basis. The shaman's spirit animal also grants her special powers. This ability uses the same rules
+as the wizard's arcane bond class feature and is treated as a familiar (see pages 78 and 82 of the
+_Core Rulebook_), except as noted below.
+
+A shaman uses her level as her effective wizard level when determining the abilities of her spirit
+animal. A shaman can select any familiar available to wizards to serve as her spirit animal,
+although her spirit animal is augmented by the power of her chosen spirit. Once selected, the spirit
+animal cannot be changed. Although a shaman's spirit animal uses the statistics of a specific
+animal, it is treated as an outsider with the native subtype for the purposes of spells and
 abilities that affect it.
 
 Levels of different classes that are entitled to familiars stack with shaman levels for the purpose
-of determining any spirit animal abilities that depend on your level. If you possess such levels in
-other classes, your spirit animal always uses your rules for spirit animals, not those used by
-familiars of other classes (such as [witches](ref/class/witch), [wizards](ref/class/wizard), or
-[sorcerers](ref/class/sorcerer) with the [arcane](ref/sorcbloodline/arcane) bloodline). If you have
-witch levels, your spirit animal also serves as the conduit to your patron and stores your witch
-spells. Your spirit animal is treated as a familiar for the purposes of all spells, effects, and
-abilities that affect familiars.
+of determining any spirit animal abilities that depend on the shaman's level. If a shaman possesses
+such levels in other classes, her spirit animal always uses the shaman rules for spirit animals, not
+those used by familiars of other classes (such as witches, wizards, or sorcerers with the arcane
+bloodline). If the shaman has witch levels, her spirit animal also serves as the conduit to her
+patron and stores her witch spells. The shaman's spirit animal is treated as a familiar for the
+purposes of all spells, effects, and abilities that affect familiars.
 
 If a spirit animal is lost or dies, it can be replaced after 24 hours through a special ritual that
 consumes material components worth 500 gp per shaman level. The ritual takes 8 hours to complete.
 The new spirit animal must be of the same sort of creature as the previous one.
 
-#### Spirit Magic {#spirit-magic}
+_Spirit Animal (Ex)_: At 1st level, a shaman's spirit animal gains specific abilities, depending
+upon the type of spirit selected by the shaman using her spirit class feature. These abilities
+affect the animal's appearance and grant it special abilities that can aid it in serving the shaman
+and the spirit it represents and is connected to. These abilities are described in the spirit animal
+section of each individual spirit description.
 
-**Ability:** You can spontaneously cast a limited number of spells per day beyond those you prepared
-ahead of time. You have one spell slot per day of each shaman spell level you can cast, not
-including orisons. You can choose these spells from the list of spells granted by your spirits at
-the time you cast them. You can enhance these spells using any metamagic feat that you know, using
-up a higher-level spell slot as required by the feat and increasing the time to cast the spell.
+_Deliver Touch Spells (Su)_: If a shaman is 3rd level or higher, her spirit animal can deliver touch
+spells or hexes for her. If the shaman and the spirit animal are in contact at the time the shaman
+casts a touch spell, she can designate her animal as the "toucher." The spirit animal can then
+deliver the touch spell just as the shaman would. If the shaman casts another spell before the touch
+is delivered, the touch spell dissipates. If the shaman activates a hex, her spirit animal can be
+used to make the touch; she doesn't have to be in contact with the animal to use this ability with
+hexes.
 
-#### Hex {#hex}
+### Shaman Spells {#shaman-spells}
 
-**Ability:** You learn one hex. You can select from any of these shaman hexes or from any of the
-hexes listed in the description of your chosen spirit. You cannot select a hex more than once unless
-noted otherwise.
-
-**Flavor:** A shaman learns a number of magical tricks, called hexes, which grant her powers or
-weaken foes.
-
-**Gained:** At 2nd Level
-
-**Repeat At:** You learn a new hex., 4, 8, 10, 12, 16, 18, 20
-
-**Special:** Using a hex is a **standard action** that doesn't provoke an attack of opportunity
-unless otherwise noted. The saving throw DC to resist a hex is equal to 10 +
-[half](ref/misc/fractions-and-rounding) your shaman level + your Wisdom modifier.
-
-Shamans can take a blood hex feat in place of a regular hex.
-
-#### Wandering Spirit (Su) {#wandering-spirit}
-
-**Ability:** You can form a temporary bond with a spirit other than the one selected using your
-_spirit_ class feature. You must make this selection each day when preparing your spells. While this
-feature is active, you gain the _spirit ability_ granted by the spirit. You also add the spells
-granted by that spirit to your list of spells that you can cast using _spirit magic._ You do not add
-the hexes from your _wandering spirit_ to your list of hexes that you can choose from with the hex
-class feature.
-
-**At 12th Level:** You gain the abilities listed in the _greater_ version of your _wandering
-spirit._
-
-**At 20th Level:** You gain the ability listed in the _true_ version of your _wandering spirit._
-
-**Gained:** At 4th Level
-
-#### Wandering Hex {#wandering-hex}
-
-**Ability:** You can temporarily gain the use of one of the hexes possessed by either one of your
-spirits. You must make this selection each day when you prepare your spells. For the purposes of
-this ability, you can select any hex possessed by your _spirit_ or _wandering spirit._ If you select
-it from your _wandering spirit,_ you lose the hex immediately if you bond with another spirit,
-although you can then select a different hex to gain using this ability, from either your _spirit_
-or your new _wandering spirit._
-
-**At 14th Level:** You can select two wandering hexes each day instead of one.
-
-**Gained:** At 6th Level
-
-**Special:** This ability otherwise functions as the hex class feature.
-
-#### Manifestation (Su) {#manifestation}
-
-**Ability:** You undergo a transformation as you manifest as a pinnacle of your main spirit. The
-nature of this manifestation depends on your _spirit,_ and is described in its entry.
-
-**Gained:** At 20th Level
+Shamans gain access to the following spells. While most of these spells are found in the _Core
+Rulebook_, those with superscripts are drawn from other sources. Those marked with an asterisk (\*)
+appear in Chapter 4 of this book.
 
 ### Alternate Capstones
 

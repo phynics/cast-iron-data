@@ -442,7 +442,8 @@ def converted_body(e, plan: dict) -> str:
             out += ["\n".join(b) for b in by_feat[r["span"]].raw[1:] if keep_heading(b)]
         elif is_heading_row(plan, r):
             out.append(f"### {r['head'].strip()} {{#{fp.slugify(r['head'])}}}")
-    return "\n\n".join(out) + "\n"
+    # the corrections of `scripts/errata.tsv` that the entry keeps (a misprint of print, owner ruling 43) are written as corrected
+    return co.apply_fixes("\n\n".join(out) + "\n", co.errata_fixes(CORPUS_DIR[0], e.id))
 
 
 def entry_heads(body: str) -> list[str]:
@@ -525,7 +526,7 @@ def inventory(e, bk, body: str) -> list[str]:
     opening = printed_opening(e, bk, names)
     if opening:
         before = body.split("\n**", 1)[0] if "\n**" in body else body
-        lost = print_lost(opening, before)
+        lost = print_lost(opening, before, co.errata_fixes(CORPUS_DIR[0], e.id))           # the corrections of the errata file are no loss
         if lost:
             problems.append(f"the opening over the first item lacks {len(lost)} printed sentences: " + " | ".join(x[:80] for x in lost[:3]))
     return problems
@@ -545,7 +546,7 @@ def coverage(plan: dict, new_body: str) -> list[str]:
             break
         paras.append(text)
     printed = " ".join(paras)
-    return print_lost(printed, re.sub(r"\s*\(DC \d+\):", ":", new_body))           # the "(DC n)" of a head is set back into it when written; the section was read without it
+    return print_lost(printed, re.sub(r"\s*\(DC \d+\):", ":", new_body), co.errata_fixes(CORPUS_DIR[0], f"ref/ability/{plan['key']}"))           # the "(DC n)" of a head is set back into it when written; the section was read without it
 
 
 def run_compare(args) -> int:
