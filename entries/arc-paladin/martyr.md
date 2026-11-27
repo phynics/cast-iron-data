@@ -51,8 +51,7 @@ when he ends this ability but otherwise does not relent, even in the face of mag
 checks. His stigmata assist his allies, duplicating the effect of the
 [countersong](ref/performance/countersong), [distraction](ref/performance/distraction), or
 [inspire courage](ref/performance/inspire-courage) bardic performance of a bard of his paladin
-level, though both countersong and
-[distraction](ref/carried/bestiary/rules/universal-monster-rules/distraction) use Heal skill checks
+level, though both countersong and [distraction](ref/performance/distraction) use Heal skill checks
 instead of Perform skill checks. At 10th level, he can choose to duplicate the effects of
 [inspire greatness](ref/performance/inspire-greatness). At 16th level, he can choose to duplicate
 the effects of [inspire heroics](ref/performance/inspire-heroics).

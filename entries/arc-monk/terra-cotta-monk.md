@@ -45,11 +45,9 @@ his list of class skills and removes Knowledge (history), Perform, and Ride.
 ## Trap Intuition (Ex) {#trap-intuition}
 
 At 2nd level, whenever a terra-cotta monk comes within 10 feet of a trap, he receives an immediate
-Perception check to notice the trap.
-
-The GM should make this check in secret. A terra-cotta monk gains a +2 bonus on Perception checks to
-notice traps. This bonus increases to +4 if the trap is located in a stone wall or floor. This
-ability replaces evasion.
+Perception check to notice the trap. The GM should make this check in secret. A terra-cotta monk
+gains a +2 bonus on Perception checks to notice traps. This bonus increases to +4 if the trap is
+located in a stone wall or floor. This ability replaces evasion.
 
 ## Stone Grip (Su) {#stone-grip}
 
