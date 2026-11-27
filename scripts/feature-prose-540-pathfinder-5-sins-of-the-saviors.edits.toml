@@ -1,0 +1,35 @@
+[[edit]]
+entry = "ref/arc-druid/ashvawg-tamer"
+anchor = "variant-companion"
+note = "hand-written by the batch lead from print (Pathfinder #5 Sins of the Saviors p. 72, ruling 45): print sets the creatures as four lines of a list, one for each level, each led by its level in bold; the import made each line a section and an At-level row of the feature. Written as one feature with a bullet for each line, one item per printed line, with the links of the import."
+text = '''
+At 4th level the druid adds additional non-animals to her alternate list of animal companions. If she chooses one of these creatures as an animal companion, she may use her wild empathy ability to influence the creature (even though it is not an animal and its intelligence may be above 2), though she takes a -4 penalty on this check. If the druid and the companion share a common language these checks are not needed. If the companion's intelligence is 3 or higher, the number of "tricks" the druid can teach it refers to the number of commands the creature understands regardless of language.
+
+- 1st Level or Higher: [darkmantle](ref/monster/darkmantle), [krenshar](ref/monster/krenshar), [shocker lizard](ref/monster/shocker-lizard)
+
+- 4th Level or Higher (Level -3): [hippogriff](ref/monster/hippogriff)
+
+- 10th Level or Higher (Level -9): [girallon](ref/monster/girallon), [griffon](ref/monster/griffon), [owlbear](ref/monster/owlbear), [sea cat](ref/monster/sea-cat)
+
+- 13th Level or Higher (Level -12): [bulette](ref/monster/bulette), [chimera](ref/monster/chimera)
+'''
+
+[[edit]]
+entry = "ref/arc-druid/ashvawg-tamer"
+anchor = "exotic-companion"
+note = "hand-written by the batch lead from print (Pathfinder #5 Sins of the Saviors p. 72, ruling 45): print sets the creatures as three lines of a list, one for each level, each led by its level in bold; the import made each line a section. Written as one feature with a bullet for each line, with the links of the import. The three paragraphs that follow the list (print: the abilities that the variant class does not give, each led by its name in bold, with no head of their own) stand in the text of this last feature, as print sets them (owner answer on #366, ruling 36: `by` names the feature whose text states the trades)."
+text = '''
+At 9th level the druid adds additional non-animals to her alternate list of animal companions, all of them with higher intelligence and strange shapes. It otherwise functions as the variant companion ability.
+
+- 7th Level or Higher (Level -6): [worg](ref/monster/worg)
+
+- 10th Level or Higher (Level -9): [ettercap](ref/monster/ettercap), [manticore](ref/monster/manticore), [minotaur](ref/monster/minotaur), [winter wolf](ref/monster/worg-winter-wolf)
+
+- 13th Level or Higher (Level -12): [behir](ref/monster/behir), [dragonne](ref/monster/dragonne), [hieracosphinx](ref/monster/sphinx-hieracosphinx)
+
+**Resist Nature's Lure** The druid does not gain this ability.
+
+**Wild Shape (Su)** The druid does not gain her second daily use of her wild shape ability at level 6. Hereafter she has one fewer daily use of the ability than a standard druid of her level.
+
+**Venom Immunity (Ex)** The druid does not gain this ability.
+'''

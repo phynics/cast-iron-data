@@ -8,17 +8,16 @@ provenance = [
 ]
 [[sources]]
 publication = "advanced-players-guide"
-page = "61"
+page = "60-61"
 
 [fields]
 kind = "class_option"
 group = "summoner-evolution"
 +++
 
-**Wing Buffet (Ex)**
+1-Point Evolutions: The following evolutions cost 1 point from the eidolon's evolution pool.
 
-**Ability:** An eidolon learns to use its wings to batter foes, granting it two wing buffet attacks.
-These attacks are secondary attacks. The wing buffets deal 1d4 points of damage (1d6 if Large, 1d8
-if Huge).
-
-**Prereq:** [Flight](ref/evolution/flight) (with wings)
+An eidolon learns to use its wings to batter foes, granting it two wing buffet attacks. These
+attacks are secondary attacks. The wing buffets deal 1d4 points of damage (1d6 if Large, 1d8 if
+Huge). The eidolon must possess the [flight](ref/evolution/flight) evolution, with wings, to select
+this evolution.

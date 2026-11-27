@@ -15,8 +15,7 @@ kind = "class_option"
 group = "summoner-evolution"
 +++
 
-**Pounce (Ex)**
+1-Point Evolutions: The following evolutions cost 1 point from the eidolon's evolution pool.
 
-**Ability:** An eidolon gains quick reflexes, allowing it to make a full attack after a charge.
-
-**Prereq:** Quadruped base form
+An eidolon gains quick reflexes, allowing it to make a full attack after a charge. This evolution is
+only available to eidolons of the quadruped base form.

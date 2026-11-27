@@ -15,6 +15,6 @@ kind = "class_option"
 group = "summoner-evolution"
 +++
 
-**Gills (Ex)**
+1-Point Evolutions: The following evolutions cost 1 point from the eidolon's evolution pool.
 
-**Ability:** An eidolon has gills and can breathe underwater indefinitely.
+An eidolon has gills and can breathe underwater indefinitely.
