@@ -15,7 +15,7 @@ publication = "advanced-class-guide"
 page = "83"
 
 [fields]
-kind = "none"
+kind = "archetype"
 +++
 
 While most bloodragers manifest only one bloodline, there are some that, through some quirk of

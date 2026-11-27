@@ -1,0 +1,24 @@
+# Texts that print sets in the section of the archetype before it (owner ruling 41) and that the entry therefore carries as an unlisted
+# section of its own (review of #353). Generated texts are never edited here.
+
+[[add]]
+entry = "ref/arc-cleric/divine-paragon"
+anchor = "obedient-archetypes"
+head = "Obedient Archetypes"
+parent = ""
+after = ""
+note = "hand-written from print (ruling 41): the section that stands above both archetypes of the chapter (Divine Anthology p. 14) holds the rules they use: the daily obedience, losing the archetype's abilities when it is not performed, and not regaining what the archetype altered or replaced. It is no class feature, so it is an unlisted section, first in the entry, where print sets it."
+text = '''
+The following archetypes are often taken by those who have studied from *Meditations and Revelations* and taken its message to heart. Both archetypes require the character to perform regular obediences to her chosen deity, just as one must to gain the benefits of the Divine Obedience feat. These obediences are identical to those required by Divine Obedience—for religions that do not have official obediences printed, you can either work with your GM to create appropriate obediences or simply assume that the obedience in question is something relatively minor that your character can take care of during your spell preparation ritual. Failure to follow this daily obedience causes you to lose all of the abilities granted by your chosen archetype. In this event, you do not regain the abilities you altered or replaced via the archetype—you simply lose access to that element of power granted until you next perform the obedience.
+'''
+
+[[add]]
+entry = "ref/arc-warpriest/divine-champion"
+anchor = "obedient-archetypes"
+head = "Obedient Archetypes"
+parent = ""
+after = ""
+note = "hand-written from print (ruling 41): the section that stands above both archetypes of the chapter (Divine Anthology p. 14) holds the rules they use: the daily obedience, losing the archetype's abilities when it is not performed, and not regaining what the archetype altered or replaced. It is no class feature, so it is an unlisted section, first in the entry, where print sets it."
+text = '''
+The following archetypes are often taken by those who have studied from *Meditations and Revelations* and taken its message to heart. Both archetypes require the character to perform regular obediences to her chosen deity, just as one must to gain the benefits of the Divine Obedience feat. These obediences are identical to those required by Divine Obedience—for religions that do not have official obediences printed, you can either work with your GM to create appropriate obediences or simply assume that the obedience in question is something relatively minor that your character can take care of during your spell preparation ritual. Failure to follow this daily obedience causes you to lose all of the abilities granted by your chosen archetype. In this event, you do not regain the abilities you altered or replaced via the archetype—you simply lose access to that element of power granted until you next perform the obedience.
+'''
