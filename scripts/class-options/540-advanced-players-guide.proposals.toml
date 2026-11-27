@@ -22,206 +22,6 @@ print = "At 8th level, you can create a vortex of turbulent wind around yourself
 
 [[entry]]
 id = "ref/arcaneschool/air"
-anchor = "earth-school"
-print = "The earth elementalist draws power from the stone around him, shaping it, shattering it, and bending it to his will. He can use it to defend himself or cause it to rise up and crush his foes."
-
-[[entry]]
-id = "ref/arcaneschool/air"
-anchor = "earth-supremacy"
-print = "You gain a +2 enhancement bonus to your CMD to resist bull rush, drag, reposition, trip, and overrun attempts as long as you are touching the ground. This bonus increases by +1 for every five wizard levels you possess. In addition, you gain a +1 insight bonus on melee attack and damage rolls whenever both you and your foe are touching the ground. At 20th level, earth and stone do not block the line of effect of your spells, although they do still block your line of sight."
-
-[[entry]]
-id = "ref/arcaneschool/air"
-anchor = "acid-cloud"
-print = "As a standard action, you can create a 5-foot-radius cloud of acid vapor within 30 feet that lasts for 1 round. This cloud deals 1d6 points of acid damage + 1 point for every two wizard levels you possess to all creatures in the cloud and sickens them for 1 round. A successful Fortitude save negates the sickened effect and halves the damage. The DC of this save is equal to 10 + 1/2 your wizard level + your Intelligence modifier. Creatures that begin their turn inside the cloud can move out that turn without penalty, but those that enter the cloud are affected. You can use this ability a number of times per day equal to 3 + your Intelligence modifier."
-
-[[entry]]
-id = "ref/arcaneschool/air"
-anchor = "earth-glide"
-print = "At 8th level, you gain the ability to move through earth, dirt, and stone for a number of rounds per day equal to your wizard level. You cannot move through worked earth or stone; only natural substances can be traversed. If your total duration expires before you exit the earth, you are f lung back to the point where you entered the stone, take 4d6 points of damage, and are stunned for 1 round. Your burrowing does not leave a hole, nor does it give any sign of your presence (although you can be detected by creatures with tremorsense). These rounds do not need to be consecutive."
-
-[[entry]]
-id = "ref/arcaneschool/air"
-anchor = "fire-school"
-print = "The fire elementalist sees a world around him that is made to burn, and he can bring that fire to consume his foes. He has also learned that fire can purify and protect, if properly controlled."
-
-[[entry]]
-id = "ref/arcaneschool/air"
-anchor = "fire-supremacy"
-print = "You gain resistance 5 to fire. At 10th level, this resistance increases to 10. At 20th level, you gain immunity to fire damage. In addition, whenever you are within 5 feet of a source of flame at least as large as a campfire, you can draw the fire around you for 1 round as a swift action. Anyone striking you with a melee weapon or unarmed strike takes an amount of fire damage equal to 1/2 your wizard level (minimum 1). Weapons with reach avoid this damage."
-
-[[entry]]
-id = "ref/arcaneschool/air"
-anchor = "fire-jet"
-print = "As a standard action, you can send forth a 20-foot line of fire. Anyone in this line takes 1d6 points of fire damage + 1 point for every two wizard levels you possess. A successful Reflex save halves this damage. The DC of this save is equal to 10 + 1/2 your wizard level + your Intelligence modifier. Creatures that fail their saving throw catch fire and take 1d6 points of fire damage on the following round. Creatures that catch fire can avoid this damage by taking a full-round action to extinguish the flames by making a DC 15 Reflex save. Rolling on the ground gives a +2 circumstance bonus on the save. Dousing the creature with water automatically extinguishes the flame. You can use this ability a number of times per day equal to 3 + your Intelligence modifier."
-
-[[entry]]
-id = "ref/arcaneschool/air"
-anchor = "dancing-flame"
-print = "At 8th level, as a standard action, you can sculpt fire to suit your desires. With one use of this ability you can move any nonmagical fire up to 30 feet. Alternatively you can use this ability to alter any fire spell that you cast with a duration of instantaneous by removing any number of squares from its area of affect. If the fire spell has a duration, you can use this ability to reposition the spell, within its original range (treat this as if you had just cast the spell, even though the duration is unchanged). You cannot use this ability on a fire spell that you did not cast. If you move a nonmagical flame, it must have a new source of fuel. If it does not, it is extinguished in one round. You can use this ability a number of times per day equal to 1/2 your wizard level."
-
-[[entry]]
-id = "ref/arcaneschool/air"
-anchor = "water-school"
-print = "The water elementalist draws magic from the ocean depths. His power is fluid as well, crushing foes in mighty waves or wearing them down through timeless erosion."
-
-[[entry]]
-id = "ref/arcaneschool/air"
-anchor = "water-supremacy"
-print = "You gain a +2 enhancement bonus on Swim skill checks. This bonus increases by +1 for every five wizard levels you possess. In addition, you can hold your breath for a number of rounds equal to four times your Constitution score before you must start making checks to avoid drowning. At 10th level, you gain a swim speed equal to your base speed. At 20th level, whenever you make a Swim skill check, assume the roll resulted in a natural 20."
-
-[[entry]]
-id = "ref/arcaneschool/air"
-anchor = "cold-blast"
-print = "As a standard action, you can unleash a blast of freezing cold. This blast deals 1d6 points of cold damage + 1 point for every two wizard levels you possess to all creatures within 5 feet of you and staggers them for 1 round. A successful Reflex save negates the staggered effect and halves the damage. The DC of this save is equal to 10 + 1/2 your wizard level + your Intelligence modifier. You can use this ability a number of times per day equal to 3 + your Intelligence modifier."
-
-[[entry]]
-id = "ref/arcaneschool/air"
-anchor = "wave"
-print = "At 8th level, you can create a wave of water that starts at your location and moves 30 feet per round away from you in a direction of your choosing. Creatures struck by the wave might be knocked down and pushed away. Make a caster level check against the CMD of each creature struck. If you succeed, the creature is knocked prone. If your check exceeds the CMD of the creature by 5 or more, it is carried with the wave during the wave's movement this round. You receive a +5 bonus on this check if the creature shares its space with the wave at the start of your turn (when the wave moves). Creatures carried in this way can move out of the wave on their turn if they succeed on a Strength check (DC = 10 + 1/2 your caster level + your Intelligence modifier), but they cannot breathe while sharing space with the wave. The wave is up to 20 feet high and up to 5 feet long for each wizard level you possess. Nonmagical fires hit by the wave are automatically extinguished. Magical fire effects are unaffected. You can use this ability for a number of rounds per day equal to 1/2 your wizard level."
-
-[[entry]]
-id = "ref/arcaneschool/air"
-anchor = "focused-arcane-schools"
-print = "Wizards that specialize in one of the schools of magic can instead chose to focus their studies still further. Wizards who choose a focused arcane school retain the bonus spells from their school and must select two prohibited schools as normal, but the focused school changes one or more of the powers granted by their arcane school. A wizard must take all of the replacement powers associated with his focused arcane school. Once a focused arcane school is chosen, it cannot be changed."
-
-[[entry]]
-id = "ref/arcaneschool/air"
-anchor = "associated-school"
-print = "Evocation."
-
-[[entry]]
-id = "ref/arcaneschool/air"
-anchor = "replacement-powers"
-print = "The following school powers replace the force missile and elemental wall powers of the evocation school."
-
-[[entry]]
-id = "ref/arcaneschool/air"
-anchor = "versatile-evocation"
-print = "When you cast an evocation spell that does acid, cold, electricity, or fire damage, you may change the damage dealt to one of the other four energy types. This changes the descriptor of the spell to match the new energy type. Any non-damaging effects remain unchanged unless the new energy type invalidates them (an _ice storm_ that deals fire damage might still provide a penalty on Perception checks due to smoke, but it would not create difficult terrain). Such effects are subject to GM discretion. You can use this ability a number of times per day equal to 3 + your Intelligence modifier."
-
-[[entry]]
-id = "ref/arcaneschool/air"
-anchor = "elemental-manipulation"
-print = "At 8th level, you can emit a 30-foot aura that transforms magical energy. Choose an energy type from acid, cold, electricity, and fire, and a second type to transform it into. Any magical source of energy of this type with a caster level equal to or less than your wizard level is altered to the chosen energy type. This includes supernatural effects from creatures with Hit Dice no greater than your caster level. For example, you could transform a white dragon's frigid breath weapon (a supernatural ability), but not a fire elemental's fiery touch (an extraordinary ability). If an effect lies only partially within your aura, only the portions within the aura are transformed. You can use this ability for a number of rounds per day equal to your wizard level. The rounds do not need to be consecutive."
-
-[[entry]]
-id = "ref/arcaneschool/air"
-anchor = "associated-school"
-print = "Abjuration."
-
-[[entry]]
-id = "ref/arcaneschool/air"
-anchor = "replacement-powers"
-print = "The following school powers replace the energy absorption power and the protective ward power of the abjuration school."
-
-[[entry]]
-id = "ref/arcaneschool/air"
-anchor = "unstable-bonds"
-print = "At 1st level, your touch can disrupt the bonds that hold a summoned or called creature on this plane. As a melee touch attack, you can cause a summoned or called creature to become shaken and staggered for a number of rounds equal to 1/2 your wizard level (minimum 1). You can use this ability a number of times per day equal to 3 + your Intelligence modifier."
-
-[[entry]]
-id = "ref/arcaneschool/air"
-anchor = "aura-of-banishment"
-print = "At 8th level, you can emit a 30-foot aura of banishment for a number of rounds per day equal to your wizard level. Any summoned or called creature in the area must make a Will save each round. Once the creature fails a Will saving throw, it is staggered as long as it remains inside the aura. If it fails a second Will saving throw, it is immediately sent back to its home plane and the spell that summoned it immediately ends. If that spell summoned more than one creature, only the creature that failed its saving throws is affected. These rounds do not need to be consecutive."
-
-[[entry]]
-id = "ref/arcaneschool/air"
-anchor = "associated-school"
-print = "Enchantment."
-
-[[entry]]
-id = "ref/arcaneschool/air"
-anchor = "replacement-powers"
-print = "The following school powers replace the enchanting smile and aura of despair powers of the enchantment school."
-
-[[entry]]
-id = "ref/arcaneschool/air"
-anchor = "force-of-will"
-print = "You can send thoughts and instructions telepathically to any creature within 60 feet that you have charmed or dominated as though you shared a common language. At 11th level, affected creatures can communicate back to you via the telepathic link as well. At 20th level, any creature that succeeds at a saving throw against an enchantment spell you have just cast is still affected for 1 round if the spell has a duration greater than 1 round."
-
-[[entry]]
-id = "ref/arcaneschool/air"
-anchor = "irresistible-demand"
-print = "At 8th level, you can force others to do your bidding. As a standard action, you attempt to dominate a creature as though using the _dominate monster_ spell, except that the creature must have a number of Hit Dice equal to or less than your wizard level. The targeted creature receives a Will saving throw each round to negate the effect. The DC is equal to 10 + 1/2 your wizard level + your Intelligence modifier. You can dominate creatures for a number of rounds per day equal to your wizard level. These rounds do not need to be consecutive. You must concentrate as a standard action to maintain control over a dominated creature."
-
-[[entry]]
-id = "ref/arcaneschool/air"
-anchor = "associated-school"
-print = "Abjuration."
-
-[[entry]]
-id = "ref/arcaneschool/air"
-anchor = "replacement-powers"
-print = "The following school powers replace the protective ward power and the energy absorption power of the abjuration school."
-
-[[entry]]
-id = "ref/arcaneschool/air"
-anchor = "disruption"
-print = "At 1st level, you gain the ability to disrupt spellcasting with a touch. As a melee touch attack, you can place a disruptive field around the target. While the field is in place, the target must make a concentration check to cast any spell or to use a spell-like ability in addition to any other required concentration checks. The DC of this check is equal to 15 + twice the spell's level. If the check is failed, the target's spell is wasted. This field lasts for a number of rounds equal to 1/2 your wizard level (minimum 1). You can use this ability a number of times per day equal to 3 + your Intelligence modifier."
-
-[[entry]]
-id = "ref/arcaneschool/air"
-anchor = "counterspell-mastery"
-print = "At 6th level, you gain Improved Counterspell as a bonus feat. You may attempt to counterspell an opponent's spell once per day as an immediate action (instead of a readied action). You must use a spell at least one level higher than the spell being countered to use this ability. You can use this ability once per day at 6th level, plus one additional time per day for every 4 levels beyond 6th."
-
-[[entry]]
-id = "ref/arcaneschool/air"
-anchor = "associated-school"
-print = "Conjuration."
-
-[[entry]]
-id = "ref/arcaneschool/air"
-anchor = "replacement-powers"
-print = "The following school powers replace the acid dart power and the dimensional steps power of the conjuration school."
-
-[[entry]]
-id = "ref/arcaneschool/air"
-anchor = "create-gear"
-print = "At 1st level, you can create any object that weighs no more than 1 pound per wizard level you possess. Creating an object in this way is a standard action. The item remains for 1 minute before fading away, although it disappears after one round if it leaves your possession. Creating an item to an exact specification might require a Craft skill check, subject to GM discretion. The object must be made of simple materials, such as wood, stone, glass, or metal, and cannot contain any moving parts. You could use this ability to create a dagger, but not a vial of alchemist's fire. You can use this ability a number of times per day equal to 3 + your Intelligence modifier."
-
-[[entry]]
-id = "ref/arcaneschool/air"
-anchor = "creator-s-will"
-print = "At 8th level, you can cast _minor creation_ as a spell-like ability. You can have no more than one _minor creation_ active at a time. If you cast the spell again, the previous casting immediately ends. At 12th level, this ability improves to _major creation_. You can use this ability a number of times per day equal to 1/2 your wizard level."
-
-[[entry]]
-id = "ref/arcaneschool/air"
-anchor = "associated-school"
-print = "Transmutation."
-
-[[entry]]
-id = "ref/arcaneschool/air"
-anchor = "replacement-powers"
-print = "The following school powers replace the telekinetic fist and change shape powers of the transmutation school."
-
-[[entry]]
-id = "ref/arcaneschool/air"
-anchor = "augment"
-print = "As a standard action, you can touch a creature and grant it either a +2 enhancement bonus to a single ability score of your choice or a +1 bonus to natural armor that stacks with any natural armor the creature might possess. At 10th level, the enhancement bonus to one ability score increases to +4. The natural armor bonus increases by +1 for every five wizard levels you possess, to a maximum of +5 at 20th level. This augmentation lasts a number of rounds equal to 1/2 your wizard level (minimum 1 round). You can use this ability a number of times per day equal to 3 + your Intelligence modifier."
-
-[[entry]]
-id = "ref/arcaneschool/air"
-anchor = "perfection-of-self"
-print = "At 8th level, as a swift action you can grant yourself an enhancement bonus to a single ability score equal to 1/2 your wizard level (maximum +10) for one round. You may use this ability for a number of times per day equal to your wizard level."
-
-[[entry]]
-id = "ref/arcaneschool/air"
-anchor = "associated-school"
-print = "Divination."
-
-[[entry]]
-id = "ref/arcaneschool/air"
-anchor = "replacement-powers"
-print = "The following school powers replace the diviner's fortune and scrying adept powers of the divination school."
-
-[[entry]]
-id = "ref/arcaneschool/air"
-anchor = "prescience"
-print = "At the beginning of your turn, you may, as a free action, roll a single d20. At any point before your next turn, you may use the result of this roll as the result of any d20 roll you are required to make. If you do"
-
-[[entry]]
-id = "ref/arcaneschool/air"
 anchor = "freezing-shards"
 print = "As a standard action, you can cause shards of ice to burst forth from the ground around you. The shards deal 1d4 points of piercing damage and 1d6 points of cold damage + 1 point for every 2 wizard levels you have to all creatures within 5 feet of you. A successful Reflex save (DC = 10 + [half](ref/misc/fractions-and-rounding) your wizard level + your Intelligence modifier) negates the piercing damage and halves the cold damage. The shards remain until the beginning of your next turn; during this time, the area is [difficult terrain](ref/rule/terrain-and-obstacles). You are not affected by your own freezing shards and can move through the area normally. You can use this ability a number of times per day equal to 3 + your Intelligence modifier."
 
@@ -274,66 +74,6 @@ print = "At 8th level, you gain the ability to move through earth, dirt, and sto
 
 [[entry]]
 id = "ref/arcaneschool/earth"
-anchor = "fire-school"
-print = "The fire elementalist sees a world around him that is made to burn, and he can bring that fire to consume his foes. He has also learned that fire can purify and protect, if properly controlled."
-
-[[entry]]
-id = "ref/arcaneschool/earth"
-anchor = "fire-supremacy"
-print = "You gain resistance 5 to fire. At 10th level, this resistance increases to 10. At 20th level, you gain immunity to fire damage. In addition, whenever you are within 5 feet of a source of flame at least as large as a campfire, you can draw the fire around you for 1 round as a swift action. Anyone striking you with a melee weapon or unarmed strike takes an amount of fire damage equal to 1/2 your wizard level (minimum 1). Weapons with reach avoid this damage."
-
-[[entry]]
-id = "ref/arcaneschool/earth"
-anchor = "fire-jet"
-print = "As a standard action, you can send forth a 20-foot line of fire. Anyone in this line takes 1d6 points of fire damage + 1 point for every two wizard levels you possess. A successful Reflex save halves this damage. The DC of this save is equal to 10 + 1/2 your wizard level + your Intelligence modifier. Creatures that fail their saving throw catch fire and take 1d6 points of fire damage on the following round. Creatures that catch fire can avoid this damage by taking a full-round action to extinguish the flames by making a DC 15 Reflex save. Rolling on the ground gives a +2 circumstance bonus on the save. Dousing the creature with water automatically extinguishes the flame. You can use this ability a number of times per day equal to 3 + your Intelligence modifier."
-
-[[entry]]
-id = "ref/arcaneschool/earth"
-anchor = "dancing-flame"
-print = "At 8th level, as a standard action, you can sculpt fire to suit your desires. With one use of this ability you can move any nonmagical fire up to 30 feet. Alternatively you can use this ability to alter any fire spell that you cast with a duration of instantaneous by removing any number of squares from its area of affect. If the fire spell has a duration, you can use this ability to reposition the spell, within its original range (treat this as if you had just cast the spell, even though the duration is unchanged). You cannot use this ability on a fire spell that you did not cast. If you move a nonmagical flame, it must have a new source of fuel. If it does not, it is extinguished in one round. You can use this ability a number of times per day equal to 1/2 your wizard level."
-
-[[entry]]
-id = "ref/arcaneschool/earth"
-anchor = "water-school"
-print = "The water elementalist draws magic from the ocean depths. His power is fluid as well, crushing foes in mighty waves or wearing them down through timeless erosion."
-
-[[entry]]
-id = "ref/arcaneschool/earth"
-anchor = "water-supremacy"
-print = "You gain a +2 enhancement bonus on Swim skill checks. This bonus increases by +1 for every five wizard levels you possess. In addition, you can hold your breath for a number of rounds equal to four times your Constitution score before you must start making checks to avoid drowning. At 10th level, you gain a swim speed equal to your base speed. At 20th level, whenever you make a Swim skill check, assume the roll resulted in a natural 20."
-
-[[entry]]
-id = "ref/arcaneschool/earth"
-anchor = "cold-blast"
-print = "As a standard action, you can unleash a blast of freezing cold. This blast deals 1d6 points of cold damage + 1 point for every two wizard levels you possess to all creatures within 5 feet of you and staggers them for 1 round. A successful Reflex save negates the staggered effect and halves the damage. The DC of this save is equal to 10 + 1/2 your wizard level + your Intelligence modifier. You can use this ability a number of times per day equal to 3 + your Intelligence modifier."
-
-[[entry]]
-id = "ref/arcaneschool/earth"
-anchor = "wave"
-print = "At 8th level, you can create a wave of water that starts at your location and moves 30 feet per round away from you in a direction of your choosing. Creatures struck by the wave might be knocked down and pushed away. Make a caster level check against the CMD of each creature struck. If you succeed, the creature is knocked prone. If your check exceeds the CMD of the creature by 5 or more, it is carried with the wave during the wave's movement this round. You receive a +5 bonus on this check if the creature shares its space with the wave at the start of your turn (when the wave moves). Creatures carried in this way can move out of the wave on their turn if they succeed on a Strength check (DC = 10 + 1/2 your caster level + your Intelligence modifier), but they cannot breathe while sharing space with the wave. The wave is up to 20 feet high and up to 5 feet long for each wizard level you possess. Nonmagical fires hit by the wave are automatically extinguished. Magical fire effects are unaffected. You can use this ability for a number of rounds per day equal to 1/2 your wizard level."
-
-[[entry]]
-id = "ref/arcaneschool/earth"
-anchor = "focused-arcane-schools"
-print = "Wizards that specialize in one of the schools of magic can instead chose to focus their studies still further. Wizards who choose a focused arcane school retain the bonus spells from their school and must select two prohibited schools as normal, but the focused school changes one or more of the powers granted by their arcane school. A wizard must take all of the replacement powers associated with his focused arcane school. Once a focused arcane school is chosen, it cannot be changed."
-
-[[entry]]
-id = "ref/arcaneschool/earth"
-anchor = "associated-school"
-print = "Evocation."
-
-[[entry]]
-id = "ref/arcaneschool/earth"
-anchor = "replacement-powers"
-print = "The following school powers replace the force missile and elemental wall powers of the evocation school."
-
-[[entry]]
-id = "ref/arcaneschool/earth"
-anchor = "versatile-evocation"
-print = "When you cast an evocation spell that does acid, cold, electricity, or fire damage, you may change the damage dealt to one of the other four energy types. This changes the descriptor of the spell to match the new energy type. Any non-damaging effects remain unchanged unless the new energy type invalidates them (an _ice storm_ that deals fire damage might still provide a penalty on Perception checks due to smoke, but it would not create difficult terrain). Such effects are subject to GM discretion. You can use this ability a number of times per day equal to 3 + your Intelligence modifier."
-
-[[entry]]
-id = "ref/arcaneschool/earth"
 anchor = "magma-furrow"
 print = "As a standard action, you can send forth a 20-foot line of magma. Any creature in this line takes 1d6 points of fire damage + 1 point for every 2 wizard levels you have. A successful Reflex save (DC = 10 + [half](ref/misc/fractions-and-rounding) your wizard level + your Intelligence modifier) halves this damage. In addition, the ground in this area remains molten for another 1d4 rounds. Creatures that begin their turns in the area can move out that turn without penalty, but those that enter the area each take 1d6 points of fire damage. You can use this ability a number of times per day equal to 3 + your Intelligence modifier."
 
@@ -383,46 +123,6 @@ print = "As a standard action, you can send forth a 20-foot line of fire. Anyone
 id = "ref/arcaneschool/fire"
 anchor = "dancing-flame"
 print = "At 8th level, as a standard action, you can sculpt fire to suit your desires. With one use of this ability you can move any nonmagical fire up to 30 feet. Alternatively you can use this ability to alter any fire spell that you cast with a duration of instantaneous by removing any number of squares from its area of affect. If the fire spell has a duration, you can use this ability to reposition the spell, within its original range (treat this as if you had just cast the spell, even though the duration is unchanged). You cannot use this ability on a fire spell that you did not cast. If you move a nonmagical flame, it must have a new source of fuel. If it does not, it is extinguished in one round. You can use this ability a number of times per day equal to 1/2 your wizard level."
-
-[[entry]]
-id = "ref/arcaneschool/fire"
-anchor = "water-school"
-print = "The water elementalist draws magic from the ocean depths. His power is fluid as well, crushing foes in mighty waves or wearing them down through timeless erosion."
-
-[[entry]]
-id = "ref/arcaneschool/fire"
-anchor = "water-supremacy"
-print = "You gain a +2 enhancement bonus on Swim skill checks. This bonus increases by +1 for every five wizard levels you possess. In addition, you can hold your breath for a number of rounds equal to four times your Constitution score before you must start making checks to avoid drowning. At 10th level, you gain a swim speed equal to your base speed. At 20th level, whenever you make a Swim skill check, assume the roll resulted in a natural 20."
-
-[[entry]]
-id = "ref/arcaneschool/fire"
-anchor = "cold-blast"
-print = "As a standard action, you can unleash a blast of freezing cold. This blast deals 1d6 points of cold damage + 1 point for every two wizard levels you possess to all creatures within 5 feet of you and staggers them for 1 round. A successful Reflex save negates the staggered effect and halves the damage. The DC of this save is equal to 10 + 1/2 your wizard level + your Intelligence modifier. You can use this ability a number of times per day equal to 3 + your Intelligence modifier."
-
-[[entry]]
-id = "ref/arcaneschool/fire"
-anchor = "wave"
-print = "At 8th level, you can create a wave of water that starts at your location and moves 30 feet per round away from you in a direction of your choosing. Creatures struck by the wave might be knocked down and pushed away. Make a caster level check against the CMD of each creature struck. If you succeed, the creature is knocked prone. If your check exceeds the CMD of the creature by 5 or more, it is carried with the wave during the wave's movement this round. You receive a +5 bonus on this check if the creature shares its space with the wave at the start of your turn (when the wave moves). Creatures carried in this way can move out of the wave on their turn if they succeed on a Strength check (DC = 10 + 1/2 your caster level + your Intelligence modifier), but they cannot breathe while sharing space with the wave. The wave is up to 20 feet high and up to 5 feet long for each wizard level you possess. Nonmagical fires hit by the wave are automatically extinguished. Magical fire effects are unaffected. You can use this ability for a number of rounds per day equal to 1/2 your wizard level."
-
-[[entry]]
-id = "ref/arcaneschool/fire"
-anchor = "focused-arcane-schools"
-print = "Wizards that specialize in one of the schools of magic can instead chose to focus their studies still further. Wizards who choose a focused arcane school retain the bonus spells from their school and must select two prohibited schools as normal, but the focused school changes one or more of the powers granted by their arcane school. A wizard must take all of the replacement powers associated with his focused arcane school. Once a focused arcane school is chosen, it cannot be changed."
-
-[[entry]]
-id = "ref/arcaneschool/fire"
-anchor = "associated-school"
-print = "Evocation."
-
-[[entry]]
-id = "ref/arcaneschool/fire"
-anchor = "replacement-powers"
-print = "The following school powers replace the force missile and elemental wall powers of the evocation school."
-
-[[entry]]
-id = "ref/arcaneschool/fire"
-anchor = "versatile-evocation"
-print = "When you cast an evocation spell that does acid, cold, electricity, or fire damage, you may change the damage dealt to one of the other four energy types. This changes the descriptor of the spell to match the new energy type. Any non-damaging effects remain unchanged unless the new energy type invalidates them (an _ice storm_ that deals fire damage might still provide a penalty on Perception checks due to smoke, but it would not create difficult terrain). Such effects are subject to GM discretion. You can use this ability a number of times per day equal to 3 + your Intelligence modifier."
 
 [[entry]]
 id = "ref/arcaneschool/fire"
@@ -2719,11 +2419,6 @@ print = "When you are in a body of water large enough to float in, your effectiv
 
 [[entry]]
 id = "ref/sorcbloodline/aquatic"
-anchor = "water-blast"
-print = "As a standard action, you can fire a bolt of water at a foe within 30 feet as a ranged touch attack. The foe is knocked [prone](ref/rule/prone), and at your option may be pushed 5 feet directly away from you. A reflex save (DC 10 +1/2 your sorcerer level + your Charisma modifier) negates this effect. You can use this ability a number of times per day equal to 3 + your Charisma modifier. This bloodline power replaces dehydrating touch."
-
-[[entry]]
-id = "ref/sorcbloodline/aquatic"
 anchor = "seaborn-wildblooded-mutation"
 print = '''
 Your powers rise like the tides.
@@ -3624,7 +3319,15 @@ anchor = "quick-disguise"
 print = '''
 A rogue with this talent can use the items at hand and seemingly innocuous material hidden on her person to create startlingly effective disguises, reducing the amount of time it takes to create a disguise using the [Disguise](ref/skill/disguise) skill.
 
-The time needed for the rogue to alter her appearance in this manner is based on the complexity of the disguise, as noted on the following table. The times are cumulative, so if a female rogue wants to disguise herself as a male of a different race, that takes 2 minutes.'''
+The time needed for the rogue to alter her appearance in this manner is based on the complexity of the disguise, as noted on the following table. The times are cumulative, so if a female rogue wants to disguise herself as a male of a different race, that takes 2 minutes.
+
+|Disguise|Time|
+| --- | --- |
+|Minor details only|1 full-round action|
+|Disguise as a different gender|1 minute|
+|Disguise as a different race|1 minute|
+|Disguise as a different age category|1 minute|
+|Disguise as a different size category|1 minute|'''
 
 [[entry]]
 id = "ref/talent/quick-trapsmith"
@@ -3639,7 +3342,7 @@ print = "Once per day, when a rogue with this talent is hit with a melee attack,
 [[entry]]
 id = "ref/talent/snap-shot"
 anchor = "snap-shot"
-print = "A rogue with this talent may treat her intitiative roll as a 20 for a surprise round, regardless of her initiative, but she may only take an attack action with a ranged weapon. Her normal initiative roll is used in subsequent rounds. If two or more rogues possess this talent, their initiative determines the order in which they act, but they all go before any other creature. If a rogue is prevented from acting in the surprise round, this talent has no effect."
+print = "A rogue with this talent may treat her initiative roll as a 20 for a surprise round, regardless of her initiative, but she may only take an attack action with a ranged weapon. Her normal initiative roll is used in subsequent rounds. If two or more rogues possess this talent, their initiative determines the order in which they act, but they all go before any other creature. If a rogue is prevented from acting in the surprise round, this talent has no effect."
 
 [[entry]]
 id = "ref/talent/snipers-eye"
