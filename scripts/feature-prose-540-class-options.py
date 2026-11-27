@@ -464,7 +464,7 @@ def compare_one(e, book, bk, other=None) -> list[dict]:
     problems = []                                       # what holds every power of the entry
     if unanchored:
         problems.append("the printed title of the entry is not on the cited pages: the window is not anchored")
-    outside = outside_rows(e.body)
+    outside = outside_rows(e.body) if shape == "single" else []        # a multi-power entry's other sections are rows of their own (below)
     if outside:
         problems.append("import rows outside the powers (" + ", ".join(outside[:4]) + ") are not transcribed from print yet")
     if TRADE_LABEL.search(e.body):
@@ -526,7 +526,47 @@ def compare_one(e, book, bk, other=None) -> list[dict]:
                          level_import=r["level_import"] if r["level_import"] is not None else "",
                          level=level_of(r["print"]) or "", note="; ".join(notes)[:400], print=printed,
                          print_sha256=hashlib.sha256(printed.encode()).hexdigest()))
+    if shape == "multi":
+        rows = add_sections(e, rows, res, feats, powers, by_name, base, book, problems, anchors_seen)
     return rows
+
+
+def add_sections(e, power_rows: list[dict], res: dict, feats: list, powers: list, by_name: dict, base: dict, book: str,
+                 problems: list[str], anchors_seen: Counter) -> list[dict]:
+    """A multi-power entry is its opening, the sections that print sets (Class Skill, Bonus Spells, Bonus Feats, a section label like
+    "Bloodline Powers") and its powers, in print order: the rows of the print comparison that no power owns are rows of their own
+    (`shape` "section", `anchor` "opening" for the opening text), and the converted body is those rows in order."""
+    by_sha = {sha: r for (name, sha), r in zip(powers, power_rows)}
+    f_spans = {}
+    seen: Counter = Counter()
+    for name, sha in powers:
+        seen[name] += 1
+        f = by_name.get(name, [None] * seen[name])[seen[name] - 1] if name in by_name else None
+        if f is not None:
+            f_spans[f.span_sha()] = sha
+    ordered: list[dict] = []
+    opening = "\n\n".join(res.get("opening") or [])
+    sec = dict(base, shape="section", book=book, by="", ability_tag="", reviewed_537="", links_lost="", level_import="", level="", section="")
+    if opening:
+        ordered.append(dict(sec, feature="(opening)", anchor="opening", verdict="agree", status="print", span_sha256="", note="the opening text of print",
+                            print=opening, print_sha256=hashlib.sha256(opening.encode()).hexdigest()))
+    used = set()
+    for r_ in res["rows"]:
+        sha = f_spans.get(r_["span"]) if r_["span"] else None
+        if sha is not None and sha in by_sha:
+            ordered.append(by_sha[sha])
+            used.add(sha)
+            continue
+        if "head not printed" in r_["notes"] and not r_["print"]:
+            continue                                                   # an import head that print lacks: no section to write
+        anchors_seen[r_["anchor"]] += 1
+        status = r_["status"] if not problems and anchors_seen[r_["anchor"]] == 1 else "hold"
+        notes = list(r_["notes"]) + ([f"anchor collision: {r_['anchor']}"] if anchors_seen[r_["anchor"]] > 1 else []) + problems
+        ordered.append(dict(sec, feature=r_["head"], anchor=r_["anchor"], verdict={"draft": "agree", "print": "differ", "hold": "hold"}[r_["status"]],
+                            status=status, span_sha256=r_["span"], note="; ".join(notes)[:400], print=r_["print"],
+                            print_sha256=hashlib.sha256(r_["print"].encode()).hexdigest()))
+    ordered += [r for sha, r in by_sha.items() if sha not in used]       # a power that print has nowhere on the pages (a hold)
+    return ordered
 
 
 DECISIONS: dict[tuple[str, str], tuple[str, str]] = {}
@@ -753,6 +793,23 @@ def run_headings(args) -> int:
     return 0
 
 
+def convert_multi(eid: str, rows: list[dict], props: dict) -> tuple[str, list[tuple[str, int | None]]]:
+    """The body of a multi-power entry from its rows, in print order: the opening text, then each section and each power as a `##` head
+    with its explicit key and its printed text. `features` lists the powers only, with the level that print gives."""
+    parts: list[str] = []
+    features: list[tuple[str, int | None]] = []
+    for r in rows:
+        text = props[(eid, r["anchor"])]
+        if r["shape"] == "section" and r["anchor"] == "opening":
+            parts.append(text)
+            continue
+        parts.append(f"## {re.sub(r'(?<!\\)([*_])', r'\\\1', r['feature'])} {{#{r['anchor']}}}")
+        parts.append(text)
+        if r["shape"] == "multi":
+            features.append((r["anchor"], int(r["level"]) if r["level"] else None))
+    return "\n" + "\n\n".join(parts).strip("\n") + "\n", features
+
+
 def heading_keys(body: str) -> set[str]:
     """The URL keys of the headings of a body: an explicit `{#key}`, else the derived key of the heading text."""
     keys = set()
@@ -783,12 +840,18 @@ def run_write(args) -> int:
         blocks = rw.parse_blocks(e.body.split("\n"))
         texts, levels, anchors = {}, {}, {}
         for r in mine:
+            if r["shape"] == "section":
+                continue
             texts[r["span_sha256"]] = props[(e.id, r["anchor"])]
             levels[r["span_sha256"]] = int(r["level"]) if r["level"] else None
             anchors[r["span_sha256"]] = r["anchor"]
-        body, features = convert_body(e, texts, levels, anchors, shape)
+        if shape == "multi":
+            body, features = convert_multi(e.id, mine, props)
+        else:
+            body, features = convert_body(e, texts, levels, anchors, shape)
         keep = heading_keys(e.body)
-        lost = keep - heading_keys(body)
+        new_keys = heading_keys(body)
+        lost = keep - new_keys - {k[len("sec-"):] for k in new_keys if k.startswith("sec-")}
         assert not lost, f"{e.id}: the keys {sorted(lost)} would move"                  # rule 3 of AGENTS.md: the keys of the headings stay
         front = features_front(e.front, features) if features else e.front
         own = [r for r in mine if r["book"] == book]
@@ -867,7 +930,7 @@ def run_check(args) -> int:
             if not mine:
                 pending += 1                  # a part of the book that no batch has compared yet: reported, not an error
                 continue
-            have = {r["span_sha256"] for r in mine}
+            have = {r["span_sha256"] for r in mine if r["shape"] != "section"}
             if have != {sha for _, sha in powers_of(e)}:
                 errors.append(f"{eid}: the table is stale (the spans of the import rows changed)")
             elif all(r["status"] in SETTLED for r in mine):
@@ -917,6 +980,14 @@ def self_test() -> int:
        [("Alchemy (Su)", "alchemy", 4, "Class Features"), ("Swift Alchemy (ex)", "swift-alchemy", 4, "Class Features")], "the powers of a base class are its #### heads, with their keys")
     eq([(q.name, q.head_level) for q in power_records(type("S", (), {"body": "\n**Animal Fury (Ex)**\n\n**Ability:** A bite attack.\n", "book": "x", "page": "1"})(), "class_option")], [("Animal Fury (Ex)", 0)], "the powers of a class option are its import names")
     eq(power_records(cls, "none"), [], "a rule entry has no power of its own")
+    mrows = [{"shape": "section", "anchor": "opening", "feature": "(opening)", "level": ""}, {"shape": "section", "anchor": "edicts", "feature": "Edicts", "level": ""},
+             {"shape": "multi", "anchor": "calling", "feature": "Calling (Ex)", "level": "2"}, {"shape": "multi", "anchor": "retribution", "feature": "Retribution (Ex)", "level": ""}]
+    mprops = {("ref/order/x", "opening"): "Cavaliers who join.", ("ref/order/x", "edicts"): "Protect the faith.", ("ref/order/x", "calling"): "At 2nd level, a prayer.",
+              ("ref/order/x", "retribution"): "Once a day."}
+    mbody, mfeats = convert_multi("ref/order/x", mrows, mprops)
+    eq(mbody, "\nCavaliers who join.\n\n## Edicts {#edicts}\n\nProtect the faith.\n\n## Calling (Ex) {#calling}\n\nAt 2nd level, a prayer.\n\n## Retribution (Ex) {#retribution}\n\nOnce a day.\n",
+       "a multi-power body is the opening, the sections and the powers in print order, each with its key")
+    eq(mfeats, [("calling", 2), ("retribution", None)], "features list the powers only, with a level when print gives one")
     STOP_TITLES.clear()
     STOP_TITLES.update({"aquatic", "boreal", "deepearth"})
     ab = [P("title", [("Aquatic", True, False)], 136, 0, 18), P("para", [("Dehydrating Touch (Sp)", True, False), (": A touch.", False, False)], 136, 0),
