@@ -16,71 +16,60 @@ page = "57"
 
 [fields]
 kind = "archetype"
+features = [
+  { anchor = "alcoholic-alchemy", level = 1 },
+  { anchor = "alcoholic-bombs", level = 2 },
+  { anchor = "alcoholic-resistance", level = 2 },
+  { anchor = "mixologist-master", level = 14 },
+]
 trades = [
-  { replaces = "Mutagen", feature = "mutagen" },
-  { replaces = "The discovery gained at 2nd level", feature = "discovery", levels = [2] },
-  { replaces = "Persistent mutagen", feature = "persistent-mutagen" },
-  { alters = "Alchemy", feature = "alchemy" },
-  { alters = "brew potion", feature = "brew-potion" },
-  { alters = "Poison resistance", feature = "poison-resistance" },
+  { replaces = "Mutagen", feature = "mutagen", by = ["alcoholic-alchemy"] },
+  { replaces = "The discovery gained at 2nd level", feature = "discovery", levels = [2], by = ["alcoholic-bombs"] },
+  { replaces = "Persistent mutagen", feature = "persistent-mutagen", by = ["mixologist-master"] },
+  { alters = "Alchemy", feature = "alchemy", by = ["alcoholic-alchemy"] },
+  { alters = "brew potion", feature = "brew-potion", by = ["alcoholic-alchemy"] },
+  { alters = "Poison resistance", feature = "poison-resistance", by = ["alcoholic-resistance"] },
 ]
 +++
 
 Certain alchemists focus on mastering the chemical reactions between alcohol and the physical body.
 Though the powerful potions they brew can have drawbacks, they are at least pleasurable.
 
-**Note:** This archetype makes heavy use of the alternate [drunkenness](ref/rule/drunkenness) rules.
+## Alcoholic Alchemy (Su) {#alcoholic-alchemy}
 
-**Alcoholic Alchemy (Su)**
+A mixologist can infuse potions and extracts he creates with alcohol, increasing their potency. When
+a mixologist brews a potion, he can spend an additional 10 gp in raw materials to increase his
+caster level by 1 for the purpose of the potion's effects, but the potion counts as a strong
+alcoholic drink (see the sidebar on page 55). When a mixologist creates his extracts, he can spend 1
+extra minute doing so to increase his caster level by 1 for the purpose of that extract's effects,
+but the extract counts as a strong alcoholic drink. A mixologist can prepare one alcoholic extract
+for each level of extracts he can prepare. A mixologist can't ever gain a mutagen or discoveries
+that alter mutagens.
 
-**Ability:** When a mixologist brews a potion, he can spend an additional 10 gp in raw materials to
-increase his caster level by 1 for the purpose of the potion's effects, but the potion counts as a
-**strong alcoholic drink.** When a mixologist creates his extracts, he can spend 1 extra minute
-doing so to increase his caster level by 1 for the purpose of that extract's effects, but the
-extract counts as a **strong alcoholic drink.** A mixologist can prepare one alcoholic extract for
-each level of extracts he can prepare.
+This alters alchemy and brew potion and replaces mutagen.
 
-**Alters:** Alchemy, brew potion
+## Alcoholic Bombs (Su) {#alcoholic-bombs}
 
-**Flavor:** A mixologist can infuse potions and extracts he creates with alcohol, increasing their
-potency.
+When the mixologist creates a bomb, he can cause the detonation to produce intoxicating fumes. A
+creature that takes a direct hit from an alcoholic bomb becomes tipsy (see page 54) if it fails a
+Fortitude saving throw. If the creature is already tipsy, it becomes drunk instead. If the creature
+is already drunk, it becomes soused instead. A soused creature that fails its Fortitude saving throw
+passes out for 1d3 hours and wakes up with a hangover. This ability counts as a discovery that
+modifies bombs, so it doesn't stack with other discoveries that modify bombs.
 
-**Gained:** At 1st Level
+This replaces the discovery gained at 2nd level.
 
-**Replaces:** Mutagen
+## Alcoholic Resistance (Ex) {#alcoholic-resistance}
 
-**Special:** A mixologist can't ever gain a mutagen or discoveries that alter mutagens.
-
-**Alcoholic Bombs (Su)**
-
-**Ability:** When the mixologist creates a bomb, he can cause the detonation to produce intoxicating
-fumes. A creature that takes a direct hit from an alcoholic bomb becomes **tipsy** if it fails a
-Fortitude saving throw. If the creature is already tipsy, it becomes **drunk** instead. If the
-creature is already drunk, it becomes **soused** instead. A soused creature that fails its Fortitude
-saving throw passes out for 1d3 hours and wakes up with a **hangover**.
-
-**Gained:** At 1st Level
-
-**Replaces:** The discovery gained at 2nd level
-
-**Special:** This ability counts as a discovery that modifies bombs (Primary Bomb Discovery), so it
-doesn't stack with other discoveries that modify bombs.
-
-**Alcoholic Resistance (Ex)**
-
-**Alters:** Poison resistance
-
-**Gained:** At 2nd Level
-
-**Passive:** A mixologist's bonus on saving throws against poison also applies on saving throws to
+At 2nd level, a mixologist's bonus on saving throws against poison also applies on saving throws to
 become less drunk and to avoid passing out. This doesn't allow a mixologist to become immune to
 alcohol.
 
-**Mixologist Master (Su)**
+This alters poison resistance.
 
-**Ability:** A mixologist can have up to two alcoholic extracts for each level of extracts he can
+## Mixologist Master (Su) {#mixologist-master}
+
+At 14th level, a mixologist can have up to two alcoholic extracts for each level of extracts he can
 prepare as long as he can prepare at least two extracts of that level.
 
-**Gained:** At 14th Level
-
-**Replaces:** Persistent mutagen
+This replaces persistent mutagen.

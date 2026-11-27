@@ -59,6 +59,19 @@ Files
     candidate (Base Evolutions, ...) is obsolete: both are reported, and `--check` and `--write`
     fail until they are removed.
 
+Converted entries (phynics/cast-iron#540)
+-----------------------------------------
+An entry that the print rewrite (`scripts/feature-prose-540.py`) has converted holds no import rows
+any more: no `Gained` or effect row, no `Action` row, no upgrade lead and no plain-text upgrade, so it
+has no power candidate and is out of the scope of this script. The marker is that absence, not
+`features`: a single-power class option has no `features` (owner ruling 1 of 2026-11-24), a multi-power
+one has them, and an entry that never had import rows (the 705 kinetic talents, companions, and so on)
+is out of scope the same way. A resolution or an exception whose entry is out of scope is `retired`,
+not orphaned: `--check` reports the count and does not fail on it. A key whose entry has import rows
+that do not match, or whose entry is gone from the corpus, is orphaned as before. The resolutions file
+stays what it was, print-reviewed text in row form with its book and page (the verdict `reviewed-537`
+of the print rewrite), until the final step of the plan removes it.
+
 Span source text (what `span_sha256` hashes)
 --------------------------------------------
 The span is the name block and the run after it, up to the next boundary or name. Each block is
@@ -958,6 +971,24 @@ def unused_exceptions(exceptions, outcomes: list[Outcome]):
     return sorted(set(exceptions) - used)
 
 
+def entry_in_scope(body_lines: list[str]) -> bool:
+    """An entry is in the scope of this script while its body holds an import row (a power marker): a
+    `Gained`, effect or `Action` row, an upgrade lead or a plain-text upgrade. A converted entry holds none."""
+    # printed prose says "At 5th level, a druid gains ...": a plain upgrade in the comma form is no import row, the colon form is
+    return any(is_power_marker(b) and not (b.kind == "legacy" and b.sep == ",") for b in parse_blocks(body_lines))
+
+
+def retired_entries(corpus: Path) -> set[str]:
+    """The class-option entries with no import row: converted by the print rewrite, or never import-shaped."""
+    return {entry_id for entry_id, _path, parts in class_option_entries(corpus) if not entry_in_scope(parts[2].split("\n"))}
+
+
+def split_retired(keys, retired: set[str]):
+    """(live, retired) keys: a resolution or exception whose entry is out of scope is retired, not orphaned."""
+    live = [k for k in keys if k[0] not in retired]
+    return live, [k for k in keys if k[0] in retired]
+
+
 def queue_text(outcomes: list[Outcome]) -> str:
     rows = [QUEUE_HEADER]
     for o in outcomes:
@@ -1344,6 +1375,28 @@ def self_test() -> int:
     expect(unused_exceptions({("ref/gone", "Gone", 1): None}, outs) == [("ref/gone", "Gone", 1)],
            "an orphaned exception is reported")
 
+    # Converted entries (#540): an entry without import rows is out of scope, so its resolutions and exceptions are
+    # retired, while a key of an entry that still has import rows (or of an entry that is gone) stays orphaned.
+    converted = "## Resistance (Ex) {#resistance}\n\nAt 1st level, you gain resistance 5.\n"
+    single = "You gain a +2 bonus on saves against fear.\n"
+    stale_import = "**Resistance (Ex)**\n\n**Passive:** You gain resistance 5.\n"
+    expect(not entry_in_scope(converted.split("\n")), "headed printed prose has no import row")
+    expect(not entry_in_scope(single.split("\n")), "a single-power option without features has no import row")
+    expect(entry_in_scope(stale_import.split("\n")), "labeled rows are import rows")
+    expect(entry_in_scope("**P**\n\n**At 11th level,** more.\n".split("\n")), "an upgrade lead is an import row")
+    expect(entry_in_scope("**P**\n\nAt 5th level: more.\n".split("\n")), "a plain-text upgrade in the colon form is an import row")
+    expect(not entry_in_scope("A druid gains a bonus.\n\nAt 5th level, the bonus grows.\n".split("\n")), "printed prose with an upgrade sentence is none")
+    import tempfile
+    with tempfile.TemporaryDirectory() as tmp:
+        for name, body in (("converted", converted), ("single", single), ("live", stale_import)):
+            d = Path(tmp) / "entries" / "a"
+            d.mkdir(parents=True, exist_ok=True)
+            (d / f"{name}.md").write_text(f'+++\nid = "ref/a/{name}"\nkind = "class_option"\ntitle = "{name}"\n\n[fields]\nkind = "class_option"\n+++\n\n{body}')
+        expect(retired_entries(Path(tmp)) == {"ref/a/converted", "ref/a/single"}, f"retired entries of a mini corpus: {retired_entries(Path(tmp))}")
+    keys = [("ref/a/converted", "Resistance (Ex)", 1), ("ref/a/live", "Resistance (Ex)", 1), ("ref/a/gone", "Resistance (Ex)", 1)]
+    live, ret = split_retired(keys, {"ref/a/converted"})
+    expect(live == keys[1:] and ret == keys[:1], f"retired and orphaned keys are told apart: {live} {ret}")
+
     # An action-first pair passes validation: an exception for it is obsolete, as in the app.
     pair_body = "**Pair (Su)**\n\n**Standard:** Act.\n\n**Passive:** Be.\n"
     pair_key = ("ref/x/pair", "Pair (Su)", 1)
@@ -1407,6 +1460,12 @@ def main() -> int:
     print(summarize(outcomes, changed))
     stale = [o for o in outcomes if o.status == "stale"]
     orphaned, obsolete = unused_resolutions(resolutions, outcomes)
+    retired = retired_entries(corpus)
+    orphaned, retired_resolutions = split_retired(orphaned, retired)
+    obsolete, _ = split_retired(obsolete, retired)
+    unused = unused_exceptions(exceptions, outcomes)
+    unused, retired_exceptions = split_retired(unused, retired)
+    print(f"retired (entry converted or without import rows): {len(retired_resolutions)} resolutions, {len(retired_exceptions)} exceptions")
     problems = []
     for o in stale:
         problems.append(f"stale resolution: {o.entry_id} {o.name} #{o.occurrence}")
@@ -1421,7 +1480,7 @@ def main() -> int:
             problems.append(f"obsolete exception (the power passes): {o.entry_id} {o.name} #{o.occurrence}")
         elif o.reasons == ["both-exception-and-resolution"]:
             problems.append(f"an exception and a resolution for one power: {o.entry_id} {o.name} #{o.occurrence}")
-    for key in unused_exceptions(exceptions, outcomes):
+    for key in unused:
         problems.append("orphaned exception (matches no candidate): %s %s #%d" % key)
     for line in problems:
         print(line)
