@@ -18,6 +18,7 @@ from __future__ import annotations
 
 import argparse
 import dataclasses
+import difflib
 import importlib.util
 import os
 import re
@@ -73,11 +74,11 @@ CELL = re.compile(r"^(?:[+\-\u2013\u2014]?\d+(?:/[+\-\u2013\u2014]?\d+)*(?:st|nd
 
 def print_lost(printed: str, written: str) -> list[str]:
     """Print-coverage check (the check of #373, copied here until that PR is merged): the printed sentences (at least 12 letters) of a power's span that the written text lacks. Compared by their letters
-    and digits; runs of three numeric tokens in a printed sentence (cells of a table that the text layer set inside it) are not words of it; a sentence of
-    which at most one word (four letters or more, at least eight of them) is missing is there (a misprint of print that the corpus corrected)."""
+    and digits; runs of three numeric tokens in a printed sentence (cells of a table that the text layer set inside it) are not words of it; a sentence that is
+    nearly one written sentence (a letter or two differ) is there; the words of the whole text give no allowance."""
     plain = re.sub(r"[_*>]|^\s*[-\u2022]\s+", "", re.sub(r"\[([^\]]*)\]\([^)]*\)", r"\1", written), flags=re.M)
     have = fp.squash(plain)
-    words = set(re.findall(r"[a-z]{4,}", plain.lower().replace("\u2019", "'")))
+    wsq = [fp.squash(x) for x in SENTENCE_END.split(" ".join(plain.split()))]
     out = []
     for s in SENTENCE_END.split(" ".join(printed.split())):
         if len(re.sub(r"[^A-Za-z]", "", s)) < 12:
@@ -96,9 +97,9 @@ def print_lost(printed: str, written: str) -> list[str]:
         s = " ".join(kept)
         if fp.squash(s) in have:
             continue
-        ws = re.findall(r"[a-z]{4,}", s.lower().replace("\u2019", "'"))
-        if len(ws) >= 8 and sum(w not in words for w in ws) <= 1:
-            continue
+        sq = fp.squash(s)
+        if len(sq) >= 40 and any(abs(len(w) - len(sq)) <= 3 and difflib.SequenceMatcher(None, sq, w).ratio() >= 0.97 for w in wsq):
+            continue                                    # nearly one written sentence (a letter or two differ), compared sentence by sentence
         out.append(s)
     return out
 
