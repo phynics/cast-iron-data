@@ -4,6 +4,7 @@
 from __future__ import annotations
 
 import argparse
+import collections
 import re
 import sys
 import tomllib
@@ -23,7 +24,44 @@ def sentences(text: str) -> list[str]:
 
 
 def is_covered(sentence: str, body: str) -> bool:
-    return sentence in body
+    if sentence in body:
+        return True
+    return any(sentences_match(sentence, candidate) for candidate in sentences(body))
+
+
+LIGATURES = str.maketrans({
+    "æ": "ae", "œ": "oe", "ﬁ": "fi", "ﬂ": "fl", "ﬀ": "ff", "ﬃ": "ffi", "ﬄ": "ffl",
+})
+DIGITS = re.compile(r"\d+")
+NEGATIONS = re.compile(r"(?<![\w])(?:not|no|never|cannot)\b|(?<=\w)n['’]t\b")
+
+
+def letter_form(text: str) -> str:
+    text = plain(text).translate(LIGATURES).replace("’", "'")
+    return "".join(ch for ch in text if ch.isalpha())
+
+
+def edit_distance_at_most_two(left: str, right: str) -> bool:
+    if abs(len(left) - len(right)) > 2:
+        return False
+    previous = list(range(len(right) + 1))
+    for i, a in enumerate(left, 1):
+        current = [i]
+        for j, b in enumerate(right, 1):
+            current.append(min(current[-1] + 1, previous[j] + 1, previous[j - 1] + (a != b)))
+        if min(current) > 2:
+            return False
+        previous = current
+    return previous[-1] <= 2
+
+
+def sentences_match(left: str, right: str) -> bool:
+    left, right = plain(left), plain(right)
+    if DIGITS.findall(left) != DIGITS.findall(right):
+        return False
+    if collections.Counter(NEGATIONS.findall(left)) != collections.Counter(NEGATIONS.findall(right)):
+        return False
+    return edit_distance_at_most_two(letter_form(left), letter_form(right))
 
 
 def source_page(front: str, book: str) -> str:
@@ -48,7 +86,16 @@ def self_test() -> int:
     if is_covered("an entry-only sentence.", "the print proposal"):
         print("FAIL: an entry-only sentence counted as present in print")
         return 1
-    print(f"self-test: {len(checks) + 2} checks passed")
+    if sentences_match("The effect deals +2 damage.", "The effect deals +3 damage."):
+        print("FAIL: a changed digit counted as a match")
+        return 1
+    if sentences_match("The effect does not apply.", "The effect does apply."):
+        print("FAIL: a dropped negation counted as a match")
+        return 1
+    if not sentences_match("The ﬁrst-level effect deals +2 damage.", "The first level effect deals +2 damage."):
+        print("FAIL: harmless ligature and spacing differences did not match")
+        return 1
+    print(f"self-test: {len(checks) + 5} checks passed")
     return 0
 
 
