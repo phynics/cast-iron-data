@@ -13,6 +13,7 @@ page = "74"
 [fields]
 kind = "class_option"
 group = "rage-power"
+ability_type = "Ex"
 +++
 
 While raging, as a free action the barbarian may leave herself open to attack while preparing

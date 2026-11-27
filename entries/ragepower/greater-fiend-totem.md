@@ -13,6 +13,7 @@ page = "75"
 [fields]
 kind = "class_option"
 group = "rage-power"
+ability_type = "Su"
 +++
 
 While raging, the barbarian is surrounded by an aura of menace. Good creatures adjacent to the

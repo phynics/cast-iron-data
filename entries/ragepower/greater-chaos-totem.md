@@ -13,6 +13,7 @@ page = "74"
 [fields]
 kind = "class_option"
 group = "rage-power"
+ability_type = "Su"
 +++
 
 While raging, the barbarian gains DR/lawful equal to 1/2 her barbarian level. Her weapons and

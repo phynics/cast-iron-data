@@ -13,6 +13,7 @@ page = "76"
 [fields]
 kind = "class_option"
 group = "rage-power"
+ability_type = "Ex"
 +++
 
 While raging, if the barbarian is reduced below 0 hit points, 1 hit point of lethal damage per

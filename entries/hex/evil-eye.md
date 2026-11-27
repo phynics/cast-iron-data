@@ -13,6 +13,7 @@ page = "66"
 [fields]
 kind = "class_option"
 group = "witch-hex"
+ability_type = "Su"
 +++
 
 The witch can cause doubt to creep into the mind of a foe within 30 feet that she can see. The

@@ -13,6 +13,7 @@ page = "66"
 [fields]
 kind = "class_option"
 group = "witch-hex"
+ability_type = "Su"
 +++
 
 The witch grows lighter as she gains power, eventually gaining the ability to [fly](ref/spell/fly).

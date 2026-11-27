@@ -13,6 +13,7 @@ page = "75"
 [fields]
 kind = "class_option"
 group = "rage-power"
+ability_type = "Ex"
 +++
 
 While raging and mounted, the barbarian's mount gains the [trample](ref/umr/trample) special attack.

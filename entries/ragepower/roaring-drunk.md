@@ -13,6 +13,7 @@ page = "76"
 [fields]
 kind = "class_option"
 group = "rage-power"
+ability_type = "Ex"
 +++
 
 While raging, the barbarian gains a +1 morale bonus on Intimidate checks and to the save DC of any

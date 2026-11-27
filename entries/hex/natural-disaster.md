@@ -13,6 +13,7 @@ page = "69"
 [fields]
 kind = "class_option"
 group = "witch-hex"
+ability_type = "Su"
 +++
 
 A witch using this hex calls down the forces of nature to wreak havoc on an area. This functions as

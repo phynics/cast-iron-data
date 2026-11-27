@@ -13,6 +13,7 @@ page = "77"
 [fields]
 kind = "class_option"
 group = "rage-power"
+ability_type = "Su"
 +++
 
 While raging and mounted, the barbarian's mount gains DR/magic equal to 1/2 the barbarian's level.

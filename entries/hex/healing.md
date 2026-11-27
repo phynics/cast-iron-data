@@ -13,6 +13,7 @@ page = "66"
 [fields]
 kind = "class_option"
 group = "witch-hex"
+ability_type = "Su"
 +++
 
 A witch can soothe the wounds of those she touches. This acts as a

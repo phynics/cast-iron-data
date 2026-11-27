@@ -13,6 +13,7 @@ page = "76"
 [fields]
 kind = "class_option"
 group = "rage-power"
+ability_type = "Ex"
 +++
 
 While raging, the barbarian may [overrun](ref/rule/overrun) more than one target per round, with a

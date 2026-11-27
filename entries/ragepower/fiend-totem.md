@@ -13,6 +13,7 @@ page = "75"
 [fields]
 kind = "class_option"
 group = "rage-power"
+ability_type = "Su"
 +++
 
 While raging, the barbarian sprouts dozens of wicked barbs from her body. Anyone striking the

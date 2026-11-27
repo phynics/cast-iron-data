@@ -13,6 +13,7 @@ page = "77"
 [fields]
 kind = "class_option"
 group = "rage-power"
+ability_type = "Ex"
 +++
 
 While raging, a barbarian gains a +1 dodge bonus to AC against attacks of opportunity for each

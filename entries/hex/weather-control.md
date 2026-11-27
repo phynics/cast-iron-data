@@ -13,6 +13,7 @@ page = "69"
 [fields]
 kind = "class_option"
 group = "witch-hex"
+ability_type = "Su"
 +++
 
 A witch with this hex can use _[control weather](ref/spell/control-weather)_ once per day, but

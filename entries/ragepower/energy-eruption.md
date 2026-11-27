@@ -13,6 +13,7 @@ page = "75"
 [fields]
 kind = "class_option"
 group = "rage-power"
+ability_type = "Su"
 +++
 
 While raging, the barbarian can absorb energy from a single attack and unleash it upon her enemies

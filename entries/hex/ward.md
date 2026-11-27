@@ -13,6 +13,7 @@ page = "67"
 [fields]
 kind = "class_option"
 group = "witch-hex"
+ability_type = "Su"
 +++
 
 A witch can use this hex to place a protective ward over one creature. The warded creature receives

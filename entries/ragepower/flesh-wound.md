@@ -13,6 +13,7 @@ page = "76"
 [fields]
 kind = "class_option"
 group = "rage-power"
+ability_type = "Ex"
 +++
 
 Once per rage, the barbarian can try to avoid serious harm from an attack. The barbarian must make a

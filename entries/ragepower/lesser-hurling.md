@@ -13,6 +13,7 @@ page = "76"
 [fields]
 kind = "class_option"
 group = "rage-power"
+ability_type = "Ex"
 +++
 
 As a full-round action while raging, the barbarian can lift and hurl an object up to one size
