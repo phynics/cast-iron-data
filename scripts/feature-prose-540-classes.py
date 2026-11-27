@@ -64,7 +64,7 @@ def is_table_para(text: str) -> bool:
     """A paragraph that is the cells of a class table: most of its words are numbers, dashes or ordinals, or it is the header row of the table (Fort, Ref and
     Will saves). Print sets the class table in the middle of the text and the reader makes paragraphs of the cells."""
     toks = text.split()
-    if len(toks) >= 4 and re.search(r"\bFort\b.*\bRef\b.*\bWill\b", text):
+    if len(toks) >= 4 and re.search(r"\bFort\b.*\bRef(?:lex)?\b.*\bWill\b", text):
         return True
     if re.search(r"\d\s*\+\s*\d+\s+per\s+\w+|\bper\s+\d+\s+levels?\b", text):
         return False                                      # "1 + 1 per 3 levels": a progression in a sentence, not cells

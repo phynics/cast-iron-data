@@ -14,89 +14,52 @@ page = "39"
 kind = "none"
 +++
 
-When an inquisitor uses the Judgment ability (as a swift action), she must select one type of
-judgment to make. As a swift action, she can change this judgment to another type. If the inquisitor
-is evil, she receives profane bonuses instead of sacred, as appropriate. Neutral inquisitors must
-select profane or sacred bonuses. Once made, this choice cannot be changed.
+When the inquisitor uses this ability, she must select one type of judgment to make. As a swift
+action, she can change this judgment to another type. If the inquisitor is evil, she receives
+profane bonuses instead of sacred, as appropriate. Neutral inquisitors must select profane or sacred
+bonuses. Once made, this choice cannot be changed.
 
-**Destruction**
+**Destruction:** The inquisitor is filled with divine wrath, gaining a +1 sacred bonus on all weapon
+damage rolls. This bonus increases by +1 for every three inquisitor levels she possesses.
 
-**Passive:** You gain a sacred bonus on all weapon damage rolls. This bonus is equal to 1 +
-one-third of your inquisitor level.
+**Healing:** The inquisitor is surrounded by a healing light, gaining
+[fast healing](ref/umr/fast-healing) 1. This causes the inquisitor to heal 1 point of damage each
+round as long as the inquisitor is alive and the judgment lasts. The amount of healing increases by
+1 point for every three inquisitor levels she possesses.
 
-**Healing**
+**Justice:** This judgment spurs the inquisitor to seek justice, granting a +1 sacred bonus on all
+attack rolls. This bonus increases by +1 for every five inquisitor levels she possesses. At 10th
+level, this bonus is doubled on all attack rolls made to confirm critical hits.
 
-**Passive:** You're surrounded by a healing light, gaining [fast healing](ref/umr/fast-healing) of
-an amount equal to 1 + [one-third](ref/misc/fractions-and-rounding) of your inquisitor level.
+**Piercing:** This judgment gives the inquisitor great focus and makes her spells more potent. This
+benefit grants a +1 sacred bonus on [concentration](ref/rule/concentration) checks and caster level
+checks made to overcome a target's [spell resistance](ref/rule/spell-resistance). This bonus
+increases by +1 for every three inquisitor levels she possesses.
 
-**Justice**
+**Protection:** The inquisitor is surrounded by a protective aura, granting a +1 sacred bonus to
+Armor Class. This bonus increases by +1 for every five inquisitor levels she possesses. At 10th
+level, this bonus is doubled against attack rolls made to confirm critical hits against the
+inquisitor.
 
-**At 10th Level:** The bonus is now doubled on all attack rolls made to confirm critical hits.
+**Purity:** The inquisitor is protected from the vile taint of her foes, gaining a +1 sacred bonus
+on all saving throws. This bonus increases by +1 for every five inquisitor levels she possesses. At
+10th level, the bonus is doubled against curses, diseases, and poisons.
 
-**Passive:** You gain a sacred bonus on all attack rolls. This bonus is equal to 1 + one-fifth of
-your inquisitor level.
+**Resiliency:** This judgment makes the inquisitor resistant to harm, granting
+[DR](ref/rule/damage-reduction) 1/magic. This DR increases by 1 for every five levels she possesses.
+At 10th level, this DR changes from magic to an alignment (chaotic, evil, good, or lawful) that is
+opposite the inquisitor's. If she is neutral, the inquisitor does not receive this increase.
 
-**Piercing**
+**Resistance:** The inquisitor is shielded by a f lickering aura, gaining 2 points of energy
+[resistance](ref/umr/resistance) against one energy type (acid, cold, electricity, fire, or sonic)
+chosen when the judgment is declared. The protection increases by 2 for every three inquisitor
+levels she possesses.
 
-**Passive:** You gain a sacred bonus on [concentration](ref/rule/concentration) checks and caster
-level checks made to overcome a target's [spell resistance](ref/rule/spell-resistance). This bonus
-is equal to 1 + one-third of your inquisitor level.
-
-**Protection**
-
-**At 10th Level:** The bonus is now doubled against attack rolls made to confirm critical hits
-against you.
-
-**Passive:** You're surrounded by a protective aura, granting a sacred bonus to Armor Class. This
-bonus is equal to 1 + one-fifth of your inquisitor level.
-
-**Purity**
-
-**At 10th Level:** The bonus is now doubled against curses, diseases, and poisons.
-
-**Passive:** You gain a sacred bonus on all saving throws. This bonus is equal to 1 + one-fifth of
-your inquisitor level.
-
-**Resiliency**
-
-**At 10th Level:** You instead gain DR 3/chaotic, evil, good, or lawful, whichever is opposite to
-your alignment. If you are opposite to two, choose only one of them. If you are true neutral, you
-gain DR 3/magic, instead.
-
-**At 15th Level:** The DR increases to 4.
-
-**At 20th Level:** The DR increases to 5.
-
-**At 5th Level:** You instead gain DR 2/magic.
-
-**Passive:** You gain [DR](ref/rule/damage-reduction) 1/magic.
-
-**Resistance**
-
-**Passive:** You gain [resistance](ref/umr/resistance) 2 against one energy type (acid, cold,
-electricity, fire, or sonic) chosen when the judgment is declared.
-
-At 3rd level: Your resistance increases to 4.
-
-At 6th level: Your resistance increases to 6.
-
-At 9th level: Your resistance increases to 8.
-
-At 12th level: Your resistance increases to 10.
-
-At 15th level: Your resistance increases to 12.
-
-At 18th level: Your resistance increases to 14.
-
-**Smiting**
-
-**At 10th Level:** Your weapons also count as [adamantine](ref/eq-material/adamantine) for the
-purpose of overcoming [damage reduction](ref/rule/damage-reduction) (but not for reducing
-[hardness](ref/umr/hardness)).
-
-**At 6th Level:** Your weapons also count as one alignment type (chaotic, evil, good, or lawful) for
-the purpose of bypassing [damage reduction](ref/rule/damage-reduction). The type selected must match
-one of your alignments. If you're true neutral, you do not receive this bonus.
-
-**Passive:** Your weapons count as magic for the purposes of bypassing
-[damage reduction](ref/rule/damage-reduction).
+**Smiting:** This judgment bathes the inquisitor's weapons in a divine light. The inquisitor's
+weapons count as magic for the purposes of bypassing [damage reduction](ref/rule/damage-reduction).
+At 6th level, the inquisitor's weapons also count as one alignment type (chaotic, evil, good, or
+lawful) for the purpose of bypassing [damage reduction](ref/rule/damage-reduction). The type
+selected must match one of the inquisitor's alignments. If the inquisitor is neutral, she does not
+receive this bonus. At 10th level, the inquisitor's weapons also count as
+[adamantine](ref/eq-material/adamantine) for the purpose of overcoming
+[damage reduction](ref/rule/damage-reduction) (but not for reducing [hardness](ref/umr/hardness)).

@@ -849,6 +849,9 @@ def ocr_repair(text: str) -> str:
 SUPERSCRIPT_MARK = re.compile(r"([a-z]*)(?:APG|UM|UC|UE|UI|ARG|ACG|OA|ISM|B[2-6]|†)")
 
 
+LINK_FRAGMENT = re.compile(r"</?a\b[^>]*>")
+
+
 def load_book(xml_path: Path) -> Book:
     global BODY_TOP
     xml = xml_path.read_text(encoding="utf-8")
@@ -865,6 +868,7 @@ def load_book(xml_path: Path) -> Book:
                 continue
             seen.add(key)
             top, left = int(top), int(left)
+            raw = LINK_FRAGMENT.sub("", raw)       # a PDF link of the book (the Core Rulebook links its tables and rules: `<a href="...html#181">Fort Ref</a>`): its text stays, the tag goes
             if OCR["on"]:
                 raw = ocr_repair(raw)
             plain = html.unescape(re.sub(r"</?[bi]>", "", raw)).strip()
@@ -7362,6 +7366,16 @@ def self_test() -> int:
        "Horror Realms: no blank indent, the two plain headings of the Accursed Companions stay")
     configure_book("ultimate-magic")
     eq((BLANK_INDENT["on"], OUTER_TAB["on"], STAYS_EXTRA["set"]), (False, False, frozenset()), "the other books keep their reading")
+    import tempfile
+    with tempfile.TemporaryDirectory() as td:
+        xml = Path(td) / "b.xml"
+        xml.write_text('<pdf2xml><fontspec id="0" size="13" family="ABCDEF+Body" color="#000000"/><page number="1">'
+                       '<text top="100" left="50" width="200" height="13" font="0"><b>Channel Energy (Su): </b>Regardless of <a href="PZO1110 Core Rulebook (6th).html#181">alignment</a>, any cleric</text>'
+                       '<text top="120" left="50" width="200" height="13" font="0">can <a href="x.html#2">release</a> a wave.</text></page></pdf2xml>', encoding="utf-8")
+        bk_ = load_book(xml)
+        eq("".join(r[4] if False else r[3] for r in bk_.pages[1]).count("<a"), 0, "the link tags of a PDF (the Core Rulebook) are not text of the page")
+        eq(" ".join(re.sub(r"<[^>]+>", "", r[3]) for r in bk_.pages[1]).split(), ["Channel", "Energy", "(Su):", "Regardless", "of", "alignment,", "any", "cleric", "can", "release", "a", "wave."],
+           "the text of a link stays")
     print(f"self-test: {ok} checks passed")
     return 0
 
