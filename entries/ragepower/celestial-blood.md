@@ -13,11 +13,10 @@ page = "80"
 [fields]
 kind = "class_option"
 group = "rage-power"
+ability_type = "Su"
 +++
 
-**Celestial Blood (Su)**
+The middle blood rage power (that without “lesser” or “greater” in the title) can only be taken by a
+6th level or higher barbarian that already has the lesser blood rage power of its group.
 
-**Passive:** While _raging,_ the barbarian gains [resistance](ref/umr/resistance) 5 to acid and
-cold.
-
-**Prereq:** 6th-level barbarian, [lesser celestial blood](ref/ragepower/lesser-celestial-blood)
+While raging, the barbarian gains [resistance](ref/umr/resistance) 5 to acid and cold.

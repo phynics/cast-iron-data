@@ -13,11 +13,10 @@ page = "33"
 [fields]
 kind = "class_option"
 group = "investigator-talent"
+ability_type = "Ex"
 +++
 
-**Perceptive Tracking (Ex)**
-
-**Passive:** The investigator can use Perception instead of [Survival](ref/skill/survival) to both
-find and follow tracks, using the same DCs listed under the Survival skill.
-
-**Prereq:** Trained in [Perception](ref/skill/perception)
+The investigator can use [Perception](ref/skill/perception) instead of
+[Survival](ref/skill/survival) to both find and follow tracks, using the same DCs listed under the
+Survival skill (_Core Rulebook_ 107). An investigator must be trained in
+[Perception](ref/skill/perception) to select this talent.

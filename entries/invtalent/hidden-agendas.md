@@ -13,18 +13,12 @@ page = "32"
 [fields]
 kind = "class_option"
 group = "investigator-talent"
+ability_type = "Ex"
 +++
 
-**Hidden Agendas (Ex)**
-
-**Flavor:** An investigator learns to obscure his thoughts and endeavors from prying eyes and even
-intrusive magic.
-
-**Ability:** When an investigator uses _inspiration_ while attempting a [Bluff](ref/skill/bluff)
-check to pass secret messages or attempting a [Linguistics](ref/skill/linguistics) check to create
-forgeries, he can roll his _inspiration_ dice twice and take the higher result.
-
-In addition, the investigator can use _inspiration_ when attempting a saving throw against a
-divination spell or effect without expending a use of _inspiration._
-
-**Prereq:** 11th-level investigator
+An investigator learns to obscure his thoughts and endeavors from prying eyes and even intrusive
+magic. When an investigator uses inspiration while attempting a [Bluff](ref/skill/bluff) check to
+pass secret messages or attempting a [Linguistics](ref/skill/linguistics) check to create forgeries,
+he can roll his inspiration dice twice and take the higher result. In addition, the investigator can
+use inspiration when attempting a saving throw against a divination spell or effect without
+expending a use of inspiration. An investigator must be at least 11th level to select this talent.

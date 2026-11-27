@@ -13,11 +13,10 @@ page = "114"
 [fields]
 kind = "class_option"
 group = "rage-power"
+ability_type = "Su"
 +++
 
-**Battle Roar (Su)**
-
-**Ability:** When the character successfully demoralizes an opponent using _intimidating glare,_ he
-also deals 1d6 points of sonic damage to that opponent.
-
-**Prereq:** 6th-level barbarian, [intimidating glare](ref/ragepower/intimidating-glare)
+When the character successfully demoralizes an opponent using
+[intimidating glare](ref/ragepower/intimidating-glare), he also deals 1d6 points of sonic damage to
+that opponent. A character must be at least 6th level and have the
+[intimidating glare](ref/ragepower/intimidating-glare) rage power to select this rage power.

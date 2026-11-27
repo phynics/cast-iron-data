@@ -13,12 +13,12 @@ page = "80"
 [fields]
 kind = "class_option"
 group = "rage-power"
+ability_type = "Su"
 +++
 
-**Abyssal Blood (Su)**
+The middle blood rage power (that without “lesser” or “greater” in the title) can only be taken by a
+6th level or higher barbarian that already has the lesser blood rage power of its group.
 
-**Ability:** Once per day when the barbarian enters a _rage,_ she can choose to grow one size
-category larger than her base size (as [enlarge person](ref/spell/enlarge-person), even if the
-barbarian isn't humanoid).
-
-**Prereq:** 6th-level barbarian, [lesser abyssal blood](ref/ragepower/lesser-abyssal-blood)
+Once per day when the barbarian enters a rage, she can choose to grow one size category larger than
+her base size (as _[enlarge person](ref/spell/enlarge-person)_, even if the barbarian isn't
+humanoid).

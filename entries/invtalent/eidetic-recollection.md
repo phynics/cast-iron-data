@@ -13,14 +13,10 @@ page = "32"
 [fields]
 kind = "class_option"
 group = "investigator-talent"
+ability_type = "Su"
 +++
 
-**Eidetic Recollection (Su)**
-
-**Ability:** An investigator can always choose to take 10 on any of his Knowledge checks, even if
-he's in immediate danger or distracted.
-
-An investigator may expend one use of _inspiration_ to take 20 on a Knowledge skill check even if
-he's in immediate danger or distracted.
-
-**Prereq:** 11th-level investigator
+An investigator can always choose to take 10 on any of his Knowledge checks, even if he's in
+immediate danger or distracted. An investigator may expend one use of inspiration to take 20 on a
+Knowledge skill check even if he's in immediate danger or distracted. An investigator must be at
+least 11th level to select this talent.

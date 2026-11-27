@@ -13,15 +13,10 @@ page = "59"
 [fields]
 kind = "class_option"
 group = "swashbuckler-deed"
+ability_type = "Ex"
 +++
 
-**Cheat Death (Ex)**
-
-**Ability:** Whenever the swashbuckler is reduced to 0 hit points or fewer, she can spend all of her
-remaining panache to instead be reduced to 1 hit point. She must have at least 1 panache point to
-spend.
-
-**Prereq:** 19th-level swashbuckler
-
-**Special:** Effects that kill the swashbuckler outright without dealing hit point damage are not
+At 19th level, whenever the swashbuckler is reduced to 0 hit points or fewer, she can spend all of
+her remaining panache to instead be reduced to 1 hit point. She must have at least 1 panache point
+to spend. Effects that kill the swashbuckler outright without dealing hit point damage are not
 affected by this ability.

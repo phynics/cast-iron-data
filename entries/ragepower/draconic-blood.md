@@ -13,13 +13,12 @@ page = "80"
 [fields]
 kind = "class_option"
 group = "rage-power"
+ability_type = "Su"
 +++
 
-**Draconic Blood (Su)**
+The middle blood rage power (that without “lesser” or “greater” in the title) can only be taken by a
+6th level or higher barbarian that already has the lesser blood rage power of its group.
 
-**Choice:** Choose an energy type from the following: acid, cold, fire, or electricity.
-
-**Passive:** While _raging,_ the barbarian gains [resistance](ref/umr/resistance) 5 against the
-chosen energy type and a +1 natural armor bonus.
-
-**Prereq:** 6th-level barbarian, [lesser draconic blood](ref/ragepower/lesser-draconic-blood)
+Choose an energy type from the following: acid, cold, fire, or electricity. While raging, the
+barbarian gains [resistance](ref/umr/resistance) 5 against the chosen energy type and a +1 natural
+armor bonus.

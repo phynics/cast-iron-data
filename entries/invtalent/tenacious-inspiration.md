@@ -13,11 +13,8 @@ page = "33"
 [fields]
 kind = "class_option"
 group = "investigator-talent"
+ability_type = "Ex"
 +++
 
-**Tenacious Inspiration (Ex)**
-
-**Passive:** When an investigator rolls his _inspiration_ die, he can roll an additional
-_inspiration_ die and take the higher result.
-
-**Prereq:** 13th-level investigator
+When an investigator rolls his inspiration die, he can roll an additional inspiration die and take
+the higher result. The investigator must be at least 13th level to select this talent.

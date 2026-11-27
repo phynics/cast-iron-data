@@ -13,13 +13,9 @@ page = "80"
 [fields]
 kind = "class_option"
 group = "rage-power"
+ability_type = "Su"
 +++
 
-**Lesser Elemental Blood (Su)**
-
-**Choice:** Choose an energy type: acid, cold, fire, or electricity.
-
-**Swift:** While _raging,_ the barbarian can imbue her melee attacks with elemental energy, dealing
-an additional 1d6 points of damage of the chosen energy type for 1 round.
-
-**Usage:** 3 times/day
+Choose an energy type: acid, cold, fire, or electricity. While raging, as a swift action up to three
+times a day, the barbarian can imbue her melee attacks with elemental energy, dealing an additional
+1d6 points of damage of the chosen energy type for 1 round.

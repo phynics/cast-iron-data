@@ -13,13 +13,10 @@ page = "58"
 [fields]
 kind = "class_option"
 group = "swashbuckler-deed"
+ability_type = "Ex"
 +++
 
-**Swashbuckler Initiative (Ex)**
-
-**Passive:** While the swashbuckler has at least 1 panache point, she gains a +2 bonus on initiative
-checks. In addition, if she has the [Quick Draw](ref/feat/quick-draw) feat, her hands are free and
-unrestrained, and she has any single light or one-handed piercing melee weapon that isn't hidden,
-she can draw that weapon as part of the initiative check.
-
-**Prereq:** 3rd-level swashbuckler
+At 3rd level, while the swashbuckler has at least 1 panache point, she gains a +2 bonus on
+initiative checks. In addition, if she has the [Quick Draw](ref/feat/quick-draw) feat, her hands are
+free and unrestrained, and she has any single light or one-handed piercing melee weapon that isn't
+hidden, she can draw that weapon as part of the initiative check.

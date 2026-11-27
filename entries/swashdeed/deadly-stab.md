@@ -13,16 +13,11 @@ page = "59"
 [fields]
 kind = "class_option"
 group = "swashbuckler-deed"
+ability_type = "Ex"
 +++
 
-**Deadly Stab (Ex)**
-
-**Ability:** When the swashbuckler confirms a critical hit with a light or one-handed piercing melee
-weapon, in addition to the normal damage, she can spend 1 panache point to inflict a _deadly stab._
-The target must succeed at a Fortitude saving throw or die. The DC of this save is 10 + 1/2 the
-swashbuckler's level + the swashbuckler's Dexterity modifier.
-
-**Prereq:** 19th-level swashbuckler
-
-**Special:** This is a death attack. Performing this deed does not grant the swashbuckler a panache
-point.
+At 19th level, when the swashbuckler confirms a critical hit with a light or one-handed piercing
+melee weapon, in addition to the normal damage, she can spend 1 panache point to inflict a deadly
+stab. The target must succeed at a Fortitude saving throw or die. The DC of this save is 10 + 1/2
+the swashbuckler's level + the swashbuckler's Dexterity modifier. This is a death attack. Performing
+this deed does not grant the swashbuckler a panache point.

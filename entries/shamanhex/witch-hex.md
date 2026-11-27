@@ -15,12 +15,8 @@ kind = "class_option"
 group = "shaman-hex"
 +++
 
-**Witch Hex**
-
-**Ability:** The shaman selects any one hex normally available through the
-[witch's](ref/class/witch) _hex_ class feature. She treats her shaman level as her witch level when
-determining the powers and abilities of the hex. She uses her Wisdom modifier in place of her
-Intelligence modifier for the hex.
-
-**Special:** She cannot select major hexes or grand hexes using this ability. The shaman cannot
-select a witch hex that has the same name as a shaman hex.
+The shaman selects any one hex normally available through the [witch's](ref/class/witch) hex class
+feature. She treats her shaman level as her witch level when determining the powers and abilities of
+the hex. She uses her Wisdom modifier in place of her Intelligence modifier for the hex. She cannot
+select major hexes or grand hexes using this ability. The shaman cannot select a witch hex that has
+the same name as a shaman hex.

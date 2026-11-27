@@ -15,10 +15,6 @@ kind = "class_option"
 group = "slayer-talent"
 +++
 
-**Trapfinding**
-
-**Info:** The slayer gains [Disable Device](ref/skill/disable-device) as a class skill.
-
-**Ability:** The slayer also gains the [trapfinding](ref/ability/trapfinding) and
-[trap sense](ref/ability/trap-sense) [rogue](ref/class/rogue) abilities, using his slayer level as
-his effective rogue level.
+The slayer gains [Disable Device](ref/skill/disable-device) as a class skill. The slayer also gains
+the [trapfinding](ref/ability/trapfinding) and [trap sense](ref/ability/trap-sense)
+[rogue](ref/class/rogue) abilities, using his slayer level as his effective rogue level.

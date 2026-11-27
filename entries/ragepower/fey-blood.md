@@ -13,12 +13,12 @@ page = "80"
 [fields]
 kind = "class_option"
 group = "rage-power"
+ability_type = "Su"
 +++
 
-**Fey Blood (Su)**
+The middle blood rage power (that without “lesser” or “greater” in the title) can only be taken by a
+6th level or higher barbarian that already has the lesser blood rage power of its group.
 
-**Passive:** While _raging,_ when the barbarian [charges](ref/rule/charge), she ignores
+While raging, when the barbarian [charges](ref/rule/charge), she ignores
 [difficult terrain](ref/rule/terrain-and-obstacles) (including magical terrain, but not other
 creatures).
-
-**Prereq:** 6th-level barbarian, [lesser fey blood](ref/ragepower/lesser-fey-blood)

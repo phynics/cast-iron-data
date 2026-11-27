@@ -13,18 +13,12 @@ page = "37"
 [fields]
 kind = "class_option"
 group = "shaman-hex"
+ability_type = "Su"
 +++
 
-**Ward (Su)**
-
-**Ability:** The shaman places a protective ward over one creature. The _warded_ creature receives a
-+2 deflection bonus to AC and a +2 resistance bonus on saving throws. This effect lasts until the
-_warded_ creature is hit or fails a saving throw.
-
-**At 8th level,** these bonuses increase to +3.
-
-**At 16th level,** these bonuses increase to +4.
-
-**Special:** A shaman knows when a _warded_ creature is no longer protected. A shaman can have only
-one _ward_ active at a time. If the shaman uses this hex while a previous _ward_ is still active,
-that previous _ward_ immediately ends. A shaman cannot use this ability on herself.
+The shaman places a protective ward over one creature. The warded creature receives a +2 deflection
+bonus to AC and a +2 resistance bonus on saving throws. This effect lasts until the warded creature
+is hit or fails a saving throw. A shaman knows when a warded creature is no longer protected. A
+shaman can have only one ward active at a time. If the shaman uses this hex while a previous ward is
+still active, that previous ward immediately ends. A shaman cannot use this ability on herself. At
+8th and 16th levels, the bonuses provided by this ward increase by 1.

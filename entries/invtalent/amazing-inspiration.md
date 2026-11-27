@@ -13,12 +13,9 @@ page = "32"
 [fields]
 kind = "class_option"
 group = "investigator-talent"
+ability_type = "Ex"
 +++
 
-**Amazing Inspiration (Ex)**
-
-**Passive:** When using _inspiration,_ the investigator rolls a d8 instead of a d6.
-
-**At 20th level,** the investigator rolls 2d8 and adds both dice to the result.
-
-**Prereq:** 7th-level investigator
+When using inspiration, the investigator rolls a d8 instead of a d6. At 20th level, the investigator
+rolls 2d8 and adds both dice to the result. An investigator must be at least 7th level to select
+this talent.

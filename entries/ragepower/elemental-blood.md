@@ -13,11 +13,11 @@ page = "80"
 [fields]
 kind = "class_option"
 group = "rage-power"
+ability_type = "Su"
 +++
 
-**Elemental Blood (Su)**
+The middle blood rage power (that without “lesser” or “greater” in the title) can only be taken by a
+6th level or higher barbarian that already has the lesser blood rage power of its group.
 
-**Passive:** While _raging_ the barbarian gains energy [resistance](ref/umr/resistance) 10 against
-the energy type chosen when she took lesser elemental blood.
-
-**Prereq:** 6th-level barbarian, [lesser elemental blood](ref/ragepower/lesser-elemental-blood)
+While raging the barbarian gains energy [resistance](ref/umr/resistance) 10 against the energy type
+chosen when she took [lesser elemental blood](ref/ragepower/lesser-elemental-blood).

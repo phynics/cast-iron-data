@@ -13,10 +13,8 @@ page = "33"
 [fields]
 kind = "class_option"
 group = "investigator-talent"
+ability_type = "Ex"
 +++
 
-**Underworld Inspiration (Ex)**
-
-**Ability:** An investigator can use his _inspiration_ on Bluff, Disable Device, Disguise,
-Intimidate, or Sleight of Hand checks without expending uses of _inspiration,_ provided he's trained
-in the skill.
+An investigator can use his inspiration on Bluff, Disable Device, Disguise, Intimidate, or Sleight
+of Hand checks without expending uses of inspiration, provided he's trained in the skill.

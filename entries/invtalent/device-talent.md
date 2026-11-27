@@ -13,10 +13,9 @@ page = "32"
 [fields]
 kind = "class_option"
 group = "investigator-talent"
+ability_type = "Ex"
 +++
 
-**Device Talent (Ex)**
-
-**Ability:** The investigator can use the [Use Magic Device](ref/skill/use-magic-device) skill even
-if not trained in that skill. If the investigator is trained in Use Magic Device, he can use the
-_inspiration_ ability with that skill without expending uses of _inspiration._
+The investigator can use the [Use Magic Device](ref/skill/use-magic-device) skill even if not
+trained in that skill. If the investigator is trained in Use Magic Device, he can use the
+inspiration ability with that skill without expending uses of inspiration.

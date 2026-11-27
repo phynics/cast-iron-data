@@ -13,12 +13,9 @@ page = "59"
 [fields]
 kind = "class_option"
 group = "swashbuckler-deed"
+ability_type = "Ex"
 +++
 
-**Subtle Blade (Ex)**
-
-**Passive:** While a swashbuckler has at least 1 panache point, she is immune to
+At 11th level, while a swashbuckler has at least 1 panache point, she is immune to
 [disarm](ref/rule/disarm), [steal](ref/rule/steal), and [sunder](ref/rule/sunder) combat maneuvers
 made against a light or one-handed piercing melee weapon she is wielding.
-
-**Prereq:** 11th-level swashbuckler

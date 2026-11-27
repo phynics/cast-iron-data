@@ -13,11 +13,11 @@ page = "80"
 [fields]
 kind = "class_option"
 group = "rage-power"
+ability_type = "Su"
 +++
 
-**Greater Undead Blood (Su)**
+A greater blood rage power can only be taken by a 10th level or higher barbarian that already has
+the middle blood rage power.
 
-**Passive:** While _raging,_ the barbarian gains cold [resistance](ref/umr/resistance) 10, as well
-as DR 10/- against nonlethal damage.
-
-**Prereq:** 10th-level barbarian, [undead blood](ref/ragepower/undead-blood)
+While raging, the barbarian gains cold [resistance](ref/umr/resistance) 10, as well as DR 10/—
+against nonlethal damage.
