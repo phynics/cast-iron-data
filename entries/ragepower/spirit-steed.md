@@ -15,10 +15,8 @@ kind = "class_option"
 group = "rage-power"
 +++
 
-**Spirit Steed (Su)**
-
-**Passive:** While _raging_ and mounted, the barbarian's mount gains DR/magic equal to 1/2 the
-barbarian's level. The mount's natural weapons count as magical for the purpose of overcoming
-[damage reduction](ref/rule/damage-reduction).
-
-**Prereq:** 6th-level barbarian, [ferocious mount](ref/ragepower/ferocious-mount)
+While raging and mounted, the barbarian's mount gains DR/magic equal to 1/2 the barbarian's level.
+The mount's natural weapons count as magical for the purpose of overcoming
+[damage reduction](ref/rule/damage-reduction). A barbarian must have the
+[ferocious mount](ref/ragepower/ferocious-mount) rage power to select this rage power. A barbarian
+must be at least 6th level to select this rage power.

@@ -15,8 +15,6 @@ kind = "class_option"
 group = "rage-power"
 +++
 
-**Liquid Courage (Ex)**
-
-**Ability:** While _raging,_ the barbarian increases her morale bonus on saving throws against
-mind-affecting effects by +1 for each alcoholic drink she consumes during her _rage,_ to a maximum
-of +1 increase per four barbarian levels.
+While raging, the barbarian increases her morale bonus on saving throws against mind-affecting
+effects by +1 for each alcoholic drink she consumes during her rage, to a maximum of +1 increase per
+four barbarian levels.

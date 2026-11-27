@@ -15,12 +15,7 @@ kind = "class_option"
 group = "witch-hex"
 +++
 
-**Healing (Su)**
-
-**Ability:** A witch can soothe the wounds of those she touches. This acts as a
-[cure light wounds](ref/spell/cure-light-wounds) spell, using the witch's caster level.
-
-**At 5th level,** this hex acts like [cure moderate wounds](ref/spell/cure-moderate-wounds).
-
-**Special:** Once a creature has benefited from the _healing_ hex, it cannot benefit from it again
-for 24 hours.
+A witch can soothe the wounds of those she touches. This acts as a
+_[cure light wounds](ref/spell/cure-light-wounds)_ spell, using the witch's caster level. Once a
+creature has benefited from the healing hex, it cannot benefit from it again for 24 hours. At 5th
+level, this hex acts like _[cure moderate wounds](ref/spell/cure-moderate-wounds)_.

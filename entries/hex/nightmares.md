@@ -15,10 +15,8 @@ kind = "class_option"
 group = "witch-hex"
 +++
 
-**Nightmares (Su)**
-
-**Ability:** Calling upon fell powers, a witch can place a hex on a creature within 60 feet that
-causes its sleep to be tormented by terrible nightmares. This functions as the spell
-[nightmare](ref/spell/nightmare) each time the affected creature attempts to rest. A Will save
+Calling upon fell powers, a witch can place a hex on a creature within 60 feet that causes its sleep
+to be tormented by terrible nightmares. This functions as the spell
+_[nightmare](ref/spell/nightmare)_ each time the affected creature attempts to rest. A Will save
 negates this effect. If the save is failed, the target must make a new save each night or be unable
 to rest.

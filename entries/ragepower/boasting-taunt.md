@@ -15,15 +15,10 @@ kind = "class_option"
 group = "rage-power"
 +++
 
-**Boasting Taunt (Ex)**
-
-**Ability:** While _raging,_ the barbarian can incite a creature to attack her by making an
+While raging, the barbarian can incite a creature to attack her by making an
 [Intimidate](ref/skill/intimidate) check to demoralize. If the check succeeds, the target is also
-[shaken](ref/misc/shaken) as long as the barbarian is visible and _raging_ or until it makes a melee
+[shaken](ref/misc/shaken) as long as the barbarian is visible and raging or until it makes a melee
 attack against the barbarian. The barbarian receives a +2 circumstance bonus on this check for every
-alcoholic drink she has consumed during this _rage._
-
-**Prereq:** 6th-level barbarian
-
-**Special:** This is a language-dependent mind-affecting effect, and it relies on audible
-components.
+alcoholic drink she has consumed during this rage. This is a language-dependent mind-affecting
+effect, and it relies on audible components. The barbarian must be at least 6th level to select this
+power.
