@@ -1258,6 +1258,25 @@ def dead_ocr_patterns() -> list[str]:
     return [pat.pattern for pat in [p for p, _ in OCR_PHRASES + OCR_JOINED] + OCR_ITALICS if OCR_HITS[(OCR_BOOK["name"], pat.pattern)] == 0]
 
 
+def ocr_after_join(text: str) -> str:
+    """The OCR repairs of the book (`OCR_PHRASES` and `OCR_JOINED`) on a finished paragraph. A paragraph is repaired line by line when the layer
+    reads it, but a word that a line end cuts ("half-" and "ores") is joined only afterwards, so the repairs run on the joined text too: the
+    opening of an archetype is such text (review of #360: "half-ores" in Averaka Arbiter, "oflegend" in Toxophilite)."""
+    if not OCR["on"]:
+        return text
+    for pat, rep in list(OCR_PHRASES) + list(OCR_JOINED):
+        text, n = pat.subn(rep, text)
+        OCR_HITS[(OCR_BOOK["name"], pat.pattern)] += n
+    return text
+
+
+def ocr_leftovers(text: str) -> list[str]:
+    """The OCR repairs of the book that still change a finished text: a repair that the text escaped (a printed word the layer broke)."""
+    if not OCR["on"]:
+        return []
+    return [pat.pattern for pat, rep in list(OCR_PHRASES) + list(OCR_JOINED) if pat.sub(rep, text) != text]
+
+
 # Italics that print sets and that the text layer lacks (spells, magic weapon abilities, a book title in a citation): the span that the group
 # `i` of each pattern names is italic. Read from the pages of the book.
 OCR_ITALICS = [
@@ -1320,14 +1339,16 @@ PS_OCR: tuple = ([
     (re.compile(r"\ba is-foot-radius\b"), "a 15-foot-radius"), (re.compile(r"\bisth level\b"), "15th level"), (re.compile(r"\bmagic-whenever\b"), "magic\u2014whenever"),
     (re.compile(r"\bSummer born\b"), "Summerborn"), (re.compile(r"\bGolarion-wielding\b"), "Golarion\u2014wielding"),
     (re.compile(r"^Def1ectin1J Arrow"), "Deflecting Arrow"), (re.compile(r"^HamperinlJ Strike"), "Hampering Strike"), (re.compile(r"^PinninlJ Strike"), "Pinning Strike"),
-], [(re.compile(r"Two- Weapon Fighting feats"), "Two-Weapon Fighting feats")], [
+], [(re.compile(r"Two- Weapon Fighting feats"), "Two-Weapon Fighting feats"),
+    (re.compile(r"(?<![\w.])0 (?=This ability replaces favored terrain)"), "")],      # the "0" of "(to a minimum of 0)" that the layer sets in front of the closing sentence (Exploit the Gap, p. 9)
+    [
     re.compile(r"of the (?P<i>Pathfinder RPG Advanced Player's Guide) for more details"),
 ])           # People of the Stars
 CB_OCR: tuple = ([
     (re.compile(r"^BindinlJ Contract"), "Binding Contract"), (re.compile(r"^Counterar3ument"), "Counterargument"), (re.compile(r"\bJJeas\b"), "geas"),
 ], [(re.compile(r"\bifhe\b"), "if he"), (re.compile(r"\bifit\b"), "if it")], [
-    re.compile(r"acts as (?P<i>lesser geas),"), re.compile(r"effect acts as (?P<i>geas/quest) \(no HD"), re.compile(r"with a (?P<i>geas)\. This acts"), re.compile(r"The (?P<i>geas) is discharged"),
-    re.compile(r"trap \((?P<i>Pathfinder RPG Ultimate Magic) 65\)"), re.compile(r"^(?P<i>Ultimate Magic) 64\)"),
+    re.compile(r"acts as (?P<i>lesser geas),"), re.compile(r"effect acts as (?P<i>geas/quest) \(no HD"),     # print sets "with a geas." and "The geas is discharged" in roman (review of #360)
+    re.compile(r"^(?P<i>Ultimate Magic) 64\)"),
 ])           # Champions of Balance
 BG_OCR: tuple = ([
     (re.compile(r"Bardic Per formance:"), "Bardic Performance:"), (re.compile(r"\bme lee\b"), "melee"), (re.compile(r"\(D C ="), "(DC ="),
@@ -3343,6 +3364,8 @@ def import_name(entry_id: str, name: str) -> str:
 # anchor, the labels and targets. Gunmaster (Ultimate Intrigue p. 61): "the gunslinger's gunsmith ability".
 EXTRA_LINKS = {
     ("ref/arc-vigilante/gunmaster", "gunmaster"): [("gunsmith", "ref/class/gunslinger#gunsmith")],
+    # review of #360: the Survivor's Trap names the snare trap with a page citation; the entry replaces the citation (ruling 26)
+    ("ref/arc-druid/survivor", "trap"): [("snare trap", "ref/rangertrap/snare-trap")],
     # review of #357: Primal Bond names three domains and three subdomains; the import links Animal, Destruction, Growth and Rage
     # but not Strength or Ferocity. The corpus holds the domain pages (entries/domain/strength.md), and Ferocity is a subdomain on it.
     ("ref/arc-druid/goliath-druid", "primal-bond"): [("Strength", "ref/domain/strength"), ("Ferocity", "ref/domain/strength")],
@@ -3607,11 +3630,15 @@ def compare_entry(e: Entry, section: list[Para], book: Book) -> dict:
     opening = []
     for joined in join_wrapped([clean_runs(r) for r in opening_print], vocab):
         o_notes: list[str] = []
-        o = apply_errata(tidy_italics(joined), e.id, "opening", o_notes)
+        o = apply_errata(tidy_italics(ocr_after_join(joined)), e.id, "opening", o_notes)
         opening.append(render_marks(o))
         if o_notes and rows:
             rows[0]["notes"] += o_notes
     problems += errata_unused(e.id)
+    for text in opening + [r["print"] for r in rows]:
+        left = ocr_leftovers(text)
+        if left:
+            problems.append(f"an OCR repair still changes the printed text of `{e.id}` ({left[0]}): the layer broke a word that the repairs do not reach")
     links = [(m.group(2), m.group(3)) for b in opening_imp for m in LINK.finditer(logical(b))]
     for i, f in enumerate(feats):
         if i not in used or e.id in OPENING_ONLY:
@@ -4324,6 +4351,9 @@ TRADE_NO_BY = {
 # The entries whose removal an owner ruling after ruling 17 confirms (ruling 39 of 2026-11-25: Sage Counselor keeps it).
 TRADE_REMOVAL_RULED = {"ref/arc-monk/sage-counselor"}
 TRADE_REMOVALS = {
+    # review of #360: print gives the Survivor's Nature Bond no trade sentence ("At 1st level, a survivor must select an animal companion as her nature
+    # bond."), as the Season Keeper's; the import's `alters Nature bond` is no printed trade (Champions of Balance p. 25)
+    "ref/arc-druid/survivor": [("alters", "Nature bond")],
     "ref/arc-druid/dragon-shaman": [("replaces", "Woodland stride")],
     "ref/arc-druid/saurian-shaman": [("replaces", "Woodland stride")],
     # Purifier (Advanced Race Guide p. 86) lists its bonus spells and prints no sentence that replaces the mystery's
@@ -6700,6 +6730,15 @@ def self_test() -> int:
     # review of #351: a link that belongs to a phrase goes there, keeping print's case
     eq(apply_context_links("ref/arc-sorcerer/umbral-scion", "must have the shadow bloodline", [("Shadow", "ref/sorcbloodline/shadow")]),
        ("must have the [shadow](ref/sorcbloodline/shadow) bloodline", []), "a context link keeps the case of print")
+    # review of #360: the repairs of a book run on a joined paragraph too (a word that a line end cuts is joined after the lines are read)
+    _save = (OCR["on"], OCR_PHRASES, OCR_JOINED, OCR_BOOK["name"])
+    OCR["on"], OCR_BOOK["name"] = True, "bastards-of-golarion"
+    globals().update(OCR_PHRASES=BG_OCR[0], OCR_JOINED=BG_OCR[1])
+    eq(ocr_after_join("unify their fellow half-ores, and"), "unify their fellow half-orcs, and", "the repairs of the book run on a joined paragraph")
+    eq(ocr_leftovers("unify their fellow half-ores, and"), [r"\bhalf-ores\b"], "a text that a repair still changes is told")
+    eq(ocr_leftovers("unify their fellow half-orcs, and"), [], "a repaired text is clean")
+    OCR["on"], OCR_BOOK["name"] = _save[0], _save[3]
+    globals().update(OCR_PHRASES=_save[1], OCR_JOINED=_save[2])
     # review of #356: a hit counts for the book that read it, so a pattern that is alive in one book cannot hide a dead one of another
     OCR_HITS.clear()
     probe = re.compile(r"\bprobe-token\b")

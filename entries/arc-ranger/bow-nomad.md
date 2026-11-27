@@ -20,7 +20,7 @@ features = [
   { anchor = "twin-bows", level = 1 },
   { anchor = "combat-style", level = 2 },
   { anchor = "agile-maneuvers", level = 3 },
-  { anchor = "trick-shot" },
+  { anchor = "trick-shot", level = 3 },
   { anchor = "deflecting-arrow", level = 3 },
   { anchor = "hampering-strike", level = 8 },
   { anchor = "pinning-strike", level = 13 },
@@ -30,7 +30,7 @@ features = [
 trades = [
   { replaces = "Wild empathy", feature = "wild-empathy", by = ["twin-bows"] },
   { replaces = "Endurance", feature = "endurance", by = ["agile-maneuvers"] },
-  { replaces = "Favored terrain", feature = "favored-terrain", by = ["exploit-the-gap"] },
+  { replaces = "Favored terrain", feature = "favored-terrain", by = ["trick-shot"] },
   { replaces = "Camouflage", feature = "camouflage", by = ["focused-fire"] },
   { replaces = "hide in plain sight", feature = "hide-in-plain-sight", by = ["focused-fire"] },
   { alters = "6th-level combat style feat", feature = "combat-style-feat", levels = [6], by = ["focused-fire"] },
@@ -67,6 +67,8 @@ A bow nomad can make a number of trick shots per day equal to 1/2 her ranger lev
 modifier. Unless otherwise noted, making a trick shot is a standard action that provokes attacks of
 opportunity.
 
+This ability replaces favored terrain.
+
 ## Deflecting Arrow {#deflecting-arrow}
 
 At 3rd level, as an immediate action that doesn't provoke attacks of opportunity, a bow nomad can
@@ -93,8 +95,6 @@ ability.
 At 18th level, a bow nomad can exploit the natural weaknesses of her foes. When a bow nomad makes a
 full attack with her twin bows, each arrow that deals damage in that attack also reduces the
 target's natural armor bonus (if any) by 1 (to a minimum of 0) for 1 round.
-
-This ability replaces favored terrain.
 
 ## Focused Fire (Ex) {#focused-fire}
 
