@@ -15,7 +15,5 @@ kind = "class_option"
 group = "rage-power"
 +++
 
-**Overbearing Advance (Ex)**
-
-**Ability:** While _raging,_ the barbarian inflicts damage equal to her Strength bonus whenever she
-succeeds at an [overrun](ref/rule/overrun) combat maneuver.
+While raging, the barbarian inflicts damage equal to her Strength bonus whenever she succeeds at an
+[overrun](ref/rule/overrun) combat maneuver.

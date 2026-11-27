@@ -15,11 +15,7 @@ kind = "class_option"
 group = "witch-hex"
 +++
 
-**Forced Reincarnation (Su)**
-
-**Ability:** The witch causes a creature within 30 feet to die and be immediately reincarnated into
-a new body. A Will save negates this effect. Those that fail are slain and immediately brought back
-to life with the spell [reincarnate](ref/spell/reincarnate).
-
-**Special:** Whether or not the save is successful, a creature cannot be the target of this hex
-again for 1 day.
+The witch causes a creature within 30 feet to die and be immediately _reincarnated_ into a new body.
+A Will save negates this effect. Those that fail are slain and immediately brought back to life with
+the spell _[reincarnate](ref/spell/reincarnate)_. Whether or not the save is successful, a creature
+cannot be the target of this hex again for 1 day.

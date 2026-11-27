@@ -486,6 +486,9 @@ class Draft:
     prereq: list[str] = field(default_factory=list)   # the `Prereq` rows
 
 
+LEAD_UPGRADE = re.compile(r"^\*\*At (\d+)(?:st|nd|rd|th) level,\*\*\s*(.*)$", re.I | re.S)      # a class option's upgrade as the rewrite script writes it
+
+
 def build_draft(feat: ImportFeature) -> Draft:
     level = None
     effect: list[str] = []
@@ -528,7 +531,7 @@ def build_draft(feat: ImportFeature) -> Draft:
         elif lab and UPGRADE_LABEL.match(lab):
             upgrades.append((int(UPGRADE_LABEL.match(lab).group(1)), it.content))
         elif lab is None:
-            m = UPGRADE_PLAIN.match(it.content)
+            m = UPGRADE_PLAIN.match(it.content) or (LEAD_UPGRADE.match(it.content) if LOOSE_ITEMS["on"] else None)
             if m:
                 upgrades.append((int(m.group(1)), m.group(2)))
             else:
@@ -1853,6 +1856,21 @@ PRINT_BY_FROM = re.compile(
     r"(?:thereafter|after\s+that|beyond\s+that)", re.I)
 
 
+def normalize_progressions(text: str) -> str:
+    """Class options (#540, ruling 8 for the class-option compare): print's other ways to say a progression, in the forms that the rules read.
+    "increases by +1 for every four levels the barbarian has attained" is "... for every four levels after 0th" (the first step at the
+    first N levels); "At 8th level and 16th level, the bonuses provided by this ward increase by +1" is "the bonuses ... increase to +3 at 8th
+    level and +4 at 16th level" (the base is the last number before the sentence)."""
+    text = re.sub(r"(increases?|improves?|rises?|grows?)\s+by\s+\+?(\d+)\s+for\s+every\s+(\w+)\s+levels?\s+(?:the\s+[\w-]+\s+)?(?:possesses|has attained|has)\b",
+                  r"\1 by +\2 for every \3 levels after 0th", text, flags=re.I)
+
+    def steps(m: re.Match) -> str:
+        base, inc = last_number(text[:m.start()]), int(m.group(4))
+        a, b = int(m.group(1)), int(m.group(2))
+        return f"{m.group(3)} increase to +{base + inc} at {ordinal(a)} level and +{base + 2 * inc} at {ordinal(b)} level"
+    return re.sub(r"At\s+(\d+)(?:st|nd|rd|th)\s+level\s+and\s+(\d+)(?:st|nd|rd|th)\s+level,\s+([^.]*?)\s+increases?\s+by\s+\+?(\d+)", steps, text)
+
+
 def last_number(text: str) -> int:
     """The last number of a text that is not a level ("fast healing 1", "10 feet", "reduced by 1 point"), the base of a value that
     a progression raises; 0 when the text has none."""
@@ -2053,6 +2071,17 @@ def item_sentence(item: str, p_clean: str) -> re.Match | None:
     return None
 
 
+RESTATE_STOP = {"must", "can", "may", "need", "needs", "pick", "choose", "one", "any"}
+
+
+def restates(row: str, p_clean: str) -> bool:
+    """A prerequisite row with no level whose every word (the little words and "must" aside) print has: the import wrote a row to say what
+    the printed paragraph says ("Must have a bite, claw, ... attack" for "Pick bite, claw, ... attacks"). It adds no word, so it goes."""
+    words = [w for w in item_tokens(row) if w not in RESTATE_STOP]
+    have = set(item_tokens(p_clean))
+    return bool(words) and all(w in have for w in words)
+
+
 def take_prerequisites(draft: Draft, p_clean: str, d_clean: str) -> tuple[str, str, list[str]]:
     """A `Prereq: 13th-level magus ...` row is print's "The magus must be at least 13th level and have ... before selecting this
     arcana" when the level is the same: both go out of the comparison (the other words of a prerequisite are not compared; the
@@ -2082,6 +2111,9 @@ def take_prerequisites(draft: Draft, p_clean: str, d_clean: str) -> tuple[str, s
                 p_clean = p_clean.replace(sent, " ", 1)
             info += [f"rule 3: the prerequisite item \"{item[:30]}\" is print's sentence that says the character must have it" for item in items]
             d_clean = d_clean.replace(flat, " ", 1)
+        elif not m and items and restates(flat, p_clean):
+            d_clean = d_clean.replace(flat, " ", 1)
+            info.append(f"rule 3: the prerequisite row \"{flat[:40]}\" only restates words that print has (the import wrote a row for them): dropped")
         elif m or items:
             info.append(f"rule 3: the prerequisite row \"{flat[:40]}\" is not all print's sentences: it stays in the comparison")
     return p_clean, d_clean, info
@@ -2137,6 +2169,8 @@ def _compare_feature(draft: Draft, print_text: str, drop: set[str], title_tokens
     only one side has is a changed number or rule word (held). Printed progressions are expanded against the
     corpus's fractions of the level (ruling 8); a corpus paragraph that print does not have is dropped
     (ruling 10)."""
+    if LOOSE_ITEMS["on"]:
+        print_text = normalize_progressions(print_text)          # class options: print's other ways to say a progression
     notes: list[str] = []
     info: list[str] = []
     if RULES["hyphens"]:
@@ -6325,6 +6359,30 @@ def self_test() -> int:
     eq(prereq_case("9th-level summoner, claws", "The eidolon must have the claws evolution to take this evolution. The summoner must be at least 9th level."), "print", "ruling 60: the level and every item are print's")
     eq(prereq_case("9th-level summoner, claws", "The eidolon must have the bite evolution to take this evolution. The summoner must be at least 9th level."), "hold", "ruling 60: the level matches, an item does not: the row stays")
     eq(cmp_rule("prereq", "**Ability:** An eidolon grows pincers.\n\n**Prereq:** Claws\n", "An eidolon grows pincers. The eidolon must possess the claws evolution to take this evolution.")[1], "hold", "ruling 60: the archetype reading is untouched")
+    # ruling 8 for class options: an equal-valued progression decides `print` (the class-option script turns it on)
+    def prog_case(corpus_md: str, printed: str) -> str:
+        LOOSE_ITEMS["on"] = True
+        try:
+            return cmp_rule("values", corpus_md, printed)[1]
+        finally:
+            LOOSE_ITEMS["on"] = False
+    ward = "**Ability:** The warded creature receives a +2 deflection bonus to AC and a +2 resistance bonus on saving throws.\n\n**At 8th level,** the bonuses become +3.\n\n**At 16th level,** the bonuses increase to +4.\n"
+    wp = "The warded creature receives a +2 deflection bonus to AC and a +2 resistance bonus on saving throws. At 8th level and 16th level, the bonuses provided by this ward increase by +{}."
+    eq(prog_case(ward, wp.format(1)), "print", "ruling 8, class options: +2, +3 at 8th and +4 at 16th is +1 at 8th and 16th")
+    eq(prog_case(ward, wp.format(2)), "hold", "ruling 8, class options: a different value holds")
+    eq(prog_case(ward.replace("become +3", "become +5"), wp.format(1)), "hold", "ruling 8, class options: a corpus row that differs holds")
+    res = "**Passive:** The eidolon gains resist 5 against that energy type.\n\n**At 5th level,** the resistance becomes 10.\n\n**At 10th level,** the resistance becomes 15.\n"
+    rp = "The eidolon gains resist 5 against that energy type. This resistance increases by 5 for every 5 levels the summoner possesses, to a maximum of {} at 10th level."
+    eq(prog_case(res, rp.format(15)), "print", "ruling 8, class options: resist 5, +5 per 5 levels, maximum 15 at 10th")
+    eq(prog_case(res, rp.format(20)), "hold", "ruling 8, class options: another maximum holds")
+    bt = "**Passive:** While raging, the barbarian gains a natural armor bonus. This bonus is equal to 1 + one-fourth of her barbarian level.\n"
+    bp = "While raging, the barbarian gains a +1 natural armor bonus. This bonus increases by +{} for every four levels the barbarian has attained."
+    eq(prog_case(bt, bp.format(1)), "print", "ruling 8, class options: 1 + one-fourth of the level is +1 for every four levels")
+    eq(prog_case(bt, bp.format(2)), "hold", "ruling 8, class options: +2 for every four levels is not one-fourth")
+    eq(cmp_rule("values", ward, wp.format(1))[1], "hold", "ruling 8, class options: the archetype compare is untouched")
+    gr = "**Ability:** An eidolon grapples. Pick bite, claw, or slam attacks.\n\n**Prereq:** Must have a bite, claw, or slam attack\n"
+    eq(prog_case(gr, "An eidolon grapples. Pick bite, claw, or slam attacks."), "print", "ruling 60: a prerequisite row that restates words print has goes")
+    eq(prog_case(gr, "An eidolon grapples. Pick bite or claw attacks."), "hold", "ruling 60: a row with a word that print lacks stays")
     # rule 4: a `Usage` row that print says word for word is print's
     imp4 = "**Ability:** A hunter can speak with animals.\n\n**Usage:** She can use this ability no more than once per minute.\n"
     eq(cmp_rule("usage", imp4, "A hunter can speak with animals. She can use this ability no more than once per minute.")[1], "print", "rule 4: the row is in print")

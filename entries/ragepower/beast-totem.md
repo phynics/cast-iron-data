@@ -15,9 +15,7 @@ kind = "class_option"
 group = "rage-power"
 +++
 
-**Beast Totem (Su)**
-
-**Passive:** While _raging,_ the barbarian gains a natural armor bonus. This bonus is equal to 1 +
-one-fourth of her barbarian level.
-
-**Prereq:** [Lesser beast totem](ref/ragepower/lesser-beast-totem), 6th-level barbarian
+While raging, the barbarian gains a +1 natural armor bonus. This bonus increases by +1 for every
+four levels the barbarian has attained. A barbarian must have the
+[lesser beast totem](ref/ragepower/lesser-beast-totem) rage power to select this rage power. A
+barbarian must be at least 6th level to select this rage power.
