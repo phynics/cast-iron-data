@@ -13,10 +13,9 @@ page = "81"
 [fields]
 kind = "class_option"
 group = "witch-hex"
+ability_type = "Ex"
 +++
 
-**Child-Scent (Ex)**
-
-**Ability:** The witch gains the [scent](ref/umr/scent) ability, but only with respect to humanoid
-children and immature animals. Thus, she could sniff out a child's hiding place or a den of wolf
-pups, but not the child's parents or the den mother.
+The witch gains the [scent](ref/umr/scent) ability, but only with respect to humanoid children and
+immature animals. Thus, she could sniff out a child's hiding place or a den of wolf pups, but not
+the child's parents or the den mother.

@@ -37,24 +37,19 @@ manifestation level). You also need to attempt such a Will save whenever you are
 the area of) a divine spell or [spell-like ability](ref/umr/spell-like-abilities) with the evil
 descriptor.
 
-**Corruption Stage 1**
+**Corruption Stage 1:** The first time you fail, you lose control of yourself for 24 hours. When you
+regain your senses, you find yourself in the sea or an ocean, or at least on your way to such a
+place if you were too far away to reach it. Either way, your alignment shifts one step towards
+chaotic evil.
 
-**Details:** The first time you fail, you lose control of yourself for 24 hours. When you regain
-your senses, you find yourself in the sea or an ocean, or at least on your way to such a place if
-you were too far away to reach it. Either way, your alignment shifts one step towards chaotic evil.
-
-**Corruption Stage 2**
-
-**Details:** The second time you fail, you lose control again, and you find that you have made
-contact with an alien entity during the missing time. Your alignment shifts to chaotic evil and your
-race changes to [deep one hybrid](ref/race/deep-one-hybrid), if it wasn't already. If you are
+**Corruption Stage 2:** The second time you fail, you lose control again, and you find that you have
+made contact with an alien entity during the missing time. Your alignment shifts to chaotic evil and
+your race changes to [deep one hybrid](ref/race/deep-one-hybrid), if it wasn't already. If you are
 already over the venerable age for a deep one hybrid (60 years), you experience the final change as
 per the race's ability, becoming an NPC deep one under the GM's control.
 
-**Corruption Stage 3**
-
-**Details:** The third time you fail, you experience the final change early, becoming an NPC deep
-one under the GM's control.
+**Corruption Stage 3:** The third time you fail, you experience the final change early, becoming an
+NPC deep one under the GM's control.
 
 ### Removing the Corruption
 
@@ -68,9 +63,9 @@ The following are manifestations of the deep one corruption.
 
 **Bloodthirst**
 
-**Flavor:** You gain a bite attack and can taste blood in the water.
+You gain a bite attack and can taste blood in the water.
 
-**Prereq:** Deep adaptation, loathsome gills
+**Prerequisites:** Deep adaptation, loathsome gills
 
 **Gift:** You gain a [bite attack](ref/umr/natural-attacks) as a primary natural weapon. This bite
 attack deals 1d6 points of damage if your size is Medium (1d4 if Small). Additionally, you gain the
@@ -87,9 +82,9 @@ take a 15% spell failure chance for spells with verbal or thought components and
 
 **Call of the Deep**
 
-**Flavor:** Your slimy touch robs your victims of breath.
+Your slimy touch robs your victims of breath.
 
-**Prereq:** Manifestation level 7th, claws of the deep, swimmer in the deep
+**Prerequisites:** Manifestation level 7th, claws of the deep, swimmer in the deep
 
 **Gift:** Once per day for every 2 manifestation levels you possess, you can attempt a touch attack
 that causes your opponent to [suffocate](ref/rule/suffocation). If this attack hits, the target must
@@ -104,9 +99,9 @@ and death within 4d6 hours.
 
 **Claws of the Deep**
 
-**Flavor:** Disgusting, translucent claws grow from your fingers.
+Disgusting, translucent claws grow from your fingers.
 
-**Prereq:** Manifestation level 3rd, swimmer in the deep
+**Prerequisites:** Manifestation level 3rd, swimmer in the deep
 
 **Gift:** You gain two claw natural attacks. These claws deal 1d4 points of damage if your size is
 Medium (1d3 if Small).
@@ -119,9 +114,9 @@ supernatural scent is not affected by the [negate aroma](ref/spell/negate-aroma)
 
 **Deep Adaptation**
 
-**Flavor:** You are acclimated to deep ocean pressures and temperatures.
+You are acclimated to deep ocean pressures and temperatures.
 
-**Prereq:** Loathsome gills
+**Prerequisite:** Loathsome gills
 
 **Gift:** You gain cold resistance 5.
 
@@ -132,7 +127,7 @@ and awkward. You take a -2 penalty to your Dexterity score while on land.
 
 **Deepsight**
 
-**Flavor:** Your eyes grow accustomed to the dark places of the world.
+Your eyes grow accustomed to the dark places of the world.
 
 **Gift:** You gain [low-light vision](ref/rule/low-light-vision).
 
@@ -143,9 +138,9 @@ if you already have darkvision, its range increases by 30 feet.
 
 **Landwalker**
 
-**Flavor:** Your journey to the depths presaged your return to dry land.
+Your journey to the depths presaged your return to dry land.
 
-**Prereq:** Manifestation level 7th, loathsome gills
+**Prerequisites:** Manifestation level 7th, loathsome gills
 
 **Gift:** You gain the [aquatic subtype](ref/subtype/aquatic) and the
 [amphibious](ref/umr/amphibious) special quality. You gain a swim speed equal to half your land
@@ -157,7 +152,7 @@ penalty to your Charisma score.
 
 **Loathsome Gills**
 
-**Flavor:** You grow gills at your jawline.
+You grow gills at your jawline.
 
 **Gift:** You can [hold your breath](ref/misc/hold-your-breath) underwater for 10 minutes per point
 of Constitution you have.
@@ -172,7 +167,7 @@ effects (like [stinking cloud](ref/spell/stinking-cloud)).
 
 **Siltsight**
 
-**Flavor:** Your senses are keener underwater.
+Your senses are keener underwater.
 
 **Gift:** While underwater, you ignore [concealment](ref/rule/concealment) from silt, muck, and
 murky water.
@@ -185,9 +180,9 @@ not underwater.
 
 **Slow Aging**
 
-**Flavor:** Your deep one blood runs thick and slowly, arresting aging.
+Your deep one blood runs thick and slowly, arresting aging.
 
-**Prereq:** Manifestation level 5th
+**Prerequisite:** Manifestation level 5th
 
 **Gift:** You age more slowly than members of your base race. It takes you twice as long to reach
 middle age, and three times as long to reach both old age and venerable.
@@ -202,7 +197,7 @@ effects of lack of sleep.
 
 **Swimmer in the Deep**
 
-**Flavor:** The cold depths of the ocean are your home now.
+The cold depths of the ocean are your home now.
 
 **Gift:** You gain a +4 racial bonus on Swim checks (which doesn't stack with the +8 racial bonus
 from having a swim speed) and can take a 10 on Swim checks even while threatened.

@@ -38,22 +38,16 @@ level). If you succeed, influence drops to 4 points; otherwise, the corruption p
 next stage. If you must attempt this saving throw again before the next sunrise, the DC increases by
 2 for every previous attempt.
 
-**Corruption Stage 1**
+**Corruption Stage 1:** The first time you fail, you move one step closer to the spirit's alignment
+(GM's choice) and the spirit controls your actions until the next sunrise.
 
-**Details:** The first time you fail, you move one step closer to the spirit's alignment (GM's
-choice) and the spirit controls your actions until the next sunrise.
-
-**Corruption Stage 2**
-
-**Details:** The second time you fail, your alignment changes to match the spirit's, the spirit
-controls your actions until the next sunrise, and you have lapses of control and personality
+**Corruption Stage 2:** The second time you fail, your alignment changes to match the spirit's, the
+spirit controls your actions until the next sunrise, and you have lapses of control and personality
 regardless of influence.
 
-**Corruption Stage 3**
-
-**Details:** The third time you fail the saving throw, the spirit steals full control of your body
-and you become an NPC under the GM's control. This NPC has the possessed corruption with you as the
-possessing spirit.
+**Corruption Stage 3:** The third time you fail the saving throw, the spirit steals full control of
+your body and you become an NPC under the GM's control. This NPC has the possessed corruption with
+you as the possessing spirit.
 
 ### Removing the Corruption
 
@@ -73,9 +67,9 @@ The following are manifestations of the possessed corruption.
 
 **Blurred Soul**
 
-**Flavor:** The possessing spirit confounds targeted magic.
+The possessing spirit confounds targeted magic.
 
-**Prereq:** Manifestation level 5th
+**Prerequisite:** Manifestation level 5th
 
 **Gift:** Spells that affect a limited number of targets can fail when targeting you unless the
 caster selects you as two separate targets. Against such spells that target you only once, you have
@@ -95,9 +89,9 @@ yourself), and you no longer count as willing.
 
 **Contaminated Personality**
 
-**Flavor:** Your mind fractures in the struggle against the spirit.
+Your mind fractures in the struggle against the spirit.
 
-**Prereq:** Manifestation level 4th
+**Prerequisite:** Manifestation level 4th
 
 **Gift:** You gain a +2 bonus to your Charisma score while the possessing spirit has 4 or more
 points of influence over you.
@@ -107,7 +101,7 @@ possession. You take a -4 penalty on Diplomacy and Disguise checks.
 
 **Hateful Voices**
 
-**Flavor:** Paranoid whispers constantly mingle with your own thoughts.
+Paranoid whispers constantly mingle with your own thoughts.
 
 **Gift:** You gain a +4 bonus on [Perception](ref/skill/perception) checks and
 [Sense Motive](ref/skill/sense-motive) checks to see through disguises, notice when a creature is
@@ -121,7 +115,7 @@ has 3 or more points of influence, you gain no benefit from another creature's
 
 **Temporary Clarity**
 
-**Flavor:** You channel all your negative emotions into the spirit.
+You channel all your negative emotions into the spirit.
 
 **Gift:** Once per day, without spending an action, you can sublimate all of your negative thoughts
 into the spirit to clear your mind in response to gaining one of the following conditions: dazed,
@@ -137,7 +131,7 @@ point, and at sunrise, the number of points of influence the spirit has over you
 
 **Traitorous Hand**
 
-**Flavor:** The spirit focuses on one hand.
+The spirit focuses on one hand.
 
 **Gift:** A number of times per day equal to your manifestation level, you can use traitorous hand
 to make a touch attack that confounds foes with the spirit's influence. The target is
@@ -153,7 +147,7 @@ the held item).
 
 **Two Minds**
 
-**Flavor:** The spirit suffers no rivals.
+The spirit suffers no rivals.
 
 **Gift:** The extra mind provides a reserve of willpower against mental attacks. You gain a +2 bonus
 on saves against mind-affecting effects; if you fail, you can give the spirit 1 point of influence
@@ -167,7 +161,7 @@ At manifestation level 3rd, the penalty changes to -4.
 
 **Unrestrained**
 
-**Flavor:** The spirit resists physical restraint.
+The spirit resists physical restraint.
 
 **Gift:** You gain a +2 bonus on Acrobatics, Climb, Fly, and Swim checks. You can give the spirit 1
 point of influence as a **swift action** to gain the benefits of
@@ -185,9 +179,9 @@ At manifestation level 3rd, the penalty changes to -4.
 
 **Violent Will**
 
-**Flavor:** The spirit uses your body as a conduit to unleash forceful energy.
+The spirit uses your body as a conduit to unleash forceful energy.
 
-**Prereq:** Manifestation level 5th, unrestrained, weightlessness
+**Prerequisites:** Manifestation level 5th, unrestrained, weightlessness
 
 **Gift:** You can give the possessing spirit 1 point of influence over you to use
 [telekinesis](ref/spell/telekinesis) (as per the spell) with a caster level equal to your character
@@ -200,9 +194,9 @@ nearby object at her or, if there are no objects to hurl, hurling the ally again
 
 **Weightlessness**
 
-**Flavor:** The possessing spirit's influence causes you to nearly float.
+The possessing spirit's influence causes you to nearly float.
 
-**Prereq:** Unrestrained
+**Prerequisite:** Unrestrained
 
 **Gift:** You can use [feather fall](ref/spell/feather-fall) and [jump](ref/spell/jump) at will as
 [spell-like abilities](ref/umr/spell-like-abilities). You can give the possessing spirit 1 point of

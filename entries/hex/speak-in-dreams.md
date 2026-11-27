@@ -13,10 +13,9 @@ page = "82"
 [fields]
 kind = "class_option"
 group = "witch-hex"
+ability_type = "Sp"
 +++
 
-**Speak in Dreams (Sp)**
-
-**Ability:** The witch can contact a creature as if using [dream](ref/spell/dream). The witch can
-use this ability on a number of creatures per day equal to her Intelligence bonus, but can
-dream-speak to those creatures as often as desired throughout that time period.
+The witch can contact a creature as if using _[dream](ref/spell/dream)_. The witch can use this
+ability on a number of creatures per day equal to her Intelligence bonus, but can dream-speak to
+those creatures as often as desired throughout that time period.

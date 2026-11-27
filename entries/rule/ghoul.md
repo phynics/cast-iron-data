@@ -48,24 +48,18 @@ In addition to starvation, close brushes with death also increase your craving f
 you are dropped below 0 hit points, you must attempt a single saving throw as if you hadn't eaten
 enough flesh that week.
 
-**Corruption Stage 1**
+**Corruption Stage 1:** Once you feed on an innocent sentient creature - either willingly or because
+you failed a saving throw - your alignment shifts one step toward evil and spells that detect undead
+sense you, though the peculiar result they return informs the caster that you're still a living
+creature. Other spells and effects don't treat you as undead.
 
-**Details:** Once you feed on an innocent sentient creature - either willingly or because you failed
-a saving throw - your alignment shifts one step toward evil and spells that detect undead sense you,
-though the peculiar result they return informs the caster that you're still a living creature. Other
-spells and effects don't treat you as undead.
-
-**Corruption Stage 2**
-
-**Details:** The second time, your alignment shifts another step toward evil and you are affected by
-spells and abilities as if your creature type were undead (including effects like
+**Corruption Stage 2:** The second time, your alignment shifts another step toward evil and you are
+affected by spells and abilities as if your creature type were undead (including effects like
 [bane](ref/magic-enh/bane) and the [favored enemy](ref/ability/favored-enemy) class feature). This
 doesn't grant you any of the immunities of being undead, nor does it make you immune to effects that
 target living creatures or change how negative and positive energy affect you.
 
-**Corruption Stage 3**
-
-**Details:** The third time, you become an NPC ghoul under the GM's control.
+**Corruption Stage 3:** The third time, you become an NPC ghoul under the GM's control.
 
 ### Removing the Corruption
 
@@ -79,9 +73,9 @@ The following are manifestations of the ghoul corruption.
 
 **Brain Eater**
 
-**Flavor:** Devouring brains imparts knowledge to you.
+Devouring brains imparts knowledge to you.
 
-**Prereq:** Manifestation level 5th, gnashing bite
+**Prerequisites:** Manifestation level 5th, gnashing bite
 
 **Gift:** If you eat the brain of a creature with an Intelligence score of 3 or higher, you gain a
 +2 insight bonus on all skill checks in which the creature possessed ranks for 1 hour. Eating a
@@ -93,7 +87,7 @@ bite, but you gain the bonus only if your attempt results in the victim's death.
 
 **Corpse Armor**
 
-**Flavor:** Your flesh is unnaturally tough.
+Your flesh is unnaturally tough.
 
 **Gift:** You gain a +2 bonus to your natural armor.
 
@@ -104,9 +98,9 @@ to move. You take a -2 penalty to your Dexterity score.
 
 **Diseased Bite**
 
-**Flavor:** Your bite carries a terrible disease
+Your bite carries a terrible disease
 
-**Prereq:** Manifestation level 4th, gnashing bite
+**Prerequisites:** Manifestation level 4th, gnashing bite
 
 **Gift:** Creatures damaged by your bite attack must succeed at a Fortitude save or contract
 [ghoul fever](ref/disease/ghoul-fever). A humanoid who dies of ghoul fever rises as a ghoul at the
@@ -117,7 +111,7 @@ saves to resist diseases.
 
 **Gnashing Bite**
 
-**Flavor:** Your jaw can unhinge and your teeth grow to sharp points.
+Your jaw can unhinge and your teeth grow to sharp points.
 
 **Gift:** You gain a bite attack as a primary [natural weapon](ref/umr/natural-attacks). This bite
 deals 1d6 points of damage if your size is Medium (1d4 if Small).
@@ -126,9 +120,9 @@ deals 1d6 points of damage if your size is Medium (1d4 if Small).
 
 **Greater Paralysis**
 
-**Flavor:** Your paralyzing touch is even stronger.
+Your paralyzing touch is even stronger.
 
-**Prereq:** Manifestation level 7th, paralysis, rending claws, staggering claw
+**Prerequisites:** Manifestation level 7th, paralysis, rending claws, staggering claw
 
 **Gift:** A creature that fails its save against your paralysis manifestation is paralyzed for 1d4
 rounds instead of 1 round. Elves are immune to this effect.
@@ -139,9 +133,9 @@ round.
 
 **Greater Stench of the Grave**
 
-**Flavor:** The smell surrounding you becomes overwhelming.
+The smell surrounding you becomes overwhelming.
 
-**Prereq:** Manifestation level 6th, corpse armor, stench of the grave
+**Prerequisites:** Manifestation level 6th, corpse armor, stench of the grave
 
 **Gift:** Creatures that fail their saves against your stench of the grave manifestation become
 [nauseated](ref/misc/nauseated) for 1 round before being [sickened](ref/misc/sickened) for 1d6
@@ -156,9 +150,9 @@ you can even attempt them.
 
 **Paralysis**
 
-**Flavor:** A slash from your claws can render a creature helpless.
+A slash from your claws can render a creature helpless.
 
-**Prereq:** Manifestation level 6th, rending claws, staggering claw
+**Prerequisites:** Manifestation level 6th, rending claws, staggering claw
 
 **Gift:** When you confirm a critical hit against a living creature, it must succeed at a Fortitude
 save or become [paralyzed](ref/rule/paralyzed) for 1 round. Elves are immune to this effect.
@@ -168,7 +162,7 @@ to channeled energy, _cure_ spells, and _inflict_ spells.
 
 **Rending Claws**
 
-**Flavor:** You grow vicious claws, perfect for stripping flesh from bone.
+You grow vicious claws, perfect for stripping flesh from bone.
 
 **Gift:** You gain two claw attacks as primary natural weapons. These claws deal 1d4 points of
 damage if your size is Medium (or 1d3 if you're Small).
@@ -177,9 +171,9 @@ damage if your size is Medium (or 1d3 if you're Small).
 
 **Staggering Claw**
 
-**Flavor:** Your touch weakens the muscles of your victims.
+Your touch weakens the muscles of your victims.
 
-**Prereq:** Manifestation level 4th, rending claws
+**Prerequisites:** Manifestation level 4th, rending claws
 
 **Gift:** Once per day per manifestation level, you can make a _staggering claw_ attack as a
 **standard action**. If you hit, the target must succeed at a Fortitude save or be
@@ -193,9 +187,9 @@ wearing leather armor and casting arcane spells, you would have a 15% spell fail
 
 **Stench of the Grave**
 
-**Flavor:** Your body exudes a stench of decay.
+Your body exudes a stench of decay.
 
-**Prereq:** Corpse armor
+**Prerequisite:** Corpse armor
 
 **Gift:** You exude an aura of decay. Creatures that begin their turns adjacent to you are sickened
 for 1d6 rounds unless they succeed at a Fortitude save. A creature that succeeds can't be affected

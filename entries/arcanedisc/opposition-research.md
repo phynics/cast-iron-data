@@ -15,12 +15,8 @@ kind = "class_option"
 group = "arcane-discovery"
 +++
 
-**Opposition Research**
-
-**Ability:** By completing strenuous studies, you have broken through the mental barriers that made
-it hard for you to prepare spells from one of your opposition schools. Select one wizard opposition
-school; preparing spells of this school now only requires one spell slot of the appropriate level
-instead of two, and you no longer have the -4 Spellcraft penalty for crafting items from that
-school.
-
-**Prereq:** 9th-level wizard, have at least one opposition school
+By completing strenuous studies, you have broken through the mental barriers that made it hard for
+you to prepare spells from one of your opposition schools. Select one wizard opposition school;
+preparing spells of this school now only requires one spell slot of the appropriate level instead of
+two, and you no longer have the -4 Spellcraft penalty for crafting items from that school. You must
+be at least a 9th-level wizard to select this discovery.

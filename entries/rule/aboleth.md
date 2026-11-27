@@ -37,21 +37,15 @@ cumulative, but it reverses when you fail the saving throw or your corruption pr
 you make a significant sacrifice to assist your aboleth master or advance its agenda in a way that
 harms innocents, your corruption progresses.
 
-**Corruption Stage 1**
+**Corruption Stage 1:** The first time you perform such an action, you find it harder to question
+your own motives. You take a -2 penalty on skill checks made to investigate your corruption, and
+your alignment shifts one step toward lawful evil.
 
-**Details:** The first time you perform such an action, you find it harder to question your own
-motives. You take a -2 penalty on skill checks made to investigate your corruption, and your
-alignment shifts one step toward lawful evil.
+**Corruption Stage 2:** The second time you perform such an act, the skill check penalty doubles,
+and your alignment becomes lawful evil.
 
-**Corruption Stage 2**
-
-**Details:** The second time you perform such an act, the skill check penalty doubles, and your
-alignment becomes lawful evil.
-
-**Corruption Stage 3**
-
-**Details:** The third time you perform such an act, you become a willing pawn to the veiled masters
-under the GM's control.
+**Corruption Stage 3:** The third time you perform such an act, you become a willing pawn to the
+veiled masters under the GM's control.
 
 ### Removing the Corruption
 
@@ -64,7 +58,7 @@ The following are manifestations of the aboleth corruption.
 
 **Fathomless Psyche**
 
-**Flavor:** Your memory becomes increasingly unreliable.
+Your memory becomes increasingly unreliable.
 
 **Gift:** Your mind contains gaps that serve as traps to those who contact it. You gain a +2 bonus
 on Will saving throws against mind-affecting effects. Anyone who reads your thoughts or emotions
@@ -76,9 +70,9 @@ their kind (including those they have corrupted).
 
 **Forgettable**
 
-**Flavor:** Your psychic wake burns away all memory of your passing.
+Your psychic wake burns away all memory of your passing.
 
-**Prereq:** Manifestation level 6th
+**Prerequisite:** Manifestation level 6th
 
 **Gift:** You gain the ability to use [hidden presence](ref/spell/hidden-presence) as a
 [quickened spell-like ability](ref/feat/quicken-spell-like-ability) once per day. You can use this
@@ -90,9 +84,9 @@ or to see through your Bluff checks.
 
 **Inexplicable Illusions**
 
-**Flavor:** Your lies distort the world around you.
+Your lies distort the world around you.
 
-**Prereq:** Manifestation level 5th
+**Prerequisite:** Manifestation level 5th
 
 **Gift:** Once per day, you can manifest an illusion via either
 [audiovisual hallucination](ref/spell/audiovisual-hallucination) or
@@ -112,9 +106,9 @@ Aboleths and their kin are immune to your illusions.
 
 **Malleable Flesh**
 
-**Flavor:** Your body twists to conform to your deceptions.
+Your body twists to conform to your deceptions.
 
-**Prereq:** Manifestation level 3rd
+**Prerequisite:** Manifestation level 3rd
 
 **Gift:** With 10 minutes of concentration, your flesh takes on a new arrangement, as per
 [alter self](ref/spell/alter-self).
@@ -129,9 +123,9 @@ while concentrating on making the change and for 10 minutes afterward.
 
 **Porous Mind**
 
-**Flavor:** Your mind is full of holes.
+Your mind is full of holes.
 
-**Prereq:** Manifestation level 2nd
+**Prerequisite:** Manifestation level 2nd
 
 **Gift:** You can hear the thoughts of others when you listen closely. Whenever you succeed at a
 Sense Motive check to get a hunch about a creature, you can attempt to read that creature's mind as
@@ -149,9 +143,9 @@ manifestation), you take a -4 penalty on [concentration](ref/rule/concentration)
 
 **Preternatural Persuasion**
 
-**Flavor:** Your brainwashing is contagious.
+Your brainwashing is contagious.
 
-**Prereq:** Manifestation level 3rd
+**Prerequisite:** Manifestation level 3rd
 
 **Gift:** Once per day, when you succeed at a [Bluff](ref/skill/bluff),
 [Diplomacy](ref/skill/diplomacy), or [Intimidate](ref/skill/intimidate) check against a target, you
@@ -170,7 +164,7 @@ conflict.
 
 **Skill Conditioning**
 
-**Flavor:** You have skills you do not remember learning.
+You have skills you do not remember learning.
 
 **Gift:** You speak and understand Aklo. Choose a skill. You are treated as having ranks equal to
 your Hit Dice in that skill and it is a class skill for you.
@@ -182,7 +176,7 @@ Diplomacy and Sense Motive checks against non-aberrations.
 
 **Traitor to the Surface World**
 
-**Flavor:** The world of sunlight has grown foreign to you.
+The world of sunlight has grown foreign to you.
 
 **Gift:** You feel at home in the water, and as long as you are swimming you gain a +2 bonus on
 initiative checks, Reflex saving throws, and all Dexterity-based skill checks. You gain a +4 bonus
@@ -195,7 +189,7 @@ out of water.
 
 **Unconscious Agenda**
 
-**Flavor:** You can suppress intrusive memories or thoughts.
+You can suppress intrusive memories or thoughts.
 
 **Gift:** As an **immediate action** once per day, when you are subjected to any compulsion effect
 that allows a saving throw, you can choose to reroll that saving throw after you roll but before you

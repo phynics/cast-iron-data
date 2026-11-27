@@ -13,14 +13,11 @@ page = "11"
 [fields]
 kind = "class_option"
 group = "magus-arcana"
+ability_type = "Ex"
 +++
 
-**Close Range (Ex)**
-
-**Ability:** The magus can deliver ray spells that feature a ranged touch attack as melee touch
-spells. He can use a ranged touch attack spell that targets more than one creature (such as
-[scorching ray](ref/spell/scorching-ray)), but he makes only one melee touch attack to deliver one
+The magus can deliver ray spells that feature a ranged touch attack as melee touch spells. He can
+use a ranged touch attack spell that targets more than one creature (such as
+_[scorching ray](ref/spell/scorching-ray)_), but he makes only one melee touch attack to deliver one
 of these ranged touch effects; additional ranged touch attacks from that spell are wasted and have
-no effect.
-
-**Special:** These spells can be used with the _spellstrike_ class feature.
+no effect. These spells can be used with the spellstrike class feature.

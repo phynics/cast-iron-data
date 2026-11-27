@@ -41,22 +41,16 @@ being, and your corruption doesn't progress. However, the DC of the Will save ag
 corruption progressing increases by 2. These increases stack each time you shake off this urge, and
 they last until your corruption reaches the next corruption stage.
 
-**Corruption Stage 1**
+**Corruption Stage 1:** The first time you engage in disproportionate punishment (voluntarily or
+because of a failed save), your alignment shifts one step toward evil and your face changes, making
+you memorably ugly or beautiful.
 
-**Details:** The first time you engage in disproportionate punishment (voluntarily or because of a
-failed save), your alignment shifts one step toward evil and your face changes, making you memorably
-ugly or beautiful.
+**Corruption Stage 2:** The second time you engage in this behavior, your alignment shifts another
+step toward evil and you take on an inhuman appearance, increasingly resembling the type of creature
+that cursed you.
 
-**Corruption Stage 2**
-
-**Details:** The second time you engage in this behavior, your alignment shifts another step toward
-evil and you take on an inhuman appearance, increasingly resembling the type of creature that cursed
-you.
-
-**Corruption Stage 3**
-
-**Details:** The third time you engage in this behavior, you are utterly consumed by your hatred and
-become an NPC under the GM's control.
+**Corruption Stage 3:** The third time you engage in this behavior, you are utterly consumed by your
+hatred and become an NPC under the GM's control.
 
 ### Removing the Corruption
 
@@ -70,9 +64,9 @@ The following are manifestations of the accursed corruption.
 
 **Baleful Glare**
 
-**Flavor:** You can weaken foes with a glare.
+You can weaken foes with a glare.
 
-**Prereq:** Manifestation level 6th
+**Prerequisite:** Manifestation level 6th
 
 **Gift:** Once per day, when you successfully use [Intimidate](ref/skill/intimidate) to demoralize a
 creature within 30 feet, you can curse that target as a **swift action**. The victim must succeed at
@@ -87,9 +81,9 @@ penalty on [Perception](ref/skill/perception) checks. This transformation can't 
 
 **Cold Iron Allergy**
 
-**Flavor:** Your skin is as hardened as your heart.
+Your skin is as hardened as your heart.
 
-**Prereq:** Manifestation level 4th
+**Prerequisite:** Manifestation level 4th
 
 **Gift:** You gain an amount of [damage reduction](ref/rule/damage-reduction) equal to 1/2 your
 manifestation level. This DR is overcome by cold iron.
@@ -101,9 +95,9 @@ can't remove it early by any means. You can attempt to hide this aversion from f
 
 **Cruel Deceiver**
 
-**Flavor:** You can weave magical lies to set victims up for a downfall.
+You can weave magical lies to set victims up for a downfall.
 
-**Prereq:** Manifestation level 2nd
+**Prerequisite:** Manifestation level 2nd
 
 **Gift:** You gain a +2 bonus on Bluff and [Disguise](ref/skill/disguise) checks. You can use
 [dancing lights](ref/spell/dancing-lights), [disguise self](ref/spell/disguise-self), and
@@ -121,7 +115,7 @@ various methods, such as uttering insignificant lies, obvious lies, or non-state
 
 **Grim Fate**
 
-**Flavor:** You can twist the strands of fate to your desires.
+You can twist the strands of fate to your desires.
 
 **Gift:** Once per day as an **immediate action**, you can reroll an ability check, attack roll,
 caster level check, saving throw, or skill check after learning the result.
@@ -138,7 +132,7 @@ At manifestation level 3rd, the penalty doubles.
 
 **Horrific Shock**
 
-**Flavor:** You can surprise a foe with overwhelming horror.
+You can surprise a foe with overwhelming horror.
 
 **Gift:** When you damage a creature on the surprise round, it becomes [shaken](ref/misc/shaken) for
 1 round unless it succeeds at a Will save.
@@ -151,9 +145,9 @@ At manifestation level 3rd, the penalty doubles.
 
 **Spiteful Transformation**
 
-**Flavor:** You can transform foes into mere beasts.
+You can transform foes into mere beasts.
 
-**Prereq:** Manifestation level 5th
+**Prerequisite:** Manifestation level 5th
 
 **Gift:** Add 1 to the DCs of your spells and abilities that have the curse descriptor. Once per day
 as a **standard action**, you can use [baleful polymorph](ref/spell/baleful-polymorph) as a
@@ -165,7 +159,7 @@ _[baleful polymorph](ref/spell/baleful-polymorph)_ curse negates the penalty unt
 
 **Undying Hatred**
 
-**Flavor:** You can't rest while those you hate go unpunished.
+You can't rest while those you hate go unpunished.
 
 **Gift:** Once per day, if you would die from hit point damage, instead your hit point total becomes
 -1 and you [stabilize](ref/misc/stable). This ability doesn't work against death effects. Observers
@@ -179,9 +173,9 @@ is equal to 15 + your manifestation level.
 
 **Weakening Claws**
 
-**Flavor:** Your fingernails grow into talons.
+Your fingernails grow into talons.
 
-**Prereq:** Manifestation level 3rd
+**Prerequisite:** Manifestation level 3rd
 
 **Gift:** Your nails grow into claw [natural weapons](ref/umr/natural-attacks) that deal 1d3 points
 of damage if you're Medium (1d2 if Small). Once per day, you can make a _weakening claw_ attack as a
@@ -195,7 +189,7 @@ chance from other sources, add the chances together.
 
 **Wish Peddler**
 
-**Flavor:** Like a fey or genie, you can twist another creature's wishes.
+Like a fey or genie, you can twist another creature's wishes.
 
 **Gift:** Once per day as a **full-round action**, you can duplicate the effect of a witch spell of
 a spell level lower than your manifestation level. This spell cannot have a material or focus

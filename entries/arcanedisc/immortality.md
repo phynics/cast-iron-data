@@ -13,12 +13,9 @@ page = "86"
 [fields]
 kind = "class_option"
 group = "arcane-discovery"
+ability_type = "Ex"
 +++
 
-**Immortality (Ex)**
-
-**Passive:** You discover a cure for aging, and from this point forward you take no penalty to your
-physical ability scores from [advanced age](ref/rule/age). If you are already taking such penalties,
-they are removed at this time.
-
-**Prereq:** 20th-level wizard
+You discover a cure for aging, and from this point forward you take no penalty to your physical
+ability scores from [advanced age](ref/rule/age). If you are already taking such penalties, they are
+removed at this time. You must be at least a 20th-level wizard to select this discovery.

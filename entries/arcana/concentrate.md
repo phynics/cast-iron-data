@@ -13,12 +13,10 @@ page = "11"
 [fields]
 kind = "class_option"
 group = "magus-arcana"
+ability_type = "Ex"
 +++
 
-**Concentrate (Ex)**
-
-**Ability:** The magus can reroll any [concentration](ref/rule/concentration) check he has just made
-with a +4 bonus. He must use this ability after the roll is made, but before the roll's outcome is
-determined. The magus must take the second roll, even if it is worse.
-
-**Usage:** Once per day
+The magus can reroll any [concentration](ref/rule/concentration) check he has just made with a +4
+bonus. He must use this ability after the roll is made, but before the roll's outcome is determined.
+The magus must take the second roll, even if it is worse. The magus can use this ability once per
+day.

@@ -8,14 +8,15 @@ provenance = [
 ]
 [[sources]]
 publication = "ultimate-magic"
-page = "77"
+page = "76-77"
 
 [fields]
 kind = "class_option"
 group = "summoner-evolution"
+ability_type = "Ex"
 +++
 
-**Low-Light Vision (Ex)**
+1-Point Evolutions: The following evolutions cost 1 point from the eidolon's evolution pool.
 
-**Ability:** An eidolon gains low-light vision, enabling it to see twice as far as a human in
-conditions of dim light.
+An eidolon gains low-light vision, enabling it to see twice as far as a human in conditions of dim
+light.

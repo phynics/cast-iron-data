@@ -32,21 +32,16 @@ temptation and perform the action. What counts as significant is up to the GM. U
 wouldn't harm anyone doesn't count. If something prevents you from performing this act, the GM
 chooses a time over the next week when you're compelled to further the cause of lawful evil.
 
-**Corruption Stage 1**
+**Corruption Stage 1:** The first time you perform a significant act that matches the devil's
+portfolio (either willingly or because you failed your save), your alignment shifts one step toward
+lawful evil (toward evil first, if you aren't yet evil). Any attempt to raise you from the dead
+requires a successful caster level check (DC = 15 + double your manifestation level).
 
-**Details:** The first time you perform a significant act that matches the devil's portfolio (either
-willingly or because you failed your save), your alignment shifts one step toward lawful evil
-(toward evil first, if you aren't yet evil). Any attempt to raise you from the dead requires a
-successful caster level check (DC = 15 + double your manifestation level).
+**Corruption Stage 2:** The second time you perform such an act, your alignment shifts to lawful
+evil.
 
-**Corruption Stage 2**
-
-**Details:** The second time you perform such an act, your alignment shifts to lawful evil.
-
-**Corruption Stage 3**
-
-**Details:** The third time you perform such an act, your contract comes due or you become a thrall
-to Hell - a living devil under the GM's control.
+**Corruption Stage 3:** The third time you perform such an act, your contract comes due or you
+become a thrall to Hell - a living devil under the GM's control.
 
 ### Removing the Corruption
 
@@ -59,9 +54,9 @@ The following are manifestations of the hellbound corruption.
 
 **Darkest Desires**
 
-**Flavor:** Your dark patron offers to grant you wishes to tempt you.
+Your dark patron offers to grant you wishes to tempt you.
 
-**Prereq:** Manifestation level 9th
+**Prerequisite:** Manifestation level 9th
 
 **Special:** Upon receiving this manifestation, you must take both the gift and the stain, even with
 the _useful corruption_ or _vile corruption_ [variants](ref/rule/corruption-variants).
@@ -77,7 +72,7 @@ from your intent and to its own dark ends.
 
 **Devil's Horns**
 
-**Flavor:** Horns grow upon your brow.
+Horns grow upon your brow.
 
 **Special:** Upon receiving this manifestation, you must take both the gift and the stain, even with
 the _useful corruption_ or _vile corruption_ [variants](ref/rule/corruption-variants).
@@ -93,7 +88,7 @@ that might progress your corruption.
 
 **Devil's Mark**
 
-**Flavor:** You have the mark of a fiend on your body.
+You have the mark of a fiend on your body.
 
 **Gift:** You gain a 1st-level sorcerer/wizard or witch spell of your choice as a
 [spell-like ability](ref/umr/spell-like-abilities) usable a number of times per day equal to your
@@ -106,9 +101,9 @@ unnatural.
 
 **Diabolical Servitor**
 
-**Flavor:** You fraternize with devils who answer your call for aid.
+You fraternize with devils who answer your call for aid.
 
-**Prereq:** Manifestation level 2nd
+**Prerequisite:** Manifestation level 2nd
 
 **Gift:** Once per day as a [spell-like ability](ref/umr/spell-like-abilities), you can summon a
 lawful evil outsider, as [summon monster II](ref/spell/summon-monster-2) with a duration of 1 minute
@@ -127,7 +122,7 @@ except for those made against devils.
 
 **Fiendish Tutelage**
 
-**Flavor:** You learn secrets best kept from mortal minds.
+You learn secrets best kept from mortal minds.
 
 **Gift:** You gain Infernal as a bonus language and a +2 bonus on [Bluff](ref/skill/bluff) and
 [Diplomacy](ref/skill/diplomacy) checks to interact with devils. When you acquire this gift, choose
@@ -140,7 +135,7 @@ alignment, whichever is worse.
 
 **Murky Futures**
 
-**Flavor:** You can call upon Hell for clues about how to avoid your fate.
+You can call upon Hell for clues about how to avoid your fate.
 
 **Gift:** Once per day, you can call upon the knowledge of Hell with 10 minutes of meditation. You
 gain the benefit of [guidance](ref/spell/guidance), with a duration of 24 hours or until discharged.
@@ -162,9 +157,9 @@ you can't be revived by [breath of life](ref/spell/breath-of-life), the
 
 **Passage through the Pit**
 
-**Flavor:** The maw of Hell yawns wide to welcome you.
+The maw of Hell yawns wide to welcome you.
 
-**Prereq:** Manifestation level 3rd
+**Prerequisite:** Manifestation level 3rd
 
 **Gift:** You can step through Hell to reach other places once per hour. As a **full-round action**,
 you can choose a direction, then teleport 2d10 × 5 feet away in that direction (or the nearest safe,
@@ -178,9 +173,9 @@ protect against such creatures.
 
 **Serpent's Tongue**
 
-**Flavor:** You gain the persuasive power of a master deceiver.
+You gain the persuasive power of a master deceiver.
 
-**Prereq:** Manifestation level 3rd, fiendish tutelage
+**Prerequisites:** Manifestation level 3rd, fiendish tutelage
 
 **Gift:** You gain a +2 bonus on Bluff and Diplomacy checks. Once per day when you succeed at a
 Bluff or Diplomacy check against a creature, you can attempt to influence it as if using
@@ -198,7 +193,7 @@ failure chance if it has a verbal components and a -5 penalty on
 
 **Tenuous Soul**
 
-**Flavor:** Your soul feels the constant and increasing pull of Hell.
+Your soul feels the constant and increasing pull of Hell.
 
 **Gift:** You gain a +2 bonus on saving throws against emotion and fear spells and effects. You are
 immune to spells and effects that would trap or destroy your soul except those employed by a devil.
