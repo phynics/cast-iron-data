@@ -1401,7 +1401,7 @@ def find_section(blocks: list[Para], title: str, stops: set[str] | None = None) 
     """The blocks of an archetype: from its title to the next title of another archetype or of a class. Another
     title in between (a sidebar, a table heading) is a heading of the section. With no `stops`, the next title of
     any kind ends it."""
-    key = squash(re.sub(r"\s*\([A-Z]{2,4}\)\s*$", "", title))        # "Ringleader (UI)": the corpus's mark of a second archetype of the name
+    key = squash(re.sub(r"\s*\((?:[A-Z]{2,4}|HotW)\)\s*$", "", title))        # "Ringleader (UI)": the corpus's mark of a second archetype of the name
     for i, b in enumerate(blocks):
         # Ultimate Magic and Ultimate Combat print "REANIMATOR (ARCHETYPE)"; Occult Adventures and Ultimate Intrigue print the
         # class on a second line ("ECTOCHYMIST (ALCHEMIST ARCHETYPE)"); the Advanced Race Guide "Saboteur (Alchemist)"
@@ -1988,24 +1988,54 @@ PREREQ_LEVEL = re.compile(r"(\d+)(?:st|nd|rd|th)[- ]level\b", re.I)
 PRINT_AT_LEAST = re.compile(r"[^.]*\bmust be at least (\d+)(?:st|nd|rd|th)[- ]level\b[^.]*\.", re.I)
 
 
-# class options (#540, ruling 60): a `Prereq` row of a class option is print's sentences. The class-option script turns the loose reading on: a sentence with
-# "must" or "only available" that has every word of an item, in any order, is that item (qualifiers like "(arms)" count as words). The strict reading
-# (archetypes) wants "must possess/select/have/take/be".
+# class options (#540, rulings 60 and 61 of the data plan): a `Prereq` row of a class option is print's sentences. Only the class-option script turns
+# this on (`LOOSE_ITEMS`); with it off the function below is the archetype rule 3 and nothing else. An item of a row (an evolution, a rage
+# power, "serpentine base form") is print's sentence when that sentence
+#   - has a prerequisite frame ("to select/take/gain this ...", "before selecting", "only available to"),
+#   - has no negation ("must not possess", "is not available to"),
+#   - has every word of the item, in any order (the plural s and the little words do not count), and a qualifier in parentheses next to
+#     its head word ("limbs (arms)", not "limbs (legs)"),
+#   - does not name a longer known option that contains the item ("lesser beast totem" for "beast totem", "improved natural armor" for
+#     "natural armor", "tail slap" for "tail").
+# A row is all or nothing: one item left over, and the row and its sentences stay in the comparison.
 LOOSE_ITEMS = {"on": False}
-ITEM_STRICT = re.compile(r"[^.]*\bmust (?:possess|select|have|take|be)\b[^.]*\.")
-ITEM_LOOSE = re.compile(r"[^.]*(?:\bmust\b|\bonly available\b)[^.]*\.")
-
-
+KNOWN_OPTIONS: list[list[str]] = []           # the word lists of the titles of every class option, set by the class-option script
+ITEM_FRAME = re.compile(r"\b(?:to|before)\s+(?:select|selecting|take|taking|gain|gaining|choose|choosing)\b|\bonly available to\b", re.I)
+ITEM_NEGATION = re.compile(r"\b(?:not|cannot|never|no|neither|nor)\b|n['\u2019]t\b", re.I)
+ITEM_SENTENCE = re.compile(r"[^.]*\.")
 ITEM_STOP = {"a", "an", "the", "of", "to", "is", "are", "has", "have", "with", "or", "and", "its", "it", "in"}
 
 
-def item_words(text: str, loose: bool) -> set[str] | list[str]:
-    """The words of an item, or of a printed sentence. The loose reading drops the little words ("has", "of") and the plural s
-    ("eidolon has quadruped base form" against "eidolons of the quadruped base form")."""
-    ws = re.findall(r"[a-z0-9]+", fold(text))
-    if not loose:
-        return ws
-    return {w[:-1] if len(w) > 3 and w.endswith("s") and not w.endswith("ss") else w for w in ws if w not in ITEM_STOP}
+def item_tokens(text: str) -> list[str]:
+    """The words of an item or of a printed sentence, in order: folded, without the little words, the plural s cut."""
+    ws = [w for w in re.findall(r"[a-z0-9]+", fold(text)) if w not in ITEM_STOP]
+    return [w[:-1] if len(w) > 3 and w.endswith("s") and not w.endswith("ss") else w for w in ws]
+
+
+def _contains(seq: list[str], part: list[str]) -> bool:
+    return any(seq[k:k + len(part)] == part for k in range(len(seq) - len(part) + 1))
+
+
+def item_sentence(item: str, p_clean: str) -> re.Match | None:
+    """The sentence of print that is the item (see above), or None."""
+    want = item_tokens(item)
+    if not want:
+        return None
+    qual = item_tokens(" ".join(re.findall(r"\(([^)]*)\)", item)))
+    head = [w for w in want if w not in qual]
+    for m in ITEM_SENTENCE.finditer(p_clean):
+        s = m.group(0)
+        if not ITEM_FRAME.search(s) or ITEM_NEGATION.search(s):
+            continue
+        toks = item_tokens(s)
+        if not all(w in toks for w in want):
+            continue
+        if qual and not all(any(toks[k] == w and any(toks[x] in head for x in (k - 1, k + 1) if 0 <= x < len(toks)) for k in range(len(toks))) for w in qual):
+            continue                                             # "limbs (arms)": the qualifier stands next to its head word
+        if any(len(o) > len(want) and _contains(o, want) and _contains(toks, o) for o in KNOWN_OPTIONS):
+            continue                                             # the sentence names a longer option that holds the item
+        return m
+    return None
 
 
 def take_prerequisites(draft: Draft, p_clean: str, d_clean: str) -> tuple[str, str, list[str]]:
@@ -2013,10 +2043,11 @@ def take_prerequisites(draft: Draft, p_clean: str, d_clean: str) -> tuple[str, s
     arcana" when the level is the same: both go out of the comparison (the other words of a prerequisite are not compared; the
     number is the rule). A prerequisite of another shape stays in the comparison."""
     info: list[str] = []
+    loose = LOOSE_ITEMS["on"]
     for pr in draft.prereq:
-        m = PREREQ_LEVEL.search(pr.strip())       # class options (#540) name an item before the level ("Beast totem, 10th-level barbarian")
+        m = (PREREQ_LEVEL.search if loose else PREREQ_LEVEL.match)(pr.strip())     # a class option names an item before the level ("Beast totem, 10th-level barbarian")
         flat = re.sub(r"\[([^\]]*)\]\([^)]*\)", r"\1", pr).replace("_", "").strip()
-        if flat not in d_clean or (not m and not LOOSE_ITEMS["on"]):
+        if flat not in d_clean or (not m and not loose):
             continue
         if m:
             sm = next((x for x in PRINT_AT_LEAST.finditer(p_clean) if x.group(1) == m.group(1)), None)
@@ -2024,21 +2055,16 @@ def take_prerequisites(draft: Draft, p_clean: str, d_clean: str) -> tuple[str, s
                 p_clean = p_clean.replace(sm.group(0), " ", 1)
                 d_clean = d_clean.replace(flat, " ", 1)
                 info.append(f"rule 3: the prerequisite row \"{flat[:40]}\" is print's \"must be at least {ordinal(int(m.group(1)))} level\" (the same level)")
-        # class options (#540): the items after the level ("11th-level summoner, blindsense") are print's "The eidolon must possess the blindsense
-        # evolution to take this evolution": a sentence with "must" that names every word of an item is that item
+        if not loose:
+            continue
         items = [x.strip() for x in flat.split(",") if x.strip() and not PREREQ_LEVEL.search(x)]
-        found = 0
-        for item in items:
-            loose = LOOSE_ITEMS["on"]
-            words = item_words(item, loose)
-            pat = ITEM_LOOSE if loose else ITEM_STRICT
-            hit = next((x for x in pat.finditer(p_clean) if all(w in item_words(x.group(0), loose) for w in words)), None)
-            if hit:
-                found += 1
-                p_clean = p_clean.replace(hit.group(0), " ", 1)
-                info.append(f"rule 3: the prerequisite item \"{item[:30]}\" is print's sentence that says the eidolon or character must have it")
-        if not m and items and found == len(items):
-            d_clean = d_clean.replace(flat, " ", 1)           # a row without a level: gone when every item is print's sentence
+        hits = [item_sentence(item, p_clean) for item in items]
+        if items and all(hits):
+            for sent in {h.group(0) for h in hits}:
+                p_clean = p_clean.replace(sent, " ", 1)
+            info += [f"rule 3: the prerequisite item \"{item[:30]}\" is print's sentence that says the character must have it" for item in items]
+            if not m:
+                d_clean = d_clean.replace(flat, " ", 1)            # a row without a level: gone when every item is print's sentence
     return p_clean, d_clean, info
 
 
@@ -2492,6 +2518,13 @@ def sha256_file(path: Path) -> str:
 def tok_set(text: str) -> set[str]:
     words = re.findall(r"[a-z0-9]+", fold(text).replace("'", ""))
     return {w[:-1] if len(w) > 4 and w.endswith("s") else w for w in words}
+
+
+# The owner's copies of the Adventure Path volumes carry their own file names: the words that find them (batch B5)
+PDF_TITLES = {
+    "pathfinder-95-anvil-of-fire": "Anvil of Fire", "pathfinder-124-city-in-the-deep": "Pathfinder AP 124 City in the Deep Ruins of Azlant 4 of 6",
+    "pathfinder-71-rasputin-must-die": "Reign of Winter pt 5 Rasputin Must Die",
+}
 
 
 def find_pdf(books: Path, title: str) -> Path | None:
@@ -4753,19 +4786,23 @@ PAGE_FIXES = {
 # The Player Companions that set their titles in small capitals and give each archetype no box of its own (batches 6 to 9).
 BATCH_B_BOOKS = ("psychic-anthology", "disciples-doctrine", "occult-origins", "arcane-anthology", "blood-of-the-coven")     # the lead reader of `LEAD_EXT` reads them (review of #344)
 BATCH_B4_BOOKS = ("merchants-manifest", "champions-of-corruption")     # the lead reader of `LEAD_EXT` reads them (batch B4)
+BATCH_B5_BOOKS = ("inner-sea-monster-codex", "inner-sea-primer", "inner-sea-taverns", "path-of-the-hellknight", "planes-of-power", "spymasters-handbook", "occult-realms", "reign-of-winter-players-guide",
+                  "pathfinder-95-anvil-of-fire", "pathfinder-124-city-in-the-deep", "pathfinder-71-rasputin-must-die")     # the lead reader of `LEAD_EXT` reads them (batch B5)
+BATCH_B5_CHRONICLES = ("inner-sea-monster-codex", "inner-sea-taverns", "path-of-the-hellknight", "planes-of-power", "occult-realms",
+                       "pathfinder-95-anvil-of-fire", "pathfinder-124-city-in-the-deep", "pathfinder-71-rasputin-must-die")     # Campaign Setting books and Adventure Path volumes: the page geometry of the Chronicles
 BATCH_B3_BOOKS = ("dirty-tactics-toolbox", "villain-codex", "weapon-masters-handbook", "melee-tactics-toolbox", "distant-realms")     # the lead reader of `LEAD_EXT` reads them (batch B3)
 PLAYER_COMPANIONS = ("blood-of-the-ancients", "wilderness-origins", "legacy-of-the-first-world", "people-of-the-wastes", "healers-handbook", "psychic-anthology", "disciples-doctrine", "occult-origins", "arcane-anthology", "blood-of-the-coven",
                      "elemental-masters-handbook", "monster-hunters-handbook", "monster-summoners-handbook", "armor-masters-handbook", "cohorts-and-companions")
 
 # The Player Companions that set their archetype titles in small capitals (a capital and its small capitals 5 units apart), and whose
 # archetypes are followed by sections of the chapter of their own (feats, techniques, spells): any title ends the section of an archetype.
-SMALL_CAP_BOOKS = ("blood-of-the-ancients", "blood-of-the-beast", "heroes-of-the-high-court", "martial-arts-handbook", "magic-tactics-toolbox", "potions-and-poisons", "heroes-from-the-fringe", "haunted-heroes-handbook", "antiheros-handbook", "blood-of-the-sea", "aquatic-adventures", "legacy-of-dragons", "plane-hoppers-handbook", "dirty-tactics-toolbox", "weapon-masters-handbook", "melee-tactics-toolbox", *BATCH_B4_BOOKS,
+SMALL_CAP_BOOKS = ("blood-of-the-ancients", "blood-of-the-beast", "heroes-of-the-high-court", "martial-arts-handbook", "magic-tactics-toolbox", "potions-and-poisons", "heroes-from-the-fringe", "haunted-heroes-handbook", "antiheros-handbook", "blood-of-the-sea", "aquatic-adventures", "legacy-of-dragons", "plane-hoppers-handbook", "dirty-tactics-toolbox", "weapon-masters-handbook", "melee-tactics-toolbox", *BATCH_B4_BOOKS, *BATCH_B5_BOOKS,
                    "divine-anthology")
 # ... and the ones whose chapter titles stand above the body in type of 40 or more (a chapter that ends the section of an archetype,
 # `CHAPTER_TITLES`); Agents of Evil sets a chapter title at top 82 and its archetypes are followed by the next chapter.
 CHAPTER_TITLE_BOOKS = ("agents-of-evil",)
 # ... and of these, the ones whose chapter titles or capitals stand above the usual top of the body (Blood of the Ancients keeps 88)
-HIGH_TITLE_BOOKS = ("blood-of-the-beast", "heroes-of-the-high-court", "martial-arts-handbook", "magic-tactics-toolbox", "haunted-heroes-handbook", "familiar-folio", "advanced-class-origins", "cohorts-and-companions", "dirty-tactics-toolbox", "weapon-masters-handbook", "melee-tactics-toolbox", *BATCH_B4_BOOKS,
+HIGH_TITLE_BOOKS = ("blood-of-the-beast", "heroes-of-the-high-court", "martial-arts-handbook", "magic-tactics-toolbox", "haunted-heroes-handbook", "familiar-folio", "advanced-class-origins", "cohorts-and-companions", "dirty-tactics-toolbox", "weapon-masters-handbook", "melee-tactics-toolbox", *BATCH_B4_BOOKS, *BATCH_B5_BOOKS,
                     "divine-anthology")     # the "ON VIRTUE" section title of Divine Anthology p. 16 is set at top 85, its small capitals at 94
 
 # ---- Potions & Poisons, Construct Handbook, Magic Tactics Toolbox, Haunted Heroes Handbook, Heroes from the Fringe (one block of tables) ----
@@ -4885,6 +4922,19 @@ for _eid in ("ref/arc-paladin/knight-of-coins", "ref/arc-inquisitor/oathkeeper")
     TRADE_ADDITIONS.setdefault(_eid, []).append({"alters": "Class skills"})     # "This alters the paladin's class skills and skill ranks per level." (the Class Skills section before the first feature)
 LEVEL_FROM_PRINT[("ref/arc-antipaladin/dread-vanguard", "beacon-of-evil")] = (4, "owner ruling 57: replaces the spells class feature, which the antipaladin gains at 4th level (the spells per day begin there), and print's first step of the ability is \"At 4th level and every 4 levels thereafter\"")
 TRADE_RENAMES[("ref/arc-paladin/knight-of-coins", "3rd-, 9th-, and 15th-level mercies")] = "The mercies gained at 3rd, 9th, and 15th levels"
+MISPRINTS.extend([
+    ("ref/arc-oracle/cyclopean-seer", "all savings throws", "all saving throws", "a misprint of \"saving throws\" (Inner Sea Monster Codex p. 17; owner ruling 43)"),
+    ("ref/arc-vigilante/faceless-enforcer", "A a faceless enforcer is proficient", "A faceless enforcer is proficient", "a doubled article (Path of the Hellknight p. 50; owner ruling 43)"),
+])
+LEVEL_FROM_PRINT.update({
+    ("ref/arc-mesmerist/umbral-mesmerist", "diminished-spellcasting"): (1, "ruling 50: alters the mesmerist's spellcasting (the whole feature, a 1st-level class feature; review of #358)"),
+    ("ref/arc-summoner/pyroclast", "diminished-spellcasting"): (1, "ruling 50: alters the summoner's spells (the whole spellcasting, a 1st-level class feature; review of #358)"),
+})
+TRADE_ADDITIONS.setdefault("ref/arc-cavalier/charger", []).append({"alters": "Class skills"})     # "This alters the cavalier's class skills." (the Class Skills section before the first feature)
+TRADE_RENAMES[("ref/arc-oracle/cyclopean-seer", "Final revelation")] = "The final revelation of the oracle's mystery"
+TRADE_RENAMES[("ref/arc-vigilante/faceless-enforcer", "Weapon and armor proficiencies")] = "The vigilante's weapon and armor proficiencies"     # "This alters the vigilante's weapon and armor proficiencies."
+TRADE_RENAMES[("ref/arc-vigilante/faceless-enforcer", "Vigilante talent gained at 6th level")] = "The vigilante talent gained at 6th level"
+TRADE_RENAMES[("ref/arc-oracle/cyclopean-seer", "Bonus skills from the oracle's mystery")] = "The additional class skills granted by her mystery"
 
 
 # ---- Batch B3: Dirty Tactics Toolbox, Villain Codex, Weapon Master's Handbook, Melee Tactics Toolbox, Distant Realms ----
@@ -4919,7 +4969,7 @@ def configure_book(book: str) -> None:
     CHAPTER_END[0] = 47 if book == "inner-sea-combat" else 0
     PAGE_SKIP[:] = [(16, 23), (26, 999)] if book == "legacy-of-dragons" else []
     LOWERCASE_CONTINUES["on"] = BULLETS["on"] = ITALIC_FIRST["on"] = CITE_EXT["on"] = LEAD_EXT["on"] = book in ("inner-sea-magic", "inner-sea-intrigue", "inner-sea-combat")
-    LEAD_EXT["on"] = LEAD_EXT["on"] or book in BATCH_B_BOOKS or book in BATCH_B3_BOOKS or book in BATCH_B4_BOOKS or book in ("heroes-of-the-darklands", "legacy-of-dragons", "familiar-folio", "advanced-class-origins", "armor-masters-handbook", "cohorts-and-companions",
+    LEAD_EXT["on"] = LEAD_EXT["on"] or book in BATCH_B_BOOKS or book in BATCH_B3_BOOKS or book in BATCH_B4_BOOKS or book in BATCH_B5_BOOKS or book in ("heroes-of-the-darklands", "legacy-of-dragons", "familiar-folio", "advanced-class-origins", "armor-masters-handbook", "cohorts-and-companions",
                                                                                                   "elemental-masters-handbook", "monster-hunters-handbook", "monster-summoners-handbook")
     OCR["on"] = NO_STYLE["on"] = book in ("inner-sea-combat", "monster-codex")
     MC_TITLES["on"] = book == "monster-codex"
@@ -4934,7 +4984,7 @@ def configure_book(book: str) -> None:
     OUTER_TAB["on"] = book == "construct-handbook"
     TAB_LEFT["min"], TAB_LEFT["title"] = (780, 15) if book == "aquatic-adventures" else (0, 16)
     SMALL_CAP_JOIN["gap"] = 10 if book == "divine-anthology" else 8     # the five-unit shift of Blood of the Ancients, the nine of Divine Anthology
-    PAGE_GEOMETRY["on"] = book in ("inner-sea-magic", "inner-sea-intrigue", "inner-sea-combat", "construct-handbook", "aquatic-adventures", "distant-realms")
+    PAGE_GEOMETRY["on"] = book in ("inner-sea-magic", "inner-sea-intrigue", "inner-sea-combat", "construct-handbook", "aquatic-adventures", "distant-realms") or book in BATCH_B5_CHRONICLES
     MARGIN_CAPTIONS["on"] = CAPTIONS["on"] = book in ("inner-sea-magic", "inner-sea-intrigue", "inner-sea-combat")
     BOX_TITLES["titles"] = frozenset(squash(t) for t in BOXES_OF_BOOK.get(book, ()))
     BOX_LORE["titles"] = frozenset(squash(t) for t in LORE_BOXES_OF_BOOK.get(book, ()))
@@ -4962,7 +5012,7 @@ def run_compare(args) -> int:
     book = args.book
     title = publication_title(corpus, book)
     configure_book(book)
-    pdf = find_pdf(Path(args.books), title)
+    pdf = find_pdf(Path(args.books), PDF_TITLES.get(book, title))
     if not pdf:
         raise SystemExit(f"no copy of {title!r} under {args.books}")
     bk = load_book(book_xml(pdf, Path(args.cache)))
@@ -5419,8 +5469,9 @@ def printed_trade_gaps(e: Entry) -> list[str]:
 
 # ---- the printed trade sentences (opus audit of the Blood of the Ancients pilot) -----------------------------------
 
-PRINTED_TRADE = re.compile(r"This (?:(?:ability|class feature|performance|archetype|deed|hex|talent|trick|power|discovery|revelation|exploit|mercy) )?"
-                           r"(?:replaces|alters|changes|modifies)\b[^.]*\.")
+PRINTED_TRADE = re.compile(r"(?:This (?:(?:ability|class feature|performance|archetype|deed|hex|talent|trick|power|discovery|revelation|exploit|mercy) )?"
+                           r"(?:replaces|alters|changes|modifies)|These (?:(?:abilities|class features|performances|deeds|hexes|talents|tricks|powers|discoveries|revelations|exploits|mercies|skills) )?"
+                           r"(?:replace|alter|change|modify))\b[^.]*\.")
 
 
 def sentences_path(corpus: Path, book: str) -> Path:
@@ -5438,6 +5489,7 @@ def printed_trade_sentences(section: list) -> list[str]:
     """Every "This replaces/alters/changes ..." sentence of the printed span of an archetype, in print order."""
     text = re.sub(r"\s+", " ", " ".join(b.plain() for b in section if b.kind == "para"))
     text = re.sub(r"\b1oth\b", "10th", text)      # the text layer reads a zero as a letter
+    text = re.sub(r"(?<=[a-z])\.(?=(?:This|These|It)\s+(?:ability|abilities|replaces|alters|modifies)\b)", ". ", text)       # a line end that lost its blank ("planar binding.This" / "ability replaces ...", Champions of Corruption p. 24)
     return [re.sub(r"\s+", " ", m.group(0)).strip() for m in PRINTED_TRADE.finditer(text)]
 
 
@@ -5452,7 +5504,7 @@ def run_print_sentences(args) -> int:
     corpus = Path(args.corpus).resolve()
     book = args.book
     configure_book(book)
-    pdf = find_pdf(Path(args.books), publication_title(corpus, book))
+    pdf = find_pdf(Path(args.books), PDF_TITLES.get(book, publication_title(corpus, book)))
     if not pdf:
         raise SystemExit(f"no copy of {publication_title(corpus, book)!r} under {args.books}")
     bk = load_book(book_xml(pdf, Path(args.cache)))
@@ -5471,7 +5523,18 @@ def run_print_sentences(args) -> int:
         if section is None:
             print(f"warning: {e.id}: title not found near page {page}")
             continue
-        rows += [(e.id, (lambda t: t if t and sent.startswith(t) else sent)(SENTENCE_TRIMS.get(e.id))) for sent in printed_trade_sentences(section)]
+        found = [(lambda t: t if t and sent.startswith(t) else sent)(SENTENCE_TRIMS.get(e.id)) for sent in printed_trade_sentences(section)]
+        # a feature that a hand edit writes (the page sets its text around a figure, a table or a sidebar, and the extraction interleaved the lines)
+        # states print's sentences in the edit's text: they are printed sentences of the entry too
+        have = {squash(x) for x in found}
+        for (eid, _anchor), (etext, _note) in sorted(read_edits(corpus, book).items()):
+            if eid != e.id:
+                continue
+            for m in PRINTED_TRADE.finditer(re.sub(r"\s+", " ", etext)):
+                if squash(m.group(0)) not in have:
+                    found.append(m.group(0).strip())
+                    have.add(squash(m.group(0)))
+        rows += [(e.id, sent) for sent in found]
     lines = ["entry\tsentence"] + [f"{eid}\t{sent}" for eid, sent in rows]
     sentences_path(corpus, book).write_text("\n".join(lines) + "\n", encoding="utf-8")
     print(f"{len(rows)} printed trade sentences of {len(entries)} archetypes")
@@ -5644,6 +5707,8 @@ LEVEL_FROM_PRINT.update({
 LEVEL_NONE = {
     ("ref/arc-medium/nexian-channeler", "third-eye"),
 }
+LEVEL_NONE.add(("ref/arc-vigilante/teisatsu", "teisatsu-talents"))         # alters vigilante talents in general, a part (rulings 15, 34 and 48; review of #358)
+LEVEL_NONE.add(("ref/arc-slayer/spire-diver", "studied-target"))            # alters only a part of studied target (ruling 48; review of #358)
 LEVEL_NONE.add(("ref/arc-bloodrager/bloody-knuckled-rowdy", "reduced-spells-known"))      # it changes the spells known, a part of spellcasting (ruling 48)
 # Ruling 57 and ruling 48 (cross-batch review): a feature that only adds options to, removes options from, or widens the choice of a pool (talents,
 # hexes, tricks, discoveries, spell lists, "in place of a talent") alters a part of the class feature, so it has no level from the trade (as Coral Witch,
@@ -6123,29 +6188,33 @@ def self_test() -> int:
     p3 = "A Jistkan artificer can use his arm. He cannot be fooled. The magus must be at least 13th level and have the shielding arm arcana before selecting this arcana."
     eq(cmp_rule("prereq", imp3, p3), ("hold", "print"), "rule 3: the same level")
     eq(cmp_rule("prereq", imp3, p3.replace("13th", "14th"))[1], "hold", "rule 3: another level is a hold")
-    # class options: the item after the level is print's own sentence that names it
-    imp3b = "**Passive:** An eidolon sees in the dark.\n\n**Prereq:** 11th-level summoner, blindsense\n"
-    p3b = "An eidolon sees in the dark. The eidolon must possess the blindsense evolution to take this evolution. The summoner must be at least 11th level."
-    eq(cmp_rule("prereq", imp3b, p3b)[1], "print", "rule 3: a prerequisite item is print's sentence")
-    eq(cmp_rule("prereq", imp3b, p3b.replace("blindsense", "burrow"))[1], "hold", "rule 3: another item is a hold")
-    imp3c = "**Passive:** A barbarian pounces.\n\n**Prereq:** [Beast totem](ref/ragepower/beast-totem), 10th-level barbarian\n"
-    p3c = "A barbarian pounces. A barbarian must have the beast totem rage power to select this rage power. A barbarian must be at least 10th level to select this rage power."
-    eq(cmp_rule("prereq", imp3c, p3c)[1], "print", "rule 3: an item before the level is print's sentence too")
-    # ruling 60 (class options): the loose reading, every word of the item in a sentence with "must" or "only available"
-    LOOSE_ITEMS["on"] = True
-    try:
-        imp3d = "**Ability:** An eidolon grows pincers.\n\n**Prereq:** [Limbs](ref/evolution/limbs) (arms)\n"
-        p3d = "An eidolon grows pincers. The eidolon must have the arms (limbs) evolution to take this evolution."
-        eq(cmp_rule("prereq", imp3d, p3d)[1], "print", "ruling 60: a qualifier is a word and the order is free, a row without a level")
-        imp3e = "**Ability:** An eidolon rakes.\n\n**Prereq:** Claws, quadruped base form\n"
-        p3e = "An eidolon rakes. The eidolon must have the claws evolution. This evolution is only available to eidolons of the quadruped base form."
-        eq(cmp_rule("prereq", imp3e, p3e)[1], "print", "ruling 60: two items, \"must\" and \"only available\"")
-        eq(cmp_rule("prereq", imp3d, p3d.replace("arms", "legs"))[1], "hold", "ruling 60: a word of the item that print lacks stays held")
-        eq(cmp_rule("prereq", imp3d, "An eidolon grows pincers. The arms and the limbs are described above.")[1], "hold", "ruling 60: a sentence without \"must\" stays held")
-        eq(cmp_rule("prereq", imp3e, p3e.replace("claws", "burrow"))[1], "hold", "ruling 60: another item stays held")
-    finally:
-        LOOSE_ITEMS["on"] = False
-    eq(cmp_rule("prereq", imp3d, p3d)[1], "hold", "ruling 60: the archetype reading stays strict for a row without a level")
+    # class options (rulings 60 and 61 of the data plan): the loose reading of a prerequisite item, on for the class-option script only
+    def prereq_case(row: str, printed: str, known: tuple = ()) -> str:
+        LOOSE_ITEMS["on"] = True
+        KNOWN_OPTIONS[:] = [item_tokens(k) for k in known]
+        try:
+            return cmp_rule("prereq", "**Ability:** An eidolon grows pincers.\n\n**Prereq:** " + row + "\n", "An eidolon grows pincers. " + printed)[1]
+        finally:
+            LOOSE_ITEMS["on"] = False
+            KNOWN_OPTIONS[:] = []
+    eq(prereq_case("11th-level summoner, blindsense", "The eidolon must possess the blindsense evolution to take this evolution. The summoner must be at least 11th level."), "print", "ruling 60: an item and a level")
+    eq(prereq_case("11th-level summoner, burrow", "The eidolon must possess the blindsense evolution to take this evolution. The summoner must be at least 11th level."), "hold", "ruling 60: another item stays held")
+    eq(prereq_case("Beast totem, 10th-level barbarian", "A barbarian must have the beast totem rage power to select this rage power. A barbarian must be at least 10th level to select this rage power."), "print", "ruling 60: an item before the level")
+    eq(prereq_case("Limbs (arms)", "The eidolon must have the limbs (arms) evolution to take this evolution."), "print", "ruling 60: a qualifier next to its head word")
+    eq(prereq_case("Limbs (arms)", "The eidolon must have the limbs (legs) evolution to take this evolution."), "hold", "ruling 60: limbs (arms) is not limbs (legs)")
+    eq(prereq_case("Claws, quadruped base form", "The eidolon must have the claws evolution to take this evolution. This evolution is only available to eidolons of the quadruped base form."), "print", "ruling 60: two items, \"to take\" and \"only available to\"")
+    eq(prereq_case("Claws, quadruped base form", "The eidolon must have the claws evolution to take this evolution. This evolution is only available to eidolons of the biped base form."), "hold", "ruling 60: one item left over holds the row")
+    eq(prereq_case("Serpentine base form", "This evolution is not available to eidolons of the serpentine base form."), "hold", "ruling 60: a negation holds")
+    eq(prereq_case("Claws", "The eidolon must not possess the claws evolution to take this evolution."), "hold", "ruling 60: must not possess holds")
+    eq(prereq_case("Claws", "The claws are described above."), "hold", "ruling 60: a sentence with no frame holds")
+    eq(prereq_case("Beast totem", "A barbarian must have the lesser beast totem rage power to select this rage power.", ("Lesser Beast Totem",)), "hold", "ruling 60: a longer known option that holds the item holds")
+    eq(prereq_case("Beast totem", "A barbarian must have the beast totem rage power to select this rage power.", ("Lesser Beast Totem",)), "print", "ruling 60: the item itself is no longer option")
+    eq(prereq_case("Natural armor", "The eidolon must have the improved natural armor evolution to take this evolution.", ("Improved Natural Armor",)), "hold", "ruling 60: improved natural armor is not natural armor")
+    eq(prereq_case("Tail", "The eidolon must possess the tail evolution to take this evolution."), "print", "ruling 60: an item-only row")
+    eq(prereq_case("Tail", "The eidolon must possess the tail slap evolution to take this evolution.", ("Tail Slap",)), "hold", "ruling 60: tail is not tail slap")
+    eq(prereq_case("Limbs, claws", "The eidolon must have the limbs and claws evolutions to take this evolution."), "print", "ruling 60: two items in one sentence")
+    eq(prereq_case("Reach of 10 feet", "An alignment must be opposite to one of the alignments possessed by the eidolon."), "hold", "ruling 60: a sentence that is no prerequisite holds")
+    eq(cmp_rule("prereq", "**Ability:** An eidolon grows pincers.\n\n**Prereq:** Claws\n", "An eidolon grows pincers. The eidolon must possess the claws evolution to take this evolution.")[1], "hold", "ruling 60: the archetype reading is untouched")
     # rule 4: a `Usage` row that print says word for word is print's
     imp4 = "**Ability:** A hunter can speak with animals.\n\n**Usage:** She can use this ability no more than once per minute.\n"
     eq(cmp_rule("usage", imp4, "A hunter can speak with animals. She can use this ability no more than once per minute.")[1], "print", "rule 4: the row is in print")
@@ -6262,6 +6331,8 @@ def self_test() -> int:
     eq(first_level_key("Shifter aspect and all improvements of shifter aspect"), "shifter aspect", "improvements of")
     eq(first_level_key("Wild shape"), "wild shape", "a plain name is unchanged")
     eq(first_level_key("Blessings (minor)"), first_level_key("Blessings"), "a parenthesis of the class table")
+    eq(PRINTED_TRADE.findall("A cyclopean seer adds Linguistics to her list of class skills. These replace the additional class skills granted by her mystery."), ["These replace the additional class skills granted by her mystery."], "a plural printed trade sentence")
+    eq(printed_trade_sentences([Para("para", [("greater planar binding.This ability replaces greater shield ally.", False, False)], "1", 0)]), ["This ability replaces greater shield ally."], "a printed trade sentence behind a lost blank")
     eq(finish_text("a fortune-teller (see page 37)influences people", set()), "a fortune-teller (see page 37) influences people", "a blank behind a page reference")
     eq(first_level_key("The Brew Potion bonus feat"), first_level_key("Brew Potion"), "a bonus feat of a name is that name, as the class table writes it")
     eq(first_level_key("Bonus feats"), "bonu feat", "Bonus feats alone stays")
@@ -6720,7 +6791,7 @@ def main() -> int:
         corpus = Path(args.corpus).resolve()
         books = [args.book] if args.book else sorted(
             p.name[len("feature-prose-540-"):-len(".tsv")] for p in (corpus / "scripts").glob("feature-prose-540-*.tsv")
-            if not p.name.endswith((".decisions.tsv", ".queue.tsv", ".sentences.tsv", ".class-options.tsv")))
+            if not p.name.endswith((".decisions.tsv", ".queue.tsv", ".sentences.tsv")))
         status = 0
         for b in books:
             args.book = b

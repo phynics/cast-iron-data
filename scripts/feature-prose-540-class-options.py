@@ -17,22 +17,32 @@ Shapes (owner rulings of 2026-11-24 on the data plan)
 An entry converts all or nothing, and a converted entry has no import row left, which is also what takes it out of the scope of
 `rewrite-class-option-powers.py --check` (its resolutions and exceptions are then `retired`).
 
-Files (per book, beside the archetype files, which this script never touches)
------------------------------------------------------------------------------
-`scripts/feature-prose-540-<book>.class-options.tsv`
-    One row per power: entry, feature (the name as written), anchor, shape, level_import, level, verdict, status, page, span_sha256, note.
-    `verdict`: `agree` (the rule draft equals print), `differ` (print differs from the draft in wording only), `hold` (a number or a
-    rule word differs, or the draft cannot express print), `missing-head` (the import has a power that print does not show),
-    `nopage`, `nobook`. `status` is what `--write` goes by: `draft`, `print` or `hold` (as in the archetype table).
-`scripts/feature-prose-540-<book>.class-options.proposals.toml`
-    The printed text of each power, which a TSV cannot hold.
+Files (per book, in `scripts/class-options/`, which the archetype scripts' `scripts/feature-prose-540-*` glob does not reach)
+-------------------------------------------------------------------------------------------------------------------------
+`540-<book>.tsv`
+    One row per power (the ledger): entry, feature, anchor, shape, section, book, page, level_import, level, by, ability_tag, verdict,
+    reviewed_537, status, links_lost, print_sha256, span_sha256, note. `verdict`: `agree` (the rule draft equals print), `differ` (wording
+    only), `hold`, `missing-head`, `nopage`, `nobook`; `reviewed_537` is `yes` when a resolution of #537 reaches the power (the verdict stays
+    the print compare's). `status`: `draft` or `print` (settled), `hold`, `written` (settled and written into the entry; the row stays, and
+    `--check` reads the entry against it). `ability_tag` is the printed (Ex)/(Su)/(Sp) of a single-power option (ruling 63).
+`540-<book>.proposals.toml`
+    The printed text of each power, written ones included (a TSV cannot hold it).
+`540-<book>.decisions.tsv`
+    entry, anchor, decision, note. `print` settles a held power as print has it (an errata check done, an owner ruling); a hold settles by a
+    row here, not by a change of the script.
+
+What holds an entry (every power of it): import rows outside the powers (Details, Spells, Gained class skills: not transcribed from print
+yet), a trade row (Replaces/Alters), an anchor that collides, a single power whose name is not the title.
 
 Usage
 -----
     feature-prose-540-class-options.py --self-test
     feature-prose-540-class-options.py [CORPUS] --compare --book ID [--families a,b] [--books DIR --cache DIR]
-    feature-prose-540-class-options.py [CORPUS] --write --book ID [--families a,b]
-    feature-prose-540-class-options.py [CORPUS] --check [--book ID]      no PDF needed; exit 1 unless a rerun changes nothing
+    feature-prose-540-class-options.py [CORPUS] --write --book ID [--families a,b] [--checker BIN]   writes, marks `written`, runs `fmt`
+    feature-prose-540-class-options.py [CORPUS] --check [--book ID]      no PDF needed; exit 1 on a stale row, a settled entry that is not
+                                                                         written, a written entry that holds an import label or lacks its text
+    feature-prose-540-class-options.py [CORPUS] --headings --book ID ...  ruling 61 for the evolutions that are written
+    feature-prose-540-class-options.py [CORPUS] --ability-type --book ID  ruling 63: off until the app reads `ability_type`
 """
 
 from __future__ import annotations
@@ -61,16 +71,41 @@ fp = _load("feature_prose_540", "feature-prose-540.py")
 rw = _load("rewrite_class_option_powers", "rewrite-class-option-powers.py")
 fp.LOOSE_ITEMS["on"] = True      # ruling 60: the loose reading of a prerequisite item (every word, any order, a sentence with "must" or "only available")
 
-HEADER = ["entry", "feature", "anchor", "shape", "level_import", "level", "verdict", "status", "page", "span_sha256", "note"]
-SETTLED = ("draft", "print")
+HEADER = ["entry", "feature", "anchor", "shape", "section", "book", "page", "level_import", "level", "by", "ability_tag", "verdict",
+          "reviewed_537", "status", "links_lost", "print_sha256", "span_sha256", "note"]
+SETTLED = ("draft", "print")              # settled, not written yet
+LEDGER = "written"                        # settled and written into the entry: the row stays, the check reads the entry against it
+DIR = "class-options"                     # `scripts/class-options/`: the archetype scripts glob `scripts/feature-prose-540-*`, so these files stay out of it
 
 
 def tsv_file(corpus: Path, book: str) -> Path:
-    return corpus / "scripts" / f"feature-prose-540-{book}.class-options.tsv"
+    return corpus / "scripts" / DIR / f"540-{book}.tsv"
 
 
 def proposals_file(corpus: Path, book: str) -> Path:
-    return corpus / "scripts" / f"feature-prose-540-{book}.class-options.proposals.toml"
+    return corpus / "scripts" / DIR / f"540-{book}.proposals.toml"
+
+
+def decisions_file(corpus: Path, book: str) -> Path:
+    return corpus / "scripts" / DIR / f"540-{book}.decisions.tsv"
+
+
+DECISION_HEADER = ["entry", "anchor", "decision", "note"]
+
+
+def read_decisions(path: Path) -> dict[tuple[str, str], tuple[str, str]]:
+    """The decisions of a book: (entry, anchor) -> (decision, note). `print` settles a held power as print has it (an errata check done, an
+    owner ruling); anything else is read as a hold. A hold settles by a row here, not by a change of the script."""
+    if not path.exists():
+        return {}
+    lines = path.read_text(encoding="utf-8").split("\n")
+    assert lines[0].split("\t") == DECISION_HEADER, f"{path}: header is not {DECISION_HEADER}"
+    out = {}
+    for ln in lines[1:]:
+        if ln.strip():
+            r = dict(zip(DECISION_HEADER, ln.split("\t")))
+            out[(r["entry"], r["anchor"])] = (r["decision"], r.get("note", ""))
+    return out
 
 
 # ---- the entries ---------------------------------------------------------------------------------
@@ -176,6 +211,80 @@ def powers_of(e) -> list[tuple[str, str]]:
     return [(re.sub(r":$", "", c.name), rw.span_sha(blocks[c.start:c.end])) for c in rw.candidates(blocks, True)]
 
 
+TAG = re.compile(r"\s*\(([^()]*)\)\s*:?$")
+TAG_WORDS = re.compile(r"(?:Ex|Su|Sp)(?:\s*(?:,|or|and|/)\s*(?:Ex|Su|Sp))*")
+TRADE_LABEL = re.compile(r"^\*\*(?:Replaces?|Alters?|Modifies):\*\*", re.M)
+LABEL_ROW = re.compile(r"^\*\*[^*\n]+:\*\*", re.M)           # an import row: a bold label with its colon
+WRITE_ABILITY_TYPE = False                                   # ruling 63: `[fields] ability_type`; off until the app reads the key
+
+
+def ability_tag_of(name: str) -> str:
+    """The printed ability tag of a power name, without the parentheses: "Su", "Ex or Sp", "Su, Sp"; "" when the name has none."""
+    m = TAG.search(name)
+    return m.group(1).strip() if m and TAG_WORDS.fullmatch(m.group(1).strip()) else ""
+
+
+def with_ability_type(front: str, tag: str) -> str:
+    """The `[fields]` of an entry with `ability_type = "<tag>"` after `kind` (ruling 63); an entry that has it is left."""
+    if not tag or re.search(r"^ability_type = ", front, re.M):
+        return front
+    out, n = re.subn(r'(^\[fields\]\nkind = "class_option"\n)', lambda m: m.group(1) + f'ability_type = "{tag}"\n', front, count=1, flags=re.M)
+    assert n == 1, "a class option has `[fields]` with its kind"
+    return out
+
+
+def outside_rows(body: str) -> list[str]:
+    """The labels of the import rows that stand outside every power (Details, Spells, Gained class skills, ...): a power rewrite does not
+    reach them, and they would stay in a converted entry (no transcription from print yet)."""
+    blocks = rw.parse_blocks(body.split("\n"))
+    inside = {i for c in rw.candidates(blocks, True) for i in range(c.start, c.end)}
+    return sorted({b.label for i, b in enumerate(blocks) if b.kind == "row" and i not in inside})
+
+
+def section_of(blocks, start: int) -> str:
+    """The text of the nearest section heading above a block ("" before the first)."""
+    for i in range(start - 1, -1, -1):
+        if blocks[i].kind == "boundary" and blocks[i].text.startswith("#"):
+            return blocks[i].text.lstrip("#").strip()
+    return ""
+
+
+def promoted(blocks, cands) -> dict[int, tuple[int, str]]:
+    """A power whose name is the heading right above it (`### Final Revelation` over `**Final Revelation**`): the heading becomes the head
+    of the power and keeps its derived key, written out (`{#sec-final-revelation}`), so that its URL does not move (rule 3 of AGENTS.md).
+    Maps the block index of the heading to (its level, the key)."""
+    out = {}
+    for c in cands:
+        i = c.start - 1
+        if i >= 0 and blocks[i].kind == "boundary" and blocks[i].text.startswith("#"):
+            head = blocks[i].text.lstrip("#").strip()
+            if fp.slugify(head) == fp.slugify(fp.ABILITY_TAG.sub("", re.sub(r":$", "", c.name))):
+                out[i] = (len(blocks[i].text) - len(blocks[i].text.lstrip("#")), "sec-" + fp.slugify(head))
+    return out
+
+
+def prereq_links(body: str) -> list[tuple[str, str]]:
+    m = re.search(r"^\*\*Prereq(?:uisites?)?:\*\*(.*)$", body, re.M)
+    return re.findall(r"\[([^\]]+)\]\(([^)]+)\)", m.group(1)) if m else []
+
+
+def place_links(text: str, links: list[tuple[str, str]]) -> tuple[str, list[str]]:
+    """Ruling 60: the item of a `Prereq` row is a link in print's sentence ("the [claws](ref/evolution/claws) evolution"): the first plain
+    occurrence of the item's words, outside a link. The items found nowhere are returned (the `links_lost` column)."""
+    lost = []
+    for name, target in links:
+        spans = [m.span() for m in re.finditer(r"\[[^\]]*\]\([^)]*\)", text)]
+        if any(f"]({target})" in text[a:b] for a, b in spans):
+            continue
+        hit = next((m for m in re.finditer(r"(?<![\w\[])" + re.escape(name) + r"(?![\w\]])", text, re.I)
+                    if not any(a <= m.start() < b for a, b in spans)), None)
+        if hit:
+            text = text[:hit.start()] + f"[{hit.group(0)}]({target})" + text[hit.end():]
+        else:
+            lost.append(name)
+    return text, lost
+
+
 HEADING_FAMILIES = {"evolution"}     # ruling 61: an evolution opens with the printed sentence of its group heading ("2-Point Evolutions: The following ...")
 
 
@@ -203,7 +312,7 @@ def group_heading(e, blocks) -> tuple[str, int] | None:
     return f"{re.sub(chr(10), ' ', blocks[ti].plain()).strip()}: {text}", blocks[ti].page
 
 
-def compare_one(e, book, bk) -> list[dict]:
+def compare_one(e, book, bk, other=None) -> list[dict]:
     """The rows of one entry: one per power, from the shared print comparison of the archetype pass."""
     shape, n = shape_of(e.body)
     base = {"entry": e.id, "shape": shape, "page": e.page, "span": "", "note": ""}
@@ -221,37 +330,90 @@ def compare_one(e, book, bk) -> list[dict]:
     section = [fp.Para("title", [(e.title, True, False)], page, 0, 20)] + blocks
     res = fp.compare_entry(e, section, bk)
     by_span = {r["span"]: r for r in res["rows"] if r["span"]}
+    where = {}                                       # span -> "Publication p. N" of a power that another source of the entry prints
+    for src in (e.data.get("sources") or [])[1:]:
+        pub, pg = src.get("publication"), str(src.get("page", ""))
+        def not_printed(sp):                    # no row, or the print comparison found no head on the cited pages
+            return sp not in by_span or any("head not printed" in n_ for n_ in by_span[sp]["notes"])
+        missing = [f for f in feats if not_printed(f.span_sha())]
+        if not missing or other is None or not pg.isdigit():
+            continue
+        got = other(pub, int(pg), e, shape)
+        if got is None:
+            continue
+        for sp, r2 in got.items():
+            if not_printed(sp) and not any("head not printed" in n_ for n_ in r2["notes"]):
+                by_span[sp] = r2
+                where[sp] = f"{pub} p. {pg}"
     rows, seen = [], Counter()
+    blocks_b = rw.parse_blocks(e.body.split("\n"))
+    cands = rw.candidates(blocks_b, True)
+    promo = promoted(blocks_b, cands)
+    info = {rw.span_sha(blocks_b[c.start:c.end]): (section_of(blocks_b, c.start), promo.get(c.start - 1)) for c in cands}
+    problems = []                                       # what holds every power of the entry
+    outside = outside_rows(e.body)
+    if outside:
+        problems.append("import rows outside the powers (" + ", ".join(outside[:4]) + ") are not transcribed from print yet")
+    if TRADE_LABEL.search(e.body):
+        problems.append("a trade row (Replaces/Alters): class-option trades are not written yet")
+    taken = set(re.findall(r"\{#([^}]+)\}", e.body))
+    plinks = prereq_links(e.body)
+    anchors_seen: Counter = Counter()
     for name, sha in powers:
         seen[name] += 1
         f = by_name.get(name, [None] * seen[name])[seen[name] - 1] if name in by_name else None
         r = by_span.get(f.span_sha()) if f is not None else None
+        if r is not None and f.span_sha() in where:
+            r = dict(r, notes=[f"printed in {where[f.span_sha()]}"] + list(r["notes"]))
+        section, pr = info.get(sha, ("", None))
+        common = dict(base, feature=name, section=section, book=book, by="", ability_tag=ability_tag_of(name) if shape == "single" else "",
+                      reviewed_537="yes" if (e.id, sha) in REVIEWED else "", links_lost="", span_sha256=sha)
         if r is None:
-            rows.append(dict(base, feature=name, anchor=fp.anchor_of(name), verdict="missing-head", status="hold", level_import="",
-                             level="", note="head not printed on the cited page and the next ones", span_sha256=sha, print=""))
+            rows.append(dict(common, anchor=fp.anchor_of(name), verdict="missing-head", status="hold", level_import="",
+                             level="", note="head not printed on the cited page and the next ones", print="", print_sha256=""))
             continue
         verdict = {"draft": "agree", "print": "differ", "hold": "hold"}[r["status"]]
-        if (e.id, sha) in REVIEWED:
-            verdict = "reviewed-537" if verdict != "hold" else "hold"          # a hold stays a hold: the resolution is a source, not an answer
         note_r = f"resolution of #537: {REVIEWED[(e.id, sha)]}" if (e.id, sha) in REVIEWED else ""
-        notes = "; ".join([n_ for n_ in r["notes"] if n_] + ([note_r] if note_r else []))[:300]
+        notes = [n_ for n_ in r["notes"] if n_] + ([note_r] if note_r else [])
         status, printed = r["status"], r["print"]
+        anchor = pr[1] if pr else r["anchor"]
+        anchors_seen[anchor] += 1
+        if anchors_seen[anchor] > 1 or (anchor in taken and not pr):
+            notes.append(f"anchor collision: {anchor}")
+            status = "hold"
+        if shape == "single" and fp.namekey(name) != fp.namekey(e.title) and fp.namekey(inverted(name)) != fp.namekey(e.title):
+            notes.append("the power's name differs from the title of the entry")
+            status = "hold"
+        if problems:
+            notes += problems
+            status = "hold"
+        if shape == "single":
+            printed, lost = place_links(printed, plinks)
+            common["links_lost"] = "|".join(lost)
         if shape == "single" and e.id.split("/")[1] in HEADING_FAMILIES:
             gh = group_heading(e, heading_blocks(bk, page))
             if gh is None:
-                notes = "; ".join([n_ for n_ in [notes, "no group heading found above the head"] if n_])[:300]
+                notes.append("no group heading found above the head")
                 status = "hold"
             elif gh[1] > page:
-                notes = "; ".join([n_ for n_ in [notes, f"the group heading is on p. {gh[1]}, after the cited p. {page}"] if n_])[:300]
+                notes.append(f"the group heading is on p. {gh[1]}, after the cited p. {page}")
                 status = "hold"
             else:
                 printed = gh[0] + "\n\n" + printed
                 if gh[1] < page:
-                    base = dict(base, page=f"{gh[1]}-{page}")           # the sentence is on the page before: the entry cites both (ruling 61)
-        rows.append(dict(base, feature=name, anchor=r["anchor"], verdict=verdict, status=status,
+                    common["page"] = f"{gh[1]}-{page}"           # the sentence is on the page before: the entry cites both (ruling 61)
+        decided = DECISIONS.get((e.id, anchor))
+        if decided and decided[0] == "print" and status == "hold" and r["status"] == "hold" and not problems:
+            status = "print"
+            notes.append(f"decision: {decided[1]}")
+        rows.append(dict(common, anchor=anchor, verdict=verdict, status=status,
                          level_import=r["level_import"] if r["level_import"] is not None else "",
-                         level=level_of(r["print"]) or "", note=notes, span_sha256=sha, print=printed))
+                         level=level_of(r["print"]) or "", note="; ".join(notes)[:400], print=printed,
+                         print_sha256=hashlib.sha256(printed.encode()).hexdigest()))
     return rows
+
+
+DECISIONS: dict[tuple[str, str], tuple[str, str]] = {}
 
 
 def run_compare(args) -> int:
@@ -266,26 +428,58 @@ def run_compare(args) -> int:
     families = set(args.families.split(",")) if args.families else None
     everything = load_class_options(corpus, book)
     names: list[str] = []
-    for x in everything:
+    for x in load_class_options(corpus):
         names.append(x.title)                      # a converted option has no import row left, but its italic head still ends the text above it
         if shape_of(x.body)[0] != "none":
             for f in fp.parse_import(x.body, set())[1]:
                 names += [f.name, fp.tail_name(f.name)]
     install_split(names)
+    fp.KNOWN_OPTIONS[:] = [fp.item_tokens(x.title) for x in load_class_options(corpus)]      # ruling 60: a sentence that names a longer option holds
     REVIEWED.update(reviewed_spans(corpus))
+    DECISIONS.clear()
+    DECISIONS.update(read_decisions(decisions_file(corpus, book)))
+    books_seen: dict[str, object] = {}
+
+    def other(pub: str, pg: int, e, shape: str):
+        """The comparison of an entry against another book that prints some of its powers (an elemental bloodline is in Advanced Player's
+        Guide p. 136 and Ultimate Magic p. 72): its rows by span, or None when there is no copy of that book."""
+        if pub not in books_seen:
+            fp.configure_book(pub)
+            pdf2 = fp.find_pdf(Path(args.books), fp.publication_title(corpus, pub))
+            books_seen[pub] = fp.load_book(fp.book_xml(pdf2, Path(args.cache))) if pdf2 else None
+        bk2 = books_seen[pub]
+        if bk2 is None:
+            return None
+        fp.configure_book(pub)
+        try:
+            last2 = pg + (3 if shape == "multi" else 1)
+            blocks2 = fp.read_blocks(bk2, max(1, pg + fp.PAGE_OFFSET[0] - 1), min(last2 + fp.PAGE_OFFSET[0], max(bk2.pages)))
+            res2 = fp.compare_entry(e, [fp.Para("title", [(e.title, True, False)], pg, 0, 20)] + blocks2, bk2)
+            return {r["span"]: r for r in res2["rows"] if r["span"]}
+        finally:
+            fp.configure_book(book)
     entries = [x for x in everything if not families or x.id.split("/")[1] in families]
     cen = census(entries)
     rows, props = [], {}
     for e in entries:
         if shape_of(e.body)[0] == "none":
             continue
-        for r in compare_one(e, book, bk):
+        for r in compare_one(e, book, bk, other):
             if r.get("print"):
                 props.setdefault(e.id, {"id": e.id, "feature": []})["feature"].append({"anchor": r["anchor"], "print": r["print"]})
             rows.append(r)
-    write_tsv(tsv_file(corpus, book), rows)
-    write_props(proposals_file(corpus, book), props)
+    old = read_tsv(tsv_file(corpus, book))
+    old_props = read_props(proposals_file(corpus, book))
+    compared = {r["entry"] for r in rows}
+    kept = [r for r in old if r["status"] == LEDGER and r["entry"] not in compared]       # the ledger of the entries written already
+    for r in kept:
+        if (r["entry"], r["anchor"]) in old_props:
+            props.setdefault(r["entry"], {"id": r["entry"], "feature": []})["feature"].append(
+                {"anchor": r["anchor"], "print": old_props[(r["entry"], r["anchor"])]})
+    write_tsv(tsv_file(corpus, book), sorted(kept + rows, key=lambda r: r["entry"]))
+    write_props(proposals_file(corpus, book), dict(sorted(props.items())))
     print(report(rows, cen))
+    print(f"ledger: {len({r['entry'] for r in kept})} entries written before and kept")
     return 0
 
 
@@ -306,6 +500,7 @@ def report(rows: list[dict], cen: dict) -> str:
 
 
 def write_tsv(path: Path, rows: list[dict]) -> None:
+    path.parent.mkdir(parents=True, exist_ok=True)
     lines = ["\t".join(HEADER)]
     for r in rows:
         lines.append("\t".join(str(r.get(k, "")).replace("\t", " ").replace("\n", " ") for k in HEADER))
@@ -321,7 +516,8 @@ def read_tsv(path: Path) -> list[dict]:
 
 
 def write_props(path: Path, props: dict) -> None:
-    out = ["# The printed text of the powers of the class options that are not converted yet. Generated: never edit by hand.", ""]
+    path.parent.mkdir(parents=True, exist_ok=True)
+    out = ["# The printed text of the powers of the class options of the book, written ones included (the check reads an entry against it). Generated: never edit by hand.", ""]
     for e in props.values():
         for f in e["feature"]:
             out += ["[[entry]]", f"id = {fp.toml_str(e['id'])}", f"anchor = {fp.toml_str(f['anchor'])}", f"print = {fp.toml_str(f['print'])}", ""]
@@ -336,13 +532,17 @@ def read_props(path: Path) -> dict[tuple[str, str], str]:
 
 # ---- writing -------------------------------------------------------------------------------------
 
-def convert_body(e, texts: dict[str, str], levels: dict[str, int | None], anchors: dict[str, str]) -> tuple[str, list[tuple[str, int | None]]]:
+def convert_body(e, texts: dict[str, str], levels: dict[str, int | None], anchors: dict[str, str],
+                 shape: str | None = None) -> tuple[str, list[tuple[str, int | None]]]:
     """The converted body and the `features` of a multi-power entry. `texts` maps the span hash of each power to its printed
-    text, `levels` to its level, `anchors` to its anchor."""
+    text, `levels` to its level, `anchors` to its anchor. The path goes by the shape of the entry: one power is the single-power form
+    (no head, no features) whatever else the body holds; several powers get a head each, at the level of the section they stand in,
+    and a power before the first section takes the level of that section (it must not nest the section inside it)."""
     lines = e.body.split("\n")
     blocks = rw.parse_blocks(lines)
     cands = rw.candidates(blocks, True)
-    if len(cands) == 1 and not any(b.kind == "boundary" and b.text.startswith("#") for b in blocks):
+    shape = shape or ("single" if len(cands) == 1 else "multi")
+    if shape == "single":
         c = cands[0]
         text = texts[rw.span_sha(blocks[c.start:c.end])]
         keep_before = [b.text for b in blocks[:c.start]]
@@ -350,20 +550,31 @@ def convert_body(e, texts: dict[str, str], levels: dict[str, int | None], anchor
         return "\n" + "\n\n".join(keep_before + [text] + keep_after).strip("\n") + "\n", []
     out, features, i = [], [], 0
     by_start = {c.start: c for c in cands}
-    heading = 1
+    promo = promoted(blocks, cands)
+    levels_of_sections = [len(b.text) - len(b.text.lstrip("#")) for b in blocks if b.kind == "boundary" and b.text.startswith("#")]
+    first_section = levels_of_sections[0] if levels_of_sections else 0
+    heading = 0                                          # the level of the section that the block stands in (0: before the first)
     while i < len(blocks):
         b = blocks[i]
+        if i in promo:
+            i += 1                                       # the heading becomes the head of the power below it
+            continue
         if b.kind == "boundary" and b.text.startswith("#"):
             heading = len(b.text) - len(b.text.lstrip("#"))
         c = by_start.get(i)
         if c:
             sha = rw.span_sha(blocks[c.start:c.end])
             name = re.sub(r"[:]$", "", c.name)
-            level = levels.get(sha)
             anchor = anchors[sha]
-            out.append("#" * (heading + 1 if heading > 1 else 2) + f" {name} {{#{anchor}}}")
+            if i - 1 in promo:
+                level_h = promo[i - 1][0]
+            elif heading:
+                level_h = heading + 1
+            else:
+                level_h = first_section if first_section else 2
+            out.append("#" * level_h + f" {name} {{#{anchor}}}")
             out.append(texts[sha])
-            features.append((anchor, level))
+            features.append((anchor, levels.get(sha)))
             i = c.end
             continue
         out.append(b.text)
@@ -373,7 +584,9 @@ def convert_body(e, texts: dict[str, str], levels: dict[str, int | None], anchor
 
 def features_front(front: str, features: list[tuple[str, int | None]]) -> str:
     items = "".join("  { anchor = \"%s\"%s },\n" % (a, f", level = {l}" if l else "") for a, l in features)
-    return re.sub(r"(^group = \"[^\"]*\"\n)", lambda m: m.group(1) + "features = [\n" + items + "]\n", front, count=1, flags=re.M)
+    out, n = re.subn(r"(^group = \"[^\"]*\")(\n|\Z)", lambda m: m.group(1) + "\nfeatures = [\n" + items + "]\n", front, count=1, flags=re.M)
+    assert n == 1, "an entry with features has a group row to put them after"
+    return out
 
 
 def with_page(text: str, page: str) -> str:
@@ -414,7 +627,19 @@ def run_headings(args) -> int:
     return 0
 
 
+def heading_keys(body: str) -> set[str]:
+    """The URL keys of the headings of a body: an explicit `{#key}`, else the derived key of the heading text."""
+    keys = set()
+    for ln in body.split("\n"):
+        m = re.match(r"^#{1,6}\s+(.*?)(?:\s*\{#([^}]+)\})?\s*$", ln)
+        if m:
+            keys.add(m.group(2) or fp.slugify(m.group(1)))
+    return keys
+
+
 def run_write(args) -> int:
+    """Writes the entries whose rows are all settled, marks their rows `written` (the ledger), and runs the corpus formatter when
+    `--checker` is given. An entry that is written has no import row, so a second run changes nothing."""
     corpus = Path(args.corpus).resolve()
     book = args.book
     families = set(args.families.split(",")) if args.families else None
@@ -426,7 +651,8 @@ def run_write(args) -> int:
     converted = 0
     for e in load_class_options(corpus, book, families):
         mine = by_entry.get(e.id)
-        if not mine or any(r["status"] not in SETTLED for r in mine):
+        shape = shape_of(e.body)[0]
+        if shape == "none" or not mine or any(r["status"] not in SETTLED for r in mine):
             continue
         blocks = rw.parse_blocks(e.body.split("\n"))
         texts, levels, anchors = {}, {}, {}
@@ -434,36 +660,81 @@ def run_write(args) -> int:
             texts[r["span_sha256"]] = props[(e.id, r["anchor"])]
             levels[r["span_sha256"]] = int(r["level"]) if r["level"] else None
             anchors[r["span_sha256"]] = r["anchor"]
-        body, features = convert_body(e, texts, levels, anchors)
+        body, features = convert_body(e, texts, levels, anchors, shape)
+        keep = heading_keys(e.body)
+        lost = keep - heading_keys(body)
+        assert not lost, f"{e.id}: the keys {sorted(lost)} would move"                  # rule 3 of AGENTS.md: the keys of the headings stay
         front = features_front(e.front, features) if features else e.front
         if mine[0]["page"] and mine[0]["page"] != e.page:
             front = with_page(front, mine[0]["page"])
         e.path.write_text("+++\n" + front.strip("\n") + "\n+++\n" + body, encoding="utf-8")
+        for r in mine:
+            r["status"] = LEDGER
         converted += 1
+    if converted:
+        write_tsv(tsv_file(corpus, book), rows)
     print(f"converted {converted} entries")
+    if converted and args.checker:
+        import subprocess
+        subprocess.run([args.checker, "fmt", str(corpus)], check=True)
+    return 0
+
+
+def run_ability_type(args) -> int:
+    """Ruling 63 for the written single-power entries: `[fields] ability_type = "Su"` from the ledger's `ability_tag`. Off until the app
+    reads the key (`WRITE_ABILITY_TYPE`): data CI fails on a key that the reader does not know."""
+    if not WRITE_ABILITY_TYPE:
+        print("ability_type is off: the app does not read the key yet (WRITE_ABILITY_TYPE)")
+        return 0
+    corpus = Path(args.corpus).resolve()
+    rows = read_tsv(tsv_file(corpus, args.book))
+    done = 0
+    for e in load_class_options(corpus, args.book):
+        mine = [r for r in rows if r["entry"] == e.id and r["status"] == LEDGER and r["shape"] == "single" and r["ability_tag"]]
+        if mine:
+            new = with_ability_type(e.front, mine[0]["ability_tag"])
+            if new != e.front:
+                e.path.write_text(e.path.read_text(encoding="utf-8").replace(e.front, new, 1), encoding="utf-8")
+                done += 1
+    print(f"ability_type: {done} entries changed")
     return 0
 
 
 # ---- the check -----------------------------------------------------------------------------------
 
+def norm(text: str) -> str:
+    return re.sub(r"\s+", " ", re.sub(r"\[([^\]]*)\]\([^)]*\)", r"\1", text)).strip()
+
+
 def run_check(args) -> int:
     corpus = Path(args.corpus).resolve()
-    books = [args.book] if args.book else sorted({p.name[len("feature-prose-540-"):-len(".class-options.tsv")]
-                                                   for p in (corpus / "scripts").glob("feature-prose-540-*.class-options.tsv")})
+    books = [args.book] if args.book else sorted(p.name[len("540-"):-len(".tsv")] for p in (corpus / "scripts" / DIR).glob("540-*.tsv")
+                                                  if not p.name.endswith((".decisions.tsv",)))
     errors: list[str] = []
     for book in books:
         rows = read_tsv(tsv_file(corpus, book))
+        props = read_props(proposals_file(corpus, book))
         entries = {e.id: e for e in load_class_options(corpus, book)}
         by_entry: dict[str, list[dict]] = {}
         for r in rows:
             by_entry.setdefault(r["entry"], []).append(r)
-        cen = census(list(entries.values()))
+        written = {eid for eid, rs in by_entry.items() if all(r["status"] == LEDGER for r in rs)}
+        cen = census([e for eid, e in entries.items() if eid not in written])
         pending = 0
         for eid, e in entries.items():
             shape, _ = shape_of(e.body)
             mine = by_entry.get(eid)
+            if eid in written:
+                if shape != "none" or LABEL_ROW.search(e.body):
+                    errors.append(f"{eid}: written, but the entry still holds an import row or label")
+                body = norm(e.body)
+                for r in mine:
+                    text = props.get((eid, r["anchor"]))
+                    if text is not None and norm(text) not in body:
+                        errors.append(f"{eid}: written, but the printed text of `{r['anchor']}` is not in the entry")
+                continue
             if shape == "none":
-                if mine and any(r["status"] not in SETTLED for r in mine):
+                if mine and any(r["status"] not in SETTLED + (LEDGER,) for r in mine):
                     errors.append(f"{eid}: no import row is left, but the table has an unsettled row")
                 continue
             if not mine:
@@ -472,8 +743,10 @@ def run_check(args) -> int:
             have = {r["span_sha256"] for r in mine}
             if have != {sha for _, sha in powers_of(e)}:
                 errors.append(f"{eid}: the table is stale (the spans of the import rows changed)")
-        print(f"{book}: {len(entries)} class options: {cen['single']} single-power and {cen['multi']} multi-power not converted, "
-              f"{cen['none']} without import rows (reported, not rewritten); {pending} with import rows not compared yet")
+            elif all(r["status"] in SETTLED for r in mine):
+                errors.append(f"{eid}: settled but not written (run --write)")
+        print(f"{book}: {len(entries)} class options: {len(written)} written (ledger), {cen['single']} single-power and {cen['multi']} multi-power "
+              f"not converted, {cen['none']} without import rows (reported, not rewritten); {pending} with import rows not compared yet")
     for line in errors:
         print("error:", line)
     return 1 if errors else 0
@@ -494,6 +767,7 @@ def self_test() -> int:
     eq(inverted("Greater Beast Totem (Su)"), "Beast Totem, Greater (Su)", "print sets the variant behind the name")
     eq(inverted("Beast Totem"), "Beast Totem", "a name without a variant stays")
     eq(INVERTED_HEAD.match("Beast Totem, Greater (Su)").groups(), ("Beast Totem", "Greater", " (Su)"), "the inverted head is read")
+    eq(features_front('id = "x"\ngroup = "order"', [("a", None)]), 'id = "x"\ngroup = "order"\nfeatures = [\n  { anchor = "a" },\n]\n', "a front that ends at the group row gets its features")
     P = fp.Para
     E = type("E", (), {"title": "Wing Buffet"})()
     blk = [P("title", [("1-Point Evolutions", True, False)], 60, 0, 18),
@@ -545,6 +819,38 @@ def self_test() -> int:
     eq("entries with a hold: 1 of 2" in out and "reach these powers: 1" in out and "talent 1" in out, True, "the report counts holds, resolutions and the options without import rows")
     eq(level_of("At 7th level, a reroll."), 7, "the level of a printed lead")
     eq(level_of("Once per day, a reroll."), None, "no printed lead, no level")
+    # ruling 63, the ledger, the shape path, the heading levels
+    eq([ability_tag_of(n) for n in ("Agony (Su)", "Foo (Ex or Sp)", "Bar (Su, Sp)", "Plain", "Note (see text)")], ["Su", "Ex or Sp", "Su, Sp", "", ""], "the printed ability tag")
+    eq(with_ability_type('id = "x"\n[fields]\nkind = "class_option"\ngroup = "hex"', "Su"), 'id = "x"\n[fields]\nkind = "class_option"\nability_type = "Su"\ngroup = "hex"', "ruling 63: the key follows the kind")
+    eq(with_ability_type('[fields]\nkind = "class_option"\nability_type = "Ex"\n', "Su"), '[fields]\nkind = "class_option"\nability_type = "Ex"\n', "ruling 63: a key that is there stays")
+    eq(WRITE_ABILITY_TYPE, False, "ruling 63: the writer is off until the app reads the key")
+    eq(outside_rows(multi), ["Details"], "the import rows outside the powers are listed")
+    eq(outside_rows(single), [], "a single power has no row outside")
+    eq(bool(TRADE_LABEL.search("**Replaces:** a thing\n")), True, "a trade row is found")
+    sec = "\n**Bloodline Arcana**\n\n**Passive:** A bonus.\n\n### Bloodline Powers\n\n**Touch (Su)**\n\n**Standard:** A touch.\n\n### Final Revelation\n\n**Final Revelation (Su)**\n\n**Passive:** At 20th level, more.\n"
+    bl = rw.parse_blocks(sec.split("\n"))
+    cs = rw.candidates(bl, True)
+    eq(sorted(v[1] for v in promoted(bl, cs).values()), ["sec-final-revelation"], "a heading over a power of its own name is promoted, its key written out")
+    def shas(body):
+        b2 = rw.parse_blocks(body.split("\n"))
+        return [rw.span_sha(b2[c.start:c.end]) for c in rw.candidates(b2, True)]
+    s3 = shas(sec)
+    class E2:
+        body = sec
+    body3, f3 = convert_body(E2, {s3[0]: "A bonus.", s3[1]: "A touch.", s3[2]: "At 20th level, more."}, {s3[2]: 20},
+                             {s3[0]: "bloodline-arcana", s3[1]: "touch", s3[2]: "sec-final-revelation"})
+    eq("### Bloodline Arcana {#bloodline-arcana}" in body3 and "#### Touch (Su) {#touch}" in body3, True, "a power before the first section takes the section's level")
+    eq("### Final Revelation (Su) {#sec-final-revelation}" in body3 and "### Final Revelation\n" not in body3, True, "the Final Revelation heading is the head of the power")
+    eq(heading_keys(sec) <= heading_keys(body3) | {"final-revelation"}, True, "the keys of the headings stay (the promoted one by its written key)")
+    one = "\n### Special\n\n**Gift (Su)**\n\n**Ability:** A gift.\n"
+    class E3:
+        body = one
+    body4, f4 = convert_body(E3, {shas(one)[0]: "A gift."}, {}, {}, "single")
+    eq((f4, "####" in body4, "### Special" in body4), ([], False, True), "one power under a heading is the single-power form: no head, no features")
+    eq(place_links("The eidolon must have the claws evolution.", [("claws", "ref/evolution/claws")]),
+       ("The eidolon must have the [claws](ref/evolution/claws) evolution.", []), "ruling 60: the item is linked in print's sentence")
+    eq(place_links("It has [claws](ref/evolution/claws).", [("claws", "ref/evolution/claws"), ("tail", "ref/evolution/tail")]),
+       ("It has [claws](ref/evolution/claws).", ["tail"]), "ruling 60: an item that stands nowhere is reported")
     for line in bad:
         print("FAIL", line)
     print(f"self-test: {ok} checks passed" if not bad else f"self-test: {len(bad)} failures")
@@ -559,6 +865,8 @@ def main() -> int:
     ap.add_argument("--write", action="store_true")
     ap.add_argument("--headings", action="store_true", help="ruling 61: put the printed group heading in the converted evolution entries")
     ap.add_argument("--check", action="store_true")
+    ap.add_argument("--ability-type", action="store_true", help="ruling 63: write ability_type for the written single-power entries (off until the app reads the key)")
+    ap.add_argument("--checker", help="the cast-iron-corpus binary: `--write` runs its `fmt` afterwards")
     ap.add_argument("--book")
     ap.add_argument("--families")
     ap.add_argument("--books")
@@ -568,6 +876,8 @@ def main() -> int:
         return self_test()
     if args.compare:
         return run_compare(args)
+    if args.ability_type:
+        return run_ability_type(args)
     if args.headings:
         return run_headings(args)
     if args.write:
