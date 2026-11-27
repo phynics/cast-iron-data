@@ -13,6 +13,7 @@ page = "77"
 [fields]
 kind = "class_option"
 group = "rage-power"
+ability_type = "Su"
 +++
 
 While raging, the spirits that surround the barbarian make it difficult for her enemies to see her.

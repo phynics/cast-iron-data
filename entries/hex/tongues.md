@@ -13,6 +13,7 @@ page = "67"
 [fields]
 kind = "class_option"
 group = "witch-hex"
+ability_type = "Su"
 +++
 
 A witch with this hex can understand any spoken language for a number of minutes per day equal to

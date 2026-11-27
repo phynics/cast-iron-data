@@ -13,6 +13,7 @@ page = "66"
 [fields]
 kind = "class_option"
 group = "witch-hex"
+ability_type = "Ex"
 +++
 
 The witch receives [Brew Potion](ref/feat/brew-potion) as a bonus feat and a +4 insight bonus on

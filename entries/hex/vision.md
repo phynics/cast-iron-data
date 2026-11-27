@@ -13,6 +13,7 @@ page = "68"
 [fields]
 kind = "class_option"
 group = "witch-hex"
+ability_type = "Su"
 +++
 
 A witch with the vision hex can grant a glimpse of the future to a creature touched. Granting a

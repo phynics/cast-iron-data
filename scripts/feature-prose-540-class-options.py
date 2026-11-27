@@ -262,25 +262,27 @@ def powers_of(e) -> list[tuple[str, str]]:
     return [(re.sub(r":$", "", c.name), rw.span_sha(blocks[c.start:c.end])) for c in rw.candidates(blocks, True)]
 
 
-TAG = re.compile(r"\s*\(([^()]*)\)\s*:?$")
-TAG_WORDS = re.compile(r"(?:Ex|Su|Sp)(?:\s*(?:,|or|and|/)\s*(?:Ex|Su|Sp))*")
+TAG = re.compile(r"\(([^()]*)\)\s*:?$")
+TAG_WORDS = re.compile(r"(?:Ex|Su|Sp)(?:(?:, or |, and |, | or | and )(?:Ex|Su|Sp))*")      # the rule of `is_ability_tag_text` (schema), as the heading splitter reads a tag
 TRADE_LABEL = re.compile(r"^\*\*(?:Replaces?|Alters?|Modifies):\*\*", re.M)
 LABEL_ROW = re.compile(r"^\*\*([^*\n]+):\*\*", re.M)           # an import row: a bold label with its colon
-WRITE_ABILITY_TYPE = False                                   # ruling 63: `[fields] ability_type`; off until the app reads the key
+WRITE_ABILITY_TYPE = True                                    # ruling 63: `[fields] ability_type`; on since the app reads the key (app #749)
 
 
 def ability_tag_of(name: str) -> str:
-    """The printed ability tag of a power name, without the parentheses: "Su", "Ex or Sp", "Su, Sp"; "" when the name has none."""
+    """The printed ability tag of a power name, without the parentheses and in print's case: "Su", "Ex or Sp", "Su, Sp"; "" when the name has
+    none or its text is not a tag ("su", " Su", "see text"): the app refuses such a value."""
     m = TAG.search(name)
-    return m.group(1).strip() if m and TAG_WORDS.fullmatch(m.group(1).strip()) else ""
+    return m.group(1) if m and TAG_WORDS.fullmatch(m.group(1)) else ""
 
 
 def with_ability_type(front: str, tag: str) -> str:
-    """The `[fields]` of an entry with `ability_type = "<tag>"` after `kind` (ruling 63); an entry that has it is left."""
-    if not tag or re.search(r"^ability_type = ", front, re.M):
+    """The `[fields]` of a class option with `ability_type = "<tag>"` right after `group` (the app's canonical order: kind, group, ability_type,
+    features; ruling 63). An entry that has the key, a tag that is no tag, or no `[fields] kind = "class_option"` is left."""
+    if not tag or not TAG_WORDS.fullmatch(tag) or re.search(r"^ability_type = ", front, re.M) or 'kind = "class_option"' not in front:
         return front
-    out, n = re.subn(r'(^\[fields\]\nkind = "class_option"\n)', lambda m: m.group(1) + f'ability_type = "{tag}"\n', front, count=1, flags=re.M)
-    assert n == 1, "a class option has `[fields]` with its kind"
+    out, n = re.subn(r'(^group = "[^"]*")(\n|\Z)', lambda m: m.group(1) + f'\nability_type = "{tag}"\n', front, count=1, flags=re.M)
+    assert n == 1, "a class option has a `group` row to put the key after"
     return out
 
 
@@ -966,6 +968,8 @@ def run_write(args) -> int:
         lost = keep - new_keys - {k[len("sec-"):] for k in new_keys if k.startswith("sec-")}
         assert not lost, f"{e.id}: the keys {sorted(lost)} would move"                  # rule 3 of AGENTS.md: the keys of the headings stay
         front = features_front(e.front, features) if features else e.front
+        if WRITE_ABILITY_TYPE and shape == "single":
+            front = with_ability_type(front, ability_tag_of(mine[0]["feature"]))
         own = [r for r in mine if r["book"] == book]
         if own and own[0]["page"] and own[0]["page"] != e.page:
             front = with_page(front, own[0]["page"])
@@ -989,15 +993,18 @@ def run_ability_type(args) -> int:
         return 0
     corpus = Path(args.corpus).resolve()
     rows = read_tsv(tsv_file(corpus, args.book))
-    done = 0
+    done = untagged = 0
     for e in load_class_options(corpus, args.book):
-        mine = [r for r in rows if r["entry"] == e.id and r["status"] == LEDGER and r["shape"] == "single" and r["ability_tag"]]
-        if mine:
-            new = with_ability_type(e.front, mine[0]["ability_tag"])
+        mine = [r for r in rows if r["entry"] == e.id and r["status"] == LEDGER and r["shape"] == "single"]
+        tag = ability_tag_of(mine[0]["feature"]) if mine else ""
+        if mine and not tag:
+            untagged += 1
+        if mine and tag:
+            new = with_ability_type(e.front, tag)
             if new != e.front:
                 e.path.write_text(e.path.read_text(encoding="utf-8").replace(e.front, new, 1), encoding="utf-8")
                 done += 1
-    print(f"ability_type: {done} entries changed")
+    print(f"ability_type: {done} entries changed, {untagged} written single-power entries have no printed tag (no key)")
     return 0
 
 
@@ -1184,9 +1191,14 @@ def self_test() -> int:
     eq(level_of("Once per day, a reroll."), None, "no printed lead, no level")
     # ruling 63, the ledger, the shape path, the heading levels
     eq([ability_tag_of(n) for n in ("Agony (Su)", "Foo (Ex or Sp)", "Bar (Su, Sp)", "Plain", "Note (see text)")], ["Su", "Ex or Sp", "Su, Sp", "", ""], "the printed ability tag")
-    eq(with_ability_type('id = "x"\n[fields]\nkind = "class_option"\ngroup = "hex"', "Su"), 'id = "x"\n[fields]\nkind = "class_option"\nability_type = "Su"\ngroup = "hex"', "ruling 63: the key follows the kind")
+    eq(with_ability_type('id = "x"\n[fields]\nkind = "class_option"\ngroup = "hex"\nfeatures = [\n]\n', "Su"), 'id = "x"\n[fields]\nkind = "class_option"\ngroup = "hex"\nability_type = "Su"\nfeatures = [\n]\n', "ruling 63: the key follows group")
+    eq(with_ability_type('[fields]\nkind = "class_option"\ngroup = "hex"', "Ex or Sp"), '[fields]\nkind = "class_option"\ngroup = "hex"\nability_type = "Ex or Sp"\n', "ruling 63: a combined tag, a front that ends at group")
+    eq(with_ability_type('[fields]\nkind = "class_option"\ngroup = "hex"\n', ""), '[fields]\nkind = "class_option"\ngroup = "hex"\n', "ruling 63: an entry whose print has no tag gets no key")
+    eq([with_ability_type('[fields]\nkind = "class_option"\ngroup = "hex"\n', x) for x in ("su", " Su", "(Su)", "see text")] == ['[fields]\nkind = "class_option"\ngroup = "hex"\n'] * 4, True, "ruling 63: a value that is no printed tag fails the same rule as the app's")
+    eq(with_ability_type('[fields]\nkind = "archetype"\ngroup = "x"\n', "Su"), '[fields]\nkind = "archetype"\ngroup = "x"\n', "ruling 63: only on a class option")
+    eq([ability_tag_of(n) for n in ("Foo (su)", "Foo (Su, Sp)", "Foo (Ex, or Sp)", "Foo (Ex/Sp)", "Foo (Ex and Su)")], ["", "Su, Sp", "Ex, or Sp", "", "Ex and Su"], "ruling 63: the separators of the app's rule")
     eq(with_ability_type('[fields]\nkind = "class_option"\nability_type = "Ex"\n', "Su"), '[fields]\nkind = "class_option"\nability_type = "Ex"\n', "ruling 63: a key that is there stays")
-    eq(WRITE_ABILITY_TYPE, False, "ruling 63: the writer is off until the app reads the key")
+    eq(WRITE_ABILITY_TYPE, True, "ruling 63: the writer is on, the app reads the key")
     eq(outside_rows(multi), ["Details"], "the import rows outside the powers are listed")
     eq(outside_rows(single), [], "a single power has no row outside")
     eq(bool(TRADE_LABEL.search("**Replaces:** a thing\n")), True, "a trade row is found")

@@ -13,6 +13,7 @@ page = "77"
 [fields]
 kind = "class_option"
 group = "rage-power"
+ability_type = "Su"
 +++
 
 While raging, the barbarian is surrounded by spirit wisps that harass her foes. These spirits make

@@ -13,6 +13,7 @@ page = "76"
 [fields]
 kind = "class_option"
 group = "rage-power"
+ability_type = "Ex"
 +++
 
 As [lesser hurling](ref/ragepower/lesser-hurling), but the barbarian can increase the range

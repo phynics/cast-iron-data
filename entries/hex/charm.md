@@ -13,6 +13,7 @@ page = "66"
 [fields]
 kind = "class_option"
 group = "witch-hex"
+ability_type = "Su"
 +++
 
 A witch can charm an animal or humanoid creature within 30 feet by beckoning and speaking soothing

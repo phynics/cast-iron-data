@@ -13,6 +13,7 @@ page = "68"
 [fields]
 kind = "class_option"
 group = "witch-hex"
+ability_type = "Su"
 +++
 
 Calling upon fell powers, a witch can place a hex on a creature within 60 feet that causes its sleep
