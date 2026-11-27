@@ -289,7 +289,7 @@ def place_links(text: str, links: list[tuple[str, str]]) -> tuple[str, list[str]
     return text, lost
 
 
-HEADING_FAMILIES = {"evolution"}     # ruling 61: an evolution opens with the printed sentence of its group heading ("2-Point Evolutions: The following ...")
+HEADING_FAMILIES: set[str] = set()     # HELD until the per-book map of ruling 61 lands (it is {"evolution"} there): the heuristic and its page ranges wait. Ruling 61: an evolution opens with the printed sentence of its group heading ("2-Point Evolutions: The following ...")
 
 
 def heading_blocks(bk, page: int) -> list:
@@ -314,6 +314,19 @@ def group_heading(e, blocks) -> tuple[str, int] | None:
     if not text.startswith("The following"):
         return None
     return f"{re.sub(chr(10), ' ', blocks[ti].plain()).strip()}: {text}", blocks[ti].page
+
+
+MULTI_FENCE = True                   # a multi-power entry holds until its window is anchored at the printed title of the entry (the item-3 PR lifts this)
+
+
+def fence(rows: list[dict], shape: str) -> list[dict]:
+    """Every row of a multi-power entry holds while the fence is up: the window of the cited page and the next three reads another entry's
+    head as this entry's power."""
+    if MULTI_FENCE and shape == "multi":
+        for r in rows:
+            r["status"] = "hold"
+            r["note"] = (r["note"] + "; " if r["note"] else "") + "multi-power window not anchored yet"
+    return rows
 
 
 def compare_one(e, book, bk, other=None) -> list[dict]:
@@ -382,12 +395,13 @@ def compare_one(e, book, bk, other=None) -> list[dict]:
         status, printed = r["status"], r["print"]
         anchor = pr[1] if pr else r["anchor"]
         anchors_seen[anchor] += 1
+        hard = False                                    # a hold that no decision lifts: it is a fact of the entry, not a difference with print
         if anchors_seen[anchor] > 1 or (anchor in taken and not pr):
             notes.append(f"anchor collision: {anchor}")
-            status = "hold"
+            status, hard = "hold", True
         if shape == "single" and fp.namekey(name) != fp.namekey(e.title) and fp.namekey(inverted(name)) != fp.namekey(e.title):
             notes.append("the power's name differs from the title of the entry")
-            status = "hold"
+            status, hard = "hold", True
         if problems:
             notes += problems
             status = "hold"
@@ -398,23 +412,23 @@ def compare_one(e, book, bk, other=None) -> list[dict]:
             gh = group_heading(e, heading_blocks(bk, page))
             if gh is None:
                 notes.append("no group heading found above the head")
-                status = "hold"
+                status, hard = "hold", True
             elif gh[1] > page:
                 notes.append(f"the group heading is on p. {gh[1]}, after the cited p. {page}")
-                status = "hold"
+                status, hard = "hold", True
             else:
                 printed = gh[0] + "\n\n" + printed
                 if gh[1] < page:
                     common["page"] = f"{gh[1]}-{page}"           # the sentence is on the page before: the entry cites both (ruling 61)
         decided = DECISIONS.get((e.id, anchor))
-        if decided and decided[0] == "print" and status == "hold" and r["status"] == "hold" and not problems:
+        if decided and decided[0] == "print" and status == "hold" and r["status"] == "hold" and not problems and not hard:
             status = "print"
             notes.append(f"decision: {decided[1]}")
         rows.append(dict(common, anchor=anchor, verdict=verdict, status=status,
                          level_import=r["level_import"] if r["level_import"] is not None else "",
                          level=level_of(r["print"]) or "", note="; ".join(notes)[:400], print=printed,
                          print_sha256=hashlib.sha256(printed.encode()).hexdigest()))
-    return rows
+    return fence(rows, shape)
 
 
 DECISIONS: dict[tuple[str, str], tuple[str, str]] = {}
@@ -637,7 +651,7 @@ def heading_keys(body: str) -> set[str]:
     for ln in body.split("\n"):
         m = re.match(r"^#{1,6}\s+(.*?)(?:\s*\{#([^}]+)\})?\s*$", ln)
         if m:
-            keys.add(m.group(2) or fp.slugify(m.group(1)))
+            keys.add(m.group(2) or "sec-" + fp.slugify(m.group(1)))              # a heading without a key has the derived key `sec-<slug>`
     return keys
 
 
@@ -674,9 +688,8 @@ def run_write(args) -> int:
         e.path.write_text("+++\n" + front.strip("\n") + "\n+++\n" + body, encoding="utf-8")
         for r in mine:
             r["status"] = LEDGER
+        write_tsv(tsv_file(corpus, book), rows)               # per entry: a failure on a later entry leaves the ledger as true as the entries
         converted += 1
-    if converted:
-        write_tsv(tsv_file(corpus, book), rows)
     print(f"converted {converted} entries")
     if converted and args.checker:
         import subprocess
@@ -738,8 +751,8 @@ def run_check(args) -> int:
                         errors.append(f"{eid}: written, but the printed text of `{r['anchor']}` is not in the entry")
                 continue
             if shape == "none":
-                if mine and any(r["status"] not in SETTLED + (LEDGER,) for r in mine):
-                    errors.append(f"{eid}: no import row is left, but the table has an unsettled row")
+                if mine and any(r["status"] != LEDGER for r in mine):
+                    errors.append(f"{eid}: no import row is left, but the table has a row that is not `written`")
                 continue
             if not mine:
                 pending += 1                  # a part of the book that no batch has compared yet: reported, not an error
@@ -786,6 +799,17 @@ def self_test() -> int:
     eq(group_heading(type("E", (), {"title": "Nothing"})(), blk), None, "ruling 61: a head that is not printed has no heading")
     eq(group_heading(type("E", (), {"title": "Bite"})(), blk[2:]), None, "ruling 61: no title above the head, no heading")
     eq(with_page('[[sources]]\npublication = "x"\npage = "62"\n\n[fields]\n', "61-62"), '[[sources]]\npublication = "x"\npage = "61-62"\n\n[fields]\n', "ruling 61: the page row becomes a range")
+    mr = [{"status": "print", "note": ""}, {"status": "draft", "note": "x"}]
+    eq([r["status"] for r in fence([dict(r) for r in mr], "multi")], ["hold", "hold"], "the fence holds every row of a multi-power entry")
+    eq([r["status"] for r in fence([dict(r) for r in mr], "single")], ["print", "draft"], "the fence leaves a single power")
+    eq(fence([dict(mr[0])], "multi")[0]["note"], "multi-power window not anchored yet", "the fence says why")
+    eq(HEADING_FAMILIES, set(), "the evolution group-heading heuristic is held until the per-book map lands")
+    # an import label row inside a power's span is part of the draft: print without it holds, print with it agrees (never dropped silently)
+    inner = "**Gift (Su)**\n\n**Ability:** A gift of sight.\n\n**Details:** Gorum guards it.\n"
+    _, ff = fp.parse_import(inner, set())
+    dd = fp.build_draft(ff[0])
+    eq((fp.compare_feature(dd, "A gift of sight.", set(), set()).status, fp.compare_feature(dd, "A gift of sight. Gorum guards it.", set(), set()).status), ("hold", "draft"),
+       "a label row inside a power's span holds when print lacks it")
     single = "\n**Animal Fury (Ex)**\n\n**Ability:** A bite attack.\n\n**Special:** A grapple.\n"
     multi = ("\n**Deities**\n\n**Details:** Gorum.\n\n### Revelations\n\nAn oracle can choose from the following.\n\n"
              "**Battlecry (Ex)**\n\n**Standard:** A cry.\n\n**Usage:** 1 time/day\n\n**At 10th level,** more.\n\n"
@@ -845,7 +869,7 @@ def self_test() -> int:
                              {s3[0]: "bloodline-arcana", s3[1]: "touch", s3[2]: "sec-final-revelation"})
     eq("### Bloodline Arcana {#bloodline-arcana}" in body3 and "#### Touch (Su) {#touch}" in body3, True, "a power before the first section takes the section's level")
     eq("### Final Revelation (Su) {#sec-final-revelation}" in body3 and "### Final Revelation\n" not in body3, True, "the Final Revelation heading is the head of the power")
-    eq(heading_keys(sec) <= heading_keys(body3) | {"final-revelation"}, True, "the keys of the headings stay (the promoted one by its written key)")
+    eq(heading_keys(sec) <= heading_keys(body3), True, "the keys of the headings stay (the promoted one by its written, derived key)")
     one = "\n### Special\n\n**Gift (Su)**\n\n**Ability:** A gift.\n"
     class E3:
         body = one
