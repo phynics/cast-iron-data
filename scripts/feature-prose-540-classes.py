@@ -1165,7 +1165,7 @@ NOT_FEATURE_HEADINGS = {fp.squash(x) for x in (
     "Weapon and Armor Proficiency", "Skills", "Alignment", "Weapon and Armor Proficiencies", "Weapon Proficiencies", "Armor Proficiency", "Armor Proficiencies",
     "Skill Ranks per Level", "Class Skills", "Armor Proficiency and Class Skills")}
 # Level-4 sections that print sets behind the class features: sections of the page, no class features: (class entry, key)
-NOT_CLASS_FEATURES = {("ref/class/antipaladin", "code-of-conduct"), ("ref/class/antipaladin", "associates")}
+NOT_CLASS_FEATURES = {(c["id"], fp.slugify(t)) for c in MANIFEST.get("class", []) for t in c.get("sections_behind", [])}        # the manifest's `sections_behind`: the Antipaladin's and the Paladin's
 LEVEL_LEAD = re.compile(r"^(?:starting at |beginning at |starting with |at )(\d+)(?:st|nd|rd|th)\s+level\b", re.I)
 
 
