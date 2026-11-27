@@ -80,6 +80,43 @@ rw = _load("rewrite_class_option_powers", "rewrite-class-option-powers.py")
 fp.LOOSE_ITEMS["on"] = True      # ruling 60: the loose reading of a prerequisite item (every word, any order, a sentence with "must" or "only available")
 fp.IMPORT_HEAD_FIXES[("ref/vigtalent/expose-weaknesses", "Expose Weaknesses (Ex)")] = "Expose Weakness (Ex)"  # print p. 14; the entry title agrees with print
 fp.IMPORT_HEAD_FIXES[("ref/vigtalent/environmental-weapon", "Environmental Weapon (Ex)")] = "Environment Weapon (Ex)"  # print p. 14; the import head has an extra syllable
+fp.IMPORT_HEAD_FIXES[("ref/phrenicamp/complex-countermeasures", "Complex Countermeasures (Ex)")] = "Complex Countermeasure (Ex)"  # Occult Adventures p. 60; the import head has a plural s absent from print
+
+# The PDF text layer interleaves these paragraphs with the adjacent psychic tables on pp. 61–63.
+# These print-checked transcriptions keep the table out of the single-power text.
+PRINT_TEXT_OVERRIDES = {
+    ("occult-adventures", "ref/phrenicamp/mimic-metamagic"): (
+        "When the psychic gains this amplification, she chooses two metamagic feats; she need not have these feats to select them. "
+        "When she casts a spell, she can spend points from her phrenic pool to apply one of the chosen feats to the linked spell "
+        "without increasing the spell's level or casting time. She must spend a number of points equal to double the number of levels "
+        "by which the feat normally increases a spell's level (minimum 2 points). If the metamagic feat alters the spell's casting time "
+        "in a different way than the standard rules for a spontaneous caster using a metamagic feat (as in the case of "
+        "[Quicken Spell](ref/feat/quicken-spell)), it changes the casting time accordingly. The psychic can still apply metamagic feats "
+        "she knows to the spell while using this amplification, increasing the casting time and spell level as normal. This amplification "
+        "can be applied only to a spell that the chosen metamagic feat could normally affect, and only if the spellcaster can cast spells "
+        "of a high enough level that she would be able to apply the metamagic feat in question to the linked spell. For example, an "
+        "11th-level psychic could spend 8 points to _quicken_ a 1st-level spell, but couldn't _quicken_ a 2nd-level spell because she's "
+        "unable to cast 6th-level spells. This ability doesn't require her to have any free spell slots in the relevant level, however, "
+        "so the psychic in the example could _quicken_ a 1st-level spell even if she had cast all her 5th-level spells for the day. "
+        "A psychic can select this amplification multiple times, adding two additional options to the list of metamagic feats she can apply "
+        "using this amplification each time."
+    ),
+    ("occult-adventures", "ref/phrenicamp/ongoing-defense"): (
+        "The psychic can increase the duration of spells that improve her psychic defenses. She can spend 1 point from her phrenic pool "
+        "when she casts any _[intellect fortress](ref/spell/intellect-fortress-1)_, _[mental barrier](ref/spell/mental-barrier-1)_, "
+        "_[thought shield](ref/spell/thought-shield-1)_, or _[tower of iron will](ref/spell/tower-of-iron-will-1)_ spell to extend the "
+        "spell's duration by 1 round."
+    ),
+    ("occult-adventures", "ref/phrenicamp/undercast-surge"): (
+        "When the psychic [undercasts](ref/rule/undercasting-spells) a spell (see page 144), she can spend points from her phrenic pool "
+        "to increase the spell's effective level, essentially using up a lower-level spell slot to cast a higher-level version of the spell. "
+        "This costs 2 points per spell level increased. She can't use this ability to cast a version higher than the version she knows. "
+        "For instance, a psychic who knows _[mind thrust III](ref/spell/mind-thrust-3)_ but not _[mind thrust IV](ref/spell/mind-thrust-4)_ "
+        "could cast _[mind thrust II](ref/spell/mind-thrust-2)_ and spend 2 points to treat it as _[mind thrust III](ref/spell/mind-thrust-3)_, "
+        "but couldn't spend 4 points to treat it as _[mind thrust IV](ref/spell/mind-thrust-4)_. This amplification can be linked only to "
+        "spells that can be undercast."
+    ),
+}
 
 HEADER = ["entry", "feature", "anchor", "shape", "section", "book", "page", "level_import", "level", "by", "ability_tag", "verdict",
           "reviewed_537", "status", "links_lost", "print_sha256", "span_sha256", "note"]
@@ -1480,6 +1517,9 @@ def run_audit(args) -> int:
             continue
         for pf in mine:
             printed = " ".join("".join(x[0] for x in para) for para in pf.paras)
+            override = PRINT_TEXT_OVERRIDES.get((book, e.id))
+            if override is not None:
+                printed = re.sub(r"\[([^\]]+)\]\([^)]+\)", r"\1", override)
             if book == "core-rulebook":
                 printed = clean_core_rulebook_print(e.id, printed)
             lost = print_lost(printed, e.body, errata_fixes(corpus, e.id))
@@ -1591,6 +1631,13 @@ def run_compare(args) -> int:
         if shape_of(e.body)[0] == "none":
             continue
         for r in compare_one(e, book, bk, other):
+            override = PRINT_TEXT_OVERRIDES.get((book, e.id))
+            if override is not None:
+                r["print"] = override
+                r["print_sha256"] = hashlib.sha256(override.encode()).hexdigest()
+                r["status"] = "print"
+                r["verdict"] = "differ"
+                r["note"] = "print transcription checked against the two-column page; the PDF text layer interleaves a neighboring table"
             if r.get("print"):
                 r["print"] = proposal_print(book, r["print"])
                 props.setdefault(e.id, {"id": e.id, "feature": []})["feature"].append(
@@ -2249,6 +2296,17 @@ def self_test() -> int:
     eq(counts_for_duplicate_check({"shape": "single", "status": "hold", "note": "window is not anchored"}), True, "a single-power hold still participates in duplicate checks")
     eq(fp.import_name("ref/vigtalent/expose-weaknesses", "Expose Weaknesses (Ex)"), "Expose Weakness (Ex)", "Ultimate Intrigue p. 14: printed singular head matches its entry title")
     eq(fp.import_name("ref/vigtalent/environmental-weapon", "Environmental Weapon (Ex)"), "Environment Weapon (Ex)", "Ultimate Intrigue p. 14: the misspelled import head matches the entry title")
+    eq(fp.import_name("ref/phrenicamp/complex-countermeasures", "Complex Countermeasures (Ex)"), "Complex Countermeasure (Ex)", "Occult Adventures p. 60: printed singular head matches its entry title")
+    eq(PRINT_TEXT_OVERRIDES["occult-adventures", "ref/phrenicamp/mimic-metamagic"].startswith("When the psychic gains this amplification"), True,
+       "Occult Adventures p. 63 table interruption is replaced with the printed prose")
+    eq("Table 1–8" in PRINT_TEXT_OVERRIDES["occult-adventures", "ref/phrenicamp/mimic-metamagic"], False,
+       "the Psychic Spells Known table is not part of Mimic Metamagic")
+    eq("Table 1–7" in PRINT_TEXT_OVERRIDES["occult-adventures", "ref/phrenicamp/ongoing-defense"], False,
+       "the Psychic class table is not part of Ongoing Defense")
+    eq("see page 144" in PRINT_TEXT_OVERRIDES["occult-adventures", "ref/phrenicamp/undercast-surge"], True,
+       "Occult Adventures p. 62 keeps the printed page reference")
+    eq(PRINT_TEXT_OVERRIDES.get(("ultimate-magic", "ref/phrenicamp/mimic-metamagic")), None,
+       "the Occult Adventures table correction does not affect another book")
     eq(single_name_matches_title("ref/vigtalent/expose-weaknesses", "Expose Weakness", "Expose Weaknesses (Ex)"), True, "a printed singular head can match the exact entry title through its import-head correction")
     eq(single_name_matches_title("ref/vigtalent/environmental-weapon", "Environment Weapon", fp.import_name("ref/vigtalent/environmental-weapon", "Environmental Weapon (Ex)")), True, "Ultimate Intrigue p. 14: the printed title matches after the import-head correction")
     eq(INVERTED_HEAD.match("Beast Totem, Greater (Su)").groups(), ("Beast Totem", "Greater", " (Su)"), "the inverted head is read")

@@ -27,6 +27,13 @@ def load(name: str, path: Path):
 CLASS_OPTIONS = load("class_options_for_sentence_audit", HERE.parent / "feature-prose-540-class-options.py")
 
 
+def printed_head_names(ledger: list[dict], entries: dict, entry_id: str) -> list[str]:
+    """Include titles of options outside the rewrite, so their printed heads still bound adjacent text."""
+    return ([row["feature"] for row in ledger]
+            + [entry.title for entry in entries.values()]
+            + CLASS_OPTIONS.fp.ITALIC_HEADS.get(entry_id, []))
+
+
 def plain(text: str) -> str:
     text = re.sub(r"\[([^\]]+)\]\([^)]+\)", r"\1", text)
     text = re.sub(r"\\([*])", r"\1", text)
@@ -103,8 +110,9 @@ def extract_print(corpus: Path, book: str, books_dir: Path, cache_dir: Path) -> 
     with ledger_path.open(encoding="utf-8", newline="") as f:
         ledger = list(csv.DictReader(f, delimiter="\t"))
     written = [row for row in ledger if row["status"] == "written" and row["shape"] == "single"]
-    options.install_split([row["feature"] for row in ledger])
     entries = {entry.id: entry for entry in options.load_class_options(corpus, book)}
+    printed_names = printed_head_names(ledger, entries, "")
+    options.install_split(printed_names)
 
     intro_specs = options.INTRO_MARK_SPECS.get(book, {})
     for family, (marker, prefer) in intro_specs.items():
@@ -121,7 +129,7 @@ def extract_print(corpus: Path, book: str, books_dir: Path, cache_dir: Path) -> 
         blocks = fp.read_blocks(source, max(1, page + fp.PAGE_OFFSET[0] - 1),
                                 min(last_page + 2 + fp.PAGE_OFFSET[0], max(source.pages)))
         section = [fp.Para("title", [(entry.title, True, False)], page, 0, 20)] + blocks
-        _, printed = fp.split_print(section, [r["feature"] for r in ledger] + fp.ITALIC_HEADS.get(entry.id, []))
+        _, printed = fp.split_print(section, printed_head_names(ledger, entries, entry.id))
         wanted = fp.import_name(entry.id, row["feature"])
         wanted_key = fp.namekey(fp.ABILITY_TAG.sub("", wanted))
         matches = [feature for feature in printed
@@ -132,6 +140,7 @@ def extract_print(corpus: Path, book: str, books_dir: Path, cache_dir: Path) -> 
         links = re.findall(r"\[([^\]]+)\]\(([^)]+)\)", entry.body)
         vocab = source.vocab | {w.lower() for w in re.findall(r"[A-Za-z]+(?:-[A-Za-z]+)*", entry.body)}
         text, _, _ = fp.print_md(feature, links, vocab, entry.id)
+        text = options.PRINT_TEXT_OVERRIDES.get((book, entry.id), text)
         family = entry.id.split("/")[1]
         if row["note"] and "opens with print's sentence about the mark" in row["note"]:
             intro = options.marked_head_intro(book, entry.id)
@@ -175,6 +184,14 @@ def self_test() -> int:
     ]:
         if not eq(sentences_match(left, right), expected, label):
             return 1
+
+    class Entry:
+        def __init__(self, title):
+            self.title = title
+
+    if not eq(printed_head_names([{"feature": "Free in Body"}], {"x": Entry("Greater Mask Misery")}, "x"),
+              ["Free in Body", "Greater Mask Misery"], "printed heads include the title of an out-of-scope no-import option"):
+        return 1
     if not eq(tags_match("", "Ex", ""), False, "imported tag absent from print" ):
         return 1
     if not eq(tags_match("Su", "Su", "Su"), True, "printed tag agrees across print, ledger, and entry"):

@@ -13,10 +13,9 @@ page = "61"
 [fields]
 kind = "class_option"
 group = "phrenic-amplification"
+ability_type = "Ex"
 +++
 
-**Intense Focus (Ex)**
-
-**Ability:** The psychic can spend 1 point from her phrenic pool to gain a +2 bonus on any
-concentration check she attempts as part of casting the linked spell. She can choose to spend 2
-points from her phrenic pool to instead gain a +4 bonus.
+The psychic can spend 1 point from her phrenic pool to gain a +2 bonus on any concentration check
+she attempts as part of casting the linked spell. She can choose to spend 2 points from her phrenic
+pool to instead gain a +4 bonus.

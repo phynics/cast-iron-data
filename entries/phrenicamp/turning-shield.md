@@ -13,12 +13,10 @@ page = "64"
 [fields]
 kind = "class_option"
 group = "phrenic-amplification"
+ability_type = "Su"
 +++
 
-**Turning Shield (Su)**
-
-**Flavor:** The psychic can turn her excess spell energy into a barrier that deflects weaker spells.
-
-**Ability:** She can spend a number of points from her phrenic pool equal to the linked spell's
-level to gain the benefit of [spell turning](ref/spell/spell-turning) for 1 round per psychic level.
-The number of spell levels she can turn is equal to the level of the linked spell.
+The psychic can turn her excess spell energy into a barrier that deflects weaker spells. She can
+spend a number of points from her phrenic pool equal to the linked spell's level to gain the benefit
+of _[spell turning](ref/spell/spell-turning)_ for 1 round per psychic level. The number of spell
+levels she can turn is equal to the level of the linked spell.

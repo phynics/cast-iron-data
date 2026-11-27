@@ -15,20 +15,9 @@ kind = "class_option"
 group = "mesmerist-trick"
 +++
 
-**Compel Alacrity**
-
-**Flavor:** A dash of mental speed lets the subject push past her physical limits to avoid an enemy.
-
-**Ability:** The mesmerist can trigger this trick when the subject begins her turn within an enemy's
-reach. The subject can move 10 feet as a **free action** without provoking attacks of opportunity.
-
-**At 5th level,** the subject can move 15 feet as a free action.
-
-**At 10th level,** the subject can move 20 feet as a free action.
-
-**At 15th level,** the subject can move 25 feet as a free action.
-
-**At 20th level,** the subject can move 30 feet as a free action.
-
-**Special:** The subject can't move farther than her speed in this way. The movement from this trick
-doesn't count against the subject's movement speed for that round.
+A dash of mental speed lets the subject push past her physical limits to avoid an enemy. The
+mesmerist can trigger this trick when the subject begins her turn within an enemy's reach. The
+subject can move 10 feet as a free action without provoking attacks of opportunity. The distance the
+subject can move increases by 5 feet for every 5 levels the mesmerist possesses, to a maximum of 30
+feet at 20th level. The subject can't move farther than her speed in this way. The movement from
+this trick doesn't count against the subject's movement speed for that round.

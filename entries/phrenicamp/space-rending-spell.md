@@ -13,13 +13,10 @@ page = "63"
 [fields]
 kind = "class_option"
 group = "phrenic-amplification"
+ability_type = "Su"
 +++
 
-**Space-rending Spell (Su)**
-
-**Flavor:** The psychic can warp space with her mind, teleporting herself as she casts her linked
-spell.
-
-**Ability:** She teleports herself 10 feet per point she spends from her phrenic pool (as
-[dimension door](ref/spell/dimension-door)). The maximum number of points she can spend in this way
-is equal to the linked spell's level.
+The psychic can warp space with her mind, teleporting herself as she casts her linked spell. She
+teleports herself 10 feet per point she spends from her phrenic pool (as
+_[dimension door](ref/spell/dimension-door)_). The maximum number of points she can spend in this
+way is equal to the linked spell's level.

@@ -13,13 +13,12 @@ page = "61"
 [fields]
 kind = "class_option"
 group = "phrenic-amplification"
+ability_type = "Su"
 +++
 
-**Ongoing Defense (Su)**
-
-**Ability:** The psychic can increase the duration of spells that improve her psychic defenses. She
-can spend 1 point from her phrenic pool when she casts any
-[intellect fortress](ref/spell/intellect-fortress-1), [mental barrier](ref/spell/mental-barrier-1),
-[thought shield](ref/spell/thought-shield-1), or
-[tower of iron will](ref/spell/tower-of-iron-will-1) spell to extend the spell's duration by 1
+The psychic can increase the duration of spells that improve her psychic defenses. She can spend 1
+point from her phrenic pool when she casts any
+_[intellect fortress](ref/spell/intellect-fortress-1)_,
+_[mental barrier](ref/spell/mental-barrier-1)_, _[thought shield](ref/spell/thought-shield-1)_, or
+_[tower of iron will](ref/spell/tower-of-iron-will-1)_ spell to extend the spell's duration by 1
 round.

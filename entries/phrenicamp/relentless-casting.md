@@ -13,13 +13,10 @@ page = "62"
 [fields]
 kind = "class_option"
 group = "phrenic-amplification"
+ability_type = "Su"
 +++
 
-**Relentless Casting (Su)**
-
-**Ability:** The psychic can spend 1 point from her phrenic pool to roll twice on any caster level
-checks to overcome [spell resistance](ref/rule/spell-resistance) required for the linked spell and
-take the better result.
-
-**Special:** Because she must decide to spend points from her phrenic pool when she starts casting a
-spell, the psychic must decide to use this ability before the GM calls for the caster level check.
+The psychic can spend 1 point from her phrenic pool to roll twice on any caster level checks to
+overcome [spell resistance](ref/rule/spell-resistance) required for the linked spell and take the
+better result. Because she must decide to spend points from her phrenic pool when she starts casting
+a spell, the psychic must decide to use this ability before the GM calls for the caster level check.
