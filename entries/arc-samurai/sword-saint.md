@@ -16,92 +16,64 @@ page = "22"
 
 [fields]
 kind = "archetype"
+features = [
+  { anchor = "iaijutsu-strike", level = 1 },
+  { anchor = "brutal-slash", level = 3 },
+  { anchor = "terrifying-iaijutsu", level = 5 },
+  { anchor = "roaring-iaijutsu", level = 14 },
+]
 trades = [
-  { replaces = "Mount", feature = "mount" },
-  { replaces = "Mounted charge" },
-  { replaces = "Banner", feature = "banner" },
-  { replaces = "Greater banner", feature = "greater-banner" },
+  { replaces = "Mount", feature = "mount", by = ["iaijutsu-strike"] },
+  { replaces = "Mounted charge", by = ["brutal-slash"] },
+  { replaces = "Banner", feature = "banner", by = ["terrifying-iaijutsu"] },
+  { replaces = "Greater banner", feature = "greater-banner", by = ["roaring-iaijutsu"] },
 ]
 +++
 
 Sword saints hail from lands where samurai are prevalent, and are often [ronin](ref/order/ronin) who
 wander the world seeking new challenges to perfect their intricate style of swordplay called
-iaijutsu. The following benefits apply only when a sword saint is using a sword and carrying nothing
-in his other hand.
+_iaijutsu_. The following benefits apply only when a sword saint is using a sword and carrying
+nothing in his other hand. The sword saint is an archetype of the samurai alternate class (_Ultimate
+Combat_ 18).
 
-**Iaijutsu Strike (Ex)**
+## Iaijutsu Strike (Ex) {#iaijutsu-strike}
 
-**Ability:** After the sword saint has _challenged_ a foe but before he has attacked the target of
-his _challenge,_ he may choose to use his _iaijutsu strike_ as a **full-round action**, making an
-attack roll with his weapon as normal. In order to use this ability, the sword saint's weapon must
-be sheathed at the start of his turn. If he successfully hits his opponent with an _iaijutsu
-strike,_ his attack deals an additional +1d6 points of damage.
+A sword saint can perform a lightning-quick iaijutsu strike against the target of his challenge to
+inflict devastating wounds while drawing his sword. After the sword saint has challenged a foe but
+before he has attacked the target of his challenge, he may choose to use his iaijutsu strike as a
+full-round action, making an attack roll with his weapon as normal. In order to use this ability,
+the sword saint's weapon must be sheathed at the start of his turn. If he successfully hits his
+opponent with an iaijutsu strike, his attack deals an additional +1d6 points of damage. This bonus
+damage increases by an additional +1d6 at 3rd level and every two levels thereafter to a maximum of
++10d6 damage at 19th level. Any extra damage as a result of a successful iaijutsu strike is not
+multiplied by a critical hit.
 
-**Flavor:** A sword saint can perform a lightning-quick _iaijutsu strike_ against the target of his
-_challenge_ to inflict devastating wounds while drawing his sword.
+After making an iaijutsu strike, a sword saint takes a -4 penalty to his AC until his next turn, but
+his weapon is now drawn and he may continually to fight normally. Regardless of whether he hits his
+opponent with the iaijutsu strike, a sword saint cannot use this ability on the same foe more than
+once per day.
 
-**At 10th Level:** A sword saint learns to focus faster and is able to make an _iaijutsu strike_ as
-a **standard action**, and the penalty to his AC is reduced to -2.
+At 10th level, a sword saint learns to focus faster and is able to make an iaijutsu strike as a
+standard action, and the penalty to his AC is reduced to -2.
 
-**Info:** After making an _iaijutsu strike,_ a sword saint takes a -4 penalty to his AC until his
-next turn, but his weapon is now drawn and he may continually to fight normally. Regardless of
-whether he hits his opponent with the _iaijutsu strike,_ a sword saint cannot use this ability on
-the same foe more than once per day.
+This ability replaces a samurai's mount.
 
-**Replaces:** Mount
+## Brutal Slash (Ex) {#brutal-slash}
 
-**Special:** Any extra damage as a result of a successful _iaijutsu strike_ is not multiplied by a
-critical hit.
+At 3rd level, a sword saint's iaijutsu strike becomes even more deadly. If a sword saint threatens a
+critical hit with his iaijutsu strike, he adds a bonus equal to 1/2 his class level to the attack
+roll to confirm a critical hit. This ability replaces mounted charge.
 
-At 3rd level: The bonus damage increases to 2d6.
+## Terrifying Iaijutsu (Ex) {#terrifying-iaijutsu}
 
-At 5th level: The bonus damage increases to 3d6.
+At 5th level, a sword saint's iaijutsu strike devastates the morale of foes that witness it. When a
+sword saint successfully hits with an iaijutsu strike, all foes within 30 feet must succeed at a
+Will save (DC 10 + 1/2 the sword saint's class level + the sword saint's Cha modifier) or become
+[shaken](ref/misc/shaken) for 1d4+1 rounds. This ability replaces banner.
 
-At 7th level: The bonus damage increases to 4d6.
+## Roaring Iaijutsu (Ex) {#roaring-iaijutsu}
 
-At 9th level: The bonus damage increases to 5d6.
-
-At 11th level: The bonus damage increases to 6d6.
-
-At 13th level: The bonus damage increases to 7d6.
-
-At 15th level: The bonus damage increases to 8d6.
-
-At 17th level: The bonus damage increases to 9d6.
-
-At 19th level: The bonus damage increases to 10d6.
-
-**Brutal Slash (Ex)**
-
-**Ability:** If a sword saint threatens a critical hit with his _iaijutsu strike,_ he adds a bonus
-equal to 1/2 his class level to the attack roll to confirm a critical hit.
-
-**Flavor:** A sword saint's _iaijutsu strike_ becomes even more deadly.
-
-**Gained:** At 3rd Level
-
-**Replaces:** Mounted charge
-
-**Terrifying Iaijutsu (Ex)**
-
-**Ability:** When a sword saint successfully hits with an _iaijutsu strike,_ all foes within 30 feet
-must succeed at a Will save (DC 10 + 1/2 the sword saint's class level + the sword saint's Cha
-modifier) or become [shaken](ref/misc/shaken) for 1d4+1 rounds.
-
-**Flavor:** A sword saint's _iaijutsu strike_ devastates the morale of foes that witness it.
-
-**Gained:** At 5th Level
-
-**Replaces:** Banner
-
-**Roaring Iaijutsu (Ex)**
-
-**Ability:** When a sword saint successfully hits with an _iaijutsu strike,_ all foes within 30 feet
-must succeed at a Fortitude save (DC 10 + 1/2 the sword saint's class level + the sword saint's Str
-modifier) or be [deafened](ref/misc/deafened) for 1d4 minutes.
-
-**Flavor:** A sword saint's _iaijutsu strike_ deafens foes upon impact.
-
-**Gained:** At 14th Level
-
-**Replaces:** Greater banner
+At 14th level, a sword saint's iaijutsu strike deafens foes upon impact. When a sword saint
+successfully hits with an iaijutsu strike, all foes within 30 feet must succeed at a Fortitude save
+(DC 10 + 1/2 the sword saint's class level + the sword saint's Str modifier) or be
+[deafened](ref/misc/deafened) for 1d4 minutes. This ability replaces greater banner.

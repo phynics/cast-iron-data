@@ -1,0 +1,52 @@
+[[edit]]
+entry = "ref/arc-inquisitor/suit-seeker"
+anchor = "improvised-array"
+note = "hand-written from print (The Harrow Handbook pp. 22-23): the table of suits, judgments and abilities stands in the paragraph, and the text layer runs its rows into the sentence; the table is the printed table (no title), set between the paragraph and the sentence that follows it, as print sets it. The closing sentence of the ability (\"This ability modifies judgment, second judgment, and third judgment.\"), which print sets after Smiting and Resiliency, ends the text here (decision tail-to of Resiliency)."
+text = '''
+The suit seeker can call upon the harrow to help her choose an appropriate judgment and bolster her effectiveness with that judgment. As part of activating her judgment ability, the suit seeker can draw an impromptu array of two cards from a complete [harrow deck](ref/eq-misc/harrow-deck) she owns. Once drawn, the array remains the same until the judgment effect ends, though the inquisitor can change her judgment at any time as a swift action, as normal. The act of drawing an improvised array requires a free hand, though the suit seeker can keep a drawn array in her belt or otherwise on her person to perform actions with both hands while still maintaining the cards' benefits.
+
+At 1st level, as long as the suit seeker has at least one card in her improvised array that matches her current judgment, she increases her effective inquisitor level by a number of levels equal to the number of matching cards for the purpose of determining that judgment's effects. At 8th level, when a suit seeker gains her second judgment, she can forgo pronouncing a second judgment and instead draw four cards for her improvised array. At 16th level, she can forgo pronouncing a second and third judgment and instead draw up to six cards for her improvised array, or she can forgo only her third judgment and draw an array of four cards.
+
+In addition to increasing her effective inquisitor level for the purpose of the corresponding judgment, a suit seeker with three or more cards of the same suit in her improvised array gains immunity to [ability damage](ref/rule/ability-damage-drain) to the corresponding ability score. A suit seeker with five or more cards of the same suit in her improvised array gains a +4 enhancement bonus to the corresponding ability score. These benefits last until the suit seeker's judgment effect ends.
+
+|Suit|Judgment|Ability|
+| --- | --- | --- |
+|Books|Piercing|Intelligence|
+|Crowns|Smiting|Charisma|
+|Hammers|Destruction|Strength|
+|Keys|Protection|Dexterity|
+|Shields|Resiliency|Constitution|
+|Stars|Healing|Wisdom|
+
+A suit seeker does not gain access to and cannot use the justice, resistance, or purity judgments. A suit seeker makes the following adjustments to her judgments.
+
+This ability modifies judgment, second judgment, and third judgment.
+'''
+
+[[edit]]
+entry = "ref/arc-inquisitor/suit-seeker"
+anchor = "unravel-array"
+note = "hand-written from print (The Harrow Handbook p. 23): the sidebar Story of the Sickness stands in the right column between the first lines of the ability (end of the left column) and the rest of it, and the span of the extraction ends at the sidebar; the text is the printed paragraph, whole, with the sidebar left out (it is a story of the chapter, not part of the archetype)."
+text = '''
+At 20th level, a suit seeker can tear apart a target's place in destiny, rendering the creature immobile or possibly dead. As long as she has an improvised array drawn, the suit seeker can destroy one of the cards in her array and designate a single creature within 30 feet as the target of the harrow's magic. The designated creature must succeed at a Will save (DC 10 + 1/2 the inquisitor's level + the inquisitor's Wisdom modifier) or one of its ability scores is immediately reduced to 0, which can immobilize, render unconscious, or kill the creature. The ability score reduced corresponds to the ability score of the card destroyed.
+
+Regardless of whether or not the target succeeds at its save, it becomes immune to the inquisitor's unravel array ability for 24 hours. Once this ability has been used, it cannot be used again for 1d4 rounds. The destroyed harrow card is removed from the harrow deck. The suit seeker can continue to use the reduced deck for the purpose of her suit seeker powers as long as she wants, though she has no chance of drawing the destroyed card until she purchases a new harrow deck.
+
+This ability replaces true judgment.
+'''
+
+[[edit]]
+entry = "ref/arc-summoner/story-summoner"
+anchor = "summon-arcana"
+note = "hand-written from print (The Harrow Handbook p. 25): the sidebar Story of the Rakshasa stands in the right column between the end of the left column (\"This ability allows\") and the rest of the ability, and the span of the extraction ends at the sidebar; the text is the printed paragraph, whole, with the sidebar left out."
+text = '''
+At 2nd level, a story summoner can use a complete harrow deck he owns as an additional focus component for his _[summon monster](ref/spell/summon-monster)_ [spell-like ability](ref/umr/spell-like-abilities). When he does so, the summoner draws a random card from the deck and applies a simple template to the summoned monster based on the card's alignment: [celestial](ref/template/celestial) (any good), [fiendish](ref/template/fiendish) (any evil), [resolute](ref/template/resolute) (any lawful), or [entropic](ref/template/entropic) (any chaotic). If a card has more than one alignment—such as a lawful evil or chaotic good card—the summoner can choose which template to apply to the summoned creature. This ability allows a story summoner to summon and command creatures normally prohibited by their alignment. This ability replaces bond senses.
+'''
+
+[[edit]]
+entry = "ref/arc-summoner/story-summoner"
+anchor = "evolve-base-form"
+note = "hand-written from print (The Harrow Handbook p. 25): the head is printed \"Evolve Base Form(Su):\" without a blank before the tag, which the extraction does not read as a head, and it stands after the sidebar Story of the Rakshasa (see Summon Arcana)."
+text = '''
+Starting at 8th level, whenever he gains a level, the story summoner can change his eidolon's base form to a new base form. Once chosen, this base form is set until the story summoner gains another summoner level. This ability replaces transposition.
+'''

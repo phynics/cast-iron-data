@@ -16,11 +16,17 @@ page = "7"
 
 [fields]
 kind = "archetype"
+features = [
+  { anchor = "idiot-strike", level = 1 },
+  { anchor = "mute-hag-stance", level = 9 },
+  { anchor = "big-sky-stance", level = 11 },
+  { anchor = "eclipse-strike", level = 15 },
+]
 trades = [
-  { replaces = "Stunning fist", feature = "stunning-fist" },
-  { replaces = "Improved evasion", feature = "improved-evasion" },
-  { replaces = "Diamond body", feature = "diamond-body" },
-  { replaces = "Quivering palm", feature = "quivering-palm" },
+  { replaces = "Stunning fist", feature = "stunning-fist", by = ["idiot-strike"] },
+  { replaces = "Improved evasion", feature = "improved-evasion", by = ["mute-hag-stance"] },
+  { replaces = "Diamond body", feature = "diamond-body", by = ["big-sky-stance"] },
+  { replaces = "Quivering palm", feature = "quivering-palm", by = ["eclipse-strike"] },
 ]
 +++
 
@@ -29,66 +35,43 @@ people. The harrow warden fulfills this role as she seeks to bring her mind and 
 and she protects her people by invoking the folklore that has guided them for so long. In mastering
 her own place in fate, a harrow warden learns how to misalign the destinies of others.
 
-**Weapon and Armor Proficiency**
+## Weapon and Armor Proficiency {#weapon-and-armor-proficiency}
 
-**Info:** The harrow warden is proficient with all simple weapons, as well as with the
+The harrow warden is proficient with all simple weapons, as well as with the
 [klar](ref/eq-armor/klar), [rapier](ref/eq-weapon/rapier), [short sword](ref/eq-weapon/short-sword),
 and [starknife](ref/eq-weapon/starknife). Additionally, harrow wardens treat starknives as monk
 weapons.
 
-**Idiot Strike (Su)**
+## Idiot Strike (Su) {#idiot-strike}
 
-**Ability:** The harrow warden can make an unarmed strike against a target and curse the creature
-with bad luck. Foes damaged by an _idiot strike_ must succeed at a Will save (DC 10 + 1/2 the monk's
+At 1st level, the harrow warden can make an unarmed strike against a target and curse the creature
+with bad luck. Foes damaged by an idiot strike must succeed at a Will save (DC 10 + 1/2 the monk's
 level + the monk's Wisdom modifier) or become jinxed. A jinxed creature must roll twice whenever it
 attempts an attack roll, a saving throw, a skill check, or a caster level check for 1 round, taking
-the lower result in each instance. She must declare that she is using an _idiot strike_ before
-making the attack roll; thus, a failed roll wastes the attempt.
+the lower result in each instance. The harrow warden can use idiot strike once per day per monk
+level. She must declare that she is using an idiot strike before making the attack roll; thus, a
+failed roll wastes the attempt. At 4th level and again at 12th level, the jinx effect lasts an
+additional round. At 16th level, a harrow warden can expend two uses of idiot strike to instead
+curse her target as the _[bestow curse](ref/spell/bestow-curse)_ spell.
 
-**At 12th Level:** The jinxed condition lasts for 3 rounds.
+This ability replaces stunning fist.
 
-**At 16th Level:** A harrow warden can expend two uses of _idiot strike_ to instead curse her target
-as the [bestow curse](ref/spell/bestow-curse) spell.
+## Mute Hag Stance (Su) {#mute-hag-stance}
 
-**At 4th Level:** The jinxed condition lasts for 2 rounds.
+Beginning at 9th level, the harrow warden can block opponents' metaphysical ties to one another.
+Enemies threatened by the harrow warden do not gain the effects of any morale or insight bonuses on
+attack rolls or skill checks as long as they are within the harrow warden's threatened area. This
+ability replaces improved evasion.
 
-**Gained:** At 1st Level
+## Big Sky Stance (Su) {#big-sky-stance}
 
-**Replaces:** Stunning fist
+At 11th level, the harrow warden becomes secure in her role within the larger story. She gains
+immunity to curses and polymorph effects. This ability replaces diamond body.
 
-**Usage:** 1 time/day per monk level
+## Eclipse Strike (Su) {#eclipse-strike}
 
-**Mute Hag Stance (Su)**
-
-**Flavor:** The harrow warden can block opponents' metaphysical ties to one another.
-
-**Gained:** At 9th Level
-
-**Passive:** Enemies threatened by the harrow warden do not gain the effects of any morale or
-insight bonuses on attack rolls or skill checks as long as they are within the harrow warden's
-threatened area.
-
-**Replaces:** Improved evasion
-
-**Big Sky Stance (Su)**
-
-**Flavor:** The harrow warden becomes secure in her role within the larger story.
-
-**Gained:** At 11th Level
-
-**Passive:** She gains immunity to curses and polymorph effects.
-
-**Replaces:** Diamond body
-
-**Eclipse Strike (Su)**
-
-**Ability:** Foes damaged by the harrow warden's _idiot strike_ can attempt a Fortitude save (DC
-10 + 1/2 the monk's level + the monk's Wisdom modifier). Those that fail are transmuted into a
-harmless form, as per the [baleful polymorph](ref/spell/baleful-polymorph) spell.
-
-**Flavor:** The harrow warden can strike a target with enough force to realign its place in the
-world.
-
-**Gained:** At 15th Level
-
-**Replaces:** Quivering palm
+Beginning at 15th level, the harrow warden can strike a target with enough force to realign its
+place in the world. Foes damaged by the harrow warden's idiot strike can attempt a Fortitude save
+(DC 10 + 1/2 the monk's level + the monk's Wisdom modifier). Those that fail are transmuted into a
+harmless form, as per the _[baleful polymorph](ref/spell/baleful-polymorph)_ spell. This ability
+replaces quivering palm.

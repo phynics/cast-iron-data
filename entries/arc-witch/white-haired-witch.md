@@ -16,91 +16,79 @@ page = "23"
 
 [fields]
 kind = "archetype"
+features = [
+  { anchor = "white-hair", level = 1 },
+  { anchor = "constrict", level = 2 },
+  { anchor = "trip", level = 4 },
+  { anchor = "pull", level = 6 },
+  { anchor = "strangle", level = 8 },
+  { anchor = "rogue-talents", level = 10 },
+]
 trades = [
-  { replaces = "Hex", feature = "hex" },
-  { replaces = "Major hex", feature = "major-hex" },
-  { replaces = "grand hex", feature = "grand-hex" },
+  { replaces = "Hex", feature = "hex", by = ["white-hair"] },
+  { replaces = "Major hex", feature = "major-hex", by = ["rogue-talents"] },
+  { replaces = "grand hex", feature = "grand-hex", by = ["rogue-talents"] },
 ]
 +++
 
 A white-haired witch concentrates her mysterious powers on improving her prowess in melee, using
-feats of agility and her prehensile hair to deal extreme damage. The white-haired witch is an
-archetype of the witch class.
+feats of agility and her prehensile hair to deal extreme damage. Rogue talents and advanced rogue
+talents marked with an asterisk (\*) can be found in the _Pathfinder RPG Advanced Player's Guide_.
+The white-haired witch is an archetype of the witch class.
 
-**White Hair (Su)**
+## White Hair (Su) {#white-hair}
 
-**Ability:** A white-haired witch gains the ability to use her hair as a weapon. This functions as a
-primary [natural attack](ref/umr/natural-attacks) with a reach of 5 feet. The hair deals 1d4 points
-of damage (1d3 for a Small witch) plus the witch's Intelligence modifier. In addition, whenever the
-hair strikes a foe, the witch can attempt to [grapple](ref/rule/grapple) that foe with her hair as a
-**free action** without provoking an attack of opportunity, using her Intelligence modifier in place
-of her Strength modifier when making the combat maneuver check. When a white-haired witch grapples a
-foe in this way, she does not gain the [grappled](ref/rule/grapple-conditions) condition.
+At 1st level, a white-haired witch gains the ability to use her hair as a weapon. This functions as
+a primary [natural attack](ref/umr/natural-attacks) with a reach of 5 feet. The hair deals 1d4
+points of damage (1d3 for a Small witch) plus the witch's Intelligence modifier. In addition,
+whenever the hair strikes a foe, the witch can attempt to [grapple](ref/rule/grapple) that foe with
+her hair as a free action without provoking an attack of opportunity, using her Intelligence
+modifier in place of her Strength modifier when making the combat maneuver check. When a
+white-haired witch grapples a foe in this way, she does not gain the
+[grappled](ref/rule/grapple-conditions) condition.
 
-**Gained:** At 1st Level
+At 4th level and every four levels thereafter, a white-haired witch's hair adds 5 feet to its reach,
+to a maximum of 30 feet at 20th level.
 
-**Replaces:** Hex
+The hair cannot be [sundered](ref/rule/sunder) or attacked as a separate creature. In addition, a
+white-haired witch further improves her ability to control her hair as she progresses in level,
+gaining the following abilities.
 
-**Special:** The hair cannot be [sundered](ref/rule/sunder) or attacked as a separate creature. In
-addition, a white-haired witch further improves her ability to control her hair as she progresses in
-level, gaining the following abilities.
+This ability replaces hex.
 
-At 4th level: Her hair's reach increases to 10 feet.
+## Constrict (Ex) {#constrict}
 
-At 8th level: Her hair's reach increases to 15 feet.
+At 2nd level, when the white-haired witch's hair successfully grapples an opponent, it can begin
+constricting her victim as a free action, dealing damage equal to that of its attack.
 
-At 12th level: Her hair's reach increases to 20 feet.
+## Trip (Ex) {#trip}
 
-At 16th level: Her hair's reach increases to 25 feet.
+At 4th level, a white-haired witch who successfully strikes a foe with her hair can attempt a combat
+maneuver check to [trip](ref/rule/trip) the creature as a free action.
 
-At 20th level: Her hair's reach increases to 30 feet.
+## Pull (Ex) {#pull}
 
-**Constrict (Ex)**
+At 6th level, a white-haired witch who successfully strikes a foe with her hair can attempt a combat
+maneuver check to pull the creature 5 feet closer to her as a free action.
 
-**Free:** When the white-haired witch's hair successfully grapples an opponent, it can begin
-constricting her victim, dealing damage equal to that of its attack.
+## Strangle (Ex) {#strangle}
 
-**Gained:** At 2nd Level
-
-**Trip (Ex)**
-
-**Free:** A white-haired witch who successfully strikes a foe with her hair can attempt a combat
-maneuver check to [trip](ref/rule/trip) the creature.
-
-**Gained:** At 4th Level
-
-**Pull (Ex)**
-
-**Free:** A white-haired witch who successfully strikes a foe with her hair can attempt a combat
-maneuver check to pull the creature 5 feet closer to her.
-
-**Gained:** At 6th Level
-
-**Strangle (Ex)**
-
-**Ability:** When the white-haired witch's hair is grappling with an opponent, that creature is
+At 8th level, when the white-haired witch's hair is grappling with an opponent, that creature is
 considered [strangled](ref/umr/strangle), and cannot speak or cast spells with verbal components.
 
-**Gained:** At 8th Level
+## Rogue Talents {#rogue-talents}
 
-**Rogue Talents**
-
-**At 12th Level:** A whitehaired witch cannot select an individual rogue talent more than once.
-
-**At 18th Level:** She can now choose from among the following advanced rogue talents, too:
-[another day](ref/talent/another-day), [defensive roll](ref/talent/defensive-roll),
+At 10th level, a white-haired witch learns a rogue talent, using her white-haired witch level in
+place of her rogue level. At 12th level and for every two levels thereafter, she gains an additional
+rogue talent. A white-haired witch cannot select an individual rogue talent more than once, and can
+select from among the following: [assault leader](ref/talent/assault-leader)\*,
+[combat trick](ref/talent/combat-trick), [finesse rogue](ref/talent/finesse-rogue),
+[major magic](ref/talent/major-magic), [minor magic](ref/talent/minor-magic),
+[positioning attack](ref/talent/positioning-attack)\*, [resiliency](ref/talent/resiliency),
+[surprise attack](ref/talent/surprise-attack), and [weapon training](ref/talent/weapon-training). At
+18th level and 20th level, a white-haired witch can choose from among the following advanced rogue
+talents: [another day](ref/talent/another-day)\*, [defensive roll](ref/talent/defensive-roll),
 [improved evasion](ref/talent/improved-evasion), [opportunist](ref/talent/opportunist),
-[redirect attack](ref/talent/redirect-attack), [slippery mind](ref/talent/slippery-mind), and
-[thoughtful reexamining](ref/talent/thoughtful-reexamining).
-
-**At 10th Level:** A white-haired witch learns a rogue talent, using her white-haired witch level in
-place of her rogue level. She can select from the following talents:
-[assault leader](ref/talent/assault-leader), [combat trick](ref/talent/combat-trick),
-[finesse rogue](ref/talent/finesse-rogue), [major magic](ref/talent/major-magic),
-[minor magic](ref/talent/minor-magic), [positioning attack](ref/talent/positioning-attack),
-[resiliency](ref/talent/resiliency), [surprise attack](ref/talent/surprise-attack), and
-[weapon training](ref/talent/weapon-training).
-
-**Repeat:** She gains an additional rogue talent., 12, 2
-
-**Replaces:** Major hex, grand hex
+[redirect attack](ref/talent/redirect-attack)\*, [slippery mind](ref/talent/slippery-mind), and
+[thoughtful reexamining](ref/talent/thoughtful-reexamining)\*. This ability replaces major hex and
+grand hex.

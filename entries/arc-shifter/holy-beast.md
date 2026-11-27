@@ -16,12 +16,16 @@ page = "12"
 
 [fields]
 kind = "archetype"
+features = [
+  { anchor = "blessed-claws", level = 1 },
+  { anchor = "divine-fury", level = 1 },
+]
 trades = [
-  { replaces = "Wild empathy", feature = "wild-empathy" },
-  { replaces = "track", feature = "track" },
-  { replaces = "woodland stride", feature = "woodland-stride" },
-  { replaces = "trackless step", feature = "trackless-step" },
-  { alters = "Shifter claws", feature = "shifter-claws" },
+  { replaces = "Wild empathy", feature = "wild-empathy", by = ["divine-fury"] },
+  { replaces = "track", feature = "track", by = ["divine-fury"] },
+  { replaces = "woodland stride", feature = "woodland-stride", by = ["divine-fury"] },
+  { replaces = "trackless step", feature = "trackless-step", by = ["divine-fury"] },
+  { alters = "Shifter claws", feature = "shifter-claws", by = ["blessed-claws"] },
 ]
 +++
 
@@ -30,33 +34,28 @@ with their chosen deities. Holy beast shifters pledge to hunt down their deity's
 that deity's blessing. These shifters tend to take on the aspect of their deity's sacred animal, and
 many of them seek to destroy [rakshasas](ref/family/rakshasa).
 
-**Prerequisites:** Must worship a deity
+## Beast's Blessing {#beast-s-blessing}
 
-**Blessed Claws (Su)**
+A holy beast must worship a deity.
 
-**Ability:** This ability functions as the _shifter's claws_ class feature, except the holy beast
-shifter's default claws are long and thin, dealing piercing damage.
+## Blessed Claws (Su) {#blessed-claws}
 
-**Alters:** Shifter claws
+This ability functions as the shifter's claws class feature, except the holy beast shifter's default
+claws are long and thin, dealing piercing damage. At 3rd level, her claws are treated as one type of
+aligned weapon (chaotic, evil, good, or lawful) within one step of her deity's alignment in addition
+to ignoring DR/cold iron, DR/magic, and DR/silver. If multiple alignment components are available to
+the holy beast, she selects one; this choice cannot be changed later.
 
-**At 3rd Level:** Her claws are treated as one type of aligned weapon (chaotic, evil, good, or
-lawful) within one step of her deity's alignment in addition to ignoring DR/cold iron, DR/magic, and
-DR/silver. If multiple alignment components are available to the holy beast, she selects one; this
-choice cannot be changed later.
+This alters shifter claws.
 
-**Divine Fury (Su)**
+## Divine Fury (Su) {#divine-fury}
 
-**Ability:** She gains the ranger's [favored enemy](ref/ability/favored-enemy) class feature, except
-she can select only an outsider type from the _favored enemy_ table. The bonus against her _favored
-enemy_ is equal to 1 + [one-fifth](ref/misc/fractions-and-rounding) of her shifter level.
+A holy beast shifter focuses entirely on hunting down specific outsiders on behalf of her deity. She
+gains the ranger's [favored enemy](ref/ability/favored-enemy) class feature, except she can select
+only an outsider type from the favored enemy table. The bonus against her favored enemy
+automatically increases by 1 at 5th level and every 5 levels thereafter. At 5th level and every 5
+levels thereafter, she can forgo gaining an additional shifter aspect to instead gain an additional
+outsider type as her favored enemy. Her bonuses from the favored enemy feature against new outsider
+types chosen in this way are equal to the bonus for the type chosen at 1st level.
 
-**Flavor:** A holy beast shifter focuses entirely on hunting down specific outsiders on behalf of
-her deity.
-
-**At 5th Level:** Her bonuses from the _favored enemy_ feature against new outsider types chosen in
-this way are equal to the bonus for the type chosen at 1st level.
-
-**Repeat:** She can forgo gaining an additional _shifter aspect_ to instead gain an additional
-outsider type as her _favored enemy._, 5, 5
-
-**Replaces:** Wild empathy, track, woodland stride, trackless step
+This replaces wild empathy, track, woodland stride, and trackless step.

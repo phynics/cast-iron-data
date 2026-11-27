@@ -16,10 +16,15 @@ page = "29"
 
 [fields]
 kind = "archetype"
+features = [
+  { anchor = "tinkering", level = 1 },
+  { anchor = "seeker-lore", level = 3 },
+  { anchor = "seeker-magic", level = 15 },
+]
 trades = [
-  { replaces = "Bonus skills from the oracle's mystery", feature = "mystery", power = "class skills" },
-  { replaces = "Revelation gained at 3rd level", feature = "revelation", levels = [3] },
-  { replaces = "Revelation gained at 15th level", feature = "revelation", levels = [15] },
+  { replaces = "Bonus skills from the oracle's mystery", feature = "mystery", power = "class skills", by = ["tinkering"] },
+  { replaces = "Revelation gained at 3rd level", feature = "revelation", levels = [3], by = ["seeker-lore"] },
+  { replaces = "Revelation gained at 15th level", feature = "revelation", levels = [15], by = ["seeker-magic"] },
 ]
 +++
 
@@ -30,50 +35,36 @@ determine the genesis and history of their eldritch talents. These spellcasters 
 Spells as seekers, after their obsession with researching ancient texts and obscure ruins for any
 clues they can find about their heritage and histories. A seeker has the following class features.
 
-**Replaces:** Bonus skills from the oracle's mystery
+## Tinkering (Ex) {#tinkering}
 
-**Gained class skills:** dd
+Seekers often look to ancient devices, old tomes, and strange magical items in order to learn more
+about their oracle mysteries or sorcerous bloodlines. As a result of this curiosity and thanks to an
+innate knack at deciphering the strange and weird, a seeker gains Disable Device as a class skill.
+In addition, at 1st level, a seeker adds half his oracle or sorcerer level on Perception checks made
+to locate traps and on all Disable Device skill checks (minimum +1). A seeker can use Disable Device
+to disarm magical traps. If the seeker also possesses levels in [rogue](ref/class/rogue) or another
+class that provides the [trapfinding](ref/ability/trapfinding) ability, those levels stack with his
+oracle or sorcerer levels for determining his overall bonus on these skill checks. For an oracle,
+this ability replaces all of the bonus class skills he would otherwise normally gain from his
+mystery. For a sorcerer, this ability replaces his bonus Eschew Materials feat.
 
-**Tinkering (Ex)**
+## Seeker Lore (Ex) {#seeker-lore}
 
-**Ability:** A seeker can use Disable Device to disarm magical traps. If the seeker also possesses
-levels in [rogue](ref/class/rogue) or another class that provides the
-[trapfinding](ref/ability/trapfinding) ability, those levels stack with his oracle levels for
-determining his overall bonus on these skill checks.
+By 3rd level, a seeker has already learned much about his mystery or bloodline, and is more
+comfortable using the bonus spells gained by that mystery or bloodline. He gains a +4 bonus on all
+[concentration](ref/rule/concentration) checks, on caster level checks made to overcome
+[spell resistance](ref/rule/spell-resistance), and on all Knowledge (arcana) and Spellcraft checks
+made on topics associated with his bonus spells. For an oracle, this ability replaces the revelation
+gained at 3rd level. For a sorcerer, this ability replaces the bloodline power gained at 3rd level.
 
-**Flavor:** Seekers often look to ancient devices, old tomes, and strange magical items in order to
-learn more about their oracle mysteries.
+## Seeker Magic (Su) {#seeker-magic}
 
-**Gained:** At 1st Level
-
-**Passive:** A seeker adds half his oracle level on Perception checks made to locate traps and on
-all Disable Device skill checks (minimum +1).
-
-**Seeker Lore (Ex)**
-
-**Flavor:** A seeker has already learned much about his mystery, and is more comfortable using the
-bonus spells gained by that mystery.
-
-**Gained:** At 3rd Level
-
-**Passive:** He gains a +4 bonus on all [concentration](ref/rule/concentration) checks, on caster
-level checks made to overcome [spell resistance](ref/rule/spell-resistance), and on all Knowledge
-(arcana) and Spellcraft checks made on topics associated with his bonus spells.
-
-**Replaces:** Revelation gained at 3rd level
-
-**Seeker Magic (Su)**
-
-**Ability:** A seeker becomes skilled at modifying his mystery spells with metamagic. When a seeker
-applies a metamagic feat to any bonus spells granted by his mystery, he reduces the metamagic feat's
-spell level adjustment by 1. Thus, applying a Metamagic feat like
+At 15th level, a seeker becomes skilled at modifying his mystery or bloodline spells with metamagic.
+When a seeker applies a metamagic feat to any bonus spells granted by his mystery or his bloodline,
+he reduces the metamagic feat's spell level adjustment by 1. Thus, applying a Metamagic feat like
 [Still Spell](ref/feat/still-spell) to a spell does not change its effective spell level at all,
 while applying [Quicken Spell](ref/feat/quicken-spell) only increases the spell's effective spell
-level by 3 instead of by 4.
-
-**Gained:** At 15th Level
-
-**Replaces:** Revelation gained at 15th level
-
-**Special:** This reduction to the spell level adjustment for Metamagic feats does not stack with
-similar reductions from other abilities.
+level by 3 instead of by 4. This reduction to the spell level adjustment for Metamagic feats does
+not stack with similar reductions from other abilities. For an oracle, this ability replaces the
+revelation gained at 15th level. For a sorcerer, this ability replaces the bloodline power gained at
+15th level.

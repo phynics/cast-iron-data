@@ -16,105 +16,74 @@ page = "28"
 
 [fields]
 kind = "archetype"
+features = [
+  { anchor = "patron" },
+  { anchor = "dimensional-augmentation", level = 2 },
+  { anchor = "commune-with-familiar", level = 8 },
+  { anchor = "dimensional-waypoints", level = 12 },
+]
 trades = [
-  { replaces = "2nd-level hex", feature = "hex", levels = [2] },
-  { replaces = "8th-level hex", feature = "hex", levels = [8] },
-  { replaces = "12th-level hex", feature = "hex", levels = [12] },
+  { replaces = "Hex gained at 2nd level", feature = "hex", levels = [2], by = ["dimensional-augmentation"] },
+  { replaces = "Hex gained at 8th level", feature = "hex", levels = [8], by = ["commune-with-familiar"] },
+  { replaces = "Hex gained at 12th level", feature = "hex", levels = [12], by = ["dimensional-waypoints"] },
 ]
 +++
 
 While dimensional occultist witches are not all associated with the Pathfinders, enough of them are
 to warrant mention here. A dimensional occultist sacrifices some of her mastery over hexes in return
-for increased planar lore. She spends much of her time researching and communing with otherplanar
+for increased planar lore—she spends much of her time researching and communing with otherplanar
 spirits, often through her familiar or via the study of ancient texts, and has an increased mastery
 over various conjurations and other extraplanar effects. She can even travel between dimensions as
 she gains power. A dimensional occultist has the following class features.
 
-**Patron**
+## Patron {#patron}
 
-**Info:** A dimensional occultist witch does not have the same freedom of choice among her patrons
-as do other witches - she must select the Dimensions patron when she gains this archetype. The
-Dimensions patron provides the following bonus spells at the listed witch levels.
+A dimensional occultist witch does not have the same freedom of choice among her patrons as do other
+witches—she must select the Dimensions patron when she gains this archetype. The Dimensions patron
+provides the following bonus spells: 2nd—_hold portal_, 4th—_rope trick_, 6th—_blink_,
+8th—_dimensional anchor_, 10th—_lesser planar binding_, 12th—_planar binding_, 14th—_banishment_,
+16th—_greater planar binding_, 18th—_gate_.
 
-**Spells:** Lesser planar binding
+## Dimensional Augmentation (Su) {#dimensional-augmentation}
 
-**Spells:** Planar binding
-
-**Spells:** Banishment
-
-**Spells:** Greater planar binding
-
-**Spells:** Gate
-
-**Spells:** Hold portal
-
-**Spells:** Rope trick
-
-**Spells:** Blink
-
-**Spells:** Dimensional anchor
-
-**Dimensional Augmentation (Su)**
-
-**Ability:** A dimensional occultist can augment her spells by incorporating complex mathematical
+At 2nd level, a dimensional occultist can augment her spells by incorporating complex mathematical
 equations and formulae into the casting, typically by inscribing these equations with chalk or
 charcoal onto a solid surface (although scribing them on paper or into wet sand works fine as well).
-
 Augmenting a spell in this way adds both a somatic component (the actual scribing of the equations)
 and a material component (the writing stylus and ink, chalk, charcoal, or other medium) to the
 spell, and increases its casting time to a number of rounds equal to the spell's level (if the
 spell's casting time is already 1 minute or more, the casting time is not altered). As a result,
 using dimensional augmentation to cast a spell isn't a good option in the heat of combat. Augmenting
-a spell in this manner increases its effective caster level by +1.
+a spell in this manner increases its effective caster level by +1. A dimensional occultist can
+augment her spells in this manner once per day at 2nd level, plus one additional time per day for
+every even-numbered witch level she gains.
 
-**Gained:** At 2nd Level
+This ability replaces the witch's hex gained at 2nd level.
 
-**Replaces:** 2nd-level hex
+## Commune with Familiar (Sp) {#commune-with-familiar}
 
-**Usage:** 1 time/day per 2 witch levels
-
-**Commune with Familiar (Sp)**
-
-**Ability:** Once per week, she may cast [contact other plane](ref/spell/contact-other-plane) as a
+At 8th level, a dimensional occultist can use her familiar as a link between herself and strange,
+otherworldly intelligences on other planes. Once per week, she may use this link to cast
+_[contact other plane](ref/spell/contact-other-plane)_ as a
 [spell-like ability](ref/umr/spell-like-abilities), at a caster level equal to her witch level. The
 entity contacted replies to the witch via her familiar (which speaks in a strange disembodied
 voice), via telepathic contact, or by some similarly disconcerting method of communication. When a
 witch uses this method to contact other planes, she gains a +4 bonus on the Intelligence check to
 avoid the decrease to Intelligence and Charisma. If she still fails the save, the
-Intelligence/Charisma decrease lasts only 24 hours rather than a number of weeks.
+Intelligence/Charisma decrease lasts only 24 hours rather than a number of weeks. This ability
+replaces the witch's hex gained at 8th level.
 
-**Flavor:** A dimensional occultist can use her familiar as a link between herself and strange,
-otherworldly intelligences on other planes.
+## Dimensional Waypoints (Ex) {#dimensional-waypoints}
 
-**Gained:** At 8th Level
-
-**Replaces:** 8th-level hex
-
-**Dimensional Waypoints (Ex)**
-
-**Ability:** A dimensional occultist can create a dimensional waypoint by spending 2d4 minutes
+At 12th level, a dimensional occultist can create a dimensional waypoint by spending 2d4 minutes
 inscribing a number of equations on a solid surface (such as a wall, tree, stone floor, or
 structure) with a writing instrument. The exact configuration of these equations is unique to each
 witch. From that point on, when she uses dimensional travel to travel to that location, she does so
-without any chance of mishap. [Teleport](ref/spell/teleport) always sends the witch to this spot,
-and even [plane shift](ref/spell/plane-shift), if used to travel to that site, is precisely
-accurate.
-
-Once a dimensional waypoint is set, it remains active for that witch despite the condition of the
-inscription or even that of the surface upon which it was inscribed - it is the act of inscribing
-the waypoint, not the waypoint itself, that matters.
-
-**Gained:** At 12th Level
-
-**Replaces:** 12th-level hex
-
-**Special:** She can replace a waypoint she's already set by simply using that waypoint's unique
-equation at a new site.
-
-At 14th level: The dimensional occultist can maintain 2 waypoints.
-
-At 16th level: The dimensional occultist can maintain 3 waypoints.
-
-At 18th level: The dimensional occultist can maintain 4 waypoints.
-
-At 20th level: The dimensional occultist can maintain 5 waypoints.
+without any chance of mishap. _[Teleport](ref/spell/teleport)_ always sends the witch to this spot,
+and even _[plane shift](ref/spell/plane-shift)_, if used to travel to that site, is precisely
+accurate. Once a dimensional waypoint is set, it remains active for that witch despite the condition
+of the inscription or even that of the surface upon which it was inscribed—it is the act of
+inscribing the waypoint, not the waypoint itself, that matters. At 12th level, and then again every
+two witch levels thereafter, the dimensional occultist can maintain an additional waypoint. She can
+replace a waypoint she's already set by simply using that waypoint's unique equation at a new site.
+This ability replaces the witch's hex gained at 12th level.

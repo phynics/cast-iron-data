@@ -16,56 +16,43 @@ page = "21"
 
 [fields]
 kind = "archetype"
+features = [
+  { anchor = "destructive-dismantle", level = 1 },
+  { anchor = "sapping", level = 2 },
+  { anchor = "fence", level = 4 },
+]
 trades = [
-  { replaces = "Trapfinding", feature = "trapfinding" },
-  { replaces = "2nd-level rogue talent", feature = "rogue-talents", levels = [2] },
-  { replaces = "4th-level rogue talent", feature = "rogue-talents", levels = [4] },
+  { replaces = "Trapfinding", feature = "trapfinding", by = ["destructive-dismantle"] },
+  { replaces = "2nd-level rogue talent", feature = "rogue-talents", levels = [2], by = ["sapping"] },
+  { replaces = "4th-level rogue talent", feature = "rogue-talents", levels = [4], by = ["fence"] },
 ]
 +++
 
 The sapper is a trained siege engineer and can deal with traps and other obstacles given plenty of
 time.
 
-**Destructive Dismantle (Ex)**
+## Destructive Dismantle (Ex) {#destructive-dismantle}
 
-**Ability:** Using a combination of engineering, explosives, alchemical reagents, and sheer
-bloody-mindedness, she can deal up to 10 points of damage per sapper level upon an object, ignoring
-the object's [hardness](ref/umr/hardness). She might crack open a stone wall with an explosive
-charge, or collapse a ceiling by tunneling through its supports.
+A sapper is able to quickly breach obstacles. Using a combination of engineering, explosives,
+alchemical reagents, and sheer bloody-mindedness, she can deal up to 10 points of damage per sapper
+level upon an object once per day, ignoring the object's [hardness](ref/umr/hardness). She might
+crack open a stone wall with an explosive charge, or collapse a ceiling by tunneling through its
+supports. This ability requires 1d4+1 hours of preparation, so it can be used only on immobile and
+unresisting objects. This ability replaces trapfinding.
 
-**Flavor:** A sapper is able to quickly breach obstacles.
+## Sapping (Ex) {#sapping}
 
-**Replaces:** Trapfinding
-
-**Special:** This ability requires 1d4+1 hours of preparation, so it can be used only on immobile
-and unresisting objects.
-
-**Usage:** Once a day
-
-**Usage:** Once a day
-
-**Sapping (Ex)**
-
-**Ability:** She also grants a +4 bonus when using the [aid another](ref/rule/aid-another) action to
+At 2nd level, a sapper gains a +4 bonus on Perception or Disable Device checks to find or disable
+traps. She also grants a +4 bonus when using the [aid another](ref/rule/aid-another) action to
 assist with [Strength](ref/rule/strength) checks to lift gates, bend bars, or force open doors.
-However, the sapper is focused, so it takes her a **full-round action** to complete any aid another
-action.
+However, the sapper is focused, so it takes her a full-round action to complete any aid another
+action. This ability replaces her 2nd-level rogue talent.
 
-**Gained:** At 2nd Level
+## Fence (Ex) {#fence}
 
-**Passive:** A sapper gains a +4 bonus on Perception or Disable Device checks to find or disable
-traps.
-
-**Replaces:** 2nd-level rogue talent
-
-**Fence (Ex)**
-
-**Ability:** A sapper loots a dungeon or other adventuring complex of its mundane goods and sells
+At 4th level, a sapper loots a dungeon or other adventuring complex of its mundane goods and sells
 them to her various contacts. These mundane goods include things like brass fittings, stewpots,
 scrap metal, and so on. The sapper automatically loots this junk while in the dungeon, and must
 spend 24 uninterrupted hours selling the objects in town. She shares a portion of the proceeds with
-the adventurers; the amount typically equals 1d10 gp per sapper level per dungeon.
-
-**Gained:** At 4th Level
-
-**Replaces:** 4th-level rogue talent
+the adventurers; the amount typically equals 1d10 gp per sapper level per dungeon. This ability
+replaces her 4th-level rogue talent.

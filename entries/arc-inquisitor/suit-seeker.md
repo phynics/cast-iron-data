@@ -16,12 +16,20 @@ page = "22"
 
 [fields]
 kind = "archetype"
+features = [
+  { anchor = "domain" },
+  { anchor = "improvised-array", level = 1 },
+  { anchor = "smiting", level = 6 },
+  { anchor = "resiliency", level = 10 },
+  { anchor = "eye-of-the-harrow", level = 2 },
+  { anchor = "unravel-array", level = 20 },
+]
 trades = [
-  { replaces = "Detect alignment", feature = "detect-alignment" },
-  { replaces = "True judgment", feature = "true-judgment" },
-  { alters = "Judgment", feature = "judgment" },
-  { alters = "second judgment", feature = "second-judgment" },
-  { alters = "third judgment", feature = "third-judgment" },
+  { replaces = "Detect alignment", feature = "detect-alignment", by = ["eye-of-the-harrow"] },
+  { replaces = "True judgment", feature = "true-judgment", by = ["unravel-array"] },
+  { alters = "Judgment", feature = "judgment", by = ["improvised-array"] },
+  { alters = "second judgment", feature = "second-judgment", by = ["improvised-array"] },
+  { alters = "third judgment", feature = "third-judgment", by = ["improvised-array"] },
 ]
 +++
 
@@ -32,51 +40,45 @@ the harrow's magic and the heritage it represents. No two suit seekers seem to s
 vision, though, and so most of these harrow-wielding inquisitors end up at odds with other diviners
 throughout Avistan and even one another.
 
-**Prerequisites:** A suit seeker's alignment must be neutral on the good-evil axis, the
-lawful-chaotic axis, or both.
+## Alignment {#alignment}
 
-**Gained class skills:** kh, umd
+A suit seeker's alignment must be neutral on the good-evil axis, the lawful-chaotic axis, or both.
 
-**Lost class skills:** kd, ride, sur
+## Class Skills {#class-skills}
 
-**Domain**
+The suit seeker removes Knowledge (dungeoneering), Ride, and Survival from the inquisitor's list of
+class skills, and adds Knowledge (history) and Use Magic Device to the list.
 
-**Choice:** A suit seeker must select the Knowledge or [Luck](ref/domain/luck) domain; the Memory or
-Fate subdomain; or the [Fate](ref/inquisition/fate), [Fervor](ref/inquisition/fervor), or
+## Domain {#domain}
+
+A suit seeker must select the Knowledge or [Luck](ref/domain/luck) domain; the Memory or Fate
+subdomain; or the [Fate](ref/inquisition/fate), [Fervor](ref/inquisition/fervor), or
 [Illumination](ref/inquisition/illumination) inquisition.
 
-**Improvised Array (Su)**
+## Improvised Array (Su) {#improvised-array}
 
-**Action:** Special
+The suit seeker can call upon the harrow to help her choose an appropriate judgment and bolster her
+effectiveness with that judgment. As part of activating her judgment ability, the suit seeker can
+draw an impromptu array of two cards from a complete [harrow deck](ref/eq-misc/harrow-deck) she
+owns. Once drawn, the array remains the same until the judgment effect ends, though the inquisitor
+can change her judgment at any time as a swift action, as normal. The act of drawing an improvised
+array requires a free hand, though the suit seeker can keep a drawn array in her belt or otherwise
+on her person to perform actions with both hands while still maintaining the cards' benefits.
 
-**Alters:** Judgment, second judgment, third judgment
-
-**At 1st Level:** The suit seeker can call upon the harrow to help her choose an appropriate
-judgment and bolster her effectiveness with that judgment. As part of activating her _judgment_
-ability, the suit seeker can draw an impromptu array of two cards from a complete
-[harrow deck](ref/eq-misc/harrow-deck) she owns. Once drawn, the array remains the same until the
-_judgment_ effect ends, though the inquisitor can change her _judgment_ at any time as a **swift
-action**, as normal. The act of drawing an _improvised array_ requires a free hand, though the suit
-seeker can keep a drawn array in her belt or otherwise on her person to perform actions with both
-hands while still maintaining the cards' benefits.
-
-**At 16th Level:** She can forgo pronouncing a second and third _judgment_ and instead draw up to
-six cards for her _improvised array,_ or she can forgo only her third _judgment_ and draw an array
-of four cards.
-
-**At 8th Level:** When a suit seeker gains her _second judgment,_ she can forgo pronouncing a second
-_judgment_ and instead draw four cards for her _improvised array._
-
-As long as the suit seeker has at least one card in her _improvised array_ that matches her current
-_judgment,_ she increases her effective inquisitor level by a number of levels equal to the number
-of matching cards for the purpose of determining that _judgment's_ effects.
+At 1st level, as long as the suit seeker has at least one card in her improvised array that matches
+her current judgment, she increases her effective inquisitor level by a number of levels equal to
+the number of matching cards for the purpose of determining that judgment's effects. At 8th level,
+when a suit seeker gains her second judgment, she can forgo pronouncing a second judgment and
+instead draw four cards for her improvised array. At 16th level, she can forgo pronouncing a second
+and third judgment and instead draw up to six cards for her improvised array, or she can forgo only
+her third judgment and draw an array of four cards.
 
 In addition to increasing her effective inquisitor level for the purpose of the corresponding
-_judgment,_ a suit seeker with three or more cards of the same suit in her _improvised array_ gains
+judgment, a suit seeker with three or more cards of the same suit in her improvised array gains
 immunity to [ability damage](ref/rule/ability-damage-drain) to the corresponding ability score. A
-suit seeker with five or more cards of the same suit in her _improvised array_ gains a +4
-enhancement bonus to the corresponding ability score. These benefits last until the suit seeker's
-_judgment_ effect ends.
+suit seeker with five or more cards of the same suit in her improvised array gains a +4 enhancement
+bonus to the corresponding ability score. These benefits last until the suit seeker's judgment
+effect ends.
 
 |Suit|Judgment|Ability|
 | --- | --- | --- |
@@ -87,64 +89,57 @@ _judgment_ effect ends.
 |Shields|Resiliency|Constitution|
 |Stars|Healing|Wisdom|
 
-A suit seeker does not gain access to and cannot use the _justice, resistance,_ or _purity_
-judgments. A suit seeker makes the following adjustments to her judgments.
+A suit seeker does not gain access to and cannot use the justice, resistance, or purity judgments. A
+suit seeker makes the following adjustments to her judgments.
 
-**Smiting**
+This ability modifies judgment, second judgment, and third judgment.
 
-**Info:** While the suit seeker has her smiting _judgment_ active, her weapons can only count as an
-alignment type (chaotic, evil, good, or lawful) for the purpose of bypassing
+## Smiting {#smiting}
+
+At 6th level, while the suit seeker has her smiting judgment active, her weapons can only count as
+an alignment type (chaotic, evil, good, or lawful) for the purpose of bypassing
 [damage reduction](ref/rule/damage-reduction) if the selected alignment is represented on one of the
-suit seeker's cards in her current _improvised array._ If multiple alignments are represented in the
-_improvised array,_ the suit seeker must select one. If the array contains only neutral cards, the
-suit seeker cannot benefit from this _judgment._ She can change the alignment of her _judgment_ to
-another alignment represented in the array as a **swift action**.
+suit seeker's cards in her current improvised array. If multiple alignments are represented in the
+improvised array, the suit seeker must select one. If the array contains only neutral cards, the
+suit seeker cannot benefit from this judgment. She can change the alignment of her judgment to
+another alignment represented in the array as a swift action.
 
-**Gained:** At 6th Level
+## Resiliency {#resiliency}
 
-**Resiliency**
-
-**Info:** The DR provided by this _judgment_ can change from magic to an alignment type (chaotic,
+At 10th level, the DR provided by this judgment can change from magic to an alignment type (chaotic,
 evil, good, or lawful) only if the selected alignment is represented on one of the suit seeker's
-cards in her current _improvised array._ If multiple alignments are represented in the _improvised
-array,_ the suit seeker must select one. If the array contains only neutral cards, the suit seeker
-cannot benefit from this _judgment._ She can change the alignment of this _judgment_ to another
-alignment represented in the array as a **swift action**.
+cards in her current improvised array. If multiple alignments are represented in the improvised
+array, the suit seeker must select one. If the array contains only neutral cards, the suit seeker
+cannot benefit from this judgment. She can change the alignment of this judgment to another
+alignment represented in the array as a swift action.
 
-**Gained:** At 10th Level
+## Eye of the Harrow (Su) {#eye-of-the-harrow}
 
-**Eye of the Harrow (Su)**
+At 2nd level, a suit seeker can use the magic of her improvised array to hone her attacks against
+targets that match the cards' alignment. If any of the cards in her improvised array matches the
+alignment of an enemy creature within 60 feet on either the good-evil axis or the lawful-chaotic
+axis, the card glows faintly and the inquisitor gains a +1 sacred bonus on attack rolls against
+enemies of the matching alignment as long as the card is in her array. If a card matches the
+alignment of an enemy within 60 feet on both alignment axes, the card glows brightly and the
+inquisitor gains a +1 sacred bonus on attack rolls and damage rolls against enemies of the matching
+alignment.
 
-**Flavor:** A suit seeker can use the magic of her _improvised array_ to hone her attacks against
-targets that match the cards' alignment.
+This ability replaces detect alignment.
 
-**Gained:** At 2nd Level
+## Unravel Array (Su) {#unravel-array}
 
-**Passive:** If any of the cards in her _improvised array_ matches the alignment of an enemy
-creature within 60 feet on either the good-evil axis or the lawful-chaotic axis, the card glows
-faintly and the inquisitor gains a +1 sacred bonus on attack rolls against enemies of the matching
-alignment as long as the card is in her array. If a card matches the alignment of an enemy within 60
-feet on both alignment axes, the card glows brightly and the inquisitor gains a +1 sacred bonus on
-attack rolls and damage rolls against enemies of the matching alignment.
+At 20th level, a suit seeker can tear apart a target's place in destiny, rendering the creature
+immobile or possibly dead. As long as she has an improvised array drawn, the suit seeker can destroy
+one of the cards in her array and designate a single creature within 30 feet as the target of the
+harrow's magic. The designated creature must succeed at a Will save (DC 10 + 1/2 the inquisitor's
+level + the inquisitor's Wisdom modifier) or one of its ability scores is immediately reduced to 0,
+which can immobilize, render unconscious, or kill the creature. The ability score reduced
+corresponds to the ability score of the card destroyed.
 
-**Replaces:** Detect alignment
+Regardless of whether or not the target succeeds at its save, it becomes immune to the inquisitor's
+unravel array ability for 24 hours. Once this ability has been used, it cannot be used again for 1d4
+rounds. The destroyed harrow card is removed from the harrow deck. The suit seeker can continue to
+use the reduced deck for the purpose of her suit seeker powers as long as she wants, though she has
+no chance of drawing the destroyed card until she purchases a new harrow deck.
 
-**Unravel Array (Su)**
-
-**Ability:** A suit seeker can tear apart a target's place in destiny, rendering the creature
-immobile or possibly dead. As long as she has an _improvised array_ drawn, the suit seeker can
-destroy one of the cards in her array and designate a single creature within 30 feet as the target
-of the harrow's magic. The designated creature must succeed at a Will save (DC 10 + 1/2 the
-inquisitor's level + the inquisitor's Wisdom modifier) or one of its ability scores is immediately
-reduced to 0, which can immobilize, render unconscious, or kill the creature. The ability score
-reduced corresponds to the ability score of the card destroyed.
-
-**Gained:** At 20th Level
-
-**Replaces:** True judgment
-
-**Special:** Regardless of whether or not the target succeeds at its save, it becomes immune to the
-inquisitor's unravel array ability for 24 hours. Once this ability has been used, it cannot be used
-again for 1d4 rounds. The destroyed harrow card is removed from the harrow deck. The suit seeker can
-continue to use the reduced deck for the purpose of her suit seeker powers as long as she wants,
-though she has no chance of drawing the destroyed card until she purchases a new harrow deck.
+This ability replaces true judgment.

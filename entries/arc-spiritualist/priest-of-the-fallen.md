@@ -16,14 +16,22 @@ page = "17"
 
 [fields]
 kind = "archetype"
+features = [
+  { anchor = "mythmaker", level = 1 },
+  { anchor = "channel-energy", level = 3 },
+  { anchor = "phantom-call", level = 6 },
+  { anchor = "fused-consciousness", level = 10 },
+  { anchor = "masterful-faith", level = 17 },
+  { anchor = "true-legend", level = 20 },
+]
 trades = [
-  { replaces = "Shared consciousness", feature = "shared-consciousness" },
-  { replaces = "Bonded manifestation", feature = "bonded-manifestation" },
-  { replaces = "Phantom recall", feature = "phantom-recall" },
-  { replaces = "Dual bond", feature = "dual-bond" },
-  { alters = "Phantom", feature = "phantom" },
-  { alters = "Fused consciousness", feature = "fused-consciousness" },
-  { alters = "Empowered consciousness", feature = "empowered-consciousness" },
+  { replaces = "Shared consciousness", feature = "shared-consciousness", by = ["mythmaker"] },
+  { replaces = "Bonded manifestation", feature = "bonded-manifestation", by = ["channel-energy"] },
+  { replaces = "Phantom recall", feature = "phantom-recall", by = ["phantom-call"] },
+  { replaces = "Dual bond", feature = "dual-bond", by = ["masterful-faith"] },
+  { alters = "Phantom", feature = "phantom", by = ["mythmaker"] },
+  { alters = "Fused consciousness", feature = "fused-consciousness", by = ["fused-consciousness"] },
+  { alters = "Empowered consciousness", feature = "empowered-consciousness", by = ["true-legend"] },
 ]
 +++
 
@@ -33,179 +41,103 @@ agents acting out their divine will. The result is a priest of the fallen, a spi
 channels her land's legends and provides a vessel for mighty heroes to perform heroic acts once
 more.
 
-**Mythmaker (Su)**
+## Mythmaker (Su) {#mythmaker}
 
-**Ability:** A priest of the fallen can channel many different hero-god phantoms, though only one at
-a time. These spirits will not suffer being confined in a mortal's consciousness and must be
-manifested in ectoplasmic or incorporeal form or they return to the Ethereal Plane. They each have
-an emotional focus depending on their personality and retain some of their hero-god powers,
-determined by their mythic archetype.
+A priest of the fallen can channel many different hero-god phantoms, though only one at a time.
+These spirits will not suffer being confined in a mortal's consciousness and must be manifested in
+ectoplasmic or incorporeal form or they return to the Ethereal Plane. They each have an emotional
+focus depending on their personality and retain some of their hero-god powers, determined by their
+mythic archetype. A priest of the fallen can channel a hero-god phantom with a ritual that takes 1
+minute to perform. A priest of the fallen can channel only one hero-god phantom per 24 hours, but
+once channeled, a hero-god phantom remains until a new one is channeled.
 
-**Usage:** A priest of the fallen can channel a hero-god phantom with a ritual that takes 1 minute
-to perform. A priest of the fallen can channel only one hero-god phantom per 24 hours, but once
-channeled, a hero-god phantom remains until a new one is channeled.
+### Archmage {#archmage}
 
-**Usage:** A priest of the fallen can channel a hero-god phantom with a ritual that takes 1 minute
-to perform. A priest of the fallen can channel only one hero-god phantom per 24 hours, but once
-channeled, a hero-god phantom remains until a new one is channeled.
+The phantom gains _[magic missile](ref/spell/magic-missile)_ and _[sleep](ref/spell/sleep)_ as
+[spell-like abilities](ref/umr/spell-like-abilities). It can use each spell-like ability a number of
+times per day equal to its Hit Dice, which it uses in place of a caster level. At 12th level, it can
+also cast _[fireball](ref/spell/fireball)_ and _[hold person](ref/spell/hold-person)_ each once per
+day.
 
-**Archmage**
+### Champion {#champion}
 
-**Ability:** The phantom gains [magic missile](ref/spell/magic-missile) and [sleep](ref/spell/sleep)
-as [spell-like abilities](ref/umr/spell-like-abilities). It can use each spell-like ability a number
-of times per day equal to its Hit Dice, which it uses in place of a caster level.
-
-**At 12th Level:** It can also cast [fireball](ref/spell/fireball) and
-[hold person](ref/spell/hold-person) each once per day.
-
-**Champion**
-
-**Ability:** The phantom gains [Weapon Focus](ref/feat/weapon-focus) (slam) as a bonus feat.
-
-**At 12th Level:** It gains [Greater Weapon Focus](ref/feat/greater-weapon-focus) (slam) and
+The phantom gains [Weapon Focus](ref/feat/weapon-focus) (slam) as a bonus feat. At 12th level, it
+gains [Greater Weapon Focus](ref/feat/greater-weapon-focus) (slam) and
 [Weapon Specialization](ref/feat/weapon-specialization) (slam) as bonus feats.
 
-**Guardian**
+### Guardian {#guardian}
 
-**At 12th Level:** The phantom increases its maximum hit points by twice its number of Hit Dice.
+The phantom gains a +2 natural armor bonus when it manifests in its ectoplasmic form, and a +2
+deflection bonus to AC when it manifests in its incorporeal form. At 12th level, the phantom
+increases its maximum hit points by twice its number of Hit Dice.
 
-**Passive:** The phantom gains a +2 natural armor bonus when it manifests in its ectoplasmic form,
-and a +2 deflection bonus to AC when it manifests in its incorporeal form.
+### Hierophant {#hierophant}
 
-**Hierophant**
-
-**Ability:** The phantom gains [bane](ref/spell/bane) and [bless](ref/spell/bless) as
+The phantom gains _[bane](ref/spell/bane)_ and _[bless](ref/spell/bless)_ as
 [spell-like abilities](ref/umr/spell-like-abilities). It can use each spell-like ability a number of
-times per day equal to its Hit Dice, which it uses in place of a caster level.
+times per day equal to its Hit Dice, which it uses in place of a caster level. At 12th level, it can
+also cast _[prayer](ref/spell/prayer)_ and _[searing light](ref/spell/searing-light)_ each once per
+day.
 
-**At 12th Level:** It can also cast [prayer](ref/spell/prayer) and
-[searing light](ref/spell/searing-light) each once per day.
+### Marshal {#marshal}
 
-**Marshal**
+The phantom can fill its allies with its triumphant spirit as a standard action, granting them a +1
+morale bonus on saving throws against charm and fear effects and a +1 competence bonus on attack and
+weapon damage rolls for a number of rounds per day equal to 2 + its Charisma modifier. These rounds
+need not be consecutive. At 12th level, if the phantom is hit by an attack of opportunity, it can
+use an immediate action to allow an ally to make an attack of opportunity against the creature that
+attacked the phantom if it's within the ally's melee reach.
 
-**At 12th Level:** If the phantom is hit by an attack of opportunity, it can use an **immediate
-action** to allow an ally to make an attack of opportunity against the creature that attacked the
-phantom if it's within the ally's melee reach.
+### Trickster {#trickster}
 
-**Standard:** The phantom can fill its allies with its triumphant spirit, granting them a +1 morale
-bonus on saving throws against charm and fear effects and a +1 competence bonus on attack and weapon
-damage rolls.
+The phantom gains the [sneak attack](ref/ability/sneak-attack) rogue class feature as a rogue of a
+level equal to the phantom's Hit Dice. It can use the sneak attack ability a number of times per day
+equal to its Dexterity modifier (minimum 1). At 12th level, whenever the phantom is in darkness or
+[dim light](ref/rule/vision-and-light), it can move at full speed without taking a penalty on
+Stealth checks.
 
-**Usage:** Charisma2 modifier rounds/day
+This alters phantom and replaces shared consciousness.
 
-**Trickster**
+## Channel Energy (Su) {#channel-energy}
 
-**Ability:** The phantom gains the [sneak attack](ref/ability/sneak-attack) rogue class feature as a
-rogue of a level equal to the phantom's Hit Dice.
+At 3rd level, a priest of the fallen can channel her phantom's divine energy. This functions as the
+cleric's [channel energy](ref/ability/channel-energy) class feature, except that the amount of
+damage dealt or hit points restored is equal to 1d6 points plus an additional 1d6 points for every 2
+spiritualist levels beyond 3rd. The priest of the fallen decides to channel positive or negative
+energy based on her alignment. A neutral priest of the fallen can channel either positive or
+negative energy, but once this choice is made, it cannot be changed. She can use this ability a
+number of times per day equal to her Charisma modifier (minimum 1).
 
-**Alters:** Phantom
+This replaces bonded manifestation.
 
-**At 12th Level:** Whenever the phantom is in darkness or [dim light](ref/rule/vision-and-light), it
-can move at full speed without taking a penalty on Stealth checks.
+## Phantom Call (Su) {#phantom-call}
 
-**Replaces:** Shared consciousness
+At 6th level, once per day, a priest of the fallen can summon a fully manifested hero-god phantom
+from the Ethereal Plane as a standard action. If she already has a hero-god phantom manifested, that
+phantom vanishes back to the Ethereal Plane.
 
-**Usage:** Dex modifier times/day
+This replaces phantom recall.
 
-**Channel Energy (Su)**
+## Fused Consciousness (Su) {#fused-consciousness}
 
-**Ability:** This functions as the cleric's [channel energy](ref/ability/channel-energy) class
-feature, except she heals or deals damage using her spiritualist level - 2 as her cleric level. (1d6
-at 3rd level, 2d6 at 5th level, and so on.)
+At 10th level, this ability functions as usual, except the phantom retreats to the Ethereal Plane
+rather than the priest's consciousness.
 
-**Flavor:** A priest of the fallen can channel her phantom's divine energy.
+This alters fused consciousness.
 
-**Gained:** At 3rd Level
+## Masterful Faith (Su) {#masterful-faith}
 
-**Replaces:** Bonded manifestation
-
-**Special:** The priest of the fallen decides to channel positive or negative energy based on her
-alignment. A neutral priest of the fallen can channel either positive or negative energy, but once
-this choice is made, it cannot be changed.
-
-**Usage:** Charisma modifier times/day
-
-**Channel Energy (Su)**
-
-**Choice:** A good cleric (or one who worships a good deity) channels **positive energy** and can
-choose to deal damage to undead creatures or to heal living creatures. An evil cleric (or one who
-worships an evil deity) channels **negative energy** and can choose to deal damage to living
-creatures or to heal undead creatures. A neutral cleric who worships a neutral deity (or one who is
-not devoted to a particular deity) must choose whether she channels positive or negative energy.
-Once this choice is made, it cannot be reversed.
-
-**Flavor:** Text from the cleric class ability.
-
-**Provokes attack of opportunity:** No
-
-**Special:** Creatures healed by channeled energy cannot exceed their maximum hit point total - all
-excess healing is lost.
-
-**Standard:** You must present your holy symbol to channel energy. This causes a
-[burst](ref/misc/burst) that affects all creatures of one type (either undead or living) in a
-30-foot radius centered on you. This deals or heals (see below) 1d6 damage. You can choose whether
-or not to include yourself in this effect. Creatures that take damage from channeled energy receive
-a Will save to halve the damage, with a DC equal to 10 + [half](ref/misc/fractions-and-rounding)
-your cleric level + your Charisma modifier.
-
-**Usage:** Cha3 modifier times/day
-
-At 3rd level: The damage is 1d6.
-
-At 5th level: The damage increases to 2d6.
-
-At 7th level: The damage increases to 3d6.
-
-At 9th level: The damage increases to 4d6.
-
-At 11th level: The damage increases to 5d6.
-
-At 13th level: The damage increases to 6d6.
-
-At 15th level: The damage increases to 7d6.
-
-At 17th level: The damage increases to 8d6.
-
-At 19th level: The damage increases to 9d6.
-
-**Phantom Call (Su)**
-
-**Gained:** At 6th Level
-
-**Replaces:** Phantom recall
-
-**Standard:** Once per day, a priest of the fallen can summon a fully manifested hero-god phantom
-from the Ethereal Plane. If she already has a hero-god phantom manifested, that phantom vanishes
-back to the Ethereal Plane.
-
-**Fused Consciousness (Su)**
-
-**Alters:** Fused consciousness
-
-**Info:** The _fused consciousness_ ability functions as usual, except the phantom retreats to the
-Ethereal Plane rather than the priest's consciousness.
-
-**Gained:** At 10th Level
-
-**Masterful Faith (Su)**
-
-**Ability:** A priest of the fallen chooses any two [cleric domains](ref/ability/domains) and
+At 17th level, a priest of the fallen chooses any two [cleric domains](ref/ability/domains) and
 receives their full benefits, treating her spiritualist level as her cleric level. She adds the
 domain spells to her spells known.
 
-**Gained:** At 17th Level
+This replaces dual bond.
 
-**Replaces:** Dual bond
+## True Legend (Su) {#true-legend}
 
-**True Legend (Su)**
+At 20th level, a priest of the fallen is strong enough to confine a phantom in her consciousness as
+a standard action. On the start of her following turn, she gains access to all standard spiritualist
+abilities involving a confined phantom. She can confine her phantom for a number of rounds per day
+equal to 4 + her Wisdom modifier.
 
-**Alters:** Empowered consciousness
-
-**Flavor:** A priest of the fallen becomes strong enough to confine a phantom in her consciousness.
-
-**Gained:** At 20th Level
-
-**Standard:** She confines a phantom in her consciousness. On the start of her following turn, she
-gains access to all standard spiritualist abilities involving a confined phantom.
-
-**Usage:** Wisdom4 modifier rounds/day
+This alters empowered consciousness.

@@ -1,0 +1,7 @@
+[[edit]]
+entry = "ref/arc-monk/terra-cotta-monk"
+anchor = "trap-intuition"
+note = "hand-written from print (Dungeoneer's Handbook p. 22, review of #356): the ability is one paragraph in print; the text wraps around the art, and the extraction breaks it after \"notice the trap.\" because the next line starts at the margin; the text is the printed paragraph."
+text = '''
+At 2nd level, whenever a terra-cotta monk comes within 10 feet of a trap, he receives an immediate Perception check to notice the trap. The GM should make this check in secret. A terra-cotta monk gains a +2 bonus on Perception checks to notice traps. This bonus increases to +4 if the trap is located in a stone wall or floor. This ability replaces evasion.
+'''
