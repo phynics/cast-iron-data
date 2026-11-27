@@ -1224,7 +1224,7 @@ def ocr_paragraph(runs: list[tuple[str, bool, bool]]) -> list[tuple[str, bool, b
         t = re.sub(r"\s+", " ", t)
         for pat, rep in OCR_PHRASES:
             t, n = pat.subn(rep, t)
-            OCR_HITS[pat.pattern] += n
+            OCR_HITS[(OCR_BOOK["name"], pat.pattern)] += n
         out.append((t, b, i))
     return out
 
@@ -1234,13 +1234,14 @@ OCR_JOINED = [
     (re.compile(r"\(DC 10 \+ the Spellscar drifter.s base attack bonus\) = reduces"), "(DC = 10 + the Spellscar drifter's base attack bonus) reduces"),
 ]
 
+OCR_BOOK = {"name": ""}        # the book of the run: a hit counts for the book that read it, so a run over several books cannot hide a dead pattern of one of them (review of #356)
 OCR_HITS: Counter = Counter()          # how often each OCR_PHRASES and OCR_ITALICS pattern matched in this run
 
 
 def dead_ocr_patterns() -> list[str]:
     """The patterns of `OCR_PHRASES` and `OCR_ITALICS` that matched nothing in a run over the whole book: a repair that fails silently
     (the text layer spells the words another way) leaves the OCR text in the entry, so a dead pattern fails the run."""
-    return [pat.pattern for pat in [p for p, _ in OCR_PHRASES + OCR_JOINED] + OCR_ITALICS if OCR_HITS[pat.pattern] == 0]
+    return [pat.pattern for pat in [p for p, _ in OCR_PHRASES + OCR_JOINED] + OCR_ITALICS if OCR_HITS[(OCR_BOOK["name"], pat.pattern)] == 0]
 
 
 # Italics that print sets and that the text layer lacks (spells, magic weapon abilities, a book title in a citation): the span that the group
@@ -1262,7 +1263,7 @@ OCR_ITALICS = [
 ISC_OCR = (OCR_PHRASES, OCR_JOINED, OCR_ITALICS)
 MC_OCR_PHRASES = [
     (re.compile(r"\{(?=(?:Ex|Su|Sp)\))"), "("),                        # "Inspire Fervor {Ex):"
-    (re.compile(r"\bAt md level\b"), "At 2nd level"),                    # "replaces the discovery at md level" (Alchemical Trapper)
+    (re.compile(r"\bat md level\b"), "at 2nd level"),                    # "replaces the discovery at md level" (Alchemical Trapper)
     (re.compile(r"\banti paladin"), "antipaladin"),                       # the layer breaks the word (Fearmonger)
 ]
 MC_OCR_JOINED: list = [
@@ -1300,7 +1301,7 @@ HH_OCR: tuple = ([
     (re.compile(r"\(see page is\)"), "(see page 15)"), (re.compile(r"\bx3\b"), "\u00d73"), (re.compile(r"\bprophecyuM\b"), "prophecy"),
 ], [(re.compile(r"\bifit\b"), "if it")], [
     re.compile(r"curse her target as the (?P<i>bestow curse) spell"), re.compile(r"as per the (?P<i>baleful)\s*$"), re.compile(r"^(?P<i>polymorph) spell\. This ability replaces"),
-    re.compile(r"ranged weapons: (?P<i>brilliant energy, distance, flaming, flaming burst, frost, icy burst, returning, seeking, shock, shocking burst, and speed)\."),
+    re.compile(r"ranged weapons: (?P<a>brilliant energy), (?P<b>distance), (?P<c>flaming), (?P<d>flaming burst), (?P<e>frost), (?P<f>icy burst), (?P<g>returning), (?P<h>seeking), (?P<i>shock), (?P<j>shocking burst), and (?P<k>speed)\."),
     re.compile(r"special ability, such as (?P<i>flaming), must share"), re.compile(r"warded by (?P<i>protection from evil) and similar"),
     re.compile(r"for his (?P<i>summon monster) spell-like"), re.compile(r"gains the (?P<i>returning) weapon special ability"),
 ])         # The Harrow Handbook
@@ -1324,7 +1325,7 @@ def ocr_italics(runs: list[tuple[str, bool, bool]]) -> list[tuple[str, bool, boo
     out = []
     for t, b, i in runs:
         for pat in OCR_ITALICS:
-            OCR_HITS[pat.pattern] += len(pat.findall(t))
+            OCR_HITS[(OCR_BOOK["name"], pat.pattern)] += len(pat.findall(t))
         spans = sorted((m.start(g), m.end(g)) for pat in OCR_ITALICS for m in pat.finditer(t) for g in pat.groupindex)
         if i or not spans:
             out.append((t, b, i))
@@ -2287,7 +2288,8 @@ OPENING_ONLY = {"ref/arc-sorcerer/bloodline-familiars", "ref/arc-bloodrager/bloo
 
 
 # A broken head of the import that the script reads as the head that print has (the import is not edited by hand): Black Markets p. 28 "Envenom (Su" for "Envenom (Su)"
-IMPORT_BODY_FIXES = {"ref/arc-alchemist/eldritch-poisoner": [("**Envenom (Su**", "**Envenom (Su)**")]}
+IMPORT_BODY_FIXES = {"ref/arc-alchemist/eldritch-poisoner": [("**Envenom (Su**", "**Envenom (Su)**")],
+                     "ref/arc-ranger/yokai-hunter": [("Tians refer to as\nyokai. The yokai hunter", "Tians refer to as\n_yokai_. The yokai hunter")]}      # print sets "yokai" in italics in the opening (Dragon Empires Primer p. 23; review of #356)
 
 
 def load_entries(corpus: Path, book: str | None, only: str = "") -> list[Entry]:
@@ -3071,7 +3073,7 @@ def print_md(feat: PrintFeature, links: list[tuple[str, str]], vocab: set[str], 
     if OCR["on"]:
         for pat, rep in OCR_JOINED:
             text, n = pat.subn(rep, text)
-            OCR_HITS[pat.pattern] += n
+            OCR_HITS[(OCR_BOOK["name"], pat.pattern)] += n
     notes: list[str] = []
     fixed = re.sub(r"^A (\d+(?:st|nd|rd|th) level\b)", r"At \1", text)
     if fixed != text:
@@ -3229,6 +3231,10 @@ EXTRA_LINKS = {
 # Faith Hunter's Hateful Bane means the inquisitor class feature, not the spell (owner review of batch 3).
 LINK_RETARGETS = {
     ("ref/arc-inquisitor/faith-hunter", "bane"): "ref/class/inquisitor#bane",
+    # review of #356: the second "distraction" of these entries links the universal monster rule; print means the bard performance
+    ("ref/arc-rogue/carnivalist", "distraction"): "ref/performance/distraction",
+    ("ref/arc-bard/ringleader-ui", "distraction"): "ref/performance/distraction",
+    ("ref/arc-paladin/martyr", "distraction"): "ref/performance/distraction",
 }
 
 
@@ -4181,6 +4187,7 @@ TRADE_REMOVALS = {
 # says "replaces aura of faith" for Righteous Hunter; the import stored aura of righteousness.
 TRADE_RELINKS = {
     ("ref/arc-paladin/divine-hunter", "Aura of righteousness"): "aura-of-faith",
+    ("ref/arc-cleric/iron-priest", "Casting"): "spontaneous-casting",      # "This ability alters casting." (Technology Guide p. 13) names the cleric's spontaneous casting, not the spells (review of #356)
 }
 
 
@@ -4774,6 +4781,8 @@ TRADE_RENAMES.update({
     ("ref/arc-occultist/planar-harmonizer", "5th-level focus power"): "Focus power gained at 5th level",
 })
 # ---- Heroes of Golarion, Dungeoneer's Handbook, The Harrow Handbook, Pathfinder Society Field Guide, Technology Guide, Animal Archive, Dragon Empires Primer (layout pass of 2026-11-27) ----
+LEVEL_FROM_PRINT[("ref/arc-cleric/iron-priest", "spontaneous-casting")] = (1, "ruling 48: the trade names the cleric's spontaneous casting, a 1st-level class feature that the table does not list (review of #356; as Crashing Wave and Rot Warden)")
+LEVEL_FROM_PRINT[("ref/arc-oracle/seeker", "tinkering")] = (1, "print says \"at 1st level, a seeker adds half his oracle or sorcerer level\" (Pathfinder Society Field Guide p. 29): the level is stated in the sentence (rulings 4 and 51), as in the sorcerer's Seeker")
 LEVEL_FROM_PRINT[("ref/arc-bard/speaker-of-the-palatine-eye", "spells")] = (1, "ruling 50: alters the bard's spells (the whole spellcasting, a 1st-level class feature)")
 # Pathfinder Society Field Guide: Seeker and Scroll Scholar print their trades for each class in a sentence of its own ("For an oracle, this
 # ability replaces the revelation gained at 3rd level."), which the app does not read as a trade sentence; the feature prints no other trade
@@ -4803,6 +4812,7 @@ LEVEL_FROM_PRINT[("ref/arc-rogue/carnivalist", "pet-performance")] = (2, "print 
 TRADE_RENAMES.update({
     ("ref/arc-cavalier/huntmaster", "Cavalier bonus feats"): "A cavalier's standard bonus feats",      # "This ability replaces a cavalier's standard bonus feats." (ruling 22)
     ("ref/arc-barbarian/mad-dog", "2nd, 6th, 10th, 14th, and 18th level rage powers"): "Rage powers gained at 2nd, 6th, 10th, 14th, and 18th level",      # "This ability replaces the rage powers gained at 2nd, 6th, 10th, 14th, and 18th level." (ruling 22)
+    ("ref/arc-magus/card-caster", "Spellstrike"): "and modifies spellstrike",      # owner ruling 58: "This ability replaces and modifies spellstrike." is ONE replaces trade of Spellstrike; the checker reads the phrase to its end (review of #356)
     ("ref/arc-rogue/scroll-scoundrel", "10th-level rogue talent"): "The scroll scoundrel's 10th-level rogue talent",      # "This ability replaces the scroll scoundrel's 10th-level rogue talent." (ruling 22)
     ("ref/arc-witch/dimensional-occultist", "2nd-level hex"): "Hex gained at 2nd level",          # "This ability replaces the witch's hex gained at 2nd level." (ruling 22)
     ("ref/arc-witch/dimensional-occultist", "8th-level hex"): "Hex gained at 8th level",
@@ -4912,6 +4922,7 @@ def configure_book(book: str) -> None:
     PAREN_SNAP["on"] = book in ("dungeoneers-handbook", "animal-archive")
     ITALIC_JOIN["on"] = book in ("aquatic-adventures", "heroes-of-the-streets", "antiheros-handbook", "blood-of-the-sea")
     global OCR_PHRASES, OCR_JOINED, OCR_ITALICS
+    OCR_BOOK["name"] = book
     OCR_PHRASES, OCR_JOINED, OCR_ITALICS = OCR_SETS.get(book, ISC_OCR)
     OCR_GLUE["on"] = book in OCR_SETS
     OCR_TITLES["on"] = book in ("dungeoneers-handbook", "the-harrow-handbook", "technology-guide", "animal-archive")
@@ -5434,7 +5445,7 @@ def printed_trade_sentences(section: list) -> list[str]:
 # head begins (Honor Guard, Ultimate Combat p. 37: "This modifies the challenge ability" and then "Intercept (Ex):")
 SENTENCE_TRIMS = {"ref/arc-cavalier/honor-guard": "This modifies the challenge ability",
                   "ref/arc-spiritualist/plague-eater": "This ability replaces see invisibility"}      # print has no period after "see invisibility" (Heroes of Golarion p. 12); the next head follows
-SENTENCE_SKIP = {"ref/arc-magus/card-caster"}      # not converted (the checker reads "replaces and modifies spellstrike" as one phrase): the entry keeps the import's rows until a ruling
+SENTENCE_SKIP: set = set()      # the books whose printed sentences are not read (none: the Card Caster is written since owner ruling 58)
 
 
 def run_print_sentences(args) -> int:
@@ -6427,6 +6438,18 @@ def self_test() -> int:
     # review of #351: a link that belongs to a phrase goes there, keeping print's case
     eq(apply_context_links("ref/arc-sorcerer/umbral-scion", "must have the shadow bloodline", [("Shadow", "ref/sorcbloodline/shadow")]),
        ("must have the [shadow](ref/sorcbloodline/shadow) bloodline", []), "a context link keeps the case of print")
+    # review of #356: a hit counts for the book that read it, so a pattern that is alive in one book cannot hide a dead one of another
+    OCR_HITS.clear()
+    probe = re.compile(r"\bprobe-token\b")
+    OCR_BOOK["name"] = "book-a"
+    OCR_HITS[("book-a", probe.pattern)] += 1
+    OCR_BOOK["name"] = "book-b"
+    saved = OCR_ITALICS[:]
+    OCR_ITALICS.append(probe)
+    eq(probe.pattern in dead_ocr_patterns(), True, "a pattern that only another book matched is dead in this one")
+    OCR_ITALICS[:] = saved
+    OCR_HITS.clear()
+    OCR_BOOK["name"] = ""
     eq(SUPERSCRIPT_MARK.fullmatch("UM") is not None and SUPERSCRIPT_MARK.fullmatch("sAPG").group(1) == "s", True, "a superscript mark")
     eq(finish_text("a \ufffd2 becomes a \ufffd3", set()), "a \u00d72 becomes a \u00d73", "a lost multiplication sign")
     ERRATA_CTX.update(book="advanced-class-guide", used=set())
