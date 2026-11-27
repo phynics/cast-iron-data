@@ -15,7 +15,10 @@ kind = "class_option"
 group = "vigilante-talent"
 ability_type = "Ex"
 +++
-A stalker vigilante can apply only one talent marked with an asterisk (\*) to a given hidden strike, and only when that hidden strike is dealt against a foe that is unaware of the stalker vigilante's presence (or who considers him an ally), unless otherwise noted.
+
+A stalker vigilante can apply only one talent marked with an asterisk (\*) to a given hidden strike,
+and only when that hidden strike is dealt against a foe that is unaware of the stalker vigilante's
+presence (or who considers him an ally), unless otherwise noted.
 
 The vigilante's hidden strike jabs his opponent in the throat, preventing that opponent from
 speaking until the vigilante's next turn. (If the vigilante uses this ability on the surprise round,

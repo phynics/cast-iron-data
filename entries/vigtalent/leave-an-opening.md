@@ -15,7 +15,10 @@ kind = "class_option"
 group = "vigilante-talent"
 ability_type = "Ex"
 +++
-A stalker vigilante can apply only one talent marked with an asterisk (\*) to a given hidden strike, and only when that hidden strike is dealt against a foe that is unaware of the stalker vigilante's presence (or who considers him an ally), unless otherwise noted.
+
+A stalker vigilante can apply only one talent marked with an asterisk (\*) to a given hidden strike,
+and only when that hidden strike is dealt against a foe that is unaware of the stalker vigilante's
+presence (or who considers him an ally), unless otherwise noted.
 
 The vigilante's hidden strike leaves an unbalancing opening in a foe's defenses, setting up the foe
 to be attacked again. At the beginning of the foe's next turn, if the vigilante threatens the foe,
