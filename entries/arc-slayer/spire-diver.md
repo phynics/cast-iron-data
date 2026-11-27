@@ -16,14 +16,22 @@ page = "80"
 
 [fields]
 kind = "archetype"
+features = [
+  { anchor = "studied-target", level = 1 },
+  { anchor = "hold-breath", level = 1 },
+  { anchor = "slayer-talents" },
+  { anchor = "swift-swimmer", level = 11 },
+  { anchor = "diver-s-advance", level = 13 },
+  { anchor = "diver-s-quarry", level = 14 },
+]
 trades = [
-  { replaces = "Track", feature = "track" },
-  { replaces = "Swift tracker", feature = "swift-tracker" },
-  { replaces = "Slayer's advance", feature = "slayer-s-advance" },
-  { alters = "Studied target", feature = "studied-target" },
-  { alters = "stalker", feature = "stalker" },
-  { alters = "Quarry", feature = "quarry" },
-  { alters = "improved quarry", feature = "improved-quarry" },
+  { replaces = "Track", feature = "track", by = ["hold-breath"] },
+  { replaces = "Swift tracker", feature = "swift-tracker", by = ["swift-swimmer"] },
+  { replaces = "Slayer's advance", feature = "slayer-s-advance", by = ["diver-s-advance"] },
+  { alters = "Studied target", feature = "studied-target", by = ["studied-target"] },
+  { alters = "stalker", feature = "stalker", by = ["studied-target"] },
+  { alters = "Quarry", feature = "quarry", by = ["diver-s-quarry"] },
+  { alters = "improved quarry", feature = "improved-quarry", by = ["diver-s-quarry"] },
 ]
 +++
 
@@ -32,75 +40,55 @@ weapons and equipment. Although the elves of the Mordant Spire originally develo
 that spire divers use, people living in coastal areas and archipelagos near the Mwangi Expanse and
 Tian Xia have similar, independently developed warrior and diving traditions.
 
-**Studied Target (Ex)**
+## Studied Target (Ex) {#studied-target}
 
-**Ability:** When using any bow or crossbow against her _studied target_ underwater, the spire diver
-ignores the normal penalty for shooting underwater and instead treats the weapon as though its range
-increment were 10 feet.
+A spire diver does not gain the ability to add her studied target bonus on Bluff and Survival checks
+against an opponent she has studied. At 7th level, she cannot add her studied target bonus on
+Disguise checks. Instead, when using any bow or crossbow against her studied target underwater, the
+spire diver ignores the normal penalty for shooting underwater and instead treats the weapon as
+though its range increment were 10 feet. At 5th, 10th, 15th, and 20th levels, the range increment
+increases by 10 feet, to a maximum of 50 feet.
 
-**Alters:** Studied target, stalker
+When using a bow or crossbow that already has an underwater range increment, such as an underwater
+crossbow (_Pathfinder RPG Ultimate Equipment_ 39–40), the spire diver adds the range increment
+gained from studied target as a bonus to the weapon's usual underwater range increment, though the
+combined range increment cannot exceed the weapon's normal range increment.
 
-**At 7th Level:** She she cannot add her _studied target_ bonus on Disguise checks.
+This alters studied target and stalker.
 
-**Info:** A spire diver does not gain the ability to add her _studied target_ bonus on Bluff and
-Survival checks against an opponent she has studied.
+## Hold Breath (Ex) {#hold-breath}
 
-**Special:** When using a bow or crossbow that already has an underwater range increment, such as an
-underwater crossbow, the spire diver adds the range increment gained from _studied target_ as a
-bonus to the weapon's usual underwater range increment, though the combined range increment cannot
-exceed the weapon's normal range increment.
+A spire diver increases the number of rounds she can [hold her breath](ref/misc/hold-your-breath)
+before she is required to start attempting Constitution checks to avoid drowning by 2 per slayer
+level she has.
 
-At 5th level: The range increment increases to 20.
+This replaces track.
 
-At 10th level: The range increment increases to 30.
+## Slayer Talents {#slayer-talents}
 
-At 15th level: The range increment increases to 40.
+A spire diver can select the [strong stroke](ref/talent/strong-stroke) rogue talent as a slayer
+talent.
 
-At 20th level: The range increment increases to 50.
+## Swift Swimmer (Ex) {#swift-swimmer}
 
-**Hold Breath (Ex)**
+At 11th level, a spire diver gains a swim speed equal to her base speed.
 
-**Ability:** A spire diver increases the number of rounds she can
-[hold her breath](ref/misc/hold-your-breath) before she is required to start attempting Constitution
-checks to avoid drowning by an amount equal to twice her slayer level.
+This replaces swift tracker.
 
-**Replaces:** Track
+## Diver's Advance (Ex) {#diver-s-advance}
 
-**Slayer Talents**
+At 13th level, a spire diver can swim up to twice her swim speed once per day as a move action. She
+can use Stealth as part of this movement but takes a -10 penalty on her check for doing so. At 17th
+level, she can use this ability twice per day.
 
-**Ability:** A spire diver can select the [strong stroke](ref/talent/strong-stroke) rogue talent as
-a slayer talent.
+This replaces slayer's advance.
 
-**Swift Swimmer (Ex)**
+## Diver's Quarry (Ex) {#diver-s-quarry}
 
-**Ability:** A spire diver gains a swim speed equal to her base speed.
+A spire diver gains quarry and improved quarry as a normal slayer, but she does not gain the ability
+to take 10 or take 20 on Survival checks while moving at normal speed without penalty. Instead, at
+14th level, a spire diver can take 10 on Knowledge checks to identify a monster she has selected as
+her quarry. At 19th level, she can take 20 on these checks without spending extra time to do so. The
+spire diver must be trained in the appropriate Knowledge skill to use this ability.
 
-**Gained:** At 11th Level
-
-**Replaces:** Swift tracker
-
-**Diver's Advance (Ex)**
-
-**At 17th Level:** She can use this ability twice per day.
-
-**Gained:** At 13th Level
-
-**Move:** A spire diver can swim up to twice her swim speed once per day. She can use Stealth as
-part of this movement but takes a -10 penalty on her check for doing so.
-
-**Replaces:** Slayer's advance
-
-**Diver's Quarry (Ex)**
-
-**Ability:** A spire diver gains _quarry_ and _improved quarry_ as a normal slayer, but she does not
-gain the ability to take 10 or take 20 on Survival checks while moving at normal speed without
-penalty.
-
-**Alters:** Quarry, improved quarry
-
-**At 14th Level:** A spire diver can take 10 on Knowledge checks to identify a monster she has
-selected as her _quarry._
-
-**At 19th Level:** She can take 20 on these checks without spending extra time to do so.
-
-**Special:** The spire diver must be trained in the appropriate Knowledge skill to use this ability.
+This alters quarry and improved quarry.

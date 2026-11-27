@@ -1,0 +1,9 @@
+entry	feature	anchor	listed	level	source	status	note	page	span_sha256
+ref/arc-witch/winter-witch	Familiar	familiar	yes		print	print		11	4909ee912210c48b6cf2ad9f0d6e1e6d44f334e8e5427af72cfa390a5d8f9e34
+ref/arc-witch/winter-witch	Cantrips	cantrips	yes		draft	draft		11	a168d9cd0b90bef36508351ef2ab050fa83fe2838802882417f98fb50264864d
+ref/arc-witch/winter-witch	Patron	patron	yes		print	print	hand review (ruling 14, print): print's wording is taken: the `choices` hold is a false alarm: the patron themes to choose from are named in the sentence itself, and the next section, Ice Magic, is a separate ability; print marks the themes of Ultimate Magic with asterisks and prints their key ("An asterisk (*) indicates that the patron theme is detailed in Ultimate Magic"), which the corpus lacks	11	e02ccd12ee3a9c6469c28378df7e336f9c29336585fe9eb3def85ab02ec1faef
+ref/arc-witch/winter-witch	Ice Magic	ice-magic	yes		draft	draft		11	d03c1e552eb10d28b3b367d014b7ac7fe99292842264cc17b053e42f1c6bc37f
+ref/arc-witch/winter-witch	Cold Flesh (Ex)	cold-flesh	yes	1	print	print		11	0830c37a3d118ec291f2b2a3c95483363ddf12e89fe1e17648fe7d4deedb06cb
+ref/arc-witch/winter-witch	Hexes	hexes	no		print	print	hand review (ruling 14, print): print's wording is taken: the corpus lacks the printed label sentence with the hexes that complement the archetype (beast eye, blight, cook people, evil eye, feral speech, hag's eye, hoarfrost, ice tomb, witch's hut) and the asterisk key; print's wording is taken	11	b468776325110c439badc96f1fdc9eea73be8334ad4566e5a669f09a425ed565
+ref/arc-witch/winter-witch	Frostfoot (Su)	frostfoot	yes		draft	draft		11	dbccafcd0aa2803301647b97debaf6262b5e1e624fe736e28e8a04ffab2f594f
+ref/arc-witch/winter-witch	Frozen Caress (Su)	frozen-caress	yes		print	print	ruling 10: corpus text that print does not have is dropped: “Beast eye, blight, cook people, evil eye, …”	11	6416a496df7d87b04103656c26aa143f0c2a1dabd9868b1f35acf33802e4a2dd
