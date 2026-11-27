@@ -1,0 +1,7 @@
+[[edit]]
+entry = "ref/arc-druid/survivor"
+anchor = "element-of-surprise"
+note = "hand-written from print (Champions of Balance p. 24): the ability is one paragraph that wraps around the art, so that the text layer breaks it into two (\"... maximum equal to the survivor's class level). This cannot reduce an initiative result below 1.\"); review of #360."
+text = '''
+At 4th level, if a survivor makes a successful attack during a surprise round against a target that is unaware of her, her victim takes a penalty on its initiative check during the following round equal to half the damage dealt by the survivor's attack (minimum 0, maximum equal to the survivor's class level). This cannot reduce an initiative result below 1. This ability replaces resist nature's lure.
+'''
