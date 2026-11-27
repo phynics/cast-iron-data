@@ -16,82 +16,83 @@ page = "10"
 
 [fields]
 kind = "archetype"
+features = [
+  { anchor = "bonus-languages" },
+  { anchor = "enemy-of-the-first-world", level = 1 },
+  { anchor = "fey-empathy", level = 1 },
+  { anchor = "fey-stalker", level = 3 },
+  { anchor = "feybane", level = 4 },
+  { anchor = "beguiling-immunity", level = 9 },
+  { anchor = "first-world-deceiver", level = 13 },
+]
 trades = [
-  { replaces = "Wild empathy", feature = "wild-empathy" },
-  { replaces = "Trackless step", feature = "trackless-step" },
-  { replaces = "Venom immunity", feature = "venom-immunity" },
-  { replaces = "A thousand faces", feature = "a-thousand-faces" },
-  { alters = "Spontaneous casting", feature = "spontaneous-casting" },
-  { alters = "Resist nature's lure", feature = "resist-nature-s-lure" },
+  { replaces = "Wild empathy", feature = "wild-empathy", by = ["fey-empathy"] },
+  { replaces = "Trackless step", feature = "trackless-step", by = ["fey-stalker"] },
+  { replaces = "Venom immunity", feature = "venom-immunity", by = ["beguiling-immunity"] },
+  { replaces = "A thousand faces", feature = "a-thousand-faces", by = ["first-world-deceiver"] },
+  { alters = "Spontaneous casting", feature = "spontaneous-casting", by = ["enemy-of-the-first-world"] },
+  { alters = "Resist nature's lure", feature = "resist-nature-s-lure", by = ["feybane"] },
+  { alters = "Class skills" },
 ]
 +++
 
 Some druids specialize in protecting Golarion from the threat of First World inhabitants. They are
 devoted to tracking down, diverting, and slaying fey threats.
 
-**Gained class skills:** diplo
+## Class Skills {#class-skills}
 
-**Bonus Languages**
+A defender of the true world gains Diplomacy as a class skill.
 
-**Info:** A defender of the true world can select Aklo, Sylvan, or Undercommon as bonus languages,
-in addition to the normal list of bonus languages available.
+This alters the druid's class skills.
 
-**Enemy of the First World**
+## Bonus Languages {#bonus-languages}
 
-**Alters:** Spontaneous casting
+A defender of the true world can select Aklo, Sylvan, or Undercommon as bonus languages, in addition
+to the normal list of bonus languages available.
 
-**Info:** A defender of the true world cannot use
-[summon nature's ally](ref/spell/summon-natures-ally) to summon fey creatures.
+## Enemy of the First World {#enemy-of-the-first-world}
 
-**Fey Empathy (Ex)**
+A defender of the true world cannot use _[summon nature's ally](ref/spell/summon-natures-ally)_ to
+summon fey creatures.
 
-**Passive:** A defender of the true world gains a competence bonus on Bluff, Diplomacy, and
-Intimidate checks when interacting with fey creatures. This bonus is equal to 2 + one-fourth of her
-druid level.
+This modifies spontaneous casting.
 
-**Replaces:** Wild empathy
+## Fey Empathy (Ex) {#fey-empathy}
 
-**Fey Stalker (Ex)**
+A defender of the true world gains a +2 competence bonus on Bluff, Diplomacy, and Intimidate checks
+when interacting with fey creatures. This bonus increases by 1 for every 4 druid levels she has
+(maximum +7 at 20th level).
 
-**Gained:** At 3rd Level
+This replaces wild empathy.
 
-**Passive:** The defender of the true world's animal companion and any creatures she summons with
+## Fey Stalker (Ex) {#fey-stalker}
+
+At 3rd level, the defender of the true world's animal companion and any creatures she summons with
 _[summon nature's ally](ref/spell/summon-natures-ally)_ gain a +1 morale bonus on attack and damage
-rolls against fey creatures.
+rolls against fey creatures. This bonus increases to +2 at 8th level, +3 at 13th level, and +4 at
+18th level.
 
-**Replaces:** Trackless step
+This ability replaces trackless step.
 
-At 8th level: The bonus increases to +2.
+## Feybane (Ex) {#feybane}
 
-At 13th level: The bonus increases to +3.
-
-At 18th level: The bonus increases to +4.
-
-**Feybane (Ex)**
-
-**Alters:** Resist nature's lure
-
-**Gained:** At 4th Level
-
-**Passive:** A defender of the true world doesn't gain a bonus on saving throws against spells and
+At 4th level, a defender of the true world doesn't gain a bonus on saving throws against spells and
 effects that utilize or target plants. She instead treats her natural attacks as cold iron for the
 purpose of overcoming [damage reduction](ref/rule/damage-reduction), and she gains a +2 bonus on
 caster level checks to overcome the [spell resistance](ref/rule/spell-resistance) of fey creatures.
 
-**Beguiling Immunity (Ex)**
+This ability alters resist nature's lure.
 
-**Gained:** At 9th Level
+## Beguiling Immunity (Ex) {#beguiling-immunity}
 
-**Passive:** A defender of the true world becomes immune to the mind-affecting effects of fey.
+At 9th level, a defender of the true world becomes immune to the mind-affecting effects of fey.
 
-**Replaces:** Venom immunity
+This ability replaces venom immunity.
 
-**First World Deceiver (Su)**
+## First World Deceiver (Su) {#first-world-deceiver}
 
-**Ability:** A defender of the true world gains the ability to change her appearance as per
-[alter self](ref/spell/alter-self), except she can take the form of a humanoid or fey creature. Her
-base land speed from this ability cannot exceed 60 feet.
+At 13th level, a defender of the true world gains the ability to change her appearance as per
+_[alter self](ref/spell/alter-self)_, except she can take the form of a humanoid or fey creature.
+Her base land speed from this ability cannot exceed 60 feet.
 
-**Gained:** At 13th Level
-
-**Replaces:** A thousand faces
+This ability replaces a thousand faces.
