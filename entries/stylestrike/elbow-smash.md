@@ -15,12 +15,7 @@ kind = "class_option"
 group = "style-strike"
 +++
 
-**Elbow Smash**
-
-**Flavor:** The monk follows up a punch with a strike from his elbow.
-
-**Ability:** If the attack hits, the monk can make an additional attack using the same attack bonus
-as the punch at a -5 penalty. If this second attack hits, it deals damage as normal, but all of the
-damage is nonlethal.
-
-**Special:** The monk must attack with a fist to use this style strike.
+The monk follows up a punch with a strike from his elbow. If the attack hits, the monk can make an
+additional attack using the same attack bonus as the punch at a –5 penalty. If this second attack
+hits, it deals damage as normal, but all of the damage is nonlethal. The monk must attack with a
+fist to use this style strike.

@@ -13,9 +13,8 @@ page = "18"
 [fields]
 kind = "class_option"
 group = "ki-power"
+ability_type = "Su"
 +++
 
-**Sudden Speed (Su)**
-
-**Swift:** A monk with this ki power can spend 1 ki point to grant himself a sudden burst of speed.
-This increases the monk's base land speed by 30 feet for 1 minute.
+A monk with this ki power can spend 1 point from his ki pool as a swift action to grant himself a
+sudden burst of speed. This increases the monk's base land speed by 30 feet for 1 minute.

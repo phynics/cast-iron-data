@@ -13,12 +13,9 @@ page = "24"
 [fields]
 kind = "class_option"
 group = "rogue-talent"
+ability_type = "Ex"
 +++
 
-**Light Walker (Ex)**
-
-**Ability:** The rogue can move at full speed through
-[difficult terrain](ref/rule/terrain-and-obstacles) and can take 5-foot steps into difficult
-terrain.
-
-**Prereq:** [Ledge walker](ref/talent/ledge-walker) rogue
+The rogue can move at full speed through [difficult terrain](ref/rule/terrain-and-obstacles) and can
+take 5-foot steps into difficult terrain. A rogue must have the
+[ledge walker](ref/talent/ledge-walker) rogue talent before choosing light walker.

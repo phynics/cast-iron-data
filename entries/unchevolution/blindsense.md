@@ -13,15 +13,12 @@ page = "38"
 [fields]
 kind = "class_option"
 group = "unchained-summoner-evolution"
+ability_type = "Ex"
 +++
 
-**Blindsense (Ex)**
-
-**Ability:** The eidolon's senses become incredibly acute, giving it
-[blindsense](ref/umr/blindsense) with a range of 30 feet. This ability allows the eidolon to
-pinpoint the location of creatures that it can't see without having to attempt a Perception check,
-but such creatures still have total [concealment](ref/rule/concealment) from the eidolon. Visibility
-still affects the eidolon's movement, and it is still denied its Dexterity bonus to Armor Class
-against attacks from creatures it cannot see.
-
-**Prereq:** 9th-level unchained summoner
+The eidolon's senses become incredibly acute, giving it [blindsense](ref/umr/blindsense) with a
+range of 30 feet. This ability allows the eidolon to pinpoint the location of creatures that it
+can't see without having to attempt a Perception check, but such creatures still have total
+[concealment](ref/rule/concealment) from the eidolon. Visibility still affects the eidolon's
+movement, and it is still denied its Dexterity bonus to Armor Class against attacks from creatures
+it cannot see. _Requirements_: Summoner level 9th.

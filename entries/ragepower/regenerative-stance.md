@@ -13,14 +13,10 @@ page = "12"
 [fields]
 kind = "class_option"
 group = "rage-power"
+ability_type = "Ex"
 +++
 
-**Regenerative Stance (Ex)**
-
-**Flavor:** The barbarian can continually replenish her health.
-
-**Passive:** At the start of her turn, she regains temporary hit points equal to
-[one-fourth](ref/misc/fractions-and-rounding) of her barbarian level, but this cannot give her more
-than her maximum temporary hit points from _rage._
-
-**Prereq:** 4th-level barbarian
+The barbarian can continually replenish her health. At the start of her turn, she regains 1
+temporary hit point for every 4 levels she has (up to 5 hit points per round), but this cannot give
+her more than her maximum temporary hit points from rage. This is a stance rage power. A barbarian
+must be at least 4th level to select this rage power.

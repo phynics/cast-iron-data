@@ -13,12 +13,9 @@ page = "37"
 [fields]
 kind = "class_option"
 group = "unchained-summoner-evolution"
+ability_type = "Ex"
 +++
 
-**Weapon Training (Ex)**
-
-**Ability:** The eidolon learns to use a weapon, gaining
-[Simple Weapon Proficiency](ref/feat/simple-weapon-proficiency) as a bonus feat.
-
-**Special:** If 2 additional evolution points are spent, it gains proficiency with all martial
-weapons as well.
+The eidolon learns to use a weapon, gaining
+[Simple Weapon Proficiency](ref/feat/simple-weapon-proficiency) as a bonus feat. If 2 additional
+evolution points are spent, it gains proficiency with all martial weapons as well.

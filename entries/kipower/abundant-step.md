@@ -13,13 +13,11 @@ page = "16"
 [fields]
 kind = "class_option"
 group = "ki-power"
+ability_type = "Su"
 +++
 
-**Abundant Step (Su)**
-
-**Move:** A monk with this ki power can slip magically between spaces, as if using the spell
-[dimension door](ref/spell/dimension-door). Using this ability consumes 2 ki points. The monk's
-caster level for this effect is equal to his monk level. He cannot take other creatures with him
-when he uses this ability.
-
-**Prereq:** 8th-level monk
+A monk with this ki power can slip magically between spaces, as if using the spell
+_[dimension door](ref/spell/dimension-door)_. Using this ability is a move action that consumes 2
+points from his ki pool. The monk's caster level for this effect is equal to his monk level. He
+cannot take other creatures with him when he uses this ability. A monk must be at least 8th level
+before selecting this ki power.

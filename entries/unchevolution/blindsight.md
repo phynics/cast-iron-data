@@ -13,13 +13,10 @@ page = "38"
 [fields]
 kind = "class_option"
 group = "unchained-summoner-evolution"
+ability_type = "Ex"
 +++
 
-**Blindsight (Ex)**
-
-**Ability:** The eidolon's senses sharpen even further, granting it [blindsight](ref/umr/blindsight)
-with a range of 30 feet. The eidolon can maneuver and attack as normal, ignoring darkness,
-invisibility, and most forms of [concealment](ref/rule/concealment) as long as it has line of effect
-to the target.
-
-**Prereq:** 11th-level unchained summoner, [blindsense](ref/unchevolution/blindsense)
+The eidolon's senses sharpen even further, granting it [blindsight](ref/umr/blindsight) with a range
+of 30 feet. The eidolon can maneuver and attack as normal, ignoring darkness, invisibility, and most
+forms of [concealment](ref/rule/concealment) as long as it has line of effect to the target.
+_Requirements_: Summoner level 11th, [blindsense](ref/unchevolution/blindsense) evolution.

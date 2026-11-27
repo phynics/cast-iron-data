@@ -13,13 +13,11 @@ page = "16"
 [fields]
 kind = "class_option"
 group = "ki-power"
+ability_type = "Su"
 +++
 
-**Elemental Burst (Su)**
-
-**Ability:** A monk with this ability can spend 4 ki points to unleash a gout of energy in a 30-foot
-cone. Creatures within the cone take 20d6 points of damage of the same type as the monk's _elemental
-fury_ ki power. A Reflex save (DC = 10 + 1/2 the monk's level + his Wisdom modifier) halves the
-damage.
-
-**Prereq:** 18th-level monk, [elemental fury](ref/kipower/elemental-fury)
+A monk with this ability can spend 4 ki points to unleash a gout of energy in a 30-foot cone.
+Creatures within the cone take 20d6 points of damage of the same type as the monk's
+[elemental fury](ref/kipower/elemental-fury) ki power. A Reflex save (DC = 10 + 1/2 the monk's
+level + his Wisdom modifier) halves the damage. A monk must be at least 18th level and must possess
+the [elemental fury](ref/kipower/elemental-fury) ki power before selecting this ki power.

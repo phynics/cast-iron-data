@@ -13,11 +13,10 @@ page = "22"
 [fields]
 kind = "class_option"
 group = "rogue-talent"
+ability_type = "Ex"
 +++
 
-**Surprise Attack (Unchained Rogue) (Ex)**
-
-**Passive:** During the surprise round, opponents are always considered
-[flat-footed](ref/rule/flat-footed) to a rogue with this ability, even if they have already acted. A
-rogue with this ability adds 1/2 her rogue level to her [sneak attack](ref/ability/sneak-attack)
-damage rolls made during the surprise round.
+During the surprise round, a rogue with this ability always considers opponents
+[flat-footed](ref/rule/flat-footed), even if they have already acted. A rogue with this ability adds
+1/2 her rogue level to her [sneak attack](ref/ability/sneak-attack) damage rolls made during the
+surprise round.

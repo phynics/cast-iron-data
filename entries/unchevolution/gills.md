@@ -13,8 +13,7 @@ page = "35"
 [fields]
 kind = "class_option"
 group = "unchained-summoner-evolution"
+ability_type = "Ex"
 +++
 
-**Gills (Ex)**
-
-**Ability:** The eidolon has gills and can breathe underwater indefinitely.
+The eidolon has gills and can breathe underwater indefinitely.

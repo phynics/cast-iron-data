@@ -15,15 +15,10 @@ kind = "class_option"
 group = "style-strike"
 +++
 
-**Head-Butt**
-
-**Flavor:** The monk slams his head into his enemy's head, leaving his foe reeling.
-
-**Ability:** If the attack hits and the foe is of the same size or one size smaller than the monk,
-the monk can make a free combat maneuver check against the target of this strike (using the base
-attack bonus of the attack used to hit the foe). If the foe is not of the same creature type as the
-monk, the monk takes a -8 penalty on this check. If the check is successful, the target is
-[staggered](ref/misc/staggered) for 1 round.
-
-**Special:** Creatures without a discernible head are not affected by this style strike (subject to
-GM discretion). The monk must attack with a head-butt to use this style strike.
+The monk slams his head into his enemy's head, leaving his foe reeling. If the attack hits and the
+foe is of the same size or one size smaller than the monk, the monk can make a free combat maneuver
+check against the target of this strike (using the base attack bonus of the attack used to hit the
+foe). If the foe is not of the same creature type as the monk, the monk takes a –8 penalty on this
+check. If the check is successful, the target is [staggered](ref/misc/staggered) for 1 round.
+Creatures without a discernible head are not affected by this style strike (subject to GM
+discretion). The monk must attack with a head-butt to use this style strike.

@@ -13,28 +13,24 @@ page = "39"
 [fields]
 kind = "class_option"
 group = "unchained-summoner-evolution"
+ability_type = "Ex"
 +++
 
-**Large (Ex)**
+The eidolon grows in size, becoming Large. The eidolon gains a +4 bonus to Strength, a +2 bonus to
+Constitution, and a +2 bonus to its natural armor. It takes a –2 penalty to Dexterity. This size
+change also gives the creature a –1 size penalty to AC and on attack rolls, a +1 bonus on combat
+maneuver checks and to CMD, a –2 penalty on Fly checks, and a –4 penalty on Stealth checks. If the
+eidolon has the biped base form, it also gains a [reach](ref/unchevolution/reach) of 10 feet. Any
+reach evolutions the eidolon possesses are added to this total.
 
-**Ability:** The eidolon grows in size, becoming Large. The eidolon gains a +4 bonus to Strength, a
-+2 bonus to Constitution, and a +2 bonus to its natural armor. It takes a -2 penalty to Dexterity.
-This size change also gives the creature a -1 size penalty to AC and on attack rolls, a +1 bonus on
-combat maneuver checks and to CMD, a -2 penalty on Fly checks, and a -4 penalty on Stealth checks.
-If the eidolon has the biped base form, it also gains a reach of 10 feet. Any
-[reach](ref/unchevolution/reach) evolutions the eidolon possesses are added to this total.
+If 6 additional evolution points are spent, the eidolon instead becomes Huge. The eidolon gains a +8
+bonus to Strength, a +4 bonus to Constitution, and a +5 bonus to its natural armor. It takes a –4
+penalty to Dexterity. This size change also gives the creature a –2 size penalty to AC and on attack
+rolls, a +2 bonus on combat maneuver checks and to CMD, a 10-foot reach, a –4 penalty on Fly checks,
+and a –8 penalty on Stealth checks. If the eidolon has the biped base form, its reach increases to
+15 feet instead of 10 feet. Any reach evolutions the eidolon possesses are added to this total.
+These bonuses and penalties replace, and do not stack with, those gained from becoming Large.
 
-**At 13th level,** if 6 additional evolution points are spent, the eidolon instead becomes Huge. The
-eidolon gains a +8 bonus to Strength, a +4 bonus to Constitution, and a +5 bonus to its natural
-armor. It takes a -4 penalty to Dexterity. This size change also gives the creature a -2 size
-penalty to AC and on attack rolls, a +2 bonus on combat maneuver checks and to CMD, a 10-foot reach,
-a -4 penalty on Fly checks, and a -8 penalty on Stealth checks. If the eidolon has the biped base
-form, its reach increases to 15 feet instead of 10 feet. Any _reach_ evolutions the eidolon
-possesses are added to this total. These bonuses and penalties replace, and do not stack with, those
-gained from becoming Large.
-
-**Prereq:** 8th-level unchained summoner, Medium size
-
-**Special:** The [ability increase](ref/unchevolution/ability-increase) evolution costs twice as
-much (4 evolution points) when adding to the Strength or Constitution scores of a Large or Huge
-eidolon.
+The [ability increase](ref/unchevolution/ability-increase) evolution costs twice as much (4
+evolution points) when adding to the Strength or Constitution scores of a Large or Huge eidolon.
+_Requirements_: Summoner level 8th (13th for Huge), Medium size.

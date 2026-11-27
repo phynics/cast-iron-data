@@ -13,12 +13,11 @@ page = "18"
 [fields]
 kind = "class_option"
 group = "ki-power"
+ability_type = "Su"
 +++
 
-**Slow Fall (Su)**
-
-**Ability:** A monk within arm's reach of a wall can use it to slow his descent by expending 1 ki
-point. When he uses this ability, he takes no damage from the fall (as if using
-[feather fall](ref/spell/feather-fall)), but he must be adjacent to a wall for the length of the
+A monk within arm's reach of a wall can use it to slow his descent by expending 1 point from his ki
+pool. When he uses this ability, he takes no damage from the fall (as if using
+_[feather fall](ref/spell/feather-fall)_), but he must be adjacent to a wall for the length of the
 fall (although this can be used to reduce the damage from a fall if only part of it is adjacent to a
 wall).

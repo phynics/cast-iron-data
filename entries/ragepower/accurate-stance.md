@@ -13,11 +13,9 @@ page = "9"
 [fields]
 kind = "class_option"
 group = "rage-power"
+ability_type = "Ex"
 +++
 
-**Accurate Stance (Ex)**
-
-**Flavor:** The barbarian can focus her strikes.
-
-**Passive:** She gains a competence bonus on melee attack rolls and thrown weapon attack rolls. This
-bonus is equal to 1 + one-fourth of her barbarian level.
+The barbarian can focus her strikes. She gains a +1 competence bonus on melee attack rolls and
+thrown weapon attack rolls. This bonus increases by 1 for every 4 levels the barbarian has. This is
+a stance rage power.

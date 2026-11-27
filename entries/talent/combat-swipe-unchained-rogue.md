@@ -15,10 +15,6 @@ kind = "class_option"
 group = "rogue-talent"
 +++
 
-**Combat Swipe (Unchained Rogue)**
-
-**Ability:** A rogue who selects this talent gains [Improved Steal](ref/feat/improved-steal) as a
-bonus feat.
-
-**At 6th level,** she is treated as if she met all the prerequisites for
+A rogue with this talent gains [Improved Steal](ref/feat/improved-steal) as a bonus feat. At 6th
+level, she is treated as if she met all the prerequisites for
 [Greater Steal](ref/feat/greater-steal) (although she must take the feat as normal).

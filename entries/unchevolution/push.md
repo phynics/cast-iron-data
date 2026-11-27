@@ -13,18 +13,13 @@ page = "35"
 [fields]
 kind = "class_option"
 group = "unchained-summoner-evolution"
+ability_type = "Ex"
 +++
 
-**Push (Ex)**
-
-**Flavor:** The eidolon gains the ability to push creatures away with a successful attack.
-
-**Ability:** Select one type of natural attack. Whenever the eidolon makes a successful attack of
-the selected type, it can attempt a free combat maneuver check. If the eidolon succeeds at this
-check, it pushes the target of the attack 5 feet directly away from it.
-
-This ability works only on creatures of a size category equal to or smaller than the eidolon.
-Creatures pushed in this way do not provoke attacks of opportunity.
-
-**Special:** This evolution can be selected more than once. Its effects do not stack. Each time an
-eidolon selects this evolution, it applies to a different natural attack.
+The eidolon gains the ability to push creatures away with a successful attack. Select one type of
+natural attack. Whenever the eidolon makes a successful attack of the selected type, it can attempt
+a free combat maneuver check. If the eidolon succeeds at this check, it pushes the target of the
+attack 5 feet directly away from it. This ability works only on creatures of a size category equal
+to or smaller than the eidolon. Creatures pushed in this way do not provoke attacks of opportunity.
+This evolution can be selected more than once. Its effects do not stack. Each time an eidolon
+selects this evolution, it applies to a different natural attack.

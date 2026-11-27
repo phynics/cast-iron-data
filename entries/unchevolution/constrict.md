@@ -13,15 +13,11 @@ page = "36"
 [fields]
 kind = "class_option"
 group = "unchained-summoner-evolution"
+ability_type = "Ex"
 +++
 
-**Constrict (Ex)**
-
-**Flavor:** The eidolon gains powerful muscles that allow it to crush those it grapples.
-
-**Passive:** Whenever the eidolon successfully grapples a foe using the
-_[grab](ref/carried/bestiary/rules/universal-monster-rules/grab)_ evolution, it deals additional
-damage equal to the amount of damage dealt by the attack the
-_[grab](ref/carried/bestiary/rules/universal-monster-rules/grab)_ evolution is tied to.
-
-**Prereq:** Serpentine base form, [grab](ref/unchevolution/grab)
+The eidolon gains powerful muscles that allow it to crush those it grapples. Whenever the eidolon
+successfully grapples a foe using the [grab](ref/unchevolution/grab) evolution, it deals additional
+damage equal to the amount of damage dealt by the attack the [grab](ref/unchevolution/grab)
+evolution is tied to. _Requirements_: Serpentine base form, [grab](ref/unchevolution/grab)
+evolution.

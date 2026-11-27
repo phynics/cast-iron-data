@@ -8,17 +8,18 @@ provenance = [
 ]
 [[sources]]
 publication = "pathfinder-unchained"
-page = "23"
+page = "20-23"
 
 [fields]
 kind = "class_option"
 group = "rogue-talent"
+ability_type = "Ex"
 +++
 
-**Deadly Sneak (Unchained Rogue) (Ex)**
+Talents marked with an asterisk add effects to a rogue’s sneak attack. Only one of these talents can
+be applied to an individual attack, and the decision must be made before the attack roll is made.
 
-**Ability:** When a rogue with this talent uses the _powerful sneak_ talent, she rerolls all sneak
-attack dice that resulted in 1s or 2s. She can reroll multiple dice, but she can't reroll any
-individual die more than once per attack.
-
-**Prereq:** [Powerful sneak](ref/talent/powerful-sneak)
+When a rogue with this talent uses the [powerful sneak](ref/talent/powerful-sneak) talent, she
+rerolls all sneak attack dice that resulted in 1s or 2s. She can reroll multiple dice, but she can't
+reroll any individual die more than once per attack. A rogue must have the
+[powerful sneak](ref/talent/powerful-sneak) talent before selecting this talent.

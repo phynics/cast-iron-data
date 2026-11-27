@@ -13,11 +13,8 @@ page = "23"
 [fields]
 kind = "class_option"
 group = "rogue-talent"
+ability_type = "Ex"
 +++
 
-**Cutting Edge (Ex)**
-
-**Ability:** A rogue with this ability immediately selects two additional skills with her _rogue's
-edge_ ability.
-
-**Special:** She can select this advanced talent multiple times.
+A rogue with this ability immediately selects two additional skills with her rogue's edge ability.
+She can select this advanced talent multiple times.

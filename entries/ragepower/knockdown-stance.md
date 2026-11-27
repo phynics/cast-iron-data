@@ -13,13 +13,10 @@ page = "11"
 [fields]
 kind = "class_option"
 group = "rage-power"
+ability_type = "Ex"
 +++
 
-**Knockdown Stance (Ex)**
-
-**Flavor:** The barbarian can focus on toppling her foes.
-
-**Ability:** Once per round, she can make a [trip](ref/rule/trip) attack against one target in place
-of a melee attack. If she succeeds, the target is knocked [prone](ref/rule/prone).
-
-**Provokes attack of opportunity:** No
+The barbarian can focus on toppling her foes. Once per round, she can make a [trip](ref/rule/trip)
+attack against one target in place of a melee attack. If she succeeds, the target is knocked
+[prone](ref/rule/prone). This trip attempt doesn't provoke an attack of opportunity. This is a
+stance rage power.

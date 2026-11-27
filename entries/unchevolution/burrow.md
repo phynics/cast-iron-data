@@ -13,14 +13,10 @@ page = "38"
 [fields]
 kind = "class_option"
 group = "unchained-summoner-evolution"
+ability_type = "Ex"
 +++
 
-**Burrow (Ex)**
-
-**Flavor:** The eidolon grows thick and gnarled claws, allowing it to move through the earth.
-
-**Ability:** The eidolon gains a burrow speed equal to 1/2 its base speed. It can use this speed to
-move through clay, dirt, earth, and sand. It does not leave a hole behind, nor is its passage marked
-on the surface.
-
-**Prereq:** 9th-level unchained summoner
+The eidolon grows thick and gnarled claws, allowing it to move through the earth. The eidolon gains
+a burrow speed equal to 1/2 its base speed. It can use this speed to move through clay, dirt, earth,
+and sand. It does not leave a hole behind, nor is its passage marked on the surface. _Requirements_:
+Summoner level 9th.

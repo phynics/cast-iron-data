@@ -13,10 +13,8 @@ page = "36"
 [fields]
 kind = "class_option"
 group = "unchained-summoner-evolution"
+ability_type = "Ex"
 +++
 
-**Reach (Ex)**
-
-**Flavor:** One of the eidolon's attacks is capable of striking foes at a distance.
-
-**Ability:** Select one attack. The eidolon's reach with that attack increases by 5 feet.
+One of the eidolon's attacks is capable of striking foes at a distance. Select one attack. The
+eidolon's reach with that attack increases by 5 feet.

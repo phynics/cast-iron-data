@@ -13,14 +13,10 @@ page = "18"
 [fields]
 kind = "class_option"
 group = "ki-power"
+ability_type = "Ex"
 +++
 
-**One Touch (Ex)**
-
-**Standard:** As long as he has at least 1 point remaining in his ki pool, a monk with this power
-can make an unarmed strike against a foe as a touch attack. He adds 1/2 his monk level as a bonus on
-the damage roll.
-
-**Prereq:** 12th-level monk
-
-**Special:** He can spend 1 ki point to double this bonus for that attack.
+As long as he has at least 1 point remaining in his ki pool, as a standard action, a monk with this
+power can make an unarmed strike against a foe as a touch attack. He adds 1/2 his monk level as a
+bonus on the damage roll. He can spend 1 ki point to double this bonus for that attack. A monk must
+be at least 12th level before selecting this ki power.

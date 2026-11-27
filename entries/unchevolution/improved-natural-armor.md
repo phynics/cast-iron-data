@@ -13,12 +13,9 @@ page = "35"
 [fields]
 kind = "class_option"
 group = "unchained-summoner-evolution"
+ability_type = "Ex"
 +++
 
-**Improved Natural Armor (Ex)**
-
-**Passive:** The eidolon's hide grows thick fur, rigid scales, or bony plates, giving it a +2 bonus
-to its natural armor.
-
-**Special:** This evolution can be taken once, plus one additional time for every 5 levels the
+The eidolon's hide grows thick fur, rigid scales, or bony plates, giving it a +2 bonus to its
+natural armor. This evolution can be taken once, plus one additional time for every 5 levels the
 summoner possesses. Each additional time it's taken, the bonus increases by 2.

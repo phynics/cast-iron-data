@@ -13,13 +13,11 @@ page = "37"
 [fields]
 kind = "class_option"
 group = "unchained-summoner-evolution"
+ability_type = "Ex"
 +++
 
-**Grab (Ex)**
-
-**Ability:** The eidolon becomes adept at grappling foes, gaining the [grab](ref/umr/grab) ability.
-Select one of the following attacks: [bite](ref/unchevolution/bite),
-[claws](ref/unchevolution/claws), [pincers](ref/unchevolution/pincers),
+The eidolon becomes adept at grappling foes, gaining the [grab](ref/umr/grab) ability. Select one of
+the following attacks: [bite](ref/unchevolution/bite), claw, [pincers](ref/unchevolution/pincers),
 [slam](ref/unchevolution/slam), [tail slap](ref/unchevolution/tail-slap), or
 [tentacle](ref/unchevolution/tentacle). Whenever the eidolon makes a successful attack of the
 selected type, it can attempt a free combat maneuver check. If successful, the eidolon

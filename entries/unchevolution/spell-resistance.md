@@ -13,13 +13,9 @@ page = "39"
 [fields]
 kind = "class_option"
 group = "unchained-summoner-evolution"
+ability_type = "Ex"
 +++
 
-**Spell Resistance (Ex)**
-
-**Flavor:** The eidolon is protected against magic, gaining spell resistance.
-
-**Passive:** The eidolon's spell resistance is equal to 11 + the summoner's level. This spell
-resistance does not apply to spells cast by the summoner.
-
-**Prereq:** 9th-level unchained summoner
+The eidolon is protected against magic, gaining spell resistance. The eidolon's spell resistance is
+equal to 11 + the summoner's level. This spell resistance does not apply to spells cast by the
+summoner. _Requirements_: Summoner level 9th.
