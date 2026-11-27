@@ -4983,6 +4983,9 @@ TRADE_RENAMES.update({
     ("ref/arc-witch/dimensional-occultist", "12th-level hex"): "Hex gained at 12th level",
 })
 MISPRINTS.append(
+    ("ref/arc-druid/goliath-druid", "she must selected from the Animal", "she must select from the Animal",
+     "print has \"must selected\" for \"must select\" (Giant Hunter's Handbook p. 20; owner ruling 43, with an errata row)"))
+MISPRINTS.append(
     ("ref/arc-fighter/swarm-fighter", "against the swam fighter's attacks", "against the swarm fighter's attacks",
      "print has \"swam fighter's attacks\" for \"swarm fighter's attacks\" (Kobolds of Golarion p. 23; owner ruling 9)"))
 MISPRINTS.append(
