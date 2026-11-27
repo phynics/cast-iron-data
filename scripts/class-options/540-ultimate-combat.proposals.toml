@@ -1,4 +1,4 @@
-# Printed proposals for Ultimate Combat class options.
+# The printed text of the powers of the class options of the book, written ones included (the check reads an entry against it). Generated: never edit by hand.
 
 [[entry]]
 id = "ref/arcana/accurate-strike"
@@ -163,12 +163,19 @@ print = "At 19th level, when a gunslinger hits a creature, she can spend 2 grit 
 [[entry]]
 id = "ref/deed/utility-shot"
 anchor = "utility-shot"
-print = "At 3rd level, if the gunslinger has at least 1 grit point, she can perform all of the following utility shots. Each utility shot can be applied to any single attack with a firearm, but the gunslinger must declare the utility shot she is using before firing the shot. • _Blast Lock_: The gunslinger makes an attack roll against a lock within the first range increment of her firearm. A Diminutive lock usually has AC 7, and larger locks have a lower AC. The lock gains a bonus to its AC against this attack based on its quality. A simple lock has a +10 bonus to AC, an average lock has a +15 bonus to AC, a good lock has a +20 bonus to AC, and a superior lock has a +30 bonus to AC. _[Arcane lock](ref/spell/arcane-lock)_ grants a +10 bonus to the AC of a lock against this attack. On a hit, the lock is destroyed, and the object can be opened as if it were unlocked. On a miss, the lock is destroyed, but the object is jammed and still considered locked. It can still be unlocked by successfully performing this deed, by using the Disable Device skill, or with the break DC, though the DC for either break or Disable Device or the AC increases by 10.\n\nA key, combination, or similar mechanical method of unlocking the lock no longer works, though _[knock](ref/spell/knock)_ can still be employed to bypass the lock, and the creator of an _[arcane lock](ref/spell/arcane-lock)_ can still bypass the wards of that spell. • _Scoot Unattended Object_: The gunslinger makes an attack roll against a Tiny or smaller unattended object within the first range increment of her firearm. A Tiny unattended object has an AC of 5, a Diminutive unattended object has an AC of 7, and a Fine unattended object has an AC of 11. On a hit, the gunslinger does not damage the object with the shot, but can move it up to 15 feet farther away from the shot's origin. On a miss, she damages the object normally. • _Stop Bleeding_: The gunslinger makes a firearm attack and then presses the hot barrel against herself or an adjacent creature to staunch a bleeding wound. Instead of dealing damage, the shot ends a single [bleed](ref/rule/bleed) condition affecting the creature. The gunslinger does not have to make an attack roll when performing the deed in this way; she can instead shoot the firearm into the air, but that shot still uses up ammunition normally."
+print = '''
+At 3rd level, if the gunslinger has at least 1 grit point, she can perform all of the following utility shots. Each utility shot can be applied to any single attack with a firearm, but the gunslinger must declare the utility shot she is using before firing the shot.
+
+- _Blast Lock_: The gunslinger makes an attack roll against a lock within the first range increment of her firearm. A Diminutive lock usually has AC 7, and larger locks have a lower AC. The lock gains a bonus to its AC against this attack based on its quality. A simple lock has a +10 bonus to AC, an average lock has a +15 bonus to AC, a good lock has a +20 bonus to AC, and a superior lock has a +30 bonus to AC. _[Arcane lock](ref/spell/arcane-lock)_ grants a +10 bonus to the AC of a lock against this attack. On a hit, the lock is destroyed, and the object can be opened as if it were unlocked. On a miss, the lock is destroyed, but the object is jammed and still considered locked. It can still be unlocked by successfully performing this deed, by using the Disable Device skill, or with the break DC, though the DC for either break or Disable Device or the AC increases by 10. A key, combination, or similar mechanical method of unlocking the lock no longer works, though _[knock](ref/spell/knock)_ can still be employed to bypass the lock, and the creator of an _[arcane lock](ref/spell/arcane-lock)_ can still bypass the wards of that spell.
+
+- _Scoot Unattended Object_: The gunslinger makes an attack roll against a Tiny or smaller unattended object within the first range increment of her firearm. A Tiny unattended object has an AC of 5, a Diminutive unattended object has an AC of 7, and a Fine unattended object has an AC of 11. On a hit, the gunslinger does not damage the object with the shot, but can move it up to 15 feet farther away from the shot's origin. On a miss, she damages the object normally.
+
+- _Stop Bleeding_: The gunslinger makes a firearm attack and then presses the hot barrel against herself or an adjacent creature to staunch a bleeding wound. Instead of dealing damage, the shot ends a single [bleed](ref/rule/bleed) condition affecting the creature. The gunslinger does not have to make an attack roll when performing the deed in this way; she can instead shoot the firearm into the air, but that shot still uses up ammunition normally.'''
 
 [[entry]]
 id = "ref/discovery/breath-weapon-bomb"
 anchor = "breath-weapon-bomb"
-print = "Instead of drawing the components of, creating, and throwing a bomb, the alchemist can draw the components, drink them, mix them within his body, and then expel them as a breath weapon as a standard action. This breath weapon is a 15-foot cone and has the same DC as the bomb. Each creature within the cone takes damage as if it had suffered a direct hit from the alchemist's bomb, but succeeding at a Reflex save (DC = 10 + 1/2 the alchemist's level + the alchemist's Intelligent modifier) halves the damage. Unlike throwing normal bombs, drawing, drinking, and expelling breath weapon bombs does not provoke attacks of opportunity. An alchemist must be at least 6th level before selecting this discovery."
+print = "Instead of drawing the components of, creating, and throwing a bomb, the alchemist can draw the components, drink them, mix them within his body, and then expel them as a breath weapon as a standard action. This breath weapon is a 15-foot cone and has the same DC as the bomb. Each creature within the cone takes damage as if it had suffered a direct hit from the alchemist's bomb, but succeeding at a Reflex save (DC = 10 + 1/2 the alchemist's level + the alchemist's Intelligence modifier) halves the damage. Unlike throwing normal bombs, drawing, drinking, and expelling breath weapon bombs does not provoke attacks of opportunity. An alchemist must be at least 6th level before selecting this discovery."
 
 [[entry]]
 id = "ref/discovery/explosive-missile"
@@ -308,7 +315,7 @@ print = "A ninja with this trick can invest a portion of her ki into a single th
 [[entry]]
 id = "ref/ninjatrick/master-disguise"
 anchor = "master-disguise"
-print = "A ninja with this trick can take on the appearance of other creatures and individuals. Whenever the ninja uses the [sudden disguise](ref/ninjatrick/sudden-disguise) ninja trick, the duration increases to 10 minutes per level. Alternatively, the ninja can use the [sudden disguise](ref/ninjatrick/sudden-disguise) ninja trick to take on the appearance of a specific individual that the ninja has seen before for 1 minute per level. Creatures that are familiar with the individual receive a Will saving throw to see through the illusion. The DC of this saving throw is 10 + 1/2 the ninja's level + the ninja's Charisma modifier. This illusion also changes the ninja's speech, if she has heard the individual talk and can speak his language. The ninja must have the sudden disguise ninja trick before selecting this trick."
+print = "A ninja with this trick can take on the appearance of other creatures and individuals. Whenever the ninja uses the [sudden disguise](ref/ninjatrick/sudden-disguise) ninja trick, the duration increases to 10 minutes per level. Alternatively, the ninja can use the [sudden disguise](ref/ninjatrick/sudden-disguise) ninja trick to take on the appearance of a specific individual that the ninja has seen before for 1 minute per level. Creatures that are familiar with the individual receive a Will saving throw to see through the illusion. The DC of this saving throw is 10 + 1/2 the ninja's level + the ninja's Charisma modifier. This illusion also changes the ninja's speech, if she has heard the individual talk and can speak his language. The ninja must have the [sudden disguise](ref/ninjatrick/sudden-disguise) ninja trick before selecting this trick."
 
 [[entry]]
 id = "ref/ninjatrick/poison-bomb"
@@ -412,6 +419,31 @@ print = "A ninja who selects this ninja trick gains [Weapon Focus](ref/feat/weap
 
 [[entry]]
 id = "ref/order/order-of-the-blue-rose"
+anchor = "opening"
+print = "The cavaliers of the order of the blue rose dedicate themselves to promoting peace in the lands they roam. Skilled warriors and adept diplomats, these cavaliers counsel wisdom, patience, and understanding, but are ever mindful of the need to take up arms to strike down aggressors, tyrants, or evil usurpers. Although they believe wholeheartedly in peace as an aim and a final goal, cavaliers of the blue rose are warriors first, and embrace their role as guardians of those who cannot or will not take up arms to defend themselves."
+
+[[entry]]
+id = "ref/order/order-of-the-blue-rose"
+anchor = "edicts"
+print = "The cavalier must guard against needless violence, protecting both the land and its people from wars they neither started nor wish to fight. He must seek to stop conflict with a minimum of bloodshed, to encourage peaceful resolutions to disagreements between intelligent creatures, and to mend the wounds opened by battle. He must also honor quarter when he gives it, protecting captives who have surrendered from his own allies if need be."
+
+[[entry]]
+id = "ref/order/order-of-the-blue-rose"
+anchor = "challenge"
+print = "Whenever an order of the blue rose cavalier issues a challenge, he receives a +1 morale bonus on attack rolls made against the target of his challenge, if the target is an intelligent creature to whom the cavalier offered the chance to surrender (by taking a standard action to offer terms). This bonus increases by +1 for every four levels the cavalier possesses (to a maximum of +5 at 17th level)."
+
+[[entry]]
+id = "ref/order/order-of-the-blue-rose"
+anchor = "skills"
+print = "An order of the blue rose cavalier adds [Knowledge (history)](ref/skill/knowledge-history) (Int) and [Knowledge (nobility)](ref/skill/knowledge-nobility) (Int) to his list of class skills. Whenever an order of the blue rose cavalier uses [Diplomacy](ref/skill/diplomacy) to try to mediate a dispute between two parties that do not include him, he receives a bonus on the check equal to 1/2 his cavalier level (minimum +1)."
+
+[[entry]]
+id = "ref/order/order-of-the-blue-rose"
+anchor = "order-abilities"
+print = "A cavalier belonging to the order of the blue rose gains the following abilities as he increases in level."
+
+[[entry]]
+id = "ref/order/order-of-the-blue-rose"
 anchor = "flat-of-the-blade"
 print = "At 2nd level, the cavalier of the order of the blue rose gains the ability to moderate his attacks in order to take an enemy alive. He no longer takes a -4 penalty when attacking with a lethal weapon to deal nonlethal damage. When dealing nonlethal damage, the cavalier receives a +2 bonus on damage rolls. When the cavalier makes use of this ability, he must attempt to subdue his target without killing it; dealing lethal damage after using this ability, or allowing his allies to kill the target, is considered a violation of his edicts."
 
@@ -427,8 +459,28 @@ print = "At 15th level, the cavalier gains an expert sense of impending violence
 
 [[entry]]
 id = "ref/order/order-of-the-seal"
-anchor = "i-shall-not-be-moved"
-print = "At 8th level, the cavalier can draw on his dedication to overcome physical weakness. Whenever the cavalier does not move more than a 5-foot step, he receives a +2 dodge bonus to his CMD to resist bull rush, overrun, reposition, and trip combat maneuvers until his next turn."
+anchor = "opening"
+print = "Cavaliers of the order of the seal are a secretive order, each charged with the protection of a specific object (such as a dangerous magic item), place (a lost temple), or secret (that a certain peasant is actually the last descendant of the royal line). Such cavaliers are the defenders of ancient traditions or the servants of rulers with important secrets to hide, sometimes having to search out such secrets in order to properly protect and preserve them."
+
+[[entry]]
+id = "ref/order/order-of-the-seal"
+anchor = "edicts"
+print = "The cavalier must guard his sworn charge with all he has: his health, his honor, and his very life. If his charge is a place, he must keep intruders out. If it is a thing, he must keep it safe from thieves—and restore the item to its rightful place if taken."
+
+[[entry]]
+id = "ref/order/order-of-the-seal"
+anchor = "challenge"
+print = "An order of the seal cavalier can make a free bull rush or trip combat maneuver anytime he takes the full-attack action against the target of his challenge. This free combat maneuver does not provoke an attack of opportunity."
+
+[[entry]]
+id = "ref/order/order-of-the-seal"
+anchor = "skills"
+print = "An order of the seal cavalier adds [Disable Device](ref/skill/disable-device) (Dex) and [Linguistics](ref/skill/linguistics) (Int) to his list of class skills. Whenever the cavalier uses [Bluff](ref/skill/bluff) to conceal information about his sworn charge, he receives a competence bonus equal to 1/2 his cavalier level (minimum +1)."
+
+[[entry]]
+id = "ref/order/order-of-the-seal"
+anchor = "order-abilities"
+print = "A cavalier belonging to the order of the seal gains the following abilities as he increases in level."
 
 [[entry]]
 id = "ref/order/order-of-the-seal"
@@ -437,13 +489,43 @@ print = "At 2nd level, once per day the cavalier must select a location, or a se
 
 [[entry]]
 id = "ref/order/order-of-the-seal"
+anchor = "i-shall-not-be-moved"
+print = "At 8th level, the cavalier can draw on his dedication to overcome physical weakness. Whenever the cavalier does not move more than a 5-foot step, he receives a +2 dodge bonus to his CMD to resist bull rush, overrun, reposition, and trip combat maneuvers until his next turn."
+
+[[entry]]
+id = "ref/order/order-of-the-seal"
 anchor = "staggering-assault"
 print = "At 15th level, the cavalier can drive opponents back without giving ground. As a full-round action, the cavalier can make a single attack at his highest attack bonus. If the attack hits, the attack does damage as normal, and the cavalier may attempt a [bull rush](ref/rule/bull-rush) against the target. The cavalier gains a bonus on the bull rush combat maneuver check equal to half the amount of damage dealt on the initial attack."
 
 [[entry]]
 id = "ref/order/order-of-the-tome"
-anchor = "defensive-knowledge"
-print = "At 15th level, an order of the tome cavalier can grant nearby allies some of the boons of his cavalier challenge. While allies are adjacent to the cavalier, they gain a +2 bonus on all saving throws against spells or [spell-like abilities](ref/umr/spell-like-abilities) cast by the subject of the cavalier's challenge. In addition, as an immediate action, a number of times per day equal to the cavalier's Intelligence modifier (minimum 1) or Wisdom modifier (minimum 1), the cavalier can allow an ally adjacent to him to reroll a single failed saving throw against a spell or [spell-like ability](ref/umr/spell-like-abilities) from the target of his challenge. The ally must be able to see and hear the cavalier in order to gain this reroll. The ability score that determines how many times per day a cavalier can use this ability depends on which Knowledge skill the cavalier picked for specialized knowledge. If the cavalier picked Knowledge (arcana), the number of times per day this ability can be used is based on Intelligence. If he picked Knowledge (religion) it is based on Wisdom."
+anchor = "opening"
+print = "Knowledge is the stepping stone of both truth and power. The members of this order devote themselves to the preservation of knowledge. Most would protect written knowledge at all costs, but there are members that believe there is such thing as knowledge too dangerous to be allowed to exist, and seek to destroy it."
+
+[[entry]]
+id = "ref/order/order-of-the-tome"
+anchor = "edicts"
+print = "An order of the tome cavalier must protect written knowledge (or at least approved knowledge) at all costs. Some are also devoted to the destruction of proscribed knowledge and are equally zealous in the pursuit of its destruction. Most of these cavaliers believe that the preservation of a written work is more important than a single life, even their own, as it ensures future generations benefit from its wisdom."
+
+[[entry]]
+id = "ref/order/order-of-the-tome"
+anchor = "challenge"
+print = "Whenever an order of the tome cavalier issues a challenge, he receives a +2 bonus on all saving throws against spells or [spell-like abilities](ref/umr/spell-like-abilities) cast by the subject of his challenge and a +2 bonus on all [Bluff](ref/skill/bluff) and [Sense motive](ref/skill/sense-motive) checks involving the subject of his challenge."
+
+[[entry]]
+id = "ref/order/order-of-the-tome"
+anchor = "skills"
+print = "An order of the tome cavalier adds [Knowledge (arcana)](ref/skill/knowledge-arcana), [Knowledge (religion)](ref/skill/knowledge-religion), and [Linguistics](ref/skill/linguistics) to his list of class skills. Furthermore, he can use Linguistics untrained. If he has ranks in Linguistics, he receives a bonus on the check equal to 1/2 his cavalier level (minimum +1)."
+
+[[entry]]
+id = "ref/order/order-of-the-tome"
+anchor = "order-abilities"
+print = "A cavalier belonging to the order of the tome gains the following abilities as he increases in level."
+
+[[entry]]
+id = "ref/order/order-of-the-tome"
+anchor = "specialized-knowledge"
+print = "At 2nd level, an order of the tome cavalier chooses either Knowledge (arcana) or Knowledge (religion). He can make the chosen skill checks untrained. He cannot change his chosen skill later. If he has ranks in his chosen skill, he receives a bonus on the check equal to 1/2 his cavalier level (minimum +1) as long as that check involves a book, tome, scroll, or any other form of written knowledge."
 
 [[entry]]
 id = "ref/order/order-of-the-tome"
@@ -452,8 +534,203 @@ print = "At 8th level, the cavalier gains the ability to read scrolls and cast a
 
 [[entry]]
 id = "ref/order/order-of-the-tome"
-anchor = "specialized-knowledge"
-print = "At 2nd level, an order of the tome cavalier chooses either Knowledge (arcana) or Knowledge (religion). He can make the chosen skill checks untrained. He cannot change his chosen skill later. If he has ranks in his chosen skill, he receives a bonus on the check equal to 1/2 his cavalier level (minimum +1) as long as that check involves a book, tome, scroll, or any other form of written knowledge."
+anchor = "defensive-knowledge"
+print = "At 15th level, an order of the tome cavalier can grant nearby allies some of the boons of his cavalier challenge. While allies are adjacent to the cavalier, they gain a +2 bonus on all saving throws against spells or [spell-like abilities](ref/umr/spell-like-abilities) cast by the subject of the cavalier's challenge. In addition, as an immediate action, a number of times per day equal to the cavalier's Intelligence modifier (minimum 1) or Wisdom modifier (minimum 1), the cavalier can allow an ally adjacent to him to reroll a single failed saving throw against a spell or [spell-like ability](ref/umr/spell-like-abilities) from the target of his challenge. The ally must be able to see and hear the cavalier in order to gain this reroll. The ability score that determines how many times per day a cavalier can use this ability depends on which Knowledge skill the cavalier picked for specialized knowledge. If the cavalier picked Knowledge (arcana), the number of times per day this ability can be used is based on Intelligence. If he picked Knowledge (religion) it is based on Wisdom."
+
+[[entry]]
+id = "ref/order/order-of-the-tome"
+anchor = "cavalier-archetypes"
+print = "The following are new cavalier archetypes. Unless stated otherwise, cavaliers of any order can take these archetypes."
+
+[[entry]]
+id = "ref/order/order-of-the-tome"
+anchor = "beast-rider-archetype"
+print = "The cavalier is defined not only by his dedication to his order or his skill on the battlefield, but also by the special relationship he maintains with his mount. Where some cavaliers are simply skilled with horses or well-trained knights, the beast rider spends his life in constant pursuit of the most perfect mount, forming bonds with greater, more powerful, and more exotic creatures."
+
+[[entry]]
+id = "ref/order/order-of-the-tome"
+anchor = "armor-proficiency"
+print = "A beast rider is proficient with light and medium armor, and with shields (with the exception of tower shields)."
+
+[[entry]]
+id = "ref/order/order-of-the-tome"
+anchor = "exotic-mount"
+print = '''
+At 1st level, a beast rider forms a bond with a strong, loyal companion that permits him to ride it as a mount. This mount functions as a druid's animal companion, using the beast rider's level as his effective druid level. The animal chosen as a mount must be large enough to carry the beast rider (Medium or Large for a Small character; Large or Huge for a Medium character).
+
+The beast rider does not take an armor check penalty on Ride checks while riding his mount. The mount is always considered combat trained, and begins play with Endurance as a bonus feat. A beast rider's mount does not gain the share spells special ability.
+
+Each time the beast rider increases in level, he can choose to select a new, more impressive mount better suited to his increased power.
+
+Small-sized beast riders can choose a pony or wolf mount at 1st level. At 4th level, a Small beast rider can also choose an allosaurus, ankylosaurus, arsinoitherium, aurochs, bison, boar, brachiosaurus, elephant, glyptodon, hippopotamus, mastodon, megaloceros, riding dog, snapping turtle (giant), triceratops, or tyrannosaurus. At 7th level, he can also choose a dinosaur (deinonychus or velociraptor).
+
+Medium beast riders can choose a camel or horse mount at 1st level. At 4th level, a Medium beast rider can also choose an allosaurus, ankylosaurus, arsinoitherium, aurochs, bison, brachiosaurus, elephant, glyptodon, hippopotamus, lion, mastodon, megaloceros, snapping turtle (giant), tiger, triceratops, or tyrannosaurus as his mount. Additional mounts might be available with GM approval.
+
+In addition, a 7th-level or higher Medium beast rider can select any other creature whose natural size is Large or Huge, provided that creature is normally available as a Medium-sized animal companion at 7th level (like a bear). To generate statistics for such a mount, apply the following modifications: Size Large; Ability Scores Str +2, Dex -2, Con +2. Increase the damage of each of the mount's natural attacks by one die size. A beast rider cannot choose a mount that is not capable of bearing his weight, that has fewer than four legs, or that has a fly speed (although the GM may allow mounts with a swim speed in certain environments).
+
+Anytime a feat or ability allows a mount to make a hoof attack, it can make a claw, slam, or other analogous attack instead.
+
+This ability replaces the standard cavalier's mount and expert trainer abilities.'''
+
+[[entry]]
+id = "ref/order/order-of-the-tome"
+anchor = "emissary-archetype"
+print = "Cavaliers serve many roles on the battlefield, from bold leaders and shock troops to dashing knights and mounted juggernauts. Some cavaliers, however, focus more on speed and mobility than they do on the raw power of the mounted charge. On foot or in the saddle, the emissary is usually first to meet the enemy, with a pointed lance, a drawn sword, or terms for surrender."
+
+[[entry]]
+id = "ref/order/order-of-the-tome"
+anchor = "armor-proficiency"
+print = "An emissary does not gain proficiency with heavy armor."
+
+[[entry]]
+id = "ref/order/order-of-the-tome"
+anchor = "bonus-feats"
+print = "An emissary can select Endurance, Fleet, or Run in addition to the list of combat feats whenever he gains a bonus feat."
+
+[[entry]]
+id = "ref/order/order-of-the-tome"
+anchor = "in-or-out-of-the-saddle"
+print = "At 1st level, an emissary gains Mounted Combat as a bonus feat. In addition, he can move at normal speed when wearing medium armor. This ability replaces tactician."
+
+[[entry]]
+id = "ref/order/order-of-the-tome"
+anchor = "battlefield-agility"
+print = "At 5th level, an emissary learns to be more aware of the threats that surround him in combat, and shares this awareness with his loyal steed. Both the emissary and his mount gain Mobility as a bonus feat. This ability replaces banner."
+
+[[entry]]
+id = "ref/order/order-of-the-tome"
+anchor = "mounted-acrobatics"
+print = "At 9th level, an emissary is even more adept at hopping on and off his steed, and even dropping alongside its flanks mid-gallop. He gains Trick Riding as a bonus feat, even if he does not meet the prerequisites. The emissary can employ this feat even when wearing medium armor. This ability replaces greater tactician."
+
+[[entry]]
+id = "ref/order/order-of-the-tome"
+anchor = "mounted-dervish"
+print = "At 14th level, an emissary becomes a fearsome, mobile foe on the battlefield. He gains Mounted Skirmisher as a bonus feat, even if he does not meet the prerequisites. In addition, whenever the emissary is mounted and takes the charge action, he adds 10 feet to his mount's speed. This ability replaces greater banner."
+
+[[entry]]
+id = "ref/order/order-of-the-tome"
+anchor = "erratic-charge"
+print = "At 20th level, an emissary learns to ride through the thick of combat, striking and then moving away with blinding speed. Whenever the emissary is mounted and takes the charge action, he can first move 10 feet and make a melee attack. This first attack is not a charge, but a regular melee attack, and the movement counts toward the total allowed movement for the round. After making this attack, the emissary must still move in a straight line to reach the target of his charge, and he takes a -5 penalty on the attack roll for the attack at the end of his charge. This ability replaces supreme charge."
+
+[[entry]]
+id = "ref/order/order-of-the-tome"
+anchor = "gendarme-archetype"
+print = "The gendarme cares less for the finer points of tactical precision than he does for the exhilaration of the charge: the rush of wind through the visor of his helmet, the feel of his couched lance, the satisfying shriek of armor giving way before his weapon's force as the point drives past metal into his foes."
+
+[[entry]]
+id = "ref/order/order-of-the-tome"
+anchor = "bonus-feats"
+print = "A gendarme trains to be a mounted terror, almost to the exclusion of all other abilities. He gains bonus feats at 1st level, 5th level, and then every three levels thereafter, but must select these bonus feats from the following list: Improved Bull Rush, Mounted Combat, Power Attack, Ride-By Attack, Spirited Charge, Spring Attack, and Unseat. If the gendarme has already selected all of the listed feats, then he may select his bonus feats from those feats listed as combat feats. This ability replaces tactician, greater tactician, and master tactician, and alters the standard cavalier's selection of bonus feats."
+
+[[entry]]
+id = "ref/order/order-of-the-tome"
+anchor = "transfixing-charge"
+print = "At 20th level, a gendarme represents the epitome of mounted combat. Whenever he makes a charge attack while mounted, he deals triple the normal damage (quadruple if using a lance); this damage includes all increases from the Spirited Charge feat and from the use of a lance. In addition, if the gendarme confirms a critical hit on a charge attack while mounted, the attack deals maximum damage for the weapon wielded. Additional damage from weapon properties, magic effects, precision-based bonuses, or other increases are rolled normally. This ability replaces supreme charge."
+
+[[entry]]
+id = "ref/order/order-of-the-tome"
+anchor = "honor-guard-archetype"
+print = "Certain cavaliers are trained not as advance combatants, but as loyal guards, standing as firm defenders in the face of threats to their chosen charge. These honor guards are sometimes merely ornamental, performing their functions on a ceremonial basis, but a surprising number are capable, deadly opponents, able to take down a threat long before their liege knows of the danger. To be an honor guard is to constantly place one's self in harm's way, and to always be willing to lay down one's life at a moment's notice."
+
+[[entry]]
+id = "ref/order/order-of-the-tome"
+anchor = "sworn-defense"
+print = "At 1st level, whenever an honor guard issues a challenge, he can select one ally as his ward for the duration of the challenge. Whenever the honor guard is adjacent to his ward, he takes a -1 penalty to Armor Class, and the ward receives a +1 dodge bonus to AC. This modifies the challenge ability"
+
+[[entry]]
+id = "ref/order/order-of-the-tome"
+anchor = "intercept"
+print = "At 3rd level, an honor guard learns to better disrupt the attacks of his enemies. He gains Bodyguard (_Advanced Player's Guide_ 151) as a bonus feat, even if he does not meet the prerequisite. In addition, whenever the honor guard uses the aid another action to increase an ally's Armor Class, the bonus to Armor Class granted by the aid another action increases by +1. This ability replaces cavalier's charge."
+
+[[entry]]
+id = "ref/order/order-of-the-tome"
+anchor = "warding-charge"
+print = "At 11th level, an honor guard can flash across the battlefield to protect his ward against the target of his challenge. Whenever the target of the honor guard's challenge makes an attack against his ward, the honor guard can move up to his speed and make a single melee attack against the target of his challenge as an immediate action. This movement and attack can be made as a charge if the movement qualifies. This ability replaces mighty charge."
+
+[[entry]]
+id = "ref/order/order-of-the-tome"
+anchor = "defensive-challenge"
+print = "At 12th level, whenever an honor guard declares a challenge, his target must pay particular attention to him and his ability to intercept attacks. As long as the target is within the threatened area of the cavalier, it takes a -2 penalty on attack rolls against anyone other than the honor guard. This ability replaces demanding challenge."
+
+[[entry]]
+id = "ref/order/order-of-the-tome"
+anchor = "luring-cavalier-archetype"
+print = "Those who study the perfection of strategy and tactics know that picking the battlefield can grant advantages that only overwhelming numbers of allies can eclipse. The luring cavalier is a special type of cavalier that helps accomplish that goal. Typically, he uses a bow or other ranged weapon to lure opponents toward him, and then makes strategic retreats to position his enemies exactly where he wants them."
+
+[[entry]]
+id = "ref/order/order-of-the-tome"
+anchor = "far-challenge"
+print = '''
+Once per day, a luring cavalier can use his far challenge ability as a swift action. When he does, the luring cavalier chooses one target within sight to challenge. The luring cavalier's ranged attacks deal extra damage whenever the attacks are made against the target of his challenge. This extra damage is equal to the luring cavalier's level. The luring cavalier can use this ability once per day at 1st level, plus one additional time per day for every three levels beyond 1st, to a maximum of seven times per day at 19th level. Furthermore, once per day, the luring cavalier may spend a use of his far challenge ability to double the potential extra damage of his ranged attack. Before making the attack roll, he can choose to spend a use of his challenge to deal twice his cavalier level in extra damage on a successful hit instead of just his cavalier level in extra damage. If the attack misses, the use of the challenge is wasted.
+
+Challenging a foe requires subtle deceits and strategies. The cavalier must make it look like he is a soft target. The subject of the far challenge gains a +4 bonus on attack rolls made against him.
+
+This challenge remains in effect until the target is dead or unconscious, until the target hits the luring cavalier with a melee attack, or until the combat ends. If this challenge ends because the target hits the luring cavalier with a melee attack, this challenge changes to the effects of the normal cavalier challenge, and gains any order benefit the luring cavalier has. Far challenge replaces the challenge ability.'''
+
+[[entry]]
+id = "ref/order/order-of-the-tome"
+anchor = "careful-aim"
+print = "At 3rd level, when a luring cavalier makes a ranged attack with his highest base attack bonus, he can ignore the penalties for firing up to three range increments away. If he is using a firearm, he can target touch AC up to two range increments away. This effect stacks with effects that allow the cavalier to make ranged attacks farther without penalty or that allow him to target touch AC with a firearm beyond the first range increment. This ability replaces cavalier's charge."
+
+[[entry]]
+id = "ref/order/order-of-the-tome"
+anchor = "infuriating-aim"
+print = "At 11th level, when a luring cavalier confirms a critical hit with a ranged attack made at his highest base attack bonus against the target of a far challenge, the target becomes infuriated for 1 round. While infuriated, the target must spend its turn moving closer to the cavalier, making move, run, or charge actions only (challenged creature's choice). This is a mind-affecting effect. This ability replaces mighty charge."
+
+[[entry]]
+id = "ref/order/order-of-the-tome"
+anchor = "versatile-challenge"
+print = "At 12th level, a luring cavalier can expend a use of his challenge to gain the benefit of far challenge or the normal cavalier challenge. He can even change the type of challenge an opponent is under the effects of as a swift action, as long as the target of the challenge is within line of sight. This ability replaces demanding challenge."
+
+[[entry]]
+id = "ref/order/order-of-the-tome"
+anchor = "supreme-aim"
+print = "At 20th level, the luring cavalier gains the careful aim bonus and the effect of infuriating aim on all ranged attacks. This ability replaces supreme charge."
+
+[[entry]]
+id = "ref/order/order-of-the-tome"
+anchor = "musketeer-archetype"
+print = "Some cavaliers are entrusted by their masters with the care and use of expensive and powerful oddities—firearms. Capable of inflicting shocking amounts of destruction without the aid of magic, these musketeers lead the advance of their troops, firing devastating fusillades long before the enemy can prepare for the armed charge that follows."
+
+[[entry]]
+id = "ref/order/order-of-the-tome"
+anchor = "weapon-and-armor-proficiency"
+print = "A musketeer does not gain proficiency in heavy armor. Musketeers are proficient with all simple and martial weapons, and with firearms. A cavalier's levels stack with any fighter levels he possesses for the purpose of meeting the level prerequisite for feats that specifically select a firearm, such as Weapon Specialization."
+
+[[entry]]
+id = "ref/order/order-of-the-tome"
+anchor = "gifted-firearm"
+print = '''
+At 1st level, a musketeer is gifted by his order with a firearm (either a pistol or a musket). This weapon is both a symbol of the cavalier's duty and a focus for much of his talent. He cannot sell this weapon. He also gains the Gunsmithing feat.
+
+Beginning at 8th level, the musketeer can focus himself when wielding his gifted weapon. As a standard action, he can focus himself to gain a number of benefits for 1 minute per cavalier level. The musketeer can use this ability twice per day, plus one additional time per day for every four levels beyond 8th, to a total of five times per day at 20th level.
+
+At 8th level, the cavalier gains the benefit of the Improved Critical feat. At 11th level, he can reduce the misfire chance of his weapon by 1 (to a minimum of 1), and at 17th level, the musketeer can double the range increment of his weapon. The reduction of the weapon's misfire chance and the doubled range increment abilities'''
+
+[[entry]]
+id = "ref/order/order-of-the-warrior"
+anchor = "opening"
+print = "Most samurai swear themselves to the code of the warrior, which emphasizes duty, honor, loyalty, and obedience. This code extends not only to the samurai's lord and master, but also to his comrades and family. Samurai who follow the order of the warrior are among the most trusted and feared warriors in the land."
+
+[[entry]]
+id = "ref/order/order-of-the-warrior"
+anchor = "edicts"
+print = "The [samurai](ref/class/samurai) must protect the life and lands of his lord with his life. He must be truthful and courageous, respectful to his elders and his masters, and loyal to his friends and liege. He must conduct himself with honor and dignity."
+
+[[entry]]
+id = "ref/order/order-of-the-warrior"
+anchor = "challenge"
+print = "Whenever an order of the warrior samurai declares a challenge, he receives damage reduction 1/— against attacks made by the target of his challenge. This DR increases by +1 for every four levels the samurai possesses."
+
+[[entry]]
+id = "ref/order/order-of-the-warrior"
+anchor = "skills"
+print = "An order of the warrior samurai adds [Knowledge (history)](ref/skill/knowledge-history) (Int) and [Knowledge (nobility)](ref/skill/knowledge-nobility) (Int) to his list of class skills. An order of the warrior samurai can make Knowledge (nobility) checks untrained. If he has ranks in the skill, he receives a bonus on the check equal to 1/2 his samurai level (minimum +1) as long as the check involves the nobles or politics of his land."
+
+[[entry]]
+id = "ref/order/order-of-the-warrior"
+anchor = "order-abilities"
+print = "A samurai who belongs to the order of the warrior gains the following abilities as he increases in level."
 
 [[entry]]
 id = "ref/order/order-of-the-warrior"
@@ -462,18 +739,43 @@ print = "At 2nd level, the order of the warrior samurai draws strength from his 
 
 [[entry]]
 id = "ref/order/order-of-the-warrior"
-anchor = "strike-true"
-print = "At 15th level, the order of the warrior samurai can use his years of training and focus to make the perfect strike. When he uses this ability, the samurai makes an attack as normal. If the attack hits, it is a critical threat. The samurai must roll to confirm the critical as normal. The attack deals the maximum amount of damage, although additional dice from weapon qualities, [sneak attack](ref/ability/sneak-attack), and additional dice from a critical hit are rolled normally. The damage from this attack ignores any [damage reduction](ref/rule/damage-reduction) the target might have and also causes the target to become [blinded](ref/misc/blinded), [deafened](ref/misc/deafened), [sickened](ref/misc/sickened), or [staggered](ref/misc/staggered) for 1d4 rounds (the samurai's choice). Making this attack is a standard action. The samurai can use this ability once per day."
-
-[[entry]]
-id = "ref/order/order-of-the-warrior"
 anchor = "way-of-the-samurai"
 print = "At 8th level, the order of the warrior samurai's sense of honor and loyalty drives him to accomplish seemingly impossible tasks. The samurai can, as a standard action, focus his mind and will. Once during the next minute, he can choose to roll an attack roll, skill check, or saving throw three times and take the best result. He must decide to use this ability before the roll is made. Using this ability expends one daily use of his resolve."
 
 [[entry]]
+id = "ref/order/order-of-the-warrior"
+anchor = "strike-true"
+print = "At 15th level, the order of the warrior samurai can use his years of training and focus to make the perfect strike. When he uses this ability, the samurai makes an attack as normal. If the attack hits, it is a critical threat. The samurai must roll to confirm the critical as normal. The attack deals the maximum amount of damage, although additional dice from weapon qualities, [sneak attack](ref/ability/sneak-attack), and additional dice from a critical hit are rolled normally. The damage from this attack ignores any [damage reduction](ref/rule/damage-reduction) the target might have and also causes the target to become [blinded](ref/misc/blinded), [deafened](ref/misc/deafened), [sickened](ref/misc/sickened), or [staggered](ref/misc/staggered) for 1d4 rounds (the samurai's choice). Making this attack is a standard action. The samurai can use this ability once per day."
+
+[[entry]]
 id = "ref/order/ronin"
-anchor = "chosen-destiny"
-print = "At 15th level, the ronin is the master of his own destiny. Whenever the ronin makes a saving throw against a charm or compulsion effect, he may roll twice and take the better result. In addition, once per day, the ronin can treat any one d20 roll as if the result were a natural 20. He must declare the use of this ability before the roll is made."
+anchor = "opening"
+print = "While most samurai belong to the order of the warrior, dedicating their considerable skills to the service of a lord, land, and people, some find themselves without a master, either as a result of disgrace or death, or occasionally by choice. Known as ronin, these samurai wander the lands, serving their own code of ideals. While ronin are significantly freer to do as they please, they do not receive the same respect and support that a more dedicated samurai can count on. Note that cavaliers can select this order, but they are typically called knights errant instead of ronin."
+
+[[entry]]
+id = "ref/order/ronin"
+anchor = "becoming-ronin"
+print = "Normally, when a samurai wishes to change his order, he must undergo a lengthy process that requires him to adhere to the edicts of his new order for a period of time before receiving any benefits. This is not the case with ronin. Once a samurai decides to become a ronin, he immediately loses all of the bonuses, skills, and abilities of his old order and gains those of the ronin order. If he wishes to once again dedicate himself to another order, he must do so using the normal rules."
+
+[[entry]]
+id = "ref/order/ronin"
+anchor = "edicts"
+print = "Ronin follow their own personal code of ethics and honor. As such, their edicts are extremely flexible and subject to change. Each ronin should determine his own edicts, which should include at least three provisions. These edicts are subject to GM approval."
+
+[[entry]]
+id = "ref/order/ronin"
+anchor = "challenge"
+print = "Whenever a ronin is the target of a challenge, a smite, a quarry, or similar effect, and he issues a challenge against that character in return, the ronin receives a +1 morale bonus on attack rolls made against the target of his challenge and a +1 dodge bonus to his AC against attacks made by the target of his challenge. These bonuses increase by +1 for every four class levels the samurai possesses (to a maximum of +6 at 20th level)."
+
+[[entry]]
+id = "ref/order/ronin"
+anchor = "skills"
+print = "A ronin adds [Knowledge (local)](ref/skill/knowledge-local) (Int) and [Survival](ref/skill/survival) (Wis) to his list of class skills."
+
+[[entry]]
+id = "ref/order/ronin"
+anchor = "order-abilities"
+print = "A ronin samurai gains the following abilities as he increases in level."
 
 [[entry]]
 id = "ref/order/ronin"
@@ -484,6 +786,11 @@ print = "At 2nd level, the ronin learns to rely solely on himself, even in the m
 id = "ref/order/ronin"
 anchor = "without-master"
 print = "At 8th level, the ronin's fierce independence allows him to overcome staggering odds. The ronin can summon up this willpower as an immediate action, and can use it in one of three ways. He can use his willpower whenever an attack would reduce him to fewer than 0 hit points but wouldn't kill him, to instead be at 1 hit point and conscious. He can use his willpower after making an attack roll to confirm a critical hit in order to reroll the confirmation roll. Finally, he can use his willpower to take 10 on a skill check during combat, even if the situation or the skill would not normally allow him to take 10. A ronin can use this ability once during a combat."
+
+[[entry]]
+id = "ref/order/ronin"
+anchor = "chosen-destiny"
+print = "At 15th level, the ronin is the master of his own destiny. Whenever the ronin makes a saving throw against a charm or compulsion effect, he may roll twice and take the better result. In addition, once per day, the ronin can treat any one d20 roll as if the result were a natural 20. He must declare the use of this ability before the roll is made."
 
 [[entry]]
 id = "ref/ragepower/auspicious-mark"
@@ -643,13 +950,12 @@ print = "While raging, the barbarian gains a +1 insight bonus to AC against outs
 [[entry]]
 id = "ref/ragepower/world-serpent-totem-unity"
 anchor = "world-serpent-totem-unity"
-print = "While raging, the barbarian doubles her fast movement bonus to land speed and cannot be knocked [prone](ref/rule/prone). She also doubles her [world serpent totem](ref/ragepower/world-serpent-totem) insight bonus to AC against attack rolls made by an outsider or aberration to confirm a critical hit against her. A barbarian must have the [world serpent totem](ref/ragepower/world-serpent-totem) and world serpent totem spirit rage powers and be at least 10th level before selecting this rage power."
+print = "While raging, the barbarian doubles her fast movement bonus to land speed and cannot be knocked [prone](ref/rule/prone). She also doubles her [world serpent totem](ref/ragepower/world-serpent-totem) insight bonus to AC against attack rolls made by an outsider or aberration to confirm a critical hit against her. A barbarian must have the [world serpent totem](ref/ragepower/world-serpent-totem) and [world serpent totem spirit](ref/ragepower/world-serpent-spirit) rage powers and be at least 10th level before selecting this rage power."
 
 [[entry]]
 id = "ref/talent/black-market-connections"
 anchor = "black-market-connections"
-print = "A rogue with this talent gains better access to magic items from black market connections. She treats every [settlement](ref/rule/settlements-and-districts) as one size greater (see Table 15–1 on page 461 of the _Core Rulebook_) for the purpose of determining the gp limit of the base value of items for sale, as well as the number of minor, medium, and major magic items for sale in the settlement. If the settlement is already a metropolis, all minor and medium magic items are for sale, as well as 3d8 major magic items. With a successful Diplomacy check, the rogue can treat the settlement as two sizes larger. If the settlement is already a metropolis and she succeeds at the check, all magic items are for sale. If the settlement is already a large city and she succeeds at the check, all minor and medium magic items are for sale, as well as 3d8 major magic items. With a successful check, the rogue can also sell stolen items on the black market. If the check fails by 5 or more, the rogue does something to spook the market, and treats the city as normal for 1 week. Furthermore, those in control of the black market may alert the authorities to the rogue's presence in an act of reprisal for spooking the market or to divert attention away from their illicit activities. The DCs of the checks are by settlement size and are given in the table below. Community Size DC Thorp 10 Hamlet 12 Village 15 Small town 18 Large town 20 Small city 25 Large city 30 Metropolis 35"
-
+print = "A rogue with this talent gains better access to magic items from black market connections. She treats every [settlement](ref/rule/settlements-and-districts) as one size greater (see Table 15–1 on page 461 of the _Core Rulebook_) for the purpose of determining the gp limit of the base value of items for sale, as well as the number of minor, medium, and major magic items for sale in the settlement. If the settlement is already a metropolis, all minor and medium magic items are for sale, as well as 3d8 major magic items. With a successful Diplomacy check, the rogue can treat the settlement as two sizes larger. If the settlement is already a metropolis and she succeeds at the check, all magic items are for sale. If the settlement is already a large city and she succeeds at the check, all minor and medium magic items are for sale, as well as 3d8 major magic items. With a successful check, the rogue can also sell stolen items on the black market. If the check fails by 5 or more, the rogue does something to spook the market, and treats the city as normal for 1 week. Furthermore, those in control of the black market may alert the authorities to the rogue's presence in an act of reprisal for spooking the market or to divert attention away from their illicit activities. The DCs of the checks are by settlement size and are given in the table below.\n\n|Community Size|DC|\n| --- | --- |\n|Thorp|10|\n|Hamlet|12|\n|Village|15|\n|Small town|18|\n|Large town|20|\n|Small city|25|\n|Large city|30|\n|Metropolis|35|"
 [[entry]]
 id = "ref/talent/convincing-lie"
 anchor = "convincing-lie"
@@ -693,7 +999,7 @@ print = "A rogue with this talent gains the [Amateur Gunslinger](ref/feat/amateu
 [[entry]]
 id = "ref/talent/hard-minded"
 anchor = "hard-minded"
-print = "A rogue with this talent is hard to fool with illusions. She automatically receives a save to disbelieve any illusion she can see each round at the start of her turn, even if she hasn't interacted with it. If she fails a saving throw against an illusion that is not to disbelieve, she can attempt to save again again 1 round later at the same DC. She gets only one extra chance to succeed at her saving throw."
+print = "A rogue with this talent is hard to fool with illusions. She automatically receives a save to disbelieve any illusion she can see each round at the start of her turn, even if she hasn't interacted with it. If she fails a saving throw against an illusion that is not to disbelieve, she can attempt to save again 1 round later at the same DC. She gets only one extra chance to succeed at her saving throw."
 
 [[entry]]
 id = "ref/talent/hide-in-plain-sight"
@@ -713,7 +1019,7 @@ print = "A rogue with this talent has a cast-iron stomach or has trained herself
 [[entry]]
 id = "ref/talent/ki-pool"
 anchor = "ki-pool"
-print = "A rogue with this talent gains a small ki pool. This ki pool is similar to a [ninja's](ref/class/ninja) ki pool, but the rogue's ki pool does not grant any extra attacks. The rogue gains a number of ki points equal to her Wisdom modifier (minimum 1). These ki points replenish at the start of each day. If she already has a ki pool, or gains a ki pool later, she gains half her Wisdom bonus (minimum 1) as bonus ki points to her ki pool. She can spend a ki point to gain a +10- foot bonus to movement until the end of her turn."
+print = "A rogue with this talent gains a small ki pool. This ki pool is similar to a [ninja's](ref/class/ninja) ki pool, but the rogue's ki pool does not grant any extra attacks. The rogue gains a number of ki points equal to her Wisdom modifier (minimum 1). These ki points replenish at the start of each day. If she already has a ki pool, or gains a ki pool later, she gains half her Wisdom bonus (minimum 1) as bonus ki points to her ki pool. She can spend a ki point to gain a +10-foot bonus to movement until the end of her turn."
 
 [[entry]]
 id = "ref/talent/master-tricks"
@@ -733,7 +1039,16 @@ print = "A rogue with this ability can move at her normal speed when using rope 
 [[entry]]
 id = "ref/talent/rumormonger"
 anchor = "rumormonger"
-print = "A rogue with this talent can attempt to spread a rumor through a small town or larger settlement by making a [Bluff](ref/skill/bluff) check. She can do so a number of times per week equal to her Charisma modifier (minimum 0). The DC is based on the size of the settlement, and it takes a week for the rumor to propagate through the settlement. If the check succeeds, the rumor is practically accepted as fact within the community; succeeding by 5 or more over the DC decreases the time it takes the rumor to propagate by 1d4 days. A failed check means the rumor failed to gain traction, while failing by 5 or more causes the opposite of the rumor or some other competing theory involving the rumor's subject to take hold."
+print = '''
+A rogue with this talent can attempt to spread a rumor through a small town or larger settlement by making a [Bluff](ref/skill/bluff) check. She can do so a number of times per week equal to her Charisma modifier (minimum 0). The DC is based on the size of the settlement, and it takes a week for the rumor to propagate through the settlement. If the check succeeds, the rumor is practically accepted as fact within the community; succeeding by 5 or more over the DC decreases the time it takes the rumor to propagate by 1d4 days. A failed check means the rumor failed to gain traction, while failing by 5 or more causes the opposite of the rumor or some other competing theory involving the rumor's subject to take hold.
+
+|Community Size|DC|
+| --- | --- |
+|Small town|18|
+|Large town|20|
+|Small city|25|
+|Large city|30|
+|Metropolis|35|'''
 
 [[entry]]
 id = "ref/talent/strong-stroke"

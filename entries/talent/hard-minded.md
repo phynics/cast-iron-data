@@ -19,5 +19,5 @@ ability_type = "Ex"
 A rogue with this talent is hard to fool with illusions. She automatically receives a save to
 disbelieve any illusion she can see each round at the start of her turn, even if she hasn't
 interacted with it. If she fails a saving throw against an illusion that is not to disbelieve, she
-can attempt to save again again 1 round later at the same DC. She gets only one extra chance to
-succeed at her saving throw.
+can attempt to save again 1 round later at the same DC. She gets only one extra chance to succeed at
+her saving throw.

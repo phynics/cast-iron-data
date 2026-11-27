@@ -13,7 +13,6 @@ page = "15"
 [fields]
 kind = "class_option"
 group = "ninja-trick"
-ability_type = "Ex"
 +++
 
 A ninja who selects this ninja trick gains the [Deflect Arrows](ref/feat/deflect-arrows) feat as a

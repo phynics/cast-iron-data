@@ -56,6 +56,7 @@ import importlib.util
 import re
 import sys
 import tomllib
+import unicodedata
 from collections import Counter
 from dataclasses import dataclass
 from pathlib import Path
@@ -290,9 +291,12 @@ def ability_tag_of(name: str) -> str:
 
 
 def with_ability_type(front: str, tag: str) -> str:
-    """The `[fields]` of a class option with `ability_type = "<tag>"` right after `group` (the app's canonical order: kind, group, ability_type,
-    features; ruling 63). An entry that has the key, a tag that is no tag, or no `[fields] kind = "class_option"` is left."""
-    if not tag or not TAG_WORDS.fullmatch(tag) or re.search(r"^ability_type = ", front, re.M) or 'kind = "class_option"' not in front:
+    """Synchronize `[fields] ability_type` with the printed tag; a blank tag removes a stale key (ruling 63)."""
+    if 'kind = "class_option"' not in front:
+        return front
+    if not tag:
+        return re.sub(r"^ability_type = [^\n]*\n?", "", front, flags=re.M)
+    if not TAG_WORDS.fullmatch(tag) or re.search(r"^ability_type = ", front, re.M):
         return front
     out, n = re.subn(r'(^group = "[^"]*")(\n|\Z)', lambda m: m.group(1) + f'\nability_type = "{tag}"\n', front, count=1, flags=re.M)
     assert n == 1, "a class option has a `group` row to put the key after"
@@ -947,8 +951,11 @@ def convert_body(e, texts: dict[str, str], levels: dict[str, int | None], anchor
     if shape == "single":
         c = cands[0]
         text = texts[rw.span_sha(blocks[c.start:c.end])]
-        keep_before = [b.text for b in blocks[:c.start] if not (b.text.startswith("|") and b.text in text)]
-        keep_after = [b.text for b in blocks[c.end:] if not (b.text.startswith("|") and b.text in text)]      # a table that the text holds already (ruling 62)
+        printed_key = prose_key(text)
+        keep_before = [b.text for b in blocks[:c.start] if not (b.text.startswith("|") and b.text in text)
+                       and not duplicate_print_block(b.text, printed_key)]
+        keep_after = [b.text for b in blocks[c.end:] if not (b.text.startswith("|") and b.text in text)
+                      and not duplicate_print_block(b.text, printed_key)]
         return "\n" + "\n\n".join(keep_before + [text] + keep_after).strip("\n") + "\n", []
     out, features, i = [], [], 0
     by_start = {c.start: c for c in cands}
@@ -1167,7 +1174,7 @@ def run_write(args) -> int:
         assert not lost, f"{e.id}: the keys {sorted(lost)} would move"                  # rule 3 of AGENTS.md: the keys of the headings stay
         front = features_front(e.front, features) if features else e.front
         if WRITE_ABILITY_TYPE and shape == "single":
-            front = with_ability_type(front, ability_tag_of(mine[0]["feature"]))
+            front = with_ability_type(front, mine[0]["ability_tag"])
         own = [r for r in mine if r["book"] == book]
         if own and own[0]["page"] and own[0]["page"] != e.page:
             front = with_page(front, own[0]["page"])
@@ -1194,10 +1201,10 @@ def run_ability_type(args) -> int:
     done = untagged = 0
     for e in load_class_options(corpus, args.book):
         mine = [r for r in rows if r["entry"] == e.id and r["status"] == LEDGER and r["shape"] == "single"]
-        tag = ability_tag_of(mine[0]["feature"]) if mine else ""
+        tag = mine[0]["ability_tag"] if mine else ""
         if mine and not tag:
             untagged += 1
-        if mine and tag:
+        if mine:
             new = with_ability_type(e.front, tag)
             if new != e.front:
                 write_atomic(e.path, e.path.read_text(encoding="utf-8").replace(e.front, new, 1))
@@ -1211,6 +1218,16 @@ def run_ability_type(args) -> int:
 def norm(text: str) -> str:
     return re.sub(r"\s+", " ", re.sub(r"\[([^\]]*)\]\([^)]*\)", r"\1", text)).strip()
 
+
+
+def prose_key(text: str) -> str:
+    text = re.sub(r"\[([^\]]+)\]\([^)]+\)", r"\1", text)
+    return re.sub(r"[^a-z0-9]+", "", unicodedata.normalize("NFKD", text).casefold())
+
+
+def duplicate_print_block(block: str, printed_key: str) -> bool:
+    key = prose_key(block)
+    return len(key) >= 80 and key in printed_key
 
 def run_check(args) -> int:
     corpus = Path(args.corpus).resolve()
@@ -1248,6 +1265,16 @@ def run_check(args) -> int:
                     text = props.get((eid, r["anchor"]))
                     if text is not None and norm(text) not in body:
                         errors.append(f"{eid}: written, but the printed text of `{r['anchor']}` is not in the entry")
+                singles = [r for r in mine if r["shape"] == "single"]
+                if singles:
+                    compact = lambda value: re.sub(r"\s+", " ", value).strip()
+                    proposal = props.get((eid, singles[0]["anchor"]))
+                    if args.book and proposal is not None and compact(proposal) != compact(e.body):
+                        errors.append(f"{eid}: written single-power body differs from its complete print proposal")
+                    expected_tag = singles[0]["ability_tag"]
+                    actual_tag = (e.data.get("fields") or {}).get("ability_type", "")
+                    if actual_tag != expected_tag:
+                        errors.append(f"{eid}: ability_type {actual_tag!r} differs from the printed tag {expected_tag!r}")
                 continue
             if shape == "none":
                 if mine and any(r["status"] != LEDGER for r in mine):
@@ -1447,6 +1474,9 @@ def self_test() -> int:
     body, feats = convert_body(E, {sha(single, 0): "At 1st level, a bite."}, {}, {})
     eq(body.strip(), "At 1st level, a bite.", "a single-power body is the printed paragraphs, no head, no features")
     eq(feats, [], "a single-power option gets no `features`")
+    duplicate = "- **Blast Lock:** The gunslinger makes an attack roll against a lock with enough detail to cross the threshold and be an exact duplicate of the text that print supplies."
+    printed = "_Blast Lock_: The gunslinger makes an attack roll against a lock with enough detail to cross the threshold and be an exact duplicate of the text that print supplies."
+    eq(duplicate_print_block(duplicate, prose_key(printed)), True, "a single-power writer drops a duplicated imported list item")
     E.body = multi
     texts = {sha(multi, 0): "A cry that all allies hear.", sha(multi, 1): "At 7th level, a reroll."}
     levels = {sha(multi, 0): None, sha(multi, 1): 7}
@@ -1469,6 +1499,7 @@ def self_test() -> int:
     eq(with_ability_type('id = "x"\n[fields]\nkind = "class_option"\ngroup = "hex"\nfeatures = [\n]\n', "Su"), 'id = "x"\n[fields]\nkind = "class_option"\ngroup = "hex"\nability_type = "Su"\nfeatures = [\n]\n', "ruling 63: the key follows group")
     eq(with_ability_type('[fields]\nkind = "class_option"\ngroup = "hex"', "Ex or Sp"), '[fields]\nkind = "class_option"\ngroup = "hex"\nability_type = "Ex or Sp"\n', "ruling 63: a combined tag, a front that ends at group")
     eq(with_ability_type('[fields]\nkind = "class_option"\ngroup = "hex"\n', ""), '[fields]\nkind = "class_option"\ngroup = "hex"\n', "ruling 63: an entry whose print has no tag gets no key")
+    eq(with_ability_type('[fields]\nkind = "class_option"\ngroup = "hex"\nability_type = "Ex"\n', ""), '[fields]\nkind = "class_option"\ngroup = "hex"\n', "ruling 63: an unprinted imported tag is removed")
     eq([with_ability_type('[fields]\nkind = "class_option"\ngroup = "hex"\n', x) for x in ("su", " Su", "(Su)", "see text")] == ['[fields]\nkind = "class_option"\ngroup = "hex"\n'] * 4, True, "ruling 63: a value that is no printed tag fails the same rule as the app's")
     eq(with_ability_type('[fields]\nkind = "archetype"\ngroup = "x"\n', "Su"), '[fields]\nkind = "archetype"\ngroup = "x"\n', "ruling 63: only on a class option")
     eq([ability_tag_of(n) for n in ("Foo (su)", "Foo (Su, Sp)", "Foo (Ex, or Sp)", "Foo (Ex/Sp)", "Foo (Ex and Su)")], ["", "Su, Sp", "Ex, or Sp", "", "Ex and Su"], "ruling 63: the separators of the app's rule")

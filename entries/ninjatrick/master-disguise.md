@@ -24,4 +24,5 @@ specific individual that the ninja has seen before for 1 minute per level. Creat
 familiar with the individual receive a Will saving throw to see through the illusion. The DC of this
 saving throw is 10 + 1/2 the ninja's level + the ninja's Charisma modifier. This illusion also
 changes the ninja's speech, if she has heard the individual talk and can speak his language. The
-ninja must have the sudden disguise ninja trick before selecting this trick.
+ninja must have the [sudden disguise](ref/ninjatrick/sudden-disguise) ninja trick before selecting
+this trick.

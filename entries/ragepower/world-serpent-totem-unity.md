@@ -20,5 +20,6 @@ While raging, the barbarian doubles her fast movement bonus to land speed and ca
 [prone](ref/rule/prone). She also doubles her
 [world serpent totem](ref/ragepower/world-serpent-totem) insight bonus to AC against attack rolls
 made by an outsider or aberration to confirm a critical hit against her. A barbarian must have the
-[world serpent totem](ref/ragepower/world-serpent-totem) and world serpent totem spirit rage powers
-and be at least 10th level before selecting this rage power.
+[world serpent totem](ref/ragepower/world-serpent-totem) and
+[world serpent totem spirit](ref/ragepower/world-serpent-spirit) rage powers and be at least 10th
+level before selecting this rage power.

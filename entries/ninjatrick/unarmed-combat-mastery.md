@@ -13,7 +13,6 @@ page = "17"
 [fields]
 kind = "class_option"
 group = "ninja-trick"
-ability_type = "Ex"
 +++
 
 A ninja who selects this trick deals damage with her unarmed strikes as if she were a
