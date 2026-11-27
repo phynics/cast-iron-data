@@ -24,7 +24,7 @@ features = [
   { anchor = "animal-trainer", level = 3 },
 ]
 trades = [
-  { replaces = "Rogue talents gained at 2nd, 4th, and 6th level", feature = "rogue-talents", levels = [2, 4, 6], by = ["trained-legerdemain"] },
+  { replaces = "Rogue talents gained at 2nd, 4th, and 6th level", feature = "rogue-talents", levels = [2, 4, 6], by = ["pet-performance"] },
   { replaces = "Trap sense", feature = "trap-sense", by = ["animal-trainer"] },
   { alters = "Sneak attack", feature = "sneak-attack", by = ["sneak-attack"] },
 ]
@@ -50,6 +50,11 @@ Perform checks. At 2nd level, she gains the [distraction](ref/performance/distra
 performance. At 4th level, she gains the [fascinate](ref/performance/fascinate) bardic performance.
 At 6th level, she also gains use of the following performance.
 
+The pet performance ability otherwise functions identically to bardic performance. Levels in a class
+with the [distraction](ref/performance/distraction) or fascinate bardic performances stack with
+carnivalist levels for the purpose of determining bonuses granted by these performances. This
+ability replaces the rogue talents gained at 2nd, 4th, and 6th level.
+
 ## Trained Legerdemain (Ex) {#trained-legerdemain}
 
 At 6th level, a carnivalist can command a familiar or pet within 30 feet to make a Disable Device or
@@ -57,11 +62,6 @@ Sleight of Hand check as if trained in the skill, using its own skill ranks (if 
 modifier, and equipment, with a competence bonus equal to 1/2 her rogue level. The check requires
 the normal amount of time to complete and the DC increases by 5. The carnivalist must maintain this
 pet performance each round her familiar or pet attempts a Disable Device or Sleight of Hand check.
-
-The pet performance ability otherwise functions identically to bardic performance. Levels in a class
-with the [distraction](ref/carried/bestiary/rules/universal-monster-rules/distraction) or fascinate
-bardic performances stack with carnivalist levels for the purpose of determining bonuses granted by
-these performances. This ability replaces the rogue talents gained at 2nd, 4th, and 6th level.
 
 ## Sneak Attack (Ex) {#sneak-attack}
 

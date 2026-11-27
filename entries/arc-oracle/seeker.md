@@ -17,7 +17,7 @@ page = "29"
 [fields]
 kind = "archetype"
 features = [
-  { anchor = "tinkering" },
+  { anchor = "tinkering", level = 1 },
   { anchor = "seeker-lore", level = 3 },
   { anchor = "seeker-magic", level = 15 },
 ]

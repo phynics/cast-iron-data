@@ -61,7 +61,7 @@ _[enlarge person](ref/spell/enlarge-person)_. This ability replaces nature sense
 
 ## Primal Bond (Ex) {#primal-bond}
 
-When a goliath druid forms a nature bond, if she selects a cleric domain, she must selected from the
+When a goliath druid forms a nature bond, if she selects a cleric domain, she must select from the
 [Animal](ref/domain/animal), [Destruction](ref/domain/destruction), or Strength domains, or the
 Ferocity, [Growth](ref/domain/plant), or [Rage](ref/domain/destruction) subdomains.
 

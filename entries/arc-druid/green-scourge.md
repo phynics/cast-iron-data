@@ -16,11 +16,17 @@ page = "7"
 
 [fields]
 kind = "archetype"
+features = [
+  { anchor = "nature-s-armaments", level = 1 },
+  { anchor = "aberration-sense", level = 1 },
+  { anchor = "scentless", level = 3 },
+  { anchor = "resist-unnatural-influence", level = 4 },
+]
 trades = [
-  { replaces = "Nature sense", feature = "nature-sense" },
-  { replaces = "Trackless step", feature = "trackless-step" },
-  { replaces = "Resist nature's lure", feature = "resist-nature-s-lure" },
-  { alters = "Spontaneous casting", feature = "spontaneous-casting" },
+  { replaces = "Nature sense", feature = "nature-sense", by = ["aberration-sense"] },
+  { replaces = "Trackless step", feature = "trackless-step", by = ["scentless"] },
+  { replaces = "Resist nature's lure", feature = "resist-nature-s-lure", by = ["resist-unnatural-influence"] },
+  { alters = "Spontaneous casting", feature = "spontaneous-casting", by = ["nature-s-armaments"] },
 ]
 +++
 
@@ -28,57 +34,50 @@ Green scourges are militant druids sworn to restore natural order. They're less 
 nurturing the natural world than most druids, instead focusing their efforts on slaying corrupted
 creatures.
 
-**Nature's Armaments**
+## Nature's Armaments {#nature-s-armaments}
 
-**Ability:** A green scourge can lose a prepared 1st- or 2nd-level spell in order to cast
-[shillelagh](ref/spell/shillelagh) or [flame blade](ref/spell/flame-blade), respectively. She can
-instead choose to lose a higher-level spell in order to increase the enhancement bonus of her
-_[shillelagh](ref/spell/shillelagh),_ or to add any of the following weapon special abilities to her
-_[shillelagh](ref/spell/shillelagh)_ or _flame blade:_ [bane](ref/magic-enh/bane) (aberrations
-only), [frost](ref/magic-enh/frost), [mighty cleaving](ref/magic-enh/mighty-cleaving),
-[returning](ref/magic-enh/returning), [shock](ref/magic-enh/shock),
-[throwing](ref/magic-enh/throwing), or [vicious](ref/magic-enh/vicious).
+A green scourge can lose a prepared 1st- or 2nd-level spell in order to cast
+_[shillelagh](ref/spell/shillelagh)_ or _[flame blade](ref/spell/flame-blade)_, respectively. She
+can instead choose to lose a higher-level spell in order to increase the enhancement bonus of her
+[shillelagh](ref/spell/shillelagh), or to add any of the following weapon special abilities to her
+_[shillelagh](ref/spell/shillelagh)_ or _[flame blade](ref/spell/flame-blade)_:
+_[bane](ref/magic-enh/bane)_ (aberrations only), _[frost](ref/magic-enh/frost)_,
+_[mighty cleaving](ref/magic-enh/mighty-cleaving)_, _returning, shock_,
+_[throwing](ref/magic-enh/throwing)_, or _[vicious](ref/magic-enh/vicious)_. If the target weapon is
+a [quarterstaff](ref/eq-weapon/quarterstaff), these bonuses apply to only one of its ends. If a
+[flame blade](ref/spell/flame-blade) gains the _frost_ or _[shock](ref/magic-enh/shock)_ special
+ability, the base damage of the spell changes to match the energy type; neither a
+[flame blade](ref/spell/flame-blade) nor [shillelagh](ref/spell/shillelagh) can gain both of these
+special abilities. A green scourge cannot add the _throwing_ property to a
+_[flame blade](ref/spell/flame-blade)_ unless she also adds the
+_[returning](ref/magic-enh/returning)_ property.
 
-**Alters:** Spontaneous casting
+When adding weapon special abilities or increasing the enhancement bonus, the final level of the
+spell expended is 1 higher than the base spell level (2nd for _[shillelagh](ref/spell/shillelagh)_
+and 3rd for _[flame blade](ref/spell/flame-blade)_), increased by the additional special abilities'
+total base price modifier (see Table 15–9 on page 469 of the _Core Rulebook_). For example, creating
+an _aberration-bane vicious flame blade_ requires spending a 5th-level spell slot, which also counts
+as a 5th-level spell for purposes of dispelling.
 
-**Info:** When adding weapon special abilities or increasing the enhancement bonus, the final level
-of the spell expended is 1 higher than the base spell level (2nd for
-_[shillelagh](ref/spell/shillelagh)_ and 3rd for _[flame blade](ref/spell/flame-blade)_), increased
-by the additional special abilities' total base price modifier. For example, creating an
-_aberration-bane vicious flame blade_ requires spending a 5th-level spell slot (3 for
-_[flame blade](ref/spell/flame-blade),_ +1 for _[bane](ref/spell/bane),_ +1 for _vicious_ = 5),
-which also counts as a 5th-level spell for purposes of dispelling.
+This ability alters spontaneous casting.
 
-**Special:** If the target weapon is a [quarterstaff](ref/eq-weapon/quarterstaff), these bonuses
-apply to only one of its ends. If a _[flame blade](ref/spell/flame-blade)_ gains the _frost_ or
-_shock_ special ability, the base damage of the spell changes to match the energy type; neither a
-_[flame blade](ref/spell/flame-blade)_ nor _[shillelagh](ref/spell/shillelagh)_ can gain both of
-these special abilities. A green scourge cannot add the _throwing_ property to a
-_[flame blade](ref/spell/flame-blade)_ unless she also adds the _returning_ property.
+## Aberration Sense (Ex) {#aberration-sense}
 
-**Aberration Sense (Ex)**
+At 1st level, a green scourge adds [Knowledge (dungeoneering)](ref/skill/knowledge-dungeoneering) to
+her class skills and gains a +2 bonus on Knowledge (dungeoneering) checks.
 
-**Gained:** At 1st Level
+This replaces nature sense.
 
-**Passive:** A green scourge adds [Knowledge (dungeoneering)](ref/skill/knowledge-dungeoneering)
-(INT) to her class skills and gains a +2 bonus on Knowledge (dungeoneering) checks.
+## Scentless (Ex) {#scentless}
 
-**Replaces:** Nature sense
-
-**Scentless (Ex)**
-
-**Gained:** At 3rd Level
-
-**Passive:** A green scourge cannot be detected or tracked with the [scent](ref/umr/scent) ability
+At 3rd level, a green scourge cannot be detected or tracked with the [scent](ref/umr/scent) ability
 or any other special senses that rely on acute smell. She can choose to exude a scent if desired.
 
-**Replaces:** Trackless step
+This ability replaces trackless step.
 
-**Resist Unnatural Influence (Ex)**
+## Resist Unnatural Influence (Ex) {#resist-unnatural-influence}
 
-**Gained:** At 4th Level
-
-**Passive:** A green scourge gains a +4 bonus on saving throws against aberrations'
+At 4th level, a green scourge gains a +4 bonus on saving throws against aberrations'
 [spell-like abilities](ref/umr/spell-like-abilities), supernatural abilities, and poisons.
 
-**Replaces:** Resist nature's lure
+This replaces resist nature's lure.
