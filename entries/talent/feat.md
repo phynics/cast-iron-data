@@ -15,6 +15,4 @@ kind = "class_option"
 group = "rogue-talent"
 +++
 
-**Feat**
-
-**Ability:** A rogue may gain any feat that she qualifies for in place of a rogue talent.
+A rogue may gain any feat that she qualifies for in place of a rogue talent.

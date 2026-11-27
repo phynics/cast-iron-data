@@ -13,11 +13,9 @@ page = "33"
 [fields]
 kind = "class_option"
 group = "rage-power"
+ability_type = "Ex"
 +++
 
-**Strength Surge (Ex)**
-
-**Immediate:** The barbarian adds her barbarian level on one Strength check or combat maneuver
-check, or to her Combat Maneuver Defense when an opponent attempts a maneuver against her.
-
-**Usage:** Once per _rage_
+The barbarian adds her barbarian level on one Strength check or combat maneuver check, or to her
+Combat Maneuver Defense when an opponent attempts a maneuver against her. This power is used as an
+immediate action. This power can only be used once per rage.

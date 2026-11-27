@@ -8,8 +8,9 @@ import tomllib
 from pathlib import Path
 
 
-NEGATIONS = re.compile(r"\b(?:not|no|never|cannot)\b|n't", re.I)
+NEGATIONS = re.compile(r"\b(?:not|no|never|cannot)\b|n['’]t\b", re.I)
 DIGITS = re.compile(r"\d+")
+WORDS = re.compile(r"[a-z]+(?:['’][a-z]+)?|\d+", re.I)
 SENTENCES = re.compile(r"(?<=[.!?])[\"’”)]*\s+|\n+\s*\n+")
 
 
@@ -36,13 +37,15 @@ def edit_distance(a: str, b: str) -> int:
 
 
 def near_match(a: str, b: str) -> bool:
-    da, db = DIGITS.findall(a), DIGITS.findall(b)
-    na, nb = len(NEGATIONS.findall(a)), len(NEGATIONS.findall(b))
-    if da != db or na != nb:
+    if DIGITS.findall(a) != DIGITS.findall(b) or NEGATIONS.findall(a.casefold().replace("’", "'")) != NEGATIONS.findall(b.casefold().replace("’", "'")):
         return False
-    letters_a = "".join(re.findall(r"[a-z]", a.casefold()))
-    letters_b = "".join(re.findall(r"[a-z]", b.casefold()))
-    return edit_distance(letters_a, letters_b) <= 2
+    words_a = WORDS.findall(a.casefold())
+    words_b = WORDS.findall(b.casefold())
+    if len(words_a) != len(words_b):
+        return False
+    changed = [(x, y) for x, y in zip(words_a, words_b) if x != y]
+    return (len(changed) == 1 and min(len(changed[0][0]), len(changed[0][1])) >= 4
+            and edit_distance(changed[0][0], changed[0][1]) <= 2)
 
 
 def match_count(source: list[str], target: list[str]) -> int:
@@ -59,9 +62,12 @@ def match_count(source: list[str], target: list[str]) -> int:
 
 def self_test() -> int:
     checks = [
-        (near_match("The target is affected.", "The target is aff ected."), True),
+        (near_match("The target is affected.", "The target is affectd."), True),
+        (near_match("The target is affected.", "The target is aff ected."), False),
+        (near_match("The effect may work.", "The effect can work."), False),
         (near_match("At 2nd level, the power lasts.", "At 3rd level, the power lasts."), False),
         (near_match("The target is not immune.", "The target is immune."), False),
+        (near_match("The target isn’t immune.", "The target is immune."), False),
         (match_count(["A sentence.", "A sentence."], ["A sentence."]), 1),
     ]
     for actual, expected in checks:

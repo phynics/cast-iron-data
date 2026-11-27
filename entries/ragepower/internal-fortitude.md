@@ -16,5 +16,6 @@ group = "rage-power"
 ability_type = "Ex"
 +++
 
-While raging, the barbarian is immune to the sickened and nauseated conditions. A barbarian must be
-at least 8th level before selecting this rage power.
+While raging, the barbarian is immune to the [sickened](ref/misc/sickened) and
+[nauseated](ref/misc/nauseated) conditions. A barbarian must be at least 8th level before selecting
+this rage power.

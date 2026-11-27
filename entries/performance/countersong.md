@@ -13,23 +13,16 @@ page = "36"
 [fields]
 kind = "class_option"
 group = "bardic-performance"
+ability_type = "Su"
 +++
 
-**Countersong (Su)**
-
-**Gained:** At 1st Level
-
-**Ability:** A bard learns to counter magic effects that depend on sound (but not spells that have
-verbal components). Each round of the _countersong_ he makes a [Perform](ref/skill/perform-any)
+At 1st level, a bard learns to counter magic effects that depend on sound (but not spells that have
+verbal components). Each round of the countersong he makes a [Perform](ref/skill/perform-any)
 (keyboard, percussion, wind, string, or sing) skill check. Any creature within 30 feet of the bard
 (including the bard himself) that is affected by a sonic or language-dependent magical attack may
 use the bard's Perform check result in place of its saving throw if, after the saving throw is
-rolled, the Perform check result proves to be higher.
-
-If a creature within range of the _countersong_ is already under the effect of a non-instantaneous
-sonic or language-dependent magical attack, it gains another saving throw against the effect each
-round it hears the _countersong,_ but it must use the bard's Perform skill check result for the
-save.
-
-**Special:** _Countersong_ does not work on effects that don't allow saves. _Countersong_ relies on
-audible components.
+rolled, the Perform check result proves to be higher. If a creature within range of the countersong
+is already under the effect of a noninstantaneous sonic or language-dependent magical attack, it
+gains another saving throw against the effect each round it hears the countersong, but it must use
+the bard's Perform skill check result for the save. Countersong does not work on effects that don't
+allow saves. Countersong relies on audible components.

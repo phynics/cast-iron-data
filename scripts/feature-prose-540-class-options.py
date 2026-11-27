@@ -547,6 +547,11 @@ def link_kind_mismatches(text: str) -> list[tuple[str, str, str, str]]:
     return bad
 
 
+def option_link_kind_mismatches(book: str, text: str) -> list[tuple[str, str, str, str]]:
+    """Run the option-link check for books whose class-option prose has been reviewed for it."""
+    return link_kind_mismatches(text) if book in {"advanced-class-guide", "core-rulebook"} else []
+
+
 HARD_HOLD_NOTE_PREFIXES = (
     "anchor collision:",
     "the power's name differs from the title of the entry",
@@ -1079,6 +1084,8 @@ def compare_one(e, book, bk, other=None) -> list[dict]:
         page_found = False
     last = page + (3 if shape == "multi" else 2)         # a power at the end of a page or column goes on over the next page
     blocks = fp.read_blocks(bk, max(1, page + fp.PAGE_OFFSET[0] - 1), min(last + fp.PAGE_OFFSET[0], max(bk.pages)))
+    if book == "core-rulebook":
+        blocks = core_rulebook_table_heads(blocks)
     unanchored = False
     if shape == "multi":
         anchored = anchor_section(blocks, e.title, {fp.squash(fp.ABILITY_TAG.sub("", n_)) for n_, _ in powers}, group_kind(e))
@@ -1121,6 +1128,8 @@ def compare_one(e, book, bk, other=None) -> list[dict]:
     rows, seen = [], Counter()
     _, raw_pfs = fp.split_print(section, [f.name for f in feats])               # the printed span of each power, before the comparison cuts or joins anything
     raw_text = {fp.namekey(fp.head_text(pf.head)): " ".join("".join(x[0] for x in para) for para in pf.paras) for pf in raw_pfs}
+    if book == "core-rulebook":
+        raw_text = {key: clean_core_rulebook_print(e.id, value) for key, value in raw_text.items()}
     blocks_b = rw.parse_blocks(e0.body.split("\n"))
     cands = rw.candidates(blocks_b, True)
     promo = promoted(blocks_b, cands)
@@ -1160,6 +1169,8 @@ def compare_one(e, book, bk, other=None) -> list[dict]:
         if page_found:
             common["page"] = str(page)
         status, printed = r["status"], clean_acg_print(e.id, r["print"])
+        if book == "core-rulebook":
+            printed = clean_core_rulebook_print(e.id, printed)
         if book == "core-rulebook":
             printed = fp.render_marks(printed)   # keep print's italic markers as TOML-safe Markdown, not internal control bytes
         blood_intro = ""
@@ -1227,7 +1238,9 @@ def compare_one(e, book, bk, other=None) -> list[dict]:
                 common["page"] = f"{intro_page}-{page}"
         if shape == "single":
             printed, lost = place_links(printed, plinks)
-            crossed = link_kind_mismatches(printed) if book in {"advanced-class-guide", "core-rulebook"} else []
+            if book == "core-rulebook":
+                printed = core_rulebook_links(e.id, printed)
+            crossed = option_link_kind_mismatches(book, printed)
             if crossed:
                 notes.append("ruling 52: " + "; ".join(
                     f"\"{name}\" names a {target} ({group}) but print says {word}" for name, target, group, word in crossed))
@@ -1362,20 +1375,21 @@ def run_audit(args) -> int:
     fp.configure_book(book)
     pdf = fp.find_pdf(Path(args.books), fp.publication_title(corpus, book))
     bk = fp.load_book(fp.book_xml(pdf, Path(args.cache)))
-    install_split([x.title for x in load_class_options(corpus)])
+    install_split([x.title for x in load_class_options(corpus)] + (["Master Strike (Ex)"] if book == "core-rulebook" else []))
     held, n, skipped = 0, 0, 0
     others = [x.title for x in load_class_options(corpus, book)]               # a head of another class option ends the span of this one
     rows = read_tsv(tsv_file(corpus, book))
     written = {eid for eid in {r["entry"] for r in rows} if all(r["status"] == LEDGER for r in rows if r["entry"] == eid)}
     for e in load_class_options(corpus, book):
-        page_match = re.match(r"\d+", e.page)
-        if e.id not in written or not page_match:
+        page = first_page(e.page)
+        if e.id not in written or page is None:
             continue
-        page = int(page_match.group())   # an intro sentence may cite the earlier start of this printed span
         heads = [e.title] + re.findall(r"^#{2,6}\s+(.*?)(?:\s*\{#[^}]*\})?\s*$", e.body, re.M) + re.findall(r"^\*\*([^*\n]{2,60}?):?\*\*", e.body, re.M)
         multi = len(re.findall(r"^#{2,6}\s+", e.body, re.M)) > 1
         last = page + (3 if multi else 2)
         blocks = fp.read_blocks(bk, max(1, page + fp.PAGE_OFFSET[0] - 1), min(last + fp.PAGE_OFFSET[0], max(bk.pages)))
+        if book == "core-rulebook":
+            blocks = core_rulebook_table_heads(blocks)
         if multi:
             anchored = anchor_section(blocks, e.title, {fp.squash(fp.ABILITY_TAG.sub("", h)) for h in heads}, group_kind(e))
             if anchored is not None:
@@ -1394,6 +1408,8 @@ def run_audit(args) -> int:
             continue
         for pf in mine:
             printed = " ".join("".join(x[0] for x in para) for para in pf.paras)
+            if book == "core-rulebook":
+                printed = clean_core_rulebook_print(e.id, printed)
             lost = print_lost(printed, e.body, errata_fixes(corpus, e.id))
             if lost:
                 held += 1
@@ -1459,7 +1475,7 @@ def run_compare(args) -> int:
             # in the same order as before conversion so this batch does not change other books.
             for feature in acg_written.get(x.id, []):
                 names += [feature, fp.tail_name(feature)]
-    install_split(names)
+    install_split(names + (["Master Strike (Ex)"] if book == "core-rulebook" else []))
     STOP_TITLES.clear()
     STOP_TITLES.update(fp.squash(re.sub(r"\s*\((?:[A-Z]{2,4}|HotW)\)\s*$", "", x.title)) for x in load_class_options(corpus))
     fp.KNOWN_OPTIONS[:] = [fp.item_tokens(x.title) for x in load_class_options(corpus)]      # ruling 60: a sentence that names a longer option holds
@@ -1688,6 +1704,12 @@ def with_page(text: str, page: str) -> str:
     return "".join(lines)
 
 
+def first_page(page: str) -> int | None:
+    """The start folio of a single page or intro-to-head range."""
+    match = re.match(r"\d+", page)
+    return int(match.group()) if match else None
+
+
 def clean_acg_print(entry_id: str, text: str) -> str:
     """Clean ACG extraction artifacts and apply reviewed option-link corrections."""
     if entry_id == "ref/exploit/arcane-weapon":
@@ -1703,6 +1725,67 @@ def clean_acg_print(entry_id: str, text: str) -> str:
     return text
 
 
+def core_rulebook_table_heads(blocks: list) -> list:
+    """Separate the CRB bard table from Suggestion and terminate Feat at Master Strike."""
+    want = {fp.namekey(name) for name in EXTRA_NAMES}
+    out = []
+    for block in blocks:
+        if block.kind != "para":
+            out.append(block)
+            continue
+        split_at = None
+        for i, (text, bold, italic) in enumerate(block.runs):
+            head = text.strip().rstrip(":").strip()
+            if (bold or italic) and fp.namekey(head) == fp.namekey("Master Strike (Ex)"):
+                split_at = i
+                break
+            if ("spells known" in block.plain().casefold() and (bold or italic)
+                    and fp.namekey(head) in want and ability_tag_of(head)):
+                split_at = i
+                break
+        if split_at is None:
+            out.append(block)
+            continue
+        head = block.runs[split_at][0].strip().rstrip(":").strip()
+        if fp.namekey(head) == fp.namekey("Master Strike (Ex)"):
+            if split_at:
+                out.append(fp.Para("para", list(block.runs[:split_at]), block.page, block.col, block.size))
+            out.append(fp.Para("para", list(block.runs[split_at:]), block.page, block.col, block.size))
+        else:
+            if out and out[-1].kind == "title" and re.match(r"Table 3[–-]4:\s*Bard Spells Known", out[-1].plain(), re.I):
+                out.pop()
+            # Everything before the embedded option head is the table title and its cells, not option prose.
+            out.append(fp.Para("para", list(block.runs[split_at:]), block.page, block.col, block.size))
+    return out
+
+
+def clean_core_rulebook_print(entry_id: str, text: str) -> str:
+    """Remove only the two Bard tables that the CRB text layer interleaves with these power spans."""
+    if entry_id == "ref/performance/countersong":
+        text = re.sub(r"\s*Spells per Day\b.*?(?=\s*\(including\s+the\s+bard\s+himself\s*\))", " ", text, flags=re.S)
+    if entry_id == "ref/performance/inspire-competence":
+        text = re.sub(r"\s*Table 3[–-]4:\s*Bard Spells Known\b.*?(?=\s*_?Suggestion \(Sp\)_?)", " ", text, flags=re.S)
+    if entry_id == "ref/talent/feat":
+        text = re.sub(r"\s*Master Strike\s+_?\(Ex\)_?\s*:\s*.*$", "", text, flags=re.S)
+    if entry_id == "ref/ragepower/animal-fury":
+        text = text.replace("base attack bonus -5", "base attack bonus –5")
+    return re.sub(r"\s+", " ", text).strip()
+
+
+CRB_PRINT_LINKS = {
+    "ref/performance/soothing-performance": [("fatigued", "ref/misc/fatigued"), ("sickened", "ref/misc/sickened"), ("shaken", "ref/misc/shaken")],
+    "ref/ragepower/internal-fortitude": [("sickened", "ref/misc/sickened"), ("nauseated", "ref/misc/nauseated")],
+    "ref/ragepower/intimidating-glare": [("Intimidate", "ref/skill/intimidate")],
+    "ref/performance/deadly-performance": [("perform", "ref/skill/perform-any")],
+    "ref/ragepower/night-vision": [("racial trait", "ref/rule/low-light-vision")],
+}
+
+
+def core_rulebook_links(entry_id: str, text: str) -> str:
+    links = CRB_PRINT_LINKS.get(entry_id, [])
+    return fp.apply_links(text, links)[0] if links else text
+
+
 def proposal_print(book: str, text: str) -> str:
     """Store Core Rulebook italics as Markdown instead of the print reader's internal markers."""
     return fp.render_marks(text) if book == "core-rulebook" else text
@@ -1712,6 +1795,9 @@ def refresh_written_proposal(corpus: Path, book: str, row: dict, original: str) 
     """Refresh a retained written proposal from print while preserving its marked-head intro."""
     entry_id = row["entry"]
     printed = clean_acg_print(entry_id, drop_unkeyed_link_marks(entry_id, original))
+    if book == "core-rulebook":
+        printed = clean_core_rulebook_print(entry_id, printed)
+        printed = core_rulebook_links(entry_id, printed)
     printed = class_option_errata(corpus, entry_id, printed)
     intro = marked_head_intro(book, entry_id) if entry_id in MARKED_HEAD_ENTRIES else ""
     if intro:
@@ -1725,7 +1811,7 @@ def refresh_written_proposal(corpus: Path, book: str, row: dict, original: str) 
     else:
         printed = drop_marked_intro(printed)
     row["print_sha256"] = hashlib.sha256(printed.encode()).hexdigest()
-    return printed
+    return proposal_print(book, printed)
 
 
 def run_headings(args) -> int:
@@ -2057,6 +2143,7 @@ def run_check(args) -> int:
 # ---- self-test -----------------------------------------------------------------------------------
 
 def self_test() -> int:
+    global CORPUS_ROOT
     ok, bad = 0, []
 
     def eq(a, b, what):
@@ -2072,6 +2159,21 @@ def self_test() -> int:
     eq(INVERTED_HEAD.match("Pool Strike, Arcing (Su)").groups(), ("Pool Strike", "Arcing", " (Su)"), "an inverted Pool Strike head is read")
     eq(inverted("Arcing Pool Strike (Su)"), "Pool Strike, Arcing (Su)", "the title's variant moves behind its base name")
     eq(inverted("Weapon Training (Ex)"), "Weapon Training (Ex)", "a non-variant title remains unchanged")
+    eq(ability_tag_for_option("core-rulebook", "Fast Stealth", "Fast Stealth (Ex)"), ("Ex", False),
+       "Core Rulebook ability tag comes from print's head")
+    eq(ability_tag_for_option("core-rulebook", "Fast Stealth (Ex)", "Fast Stealth"), ("", False),
+       "Core Rulebook does not inherit an unprinted tag")
+    eq(INTRO_MARK_SPECS["core-rulebook"]["talent"], ("Talents marked with an asterisk", "sneak attack"),
+       "Core Rulebook marked talent intro is registered")
+    old_intro = INTRO_MARK_TEXT.get(("core-rulebook", "talent"))
+    INTRO_MARK_TEXT[("core-rulebook", "talent")] = ("Talents marked with an asterisk add effects to sneak attack.", 68)
+    eq(marked_head_intro("core-rulebook", "ref/talent/bleeding-attack"),
+       "Talents marked with an asterisk add effects to sneak attack.", "Core Rulebook marked intro is read")
+    eq(marked_head_page("core-rulebook", "ref/talent/bleeding-attack"), 68, "Core Rulebook marked intro start page")
+    if old_intro is None:
+        INTRO_MARK_TEXT.pop(("core-rulebook", "talent"), None)
+    else:
+        INTRO_MARK_TEXT[("core-rulebook", "talent")] = old_intro
     errata_print = "The alchemist's Intelligent modifier applies."
     errata_kept = "The alchemist's Intelligence modifier applies."
     eq(apply_errata_text(errata_print, [("Intelligent modifier", "Intelligence modifier")]), errata_kept,
@@ -2102,14 +2204,61 @@ def self_test() -> int:
     eq(group_heading(type("E", (), {"title": "Bite"})(), blk[2:]), None, "ruling 61: no title above the head, no heading")
     eq(with_page('[[sources]]\npublication = "x"\npage = "62"\n\n[fields]\n', "61-62"), '[[sources]]\npublication = "x"\npage = "61-62"\n\n[fields]\n', "ruling 61: the page row becomes a range")
     eq(with_page('[[sources]]\npublication = "x"\n\n[fields]\n', "12"), '[[sources]]\npublication = "x"\npage = "12"\n\n[fields]\n', "a missing source page is added")
+    eq(first_page("68-70"), 68, "range-page audit starts at the cited intro page")
+    eq(first_page("70"), 70, "single-page audit starts at its page")
+    eq(first_page("intro"), None, "page audit skips an invalid page")
     eq("Table 1" in clean_acg_print("ref/exploit/arcane-weapon", "_spell_ Table 1–1: rows Magical supremacy _storing_"), False,
        "ACG Arcane Weapon drops its interleaved class table")
+    eq("Spells per Day" in clean_core_rulebook_print("ref/performance/countersong", "An effect. Spells per Day 1st 1 2nd 2 (including the bard himself) uses Perform."), False,
+       "CRB Countersong drops interleaved Table 3–3 rows")
+    eq("Table 3–4" in clean_core_rulebook_print("ref/performance/inspire-competence", "A bonus. Table 3–4: Bard Spells Known rows _Suggestion (Sp)_: prose."), False,
+       "CRB Inspire Competence drops interleaved Table 3–4 rows")
+    eq("Master Strike" in clean_core_rulebook_print("ref/talent/feat", "A rogue gains a feat. Master Strike _(Ex)_: A class feature."), False,
+       "CRB Feat stops before the Master Strike class feature")
+    eq(clean_core_rulebook_print("ref/ragepower/animal-fury", "base attack bonus -5"), "base attack bonus –5",
+       "CRB Animal Fury preserves print's en dash")
+    eq(core_rulebook_links("ref/performance/soothing-performance", "removes fatigued, sickened, and shaken."),
+       "removes [fatigued](ref/misc/fatigued), [sickened](ref/misc/sickened), and [shaken](ref/misc/shaken).",
+       "Core Rulebook links its printed conditions")
+    eq(core_rulebook_links("ref/ragepower/night-vision", "or a racial trait"),
+       "or a [racial trait](ref/rule/low-light-vision)", "Core Rulebook links the named racial trait")
+    old_extra = list(EXTRA_NAMES)
+    EXTRA_NAMES[:] = ["Suggestion (Sp)"]
+    P = fp.Para
+    table_blocks = [P("title", [("Table 3–4: Bard Spells Known", True, False)], 37, 1, 16),
+                    P("para", [("Spells Known Level 0 1st", True, False), (" 4 2 ", False, False),
+                               ("Suggestion (Sp)", False, True), (": A bard can suggest.", False, False)], 37, 1)]
+    split_blocks = core_rulebook_table_heads(table_blocks)
+    eq([b.plain() for b in split_blocks], ["Suggestion (Sp): A bard can suggest."],
+       "CRB table-plus-italic head is split before comparison")
+    feat_blocks = [P("para", [("A rogue gains a feat. ", False, False),
+                               ("Master Strike (Ex)", False, True), (": A class feature.", False, False)], 68, 1)]
+    feat_split = core_rulebook_table_heads(feat_blocks)
+    eq([b.plain() for b in feat_split], ["A rogue gains a feat. ", "Master Strike (Ex): A class feature."],
+       "CRB Master Strike terminates the Feat option span")
+    EXTRA_NAMES[:] = old_extra
     eq(clean_acg_print("ref/exploit/greater-spell-resistance", "the [spell resistance](ref/spell/spell-resistance) exploit"),
        "the [spell resistance](ref/exploit/spell-resistance) exploit", "the printed spell resistance exploit links to the option")
     eq(clean_acg_print("ref/exploit/resistance-drain", "the [spell resistance](ref/spell/spell-resistance) exploit"),
        "the [spell resistance](ref/exploit/spell-resistance) exploit", "Resistance Drain links the named exploit")
     eq(clean_acg_print("ref/exploit/see-magic", "First sentence.\n\nSecond sentence."), "First sentence. Second sentence.",
        "ACG art-wrapped power paragraphs rejoin")
+    with tempfile.TemporaryDirectory() as temp:
+        old_root, old_targets = CORPUS_ROOT, dict(GROUP_OF_TARGET)
+        CORPUS_ROOT = Path(temp)
+        GROUP_OF_TARGET.clear()
+        target = Path(temp) / "entries" / "talent" / "test-option.md"
+        target.parent.mkdir(parents=True)
+        target.write_text('+++\nid = "ref/talent/test-option"\n[fields]\nkind = "class_option"\ngroup = "rogue-talent"\n+++\n', encoding="utf-8")
+        eq(option_link_kind_mismatches("core-rulebook", "A rogue selects [test option](ref/talent/test-option) hex."),
+           [("test option", "ref/talent/test-option", "rogue-talent", "hex")], "Core Rulebook link-kind check catches a wrong option noun")
+        eq(option_link_kind_mismatches("core-rulebook", "A rogue selects [test option](ref/talent/test-option) talent."), [],
+           "Core Rulebook link-kind check keeps the matching option kind")
+        eq(option_link_kind_mismatches("advanced-players-guide", "A rogue selects [test option](ref/talent/test-option) hex."), [],
+           "the Core Rulebook link check stays book-gated")
+        CORPUS_ROOT = old_root
+        GROUP_OF_TARGET.clear()
+        GROUP_OF_TARGET.update(old_targets)
     DECISIONS.clear()
     DECISIONS[("ref/x/y", "z")] = ("hold", "an errata check")
     DECISIONS[("ref/x/y", "w")] = ("print", "settled")
@@ -2192,7 +2341,6 @@ def self_test() -> int:
     globals()["VARIANTS_ON"] = True
     eq((sec0(vr, vv)[0]["status"], sec0([], vv)[0]["status"]), ("print", "hold"), "ruling 65: with the switch on a variant that holds its power settles; one that holds none does not (not vacuous)")
     globals()["VARIANTS_ON"] = False
-    import tempfile
     with tempfile.TemporaryDirectory() as td:
         tp = Path(td) / "x.md"
         tp.write_text("old")
@@ -2446,7 +2594,6 @@ def self_test() -> int:
             f = root / "entries" / (rel + ".md")
             f.parent.mkdir(parents=True, exist_ok=True)
             f.write_text(f'id = "ref/{rel}"\nkind = "{kind}"\n[fields]\nkind = "{kind}"\ngroup = "{group}"\n\n+++\n\nText.\n', encoding="utf-8")
-        global CORPUS_ROOT
         old_root = CORPUS_ROOT
         CORPUS_ROOT = root
         GROUP_OF_TARGET.clear()
