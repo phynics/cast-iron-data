@@ -2239,10 +2239,13 @@ class Entry:
             return True
         # the text is an opening only (no head is printed): `fmt` leaves no empty `features`, so it is converted when it has
         # no key row of the import form left
-        return self.id in OPENING_ONLY and not re.search(r"^\*\*[A-Z][^*\n]*\*\*", self.body, re.M)
+        return (self.id in OPENING_ONLY or self.id in NO_LISTED_FEATURES) and not re.search(r"^\*\*[A-Z][^*\n]*\*\*", self.body, re.M)
 
 
 # Entries whose print has no head of its own: the printed text is the opening (Familiar Folio p. 16, Bloodline Familiars)
+# Entries whose sections are all unlisted (no level, no trade, a lead-in and options only): `fmt` leaves no empty `features` here either
+# (Horror Realms p. 10, the Accursed Companions: a rule of when, a rule of the choice, and its options)
+NO_LISTED_FEATURES = {"ref/arc-companion/accursed-companion"}
 OPENING_ONLY = {"ref/arc-sorcerer/bloodline-familiars", "ref/arc-bloodrager/bloodline-familiars", "ref/arc-witch/patron-familiars"}
 
 
@@ -4718,6 +4721,7 @@ def finalize(e: Entry, res: dict, class_cache: dict | None = None) -> dict:
 # batch of 2026-11-26: "Aquakinetcist" for "Aquakineticist", Aquatic Adventures p. 50). The entry's title and id stay as they are.
 PRINT_TITLES = {
     "ref/arc-bard/pitax-academy-of-grand-arts": "The Academy of Grand Arts",      # the box of the Pitax page (Guide to the River Kingdoms p. 40)
+    "ref/arc-companion/accursed-companion": "Accursed Companions",      # the print heading is plural (Horror Realms p. 10)
     "ref/arc-kineticist/aquakinetcist": "Aquakineticist",
     "ref/arc-paladin/iomedaen-enforcer": "Iomedaean Enforcer",     # the printed spelling (Divine Anthology p. 6); the id stays
 }
@@ -4942,7 +4946,9 @@ def configure_book(book: str) -> None:
     ART_RUNS["on"] = book in ("black-markets", "blood-of-shadows", "agents-of-evil")     # Agents of Evil: text beside the figure steps in and out line by line (p. 20)
     SECTION_STOPS["on"] = book in ("adventurers-guide", "ultimate-wilderness", "horror-adventures", "planar-adventures")
     ANY_TITLE_ENDS["on"] = book in SMALL_CAP_BOOKS or book in PLAYER_COMPANIONS or book in ("monster-codex", "advanced-class-origins", "black-markets", "blood-of-shadows", "agents-of-evil")
-    STAYS_EXTRA["set"] = frozenset({"discoveries"}) if book == "blood-of-shadows" else frozenset()
+    STAYS_EXTRA["set"] = (frozenset({"discoveries"}) if book == "blood-of-shadows"
+                          else frozenset({"gaininganaccursedcompanion", "accursedcompanionmanifestations"}) if book == "horror-realms"
+                          else frozenset())      # Horror Realms: the two plain headings of the Accursed Companions (p. 10)
     SMALL_CAP_TITLES["on"] = book in SMALL_CAP_BOOKS or book in PLAYER_COMPANIONS
     CHAPTER_TITLES["on"] = (book in PLAYER_COMPANIONS and book != "blood-of-the-ancients") or book in CHAPTER_TITLE_BOOKS
     # a title in small capitals and a chapter title can stand higher than the body of the other books (Heroes of the High Court p. 29: capital at 86; Martial Arts Handbook p. 18: chapter title at 70; the running heads stand at 13-29)
@@ -6715,6 +6721,11 @@ ITALIC_HEADS = {
     "ref/arc-summoner/wild-caller-hotw": ["Base Form", "Cactus (desert)", "Conifer (forest, mountain)", "Mushroom (swamp, underground)", "Tree (forest, jungle, swamp)"],
 }
 # ---- Batch A4: Pathfinder 139, 144 and 5, Horror Realms, Guide to the River Kingdoms, Heroes of the Wild, Familiar Folio (2) ----
+# Horror Realms p. 10: two heads that the book sets in small capitals come out in mixed case
+HEAD_REWRITES.update({
+    ("ref/arc-companion/accursed-companion", "gaining-an-accursed-companion"): "Gaining an Accursed Companion",
+    ("ref/arc-companion/accursed-companion", "accursed-companion-manifestations"): "Accursed Companion Manifestations",
+})
 TRADE_REMOVALS["ref/arc-monk/scarred-monk"] = [("replaces", "the ability to spend ki points to do anything other than what's described below")]       # print: "Mortifications alter the ki pool and replace high jump, wholeness of body, abundant step, and empty body" (ruling 17)
 TRADE_ADDITIONS["ref/arc-summoner/wild-caller-hotw"] = [{"alters": "the summoner's eidolon", "feature": "eidolon"}]
 # print: "This ability replaces aspect, which is instead gained at 18th level in place of greater aspect": one `replaces` trade in the printed words
