@@ -13,16 +13,12 @@ page = "16"
 [fields]
 kind = "class_option"
 group = "vigilante-talent"
+ability_type = "Ex"
 +++
 
-**Shield of Blades (Ex)**
-
-**Flavor:** The vigilante's wild attacks allow him to block his foes' counterattacks.
-
-**Ability:** He gains [Power Attack](ref/feat/power-attack) as a bonus feat. If he already has the
-Power Attack feat, he can immediately swap it for another feat for which he qualified at the level
-he chose Power Attack.
-
+The vigilante's wild attacks allow him to block his foes' counterattacks. He gains
+[Power Attack](ref/feat/power-attack) as a bonus feat. If he already has the Power Attack feat, he
+can immediately swap it for another feat for which he qualified at the level he chose Power Attack.
 When he takes an attack or full attack action, if he uses Power Attack on every attack to make melee
 attacks that use his Strength bonus on attack rolls, he gains a shield bonus to his AC until his
 next turn equal to his penalty on attack rolls from Power Attack. This bonus applies only if he

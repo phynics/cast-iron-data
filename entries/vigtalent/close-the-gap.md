@@ -13,11 +13,10 @@ page = "14"
 [fields]
 kind = "class_option"
 group = "vigilante-talent"
+ability_type = "Ex"
 +++
 
-**Close the Gap (Ex)**
-
-**Ability:** Each round, at the start of his turn, the vigilante can designate one foe within 20
-feet that isn't adjacent to him. When he moves, he doesn't provoke attacks of opportunity from that
-foe as long as he ends his move adjacent to that foe. If he [charges](ref/rule/charge) that foe, he
-does not take the -2 penalty to his AC on any attacks made by the designated foe.
+Each round, at the start of his turn, the vigilante can designate one foe within 20 feet that isn't
+adjacent to him. When he moves, he doesn't provoke attacks of opportunity from that foe as long as
+he ends his move adjacent to that foe. If he [charges](ref/rule/charge) that foe, he does not take
+the -2 penalty to his AC on any attacks made by the designated foe.

@@ -1,0 +1,1694 @@
+# The printed text of the powers of the class options of the book, written ones included (the check reads an entry against it). Generated: never edit by hand.
+
+[[entry]]
+id = "ref/inquisition/crime"
+anchor = "opening"
+print = '''
+as she wishes in increments of +2, but the enhancement bonus on any single ability score cannot exceed +4.
+
+At 8th level, a skinshaper can imitate humanoid creatures even more accurately. She gains any of the following abilities that the form she assumes has: darkvision 90 feet, low-light vision, scent, climb 60 feet, fly 60 feet (good maneuverability), swim 60 feet, ferocity, orc ferocity, and hold breath. If the form she assumes has the aquatic subtype, she gains the aquatic subtype and the amphibious special quality.
+
+At 12th level, a skinshaper can access the racial memory of the humanoid she is imitating. If the form she assumes has any of the following racial abilities, she gains those abilities: defensive training, hatred, poison use, sneak attack +2d6, stability, and weapon familiarity. Additionally, she can speak any racial languages of the chosen form.
+
+At 16th level, a skinshaper gains the racial skill bonuses of the imitated humanoid, to a maximum of a +4 bonus on a given skill. The skinshaper cannot benefit from any variable racial skill bonuses associated with the chosen form (such as gnomes' racial bonus on any one Craft or Profession skill).
+
+This ability replaces wild shape.'''
+
+[[entry]]
+id = "ref/inquisition/crime"
+anchor = "flashmorph"
+print = '''
+At 13th level, a skinshaper learns to change her shape extremely quickly. She can use skinshaping as a swift action.
+
+This ability replaces a thousand faces.'''
+
+[[entry]]
+id = "ref/inquisition/crime"
+anchor = "urushiol-archetype"
+print = "When an urushiol druid forms a bond with nature, it takes a vastly different form than for most druids. His body becomes increasingly toxic, allowing him to secrete a deadly poison through his pores."
+
+[[entry]]
+id = "ref/inquisition/crime"
+anchor = "toxic-secretions"
+print = '''
+At 1st level, an urushiol's body becomes capable of producing a single dose of poison per day. At 3rd level and every 2 druid levels thereafter, the number of daily doses increases by 1, to a maximum of 10 doses at 19th level. The urushiol's daily doses are replenished when he regains his spells, but any of his weapons that are still poisoned with urushiol venom count against his daily limit. The urushiol is immune to his own poison and cannot accidentally poison himself when applying his own poison or attacking with a weapon coated with it. Regardless of the delivery method he chooses, his poison has the following base statistics.
+
+_Urushiol Venom_: _type_ poison (varies); _save_ Fortitude negates; _frequency_ 1/round for 2 rounds; _effect_ 1d3 Strength damage; _cure_ 1 save. The save DC is equal to 10 + 1/2 the urushiol's level + his Wisdom modifier.
+
+At 1st level, an urushiol can secrete this poison as a numbing injury poison on a natural weapon, unarmed strike, or manufactured weapon by spending 1 of his daily doses as a standard action. He must choose a natural weapon, unarmed strike, or manufactured weapon in his hand that deals piercing or slashing damage and that is not already poisoned or poisonous. The weapon remains poisoned until the urushiol scores a hit with it, the weapon leaves his possession for more than 1 round, or the poison is wiped away.
+
+At 4th level, an urushiol's body becomes so saturated with poison that even his flesh is poisonous.
+
+Whenever a creature damages the urushiol with a bite or swallow whole attack, the urushiol can release ingested poison into the creature by spending 1 of his daily doses as an immediate action.
+
+At 7th level, an urushiol can spend 2 daily doses of his poison as a standard action to secrete a contact poison and coat one of his limbs with the secreted poison. The urushiol can deliver the poison by making a successful touch attack as a standard action, which can be part of the same standard action he used to secrete the poison. If the attack misses, the poison persists upon his limb throughout the subsequent rounds until he hits a target or touches something else with his poisoned limb.
+
+At 11th level, an urushiol can spend 3 daily doses of his poison as a standard action to release a 20-foot-radius cloud of inhaled poison centered around him that lasts for 1 round.
+
+At 14th level, an urushiol's venom changes in frequency to 1/round for 4 rounds. In addition, when using his urushiol venom, an urushiol can spend an extra dose of his poison to change the damage type of the poison to Dexterity damage or Constitution damage. He can use this alteration in combination with any of the other abilities. For example, he could spend a total of 3 doses to create a cloud of inhaled poison that deals Constitution damage.
+
+This ability replaces nature bond and resist nature's lure.'''
+
+[[entry]]
+id = "ref/inquisition/crime"
+anchor = "venom-immunity"
+print = '''
+An urushiol gains venom immunity at 4th level instead of 9th level.
+
+This ability alters venom immunity.'''
+
+[[entry]]
+id = "ref/inquisition/crime"
+anchor = "inquisitor"
+print = "Steeped in the arts of subterfuge, deception, and misdirection, inquisitors are deadly warriors and spellcasters, capable of advancing their causes by any means possible. Whether they use disguises, exercise stealth, manipulate crime scenes, or root out secrets, these divine agents find ways to make themselves indispensable when their deities require intrigue and treacherous dealings."
+
+[[entry]]
+id = "ref/inquisition/crime"
+anchor = "inquisitions"
+print = "Inquisitions were first introduced on page 41 of _Pathfinder RPG Ultimate Magic_. An inquisition can be selected in place of a domain. The following inquisitions are available to any domain-using class, but inquisitions are typically weaker than domains for other classes because they don't grant domain spell slots or domain spells. If an inquisition's granted power calls for a saving throw, the DC of the save is equal to 10 + 1/2 a character's class level in the class that granted the inquisition + her Wisdom modifier. The character's caster level for these granted powers is equal to her character level in the class that granted the inquisition."
+
+[[entry]]
+id = "ref/inquisition/crime"
+anchor = "deities"
+print = "Calistria, Norgorber."
+
+[[entry]]
+id = "ref/inquisition/crime"
+anchor = "granted-powers"
+print = "Your connections to the criminal underworld run deeper than the physical, and your spiritual criminality grants you underhanded powers."
+
+[[entry]]
+id = "ref/inquisition/crime"
+anchor = "criminal-minds"
+print = "You can touch a creature and fill its mind with criminal impulses. This otherwise functions as per _[crime of opportunity](ref/spell/crime-of-opportunity)_ (see page 208), though a target that fails its saving throw and acts on an impulse gets those desires out of its system and becomes immune to the effects of your criminal minds ability for 24 hours. You can use this ability a number of times per day equal to 3 + your Wisdom modifier (minimum 1)."
+
+[[entry]]
+id = "ref/inquisition/crime"
+anchor = "thief-s-soul"
+print = "At 8th level, you gain [Improved Steal](ref/feat/improved-steal), [Greater Steal](ref/feat/greater-steal), and [Quick Steal](ref/feat/quick-steal) as bonus feats, even if you don't meet the prerequisites."
+
+[[entry]]
+id = "ref/inquisition/crime"
+anchor = "deities"
+print = "Calistria, Norgorber."
+
+[[entry]]
+id = "ref/inquisition/crime"
+anchor = "granted-powers"
+print = "You have learned to keep your own secrets close, and your enemies' secrets closer."
+
+[[entry]]
+id = "ref/inquisition/crime"
+anchor = "detect-secrets"
+print = "You have learned how to detect any of a creature's secrets, not just its thoughts. Whenever you cast _detect anxieties_ (see page 211), _detect desires_ (see page 211), or _detect thoughts_ or use any of those spells as a spell-like ability, you can choose to gain the effects of one of the other two spells instead. You are never overwhelmed by a target of these spells that has a high ability score."
+
+[[entry]]
+id = "ref/inquisition/crime"
+anchor = "closed-book"
+print = "At 8th level, it becomes difficult for your foes to unveil your secrets. You are constantly under the effect of _nondetection_, as if you cast the spell on yourself."
+
+[[entry]]
+id = "ref/inquisition/crime"
+anchor = "cloaked-wolf-archetype"
+print = "Some inquisitors are adept at appearing harmless until they throw off their unassuming facades and take their enemies by surprise."
+
+[[entry]]
+id = "ref/inquisition/crime"
+anchor = "class-skills"
+print = '''
+A cloaked wolf adds Sleight of Hand to her list of class skills, instead of Intimidate.
+
+This alters the inquisitor's class skills.'''
+
+[[entry]]
+id = "ref/inquisition/crime"
+anchor = "lure-prey"
+print = '''
+Cloaked wolves are skilled at maintaining a harmless guise even while they silently prepare to strike against their enemies. Starting at 1st level, a cloaked wolf receives a morale bonus on all Disguise and Sleight of Hand checks equal to half her inquisitor level (minimum +1). When a cloaked wolf uses Sleight of Hand to draw a hidden weapon, this bonus doubles.
+
+This ability replaces stern gaze.'''
+
+[[entry]]
+id = "ref/inquisition/crime"
+anchor = "always-wary"
+print = '''
+A cloaked wolf is always ready for betrayal and subterfuge. Whenever she attempts a Sense Motive check to avoid being surprised by a foe using Bluff to conceal the attack, the cloaked wolf can always act during the surprise round, regardless of the result of the check. At 2nd level, she adds her Wisdom modifier (in addition to her Dexterity modifier) to her initiative checks during any such encounter.
+
+This ability alters cunning initiative and replaces monster lore.'''
+
+[[entry]]
+id = "ref/inquisition/crime"
+anchor = "unleashed-fury"
+print = '''
+At 3rd level, a cloaked wolf can transition between parley and combat in the blink of an eye. She gains Quick Draw as a bonus feat.
+
+Additionally, at 6th level and every 3 inquisitor levels thereafter, she gains a bonus feat from the following list: Alertness, Catch Off-Guard, Deceitful, Deft Hands, Dodge, Improved Initiative, Improved Unarmed Strike, Improvised Weapon Mastery, Lookout, Mobility, Spring Attack, Stunning Fist, and Throw Anything. She must meet the prerequisites of the selected bonus feat.
+
+As a standard action, a cloaked wolf can choose to learn a new bonus feat from the above list in place of the most recent bonus feat she has already learned. In effect, the cloaked wolf loses the bonus feat in exchange for the new one. She can only change the most recent bonus feat gained. Whenever she gains a new bonus feat, the previous bonus feat becomes set and cannot be changed again. A cloaked wolf can change her most recent bonus feat a number of times per day equal to her Wisdom modifier (minimum 1).
+
+This ability replaces solo tactics and teamwork feats.'''
+
+[[entry]]
+id = "ref/inquisition/crime"
+anchor = "faith-hunter-archetype"
+print = "Certain relentless inquisitors burn with special hatred for an enemy of specific convictions, and they stop at nothing when obsessively hunting these foes down."
+
+[[entry]]
+id = "ref/inquisition/crime"
+anchor = "sworn-enemy"
+print = '''
+A faith hunter chooses a single alignment (such as chaotic evil, rather than simply chaotic or evil) that directly opposes her own along either the law/chaos axis or the good/evil axis (so a lawful good faith hunter can choose chaotic good, chaotic neutral, chaotic evil, neutral evil, or lawful evil, whereas a neutral good faith hunter can only choose chaotic evil, neutral evil, or lawful evil). Creatures of this alignment are her sworn enemies. She can detect creatures of that specific alignment at will, functioning as _detect evil,_ except this ability works only on creatures and detects the specific alignment.
+
+At 6th level, once per day as a swift action, a faith hunter can smite one foe she can see. If the foe is of the faith hunter's sworn enemy alignment, the faith hunter gains a +4 sacred bonus on attack rolls against that foe and a sacred bonus equal to half her inquisitor level on damage rolls made against the foe. Smites against targets of the faith hunter's sworn enemy alignment automatically bypass any DR the creature might possess. If the faith hunter targets a creature that is not of her sworn enemy alignment, the smite is wasted with no effect.
+
+The smite effect remains until the foe is dead or the next time the faith hunter rests and regains her uses of this ability. At 10th level and every 4 inquisitor levels thereafter, a faith hunter can smite her enemies one additional time per day, to a maximum of four times per day at 18th level.
+
+A faith hunter does not gain the justice or destruction judgments.
+
+This ability replaces domain and alters judgment.'''
+
+[[entry]]
+id = "ref/inquisition/crime"
+anchor = "enemy-revealed"
+print = '''
+At 2nd level, when a faith hunter uses her sworn enemy ability to identify a creature's alignment (typically on the third round of concentrating on an area including the creature), she can reveal that creature's alignment aura, causing it to glow for 1 round per inquisitor level so that even creatures with regular vision can see the aura. This not only allows others to recognize the creature's alignment, potentially exposing its true nature, it also allows them to track its location easily by the glow. Even if such a creature is invisible, the telltale glow pinpoints the creature's square or squares. The faith hunter can use this ability a number of times per day equal to her Wisdom modifier (minimum 1), and it doesn't take any extra action on her part to do so; it is part of the same action as concentrating on her sworn enemy detect ability.
+
+This ability replaces detect alignment.'''
+
+[[entry]]
+id = "ref/inquisition/crime"
+anchor = "hateful-bane"
+print = '''
+At 5th level, a faith hunter's bane ability functions only against creatures that are both the selected creature type and her sworn enemy alignment.
+
+This ability alters bane.'''
+
+[[entry]]
+id = "ref/inquisition/crime"
+anchor = "secret-seeker-archetype"
+print = "Secret seekers are trained in the art of extracting answers from intransigent foes. Recognizing that torture is a poor method of securing truthful intelligence, secret seekers instead prefer magical means of inquiry."
+
+[[entry]]
+id = "ref/inquisition/crime"
+anchor = "occult-lore"
+print = '''
+A secret seeker gains access to the prognostication and read aura occult skill unlocks (_Pathfinder RPG Occult Adventures_ 196–197), but not the other occult skill unlocks. If she ever chooses to gain the Psychic Sensitivity feat or otherwise gains access to all occult skill unlocks, she receives Psychic Maestro as a bonus feat, with prognostication and read aura as the two occult skill unlocks selected.
+
+This ability replaces monster lore.'''
+
+[[entry]]
+id = "ref/inquisition/crime"
+anchor = "detect-mind"
+print = '''
+At 5th level, a secret seeker can _detect anxieties_ (see page 211), _detect desires_ (see page 211), or _detect thoughts_, as per the spells, for a number of rounds per day equal to twice her inquisitor level. These rounds need not be consecutive. A creature that succeeds at a saving throw against this ability is immune to that secret seeker's detect mind ability for 24 hours. If the secret seeker has the secrets inquisition (see page 28), she doubles the number of rounds per day that she can use this ability.
+
+At 12th level, a secret seeker can use her detect mind ability for a number of minutes per day equal to twice her inquisitor level, rather than rounds. These minutes need not be consecutive but must be spent in 1-minute increments. If the secret seeker has the secrets inquisition, she doubles the number of minutes per day she can use this ability.
+
+This ability replaces bane and greater bane.'''
+
+[[entry]]
+id = "ref/inquisition/crime"
+anchor = "seek-mind"
+print = '''
+At 14th level, a secret seeker can use her detect mind ability to seek out people with particular anxieties, desires, or thoughts. This functions as per _seek thoughts_ except that it works with any of the three types of mental output the secret seeker can detect with detect mind.
+
+This ability replaces exploit weakness.'''
+
+[[entry]]
+id = "ref/inquisition/crime"
+anchor = "tactical-leader-archetype"
+print = "Rather than pursuing their holy missions alone, some inquisitors see the inherent value of working with like-minded allies to accomplish mutual goals."
+
+[[entry]]
+id = "ref/inquisition/crime"
+anchor = "leader-s-words"
+print = '''
+Tactical leaders are skilled at speaking soothing words that keep the peace and bolster allies' resolve. A tactical leader receives a morale bonus on all Diplomacy checks equal to half his inquisitor level (minimum +1).
+
+This ability replaces stern gaze.'''
+
+[[entry]]
+id = "ref/inquisition/crime"
+anchor = "tactician"
+print = '''
+At 3rd level, 9th level, and 18th level, a tactical leader gains a teamwork feat as a bonus feat. He must meet the prerequisites for this feat. As a standard action, the tactical leader can grant one of these feats to all allies within 30 feet who can see and hear him. Allies retain the use of this bonus feat for 3 rounds plus 1 round for every 2 inquisitor levels the tactical leader has. Allies do not need to meet the prerequisites of these bonus feats. The tactical leader can use this ability once per day at 3rd level, plus one additional time per day at 6th, 9th, 15th, and 18th level.
+
+At 12th level, a tactical leader can use the tactician ability as a swift action. At 18th level, whenever the tactical leader uses this ability, he grants any two teamwork feats that he knows. He can select from any of his teamwork feats, not just his bonus feats.
+
+If the tactical leader also has cavalier levels, these levels stack for determining the number of uses of this ability per day.
+
+This ability replaces solo tactics and teamwork feats.'''
+
+[[entry]]
+id = "ref/inquisition/crime"
+anchor = "battle-acumen"
+print = '''
+At 14th level, a tactical leader can grant his judgment benefits to a single other ally within 30 feet who can see and hear the tactical leader as an immediate action. These benefits last until the beginning of the tactical leader's next turn. A tactical leader must have a judgment active to use this ability and the benefits granted are the same as those selected by his judgment. A tactical leader can use this ability a number of times per day equal to his Wisdom modifier (minimum 1).
+
+This ability replaces exploit weakness.'''
+
+[[entry]]
+id = "ref/inquisition/crime"
+anchor = "traceless-operative-archetype"
+print = "Traceless operatives practice subterfuge and careful preparation in order to accomplish their divine mandates."
+
+[[entry]]
+id = "ref/inquisition/crime"
+anchor = "conceal-evidence"
+print = '''
+A traceless operative knows how to clean up and obscure the evidence of foul play. It takes her 1d3 × 10 minutes to conceal or alter evidence in a 10-foot-by-10-foot area. She uses Disguise to alter evidence or Stealth to conceal it, though bonuses and penalties based on her abilities or effects that disguise or hide her own body (such as from _disguise self_, a _cloak of elvenkind_, or the size modifier on Stealth checks) do not apply. A creature attempting to investigate the scene using Perception must succeed at the original Perception DC or a DC equal to the traceless operative's check, whichever is higher, in order to discover the true evidence. A creature who fails against a traceless operative's Disguise check potentially also derives the false evidence planted by the traceless operative.
+
+This ability replaces monster lore and stern gaze.'''
+
+[[entry]]
+id = "ref/inquisition/crime"
+anchor = "trackless"
+print = '''
+At 2nd level, a traceless operative's deity helps obscure her path from others. The DC to track the traceless operative (or a group including her) increases by half her inquisitor level. This does not stack with similar abilities, such as a transporter's trailbreaker ability (see page 43).
+
+This ability replaces track.'''
+
+[[entry]]
+id = "ref/inquisition/crime"
+anchor = "uncanny-dodge"
+print = '''
+At 5th level, a traceless operative can react to danger before her senses would normally allow her to do so. She cannot be caught flat-footed, nor does she lose her Dexterity bonus to AC if the attacker is invisible. She still loses her Dexterity bonus to AC if immobilized. A traceless operative with this ability can still lose her Dexterity bonus to AC if an opponent successfully uses the feint action against her. If the traceless operative already possesses uncanny dodge from a different class, she automatically gains improved uncanny dodge instead.
+
+This ability replaces bane.'''
+
+[[entry]]
+id = "ref/inquisition/crime"
+anchor = "improved-uncanny-dodge"
+print = '''
+At 12th level, a traceless operative can no longer be flanked. This defense denies rogues (or other classes with the sneak attack ability) the ability to sneak attack the traceless operative by flanking her, unless the attacker has at least 4 more rogue levels (or levels in a class that grants the sneak attack class ability) than the traceless operative has inquisitor levels. If the traceless operative already has improved uncanny dodge from another class, the levels from the classes that grant improved uncanny dodge stack when determining the minimum rogue level (or level in another class with the sneak attack ability) required to flank the character.
+
+This ability replaces greater bane.'''
+
+[[entry]]
+id = "ref/inquisition/crime"
+anchor = "umbral-stalker-archetype"
+print = "As a consummate lurker in the shadows, an umbral stalker observes the enemies of her faith and strikes before the unfortunate victims even know she is skulking nearby."
+
+[[entry]]
+id = "ref/inquisition/crime"
+anchor = "class-skills"
+print = '''
+An umbral stalker adds Acrobatics to her list of class skills, instead of Diplomacy.
+
+This alters the inquisitor's class skills.'''
+
+[[entry]]
+id = "ref/inquisition/crime"
+anchor = "dark-descent"
+print = '''
+An umbral stalker gains the Darkness domain with the Night subdomain, even if her deity normally doesn't offer it.
+
+This ability alters domain.'''
+
+[[entry]]
+id = "ref/inquisition/crime"
+anchor = "judgment"
+print = '''
+Umbral stalkers are most effective when they get the drop on an opponent. An umbral stalker gains access to the following judgment.
+
+_Stalking_: The umbral stalker gains a +2 sacred bonus on attack rolls against creatures that are unaware of her presence (typically because she is invisible or using Stealth). This bonus increases by 2 for every 5 inquisitor levels she has.
+
+This ability replaces the justice judgment.'''
+
+[[entry]]
+id = "ref/inquisition/crime"
+anchor = "swift-and-silent"
+print = '''
+Umbral stalkers often descend upon their prey with deadly grace and efficiency. An umbral stalker gains a morale bonus on all Acrobatics and Stealth checks equal to half her inquisitor level (minimum +1).
+
+This ability replaces stern gaze.'''
+
+[[entry]]
+id = "ref/inquisition/crime"
+anchor = "deadly-efficiency"
+print = '''
+At 14th level, an umbral stalker becomes even deadlier against enemies who haven't yet noticed her in the shadows. Whenever she confirms a critical hit against a foe that is unaware of her presence, she ignores any damage reduction the target might have and adds her Wisdom bonus to her damage roll (this multiplies on the critical hit as normal); in addition, if the target has regeneration, the creature loses regeneration on the round following the critical hit and can die normally during that round. Creatures whose regeneration always functions are immune to this ability.
+
+Finally, if the umbral stalker deals energy damage to a creature unaware of her presence with vulnerability to that energy type, she deals 2 extra points of damage per die rolled.
+
+This ability alters exploit weakness.'''
+
+[[entry]]
+id = "ref/inquisition/crime"
+anchor = "vigilant-defender-archetype"
+print = "Some inquisitors focus more on protecting those who share their faiths and their ideals than on actively hunting their enemies. These vigilant defenders often work alongside traveling clerics and paladins."
+
+[[entry]]
+id = "ref/inquisition/crime"
+anchor = "shared-judgments"
+print = '''
+As a swift action whenever a vigilant defender has pronounced judgment on her foes, she can grant all of her allies the bonus or special ability that the judgment bestows. If she has multiple active judgments, they all affect her allies. When she does this, the judgments no longer affect her, and their effects only last for 1 round, after which that daily use of judgment ends immediately, even if the combat is not over. The vigilant defender cannot change any of these judgments to another type during this round.
+
+This ability modifies judgment.'''
+
+[[entry]]
+id = "ref/inquisition/crime"
+anchor = "protect-the-faithful"
+print = '''
+A vigilant defender can spend 1 minute coaching and teaching a group of allies how best to avoid scrutiny from those who wish them harm. The vigilant defender and her allies cannot be in combat or threatened during this coaching, and allies must be able to see and hear the vigilant defender to benefit from this ability. This ability provides no benefits against enemies that have heard or seen the coaching.
+
+Affected allies receive a morale bonus equal to 1/4 the vigilant defender's inquisitor level (minimum +1) on all Bluff, Disguise, Perception, and Stealth checks outside of combat made to avoid, deceive, or notice other creatures. This bonus lasts for 10 minutes, and the vigilant defender can affect herself and a number of allies equal to her Wisdom modifier (minimum 1). She can coach allies in this way once per day at 1st level, plus one additional time per day for every 4 inquisitor levels she has, to a maximum of six times per day at 20th level.
+
+This ability replaces stern gaze.'''
+
+[[entry]]
+id = "ref/inquisition/crime"
+anchor = "bolster-the-wounded"
+print = '''
+At 14th level, a vigilant defender can preternaturally sense when her allies are in grave peril and can form a mystical conduit to protect them from the full effects of grievous wounds. As an immediate action whenever an enemy confirms a critical hit against an ally within 30 feet, the vigilant defender can choose to accept half the damage. If she does so, similar to the _shield other_ spell, any of her damage reduction, resistances, or immunities do not apply to the damage she takes.
+
+This ability replaces exploit weakness.'''
+
+[[entry]]
+id = "ref/inquisition/crime"
+anchor = "true-vengeance"
+print = '''
+At 20th level, when a vigilant defender calls true judgment down upon a foe, if the foe has killed one of the vigilant defender's allies (permanent sentient allies, such as fellow party members or cohorts, not summoned monsters, animal companions, pets, or the like), the DC of the target's Fortitude save to avoid death is 2 higher. If the foe has not damaged any of the vigilant defender's allies, the DC to avoid death is instead 2 lower.
+
+This ability alters true judgment.'''
+
+[[entry]]
+id = "ref/inquisition/secrets"
+anchor = "opening"
+print = '''
+as she wishes in increments of +2, but the enhancement bonus on any single ability score cannot exceed +4.
+
+At 8th level, a skinshaper can imitate humanoid creatures even more accurately. She gains any of the following abilities that the form she assumes has: darkvision 90 feet, low-light vision, scent, climb 60 feet, fly 60 feet (good maneuverability), swim 60 feet, ferocity, orc ferocity, and hold breath. If the form she assumes has the aquatic subtype, she gains the aquatic subtype and the amphibious special quality.
+
+At 12th level, a skinshaper can access the racial memory of the humanoid she is imitating. If the form she assumes has any of the following racial abilities, she gains those abilities: defensive training, hatred, poison use, sneak attack +2d6, stability, and weapon familiarity. Additionally, she can speak any racial languages of the chosen form.
+
+At 16th level, a skinshaper gains the racial skill bonuses of the imitated humanoid, to a maximum of a +4 bonus on a given skill. The skinshaper cannot benefit from any variable racial skill bonuses associated with the chosen form (such as gnomes' racial bonus on any one Craft or Profession skill).
+
+This ability replaces wild shape.'''
+
+[[entry]]
+id = "ref/inquisition/secrets"
+anchor = "flashmorph"
+print = '''
+At 13th level, a skinshaper learns to change her shape extremely quickly. She can use skinshaping as a swift action.
+
+This ability replaces a thousand faces.'''
+
+[[entry]]
+id = "ref/inquisition/secrets"
+anchor = "urushiol-archetype"
+print = "When an urushiol druid forms a bond with nature, it takes a vastly different form than for most druids. His body becomes increasingly toxic, allowing him to secrete a deadly poison through his pores."
+
+[[entry]]
+id = "ref/inquisition/secrets"
+anchor = "toxic-secretions"
+print = '''
+At 1st level, an urushiol's body becomes capable of producing a single dose of poison per day. At 3rd level and every 2 druid levels thereafter, the number of daily doses increases by 1, to a maximum of 10 doses at 19th level. The urushiol's daily doses are replenished when he regains his spells, but any of his weapons that are still poisoned with urushiol venom count against his daily limit. The urushiol is immune to his own poison and cannot accidentally poison himself when applying his own poison or attacking with a weapon coated with it. Regardless of the delivery method he chooses, his poison has the following base statistics.
+
+_Urushiol Venom_: _type_ poison (varies); _save_ Fortitude negates; _frequency_ 1/round for 2 rounds; _effect_ 1d3 Strength damage; _cure_ 1 save. The save DC is equal to 10 + 1/2 the urushiol's level + his Wisdom modifier.
+
+At 1st level, an urushiol can secrete this poison as a numbing injury poison on a natural weapon, unarmed strike, or manufactured weapon by spending 1 of his daily doses as a standard action. He must choose a natural weapon, unarmed strike, or manufactured weapon in his hand that deals piercing or slashing damage and that is not already poisoned or poisonous. The weapon remains poisoned until the urushiol scores a hit with it, the weapon leaves his possession for more than 1 round, or the poison is wiped away.
+
+At 4th level, an urushiol's body becomes so saturated with poison that even his flesh is poisonous.
+
+Whenever a creature damages the urushiol with a bite or swallow whole attack, the urushiol can release ingested poison into the creature by spending 1 of his daily doses as an immediate action.
+
+At 7th level, an urushiol can spend 2 daily doses of his poison as a standard action to secrete a contact poison and coat one of his limbs with the secreted poison. The urushiol can deliver the poison by making a successful touch attack as a standard action, which can be part of the same standard action he used to secrete the poison. If the attack misses, the poison persists upon his limb throughout the subsequent rounds until he hits a target or touches something else with his poisoned limb.
+
+At 11th level, an urushiol can spend 3 daily doses of his poison as a standard action to release a 20-foot-radius cloud of inhaled poison centered around him that lasts for 1 round.
+
+At 14th level, an urushiol's venom changes in frequency to 1/round for 4 rounds. In addition, when using his urushiol venom, an urushiol can spend an extra dose of his poison to change the damage type of the poison to Dexterity damage or Constitution damage. He can use this alteration in combination with any of the other abilities. For example, he could spend a total of 3 doses to create a cloud of inhaled poison that deals Constitution damage.
+
+This ability replaces nature bond and resist nature's lure.'''
+
+[[entry]]
+id = "ref/inquisition/secrets"
+anchor = "venom-immunity"
+print = '''
+An urushiol gains venom immunity at 4th level instead of 9th level.
+
+This ability alters venom immunity.'''
+
+[[entry]]
+id = "ref/inquisition/secrets"
+anchor = "inquisitor"
+print = "Steeped in the arts of subterfuge, deception, and misdirection, inquisitors are deadly warriors and spellcasters, capable of advancing their causes by any means possible. Whether they use disguises, exercise stealth, manipulate crime scenes, or root out secrets, these divine agents find ways to make themselves indispensable when their deities require intrigue and treacherous dealings."
+
+[[entry]]
+id = "ref/inquisition/secrets"
+anchor = "inquisitions"
+print = "Inquisitions were first introduced on page 41 of _Pathfinder RPG Ultimate Magic_. An inquisition can be selected in place of a domain. The following inquisitions are available to any domain-using class, but inquisitions are typically weaker than domains for other classes because they don't grant domain spell slots or domain spells. If an inquisition's granted power calls for a saving throw, the DC of the save is equal to 10 + 1/2 a character's class level in the class that granted the inquisition + her Wisdom modifier. The character's caster level for these granted powers is equal to her character level in the class that granted the inquisition."
+
+[[entry]]
+id = "ref/inquisition/secrets"
+anchor = "deities"
+print = "Calistria, Norgorber."
+
+[[entry]]
+id = "ref/inquisition/secrets"
+anchor = "granted-powers"
+print = "Your connections to the criminal underworld run deeper than the physical, and your spiritual criminality grants you underhanded powers."
+
+[[entry]]
+id = "ref/inquisition/secrets"
+anchor = "criminal-minds"
+print = "You can touch a creature and fill its mind with criminal impulses. This otherwise functions as per _crime of opportunity_ (see page 208), though a target that fails its saving throw and acts on an impulse gets those desires out of its system and becomes immune to the effects of your criminal minds ability for 24 hours. You can use this ability a number of times per day equal to 3 + your Wisdom modifier (minimum 1)."
+
+[[entry]]
+id = "ref/inquisition/secrets"
+anchor = "thief-s-soul"
+print = "At 8th level, you gain Improved Steal, Greater Steal, and Quick Steal as bonus feats, even if you don't meet the prerequisites."
+
+[[entry]]
+id = "ref/inquisition/secrets"
+anchor = "deities"
+print = "Calistria, Norgorber."
+
+[[entry]]
+id = "ref/inquisition/secrets"
+anchor = "granted-powers"
+print = "You have learned to keep your own secrets close, and your enemies' secrets closer."
+
+[[entry]]
+id = "ref/inquisition/secrets"
+anchor = "detect-secrets"
+print = "You have learned how to detect any of a creature's secrets, not just its thoughts. Whenever you cast _[detect anxieties](ref/spell/detect-anxieties)_ (see page 211), _[detect desires](ref/spell/detect-desires)_ (see page 211), or _[detect thoughts](ref/spell/detect-thoughts)_ or use any of those spells as a [spell-like ability](ref/umr/spell-like-abilities), you can choose to gain the effects of one of the other two spells instead. You are never overwhelmed by a target of these spells that has a high ability score."
+
+[[entry]]
+id = "ref/inquisition/secrets"
+anchor = "closed-book"
+print = "At 8th level, it becomes difficult for your foes to unveil your secrets. You are constantly under the effect of _[nondetection](ref/spell/nondetection)_, as if you cast the spell on yourself."
+
+[[entry]]
+id = "ref/inquisition/secrets"
+anchor = "cloaked-wolf-archetype"
+print = "Some inquisitors are adept at appearing harmless until they throw off their unassuming facades and take their enemies by surprise."
+
+[[entry]]
+id = "ref/inquisition/secrets"
+anchor = "class-skills"
+print = '''
+A cloaked wolf adds Sleight of Hand to her list of class skills, instead of Intimidate.
+
+This alters the inquisitor's class skills.'''
+
+[[entry]]
+id = "ref/inquisition/secrets"
+anchor = "lure-prey"
+print = '''
+Cloaked wolves are skilled at maintaining a harmless guise even while they silently prepare to strike against their enemies. Starting at 1st level, a cloaked wolf receives a morale bonus on all Disguise and Sleight of Hand checks equal to half her inquisitor level (minimum +1). When a cloaked wolf uses Sleight of Hand to draw a hidden weapon, this bonus doubles.
+
+This ability replaces stern gaze.'''
+
+[[entry]]
+id = "ref/inquisition/secrets"
+anchor = "always-wary"
+print = '''
+A cloaked wolf is always ready for betrayal and subterfuge. Whenever she attempts a Sense Motive check to avoid being surprised by a foe using Bluff to conceal the attack, the cloaked wolf can always act during the surprise round, regardless of the result of the check. At 2nd level, she adds her Wisdom modifier (in addition to her Dexterity modifier) to her initiative checks during any such encounter.
+
+This ability alters cunning initiative and replaces monster lore.'''
+
+[[entry]]
+id = "ref/inquisition/secrets"
+anchor = "unleashed-fury"
+print = '''
+At 3rd level, a cloaked wolf can transition between parley and combat in the blink of an eye. She gains Quick Draw as a bonus feat.
+
+Additionally, at 6th level and every 3 inquisitor levels thereafter, she gains a bonus feat from the following list: Alertness, Catch Off-Guard, Deceitful, Deft Hands, Dodge, Improved Initiative, Improved Unarmed Strike, Improvised Weapon Mastery, Lookout, Mobility, Spring Attack, Stunning Fist, and Throw Anything. She must meet the prerequisites of the selected bonus feat.
+
+As a standard action, a cloaked wolf can choose to learn a new bonus feat from the above list in place of the most recent bonus feat she has already learned. In effect, the cloaked wolf loses the bonus feat in exchange for the new one. She can only change the most recent bonus feat gained. Whenever she gains a new bonus feat, the previous bonus feat becomes set and cannot be changed again. A cloaked wolf can change her most recent bonus feat a number of times per day equal to her Wisdom modifier (minimum 1).
+
+This ability replaces solo tactics and teamwork feats.'''
+
+[[entry]]
+id = "ref/inquisition/secrets"
+anchor = "faith-hunter-archetype"
+print = "Certain relentless inquisitors burn with special hatred for an enemy of specific convictions, and they stop at nothing when obsessively hunting these foes down."
+
+[[entry]]
+id = "ref/inquisition/secrets"
+anchor = "sworn-enemy"
+print = '''
+A faith hunter chooses a single alignment (such as chaotic evil, rather than simply chaotic or evil) that directly opposes her own along either the law/chaos axis or the good/evil axis (so a lawful good faith hunter can choose chaotic good, chaotic neutral, chaotic evil, neutral evil, or lawful evil, whereas a neutral good faith hunter can only choose chaotic evil, neutral evil, or lawful evil). Creatures of this alignment are her sworn enemies. She can detect creatures of that specific alignment at will, functioning as _detect evil,_ except this ability works only on creatures and detects the specific alignment.
+
+At 6th level, once per day as a swift action, a faith hunter can smite one foe she can see. If the foe is of the faith hunter's sworn enemy alignment, the faith hunter gains a +4 sacred bonus on attack rolls against that foe and a sacred bonus equal to half her inquisitor level on damage rolls made against the foe. Smites against targets of the faith hunter's sworn enemy alignment automatically bypass any DR the creature might possess. If the faith hunter targets a creature that is not of her sworn enemy alignment, the smite is wasted with no effect.
+
+The smite effect remains until the foe is dead or the next time the faith hunter rests and regains her uses of this ability. At 10th level and every 4 inquisitor levels thereafter, a faith hunter can smite her enemies one additional time per day, to a maximum of four times per day at 18th level.
+
+A faith hunter does not gain the justice or destruction judgments.
+
+This ability replaces domain and alters judgment.'''
+
+[[entry]]
+id = "ref/inquisition/secrets"
+anchor = "enemy-revealed"
+print = '''
+At 2nd level, when a faith hunter uses her sworn enemy ability to identify a creature's alignment (typically on the third round of concentrating on an area including the creature), she can reveal that creature's alignment aura, causing it to glow for 1 round per inquisitor level so that even creatures with regular vision can see the aura. This not only allows others to recognize the creature's alignment, potentially exposing its true nature, it also allows them to track its location easily by the glow. Even if such a creature is invisible, the telltale glow pinpoints the creature's square or squares. The faith hunter can use this ability a number of times per day equal to her Wisdom modifier (minimum 1), and it doesn't take any extra action on her part to do so; it is part of the same action as concentrating on her sworn enemy detect ability.
+
+This ability replaces detect alignment.'''
+
+[[entry]]
+id = "ref/inquisition/secrets"
+anchor = "hateful-bane"
+print = '''
+At 5th level, a faith hunter's bane ability functions only against creatures that are both the selected creature type and her sworn enemy alignment.
+
+This ability alters bane.'''
+
+[[entry]]
+id = "ref/inquisition/secrets"
+anchor = "secret-seeker-archetype"
+print = "Secret seekers are trained in the art of extracting answers from intransigent foes. Recognizing that torture is a poor method of securing truthful intelligence, secret seekers instead prefer magical means of inquiry."
+
+[[entry]]
+id = "ref/inquisition/secrets"
+anchor = "occult-lore"
+print = '''
+A secret seeker gains access to the prognostication and read aura occult skill unlocks (_Pathfinder RPG Occult Adventures_ 196–197), but not the other occult skill unlocks. If she ever chooses to gain the Psychic Sensitivity feat or otherwise gains access to all occult skill unlocks, she receives Psychic Maestro as a bonus feat, with prognostication and read aura as the two occult skill unlocks selected.
+
+This ability replaces monster lore.'''
+
+[[entry]]
+id = "ref/inquisition/secrets"
+anchor = "detect-mind"
+print = '''
+At 5th level, a secret seeker can _detect anxieties_ (see page 211), _detect desires_ (see page 211), or _detect thoughts_, as per the spells, for a number of rounds per day equal to twice her inquisitor level. These rounds need not be consecutive. A creature that succeeds at a saving throw against this ability is immune to that secret seeker's detect mind ability for 24 hours. If the secret seeker has the secrets inquisition (see page 28), she doubles the number of rounds per day that she can use this ability.
+
+At 12th level, a secret seeker can use her detect mind ability for a number of minutes per day equal to twice her inquisitor level, rather than rounds. These minutes need not be consecutive but must be spent in 1-minute increments. If the secret seeker has the secrets inquisition, she doubles the number of minutes per day she can use this ability.
+
+This ability replaces bane and greater bane.'''
+
+[[entry]]
+id = "ref/inquisition/secrets"
+anchor = "seek-mind"
+print = '''
+At 14th level, a secret seeker can use her detect mind ability to seek out people with particular anxieties, desires, or thoughts. This functions as per _seek thoughts_ except that it works with any of the three types of mental output the secret seeker can detect with detect mind.
+
+This ability replaces exploit weakness.'''
+
+[[entry]]
+id = "ref/inquisition/secrets"
+anchor = "tactical-leader-archetype"
+print = "Rather than pursuing their holy missions alone, some inquisitors see the inherent value of working with like-minded allies to accomplish mutual goals."
+
+[[entry]]
+id = "ref/inquisition/secrets"
+anchor = "leader-s-words"
+print = '''
+Tactical leaders are skilled at speaking soothing words that keep the peace and bolster allies' resolve. A tactical leader receives a morale bonus on all Diplomacy checks equal to half his inquisitor level (minimum +1).
+
+This ability replaces stern gaze.'''
+
+[[entry]]
+id = "ref/inquisition/secrets"
+anchor = "tactician"
+print = '''
+At 3rd level, 9th level, and 18th level, a tactical leader gains a teamwork feat as a bonus feat. He must meet the prerequisites for this feat. As a standard action, the tactical leader can grant one of these feats to all allies within 30 feet who can see and hear him. Allies retain the use of this bonus feat for 3 rounds plus 1 round for every 2 inquisitor levels the tactical leader has. Allies do not need to meet the prerequisites of these bonus feats. The tactical leader can use this ability once per day at 3rd level, plus one additional time per day at 6th, 9th, 15th, and 18th level.
+
+At 12th level, a tactical leader can use the tactician ability as a swift action. At 18th level, whenever the tactical leader uses this ability, he grants any two teamwork feats that he knows. He can select from any of his teamwork feats, not just his bonus feats.
+
+If the tactical leader also has cavalier levels, these levels stack for determining the number of uses of this ability per day.
+
+This ability replaces solo tactics and teamwork feats.'''
+
+[[entry]]
+id = "ref/inquisition/secrets"
+anchor = "battle-acumen"
+print = '''
+At 14th level, a tactical leader can grant his judgment benefits to a single other ally within 30 feet who can see and hear the tactical leader as an immediate action. These benefits last until the beginning of the tactical leader's next turn. A tactical leader must have a judgment active to use this ability and the benefits granted are the same as those selected by his judgment. A tactical leader can use this ability a number of times per day equal to his Wisdom modifier (minimum 1).
+
+This ability replaces exploit weakness.'''
+
+[[entry]]
+id = "ref/inquisition/secrets"
+anchor = "traceless-operative-archetype"
+print = "Traceless operatives practice subterfuge and careful preparation in order to accomplish their divine mandates."
+
+[[entry]]
+id = "ref/inquisition/secrets"
+anchor = "conceal-evidence"
+print = '''
+A traceless operative knows how to clean up and obscure the evidence of foul play. It takes her 1d3 × 10 minutes to conceal or alter evidence in a 10-foot-by-10-foot area. She uses Disguise to alter evidence or Stealth to conceal it, though bonuses and penalties based on her abilities or effects that disguise or hide her own body (such as from _disguise self_, a _cloak of elvenkind_, or the size modifier on Stealth checks) do not apply. A creature attempting to investigate the scene using Perception must succeed at the original Perception DC or a DC equal to the traceless operative's check, whichever is higher, in order to discover the true evidence. A creature who fails against a traceless operative's Disguise check potentially also derives the false evidence planted by the traceless operative.
+
+This ability replaces monster lore and stern gaze.'''
+
+[[entry]]
+id = "ref/inquisition/secrets"
+anchor = "trackless"
+print = '''
+At 2nd level, a traceless operative's deity helps obscure her path from others. The DC to track the traceless operative (or a group including her) increases by half her inquisitor level. This does not stack with similar abilities, such as a transporter's trailbreaker ability (see page 43).
+
+This ability replaces track.'''
+
+[[entry]]
+id = "ref/inquisition/secrets"
+anchor = "uncanny-dodge"
+print = '''
+At 5th level, a traceless operative can react to danger before her senses would normally allow her to do so. She cannot be caught flat-footed, nor does she lose her Dexterity bonus to AC if the attacker is invisible. She still loses her Dexterity bonus to AC if immobilized. A traceless operative with this ability can still lose her Dexterity bonus to AC if an opponent successfully uses the feint action against her. If the traceless operative already possesses uncanny dodge from a different class, she automatically gains improved uncanny dodge instead.
+
+This ability replaces bane.'''
+
+[[entry]]
+id = "ref/inquisition/secrets"
+anchor = "improved-uncanny-dodge"
+print = '''
+At 12th level, a traceless operative can no longer be flanked. This defense denies rogues (or other classes with the sneak attack ability) the ability to sneak attack the traceless operative by flanking her, unless the attacker has at least 4 more rogue levels (or levels in a class that grants the sneak attack class ability) than the traceless operative has inquisitor levels. If the traceless operative already has improved uncanny dodge from another class, the levels from the classes that grant improved uncanny dodge stack when determining the minimum rogue level (or level in another class with the sneak attack ability) required to flank the character.
+
+This ability replaces greater bane.'''
+
+[[entry]]
+id = "ref/inquisition/secrets"
+anchor = "umbral-stalker-archetype"
+print = "As a consummate lurker in the shadows, an umbral stalker observes the enemies of her faith and strikes before the unfortunate victims even know she is skulking nearby."
+
+[[entry]]
+id = "ref/inquisition/secrets"
+anchor = "class-skills"
+print = '''
+An umbral stalker adds Acrobatics to her list of class skills, instead of Diplomacy.
+
+This alters the inquisitor's class skills.'''
+
+[[entry]]
+id = "ref/inquisition/secrets"
+anchor = "dark-descent"
+print = '''
+An umbral stalker gains the Darkness domain with the Night subdomain, even if her deity normally doesn't offer it.
+
+This ability alters domain.'''
+
+[[entry]]
+id = "ref/inquisition/secrets"
+anchor = "judgment"
+print = '''
+Umbral stalkers are most effective when they get the drop on an opponent. An umbral stalker gains access to the following judgment.
+
+_Stalking_: The umbral stalker gains a +2 sacred bonus on attack rolls against creatures that are unaware of her presence (typically because she is invisible or using Stealth). This bonus increases by 2 for every 5 inquisitor levels she has.
+
+This ability replaces the justice judgment.'''
+
+[[entry]]
+id = "ref/inquisition/secrets"
+anchor = "swift-and-silent"
+print = '''
+Umbral stalkers often descend upon their prey with deadly grace and efficiency. An umbral stalker gains a morale bonus on all Acrobatics and Stealth checks equal to half her inquisitor level (minimum +1).
+
+This ability replaces stern gaze.'''
+
+[[entry]]
+id = "ref/inquisition/secrets"
+anchor = "deadly-efficiency"
+print = '''
+At 14th level, an umbral stalker becomes even deadlier against enemies who haven't yet noticed her in the shadows. Whenever she confirms a critical hit against a foe that is unaware of her presence, she ignores any damage reduction the target might have and adds her Wisdom bonus to her damage roll (this multiplies on the critical hit as normal); in addition, if the target has regeneration, the creature loses regeneration on the round following the critical hit and can die normally during that round. Creatures whose regeneration always functions are immune to this ability.
+
+Finally, if the umbral stalker deals energy damage to a creature unaware of her presence with vulnerability to that energy type, she deals 2 extra points of damage per die rolled.
+
+This ability alters exploit weakness.'''
+
+[[entry]]
+id = "ref/inquisition/secrets"
+anchor = "vigilant-defender-archetype"
+print = "Some inquisitors focus more on protecting those who share their faiths and their ideals than on actively hunting their enemies. These vigilant defenders often work alongside traveling clerics and paladins."
+
+[[entry]]
+id = "ref/inquisition/secrets"
+anchor = "shared-judgments"
+print = '''
+As a swift action whenever a vigilant defender has pronounced judgment on her foes, she can grant all of her allies the bonus or special ability that the judgment bestows. If she has multiple active judgments, they all affect her allies. When she does this, the judgments no longer affect her, and their effects only last for 1 round, after which that daily use of judgment ends immediately, even if the combat is not over. The vigilant defender cannot change any of these judgments to another type during this round.
+
+This ability modifies judgment.'''
+
+[[entry]]
+id = "ref/inquisition/secrets"
+anchor = "protect-the-faithful"
+print = '''
+A vigilant defender can spend 1 minute coaching and teaching a group of allies how best to avoid scrutiny from those who wish them harm. The vigilant defender and her allies cannot be in combat or threatened during this coaching, and allies must be able to see and hear the vigilant defender to benefit from this ability. This ability provides no benefits against enemies that have heard or seen the coaching.
+
+Affected allies receive a morale bonus equal to 1/4 the vigilant defender's inquisitor level (minimum +1) on all Bluff, Disguise, Perception, and Stealth checks outside of combat made to avoid, deceive, or notice other creatures. This bonus lasts for 10 minutes, and the vigilant defender can affect herself and a number of allies equal to her Wisdom modifier (minimum 1). She can coach allies in this way once per day at 1st level, plus one additional time per day for every 4 inquisitor levels she has, to a maximum of six times per day at 20th level.
+
+This ability replaces stern gaze.'''
+
+[[entry]]
+id = "ref/inquisition/secrets"
+anchor = "bolster-the-wounded"
+print = '''
+At 14th level, a vigilant defender can preternaturally sense when her allies are in grave peril and can form a mystical conduit to protect them from the full effects of grievous wounds. As an immediate action whenever an enemy confirms a critical hit against an ally within 30 feet, the vigilant defender can choose to accept half the damage. If she does so, similar to the _shield other_ spell, any of her damage reduction, resistances, or immunities do not apply to the damage she takes.
+
+This ability replaces exploit weakness.'''
+
+[[entry]]
+id = "ref/inquisition/secrets"
+anchor = "true-vengeance"
+print = '''
+At 20th level, when a vigilant defender calls true judgment down upon a foe, if the foe has killed one of the vigilant defender's allies (permanent sentient allies, such as fellow party members or cohorts, not summoned monsters, animal companions, pets, or the like), the DC of the target's Fortitude save to avoid death is 2 higher. If the foe has not damaged any of the vigilant defender's allies, the DC to avoid death is instead 2 lower.
+
+This ability alters true judgment.'''
+
+[[entry]]
+id = "ref/mystery/intrigue"
+anchor = "deities"
+print = "[Calistria](ref/faith/calistria), [Norgorber](ref/faith/norgorber)"
+
+[[entry]]
+id = "ref/mystery/intrigue"
+anchor = "class-skills"
+print = "An oracle with the intrigue mystery adds Bluff, Disguise, Sleight of Hand, and Stealth to her list of class skills."
+
+[[entry]]
+id = "ref/mystery/intrigue"
+anchor = "bonus-spells"
+print = "_Charm person_ (2nd), _false belief_ (4th; see page 214), _suggestion_ (6th), _sending_ (8th), _true seeing_ (10th), _symbol of persuasion_ (12th), _greater scrying_ (14th), _mind blank_ (16th), _overwhelming presence_ (18th)."
+
+[[entry]]
+id = "ref/mystery/intrigue"
+anchor = "revelations"
+print = "An oracle with the intrigue mystery can choose from any of the following revelations."
+
+[[entry]]
+id = "ref/mystery/intrigue"
+anchor = "assumed-form"
+print = "You can change your appearance at will, as _[disguise self](ref/spell/disguise-self)_ with a caster level equal to your oracle level. At 7th level, you can choose to actually transform, which works the same way but counts as a polymorph effect instead of an illusion and doesn't allow a Will save to disbelieve. At 11th level, the ability lasts until you dismiss it or use it again, allowing you to even keep it active while you sleep. At 15th level, when you use this ability as a polymorph effect, you can gain the size bonus to your ability scores and additional racial abilities as if using _[alter self](ref/spell/alter-self)_."
+
+[[entry]]
+id = "ref/mystery/intrigue"
+anchor = "desire-sight"
+print = "As a standard action, you can learn the desires of any creature you can see within 100 feet, as if you had concentrated until the third round of _[detect desires](ref/spell/detect-desires)_ (see page 211). As usual for _[detect desires](ref/spell/detect-desires)_, the target can attempt a Will save to negate the effect. You can use this ability once per day at 1st level, plus one additional time per day at 5th level and for every 5 levels beyond 5th."
+
+[[entry]]
+id = "ref/mystery/intrigue"
+anchor = "forgotten-presence"
+print = "Once per day as an immediate action, you can cause a creature to forget that you were present for the last minute per oracle level, including forgetting all actions you took during that time, unless it succeeds at a Will save (DC 10 + 1/2 your oracle level + your Charisma modifier). Effects such as _[modify memory](ref/spell/modify-memory)_ can restore the lost memories. At 15th level, you can use this ability twice per day. You must be at least 7th level to select this revelation."
+
+[[entry]]
+id = "ref/mystery/intrigue"
+anchor = "gossip-guru"
+print = "You sit in a web of intrigue like a spider, subtly tracing the course of rumors and gossip in order to understand the ties that bind those around you. You can use the _[rumormonger](ref/spell/rumormonger)_ spell once per day as a [spell-like ability](ref/umr/spell-like-abilities), using your oracle level as your caster level. Each time you do so, it ends the duration of any previous activation. At 11th level, you can use this ability three times per day, and at 15th level, you can use it at will, but regardless, each use still ends the duration of any previous activation. You must be at least 7th level to select this revelation."
+
+[[entry]]
+id = "ref/mystery/intrigue"
+anchor = "hidden-magic"
+print = "You gain the [Conceal Spell](ref/feat/conceal-spell) feat as a bonus feat without needing to meet the prerequisites. At 7th level, you can also hide your use of [spell trigger](ref/misc/spell-trigger) items using the Conceal Spell feat, though onlookers receive a +2 bonus on their skill checks to pierce your subterfuge. At 11th level, you can even hide the use of [spell completion](ref/misc/spell-completion) items using the Conceal Spell feat, though in this case, onlookers receive a +5 bonus on their skill checks to pierce your subterfuge."
+
+[[entry]]
+id = "ref/mystery/intrigue"
+anchor = "mirrored-retreat"
+print = "Once per day as a full-round action, your form ripples and releases seven illusory duplicates, as _[mirror image](ref/spell/mirror-image)_, and then you can move up to your speed in any direction, while the duplicates move in seven other directions. The duplicates continue to retreat in their chosen direction, avoiding walls and other barriers but unable to open doors or interact with objects. The duplicates last for 1 minute per oracle level or until they take damage (they have the same AC as your touch AC and the same Reflex save as you, and they are immune to effects that allow a Fortitude or Will save). You can use this ability an additional time per day at 11th level and every 4 levels thereafter. This is a figment effect. You must be at least 7th level to select this revelation."
+
+[[entry]]
+id = "ref/mystery/intrigue"
+anchor = "poetic-vengeance"
+print = "You constantly plot and scheme to take your revenge against those who wrong you. Once per day as an immediate action, after an enemy successfully affects you with an attack (whether with a spell, a physical attack, or any other sort of attack), you can force the enemy to take half the effects of its own attack unless it succeeds on a Will save (DC 10 + 1/2 your oracle level + your Charisma modifier). Any damage from the attack is halved, and non-damaging effects have a 50% chance to apply. If the non-damaging effect has a DC, the enemy receives a saving throw against it, at either the DC of the original effect or the DC of this ability, whichever is lower. At 10th level, you can use this ability twice per day, and at 20th level you can use it three times per day."
+
+[[entry]]
+id = "ref/mystery/intrigue"
+anchor = "tracer-touch"
+print = "Once per day, you can touch a creature or object and plant a scrying sensor on it, as if you had cast _[vicarious view](ref/spell/vicarious-view)_ (see page 229). At 15th level, you can use this ability twice per day. You must be at least 11th level to select this revelation."
+
+[[entry]]
+id = "ref/mystery/intrigue"
+anchor = "veiled-venom"
+print = "The powers of intrigue veil your poisons and magic items from magical scrutiny. As a standard action, you can touch an object, granting it the benefits of the spells _[magic aura](ref/spell/magic-aura)_ and _[obscure poison](ref/spell/obscure-poison)_ (see page 220). You can use this ability at will, but each time you do, the effects of any previous use end."
+
+[[entry]]
+id = "ref/mystery/intrigue"
+anchor = "whispered-glimpses"
+print = "The whispers of intrigue sing to you with glimpses of insight into others' presence and motives, granting you greater awareness than your own senses could manage. You can add your Charisma modifier instead of your Wisdom bonus on [Perception](ref/skill/perception) and [Sense Motive](ref/skill/sense-motive) checks."
+
+[[entry]]
+id = "ref/mystery/intrigue"
+anchor = "sec-final-revelation"
+print = "Upon reaching 20th level, you become a master of intrigue. You can apply Silent Spell or Still Spell to any spell you cast without increasing the level or casting time. You do not need to possess these feats to use this ability."
+
+[[entry]]
+id = "ref/mystery/intrigue"
+anchor = "gray-paladin-paladin-archetype"
+print = "Gray paladins have discovered that in a world of intrigue, a strict code of honor hinders their options. Their divergence from the paladin's normal code still drains them, but somehow, they have found a way to avoid losing all of their powers."
+
+[[entry]]
+id = "ref/mystery/intrigue"
+anchor = "alignment"
+print = '''
+A gray paladin can be lawful good, lawful neutral, or neutral good, though she must still follow a lawful good, neutral good, or lawful neutral deity.
+
+This alters the paladin's alignment restrictions.'''
+
+[[entry]]
+id = "ref/mystery/intrigue"
+anchor = "class-skills"
+print = '''
+A gray paladin adds Bluff, Disguise, and Intimidate to her list of class skills.
+
+This alters the paladin's class skills.'''
+
+[[entry]]
+id = "ref/mystery/intrigue"
+anchor = "weakened-grace"
+print = '''
+A gray paladin's loosened code weakens her connection to the power that grants her paladin abilities. She gains her first use of smite evil at 2nd level, instead of 1st, though she still gains further uses of smite evil at the rate listed on Table 3–11 of the _Core Rulebook_. She never gains the aura of good or divine grace class features. Her aura of courage does not make her immune to fear, her aura of resolve does not make her immune to charms, and her aura of righteousness does not make her immune to compulsions.
+
+This ability alters smite evil, aura of courage, aura of resolve, and aura of righteousness, and it replaces aura of good and divine grace.'''
+
+[[entry]]
+id = "ref/mystery/intrigue"
+anchor = "code-of-conduct"
+print = '''
+A gray paladin must be of lawful good, lawful neutral, or neutral good alignment and loses all class features except proficiencies if she ever willingly commits an evil act (for example, casting a spell with the evil descriptor). She should strive to act with honor and uphold the tenets of her faith, but failing to do so is not a violation of her code, and other than evil actions, she can do whatever else she feels is necessary to uphold the causes of law and good.
+
+This ability replaces the paladin's code of conduct and associated abilities and alters the section on ex-paladins.'''
+
+[[entry]]
+id = "ref/mystery/intrigue"
+anchor = "enhanced-health"
+print = '''
+At 3rd level, a gray paladin is far less a stranger to poisons than a normal paladin. She gains a +4 sacred bonus on all saving throws against poisons and diseases.
+
+This ability replaces divine health.'''
+
+[[entry]]
+id = "ref/mystery/intrigue"
+anchor = "smite-foe"
+print = '''
+At 4th level, a gray paladin can spend two uses of smite evil in order to smite a nongood creature that is not evil and gain her full benefits. The gray paladin must truly believe that the creature she smites is an opponent to the cause of good. Even if this nonevil foe is an outsider, undead, or dragon, she doesn't add increased damage to her first attack.
+
+This ability replaces channel positive energy and alters smite evil.'''
+
+[[entry]]
+id = "ref/mystery/intrigue"
+anchor = "aura-of-subtlety"
+print = '''
+At 11th level, a gray paladin learns how to protect herself from detection. She and her allies within 10 feet gain a +4 morale bonus on saving throws against divination effects. Furthermore, casters of divinations that target the gray paladin or her nearby allies must succeed at a caster level check as though the gray paladin and her nearby allies were under the effect of a _nondetection_ spell cast by the gray paladin, with a caster level equal to the gray paladin's paladin level.
+
+This ability functions while the gray paladin is conscious and while she is sleeping, but not if she is unconscious for any other reason, or dead.
+
+This ability replaces aura of justice.'''
+
+[[entry]]
+id = "ref/mystery/intrigue"
+anchor = "velvet-blade-slayer-archetype"
+print = "Velvet blades specialize in infiltrating the upper echelons of society, mingling with nobles and courtiers, and killing them. Velvet blades are often born into the aristocracy, with an intricate understanding of the inner workings of upper-class society. Though a few velvet blades are unhinged maniacs who enjoy preying on their peers, most of these well-heeled slayers assume a professional demeanor and hire themselves out to other nobles or well-connected criminal organizations."
+
+[[entry]]
+id = "ref/mystery/intrigue"
+anchor = "class-skills"
+print = '''
+A velvet blade adds Diplomacy and Knowledge (nobility) to her list of class skills, instead of Knowledge (dungeoneering).
+
+This alters the slayer's class skills.'''
+
+[[entry]]
+id = "ref/mystery/intrigue"
+anchor = "armor-proficiency"
+print = '''
+A velvet blade is not proficient with medium armor or shields.
+
+This alters the slayer's armor proficiency.'''
+
+[[entry]]
+id = "ref/mystery/intrigue"
+anchor = "studied-socialite"
+print = '''
+A velvet blade focuses her studies on social infiltration rather than brute force, believing it is easier to kill an opponent quietly and unprepared than in a loud battle. She adds her studied target bonus on Bluff, Diplomacy, Disguise, Intimidate, Knowledge, Perception, Sense Motive, Stealth, and Survival checks against studied opponents, as well as to the DCs of slayer class abilities she uses against such opponents. She never gains a bonus on weapon attack and damage rolls from her studied target ability.
+
+This ability alters studied target.'''
+
+[[entry]]
+id = "ref/mystery/intrigue"
+anchor = "courtly-graces"
+print = '''
+A velvet blade spends long hours memorizing etiquette and family lineages of royalty and other prominent families. She gains a bonus on Knowledge (nobility checks) equal to half her slayer level (minimum +1).
+
+This ability replaces track.'''
+
+[[entry]]
+id = "ref/mystery/intrigue"
+anchor = "treacherous-blade"
+print = "At 7th level, a velvet blade can capitalize on how others underestimate her and allow her close to them, assuming she is harmless. She gains the Betrayer feat as a bonus feat, whether or not she meets the prerequisites. Additionally, when making her first attack against a studied target that believes her to be harmless or to be an ally, the attack counts as a sneak attack, even if the target isn't flanked or denied its Dexterity bonus to AC, and the velvet blade gains +2d6 sneak attack damage, increasing by 1d6 at 10th level and every 5 levels thereafter. Even if she immediately attacks the target again (such as by continuing a full attack), only the first attack gains these benefits, since the target immediately realizes the velvet blade is something more than she seemed."
+
+[[entry]]
+id = "ref/mystery/intrigue"
+anchor = "silent-dispatch"
+print = '''
+At 11th level, a velvet blade becomes adept at taking out her targets quietly. She gains the silent dispatch vigilante talent without meeting the talent's prerequisites.
+
+This ability replaces swift tracker.'''
+
+[[entry]]
+id = "ref/mystery/intrigue"
+anchor = "fey-caller-unchained-summoner-archetype"
+print = "The strange creatures known as fey hail from a variety of places, including the natural world and their own domains on other planes. Fey callers are summoners whose voices reach out into those strange faerie realms and call forth the fey who dwell there. The touch of the fey makes the fey caller different from those summoners who call other outsiders to their sides as eidolons."
+
+[[entry]]
+id = "ref/mystery/intrigue"
+anchor = "class-skills"
+print = '''
+A fey caller adds Bluff, Diplomacy, Disguise, Knowledge (nature), Knowledge (planes), and Survival to his list of class skills, instead of all Knowledge skills.
+
+This alters the unchained summoner's class skills.'''
+
+[[entry]]
+id = "ref/mystery/intrigue"
+anchor = "nature-s-call"
+print = '''
+Instead of summoning creatures from the _summon monster_ list, the fey caller's summoning spell-like ability summons creatures from the list for the _summon nature's ally spell_ of the same level. It still follows the other rules and restrictions for the summoner's _summon monster_ spell-like ability.
+
+This ability alters the summoner's _summon monster_ spell-like ability.'''
+
+[[entry]]
+id = "ref/mystery/intrigue"
+anchor = "fey-eidolon"
+print = "A fey caller's eidolon is still an outsider, and its base statistics don't change, but it also counts as a fey. It has the following outsider type, instead of one of the types listed in _Pathfinder RPG Pathfinder Unchained_."
+
+[[entry]]
+id = "ref/mystery/intrigue"
+anchor = "fey-eidolons"
+print = '''
+Fey eidolons are whimsical and mysterious creatures, prone to f lights of fancy, odd compulsions, and alien humor. While some creatures from the faerie realms have truly unusual shapes, the ones close enough to the human mind to serve as eidolons tend to look like idealized humanoids with unusual features that set them apart, such as pointed ears or gossamer wings.
+
+Fey eidolons usually choose to bond with mortals for their own mysterious reasons that vary as much as their disparate temperaments; occasionally, their need may be immediate, such as when a dryad whose tree is dying decides to bond with a summoner instead and become something new. On the other hand, a redcap just looking for bloodshed might connect with an equally sadistic summoner. Whatever their reasons, they tend to have strong bonds of loyalty to their summoners entangled with equally strong emotional attachments, even evil fey eidolons.'''
+
+[[entry]]
+id = "ref/mystery/intrigue"
+anchor = "alignment"
+print = "Any. Fey eidolons don't have alignment subtypes."
+
+[[entry]]
+id = "ref/mystery/intrigue"
+anchor = "base-form"
+print = "Biped (limbs \\[arms\\], limbs \\[legs\\])."
+
+[[entry]]
+id = "ref/mystery/intrigue"
+anchor = "base-evolutions"
+print = '''
+Starting at 1st level, fey eidolons gain Acrobatics, Diplomacy, Disguise, Escape Artist, Knowledge (nature), Perform, Sleight of Hand, and Use Magic Device as class skills instead of those gained by most eidolons. They also gain the low-light vision evolution, the skilled evolution (selecting one class skill), and the ability to use either _dancing lights_, _detect magic_, _ghost sound_, or _prestidigitation_ at will as a spell-like ability. Once the summoner selects this and any other spell-like abilities for his fey eidolon, the selection cannot be changed.
+
+At 4th level, fey eidolons gain woodland stride (as the druid ability).
+
+At 8th level, fey eidolons gain the ability to use either _charm person_, _entangle_, _grease_, _silent image_, _obscuring mist_, or _vanish_ as a spell-like ability three times per day, and they can select an additional spell-like ability from the 1st-level list.
+
+At 12th level, fey eidolons gain DR 5/cold iron. They also grow gossamer wings, gaining the f light evolution.
+
+At 16th level, fey eidolons gain the ability to use either _blindness/deafness_, _detect thoughts_, _glitterdust_, _hideous laughter_, _invisibility_ (self only), _minor image_, _mirror image_, or _tongues_ as a spell-like ability three times per day. They also can select an additional spell-like ability from the 1st-level list or the 8th-level list.
+
+At 20th level, fey eidolons increase their DR to DR 10/cold iron. They gain the ability to use either _mass suggestion_, _mislead_, _programmed image_, or _veil_ as a spell-like ability once per day. They also can select an additional spell-like ability from the 1st-level list, the 8th-level list, or the 16th-level list.'''
+
+[[entry]]
+id = "ref/soctalent/any-guise"
+anchor = "any-guise"
+print = "A vigilante can use his [everyman](ref/soctalent/everyman) social talent to disguise himself as any specific person, even a king or high priest. Furthermore, if the actual individual wouldn't normally be able to be found via magic (such as by being dead or protected from divinations designed to locate the individual), such divinations always find the vigilante instead. A [vigilante](ref/class/vigilante) must be at least 17th level and have the [everyman](ref/soctalent/everyman) social talent to select this talent."
+
+[[entry]]
+id = "ref/soctalent/case-the-joint"
+anchor = "case-the-joint"
+print = "The vigilante can use his social identity to learn important facts about a location before returning later in his vigilante identity. If he spends at least 1 hour in a location while in his social identity, he can attempt a DC 20 Knowledge (engineering) check. If he succeeds, he gains the ability to later reroll any one failed skill check involving the location's layout (such as a Stealth check to sneak into the location, a Disable Device check to disable an alarm, or a Sleight of Hand check to snatch an object from a pedestal). For every 10 by which the check exceeds 20, the vigilante gains an additional reroll. If the vigilante fails to return to the location within 1 week, the situation changes too much and he cannot use the rerolls. A vigilante can't case the same joint more than once a week."
+
+[[entry]]
+id = "ref/soctalent/celebrity-discount"
+anchor = "celebrity-discount"
+print = "The vigilante's social identity is popular enough to receive discounts in his area of [renown](ref/soctalent/renown). Whenever he buys an item in his area of renown that costs 500 gp or less, he can buy it at 90% of the market price, rather than the full price. If he has the [great renown](ref/soctalent/great-renown) social talent, the gp limit increases to 2,000 gp, and if he possesses the [incredible renown](ref/soctalent/incredible-renown) social talent, the gp limit increases to 8,000 gp. A [vigilante](ref/class/vigilante) must be at least 3rd level and have the [renown](ref/soctalent/renown) social talent to select this talent."
+
+[[entry]]
+id = "ref/soctalent/celebrity-perks"
+anchor = "celebrity-perks"
+print = "The vigilante is a celebrity in his area of [renown](ref/soctalent/renown), and adoring fans are all too eager to shower him with the fundamental necessities. While within his area of renown, he can always receive common meals or lodging (worth up to 1 gp per meal or night) for free, and can avoid paying taxes or bribes of 1 gp or less. If he wants a particular nonmagical item worth 1 gp or less, he can spend 1d10 minutes interacting with people in his area of renown to receive the item from a fan (if he ever sells such a gift from a fan, he loses this social talent permanently). If he has the [great renown](ref/soctalent/great-renown) social talent, he can receive gifts of up to 5 gp, receive fine food and lodgings (worth up to 10 gp per meal or night) for free, and avoid paying taxes or bribes of 10 gp or less. If he has [incredible renown](ref/soctalent/incredible-renown), he can receive gifts of up to 25 gp, receive exquisite food and lodgings (worth up to 100 gp per meal or night) for free, and avoid paying taxes or bribes of 100 gp or less. A [vigilante](ref/class/vigilante) must be at least 5th level and have the [renown](ref/soctalent/renown) social talent to select this talent."
+
+[[entry]]
+id = "ref/soctalent/double-time"
+anchor = "double-time"
+print = "The vigilante's social identity is that of a skilled and respected artisan or professional, rather than a merchant or noble. In order to complete his day's work while still continuing his vigilante activities, he has learned to work faster than normal, hiding his progress so it seems like he is working full shifts at his day job rather than spending some of that time on other pursuits. The vigilante needs to spend only 6 hours each day for mundane uses of the Craft or Profession skill, rather than 8 hours. If he has the [social grace](ref/soctalent/social-grace) social talent, he needs to spend only 4 hours for any skill he's chosen with social grace. A [vigilante](ref/class/vigilante) must have a social identity appropriate to the chosen skill to select this talent."
+
+[[entry]]
+id = "ref/soctalent/everyman"
+anchor = "everyman"
+print = "The vigilante can take on the appearance of a specific individual whenever he assumes a mundane guise using his [many guises](ref/soctalent/many-guises) social talent. The individual must be a farmer, laborer, or peasant. While disguised as this individual, the vigilante receives a +20 circumstance bonus on Disguise checks to appear as that individual. Any spell or ability designed to locate the individual has a 50% chance of finding the vigilante instead of the actual individual, and divination spells and abilities used on the vigilante give results as if he were the actual individual. Although this doesn't grant the vigilante any special knowledge of the individual, the vigilante's training grants him a +10 circumstance bonus on Bluff checks to properly play the part of the individual. A [vigilante](ref/class/vigilante) must be at least 11th level and have the [many guises](ref/soctalent/many-guises) social talent to select this talent."
+
+[[entry]]
+id = "ref/soctalent/feign-innocence"
+anchor = "feign-innocence"
+print = "The vigilante's social identity seems so innocent that it is hard to believe he was involved in wrongdoing. Within his area of [renown](ref/soctalent/renown), this provides a nonmagical effect identical to the _[innocence](ref/spell/innocence)_ spell. A [vigilante](ref/class/vigilante) must be at least 5th level and have the [renown](ref/soctalent/renown) social talent to take this talent."
+
+[[entry]]
+id = "ref/soctalent/gossip-collector"
+anchor = "gossip-collector"
+print = "The vigilante sits at the center of a web of gossip, granting him access to the latest scuttlebutt with baffling speed. Whenever the vigilante is presented with a topic about which he would normally need to spend 1d4 hours to gather information, he must spend only 1d2 hours instead. If he has the [renown](ref/soctalent/renown) social talent and gathers the information in his area of renown, he must instead spend only 1d4 × 10 minutes, and if he beats the DC to gather a piece of information by 20 or more, he knows that piece of information without spending any time at all; he has simply already heard that gossip. This ability doesn't allow him to gather information that isn't available in the locale he is canvassing, even if that locale is his area of renown."
+
+[[entry]]
+id = "ref/soctalent/great-renown"
+anchor = "great-renown"
+print = "The vigilante is known on a broader scale. He can gain [renown](ref/soctalent/renown) in a single community of up to 5,000 individuals (a [large town](ref/rule/the-shape-of-civilization)) or up to two communities of no more than 2,000 individuals each (two small towns). The bonus while he is in his social identity remains unchanged, but the circumstance bonus on [Intimidate](ref/skill/intimidate) checks from his renown social talent while he is in his vigilante identity increases to +6. A [vigilante](ref/class/vigilante) must be at least 7th level and have the [renown](ref/soctalent/renown) social talent to select this talent."
+
+[[entry]]
+id = "ref/soctalent/immediate-change"
+anchor = "immediate-change"
+print = "The vigilante can change identities as a move action, and he no longer needs to spend extra time to adjust his appearance and persona. A [vigilante](ref/class/vigilante) must be at least 13th level and must have the [quick change](ref/soctalent/quick-change) social talent to select this talent."
+
+[[entry]]
+id = "ref/soctalent/in-vogue"
+anchor = "in-vogue"
+print = "The vigilante's crafting or professional business is always at the height of the local trends, allowing the vigilante to gain more profits than usual. Goods he crafts with a [Craft](ref/skill/craft-any) skill he chose with [social grace](ref/soctalent/social-grace) are worth 1/3 more gp than normal due to his celebrity, without increasing the cost to create. Whenever he uses a [Profession](ref/skill/profession-any) skill he chose with social grace to make money, he makes twice as much money. A [vigilante](ref/class/vigilante) must be at least 5th level and have both the [double time](ref/soctalent/double-time) and social grace social talents to take this talent."
+
+[[entry]]
+id = "ref/soctalent/incredible-renown"
+anchor = "incredible-renown"
+print = "The vigilante is incredibly famous in both identities. He can gain renown in a single community of up to 25,000 individuals (a [large city](ref/rule/the-shape-of-civilization)) or up to two smaller cities of no more than 10,000 individuals each (two small cities). The bonus while he is in his social identity remains unchanged, but the circumstance bonus to [Intimidate](ref/skill/intimidate) from his [great renown](ref/soctalent/great-renown) social talent while he is in his vigilante identity increases to +8. A [vigilante](ref/class/vigilante) must be at least 11th level and have the [great renown](ref/soctalent/great-renown) social talent to select this talent."
+
+[[entry]]
+id = "ref/soctalent/instant-recognition"
+anchor = "instant-recognition"
+print = "The vigilante is so well known that his name precedes him, even to other communities. It only takes 4 hours of effort to get the word out to transfer his renown benefits to a new community. A [vigilante](ref/class/vigilante) must be at least 13th level and have both the [incredible renown](ref/soctalent/incredible-renown) and [triumphant return](ref/soctalent/triumphant-return) social talents to select this talent."
+
+[[entry]]
+id = "ref/soctalent/loyal-aid"
+anchor = "loyal-aid"
+print = '''
+The vigilante gains the service of a number of loyal allies who can help him gather information, cover for his two identities, or perform minor tasks. Inside his area of [renown](ref/soctalent/renown), a vigilante with this talent gains a bonus on [Diplomacy](ref/skill/diplomacy) checks to gather information equal to half his vigilante level.
+
+In addition, if the vigilante wants, he can task his friends to help cover for him by spreading false tales of his location and activities to others. This has the effect of increasing the DC of Diplomacy checks to gather information about the vigilante and Survival checks to track him by an amount equal to his level. This lasts for 1 day, and can be used only once per week.
+
+Finally, once per day, the vigilante can ask his allies to perform a minor task for him. This usually involves delivering a message, purchasing a piece of mundane gear worth 100 gp or less (which the vigilante must pay for), or retrieving an object owned by the vigilante (that would be easily accessible by the ally). This task might take other forms as well, subject to GM discretion, but can never involve combat or danger. A [vigilante](ref/class/vigilante) must be at least 3rd level and have the [renown](ref/soctalent/renown) social talent to select this talent.'''
+
+[[entry]]
+id = "ref/soctalent/many-guises"
+anchor = "many-guises"
+print = "The vigilante can take on any number of mundane guises. Whenever he changes his identity, he has a third option (instead of social or vigilante): he can become mundane. The mundane identity is not a specific individual. Each one is created at the moment it is assumed, and quickly forgotten as soon as it is removed. While in a mundane identity, the vigilante does not gain the benefit of either his social or vigilante identity, but instead appears as a member of his race, usually a common laborer, farmer, or peasant of any gender. His alignment is treated as neutral when he is in his mundane identity. While in this identity, he receives a +20 circumstance bonus on Disguise checks to appear like an ordinary member of his race. Spells and abilities that are looking for the vigilante in either of his other identities fail while he is in his mundane identity. He must build the appearance for this identity using whatever clothing and tools he has at his disposal. While he can use magic (such as a _[hat of disguise](ref/magic-wondrous/hat-of-disguise)_), his mundane identity can never be anything other than an ordinary member of a society or large group (subject to GM discretion). A [vigilante](ref/class/vigilante) must be at least 5th level to select this talent."
+
+[[entry]]
+id = "ref/soctalent/mockingbird"
+anchor = "mockingbird"
+print = "The vigilante can mimic almost any sort of voice, or even animal calls and sound effects, and he can throw his voice at a distance. This functions similarly to a combination of the _[ghost sound](ref/spell/ghost-sound)_, _[ventriloquism](ref/spell/ventriloquism)_, and _[vocal alteration](ref/spell/vocal-alteration)_ spells. A [vigilante](ref/class/vigilante) must be at least 5th level to choose this talent."
+
+[[entry]]
+id = "ref/soctalent/quick-change"
+anchor = "quick-change"
+print = "The vigilante learns to shift between his identities with ease. Instead of needing 1 minute to change his identity, he can now do so as a full-round action. If, after a quick change, he encounters any creature familiar with both of his identities, he must attempt a [Disguise](ref/skill/disguise) check to avoid the creature seeing through his hastily donned disguise and realizing that the identities are, in fact, the same person. The vigilante can spend 1 additional round adjusting and perfecting his appearance and persona to negate the need for this check. A [vigilante](ref/class/vigilante) must be at least 7th level to select this talent."
+
+[[entry]]
+id = "ref/soctalent/renown"
+anchor = "renown"
+print = '''
+The vigilante becomes known for deeds and abilities regardless of his current identity. This renown grants him favorable treatment in civilized company and lends him an air of menace while facing down his enemies.
+
+While he is in his social identity, a vigilante can spend 1 week gaining renown among the locals of any community of no more than about 200 individuals ([a village](ref/rule/the-shape-of-civilization), if using settlement population ranges on page 203 of the _Pathfinder RPG GameMastery Guide_). This could be the entire community or a smaller neighborhood in a larger settlement. He must spend at least 4 hours each day socializing and making contacts. After spending 1 week doing this, whenever he is in his social identity, all NPCs in the community have a starting attitude toward him that is one category better, as long as each person's [initial attitude](ref/skill/diplomacy) would have at least been indifferent (see the Diplomacy skill description on pages 93–94 of the _Pathfinder RPG Core Rulebook_ for more information).
+
+While he gains renown in an area using his social identity, he also spreads rumors and tales about his vigilante identity. Once he has gained renown in a community, he gains a +4 circumstance bonus on Intimidate checks whenever he is in his vigilante identity. This bonus applies only while he is near the community in which he has gained renown; he must be within a number of miles equal to his vigilante level.
+
+A vigilante can hold renown in a limited number of communities (normally one, with other social talents allowing two). If he gains renown in a new community, he must decide which one of his previous communities to lose. These effects are subject to GM approval. For example, the GM might rule that an NPC or monster has not heard any tales about the vigilante. Or, a foe may have a starting attitude toward him that's one category worse, rather than one category better.'''
+
+[[entry]]
+id = "ref/soctalent/safe-house"
+anchor = "safe-house"
+print = "The vigilante can establish a safe house in his area of [renown](ref/soctalent/renown), and he can change it every time he changes his area of renown. If he doesn't have the renown talent, he can still select this talent and place the safe house in a single location to which he has access, but he can never move the safe house from its initial location until he gains the renown talent. This safe house must be an area no larger in volume than a cube that is a number of feet per side equal to 10 feet per vigilante level. The safe house can be arranged any way he likes and it can be part of a larger building, like a secret room or an underground cave. Objects within this safe house can't be located by any effect that is less powerful than a _[discern location](ref/spell/discern-location)_ spell. At 7th level, this protection from being located also applies to creatures in the safe house. At 13th level, the entire area is protected from scrying effects (though not mundane snooping) like a _[mage's private sanctum](ref/spell/mages-private-sanctum)_."
+
+[[entry]]
+id = "ref/soctalent/social-grace"
+anchor = "social-grace"
+print = "The vigilante selects any one Intelligence-, Wisdom-, or Charisma-based skill other than Perception or Use Magic Device. Whenever the vigilante is in his social identity, he receives a +4 circumstance bonus on checks with the selected skill. At 5th level and every 4 levels thereafter, he can select another skill (with the same restrictions) to gain this bonus."
+
+[[entry]]
+id = "ref/soctalent/subjective-truth"
+anchor = "subjective-truth"
+print = "The vigilante's disparate identities allow him to defeat magic that detects lies. As long as what he says is true from the point of view of his current identity, it detects as true to effects such as _[discern lies](ref/spell/discern-lies),_ and he can say it in effects such as _[zone of truth](ref/spell/zone-of-truth)_ that force him to speak the truth. A [vigilante](ref/class/vigilante) must be at least 9th level and have the [feign innocence](ref/soctalent/feign-innocence) social talent to select this talent."
+
+[[entry]]
+id = "ref/soctalent/triumphant-return"
+anchor = "triumphant-return"
+print = "The vigilante's tales are never truly forgotten. This makes it easier to establish his [renown](ref/soctalent/renown) in a place he has established it before. In any settlement where the vigilante previously gained [renown](ref/soctalent/renown), it takes only 3 days, rather than 1 week, to gain renown again. A [vigilante](ref/class/vigilante) must be at least 3rd level and have the renown social talent to select this talent."
+
+[[entry]]
+id = "ref/talent/follow-along"
+anchor = "follow-along"
+print = "A rogue with this talent is familiar enough with enchantment magic to fool it, using spellcasters' complacency to set them up for a surprise attack. Whenever she succeeds at a saving throw against an enchantment effect, the rogue learns the spell's effect on a failed save, allowing her to play along and pretend to have failed her save. If she does so, the spellcaster does not learn that she succeeded at her saving throw, even if she was the only target, though she must succeed at an opposed Bluff check against a spellcaster's Sense Motive check to determine whether she is under the enchantment's effects. While this ruse is in place, the spellcaster is [flat-footed](ref/rule/flat-footed) against the rogue's first attack. If the spellcaster sees the rogue perform (or fail to perform) an action that would be impossible if she were under the enchantment's effect, he automatically discovers her ruse."
+
+[[entry]]
+id = "ref/talent/hidden-mind"
+anchor = "hidden-mind"
+print = "A rogue with this talent uses various devious techniques, including mental exercises and dusting her clothing with a small amount of lead, to protect herself from divinations, with the same benefits as if she cast _[nondetection](ref/spell/nondetection)_ on herself with a caster level equal to her rogue level."
+
+[[entry]]
+id = "ref/talent/shades-of-gray"
+anchor = "shades-of-gray"
+print = "A rogue with this talent uses mental and emotional tricks to protect herself from attempts to discern her alignment. This offers her the benefits of _[undetectable alignment](ref/spell/undetectable-alignment)_ whenever she chooses, though she must be conscious to maintain the effect."
+
+[[entry]]
+id = "ref/talent/stalker-talent"
+anchor = "stalker-talent"
+print = "The rogue can select a [vigilante](ref/class/vigilante) talent. For the purposes of selecting and using this talent, she counts as a 10th-level vigilante with the stalker specialization, regardless of her actual rogue level. Her sneak attack counts as a hidden strike with reduced damage for the purpose of determining the effects of her vigilante talent, which means, among other things, that she can't apply any of the vigilante talents marked with an asterisk (\\*) to her sneak attacks."
+
+[[entry]]
+id = "ref/vigtalent/another-day"
+anchor = "another-day"
+print = "When the vigilante is dropped unconscious due to hit point damage, he automatically [stabilizes](ref/misc/stable), but he can also appear to be dead, unless an examining creature succeeds at a Heal check (DC = 20 + the vigilante's class level) or, if using magic such as _[deathwatch](ref/spell/deathwatch),_ a caster level check with the same DC (the ability to affect spells is supernatural; the rest of the ability is extraordinary). The vigilante counts as having received aid and automatically succeeds at the Constitution check to become conscious after 1 hour (unless he has actually died in the meantime)."
+
+[[entry]]
+id = "ref/vigtalent/armor-skin"
+anchor = "armor-skin"
+print = "The vigilante's armor is like a second skin. He doesn't apply the armor check penalty for light and medium armor on Acrobatics, Escape Artist, or Stealth checks. This penalty applies on other skill checks as normal. At 8th level, he can move at full speed in medium armor."
+
+[[entry]]
+id = "ref/vigtalent/blind-spot"
+anchor = "blind-spot"
+print = "The vigilante is so skilled at stealth, he can use the Stealth skill to hide from creatures with unusual senses that normally automatically detect creatures. This includes senses such as [blindsense](ref/umr/blindsense), [blindsight](ref/umr/blindsight), [lifesense](ref/umr/lifesense), [scent](ref/umr/scent), or [tremorsense](ref/umr/tremorsense). For each such ability that the creature possesses, if the vigilante is not bypassing the sense in another way—such as the _[negate aroma](ref/spell/negate-aroma)_ spell for scent or flying for tremorsense—the creature gains a stacking +20 circumstance bonus on all Perception checks to notice the vigilante, rather than automatically noticing the vigilante. Only a [stalker vigilante](ref/class/vigilante#stalker) of at least 6th level can select this talent."
+
+[[entry]]
+id = "ref/vigtalent/chase-master"
+anchor = "chase-master"
+print = "Whether he is the pursuer or the pursued, few can best a vigilante at [a chase](ref/rule/chases). He receives a bonus on all checks during a chase equal to [half](ref/misc/fractions-and-rounding) his vigilante level or +4, whichever is greater."
+
+[[entry]]
+id = "ref/vigtalent/close-the-gap"
+anchor = "close-the-gap"
+print = "Each round, at the start of his turn, the vigilante can designate one foe within 20 feet that isn't adjacent to him. When he moves, he doesn't provoke attacks of opportunity from that foe as long as he ends his move adjacent to that foe. If he [charges](ref/rule/charge) that foe, he does not take the -2 penalty to his AC on any attacks made by the designated foe."
+
+[[entry]]
+id = "ref/vigtalent/combat-skill"
+anchor = "combat-skill"
+print = "The vigilante gains any one combat feat as a bonus feat. He must meet the prerequisites for this feat, but he is treated as though he had a number of fighter levels equal to half his vigilante level for the purpose of qualifying for this feat. Only an [avenger vigilante](ref/class/vigilante#avenger) can select this talent, but he can select this talent more than once; each time he must select a different feat."
+
+[[entry]]
+id = "ref/vigtalent/cunning-feint"
+anchor = "cunning-feint"
+print = "The vigilante can [feint](ref/rule/feint) as a move action or in place of his first attack during a full attack. At 8th level, when the vigilante successfully feints, the opponent is denied its Dexterity bonus to AC against all attacks until the vigilante's next turn."
+
+[[entry]]
+id = "ref/vigtalent/environmental-weapon"
+anchor = "environment-weapon"
+print = "When the vigilante gains this talent, he must select one type of terrain from the ranger's list of [favored terrains](ref/ability/favored-terrain). While in this terrain, as a swift action the vigilante can find an [improvised weapon](ref/misc/improvised-weapons) if there are any loose or moveable objects around (subject to the GM's discretion). He doesn't take a penalty for using these improvised weapons. For example, if the vigilante selected the urban environment, he might attack a foe with a chair, an empty bottle, or even a door. At 5th, 10th, 15th, and 20th levels, the vigilante can select an additional type of terrain."
+
+[[entry]]
+id = "ref/vigtalent/evasive"
+anchor = "evasive"
+print = "The vigilante is hard to catch with area attacks. He gains the [evasion](ref/ability/evasion) ability, and at 12th level, he gains the [improved evasion](ref/talent/improved-evasion) ability. Only a [stalker vigilante](ref/class/vigilante#stalker) can select this talent."
+
+[[entry]]
+id = "ref/vigtalent/expose-weaknesses"
+anchor = "expose-weakness"
+print = "The vigilante is able to use sneaky tricks to make it easier to damage a foe, whether it is throwing a bit of fine dust of cold iron over a fey creature or melting a glob of silver onto a lycanthrope's hide. The vigilante can add the ability to reduce a creature's [damage reduction](ref/rule/damage-reduction) or [hardness](ref/umr/hardness) by 10 to the list of options when attempting a [dirty trick](ref/rule/dirty-trick) combat maneuver check. This does not stack with itself, and it does not work against creatures with DR/—."
+
+[[entry]]
+id = "ref/vigtalent/favored-maneuver"
+anchor = "favored-maneuver"
+print = "The vigilante selects one type of [combat maneuver](ref/rule/combat-maneuvers) to be a favored maneuver. He gains the Improved feat corresponding to that combat maneuver (if one exists). He gains a +2 circumstance bonus on combat maneuver checks with that combat maneuver against a foe that is unaware of the vigilante's presence at the start of his combat maneuver. A vigilante can select this talent more than once. Each time, it applies to a different combat maneuver."
+
+[[entry]]
+id = "ref/vigtalent/fist-of-the-avenger"
+anchor = "fist-of-the-avenger"
+print = "The vigilante gains [Improved Unarmed Strike](ref/feat/improved-unarmed-strike) as a bonus feat, if he doesn't have this feat already. In addition, whenever he successfully attacks with his fist or a gauntlet, he gains a bonus on damage rolls equal to half his vigilante level (minimum +1, maximum of +5). Only an [avenger vigilante](ref/class/vigilante#avenger) can select this talent."
+
+[[entry]]
+id = "ref/vigtalent/foe-collision"
+anchor = "foe-collision"
+print = "A stalker vigilante can apply only one talent marked with an asterisk (\\*) to a given hidden strike, and only when that hidden strike is dealt against a foe that is unaware of the stalker vigilante's presence (or who considers him an ally), unless otherwise noted.\n\nThe vigilante can shove one of his foes into another. When the vigilante deals hidden strike damage to a corporeal foe with a melee attack, he can also deal an amount of nonlethal damage equal to his reduced hidden strike damage to an opponent adjacent to the first (even if the second opponent is out of his reach). The damage is bludgeoning damage, and if the colliding foe has any natural attacks, the damage is also considered magic, evil, or any other type of damage the natural attack deals. Unlike normal vigilante talents that affect hidden strikes, this vigilante talent applies in all cases when the target is denied its Dexterity bonus to AC. Only a [stalker vigilante](ref/class/vigilante#stalker) can select this talent."
+
+[[entry]]
+id = "ref/vigtalent/heavy-training"
+anchor = "heavy-training"
+print = "The vigilante gains [Heavy Armor Proficiency](ref/feat/armor-proficiency-heavy) as a bonus feat, if he does not have that feat already. The [armor skin](ref/vigtalent/armor-skin) vigilante talent also applies to heavy armor. At 16th level, if the vigilante has the armor skin vigilante talent, he can move at full speed in heavy armor. Only an [avenger vigilante](ref/class/vigilante#avenger) can select this talent."
+
+[[entry]]
+id = "ref/vigtalent/hide-in-plain-sight"
+anchor = "hide-in-plain-sight"
+print = "The vigilante can use Stealth to hide even when being observed. As long as he is within 10 feet of [dim light](ref/rule/vision-and-light) (his own shadow doesn't count), he can hide without anything to actually hide behind. Only a [stalker vigilante](ref/class/vigilante#stalker) of at least 8th level can select this talent."
+
+[[entry]]
+id = "ref/vigtalent/inspired-vigilante"
+anchor = "opening"
+print = "checks with the selected skill. At 5th level and every 4 levels thereafter, he can select another skill (with the same restrictions) to gain this bonus."
+
+[[entry]]
+id = "ref/vigtalent/inspired-vigilante"
+anchor = "subjective-truth"
+print = "The vigilante's disparate identities allow him to defeat magic that detects lies. As long as what he says is true from the point of view of his current identity, it detects as true to effects such as _discern lies,_ and he can say it in effects such as _zone of truth_ that force him to speak the truth. A vigilante must be at least 9th level and have the feign innocence social talent to select this talent."
+
+[[entry]]
+id = "ref/vigtalent/inspired-vigilante"
+anchor = "triumphant-return"
+print = "The vigilante's tales are never truly forgotten. This makes it easier to establish his renown in a place he has established it before. In any settlement where the vigilante previously gained renown, it takes only 3 days, rather than 1 week, to gain renown again. A vigilante must be at least 3rd level and have the renown social talent to select this talent."
+
+[[entry]]
+id = "ref/vigtalent/inspired-vigilante"
+anchor = "vigilante-specialization"
+print = "At 1st level, a vigilante must choose to be either an avenger or a stalker.\n\nAn avenger gains a base attack bonus equal to his vigilante level instead of using those listed on Table 1–1. He adds this value to any other base attack bonus gained from other classes or racial Hit Dice as normal.\n\nA stalker gains an ability called hidden strike, which allows him to deal an extra 1d8 points of precision damage on melee attacks (or ranged attacks from within 30 feet) against foes who are unaware of his presence, who consider him an ally, or who are made flat-footed by startling appearance (see page 17). This extra damage increases by 1d8 at 3rd level and every 2 vigilante levels thereafter. A stalker vigilante can also deal hidden strike damage to a target that he is flanking or that is denied its Dexterity bonus to AC, but in these cases, the damage dice are reduced to d4s. A stalker can deal hidden strike damage against targets with concealment (but not total concealment).\n\nOnce this choice is made, it can't be changed. While many vigilante talents are usable by both specializations, some are unique to each specialization. A stalker vigilante can apply only one talent marked with an asterisk (\\*) to a given hidden strike, and only when that hidden strike is dealt against a foe that is unaware of the stalker vigilante's presence (or who considers him an ally), unless otherwise noted."
+
+[[entry]]
+id = "ref/vigtalent/inspired-vigilante"
+anchor = "vigilante-talent"
+print = '''
+Starting at 2nd level and every 2 levels thereafter, a vigilante gains a vigilante talent. Unless otherwise noted, a talent can be selected only once. Some talents require the vigilante to meet prerequisites before they can be chosen, such as possessing another vigilante talent, possessing a particular specialization, or attaining a minimum level. Once a talent has been selected, it can't be changed.
+
+If the vigilante uses any of these talents while in his social identity, he must succeed at a Disguise check against the Perception checks of all onlookers (without the +20 circumstance bonus from seamless guise) or the onlookers will realize that he is more than his social identity appears to be and perhaps discover the social and vigilante identities are one and the same. If a talent calls for a saving throw, the DC for that save is equal to 10 + 1/2 the vigilante's level + the vigilante's Charisma modifier, unless stated otherwise.'''
+
+[[entry]]
+id = "ref/vigtalent/inspired-vigilante"
+anchor = "another-day"
+print = "When the vigilante is dropped unconscious due to hit point damage, he automatically stabilizes, but he can also appear to be dead, unless an examining creature succeeds at a Heal check (DC = 20 + the vigilante's class level) or, if using magic such as _deathwatch,_ a caster level check with the same DC (the ability to affect spells is supernatural; the rest of the ability is extraordinary). The vigilante counts as having received aid and automatically succeeds at the Constitution check to become conscious after 1 hour (unless he has actually died in the meantime)."
+
+[[entry]]
+id = "ref/vigtalent/inspired-vigilante"
+anchor = "armor-skin"
+print = "The vigilante's armor is like a second skin. He doesn't apply the armor check penalty for light and medium armor on Acrobatics, Escape Artist, or Stealth checks. This penalty applies on other skill checks as normal. At 8th level, he can move at full speed in medium armor."
+
+[[entry]]
+id = "ref/vigtalent/inspired-vigilante"
+anchor = "blind-spot"
+print = "The vigilante is so skilled at stealth, he can use the Stealth skill to hide from creatures with unusual senses that normally automatically detect creatures. This includes senses such as blindsense, blindsight, lifesense, scent, or tremorsense. For each such ability that the creature possesses, if the vigilante is not bypassing the sense in another way—such as the _negate aroma_ spell for scent or flying for tremorsense—the creature gains a stacking +20 circumstance bonus on all Perception checks to notice the vigilante, rather than automatically noticing the vigilante. Only a stalker vigilante of at least 6th level can select this talent."
+
+[[entry]]
+id = "ref/vigtalent/inspired-vigilante"
+anchor = "chase-master"
+print = "Whether he is the pursuer or the pursued, few can best a vigilante at a chase. He receives a bonus on all checks during a chase (_Pathfinder RPG GameMastery Guide_ 232) equal to half his vigilante level or +4, whichever is greater."
+
+[[entry]]
+id = "ref/vigtalent/inspired-vigilante"
+anchor = "close-the-gap"
+print = "Each round, at the start of his turn, the vigilante can designate one foe within 20 feet that isn't adjacent to him. When he moves, he doesn't provoke attacks of opportunity from that foe as long as he ends his move adjacent to that foe. If he charges that foe, he does not take the -2 penalty to his AC on any attacks made by the designated foe."
+
+[[entry]]
+id = "ref/vigtalent/inspired-vigilante"
+anchor = "combat-skill"
+print = "The vigilante gains any one combat feat as a bonus feat. He must meet the prerequisites for this feat, but he is treated as though he had a number of fighter levels equal to half his vigilante level for the purpose of qualifying for this feat. Only an avenger vigilante can select this talent, but he can select this talent more than once; each time he must select a different feat."
+
+[[entry]]
+id = "ref/vigtalent/inspired-vigilante"
+anchor = "cunning-feint"
+print = "The vigilante can feint as a move action or in place of his first attack during a full attack. At 8th level, when the vigilante successfully feints, the opponent is denied its Dexterity bonus to AC against all attacks until the vigilante's next turn."
+
+[[entry]]
+id = "ref/vigtalent/inspired-vigilante"
+anchor = "environment-weapon"
+print = "When the vigilante gains this talent, he must select one type of terrain from the ranger's list of favored terrains. While in this terrain, as a swift action the vigilante can find an improvised weapon if there are any loose or moveable objects around (subject to the GM's discretion). He doesn't take a penalty for using these improvised weapons. For example, if the vigilante selected the urban environment, he might attack a foe with a chair, an empty bottle, or even a door. At 5th, 10th, 15th, and 20th levels, the vigilante can select an additional type of terrain."
+
+[[entry]]
+id = "ref/vigtalent/inspired-vigilante"
+anchor = "evasive"
+print = "The vigilante is hard to catch with area attacks. He gains the evasion ability, and at 12th level, he gains the improved evasion ability. Only a stalker vigilante can select this talent."
+
+[[entry]]
+id = "ref/vigtalent/inspired-vigilante"
+anchor = "expose-weakness"
+print = "The vigilante is able to use sneaky tricks to make it easier to damage a foe, whether it is throwing a bit of fine dust of cold iron over a fey creature or melting a glob of silver onto a lycanthrope's hide. The vigilante can add the ability to reduce a creature's damage reduction or hardness by 10 to the list of options when attempting a dirty trick combat maneuver check (_Advanced Player's Guide_ 320). This does not stack with itself, and it does not work against creatures with DR/—."
+
+[[entry]]
+id = "ref/vigtalent/inspired-vigilante"
+anchor = "favored-maneuver"
+print = "The vigilante selects one type of combat maneuver to be a favored maneuver. He gains the Improved feat corresponding to that combat maneuver (if one exists). He gains a +2 circumstance bonus on combat maneuver checks with that combat maneuver against a foe that is unaware of the vigilante's presence at the start of his combat maneuver. A vigilante can select this talent more than once. Each time, it applies to a different combat maneuver."
+
+[[entry]]
+id = "ref/vigtalent/inspired-vigilante"
+anchor = "fist-of-the-avenger"
+print = "The vigilante gains Improved Unarmed Strike as a bonus feat, if he doesn't have this feat already. In addition, whenever he successfully attacks with his fist or a gauntlet, he gains a bonus on damage rolls equal to half his vigilante level (minimum +1, maximum of +5). Only an avenger vigilante can select this talent."
+
+[[entry]]
+id = "ref/vigtalent/inspired-vigilante"
+anchor = "foe-collision"
+print = "The vigilante can shove one of his foes into another. When the vigilante deals hidden strike damage to a corporeal foe with a melee attack, he can also deal an amount of nonlethal damage equal to his reduced hidden strike damage to an opponent adjacent to the first (even if the second opponent is out of his reach). The damage is bludgeoning damage, and if the colliding foe has any natural attacks, the damage is also considered magic, evil, or any other type of damage the natural attack deals. Unlike normal vigilante talents that affect hidden strikes, this vigilante talent applies in all cases when the target is denied its Dexterity bonus to AC. Only a stalker vigilante can select this talent."
+
+[[entry]]
+id = "ref/vigtalent/inspired-vigilante"
+anchor = "heavy-training"
+print = "The vigilante gains Heavy Armor Proficiency as a bonus feat, if he does not have that feat already. The armor skin vigilante talent also applies to heavy armor. At 16th level, if the vigilante has the armor skin vigilante talent, he can move at full speed in heavy armor. Only an avenger vigilante can select this talent."
+
+[[entry]]
+id = "ref/vigtalent/inspired-vigilante"
+anchor = "hide-in-plain-sight"
+print = "The vigilante can use Stealth to hide even when being observed. As long as he is within 10 feet of dim light (his own shadow doesn't count), he can hide without anything to actually hide behind. Only a stalker vigilante of at least 8th level can select this talent."
+
+[[entry]]
+id = "ref/vigtalent/inspired-vigilante"
+anchor = "inspired-vigilante"
+print = "The vigilante's powers of deduction are far beyond the norm. This ability functions similarly to the [investigator's](ref/class/investigator) inspiration ability, but the vigilante's inspiration pool is equal to his class level (do not add his Intelligence modifier), the vigilante can never use this ability without expending a use of inspiration, and it doesn't count as inspiration for any effects that interact with or require the inspiration class feature."
+
+[[entry]]
+id = "ref/vigtalent/inspired-vigilante"
+anchor = "leave-an-opening"
+print = "The vigilante's hidden strike leaves an unbalancing opening in a foe's defenses, setting up the foe to be attacked again. At the beginning of the foe's next turn, if the vigilante threatens the foe, the foe provokes an attack of opportunity from the vigilante. Multiple attacks against the same foe don't create multiple attacks of opportunity in the same round (but attacks against several foes can cause each to provoke one attack of opportunity). Only a stalker vigilante can select this talent."
+
+[[entry]]
+id = "ref/vigtalent/inspired-vigilante"
+anchor = "lethal-grace"
+print = "The vigilante combines strength and speed into incredibly deadly attacks. He gains Weapon Finesse as a bonus feat, and if he already has the Weapon Finesse feat, he can immediately swap it for another feat for which he qualified at the level he chose Weapon Finesse. When using Weapon Finesse to make a melee attack using his Dexterity bonus on attack rolls and his Strength bonus on damage rolls, he also adds half his vigilante level on damage rolls. This bonus damage is not reduced or increased if the vigilante is wielding a weapon two-handed or in an off-hand."
+
+[[entry]]
+id = "ref/vigtalent/inspired-vigilante"
+anchor = "living-shield"
+print = "As an immediate action whenever the vigilante is grappling a creature and is targeted by an attack, he can attempt a combat maneuver check against the target of his grapple (this combat maneuver check doesn't count as a grapple combat maneuver check). If he succeeds, the creature he is grappling becomes the new target of the attack. If the check fails, the creature escapes the grapple and the vigilante is the target of the attack as normal. This ability must be used after the attack is declared against the vigilante, but before the attack is made and the results revealed."
+
+[[entry]]
+id = "ref/vigtalent/inspired-vigilante"
+anchor = "mad-rush"
+print = "Whenever the vigilante charges, he can make a full attack. Whenever he uses this ability, he takes a -4 penalty to his AC until the start of his next turn (in addition to the AC penalty for charging). Only an avenger vigilante of at least 12th level can select this talent."
+
+[[entry]]
+id = "ref/vigtalent/inspired-vigilante"
+anchor = "mighty-ambush"
+print = "Once per round, when the vigilante succeeds at a hidden strike, he can instantly drop the damaged enemy unconscious for 1d4 rounds. A successful Fortitude saving throw negates this effect (DC = 10 + 1/2 the vigilante's class level + the higher of the vigilante's Strength and Dexterity modifiers). Whether or not a creature's saving throw is successful, it can't be affected by that vigilante's mighty ambush again for 24 hours. Only a stalker vigilante of at least 10th level can select this talent."
+
+[[entry]]
+id = "ref/vigtalent/inspired-vigilante"
+anchor = "nothing-can-stop-me"
+print = "Once per round, while the vigilante is moving, he can make one attack as a free action against an unattended object in the way of his path, such as a door or table. If his attack deals enough damage to destroy the object, he can continue to move. If he doesn't destroy the object, his move ends. This attack is made as part of his move action and doesn't count against his attacks this round. If his attack inadvertently targets a creature (such as a mimic), it automatically misses and his move ends (although he can still attack the creature as normal at the end of his movement). Only an avenger vigilante can select this talent."
+
+[[entry]]
+id = "ref/vigtalent/inspired-vigilante"
+anchor = "perfect-fall"
+print = "As long as there is a wall or another surface within arm's reach, the vigilante never takes falling damage. Even if no surface is available, he takes only half damage from falling and lands on his feet."
+
+[[entry]]
+id = "ref/vigtalent/inspired-vigilante"
+anchor = "perfect-vulnerability"
+print = '''
+As a standard action, the vigilante can cleverly strike his foe where that foe is weakest. This attack targets the foe's touch AC, and the foe is denied her Dexterity bonus against the attack. Once a foe has been the target of perfect vulnerability, she can't be the target of the same vigilante's perfect vulnerability for 24 hours.
+
+A vigilante must be at least 8th level to select this talent.'''
+
+[[entry]]
+id = "ref/vigtalent/inspired-vigilante"
+anchor = "pull-into-the-shadows"
+print = '''
+As a full-round action, the vigilante can move up to his speed toward an opponent who is unaware of his presence (or who considers him an ally) and make a single attack against that opponent.
+
+If the attack hits, he can attempt a drag combat maneuver (_Advanced Player's Guide_ 321) against that enemy with a +4 bonus and without provoking an attack of opportunity. If the drag succeeds, the vigilante doesn't need to have enough movement remaining to move with the enemy. The vigilante can't use this ability on a true ally or a willing target.'''
+
+[[entry]]
+id = "ref/vigtalent/inspired-vigilante"
+anchor = "returning-weapon"
+print = "The vigilante has a signature type of thrown weapon that returns to him. Choose a type of thrown weapon, such as throwing axes. Whenever the vigilante uses that type of weapon, it automatically returns as if it had the _returning_ property. At 14th level, if the vigilante chose a type of thrown weapon that is treated as ammunition, such as shuriken, and buys a set of 50 magic ammunition of that type, he automatically replenishes them at no cost and never runs out. If he chose a non-ammunition thrown weapon instead, he can apply the magical properties of the first weapon he throws in a round to any nonmagical thrown weapons of that type he throws that round. This allows him to make a full attack with the benefits of his magical thrown weapon, even though it only returns next round."
+
+[[entry]]
+id = "ref/vigtalent/inspired-vigilante"
+anchor = "rogue-talent"
+print = "The vigilante gains a single rogue talent (not an advanced talent) of his choice. If he selects a rogue talent marked with an asterisk (\\*), that talent applies to his hidden strikes instead of to sneak attacks, and the talent counts as a stalker vigilante talent with an asterisk (\\*) for the limitation of only one applying to a given hidden strike. Only a stalker vigilante can select this talent."
+
+[[entry]]
+id = "ref/vigtalent/inspired-vigilante"
+anchor = "rooftop-infiltrator"
+print = "The vigilante gains a climb speed equal to half his base speed, which increases to his full base speed when climbing a rope."
+
+[[entry]]
+id = "ref/vigtalent/inspired-vigilante"
+anchor = "shadow-s-sight"
+print = "The vigilante gains low-light vision and darkvision 60 feet. If he already had darkvision, its range increases by 30 feet."
+
+[[entry]]
+id = "ref/vigtalent/inspired-vigilante"
+anchor = "shadow-s-speed"
+print = "The vigilante's base speed increases by 10 feet. At 10th level, it increases by an additional 10 feet."
+
+[[entry]]
+id = "ref/vigtalent/inspired-vigilante"
+anchor = "shield-of-blades"
+print = "The vigilante's wild attacks allow him to block his foes' counterattacks. He gains Power Attack as a bonus feat. If he already has the Power Attack feat, he can immediately swap it for another feat for which he qualified at the level he chose Power Attack. When he takes an attack or full attack action, if he uses Power Attack on every attack to make melee attacks that use his Strength bonus on attack rolls, he gains a shield bonus to his AC until his next turn equal to his penalty on attack rolls from Power Attack. This bonus applies only if he actually takes that penalty on at least one of the attack rolls."
+
+[[entry]]
+id = "ref/vigtalent/inspired-vigilante"
+anchor = "shield-of-fury"
+print = "The vigilante gains Improved Shield Bash as a bonus feat. If he already has the Improved Shield Bash feat, he can immediately swap it for another feat for which he qualified at the level he chose Improved Shield Bash. In addition, if he is at least 6th level, he is treated as if he has the Two-Weapon Fighting feat as long as one of the weapons used is a shield. This allows him to take feats that require Two-Weapon Fighting as a prerequisite without meeting the Two-Weapon Fighting or Dexterity prerequisites, but these feats only apply while he is wielding a shield as one of his weapons (unless he takes Two-Weapon Fighting as normal, in which case this restriction is lifted)."
+
+[[entry]]
+id = "ref/vigtalent/inspired-vigilante"
+anchor = "signature-weapon"
+print = "The vigilante must select one type of weapon (such as longsword or crossbow) when he gains this talent. He gains Weapon Focus as a bonus feat for his selected weapon type. If he already has the Weapon Focus feat with the selected weapon, he can immediately swap it for another feat for which he qualified at the level he chose Weapon Focus in the selected weapon. At 8th level, he also gains Weapon Specialization as a bonus feat for his selected weapon. He doesn't have to meet any of the prerequisites for these feats. Only an avenger vigilante can select this talent."
+
+[[entry]]
+id = "ref/vigtalent/inspired-vigilante"
+anchor = "silent-dispatch"
+print = "When the vigilante ambushes an enemy or enemies unaware of his presence, he can attempt a Stealth check at a -5 penalty. The result indicates the DC of Perception checks to hear the vigilante's attacks until an opponent's first action, when the DC returns to the normal -10 for hearing battle. Other enemies present can still see the attack; this talent only prevents the sounds of battle from alerting others."
+
+[[entry]]
+id = "ref/vigtalent/inspired-vigilante"
+anchor = "sniper"
+print = "The vigilante can deal hidden strike damage with ranged attacks at any distance, rather than within 30 feet. Only a stalker vigilante of at least 6th level can select this talent."
+
+[[entry]]
+id = "ref/vigtalent/inspired-vigilante"
+anchor = "stalker-sense"
+print = "The vigilante has a sense for danger. He always acts on the surprise round. At 6th level, he gains uncanny dodge, and at 12th level, he gains improved uncanny dodge. Only a stalker can select this talent."
+
+[[entry]]
+id = "ref/vigtalent/inspired-vigilante"
+anchor = "strike-the-unseen"
+print = "The vigilante gains Blind-Fight as a bonus feat. He can also deal hidden strike damage against targets with total concealment. At 10th level, he gains Improved Blind-Fight as a bonus feat and can deal all types of precision damage against targets with concealment or total concealment. At 16th level, he gains Greater Blind-Fight as a bonus feat. The vigilante does not have to meet the prerequisites for either Improved Blind-Fight or Greater Blind-Fight to gain these feats with this talent."
+
+[[entry]]
+id = "ref/vigtalent/inspired-vigilante"
+anchor = "sucker-punch"
+print = "Whenever the vigilante attacks a foe that is unaware of his presence (or who views him as an ally), and the attack deals nonlethal damage, the attack deals an additional 1d6 points of nonlethal damage. This additional damage increases by 1d6 at each of 6th, 12th, and 18th levels. Only an avenger vigilante can select this talent."
+
+[[entry]]
+id = "ref/vigtalent/inspired-vigilante"
+anchor = "sure-footed"
+print = "The vigilante can move at full speed while using the Stealth and Acrobatics skills without penalty. At 8th level, he can move at full speed across difficult terrain."
+
+[[entry]]
+id = "ref/vigtalent/inspired-vigilante"
+anchor = "surprise-strike"
+print = "The vigilante gains a greater advantage when his foe is unable to defend herself. Whenever he makes an attack against a foe that is denied her Dexterity bonus to AC, he gains a +1 bonus on his attack roll. This bonus increases to +2 at 8th level and to +3 at 16th level."
+
+[[entry]]
+id = "ref/vigtalent/inspired-vigilante"
+anchor = "throat-jab"
+print = "The vigilante's hidden strike jabs his opponent in the throat, preventing that opponent from speaking until the vigilante's next turn. (If the vigilante uses this ability on the surprise round, it lasts until the end of his first full turn after the surprise round.) This prevents the target from calling out for help, using spells with verbal components, or doing anything else that requires speaking. The target cannot be affected by that vigilante's throat jab again for 24 hours. Only a stalker vigilante of at least 4th level can select this talent."
+
+[[entry]]
+id = "ref/vigtalent/inspired-vigilante"
+anchor = "twisting-fear"
+print = "Whenever the vigilante causes an opponent to gain the shaken, frightened, or panicked condition, that opponent takes an amount of nonlethal damage equal to the vigilante's reduced hidden strike damage, as the stress wears upon its body. A creature can't take damage from twisting fear more than once per round. Panicked creatures that take damage from twisting fear are too winded even to scream as they flee in terror. Only a stalker vigilante can select this talent."
+
+[[entry]]
+id = "ref/vigtalent/inspired-vigilante"
+anchor = "unexpected-strike"
+print = "The vigilante gains Quick Draw as a bonus feat. At 8th level, he can draw hidden weapons as a swift action (instead of a move action)."
+
+[[entry]]
+id = "ref/vigtalent/inspired-vigilante"
+anchor = "unkillable"
+print = "The vigilante gains Diehard as a bonus feat, though he does not have to meet the prerequisites for this feat. At 6th level, he doesn't lose hit points when he takes a standard action while disabled. At 12th level, when he would die from hit point damage, he remains alive for 1 round before dying (and if his hit points rise above a negative amount equal to his Constitution score before that round is over, he doesn't die). At 18th level, he is no longer disabled at negative hit points and can take a full round's worth of actions. Only an avenger vigilante can select this talent."
+
+[[entry]]
+id = "ref/vigtalent/inspired-vigilante"
+anchor = "up-close-and-personal"
+print = '''
+When the vigilante attempts an Acrobatics check to move through an opponent's space during a move action, he can attempt a single melee attack against that opponent as a swift action. If the Acrobatics check succeeds, this attack applies the vigilante's hidden strike damage as if the foe were unaware of the vigilante. Otherwise, the vigilante applies the hidden strike damage he would deal if the target were denied its Dexterity bonus to AC. Only a stalker vigilante of at least 4th level can select this talent.
+
+_Vital Punishment (Ex)_: The vigilante gains Vital Strike as a bonus feat, though he does not have to meet the prerequisites for this feat. Once per round, before he makes an attack of opportunity, he can declare it to be a vital punishment. If the attack hits, the vigilante can apply the Vital Strike feat. The vigilante can apply the Improved Vital Strike or Greater Vital Strike feat as his vital punishment instead if he later gains those feats. A vigilante must be at least 6th level to select this talent.'''
+
+[[entry]]
+id = "ref/vigtalent/inspired-vigilante"
+anchor = "unshakable"
+print = "Starting at 3rd level, a vigilante adds his class level to the DC of any attempts to Intimidate him."
+
+[[entry]]
+id = "ref/vigtalent/inspired-vigilante"
+anchor = "startling-appearance"
+print = "At 5th level, a vigilante learns to use the element of surprise to his advantage, startling foes that are unaware of his presence. Whenever a vigilante with this ability attempts an attack against a foe that is completely unaware of the vigilante's presence (usually due to Stealth or invisibility), the foe is treated as flat-footed for the rest of the vigilante's turn (uncanny dodge or a similar ability prevents this effect unless the vigilante is at least 4 levels higher than the foe with uncanny dodge). The foe also takes a -4 penalty on attacks made against the vigilante until the start of the vigilante's next turn."
+
+[[entry]]
+id = "ref/vigtalent/inspired-vigilante"
+anchor = "frightening-appearance"
+print = '''
+At 11th level, whenever a vigilante with this ability makes an attack against a foe that is unaware of the vigilante's presence (see startling appearance above), the vigilante can, as a free action, attempt an Intimidate check to demoralize the target of his attack and any enemies within 10 feet who can see the attack. This check is attempted before the attack roll against the foe is made and resolved. The vigilante rolls only one Intimidate check and applies the result to all the targets. If the check succeeds against the target of the vigilante's attack, that foe is also frightened for 1 round, in addition to being shaken as normal, unless the foe succeeds at a Will save (DC = 10 + 1/2 the vigilante's class level + his Charisma modifier).
+
+Once a creature has been the target of this ability (either as the target of the attack or as a nearby creature, regardless of whether or not it was successful), it is immune to that vigilante's frightening appearance for 24 hours. This effect is in addition to the bonuses gained from the startling appearance ability. This is a mind-affecting fear effect.'''
+
+[[entry]]
+id = "ref/vigtalent/inspired-vigilante"
+anchor = "stunning-appearance"
+print = '''
+At 17th level, a vigilante can leave his foes unable to respond when he appears. Whenever a vigilante with this ability makes a successful attack against a foe that is unaware of the vigilante's presence (see startling appearance), the foe must make a successful Will save (DC = 10 + 1/2 the vigilante's class level + his Charisma modifier) or be stunned until the end of the vigilante's next turn. If the creature has more HD than the vigilante's class level, it receives a +4 circumstance bonus on this save.
+
+This ability is in addition to the effects of startling appearance and frightening appearance. Once a creature has been the target of this ability (regardless of whether or not the saving throw is successful), it is immune to that vigilante's stunning appearance for 24 hours. This is a mind-affecting fear effect.'''
+
+[[entry]]
+id = "ref/vigtalent/inspired-vigilante"
+anchor = "vengeance-strike"
+print = "At 20th level, a vigilante can study a target to strike more viciously. He can spend up to 5 standard actions, which all must be in consecutive rounds. On the following round, he can make a vengeance strike against the studied creature. The target must remain unaware of the vigilante's presence (or not see him as a threat) until the attack. For each round spent studying the target, the vigilante grants himself one of the following benefits on his vengeance strike: gain a +4 circumstance bonus on the attack roll, deal an additional 3d6 points of precision damage if he hits, or treat the attack roll as if it were 2 higher for the purposes of determining whether the attack hit or threatens a critical hit (to maximum effective roll of 20). Each round of study can be spent in a different way or the same way (they stack with each other), but each round of study must be allocated before the attack roll is made. If the vigilante is an avenger, he automatically confirms any critical hits threatened by his vengeance strike. If the vigilante is a stalker and would normally be able to add a special effect from a vigilante talent with an asterisk (\\*) to this attack, he can instead add two special effects to his vengeance strike."
+
+[[entry]]
+id = "ref/vigtalent/inspired-vigilante"
+anchor = "vigilante-favored-class-options"
+print = "The following favored class bonuses are available to vigilantes who come from the various core races. Each of these rewards replaces the normal reward for having a level in a favored class."
+
+[[entry]]
+id = "ref/vigtalent/inspired-vigilante"
+anchor = "dwarves"
+print = "Increase the bonus from social grace on Craft skills by +1/2."
+
+[[entry]]
+id = "ref/vigtalent/inspired-vigilante"
+anchor = "elves"
+print = "Gain +1/3 on all Acrobatics, Climb, and Stealth checks in forested areas."
+
+[[entry]]
+id = "ref/vigtalent/inspired-vigilante"
+anchor = "gnomes"
+print = "Gain +1/2 on Bluff checks when attempting to tell a lie that would be true from the point of view of the vigilante's current identity."
+
+[[entry]]
+id = "ref/vigtalent/inspired-vigilante"
+anchor = "half-elves"
+print = "Gain +1/2 on the Disguise bonus from seamless guise."
+
+[[entry]]
+id = "ref/vigtalent/inspired-vigilante"
+anchor = "half-orcs"
+print = "Add 1/2 to the DC increase from unshakable."
+
+[[entry]]
+id = "ref/vigtalent/inspired-vigilante"
+anchor = "half-lings"
+print = "Gain 1/6 of a new social talent."
+
+[[entry]]
+id = "ref/vigtalent/inspired-vigilante"
+anchor = "humans"
+print = "Gain +1/2 on the Disguise bonus provided by seamless guise."
+
+[[entry]]
+id = "ref/vigtalent/leave-an-opening"
+anchor = "leave-an-opening"
+print = "A stalker vigilante can apply only one talent marked with an asterisk (\\*) to a given hidden strike, and only when that hidden strike is dealt against a foe that is unaware of the stalker vigilante's presence (or who considers him an ally), unless otherwise noted.\n\nThe vigilante's hidden strike leaves an unbalancing opening in a foe's defenses, setting up the foe to be attacked again. At the beginning of the foe's next turn, if the vigilante threatens the foe, the foe provokes an attack of opportunity from the vigilante. Multiple attacks against the same foe don't create multiple attacks of opportunity in the same round (but attacks against several foes can cause each to provoke one attack of opportunity). Only a [stalker vigilante](ref/class/vigilante#stalker) can select this talent."
+
+[[entry]]
+id = "ref/vigtalent/lethal-grace"
+anchor = "lethal-grace"
+print = "The vigilante combines strength and speed into incredibly deadly attacks. He gains [Weapon Finesse](ref/feat/weapon-finesse) as a bonus feat, and if he already has the Weapon Finesse feat, he can immediately swap it for another feat for which he qualified at the level he chose Weapon Finesse. When using Weapon Finesse to make a melee attack using his Dexterity bonus on attack rolls and his Strength bonus on damage rolls, he also adds half his vigilante level on damage rolls. This bonus damage is not reduced or increased if the vigilante is wielding a weapon two-handed or in an off-hand."
+
+[[entry]]
+id = "ref/vigtalent/living-shield"
+anchor = "living-shield"
+print = "As an immediate action whenever the vigilante is grappling a creature and is targeted by an attack, he can attempt a combat maneuver check against the target of his [grapple](ref/rule/grapple) (this combat maneuver check doesn't count as a grapple combat maneuver check). If he succeeds, the creature he is grappling becomes the new target of the attack. If the check fails, the creature escapes the grapple and the vigilante is the target of the attack as normal. This ability must be used after the attack is declared against the vigilante, but before the attack is made and the results revealed."
+
+[[entry]]
+id = "ref/vigtalent/mad-rush"
+anchor = "mad-rush"
+print = "Whenever the vigilante [charges](ref/rule/charge), he can make a full attack. Whenever he uses this ability, he takes a -4 penalty to his AC until the start of his next turn (in addition to the AC penalty for charging). Only an [avenger vigilante](ref/class/vigilante#avenger) of at least 12th level can select this talent."
+
+[[entry]]
+id = "ref/vigtalent/mighty-ambush"
+anchor = "mighty-ambush"
+print = "A stalker vigilante can apply only one talent marked with an asterisk (\\*) to a given hidden strike, and only when that hidden strike is dealt against a foe that is unaware of the stalker vigilante's presence (or who considers him an ally), unless otherwise noted.\n\nOnce per round, when the vigilante succeeds at a hidden strike, he can instantly drop the damaged enemy [unconscious](ref/misc/unconscious) for 1d4 rounds. A successful Fortitude saving throw negates this effect (DC = 10 + 1/2 the vigilante's class level + the higher of the vigilante's Strength and Dexterity modifiers). Whether or not a creature's saving throw is successful, it can't be affected by that vigilante's mighty ambush again for 24 hours. Only a [stalker vigilante](ref/class/vigilante#stalker) of at least 10th level can select this talent."
+
+[[entry]]
+id = "ref/vigtalent/nothing-can-stop-me"
+anchor = "nothing-can-stop-me"
+print = "Once per round, while the vigilante is moving, he can make one attack as a free action against an unattended object in the way of his path, such as a door or table. If his attack deals enough damage to destroy the object, he can continue to move. If he doesn't destroy the object, his move ends. This attack is made as part of his move action and doesn't count against his attacks this round. If his attack inadvertently targets a creature (such as a [mimic](ref/monster/mimic)), it automatically misses and his move ends (although he can still attack the creature as normal at the end of his movement). Only an [avenger vigilante](ref/class/vigilante#avenger) can select this talent."
+
+[[entry]]
+id = "ref/vigtalent/perfect-fall"
+anchor = "perfect-fall"
+print = "As long as there is a wall or another surface within arm's reach, the vigilante never takes falling damage. Even if no surface is available, he takes only half damage from falling and lands on his feet."
+
+[[entry]]
+id = "ref/vigtalent/perfect-vulnerability"
+anchor = "perfect-vulnerability"
+print = '''
+As a standard action, the vigilante can cleverly strike his foe where that foe is weakest. This attack targets the foe's touch AC, and the foe is denied her Dexterity bonus against the attack. Once a foe has been the target of perfect vulnerability, she can't be the target of the same vigilante's perfect vulnerability for 24 hours.
+
+A [vigilante](ref/class/vigilante) must be at least 8th level to select this talent.'''
+
+[[entry]]
+id = "ref/vigtalent/pull-into-the-shadows"
+anchor = "pull-into-the-shadows"
+print = '''
+As a full-round action, the vigilante can move up to his speed toward an opponent who is unaware of his presence (or who considers him an ally) and make a single attack against that opponent.
+
+If the attack hits, he can attempt a [drag](ref/rule/drag) combat maneuver against that enemy with a +4 bonus and without provoking an attack of opportunity. If the drag succeeds, the vigilante doesn't need to have enough movement remaining to move with the enemy. The vigilante can't use this ability on a true ally or a willing target.'''
+
+[[entry]]
+id = "ref/vigtalent/returning-weapon"
+anchor = "returning-weapon"
+print = "The vigilante has a signature type of thrown weapon that returns to him. Choose a type of thrown weapon, such as throwing axes. Whenever the vigilante uses that type of weapon, it automatically returns as if it had the _[returning](ref/magic-enh/returning)_ property. At 14th level, if the vigilante chose a type of thrown weapon that is treated as ammunition, such as [shuriken](ref/eq-weapon/shuriken), and buys a set of 50 magic ammunition of that type, he automatically replenishes them at no cost and never runs out. If he chose a non-ammunition thrown weapon instead, he can apply the magical properties of the first weapon he throws in a round to any nonmagical thrown weapons of that type he throws that round. This allows him to make a full attack with the benefits of his magical thrown weapon, even though it only returns next round."
+
+[[entry]]
+id = "ref/vigtalent/rogue-talent"
+anchor = "rogue-talent"
+print = "The vigilante gains a single rogue talent (not an advanced talent) of his choice. If he selects a rogue talent marked with an asterisk (\\*), that talent applies to his hidden strikes instead of to sneak attacks, and the talent counts as a stalker vigilante talent with an asterisk (\\*) for the limitation of only one applying to a given hidden strike. Only a [stalker vigilante](ref/class/vigilante#stalker) can select this talent."
+
+[[entry]]
+id = "ref/vigtalent/rooftop-infiltrator"
+anchor = "rooftop-infiltrator"
+print = "The vigilante gains a climb speed equal to half his base speed, which increases to his full base speed when climbing a rope."
+
+[[entry]]
+id = "ref/vigtalent/shadows-sight"
+anchor = "shadow-s-sight"
+print = "The vigilante gains [low-light vision](ref/rule/low-light-vision) and [darkvision](ref/rule/darkvision) 60 feet. If he already had darkvision, its range increases by 30 feet."
+
+[[entry]]
+id = "ref/vigtalent/shadows-speed"
+anchor = "shadow-s-speed"
+print = "The vigilante's base speed increases by 10 feet. At 10th level, it increases by an additional 10 feet."
+
+[[entry]]
+id = "ref/vigtalent/shield-of-blades"
+anchor = "shield-of-blades"
+print = "The vigilante's wild attacks allow him to block his foes' counterattacks. He gains [Power Attack](ref/feat/power-attack) as a bonus feat. If he already has the Power Attack feat, he can immediately swap it for another feat for which he qualified at the level he chose Power Attack. When he takes an attack or full attack action, if he uses Power Attack on every attack to make melee attacks that use his Strength bonus on attack rolls, he gains a shield bonus to his AC until his next turn equal to his penalty on attack rolls from Power Attack. This bonus applies only if he actually takes that penalty on at least one of the attack rolls."
+
+[[entry]]
+id = "ref/vigtalent/shield-of-fury"
+anchor = "shield-of-fury"
+print = "The vigilante gains [Improved Shield Bash](ref/feat/improved-shield-bash) as a bonus feat. If he already has the Improved Shield Bash feat, he can immediately swap it for another feat for which he qualified at the level he chose Improved Shield Bash. In addition, if he is at least 6th level, he is treated as if he has the [Two-Weapon Fighting](ref/feat/two-weapon-fighting) feat as long as one of the weapons used is a shield. This allows him to take feats that require Two-Weapon Fighting as a prerequisite without meeting the Two-Weapon Fighting or Dexterity prerequisites, but these feats only apply while he is wielding a shield as one of his weapons (unless he takes Two-Weapon Fighting as normal, in which case this restriction is lifted)."
+
+[[entry]]
+id = "ref/vigtalent/signature-weapon"
+anchor = "signature-weapon"
+print = "The vigilante must select one type of weapon (such as longsword or crossbow) when he gains this talent. He gains [Weapon Focus](ref/feat/weapon-focus) as a bonus feat for his selected weapon type. If he already has the Weapon Focus feat with the selected weapon, he can immediately swap it for another feat for which he qualified at the level he chose Weapon Focus in the selected weapon. At 8th level, he also gains [Weapon Specialization](ref/feat/weapon-specialization) as a bonus feat for his selected weapon. He doesn't have to meet any of the prerequisites for these feats. Only an [avenger vigilante](ref/class/vigilante#avenger) can select this talent."
+
+[[entry]]
+id = "ref/vigtalent/silent-dispatch"
+anchor = "silent-dispatch"
+print = "When the vigilante ambushes an enemy or enemies unaware of his presence, he can attempt a Stealth check at a -5 penalty. The result indicates the DC of Perception checks to hear the vigilante's attacks until an opponent's first action, when the DC returns to the normal -10 for hearing battle. Other enemies present can still see the attack; this talent only prevents the sounds of battle from alerting others."
+
+[[entry]]
+id = "ref/vigtalent/sniper"
+anchor = "sniper"
+print = "The vigilante can deal hidden strike damage with ranged attacks at any distance, rather than within 30 feet. Only a [stalker vigilante](ref/class/vigilante#stalker) of at least 6th level can select this talent."
+
+[[entry]]
+id = "ref/vigtalent/stalker-sense"
+anchor = "stalker-sense"
+print = "The vigilante has a sense for danger. He always acts on the surprise round. At 6th level, he gains [uncanny dodge](ref/ability/uncanny-dodge), and at 12th level, he gains [improved uncanny dodge](ref/ability/improved-uncanny-dodge). Only a stalker can select this talent."
+
+[[entry]]
+id = "ref/vigtalent/strike-the-unseen"
+anchor = "strike-the-unseen"
+print = "The vigilante gains [Blind-Fight](ref/feat/blind-fight) as a bonus feat. He can also deal hidden strike damage against targets with total [concealment](ref/rule/concealment). At 10th level, he gains [Improved Blind-Fight](ref/feat/improved-blind-fight) as a bonus feat and can deal all types of precision damage against targets with concealment or total concealment. At 16th level, he gains [Greater Blind-Fight](ref/feat/greater-blind-fight) as a bonus feat. The vigilante does not have to meet the prerequisites for either Improved Blind-Fight or Greater Blind-Fight to gain these feats with this talent."
+
+[[entry]]
+id = "ref/vigtalent/sucker-punch"
+anchor = "sucker-punch"
+print = "Whenever the vigilante attacks a foe that is unaware of his presence (or who views him as an ally), and the attack deals nonlethal damage, the attack deals an additional 1d6 points of nonlethal damage. This additional damage increases by 1d6 at each of 6th, 12th, and 18th levels. Only an [avenger vigilante](ref/class/vigilante#avenger) can select this talent."
+
+[[entry]]
+id = "ref/vigtalent/sure-footed"
+anchor = "sure-footed"
+print = "The vigilante can move at full speed while using the Stealth and Acrobatics skills without penalty. At 8th level, he can move at full speed across [difficult terrain](ref/rule/terrain-and-obstacles)."
+
+[[entry]]
+id = "ref/vigtalent/surprise-strike"
+anchor = "surprise-strike"
+print = "The vigilante gains a greater advantage when his foe is unable to defend herself. Whenever he makes an attack against a foe that is denied her Dexterity bonus to AC, he gains a +1 bonus on his attack roll. This bonus increases to +2 at 8th level and to +3 at 16th level."
+
+[[entry]]
+id = "ref/vigtalent/throat-jab"
+anchor = "throat-jab"
+print = "A stalker vigilante can apply only one talent marked with an asterisk (\\*) to a given hidden strike, and only when that hidden strike is dealt against a foe that is unaware of the stalker vigilante's presence (or who considers him an ally), unless otherwise noted.\n\nThe vigilante's hidden strike jabs his opponent in the throat, preventing that opponent from speaking until the vigilante's next turn. (If the vigilante uses this ability on the surprise round, it lasts until the end of his first full turn after the surprise round.) This prevents the target from calling out for help, using spells with verbal components, or doing anything else that requires speaking. The target cannot be affected by that vigilante's throat jab again for 24 hours. Only a [stalker vigilante](ref/class/vigilante#stalker) of at least 4th level can select this talent."
+
+[[entry]]
+id = "ref/vigtalent/twisting-fear"
+anchor = "twisting-fear"
+print = "Whenever the vigilante causes an opponent to gain the [shaken](ref/misc/shaken), [frightened](ref/misc/frightened), or [panicked](ref/misc/panicked) condition, that opponent takes an amount of nonlethal damage equal to the vigilante's reduced hidden strike damage, as the stress wears upon its body. A creature can't take damage from twisting fear more than once per round. Panicked creatures that take damage from twisting fear are too winded even to scream as they flee in terror. Only a [stalker vigilante](ref/class/vigilante#stalker) can select this talent."
+
+[[entry]]
+id = "ref/vigtalent/unexpected-strike"
+anchor = "unexpected-strike"
+print = "The vigilante gains [Quick Draw](ref/feat/quick-draw) as a bonus feat. At 8th level, he can draw hidden weapons as a swift action (instead of a move action)."
+
+[[entry]]
+id = "ref/vigtalent/unkillable"
+anchor = "unkillable"
+print = "The vigilante gains [Diehard](ref/feat/diehard) as a bonus feat, though he does not have to meet the prerequisites for this feat. At 6th level, he doesn't lose hit points when he takes a standard action while [disabled](ref/misc/disabled). At 12th level, when he would die from hit point damage, he remains alive for 1 round before dying (and if his hit points rise above a negative amount equal to his Constitution score before that round is over, he doesn't die). At 18th level, he is no longer disabled at negative hit points and can take a full round's worth of actions. Only an [avenger vigilante](ref/class/vigilante#avenger) can select this talent."
+
+[[entry]]
+id = "ref/vigtalent/up-close-and-personal"
+anchor = "up-close-and-personal"
+print = "When the vigilante attempts an [Acrobatics](ref/skill/acrobatics) check to move through an opponent's space during a move action, he can attempt a single melee attack against that opponent as a swift action. If the Acrobatics check succeeds, this attack applies the vigilante's hidden strike damage as if the foe were unaware of the vigilante. Otherwise, the vigilante applies the hidden strike damage he would deal if the target were denied its Dexterity bonus to AC. Only a [stalker vigilante](ref/class/vigilante#stalker) of at least 4th level can select this talent."

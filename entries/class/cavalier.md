@@ -307,6 +307,12 @@ confirms a critical hit on a charge attack while mounted, the target is [stunned
 for 1d4 rounds. A Will save reduces this to [staggered](ref/misc/staggered) for 1d4 rounds. The DC
 is equal to 10 + the cavalier's base attack bonus.
 
+### Cavalier Orders {#cavalier-orders}
+
+The following orders represent the most common chosen by cavaliers. Members of these orders are not
+necessarily bound together, but some organizations do exist that are comprised of cavaliers that all
+belong to one specific order.
+
 ### Alternate Capstones
 
 **Source** Chronicle of Legends pg. 28\

@@ -15,12 +15,7 @@ kind = "class_option"
 group = "social-talent"
 +++
 
-**Social Grace (Ex)**
-
-**Choice:** The vigilante selects any one Intelligence-, Wisdom-, or Charisma-based skill other than
-Perception or Use Magic Device.
-
-**Passive:** Whenever the vigilante is in his social identity, he receives a +4 circumstance bonus
-on checks with the selected skill.
-
-**Repeat:** He can select another skill (with the same restrictions) to gain this bonus., 5, 4
+The vigilante selects any one Intelligence-, Wisdom-, or Charisma-based skill other than Perception
+or Use Magic Device. Whenever the vigilante is in his social identity, he receives a +4 circumstance
+bonus on checks with the selected skill. At 5th level and every 4 levels thereafter, he can select
+another skill (with the same restrictions) to gain this bonus.

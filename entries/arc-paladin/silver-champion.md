@@ -23,7 +23,7 @@ features = [
 ]
 trades = [
   { replaces = "Divine bond", feature = "divine-bond", by = ["drake-mount"] },
-  { replaces = "channel energy", feature = "channel-energy", by = ["drake-mount"] },
+  { replaces = "channel energy", feature = "channel-positive-energy", by = ["drake-mount"] },
   { replaces = "aura of justice", feature = "aura-of-justice", by = ["drake-mount"] },
   { replaces = "aura of righteousness", feature = "aura-of-righteousness", by = ["drake-mount"] },
   { alters = "Smite evil", feature = "smite-evil", by = ["drake-mount"] },

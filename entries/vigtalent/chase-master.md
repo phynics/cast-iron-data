@@ -13,11 +13,9 @@ page = "14"
 [fields]
 kind = "class_option"
 group = "vigilante-talent"
+ability_type = "Ex"
 +++
 
-**Chase Master (Ex)**
-
-**Flavor:** Whether he is the pursuer or the pursued, few can best a vigilante at a chase.
-
-**Passive:** He receives a bonus on all checks during [a chase](ref/rule/chases) equal to
-[half](ref/misc/fractions-and-rounding) his vigilante level or +4, whichever is greater.
+Whether he is the pursuer or the pursued, few can best a vigilante at [a chase](ref/rule/chases). He
+receives a bonus on all checks during a chase equal to [half](ref/misc/fractions-and-rounding) his
+vigilante level or +4, whichever is greater.

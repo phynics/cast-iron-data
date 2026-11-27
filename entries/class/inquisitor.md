@@ -390,8 +390,12 @@ been used, it cannot be used again for 1d4 rounds.
 
 An inquisitor who slips into corruption or changes to a prohibited alignment loses all spells and
 the judgment ability. She cannot thereafter gain levels as an inquisitor until she
-[atones](ref/spell/atonement). (Also see the [Heretic](ref/arc-inquisitor/heretic) archetype for
-another option.)
+[atones](ref/spell/atonement) (see the _atonement_ spell description).
+
+### Inquisitor Spells {#inquisitor-spells}
+
+Inquisitors gain access to the following spells. While most of these spells are found in the _Core
+Rulebook_, those marked with an asterisk (\*) appear in Chapter 5 of this book.
 
 ### Alternate Capstones
 

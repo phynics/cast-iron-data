@@ -24,6 +24,7 @@ quotes and long dashes folded to ASCII, white space collapsed, case folded.
 from __future__ import annotations
 
 import argparse
+import csv
 import hashlib
 import re
 import sys
@@ -64,11 +65,12 @@ def sha(s: str) -> str:
 
 
 def read_rows(path: Path) -> tuple[list[str], list[tuple[int, list[str]]]]:
-    lines = path.read_text(encoding="utf-8").split("\n")
+    lines = path.read_text(encoding="utf-8").splitlines()
     if lines and lines[-1] == "":
         lines.pop()
-    header = lines[0].split("\t") if lines else []
-    return header, [(i + 2, ln.split("\t")) for i, ln in enumerate(lines[1:])]
+    parse = lambda line: next(csv.reader([line], delimiter="\t"))
+    header = parse(lines[0]) if lines else []
+    return header, [(i + 2, parse(line)) for i, line in enumerate(lines[1:])]
 
 
 def entry_files(corpus: Path) -> dict[str, Path]:
@@ -165,6 +167,11 @@ def self_test() -> int:
     eq(norm_text("A [bull rush](ref/rule/bull-rush) of\n  _the_ **bard’s** – x"), "a bull rush of the bard's - x", "norm_text")
     eq(norm_text(r"Disarming Threat\*, an asterisk \[\*\] key"), norm_text("Disarming Threat*, an asterisk [*] key"), "norm_text drops Markdown escapes")
     eq(sha("a  b\n c") == sha("a b c"), True, "sha ignores white space runs")
+    with tempfile.TemporaryDirectory() as d:
+        tsv = Path(d) / "quoted.tsv"
+        tsv.write_text('entry\tvalue\nref/spell/example\t"{ class = ""Mesmerist"", level = 3 }"\n', encoding="utf-8")
+        _, parsed = read_rows(tsv)
+        eq(parsed[0][1][1], '{ class = "Mesmerist", level = 3 }', "TSV quoted TOML values are decoded")
     with tempfile.TemporaryDirectory() as d:
         root = Path(d)
         (root / "entries").mkdir()

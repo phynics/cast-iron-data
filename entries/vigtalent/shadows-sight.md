@@ -13,10 +13,9 @@ page = "15"
 [fields]
 kind = "class_option"
 group = "vigilante-talent"
+ability_type = "Ex"
 +++
 
-**Shadow's Sight (Ex)**
-
-**Ability:** The vigilante gains [low-light vision](ref/rule/low-light-vision) and
+The vigilante gains [low-light vision](ref/rule/low-light-vision) and
 [darkvision](ref/rule/darkvision) 60 feet. If he already had darkvision, its range increases by 30
 feet.

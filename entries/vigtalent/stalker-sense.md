@@ -13,12 +13,9 @@ page = "16"
 [fields]
 kind = "class_option"
 group = "vigilante-talent"
+ability_type = "Ex"
 +++
 
-**Stalker Sense (Ex)**
-
-**Ability:** The vigilante has a sense for danger. He always acts on the surprise round.
-
-**At 6th level,** he gains [uncanny dodge](ref/ability/uncanny-dodge).
-
-**At 12th level,** he gains [improved uncanny dodge](ref/ability/improved-uncanny-dodge).
+The vigilante has a sense for danger. He always acts on the surprise round. At 6th level, he gains
+[uncanny dodge](ref/ability/uncanny-dodge), and at 12th level, he gains
+[improved uncanny dodge](ref/ability/improved-uncanny-dodge). Only a stalker can select this talent.

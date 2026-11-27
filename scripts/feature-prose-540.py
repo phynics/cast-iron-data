@@ -672,6 +672,7 @@ def finish_text(s: str, vocab: set[str]) -> str:
     s = re.sub(r"(?<![\w)\]])–(?=\d)", "-", s)           # a minus sign
     s = re.sub(r"(?<=\w) – (?=\d)", " - ", s)             # a minus operator ("druid level – 2")
     s = fix_ligatures(s, vocab)
+    s = fix_glued(s, vocab)
     s = fix_hyphens(s, vocab)
     s = re.sub(r"\b([A-Z][a-z]+)- ([A-Z][a-z]+)\b", r"\1-\2", s)        # "Sahir-" at a line end and "Afiyun" at the start of the next: a compound of two capitalized words
     s = re.sub("(?<=[A-Za-z0-9)_" + I_CLOSE + "])\u2014 +(?=\\S)", "\u2014", s)   # a line that ends in an em dash joins the next one without a blank ("DR 5/\u2014 against" keeps its blank); an italic label ("3rd\u2014") too
@@ -693,7 +694,40 @@ def finish_text(s: str, vocab: set[str]) -> str:
 
 # Words that print sets with a ligature and that the book's own word list may hold only in the broken form ("f lickering", Advanced Player's Guide p. 39,
 # where the word list has the fragment "lickering" and no "flickering"): the join is made without the word list.
-LIGATURE_WORDS = {"flickering", "flicker", "flickers", "flickered"}
+LIGATURE_WORDS = {"flickering", "flicker", "flickers", "flickered", "halfling", "halflings"}
+
+
+CORPUS_LIGATURE_WORDS: list[set[str]] = []
+
+
+def corpus_ligature_words() -> set[str]:
+    """The words with "fi" or "fl" that the corpus has whole (a broken "f lanks" of one book is "flanks" where another entry has the word): read once from `entries/`."""
+    if not CORPUS_LIGATURE_WORDS:
+        words: set[str] = set()
+        pat = re.compile(r"\b[A-Za-z]*f[il][A-Za-z]*\b")
+        for path in (HERE.parent / "entries").rglob("*.md"):
+            words.update(w.lower() for w in pat.findall(path.read_text(encoding="utf-8")))
+        CORPUS_LIGATURE_WORDS.append(words)
+    return CORPUS_LIGATURE_WORDS[0]
+
+
+GLUE_HEAD = ("of", "to", "in", "if", "at", "as", "by", "on", "or", "an")
+GLUE_TAIL = {"its", "his", "her", "the", "them", "their", "this", "that", "these", "those", "any", "each", "she", "you", "your", "all", "both", "such"}       # three letters or more: "init." is no "in it"
+
+
+def fix_glued(s: str, vocab: set[str]) -> str:
+    """"ofits" for "of its": the text layer drops the blank at a line end (Core Rulebook, Detect Evil p. 60). A word that the book does not have, that is a short
+    word of the language and one of a few words that follow it, is two words. A word that the word list has ("anthem": the book prints it, an entry holds it) is a
+    word of the language and stays (review of #389, 2026-11-27)."""
+    def split(m: re.Match) -> str:
+        w = m.group(0)
+        if not w.islower() or w in vocab:
+            return w
+        for head in GLUE_HEAD:
+            if w.lower().startswith(head) and w[len(head):].lower() in GLUE_TAIL:
+                return w[:len(head)] + " " + w[len(head):]
+        return w
+    return re.sub(r"\b[A-Za-z]{4,9}\b", split, s)
 
 
 def fix_ligatures(s: str, vocab: set[str]) -> str:
@@ -707,7 +741,10 @@ def fix_ligatures(s: str, vocab: set[str]) -> str:
             out.append(s[i:])
             return "".join(out)
         a, b = m.group(1), m.group(2)
-        if (a + b).lower() in vocab or (a + b).lower() in LIGATURE_WORDS:
+        joined = (a + b).lower()
+        # a word that another entry has whole joins a broken one only when the left piece is no word of its own ("f lanks": "f"; not "of law", "of lightning", "belief in":
+        # the corpus has the glued errors "oflaw" and "beliefin" of its imports)
+        if joined in vocab or joined in LIGATURE_WORDS or (joined in corpus_ligature_words() and (len(a) < 2 or a.lower() not in vocab)):
             out += [s[i:m.start()], a + b]
             i = m.end()
         else:
@@ -1801,7 +1838,9 @@ def head_of_para(p: Para) -> str | None:
 # A source mark of print between a head and its colon: an asterisk or a dagger, with the bracket a superscript sometimes leaves ("(Su)*:").
 # Only a mark (`*`, `†`, `‡`) is a source mark: "(Su)" before a colon is the ability tag and stays.
 SOURCE_MARK_TAIL = re.compile(r"^\s*[\*†‡]+\s*(?=(?:\([^()]+\)\s*)?:)")
-SOURCE_MARK_END = re.compile(r"[\*†‡]+(?=\s*(?:\([^()]+\))?\s*$)")
+SOURCE_MARK_END = re.compile(r"[\*†‡]+(?=\s*(?:\((?:Ex|Su|Sp)(?:(?:, | or | and )(?:Ex|Su|Sp))*\))?\s*$)", re.I)
+SOURCE_MARK_BEFORE_TAG = re.compile(r"[\*†‡]+(?=\s*\((?:Ex|Su|Sp)\b)")
+TAG_BEFORE_COLON = re.compile(r"^\s*(\((?:Ex|Su|Sp)(?:(?:, | or | and )(?:Ex|Su|Sp))*\))(?=\s*:)", re.I)
 
 
 def split_print(section: list[Para], expected: list[str]) -> tuple[list[list], list[PrintFeature]]:
@@ -1818,9 +1857,9 @@ def split_print(section: list[Para], expected: list[str]) -> tuple[list[list], l
         if cand:
             head, rest, bold = cand
             marked = False
-            if re.search(r"[*\u2020\u2021]", head):
+            if SOURCE_MARK_BEFORE_TAG.search(head):
                 # a source mark inside the head, before its tag ("_Blinding Strike* (Ex)_", Advanced Class Guide p. 32)
-                head = re.sub(r"\s*[*\u2020\u2021]+", "", head).strip()
+                head = SOURCE_MARK_BEFORE_TAG.sub("", head).strip()
                 cand = (head, rest, bold)
                 marked = True
             if SOURCE_MARK_END.search(head):
@@ -6515,10 +6554,27 @@ def self_test() -> int:
     eq([(f.head, f.marked) for f in _ftm], [("Bomb (Su)", True), ("Claw (Ex)", False), ("Plain", True),
                                            ("Bleeding Attack (Ex)", True), ("Plain (Ex)", False)],
        "a source mark on a head is dropped and recorded; an ability tag is never a mark")
+    _opm, _ftm = split_print([_secm[0], Para("para", [("Trick* (Ex)", True, False), (": text", False, False)], "1", 0)], ["Trick (Ex)"])
+    eq([(f.head, f.marked) for f in _ftm], [("Trick (Ex)", True)], "an asterisk before a printed ability tag is a source mark and the tag stays")
+    _opm, _ftm = split_print([_secm[0], Para("para", [("Trick* (Extra)", True, False), (": text", False, False)], "1", 0)], ["Trick* (Extra)"])
+    eq([(f.head, f.marked) for f in _ftm], [("Trick* (Extra)", False)], "an asterisk before a non-ability parenthesis is not stripped as a source mark")
     _opm, _ftm = split_print([_secm[0], Para("para", [("Bomb (Su)", False, True), ("*: a mark outside the italic", False, False)], "1", 0)], ["Bomb (Su)"])
     eq([(f.head, f.marked) for f in _ftm], [("Bomb (Su)", True)], "a mark between the head and its colon is dropped too")
     _opm, _ftm = split_print([_secm[0], Para("para", [("Confounding Blades", False, True), ("* (Ex): text", False, False)], "1", 0)], ["Confounding Blades (Ex)"])
     eq([(f.head, f.marked) for f in _ftm], [("Confounding Blades (Ex)", True)], "a source mark before an ability tag is dropped without dropping the tag")
+    configure_book("ultimate-intrigue")
+    _optag, _fttag = split_print([_secm[0], Para("para", [("Returning Weapon", False, True), (" (Ex): text", False, False)], "1", 0)], ["Returning Weapon (Ex)"])
+    eq([(f.head, " ".join("".join(run[0] for run in para).strip() for para in f.paras)) for f in _fttag], [("Returning Weapon (Ex)", "text")], "a printed tag outside an italic head is included")
+    _optag_miss, _fttag_miss = split_print([_secm[0], Para("para", [("Returning Weapon", False, True), (" (Extra): text", False, False)], "1", 0)], ["Returning Weapon (Extra)"])
+    eq(_fttag_miss, [], "a non-ability parenthesis outside an italic head is not a tag")
+    _upclose = [Para("title", [("Vigilante Talents", True, False)], "17", 0),
+                Para("para", [("Up Close and Personal (Ex)", False, True), (": swift attack.", False, False)], "17", 0),
+                Para("para", [("Vital Punishment (Ex)", False, True), (": separate talent.", False, False)], "17", 0)]
+    _, _upclose_features = split_print(_upclose, ["Up Close and Personal (Ex)", "Vital Punishment (Ex)"])
+    eq([(f.head, " ".join("".join(run[0] for run in para).strip() for para in f.paras)) for f in _upclose_features],
+       [("Up Close and Personal (Ex)", "swift attack."), ("Vital Punishment (Ex)", "separate talent.")],
+       "Ultimate Intrigue p. 17: an unimported italic head ends the preceding option")
+    configure_book("ultimate-magic")
     # a link takes the mark it replaces ("vanish**" against "glide**"); an unlinked marked word keeps it
     _mr = [[("Choose ", False, False), ("vanish", False, True), ("** or ", False, False), ("glide", False, True), ("**.", False, False)]]
     _txt = print_md(PrintFeature("x", _mr, 1), [("vanish", "ref/spell/vanish")], set(), "e", keep_marks=True)[0]
@@ -7079,6 +7135,14 @@ def self_test() -> int:
     kinds2 = [(b.kind, b.size) for b in read_blocks(two, 1, 1)]
     SMALL_CAP_TITLES["on"] = False
     eq(kinds2, [("title", 36), ("title", 27), ("para", 0)], "a title of another size is a title of its own")
+    eq(fix_ligatures("the rogue f lanks and a half ling", set()), "the rogue flanks and a halfling", "a ligature word that another entry of the corpus has whole is joined (Rogue, Core Rulebook p. 68)")
+    eq(fix_glued("learning the strength ofits aura, and the atone ofthe soul", {"atone"}), "learning the strength of its aura, and the atone of the soul", "a word that the layer glued at a line end is two words (Core Rulebook p. 60)")
+    eq(fix_glued("the rousing anthem, init. and an ofits", {"anthem", "init"}), "the rousing anthem, init. and an of its", "a word of the word list stays (anthem), a two-letter tail is no glue (init)")
+    CORPUS_LIGATURE_WORDS[:] = [CORPUS_LIGATURE_WORDS[0] | {"oflaw", "oflightning", "beliefin", "ofleaders", "flanks"}] if CORPUS_LIGATURE_WORDS else [{"oflaw", "oflightning", "beliefin", "ofleaders", "flanks"}]
+    _v = {"of", "law", "lightning", "belief", "in", "leaders", "if", "lanks"}
+    eq(fix_ligatures("the rule of law, a bolt of lightning, a belief in it, the council of leaders", _v), "the rule of law, a bolt of lightning, a belief in it, the council of leaders",
+       "a glued import error of the corpus (oflaw, oflightning, beliefin, ofleaders) joins nothing")
+    eq(fix_ligatures("the rogue f lanks it", _v - {"lanks"}), "the rogue flanks it", "a broken word that another entry has whole still joins")
     eq(fix_ligatures("shielded by a f lickering aura", set()), "shielded by a flickering aura", "a ligature word that the book's word list lacks is joined (Judgment: Resistance)")
     eq(fix_ligatures("he gains 1 point of inf luence over him and f ighter", {"influence", "fighter"}), "he gains 1 point of influence over him and fighter",
        "a ligature pair after a word that ends in f")
@@ -7582,6 +7646,7 @@ IGNORED_SUBTITLES = {"ref/arc-bard/pitax-academy-of-grand-arts": ("focusedperfor
 # Italic heads that the print sets as the options of a feature and that the import lacks (an italic head is a head only when the entry expects its name)
 ITALIC_HEADS = {
     "ref/arc-summoner/wild-caller-hotw": ["Base Form", "Cactus (desert)", "Conifer (forest, mountain)", "Mushroom (swamp, underground)", "Tree (forest, jungle, swamp)"],
+    "ref/vigtalent/up-close-and-personal": ["Vital Punishment (Ex)"],  # Ultimate Intrigue p. 17: an unimported printed head ends this option
 }
 # ---- Batch A4: Pathfinder 139, 144 and 5, Horror Realms, Guide to the River Kingdoms, Heroes of the Wild, Familiar Folio (2) ----
 TRADE_REMOVALS["ref/arc-monk/scarred-monk"] = [("replaces", "the ability to spend ki points to do anything other than what's described below")]       # print: "Mortifications alter the ki pool and replace high jump, wholeness of body, abundant step, and empty body" (ruling 17)

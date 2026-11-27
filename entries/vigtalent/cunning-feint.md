@@ -13,12 +13,9 @@ page = "14"
 [fields]
 kind = "class_option"
 group = "vigilante-talent"
+ability_type = "Ex"
 +++
 
-**Cunning Feint (Ex)**
-
-**Ability:** The vigilante can [feint](ref/rule/feint) as a **move action** or in place of his first
-attack during a full attack.
-
-**At 8th level,** when the vigilante successfully feints, the opponent is denied its Dexterity bonus
-to AC against all attacks until the vigilante's next turn.
+The vigilante can [feint](ref/rule/feint) as a move action or in place of his first attack during a
+full attack. At 8th level, when the vigilante successfully feints, the opponent is denied its
+Dexterity bonus to AC against all attacks until the vigilante's next turn.

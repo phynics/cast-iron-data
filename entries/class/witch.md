@@ -292,6 +292,11 @@ with the young template, 87), octopus (octopus with the young template, 219), an
 |Scorpion|Master gains a +2 bonus on initiative rolls|
 |Spider|Master gains a +3 bonus on Climb checks|
 
+### Witch Spells {#witch-spells}
+
+Witches gain access to the following spells. While most of these spells are found in the _Core
+Rulebook_, those marked with an asterisk (\*) appear in Chapter 5 of this book.
+
 ### Alternate Capstones
 
 When a character reaches the 20th level of a class, she gains a powerful class feature or ability,

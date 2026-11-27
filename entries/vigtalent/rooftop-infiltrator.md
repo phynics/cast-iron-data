@@ -13,9 +13,8 @@ page = "15"
 [fields]
 kind = "class_option"
 group = "vigilante-talent"
+ability_type = "Ex"
 +++
 
-**Rooftop Infiltrator (Ex)**
-
-**Ability:** The vigilante gains a climb speed equal to half his base speed, which increases to his
-full base speed when climbing a rope.
+The vigilante gains a climb speed equal to half his base speed, which increases to his full base
+speed when climbing a rope.
