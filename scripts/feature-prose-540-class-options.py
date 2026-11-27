@@ -269,18 +269,22 @@ def prereq_links(body: str) -> list[tuple[str, str]]:
 
 
 def place_links(text: str, links: list[tuple[str, str]]) -> tuple[str, list[str]]:
-    """Ruling 60: the item of a `Prereq` row is a link in print's sentence ("the [claws](ref/evolution/claws) evolution"): the first plain
-    occurrence of the item's words, outside a link. The items found nowhere are returned (the `links_lost` column)."""
+    """Ruling 60: the item of a `Prereq` row is a link in print's prerequisite sentence ("must possess the [claws](ref/evolution/claws)
+    evolution to select this evolution"), whether or not the text links it earlier. The sentence is the one that has a prerequisite frame;
+    with none, the first plain occurrence outside a link. The items found nowhere are returned (the `links_lost` column)."""
     lost = []
     for name, target in links:
         spans = [m.span() for m in re.finditer(r"\[[^\]]*\]\([^)]*\)", text)]
-        if any(f"]({target})" in text[a:b] for a, b in spans):
-            continue
-        hit = next((m for m in re.finditer(r"(?<![\w\[])" + re.escape(name) + r"(?![\w\]])", text, re.I)
-                    if not any(a <= m.start() < b for a, b in spans)), None)
+        word = re.compile(r"(?<![\w\[])" + re.escape(name) + r"(?![\w\]])", re.I)
+        plain = [m for m in word.finditer(text) if not any(a <= m.start() < b for a, b in spans)]
+        sentences = [m.span() for m in fp.ITEM_SENTENCE.finditer(text) if fp.ITEM_FRAME.search(m.group(0))]
+        in_frame = [m for m in plain if any(a <= m.start() < b for a, b in sentences)]
+        if any(f"]({target})" in text[a:b] for a, b in sentences):
+            continue                                                            # the prerequisite sentence links the item already
+        hit = (in_frame or plain or [None])[0]
         if hit:
             text = text[:hit.start()] + f"[{hit.group(0)}]({target})" + text[hit.end():]
-        else:
+        elif not any(f"]({target})" in text[a:b] for a, b in spans):
             lost.append(name)
     return text, lost
 
@@ -849,6 +853,9 @@ def self_test() -> int:
     eq((f4, "####" in body4, "### Special" in body4), ([], False, True), "one power under a heading is the single-power form: no head, no features")
     eq(place_links("The eidolon must have the claws evolution.", [("claws", "ref/evolution/claws")]),
        ("The eidolon must have the [claws](ref/evolution/claws) evolution.", []), "ruling 60: the item is linked in print's sentence")
+    eq(place_links("It has [claws](ref/evolution/claws). The eidolon must possess the claws evolution to select this evolution.", [("claws", "ref/evolution/claws")]),
+       ("It has [claws](ref/evolution/claws). The eidolon must possess the [claws](ref/evolution/claws) evolution to select this evolution.", []),
+       "ruling 60: the prerequisite sentence links the item even when the text links it earlier")
     eq(place_links("It has [claws](ref/evolution/claws).", [("claws", "ref/evolution/claws"), ("tail", "ref/evolution/tail")]),
        ("It has [claws](ref/evolution/claws).", ["tail"]), "ruling 60: an item that stands nowhere is reported")
     for line in bad:
