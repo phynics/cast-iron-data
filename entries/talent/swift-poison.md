@@ -13,9 +13,8 @@ page = "131"
 [fields]
 kind = "class_option"
 group = "rogue-talent"
+ability_type = "Ex"
 +++
 
-**Swift Poison (Ex)**
-
-**Ability:** A rogue with this talent can apply poison to a weapon as a **move action**, instead of
-a **standard action**.
+A rogue with this talent can apply poison to a weapon as a move action, instead of a standard
+action.

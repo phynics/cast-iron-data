@@ -15,10 +15,7 @@ kind = "class_option"
 group = "alchemist-discovery"
 +++
 
-**Stink Bomb**
-
-**Ability:** The effects of the smoke created by an alchemist's bomb can duplicate the effects of
-[stinking cloud](ref/spell/stinking-cloud) instead of [fog cloud](ref/spell/fog-cloud), filling an
-area equal to twice the bomb's splash radius for 1 round.
-
-**Prereq:** [Smoke bomb](ref/discovery/smoke-bomb)
+The effects of the smoke created by an alchemist's bomb can duplicate the effects of
+_[stinking cloud](ref/spell/stinking-cloud)_ instead of _[fog cloud](ref/spell/fog-cloud)_, filling
+an area equal to twice the bomb's splash radius for 1 round. An alchemist must possess the
+[smoke bomb](ref/discovery/smoke-bomb) discovery before selecting this discovery.

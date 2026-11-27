@@ -15,7 +15,5 @@ kind = "class_option"
 group = "alchemist-discovery"
 +++
 
-**Enhance Potion**
-
-**Ability:** A number of times per day equal to his Intelligence modifier, the alchemist can cause
-any potion he drinks to function at a caster level equal to his class level.
+A number of times per day equal to his Intelligence modifier, the alchemist can cause any potion he
+drinks to function at a caster level equal to his class level.

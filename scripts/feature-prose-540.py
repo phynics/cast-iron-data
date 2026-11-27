@@ -2451,6 +2451,8 @@ def _compare_feature(draft: Draft, print_text: str, drop: set[str], title_tokens
         if expanded[0] == "equal":
             forget_p = set(expanded[1])
             p_clean = strip_progression(p_clean)
+            if LOOSE_ITEMS["on"]:      # a class option: the corpus sentence of the fraction goes whole ("This morale bonus is equal to 1 + one-fourth of his level"), print's progression sentence has gone too
+                d_clean = " ".join(s for s in re.split(r"(?<=[.!?])\s+", d_clean) if not CORPUS_FRACTION.search(s))
             d_clean = CORPUS_FRACTION.sub(" ", d_clean)
             info.append("rule 8: the printed progression and the corpus's fraction of the level give the same values; print's wording taken")
         else:
@@ -6749,6 +6751,9 @@ def self_test() -> int:
     eq(prog_case(bt, bp.format(1)), "print", "ruling 8, class options: 1 + one-fourth of the level is +1 for every four levels")
     eq(prog_case(bt, bp.format(2)), "hold", "ruling 8, class options: +2 for every four levels is not one-fourth")
     eq(cmp_rule("values", ward, wp.format(1))[1], "hold", "ruling 8, class options: the archetype compare is untouched")
+    ch = "**Details:** Whenever the cavalier issues a challenge, he receives a morale bonus on attack rolls. This morale bonus is equal to 1 + one-fourth of his cavalier level.\n"
+    chp = "Whenever the cavalier issues a challenge, he receives a +1 morale bonus on attack rolls. This bonus increases by +{} for every four levels the cavalier possesses."
+    eq((prog_case(ch, chp.format(1)), prog_case(ch, chp.format(2))), ("print", "hold"), "ruling 8, class options: the orders' Challenge, 1 + one-fourth of the level is +1 for every four levels")
     gr = "**Ability:** An eidolon grapples. Pick bite, claw, or slam attacks.\n\n**Prereq:** Must have a bite, claw, or slam attack\n"
     eq(prog_case(gr, "An eidolon grapples. Pick bite, claw, or slam attacks."), "print", "ruling 60: a prerequisite row that restates words print has goes")
     eq(prog_case(gr, "An eidolon grapples. Pick bite or claw attacks."), "hold", "ruling 60: a row with a word that print lacks stays")

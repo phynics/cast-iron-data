@@ -15,7 +15,5 @@ kind = "class_option"
 group = "alchemist-discovery"
 +++
 
-**Awakened Intellect**
-
-**Passive:** The alchemist's constant exposure to strange chemicals has expanded his mind. His
-Intelligence score permanently increases by 2 points.
+The alchemist's constant exposure to strange chemicals has expanded his mind. His Intelligence score
+permanently increases by 2 points.

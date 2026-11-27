@@ -13,11 +13,9 @@ page = "131"
 [fields]
 kind = "class_option"
 group = "rogue-talent"
+ability_type = "Ex"
 +++
 
-**Deadly Sneak (Ex)**
-
-**Passive:** Whenever a rogue with this talent uses the _powerful sneak_ rogue talent, she treats
-all 1s and 2s on the sneak attack damage dice as 3s.
-
-**Prereq:** [Powerful sneak](ref/talent/powerful-sneak)
+Whenever a rogue with this talent uses the [powerful sneak](ref/talent/powerful-sneak) rogue talent,
+she treats all 1s and 2s on the sneak attack damage dice as 3s. A rogue must have the
+[powerful sneak](ref/talent/powerful-sneak) rogue talent before choosing this talent.

@@ -13,9 +13,8 @@ page = "131"
 [fields]
 kind = "class_option"
 group = "rogue-talent"
+ability_type = "Ex"
 +++
 
-**Entanglement of Blades (Ex)**
-
-**Ability:** When a rogue with this talent hits a creature with a melee attack that deals sneak
-attack damage, the target cannot take a 5-foot step until the beginning of the rogue's next turn.
+When a rogue with this talent hits a creature with a melee attack that deals sneak attack damage,
+the target cannot take a 5-foot step until the beginning of the rogue's next turn.

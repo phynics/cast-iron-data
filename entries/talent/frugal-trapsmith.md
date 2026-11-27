@@ -13,9 +13,7 @@ page = "132"
 [fields]
 kind = "class_option"
 group = "rogue-talent"
+ability_type = "Ex"
 +++
 
-**Frugal Trapsmith (Ex)**
-
-**Ability:** When a rogue with this talent constructs a mechanical trap, she only pays 75% of the
-normal cost.
+When a rogue with this talent constructs a mechanical trap, she only pays 75% of the normal cost.

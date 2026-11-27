@@ -15,17 +15,12 @@ kind = "class_option"
 group = "alchemist-discovery"
 +++
 
-**Elixir of Life**
-
-**Ability:** Once per day, the alchemist can brew an _elixir of life._ This special concoction costs
-25,000 gp to create and takes 1 hour of work. An _elixir of life,_ when administered by the
-alchemist who brewed it, restores life to a dead creature as per the spell
-[true resurrection](ref/spell/true-resurrection).
-
-Alternatively, the alchemist himself may drink the _elixir of life,_ after which point he is
-immediately targeted with a [resurrection](ref/spell/resurrection) spell the next time he is killed.
-Used in this manner, the effects of an _elixir of life_ persist only for a number of days equal to
-the alchemist's Intelligence modifier; if he does not die before that time expires, the effects of
-the _elixir of life_ end.
-
-**Prereq:** 16th-level alchemist
+Once per day, the alchemist can brew an elixir of life. This special concoction costs 25,000 gp to
+create and takes 1 hour of work. An elixir of life, when administered by the alchemist who brewed
+it, restores life to a dead creature as per the spell
+_[true resurrection](ref/spell/true-resurrection)_. Alternatively, the alchemist himself may drink
+the elixir of life, after which point he is immediately targeted with a
+_[resurrection](ref/spell/resurrection)_ spell the next time he is killed. Used in this manner, the
+effects of an elixir of life persist only for a number of days equal to the alchemist's Intelligence
+modifier; if he does not die before that time expires, the effects of the elixir of life end. An
+alchemist must be at least 16th level before selecting this discovery.

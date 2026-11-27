@@ -15,10 +15,7 @@ kind = "class_option"
 group = "alchemist-discovery"
 +++
 
-**True Mutagen**
-
-**Passive:** The alchemist's _mutagen_ now grants a +8 natural armor bonus and a +8 alchemical bonus
-to Strength, Dexterity, and Constitution. The alchemist takes a -2 penalty to his Intelligence,
-Wisdom, and Charisma as long as the _mutagen_ persists.
-
-**Prereq:** [Grand mutagen](ref/discovery/grand-mutagen)
+The alchemist's mutagen now grants a +8 natural armor bonus and a +8 alchemical bonus to Strength,
+Dexterity, and Constitution. The alchemist takes a -2 penalty to his Intelligence, Wisdom, and
+Charisma as long as the mutagen persists (see Mutagen). An alchemist must possess the
+[grand mutagen](ref/discovery/grand-mutagen) discovery before selecting this discovery.

@@ -13,11 +13,10 @@ page = "132"
 [fields]
 kind = "class_option"
 group = "rogue-talent"
+ability_type = "Ex"
 +++
 
-**Redirect Attack (Ex)**
-
-**Ability:** Once per day, when a rogue with this talent is hit with a melee attack, she can
-redirect the attack to strike at an adjacent creature with a **free action**. The creature targeted
-must be within melee reach of the attack that hit the rogue, and the creature that made the attack
-against the rogue must make a new attack roll against the new target.
+Once per day, when a rogue with this talent is hit with a melee attack, she can redirect the attack
+to strike at an adjacent creature with a free action. The creature targeted must be within melee
+reach of the attack that hit the rogue, and the creature that made the attack against the rogue must
+make a new attack roll against the new target.

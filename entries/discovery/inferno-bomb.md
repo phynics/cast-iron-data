@@ -15,10 +15,8 @@ kind = "class_option"
 group = "alchemist-discovery"
 +++
 
-**Inferno Bomb**
-
-**Ability:** The effects of the smoke created by an alchemist's bomb duplicate the effects of
-[incendiary cloud](ref/spell/incendiary-cloud) instead of [fog cloud](ref/spell/fog-cloud), filling
-an area equal to twice the bomb's splash radius for 1 round per level.
-
-**Prereq:** 16th-level alchemist, [smoke bomb](ref/discovery/smoke-bomb)
+The effects of the smoke created by an alchemist's bomb duplicate the effects of
+_[incendiary cloud](ref/spell/incendiary-cloud)_ instead of _[fog cloud](ref/spell/fog-cloud),_
+filling an area equal to twice the bomb's splash radius for 1 round per level. An alchemist must be
+at least 16th level and must possess the [smoke bomb](ref/discovery/smoke-bomb) discovery before
+selecting this discovery.

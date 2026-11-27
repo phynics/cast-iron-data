@@ -13,10 +13,9 @@ page = "131"
 [fields]
 kind = "class_option"
 group = "rogue-talent"
+ability_type = "Ex"
 +++
 
-**Sniper's Eye (Ex)**
-
-**Ability:** A rogue with this talent can apply her sneak attack damage on ranged attacks targeting
-foes within 30 feet that benefit from [concealment](ref/rule/concealment). Foes with total
-concealment are still immune.
+A rogue with this talent can apply her sneak attack damage on ranged attacks targeting foes within
+30 feet that benefit from [concealment](ref/rule/concealment). Foes with total concealment are still
+immune.

@@ -13,9 +13,8 @@ page = "130"
 [fields]
 kind = "class_option"
 group = "rogue-talent"
+ability_type = "Ex"
 +++
 
-**Follow Clues (Ex)**
-
-**Ability:** A rogue with this talent can use [Perception](ref/skill/perception) to follow tracks as
-per the [Survival](ref/skill/survival) skill.
+A rogue with this talent can use [Perception](ref/skill/perception) to follow tracks as per the
+[Survival](ref/skill/survival) skill.

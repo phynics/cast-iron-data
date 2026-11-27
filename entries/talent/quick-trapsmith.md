@@ -13,11 +13,10 @@ page = "131"
 [fields]
 kind = "class_option"
 group = "rogue-talent"
+ability_type = "Ex"
 +++
 
-**Quick Trapsmith (Ex)**
-
-**Full-round:** A rogue with this talent can set a simple trap with a CR no greater than 1/2 her
-rogue level. To do this, she must purchase the components, spend the required time constructing the
-trap in advance, and have its components at hand. The type of trap that can be constructed in this
-way is subject to GM discretion.
+As a full-round action, a rogue with this talent can set a simple trap with a CR no greater than 1/2
+her rogue level. To do this, she must purchase the components, spend the required time constructing
+the trap in advance, and have its components at hand. The type of trap that can be constructed in
+this way is subject to GM discretion.
