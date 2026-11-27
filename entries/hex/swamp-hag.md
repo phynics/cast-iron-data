@@ -13,10 +13,9 @@ page = "82"
 [fields]
 kind = "class_option"
 group = "witch-hex"
+ability_type = "Sp"
 +++
 
-**Swamp Hag (Sp)**
-
-**Passive:** While traveling through swamps, mires, bogs, and similar terrain, the witch leaves no
-trail and cannot be tracked, as the [trackless step](ref/ability/trackless-step) druid ability. The
-witch can walk through mud and even quicksand as if it were normal ground.
+While traveling through swamps, mires, bogs, and similar terrain, the witch leaves no trail and
+cannot be tracked, as the [trackless step](ref/ability/trackless-step) druid ability. The witch can
+walk through mud and even quicksand as if it were normal ground.

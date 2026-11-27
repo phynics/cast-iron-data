@@ -13,28 +13,21 @@ page = "76"
 [fields]
 kind = "class_option"
 group = "summoner-evolution"
+ability_type = "Sp"
 +++
 
-**Basic Magic (Sp)**
+1-Point Evolutions: The following evolutions cost 1 point from the eidolon's evolution pool.
 
-**Flavor:** An eidolon learns to cast a basic spell as a
-[spell-like ability](ref/umr/spell-like-abilities).
-
-**Choice:** Select one spell from the following list: [acid splash](ref/spell/acid-splash),
-[dancing lights](ref/spell/dancing-lights), [daze](ref/spell/daze),
-[detect magic](ref/spell/detect-magic), [flare](ref/spell/flare),
-[ghost sound](ref/spell/ghost-sound), [light](ref/spell/light), [mage hand](ref/spell/mage-hand),
-[ray of frost](ref/spell/ray-of-frost), [stabilize](ref/spell/stabilize), or
-[touch of fatigue](ref/spell/touch-of-fatigue).
-
-**Ability:** This spell can be cast once per day as a
-[spell-like ability](ref/umr/spell-like-abilities). The caster level for this evolution is equal to
-the eidolon's Hit Dice. The save DC for this spell is 10 + the eidolon's Charisma modifier.
-
-**At 4th level,** this spell can be cast three times per day by spending 2 additional evolution
-points.
-
-**Prereq:** Eidolon has Charisma 10+
-
-**Special:** This evolution can be selected more than once. Each time an eidolon selects this
+An eidolon learns to cast a basic spell as a [spell-like ability](ref/umr/spell-like-abilities).
+Select one spell from the following list: _[acid splash](ref/spell/acid-splash)_,
+_[dancing lights](ref/spell/dancing-lights)_, _[daze](ref/spell/daze)_,
+_[detect magic](ref/spell/detect-magic)_, _[flare](ref/spell/flare)_,
+_[ghost sound](ref/spell/ghost-sound)_, _[light](ref/spell/light)_,
+_[mage hand](ref/spell/mage-hand)_, _[ray of frost](ref/spell/ray-of-frost)_,
+_[stabilize](ref/spell/stabilize)_, or _[touch of fatigue](ref/spell/touch-of-fatigue)_. This spell
+can be cast once per day as a [spell-like ability](ref/umr/spell-like-abilities). At 4th level, this
+spell can be cast three times per day by spending 2 additional evolution points. The caster level
+for this evolution is equal to the eidolon's Hit Dice. The save DC for this spell is 10 + the
+eidolon's Charisma modifier. The eidolon must have a Charisma score of at least 10 to take this
+evolution. This evolution can be selected more than once. Each time an eidolon selects this
 evolution, it applies to a new spell.

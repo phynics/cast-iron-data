@@ -13,11 +13,9 @@ page = "12"
 [fields]
 kind = "class_option"
 group = "magus-arcana"
+ability_type = "Su"
 +++
 
-**Quickened Magic (Su)**
-
-**Ability:** The magus can cast one spell per day as if it were modified by the
-[Quicken Spell](ref/feat/quicken-spell) feat. This does not increase the level of the spell.
-
-**Prereq:** 15th-level magus
+The magus can cast one spell per day as if it were modified by the
+[Quicken Spell](ref/feat/quicken-spell) feat. This does not increase the level of the spell. The
+magus must be at least 15th level before selecting this magus arcana.

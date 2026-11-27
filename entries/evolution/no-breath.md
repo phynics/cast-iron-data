@@ -13,13 +13,11 @@ page = "78"
 [fields]
 kind = "class_option"
 group = "summoner-evolution"
+ability_type = "Ex"
 +++
 
-**No Breath (Ex)**
+4-Point Evolutions: The following evolutions cost 4 points from the eidolon's evolution pool.
 
-**Flavor:** An eidolon no longer needs to breathe.
-
-**Ability:** The eidolon does not breathe, and is immune to effects that require breathing (such as
-inhaled poison). This does not give immunity to cloud or gas attacks that do not require breathing.
-
-**Prereq:** 11th-level summoner
+An eidolon no longer needs to breathe. The eidolon does not breathe, and is immune to effects that
+require breathing (such as inhaled poison). This does not give immunity to cloud or gas attacks that
+do not require breathing. The summoner must be at least 11th level before selecting this evolution.

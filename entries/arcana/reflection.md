@@ -13,14 +13,12 @@ page = "12"
 [fields]
 kind = "class_option"
 group = "magus-arcana"
+ability_type = "Su"
 +++
 
-**Reflection (Su)**
-
-**Immediate:** The magus can sacrifice 1 or more points from his arcane pool to reflect a spell back
-at its caster. This functions as [spell turning](ref/spell/spell-turning), but only if the targeted
-spell is of a level equal to or lower than the number of points expended. If insufficient points are
-expended, they instead grant an insight bonus on any saving throws allowed by the spell, equal to
-the number of points spent.
-
-**Prereq:** 15th-level magus
+The magus can sacrifice 1 or more points from his arcane pool as an immediate action to reflect a
+spell back at its caster. This functions as _[spell turning](ref/spell/spell-turning)_, but only if
+the targeted spell is of a level equal to or lower than the number of points expended. If
+insufficient points are expended, they instead grant an insight bonus on any saving throws allowed
+by the spell, equal to the number of points spent. The magus must be at least 15th level before
+selecting this magus arcana.

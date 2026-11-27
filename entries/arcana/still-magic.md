@@ -13,10 +13,9 @@ page = "12"
 [fields]
 kind = "class_option"
 group = "magus-arcana"
+ability_type = "Su"
 +++
 
-**Still Magic (Su)**
-
-**Ability:** The magus can cast one spell per day as if it were modified by the
+The magus can cast one spell per day as if it were modified by the
 [Still Spell](ref/feat/still-spell) feat. This does not increase the casting time or the level of
 the spell.

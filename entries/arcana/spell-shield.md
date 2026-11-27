@@ -13,9 +13,8 @@ page = "12"
 [fields]
 kind = "class_option"
 group = "magus-arcana"
+ability_type = "Su"
 +++
 
-**Spell Shield (Su)**
-
-**Immediate:** The magus can expend a point from his arcane pool to grant himself a shield bonus to
-AC equal to his Intelligence bonus until the end of his next turn.
+The magus can expend a point from his arcane pool as an immediate action to grant himself a shield
+bonus to AC equal to his Intelligence bonus until the end of his next turn.

@@ -13,14 +13,12 @@ page = "81"
 [fields]
 kind = "class_option"
 group = "witch-hex"
+ability_type = "Sp"
 +++
 
-**Poison Steep (Sp)**
-
-**Ability:** The witch can use her _cauldron_ to brew a foul toxin in which she can steep fruits and
-other delicious edibles, transforming them so that when eaten, they have the same effect as a
-[poison](ref/spell/poison) spell. Brewing the toxin and then steeping the food takes 1 hour in
-total; steeping can affect up to 1 pound of food. The food is poisoned for 24 hours, and the poison
-cannot be transferred to other objects. The food tastes normal, but magic detects it as poisonous.
-
-**Prereq:** [Cauldron](ref/hex/cauldron)
+The witch can use her [cauldron](ref/hex/cauldron) to brew a foul toxin in which she can steep
+fruits and other delicious edibles, transforming them so that when eaten, they have the same effect
+as a _[poison](ref/spell/poison)_ spell. Brewing the toxin and then steeping the food takes 1 hour
+in total; steeping can affect up to 1 pound of food. The food is poisoned for 24 hours, and the
+poison cannot be transferred to other objects. The food tastes normal, but magic detects it as
+poisonous. The witch must have the [cauldron](ref/hex/cauldron) hex to select this hex.

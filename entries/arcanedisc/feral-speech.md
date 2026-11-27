@@ -13,16 +13,13 @@ page = "86"
 [fields]
 kind = "class_option"
 group = "arcane-discovery"
+ability_type = "Su"
 +++
 
-**Feral Speech (Su)**
-
-**Ability:** You gain the ability to speak with and understand the response of any animal as if
-using [speak with animals](ref/spell/speak-with-animals), though each time you speak to animals, you
+You gain the ability to speak with and understand the response of any animal as if using
+_[speak with animals](ref/spell/speak-with-animals)_, though each time you speak to animals, you
 must decide to communicate with either amphibians, birds, fish, mammals, or reptiles, and can only
 speak to and understand animals of that type. You can make yourself understood as far as your voice
-carries. This discovery does not predispose any animal addressed toward you in any way.
-
-**At 12th level,** you can also use this ability to communicate with vermin.
-
-**Prereq:** 5th-level wizard
+carries. This discovery does not predispose any animal addressed toward you in any way. When you
+reach 12th level, you can also use this ability to communicate with vermin. You must be at least a
+5th-level wizard to select this discovery.

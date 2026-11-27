@@ -13,27 +13,18 @@ page = "82"
 [fields]
 kind = "class_option"
 group = "witch-hex"
+ability_type = "Su"
 +++
 
-**Cook People (Su)**
-
-**Flavor:** The witch can create fabulous spells by cooking an intelligent humanoid creature in her
-cauldron, either alive or dead.
-
-**Ability:** Using this hex creates one meal or serving of food of the witch's choice, typically a
-delicious stew or a dough suitable for cookies, pastries, or other desserts. Cooking the victim
-takes 1 hour.
-
-Eating the food provides one of the following benefits for 1 hour:
-[age resistance](ref/spell/age-resistance), [bear's endurance](ref/spell/bears-endurance),
-[bull's strength](ref/spell/bulls-strength), [cat's grace](ref/spell/cats-grace),
-[eagle's splendor](ref/spell/eagles-splendor), [fox's cunning](ref/spell/foxs-cunning),
-[neutralize poison](ref/spell/neutralize-poison) (instantaneous)
-[owl's wisdom](ref/spell/owls-wisdom), [remove disease](ref/spell/remove-disease) (instantaneous).
-
-Alternatively, the witch can shape the dough into a Small, human-like creature, animating it as a
-[homunculus](ref/monster/homunculus) for 1 hour.
-
-**Prereq:** [Cauldron](ref/hex/cauldron)
-
-**Special:** Using this hex or knowingly eating its food is an evil act.
+The witch can create fabulous spells by cooking an intelligent humanoid creature in her
+[cauldron](ref/hex/cauldron), either alive or dead. Using this hex creates one meal or serving of
+food of the witch's choice, typically a delicious stew or a dough suitable for cookies, pastries, or
+other desserts. Cooking the victim takes 1 hour. Eating the food provides one of the following
+benefits for 1 hour: _[age resistance](ref/spell/age-resistance)_\*,
+_[bear's endurance](ref/spell/bears-endurance)_, _[bull's strength](ref/spell/bulls-strength)_,
+_[cat's grace](ref/spell/cats-grace)_, _[eagle's splendor](ref/spell/eagles-splendor)_,
+_[fox's cunning](ref/spell/foxs-cunning)_, _[neutralize poison](ref/spell/neutralize-poison)_
+(instantaneous) _owl's wisdom, remove disease_ (instantaneous). Alternatively, the witch can shape
+the dough into a Small, humanlike creature, animating it as a [homunculus](ref/monster/homunculus)
+for 1 hour. The witch must have the [cauldron](ref/hex/cauldron) hex to select this hex. Using this
+hex or knowingly eating its food is an evil act.

@@ -15,9 +15,6 @@ kind = "class_option"
 group = "alchemist-discovery"
 +++
 
-**Mutagen**
-
-**Ability:** This discovery gives the alchemist the _mutagen_ class ability.
-
-**Special:** This discovery exists so alchemist archetypes who have variant _mutagens,_ such as the
-[mindchemist](ref/arc-alchemist/mindchemist), can learn how to make standard _mutagens._
+This discovery gives the alchemist the mutagen class ability, as described in the _Advanced Player's
+Guide_. (This discovery exists so alchemist archetypes who have variant mutagens, such as the
+[mindchemist](ref/arc-alchemist/mindchemist), can learn how to make standard mutagens.)

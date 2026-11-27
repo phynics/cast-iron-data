@@ -13,12 +13,9 @@ page = "11"
 [fields]
 kind = "class_option"
 group = "magus-arcana"
+ability_type = "Su"
 +++
 
-**Empowered Magic (Su)**
-
-**Ability:** The magus can cast one spell per day as if it were modified by the
+The magus can cast one spell per day as if it were modified by the
 [Empower Spell](ref/feat/empower-spell) feat. This does not increase the casting time or the level
-of the spell.
-
-**Prereq:** 6th-level magus
+of the spell. The magus must be at least 6th level before selecting this magus arcana.

@@ -15,15 +15,11 @@ kind = "class_option"
 group = "alchemist-discovery"
 +++
 
-**Healing Touch**
-
-**Flavor:** The alchemist gains the ability to heal other creatures.
-
-**Standard:** The alchemist may touch a creature and apply 1 round's effect of his _spontaneous
-healing_ discovery to that creature; this counts toward his _spontaneous healing_ limit for the day.
-
-**Prereq:** 6th-level alchemist, [spontaneous healing](ref/discovery/spontaneous-healing)
-
-**Special:** The alchemist's daily limit for hit points healed by _spontaneous healing_ increases to
-5 × his alchemist level. This ability only functions if the target is the same type of creature
-(humanoid, undead, and so on) as the alchemist
+The alchemist gains the ability to heal other creatures. As a standard action, he may touch a
+creature and apply 1 round's effect of his [spontaneous healing](ref/discovery/spontaneous-healing)
+discovery to that creature; this counts toward his spontaneous healing limit for the day. The
+alchemist's daily limit for hit points healed by spontaneous healing increases to 5 × his alchemist
+level. This ability only functions if the target is the same type of creature (humanoid, undead, and
+so on) as the alchemist. An alchemist must be at least 6th level and must have the
+[spontaneous healing](ref/discovery/spontaneous-healing) discovery or class ability before selecting
+this discovery.
