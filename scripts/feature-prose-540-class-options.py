@@ -286,6 +286,13 @@ def place_links(text: str, links: list[tuple[str, str]]) -> tuple[str, list[str]
             text = text[:hit.start()] + f"[{hit.group(0)}]({target})" + text[hit.end():]
         elif not any(f"]({target})" in text[a:b] for a, b in spans):
             lost.append(name)
+        # every plain "<item> evolution" (rage power, hex) is the same link, as it is where the text names the option again
+        # ("an equal number of the tail evolution")
+        again = re.compile(r"(?<![\w\[])(" + re.escape(name) + r")(?=\s+(?:evolutions?|rage powers?|hex(?:es)?)\b)", re.I)
+        for m in reversed(list(again.finditer(text))):
+            spans = [x.span() for x in re.finditer(r"\[[^\]]*\]\([^)]*\)", text)]
+            if not any(a_ <= m.start() < b_ for a_, b_ in spans):
+                text = text[:m.start()] + f"[{m.group(1)}]({target})" + text[m.end():]
     return text, lost
 
 
@@ -880,6 +887,10 @@ def self_test() -> int:
     eq(place_links("It has [claws](ref/evolution/claws). The eidolon must possess the claws evolution to select this evolution.", [("claws", "ref/evolution/claws")]),
        ("It has [claws](ref/evolution/claws). The eidolon must possess the [claws](ref/evolution/claws) evolution to select this evolution.", []),
        "ruling 60: the prerequisite sentence links the item even when the text links it earlier")
+    eq(place_links("It needs the tail evolution to take this evolution. It needs an equal number of the tail evolution.", [("tail", "ref/evolution/tail")])[0],
+       "It needs the [tail](ref/evolution/tail) evolution to take this evolution. It needs an equal number of the [tail](ref/evolution/tail) evolution.", "ruling 60: every plain mention of the option is linked")
+    eq(place_links("It has a [tail slap attack](ref/umr/natural-attacks). It needs the tail evolution to take this evolution.", [("tail", "ref/evolution/tail")])[0],
+       "It has a [tail slap attack](ref/umr/natural-attacks). It needs the [tail](ref/evolution/tail) evolution to take this evolution.", "a link of another rule stays")
     eq(place_links("It has [claws](ref/evolution/claws).", [("claws", "ref/evolution/claws"), ("tail", "ref/evolution/tail")]),
        ("It has [claws](ref/evolution/claws).", ["tail"]), "ruling 60: an item that stands nowhere is reported")
     for line in bad:
