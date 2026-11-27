@@ -1321,16 +1321,25 @@ def run_compare(args) -> int:
     compared = {r["entry"] for r in rows}
     kept = [r for r in old if r["status"] == LEDGER and r["entry"] not in compared]       # the ledger of the entries written already
     for r in kept:
-        # A written row records the text that was reviewed and emitted. Re-running a compare after another book's parser updates must
-        # preserve it byte-for-byte. Explicit errata and the ACG layout repairs are the only reviewed text changes applied here.
         original = old_props.get((r["entry"], r["anchor"]))
-        printed = clean_acg_print(r["entry"], original) if original else ""
-        if printed:
-            printed = class_option_errata(corpus, r["entry"], printed)
-            if printed != original:
-                r["print_sha256"] = hashlib.sha256(printed.encode()).hexdigest()
-            props.setdefault(r["entry"], {"id": r["entry"], "feature": []})["feature"].append(
-                {"anchor": r["anchor"], "print": printed})
+        if original is None:
+            continue
+        printed = clean_acg_print(r["entry"], drop_unkeyed_link_marks(r["entry"], original))
+        printed = class_option_errata(corpus, r["entry"], printed)
+        intro = marked_head_intro(book, r["entry"]) if r["entry"] in MARKED_HEAD_ENTRIES else ""
+        if intro:
+            printed = prepend_intro(printed, intro)
+            intro_page = marked_head_page(book, r["entry"])
+            head_page = int(re.match(r"\d+", r["page"]).group()) if re.match(r"\d+", r["page"]) else 0
+            if intro_page and head_page and intro_page < head_page:
+                r["page"] = f"{intro_page}-{head_page}"
+            if "opens with print's sentence about the mark" not in r["note"]:
+                r["note"] = (r["note"] + "; " if r["note"] else "") + "opens with print's sentence about the mark (the section intro)"
+        else:
+            printed = drop_marked_intro(printed)
+        r["print_sha256"] = hashlib.sha256(printed.encode()).hexdigest()
+        props.setdefault(r["entry"], {"id": r["entry"], "feature": []})["feature"].append(
+            {"anchor": r["anchor"], "print": printed})
     write_tsv(tsv_file(corpus, book), sorted(kept + rows, key=lambda r: r["entry"]))
     write_props(proposals_file(corpus, book), dict(sorted(props.items())))
     print(report(rows, cen))
