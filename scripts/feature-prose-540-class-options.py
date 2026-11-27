@@ -435,7 +435,8 @@ def variant_section(blocks: list, bk2, e, missing: list, expected: list[str]):
     Player's Guide that Ultimate Magic p. 71 prints as "Envenomed"). The section is the first title of the window whose heads include one of
     the missing powers (a "Replacement Bloodline Arcana" is print's "Bloodline Arcana" there). Returns (title, text, heads, replacement rows)
     or None when the heads stand under the entry's own title."""
-    want = {fp.namekey(re.sub(r"^Replacement\s+", "", f.name)) for f in missing}
+    specific = {fp.namekey(f.name) for f in missing if not f.name.startswith("Replacement ")}      # "Water Blast", not the generic "Bloodline Arcana"
+    want = specific or {fp.namekey(re.sub(r"^Replacement\s+", "", f.name)) for f in missing}
     titles = [i for i, b in enumerate(blocks) if b.kind == "title"]
     for n, i in enumerate(titles):
         j = titles[n + 1] if n + 1 < len(titles) else len(blocks)
@@ -520,7 +521,8 @@ def compare_one(e, book, bk, other=None) -> list[dict]:
         missing = [f for f in feats if not_printed(f.span_sha())]
         if not missing or other is None or not pg.isdigit():
             continue
-        got = other(pub, int(pg), e, shape, missing, [f.name for f in feats])
+        power_keys = {fp.namekey(n_) for n_, _ in powers}
+        got = other(pub, int(pg), e, shape, [f for f in missing if fp.namekey(f.name) in power_keys], [f.name for f in feats])      # the variant is found by powers, not by section labels
         if got is None:
             continue
         got, var = got
@@ -645,14 +647,17 @@ def add_sections(e, power_rows: list[dict], res: dict, feats: list, powers: list
                             status=status, span_sha256=r_["span"], note="; ".join(notes)[:400], print=r_["print"],
                             print_sha256=hashlib.sha256(r_["print"].encode()).hexdigest()))
     ordered += [r for sha, r in by_sha.items() if sha not in used]       # a power that print has nowhere on the pages (a hold)
+    olds = old_heading_levels(e.body)
     for pub, pg, (vtitle, vtext, _) in variants or []:                    # ruling 65: the variant is its own unlisted section, with its book and page
         theirs = [r for r in ordered if r["shape"] == "multi" and r["book"] == pub]
-        ordered.append(dict(sec, shape="variant", feature=vtitle, anchor=fp.anchor_of(vtitle), book=pub, page=pg, verdict="agree",
+        vslug = fp.anchor_of(vtitle)
+        # the import has a heading for it ("### Seaborn (Wildblooded Mutation)"): the section keeps that heading's key, written out
+        old = next((s for s in olds if s == vslug or s.startswith(vslug + "-")), vslug)
+        ordered.append(dict(sec, shape="variant", feature=vtitle, anchor=old, book=pub, page=pg, verdict="agree",
                             status="hold" if any(r["status"] == "hold" for r in theirs) or problems else "print", span_sha256="",
                             note=f"a variant that {pub} p. {pg} prints under its own title", print=vtext,
                             print_sha256=hashlib.sha256(vtext.encode()).hexdigest()))
-    olds = old_heading_levels(e.body)
-    have = {fp.slugify(fp.ABILITY_TAG.sub("", r["feature"])) for r in ordered}
+    have = {fp.slugify(fp.ABILITY_TAG.sub("", r["feature"])) for r in ordered} | {r["anchor"] for r in ordered if r["shape"] == "variant"}
     for slug in olds:
         if slug not in have:
             for r in ordered:

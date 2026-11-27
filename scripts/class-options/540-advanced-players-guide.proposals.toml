@@ -554,6 +554,11 @@ anchor = "delayed-bomb"
 print = "The alchemist can place a bomb so that it explodes a number of rounds after the alchemist ceases contact with the bomb. This delay can be any number of rounds as chosen by the alchemist, up to a number of rounds equal to his level. If at any point the alchemist reclaims possession of the delayed bomb, he can end the timer and prevent the bomb's detonation. A delayed bomb detonates immediately if any other creature attempts to touch or move it, or if the bomb's contents are removed from the vial (such as if the vial breaks). The bomb deals damage as if it scored a direct hit to any creature in the square with the bomb when it detonates, and splash damage to all adjacent creatures as normal. An alchemist cannot have more than one delayed bomb at one time. If he creates another delayed bomb, the previous bomb becomes inert. _[Dispel magic](ref/spell/dispel-magic)_ can neutralize a delayed bomb, as can a successful [Disable Device](ref/skill/disable-device) check (DC equals 10 + the alchemist's level + the alchemist's Intelligence modifier). An alchemist must be at least 8th level before selecting this discovery."
 
 [[entry]]
+id = "ref/discovery/dilution"
+anchor = "dilution"
+print = "Once per day, the alchemist can dilute any one potion or elixir, creating two doses of the same potion from one. Diluting a potion costs a number of gp equal to one-quarter of the potion's market value. A potion that has been diluted cannot be diluted again."
+
+[[entry]]
 id = "ref/discovery/dispelling-bomb"
 anchor = "dispelling-bomb"
 print = "When the alchemist creates a bomb, he can choose to have it [dispel magic](ref/spell/dispel-magic) effects instead of deal damage. Creatures that take a direct hit from a dispelling bomb are subject to a targeted _dispel magic_ spell, using the alchemist's level as the caster level. This cannot be used to target a specific spell effect. The alchemist must be at least 6th level before selecting this discovery."
@@ -589,6 +594,11 @@ anchor = "extend-potion"
 print = "A number of times per day equal to his Intelligence modifier, the alchemist can cause any potion he drinks that does not have an instantaneous duration to function at twice its normal duration. This does not apply to extracts."
 
 [[entry]]
+id = "ref/discovery/fast-bombs"
+anchor = "fast-bombs"
+print = "An alchemist with this discovery can quickly create enough bombs to throw more than one in a single round. The alchemist can prepare and throw additional bombs as a full-round action if his base attack bonus is high enough to grant him additional attacks. This functions just like a full-attack with a"
+
+[[entry]]
 id = "ref/discovery/fast-healing"
 anchor = "fast-healing"
 print = "The alchemist's flesh responds to damage with shocking speed—he gains [fast healing](ref/umr/fast-healing) 5."
@@ -622,6 +632,11 @@ print = "The alchemist's mutagen now grants a +4 natural armor bonus, a +6 alche
 id = "ref/discovery/inferno-bomb"
 anchor = "inferno-bomb"
 print = "The effects of the smoke created by an alchemist's bomb duplicate the effects of _[incendiary cloud](ref/spell/incendiary-cloud)_ instead of _[fog cloud](ref/spell/fog-cloud),_ filling an area equal to twice the bomb's splash radius for 1 round per level. An alchemist must be at least 16th level and must possess the [smoke bomb](ref/discovery/smoke-bomb) discovery before selecting this discovery."
+
+[[entry]]
+id = "ref/discovery/infuse-mutagen"
+anchor = "infuse-mutagen"
+print = "When the alchemist creates a mutagen, he can infuse it with an extra bit of his own magical power. This inflicts 2 points of [Intelligence damage](ref/rule/ability-damage-drain) to the alchemist and costs 1,000 gp in rare reagents, but the mutagen created persists on its own and is not rendered inert if the alchemist creates another mutagen. This allows an alchemist to create different types of mutagens and keep them handy for emergencies. This does not allow an alchemist to gain the effects of multiple mutagens—only the most recently imbibed mutagen has any effect."
 
 [[entry]]
 id = "ref/discovery/infusion"
@@ -756,6 +771,14 @@ and earth. It does not leave a hole behind, nor is its passage marked on the sur
 must be at least 9th level before selecting this evolution.'''
 
 [[entry]]
+id = "ref/evolution/claws"
+anchor = "claws"
+print = '''
+1-Point Evolutions: The following evolutions cost 1 point from the eidolon's evolution pool.
+
+An eidolon has a pair of vicious claws at the end of its [limbs](ref/evolution/limbs), giving it two [claw attacks](ref/umr/natural-attacks). These attacks are primary attacks. The claws deal 1d4 points of damage (1d6 if Large, 1d8 if Huge). The eidolon must have the [limbs](ref/evolution/limbs) evolution to take this evolution. This evolution can only be applied to the limbs (legs) evolution once This evolution can be selected more than once, but the eidolon must possess an equal number of the [limbs](ref/evolution/limbs) evolution.'''
+
+[[entry]]
 id = "ref/evolution/climb"
 anchor = "climb"
 print = '''
@@ -871,6 +894,14 @@ print = '''
 An eidolon becomes adept at grappling foes, gaining the [grab](ref/umr/grab) ability. Pick bite, claw, pincers, slam, tail slap, or tentacle attacks. Whenever the eidolon makes a successful attack of the selected type, it can attempt a free combat maneuver check. If successful, the eidolon [grapples](ref/rule/grapple) the target. This ability only works on creatures of a size one category smaller than the eidolon or smaller. Eidolons with this evolution receive a +4 bonus on CMB checks made to grapple.'''
 
 [[entry]]
+id = "ref/evolution/immunity"
+anchor = "immunity"
+print = '''
+2-Point Evolutions: The following evolutions cost 2 points from the eidolon's evolution pool.
+
+An eidolon's body becomes extremely resilient to one energy type, gaining [immunity](ref/umr/immunity) to that type. Pick one energy type: acid, cold, electricity, fire, or sonic. The eidolon gains immunity to that energy type. This evolution can be selected more than once. Its effects do not stack. Each time it applies to a different energy type. The summoner must be at least 7th level before selecting this evolution.'''
+
+[[entry]]
 id = "ref/evolution/improved-damage"
 anchor = "improved-damage"
 print = '''
@@ -880,6 +911,26 @@ One of the eidolon's natural attacks is particularly deadly. Select one natural 
 [increase the damage die](ref/misc/damage-die-adjustments) type by one step. This evolution can be
 selected more than once. Its effects do not stack. Each time an eidolon selects this evolution, it
 applies to a different natural attack.'''
+
+[[entry]]
+id = "ref/evolution/improved-natural-armor"
+anchor = "improved-natural-armor"
+print = '''
+1-Point Evolutions: The following evolutions cost 1 point from the eidolon's evolution pool.
+
+An eidolon's hide grows thick fur, rigid scales, or bony plates, giving it a +2 bonus to its natural armor. This evolution can be taken once for every five levels the summoner possesses.'''
+
+[[entry]]
+id = "ref/evolution/large"
+anchor = "large"
+print = '''
+4-Point Evolutions: The following evolutions cost 4 points from the eidolon's evolution pool.
+
+An eidolon grows in size, becoming Large. The eidolon gains a +8 bonus to Strength, a +4 bonus to Constitution, and a +2 bonus to its natural armor. It takes a -2 penalty to its Dexterity. This size change also gives the creature a -1 size penalty to its AC and on attack rolls, a +1 bonus to its CMB and CMD, a -2 penalty on Fly skill checks, and a -4 penalty on Stealth skill checks. If the eidolon has the biped base form, it also gains 10- foot [reach](ref/evolution/reach). Any reach evolutions the eidolon possesses are added to this total. The eidolon must be Medium to take this evolution. The summoner must be at least 8th level before selecting this evolution.
+
+If 6 additional evolution points are spent, the eidolon instead becomes Huge. The eidolon gains a +16 bonus to Strength, a +8 bonus to Constitution, and a +5 bonus to its natural armor. It takes a -4 penalty to its Dexterity. This size change also give the creature a -2 size penalty to its AC and attack rolls, a +2 bonus to its CMB and CMD, 10-foot reach, a -4 penalty on Fly skill checks, and a -8 penalty on Stealth skill checks. If the eidolon has the biped base form, its reach increases to 15 feet (10 feet for all other base forms). Any reach evolutions the eidolon possesses are added to this total. These bonuses and penalties replace, and do not stack with, those gained from becoming Large. The summoner must be at least 13th level before selecting this option.
+
+The [ability increase](ref/evolution/ability-increase) evolution costs twice as much (4 evolution points) when adding to the Strength or Constitution scores of a Large or Huge eidolon.'''
 
 [[entry]]
 id = "ref/evolution/limbs"
@@ -905,6 +956,30 @@ An eidolon is infused with magic, allowing it to treat all of its natural attack
 magic for the purpose of overcoming [damage reduction](ref/rule/damage-reduction). If the summoner
 is 10th level or higher, all of the eidolon's weapons are treated as the alignment of the eidolon
 for the purpose of overcoming [damage reduction](ref/rule/damage-reduction).'''
+
+[[entry]]
+id = "ref/evolution/mount"
+anchor = "mount"
+print = '''
+1-Point Evolutions: The following evolutions cost 1 point from the eidolon's evolution pool.
+
+An eidolon is properly skilled and formed to serve as a [combat-trained](ref/rule/mounted-combat) mount. The eidolon must be at least one size category larger than its rider. This evolution is only available to eidolons of the quadruped and serpentine base forms.'''
+
+[[entry]]
+id = "ref/evolution/pincers"
+anchor = "pincers"
+print = '''
+1-Point Evolutions: The following evolutions cost 1 point from the eidolon's evolution pool.
+
+An eidolon grows a large pincers at the end of one pair of its [limbs](ref/evolution/limbs), giving it two pincer attacks. These attacks are secondary attacks. The pincers deal 1d6 points of damage (1d8 if Large, 2d6 if Huge). Eidolons with the [grab](ref/evolution/grab) evolution linked to pincers gain a +2 bonus on CMB checks made to grapple. The eidolon must have the [limbs](ref/evolution/limbs) (arms) evolution to take this evolution. Alternatively, the eidolon can replace the [claws](ref/evolution/claws) from its base form with pincers (this still costs 1 evolution point). This evolution can be selected more than once, but the eidolon must possess an equal number of the [limbs](ref/evolution/limbs) evolution.'''
+
+[[entry]]
+id = "ref/evolution/poison"
+anchor = "poison"
+print = '''
+2-Point Evolutions: The following evolutions cost 2 points from the eidolon's evolution pool.
+
+An eidolon secretes toxic venom, gaining a poison attack. Pick one bite or sting attack. Whenever the selected attack hits, the target is poisoned. Eidolon poison—_type_ poison (injury); _save_ Fort negates; _frequency_ 1/round for 4 rounds; _effect_ 1d4 Str damage; _cure_ 1 save. The save DC is equal to 10 + 1/2 the eidolon's HD + the eidolon's Constitution modifier. For 2 additional evolution points, this poison deals Constitution damage instead. This poison can be used no more than once per round. The summoner must be at least 7th level before selecting this evolution.'''
 
 [[entry]]
 id = "ref/evolution/pounce"
@@ -1011,6 +1086,22 @@ print = '''
 An eidolon becomes especially adept at a specific skill, gaining a +8 racial bonus on that skill.
 This evolution can be selected more than once. Its effects do not stack. Each time an eidolon
 selects this evolution, it applies to a different skill.'''
+
+[[entry]]
+id = "ref/evolution/slam"
+anchor = "slam"
+print = '''
+1-Point Evolutions: The following evolutions cost 1 point from the eidolon's evolution pool.
+
+An eidolon can deliver a devastating [slam attack](ref/umr/natural-attacks). This attack is a primary attack. The slam deals 1d8 points of damage (2d6 if Large, 2d8 if Huge). The eidolon must have the [limbs](ref/evolution/limbs) (arms) evolution to take this evolution. Alternatively, the eidolon can replace the [claws](ref/evolution/claws) from its base form with this slam attack (this still costs 1 evolution point). This evolution can be selected more than once, but the eidolon must possess an equal number of the [limbs](ref/evolution/limbs) evolution.'''
+
+[[entry]]
+id = "ref/evolution/spell-resistance"
+anchor = "spell-resistance"
+print = '''
+4-Point Evolutions: The following evolutions cost 4 points from the eidolon's evolution pool.
+
+An eidolon is protected against magic, gaining spell resistance. The eidolon's spell resistance is equal to 11 + the summoner's level. This spell'''
 
 [[entry]]
 id = "ref/evolution/sting"
@@ -1179,6 +1270,16 @@ can attempt a new save each round to end the effect. Whether or not the save is 
 creature cannot be the target of this hex again for 1 day.'''
 
 [[entry]]
+id = "ref/hex/blight"
+anchor = "blight"
+print = "The witch can [curse](ref/rule/curses) an animal, plant creature, or plot of land, causing it to wither and die. Blighting an area takes 1 round, during which time the witch and her familiar must be in contact with the target. If it's used on a plot of land, the land begins to wither the following day, and over the next week all plants in the area die. Nothing will grow in that area so long as the curse persists. A witch can affect an area with a radius equal to her class level × 10 feet. Blighting a creature is a standard action that requires a melee touch attack. If used on a creature of the animal or plant type, the creature gains the following curse: Blight Hex—_type_ curse; _save_ Will negates; _frequency_ 1/day; _effect_ 1 Con damage. Both types of curse can be removed with a _[remove curse](ref/spell/remove-curse)_ or similar magic, using the save DC as the DC to remove the curse. A witch can only have one blight in effect at a time. If another blight hex is made, the first immediately ends."
+
+[[entry]]
+id = "ref/hex/cackle"
+anchor = "cackle"
+print = "A witch can cackle madly as a move action. Any creature that is within 30 feet that is under the effects of an [agony](ref/hex/agony) hex, [charm](ref/hex/charm) hex, [evil eye](ref/hex/evil-eye) hex, [fortune](ref/hex/fortune) hex, or [misfortune](ref/hex/misfortune) hex caused by the witch has the duration of that hex extended by 1 round."
+
+[[entry]]
 id = "ref/hex/cauldron"
 anchor = "cauldron"
 print = '''
@@ -1220,6 +1321,11 @@ the second remain exhausted and take 4d6 points of damage + 1 point of damage pe
 witch. Slaying the witch that hexed the creature ends the effect, but any fatigue or exhaustion
 remains. Whether or not the saves are successful, a creature cannot be the target of this hex again
 for 1 day.'''
+
+[[entry]]
+id = "ref/hex/disguise"
+anchor = "disguise"
+print = "A witch can change her appearance for a number of hours equal to her class level, as if using _[disguise self](ref/spell/disguise-self)_. These hours do not need to be consecutive, but they must be spent in 1-hour increments."
 
 [[entry]]
 id = "ref/hex/eternal-slumber"
@@ -1264,6 +1370,16 @@ the spell _[reincarnate](ref/spell/reincarnate)_. Whether or not the save is suc
 cannot be the target of this hex again for 1 day.'''
 
 [[entry]]
+id = "ref/hex/fortune"
+anchor = "fortune"
+print = "The witch can grant a creature within 30 feet a bit of good luck for 1 round. The target can call upon this good luck once per round, allowing him to reroll any ability check, attack roll, saving throw, or skill check, taking the better result. He must decide to use this ability before the first roll is made. At 8th level and 16th level, the duration of this hex is extended by 1 round. Once a creature has benefited from the fortune hex, it cannot benefit from it again for 24 hours."
+
+[[entry]]
+id = "ref/hex/hags-eye"
+anchor = "hag-s-eye"
+print = "A witch with this hex can create a magic sensor that she can see through. This functions as per the spell _[arcane eye](ref/spell/arcane-eye)_. If the witch has the [coven](ref/hex/coven) hex, all other"
+
+[[entry]]
 id = "ref/hex/healing"
 anchor = "healing"
 print = '''
@@ -1271,6 +1387,11 @@ A witch can soothe the wounds of those she touches. This acts as a
 _[cure light wounds](ref/spell/cure-light-wounds)_ spell, using the witch's caster level. Once a
 creature has benefited from the healing hex, it cannot benefit from it again for 24 hours. At 5th
 level, this hex acts like _[cure moderate wounds](ref/spell/cure-moderate-wounds)_.'''
+
+[[entry]]
+id = "ref/hex/life-giver"
+anchor = "life-giver"
+print = "Once per day the witch can, as a full round action, touch a dead creature and bring it back to life. This functions as _[resurrection](ref/spell/resurrection)_, but it does not require a material component."
 
 [[entry]]
 id = "ref/hex/major-healing"
@@ -1281,6 +1402,11 @@ touches. This acts as _[cure serious wounds](ref/spell/cure-serious-wounds)_, us
 caster level. Once a creature has benefited from the major healing hex, it cannot benefit from it
 again for 24 hours. At 15th level, this hex acts like
 _[cure critical wounds](ref/spell/cure-critical-wounds)_.'''
+
+[[entry]]
+id = "ref/hex/misfortune"
+anchor = "misfortune"
+print = "The witch can cause a creature within 30 feet to suffer grave misfortune for 1 round. Anytime the creature makes an ability check, attack roll, saving throw, or skill check, it must roll twice and take the worse result. A Will save negates this hex. At 8th level and 16th level, the duration of this hex is extended by 1 round. This hex affects all rolls the target must make while it lasts. Whether or not the save is successful, a creature cannot be the target of this hex again for 1 day."
 
 [[entry]]
 id = "ref/hex/natural-disaster"
@@ -1314,6 +1440,14 @@ possesses. This effect lasts for a number of rounds equal to the witch's Intelli
 Will save negates this effect.'''
 
 [[entry]]
+id = "ref/hex/slumber"
+anchor = "slumber"
+print = '''
+A witch can cause a creature within 30 feet to fall into a deep, magical [sleep](ref/spell/sleep), as per the spell _sleep_. The creature receives a Will save to negate the effect. If the save fails, the creature falls asleep for a number of rounds equal to the witch's level. This hex can affect a creature of any HD. The creature will not wake due to noise or light, but others can rouse it with a standard action.
+
+Table 2–10: Witch Base Attack Fort Ref Will Level Bonus Save Save Save Special 1st +0 +0 +0 +2 Cantrips, hex, witch's familiar 2nd +1 +0 +0 +3 Hex 3rd +1 +1 +1 +3 4th +2 +1 +1 +4 Hex 5th +2 +1 +1 +4 6th +3 +2 +2 +5 Hex 7th +3 +2 +2 +5 8th +4 +2 +2 +6 Hex 9th +4 +3 +3 +6 10th +5 +3 +3 +7 Hex, major hex 11th +5 +3 +3 +7 12th +6/+1 +4 +4 +8 Hex 13th +6/+1 +4 +4 +8 14th +7/+2 +4 +4 +9 Hex 15th +7/+2 +5 +5 +9 16th +8/+3 +5 +5 +10 Hex 17th +8/+3 +5 +5 +10 18th +9/+4 +6 +6 +11 Hex, grand hex 19th +9/+4 +6 +6 +11 20th +10/+5 +6 +6 +12 Hex This hex ends immediately if the creature takes damage. Whether or not the save is successful, a creature cannot be the target of this hex again for 1 day.'''
+
+[[entry]]
 id = "ref/hex/tongues"
 anchor = "tongues"
 print = '''
@@ -1341,6 +1475,11 @@ Will save to negate the vision.'''
 id = "ref/hex/ward"
 anchor = "ward"
 print = "A witch can use this hex to place a protective ward over one creature. The warded creature receives a +2 deflection bonus to AC and a +2 resistance bonus on saving throws. This ward lasts until the warded creature is hit or fails a saving throw. A witch knows when a warded creature is no longer protected. A witch can have only one ward active at a time. If the witch uses this ability again, the previous ward immediately ends. A witch cannot use this ability on herself. At 8th level and 16th level, the bonuses provided by this ward increase by +1."
+
+[[entry]]
+id = "ref/hex/waxen-image"
+anchor = "waxen-image"
+print = "The witch can spend a full-round action to create a crude and unnerving wax duplicate of a creature she can see within 30 feet. Once the image is complete, the subject must make a Will save. If the subject fails, the witch gains a small measure of control over the creature. Whenever she exercises this control, the creature receives a new Will save to end the effect. This effect occurs on the witch's turn and does not impede the creature's actions on its turn. The witch can use the waxen image a number of times equal to her Intelligence modifier before it melts. As a standard action, the witch can cause the subject to do any one of the following things: move up to the creature's speed in any direction, attack itself once with any weapon in hand (this attack automatically hits), lay down on the ground, or drop anything held. Alternatively, she can spend one of her uses to simply torture the image, causing the creature to be both [sickened](ref/misc/sickened) and [staggered](ref/misc/staggered) on its turn. As soon as the creature has succeeded on a saving throw against this effect, it is immune to it for 24 hours. The is an enchantment (compulsion) effect."
 
 [[entry]]
 id = "ref/hex/weather-control"
@@ -1840,9 +1979,19 @@ anchor = "lightning-breath"
 print = "As a standard action, you can breathe a 30-foot line of electricity. This line deals 1d4"
 
 [[entry]]
+id = "ref/oraclecurse/clouded-vision"
+anchor = "clouded-vision"
+print = "Your eyes are obscured, making it difficult for you to see. You cannot see anything beyond 30 feet, but you can see as if you had [darkvision](ref/rule/darkvision). At 5th level, this distance increases to 60 feet. At 10th level, you gain [blindsense](ref/umr/blindsense) out to a range of 30 feet. At 15th level, you gain [blindsight](ref/umr/blindsight) out to a range of 15 feet."
+
+[[entry]]
 id = "ref/oraclecurse/haunted"
 anchor = "haunted"
 print = "Malevolent spirits follow you wherever you go, causing minor mishaps and strange occurrences (such as unexpected breezes, small objects moving on their own, and faint noises). Retrieving any stored item from your gear requires a standard action, unless it would normally take longer. Any item you drop lands 10 feet away from you in a random direction. Add _[mage hand](ref/spell/mage-hand)_ and _[ghost sound](ref/spell/ghost-sound)_ to your list of spells known. At 5th level, add _[levitate](ref/spell/levitate)_ and _[minor image](ref/spell/minor-image)_ to your list of spells known. At 10th level, add _[telekinesis](ref/spell/telekinesis)_ to your list of spells known. At 15th level, add _[reverse gravity](ref/spell/reverse-gravity)_ to your list of spells known."
+
+[[entry]]
+id = "ref/oraclecurse/lame"
+anchor = "lame"
+print = "One of your legs is permanently wounded, reducing your base land speed by 10 feet if your base speed is 30 feet or more. If your base speed is less than 30 feet, your speed is reduced by 5 feet. Your speed is never reduced"
 
 [[entry]]
 id = "ref/oraclecurse/tongues"
@@ -2152,6 +2301,11 @@ must have the [superstition](ref/ragepower/superstition) rage power to select th
 barbarian must be at least 8th level to select this rage power.'''
 
 [[entry]]
+id = "ref/ragepower/elemental-rage"
+anchor = "elemental-rage"
+print = "While raging, all of the barbarian's melee attacks deal an additional 1d6 points of energy damage (acid, cold, electricity, or fire). The type is chosen when the barbarian begins her rage. A barbarian must have the [lesser elemental rage](ref/ragepower/lesser-elemental-rage) power to select this rage power. A barbarian must be at least 8th level to select this rage power. Note that the barbarian can still use her lesser elemental rage power while using this rage power, but she must select a different energy type."
+
+[[entry]]
 id = "ref/ragepower/energy-absorption"
 anchor = "energy-absorption"
 print = '''
@@ -2327,6 +2481,11 @@ rage power to select this rage power. A barbarian must be at least 12th level to
 power.'''
 
 [[entry]]
+id = "ref/ragepower/greater-spirit-totem"
+anchor = "greater-spirit-totem"
+print = "While raging, the spirits that surround the barbarian become dangerous to any enemy adjacent to the barbarian. Living enemies adjacent to the barbarian at the start of her turn take 1d8 points of negative energy damage. In addition, the spirit wisps can now attack foes that are up to 15 feet away from the barbarian and the slam attack deals 1d6 points of negative energy damage. A barbarian must have the [spirit totem](ref/ragepower/spirit-totem) rage power and be at least 10th level to select this rage power."
+
+[[entry]]
 id = "ref/ragepower/ground-breaker"
 anchor = "ground-breaker"
 print = '''
@@ -2368,6 +2527,16 @@ rage power to select this rage power. A barbarian must be at least 6th level to 
 power.'''
 
 [[entry]]
+id = "ref/ragepower/inspire-ferocity"
+anchor = "inspire-ferocity"
+print = "While raging, the barbarian can use a move action to impart her [reckless abandon](ref/ragepower/reckless-abandon) modifier to all willing allies within 30 feet for a number of rounds equal to her Charisma modifier (minimum 1). A barbarian must have the [reckless abandon](ref/ragepower/reckless-abandon) rage power to select this rage power."
+
+[[entry]]
+id = "ref/ragepower/knockdown"
+anchor = "knockdown"
+print = "Once per rage, the barbarian can make a [trip](ref/rule/trip) attack against one target in place of a melee attack. If successful, the target takes damage equal to the barbarian's Strength modifier and is knocked [prone](ref/rule/prone). This does not provoke an attack of opportunity."
+
+[[entry]]
 id = "ref/ragepower/lesser-beast-totem"
 anchor = "lesser-beast-totem"
 print = '''
@@ -2383,6 +2552,11 @@ While raging, the barbarian gains a +1 deflection bonus to AC against the attack
 creatures and a +1 resistance bonus on saving throws against confusion, insanity, polymorph, and
 effects with the lawful descriptor. This bonus increases by +1 for each chaos totem rage power she
 possesses.'''
+
+[[entry]]
+id = "ref/ragepower/lesser-elemental-rage"
+anchor = "lesser-elemental-rage"
+print = "As a swift action, the barbarian can cause her melee attacks to deal an additional 1d6 points of energy damage (acid, cold, electricity, or fire) for 1 round. A barbarian must be at least 4th level to select this rage power. This power can only be used once per rage."
 
 [[entry]]
 id = "ref/ragepower/lesser-fiend-totem"
@@ -2441,6 +2615,11 @@ While raging, the barbarian may [overrun](ref/rule/overrun) more than one target
 barbarian must be at least 6th level to select this rage power.'''
 
 [[entry]]
+id = "ref/ragepower/reckless-abandon"
+anchor = "reckless-abandon"
+print = "While raging, the barbarian can take a -1 penalty to AC to gain a +1 bonus on attack rolls. The AC penalty increases by -1 and the attack roll bonus increases by +1 at 4th level and every four levels thereafter."
+
+[[entry]]
 id = "ref/ragepower/roaring-drunk"
 anchor = "roaring-drunk"
 print = '''
@@ -2455,6 +2634,11 @@ print = '''
 Once per rage, whenever the barbarian makes an attack against an unattended object or a
 [sunder](ref/rule/sunder) combat maneuver, she can ignore the object's [hardness](ref/umr/hardness).
 This ability must be used before the attack roll or sunder check is made.'''
+
+[[entry]]
+id = "ref/ragepower/spellbreaker"
+anchor = "spellbreaker"
+print = "When raging, the barbarian gains [Spellbreaker](ref/feat/spellbreaker) as a bonus feat. A barbarian must have the [disruptive](ref/ragepower/disruptive) rage power and be at least 12th level to select this rage power."
 
 [[entry]]
 id = "ref/ragepower/spirit-steed"
@@ -2531,7 +2715,7 @@ print = "At 3rd level, you gain a swim speed of 30 feet. At 9th level, you gain 
 [[entry]]
 id = "ref/sorcbloodline/aquatic"
 anchor = "replacement-bloodline-arcana"
-print = "Unlike most sorcerers whose innate magic is powered by force of personality, you use pure willpower to master and fuel your magic. You use your Wisdom, rather than your Charisma, to determine all class features and effects relating to your sorcerer class, such as bonus spells per day, maximum spell level you can cast, and the save DCs of your spells. You gain a +2 bonus on all Heal and Knowledge (religion) checks."
+print = "When you are in a body of water large enough to float in, your effective caster level is increased by 1."
 
 [[entry]]
 id = "ref/sorcbloodline/aquatic"
@@ -2540,17 +2724,17 @@ print = "As a standard action, you can fire a bolt of water at a foe within 30 f
 
 [[entry]]
 id = "ref/sorcbloodline/aquatic"
-anchor = "empyreal"
+anchor = "seaborn-wildblooded-mutation"
 print = '''
-Your heavenly power derives from insight rather than force of personality.
+Your powers rise like the tides.
 
-**Associated Bloodline:** Celestial.
+**Associated Bloodline:** Aquatic.
 
-**Bloodline Arcana:** Unlike most sorcerers whose innate magic is powered by force of personality, you use pure willpower to master and fuel your magic. You use your Wisdom, rather than your Charisma, to determine all class features and effects relating to your sorcerer class, such as bonus spells per day, maximum spell level you can cast, and the save DCs of your spells. You gain a +2 bonus on all Heal and Knowledge (religion) checks.
+**Bloodline Arcana:** When you are in a body of water large enough to float in, your effective caster level is increased by 1.
 
-**Bloodline Powers:** Your quasi-divine nature gives you strange powers.
+**Bloodline Powers:** You prefer to attack with water rather than to leech it away.
 
-**Sacred Cistern (Su):** At 9th level, your bloodline makes you a natural receptacle of divine energy. You can channel energy once per day as a cleric of your sorcerer level - 4. This bloodline power replaces wings of heaven.'''
+**Water Blast (Sp):** As a standard action, you can fire a bolt of water at a foe within 30 feet as a ranged touch attack. The foe is knocked prone, and at your option may be pushed 5 feet directly away from you. A reflex save (DC 10 +1/2 your sorcerer level + your Charisma modifier) negates this effect. You can use this ability a number of times per day equal to 3 + your Charisma modifier. This bloodline power replaces dehydrating touch.'''
 
 [[entry]]
 id = "ref/sorcbloodline/boreal"
@@ -2610,7 +2794,7 @@ print = "At 20th level, you gain the [cold](ref/subtype/cold) subtype and you be
 [[entry]]
 id = "ref/sorcbloodline/boreal"
 anchor = "replacement-bloodline-arcana"
-print = "Unlike most sorcerers whose innate magic is powered by force of personality, you use pure willpower to master and fuel your magic. You use your Wisdom, rather than your Charisma, to determine all class features and effects relating to your sorcerer class, such as bonus spells per day, maximum spell level you can cast, and the save DCs of your spells. You gain a +2 bonus on all Heal and Knowledge (religion) checks."
+print = "Whenever you cast a spell with the cold descriptor, you may select one target of the spell to be slowed (as the spell) for 1 round. A Fortitude save (DC 10 + the level of cold spell + your Charisma modifier) negates the effect."
 
 [[entry]]
 id = "ref/sorcbloodline/boreal"
@@ -2619,17 +2803,17 @@ print = "At 9th level, you can cause the air to erupt in freezing sleet. This 10
 
 [[entry]]
 id = "ref/sorcbloodline/boreal"
-anchor = "empyreal"
+anchor = "rime-blooded-wildblooded-mutation"
 print = '''
-Your heavenly power derives from insight rather than force of personality.
+The wintry origin of your magic f lows like ice water in your veins.
 
-**Associated Bloodline:** Celestial.
+**Associated Bloodline:** Boreal.
 
-**Bloodline Arcana:** Unlike most sorcerers whose innate magic is powered by force of personality, you use pure willpower to master and fuel your magic. You use your Wisdom, rather than your Charisma, to determine all class features and effects relating to your sorcerer class, such as bonus spells per day, maximum spell level you can cast, and the save DCs of your spells. You gain a +2 bonus on all Heal and Knowledge (religion) checks.
+**Bloodline Arcana:** Whenever you cast a spell with the cold descriptor, you may select one target of the spell to be slowed (as the spell) for 1 round. A Fortitude save (DC 10 + the level of cold spell + your Charisma modifier) negates the effect.
 
-**Bloodline Powers:** Your quasi-divine nature gives you strange powers.
+**Bloodline Powers:** Sometimes you must bring the cold to your enemies.
 
-**Sacred Cistern (Su):** At 9th level, your bloodline makes you a natural receptacle of divine energy. You can channel energy once per day as a cleric of your sorcerer level - 4. This bloodline power replaces wings of heaven.'''
+**Freezing Bolt (Sp):** At 9th level, you can cause the air to erupt in freezing sleet. This 10-foot-radius burst does 1d6 points of cold damage per sorcerer level (Reflex half). The DC of this save is equal to 10 + 1/2 your sorcerer level + your Charisma modifier. At 9th level, you can use this ability once per day. At 17th level, you can use this ability twice per day. At 20th level, you can use this ability three times per day. This power has a range of 60 feet. This bloodline power replaces snow shroud.'''
 
 [[entry]]
 id = "ref/sorcbloodline/deep-earth"
@@ -2689,7 +2873,7 @@ print = "At 20th level, your flesh becomes as hard as stone, giving you DR 10/ad
 [[entry]]
 id = "ref/sorcbloodline/deep-earth"
 anchor = "replacement-bloodline-arcana"
-print = "Whenever you cast a spell that deals energy damage, you can change the type of damage to acid. This effect also changes the spell's descriptors to match this energy type."
+print = "Whenever you cast a spell of the summoning subschool, the creatures summoned gain DR/adamantine equal to 1/2 your sorcerer level (minimum 1). This does not stack with any DR the creature might have."
 
 [[entry]]
 id = "ref/sorcbloodline/deep-earth"
@@ -2698,8 +2882,17 @@ print = "At 9th level, as a swift action, you can grant yourself DR 10/adamantin
 
 [[entry]]
 id = "ref/sorcbloodline/deep-earth"
-anchor = "shaitan"
-print = "You were born with the power of earth genies, and the magic of the shaitans is strong in you.\n\n**Class Skill:** Knowledge (planes).\n\n**Bonus Spells:** _true strike_ (3rd), _glitterdust_ (5th), _greater magic weapon_ (7th), _stoneskin_ (9th), _wall of stone_ (11th), _wall of iron_ (13th), _plane shift_ (15th), _iron body_ (17th), _wish_ (19th).\n\n**Bonus Feats:** Dodge, Empower Spell, Great Fortitude, Improved Initiative, Lightning Reflexes, Power Attack, Skill Focus (Knowledge \\[planes\\]), Weapon Finesse.\n\n**Bloodline Arcana:** Whenever you cast a spell that deals energy damage, you can change the type of damage to acid. This effect also changes the spell's descriptors to match this energy type.\n\n**Bloodline Powers:** Like a shaitan, you have both natural power over earth, and several other genie-based abilities.\n\n**Acid Ray (Sp):** Starting at 1st level, you can unleash an elemental ray as a standard action, targeting any foe within 30 feet as a ranged touch attack. This ray deals 1d6 points of acid damage + 1 for every two sorcerer levels you possess. You can use this ability a number of times per day equal to 3 + your Charisma modifier.\n\n**Elemental Resistance (Ex):** At 3rd level, you gain acid resistance 10. At 9th level, your acid resistance increases to 20.\n\n**Avalanche (Su):** At 9th level, whenever you hit a single target with a spell that deals damage, you may make a bull rush check as a swift action. Your CMB for this maneuver is equal to your sorcerer caster level + your Charisma bonus. You can make this maneuver even if the target is not in melee range, and you do not provoke an attack of opportunity for making this maneuver. If the target is in contact with earth, stone, or rock, you gain a +4 bonus on your CMB check.\n\n**Elemental Movement (Su):** At 15th level, you gain a burrow speed of 30 feet.\n\n**Power of the Shaitan (Su):** At 20th level, you gain the power of genies to grant wishes. Once per day, you can cast _limited wish_ as a spell-like ability. Such wishes must begin with the words \"I wish,\" and cannot duplicate a wish you have granted within the past 24 hours. If you use this ability to duplicate a spell with a costly material component, you must provide that component.\n\nYou become immune to acid damage, and can use _plane shift_ once per day to travel to or from the Plane of Earth."
+anchor = "bedrock-wildblooded-mutation"
+print = '''
+Your earth magic is more defensive than offensive.
+
+**Associated Bloodline:** Deep Earth.
+
+**Bloodline Arcana:** Whenever you cast a spell of the summoning subschool, the creatures summoned gain DR/adamantine equal to 1/2 your sorcerer level (minimum 1). This does not stack with any DR the creature might have.
+
+**Bloodline Powers:** Rock is timeless; it endures.
+
+**Iron Hide (Sp):** At 9th level, as a swift action, you can grant yourself DR 10/adamantine for a number of rounds per day equal to your sorcerer level. The rounds do not need to be used consecutively. This bloodline power replaces crystal shard.'''
 
 [[entry]]
 id = "ref/sorcbloodline/dreamspun"
@@ -2759,7 +2952,7 @@ print = "At 20th level, you can drift into the dream world, fading from the worl
 [[entry]]
 id = "ref/sorcbloodline/dreamspun"
 anchor = "replacement-bloodline-arcana"
-print = "Whenever you cast a spell with an energy descriptor that matches your elemental bloodline's energy type, that spell deals +1 point of damage per die rolled."
+print = "Though you can still only regain spells once per day, you need only a single hour of sleep prior to doing so. (You still risk fatigue as normal if you don't receive enough rest.)"
 
 [[entry]]
 id = "ref/sorcbloodline/dreamspun"
@@ -2768,17 +2961,17 @@ print = "At 9th level, when you sleep, you can gain information through propheti
 
 [[entry]]
 id = "ref/sorcbloodline/dreamspun"
-anchor = "primal"
+anchor = "visionary-wildblooded-mutation"
 print = '''
-Your powers are attuned to the concentrated core of the elemental plane.
+Your dream-magic strongly inf luences the waking world.
 
-**Associated Bloodline:** Elemental.
+**Associated Bloodline:** Dreamspun.
 
-**Bloodline Arcana:** Whenever you cast a spell with an energy descriptor that matches your elemental bloodline's energy type, that spell deals +1 point of damage per die rolled.
+**Bloodline Arcana:** Though you can still only regain spells once per day, you need only a single hour of sleep prior to doing so. (You still risk fatigue as normal if you don't receive enough rest.)
 
-**Bloodline Powers:** You can infuse raw energy into your summoned minions.
+**Bloodline Powers:** Your dreams hint at the future.
 
-**Elementalist Summoning (Su):** At 9th level, whenever you summon a creature, it gains energy resistance 10 against the energy type that matches your elemental bloodline (if it already has such resistance, its resistance increases by +5), and its natural attacks deal an additional 1d6 points of damage of the same energy type. This bloodline power replaces elemental blast.'''
+**Visions (Sp):** At 9th level, when you sleep, you can gain information through prophetic visions. Once per day when sleeping, you may gain information about actions taken in the next week as if you had cast a _divination_ spell. You can gain information about a single question at 9th level. At 17th level, you can have two questions answered while you sleep, and at 20th level, three questions. This bloodline power replaces dreamshaper.'''
 
 [[entry]]
 id = "ref/sorcbloodline/protean"
@@ -2838,7 +3031,7 @@ print = "At 20th level, you are infused with the essence of raw chaos. You gain 
 [[entry]]
 id = "ref/sorcbloodline/protean"
 anchor = "replacement-bloodline-arcana"
-print = "Whenever you cast a spell that deals energy damage, you can change the type of damage to acid. This effect also changes the spell's descriptors to match this energy type."
+print = "Whenever you fail a concentration check to cast a spell, a cantrip effect is created. Randomly determine one of your cantrips known (for example, if you know 6 cantrips, roll 1d6). There is a 50% chance this cantrip affects a target of your choice within 60 feet; otherwise it affects you."
 
 [[entry]]
 id = "ref/sorcbloodline/protean"
@@ -2847,8 +3040,17 @@ print = "At 3rd level, when you successfully [dispel](ref/spell/dispel-magic) or
 
 [[entry]]
 id = "ref/sorcbloodline/protean"
-anchor = "shaitan"
-print = "You were born with the power of earth genies, and the magic of the shaitans is strong in you.\n\n**Class Skill:** Knowledge (planes).\n\n**Bonus Spells:** _true strike_ (3rd), _glitterdust_ (5th), _greater magic weapon_ (7th), _stoneskin_ (9th), _wall of stone_ (11th), _wall of iron_ (13th), _plane shift_ (15th), _iron body_ (17th), _wish_ (19th).\n\n**Bonus Feats:** Dodge, Empower Spell, Great Fortitude, Improved Initiative, Lightning Reflexes, Power Attack, Skill Focus (Knowledge \\[planes\\]), Weapon Finesse.\n\n**Bloodline Arcana:** Whenever you cast a spell that deals energy damage, you can change the type of damage to acid. This effect also changes the spell's descriptors to match this energy type.\n\n**Bloodline Powers:** Like a shaitan, you have both natural power over earth, and several other genie-based abilities.\n\n**Acid Ray (Sp):** Starting at 1st level, you can unleash an elemental ray as a standard action, targeting any foe within 30 feet as a ranged touch attack. This ray deals 1d6 points of acid damage + 1 for every two sorcerer levels you possess. You can use this ability a number of times per day equal to 3 + your Charisma modifier.\n\n**Elemental Resistance (Ex):** At 3rd level, you gain acid resistance 10. At 9th level, your acid resistance increases to 20.\n\n**Avalanche (Su):** At 9th level, whenever you hit a single target with a spell that deals damage, you may make a bull rush check as a swift action. Your CMB for this maneuver is equal to your sorcerer caster level + your Charisma bonus. You can make this maneuver even if the target is not in melee range, and you do not provoke an attack of opportunity for making this maneuver. If the target is in contact with earth, stone, or rock, you gain a +4 bonus on your CMB check.\n\n**Elemental Movement (Su):** At 15th level, you gain a burrow speed of 30 feet.\n\n**Power of the Shaitan (Su):** At 20th level, you gain the power of genies to grant wishes. Once per day, you can cast _limited wish_ as a spell-like ability. Such wishes must begin with the words \"I wish,\" and cannot duplicate a wish you have granted within the past 24 hours. If you use this ability to duplicate a spell with a costly material component, you must provide that component.\n\nYou become immune to acid damage, and can use _plane shift_ once per day to travel to or from the Plane of Earth."
+anchor = "anarchic-wildblooded-mutation"
+print = '''
+Your magical power taps into pure anarchy.
+
+**Associated Bloodline:** Protean.
+
+**Bloodline Arcana:** Whenever you fail a concentration check to cast a spell, a cantrip effect is created. Randomly determine one of your cantrips known (for example, if you know 6 cantrips, roll 1d6). There is a 50% chance this cantrip affects a target of your choice within 60 feet; otherwise it affects you.
+
+**Bloodline Powers:** Raw magical energy lashes out when you destroy or negate hostile spells.
+
+**Wild Feedback (Su):** At 3rd level, when you successfully dispel or counterspell an opponent's spell, the caster (if it is within 100 feet) takes 1d6 points of damage +1 per level of the spell affected. This bloodline power replaces protean resistances.'''
 
 [[entry]]
 id = "ref/sorcbloodline/serpentine"
@@ -2908,7 +3110,7 @@ print = "At 20th level, you gain the [shapechanger](ref/subtype/shapechanger) su
 [[entry]]
 id = "ref/sorcbloodline/serpentine"
 anchor = "replacement-bloodline-arcana"
-print = "Whenever you fail a concentration check to cast a spell, a cantrip effect is created. Randomly determine one of your cantrips known (for example, if you know 6 cantrips, roll 1d6). There is a 50% chance this cantrip affects a target of your choice within 60 feet; otherwise it affects you."
+print = "You gain a +2 bonus on Acrobatics, Climb, and Stealth checks."
 
 [[entry]]
 id = "ref/sorcbloodline/serpentine"
@@ -2917,17 +3119,17 @@ print = "At 3rd level, as a swift action, you can lick or bite a melee weapon to
 
 [[entry]]
 id = "ref/sorcbloodline/serpentine"
-anchor = "anarchic"
+anchor = "envenomed-wildblooded-mutation"
 print = '''
-Your magical power taps into pure anarchy.
+The ophidian source of your bloodline has more to do with stealth and assassination than it does with leadership and alliances.
 
-**Associated Bloodline:** Protean.
+**Associated Bloodline:** Serpentine.
 
-**Bloodline Arcana:** Whenever you fail a concentration check to cast a spell, a cantrip effect is created. Randomly determine one of your cantrips known (for example, if you know 6 cantrips, roll 1d6). There is a 50% chance this cantrip affects a target of your choice within 60 feet; otherwise it affects you.
+**Bloodline Arcana:** You gain a +2 bonus on Acrobatics, Climb, and Stealth checks.
 
-**Bloodline Powers:** Raw magical energy lashes out when you destroy or negate hostile spells.
+**Bloodline Powers:** The stink of poison taints your magic.
 
-**Wild Feedback (Su):** At 3rd level, when you successfully dispel or counterspell an opponent's spell, the caster (if it is within 100 feet) takes 1d6 points of damage +1 per level of the spell affected. This bloodline power replaces protean resistances.'''
+**Envenom (Su):** At 3rd level, as a swift action, you can lick or bite a melee weapon to imbue it with 1 dose of black adder venom (see page 558 of the _Core Rulebook_). The poison's DC is equal to 10 + 1/2 your sorcerer level + your Charisma modifier. You may use this ability once per day at 3rd level, and one additional time per day for every three additional levels. The poison cannot be removed or stored, and the weapon loses the benefit of the poison after the first successful attack or 1 hour has passed. The bloodline power replaces serpentfriend.'''
 
 [[entry]]
 id = "ref/sorcbloodline/shadow"
@@ -2987,7 +3189,7 @@ print = "At 20th level, you can see perfectly in natural or magical darkness. Wh
 [[entry]]
 id = "ref/sorcbloodline/shadow"
 anchor = "replacement-bloodline-arcana"
-print = "Whenever you cast a spell with an energy descriptor that matches your elemental bloodline's energy type, that spell deals +1 point of damage per die rolled."
+print = "Whenever you cast a spell in an area of dim light or darkness, your effective caster level is increased by 1."
 
 [[entry]]
 id = "ref/sorcbloodline/shadow"
@@ -2996,17 +3198,17 @@ print = "At 1st level, as a standard action, you can grant one target a [cloak o
 
 [[entry]]
 id = "ref/sorcbloodline/shadow"
-anchor = "primal"
+anchor = "umbral-wildblooded-mutation"
 print = '''
-Your powers are attuned to the concentrated core of the elemental plane.
+Your nature is to gather the darkness into yourself.
 
-**Associated Bloodline:** Elemental.
+**Associated Bloodline:** Shadow.
 
-**Bloodline Arcana:** Whenever you cast a spell with an energy descriptor that matches your elemental bloodline's energy type, that spell deals +1 point of damage per die rolled.
+**Bloodline Arcana:** Whenever you cast a spell in an area of dim light or darkness, your effective caster level is increased by 1.
 
-**Bloodline Powers:** You can infuse raw energy into your summoned minions.
+**Bloodline Powers:** Your shadow magic is more defensive than offensive.
 
-**Elementalist Summoning (Su):** At 9th level, whenever you summon a creature, it gains energy resistance 10 against the energy type that matches your elemental bloodline (if it already has such resistance, its resistance increases by +5), and its natural attacks deal an additional 1d6 points of damage of the same energy type. This bloodline power replaces elemental blast.'''
+**Cloak of Shadows (Sp):** At 1st level, as a standard action, you can grant one target a cloak of shadows. This cloak gives the target a bonus on Stealth checks made in areas of dim or no light equal to 1/2 your sorcerer level for 1 round per 2 sorcerer levels you possess (minimum +1 bonus for 1 round). You may use this ability a number of times per day equal to 3 + your Charisma modifier. This bloodline power replaces shadowstrike.'''
 
 [[entry]]
 id = "ref/sorcbloodline/starsoul"
@@ -3066,7 +3268,7 @@ print = "At 20th level, you gain immunity to cold and [blindness](ref/misc/blind
 [[entry]]
 id = "ref/sorcbloodline/starsoul"
 anchor = "replacement-bloodline-arcana"
-print = "Whenever you cast a spell with an energy descriptor that matches your elemental bloodline's energy type, that spell deals +1 point of damage per die rolled."
+print = "Whenever you cast an evocation spell, you may select one affected target that fails its save to suffer the choking airlessness of the void, silencing it (as _silence_, but affecting only the target) for 1 round. This is a supernatural ability."
 
 [[entry]]
 id = "ref/sorcbloodline/starsoul"
@@ -3080,17 +3282,19 @@ print = "At 9th level, you can create an area influenced by the black void. This
 
 [[entry]]
 id = "ref/sorcbloodline/starsoul"
-anchor = "primal"
+anchor = "void-touched-wildblooded-mutation"
 print = '''
-Your powers are attuned to the concentrated core of the elemental plane.
+The darkness between the stars calls to you.
 
-**Associated Bloodline:** Elemental.
+**Associated Bloodline:** Starsoul.
 
-**Bloodline Arcana:** Whenever you cast a spell with an energy descriptor that matches your elemental bloodline's energy type, that spell deals +1 point of damage per die rolled.
+**Bloodline Arcana:** Whenever you cast an evocation spell, you may select one affected target that fails its save to suffer the choking airlessness of the void, silencing it (as _silence_, but affecting only the target) for 1 round. This is a supernatural ability.
 
-**Bloodline Powers:** You can infuse raw energy into your summoned minions.
+**Bloodline Powers:** Your magic is blacker than any night.
 
-**Elementalist Summoning (Su):** At 9th level, whenever you summon a creature, it gains energy resistance 10 against the energy type that matches your elemental bloodline (if it already has such resistance, its resistance increases by +5), and its natural attacks deal an additional 1d6 points of damage of the same energy type. This bloodline power replaces elemental blast.'''
+**Black Motes (Sp):** This ability works exactly like (and replaces) minute meteors, except it deals cold damage.
+
+**Voidfield (Sp):** At 9th level, you can create an area influenced by the black void. This ability acts as an _ice storm_, except the area is also subject to _deeper darkness_ for 1 round per four sorcerer levels. You may use this ability once per day at 3rd level, and one additional time per day for every three additional levels. The bloodline power replaces aurora borealis.'''
 
 [[entry]]
 id = "ref/sorcbloodline/stormborn"
@@ -3150,7 +3354,7 @@ print = "At 20th level, you are one with the storm. You gain immunity to deafnes
 [[entry]]
 id = "ref/sorcbloodline/stormborn"
 anchor = "replacement-bloodline-arcana"
-print = "Whenever you cast a spell that deals energy damage, you can change the type of damage to acid. This effect also changes the spell's descriptors to match this energy type."
+print = "Whenever outdoors during any form of precipitation, your effective caster level is increased by 2."
 
 [[entry]]
 id = "ref/sorcbloodline/stormborn"
@@ -3159,8 +3363,17 @@ print = "At 9th level, you can call the winds to obey your commands for 1 minute
 
 [[entry]]
 id = "ref/sorcbloodline/stormborn"
-anchor = "shaitan"
-print = "You were born with the power of earth genies, and the magic of the shaitans is strong in you.\n\n**Class Skill:** Knowledge (planes).\n\n**Bonus Spells:** _true strike_ (3rd), _glitterdust_ (5th), _greater magic weapon_ (7th), _stoneskin_ (9th), _wall of stone_ (11th), _wall of iron_ (13th), _plane shift_ (15th), _iron body_ (17th), _wish_ (19th).\n\n**Bonus Feats:** Dodge, Empower Spell, Great Fortitude, Improved Initiative, Lightning Reflexes, Power Attack, Skill Focus (Knowledge \\[planes\\]), Weapon Finesse.\n\n**Bloodline Arcana:** Whenever you cast a spell that deals energy damage, you can change the type of damage to acid. This effect also changes the spell's descriptors to match this energy type.\n\n**Bloodline Powers:** Like a shaitan, you have both natural power over earth, and several other genie-based abilities.\n\n**Acid Ray (Sp):** Starting at 1st level, you can unleash an elemental ray as a standard action, targeting any foe within 30 feet as a ranged touch attack. This ray deals 1d6 points of acid damage + 1 for every two sorcerer levels you possess. You can use this ability a number of times per day equal to 3 + your Charisma modifier.\n\n**Elemental Resistance (Ex):** At 3rd level, you gain acid resistance 10. At 9th level, your acid resistance increases to 20.\n\n**Avalanche (Su):** At 9th level, whenever you hit a single target with a spell that deals damage, you may make a bull rush check as a swift action. Your CMB for this maneuver is equal to your sorcerer caster level + your Charisma bonus. You can make this maneuver even if the target is not in melee range, and you do not provoke an attack of opportunity for making this maneuver. If the target is in contact with earth, stone, or rock, you gain a +4 bonus on your CMB check.\n\n**Elemental Movement (Su):** At 15th level, you gain a burrow speed of 30 feet.\n\n**Power of the Shaitan (Su):** At 20th level, you gain the power of genies to grant wishes. Once per day, you can cast _limited wish_ as a spell-like ability. Such wishes must begin with the words \"I wish,\" and cannot duplicate a wish you have granted within the past 24 hours. If you use this ability to duplicate a spell with a costly material component, you must provide that component.\n\nYou become immune to acid damage, and can use _plane shift_ once per day to travel to or from the Plane of Earth."
+anchor = "aerial"
+print = '''
+Your magic is more focused on the power of air and rain than on lightning and thunder.
+
+**Associated Bloodline:** Stormborn.
+
+**Bloodline Arcana:** Whenever outdoors during any form of precipitation, your effective caster level is increased by 2.
+
+**Bloodline Powers:** The greatest storms bring ruin through wind, not electricity.
+
+**Windcaller (Sp):** At 9th level, you can call the winds to obey your commands for 1 minute per level. This functions like _control winds_, except that you may choose to be immune to any increased wind effects you create. The ability's duration does not need to be consecutive, but it must be used in 1-minute increments. This bloodline power replaces thunderbolt.'''
 
 [[entry]]
 id = "ref/sorcbloodline/verdant"
@@ -3220,7 +3433,7 @@ print = "At 20th level, your verdant heritage fully manifests. You gain a +4 nat
 [[entry]]
 id = "ref/sorcbloodline/verdant"
 anchor = "replacement-bloodline-arcana"
-print = "Whenever you fail a concentration check to cast a spell, a cantrip effect is created. Randomly determine one of your cantrips known (for example, if you know 6 cantrips, roll 1d6). There is a 50% chance this cantrip affects a target of your choice within 60 feet; otherwise it affects you."
+print = "Your powers of compulsion can affect even plant creatures. Whenever you cast a mind-affecting or language-dependent spell, it affects creatures of the plant type as if they were humanoids that understood your language."
 
 [[entry]]
 id = "ref/sorcbloodline/verdant"
@@ -3229,17 +3442,17 @@ print = "At 3rd level, whenever you summon creatures with a conjuration (summoni
 
 [[entry]]
 id = "ref/sorcbloodline/verdant"
-anchor = "anarchic"
+anchor = "groveborn-wildblooded-mutation"
 print = '''
-Your magical power taps into pure anarchy.
+Some plant magic is more green, while some is more brown, like hardwood.
 
-**Associated Bloodline:** Protean.
+**Associated Bloodline:** Verdant.
 
-**Bloodline Arcana:** Whenever you fail a concentration check to cast a spell, a cantrip effect is created. Randomly determine one of your cantrips known (for example, if you know 6 cantrips, roll 1d6). There is a 50% chance this cantrip affects a target of your choice within 60 feet; otherwise it affects you.
+**Bloodline Arcana:** Your powers of compulsion can affect even plant creatures. Whenever you cast a mind-affecting or language-dependent spell, it affects creatures of the plant type as if they were humanoids that understood your language.
 
-**Bloodline Powers:** Raw magical energy lashes out when you destroy or negate hostile spells.
+**Bloodline Powers:** Your nature powers create tough, resilient minions.
 
-**Wild Feedback (Su):** At 3rd level, when you successfully dispel or counterspell an opponent's spell, the caster (if it is within 100 feet) takes 1d6 points of damage +1 per level of the spell affected. This bloodline power replaces protean resistances.'''
+**Lush Summoning (Su):** At 3rd level, whenever you summon creatures with a conjuration (summoning) spell, you can decide that they appear green and leafy. The natural armor bonus of such creatures is increased by +2, and they gain a +4 bonus on saves against paralysis, poison, polymorph, sleep, and stunning. This bloodline power replaces photosynthesis.'''
 
 [[entry]]
 id = "ref/talent/another-day"
@@ -3277,6 +3490,16 @@ anchor = "coax-information"
 print = "A rogue with this talent can use [Bluff](ref/skill/bluff) or [Diplomacy](ref/skill/diplomacy) in place of [Intimidate](ref/skill/intimidate) to force an opponent to act friendly toward her."
 
 [[entry]]
+id = "ref/talent/combat-swipe"
+anchor = "combat-swipe"
+print = "A rogue who selects this talent gains [Improved Steal](ref/feat/improved-steal) as a bonus feat."
+
+[[entry]]
+id = "ref/talent/cunning-trigger"
+anchor = "cunning-trigger"
+print = "A rogue with this talent can use a swift action to set off any trap within 30 feet that she constructed."
+
+[[entry]]
 id = "ref/talent/deadly-cocktail"
 anchor = "deadly-cocktail"
 print = "A rogue with this talent can apply two doses of poison to a weapon at once. These can be separate poisons, in which case they both affect the target individually, or two doses of the same toxin, in which case the poisons' frequency is extended by 50% and the save DC increases by +2. This talent is an exception to the rule that injury poisons can only be delivered one dose at a time."
@@ -3285,6 +3508,20 @@ print = "A rogue with this talent can apply two doses of poison to a weapon at o
 id = "ref/talent/deadly-sneak"
 anchor = "deadly-sneak"
 print = "Whenever a rogue with this talent uses the [powerful sneak](ref/talent/powerful-sneak) rogue talent, she treats all 1s and 2s on the sneak attack damage dice as 3s. A rogue must have the [powerful sneak](ref/talent/powerful-sneak) rogue talent before choosing this talent."
+
+[[entry]]
+id = "ref/talent/distracting-attack"
+anchor = "distracting-attack"
+print = '''
+The ranger can use this trick as a free action before he makes an attack. If the attack hits, the target takes a -2 penalty on all attack rolls for 1 round.
+
+_Hateful Attack (Ex)_: The ranger can use this trick as a free action when he makes an attack against one of his favored enemies. The ranger doubles the threat range of his weapon for this attack. This does not stack with other abilities that increase a weapon's threat range.
+
+_Heel (Ex)_: The ranger can use this trick as an immediate action when his animal companion moves. When the companion moves, the square it starts out in is not considered threatened by any opponent it can see, and therefore visible enemies do not get attacks of opportunity against it when it moves from that square. The companion must end this movement in a square adjacent to the ranger. The animal companion must be able to see and hear the ranger to take this movement.
+
+_Hobbling Attack (Ex)_: The ranger can use this trick as a free action when he hits with an attack. The target of the attack's land speed is reduced by 1/2 for 1d4 rounds.
+
+_Quick Climb (Ex)_: The ranger can climb at his full speed as a move action without penalty.'''
 
 [[entry]]
 id = "ref/talent/entanglement-of-blades"
@@ -3380,6 +3617,14 @@ print = "Once per day, when a rogue with this talent hits a creature with a mele
 id = "ref/talent/powerful-sneak"
 anchor = "powerful-sneak"
 print = "Whenever a rogue with this talent takes a full attack action, she can elect to take a -2 penalty on all attack rolls until the start of her next turn. If an attack during this time is a sneak attack, she treats all 1s on the sneak attack damage dice as 2s."
+
+[[entry]]
+id = "ref/talent/quick-disguise"
+anchor = "quick-disguise"
+print = '''
+A rogue with this talent can use the items at hand and seemingly innocuous material hidden on her person to create startlingly effective disguises, reducing the amount of time it takes to create a disguise using the [Disguise](ref/skill/disguise) skill.
+
+The time needed for the rogue to alter her appearance in this manner is based on the complexity of the disguise, as noted on the following table. The times are cumulative, so if a female rogue wants to disguise herself as a male of a different race, that takes 2 minutes.'''
 
 [[entry]]
 id = "ref/talent/quick-trapsmith"
