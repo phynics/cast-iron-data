@@ -224,7 +224,7 @@ def title_as_head(q):
 
 
 # the bold header of a class table that print sets in the middle of the text ("Spells per Day", "1st 2nd 3rd 4th", "Extracts per Day"): no feature head
-TABLE_HEAD_RE = re.compile(r"^(?:\d+(?:st|nd|rd|th)?\b.*|(?:spells|extracts|formulae|powers)(?: known| per day|\s+per\s+\w+)\s*)$", re.I)
+TABLE_HEAD_RE = re.compile(r"^(?:(?:0\s+)?\d+(?:st|nd|rd|th)(?:\s+\d+(?:st|nd|rd|th))+\s*|(?:spells|extracts|formulae|powers)(?: known| per day|\s+per\s+\w+)\s*)$", re.I)
 TABLE_HEADS: set[str] = set()          # squash of the header row of each table of the entry that is compared
 
 
@@ -628,6 +628,42 @@ def adopt_tables(printed: str, body: str) -> tuple[str, int]:
     return "\n\n".join(pars), n
 
 
+SENTENCE_END = re.compile(r"(?<=[.!?])[\"\u201d\u2019)]*\s+(?=[A-Z\u201c\"(+\u2013\d])")
+CELL = re.compile(r"^(?:[+\-\u2013\u2014]?\d+(?:/[+\-\u2013\u2014]?\d+)*(?:st|nd|rd|th)?|[\u2014\u2013-])[,.]?$")
+
+
+def print_lost(printed: str, written: str) -> list[str]:
+    """Print-coverage check (review of #373): the printed sentences (at least 12 letters) of a power's span that the written text lacks. Compared by their letters
+    and digits; runs of three numeric tokens in a printed sentence (cells of a table that the text layer set inside it) are not words of it; a sentence of
+    which at most one word (four letters or more, at least eight of them) is missing is there (a misprint of print that the corpus corrected)."""
+    plain = re.sub(r"[_*>]|^\s*[-\u2022]\s+", "", re.sub(r"\[([^\]]*)\]\([^)]*\)", r"\1", written), flags=re.M)
+    have = fp.squash(plain)
+    words = set(re.findall(r"[a-z]{4,}", plain.lower().replace("\u2019", "'")))
+    out = []
+    for s in SENTENCE_END.split(" ".join(printed.split())):
+        if len(re.sub(r"[^A-Za-z]", "", s)) < 12:
+            continue
+        s = re.sub(r"^\((?:Ex|Su|Sp)(?:(?:, or |, and |, | or | and )(?:Ex|Su|Sp))*\):\s*", "", s)
+        toks, kept, run = s.split(), [], []
+        for x in toks + [""]:
+            if x and CELL.match(x):
+                run.append(x)
+                continue
+            if len(run) < 3:
+                kept += run
+            run = []
+            if x:
+                kept.append(x)
+        s = " ".join(kept)
+        if fp.squash(s) in have:
+            continue
+        ws = re.findall(r"[a-z]{4,}", s.lower().replace("\u2019", "'"))
+        if len(ws) >= 8 and sum(w not in words for w in ws) <= 1:
+            continue
+        out.append(s)
+    return out
+
+
 def compare_one(e, book, bk, other=None) -> list[dict]:
     """The rows of one entry: one per power, from the shared print comparison of the archetype pass."""
     shape, n = shape_of(e.body)
@@ -683,6 +719,8 @@ def compare_one(e, book, bk, other=None) -> list[dict]:
                 if not ended2:
                     noend.add(sp)
     rows, seen = [], Counter()
+    _, raw_pfs = fp.split_print(section, [f.name for f in feats])               # the printed span of each power, before the comparison cuts or joins anything
+    raw_text = {fp.namekey(fp.head_text(pf.head)): " ".join("".join(x[0] for x in para) for para in pf.paras) for pf in raw_pfs}
     blocks_b = rw.parse_blocks(e0.body.split("\n"))
     cands = rw.candidates(blocks_b, True)
     promo = promoted(blocks_b, cands)
@@ -742,6 +780,10 @@ def compare_one(e, book, bk, other=None) -> list[dict]:
         cut = incomplete_paragraph(printed)
         if cut:
             notes.append(f"print text may be cut at a page or column break: ...{cut}")
+            status, hard = "hold", True
+        lost_s = print_lost(raw_text.get(fp.namekey(fp.head_text(r["head"])), ""), printed) if r.get("head") else []
+        if lost_s:
+            notes.append(f"print sentences that the written text lacks ({len(lost_s)}): " + " | ".join(x[:60] for x in lost_s[:2]))
             status, hard = "hold", True
         if problems:
             notes += problems
@@ -1629,6 +1671,12 @@ def self_test() -> int:
        ("It has [claws](ref/evolution/claws).", ["tail"]), "ruling 60: an item that stands nowhere is reported")
     for line in bad:
         print("FAIL", line)
+    eq(print_lost("Whenever she uses it, she can invoke true judgment on a foe. Regardless of whether the save is made, the target is immune for 24 hours.", "Whenever she uses it, she can invoke true judgment on a foe."),
+       ["Regardless of whether the save is made, the target is immune for 24 hours."], "the coverage check names a printed sentence that the written text lacks")
+    eq(print_lost("This ability 4 4 3 3 is the equivalent of a spell of a level equal to one-third the level.", "This ability is the equivalent of a spell of a level equal to one-third the level."), [], "cells inside a printed sentence are no words of it")
+    eq(print_lost("(Su): The witch can create a magic sensor that she can see through.", "The [witch](ref/x) can create a magic sensor that she can see through."), [], "the tag of a head and a link are not differences")
+    eq([bool(TABLE_HEAD_RE.match(x)) for x in ("1st 2nd 3rd 4th", "0 1st 2nd 3rd", "Spells per Day", "Extracts per Day", "2-Point Evolutions", "3rd-Level Spells", "1st-Level Witch Spells", "1 Point Evolutions", "4th Level")],
+       [True, True, True, True, False, False, False, False, False], "the header of a class table is no head; a group heading that starts with a number or an ordinal is (near misses)")
     print(f"self-test: {ok} checks passed" if not bad else f"self-test: {len(bad)} failures")
     return 1 if bad else 0
 

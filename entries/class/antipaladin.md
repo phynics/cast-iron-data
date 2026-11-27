@@ -188,34 +188,40 @@ of the cruelties possessed by the antipaladin. This choice is made when the touc
 target receives a Fortitude save to avoid this cruelty. If the save is successful, the target takes
 the damage as normal, but not the effects of the cruelty. The DC of this save is equal to 10 + 1/2
 the antipaladin's level + the antipaladin's Charisma modifier. At 3rd level, the antipaladin can
-select from the following initial cruelties. _• Fatigued_: The target is
-[fatigued](ref/misc/fatigued). _• Shaken_: The target is [shaken](ref/misc/shaken) for 1 round per
-level of the antipaladin. _• Sickened_: The target is [sickened](ref/misc/sickened) for 1 round per
-level of the antipaladin.
+select from the following initial cruelties.
+
+- Fatigued: The target is [fatigued](ref/misc/fatigued).
+- Shaken: The target is [shaken](ref/misc/shaken) for 1 round per level of the antipaladin.
+- Sickened: The target is [sickened](ref/misc/sickened) for 1 round per level of the antipaladin.
 
 At 6th level, an antipaladin adds the following cruelties to the list of those that can be selected.
-_• Dazed_: The target is [dazed](ref/misc/dazed) for 1 round. _• Diseased_: The target contracts a
-disease, as if the antipaladin had cast _[contagion](ref/spell/contagion)_, using his antipaladin
-level as his caster level. _• Staggered_: The target is [staggered](ref/misc/staggered) for 1 round
-per two levels of the antipaladin.
+
+- Dazed: The target is [dazed](ref/misc/dazed) for 1 round.
+- Diseased: The target contracts a disease, as if the antipaladin had cast
+  _[contagion](ref/spell/contagion)_, using his antipaladin level as his caster level.
+- Staggered: The target is [staggered](ref/misc/staggered) for 1 round per two levels of the
+  antipaladin.
 
 At 9th level, an antipaladin adds the following cruelties to the list of those that can be selected.
-_• Cursed_: The target is cursed, as if the antipaladin had cast
-_[bestow curse](ref/spell/bestow-curse)_, using his antipaladin level as his caster level. _•
-Exhausted_: The target is [exhausted](ref/misc/exhausted). The antipaladin must have the fatigue
-cruelty before selecting this cruelty. _• Frightened_: The target is
-[frightened](ref/misc/frightened) for 1 round per two levels of the antipaladin. The antipaladin
-must have the shaken cruelty before selecting this cruelty. _• Nauseated_: The target is
-[nauseated](ref/misc/nauseated) for 1 round per three levels of the antipaladin. The antipaladin
-must have the sickened cruelty before selecting this cruelty. _• Poisoned_: The target is poisoned,
-as if the antipaladin had cast _[poison](ref/spell/poison)_, using the antipaladin's level as the
-caster level.
+
+- Cursed: The target is cursed, as if the antipaladin had cast
+  _[bestow curse](ref/spell/bestow-curse)_, using his antipaladin level as his caster level.
+- Exhausted: The target is [exhausted](ref/misc/exhausted). The antipaladin must have the fatigue
+  cruelty before selecting this cruelty.
+- Frightened: The target is [frightened](ref/misc/frightened) for 1 round per two levels of the
+  antipaladin. The antipaladin must have the shaken cruelty before selecting this cruelty.
+- Nauseated: The target is [nauseated](ref/misc/nauseated) for 1 round per three levels of the
+  antipaladin. The antipaladin must have the sickened cruelty before selecting this cruelty.
+- Poisoned: The target is poisoned, as if the antipaladin had cast _[poison](ref/spell/poison)_,
+  using the antipaladin's level as the caster level.
 
 At 12th level, an antipaladin adds the following cruelties to the list of those that can be
-selected. _• Blinded_: The target is [blinded](ref/misc/blinded) for 1 round per level of the
-antipaladin. _• Deafened_: The target is [deafened](ref/misc/deafened) for 1 round per level of the
-antipaladin. _• Paralyzed_: The target is [paralyzed](ref/rule/paralyzed) for 1 round. _• Stunned_:
-The target is [stunned](ref/misc/stunned) for 1 round per four levels of the antipaladin.
+selected.
+
+- Blinded: The target is [blinded](ref/misc/blinded) for 1 round per level of the antipaladin.
+- Deafened: The target is [deafened](ref/misc/deafened) for 1 round per level of the antipaladin.
+- Paralyzed: The target is [paralyzed](ref/rule/paralyzed) for 1 round.
+- Stunned: The target is [stunned](ref/misc/stunned) for 1 round per four levels of the antipaladin.
 
 These abilities are not cumulative. For example, a 12th-level antipaladin's touch of corruption
 ability deals 6d6 points of damage and might also cause the target to become fatigued, dazed,
@@ -266,9 +272,16 @@ _wounding_. Adding these properties consumes an amount of bonus equal to the pro
 Table 15–9 in the _Core Rulebook_). These bonuses are added to any properties the weapon already
 has, but duplicate abilities do not stack. If the weapon is not magical, at least a +1 enhancement
 bonus must be added before any other properties can be added. The bonus and properties granted by
-the spirit If a weapon bonded with a fiendish spirit is destroyed, the antipaladin loses the use of
-this ability for 30 days, or until he gains a level, whichever comes first. During this 30-day
-period, the antipaladin takes a -1 penalty on attack and weapon damage rolls.
+the spirit are determined when the spirit is called and cannot be changed until the spirit is called
+again. The fiendish spirit imparts no bonuses if the weapon is held by anyone other than the
+antipaladin but resumes giving bonuses if returned to the antipaladin. These bonuses apply to only
+one end of a double weapon. An antipaladin can use this ability once per day at 5th level, and one
+additional time per day for every four levels beyond 5th, to a total of four times per day at 17th
+level.
+
+If a weapon bonded with a fiendish spirit is destroyed, the antipaladin loses the use of this
+ability for 30 days, or until he gains a level, whichever comes first. During this 30-day period,
+the antipaladin takes a -1 penalty on attack and weapon damage rolls.
 
 The second type of bond allows an antipaladin to gain the service of a fiendish servant. This
 functions as _summon monster III_, except the duration is permanent and the antipaladin can only

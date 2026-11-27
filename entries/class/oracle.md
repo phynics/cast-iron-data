@@ -180,6 +180,7 @@ dispelled without the aid of a deity. An oracle's curse is based on her oracle l
 every two levels or Hit Dice other than oracle. Each oracle must choose one of the following curses.
 
 - [Clouded Vision](ref/oraclecurse/clouded-vision)
+- [Deaf](ref/oraclecurse/deaf)
 - [Haunted](ref/oraclecurse/haunted)
 - [Lame](ref/oraclecurse/lame)
 - [Tongues](ref/oraclecurse/tongues)

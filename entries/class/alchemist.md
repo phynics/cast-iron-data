@@ -250,6 +250,7 @@ marked with an asterisk (\*) do not stack. Only one such discovery can be applie
 bomb. The DC of any saving throw called for by a discovery is equal to 10 + 1/2 the alchemist's
 level + the alchemist's Intelligence modifier.
 
+- [Acid bomb](ref/discovery/acid-bomb)
 - [Combine extracts](ref/discovery/combine-extracts)
 - [Concentrate poison](ref/discovery/concentrate-poison)
 - [Concussive bomb](ref/discovery/concussive-bomb)

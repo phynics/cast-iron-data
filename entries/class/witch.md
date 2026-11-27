@@ -157,42 +157,6 @@ Intelligence modifier to store in her familiar. At each new witch level, she add
 any spell level or levels that she can cast (based on her new witch level) to her familiar. A witch
 can also add additional spells to her familiar through a special ritual (see sidebar).
 
-##### Adding Spells to a Witch's Familiar {#adding-spells-to-a-witch-s-familiar}
-
-Witches can add new spells to their familiars through several methods. A witch can only add spells
-to her familiar if those spells belong to the witch's spell list.
-
-##### Spells Gained at a New Level {#spells-gained-at-a-new-level}
-
-A witch's familiar learns a certain amount of lore and magic as the witch adventures. Whenever a
-witch gains a level, she may add two spells from the witch spell list to her familiar. The two free
-spells must be of spell levels she can cast.
-
-##### Familiar Teaching Familiar {#familiar-teaching-familiar}
-
-A witch's familiar can learn spells from another witch's familiar. To accomplish this, the familiars
-must spend one hour per level of the spell being taught in communion with one another. At the end of
-this time, the witch whose familiar is learning a spell must make a Spellcraft check (DC 15 + spell
-level). If the check succeeds, the familiar has learned the spell and the witch may utilize it the
-next time she prepares spells. If the check fails, the familiar has failed to learn the spell and
-cannot try to learn that spell again until the witch has gained another rank in Spellcraft. Most
-witches require a spell of equal or greater level in return for this service. If a familiar belongs
-to a witch that has died, it only retains its knowledge of spells for 24 hours, during which time it
-is possible to coerce or bribe the familiar into teaching its spells to another, subject to GM
-discretion.
-
-##### Learn from a Scroll {#learn-from-a-scroll}
-
-A witch can use a scroll to teach her familiar a new spell. This process takes 1 hour per level of
-the spell to be learned, during which time the scroll is burned and its ashes used to create a
-special brew or powder that is consumed by the familiar. This process destroys the scroll. At the
-end of this time, the witch must make a Spellcraft check (DC 15 + spell level). If the check fails,
-the process went awry in some way and the spell is not learned, although the scroll is still
-consumed. witches within 10 feet who also have the coven hex can see through this sensor as well,
-although the witch that created it still controls it. The witch can use this eye for a number of
-minutes per day equal to her level. These minutes do not need to be consecutive, but they must be
-spent in 1-minute increments.
-
 #### Patron Spells {#patron-spells}
 
 At 1st level, when a witch gains her familiar, she must also select a patron. This patron is a vague
@@ -224,6 +188,12 @@ major hexes whenever she could select a new hex.
 
 - [Agony (Su)](ref/hex/agony)
 - [Hag's Eye (Su)](ref/hex/hags-eye)
+- [Major Healing (Su)](ref/hex/major-healing)
+- [Nightmares (Su)](ref/hex/nightmares)
+- [Retribution (Su)](ref/hex/retribution)
+- [Vision (Su)](ref/hex/vision)
+- [Waxen Image (Su)](ref/hex/waxen-image)
+- [Weather Control (Su)](ref/hex/weather-control)
 
 #### Grand Hex {#grand-hex}
 

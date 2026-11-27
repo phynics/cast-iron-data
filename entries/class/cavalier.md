@@ -12,7 +12,7 @@ publication = "advanced-players-guide"
 page = "32"
 [[sources]]
 publication = "chronicle-of-legends"
-page = "4"
+page = "4, 28"
 
 [fields]
 kind = "class"
