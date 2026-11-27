@@ -68,6 +68,23 @@ def is_table_para(text: str) -> bool:
     return len(toks) >= 5 and sum(bool(NUMERIC.match(x)) for x in toks) / len(toks) >= 0.5
 
 
+def section_behind(blocks: list, win: list, lacking: set[str]) -> list:
+    """The sections that follow the class features in print under a title that is a head of the corpus (`lacking`): the title and its blocks up to the next
+    title. The cells of a table in them are left out as in the window."""
+    last = blocks.index(win[-1]) if win and win[-1] in blocks else 0
+    out: list = []
+    on = False
+    for b in blocks[last + 1:]:
+        if b.kind == "title" and not b.plain().strip().lower().startswith("table"):
+            on = fp.squash(b.plain()) in lacking
+            if on:
+                out.append(b)
+            continue
+        if on and not (b.kind == "para" and is_table_para(b.plain())):
+            out.append(b)
+    return out
+
+
 def prose_after_cells(text: str) -> str:
     """The text of a sentence that shares a paragraph with the cells of a table: after the leading numbers ("6 6 6 6 due to encumbrance. At 5th level, ...") or
     after the last cell of a table ("... 6 6 6 4 \u2014 with the summoner. Effects that cause death ..."), when it holds a sentence (a full stop), else
@@ -88,7 +105,25 @@ def prose_after_cells(text: str) -> str:
     return ""
 
 
-def window(blocks: list) -> list:
+TABLE_RUN = re.compile(r"^\s*(?:spells|extracts|formulae)\s+(?:per\s+day|known)|^\s*base\s+attack|^\s*level\s+(?:bonus|1st)", re.I)
+
+
+def split_table_runs(b):
+    """The paragraphs that stay of a paragraph that holds the header and the cells of a class table after its text ("Witch's Familiar (Ex): At 1st level, ...
+    [bold] Spells per Day 0 3 1 -- ..."): the text before the first bold run that is a table header, and a sentence that follows the cells. None when the
+    paragraph has no table header run."""
+    for n, (txt, bold, _it) in enumerate(b.runs):
+        if n > 0 and bold and TABLE_RUN.match(txt):
+            keep = [fp.Para("para", list(b.runs[:n]), b.page, b.col, 0)]
+            rest = "".join(x[0] for x in b.runs[n:])
+            prose = prose_after_cells(rest)
+            if prose:
+                keep.append(fp.Para("para", [(prose, False, False)], b.page, b.col, 0))
+            return keep
+    return None
+
+
+def window(blocks: list, heads: set[str] | frozenset = frozenset()) -> list:
     """The blocks of the section "Class Features" of the class: after that title, up to the next subsection or class title. A class table (its title and its
     cells) and a sidebar title (set larger, 24) do not end it; the cells of the table are not text of a feature."""
     at = next((i for i, b in enumerate(blocks) if b.kind == "title" and fp.squash(b.plain()) == "classfeatures"), None)
@@ -96,10 +131,15 @@ def window(blocks: list) -> list:
         return []
     out = []
     for b in blocks[at + 1:]:
-        if b.kind == "title" and not b.plain().strip().lower().startswith("table") and (b.size == 18 or b.size >= 38):
-            break
+        if b.kind == "title" and not b.plain().strip().lower().startswith("table") and (b.size == 18 or b.size >= 38) and fp.squash(b.plain()) not in heads:
+            break                                          # a subsection title ends the window, unless the corpus has it as a feature head (Patron Spells)
         if b.kind == "title" and b.plain().strip().lower().startswith("table"):
             continue                                       # the title of a class table is not text of a feature
+        if b.kind == "para":
+            cut = split_table_runs(b)
+            if cut is not None:                            # prose, then the header and the cells of a class table in one paragraph
+                out += cut
+                continue
         if b.kind == "para" and is_table_para(b.plain()):
             prose = prose_after_cells(b.plain())
             if prose:                                      # the cells ran into the text of a sentence that the table broke: the sentence stays
@@ -126,22 +166,64 @@ def join_across_tables(blocks: list) -> list:
 HEAD_RE = re.compile(r"^#### (.*?)(?: \{#([^}]+)\})?\s*$")
 WRITE_FEATURES = False        # the `features` of a class (anchor and level from the class table): off until the app has answered (owner call 5); bodies are written without
 # The printed name of a head that the corpus names otherwise and that no plural or tag rule reaches: (class entry, key) -> print's head
-PRINT_NAMES: dict[tuple[str, str], str] = {("ref/class/antipaladin", "channel-energy"): "Channel Negative Energy (Su)"}
+PRINT_NAMES: dict[tuple[str, str], str] = {}
+
+
+# Where an unlisted section stands when print sets it away from its feature (the sidebar of the Witch's Familiar is in the next column, after Major Hex):
+# (class entry, key) -> (the key of the feature it belongs under, its level: one level below the feature head, ruling 15)
+PLACE_UNDER: dict[tuple[str, str], tuple[str, int]] = {
+    ("ref/class/witch", "adding-spells-to-a-witch-s-familiar"): ("witch-s-familiar", 5),
+    ("ref/class/witch", "spells-gained-at-a-new-level"): ("witch-s-familiar", 5),
+    ("ref/class/witch", "familiar-teaching-familiar"): ("witch-s-familiar", 5),
+    ("ref/class/witch", "learn-from-a-scroll"): ("witch-s-familiar", 5),
+}
+TABLE_LEAK = re.compile(r"\b(?:Spells|Extracts) per Day\s+(?:\d|1st|[\u2014\u2013])|(?:(?:[\u2014\u2013]|\d+)\s+){6,}")
 
 
 # Print's layout puts a class table beside the text, and the text layer of the page runs words of the table's Special column into a sentence. Known cases:
 # (class entry, key) -> [(what the layer has, what the sentence says)], each checked against the page.
 LAYOUT_FIXES: dict[tuple[str, str], list[tuple[str, str]]] = {
     ("ref/class/summoner", "eidolon"): [("the Twin eidolon summoner's class level", "the summoner's class level")],
+    ("ref/class/inquisitor", "slayer"): [("cannot be changed for the remainder of the judgment", "cannot be changed for the remainder of the judgment.")],     # print's sentence has no full stop (errata row of ruling 43)
+    ("ref/class/antipaladin", "fiendish-boon"): [("re:Spells per Day 1st 2nd 3rd 4th(?: [\u2014\u2013\\d]+)+ ", "")],             # the cells of Table 2-13 (Advanced Player's Guide, Antipaladin p. 121)
+    ("ref/class/inquisitor", "solo-tactics"): [("re:Spells per Day(?: \\d+)+ ", "")],                                              # the cells of Table 2-4 (Inquisitor p. 40)
     ("ref/class/summoner", "life-link"): [("more than 1,000 feet Spells per Day 5 5 5 5 5 5 away", "more than 1,000 feet away")],       # the cells of Table 2-8 (Advanced Player's Guide, Summoner p. 56)   # Table 2-7 lists "Twin eidolon" at 20th level (Advanced Player's Guide, Summoner p. 55)
 }
 
 
 def stem(name: str) -> str:
     """A head without its tag, in lower case, the last word in the singular ("Weapon and Armor Proficiencies" and "... Proficiency" are one head)."""
-    s = fp.ABILITY_TAG.sub("", name).strip().rstrip(":").strip().lower()
+    s = " ".join(fp.ABILITY_TAG.sub("", name).strip().rstrip(":").strip().lower().split())        # print sets some heads with double spaces
     s = re.sub(r"ies$", "y", s)
     return re.sub(r"(?<!s)s$", "", s)
+
+
+def references(corpus: Path, class_id: str, key: str) -> list[str]:
+    """The entries that point at a head of a base class: a trade of an archetype of the class (`feature = "<key>"`, in `entries/arc-<class>/`) or a link to
+    `<class id>#<key>` anywhere. A head that print does not set may be dropped only when nothing points at its key."""
+    cls = class_id.rsplit("/", 1)[1]
+    out = []
+    for p in sorted((corpus / "entries").rglob("*.md")):
+        text = p.read_text(encoding="utf-8")
+        if f"{class_id}#{key})" in text or (p.parent.name == f"arc-{cls}" and f'feature = "{key}"' in text):
+            out.append(p.stem)
+    return out
+
+
+def overlap(a: str, b: str) -> int:
+    wa = set(re.findall(r"[a-z']{4,}", a.lower()))
+    return len(wa & set(re.findall(r"[a-z']{4,}", b.lower())))
+
+
+def split_between(paras: list[str], first_corpus: str, second_corpus: str) -> int:
+    """Where a printed feature ends and the next feature of the corpus (that print sets inside it, as text) begins: the paragraph index that gives the best
+    overlap of words, the first part with the corpus text of the first feature and the rest with the second (at least one paragraph each)."""
+    best, at = -1, len(paras)
+    for k in range(1, len(paras)):
+        s = sum(overlap(x, first_corpus) for x in paras[:k]) + sum(overlap(x, second_corpus) for x in paras[k:])
+        if s > best:
+            best, at = s, k
+    return at
 
 
 def corpus_heads(lines: list[str], region: tuple[int, int]) -> list[tuple[int, str, str]]:
@@ -196,22 +278,33 @@ def compare_class(corpus: Path, e, bk, cache: dict, options: dict | None = None,
     title = fp.Para("title", [(e.title, True, False)], page, 0, 20)
     _, pfs = fp.split_print([title] + win, [h for _, h, _ in heads])
     printed = {fp.namekey(fp.head_text(f.head)): fp.head_text(f.head) for f in pfs}
+    # a corpus head that print sets as the title of a section behind the class features ("Patron Spells" over the patrons of the Witch, p. 70): that
+    # section is read as the text of the head
+    lacking = {fp.squash(fp.ABILITY_TAG.sub("", h)) for _, h, _ in heads if fp.namekey(h) not in printed and not any(stem(ph) == stem(h) for ph in printed.values())}
+    win = win + section_behind(blocks, win, lacking)
+    _, pfs = fp.split_print([title] + win, [h for _, h, _ in heads])
+    printed = {fp.namekey(fp.head_text(f.head)): fp.head_text(f.head) for f in pfs}
     names = {}                                                    # key -> the name that the pseudo body gives the head
     for _, text, key in heads:
         want = PRINT_NAMES.get((e.id, key))
         if want is None and fp.namekey(text) not in printed:
             want = next((ph for ph in printed.values() if stem(ph) == stem(text)), None)       # "Proficiency" for "Proficiencies"
-        names[key] = want or text
+        names[key] = (want or text).rstrip(":").strip()            # "Order (Ex):" is a name without its colon (a name that ends in one is no feature name)
     pseudo_lines = []
     for ln in lines[region[0]:region[1]]:
         m = HEAD_RE.match(ln)
         pseudo_lines.append(f"**{names[m.group(2) or fp.slugify(fp.ABILITY_TAG.sub('', m.group(1)))]}**" if m else ln)
     pseudo = "\n".join(pseudo_lines)
-    _, feats = fp.parse_import(pseudo, set())
+    probe = {fp.namekey(h) for h in (fp.head_of_para(p_) for p_ in win) if h}                  # as the print comparison reads the import: a row that print sets as a head is split off
+    _, feats_all = fp.parse_import(pseudo, probe)
+    feats = [f for f in feats_all if not f.pseudo]
+    if len(feats) != len(heads):
+        return {"items": [], "extra": [], "missing": [], "window": len(win), "problems": [f"{len(heads)} heads but {len(feats)} features read from them"], "region": region}
     e2 = dataclasses.replace(e, body=pseudo)
     res = fp.compare_entry(e2, [title] + win, bk)
     by_span = {r["span"]: r for r in res["rows"] if r["span"]}
     items, missing = [], []
+    all_spans = {f.span_sha() for f in feats_all}
     for (line, text, key), f in zip(heads, feats):
         r = by_span.get(f.span_sha())
         if r is None or "head not printed" in r["notes"]:
@@ -229,31 +322,90 @@ def compare_class(corpus: Path, e, bk, cache: dict, options: dict | None = None,
                 head = f"{head} ({tag.group(1)})" if not re.search(r"\((?:Ex|Su|Sp)[^)]*\)\s*$", head) else head
                 text = text[tag.end():]
             for old, new in LAYOUT_FIXES.get((e.id, key), []):
-                if old in " ".join(text.split()):
-                    text = " ".join(text.split("\n\n")[0].split()).replace(old, new) if "\n\n" not in text else "\n\n".join(" ".join(x.split()).replace(old, new) for x in text.split("\n\n"))
-                    notes.append(f"layout: words of the class table's Special column are in the sentence ({old!r} is {new!r})")
+                fix = (lambda s, o=old, n=new: re.sub(o[3:], n, s)) if old.startswith("re:") else (lambda s, o=old, n=new: s.replace(o, n))
+                if fix(" ".join(text.split())) != " ".join(text.split()):
+                    text = "\n\n".join(fix(" ".join(x.split())) for x in text.split("\n\n"))
+                    notes.append(f"layout: words or cells of a class table are in the sentence ({old[:50]!r})")
+            leak = TABLE_LEAK.search(" ".join(text.split()))
+            if leak:                                      # cells of a class table in the sentence: a layout fix (`LAYOUT_FIXES`) must name them
+                status = "hold"
+                notes.append(f"cells of a class table are in the text: ...{' '.join(text.split())[max(0, leak.start() - 40):leak.end() + 30]}...")
             cut = co.incomplete_paragraph(text)
             if cut:                                       # the completeness guard: the window ended, or a table stands in the sentence
                 status = "hold"
                 notes.append(f"print text may be cut at a page or column break: ...{cut}")
             items.append({"key": key, "line": line, "head": head, "print": text, "status": status, "notes": notes})
+    ends = [h[0] for h in heads[1:]] + [region[1]]
+    for (ln, _txt, _key), end, it in zip(heads, ends, items):
+        it["corpus"] = "\n".join(lines[ln + 1:end])
+    for n, it in enumerate(items):
+        if "head not printed" not in it["notes"]:
+            continue
+        refs = references(corpus, e.id, it["key"])
+        prev = next((x for x in reversed(items[:n]) if "head not printed" not in x["notes"]), None)
+        if not refs:
+            it["drop"] = True                                     # nothing points at the key: print sets the text inside another feature, written once, there
+            it["status"] = "print"
+            it["notes"] = [f"dropped: no trade or link points at `{it['key']}`; print sets its text inside the feature above it"]
+        elif prev is not None and prev["print"]:
+            paras = prev["print"].split("\n\n")
+            if len(paras) > 1:
+                k = split_between(paras, prev["corpus"], it["corpus"])
+                prev["print"], it["print"] = "\n\n".join(paras[:k]), "\n\n".join(paras[k:])
+                it["status"] = "hold"
+                it["notes"] = [f"print sets this head's text inside `{prev['key']}` (split by the corpus text); referenced by {refs[:3]}"]
+                it["split_from"] = prev["key"]
+                dec = (decisions or {}).get((e.id, it["key"]))
+                if dec and dec[0] == "print":
+                    it["status"] = "print"
+                    it["notes"].append(f"decision: {dec[1]}")
     extra, options = [], options or {}                          # the items of an option list are collected, then linked from one group
     last = None
+    taken = set(re.findall(r"\{#([^}]+)\}", e.body)) | {fp.slugify(fp.ABILITY_TAG.sub("", t_)) for _, t_, _ in heads}
+    title_heads = {fp.squash(b.plain()) for b in win if b.kind == "title"}
+    new_items: list[tuple[str | None, dict]] = []                # (key of the item before it in print, the unlisted section)
     for r in res["rows"]:
-        if r["span"] and r["span"] in {f.span_sha() for f in feats}:
+        if r["span"] and r["span"] in all_spans:
             last = r
             continue
         opt = options.get(fp.namekey(r["head"]))
         if opt and last is not None:                                # an item of an option list that has its own entry: a link under the feature
             it = next((x for x in items if x["head"] == last["head"]), None)
             if it is not None:
-                it.setdefault("candidates", []).append((r["head"], opt))
+                it.setdefault("candidates", []).append((r["head"].rstrip("*").strip(), opt))      # the star after a name is print's book marker (ruling 26): the link replaces it
             continue
-        if "head printed, not in the import" in " ".join(r["notes"]):
-            extra.append(r["head"])
+        if "head printed, not in the import" in " ".join(r["notes"]) and not is_table_para(r["head"]):
+            # a printed head that the corpus lacks: an unlisted section, one level below the feature (a sub-head, ruling 15) or a rules box at the level
+            # of the features (a sidebar title, ruling 41), with a new explicit key that no key of the class has
+            head = r["head"]
+            key = fp.slugify(fp.ABILITY_TAG.sub("", head))
+            status, notes = r["status"], list(r["notes"])
+            if key in taken:
+                status = "hold"
+                notes.append(f"the new key `{key}` is a key of the class already")
+            taken.add(key)
+            cut = co.incomplete_paragraph(r["print"])
+            if cut:
+                status = "hold"
+                notes.append(f"print text may be cut at a page or column break: ...{cut}")
+            prev = next((x for x in items if last is not None and x["head"] == last["head"]), None)
+            new_items.append((prev["key"] if prev else None, {"key": key, "line": -1, "head": head, "print": r["print"], "status": status, "notes": notes,
+                                                          "level": 4 if fp.squash(head) in title_heads else 5, "unlisted": True}))
+            last = r
     for it in items:
         if it.get("candidates"):
             it["links"] = pick_options(it.pop("candidates"))
+        if re.search(r"[a-z][A-Z]", it["head"]) and fp.namekey(it["head"]) in {fp.namekey(t_) for _, t_, _ in heads}:
+            it["head"] = next(t_ for _, t_, _ in heads if fp.namekey(t_) == fp.namekey(it["head"]))      # small capitals in the text layer ("Patron sPells")
+    for after, sec in new_items:
+        placed = PLACE_UNDER.get((e.id, sec["key"]))
+        if placed:
+            after, sec["level"] = placed
+        at = next((n for n, x in enumerate(items) if x["key"] == after), len(items) - 1)
+        while at + 1 < len(items) and items[at + 1].get("unlisted"):
+            at += 1                                              # after the sections that already follow the feature, in print order
+        items.insert(at + 1, sec)
+    missing = [i["key"] for i in items if "head not printed" in i["notes"] and not i.get("drop") and not i.get("split_from")]      # a head that no rule resolved
     return {"items": items, "extra": extra, "missing": missing, "window": len(win), "problems": res["problems"], "region": region,
             "levels": fp.class_table_levels(corpus, e.id, cache)}
 
@@ -275,7 +427,7 @@ def class_features(plan: dict) -> list[tuple[str, int | None]]:
 
 
 def settled(plan: dict) -> bool:
-    return bool(plan["items"]) and not plan["extra"] and not plan["missing"] and all(i["status"] in ("print", "draft") for i in plan["items"])
+    return bool(plan["items"]) and not plan["extra"] and not plan["missing"] and all(i["status"] in ("print", "draft") for i in plan["items"] if not i.get("drop"))
 
 
 def converted_body(body: str, plan: dict) -> str:
@@ -285,7 +437,9 @@ def converted_body(body: str, plan: dict) -> str:
     a, b = plan["region"]
     out = []
     for it in plan["items"]:
-        out += [f"#### {it['head']} {{#{it['key']}}}", "", feature_text(it), ""]
+        if it.get("drop"):
+            continue
+        out += ["#" * it.get("level", 4) + f" {it['head']} {{#{it['key']}}}", "", feature_text(it), ""]
     return "\n".join(lines[:a] + out + lines[b:]) if out else body
 
 
@@ -318,7 +472,12 @@ def run_compare(args) -> int:
         if args.write and settled(plan):
             if WRITE_FEATURES:
                 raise SystemExit("the `features` of a class are not written yet: the app has not said where the key stands in a class (owner call 5)")
-            co.write_atomic(e.path, "+++\n" + e.front.strip("\n") + "\n+++\n" + converted_body(e.body, plan))
+            body2 = converted_body(e.body, plan)
+            gone = co.heading_keys(e.body) - co.heading_keys(body2)
+            allowed = {"sec-" + it["key"] for it in plan["items"] if it.get("drop")} | {it["key"] for it in plan["items"] if it.get("drop")}
+            if gone - allowed:
+                raise SystemExit(f"{e.id}: the heading keys {sorted(gone - allowed)} would move (only a dropped head without a reference may go)")
+            co.write_atomic(e.path, "+++\n" + e.front.strip("\n") + "\n+++\n" + body2)
             written += 1
             print("    written")
     print("total: " + ", ".join(f"{k} {v}" for k, v in sorted(total.items())) + (f"; {written} classes written" if args.write else ""))
@@ -343,7 +502,7 @@ def self_test() -> int:
     eq(body.split("\n")[r[0]:r[1]][0], "#### Spells {#spells}", "the region starts at the first head")
     eq("### Alternate Capstones" in "\n".join(body.split("\n")[r[0]:r[1]]), False, "the region ends at the next ### heading")
     eq(feature_region("No heads here.\n"), None, "a class with no head has no region")
-    eq((stem("Weapon and Armor Proficiencies"), stem("Weapon and Armor Proficiency")), ("weapon and armor proficiency",) * 2, "a head in the plural and in the singular is one head")
+    eq((stem("Weapon and Armor Proficiencies"), stem("Weapon  and  Armor  Proficiency")), ("weapon and armor proficiency",) * 2, "a head in the plural and in the singular, with double spaces, is one head")
     eq(stem("Oracle's Curse (Ex)"), "oracle's curse", "a tag is not part of the stem")
     cl = "Intro.\n\n### Class Features\n\n|L|\n\n#### Weapon and Armor Proficiencies {#weapon-and-armor-proficiencies}\n\n**Weapons:** Simple.\n\n#### Mystery {#mystery}\n\nOld.\n\n### Alternate Capstones\n\nC.\n"
     reg = feature_region(cl)
@@ -356,6 +515,7 @@ def self_test() -> int:
        (True, False, True, True), "owner calls 1, 2 and 4: print's head with the old key, no invented row, an option item as a link, the rest of the class as it was")
     eq("\n\n### Alternate Capstones" in nb, True, "a blank line stands before the next heading")
     eq(co.heading_keys(cl) <= co.heading_keys(nb), True, "no heading key of the class moves")
+    eq(pick_options([("Concussive bomb", [("ref/discovery/concussive-bomb", "alchemist-discovery")])]), [("Concussive bomb", "ref/discovery/concussive-bomb")], "an option name has no star in its link text")
     eq(pick_options([("Clouded Vision", [("ref/oraclecurse/clouded-vision", "oracle-curse")]), ("Tongues", [("ref/shamanhex/tongues", "shaman-hex"), ("ref/oraclecurse/tongues", "oracle-curse")]),
                      ("Lame", [("ref/oraclecurse/lame", "oracle-curse")])]),
        [("Clouded Vision", "ref/oraclecurse/clouded-vision"), ("Tongues", "ref/oraclecurse/tongues"), ("Lame", "ref/oraclecurse/lame")], "owner call 4: a title that two groups share is linked from the group of the list")
@@ -377,6 +537,9 @@ def self_test() -> int:
        ("due to encumbrance. At 5th level, you are immune to fatigue.", ""), "a sentence that the cells ran into stays, a table row with words in its cells does not")
     cutp = [P("para", [("A damage remains", False, False)], 44, 0), P("para", [("with the summoner. Effects", False, False)], 45, 0), P("para", [("Next: B.", True, False)], 45, 0)]
     eq([b.plain() for b in join_across_tables(cutp)], ["A damage remains with the summoner. Effects", "Next: B."], "a sentence that a table broke is joined, a new paragraph is not")
+    mixed = P("para", [("Witch's Familiar (Ex)", True, False), (": At 1st level, a witch forms a bond.", False, False), ("    Spells per Day 0", True, False), (" 3 1 \u2014 \u2014 \u2014 \u2014 \u2014 \u2014 \u2014", False, False)], 67, 0)
+    eq([x.plain() for x in split_table_runs(mixed)], ["Witch's Familiar (Ex): At 1st level, a witch forms a bond."], "a paragraph with prose and then a table keeps its prose")
+    eq(split_table_runs(P("para", [("Plain: text.", False, False)], 1, 0)), None, "a paragraph without a table header run is left")
     eq((is_table_para("6 6 6 6 6 6 6 6 6"), is_table_para("1st +0 +0 +0 +2 Mystery, oracle's curse, orisons 3 \u2014 \u2014 \u2014"), is_table_para("Base Attack Fort Ref Will Level Bonus Save Save Save Special"),
         is_table_para("An oracle casts divine spells drawn from the cleric spell lists.")), (True, True, True, False), "the cells of a class table are no text of a feature")
     for line in bad:

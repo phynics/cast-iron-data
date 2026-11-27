@@ -101,286 +101,207 @@ axis or the good/evil axis.
 |19th|6|6|6|6|5|5|4|
 |20th|6|6|6|6|6|5|5|
 
-#### Weapon and Armor Proficiencies {#weapon-and-armor-proficiencies}
+#### Weapon and Armor Proficiency {#weapon-and-armor-proficiencies}
 
-**Weapons:** All simple weapons, hand crossbow, longbow, repeating crossbow, shortbow, your deity's
-favored weapon
-
-**Armor:** Light armor, Medium armor
-
-**Shields:** Yes, except tower shields
+An inquisitor is proficient with all simple weapons, plus the hand crossbow, longbow, repeating
+crossbow, shortbow, and the favored weapon of her deity. She is also proficient with light armor,
+medium armor, and shields (except tower shields).
 
 #### Spells {#spells}
 
-**Spell list:** Divine spells from the inquisitor list, from 1st level
+An inquisitor casts divine spells drawn from the inquisitor spell list (see page 42). She can cast
+any spell she knows at any time without preparing it ahead of time, assuming she has not yet used up
+her allotment of spells per day for the spell's level.
 
-**Key ability:** Wisdom. Minimum score 10 + spell level; save DC 10 + spell level + Wisdom modifier;
-a high score grants bonus spells per day.
+To learn or cast a spell, an inquisitor must have a Wisdom score equal to at least 10 + the spell
+level. The Difficulty Class for a saving throw against an inquisitor's spell is 10 + the spell
+level + the inquisitor's Wisdom modifier.
 
-**Casting:** Spontaneous: cast any spell known without preparation, within the daily allotment per
-spell level.
+An inquisitor can cast only a certain number of spells of each spell level each day. Her base daily
+spell allotment is given on Table 2–3. In addition, she receives bonus spells per day if she has a
+high Wisdom score (see Table 1–3 of the _Pathfinder RPG Core Rulebook_).
 
-**Spells known:** Very limited selection; starts with four 0-level and two 1st-level spells and
-grows by level as shown on the table. Wisdom does not change the number known.
+An inquisitor's selection of spells is extremely limited. An inquisitor begins play knowing four
+0-level spells and two 1st-level spells of the inquisitor's choice. At each new inquisitor level,
+she gains one or more new spells as indicated on Table 2–4. (Unlike spells per day, the number of
+spells an inquisitor knows is not affected by her Wisdom score. The numbers on Table 2–4 are fixed.)
 
-**Spell swap:** At 5th, 8th, 11th, and every 3 levels after, one known spell may be exchanged for
-another of the same level that is at least one level below the highest level you can cast.
-
-**Notes:** Alignment can bar spells opposed to it.
+Upon reaching 5th level, and at every third inquisitor level thereafter (8th, 11th, and so on), an
+inquisitor can choose to learn a new spell in place of one she already knows. In effect, the
+inquisitor "loses" the old spell in exchange for the new one. The new spell's level must be the same
+as that of the spell being exchanged, and it must be at least one level lower than the highest-level
+inquisitor spell she can cast. The inquisitor may swap out only a single spell at any given level
+and must choose whether or not to swap the spell at the same time that she gains new spells known
+for the level.
 
 #### Orisons {#orisons}
 
-**Ability:** 0-level divine spells. Cast without using a spell slot; one placed in a higher slot
-(for example through metamagic) uses that slot.
+Inquisitors learn a number of orisons, or 0-level spells, as noted on Table 2–4 under "Spells
+Known." These spells are cast like any other spell, but they are not expended when cast and may be
+used again. Orisons prepared using other spell slots, such as those due to metamagic feats, are
+expended normally.
 
 #### Chaotic, Evil, Good, and Lawful Spells {#chaotic-evil-good-and-lawful-spells}
 
-**Section:** Aligned Spells
-
-**Passive:** You can't cast spells of an alignment opposed to your own or your deity's (if you have
-one). Spells associated with particular alignments are indicated by the chaos, evil, good, and law
+An inquisitor can't cast spells of an alignment opposed to her own or her deity's (if she has one).
+Spells associated with particular alignments are indicated by the chaotic, evil, good and lawful
 descriptors in their spell descriptions.
 
 #### Domain {#domain}
 
-**Action:** Ability
+Like a cleric's deity, an inquisitor's deity influences her alignment, what magic she can perform,
+and her values. Although not as tied to the tenets of the deity as a cleric, an inquisitor must
+still hold such guidelines in high regard, despite that fact she can go against them if it serves
+the greater good of the faith. An inquisitor can select [one domain](ref/ability/domains) from among
+those belonging to her deity. She can select an alignment domain only if her alignment matches that
+domain. With the GM's approval, an inquisitor can be devoted to an ideal instead of a deity,
+selecting one domain to represent her personal inclination and abilities. The restriction on
+alignment domains still applies.
 
-**Section:** Domain
-
-**Gained:** At 1st Level
-
-**Special:** With the GM's approval, you can be devoted to an ideal instead of a deity, selecting
-one domain to represent your personal inclination and abilities. The restriction on alignment
-domains still applies.
-
-You can select [one domain](ref/ability/domains) from among those belonging to your deity, or
-[an inquisition](ref/ability/inquisitions). You can select an alignment domain only if your
-alignment matches that domain.
-
-Like a cleric's deity, your deity influences your alignment, what magic you can perform, and your
-values. Although not as tied to the tenets of the deity as a cleric, you must still hold such
-guidelines in high regard, despite that fact you can go against them if it serves the greater good
-of the faith.
-
-Each domain grants a number of domain powers, depending on your level. You do not gain the bonus
-spells listed for each domain, nor do you gain bonus spell slots. You use your level as your
-effective cleric level when determining the power and effect of your domain powers. If you have
-cleric levels, one of your two domain selections must be the same domain selected as an inquisitor.
-Levels of cleric and inquisitor stack for the purpose of determining domain powers and abilities,
-but not for bonus spells.
+Each domain grants a number of domain powers, depending on the level of the inquisitor. An
+inquisitor does not gain the bonus spells listed for each domain, nor does she gain bonus spell
+slots. The inquisitor uses her level as her effective cleric level when determining the power and
+effect of her domain powers. If the inquisitor has cleric levels, one of her two domain selections
+must be the same domain selected as an inquisitor. Levels of cleric and inquisitor stack for the
+purpose of determining domain powers and abilities, but not for bonus spells.
 
 #### Judgment (Su) {#judgment}
 
-**Action:** Swift Action
+Starting at 1st level, an inquisitor can pronounce [judgment](ref/ability/judgments) upon her foes
+as a swift action. Starting when the judgment is made, the inquisitor receives a bonus or special
+ability based on the type of judgment made.
 
-**Flavor:** You can pronounce [judgment](ref/ability/judgments) upon your foes.
+At 1st level, an inquisitor can use this ability once per day. At 4th level and every three levels
+thereafter, the inquisitor can use this ability one additional time per day. Once activated, this
+ability lasts until the combat ends, at which point all of the bonuses immediately end. The
+inquisitor must participate in the combat to gain these bonuses. If she is frightened, panicked,
+paralyzed, stunned, unconscious, or otherwise prevented from participating in the combat, the
+ability does not end, but the bonuses do not resume until she can participate in the combat again.
 
-**Section:** Judgment
+When the inquisitor uses this ability, she must select [one type of judgment](ref/ability/judgments)
+to make. As a swift action, she can change this judgment to another type. If the inquisitor is evil,
+she receives profane bonuses instead of sacred, as appropriate. Neutral inquisitors must select
+profane or sacred bonuses. Once made, this choice cannot be changed.
 
-**Gained:** At 1st Level
-
-**Usage:** 1 time/day + 1 per 3 inquisitor levels beyond 1st
-
-Starting when the judgment is made, you receive a bonus or special ability based on the type of
-judgment made.
-
-Once activated, this ability lasts until the combat ends, at which point all of the bonuses
-immediately end. You must participate in the combat to gain these bonuses. If you are frightened,
-panicked, paralyzed, stunned, unconscious, or otherwise prevented from participating in the combat,
-the ability does not end, but the bonuses do not resume until you can participate in the combat
-again.
-
-When you use this ability, you must select [one type of judgment](ref/ability/judgments) to make. As
-a **swift action**, you can change this judgment to another type. If you are evil, you receive
-profane bonuses instead of sacred, as appropriate. Neutral inquisitors must select profane or sacred
-bonuses. Once made, this choice cannot be changed.
+- [Destruction](ref/blessing/destruction)
+- [Healing](ref/blessing/healing)
+- [Justice](ref/inquisition/justice)
+- [Protection](ref/blessing/protection)
+- [Resiliency](ref/talent/resiliency)
+- [Resistance](ref/evolution/resistance)
 
 #### Monster Lore (Ex) {#monster-lore}
 
-**Section:** Knowledge and Intimidation
-
-**Gained:** At 1st Level
-
-**Passive:** You add your Wisdom modifier on [Knowledge](ref/skill/knowledge-all) skill checks (in
-addition to your Intelligence modifier) when making skill checks to identify the abilities and
+The inquisitor adds her Wisdom modifier on [Knowledge](ref/skill/knowledge-all) skill checks in
+addition to her Intelligence modifier, when making skill checks to identify the abilities and
 weaknesses of creatures.
 
 #### Stern Gaze (Ex) {#stern-gaze}
 
-**Flavor:** Inquisitors are skilled at sensing deception and intimidating their foes.
-
-**Gained:** At 1st Level
-
-**Passive:** You receive a morale bonus on all Intimidate and Sense Motive checks equal to
-[half](ref/misc/fractions-and-rounding) your inquisitor level (minimum +1).
+Inquisitors are skilled at sensing deception and intimidating their foes. An inquisitor receives a
+morale bonus on all Intimidate and Sense Motive checks equal to 1/2 her inquisitor level (minimum
++1).
 
 #### Cunning Initiative (Ex) {#cunning-initiative}
 
-**Section:** Cunning Initiative, Sensing, and Tracking
-
-**Gained:** At 2nd Level
-
-**Passive:** You add your Wisdom modifier on initiative checks (in addition to your Dexterity
-modifier).
+At 2nd level, an inquisitor adds her Wisdom modifier on initiative checks, in addition to her
+Dexterity modifier.
 
 #### Detect Alignment (Sp) {#detect-alignment}
 
-**Ability:** You can use [detect chaos](ref/spell/detect-chaos),
-[detect evil](ref/spell/detect-evil), [detect good](ref/spell/detect-good), or
-[detect law](ref/spell/detect-law). You can only use one of these at any given time.
-
-**Gained:** At 2nd Level
-
-**Usage:** At will
-
-**Usage:** At will
+At will, an inquisitor can use _[detect chaos](ref/spell/detect-chaos)_,
+_[detect evil](ref/spell/detect-evil)_, _[detect good](ref/spell/detect-good)_, or
+_[detect law](ref/spell/detect-law)_. She can only use one of these at any given time.
 
 #### Track (Ex) {#track}
 
-**Gained:** At 2nd Level
-
-**Passive:** You add half your inquisitor level on Survival skill checks made to follow or identify
+At 2nd level, an inquisitor adds half her level on Survival skill checks made to follow or identify
 tracks.
 
 #### Teamwork Feat {#teamwork-feat}
 
-**Ability:** You gain a bonus teamwork feat.
+At 3rd level, and every three levels thereafter, the inquisitor gains a bonus feat in addition to
+those gained from normal advancement. These bonus feats must be selected from those listed as
+teamwork feats. The inquisitor must meet the prerequisites of the selected bonus feat.
 
-**Section:** Teamwork and Tactics
-
-**Gained:** At 3rd Level
-
-**Repeat:** You gain a new bonus teamwork feat., 6, 3
-
-**Special:** You must meet the prerequisites of any teamwork feat you select.
-
-**Standard:** You can choose to learn a new bonus teamwork feat in place of the most recent bonus
-teamwork feat you already learned. In effect, you lose the bonus feat in exchange for the new one.
-You can change only the most recent teamwork feat gained. Whenever you gain a new teamwork feat,
-your previous teamwork feats become permanent.
-
-**Usage:** Wis modifier times/day
+As a standard action, the inquisitor can choose to learn a new bonus teamwork feat in place of the
+most recent bonus teamwork feat she has already learned. In effect, the inquisitor loses the bonus
+feat in exchange for the new one. She can only change the most recent teamwork feat gained. Whenever
+she gains a new teamwork feat, the previous teamwork feat becomes set and cannot be changed again.
+An inquisitor can change her most recent teamwork feat a number of times per day equal to her Wisdom
+modifier.
 
 #### Solo Tactics (Ex) {#solo-tactics}
 
-**Gained:** At 3rd Level
-
-**Passive:** All of your allies are treated as if they possessed the same teamwork feats as you for
-the purpose of determining whether you receives a bonus from your teamwork feats.
-
-**Special:** Your allies do not receive any bonuses from these feats unless they actually possess
-the feats themselves. Their positioning and actions must still meet the prerequisites listed in the
-teamwork feat for you to receive the listed bonus.
+At 3rd level, all of the inquisitor's allies are treated as if they possessed the same teamwork
+feats as the inquisitor for the purpose of determining whether the inquisitor receives a bonus from
+her teamwork feats. Her allies do not receive any bonuses from these feats unless they actually
+possess the feats themselves. The allies' positioning and actions must still meet the prerequisites
+listed in the teamwork feat for the inquisitor to receive the listed bonus.
 
 #### Bane (Su) {#bane}
 
-**Section:** Bane and Discern Lies
-
-**Gained:** At 5th Level
-
-**Special:** This ability only functions while you wield the weapon. If dropped or taken, the weapon
-resumes granting this ability if it is returned to you before the duration expires.
-
-**Swift:** You can imbue one of your weapons with the [bane](ref/magic-enh/bane) weapon special
-ability. You must select one creature type when you use this ability (and a subtype if the creature
-type selected is humanoid or outsider). Once selected, the type can be changed as another swift
-action.
-
-**Usage:** 1 time/day per inquisitor level
+At 5th level, an inquisitor can imbue one of her weapons with the _[bane](ref/magic-enh/bane)_
+weapon special ability as a swift action. She must select one creature type when she uses this
+ability (and a subtype if the creature type selected is humanoid or outsider). Once selected, the
+type can be changed as a swift action. This ability only functions while the inquisitor wields the
+weapon. If dropped or taken, the weapon resumes granting this ability if it is returned to the
+inquisitor before the duration expires. This ability lasts for a number of rounds per day equal to
+the inquisitor's level. These rounds do not need to be consecutive.
 
 #### Discern Lies (Sp) {#discern-lies}
 
-**Immediate:** You can [discern lies](ref/spell/discern-lies), as per the spell.
-
-**Gained:** At 5th Level
-
-**Usage:** 1 time/day per inquisitor level
+At 5th level, an inquisitor can _[discern lies](ref/spell/discern-lies)_, as per the spell, for a
+number of rounds per day equal to her inquisitor level. These rounds do not need to be consecutive.
+Activating this ability is an immediate action.
 
 #### Second Judgment (Ex) {#second-judgment}
 
-**Ability:** Whenever you use your _judgment_ ability, you select two different judgments, instead
-of one. This only consumes one use of your _judgment_ ability.
-
-**Section:** Other Abilities
-
-**Gained:** At 8th Level
-
-**Swift:** You can change one of these judgments to another type.
+At 8th level, whenever an inquisitor uses her judgment ability, she selects two different judgments,
+instead of one. This only consumes one use of her judgment ability. As a swift action, she can
+change one of these judgments to another type.
 
 #### Stalwart (Ex) {#stalwart}
 
-**Flavor:** An inquisitor can use mental and physical resiliency to avoid certain attacks.
-
-**Gained:** At 11th Level
-
-**Passive:** If you make a Fortitude or Will saving throw against an attack that has a reduced
-effect on a successful save, you instead avoid the effect entirely.
-
-**Usage:** Only when wearing light armor, medium armor, or no armor, and not
-[helpless](ref/misc/helpless).
-
-**Usage:** Only when wearing light armor, medium armor, or no armor, and not
-[helpless](ref/misc/helpless).
+At 11th level, an inquisitor can use mental and physical resiliency to avoid certain attacks. If she
+makes a Fortitude or Will saving throw against an attack that has a reduced effect on a successful
+save, she instead avoids the effect entirely. This ability can only be used if the inquisitor is
+wearing light armor, medium armor, or no armor. A [helpless](ref/misc/helpless) inquisitor does not
+gain the benefit of the stalwart ability.
 
 #### Greater Bane (Su) {#greater-bane}
 
-**Gained:** At 12th Level
-
-**Passive:** When you use your bane ability, the amount of bonus damage dealt by the weapon against
-creatures of the selected type increases to 4d6.
+At 12th level, whenever an inquisitor uses her bane ability, the amount of bonus damage dealt by the
+weapon against creatures of the selected type increases to 4d6.
 
 #### Exploit Weakness (Ex) {#exploit-weakness}
 
-**Flavor:** The inquisitor learns to take advantage of any opportunity that presents itself.
-
-**Gained:** At 14th Level
-
-**Passive:** When you score a critical hit, you ignore any
+At 14th level, the inquisitor learns to take advantage of any opportunity that presents itself.
+Whenever the inquisitor scores a critical hit, she ignores any
 [damage reduction](ref/rule/damage-reduction) the target might have. In addition, if the target has
 [regeneration](ref/umr/regeneration), the creature loses regeneration on the round following the
 critical hit and can die normally during that round. Creatures whose regeneration always functions
-are immune to this ability. Finally, if you deal energy damage to a creature with vulnerability to
-that energy type, you deal +1 point of damage per die rolled.
+are immune to this ability. Finally, if the inquisitor deals energy damage to a creature with
+vulnerability to that energy type, she deals +1 point of damage per die rolled.
 
 #### Third Judgment (Ex) {#third-judgment}
 
-**Ability:** Whenever you use your _judgment_ ability, you select three different judgments, instead
-of just two. This only consumes one use of your _judgment_ ability.
-
-**Gained:** At 16th Level
-
-**Swift:** You can change one of these judgments to another type.
+At 16th level, whenever an inquisitor uses her judgment ability, she selects three different
+judgments, instead of just two. This only consumes one use of her judgment ability. As a swift
+action, the inquisitor can change one of these judgments to another type.
 
 #### Slayer (Ex) {#slayer}
 
-**Ability:** When you use your _judgment_ ability, you must select one type of judgment. You are
-treated as if you were 5 levels higher for the purposes of determining the bonus granted by the
-judgment.
-
-**Flavor:** An inquisitor learns to focus her judgment.
-
-**Gained:** At 17th Level
-
-**Special:** Unlike other types of judgment, the one enhanced by this ability cannot be changed for
-the remainder of the judgment.
+At 17th level, an inquisitor learns to focus her judgment. Whenever an inquisitor uses her judgment
+ability, she must select one type of judgment. She is treated as if she were 5 levels higher for the
+purposes of determining the bonus granted by the judgment. Unlike other types of judgment, the one
+enhanced by this ability cannot be changed for the remainder of the judgment.
 
 #### True Judgment (Su) {#true-judgment}
 
-**Flavor:** An inquisitor can call true judgment down upon a foe during combat.
+At 20th level, an inquisitor can call true judgment down upon a foe during combat.
 
-**Gained:** At 20th Level
-
-**Special:** Regardless of whether or not the save is made, the target creature is immune to your
-_true judgment_ ability for 24 hours.
-
-**Swift:** Whenever you use your _judgment_ ability, you can invoke _true judgment_ on a foe. Once
-declared, you can make a single melee (or ranged attack, if the foe is within 30 feet) against the
-target. If the attack hits, it deals damage normally and the target must make a Fortitude save or
-die. The DC of this save is equal to 10 + 1/2 your inquisitor level + your Wisdom modifier.
-
-**Usage:** Once this ability has been used, it cannot be used again for 1d4 rounds.
-
-**Usage:** Once this ability has been used, it cannot be used again for 1d4 rounds.
+hours. Once this ability has been used, it cannot be used again for 1d4 rounds.
 
 ### Ex-Inquisitors
 

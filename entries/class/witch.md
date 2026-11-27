@@ -77,96 +77,155 @@ Knowledge (planes), Spellcraft
 |19th|+9/+4|+6|+6|+11|-|4|4|4|4|4|4|4|4|3|3|
 |20th|+10/+5|+6|+6|+12|Hex|4|4|4|4|4|4|4|4|4|4|
 
-#### Weapon and Armor Proficiencies {#weapon-and-armor-proficiencies}
+#### Weapon and Armor Proficiency {#weapon-and-armor-proficiencies}
 
-**Weapons:** All simple weapons
-
-**Armor:** No armor
-
-**Shields:** No
-
-**Notes:** Armor interferes with a witch's gestures, which can cause her spells with somatic
-components to fail.
+Witches are proficient with all simple weapons. They are not proficient with any type of armor or
+shield. Armor interferes with a witch's gestures, which can cause her spells with somatic components
+to fail (see Arcane Spells and Armor on page 83 of the _Pathfinder RPG Core Rulebook_).
 
 #### Spells {#spells}
 
-**Spell list:** Arcane spells from the witch list, from 1st level
+A witch casts arcane spells drawn from the witch spell list (see pages 70–71). A witch must choose
+and prepare her spells ahead of time.
 
-**Key ability:** Intelligence. Minimum score 10 + spell level; save DC 10 + spell level +
-Intelligence modifier; a high score grants bonus spells per day.
+To learn or cast a spell, a witch must have an Intelligence score equal to at least 10 + the spell
+level. The Difficulty Class for a saving throw against a witch's spell is 10 + the spell level + the
+witch's Intelligence modifier.
 
-**Casting:** Prepared: choose and prepare spells in advance.
+A witch can cast only a certain number of spells of each spell level per day. Her base daily spell
+allotment is given on Table 2–10. In addition, she receives bonus spells per day if she has a high
+Intelligence score (see Table 1–3 of the _Pathfinder RPG Core Rulebook_).
 
-**Notes:** Prepares spells after 8 hours of rest and 1 hour communing with the familiar; no limit on
-spells known.
+A witch may know any number of spells. She must choose and prepare her spells ahead of time by
+getting 8 hours of sleep and spending 1 hour communing with her familiar. While communing, the witch
+decides which spells to prepare.
 
 #### Cantrips {#cantrips}
 
-**Ability:** 0-level arcane spells. Prepared like other spells but not expended when cast; one
-placed in a higher slot (for example through metamagic) uses that slot.
+Witches can prepare a number of cantrips, or 0-level spells, each day, as noted on Table 2–10 under
+"Spells per Day." These spells are cast like any other spell, but they are not expended when cast
+and may be used again. Cantrips prepared using other spell slots, due to metamagic feats for
+example, are expended normally.
 
 #### Hex {#hex}
 
-**Ability:** You gain one hex of your choice. Unless otherwise noted, using a hex is a **standard
-action** that does not provoke an attack of opportunity. The save to resist a hex is equal to 10 +
-[half](ref/misc/fractions-and-rounding) your witch level + your Intelligence modifier.
+Witches learn a number of magic tricks, called hexes, that grant them powers or weaken foes. At 1st
+level, a witch gains one hex of her choice. She gains an additional hex at 2nd level and for every 2
+levels attained after 2nd level, as noted on Table 2–10. A witch cannot select an individual hex
+more than once.
 
-**Flavor:** Witches learn a number of magic tricks, called hexes, that grant them powers or weaken
-foes.
+Unless otherwise noted, using a hex is a standard action that does not provoke an attack of
+opportunity. The save to resist a hex is equal to 10 + 1/2 the witch's level + the witch's
+Intelligence modifier.
 
-**Gained:** At 1st Level
-
-**Special:** You gain a new hex at 2nd level, and at every even-numbered level (4th, 6th, 8th, and
-so on). You cannot select an individual hex more than once.
-
-Alternately, whenever the witch would learn a new hex, she can instead gain a bonus familiar feat or
-take a blood hex feat.
+- [Blight (Su)](ref/hex/blight)
+- [Cackle (Su)](ref/hex/cackle)
+- [Cauldron (Ex)](ref/hex/cauldron)
+- [Charm (Su)](ref/hex/charm)
+- [Coven (Ex)](ref/hex/coven)
+- [Disguise (Su)](ref/hex/disguise)
+- [Evil Eye (Su)](ref/hex/evil-eye)
+- [Flight (Su)](ref/hex/flight)
+- [Fortune (Su)](ref/hex/fortune)
+- [Healing (Su)](ref/hex/healing)
+- [Misfortune (Su)](ref/hex/misfortune)
+- [Slumber (Su)](ref/hex/slumber)
+- [Tongues (Su)](ref/hex/tongues)
+- [Ward (Su)](ref/hex/ward)
 
 #### Witch's Familiar (Ex) {#witch-s-familiar}
 
-**Ability:** This functions like the wizard's arcane bond class feature, except as noted in this
-section. You must commune with your [familiar](ref/sidekick/familiar) each day to prepare your
-spells. Familiars store all of the spells that a witch knows, and you cannot prepare a spell that is
-not stored by your familiar. Your familiar begins play storing all of the 0-level witch spells plus
-three 1st-level spells of your choice. You also select a number of additional 1st-level spells equal
-to your Intelligence modifier to store in your familiar.
+At 1st level, a witch forms a close bond with a [familiar](ref/sidekick/familiar), a creature that
+teaches her magic and helps to guide her along her path. Familiars also aid a witch by granting her
+skill bonuses, additional spells, and help with some types of magic. This functions like the
+wizard's arcane bond class feature, except as noted in the Witch's Familiar section.
 
-**Flavor:** A witch forms a close bond with a familiar, a creature that teaches her magic and helps
-to guide her along her path. Familiars also aid a witch by granting her skill bonuses, additional
-spells, and help with some types of magic.
+A witch must commune with her familiar each day to prepare her spells. Familiars store all of the
+spells that a witch knows, and a witch cannot prepare a spell that is not stored by her familiar. A
+witch's familiar begins play storing all of the 0-level witch spells plus three 1st-level spells of
+the witch's choice. The witch also selects a number of additional 1st-level spells equal to her
+Intelligence modifier to store in her familiar. At each new witch level, she adds two new spells of
+any spell level or levels that she can cast (based on her new witch level) to her familiar. A witch
+can also add additional spells to her familiar through a special ritual (see sidebar).
 
-**Gained:** At 1st Level
+##### Adding Spells to a Witch's Familiar {#adding-spells-to-a-witch-s-familiar}
 
-**Special:** At each new witch level, you add two new spells of any spell level or levels that you
-can cast (based on your new witch level) to your familiar. You can also add additional spells to
-your familiar through a special ritual, described below under _Adding Spells to a Witch's Familiar._
+Witches can add new spells to their familiars through several methods. A witch can only add spells
+to her familiar if those spells belong to the witch's spell list.
+
+##### Spells Gained at a New Level {#spells-gained-at-a-new-level}
+
+A witch's familiar learns a certain amount of lore and magic as the witch adventures. Whenever a
+witch gains a level, she may add two spells from the witch spell list to her familiar. The two free
+spells must be of spell levels she can cast.
+
+##### Familiar Teaching Familiar {#familiar-teaching-familiar}
+
+A witch's familiar can learn spells from another witch's familiar. To accomplish this, the familiars
+must spend one hour per level of the spell being taught in communion with one another. At the end of
+this time, the witch whose familiar is learning a spell must make a Spellcraft check (DC 15 + spell
+level). If the check succeeds, the familiar has learned the spell and the witch may utilize it the
+next time she prepares spells. If the check fails, the familiar has failed to learn the spell and
+cannot try to learn that spell again until the witch has gained another rank in Spellcraft. Most
+witches require a spell of equal or greater level in return for this service. If a familiar belongs
+to a witch that has died, it only retains its knowledge of spells for 24 hours, during which time it
+is possible to coerce or bribe the familiar into teaching its spells to another, subject to GM
+discretion.
+
+##### Learn from a Scroll {#learn-from-a-scroll}
+
+A witch can use a scroll to teach her familiar a new spell. This process takes 1 hour per level of
+the spell to be learned, during which time the scroll is burned and its ashes used to create a
+special brew or powder that is consumed by the familiar. This process destroys the scroll. At the
+end of this time, the witch must make a Spellcraft check (DC 15 + spell level). If the check fails,
+the process went awry in some way and the spell is not learned, although the scroll is still
+consumed. witches within 10 feet who also have the coven hex can see through this sensor as well,
+although the witch that created it still controls it. The witch can use this eye for a number of
+minutes per day equal to her level. These minutes do not need to be consecutive, but they must be
+spent in 1-minute increments.
 
 #### Patron Spells {#patron-spells}
 
-**Ability:** When you gain your familiar, you must also select a patron. This patron is a vague and
-mysterious force, granting you power for reasons that you might not entirely understand. While these
-forces need not be named, they typically hold influence over a certain force.
+At 1st level, when a witch gains her familiar, she must also select a patron. This patron is a vague
+and mysterious force, granting the witch power for reasons that she might not entirely understand.
+While these forces need not be named, they typically hold influence over one of the following
+forces. At 2nd level, and every two levels thereafter, a witch's patron adds new spells to a witch's
+list of spells known. These spells are also automatically added to the list of spells stored by the
+familiar. Spells marked with an asterisk (\*) appear in Chapter 5 of this book. The spells gained
+depend upon the patron chosen. Each patron is listed by its theme. Its actual name is up to the GM
+and the witch to decide.
 
-**Gained:** At 1st Level
-
-**Special:** At 2nd level, and every two levels thereafter, your patron adds new spells to your list
-of spells known. These spells are also automatically added to the list of spells stored by the
-familiar. The spells gained depend upon the patron chosen. Each patron is listed by its theme. Its
-actual name is up to the GM and the witch to decide.
+- [Agility](ref/patron/agility)
+- [Animals](ref/patron/animals)
+- [Deception](ref/patron/deception)
+- [Elements](ref/patron/elements)
+- [Endurance](ref/patron/endurance)
+- [Plague](ref/patron/plague)
+- [Shadow](ref/patron/shadow)
+- [Strength](ref/patron/strength)
+- [Transformation](ref/patron/transformation)
+- [Trickery](ref/patron/trickery)
+- [Water](ref/patron/water)
+- [Wisdom](ref/patron/wisdom)
 
 #### Major Hex {#major-hex}
 
-**Ability:** You can choose a major hex whenever you could select a new hex.
+Starting at 10th level, and every two levels thereafter, a witch can choose one of the following
+major hexes whenever she could select a new hex.
 
-**Section:** Major and Grand Hex
-
-**Gained:** At 10th Level
+- [Agony (Su)](ref/hex/agony)
+- [Hag's Eye (Su)](ref/hex/hags-eye)
 
 #### Grand Hex {#grand-hex}
 
-**Ability:** You can choose a grand hex whenever you could select a new hex.
+Starting at 18th level, and every two levels thereafter, a witch can choose one of the following
+grand hexes whenever she could select a new hex.
 
-**Gained:** At 18th Level
+- [Death Curse (Su)](ref/hex/death-curse)
+- [Eternal Slumber (Su)](ref/hex/eternal-slumber)
+- [Forced Reincarnation (Su)](ref/hex/forced-reincarnation)
+- [Life Giver (Su)](ref/hex/life-giver)
+- [Natural Disaster (Su)](ref/hex/natural-disaster)
 
 ### Adding Spells to a Witch's Familiar
 
