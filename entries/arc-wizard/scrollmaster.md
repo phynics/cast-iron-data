@@ -48,13 +48,12 @@ points by 1; this damage cannot be repaired, but does not affect casting from th
 hit points [reach](ref/misc/reach) 0, the scroll is destroyed.
 
 If a scroll contains a spell with a metamagic feat, this ability uses the original spell level of
-the spell (a _scroll of [empowered](ref/feat/empower-spell) [fireball](ref/spell/fireball)_ counts
-as a 3rd-level spell).
+the spell (a _scroll of empowered fireball_ counts as a 3rd-level spell).
 
 At 3rd level, when using a 4th-level or higher wizard scroll as a scroll blade, the scrollmaster can
 choose to reduce its enhancement bonus by 1 (minimum +1 enhancement bonus) to treat it as a reach
-weapon. For example, he could use a _scroll of [charm monster](ref/spell/charm-monster)_ (a
-4th-level wizard spell) as either a _+2 short sword_ or a _+1 short sword_ with reach.
+weapon. For example, he could use a _scroll of charm monster_ (a 4th-level wizard spell) as either a
+_+2 short sword_ or a _+1 short sword_ with reach.
 
 At 5th level, when using a 4th-level or higher wizard scroll as a scroll blade, the scrollmaster can
 choose to reduce its enhancement bonus (to a minimum of a +1 enhancement bonus) to give any of the

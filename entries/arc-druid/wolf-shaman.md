@@ -38,7 +38,7 @@ with a pack when facing dangers too great for one alone.
 
 ## Nature Bond {#nature-bond}
 
-A [wolf](ref/companion/wolf) shaman who chooses an animal companion must select a wolf. If choosing
+A wolf shaman who chooses an animal companion must select a [wolf](ref/companion/wolf). If choosing
 a domain, the wolf shaman must choose from the [Animal](ref/domain/animal), Community, Liberation,
 and [Travel](ref/domain/travel) domains.
 

@@ -17,7 +17,7 @@ page = "14"
 [fields]
 kind = "archetype"
 features = [
-  { anchor = "universal-magic" },
+  { anchor = "universal-magic", level = 1 },
   { anchor = "ready-for-anything", level = 1 },
   { anchor = "generous-touch", level = 1 },
   { anchor = "restorative-shelter" },

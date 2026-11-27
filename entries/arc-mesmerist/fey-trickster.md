@@ -55,7 +55,7 @@ This alters the mesmerist's spellcasting.
 
 ## Feytouched (Ex) {#feytouched}
 
-At 2nd level, a [fey](ref/type/fey) trickster's time with the fey has granted her strange powers, as
+At 2nd level, a fey trickster's time with the [fey](ref/type/fey) has granted her strange powers, as
 well as resistance to further fey mischief. The fey trickster gains the druid's
 [resist nature's lure](ref/ability/resist-natures-lure) and
 [woodland stride](ref/ability/woodland-stride) abilities, and she counts as both fey and her

@@ -119,6 +119,6 @@ can use fiendish divination up to 3 times per day.
 
 ## Fiendish Summoning {#fiendish-summoning}
 
-When casting _[summon monster](ref/spell/summon-monster)_ spells, a
-[fiendish](ref/template/fiendish) vessel is limited to summoning fiendish creatures and evil
-outsiders of the same alignment as her patron.
+When casting _[summon monster](ref/spell/summon-monster)_ spells, a fiendish vessel is limited to
+summoning [fiendish](ref/template/fiendish) creatures and evil outsiders of the same alignment as
+her patron.

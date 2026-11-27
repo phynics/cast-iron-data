@@ -1018,6 +1018,7 @@ def merge_runs(runs: list[tuple[str, bool, bool]]) -> list[tuple[str, bool, bool
 # "Black Blood of Orv", p. 33: the box is set in from the margin, above the end of the introduction of the next archetype). Its lines
 # are read apart, and the box is set behind the section's last paragraph, before the next title.
 BOX_TITLES: dict = {"titles": frozenset()}
+BOX_LORE: dict = {"titles": frozenset()}      # boxes of pure lore or of references to other books, set in a column: read apart and left out (owner ruling 41)
 BOX_TO_END = {"on": False}      # a box at the foot of a column (a table) runs to the end of that column (Psychic Anthology p. 6: the Phantom Weapon Progression)
 BOX_INSET = 16                  # the lines of a box are set this far in from the margin of the column; the text around it is not
 
@@ -1027,7 +1028,8 @@ def split_boxes(plines: list[dict]) -> tuple[list[dict], list[dict]]:
     follows it in its column)."""
     main, box, boxing = [], [], None
     for ln in plines:
-        title = ln["size"] >= 16 and squash("".join(t for t, _, _ in ln["runs"])) in BOX_TITLES["titles"]
+        key = squash("".join(t for t, _, _ in ln["runs"]))
+        title = (ln["size"] >= 16 and key in BOX_TITLES["titles"]) or (ln["size"] >= 14 and key in BOX_LORE["titles"])
         if title:
             boxing = ln["col"]
         elif boxing is not None and (ln["col"] != boxing or (not BOX_TO_END["on"] and ln["left"] - ln["margin"] < BOX_INSET)):
@@ -1052,8 +1054,10 @@ def read_blocks(book: Book, first: int, last: int) -> list[Para]:
         if page_skipped(book.printed.get(num)):
             continue
         plines = page_lines(book, num)
-        if BOX_TITLES["titles"]:
+        if BOX_TITLES["titles"] or BOX_LORE["titles"]:
             plines, box = split_boxes(plines)
+            if box and squash("".join(t for t, _, _ in box[0]["runs"])) in BOX_LORE["titles"]:
+                box = []                        # a lore box is left out
             if box:
                 boxes.append((num, box))
         items.append((num, plines))
@@ -1073,6 +1077,9 @@ ART_INDENT_MAX = 20
 
 
 RUN_IN_HEAD_ONLY = re.compile(r"^.{3,70}\((?:Ex|Su|Sp)(?:,\s*(?:Ex|Su|Sp))*\)\s*:\s*$")
+
+
+FRAGMENT_TITLES = {"on": False}
 
 
 def _assemble(book: Book, items: list[tuple[int, list[dict]]]) -> list[Para]:
@@ -1098,6 +1105,8 @@ def _assemble(book: Book, items: list[tuple[int, list[dict]]]) -> list[Para]:
                 if any(len(b) >= 4 and (big.startswith(b) or b.startswith(big)) for b in seen_big):
                     continue
                 seen_big.append(big)
+            if ln["size"] >= 16 and len(squash("".join(t for t, _, _ in ln["runs"]))) <= 2 and FRAGMENT_TITLES["on"]:
+                continue                        # a title of one or two letters is a fragment of a drop capital or a vertical tab (Armor Master's Handbook p. 4), not a title
             if ln["size"] >= TAB_LEFT["title"]:
                 insets[ln["col"]] = ln["left"] if indent >= 8 else None
                 if out and out[-1].kind == "title" and out[-1].col == ln["col"] and out[-1].page == shown \
@@ -1348,6 +1357,7 @@ CHAPTER_TITLES = {"on": False}
 MARGIN_CAPTIONS = {"on": False}
 ITALIC_FIRST = {"on": False}            # the Campaign Setting books: the first letter of an italic word that the layer set apart ("s" + "un orchid elixir")
 LOWERCASE_CONTINUES = {"on": False}      # the Campaign Setting books: no paragraph starts in lower case
+RULE57_TRADE_LEVELS = {("ref/arc-warpriest/proselytizer", "emotional-appeal")}     # ruling 57: the lowest level across its trades, the bonus feat at 3rd (review of #347)
 RULE57 = {"on": True}           # owner ruling 57 (the level of a whole class feature at any level); `--rules` could turn it off
 LIST_CONTINUES = {"on": False}  # a line of a list item that print wraps without a bullet continues the item (Potions and Poisons: the bullets hang)
 BULLETS = {"on": False}         # a line that starts with a bullet starts a list item (Inner Sea Intrigue "Tinkering")
@@ -2552,6 +2562,8 @@ ERRATA_CTX: dict = {"book": "", "used": set()}
 BOXES_OF_BOOK = {"inner-sea-magic": ("Black Blood of Orv",),
                  "psychic-anthology": ("Phantom Weapon Progression",),       # the table of the Phantom Blade, set in the foot of a column of the Totem Spiritualist (p. 6)
                  "agents-of-evil": ("Playing an Insinuator", "Devils and Double-Dealing")}   # two lore boxes that interrupt the archetype's columns (pp. 17, 21)
+LORE_BOXES_OF_BOOK = {"armor-masters-handbook": ("Armor Master Archetypes and Prestige Classes",),
+                      "cohorts-and-companions": ("Equipment Cohorts", "Heroic Cohorts", "Cohorts of the Faith", "Student Cohorts")}
 SKIP_TABLES = {"on": False}         # the Advanced Race Guide sets its tables in sans-serif type
 # The Advanced Class Guide and the Advanced Race Guide set text beside illustrations: a line may be indented without
 # starting a paragraph, and a head may follow a sentence end in a line without the common indent. The other books
@@ -2910,7 +2922,8 @@ def strip_citations(text: str) -> str:
 EDGE_CITATIONS = {
     ("ref/arc-rogue/heister", "95–96"): True,        # "Escape Artist check to move through a tight space where her head fits ..."
     ("ref/arc-bard/prankster", "322"): True,         # "steal an object ... This functions as the steal combat maneuver": the link is on the first mention
-    ("ref/arc-inquisitor/secret-seeker", "196–197"): False,   # [read aura] goes to Perception; the citation names the occult skill unlocks
+    ("ref/arc-inquisitor/secret-seeker", "196–197"): False,
+    ("ref/arc-summoner/shaitan-binder", "143"): False,        # [shaitan] is the creature; the citation names its stone curse ability (#335 review), also where the link lands on the later mention   # [read aura] goes to Perception; the citation names the occult skill unlocks
     # review of #342 (ruling 26): the two words of the rule that cut each way here
     ("ref/arc-witch/havocker", "14"): True,          # "[kineticist] element (Occult Adventures 14)": the class link makes the rule keep a citation that names an ability of the class; the link names the element's owner and the corpus links the element, so it goes
     ("ref/arc-medium/uda-wendo", "11"): True,        # "[kineticist] ... (Occult Adventures 11)": the same case
@@ -3260,6 +3273,40 @@ def cut_section(entry_id: str, section: list[Para]) -> list[Para]:
     return section
 
 
+# Paragraphs that print sets beside art, where the line that continues a paragraph is set in like a first line: the text that starts the line, joined to
+# the paragraph before it (the review of #347, checked on the page images)
+PARA_JOINS = {
+    ("ref/arc-fighter/molthuni-defender", "armored-defense"): ("This bonus also applies to the DC",),
+    ("ref/arc-paladin/legate", "celestial-armor"): ("The legate can use this ability a number of times",),
+    ("ref/arc-alchemist/construct-rider", "craft-mount"): ("The GM may approve other animals as mounts.",),
+    ("ref/arc-rogue/earthshadow", "earthlink"): ("When an earthshadow is in direct contact",),
+}
+
+
+# Repairs of the extraction that the page images show (not corrections of print): a mark that the text layer sets one character off, a space before
+# a dash, a link on a word that is no name of the rule (review of #347). (entry, anchor): [(wrong, right)]; each must match, or the run fails.
+TEXT_REPAIRS = {
+    ("ref/arc-cleric/herald-caller", "mighty-heralds"): [("P_athfinder RPG Advanced Class Guide_", "_Pathfinder RPG Advanced Class Guide_")],
+    ("ref/arc-summoner/morphic-savant", "chaos-magic"): [("3rd \u2014_magic circle", "3rd\u2014_magic circle")],
+    ("ref/arc-unchained-summoner/morphic-savant", "chaos-magic"): [("3rd \u2014_magic circle", "3rd\u2014_magic circle")],
+    ("ref/arc-wizard/bonded-wizard", "bonded-force"): [("[shield](ref/spell/shield) bonus", "shield bonus")],
+}
+
+
+def repair_text(entry_id: str, anchor: str, text: str) -> str:
+    for wrong, right in TEXT_REPAIRS.get((entry_id, anchor), ()):
+        if wrong not in text:
+            raise SystemExit(f"TEXT_REPAIRS: `{wrong}` is not in {entry_id} `{anchor}`")
+        text = text.replace(wrong, right)
+    return text
+
+
+def join_paras(entry_id: str, anchor: str, text: str) -> str:
+    for start in PARA_JOINS.get((entry_id, anchor), ()):
+        text = text.replace("\n\n" + start, " " + start, 1)
+    return text
+
+
 def compare_entry(e: Entry, section: list[Para], book: Book) -> dict:
     """The comparison of one archetype with its printed section: a row for each printed head, in print
     order, then one for each feature of the import that print lacks."""
@@ -3318,6 +3365,7 @@ def compare_entry(e: Entry, section: list[Para], book: Book) -> dict:
         f = feats[idx]
         draft = build_draft(f)
         text, lost, pnotes = print_md(pf, feature_links(e.id, f, head), vocab, e.id, keep)
+        text = repair_text(e.id, anchor_of(head), join_paras(e.id, anchor_of(head), text))
         # a printed "(see ...)" cross-reference is kept in the text but is not a rule word: the corpus links instead
         cmp = compare_feature(draft, strip_citations(text), set(tokens(ABILITY_TAG.sub("", f.name))), title_tokens)
         # the whole row, then its parts: a name that is a list ("The 1st-, 9th-, and 15th-level channel energy
@@ -4196,10 +4244,6 @@ def opening_texts(rows: list[dict], opening: list[str]) -> list[str]:
     return list(opening) + [r["print"] for r in rows if not r["listed"] and not r.get("parent") and r["print"]]
 
 
-# A step printed as a Roman numeral (I to XXXIX): the class table of the unchained summoner, whose summon monster steps run I to IX.
-ROMAN_STEP = re.compile(r"^x{0,3}(?:ix|iv|v?i{0,3})$", re.I)
-
-
 def first_level_key(name: str) -> str:
     """A feature name as the class table of a base class writes it, compared without case, plural, tag and suffix:
     "smite evil 1/day", "channel energy 1d6", "bomb 1d6", "Bombs" and "witch's familiar" are the names smite evil,
@@ -4211,11 +4255,6 @@ def first_level_key(name: str) -> str:
     name = re.sub(r"^\d+(?:st|nd|rd|th)\s+", "", name.strip())                    # the class table of the ranger: "1st favored enemy"
     name = re.sub(r"[,;]?\s+and (?:all|each|every)\s+(?:of\s+)?(?:its\s+|the\s+)?(?:improvements?|upgrades?)\b.*$", "", name, flags=re.I)   # "Shifter aspect and all improvements to it"
     name = re.sub(r"\s+(?:\d+/[\w-]+|\d+d\d+|[+\-]\d.*|\d+)$", "", name.strip())
-    # a step printed as a Roman numeral is the number of the step, as a digit is: the unchained summoner's table writes "summon
-    # monster I" ... "summon monster IX", and a trade names the whole feature ("Summon monster"). A bare V or XV is such a step too.
-    tail = re.search(r"\s+(\S+)$", name)
-    if tail and ROMAN_STEP.fullmatch(tail.group(1)):
-        name = name[:tail.start()].strip()
     name = re.sub(r"\s*\([^()]*\)$", "", name.strip())                          # "blessings (minor)" is the name blessings
     name = re.sub(r"^(?:the|a|an)\s+", "", fold(name))              # "The cavalier's order" is the name order
     name = re.sub(r"^[a-z]+'s\s+", "", name)                       # "witch's familiar" is the name familiar
@@ -4289,6 +4328,30 @@ def class_table_levels(corpus: Path, class_id: str, cache: dict) -> dict[str, in
         out[first_level_key(x)] = 1
     cache[ck] = out
     return out
+
+
+
+# A trade whose name print makes longer than the class table's name ("The bomb class feature", "Brew Potion, though an oozemaster can still select ...",
+# the summoner's "summon monster I-IX abilities"): the table's name for it, per entry (review of #347; a looser match would give levels to parts of
+# features that ruling 57 records as no level).
+TABLE_NAMES = {
+    ("ref/arc-alchemist/oozemaster", "The bomb class feature"): "Bomb",
+    ("ref/arc-alchemist/oozemaster", "Brew Potion, though an oozemaster can still select Brew Potion without meeting the feat's prerequisites"): "Brew potion",
+    ("ref/arc-summoner/morphic-savant", "Summon monster"): "Summon monster I",
+    ("ref/arc-unchained-summoner/morphic-savant", "Summon monster"): "Summon monster I",
+    ("ref/arc-summoner/unwavering-conduit", "Summon monster"): "Summon monster I",
+    ("ref/arc-summoner/storm-caller", "the summoner's summon monster I\u2013IX abilities"): "Summon monster I",
+    ("ref/arc-unchained-summoner/storm-caller", "the summoner's summon monster I\u2013IX abilities"): "Summon monster I",
+}
+
+
+def table_level(tab: dict[str, int], name: str, entry_id: str = "") -> int | None:
+    """The level at which the class table lists the feature that a trade names: the exact name (`first_level_key`), or the table's name that
+    `TABLE_NAMES` gives for a trade that print names longer."""
+    for k in (first_level_key(name), first_level_alt_key(name), first_level_key(TABLE_NAMES.get((entry_id, name), ""))):
+        if k and k in tab:
+            return tab[k]
+    return None
 
 
 def fold_table_sections(rows: list[dict], decisions: dict, entry_id: str, problems: list[str]) -> None:
@@ -4566,7 +4629,8 @@ def finalize(e: Entry, res: dict, class_cache: dict | None = None) -> dict:
                     # and 6th levels", "1st-, 7th-, and 15th-level deeds"), or the class table lists it at 1st level
                     firsts.append(1 in (t.get("levels") or ()) or bool(re.search(r"\b1st\b", trade_name(t)[1]))
                                   or (bool(cls) and (first_level_key(trade_name(t)[1]) in class_first_level(corpus, cls, class_cache)
-                                                     or first_level_alt_key(trade_name(t)[1]) in class_first_level(corpus, cls, class_cache))))
+                                                     or first_level_alt_key(trade_name(t)[1]) in class_first_level(corpus, cls, class_cache)
+                                                     or table_level(class_table_levels(corpus, cls, class_cache), trade_name(t)[1], e.id) == 1)))
                 # ruling 35: level 1 when any feature that it replaces is a 1st-level feature, even if it also replaces later ones
                 # owner ruling 50: altering a whole 1st-level feature counts like replacing it; a part of a feature (a proficiency, class skills,
                 # a spell list) is no class-table name and gives none (ruling 48)
@@ -4580,19 +4644,20 @@ def finalize(e: Entry, res: dict, class_cache: dict | None = None) -> dict:
                                          else ", of which one is gained at 1st level in the class table"))
                 elif RULE57["on"]:
                     # owner ruling 57: the rulings 35, 48 and 50 hold for any level: a feature with no printed level that alters or replaces a whole class feature
-                    # that the class table lists at level N gets level N, the lowest of its trades (a trade of some levels or of a power is a part: none)
+                    # that the class table lists at level N gets level N, the lowest of its trades (a trade of a power is a part: none; a trade that names its levels counts with its lowest level)
                     found = []
                     for t in mine:
                         op, name = trade_name(t)
                         cls = t.get("class") or (e.classes[0] if e.classes else "")
-                        if op in ("replaces", "alters") and cls and not t.get("levels") and not t.get("power"):
-                            table = class_table_levels(corpus, cls, class_cache)
-                            lv = table.get(first_level_key(name)) or table.get(first_level_alt_key(name))
+                        if op in ("replaces", "alters") and t.get("levels") and not t.get("power") and (e.id, r["anchor"]) in RULE57_TRADE_LEVELS:
+                            found.append((min(t["levels"]), op, name))       # the lowest level of a trade that names its levels, for the features that the review of a batch names (Emotional Appeal: the bonus feat gained at 3rd level)
+                        elif op in ("replaces", "alters") and cls and not t.get("levels") and not t.get("power"):
+                            lv = table_level(class_table_levels(corpus, cls, class_cache), name, e.id)
                             if lv:
                                 found.append((lv, op, name))
                     if found:
                         r["level"] = min(lv for lv, _o, _n in found)
-                        r["notes"].append(f"level {r['level']} (ruling 57): " + ", ".join(f"{o} {n} (gained at level {lv} in the class table)" for lv, o, n in found))
+                        r["notes"].append(f"level {r['level']} (ruling 57): " + ", ".join(f"{o} {n} (level {lv})" for lv, o, n in found))
         if (e.id, r["anchor"]) in LEVEL_NONE and r["level"] is not None:
             r["notes"].append(f"no level: print states none and the feature alters a part of a class feature (owner rulings 4 and 48); the reader would take {r['level']}")
             r["level"] = None
@@ -4653,7 +4718,8 @@ PAGE_FIXES = {
 BATCH_B_BOOKS = ("psychic-anthology", "disciples-doctrine", "occult-origins", "arcane-anthology", "blood-of-the-coven")     # the lead reader of `LEAD_EXT` reads them (review of #344)
 BATCH_B4_BOOKS = ("merchants-manifest", "champions-of-corruption")     # the lead reader of `LEAD_EXT` reads them (batch B4)
 BATCH_B3_BOOKS = ("dirty-tactics-toolbox", "villain-codex", "weapon-masters-handbook", "melee-tactics-toolbox", "distant-realms")     # the lead reader of `LEAD_EXT` reads them (batch B3)
-PLAYER_COMPANIONS = ("blood-of-the-ancients", "wilderness-origins", "legacy-of-the-first-world", "people-of-the-wastes", "healers-handbook", "psychic-anthology", "disciples-doctrine", "occult-origins", "arcane-anthology", "blood-of-the-coven")
+PLAYER_COMPANIONS = ("blood-of-the-ancients", "wilderness-origins", "legacy-of-the-first-world", "people-of-the-wastes", "healers-handbook", "psychic-anthology", "disciples-doctrine", "occult-origins", "arcane-anthology", "blood-of-the-coven",
+                     "elemental-masters-handbook", "monster-hunters-handbook", "monster-summoners-handbook", "armor-masters-handbook", "cohorts-and-companions")
 
 # The Player Companions that set their archetype titles in small capitals (a capital and its small capitals 5 units apart), and whose
 # archetypes are followed by sections of the chapter of their own (feats, techniques, spells): any title ends the section of an archetype.
@@ -4663,7 +4729,7 @@ SMALL_CAP_BOOKS = ("blood-of-the-ancients", "blood-of-the-beast", "heroes-of-the
 # `CHAPTER_TITLES`); Agents of Evil sets a chapter title at top 82 and its archetypes are followed by the next chapter.
 CHAPTER_TITLE_BOOKS = ("agents-of-evil",)
 # ... and of these, the ones whose chapter titles or capitals stand above the usual top of the body (Blood of the Ancients keeps 88)
-HIGH_TITLE_BOOKS = ("blood-of-the-beast", "heroes-of-the-high-court", "martial-arts-handbook", "magic-tactics-toolbox", "haunted-heroes-handbook", "familiar-folio", "advanced-class-origins", "dirty-tactics-toolbox", "weapon-masters-handbook", "melee-tactics-toolbox", *BATCH_B4_BOOKS,
+HIGH_TITLE_BOOKS = ("blood-of-the-beast", "heroes-of-the-high-court", "martial-arts-handbook", "magic-tactics-toolbox", "haunted-heroes-handbook", "familiar-folio", "advanced-class-origins", "cohorts-and-companions", "dirty-tactics-toolbox", "weapon-masters-handbook", "melee-tactics-toolbox", *BATCH_B4_BOOKS,
                     "divine-anthology")     # the "ON VIRTUE" section title of Divine Anthology p. 16 is set at top 85, its small capitals at 94
 
 # ---- Potions & Poisons, Construct Handbook, Magic Tactics Toolbox, Haunted Heroes Handbook, Heroes from the Fringe (one block of tables) ----
@@ -4817,13 +4883,16 @@ def configure_book(book: str) -> None:
     CHAPTER_END[0] = 47 if book == "inner-sea-combat" else 0
     PAGE_SKIP[:] = [(16, 23), (26, 999)] if book == "legacy-of-dragons" else []
     LOWERCASE_CONTINUES["on"] = BULLETS["on"] = ITALIC_FIRST["on"] = CITE_EXT["on"] = LEAD_EXT["on"] = book in ("inner-sea-magic", "inner-sea-intrigue", "inner-sea-combat")
-    LEAD_EXT["on"] = LEAD_EXT["on"] or book in BATCH_B_BOOKS or book in BATCH_B3_BOOKS or book in BATCH_B4_BOOKS or book in ("heroes-of-the-darklands", "legacy-of-dragons", "familiar-folio", "advanced-class-origins")
+    LEAD_EXT["on"] = LEAD_EXT["on"] or book in BATCH_B_BOOKS or book in BATCH_B3_BOOKS or book in BATCH_B4_BOOKS or book in ("heroes-of-the-darklands", "legacy-of-dragons", "familiar-folio", "advanced-class-origins", "armor-masters-handbook", "cohorts-and-companions",
+                                                                                                  "elemental-masters-handbook", "monster-hunters-handbook", "monster-summoners-handbook")
     OCR["on"] = NO_STYLE["on"] = book in ("inner-sea-combat", "monster-codex")
     MC_TITLES["on"] = book == "monster-codex"
     ITALIC_JOIN["on"] = book in ("aquatic-adventures", "heroes-of-the-streets", "antiheros-handbook", "blood-of-the-sea")
     global OCR_PHRASES, OCR_JOINED, OCR_ITALICS
     OCR_PHRASES, OCR_JOINED, OCR_ITALICS = (MC_OCR_PHRASES, MC_OCR_JOINED, MC_OCR_ITALICS) if book == "monster-codex" else ISC_OCR
     ARCHETYPE_CAPS["on"] = book == "heroes-of-the-darklands"
+    FRAGMENT_TITLES["on"] = book == "armor-masters-handbook"
+    LOWERCASE_CONTINUES["on"] = LOWERCASE_CONTINUES["on"] or book == "armor-masters-handbook"
     LIST_CONTINUES["on"] = book in ("potions-and-poisons", "black-markets")
     BULLETS["on"] = BULLETS["on"] or book in ("potions-and-poisons", "black-markets")           # the Toxin Codexer's Modify Toxin prints bullet lists (ruling 45, review of #342)
     OUTER_TAB["on"] = book == "construct-handbook"
@@ -4832,12 +4901,13 @@ def configure_book(book: str) -> None:
     PAGE_GEOMETRY["on"] = book in ("inner-sea-magic", "inner-sea-intrigue", "inner-sea-combat", "construct-handbook", "aquatic-adventures", "distant-realms")
     MARGIN_CAPTIONS["on"] = CAPTIONS["on"] = book in ("inner-sea-magic", "inner-sea-intrigue", "inner-sea-combat")
     BOX_TITLES["titles"] = frozenset(squash(t) for t in BOXES_OF_BOOK.get(book, ()))
+    BOX_LORE["titles"] = frozenset(squash(t) for t in LORE_BOXES_OF_BOOK.get(book, ()))
     BOX_TO_END["on"] = book == "psychic-anthology"
     SKIP_TABLES["on"] = book == "advanced-race-guide"
     UPPER_HEAD_ENDS["on"] = book == "villain-codex"
     ILLUSTRATED["on"] = book in ("advanced-class-guide", "advanced-race-guide", "adventurers-guide", "ultimate-wilderness",
                                  "horror-adventures", "planar-adventures", "inner-sea-magic", "inner-sea-intrigue", "inner-sea-combat", "construct-handbook",
-                                 "heroes-of-the-darklands", "legacy-of-dragons", "familiar-folio", "advanced-class-origins",
+                                 "heroes-of-the-darklands", "legacy-of-dragons", "familiar-folio", "advanced-class-origins", "cohorts-and-companions",
                                  "dirty-tactics-toolbox", "melee-tactics-toolbox", "villain-codex")
     ART_INDENT["on"] = book in ("dirty-tactics-toolbox", "melee-tactics-toolbox", "villain-codex")
     ART_RUNS["on"] = book in ("black-markets", "blood-of-shadows", "agents-of-evil")     # Agents of Evil: text beside the figure steps in and out line by line (p. 20)
@@ -5539,6 +5609,41 @@ LEVEL_NONE = {
     ("ref/arc-medium/nexian-channeler", "third-eye"),
 }
 LEVEL_NONE.add(("ref/arc-bloodrager/bloody-knuckled-rowdy", "reduced-spells-known"))      # it changes the spells known, a part of spellcasting (ruling 48)
+# Ruling 57 and ruling 48 (cross-batch review): a feature that only adds options to, removes options from, or widens the choice of a pool (talents,
+# hexes, tricks, discoveries, spell lists, "in place of a talent") alters a part of the class feature, so it has no level from the trade (as Coral Witch,
+# #346); Eldritch Scion's bloodline is "selected at 1st level" while the feature it replaces is gained at 4th, so print gives it none
+LEVEL_NONE.update({
+    ("ref/arc-alchemist/crimson-chymist", "crimson-discoveries"),
+    ("ref/arc-investigator/psychic-detective", "investigator-talents"),
+    ("ref/arc-investigator/questioner", "restricted-talents"),
+    ("ref/arc-investigator/star-watcher", "investigator-talents"),
+    ("ref/arc-investigator/steel-hound", "investigator-talents"),
+    ("ref/arc-mesmerist/cult-master", "masterful-cult-tricks"),
+    ("ref/arc-rogue/phantom-thief", "broad-education"),
+    ("ref/arc-rogue/sylvan-trickster", "fey-tricks"),
+    ("ref/arc-shaman/benefactor", "benefactor-hexes"),
+    ("ref/arc-shaman/primal-warden", "hexes"),
+    ("ref/arc-slayer/spiritslayer", "spiritslayer-talents"),
+    ("ref/arc-slayer/witch-killer", "superstitious"),
+    ("ref/arc-vigilante/brute", "brute-talents"),
+    ("ref/arc-vigilante/cabalist", "cabalist-talents"),
+    ("ref/arc-vigilante/gunmaster", "gunmaster-talents"),
+    ("ref/arc-vigilante/warlock", "warlock-talents"),
+    ("ref/arc-vigilante/zealot", "zealot-talents"),
+    ("ref/arc-skald/battle-scion", "battle-prowess"),
+    ("ref/arc-kineticist/blood-kineticist", "blood-blast"),
+    ("ref/arc-magus/eldritch-scion", "bloodline"),
+})
+# Ruling 57 against a level that print states in the feature itself (ruling 51): the printed level wins
+LEVEL_FROM_PRINT.update({
+    ("ref/arc-druid/urushiol", "venom-immunity"): (4, "gains venom immunity at 4th level instead of 9th level"),
+    ("ref/arc-skald/boaster", "rage-power"): (4, "does not gain this ability until 4th level"),
+    ("ref/arc-bard/animal-speaker", "nature-s-speaker"): (5, "At 5th, 11th, and 17th level, the animal speaker selects another kind of animal friend"),
+})
+LEVEL_NONE.add(("ref/arc-sorcerer/wishcrafter", "wishbound-arcana"))      # it replaces the bloodline arcana, a part of the bloodline (ruling 48)
+# Diminished Spellcasting alters the whole spellcasting of the class, a 1st-level class feature (owner ruling 50; the corpus was split 7/7 on it)
+LEVEL_FROM_PRINT.update({(f"ref/arc-{e}", "diminished-spellcasting"): (1, "ruling 50: alters the whole spellcasting, a 1st-level class feature") for e in (
+    "magus/esoteric", "magus/myrmidarch", "magus/skirnir", "magus/jistkan-artificer", "magus/kensai", "magus/soul-forger", "oracle/purifier")})
 # a feature that replaces or alters only a part of a feature gets no level from the trade (owner ruling 48)
 LEVEL_FROM_PRINT.update({
     # Geist Channeler (Occult Adventures p. 109): "This ability alters the phantom" (Geistform Phantom) and "This ability modifies the phantom and replaces the
@@ -5696,6 +5801,18 @@ def self_test() -> int:
     hc = head_candidate(Para("para", [("Aberrant", True, False), ("\u2014", False, False), ("Squeezer (Ex)", True, False), (": The familiar gains", False, False)], "16", 0))
     eq(hc[0] if hc else None, "Aberrant\u2014Squeezer (Ex)", "dash key head")
     eq(head_candidate(Para("para", [("Aberrant", True, False), ("Squeezer (Ex)", True, False), (": x", False, False)], "16", 0))[0], "AberrantSqueezer (Ex)", "no dash, one bold run")
+    BOX_LORE["titles"] = frozenset({squash("Armor Master Archetypes and Prestige Classes")})
+    _ln = lambda text, size, left: {"size": size, "runs": [(text, False, False)], "col": 1, "left": left, "margin": 468}
+    _main, _box = split_boxes([_ln("Text before.", 13, 468), _ln("Armor Master Archetypes and Prestige Classes", 15, 487), _ln("Many organizations", 13, 487), _ln("Channel Energy (Su): text", 13, 468)])
+    eq([x["runs"][0][0] for x in _main], ["Text before.", "Channel Energy (Su): text"], "lore box apart: the text around it stays")
+    eq([x["runs"][0][0] for x in _box], ["Armor Master Archetypes and Prestige Classes", "Many organizations"], "lore box apart: its lines")
+    BOX_LORE["titles"] = frozenset()
+    eq([bool(CHOICE_INTRO.search(t)) for t in ("He can select the following additional discoveries: x.", "These talents can be selected by any rogue.", "These can also be taken by any fighter.", "He can take a feat.")], [True, True, True, False], "choice lead-ins of ruling 57's message")
+    _tab = {"bomb": 1, "brew potion": 1, "sacred weapon": 1, "summon monster i": 1, "channel energy": 4}
+    eq([table_level(_tab, "The bomb class feature", "ref/arc-alchemist/oozemaster"), table_level(_tab, "The bomb class feature"), table_level(_tab, "Sacred weapon"), table_level(_tab, "Channel energy"),
+        table_level(_tab, "Summon monster", "ref/arc-summoner/morphic-savant"), table_level(_tab, "Mount")],
+       [1, None, 1, 4, 1, None], "table_level: the exact name, or the table's name that TABLE_NAMES gives for a renamed trade")
+    eq(join_paras("ref/arc-paladin/legate", "celestial-armor", "A.\n\nThe legate can use this ability a number of times per day."), "A. The legate can use this ability a number of times per day.", "join_paras")
     UPPER_HEAD_ENDS["on"] = True
     _P = lambda text, bold: Para("para", [(text, bold, False)], "1", 0)
     _sec = [Para("title", [("Rogue", True, False)], "1", 0), _P("Opening.", False), Para("para", [("Alpha (Ex)", True, False), (": text", False, False)], "1", 0), _P("more text", False), _P("EQUIPMENT", True), _P("Bag PRICE 5 GP", False)]
@@ -6444,13 +6561,11 @@ def self_test() -> int:
                                       "keeps her gear.\n")[1][0])
     eq(compare_feature(d_self, "It functions as a modified _alter self_ spell. She keeps her gear.", set(), set()).status, "draft",
        "the italic marks of print change nothing in the comparison")
-    # a step printed as a Roman numeral is the number of a step of a class table, as a digit is (the unchained summoner's summon monster I-IX)
-    eq((first_level_key("Summon monster IX"), first_level_key("Summon monster")), ("summon monster", "summon monster"),
-       "the Roman numeral of a class-table step is its number (ruling 57)")
-    eq(first_level_key("Aura of evil XI") == "aura of evil", True, "a Roman numeral is stripped like a digit")
-    eq((first_level_key("Summon monster V"), first_level_key("Summon monster XV")), ("summon monster", "summon monster"),
-       "a bare V and XV are steps too (the reviewer of #353)")
-    eq(first_level_key("Perfect self"), "perfect self", "a name of two plain words is unchanged")
+    # a step printed as a Roman numeral keeps it in the table's name after #347; a trade that names the feature shorter is mapped in TABLE_NAMES
+    eq(first_level_key("Summon monster I"), "summon monster i", "the numeral of a step stays part of the table's name (ruling 57 after #347)")
+    eq((table_level({"summon monster i": 1}, "Summon monster", "ref/arc-unchained-summoner/devil-impostor"),
+        table_level({"summon monster i": 1}, "Summon monster")), (1, None),
+       "TABLE_NAMES gives the step of a trade that print names shorter, for this entry only")
     # an archetype's closing Ex- section stays in its span where any title ends the span (Agents of Evil, Ex-Insinuators)
     eq(is_ex_section("Ex-Insinuators", "insinuator"), True, "the Ex- section of an archetype does not end its span")
     eq(is_ex_section("Ex-Insinuator", "insinuator"), True, "a singular Ex- title too")
@@ -6496,6 +6611,9 @@ TRADE_ADDITIONS.setdefault("ref/arc-unchained-summoner/devil-impostor", []).appe
 # "This replaces the paladin's class skills list." is print's sentence of the Class Skills section before the first feature: stored
 # without `by`, as above
 TRADE_ADDITIONS.setdefault("ref/arc-paladin/iomedaen-enforcer", []).append({"replaces": "The paladin's class skills list"})
+# the unchained summoner's table writes its steps "summon monster I" to "summon monster IX": the whole-feature trade names the first of them
+# (ruling 57, as TABLE_NAMES does for the other summoners)
+TABLE_NAMES[("ref/arc-unchained-summoner/devil-impostor", "Summon monster")] = "Summon monster I"
 # print's sentence is "This modifies the normal eidolon rules." (ruling 55 reads modifies as alters): the stored name follows the printed
 # phrase, as the app's drift reader compares the two (app #737; the link to the eidolon feature stays)
 TRADE_RENAMES[("ref/arc-unchained-summoner/devil-impostor", "Eidolon")] = "The normal eidolon rules"
@@ -6552,6 +6670,48 @@ def main() -> int:
     ap.print_help()
     return 2
 
+
+
+MISPRINTS.extend([
+    ("ref/arc-bard/flamesinger", "without needing the meet the normal", "without needing to meet the normal",
+     "\"needing the meet\" is a slip (Elemental Master's Handbook p. 5); the sentence reads \"without needing to meet the normal prerequisites\" (ruling 9)"),
+    ("ref/arc-bard/luring-piper", "using the lurid piper's bard level", "using the luring piper's bard level",
+     "the archetype is the luring piper; \"lurid piper\" is a wrong proper name (Monster Hunter's Handbook p. 11; owner ruling 43)"),
+])
+# ---- Batch A3: Elemental Master's Handbook, Monster Hunter's Handbook, Monster Summoner's Handbook, Armor Master's Handbook, Cohorts and Companions ----
+LEVEL_FROM_PRINT.update({
+    ("ref/arc-paladin/divine-guardian", "bonus-feat"): (7, "print says \"A divine guardian gains a bonus feat at 7th level\" (Cohorts and Companions p. 23); the hand edit of the ability keeps the level"),
+    ("ref/arc-gunslinger/firebrand", "scorched-earth"): (4, "print says \"At 4th level and every 4 levels thereafter\" (Elemental Master's Handbook p. 5): the level is stated inside the sentence (ruling 4)"),
+})
+_STORM = [("eagle", "ref/monster/eagle"), ("small air elemental", "ref/monster/air-elemental"), ("small lightning elemental", "ref/monster/lightning-elemental"),
+          ("dire bat", "ref/monster/bat-dire-bat"), ("medium air elemental", "ref/monster/air-elemental"), ("medium lightning elemental", "ref/monster/lightning-elemental"),
+          ("pteranodon", "ref/monster/dinosaur-pteranodon"), ("large air elemental", "ref/monster/air-elemental"), ("large lightning elemental", "ref/monster/lightning-elemental"),
+          ("huge air elemental", "ref/monster/air-elemental"), ("huge lightning elemental", "ref/monster/lightning-elemental"), ("roc", "ref/monster/roc"),
+          ("elder air elemental", "ref/monster/air-elemental"), ("elder lightning elemental", "ref/monster/lightning-elemental"), ("advanced", "ref/template/advanced"),
+          ("call lightning", "ref/spell/call-lightning")]
+for _eid in ("ref/arc-summoner/storm-caller", "ref/arc-unchained-summoner/storm-caller"):
+    EXTRA_LINKS[(_eid, "summon-storm-s-fury")] = list(_STORM)
+    TRADE_ADDITIONS[_eid] = TRADE_ADDITIONS.get(_eid, []) + [{"alters": "the summoner's summon monster I\u2013IX abilities", "feature": "summon-monster-i"}]
+TRADE_ADDITIONS["ref/arc-alchemist/energy-scientist"] = [{"alters": "Class skills"}]
+EXTRA_LINKS[("ref/arc-investigator/dread-investigator", "investigator-talent")] = [("alchemical discovery", "ref/invtalent/alchemist-discovery")]
+TRADE_RENAMES.update({
+    ("ref/arc-warpriest/proselytizer", "3rd-level bonus feat"): "Bonus feat gained at 3rd level",
+    ("ref/arc-wizard/bonded-wizard", "5th- and 15th-level bonus feats"): "A wizard's bonus feats normally gained at 5th and 15th level",
+    ("ref/arc-wizard/bonded-wizard", "10th-level bonus feat"): "The wizard's bonus feat normally gained at 10th level",
+    ("ref/arc-wizard/instructor", "5th-, 10th-, 15th-, and 20th-level bonus feats"): "The bonus feats gained at 5th, 10th, 15th, and 20th level",
+})
+# print: "This ability alters sacred weapon and also replaces sacred armor": two trades, as the app reads it since #737 ("and also <verb>" splits)
+TRADE_OP_FIXES[("ref/arc-warpriest/shieldbearer", "sacred armor")] = "replaces"
+# ruling 55 ("modifies" is an alters verb): the gap that its sentence leaves in this batch (the verb itself is the cross-batch PR's)
+TRADE_ADDITIONS["ref/arc-warpriest/shieldbearer"] = [{"alters": "Channel energy", "feature": "channel-energy"}]
+TRADE_ADDITIONS["ref/arc-alchemist/oozemaster"] = [{"replaces": "The bomb class feature", "feature": "bomb"}]
+TRADE_RENAMES[("ref/arc-alchemist/oozemaster", "Brew Potion")] = "Brew Potion, though an oozemaster can still select Brew Potion without meeting the feat's prerequisites"
+for _eid in ("ref/arc-bard/luring-piper", "ref/arc-druid/defender-of-the-true-world", "ref/arc-occultist/psychodermist"):
+    TRADE_ADDITIONS[_eid] = TRADE_ADDITIONS.get(_eid, []) + [{"alters": "Class skills"}]
+TRADE_RENAMES[("ref/arc-paladin/banishing-warden", "3rd-level mercy")] = "Mercy gained at 3rd level"
+MISPRINTS.append(("ref/arc-bard/luring-piper", "and a when employing a wind instrument", "and when employing a wind instrument",
+                  "a stray \"a\" in print (\"and a when employing a wind instrument\"); the sentence reads \"... when using Perform (wind instruments) and when employing a wind instrument\" (Monster Hunter's Handbook p. 11)"))
+TRADE_RENAMES[("ref/arc-monk/windstep-master", "Slow fall")] = "Slow fall or the ki power gained at 4th level for an unchained monk"
 
 if __name__ == "__main__":
     sys.exit(main())

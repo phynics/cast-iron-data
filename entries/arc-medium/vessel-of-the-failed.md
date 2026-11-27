@@ -19,7 +19,7 @@ kind = "archetype"
 features = [
   { anchor = "will-of-the-failed", level = 1 },
   { anchor = "reckless-surge", level = 1 },
-  { anchor = "heroic-exceptions" },
+  { anchor = "heroic-exceptions", level = 2 },
   { anchor = "spiritual-swan-song", level = 15 },
 ]
 trades = [

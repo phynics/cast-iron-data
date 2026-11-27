@@ -21,7 +21,7 @@ page = "21"
 kind = "archetype"
 features = [
   { anchor = "swamper", level = 1 },
-  { anchor = "rat-s-resilience" },
+  { anchor = "rat-s-resilience", level = 3 },
 ]
 trades = [
   { replaces = "Trapfinding", feature = "trapfinding", by = ["swamper"] },
