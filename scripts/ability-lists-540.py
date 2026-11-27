@@ -142,7 +142,7 @@ def table_clean(blocks: list, tail: str) -> list:
     return cl.join_across_tables(out)
 
 
-def section_for(e, bk) -> tuple[list, list[str]]:
+def section_for(e, bk, names: set[str] | None = None) -> tuple[list, list[str]]:
     """The printed section of a list: a title block (the title of the entry's section) and the blocks after it up to the next title that is no head of the list."""
     notes: list[str] = []
     page = first_page(e.page)
@@ -153,7 +153,8 @@ def section_for(e, bk) -> tuple[list, list[str]]:
     blocks = [b for b in fp.read_blocks(bk, max(1, lo - 2), min(hi + 4 + fp.PAGE_OFFSET[0], max(bk.pages))) if lo <= b.page <= hi]       # by the printed label of the block
     if e.id.rsplit("/", 1)[1] in IN_CLASS_TABLE:
         blocks = table_clean(blocks, cl.table_tail((corpus_dir() / "entries" / (IN_CLASS_TABLE[e.id.rsplit("/", 1)[1]].removeprefix("ref/") + ".md")).read_text(encoding="utf-8")))
-    names = {fp.squash(fp.ABILITY_TAG.sub("", f.name)) for f in fp.parse_import(e.body, set())[1]}
+    if names is None:
+        names = {fp.squash(fp.ABILITY_TAG.sub("", f.name)) for f in fp.parse_import(e.body, set())[1]}
     want = fp.squash(TITLES.get(e.id.rsplit("/", 1)[1], e.title))
     CONTEXT_TEXT[e.id] = fp.squash(" ".join(b.plain() for b in fp.read_blocks(bk, max(1, lo - 3), min(hi + 4 + fp.PAGE_OFFSET[0], max(bk.pages))) if lo - 1 <= b.page <= hi))
     first = FIRST_BLOCK.get(e.id.rsplit("/", 1)[1])
@@ -460,6 +461,49 @@ def run_compare(args) -> int:
     return 0
 
 
+def run_audit(args) -> int:
+    """The print-coverage check over the lists that are written already (read only): the printed section of each, read again from the pages with the heads of the
+    written items, against the entry's body. Prints the sentences that the check holds."""
+    corpus = Path(args.corpus).resolve()
+    CORPUS_DIR[0] = corpus
+    books: dict[str, object] = {}
+    tops: dict[str, tuple] = {}
+    held = n = 0
+    for e in load_lists(corpus, args.ids.split(",") if args.ids else None):
+        if co.shape_of(e.body)[0] != "none":
+            continue                                                  # not written yet
+        fp.configure_book(e.book)
+        if e.book not in books:
+            pdf = fp.find_pdf(Path(args.books), fp.publication_title(corpus, e.book))
+            books[e.book] = fp.load_book(fp.book_xml(pdf, Path(args.cache))) if pdf else None
+            tops[e.book] = fp.BODY_TOP
+        fp.BODY_TOP = tops.get(e.book, fp.BODY_TOP)
+        heads = re.findall(r"^\*\*([^*\n]{2,80}?):\*\*", e.body, re.M)
+        key = e.id.rsplit("/", 1)[1]
+        names = {fp.squash(re.sub(r"\s*\((?:DC \d+|[^()]* page \d+)\)", "", fp.ABILITY_TAG.sub("", h))) for h in heads}
+        section, notes = section_for(e, books[e.book], names)
+        n += 1
+        if not section:
+            print(f"{e.id}: no section found ({'; '.join(notes)})")
+            continue
+        kept, skipping = [], False
+        for p in section[1:]:
+            hc = fp.head_candidate(p) if p.kind == "para" else None
+            if hc and key in ELSEWHERE:
+                skipping = fp.squash(re.sub(r"\s*\(DC \d+\)", "", fp.ABILITY_TAG.sub("", hc[0]))) not in names
+            if not skipping:
+                kept.append(p)
+        plan = {"key": key, "section": [section[0]] + kept}
+        lost = coverage(plan, e.body)
+        if lost:
+            held += 1
+            print(f"{e.id} ({e.book} p. {e.page}): {len(lost)} printed sentences that the entry lacks")
+            for s in lost[:5]:
+                print("    " + s[:240])
+    print(f"audit of the written lists: {n} read, {held} held by the check")
+    return 0
+
+
 def self_test() -> int:
     ok, bad = 0, []
 
@@ -504,6 +548,7 @@ def main() -> int:
     ap.add_argument("corpus", nargs="?", default=str(HERE.parent))
     ap.add_argument("--self-test", action="store_true")
     ap.add_argument("--compare", action="store_true")
+    ap.add_argument("--audit", action="store_true", help="the print-coverage check over the written lists (read only)")
     ap.add_argument("--ids")
     ap.add_argument("--books")
     ap.add_argument("--cache")
@@ -512,6 +557,8 @@ def main() -> int:
     args = ap.parse_args()
     if args.self_test:
         return self_test()
+    if args.audit:
+        return run_audit(args)
     if args.compare:
         return run_compare(args)
     ap.error("one of --self-test, --compare")
