@@ -8,21 +8,19 @@ provenance = [
 ]
 [[sources]]
 publication = "advanced-players-guide"
-page = "61"
+page = "60-61"
 
 [fields]
 kind = "class_option"
 group = "summoner-evolution"
 +++
 
-**Scent (Ex)**
+1-Point Evolutions: The following evolutions cost 1 point from the eidolon's evolution pool.
 
-**Flavor:** An eidolon's sense of smell becomes quite acute.
-
-**Ability:** The eidolon gains the [scent](ref/umr/scent) special quality, allowing it to detect
-opponents within 30 feet by sense of smell. If the opponent is upwind, the range increases to 60
-feet; if downwind, it drops to 15 feet. Strong scents can be detected at twice the normal range.
-
-_Scent_ does not allow the eidolon to precisely locate the creature, only to detect its presence. It
-can detect the direction with a **move action**. The eidolon can pinpoint the creature's location if
-it is within 5 feet. The eidolon can use _scent_ to track creatures.
+An eidolon's sense of smell becomes quite acute. The eidolon gains the [scent](ref/umr/scent)
+special quality, allowing it to detect opponents within 30 feet by sense of smell. If the opponent
+is upwind, the range increases to 60 feet; if downwind, it drops to 15 feet. Strong scents can be
+detected at twice the normal range. Scent does not allow the eidolon to precisely locate the
+creature, only to detect its presence. It can detect the direction with a move action. The eidolon
+can pinpoint the creature's location if it is within 5 feet. The eidolon can use scent to track
+creatures (see page 304 of the _Bestiary_ for details).

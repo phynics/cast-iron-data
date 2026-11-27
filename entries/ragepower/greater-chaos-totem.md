@@ -15,10 +15,8 @@ kind = "class_option"
 group = "rage-power"
 +++
 
-**Greater Chaos Totem (Su)**
-
-**Passive:** While _raging,_ the barbarian gains DR/lawful equal to 1/2 her barbarian level. Her
-weapons and natural weapons are considered chaotic for the purpose of overcoming
-[damage reduction](ref/rule/damage-reduction).
-
-**Prereq:** 10th-level barbarian, [chaos totem](ref/ragepower/chaos-totem)
+While raging, the barbarian gains DR/lawful equal to 1/2 her barbarian level. Her weapons and
+natural weapons are considered chaotic for the purpose of overcoming
+[damage reduction](ref/rule/damage-reduction). A barbarian must have the
+[chaos totem](ref/ragepower/chaos-totem) rage power to select this rage power. A barbarian must be
+at least 10th level to select this rage power.

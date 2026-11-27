@@ -8,17 +8,15 @@ provenance = [
 ]
 [[sources]]
 publication = "advanced-players-guide"
-page = "63"
+page = "61-63"
 
 [fields]
 kind = "class_option"
 group = "summoner-evolution"
 +++
 
-**Weapon Training (Ex)**
+2-Point Evolutions: The following evolutions cost 2 points from the eidolon's evolution pool.
 
-**Ability:** An eidolon learns to use a weapon, gaining
-[Simple Weapon Proficiency](ref/feat/simple-weapon-proficiency) as a bonus feat.
-
-**Special:** If 2 additional evolution points are spent, it gains proficiency with all martial
-weapons as well.
+An eidolon learns to use a weapon, gaining
+[Simple Weapon Proficiency](ref/feat/simple-weapon-proficiency) as a bonus feat. If 2 additional
+evolution points are spent, it gains proficiency with all martial weapons as well.

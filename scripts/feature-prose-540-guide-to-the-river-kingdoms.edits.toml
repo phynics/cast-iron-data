@@ -1,0 +1,7 @@
+[[edit]]
+entry = "ref/arc-bard/pitax-academy-of-grand-arts"
+anchor = "focused-performance"
+note = "hand-written by the batch lead from print (Guide to the River Kingdoms p. 40, page checked as an image): the archetype is the box The Academy of Grand Arts at the top of the left column of the Pitax page, with the subtitle Focused Performance over its introduction and the ability under a bold head; the extraction read the paragraph of the page's text that follows the box (\"others. Whatever the endgame of the Numerian bard might be ...\") into its end, and the subtitle over the introduction as a head of its own. The text is print's: the ability (the introduction that states the trade is the opening of the entry)."
+text = '''
+At 2nd level, a bard must choose one type of Perform skill. The bard gains [Extra Performance](ref/feat/extra-performance) as a bonus feat, usable only with the chosen category of the Perform skill. At 8th level, and every 6 levels thereafter, the bard gains Extra Performance as an additional bonus feat. The additional uses of bardic performance gained from these feats cannot be used with any category of the Performance skill other than the one chosen at 2nd level.
+'''

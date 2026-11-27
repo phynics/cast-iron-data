@@ -15,8 +15,6 @@ kind = "class_option"
 group = "rage-power"
 +++
 
-**Brawler**
-
-**Ability:** While _raging,_ the barbarian is treated as if she has
+While raging, the barbarian is treated as if she has
 [Improved Unarmed Strike](ref/feat/improved-unarmed-strike). If she already has the feat, her
 unarmed strikes deal 1d6 points of damage (1d4 if she is Small).

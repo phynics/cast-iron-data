@@ -15,11 +15,9 @@ kind = "class_option"
 group = "rage-power"
 +++
 
-**Greater Ferocious Trample (Ex)**
-
-**Ability:** A barbarian's mount can affect creatures up to its own size with its _ferocious
-trample._ In addition, it can make an [overrun](ref/rule/overrun) combat maneuver check as a **free
-action** against a creature that fails its Reflex save (or chooses not to save in order to take an
-attack of opportunity) against its trample.
-
-**Prereq:** 12th-level barbarian, [ferocious trample](ref/ragepower/ferocious-trample)
+A barbarian's mount can affect creatures up to its own size with its
+[ferocious trample](ref/ragepower/ferocious-trample). In addition, it can make an
+[overrun](ref/rule/overrun) combat maneuver check as a free action against a creature that fails its
+Reflex save (or chooses not to save in order to take an attack of opportunity) against its trample.
+A barbarian must have the [ferocious trample](ref/ragepower/ferocious-trample) rage power to select
+this rage power. A barbarian must be at least 12th level to select this rage power.

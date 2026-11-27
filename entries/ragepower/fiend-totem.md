@@ -15,10 +15,7 @@ kind = "class_option"
 group = "rage-power"
 +++
 
-**Fiend Totem (Su)**
-
-**Passive:** While _raging,_ the barbarian sprouts dozens of wicked barbs from her body. Anyone
-striking the barbarian with a melee weapon, an unarmed strike, or a natural weapon takes 1d6 points
-of piercing damage.
-
-**Prereq:** 6th-level barbarian, [lesser fiend totem](ref/ragepower/lesser-fiend-totem)
+While raging, the barbarian sprouts dozens of wicked barbs from her body. Anyone striking the
+barbarian with a melee weapon, an unarmed strike, or a natural weapon takes 1d6 points of piercing
+damage. A barbarian must have the [lesser fiend totem](ref/ragepower/lesser-fiend-totem) rage power
+to select this rage power. A barbarian must be at least 6th level to select this rage power.
