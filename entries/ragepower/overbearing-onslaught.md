@@ -15,9 +15,7 @@ kind = "class_option"
 group = "rage-power"
 +++
 
-**Overbearing Onslaught (Ex)**
-
-**Ability:** While _raging,_ the barbarian may [overrun](ref/rule/overrun) more than one target per
-round, with a -2 penalty on her CMB for each overrun check after the first.
-
-**Prereq:** [Overbearing advance](ref/ragepower/overbearing-advance), 6th-level barbarian
+While raging, the barbarian may [overrun](ref/rule/overrun) more than one target per round, with a
+-2 penalty on her CMB for each overrun check after the first. A barbarian must have the
+[overbearing advance](ref/ragepower/overbearing-advance) rage power to select this rage power. A
+barbarian must be at least 6th level to select this rage power.

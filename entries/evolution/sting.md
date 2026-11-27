@@ -8,20 +8,17 @@ provenance = [
 ]
 [[sources]]
 publication = "advanced-players-guide"
-page = "61"
+page = "60-61"
 
 [fields]
 kind = "class_option"
 group = "summoner-evolution"
 +++
 
-**Sting (Ex)**
+1-Point Evolutions: The following evolutions cost 1 point from the eidolon's evolution pool.
 
-**Ability:** An eidolon possesses a long, barbed stinger at the end of its tail, granting it a
-[sting attack](ref/umr/natural-attacks). This attack is a primary attack. The sting deals 1d4 points
-of damage (1d6 if Large, 1d8 if Huge).
-
-**Prereq:** [Tail](ref/evolution/tail)
-
-**Special:** This evolution can be selected more than once, but the eidolon must possess an equal
-number of the _tail_ evolution.
+An eidolon possesses a long, barbed stinger at the end of its [tail](ref/evolution/tail), granting
+it a [sting attack](ref/umr/natural-attacks). This attack is a primary attack. The sting deals 1d4
+points of damage (1d6 if Large, 1d8 if Huge). The eidolon must possess the
+[tail](ref/evolution/tail) evolution to take this evolution. This evolution can be selected more
+than once, but the eidolon must possess an equal number of the [tail](ref/evolution/tail) evolution.

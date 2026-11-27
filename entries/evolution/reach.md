@@ -8,15 +8,14 @@ provenance = [
 ]
 [[sources]]
 publication = "advanced-players-guide"
-page = "61"
+page = "60-61"
 
 [fields]
 kind = "class_option"
 group = "summoner-evolution"
 +++
 
-**Reach (Ex)**
+1-Point Evolutions: The following evolutions cost 1 point from the eidolon's evolution pool.
 
-**Flavor:** One of an eidolon's attacks is capable of striking at foes at a distance.
-
-**Ability:** Pick one attack. The eidolon's reach with that attack increases by 5 feet.
+One of an eidolon's attacks is capable of striking at foes at a distance. Pick one attack. The
+eidolon's reach with that attack increases by 5 feet.

@@ -15,10 +15,7 @@ kind = "class_option"
 group = "rage-power"
 +++
 
-**Chaos Totem (Su)**
-
-**Passive:** While _raging,_ the barbarian's form becomes infused with chaos. She gains a +4 bonus
-on Escape Artist checks and has a 25% chance to ignore extra damage from critical hits and sneak
-attacks.
-
-**Prereq:** 6th-level barbarian, [lesser chaos totem](ref/ragepower/lesser-chaos-totem)
+While raging, the barbarian's form becomes infused with chaos. She gains a +4 bonus on Escape Artist
+checks and has a 25% chance to ignore extra damage from critical hits and sneak attacks. A barbarian
+must have the [lesser chaos totem](ref/ragepower/lesser-chaos-totem) rage power to select this rage
+power. A barbarian must be at least 6th level to select this rage power.

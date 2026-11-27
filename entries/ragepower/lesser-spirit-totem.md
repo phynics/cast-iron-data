@@ -15,10 +15,7 @@ kind = "class_option"
 group = "rage-power"
 +++
 
-**Lesser Spirit Totem (Su)**
-
-**Passive:** While _raging,_ the barbarian is surrounded by spirit wisps that harass her foes. These
-spirits make one slam attack each round against a living foe that is adjacent to the barbarian. This
-slam attack is made using the barbarian's full base attack bonus, plus the barbarian's Charisma
-modifier. The slam deals 1d4 points of negative energy damage, plus the barbarian's Charisma
-modifier.
+While raging, the barbarian is surrounded by spirit wisps that harass her foes. These spirits make
+one slam attack each round against a living foe that is adjacent to the barbarian. This slam attack
+is made using the barbarian's full base attack bonus, plus the barbarian's Charisma modifier. The
+slam deals 1d4 points of negative energy damage, plus the barbarian's Charisma modifier.
