@@ -68,9 +68,9 @@ if using _[giant form II](ref/spell/giant-form-2)_.
 
 At 9th level, a mountain druid gains immunity to petrification and receives a +4 bonus on saving
 throws or to CMD to resist any attempt to push, pull, bull rush, or drag her, or to resist any other
-effect that would physically move her from her position (e.g., _[repel wood](ref/spell/repel-wood),
-[reverse gravity](ref/spell/reverse-gravity),_ or being blown away by high winds). This does not
-protect her against being tripped, grappled, or overrun. This ability replaces venom immunity.
+effect that would physically move her from her position (e.g., _repel wood, reverse gravity,_ or
+being blown away by high winds). This does not protect her against being tripped, grappled, or
+overrun. This ability replaces venom immunity.
 
 ## Mountain Stone (Ex) {#mountain-stone}
 

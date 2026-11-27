@@ -17,7 +17,7 @@ page = "27"
 [fields]
 kind = "archetype"
 features = [
-  { anchor = "enhance-healing" },
+  { anchor = "enhance-healing", level = 2 },
   { anchor = "healing-performance", level = 14 },
   { anchor = "funereal-ballad", level = 20 },
 ]

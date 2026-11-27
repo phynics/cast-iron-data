@@ -16,61 +16,56 @@ page = "7"
 
 [fields]
 kind = "archetype"
+features = [
+  { anchor = "sworn-to-purity", level = 1 },
+  { anchor = "revealing-gaze", level = 1 },
+  { anchor = "expose-aberration", level = 2 },
+  { anchor = "escape-corruption-s-grasp", level = 5 },
+]
 trades = [
-  { replaces = "Stern gaze", feature = "stern-gaze" },
-  { replaces = "Detect alignment", feature = "detect-alignment" },
-  { replaces = "Discern lies", feature = "discern-lies" },
-  { alters = "Domains", feature = "domain" },
-  { alters = "Bane", feature = "bane" },
+  { replaces = "Stern gaze", feature = "stern-gaze", by = ["revealing-gaze"] },
+  { replaces = "Detect alignment", feature = "detect-alignment", by = ["expose-aberration"] },
+  { replaces = "Discern lies", feature = "discern-lies", by = ["escape-corruption-s-grasp"] },
+  { alters = "Domains", feature = "domain", by = ["sworn-to-purity"] },
+  { alters = "Bane", feature = "bane", by = ["expose-aberration"] },
 ]
 +++
 
 Abolishers are incorruptible inquisitors who weed out creatures of alien, unnatural origins, finding
 and exposing aberrations for what they are.
 
-**Sworn to Purity (Ex)**
+## Sworn to Purity (Ex) {#sworn-to-purity}
 
-**Alters:** Domains
-
-**Choice:** An abolisher must select one of the following domains: [Air](ref/domain/air),
+An abolisher must select one of the following domains: [Air](ref/domain/air),
 [Animal](ref/domain/animal), [Earth](ref/domain/earth), [Fire](ref/domain/fire),
 [Plant](ref/domain/plant), [Water](ref/domain/water), or [Weather](ref/domain/weather). If she ever
 changes her deity to one that has none of the listed domains, she loses this archetype and becomes a
 normal inquisitor or ex-inquisitor.
 
-**Revealing Gaze (Ex)**
+This ability alters domains.
 
-**Passive:** An abolisher receives a morale bonus on opposed Perception checks against other
-creatures' Disguise and Stealth checks equal to [half](ref/misc/fractions-and-rounding) her
-inquisitor level (minimum +1). She grants this bonus to all adjacent allies.
+## Revealing Gaze (Ex) {#revealing-gaze}
 
-**Replaces:** Stern gaze
+An abolisher receives a morale bonus on opposed Perception checks against other creatures' Disguise
+and Stealth checks equal to [half](ref/misc/fractions-and-rounding) her inquisitor level (minimum
++1). She grants this bonus to all adjacent allies.
 
-**Expose Aberration (Sp)**
+This ability replaces stern gaze.
 
-**Ability:** An abolisher can use [detect aberration](ref/spell/detect-aberration) at will. When she
-hits a creature with a weapon attack, she automatically knows if the creature is an aberration or
-not.
+## Expose Aberration (Sp) {#expose-aberration}
 
-**Alters:** Bane
-
-**At 5th Level:** She can activate her _[bane](ref/spell/bane)_ ability as an **immediate action**
+At 2nd level, an abolisher can use _[detect aberration](ref/spell/detect-aberration)_ at will. When
+she hits a creature with a weapon attack, she automatically knows if the creature is an aberration
+or not. At 5th level, she can activate her [bane](ref/spell/bane) ability as an immediate action
 after she hits an aberration but before damage is rolled.
 
-**Gained:** At 2nd Level
+This ability replaces detect alignment and alters bane.
 
-**Replaces:** Detect alignment
+## Escape Corruption's Grasp (Sp) {#escape-corruption-s-grasp}
 
-**Escape Corruption's Grasp (Sp)**
+At 5th level, an abolisher is divinely protected against the grasping tentacles and paralyzing
+secretions of aberrations. For a number of rounds per day equal to her inquisitor level, she can
+ignore impediments to movement, as per _[freedom of movement](ref/spell/freedom-of-movement)_. These
+rounds don't need to be consecutive. Activating this ability is an immediate action.
 
-**Flavor:** An abolisher is divinely protected against the grasping tentacles and paralyzing
-secretions of aberrations.
-
-**Immediate:** She can ignore impediments to movement, as per
-[freedom of movement](ref/spell/freedom-of-movement).
-
-**Gained:** At 5th Level
-
-**Replaces:** Discern lies
-
-**Usage:** 1 time/day per inquisitor level
+This ability replaces discern lies.

@@ -44,7 +44,7 @@ firearms. She must take the [Exotic Weapon Proficiency](ref/feat/exotic-weapon-p
 
 ## Gunsmith {#gunsmith}
 
-A [musket](ref/eq-weapon/musket) master must take a musket when she chooses a battered firearm at
+A musket master must take a [musket](ref/eq-weapon/musket) when she chooses a battered firearm at
 1st level.
 
 ## Deeds {#deeds}

@@ -18,7 +18,7 @@ page = "4"
 kind = "archetype"
 features = [
   { anchor = "dancer-s-cunning", level = 1 },
-  { anchor = "rolling-flurry" },
+  { anchor = "rolling-flurry", level = 2 },
   { anchor = "dancing-dodge", level = 4 },
   { anchor = "sparring-partners", level = 4 },
 ]

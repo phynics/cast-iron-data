@@ -17,8 +17,8 @@ page = "16"
 [fields]
 kind = "archetype"
 features = [
-  { anchor = "shield-hand" },
-  { anchor = "strong-side-fist" },
+  { anchor = "shield-hand", level = 4 },
+  { anchor = "strong-side-fist", level = 3 },
   { anchor = "lead-leg", level = 5 },
 ]
 trades = [

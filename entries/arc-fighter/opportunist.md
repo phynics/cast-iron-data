@@ -17,7 +17,7 @@ page = "20"
 [fields]
 kind = "archetype"
 features = [
-  { anchor = "duplicitous" },
+  { anchor = "duplicitous", level = 2 },
   { anchor = "underhanded", level = 1 },
   { anchor = "cunning-edge", level = 4 },
   { anchor = "alchemical-onslaught", level = 5 },

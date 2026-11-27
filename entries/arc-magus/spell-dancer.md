@@ -52,12 +52,11 @@ four levels beyond 1st, the spell dancer gains another +10 enhancement bonus to 
 AC against attacks of opportunity provoked from movement.
 
 At 5th level, once per spell dance as a swift action, the spell dancer may use one of the following
-on himself as a swift action: _[blur](ref/spell/blur), [fly](ref/spell/fly),_ or
-_[haste](ref/spell/haste)_. These abilities last for 1 round. At 9th level, the spell dancer may
-instead take a swift action to use _[dimension door](ref/spell/dimension-door)_ as a
-[spell-like ability](ref/umr/spell-like-abilities) once during a spelldance. At 13th level, the
-spell dancer may instead choose to take a swift action to gain
-_[freedom of movement](ref/spell/freedom-of-movement)_ for 1d4 rounds.
+on himself as a swift action: _blur, fly,_ or _[haste](ref/spell/haste)_. These abilities last for 1
+round. At 9th level, the spell dancer may instead take a swift action to use
+_[dimension door](ref/spell/dimension-door)_ as a [spell-like ability](ref/umr/spell-like-abilities)
+once during a spelldance. At 13th level, the spell dancer may instead choose to take a swift action
+to gain _[freedom of movement](ref/spell/freedom-of-movement)_ for 1d4 rounds.
 
 This ability replaces the magus's ability to expend points from his arcane pool as a swift action to
 grant any weapon he is holding magic bonuses for 1 minute.

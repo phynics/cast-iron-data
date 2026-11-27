@@ -41,9 +41,9 @@ At 2nd level, a horse lord must choose the mounted [combat style](ref/ability/co
 
 ## Mounted Bond (Ex) {#mounted-bond}
 
-At 4th level, the [horse](ref/companion/horse) lord forms a bond with an animal he can use as a
-mount, which becomes his [animal companion](ref/sidekick/animal-companion). A Medium ranger can
-select a [camel](ref/companion/camel) or a horse. A small ranger can select a
+At 4th level, the horse lord forms a bond with an animal he can use as a mount, which becomes his
+[animal companion](ref/sidekick/animal-companion). A Medium ranger can select a
+[camel](ref/companion/camel) or a [horse](ref/companion/horse). A small ranger can select a
 [pony](ref/companion/pony) or [wolf](ref/companion/wolf), but can also select a
 [boar](ref/companion/boar) or [dog](ref/companion/dog) if he is at least 7th level. This ability
 functions like the druid animal companion ability except that the ranger's effective druid level is

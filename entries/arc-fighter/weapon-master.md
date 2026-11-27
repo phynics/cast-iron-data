@@ -45,10 +45,9 @@ weapon type.
 
 At 2nd level, a weapon master gains a +1 bonus to CMD against [disarm](ref/rule/disarm) and
 [sunder](ref/rule/sunder) attempts while wielding his chosen weapon. This bonus also applies on
-saves against any effect that targets his chosen weapon (for example, _[grease](ref/spell/grease),
-[heat metal](ref/spell/heat-metal), [shatter](ref/spell/shatter),
-[warp wood](ref/spell/warp-wood)_). The bonus increases by +1 for every four levels beyond 2nd. This
-ability replaces bravery.
+saves against any effect that targets his chosen weapon (for example, _grease, heat metal, shatter,
+warp wood_). The bonus increases by +1 for every four levels beyond 2nd. This ability replaces
+bravery.
 
 ## Weapon Training (Ex) {#weapon-training}
 

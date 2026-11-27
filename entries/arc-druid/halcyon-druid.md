@@ -37,7 +37,7 @@ trades = [
 ]
 +++
 
-Druids of the Halcyon Circle embrace [the teachings of Old- Mage Jatembe](ref/rule/aff-i-school),
+Druids of the Halcyon Circle embrace [the teachings of Old-Mage Jatembe](ref/rule/aff-i-school),
 combining them with traditional druidic practices. Though they revere the natural world, halcyon
 druids are less focused on emulating its inhabitants. Instead, like Old-Mage Jatembe, they treat
 with beings from the Outer Sphere. As a sign of their allegiance, these druids wear fantastical

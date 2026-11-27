@@ -28,7 +28,7 @@ ref/arc-gunslinger/scatter-gunner	Careful Shot (Ex)	careful-shot	yes	1	print	pri
 ref/arc-gunslinger/scatter-gunner	Scatter Artist (Ex)	scatter-artist	yes	3	print	print		12	3a73493d73382eae030cb078b20f6758576e1536166d1b91f47ad2f2d1faefb5
 ref/arc-gunslinger/scatter-gunner	Overload (Ex)	overload	yes	7	print	print	hand review (ruling 14, print): print's wording is taken: a false alarm of the hold rules: the corpus restates the printed sentences as rows and labels (the same words and values), so only wording and layout change (the additional damage 1d6 at 7th level, 2d6 at 13th, 3d6 at 19th, as the corpus rows)	12	b406442bcd73d4994629a2b349222af5acf46d0738b9b50c058e7494b4d17825
 ref/arc-gunslinger/scatter-gunner	Satchel Shot (Ex)	satchel-shot	yes	7	print	print		12	74b316105217e086289ba141808bf67900161e4d3c72c1c555bef3060639b61e
-ref/arc-hunter/flood-flourisher	Twin Hunters (Ex)	twin-hunters	yes		print	print		20	9ecf5a9f3f3003a43a7178f3f12266ccd7dafa955dcefd7ed8de99504712ff60
+ref/arc-hunter/flood-flourisher	Twin Hunters (Ex)	twin-hunters	yes	3	print	print		20	9ecf5a9f3f3003a43a7178f3f12266ccd7dafa955dcefd7ed8de99504712ff60
 ref/arc-hunter/flood-flourisher	Skilled Ambusher (Ex)	skilled-ambusher	yes	3	print	print		20	7b7ce4dfe34c2d4cc71bd7b0e4ff7080a8cd1daf37913f1ae09767d49abf8b30
 ref/arc-hunter/flood-flourisher	Watery Stride (Ex)	watery-stride	yes	5	print	print		20	32f67c06dcbe206c123ae91e0eec4d8e22d1c2c0ab1a57d8528d2c7b8340c296
 ref/arc-hunter/flood-flourisher	Water Striker (Ex)	water-striker	yes	6	print	print		20	f631e14cbf4cf4c53fe7cf231c698f8311d6aff2a4a76f90bc67078e90a5d1d7

@@ -39,7 +39,7 @@ fast and hard before disappearing into the night.
 
 ## Nature Bond {#nature-bond}
 
-A [bat](ref/companion/dire-bat) shaman who chooses an animal companion must select a bat. If
+A bat shaman who chooses an animal companion must select a [bat](ref/companion/dire-bat). If
 choosing a domain, the bat shaman must choose from [Air](ref/domain/air),
 [Animal](ref/domain/animal), Darkness (Night subdomain), and Trickery (Deception subdomain).
 

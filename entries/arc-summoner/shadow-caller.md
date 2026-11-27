@@ -30,8 +30,7 @@ trades = [
 While most summoners can call any manner of creature from across the planes to serve them in combat,
 supplementing the skills of their eidolon with a diverse range of creatures, others eschew this
 broad utility and instead concentrate upon calling forth entities from the
-[Shadow Plane](ref/rule/shadow-plane). A [shadow](ref/template/shadow) caller has the following
-class features.
+[Shadow Plane](ref/rule/shadow-plane). A shadow caller has the following class features.
 
 ## Class Skills {#class-skills}
 
