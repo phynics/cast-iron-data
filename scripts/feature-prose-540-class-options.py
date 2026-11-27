@@ -59,6 +59,7 @@ def _load(name: str, file: str):
 
 fp = _load("feature_prose_540", "feature-prose-540.py")
 rw = _load("rewrite_class_option_powers", "rewrite-class-option-powers.py")
+fp.LOOSE_ITEMS["on"] = True      # ruling 60: the loose reading of a prerequisite item (every word, any order, a sentence with "must" or "only available")
 
 HEADER = ["entry", "feature", "anchor", "shape", "level_import", "level", "verdict", "status", "page", "span_sha256", "note"]
 SETTLED = ("draft", "print")
@@ -121,16 +122,35 @@ def level_of(text: str) -> int | None:
 EXTRA_NAMES: list[str] = []          # the names of every class option of the book: an italic head of a neighbour ends a power's text
 
 
+INVERTED_HEAD = re.compile(r"^(.+?),\s*(Lesser|Greater|Improved|Mass)(\s*\([A-Za-z]{2}\))?\s*:?$")
+
+
+VARIANT_FIRST = re.compile(r"^(Lesser|Greater|Improved|Mass) ")
+
+
+def inverted(name: str) -> str:
+    m = re.match(r"^(Lesser|Greater|Improved|Mass) (.+?)(\s*\([A-Za-z]{2}\))?$", name)
+    return f"{m.group(2)}, {m.group(1)}{m.group(3) or ''}" if m else name
+
+
 def install_split(names: list[str]) -> None:
     """The print reader takes an italic paragraph start as a head only when the entry expects that name. A page of class options sets
     the powers of other entries beside the entry's own (the evolutions are italic heads in one list), so every name of the book is
     expected, and a power's text ends at the next power of the page."""
-    EXTRA_NAMES[:] = names
+    EXTRA_NAMES[:] = list(names) + [inverted(n) for n in names if VARIANT_FIRST.match(n)]      # print sets the variant behind the name, in italics
     if not getattr(fp.split_print, "_class_options", False):
         orig = fp.split_print
 
         def wrapped(section, expected):
-            return orig(section, list(expected) + EXTRA_NAMES)
+            # a printed section heading ("2-Point Evolutions", "Base Forms") ends the text of the power above it: it stands as a head of its own
+            section = section[:1] + [fp.Para("para", [(q.plain().strip(), True, False)], q.page, q.col, 0) if q.kind == "title" else q
+                                     for q in section[1:]]
+            opening, feats = orig(section, list(expected) + EXTRA_NAMES)
+            for f in feats:                      # print sets "Beast Totem, Greater (Su)" for the corpus title "Greater Beast Totem"
+                m = INVERTED_HEAD.match(f.head)
+                if m:
+                    f.head = f"{m.group(2)} {m.group(1)}{m.group(3) or ''}"
+            return opening, feats
         wrapped._class_options = True
         fp.split_print = wrapped
 
@@ -156,7 +176,34 @@ def powers_of(e) -> list[tuple[str, str]]:
     return [(re.sub(r":$", "", c.name), rw.span_sha(blocks[c.start:c.end])) for c in rw.candidates(blocks, True)]
 
 
-def compare_one(e, book, bk) -> list[dict]:
+HEADING_FAMILIES = {"evolution"}     # ruling 61: an evolution opens with the printed sentence of its group heading ("2-Point Evolutions: The following ...")
+
+
+def heading_blocks(bk, page: int) -> list:
+    """The print from three pages before the cited one to the next: a group of evolutions runs over pages, its heading stands at the start."""
+    return fp.read_blocks(bk, max(1, page + fp.PAGE_OFFSET[0] - 3), min(page + 1 + fp.PAGE_OFFSET[0], max(bk.pages)))
+
+
+def group_heading(e, blocks) -> tuple[str, int] | None:
+    """The group heading of a power as one paragraph, "2-Point Evolutions: The following evolutions cost 2 points from the eidolon's
+    evolution pool.", and the printed page it stands on: the last title above the head of the entry, and the paragraph under it when that
+    starts "The following"."""
+    want = fp.namekey(e.title)
+    at = next((i for i, p in enumerate(blocks) if p.kind == "para" and (c := fp.head_candidate(p)) and fp.namekey(c[0]) == want), None)
+    if at is None:
+        return None
+    ti = next((i for i in range(at - 1, -1, -1) if blocks[i].kind == "title"), None)
+    if ti is None or ti + 1 >= at:
+        return None
+    para = blocks[ti + 1]
+    text, _, _ = fp.print_md(fp.PrintFeature("", [para.runs], para.page, False), [], set())
+    text = text.strip()
+    if not text.startswith("The following"):
+        return None
+    return f"{re.sub(chr(10), ' ', blocks[ti].plain()).strip()}: {text}", blocks[ti].page
+
+
+def compare_one(e, book, bk, other=None) -> list[dict]:
     """The rows of one entry: one per power, from the shared print comparison of the archetype pass."""
     shape, n = shape_of(e.body)
     base = {"entry": e.id, "shape": shape, "page": e.page, "span": "", "note": ""}
@@ -174,11 +221,28 @@ def compare_one(e, book, bk) -> list[dict]:
     section = [fp.Para("title", [(e.title, True, False)], page, 0, 20)] + blocks
     res = fp.compare_entry(e, section, bk)
     by_span = {r["span"]: r for r in res["rows"] if r["span"]}
+    where = {}                                       # span -> "Publication p. N" of a power that another source of the entry prints
+    for src in (e.data.get("sources") or [])[1:]:
+        pub, pg = src.get("publication"), str(src.get("page", ""))
+        def not_printed(sp):                    # no row, or the print comparison found no head on the cited pages
+            return sp not in by_span or any("head not printed" in n_ for n_ in by_span[sp]["notes"])
+        missing = [f for f in feats if not_printed(f.span_sha())]
+        if not missing or other is None or not pg.isdigit():
+            continue
+        got = other(pub, int(pg), e, shape)
+        if got is None:
+            continue
+        for sp, r2 in got.items():
+            if not_printed(sp) and not any("head not printed" in n_ for n_ in r2["notes"]):
+                by_span[sp] = r2
+                where[sp] = f"{pub} p. {pg}"
     rows, seen = [], Counter()
     for name, sha in powers:
         seen[name] += 1
         f = by_name.get(name, [None] * seen[name])[seen[name] - 1] if name in by_name else None
         r = by_span.get(f.span_sha()) if f is not None else None
+        if r is not None and f.span_sha() in where:
+            r = dict(r, notes=[f"printed in {where[f.span_sha()]}"] + list(r["notes"]))
         if r is None:
             rows.append(dict(base, feature=name, anchor=fp.anchor_of(name), verdict="missing-head", status="hold", level_import="",
                              level="", note="head not printed on the cited page and the next ones", span_sha256=sha, print=""))
@@ -188,9 +252,22 @@ def compare_one(e, book, bk) -> list[dict]:
             verdict = "reviewed-537" if verdict != "hold" else "hold"          # a hold stays a hold: the resolution is a source, not an answer
         note_r = f"resolution of #537: {REVIEWED[(e.id, sha)]}" if (e.id, sha) in REVIEWED else ""
         notes = "; ".join([n_ for n_ in r["notes"] if n_] + ([note_r] if note_r else []))[:300]
-        rows.append(dict(base, feature=name, anchor=r["anchor"], verdict=verdict, status=r["status"],
+        status, printed = r["status"], r["print"]
+        if shape == "single" and e.id.split("/")[1] in HEADING_FAMILIES:
+            gh = group_heading(e, heading_blocks(bk, page))
+            if gh is None:
+                notes = "; ".join([n_ for n_ in [notes, "no group heading found above the head"] if n_])[:300]
+                status = "hold"
+            elif gh[1] > page:
+                notes = "; ".join([n_ for n_ in [notes, f"the group heading is on p. {gh[1]}, after the cited p. {page}"] if n_])[:300]
+                status = "hold"
+            else:
+                printed = gh[0] + "\n\n" + printed
+                if gh[1] < page:
+                    base = dict(base, page=f"{gh[1]}-{page}")           # the sentence is on the page before: the entry cites both (ruling 61)
+        rows.append(dict(base, feature=name, anchor=r["anchor"], verdict=verdict, status=status,
                          level_import=r["level_import"] if r["level_import"] is not None else "",
-                         level=level_of(r["print"]) or "", note=notes, span_sha256=sha, print=r["print"]))
+                         level=level_of(r["print"]) or "", note=notes, span_sha256=sha, print=printed))
     return rows
 
 
@@ -206,19 +283,40 @@ def run_compare(args) -> int:
     families = set(args.families.split(",")) if args.families else None
     everything = load_class_options(corpus, book)
     names: list[str] = []
-    for x in everything:
+    for x in load_class_options(corpus):
+        names.append(x.title)                      # a converted option has no import row left, but its italic head still ends the text above it
         if shape_of(x.body)[0] != "none":
             for f in fp.parse_import(x.body, set())[1]:
                 names += [f.name, fp.tail_name(f.name)]
     install_split(names)
     REVIEWED.update(reviewed_spans(corpus))
+    books_seen: dict[str, object] = {}
+
+    def other(pub: str, pg: int, e, shape: str):
+        """The comparison of an entry against another book that prints some of its powers (an elemental bloodline is in Advanced Player's
+        Guide p. 136 and Ultimate Magic p. 72): its rows by span, or None when there is no copy of that book."""
+        if pub not in books_seen:
+            fp.configure_book(pub)
+            pdf2 = fp.find_pdf(Path(args.books), fp.publication_title(corpus, pub))
+            books_seen[pub] = fp.load_book(fp.book_xml(pdf2, Path(args.cache))) if pdf2 else None
+        bk2 = books_seen[pub]
+        if bk2 is None:
+            return None
+        fp.configure_book(pub)
+        try:
+            last2 = pg + (3 if shape == "multi" else 1)
+            blocks2 = fp.read_blocks(bk2, max(1, pg + fp.PAGE_OFFSET[0] - 1), min(last2 + fp.PAGE_OFFSET[0], max(bk2.pages)))
+            res2 = fp.compare_entry(e, [fp.Para("title", [(e.title, True, False)], pg, 0, 20)] + blocks2, bk2)
+            return {r["span"]: r for r in res2["rows"] if r["span"]}
+        finally:
+            fp.configure_book(book)
     entries = [x for x in everything if not families or x.id.split("/")[1] in families]
     cen = census(entries)
     rows, props = [], {}
     for e in entries:
         if shape_of(e.body)[0] == "none":
             continue
-        for r in compare_one(e, book, bk):
+        for r in compare_one(e, book, bk, other):
             if r.get("print"):
                 props.setdefault(e.id, {"id": e.id, "feature": []})["feature"].append({"anchor": r["anchor"], "print": r["print"]})
             rows.append(r)
@@ -312,7 +410,47 @@ def convert_body(e, texts: dict[str, str], levels: dict[str, int | None], anchor
 
 def features_front(front: str, features: list[tuple[str, int | None]]) -> str:
     items = "".join("  { anchor = \"%s\"%s },\n" % (a, f", level = {l}" if l else "") for a, l in features)
-    return re.sub(r"(^group = \"[^\"]*\"\n)", lambda m: m.group(1) + "features = [\n" + items + "]\n", front, count=1, flags=re.M)
+    out, n = re.subn(r"(^group = \"[^\"]*\")(\n|\Z)", lambda m: m.group(1) + "\nfeatures = [\n" + items + "]\n", front, count=1, flags=re.M)
+    assert n == 1, "an entry with features has a group row to put them after"
+    return out
+
+
+def with_page(text: str, page: str) -> str:
+    """The first `[[sources]]` page row of the entry file set to `page`."""
+    return re.sub(r'(\[\[sources\]\]\n(?:[^\n]*\n)*?page = )"[^"]*"', lambda m: m.group(1) + f'"{page}"', text, count=1)
+
+
+def run_headings(args) -> int:
+    """Ruling 61 for the entries that are converted already: each evolution entry opens with the printed sentence of its group heading
+    (it is idempotent: an entry that has the sentence is left). An entry whose heading is on another page than the cited one is reported."""
+    corpus = Path(args.corpus).resolve()
+    book = args.book
+    title = fp.publication_title(corpus, book)
+    fp.configure_book(book)
+    pdf = fp.find_pdf(Path(args.books), title)
+    if not pdf:
+        raise SystemExit(f"no copy of {title!r} under {args.books}")
+    bk = fp.load_book(fp.book_xml(pdf, Path(args.cache)))
+    done = skipped = 0
+    for e in load_class_options(corpus, book):
+        if e.id.split("/")[1] not in HEADING_FAMILIES or shape_of(e.body)[0] != "none" or not e.page.isdigit():
+            continue
+        page = int(e.page)
+        gh = group_heading(e, heading_blocks(bk, page))
+        if gh is None or gh[1] > page:
+            print(f"  {e.id}: " + ("no group heading found above the head" if gh is None else f"the group heading is on p. {gh[1]}, after the cited p. {page}"))
+            skipped += 1
+            continue
+        if gh[0] in e.body:
+            continue
+        body = "\n" + gh[0] + "\n\n" + e.body.lstrip("\n")
+        text = e.path.read_text(encoding="utf-8").replace(e.body, body, 1)
+        if gh[1] < page:
+            text = with_page(text, f"{gh[1]}-{page}")           # the sentence is on the page before: the entry cites both (ruling 61)
+        e.path.write_text(text, encoding="utf-8")
+        done += 1
+    print(f"group headings: {done} entries changed, {skipped} not changed")
+    return 0
 
 
 def run_write(args) -> int:
@@ -337,6 +475,8 @@ def run_write(args) -> int:
             anchors[r["span_sha256"]] = r["anchor"]
         body, features = convert_body(e, texts, levels, anchors)
         front = features_front(e.front, features) if features else e.front
+        if mine[0]["page"] and mine[0]["page"] != e.page:
+            front = with_page(front, mine[0]["page"])
         e.path.write_text("+++\n" + front.strip("\n") + "\n+++\n" + body, encoding="utf-8")
         converted += 1
     print(f"converted {converted} entries")
@@ -390,6 +530,24 @@ def self_test() -> int:
         else:
             bad.append(f"{what}: {a!r} != {b!r}")
 
+    eq(inverted("Greater Beast Totem (Su)"), "Beast Totem, Greater (Su)", "print sets the variant behind the name")
+    eq(inverted("Beast Totem"), "Beast Totem", "a name without a variant stays")
+    eq(INVERTED_HEAD.match("Beast Totem, Greater (Su)").groups(), ("Beast Totem", "Greater", " (Su)"), "the inverted head is read")
+    eq(features_front('id = "x"\ngroup = "order"', [("a", None)]), 'id = "x"\ngroup = "order"\nfeatures = [\n  { anchor = "a" },\n]\n', "a front that ends at the group row gets its features")
+    P = fp.Para
+    E = type("E", (), {"title": "Wing Buffet"})()
+    blk = [P("title", [("1-Point Evolutions", True, False)], 60, 0, 18),
+           P("para", [("The following evolutions cost 1 point from the eidolon\u2019s evolution pool.", False, False)], 60, 0),
+           P("para", [("Bite (Ex)", True, False), (": An eidolon bites.", False, False)], 60, 0),
+           P("para", [("Wing Buffet (Ex)", True, False), (": An eidolon buffets.", False, False)], 61, 1),
+           P("title", [("2-Point Evolutions", True, False)], 61, 1, 18),
+           P("para", [("The following evolutions cost 2 points from the eidolon\u2019s evolution pool.", False, False)], 61, 1)]
+    gh = group_heading(E, blk)
+    eq(gh and gh[0], "1-Point Evolutions: The following evolutions cost 1 point from the eidolon's evolution pool.", "ruling 61: the heading above the head and its sentence")
+    eq(gh and gh[1], 60, "ruling 61: the page of the heading")
+    eq(group_heading(type("E", (), {"title": "Nothing"})(), blk), None, "ruling 61: a head that is not printed has no heading")
+    eq(group_heading(type("E", (), {"title": "Bite"})(), blk[2:]), None, "ruling 61: no title above the head, no heading")
+    eq(with_page('[[sources]]\npublication = "x"\npage = "62"\n\n[fields]\n', "61-62"), '[[sources]]\npublication = "x"\npage = "61-62"\n\n[fields]\n', "ruling 61: the page row becomes a range")
     single = "\n**Animal Fury (Ex)**\n\n**Ability:** A bite attack.\n\n**Special:** A grapple.\n"
     multi = ("\n**Deities**\n\n**Details:** Gorum.\n\n### Revelations\n\nAn oracle can choose from the following.\n\n"
              "**Battlecry (Ex)**\n\n**Standard:** A cry.\n\n**Usage:** 1 time/day\n\n**At 10th level,** more.\n\n"
@@ -439,6 +597,7 @@ def main() -> int:
     ap.add_argument("--self-test", action="store_true")
     ap.add_argument("--compare", action="store_true")
     ap.add_argument("--write", action="store_true")
+    ap.add_argument("--headings", action="store_true", help="ruling 61: put the printed group heading in the converted evolution entries")
     ap.add_argument("--check", action="store_true")
     ap.add_argument("--book")
     ap.add_argument("--families")
@@ -449,6 +608,8 @@ def main() -> int:
         return self_test()
     if args.compare:
         return run_compare(args)
+    if args.headings:
+        return run_headings(args)
     if args.write:
         return run_write(args)
     if args.check:
