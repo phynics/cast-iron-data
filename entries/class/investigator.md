@@ -19,6 +19,20 @@ kind = "class"
 class_type = "hybrid"
 hit_die = "d8"
 skill_ranks = "6 + Int modifier"
+features = [
+  { anchor = "alchemy", level = 1 },
+  { anchor = "inspiration", level = 1 },
+  { anchor = "trapfinding", level = 1 },
+  { anchor = "poison-lore", level = 2 },
+  { anchor = "poison-resistance", level = 2 },
+  { anchor = "investigator-talent", level = 3 },
+  { anchor = "keen-recollection", level = 3 },
+  { anchor = "trap-sense", level = 3 },
+  { anchor = "studied-combat", level = 4 },
+  { anchor = "studied-strike", level = 4 },
+  { anchor = "swift-alchemy", level = 4 },
+  { anchor = "true-inspiration", level = 20 },
+]
 +++
 
 Whether on the trail of a fugitive, a long-lost treasure trove, or a criminal mastermind,
@@ -82,236 +96,214 @@ Knowledge (engineering), Knowledge (geography), Knowledge (history), Knowledge (
 |19th|+14/+9/+4|+6|+11|+11|Investigator talent|5|5|5|5|5|4|
 |20th|+15/+10/+5|+6|+12|+12|Studied strike +9d6, true inspiration|5|5|5|5|5|5|
 
-#### Weapon and Armor Proficiencies {#weapon-and-armor-proficiencies}
+### Class Features {#class-features}
 
-**Weapons:** All simple weapons, hand crossbow, rapier, sap, shortbow, short sword, sword cane
+The following are the class features of the investigator.
 
-**Armor:** Light armor
+#### Weapon and Armor Proficiency {#weapon-and-armor-proficiencies}
 
-**Shields:** No
+Investigators are proficient with simple weapons, plus the hand crossbow, rapier, sap, shortbow,
+short sword, and sword cane. They are proficient in light armors, but not shields.
 
 #### Alchemy (Su) {#alchemy}
 
-**Ability:** When using Craft (alchemy) to create an alchemical item, you gain a competence bonus
-equal to your class level on the Craft (alchemy) check. In addition, you can use Craft (alchemy) to
-identify potions as if using [detect magic](ref/spell/detect-magic). You must hold the potion for 1
-round to make such a check.
+Investigators are highly trained in the creation of mundane alchemical substances and magical
+potionlike extracts.
 
-**Action:** Extracts
+When using Craft (alchemy) to create an alchemical item, an investigator gains a competence bonus
+equal to his class level on the skill check. In addition, an investigator can use Craft (alchemy) to
+identify potions as if using _[detect magic](ref/spell/detect-magic)_. He must hold the potion for 1
+round to attempt such a check.
 
-**Section:** Alchemy and Extracts
+Like an alchemist, an investigator prepares his spells by mixing ingredients and a tiny fraction of
+his own magical power into a number of extracts, and then effectively casts the spell by drinking
+the extract. These extracts have powerful effects, but they are also bound to their creator.
+Extracts behave like spells in potion form, and as such their effects can be dispelled by
+_[dispel magic](ref/spell/dispel-magic)_ and similar effects, using the investigator's level as the
+caster level.
 
-**Gained:** At 1st Level
+An investigator can create only a certain number of extracts of each level per day. His base daily
+allotment of extracts per day is given on Table 1–8: Investigator. In addition, he receives
+[bonus extracts per day](ref/rule/determine-bonuses) if he has a high Intelligence score, in the
+same way a wizard receives bonus spells per day.
 
-**Usage:** You can create only a certain number of extracts of each level per day. In addition, you
-receive [bonus extracts per day](ref/rule/determine-bonuses) if you have a high Intelligence score,
-in the same way a wizard receives bonus spells per day.
+When an investigator mixes an extract, he infuses the chemicals and reagents in the extract with
+magic siphoned from his own magical aura. An extract immediately become inert if it leaves the
+investigator's possession, reactivating as soon as it returns to his keeping—an investigator cannot
+normally pass out his extracts for allies to use. An extract, once created, remains potent for 1 day
+before losing its magic, so an investigator must reprepare his extracts every day. Mixing an extract
+takes 1 minute of work.
 
-**Usage:** You can create only a certain number of extracts of each level per day. In addition, you
-receive [bonus extracts per day](ref/rule/determine-bonuses) if you have a high Intelligence score,
-in the same way a wizard receives bonus spells per day.
+Creating extracts consumes raw material, but the cost of those materials is insignificant—comparable
+to the valueless material components of most spells. If a spell normally has a costly material
+component, that component is expended during the consumption of that particular extract. Extracts
+cannot be made from spells that have focus requirements; extracts that duplicate divine spells never
+have a divine focus requirement.
 
-You can prepare an extract of any formula you know. To learn or use an extract, you must have an
-Intelligence score equal to at least 10 + the extract's level. The DC for a saving throw against
-your extract is 10 + the extract level + the your Intelligence modifier.
+An investigator uses the alchemist formula list (_Pathfinder RPG Advanced Player's Guide_ 32) to
+determine the extracts he can know. An investigator can prepare an extract of any formula he knows.
+To learn or use an extract, an investigator must have at least an Intelligence score equal to 10 +
+the extract's level. The saving throw DC for an investigator's extract is equal to 10 + the
+extract's level + the investigator's Intelligence modifier.
 
-Like an alchemist, you prepare your spells by mixing ingredients and a tiny fraction of your own
-magical power into a number of extracts, and then effectively cast the spell by drinking the
-extract. These extracts have powerful effects, but they are also bound to their creator. Extracts
-behave like spells in potion form, and as such their effects can be dispelled by
-[dispel magic](ref/spell/dispel-magic) and similar effects, using your level as the caster level.
-
-When you mix an extract, you infuse the chemicals and reagents in the extract with magic siphoned
-from your own magical aura. An extract immediately become inert if it leaves your possession,
-reactivating as soon as it returns to your keeping - you cannot normally pass out your extracts for
-allies to use. An extract, once created, remains potent for 1 day before losing its magic, so you
-must reprepare your extracts every day. Mixing an extract takes 1 minute of work.
-
-Creating extracts consumes raw material, but the cost of those materials is insignificant -
-comparable to the valueless material components of most spells. If a spell normally has a costly
-material component, that component is expended during the consumption of that particular extract.
-Extracts cannot be made from spells that have focus requirements; extracts that duplicate divine
-spells never have a divine focus requirement.
-
-You use formulae from the investigator list to determine the extracts you can know. You may know any
-number of formulae. You store your formulae in a special tome called a formula book. You must refer
-to this book whenever you prepare an extract.
-
-At 1st level, you start with two 1st-level formulae of your choice, plus a number of additional
-formulae equal to your Intelligence modifier. At each new investigator level, you gain one new
-formula for any level that you can create. You can also add formulae to your book just like a wizard
+An investigator may know any number of formulae. He stores his formulae in a special tome called a
+formula book. He must refer to this book whenever he prepares an extract. At 1st level, an
+investigator starts with two 1st-level formulae of his choice, plus a number of additional formulae
+equal to his Intelligence modifier. At each new investigator level, he gains one new formula for any
+level that he can create. An investigator can also add formulae to his book just like a wizard
 [adds spells to his spellbook](ref/rule/adding-spells-to-a-wizards-spellbook), using the same costs,
 pages, and time requirements. A formula book costs as much as a [spellbook](ref/eq-misc/spellbook).
-You can study a [wizard's](ref/class/wizard) spellbook to learn any formula that is equivalent to a
-spell the spellbook contains. A wizard, however, cannot learn spells from a formula book. You can
-also learn formulae from another investigator's or an alchemist's formula book (and vice versa). You
-do not need to decipher arcane writing before copying that formulae.
+An investigator can study a [wizard's](ref/class/wizard) spellbook to learn any formula that is
+equivalent to a spell the spellbook contains. A wizard, however, cannot learn spells from a formula
+book. An investigator can also learn formulae from another investigator's or an alchemist's formula
+book (and vice versa). An investigator does not need to decipher arcane writing before copying that
+formulae.
 
 #### Inspiration (Ex) {#inspiration}
 
-**Ability:** You have an inspiration pool equal to [half](ref/misc/fractions-and-rounding) your
-level + your Intelligence modifier (minimum 1). Your inspiration pool refreshes each day, typically
-after you get a restful night's sleep.
+An investigator is beyond knowledgeable and skilled—he also possesses keen powers of observation and
+deduction that far surpass the abilities of others. An investigator typically uses these powers to
+aid in their investigations, but can also use these flashes of inspiration in other situations.
 
-**Flavor:** An investigator is beyond knowledgeable and skilled - he also possesses keen powers of
-observation and deduction that far surpass the abilities of others.
+An investigator has the ability to augment skill checks and ability checks through his brilliant
+inspiration. The investigator has an inspiration pool equal to 1/2 his investigator level + his
+Intelligence modifier (minimum 1). An investigator's inspiration pool refreshes each day, typically
+after he gets a restful night's sleep. As a free action, he can expend one use of inspiration from
+his pool to add 1d6 to the result of that check, including any on which he takes 10 or 20. This
+choice is made after the check is rolled and before the results are revealed. An investigator can
+only use inspiration once per check or roll. The investigator can use inspiration on any Knowledge,
+Linguistics, or Spellcraft skill checks without expending a use of inspiration, provided he's
+trained in the skill.
 
-**Free:** You can expend one use of inspiration from your pool to add 1d6 to the result of a check,
-including any on which you take 10 or 20. This choice is made after the check is rolled and before
-the results are revealed.
-
-**Gained:** At 1st Level
-
-**Special:** You can use inspiration on any Knowledge, Linguistics, or Spellcraft skill checks
-without expending a use of inspiration, if you're trained in the skill. Using inspiration on attack
-rolls and saving throws costs two uses of inspiration each time. In the case of saving throws, using
-inspiration is an **immediate action**.
-
-**Usage:** You can only use inspiration once per check or roll.
-
-**Usage:** You can only use inspiration once per check or roll.
+Inspiration can also be used on attack rolls and saving throws, at the cost of expending two uses of
+inspiration each time from the investigator's pool. In the case of saving throws, using inspiration
+is an immediate action rather than a free action.
 
 #### Trapfinding {#trapfinding}
 
-**Gained:** At 1st Level
-
-**Passive:** You add 1/2 your level to Perception skill checks made to locate traps and to Disable
-Device checks (minimum 1). You can use Disable Device to disarm magical traps.
+An investigator adds 1/2 his level to Perception skill checks made to locate traps and to Disable
+Device checks (minimum 1). An investigator can use Disable Device to disarm magical traps.
 
 #### Poison Lore (Ex) {#poison-lore}
 
-**Ability:** If you spend 1 minute physically examining the poison, you can attempt a Knowledge
-(nature) check to identify any natural poison or Knowledge (arcana) check to identify any magical
-poison (DC = the poison's saving throw DC). Lastly, once a poison is identified, you can spend 1
-minute and attempt a Craft (alchemy) check (DC = the poison's saving throw DC) to neutralize 1 dose
-of the poison. Success renders the dose harmless. You have no chance of accidentally poisoning
-yourself when examining or attempting to neutralize a poison.
-
-**Flavor:** An investigator has a deep understanding and appreciation for poisons.
-
-**Section:** Poison
-
-**Gained:** At 2nd Level
-
-**Passive:** You cannot accidentally poison yourself when applying poison to a weapon.
+An investigator has a deep understanding and appreciation for poisons. At 2nd level, he cannot
+accidentally poison himself when applying poison to a weapon. If the investigator spends 1 minute
+physically examining the poison, he can attempt a Knowledge (nature) check to identify any natural
+poison or Knowledge (arcana) check to identify any magical poison (DC = the poison's saving throw
+DC). Lastly, once a poison is identified, he can spend 1 minute and attempt a Craft (alchemy) check
+(DC = the poison's saving throw DC) to neutralize 1 dose of the poison. Success renders the dose
+harmless. The investigator has no chance of accidentally poisoning himself when examining or
+attempting to neutralize a poison.
 
 #### Poison Resistance (Ex) {#poison-resistance}
 
-**At 11th Level:** You are now completely immune to poison.
-
-**At 5th Level:** The bonus becomes +4.
-
-**At 8th Level:** The bonus becomes +6.
-
-**Gained:** At 2nd Level
-
-**Passive:** You gain a +2 bonus on all saving throws against poison.
+At 2nd level, an investigator gains a +2 bonus on all saving throws against poison. This bonus
+increases to +4 at 5th level, and to +6 at 8th level. At 11th level, the investigator becomes
+completely immune to poison.
 
 #### Investigator Talent (Ex or Su) {#investigator-talent}
 
-**Ability:** You gain an investigator talent. Except where otherwise noted, each investigator talent
-can only be selected once.
+At 3rd level and every 2 levels thereafter, an investigator gains an investigator talent. Except
+where otherwise noted, each investigator talent can only be selected once.
 
-**Gained:** At 3rd Level
+Investigator talents marked with an asterisk (\*) add effects to an investigator's studied combat or
+studied strike. Only one of these talents can be applied to an individual attack, but the decision
+can be made when the damage is dealt.
 
-**Repeat:** You gain a new talent., 5, 2
-
-**Special:** Some investigator talents add effects to an your _studied combat_ or _studied strike._
-Only one of these talents can be applied to an individual attack, but the decision can be made when
-the damage is dealt.
+- [Alchemist Discovery (Ex)](ref/invtalent/alchemist-discovery)
+- [Amazing Inspiration (Ex)](ref/invtalent/amazing-inspiration)
+- [Blinding Strike (Ex)](ref/invtalent/blinding-strike)
+- [Combat Inspiration (Ex)](ref/invtalent/combat-inspiration)
+- [Confusing Strike (Ex)](ref/invtalent/confusing-strike)
+- [Deafening Strike (Ex)](ref/invtalent/deafening-strike)
+- [Device Talent (Ex)](ref/invtalent/device-talent)
+- [Effortless Aid (Ex)](ref/invtalent/effortless-aid)
+- [Eidetic Recollection (Su)](ref/invtalent/eidetic-recollection)
+- [Empathy (Ex, Su)](ref/invtalent/empathy)
+- [Expanded Inspiration (Ex)](ref/invtalent/expanded-inspiration)
+- [Greater Combat Inspiration (Ex)](ref/invtalent/greater-combat-inspiration)
+- [Hidden Agendas (Ex)](ref/invtalent/hidden-agendas)
+- [Inspirational Expertise (Ex)](ref/invtalent/inspirational-expertise)
+- [Inspired Alertness (Ex)](ref/invtalent/inspired-alertness)
+- [Inspired Intelligence (Ex)](ref/invtalent/inspired-intelligence)
+- [Inspired Intimidator (Ex)](ref/invtalent/inspired-intimidator)
+- [Item Lore (Ex)](ref/invtalent/item-lore)
+- [Perceptive Tracking (Ex)](ref/invtalent/perceptive-tracking)
+- [Quick Study (Ex)](ref/invtalent/quick-study)
+- [Repositioning Strike (Ex)](ref/invtalent/repositioning-strike)
+- [Rogue Talent (Ex)](ref/invtalent/rogue-talent)
+- [Sapping Offensive (Ex)](ref/invtalent/sapping-offensive)
+- [Sickening Offensive (Ex)](ref/invtalent/sickening-offensive)
+- [Stealing Strike (Ex)](ref/invtalent/stealing-strike)
+- [Studied Defense (Ex)](ref/invtalent/studied-defense)
+- [Tenacious Inspiration (Ex)](ref/invtalent/tenacious-inspiration)
+- [Toppling Strike (Ex)](ref/invtalent/toppling-strike)
+- [Unconventional Inspiration (Ex)](ref/invtalent/unconventional-inspiration)
+- [Underworld Inspiration (Ex)](ref/invtalent/underworld-inspiration)
 
 #### Keen Recollection {#keen-recollection}
 
-**Ability:** You can attempt all Knowledge skill checks untrained.
-
-**Gained:** At 3rd Level
+At 3rd level, an investigator can attempt all Knowledge skill checks untrained.
 
 #### Trap Sense (Ex) {#trap-sense}
 
-**Flavor:** An investigator gains an intuitive sense that alerts him to danger from traps.
-
-**Gained:** At 3rd Level
-
-**Passive:** You gain a bonus on Reflex saving throws to avoid traps and a dodge bonus to AC against
-attacks by traps. Both of these bonuses are equal to one-third of your investigator level.
+At 3rd level, an investigator gains an intuitive sense that alerts him to danger from traps,
+granting him a +1 bonus on Reflex saving throws to avoid traps and a +1 dodge bonus to AC against
+attacks by traps. At 6th level and every 3 levels thereafter, these bonuses increase by 1 (to a
+maximum of +6 at 18th level).
 
 #### Studied Combat (Ex) {#studied-combat}
 
-**Flavor:** With a keen eye and calculating mind, an investigator can assess the mettle of his
-opponent to take advantage of gaps in talent and training.
+With a keen eye and calculating mind, an investigator can assess the mettle of his opponent to take
+advantage of gaps in talent and training. At 4th level, an investigator can use a move action to
+study a single enemy that he can see. Upon doing so, he adds 1/2 his investigator level as an
+insight bonus on melee attack rolls and as a bonus on damage rolls against the creature. This effect
+lasts for a number of rounds equal to his Intelligence modifier (minimum 1) or until he deals damage
+with a studied strike, whichever comes first. The bonus on damage rolls is precision damage, and is
+not multiplied on a critical hit.
 
-**Gained:** At 4th Level
-
-**Move:** You can study a single enemy that you can see. You add 1/2 your investigator level as an
-insight bonus on melee attack rolls and as a bonus on damage rolls against the creature.
-
-**Special:** The bonus on damage rolls is precision damage, and is not multiplied on a critical hit.
-You can only have one target of studied combat at a time, and once a creature has become a target of
-this, it cannot become the target of your _studied combat_ again for 24 hours unless you expend one
-use of inspiration when using this ability.
-
-**Usage:** This effect lasts for a number of rounds equal to your Intelligence modifier (minimum 1)
-or until you deal damage with a _studied strike,_ whichever comes first.
-
-**Usage:** This effect lasts for a number of rounds equal to your Intelligence modifier (minimum 1)
-or until you deal damage with a _studied strike,_ whichever comes first.
+An investigator can only have one target of studied combat at a time, and once a creature has become
+the target of an investigator's studied combat, he cannot become the target of the same
+investigator's studied combat again for 24 hours unless the investigator expends one use of
+inspiration when taking the move action to use this ability.
 
 #### Studied Strike (Ex) {#studied-strike}
 
-**Action:** Free Action
+At 4th level, an investigator can choose to make a studied strike against the target of his studied
+combat as a free action, upon successfully hitting his studied target with a melee attack, to deal
+additional damage. The damage is 1d6 at 4th level, and increases by 1d6 for every 2 levels
+thereafter (to a maximum of 9d6 at 20th level). The damage of studied strike is precision damage and
+is not multiplied on a critical hit; creatures that are immune to sneak attacks are also immune to
+studied strike.
 
-**Gained:** At 4th Level
+If the investigator's attack used a weapon that deals nonlethal damage (like a
+[sap](ref/eq-weapon/sap), [whip](ref/eq-weapon/whip), or an unarmed strike), he may choose to have
+the additional damage from studied strike be nonlethal damage instead of lethal damage. If the
+investigator chose to make an attack with a lethal weapon instead deal nonlethal damage (with the
+usual -4 penalty), the studied strike damage may also deal nonlethal damage.
 
-**Special:** You cannot use _studied strike_ against a creature with
+The investigator must be able to see the target well enough to pick out a vital spot and must be
+able to reach such a spot. An investigator cannot use studied strike against a creature with
 [concealment](ref/rule/concealment).
-
-At 6th level: The damage increases to 2d6.
-
-At 8th level: The damage increases to 3d6.
-
-At 10th level: The damage increases to 4d6.
-
-At 12th level: The damage increases to 5d6.
-
-At 14th level: The damage increases to 6d6.
-
-At 16th level: The damage increases to 7d6.
-
-At 18th level: The damage increases to 8d6.
-
-At 20th level: The damage increases to 9d6.
-
-Upon successfully hitting your _studied target_ with a melee attack, you deal 1d6 additional damage.
-This is precision damage, and is not multiplied on a critical hit; creatures that are immune to
-sneak attacks are also immune to _studied strike._
-
-If your attack used a weapon that deals nonlethal damage (like a [sap](ref/eq-weapon/sap),
-[whip](ref/eq-weapon/whip), or an unarmed strike), you may choose to have the additional damage from
-studied strike be nonlethal damage instead of lethal damage. If you chose to make an attack with a
-lethal weapon instead deal nonlethal damage (with the usual -4 penalty), the studied strike damage
-may also deal nonlethal damage.
 
 #### Swift Alchemy (Ex) {#swift-alchemy}
 
-**Gained:** At 4th Level
-
-**Move:** You can apply poison to a weapon. (This is normally a standard action.)
-
-**Passive:** It takes you half the normal amount of time to create alchemical items.
+At 4th level, an investigator can create alchemical items with astounding speed. It takes an
+investigator half the normal amount of time to create alchemical items. He can also apply poison to
+a weapon as a move action instead of a standard action.
 
 #### True Inspiration (Ex) {#true-inspiration}
 
-**Free:** You can use inspiration on all skill checks - even ones you're not trained in - and all
-ability checks without spending inspiration. In addition, whenever you use inspiration on an ability
-check, attack roll, saving throw, or skill check, you add 2d6 rather than 1d6 to the result.
+At 20th level, an investigator can use inspiration on all skill checks—even ones he isn't trained
+in—and all ability checks without spending inspiration.
 
-Some talents can affect this. If using the [amazing inspiration](ref/invtalent/amazing-inspiration)
-investigator talent, you roll 2d8 instead. If using this with [empathy](ref/invtalent/empathy),
+In addition, whenever he expends inspiration on an ability check, attack roll, saving throw, or
+skill check, he adds 2d6 rather than 1d6 to the result. Some talents can affect this. If using the
+[amazing inspiration](ref/invtalent/amazing-inspiration) investigator talent, he rolls 2d8 instead.
+If using this with [empathy](ref/invtalent/empathy),
 [tenacious inspiration](ref/invtalent/tenacious-inspiration),
-[underworld inspiration](ref/invtalent/underworld-inspiration), or a similar talent, you roll two
-sets of inspiration dice and use the higher of the two results.
-
-**Gained:** At 20th Level
+[underworld inspiration](ref/invtalent/underworld-inspiration), or a similar talent, he rolls two
+sets of inspiration dice and uses the higher of the two results.
 
 ### Alternate Capstones
 

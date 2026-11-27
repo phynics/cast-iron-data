@@ -19,6 +19,17 @@ kind = "class"
 class_type = "hybrid"
 hit_die = "d10"
 skill_ranks = "4 + Int modifier"
+features = [
+  { anchor = "panache", level = 1 },
+  { anchor = "critical-hit-with-a-light-or-one-handed-piercing-melee-weapon" },
+  { anchor = "killing-blow-with-a-light-or-one-handed-piercing-melee-weapon" },
+  { anchor = "deeds", level = 1 },
+  { anchor = "swashbuckler-finesse", level = 1 },
+  { anchor = "charmed-life", level = 2 },
+  { anchor = "nimble", level = 3 },
+  { anchor = "swashbuckler-weapon-training", level = 5 },
+  { anchor = "swashbuckler-weapon-mastery", level = 20 },
+]
 +++
 
 Whereas many warriors brave battle encased in suits of armor and wielding large and powerful
@@ -81,134 +92,114 @@ humor, mocking it with jabbing wit.
 |19th|+19/+14/+9/+4|+6|+11|+6|Deeds, nimble +5|
 |20th|+20/+15/+10/+5|+6|+12|+6|Bonus feat, swashbuckler weapon mastery|
 
-#### Weapon and Armor Proficiencies {#weapon-and-armor-proficiencies}
+### Class Features {#class-features}
 
-**Weapons:** All simple weapons, All martial weapons
+The following are the class features of the swashbuckler.
 
-**Armor:** Light armor
+#### Weapon and Armor Proficiency {#weapon-and-armor-proficiencies}
 
-**Shields:** [Bucklers](ref/eq-armor/buckler) only
+Swashbucklers are proficient with simple and martial weapons, as well as light armor and
+[bucklers](ref/eq-armor/buckler).
 
 #### Panache (Ex) {#panache}
 
-**Flavor:** More than just a lightly armored warrior, a swashbuckler is a daring combatant. She
-fights with panache: a fluctuating measure of a swashbuckler's ability to perform amazing actions in
-combat.
-
-**Gained:** At 1st Level
-
-**Passive:** At the start of each day, you gain a number of panache points equal to your Charisma
-modifier (minimum 1). Your panache goes up or down throughout the day, but usually cannot go higher
-than your Charisma modifier (minimum 1), though feats and magic items can affect this maximum. You
-spend panache to accomplish deeds, and regain panache in the following ways.
+More than just a lightly armored warrior, a swashbuckler is a daring combatant. She fights with
+panache: a fluctuating measure of a swashbuckler's ability to perform amazing actions in combat. At
+the start of each day, a swashbuckler gains a number of panache points equal to her Charisma
+modifier (minimum 1). Her panache goes up or down throughout the day, but usually cannot go higher
+than her Charisma modifier (minimum 1), though feats and magic items can affect this maximum. A
+swashbuckler spends panache to accomplish deeds (see below), and regains panache in the following
+ways.
 
 #### Critical Hit with a Light or One-Handed Piercing Melee Weapon {#critical-hit-with-a-light-or-one-handed-piercing-melee-weapon}
 
-**Passive:** Each time you confirm a critical hit with a light or one-handed piercing melee weapon,
-you regain 1 panache point. Confirming a critical hit on a [helpless](ref/misc/helpless) or unaware
-creature or a creature that has fewer Hit Dice than [half](ref/misc/fractions-and-rounding) your
-character level doesn't restore panache.
+Each time the swashbuckler confirms a critical hit with a light or one-handed piercing melee weapon,
+she regains 1 panache point. Confirming a critical hit on a [helpless](ref/misc/helpless) or unaware
+creature or a creature that has fewer Hit Dice than [half](ref/misc/fractions-and-rounding) the
+swashbuckler's character level doesn't restore panache.
 
 #### Killing Blow with a Light or One-Handed Piercing Melee Weapon {#killing-blow-with-a-light-or-one-handed-piercing-melee-weapon}
 
-**Passive:** When you reduce a creature to 0 or fewer hit points with a light or one-handed piercing
-melee weapon attack while in combat, you regain 1 panache point. Destroying an unattended object,
-reducing a helpless or unaware creature to 0 or fewer hit points, or reducing a creature that has
-fewer Hit Dice than half your character level to 0 or fewer hit points doesn't restore any panache.
+When the swashbuckler reduces a creature to 0 or fewer hit points with a light or one-handed
+piercing melee weapon attack while in combat, she regains 1 panache point. Destroying an unattended
+object, reducing a helpless or unaware creature to 0 or fewer hit points, or reducing a creature
+that has fewer Hit Dice than half the swashbuckler's character level to 0 or fewer hit points
+doesn't restore any panache.
 
 #### Deeds {#deeds}
 
-**Ability:** Most deeds grant you a momentary bonus or effect, but some provide longer-lasting
-effects. Some deeds remain in effect while you have at least 1 panache point, but do not require
-expending panache to be maintained. You can only perform deeds of your level or lower. Unless
-otherwise noted, a deed can be performed multiple successive times, as long as you have or spend the
+Swashbucklers spend panache points to accomplish deeds. Most deeds grant the swashbuckler a
+momentary bonus or effect, but some provide longer-lasting effects. Some deeds remain in effect
+while the swashbuckler has at least 1 panache point, but do not require expending panache to be
+maintained. A swashbuckler can only perform deeds of her level or lower. Unless otherwise noted, a
+deed can be performed multiple successive times, as long as the swashbuckler has or spends the
 required number of panache points to perform the deed.
 
-**Flavor:** Swashbucklers spend panache points to accomplish deeds.
-
-**Gained:** At 1st Level
-
-Swashbucklers may optionally select a [renowned deed](ref/ability/swashbuckler-renowned-deeds) at
-1st, 3rd, 7th and 11th level. Each of these deeds replace two other deeds.
+- [Derring-Do (Ex)](ref/swashdeed/derring-do)
+- [Opportune Parry and Riposte (Ex)](ref/swashdeed/opportune-parry-and-riposte)
+- [Kip-Up (Ex)](ref/swashdeed/kip-up)
+- [Menacing Swordplay (Ex)](ref/swashdeed/menacing-swordplay)
+- [Precise Strike (Ex)](ref/swashdeed/precise-strike)
+- [Swashbuckler Initiative (Ex)](ref/swashdeed/swashbuckler-initiative)
+- [Swashbuckler's Grace (Ex)](ref/swashdeed/swashbucklers-grace)
+- [Superior Feint (Ex)](ref/swashdeed/superior-feint)
+- [Bleeding Wound (Ex)](ref/swashdeed/bleeding-wound)
+- [Evasive (Ex)](ref/swashdeed/evasive)
+- [Subtle Blade (Ex)](ref/swashdeed/subtle-blade)
+- [Dizzying Defense (Ex)](ref/swashdeed/dizzying-defense)
+- [Perfect Thrust (Ex)](ref/swashdeed/perfect-thrust)
+- [Swashbuckler's Edge (Ex)](ref/swashdeed/swashbucklers-edge)
+- [Cheat Death (Ex)](ref/swashdeed/cheat-death)
+- [Deadly Stab (Ex)](ref/swashdeed/deadly-stab)
+- [Stunning Stab (Ex)](ref/swashdeed/stunning-stab)
 
 #### Swashbuckler Finesse (Ex) {#swashbuckler-finesse}
 
-**Ability:** You gain the benefits of the [Weapon Finesse](ref/feat/weapon-finesse) feat with light
-or one-handed piercing melee weapons. This ability counts as having the Weapon Finesse feat for
-purposes of meeting feat prerequisites.
-
-**Gained:** At 1st Level
-
-**Passive:** You can use your Charisma score in place of Intelligence as a prerequisite for combat
-feats.
+At 1st level, a swashbuckler gains the benefits of the [Weapon Finesse](ref/feat/weapon-finesse)
+feat with light or one-handed piercing melee weapons, and she can use her Charisma score in place of
+Intelligence as a prerequisite for combat feats. This ability counts as having the Weapon Finesse
+feat for purposes of meeting feat prerequisites.
 
 #### Charmed Life (Ex) {#charmed-life}
 
-**Flavor:** A swashbuckler gains a knack for getting out of trouble.
-
-**Immediate:** Before attempting a saving throw, you can add your Charisma modifier to the result of
-the save. You must choose to do this before the roll is made.
-
-**Gained:** At 2nd Level
-
-**Usage:** 3 times/day + 1 per 4 swashbuckler levels beyond 2nd
+At 2nd level, the swashbuckler gains a knack for getting out of trouble. Three times per day as an
+immediate action before attempting a saving throw, she can add her Charisma modifier to the result
+of the save. She must choose to do this before the roll is made. At 6th level and every 4 levels
+thereafter, the number of times she can do this per day increases by one (to a maximum of 7 times
+per day at 18th level).
 
 #### Nimble (Ex) {#nimble}
 
-**Gained:** At 3rd Level
+At 3rd level, a swashbuckler gains a +1 dodge bonus to AC while wearing light or no armor. Anything
+that causes the swashbuckler to lose her Dexterity bonus to AC also causes her to lose this dodge
+bonus. This bonus increases by 1 for every 4 levels beyond 3rd (to a maximum of +5 at 19th level).
 
-**Passive:** You gain a +1 dodge bonus to AC while wearing light or no armor. Anything that causes
-you to lose your Dexterity bonus to AC also causes you to lose this dodge bonus.
+#### Bonus Feats {#bonus-feats}
 
-At 7th level: The bonus increases to +2.
+At 4th level and every 4 levels thereafter, a swashbuckler gains a bonus feat in addition to those
+gained from normal advancement. These bonus feats must be selected from those listed as combat
+feats. Swashbuckler levels are considered fighter levels for the purpose of meeting combat feat
+prerequisites.
 
-At 11th level: The bonus increases to +3.
-
-At 15th level: The bonus increases to +4.
-
-At 19th level: The bonus increases to +5.
-
-#### Bonus Feats: {#bonus-feats}
-
-**Ability:** In addition, you can choose to learn a new bonus feat in place of a bonus feat you have
-already learned. In effect, you lose the bonus feat in exchange for the new one. The old feat cannot
-be one that was used as a prerequisite for another feat, prestige class, or other ability.
-
-**Gained:** At 4th Level
-
-**Passive:** You gain a bonus feat in addition to those gained from normal advancement. These bonus
-feats must be selected from those listed as combat feats. Swashbuckler levels are considered fighter
-levels for the purpose of meeting combat feat prerequisites.
-
-**Repeat:** You gain a new bonus feat and can swap out a previous feat., 8, 4
-
-**Special:** You can only change one feat at any given level, and must choose whether or not to swap
-the feat at the time you gain a new bonus feat for the level.
-
-Optionally, you can pick a dare instead of a bonus feat. These special abilities only activate when
-you have 0 panache points.
+In addition, upon reaching 4th level and every 4 levels thereafter, a swashbuckler can choose to
+learn a new bonus feat in place of a bonus feat she has already learned. In effect, the swashbuckler
+loses the bonus feat in exchange for the new one. The old feat cannot be one that was used as a
+prerequisite for another feat, prestige class, or other ability. A swashbuckler can only change one
+feat at any given level, and must choose whether or not to swap the feat at the time she gains a new
+bonus feat for the level.
 
 #### Swashbuckler Weapon Training (Ex) {#swashbuckler-weapon-training}
 
-**Gained:** At 5th Level
-
-**Passive:** You gain a +1 bonus on attack and damage rolls with one-handed or light piercing melee
-weapons. While wielding such a weapon, you gain the benefit of the
-[Improved Critical](ref/feat/improved-critical) feat.
-
-At 9th level: This bonus increases to +2.
-
-At 13th level: This bonus increases to +3.
-
-At 17th level: This bonus increases to +4.
+At 5th level, a swashbuckler gains a +1 bonus on attack and damage rolls with one-handed or light
+piercing melee weapons. While wielding such a weapon, she gains the benefit of the
+[Improved Critical](ref/feat/improved-critical) feat. These attack and damage bonuses increase by 1
+for every 4 levels beyond 5th level (to a maximum of +4 at 17th level).
 
 #### Swashbuckler Weapon Mastery (Ex) {#swashbuckler-weapon-mastery}
 
-**Gained:** At 20th Level
-
-**Passive:** When you threaten a critical hit with a light or one-handed piercing melee weapon, that
-critical is automatically confirmed. Furthermore, the critical modifiers of such weapons increase by
-1 (×2 becomes ×3, and so on).
+At 20th level, when a swashbuckler threatens a critical hit with a light or one-handed piercing
+melee weapon, that critical is automatically confirmed. Furthermore, the critical modifiers of such
+weapons increase by 1 (×2 becomes ×3, and so on).
 
 ### Grit and Panache
 
@@ -217,10 +208,8 @@ gain access to the same heroic pool. Characters with both grit and panache class
 the two resources together into a larger pool of both grit points and panache points.
 
 For purposes of feat prerequisites, a character with the panache class feature satisfies the
-prerequisites as if she were a grit user, and vice versa. Swashbuckler levels stack with gunslinger
-levels for the purpose of satisfying [Signature Deed's](ref/feat/signature-deed) level requirement.
-For feats, magic items, and other effects, a panache user can spend and gain panache points in place
-of grit points, and vice versa.
+prerequisites as if she were a grit user, and vice versa. For feats, magic items, and other effects,
+a panache user can spend and gain panache points in place of grit points, and vice versa.
 
 ### Alternate Capstones
 

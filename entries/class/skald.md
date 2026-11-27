@@ -19,6 +19,27 @@ kind = "class"
 class_type = "hybrid"
 hit_die = "d8"
 skill_ranks = "4 + Int modifier"
+features = [
+  { anchor = "bardic-knowledge", level = 1 },
+  { anchor = "spells" },
+  { anchor = "cantrips", level = 1 },
+  { anchor = "scribe-scroll", level = 1 },
+  { anchor = "raging-song", level = 1 },
+  { anchor = "inspired-rage", level = 1 },
+  { anchor = "song-of-marching", level = 3 },
+  { anchor = "song-of-strength", level = 6 },
+  { anchor = "dirge-of-doom", level = 10 },
+  { anchor = "song-of-the-fallen", level = 14 },
+  { anchor = "versatile-performance", level = 2 },
+  { anchor = "well-versed", level = 2 },
+  { anchor = "rage-powers", level = 3 },
+  { anchor = "uncanny-dodge", level = 4 },
+  { anchor = "spell-kenning", level = 5 },
+  { anchor = "lore-master", level = 7 },
+  { anchor = "improved-uncanny-dodge", level = 8 },
+  { anchor = "damage-reduction", level = 9 },
+  { anchor = "master-skald", level = 20 },
+]
 +++
 
 Skalds are poets, historians, and keepers of lore who use their gifts for oration and song to
@@ -103,306 +124,250 @@ Knowledge (engineering), Knowledge (geography), Knowledge (history), Knowledge (
 |19th|6|6|6|6|5|5|4|
 |20th|6|6|6|6|6|5|5|
 
-#### Weapon and Armor Proficiencies {#weapon-and-armor-proficiencies}
+### Class Features {#class-features}
 
-**Weapons:** All simple weapons, All martial weapons
+The following are the class features of the skald.
 
-**Armor:** Light armor, Medium armor
+#### Weapon and Armor Proficiency {#weapon-and-armor-proficiencies}
 
-**Shields:** Yes, except tower shields
-
-**Notes:** A skald can cast skald spells while wearing light or medium armor and even using a shield
-without incurring the normal arcane spell failure chance. This does not affect the arcane spell
-failure chance for arcane spells received from other classes. Like other arcane spellcasters, a
-skald wearing heavy armor incurs a chance of arcane spell failure if the spell in question has
-somatic components.
+A skald is proficient with all simple and martial weapons, light and medium armor, and shields
+(except tower shields). A skald can cast skald spells while wearing light or medium armor and even
+using a shield without incurring the normal arcane spell failure chance. This does not affect the
+arcane spell failure chance for arcane spells received from other classes. Like other arcane
+spellcasters, a skald wearing heavy armor incurs a chance of arcane spell failure if the spell in
+question has somatic components.
 
 #### Bardic Knowledge (Ex) {#bardic-knowledge}
 
-**Gained:** At 1st Level
-
-**Passive:** You add [half](ref/misc/fractions-and-rounding) your class level (minimum 1) on all
-Knowledge skill checks, and may make all Knowledge skill checks untrained.
+A skald adds 1/2 his class level (minimum 1) on all Knowledge skill checks, and may make all
+Knowledge skill checks untrained.
 
 #### Spells {#spells}
 
-**Spell list:** Arcane spells from the skald list, from 1st level
+A skald casts arcane spells drawn from the bard spell list (see pages 224–226 of the _Pathfinder RPG
+Core Rulebook_). He can cast any spell he knows without preparing it ahead of time. Every skald
+spell has a verbal component—these verbal components can take the form of song, recitation, or even
+non-verbal music like percussion. To learn or cast a spell, a skald must have a Charisma score equal
+to at least 10 + the spell's level. The saving throw DC against a skald's spell is 10 + the spell's
+level + the skald's Charisma modifier.
 
-**Key ability:** Charisma. Minimum score 10 + spell level; save DC 10 + spell level + Charisma
-modifier; a high score grants bonus spells per day.
+Like other spellcasters, a skald can cast only a certain number of spells of each spell level per
+day. His base daily spell allotment is given on Table 1–10. In addition, he receives bonus spells
+per day if he has a high Charisma score (see Table 1–3 of the _Core Rulebook_).
 
-**Casting:** Spontaneous: cast any spell known without preparation, within the daily allotment per
-spell level.
+The skald's selection of spells is limited. A skald begins play knowing four 0-level spells and two
+1st-level spells of the skald's choice. At each new skald level, he gains one or more new spells, as
+indicated on Table 1–11. Unlike spells per day, the number of spells a skald knows isn't affected by
+his Charisma score; the numbers on Table 1–11 are fixed.
 
-**Spells known:** Limited selection; starts with four 0-level and two 1st-level spells and grows by
-level as shown on the table. Charisma does not change the number known.
+At 5th level and every 3 levels thereafter, a skald can choose to learn a new spell in place of one
+he already knows. In effect, the skald loses the old spell in exchange for the new one. The new
+spell's level must be the same as that of the spell being exchanged, and it must be at least 1 level
+lower than the highest-level skald spell the skald can cast. A skald may swap only a single spell at
+any given level, and must choose whether or not to swap the spell at the same time that he gains new
+spells known for the level.
 
-**Spell swap:** At 5th, 8th, 11th, and every 3 levels after, one known spell may be exchanged for
-another of the same level.
-
-**Notes:** Every spell has a verbal component (song, recitation, or music).
+A skald need not prepare his spells in advance. He can cast any spell he knows at any time, assuming
+he has not yet used up his allotment of spells per day for the spell's level.
 
 #### Cantrips {#cantrips}
 
-**Ability:** 0-level arcane spells. Cast without using a spell slot; one placed in a higher slot
-(for example through metamagic) uses that slot.
+Skalds learn a number of cantrips, or 0-level spells, as noted on Table 1–11: Skald Spells Known.
+These spells are cast like any other spell, but they do not consume any slots and may be used again.
 
 #### Scribe Scroll {#scribe-scroll}
 
-**Ability:** You gain [Scribe Scroll](ref/feat/scribe-scroll) as a bonus feat.
-
-**Gained:** At 1st Level
+At 1st level, a skald gains [Scribe Scroll](ref/feat/scribe-scroll) as a bonus feat.
 
 #### Raging Song (Su) {#raging-song}
 
-**Action:** Standard Action
+A skald is trained to use music, oration, and similar performances to inspire his allies to feats of
+strength and ferocity. At 1st level, a skald can use this ability for a number of rounds per day
+equal to 3 + his Charisma modifier. For each level thereafter, he can use raging song for 2
+additional rounds per day.
 
-**Flavor:** A skald is trained to use music, oration, and similar performances to inspire his allies
-to feats of strength and ferocity.
-
-**At 13th Level:** You can begin a raging song as a **swift action**.
-
-**At 7th Level:** You can begin a raging song as a **move-equivalent action**.
-
-**Section:** Raging Song
-
-**Gained:** At 1st Level
-
-**Usage:** 1 + twice your skald level + your Cha modifier rounds/day.
-
-**Usage:** 1 + twice your skald level + your Cha modifier rounds/day.
-
-Each round, you can produce any one of the types of raging song that you have mastered, as indicated
-by your level.
-
-Starting a raging song is a **standard action**, but it can be maintained each round as a **free
-action**. A raging song cannot be disrupted, but it ends immediately if you are killed, paralyzed,
-stunned, knocked unconscious, or otherwise prevented from taking a free action each round to
-maintain it. A raging song counts as the bard's bardic performance special ability for any effect
-that affects bardic performances.
+Starting a raging song is a standard action, but it can be maintained each round as a free action. A
+raging song cannot be disrupted, but it ends immediately if the skald is killed, paralyzed, stunned,
+knocked unconscious, or otherwise prevented from taking a free action each round to maintain it. A
+raging song counts as the bard's bardic performance special ability for any effect that affects
+bardic performances. A skald may learn bard masterpieces (_Pathfinder RPG Ultimate Magic_ 21).
 
 A raging song has audible components, but not visual components. Affected allies must be able to
-hear you for the song to have any effect. A deaf skald has a 20% chance to fail when attempting to
-use a raging song. If you fail this check, the attempt still counts against his daily limit.
-[Deaf](ref/misc/deafened) creatures are immune to raging songs.
+hear the skald for the song to have any effect. A deaf skald has a 20% chance to fail when
+attempting to use a raging song. If he fails this check, the attempt still counts against his daily
+limit. [Deaf](ref/misc/deafened) creatures are immune to raging songs.
 
-If a raging song affects allies, when you begin a raging song and at the start of each ally's turn
-in which they can hear the raging song, your allies must decide whether to accept or refuse its
-effects. This is not an action. [Unconscious](ref/misc/unconscious) allies automatically accept the
-song. If accepted, the raging song's effects last for that ally's turn or until the song ends,
-whichever comes first.
+If a raging song affects allies, when the skald begins a raging song and at the start of each ally's
+turn in which they can hear the raging song, the skald's allies must decide whether to accept or
+refuse its effects. This is not an action. [Unconscious](ref/misc/unconscious) allies automatically
+accept the song. If accepted, the raging song's effects last for that ally's turn or until the song
+ends, whichever comes first.
+
+At 7th level, a skald can start a raging song as a move action instead of a standard action. At 13th
+level, a skald can start a raging song as a swift action instead.
 
 #### Inspired Rage (Su) {#inspired-rage}
 
-**Action:** At 1st Level
+At 1st level, affected allies gain a +2 morale bonus to Strength and Constitution and a +1 morale
+bonus on Will saving throws, but also take a -1 penalty to AC. While under the effects of inspired
+rage, allies other than the skald cannot use any Charisma-, Dexterity-, or Intelligence-based skills
+(except Acrobatics, Fly, Intimidate, and Ride) or any ability that requires patience or
+concentration. At 4th level and every 4 levels thereafter, the song's bonuses on Will saves increase
+by 1; the penalty to AC doesn't change. At 8th and 16th levels, the song's bonuses to Strength and
+Constitution increase by 2. (Unlike the barbarian's rage ability, those affected are not fatigued
+after the song ends.)
 
-At 8th level: The bonus to Str and Con increases to +4.
-
-At 16th level: The bonus to Str and Con increases to +6.
-
-Affected allies gain a +2 morale bonus to Strength and Constitution and a morale bonus on Will
-saving throws equal to 1 + [one-fourth](ref/misc/fractions-and-rounding) of your skald level, but
-also take a -1 penalty to AC.
-
-While under the effects of _inspired rage,_ allies other than you cannot use any Charisma-,
-Dexterity-, or Intelligence-based skills (except Acrobatics, Fly, Intimidate, and Ride) or any
-ability that requires patience or concentration. (Unlike the barbarian's _rage_ ability, those
-affected are not fatigued after the song ends.)
-
-If an ally has her own rage class ability (such as barbarian's _rage,_ bloodrager's _bloodrage,_ or
-skald's _inspired rage_), she may use the Strength, Constitution, and Will saving throw bonuses, as
-well as AC penalties, based on her own ability and level instead of those from you (still suffering
-no fatigue afterward). However, _inspired rage_ does not allow the ally to activate abilities
-dependent on other _rage_ class abilities, such as _rage powers, blood casting,_ or _bloodrager
-bloodlines;_ the ally must activate her own _rage_ class ability in order to use these features.
+If an ally has her own rage class ability (such as barbarian's rage, bloodrager's bloodrage, or
+skald's inspired rage), she may use the Strength, Constitution, and Will saving throw bonuses, as
+well as AC penalties, based on her own ability and level instead of those from the skald (still
+suffering no fatigue afterward). However, inspired rage does not allow the ally to activate
+abilities dependent on other rage class abilities, such as rage powers, blood casting, or bloodrager
+bloodlines; the ally must activate her own rage class ability in order to use these features.
 
 #### Song of Marching (Su) {#song-of-marching}
 
-**At 3rd Level:** You can use _raging song_ to inspire your allies to move faster without suffering
-from fatigue. By expending 1 round of _raging song,_ you invigorate allies within 60 feet, who may
-[hustle](ref/rule/overland-movement) for the next hour; this movement counts as a walk (not a
-hustle) for the purpose of accruing nonlethal damage and fatigue. You must continue to perform the
-song for the remainder of the hour, otherwise its effects end, but only 1 round of _raging song_ is
-expended for that hour.
+At 3rd level, a skald can use raging song to inspire his allies to move faster without suffering
+from fatigue. By expending 1 round of raging song, the skald invigorates allies within 60 feet, who
+may [hustle](ref/rule/overland-movement) for the next hour; this movement counts as a walk (not a
+hustle) for the purpose of accruing nonlethal damage and fatigue. The skald must continue to perform
+the song for the remainder of the hour, otherwise its effects end, but only 1 round of raging song
+is expended for that hour.
 
 #### Song of Strength (Su) {#song-of-strength}
 
-**At 6th Level:** You can use _raging song_ to inspire your allies to superhuman feats of strength.
-Once each round while you use this performance, allies within 60 feet who can hear you may add 1/2
-your level to a Strength check or Strength-based skill check.
+At 6th level, a skald can use raging song to inspire his allies to superhuman feats of strength.
+Once each round while the skald uses this performance, allies within 60 feet who can hear the skald
+may add 1/2 the skald's level to a Strength check or Strength-based skill check.
 
 #### Dirge of Doom (Su) {#dirge-of-doom}
 
-**At 10th Level:** You can create a sense of growing dread in your enemies, causing them to become
-[shaken](ref/misc/shaken). This only affects enemies that are within 30 feet and able to hear your
-performance. The effect persists for as long as the enemy is within 30 feet and you continue your
-performance. This cannot cause a creature to become frightened or panicked, even if the targets are
-already shaken from another effect.
-
-**Special:** This is a sonic mind-affecting fear effect, and relies on audible components.
+At 10th level, a skald can create a sense of growing dread in his enemies, causing them to become
+[shaken](ref/misc/shaken). This only affects enemies that are within 30 feet and able to hear the
+skald's performance. The effect persists for as long as the enemy is within 30 feet and the skald
+continues his performance. This cannot cause a creature to become frightened or panicked, even if
+the targets are already shaken from another effect. This is a sonic mind-affecting fear effect, and
+relies on audible components.
 
 #### Song of the Fallen (Su) {#song-of-the-fallen}
 
-**At 14th Level:** You can temporarily revive dead allies to continue fighting, with the same
-limitations as [raise dead](ref/spell/raise-dead). You select a dead ally within 60 feet and expend
-1 round of _raging song_ to bring that ally back to life. The revived ally is alive but
-[staggered](ref/misc/staggered). Each round, you may expend another 1 round of _raging song_ to keep
-that ally alive for another round. The ally automatically dies if you end this performance or are
-interrupted. You may revive multiple allies with this ability (either at the same time or over
-successive rounds) but must expend 1 round of _raging song_ per revived ally per round to maintain
-the effect.
-
-A skald may learn bardic masterpieces and [sagas](ref/ability/sagas).
+At 14th level, a skald can temporarily revive dead allies to continue fighting, with the same
+limitations as _[raise dead](ref/spell/raise-dead)_. The skald selects a dead ally within 60 feet
+and expends 1 round of raging song to bring that ally back to life. The revived ally is alive but
+[staggered](ref/misc/staggered). Each round, the skald may expend another 1 round of raging song to
+keep that ally alive for another round. The ally automatically dies if the skald ends this
+performance or is interrupted. The skald may revive multiple allies with this ability (either at the
+same time or over successive rounds) but must expend 1 round of raging song per revived ally per
+round to maintain the effect.
 
 #### Versatile Performance (Ex) {#versatile-performance}
 
-**Action:** Ability
+At 2nd level, a skald can choose one type of Perform skill associated with the skald class. He can
+use his bonus in that skill in place of his bonus in the associated skills listed below. When
+substituting in this way, the skald uses his total Perform skill bonus, including class skill bonus,
+in place of the associated skill's bonus, whether or not he has ranks in that skill or if it is a
+class skill. At 7th level, and every 5 levels thereafter, the bard can select an additional type of
+Perform to substitute.
 
-**Gained:** At 2nd Level
-
-**Repeat:** You can select an additional type of Perform to substitute., 7, 5
-
-You choose one type of Perform skill associated with the skald class. You can use your bonus in that
-skill in place of your bonus in the associated skills listed below. When substituting in this way,
-you skald use your total Perform skill bonus, including class skill bonus, in place of the
-associated skill's bonus, whether or not you have ranks in that skill or if it is a class skill.
-
-The types of Perform and their associated skills are:
-
-- **Oratory:** Diplomacy, Sense Motive
-- **Percussion:** Handle Animal, Intimidate
-- **Sing:** Bluff, Sense Motive
-- **String:** Bluff, Diplomacy
-- **Wind:** Diplomacy, Handle Animal
+The types of Perform and their associated skills are: Oratory (Diplomacy, Sense Motive), Percussion
+(Handle Animal, Intimidate), Sing (Bluff, Sense Motive), and String (Bluff, Diplomacy).
 
 #### Well-Versed (Ex) {#well-versed}
 
-**Gained:** At 2nd Level
-
-**Passive:** You gain a +4 bonus on saving throws made against bardic performance, as well as all
-sonic or language-dependent effects.
+At 2nd level, the skald becomes resistant to sonic effects. The skald gains a +4 bonus on saving
+throws made against bardic performance, as well as all sonic or language-dependent effects.
 
 #### Rage Powers (Ex) {#rage-powers}
 
-**Ability:** You learn a rage power that affects you and any allies under the influence of your
-_inspired rage._
-
-**Action:** Info
-
-**Section:** Rage Powers
-
-**Gained:** At 3rd Level
-
-**Repeat:** You gain a new rage power., 6, 3
-
-**Special:** You cannot select a rage power that requires the creature to spend a standard action or
-rounds of _rage_ to activate it. For example, you cannot choose
+At 3rd level and every 3 levels thereafter, a skald learns a rage power (see pages 32–34 of the
+_Core Rulebook_) that affects the skald and any allies under the influence of his inspired rage.
+This cannot be a rage power that requires the creature to spend a standard action or rounds of rage
+to activate it. For example, the skald cannot choose
 [terrifying howl](ref/ragepower/terrifying-howl) (which requires a standard action to activate), but
-can choose [knockback](ref/ragepower/knockback) (which is made in place of a melee attack). Unless
-otherwise noted, you cannot select an individual rage power more than once.
+can choose [knockback](ref/ragepower/knockback) (which is made in place of a melee attack).
 
-When starting an _inspired rage,_ you choose which rage powers (if any) to add to the song, and all
-affected allies gain the benefit of these rage powers, using your level as their effective barbarian
-level. You use your skald level as your barbarian level for the purpose of selecting rage powers
-that require a minimum barbarian level. If the rage power's effects depend on your ability modifier
-(such as [lesser spirit totem](ref/ragepower/lesser-spirit-totem)), affected allies use your ability
-modifier instead of their own for the purposes of this effect.
+Unless otherwise noted, a skald cannot select an individual rage power more than once.
+
+When starting an inspired rage, the skald chooses which rage powers (if any) to add to the song, and
+all affected allies gain the benefit of these rage powers, using the skald's level as their
+effective barbarian level. The skald uses his skald level as his barbarian level for the purpose of
+selecting rage powers that require a minimum barbarian level. If the rage power's effects depend on
+the skald's ability modifier (such as _[lesser spirit totem](ref/ragepower/lesser-spirit-totem)_),
+affected allies use the skald's ability modifier instead of their own for the purposes of this
+effect.
 
 If a rage power requires another rage power (such as [disruptive](ref/ragepower/disruptive), which
-requires [superstition](ref/ragepower/superstition)), you cannot grant that rage power to allies
-unless you can also grant that power's prerequisite. You may add multiple rage powers to an
-_inspired rage_ at the same time using this ability (such as granting superstition and disruptive
+requires [superstition](ref/ragepower/superstition)), the skald cannot grant that rage power to
+allies unless he can also grant that power's prerequisite. He may add multiple rage powers to an
+inspired rage at the same time using this ability (such as granting superstition and disruptive
 simultaneously).
 
-If a rage power can only be used a certain number of times per day or per _rage_ (such as
-[renewed vigor](ref/ragepower/renewed-vigor)), each ally affected by the _inspired rage_ song is
-subject to that limit (with once per _rage_ abilities limited to once per inspired _rage_).
+If a rage power can only be used a certain number of times per day or per rage (such as
+[renewed vigor](ref/ragepower/renewed-vigor)), each ally affected by the inspired rage song is
+subject to that limit (with once per rage abilities limited to once per inspired rage).
 
-If you have rage powers from another source, you (but not your allies) can use those rage powers
-during an _inspired rage._ You cannot select a duplicate rage power, unless that rage power can be
+If the skald has rage powers from another source, he (but not his allies) can use those rage powers
+during an inspired rage. He cannot select a duplicate rage power, unless that rage power can be
 taken multiple times.
 
-If you have the ability to _rage_ from another source, you can use your skald rage powers during
-that _rage_ as well.
+If the skald has the ability to rage from another source, he can use his skald rage powers during
+that rage as well.
 
 #### Uncanny Dodge (Ex) {#uncanny-dodge}
 
-**Flavor:** A skald gains the ability to react to danger before his senses would normally allow him
-to do so.
+At 4th level, a skald gains the ability to react to danger before his senses would normally allow
+him to do so. He cannot be caught [flat-footed](ref/rule/flat-footed), nor does he lose his Dex
+bonus to AC if the attacker is invisible. He still loses his Dexterity bonus to AC if he is
+immobilized. A skald with this ability can still lose his Dexterity bonus to AC if an opponent
+successfully uses the [feint](ref/skill/bluff) action against him.
 
-**Gained:** At 4th Level
-
-**Passive:** You cannot be caught [flat-footed](ref/rule/flat-footed), nor do you lose your Dex
-bonus to AC if the attacker is invisible. You still lose your Dexterity bonus to AC if immobilized,
-or if an opponent successfully uses the [feint](ref/skill/bluff) action against you.
-
-**Special:** If you have _uncanny dodge_ from a different class, you automatically gain _improved
-uncanny dodge_ instead.
+If a skald already has uncanny dodge from a different class, he automatically gains improved uncanny
+dodge (see below) instead.
 
 #### Spell Kenning (Su) {#spell-kenning}
 
-**Ability:** You can cast any spell on the bard, cleric, or sorcerer/wizard spell list as if it were
-one of your skald spells known, expending a skald spell slot of the same spell level to cast the
-desired spell. Casting a spell with _spell kenning_ always has a minimum casting time of 1 full
-round, regardless of the casting time of the spell.
+At 5th level, a skald is learned in the magic of other spellcasters, and can use his own magic to
+duplicate those classes' spells. Once per day, a skald can cast any spell on the bard, cleric, or
+sorcerer/wizard spell list as if it were one of his skald spells known, expending a skald spell slot
+of the same spell level to cast the desired spell. Casting a spell with spell kenning always has a
+minimum casting time of 1 full round, regardless of the casting time of the spell.
 
-**Flavor:** A skald is learned in the magic of other spellcasters, and can use his own magic to
-duplicate those classes' spells.
+At 11th level, a skald can use this ability twice per day.
 
-**Gained:** At 5th Level
-
-**Usage:** 1 time/day + 1 per 6 skald levels beyond 5th
+At 17th level, he can use this ability three times per day.
 
 #### Lore Master (Ex) {#lore-master}
 
-**Ability:** You can take 10 on any Knowledge skill check that you have ranks in.
-
-**Flavor:** The skald becomes a master of many different types of lore.
-
-**At 13th Level:** You can Take 20 twice a day.
-
-**At 19th Level:** You can Take 20 three times a day.
-
-**Gained:** At 7th Level
-
-**Standard:** Once per day, you can take 20 on any Knowledge skill check.
+At 7th level, the skald becomes a master of many different types of lore, and can choose to take 10
+on any Knowledge skill check that he has ranks in. Once per day, the skald can take 20 on any
+Knowledge skill check as a standard action, instead of spending the normal time taking 20 requires.
+He can use this ability to take 20 on a Knowledge skill check twice per day at 13th level and three
+times per day 19th level.
 
 #### Improved Uncanny Dodge (Ex) {#improved-uncanny-dodge}
 
-**Section:** Other Abilities
+At 8th level and higher, a skald can no longer be flanked.
 
-**Gained:** At 8th Level
+This defense denies enemies the ability to [sneak attack](ref/ability/sneak-attack) the skald by
+flanking him, unless the attacker has at least four more levels in a class that grants sneak attack
+than the target has skald levels.
 
-**Passive:** You can no longer be flanked. This defense denies enemies the ability to
-[sneak attack](ref/ability/sneak-attack) you by flanking you, unless the attacker has at least four
-more levels in a class that grants sneak attack than you have skald levels.
-
-**Special:** If you already have uncanny dodge from another class, the levels from the classes that
-grant uncanny dodge stack to determine the minimum level required to flank you.
+If a character already has uncanny dodge (see above) from another class, the levels from the classes
+that grant uncanny dodge stack to determine the minimum level required to flank the character.
 
 #### Damage Reduction (Ex) {#damage-reduction}
 
-**At 14th Level:** Your DR becomes 2/-.
-
-**At 19th Level:** Your DR becomes 3/-.
-
-**Gained:** At 7th Level
-
-**Passive:** You gain [damage reduction](ref/rule/damage-reduction) DR 1/-. Subtract 1 from the
-damage you take each time you're dealt damage from a weapon or a natural attack. Damage reduction
-can reduce damage to 0, but not below 0.
-
-**Special:** You grant this DR to all allies affected by your _inspired rage._
+At 9th level, a skald gains [damage reduction](ref/rule/damage-reduction). Subtract 1 from the
+damage the skald takes each time he is dealt damage from a weapon or a natural attack. At 14th and
+19th levels, this damage reduction increases by 1. Damage reduction can reduce damage to 0, but not
+below 0. Additionally, the skald grants this DR to all allies affected by his inspired rage.
 
 #### Master Skald (Su) {#master-skald}
 
-**Gained:** At 20th Level
-
-**Passive:** Your _inspired rage_ no longer gives allies a penalty to AC, nor limits what skills or
-abilities you can use. Allies with _rage_ class abilities may use features dependent on those
-abilities without restriction, such as a barbarian's rage powers and a bloodrager's blood casting
-and bloodline abilities. Finally, when making a full attack, affected allies may make an additional
-attack each round (as if using a [haste](ref/spell/haste) effect).
+At 20th level, a skald's inspired rage no longer gives allies a penalty to AC, nor limits what
+skills or abilities they can use. Allies with rage class abilities may use features dependent on
+those abilities without restriction, such as a barbarian's rage powers and a bloodrager's blood
+casting and bloodline abilities. Finally, when making a full attack, affected allies may make an
+additional attack each round (as if using a _[haste](ref/spell/haste)_ effect).
 
 ### Alternate Capstones
 

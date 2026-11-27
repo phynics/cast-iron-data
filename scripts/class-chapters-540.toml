@@ -235,3 +235,112 @@ Additionally, at 4th level, when the druid creates additional concoctions, she n
 At 7th level, when the druid creates concoctions with potential false identification results, a creature attempting to identify the concoction must exceed the identification DC by 10 or more to determine the concoction's true identity.
 
 Additionally, at 7th level, a druid can create any herbal concoction in 1 minute. She can also create a special concoction of any spell higher than 3rd level that she can cast, but to do so, she must expend a spell slot of the same level. These special concoctions do not cost her anything to create and function like extracts created by an [alchemist](ref/class/alchemist) with the [infusion](ref/discovery/infusion) discovery."""
+
+# The Advanced Class Guide's hybrid classes (phynics/cast-iron#540): the sections behind the class features that other entries hold (the bloodrager's bloodlines, the shaman's
+# spirits, the warpriest's blessings: their lead-ins are the openings of the hub entries), and the spell sections that follow (lead-ins written as sections of the class;
+# the spell lists are spell data).
+[[class]]
+id = "ref/class/bloodrager"
+gap_stop = "Bloodrager Bloodlines"
+lead_entry = "ref/ability/bloodrager-bloodlines"
+
+[[lead]]
+class = "ref/class/bloodrager"
+title = "Bloodrager spells"
+heading = "Bloodrager Spells"
+key = "bloodrager-spells"
+
+[[class]]
+id = "ref/class/shaman"
+gap_stop = "spirits"
+lead_entry = "ref/ability/shaman-spirits"
+
+[[lead]]
+class = "ref/class/shaman"
+title = "shaman spells"
+heading = "Shaman Spells"
+key = "shaman-spells"
+
+[[class]]
+id = "ref/class/warpriest"
+gap_stop = "Blessings"
+lead_entry = "ref/ability/blessings"
+
+[[lead]]
+class = "ref/class/shaman"
+title = "spirit animal"
+heading = "Spirit Animal"
+key = "spirit-animal-rules"
+
+# The two "Small or Large" tables of the Advanced Class Guide (the Brawler's unarmed damage, p. 24, and the Warpriest's sacred weapon damage, p. 61): the header as the text layer
+# reads it (`layer_header`: "Damage Damage Level (Small) (Large)", the two lines of the header cells) and as it is set (`header`).
+[[word_table]]
+class = "ref/class/brawler"
+title = "Small or Large Brawler Unarmed Damage"
+kind = "table"
+header = ["Level", "Damage (Small Brawler)", "Damage (Large Brawler)"]
+layer_header = ["Damage", "Damage", "Level", "(Small Brawler)", "(Large Brawler)"]
+rows = [["1st–3rd", "1d4", "1d8"], ["4th–7th", "1d6", "2d6"], ["8th–11th", "1d8", "2d8"], ["12th–15th", "1d10", "3d6"], ["16th–19th", "2d6", "3d8"], ["20th", "2d8", "4d8"]]
+
+[[word_table]]
+class = "ref/class/warpriest"
+title = "Small or Large Warpriest Sacred Weapon Damage"
+kind = "table"
+header = ["Level", "Damage (Small)", "Damage (Large)"]
+layer_header = ["Damage", "Damage", "Level", "(Small)", "(Large)"]
+rows = [["1st–4th", "1d4", "1d8"], ["5th–9th", "1d6", "2d6"], ["10th–14th", "1d8", "2d8"], ["15th–19th", "1d10", "3d6"], ["20th", "2d6", "3d8"]]
+
+# the last row of the Warpriest's class table and its footnote, set in the middle of the first sentence of Sacred Weapon (Advanced Class Guide p. 60)
+[[layout_fix]]
+class = "ref/class/warpriest"
+key = "sacred-weapon"
+find = "re:Aspect of war, fervor 7d6,\\s+sacred weapon \\+5 \\\\?\\* The values shown are for Medium warpriests\\. See the sacred weapon class feature for Small and Large warpriests\\. "
+replace = ""
+
+# The Swashbuckler's box "Grit and Panache" (Advanced Class Guide p. 56) stands in the middle of the paragraph of Panache; the end of that paragraph ("this maximum. A swashbuckler
+# spends panache to accomplish deeds ...") is the last words of the box in the text layer. The corpus has the box as `### Grit and Panache`.
+[[sidebar_tail]]
+class = "ref/class/swashbuckler"
+key = "grit-and-panache"
+host = "panache"
+marker = "this maximum."
+
+# the end of the Panache paragraph, which the text layer sets at the end of the box "Grit and Panache" (see `[[sidebar_tail]]`)
+[[layout_fix]]
+class = "ref/class/swashbuckler"
+key = "grit-and-panache"
+find = "re: this maximum\\. A swashbuckler spends panache to accomplish deeds \\(see below\\), and regains panache in the following ways\\."
+replace = ""
+
+# cells of the Special column of the classes' tables that the text layer sets inside a sentence (Advanced Class Guide: the Investigator's last rows, p. 31; the Brawler's, p. 25; the Skald's, p. 50; the Shaman's, p. 36)
+[[layout_fix]]
+class = "ref/class/investigator"
+key = "alchemy"
+find = "Studied strike +9d6, true inspiration "
+replace = ""
+
+[[layout_fix]]
+class = "ref/class/brawler"
+key = "knockout"
+find = "2d10 Bonus combat feat, improved awesome blow, martial flexibility (any number) "
+replace = ""
+
+[[layout_fix]]
+class = "ref/class/skald"
+key = "raging-song"
+find = "Inspired rage +6, master skald "
+replace = ""
+
+[[layout_fix]]
+class = "ref/class/shaman"
+key = "hex"
+find = "Hex, manifestation, wandering spirit (true) "
+replace = ""
+
+
+# The Hunter's animal foci (Advanced Class Guide pp. 27-28: Bat to Wolf) are the items of `ref/ability/animal-foci`; the class keeps print's text of the feature and its link to the
+# hub, and does not copy the twelve items (ruling 52).
+[[hub_items]]
+class = "ref/class/hunter"
+feature = "animal-focus"
+entry = "ref/ability/animal-foci"

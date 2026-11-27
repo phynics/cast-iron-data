@@ -19,6 +19,22 @@ kind = "class"
 class_type = "hybrid"
 hit_die = "d10"
 skill_ranks = "4 + Int modifier"
+features = [
+  { anchor = "bloodline", level = 1 },
+  { anchor = "bloodrage", level = 1 },
+  { anchor = "fast-movement", level = 1 },
+  { anchor = "uncanny-dodge", level = 2 },
+  { anchor = "blood-sanctuary", level = 3 },
+  { anchor = "spells", level = 4 },
+  { anchor = "blood-casting", level = 4 },
+  { anchor = "eschew-materials", level = 4 },
+  { anchor = "improved-uncanny-dodge", level = 5 },
+  { anchor = "damage-reduction", level = 7 },
+  { anchor = "greater-bloodrage", level = 11 },
+  { anchor = "indomitable-will", level = 14 },
+  { anchor = "tireless-bloodrage", level = 17 },
+  { anchor = "mighty-bloodrage", level = 20 },
+]
 +++
 
 While many ferocious combatants can tap into a deep reservoir of buried rage, bloodragers have an
@@ -102,243 +118,184 @@ enemies' faces, supplying tremendous martial force bolstered by a trace of arcan
 |19th|6|6|6|5|
 |20th|6|6|6|5|
 
-#### Weapon and Armor Proficiencies {#weapon-and-armor-proficiencies}
+### Class Features {#class-features}
 
-**Weapons:** All simple weapons, All martial weapons
+The following are the class features of the bloodrager.
 
-**Armor:** Light armor, Medium armor
+#### Weapon and Armor Proficiency {#weapon-and-armor-proficiencies}
 
-**Shields:** Yes, except tower shields
-
-**Notes:** You can cast bloodrager spells while wearing light armor or medium armor without
-incurring the normal arcane spell failure chance. This does not affect the arcane spell failure
-chance for arcane spells received from other classes. Like other arcane spellcasters, heavy armor or
-wielding a shield incurs a chance of arcane spell failure if the spell in question has somatic
-components.
+Bloodragers are proficient with all simple and martial weapons, light armor, medium armor, and
+shields (except tower shields). A bloodrager can cast bloodrager spells while wearing light armor or
+medium armor without incurring the normal arcane spell failure chance. This does not affect the
+arcane spell failure chance for arcane spells received from other classes. Like other arcane
+spellcasters, a bloodrager wearing heavy armor or wielding a shield incurs a chance of arcane spell
+failure if the spell in question has somatic components.
 
 #### Bloodline {#bloodline}
-
-**Action:** Info
-
-**Choice:** You must pick one [bloodline](ref/ability/bloodrager-bloodlines) upon taking your first
-level of bloodrager. Once made, this choice cannot be changed. You immediately gain its 1st-level
-power.
-
-**At 12th Level:** You gain the 12th-level bloodline power and a third bloodline feat.
-
-**At 15th Level:** You gain a fourth bloodline feat.
-
-**At 16th Level:** You gain the 16th-level bloodline power, and learn an additional spell from your
-bloodline.
-
-**At 18th Level:** You gain a fifth bloodline feat.
-
-**At 20th Level:** You gain the 20th-level bloodline power.
-
-**At 4th Level:** You gain the 4th-level bloodline power.
-
-**At 6th Level:** You gain a bonus feat chosen from a list of feats presented in your bloodline.
-
-**At 8th Level:** You gain the 8th-level bloodline power.
-
-**At 9th Level:** You gain a second feat from your bloodline.
-
-**Section:** Bloodline
-
-**Gained:** At 1st Level
-
-**Repeat At:** You learn an additional spell from your bloodline., 7, 10, 13
-
-**Special:** For all spell-like bloodline powers, treat your bloodrager level as the caster level.
-Spells you gain from your bloodline are in addition to the number of spells given per level. These
-spells cannot be exchanged for different spells at higher levels.
 
 Each bloodrager has a source of magic somewhere in his heritage that empowers his bloodrages, bonus
 feats, and bonus spells. Sometimes this source reflects a distant blood relationship to a powerful
 being, or is due to an extreme event involving such a creature somewhere in his family's past.
-Regardless of the source, this influence manifests in a number of ways.
+Regardless of the source, this influence manifests in a number of ways. A bloodrager must pick one
+[bloodline](ref/ability/bloodrager-bloodlines) upon taking his first level of bloodrager. Once made,
+this choice cannot be changed.
 
-When choosing a bloodline, your alignment doesn't restrict your choices. A good bloodrager could
-come from an [abyssal](ref/blrgbloodline/abyssal) bloodline, a
+When choosing a bloodline, the bloodrager's alignment doesn't restrict his choices. A good
+bloodrager could come from an [abyssal](ref/blrgbloodline/abyssal) bloodline, a
 [celestial](ref/blrgbloodline/celestial) bloodline could beget an evil bloodrager generations later,
 a bloodrager from an [infernal](ref/blrgbloodline/infernal) bloodline could be chaotic, and so on.
-Though your bloodline empowers you, it doesn't dictate or limit your thoughts and behavior.
+Though his bloodline empowers him, it doesn't dictate or limit his thoughts and behavior.
 
-**NOTE:** If you take levels in another class that grants a bloodline, the bloodlines must be the
+The bloodrager gains bloodline powers at 1st level, 4th level, and every 4 levels thereafter. The
+bloodline powers a bloodrager gains are described in his chosen bloodline. For all spell-like
+bloodline powers, treat the character's bloodrager level as the caster level.
+
+At 6th level and every 3 levels thereafter, a bloodrager receives one bonus feat chosen from a list
+specific to each bloodline. The bloodrager must meet the prerequisites for these bonus feats.
+
+At 7th, 10th, 13th, and 16th levels, a bloodrager learns an additional spell derived from his
+bloodline. These spells are in addition to the number of spells given on Table 1–4. These spells
+cannot be exchanged for different spells at higher levels.
+
+If the bloodrager takes levels in another class that grants a bloodline, the bloodlines must be the
 same type, even if that means that the bloodline of one of the classes must change. Subject to GM
-discretion, you can change your former bloodline to make them conform.
-
-Optionally, whenever a bloodrager gains a new bloodline power or bonus feat, he can swap it for a
-[bloodline mutation](ref/ability/bloodline-mutations) whose prerequisites he meets.
+discretion, the bloodrager can change his former bloodline to make them conform.
 
 #### Bloodrage (Su) {#bloodrage}
 
-**Flavor:** Your source of internal power grants you the ability to _bloodrage._
+The bloodrager's source of internal power grants him the ability to bloodrage. At 1st level, a
+bloodrager can bloodrage for a number of rounds per day equal to 4 + his Constitution modifier. At
+each level after 1st, he can bloodrage for 2 additional rounds per day. Temporary increases to
+Constitution (such as those gained from bloodraging or spells like
+_[bear's endurance](ref/spell/bears-endurance)_) don't increase the total number of rounds that a
+bloodrager can bloodrage per day. The total number of rounds of bloodrage per day is renewed after
+resting for 8 hours, although these hours need not be consecutive.
 
-**Free:** You can enter or leave a _bloodrage_ as a free action.
+A bloodrager can enter a bloodrage as a free action. While in a bloodrage, a bloodrager gains a +4
+morale bonus to his Strength and Constitution, as well as a +2 morale bonus on Will saves. In
+addition, he takes a -2 penalty to Armor Class. The increase to Constitution grants the bloodrager 2
+hit points per Hit Die, but these disappear when the bloodrage ends and are not lost first like
+[temporary hit points](ref/rule/temporary-hit-points). While bloodraging, a bloodrager cannot use
+any Charisma-, Dexterity-, or Intelligence-based skills (except Acrobatics, Fly, Intimidate, and
+Ride) or any ability that requires patience or concentration.
 
-**Gained:** At 1st Level
+A bloodrager can end his bloodrage as a free action. When the bloodrage ends, he's
+[fatigued](ref/misc/fatigued) for a number of rounds equal to twice the number of rounds spent in
+the bloodrage. A bloodrager cannot enter a new bloodrage while fatigued or
+[exhausted](ref/misc/exhausted), but can otherwise enter bloodrage multiple times during a single
+encounter or combat. If a bloodrager falls [unconscious](ref/misc/unconscious), his bloodrage
+immediately ends, placing him in peril of death.
 
-**Passive:** While in a _bloodrage,_ you gain a +4 morale bonus to your Strength and Constitution,
-as well as a +2 morale bonus on Will saves. In addition, you take a -2 penalty to Armor Class. The
-increase to Constitution grants you 2 hit points per Hit Die, but these disappear when the
-_bloodrage_ ends and are not lost first like [temporary hit points](ref/rule/temporary-hit-points).
-While _bloodraging,_ you cannot use any Charisma-, Dexterity-, or Intelligence-based skills (except
-Acrobatics, Fly, Intimidate, and Ride) or any ability that requires patience or concentration.
-
-**Special:** When the _bloodrage_ ends, you are [fatigued](ref/misc/fatigued) for a number of rounds
-equal to twice the number of rounds spent in the _bloodrage._ You can't enter a new _bloodrage_
-while fatigued or [exhausted](ref/misc/exhausted), but can otherwise enter _bloodrage_ multiple
-times during a single encounter or combat. If you fall [unconscious](ref/misc/unconscious), your
-_bloodrage_ immediately ends, placing you in peril of death.
-
-**Usage:** You can _bloodrage_ for 2 + twice your level + your Con modifier rounds/day; these rounds
-need not be consecutive. Temporary increases to Con (such as those gained from _bloodraging_ or
-spells like [bear's endurance](ref/spell/bears-endurance)) don't increase this number.
-
-**Usage:** You can _bloodrage_ for 2 + twice your level + your Con modifier rounds/day; these rounds
-need not be consecutive. Temporary increases to Con (such as those gained from _bloodraging_ or
-spells like [bear's endurance](ref/spell/bears-endurance)) don't increase this number.
-
-**NOTE:** _Bloodrage_ counts as the [barbarian's](ref/class/barbarian) _rage_ class feature for the
-purpose of feat prerequisites, feat abilities, magic item abilities, and spell effects.
+Bloodrage counts as the [barbarian's](ref/class/barbarian) rage class feature for the purpose of
+feat prerequisites, feat abilities, magic item abilities, and spell effects.
 
 #### Fast Movement (Ex) {#fast-movement}
 
-**Gained:** At 1st Level
-
-**Passive:** Your land speed is faster than is normal for your race by 10 feet. This benefit applies
-only when you are wearing no armor, light armor, or medium armor, and not carrying a heavy load.
-
-**Special:** Apply this bonus before modifying your speed due to any armor worn or load carried.
-This bonus stacks with any other bonuses to your land speed.
+A bloodrager's land speed is faster than is normal for his race by 10 feet. This benefit applies
+only when he is wearing no armor, light armor, or medium armor, and not carrying a heavy load. Apply
+this bonus before modifying the bloodrager's speed due to any armor worn or load carried. This bonus
+stacks with any other bonuses to the bloodrager's land speed.
 
 #### Uncanny Dodge (Ex) {#uncanny-dodge}
 
-**Flavor:** You can react to danger before your senses would normally allow you to do so.
+At 2nd level, a bloodrager can react to danger before his senses would normally allow him to do so.
+He cannot be caught [flat-footed](ref/rule/flat-footed), nor does he lose his Dexterity bonus to AC
+if the attacker is invisible. He still loses his Dexterity bonus to AC if immobilized. A bloodrager
+with this ability can still lose his Dexterity bonus to AC if an opponent successfully uses the
+[feint](ref/rule/feint) action against him.
 
-**Gained:** At 2nd Level
-
-**Passive:** You cannot be caught [flat-footed](ref/rule/flat-footed), nor do you lose your
-Dexterity bonus to AC if the attacker is invisible. If you already possesses uncanny dodge from a
-different class, you automatically gain _improved uncanny dodge_ (see below) instead.
-
-**Special:** You still lose your Dexterity bonus to AC if immobilized, or if an opponent
-successfully uses the [feint](ref/rule/feint) action against you.
+If a bloodrager already possesses uncanny dodge from a different class, he automatically gains
+improved uncanny dodge (see below) instead.
 
 #### Blood Sanctuary (Su) {#blood-sanctuary}
 
-**Flavor:** Due to the power of your blood, you can stand confidently amid the effects of spells
-cast by yourself or your allies.
-
-**Gained:** At 3rd Level
-
-**Passive:** You gain a +2 bonus on saving throws against spells that you or an ally casts.
+At 3rd level, due to the power of his blood, a bloodrager can stand confidently amid the effects of
+spells cast by himself or his allies. He gains a +2 bonus on saving throws against spells that he or
+an ally casts.
 
 #### Spells {#spells}
 
-**Ability:** You gain the ability to cast a small number of arcane spells drawn from the bloodrager
-spell list. You do not need to prepare these spells in advance; you can cast any spell you know at
-any time, assuming you haven't yet used up your allotment of spells per day for the spell's level.
-The DC for a saving throw against spells you cast is 10 + the spell level + your Charisma modifier.
+Beginning at 4th level, a bloodrager gains the ability to cast a small number of arcane spells drawn
+from the bloodrager spell list (see page 22). To learn or cast a spell, a bloodrager must have a
+Charisma score equal to at least 10 + the spell level. He can cast spells he knows without preparing
+them ahead of time. The saving throw DC against a bloodrager's spell is 10 + the spell level + the
+bloodrager's Charisma modifier.
 
-**Info:** Your selection of spells is limited. At 4th level, you know two 1st-level spells of your
-choice. You gain more spells as you increase in level. Unlike spells per day, the number of spells
-you know is not affected by your Charisma score, but it is affected by any bonus spells you gain
-from your bloodline. At 8th level and every 3 levels thereafter, you can choose to learn a new spell
-in place of one you already know. This swap follows all the same rules as for a sorcerer.
+Like other spellcasters, a bloodrager can cast only a certain number of spells of each level per
+day. His base daily spell allotment is given on Table 1–3. In addition, he receives bonus spells per
+day if he has a high Charisma score (_Pathfinder RPG Core Rulebook_ 17, Table 1–3). The bloodrager
+does not need to prepare these spells in advance; he can cast any spell he knows at any time,
+assuming he hasn't yet used up his allotment of spells per day for the spell's level.
 
-**Section:** Spells
-
-**Gained:** At 4th Level
-
-**Usage:** To learn, prepare, or cast a spell, you must have a Charisma score equal to at least 10 +
-the spell level.
-
-**Usage:** To learn, prepare, or cast a spell, you must have a Charisma score equal to at least 10 +
-the spell level.
+The bloodrager's selection of spells is limited. At 4th level, a bloodrager knows two 1st-level
+spells of his choice. A bloodrager gains more spells as he increases in level, as indicated on Table
+1–4. Unlike spells per day, the number of spells a bloodrager knows is not affected by his Charisma
+score, but it is affected by any bonus spells he gains from his bloodline.
 
 #### Blood Casting (Su) {#blood-casting}
 
-**Ability:** You gain the ability to cast spells even while _bloodraging._ You can also cast these
-spells [defensively](ref/rule/concentration) and can make [concentration](ref/rule/concentration)
-checks for these spells while _bloodraging._
-
-**Gained:** At 4th Level
-
-**Special:** While _bloodraging,_ you can cast and concentrate on only your bloodrager spells;
-spells from other classes cannot be cast during this state.
+At 4th level, the bloodrager gains the ability to cast spells even while bloodraging. He can also
+cast these spells [defensively](ref/rule/concentration) and can make
+[concentration](ref/rule/concentration) checks for these spells while bloodraging. While
+bloodraging, he can cast and concentrate on only his bloodrager spells (see below); spells from
+other classes cannot be cast during this state.
 
 #### Eschew Materials {#eschew-materials}
 
-**Gained:** At 4th Level
-
-**Passive:** You gain [Eschew Materials](ref/feat/eschew-materials) as a bonus feat.
+At 4th level, the bloodrager gains [Eschew Materials](ref/feat/eschew-materials) as a bonus feat.
 
 #### Improved Uncanny Dodge (Ex) {#improved-uncanny-dodge}
 
-**Passive:** You can no longer be [flanked](ref/rule/flanking). This defense denies rogues (or other
-classes) the ability to [sneak attack](ref/ability/sneak-attack) you by flanking, unless the
-attacker has at least four more rogue levels (or levels in the class granting sneak attack) than
-your bloodrager levels.
+At 5th level, a bloodrager can no longer be [flanked](ref/rule/flanking). This defense denies rogues
+(or other classes with the [sneak attack](ref/ability/sneak-attack) ability) the ability to sneak
+attack the bloodrager by flanking him, unless the attacker has at least four more rogue levels (or
+levels in the class granting sneak attack) than the target has bloodrager levels.
 
-**Special:** If you already have uncanny dodge from another class, the levels from the classes that
-grant uncanny dodge stack when determining the minimum rogue level required to flank you.
+If a character already has uncanny dodge from another class, the levels from the classes that grant
+uncanny dodge stack when determining the minimum rogue level required to flank the character.
 
 #### Damage Reduction (Ex) {#damage-reduction}
 
-**Gained:** At 7th Level
-
-**Passive:** You gain [damage reduction](ref/rule/damage-reduction) DR 1/-. Subtract 1 from the
-damage you take each time you're dealt damage from a weapon or a natural attack. Damage reduction
+At 7th level, a bloodrager gains [damage reduction](ref/rule/damage-reduction). Subtract 1 from the
+damage the bloodrager takes each time he is dealt damage from a weapon or a natural attack. At 10th
+level, and every 3 levels thereafter, this damage reduction increases by 1 point. Damage reduction
 can reduce damage to 0, but not below 0.
-
-At 10th level: Your DR 2/-.
-
-At 13th level: Your DR 3/-.
-
-At 16th level: Your DR 4/-.
-
-At 19th level: Your DR 5/-.
 
 #### Greater Bloodrage (Su) {#greater-bloodrage}
 
-**Ability:** When you enter a _bloodrage,_ the morale bonus to Strength and Constitution increases
-to +6 and the morale bonus on Will saves increases to +3. In addition, upon entering a _bloodrage,_
-you can apply the effects a bloodrager spell you know of 2nd level or lower to yourself. The spell
-must have a range of touch or personal. If the spell's duration is greater than 1 round, it instead
-lasts for the duration of the _bloodrage._ This use consumes a bloodrager spell slot, as if you had
-cast the spell; you must have the spell slot available to take advantage of this effect.
+At 11th level, when a bloodrager enters a bloodrage, the morale bonus to his Strength and
+Constitution increases to +6 and the morale bonus on his Will saves increases to +3. In addition,
+upon entering a bloodrage, the bloodrager can apply the effects a bloodrager spell he knows of 2nd
+level or lower to himself. The spell must have a range of touch or personal. If the spell's duration
+is greater than 1 round, it instead lasts for the duration of the bloodrage. This use consumes a
+bloodrager spell slot, as if he had cast the spell; he must have the spell slot available to take
+advantage of this effect.
 
-**Section:** Other Abilities
-
-**Gained:** At 11th Level
-
-**Special:** _Greater bloodrage_ counts as the barbarian's _greater rage_ ability for the purposes
-of feat prerequisites, feat abilities, magic item abilities, and spell effects.
+Greater bloodrage counts as the barbarian's greater rage ability for the purposes of feat
+prerequisites, feat abilities, magic item abilities, and spell effects.
 
 #### Indomitable Will (Ex) {#indomitable-will}
 
-**Gained:** At 14th Level
-
-**Passive:** You gain a +4 bonus on Will saves to resist enchantment spells while _bloodraging._
-This bonus stacks with all other modifiers, including the morale bonus on Will saves you also
-receives during your _bloodrage._
+At 14th level, a bloodrager gains a +4 bonus on Will saves to resist enchantment spells while
+bloodraging. This bonus stacks with all other modifiers, including the morale bonus on Will saves he
+also receives during his bloodrage.
 
 #### Tireless Bloodrage (Su) {#tireless-bloodrage}
 
-**Gained:** At 17th Level
-
-**Passive:** You no longer become fatigued at the end of your _bloodrage._
+At 17th level, a bloodrager no longer becomes fatigued at the end of his bloodrage.
 
 #### Mighty Bloodrage (Su) {#mighty-bloodrage}
 
-**Ability:** When you enter a _bloodrage,_ the morale bonus to Strength and Constitution increases
-to +8, and the morale bonus on Will saves increases to +4. Furthermore, the spell you can apply to
-yourself at the beginning of a _bloodrage_ due to the _greater bloodrage_ class feature is not
-limited to only spells of 2nd level or lower.
+At 20th level, when a bloodrager enters a bloodrage, the morale bonus to his Strength and
+Constitution increases to +8, and the morale bonus on his Will saves increases to +4. Furthermore,
+the spell he can apply to himself at the beginning of a bloodrage due to the greater bloodrage class
+feature is not limited to only spells of 2nd level or lower.
 
-**Gained:** At 20th Level
+### Bloodrager Spells {#bloodrager-spells}
+
+Bloodragers gain access to the following spells. While most of these spells are found in the _Core
+Rulebook_, those with superscripts are drawn from other sources. Those marked with an asterisk (\*)
+appear in Chapter 4 of this book.
 
 ### Alternate Capstones
 

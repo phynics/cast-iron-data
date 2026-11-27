@@ -48,6 +48,14 @@ co = _load("feature_prose_540_class_options", "feature-prose-540-class-options.p
 fp = co.fp
 
 
+def load_manifest() -> dict:
+    """The data manifest of the class chapters (`class-chapters-540.toml`)."""
+    return tomllib.loads((HERE / "class-chapters-540.toml").read_text(encoding="utf-8"))
+
+
+MANIFEST = load_manifest()
+
+
 def feature_region(body: str) -> tuple[int, int] | None:
     """(first line, end line) of the class features of a base-class body: from the first `####` head to the next `###` or higher heading."""
     lines = body.split("\n")
@@ -122,12 +130,12 @@ def prose_after_cells(text: str, tail: str = "") -> str:
     for prose in cands:
         if tail and prose.lower().startswith(tail.lower() + " "):
             prose = prose[len(tail):].lstrip()              # the Special cell of the last row of the table stands between the cells and the sentence that goes on
-        if len(prose.split()) >= 4 and re.search(r"[a-z]{3}[^.]*\.\s", prose + " ") and not re.search(r"\b(?:Fort|Ref|Will)\b", prose):
+        if len(prose.split()) >= 4 and re.search(r"[a-z]{3}[^.]*\.\s", prose + " ") and len(set(re.findall(r"\b(?:Fort|Ref|Will)\b", prose))) < 2:           # the header cells name two of the saves ("Fort Ref Will"); "Will saving throw" in a sentence is no header
             return prose
     return ""
 
 
-TABLE_RUN = re.compile(r"^\s*(?:spells|extracts|formulae)\s+(?:per\s+day|known)|^\s*base\s+attack|^\s*level\s+(?:bonus|1st)", re.I)
+TABLE_RUN = re.compile(r"^\s*(?:spells|extracts|formulae)\s+(?:per\s+day|known)|^\s*base\s+attack|^\s*level\s+(?:bonus|1st)|^\s*sacred\s+weapon\s+spells\s+per\s+day", re.I)
 
 
 TABLE_ANY = re.compile(r"\bBase Attack\b|\b(?:Spells|Extracts|Formulae) (?:per Day|Known)\s+(?:\d|1st|[\u2014\u2013])")
@@ -248,7 +256,7 @@ WORD_TABLES: dict[str, list[dict]] = {}              # filled where the manifest
 
 def word_table_words(spec: dict) -> list[str]:
     """The words of a word table in the order of the text layer: the header, the cells row by row."""
-    cells = list(spec.get("header", [])) + [c for row in spec["rows"] for c in row]
+    cells = list(spec.get("layer_header", spec.get("header", []))) + [c for row in spec["rows"] for c in row]       # `layer_header`: the header words as the layer reads them ("Damage Damage Level (Small) (Large)")
     return " ".join(cells).split()
 
 
@@ -268,17 +276,23 @@ def with_word_tables(class_id: str, text: str) -> str:
 
 
 def cut_word_table(b, spec: dict):
-    """The runs of the paragraph without the words of the table at its start, and without the words of the class table that the layout runs behind them (`after`);
-    None when the printed words are not the table's (the check that the typed table is print's)."""
+    """(the runs of the paragraph without the words of the table at its start and without the words of the class table that the layout runs behind them (`after`), the words
+    of the table that the layout set in the next paragraph: the last row of a table that a page or column ends); None when the printed words are not the table's (the check
+    that the typed table is print's)."""
     toks = [(m.group(0), m.end()) for m in re.finditer(r"\S+", b.plain())]
     want = word_table_words(spec)
-    if len(toks) < len(want) or [t for t, _ in toks[:len(want)]] != want:
+    if len(toks) < len(want):
+        if toks and [t for t, _ in toks] == want[:len(toks)]:
+            return [], want[len(toks):] + spec.get("after", "").split()                  # the table goes on in the next paragraph
+        return None
+    if [t for t, _ in toks[:len(want)]] != want:
         return None
     end = len(want)
     after = spec.get("after", "").split()
     if after and [t for t, _ in toks[end:end + len(after)]] == after:
         end += len(after)
-    return runs_after(b.runs, toks[end - 1][1])
+        after = []
+    return runs_after(b.runs, toks[end - 1][1]), after
 
 
 def window(blocks: list, heads: set[str] | frozenset = frozenset(), raw: bool = False, tail: str = "", cell: str = "", tables: tuple | list = ()) -> list:
@@ -295,15 +309,16 @@ def window(blocks: list, heads: set[str] | frozenset = frozenset(), raw: bool = 
         if pending is not None:
             spec, pending = pending, None
             if b.kind == "para":
-                rest = cut_word_table(b, spec)
-                if rest is not None:
-                    if spec.get("after"):
-                        leaks.append((len(out), spec["after"]))
+                cut = cut_word_table(b, spec)
+                if cut is not None:
+                    rest, owed = cut
+                    if owed:
+                        leaks.append((len(out), " ".join(owed)))
                     if not raw:
                         out.append(fp.Para("para", [(spec["token"] + ".", False, False)], b.page, b.col, 0))       # the full stop keeps it a paragraph of its own
-                    if "".join(x[0] for x in rest).strip():
-                        out.append(fp.Para("para", rest, b.page, b.col, 0))
-                    continue
+                    if not "".join(x[0] for x in rest).strip():
+                        continue
+                    b = fp.Para("para", rest, b.page, b.col, 0)            # what follows the table words is read as a paragraph of its own (the class table's cells may stand in it)
         if b.kind == "title" and any(fp.squash(b.plain()) == fp.squash(t["title"]) for t in tables):
             pending = next(t for t in tables if fp.squash(b.plain()) == fp.squash(t["title"]))
             continue
@@ -322,7 +337,7 @@ def window(blocks: list, heads: set[str] | frozenset = frozenset(), raw: bool = 
         if b.kind == "title" and b.plain().strip().lower().startswith("table"):
             continue                                       # the title of a class table is not text of a feature
         if raw:                                            # the coverage check reads print without the table handling: only paragraphs that are cells alone go
-            if b.kind == "para" and b.runs and b.runs[0][1] and TABLE_RUN.match(b.runs[0][0].strip()) and is_table_para(b.plain()):
+            if b.kind == "para" and b.runs and TABLE_RUN.match(b.plain().strip()) and is_table_para(b.plain()):
                 prose = prose_after_cells(b.plain(), tail)         # the header and the cells in front of a head (the Barbarian's Rage, p. 32): the head starts the paragraph
                 at = b.plain().find(prose[:25]) if prose else -1
                 if at >= 0:
@@ -350,6 +365,11 @@ def window(blocks: list, heads: set[str] | frozenset = frozenset(), raw: bool = 
                 out.append(fp.Para("para", runs, b.page, b.col, 0))
             continue
         out.append(b)
+    out = [b for b in out if not (b.kind == "para" and not b.plain().strip())]         # a blank left where the cells of a table were cut
+    for n in range(1, len(out) - 1):                           # a table that print sets in the middle of a sentence goes after the sentence (the sentence is joined below)
+        if (out[n].kind == "para" and re.fullmatch(r"WORDTABLE\d+Z\.", out[n].plain().strip()) and out[n - 1].kind == "para" and not co.paragraph_complete(out[n - 1].plain())
+                and out[n + 1].kind == "para" and out[n + 1].plain().strip()[:1].islower()):
+            out[n], out[n + 1] = out[n + 1], out[n]
     for where, words in leaks:                                 # the first paragraph after the table that starts with those words (the class table stands between)
         want = words.split()
         for n in range(where, len(out)):
@@ -414,16 +434,16 @@ BOX_AS_SECTION: dict[tuple[str, str], str] = {
 # A box that interrupts a feature in print and that the corpus has as a `###` section: (class entry, key of the box) -> the key of the feature that its last
 # paragraph ends (the Antipaladin's box "Fall From Grace" stands inside Spells, p. 121)
 SIDEBAR_TAILS: dict[tuple[str, str], str] = {("ref/class/antipaladin", "fall-from-grace"): "spells"}
+SIDEBAR_MARKERS: dict[tuple[str, str], str] = {}                       # (class, key of the box) -> the words that the end of the host's paragraph starts with in the box's last paragraph
+for _t in MANIFEST.get("sidebar_tail", []):                            # the manifest's `[[sidebar_tail]]`: class, key of the box, host feature, marker
+    SIDEBAR_TAILS[(_t["class"], _t["key"])] = _t["host"]
+    if _t.get("marker"):
+        SIDEBAR_MARKERS[(_t["class"], _t["key"])] = _t["marker"]
 # Text of another owner book that the class entry carries (owner ruling 32): the battle standards of the Cavalier are printed in Chronicle of Legends p. 4 (the
 # box "Flying the Flag of War"), not in Advanced Player's Guide; the corpus words them as heads of its own. Each section is print's text, typed from the other book
 # and checked against it (`OTHER_TEXT`, every word of the text must stand in that page of the book), under a head that names the book and the page (as the
 # class-option sections of ruling 32 do). A key that the corpus has as a head is reused (no key moves); the heads the corpus has twice (`-2`) go.
 # (class entry) -> (book, the pdf page that holds the text, the key of the item that the sections stand before, [(key, head, text)])
-def load_manifest() -> dict:
-    """The data manifest of the class chapters (`class-chapters-540.toml`)."""
-    return tomllib.loads((HERE / "class-chapters-540.toml").read_text(encoding="utf-8"))
-
-
 def other_book_of(manifest: dict) -> dict[str, list[tuple[str, int, str, list[tuple[str, str, str]]]]]:
     """(class entry) -> [(book, the pdf page that holds the text, the key of the item that the sections stand before, [(key, head, text)])]."""
     out: dict[str, list] = {}
@@ -432,7 +452,6 @@ def other_book_of(manifest: dict) -> dict[str, list[tuple[str, int, str, list[tu
     return out
 
 
-MANIFEST = load_manifest()
 OTHER_BOOK = other_book_of(MANIFEST)
 # Titles inside the class features that print sets as a section of their own and that do not end the window (the Ranger's lists of favored enemies and terrains stand
 # between two features): (class entry) -> squashed titles. From the manifest, `[[class]] keep_titles`.
@@ -713,6 +732,8 @@ def lost_sentences(printed: str, written: str, table_words: frozenset | set = fr
         s = drop_cell_runs(s)
         if co.stands_in(s, plain, sq_w) or co.near_exact(s, wsents):
             continue
+        if not co.print_lost(s, written):
+            continue                                              # a citation of a book and a page where a link stands (ruling 26)
         out.append(s)
     return out
 
@@ -805,11 +826,46 @@ def gap_sections(blocks: list, win: list, lacking: set[str], stop: set[str]) -> 
 
 # The lead-in of the section where the gap of a class ends (the Cleric's "Domains": "Clerics may select any two of the domains ..."): written as a `###` section of the class
 # before `### Alternate Capstones`, under print's title with the key of the manifest's `[[class]] lead_key`; the list that follows is other entries'.
-LEAD_SECTIONS: dict[str, str] = {c["id"]: c["lead_key"] for c in MANIFEST.get("class", []) if c.get("lead_key")}
-LEAD_TITLES: dict[str, str] = {c["id"]: c["lead_title"] for c in MANIFEST.get("class", []) if c.get("lead_title")}        # the title as print spells it (the text layer sets small capitals: "alChemist Formulae")
-LEAD_ENTRIES: dict[str, str] = {c["id"]: c["lead_entry"] for c in MANIFEST.get("class", []) if c.get("lead_entry")}       # an entry that holds the lead-in (the Summoner's Eidolons are the entry of the eidolon)
-LEAD_OK: dict[str, list[str]] = {c["id"]: c["lead_ok"] for c in MANIFEST.get("class", []) if c.get("lead_ok")}             # lead-in sentences that point at a table that the entry in `lead_entry` holds
-SPELL_LIST_PARA = re.compile(r"^\s*(?:\d+(?:st|nd|rd|th)|0)-Level\b.*\u2014")                       # "1st-Level Alchemist Formulae\u2014ant haul*, ...": the spell lists are spell data, not text of the class
+# One lead-in of a class: the section title (squashed), the title as print spells it (`heading`, where the text layer sets small capitals: "alChemist Formulae"), the key of
+# the `###` section that the lead-in is written as (`key`; none when an entry holds it), the entry that holds it (`entry`: the Summoner's Eidolons are the entry of the eidolon)
+# and the sentences that point at a table that the entry holds (`ok`). The manifest gives the lead-in of the title where the gap ends (`[[class]] gap_stop` with `lead_key`,
+# `lead_title`, `lead_entry`, `lead_ok`) and others (`[[lead]]`: the spells of a class that follow its bloodlines).
+LEADS: dict[str, list[dict]] = {}
+for _c in MANIFEST.get("class", []):
+    if any(k in _c for k in ("lead_key", "lead_title", "lead_entry", "lead_ok")):
+        _t = _c.get("gap_stop") or GAP_STOP.get(_c["id"])
+        if _t:
+            LEADS.setdefault(_c["id"], []).append({"title": fp.squash(_t), "heading": _c.get("lead_title"), "key": _c.get("lead_key"), "entry": _c.get("lead_entry"), "ok": _c.get("lead_ok", [])})
+for _l in MANIFEST.get("lead", []):
+    LEADS.setdefault(_l["class"], []).append({"title": fp.squash(_l["title"]), "heading": _l.get("heading"), "key": _l.get("key"), "entry": _l.get("entry"), "ok": _l.get("ok", [])})
+
+
+# A list that print sets inside a feature and that a hub entry holds (the Hunter's animal foci: `ref/ability/animal-foci`): the class does not copy its items (ruling 52); the
+# manifest's `[[hub_items]]` gives the class, the feature that the list stands in and the hub entry.
+HUB_ITEMS: dict[str, list[dict]] = {}
+for _h in MANIFEST.get("hub_items", []):
+    HUB_ITEMS.setdefault(_h["class"], []).append(_h)
+
+
+def hub_heads(corpus: Path, entry: str) -> set[str]:
+    """The squashed heads of the bold-lead items of a hub entry ("**Bat (Su):**")."""
+    text = (corpus / "entries" / (entry.removeprefix("ref/") + ".md")).read_text(encoding="utf-8")
+    return {fp.squash(fp.ABILITY_TAG.sub("", re.sub(r"\s*\([^)]*\)\s*$", "", h))) for h in re.findall(r"^\*\*([^*\n]{2,80}?):\*\*", text, re.M)}
+
+
+def hub_text(corpus: Path, class_id: str) -> str:
+    return "\n".join((corpus / "entries" / (h["entry"].removeprefix("ref/") + ".md")).read_text(encoding="utf-8") for h in HUB_ITEMS.get(class_id, []))
+
+
+def leads_of(class_id: str) -> list[dict]:
+    """The lead-ins of a class: the manifest's, and the one of the title where its gap ends when the manifest has none for it."""
+    out = list(LEADS.get(class_id, []))
+    if class_id in GAP_STOP and not any(l["title"] == GAP_STOP[class_id] for l in out):
+        out.append({"title": GAP_STOP[class_id], "heading": None, "key": None, "entry": None, "ok": []})
+    return out
+
+
+SPELL_LIST_PARA = re.compile(r"^\s*(?:\d+(?:st|nd|rd|th)|0)-Level\b[^:\u2014]*[:\u2014]")                       # "1st-Level Alchemist Formulae\u2014ant haul*, ..." or "1st-Level Shaman Spells: ...": the spell lists are spell data, not text of the class
 
 
 def lead_in(blocks: list, win: list, stop_title: str) -> tuple[str, list] | None:
@@ -840,21 +896,22 @@ def section_rewrites(corpus: Path, e, bk, blocks: list, rwin0: list, lacking: se
     vocab = bk.vocab | {w.lower() for w in re.findall(r"[A-Za-z]+(?:-[A-Za-z]+)*", e.body)}
     out = []
     secs = gap_sections(blocks, rwin0, lacking | SECTIONS_BEHIND.get(e.id, set()), stops)
-    lead = lead_in(blocks, rwin0, GAP_STOP[e.id]) if e.id in LEAD_SECTIONS and e.id in GAP_STOP else None
-    if lead and e.id in LEAD_TITLES:
-        lead = (LEAD_TITLES[e.id], lead[1])
-    if lead and lead[1]:
-        secs = secs + [lead]
+    lead_of: dict[int, dict] = {}                                  # the lead-ins that are written as sections: id of the paragraphs -> their lead
+    for ld in leads_of(e.id):
+        li = lead_in(blocks, rwin0, ld["title"]) if ld["key"] else None
+        if li and li[1]:
+            secs = secs + [(ld["heading"] or li[0], li[1])]
+            lead_of[id(li[1])] = ld
     for title, paras in secs:
         at = next((i for i in range(region[1], len(lines)) if (m := re.match(r"^### (.*?)(?: \{#[^}]+\})?\s*$", lines[i])) and fp.squash(m.group(1)) == fp.squash(title)), None)
-        if at is None and paras and lead is not None and paras == lead[1]:        # the lead-in is not in the entry yet: a new section before the capstones
+        ld = lead_of.get(id(paras))
+        if at is None and paras and ld is not None:        # the lead-in is not in the entry yet: a new section before the capstones
             pf = fp.PrintFeature(title, [b.runs for b in paras], paras[0].page)
             text, _lost, _notes = fp.print_md(pf, [], vocab, e.id)
-            title = LEAD_TITLES.get(e.id, title)
             before = next((i for i in range(region[1], len(lines)) if re.match(r"^### Alternate Capstones", lines[i])), None)
             if before is None:
                 before = next((i for i in range(region[1], len(lines)) if re.match(r"^### ", lines[i])), len(lines))
-            out.append({"head": f"### {title} {{#{LEAD_SECTIONS[e.id]}}}", "line": before, "end": before, "insert": True, "old": "", "print": text.strip()})
+            out.append({"head": f"### {title} {{#{ld['key']}}}", "line": before, "end": before, "insert": True, "old": "", "print": text.strip()})
             continue
         if at is None or not paras:
             continue
@@ -896,7 +953,7 @@ def coverage_check(corpus: Path, e, items: list[dict], blocks: list, title, head
             path = corpus / "entries" / (eid.removeprefix("ref/") + ".md")
             if path.exists():
                 linked_text.append(path.read_text(encoding="utf-8").split("\n+++\n", 1)[-1])
-    union = "\n".join([feature_text(x) for x in items if not x.get("drop")] + lines[:region[0]] + lines[region[1]:] + linked_text)
+    union = "\n".join([feature_text(x) for x in items if not x.get("drop")] + lines[:region[0]] + lines[region[1]:] + linked_text + [hub_text(corpus, e.id)])
     cells = table_words(e.body)
     linked = {fp.namekey(n) for x in items for n, _ in x.get("links", [])}      # an item of an option list that has an entry of its own: its text is that entry's
     gap = gap_blocks(blocks, rwin0, lacking | SECTIONS_BEHIND.get(e.id, set()), class_titles(corpus) | {GAP_STOP.get(e.id, "")} - {""})
@@ -911,16 +968,16 @@ def coverage_check(corpus: Path, e, items: list[dict], blocks: list, title, head
         host["notes"].insert(0, f"print sections between the class features and the next head that the corpus lacks are not in the written entry ({len(gap_lost)} sentences): "
                              + " | ".join(s[:70] for s in gap_lost[:3]))
         host["lost"] = gap_lost
-    if e.id in GAP_STOP:                                          # a gap stop must not swallow the lead-in of the section it stops at (review of #389)
-        lead = lead_in(blocks, rwin0, GAP_STOP[e.id])
+    for ld in leads_of(e.id):                                     # a gap stop must not swallow the lead-in of the section it stops at (review of #389)
+        lead = lead_in(blocks, rwin0, ld["title"])
         if lead and lead[1]:
-            lead_union = union + ("\n" + (corpus / "entries" / (LEAD_ENTRIES[e.id].removeprefix("ref/") + ".md")).read_text(encoding="utf-8") if e.id in LEAD_ENTRIES else "")
+            lead_union = union + ("\n" + (corpus / "entries" / (ld["entry"].removeprefix("ref/") + ".md")).read_text(encoding="utf-8") if ld["entry"] else "")
             lead_lost = lost_sentences(" ".join(" ".join(b.plain().split()) for b in lead[1]), lead_union, cells)
-            lead_lost = [x for x in lead_lost if x not in LEAD_OK.get(e.id, [])]
+            lead_lost = [x for x in lead_lost if x not in ld["ok"]]
             if lead_lost and items:
                 host = next((x for x in items if not x.get("drop")), items[0])
                 host["status"] = "hold"
-                host["lead_lost"] = lead_lost
+                host["lead_lost"] = host.get("lead_lost", []) + lead_lost
                 host["notes"].insert(0, f"the lead-in of the section `{lead[0]}` (where the gap check stops) is not in the written entry ({len(lead_lost)} sentences): " + " | ".join(x[:70] for x in lead_lost[:3]))
     for pf in rpfs:
         name = fp.head_text(pf.head)
@@ -928,7 +985,7 @@ def coverage_check(corpus: Path, e, items: list[dict], blocks: list, title, head
             continue
         it = next((x for x in items if not x.get("drop") and (fp.namekey(fp.ABILITY_TAG.sub("", x["head"])) == fp.namekey(fp.ABILITY_TAG.sub("", name))
                                                              or stem(x["head"]) == stem(name))), None)
-        lost = lost_sentences(layout_fixed(e.id, it["key"], cut_tails(e.id, print_text(pf))) if it else cut_tails(e.id, print_text(pf)), feature_text(it) if it else "", cells)
+        lost = lost_sentences(layout_fixed(e.id, it["key"] if it else fp.slugify(fp.ABILITY_TAG.sub("", name)), cut_tails(e.id, print_text(pf))), feature_text(it) if it else "", cells)
         if os.environ.get("COVDEBUG") and lost:
             print("COV", e.id, repr(name), "->", it["key"] if it else None, "|", [s[:90] for s in lost][:6])
         lost = lost_sentences(" ".join(lost), union, cells) if it is None else [s for s in lost if s in lost_sentences(s, union, cells)]
@@ -969,7 +1026,7 @@ def compare_class(corpus: Path, e, bk, cache: dict, options: dict | None = None,
     heads = corpus_heads(lines, region)
     own = class_groups(corpus, e.id)
     page = int(e.page)
-    blocks = fp.read_blocks(bk, page, min(page + 12, max(bk.pages)))
+    blocks = fp.read_blocks(bk, page, min(page + 24, max(bk.pages)))
     first_own = next((n for n, b in enumerate(blocks) if b.kind == "title" and fp.squash(b.plain()) == fp.squash(e.title)), None)
     if first_own:
         blocks = blocks[first_own:]              # the page row is where the class starts: the end of the class before it (the Fighter's features on the Monk's page) is not this class's window
@@ -1049,10 +1106,11 @@ def compare_class(corpus: Path, e, bk, cache: dict, options: dict | None = None,
                 status = "hold"
                 notes.append(f"cells of a class table are in the text: ...{' '.join(text.split())[max(0, leak.start() - 40):leak.end() + 30]}...")
             cut = co.incomplete_paragraph(text)
+            pre_cut = status
             if cut:                                       # the completeness guard: the window ended, or a table stands in the sentence
                 status = "hold"
                 notes.append(f"print text may be cut at a page or column break: ...{cut}")
-            items.append({"key": key, "line": line, "head": head, "print": text, "status": status, "notes": notes})
+            items.append({"key": key, "line": line, "head": head, "print": text, "status": status, "notes": notes, "pre_cut": pre_cut if cut else None})
     ends = [h[0] for h in heads[1:]] + [region[1]]
     for (ln, _txt, _key), end, it in zip(heads, ends, items):
         it["corpus"] = "\n".join(lines[ln + 1:end])
@@ -1113,6 +1171,9 @@ def compare_class(corpus: Path, e, bk, cache: dict, options: dict | None = None,
             # of the features (a sidebar title, ruling 41), with a new explicit key that no key of the class has
             head = r["head"]
             key = fp.slugify(fp.ABILITY_TAG.sub("", head))
+            host_key = (items[next((n for n, x in enumerate(items) if last is not None and x["head"] == last["head"]), len(items) - 1)]["key"]) if items else ""
+            if any(h["feature"] == host_key and fp.squash(fp.ABILITY_TAG.sub("", head)) in hub_heads(corpus, h["entry"]) for h in HUB_ITEMS.get(e.id, [])):
+                continue                                          # an item of a list that a hub entry holds: not copied (ruling 52)
             if (e.id, key) in BOX_AS_SECTION:
                 if not re.search("^" + re.escape(BOX_AS_SECTION[(e.id, key)]) + r"\s*$", outside, re.M):
                     problems_extra.append(f"the box `{key}` is not the section `{BOX_AS_SECTION[(e.id, key)]}` of the corpus")
@@ -1141,6 +1202,7 @@ def compare_class(corpus: Path, e, bk, cache: dict, options: dict | None = None,
                 it["notes"].insert(0, "option names with more than one entry of the class's groups: " + ", ".join(unsure))
         if re.search(r"[a-z][A-Z]", it["head"]) and fp.namekey(it["head"]) in {fp.namekey(t_) for _, t_, _ in heads}:
             it["head"] = next(t_ for _, t_, _ in heads if fp.namekey(t_) == fp.namekey(it["head"]))      # small capitals in the text layer ("Patron sPells")
+    box_rewrites: list[dict] = []
     for after, sec in list(new_items):
         tail_to = SIDEBAR_TAILS.get((e.id, sec["key"]))
         if tail_to:
@@ -1152,6 +1214,24 @@ def compare_class(corpus: Path, e, bk, cache: dict, options: dict | None = None,
             host = next((x for x in items if x["key"] == tail_to), None)
             scored = [(difflib.SequenceMatcher(None, fp.squash(" ".join(sents[:k])), want).ratio(), k) for k in range(1, len(sents))]
             ratio, cut = max(scored, default=(0.0, 0))             # the end of the box that fits the section's text best
+            marker = SIDEBAR_MARKERS.get((e.id, sec["key"]))
+            if marker and host is not None and marker in sec["print"]:
+                # the marker names where the host's paragraph goes on; the box is what stands before it, and the section of the corpus is written from it (ruling 10: the
+                # corpus's sentences that print lacks go)
+                box_text, tail_text = sec["print"][:sec["print"].index(marker)].rstrip(), sec["print"][sec["print"].index(marker):].strip()
+                joiner = " " if not co.paragraph_complete(host["print"].strip().split("\n\n")[-1]) else "\n\n"
+                host["print"] = host["print"].rstrip() + joiner + tail_text
+                host["notes"].append(f"print sets the last sentences of this feature after the box `{sec['head']}`")
+                if host.get("pre_cut") and not co.incomplete_paragraph(host["print"]):
+                    host["notes"] = [n for n in host["notes"] if not n.startswith("print text may be cut")]          # the tail completes the paragraph
+                    host["status"] = host["pre_cut"]
+                if sect:
+                    at_line = e.body[:sect.start()].count("\n")
+                    old_links = re.findall(r"\[([^\]]+)\]\(([^)]+)\)", sect.group(1))
+                    box_text, _ = fp.apply_links(box_text, old_links) if old_links else (box_text, [])          # the links of the old text stay where their words are
+                    box_rewrites.append({"head": e.body.split("\n")[at_line], "line": at_line, "end": at_line + sect.group(0).count("\n"), "old": sect.group(1).strip(), "print": box_text})
+                new_items.remove((after, sec))
+                continue
             if ratio < 0.97 or host is None:
                 sec["status"] = "hold"
                 sec["notes"].append(f"the box does not match the section `### {sec['head']}` of the corpus (ratio {ratio:.3f})")
@@ -1176,7 +1256,7 @@ def compare_class(corpus: Path, e, bk, cache: dict, options: dict | None = None,
             it["notes"].append(f"the end of the paragraph ({tail_of[0]}...) is the end of `{tail_of[1]}`, a link: it belongs to that entry, not here")
             it["print"] = it["print"][:cut].rstrip()
     rwin_keep = bold_option_heads(window(blocks, WINDOW_KEEP.get(e.id, frozenset()), raw=True, tail=table_tail(e.body), cell=table_last_cell(e.body)), set(option_names(options or {}, own)))
-    rewrites = section_rewrites(corpus, e, bk, blocks, rwin_keep, lacking, lines, region)
+    rewrites = section_rewrites(corpus, e, bk, blocks, rwin_keep, lacking, lines, region) + box_rewrites
     for rw in sorted(rewrites, key=lambda x: -x["line"]):
         if rw.get("insert"):
             lines[rw["line"]:rw["line"]] = [rw["head"], "", rw["print"], ""]
@@ -1417,13 +1497,21 @@ def self_test() -> int:
     eq(word_table_md(wt), "- Jungle\n- Plains", "a column of single cells is a list (ruling 45)")
     eq(word_table_md(wt2), "|Type|Type|\n| --- | --- |\n|Aberration|Plant|", "a table with a header is a Markdown table (ruling 62)")
     printed = P("para", [("Jungle  Plains favored enemy, master hunter  ", False, False), ("Hunter's Bond (Ex)", True, False), (": At 4th level.", False, False)], 65, 1)
-    eq([x[0] for x in cut_word_table(printed, wt)], ["  ", "Hunter's Bond (Ex)", ": At 4th level."], "the words of the table and the class table's words behind it are cut, the bold head stays")
+    eq([x[0] for x in cut_word_table(printed, wt)[0]], ["  ", "Hunter's Bond (Ex)", ": At 4th level."], "the words of the table and the class table's words behind it are cut, the bold head stays")
+    eq(cut_word_table(P("para", [("Jungle", False, False)], 65, 1), wt), ([], ["Plains", "favored", "enemy,", "master", "hunter"]), "a table that goes on in the next paragraph owes its last words")
     eq(cut_word_table(P("para", [("Jungle Swamp Plains", False, False)], 65, 1), wt), None, "words that are not the typed table's are not cut (the check that the table is print's)")
     ww = [P("title", [("Class Features", True, False)], 64, 1, 18), P("para", [("Intro.", False, False)], 64, 1), P("title", [("Enemies", True, False)], 64, 1, 18),
           P("para", [("Type Type Aberration Plant ", False, False), ("Track (Ex)", True, False), (": A ranger tracks.", False, False)], 64, 1)]
     eq([b.plain().strip() for b in window(ww, tables=[wt2])], ["Intro.", "WORDTABLE8Z.", "Track (Ex): A ranger tracks."], "a word table in the window is a paragraph of its token, the text behind it a paragraph of its own")
     eq([b.plain().strip() for b in window(ww, tables=[wt2], raw=True)], ["Intro.", "Track (Ex): A ranger tracks."], "the coverage reading leaves the table out")
     eq(with_word_tables("x", "A.\n\nWORDTABLE8Z.\n\nB."), "A.\n\nWORDTABLE8Z.\n\nB.", "no table of the class: the text stays")
+    # the Advanced Class Guide's hybrid classes (phynics/cast-iron#540)
+    eq([l["title"] for l in leads_of("ref/class/bloodrager")], ["bloodragerbloodlines", "bloodragerspells"], "a class has the lead-in of the title where its gap ends and the ones that follow")
+    eq(bool(SPELL_LIST_PARA.match("1st-Level Shaman Spells: Arcane mark, bleed.")) and bool(SPELL_LIST_PARA.match("0-Level Alchemist Formulae\u2014acid splash")) and not SPELL_LIST_PARA.match("Shamans gain access to the following spells."), True,
+       "the spell lists under a lead-in are spell data (both forms), the lead-in sentences are not")
+    eq(prose_after_cells("1 \u2014 \u2014 \u2014 2 \u2014 \u2014 \u2014 3 1 \u2014 \u2014 If an ally has her own rage class ability, she may use the Strength, Constitution, and Will saving throw bonuses of her own."),
+       "If an ally has her own rage class ability, she may use the Strength, Constitution, and Will saving throw bonuses of her own.", "a sentence that names the Will saving throw is no header of a table")
+    eq(section_plain("A [paladin](ref/class/paladin) who _atones_ for her deeds"), "A paladin who atones for her deeds", "a section's text without links and italics")
     for ob in MANIFEST.get("other_book", []):
         eq(bool(ob["section"]) and all(x["key"] and x["head"] and x["text"] for x in ob["section"]), True, f"manifest: the sections of {ob['class']} are complete")
     for kind in ("class", "layout_fix", "option_pick", "other_book"):

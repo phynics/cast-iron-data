@@ -19,6 +19,19 @@ kind = "class"
 class_type = "hybrid"
 hit_die = "d10"
 skill_ranks = "6 + Int modifier"
+features = [
+  { anchor = "studied-target", level = 1 },
+  { anchor = "track", level = 1 },
+  { anchor = "slayer-talents", level = 2 },
+  { anchor = "sneak-attack", level = 3 },
+  { anchor = "stalker", level = 7 },
+  { anchor = "advanced-talents", level = 10 },
+  { anchor = "swift-tracker", level = 11 },
+  { anchor = "slayer-s-advance", level = 13 },
+  { anchor = "quarry", level = 14 },
+  { anchor = "improved-quarry", level = 19 },
+  { anchor = "master-slayer", level = 20 },
+]
 +++
 
 Skilled at tracking down targets, slayers are consummate hunters, living for the chase and the
@@ -75,150 +88,130 @@ into combat, dealing with a target, and then getting back out again.
 |19th|+19/+14/+9/+4|+11|+11|+6|Improved quarry|
 |20th|+20/+15/+10/+5|+12|+12|+6|5th studied target, master slayer, slayer talent|
 
-#### Weapon and Armor Proficiencies {#weapon-and-armor-proficiencies}
+### Class Features {#class-features}
 
-**Weapons:** All simple weapons, All martial weapons
+The following are the class features of the slayer.
 
-**Armor:** Light armor, Medium armor
+#### Weapon and Armor Proficiency {#weapon-and-armor-proficiencies}
 
-**Shields:** Yes, except tower shields
+A slayer is proficient with all simple and martial weapons, as well as with light armor, medium
+armor, and shields (except tower shields).
 
 #### Studied Target (Ex) {#studied-target}
 
-**Free:** You can discard this connection to a _studied target,_ allowing you to study another
-target in its place.
+A slayer can study an opponent he can see as a move action. The slayer then gains a +1 bonus on
+Bluff, Knowledge, Perception, Sense Motive, and Survival checks attempted against that opponent, and
+a +1 bonus on weapon attack and damage rolls against it. The DCs of slayer class abilities against
+that opponent increase by 1. A slayer can only maintain these bonuses against one opponent at a
+time; these bonuses remain in effect until either the opponent is dead or the slayer studies a new
+target.
 
-**Immediate:** If you deal sneak attack damage to a target, you can study that target immediately,
-allowing you to apply your _studied target_ bonuses against that target (including to the normal
-weapon damage roll).
+If a slayer deals sneak attack damage to a target, he can study that target as an immediate action,
+allowing him to apply his studied target bonuses against that target (including to the normal weapon
+damage roll).
 
-**At 7th Level:** You can now choose to study a target as a **swift action**.
+At 5th, 10th, 15th, and 20th levels, the bonuses on weapon attack and damage rolls, as well as the
+bonus to slayer ability DCs against a studied, target increase by 1. In addition, at each such
+interval, the slayer is able to maintain these bonuses against an additional studied target at the
+same time. The slayer may discard this connection to a studied target as a free action, allowing him
+to study another target in its place.
 
-**Gained:** At 1st Level
-
-**Move:** You can study an opponent you can see. You then gain a bonus on Bluff, Knowledge,
-Perception, Sense Motive, and Survival checks attempted against that opponent, and a bonus on weapon
-attack and damage rolls against it; these bonuses are equal to 1 +
-[one-fifth](ref/misc/fractions-and-rounding) of your slayer level. The DCs of slayer class abilities
-against that opponent increase by 1 + one-fifth of your slayer level. You can only maintain these
-bonuses against a certain number of opponents at a time (equal to 1 + one-fifth of your slayer
-level); these bonuses remain in effect until either the opponent is dead or you study a new target.
+At 7th level, a slayer can study an opponent as a move or swift action.
 
 #### Track (Ex) {#track}
 
-**Passive:** You add 1/2 your level (minimum 1) to Survival skill checks made to follow tracks
+A slayer adds 1/2 his level (minimum 1) to Survival skill checks made to follow tracks.
 
 #### Slayer Talents {#slayer-talents}
 
-**Ability:** You gain one slayer talent at **every even-numbered level** (2nd, 4th, 6th, and so on).
-Unless otherwise noted, you cannot select an individual talent more than once.
+As a slayer gains experience, he learns a number of talents that aid him and confound his foes.
+Starting at 2nd level and every 2 levels thereafter, a slayer gains one slayer talent. Unless
+otherwise noted, a slayer cannot select an individual talent more than once.
 
-**Flavor:** As a slayer gains experience, he learns a number of talents that aid him and confound
-his foes.
+Talents marked with an asterisk add effects to a slayer's sneak attack. Only one of these talents
+can be applied to an individual attack, and the decision of which to use must be made before the
+attack roll is made.
 
-**Gained:** At 2nd Level
-
-**Special:** Talents labeled as Primary Sneak Attack Talents add effects to your sneak attack. Only
-one of these talents can be applied to an individual attack, and the decision of which to use must
-be made before the attack roll is made.
+- [Deadly Range (Ex)](ref/slayertalent/deadly-range)
+- [Foil Scrutiny](ref/slayertalent/foil-scrutiny)
+- [Poison Use (Ex)](ref/slayertalent/poison-use)
+- [Ranger Combat Style (Ex)](ref/slayertalent/ranger-combat-style)
+- [Rogue Talent](ref/slayertalent/rogue-talent)
+- [Slowing Strike (Ex)](ref/slayertalent/slowing-strike)
+- [Trapfinding](ref/slayertalent/trapfinding)
 
 #### Sneak Attack {#sneak-attack}
 
-**Ability:** You gain the ability to make a [sneak attack](ref/ability/sneak-attack), as a rogue
-can. Your attack deals +1d6 extra damage anytime your target would be denied a Dexterity bonus to AC
-(whether the target actually has a Dex bonus or not), or when you [flank](ref/rule/flanking) your
-target. This additional damage is not multiplied on a critical hit. Ranged attacks can count as
-sneak attacks only if the target is within 30 feet. You cannot use sneak attack while striking a
-creature with [concealment](ref/rule/concealment).
+At 3rd level, if a slayer catches an opponent unable to defend itself effectively from his attack,
+he can strike a vital spot for extra damage. The slayer's attack deals extra damage anytime his
+target would be denied a Dexterity bonus to AC (whether the target actually has a Dexterity bonus or
+not), or when the slayer flanks his target. This additional damage is 1d6 at 3rd level, and
+increases by 1d6 every 3 levels thereafter. Should the slayer score a critical hit with a
+[sneak attack](ref/ability/sneak-attack), this additional damage is not multiplied. Ranged attacks
+can count as sneak attacks only if the target is within 30 feet.
 
-**Gained:** At 3rd Level
+With a weapon that deals nonlethal damage (like a [sap](ref/eq-weapon/sap),
+[whip](ref/eq-weapon/whip), or unarmed strike), a slayer can make a sneak attack that deals
+nonlethal damage instead of lethal damage. He cannot use a weapon that deals lethal damage to deal
+nonlethal damage in a sneak attack, not even with the usual -4 penalty.
 
-**Special:** With a weapon that deals nonlethal damage (like a [sap](ref/eq-weapon/sap),
-[whip](ref/eq-weapon/whip), or unarmed strike), you can make a sneak attack that deals nonlethal
-damage instead of lethal damage. You can't use a weapon that deals lethal damage to deal nonlethal
-damage in a sneak attack, not even with the usual -4 penalty.
-
-At 6th level: Your extra damage increases to +2d6 damage.
-
-At 9th level: Your extra damage increases to +3d6 damage.
-
-At 12th level: Your extra damage increases to +4d6 damage.
-
-At 15th level: Your extra damage increases to +5d6 damage.
-
-At 18th level: Your extra damage increases to +6d6 damage.
+The slayer must be able to see the target well enough to pick out a vital spot and must be able to
+reach such a spot. A slayer cannot use sneak attack while striking a creature with
+[concealment](ref/rule/concealment).
 
 #### Stalker (Ex) {#stalker}
 
-**Gained:** At 7th Level
-
-**Passive:** You gain your _studied target_ bonus on Disguise, Intimidate, and Stealth checks
-against your studied opponent.
+At 7th level, a slayer gains his studied target bonus on Disguise, Intimidate, and Stealth checks
+against his studied opponent.
 
 #### Advanced Talents {#advanced-talents}
 
-**Ability:** When you would select a _slayer talent_ from gaining a level, you can now select an
-advanced\_slayer\_talent instead.
+At 10th level and every 2 levels thereafter, a slayer can select one of the following advanced
+talents in place of a slayer talent.
 
-**Gained:** At 10th Level
+- [Assassinate (Ex)](ref/slayertalent/assassinate)
+- [Rogue and Ninja Advanced Talents](ref/slayertalent/rogue-and-ninja-advanced-talents)
+- [Woodland Stride (Ex)](ref/slayertalent/woodland-stride)
 
 #### Swift Tracker (Ex) {#swift-tracker}
 
-**Gained:** At 11th Level
-
-**Passive:** You can move at your normal speed while using Survival to follow tracks without taking
-the normal -5 penalty. When moving at up to twice your normal speed while tracking, you take only a
--10 penalty instead of the normal -20.
+At 11th level, a slayer can move at his normal speed while using Survival to follow tracks without
+taking the normal -5 penalty. When moving at up to twice his normal speed while tracking, he takes
+only a -10 penalty instead of the normal -20.
 
 #### Slayer's Advance (Ex) {#slayer-s-advance}
 
-**At 17th Level:** You can do this twice a day.
-
-**Gained:** At 13th Level
-
-**Move:** You can move up to twice your base speed. You may use Stealth as part of this movement,
-but take a -10 penalty to your check for doing so.
-
-**Usage:** Once a day.
-
-**Usage:** Once a day.
+At 13th level, a slayer can once per day move up to twice his base speed as a move action. He may
+use Stealth as part of this movement, but takes a -10 penalty to his check for doing so. At 17th
+level, he can do this twice per day.
 
 #### Quarry (Ex) {#quarry}
 
-**Gained:** At 14th Level
-
-**Special:** You can have no more than one _quarry_ at a time, and the target must be selected as a
-_studied target._ You can dismiss this effect at any time as a **free action**, but you cannot
-select a new _quarry_ target for 24 hours. If you see proof that your _quarry_ is dead, you can
-select a new _quarry_ target after 1 hour.
-
-**Standard:** You can denote one target within your line of sight as your _quarry._ Whenever you are
-following the tracks of your _quarry,_ you can take 10 on your Survival skill checks while moving at
-normal speed, without penalty. In addition, you gain a +2 insight bonus on attack rolls made against
-your _quarry,_ and all critical threats against your _quarry_ are automatically confirmed.
+At 14th level, a slayer can as a standard action denote one target within his line of sight as his
+quarry. Whenever he is following the tracks of his quarry, a slayer can take 10 on his Survival
+skill checks while moving at normal speed, without penalty. In addition, he gains a +2 insight bonus
+on attack rolls made against his quarry, and all critical threats against his quarry are
+automatically confirmed. A slayer can have no more than one quarry at a time, and the target must be
+selected as a studied target. He can dismiss this effect at any time as a free action, but he cannot
+select a new quarry target for 24 hours. If the slayer sees proof that his quarry is dead, he can
+select a new quarry target after 1 hour.
 
 #### Improved Quarry (Ex) {#improved-quarry}
 
-**Ability:** You can now take 20 while using Survival to track your _quarry_ while moving at normal
-speed without penalty. Your insight bonus to attack your _quarry_ increases to +4.
-
-**Free:** You can now select a _quarry_ as a **free action**.
-
-**Gained:** At 19th Level
-
-**Special:** If your _quarry_ is killed or dismissed, you can select a new one after 10 minutes have
-passed.
+At 19th level, the slayer's ability to hunt his quarry improves. He can now select a quarry as a
+free action, and can now take 20 while using Survival to track his quarry, while moving at normal
+speed without penalty. His insight bonus to attack his quarry increases to +4. If his quarry is
+killed or dismissed, he can select a new one after 10 minutes have passed.
 
 #### Master Slayer (Ex) {#master-slayer}
 
-**Gained:** At 20th Level
-
-**Standard:** You can make a single attack against a _studied target_ at your full attack bonus,
+At 20th level, the slayer becomes a master at capturing or killing his studied targets. As a
+standard action, he can make a single attack against a studied target at his full attack bonus,
 choosing one of the following effects: kill, knock [unconscious](ref/misc/unconscious) for 1d4
 hours, or [paralyze](ref/rule/paralyzed) for 2d6 rounds. If the attack succeeds, the target takes
 damage normally and must succeed at a Fortitude saving throw or suffer the additional effect. The DC
-for this save is 10 + 1/2 your level + your Intelligence modifier. Whether or not the target
-succeeds, it cannot be targeted by this ability again (by any slayer) for 24 hours.
+for this save is 10 + 1/2 the slayer's level + the slayer's Intelligence modifier. Whether or not
+the target succeeds, it cannot be targeted by this ability again (by any slayer) for 24 hours.
 
 ### Alternate Capstones
 
