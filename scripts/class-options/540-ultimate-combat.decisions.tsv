@@ -1,9 +1,9 @@
 entry	anchor	decision	note
 ref/arcana/arcane-redoubt-greater	greater-arcane-redoubt	print	Printed prerequisite and effect text were checked against the cited page; the differences are import row structure or wording. Ultimate Combat p. 54.
 ref/arcana/lingering-pain	lingering-pain	print	The print text for this entry ends before the separate Pool Strike options. Ultimate Combat p. 54.
-ref/arcana/pool-strike-arcing	arcing-pool-strike	hold	Printed head is “Pool Strike, Arcing,” not the entry title “Arcing Pool Strike”; needs a title-matching ruling. Ultimate Combat p. 54.
-ref/arcana/pool-strike-clinging	clinging-pool-strike	hold	Printed head is “Pool Strike, Clinging,” not the entry title “Clinging Pool Strike”; needs a title-matching ruling. Ultimate Combat p. 54.
-ref/arcana/pool-strike-thunderous	thunderous-pool-strike	hold	Printed head is “Pool Strike, Thunderous,” not the entry title “Thunderous Pool Strike”; needs a title-matching ruling. Ultimate Combat p. 55.
+ref/arcana/pool-strike-arcing	arcing-pool-strike	print	The printed “Pool Strike, Arcing” head matches this entry by the inversion already used for “Beast Totem, Greater.” Ultimate Combat p. 54.
+ref/arcana/pool-strike-clinging	clinging-pool-strike	print	The printed “Pool Strike, Clinging” head matches this entry by the inversion already used for “Beast Totem, Greater.” Ultimate Combat p. 54.
+ref/arcana/pool-strike-thunderous	thunderous-pool-strike	print	The printed “Pool Strike, Thunderous” head matches this entry by the inversion already used for “Beast Totem, Greater.” Ultimate Combat p. 55.
 ref/deed/bleeding-wound	bleeding-wound	print	The printed 11th-level lead replaces the equivalent imported prerequisite row; print wording is used. Ultimate Combat p. 12.
 ref/deed/cheat-death	cheat-death	print	Printed prerequisite and effect text were checked against the cited page; the differences are import row structure or wording. Ultimate Combat p. 12.
 ref/deed/dead-shot	dead-shot	print	The printed 7th-level lead replaces the equivalent imported prerequisite row; print wording is used. Ultimate Combat p. 11.
@@ -23,11 +23,11 @@ ref/deed/stunning-shot	stunning-shot	print	Printed prerequisite and effect text 
 ref/deed/utility-shot	utility-shot	print	The printed 3rd-level lead replaces the equivalent imported prerequisite row; print wording is used. Ultimate Combat p. 11.
 ref/discovery/breath-weapon-bomb	breath-weapon-bomb	print	The printed rule term “Intelligent modifier” is a certain misprint; corrected under ruling 43. The bomb-mark restriction from the printed introduction opens the entry. Ultimate Combat p. 24.
 ref/discovery/explosive-missile	explosive-missile	print	The print text for this entry ends before the separately headed Immolation Bomb. Ultimate Combat p. 24.
-ref/discovery/immolation-bomb	immolation-bomb	hold	Printed head carries a footnote star, so it stays held. The text also reads “Intelligent modifier” for the save DC; record the certain misprint with its errata row when the entry is written. Ultimate Combat p. 24.
+ref/discovery/immolation-bomb	immolation-bomb	print	The printed asterisk is a source mark and does not change the head match. Correct the certain “Intelligent modifier” misprint under ruling 43. Ultimate Combat p. 24.
 ref/discovery/poison-conversion	poison-conversion	print	The print text for this entry ends before the separately headed Siege Bomb. Ultimate Combat p. 24.
-ref/discovery/siege-bomb	siege-bomb	hold	Printed name carries a footnote star; the compare did not match the head to this entry. Ultimate Combat p. 24.
-ref/inquisition/black-powder	granted-powers	hold	Granted Powers contains several effects rather than one separately named power; keep held pending scope ruling. Ultimate Combat p. 52.
-ref/inquisition/spellkiller	granted-powers	hold	One imported “Granted Powers” block contains three effects, so its single-power shape is uncertain. Ultimate Combat p. 52.
+ref/discovery/siege-bomb	siege-bomb	print	The printed asterisk is a source mark and does not change the head match. Ultimate Combat p. 24.
+ref/inquisition/black-powder	granted-powers	hold	multi-power: separate reviewed batch
+ref/inquisition/spellkiller	granted-powers	hold	multi-power: separate reviewed batch
 ref/ninjatrick/advanced-talent	advanced-talent	hold	“Advanced Talents” introduces selectable talents rather than one separately named power. Ultimate Combat p. 16.
 ref/ninjatrick/deflect-arrows	deflect-arrows	print	The imported prerequisite adds “whether from ... or not,” which is absent from print; the printed prerequisite/effect is used. Ultimate Combat p. 15.
 ref/ninjatrick/flurry-of-stars	flurry-of-stars	print	The imported “full-attack attack” wording is corrected to the printed “full attack.” Ultimate Combat p. 15.
@@ -77,7 +77,7 @@ ref/ragepower/sunder-enchantment	sunder-enchantment	print	Printed prerequisite a
 ref/ragepower/world-serpent-spirit	world-serpent-spirit	print	Printed prerequisite and effect text were checked against the cited page; the differences are import row structure or wording. Ultimate Combat p. 28.
 ref/ragepower/world-serpent-totem-unity	world-serpent-totem-unity	print	The printed prerequisite names world serpent totem spirit; its link is retained. Ultimate Combat p. 28.
 ref/talent/black-market-connections	black-market-connections	hold	The full paragraph and settlement rows are recorded in the proposal; the completeness guard still holds the table span. Ultimate Combat p. 69.
-ref/talent/confounding-blades	confounding-blades	hold	Printed name carries a footnote star; the compare did not match the head to this entry. Ultimate Combat p. 70.
+ref/talent/confounding-blades	confounding-blades	print	The printed asterisk is a source mark and does not change the head match. The printed effect and prerequisite sentence match; retain the prerequisite item link. Ultimate Combat p. 70.
 ref/talent/familiar	familiar	print	Printed prerequisite and effect text were checked against the cited page; the differences are import row structure or wording. Ultimate Combat p. 70.
 ref/talent/hard-minded	hard-minded	print	The printed repeated “again” is a certain misprint; corrected under ruling 43. Ultimate Combat p. 70.
 ref/talent/rumormonger	rumormonger	print	The settlement and DC table is printed as a table in the option; print says “through,” correcting the import typo “though.” Ultimate Combat p. 71.

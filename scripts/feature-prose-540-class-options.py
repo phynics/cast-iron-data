@@ -50,6 +50,7 @@ Usage
 from __future__ import annotations
 
 import argparse
+import csv
 import dataclasses
 import hashlib
 import importlib.util
@@ -200,14 +201,15 @@ def level_of(text: str) -> int | None:
 EXTRA_NAMES: list[str] = []          # the names of every class option of the book: an italic head of a neighbour ends a power's text
 
 
-INVERTED_HEAD = re.compile(r"^(.+?),\s*(Lesser|Greater|Improved|Mass)(\s*\([A-Za-z]{2}\))?\s*:?$")
+INVERTED_HEAD = re.compile(r"^(.+?),\s*(Lesser|Greater|Improved|Mass|Arcing|Clinging|Thunderous)(\s*\([A-Za-z]{2}\))?\s*:?$")
+INVERTED_SUFFIX_VARIANTS = {"Arcing", "Clinging", "Thunderous"}
 
 
 VARIANT_FIRST = re.compile(r"^(Lesser|Greater|Improved|Mass) ")
 
 
 def inverted(name: str) -> str:
-    m = re.match(r"^(Lesser|Greater|Improved|Mass) (.+?)(\s*\([A-Za-z]{2}\))?$", name)
+    m = re.match(r"^(Lesser|Greater|Improved|Mass|Arcing|Clinging|Thunderous) (.+?)(\s*\([A-Za-z]{2}\))?$", name)
     return f"{m.group(2)}, {m.group(1)}{m.group(3) or ''}" if m else name
 
 
@@ -238,7 +240,7 @@ def install_split(names: list[str]) -> None:
     """The print reader takes an italic paragraph start as a head only when the entry expects that name. A page of class options sets
     the powers of other entries beside the entry's own (the evolutions are italic heads in one list), so every name of the book is
     expected, and a power's text ends at the next power of the page."""
-    EXTRA_NAMES[:] = list(names) + [inverted(n) for n in names if VARIANT_FIRST.match(n)]      # print sets the variant behind the name, in italics
+    EXTRA_NAMES[:] = list(names) + [inverted(n) for n in names if VARIANT_FIRST.match(n) or n.split(" ", 1)[0] in INVERTED_SUFFIX_VARIANTS]  # print can place a variant after its base name
     if not getattr(fp.split_print, "_class_options", False):
         orig = fp.split_print
 
@@ -1008,7 +1010,8 @@ def run_compare(args) -> int:
             continue
         for r in compare_one(e, book, bk, other):
             if r.get("print"):
-                props.setdefault(e.id, {"id": e.id, "feature": []})["feature"].append({"anchor": r["anchor"], "print": r["print"]})
+                props.setdefault(e.id, {"id": e.id, "feature": []})["feature"].append(
+                    {"anchor": r["anchor"], "print": class_option_errata(corpus, e.id, r["print"])})
             rows.append(r)
     twice: dict[tuple[str, str, str], set[str]] = {}
     ledger_before = read_tsv(tsv_file(corpus, book))
@@ -1029,7 +1032,8 @@ def run_compare(args) -> int:
     kept = [r for r in old if r["status"] == LEDGER and r["entry"] not in compared]       # the ledger of the entries written already
     for r in kept:
         if (r["entry"], r["anchor"]) in old_props:
-            printed = drop_unkeyed_link_marks(r["entry"], old_props[(r["entry"], r["anchor"])])
+            printed = class_option_errata(corpus, r["entry"],
+                                           drop_unkeyed_link_marks(r["entry"], old_props[(r["entry"], r["anchor"])]))
             intro = marked_head_intro(book, r["entry"]) if r["entry"] in MARKED_HEAD_ENTRIES else ""
             if intro:
                 printed = prepend_intro(printed, intro)
@@ -1104,6 +1108,29 @@ def read_props(path: Path) -> dict[tuple[str, str], str]:
     if not path.exists():
         return {}
     return {(x["id"], x["anchor"]): x["print"] for x in tomllib.loads(path.read_text(encoding="utf-8")).get("entry", [])}
+
+
+def apply_errata_text(text: str, fixes: list[tuple[str, str]]) -> str:
+    """Apply only exact, reviewed print corrections; leave unmatched near misses unchanged."""
+    for printed, corrected in fixes:
+        count = text.count(printed)
+        if count == 1:
+            text = text.replace(printed, corrected, 1)
+        elif count == 0:
+            continue
+        else:
+            raise ValueError(f"errata text occurs {count} times")
+    return text
+
+
+def class_option_errata(corpus: Path, entry_id: str, text: str) -> str:
+    path = corpus / "scripts" / "errata.tsv"
+    if not path.exists():
+        return text
+    with path.open(encoding="utf-8", newline="") as f:
+        fixes = [(r["printed_value"], r["kept_value"]) for r in csv.DictReader(f, delimiter="\t")
+                 if r["entry"] == entry_id and r["decision"] == "misprint-fix"]
+    return apply_errata_text(text, fixes)
 
 
 # ---- writing -------------------------------------------------------------------------------------
@@ -1334,6 +1361,7 @@ def run_write(args) -> int:
             else:
                 body = drop_marked_intro(e.body)
             body = drop_unkeyed_link_marks(e.id, body)
+            body = class_option_errata(corpus, e.id, body)
             front = e.front
             own = [r for r in mine if r["book"] == book]
             if own and own[0]["page"] and own[0]["page"] != e.page:
@@ -1513,6 +1541,21 @@ def self_test() -> int:
     eq(inverted("Greater Beast Totem (Su)"), "Beast Totem, Greater (Su)", "print sets the variant behind the name")
     eq(inverted("Beast Totem"), "Beast Totem", "a name without a variant stays")
     eq(INVERTED_HEAD.match("Beast Totem, Greater (Su)").groups(), ("Beast Totem", "Greater", " (Su)"), "the inverted head is read")
+    eq(INVERTED_HEAD.match("Pool Strike, Arcing (Su)").groups(), ("Pool Strike", "Arcing", " (Su)"), "an inverted Pool Strike head is read")
+    eq(inverted("Arcing Pool Strike (Su)"), "Pool Strike, Arcing (Su)", "the title's variant moves behind its base name")
+    eq(inverted("Weapon Training (Ex)"), "Weapon Training (Ex)", "a non-variant title remains unchanged")
+    errata_print = "The alchemist's Intelligent modifier applies."
+    errata_kept = "The alchemist's Intelligence modifier applies."
+    eq(apply_errata_text(errata_print, [("Intelligent modifier", "Intelligence modifier")]), errata_kept,
+       "an exact reviewed misprint is corrected")
+    eq(apply_errata_text(errata_kept, [("Intelligent modifier", "Intelligence modifier")]), errata_kept,
+       "a reviewed correction is idempotent")
+    try:
+        near_miss = "The alchemist's intellegent modifier applies."
+        eq(apply_errata_text(near_miss, [("Intelligent modifier", "Intelligence modifier")]), near_miss,
+           "a near-miss misprint stays unchanged")
+    except ValueError:
+        eq(False, True, "a near-miss misprint stays unchanged")
     eq(features_front('id = "x"\ngroup = "order"', [("a", None)]), 'id = "x"\ngroup = "order"\nfeatures = [\n  { anchor = "a" },\n]\n', "a front that ends at the group row gets its features")
     P = fp.Para
     E = type("E", (), {"title": "Wing Buffet"})()

@@ -13,13 +13,11 @@ page = "54"
 [fields]
 kind = "class_option"
 group = "magus-arcana"
+ability_type = "Su"
 +++
 
-**Clinging Pool Strike (Su)**
-
-**Ability:** The magus can expend 1 additional point from his arcane pool when making a
-[pool strike](ref/arcana/pool-strike). A single target of his pool strike takes energy damage as
-normal from the pool strike and also takes half this amount of damage at the beginning of its turn
-on the following round.
-
-**Prereq:** 9th-level magus, [pool strike](ref/arcana/pool-strike)
+The magus can expend 1 additional point from his arcane pool when making a
+[pool strike](ref/arcana/pool-strike). A single target of his [pool strike](ref/arcana/pool-strike)
+takes energy damage as normal from the pool strike and also takes half this amount of damage at the
+beginning of its turn on the following round. The magus must be at least 9th level and must have the
+[pool strike](ref/arcana/pool-strike) magus arcana before selecting this magus arcana.

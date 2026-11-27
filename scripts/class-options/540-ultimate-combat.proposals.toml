@@ -56,6 +56,21 @@ anchor = "lingering-pain"
 print = "The magus can expend 1 point from his arcane pool as an immediate action after hitting a target with a weapon attack. All damage from that attack (including damage from a spell cast using the spellstrike ability) is considered continuous damage for the purposes of any [concentration](ref/rule/concentration) checks made by the target prior to the beginning of the magus's next turn."
 
 [[entry]]
+id = "ref/arcana/pool-strike-arcing"
+anchor = "arcing-pool-strike"
+print = "The magus can expend 1 additional point from his arcane pool when using the [pool strike](ref/arcana/pool-strike) arcana. If his attack hits, the magus can target a number of enemies within 15 feet equal to his Intelligence modifier (minimum 0) with a ranged touch attack as a free action. Those struck take the same energy damage as the primary target of the [pool strike](ref/arcana/pool-strike), including increased damage on a critical hit. The magus must be at least 12th level and must have the [pool strike](ref/arcana/pool-strike) magus arcana before selecting this magus arcana."
+
+[[entry]]
+id = "ref/arcana/pool-strike-clinging"
+anchor = "clinging-pool-strike"
+print = "The magus can expend 1 additional point from his arcane pool when making a [pool strike](ref/arcana/pool-strike). A single target of his [pool strike](ref/arcana/pool-strike) takes energy damage as normal from the pool strike and also takes half this amount of damage at the beginning of its turn on the following round. The magus must be at least 9th level and must have the [pool strike](ref/arcana/pool-strike) magus arcana before selecting this magus arcana."
+
+[[entry]]
+id = "ref/arcana/pool-strike-thunderous"
+anchor = "thunderous-pool-strike"
+print = "The magus can expend 1 additional point from his arcane pool when making a [pool strike](ref/arcana/pool-strike). His [pool strike](ref/arcana/pool-strike) deals sonic damage and [deafens](ref/misc/deafened) a single target for 1 round (DC 10 + 1/2 magus level + Intelligence modifier). The magus must be at least 6th level and must have the [pool strike](ref/arcana/pool-strike) magus arcana before selecting this magus arcana."
+
+[[entry]]
 id = "ref/arcana/prescient-attack"
 anchor = "prescient-attack"
 print = "The magus can expend 1 point from his arcane pool as an immediate action after hitting a target with a weapon attack, allowing him to anticipate his opponent's defenses. The target is denied its Dexterity bonus against the magus's attacks until the end of the magus's next turn. The magus must be at least 6th level before selecting this arcana."
@@ -185,7 +200,7 @@ print = "As a standard action, the alchemist can infuse a single arrow, crossbow
 [[entry]]
 id = "ref/discovery/immolation-bomb"
 anchor = "immolation-bomb"
-print = "Discoveries that modify bombs and are marked with a single asterisk (\\*) do not stack. Only one such discovery can be applied to an individual bomb.\n\nWhen the alchemist creates a bomb, he can choose to have its substance coat the direct target's body, causing the bomb to deal its damage over time instead of all at once. The bomb's effect lasts for a number of rounds equal to the number of damage dice the bomb would normally deal (for instance, a 5d6 bomb lasts for 5 rounds). When the bomb hits the direct target, the bomb deals 1d6 + the alchemist's Intelligence modifier in damage, and those within the splash zone take damage equal to 1 + the alchemist's Intelligence modifier. It repeats this damage against the direct target of the bomb each round the immolation bomb lasts, dealing the damage at the start of the alchemist's turn. Splash damage is dealt again to any creature that is adjacent to the direct target when it takes damage from the immolation bomb. A creature taking damage from an immolation bomb's direct hit can attempt to extinguish the flames as a full-round action that requires a Reflex save (DC = 10 + 1/2 the alchemist's level + the alchemist's Intelligent modifier). Because of the alchemical nature of this bomb, rolling on the ground does not grant a bonus on the saving throw, and dousing a creature with water does not stop it from burning. These bombs can be used underwater. An alchemist must be at least 3rd level before selecting this discovery."
+print = "Discoveries that modify bombs and are marked with a single asterisk (\\*) do not stack. Only one such discovery can be applied to an individual bomb.\n\nWhen the alchemist creates a bomb, he can choose to have its substance coat the direct target's body, causing the bomb to deal its damage over time instead of all at once. The bomb's effect lasts for a number of rounds equal to the number of damage dice the bomb would normally deal (for instance, a 5d6 bomb lasts for 5 rounds). When the bomb hits the direct target, the bomb deals 1d6 + the alchemist's Intelligence modifier in damage, and those within the splash zone take damage equal to 1 + the alchemist's Intelligence modifier. It repeats this damage against the direct target of the bomb each round the immolation bomb lasts, dealing the damage at the start of the alchemist's turn. Splash damage is dealt again to any creature that is adjacent to the direct target when it takes damage from the immolation bomb. A creature taking damage from an immolation bomb's direct hit can attempt to extinguish the flames as a full-round action that requires a Reflex save (DC = 10 + 1/2 the alchemist's level + the alchemist's Intelligence modifier). Because of the alchemical nature of this bomb, rolling on the ground does not grant a bonus on the saving throw, and dousing a creature with water does not stop it from burning. These bombs can be used underwater. An alchemist must be at least 3rd level before selecting this discovery."
 
 [[entry]]
 id = "ref/discovery/nauseating-flesh"
