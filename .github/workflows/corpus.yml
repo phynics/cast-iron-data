@@ -16,6 +16,10 @@ name: corpus
 #   5. `scripts/feature-prose-540.py --self-test` and `--check` (phynics/cast-iron#540): the review
 #      table of each book that is being rewritten into headed printed prose matches its entries (no
 #      stale row, no entry that could be converted and was not). It needs no PDF.
+#   5b. `scripts/feature-prose-540-class-options.py --self-test` and `--check` (phynics/cast-iron#540):
+#      the ledger of the class options that are written (`scripts/class-options/540-<book>.tsv`) matches
+#      their entries (no import row or label left, the printed text is in the entry), and no entry is
+#      settled and not written. It needs no PDF.
 #   6. `scripts/errata.py --self-test` and `--check` (phynics/cast-iron-data#309): `scripts/errata.tsv`
 #      is well formed, every row's entry exists, and the entry holds the printed (or kept) value.
 #   7. `scripts/spell-levels-284.py --self-test` and `--check` (phynics/cast-iron-data#284):
@@ -99,6 +103,10 @@ jobs:
         run: |
           python3 corpus/scripts/feature-prose-540.py --self-test
           python3 corpus/scripts/feature-prose-540.py corpus --check
+      - name: Class options as printed prose (#540)
+        run: |
+          python3 corpus/scripts/feature-prose-540-class-options.py --self-test
+          python3 corpus/scripts/feature-prose-540-class-options.py corpus --check
       - name: Errata review file (#309)
         run: |
           python3 corpus/scripts/errata.py --self-test
