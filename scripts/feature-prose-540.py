@@ -1782,8 +1782,9 @@ def head_of_para(p: Para) -> str | None:
 # A source mark of print between a head and its colon: an asterisk or a dagger, with the bracket a superscript sometimes leaves ("(Su)*:").
 # Only a mark (`*`, `†`, `‡`) is a source mark: "(Su)" before a colon is the ability tag and stays.
 SOURCE_MARK_TAIL = re.compile(r"^\s*[\*†‡]+\s*(?=(?:\([^()]+\)\s*)?:)")
-SOURCE_MARK_END = re.compile(r"[\*†‡]+(?=\s*(?:\([^()]+\))?\s*$)")
+SOURCE_MARK_END = re.compile(r"[\*†‡]+(?=\s*(?:\((?:Ex|Su|Sp)(?:(?:, | or | and )(?:Ex|Su|Sp))*\))?\s*$)", re.I)
 SOURCE_MARK_BEFORE_TAG = re.compile(r"[\*†‡]+(?=\s*\((?:Ex|Su|Sp)\b)")
+TAG_BEFORE_COLON = re.compile(r"^\s*(\((?:Ex|Su|Sp)(?:(?:, | or | and )(?:Ex|Su|Sp))*\))(?=\s*:)", re.I)
 
 
 def split_print(section: list[Para], expected: list[str]) -> tuple[list[list], list[PrintFeature]]:
@@ -1819,6 +1820,13 @@ def split_print(section: list[Para], expected: list[str]) -> tuple[list[list], l
                 rest[0] = (text, rest[0][1], rest[0][2])
                 cand = (head, rest, bold)
                 marked = True
+            if ERRATA_CTX.get("book") == "ultimate-intrigue" and rest and not rest[0][0].lstrip().startswith(":"):
+                tag = TAG_BEFORE_COLON.match(rest[0][0])
+                if tag:
+                    head += " " + tag.group(1)
+                    rest = list(rest)
+                    rest[0] = (rest[0][0][:tag.start()] + rest[0][0][tag.end():], rest[0][1], rest[0][2])
+                    cand = (head, rest, bold)
             colon = rest and rest[0][0].lstrip().startswith(":") if rest else False
             tail_ok = not rest or colon or (bold and namekey(head) in want)     # print leaves out a colon here and there
             if tail_ok and (bold or (namekey(head) in want)):
@@ -6488,6 +6496,19 @@ def self_test() -> int:
     eq([(f.head, f.marked) for f in _ftm], [("Bomb (Su)", True)], "a mark between the head and its colon is dropped too")
     _opm, _ftm = split_print([_secm[0], Para("para", [("Confounding Blades", False, True), ("* (Ex): text", False, False)], "1", 0)], ["Confounding Blades (Ex)"])
     eq([(f.head, f.marked) for f in _ftm], [("Confounding Blades (Ex)", True)], "a source mark before an ability tag is dropped without dropping the tag")
+    configure_book("ultimate-intrigue")
+    _optag, _fttag = split_print([_secm[0], Para("para", [("Returning Weapon", False, True), (" (Ex): text", False, False)], "1", 0)], ["Returning Weapon (Ex)"])
+    eq([(f.head, " ".join("".join(run[0] for run in para).strip() for para in f.paras)) for f in _fttag], [("Returning Weapon (Ex)", "text")], "a printed tag outside an italic head is included")
+    _optag_miss, _fttag_miss = split_print([_secm[0], Para("para", [("Returning Weapon", False, True), (" (Extra): text", False, False)], "1", 0)], ["Returning Weapon (Extra)"])
+    eq(_fttag_miss, [], "a non-ability parenthesis outside an italic head is not a tag")
+    _upclose = [Para("title", [("Vigilante Talents", True, False)], "17", 0),
+                Para("para", [("Up Close and Personal (Ex)", False, True), (": swift attack.", False, False)], "17", 0),
+                Para("para", [("Vital Punishment (Ex)", False, True), (": separate talent.", False, False)], "17", 0)]
+    _, _upclose_features = split_print(_upclose, ["Up Close and Personal (Ex)", "Vital Punishment (Ex)"])
+    eq([(f.head, " ".join("".join(run[0] for run in para).strip() for para in f.paras)) for f in _upclose_features],
+       [("Up Close and Personal (Ex)", "swift attack."), ("Vital Punishment (Ex)", "separate talent.")],
+       "Ultimate Intrigue p. 17: an unimported italic head ends the preceding option")
+    configure_book("ultimate-magic")
     # a link takes the mark it replaces ("vanish**" against "glide**"); an unlinked marked word keeps it
     _mr = [[("Choose ", False, False), ("vanish", False, True), ("** or ", False, False), ("glide", False, True), ("**.", False, False)]]
     _txt = print_md(PrintFeature("x", _mr, 1), [("vanish", "ref/spell/vanish")], set(), "e", keep_marks=True)[0]
@@ -7477,6 +7498,7 @@ IGNORED_SUBTITLES = {"ref/arc-bard/pitax-academy-of-grand-arts": ("focusedperfor
 # Italic heads that the print sets as the options of a feature and that the import lacks (an italic head is a head only when the entry expects its name)
 ITALIC_HEADS = {
     "ref/arc-summoner/wild-caller-hotw": ["Base Form", "Cactus (desert)", "Conifer (forest, mountain)", "Mushroom (swamp, underground)", "Tree (forest, jungle, swamp)"],
+    "ref/vigtalent/up-close-and-personal": ["Vital Punishment (Ex)"],  # Ultimate Intrigue p. 17: an unimported printed head ends this option
 }
 # ---- Batch A4: Pathfinder 139, 144 and 5, Horror Realms, Guide to the River Kingdoms, Heroes of the Wild, Familiar Folio (2) ----
 TRADE_REMOVALS["ref/arc-monk/scarred-monk"] = [("replaces", "the ability to spend ki points to do anything other than what's described below")]       # print: "Mortifications alter the ki pool and replace high jump, wholeness of body, abundant step, and empty body" (ruling 17)

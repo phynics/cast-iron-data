@@ -13,12 +13,10 @@ page = "14"
 [fields]
 kind = "class_option"
 group = "vigilante-talent"
+ability_type = "Ex"
 +++
 
-**Hide in Plain Sight (Ex)**
-
-**Ability:** The vigilante can use Stealth to hide even when being observed. As long as he is within
-10 feet of [dim light](ref/rule/vision-and-light) (his own shadow doesn't count), he can hide
-without anything to actually hide behind.
-
-**Prereq:** 8th-level stalker
+The vigilante can use Stealth to hide even when being observed. As long as he is within 10 feet of
+[dim light](ref/rule/vision-and-light) (his own shadow doesn't count), he can hide without anything
+to actually hide behind. Only a [stalker vigilante](ref/class/vigilante#stalker) of at least 8th
+level can select this talent.

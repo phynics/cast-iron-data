@@ -13,15 +13,12 @@ page = "16"
 [fields]
 kind = "class_option"
 group = "vigilante-talent"
+ability_type = "Ex"
 +++
 
-**Twisting Fear (Ex)**
-
-**Ability:** Whenever the vigilante causes an opponent to gain the [shaken](ref/misc/shaken),
+Whenever the vigilante causes an opponent to gain the [shaken](ref/misc/shaken),
 [frightened](ref/misc/frightened), or [panicked](ref/misc/panicked) condition, that opponent takes
-an amount of nonlethal damage equal to the vigilante's reduced _hidden strike_ damage, as the stress
-wears upon its body.
-
-**Special:** A creature can't take damage from _twisting fear_ more than once per round. Panicked
-creatures that take damage from _twisting fear_ are too winded even to scream as they flee in
-terror.
+an amount of nonlethal damage equal to the vigilante's reduced hidden strike damage, as the stress
+wears upon its body. A creature can't take damage from twisting fear more than once per round.
+Panicked creatures that take damage from twisting fear are too winded even to scream as they flee in
+terror. Only a [stalker vigilante](ref/class/vigilante#stalker) can select this talent.

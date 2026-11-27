@@ -13,14 +13,12 @@ page = "13"
 [fields]
 kind = "class_option"
 group = "social-talent"
+ability_type = "Ex"
 +++
 
-**Subjective Truth (Ex)**
-
-**Flavor:** The vigilante's disparate identities allow him to defeat magic that detects lies.
-
-**Passive:** As long as what he says is true from the point of view of his current identity, it
-detects as true to effects such as [discern lies](ref/spell/discern-lies), and he can say it in
-effects such as [zone of truth](ref/spell/zone-of-truth) that force him to speak the truth.
-
-**Prereq:** 9th-level vigilante, [feign innocence](ref/soctalent/feign-innocence)
+The vigilante's disparate identities allow him to defeat magic that detects lies. As long as what he
+says is true from the point of view of his current identity, it detects as true to effects such as
+_[discern lies](ref/spell/discern-lies)_, __ and he can say it in effects such as
+_[zone of truth](ref/spell/zone-of-truth)_ that force him to speak the truth. A
+[vigilante](ref/class/vigilante) must be at least 9th level and have the
+[feign innocence](ref/soctalent/feign-innocence) social talent to select this talent.

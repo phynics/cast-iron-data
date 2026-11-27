@@ -1,0 +1,40 @@
+entry	anchor	decision	note
+ref/mystery/intrigue	assumed-form	hold	multi-power: separate reviewed batch
+ref/mystery/intrigue	class-skills	hold	multi-power: separate reviewed batch
+ref/mystery/intrigue	desire-sight	hold	multi-power: separate reviewed batch
+ref/mystery/intrigue	forgotten-presence	hold	multi-power: separate reviewed batch
+ref/mystery/intrigue	hidden-magic	hold	multi-power: separate reviewed batch
+ref/mystery/intrigue	mirrored-retreat	hold	multi-power: separate reviewed batch
+ref/mystery/intrigue	poetic-vengeance	hold	multi-power: separate reviewed batch
+ref/mystery/intrigue	revelations	hold	multi-power: separate reviewed batch
+ref/mystery/intrigue	tracer-touch	hold	multi-power: separate reviewed batch
+ref/mystery/intrigue	veiled-venom	hold	multi-power: separate reviewed batch
+ref/mystery/intrigue	whispered-glimpses	hold	multi-power: separate reviewed batch
+ref/soctalent/everyman	everyman	print	Ultimate Intrigue p. 11 prints Everyman (Su); ruling 63 takes print's tag
+ref/soctalent/renown	renown	print	Ultimate Intrigue p. 12: the page citation is print’s reference to settlement population ranges; no rule number changes, per ruling 26.
+ref/soctalent/social-grace	social-grace	print	Ultimate Intrigue p. 12: the 5th-level and every-4-level progression equals the corpus levels; print wording follows ruling 8.
+ref/talent/stalker-talent	stalker-talent	hold	Ultimate Intrigue p. 44: print restricts the talent to asterisk-marked options; the corpus says hidden-strike talents generally, a rule-word difference.
+ref/vigtalent/blind-spot	blind-spot	print	Ultimate Intrigue p. 13: the printed prerequisite is retained under ruling 60.
+ref/vigtalent/combat-skill	combat-skill	print	Ultimate Intrigue p. 14: the printed prerequisite is retained under ruling 60.
+ref/vigtalent/environmental-weapon	environmental-weapon	hold	Ultimate Intrigue p. 14: the printed head is “Environmental Weapon”; the entry title is “Environment Weapon”. Keep the title mismatch held.
+ref/vigtalent/evasive	evasive	print	Ultimate Intrigue p. 14: the printed prerequisite is retained under ruling 60.
+ref/vigtalent/fist-of-the-avenger	fist-of-the-avenger	print	Ultimate Intrigue p. 14: the printed prerequisite is retained under ruling 60.
+ref/vigtalent/foe-collision	foe-collision	print	Ultimate Intrigue p. 13-14: the printed prerequisite is retained under ruling 60.
+ref/vigtalent/heavy-training	heavy-training	print	Ultimate Intrigue p. 14: the printed prerequisite is retained under ruling 60.
+ref/vigtalent/hide-in-plain-sight	hide-in-plain-sight	print	Ultimate Intrigue p. 14: the printed prerequisite is retained under ruling 60.
+ref/vigtalent/inspired-vigilante	opening	hold	multi-power: separate reviewed batch
+ref/vigtalent/leave-an-opening	leave-an-opening	print	Ultimate Intrigue p. 13-14: the printed prerequisite is retained under ruling 60.
+ref/vigtalent/mad-rush	mad-rush	print	Ultimate Intrigue p. 15: the printed prerequisite is retained under ruling 60.
+ref/vigtalent/mighty-ambush	mighty-ambush	print	Ultimate Intrigue p. 13-15: the printed prerequisite is retained under ruling 60.
+ref/vigtalent/nothing-can-stop-me	nothing-can-stop-me	print	Ultimate Intrigue p. 15: the printed prerequisite is retained under ruling 60.
+ref/vigtalent/returning-weapon	returning-weapon	print	Ultimate Intrigue p. 15: “chosen” and “choose” describe the same weapon choice; wording only.
+ref/vigtalent/rogue-talent	rogue-talent	hold	Ultimate Intrigue p. 15: print limits the effect to asterisk-marked talents; the corpus wording differs in scope, a rule-word difference.
+ref/vigtalent/shield-of-fury	shield-of-fury	print	Ultimate Intrigue p. 16: “at least 6th level” states the same threshold as the corpus; print wording follows ruling 8.
+ref/vigtalent/signature-weapon	signature-weapon	print	Ultimate Intrigue p. 16: the printed prerequisite is retained under ruling 60.
+ref/vigtalent/sniper	sniper	print	Ultimate Intrigue p. 16: the printed prerequisite is retained under ruling 60.
+ref/vigtalent/stalker-sense	stalker-sense	print	Ultimate Intrigue p. 16: the printed prerequisite is retained under ruling 60.
+ref/vigtalent/sucker-punch	sucker-punch	print	Ultimate Intrigue p. 16: 1d6 base damage plus 1d6 at 6th, 12th, and 18th equals the corpus progression; print wording follows ruling 8.
+ref/vigtalent/throat-jab	throat-jab	print	Ultimate Intrigue p. 13-16: the printed prerequisite is retained under ruling 60.
+ref/vigtalent/twisting-fear	twisting-fear	print	Ultimate Intrigue p. 16: the printed prerequisite is retained under ruling 60.
+ref/vigtalent/unkillable	unkillable	print	Ultimate Intrigue p. 16: the printed prerequisite is retained under ruling 60.
+ref/vigtalent/up-close-and-personal	up-close-and-personal	print	Ultimate Intrigue p. 17: the printed prerequisite is retained under ruling 60.

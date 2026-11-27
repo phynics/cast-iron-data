@@ -13,19 +13,16 @@ page = "11"
 [fields]
 kind = "class_option"
 group = "social-talent"
+ability_type = "Su"
 +++
 
-**Everyman (Ex)**
-
-**Ability:** The vigilante can take on the appearance of a specific individual whenever he assumes a
-mundane guise using his _many guises_ social talent. The individual must be a farmer, laborer, or
-peasant. While disguised as this individual, the vigilante receives a +20 circumstance bonus on
-Disguise checks to appear as that individual. Any spell or ability designed to locate the individual
-has a 50% chance of finding the vigilante instead of the actual individual, and divination spells
-and abilities used on the vigilante give results as if he were the actual individual.
-
-**Prereq:** 11th-level vigilante, [many guises](ref/soctalent/many-guises)
-
-**Special:** Although this doesn't grant the vigilante any special knowledge of the individual, the
+The vigilante can take on the appearance of a specific individual whenever he assumes a mundane
+guise using his [many guises](ref/soctalent/many-guises) social talent. The individual must be a
+farmer, laborer, or peasant. While disguised as this individual, the vigilante receives a +20
+circumstance bonus on Disguise checks to appear as that individual. Any spell or ability designed to
+locate the individual has a 50% chance of finding the vigilante instead of the actual individual,
+and divination spells and abilities used on the vigilante give results as if he were the actual
+individual. Although this doesn't grant the vigilante any special knowledge of the individual, the
 vigilante's training grants him a +10 circumstance bonus on Bluff checks to properly play the part
-of the individual.
+of the individual. A [vigilante](ref/class/vigilante) must be at least 11th level and have the
+[many guises](ref/soctalent/many-guises) social talent to select this talent.

@@ -13,11 +13,9 @@ page = "16"
 [fields]
 kind = "class_option"
 group = "vigilante-talent"
+ability_type = "Ex"
 +++
 
-**Sniper (Ex)**
-
-**Ability:** The vigilante can deal _hidden strike_ damage with ranged attacks at any distance,
-rather than within 30 feet.
-
-**Prereq:** 6th-level stalker
+The vigilante can deal hidden strike damage with ranged attacks at any distance, rather than within
+30 feet. Only a [stalker vigilante](ref/class/vigilante#stalker) of at least 6th level can select
+this talent.

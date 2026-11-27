@@ -13,11 +13,10 @@ page = "44"
 [fields]
 kind = "class_option"
 group = "rogue-talent"
+ability_type = "Ex"
 +++
 
-**Shades of Gray (Ex)**
-
-**Ability:** A rogue with this talent uses mental and emotional tricks to protect herself from
-attempts to discern her alignment. This offers her the benefits of
-[undetectable alignment](ref/spell/undetectable-alignment) whenever she chooses, though she must be
-conscious to maintain the effect.
+A rogue with this talent uses mental and emotional tricks to protect herself from attempts to
+discern her alignment. This offers her the benefits of
+_[undetectable alignment](ref/spell/undetectable-alignment)_ whenever she chooses, though she must
+be conscious to maintain the effect.
