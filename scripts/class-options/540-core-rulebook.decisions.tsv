@@ -1,23 +1,23 @@
 entry	anchor	decision	note
 ref/performance/countersong	countersong	print	ruling 3: the ability text agrees; the number mismatch was from Table 3–3 rows interleaved by extraction (Core Rulebook p. 36); use print.
 ref/performance/fascinate	fascinate	print	ruling 3: the printed target-count progression and save DC match the corpus values; the number mismatch was table text in the print stream (Core Rulebook p. 36); use print.
-ref/performance/inspire-competence	inspire-competence	print	ruling 3: the +2 base and +1 per four levels through +6 at 19th match; Table 3–4 rows were interleaved by extraction (Core Rulebook p. 36); use print.
+ref/performance/inspire-competence	inspire-competence	print	ruling 3: the corpus says “At 1st level,” while print says “3rd level or higher”; Table 3–3 confirms the 3rd-level start, so print is right (Core Rulebook p. 36). Table 3–4 rows were interleaved by extraction; use print.
 ref/performance/inspire-courage	inspire-courage	print	ruling 3: the +1 base, +1 at every six bard levels, and +4 maximum at 17th match the corpus values (Core Rulebook p. 37); use print.
 ref/performance/inspire-greatness	inspire-greatness	print	ruling 3: the 9th-level start, extra target every three levels, and four-target maximum at 18th match (Core Rulebook p. 37); use print.
 ref/performance/inspire-heroics	inspire-heroics	print	ruling 3: the 15th-level start and +4 maximum at 18th match the corpus progression (Core Rulebook p. 38); use print.
-ref/performance/suggestion	suggestion	hold	the corpus adds a 1/day usage limit, while print says it may be used more than once against an individual creature during a performance and does not count against daily rounds (Core Rulebook p. 37); hold for errata review.
+ref/performance/suggestion	suggestion	print	ruling 3: the corpus says the performance does not count against a bard’s daily use, which is the same limit as print’s total rounds per day; print also permits repeated use against one creature during a performance (Core Rulebook p. 37); use print.
 ref/ragepower/clear-mind	clear-mind	hold	the corpus limits the reroll to a failed save; print permits a reroll after the save is attempted and before results are revealed (Core Rulebook p. 32); this changes when the power can be used, hold for errata review.
 ref/ragepower/guarded-stance	guarded-stance	print	ruling 3: the +1 dodge bonus and +1 per six barbarian levels agree with the corpus formula; print states the move action and no attack of opportunity (Core Rulebook p. 33); use print.
 ref/ragepower/knockback	knockback	print	ruling 3: the bull rush replaces one melee attack and does not provoke an attack of opportunity in both versions (Core Rulebook p. 33); use print.
 ref/ragepower/moment-of-clarity	moment-of-clarity	print	ruling 3: the one-round duration and once-per-rage use agree; print supplies the complete action and effect wording (Core Rulebook p. 33); use print.
-ref/ragepower/no-escape	no-escape	print	ruling 3: double base speed, the withdraw trigger, and once-per-rage use agree; print supplies the complete movement wording (Core Rulebook p. 33); use print.
+ref/ragepower/no-escape	no-escape	print	ruling 3: values and trigger agree; print says “base speed” where the corpus says “normal speed,” so use print (Core Rulebook p. 33).
 ref/ragepower/powerful-blow	powerful-blow	print	ruling 3: +1 damage per four levels, swift-action timing, and once-per-rage use agree (Core Rulebook p. 33); use print.
 ref/ragepower/renewed-vigor	renewed-vigor	print	ruling 3: the 1d8 healing progression, 4th-level prerequisite, once-per-day limit, and rage requirement agree (Core Rulebook p. 33); use print.
 ref/ragepower/rolling-dodge	rolling-dodge	print	ruling 3: the +1 dodge bonus and +1 per six barbarian levels agree; print states the move action and no attack of opportunity (Core Rulebook p. 33); use print.
 ref/ragepower/strength-surge	strength-surge	print	ruling 3: the bonus equals barbarian level and once-per-rage use agrees (Core Rulebook p. 33); use print.
 ref/ragepower/surprise-accuracy	surprise-accuracy	print	ruling 3: the +1 attack bonus, +1 per four levels, swift-action timing, and once-per-rage use agree (Core Rulebook p. 33); use print.
-ref/ragepower/swift-foot	swift-foot	print	ruling 3: the +5-foot speed bonus, always-active wording while raging, and three-selection limit agree (Core Rulebook p. 34); use print.
+ref/ragepower/swift-foot	swift-foot	print	ruling 3: values and selection limit agree; print says “her base speed” where the corpus says “bonus to her speed,” so use print (Core Rulebook p. 34).
 ref/ragepower/unexpected-strike	unexpected-strike	print	ruling 3: the attack-of-opportunity trigger, once-per-rage limit, and 8th-level prerequisite agree (Core Rulebook p. 34); use print.
-ref/talent/feat	feat	print	ruling 3: the printed Feat option ends before Master Strike, which is a rogue class feature, not part of this option (Core Rulebook p. 68); use print.
+ref/talent/feat	feat	print	ruling 3: the printed Feat option ends before Master Strike, which is a rogue class feature, not part of this option (Core Rulebook p. 70); use print.
 ref/talent/ledge-walker	ledge-walker	print	ruling 3: full speed, Acrobatics, and not being flat-footed on narrow surfaces agree; print supplies the complete sentence (Core Rulebook p. 68); use print.
 ref/talent/skill-mastery	skill-mastery	print	ruling 3: taking 10 despite stress and distractions and the selected-skill count agree; print supplies the complete text (Core Rulebook p. 70); use print.

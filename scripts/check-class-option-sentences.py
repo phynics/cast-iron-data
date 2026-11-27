@@ -3,12 +3,21 @@
 from __future__ import annotations
 
 import argparse
+import importlib.util
 import re
+import sys
 import tomllib
 from pathlib import Path
 
 
-NEGATIONS = re.compile(r"\b(?:not|no|never|cannot)\b|n['’]t\b", re.I)
+RULES_PATH = Path(__file__).with_name("feature-prose-540-class-options.py")
+RULES_SPEC = importlib.util.spec_from_file_location("class_option_sentence_rules", RULES_PATH)
+if RULES_SPEC is None or RULES_SPEC.loader is None:
+    raise RuntimeError(f"cannot load shared class-option sentence rules: {RULES_PATH}")
+RULES = importlib.util.module_from_spec(RULES_SPEC)
+sys.modules[RULES_SPEC.name] = RULES
+RULES_SPEC.loader.exec_module(RULES)
+
 DIGITS = re.compile(r"\d+")
 WORDS = re.compile(r"[a-z]+(?:['’][a-z]+)?|\d+", re.I)
 SENTENCES = re.compile(r"(?<=[.!?])[\"’”)]*\s+|\n+\s*\n+")
@@ -26,26 +35,16 @@ def sentences(text: str) -> list[str]:
     return [x.strip() for x in SENTENCES.split(plain(text)) if len(re.findall(r"[A-Za-z]", x)) >= 8]
 
 
-def edit_distance(a: str, b: str) -> int:
-    prev = list(range(len(b) + 1))
-    for i, ca in enumerate(a, 1):
-        cur = [i]
-        for j, cb in enumerate(b, 1):
-            cur.append(min(cur[-1] + 1, prev[j] + 1, prev[j - 1] + (ca != cb)))
-        prev = cur
-    return prev[-1]
-
-
 def near_match(a: str, b: str) -> bool:
-    if DIGITS.findall(a) != DIGITS.findall(b) or NEGATIONS.findall(a.casefold().replace("’", "'")) != NEGATIONS.findall(b.casefold().replace("’", "'")):
+    if DIGITS.findall(a) != DIGITS.findall(b) or len(RULES.NEGATIONS.findall(a)) != len(RULES.NEGATIONS.findall(b)):
         return False
     words_a = WORDS.findall(a.casefold())
     words_b = WORDS.findall(b.casefold())
     if len(words_a) != len(words_b):
         return False
     changed = [(x, y) for x, y in zip(words_a, words_b) if x != y]
-    return (len(changed) == 1 and min(len(changed[0][0]), len(changed[0][1])) >= 4
-            and edit_distance(changed[0][0], changed[0][1]) <= 2)
+    return (len(changed) == 1 and min(len(changed[0][0]), len(changed[0][1])) >= 6
+            and RULES.one_misprint(*changed[0]))
 
 
 def match_count(source: list[str], target: list[str]) -> int:
@@ -68,6 +67,15 @@ def self_test() -> int:
         (near_match("At 2nd level, the power lasts.", "At 3rd level, the power lasts."), False),
         (near_match("The target is not immune.", "The target is immune."), False),
         (near_match("The target isn’t immune.", "The target is immune."), False),
+        (near_match("The creature will increase its speed.", "The creature will decrease its speed."), False),
+        (near_match("The target is either visible or audible.", "The target is neither visible or audible."), False),
+        (near_match("The target is able to see the bard.", "The target is unable to see the bard."), False),
+        (near_match("The effect lasts longer than one round.", "The effect lasts longer then one round."), False),
+        (near_match("The swift action begins the effect.", "The shift action begins the effect."), False),
+        (near_match("The creature can move freely.", "The creature can more freely."), False),
+        (near_match("The creature gains a free action.", "The creature gains a fire action."), False),
+        (near_match("The target is neither visible nor audible.", "The target is visible nor audible."), False),
+        (near_match("The target is visible nor audible.", "The target is visible audible."), False),
         (match_count(["A sentence.", "A sentence."], ["A sentence."]), 1),
     ]
     for actual, expected in checks:
