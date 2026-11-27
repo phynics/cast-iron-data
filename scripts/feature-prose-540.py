@@ -1372,7 +1372,7 @@ def find_section(blocks: list[Para], title: str, stops: set[str] | None = None) 
     """The blocks of an archetype: from its title to the next title of another archetype or of a class. Another
     title in between (a sidebar, a table heading) is a heading of the section. With no `stops`, the next title of
     any kind ends it."""
-    key = squash(re.sub(r"\s*\([A-Z]{2,4}\)\s*$", "", title))        # "Ringleader (UI)": the corpus's mark of a second archetype of the name
+    key = squash(re.sub(r"\s*\((?:[A-Z]{2,4}|HotW)\)\s*$", "", title))        # "Ringleader (UI)": the corpus's mark of a second archetype of the name
     for i, b in enumerate(blocks):
         # Ultimate Magic and Ultimate Combat print "REANIMATOR (ARCHETYPE)"; Occult Adventures and Ultimate Intrigue print the
         # class on a second line ("ECTOCHYMIST (ALCHEMIST ARCHETYPE)"); the Advanced Race Guide "Saboteur (Alchemist)"
@@ -2422,6 +2422,13 @@ def sha256_file(path: Path) -> str:
 def tok_set(text: str) -> set[str]:
     words = re.findall(r"[a-z0-9]+", fold(text).replace("'", ""))
     return {w[:-1] if len(w) > 4 and w.endswith("s") else w for w in words}
+
+
+# The owner's copies of the Adventure Path volumes carry their own file names: the words that find them (batch B5)
+PDF_TITLES = {
+    "pathfinder-95-anvil-of-fire": "Anvil of Fire", "pathfinder-124-city-in-the-deep": "Pathfinder AP 124 City in the Deep Ruins of Azlant 4 of 6",
+    "pathfinder-71-rasputin-must-die": "Reign of Winter pt 5 Rasputin Must Die",
+}
 
 
 def find_pdf(books: Path, title: str) -> Path | None:
@@ -4611,14 +4618,18 @@ PAGE_FIXES = {
 
 # The Player Companions that set their titles in small capitals and give each archetype no box of its own (batches 6 to 9).
 BATCH_B_BOOKS = ("psychic-anthology", "disciples-doctrine", "occult-origins", "arcane-anthology", "blood-of-the-coven")     # the lead reader of `LEAD_EXT` reads them (review of #344)
+BATCH_B5_BOOKS = ("inner-sea-monster-codex", "inner-sea-primer", "inner-sea-taverns", "path-of-the-hellknight", "planes-of-power", "spymasters-handbook", "occult-realms", "reign-of-winter-players-guide",
+                  "pathfinder-95-anvil-of-fire", "pathfinder-124-city-in-the-deep", "pathfinder-71-rasputin-must-die")     # the lead reader of `LEAD_EXT` reads them (batch B5)
+BATCH_B5_CHRONICLES = ("inner-sea-monster-codex", "inner-sea-taverns", "path-of-the-hellknight", "planes-of-power", "occult-realms",
+                       "pathfinder-95-anvil-of-fire", "pathfinder-124-city-in-the-deep", "pathfinder-71-rasputin-must-die")     # Campaign Setting books and Adventure Path volumes: the page geometry of the Chronicles
 BATCH_B3_BOOKS = ("dirty-tactics-toolbox", "villain-codex", "weapon-masters-handbook", "melee-tactics-toolbox", "distant-realms")     # the lead reader of `LEAD_EXT` reads them (batch B3)
 PLAYER_COMPANIONS = ("blood-of-the-ancients", "wilderness-origins", "legacy-of-the-first-world", "people-of-the-wastes", "healers-handbook", "psychic-anthology", "disciples-doctrine", "occult-origins", "arcane-anthology", "blood-of-the-coven")
 
 # The Player Companions that set their archetype titles in small capitals (a capital and its small capitals 5 units apart), and whose
 # archetypes are followed by sections of the chapter of their own (feats, techniques, spells): any title ends the section of an archetype.
-SMALL_CAP_BOOKS = ("blood-of-the-ancients", "blood-of-the-beast", "heroes-of-the-high-court", "martial-arts-handbook", "magic-tactics-toolbox", "potions-and-poisons", "heroes-from-the-fringe", "haunted-heroes-handbook", "antiheros-handbook", "blood-of-the-sea", "aquatic-adventures", "legacy-of-dragons", "plane-hoppers-handbook", "dirty-tactics-toolbox", "weapon-masters-handbook", "melee-tactics-toolbox")
+SMALL_CAP_BOOKS = ("blood-of-the-ancients", "blood-of-the-beast", "heroes-of-the-high-court", "martial-arts-handbook", "magic-tactics-toolbox", "potions-and-poisons", "heroes-from-the-fringe", "haunted-heroes-handbook", "antiheros-handbook", "blood-of-the-sea", "aquatic-adventures", "legacy-of-dragons", "plane-hoppers-handbook", "dirty-tactics-toolbox", "weapon-masters-handbook", "melee-tactics-toolbox", *BATCH_B5_BOOKS)
 # ... and of these, the ones whose chapter titles or capitals stand above the usual top of the body (Blood of the Ancients keeps 88)
-HIGH_TITLE_BOOKS = ("blood-of-the-beast", "heroes-of-the-high-court", "martial-arts-handbook", "magic-tactics-toolbox", "haunted-heroes-handbook", "familiar-folio", "advanced-class-origins", "dirty-tactics-toolbox", "weapon-masters-handbook", "melee-tactics-toolbox")
+HIGH_TITLE_BOOKS = ("blood-of-the-beast", "heroes-of-the-high-court", "martial-arts-handbook", "magic-tactics-toolbox", "haunted-heroes-handbook", "familiar-folio", "advanced-class-origins", "dirty-tactics-toolbox", "weapon-masters-handbook", "melee-tactics-toolbox", *BATCH_B5_BOOKS)
 
 # ---- Potions & Poisons, Construct Handbook, Magic Tactics Toolbox, Haunted Heroes Handbook, Heroes from the Fringe (one block of tables) ----
 MISPRINTS.extend([
@@ -4732,6 +4743,14 @@ LEVEL_FROM_PRINT.update({
 })
 
 
+# ---- Batch B5: the books with one or two archetypes left ----
+TRADE_ADDITIONS.setdefault("ref/arc-cavalier/charger", []).append({"alters": "Class skills"})     # "This alters the cavalier's class skills." (the Class Skills section before the first feature)
+TRADE_RENAMES[("ref/arc-oracle/cyclopean-seer", "Final revelation")] = "The final revelation of the oracle's mystery"
+TRADE_RENAMES[("ref/arc-vigilante/faceless-enforcer", "Weapon and armor proficiencies")] = "The vigilante's weapon and armor proficiencies"     # "This alters the vigilante's weapon and armor proficiencies."
+TRADE_RENAMES[("ref/arc-vigilante/faceless-enforcer", "Vigilante talent gained at 6th level")] = "The vigilante talent gained at 6th level"
+TRADE_RENAMES[("ref/arc-oracle/cyclopean-seer", "Bonus skills from the oracle's mystery")] = "The additional class skills granted by her mystery"
+
+
 # ---- Batch B3: Dirty Tactics Toolbox, Villain Codex, Weapon Master's Handbook, Melee Tactics Toolbox, Distant Realms ----
 TRADE_RENAMES.update({
     ("ref/arc-swashbuckler/rondelero-swashbuckler", "Derring-do"): "The derring-do deed",
@@ -4764,7 +4783,7 @@ def configure_book(book: str) -> None:
     CHAPTER_END[0] = 47 if book == "inner-sea-combat" else 0
     PAGE_SKIP[:] = [(16, 23), (26, 999)] if book == "legacy-of-dragons" else []
     LOWERCASE_CONTINUES["on"] = BULLETS["on"] = ITALIC_FIRST["on"] = CITE_EXT["on"] = LEAD_EXT["on"] = book in ("inner-sea-magic", "inner-sea-intrigue", "inner-sea-combat")
-    LEAD_EXT["on"] = LEAD_EXT["on"] or book in BATCH_B_BOOKS or book in BATCH_B3_BOOKS or book in ("heroes-of-the-darklands", "legacy-of-dragons", "familiar-folio", "advanced-class-origins")
+    LEAD_EXT["on"] = LEAD_EXT["on"] or book in BATCH_B_BOOKS or book in BATCH_B3_BOOKS or book in BATCH_B5_BOOKS or book in ("heroes-of-the-darklands", "legacy-of-dragons", "familiar-folio", "advanced-class-origins")
     OCR["on"] = NO_STYLE["on"] = book in ("inner-sea-combat", "monster-codex")
     MC_TITLES["on"] = book == "monster-codex"
     ITALIC_JOIN["on"] = book in ("aquatic-adventures", "heroes-of-the-streets", "antiheros-handbook", "blood-of-the-sea")
@@ -4775,7 +4794,7 @@ def configure_book(book: str) -> None:
     BULLETS["on"] = BULLETS["on"] or book in ("potions-and-poisons", "black-markets")           # the Toxin Codexer's Modify Toxin prints bullet lists (ruling 45, review of #342)
     OUTER_TAB["on"] = book == "construct-handbook"
     TAB_LEFT["min"], TAB_LEFT["title"] = (780, 15) if book == "aquatic-adventures" else (0, 16)
-    PAGE_GEOMETRY["on"] = book in ("inner-sea-magic", "inner-sea-intrigue", "inner-sea-combat", "construct-handbook", "aquatic-adventures", "distant-realms")
+    PAGE_GEOMETRY["on"] = book in ("inner-sea-magic", "inner-sea-intrigue", "inner-sea-combat", "construct-handbook", "aquatic-adventures", "distant-realms") or book in BATCH_B5_CHRONICLES
     MARGIN_CAPTIONS["on"] = CAPTIONS["on"] = book in ("inner-sea-magic", "inner-sea-intrigue", "inner-sea-combat")
     BOX_TITLES["titles"] = frozenset(squash(t) for t in BOXES_OF_BOOK.get(book, ()))
     BOX_TO_END["on"] = book == "psychic-anthology"
@@ -4802,7 +4821,7 @@ def run_compare(args) -> int:
     book = args.book
     title = publication_title(corpus, book)
     configure_book(book)
-    pdf = find_pdf(Path(args.books), title)
+    pdf = find_pdf(Path(args.books), PDF_TITLES.get(book, title))
     if not pdf:
         raise SystemExit(f"no copy of {title!r} under {args.books}")
     bk = load_book(book_xml(pdf, Path(args.cache)))
@@ -5277,7 +5296,7 @@ def run_print_sentences(args) -> int:
     corpus = Path(args.corpus).resolve()
     book = args.book
     configure_book(book)
-    pdf = find_pdf(Path(args.books), publication_title(corpus, book))
+    pdf = find_pdf(Path(args.books), PDF_TITLES.get(book, publication_title(corpus, book)))
     if not pdf:
         raise SystemExit(f"no copy of {publication_title(corpus, book)!r} under {args.books}")
     bk = load_book(book_xml(pdf, Path(args.cache)))
