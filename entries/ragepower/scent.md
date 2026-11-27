@@ -13,9 +13,8 @@ page = "33"
 [fields]
 kind = "class_option"
 group = "rage-power"
+ability_type = "Ex"
 +++
 
-**Scent (Ex)**
-
-**Ability:** The barbarian gains the [scent](ref/umr/scent) ability while _raging_ and can use this
-ability to locate unseen foes.
+The barbarian gains the [scent](ref/umr/scent) ability while raging and can use this ability to
+locate unseen foes (see Appendix 1 for rules on the scent ability).

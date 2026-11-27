@@ -13,10 +13,9 @@ page = "33"
 [fields]
 kind = "class_option"
 group = "rage-power"
+ability_type = "Ex"
 +++
 
-**Raging Leaper (Ex)**
-
-**Passive:** When _raging,_ the barbarian adds her level as an enhancement bonus on all
+When raging, the barbarian adds her level as an enhancement bonus on all
 [Acrobatics](ref/skill/acrobatics) skill checks made to jump. When making a jump in this way, the
 barbarian is always considered to have a running start.

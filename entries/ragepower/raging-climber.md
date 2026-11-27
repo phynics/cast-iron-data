@@ -13,9 +13,8 @@ page = "33"
 [fields]
 kind = "class_option"
 group = "rage-power"
+ability_type = "Ex"
 +++
 
-**Raging Climber (Ex)**
-
-**Passive:** When _raging,_ the barbarian adds her level as an enhancement bonus on all
-[Climb](ref/skill/climb) skill checks.
+When raging, the barbarian adds her level as an enhancement bonus on all [Climb](ref/skill/climb)
+skill checks.

@@ -15,6 +15,4 @@ kind = "class_option"
 group = "rogue-talent"
 +++
 
-**Combat Trick**
-
-**Ability:** A rogue that selects this talent gains a bonus combat feat.
+A rogue that selects this talent gains a bonus combat feat (see Chapter 5).

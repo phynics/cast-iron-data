@@ -13,11 +13,9 @@ page = "33"
 [fields]
 kind = "class_option"
 group = "rage-power"
+ability_type = "Ex"
 +++
 
-**Fearless Rage (Ex)**
-
-**Passive:** While _raging,_ the barbarian is immune to the [shaken](ref/misc/shaken) and
-[frightened](ref/misc/frightened) conditions.
-
-**Prereq:** 12th-level barbarian
+While raging, the barbarian is immune to the [shaken](ref/misc/shaken) and
+[frightened](ref/misc/frightened) conditions. A barbarian must be at least 12th level before
+selecting this rage power.

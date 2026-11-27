@@ -13,9 +13,8 @@ page = "68"
 [fields]
 kind = "class_option"
 group = "rogue-talent"
+ability_type = "Ex"
 +++
 
-**Fast Stealth (Ex)**
-
-**Ability:** This ability allows a rogue to move at full speed using the
-[Stealth](ref/skill/stealth) skill without penalty.
+This ability allows a rogue to move at full speed using the [Stealth](ref/skill/stealth) skill
+without penalty.

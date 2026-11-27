@@ -304,7 +304,7 @@ def ability_tag_of_printed_head(head: str) -> str:
 
 def ability_tag_for_option(book: str, imported_head: str, printed_head: str) -> tuple[str, bool]:
     """Read tags from print; Ultimate Combat never inherits a tag absent from its printed head."""
-    if book == "ultimate-combat":
+    if book in {"ultimate-combat", "core-rulebook"}:
         imported, printed = ability_tag_of(imported_head), ability_tag_of_printed_head(printed_head)
         return printed, bool(imported and printed and imported != printed)
     return ability_tag_pair(imported_head, printed_head)
@@ -319,6 +319,9 @@ INTRO_MARK_SPECS = {
         "discovery": ("Discoveries that modify bombs and are marked with a single asterisk", "stack"),
         "talent": ("Talents marked with an asterisk", "sneak attack"),
         "ninjatrick": ("Tricks marked with an asterisk", "sneak attack"),
+    },
+    "core-rulebook": {
+        "talent": ("Talents marked with an asterisk", "sneak attack"),
     },
 }
 INTRO_MARK_TEXT: dict[tuple[str, str], tuple[str, int]] = {}
@@ -611,7 +614,7 @@ def anchor_section(blocks: list, title: str, own: frozenset | set = frozenset(),
 
 
 HEADING_FAMILIES = {"evolution"}  # ruling 61
-INTRO_MARKS_BOOKS = ("ultimate-magic", "advanced-class-guide")
+INTRO_MARKS_BOOKS = ("ultimate-magic", "advanced-class-guide", "core-rulebook")
 FAMILY_WORDS = (("investigator", "invtalent"), ("slayer", "slayertalent"), ("rage power", "ragepower"), ("bloodrage", "ragepower"), ("discover", "discovery"), ("hex", "shamanhex"), ("deed", "swashdeed"), ("arcana", "arcana"), ("evolution", "evolution"))
 class IntroMarkMap:
     """Resolve marked-head intro sentences from print, by family or explicit rule."""
@@ -1157,6 +1160,8 @@ def compare_one(e, book, bk, other=None) -> list[dict]:
         if page_found:
             common["page"] = str(page)
         status, printed = r["status"], clean_acg_print(e.id, r["print"])
+        if book == "core-rulebook":
+            printed = fp.render_marks(printed)   # keep print's italic markers as TOML-safe Markdown, not internal control bytes
         blood_intro = ""
         if book == "advanced-class-guide" and e.id.startswith("ref/ragepower/"):
             power = e.id.rsplit("/", 1)[-1]
@@ -1222,7 +1227,7 @@ def compare_one(e, book, bk, other=None) -> list[dict]:
                 common["page"] = f"{intro_page}-{page}"
         if shape == "single":
             printed, lost = place_links(printed, plinks)
-            crossed = link_kind_mismatches(printed) if book == "advanced-class-guide" else []
+            crossed = link_kind_mismatches(printed) if book in {"advanced-class-guide", "core-rulebook"} else []
             if crossed:
                 notes.append("ruling 52: " + "; ".join(
                     f"\"{name}\" names a {target} ({group}) but print says {word}" for name, target, group, word in crossed))
@@ -1363,9 +1368,10 @@ def run_audit(args) -> int:
     rows = read_tsv(tsv_file(corpus, book))
     written = {eid for eid in {r["entry"] for r in rows} if all(r["status"] == LEDGER for r in rows if r["entry"] == eid)}
     for e in load_class_options(corpus, book):
-        if e.id not in written or not e.page.isdigit():
+        page_match = re.match(r"\d+", e.page)
+        if e.id not in written or not page_match:
             continue
-        page = int(e.page)
+        page = int(page_match.group())   # an intro sentence may cite the earlier start of this printed span
         heads = [e.title] + re.findall(r"^#{2,6}\s+(.*?)(?:\s*\{#[^}]*\})?\s*$", e.body, re.M) + re.findall(r"^\*\*([^*\n]{2,60}?):?\*\*", e.body, re.M)
         multi = len(re.findall(r"^#{2,6}\s+", e.body, re.M)) > 1
         last = page + (3 if multi else 2)
@@ -1492,6 +1498,7 @@ def run_compare(args) -> int:
             continue
         for r in compare_one(e, book, bk, other):
             if r.get("print"):
+                r["print"] = proposal_print(book, r["print"])
                 props.setdefault(e.id, {"id": e.id, "feature": []})["feature"].append(
                     {"anchor": r["anchor"], "print": class_option_errata(corpus, e.id, r["print"])})
             rows.append(r)
@@ -1694,6 +1701,11 @@ def clean_acg_print(entry_id: str, text: str) -> str:
             and len(re.findall(r"[ \t]{2,}", text)) >= 4):
         text = clean_full_printed_head(text)
     return text
+
+
+def proposal_print(book: str, text: str) -> str:
+    """Store Core Rulebook italics as Markdown instead of the print reader's internal markers."""
+    return fp.render_marks(text) if book == "core-rulebook" else text
 
 
 def refresh_written_proposal(corpus: Path, book: str, row: dict, original: str) -> str:
@@ -2066,6 +2078,8 @@ def self_test() -> int:
        "an exact reviewed misprint is corrected")
     eq(apply_errata_text(errata_kept, [("Intelligent modifier", "Intelligence modifier")]), errata_kept,
        "a reviewed correction is idempotent")
+    eq(proposal_print("core-rulebook", "The \x01Core Rulebook\x02 applies."), "The _Core Rulebook_ applies.",
+       "Core Rulebook proposal text uses Markdown italics")
     try:
         near_miss = "The alchemist's intellegent modifier applies."
         eq(apply_errata_text(near_miss, [("Intelligent modifier", "Intelligence modifier")]), near_miss,
