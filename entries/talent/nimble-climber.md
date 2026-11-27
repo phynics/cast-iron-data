@@ -13,9 +13,8 @@ page = "22"
 [fields]
 kind = "class_option"
 group = "rogue-talent"
+ability_type = "Ex"
 +++
 
-**Nimble Climber (Ex)**
-
-**Ability:** Whenever the rogue fails a Climb check by 5 or more, she can attempt a Reflex save
-(using the same DC as the Climb check) to catch herself and avoid falling.
+Whenever the rogue fails a Climb check by 5 or more, she can attempt a Reflex save (using the same
+DC as the Climb check) to catch herself and avoid falling.

@@ -896,7 +896,7 @@ You can use this ability once per day at 8th level and one additional time per d
 
 **Replacement:** 
 
-**Domain Spells:** 1st— _shocking grasp_, 2nd—_f lame blade_ (deals electricity damage and gains the electricity descriptor instead of fire), 3rd— _lightning bolt_.'''
+**Domain Spells:** 1st— _shocking grasp_, 2nd—_flame blade_ (deals electricity damage and gains the electricity descriptor instead of fire), 3rd— _lightning bolt_.'''
 
 [[entry]]
 id = "ref/domain/animal"
@@ -1832,7 +1832,7 @@ print = '''
 
 **Replacement Power:** The following granted power replaces the artificer's touch power of the Artifice domain or the hand of the acolyte power of the Magic domain.
 
-**Divine Alchemy (Su):** You can perform a 1-minute ritual that infuses a f lask of water with one of your prepared spells, creating an improvised potion that lasts until consumed or the next time you prepare spells. You can use this ability only with spells that target one or more creatures, and the maximum spell level you can infuse in this way is equal to 1 + 1 for every 4 cleric levels you have. These potions are treated as alchemist extracts for the purpose of your domain spells. You can use this ability a number of times per day equal to 3 + your Wisdom modifier.
+**Divine Alchemy (Su):** You can perform a 1-minute ritual that infuses a flask of water with one of your prepared spells, creating an improvised potion that lasts until consumed or the next time you prepare spells. You can use this ability only with spells that target one or more creatures, and the maximum spell level you can infuse in this way is equal to 1 + 1 for every 4 cleric levels you have. These potions are treated as alchemist extracts for the purpose of your domain spells. You can use this ability a number of times per day equal to 3 + your Wisdom modifier.
 
 **Replacement Domain Spells:** 2nd—_touch injection_, 4th—_amplify elixir_, 6th—_delayed consumption_.'''
 
@@ -3111,7 +3111,7 @@ print = "At 8th level, you can compel a creature within 30 feet to attempt to pl
 id = "ref/domain/charm"
 anchor = "captivation-subdomain"
 print = '''
-**Example Apocrypha (Norgorber):** Norgorber's faithful take considerable risks just to maintain their secrets, so the f lashy antics of those who have read _The Dark Lure_ seem appalling to most. These reckless devotees ostensibly revere the Reaper of Reputation, yet they insist that the best way to hide in plain sight is by being the center of attention and sharing so much harmless information that none think to look any deeper. As a result, the cult attracts Norgorber's rare thrill-seekers and dare-takers. His other worshipers suffer these brazen actions, knowing that their brethren would make ideal scapegoats should the congregations of more legitimate churches be discovered.
+**Example Apocrypha (Norgorber):** Norgorber's faithful take considerable risks just to maintain their secrets, so the flashy antics of those who have read _The Dark Lure_ seem appalling to most. These reckless devotees ostensibly revere the Reaper of Reputation, yet they insist that the best way to hide in plain sight is by being the center of attention and sharing so much harmless information that none think to look any deeper. As a result, the cult attracts Norgorber's rare thrill-seekers and dare-takers. His other worshipers suffer these brazen actions, knowing that their brethren would make ideal scapegoats should the congregations of more legitimate churches be discovered.
 
 **Associated Domain:** Charm.
 
@@ -6091,9 +6091,9 @@ print = '''
 
 **Replacement Power:** The following granted power replaces the acid dart power of the Earth domain.
 
-**Fossil Form (Su):** At the beginning of your turn as a swift action, you can infuse your f lesh with minerals, granting you cumbersome security. Until the beginning of your next turn, you are staggered, gain hardness 2, and gain a +2 bonus on saving throws against petrification. This hardness increases by 2 and your saving throw bonus increases by 1 for every 4 cleric levels you have. You can use this ability a number of times per day equal to 3 + your Wisdom modifier.
+**Fossil Form (Su):** At the beginning of your turn as a swift action, you can infuse your flesh with minerals, granting you cumbersome security. Until the beginning of your next turn, you are staggered, gain hardness 2, and gain a +2 bonus on saving throws against petrification. This hardness increases by 2 and your saving throw bonus increases by 1 for every 4 cleric levels you have. You can use this ability a number of times per day equal to 3 + your Wisdom modifier.
 
-**Replacement Domain Spells:** 4th—_calcific touch_, 5th—_stoneskin_, 6th—_f lesh to stone_, 8th—_statue_.'''
+**Replacement Domain Spells:** 4th—_calcific touch_, 5th—_stoneskin_, 6th—_flesh to stone_, 8th—_statue_.'''
 
 [[entry]]
 id = "ref/domain/evil"
@@ -7855,7 +7855,7 @@ print = "At 8th level, as a move action, you can extol the virtues of yourself o
 id = "ref/domain/glory"
 anchor = "hubris-subdomain"
 print = '''
-**Example Apocrypha (Iomedae):** As the Second Mendevian Crusade drew to a close, the crusaders found they had exhausted many of their strongest warriors, forcing them to recruit mercenaries of less noble intentions. At the same time, demons began infiltrating Mendev's ranks, spreading lies, and seeding betrayal. The Third Crusade collapsed nearly as soon as it began, crippled by witch-hunts and bloodthirsty inquisitions. The Church of Iomedae has since reprimanded the overzealous interrogators who led those pogroms, yet a small cult of apostates refuses to accept forgiveness for the faith's lapse. Calling themselves the Children of the Third Crusade, these curious acolytes self-f lagellate to seek humility, yet they then lord their righteousness over their peers in shows of disquieting vanity. The crusaders suffer these fanatics' presence, acknowledging them as a living lesson of the crusade's past failures.
+**Example Apocrypha (Iomedae):** As the Second Mendevian Crusade drew to a close, the crusaders found they had exhausted many of their strongest warriors, forcing them to recruit mercenaries of less noble intentions. At the same time, demons began infiltrating Mendev's ranks, spreading lies, and seeding betrayal. The Third Crusade collapsed nearly as soon as it began, crippled by witch-hunts and bloodthirsty inquisitions. The Church of Iomedae has since reprimanded the overzealous interrogators who led those pogroms, yet a small cult of apostates refuses to accept forgiveness for the faith's lapse. Calling themselves the Children of the Third Crusade, these curious acolytes self-flagellate to seek humility, yet they then lord their righteousness over their peers in shows of disquieting vanity. The crusaders suffer these fanatics' presence, acknowledging them as a living lesson of the crusade's past failures.
 
 **Associated Domains:** Glory, Nobility.
 
@@ -12653,7 +12653,7 @@ print = '''
 
 **Replacement Power:** The following granted power replaces the artificer's touch power of the Artifice domain or the hand of the acolyte power of the Magic domain.
 
-**Divine Alchemy (Su):** You can perform a 1-minute ritual that infuses a f lask of water with one of your prepared spells, creating an improvised potion that lasts until consumed or the next time you prepare spells. You can use this ability only with spells that target one or more creatures, and the maximum spell level you can infuse in this way is equal to 1 + 1 for every 4 cleric levels you have. These potions are treated as alchemist extracts for the purpose of your domain spells. You can use this ability a number of times per day equal to 3 + your Wisdom modifier.
+**Divine Alchemy (Su):** You can perform a 1-minute ritual that infuses a flask of water with one of your prepared spells, creating an improvised potion that lasts until consumed or the next time you prepare spells. You can use this ability only with spells that target one or more creatures, and the maximum spell level you can infuse in this way is equal to 1 + 1 for every 4 cleric levels you have. These potions are treated as alchemist extracts for the purpose of your domain spells. You can use this ability a number of times per day equal to 3 + your Wisdom modifier.
 
 **Replacement Domain Spells:** 2nd—_touch injection_, 4th—_amplify elixir_, 6th—_delayed consumption_.'''
 
@@ -13193,7 +13193,7 @@ print = "You receive [Command Undead](ref/feat/command-undead) or [Turn Undead](
 id = "ref/domain/nobility"
 anchor = "hubris-subdomain"
 print = '''
-**Example Apocrypha (Iomedae):** As the Second Mendevian Crusade drew to a close, the crusaders found they had exhausted many of their strongest warriors, forcing them to recruit mercenaries of less noble intentions. At the same time, demons began infiltrating Mendev's ranks, spreading lies, and seeding betrayal. The Third Crusade collapsed nearly as soon as it began, crippled by witch-hunts and bloodthirsty inquisitions. The Church of Iomedae has since reprimanded the overzealous interrogators who led those pogroms, yet a small cult of apostates refuses to accept forgiveness for the faith's lapse. Calling themselves the Children of the Third Crusade, these curious acolytes self-f lagellate to seek humility, yet they then lord their righteousness over their peers in shows of disquieting vanity. The crusaders suffer these fanatics' presence, acknowledging them as a living lesson of the crusade's past failures.
+**Example Apocrypha (Iomedae):** As the Second Mendevian Crusade drew to a close, the crusaders found they had exhausted many of their strongest warriors, forcing them to recruit mercenaries of less noble intentions. At the same time, demons began infiltrating Mendev's ranks, spreading lies, and seeding betrayal. The Third Crusade collapsed nearly as soon as it began, crippled by witch-hunts and bloodthirsty inquisitions. The Church of Iomedae has since reprimanded the overzealous interrogators who led those pogroms, yet a small cult of apostates refuses to accept forgiveness for the faith's lapse. Calling themselves the Children of the Third Crusade, these curious acolytes self-flagellate to seek humility, yet they then lord their righteousness over their peers in shows of disquieting vanity. The crusaders suffer these fanatics' presence, acknowledging them as a living lesson of the crusade's past failures.
 
 **Associated Domains:** Glory, Nobility.
 
@@ -14337,7 +14337,7 @@ print = '''
 
 **Replacement Power:** The following granted power replaces the resistant touch power of the Protection domain.
 
-**Sheltering Walls (Sp):** As a standard action, you can touch an ally to summon a f loating blockade of stone, granting the ally the benefits of partial cover for 1 round plus 1 round for every 6 cleric levels you possess. This ability does not grant the ally enough cover to attempt a Stealth check or avoid provoking attacks of opportunity. If the ally benefits from any other form of cover against an attack, the bonuses to AC and on Reflex saving throws increase by 1. You can use this power a number of times per day equal to 3 + your Wisdom modifier.
+**Sheltering Walls (Sp):** As a standard action, you can touch an ally to summon a floating blockade of stone, granting the ally the benefits of partial cover for 1 round plus 1 round for every 6 cleric levels you possess. This ability does not grant the ally enough cover to attempt a Stealth check or avoid provoking attacks of opportunity. If the ally benefits from any other form of cover against an attack, the bonuses to AC and on Reflex saving throws increase by 1. You can use this power a number of times per day equal to 3 + your Wisdom modifier.
 
 **Replacement Domain Spells:** 1st—_hold portal_, 5th—_wall of stone_, 9th—_prismatic wall_.'''
 

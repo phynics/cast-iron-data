@@ -13,12 +13,9 @@ page = "18"
 [fields]
 kind = "class_option"
 group = "ki-power"
+ability_type = "Su"
 +++
 
-**Qinggong Power (Su)**
-
-**Ability:** A monk with this power selects any of the [qinggong monk](ref/arc-monk/qinggong-monk)
-ki powers for which he qualifies based on his monk level.
-
-**Special:** A monk can select this ability multiple times. Each time, he must select a different
-qinggong monk ki power.
+A monk with this power selects any of the [qinggong monk](ref/arc-monk/qinggong-monk) ki powers for
+which he qualifies based on his monk level. A monk can select this ability multiple times. Each
+time, he must select a different qinggong monk ki power.

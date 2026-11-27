@@ -15,14 +15,8 @@ kind = "class_option"
 group = "style-strike"
 +++
 
-**Hammerblow**
-
-**Flavor:** The monk links his hands together, swinging both arms like a club and dealing tremendous
-damage.
-
-**Ability:** If the attack hits, the monk rolls his unarmed strike damage twice, adding both rolls
-together before applying Strength and other modifiers to the damage. This bonus damage is not
-multiplied on a critical hit.
-
-**Special:** The monk must attack with a fist to use this style strike, but must have both hands
+The monk links his hands together, swinging both arms like a club and dealing tremendous damage. If
+the attack hits, the monk rolls his unarmed strike damage twice, adding both rolls together before
+applying Strength and other modifiers to the damage. This bonus damage is not multiplied on a
+critical hit. The monk must attack with a fist to use this style strike, but must have both hands
 free.

@@ -13,13 +13,12 @@ page = "17"
 [fields]
 kind = "class_option"
 group = "ki-power"
+ability_type = "Ex"
 +++
 
-**Ki Hurricane (Ex)**
-
-**Full-round:** A monk with this ability can move up to twice his speed. At any point in that
-movement, the monk can spend 1 ki point to make the first attack in his _flurry of blows._ He can
-later spend another ki point to make the next attack in his _flurry of blows,_ and so on, until he
-either stops spending ki points or has exhausted all the attacks from his _flurry of blows._
-
-**Prereq:** 10th-level monk, [sudden speed](ref/kipower/sudden-speed)
+As a full-round action, a monk with this ability can move up to twice his speed. At any point in
+that movement, the monk can spend 1 ki point to make the first attack in his flurry of blows. He can
+later spend another ki point to make the next attack in his flurry of blows, and so on, until he
+either stops spending ki points or has exhausted all the attacks from his flurry of blows. A monk
+must be at least 10th level and possess the [sudden speed](ref/kipower/sudden-speed) ki power before
+selecting this ki power.

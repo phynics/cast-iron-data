@@ -13,10 +13,9 @@ page = "17"
 [fields]
 kind = "class_option"
 group = "ki-power"
+ability_type = "Ex"
 +++
 
-**Feather Balance (Ex)**
-
-**Swift:** A monk with this ability can spend 1 ki point to achieve perfect balance. While this is
-active, the monk treats any [Acrobatics](ref/skill/acrobatics) attempt made to balance as if he had
-rolled a 20. This ability lasts for 1 minute.
+A monk with this ability can spend 1 ki point as a swift action to achieve perfect balance. While
+this is active, the monk treats any [Acrobatics](ref/skill/acrobatics) attempt made to balance as if
+he had rolled a 20. This ability lasts for 1 minute.

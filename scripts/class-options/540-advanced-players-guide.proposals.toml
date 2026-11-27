@@ -2743,7 +2743,7 @@ print = "At 9th level, you can cause the air to erupt in freezing sleet. This 10
 id = "ref/sorcbloodline/boreal"
 anchor = "rime-blooded-wildblooded-mutation"
 print = '''
-The wintry origin of your magic f lows like ice water in your veins.
+The wintry origin of your magic flows like ice water in your veins.
 
 **Associated Bloodline:** Boreal.
 

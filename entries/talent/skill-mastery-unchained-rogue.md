@@ -15,16 +15,9 @@ kind = "class_option"
 group = "rogue-talent"
 +++
 
-**Skill Mastery**
-
-**Flavor:** The rogue becomes so confident in the use of certain skills that she can use them
-reliably even under adverse conditions.
-
-**Choice:** The rogue selects a number of skills equal to her Intelligence modifier.
-
-**Ability:** When making a skill check with one of the selected skills (or any of the skills
-selected through the _rogue's edge_ class feature), she can take 10 even if stress and distractions
-would normally prevent her from doing so.
-
-**Special:** A rogue can gain this special ability multiple times, selecting additional skills for
-_skill mastery_ to apply to each time.
+The rogue becomes so confident in the use of certain skills that she can use them reliably even
+under adverse conditions. The rogue selects a number of skills equal to her Intelligence modifier.
+When making a skill check with one of the selected skills (or any of the skills selected through the
+rogue's edge class feature), she can take 10 even if stress and distractions would normally prevent
+her from doing so. A rogue can gain this special ability multiple times, selecting additional skills
+for skill mastery to apply to each time.

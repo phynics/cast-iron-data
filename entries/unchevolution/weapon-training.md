@@ -8,17 +8,16 @@ provenance = [
 ]
 [[sources]]
 publication = "pathfinder-unchained"
-page = "37"
+page = "36-37"
 
 [fields]
 kind = "class_option"
 group = "unchained-summoner-evolution"
+ability_type = "Ex"
 +++
 
-**Weapon Training (Ex)**
+2-Point Evolutions: The following evolutions cost 2 points from the eidolon's evolution pool.
 
-**Ability:** The eidolon learns to use a weapon, gaining
-[Simple Weapon Proficiency](ref/feat/simple-weapon-proficiency) as a bonus feat.
-
-**Special:** If 2 additional evolution points are spent, it gains proficiency with all martial
-weapons as well.
+The eidolon learns to use a weapon, gaining
+[Simple Weapon Proficiency](ref/feat/simple-weapon-proficiency) as a bonus feat. If 2 additional
+evolution points are spent, it gains proficiency with all martial weapons as well.

@@ -13,11 +13,11 @@ page = "35"
 [fields]
 kind = "class_option"
 group = "unchained-summoner-evolution"
+ability_type = "Ex"
 +++
 
-**Climb (Ex)**
+1-Point Evolutions: The following evolutions cost 1 point from the eidolon's evolution pool.
 
-**Ability:** The eidolon becomes a skilled climber, gaining a climb speed equal to its base speed.
-
-**Special:** This evolution can be selected more than once. Each additional time it is selected,
-increase the eidolon's climb speed by 20 feet.
+The eidolon becomes a skilled climber, gaining a climb speed equal to its base speed. This evolution
+can be selected more than once. Each additional time it is selected, increase the eidolon's climb
+speed by 20 feet.

@@ -13,12 +13,11 @@ page = "18"
 [fields]
 kind = "class_option"
 group = "ki-power"
+ability_type = "Su"
 +++
 
-**Ki Volley (Su)**
-
-**Immediate:** When a targeted spell or [spell-like ability](ref/umr/spell-like-abilities) fails to
-overcome the monk's [spell resistance](ref/rule/spell-resistance) from _diamond soul,_ he can spend
-2 ki points to send that spell back at its caster as [spell turning](ref/spell/spell-turning).
-
-**Prereq:** 16th-level monk, [diamond soul](ref/kipower/diamond-soul)
+When a targeted spell or [spell-like ability](ref/umr/spell-like-abilities) fails to overcome the
+monk's [spell resistance](ref/rule/spell-resistance) from [diamond soul](ref/kipower/diamond-soul),
+he can spend 2 ki points as an immediate action to send that spell back at its caster as
+_[spell turning](ref/spell/spell-turning)_. A monk must be 16th level or higher and possess the
+[diamond soul](ref/kipower/diamond-soul) ki power before selecting this ki power.

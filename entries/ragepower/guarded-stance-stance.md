@@ -13,11 +13,9 @@ page = "11"
 [fields]
 kind = "class_option"
 group = "rage-power"
+ability_type = "Ex"
 +++
 
-**Guarded Stance (Ex)**
-
-**Flavor:** The barbarian can take on a more defensive posture.
-
-**Passive:** This grants her a dodge bonus to her Armor Class for the duration of her current
-_rage._ This bonus is equal to 1 + one-fourth of her barbarian level.
+The barbarian can take on a more defensive posture. This grants her a +1 dodge bonus to her Armor
+Class for the duration of her current rage. This bonus increases by 1 for every 4 levels the
+barbarian has. This is a stance rage power.

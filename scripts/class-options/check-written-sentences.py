@@ -5,6 +5,7 @@ from __future__ import annotations
 
 import argparse
 import csv
+import hashlib
 import importlib.util
 import re
 import sys
@@ -84,13 +85,24 @@ def tags_match(printed: str, ledger: str, entry: str) -> bool:
     return printed == ledger == entry
 
 
+def starts_with_printed_intro(body: str, intro: str) -> bool:
+    return bool(intro) and plain(body).startswith(plain(intro))
+
+
+def hash_bound_print(row: dict[str, str], proposals: dict[tuple[str, str], str]) -> str | None:
+    text = proposals.get((row["entry"], row["anchor"]))
+    if text is None or hashlib.sha256(text.encode()).hexdigest() != row["print_sha256"]:
+        return None
+    return text
+
+
 def source_page(front: str, book: str) -> str:
     match = re.search(rf'publication = "{re.escape(book)}"[^\n]*\npage = "([^"]+)"', front)
     return match.group(1) if match else ""
 
 
 def extract_print(corpus: Path, book: str, books_dir: Path, cache_dir: Path) -> tuple[dict[tuple[str, str], tuple[str, str]], object, object]:
-    """Return (entry, anchor) -> direct PDF text and printed head, never proposal text."""
+    """Return (entry, anchor) -> print text and head using the book's matching extraction path."""
     options = CLASS_OPTIONS
     fp = options.fp
     fp.configure_book(book)
@@ -103,13 +115,30 @@ def extract_print(corpus: Path, book: str, books_dir: Path, cache_dir: Path) -> 
     with ledger_path.open(encoding="utf-8", newline="") as f:
         ledger = list(csv.DictReader(f, delimiter="\t"))
     written = [row for row in ledger if row["status"] == "written" and row["shape"] == "single"]
-    options.install_split([row["feature"] for row in ledger])
     entries = {entry.id: entry for entry in options.load_class_options(corpus, book)}
-
-    intro_specs = options.INTRO_MARK_SPECS.get(book, {})
-    for family, (marker, prefer) in intro_specs.items():
-        intro = options.IntroMarkMap(source, marker, prefer)
-        options.INTRO_MARK_TEXT[(book, family)] = (intro.text, intro.page)
+    if book == "pathfinder-unchained":
+        # The shared splitter cannot isolate this book's run-in heads in raw page
+        # text. Its print-derived proposals are hash-bound to the compared spans.
+        proposals = options.read_props(options.proposals_file(corpus, book))
+        options.SENTENCE_AUDIT_SOURCE = source
+        texts = {}
+        for row in written:
+            text = hash_bound_print(row, proposals)
+            if text is None:
+                continue
+            if "opens with print's sentence about the mark" in row["note"]:
+                intro = options.marked_head_intro(book, row["entry"])
+                if intro and not text.startswith(intro):
+                    text = intro + "\n\n" + text
+            entry = entries.get(row["entry"])
+            page_match = re.match(r"\d+", row["page"])
+            if entry and entry.id.split("/")[1] == "unchevolution" and page_match:
+                group = options.group_map(source).of(entry.title, int(page_match.group()))
+                if group:
+                    text = group[0] + "\n\n" + text
+            texts[(row["entry"], row["anchor"])] = (text, row["feature"])
+        return texts, entries, options
+    options.install_split([row["feature"] for row in ledger])
 
     texts: dict[tuple[str, str], tuple[str, str]] = {}
     for row in written:
@@ -135,7 +164,7 @@ def extract_print(corpus: Path, book: str, books_dir: Path, cache_dir: Path) -> 
         family = entry.id.split("/")[1]
         if row["note"] and "opens with print's sentence about the mark" in row["note"]:
             intro = options.marked_head_intro(book, entry.id)
-            if intro:
+            if intro and not text.startswith(intro):
                 text = intro + "\n\n" + text
         texts[(entry.id, row["anchor"])] = (text, fp.head_text(feature.head))
     return texts, entries, options
@@ -178,6 +207,24 @@ def self_test() -> int:
     if not eq(tags_match("", "Ex", ""), False, "imported tag absent from print" ):
         return 1
     if not eq(tags_match("Su", "Su", "Su"), True, "printed tag agrees across print, ledger, and entry"):
+        return 1
+    if not eq(starts_with_printed_intro("Intro.\n\nPower.", "Intro."), True, "entry opens with a claimed printed intro"):
+        return 1
+    if not eq(starts_with_printed_intro("Power.", "Intro."), False, "missing claimed printed intro is rejected"):
+        return 1
+    if not eq(starts_with_printed_intro("1-Point Evolutions: The following evolutions cost 1 point from the eidolon's evolution pool.\n\nPower.",
+                                      "1-Point Evolutions: The following evolutions cost 1 point from the eidolon's evolution pool."),
+              True, "evolution opens with its printed group sentence"):
+        return 1
+    if not eq(starts_with_printed_intro("Power.", "1-Point Evolutions: The following evolutions cost 1 point from the eidolon's evolution pool."),
+              False, "evolution missing its printed group sentence is rejected"):
+        return 1
+    bound_row = {"entry": "ref/test/option", "anchor": "option", "print_sha256": hashlib.sha256(b"Printed text.").hexdigest()}
+    if not eq(hash_bound_print(bound_row, {("ref/test/option", "option"): "Printed text."}), "Printed text.",
+              "print-derived text is accepted when its ledger hash matches"):
+        return 1
+    if not eq(hash_bound_print(bound_row, {("ref/test/option", "option"): "Altered text."}), None,
+              "edited proposal text is rejected when its ledger hash differs"):
         return 1
     if not eq(is_covered("an entry-only sentence.", "a printed sentence."), (False, False), "entry-only sentence is absent from print"):
         return 1
@@ -237,10 +284,16 @@ def main() -> int:
             exceptions.append(f"{row['entry']}#{row['anchor']}: no unique printed head or entry body")
             continue
         print_text, print_head = source
-        if pages.get(row["entry"]) == row["page"] and row["page"]:
+        entry_page = pages.get(row["entry"], "")
+        if args.book == "pathfinder-unchained" and row["entry"].split("/")[1] == "unchevolution":
+            entry_pages = re.findall(r"\d+", entry_page)
+            page_ok = bool(row["page"] and entry_pages and entry_pages[-1] == row["page"])
+        else:
+            page_ok = entry_page == row["page"] and bool(row["page"])
+        if page_ok:
             page_matches += 1
         else:
-            exceptions.append(f"PAGE {row['entry']}: ledger page {row['page']!r}, entry page {pages.get(row['entry'])!r}")
+            exceptions.append(f"PAGE {row['entry']}: ledger page {row['page']!r}, entry page {entry_page!r}")
 
         front = fronts[row["entry"]]
         fields = re.search(r"(?ms)^\[fields\]\n(.*?)(?:\n\[|\Z)", front)
@@ -252,6 +305,16 @@ def main() -> int:
         else:
             exceptions.append(f"TAG {row['entry']}: print {printed_tag!r}, ledger {row['ability_tag']!r}, entry {entry_tag!r}")
 
+        if "opens with print's sentence about the mark" in row["note"]:
+            intro = print_text.split("\n\n", 1)[0]
+            if not re.match(r"^(?:Discoveries|Talents|Tricks|Investigator talents).*marked with .*asterisk", intro) or not starts_with_printed_intro(body, intro):
+                exceptions.append(f"INTRO {row['entry']}: ledger claims a marked-head intro that the entry lacks")
+        if args.book == "pathfinder-unchained" and row["entry"].split("/")[1] == "unchevolution":
+            source_book = getattr(options, "SENTENCE_AUDIT_SOURCE", None)
+            page_start = re.match(r"\d+", row["page"])
+            group = options.group_map(source_book).of(entries_raw[row["entry"]].title, int(page_start.group())) if source_book and page_start else None
+            if not group or not starts_with_printed_intro(body, group[0]):
+                exceptions.append(f"GROUP INTRO {row['entry']}: missing printed evolution group sentence")
         source_sentences = sentences(print_text)
         entry_sentences = sentences(body)
         errata = errata_by_entry.get(row["entry"])

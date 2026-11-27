@@ -8,18 +8,16 @@ provenance = [
 ]
 [[sources]]
 publication = "pathfinder-unchained"
-page = "39"
+page = "38-39"
 
 [fields]
 kind = "class_option"
 group = "unchained-summoner-evolution"
+ability_type = "Ex"
 +++
 
-**Spell Resistance (Ex)**
+4-Point Evolutions: The following evolutions cost 4 points from the eidolon's evolution pool.
 
-**Flavor:** The eidolon is protected against magic, gaining spell resistance.
-
-**Passive:** The eidolon's spell resistance is equal to 11 + the summoner's level. This spell
-resistance does not apply to spells cast by the summoner.
-
-**Prereq:** 9th-level unchained summoner
+The eidolon is protected against magic, gaining spell resistance. The eidolon's spell resistance is
+equal to 11 + the summoner's level. This spell resistance does not apply to spells cast by the
+summoner. _Requirements_: Summoner level 9th.

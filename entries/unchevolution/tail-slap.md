@@ -8,23 +8,20 @@ provenance = [
 ]
 [[sources]]
 publication = "pathfinder-unchained"
-page = "36"
+page = "35-36"
 
 [fields]
 kind = "class_option"
 group = "unchained-summoner-evolution"
+ability_type = "Ex"
 +++
 
-**Tail Slap (Ex)**
+1-Point Evolutions: The following evolutions cost 1 point from the eidolon's evolution pool.
 
-**Ability:** The eidolon can use its tail to bash nearby foes, granting it a
+The eidolon can use its tail to bash nearby foes, granting it a
 [tail slap attack](ref/umr/natural-attacks). This attack is a secondary attack. The tail slap deals
-1d6 points of damage (1d8 if Large, 2d6 if Huge).
-
-**Prereq:** [Agathion](ref/eidolon/agathion), [daemon](ref/eidolon/daemon),
-[demon](ref/eidolon/demon), [devil](ref/eidolon/devil), [div](ref/eidolon/div),
-[elemental](ref/eidolon/elemental), [protean](ref/eidolon/protean), or
-[psychopomp](ref/eidolon/psychopomp) subtype; [tail](ref/unchevolution/tail) evolution
-
-**Special:** This evolution can be selected more than once, up to the number of _tail_ evolutions
-the eidolon possesses.
+1d6 points of damage (1d8 if Large, 2d6 if Huge). This evolution can be selected more than once, up
+to the number of tail evolutions the eidolon possesses. _Requirements_:
+[Agathion](ref/eidolon/agathion), [daemon](ref/eidolon/daemon), [demon](ref/eidolon/demon),
+[devil](ref/eidolon/devil), [div](ref/eidolon/div), [elemental](ref/eidolon/elemental),
+[protean](ref/eidolon/protean), or [psychopomp](ref/eidolon/psychopomp) subtype; tail evolution.

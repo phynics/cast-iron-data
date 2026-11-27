@@ -15,14 +15,8 @@ kind = "class_option"
 group = "style-strike"
 +++
 
-**Flying Kick**
-
-**Flavor:** The monk leaps through the air to strike a foe with a kick.
-
-**Ability:** Before the attack, the monk can move a distance equal to his _fast movement_ bonus.
-This movement is made as part of the monk's _flurry of blows_ attack and does not require an
-additional action. At the end of this movement, the monk must make an attack against an adjacent
-foe.
-
-**Special:** This movement may be between attacks. This movement provokes an attack of opportunity
-as normal. The attack made after the movement must be a kick.
+The monk leaps through the air to strike a foe with a kick. Before the attack, the monk can move a
+distance equal to his fast movement bonus. This movement is made as part of the monk's flurry of
+blows attack and does not require an additional action. At the end of this movement, the monk must
+make an attack against an adjacent foe. This movement may be between attacks. This movement provokes
+an attack of opportunity as normal. The attack made after the movement must be a kick.

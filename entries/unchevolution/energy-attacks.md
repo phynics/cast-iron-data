@@ -13,15 +13,11 @@ page = "36"
 [fields]
 kind = "class_option"
 group = "unchained-summoner-evolution"
+ability_type = "Su"
 +++
 
-**Energy Attacks (Su)**
+2-Point Evolutions: The following evolutions cost 2 points from the eidolon's evolution pool.
 
-**Flavor:** The eidolon's attacks become charged with energy.
-
-**Choice:** Select one energy type: acid, cold, electricity, or fire.
-
-**Ability:** All of the eidolon's natural attacks deal 1d6 points of energy damage of the chosen
-type on a successful hit.
-
-**Prereq:** 5th-level unchained summoner
+The eidolon's attacks become charged with energy. Select one energy type: acid, cold, electricity,
+or fire. All of the eidolon's natural attacks deal 1d6 points of energy damage of the chosen type on
+a successful hit. _Requirements_: Summoner level 5th.
