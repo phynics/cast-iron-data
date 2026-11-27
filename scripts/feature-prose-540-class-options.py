@@ -903,7 +903,8 @@ def compare_one(e, book, bk, other=None) -> list[dict]:
     for f in feats:
         by_name.setdefault(re.sub(r":$", "", f.name), []).append(f)
     if not e.page.isdigit():
-        found = printed_page(e, bk)
+        # This batch’s missing-page recovery is scoped to the Advanced Class Guide.
+        found = printed_page(e, bk) if book == "advanced-class-guide" else None
         if found is None:
             return [dict(base, feature=n_, anchor=fp.anchor_of(n_), verdict="nopage", status="hold", level_import="", level="",
                          note="no page is cited, and the head is not printed once in the book", span_sha256=sha) for n_, sha in powers]
@@ -997,7 +998,7 @@ def compare_one(e, book, bk, other=None) -> list[dict]:
                                  note="opens with print's section-intro prerequisite (Advanced Class Guide p. 80)",
                                  print=printed, print_sha256=hashlib.sha256(printed.encode()).hexdigest()))
                 continue
-        if r is None or ("head not printed" in r.get("notes", []) and not r.get("print")):
+        if book == "advanced-class-guide" and (r is None or ("head not printed" in r.get("notes", []) and not r.get("print"))):
             rows.append(dict(common, anchor=fp.anchor_of(name), verdict="missing-head", status="hold", level_import="",
                              level="", note="head not printed on the cited page and the next ones", print="", print_sha256=""))
             continue
@@ -1079,7 +1080,7 @@ def compare_one(e, book, bk, other=None) -> list[dict]:
                 common["page"] = f"{intro_page}-{page}"
         if shape == "single":
             printed, lost = place_links(printed, plinks)
-            crossed = link_kind_mismatches(printed)
+            crossed = link_kind_mismatches(printed) if book == "advanced-class-guide" else []
             if crossed:
                 notes.append("ruling 52: " + "; ".join(
                     f"\"{name}\" names a {target} ({group}) but print says {word}" for name, target, group, word in crossed))
@@ -1245,11 +1246,21 @@ def run_compare(args) -> int:
                for pf in printed_heads):
             MARKED_HEAD_ENTRIES.add(entry.id)
     names: list[str] = []
+    acg_written: dict[str, list[str]] = {}
+    acg_ids = {x.id for x in load_class_options(corpus, "advanced-class-guide")}
+    for row in read_tsv(tsv_file(corpus, "advanced-class-guide")):
+        if row["entry"] in acg_ids and row["status"] == LEDGER:
+            acg_written.setdefault(row["entry"], []).append(row["feature"])
     for x in load_class_options(corpus):
         names.append(x.title)                      # a converted option has no import row left, but its italic head still ends the text above it
         if shape_of(x.body)[0] != "none":
             for f in fp.parse_import(x.body, set())[1]:
                 names += [f.name, fp.tail_name(f.name)]
+        elif x.book == "advanced-class-guide":
+            # Written ACG entries no longer expose imported feature names in the body. Keep them
+            # in the same order as before conversion so this batch does not change other books.
+            for feature in acg_written.get(x.id, []):
+                names += [feature, fp.tail_name(feature)]
     install_split(names)
     STOP_TITLES.clear()
     STOP_TITLES.update(fp.squash(re.sub(r"\s*\((?:[A-Z]{2,4}|HotW)\)\s*$", "", x.title)) for x in load_class_options(corpus))
