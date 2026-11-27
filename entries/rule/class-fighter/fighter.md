@@ -79,110 +79,108 @@ variety of tactics, few can match fighters for sheer battle prowess.
 |19th|+19/+14/+9/+4|+11|+6|+6|Armor mastery|
 |20th|+20/+15/+10/+5|+12|+6|+6|Bonus feat, weapon mastery|
 
-**Weapon and Armor Proficiencies**
+### Class Features {#class-features}
 
-**Weapons:** All simple weapons, All martial weapons
+The following are class features of the fighter.
 
-**Armor:** Light armor, Medium armor, Heavy armor
+#### Weapon and Armor Proficiency {#weapon-and-armor-proficiencies}
 
-**Shields:** Yes, including tower shields
+A fighter is proficient with all simple and martial weapons and with all armor (heavy, light, and
+medium) and shields (including tower shields).
 
-**Bonus Feats**
+#### Bonus Feats {#bonus-feats}
 
-**Ability:** You start with a bonus feat, in addition to the free feat every class gets at 1st
-level. This bonus feat must be selected from those listed as combat feats, sometimes also called
-"fighter bonus feats."
+At 1st level, and at every even level thereafter, a fighter gains a bonus feat in addition to those
+gained from normal advancement (meaning that the fighter gains a feat at every level). These bonus
+feats must be selected from those listed as combat feats, sometimes also called "fighter bonus
+feats." Upon reaching 4th level, and every four levels thereafter (8th, 12th, and so on), a fighter
+can choose to learn a new bonus feat in place of a bonus feat he has already learned. In effect, the
+fighter loses the bonus feat in exchange for the new one. The old feat cannot be one that was used
+as a prerequisite for another feat, prestige class, or other ability. A fighter can only change one
+feat at any given level and must choose whether or not to swap the feat at the time he gains a new
+bonus feat for the level.
 
-**At 4th Level:** You gain a bonus combat feat. You can also choose to learn a new bonus feat in
-place of a bonus feat you already learned. In effect, you lose the bonus feat in exchange for the
-new one. The old feat cannot be one that was used as a prerequisite for another feat, prestige
-class, or other ability.
+#### Bravery (Ex) {#bravery}
 
-**Gained:** At 1st Level
+Starting at 2nd level, a fighter gains a +1 bonus on Will saves against fear. This bonus increases
+by +1 for every four levels beyond 2nd.
 
-**Repeat:** You gain a bonus combat feat., 2, 4, , You gain a bonus combat feat. You may also
-replace an older feat, following the rules given at 4th level., 8, 4
+#### Armor Training (Ex) {#armor-training}
 
-**Bravery (Ex)**
+Starting at 3rd level, a fighter learns to be more maneuverable while wearing armor. Whenever he is
+wearing armor, he reduces the armor check penalty by 1 (to a minimum of 0) and increases the maximum
+Dexterity bonus allowed by his armor by 1. Every four levels thereafter (7th, 11th, and 15th), these
+bonuses increase by +1 each time, to a maximum -4 reduction of the armor check penalty and a +4
+increase of the maximum Dexterity bonus allowed.
 
-**Gained:** At 2nd Level
+In addition, a fighter can also move at his normal speed while wearing medium armor. At 7th level, a
+fighter can move at his normal speed while wearing heavy armor.
 
-**Passive:** You gain a +1 bonus on Will saves against fear.
+#### Weapon Training (Ex) {#weapon-training}
 
-At 6th level: This bonus increases to +2.
+Starting at 5th level, a fighter can select one group of weapons, as noted below. Whenever he
+attacks with a weapon from this group, he gains a +1 bonus on attack and damage rolls.
 
-At 10th level: This bonus increases to +3.
+Every four levels thereafter (9th, 13th, and 17th), a fighter becomes further trained in another
+group of weapons. He gains a +1 bonus on attack and damage rolls when using a weapon from this
+group. In addition, the bonuses granted by previous weapon groups increase by +1 each. For example,
+when a fighter reaches 9th level, he receives a +1 bonus on attack and damage rolls with one
+[weapon group](ref/ability/weapon-groups) and a +2 bonus on attack and damage rolls with the weapon
+group selected at 5th level. Bonuses granted from overlapping groups do not stack. Take the highest
+bonus granted for a weapon if it resides in two or more groups.
 
-At 14th level: This bonus increases to +4.
+A fighter also adds this bonus to any combat maneuver checks made with weapons from this group. This
+bonus also applies to the fighter's Combat Maneuver Defense when defending against
+[disarm](ref/rule/disarm) and [sunder](ref/rule/sunder) attempts made against weapons from this
+group.
 
-At 18th level: This bonus increases to +5.
+Weapon groups are defined as follows (GMs may add other weapons to these groups, or add entirely new
+groups):
 
-**Armor Training (Ex)**
+_Axes_: battleaxe, dwarven waraxe, greataxe, handaxe, heavy pick, light pick, orc double axe, and
+throwing axe.
 
-**Flavor:** You learn to be more maneuverable while wearing armor.
+_Blades, Heavy_: bastard sword, elven curve blade, falchion, greatsword, longsword, scimitar,
+scythe, and two-bladed sword.
 
-**At 11th Level:** The penalty is now reduced by 3 (minimum 0) and the maximum Dex bonus is now
-increased by +3.
+_Blades, Light_: dagger, kama, kukri, rapier, short sword, sickle, and starknife.
 
-**At 15th Level:** The penalty is now reduced by 4 (minimum 0) and the maximum Dex bonus is now
-increased by +4.
+_Bows_: composite longbow, composite shortbow, longbow, and shortbow.
 
-**At 7th Level:** The penalty is now reduced by 2 (minimum 0) and the maximum Dex bonus is now
-increased by +2. You can also move at your normal speed while wearing heavy armor.
+_Close_: gauntlet, heavy shield, light shield, punching dagger, sap, spiked armor, spiked gauntlet,
+spiked shield, and unarmed strike.
 
-**Gained:** At 3rd Level
+_Crossbows_: hand crossbow, heavy crossbow, light crossbow, heavy repeating crossbow, and light
+repeating crossbow.
 
-**Passive:** Whenever you wear armor, you reduce the armor check penalty by 1 (to a minimum of 0)
-and increase the maximum Dexterity bonus allowed by the armor by 1. You can also move at your normal
-speed while wearing medium armor.
+_Double_: dire flail, dwarven urgrosh, gnome hooked hammer, orc double axe, quarterstaff, and
+two-bladed sword.
 
-Optionally, a fighter may forego these increases to pick up a specific
-[advanced armor training](ref/ability/advanced-armor-training), instead. You must make a choice at
-3rd, 7th, 11th, and 15th levels, and the choice you make is permanent.
+_Flails_: dire flail, flail, heavy flail, morningstar, nunchaku, spiked chain, and whip.
 
-**Weapon Training (Ex)**
+_Hammers_: club, greatclub, heavy mace, light hammer, light mace, and warhammer.
 
-**At 13th Level:** You select a new weapon group and gain the +1 bonus when using weapons from that
-group. Your previously selected groups' bonuses increase to +2 and +3.
+_Monk_: kama, nunchaku, quarterstaff, sai, shuriken, siangham, and unarmed strike.
 
-**At 17th Level:** You select a new weapon group and gain the +1 bonus when using weapons from that
-group. Your previously selected groups' bonuses increase to +2, +3, and +4.
+_Natural_: unarmed strike and all natural weapons, such as bite, claw, gore, tail, and wing.
 
-**At 9th Level:** You select a new weapon group and gain the +1 bonus when using weapons from that
-group. Your previously selected group's bonus increases to +2.
+_Polearms_: glaive, guisarme, halberd, and ranseur.
 
-**Gained:** At 5th Level
+_Spears_: javelin, lance, longspear, shortspear, spear, and trident.
 
-**Passive:** Select one [weapon group](ref/ability/weapon-groups). Whenever you attack with a weapon
-from this group, you gain a +1 bonus on attack and damage rolls. You also add this bonus to any
-combat maneuver checks made with weapons from this group. This bonus also applies to your
-[CMD](ref/rule/combat-maneuvers) when defending against [disarm](ref/rule/disarm) and
-[sunder](ref/rule/sunder) attempts made against weapons from this group.
+_Thrown_: blowgun, bolas, club, dagger, dart, halfling sling staff, javelin, light hammer, net,
+shortspear, shuriken, sling, spear, starknife, throwing axe, and trident.
 
-**Special:** Bonuses granted from overlapping groups do not stack. Take the highest bonus granted
-for a weapon if it resides in two or more groups.
+#### Armor Mastery (Ex) {#armor-mastery}
 
-Optionally, instead of selecting an additional fighter weapon group at 9th, 13th, and 17th level, a
-fighter can choose an [advanced weapon training](ref/ability/advanced-weapon-training) option for
-one fighter weapon group that he previously selected. This choice must be made when the fighter
-gains the level, and the choice is permanent.
+At 19th level, a fighter gains DR 5/— whenever he is wearing armor or using a shield.
 
-**Armor Mastery (Ex)**
+#### Weapon Mastery (Ex) {#weapon-mastery}
 
-**Section:** Other Abilities
-
-**Gained:** At 19th Level
-
-**Passive:** You gain DR 5/- whenever you are wearing armor or using a shield.
-
-**Weapon Mastery (Ex)**
-
-**Gained:** At 20th Level
-
-**Passive:** Choose one weapon, such as the [longsword](ref/eq-weapon/longsword),
+At 20th level, a fighter chooses one weapon, such as the [longsword](ref/eq-weapon/longsword),
 [greataxe](ref/eq-weapon/greataxe), or [longbow](ref/eq-weapon/longbow). Any attacks made with that
 weapon automatically confirm all critical threats and have their damage multiplier increased by 1
-(×2 becomes ×3, for example). In addition, you cannot be disarmed while wielding a weapon of this
+(×2 becomes ×3, for example). In addition, he cannot be disarmed while wielding a weapon of this
 type.
 
 ### Alternate Capstones

@@ -37,7 +37,7 @@ trades = [
   { replaces = "Lay on hands", feature = "lay-on-hands", by = ["solo-tactics"] },
   { replaces = "Divine health", feature = "divine-health", by = ["spiteful-tenacity"] },
   { replaces = "Mercy", feature = "mercy", by = ["teamwork-feat"] },
-  { replaces = "channel energy", feature = "channel-energy", by = ["teamwork-feat"] },
+  { replaces = "channel energy", feature = "channel-positive-energy", by = ["teamwork-feat"] },
   { replaces = "Divine bond", feature = "divine-bond", by = ["gang-up"] },
   { replaces = "Aura of justice", feature = "aura-of-justice", by = ["swift-justice"] },
   { replaces = "Aura of faith", feature = "aura-of-faith", by = ["stalwart"] },

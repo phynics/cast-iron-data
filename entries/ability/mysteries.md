@@ -18,6 +18,7 @@ kind = "none"
 
 Each oracle must choose from among the following mysteries. Unless otherwise noted, the DC to save
 against these revelations is equal to 10 + 1/2 the oracle's level + the oracle's Charisma modifier.
+Spells marked with an asterisk (\*) appear in Chapter 5 of this book.
 
 |Mystery|Deities|
 | --- | --- |
