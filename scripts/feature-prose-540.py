@@ -1110,7 +1110,7 @@ def _assemble(book: Book, items: list[tuple[int, list[dict]]]) -> list[Para]:
             if ln["size"] >= TAB_LEFT["title"]:
                 insets[ln["col"]] = ln["left"] if indent >= 8 else None
                 if out and out[-1].kind == "title" and out[-1].col == ln["col"] and out[-1].page == shown \
-                        and not (SMALL_CAP_TITLES["on"] and out[-1].size != ln["size"]):
+                        and (CLASS_PAREN_LINE.match("".join(t for t, _, _ in ln["runs"])) or not (SMALL_CAP_TITLES["on"] and out[-1].size != ln["size"])):
                     # a title of two lines is set in one size; a chapter title (36) above an archetype title (27) are two titles
                     out[-1].runs += [(" ", True, False)] + ln["runs"]
                 else:
@@ -1304,6 +1304,8 @@ CLASS_NAMES = ("Alchemist", "Antipaladin", "Arcanist", "Barbarian", "Bard", "Blo
                "Gunslinger", "Hunter", "Inquisitor", "Investigator", "Kineticist", "Magus", "Medium", "Mesmerist", "Monk", "Occultist", "Oracle",
                "Paladin", "Psychic", "Ranger", "Rogue", "Shaman", "Skald", "Slayer", "Sorcerer", "Spiritualist", "Summoner", "Swashbuckler",
                "Vigilante", "Warpriest", "Witch", "Wizard", "Ninja", "Samurai")
+# the class line of a title in a smaller size under the name of the archetype ("KAPENIA DANCER" in 27, "(MAGUS ARCHETYPE)" in 18, Varisia, Birthplace of Legends p. 10)
+CLASS_PAREN_LINE = re.compile(r"\s*\(\s*(?:" + "|".join(CLASS_NAMES) + r")(?:\s+archetype)?\s*\)\s*$", re.I)
 CLASS_SUFFIX = re.compile(r"\s*\((?:" + "|".join(CLASS_NAMES) + r")\)\s*$")
 # the squashed rest of a title after the name of the archetype, when the book prints the class in small capitals with stray blanks
 # ("PROWLER AT WOR LD'S END (BLOODR AGER)", "THRONEWARDEN (GUNSLINGER A) RCHETYPE"): the class, or the class and "archetype"
@@ -4716,6 +4718,8 @@ PAGE_FIXES = {
 
 # The Player Companions that set their titles in small capitals and give each archetype no box of its own (batches 6 to 9).
 BATCH_B_BOOKS = ("psychic-anthology", "disciples-doctrine", "occult-origins", "arcane-anthology", "blood-of-the-coven")     # the lead reader of `LEAD_EXT` reads them (review of #344)
+BATCH_B6_BOOKS = ("varisia-birthplace-of-legends", "horror-realms")     # the lead reader of `LEAD_EXT` reads them (batch B6)
+BATCH_B6_CHRONICLES = ("horror-realms",)     # a Campaign Setting book: the page geometry of the Chronicles
 BATCH_B4_BOOKS = ("merchants-manifest", "champions-of-corruption")     # the lead reader of `LEAD_EXT` reads them (batch B4)
 BATCH_B3_BOOKS = ("dirty-tactics-toolbox", "villain-codex", "weapon-masters-handbook", "melee-tactics-toolbox", "distant-realms")     # the lead reader of `LEAD_EXT` reads them (batch B3)
 PLAYER_COMPANIONS = ("blood-of-the-ancients", "wilderness-origins", "legacy-of-the-first-world", "people-of-the-wastes", "healers-handbook", "psychic-anthology", "disciples-doctrine", "occult-origins", "arcane-anthology", "blood-of-the-coven",
@@ -4724,13 +4728,13 @@ PLAYER_COMPANIONS = ("blood-of-the-ancients", "wilderness-origins", "legacy-of-t
 # The Player Companions that set their archetype titles in small capitals (a capital and its small capitals 5 units apart), and whose
 # archetypes are followed by sections of the chapter of their own (feats, techniques, spells): any title ends the section of an archetype.
 SMALL_CAP_BOOKS = ("blood-of-the-ancients", "blood-of-the-beast", "heroes-of-the-high-court", "martial-arts-handbook", "magic-tactics-toolbox", "potions-and-poisons", "heroes-from-the-fringe", "haunted-heroes-handbook", "antiheros-handbook", "blood-of-the-sea", "aquatic-adventures", "legacy-of-dragons", "plane-hoppers-handbook", "dirty-tactics-toolbox", "weapon-masters-handbook", "melee-tactics-toolbox", *BATCH_B4_BOOKS,
-                   "divine-anthology")
+                   "divine-anthology", *BATCH_B6_BOOKS)
 # ... and the ones whose chapter titles stand above the body in type of 40 or more (a chapter that ends the section of an archetype,
 # `CHAPTER_TITLES`); Agents of Evil sets a chapter title at top 82 and its archetypes are followed by the next chapter.
 CHAPTER_TITLE_BOOKS = ("agents-of-evil",)
 # ... and of these, the ones whose chapter titles or capitals stand above the usual top of the body (Blood of the Ancients keeps 88)
 HIGH_TITLE_BOOKS = ("blood-of-the-beast", "heroes-of-the-high-court", "martial-arts-handbook", "magic-tactics-toolbox", "haunted-heroes-handbook", "familiar-folio", "advanced-class-origins", "cohorts-and-companions", "dirty-tactics-toolbox", "weapon-masters-handbook", "melee-tactics-toolbox", *BATCH_B4_BOOKS,
-                    "divine-anthology")     # the "ON VIRTUE" section title of Divine Anthology p. 16 is set at top 85, its small capitals at 94
+                    "divine-anthology", *BATCH_B6_BOOKS)     # the "ON VIRTUE" section title of Divine Anthology p. 16 is set at top 85, its small capitals at 94
 
 # ---- Potions & Poisons, Construct Handbook, Magic Tactics Toolbox, Haunted Heroes Handbook, Heroes from the Fringe (one block of tables) ----
 MISPRINTS.extend([
@@ -4851,6 +4855,38 @@ LEVEL_FROM_PRINT[("ref/arc-antipaladin/dread-vanguard", "beacon-of-evil")] = (4,
 TRADE_RENAMES[("ref/arc-paladin/knight-of-coins", "3rd-, 9th-, and 15th-level mercies")] = "The mercies gained at 3rd, 9th, and 15th levels"
 
 
+# ---- Batch B6: the ten entries that #361 types as archetypes ----
+MISPRINTS.append(("ref/arc-magus/kapenia-dancer", "hastened assault", "hasted assault", "the arcana is Hasted Assault (Ultimate Magic p. 12); print has \"hastened\" (Varisia, Birthplace of Legends p. 10; owner ruling 43)"))
+# School Familiar (Familiar Folio p. 14): the feat of the same name stands in front of the archetype; print's title of the archetype is "School Familiar (Familiar Archetype)"
+PRINT_TITLES["ref/arc-familiar/school-familiar"] = "School Familiar (Familiar Archetype)"
+PRINT_TITLES["ref/arc-companion/accursed-companion"] = "Accursed Companions"     # Horror Realms p. 10: the chapter section of the animal companion's manifestations
+OPENING_ONLY.update({"ref/arc-witch/patron-familiars", "ref/arc-companion/accursed-companion"})     # no listed feature: the entry is converted when no key row of the import is left
+# the import's Patron rows link the patron theme (Agility, Animals, ...): print has no such link, and the label landed on an ordinary word of the text
+LINK_DROP.update({("ref/arc-witch/patron-familiars", w) for w in ("Agility", "Animals", "Deception", "Elements", "Endurance", "Plague", "Shadow", "Strength", "Transformation", "Trickery", "Water", "Wisdom")})
+IMPORT_HEAD_FIXES.update({
+    # Patron Familiars (Familiar Folio p. 17): print sets the patron before the ability in the key, as the Bloodline Familiars do (ruling 53)
+    **{("ref/arc-witch/patron-familiars", old): f"{lead}\u2014{old}" for old, lead in (
+        ("Supernatural Speed (Su)", "Agility"), ("Animal Speaker (Su)", "Animals"), ("Distracting (Su and Sp)", "Deception"),
+        ("Elemental Touch (Su)", "Elements"), ("Endure Afflictions (Su)", "Endurance"), ("Diseased Touch (Ex)", "Plague"),
+        ("Fearsome Shadows (Sp)", "Shadow"), ("Strength of Mind (Su)", "Strength"), ("Shapechanging Familiar (Su)", "Transformation"),
+        ("Familiar's Illusions (Sp)", "Trickery"), ("Amphibious Familiar (Su)", "Water"), ("Preternatural Wisdom (Su)", "Wisdom"))},
+    # School Familiar (Familiar Folio pp. 14-15): the key of a school power is "Lesser" or "Greater", a dash and the name
+    **{("ref/arc-familiar/school-familiar", old): f"{lead}\u2014{old}" for old, lead in (
+        ("Energy Block (Su)", "Lesser"), ("Disruptive Spirit (Su)", "Greater"), ("Master's Side (Sp)", "Lesser"), ("Summoned Shell (Sp)", "Greater"),
+        ("Ever Ready (Su)", "Lesser"), ("Greater Scry on Familiar (Sp)", "Greater"), ("Manipulative Abettor (Su)", "Lesser"), ("Puppet Master (Su)", "Greater"),
+        ("Energy Boost (Su)", "Lesser"), ("Eldritch Battery (Su)", "Greater"), ("Illusory Maestro (Su)", "Lesser"), ("Phantom Swarm (Su)", "Greater"),
+        ("Spirit Warden (Su)", "Lesser"), ("One With the Negative (Su)", "Greater"), ("Dispel Bait (Su)", "Lesser"), ("Infinite Forms (Su)", "Greater"))},
+})
+
+# "Buskers do not gain the bardic performance ability" and "A foundation of faith does not gain the channel energy ability": a replaced class feature that the prose of
+# the feature states (ruling 36)
+TRADE_ADDITIONS["ref/arc-bard/busker"] = [{"replaces": "Bardic performance", "feature": "bardic-performance"}]
+TRADE_PROSE_BY[("ref/arc-bard/busker", "Bardic performance")] = "bardic-performance"
+TRADE_ADDITIONS["ref/arc-cleric/foundation-of-faith"] = [{"replaces": "Channel energy", "feature": "channel-energy"}]
+TRADE_PROSE_BY[("ref/arc-cleric/foundation-of-faith", "Channel energy")] = "channel-energy"
+LEVEL_FROM_PRINT[("ref/arc-sorcerer/crossblooded", "bloodline-powers")] = (1, "print says \"At 1st, 3rd, 9th, 15th, and 20th levels\": the first of the levels at which the power is gained")
+
+
 # ---- Batch B3: Dirty Tactics Toolbox, Villain Codex, Weapon Master's Handbook, Melee Tactics Toolbox, Distant Realms ----
 TRADE_RENAMES.update({
     ("ref/arc-swashbuckler/rondelero-swashbuckler", "Derring-do"): "The derring-do deed",
@@ -4883,7 +4919,7 @@ def configure_book(book: str) -> None:
     CHAPTER_END[0] = 47 if book == "inner-sea-combat" else 0
     PAGE_SKIP[:] = [(16, 23), (26, 999)] if book == "legacy-of-dragons" else []
     LOWERCASE_CONTINUES["on"] = BULLETS["on"] = ITALIC_FIRST["on"] = CITE_EXT["on"] = LEAD_EXT["on"] = book in ("inner-sea-magic", "inner-sea-intrigue", "inner-sea-combat")
-    LEAD_EXT["on"] = LEAD_EXT["on"] or book in BATCH_B_BOOKS or book in BATCH_B3_BOOKS or book in BATCH_B4_BOOKS or book in ("heroes-of-the-darklands", "legacy-of-dragons", "familiar-folio", "advanced-class-origins", "armor-masters-handbook", "cohorts-and-companions",
+    LEAD_EXT["on"] = LEAD_EXT["on"] or book in BATCH_B_BOOKS or book in BATCH_B3_BOOKS or book in BATCH_B4_BOOKS or book in BATCH_B6_BOOKS or book in ("heroes-of-the-darklands", "legacy-of-dragons", "familiar-folio", "advanced-class-origins", "armor-masters-handbook", "cohorts-and-companions",
                                                                                                   "elemental-masters-handbook", "monster-hunters-handbook", "monster-summoners-handbook")
     OCR["on"] = NO_STYLE["on"] = book in ("inner-sea-combat", "monster-codex")
     MC_TITLES["on"] = book == "monster-codex"
@@ -4898,7 +4934,7 @@ def configure_book(book: str) -> None:
     OUTER_TAB["on"] = book == "construct-handbook"
     TAB_LEFT["min"], TAB_LEFT["title"] = (780, 15) if book == "aquatic-adventures" else (0, 16)
     SMALL_CAP_JOIN["gap"] = 10 if book == "divine-anthology" else 8     # the five-unit shift of Blood of the Ancients, the nine of Divine Anthology
-    PAGE_GEOMETRY["on"] = book in ("inner-sea-magic", "inner-sea-intrigue", "inner-sea-combat", "construct-handbook", "aquatic-adventures", "distant-realms")
+    PAGE_GEOMETRY["on"] = book in ("inner-sea-magic", "inner-sea-intrigue", "inner-sea-combat", "construct-handbook", "aquatic-adventures", "distant-realms") or book in BATCH_B6_CHRONICLES
     MARGIN_CAPTIONS["on"] = CAPTIONS["on"] = book in ("inner-sea-magic", "inner-sea-intrigue", "inner-sea-combat")
     BOX_TITLES["titles"] = frozenset(squash(t) for t in BOXES_OF_BOOK.get(book, ()))
     BOX_LORE["titles"] = frozenset(squash(t) for t in LORE_BOXES_OF_BOOK.get(book, ()))
@@ -4913,7 +4949,8 @@ def configure_book(book: str) -> None:
     ART_RUNS["on"] = book in ("black-markets", "blood-of-shadows", "agents-of-evil")     # Agents of Evil: text beside the figure steps in and out line by line (p. 20)
     SECTION_STOPS["on"] = book in ("adventurers-guide", "ultimate-wilderness", "horror-adventures", "planar-adventures")
     ANY_TITLE_ENDS["on"] = book in SMALL_CAP_BOOKS or book in PLAYER_COMPANIONS or book in ("monster-codex", "advanced-class-origins", "black-markets", "blood-of-shadows", "agents-of-evil")
-    STAYS_EXTRA["set"] = frozenset({"discoveries"}) if book == "blood-of-shadows" else frozenset()
+    STAYS_EXTRA["set"] = (frozenset({"discoveries"}) if book == "blood-of-shadows" else
+                          frozenset({"gaininganaccursedcompanion", "accursedcompanionmanifestations"}) if book == "horror-realms" else frozenset())     # the heads of the Accursed Companions section (Horror Realms p. 10)
     SMALL_CAP_TITLES["on"] = book in SMALL_CAP_BOOKS or book in PLAYER_COMPANIONS
     CHAPTER_TITLES["on"] = (book in PLAYER_COMPANIONS and book != "blood-of-the-ancients") or book in CHAPTER_TITLE_BOOKS
     # a title in small capitals and a chapter title can stand higher than the body of the other books (Heroes of the High Court p. 29: capital at 86; Martial Arts Handbook p. 18: chapter title at 70; the running heads stand at 13-29)
@@ -5078,6 +5115,7 @@ def edit_front(front: str, feats: list[dict], by: dict[int, list[str]], n_trades
                skip: set[int] = frozenset()) -> str:
     lines = front.split("\n")
     out, in_fields, in_trades, k, orig = [], False, False, 0, 0
+    has_trades = any(re.match(r"trades = \[\s*$", x) for x in lines)
     listed = [f for f in feats if f["listed"]]
     for ln in lines:
         if ln.strip() == "[fields]":
@@ -5091,6 +5129,16 @@ def edit_front(front: str, feats: list[dict], by: dict[int, list[str]], n_trades
                     items.append(f'  {{ anchor = "{f["anchor"]}"{lv} }},')
                 out.append("features = [")
                 out += items
+                out.append("]")
+            if not has_trades and added:
+                # an entry with no trade in the import (the ten of #361): the trades that print states in prose, in a block of their own
+                out.append("trades = [")
+                for t in added:
+                    op, name = trade_name(t)
+                    extra = "".join(f', {key} = "{t[key]}"' for key in ("feature",) if key in t)
+                    anchors = ", ".join(f'"{a}"' for a in by.get(k, []))
+                    out.append(f'  {{ {op} = "{name}"{extra}' + (f", by = [{anchors}]" if anchors else "") + " },")
+                    k += 1
                 out.append("]")
             continue
         if in_fields and re.match(r"trades = \[\s*$", ln):
@@ -5138,6 +5186,10 @@ HEAD_REWRITES = {
     ("ref/arc-summoner/leshy-caller", "plant-eidolon-subtype"): "Plant Eidolon Subtype",
     ("ref/arc-unchained-summoner/leshy-caller", "plant-eidolon-subtype"): "Plant Eidolon Subtype",
 }
+HEAD_REWRITES.update({
+    ("ref/arc-companion/accursed-companion", "gaining-an-accursed-companion"): "Gaining an Accursed Companion",
+    ("ref/arc-companion/accursed-companion", "accursed-companion-manifestations"): "Accursed Companion Manifestations",
+})
 
 
 # ---- Blood of the Beast, Heroes of the High Court, Martial Arts Handbook (one block, so that the lanes of #540 do not collide) ----
@@ -5529,7 +5581,7 @@ def run_check(args) -> int:
     for k in by_entry:
         if k not in ids:
             errors.append(f"{k}: in the review TSV but not an entry of {book}")
-    errors += missing_printed_sentences(corpus, book, entries)
+    errors += missing_printed_sentences(corpus, book, [e for e in entries if e.converted])
     for (eid, anchor), (text, _note) in read_edits(corpus, book).items():
         errors += [f"{eid}: the edit of `{anchor}` states a paragraph twice (\"{dup}...\")" for dup in repeated_paragraphs(text)]
     print(f"{book}: {len(entries)} archetypes, {converted} converted, {held} not converted")
