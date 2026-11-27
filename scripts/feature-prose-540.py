@@ -2049,22 +2049,26 @@ def take_prerequisites(draft: Draft, p_clean: str, d_clean: str) -> tuple[str, s
         flat = re.sub(r"\[([^\]]*)\]\([^)]*\)", r"\1", pr).replace("_", "").strip()
         if flat not in d_clean or (not m and not loose):
             continue
-        if m:
-            sm = next((x for x in PRINT_AT_LEAST.finditer(p_clean) if x.group(1) == m.group(1)), None)
-            if sm:
+        sm = next((x for x in PRINT_AT_LEAST.finditer(p_clean) if x.group(1) == m.group(1)), None) if m else None
+        if not loose:
+            if sm:                                              # the archetype rule 3, as it was
                 p_clean = p_clean.replace(sm.group(0), " ", 1)
                 d_clean = d_clean.replace(flat, " ", 1)
                 info.append(f"rule 3: the prerequisite row \"{flat[:40]}\" is print's \"must be at least {ordinal(int(m.group(1)))} level\" (the same level)")
-        if not loose:
             continue
+        # a class option: the row is all or nothing. It goes out of the comparison only when its level (if it has one) and every item are print's
         items = [x.strip() for x in flat.split(",") if x.strip() and not PREREQ_LEVEL.search(x)]
         hits = [item_sentence(item, p_clean) for item in items]
-        if items and all(hits):
+        if (m is None or sm) and items + ([m] if m else []) and all(hits):
+            if sm:
+                p_clean = p_clean.replace(sm.group(0), " ", 1)
+                info.append(f"rule 3: the prerequisite row \"{flat[:40]}\" is print's \"must be at least {ordinal(int(m.group(1)))} level\" (the same level)")
             for sent in {h.group(0) for h in hits}:
                 p_clean = p_clean.replace(sent, " ", 1)
             info += [f"rule 3: the prerequisite item \"{item[:30]}\" is print's sentence that says the character must have it" for item in items]
-            if not m:
-                d_clean = d_clean.replace(flat, " ", 1)            # a row without a level: gone when every item is print's sentence
+            d_clean = d_clean.replace(flat, " ", 1)
+        elif m or items:
+            info.append(f"rule 3: the prerequisite row \"{flat[:40]}\" is not all print's sentences: it stays in the comparison")
     return p_clean, d_clean, info
 
 
@@ -6201,10 +6205,14 @@ def self_test() -> int:
     eq(prereq_case("11th-level summoner, burrow", "The eidolon must possess the blindsense evolution to take this evolution. The summoner must be at least 11th level."), "hold", "ruling 60: another item stays held")
     eq(prereq_case("Beast totem, 10th-level barbarian", "A barbarian must have the beast totem rage power to select this rage power. A barbarian must be at least 10th level to select this rage power."), "print", "ruling 60: an item before the level")
     eq(prereq_case("Limbs (arms)", "The eidolon must have the limbs (arms) evolution to take this evolution."), "print", "ruling 60: a qualifier next to its head word")
+    eq(prereq_case("Limbs (arms)", "The eidolon must have the limbs evolution to take this evolution, and an arm elsewhere."), "hold", "ruling 60: every word is there, the qualifier is not next to its head word")
     eq(prereq_case("Limbs (arms)", "The eidolon must have the limbs (legs) evolution to take this evolution."), "hold", "ruling 60: limbs (arms) is not limbs (legs)")
     eq(prereq_case("Claws, quadruped base form", "The eidolon must have the claws evolution to take this evolution. This evolution is only available to eidolons of the quadruped base form."), "print", "ruling 60: two items, \"to take\" and \"only available to\"")
     eq(prereq_case("Claws, quadruped base form", "The eidolon must have the claws evolution to take this evolution. This evolution is only available to eidolons of the biped base form."), "hold", "ruling 60: one item left over holds the row")
-    eq(prereq_case("Serpentine base form", "This evolution is not available to eidolons of the serpentine base form."), "hold", "ruling 60: a negation holds")
+    eq(prereq_case("Serpentine base form", "This evolution is only available to eidolons that are not of the serpentine base form."), "hold", "ruling 60: the frame is there, the negation holds")
+    eq(prereq_case("Serpentine base form", "The serpentine base form is described above."), "hold", "ruling 60: every word is there, no frame holds")
+    eq(prereq_case("Serpentine base form", "This evolution is only available to eidolons of the biped base form."), "hold", "ruling 60: serpentine is not biped")
+    eq(prereq_case("Serpentine base form", "This evolution is only available to eidolons of the serpentine base form."), "print", "ruling 60: only available to, the item")
     eq(prereq_case("Claws", "The eidolon must not possess the claws evolution to take this evolution."), "hold", "ruling 60: must not possess holds")
     eq(prereq_case("Claws", "The claws are described above."), "hold", "ruling 60: a sentence with no frame holds")
     eq(prereq_case("Beast totem", "A barbarian must have the lesser beast totem rage power to select this rage power.", ("Lesser Beast Totem",)), "hold", "ruling 60: a longer known option that holds the item holds")
@@ -6213,7 +6221,10 @@ def self_test() -> int:
     eq(prereq_case("Tail", "The eidolon must possess the tail evolution to take this evolution."), "print", "ruling 60: an item-only row")
     eq(prereq_case("Tail", "The eidolon must possess the tail slap evolution to take this evolution.", ("Tail Slap",)), "hold", "ruling 60: tail is not tail slap")
     eq(prereq_case("Limbs, claws", "The eidolon must have the limbs and claws evolutions to take this evolution."), "print", "ruling 60: two items in one sentence")
-    eq(prereq_case("Reach of 10 feet", "An alignment must be opposite to one of the alignments possessed by the eidolon."), "hold", "ruling 60: a sentence that is no prerequisite holds")
+    eq(prereq_case("Alignment", "An alignment must be opposite to one of the alignments possessed by the eidolon."), "hold", "ruling 60: every word is there, the sentence has no prerequisite frame")
+    eq(prereq_case("9th-level summoner, claws", "The eidolon must have the claws evolution to take this evolution."), "hold", "ruling 60: a level with no printed level sentence holds the row")
+    eq(prereq_case("9th-level summoner, claws", "The eidolon must have the claws evolution to take this evolution. The summoner must be at least 9th level."), "print", "ruling 60: the level and every item are print's")
+    eq(prereq_case("9th-level summoner, claws", "The eidolon must have the bite evolution to take this evolution. The summoner must be at least 9th level."), "hold", "ruling 60: the level matches, an item does not: the row stays")
     eq(cmp_rule("prereq", "**Ability:** An eidolon grows pincers.\n\n**Prereq:** Claws\n", "An eidolon grows pincers. The eidolon must possess the claws evolution to take this evolution.")[1], "hold", "ruling 60: the archetype reading is untouched")
     # rule 4: a `Usage` row that print says word for word is print's
     imp4 = "**Ability:** A hunter can speak with animals.\n\n**Usage:** She can use this ability no more than once per minute.\n"
