@@ -1,0 +1,80 @@
+entry	anchor	decision	note
+ref/discipline/abomination	dark-half	hold	multi-power: separate reviewed batch
+ref/discipline/dream	dream-leech	hold	multi-power: separate reviewed batch
+ref/discipline/faith	divine-energy	hold	multi-power: separate reviewed batch
+ref/discipline/lore	illuminating-answers	hold	multi-power: separate reviewed batch
+ref/discipline/pain	painful-reminder	hold	multi-power: separate reviewed batch
+ref/discipline/psychedelia	drug-resistance	hold	multi-power: separate reviewed batch
+ref/discipline/rapport	emotional-bond	hold	multi-power: separate reviewed batch
+ref/discipline/self-perfection	ac-bonus	hold	multi-power: separate reviewed batch
+ref/discipline/tranquility	mental-placidity	hold	multi-power: separate reviewed batch
+ref/emotionalfocus/anger	strength-focus	hold	multi-power: separate reviewed batch
+ref/emotionalfocus/dedication	iron-will	hold	multi-power: separate reviewed batch
+ref/emotionalfocus/despair	power-from-despair	hold	multi-power: separate reviewed batch
+ref/emotionalfocus/fear	stealthy	hold	multi-power: separate reviewed batch
+ref/emotionalfocus/hatred	weapon-finesse	hold	multi-power: separate reviewed batch
+ref/emotionalfocus/jealousy	deceitful	hold	multi-power: separate reviewed batch
+ref/emotionalfocus/zeal	tracking	hold	multi-power: separate reviewed batch
+ref/implement/abjuration	warding-talisman	hold	multi-power: separate reviewed batch
+ref/implement/conjuration	casting-focus	hold	multi-power: separate reviewed batch
+ref/implement/divination	third-eye	hold	multi-power: separate reviewed batch
+ref/implement/enchantment	glorious-presence	hold	multi-power: separate reviewed batch
+ref/implement/evocation	intense-focus	hold	multi-power: separate reviewed batch
+ref/implement/illusion	distortion	hold	multi-power: separate reviewed batch
+ref/implement/necromancy	necromantic-focus	hold	multi-power: separate reviewed batch
+ref/implement/transmutation	physical-enhancement	hold	multi-power: separate reviewed batch
+ref/order/order-of-the-eastern-star	guarded	hold	multi-power: separate reviewed batch
+ref/order/order-of-the-shroud	spiritual-shield	hold	multi-power: separate reviewed batch
+ref/sorcbloodline/ectoplasm	bloodline-arcana	hold	multi-power: separate reviewed batch
+ref/sorcbloodline/psychic	psychic-strike	hold	multi-power: separate reviewed batch
+ref/spirit/archmage	archmage-arcana	hold	multi-power: separate reviewed batch
+ref/spirit/champion	champion-s-prowess	hold	multi-power: separate reviewed batch
+ref/spirit/guardian	guardian-s-shield	hold	multi-power: separate reviewed batch
+ref/spirit/hierophant	divine-surge	hold	multi-power: separate reviewed batch
+ref/spirit/marshal	marshal-s-order	hold	multi-power: separate reviewed batch
+ref/spirit/trickster	surprise-strike	hold	multi-power: separate reviewed batch
+ref/discovery/promethean-disciple	promethean-disciple	print	Ruling 60: print states the prerequisite as “An alchemist must be at least 6th level before selecting this discovery” and keeps the Core Rulebook p. 549 citation; the import's “6th-level alchemist” row is dropped. (Occult Adventures p. 112).
+ref/phrenicamp/complex-countermeasures	complex-countermeasures	print	The printed head is singular, “Complex Countermeasure (Ex),” matching the entry title; the import head has an extra plural s. The printed paragraph is transcribed (Occult Adventures p. 60).
+ref/phrenicamp/conjured-armor	conjured-armor	print	Ruling 8: print's +2 base deflection bonus, increasing to +3 at 8th level and +4 at 15th, matches the import's values at each level; print's wording is used. (Occult Adventures p. 61).
+ref/phrenicamp/defensive-prognostication	defensive-prognostication	print	The prose matches print word for word after import row labels are removed; only row formatting differs, with no number or rule-word change (Occult Adventures p. 61).
+ref/phrenicamp/dispelling-pulse	dispelling-pulse	print	The proposed text agrees with print; retain the print transcription (Occult Adventures p. 63).
+ref/phrenicamp/dual-amplification	dual-amplification	print	The proposed text agrees with print; retain the print transcription (Occult Adventures p. 63).
+ref/phrenicamp/focused-force	focused-force	print	The proposed text agrees with print; retain the print transcription (Occult Adventures p. 61).
+ref/phrenicamp/intense-focus	intense-focus	print	The proposed text agrees with print; retain the print transcription (Occult Adventures p. 61).
+ref/phrenicamp/mimic-metamagic	mimic-metamagic	print	The page text extraction inserted Table 1–8 into the paragraph. I reconstructed the complete printed prose from both columns and checked each number against Occult Adventures p. 63; the table is not part of this option.
+ref/phrenicamp/mindshield	mindshield	print	The proposed text agrees with print; retain the print transcription (Occult Adventures p. 61).
+ref/phrenicamp/mindtouch	mindtouch	print	The proposed text agrees with print; retain the print transcription (Occult Adventures p. 61).
+ref/phrenicamp/ongoing-defense	ongoing-defense	print	The page text extraction inserted Table 1–7 into the paragraph. I reconstructed the complete printed prose from both columns and checked its spell names and 1-round extension against Occult Adventures pp. 61–62; the table is not part of this option.
+ref/phrenicamp/overpowering-mind	overpowering-mind	print	Ruling 8: print's 2-point cost for +1 DC, then 4 points for +2 at 8th level and 6 points for +3 at 15th, matches the import's values; print's wording is used. (Occult Adventures p. 62).
+ref/phrenicamp/relentless-casting	relentless-casting	print	The proposed text agrees with print; retain the print transcription (Occult Adventures p. 62).
+ref/phrenicamp/space-rending-spell	space-rending-spell	print	The prose matches print word for word after import row labels are removed; only row formatting differs, with no number or rule-word change (Occult Adventures p. 63).
+ref/phrenicamp/subordinate-spell	subordinate-spell	print	The proposed text agrees with print; retain the print transcription (Occult Adventures p. 64).
+ref/phrenicamp/synaptic-shock	synaptic-shock	print	The prose matches print word for word after import row labels are removed; only row formatting differs, with no number or rule-word change (Occult Adventures p. 64).
+ref/phrenicamp/turning-shield	turning-shield	print	The prose matches print word for word after import row labels are removed; only row formatting differs, with no number or rule-word change (Occult Adventures p. 64).
+ref/phrenicamp/undercast-surge	undercast-surge	print	The printed opening adds “(see page 144)” after “undercasts a spell.” The 2-point cost and mind thrust II/III/IV examples otherwise match the import; the page reference is retained. (Occult Adventures p. 62).
+ref/phrenicamp/will-of-the-dead	will-of-the-dead	print	The prose matches print word for word after import row labels are removed; only row formatting differs, with no number or rule-word change (Occult Adventures p. 62).
+ref/trick/astounding-avoidance	astounding-avoidance	hold	Rule-word difference: print says the subject takes half damage on a failed save if the mesmerist is 12th level or higher; the import says this starts at 12th level. Held for ruling 3 review (Occult Adventures p. 40).
+ref/trick/avian-escape	avian-escape	print	The prose matches print word for word after import row labels are removed; only row formatting differs, with no number or rule-word change (Occult Adventures p. 43).
+ref/trick/compel-alacrity	compel-alacrity	print	Ruling 8: the import values 10, 15, 20, 25, and 30 feet at levels 1, 5, 10, 15, and 20 match print’s 10 feet plus 5 feet every 5 levels, to 30 feet at 20th. Print’s wording is used (Occult Adventures p. 40).
+ref/trick/cursed-sanction	cursed-sanction	print	The reviewed #537 resolution supplies the printed text for this trick; the text was checked against Occult Adventures p. 43.
+ref/trick/faked-death	faked-death	print	The prose matches print word for word after import row labels are removed; only row formatting differs, with no number or rule-word change (Occult Adventures p. 44).
+ref/trick/false-flanker	false-flanker	print	The prose matches print word for word after import row labels are removed; only row formatting differs, with no number or rule-word change (Occult Adventures p. 40).
+ref/trick/fearsome-guise	fearsome-guise	print	The prose matches print word for word after import row labels are removed; only row formatting differs, with no number or rule-word change (Occult Adventures p. 40).
+ref/trick/free-in-body	free-in-body	print	The prose matches print word for word after import row labels are removed; only row formatting differs, with no number or rule-word change (Occult Adventures p. 44).
+ref/trick/gift-of-will	gift-of-will	print	The prose matches print word for word after import row labels are removed; only row formatting differs, with no number or rule-word change (Occult Adventures p. 40).
+ref/trick/levitation-buffer	levitation-buffer	print	The printed hostile levitation comparison keeps the citation “Pathfinder RPG Ultimate Combat 231,” which the import omits; the printed citation and wording are retained. (Occult Adventures p. 41).
+ref/trick/linked-reaction	linked-reaction	print	The prose matches print word for word after import row labels are removed; only row formatting differs, with no number or rule-word change (Occult Adventures p. 41).
+ref/trick/mask-misery	mask-misery	hold	Rule-word difference: print says the added moderate conditions apply if the mesmerist is 6th level or higher; the import says this begins at 6th level. Held for ruling 3 review (Occult Adventures p. 41).
+ref/trick/meek-facade	meek-facade	print	Ruling 8: print’s +2 base AC bonus, increased by 1 every 5 levels, matches the import’s +3, +4, +5, and +6 at 5th, 10th, 15th, and 20th. Print’s wording is used (Occult Adventures p. 41).
+ref/trick/mental-fallback	mental-fallback	print	The prose matches print word for word after import row labels are removed; only row formatting differs, with no number or rule-word change (Occult Adventures p. 44).
+ref/trick/mesmeric-mirror	mesmeric-mirror	print	Ruling 8: print’s one image plus one additional image per 5 class levels, to five at 20th, matches the import’s totals of 1, 2, 3, 4, and 5 at 1st, 5th, 10th, 15th, and 20th. Print’s wording is used (Occult Adventures p. 41).
+ref/trick/mesmeric-pantomime	mesmeric-pantomime	print	The prose matches print word for word after import row labels are removed; only row formatting differs, with no number or rule-word change (Occult Adventures p. 41).
+ref/trick/misdirection	misdirection	print	The prose matches print word for word after import row labels are removed; only row formatting differs, with no number or rule-word change (Occult Adventures p. 41).
+ref/trick/psychosomatic-surge	psychosomatic-surge	print	The prose matches print word for word after import row labels are removed; only row formatting differs, with no number or rule-word change (Occult Adventures p. 41).
+ref/trick/reflection-of-weakness	reflection-of-weakness	print	The prose matches print word for word after import row labels are removed; only row formatting differs, with no number or rule-word change (Occult Adventures p. 41).
+ref/trick/shadow-splinter	shadow-splinter	print	The prose matches print word for word after import row labels are removed; only row formatting differs, with no number or rule-word change (Occult Adventures p. 42).
+ref/trick/spatial-switch	spatial-switch	print	The prose matches print word for word after import row labels are removed; only row formatting differs, with no number or rule-word change (Occult Adventures p. 44).
+ref/trick/spectral-smoke	spectral-smoke	print	Ruling 8: print’s 10-foot base radius plus 5 feet every 5 caster levels, to 30 feet at 20th, matches the import’s 10, 15, 20, 25, and 30 feet at 1st, 5th, 10th, 15th, and 20th. Print’s wording is used (Occult Adventures p. 42).
+ref/trick/spell-anticipation	spell-anticipation	print	The reviewed #537 resolution supplies the printed text for this trick; the text was checked against Occult Adventures p. 44.
+ref/trick/vanish-arrow	vanish-arrow	print	The prose matches print word for word after import row labels are removed; only row formatting differs, with no number or rule-word change (Occult Adventures p. 42).
+ref/trick/vision-of-blood	vision-of-blood	print	The prose matches print word for word after import row labels are removed; only row formatting differs, with no number or rule-word change (Occult Adventures p. 44).
