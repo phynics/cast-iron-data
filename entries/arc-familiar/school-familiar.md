@@ -11,7 +11,7 @@ publication = "familiar-folio"
 page = "14"
 
 [fields]
-kind = "none"
+kind = "archetype"
 +++
 
 School familiars are tightly bound to the power of their master's chosen school of magic. A school
