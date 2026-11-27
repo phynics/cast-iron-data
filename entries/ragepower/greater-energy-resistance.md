@@ -17,5 +17,5 @@ group = "rage-power"
 
 Once per rage, a barbarian can reduce damage by half from a single attack against which she has
 [energy resistance](ref/ragepower/energy-resistance) (halve the damage, then apply resistance). A
-barbarian must have the energy resistance rage power to select this rage power. A barbarian must be
-at least 8th level to select this rage power.
+barbarian must have the [energy resistance](ref/ragepower/energy-resistance) rage power to select
+this rage power. A barbarian must be at least 8th level to select this rage power.

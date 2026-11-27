@@ -17,5 +17,5 @@ group = "rage-power"
 
 As [lesser hurling](ref/ragepower/lesser-hurling), but the barbarian can increase the range
 increment to 20 feet or increase the size of a hurled object by one size category. A barbarian must
-have the lesser hurling rage power to select this rage power. A barbarian must be at least 8th level
-to select this rage power.
+have the [lesser hurling](ref/ragepower/lesser-hurling) rage power to select this rage power. A
+barbarian must be at least 8th level to select this rage power.

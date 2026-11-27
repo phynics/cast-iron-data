@@ -26,5 +26,5 @@ check (at a -4 penalty). The DC of these checks is equal to 10 + 1/2 the eidolon
 eidolon's Con modifier. The webs have a [Hardness](ref/umr/hardness) of 0 and a number of hits
 points equal to the eidolon's total Hit Dice. The eidolon can [climb](ref/evolution/climb) its own
 webs at its climb speed and can pinpoint any creature touching its webs. The eidolon must possess
-the climb evolution to take this evolution. The summoner must be at least 7th level before selecting
-this evolution.
+the [climb](ref/evolution/climb) evolution to take this evolution. The summoner must be at least 7th
+level before selecting this evolution.
