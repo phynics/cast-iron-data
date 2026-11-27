@@ -16,6 +16,8 @@ group = "unchained-summoner-evolution"
 ability_type = "Ex"
 +++
 
+2-Point Evolutions: The following evolutions cost 2 points from the eidolon's evolution pool.
+
 The eidolon gains powerful muscles that allow it to crush those it grapples. Whenever the eidolon
 successfully grapples a foe using the [grab](ref/unchevolution/grab) evolution, it deals additional
 damage equal to the amount of damage dealt by the attack the [grab](ref/unchevolution/grab)

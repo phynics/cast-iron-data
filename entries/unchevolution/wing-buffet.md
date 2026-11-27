@@ -8,13 +8,15 @@ provenance = [
 ]
 [[sources]]
 publication = "pathfinder-unchained"
-page = "36"
+page = "35-36"
 
 [fields]
 kind = "class_option"
 group = "unchained-summoner-evolution"
 ability_type = "Ex"
 +++
+
+1-Point Evolutions: The following evolutions cost 1 point from the eidolon's evolution pool.
 
 The eidolon learns to use its wings to batter foes, granting it two
 [wing buffet attacks](ref/umr/natural-attacks). These attacks are secondary attacks. The wing

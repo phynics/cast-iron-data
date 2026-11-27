@@ -8,13 +8,15 @@ provenance = [
 ]
 [[sources]]
 publication = "pathfinder-unchained"
-page = "39"
+page = "38-39"
 
 [fields]
 kind = "class_option"
 group = "unchained-summoner-evolution"
 ability_type = "Ex"
 +++
+
+4-Point Evolutions: The following evolutions cost 4 points from the eidolon's evolution pool.
 
 The eidolon grows in size, becoming Large. The eidolon gains a +4 bonus to Strength, a +2 bonus to
 Constitution, and a +2 bonus to its natural armor. It takes a –2 penalty to Dexterity. This size

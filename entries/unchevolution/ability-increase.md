@@ -16,6 +16,8 @@ group = "unchained-summoner-evolution"
 ability_type = "Ex"
 +++
 
+2-Point Evolutions: The following evolutions cost 2 points from the eidolon's evolution pool.
+
 The eidolon grows larger muscles, gains faster reflexes, achieves greater intelligence, or acquires
 another increase to one of its abilities. Increase one of the eidolon's ability scores by 2. This
 evolution can be selected more than once. It can be applied only once to an individual ability

@@ -16,6 +16,8 @@ group = "unchained-summoner-evolution"
 ability_type = "Su"
 +++
 
+3-Point Evolutions: The following evolutions cost 3 points from the eidolon's evolution pool.
+
 The eidolon's body becomes more resistant to harm. Increase the damage reduction granted by the
 eidolon's subtype by 5. _Requirements_: Summoner level 15th, damage reduction granted by the
 eidolon's subtype.

@@ -8,13 +8,15 @@ provenance = [
 ]
 [[sources]]
 publication = "pathfinder-unchained"
-page = "37"
+page = "36-37"
 
 [fields]
 kind = "class_option"
 group = "unchained-summoner-evolution"
 ability_type = "Ex or Su"
 +++
+
+2-Point Evolutions: The following evolutions cost 2 points from the eidolon's evolution pool.
 
 The eidolon grows large wings, like those of a bat, bird, insect, or dragon, gaining the ability to
 fly. The eidolon gains a fly speed equal to its base speed. The eidolon's maneuverability depends on

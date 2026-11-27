@@ -8,13 +8,15 @@ provenance = [
 ]
 [[sources]]
 publication = "pathfinder-unchained"
-page = "37"
+page = "36-37"
 
 [fields]
 kind = "class_option"
 group = "unchained-summoner-evolution"
 ability_type = "Ex"
 +++
+
+2-Point Evolutions: The following evolutions cost 2 points from the eidolon's evolution pool.
 
 The eidolon learns to rip and tear the flesh of those it attacks with its
 [claws](ref/unchevolution/claws), gaining the [rend](ref/umr/rend) ability. Whenever the eidolon

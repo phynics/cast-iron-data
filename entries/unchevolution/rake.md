@@ -8,13 +8,15 @@ provenance = [
 ]
 [[sources]]
 publication = "pathfinder-unchained"
-page = "37"
+page = "36-37"
 
 [fields]
 kind = "class_option"
 group = "unchained-summoner-evolution"
 ability_type = "Ex"
 +++
+
+2-Point Evolutions: The following evolutions cost 2 points from the eidolon's evolution pool.
 
 The eidolon grows dangerous claws on its feet, allowing it to make two [rake](ref/umr/rake) attacks
 against foes it is grappling. These attacks are [primary attacks](ref/umr/natural-attacks). The

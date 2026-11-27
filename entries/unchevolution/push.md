@@ -16,6 +16,8 @@ group = "unchained-summoner-evolution"
 ability_type = "Ex"
 +++
 
+1-Point Evolutions: The following evolutions cost 1 point from the eidolon's evolution pool.
+
 The eidolon gains the ability to push creatures away with a successful attack. Select one type of
 natural attack. Whenever the eidolon makes a successful attack of the selected type, it can attempt
 a free combat maneuver check. If the eidolon succeeds at this check, it pushes the target of the

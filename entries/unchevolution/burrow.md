@@ -16,6 +16,8 @@ group = "unchained-summoner-evolution"
 ability_type = "Ex"
 +++
 
+3-Point Evolutions: The following evolutions cost 3 points from the eidolon's evolution pool.
+
 The eidolon grows thick and gnarled claws, allowing it to move through the earth. The eidolon gains
 a burrow speed equal to 1/2 its base speed. It can use this speed to move through clay, dirt, earth,
 and sand. It does not leave a hole behind, nor is its passage marked on the surface. _Requirements_:

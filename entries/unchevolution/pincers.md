@@ -16,6 +16,8 @@ group = "unchained-summoner-evolution"
 ability_type = "Ex"
 +++
 
+1-Point Evolutions: The following evolutions cost 1 point from the eidolon's evolution pool.
+
 An eidolon grows large pincers at the ends of one pair of its [limbs](ref/unchevolution/limbs),
 giving it two [pincer attacks](ref/umr/natural-attacks). These attacks are secondary attacks. The
 pincers deal 1d6 points of damage (1d8 if Large, 2d6 if Huge). Eidolons with the

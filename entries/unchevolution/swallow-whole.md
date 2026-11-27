@@ -16,6 +16,8 @@ group = "unchained-summoner-evolution"
 ability_type = "Ex"
 +++
 
+3-Point Evolutions: The following evolutions cost 3 points from the eidolon's evolution pool.
+
 The eidolon gains the [swallow whole](ref/umr/swallow-whole) ability, giving it the ability to
 consume its foes. If the eidolon begins its turn with a creature
 [grappled](ref/rule/grapple-conditions) using its bite attack (see the

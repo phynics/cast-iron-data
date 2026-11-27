@@ -8,13 +8,15 @@ provenance = [
 ]
 [[sources]]
 publication = "pathfinder-unchained"
-page = "36"
+page = "35-36"
 
 [fields]
 kind = "class_option"
 group = "unchained-summoner-evolution"
 ability_type = "Ex"
 +++
+
+1-Point Evolutions: The following evolutions cost 1 point from the eidolon's evolution pool.
 
 The eidolon becomes especially adept at a specific skill, gaining a +8 racial bonus on that skill.
 This evolution can be selected more than once. Its effects do not stack. Each time the eidolon

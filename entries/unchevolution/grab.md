@@ -8,13 +8,15 @@ provenance = [
 ]
 [[sources]]
 publication = "pathfinder-unchained"
-page = "37"
+page = "36-37"
 
 [fields]
 kind = "class_option"
 group = "unchained-summoner-evolution"
 ability_type = "Ex"
 +++
+
+2-Point Evolutions: The following evolutions cost 2 points from the eidolon's evolution pool.
 
 The eidolon becomes adept at grappling foes, gaining the [grab](ref/umr/grab) ability. Select one of
 the following attacks: [bite](ref/unchevolution/bite), claw, [pincers](ref/unchevolution/pincers),

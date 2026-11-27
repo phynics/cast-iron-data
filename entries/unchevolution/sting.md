@@ -8,13 +8,15 @@ provenance = [
 ]
 [[sources]]
 publication = "pathfinder-unchained"
-page = "36"
+page = "35-36"
 
 [fields]
 kind = "class_option"
 group = "unchained-summoner-evolution"
 ability_type = "Ex"
 +++
+
+1-Point Evolutions: The following evolutions cost 1 point from the eidolon's evolution pool.
 
 The eidolon possesses a long, barbed stinger at the end of its [tail](ref/unchevolution/tail),
 granting it a [sting attack](ref/umr/natural-attacks). This attack is a primary attack. The sting

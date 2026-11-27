@@ -8,13 +8,15 @@ provenance = [
 ]
 [[sources]]
 publication = "pathfinder-unchained"
-page = "37"
+page = "36-37"
 
 [fields]
 kind = "class_option"
 group = "unchained-summoner-evolution"
 ability_type = "Ex"
 +++
+
+2-Point Evolutions: The following evolutions cost 2 points from the eidolon's evolution pool.
 
 The eidolon gains the ability to crush its foes underfoot, gaining the [trample](ref/umr/trample)
 ability. As a full-round action, the eidolon can [overrun](ref/rule/overrun) any creature that is at

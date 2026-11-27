@@ -16,7 +16,7 @@ group = "rogue-talent"
 ability_type = "Ex"
 +++
 
-Talents marked with an asterisk add effects to a rogue’s sneak attack. Only one of these talents can
+Talents marked with an asterisk add effects to a rogue's sneak attack. Only one of these talents can
 be applied to an individual attack, and the decision must be made before the attack roll is made.
 
 When a rogue with this talent uses the [powerful sneak](ref/talent/powerful-sneak) talent, she

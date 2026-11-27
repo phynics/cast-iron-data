@@ -8,13 +8,15 @@ provenance = [
 ]
 [[sources]]
 publication = "pathfinder-unchained"
-page = "36"
+page = "35-36"
 
 [fields]
 kind = "class_option"
 group = "unchained-summoner-evolution"
 ability_type = "Ex"
 +++
+
+1-Point Evolutions: The following evolutions cost 1 point from the eidolon's evolution pool.
 
 The eidolon's form takes on a resiliency to one particular energy type, which is usually reflected
 in its physical body (ashen hide for fire, icy breath for cold, and so on). Select one energy type

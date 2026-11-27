@@ -16,6 +16,8 @@ group = "unchained-summoner-evolution"
 ability_type = "Ex"
 +++
 
+1-Point Evolutions: The following evolutions cost 1 point from the eidolon's evolution pool.
+
 The eidolon is properly skilled and formed to serve as a [combat-trained](ref/rule/mounted-combat)
 mount. The eidolon must be at least one size category larger than its rider. _Requirements_:
 [Daemon](ref/eidolon/daemon), [demon](ref/eidolon/demon), [devil](ref/eidolon/devil),

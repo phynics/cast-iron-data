@@ -16,6 +16,8 @@ group = "unchained-summoner-evolution"
 ability_type = "Ex"
 +++
 
+3-Point Evolutions: The following evolutions cost 3 points from the eidolon's evolution pool.
+
 The eidolon gains a pair of spinnerets, giving it the ability to spin webs. The eidolon can use
 these webs to support itself plus one creature of up to the same size. It can throw webbing as a
 ranged touch attack up to eight times per day, entangling a creature up to one size larger than the

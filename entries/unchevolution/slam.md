@@ -8,13 +8,15 @@ provenance = [
 ]
 [[sources]]
 publication = "pathfinder-unchained"
-page = "36"
+page = "35-36"
 
 [fields]
 kind = "class_option"
 group = "unchained-summoner-evolution"
 ability_type = "Ex"
 +++
+
+1-Point Evolutions: The following evolutions cost 1 point from the eidolon's evolution pool.
 
 The eidolon can deliver a devastating [slam attack](ref/umr/natural-attacks). This attack is a
 primary attack. The slam deals 1d8 points of damage (2d6 if Large, 2d8 if Huge). The eidolon must

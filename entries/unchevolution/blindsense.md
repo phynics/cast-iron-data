@@ -16,6 +16,8 @@ group = "unchained-summoner-evolution"
 ability_type = "Ex"
 +++
 
+3-Point Evolutions: The following evolutions cost 3 points from the eidolon's evolution pool.
+
 The eidolon's senses become incredibly acute, giving it [blindsense](ref/umr/blindsense) with a
 range of 30 feet. This ability allows the eidolon to pinpoint the location of creatures that it
 can't see without having to attempt a Perception check, but such creatures still have total

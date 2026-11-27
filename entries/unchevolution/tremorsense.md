@@ -8,13 +8,15 @@ provenance = [
 ]
 [[sources]]
 publication = "pathfinder-unchained"
-page = "37"
+page = "36-37"
 
 [fields]
 kind = "class_option"
 group = "unchained-summoner-evolution"
 ability_type = "Ex"
 +++
+
+2-Point Evolutions: The following evolutions cost 2 points from the eidolon's evolution pool.
 
 The eidolon becomes attuned to vibrations in the ground, gaining [tremorsense](ref/umr/tremorsense)
 with a range of 30 feet. This works like the [blindsense](ref/unchevolution/blindsense) evolution,

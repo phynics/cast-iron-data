@@ -16,6 +16,8 @@ group = "unchained-summoner-evolution"
 ability_type = "Su"
 +++
 
+4-Point Evolutions: The following evolutions cost 4 points from the eidolon's evolution pool.
+
 The eidolon's body gains the ability to heal wounds very quickly, giving it
 [fast healing](ref/umr/fast-healing) 1. The eidolon heals 1 point of damage per round, just like via
 natural healing. Fast healing does not restore hit points lost due to starvation, thirst, or
