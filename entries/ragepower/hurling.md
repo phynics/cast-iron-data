@@ -15,9 +15,7 @@ kind = "class_option"
 group = "rage-power"
 +++
 
-**Hurling (Ex)**
-
-**Ability:** As _lesser hurling,_ but the barbarian can increase the range increment to 20 feet or
-increase the size of a hurled object by one size category.
-
-**Prereq:** [Lesser hurling](ref/ragepower/lesser-hurling), 8th-level barbarian
+As [lesser hurling](ref/ragepower/lesser-hurling), but the barbarian can increase the range
+increment to 20 feet or increase the size of a hurled object by one size category. A barbarian must
+have the lesser hurling rage power to select this rage power. A barbarian must be at least 8th level
+to select this rage power.

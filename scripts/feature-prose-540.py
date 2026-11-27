@@ -1994,7 +1994,7 @@ def take_prerequisites(draft: Draft, p_clean: str, d_clean: str) -> tuple[str, s
     number is the rule). A prerequisite of another shape stays in the comparison."""
     info: list[str] = []
     for pr in draft.prereq:
-        m = PREREQ_LEVEL.match(pr.strip())
+        m = PREREQ_LEVEL.search(pr.strip())       # class options (#540) name an item before the level ("Beast totem, 10th-level barbarian")
         flat = re.sub(r"\[([^\]]*)\]\([^)]*\)", r"\1", pr).replace("_", "").strip()
         if not m or flat not in d_clean:
             continue
@@ -2005,7 +2005,7 @@ def take_prerequisites(draft: Draft, p_clean: str, d_clean: str) -> tuple[str, s
             info.append(f"rule 3: the prerequisite row \"{flat[:40]}\" is print's \"must be at least {ordinal(int(m.group(1)))} level\" (the same level)")
         # class options (#540): the items after the level ("11th-level summoner, blindsense") are print's "The eidolon must possess the blindsense
         # evolution to take this evolution": a sentence with "must" that names every word of an item is that item
-        for item in [x.strip() for x in flat.split(",")[1:] if x.strip()]:
+        for item in [x.strip() for x in flat.split(",") if x.strip() and not PREREQ_LEVEL.search(x)]:
             words = re.findall(r"[a-z0-9]+", fold(item))
             hit = next((x for x in re.finditer(r"[^.]*\bmust (?:possess|select|have|take|be)\b[^.]*\.", p_clean)
                         if all(w in re.findall(r"[a-z0-9]+", fold(x.group(0))) for w in words)), None)
@@ -6101,6 +6101,9 @@ def self_test() -> int:
     p3b = "An eidolon sees in the dark. The eidolon must possess the blindsense evolution to take this evolution. The summoner must be at least 11th level."
     eq(cmp_rule("prereq", imp3b, p3b)[1], "print", "rule 3: a prerequisite item is print's sentence")
     eq(cmp_rule("prereq", imp3b, p3b.replace("blindsense", "burrow"))[1], "hold", "rule 3: another item is a hold")
+    imp3c = "**Passive:** A barbarian pounces.\n\n**Prereq:** [Beast totem](ref/ragepower/beast-totem), 10th-level barbarian\n"
+    p3c = "A barbarian pounces. A barbarian must have the beast totem rage power to select this rage power. A barbarian must be at least 10th level to select this rage power."
+    eq(cmp_rule("prereq", imp3c, p3c)[1], "print", "rule 3: an item before the level is print's sentence too")
     # rule 4: a `Usage` row that print says word for word is print's
     imp4 = "**Ability:** A hunter can speak with animals.\n\n**Usage:** She can use this ability no more than once per minute.\n"
     eq(cmp_rule("usage", imp4, "A hunter can speak with animals. She can use this ability no more than once per minute.")[1], "print", "rule 4: the row is in print")

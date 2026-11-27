@@ -15,9 +15,7 @@ kind = "class_option"
 group = "rage-power"
 +++
 
-**Greater Energy Resistance (Ex)**
-
-**Ability:** Once per _rage,_ a barbarian can reduce damage by half from a single attack against
-which she has energy resistance (halve the damage, then apply resistance).
-
-**Prereq:** 8th-level barbarian, [energy resistance](ref/ragepower/energy-resistance)
+Once per rage, a barbarian can reduce damage by half from a single attack against which she has
+[energy resistance](ref/ragepower/energy-resistance) (halve the damage, then apply resistance). A
+barbarian must have the energy resistance rage power to select this rage power. A barbarian must be
+at least 8th level to select this rage power.

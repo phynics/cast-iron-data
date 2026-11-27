@@ -15,11 +15,8 @@ kind = "class_option"
 group = "rage-power"
 +++
 
-**Greater Elemental Rage (Su)**
-
-**Passive:** While _raging,_ all of the barbarian's critical hits made with melee weapons deal an
-additional 1d10 points of energy damage (2d10 if the weapon deals ×3 damage on a critical hit, 3d10
-if the weapon deals ×4 on a critical hit). The type of this damage is the same as the type chosen
-for the _elemental rage_ power.
-
-**Prereq:** 12th-level barbarian, [elemental rage](ref/ragepower/elemental-rage)
+While raging, all of the barbarian's critical hits made with melee weapons deal an additional 1d10
+points of energy damage (2d10 if the weapon deals ×3 damage on a critical hit, 3d10 if the weapon
+deals ×4 on a critical hit). The type of this damage is the same as the type chosen for the
+[elemental rage](ref/ragepower/elemental-rage) power. A barbarian must have the elemental rage power
+to select this rage power. A barbarian must be at least 12th level to select this rage power.

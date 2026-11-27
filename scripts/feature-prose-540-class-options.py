@@ -121,16 +121,32 @@ def level_of(text: str) -> int | None:
 EXTRA_NAMES: list[str] = []          # the names of every class option of the book: an italic head of a neighbour ends a power's text
 
 
+INVERTED_HEAD = re.compile(r"^(.+?),\s*(Lesser|Greater|Improved|Mass)(\s*\([A-Za-z]{2}\))?\s*:?$")
+
+
+VARIANT_FIRST = re.compile(r"^(Lesser|Greater|Improved|Mass) ")
+
+
+def inverted(name: str) -> str:
+    m = re.match(r"^(Lesser|Greater|Improved|Mass) (.+?)(\s*\([A-Za-z]{2}\))?$", name)
+    return f"{m.group(2)}, {m.group(1)}{m.group(3) or ''}" if m else name
+
+
 def install_split(names: list[str]) -> None:
     """The print reader takes an italic paragraph start as a head only when the entry expects that name. A page of class options sets
     the powers of other entries beside the entry's own (the evolutions are italic heads in one list), so every name of the book is
     expected, and a power's text ends at the next power of the page."""
-    EXTRA_NAMES[:] = names
+    EXTRA_NAMES[:] = list(names) + [inverted(n) for n in names if VARIANT_FIRST.match(n)]      # print sets the variant behind the name, in italics
     if not getattr(fp.split_print, "_class_options", False):
         orig = fp.split_print
 
         def wrapped(section, expected):
-            return orig(section, list(expected) + EXTRA_NAMES)
+            opening, feats = orig(section, list(expected) + EXTRA_NAMES)
+            for f in feats:                      # print sets "Beast Totem, Greater (Su)" for the corpus title "Greater Beast Totem"
+                m = INVERTED_HEAD.match(f.head)
+                if m:
+                    f.head = f"{m.group(2)} {m.group(1)}{m.group(3) or ''}"
+            return opening, feats
         wrapped._class_options = True
         fp.split_print = wrapped
 
@@ -390,6 +406,9 @@ def self_test() -> int:
         else:
             bad.append(f"{what}: {a!r} != {b!r}")
 
+    eq(inverted("Greater Beast Totem (Su)"), "Beast Totem, Greater (Su)", "print sets the variant behind the name")
+    eq(inverted("Beast Totem"), "Beast Totem", "a name without a variant stays")
+    eq(INVERTED_HEAD.match("Beast Totem, Greater (Su)").groups(), ("Beast Totem", "Greater", " (Su)"), "the inverted head is read")
     single = "\n**Animal Fury (Ex)**\n\n**Ability:** A bite attack.\n\n**Special:** A grapple.\n"
     multi = ("\n**Deities**\n\n**Details:** Gorum.\n\n### Revelations\n\nAn oracle can choose from the following.\n\n"
              "**Battlecry (Ex)**\n\n**Standard:** A cry.\n\n**Usage:** 1 time/day\n\n**At 10th level,** more.\n\n"
