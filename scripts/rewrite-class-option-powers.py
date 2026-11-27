@@ -983,6 +983,16 @@ def retired_entries(corpus: Path) -> set[str]:
     return {entry_id for entry_id, _path, parts in class_option_entries(corpus) if not entry_in_scope(parts[2].split("\n"))}
 
 
+def bold_only_names(corpus: Path, retired: set[str]) -> dict[str, set[str]]:
+    """For each retired entry, the names that still stand as a bold-only block (`**Name**`): an entry that has no import row but still has
+    such a name is not converted (the print rewrite makes heads), so a key of that name is orphaned, not retired (#362 follow-up)."""
+    out: dict[str, set[str]] = {}
+    for entry_id, _path, parts in class_option_entries(corpus):
+        if entry_id in retired:
+            out[entry_id] = {re.sub(r"[^a-z0-9]", "", re.sub(r"\s*\((?:Ex|Su|Sp)[^)]*\)\s*:?$", "", written_name(b)).lower()) for b in parse_blocks(parts[2].split("\n")) if b.kind == "name"}
+    return out
+
+
 def split_retired(keys, retired: set[str]):
     """(live, retired) keys: a resolution or exception whose entry is out of scope is retired, not orphaned."""
     live = [k for k in keys if k[0] not in retired]
@@ -1388,11 +1398,14 @@ def self_test() -> int:
     expect(not entry_in_scope("A druid gains a bonus.\n\nAt 5th level, the bonus grows.\n".split("\n")), "printed prose with an upgrade sentence is none")
     import tempfile
     with tempfile.TemporaryDirectory() as tmp:
-        for name, body in (("converted", converted), ("single", single), ("live", stale_import)):
+        for name, body in (("converted", converted), ("single", single), ("live", stale_import), ("named", "**Resistance (Ex)**\n\nAt 1st level, you gain resistance 5.\n")):
             d = Path(tmp) / "entries" / "a"
             d.mkdir(parents=True, exist_ok=True)
             (d / f"{name}.md").write_text(f'+++\nid = "ref/a/{name}"\nkind = "class_option"\ntitle = "{name}"\n\n[fields]\nkind = "class_option"\n+++\n\n{body}')
-        expect(retired_entries(Path(tmp)) == {"ref/a/converted", "ref/a/single"}, f"retired entries of a mini corpus: {retired_entries(Path(tmp))}")
+        expect(retired_entries(Path(tmp)) == {"ref/a/converted", "ref/a/single", "ref/a/named"}, f"retired entries of a mini corpus: {retired_entries(Path(tmp))}")
+        standing = bold_only_names(Path(tmp), retired_entries(Path(tmp)))
+        expect("resistance" in standing.get("ref/a/named", set()) and "resistance" not in standing.get("ref/a/converted", set()),
+               f"a retired entry whose power name still stands as a bold-only block is found: {standing}")
     keys = [("ref/a/converted", "Resistance (Ex)", 1), ("ref/a/live", "Resistance (Ex)", 1), ("ref/a/gone", "Resistance (Ex)", 1)]
     live, ret = split_retired(keys, {"ref/a/converted"})
     expect(live == keys[1:] and ret == keys[:1], f"retired and orphaned keys are told apart: {live} {ret}")
@@ -1462,11 +1475,17 @@ def main() -> int:
     orphaned, obsolete = unused_resolutions(resolutions, outcomes)
     retired = retired_entries(corpus)
     orphaned, retired_resolutions = split_retired(orphaned, retired)
-    obsolete, _ = split_retired(obsolete, retired)
+    obsolete, dropped_obsolete = split_retired(obsolete, retired)
     unused = unused_exceptions(exceptions, outcomes)
     unused, retired_exceptions = split_retired(unused, retired)
-    print(f"retired (entry converted or without import rows): {len(retired_resolutions)} resolutions, {len(retired_exceptions)} exceptions")
-    problems = []
+    standing = bold_only_names(corpus, retired)
+    still_named = [k for k in retired_resolutions + retired_exceptions if re.sub(r"[^a-z0-9]", "", re.sub(r"\s*\((?:Ex|Su|Sp)[^)]*\)\s*:?$", "", k[1]).lower()) in standing.get(k[0], set())]
+    retired_resolutions = [k for k in retired_resolutions if k not in still_named]
+    retired_exceptions = [k for k in retired_exceptions if k not in still_named]
+    print(f"retired (entry converted or without import rows): {len(retired_resolutions)} resolutions, {len(retired_exceptions)} exceptions; "
+          f"{len(dropped_obsolete)} obsolete keys of retired entries dropped")
+    problems = ["orphaned resolution or exception (the entry has no import row, but the power's name still stands as a bold-only block): %s %s #%d" % k
+                for k in still_named]
     for o in stale:
         problems.append(f"stale resolution: {o.entry_id} {o.name} #{o.occurrence}")
     for key in orphaned:
