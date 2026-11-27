@@ -16,12 +16,17 @@ page = "13"
 
 [fields]
 kind = "archetype"
+features = [
+  { anchor = "nature-bond" },
+  { anchor = "seasonal-spirits", level = 1 },
+  { anchor = "wild-shape", level = 6 },
+]
 trades = [
-  { replaces = "Trackless step", feature = "trackless-step" },
-  { replaces = "venom immunity", feature = "venom-immunity" },
-  { replaces = "timeless body", feature = "timeless-body" },
-  { alters = "Nature bond", feature = "nature-bond" },
-  { alters = "Wild shape", feature = "wild-shape" },
+  { replaces = "Trackless step", feature = "trackless-step", by = ["seasonal-spirits"] },
+  { replaces = "venom immunity", feature = "venom-immunity", by = ["seasonal-spirits"] },
+  { replaces = "timeless body", feature = "timeless-body", by = ["seasonal-spirits"] },
+  { alters = "Nature bond", feature = "nature-bond", by = ["seasonal-spirits"] },
+  { alters = "Wild shape", feature = "wild-shape", by = ["wild-shape"] },
 ]
 +++
 
@@ -34,66 +39,46 @@ communities.
 This archetype is available to [Triaxian](ref/race/triaxian) druids, as well as druids of other
 races with the GM's permission.
 
-**Nature Bond (Ex)**
+## Nature Bond (Ex) {#nature-bond}
 
-**Choice:** A season keeper must select an animal companion for her nature bond.
+A season keeper must select an animal companion for her nature bond.
 
-**Seasonal Spirits (Su)**
+## Seasonal Spirits (Su) {#seasonal-spirits}
 
-**Ability:** Each day when she prepares spells, a season keeper can imbue her animal companion with
-the spirit of summer or the spirit of winter.
+Starting at 1st level, each day when she prepares spells, a season keeper can imbue her animal
+companion with the spirit of summer or the spirit of winter.
 
-**Gained:** At 1st Level
+### Spirit of Summer {#spirit-of-summer}
 
-**Spirit of Summer**
+The season keeper's animal companion projects a 15-foot-radius aura of cooling and vigor. Allies in
+the aura can exist comfortably in hot conditions as if they each had the seasoned racial ability of
+a Summerborn Triaxian. At 3rd level, the aura increases the power of the season keeper's healing
+magic—whenever the season keeper targets an ally with a spell that has the healing descriptor, the
+target also gains [fast healing](ref/umr/fast-healing) 2 for a number of rounds equal to the spell's
+level. At 9th level, allies within the aura leave no trails in natural grassy or forest
+environments, thus can't be tracked in such terrain. At 15th level, the duration of the
+[fast healing](ref/umr/fast-healing) effect increases to 2 rounds per spell level and affected
+allies can ignore [difficult terrain](ref/rule/terrain-and-obstacles) caused by natural undergrowth
+such as nonmagical thorns, briars, overgrowth, and similar terrain.
 
-**At 15th Level:** The duration of the [fast healing](ref/umr/fast-healing) effect increases to 2
-rounds per spell level and affected allies can ignore
-[difficult terrain](ref/rule/terrain-and-obstacles) caused by natural undergrowth such as nonmagical
-thorns, briars, overgrowth, and similar terrain.
+### Spirit of Winter {#spirit-of-winter}
 
-**At 3rd Level:** The aura increases the power of the season keeper's healing magic - whenever the
-season keeper targets an ally with a spell that has the healing descriptor, the target also gains
-[fast healing](ref/umr/fast-healing) 2 for a number of rounds equal to the spell's level.
+The season keeper's animal companion projects a 15-foot-radius aura of warmth and calm. This aura
+allows allies to exist comfortably in cold conditions as if they each had the seasoned racial
+ability of a Winterborn Triaxian. At 3rd level, allies gain [resistance](ref/umr/resistance) 10 to
+cold as long as they remain within the aura. At 9th level, affected allies leave no trails in
+natural snow or ice, thus can't be tracked in such terrain. At 15th level, affected allies gain
+resistance 20 to cold and can ignore difficult terrain caused by ice or snow.
 
-**At 9th Level:** Allies within the aura leave no trails in natural grassy or forest environments,
-thus can't be tracked in such terrain.
+This ability modifies nature bond and replaces trackless step, venom immunity, and timeless body.
 
-**Passive:** The season keeper's animal companion projects a 15-foot-radius aura of cooling and
-vigor. Allies in the aura can exist comfortably in hot conditions as if they each had the _seasoned_
-racial ability of a Summerborn Triaxian.
+## Wild Shape (Su) {#wild-shape}
 
-**Spirit of Winter**
-
-**Alters:** Nature bond
-
-**At 15th Level:** Affected allies gain resistance 20 to cold and can ignore difficult terrain
-caused by ice or snow.
-
-**At 3rd Level:** Allies gain [resistance](ref/umr/resistance) 10 to cold as long as they remain
-within the aura.
-
-**At 9th Level:** Affected allies leave no trails in natural snow or ice, thus can't be tracked in
-such terrain.
-
-**Passive:** The season keeper's animal companion projects a 15-foot-radius aura of warmth and calm.
-This aura allows allies to exist comfortably in cold conditions as if they each had the _seasoned_
-racial ability of a Winterborn Triaxian.
-
-**Replaces:** Trackless step, venom immunity, timeless body
-
-**Wild Shape (Su)**
-
-**Ability:** A season keeper gains _wild shape,_ except that her effective druid level for the
-ability is equal to her druid level - 2. If she has imbued her animal companion with the _spirit of
-winter,_ she uses her full druid level when taking on the form of an ice elemental. If she has
-imbued her companion with the _spirit of summer,_ she uses her full druid level when taking on the
-form of a plant.
-
-**Alters:** Wild shape
-
-**Gained:** At 6th Level
-
-**Special:** A season keeper cannot use _wild shape_ to assume the form of an elemental except an
-ice elemental, and can assume that shape only if her animal companion has the _spirit of winter._
-Similarly, she can assume a plant form only if her animal companion has the _spirit of summer._
+A season keeper gains this ability at 6th level, except that her effective druid level for the
+ability is equal to her druid level - 2. If she has imbued her animal companion with the spirit of
+winter, she uses her full druid level when taking on the form of an ice elemental. If she has imbued
+her companion with the spirit of summer, she uses her full druid level when taking on the form of a
+plant. A season keeper cannot use wild shape to assume the form of an elemental except an ice
+elemental, and can assume that shape only if her animal companion has the spirit of winter.
+Similarly, she can assume a plant form only if her animal companion has the spirit of summer. This
+ability modifies wild shape.

@@ -16,15 +16,26 @@ page = "22"
 
 [fields]
 kind = "archetype"
+features = [
+  { anchor = "dragon-patron" },
+  { anchor = "coat-of-arms" },
+  { anchor = "dragon-voice", level = 1 },
+  { anchor = "diplomatic-immunity", level = 1 },
+  { anchor = "diplomatic-protection", level = 3 },
+  { anchor = "rebuke-foes", level = 12 },
+  { anchor = "retreat-to-lair", level = 15 },
+  { anchor = "master-of-persuasion", level = 5 },
+  { anchor = "extol-glory", level = 10 },
+]
 trades = [
-  { replaces = "Bardic knowledge", feature = "bardic-knowledge" },
-  { replaces = "Countersong", feature = "bardic-performance", power = "countersong" },
-  { replaces = "fascinate", feature = "bardic-performance", power = "fascinate" },
-  { replaces = "Inspire competence", feature = "bardic-performance", power = "inspire competence" },
-  { replaces = "Soothing performance", feature = "bardic-performance", power = "soothing performance" },
-  { replaces = "Inspire heroics", feature = "bardic-performance", power = "inspire heroics" },
-  { replaces = "Lore master", feature = "lore-master" },
-  { replaces = "Jack-of-all-trades", feature = "jack-of-all-trades" },
+  { replaces = "Bardic knowledge", feature = "bardic-knowledge", by = ["dragon-voice"] },
+  { replaces = "Countersong", feature = "bardic-performance", power = "countersong", by = ["diplomatic-immunity"] },
+  { replaces = "fascinate", feature = "bardic-performance", power = "fascinate", by = ["diplomatic-immunity"] },
+  { replaces = "Inspire competence", feature = "bardic-performance", power = "inspire competence", by = ["diplomatic-protection"] },
+  { replaces = "Soothing performance", feature = "bardic-performance", power = "soothing performance", by = ["rebuke-foes"] },
+  { replaces = "Inspire heroics", feature = "bardic-performance", power = "inspire heroics", by = ["retreat-to-lair"] },
+  { replaces = "Lore master", feature = "lore-master", by = ["master-of-persuasion"] },
+  { replaces = "Jack-of-all-trades", feature = "jack-of-all-trades", by = ["extol-glory"] },
 ]
 +++
 
@@ -33,107 +44,87 @@ dragon patrons far and wide, whether that's a message of peace or a declaration 
 whose scales already associate her with a revered dragon is often trained as her tribe's dragon
 herald.
 
-**Prerequisites:** Kobold
+## Weapon and Armor Proficiency {#weapon-and-armor-proficiency}
 
-**Weapon and Armor Proficiency**
+The dragon herald is proficient with simple weapons and light armor, but not with shields. Dragon
+heralds are messengers, not warriors. Like other bards, dragon heralds don't incur the normal arcane
+spell failure chance from wearing light armor.
 
-**Ability:** The dragon herald is proficient with simple weapons and light armor, but not with
-shields. Dragon heralds are messengers, not warriors. Like other bards, dragon heralds don't incur
-the normal arcane spell failure chance from wearing light armor.
+## Dragon Patron (Ex) {#dragon-patron}
 
-**Dragon Patron (Ex)**
+A dragon herald must choose a particular [true dragon](ref/family/dragon-true) species whose glory
+to extol. In most cases, this is a dragon with whom the herald is familiar, but it could be a dragon
+deity, a long-dead dragon hero, or even an entire dragon lineage. The energy type associated with
+her dragon patron (as shown on page 75 of the _Core Rulebook_) determines the energy type used by
+several of her abilities. She must also designate a sacred space relevant to her dragon
+choice—usually the lair of a patron dragon or a shrine or holy place associated with a dragon type.
 
-**Choice:** A dragon herald must choose a particular [true dragon](ref/family/dragon-true) species
-whose glory to extol. In most cases, this is a dragon with whom the herald is familiar, but it could
-be a dragon deity, a long-dead dragon hero, or even an entire dragon lineage. The energy type
-associated with her dragon patron (as shown on the
-[draconic sorcerer bloodline](ref/sorcbloodline/draconic)) determines the energy type used by
-several of her abilities. She must also designate a sacred space relevant to her dragon choice -
-usually the lair of a patron dragon or a shrine or holy place associated with a dragon type.
+## Coat of Arms (Ex) {#coat-of-arms}
 
-**Coat of Arms (Ex)**
+A dragon herald gains [energy resistance](ref/umr/resistance) equal to her dragon herald level
+against the energy type associated with her dragon patron. This resistance stacks with any inherent
+racial resistances, but not with magical or temporary resistances.
 
-**Passive:** A dragon herald gains [energy resistance](ref/umr/resistance) equal to her dragon
-herald level against the energy type associated with her dragon patron. This resistance stacks with
-any inherent racial resistances, but not with magical or temporary resistances.
+## Dragon Voice (Ex) {#dragon-voice}
 
-**Dragon Voice (Ex)**
+A dragon herald gains a bonus equal to [half](ref/misc/fractions-and-rounding) her level on
+Intimidate and Diplomacy checks. She gains Draconic as a bonus language.
 
-**Passive:** A dragon herald gains a bonus equal to [half](ref/misc/fractions-and-rounding) her
-level on Intimidate and Diplomacy checks. She gains Draconic as a bonus language.
+This ability replaces bardic knowledge.
 
-**Replaces:** Bardic knowledge
+## Bardic Performance {#bardic-performance}
 
-**Bardic Performance**
+A dragon herald gains the following types of bardic performance:
 
-**Info:** A dragon herald gains the following types of bardic performance:
+## Diplomatic Immunity (Su) {#diplomatic-immunity}
 
-**Diplomatic Immunity (Su)**
+A dragon herald can use bardic performance to generate a _[sanctuary](ref/spell/sanctuary)_ effect
+upon herself. Most use this to deliver the word of their patron or to safely complete Diplomacy or
+Intimidate checks in the presence of hostile foes. The effect persists for as long as the dragon
+herald performs and for 1 round after.
 
-**Ability:** A dragon herald can use bardic performance to generate a
-[sanctuary](ref/spell/sanctuary) effect upon herself. Most use this to deliver the word of their
-patron or to safely complete Diplomacy or Intimidate checks in the presence of hostile foes. The
-effect persists for as long as the dragon herald performs and for 1 round after.
+This performance replaces countersong and fascinate.
 
-**Replaces:** Countersong, fascinate
+## Diplomatic Protection (Su) {#diplomatic-protection}
 
-**Diplomatic Protection (Su)**
-
-**Ability:** The dragon herald can use bardic performance to wrap a single ally in the colors and
+At 3rd level, the dragon herald can use bardic performance to wrap a single ally in the colors and
 scales of her patron. The dragon herald must be able to see her ally, and that ally must be able to
 perceive her performance. While the herald performs, the target gains resistance equal to twice the
 dragon herald's level to the energy type associated with the dragon herald's patron, and an
 enhancement bonus to natural armor equal to 1/2 the dragon herald's level.
 
-**Gained:** At 3rd Level
+This performance replaces inspire competence.
 
-**Replaces:** Inspire competence
+## Rebuke Foes (Su) {#rebuke-foes}
 
-**Rebuke Foes (Su)**
-
-**Ability:** The dragon herald gains the ability to rain down her patron's wrath on her enemies,
+At 12th level, the dragon herald gains the ability to rain down her patron's wrath on her enemies,
 dealing energy damage of the appropriate type equal to twice her dragon herald level (Reflex save
 for half). She can target one enemy within 50 feet for every 4 dragon herald levels she has. This
 effect occurs once per round for as long as she continues her performance.
 
-**Gained:** At 12th Level
+This performance replaces soothing performance.
 
-**Replaces:** Soothing performance
+## Retreat to Lair (Sp) {#retreat-to-lair}
 
-**Retreat to Lair (Sp)**
+At 15th level, the dragon herald can spend 5 daily uses of performance as a full-round action to
+_teleport_ herself, or a willing target touched, to her sacred place.
 
-**Fullround:** The dragon herald can spend 5 daily uses of performance to teleport herself, or a
-willing target touched, to her sacred place.
+This performance replaces inspire heroics.
 
-**Gained:** At 15th Level
+## Master of Persuasion (Ex) {#master-of-persuasion}
 
-**Replaces:** Inspire heroics
+At 5th level, the dragon herald becomes so sure in her craft that she can take 10 on any Diplomacy
+or Intimidate check, even when rushed or threatened. Once per day, she may attempt either a
+Diplomacy or Intimidate check as a full-round action, instead of spending a full minute. She can use
+this ability one additional time per day at 11th and 17th level.
 
-**Master of Persuasion (Ex)**
+This ability replaces lore master.
 
-**Ability:** The dragon herald becomes so sure in her craft that she can take 10 on any Diplomacy or
-Intimidate check, even when rushed or threatened.
+## Extol Glory (Su) {#extol-glory}
 
-**Fullround:** Once per day, instead of spending a full minute, she may attempt either a Diplomacy
-or Intimidate check.
-
-**At 11th Level:** You can use the full-round ability twice a day.
-
-**At 17th Level:** You can use the full-round ability three times a day.
-
-**Gained:** At 5th Level
-
-**Replaces:** Lore master
-
-**Extol Glory (Su)**
-
-**Gained:** At 10th Level
-
-**Passive:** The dragon herald gains the ability to spread her patron's glory to all intelligent
+At 10th level, the dragon herald gains the ability to spread her patron's glory to all intelligent
 creatures. When she speaks Draconic, any intelligent creature that hears her and knows any language
-can understand her words.
+can understand her words. This ability does not allow the dragon herald to understand languages with
+which she is not familiar.
 
-**Replaces:** Jack-of-all-trades
-
-**Special:** This ability does not allow the dragon herald to understand languages with which she is
-not familiar.
+This ability replaces jack-of-all-trades.

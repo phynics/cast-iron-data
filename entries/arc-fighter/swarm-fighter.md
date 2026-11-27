@@ -16,113 +16,97 @@ page = "23"
 
 [fields]
 kind = "archetype"
+features = [
+  { anchor = "athletic-prowess" },
+  { anchor = "mobility", level = 1 },
+  { anchor = "safety-in-numbers", level = 2 },
+  { anchor = "bonus-teamwork-feats", level = 2 },
+  { anchor = "share-space", level = 5 },
+  { anchor = "strike-the-underbelly", level = 9 },
+  { anchor = "always-underfoot", level = 13 },
+  { anchor = "soft-underbelly", level = 20 },
+]
 trades = [
-  { replaces = "The bonus feat a fighter gains at first level", feature = "bonus-feats", levels = [1] },
-  { replaces = "Bravery", feature = "bravery" },
-  { replaces = "The bonus combat feats the fighter normally receives at 2nd, 6th, 10th, 14th, and 18th levels", feature = "bonus-feats", levels = [2, 6, 10, 14, 18] },
-  { replaces = "Weapon training 1", feature = "weapon-training", levels = [5] },
-  { replaces = "Weapon training 2", feature = "weapon-training", levels = [9] },
-  { replaces = "Weapon training 3 and 4", feature = "weapon-training", levels = [13, 17] },
-  { replaces = "Weapon mastery", feature = "weapon-mastery" },
+  { replaces = "The bonus feat a fighter gains at first level, and can't be replaced at a later level", feature = "bonus-feats", levels = [1], by = ["mobility"] },
+  { replaces = "Bravery", feature = "bravery", by = ["safety-in-numbers"] },
+  { replaces = "The bonus combat feats the fighter normally receives at those levels", feature = "bonus-feats", levels = [2, 6, 10, 14, 18], by = ["bonus-teamwork-feats"] },
+  { replaces = "Weapon training 1", feature = "weapon-training", levels = [5], by = ["share-space"] },
+  { replaces = "Weapon training 2", feature = "weapon-training", levels = [9], by = ["strike-the-underbelly"] },
+  { replaces = "Weapon training 3 and 4", feature = "weapon-training", levels = [13, 17], by = ["always-underfoot"] },
+  { replaces = "Weapon mastery", feature = "weapon-mastery", by = ["soft-underbelly"] },
   { alters = "Weapon and armor proficiencies", feature = "weapon-and-armor-proficiencies" },
 ]
 +++
 
 Kobolds know there's strength in numbers, and they rarely send fewer than two kobolds out on patrol.
-This reliance on one another extends to combat tactics too - overwhelming numbers and tight quarters
+This reliance on one another extends to combat tactics too—overwhelming numbers and tight quarters
 are the [kobold](ref/race/kobold) fighter's friends. Scuttling between the legs of friend and foe
 alike, the swarm fighter is an unshakable combatant.
 
-**Prerequisites:** Kobold
+## Weapon and Armor Proficiency {#weapon-and-armor-proficiency}
 
-**Weapon and Armor Proficiency**
+A swarm fighter is proficient with all simple and martial weapons. She is proficient with light and
+medium armor, but not with shields.
 
-**Alters:** Weapon and armor proficiencies
+## Athletic Prowess (Ex) {#athletic-prowess}
 
-**Info:** A swarm fighter is proficient with all simple and martial weapons. She is proficient with
-light and medium armor, but not with shields.
+A swarm fighter adds [Acrobatics](ref/skill/acrobatics) and [Climb](ref/skill/climb) to her class
+skills, and gains a bonus on checks with these skills equal to 1/2 her swarm fighter level.
 
-**Athletic Prowess (Ex)**
+## Mobility (Ex) {#mobility}
 
-**Info:** A swarm fighter adds [Acrobatics](ref/skill/acrobatics) (DEX) and [Climb](ref/skill/climb)
-(STR) to her class skills, and gains a bonus on checks with these skills equal to
-[half](ref/misc/fractions-and-rounding) her swarm fighter level.
+The swarm fighter gains [Mobility](ref/feat/mobility) as a bonus feat, even if she does not meet the
+prerequisites.
 
-**Mobility (Ex)**
+This replaces the bonus feat a fighter gains at first level, and can't be replaced at a later level.
 
-**Ability:** The swarm fighter gains [Mobility](ref/feat/mobility) as a bonus feat, even if she does
-not meet the prerequisites.
+## Safety in Numbers (Ex) {#safety-in-numbers}
 
-**Replaces:** The bonus feat a fighter gains at first level
+A swarm fighter benefits greatly from the proximity of her allies. She gains a morale bonus on saves
+against fear effects equal to the number of allies within 20 feet of her. This bonus can't exceed
+[half](ref/misc/fractions-and-rounding) her level.
 
-**Special:** This feat can't be replaced at a later level.
+This ability replaces bravery.
 
-**Safety in Numbers (Ex)**
+## Bonus Teamwork Feats (Ex) {#bonus-teamwork-feats}
 
-**Flavor:** A swarm fighter benefits greatly from the proximity of her allies.
+At 2nd level and every 4 levels thereafter, the swarm fighter gains a bonus Teamwork Feat.
 
-**Passive:** She gains a morale bonus on saves against fear effects equal to the number of allies
-within 20 feet of her. This bonus can't exceed half her level.
+This ability replaces the bonus combat feats the fighter normally receives at those levels.
 
-**Replaces:** Bravery
+## Bonus Feats (Ex) {#bonus-feats}
 
-**Bonus Teamwork Feats (Ex)**
+At 4th level, and every 4 levels thereafter, the swarm fighter gains a bonus combat feat. These are
+gained as with the fighter's normal bonus feats class feature (but less frequently).
 
-**Ability:** The swarm fighter gains a bonus teamwork feat.
+## Share Space (Ex) {#share-space}
 
-**Gained:** At 2nd Level
-
-**Replaces:** The bonus combat feats the fighter normally receives at 2nd, 6th, 10th, 14th, and 18th
-levels
-
-**Special:** She gains the other bonus combat feats as normal.
-
-At 6th level: She gains a 2nd teamwork feat.
-
-At 10th level: She gains a 3rd teamwork feat.
-
-At 14th level: She gains a 4th teamwork feat.
-
-At 18th level: She gains a 5th teamwork feat.
-
-**Share Space (Ex)**
-
-**Ability:** The swarm fighter can move into the space of another creature at least one size
+At 5th level, the swarm fighter can move into the space of another creature at least one size
 category larger than she is. She may end her movement in, and make attacks from, that space. She
 must succeed at the Acrobatics check for moving through an occupied square to move into a space
 occupied by an enemy. While sharing the space of another creature, she gains a +2 shield bonus to AC
 and a +1 circumstance bonus on Reflex saves.
 
-**Gained:** At 5th Level
+This ability replaces weapon training 1.
 
-**Replaces:** Weapon training 1
+## Strike the Underbelly (Ex) {#strike-the-underbelly}
 
-**Strike the Underbelly (Ex)**
+At 9th level, creatures with which the swarm fighter shares a space are denied their Dexterity bonus
+to Armor Class against the swarm fighter's attacks.
 
-**Gained:** At 9th Level
+This ability replaces weapon training 2.
 
-**Passive:** Creatures with which the swarm fighter shares a space are denied their Dexterity bonus
-to Armor Class against the swam fighter's attacks.
+## Always Underfoot (Ex) {#always-underfoot}
 
-**Replaces:** Weapon training 2
+At 13th level, the swarm fighter gains [Step Up](ref/feat/step-up) as a bonus feat. A creature
+sharing a square with the swarm fighter is considered adjacent for the purposes of this feat. At
+17th level, the swarm fighter gains [Following Step](ref/feat/following-step) as a bonus feat.
 
-**Always Underfoot (Ex)**
+These abilities replace weapon training 3 and 4.
 
-**Ability:** The swarm fighter gains [Step Up](ref/feat/step-up) as a bonus feat. A creature sharing
-a square with the swarm fighter is considered adjacent for the purposes of this feat.
+## Soft Underbelly (Ex) {#soft-underbelly}
 
-**At 17th Level:** The swarm fighter gains [Following Step](ref/feat/following-step) as a bonus
-feat.
-
-**Gained:** At 13th Level
-
-**Replaces:** Weapon training 3 and 4
-
-**Soft Underbelly (Ex)**
-
-**Gained:** At 20th Level
-
-**Passive:** Any attacks made against creatures with which the swarm fighter shares a space
+At 20th level, any attacks made against creatures with which the swarm fighter shares a space
 automatically confirm all critical threats.
 
-**Replaces:** Weapon mastery
+This ability replaces weapon mastery.
