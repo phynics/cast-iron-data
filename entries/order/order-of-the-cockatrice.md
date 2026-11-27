@@ -58,4 +58,8 @@ threatening, he can make an attack of opportunity against the same target.
 
 ## Moment of Triumph (Ex) {#moment-of-triumph}
 
-At 15th level, the cavalier can, as a free action, declare a moment of triumph. For 1
+At 15th level, the cavalier can, as a free action, declare a moment of triumph. For 1 round, the
+cavalier receives a competence bonus equal to his Charisma modifier on all ability checks, attack
+rolls, damage rolls, saving throws, and skill checks. This bonus is also added to his AC. In
+addition, any critical threats he makes are automatically confirmed. The cavalier can use this
+ability once per day.
