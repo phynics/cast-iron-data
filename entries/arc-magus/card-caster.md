@@ -23,7 +23,7 @@ features = [
   { anchor = "role-dealer", level = 3 },
 ]
 trades = [
-  { replaces = "and modifies spellstrike", feature = "spellstrike", by = ["harrowed-spellstrike"] },
+  { replaces = "Spellstrike", feature = "spellstrike", by = ["harrowed-spellstrike"] },
   { replaces = "Magus arcana gained at 3rd level", feature = "magus-arcana", levels = [3], by = ["role-dealer"] },
   { alters = "Arcane pool", feature = "arcane-pool", by = ["arcane-pool-focus"] },
 ]
