@@ -897,7 +897,7 @@ def load_book(xml_path: Path) -> Book:
 PAGE_GEOMETRY = {"on": False}
 ITALIC_JOIN = {"on": False}     # two italic runs with a plain blank between them are one italic span (Aquatic Adventures, Heroes of the Streets, Antihero's Handbook, Blood of the Sea)
 TAB_LEFT = {"min": 0, "title": 16}      # Aquatic Adventures: a tab left of which the text stands; its titles are set in 15-point small capitals (the body is 13)
-OUTER_TAB = {"on": False}       # the tab in the outer margin is large type (Construct Handbook): anything beyond the columns goes
+OUTER_TAB = {"on": False, "gap": 340}       # the tab in the outer margin is large type (Construct Handbook): anything beyond the columns goes
 
 
 def page_geometry(book: Book, num: int) -> tuple[int, tuple[int, int]]:
@@ -928,7 +928,7 @@ def page_lines(book: Book, num: int) -> list[dict]:
             continue        # the chapter tab in the outer margin ("AVENUES OF INTRIGUE" in small bold capitals, Inner Sea Intrigue)
         if TAB_LEFT["min"] and left > TAB_LEFT["min"] and "ArgusExtraBold" in book.fams.get(str(font), ""):
             continue        # the chapter tab of Aquatic Adventures (AQUATIC ADVENTURES / INTRO / ANTARKOS OCEAN ...) is set in 11-point Argus Extra Bold at the right edge; a column on a page with shifted margins reaches 800
-        if OUTER_TAB["on"] and (left > col_left[1] + 340 or left < col_left[0] - 30):
+        if OUTER_TAB["on"] and (left > col_left[1] + OUTER_TAB["gap"] or left < col_left[0] - 30):
             continue        # the chapter tab of the Construct Handbook (INTRODUCTION / CRAFTING CONSTRUCTS / ARCHETYPES ...), set in 16-point type
         if MARGIN_CAPTIONS["on"] and left < col_left[0] - 20 and book.fonts[str(font)] >= 16:
             continue        # the caption of an illustration, set in the margin beside the column (Inner Sea Magic: "Crypt Breaker" in large type)
@@ -4710,7 +4710,7 @@ BATCH_B_BOOKS = ("psychic-anthology", "disciples-doctrine", "occult-origins", "a
 BATCH_B4_BOOKS = ("merchants-manifest", "champions-of-corruption")     # the lead reader of `LEAD_EXT` reads them (batch B4)
 BATCH_B3_BOOKS = ("dirty-tactics-toolbox", "villain-codex", "weapon-masters-handbook", "melee-tactics-toolbox", "distant-realms")     # the lead reader of `LEAD_EXT` reads them (batch B3)
 PLAYER_COMPANIONS = ("blood-of-the-ancients", "wilderness-origins", "legacy-of-the-first-world", "people-of-the-wastes", "healers-handbook", "psychic-anthology", "disciples-doctrine", "occult-origins", "arcane-anthology", "blood-of-the-coven",
-                     "elemental-masters-handbook", "monster-hunters-handbook", "monster-summoners-handbook", "armor-masters-handbook", "cohorts-and-companions", "heroes-of-the-wild")
+                     "elemental-masters-handbook", "monster-hunters-handbook", "monster-summoners-handbook", "armor-masters-handbook", "cohorts-and-companions", "heroes-of-the-wild", "horror-realms")
 
 # The Player Companions that set their archetype titles in small capitals (a capital and its small capitals 5 units apart), and whose
 # archetypes are followed by sections of the chapter of their own (feats, techniques, spells): any title ends the section of an archetype.
@@ -4882,9 +4882,10 @@ def configure_book(book: str) -> None:
     LOWERCASE_CONTINUES["on"] = LOWERCASE_CONTINUES["on"] or book == "armor-masters-handbook"
     LIST_CONTINUES["on"] = book in ("potions-and-poisons", "black-markets")
     BULLETS["on"] = BULLETS["on"] or book in ("potions-and-poisons", "black-markets")           # the Toxin Codexer's Modify Toxin prints bullet lists (ruling 45, review of #342)
-    OUTER_TAB["on"] = book == "construct-handbook"
+    OUTER_TAB["on"] = book in ("construct-handbook", "horror-realms")
+    OUTER_TAB["gap"] = 300 if book == "horror-realms" else 340      # Horror Realms: the tab starts 340 to 360 units right of the margin of the right column
     TAB_LEFT["min"], TAB_LEFT["title"] = (780, 15) if book == "aquatic-adventures" else (0, 16)
-    PAGE_GEOMETRY["on"] = book in ("inner-sea-magic", "inner-sea-intrigue", "inner-sea-combat", "construct-handbook", "aquatic-adventures", "distant-realms")
+    PAGE_GEOMETRY["on"] = book in ("inner-sea-magic", "inner-sea-intrigue", "inner-sea-combat", "construct-handbook", "aquatic-adventures", "distant-realms", "horror-realms")
     MARGIN_CAPTIONS["on"] = CAPTIONS["on"] = book in ("inner-sea-magic", "inner-sea-intrigue", "inner-sea-combat")
     BOX_TITLES["titles"] = frozenset(squash(t) for t in BOXES_OF_BOOK.get(book, ()))
     BOX_LORE["titles"] = frozenset(squash(t) for t in LORE_BOXES_OF_BOOK.get(book, ()))
@@ -6597,6 +6598,7 @@ ITALIC_HEADS = {
     "ref/arc-summoner/wild-caller-hotw": ["Base Form", "Cactus (desert)", "Conifer (forest, mountain)", "Mushroom (swamp, underground)", "Tree (forest, jungle, swamp)"],
 }
 # ---- Batch A4: Pathfinder 139, 144 and 5, Horror Realms, Guide to the River Kingdoms, Heroes of the Wild, Familiar Folio (2) ----
+TRADE_REMOVALS["ref/arc-monk/scarred-monk"] = [("replaces", "the ability to spend ki points to do anything other than what's described below")]       # print: "Mortifications alter the ki pool and replace high jump, wholeness of body, abundant step, and empty body" (ruling 17)
 TRADE_ADDITIONS["ref/arc-summoner/wild-caller-hotw"] = [{"alters": "the summoner's eidolon", "feature": "eidolon"}]
 # print: "This ability replaces aspect, which is instead gained at 18th level in place of greater aspect": one `replaces` trade in the printed words
 TRADE_RENAMES[("ref/arc-summoner/wild-caller-hotw", "Aspect")] = "Aspect, which is instead gained at 18th level in place of greater aspect"
