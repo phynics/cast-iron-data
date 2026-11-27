@@ -35,7 +35,7 @@ gained from the oracle's mystery.
 
 ## Bonded Spirit (Su) {#bonded-spirit}
 
-At 3rd level, a [spirit](ref/ability/shaman-spirits) guide can form a temporary bond with a spirit,
+At 3rd level, a spirit guide can form a temporary bond with a [spirit](ref/ability/shaman-spirits),
 as the [shaman's](ref/class/shaman) wandering spirit class feature (see page 37). She must make this
 selection each day when she refreshes her spells. A spirit guide cannot bond with a spirit that is
 incompatible with her alignment, ethos, or mystery (GM's discretion).

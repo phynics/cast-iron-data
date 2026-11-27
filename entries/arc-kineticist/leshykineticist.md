@@ -19,7 +19,7 @@ kind = "archetype"
 features = [
   { anchor = "leshy-element", level = 6 },
   { anchor = "basic-leshykinesis" },
-  { anchor = "photosynthetic-buffer" },
+  { anchor = "photosynthetic-buffer", level = 6 },
   { anchor = "green-rebirth", level = 20 },
 ]
 trades = [

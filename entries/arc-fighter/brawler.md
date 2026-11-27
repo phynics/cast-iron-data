@@ -22,7 +22,7 @@ features = [
   { anchor = "menacing-stance", level = 7 },
   { anchor = "no-escape", level = 9 },
   { anchor = "stand-still", level = 13 },
-  { anchor = "weapon-mastery" },
+  { anchor = "weapon-mastery", level = 20 },
 ]
 trades = [
   { replaces = "Armor training 1", feature = "armor-training", levels = [3], by = ["close-control"] },

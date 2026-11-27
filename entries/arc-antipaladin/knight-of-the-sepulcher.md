@@ -50,9 +50,8 @@ effects, death effects, and poison. He is harmed by positive energy effects and 
 energy effects as though he were undead, although negative energy effects that don't heal undead
 (such as [enervation](ref/spell/enervation)) affect him normally. The knight of the sepulcher has a
 25% chance of ignoring critical hits and the bonus damage from
-[sneak attacks](ref/ability/sneak-attack) as though he were wearing _armor of
-[light fortification](ref/magic-enh/fortification-light)_. This ability replaces the fiendish boon
-ability.
+[sneak attacks](ref/ability/sneak-attack) as though he were wearing _armor of light fortification_.
+This ability replaces the fiendish boon ability.
 
 ## Fortitude of the Crypt (Ex) {#fortitude-of-the-crypt}
 
@@ -64,8 +63,8 @@ the aura of despair ability.
 
 At 10th level, the knight of the sepulcher gains immunity to energy drain and harmful negative
 energy effects. His chance of ignoring critical hits and sneak attacks increases to 50%, as though
-he were wearing _armor of [moderate fortification](ref/magic-enh/fortification-moderate)_. This
-ability replaces the smite good use gained at 10th level.
+he were wearing _armor of moderate fortification_. This ability replaces the smite good use gained
+at 10th level.
 
 ## Will of the Crypt (Ex) {#will-of-the-crypt}
 
@@ -80,12 +79,11 @@ overcoming [damage reduction](ref/rule/damage-reduction). This ability replaces 
 ## Crypt Lord (Ex) {#crypt-lord}
 
 At 15th level, a knight of the sepulcher's chance of ignoring critical hits and sneak attacks
-increases to 75%, as though he were wearing _armor of
-[heavy fortification](ref/magic-enh/fortification-heavy)_. He gains immunity to death effects,
-paralysis, sleep effects, and stunning. He no longer sleeps. The knight of the sepulcher also gains
-immunity to effects that cause fatigue, and effects that would cause him to become
-[exhausted](ref/misc/exhausted) instead cause him to become [fatigued](ref/misc/fatigued). This
-ability replaces cruelty.
+increases to 75%, as though he were wearing _armor of heavy fortification_. He gains immunity to
+death effects, paralysis, sleep effects, and stunning. He no longer sleeps. The knight of the
+sepulcher also gains immunity to effects that cause fatigue, and effects that would cause him to
+become [exhausted](ref/misc/exhausted) instead cause him to become [fatigued](ref/misc/fatigued).
+This ability replaces cruelty.
 
 ## Soul of the Crypt (Su) {#soul-of-the-crypt}
 

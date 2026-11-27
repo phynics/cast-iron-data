@@ -85,7 +85,7 @@ This ability replaces the bonus feats gained at 5th, 10th, and 15th levels.
 
 ## Lich-Loved (Su) {#lich-loved}
 
-At 20th level, an [undead](ref/sorcbloodline/undead) master gains the benefits of the undead
+At 20th level, an undead master gains the benefits of the [undead](ref/sorcbloodline/undead)
 sorcerer bloodline's one of us ability.
 
 This ability replaces the bonus feat gained at 20th level.

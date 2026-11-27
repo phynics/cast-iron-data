@@ -24,7 +24,7 @@ features = [
   { anchor = "sweeping-fend", level = 13 },
   { anchor = "step-aside", level = 17 },
   { anchor = "polearm-parry", level = 19 },
-  { anchor = "weapon-mastery" },
+  { anchor = "weapon-mastery", level = 20 },
 ]
 trades = [
   { replaces = "Bravery", feature = "bravery", by = ["pole-fighting"] },

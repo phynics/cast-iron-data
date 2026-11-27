@@ -19,7 +19,7 @@ kind = "archetype"
 features = [
   { anchor = "infernal-binding", level = 1 },
   { anchor = "infernal-arcana", level = 1 },
-  { anchor = "infernal-affinity" },
+  { anchor = "infernal-affinity", level = 2 },
   { anchor = "smite-chaos", level = 6 },
 ]
 trades = [
@@ -57,7 +57,7 @@ devil binder must be lawful [evil](ref/subtype/evil) or lawful neutral in alignm
 
 ## Infernal Binding (Ex) {#infernal-binding}
 
-A [devil](ref/eidolon/devil) binder must select an eidolon of the devil subtype. The devil binder's
+A devil binder must select an eidolon of the [devil](ref/eidolon/devil) subtype. The devil binder's
 eidolon never increases its maximum number of attacks, and its base attack bonus is equal to half
 its Hit Dice. At 4th level and every 4 levels thereafter, the eidolon's Charisma score increases
 by 2.

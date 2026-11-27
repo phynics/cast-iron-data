@@ -96,9 +96,9 @@ poison immunity.
 
 ## Phrenic Dabbler (Su) {#phrenic-dabbler}
 
-At 3rd level, a [psychic](ref/class/psychic) detective gains a small pool of phrenic points equal to
-1/2 her psychic detective level, as well as one phrenic amplification, as the psychic class feature.
-This does not allow the psychic detective to qualify for the
+At 3rd level, a psychic detective gains a small pool of phrenic points equal to 1/2 her psychic
+detective level, as well as one phrenic amplification, as the [psychic](ref/class/psychic) class
+feature. This does not allow the psychic detective to qualify for the
 [Extra Amplification](ref/feat/extra-amplification) feat. This ability replaces the investigator
 talent gained at 3rd level.
 

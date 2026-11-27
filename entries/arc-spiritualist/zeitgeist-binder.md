@@ -18,8 +18,8 @@ page = "51"
 kind = "archetype"
 features = [
   { anchor = "zeitgeist", level = 1 },
-  { anchor = "settlement-aspect" },
-  { anchor = "settlement-avatar" },
+  { anchor = "settlement-aspect", level = 5 },
+  { anchor = "settlement-avatar", level = 2 },
 ]
 trades = [
   { replaces = "Detect undead", feature = "detect-undead", by = ["settlement-aspect"] },

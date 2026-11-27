@@ -17,11 +17,11 @@ page = "57"
 [fields]
 kind = "archetype"
 features = [
-  { anchor = "diminished-spellcasting" },
+  { anchor = "diminished-spellcasting", level = 1 },
   { anchor = "arcane-bond", level = 1 },
   { anchor = "spell-combat", level = 1 },
-  { anchor = "spellstrike" },
-  { anchor = "master-smith" },
+  { anchor = "spellstrike", level = 2 },
+  { anchor = "master-smith", level = 7 },
   { anchor = "fortify-bond", level = 4 },
   { anchor = "reforge", level = 11 },
   { anchor = "destructive-counterstrike", level = 16 },

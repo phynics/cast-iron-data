@@ -70,14 +70,12 @@ performance replaces suggestion.
 
 ## Call the Storm (Su) {#call-the-storm}
 
-At 18th level, a sea singer can use performance to duplicate
-_[control water](ref/spell/control-water), [control weather](ref/spell/control-weather),
-[control winds](ref/spell/control-winds),_ or _[storm of vengeance](ref/spell/storm-of-vengeance)_,
-using his bard level as the caster level. Using this ability requires 1 round of continuous
-performance per level of the spell (as if he were a [druid](ref/class/druid)). These effects
-continue for as long as the bard continues performing (the effects of
-_[control weather](ref/spell/control-weather)_ happen immediately), but not longer than the spell's
-normal duration. This performance replaces mass suggestion.
+At 18th level, a sea singer can use performance to duplicate _control water, control weather,
+control winds,_ or _[storm of vengeance](ref/spell/storm-of-vengeance)_, using his bard level as the
+caster level. Using this ability requires 1 round of continuous performance per level of the spell
+(as if he were a [druid](ref/class/druid)). These effects continue for as long as the bard continues
+performing (the effects of _[control weather](ref/spell/control-weather)_ happen immediately), but
+not longer than the spell's normal duration. This performance replaces mass suggestion.
 
 ## World Traveler (Ex) {#world-traveler}
 

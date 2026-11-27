@@ -17,7 +17,7 @@ page = "10"
 [fields]
 kind = "archetype"
 features = [
-  { anchor = "subject-of-the-stars" },
+  { anchor = "subject-of-the-stars", level = 1 },
   { anchor = "feign-destiny", level = 3 },
 ]
 trades = [

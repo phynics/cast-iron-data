@@ -18,7 +18,7 @@ page = "14"
 kind = "archetype"
 features = [
   { anchor = "student-of-darkness" },
-  { anchor = "shadow-weapon" },
+  { anchor = "shadow-weapon", level = 3 },
   { anchor = "shadow-weapon-training", level = 5 },
 ]
 trades = [

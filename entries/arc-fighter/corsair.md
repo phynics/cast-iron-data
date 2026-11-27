@@ -16,10 +16,16 @@ page = "22"
 
 [fields]
 kind = "archetype"
+features = [
+  { anchor = "pirate-weapons" },
+  { anchor = "deck-fighting", level = 2 },
+  { anchor = "armored-pirate", level = 3 },
+  { anchor = "improved-deck-fighting", level = 6 },
+]
 trades = [
-  { replaces = "The fighter's 2nd-level bonus feat", feature = "bonus-feats", levels = [2] },
-  { replaces = "Armor training", feature = "armor-training" },
-  { replaces = "The fighter's 6th-level bonus feat", feature = "bonus-feats", levels = [6] },
+  { replaces = "the fighter's 2nd-level bonus feat", feature = "bonus-feats", levels = [2], by = ["deck-fighting"] },
+  { replaces = "armor training", feature = "armor-training", by = ["armored-pirate"] },
+  { replaces = "the fighter's 6th-level bonus feat", feature = "bonus-feats", levels = [6], by = ["improved-deck-fighting"] },
 ]
 +++
 
@@ -29,48 +35,32 @@ normally seen on a ship. A corsair moves and fights easily in his armor, however
 Captains value corsairs because of the skill they exhibit in defending the ship and in boarding
 actions.
 
-**Pirate Weapons (Ex)**
+## Pirate Weapons (Ex) {#pirate-weapons}
 
-**Choice:** When selecting a [group of weapons](ref/ability/weapon-groups) for his Weapon Training
-ability, he can select **Pirate Weapons** as a group. The Pirate Weapons group consists of the
-crossbow (all types), [cutlass](ref/eq-weapon/cutlass), [dagger](ref/eq-weapon/dagger),
+A corsair is well versed in the types of weapons favored by pirates. When selecting a
+[group of weapons](ref/ability/weapon-groups) for his Weapon Training ability, he can select Pirate
+Weapons as a group. The Pirate Weapons group consists of the crossbow,
+[cutlass](ref/eq-weapon/cutlass), [dagger](ref/eq-weapon/dagger),
 [hook hand](ref/eq-weapon/hook-hand), [rapier](ref/eq-weapon/rapier), and
 [short sword](ref/eq-weapon/short-sword).
 
-**Flavor:** A corsair is well versed in the types of weapons favored by pirates.
+## Deck Fighting (Ex) {#deck-fighting}
 
-**Deck Fighting (Ex)**
+A corsair is used to fighting on crowded decks, and isn't fazed by fighting multiple opponents at
+once. At 2nd level, he gains [Cleave](ref/feat/cleave) as a bonus feat. He may use this feat even if
+he does not meet the prerequisites. A corsair does not take the normal -2 penalty to his AC when
+using the Cleave feat. This ability replaces the fighter's 2nd-level bonus feat.
 
-**Ability:** He gains [Cleave](ref/feat/cleave) as a bonus feat. He may use this feat even if he
-does not meet the prerequisites. A corsair does not take the normal -2 penalty to his AC when using
-the Cleave feat.
+## Armored Pirate (Ex) {#armored-pirate}
 
-**Flavor:** A corsair is used to fighting on crowded decks, and isn't fazed by fighting multiple
-opponents at once.
+A corsair wears heavier armor than is common aboard a ship. At 3rd level, the corsair reduces the
+armor check penalty of any light armor he wears to 0 for purposes of Acrobatics and Swim checks. At
+7th level, this becomes true of medium armor as well. At 11th level, it includes heavy armor. This
+ability replaces armor training.
 
-**Gained:** At 2nd Level
+## Improved Deck Fighting (Ex) {#improved-deck-fighting}
 
-**Replaces:** The fighter's 2nd-level bonus feat
-
-**Armored Pirate (Ex)**
-
-**Flavor:** A corsair wears heavier armor than is common aboard a ship.
-
-**At 11th Level:** This now includes heavy armor.
-
-**At 3rd Level:** The corsair reduces the armor check penalty of any light armor he wears to 0 for
-purposes of Acrobatics and Swim checks.
-
-**At 7th Level:** This becomes true of medium armor as well.
-
-**Replaces:** Armor training
-
-**Improved Deck Fighting (Ex)**
-
-**Ability:** The corsair gains [Great Cleave](ref/feat/great-cleave) as a bonus feat. He may use
+At 6th level, the corsair gains [Great Cleave](ref/feat/great-cleave) as a bonus feat. He may use
 this feat even if he does not meet the prerequisites. A corsair does not take the normal -2 penalty
-to his AC when using the Great Cleave feat.
-
-**Gained:** At 6th Level
-
-**Replaces:** The fighter's 6th-level bonus feat
+to his AC when using the Great Cleave feat. This ability replaces the fighter's 6th-level bonus
+feat.

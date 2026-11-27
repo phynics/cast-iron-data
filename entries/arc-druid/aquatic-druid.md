@@ -69,7 +69,7 @@ ability is equal to her druid level - 2.
 
 ## Seaborn (Ex) {#seaborn}
 
-At 9th level, an [aquatic](ref/subtype/aquatic) druid gains the aquatic subtype, the
+At 9th level, an aquatic druid gains the [aquatic](ref/subtype/aquatic) subtype, the
 [amphibious](ref/umr/amphibious) trait, and a swim speed equal to her land speed. She also can
 endure cold climate effects as if using _[endure elements](ref/spell/endure-elements)_. This ability
 replaces venom immunity.
