@@ -265,7 +265,7 @@ def powers_of(e) -> list[tuple[str, str]]:
 TAG = re.compile(r"\s*\(([^()]*)\)\s*:?$")
 TAG_WORDS = re.compile(r"(?:Ex|Su|Sp)(?:\s*(?:,|or|and|/)\s*(?:Ex|Su|Sp))*")
 TRADE_LABEL = re.compile(r"^\*\*(?:Replaces?|Alters?|Modifies):\*\*", re.M)
-LABEL_ROW = re.compile(r"^\*\*[^*\n]+:\*\*", re.M)           # an import row: a bold label with its colon
+LABEL_ROW = re.compile(r"^\*\*([^*\n]+):\*\*", re.M)           # an import row: a bold label with its colon
 WRITE_ABILITY_TYPE = False                                   # ruling 63: `[fields] ability_type`; off until the app reads the key
 
 
@@ -422,6 +422,40 @@ def group_heading(e, blocks) -> tuple[str, int] | None:
     return f"{re.sub(chr(10), ' ', blocks[ti].plain()).strip()}: {text}", blocks[ti].page
 
 
+def variant_section(blocks: list, bk2, e, missing: list, expected: list[str]):
+    """Ruling 65: the section of another book that prints a variant of the entry under its own title (an elemental bloodline of Advanced
+    Player's Guide that Ultimate Magic p. 71 prints as "Envenomed"). The section is the first title of the window whose heads include one of
+    the missing powers (a "Replacement Bloodline Arcana" is print's "Bloodline Arcana" there). Returns (title, text, heads, replacement rows)
+    or None when the heads stand under the entry's own title."""
+    want = {fp.namekey(re.sub(r"^Replacement\s+", "", f.name)) for f in missing}
+    titles = [i for i, b in enumerate(blocks) if b.kind == "title"]
+    for n, i in enumerate(titles):
+        j = titles[n + 1] if n + 1 < len(titles) else len(blocks)
+        op, pfs = fp.split_print([blocks[i]] + blocks[i + 1:j], expected)
+        heads = {fp.namekey(fp.head_text(f.head)): f for f in pfs}
+        if not set(heads) & want:
+            continue
+        if fp.squash(blocks[i].plain()) == fp.squash(e.title):
+            return None
+        parts = fp.join_wrapped([fp.clean_runs(r) for r in op], bk2.vocab)
+        for f in pfs:
+            text, _, _ = fp.print_md(f, [], bk2.vocab, e.id)
+            first, *rest = text.split("\n\n")
+            parts += [f"**{fp.head_text(f.head)}:** {first}"] + rest
+        title = re.sub(r"\s+", " ", blocks[i].plain()).strip().title()
+        replaced = {}
+        for f in missing:
+            if f.name.startswith("Replacement "):
+                pf = heads.get(fp.namekey(re.sub(r"^Replacement\s+", "", f.name)))
+                if pf is not None:
+                    text, _, _ = fp.print_md(pf, [], bk2.vocab, e.id)
+                    cmp = fp.compare_feature(fp.build_draft(f), text, set(fp.tokens(fp.ABILITY_TAG.sub("", f.name))), set())
+                    replaced[f.span_sha()] = {"anchor": fp.anchor_of(f.name), "span": f.span_sha(), "status": cmp.status, "notes": list(cmp.notes) + ["print's "
+                                              + fp.head_text(pf.head) + " in the variant"], "print": text, "level_import": None, "head": f.name, "name": f.name}
+        return title, "\n\n".join(parts), replaced
+    return None
+
+
 MULTI_FENCE = False                  # a multi-power entry holds until its window is anchored at the printed title of the entry (the item-3 PR lifts this)
 
 
@@ -461,6 +495,7 @@ def compare_one(e, book, bk, other=None) -> list[dict]:
     res = fp.compare_entry(e, section, bk)
     by_span = {r["span"]: r for r in res["rows"] if r["span"]}
     where = {}                                       # span -> "Publication p. N" of a power that another source of the entry prints
+    variants: list[tuple[str, str, tuple]] = []      # (book, page, (title, text, replaced rows)) of a variant section (ruling 65)
     for src in (e.data.get("sources") or [])[1:]:
         pub, pg = src.get("publication"), str(src.get("page", ""))
         def not_printed(sp):                    # no row, or the print comparison found no head on the cited pages
@@ -468,9 +503,13 @@ def compare_one(e, book, bk, other=None) -> list[dict]:
         missing = [f for f in feats if not_printed(f.span_sha())]
         if not missing or other is None or not pg.isdigit():
             continue
-        got = other(pub, int(pg), e, shape)
+        got = other(pub, int(pg), e, shape, missing, [f.name for f in feats])
         if got is None:
             continue
+        got, var = got
+        if var:
+            variants.append((pub, pg, var))
+            got = dict(got, **var[2])
         for sp, r2 in got.items():
             if not_printed(sp) and not any("head not printed" in n_ for n_ in r2["notes"]):
                 by_span[sp] = r2
@@ -550,12 +589,12 @@ def compare_one(e, book, bk, other=None) -> list[dict]:
                          level=level_of(r["print"]) or "", note="; ".join(notes)[:400], print=printed,
                          print_sha256=hashlib.sha256(printed.encode()).hexdigest()))
     if shape == "multi":
-        rows = add_sections(e, rows, res, feats, powers, by_name, base, book, problems, anchors_seen)
+        rows = add_sections(e, rows, res, feats, powers, by_name, base, book, problems, anchors_seen, variants)
     return fence(rows, shape)
 
 
 def add_sections(e, power_rows: list[dict], res: dict, feats: list, powers: list, by_name: dict, base: dict, book: str,
-                 problems: list[str], anchors_seen: Counter) -> list[dict]:
+                 problems: list[str], anchors_seen: Counter, variants: list | None = None) -> list[dict]:
     """A multi-power entry is its opening, the sections that print sets (Class Skill, Bonus Spells, Bonus Feats, a section label like
     "Bloodline Powers") and its powers, in print order: the rows of the print comparison that no power owns are rows of their own
     (`shape` "section", `anchor` "opening" for the opening text), and the converted body is those rows in order."""
@@ -589,6 +628,20 @@ def add_sections(e, power_rows: list[dict], res: dict, feats: list, powers: list
                             status=status, span_sha256=r_["span"], note="; ".join(notes)[:400], print=r_["print"],
                             print_sha256=hashlib.sha256(r_["print"].encode()).hexdigest()))
     ordered += [r for sha, r in by_sha.items() if sha not in used]       # a power that print has nowhere on the pages (a hold)
+    for pub, pg, (vtitle, vtext, _) in variants or []:                    # ruling 65: the variant is its own unlisted section, with its book and page
+        theirs = [r for r in ordered if r["shape"] == "multi" and r["book"] == pub]
+        ordered.append(dict(sec, shape="variant", feature=vtitle, anchor=fp.anchor_of(vtitle), book=pub, page=pg, verdict="agree",
+                            status="hold" if any(r["status"] == "hold" for r in theirs) or problems else "print", span_sha256="",
+                            note=f"a variant that {pub} p. {pg} prints under its own title", print=vtext,
+                            print_sha256=hashlib.sha256(vtext.encode()).hexdigest()))
+    olds = old_heading_levels(e.body)
+    have = {fp.slugify(fp.ABILITY_TAG.sub("", r["feature"])) for r in ordered}
+    for slug in olds:
+        if slug not in have:
+            for r in ordered:
+                r["status"] = "hold"
+                r["note"] = (r["note"] + "; " if r["note"] else "") + f"the heading `{slug}` of the import has no row in print: its key would move"
+            break
     return ordered
 
 
@@ -621,7 +674,7 @@ def run_compare(args) -> int:
     DECISIONS.update(read_decisions(decisions_file(corpus, book)))
     books_seen: dict[str, object] = {}
 
-    def other(pub: str, pg: int, e, shape: str):
+    def other(pub: str, pg: int, e, shape: str, missing: list, expected: list[str]):
         """The comparison of an entry against another book that prints some of its powers (an elemental bloodline is in Advanced Player's
         Guide p. 136 and Ultimate Magic p. 72): its rows by span, or None when there is no copy of that book."""
         if pub not in books_seen:
@@ -636,7 +689,7 @@ def run_compare(args) -> int:
             last2 = pg + (3 if shape == "multi" else 1)
             blocks2 = fp.read_blocks(bk2, max(1, pg + fp.PAGE_OFFSET[0] - 1), min(last2 + fp.PAGE_OFFSET[0], max(bk2.pages)))
             res2 = fp.compare_entry(e, [fp.Para("title", [(e.title, True, False)], pg, 0, 20)] + blocks2, bk2)
-            return {r["span"]: r for r in res2["rows"] if r["span"]}
+            return {r["span"]: r for r in res2["rows"] if r["span"]}, variant_section(blocks2, bk2, e, missing, expected)
         finally:
             fp.configure_book(book)
     entries = [x for x in everything if not families or x.id.split("/")[1] in families]
@@ -816,10 +869,29 @@ def run_headings(args) -> int:
     return 0
 
 
-def convert_multi(eid: str, rows: list[dict], props: dict, old_keys: frozenset | set = frozenset()) -> tuple[str, list[tuple[str, int | None]]]:
-    """The body of a multi-power entry from its rows, in print order: the opening text, then each section and each power as a `##` head
-    with its explicit key and its printed text. `features` lists the powers only, with the level that print gives. A section or a power that
-    had a heading before keeps that heading's key (`sec-<slug>`, written out), so that its URL does not move (rule 3 of AGENTS.md)."""
+def old_heading_levels(body: str) -> dict[str, int]:
+    """The headings of an import body that have no explicit key: derived slug -> level. Their keys must stay."""
+    out = {}
+    for ln in body.split("\n"):
+        m = re.match(r"^(#{1,6})\s+(.*?)\s*$", ln)
+        if m and "{#" not in m.group(2):
+            out[fp.slugify(fp.ABILITY_TAG.sub("", m.group(2)))] = len(m.group(1))
+    return out
+
+
+def convert_multi(eid: str, rows: list[dict], props: dict, old_keys: frozenset | set = frozenset(), old_levels: dict | None = None,
+                  entry_book: str = "") -> tuple[str, list[tuple[str, int | None]]]:
+    """The body of a multi-power entry from its rows, in print order (rulings 64 and 65):
+    - the opening text as paragraphs;
+    - a **power** of the entry's own book as a `##` head with its explicit key; `features` lists these, with the level that print gives;
+    - any other **section** that print sets as a paragraph that opens with the bold printed label ("**Edicts:** The cavalier must ..."), with
+      no head, no key and no `features` entry; a section that was a heading in the import (`### Bloodline Powers`) stays that heading at its
+      level, so its key does not move (rule 3 of AGENTS.md);
+    - a **variant** that another book prints under its own title is its own unlisted `##` section, whose paragraphs are print's, each power
+      of the variant a run-in paragraph; the import powers that it holds are not written twice.
+    A power or heading that had a key before keeps it (`sec-<slug>`, written out)."""
+    old_levels = old_levels or {}
+    has_variant = any(r["shape"] == "variant" for r in rows)
     parts: list[str] = []
     features: list[tuple[str, int | None]] = []
     for r in rows:
@@ -827,9 +899,19 @@ def convert_multi(eid: str, rows: list[dict], props: dict, old_keys: frozenset |
         if r["shape"] == "section" and r["anchor"] == "opening":
             parts.append(text)
             continue
+        head = re.sub(r"(?<!\\)([*_])", r"\\\1", r["feature"])
+        if r["shape"] == "multi" and has_variant and entry_book and r["book"] != entry_book:
+            continue                                            # held by the variant section
+        if r["shape"] == "section":
+            level = old_levels.get(fp.slugify(fp.ABILITY_TAG.sub("", r["feature"])))
+            if level:
+                parts += ["#" * level + " " + head, text]
+            else:
+                first, *rest = text.split("\n\n")
+                parts += [f"**{head}:** {first}"] + rest
+            continue
         key = "sec-" + r["anchor"] if ("sec-" + r["anchor"]) in old_keys and r["anchor"] not in old_keys else r["anchor"]
-        parts.append(f"## {re.sub(r'(?<!\\)([*_])', r'\\\1', r['feature'])} {{#{key}}}")
-        parts.append(text)
+        parts += [f"## {head} {{#{key}}}", text]
         if r["shape"] == "multi":
             features.append((key, int(r["level"]) if r["level"] else None))
     return "\n" + "\n\n".join(parts).strip("\n") + "\n", features
@@ -871,7 +953,7 @@ def run_write(args) -> int:
             levels[r["span_sha256"]] = int(r["level"]) if r["level"] else None
             anchors[r["span_sha256"]] = r["anchor"]
         if shape == "multi":
-            body, features = convert_multi(e.id, mine, props, heading_keys(e.body))
+            body, features = convert_multi(e.id, mine, props, heading_keys(e.body), old_heading_levels(e.body), book)
         else:
             body, features = convert_body(e, texts, levels, anchors, shape)
         keep = heading_keys(e.body)
@@ -939,8 +1021,15 @@ def run_check(args) -> int:
             shape, _ = shape_of(e.body)
             mine = by_entry.get(eid)
             if eid in written:
-                if shape != "none" or LABEL_ROW.search(e.body):
-                    errors.append(f"{eid}: written, but the entry still holds an import row or label")
+                # a section is a run-in paragraph with its printed label (ruling 64), a variant section holds run-in paragraphs of print's own:
+                # those labels are print's; any other bold label is an import row
+                allowed = {r["feature"] for r in mine if r["shape"] == "section"}
+                for r in mine:
+                    if r["shape"] == "variant":
+                        allowed |= set(LABEL_ROW.findall(props.get((eid, r["anchor"]), "")))
+                stray = [m for m in LABEL_ROW.findall(e.body) if m not in allowed]
+                if shape != "none" or stray:
+                    errors.append(f"{eid}: written, but the entry still holds an import row or label" + (f" ({stray[0]})" if stray else ""))
                 body = norm(e.body)
                 for r in mine:
                     text = props.get((eid, r["anchor"]))
@@ -1014,11 +1103,22 @@ def self_test() -> int:
     mprops = {("ref/order/x", "opening"): "Cavaliers who join.", ("ref/order/x", "edicts"): "Protect the faith.", ("ref/order/x", "calling"): "At 2nd level, a prayer.",
               ("ref/order/x", "retribution"): "Once a day."}
     mbody, mfeats = convert_multi("ref/order/x", mrows, mprops)
-    eq(mbody, "\nCavaliers who join.\n\n## Edicts {#edicts}\n\nProtect the faith.\n\n## Calling (Ex) {#calling}\n\nAt 2nd level, a prayer.\n\n## Retribution (Ex) {#retribution}\n\nOnce a day.\n",
-       "a multi-power body is the opening, the sections and the powers in print order, each with its key")
+    eq(mbody, "\nCavaliers who join.\n\n**Edicts:** Protect the faith.\n\n## Calling (Ex) {#calling}\n\nAt 2nd level, a prayer.\n\n## Retribution (Ex) {#retribution}\n\nOnce a day.\n",
+       "ruling 64: a multi-power body is the opening, the sections as run-in paragraphs and the powers as heads, in print order")
     eq(mfeats, [("calling", 2), ("retribution", None)], "features list the powers only, with a level when print gives one")
-    kb, kf = convert_multi("ref/order/x", mrows, mprops, {"sec-edicts", "sec-retribution"})
-    eq(("## Edicts {#sec-edicts}" in kb, kf[-1]), (True, ("sec-retribution", None)), "a section or power that had a heading keeps its derived key, written out")
+    kb, kf = convert_multi("ref/order/x", mrows, mprops, {"sec-edicts", "sec-retribution"}, {"edicts": 3})
+    eq(("### Edicts\n\nProtect the faith." in kb, "**Edicts:**" in kb, "## Retribution (Ex) {#sec-retribution}" in kb, kf[-1]), (True, False, True, ("sec-retribution", None)),
+       "ruling 64: a section that was a heading stays that heading, so its key does not move; a power that had one keeps its key")
+    eq(heading_keys("\n### Edicts\n\nx\n\n### Retribution\n") <= heading_keys(kb), True, "ruling 64: no heading key of the import moves")
+    vrows = mrows + [{"shape": "multi", "anchor": "envenom", "feature": "Envenom (Su)", "level": "3", "book": "ultimate-magic"},
+                     {"shape": "variant", "anchor": "envenomed", "feature": "Envenomed", "level": "", "book": "ultimate-magic"}]
+    vprops = {**mprops, ("ref/order/x", "envenom"): "At 3rd level, a lick.", ("ref/order/x", "envenomed"): "Print's variant.\n\n**Envenom (Su):** At 3rd level, a lick."}
+    for r in vrows[:4]:
+        r["book"] = "advanced-players-guide"
+    vb, vf = convert_multi("ref/order/x", vrows, vprops, set(), {}, "advanced-players-guide")
+    eq(("## Envenomed {#envenomed}" in vb, "## Envenom (Su)" in vb, [a for a, _ in vf]), (True, False, ["calling", "retribution"]),
+       "ruling 65: a variant of another book is its own unlisted section, its powers are not written twice and not listed")
+    eq(old_heading_levels("\n### Bloodline Powers\n\n## Done {#done}\n"), {"bloodline-powers": 3}, "the headings of an import without a key")
     STOP_TITLES.clear()
     STOP_TITLES.update({"aquatic", "boreal", "deepearth"})
     ab = [P("title", [("Aquatic", True, False)], 136, 0, 18), P("para", [("Dehydrating Touch (Sp)", True, False), (": A touch.", False, False)], 136, 0),
