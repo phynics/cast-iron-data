@@ -13,10 +13,9 @@ page = "12"
 [fields]
 kind = "class_option"
 group = "magus-arcana"
+ability_type = "Ex"
 +++
 
-**Familiar (Ex)**
-
-**Ability:** The magus gains a [familiar](ref/sidekick/familiar), using his magus level as his
-effective wizard level. This familiar follows the rules for [familiars](ref/ability/familiars)
-presented in the _arcane bond_ wizard class feature.
+The magus gains a [familiar](ref/sidekick/familiar), using his magus level as his effective wizard
+level. This familiar follows the rules for [familiars](ref/ability/familiars) presented in the
+arcane bond wizard class feature.

@@ -13,13 +13,10 @@ page = "82"
 [fields]
 kind = "class_option"
 group = "witch-hex"
+ability_type = "Ex"
 +++
 
-**Witch's Brew (Ex)**
-
-**Ability:** When the witch uses her cauldron to brew a potion, she may spend double the cost to
-create 2 identical potions that day instead of just 1.
-
-**At 15th level,** she may spend triple the cost to create 3 identical potions that day.
-
-**Prereq:** [Cauldron](ref/hex/cauldron)
+When the witch uses her [cauldron](ref/hex/cauldron) to brew a potion, she may spend double the cost
+to create 2 identical potions that day instead of just 1. At 15th level, she may spend triple the
+cost to create 3 identical potions that day. The witch must have the [cauldron](ref/hex/cauldron)
+hex to select this hex.

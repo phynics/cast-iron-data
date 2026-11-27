@@ -13,12 +13,9 @@ page = "82"
 [fields]
 kind = "class_option"
 group = "witch-hex"
+ability_type = "Su"
 +++
 
-**Water Lung (Su)**
-
-**Ability:** An air-breathing target can breathe water or an aquatic target can breathe air. This
-lasts 1 minute.
-
-**Special:** If the witch uses this hex on herself, she can maintain it while she sleeps, allowing
-her to safely sleep underwater.
+An air-breathing target can breathe water or an aquatic target can breathe air. This lasts 1 minute.
+If the witch uses this hex on herself, she can maintain it while she sleeps, allowing her to safely
+sleep underwater.

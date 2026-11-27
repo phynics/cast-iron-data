@@ -13,15 +13,11 @@ page = "12"
 [fields]
 kind = "class_option"
 group = "magus-arcana"
+ability_type = "Ex"
 +++
 
-**Spell Blending (Ex)**
-
-**Ability:** When a magus selects this arcana, he must select one spell from the wizard spell list
-that is of a magus spell level he can cast. He adds this spell to his spellbook and list of magus
-spells known as a magus spell of its wizard spell level.
-
-He can instead select two spells to add in this way, but both must be at least one level lower than
-the highest-level magus spell he can cast.
-
-**Special:** A magus can select this magus arcana more than once.
+When a magus selects this arcana, he must select one spell from the wizard spell list that is of a
+magus spell level he can cast. He adds this spell to his spellbook and list of magus spells known as
+a magus spell of its wizard spell level. He can instead select two spells to add in this way, but
+both must be at least one level lower than the highest-level magus spell he can cast. A magus can
+select this magus arcana more than once.

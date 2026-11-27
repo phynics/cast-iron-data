@@ -13,25 +13,13 @@ page = "12"
 [fields]
 kind = "class_option"
 group = "magus-arcana"
+ability_type = "Su"
 +++
 
-**Pool Strike (Su)**
-
-**Standard:** The magus can expend 1 point from his arcane pool to charge his free hand with energy.
-He can make a melee touch attack with that hand as a **free action** as part of activating this
+The magus can expend 1 point from his arcane pool as a standard action to charge his free hand with
+energy. He can make a melee touch attack with that hand as a free action as part of activating this
 ability. If the touch attack hits, it releases the charge and deals 2d6 points of energy damage
 (acid, cold, electricity, or fire, chosen when he spends the arcane pool point to activate this
-ability).
-
-**At 6th level,** the damage increases to 3d6.
-
-**At 9th level,** the damage increases to 4d6.
-
-**At 12th level,** the damage increases to 5d6.
-
-**At 15th level,** the damage increases to 6d6.
-
-**At 18th level,** the damage increases to 7d6.
-
-**Special:** He can use this ability with the _spellstrike_ class feature. If he misses with this
-attack, he can hold the charge for up to 1 minute before it dissipates.
+ability). He can use this ability with the spellstrike class feature. If he misses with this attack,
+he can hold the charge for up to 1 minute before it dissipates. At 6th level, and every three levels
+thereafter, the amount of damage dealt by this attack increases by 1d6.

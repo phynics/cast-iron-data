@@ -13,21 +13,15 @@ page = "15"
 [fields]
 kind = "class_option"
 group = "alchemist-discovery"
+ability_type = "Su"
 +++
 
-**Doppelganger Simulacrum**
-
-**Ability:** The alchemist learns how to create a [simulacrum](ref/spell/simulacrum), a soulless
-duplicate, into which he can project his consciousness.
-
-**Full-round:** He may shift his consciousness from his current body to any one of his available
-doppelganger simulacra, which must be on the same plane as the alchemist.
-
-**Prereq:** 10th-level alchemist, [alchemical simulacrum](ref/discovery/alchemical-simulacrum)
-
-**Special:** If killed in a simulacrum, he transfers to his own body automatically; if killed in his
-own body, he is dead. Unused simulacra (including his abandoned original body) appear to be lifeless
-corpses, though they do not decay.
-
-Creating a duplicate costs 1,000 gp in alchemical materials and requires 1 week to grow. The created
-simulacrum is a creature, not a supernatural effect.
+The alchemist learns how to create a [simulacrum](ref/spell/simulacrum), a soulless duplicate of his
+body, into which he can project his consciousness. As a full-round action, he may shift his
+consciousness from his current body to any one of his available doppelganger simulacra, which must
+be on the same plane as the alchemist. If killed in a simulacrum, he transfers to his own body
+automatically; if killed in his own body, he is dead. Unused simulacra (including his abandoned
+original body) appear to be lifeless corpses, though they do not decay. Creating a duplicate costs
+1,000 gp in alchemical materials and requires 1 week to grow. An alchemist must be at least 10th
+level and must have the [alchemical simulacrum](ref/discovery/alchemical-simulacrum) discovery
+before selecting this discovery. The created simulacrum is a creature, not a supernatural effect.

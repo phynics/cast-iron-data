@@ -13,12 +13,12 @@ page = "78"
 [fields]
 kind = "class_option"
 group = "summoner-evolution"
+ability_type = "Su"
 +++
 
-**Lifesense (Su)**
+4-Point Evolutions: The following evolutions cost 4 points from the eidolon's evolution pool.
 
-**Ability:** An eidolon can pinpoint living creatures with ease. The eidolon notices and locates
-living creatures within 60 feet, just as if it possessed the [blindsight](ref/evolution/blindsight)
-evolution.
-
-**Prereq:** 11th-level summoner, [undead appearance](ref/evolution/undead-appearance)
+An eidolon can pinpoint living creatures with ease. The eidolon notices and locates living creatures
+within 60 feet, just as if it possessed the [blindsight](ref/evolution/blindsight) evolution. The
+eidolon must possess the [undead appearance](ref/evolution/undead-appearance) evolution to take this
+evolution. The summoner must be at least 11th level before selecting this evolution.

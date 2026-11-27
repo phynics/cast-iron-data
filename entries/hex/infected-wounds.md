@@ -13,12 +13,9 @@ page = "82"
 [fields]
 kind = "class_option"
 group = "witch-hex"
+ability_type = "Su"
 +++
 
-**Infected Wounds (Su)**
-
-**Ability:** The target's wounds become infected (Fortitude negates). The target takes 1 point of
+The target's wounds become infected (Fortitude negates). The target takes 1 point of
 [Constitution damage](ref/rule/ability-damage-drain) per day. After the first day, the target may
-save once per day to cure the infection.
-
-**Special:** This is a disease effect.
+save once per day to cure the infection. This is a disease effect.

@@ -13,23 +13,22 @@ page = "87"
 [fields]
 kind = "class_option"
 group = "arcane-discovery"
+ability_type = "Sp"
 +++
 
-**True Name (Sp)**
+Your researches into ancient tomes and your inquisitions of bound spirits have led you to one of the
+best-hidden secrets of the multiverse: the true name of an outsider—the name that defines the very
+essence of the creature and that gives the speaker control over the being. This outsider can have no
+more than 12 Hit Dice. Once per day, you can speak the common name by which the outsider is known,
+and the outsider travels to you as if you had cast _[planar binding](ref/spell/planar-binding)_ upon
+it. It must obey you to the best of its ability, without pay or bargaining for its services, for its
+fear that you might release its true name to the wider world is enough to bring even the most
+recalcitrant of outsiders to bear.
 
-**Ability:** Your researches into ancient tomes and your inquisitions of bound spirits have led you
-to one of the best-hidden secrets of the multiverse: the true name of an outsider - the name that
-defines the very essence of the creature and that gives the speaker control over the being. This
-outsider can have no more than 12 Hit Dice. Once per day, you can speak the common name by which the
-outsider is known, and the outsider travels to you as if you had cast
-[planar binding](ref/spell/planar-binding) upon it. It must obey you to the best of its ability,
-without pay or bargaining for its services, for its fear that you might release its true name to the
-wider world is enough to bring even the most recalcitrant of outsiders to bear.
-
-If the creature is within 100 feet, as a **move action**, you may punish it by deliberately
+If the creature is within 100 feet, as a move action, you may punish it by deliberately
 mispronouncing its name, wracking its very essence and giving it the [sickened](ref/misc/sickened)
 and [staggered](ref/misc/staggered) conditions for 1 round (even if the creature is normally immune
-to these conditions). You cannot use _true name_ in an area of [silence](ref/spell/silence), but the
+to these conditions). You cannot use true name in an area of [silence](ref/spell/silence), but the
 creature does not have to be able to hear you for it to be harmed by the ability.
 
 It is in your best interest to call this creature only sparingly, and occasionally reward it in some
@@ -43,10 +42,8 @@ further. Worse, they may establish situations where it is necessary for you to s
 opening gateways to infernal or angelic interference, in order to gain a foothold on the Material
 Plane.
 
-**Prereq:** 11th-level wizard
-
-**Special:** You may select this discovery multiple times. Each time you select this discovery, it
-applies to a different, specific outsider. If you select this discovery at 15th level or higher, the
-creature may have up to 18 Hit Dice and the call acts as
-[greater planar binding](ref/spell/planar-binding-greater) instead of
-_[planar binding](ref/spell/planar-binding)._
+You may select this discovery multiple times. Each time you select this discovery, it applies to a
+different, specific outsider. You must be at least an 11th-level wizard to select this discovery. If
+you select this discovery at 15th level or higher, the creature may have up to 18 Hit Dice and the
+call acts as _[greater planar binding](ref/spell/planar-binding-greater)_ instead of
+_[planar binding](ref/spell/planar-binding)_.

@@ -13,17 +13,14 @@ page = "77"
 [fields]
 kind = "class_option"
 group = "summoner-evolution"
+ability_type = "Ex"
 +++
 
-**Channel Resistance (Ex)**
+2-Point Evolutions: The following evolutions each cost 2 points from the eidolon's evolution pool.
 
-**Flavor:** An eidolon becomes less easily affected by the
-[channel energy](ref/ability/channel-energy) ability of clerics or paladins.
-
-**Passive:** The eidolon gains a +2 bonus on any saves that are made to resist the effects of
-channel energy, including effects that rely on the use of channel energy (such as the
-[Command Undead](ref/feat/command-undead) feat).
-
-**At 7th level,** this bonus can be increased to +4 by spending 2 additional evolution points.
-
-**Prereq:** [Undead appearance](ref/evolution/undead-appearance)
+An eidolon becomes less easily affected by the [channel energy](ref/ability/channel-energy) ability
+of clerics or paladins. The eidolon gains a +2 bonus on any saves that are made to resist the
+effects of channel energy, including effects that rely on the use of channel energy (such as the
+[Command Undead](ref/feat/command-undead) feat). At 7th level, this bonus can be increased to +4 by
+spending 2 additional evolution points. The eidolon must possess the
+[undead appearance](ref/evolution/undead-appearance) evolution to take this evolution.
