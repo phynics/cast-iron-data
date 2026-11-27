@@ -5061,7 +5061,6 @@ TRADE_RENAMES.update({
     ("ref/arc-fighter/swarm-fighter", "The bonus combat feats the fighter normally receives at 2nd, 6th, 10th, 14th, and 18th levels"): "The bonus combat feats the fighter normally receives at those levels",      # "...replaces the bonus combat feats the fighter normally receives at those levels." (ruling 22)
     ("ref/arc-cavalier/huntmaster", "Cavalier bonus feats"): "A cavalier's standard bonus feats",      # "This ability replaces a cavalier's standard bonus feats." (ruling 22)
     ("ref/arc-barbarian/mad-dog", "2nd, 6th, 10th, 14th, and 18th level rage powers"): "Rage powers gained at 2nd, 6th, 10th, 14th, and 18th level",      # "This ability replaces the rage powers gained at 2nd, 6th, 10th, 14th, and 18th level." (ruling 22)
-    ("ref/arc-magus/card-caster", "Spellstrike"): "and modifies spellstrike",      # owner ruling 58: "This ability replaces and modifies spellstrike." is ONE replaces trade of Spellstrike; the checker reads the phrase to its end (review of #356)
     ("ref/arc-rogue/scroll-scoundrel", "10th-level rogue talent"): "The scroll scoundrel's 10th-level rogue talent",      # "This ability replaces the scroll scoundrel's 10th-level rogue talent." (ruling 22)
     ("ref/arc-witch/dimensional-occultist", "2nd-level hex"): "Hex gained at 2nd level",          # "This ability replaces the witch's hex gained at 2nd level." (ruling 22)
     ("ref/arc-witch/dimensional-occultist", "8th-level hex"): "Hex gained at 8th level",
