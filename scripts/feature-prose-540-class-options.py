@@ -341,7 +341,8 @@ BLOOD_PREREQUISITE_INTROS = {
 def marked_head_intro(book: str, entry_id: str) -> str:
     """The printed intro sentence for a marked head, read from its book during --compare."""
     text, _ = INTRO_MARK_TEXT.get((book, entry_id.split("/")[1]), INTRO_MARK.get("by", {}).get(entry_id.split("/")[1], ("", 0)))
-    return text.replace("(*)", r"(\*)")
+    text = text.replace("(*)", r"(\*)")
+    return text.replace("’", "'") if book == "ultimate-intrigue" else text
 
 
 def marked_head_page(book: str, entry_id: str) -> int:
@@ -2557,6 +2558,15 @@ def self_test() -> int:
     ui_marker, ui_prefer = INTRO_MARK_SPECS["ultimate-intrigue"]["vigtalent"]
     eq((IntroMarkMap(ui_intro, ui_marker, ui_prefer).text, IntroMarkMap(ui_intro, ui_marker, ui_prefer).page),
        (ui_sentence, 13), "Ultimate Intrigue p. 13: the marked-talent intro is extracted word for word")
+    ui_intro_key = ("ultimate-intrigue", "vigtalent")
+    previous_ui_intro = INTRO_MARK_TEXT.get(ui_intro_key)
+    INTRO_MARK_TEXT[ui_intro_key] = (ui_sentence, 13)
+    eq(marked_head_intro("ultimate-intrigue", "ref/vigtalent/foe-collision"),
+       ui_sentence.replace("(*)", r"(\*)").replace("’", "'"), "Ultimate Intrigue marked-talent intros use straight apostrophes")
+    if previous_ui_intro is None:
+        del INTRO_MARK_TEXT[ui_intro_key]
+    else:
+        INTRO_MARK_TEXT[ui_intro_key] = previous_ui_intro
     ui_near_miss = fp.Book({"30": 13}, {1: [(200, 108, 30, "An unmarked with an asterisk phrase is not a mark rule.", 300)]}, {1: 13}, set())
     eq((IntroMarkMap(ui_near_miss, ui_marker, ui_prefer).text, IntroMarkMap(ui_near_miss, ui_marker, ui_prefer).page),
        ("", 0), "the Ultimate Intrigue intro matcher rejects a near miss inside unmarked")

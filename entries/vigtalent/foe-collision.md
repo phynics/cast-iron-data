@@ -15,10 +15,7 @@ kind = "class_option"
 group = "vigilante-talent"
 ability_type = "Ex"
 +++
-
-A stalker vigilante can apply only one talent marked with an asterisk (\*) to a given hidden strike,
-and only when that hidden strike is dealt against a foe that is unaware of the stalker vigilante’s
-presence (or who considers him an ally), unless otherwise noted.
+A stalker vigilante can apply only one talent marked with an asterisk (\*) to a given hidden strike, and only when that hidden strike is dealt against a foe that is unaware of the stalker vigilante's presence (or who considers him an ally), unless otherwise noted.
 
 The vigilante can shove one of his foes into another. When the vigilante deals hidden strike damage
 to a corporeal foe with a melee attack, he can also deal an amount of nonlethal damage equal to his

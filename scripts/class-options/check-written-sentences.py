@@ -24,6 +24,9 @@ def load(name: str, path: Path):
     return module
 
 
+CLASS_OPTIONS = load("class_options_for_sentence_audit", HERE.parent / "feature-prose-540-class-options.py")
+
+
 def plain(text: str) -> str:
     text = re.sub(r"\[([^\]]+)\]\([^)]+\)", r"\1", text)
     text = re.sub(r"\\([*])", r"\1", text)
@@ -35,7 +38,6 @@ def sentences(text: str) -> list[str]:
     return [part.strip() for part in re.split(r"(?<=[.!?])\s+(?=[a-z0-9])", text) if part.strip()]
 
 
-NEGATIONS = re.compile(r"(?<![\w])(?:not|no|never|cannot)\b|(?<=\w)n['’]t\b", re.I)
 DIGITS = re.compile(r"\d+")
 WORD = re.compile(r"[a-z]+(?:['’][a-z]+)?|\d+", re.I)
 LIGATURES = str.maketrans({"æ": "ae", "œ": "oe", "ﬁ": "fi", "ﬂ": "fl", "ﬀ": "ff", "ﬃ": "ffi", "ﬄ": "ffl"})
@@ -46,26 +48,11 @@ def words(text: str) -> list[str]:
     return [word.casefold() for word in WORD.findall(normalized)]
 
 
-def edge_edit_at_most_two(left: str, right: str) -> bool:
-    """Allow up to two changed letters at one edge, with an unchanged core."""
-    if min(len(left), len(right)) < 6:
-        return False
-    for cut_left in range(3):
-        for cut_right in range(3):
-            if cut_left + cut_right > 0 and left[cut_left:] == right[cut_right:]:
-                return True
-    for cut_left in range(3):
-        for cut_right in range(3):
-            if cut_left + cut_right > 0 and left[:len(left) - cut_left or None] == right[:len(right) - cut_right or None]:
-                return True
-    return False
-
-
 def sentences_match(left: str, right: str) -> bool:
     left, right = plain(left), plain(right)
     if DIGITS.findall(left) != DIGITS.findall(right):
         return False
-    if len(NEGATIONS.findall(left)) != len(NEGATIONS.findall(right)):
+    if len(CLASS_OPTIONS.NEGATIONS.findall(left)) != len(CLASS_OPTIONS.NEGATIONS.findall(right)):
         return False
     a, b = words(left), words(right)
     if len(a) != len(b):
@@ -73,7 +60,8 @@ def sentences_match(left: str, right: str) -> bool:
     differences = [(x, y) for x, y in zip(a, b) if x != y]
     if not differences:
         return True
-    return len(differences) == 1 and edge_edit_at_most_two(*differences[0])
+    return (len(differences) == 1 and min(map(len, differences[0])) >= 6
+            and CLASS_OPTIONS.one_misprint(*differences[0]))
 
 
 def is_covered(sentence: str, body: str, errata: tuple[str, str] | None = None) -> tuple[bool, bool]:
@@ -103,7 +91,7 @@ def source_page(front: str, book: str) -> str:
 
 def extract_print(corpus: Path, book: str, books_dir: Path, cache_dir: Path) -> tuple[dict[tuple[str, str], tuple[str, str]], object, object]:
     """Return (entry, anchor) -> direct PDF text and printed head, never proposal text."""
-    options = load("class_options_for_sentence_audit", HERE.parent / "feature-prose-540-class-options.py")
+    options = CLASS_OPTIONS
     fp = options.fp
     fp.configure_book(book)
     title = fp.publication_title(corpus, book)
@@ -180,8 +168,10 @@ def self_test() -> int:
         ("The effect deals +2 damage.", "The effect deals +3 damage.", "changed number", False),
         ("The effect does not apply.", "The effect does apply.", "dropped negation", False),
         ("His ability is useful.", "Her ability is useful.", "pronoun substitution", False),
-        ("The familiar can attack.", "The familar can attack.", "interior letter edit", False),
+        ("The familiar can attack.", "The familar can attack.", "one omitted letter", True),
         ("The familiar can attack.", "The familiarS can attack.", "one suffix letter", True),
+        ("The creature can attack.", "The creature can attacked.", "two-letter suffix near miss", False),
+        ("Neither creature can attack.", "The creature can attack.", "dropped neither", False),
     ]:
         if not eq(sentences_match(left, right), expected, label):
             return 1
