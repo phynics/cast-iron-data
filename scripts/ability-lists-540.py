@@ -412,7 +412,6 @@ def run_compare(args) -> int:
     CORPUS_DIR[0] = corpus
     ids = args.ids.split(",") if args.ids else None
     books: dict[str, object] = {}
-    tops: dict[str, tuple] = {}
     total, written = Counter(), 0
     decisions = read_decisions(corpus)
     for e in load_lists(corpus, ids):
@@ -420,8 +419,6 @@ def run_compare(args) -> int:
         if e.book not in books:
             pdf = fp.find_pdf(Path(args.books), fp.publication_title(corpus, e.book))
             books[e.book] = fp.load_book(fp.book_xml(pdf, Path(args.cache))) if pdf else None
-            tops[e.book] = fp.BODY_TOP                       # `load_book` sets the bottom of the body of the book it read last: each book keeps its own
-        fp.BODY_TOP = tops.get(e.book, fp.BODY_TOP)
         bk = books[e.book]
         if bk is None:
             print(f"{e.id}: no copy of {e.book}")
@@ -431,13 +428,10 @@ def run_compare(args) -> int:
                 pdf2 = fp.find_pdf(Path(args.books), fp.publication_title(corpus, pub))
                 fp.configure_book(pub)
                 books[pub] = fp.load_book(fp.book_xml(pdf2, Path(args.cache))) if pdf2 else None
-                tops[pub] = fp.BODY_TOP
             fp.configure_book(pub)
-            fp.BODY_TOP = tops.get(pub, fp.BODY_TOP)
             return books[pub]
         plan = compare_list(corpus, e, bk, decisions, loader)
         fp.configure_book(e.book)
-        fp.BODY_TOP = tops.get(e.book, fp.BODY_TOP)
         plan["opening_imp"] = fp.parse_import(e.body, set())[0]
         c = Counter(r["status"] for r in plan["rows"])
         total.update(c)
@@ -467,7 +461,6 @@ def run_audit(args) -> int:
     corpus = Path(args.corpus).resolve()
     CORPUS_DIR[0] = corpus
     books: dict[str, object] = {}
-    tops: dict[str, tuple] = {}
     held = n = 0
     for e in load_lists(corpus, args.ids.split(",") if args.ids else None):
         if co.shape_of(e.body)[0] != "none":
@@ -476,8 +469,6 @@ def run_audit(args) -> int:
         if e.book not in books:
             pdf = fp.find_pdf(Path(args.books), fp.publication_title(corpus, e.book))
             books[e.book] = fp.load_book(fp.book_xml(pdf, Path(args.cache))) if pdf else None
-            tops[e.book] = fp.BODY_TOP
-        fp.BODY_TOP = tops.get(e.book, fp.BODY_TOP)
         heads = re.findall(r"^\*\*([^*\n]{2,80}?):\*\*", e.body, re.M)
         key = e.id.rsplit("/", 1)[1]
         names = {fp.squash(re.sub(r"\s*\((?:DC \d+|[^()]* page \d+)\)", "", fp.ABILITY_TAG.sub("", h))) for h in heads}
