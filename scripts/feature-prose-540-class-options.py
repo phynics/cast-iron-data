@@ -357,9 +357,14 @@ def anchor_section(blocks: list, title: str) -> list | None:
     at = next((i for i, b in enumerate(blocks) if b.kind == "title" and fp.squash(b.plain()) in (key, key + "bloodline", key + "mystery", key + "school")), None)
     if at is None:
         return None
+    others = STOP_TITLES - {key}
+    suffixes = ("", "bloodline", "mystery", "school")
     for j in range(at + 1, len(blocks)):
         b = blocks[j]
-        if b.kind == "title" and (fp.squash(b.plain()) in STOP_TITLES - {key} or b.size > blocks[at].size):
+        if b.kind == "title" and (fp.squash(b.plain()) in others or b.size > blocks[at].size):
+            return blocks[at + 1:j]
+        head = fp.head_of_para(b) if b.kind == "para" else None             # the next option is set as a bold head, not as a title ("Earth School")
+        if head and any(fp.squash(head) == o + s for o in others for s in suffixes):
             return blocks[at + 1:j]
     return blocks[at + 1:]
 
