@@ -13,8 +13,6 @@ page = "20"
 [fields]
 kind = "archetype"
 features = [
-  { anchor = "animal-feats" },
-  { anchor = "animal-skills" },
   { anchor = "mounted-challenge" },
   { anchor = "barding-training", level = 3 },
   { anchor = "indefatigable", level = 6 },

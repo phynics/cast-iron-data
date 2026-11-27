@@ -31,7 +31,7 @@ trades = [
 Yokai hunters possess a supernatural tether to the spirit worlds that shroud mortal existence. They
 use their powers to peer into the realm of the dead, and are adept at hunting those who dwell in the
 realm between the Material Plane and the Great Beyond, the supernatural beings Tians refer to as
-yokai. The yokai hunter is an archetype of the ranger class.
+_yokai_. The yokai hunter is an archetype of the ranger class.
 
 ## Favored Yokai (Su) {#favored-yokai}
 
