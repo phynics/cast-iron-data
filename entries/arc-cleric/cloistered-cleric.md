@@ -15,7 +15,7 @@ publication = "ultimate-magic"
 page = "31"
 
 [fields]
-kind = "none"
+kind = "archetype"
 +++
 
 Cloistered clerics typically live in a temple and rarely interact with the outside world. They are
