@@ -93,7 +93,7 @@ At 15th level, the mute musician can continue taking the free action to maintain
 performance even while confused, cowering in fear, dazed, nauseated, panicked, paralyzed, petrified,
 silenced, staggered, stunned, or unconscious. Even if the mute musician is killed, she can continue
 to take the free action to maintain her performance as long as she has rounds remaining. Only the
-utter [destruction](ref/spell/destruction) of the mute musician's body (such as via _destruction_ or
+utter destruction of the mute musician's body (such as via _[destruction](ref/spell/destruction)_ or
 _[disintegrate](ref/spell/disintegrate)_, or by reducing the bard to a negative hit point total
 equal to 10 × her Constitution score) causes the performance to end.
 

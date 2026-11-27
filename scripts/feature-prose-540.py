@@ -6805,6 +6805,19 @@ for _t in ("Resist nature's lure", "Daily use of wild shape at 6th level", "veno
 HEAD_REWRITES[("ref/arc-spiritualist/grim-apostle", "horseman-focus")] = "Horseman Focus"      # the book sets the head in capitals (Pathfinder #144 p. 72)
 HEAD_REWRITES[("ref/arc-druid/ashvawg-tamer", "class-features")] = "Class Features"      # the book sets the head in a face with a lower-case f
 TRADE_RENAMES[("ref/arc-druid/ashvawg-tamer", "Daily use of wild shape at 6th level")] = "Second daily use of wild shape at level 6"
+# Review of #366 (Pathfinder #144, Guide to the River Kingdoms, Horror Realms)
+# Weakened Summoning (#144 p. 83): "do not gain the ability to cast the summon monster or gate spells as a spell-like ability": two replaces trades, by this feature (ruling 36), level 1 (ruling 57)
+TRADE_ADDITIONS["ref/arc-unchained-summoner/soulbound-summoner"] = [{"replaces": "Summon monster spell-like ability", "feature": "summon-monster-i"},
+                                                                    {"replaces": "Gate spell-like ability"}]
+TRADE_PROSE_BY[("ref/arc-unchained-summoner/soulbound-summoner", "Summon monster spell-like ability")] = "weakened-summoning"
+TRADE_PROSE_BY[("ref/arc-unchained-summoner/soulbound-summoner", "Gate spell-like ability")] = "weakened-summoning"
+LEVEL_FROM_PRINT[("ref/arc-unchained-summoner/soulbound-summoner", "weakened-summoning")] = (1, "ruling 57: it replaces the summon monster spell-like ability, which the unchained summoner gains at 1st level (summon monster I)")
+LEVEL_FROM_PRINT[("ref/arc-unchained-summoner/soulbound-summoner", "soulbound-evolution")] = (3, "print says \"At 3rd level, and again at 5th, 7th, and 9th level\" in its second sentence (rulings 4 and 51)")
+# Pitax (Guide to the River Kingdoms p. 40): the opening states "which replaces versatile performance", but the checker reads only sentences led by This, These or It, so a trade
+# without `by` fails the drift check ("disagrees with the trade sentences of the text outside any feature"): the trade keeps `by = ["focused-performance"]` (owner question on #366)
+# Distended Gullet: the citation of swallow whole goes where the ability is linked (ruling 26); Ceaseless Performance: the link is on the spell, not on the noun
+TEXT_REPAIRS[("ref/arc-spiritualist/grim-apostle", "distended-gullet")] = [("(_Pathfinder RPG Bestiary_ 304; 4d8", "(4d8")]
+TEXT_REPAIRS[("ref/arc-bard/mute-musician", "ceaseless-performance")] = [("utter [destruction](ref/spell/destruction) of", "utter destruction of"), ("_destruction_ or", "_[destruction](ref/spell/destruction)_ or")]
 # ---- Batch A3: Elemental Master's Handbook, Monster Hunter's Handbook, Monster Summoner's Handbook, Armor Master's Handbook, Cohorts and Companions ----
 LEVEL_FROM_PRINT.update({
     ("ref/arc-paladin/divine-guardian", "bonus-feat"): (7, "print says \"A divine guardian gains a bonus feat at 7th level\" (Cohorts and Companions p. 23); the hand edit of the ability keeps the level"),

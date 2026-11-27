@@ -19,6 +19,7 @@ kind = "archetype"
 features = [
   { anchor = "grim-phantom", level = 1 },
   { anchor = "hardened-soul", level = 1 },
+  { anchor = "horseman-focus" },
 ]
 trades = [
   { replaces = "The phantom's emotional focus", feature = "phantom", power = "emotional focus", by = ["grim-phantom"] },
@@ -140,14 +141,13 @@ day as a [spell-like ability](ref/umr/spell-like-abilities).
 #### Distended Gullet (Su) {#distended-gullet}
 
 At 17th level, as a swift action, the grim phantom in ectoplasmic form gains the
-[swallow whole](ref/umr/swallow-whole) ability (_Pathfinder RPG Bestiary_ 304; 4d8 negative energy
-damage, AC 17, one-tenth the phantom's total hit points) for a number of rounds equal to its
-Charisma modifier. This ability can affect creatures no more than two size categories larger than
-the phantom. Each creature the grim phantom swallows is shunted into an extradimensional space that
-can hold any number of creatures. When the duration of this ability ends, any creatures still within
-the extradimensional space appear adjacent to the grim phantom. The grim phantom is
-[exhausted](ref/misc/exhausted) for 1 hour after using this ability and can't use it again during
-that time.
+[swallow whole](ref/umr/swallow-whole) ability (4d8 negative energy damage, AC 17, one-tenth the
+phantom's total hit points) for a number of rounds equal to its Charisma modifier. This ability can
+affect creatures no more than two size categories larger than the phantom. Each creature the grim
+phantom swallows is shunted into an extradimensional space that can hold any number of creatures.
+When the duration of this ability ends, any creatures still within the extradimensional space appear
+adjacent to the grim phantom. The grim phantom is [exhausted](ref/misc/exhausted) for 1 hour after
+using this ability and can't use it again during that time.
 
 ### Pestilence {#pestilence}
 

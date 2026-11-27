@@ -19,12 +19,14 @@ kind = "archetype"
 features = [
   { anchor = "pactbond-curse", level = 1 },
   { anchor = "soulbound-life-link", level = 1 },
-  { anchor = "weakened-summoning" },
-  { anchor = "soulbound-evolution" },
+  { anchor = "weakened-summoning", level = 1 },
+  { anchor = "soulbound-evolution", level = 3 },
 ]
 trades = [
   { alters = "Eidolon", feature = "eidolon", by = ["pactbond-curse"] },
   { alters = "Life link", feature = "life-link", by = ["soulbound-life-link"] },
+  { replaces = "Summon monster spell-like ability", feature = "summon-monster-i", by = ["weakened-summoning"] },
+  { replaces = "Gate spell-like ability", by = ["weakened-summoning"] },
 ]
 +++
 
