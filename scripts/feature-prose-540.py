@@ -6797,10 +6797,11 @@ TRADE_ADDITIONS["ref/arc-summoner/wild-caller-hotw"] = [{"alters": "the summoner
 # print: "This ability replaces aspect, which is instead gained at 18th level in place of greater aspect": one `replaces` trade in the printed words
 TRADE_RENAMES[("ref/arc-summoner/wild-caller-hotw", "Aspect")] = "Aspect, which is instead gained at 18th level in place of greater aspect"
 TRADE_MERGED["ref/arc-summoner/wild-caller-hotw"] = [("replaces", "Greater aspect")]
-# Pathfinder #5 p. 72: the book lists the abilities that the tamer does not gain after its features, in paragraphs of their own, and prints no "replaces"
-# sentence. The list stands in no feature and not in the opening text (it is three unlisted sections), so the three trades have no `by` (owner answer on #366:
-# a feature that print never ties a trade to is no `by`; ruling 6 of 2026-11-24 for the opening).
-TRADE_NO_BY["ref/arc-druid/ashvawg-tamer"] = ["Resist nature's lure", "Daily use of wild shape at 6th level", "venom immunity"]
+# Pathfinder #5 p. 72: the book lists the abilities that the tamer does not gain after its features, in paragraphs led by their names in bold, and prints no "replaces"
+# sentence. The paragraphs stand in the text of the last feature (Exotic Companion), so that feature is the `by` of the three trades (owner answer on #366, ruling 36);
+# the checker wants a trade without `by` to be stated by a sentence outside any feature.
+for _t in ("Resist nature's lure", "Daily use of wild shape at 6th level", "venom immunity"):
+    TRADE_PROSE_BY[("ref/arc-druid/ashvawg-tamer", _t)] = "exotic-companion"
 HEAD_REWRITES[("ref/arc-spiritualist/grim-apostle", "horseman-focus")] = "Horseman Focus"      # the book sets the head in capitals (Pathfinder #144 p. 72)
 HEAD_REWRITES[("ref/arc-druid/ashvawg-tamer", "class-features")] = "Class Features"      # the book sets the head in a face with a lower-case f
 TRADE_RENAMES[("ref/arc-druid/ashvawg-tamer", "Daily use of wild shape at 6th level")] = "Second daily use of wild shape at level 6"

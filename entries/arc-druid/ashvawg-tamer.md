@@ -23,9 +23,9 @@ features = [
   { anchor = "exotic-companion", level = 9 },
 ]
 trades = [
-  { replaces = "Resist nature's lure", feature = "resist-nature-s-lure" },
-  { replaces = "Second daily use of wild shape at level 6", feature = "wild-shape", levels = [6] },
-  { replaces = "venom immunity", feature = "venom-immunity" },
+  { replaces = "Resist nature's lure", feature = "resist-nature-s-lure", by = ["exotic-companion"] },
+  { replaces = "Second daily use of wild shape at level 6", feature = "wild-shape", levels = [6], by = ["exotic-companion"] },
+  { replaces = "venom immunity", feature = "venom-immunity", by = ["exotic-companion"] },
 ]
 +++
 
@@ -96,15 +96,9 @@ ability.
 - 13th Level or Higher (Level -12): [behir](ref/monster/behir), [dragonne](ref/monster/dragonne),
   [hieracosphinx](ref/monster/sphinx-hieracosphinx)
 
-## Resist Nature's Lure {#resist-nature-s-lure}
+**Resist Nature's Lure** The druid does not gain this ability.
 
-The druid does not gain this ability.
+**Wild Shape (Su)** The druid does not gain her second daily use of her wild shape ability at
+level 6. Hereafter she has one fewer daily use of the ability than a standard druid of her level.
 
-## Wild Shape (Su) {#wild-shape}
-
-The druid does not gain her second daily use of her wild shape ability at level 6. Hereafter she has
-one fewer daily use of the ability than a standard druid of her level.
-
-## Venom Immunity (Ex) {#venom-immunity}
-
-The druid does not gain this ability.
+**Venom Immunity (Ex)** The druid does not gain this ability.
