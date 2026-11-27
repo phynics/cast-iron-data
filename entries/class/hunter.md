@@ -196,7 +196,9 @@ companion ability (which is part of the nature bond class feature). The hunter's
 level is equal to her hunter level. If a character receives an animal companion from more than one
 source, her effective druid levels stack for the purposes of determining the companion's statistics
 and abilities. A hunter may teach her companion hunter's tricks from the
-[skirmisher](ref/arc-ranger/skirmisher) ranger archetype instead of standard tricks.
+[skirmisher](ref/arc-ranger/skirmisher) ranger archetype instead of standard tricks. The animal
+companion can use skirmisher tricks when commanded, a number of times per day equal to half its Hit
+Dice plus its Wisdom modifier.
 
 If a hunter releases her companion from service or her animal companion perishes, she may gain a new
 one by performing a ceremony requiring 24 uninterrupted hours of prayer in the environment where the
@@ -223,7 +225,7 @@ in 1-minute increments. The hunter can emulate only one animal at a time.
 The hunter can also apply one of these aspects to her animal companion. Unlike with the hunter
 herself, there is no duration on the animal aspect applied to her animal companion. An aspect
 applied in this way does not count against the hunter's minutes of duration per day—it remains in
-effect until the hunter changes it. The companion's aspect can be the same aspect the ranger has
+effect until the hunter changes it. The companion's aspect can be the same aspect the hunter has
 taken on or a different one. The hunter can select or change the animal foci on both herself and her
 animal companion as part of the same swift action.
 
@@ -352,10 +354,10 @@ swift action, rolling 1d20 and adding the hunter's level and her Charisma modifi
 At 20th level, a hunter becomes a master hunter, able to track down foes with ease. She can always
 move at full speed while using Survival to follow tracks without penalty.
 
-Additionally, each day when the hunter prepares spells, she chooses one animal focus to be active on
-herself for the entire day. This focus is in addition to using her animal focus class ability
-(including the additional focus ability she is able to use on herself if her animal companion is
-dead).
+Additionally, each day when the hunter regains her spell slots, she chooses one animal focus to be
+active on herself for the entire day. This focus is in addition to using her animal focus class
+ability (including the additional focus ability she is able to use on herself if her animal
+companion is dead).
 
 ### Alternate Capstones
 

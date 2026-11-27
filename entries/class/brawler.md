@@ -95,8 +95,8 @@ The following are the class features of the brawler.
 #### Weapon and Armor Proficiency {#weapon-and-armor-proficiencies}
 
 A brawler is proficient with all simple weapons plus the handaxe, short sword, and weapons from the
-close [fighter weapon group](ref/ability/weapon-groups). She is proficient with light armor, but not
-with shields.
+close [fighter weapon group](ref/ability/weapon-groups). She is proficient with light armor and
+shields (except tower shields).
 
 #### Brawler's Cunning (Ex) {#brawler-s-cunning}
 
@@ -223,8 +223,7 @@ At 4th level, when a brawler wears light or no armor, she gains a +1 dodge bonus
 bonus increases by 1 at 9th, 13th, and 18th levels.
 
 These bonuses to AC apply against touch attacks. She loses these bonuses while immobilized or
-[helpless](ref/misc/helpless), wearing medium or heavy armor, using a shield, or carrying a medium
-or heavy load.
+[helpless](ref/misc/helpless), wearing medium or heavy armor, or carrying a medium or heavy load.
 
 #### Knockout (Ex) {#knockout}
 

@@ -136,6 +136,7 @@ deed can be performed multiple successive times, as long as the swashbuckler has
 required number of panache points to perform the deed.
 
 - [Derring-Do (Ex)](ref/swashdeed/derring-do)
+- [Dodging Panache (Ex)](ref/swashdeed/dodging-panache)
 - [Opportune Parry and Riposte (Ex)](ref/swashdeed/opportune-parry-and-riposte)
 - [Kip-Up (Ex)](ref/swashdeed/kip-up)
 - [Menacing Swordplay (Ex)](ref/swashdeed/menacing-swordplay)
@@ -152,6 +153,25 @@ required number of panache points to perform the deed.
 - [Cheat Death (Ex)](ref/swashdeed/cheat-death)
 - [Deadly Stab (Ex)](ref/swashdeed/deadly-stab)
 - [Stunning Stab (Ex)](ref/swashdeed/stunning-stab)
+
+##### Targeted Strike (Ex) {#targeted-strike}
+
+At 7th level, as a full-round action the swashbuckler can spend 1 panache point to make an attack
+with a single light or one-handed piercing melee weapon that cripples part of a foe's body.
+
+The swashbuckler chooses a part of the body to target. If the attack succeeds, in addition to the
+attack's normal damage, the target suffers one of the following effects based on the part of the
+body targeted. If a creature doesn't have one of the listed body locations, that body part cannot be
+targeted. Creatures that are immune to sneak attacks are also immune to targeted strikes. Items or
+abilities that protect a creature from critical hits also protect a creature from targeted strikes.
+
+- Arms: The target takes no damage from the attack, but it drops one carried item of the
+  swashbuckler's choice, even if the item is wielded with two hands. Items held in a locked gauntlet
+  cannot be chosen.
+- Head: The target is confused for 1 round. This is a mind-affecting effect.
+- Legs: The target is knocked prone. Creatures with four or more legs or that are immune to trip
+  attacks are immune to this effect.
+- Torso or Wings: The target is staggered for 1 round.
 
 #### Swashbuckler Finesse (Ex) {#swashbuckler-finesse}
 
@@ -208,8 +228,10 @@ gain access to the same heroic pool. Characters with both grit and panache class
 the two resources together into a larger pool of both grit points and panache points.
 
 For purposes of feat prerequisites, a character with the panache class feature satisfies the
-prerequisites as if she were a grit user, and vice versa. For feats, magic items, and other effects,
-a panache user can spend and gain panache points in place of grit points, and vice versa.
+prerequisites as if she were a grit user, and vice versa. Swashbuckler levels stack with gunslinger
+levels for the purpose of satisfying Signature Deed's level requirement. For feats, magic items, and
+other effects, a panache user can spend and gain panache points in place of grit points, and vice
+versa.
 
 ### Alternate Capstones
 

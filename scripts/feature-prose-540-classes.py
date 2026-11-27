@@ -365,6 +365,12 @@ def window(blocks: list, heads: set[str] | frozenset = frozenset(), raw: bool = 
                 out.append(fp.Para("para", runs, b.page, b.col, 0))
             continue
         out.append(b)
+    for n, b in enumerate(out):
+        if b.kind == "para" and cell and b.plain().strip().lower().startswith(cell.lower() + " ") and fp.head_candidate(b) is None:       # (a head that is the cell's name stays: "Magical Supremacy (Su)")
+            plain_b = b.plain()
+            cand = fp.Para("para", runs_after(b.runs, len(plain_b) - len(plain_b.lstrip()) + len(cell) + 1), b.page, b.col, 0)
+            if fp.head_candidate(cand) is not None:
+                out[n] = cand                              # the last cell of the class table in front of a head (the Swashbuckler's Dodging Panache, p. 57): the head starts the paragraph
     out = [b for b in out if not (b.kind == "para" and not b.plain().strip())]         # a blank left where the cells of a table were cut
     for n in range(1, len(out) - 1):                           # a table that print sets in the middle of a sentence goes after the sentence (the sentence is joined below)
         if (out[n].kind == "para" and re.fullmatch(r"WORDTABLE\d+Z\.", out[n].plain().strip()) and out[n - 1].kind == "para" and not co.paragraph_complete(out[n - 1].plain())
@@ -423,9 +429,16 @@ PRINT_NAMES: dict[tuple[str, str], str] = {}
 # Items of a list that print sets in italics under the feature, and that have no entry of their own (the nine judgments of the Inquisitor, p. 40: Piercing, Purity and
 # Smiting are set in italics, the others in bold): their names are heads of unlisted sections under the feature.
 EXTRA_HEADS: dict[str, list[str]] = {"ref/class/inquisitor": ["Piercing", "Purity", "Smiting"]}
+for _c in MANIFEST.get("class", []):
+    EXTRA_HEADS.setdefault(_c["id"], []).extend(_c.get("extra_heads", []))        # `[[class]] extra_heads` of the manifest
 # Where an unlisted section stands when print sets it away from its feature (the sidebar of the Witch's Familiar is in the next column, after Major Hex):
 # (class entry, key) -> (the key of the feature it belongs under, its level: one level below the feature head, ruling 15)
+# The features whose list marks some options with an asterisk that print's intro explains (the Investigator's talents that add effects to studied combat or studied strike, p. 31): the
+# star is a key mark of the list, not the book marker of ruling 26, so it stays after the link. (class entry, key of the feature)
+KEY_MARKS: set[tuple[str, str]] = {(_c["id"], _k) for _c in MANIFEST.get("class", []) for _k in _c.get("key_marks", [])}
 PLACE_UNDER: dict[tuple[str, str], tuple[str, int]] = {}
+for _p in MANIFEST.get("place_under", []):
+    PLACE_UNDER[(_p["class"], _p["key"])] = (_p["under"], _p.get("level", 5))        # `[[place_under]]` of the manifest
 # A box that print sets inside a feature and that the corpus has once, as a `###` section after the class features (ruling 41): the sections that its head and its
 # sub-heads would make are not written a second time. (class entry, key of the section) -> the heading of the corpus section that holds the box.
 BOX_AS_SECTION: dict[tuple[str, str], str] = {
@@ -517,6 +530,36 @@ TABLE_LEAK = re.compile(r"\b(?:Spells|Extracts) per Day\s+(?:\d|1st|[\u2014\u201
 LAYOUT_FIXES: dict[tuple[str, str], list[tuple[str, str]]] = {}
 for _fix in MANIFEST.get("layout_fix", []):
     LAYOUT_FIXES.setdefault((_fix["class"], _fix["key"]), []).append((_fix["find"], _fix["replace"]))
+
+
+# The Paizo errata for a book of the owner's copy that is an earlier printing (the Advanced Class Guide: 1st printing, August 2014; the errata brings it to the 2nd). The corpus
+# follows print plus the recorded errata (#309, ruling 1), so a change of the errata is written in print's place, and `scripts/errata.tsv` has a row of class `errata` and decision
+# `keep` for it. (class entry, key) -> the `[[errata]]` rows of the manifest: `find` is print's words in one paragraph (blanks as one space), `replace` the errata's.
+ERRATA_FIXES: dict[tuple[str, str], list[dict]] = {}
+for _er in MANIFEST.get("errata", []):
+    ERRATA_FIXES.setdefault((_er["class"], _er["key"]), []).append(_er)
+ERRATA_APPLIED: set[tuple[str, str, int]] = set()
+
+
+def errata_fixed(class_id: str, key: str, text: str, notes: list[str] | None = None) -> str:
+    """The text with each errata change of the feature written (its `find` must stand once, in one paragraph); a change that finds no place is reported by
+    `errata_unused`."""
+    for n, er in enumerate(ERRATA_FIXES.get((class_id, key), [])):
+        paras = text.split("\n\n")
+        flat = [" ".join(x.split()) for x in paras]
+        hits = sum(x.count(er["find"]) for x in flat)
+        if hits != 1:
+            continue
+        text = "\n\n".join(x.replace(er["find"], er["replace"]) if er["find"] in x else p_ for x, p_ in zip(flat, paras))
+        ERRATA_APPLIED.add((class_id, key, n))
+        if notes is not None:
+            notes.append(f"{'misprint' if er.get('kind') == 'misprint' else 'errata: Paizo errata for Advanced Class Guide'} p. {er['page']}: print has \"{er['find'][:70]}\", written \"{er['replace'][:70]}\"")
+    return text
+
+
+def errata_unused(class_id: str) -> list[str]:
+    return [f"errata change not applied ({k}): \"{er['find'][:50]}\"" for (c, k), ers in ERRATA_FIXES.items() if c == class_id
+            for n, er in enumerate(ers) if (c, k, n) not in ERRATA_APPLIED]
 
 
 def stem(name: str) -> str:
@@ -773,6 +816,8 @@ def layout_fixed(class_id: str, key: str, text: str) -> str:
     flat = " ".join(text.split())
     for old, new in LAYOUT_FIXES.get((class_id, key), []):
         flat = re.sub(old[3:], new, flat) if old.startswith("re:") else flat.replace(old, new)
+    for er in ERRATA_FIXES.get((class_id, key), []):
+        flat = flat.replace("\u2019", "'").replace(er["find"], er["replace"])      # (the text layer's apostrophe is a curly one)                       # the printed text as the errata has it: the sentences that it replaces are no loss
     return flat
 
 
@@ -1033,6 +1078,9 @@ def compare_class(corpus: Path, e, bk, cache: dict, options: dict | None = None,
     class_tail = table_tail(e.body)
     opt_names = set(option_names(options or {}, own))
     win = bold_option_heads(window(blocks, WINDOW_KEEP.get(e.id, frozenset()), tail=class_tail, cell=table_last_cell(e.body), tables=WORD_TABLES.get(e.id, ())), opt_names)
+    # the heads that print marks with a star before the tag ("Blinding Strike* (Ex): ..."): the text layer's head has no star
+    starred_heads = {fp.namekey(m.group(1)) for b in win if b.kind == "para"
+                     if (m := re.match(r"^\s*([A-Z][^:*]{2,45}?)\*\s*(?:\((?:Ex|Su|Sp)[^)]*\))?\s*:", b.plain()))}
     title = fp.Para("title", [(e.title, True, False)], page, 0, 20)
     expected = [h for _, h, _ in heads] + option_names(options or {}, own) + EXTRA_HEADS.get(e.id, [])
     _, pfs = fp.split_print([title] + win, expected)
@@ -1101,6 +1149,7 @@ def compare_class(corpus: Path, e, bk, cache: dict, options: dict | None = None,
                     text = "\n\n".join(fix(" ".join(x.split())) for x in text.split("\n\n"))
                     notes.append(f"layout: words or cells of a class table are in the sentence ({old[:50]!r})")
             text = with_word_tables(e.id, text)
+            text = errata_fixed(e.id, key, text, notes)
             leak = TABLE_LEAK.search(" ".join(text.split()))
             if leak:                                      # cells of a class table in the sentence: a layout fix (`LAYOUT_FIXES`) must name them
                 status = "hold"
@@ -1165,6 +1214,8 @@ def compare_class(corpus: Path, e, bk, cache: dict, options: dict | None = None,
         opt = own_candidates(options.get(fp.namekey(r["head"])) or [], own, it["key"] if it else "")
         if opt and it is not None:                                  # an item of an option list that has its own entry (in a group of this class): a link under the feature
             it.setdefault("candidates", []).append((r["head"].rstrip("*").strip(), opt))      # the star after a name is print's book marker (ruling 26): the link replaces it
+            if (e.id, it["key"]) in KEY_MARKS and fp.namekey(fp.ABILITY_TAG.sub("", r["head"])) in starred_heads:
+                it.setdefault("starred", set()).add(r["head"].rstrip("*").strip())              # ... unless the feature's intro explains the star (`KEY_MARKS`)
             continue
         if "head printed, not in the import" in " ".join(r["notes"]) and not is_table_para(r["head"]):
             # a printed head that the corpus lacks: an unlisted section, one level below the feature (a sub-head, ruling 15) or a rules box at the level
@@ -1228,6 +1279,7 @@ def compare_class(corpus: Path, e, bk, cache: dict, options: dict | None = None,
                 if sect:
                     at_line = e.body[:sect.start()].count("\n")
                     old_links = re.findall(r"\[([^\]]+)\]\(([^)]+)\)", sect.group(1))
+                    box_text = errata_fixed(e.id, sec["key"], box_text)
                     box_text, _ = fp.apply_links(box_text, old_links) if old_links else (box_text, [])          # the links of the old text stay where their words are
                     box_rewrites.append({"head": e.body.split("\n")[at_line], "line": at_line, "end": at_line + sect.group(0).count("\n"), "old": sect.group(1).strip(), "print": box_text})
                 new_items.remove((after, sec))
@@ -1267,7 +1319,7 @@ def compare_class(corpus: Path, e, bk, cache: dict, options: dict | None = None,
     unresolved = {i["key"] for i in items if "head not printed" in i["notes"] and not i.get("drop") and not i.get("split_from")}
     problems = [x for x in res["problems"] if not (x.startswith("head not printed: ") and fp.slugify(x.split(": ", 1)[1]) not in unresolved and
                                                     not any(fp.namekey(i["head"]) == fp.namekey(x.split(": ", 1)[1]) and "head not printed" in i["notes"] for i in items))]
-    return {"items": items, "extra": extra, "missing": missing, "window": len(win), "problems": problems + problems_extra + cov_problems, "region": region, "opening": opening, "body": "\n".join(lines), "rewrites": rewrites,
+    return {"items": items, "extra": extra, "missing": missing, "window": len(win), "problems": problems + problems_extra + cov_problems + errata_unused(e.id), "region": region, "opening": opening, "body": "\n".join(lines), "rewrites": rewrites,
             "levels": fp.class_table_levels(corpus, e.id, cache)}
 
 
@@ -1276,6 +1328,22 @@ def bulletize(text: str) -> str:
     them in the paragraph of the lead-in. The lead-in stays a paragraph; each bullet is an item "- Fatigued: The target ..."."""
     out = []
     for para in text.split("\n\n"):
+        plain_bullets = re.split(r"(?:^|\s)\u2022\s+(?=_[^_]+_:)", para)
+        if len(plain_bullets) > 1:                    # "\u2022 _Arms_: The target ..." (the bullet is a plain run, the name an italic one: Targeted Strike, p. 58)
+            if plain_bullets[0].strip():
+                out.append(plain_bullets[0].strip())
+            items = []
+            for b in plain_bullets[1:]:
+                m = re.match(r"_([^_]+)_:\s*(.*)$", " ".join(b.split()), re.S)
+                items.append(f"- {m.group(1).strip()}: {m.group(2).strip()}" if m else "- " + " ".join(b.split()))
+            if out and out[-1].startswith("- "):
+                out[-1] += "\n" + "\n".join(items)       # the bullets that print sets as paragraphs of their own are one list
+            else:
+                out.append("\n".join(items))
+            continue
+        if out and out[-1].startswith("- ") and re.fullmatch(r"This [^.]{0,60}\.", para.strip()):
+            out[-1] += " " + para.strip()                 # the sentence that goes on the last bullet ("This is a mind-affecting effect.")
+            continue
         para = re.sub(r"_\u2022\s+", "_\u2022 ", para)
         if "_\u2022 " not in para:
             out.append(para)
@@ -1295,7 +1363,7 @@ def feature_text(it: dict) -> str:
     """The text under a head: print's paragraphs; the items of an option list that have entries of their own are links after the lead-in."""
     text = re.sub(r"_([,;.:)]+) __(?=\s)", r"\1_", bulletize(it["print"].strip()))       # an empty emphasis after a punctuation mark: the punctuation belongs to the italics
     if it.get("links"):
-        text += "\n\n" + "\n".join(f"- [{name}]({eid})" for name, eid in it["links"])
+        text += "\n\n" + "\n".join(f"- [{name}]({eid})" + ("\\*" if name in it.get("starred", ()) else "") for name, eid in it["links"])
     return text
 
 
@@ -1481,6 +1549,15 @@ def self_test() -> int:
     cells_head = P("para", [("Base Attack Fort Ref Will Level Bonus Save Save Save ", True, False), (" 1st +1 +2 +0 +0 20th +20/+15/+10/+5 +12 +6 +6 ", False, False), ("Rage (Ex)", True, False),
                             (": A barbarian can call upon inner reserves of strength. Starting at 1st level, a barbarian can rage.", False, False)], 32, 0)
     eq(window([P("title", [("Class Features", True, False)], 31, 1, 18), cells_head])[0].runs[0][:2], ("Rage (Ex)", True), "the bold head after the cells of a table stays a head")
+    eq(bulletize("The swashbuckler chooses a part.\n\n\u2022 _Arms_: The target drops an item.\n\n\u2022 _Head_: The target is confused.\n\nThis is a mind-affecting effect.\n\n\u2022 _Legs_: The target is prone. \u2022 _Torso_: The target is staggered."),
+       "The swashbuckler chooses a part.\n\n- Arms: The target drops an item.\n- Head: The target is confused. This is a mind-affecting effect.\n- Legs: The target is prone.\n- Torso: The target is staggered.",
+       "bullets that print sets as paragraphs of their own, with a plain bullet and an italic name, are one list; the sentence after a bullet goes on it")
+    eq(errata_fixed("ref/class/arcanist", "consume-spells", "She cannot do it, just as if she had used it to cast a spell. Doing this adds points."),
+       "She cannot do it, just as if she had used it to cast a spell. She can use this ability a number of times per day equal to her Charisma modifier (minimum 1). Doing this adds points.",
+       "a change of the Paizo errata is written in print's place (the manifest's `[[errata]]`)")
+    eq(errata_fixed("ref/class/arcanist", "consume-spells", "A text without the printed words."), "A text without the printed words.", "an errata change that finds no place changes nothing")
+    eq(layout_fixed("ref/class/arcanist", "spellbooks", "spells found in other wizards\u2019 spellbooks to her own"), "spells found in wizards' or other arcanists' spellbooks to her own",
+       "the printed text of a feature is read with the errata, so the sentence that the errata replaces is no loss")
     eq(layout_fixed("ref/class/cleric", "channel-energy", 'dealt 4 4+1 4+1 \u2014 Note: "+1" represents the domain spell slot or healed is equal'), "dealt or healed is equal", "table cells and their note are taken out of the sentence")
     eq(lost_sentences("These bonuses increase every three levels thereafter (6th, 9th, 12th, 15th, and 18th level).", "These bonuses increase every three levels thereafter (6th, 9th, 12th, 15th, and 18th level)."), [],
        "a list of ordinals in a sentence is no table: it stands as printed")

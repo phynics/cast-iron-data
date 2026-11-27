@@ -1622,7 +1622,7 @@ def class_option_errata(corpus: Path, entry_id: str, text: str) -> str:
         return text
     with path.open(encoding="utf-8", newline="") as f:
         fixes = [(r["printed_value"], r["kept_value"]) for r in csv.DictReader(f, delimiter="\t")
-                 if r["entry"] == entry_id and r["decision"] == "misprint-fix"]
+                 if r["entry"] == entry_id and r["decision"] in ("misprint-fix", "keep") and r["printed_value"] and r["kept_value"]]       # a kept Paizo errata is written as the errata has it
     return apply_errata_text(text, fixes)
 
 

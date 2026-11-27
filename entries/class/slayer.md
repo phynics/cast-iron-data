@@ -110,11 +110,11 @@ If a slayer deals sneak attack damage to a target, he can study that target as a
 allowing him to apply his studied target bonuses against that target (including to the normal weapon
 damage roll).
 
-At 5th, 10th, 15th, and 20th levels, the bonuses on weapon attack and damage rolls, as well as the
-bonus to slayer ability DCs against a studied, target increase by 1. In addition, at each such
-interval, the slayer is able to maintain these bonuses against an additional studied target at the
-same time. The slayer may discard this connection to a studied target as a free action, allowing him
-to study another target in its place.
+At 5th, 10th, 15th, and 20th levels, the bonuses on weapon attack rolls, damage rolls, and skill
+checks and to slayer DCs against a studied target increase by 1. In addition, at each such interval,
+the slayer is able to maintain these bonuses against an additional studied target at the same time.
+The slayer may discard this connection to a studied target as a free action, allowing him to study
+another target in its place.
 
 At 7th level, a slayer can study an opponent as a move or swift action.
 

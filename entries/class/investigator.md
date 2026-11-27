@@ -212,10 +212,10 @@ can be made when the damage is dealt.
 
 - [Alchemist Discovery (Ex)](ref/invtalent/alchemist-discovery)
 - [Amazing Inspiration (Ex)](ref/invtalent/amazing-inspiration)
-- [Blinding Strike (Ex)](ref/invtalent/blinding-strike)
+- [Blinding Strike (Ex)](ref/invtalent/blinding-strike)\*
 - [Combat Inspiration (Ex)](ref/invtalent/combat-inspiration)
-- [Confusing Strike (Ex)](ref/invtalent/confusing-strike)
-- [Deafening Strike (Ex)](ref/invtalent/deafening-strike)
+- [Confusing Strike (Ex)](ref/invtalent/confusing-strike)\*
+- [Deafening Strike (Ex)](ref/invtalent/deafening-strike)\*
 - [Device Talent (Ex)](ref/invtalent/device-talent)
 - [Effortless Aid (Ex)](ref/invtalent/effortless-aid)
 - [Eidetic Recollection (Su)](ref/invtalent/eidetic-recollection)
@@ -230,14 +230,14 @@ can be made when the damage is dealt.
 - [Item Lore (Ex)](ref/invtalent/item-lore)
 - [Perceptive Tracking (Ex)](ref/invtalent/perceptive-tracking)
 - [Quick Study (Ex)](ref/invtalent/quick-study)
-- [Repositioning Strike (Ex)](ref/invtalent/repositioning-strike)
+- [Repositioning Strike (Ex)](ref/invtalent/repositioning-strike)\*
 - [Rogue Talent (Ex)](ref/invtalent/rogue-talent)
-- [Sapping Offensive (Ex)](ref/invtalent/sapping-offensive)
-- [Sickening Offensive (Ex)](ref/invtalent/sickening-offensive)
-- [Stealing Strike (Ex)](ref/invtalent/stealing-strike)
+- [Sapping Offensive (Ex)](ref/invtalent/sapping-offensive)\*
+- [Sickening Offensive (Ex)](ref/invtalent/sickening-offensive)\*
+- [Stealing Strike (Ex)](ref/invtalent/stealing-strike)\*
 - [Studied Defense (Ex)](ref/invtalent/studied-defense)
 - [Tenacious Inspiration (Ex)](ref/invtalent/tenacious-inspiration)
-- [Toppling Strike (Ex)](ref/invtalent/toppling-strike)
+- [Toppling Strike (Ex)](ref/invtalent/toppling-strike)\*
 - [Unconventional Inspiration (Ex)](ref/invtalent/unconventional-inspiration)
 - [Underworld Inspiration (Ex)](ref/invtalent/underworld-inspiration)
 

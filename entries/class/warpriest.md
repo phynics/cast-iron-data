@@ -268,20 +268,20 @@ uses this ability as a good warpriest if he chose to spontaneously cast cure spe
 warpriest if he chose to spontaneously cast inflict spells.
 
 As a swift action, a warpriest can expend one use of this ability to cast any one warpriest spell he
-has prepared. When cast in this way, the spell can target only the warpriest, even if it could
-normally affect other or multiple targets. Spells cast in this way ignore somatic components and do
-not provoke attacks of opportunity. The warpriest does not need to have a free hand to cast a spell
-in this way.
+has prepared with a casting time of 1 round or shorter. When cast in this way, the spell can target
+only the warpriest, even if it could normally affect other or multiple targets. Spells cast in this
+way ignore somatic components and do not provoke attacks of opportunity. The warpriest does not need
+to have a free hand to cast a spell in this way.
 
 #### Bonus Feats {#bonus-feats}
 
 At 3rd level and every 3 levels thereafter, a warpriest gains a bonus feat in addition to those
 gained from normal advancement. These bonus feats must be selected from those listed as combat
 feats. The warpriest must meet the prerequisites for these feats, but he treats his warpriest level
-as his base attack bonus for these feats (in addition to base attack bonuses gained from other
-classes and racial Hit Dice). Finally, for the purposes of these feats, the warpriest can select
-feats that have a minimum number of fighter levels as a prerequisite, treating his warpriest level
-as his fighter level.
+as his base attack bonus (in addition to base attack bonuses gained from other classes and Hit Dice)
+for the purpose of qualifying for these feats. Finally, for the purposes of these feats, the
+warpriest can select feats that have a minimum number of fighter levels as a prerequisite, treating
+his warpriest level as his fighter level.
 
 #### Channel Energy (Su) {#channel-energy}
 
@@ -339,10 +339,10 @@ expending one use of his fervor.
 #### Aspect of War (Su) {#aspect-of-war}
 
 At 20th level, the warpriest can channel an aspect of war, growing in power and martial ability.
-After activating this ability, for 1 minute the warpriest treats his level as his base attack bonus,
-gains DR 10/—, and can move at his full normal speed regardless of the armor he is wearing or his
-encumbrance. In addition, the blessings he calls upon don't count against his daily limit during
-this time.
+Once per day as a swift action, a warpriest can treat his level as his base attack bonus, gains DR
+10/—, and can move at his full speed regardless of the armor he is wearing or his encumbrance. In
+addition, the blessings he calls upon don't count against his daily limit during this time. This
+ability lasts for 1 minute.
 
 ### Ex-Warpriests
 

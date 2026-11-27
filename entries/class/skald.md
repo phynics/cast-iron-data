@@ -72,7 +72,8 @@ Knowledge (engineering), Knowledge (geography), Knowledge (history), Knowledge (
 
 **Class Skills (Wis):** Perception, Profession (any), Sense Motive
 
-**Class Skills (Cha):** Bluff, Diplomacy, Handle Animal, Intimidate, Perform (any), Use Magic Device
+**Class Skills (Cha):** Bluff, Diplomacy, Handle Animal, Intimidate, Perform (oratory, percussion,
+sing, string, wind), Use Magic Device
 
 ### Class Features and Spells Per Day
 
@@ -269,7 +270,8 @@ class skill. At 7th level, and every 5 levels thereafter, the bard can select an
 Perform to substitute.
 
 The types of Perform and their associated skills are: Oratory (Diplomacy, Sense Motive), Percussion
-(Handle Animal, Intimidate), Sing (Bluff, Sense Motive), and String (Bluff, Diplomacy).
+(Handle Animal, Intimidate), Sing (Bluff, Sense Motive), String (Bluff, Diplomacy), and Wind
+(Diplomacy, Handle Animal).
 
 #### Well-Versed (Ex) {#well-versed}
 

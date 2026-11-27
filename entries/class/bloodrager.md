@@ -230,7 +230,9 @@ assuming he hasn't yet used up his allotment of spells per day for the spell's l
 The bloodrager's selection of spells is limited. At 4th level, a bloodrager knows two 1st-level
 spells of his choice. A bloodrager gains more spells as he increases in level, as indicated on Table
 1–4. Unlike spells per day, the number of spells a bloodrager knows is not affected by his Charisma
-score, but it is affected by any bonus spells he gains from his bloodline.
+score, but it is affected by any bonus spells he gains from his bloodline. At 8th level and every 3
+levels thereafter, a bloodrager can choose to learn a new spell in place of one he already knows.
+This swap follows all the same rules as for a sorcerer.
 
 #### Blood Casting (Su) {#blood-casting}
 

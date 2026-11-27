@@ -177,8 +177,8 @@ An arcanist begins play with a spellbook containing all 0-level wizard/sorcerer 
 1st-level spells of her choice. The arcanist also selects a number of additional 1st-level spells
 equal to her Intelligence modifier to add to the spellbook. At each new arcanist level, she gains
 two new spells of any spell level or levels that she can cast (based on her new arcanist level) for
-her spellbook. At any time, an arcanist can also add spells found in other wizards' spellbooks to
-her own (see Chapter 9 of the _Core Rulebook_).
+her spellbook. At any time, an arcanist can also add spells found in wizards' or other arcanists'
+spellbooks to her own (see Chapter 9 of the _Core Rulebook_).
 
 #### Arcane Reservoir (Su) {#arcane-reservoir}
 
@@ -236,7 +236,8 @@ to 10 + 1/2 the arcanist's level + the arcanist's Charisma modifier.
 #### Consume Spells (Su) {#consume-spells}
 
 At 1st level, an arcanist can expend an available arcanist spell slot as a move action, making it
-unavailable for the rest of the day, just as if she had used it to cast a spell. Doing this adds a
+unavailable for the rest of the day, just as if she had used it to cast a spell. She can use this
+ability a number of times per day equal to her Charisma modifier (minimum 1). Doing this adds a
 number of points to her arcane reservoir equal to the level of the spell slot consumed. She cannot
 consume cantrips (0 level spells) in this way. Points gained in excess of the reservoir's maximum
 are lost.

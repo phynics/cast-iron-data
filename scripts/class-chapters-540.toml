@@ -266,6 +266,17 @@ id = "ref/class/warpriest"
 gap_stop = "Blessings"
 lead_entry = "ref/ability/blessings"
 
+# A deed that print sets in its list and that no entry of the corpus holds (Targeted Strike, p. 58; its entry is missing): print's text stays, under the feature, as a sub-head.
+[[class]]
+id = "ref/class/swashbuckler"
+extra_heads = ["Targeted Strike"]
+
+[[place_under]]
+class = "ref/class/swashbuckler"
+key = "targeted-strike"
+under = "deeds"
+level = 5
+
 [[lead]]
 class = "ref/class/shaman"
 title = "spirit animal"
@@ -344,3 +355,118 @@ replace = ""
 class = "ref/class/hunter"
 feature = "animal-focus"
 entry = "ref/ability/animal-foci"
+
+# Paizo errata for Advanced Class Guide (1st to 2nd printing, update 1.0): the owner's copy is the 1st printing, and the corpus holds the corrected text of every class feature
+# that the errata changes (#309, ruling 1; `scripts/errata.tsv` has a row of class `errata`, decision `keep`, for each). `find` is print's words in one paragraph, `replace` the
+# errata's words; the script stops when a change finds no place.
+[[errata]]
+class = "ref/class/arcanist"
+key = "spellbooks"
+page = 9
+find = "spells found in other wizards' spellbooks"
+replace = "spells found in wizards' or other arcanists' spellbooks"
+
+[[errata]]
+class = "ref/class/arcanist"
+key = "consume-spells"
+page = 13
+find = "just as if she had used it to cast a spell."
+replace = "just as if she had used it to cast a spell. She can use this ability a number of times per day equal to her Charisma modifier (minimum 1)."
+
+[[errata]]
+class = "ref/class/bloodrager"
+key = "spells"
+page = 16
+find = "any bonus spells he gains from his bloodline."
+replace = "any bonus spells he gains from his bloodline. At 8th level and every 3 levels thereafter, a bloodrager can choose to learn a new spell in place of one he already knows. This swap follows all the same rules as for a sorcerer."
+
+[[errata]]
+class = "ref/class/brawler"
+key = "weapon-and-armor-proficiencies"
+page = 23
+find = "light armor, but not with shields."
+replace = "light armor and shields (except tower shields)."
+
+[[errata]]
+class = "ref/class/brawler"
+key = "ac-bonus"
+page = 24
+find = "wearing medium or heavy armor, using a shield, or carrying"
+replace = "wearing medium or heavy armor, or carrying"
+
+[[errata]]
+class = "ref/class/hunter"
+key = "animal-companion"
+page = 26
+find = "instead of standard tricks."
+replace = "instead of standard tricks. The animal companion can use skirmisher tricks when commanded, a number of times per day equal to half its Hit Dice plus its Wisdom modifier."
+
+[[errata]]
+class = "ref/class/hunter"
+key = "master-hunter"
+page = 29
+find = "each day when the hunter prepares spells,"
+replace = "each day when the hunter regains her spell slots,"
+
+[[errata]]
+class = "ref/class/skald"
+key = "versatile-performance"
+page = 51
+find = "and String (Bluff, Diplomacy)."
+replace = "String (Bluff, Diplomacy), and Wind (Diplomacy, Handle Animal)."
+
+[[errata]]
+class = "ref/class/slayer"
+key = "studied-target"
+page = 53
+find = "At 5th, 10th, 15th, and 20th levels, the bonuses on weapon attack and damage rolls, as well as the bonus to slayer ability DCs against a studied, target increase by 1."
+replace = "At 5th, 10th, 15th, and 20th levels, the bonuses on weapon attack rolls, damage rolls, and skill checks and to slayer DCs against a studied target increase by 1."
+
+[[errata]]
+class = "ref/class/swashbuckler"
+key = "grit-and-panache"
+page = 56
+find = "satisfies the prerequisites as if she were a grit user, and vice versa."
+replace = "satisfies the prerequisites as if she were a grit user, and vice versa. Swashbuckler levels stack with gunslinger levels for the purpose of satisfying Signature Deed's level requirement."
+
+[[errata]]
+class = "ref/class/warpriest"
+key = "bonus-feats"
+page = 62
+find = "as his base attack bonus for these feats (in addition to base attack bonuses gained from other classes and racial Hit Dice)."
+replace = "as his base attack bonus (in addition to base attack bonuses gained from other classes and Hit Dice) for the purpose of qualifying for these feats."
+
+[[errata]]
+class = "ref/class/warpriest"
+key = "fervor"
+page = 62
+find = "warpriest spell he has prepared."
+replace = "warpriest spell he has prepared with a casting time of 1 round or shorter."
+
+[[errata]]
+class = "ref/class/warpriest"
+key = "aspect-of-war"
+page = 63
+find = "After activating this ability, for 1 minute the warpriest treats his level as his base attack bonus, gains DR 10/—, and can move at his full normal speed regardless of the armor he is wearing or his encumbrance."
+replace = "Once per day as a swift action, a warpriest can treat his level as his base attack bonus, gains DR 10/—, and can move at his full speed regardless of the armor he is wearing or his encumbrance."
+
+[[errata]]
+class = "ref/class/warpriest"
+key = "aspect-of-war"
+page = 63
+find = "don't count against his daily limit during this time."
+replace = "don't count against his daily limit during this time. This ability lasts for 1 minute."
+
+# A misprint of print that the corpus corrects (owner ruling 43, with a `misprint-fix` row in `scripts/errata.tsv`): the Hunter's animal focus names the ranger (p. 27). The hub `ref/ability/animal-foci` sets the same sentence.
+[[errata]]
+class = "ref/class/hunter"
+key = "animal-focus"
+page = 27
+kind = "misprint"
+find = "the same aspect the ranger has taken on"
+replace = "the same aspect the hunter has taken on"
+
+# The Investigator's talents that add effects to studied combat or studied strike are marked with an asterisk, and the intro of the list explains the mark (p. 31): the star stays.
+[[class]]
+id = "ref/class/investigator"
+key_marks = ["investigator-talent"]

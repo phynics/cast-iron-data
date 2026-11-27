@@ -23,7 +23,7 @@ hunter can emulate only one animal at a time.
 The hunter can also apply one of these aspects to her animal companion. Unlike with the hunter
 herself, there is no duration on the animal aspect applied to her animal companion. An aspect
 applied in this way does not count against the hunter's minutes of duration per day—it remains in
-effect until the hunter changes it. The companion's aspect can be the same aspect the ranger has
+effect until the hunter changes it. The companion's aspect can be the same aspect the hunter has
 taken on or a different one. The hunter can select or change the animal foci on both herself and her
 animal companion as part of the same swift action.
 
