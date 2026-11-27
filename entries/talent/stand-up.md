@@ -13,10 +13,8 @@ page = "68"
 [fields]
 kind = "class_option"
 group = "rogue-talent"
+ability_type = "Ex"
 +++
 
-**Stand Up (Ex)**
-
-**Ability:** A rogue with this ability can stand up from a [prone](ref/rule/prone) position as a
-**free action**. This still provokes attacks of opportunity for standing up while threatened by a
-foe.
+A rogue with this ability can stand up from a [prone](ref/rule/prone) position as a free action.
+This still provokes attacks of opportunity for standing up while threatened by a foe.

@@ -13,8 +13,7 @@ page = "33"
 [fields]
 kind = "class_option"
 group = "rage-power"
+ability_type = "Ex"
 +++
 
-**Low-Light Vision (Ex)**
-
-**Ability:** The barbarian's senses sharpen and she gains low-light vision while _raging._
+The barbarian's senses sharpen and she gains low-light vision while raging.

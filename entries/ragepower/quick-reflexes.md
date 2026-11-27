@@ -13,8 +13,7 @@ page = "33"
 [fields]
 kind = "class_option"
 group = "rage-power"
+ability_type = "Ex"
 +++
 
-**Quick Reflexes (Ex)**
-
-**Ability:** While _raging,_ the barbarian can make one additional attack of opportunity per round.
+While raging, the barbarian can make one additional attack of opportunity per round.

@@ -13,18 +13,13 @@ page = "38"
 [fields]
 kind = "class_option"
 group = "bardic-performance"
+ability_type = "Su"
 +++
 
-**Soothing Performance (Su)**
-
-**Gained:** At 12th Level
-
-**Ability:** A bard can use his performance to create an effect equivalent to a
-[mass cure serious wounds](ref/spell/cure-serious-wounds-mass), using the bard's level as the caster
-level. In addition, this performance removes the fatigued, sickened, and shaken conditions from all
-those affected.
-
-**Special:** Using this ability requires 4 rounds of continuous performance, and the targets must be
-able to see and hear the bard throughout the performance. _Soothing performance_ affects all targets
-that remain within 30 feet throughout the performance. _Soothing performance_ relies on audible and
-visual components.
+A bard of 12th level or higher can use his performance to create an effect equivalent to a
+_[mass cure serious wounds](ref/spell/cure-serious-wounds-mass),_ using the bard's level as the
+caster level. In addition, this performance removes the fatigued, sickened, and shaken conditions
+from all those affected. Using this ability requires 4 rounds of continuous performance, and the
+targets must be able to see and hear the bard throughout the performance. Soothing performance
+affects all targets that remain within 30 feet throughout the performance. Soothing performance
+relies on audible and visual components.

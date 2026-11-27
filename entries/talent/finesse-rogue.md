@@ -15,7 +15,4 @@ kind = "class_option"
 group = "rogue-talent"
 +++
 
-**Finesse Rogue**
-
-**Ability:** A rogue that selects this talent gains [Weapon Finesse](ref/feat/weapon-finesse) as a
-bonus feat.
+A rogue that selects this talent gains [Weapon Finesse](ref/feat/weapon-finesse) as a bonus feat.

@@ -13,10 +13,8 @@ page = "33"
 [fields]
 kind = "class_option"
 group = "rage-power"
+ability_type = "Ex"
 +++
 
-**Internal Fortitude (Ex)**
-
-**Passive:** While _raging,_ the barbarian is immune to the sickened and nauseated conditions.
-
-**Prereq:** 8th-level barbarian
+While raging, the barbarian is immune to the sickened and nauseated conditions. A barbarian must be
+at least 8th level before selecting this rage power.
