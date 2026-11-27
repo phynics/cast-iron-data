@@ -25,7 +25,7 @@ features = [
   { anchor = "rogue-talents", level = 10 },
 ]
 trades = [
-  { replaces = "Hex", feature = "hex", by = ["strangle"] },
+  { replaces = "Hex", feature = "hex", by = ["white-hair"] },
   { replaces = "Major hex", feature = "major-hex", by = ["rogue-talents"] },
   { replaces = "grand hex", feature = "grand-hex", by = ["rogue-talents"] },
 ]
@@ -54,6 +54,8 @@ The hair cannot be [sundered](ref/rule/sunder) or attacked as a separate creatur
 white-haired witch further improves her ability to control her hair as she progresses in level,
 gaining the following abilities.
 
+This ability replaces hex.
+
 ## Constrict (Ex) {#constrict}
 
 At 2nd level, when the white-haired witch's hair successfully grapples an opponent, it can begin
@@ -73,8 +75,6 @@ maneuver check to pull the creature 5 feet closer to her as a free action.
 
 At 8th level, when the white-haired witch's hair is grappling with an opponent, that creature is
 considered [strangled](ref/umr/strangle), and cannot speak or cast spells with verbal components.
-
-This ability replaces hex.
 
 ## Rogue Talents {#rogue-talents}
 

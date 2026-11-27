@@ -1,4 +1,5 @@
 entry	anchor	decision	note
+ref/arc-druid/goliath-druid	primal-bond	print	owner ruling 43 (review of #356): print has "she must selected"; the verb is written "must select" and an errata row records it (`scripts/errata.tsv`).
 ref/arc-druid/goliath-druid	wild-shape	print	lead review (ruling 14): the corpus text of Wild Shape holds the list of creatures that Primal Summons prints (a copy, ruling 10); print gives them under Primal Summons. Print wins. Level 4: the lead says nothing; the feature alters wild shape, a 4th-level class feature.
 ref/arc-fighter/titan-fighter	incredible-heft	print	hand text (an edit): see the note of the edit.
 ref/arc-rogue/vexing-dodger	distracting-climber-rogue-talents	drop	lead review (ruling 14, structural): the import has the head Rogue Talents twice (a stub after Distracting Climber); print has the section once, after Distracting Climber, and the text is in `rogue-talents`.

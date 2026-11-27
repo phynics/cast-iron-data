@@ -75,13 +75,12 @@ performance could normally affect any number of allies, its effects last 2 round
 ringleader spent on the performance. Otherwise, the effects last 1 round for each round the
 ringleader spent on the performance.
 
-A ringleader can alter only the countersong,
-[distraction](ref/carried/bestiary/rules/universal-monster-rules/distraction), inspire courage,
-inspire competence, inspire greatness, and inspire heroics performances in this way. The ringleader
-makes any necessary choices when establishing the performance, though in the case of countersong and
-distraction, the ringleader attempts Perform checks once his ally triggers the plan, ignoring any
-temporary bonuses or penalties, no matter whether they applied when he explained the plan or when
-the ally triggers it.
+A ringleader can alter only the countersong, [distraction](ref/performance/distraction), inspire
+courage, inspire competence, inspire greatness, and inspire heroics performances in this way. The
+ringleader makes any necessary choices when establishing the performance, though in the case of
+countersong and distraction, the ringleader attempts Perform checks once his ally triggers the plan,
+ignoring any temporary bonuses or penalties, no matter whether they applied when he explained the
+plan or when the ally triggers it.
 
 A character can be subject to only one inspired plan at a time and cannot be subject to a
 ringleader's inspired plan and any of the ringleader's normal performances at the same time, but she

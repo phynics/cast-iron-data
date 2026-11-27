@@ -18,11 +18,11 @@ page = "12"
 kind = "archetype"
 features = [
   { anchor = "channel-energy", level = 1 },
-  { anchor = "spontaneous-casting" },
+  { anchor = "spontaneous-casting", level = 1 },
 ]
 trades = [
   { alters = "Channel energy", feature = "channel-energy", by = ["channel-energy"] },
-  { alters = "Casting", feature = "spells", by = ["spontaneous-casting"] },
+  { alters = "Casting", feature = "spontaneous-casting", by = ["spontaneous-casting"] },
 ]
 +++
 
