@@ -7479,7 +7479,7 @@ LEVEL_FROM_PRINT[("ref/arc-unchained-summoner/devil-impostor", "deceptive-eidolo
 
 # ---- Ultimate Magic class options, single-power (batch of 2026-11-27) ---------------------------------------------------------
 MISPRINTS.append(("ref/exploit/consume-magic-items", "o-level", "0-level",
-                  "a defect of the text layer, not of print: the page prints \"0-level\" (Advanced Class Guide p. 10)"))
+                  "print likely has the letter \"o\" in \"o-level\"; this is a misprint, not a text-layer defect (Advanced Class Guide p. 10)"))
 MISPRINTS.append(("ref/invtalent/tenacious-inspiration", "must at least 13th level", "must be at least 13th level",
                   "print drops the verb: \"The investigator must at least 13th level to select this talent.\" (Advanced Class Guide p. 33); "
                   "the sentence has no other reading (ruling 9)"))

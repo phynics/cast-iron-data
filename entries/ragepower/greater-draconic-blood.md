@@ -19,8 +19,8 @@ ability_type = "Su"
 A greater blood rage power can only be taken by a 10th level or higher barbarian that already has
 the middle blood rage power.
 
-While raging, the barbarian  gains a breath weapon that she can use once per day. For  every 2
-barbarian levels, this breath weapon deals 1d6  points of damage of the energy type she choose for
-the  draconic blood power, either in a 30-foot cone (if cold or  fire) or a 60-foot line (if acid or
-electricity). Those caught  in the area of the breath can attempt a Reflex saving  throw for half
-damage. The DC of this save is equal to 10  + 1/2 the barbarian’s level + her Constitution modifier.
+While raging, the barbarian gains a breath weapon that she can use once per day. For every 2
+barbarian levels, this breath weapon deals 1d6 points of damage of the energy type she choose for
+the draconic blood power, either in a 30-foot cone (if cold or fire) or a 60-foot line (if acid or
+electricity). Those caught in the area of the breath can attempt a Reflex saving throw for half
+damage. The DC of this save is equal to 10 + 1/2 the barbarian's level + her Constitution modifier.
