@@ -1,0 +1,7 @@
+entry	anchor	decision	note
+ref/arc-druid/goliath-druid	primal-bond	print	owner ruling 43 (review of #356): print has "she must selected"; the verb is written "must select" and an errata row records it (`scripts/errata.tsv`).
+ref/arc-druid/goliath-druid	wild-shape	print	lead review (ruling 14): the corpus text of Wild Shape holds the list of creatures that Primal Summons prints (a copy, ruling 10); print gives them under Primal Summons. Print wins. Level 4: the lead says nothing; the feature alters wild shape, a 4th-level class feature.
+ref/arc-fighter/titan-fighter	incredible-heft	print	hand text (an edit): see the note of the edit.
+ref/arc-rogue/vexing-dodger	distracting-climber-rogue-talents	drop	lead review (ruling 14, structural): the import has the head Rogue Talents twice (a stub after Distracting Climber); print has the section once, after Distracting Climber, and the text is in `rogue-talents`.
+ref/arc-rogue/vexing-dodger	end:tactics-to-consider	drop	lead review (ruling 41): the title that ends the archetype (Giant Hunter's Handbook p. 21, "Tactics to Consider") is the title of the next section of the book; not part of the archetype.
+ref/arc-rogue/vexing-dodger	rogue-talents	unlist;print	lead review (ruling 54): "Rogue Talents (Ex): A vexing dodger can choose uncanny dodge as a rogue talent starting at 4th level ... The following talents complement the vexing dodger archetype" has no level and no trade of its own and lists the talents that suit the archetype; an unlisted section. Print wins over the corpus's list.

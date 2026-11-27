@@ -16,10 +16,16 @@ page = "14"
 
 [fields]
 kind = "archetype"
+features = [
+  { anchor = "protecting-veil", level = 1 },
+  { anchor = "ghostwalk", level = 2 },
+  { anchor = "deliver-touch-spells", level = 3 },
+  { anchor = "fog-of-war", level = 6 },
+]
 trades = [
-  { replaces = "Familiar", feature = "witch-s-familiar" },
-  { replaces = "2nd-level hex", feature = "hex", levels = [2] },
-  { replaces = "6th-level hex", feature = "hex", levels = [6] },
+  { replaces = "Familiar", feature = "witch-s-familiar", by = ["protecting-veil"] },
+  { replaces = "Hex gained at 2nd level", feature = "hex", levels = [2], by = ["ghostwalk"] },
+  { replaces = "Hex gained at 6th level", feature = "hex", levels = [6], by = ["fog-of-war"] },
 ]
 +++
 
@@ -29,44 +35,35 @@ dervishes or charging cavalry haunt foot soldiers serving Qadira's neighbors. Kn
 their heads and weakening their resolve. Qadiran ashiftahs usually go veiled, and even their cohorts
 in the Imperial Forces superstitiously believe that seeing their faces brings misfortune.
 
-**Protecting Veil**
+## Protecting Veil {#protecting-veil}
 
-**Ability:** An ashiftah's veil is not merely a uniform, but a magical vestment imbued with power.
-Its ability to hold spells functions identically to a witch's familiar. An ashiftah must veil
-herself and commune with her patron each day to prepare her spells and cannot prepare spells not
-stored in the veil.
+An ashiftah's veil is not merely a uniform, but a magical vestment imbued with power. Its ability to
+hold spells functions identically to a witch's familiar. An ashiftah must veil herself and commune
+with her patron each day to prepare her spells and cannot prepare spells not stored in the veil.
 
-**Replaces:** Familiar
+This ability replaces familiar.
 
-**Ghostwalk (Su)**
+## Ghostwalk (Su) {#ghostwalk}
 
-**Gained:** At 2nd Level
+Starting at 2nd level, as a move action after using a hex, an ashiftah can become invisible as per
+_[vanish](ref/spell/vanish)_ and can then take a 5-foot step. Using ghostwalk doesn't provoke
+attacks of opportunity.
 
-**Move:** After using a hex, an ashiftah can become invisible as per [vanish](ref/spell/vanish) and
-can then take a 5-foot step.
+This ability replaces the hex gained at 2nd level.
 
-**Provokes attack of opportunity:** No
+## Deliver Touch Spells (Su) {#deliver-touch-spells}
 
-**Replaces:** 2nd-level hex
+Starting at 3rd level, an ashiftah can use her veil to deliver touch spells. After casting a touch
+spell, as a full-round action, she can tear a strip from her veil and whisper to it, designating a
+target. She then releases the scrap of fabric, which drifts on the wind to the target and delivers
+the spell as a ranged touch attack. The target must be within 20 feet of the witch. The veil mends
+itself after the spell is delivered.
 
-**Deliver Touch Spells (Su)**
+## Fog of War (Sp) {#fog-of-war}
 
-**Flavor:** An ashiftah can use her veil to deliver touch spells.
+At 6th level, as a standard action, an ashiftah can blanket a 20-foot-radius area of the battlefield
+in a clammy mist that functions as per _[barrow haze](ref/spell/barrow-haze)_, allowing her to treat
+any area within the mist as within 30 feet for purposes of her hexes, as long as some part of that
+area is within 30 feet of her.
 
-**Fullround:** After casting a touch spell, she can tear a strip from her veil and whisper to it,
-designating a target. She then releases the scrap of fabric, which drifts on the wind to the target
-and delivers the spell as a ranged touch attack. The target must be within 20 feet of the witch. The
-veil mends itself after the spell is delivered.
-
-**Gained:** At 3rd Level
-
-**Fog of War (Sp)**
-
-**Gained:** At 6th Level
-
-**Replaces:** 6th-level hex
-
-**Standard:** An ashiftah can blanket a 20-foot-radius area of the battlefield in a clammy mist that
-functions as per [barrow haze](ref/spell/barrow-haze), allowing her to treat any area within the
-mist as within 30 feet for purposes of her hexes, as long as some part of that area is within 30
-feet of her.
+This replaces the hex gained at 6th level.
