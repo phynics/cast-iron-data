@@ -555,26 +555,41 @@ def drop_cell_runs(sentence: str) -> str:
 HEADER_TOKENS = {"ref", "fort", "will", "save", "base", "attack", "bonus", "level", "special"}
 
 
-def table_word(token: str, table_words: frozenset | set) -> bool:
+def special_word(token: str, table_words: frozenset | set) -> bool:
+    """A word of the Special cell of the class table (four letters or more, in the table, not a word of its header: "bonus", "level" and "save" start prose too)."""
     letters = re.sub(r"[^a-z]", "", token.lower())
-    return (len(letters) >= 4 and letters in table_words) or letters in HEADER_TOKENS
+    return len(letters) >= 4 and letters in table_words and letters not in HEADER_TOKENS
+
+
+def real_header(tokens: list[str], i: int) -> bool:
+    """Whether a class table begins at token `i`: "Base Attack" followed within a few words by "Fort", "Ref" or "Reflex", and "Will", then cells (a run of numbers); or
+    the title of the spell columns ("Spells per Day", "Spells Known") followed by its columns and cells. The words "base attack bonus" in a sentence are no table."""
+    low = [re.sub(r"[^A-Za-z]", "", x).lower() for x in tokens[i:i + 14]]
+    cells = sum(NUMERIC.match(x) is not None for x in tokens[i:i + 60])
+    if low[:2] == ["base", "attack"]:
+        rest = low[2:]
+        return (cells >= 5 and "fort" in rest and "will" in rest and any(x in ("ref", "reflex") for x in rest)
+                and rest.index("fort") < rest.index("will") and [x for x in rest if x in ("fort", "ref", "reflex", "will")][:3] in (["fort", "ref", "will"], ["fort", "reflex", "will"]))
+    if low[:1] in (["spells"], ["extracts"], ["formulae"]):
+        nxt = tokens[i + 3] if i + 3 < len(tokens) else "x"
+        if low[1:2] == ["per"] and low[2:3] == ["day"]:
+            return cells >= 5 and NUMERIC.match(nxt) is not None
+        if low[1:2] == ["known"]:
+            return cells >= 5 and (NUMERIC.match(tokens[i + 2] if i + 2 < len(tokens) else "x") is not None or low[2:3] == ["level"])
+    return False
 
 
 def split_junk(tokens: list[str], table_words: frozenset | set) -> list[list[str]] | None:
-    """The prose of a sentence that the text layer ran a class table into: the words before the header of the table ("Base Attack Fort Ref Will ...", "Spells per Day"
-    followed by its columns) and after its last row (the numbers after the "20th", then the words of the last Special cell). None when the sentence has no such
-    header. The two stretches must stand in the written text as they are: a number in them is a number of the sentence."""
+    """The prose of a sentence that the text layer ran a class table into: the words before the header of the table and after its last row (the numbers after the
+    "20th", then the words of the last Special cell). None when the sentence has no real table header (`real_header`). The two stretches must stand in the written
+    text as they are: a number in them is a number of the sentence."""
     n = len(tokens)
     for i in range(n):
-        low = [re.sub(r"[^A-Za-z]", "", x).lower() for x in tokens[i:i + 2]]
-        nxt3 = tokens[i + 3] if i + 3 < n else ""
-        header = low == ["base", "attack"] or (low[:1] in (["spells"], ["extracts"], ["formulae"]) and ((low[1:2] == ["per"] and NUMERIC.match(nxt3 or "x") is not None)
-                                                                                                   or (low[1:2] == ["known"] and (NUMERIC.match(tokens[i + 2] if i + 2 < n else "x") is not None or (tokens[i + 2:i + 3] or [""])[0] == "Level"))))
-        if header:
+        if real_header(tokens, i):
             end = i + last_cell_end(tokens[i:]) + 1
             if end <= i + 2:
                 end = i + 3
-            while end < n and table_word(tokens[end], table_words):
+            while end < n and special_word(tokens[end], table_words):
                 end += 1                                                    # the Special cell of the last row
             return [tokens[:i], tokens[end:]]
     return None
@@ -587,24 +602,24 @@ def junk_free(sentence: str, table_words: frozenset | set) -> list[str]:
 
 
 def lost_sentences(printed: str, written: str, table_words: frozenset | set = frozenset()) -> list[str]:
-    """The printed sentences that the written text lacks. A sentence is there when its letters and digits stand in the written text, or when it is one written
-    sentence up to noise (`co.near_exact`: the same digits, the same negations, at most two letters that differ). A sentence with a class table run into it is
+    """The printed sentences that the written text lacks. A sentence is there when its letters and digits stand in the written text on word boundaries with the same number tokens (`co.stands_in`), or when it is one written
+    sentence up to a misprint (`co.near_exact`: the same words and numbers and negations, one word of six letters or more that differs by at most two letters). A sentence with a class table run into it is
     there when the words before the table and the words after it each stand in the written text as they are, numbers included. No allowance is made by the
     words of the whole text."""
     plain = co.strip_see(plain_text(written))                     # a short printed "(see ...)" cross-reference is kept in the text but the corpus may link the thing (ruling 16)
-    have = fp.squash(plain)
+    sq_w = co.squash_map(plain)
     wsents = sentences(plain)
     out = []
     for s in sentences(co.strip_see(printed)):
         s = re.sub(r"^\((?:Ex|Su|Sp)(?:(?:, or |, and |, | or | and )(?:Ex|Su|Sp))*\):\s*", "", s)       # the tag of a head stands in the head
         pieces = split_junk(s.split(), table_words)
         if pieces is not None:
-            if all(not piece or fp.squash(" ".join(drop_cell_runs(" ".join(piece)).split())) in have for piece in pieces):
+            if all(not piece or co.stands_in(" ".join(drop_cell_runs(" ".join(piece)).split()), plain, sq_w) for piece in pieces):
                 continue
             out.append(s)
             continue
         s = drop_cell_runs(s)
-        if fp.squash(s) in have or co.near_exact(s, wsents):
+        if co.stands_in(s, plain, sq_w) or co.near_exact(s, wsents):
             continue
         out.append(s)
     return out
@@ -1230,6 +1245,18 @@ def self_test() -> int:
     eq(lost_sentences("The character gains a 3 bonus on checks " + table + " purpose of overcoming damage.", "The character gains a 3 bonus on checks. Purpose of overcoming damage.", {"aura", "true", "judgment"}), [],
        "the words before and after a class table stand in the text: the sentence is there")
     eq(lost_sentences("The character gains a bonus " + table + " the end.", "The character gains a bonus."), ["The character gains a bonus " + table + " the end."], "a short run after the table must stand too")
+    # prose that says "base attack bonus" is no class table (review of #380)
+    bab = "The bonus is equal to her base attack bonus plus half her class level, and it applies to all attacks made with the weapon she holds."
+    eq(lost_sentences(bab, bab.replace("her base attack bonus", "her Wisdom modifier"), {"attack", "bonus", "level", "class"}), [bab], "a changed word after 'base attack bonus' in prose is a loss, not a table")
+    eq(lost_sentences(bab, bab.replace("equal to her base attack bonus plus ", "equal to "), {"attack", "bonus", "level", "class"}), [bab], "a dropped 'base attack bonus' in prose is a loss")
+    eq(lost_sentences(bab, bab, {"attack", "bonus", "level", "class"}), [], "the same prose is there")
+    eq(real_header("Base Attack Fort Ref Will Level Bonus Save Save Save Special 1st +0 +2 +0 +2 Aura 2nd +1 +3 +0 +3".split(), 0), True, "the header of a class table is a header")
+    eq(real_header("Base Attack Bonus plus half her class level and 5 more".split(), 0), False, "'Base Attack Bonus' in a sentence is no header")
+    after = "Bonus feats equal to her level can be chosen. " + table
+    eq(lost_sentences("The class gains a bonus " + table + " bonus feats equal to her level, chosen as normal.", "The class gains a bonus. Bonus feats equal to her level, chosen as normal.", {"aura", "true", "judgment"}), [],
+       "after a real table the prose that starts with 'bonus' stays prose (a header word is not eaten as a cell word)")
+    eq(lost_sentences("The class gains a bonus " + table + " bonus feats equal to her level, chosen as normal.", "The class gains a bonus. Bonus feats equal to her rank, chosen as normal.", {"aura", "true", "judgment"}),
+       ["The class gains a bonus " + table + " bonus feats equal to her level, chosen as normal."], "a changed word after a real table is a loss")
     gb = [Pp("title", [("Class Features", True, False)], 1, 0, 18), Pp("para", [("Last feature text.", False, False)], 1, 0), Pp("para", [("1st +0 +2 +0 +2 2nd +1 +3 +0 +3", False, False)], 1, 0),
           Pp("para", [("Text of a section.", False, False)], 1, 0), Pp("title", [("Next Class", True, False)], 2, 0, 38), Pp("para", [("Next class text.", False, False)], 2, 0)]
     eq([b.plain() for b in gap_blocks(gb, gb[:2], set(), "")], ["Text of a section."], "the gap skips the paragraph of cells and stops at a large title")
