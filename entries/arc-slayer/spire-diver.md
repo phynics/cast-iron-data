@@ -17,7 +17,7 @@ page = "80"
 [fields]
 kind = "archetype"
 features = [
-  { anchor = "studied-target", level = 1 },
+  { anchor = "studied-target" },
   { anchor = "hold-breath", level = 1 },
   { anchor = "slayer-talents" },
   { anchor = "swift-swimmer", level = 11 },

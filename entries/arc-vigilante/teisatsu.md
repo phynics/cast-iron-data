@@ -19,9 +19,7 @@ kind = "archetype"
 features = [
   { anchor = "infiltrator", level = 1 },
   { anchor = "ki-pool", level = 2 },
-  { anchor = "teisatsu-talents", level = 2 },
-  { anchor = "ki-power" },
-  { anchor = "shadow-tricks" },
+  { anchor = "teisatsu-talents" },
 ]
 trades = [
   { replaces = "Weapon and armor proficiencies", feature = "weapon-and-armor-proficiencies" },
@@ -68,12 +66,12 @@ talents below, which are unique to the teisatsu.
 
 This ability alters vigilante talents.
 
-## Ki Power (Su) {#ki-power}
+### Ki Power (Su) {#ki-power}
 
 The teisatsu gains a single ki power of his choice from the list available to the
 [unchained monk](ref/class/unchained-monk) class (_Pathfinder RPG Pathfinder Unchained_ 14).
 
-## Shadow Tricks (Ex) {#shadow-tricks}
+### Shadow Tricks (Ex) {#shadow-tricks}
 
 The teisatsu gains a single ninja trick (but not a master trick) of his choice. He cannot select a
 rogue talent in place of a ninja trick in this manner. If he selects a ninja trick marked with an

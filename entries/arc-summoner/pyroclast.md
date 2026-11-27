@@ -17,7 +17,7 @@ page = "72"
 [fields]
 kind = "archetype"
 features = [
-  { anchor = "diminished-spellcasting" },
+  { anchor = "diminished-spellcasting", level = 1 },
   { anchor = "bound-to-fire" },
   { anchor = "detonate", level = 6 },
   { anchor = "heart-of-earth-and-fire", level = 8 },

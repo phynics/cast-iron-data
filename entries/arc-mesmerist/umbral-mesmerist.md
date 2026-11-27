@@ -17,7 +17,7 @@ page = "16"
 [fields]
 kind = "archetype"
 features = [
-  { anchor = "diminished-spellcasting" },
+  { anchor = "diminished-spellcasting", level = 1 },
   { anchor = "shadow-summoning", level = 1 },
   { anchor = "umbral-solipsism", level = 2 },
   { anchor = "ephemeral-stare", level = 5 },

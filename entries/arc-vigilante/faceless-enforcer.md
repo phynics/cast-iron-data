@@ -37,7 +37,7 @@ a complete mystery.
 
 ## Weapon and Armor Proficiencies {#weapon-and-armor-proficiencies}
 
-A a faceless enforcer is proficient with heavy armor, but not with shields.
+A faceless enforcer is proficient with heavy armor, but not with shields.
 
 This alters the vigilante's weapon and armor proficiencies.
 
@@ -107,7 +107,8 @@ checks to maintain his fictional identity increases to +15.
 
 Every month, a faceless enforcer can create a new fictional identity, if he wishes, but not another
 fictional identity that is attempting to infiltrate the same group. A faceless enforcer cannot
-select the any guise, everyman, or many guises social talents.
+select the [any guise](ref/soctalent/any-guise), [everyman](ref/soctalent/everyman), or
+[many guises](ref/soctalent/many-guises) social talents.
 
 This ability replaces the social talents gained at 5th, 11th, and 17th levels.
 

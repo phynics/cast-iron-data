@@ -83,7 +83,7 @@ All cyclopean seers have access to the following revelations, regardless of thei
 ## Doomsaying (Su) {#doomsaying}
 
 As a standard action, you can pronounce doom on a creature within 30 feet. The target takes a
-penalty equal to your oracle level on either all skill checks, all savings throws, or all attack
+penalty equal to your oracle level on either all skill checks, all saving throws, or all attack
 rolls (your choice) for 1 minute or until he fails one such roll. You can use this ability a number
 of times per day equal to your Charisma bonus. This is a curse effect (_Ultimate Magic_ 137).
 

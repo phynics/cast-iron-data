@@ -1,0 +1,36 @@
+[[edit]]
+entry = "ref/arc-occultist/psychodermist"
+anchor = "seek-prey"
+note = "hand-written by the batch lead from print (Monster Hunter's Handbook p. 25): the extraction ran the heading and the first sentence of the box Trophies (a box set at the top of the right column) into the end of this ability; the ability is print's paragraph and its trade sentence, and the box is the unlisted section added to Trophies."
+text = '''
+At 5th level, a psychodermist can supernaturally detect creatures around him as a standard action. This functions as the spell _[aura sight](ref/spell/aura-sight)_, except the duration is 1 round and the psychodermist learns the locations and power of all auras of a specific creature type, similar to _[detect undead](ref/spell/detect-undead)_ except the psychodermist can choose any creature type represented among the trophies he has selected for that day.
+
+This ability replaces aura sight.
+'''
+
+[[add]]
+entry = "ref/arc-occultist/psychodermist"
+anchor = "trophies-box"
+head = "Trophies"
+parent = "trophies"
+after = "trophies"
+note = "text of the box Trophies (Monster Hunter's Handbook p. 25, ruling 41), word for word from print: a box of rules that the psychodermist's Trophies ability uses (the monster parts for each implement school); an unlisted section of this entry. The import had its eight rows as sections of their own."
+text = '''
+Psychodermists use the following monster parts for each implement school.
+
+**Abjuration:** Chitin, hides, scales, and other natural armor.
+
+**Conjuration:** Gizzards, glands, hearts, livers, and other internal organs.
+
+**Divination:** Ears, eyes, tongues, and other sensory organs.
+
+**Enchantment:** Feathers, fur, hair, spines, and other decorative features.
+
+**Evocation:** Claws, fangs, horns, and other natural weapons.
+
+**Illusion:** Fingers, tendrils, toes, and other prehensile digits.
+
+**Necromancy:** Bones, bile, and life-sustaining fluids, such as blood.
+
+**Transmutation:** Feet, hands, paws, wings, and other appendages tied to locomotion.
+'''
