@@ -1318,9 +1318,22 @@ ANY_TITLE_ENDS = {"on": False}
 # ... except the box of rules that an archetype carries as part of itself (owner ruling 41; the Invested Regent's Vested Powers and its lists of
 # powers per level, Heroes of the High Court pp. 22-23): squashed titles that do not end the section even then.
 STAYS_EXTRA = {"set": frozenset()}      # titles that stay inside the section of an archetype in the book at hand (Blood of Shadows: the "Discoveries" of the Gloom Chymist)
-# ... and an archetype's closing section for characters who lose the class's features ("Ex-Insinuators", Agents of Evil p. 21) is part of
-# the archetype's own text: it does not end the span even in a book where any title ends it.
-ANY_TITLE_STAYS = re.compile(r"^(?:(?:\d+(?:st|nd|rd|th)level)?vestedpowers|ex[a-z]+)$")
+# ... and an archetype's closing section for characters who lose its features ("Ex-Insinuators" for the Insinuator, Agents of Evil p. 21)
+# is part of the archetype's own text: it does not end the span even in a book where any title ends it. See `is_ex_section`.
+ANY_TITLE_STAYS = re.compile(r"^(?:\d+(?:st|nd|rd|th)level)?vestedpowers$")
+
+
+def is_ex_section(title: str, key: str) -> bool:
+    """An archetype's closing section for characters who lose its features ("Ex-Insinuators" for the Insinuator, Agents of Evil p. 21) is
+    part of the archetype's own text: the printed title "Ex-" plus the archetype's own name (a plural allowed) does not end its span, even
+    in a book where any title ends it. A title such as "Extracts" or "Exploits" is no such section."""
+    m = re.match(r"^Ex-\s*(\S.*)$", title.strip(), re.I)
+    if not m or not key:
+        return False
+    rest = squash(m.group(1))
+    return rest in (key, key + "s")
+
+
 # Blood of the Ancients sets its titles in small capitals (a capital and its small capitals sit 5 units apart in one family of type), and
 # a chapter title that a page repeats unseen over the first lines of a column. Other books read as before.
 SMALL_CAP_TITLES = {"on": False}
@@ -1399,7 +1412,8 @@ def find_section(blocks: list[Para], title: str, stops: set[str] | None = None) 
                         continue                # section of the archetype before it): not a title
                     # another archetype, a class, a chapter title (a larger font) or a title of a type of rules ends the
                     # section; so does the "NEW RACIAL RULES" title that follows the archetypes of a race chapter
-                    any_ends = ANY_TITLE_ENDS["on"] and not ANY_TITLE_STAYS.match(k) and k not in STAYS_EXTRA["set"]
+                    any_ends = ANY_TITLE_ENDS["on"] and not ANY_TITLE_STAYS.match(k) and k not in STAYS_EXTRA["set"] \
+                        and not is_ex_section(nxt.plain(), key)
                     if (stops is None or any_ends or k in stops or k.endswith(("archetype", "mystery", "bloodline")) or nxt.size >= 30 or (ARCHETYPE_CAPS["on"] and nxt.size >= 20)
                             or CLASS_SUFFIX.search(nxt.plain()) or k == "newracialrules" or (TYPE_TITLE.search(nxt.plain()) and k not in KEEP_TITLES)
                             or (SECTION_STOPS["on"] and SECTION_STOP.match(re.sub(r"\s+", " ", nxt.plain()).strip()))):
@@ -4182,6 +4196,10 @@ def opening_texts(rows: list[dict], opening: list[str]) -> list[str]:
     return list(opening) + [r["print"] for r in rows if not r["listed"] and not r.get("parent") and r["print"]]
 
 
+# A step printed as a Roman numeral (I to XXXIX): the class table of the unchained summoner, whose summon monster steps run I to IX.
+ROMAN_STEP = re.compile(r"^x{0,3}(?:ix|iv|v?i{0,3})$", re.I)
+
+
 def first_level_key(name: str) -> str:
     """A feature name as the class table of a base class writes it, compared without case, plural, tag and suffix:
     "smite evil 1/day", "channel energy 1d6", "bomb 1d6", "Bombs" and "witch's familiar" are the names smite evil,
@@ -4194,8 +4212,10 @@ def first_level_key(name: str) -> str:
     name = re.sub(r"[,;]?\s+and (?:all|each|every)\s+(?:of\s+)?(?:its\s+|the\s+)?(?:improvements?|upgrades?)\b.*$", "", name, flags=re.I)   # "Shifter aspect and all improvements to it"
     name = re.sub(r"\s+(?:\d+/[\w-]+|\d+d\d+|[+\-]\d.*|\d+)$", "", name.strip())
     # a step printed as a Roman numeral is the number of the step, as a digit is: the unchained summoner's table writes "summon
-    # monster I" ... "summon monster IX", and a trade names the whole feature ("Summon monster")
-    name = re.sub(r"\s+(?:x{0,3}(?:ix|iv|v?i{1,3})|x{1,3})$", "", name.strip(), flags=re.I)
+    # monster I" ... "summon monster IX", and a trade names the whole feature ("Summon monster"). A bare V or XV is such a step too.
+    tail = re.search(r"\s+(\S+)$", name)
+    if tail and ROMAN_STEP.fullmatch(tail.group(1)):
+        name = name[:tail.start()].strip()
     name = re.sub(r"\s*\([^()]*\)$", "", name.strip())                          # "blessings (minor)" is the name blessings
     name = re.sub(r"^(?:the|a|an)\s+", "", fold(name))              # "The cavalier's order" is the name order
     name = re.sub(r"^[a-z]+'s\s+", "", name)                       # "witch's familiar" is the name familiar
@@ -4394,7 +4414,9 @@ def finalize(e: Entry, res: dict, class_cache: dict | None = None) -> dict:
     if res.get("opening_diff") and not opening_from_print and rows:
         opening_from_print = True
         opening = [opening_with_links(e.id, o, res.get("opening_links", []), deferred) for o in res["opening"]]
-        rows[0]["notes"].append("opening text written from print: the import differs in " + ", ".join(res["opening_diff"][:12])
+        # the note belongs to the entry's opening text: the first printed row, not a section that a hand `add` put before it
+        first = next((r for r in rows if r.get("span")), rows[0])
+        first["notes"].append("opening text written from print: the import differs in " + ", ".join(res["opening_diff"][:12])
                                 + (" ..." if len(res["opening_diff"]) > 12 else ""))
     res["opening"] = opening
     for label, target in deferred:
@@ -4818,7 +4840,7 @@ def configure_book(book: str) -> None:
                                  "heroes-of-the-darklands", "legacy-of-dragons", "familiar-folio", "advanced-class-origins",
                                  "dirty-tactics-toolbox", "melee-tactics-toolbox", "villain-codex")
     ART_INDENT["on"] = book in ("dirty-tactics-toolbox", "melee-tactics-toolbox", "villain-codex")
-    ART_RUNS["on"] = book in ("black-markets", "blood-of-shadows")
+    ART_RUNS["on"] = book in ("black-markets", "blood-of-shadows", "agents-of-evil")     # Agents of Evil: text beside the figure steps in and out line by line (p. 20)
     SECTION_STOPS["on"] = book in ("adventurers-guide", "ultimate-wilderness", "horror-adventures", "planar-adventures")
     ANY_TITLE_ENDS["on"] = book in SMALL_CAP_BOOKS or book in PLAYER_COMPANIONS or book in ("monster-codex", "advanced-class-origins", "black-markets", "blood-of-shadows", "agents-of-evil")
     STAYS_EXTRA["set"] = frozenset({"discoveries"}) if book == "blood-of-shadows" else frozenset()
@@ -6426,8 +6448,15 @@ def self_test() -> int:
     eq((first_level_key("Summon monster IX"), first_level_key("Summon monster")), ("summon monster", "summon monster"),
        "the Roman numeral of a class-table step is its number (ruling 57)")
     eq(first_level_key("Aura of evil XI") == "aura of evil", True, "a Roman numeral is stripped like a digit")
+    eq((first_level_key("Summon monster V"), first_level_key("Summon monster XV")), ("summon monster", "summon monster"),
+       "a bare V and XV are steps too (the reviewer of #353)")
+    eq(first_level_key("Perfect self"), "perfect self", "a name of two plain words is unchanged")
     # an archetype's closing Ex- section stays in its span where any title ends the span (Agents of Evil, Ex-Insinuators)
-    eq(bool(ANY_TITLE_STAYS.match("exinsinuators")), True, "the Ex- section of an archetype does not end its span")
+    eq(is_ex_section("Ex-Insinuators", "insinuator"), True, "the Ex- section of an archetype does not end its span")
+    eq(is_ex_section("Ex-Insinuator", "insinuator"), True, "a singular Ex- title too")
+    eq(is_ex_section("Extracts", "extract"), False, "a title that starts with ex is no Ex- section (an alchemist's Extracts)")
+    eq(is_ex_section("Exploits", "exploit"), False, "a title that starts with ex is no Ex- section (an arcanist's exploits)")
+    eq(is_ex_section("Ex-Inquisitors", "heretic"), False, "the Ex- section of another archetype's name does not stay")
     eq(bool(ANY_TITLE_STAYS.match("10thlevelvestedpowers")), True, "the vested powers of the Invested Regent still stay")
     eq(bool(ANY_TITLE_STAYS.match("battlinggood")), False, "another title of the chapter still ends the span")
     configure_book("agents-of-evil")
@@ -6437,7 +6466,7 @@ def self_test() -> int:
     eq((SMALL_CAP_TITLES["on"], ANY_TITLE_ENDS["on"], CHAPTER_TITLES["on"], SMALL_CAP_JOIN["gap"], BODY_TOP[0]),
        (True, True, False, 10, BODY_CAP_TOP), "Divine Anthology: letter-spaced small-capital titles, the first body line above 88")
     configure_book("ultimate-magic")
-    eq(SMALL_CAP_JOIN["gap"], 8, "the other books keep the five-unit shift")
+    eq(SMALL_CAP_JOIN["gap"], 8, "the other books keep the default eight-unit gap")
     print(f"self-test: {ok} checks passed")
     return 0
 
@@ -6452,7 +6481,15 @@ MISPRINTS.extend([
     ("ref/arc-cleric/divine-paragon", "an accelerated rate (see bel0w)", "an accelerated rate (see below)",
      "a defect of the text layer, not of print: the page image of Divine Anthology p. 15 reads \"(see below)\"; the digit stands where the "
      "layer lost the letter o"),
+    ("ref/arc-antipaladin/insinuator", "may instead chose during the invocation", "may instead choose during the invocation",
+     "print has \"chose\" where \"choose\" belongs (Agents of Evil p. 21; owner ruling 9, review of #353)"),
+    ("ref/arc-warpriest/divine-champion", "Every 6 paladin levels thereafter", "Every 6 warpriest levels thereafter",
+     "the divine champion is a warpriest archetype and the sentence names its own class elsewhere; print has \"paladin\" (Divine Anthology "
+     "p. 14; owner ruling 43, review of #353)"),
 ])
+# "Pure Legion" is an organization, and the corpus has no entry for it: the import's link to a trait of the same name is dropped (review of
+# #353). "Whispering Way" keeps its link to the faction entry the corpus uses for it in 18 other entries.
+LINK_DROP.add(("ref/arc-warpriest/divine-champion", "Pure Legion"))
 # "This alters the unchained summoner's class skills." is print's sentence of the Skills section before the first feature: it is stored
 # without `by` (ruling 6, as for the Class Skills sections of the earlier batches; the head is scaffold, ruling 33)
 TRADE_ADDITIONS.setdefault("ref/arc-unchained-summoner/devil-impostor", []).append({"alters": "Class skills"})
