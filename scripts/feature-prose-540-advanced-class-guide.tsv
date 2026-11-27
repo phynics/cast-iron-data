@@ -56,6 +56,11 @@ ref/arc-bloodrager/blood-conduit	Reflexive Conduit (Ex)	reflexive-conduit	yes	14
 ref/arc-bloodrager/bloodrider	Fast Rider (Ex)	fast-rider	yes	1	print	print	level 1: replaces Fast movement, of which one is gained at 1st level in the class table	82	da00b7bcb1e5daa57879fe6df99c03603b37ba9059f7d54f19e62f3f32df1a90
 ref/arc-bloodrager/bloodrider	Feral Mount (Ex)	feral-mount	yes	5	print	print		82	884720b4ce9f6a072e16cc34a796ef8adc5b18b1c13eb37558f697da53729a23
 ref/arc-bloodrager/bloodrider	Blood Bond (Su)	blood-bond	yes	9	print	print	errata: Paizo errata for Advanced Class Guide p. 83: print has "replaces the bloodline feat gained at.", written "replaces the bloodline feat gained at 9th level."	83	cfc36730b57d81ca331176b35d92130c4d7eaa37b8859b663cc2ed885d21d4fd
+ref/arc-bloodrager/crossblooded-rager	Bonus Feats	bonus-feats	no		draft	draft	opening text written from print: the import differs in 1, 2, access, already, below, bloodline, bloodline, bloodline, bloodline, bloodline, bonu, both ...	83	8e51c07e6a1349958c2eb0894a2df42c6b4f8d9cf01466cd8f46f92b9229f7ac
+ref/arc-bloodrager/crossblooded-rager	Bonus Spells	bonus-spells	no		print	print		83	0c229c824976f326c82b35944ebf3f9f9efdbeb379e8c231fee3b9c1990f6e18
+ref/arc-bloodrager/crossblooded-rager	Bloodline Powers	bloodline-powers	yes	1		hold	number: corpus ['1', '12', '16', '20', '8'] / print ['every', 'thereafter']	83	7a441b120477f5551e318712b8ec00279b10aa743892cc6a313fcb103a9c8e55
+ref/arc-bloodrager/crossblooded-rager	Drawbacks	drawbacks	yes		print	print		83	6fc2d6af3a894b97cac220adf1bcdaba204568ff1b9d9fee358dcb7e726b1582
+ref/arc-bloodrager/crossblooded-rager	Two Bloodlines	two-bloodlines	no			hold	head not printed		4cdf5c216381effb3ce51c84be97da33ad269fb0f644f0a04667aa0f51e7a891
 ref/arc-bloodrager/greenrager	Unfettered Fury (Ex)	unfettered-fury	yes	3	print	print		83	dd779b7200b070c76f28b7efbe10248be5c27a1b452031acc1ba3245e28e2d91
 ref/arc-bloodrager/greenrager	Summoning Rager (Sp)	summoning-rager	yes	6	print	print		83	6ef5f04ec5919f8783baa382e32161d4d4efc34429e1f6429ec9189b6f920778
 ref/arc-bloodrager/greenrager	Furious Summoning (Su)	furious-summoning	yes	9	print	print		83	52915b632cadb66231442c7a322719463381d5840fbb1dca3d755ebe13492395

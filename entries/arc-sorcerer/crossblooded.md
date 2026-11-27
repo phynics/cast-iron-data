@@ -15,7 +15,7 @@ publication = "ultimate-magic"
 page = "69"
 
 [fields]
-kind = "none"
+kind = "archetype"
 +++
 
 A crossblooded bloodline combines the powers of two distinct heritages. In most cases, sorcerers
