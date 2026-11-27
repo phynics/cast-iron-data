@@ -107,6 +107,8 @@ jobs:
         run: |
           python3 corpus/scripts/feature-prose-540-class-options.py --self-test
           python3 corpus/scripts/feature-prose-540-class-options.py corpus --check
+      - name: Base classes as printed prose (#540)
+        run: python3 corpus/scripts/feature-prose-540-classes.py --self-test
       - name: Errata review file (#309)
         run: |
           python3 corpus/scripts/errata.py --self-test
