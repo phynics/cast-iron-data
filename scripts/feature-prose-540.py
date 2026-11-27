@@ -593,8 +593,8 @@ def apply_links(text: str, links: list[tuple[str, str]]) -> tuple[str, list[str]
     parentheses and brackets do not fool the test. Returns the text and the link texts that found no place."""
     lost = []
     for label, target in sorted(links, key=lambda x: -len(x[0])):
-        plain = label.replace("\\", "")
-        words = [re.escape(w) for w in re.split(r"[\s-]+", plain) if w]
+        plain = re.sub(r"[_\s-]+", " ", label.replace("\\", ""))
+        words = [re.escape(w) for w in plain.split() if w]
         if not words:
             continue
         pat = re.compile(r"(?<![\w\[])" + r"[\s-]+".join(words) + r"(?![\w\]])", re.I)
@@ -1762,6 +1762,11 @@ def head_of_para(p: Para) -> str | None:
     return cand[0] if cand and cand[2] else None
 
 
+# A source mark of print between a head and its colon: an asterisk or a dagger, with the bracket a superscript sometimes leaves ("(Su)*:").
+SOURCE_MARK_TAIL = re.compile(r"^\s*(?:[\*†‡]|\([^)]{1,3}\))+\s*(?=:)")
+SOURCE_MARK_END = re.compile(r"\s*[\*†‡]+\s*$")
+
+
 def split_print(section: list[Para], expected: list[str]) -> tuple[list[list], list[PrintFeature]]:
     """The printed opening paragraphs and the printed features of an archetype section. A bold paragraph
     start is a head; an italic one is a head only when it is the next name that the entry expects."""
@@ -1775,6 +1780,14 @@ def split_print(section: list[Para], expected: list[str]) -> tuple[list[list], l
         is_head = False
         if cand:
             head, rest, bold = cand
+            if SOURCE_MARK_END.search(head):
+                head = SOURCE_MARK_END.sub("", head)      # "Plague Bomb (Su)*:" (the mark is inside the italic run, Ultimate Magic p. 16)
+                cand = (head, rest, bold)
+            if rest and not rest[0][0].lstrip().startswith(":") and SOURCE_MARK_TAIL.match(rest[0][0]):
+                # a source mark between a head and its colon ("Tanglefoot Bomb (Su)*:", Ultimate Magic p. 17): the mark is not the head's name
+                rest = list(rest)
+                rest[0] = (SOURCE_MARK_TAIL.sub("", rest[0][0], count=1), rest[0][1], rest[0][2])
+                cand = (head, rest, bold)
             colon = rest and rest[0][0].lstrip().startswith(":") if rest else False
             tail_ok = not rest or colon or (bold and namekey(head) in want)     # print leaves out a colon here and there
             if tail_ok and (bold or (namekey(head) in want)):
@@ -2255,7 +2268,9 @@ def expand_rules(print_text: str, corpus_text: str) -> tuple[str, list[str]] | N
 
 
 PREREQ_LEVEL = re.compile(r"(\d+)(?:st|nd|rd|th)[- ]level\b", re.I)
-PRINT_AT_LEAST = re.compile(r"[^.]*\bmust be at least (\d+)(?:st|nd|rd|th)[- ]level\b[^.]*\.", re.I)
+# "must be at least 13th level" (the archetype sentence), and the class-option sentence "You must be at least a 5th-level wizard to select
+# this discovery": the article of the second form is print's, the level is the rule.
+PRINT_AT_LEAST = re.compile(r"[^.]*\bmust be at least (?:a |an )?(\d+)(?:st|nd|rd|th)[- ]level\b[^.]*\.", re.I)
 
 
 # class options (#540, rulings 60 and 61 of the data plan): a `Prereq` row of a class option is print's sentences. Only the class-option script turns
@@ -7316,6 +7331,12 @@ TABLE_NAMES[("ref/arc-unchained-summoner/devil-impostor", "Summon monster")] = "
 TRADE_RENAMES[("ref/arc-unchained-summoner/devil-impostor", "Eidolon")] = "The normal eidolon rules"
 LEVEL_FROM_PRINT[("ref/arc-unchained-summoner/devil-impostor", "deceptive-eidolon")] = (
     1, "ruling 57: it alters the eidolon class feature, which the unchained summoner gains at 1st level; the stored name follows print's sentence")
+
+
+# ---- Ultimate Magic class options, single-power (batch of 2026-11-27) ---------------------------------------------------------
+MISPRINTS.append(("ref/evolution/undead-appearance", "hold undead", "halt undead",
+                  "print has \"hold undead\" for the spell halt undead (Ultimate Magic p. 77; owner ruling 9, a misprint of certain meaning; "
+                  "`scripts/errata.tsv` has the row)"))
 
 
 def main() -> int:

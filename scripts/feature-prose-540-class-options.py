@@ -297,7 +297,16 @@ def place_links(text: str, links: list[tuple[str, str]]) -> tuple[str, list[str]
     return text, lost
 
 
-HEADING_FAMILIES: set[str] = set()     # HELD until the per-book map of ruling 61 lands (it is {"evolution"} there): the heuristic and its page ranges wait. Ruling 61: an evolution opens with the printed sentence of its group heading ("2-Point Evolutions: The following ...")
+# Ruling 61: an evolution opens with the printed sentence of its group heading ("2-Point Evolutions: The following evolutions each cost 2
+# points from the eidolon's evolution pool."). The family is set per book, from the map below, so that a book whose evolutions print no such
+# heading (a group of one, a heading printed as part of the entry) is left alone.
+HEADING_FAMILIES_OF_BOOK: dict[str, frozenset[str]] = {"ultimate-magic": frozenset({"evolution"})}
+HEADING_FAMILIES: set[str] = set()     # the families of the book at hand: set by `configure_families`
+
+
+def configure_families(book: str) -> None:
+    HEADING_FAMILIES.clear()
+    HEADING_FAMILIES.update(HEADING_FAMILIES_OF_BOOK.get(book, ()))
 
 
 def heading_blocks(bk, page: int) -> list:
@@ -476,6 +485,7 @@ def run_compare(args) -> int:
     book = args.book
     title = fp.publication_title(corpus, book)
     fp.configure_book(book)
+    configure_families(book)
     pdf = fp.find_pdf(Path(args.books), title)
     if not pdf:
         raise SystemExit(f"no copy of {title!r} under {args.books}")
@@ -656,6 +666,7 @@ def run_headings(args) -> int:
     book = args.book
     title = fp.publication_title(corpus, book)
     fp.configure_book(book)
+    configure_families(book)
     pdf = fp.find_pdf(Path(args.books), title)
     if not pdf:
         raise SystemExit(f"no copy of {title!r} under {args.books}")
@@ -853,7 +864,10 @@ def self_test() -> int:
     eq([r["status"] for r in fence([dict(r) for r in mr], "multi")], ["hold", "hold"], "the fence holds every row of a multi-power entry")
     eq([r["status"] for r in fence([dict(r) for r in mr], "single")], ["print", "draft"], "the fence leaves a single power")
     eq(fence([dict(mr[0])], "multi")[0]["note"], "multi-power window not anchored yet", "the fence says why")
-    eq(HEADING_FAMILIES, set(), "the evolution group-heading heuristic is held until the per-book map lands")
+    configure_families("ultimate-magic")
+    eq(HEADING_FAMILIES, {"evolution"}, "ruling 61: the evolutions of Ultimate Magic carry their group heading")
+    configure_families("advanced-players-guide")
+    eq(HEADING_FAMILIES, set(), "a book without the family in the map keeps the heuristic off")
     # an import label row inside a power's span is part of the draft: print without it holds, print with it agrees (never dropped silently)
     inner = "**Gift (Su)**\n\n**Ability:** A gift of sight.\n\n**Details:** Gorum guards it.\n"
     _, ff = fp.parse_import(inner, set())
