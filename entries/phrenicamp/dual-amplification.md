@@ -13,13 +13,14 @@ page = "63"
 [fields]
 kind = "class_option"
 group = "phrenic-amplification"
+ability_type = "Ex"
 +++
 
-**Dual Amplification (Ex)**
+Major Amplifications: At 11th level and every 4 levels thereafter, a psychic can choose one of the
+following major amplifications in place of a phrenic amplification.
 
-**Ability:** When the psychic uses this major amplification, she chooses two other _amplifications_
-or _major amplifications_ she knows to apply to the same linked spell. She must spend 1 point from
-her phrenic pool to do so, plus the full cost of the two other amplifications.
-
-**Special:** She can't apply the same amplification to the linked spell more than once, even if she
-can use that amplification for multiple different effects.
+When the psychic uses this major amplification, she chooses two other amplifications or major
+amplifications she knows to apply to the same linked spell. She must spend 1 point from her phrenic
+pool to do so, plus the full cost of the two other amplifications. She can't apply the same
+amplification to the linked spell more than once, even if she can use that amplification for
+multiple different effects.

@@ -13,18 +13,15 @@ page = "62"
 [fields]
 kind = "class_option"
 group = "phrenic-amplification"
+ability_type = "Su"
 +++
 
-**Undercast Surge (Su)**
-
-**Ability:** When the psychic [undercasts](ref/rule/undercasting-spells) a spell, she can spend
+When the psychic [undercasts](ref/rule/undercasting-spells) a spell (see page 144), she can spend
 points from her phrenic pool to increase the spell's effective level, essentially using up a
 lower-level spell slot to cast a higher-level version of the spell. This costs 2 points per spell
-level increased.
-
-**Special:** She can't use this ability to cast a version higher than the version she knows. For
-instance, a psychic who knows [mind thrust III](ref/spell/mind-thrust-3) but not
-[mind thrust IV](ref/spell/mind-thrust-4) could cast [mind thrust II](ref/spell/mind-thrust-2) and
-spend 2 points to treat it as _[mind thrust III](ref/spell/mind-thrust-3),_ but couldn't spend 4
-points to treat it as _[mind thrust IV](ref/spell/mind-thrust-4)._ This amplification can be linked
+level increased. She can't use this ability to cast a version higher than the version she knows. For
+instance, a psychic who knows _[mind thrust III](ref/spell/mind-thrust-3)_ but not
+_[mind thrust IV](ref/spell/mind-thrust-4)_ could cast _[mind thrust II](ref/spell/mind-thrust-2)_
+and spend 2 points to treat it as _[mind thrust III](ref/spell/mind-thrust-3)_, but couldn't spend 4
+points to treat it as _[mind thrust IV](ref/spell/mind-thrust-4)_. This amplification can be linked
 only to spells that can be undercast.

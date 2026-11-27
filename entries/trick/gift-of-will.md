@@ -15,14 +15,9 @@ kind = "class_option"
 group = "mesmerist-trick"
 +++
 
-**Gift of Will**
-
-**Flavor:** A small portion of the mesmerist's vast mental power buttresses his ally's mind.
-
-**Ability:** The mesmerist can trigger this trick when the subject attempts a Will saving throw or a
-Sense Motive check, or is targeted by an Intimidate check to demoralize her. For a saving throw, the
-subject uses the mesmerist's Will saving throw bonus instead of her own. For a Sense Motive check or
-Intimidate check, she adds the mesmerist's Charisma bonus as a morale bonus on the check or to the
-DC.
-
-**Special:** The mesmerist can't implant this trick on himself.
+A small portion of the mesmerist's vast mental power buttresses his ally's mind. The mesmerist can
+trigger this trick when the subject attempts a Will saving throw or a Sense Motive check, or is
+targeted by an Intimidate check to demoralize her. For a saving throw, the subject uses the
+mesmerist's Will saving throw bonus instead of her own. For a Sense Motive check or Intimidate
+check, she adds the mesmerist's Charisma bonus as a morale bonus on the check or to the DC. The
+mesmerist can't implant this trick on himself.

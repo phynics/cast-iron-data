@@ -80,6 +80,65 @@ rw = _load("rewrite_class_option_powers", "rewrite-class-option-powers.py")
 fp.LOOSE_ITEMS["on"] = True      # ruling 60: the loose reading of a prerequisite item (every word, any order, a sentence with "must" or "only available")
 fp.IMPORT_HEAD_FIXES[("ref/vigtalent/expose-weaknesses", "Expose Weaknesses (Ex)")] = "Expose Weakness (Ex)"  # print p. 14; the entry title agrees with print
 fp.IMPORT_HEAD_FIXES[("ref/vigtalent/environmental-weapon", "Environmental Weapon (Ex)")] = "Environment Weapon (Ex)"  # print p. 14; the import head has an extra syllable
+fp.IMPORT_HEAD_FIXES[("ref/phrenicamp/complex-countermeasures", "Complex Countermeasures (Ex)")] = "Complex Countermeasure (Ex)"  # Occult Adventures p. 60; the import head has a plural s absent from print
+
+# The PDF text layer interleaves these paragraphs with the adjacent psychic tables on pp. 61–63.
+# These print-checked transcriptions keep the table out of the single-power text.
+PRINT_TEXT_OVERRIDES = {
+    ("occult-adventures", "ref/phrenicamp/mimic-metamagic"): (
+        "When the psychic gains this amplification, she chooses two metamagic feats; she need not have these feats to select them. "
+        "When she casts a spell, she can spend points from her phrenic pool to apply one of the chosen feats to the linked spell "
+        "without increasing the spell's level or casting time. She must spend a number of points equal to double the number of levels "
+        "by which the feat normally increases a spell's level (minimum 2 points). If the metamagic feat alters the spell's casting time "
+        "in a different way than the [standard rules](ref/rule/feats-basic) for a spontaneous caster using a metamagic feat (as in the case of "
+        "[Quicken Spell](ref/feat/quicken-spell)), it changes the casting time accordingly. The psychic can still apply metamagic feats "
+        "she knows to the spell while using this amplification, increasing the casting time and spell level as normal. This amplification "
+        "can be applied only to a spell that the chosen metamagic feat could normally affect, and only if the spellcaster can cast spells "
+        "of a high enough level that she would be able to apply the metamagic feat in question to the linked spell. For example, an "
+        "11th-level psychic could spend 8 points to quicken a 1st-level spell, but couldn't quicken a 2nd-level spell because she's "
+        "unable to cast 6th-level spells. This ability doesn't require her to have any free spell slots in the relevant level, however, "
+        "so the psychic in the example could quicken a 1st-level spell even if she had cast all her 5th-level spells for the day. "
+        "A psychic can select this amplification multiple times, adding two additional options to the list of metamagic feats she can apply "
+        "using this amplification each time."
+    ),
+    ("occult-adventures", "ref/phrenicamp/ongoing-defense"): (
+        "The psychic can increase the duration of spells that improve her psychic defenses. She can spend 1 point from her phrenic pool "
+        "when she casts any _[intellect fortress](ref/spell/intellect-fortress-1)_, _[mental barrier](ref/spell/mental-barrier-1)_, "
+        "_[thought shield](ref/spell/thought-shield-1)_, or _[tower of iron will](ref/spell/tower-of-iron-will-1)_ spell to extend the "
+        "spell's duration by 1 round."
+    ),
+    ("occult-adventures", "ref/phrenicamp/undercast-surge"): (
+        "When the psychic [undercasts](ref/rule/undercasting-spells) a spell (see page 144), she can spend points from her phrenic pool "
+        "to increase the spell's effective level, essentially using up a lower-level spell slot to cast a higher-level version of the spell. "
+        "This costs 2 points per spell level increased. She can't use this ability to cast a version higher than the version she knows. "
+        "For instance, a psychic who knows _[mind thrust III](ref/spell/mind-thrust-3)_ but not _[mind thrust IV](ref/spell/mind-thrust-4)_ "
+        "could cast _[mind thrust II](ref/spell/mind-thrust-2)_ and spend 2 points to treat it as _[mind thrust III](ref/spell/mind-thrust-3)_, "
+        "but couldn't spend 4 points to treat it as _[mind thrust IV](ref/spell/mind-thrust-4)_. This amplification can be linked only to "
+        "spells that can be undercast."
+    ),
+}
+
+
+OVERRIDE_MARKUP = re.compile(r"_(.+?)_|\[([^\]]+)\]\([^)]+\)")
+
+
+def print_override_runs(text: str) -> list[tuple[str, bool, bool]]:
+    """Turn a reviewed print transcription into the runs read by the shared print comparer."""
+    runs: list[tuple[str, bool, bool]] = []
+    at = 0
+    for match in OVERRIDE_MARKUP.finditer(text):
+        if match.start() > at:
+            runs.append((text[at:match.start()], False, False))
+        if match.group(1) is not None:
+            label = re.sub(r"\[([^\]]+)\]\([^)]+\)", r"\1", match.group(1))
+            runs.append((label, False, True))
+        else:
+            runs.append((match.group(2), False, False))
+        at = match.end()
+    if at < len(text):
+        runs.append((text[at:], False, False))
+    return runs
+
 
 HEADER = ["entry", "feature", "anchor", "shape", "section", "book", "page", "level_import", "level", "by", "ability_tag", "verdict",
           "reviewed_537", "status", "links_lost", "print_sha256", "span_sha256", "note"]
@@ -687,6 +746,24 @@ def anchor_section(blocks: list, title: str, own: frozenset | set = frozenset(),
 
 
 HEADING_FAMILIES = {"evolution", "unchevolution"}  # ruling 61
+GROUP_LINE_ENTRIES = {
+    "ref/phrenicamp/dispelling-pulse",
+    "ref/phrenicamp/dual-amplification",
+    "ref/phrenicamp/mimic-metamagic",
+    "ref/phrenicamp/space-rending-spell",
+    "ref/phrenicamp/subordinate-spell",
+    "ref/phrenicamp/synaptic-shock",
+    "ref/phrenicamp/turning-shield",
+}
+MAJOR_AMPLIFICATIONS_LINE = (
+    "At 11th level and every 4 levels thereafter, a psychic can choose one of the following major "
+    "amplifications in place of a phrenic amplification."
+)
+
+
+def major_amplifications_group_line(text: str) -> bool:
+    normalized = re.sub(r"\s+", " ", text).strip()
+    return normalized.startswith("Major Amplifications: " + MAJOR_AMPLIFICATIONS_LINE)
 INTRO_MARKS_BOOKS = ("ultimate-magic", "advanced-class-guide", "core-rulebook", "pathfinder-unchained")
 FAMILY_WORDS = (("investigator", "invtalent"), ("slayer", "slayertalent"), ("rage power", "ragepower"), ("bloodrage", "ragepower"), ("discover", "discovery"), ("hex", "shamanhex"), ("deed", "swashdeed"), ("arcana", "arcana"), ("evolution", "evolution"))
 class IntroMarkMap:
@@ -727,7 +804,14 @@ class GroupMap:
     def __init__(self, bk):
         self.blocks = fp.read_blocks(bk, 1, max(bk.pages))
         self.headings: list[tuple[int, str, int]] = []                         # (index of the title block, text, printed page)
-        for i, b in enumerate(self.blocks[:-1]):
+        for i, b in enumerate(self.blocks):
+            if b.kind == "para":
+                line, _, _ = fp.print_md(fp.PrintFeature("", [b.runs], b.page, False), [], set())
+                if major_amplifications_group_line(line.strip()):
+                    self.headings.append((i, re.sub(r"\s+", " ", line).strip(), b.page))
+                continue
+            if i + 1 >= len(self.blocks):
+                continue
             nxt = self.blocks[i + 1]
             if b.kind == "title" and nxt.kind == "para":
                 text, _, _ = fp.print_md(fp.PrintFeature("", [nxt.runs], nxt.page, False), [], set())
@@ -758,20 +842,26 @@ def group_map(bk) -> GroupMap:
 
 def group_heading(e, blocks) -> tuple[str, int] | None:
     """The group heading of a power from a list of blocks (a window of print): the last title above the head of the entry and the paragraph
-    under it when that starts "The following". `GroupMap` is the same for a whole book."""
+    under it when that starts "The following", or a recognized run-in group line. `GroupMap` is the same for a whole book."""
     want = fp.namekey(e.title)
     at = next((i for i, p in enumerate(blocks) if p.kind == "para" and (c := fp.head_candidate(p)) and fp.namekey(c[0]) == want), None)
     if at is None:
         return None
-    ti = next((i for i in range(at - 1, -1, -1) if blocks[i].kind == "title"), None)
-    if ti is None or ti + 1 >= at:
+    groups: list[tuple[int, str, int]] = []
+    for i, block in enumerate(blocks[:at]):
+        if block.kind == "para":
+            text, _, _ = fp.print_md(fp.PrintFeature("", [block.runs], block.page, False), [], set())
+            if major_amplifications_group_line(text.strip()):
+                groups.append((i, re.sub(r"\s+", " ", text).strip(), block.page))
+        if block.kind == "title" and i + 1 < at and blocks[i + 1].kind == "para":
+            text, _, _ = fp.print_md(fp.PrintFeature("", [blocks[i + 1].runs], blocks[i + 1].page, False), [], set())
+            text = text.strip()
+            if text.startswith("The following"):
+                groups.append((i, f"{re.sub(chr(10), ' ', block.plain()).strip()}: {text}", block.page))
+    if not groups:
         return None
-    para = blocks[ti + 1]
-    text, _, _ = fp.print_md(fp.PrintFeature("", [para.runs], para.page, False), [], set())
-    text = text.strip()
-    if not text.startswith("The following"):
-        return None
-    return f"{re.sub(chr(10), ' ', blocks[ti].plain()).strip()}: {text}", blocks[ti].page
+    _, text, page = groups[-1]
+    return text, page
 
 
 def variant_section(blocks: list, bk2, e, missing: list, expected: list[str]):
@@ -847,12 +937,31 @@ RULE_8_PRINTED_PROGRESSIONS = {
          "At and 20th levels, the vigilante can select an additional type of terrain."),
 }
 
+RULE_8_LEVEL_GATES = {
+    ("ref/trick/astounding-avoidance", "astounding-avoidance"):
+        ("If the mesmerist is 12th level or higher, the subject takes only half damage if she fails her save.",
+         "At 12th level, the subject takes only half damage if she fails her save."),
+    ("ref/trick/mask-misery", "mask-misery"):
+        ("If the mesmerist is 6th level or higher, he adds the moderate conditions to the conditions he can ignore with this trick, and this trick ends minor conditions entirely instead of suppressing them temporarily.",
+         "At 6th level, he adds the moderate conditions to the conditions he can ignore with this trick, and this trick ends minor conditions entirely instead of suppressing them temporarily."),
+}
+
 
 def ruling8_progression_decision(book: str, entry_id: str, anchor: str, decision, missing: list[str], print_text: str) -> bool:
     """An explicit ruling-8 decision can settle only the reviewed printed progression sentence."""
     expected = RULE_8_PRINTED_PROGRESSIONS.get((entry_id, anchor))
     return bool(book == "ultimate-intrigue" and expected and decision and decision[0] == "print"
                 and "ruling 8" in decision[1].lower() and missing == [expected[1]] and expected[0] in print_text)
+
+
+def ruling8_level_gate_decision(book: str, entry_id: str, anchor: str, decision, missing: list[str],
+                                print_text: str, imported_text: str) -> bool:
+    """Settle only the two reviewed level-gate phrasings whose threshold values are identical."""
+    expected = RULE_8_LEVEL_GATES.get((entry_id, anchor))
+    if not (book == "occult-adventures" and expected and decision and decision[0] == "print"
+            and "ruling 8" in decision[1].lower() and missing == [expected[0]]):
+        return False
+    return fp.squash(expected[0]) in fp.squash(print_text) and fp.squash(expected[1]) in fp.squash(imported_text)
 
 
 def headings_as_names(body: str) -> str:
@@ -1206,6 +1315,24 @@ def compare_one(e, book, bk, other=None) -> list[dict]:
     TABLE_HEADS.clear()
     TABLE_HEADS.update(fp.squash(" ".join(c.strip() for c in tab[0].strip().strip("|").split("|"))) for tab in corpus_tables(e0.body))
     res = fp.compare_entry(e, section, bk)
+    override = PRINT_TEXT_OVERRIDES.get((book, e.id))
+    if override is not None and shape == "single":
+        # Re-run the shared comparison with a page-reviewed transcription before tag, number,
+        # link, decision, and completeness checks. This replaces only the damaged PDF text run.
+        printed_row = next((row for row in res["rows"] if row.get("head") and row.get("span")), None)
+        if printed_row is not None:
+            head = printed_row["head"]
+            head_run = head if head.rstrip().endswith(":") else head + ": "
+            corrected_section = [
+                section[0],
+                fp.Para("para", [(head_run, True, False), *print_override_runs(override)], page, 0),
+            ]
+            corrected = fp.compare_entry(e, corrected_section, bk)
+            expected_span = powers[0][1] if powers else ""
+            corrected_row = next((row for row in corrected["rows"] if row.get("span") == expected_span), None)
+            if corrected_row is None:
+                raise ValueError(f"print-text correction for {e.id} did not match its imported power")
+            res, section = corrected, corrected_section
     by_span = {r["span"]: r for r in res["rows"] if r["span"]}
     if page_found:
         for r_ in res["rows"]:
@@ -1336,7 +1463,9 @@ def compare_one(e, book, bk, other=None) -> list[dict]:
         if lost_s:
             notes.append(f"print sentences that the written text lacks ({len(lost_s)}): " + " | ".join(x[:60] for x in lost_s[:2]))
             status = "hold"
-            if not ruling8_progression_decision(book, e.id, anchor, DECISIONS.get((e.id, anchor)), lost_s, printed):
+            if not (ruling8_progression_decision(book, e.id, anchor, DECISIONS.get((e.id, anchor)), lost_s, printed)
+                    or ruling8_level_gate_decision(book, e.id, anchor, DECISIONS.get((e.id, anchor)), lost_s,
+                                                   printed, e0.body)):
                 hard = True
         if problems:
             notes += problems
@@ -1372,7 +1501,7 @@ def compare_one(e, book, bk, other=None) -> list[dict]:
             if notes and all(note.startswith(prerequisite_only) for note in notes):
                 notes = ["opens with print's section-intro prerequisite (Advanced Class Guide p. 80)"]
                 status = "print"
-        if shape == "single" and e.id.split("/")[1] in HEADING_FAMILIES:
+        if shape == "single" and (e.id.split("/")[1] in HEADING_FAMILIES or e.id in GROUP_LINE_ENTRIES):
             gh = group_map(bk).of(e.title, page)
             if gh is None:
                 notes.append("no group heading found above the head")
@@ -1395,7 +1524,7 @@ def compare_one(e, book, bk, other=None) -> list[dict]:
             status = "print"
             notes.append(f"decision: {decided[1]}")
         elif decided and decided[0] == "hold":
-            status = "hold"                                  # held by decision: an errata check, a ruling that has not landed
+            status = "hold"                                  # held by decision, even after a print-text correction
             notes.append(f"held by decision: {decided[1]}")
         printed = prepend_intro(printed, marked_head_intro(book, e.id) if shape == "single" and (r.get("marked") or e.id in MARKED_HEAD_ENTRIES) else "")
         rows.append(dict(common, anchor=anchor, verdict=verdict, status=status,
@@ -1497,6 +1626,7 @@ def run_audit(args) -> int:
     corpus = Path(args.corpus).resolve()
     book = args.book
     fp.configure_book(book)
+    sentence_audit = _load("written_sentence_audit_for_class_options", "class-options/check-written-sentences.py")
     pdf = fp.find_pdf(Path(args.books), fp.publication_title(corpus, book))
     bk = fp.load_book(fp.book_xml(pdf, Path(args.cache)))
     install_split([x.title for x in load_class_options(corpus)] + (["Master Strike (Ex)"] if book == "core-rulebook" else []), book)
@@ -1535,6 +1665,7 @@ def run_audit(args) -> int:
             continue
         for pf in mine:
             printed = " ".join("".join(x[0] for x in para) for para in pf.paras)
+            printed = sentence_audit.printed_region_text(book, e.id, printed)
             if book == "core-rulebook":
                 printed = clean_core_rulebook_print(e.id, printed)
             if book == "pathfinder-unchained":
@@ -1656,6 +1787,7 @@ def run_compare(args) -> int:
     twice: dict[tuple[str, str, str, str], set[str]] = {}
     ledger_before = read_tsv(tsv_file(corpus, book))
     ledger_props = read_props(proposals_file(corpus, book))
+    entries_by_id = {entry.id: entry for entry in everything}
     for r in ledger_before:                         # the written entries count too: a paragraph that one of them has is claimed
         if counts_for_duplicate_check(r) and r["status"] == LEDGER and r["entry"] not in {x["entry"] for x in rows} and ledger_props.get((r["entry"], r["anchor"])):
             twice.setdefault(printed_claim_key(r), set()).add(r["entry"])
@@ -1674,7 +1806,7 @@ def run_compare(args) -> int:
         original = old_props.get((r["entry"], r["anchor"]))
         if original is None:
             continue
-        printed = refresh_written_proposal(corpus, book, r, original)
+        printed = refresh_written_proposal(corpus, book, r, original, bk, entries_by_id)
         props.setdefault(r["entry"], {"id": r["entry"], "feature": []})["feature"].append(
             {"anchor": r["anchor"], "print": printed})
     write_tsv(tsv_file(corpus, book), sorted(kept + rows, key=lambda r: r["entry"]))
@@ -1945,8 +2077,8 @@ def proposal_print(book: str, text: str) -> str:
     return fp.render_marks(text) if book == "core-rulebook" else text
 
 
-def refresh_written_proposal(corpus: Path, book: str, row: dict, original: str) -> str:
-    """Refresh a retained written proposal from print while preserving its marked-head intro."""
+def refresh_written_proposal(corpus: Path, book: str, row: dict, original: str, bk=None, entries_by_id=None) -> str:
+    """Refresh a retained written proposal from print while preserving its group and marked-head intros."""
     entry_id = row["entry"]
     printed = clean_acg_print(entry_id, drop_unkeyed_link_marks(entry_id, original))
     if book == "core-rulebook":
@@ -1955,6 +2087,16 @@ def refresh_written_proposal(corpus: Path, book: str, row: dict, original: str) 
     if book == "pathfinder-unchained":
         printed = pathfinder_unchained_links(entry_id, clean_pathfinder_unchained_print(printed))
     printed = class_option_errata(corpus, entry_id, printed)
+    if entry_id in GROUP_LINE_ENTRIES and bk is not None and entries_by_id is not None:
+        entry = entries_by_id.get(entry_id)
+        page_match = re.match(r"\d+", row["page"])
+        group = group_map(bk).of(entry.title, int(page_match.group())) if entry and page_match else None
+        if group:
+            if not printed.startswith(group[0]):
+                printed = group[0] + "\n\n" + printed
+            head_page = int(page_match.group())
+            if group[1] < head_page:
+                row["page"] = f"{group[1]}-{head_page}"
     claims_marked_intro = "opens with print's sentence about the mark" in row["note"]
     intro = marked_head_intro(book, entry_id) if entry_id in MARKED_HEAD_ENTRIES or claims_marked_intro else ""
     if intro:
@@ -1984,7 +2126,7 @@ def run_headings(args) -> int:
     bk = fp.load_book(fp.book_xml(pdf, Path(args.cache)))
     done = skipped = 0
     for e in load_class_options(corpus, book):
-        if e.id.split("/")[1] not in HEADING_FAMILIES or shape_of(e.body)[0] != "none" or not e.page.isdigit():
+        if (e.id.split("/")[1] not in HEADING_FAMILIES and e.id not in GROUP_LINE_ENTRIES) or shape_of(e.body)[0] != "none" or not e.page.isdigit():
             continue
         page = int(e.page)
         gh = group_map(bk).of(e.title, page)
@@ -2154,8 +2296,9 @@ def run_write(args) -> int:
                 has_intro = bool(re.match(r"^(?:Discoveries|Talents|Tricks|Investigator talents).*marked with .*asterisk", intro)) or (
                     book == "ultimate-intrigue" and any("opens with print's sentence about the mark" in r.get("note", "") for r in mine)
                 )
-                if has_intro:
-                    assert proposal.startswith(intro), f"{e.id}: proposal lacks the printed intro for its marked head"
+                has_group_intro = e.id in GROUP_LINE_ENTRIES and major_amplifications_group_line(intro)
+                if has_intro or has_group_intro:
+                    assert proposal.startswith(intro), f"{e.id}: proposal lacks the printed intro for its marked head or group line"
                     body = prepend_intro(e.body, intro)
                 else:
                     body = drop_marked_intro(e.body)
@@ -2349,6 +2492,28 @@ def self_test() -> int:
     eq(counts_for_duplicate_check({"shape": "single", "status": "hold", "note": "window is not anchored"}), True, "a single-power hold still participates in duplicate checks")
     eq(fp.import_name("ref/vigtalent/expose-weaknesses", "Expose Weaknesses (Ex)"), "Expose Weakness (Ex)", "Ultimate Intrigue p. 14: printed singular head matches its entry title")
     eq(fp.import_name("ref/vigtalent/environmental-weapon", "Environmental Weapon (Ex)"), "Environment Weapon (Ex)", "Ultimate Intrigue p. 14: the misspelled import head matches the entry title")
+    eq(fp.import_name("ref/phrenicamp/complex-countermeasures", "Complex Countermeasures (Ex)"), "Complex Countermeasure (Ex)", "Occult Adventures p. 60: printed singular head matches its entry title")
+    eq(PRINT_TEXT_OVERRIDES["occult-adventures", "ref/phrenicamp/mimic-metamagic"].startswith("When the psychic gains this amplification"), True,
+       "Occult Adventures p. 63 table interruption is replaced with the printed prose")
+    eq("Table 1–8" in PRINT_TEXT_OVERRIDES["occult-adventures", "ref/phrenicamp/mimic-metamagic"], False,
+       "the Psychic Spells Known table is not part of Mimic Metamagic")
+    eq("Table 1–7" in PRINT_TEXT_OVERRIDES["occult-adventures", "ref/phrenicamp/ongoing-defense"], False,
+       "the Psychic class table is not part of Ongoing Defense")
+    eq("see page 144" in PRINT_TEXT_OVERRIDES["occult-adventures", "ref/phrenicamp/undercast-surge"], True,
+       "Occult Adventures p. 62 keeps the printed page reference")
+    eq(PRINT_TEXT_OVERRIDES.get(("ultimate-magic", "ref/phrenicamp/mimic-metamagic")), None,
+       "the Occult Adventures table correction does not affect another book")
+    eq(print_override_runs("_mind thrust III_ quicken [Quicken Spell](ref/feat/quicken-spell)"),
+       [("mind thrust III", False, True), (" quicken ", False, False), ("Quicken Spell", False, False)],
+       "a reviewed print transcription keeps its actual italics and leaves the roman word quicken unitalicized")
+    eq(GROUP_LINE_ENTRIES, {
+        "ref/phrenicamp/dispelling-pulse", "ref/phrenicamp/dual-amplification", "ref/phrenicamp/mimic-metamagic",
+        "ref/phrenicamp/space-rending-spell", "ref/phrenicamp/subordinate-spell", "ref/phrenicamp/synaptic-shock",
+        "ref/phrenicamp/turning-shield",
+    }, "the seven major amplifications require their printed group line")
+    eq(MAJOR_AMPLIFICATIONS_LINE,
+       "At 11th level and every 4 levels thereafter, a psychic can choose one of the following major amplifications in place of a phrenic amplification.",
+       "the Major Amplifications group line keeps the printed 11th-level gate")
     eq(single_name_matches_title("ref/vigtalent/expose-weaknesses", "Expose Weakness", "Expose Weaknesses (Ex)"), True, "a printed singular head can match the exact entry title through its import-head correction")
     eq(single_name_matches_title("ref/vigtalent/environmental-weapon", "Environment Weapon", fp.import_name("ref/vigtalent/environmental-weapon", "Environmental Weapon (Ex)")), True, "Ultimate Intrigue p. 14: the printed title matches after the import-head correction")
     eq(INVERTED_HEAD.match("Beast Totem, Greater (Su)").groups(), ("Beast Totem", "Greater", " (Su)"), "the inverted head is read")
@@ -2418,6 +2583,16 @@ def self_test() -> int:
     gh = group_heading(E, blk)
     eq(gh and gh[0], "1-Point Evolutions: The following evolutions cost 1 point from the eidolon's evolution pool.", "ruling 61: the heading above the head and its sentence")
     eq(gh and gh[1], 60, "ruling 61: the page of the heading")
+    major_line = "Major Amplifications: " + MAJOR_AMPLIFICATIONS_LINE
+    major_blocks = [P("para", [(major_line, False, False)], 63, 0),
+                    P("para", [("Dispelling Pulse (Su)", True, False), (": The psychic dispels.", False, False)], 63, 0)]
+    major = group_heading(type("E", (), {"title": "Dispelling Pulse"})(), major_blocks)
+    eq(major, (major_line, 63),
+       "Major Amplifications uses the group-line rule and includes its printed level gate")
+    eq(major_amplifications_group_line(major_line), True,
+       "the exact Major Amplifications sentence is recognized as a group line")
+    eq(major_amplifications_group_line(major_line.replace("11th", "10th")), False,
+       "a changed Major Amplifications level does not pass as a group line")
     eq(group_heading(type("E", (), {"title": "Nothing"})(), blk), None, "ruling 61: a head that is not printed has no heading")
     eq(group_heading(type("E", (), {"title": "Bite"})(), blk[2:]), None, "ruling 61: no title above the head, no heading")
     eq(with_page('[[sources]]\npublication = "x"\npage = "62"\n\n[fields]\n', "61-62"), '[[sources]]\npublication = "x"\npage = "61-62"\n\n[fields]\n', "ruling 61: the page row becomes a range")
@@ -2516,6 +2691,17 @@ def self_test() -> int:
        "ruling 8 decision does not clear when the printed sentence changed")
     eq(ruling8_progression_decision("ultimate-magic", "ref/vigtalent/environmental-weapon", "environment-weapon", env_decision, [env_lost], env_sentence), False,
        "the Ultimate Intrigue progression decision does not affect another book")
+    gate_decision = ("print", "Ruling 8: the printed and imported level gates have the same threshold.")
+    astounding_print, astounding_import = RULE_8_LEVEL_GATES[("ref/trick/astounding-avoidance", "astounding-avoidance")]
+    eq(ruling8_level_gate_decision("occult-adventures", "ref/trick/astounding-avoidance", "astounding-avoidance",
+                                   gate_decision, [astounding_print], astounding_print, astounding_import), True,
+       "ruling 8 settles the reviewed 12th-level wording with the same threshold")
+    eq(ruling8_level_gate_decision("occult-adventures", "ref/trick/astounding-avoidance", "astounding-avoidance",
+                                   gate_decision, [astounding_print], astounding_print.replace("12th", "13th"), astounding_import), False,
+       "the ruling-8 level-gate check rejects a changed printed threshold")
+    eq(ruling8_level_gate_decision("ultimate-magic", "ref/trick/astounding-avoidance", "astounding-avoidance",
+                                   gate_decision, [astounding_print], astounding_print, astounding_import), False,
+       "the Occult Adventures level-gate decision does not affect another book")
     DECISIONS.clear()
     eq(print_match_title("pathfinder-unchained", "ref/talent/ledge-walker-unchained-rogue", "Ledge Walker (Unchained Rogue)"),
        "Ledge Walker", "Unchained rogue talent matching drops its corpus-only suffix")

@@ -13,16 +13,10 @@ page = "62"
 [fields]
 kind = "class_option"
 group = "phrenic-amplification"
+ability_type = "Ex"
 +++
 
-**Overpowering Mind (Ex)**
-
-**Ability:** The psychic can spend 2 points from her phrenic pool to increase the Will save DC of
-the linked spell by 1.
-
-**At 8th level,** she can choose to instead spend 4 points to increase the DC by 2.
-
-**At 15th level,** she can choose to instead spend 6 points to increase the DC by 3.
-
-**Special:** This amplification can be linked only to spells that have the mind-affecting descriptor
-and require a Will saving throw.
+The psychic can spend 2 points from her phrenic pool to increase the Will save DC of the linked
+spell by 1. At 8th level, she can choose to instead spend 4 points to increase the DC by 2. At 15th
+level, she can choose to instead spend 6 points to increase the DC by 3. This amplification can be
+linked only to spells that have the mind-affecting descriptor and require a Will saving throw.

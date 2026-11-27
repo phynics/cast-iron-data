@@ -15,12 +15,9 @@ kind = "class_option"
 group = "mesmerist-trick"
 +++
 
-**Psychosomatic Surge**
-
-**Flavor:** Psychic magic soothes the subject, alleviating her wounds temporarily.
-
-**Ability:** The mesmerist can trigger this trick when the subject takes damage. The subject gains a
-number of [temporary hit points](ref/rule/temporary-hit-points) equal to 1d8 + 1/2 the mesmerist's
-level. If the damage from the triggering attack would have reduced the subject to 0 hit points or
-fewer, this trick grants an additional 1d8 temporary hit points. These temporary hit points last for
-1 hour or until discharged.
+Psychic magic soothes the subject, alleviating her wounds temporarily. The mesmerist can trigger
+this trick when the subject takes damage. The subject gains a number of
+[temporary hit points](ref/rule/temporary-hit-points) equal to 1d8 + 1/2 the mesmerist's level. If
+the damage from the triggering attack would have reduced the subject to 0 hit points or fewer, this
+trick grants an additional 1d8 temporary hit points. These temporary hit points last for 1 hour or
+until discharged.
