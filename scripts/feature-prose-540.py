@@ -745,7 +745,7 @@ def render_marks(s: str) -> str:
 TEXT_EL = re.compile(r'<text top="(-?\d+)" left="(-?\d+)" width="(-?\d+)" height="(-?\d+)" font="(\d+)">(.*?)</text>', re.S)
 FONT_EL = re.compile(r'<fontspec id="(\d+)" size="(\d+)" family="([^"]*)" color="([^"]*)"')
 TAG_SPLIT = re.compile(r"(</?[bi]>)")
-BODY_TOP = (88, 1075)
+BODY_TOP = (88,)                      # the top of the body; the bottom is `Book.body_bottom`
 BODY_BOTTOM_FORCE = [0]
 BODY_BOTTOM_BOOKS = {"dungeoneers-handbook": 1110, "the-harrow-handbook": 1110, "technology-guide": 1110, "animal-archive": 1110, "giant-hunters-handbook": 1110, "kobolds-of-golarion": 1110, "people-of-the-stars": 1110, "champions-of-balance": 1110, "bastards-of-golarion": 1110, "knights-of-the-inner-sea": 1110, "people-of-the-river": 1110, "undead-slayers-handbook": 1110, "dragonslayers-handbook": 1110, "ranged-tactics-toolbox": 1110, "demon-hunters-handbook": 1110, "people-of-the-north": 1110, "faiths-and-philosophies": 1110, "alchemy-manual": 1110}      # the body runs to 1089 and the folios are not in the text layer (Dungeoneer's Handbook)
 PAGE_SKIP: list[tuple[int, int]] = []     # printed pages (first, last) that hold other text than the archetypes (Legacy of Dragons pp. 16-23 and from 26)
@@ -5531,7 +5531,7 @@ def configure_book(book: str) -> None:
     # a title in small capitals and a chapter title can stand higher than the body of the other books (Heroes of the High Court p. 29: capital at 86; Martial Arts Handbook p. 18: chapter title at 70; the running heads stand at 13-29)
     global BODY_TOP
     BODY_BOTTOM_FORCE[0] = BODY_BOTTOM_BOOKS.get(book, 0)
-    BODY_TOP = (BODY_CAP_TOP if book in HIGH_TITLE_BOOKS else 88, BODY_BOTTOM_BOOKS.get(book, 1075))       # the bottom of a loaded book is `Book.body_bottom`
+    BODY_TOP = (BODY_CAP_TOP if book in HIGH_TITLE_BOOKS else 88,)       # the bottom of a loaded book is `Book.body_bottom`
 
 
 def run_compare(args) -> int:
@@ -7388,6 +7388,13 @@ def self_test() -> int:
             loaded = {pth: load_book(pth) for pth in order}
             results.append(tuple("low on the page" in " ".join(x.plain() for x in read_blocks(loaded[pth], 1, 1)) for pth in (pa, pb)))
         eq(results, [(False, True), (False, True)], "a book keeps its own body bottom whichever book was loaded after it")
+        # the order of `other()` in the class-option script: load A, read A, load B, read A again (the second source of an entry is loaded while the first is read)
+        def low_line(book) -> bool:
+            return "low on the page" in " ".join(x.plain() for x in read_blocks(book, 1, 1))
+        book_a = load_book(pa)
+        first = low_line(book_a)
+        book_b = load_book(pb)
+        eq((first, low_line(book_a), low_line(book_b), low_line(book_a)), (False, False, True, False), "load A, read A, load B, read A: A is read the same before and after B is loaded")
         eq((load_book(pa).body_bottom, load_book(pb).body_bottom), (1059, 1075), "the body bottom is a field of the book")
     configure_book("ultimate-magic")
     print(f"self-test: {ok} checks passed")
