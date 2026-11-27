@@ -330,13 +330,19 @@ def place_links(text: str, links: list[tuple[str, str]]) -> tuple[str, list[str]
         plain = [m for m in word.finditer(text) if not any(a <= m.start() < b for a, b in spans)]
         sentences = [m.span() for m in fp.ITEM_SENTENCE.finditer(text) if fp.ITEM_FRAME.search(m.group(0))]
         in_frame = [m for m in plain if any(a <= m.start() < b for a, b in sentences)]
-        if any(f"]({target})" in text[a:b] for a, b in sentences):
-            continue                                                            # the prerequisite sentence links the item already
-        hit = (in_frame or plain or [None])[0]
+        linked_in_frame = any(f"]({target})" in text[a:b] for a, b in sentences)       # the prerequisite sentence links the item already
+        hit = None if linked_in_frame else (in_frame or plain or [None])[0]
         if hit:
             text = text[:hit.start()] + f"[{hit.group(0)}]({target})" + text[hit.end():]
-        elif not any(f"]({target})" in text[a:b] for a, b in spans):
+        elif not linked_in_frame and not any(f"]({target})" in text[a:b] for a, b in spans):
             lost.append(name)
+        # every plain "<item> evolution" (rage power, hex) is the same link, as it is where the text names the option again
+        # ("an equal number of the tail evolution")
+        again = re.compile(r"(?<![\w\[])(" + re.escape(name) + r")(?=\s+(?:evolutions?|rage powers?|hex(?:es)?)\b)", re.I)
+        for m in reversed(list(again.finditer(text))):
+            spans = [x.span() for x in re.finditer(r"\[[^\]]*\]\([^)]*\)", text)]
+            if not any(a_ <= m.start() < b_ for a_, b_ in spans):
+                text = text[:m.start()] + f"[{m.group(1)}]({target})" + text[m.end():]
     return text, lost
 
 
@@ -536,6 +542,9 @@ def compare_one(e, book, bk, other=None) -> list[dict]:
         if decided and decided[0] == "print" and status == "hold" and r["status"] == "hold" and not problems and not hard:
             status = "print"
             notes.append(f"decision: {decided[1]}")
+        elif decided and decided[0] == "hold":
+            status = "hold"                                  # held by decision: an errata check, a ruling that has not landed
+            notes.append(f"held by decision: {decided[1]}")
         rows.append(dict(common, anchor=anchor, verdict=verdict, status=status,
                          level_import=r["level_import"] if r["level_import"] is not None else "",
                          level=level_of(r["print"]) or "", note="; ".join(notes)[:400], print=printed,
@@ -987,6 +996,11 @@ def self_test() -> int:
     eq(group_heading(type("E", (), {"title": "Nothing"})(), blk), None, "ruling 61: a head that is not printed has no heading")
     eq(group_heading(type("E", (), {"title": "Bite"})(), blk[2:]), None, "ruling 61: no title above the head, no heading")
     eq(with_page('[[sources]]\npublication = "x"\npage = "62"\n\n[fields]\n', "61-62"), '[[sources]]\npublication = "x"\npage = "61-62"\n\n[fields]\n', "ruling 61: the page row becomes a range")
+    DECISIONS.clear()
+    DECISIONS[("ref/x/y", "z")] = ("hold", "an errata check")
+    DECISIONS[("ref/x/y", "w")] = ("print", "settled")
+    eq((DECISIONS[("ref/x/y", "z")][0], DECISIONS[("ref/x/y", "w")][0]), ("hold", "print"), "a decision is a hold or print")
+    DECISIONS.clear()
     eq((title_as_head(fp.Para("title", [("Table 2\u20139: Eidolon Base Statistics", True, False)], 59, 0, 18)).runs[0][1],
         title_as_head(fp.Para("title", [("2-Point Evolutions", True, False)], 61, 0, 18)).runs[0][1]), (False, True),
        "ruling 62: the title of a table stays in the text of the power, a section heading ends it")
@@ -1096,6 +1110,10 @@ def self_test() -> int:
     eq(place_links("It has [claws](ref/evolution/claws). The eidolon must possess the claws evolution to select this evolution.", [("claws", "ref/evolution/claws")]),
        ("It has [claws](ref/evolution/claws). The eidolon must possess the [claws](ref/evolution/claws) evolution to select this evolution.", []),
        "ruling 60: the prerequisite sentence links the item even when the text links it earlier")
+    eq(place_links("It needs the tail evolution to take this evolution. It needs an equal number of the tail evolution.", [("tail", "ref/evolution/tail")])[0],
+       "It needs the [tail](ref/evolution/tail) evolution to take this evolution. It needs an equal number of the [tail](ref/evolution/tail) evolution.", "ruling 60: every plain mention of the option is linked")
+    eq(place_links("It has a [tail slap attack](ref/umr/natural-attacks). It needs the tail evolution to take this evolution.", [("tail", "ref/evolution/tail")])[0],
+       "It has a [tail slap attack](ref/umr/natural-attacks). It needs the [tail](ref/evolution/tail) evolution to take this evolution.", "a link of another rule stays")
     eq(place_links("It has [claws](ref/evolution/claws).", [("claws", "ref/evolution/claws"), ("tail", "ref/evolution/tail")]),
        ("It has [claws](ref/evolution/claws).", ["tail"]), "ruling 60: an item that stands nowhere is reported")
     for line in bad:
