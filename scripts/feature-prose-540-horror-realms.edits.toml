@@ -1,0 +1,15 @@
+[[edit]]
+entry = "ref/arc-companion/accursed-companion"
+anchor = "unexpected-frenzy"
+note = "hand-written by the batch lead from print (Horror Realms pp. 11-12): the page's running box and the page break stand in the middle of the text, and the extraction lost its last sentences"
+text = '''
+The accursed companion looks normal, but some conditions or phrases cause the animal to fly into a murderous frenzy. When an accursed companion gains this condition, the GM determines three specific situations that can trigger the manifestation of the unexpected frenzy, such as a character petting the companion on the head, a keyword or key phrase such as "good dog," or the sight of a specific type of creature within 10 feet. The first time each day one of the three triggers occurs, the accursed companion flies into its frenzy. Its eyes glow, and any sounds it makes take on an eerie, hollow echo. The companion acts as if under the effects of _[haste](ref/spell/haste)_ for 1d4 rounds before returning to normal, and it typically attacks the source of its trigger. While her companion is frenzied, the master is overwhelmed with shame and despair, suffering as if under the effects of a _[crushing despair](ref/spell/crushing-despair)_ spell for twice the length of the accursed companion's frenzy. A successful Will save negates this effect.
+'''
+
+[[edit]]
+entry = "ref/arc-companion/accursed-companion"
+anchor = "unsavory-friends"
+note = "hand-written by the batch lead from print (Horror Realms p. 12): the manifestation that the extraction lost behind the running box of the page"
+text = '''
+The companion manages to attract the company of less desirable species. It has an uncanny knack for finding centipedes, bats, mice, and other vermin, even in areas where such pests might not be all that common. Even more unusual, the companion makes it a habit to play with such creatures and becomes angry and defensive if anything threatens its vermin friends. This manifestation is constant. Immune to the [distraction](ref/umr/distraction) effect caused by all [swarms](ref/subtype/swarm), the animal companion is comfortable and even welcomes the nauseating sensation of its crawling friends. The companion's master, unfortunately, never gets used to finding squirming bugs or wriggling maggots in the companion's vicinity and takes a -4 penalty on all saving throws against any swarm's distraction ability.
+'''
