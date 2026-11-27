@@ -697,7 +697,7 @@ SENTENCE_END = re.compile(r"(?<=[.!?])[\"\u201d\u2019)]*\s+(?=[A-Z\u201c\"(+\u20
 CELL = re.compile(r"^(?:[+\-\u2013\u2014]?\d+(?:/[+\-\u2013\u2014]?\d+)*(?:st|nd|rd|th)?|[\u2014\u2013-])[,.]?$")
 
 
-NEGATIONS = re.compile(r"\b(?:not|no|never|cannot)\b|n[\'\u2019]t", re.I)
+NEGATIONS = re.compile(r"\b(?:not|no|never|cannot|neither|nor)\b|n[\'\u2019]t", re.I)
 SEE_REF = re.compile(r"\s*\([Ss]ee\s+([^()\d]{1,60})\)")
 
 
@@ -754,10 +754,25 @@ def sentence_words(text: str) -> list[str]:
     return re.findall(r"[a-z0-9']+", unicodedata.normalize("NFKD", text).lower().replace("\u2019", "'"))
 
 
+def one_misprint(a: str, b: str) -> bool:
+    """Whether two words are one misprint apart: the same first letter and one letter replaced, left out, added, or two neighbours swapped ("anitpaladin",
+    "elixer"). A change at the start of a word ("increase"/"decrease", "unable"/"enable", "either"/"neither") and two letters changed inside it ("minimum"/"maximum")
+    make another word, not a misprint (review of #380, 2026-11-27)."""
+    if a == b or a[:1] != b[:1]:
+        return False
+    if len(a) == len(b):
+        diff = [i for i in range(len(a)) if a[i] != b[i]]
+        return len(diff) == 1 or (len(diff) == 2 and diff[1] == diff[0] + 1 and a[diff[0]] == b[diff[1]] and a[diff[1]] == b[diff[0]])
+    if abs(len(a) - len(b)) != 1:
+        return False
+    short, long_ = (a, b) if len(a) < len(b) else (b, a)
+    return any(long_[:i] + long_[i + 1:] == short for i in range(len(long_)))
+
+
 def near_exact(sentence: str, written: list[str]) -> bool:
     """Whether a printed sentence is one of the written sentences up to a misprint: the same words, the same numbers (as tokens), the same number of negations
-    (not, no, never, cannot, n't), and one word that differs by at most two letters, **in a word of six letters or more** (a misprint of print that the corpus
-    corrected, a ligature). A change of word identity (his/her, may/can, able/unable, valid/invalid) is a loss."""
+    (not, no, never, cannot, neither, nor, n't), and one word that is one misprint apart (`one_misprint`), **in a word of six letters or more** (a misprint of
+    print that the corpus corrected, a ligature). A change of word identity (his/her, may/can, able/unable, valid/invalid, increase/decrease, minimum/maximum) is a loss."""
     ws = sentence_words(sentence)
     nums, negs = number_tokens(sentence), len(NEGATIONS.findall(sentence))
     for w in written:
@@ -765,7 +780,7 @@ def near_exact(sentence: str, written: list[str]) -> bool:
         if len(ww) != len(ws):
             continue
         diff = [(a, b) for a, b in zip(ws, ww) if a != b]
-        if (len(diff) == 1 and len(diff[0][0]) >= 6 and len(diff[0][1]) >= 6 and letter_edits(*diff[0]) <= 2
+        if (len(diff) == 1 and len(diff[0][0]) >= 6 and len(diff[0][1]) >= 6 and one_misprint(*diff[0])
                 and number_tokens(w) == nums and len(NEGATIONS.findall(w)) == negs):
             return True
     return False
@@ -2102,6 +2117,17 @@ def self_test() -> int:
     swap = "The antipaladin can use this ability on {} creature within sight of the weapon that the spirit has made for him."
     for old, new in (("his", "her"), ("any", "all"), ("able", "unable"), ("valid", "invalid"), ("aware", "unaware"), ("may", "can")):
         eq(print_lost(swap.format(old), swap.format(new)), [swap.format(old)], f"a word of another identity is a loss: {old}/{new}")
+    near = "The antipaladin can use this ability to {} the bonus of the weapon that the spirit has made for him."
+    for old, new in (("increase", "decrease"), ("minimum", "maximum"), ("unable", "enable"), ("either", "neither")):
+        eq(print_lost(near.format(old), near.format(new)), [near.format(old)], f"a near-antonym is a loss, not a misprint: {old}/{new}")
+    for old, new in (("elixer", "elixir"), ("anitpaladin", "antipaladin"), ("weaopn", "weapon")):
+        eq(print_lost(near.format(old), near.format(new)), [], f"one misprint inside a word is no loss: {old}/{new}")
+    eq(print_lost("She can strike the foe, or she can flee from the field of battle at once.", "She can strike the foe, nor she can flee from the field of battle at once."),
+       ["She can strike the foe, or she can flee from the field of battle at once."], "nor is a negation")
+    eq(print_lost("She can use either of the two weapons that she holds in her hands at any time.", "She can use neither of the two weapons that she holds in her hands at any time."),
+       ["She can use either of the two weapons that she holds in her hands at any time."], "neither is a negation")
+    eq([one_misprint("minimum", "maximum"), one_misprint("increase", "decrease"), one_misprint("either", "neither"), one_misprint("elixer", "elixir"), one_misprint("anitpaladin", "antipaladin"),
+        one_misprint("weapon", "weapons")], [False, False, False, True, True, True], "one misprint: a letter, a swap, a letter more or less; never the first letter or two letters inside")
     eq(print_lost("The antipaladin can use this ability on an anitpaladin within sight of the weapon that the spirit has made for him.", "The antipaladin can use this ability on an antipaladin within sight of the weapon that the spirit has made for him."), [],
        "a misprint of two letters in a long word is no loss")
     ligature = [("a Reflex save (DC = 10 + 1/2 the alchemist's level + the alchemist's Intelligent modifier) halves the damage.", "a Reflex save (DC = 10 + 1/2 the alchemist's level + the alchemist's Intelligence modifier) halves the damage.")]

@@ -691,6 +691,11 @@ def finish_text(s: str, vocab: set[str]) -> str:
     return s
 
 
+# Words that print sets with a ligature and that the book's own word list may hold only in the broken form ("f lickering", Advanced Player's Guide p. 39,
+# where the word list has the fragment "lickering" and no "flickering"): the join is made without the word list.
+LIGATURE_WORDS = {"flickering", "flicker", "flickers", "flickered"}
+
+
 def fix_ligatures(s: str, vocab: set[str]) -> str:
     """`f ighter`, `inf lict`: the fi and fl ligatures leave a blank that a word does not have. A pair that does not join ("of inf") does not
     hide the next one that starts inside it ("inf luence")."""
@@ -702,7 +707,7 @@ def fix_ligatures(s: str, vocab: set[str]) -> str:
             out.append(s[i:])
             return "".join(out)
         a, b = m.group(1), m.group(2)
-        if (a + b).lower() in vocab:
+        if (a + b).lower() in vocab or (a + b).lower() in LIGATURE_WORDS:
             out += [s[i:m.start()], a + b]
             i = m.end()
         else:
@@ -852,6 +857,9 @@ def ocr_repair(text: str) -> str:
 SUPERSCRIPT_MARK = re.compile(r"([a-z]*)(?:APG|UM|UC|UE|UI|ARG|ACG|OA|ISM|B[2-6]|†)")
 
 
+LINK_FRAGMENT = re.compile(r"</?a\b[^>]*>")
+
+
 def load_book(xml_path: Path) -> Book:
     start = BODY_BOTTOM_FORCE[0] or 1075             # set by `configure_book` for the book: no value of the book read before
     xml = xml_path.read_text(encoding="utf-8")
@@ -868,6 +876,7 @@ def load_book(xml_path: Path) -> Book:
                 continue
             seen.add(key)
             top, left = int(top), int(left)
+            raw = LINK_FRAGMENT.sub("", raw)       # a PDF link of the book (the Core Rulebook links its tables and rules: `<a href="...html#181">Fort Ref</a>`): its text stays, the tag goes
             if OCR["on"]:
                 raw = ocr_repair(raw)
             plain = html.unescape(re.sub(r"</?[bi]>", "", raw)).strip()
@@ -7022,6 +7031,7 @@ def self_test() -> int:
     kinds2 = [(b.kind, b.size) for b in read_blocks(two, 1, 1)]
     SMALL_CAP_TITLES["on"] = False
     eq(kinds2, [("title", 36), ("title", 27), ("para", 0)], "a title of another size is a title of its own")
+    eq(fix_ligatures("shielded by a f lickering aura", set()), "shielded by a flickering aura", "a ligature word that the book's word list lacks is joined (Judgment: Resistance)")
     eq(fix_ligatures("he gains 1 point of inf luence over him and f ighter", {"influence", "fighter"}), "he gains 1 point of influence over him and fighter",
        "a ligature pair after a word that ends in f")
     # review of #338: the class table of the ranger writes "1st favored enemy"; a lead after an opening sentence; "of 20th level"; a choice from what follows
@@ -7370,6 +7380,16 @@ def self_test() -> int:
        "Horror Realms: no blank indent, the two plain headings of the Accursed Companions stay")
     configure_book("ultimate-magic")
     eq((BLANK_INDENT["on"], OUTER_TAB["on"], STAYS_EXTRA["set"]), (False, False, frozenset()), "the other books keep their reading")
+    import tempfile
+    with tempfile.TemporaryDirectory() as td:
+        xml = Path(td) / "b.xml"
+        xml.write_text('<pdf2xml><fontspec id="0" size="13" family="ABCDEF+Body" color="#000000"/><page number="1">'
+                       '<text top="100" left="50" width="200" height="13" font="0"><b>Channel Energy (Su): </b>Regardless of <a href="PZO1110 Core Rulebook (6th).html#181">alignment</a>, any cleric</text>'
+                       '<text top="120" left="50" width="200" height="13" font="0">can <a href="x.html#2">release</a> a wave.</text></page></pdf2xml>', encoding="utf-8")
+        bk_ = load_book(xml)
+        eq("".join(r[4] if False else r[3] for r in bk_.pages[1]).count("<a"), 0, "the link tags of a PDF (the Core Rulebook) are not text of the page")
+        eq(" ".join(re.sub(r"<[^>]+>", "", r[3]) for r in bk_.pages[1]).split(), ["Channel", "Energy", "(Su):", "Regardless", "of", "alignment,", "any", "cleric", "can", "release", "a", "wave."],
+           "the text of a link stays")
     # a book keeps its own body bottom: reading one book after loading another is the same in either order (the ledgers of a compare no longer depend on which book
     # was loaded last: `other()` of the class-option script loads the second source of an entry while the first is read)
     import tempfile as _tf

@@ -8,7 +8,7 @@ provenance = [
 ]
 [[sources]]
 publication = "advanced-class-guide"
-page = "27"
+page = "27-28"
 
 [fields]
 kind = "none"
@@ -23,7 +23,7 @@ hunter can emulate only one animal at a time.
 The hunter can also apply one of these aspects to her animal companion. Unlike with the hunter
 herself, there is no duration on the animal aspect applied to her animal companion. An aspect
 applied in this way does not count against the hunter's minutes of duration per day—it remains in
-effect until the hunter changes it. The companion's aspect can be the same aspect the hunter has
+effect until the hunter changes it. The companion's aspect can be the same aspect the ranger has
 taken on or a different one. The hunter can select or change the animal foci on both herself and her
 animal companion as part of the same swift action.
 
@@ -32,107 +32,42 @@ herself instead of her animal companion. This is in addition to the normal one s
 (as with a companion's focus) remains in effect until the hunter changes it instead of counting
 against her minutes per day.
 
-Characters with the _animal focus_ feature can also gain [ward aspects](ref/ability/ward-aspects) if
-they desire.
+**Bat:** The creature gains [darkvision](ref/rule/darkvision) to a range of 60 feet. At 8th level,
+the range increases by 30 feet. At 15th level, the creature also gains
+[blindsense](ref/umr/blindsense) to a range of 10 feet.
 
-### Animal Foci
+**Bear:** The creature gains a +2 enhancement bonus to Constitution. This bonus increases to +4 at
+8th level and +6 at 15th level.
 
-**Bat**
+**Bull:** The creature gains a +2 enhancement bonus to Strength. This bonus increases to +4 at 8th
+level and +6 at 15th level.
 
-**Ability:** The creature gains [darkvision](ref/rule/darkvision) to a range of 60 feet.
+**Falcon:** The creature gains a +4 competence bonus on Perception checks. This bonus increases to
++6 at 8th level and +8 at 15th level.
 
-**At 15th Level:** The creature also gains [blindsense](ref/umr/blindsense) to a range of 10 feet.
+**Frog:** The creature gains a +4 competence bonus on Swim checks and on Acrobatics checks to jump.
+These bonuses increase to +6 at 8th level and +8 at 15th level.
 
-**At 8th Level:** The range increases by 30 feet.
+**Monkey:** The creature gains a +4 competence bonus on Climb checks. This bonus increases to +6 at
+8th level and +8 at 15th level.
 
-**Bear**
+**Mouse:** The creature gains [evasion](ref/ability/evasion), as the [rogue](ref/class/rogue) class
+feature. At 12th level, this increases to [improved evasion](ref/talent/improved-evasion), as the
+rogue advanced talent.
 
-**At 15th Level:** This bonus increases to +6.
+**Owl:** The creature gains a +4 competence bonus on Stealth checks. This bonus increases to +6 at
+8th level and +8 at 15th level.
 
-**At 8th Level:** This bonus increases to +4.
+**Snake:** The creature gains a +2 bonus on attack rolls when making attacks of opportunity and a +2
+dodge bonus to AC against attacks of opportunity. These bonuses increase to +4 at 8th level and +6
+at 15th level.
 
-**Passive:** The creature gains a +2 enhancement bonus to Constitution.
+**Stag:** The creature gains a 5-foot enhancement bonus to its base land speed. This bonus increases
+to 10 feet at 8th level and 20 feet at 15th level.
 
-**Bull**
+**Tiger:** The creature gains a +2 enhancement bonus to Dexterity. This bonus increases to +4 at 8th
+level and +6 at 15th level.
 
-**At 15th Level:** This bonus increases to +6.
-
-**At 8th Level:** This bonus increases to +4.
-
-**Passive:** The creature gains a +2 enhancement bonus to Strength.
-
-**Falcon**
-
-**At 15th Level:** This bonus increases to +8.
-
-**At 8th Level:** This bonus increases to +6.
-
-**Passive:** The creature gains a +4 competence bonus on Perception checks.
-
-**Frog**
-
-**At 15th Level:** This bonus increases to +8.
-
-**At 8th Level:** This bonus increases to +6.
-
-**Passive:** The creature gains a +4 competence bonus on Swim checks and on Acrobatics checks to
-jump.
-
-**Monkey**
-
-**At 15th Level:** This bonus increases to +8.
-
-**At 8th Level:** This bonus increases to +6.
-
-**Passive:** The creature gains a +4 competence bonus on Climb checks.
-
-**Mouse**
-
-**At 12th Level:** This increases to [improved evasion](ref/talent/improved-evasion), as the rogue
-advanced talent.
-
-**Passive:** The creature gains [evasion](ref/ability/evasion), as the [rogue](ref/class/rogue)
-class feature.
-
-**Owl**
-
-**At 15th Level:** This bonus increases to +8.
-
-**At 8th Level:** This bonus increases to +6.
-
-**Passive:** The creature gains a +4 competence bonus on Stealth checks.
-
-**Snake**
-
-**At 15th Level:** These bonuses increase to +6.
-
-**At 8th Level:** These bonuses increase to +4.
-
-**Passive:** The creature gains a +2 bonus on attack rolls when making attacks of opportunity and a
-+2 dodge bonus to AC against attacks of opportunity.
-
-**Stag**
-
-**At 15th Level:** This bonus increases to 20 feet.
-
-**At 8th Level:** This bonus increases to 10 feet.
-
-**Passive:** The creature gains a 5-foot enhancement bonus to its base land speed.
-
-**Tiger**
-
-**At 15th Level:** This bonus increases to +6.
-
-**At 8th Level:** This bonus increases to +4.
-
-**Passive:** The creature gains a +2 enhancement bonus to Dexterity.
-
-**Wolf**
-
-**Ability:** The creature gains the [scent](ref/umr/scent) ability with a range of 10 feet.
-
-**At 15th Level:** The range of this sense increases to 30 feet.
-
-**At 8th Level:** The range of this sense increases to 20 feet.
-
-**Special:** The range doubles if the opponent is upwind, and is halved if the opponent is downwind.
+**Wolf:** The creature gains the [scent](ref/umr/scent) ability with a range of 10 feet. The range
+of this sense increases to 20 feet at 8th level and 30 feet at 15th level. The range doubles if the
+opponent is upwind, and is halved if the opponent is downwind.

@@ -119,6 +119,10 @@ Knowledge (nobility), Knowledge (planes), Knowledge (religion), Linguistics, Spe
 |19th|6|6|6|6|5|5|4|
 |20th|6|6|6|6|6|5|5|
 
+### Class Features {#class-features}
+
+The following are the class features of the summoner.
+
 #### Weapon and Armor Proficiency {#weapon-and-armor-proficiencies}
 
 Summoners are proficient with all simple weapons. Summoners are also proficient with light armor. A
