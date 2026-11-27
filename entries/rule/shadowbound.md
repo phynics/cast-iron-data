@@ -46,22 +46,16 @@ beauty, you then immediately proceed to stage 2. Repeating your actions doesn't 
 corruption stage to progress further (if you terrorize innocents again, you don't progress to stage
 3).
 
-**Corruption Stage 1**
+**Corruption Stage 1:** The first time you fail the saving throw, you destroy a reliable source of
+light, joy, or beauty, such as a piece of art or bit of natural beauty.
 
-**Details:** The first time you fail the saving throw, you destroy a reliable source of light, joy,
-or beauty, such as a piece of art or bit of natural beauty.
+**Corruption Stage 2:** The second time you fail the saving throw, you terrorize innocent people or
+destroy an important object of beauty, light, or joy.
 
-**Corruption Stage 2**
-
-**Details:** The second time you fail the saving throw, you terrorize innocent people or destroy an
-important object of beauty, light, or joy.
-
-**Corruption Stage 3**
-
-**Details:** The third time you fail the saving throw, you destroy one of the pillars that has
-helped you retain yourself in the face of the corruption, either by killing someone whose support
-has been essential or destroying an object of vital personal importance. You lose your identity
-entirely, becoming an NPC under the GM's control.
+**Corruption Stage 3:** The third time you fail the saving throw, you destroy one of the pillars
+that has helped you retain yourself in the face of the corruption, either by killing someone whose
+support has been essential or destroying an object of vital personal importance. You lose your
+identity entirely, becoming an NPC under the GM's control.
 
 ### Removing the Corruption
 
@@ -74,7 +68,7 @@ The following are manifestations of the shadowbound corruption.
 
 **Eerie Perception**
 
-**Flavor:** Your eyes change, adapting to a life in the shadows.
+Your eyes change, adapting to a life in the shadows.
 
 **Gift:** You gain [darkvision](ref/rule/darkvision) to a range of 60 feet. If you already have
 darkvision, the range of your darkvision increases by 30 feet instead. You also gain a +2 bonus on
@@ -88,7 +82,7 @@ areas of bright light.
 
 **Emptiness of the Void**
 
-**Flavor:** Friends and allies are just people you can hurt more deeply.
+Friends and allies are just people you can hurt more deeply.
 
 **Gift:** The darkness in your soul can draw in the life force of allies. Once per day when you take
 [ability damage, ability drain](ref/rule/ability-damage-drain), or hit point damage, you can divide
@@ -101,7 +95,7 @@ or use the [aid another](ref/rule/aid-another) action.
 
 **Frightful**
 
-**Flavor:** Fear lingers in your mind, and you can spread it to others.
+Fear lingers in your mind, and you can spread it to others.
 
 **Gift:** You have a knack for guessing just how to scare others. You gain a +2 bonus on
 [Intimidate](ref/skill/intimidate) checks and the DCs of fear effects you create increase by 1.
@@ -118,9 +112,9 @@ At manifestation level 3rd, the penalty changes to -4.
 
 **Insubstantiality**
 
-**Flavor:** Your body flickers occasionally into insubstantial shadow.
+Your body flickers occasionally into insubstantial shadow.
 
-**Prereq:** Manifestation level 3rd
+**Prerequisite:** Manifestation level 3rd
 
 **Gift:** Your body sometimes shifts or blurs momentarily before resuming the appearance of
 solidity. You gain a deflection bonus to your AC equal to half your manifestation level. You have a
@@ -134,9 +128,9 @@ to escape a grapple.
 
 **Refuge in Pain**
 
-**Flavor:** Pain is your only solace from the emptiness of your existence.
+Pain is your only solace from the emptiness of your existence.
 
-**Prereq:** Manifestation level 4th, eerie perception, wretched pain
+**Prerequisites:** Manifestation level 4th, eerie perception, wretched pain
 
 **Gift:** Pain invigorates you. Whenever you take an amount of damage greater than or equal to three
 times your character level from a single attack, you gain a +2 morale bonus on attack rolls, damage
@@ -148,9 +142,9 @@ manifestation level.
 
 **Regretful Gaze**
 
-**Flavor:** Your gaze carries your regret for wasted potential.
+Your gaze carries your regret for wasted potential.
 
-**Prereq:** Manifestation level 3rd, frightful
+**Prerequisites:** Manifestation level 3rd, frightful
 
 **Gift:** You gain a [gaze](ref/umr/gaze) attack that causes foes within 30 feet to become
 [shaken](ref/misc/shaken) for 1 round unless they succeed at a Will save. You can suppress this
@@ -163,9 +157,9 @@ category older, whichever is worse for you.
 
 **Touch of Ruin**
 
-**Flavor:** You are infused with the ruin of the Shadow Plane.
+You are infused with the ruin of the Shadow Plane.
 
-**Prereq:** Manifestation level 4th, frightful, regretful gaze
+**Prerequisites:** Manifestation level 4th, frightful, regretful gaze
 
 **Gift:** As a **standard action** a number of times per day equal to your manifestation level, you
 can make a melee touch attack that deals 1d10 points of damage per manifestation level you have. A
@@ -178,10 +172,10 @@ a -4 penalty on saving throws to protect items in your possession from damage or
 
 **Weaver of Lies**
 
-**Flavor:** Using shadows drawn from the Plane of Shadow, you can spin falsehoods into convincing
-imitations of reality.
+Using shadows drawn from the Plane of Shadow, you can spin falsehoods into convincing imitations of
+reality.
 
-**Prereq:** Manifestation level 2nd
+**Prerequisite:** Manifestation level 2nd
 
 **Gift:** Once per day, you can use [shadow conjuration](ref/spell/shadow-conjuration) as a
 [spell-like ability](ref/umr/spell-like-abilities), but only to emulate a sorcerer/wizard spell 1
@@ -193,9 +187,9 @@ interest. You can't benefit from morale bonuses or bardic performances.
 
 **Wretched Pain**
 
-**Flavor:** Inflicting pain is one of the few sensations that still stirs you.
+Inflicting pain is one of the few sensations that still stirs you.
 
-**Prereq:** Eerie perception
+**Prerequisite:** Eerie perception
 
 **Gift:** Whenever you deal weapon damage to a creature that you are [flanking](ref/rule/flanking)
 or a creature that is denied its Dexterity bonus to its AC against you, you can inflict a painful

@@ -49,22 +49,16 @@ you shake off the urge, but it resets when you reach the next corruption stage.
 Performing a wantonly evil action for your own enjoyment automatically progresses the corruption to
 the next stage.
 
-**Corruption Stage 1**
+**Corruption Stage 1:** The first time you engage in an evil act to further your goal, your
+alignment shifts one step toward evil.
 
-**Details:** The first time you engage in an evil act to further your goal, your alignment shifts
-one step toward evil.
+**Corruption Stage 2:** The second time you engage in such an act, your alignment shifts another
+step toward evil, you take on a sickly pallor, and your pupils turn dark red.
 
-**Corruption Stage 2**
-
-**Details:** The second time you engage in such an act, your alignment shifts another step toward
-evil, you take on a sickly pallor, and your pupils turn dark red.
-
-**Corruption Stage 3**
-
-**Details:** The third time you engage in such an act, evil behavior becomes a casual part of your
-actions and you think nothing of the suffering caused to bring about your goals - after all, it will
-be worth it. However, you might lose sight of your original purpose in favor of mean-spiritedness.
-You become an NPC under the GM's control.
+**Corruption Stage 3:** The third time you engage in such an act, evil behavior becomes a casual
+part of your actions and you think nothing of the suffering caused to bring about your goals - after
+all, it will be worth it. However, you might lose sight of your original purpose in favor of
+mean-spiritedness. You become an NPC under the GM's control.
 
 ### Removing the Corruption
 
@@ -79,7 +73,7 @@ The following are manifestations of the amoral corruption.
 
 **Clandestine Dealings**
 
-**Flavor:** You begin to see the value in the methods of your enemies, and this intrigues them.
+You begin to see the value in the methods of your enemies, and this intrigues them.
 
 **Gift:** When you attempt a [Diplomacy](ref/skill/diplomacy) check to influence the attitude of an
 unfriendly or hostile creature, the DC is reduced by 5.
@@ -91,8 +85,8 @@ are not evil, and it deals 2d8+2d6+1 points of damage to you if you are evil.)
 
 **Evidence Eraser**
 
-**Flavor:** You fear discovery of your crimes, so you work with obsessive zeal to cover your tracks,
-though this makes you paranoid.
+You fear discovery of your crimes, so you work with obsessive zeal to cover your tracks, though this
+makes you paranoid.
 
 **Gift:** You gain a +4 profane bonus on [Bluff](ref/skill/bluff) checks to obscure or destroy
 evidence, as well as on [Stealth](ref/skill/stealth) checks.
@@ -106,10 +100,10 @@ about the character's behavior that paints her as an obstacle to accomplishing y
 
 **Evidence Forger**
 
-**Flavor:** You don't care about truth; you care only that the "facts" support your agenda, and you
-are adept at making such falsehoods seem true.
+You don't care about truth; you care only that the "facts" support your agenda, and you are adept at
+making such falsehoods seem true.
 
-**Prereq:** Manifestation level 3rd, evidence eraser
+**Prerequisites:** Manifestation level 3rd, evidence eraser
 
 **Gift:** When attempting a [Linguistics](ref/skill/linguistics) or similar check to create a forged
 piece of evidence, you can roll twice and use the higher result. You can use this gift a number of
@@ -121,10 +115,10 @@ twice and take the lower result.
 
 **Forbidden Magic**
 
-**Flavor:** You find your magic to be insufficient for reaching your goal, so you begin to draw from
-darker sources.
+You find your magic to be insufficient for reaching your goal, so you begin to draw from darker
+sources.
 
-**Prereq:** Manifestation level 3rd
+**Prerequisite:** Manifestation level 3rd
 
 **Gift:** When you are the target of a damaging or healing spell, before the damage or healing is
 rolled, you can choose to take one fewer die of damage (for a damaging spell) or add one die of
@@ -135,9 +129,9 @@ healing (for a healing spell).
 
 **Greater Clandestine Dealings**
 
-**Flavor:** Fiends have taken notice of your wavering beliefs, and they seek to entice you.
+Fiends have taken notice of your wavering beliefs, and they seek to entice you.
 
-**Prereq:** Manifestation level 3rd, clandestine dealings
+**Prerequisites:** Manifestation level 3rd, clandestine dealings
 
 **Gift:** The benefits of _clandestine dealings_ also apply to evil outsiders, regardless of their
 initial attitude. Furthermore, such outsiders are always willing to offer bargains, whether they are
@@ -147,10 +141,9 @@ encountered normally or called by [planar binding](ref/spell/planar-binding) or 
 
 **Overwhelming Hate**
 
-**Flavor:** You cannot abide those who would oppose your goals - the very thought makes your blood
-boil.
+You cannot abide those who would oppose your goals - the very thought makes your blood boil.
 
-**Prereq:** Manifestation level 6th
+**Prerequisite:** Manifestation level 6th
 
 **Gift:** Once per day, you can declare an enemy to be a threat to your goal, allowing you to add
 your manifestation level as a bonus on damage rolls against that enemy.
@@ -164,9 +157,9 @@ progresses to the next stage.
 
 **Self-Righteous Fury**
 
-**Flavor:** Your fury at being vexed knows no bounds, and you sometimes slip into violent rages.
+Your fury at being vexed knows no bounds, and you sometimes slip into violent rages.
 
-**Prereq:** Manifestation level 6th
+**Prerequisite:** Manifestation level 6th
 
 **Gift:** Three times per day, you can gain the benefits of the [rage](ref/spell/rage) spell with a
 caster level equal to your manifestation level.
@@ -182,8 +175,8 @@ compelled to continue attacking the target.
 
 **Sociopathic Liar**
 
-**Flavor:** You have become so adept at spinning mistruths that it becomes nearly impossible for
-others to understand your true motives.
+You have become so adept at spinning mistruths that it becomes nearly impossible for others to
+understand your true motives.
 
 **Gift:** Whenever you attempt a Bluff check to lie, you gain a +4 bonus on the check.
 
@@ -194,10 +187,9 @@ creature suspects you are lying regardless of the check's result.
 
 **Sudden Betrayal**
 
-**Flavor:** Your allies never suspect that you will betray them in an instant if they get in your
-way.
+Your allies never suspect that you will betray them in an instant if they get in your way.
 
-**Prereq:** Manifestation level 6th
+**Prerequisite:** Manifestation level 6th
 
 **Gift:** When you initiate combat against your allies, each one is [staggered](ref/misc/staggered)
 for the first normal round of combat.
