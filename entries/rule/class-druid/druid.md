@@ -171,6 +171,51 @@ a new one by performing a ceremony requiring 24 uninterrupted hours of prayer in
 where the new companion typically lives. This ceremony can also replace an animal companion that has
 perished.
 
+##### Druidic Herbalism (Healer's Handbook page 22) {#herbalism}
+
+Druids can use their intimate connection to nature to gain a mastery over the beneficial powers of
+natural ingredients. Druidic herbalism is a nature bond option that can be taken by any druid at 1st
+level except those with archetypes or alternate class features that alter or replace nature bond or
+mandate a specific nature bond choice.
+
+Nature Bond (Ex): Instead of granting access to a domain or an animal companion, a druid's bond with
+nature can take a third form: access to druidic herbalism.
+
+A druid who chooses to learn druidic herbalism can use combinations of nuts, berries, dried herbs,
+and other natural ingredients along with appropriate containers to create herbal concoctions or
+magic consumables that function like potions. This acts like the [Brew Potion](ref/feat/brew-potion)
+feat, but only for spells on the druid spell list. Herbal concoctions are typically thick and
+sludgy, and their creation time, caster level, spell duplication capabilities, and all other
+variables and properties are identical to those of potions created using Brew Potion. Herbal
+concoctions created with herbs that cause special effects when ingested (see page 10 of _Pathfinder
+Player Companion: Heroes of the Wild_) retain those effects as well as the appropriate spell effect.
+
+A druid can create a number of free herbal concoctions per day equal to her Wisdom modifier.
+Additional concoctions cost the same as creating an equivalent potion using Brew Potion. Druids can
+sell their herbal concoctions just as if they were potions (though NPCs unfamiliar with druidic
+herbalism may need some convincing before purchasing these wares).
+
+At 4th level, a druid's increasing skill with herbalism means that she can disguise the effects of
+her herbal concoctions. When a creature attempts a Perception or Spellcraft check to identify one of
+the druid's concoctions, the concoction appears to be a different herbal concoction of the druid's
+choice unless the creature exceeds the identification DC by 5 or more. The druid must designate this
+false result when creating the concoction. If a creature exceeds the identification DC by 5 or more,
+it correctly identifies the concoction, though not that the druid tried to fool it.
+
+Additionally, at 4th level, when the druid creates additional concoctions, she need pay only half
+the normal cost to create them. It takes her only half the normal time to create her concoctions,
+and she can create concoctions of spells from any spell list, as long as she can cast the spell.
+
+At 7th level, when the druid creates concoctions with potential false identification results, a
+creature attempting to identify the concoction must exceed the identification DC by 10 or more to
+determine the concoction's true identity.
+
+Additionally, at 7th level, a druid can create any herbal concoction in 1 minute. She can also
+create a special concoction of any spell higher than 3rd level that she can cast, but to do so, she
+must expend a spell slot of the same level. These special concoctions do not cost her anything to
+create and function like extracts created by an [alchemist](ref/class/alchemist) with the
+[infusion](ref/discovery/infusion) discovery.
+
 #### Nature Sense (Ex) {#nature-sense}
 
 A druid gains a +2 bonus on Knowledge (nature) and Survival checks.
@@ -268,10 +313,9 @@ place. Bonuses still accrue, and the druid still dies of old age when her time i
 ### Ex-Druids
 
 A druid who ceases to revere nature, changes to a prohibited alignment, or teaches the Druidic
-language to a non-druid loses all spells and druid abilities (including her animal companion, but
-not including weapon, armor, and shield proficiencies). She cannot thereafter gain levels as a druid
-until she [atones](ref/spell/atonement). (Also see the
-[Planar Extremist](ref/arc-druid/planar-extremist) archetype for options.)
+language to a nondruid loses all spells and druid abilities (including her animal companion, but not
+including weapon, armor, and shield proficiencies). She cannot thereafter gain levels as a druid
+until she [atones](ref/spell/atonement) (see the _atonement_ spell description).
 
 ### Alternate Capstones
 

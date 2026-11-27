@@ -330,6 +330,12 @@ grand discoveries is the primary goal of their experiments and hard work.
 - [Poison Touch](ref/discovery/poison-touch)
 - [True Mutagen](ref/discovery/true-mutagen)
 
+### Alchemist Formulae {#alchemist-formulae}
+
+Alchemists gain access to a variety of formulae, allowing them to make extracts of the following
+spells. While most of these spells are found in the _Core Rulebook_, those marked with an asterisk
+(\*) appear in Chapter 5 of this book.
+
 ### Alternate Capstones
 
 When a character reaches the 20th level of a class, she gains a powerful class feature or ability,

@@ -428,7 +428,7 @@ def other_book_of(manifest: dict) -> dict[str, list[tuple[str, int, str, list[tu
     """(class entry) -> [(book, the pdf page that holds the text, the key of the item that the sections stand before, [(key, head, text)])]."""
     out: dict[str, list] = {}
     for ob in manifest.get("other_book", []):
-        out.setdefault(ob["class"], []).append((ob["book"], ob["page"], ob["before"], [(x["key"], x["head"], x["text"]) for x in ob["section"]]))
+        out.setdefault(ob["class"], []).append((ob["book"], ob["page"] if isinstance(ob["page"], int) else tuple(ob["page"]), ob["before"], [(x["key"], x["head"], x["text"]) for x in ob["section"]]))
     return out
 
 
@@ -452,7 +452,8 @@ def load_other_books(corpus: Path, books_dir: str, cache: str, main_book: str) -
         if not pdf:
             raise SystemExit(f"no copy of the book {book} under {books_dir}")
         bk = fp.load_book(fp.book_xml(pdf, Path(cache)))
-        text = " ".join(b.plain() for b in fp.read_blocks(bk, page, page))
+        pgs = [page] if isinstance(page, int) else list(page)                     # the pdf pages that hold the text (a section can run over a page)
+        text = " ".join(b.plain() for pg in pgs for b in fp.read_blocks(bk, pg, pg))
         OTHER_TEXT[(book, page)] = fp.squash(re.sub(r"(?<=[a-z])(?:B[1-6]|UW|UC|UM|APG|ARG)(?=[\s,.;):])", "", text))      # the book markers after a name (ruling 26)
     fp.configure_book(main_book)
 
@@ -802,14 +803,59 @@ def gap_sections(blocks: list, win: list, lacking: set[str], stop: set[str]) -> 
     return out
 
 
+# The lead-in of the section where the gap of a class ends (the Cleric's "Domains": "Clerics may select any two of the domains ..."): written as a `###` section of the class
+# before `### Alternate Capstones`, under print's title with the key of the manifest's `[[class]] lead_key`; the list that follows is other entries'.
+LEAD_SECTIONS: dict[str, str] = {c["id"]: c["lead_key"] for c in MANIFEST.get("class", []) if c.get("lead_key")}
+LEAD_TITLES: dict[str, str] = {c["id"]: c["lead_title"] for c in MANIFEST.get("class", []) if c.get("lead_title")}        # the title as print spells it (the text layer sets small capitals: "alChemist Formulae")
+LEAD_ENTRIES: dict[str, str] = {c["id"]: c["lead_entry"] for c in MANIFEST.get("class", []) if c.get("lead_entry")}       # an entry that holds the lead-in (the Summoner's Eidolons are the entry of the eidolon)
+LEAD_OK: dict[str, list[str]] = {c["id"]: c["lead_ok"] for c in MANIFEST.get("class", []) if c.get("lead_ok")}             # lead-in sentences that point at a table that the entry in `lead_entry` holds
+SPELL_LIST_PARA = re.compile(r"^\s*(?:\d+(?:st|nd|rd|th)|0)-Level\b.*\u2014")                       # "1st-Level Alchemist Formulae\u2014ant haul*, ...": the spell lists are spell data, not text of the class
+
+
+def lead_in(blocks: list, win: list, stop_title: str) -> tuple[str, list] | None:
+    """(title, [paragraphs]) of the section whose title ends the gap: the paragraphs between that title and the next title (the first of the list under it)."""
+    last = blocks.index(win[-1]) if win and win[-1] in blocks else 0
+    out = None
+    for b in blocks[last + 1:]:
+        if b.kind == "title" and not b.plain().strip().lower().startswith("table"):
+            if out is not None:
+                break
+            if fp.squash(b.plain()) == stop_title:
+                out = (" ".join(b.plain().split()), [])
+        elif b.kind == "para" and out is not None and not is_table_para(b.plain()) and not SPELL_LIST_PARA.match(b.plain()):
+            out[1].append(b)
+    return out
+
+
+def section_plain(text: str) -> str:
+    """A section's text without links, italics, line breaks and the kind of quote: the words and stops as they stand."""
+    text = re.sub(r"\[([^\]]*)\]\([^)]*\)", r"\1", text).replace("_", "").replace("*", "").replace("\u2019", "'")
+    return " ".join(text.split())
+
+
 def section_rewrites(corpus: Path, e, bk, blocks: list, rwin0: list, lacking: set[str], lines: list[str], region: tuple[int, int]) -> list[dict]:
     """The `###` sections behind the class features that print sets under the same title ("Ex-Barbarians") and whose text differs from print's: each is written from
     print (the links of the old text stay where their words are). A section with a table is left as it is."""
     stops = class_titles(corpus) | ({GAP_STOP[e.id]} if e.id in GAP_STOP else set())
     vocab = bk.vocab | {w.lower() for w in re.findall(r"[A-Za-z]+(?:-[A-Za-z]+)*", e.body)}
     out = []
-    for title, paras in gap_sections(blocks, rwin0, lacking | SECTIONS_BEHIND.get(e.id, set()), stops):
+    secs = gap_sections(blocks, rwin0, lacking | SECTIONS_BEHIND.get(e.id, set()), stops)
+    lead = lead_in(blocks, rwin0, GAP_STOP[e.id]) if e.id in LEAD_SECTIONS and e.id in GAP_STOP else None
+    if lead and e.id in LEAD_TITLES:
+        lead = (LEAD_TITLES[e.id], lead[1])
+    if lead and lead[1]:
+        secs = secs + [lead]
+    for title, paras in secs:
         at = next((i for i in range(region[1], len(lines)) if (m := re.match(r"^### (.*?)(?: \{#[^}]+\})?\s*$", lines[i])) and fp.squash(m.group(1)) == fp.squash(title)), None)
+        if at is None and paras and lead is not None and paras == lead[1]:        # the lead-in is not in the entry yet: a new section before the capstones
+            pf = fp.PrintFeature(title, [b.runs for b in paras], paras[0].page)
+            text, _lost, _notes = fp.print_md(pf, [], vocab, e.id)
+            title = LEAD_TITLES.get(e.id, title)
+            before = next((i for i in range(region[1], len(lines)) if re.match(r"^### Alternate Capstones", lines[i])), None)
+            if before is None:
+                before = next((i for i in range(region[1], len(lines)) if re.match(r"^### ", lines[i])), len(lines))
+            out.append({"head": f"### {title} {{#{LEAD_SECTIONS[e.id]}}}", "line": before, "end": before, "insert": True, "old": "", "print": text.strip()})
+            continue
         if at is None or not paras:
             continue
         end = next((i for i in range(at + 1, len(lines)) if re.match(r"^#{1,3} ", lines[i])), len(lines))
@@ -818,8 +864,8 @@ def section_rewrites(corpus: Path, e, bk, blocks: list, rwin0: list, lacking: se
             continue
         pf = fp.PrintFeature(title, [b.runs for b in paras], paras[0].page)
         text, _lost, _notes = fp.print_md(pf, [], vocab, e.id)
-        if not lost_sentences(" ".join(text.split()), old, frozenset()):
-            continue
+        if section_plain(text) == section_plain(old):
+            continue                                                  # print's words, hyphens and stops as the corpus has them (the sentences of the corpus that print lacks make it differ too)
         links = re.findall(r"\[([^\]]+)\]\(([^)]+)\)", old)
         if links:
             text, unplaced, _ = fp.print_md(pf, links, vocab, e.id)
@@ -865,6 +911,17 @@ def coverage_check(corpus: Path, e, items: list[dict], blocks: list, title, head
         host["notes"].insert(0, f"print sections between the class features and the next head that the corpus lacks are not in the written entry ({len(gap_lost)} sentences): "
                              + " | ".join(s[:70] for s in gap_lost[:3]))
         host["lost"] = gap_lost
+    if e.id in GAP_STOP:                                          # a gap stop must not swallow the lead-in of the section it stops at (review of #389)
+        lead = lead_in(blocks, rwin0, GAP_STOP[e.id])
+        if lead and lead[1]:
+            lead_union = union + ("\n" + (corpus / "entries" / (LEAD_ENTRIES[e.id].removeprefix("ref/") + ".md")).read_text(encoding="utf-8") if e.id in LEAD_ENTRIES else "")
+            lead_lost = lost_sentences(" ".join(" ".join(b.plain().split()) for b in lead[1]), lead_union, cells)
+            lead_lost = [x for x in lead_lost if x not in LEAD_OK.get(e.id, [])]
+            if lead_lost and items:
+                host = next((x for x in items if not x.get("drop")), items[0])
+                host["status"] = "hold"
+                host["lead_lost"] = lead_lost
+                host["notes"].insert(0, f"the lead-in of the section `{lead[0]}` (where the gap check stops) is not in the written entry ({len(lead_lost)} sentences): " + " | ".join(x[:70] for x in lead_lost[:3]))
     for pf in rpfs:
         name = fp.head_text(pf.head)
         if fp.namekey(fp.ABILITY_TAG.sub("", name)) in linked or fp.namekey(name) in linked:
@@ -977,7 +1034,7 @@ def compare_class(corpus: Path, e, bk, cache: dict, options: dict | None = None,
                 status = "print"
                 notes.append(f"decision: {dec[1]}")
             head, text = r["head"], r["print"]
-            tag = re.match(r"^\(((?:Ex|Su|Sp)(?:(?:, or |, and |, | or | and )(?:Ex|Su|Sp))*)\):\s*", text)
+            tag = re.match(r"^_?\(((?:Ex|Su|Sp)(?:(?:, or |, and |, | or | and )(?:Ex|Su|Sp))*)\)_?:\s*", text)       # the tag may be set in italics: "_(Ex)_:" (the Rogue's Master Strike, p. 70)
             if tag:                                       # the tag of the head ("Summon Monster I" "(Sp):") stands in the first run: it belongs to the head
                 head = f"{head} ({tag.group(1)})" if not re.search(r"\((?:Ex|Su|Sp)[^)]*\)\s*$", head) else head
                 text = text[tag.end():]
@@ -1121,7 +1178,10 @@ def compare_class(corpus: Path, e, bk, cache: dict, options: dict | None = None,
     rwin_keep = bold_option_heads(window(blocks, WINDOW_KEEP.get(e.id, frozenset()), raw=True, tail=table_tail(e.body), cell=table_last_cell(e.body)), set(option_names(options or {}, own)))
     rewrites = section_rewrites(corpus, e, bk, blocks, rwin_keep, lacking, lines, region)
     for rw in sorted(rewrites, key=lambda x: -x["line"]):
-        lines[rw["line"] + 1:rw["end"]] = ["", rw["print"], ""]                  # the check reads the section as it is written
+        if rw.get("insert"):
+            lines[rw["line"]:rw["line"]] = [rw["head"], "", rw["print"], ""]
+        else:
+            lines[rw["line"] + 1:rw["end"]] = ["", rw["print"], ""]                  # the check reads the section as it is written
     cov_problems = coverage_check(corpus, e, items, blocks, title, heads, lacking, region, lines, options or {}, own)
     opening = printed_opening(e, win)
     unresolved = {i["key"] for i in items if "head not printed" in i["notes"] and not i.get("drop") and not i.get("split_from")}
@@ -1325,6 +1385,7 @@ def self_test() -> int:
     eq(class_features("ref/class/antipaladin", body, {})[-1][0], "spells", "a section behind the features is no feature")
     eq(with_features("id = \"x\"\n[fields]\nskill_ranks = \"2\"\n", [("a", 1), ("b", None)]), 'id = "x"\n[fields]\nskill_ranks = "2"\nfeatures = [\n  { anchor = "a", level = 1 },\n  { anchor = "b" },\n]\n', "features are the last rows of the front")
     eq(with_features(with_features("[fields]\nx = 1\n", [("a", 1)]), [("a", 1)]), with_features("[fields]\nx = 1\n", [("a", 1)]), "an earlier list is replaced, not doubled")
+    eq(re.match(r"^_?\(((?:Ex|Su|Sp)[^)]*)\)_?:\s*", "_(Ex)_: Upon reaching 20th level, a rogue").group(1), "Ex", "the tag of a head that print sets in italics (the Rogue's Master Strike) is found")
     eq(re.match(r"^\(((?:Ex|Su|Sp)[^)]*)\):\s*", "(Sp): Starting at 1st level, a summoner").group(1), "Sp", "the tag that print leaves in the first run is found")
     eq((settled(plan), settled(dict(plan, extra=["X"])), settled(dict(plan, missing=["mystery"]))), (True, False, False), "a class is written all or nothing")
     P = fp.Para

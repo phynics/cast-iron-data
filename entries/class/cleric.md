@@ -213,9 +213,13 @@ be reversed. This choice also determines whether the cleric channels positive or
 
 A cleric who grossly violates the code of conduct required by her god loses all spells and class
 features, except for armor and shield proficiencies and proficiency with simple weapons. She cannot
-thereafter gain levels as a cleric of that god until she [atones](ref/spell/atonement) for her
-deeds. (Also see the [Channeler of the Unknown](ref/arc-cleric/channeler-of-the-unknown) archetype
-for options.)
+thereafter gain levels as a cleric of that god until she [atones](ref/spell/atonement) for her deeds
+(see the _atonement_ spell description).
+
+### Domains {#domain-list}
+
+Clerics may select any two of the domains granted by their deity. Clerics without a deity may select
+any two domains (choice are subject to GM approval).
 
 ### Alternate Capstones
 
