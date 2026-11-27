@@ -13,13 +13,10 @@ page = "33"
 [fields]
 kind = "class_option"
 group = "rage-power"
+ability_type = "Ex"
 +++
 
-**No Escape (Ex)**
-
-**Immediate:** When an adjacent foe uses a [withdraw](ref/rule/withdraw) action to move away from
-her, the barbarian can move up to double her normal speed. She must end her movement adjacent to the
-enemy that used the withdraw action. The barbarian provokes attacks of opportunity as normal during
-this movement.
-
-**Usage:** Once per _rage_
+The barbarian can move up to double her base speed as an immediate action but she can only use this
+ability when an adjacent foe uses a [withdraw](ref/rule/withdraw) action to move away from her. She
+must end her movement adjacent to the enemy that used the withdraw action. The barbarian provokes
+attacks of opportunity as normal during this movement. This power can only be used once per rage.

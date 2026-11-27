@@ -13,19 +13,15 @@ page = "37"
 [fields]
 kind = "class_option"
 group = "bardic-performance"
+ability_type = "Sp"
 +++
 
-**Suggestion (Sp)**
-
-**Gained:** At 6th Level
-
-**Ability:** A bard can use his performance to make a [suggestion](ref/spell/suggestion) (as per the
-spell) to a creature he has already [fascinated](ref/performance/fascinate). Using this ability does
-not disrupt the _fascinate_ effect, but it does require a **standard action** to activate (in
-addition to the **free action** to continue the _fascinate_ effect). A bard can use this ability
-more than once against an individual creature during an individual performance.
-
-**Special:** Making a _suggestion_ does not count against a bard's daily use of bardic performance.
-A Will saving throw (DC 10 + 1/2 the bard's level + the bard's Cha modifier) negates the effect.
-This ability affects only a single creature. _Suggestion_ is an enchantment (compulsion), mind
-affecting, language-dependent ability and relies on audible components.
+A bard of 6th level or higher can use his performance to make a _[suggestion](ref/spell/suggestion)_
+(as per the spell) to a creature he has already [fascinated](ref/performance/fascinate) (see above).
+Using this ability does not disrupt the fascinate effect, but it does require a standard action to
+activate (in addition to the free action to continue the fascinate effect). A bard can use this
+ability more than once against an individual creature during an individual performance. Making a
+_suggestion_ does not count against a bard's total rounds per day of bardic performance. A Will
+saving throw (DC 10 + 1/2 the bard's level + the bard's Cha modifier) negates the effect. This
+ability affects only a single creature. _Suggestion_ is an enchantment (compulsion), mind affecting,
+language-dependent ability and relies on audible components.

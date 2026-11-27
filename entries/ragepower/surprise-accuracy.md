@@ -13,12 +13,9 @@ page = "33"
 [fields]
 kind = "class_option"
 group = "rage-power"
+ability_type = "Ex"
 +++
 
-**Surprise Accuracy (Ex)**
-
-**Swift:** The barbarian gains a morale bonus on one attack roll equal to 1 +
-[one-fourth](ref/misc/fractions-and-rounding) of her barbarian level. This power must be used before
-the roll to hit is made.
-
-**Usage:** Once per _rage_
+The barbarian gains a +1 morale bonus on one attack roll. This bonus increases by +1 for every 4
+levels the barbarian has attained. This power is used as a swift action before the roll to hit is
+made. This power can only be used once per rage.
