@@ -1,0 +1,23 @@
+[[edit]]
+entry = "ref/arc-ranger/galvanic-saboteur"
+anchor = "technological-trapsmith"
+note = "hand-written from print (People of the River p. 25): the combat trait sidebar fills the top of the right column and the extraction runs its lines into the sentence of the ability (\"the construct's COMBAT TRAIT The following combat trait ...\"); the box \"Rigged Construct Trap\" with its statistics is a bold line and its rows, as print sets it (ruling 41: a box of the feature itself). The sidebar is the combat trait of the next section."
+text = '''
+At 7th level, a galvanic saboteur can rig technological traps using the remains of destroyed constructs with the clockwork or robot subtype. To successfully rig such a trap, the ranger must spend 1 minute working on the destroyed construct and succeed at a Disable Device check (DC = 10 + the construct's HD). On a failure, the trap doesn't function and the construct's remains are ruined. On a success, the ranger creates a mechanical trap with the following statistics.
+
+**Rigged Construct Trap**
+
+**Type** mechanical; **Perception** DC 20; **Disable Device** DC 20\
+**Trigger** location (all spaces occupied by the construct's remains); **Reset** none\
+**Effect** blast of electricity (1d6 electricity damage/2 HD of construct); Reflex negates (DC = 10 + 1/2 the ranger's level + his Intelligence modifier); multiple targets (all targets within 5 ft. of construct's remains)
+
+Other types of destroyed constructs can serve as suitable materials for a rigged construct trap (at the GM's discretion). Constructs destroyed by _[disintegrate](ref/spell/disintegrate)_ or similar effects that leave no intact remains cannot be used to create a rigged construct trap. This ability replaces woodland stride.
+'''
+
+[[edit]]
+entry = "ref/arc-witch/hag-of-gyronna"
+anchor = "hag-crony"
+note = "hand-written from print (People of the River p. 23): the faith trait sidebar fills the top of the right column and the extraction runs its lines into the middle of the ability (\"as long as the witch's FAITH TRAIT ... commands are consistent\"), and the first paragraph of the next section follows the trade sentence; the text is the printed ability, whole."
+text = '''
+At 12th level, a hag of Gyronna gains a blessing from the Angry Hag in the form of an alliance with a night hag (_Pathfinder RPG Bestiary_ 215). Once per week, the hag of Gyronna can as a full-round action summon the night hag from the Shadow Plane. The night hag serves the hag of Gyronna to the best of its ability as long as the witch's commands are consistent with the night hag's alignment and goals, but flees back to its native plane after a number of rounds equal to the witch's level or upon losing half or more of its hit points. The night hag may provide the hag of Gyronna with other favors or gifts at the GM's discretion. At 15th and 18th levels, a hag of Gyronna can call upon her hag crony an additional time per week. This ability replaces the witch's 12th-level hex.
+'''
