@@ -1136,6 +1136,8 @@ ART_INDENT_MAX = 20
 
 
 RUN_IN_HEAD_ONLY = re.compile(r"^.{3,70}\((?:Ex|Su|Sp)(?:,\s*(?:Ex|Su|Sp))*\)\s*:\s*$")
+# the rest of a head whose ability tag follows it ("Toppling Strike* (Ex): When ..."): a paragraph starts there (Advanced Class Guide p. 33)
+HEAD_TAG_TAIL = re.compile(r"^\s*\((?:Ex|Su|Sp)(?:\s*,\s*(?:Ex|Su|Sp))*\)\s*:")
 
 
 FRAGMENT_TITLES = {"on": False}
@@ -1213,6 +1215,12 @@ def _assemble(book: Book, items: list[tuple[int, list[dict]]]) -> list[Para]:
             if LOWERCASE_CONTINUES["on"] and starts and out and out[-1].kind == "para" \
                     and re.match(r"\s*[a-z]", "".join(t for t, _, _ in ln["runs"])):
                 starts = False                  # a line that starts in lower case continues the sentence before it (text around an illustration)
+            if ILLUSTRATED["on"] and not starts and out and out[-1].kind == "para":
+                # a head with its ability tag after it ("_Toppling Strike*_ (Ex): When the investigator ...") starts a paragraph even where the
+                # layer gives it no indent, and even when the sentence before it has no full stop (Advanced Class Guide pp. 33, 55, 57)
+                cand_tag = head_candidate(Para("para", list(ln["runs"]), shown, ln["col"]))
+                if cand_tag and cand_tag[1] and HEAD_TAG_TAIL.match(cand_tag[1][0][0]) and len(cand_tag[0]) <= 60:
+                    starts = True
             if ILLUSTRATED["on"] and not starts and out and out[-1].kind == "para" and re.search(r"[.)!?\"”]\s*$", out[-1].plain()):
                 # beside an illustration the lines have no common indent: a head ("Rope Swing (Ex):") after the end of a
                 # sentence still starts a paragraph
@@ -1799,6 +1807,11 @@ def split_print(section: list[Para], expected: list[str]) -> tuple[list[list], l
         if cand:
             head, rest, bold = cand
             marked = False
+            if re.search(r"[*\u2020\u2021]", head):
+                # a source mark inside the head, before its tag ("_Blinding Strike* (Ex)_", Advanced Class Guide p. 32)
+                head = re.sub(r"\s*[*\u2020\u2021]+", "", head).strip()
+                cand = (head, rest, bold)
+                marked = True
             if SOURCE_MARK_END.search(head):
                 head = SOURCE_MARK_END.sub("", head)      # "Plague Bomb (Su)*:" (the mark is inside the italic run, Ultimate Magic p. 16)
                 cand = (head, rest, bold)
@@ -1809,6 +1822,14 @@ def split_print(section: list[Para], expected: list[str]) -> tuple[list[list], l
                 rest[0] = (SOURCE_MARK_TAIL.sub("", rest[0][0], count=1), rest[0][1], rest[0][2])
                 cand = (head, rest, bold)
                 marked = True
+            if rest and not rest[0][0].lstrip().startswith(":") and HEAD_TAG_TAIL.match(rest[0][0]):
+                # a head with its ability tag after it ("Toppling Strike* (Ex): When ...", Advanced Class Guide p. 33): the tag joins the name
+                m = HEAD_TAG_TAIL.match(rest[0][0])
+                tag = m.group(0).strip().rstrip(":").strip()
+                head = (head.rstrip() + " " + tag).strip()
+                rest = list(rest)
+                rest[0] = (":" + rest[0][0][m.end():], rest[0][1], rest[0][2])
+                cand = (head, rest, bold)
             colon = rest and rest[0][0].lstrip().startswith(":") if rest else False
             tail_ok = not rest or colon or (bold and namekey(head) in want)     # print leaves out a colon here and there
             if tail_ok and (bold or (namekey(head) in want)):
@@ -2307,6 +2328,7 @@ PRINT_AT_LEAST_LOOSE = re.compile(r"[^.]*\bmust be at least (?:a |an )?(\d+)(?:s
 #     "natural armor", "tail slap" for "tail").
 # A row is all or nothing: one item left over, and the row and its sentences stay in the comparison.
 LOOSE_ITEMS = {"on": False}
+CLASS_WORDS = {c.casefold() for c in CLASS_NAMES}
 KNOWN_OPTIONS: list[list[str]] = []           # the word lists of the titles of every class option, set by the class-option script
 ITEM_FRAME = re.compile(r"\b(?:to|before)\s+(?:select|selecting|take|taking|gain|gaining|choose|choosing)\b|\bonly available to\b", re.I)
 ITEM_NEGATION = re.compile(r"\b(?:not|cannot|never|no|neither|nor)\b|n['\u2019]t\b", re.I)
@@ -2357,7 +2379,7 @@ def restates(row: str, p_clean: str) -> bool:
     return bool(words) and all(w in have for w in words)
 
 
-def take_prerequisites(draft: Draft, p_clean: str, d_clean: str) -> tuple[str, str, list[str]]:
+def take_prerequisites(draft: Draft, p_clean: str, d_clean: str, lead: int | None = None) -> tuple[str, str, list[str]]:
     """A `Prereq: 13th-level magus ...` row is print's "The magus must be at least 13th level and have ... before selecting this
     arcana" when the level is the same: both go out of the comparison (the other words of a prerequisite are not compared; the
     number is the rule). A prerequisite of another shape stays in the comparison."""
@@ -2387,6 +2409,11 @@ def take_prerequisites(draft: Draft, p_clean: str, d_clean: str) -> tuple[str, s
                 p_clean = p_clean.replace(sent, " ", 1)
             info += [f"rule 3: the prerequisite item \"{item[:30]}\" is print's sentence that says the character must have it" for item in items]
             d_clean = d_clean.replace(flat, " ", 1)
+        elif m and lead == int(m.group(1)) and not items and all(w.casefold() in CLASS_WORDS for w in re.findall(r"[a-z]+", re.split(PREREQ_LEVEL, flat)[-1])):
+            # print states the level in the feature's own lead ("At 11th level, when the swashbuckler hits ...") and names only its class, so the
+            # import's row restates print's lead: it goes (ruling 60; a different level or an item of its own stays in the comparison)
+            d_clean = d_clean.replace(flat, " ")
+            info.append(f"rule 3: the prerequisite row \"{flat[:40]}\" states print's lead level (the same level)")
         elif not m and items and restates(flat, p_clean):
             d_clean = d_clean.replace(flat, " ", 1)
             info.append(f"rule 3: the prerequisite row \"{flat[:40]}\" only restates words that print has (the import wrote a row for them): dropped")
@@ -2463,7 +2490,7 @@ def _compare_feature(draft: Draft, print_text: str, drop: set[str], title_tokens
     p_clean = strip_level_phrase(strip_leads(p_clean), lvl)
     d_clean = strip_level_phrase(strip_leads(d_clean), lvl)
     if RULES["prereq"]:
-        p_clean, d_clean, pre = take_prerequisites(draft, p_clean, d_clean)
+        p_clean, d_clean, pre = take_prerequisites(draft, p_clean, d_clean, lp)
         info += pre
     usage_rows = list(draft.usage)
     if RULES["usage"] and usage_rows:
@@ -6713,6 +6740,24 @@ def self_test() -> int:
         decisions_path(Path(tmp_), "bk").write_text("\t".join(DECISION_HEADER) + "\ne\ta\tfold-into:x\tn\n", encoding="utf-8")
         eq(read_decisions(Path(tmp_), "bk"), {("e", "a"): ("fold-into:x", "n")}, "the decision reader takes fold-into")
     eq(is_scaffold("Weapon and Armor Proficiencies") and is_scaffold("Class Skills") and is_scaffold("Skill Ranks per Level"), True, "scaffold variants")
+    # a prerequisite row that only restates print's own lead level goes (the swashbuckler deeds, Advanced Class Guide p. 58): the same level
+    # with a class word only; a different level or an item of its own stays held
+    LOOSE_ITEMS["on"] = True
+    _lead = "At 11th level, a swashbuckler can do a thing."
+    def _lead_status(row: str) -> str:
+        d_ = build_draft(parse_import("Intro.\n\n**Feature**\n\n**Ability:** " + _lead + "\n\n**Prereq:** " + row + "\n")[1][0])
+        return compare_feature(d_, _lead, set(), set()).status
+    eq([_lead_status("11th-level swashbuckler"), _lead_status("13th-level swashbuckler"), _lead_status("11th-level swashbuckler, panache")],
+       ["print", "hold", "hold"], "a prerequisite row that restates print's lead level goes; another level or an item stays held")
+    LOOSE_ITEMS["on"] = False
+    # a head with its ability tag after it starts a paragraph where the layer gives no indent (Advanced Class Guide p. 33)
+    ILLUSTRATED["on"] = True
+    _hk = Book({"30": 13}, {1: [(100, 108, 30, "The investigator must be at least 13th level to select this talent.", 300),
+                                (118, 108, 30, "<i>Toppling Strike*</i> (Ex): When the investigator deals damage.", 300)]}, {1: 33}, set())
+    _hk2 = Book({"30": 13}, {1: [(100, 108, 30, "He reads the book.", 300), (118, 108, 30, "<i>Acid Arrow</i> is a spell.", 300)]}, {1: 33}, set())
+    eq([b.kind for b in read_blocks(_hk, 1, 1)], ["para", "para"], "an italic head with its tag after it starts a paragraph")
+    eq([b.kind for b in read_blocks(_hk2, 1, 1)], ["para"], "an italic spell name at a line start is no head")
+    ILLUSTRATED["on"] = False
     # a class-option prerequisite may take an article ("must be at least a 5th-level wizard"), an archetype's stays as it was (review of #374)
     eq((bool(PRINT_AT_LEAST.search("The magus must be at least 13th level and have X.")),
         bool(PRINT_AT_LEAST.search("You must be at least a 5th-level wizard to select this discovery.")),
@@ -7393,6 +7438,17 @@ LEVEL_FROM_PRINT[("ref/arc-unchained-summoner/devil-impostor", "deceptive-eidolo
 
 
 # ---- Ultimate Magic class options, single-power (batch of 2026-11-27) ---------------------------------------------------------
+MISPRINTS.append(("ref/exploit/consume-magic-items", "o-level", "0-level",
+                  "a defect of the text layer, not of print: the page prints \"0-level\" (Advanced Class Guide p. 10)"))
+MISPRINTS.append(("ref/invtalent/tenacious-inspiration", "must at least 13th level", "must be at least 13th level",
+                  "print drops the verb: \"The investigator must at least 13th level to select this talent.\" (Advanced Class Guide p. 33); "
+                  "the sentence has no other reading (ruling 9)"))
+MISPRINTS.append(("ref/discovery/inspired-bomb", "Unlike other a discoveries", "Unlike other discoveries",
+                  "print has a stray article: \"Unlike other a discoveries that affect bombs\" (Advanced Class Guide p. 75); the sentence has no other "
+                  "reading (ruling 9)"))
+MISPRINTS.append(("ref/discovery/greater-inspiring-cognatogen", "investigator discoveries", "investigator talents",
+                  "the three abilities are investigator talents (the corpus links them), and print repeats the entry's own \"discovery\" "
+                  "(Advanced Class Guide p. 75; ruling 9)"))
 MISPRINTS.append(("ref/evolution/undead-appearance", "hold undead", "halt undead",
                   "print has \"hold undead\" for the spell halt undead (Ultimate Magic p. 77; owner ruling 9, a misprint of certain meaning; "
                   "`scripts/errata.tsv` has the row)"))
