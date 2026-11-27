@@ -20,4 +20,4 @@ A shaman can chant as a move action. Any creature that is within 30 feet that is
 of the shaman's [charm](ref/shamanhex/charm), [evil eye](ref/shamanhex/evil-eye),
 [fortune](ref/shamanhex/fortune), [fury](ref/shamanhex/fury), or
 [misfortune](ref/shamanhex/misfortune) hex has that effect's duration extended by 1 round. A shaman
-cannot select both this hex and the witch's cackle hex.
+cannot select both this hex and the witch's [cackle](ref/hex/cackle) hex.

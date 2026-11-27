@@ -391,21 +391,68 @@ def target_kind_group(target: str) -> tuple[str, str] | None:
     return out
 
 
-def drop_cross_group_links(text: str, own_group: str) -> tuple[str, list[tuple[str, str]]]:
-    """Ruling 52: an option list links each printed item to an entry of the class's own group, or keeps print's text. A link to a
-    class option of another group (the two swashbuckler deeds a magus arcana grants, the investigator talents a discovery names)
-    is no link: print's words stay, and the reader is not sent to another class's list. A spell, a condition or a rule keeps its
-    link, and so does a target the tree does not hold."""
-    dropped: list[tuple[str, str]] = []
+OPTION_NOUNS = {
+    "deed": "deed", "deeds": "deed", "hex": "hex", "hexes": "hex", "talent": "talent", "talents": "talent",
+    "arcana": "arcana", "exploit": "exploit", "exploits": "exploit", "discovery": "discovery", "discoveries": "discovery",
+    "power": "power", "powers": "power", "mystery": "mystery", "mysteries": "mystery", "bloodline": "bloodline",
+    "bloodlines": "bloodline", "order": "order", "orders": "order", "spirit": "spirit", "spirits": "spirit",
+    "judgment": "judgment", "judgments": "judgment", "evolution": "evolution", "evolutions": "evolution",
+    "domain": "domain", "domains": "domain", "blessing": "blessing", "blessings": "blessing",
+    "inquisition": "inquisition", "inquisitions": "inquisition", "revelation": "revelation", "revelations": "revelation",
+    "curse": "curse", "curses": "curse", "patron": "patron", "patrons": "patron", "school": "school", "schools": "school",
+    "focus": "focus", "foci": "focus", "discipline": "discipline", "disciplines": "discipline",
+    "implement": "implement", "implements": "implement", "aspect": "aspect", "aspects": "aspect",
+}
 
-    def repl(m: re.Match) -> str:
-        pair = target_kind_group(m.group(2))
-        if pair and pair[0] == "class_option" and own_group and pair[1] and pair[1] != own_group:
-            dropped.append((m.group(1), pair[1]))
-            return m.group(1)
-        return m.group(0)
 
-    return CROSS_GROUP.sub(repl, text), dropped
+LINK_OR_WORD = re.compile(r"\[[^\]]*\]\([^)]*\)|\band\b|\bor\b|[A-Za-z][A-Za-z'-]*|[,;]")
+
+
+def link_kind_mismatches(text: str) -> list[tuple[str, str, str, str]]:
+    """Ruling 52, as narrowed by the review of #373: a printed reference may name another class's option on purpose (the two
+    swashbuckler deeds that Flamboyant Arcana grants, the investigator talents the cognatogens name, the witch's cackle), so a link
+    is checked only for a disagreement with print's own words. Print's noun for the name is the option noun that follows it, across
+    a printed list ("the amazing inspiration, eidetic recollection, and expanded inspiration investigator talents") and at most one
+    class word ("investigator talents"); any other word between the name and a noun means print attaches no such noun, and the link
+    stays. A class print names must be the target's class. The names that agree with print stay linked."""
+    bad: list[tuple[str, str, str, str]] = []
+    classes = {c.casefold() for c in fp.CLASS_NAMES}
+    for m in CROSS_GROUP.finditer(text):
+        name, target = m.group(1), m.group(2)
+        pair = target_kind_group(target)
+        if not pair or pair[0] != "class_option" or not pair[1]:
+            continue
+        kind = pair[1].rsplit("-", 1)[-1]
+        a = text.rfind(". ", 0, m.start())
+        b = text.find(". ", m.end())
+        sent = text[a + 2 if a >= 0 else 0: b + 1 if b >= 0 else len(text)]
+        link = f"]({target})"
+        at = sent.find(link)
+        after = sent[at + len(link):] if at >= 0 else ""
+        noun = None
+        seen_class = False
+        for t in LINK_OR_WORD.finditer(after):
+            word = t.group(0)
+            if word.startswith("["):
+                continue                                     # another name of the same printed list
+            if word in (",", ";") or word.casefold() in ("and", "or"):
+                continue
+            low = word.casefold()
+            if low in OPTION_NOUNS:
+                noun = OPTION_NOUNS[low]
+                break
+            if low in classes and not seen_class:
+                seen_class = True
+                continue
+            break                                            # print says something else here: no noun of this kind
+        if noun and noun != kind:
+            bad.append((name, target, pair[1], noun))
+            continue
+        prefix = pair[1].split("-")[0]
+        mentioned = {w for w in classes if re.search(r"\b" + w + r"\b", sent, re.I)}
+        if prefix in classes and mentioned and prefix not in mentioned:
+            bad.append((name, target, pair[1], "class " + prefix))
+    return bad
 
 
 STOP_TITLES: set[str] = set()          # squash of the title of every class option: another one ends a section
@@ -840,10 +887,11 @@ def compare_one(e, book, bk, other=None) -> list[dict]:
                 common["page"] = f"{intro[1]}-{page}"
         if shape == "single":
             printed, lost = place_links(printed, plinks)
-            printed, crossed = drop_cross_group_links(printed, str(((getattr(e, "data", {}) or {}).get("fields") or {}).get("group") or ""))
+            crossed = link_kind_mismatches(printed)
             if crossed:
                 notes.append("ruling 52: " + "; ".join(
-                    f"\"{name}\" names an option of another group ({group}) and stays print's text" for name, group in crossed))
+                    f"\"{name}\" names a {target} ({group}) but print says {word}" for name, target, group, word in crossed))
+                status, hard = "hold", True
             common["links_lost"] = "|".join(lost)
         if shape == "single" and e.id.split("/")[1] in HEADING_FAMILIES:
             gh = group_map(bk).of(e.title, page)
@@ -1756,11 +1804,16 @@ def self_test() -> int:
        "It has a [tail slap attack](ref/umr/natural-attacks). It needs the [tail](ref/evolution/tail) evolution to take this evolution.", "a link of another rule stays")
     eq(place_links("It has [claws](ref/evolution/claws).", [("claws", "ref/evolution/claws"), ("tail", "ref/evolution/tail")]),
        ("It has [claws](ref/evolution/claws).", ["tail"]), "ruling 60: an item that stands nowhere is reported")
-    # ruling 52: a printed item that names another class's option keeps print's text, and the entry is linked only to its own group
+    # ruling 52, as narrowed by the review of #373: another class's option may be linked on purpose; a link is wrong only when
+    # print's own noun or class disagrees with the target (print says "deed" and the target is a hex)
     with tempfile.TemporaryDirectory() as td:
         root = Path(td)
-        for rel, kind, group in (("arcana/own", "class_option", "magus-arcana"),
-                                 ("exploit/other", "class_option", "arcanist-exploit"),
+        for rel, kind, group in (("swashdeed/derring-do", "class_option", "swashbuckler-deed"),
+                                 ("swashdeed/opportune-parry-and-riposte", "class_option", "swashbuckler-deed"),
+                                 ("hex/cackle", "class_option", "witch-hex"),
+                                 ("invtalent/item-lore", "class_option", "investigator-talent"),
+                                 ("invtalent/tenacious-inspiration", "class_option", "investigator-talent"),
+                                 ("discovery/inspiring-cognatogen", "class_option", "alchemist-discovery"),
                                  ("spell/fireball", "spell", "")):
             f = root / "entries" / (rel + ".md")
             f.parent.mkdir(parents=True, exist_ok=True)
@@ -1769,17 +1822,25 @@ def self_test() -> int:
         old_root = CORPUS_ROOT
         CORPUS_ROOT = root
         GROUP_OF_TARGET.clear()
-        again, dropped = drop_cross_group_links(
-            "A magus gains the [derring-do](ref/exploit/other) and [fireball](ref/spell/fireball) deeds and the [own](ref/arcana/own) arcana.",
-            "magus-arcana")
-        eq(again, "A magus gains the derring-do and [fireball](ref/spell/fireball) deeds and the [own](ref/arcana/own) arcana.",
-           "ruling 52: another class's option keeps print's text; a spell and the own group keep the link")
-        eq(dropped, [("derring-do", "arcanist-exploit")], "ruling 52: the dropped link is reported with the group it named")
-        eq(drop_cross_group_links("[x](ref/exploit/missing)", "magus-arcana"), ("[x](ref/exploit/missing)", []),
-           "ruling 52: a target the tree lacks keeps its link (near miss: no front matter to read)")
-        eq(drop_cross_group_links("[x](ref/exploit/other)", ""), ("[x](ref/exploit/other)", []),
-           "ruling 52: an entry with no group keeps its link (near miss: no own group)")
-        eq(drop_cross_group_links("no link here", "magus-arcana"), ("no link here", []), "ruling 52: a text with no link is unchanged")
+        eq(link_kind_mismatches("A magus gains the [derring-do](ref/swashdeed/derring-do) and [opportune parry and riposte](ref/swashdeed/opportune-parry-and-riposte) deeds from the swashbuckler's list of deeds."), [],
+           "ruling 52: the deeds of a printed list, named by print as deeds, agree (a cross-group link is no error)")
+        eq(link_kind_mismatches("A shaman cannot select both this hex and the witch's [cackle](ref/hex/cackle) hex."), [],
+           "ruling 52: another class's hex linked where print says hex agrees")
+        eq(link_kind_mismatches("It grants the effects of the [item lore](ref/invtalent/item-lore), [tenacious inspiration](ref/invtalent/tenacious-inspiration) investigator talents."), [],
+           "ruling 52: print's class and noun agree across a list")
+        eq(link_kind_mismatches("The alchemist's [inspiring cognatogen](ref/discovery/inspiring-cognatogen) now grants a bonus and the item lore talents."), [],
+           "ruling 52: a name whose noun comes in another clause attaches no noun (near miss: talents belong to the later item)")
+        eq(link_kind_mismatches("It grants the effects of the [item lore](ref/invtalent/item-lore) judgment."),
+           [("item lore", "ref/invtalent/item-lore", "investigator-talent", "judgment")],
+           "ruling 52: print says judgment and the target is an investigator talent (the wrong-name case of the review)")
+        eq(link_kind_mismatches("The following [cackle](ref/hex/cackle) deeds can be selected."),
+           [("cackle", "ref/hex/cackle", "witch-hex", "deed")], "ruling 52: print says deed and the target is a hex")
+        eq(link_kind_mismatches("The slayer gains the [item lore](ref/invtalent/item-lore) talent."),
+           [("item lore", "ref/invtalent/item-lore", "investigator-talent", "class investigator")],
+           "ruling 52: print names the slayer and the target is an investigator talent")
+        eq(link_kind_mismatches("It is a [fireball](ref/spell/fireball) spell."), [], "ruling 52: a spell keeps its link (near miss: not a class option)")
+        eq(link_kind_mismatches("It names [x](ref/hex/missing)."), [], "ruling 52: a target the tree lacks keeps its link (near miss: no front matter)")
+        eq(link_kind_mismatches("The [cackle](ref/hex/cackle) hex."), [], "ruling 52: no class named, the noun agrees")
         CORPUS_ROOT = old_root
         GROUP_OF_TARGET.clear()
     for line in bad:
