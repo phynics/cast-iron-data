@@ -15,11 +15,7 @@ kind = "class_option"
 group = "summoner-evolution"
 +++
 
-**Magic Attacks (Su)**
-
-**Passive:** An eidolon is infused with magic, allowing it to treat all of its natural attacks as if
-they were magic for the purpose of overcoming [damage reduction](ref/rule/damage-reduction).
-
-**Special:** If the summoner is 10th level or higher, all of the eidolon's weapons are treated as
-the alignment of the eidolon for the purpose of overcoming
-[damage reduction](ref/rule/damage-reduction).
+An eidolon is infused with magic, allowing it to treat all of its natural attacks as if they were
+magic for the purpose of overcoming [damage reduction](ref/rule/damage-reduction). If the summoner
+is 10th level or higher, all of the eidolon's weapons are treated as the alignment of the eidolon
+for the purpose of overcoming [damage reduction](ref/rule/damage-reduction).

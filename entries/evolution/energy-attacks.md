@@ -15,13 +15,6 @@ kind = "class_option"
 group = "summoner-evolution"
 +++
 
-**Energy Attacks (Su)**
-
-**Flavor:** An eidolon's attacks become charged with energy.
-
-**Choice:** Pick one energy type: acid, cold, electricity, or fire.
-
-**Ability:** All of the eidolon's natural attacks deal 1d6 points of energy damage of the chosen
-type on a successful hit.
-
-**Prereq:** 5th-level summoner
+An eidolon's attacks become charged with energy. Pick one energy type: acid, cold, electricity, or
+fire. All of the eidolon's natural attacks deal 1d6 points of energy damage of the chosen type on a
+successful hit. The summoner must be at least 5th level before selecting this evolution.

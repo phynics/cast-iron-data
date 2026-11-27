@@ -1980,6 +1980,15 @@ def take_prerequisites(draft: Draft, p_clean: str, d_clean: str) -> tuple[str, s
             p_clean = p_clean.replace(sm.group(0), " ", 1)
             d_clean = d_clean.replace(flat, " ", 1)
             info.append(f"rule 3: the prerequisite row \"{flat[:40]}\" is print's \"must be at least {ordinal(int(m.group(1)))} level\" (the same level)")
+        # class options (#540): the items after the level ("11th-level summoner, blindsense") are print's "The eidolon must possess the blindsense
+        # evolution to take this evolution": a sentence with "must" that names every word of an item is that item
+        for item in [x.strip() for x in flat.split(",")[1:] if x.strip()]:
+            words = re.findall(r"[a-z0-9]+", fold(item))
+            hit = next((x for x in re.finditer(r"[^.]*\bmust (?:possess|select|have|take|be)\b[^.]*\.", p_clean)
+                        if all(w in re.findall(r"[a-z0-9]+", fold(x.group(0))) for w in words)), None)
+            if hit:
+                p_clean = p_clean.replace(hit.group(0), " ", 1)
+                info.append(f"rule 3: the prerequisite item \"{item[:30]}\" is print's sentence that says the eidolon or character must have it")
     return p_clean, d_clean, info
 
 
@@ -6051,6 +6060,11 @@ def self_test() -> int:
     p3 = "A Jistkan artificer can use his arm. He cannot be fooled. The magus must be at least 13th level and have the shielding arm arcana before selecting this arcana."
     eq(cmp_rule("prereq", imp3, p3), ("hold", "print"), "rule 3: the same level")
     eq(cmp_rule("prereq", imp3, p3.replace("13th", "14th"))[1], "hold", "rule 3: another level is a hold")
+    # class options: the item after the level is print's own sentence that names it
+    imp3b = "**Passive:** An eidolon sees in the dark.\n\n**Prereq:** 11th-level summoner, blindsense\n"
+    p3b = "An eidolon sees in the dark. The eidolon must possess the blindsense evolution to take this evolution. The summoner must be at least 11th level."
+    eq(cmp_rule("prereq", imp3b, p3b)[1], "print", "rule 3: a prerequisite item is print's sentence")
+    eq(cmp_rule("prereq", imp3b, p3b.replace("blindsense", "burrow"))[1], "hold", "rule 3: another item is a hold")
     # rule 4: a `Usage` row that print says word for word is print's
     imp4 = "**Ability:** A hunter can speak with animals.\n\n**Usage:** She can use this ability no more than once per minute.\n"
     eq(cmp_rule("usage", imp4, "A hunter can speak with animals. She can use this ability no more than once per minute.")[1], "print", "rule 4: the row is in print")
@@ -6551,7 +6565,7 @@ def main() -> int:
         corpus = Path(args.corpus).resolve()
         books = [args.book] if args.book else sorted(
             p.name[len("feature-prose-540-"):-len(".tsv")] for p in (corpus / "scripts").glob("feature-prose-540-*.tsv")
-            if not p.name.endswith((".decisions.tsv", ".queue.tsv", ".sentences.tsv")))
+            if not p.name.endswith((".decisions.tsv", ".queue.tsv", ".sentences.tsv", ".class-options.tsv")))
         status = 0
         for b in books:
             args.book = b

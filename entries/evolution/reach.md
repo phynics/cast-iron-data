@@ -15,8 +15,5 @@ kind = "class_option"
 group = "summoner-evolution"
 +++
 
-**Reach (Ex)**
-
-**Flavor:** One of an eidolon's attacks is capable of striking at foes at a distance.
-
-**Ability:** Pick one attack. The eidolon's reach with that attack increases by 5 feet.
+One of an eidolon's attacks is capable of striking at foes at a distance. Pick one attack. The
+eidolon's reach with that attack increases by 5 feet.

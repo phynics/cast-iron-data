@@ -15,6 +15,4 @@ kind = "class_option"
 group = "summoner-evolution"
 +++
 
-**Gills (Ex)**
-
-**Ability:** An eidolon has gills and can breathe underwater indefinitely.
+An eidolon has gills and can breathe underwater indefinitely.

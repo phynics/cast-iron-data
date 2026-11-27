@@ -101,7 +101,7 @@ def main() -> int:
     fp = load_script()
     books = args.book.split(",") if args.book else sorted(
         p.name[len("feature-prose-540-"):-4] for p in (root / "scripts").glob("feature-prose-540-*.tsv")
-        if not p.name.endswith((".decisions.tsv", ".queue.tsv", ".sentences.tsv")))
+        if not p.name.endswith((".decisions.tsv", ".queue.tsv", ".sentences.tsv", ".class-options.tsv")))
     runs: dict[str, dict[str, str]] = {}
     for spec in args.rules.split(","):
         on = set(fp.RULES) if spec == "all" else (set() if spec == "none" else set(spec.split("+")))

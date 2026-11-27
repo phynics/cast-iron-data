@@ -15,9 +15,5 @@ kind = "class_option"
 group = "summoner-evolution"
 +++
 
-**Tail (Ex)**
-
-**Ability:** An eidolon grows a long, powerful tail. This grants it a +2 racial bonus on Acrobatics
-checks made to balance on a surface.
-
-**Special:** This evolution can be selected more than once.
+An eidolon grows a long, powerful tail. This grants it a +2 racial bonus on Acrobatics checks made
+to balance on a surface. This evolution can be selected more than once.
