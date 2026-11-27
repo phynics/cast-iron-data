@@ -166,7 +166,7 @@ def power_records(e, kind: str = "class_option") -> list[Power]:
             if m and len(m.group(1)) == 4:
                 end = next((j for j in range(i + 1, len(blocks)) if blocks[j].kind == "boundary" and blocks[j].text.startswith("#")), len(blocks))
                 out.append(Power(m.group(2), rw.span_sha(blocks[i:end]), m.group(3) or fp.slugify(fp.ABILITY_TAG.sub("", m.group(2))), 4,
-                                 section_of(blocks, i), e.book or "", e.page))
+                                 section_of(blocks, i, 4), e.book or "", e.page))
         return out
     return []
 
@@ -292,10 +292,10 @@ def outside_rows(body: str) -> list[str]:
     return sorted({b.label for i, b in enumerate(blocks) if b.kind == "row" and i not in inside})
 
 
-def section_of(blocks, start: int) -> str:
-    """The text of the nearest section heading above a block ("" before the first)."""
+def section_of(blocks, start: int, below: int = 7) -> str:
+    """The text of the nearest section heading above a block ("" before the first); with `below`, the nearest of a level above that."""
     for i in range(start - 1, -1, -1):
-        if blocks[i].kind == "boundary" and blocks[i].text.startswith("#"):
+        if blocks[i].kind == "boundary" and blocks[i].text.startswith("#") and len(blocks[i].text) - len(blocks[i].text.lstrip("#")) < below:
             return blocks[i].text.lstrip("#").strip()
     return ""
 
