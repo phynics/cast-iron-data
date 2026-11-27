@@ -3398,6 +3398,9 @@ def import_name(entry_id: str, name: str) -> str:
 # anchor, the labels and targets. Gunmaster (Ultimate Intrigue p. 61): "the gunslinger's gunsmith ability".
 EXTRA_LINKS = {
     ("ref/arc-vigilante/gunmaster", "gunmaster"): [("gunsmith", "ref/class/gunslinger#gunsmith")],
+    # review of #357: Primal Bond names three domains and three subdomains; the import links Animal, Destruction, Growth and Rage
+    # but not Strength or Ferocity. The corpus holds the domain pages (entries/domain/strength.md), and Ferocity is a subdomain on it.
+    ("ref/arc-druid/goliath-druid", "primal-bond"): [("Strength", "ref/domain/strength"), ("Ferocity", "ref/domain/strength")],
 }
 
 # A link of the import that points at the wrong thing: the entry and the label, retargeted (the TSV does not list it; the PR says so).
@@ -5961,6 +5964,10 @@ LEVEL_FROM_PRINT.update({
     ("ref/arc-skald/boaster", "rage-power"): (4, "does not gain this ability until 4th level"),
     ("ref/arc-bard/animal-speaker", "nature-s-speaker"): (5, "At 5th, 11th, and 17th level, the animal speaker selects another kind of animal friend"),
 })
+# Dragon Drinker (Dragonslayer's Handbook p. 22): Bleeding Spells replaces the bloodline arcana, a whole 1st-level sorcerer feature, so it gets
+# level 1 (owner review of #360 under rulings 35, 48, 50 and 57); its trade names the 1st level so that the lookup finds the feature
+LEVEL_FROM_PRINT[("ref/arc-sorcerer/dragon-drinker", "bleeding-spells")] = (1, "review of #360: replaces the bloodline arcana, a whole 1st-level class feature (rulings 35, 48, 50, 57)")
+TRADE_LEVELS[("ref/arc-sorcerer/dragon-drinker", "Bloodline arcana")] = [1]
 LEVEL_NONE.add(("ref/arc-sorcerer/wishcrafter", "wishbound-arcana"))      # it replaces the bloodline arcana, a part of the bloodline (ruling 48)
 # Diminished Spellcasting alters the whole spellcasting of the class, a 1st-level class feature (owner ruling 50; the corpus was split 7/7 on it)
 LEVEL_FROM_PRINT.update({(f"ref/arc-{e}", "diminished-spellcasting"): (1, "ruling 50: alters the whole spellcasting, a 1st-level class feature") for e in (
