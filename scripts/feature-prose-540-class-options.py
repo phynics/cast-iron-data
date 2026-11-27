@@ -337,6 +337,28 @@ def fence(rows: list[dict], shape: str) -> list[dict]:
     return rows
 
 
+TERMINAL = re.compile(r"[.!?:][)\]\"'\u2019\u201d_*]*$")
+
+
+def paragraph_complete(par: str) -> bool:
+    """Completeness guard: a printed paragraph ends in terminal punctuation (`.`, `!`, `?`, `:`, with a closing quote, parenthesis, italic mark
+    or link after it), or it is a list item or a table row. A paragraph that stops in the middle of a sentence is a window that ended at a page or
+    column break ("... declare a moment of triumph. For 1")."""
+    p = " ".join(par.split())
+    if not p or p.startswith(("#", "|", "- ", "* ", ">", ":::")) or re.match(r"^\d+[.)] ", p):
+        return True
+    p = re.sub(r"\]\([^)]*\)$", "]", p)                      # a link at the end: its text is the word
+    return bool(TERMINAL.search(p))
+
+
+def incomplete_paragraph(text: str) -> str:
+    """The end of the first paragraph of a printed text that is cut, or "" when every paragraph is complete."""
+    for par in text.split("\n\n"):
+        if not paragraph_complete(par):
+            return " ".join(par.split())[-60:]
+    return ""
+
+
 def compare_one(e, book, bk, other=None) -> list[dict]:
     """The rows of one entry: one per power, from the shared print comparison of the archetype pass."""
     shape, n = shape_of(e.body)
@@ -350,7 +372,7 @@ def compare_one(e, book, bk, other=None) -> list[dict]:
         return [dict(base, feature=n_, anchor=fp.anchor_of(n_), verdict="nopage", status="hold", level_import="", level="",
                      note="no page is cited", span_sha256=sha) for n_, sha in powers]
     page = int(e.page)
-    last = page + (3 if shape == "multi" else 1)
+    last = page + (3 if shape == "multi" else 2)         # a power at the end of a page or column goes on over the next page
     blocks = fp.read_blocks(bk, max(1, page + fp.PAGE_OFFSET[0] - 1), min(last + fp.PAGE_OFFSET[0], max(bk.pages)))
     section = [fp.Para("title", [(e.title, True, False)], page, 0, 20)] + blocks
     res = fp.compare_entry(e, section, bk)
@@ -409,6 +431,10 @@ def compare_one(e, book, bk, other=None) -> list[dict]:
             status, hard = "hold", True
         if shape == "single" and fp.namekey(name) != fp.namekey(e.title) and fp.namekey(inverted(name)) != fp.namekey(e.title):
             notes.append("the power's name differs from the title of the entry")
+            status, hard = "hold", True
+        cut = incomplete_paragraph(r["print"])
+        if cut:
+            notes.append(f"print text may be cut at a page or column break: ...{cut}")
             status, hard = "hold", True
         if problems:
             notes += problems
@@ -760,6 +786,9 @@ def run_check(args) -> int:
             if eid in written:
                 if shape != "none" or LABEL_ROW.search(e.body):
                     errors.append(f"{eid}: written, but the entry still holds an import row or label")
+                for par in e.body.strip().split("\n\n"):
+                    if not paragraph_complete(par):
+                        errors.append(f"{eid}: written, but a paragraph ends mid-sentence (a page or column break?): ...{' '.join(par.split())[-50:]}")
                 body = norm(e.body)
                 for r in mine:
                     text = props.get((eid, r["anchor"]))
@@ -831,6 +860,10 @@ def self_test() -> int:
     dd = fp.build_draft(ff[0])
     eq((fp.compare_feature(dd, "A gift of sight.", set(), set()).status, fp.compare_feature(dd, "A gift of sight. Gorum guards it.", set(), set()).status), ("hold", "draft"),
        "a label row inside a power's span holds when print lacks it")
+    eq([paragraph_complete(x) for x in ("A cry. For 1", "A cry that all allies hear.", "He said \u201cyes.\u201d", "A bonus (see text.)", "It grants _haste._", "It uses [fireball](ref/spell/fireball).",
+                                        "The following:", "- one\n- two", "| a | b |", "1. one", "A cry,")],
+       [False, True, True, True, True, True, True, True, True, True, False], "the completeness guard: a cut paragraph, a closing quote or parenthesis, a link at the end, a list, a table row")
+    eq((incomplete_paragraph("A whole.\n\nCut here"), incomplete_paragraph("A whole.\n\nAnother whole.")), ("Cut here", ""), "the guard names the end of the paragraph that is cut")
     single = "\n**Animal Fury (Ex)**\n\n**Ability:** A bite attack.\n\n**Special:** A grapple.\n"
     multi = ("\n**Deities**\n\n**Details:** Gorum.\n\n### Revelations\n\nAn oracle can choose from the following.\n\n"
              "**Battlecry (Ex)**\n\n**Standard:** A cry.\n\n**Usage:** 1 time/day\n\n**At 10th level,** more.\n\n"
