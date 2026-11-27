@@ -13,12 +13,9 @@ page = "15"
 [fields]
 kind = "class_option"
 group = "ninja-trick"
+ability_type = "Su"
 +++
 
-**Shadow Clone (Su)**
-
-**Standard:** The ninja can create 1d4 shadowy duplicates of herself that conceal her true location.
-This ability functions as [mirror image](ref/spell/mirror-image), using the ninja's level as her
-caster level.
-
-**Special:** Using this ability costs 1 ki point.
+The ninja can create 1d4 shadowy duplicates of herself that conceal her true location. This ability
+functions as _[mirror image](ref/spell/mirror-image)_, using the ninja's level as her caster level.
+Using this ability is a standard action that uses up 1 ki point.

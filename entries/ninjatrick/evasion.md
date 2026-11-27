@@ -13,13 +13,10 @@ page = "17"
 [fields]
 kind = "class_option"
 group = "ninja-trick"
+ability_type = "Ex"
 +++
 
-**Evasion (Ex)**
-
-**Ability:** A ninja can avoid even magical and unusual attacks with great agility. If she makes a
-successful Reflex saving throw against an attack that normally deals half damage on a successful
-save, she instead takes no damage.
-
-**Special:** [Evasion](ref/ability/evasion) can be used only if the ninja is wearing light armor or
-no armor. A helpless ninja does not gain the benefit of _evasion._
+A ninja can avoid even magical and unusual attacks with great agility. If she makes a successful
+Reflex saving throw against an attack that normally deals half damage on a successful save, she
+instead takes no damage. [Evasion](ref/ability/evasion) can be used only if the ninja is wearing
+light armor or no armor. A helpless ninja does not gain the benefit of evasion.

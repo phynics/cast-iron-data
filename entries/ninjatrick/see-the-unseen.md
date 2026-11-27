@@ -13,11 +13,9 @@ page = "17"
 [fields]
 kind = "class_option"
 group = "ninja-trick"
+ability_type = "Su"
 +++
 
-**See the Unseen (Su)**
-
-**Flavor:** A ninja with this trick learns how to see that which cannot be seen.
-
-**Swift:** The ninja can cast [see invisibility](ref/spell/see-invisibility), using her level as the
-caster level. Each use of this ability uses up 1 ki point.
+A ninja with this trick learns how to see that which cannot be seen. As a swift action, the ninja
+can cast _[see invisibility](ref/spell/see-invisibility)_, using her level as the caster level. Each
+use of this ability uses up 1 ki point.

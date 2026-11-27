@@ -13,10 +13,9 @@ page = "55"
 [fields]
 kind = "class_option"
 group = "magus-arcana"
+ability_type = "Su"
 +++
 
-**Rod Wielder (Su)**
-
-**Ability:** The magus adds his Intelligence bonus (minimum 0) on caster level checks made to
-overcome [spell resistance](ref/rule/spell-resistance) when using a spell contained within a rod or
-when making a _spellstrike_ attack channeled through a rod.
+The magus adds his Intelligence bonus (minimum 0) on caster level checks made to overcome
+[spell resistance](ref/rule/spell-resistance) when using a spell contained within a rod or when
+making a spellstrike attack channeled through a rod.

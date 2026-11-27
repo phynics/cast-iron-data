@@ -13,9 +13,8 @@ page = "69"
 [fields]
 kind = "class_option"
 group = "rogue-talent"
+ability_type = "Ex"
 +++
 
-**Firearm Training (Ex)**
-
-**Ability:** A rogue with this talent gains
-[Exotic Weapon Proficiency](ref/feat/exotic-weapon-proficiency) (firearms).
+A rogue with this talent gains [Exotic Weapon Proficiency](ref/feat/exotic-weapon-proficiency)
+(firearms).

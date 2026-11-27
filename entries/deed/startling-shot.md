@@ -13,12 +13,9 @@ page = "11"
 [fields]
 kind = "class_option"
 group = "gunslinger-deed"
+ability_type = "Ex"
 +++
 
-**Startling Shot (Ex)**
-
-**Standard:** A gunslinger with least 1 grit point can purposely miss a creature that she could
-normally hit with a firearm attack. When she does, that creature becomes
+At 7th level, a gunslinger with at least 1 grit point can spend a standard action to purposely miss
+a creature that she could normally hit with a firearm attack. When she does, that creature becomes
 [flat-footed](ref/rule/flat-footed) until the start of its next turn.
-
-**Prereq:** 7th-level gunslinger

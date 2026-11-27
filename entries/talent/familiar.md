@@ -13,13 +13,11 @@ page = "70"
 [fields]
 kind = "class_option"
 group = "rogue-talent"
+ability_type = "Ex"
 +++
 
-**Familiar (Ex)**
-
-**Ability:** A rogue with this talent gains a [familiar](ref/sidekick/familiar) as the
-[familiar](ref/ability/familiars) option of the wizard's _arcane bond_ class feature. This ability
+A rogue with this talent gains a [familiar](ref/sidekick/familiar) as the
+[familiar](ref/ability/familiars) option of the wizard's arcane bond class feature. This ability
 functions exactly like that part of the class feature, but the rogue's effective wizard level is her
-rogue level -4.
-
-**Prereq:** [Minor magic](ref/talent/minor-magic), [major magic](ref/talent/major-magic)
+rogue level -4. The rogue must have the [minor magic](ref/talent/minor-magic) and
+[major magic](ref/talent/major-magic) talents before she can choose this talent.

@@ -13,12 +13,10 @@ page = "55"
 [fields]
 kind = "class_option"
 group = "magus-arcana"
+ability_type = "Su"
 +++
 
-**Prescient Attack (Su)**
-
-**Immediate:** The magus can expend 1 point from his arcane pool after hitting a target with a
-weapon attack, allowing him to anticipate his opponent's defenses. The target is denied its
-Dexterity bonus against the magus's attacks until the end of the magus's next turn.
-
-**Prereq:** 6th-level magus
+The magus can expend 1 point from his arcane pool as an immediate action after hitting a target with
+a weapon attack, allowing him to anticipate his opponent's defenses. The target is denied its
+Dexterity bonus against the magus's attacks until the end of the magus's next turn. The magus must
+be at least 6th level before selecting this arcana.

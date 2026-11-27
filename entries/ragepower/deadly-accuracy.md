@@ -13,11 +13,11 @@ page = "26"
 [fields]
 kind = "class_option"
 group = "rage-power"
+ability_type = "Ex"
 +++
 
-**Deadly Accuracy (Ex)**
-
-**Ability:** If the barbarian scores a critical threat when using her _surprise accuracy_ rage
-power, she applies double the surprise accuracy bonus when rolling to confirm the critical.
-
-**Prereq:** 4th-level barbarian, [surprise accuracy](ref/ragepower/surprise-accuracy)
+If the barbarian scores a critical threat when using her
+[surprise accuracy](ref/ragepower/surprise-accuracy) rage power, she applies double the surprise
+accuracy bonus when rolling to confirm the critical. A barbarian must have the
+[surprise accuracy](ref/ragepower/surprise-accuracy) rage power and be at least 4th level before
+selecting this rage power.

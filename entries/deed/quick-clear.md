@@ -13,15 +13,11 @@ page = "10"
 [fields]
 kind = "class_option"
 group = "gunslinger-deed"
+ability_type = "Ex"
 +++
 
-**Quick Clear (Ex)**
-
-**Standard:** The gunslinger can remove the broken condition from a single firearm she is currently
-wielding, as long as that condition was gained by a firearm misfire. The gunslinger must have at
-least 1 grit point to perform this deed.
-
-**Prereq:** 1st-level gunslinger
-
-**Special:** Alternatively, if the gunslinger spends 1 grit point to perform this deed, she can
-perform quick clear as a **move-equivalent action** instead of a standard action.
+At 1st level, as a standard action, the gunslinger can remove the broken condition from a single
+firearm she is currently wielding, as long as that condition was gained by a firearm misfire. The
+gunslinger must have at least 1 grit point to perform this deed. Alternatively, if the gunslinger
+spends 1 grit point to perform this deed, she can perform quick clear as a move-equivalent action
+instead of a standard action.

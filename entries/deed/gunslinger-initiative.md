@@ -13,13 +13,10 @@ page = "10"
 [fields]
 kind = "class_option"
 group = "gunslinger-deed"
+ability_type = "Ex"
 +++
 
-**Gunslinger Initiative (Ex)**
-
-**Passive:** As long as the gunslinger has at least 1 grit point, she gains the following benefits.
+At 3rd level, as long as the gunslinger has at least 1 grit point, she gains the following benefits.
 First, she gains a +2 bonus on initiative checks. Furthermore, if she has the
 [Quick Draw](ref/feat/quick-draw) feat, her hands are free and unrestrained, and the firearm is not
 hidden, she can draw a single firearm as part of the initiative check.
-
-**Prereq:** 3rd-level gunslinger

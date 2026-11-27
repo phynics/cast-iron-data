@@ -13,13 +13,11 @@ page = "28"
 [fields]
 kind = "class_option"
 group = "rage-power"
+ability_type = "Ex"
 +++
 
-**Regenerative Vigor (Ex)**
-
-**Passive:** After using her _renewed vigor_ rage power until her current _rage_ ends, the barbarian
-gains [fast healing](ref/umr/fast-healing) equal to [one-sixth](ref/misc/fractions-and-rounding) of
-her barbarian level. She regains hit points from _[fast healing](ref/umr/fast-healing)_ at the start
-of each of her turns.
-
-**Prereq:** 6th-level barbarian, [renewed vigor](ref/ragepower/renewed-vigor)
+After using her [renewed vigor](ref/ragepower/renewed-vigor) rage power until her current rage ends,
+the barbarian gains [fast healing](ref/umr/fast-healing) 1 for every 6 barbarian levels she has
+(maximum [fast healing](ref/umr/fast-healing) 3). She regains hit points from fast healing at the
+start of each of her turns. A barbarian must have the [renewed vigor](ref/ragepower/renewed-vigor)
+rage power and be at least 6th level before selecting this rage power.

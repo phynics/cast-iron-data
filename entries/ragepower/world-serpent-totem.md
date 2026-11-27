@@ -13,10 +13,8 @@ page = "28"
 [fields]
 kind = "class_option"
 group = "rage-power"
+ability_type = "Su"
 +++
 
-**World Serpent Totem (Su)**
-
-**Passive:** While _raging,_ the barbarian gains a +1 insight bonus to AC against outsiders and
-aberrations. This bonus increases by +1 for each world serpent rage power the barbarian possesses,
-excluding this one.
+While raging, the barbarian gains a +1 insight bonus to AC against outsiders and aberrations. This
+bonus increases by +1 for each world serpent rage power the barbarian possesses, excluding this one.

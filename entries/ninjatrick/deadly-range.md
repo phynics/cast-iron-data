@@ -13,11 +13,8 @@ page = "15"
 [fields]
 kind = "class_option"
 group = "ninja-trick"
+ability_type = "Ex"
 +++
 
-**Deadly Range (Ex)**
-
-**Ability:** A ninja with this ninja trick increases the range at which she can deal sneak attack
-damage by 10 feet.
-
-**Special:** A ninja can take this trick more than once. Its effects stack.
+A ninja with this ninja trick increases the range at which she can deal sneak attack damage by 10
+feet. A ninja can take this trick more than once. Its effects stack.

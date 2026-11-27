@@ -13,17 +13,15 @@ page = "27"
 [fields]
 kind = "class_option"
 group = "rage-power"
+ability_type = "Su"
 +++
 
-**Eater of Magic (Su)**
-
-**Ability:** Once per _rage,_ when a barbarian fails a saving throw against a spell, supernatural
-ability, or [spell-like ability](ref/umr/spell-like-abilities), she can reroll the saving throw
-against the effect (this is not an action). If she succeeds at the second saving throw, she is not
-affected by the spell, supernatural ability, or spell-like ability and gains a number of
+Once per rage, when a barbarian fails a saving throw against a spell, supernatural ability, or
+[spell-like ability](ref/umr/spell-like-abilities), she can reroll the saving throw against the
+effect (this is not an action). If she succeeds at the second saving throw, she is not affected by
+the spell, supernatural ability, or spell-like ability and gains a number of
 [temporary hit points](ref/rule/temporary-hit-points) equal to the effect's caster level (in the
 case of spell or spell-like abilities) or the CR of the effect's creator (in the case of
 supernatural abilities). These temporary hit points last until damage is applied to them or 1
-minute, whichever occurs first.
-
-**Prereq:** 10th-level barbarian, [superstition](ref/ragepower/superstition)
+minute, whichever occurs first. A barbarian must have the [superstition](ref/ragepower/superstition)
+rage power and be at least 10th level before selecting this rage power.

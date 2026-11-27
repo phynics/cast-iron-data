@@ -13,13 +13,13 @@ page = "28"
 [fields]
 kind = "class_option"
 group = "rage-power"
+ability_type = "Su"
 +++
 
-**World Serpent Totem Unity (Su)**
-
-**Passive:** While _raging,_ the barbarian doubles her _fast movement_ bonus to land speed and
-cannot be knocked [prone](ref/rule/prone). She also doubles her world serpent totem insight bonus to
-AC against attack rolls made by an outsider or aberration to confirm a critical hit against her.
-
-**Prereq:** 10th-level barbarian, [world serpent totem](ref/ragepower/world-serpent-totem),
-[world serpent spirit](ref/ragepower/world-serpent-spirit)
+While raging, the barbarian doubles her fast movement bonus to land speed and cannot be knocked
+[prone](ref/rule/prone). She also doubles her
+[world serpent totem](ref/ragepower/world-serpent-totem) insight bonus to AC against attack rolls
+made by an outsider or aberration to confirm a critical hit against her. A barbarian must have the
+[world serpent totem](ref/ragepower/world-serpent-totem) and
+[world serpent totem spirit](ref/ragepower/world-serpent-spirit) rage powers and be at least 10th
+level before selecting this rage power.
