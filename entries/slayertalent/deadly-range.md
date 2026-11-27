@@ -13,13 +13,9 @@ page = "53"
 [fields]
 kind = "class_option"
 group = "slayer-talent"
+ability_type = "Ex"
 +++
 
-**Deadly Range (Ex)**
-
-**Passive:** A slayer with this talent increases the range at which he can deal sneak attack damage
-by 10 feet.
-
-**Prereq:** 4th-level slayer
-
-**Special:** A slayer can select this talent more than once; its effects stack.
+A slayer with this talent increases the range at which he can deal sneak attack damage by 10 feet. A
+slayer can select this talent more than once; its effects stack. A slayer must be at least 4th level
+before selecting this talent.

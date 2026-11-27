@@ -13,11 +13,9 @@ page = "80"
 [fields]
 kind = "class_option"
 group = "rage-power"
+ability_type = "Su"
 +++
 
-**Lesser Undead Blood (Su)**
-
-**Ability:** While _raging,_ when the barbarian hits a creature with a [charge](ref/rule/charge)
-attack, the creature she hit becomes [shaken](ref/misc/shaken) for a number of rounds equal to 1/2
-her barbarian level (minimum 1). This effect does not stack with other fear effects to cause a
-stronger condition.
+While raging, when the barbarian hits a creature with a [charge](ref/rule/charge) attack, the
+creature she hit becomes [shaken](ref/misc/shaken) for a number of rounds equal to 1/2 her barbarian
+level (minimum 1). This effect does not stack with other fear effects to cause a stronger condition.

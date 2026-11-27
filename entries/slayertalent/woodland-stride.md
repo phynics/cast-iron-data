@@ -13,11 +13,10 @@ page = "55"
 [fields]
 kind = "class_option"
 group = "slayer-talent"
+ability_type = "Ex"
 +++
 
-**Woodland Stride (Ex)**
-
-**Ability:** A slayer with this talent may move through any sort of undergrowth (such as natural
-thorns, briars, overgrown areas, and similar terrain) at his normal speed and without taking damage
-or suffering any other impairment. Terrain that is enchanted or magically manipulated to impede
-motion still affects the slayer as normal.
+A slayer with this talent may move through any sort of undergrowth (such as natural thorns, briars,
+overgrown areas, and similar terrain) at his normal speed and without taking damage or suffering any
+other impairment. Terrain that is enchanted or magically manipulated to impede motion still affects
+the slayer as normal.

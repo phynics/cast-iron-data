@@ -13,10 +13,10 @@ page = "80"
 [fields]
 kind = "class_option"
 group = "rage-power"
+ability_type = "Su"
 +++
 
-**Greater Infernal Blood (Su)**
+A greater blood rage power can only be taken by a 10th level or higher barbarian that already has
+the middle blood rage power.
 
-**Passive:** While _raging,_ the barbarian gains a +4 bonus against enchantment and fear effects.
-
-**Prereq:** 10th-level barbarian, [infernal blood](ref/ragepower/infernal-blood)
+While raging, the barbarian gains a +4 bonus against enchantment and fear effects.

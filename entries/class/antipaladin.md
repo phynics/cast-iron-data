@@ -107,6 +107,10 @@ those that they do not subjugate, unless as part of a ruse to bring ruin from wi
 |19th|+19/+14/+9/+4|+11|+6|+11|Smite good 7/day|4|3|3|2|
 |20th|+20/+15/+10/+5|+12|+6|+12|Unholy champion|4|4|3|3|
 
+### Class Features {#class-features}
+
+All of the following are class features of the antipaladin.
+
 #### Weapon and Armor Proficiency {#weapon-and-armor-proficiencies}
 
 Antipaladins are proficient with all simple and martial weapons, with all types of armor (heavy,

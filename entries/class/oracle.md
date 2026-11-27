@@ -110,6 +110,10 @@ described below.
 |19th|9|5|5|4|4|4|3|3|3|2|
 |20th|9|5|5|4|4|4|3|3|3|3|
 
+### Class Features {#class-features}
+
+The following are the class features of the oracle.
+
 #### Weapon and Armor Proficiency {#weapon-and-armor-proficiencies}
 
 Oracles are proficient with all simple weapons, light armor, medium armor, and shields (except tower

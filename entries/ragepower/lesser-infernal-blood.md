@@ -13,12 +13,9 @@ page = "80"
 [fields]
 kind = "class_option"
 group = "rage-power"
+ability_type = "Su"
 +++
 
-**Lesser Infernal Blood (Su)**
-
-**Swift:** While _raging,_ the barbarian can infuse her attacks with hellfire for 1 round. During
-this time, all of her melee attacks gain the [flaming](ref/magic-enh/flaming) magic weapon special
-ability.
-
-**Usage:** 3 times/day
+While raging, up to three times a day as a swift action, the barbarian can infuse her attacks with
+hellfire for 1 round. During this time, all of her melee attacks gain the
+_[flaming](ref/magic-enh/flaming)_ magic weapon special ability.

@@ -13,17 +13,13 @@ page = "36"
 [fields]
 kind = "class_option"
 group = "shaman-hex"
+ability_type = "Su"
 +++
 
-**Charm (Su)**
-
-**Ability:** A shaman charms an animal or humanoid creature within 30 feet by beckoning and speaking
-soothing words. This improves the attitude of an animal or humanoid creature by 1 step, as if the
-shaman had successfully used the [Diplomacy](ref/skill/diplomacy) skill. The effect lasts for a
-number of rounds equal to the shaman's Wisdom modifier (minimum 1). A successful Will saving throw
-negates this effect.
-
-**At 8th level,** this effect improves the attitude of the creature by 2 steps.
-
-**Special:** Whether or not the save is successful, the creature cannot be the target of this hex
-again for 24 hours.This is a mind-affecting charm effect.
+A shaman charms an animal or humanoid creature within 30 feet by beckoning and speaking soothing
+words. This improves the attitude of an animal or humanoid creature by 1 step, as if the shaman had
+successfully used the [Diplomacy](ref/skill/diplomacy) skill. The effect lasts for a number of
+rounds equal to the shaman's Wisdom modifier (minimum 1). A successful Will saving throw negates
+this effect. Whether or not the save is successful, the creature cannot be the target of this hex
+again for 24 hours. At 8th level, this effect improves the attitude of the creature by 2 steps. This
+is a mind-affecting charm effect.

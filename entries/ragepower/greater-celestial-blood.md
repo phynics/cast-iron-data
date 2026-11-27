@@ -13,12 +13,12 @@ page = "80"
 [fields]
 kind = "class_option"
 group = "rage-power"
+ability_type = "Su"
 +++
 
-**Greater Celestial Blood (Su)**
+A greater blood rage power can only be taken by a 10th level or higher barbarian that already has
+the middle blood rage power.
 
-**Ability:** Once per _rage,_ the barbarian can reroll one ability check, skill check, or saving
-throw she just made. She must take the second result, even if it's lower. She must decide to use
-this ability after the die is rolled but before results are revealed.
-
-**Prereq:** 10th-level barbarian, [celestial blood](ref/ragepower/celestial-blood)
+Once per rage, the barbarian can reroll one ability check, skill check, or saving throw she just
+made. She must take the second result, even if it's lower. She must decide to use this ability after
+the die is rolled but before results are revealed.

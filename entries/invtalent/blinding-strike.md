@@ -13,18 +13,18 @@ page = "32"
 [fields]
 kind = "class_option"
 group = "investigator-talent"
+ability_type = "Ex"
 +++
 
-**Blinding Strike (Ex)**
+Investigator talents marked with an asterisk (\*) add effects to an investigator’s studied combat or
+studied strike. Only one of these talents can be applied to an individual attack, but the decision
+can be made when the damage is dealt.
 
-**Ability:** When the investigator deals damage with _studied strike,_ the opponent must succeed at
-a Fortitude saving throw or be permanently [blinded](ref/misc/blinded). A successful saving throw
-reduces this to [dazzled](ref/misc/dazzled) for 1d4 rounds. The DC for this Fortitude save is equal
-to 10 + 1/2 the investigator's level + his Intelligence modifier.
-
-**Prereq:** 17th-level investigator
-
-**Special:** This talent has no effect on creatures that do not rely on eyes for sight or creatures
-with more than two eyes (although multiple critical hits might cause blindness, at the GM's
-discretion). Blindness can be cured by [heal](ref/spell/heal), [regeneration](ref/umr/regeneration),
-[remove blindness](ref/spell/remove-blindness-deafness), or similar abilities.
+When the investigator deals damage with studied strike, the opponent must succeed at a Fortitude
+saving throw or be permanently [blinded](ref/misc/blinded). A successful saving throw reduces this
+to [dazzled](ref/misc/dazzled) for 1d4 rounds. The DC for this Fortitude save is equal to 10 + 1/2
+the investigator's level + his Intelligence modifier. This talent has no effect on creatures that do
+not rely on eyes for sight or creatures with more than two eyes (although multiple critical hits
+might cause blindness, at the GM's discretion). Blindness can be cured by _[heal](ref/spell/heal)_,
+_[regeneration](ref/umr/regeneration)_, _[remove blindness](ref/spell/remove-blindness-deafness)_,
+__ or similar abilities. An investigator must be at least 17th level to select this talent.

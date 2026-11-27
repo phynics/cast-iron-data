@@ -8,16 +8,17 @@ provenance = [
 ]
 [[sources]]
 publication = "advanced-class-guide"
-page = "33"
+page = "32-33"
 
 [fields]
 kind = "class_option"
 group = "investigator-talent"
+ability_type = "Ex"
 +++
 
-**Sickening Offensive (Ex)**
+Investigator talents marked with an asterisk (\*) add effects to an investigator’s studied combat or
+studied strike. Only one of these talents can be applied to an individual attack, but the decision
+can be made when the damage is dealt.
 
-**Ability:** When the investigator damages a studied target, that creature is also
-[sickened](ref/misc/sickened) for 1 round.
-
-**Prereq:** 7th-level investigator
+When the investigator damages a studied target, that creature is also [sickened](ref/misc/sickened)
+for 1 round. An investigator must be at least 7th level to select this talent.

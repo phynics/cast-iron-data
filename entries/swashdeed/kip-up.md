@@ -13,13 +13,9 @@ page = "57"
 [fields]
 kind = "class_option"
 group = "swashbuckler-deed"
+ability_type = "Ex"
 +++
 
-**Kip-Up (Ex)**
-
-**Move:** While the swashbuckler has at least 1 panache point, she can kip-up from
-[prone](ref/rule/prone) without provoking an attack of opportunity.
-
-**Prereq:** 3rd-level swashbuckler
-
-**Special:** She can kip-up as a **swift action** instead by spending 1 panache point.
+At 3rd level, while the swashbuckler has at least 1 panache point, she can kip-up from
+[prone](ref/rule/prone) as a move action without provoking an attack of opportunity. She can kip-up
+as a swift action instead by spending 1 panache point.

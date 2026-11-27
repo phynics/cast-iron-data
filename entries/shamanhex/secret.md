@@ -13,9 +13,8 @@ page = "37"
 [fields]
 kind = "class_option"
 group = "shaman-hex"
+ability_type = "Ex"
 +++
 
-**Secret (Ex)**
-
-**Ability:** The shaman receives one metamagic feat as a bonus feat. The shaman must meet the
-prerequisites for the feat.
+The shaman receives one metamagic feat as a bonus feat. The shaman must meet the prerequisites for
+the feat.

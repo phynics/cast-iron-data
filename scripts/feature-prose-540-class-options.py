@@ -57,6 +57,7 @@ import hashlib
 import importlib.util
 import re
 import sys
+import tempfile
 import tomllib
 import unicodedata
 from collections import Counter
@@ -313,6 +314,9 @@ def ability_tag_for_option(book: str, imported_head: str, printed_head: str) -> 
 
 INTRO_MARK_SPECS = {
     "ultimate-magic": {"discovery": ("Discoveries that modify bombs and are marked with a single asterisk", "stack")},
+    "advanced-class-guide": {
+        "invtalent": ("Investigator talents marked with an asterisk", "damage is dealt"),
+    },
     "ultimate-combat": {
         "discovery": ("Discoveries that modify bombs and are marked with a single asterisk", "stack"),
         "talent": ("Talents marked with an asterisk", "sneak attack"),
@@ -324,16 +328,21 @@ INTRO_MARK_SPECS = {
 }
 INTRO_MARK_TEXT: dict[tuple[str, str], tuple[str, int]] = {}
 MARKED_HEAD_ENTRIES: set[str] = set()
+INTRO_MARK = {"by": {}}
+BLOOD_PREREQUISITE_INTROS = {
+    "middle": "The middle blood rage power (that without “lesser” or “greater” in the title) can only be taken by a 6th level or higher barbarian that already has the lesser blood rage power of its group.",
+    "greater": "A greater blood rage power can only be taken by a 10th level or higher barbarian that already has the middle blood rage power.",
+}
 
 
 def marked_head_intro(book: str, entry_id: str) -> str:
     """The printed intro sentence for a marked head, read from its book during --compare."""
-    text, _ = INTRO_MARK_TEXT.get((book, entry_id.split("/")[1]), ("", 0))
+    text, _ = INTRO_MARK_TEXT.get((book, entry_id.split("/")[1]), INTRO_MARK.get("by", {}).get(entry_id.split("/")[1], ("", 0)))
     return text.replace("(*)", r"(\*)")
 
 
 def marked_head_page(book: str, entry_id: str) -> int:
-    return INTRO_MARK_TEXT.get((book, entry_id.split("/")[1]), ("", 0))[1]
+    return INTRO_MARK_TEXT.get((book, entry_id.split("/")[1]), INTRO_MARK.get("by", {}).get(entry_id.split("/")[1], ("", 0)))[1]
 
 
 def prepend_intro(body: str, intro: str) -> str:
@@ -470,6 +479,111 @@ def repair_intrigue_italic_link_boundary(text: str) -> str:
     """Repair the two empty emphasis artifacts left at linked italic commas in this book."""
     text = re.sub(r"(\]\([^)]*\))_, __ (a caster level check)", r"\1,_ \2", text)
     return re.sub(r"(\]\([^)]*\))_, __ (and he can say it)", r"\1_, \2", text)
+CROSS_GROUP = re.compile(r"\[([^\]]*)\]\((ref/[^)]+)\)")
+CORPUS_ROOT: Path | None = None          # the tree the entry files are read from (the target group of a printed item, ruling 52)
+GROUP_OF_TARGET: dict[str, tuple[str, str] | None] = {}
+
+
+def target_kind_group(target: str) -> tuple[str, str] | None:
+    """The kind and group in the front matter of the entry a link points at, or None when the tree has no such entry."""
+    if target in GROUP_OF_TARGET:
+        return GROUP_OF_TARGET[target]
+    out = None
+    if CORPUS_ROOT is not None:
+        path = Path(CORPUS_ROOT) / "entries" / (target[4:] + ".md")
+        if path.exists():
+            head = path.read_text(encoding="utf-8").split("\n+++\n", 1)[0]
+            kind = re.search(r'^kind = "([^"]*)"', head, re.M)
+            group = re.search(r'^group = "([^"]*)"', head, re.M)
+            out = (kind.group(1) if kind else "", group.group(1) if group else "")
+    GROUP_OF_TARGET[target] = out
+    return out
+
+
+OPTION_NOUNS = {
+    "deed": "deed", "deeds": "deed", "hex": "hex", "hexes": "hex", "talent": "talent", "talents": "talent",
+    "arcana": "arcana", "exploit": "exploit", "exploits": "exploit", "discovery": "discovery", "discoveries": "discovery",
+    "power": "power", "powers": "power", "mystery": "mystery", "mysteries": "mystery", "bloodline": "bloodline",
+    "bloodlines": "bloodline", "order": "order", "orders": "order", "spirit": "spirit", "spirits": "spirit",
+    "judgment": "judgment", "judgments": "judgment", "evolution": "evolution", "evolutions": "evolution",
+    "domain": "domain", "domains": "domain", "blessing": "blessing", "blessings": "blessing",
+    "inquisition": "inquisition", "inquisitions": "inquisition", "revelation": "revelation", "revelations": "revelation",
+    "curse": "curse", "curses": "curse", "patron": "patron", "patrons": "patron", "school": "school", "schools": "school",
+    "focus": "focus", "foci": "focus", "discipline": "discipline", "disciplines": "discipline",
+    "implement": "implement", "implements": "implement", "aspect": "aspect", "aspects": "aspect",
+}
+
+
+LINK_OR_WORD = re.compile(r"\[[^\]]*\]\([^)]*\)|\band\b|\bor\b|[A-Za-z][A-Za-z'-]*|[,;]")
+
+
+def link_kind_mismatches(text: str) -> list[tuple[str, str, str, str]]:
+    """Ruling 52, as narrowed by the review of #373: a printed reference may name another class's option on purpose (the two
+    swashbuckler deeds that Flamboyant Arcana grants, the investigator talents the cognatogens name, the witch's cackle), so a link
+    is checked only for a disagreement with print's own words. Print's noun for the name is the option noun that follows it, across
+    a printed list ("the amazing inspiration, eidetic recollection, and expanded inspiration investigator talents") and at most one
+    class word ("investigator talents"); any other word between the name and a noun means print attaches no such noun, and the link
+    stays. A class print names must be the target's class. The names that agree with print stay linked."""
+    bad: list[tuple[str, str, str, str]] = []
+    classes = {c.casefold() for c in fp.CLASS_NAMES}
+    for m in CROSS_GROUP.finditer(text):
+        name, target = m.group(1), m.group(2)
+        pair = target_kind_group(target)
+        if not pair:
+            continue
+        a = text.rfind(". ", 0, m.start())
+        b = text.find(". ", m.end())
+        sent = text[a + 2 if a >= 0 else 0: b + 1 if b >= 0 else len(text)]
+        link = f"]({target})"
+        at = sent.find(link)
+        after = sent[at + len(link):] if at >= 0 else ""
+        noun = None
+        seen_class = False
+        for t in LINK_OR_WORD.finditer(after):
+            word = t.group(0)
+            if word.startswith("["):
+                continue                                     # another name of the same printed list
+            if word in (",", ";") or word.casefold() in ("and", "or"):
+                continue
+            low = word.casefold()
+            if low in OPTION_NOUNS:
+                noun = OPTION_NOUNS[low]
+                break
+            if low in classes and not seen_class:
+                seen_class = True
+                continue
+            break                                            # print says something else here: no noun of this kind
+        if noun and (pair[0] != "class_option" or not pair[1] or noun != pair[1].rsplit("-", 1)[-1]):
+            bad.append((name, target, pair[1] or pair[0], noun))
+            continue
+        if pair[0] == "class_option" and pair[1]:
+            # A class name elsewhere in the sentence does not govern this link. Use its local clause.
+            left = max(sent.rfind(";", 0, at), sent.rfind(":", 0, at), sent.rfind(", but", 0, at), sent.rfind(", while", 0, at))
+            right_candidates = [x for x in (sent.find(";", at), sent.find(":", at), sent.find(", but", at), sent.find(", while", at)) if x >= 0]
+            clause = sent[left + 1:min(right_candidates) if right_candidates else len(sent)]
+            prefix = pair[1].split("-")[0]
+            mentioned = {w for w in classes if re.search(r"\b" + re.escape(w) + r"\b", clause, re.I)}
+            if prefix in classes and mentioned and prefix not in mentioned:
+                bad.append((name, target, pair[1], "class " + prefix))
+    return bad
+
+
+HARD_HOLD_NOTE_PREFIXES = (
+    "anchor collision:",
+    "the power's name differs from the title of the entry",
+    "print text may be cut at a page or column break:",
+    "print sentences that the written text lacks (",
+    "the second-source window has no end title:",
+    "ruling 52:",
+    "no group heading found above the head",
+    "the group heading is on p.",
+)
+
+
+def print_decision_may_settle(notes_tag: list[str], problems: list[str], row: dict) -> bool:
+    """A reviewed print decision may settle a tag disagreement only when the row has no independent hard hold."""
+    hard = any(note.startswith(HARD_HOLD_NOTE_PREFIXES) for note in row.get("notes", []))
+    return bool(notes_tag) and not problems and not hard
 
 
 STOP_TITLES: set[str] = set()          # squash of the title of every class option: another one ends a section
@@ -484,7 +598,7 @@ SUFFIXES = ("", "bloodline", "mystery", "school")
 def group_kind(e) -> str:
     """The kind word of the entry's group ("arcane-school" is a school, "druid-domain" a domain): a printed title may carry it in a
     parenthesis after the entry's name ("METAL (ELEMENTAL SCHOOL)")."""
-    group = str(((e.data.get("fields") or {}).get("group") or ""))
+    group = str((((getattr(e, "data", {}) or {}).get("fields") or {}).get("group") or ""))
     return group.split("-")[-1] if group else ""
 
 
@@ -525,36 +639,38 @@ def anchor_section(blocks: list, title: str, own: frozenset | set = frozenset(),
     return blocks[at + 1:], False
 
 
-HEADING_FAMILIES = {"evolution"}     # ruling 61: an evolution opens with the printed sentence of its group heading ("2-Point Evolutions: The following ...")
-
+HEADING_FAMILIES = {"evolution"}  # ruling 61
+INTRO_MARKS_BOOKS = ("ultimate-magic", "advanced-class-guide")
+FAMILY_WORDS = (("investigator", "invtalent"), ("slayer", "slayertalent"), ("rage power", "ragepower"), ("bloodrage", "ragepower"), ("discover", "discovery"), ("hex", "shamanhex"), ("deed", "swashdeed"), ("arcana", "arcana"), ("evolution", "evolution"))
 class IntroMarkMap:
-    """The sentence of a section intro that explains the mark on a head, and the printed page it stands on."""
+    """Resolve marked-head intro sentences from print, by family or explicit rule."""
 
-    def __init__(self, bk, marker: str, prefer: str):
-        self.text = ""
-        self.page = 0
-        # a book may say twice that a head is marked ("Discoveries marked with a single asterisk (*) first appear in this book." over the
-        # chapter, and the rule "Discoveries that modify bombs and are marked with a single asterisk (*) do not stack." over the list): the
-        # sentence that states the rule is the one that a marked entry opens with, and the chapter's one is the fallback
+    def __init__(self, bk, marker=None, prefer=None):
+        self.by_family = {}
+        self.text, self.page = "", 0
         best = None
-        for b in fp.read_blocks(bk, 1, max(bk.pages)):
-            if b.kind != "para":
+        marker_re = re.compile(r"(?<!\w)" + re.escape(marker) + r"(?!\w)", re.I) if marker else None
+        for block in fp.read_blocks(bk, 1, max(bk.pages)):
+            if block.kind != "para":
                 continue
-            t = " ".join(b.plain().split())
-            marker_re = re.compile(r"(?<!\w)" + re.escape(marker) + r"(?!\w)", re.I)
-            if not marker_re.search(t):
-                continue
-            sents = re.split(r"(?<=[.!?])\s+", t)
-            at = next(i for i, x in enumerate(sents) if marker_re.search(x))
-            text = " ".join(sents[at:]).strip()
-            if best is None:
-                best = (text, b.page)
-            if prefer in text.lower():
-                best = (text, b.page)
-                break
+            text = " ".join(block.plain().split())
+            sentences = re.split(r"(?<=[.!?])\s+", text)
+            if "asterisk" in text.casefold():
+                for i, sentence in enumerate(sentences):
+                    if "marked with" in sentence.casefold() and "asterisk" in sentence.casefold():
+                        family = next((fam for word, fam in FAMILY_WORDS if word in text.casefold()), None)
+                        if family and family not in self.by_family:
+                            self.by_family[family] = (" ".join(sentences[i:]).strip(), block.page)
+                        break
+            if marker_re and marker_re.search(text):
+                at = next(i for i, sentence in enumerate(sentences) if marker_re.search(sentence))
+                candidate = (" ".join(sentences[at:]).strip(), block.page)
+                if best is None or (prefer and prefer.casefold() in candidate[0].casefold()):
+                    best = candidate
+                if prefer and prefer.casefold() in candidate[0].casefold():
+                    break
         if best:
             self.text, self.page = best
-
 
 class GroupMap:
     """Ruling 61, per book: every group heading of the book with its intro sentence ("2-Point Evolutions: The following evolutions cost 2
@@ -756,11 +872,70 @@ def adopt_tables(printed: str, body: str) -> tuple[str, int]:
     return "\n\n".join(pars), n
 
 
+PAGE_SEARCH: dict = {"blocks": None}
+FAMILY_OF_TITLE: dict[str, str] = {}      # a printed head name -> the family of the class option it titles (for a page search)
+
+
+def printed_page(e, bk) -> int | None:
+    """The printed page of an entry that cites none: the page of the one paragraph of the book that is the entry's head ("Acid Jet (Su):"),
+    or None when the head is printed more than once or not at all."""
+    if PAGE_SEARCH["blocks"] is None:
+        PAGE_SEARCH["blocks"] = fp.read_blocks(bk, 1, max(bk.pages))
+    want = fp.namekey(e.title)
+    kind = group_kind(e)
+    blocks = PAGE_SEARCH["blocks"]
+    hits = []
+    for i, p in enumerate(blocks):
+        if p.kind != "para":
+            continue
+        cand = fp.head_candidate(p)                  # a bold head, and an italic one ("Acid Jet (Su):", the arcanist exploits)
+        if not cand or not cand[1] or not cand[1][0][0].lstrip().startswith(":"):
+            continue
+        if fp.namekey(cand[0]) == want:
+            hits.append(i)
+    if len(hits) == 1:
+        return blocks[hits[0]].page
+    if not hits:
+        return None
+    # two lists print the same head ("Familiar", "Quick Study" are an arcanist exploit and a magus arcana or an investigator talent): the
+    # section title above the head names the list, and the entry's own kind decides
+    family = e.id.split("/")[1]
+    for i in hits:
+        # the head beside it names the list it stands in: the next head of the book (or the one before) is another option of the same family
+        near = [j for j in range(i + 1, min(i + 8, len(blocks))) if blocks[j].kind == "para" and fp.head_candidate(blocks[j])]
+        near = near or [j for j in range(i - 1, max(i - 8, -1), -1) if blocks[j].kind == "para" and fp.head_candidate(blocks[j])]
+        for j in near[:1]:
+            h = fp.head_candidate(blocks[j])
+            if h and FAMILY_OF_TITLE.get(fp.namekey(h[0])) == family:
+                return blocks[i].page
+    return None
+
+
+def full_printed_head(bk, title: str, page: int) -> str:
+    """Return the full headed paragraph from the printed block, even when split_print clipped a cross-column continuation."""
+    lo = max(1, page + fp.PAGE_OFFSET[0] - 1)
+    hi = min(page + 2 + fp.PAGE_OFFSET[0], max(bk.pages))
+    for block in fp.read_blocks(bk, lo, hi):
+        if block.kind != "para":
+            continue
+        head = fp.head_candidate(block)
+        if not head:
+            continue
+        printed_name = fp.namekey(head[0])
+        if printed_name not in {fp.namekey(title), fp.namekey(inverted(title))} and fp.namekey(inverted(head[0])) != fp.namekey(title):
+            continue
+        return clean_full_printed_head("".join(run[0] for run in head[1]).strip().lstrip(": ").replace("Ref lex", "Reflex"))
+    return ""
+
+
+def clean_full_printed_head(text: str) -> str:
+    """Apply the ordinary whitespace and apostrophe cleanup to a raw full-head fallback."""
+    return re.sub(r"\s+", " ", text).strip().replace("’", "'").replace("‘", "'")
 SENTENCE_END = re.compile(r"(?<=[.!?])[\"\u201d\u2019)]*\s+(?=[A-Z\u201c\"(+\u2013\d])")
 CELL = re.compile(r"^(?:[+\-\u2013\u2014]?\d+(?:/[+\-\u2013\u2014]?\d+)*(?:st|nd|rd|th)?|[\u2014\u2013-])[,.]?$")
 
 
-NEGATIONS = re.compile(r"\b(?:not|no|never|cannot)\b|n[\'\u2019]t", re.I)
+NEGATIONS = re.compile(r"\b(?:not|no|never|cannot|neither|nor)\b|n[\'\u2018\u2019]t", re.I)
 SEE_REF = re.compile(r"\s*\([Ss]ee\s+([^()\d]{1,60})\)")
 
 
@@ -817,10 +992,25 @@ def sentence_words(text: str) -> list[str]:
     return re.findall(r"[a-z0-9']+", unicodedata.normalize("NFKD", text).lower().replace("\u2019", "'"))
 
 
+def one_misprint(a: str, b: str) -> bool:
+    """Whether two words are one misprint apart: the same first letter and one letter replaced, left out, added, or two neighbours swapped ("anitpaladin",
+    "elixer"). A change at the start of a word ("increase"/"decrease", "unable"/"enable", "either"/"neither") and two letters changed inside it ("minimum"/"maximum")
+    make another word, not a misprint (review of #380, 2026-11-27)."""
+    if a == b or a[:1] != b[:1]:
+        return False
+    if len(a) == len(b):
+        diff = [i for i in range(len(a)) if a[i] != b[i]]
+        return len(diff) == 1 or (len(diff) == 2 and diff[1] == diff[0] + 1 and a[diff[0]] == b[diff[1]] and a[diff[1]] == b[diff[0]])
+    if abs(len(a) - len(b)) != 1:
+        return False
+    short, long_ = (a, b) if len(a) < len(b) else (b, a)
+    return any(long_[:i] + long_[i + 1:] == short for i in range(len(long_)))
+
+
 def near_exact(sentence: str, written: list[str]) -> bool:
     """Whether a printed sentence is one of the written sentences up to a misprint: the same words, the same numbers (as tokens), the same number of negations
-    (not, no, never, cannot, n't), and one word that differs by at most two letters, **in a word of six letters or more** (a misprint of print that the corpus
-    corrected, a ligature). A change of word identity (his/her, may/can, able/unable, valid/invalid) is a loss."""
+    (not, no, never, cannot, neither, nor, n't), and one word that is one misprint apart (`one_misprint`), **in a word of six letters or more** (a misprint of
+    print that the corpus corrected, a ligature). A change of word identity (his/her, may/can, able/unable, valid/invalid, increase/decrease, minimum/maximum) is a loss."""
     ws = sentence_words(sentence)
     nums, negs = number_tokens(sentence), len(NEGATIONS.findall(sentence))
     for w in written:
@@ -828,7 +1018,7 @@ def near_exact(sentence: str, written: list[str]) -> bool:
         if len(ww) != len(ws):
             continue
         diff = [(a, b) for a, b in zip(ws, ww) if a != b]
-        if (len(diff) == 1 and len(diff[0][0]) >= 6 and len(diff[0][1]) >= 6 and letter_edits(*diff[0]) <= 2
+        if (len(diff) == 1 and len(diff[0][0]) >= 6 and len(diff[0][1]) >= 6 and one_misprint(*diff[0])
                 and number_tokens(w) == nums and len(NEGATIONS.findall(w)) == negs):
             return True
     return False
@@ -936,9 +1126,16 @@ def compare_one(e, book, bk, other=None) -> list[dict]:
     for f in feats:
         by_name.setdefault(re.sub(r":$", "", f.name), []).append(f)
     if not e.page.isdigit():
-        return [dict(base, feature=n_, anchor=fp.anchor_of(n_), verdict="nopage", status="hold", level_import="", level="",
-                     note="no page is cited", span_sha256=sha) for n_, sha in powers]
-    page = int(e.page)
+        # This batch’s missing-page recovery is scoped to the Advanced Class Guide.
+        found = printed_page(e, bk) if book == "advanced-class-guide" else None
+        if found is None:
+            return [dict(base, feature=n_, anchor=fp.anchor_of(n_), verdict="nopage", status="hold", level_import="", level="",
+                         note="no page is cited, and the head is not printed once in the book", span_sha256=sha) for n_, sha in powers]
+        page = found
+        page_found = True
+    else:
+        page = int(e.page)
+        page_found = False
     last = page + (3 if shape == "multi" else 2)         # a power at the end of a page or column goes on over the next page
     blocks = fp.read_blocks(bk, max(1, page + fp.PAGE_OFFSET[0] - 1), min(last + fp.PAGE_OFFSET[0], max(bk.pages)))
     unanchored = False
@@ -953,6 +1150,9 @@ def compare_one(e, book, bk, other=None) -> list[dict]:
     TABLE_HEADS.update(fp.squash(" ".join(c.strip() for c in tab[0].strip().strip("|").split("|"))) for tab in corpus_tables(e0.body))
     res = fp.compare_entry(e, section, bk)
     by_span = {r["span"]: r for r in res["rows"] if r["span"]}
+    if page_found:
+        for r_ in res["rows"]:
+            r_["notes"] = list(r_.get("notes") or []) + [f"no page is cited; the head is printed on p. {page}"]
     where = {}                                       # span -> "Publication p. N" of a power that another source of the entry prints
     noend: set[str] = set()                          # spans found in a second-source window that has no end title: they hold
     variants: list[tuple[str, str, tuple]] = []      # (book, page, (title, text, replaced rows)) of a variant section (ruling 65)
@@ -1009,14 +1209,37 @@ def compare_one(e, book, bk, other=None) -> list[dict]:
         notes_tag = [f"print's tag differs from the import's: {r.get('head', '')!r} against {name!r}"] if disagree else []
         common = dict(base, feature=name, section=section, book=src[0] if src else book, by="", ability_tag=tag,
                       reviewed_537="yes" if (e.id, sha) in REVIEWED else "", links_lost="", span_sha256=sha)
-        if r is None:
+        if book == "advanced-class-guide" and (r is None or ("head not printed" in r.get("notes", []) and not r.get("print"))):
             rows.append(dict(common, anchor=fp.anchor_of(name), verdict="missing-head", status="hold", level_import="",
                              level="", note="head not printed on the cited page and the next ones", print="", print_sha256=""))
             continue
         verdict = {"draft": "agree", "print": "differ", "hold": "hold"}[r["status"]]
         note_r = f"resolution of #537: {REVIEWED[(e.id, sha)]}" if (e.id, sha) in REVIEWED else ""
         notes = [n_ for n_ in r["notes"] if n_] + ([note_r] if note_r else []) + notes_tag
-        status, printed = r["status"], r["print"]
+        if page_found:
+            common["page"] = str(page)
+        status, printed = r["status"], clean_acg_print(e.id, r["print"])
+        blood_intro = ""
+        if book == "advanced-class-guide" and e.id.startswith("ref/ragepower/"):
+            power = e.id.rsplit("/", 1)[-1]
+            greater = power.startswith("greater-")
+            suffix = power.removeprefix("greater-") if greater else power
+            if suffix.endswith("-blood") and not suffix.startswith("lesser-"):
+                blood_intro = BLOOD_PREREQUISITE_INTROS["greater" if greater else "middle"]
+                target_name = suffix if greater else "lesser-" + suffix
+                phrase = "middle blood rage power" if greater else "lesser blood rage power"
+                target = f"ref/ragepower/{target_name}"
+                printed = printed.replace(phrase, f"[{phrase}]({target})", 1)
+                raw_key = fp.namekey(fp.head_text(r["head"])) if r.get("head") else ""
+                if raw_key:
+                    complete = raw_text.get(raw_key, "")
+                    if incomplete_paragraph(printed):
+                        complete = full_printed_head(bk, e.title, page) or complete
+                    if incomplete_paragraph(printed) and complete and not incomplete_paragraph(complete):
+                        printed = complete.replace(phrase, f"[{phrase}]({target})", 1)
+                        notes = [note for note in notes if not note.startswith("print text may be cut at a page or column break:")]
+                    raw_text[raw_key] = blood_intro + " " + (complete or raw_text.get(raw_key, ""))
+                printed = blood_intro + "\n\n" + printed
         if notes_tag:
             status = "hold"
         anchor = pr[1] if pr else r["anchor"]
@@ -1066,8 +1289,19 @@ def compare_one(e, book, bk, other=None) -> list[dict]:
             if book == "ultimate-intrigue":
                 printed = link_intrigue_class_prerequisites(printed)
                 printed = repair_intrigue_italic_link_boundary(printed)
+            if book == "advanced-class-guide":
+                crossed = link_kind_mismatches(printed)
+                if crossed:
+                    notes.append("ruling 52: " + "; ".join(
+                        f"\"{name}\" names a {target} ({group}) but print says {word}" for name, target, group, word in crossed))
+                    status, hard = "hold", True
             common["links_lost"] = "|".join(lost)
             printed = drop_unkeyed_link_marks(e.id, printed)
+        if blood_intro and not hard:
+            prerequisite_only = ("number: corpus", "rule 3: the prerequisite row", "link not placed:")
+            if notes and all(note.startswith(prerequisite_only) for note in notes):
+                notes = ["opens with print's section-intro prerequisite (Advanced Class Guide p. 80)"]
+                status = "print"
         if shape == "single" and e.id.split("/")[1] in HEADING_FAMILIES:
             gh = group_map(bk).of(e.title, page)
             if gh is None:
@@ -1082,6 +1316,12 @@ def compare_one(e, book, bk, other=None) -> list[dict]:
                     common["page"] = f"{gh[1]}-{page}"           # the sentence is on the page before: the entry cites both (ruling 61)
         decided = DECISIONS.get((e.id, anchor))
         if print_decision_resolves(decided, status, r["status"], problems, hard):
+            status = "print"
+            notes.append(f"decision: {decided[1]}")
+        elif decided and decided[0] == "print" and print_decision_may_settle(notes_tag, problems, {"notes": notes}):
+            status = r["status"]                 # print's tag is the rule (ruling 63): the lead may settle a disagreement
+            notes.append(f"decision: {decided[1]}")
+        elif decided and decided[0] == "print" and status == "hold" and r["status"] == "hold" and not problems and not hard:
             status = "print"
             notes.append(f"decision: {decided[1]}")
         elif decided and decided[0] == "hold":
@@ -1231,7 +1471,10 @@ def run_audit(args) -> int:
 
 
 def run_compare(args) -> int:
+    global CORPUS_ROOT
     corpus = Path(args.corpus).resolve()
+    CORPUS_ROOT = corpus
+    GROUP_OF_TARGET.clear()
     book = args.book
     title = fp.publication_title(corpus, book)
     fp.configure_book(book)
@@ -1239,6 +1482,11 @@ def run_compare(args) -> int:
     if not pdf:
         raise SystemExit(f"no copy of {title!r} under {args.books}")
     bk = fp.load_book(fp.book_xml(pdf, Path(args.cache)))
+    FAMILY_OF_TITLE.clear()
+    FAMILY_OF_TITLE.update({fp.namekey(x.title): x.id.split("/")[1] for x in load_class_options(corpus)})
+    INTRO_MARK["by"] = {}
+    if book in INTRO_MARKS_BOOKS:
+        INTRO_MARK["by"] = IntroMarkMap(bk).by_family
     INTRO_MARK_TEXT.clear()
     for family, (marker, prefer) in INTRO_MARK_SPECS.get(book, {}).items():
         intro = IntroMarkMap(bk, marker, prefer)
@@ -1268,11 +1516,21 @@ def run_compare(args) -> int:
         if row.get("status") == LEDGER and "opens with print's sentence about the mark" in row.get("note", "")
     )
     names: list[str] = []
+    acg_written: dict[str, list[str]] = {}
+    acg_ids = {x.id for x in load_class_options(corpus, "advanced-class-guide")}
+    for row in read_tsv(tsv_file(corpus, "advanced-class-guide")):
+        if row["entry"] in acg_ids and row["status"] == LEDGER:
+            acg_written.setdefault(row["entry"], []).append(row["feature"])
     for x in load_class_options(corpus):
         names.append(x.title)                      # a converted option has no import row left, but its italic head still ends the text above it
         if shape_of(x.body)[0] != "none":
             for f in fp.parse_import(x.body, set())[1]:
                 names += [f.name, fp.tail_name(f.name)]
+        elif x.book == "advanced-class-guide":
+            # Written ACG entries no longer expose imported feature names in the body. Keep them
+            # in the same order as before conversion so this batch does not change other books.
+            for feature in acg_written.get(x.id, []):
+                names += [feature, fp.tail_name(feature)]
     install_split(names)
     STOP_TITLES.clear()
     STOP_TITLES.update(fp.squash(re.sub(r"\s*\((?:[A-Z]{2,4}|HotW)\)\s*$", "", x.title)) for x in load_class_options(corpus))
@@ -1289,6 +1547,7 @@ def run_compare(args) -> int:
             fp.configure_book(pub)
             pdf2 = fp.find_pdf(Path(args.books), fp.publication_title(corpus, pub))
             books_seen[pub] = fp.load_book(fp.book_xml(pdf2, Path(args.cache))) if pdf2 else None
+            fp.configure_book(book)                  # the book at hand again: a source with no copy must not leave its switches on
         bk2 = books_seen[pub]
         if bk2 is None:
             return None
@@ -1332,24 +1591,12 @@ def run_compare(args) -> int:
     compared = {r["entry"] for r in rows}
     kept = [r for r in old if r["status"] == LEDGER and r["entry"] not in compared]       # the ledger of the entries written already
     for r in kept:
-        if (r["entry"], r["anchor"]) in old_props:
-            printed = class_option_errata(corpus, r["entry"],
-                                           drop_unkeyed_link_marks(r["entry"], old_props[(r["entry"], r["anchor"])]))
-            intro = marked_head_intro(book, r["entry"]) if r["entry"] in MARKED_HEAD_ENTRIES else ""
-            if intro:
-                printed = prepend_intro(printed, intro)
-                r["print_sha256"] = hashlib.sha256(printed.encode()).hexdigest()
-                intro_page = marked_head_page(book, r["entry"])
-                head_page = int(re.match(r"\d+", r["page"]).group()) if re.match(r"\d+", r["page"]) else 0
-                if intro_page and head_page and intro_page < head_page:
-                    r["page"] = f"{intro_page}-{head_page}"
-                if "opens with print's sentence about the mark" not in r["note"]:
-                    r["note"] = (r["note"] + "; " if r["note"] else "") + "opens with print's sentence about the mark (the section intro)"
-            else:
-                printed = drop_marked_intro(printed)
-                r["print_sha256"] = hashlib.sha256(printed.encode()).hexdigest()
-            props.setdefault(r["entry"], {"id": r["entry"], "feature": []})["feature"].append(
-                {"anchor": r["anchor"], "print": printed})
+        original = old_props.get((r["entry"], r["anchor"]))
+        if original is None:
+            continue
+        printed = refresh_written_proposal(corpus, book, r, original)
+        props.setdefault(r["entry"], {"id": r["entry"], "feature": []})["feature"].append(
+            {"anchor": r["anchor"], "print": printed})
     write_tsv(tsv_file(corpus, book), sorted(kept + rows, key=lambda r: r["entry"]))
     write_props(proposals_file(corpus, book), dict(sorted(props.items())))
     print(report(rows, cen))
@@ -1503,8 +1750,54 @@ def features_front(front: str, features: list[tuple[str, int | None]]) -> str:
 
 
 def with_page(text: str, page: str) -> str:
-    """The first `[[sources]]` page row of the entry file set to `page`."""
-    return re.sub(r'(\[\[sources\]\]\n(?:[^\n]*\n)*?page = )"[^"]*"', lambda m: m.group(1) + f'"{page}"', text, count=1)
+    """Set the page on the first source row, adding the field when absent."""
+    lines = text.splitlines(keepends=True)
+    start = next((i for i, line in enumerate(lines) if line.strip() == "[[sources]]"), None)
+    if start is None:
+        return text
+    end = next((i for i in range(start + 1, len(lines)) if lines[i].startswith("[[sources]]") or lines[i].startswith("[fields]")), len(lines))
+    for i in range(start + 1, end):
+        if re.match(r"page\s*=", lines[i]):
+            lines[i] = f'page = "{page}"\n'
+            return "".join(lines)
+    publication = next((i for i in range(start + 1, end) if lines[i].startswith("publication = ")), start)
+    lines.insert(publication + 1, f'page = "{page}"\n')
+    return "".join(lines)
+
+
+def clean_acg_print(entry_id: str, text: str) -> str:
+    """Clean ACG extraction artifacts and apply reviewed option-link corrections."""
+    if entry_id == "ref/exploit/arcane-weapon":
+        text = re.sub(r"_spell_\s*Table 1[–-]1:.*?Magical supremacy\s*_storing_", "_spell storing_", text, flags=re.S)
+    if entry_id in {"ref/exploit/see-magic", "ref/exploit/spell-tinkerer"}:
+        text = re.sub(r"\s*\n\s*", " ", text).strip()
+    if entry_id in {"ref/exploit/greater-spell-resistance", "ref/exploit/resistance-drain"}:
+        text = text.replace("[spell resistance](ref/spell/spell-resistance) exploit",
+                            "[spell resistance](ref/exploit/spell-resistance) exploit", 1)
+    if (not any(line.lstrip().startswith("|") for line in text.splitlines())
+            and len(re.findall(r"[ \t]{2,}", text)) >= 4):
+        text = clean_full_printed_head(text)
+    return text
+
+
+def refresh_written_proposal(corpus: Path, book: str, row: dict, original: str) -> str:
+    """Refresh a retained written proposal from print while preserving its marked-head intro."""
+    entry_id = row["entry"]
+    printed = clean_acg_print(entry_id, drop_unkeyed_link_marks(entry_id, original))
+    printed = class_option_errata(corpus, entry_id, printed)
+    intro = marked_head_intro(book, entry_id) if entry_id in MARKED_HEAD_ENTRIES else ""
+    if intro:
+        printed = prepend_intro(printed, intro)
+        intro_page = marked_head_page(book, entry_id)
+        head_page = int(re.match(r"\d+", row["page"]).group()) if re.match(r"\d+", row["page"]) else 0
+        if intro_page and head_page and intro_page < head_page:
+            row["page"] = f"{intro_page}-{head_page}"
+        if "opens with print's sentence about the mark" not in row["note"]:
+            row["note"] = (row["note"] + "; " if row["note"] else "") + "opens with print's sentence about the mark (the section intro)"
+    else:
+        printed = drop_marked_intro(printed)
+    row["print_sha256"] = hashlib.sha256(printed.encode()).hexdigest()
+    return printed
 
 
 def run_headings(args) -> int:
@@ -1661,7 +1954,7 @@ def run_write(args) -> int:
         if shape == "none" and mine and all(r["status"] == LEDGER for r in mine):
             proposal = props.get((e.id, mine[0]["anchor"]), "")
             intro = proposal.split("\n\n", 1)[0]
-            has_intro = bool(re.match(r"^(?:Discoveries|Talents|Tricks).*marked with .*asterisk", intro)) or (
+            has_intro = bool(re.match(r"^(?:Discoveries|Talents|Tricks|Investigator talents).*marked with .*asterisk", intro)) or (
                 book == "ultimate-intrigue" and any("opens with print's sentence about the mark" in r.get("note", "") for r in mine)
             )
             if has_intro:
@@ -1888,6 +2181,15 @@ def self_test() -> int:
     eq(group_heading(type("E", (), {"title": "Nothing"})(), blk), None, "ruling 61: a head that is not printed has no heading")
     eq(group_heading(type("E", (), {"title": "Bite"})(), blk[2:]), None, "ruling 61: no title above the head, no heading")
     eq(with_page('[[sources]]\npublication = "x"\npage = "62"\n\n[fields]\n', "61-62"), '[[sources]]\npublication = "x"\npage = "61-62"\n\n[fields]\n', "ruling 61: the page row becomes a range")
+    eq(with_page('[[sources]]\npublication = "x"\n\n[fields]\n', "12"), '[[sources]]\npublication = "x"\npage = "12"\n\n[fields]\n', "a missing source page is added")
+    eq("Table 1" in clean_acg_print("ref/exploit/arcane-weapon", "_spell_ Table 1–1: rows Magical supremacy _storing_"), False,
+       "ACG Arcane Weapon drops its interleaved class table")
+    eq(clean_acg_print("ref/exploit/greater-spell-resistance", "the [spell resistance](ref/spell/spell-resistance) exploit"),
+       "the [spell resistance](ref/exploit/spell-resistance) exploit", "the printed spell resistance exploit links to the option")
+    eq(clean_acg_print("ref/exploit/resistance-drain", "the [spell resistance](ref/spell/spell-resistance) exploit"),
+       "the [spell resistance](ref/exploit/spell-resistance) exploit", "Resistance Drain links the named exploit")
+    eq(clean_acg_print("ref/exploit/see-magic", "First sentence.\n\nSecond sentence."), "First sentence. Second sentence.",
+       "ACG art-wrapped power paragraphs rejoin")
     DECISIONS.clear()
     DECISIONS[("ref/x/y", "z")] = ("hold", "an errata check")
     DECISIONS[("ref/x/y", "w")] = ("print", "settled")
@@ -2003,6 +2305,22 @@ def self_test() -> int:
     # the title of a multi-power option may carry its kind in a parenthesis (§ review of #374): only its own kind matches
     school = [P("title", [("METAL (ELEMENTAL SCHOOL)", True, False)], 87, 0, 18), P("para", [("Metal Magic: Add spells.", True, False)], 87, 0),
               P("title", [("WOOD", True, False)], 87, 1, 18), P("para", [("Wood Magic: Add spells.", True, False)], 87, 1)]
+    # a class option that cites no page: its head is looked for in the whole book (one hit only)
+    _pg = fp.Book({"30": 13}, {1: [(120, 108, 30, "<b>Acid Jet (Su)</b>: A jet of acid.", 300),
+                                     (200, 108, 30, "<b>Arcane Barrier (Su)</b>: A barrier.", 300)]}, {1: 13}, set())
+    _pg2 = fp.Book({"30": 13}, {1: [(100, 120, 30, "<b>Acid Jet (Su)</b>: A jet.", 300), (200, 120, 30, "<b>Familiar (Ex)</b>: A familiar.", 300)],
+                                 2: [(100, 120, 30, "<b>Acid Jet (Su)</b>: Again.", 300), (200, 120, 30, "<b>Flame Arc (Su)</b>: A flame.", 300)]}, {1: 9, 2: 13}, set())
+    _e = type("E", (), {"title": "Acid Jet", "id": "ref/exploit/acid-jet"})()
+    PAGE_SEARCH["blocks"] = None
+    eq(printed_page(_e, _pg), 13, "a head printed once gives its page")
+    PAGE_SEARCH["blocks"] = None
+    FAMILY_OF_TITLE.clear()
+    eq(printed_page(_e, _pg2), None, "a head printed twice gives none when no neighbour names its list")
+    FAMILY_OF_TITLE.update({"flamearc": "exploit", "familiar": "arcana"})
+    eq(printed_page(_e, _pg2), 13, "the neighbouring head of the same family points to the list")
+    PAGE_SEARCH["blocks"] = None
+    eq(printed_page(type("E", (), {"title": "No Such", "id": "ref/exploit/x"})(), _pg), None, "a head printed nowhere gives none")
+    PAGE_SEARCH["blocks"] = None
     STOP_TITLES.clear()
     STOP_TITLES.update({"metal", "wood"})
     eq(anchor_section(school, "Metal", kind="school")[1], True, "a printed title with its own kind in a parenthesis anchors the window")
@@ -2010,6 +2328,17 @@ def self_test() -> int:
     eq(anchor_section(school, "Metal", kind="domain"), None, "(ELEMENTAL SCHOOL) is no title of a domain entry")
     fire = [P("title", [("FIRE (SUBDOMAIN)", True, False)], 90, 0, 18), P("para", [("Fire Domain: A rule.", True, False)], 90, 0)]
     eq(anchor_section(fire, "Fire", kind="domain"), None, "FIRE (SUBDOMAIN) is no title of the entry Fire of a domain")
+    # the intro sentence of a marked head comes from the book's own intro, by the family it names
+    ib = fp.Book({"30": 13, "40": 40}, {1: [(200, 108, 40, "DISCOVERIES", 100),
+                              (240, 108, 30, "The following new discoveries can be taken by any alchemist who meets the prerequisites. Discoveries that modify bombs and are marked with a single asterisk (*) do not stack. Only one such discovery can be applied to an individual bomb.", 320),
+                              (300, 108, 40, "Slayer", 100),
+                              (320, 108, 30, "Talents marked with an asterisk add effects to a slayer's sneak attack. Only one of these talents can be applied to an individual attack.", 320)]}, {1: 15}, set())
+    eq(IntroMarkMap(ib).by_family.get("discovery"), ("Discoveries that modify bombs and are marked with a single asterisk (*) do not stack. Only one such discovery can be applied to an individual bomb.", 15),
+       "the intro sentence of a marked family is read from the book")
+    eq(IntroMarkMap(ib).by_family.get("slayertalent"), ("Talents marked with an asterisk add effects to a slayer's sneak attack. Only one of these talents can be applied to an individual attack.", 15),
+       "each family takes the intro that names it")
+    nointro = fp.Book({"30": 13}, {1: [(200, 108, 30, "Plain text without a mark.", 300)]}, {1: 4}, set())
+    eq(IntroMarkMap(nointro).by_family, {}, "a book with no such intro gives no sentence (near miss: a paragraph with no mark)")
     # the intro sentence of a marked head comes from the book's own intro (a fake page: the paragraph that names the mark)
     ib = fp.Book({"30": 13, "40": 40}, {1: [(200, 108, 30, "DISCOVERIES", 100), (240, 108, 30, "The following new discoveries can be taken by any alchemist who meets the prerequisites. "
                                "Discoveries that modify bombs and are marked with a single asterisk (*) do not stack. Only one such discovery can be "
@@ -2027,6 +2356,27 @@ def self_test() -> int:
                   {1: 15}, set())
     eq((IntroMarkMap(two, "Discoveries that modify bombs and are marked with a single asterisk", "stack").text.startswith("Discoveries that modify bombs"), IntroMarkMap(two, "Discoveries that modify bombs and are marked with a single asterisk", "stack").page), (True, 15),
        "the rule sentence is preferred over the chapter's mention of the mark")
+    intro_entry = "ref/invtalent/blinding-strike"
+    intro_key = ("advanced-class-guide", "invtalent")
+    intro_text = ("Investigator talents marked with an asterisk (*) add effects to an investigator’s studied combat or studied strike. "
+                  "Only one of these talents can be applied to an individual attack, but the decision can be made when the damage is dealt.")
+    previous_intro = INTRO_MARK_TEXT.get(intro_key)
+    INTRO_MARK_TEXT[intro_key] = (intro_text, 32)
+    MARKED_HEAD_ENTRIES.add(intro_entry)
+    refreshed_row = {"entry": intro_entry, "page": "33", "note": "", "print_sha256": ""}
+    refreshed = refresh_written_proposal(HERE.parent, "advanced-class-guide", refreshed_row,
+                                         "Investigator talents marked with an asterisk (*) old text.\n\nThe strike text.")
+    expected_intro = intro_text.replace("(*)", r"(\*)")
+    eq(refreshed, expected_intro + "\n\nThe strike text.", "a written ACG row refresh keeps the current marked intro")
+    eq((refreshed_row["page"], "opens with print's sentence about the mark" in refreshed_row["note"]),
+       ("32-33", True), "a written marked intro refresh also retains its page and note")
+    MARKED_HEAD_ENTRIES.remove(intro_entry)
+    if previous_intro is None:
+        del INTRO_MARK_TEXT[intro_key]
+    else:
+        INTRO_MARK_TEXT[intro_key] = previous_intro
+    eq(clean_full_printed_head(" While  raging, the barbarian’s  breath weapon. "),
+       "While raging, the barbarian's breath weapon.", "a full-head fallback receives normal spacing and apostrophe cleanup")
     uc_book = lambda text: fp.Book({"30": 13}, {1: [(200, 108, 30, text, 320)]}, {1: 14}, set())
     expected_intros = {
         "ninjatrick": "Tricks marked with an asterisk (*) add effects to a ninja's sneak attack. Only one of these tricks can be applied to an individual attack and the decision must be made before the attack is made.",
@@ -2221,6 +2571,63 @@ def self_test() -> int:
     eq(repair_intrigue_italic_link_boundary("_[discern lies](ref/spell/discern-lies)_, __ and she can say it"),
        "_[discern lies](ref/spell/discern-lies)_, __ and she can say it",
        "Ultimate Intrigue: italic repair leaves a near miss unchanged")
+    # ruling 52, as narrowed by the review of #373: another class's option may be linked on purpose; a link is wrong only when
+    # print's own noun or class disagrees with the target (print says "deed" and the target is a hex)
+    with tempfile.TemporaryDirectory() as td:
+        root = Path(td)
+        for rel, kind, group in (("swashdeed/derring-do", "class_option", "swashbuckler-deed"),
+                                 ("swashdeed/opportune-parry-and-riposte", "class_option", "swashbuckler-deed"),
+                                 ("hex/cackle", "class_option", "witch-hex"),
+                                 ("invtalent/item-lore", "class_option", "investigator-talent"),
+                                 ("invtalent/tenacious-inspiration", "class_option", "investigator-talent"),
+                                 ("discovery/inspiring-cognatogen", "class_option", "alchemist-discovery"),
+                                 ("spell/fireball", "spell", ""),
+                                 ("spell/spell-resistance", "spell", "")):
+            f = root / "entries" / (rel + ".md")
+            f.parent.mkdir(parents=True, exist_ok=True)
+            f.write_text(f'id = "ref/{rel}"\nkind = "{kind}"\n[fields]\nkind = "{kind}"\ngroup = "{group}"\n\n+++\n\nText.\n', encoding="utf-8")
+        global CORPUS_ROOT
+        old_root = CORPUS_ROOT
+        CORPUS_ROOT = root
+        GROUP_OF_TARGET.clear()
+        eq(link_kind_mismatches("A magus gains the [derring-do](ref/swashdeed/derring-do) and [opportune parry and riposte](ref/swashdeed/opportune-parry-and-riposte) deeds from the swashbuckler's list of deeds."), [],
+           "ruling 52: the deeds of a printed list, named by print as deeds, agree (a cross-group link is no error)")
+        eq(link_kind_mismatches("A shaman cannot select both this hex and the witch's [cackle](ref/hex/cackle) hex."), [],
+           "ruling 52: another class's hex linked where print says hex agrees")
+        eq(link_kind_mismatches("It grants the effects of the [item lore](ref/invtalent/item-lore), [tenacious inspiration](ref/invtalent/tenacious-inspiration) investigator talents."), [],
+           "ruling 52: print's class and noun agree across a list")
+        eq(link_kind_mismatches("The alchemist's [inspiring cognatogen](ref/discovery/inspiring-cognatogen) now grants a bonus and the item lore talents."), [],
+           "ruling 52: a name whose noun comes in another clause attaches no noun (near miss: talents belong to the later item)")
+        eq(link_kind_mismatches("The slayer gains a bonus, while the [item lore](ref/invtalent/item-lore) talent remains available."), [],
+           "ruling 52: a class named in another clause does not govern the linked option")
+        eq(link_kind_mismatches("It grants the effects of the [item lore](ref/invtalent/item-lore) judgment."),
+           [("item lore", "ref/invtalent/item-lore", "investigator-talent", "judgment")],
+           "ruling 52: print says judgment and the target is an investigator talent (the wrong-name case of the review)")
+        eq(link_kind_mismatches("The following [cackle](ref/hex/cackle) deeds can be selected."),
+           [("cackle", "ref/hex/cackle", "witch-hex", "deed")], "ruling 52: print says deed and the target is a hex")
+        eq(link_kind_mismatches("The slayer gains the [item lore](ref/invtalent/item-lore) talent."),
+           [("item lore", "ref/invtalent/item-lore", "investigator-talent", "class investigator")],
+           "ruling 52: print names the slayer and the target is an investigator talent")
+        eq(link_kind_mismatches("It is a [fireball](ref/spell/fireball) spell."), [], "ruling 52: a spell keeps its link (near miss: not a class option)")
+        eq(link_kind_mismatches("The arcanist uses the [spell resistance](ref/spell/spell-resistance) exploit."),
+           [("spell resistance", "ref/spell/spell-resistance", "spell", "exploit")],
+           "ruling 52: an option noun cannot point at a non-option target")
+        eq(link_kind_mismatches("It names [x](ref/hex/missing)."), [], "ruling 52: a target the tree lacks keeps its link (near miss: no front matter)")
+        eq(link_kind_mismatches("The [cackle](ref/hex/cackle) hex."), [], "ruling 52: no class named, the noun agrees")
+        eq(print_decision_may_settle(["tag differs"], [], {"notes": []}), True, "a reviewed print decision can settle a tag disagreement")
+        hard_rows = (
+            ("cut", {"entry": "ref/exploit/acid-jet", "status": "hold", "notes": ["print text may be cut at a page or column break: ..."]}),
+            ("anchor collision", {"entry": "ref/exploit/arcane-weapon", "status": "hold", "notes": ["anchor collision: acid-jet"]}),
+            ("name mismatch", {"entry": "ref/exploit/consume-magic-items", "status": "hold", "notes": ["the power's name differs from the title of the entry"]}),
+            ("link mismatch", {"entry": "ref/exploit/spell-resistance", "status": "hold", "notes": ["ruling 52: spell resistance names a spell but print says exploit"]}),
+            ("missing group heading", {"entry": "ref/evolution/acid", "status": "hold", "notes": ["no group heading found above the head"]}),
+            ("second-source window", {"entry": "ref/exploit/acid-jet", "status": "hold", "notes": ["the second-source window has no end title: the text may run into another option"]}),
+        )
+        for hard_reason, row in hard_rows:
+            eq(print_decision_may_settle(["tag differs"], [], row), False,
+               f"a print decision cannot clear the {hard_reason} hard-hold row")
+        CORPUS_ROOT = old_root
+        GROUP_OF_TARGET.clear()
     for line in bad:
         print("FAIL", line)
     eq(print_lost("Whenever she uses it, she can invoke true judgment on a foe. Regardless of whether the save is made, the target is immune for 24 hours.", "Whenever she uses it, she can invoke true judgment on a foe."),
@@ -2231,6 +2638,7 @@ def self_test() -> int:
        ["While this deed is active, you gain a +2 dodge bonus to AC against attacks of opportunity made by any creature that you threaten."], "a changed digit is a loss")
     eq(print_lost("The creature can be affected by this spell if it fails the save against the effect.", "The creature cannot be affected by this spell if it fails the save against the effect."),
        ["The creature can be affected by this spell if it fails the save against the effect."], "a negation that differs is a loss")
+    eq(NEGATIONS.findall("The creature isn’t affected by this spell."), ["n’t"], "the curly apostrophe in n’t is a negation")
     eq(print_lost("While raging and mounted, the barbarian's mount gains the trample special attack (Pathfinder RPG Bestiary 305).", "While raging and mounted, the barbarian's mount gains the [trample](ref/umr/trample) special attack."), [],
        "ruling 26: a citation of a book and a page goes where a link stands")
     eq(print_lost("While raging and mounted, the barbarian's mount gains the trample special attack (Pathfinder RPG Bestiary 305).", "While raging and mounted, the barbarian's mount gains the trample special attack."),
@@ -2253,6 +2661,17 @@ def self_test() -> int:
     swap = "The antipaladin can use this ability on {} creature within sight of the weapon that the spirit has made for him."
     for old, new in (("his", "her"), ("any", "all"), ("able", "unable"), ("valid", "invalid"), ("aware", "unaware"), ("may", "can")):
         eq(print_lost(swap.format(old), swap.format(new)), [swap.format(old)], f"a word of another identity is a loss: {old}/{new}")
+    near = "The antipaladin can use this ability to {} the bonus of the weapon that the spirit has made for him."
+    for old, new in (("increase", "decrease"), ("minimum", "maximum"), ("unable", "enable"), ("either", "neither")):
+        eq(print_lost(near.format(old), near.format(new)), [near.format(old)], f"a near-antonym is a loss, not a misprint: {old}/{new}")
+    for old, new in (("elixer", "elixir"), ("anitpaladin", "antipaladin"), ("weaopn", "weapon")):
+        eq(print_lost(near.format(old), near.format(new)), [], f"one misprint inside a word is no loss: {old}/{new}")
+    eq(print_lost("She can strike the foe, or she can flee from the field of battle at once.", "She can strike the foe, nor she can flee from the field of battle at once."),
+       ["She can strike the foe, or she can flee from the field of battle at once."], "nor is a negation")
+    eq(print_lost("She can use either of the two weapons that she holds in her hands at any time.", "She can use neither of the two weapons that she holds in her hands at any time."),
+       ["She can use either of the two weapons that she holds in her hands at any time."], "neither is a negation")
+    eq([one_misprint("minimum", "maximum"), one_misprint("increase", "decrease"), one_misprint("either", "neither"), one_misprint("elixer", "elixir"), one_misprint("anitpaladin", "antipaladin"),
+        one_misprint("weapon", "weapons")], [False, False, False, True, True, True], "one misprint: a letter, a swap, a letter more or less; never the first letter or two letters inside")
     eq(print_lost("The antipaladin can use this ability on an anitpaladin within sight of the weapon that the spirit has made for him.", "The antipaladin can use this ability on an antipaladin within sight of the weapon that the spirit has made for him."), [],
        "a misprint of two letters in a long word is no loss")
     ligature = [("a Reflex save (DC = 10 + 1/2 the alchemist's level + the alchemist's Intelligent modifier) halves the damage.", "a Reflex save (DC = 10 + 1/2 the alchemist's level + the alchemist's Intelligence modifier) halves the damage.")]

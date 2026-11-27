@@ -13,10 +13,9 @@ page = "33"
 [fields]
 kind = "class_option"
 group = "investigator-talent"
+ability_type = "Ex"
 +++
 
-**Inspired Alertness (Ex)**
-
-**Ability:** Whenever the investigator becomes [flat-footed](ref/rule/flat-footed), he can expend
-one use of _inspiration_ to ignore that condition. He must be conscious to do so, and must decide to
-do so when he becomes flat-footed. Using this ability doesn't require an action.
+Whenever the investigator becomes [flat-footed](ref/rule/flat-footed), he can expend one use of
+inspiration to ignore that condition. He must be conscious to do so, and must decide to do so when
+he becomes flat-footed. Using this ability doesn't require an action.
