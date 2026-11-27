@@ -23,8 +23,8 @@ touch attack up to 8 times per day, [entangling](ref/rule/entangled) a creature 
 larger than the eidolon. The webbing has a range of 50 feet and a 10-foot range increment. Creatures
 entangled by the web can escape with an [Escape Artist](ref/skill/escape-artist) check or a Strength
 check (at a -4 penalty). The DC of these checks is equal to 10 + 1/2 the eidolon's HD + the
-eidolon's Con modifier. The webs have a [Hardness](ref/umr/hardness) of 0 and a number of hits
-points equal to the eidolon's total Hit Dice. The eidolon can [climb](ref/evolution/climb) its own
-webs at its climb speed and can pinpoint any creature touching its webs. The eidolon must possess
-the [climb](ref/evolution/climb) evolution to take this evolution. The summoner must be at least 7th
+eidolon's Con modifier. The webs have a [Hardness](ref/umr/hardness) of 0 and a number of hit points
+equal to the eidolon's total Hit Dice. The eidolon can [climb](ref/evolution/climb) its own webs at
+its climb speed and can pinpoint any creature touching its webs. The eidolon must possess the
+[climb](ref/evolution/climb) evolution to take this evolution. The summoner must be at least 7th
 level before selecting this evolution.

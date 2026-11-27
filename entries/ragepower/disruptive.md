@@ -16,5 +16,5 @@ group = "rage-power"
 +++
 
 When raging, the barbarian gains [Disruptive](ref/feat/disruptive) as a bonus feat. The barbarian
-must have the [superstition](ref/ragepower/superstition)\* rage power to select this rage power. A
+must have the [superstition](ref/ragepower/superstition) rage power to select this rage power. A
 barbarian must be at least 8th level to select this rage power.

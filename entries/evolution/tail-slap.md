@@ -21,4 +21,4 @@ An eidolon can use its [tail](ref/evolution/tail) to bash nearby foes, granting 
 [tail slap attack](ref/umr/natural-attacks). This attack is a secondary attack. The tail slap deals
 1d6 points of damage (1d8 if Large, 2d6 if Huge). The eidolon must possess the
 [tail](ref/evolution/tail) evolution to take this evolution. This evolution can be selected more
-than once, but the eidolon must possess an equal number of the tail evolution.
+than once, but the eidolon must possess an equal number of the [tail](ref/evolution/tail) evolution.

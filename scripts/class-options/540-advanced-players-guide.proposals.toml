@@ -75,7 +75,7 @@ must be at least 9th level before selecting this evolution.'''
 [[entry]]
 id = "ref/evolution/claws"
 anchor = "claws"
-print = "An eidolon has a pair of vicious claws at the end of its [limbs](ref/evolution/limbs), giving it two [claw attacks](ref/umr/natural-attacks). These attacks are primary attacks. The claws deal 1d4 points of damage (1d6 if Large, 1d8 if Huge). The eidolon must have the [limbs](ref/evolution/limbs) evolution to take this evolution. This evolution can only be applied to the limbs (legs) evolution once This evolution can be selected more than once, but the eidolon must possess an equal number of the limbs evolution."
+print = "An eidolon has a pair of vicious claws at the end of its [limbs](ref/evolution/limbs), giving it two [claw attacks](ref/umr/natural-attacks). These attacks are primary attacks. The claws deal 1d4 points of damage (1d6 if Large, 1d8 if Huge). The eidolon must have the [limbs](ref/evolution/limbs) evolution to take this evolution. This evolution can only be applied to the limbs (legs) evolution once This evolution can be selected more than once, but the eidolon must possess an equal number of the [limbs](ref/evolution/limbs) evolution."
 
 [[entry]]
 id = "ref/evolution/climb"
@@ -253,7 +253,7 @@ print = "An eidolon is properly skilled and formed to serve as a [combat-trained
 [[entry]]
 id = "ref/evolution/pincers"
 anchor = "pincers"
-print = "An eidolon grows a large pincers at the end of one pair of its [limbs](ref/evolution/limbs), giving it two pincer attacks. These attacks are secondary attacks. The pincers deal 1d6 points of damage (1d8 if Large, 2d6 if Huge). Eidolons with the [grab](ref/evolution/grab) evolution linked to pincers gain a +2 bonus on CMB checks made to grapple. The eidolon must have the [limbs](ref/evolution/limbs) (arms) evolution to take this evolution. Alternatively, the eidolon can replace the [claws](ref/evolution/claws) from its base form with pincers (this still costs 1 evolution point). This evolution can be selected more than once, but the eidolon must possess an equal number of the limbs evolution."
+print = "An eidolon grows a large pincers at the end of one pair of its [limbs](ref/evolution/limbs), giving it two pincer attacks. These attacks are secondary attacks. The pincers deal 1d6 points of damage (1d8 if Large, 2d6 if Huge). Eidolons with the [grab](ref/evolution/grab) evolution linked to pincers gain a +2 bonus on CMB checks made to grapple. The eidolon must have the [limbs](ref/evolution/limbs) (arms) evolution to take this evolution. Alternatively, the eidolon can replace the [claws](ref/evolution/claws) from its base form with pincers (this still costs 1 evolution point). This evolution can be selected more than once, but the eidolon must possess an equal number of the [limbs](ref/evolution/limbs) evolution."
 
 [[entry]]
 id = "ref/evolution/poison"
@@ -513,8 +513,7 @@ touch attack up to 8 times per day, [entangling](ref/rule/entangled) a creature 
 larger than the eidolon. The webbing has a range of 50 feet and a 10-foot range increment. Creatures
 entangled by the web can escape with an [Escape Artist](ref/skill/escape-artist) check or a Strength
 check (at a -4 penalty). The DC of these checks is equal to 10 + 1/2 the eidolon's HD + the
-eidolon's Con modifier. The webs have a [Hardness](ref/umr/hardness) of 0 and a number of hits
-points equal to the eidolon's total Hit Dice. The eidolon can [climb](ref/evolution/climb) its own
+eidolon's Con modifier. The webs have a [Hardness](ref/umr/hardness) of 0 and a number of hit points equal to the eidolon's total Hit Dice. The eidolon can [climb](ref/evolution/climb) its own
 webs at its climb speed and can pinpoint any creature touching its webs. The eidolon must possess
 the climb evolution to take this evolution. The summoner must be at least 7th level before selecting
 this evolution.'''
@@ -803,7 +802,7 @@ least 12th level to select this rage power.'''
 [[entry]]
 id = "ref/ragepower/disruptive"
 anchor = "disruptive"
-print = "When raging, the barbarian gains [Disruptive](ref/feat/disruptive) as a bonus feat. The barbarian\nmust have the [superstition](ref/ragepower/superstition)\\* rage power to select this rage power. A\nbarbarian must be at least 8th level to select this rage power."
+print = "When raging, the barbarian gains [Disruptive](ref/feat/disruptive) as a bonus feat. The barbarian\nmust have the [superstition](ref/ragepower/superstition) rage power to select this rage power. A\nbarbarian must be at least 8th level to select this rage power."
 
 [[entry]]
 id = "ref/ragepower/elemental-rage"
