@@ -39,23 +39,17 @@ and then cure (or whose recovery you significantly assist, at the GM's discretio
 toward this number, nor do those infected by others who were themselves infected before your
 corruption reached its current stage.
 
-**Corruption Stage 1**
+**Corruption Stage 1:** The first time your corruption progresses, any disease you suffer from
+becomes more tenacious. You take a -2 penalty on all saving throws to resist contracting a new
+disease, and your alignment shifts one step toward evil.
 
-**Details:** The first time your corruption progresses, any disease you suffer from becomes more
-tenacious. You take a -2 penalty on all saving throws to resist contracting a new disease, and your
-alignment shifts one step toward evil.
+**Corruption Stage 2:** The second time your corruption progresses, diseases you suffer from become
+difficult to cure; the DC of a disease you are suffering from is increased by 10 for the purposes of
+caster level checks for spells such as [remove disease](ref/spell/remove-disease) to cure you from
+its effects. Your alignment shifts to evil.
 
-**Corruption Stage 2**
-
-**Details:** The second time your corruption progresses, diseases you suffer from become difficult
-to cure; the DC of a disease you are suffering from is increased by 10 for the purposes of caster
-level checks for spells such as [remove disease](ref/spell/remove-disease) to cure you from its
-effects. Your alignment shifts to evil.
-
-**Corruption Stage 3**
-
-**Details:** The third time your corruption progresses, your disease saps your free will and the GM
-gains control of your character.
+**Corruption Stage 3:** The third time your corruption progresses, your disease saps your free will
+and the GM gains control of your character.
 
 ### Removing the Corruption
 
@@ -69,7 +63,7 @@ The following are manifestations of the plagued corruption.
 
 **Accelerated Affliction**
 
-**Flavor:** You can quicken diseases in others.
+You can quicken diseases in others.
 
 **Gift:** As a **swift action**, once per day per 2 manifestation levels you have (minimum once per
 day), you can cause one creature within 30 feet suffering from any diseases to attempt a saving
@@ -81,9 +75,9 @@ required to recover from the disease.
 
 **Bodily Betrayal**
 
-**Flavor:** Your body betrays you at the worst moments.
+Your body betrays you at the worst moments.
 
-**Prereq:** Accelerated affliction
+**Prerequisite:** Accelerated affliction
 
 **Gift:** Once per day per manifestation level, you can make a touch attack on a creature and expose
 it to any disease you are carrying.
@@ -94,9 +88,9 @@ lethal damage.
 
 **False Health**
 
-**Flavor:** You can feign health and hide your symptoms.
+You can feign health and hide your symptoms.
 
-**Prereq:** Accelerated affliction
+**Prerequisite:** Accelerated affliction
 
 **Gift:** Once per day as a **swift action**, you can suppress the stain of your _accelerated
 affliction_ for a number of hours equal to your manifestation level.
@@ -105,9 +99,9 @@ affliction_ for a number of hours equal to your manifestation level.
 
 **Fevered Dreams**
 
-**Flavor:** Disease clouds your thoughts.
+Disease clouds your thoughts.
 
-**Prereq:** Manifestation level 6th, infectious thoughts, miserable company
+**Prerequisites:** Manifestation level 6th, infectious thoughts, miserable company
 
 **Gift:** The dreams of victims of the diseases you spread are apparent to you. Once per day while
 you rest, you can cause a number of sleeping victims of your disease up to your manifestation level
@@ -120,9 +114,9 @@ rest.
 
 **Infectious Thoughts**
 
-**Flavor:** Your thoughts spread like your disease.
+Your thoughts spread like your disease.
 
-**Prereq:** Manifestation level 3rd, miserable company
+**Prerequisites:** Manifestation level 3rd, miserable company
 
 **Gift:** You can communicate telepathically with any creature within 10 feet suffering from any
 disease.
@@ -140,9 +134,9 @@ At manifestation level 5th, the penalty doubles.
 
 **Living Breath**
 
-**Flavor:** The stink of disease carries on your breath.
+The stink of disease carries on your breath.
 
-**Prereq:** Manifestation level 5th, accelerated affliction, bodily betrayal
+**Prerequisites:** Manifestation level 5th, accelerated affliction, bodily betrayal
 
 **Gift:** When you use your _bodily betrayal_ manifestation to expose a creature to a disease you
 are carrying, your breath carries the disease as well, potentially infecting all creatures within a
@@ -154,7 +148,7 @@ Strength- and Dexterity-based checks.
 
 **Miserable Company**
 
-**Flavor:** Your disease's symptoms become more apparent.
+Your disease's symptoms become more apparent.
 
 **Gift:** You gain a +2 bonus on [Heal](ref/skill/heal) checks to recognize or treat diseases and on
 Charisma-based skill checks to influence creatures able to inflict disease or those suffering from a
@@ -170,7 +164,7 @@ At manifestation level 3rd, you remain infectious for 1d8 days.
 
 **Overwhelming Weakness**
 
-**Flavor:** Disease saps your limbs of their strength.
+Disease saps your limbs of their strength.
 
 **Gift:** Victims other than you who fail their initial saving throw against any disease effect you
 create become sickened for 24 hours.
@@ -180,10 +174,10 @@ with the ability penalty from _accelerated affliction_ if you chose Strength as 
 
 **Theft of Awareness**
 
-**Flavor:** Your senses fail you, but the terrible disease you can inflict affords you access to the
-senses of those who suffer from it.
+Your senses fail you, but the terrible disease you can inflict affords you access to the senses of
+those who suffer from it.
 
-**Prereq:** Manifestation level 7th, infectious thoughts, miserable company
+**Prerequisites:** Manifestation level 7th, infectious thoughts, miserable company
 
 **Gift:** As a **move action**, for as long as you concentrate, you can borrow the senses of any
 creature suffering from a disease effect you created, as long as the creature is within range of

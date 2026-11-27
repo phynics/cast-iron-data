@@ -41,23 +41,19 @@ corruption progressing increases by 2. These increases stack, and last until you
 the next stage. Whenever you drop below 0 hit points, you must attempt a save as if you hadn't drunk
 enough blood that week.
 
-**Corruption Stage 1**
+**Corruption Stage 1:** Once you feed on an innocent sentient creature, your alignment shifts one
+step toward evil and spells that detect undead sense you, though the peculiar result they return
+informs the caster that you're still a living creature. Other spells and effects don't treat you as
+undead.
 
-**Details:** Once you feed on an innocent sentient creature, your alignment shifts one step toward
-evil and spells that detect undead sense you, though the peculiar result they return informs the
-caster that you're still a living creature. Other spells and effects don't treat you as undead.
-
-**Corruption Stage 2**
-
-**Details:** The second time this happens, your alignment shifts another step toward evil and you
-are affected by spells and abilities as if your creature type were undead (including
+**Corruption Stage 2:** The second time this happens, your alignment shifts another step toward evil
+and you are affected by spells and abilities as if your creature type were undead (including
 [bane](ref/magic-enh/bane) and the [favored enemy](ref/ability/favored-enemy) class feature). This
 doesn't grant you any of the immunities of being undead, nor does it make you immune to effects that
 target living creatures or change how negative and positive energy affect you.
 
-**Corruption Stage 3**
-
-**Details:** The third time this occurs, you become an NPC vampire under the GM's control.
+**Corruption Stage 3:** The third time this occurs, you become an NPC vampire under the GM's
+control.
 
 ### Removing the Corruption
 
@@ -70,7 +66,7 @@ The following are manifestations of the vampirism corruption.
 
 **Allure**
 
-**Flavor:** You can influence others subtly, but lose your reflection.
+You can influence others subtly, but lose your reflection.
 
 **Gift:** You gain a +2 racial bonus on [Bluff](ref/skill/bluff), [Diplomacy](ref/skill/diplomacy),
 and [Intimidate](ref/skill/intimidate) checks.
@@ -88,7 +84,7 @@ you can attempt a DC 25 Will save each round to ignore the repulsion for that ro
 
 **Children of the Night**
 
-**Flavor:** You can summon foul beasts to faithfully serve you.
+You can summon foul beasts to faithfully serve you.
 
 **Gift:** Once per day, you can summon a [rat swarm](ref/monster/rat-rat-swarm) or a
 [wolf](ref/monster/wolf), as if using [summon nature's ally II](ref/spell/summon-natures-ally-2)
@@ -110,9 +106,9 @@ At manifestation level 5th, you affect non-hostile animals as if you had an
 
 **Dreadful Charm**
 
-**Flavor:** Your powers of persuasion allow you to compel the weak.
+Your powers of persuasion allow you to compel the weak.
 
-**Prereq:** Allure
+**Prerequisite:** Allure
 
 **Gift:** Once per day when you succeed at a Bluff, Diplomacy, or Intimidate check against a
 creature, you can charm that creature as if using [charm monster](ref/spell/charm-monster) with a
@@ -126,7 +122,7 @@ Immunities don't prevent this sickened condition.
 
 **Fangs**
 
-**Flavor:** Your canines grow unnaturally long when you are angry.
+Your canines grow unnaturally long when you are angry.
 
 **Gift:** You can, as a **swift action**, grow fangs that grant you a bite attack. This is a primary
 [natural attack](ref/umr/natural-attacks) that deals 1d6 points of piercing damage if your size is
@@ -145,9 +141,9 @@ amount of blood each day instead of each week.
 
 **Greater Unlife**
 
-**Flavor:** You can recover from nearly any wound.
+You can recover from nearly any wound.
 
-**Prereq:** Manifestation level 3rd, unlife
+**Prerequisites:** Manifestation level 3rd, unlife
 
 **Gift:** When you use the ability of the _unlife_ manifestation, you gain
 [fast healing](ref/umr/fast-healing) 3 instead of fast healing 1. While the fast healing lasts, you
@@ -160,9 +156,9 @@ sunlight.
 
 **Life Drain**
 
-**Flavor:** You can drain life from those you harm.
+You can drain life from those you harm.
 
-**Prereq:** Manifestation level 2nd
+**Prerequisites:** Manifestation level 2nd
 
 **Gift:** You gain a slam attack, a primary natural attack that deals 1d6 points of bludgeoning
 damage if your size is Medium (1d4 if Small). If you confirm a critical hit with this attack, you
@@ -174,9 +170,9 @@ creature.
 
 **True Unlife**
 
-**Flavor:** You can cheat death.
+You can cheat death.
 
-**Prereq:** Manifestation level 3rd, greater unlife, unlife
+**Prerequisites:** Manifestation level 3rd, greater unlife, unlife
 
 **Gift:** When you're reduced to fewer than 0 hit points but not slain and you have a use of
 [fast healing](ref/umr/fast-healing) remaining, you immediately assume
@@ -193,9 +189,9 @@ direct sunlight, you are slain and can't be brought back to life without
 
 **Unlife**
 
-**Flavor:** You heal at a phenomenal rate.
+You heal at a phenomenal rate.
 
-**Prereq:** Manifestation level 3rd
+**Prerequisite:** Manifestation level 3rd
 
 **Gift:** As a **standard action** a number of times per day equal to half your manifestation level,
 you can grant yourself [fast healing](ref/umr/fast-healing) 1 for 1 minute.
@@ -206,9 +202,9 @@ sunlight.
 
 **Vampiric Grace**
 
-**Flavor:** You move with a predator's grace.
+You move with a predator's grace.
 
-**Prereq:** Manifestation level 2nd
+**Prerequisite:** Manifestation level 2nd
 
 **Gift:** You gain [Dodge](ref/feat/dodge) as a bonus feat and a +2 racial bonus on
 [Stealth](ref/skill/stealth) checks.
