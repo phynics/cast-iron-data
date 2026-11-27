@@ -233,6 +233,61 @@ destroys the scroll. At the end of this time, the witch must make a Spellcraft c
 level). If the check fails, the process went awry in some way and the spell is not learned, although
 the scroll is still consumed.
 
+### Witch's Familiar {#witch-familiar-rules}
+
+By forging strange bonds with unnameable beings, witches gain the service of a mystical advisor, a
+familiar to both serve her and reveal to her secrets unknown to most mortals. A familiar is an
+animal chosen by a witch to aid her in her spellcasting and grant her special powers. This uses the
+same rules as the wizard's arcane bond class feature (see pages 78 and 82 of the _Pathfinder RPG
+Core Rulebook_), except as noted below. A witch uses her level as her effective wizard level when
+determining the abilities of her familiar. A witch can choose any of the familiars available to a
+wizard in addition to the new familiars presented here.
+
+Levels of different classes that are entitled to familiars stack for the purpose of determining any
+familiar abilities that depend on the witch's level. If a witch possesses such levels, her familiar
+always uses the witch rules for familiars, not those provided by other classes, such as wizards or
+sorcerers with the arcane bloodline. A witch's familiar only stores witch spells. All other spells
+are stored normally, as noted in their class features.
+
+If a familiar is lost or dies, it can be replaced 1 day later through a special ritual that costs
+500 gp per witch level. The ritual takes 8 hours to complete. A new familiar begins knowing all of
+the 0-level spells plus two spells of every level the witch is able to cast. These are in addition
+to any bonus spells known by the familiar based on the witch's level and her patron (see
+[patron spells](ref/class/witch#patron-spells)).
+
+**Store Spells:** Starting at 1st level, a witch's familiar stores all of the spells that the witch
+knows. This does not allow the familiar to cast these spells or use spell-trigger or spell
+completion magic items. Starting at 2nd level, and every two levels thereafter, a witch's familiar
+adds new bonus spells to the witch's spell list based on her patron. These spells are automatically
+stored by the familiar and can be prepared as normal once they are gained.
+
+**Deliver Touch Spells (Su):** If a witch is 3rd level or higher, her familiar can deliver touch
+spells or hexes for her. If the witch and the familiar are in contact at the time the witch casts a
+touch spell, she can designate her familiar as the "toucher." The familiar can then deliver the
+touch spell just as the witch would. As usual, if the witch casts another spell before the touch is
+delivered, the touch spell dissipates. If the witch activates a hex, her familiar can be used to
+make the touch. She does not have to be in contact with the familiar to use this ability.
+
+#### New Familiars {#new-familiars}
+
+In addition to the familiars presented in the _Pathfinder RPG Core Rulebook_, witches might select
+any of the following animals as their familiar. Sorcerers and wizards might also adopt these new
+familiars, utilizing the same rules as for any other familiar.
+
+These familiars make use of statistics presented in the _Pathfinder RPG Bestiary_ (on the noted
+pages), specifically the house centipede (43), king crab (50), greensting scorpion (242), fox (dog
+with the young template, 87), octopus (octopus with the young template, 219), and scarlet spider
+(258).
+
+|Familiar|Special Ability|
+| --- | --- |
+|Centipede|Master gains a +3 bonus on Stealth checks|
+|Crab|Master gains a +2 bonus on grapple checks|
+|Fox|Master gains a +2 bonus on Reflex saves|
+|Octopus|Master gains a +3 bonus on Swim checks|
+|Scorpion|Master gains a +2 bonus on initiative rolls|
+|Spider|Master gains a +3 bonus on Climb checks|
+
 ### Alternate Capstones
 
 When a character reaches the 20th level of a class, she gains a powerful class feature or ability,
