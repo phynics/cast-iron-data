@@ -5304,6 +5304,7 @@ def printed_trade_sentences(section: list) -> list[str]:
     """Every "This replaces/alters/changes ..." sentence of the printed span of an archetype, in print order."""
     text = re.sub(r"\s+", " ", " ".join(b.plain() for b in section if b.kind == "para"))
     text = re.sub(r"\b1oth\b", "10th", text)      # the text layer reads a zero as a letter
+    text = re.sub(r"(?<=[a-z])\.(?=(?:This|These|It)\s+(?:ability|abilities|replaces|alters|modifies)\b)", ". ", text)       # a line end that lost its blank ("planar binding.This" / "ability replaces ...", Champions of Corruption p. 24)
     return [re.sub(r"\s+", " ", m.group(0)).strip() for m in PRINTED_TRADE.finditer(text)]
 
 
@@ -6093,6 +6094,7 @@ def self_test() -> int:
     eq(first_level_key("Shifter aspect and all improvements of shifter aspect"), "shifter aspect", "improvements of")
     eq(first_level_key("Wild shape"), "wild shape", "a plain name is unchanged")
     eq(first_level_key("Blessings (minor)"), first_level_key("Blessings"), "a parenthesis of the class table")
+    eq(printed_trade_sentences([Para("para", [("greater planar binding.This ability replaces greater shield ally.", False, False)], "1", 0)]), ["This ability replaces greater shield ally."], "a printed trade sentence behind a lost blank")
     eq(finish_text("a fortune-teller (see page 37)influences people", set()), "a fortune-teller (see page 37) influences people", "a blank behind a page reference")
     eq(first_level_key("The Brew Potion bonus feat"), first_level_key("Brew Potion"), "a bonus feat of a name is that name, as the class table writes it")
     eq(first_level_key("Bonus feats"), "bonu feat", "Bonus feats alone stays")
