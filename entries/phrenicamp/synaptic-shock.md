@@ -8,13 +8,16 @@ provenance = [
 ]
 [[sources]]
 publication = "occult-adventures"
-page = "64"
+page = "63-64"
 
 [fields]
 kind = "class_option"
 group = "phrenic-amplification"
 ability_type = "Su"
 +++
+
+Major Amplifications: At 11th level and every 4 levels thereafter, a psychic can choose one of the
+following major amplifications in place of a phrenic amplification.
 
 The psychic manipulates an enemy's mind with brute force, causing mental harm beyond that done by
 her linked spell. She can spend 1 point from her phrenic pool when casting a mind-affecting linked

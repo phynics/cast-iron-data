@@ -16,6 +16,9 @@ group = "phrenic-amplification"
 ability_type = "Ex"
 +++
 
+Major Amplifications: At 11th level and every 4 levels thereafter, a psychic can choose one of the
+following major amplifications in place of a phrenic amplification.
+
 When the psychic gains this amplification, she chooses two metamagic feats; she need not have these
 feats to select them. When she casts a spell, she can spend points from her phrenic pool to apply
 one of the chosen feats to the linked spell without increasing the spell's level or casting time.

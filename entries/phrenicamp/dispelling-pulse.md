@@ -16,6 +16,9 @@ group = "phrenic-amplification"
 ability_type = "Su"
 +++
 
+Major Amplifications: At 11th level and every 4 levels thereafter, a psychic can choose one of the
+following major amplifications in place of a phrenic amplification.
+
 The psychic can spend 3 points from her phrenic pool to entwine dispelling magic with a targeted
 spell. If the target is hit by the linked spell or fails its saving throw, it's affected as though
 the psychic had cast a targeted _[dispel magic](ref/spell/dispel-magic)_ spell on it. This effect

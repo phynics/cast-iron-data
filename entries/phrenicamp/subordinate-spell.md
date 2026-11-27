@@ -8,13 +8,16 @@ provenance = [
 ]
 [[sources]]
 publication = "occult-adventures"
-page = "64"
+page = "63-64"
 
 [fields]
 kind = "class_option"
 group = "phrenic-amplification"
 ability_type = "Ex"
 +++
+
+Major Amplifications: At 11th level and every 4 levels thereafter, a psychic can choose one of the
+following major amplifications in place of a phrenic amplification.
 
 The psychic can divide her mind to cast a less powerful spell upon herself alongside her linked
 spell. The linked spell can't be lower than 5th level and can't take less than a standard action to

@@ -213,6 +213,10 @@ def extract_print(corpus: Path, book: str, books_dir: Path, cache_dir: Path) -> 
         vocab = source.vocab | {w.lower() for w in re.findall(r"[A-Za-z]+(?:-[A-Za-z]+)*", entry.body)}
         text, _, _ = fp.print_md(feature, links, vocab, entry.id)
         text = printed_region_text(book, entry.id, text)
+        if entry.id in options.GROUP_LINE_ENTRIES:
+            group = options.group_map(source).of(entry.title, page)
+            if group:
+                text = group[0] + "\n\n" + text
         family = entry.id.split("/")[1]
         if row["note"] and "opens with print's sentence about the mark" in row["note"]:
             intro = options.marked_head_intro(book, entry.id)
