@@ -1384,7 +1384,7 @@ def find_section(blocks: list[Para], title: str, stops: set[str] | None = None) 
     """The blocks of an archetype: from its title to the next title of another archetype or of a class. Another
     title in between (a sidebar, a table heading) is a heading of the section. With no `stops`, the next title of
     any kind ends it."""
-    key = squash(re.sub(r"\s*\([A-Z]{2,4}\)\s*$", "", title))        # "Ringleader (UI)": the corpus's mark of a second archetype of the name
+    key = squash(re.sub(r"\s*\((?:[A-Z]{2,4}|HotW)\)\s*$", "", title))        # "Ringleader (UI)", "Wild Caller (HotW)": the corpus's mark of a second archetype of the name
     start = 0
     if SUFFIXED_TITLE_FIRST["on"]:
         # a feat or a heading of the same name stands before the archetype's title ("School Familiar" the feat, "School Familiar (Familiar Archetype)"):
@@ -3132,7 +3132,7 @@ def balance_marks(s: str) -> str:
 
 
 def head_text(head: str) -> str:
-    return re.sub(r"\s+", " ", head.replace("’", "'").replace("‘", "'")).strip()
+    return re.sub(r"\(\s+", "(", re.sub(r"\s+", " ", head.replace("’", "'").replace("‘", "'"))).strip()      # "Conifer ( forest, mountain)": a space after the parenthesis that the layer sets
 
 
 def unprinted_notes(opening: list[list[str]], printed: list[str]) -> list[int]:
@@ -3304,7 +3304,7 @@ def compare_entry(e: Entry, section: list[Para], book: Book) -> dict:
     probe = {namekey(h) for h in [head_of_para(p) for p in section[1:]] if h}
     opening_imp, feats = parse_import(e.body, probe)
     names = [f.name for f in feats]
-    opening_print, pfeats = split_print(section, plain_names + [tail_name(n) for n in names])
+    opening_print, pfeats = split_print(section, plain_names + [tail_name(n) for n in names] + ITALIC_HEADS.get(e.id, []))
     ERRATA_CTX["used"] -= {u for u in ERRATA_CTX["used"] if u[0] == e.id}
     for pf in pfeats:
         rep = ERRATA_FEATURES.get((e.id, anchor_of(head_text(pf.head))))
@@ -4334,6 +4334,7 @@ TABLE_NAMES = {
     ("ref/arc-alchemist/oozemaster", "The bomb class feature"): "Bomb",
     ("ref/arc-alchemist/oozemaster", "Brew Potion, though an oozemaster can still select Brew Potion without meeting the feat's prerequisites"): "Brew potion",
     ("ref/arc-summoner/morphic-savant", "Summon monster"): "Summon monster I",
+    ("ref/arc-summoner/wild-caller-hotw", "Summon monster"): "Summon monster I",
     ("ref/arc-unchained-summoner/morphic-savant", "Summon monster"): "Summon monster I",
     ("ref/arc-summoner/unwavering-conduit", "Summon monster"): "Summon monster I",
     ("ref/arc-summoner/storm-caller", "the summoner's summon monster I\u2013IX abilities"): "Summon monster I",
@@ -4709,7 +4710,7 @@ BATCH_B_BOOKS = ("psychic-anthology", "disciples-doctrine", "occult-origins", "a
 BATCH_B4_BOOKS = ("merchants-manifest", "champions-of-corruption")     # the lead reader of `LEAD_EXT` reads them (batch B4)
 BATCH_B3_BOOKS = ("dirty-tactics-toolbox", "villain-codex", "weapon-masters-handbook", "melee-tactics-toolbox", "distant-realms")     # the lead reader of `LEAD_EXT` reads them (batch B3)
 PLAYER_COMPANIONS = ("blood-of-the-ancients", "wilderness-origins", "legacy-of-the-first-world", "people-of-the-wastes", "healers-handbook", "psychic-anthology", "disciples-doctrine", "occult-origins", "arcane-anthology", "blood-of-the-coven",
-                     "elemental-masters-handbook", "monster-hunters-handbook", "monster-summoners-handbook", "armor-masters-handbook", "cohorts-and-companions")
+                     "elemental-masters-handbook", "monster-hunters-handbook", "monster-summoners-handbook", "armor-masters-handbook", "cohorts-and-companions", "heroes-of-the-wild")
 
 # The Player Companions that set their archetype titles in small capitals (a capital and its small capitals 5 units apart), and whose
 # archetypes are followed by sections of the chapter of their own (feats, techniques, spells): any title ends the section of an archetype.
@@ -6591,6 +6592,15 @@ MISPRINTS.extend([
     ("ref/arc-bard/luring-piper", "using the lurid piper's bard level", "using the luring piper's bard level",
      "the archetype is the luring piper; \"lurid piper\" is a wrong proper name (Monster Hunter's Handbook p. 11; owner ruling 43)"),
 ])
+# Italic heads that the print sets as the options of a feature and that the import lacks (an italic head is a head only when the entry expects its name)
+ITALIC_HEADS = {
+    "ref/arc-summoner/wild-caller-hotw": ["Base Form", "Cactus (desert)", "Conifer (forest, mountain)", "Mushroom (swamp, underground)", "Tree (forest, jungle, swamp)"],
+}
+# ---- Batch A4: Pathfinder 139, 144 and 5, Horror Realms, Guide to the River Kingdoms, Heroes of the Wild, Familiar Folio (2) ----
+TRADE_ADDITIONS["ref/arc-summoner/wild-caller-hotw"] = [{"alters": "the summoner's eidolon", "feature": "eidolon"}]
+# print: "This ability replaces aspect, which is instead gained at 18th level in place of greater aspect": one `replaces` trade in the printed words
+TRADE_RENAMES[("ref/arc-summoner/wild-caller-hotw", "Aspect")] = "Aspect, which is instead gained at 18th level in place of greater aspect"
+TRADE_MERGED["ref/arc-summoner/wild-caller-hotw"] = [("replaces", "Greater aspect")]
 # ---- Batch A3: Elemental Master's Handbook, Monster Hunter's Handbook, Monster Summoner's Handbook, Armor Master's Handbook, Cohorts and Companions ----
 LEVEL_FROM_PRINT.update({
     ("ref/arc-paladin/divine-guardian", "bonus-feat"): (7, "print says \"A divine guardian gains a bonus feat at 7th level\" (Cohorts and Companions p. 23); the hand edit of the ability keeps the level"),
