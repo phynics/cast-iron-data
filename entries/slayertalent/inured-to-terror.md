@@ -13,16 +13,12 @@ page = "18"
 [fields]
 kind = "class_option"
 group = "slayer-talent"
+ability_type = "Ex"
 +++
 
-**Inured to Terror (Ex)**
-
-**Flavor:** With their knowledge of the cyclical nature of existence, there are few experiences that
-can daunt samsaran slayers for long.
-
-**Immediate:** When a slayer fails a saving throw against a fear effect, he can attempt the saving
-throw a second time to reduce the severity of the effect from [panicked](ref/misc/panicked) to
-[frightened](ref/misc/frightened), frightened to [shaken](ref/misc/shaken), or shaken to unaffected.
-Additionally, the DC of Intimidate checks to demoralize him increases by 2.
-
-**Prereq:** [Samsaran](ref/race/samsaran)
+With their knowledge of the cyclical nature of existence, there are few experiences that can daunt
+[samsaran](ref/race/samsaran) slayers for long. As an immediate action when a slayer fails a saving
+throw against a fear effect, he can attempt the saving throw a second time to reduce the severity of
+the effect from [panicked](ref/misc/panicked) to [frightened](ref/misc/frightened), frightened to
+[shaken](ref/misc/shaken), or shaken to unaffected. Additionally, the DC of Intimidate checks to
+demoralize him increases by 2.

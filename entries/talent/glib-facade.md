@@ -13,12 +13,10 @@ page = "27"
 [fields]
 kind = "class_option"
 group = "rogue-talent"
+ability_type = "Sp"
 +++
 
-**Glib Facade (Sp)**
-
-**Ability:** Once per day, a rogue with this advanced talent can use [glibness](ref/spell/glibness)
-as a [spell-like ability](ref/umr/spell-like-abilities), using her rogue level as the spell's caster
-level.
-
-**Prereq:** [Innocent facade](ref/talent/innocent-facade)
+Once per day, a rogue with this advanced talent can use _[glibness](ref/spell/glibness)_ as a
+[spell-like ability](ref/umr/spell-like-abilities), using her rogue level as the spell's caster
+level. A rogue must have the [innocent facade](ref/talent/innocent-facade) rogue talent before
+selecting this talent.

@@ -13,11 +13,10 @@ page = "21"
 [fields]
 kind = "class_option"
 group = "ninja-trick"
+ability_type = "Ex"
 +++
 
-**Deep Cover (Ex)**
-
-**Ability:** A ninja with this trick gains the _dual identity_ and _seamless guise_ class feature as
-a [vigilante](ref/class/vigilante), except that the ninja can spend 1 ki point to change identities
-as a **move action**. The ninja's identities are referred to as social and ninja, rather than social
-and vigilante.
+A ninja with this trick gains the dual identity and seamless guise class feature as a
+[vigilante](ref/class/vigilante), except that the ninja can spend 1 ki point to change identities as
+a move action. The ninja's identities are referred to as social and ninja, rather than social and
+vigilante.

@@ -13,15 +13,13 @@ page = "26"
 [fields]
 kind = "class_option"
 group = "social-talent"
+ability_type = "Su"
 +++
 
-**Guise of Unlife (Su)**
-
-**Ability:** A vigilante with this talent gains an additional social identity in the form of an
-undead version of one of his existing social identities, such as a [ghoul](ref/monster/ghoul),
+A vigilante with this talent gains an additional social identity in the form of an undead version of
+one of his existing social identities, such as a [ghoul](ref/monster/ghoul),
 [vampire](ref/template/vampire), or [zombie](ref/template/zombie). Successful Knowledge checks
 reveal information about the vigilante as if he were undead, and he counts as undead for the purpose
 of divination spells and effects. He gains no other benefit from appearing to be an undead creature,
-and remains vulnerable to negative energy and spells that effect the living.
-
-**Prereq:** The vigilante must be a living creature
+and remains vulnerable to negative energy and spells that effect the living. The vigilante must be a
+living creature to select this talent.

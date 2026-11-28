@@ -1,0 +1,38 @@
+entry	anchor	decision	note
+ref/arcanedisc/faith-magic	faith-magic	hold	Printing evidence: owned copy credits page bears ©2016; it does not state a printing number. "rule word: corpus ['deity', 'worship'] / print -; rule 3: the prerequisite row ""Worship a deity"" is not all print's sentences: it stays in the comparison"
+ref/arcanedisc/psychic-preparation	psychic-preparation	print	label rows removed; wording unchanged
+ref/blessing/curse	deities	hold	multi-power: separate reviewed batch
+ref/blessing/curse	hexing-attack-minor	hold	multi-power: separate reviewed batch
+ref/blessing/curse	divine-scourge-cleric-archetype	hold	multi-power: separate reviewed batch
+ref/blessing/curse	curser	hold	multi-power: separate reviewed batch
+ref/blessing/curse	divine-hexes	hold	multi-power: separate reviewed batch
+ref/blessing/curse	overseer-sha-m-an-archetype	hold	multi-power: separate reviewed batch
+ref/blessing/curse	controlling-magic	hold	multi-power: separate reviewed batch
+ref/blessing/curse	spirit-surge	hold	multi-power: separate reviewed batch
+ref/blessing/curse	toxicologist-druid-archetype	hold	multi-power: separate reviewed batch
+ref/blessing/curse	expanded-repertoire	hold	multi-power: separate reviewed batch
+ref/blessing/curse	natural-poison-lore	hold	multi-power: separate reviewed batch
+ref/blessing/curse	expert-poisoner	hold	multi-power: separate reviewed batch
+ref/blessing/curse	toxic-shaper	hold	multi-power: separate reviewed batch
+ref/blessing/curse	retributive-curse-major	hold	multi-power: separate reviewed batch
+ref/discovery/alchemical-strike	alchemical-strike	hold	head not printed
+ref/invtalent/eldritch-conduit	eldritch-conduit	hold	rule word: corpus ['investigator', 'investigator', 'investigator'] / print ['rogue', 'rogue', 'rogue']
+ref/invtalent/innocent-facade	innocent-facade	hold	"rule word: corpus - / print ['before', 'magic', 'minor', 'must', 'place', 'rogue', 'rogue', 'rogue', 'rogue', 'select', 'selecting', 'talent', 'talent', 'talent', 'talent']; rule 3: the prerequisite item ""Underworld inspiration"" is print's sentence that says the character must have it"
+ref/invtalent/just-a-face-in-the-crowd	just-a-face-in-the-crowd	hold	rule word: corpus ['investigator'] / print ['rogue']
+ref/invtalent/occult-dungeoneer	occult-dungeoneer	hold	rule word: corpus ['find', 'investigator', 'investigator', 'investigator', 'investigator'] / print ['detect', 'rogue', 'rogue', 'rogue', 'rogue']; link not placed: find traps
+ref/invtalent/rapid-perception	rapid-perception	hold	"rule word: corpus - / print ['investigator', 'place', 'rogue', 'rogue', 'select', 'talent', 'talent']; rule 3: the prerequisite item ""Expanded inspiration"" is print's sentence that says the character must have it"
+ref/invtalent/scry-slip	scry-slip	hold	rule word: corpus ['investigator'] / print ['place', 'rogue', 'rogue', 'rogue', 'select', 'talent', 'talent']; the print head matches more than one entry: ref/invtalent/scry-slip, ref/talent/scry-slip
+ref/invtalent/spell-storing	spell-storing	hold	"number: corpus ['investigator', 'investigator', 'investigator', 'trained'] / print ['1', 'must', 'rank', 'rogue', 'rogue', 'rogue', 'rogue', 'select', 'talent']; rule 3: the prerequisite row ""Trained in Use Magic Device"" is not all print's sentences: it stays in the comparison; the print head matches more than one entry: ref/invtalent/spell-storing, ref/talent/spell-storing"
+ref/invtalent/the-whole-time	the-whole-time	hold	rule word: corpus ['investigator', 'investigator', 'investigator'] / print ['rogue', 'rogue', 'rogue']
+ref/talent/dampen-presence	dampen-presence	print	label rows removed; wording unchanged
+ref/talent/eldritch-conduit	eldritch-conduit	print	Replaced the import effect rows with the printed paragraph wording.
+ref/talent/glib-facade	glib-facade	print	"rule 3: the prerequisite item ""Innocent facade"" is print's sentence that says the character must have it"
+ref/talent/innocent-facade	innocent-facade	hold	"rule word: corpus - / print ['before', 'inspiration', 'instead', 'investigator', 'investigator', 'investigator', 'magic', 'minor', 'must', 'place', 'rogue', 'select', 'selecting', 'talent', 'talent', 'talent', 'talent', 'underworld']; rule 3: the prerequisite item ""Minor magic"" is print's sentence that says the character must have it"
+ref/talent/just-a-face-in-the-crowd	just-a-face-in-the-crowd	print	Replaced the import effect rows with the printed paragraph wording.
+ref/talent/occult-dungeoneer	occult-dungeoneer	hold	rule word: corpus ['pit', 'snare'] / print ['trap']; link not placed: detect snares and pits; resolution of #537: Magic Tactics Toolbox p. 7
+ref/talent/rapid-perception	rapid-perception	hold	rule word: corpus - / print ['before', 'expanded', 'inspiration', 'investigator', 'investigator', 'investigator', 'must', 'place', 'rogue', 'select', 'selecting', 'talent', 'talent', 'talent', 'talent']
+ref/talent/scry-slip	scry-slip	hold	rule word: corpus - / print ['investigator', 'investigator', 'place', 'select', 'talent', 'talent']; the print head matches more than one entry: ref/invtalent/scry-slip, ref/talent/scry-slip
+ref/talent/spell-storing	spell-storing	hold	"number: corpus ['trained'] / print ['1', 'must', 'rank', 'rogue', 'select', 'talent']; rule 3: the prerequisite row ""Trained in Use Magic Device"" is not all print's sentences: it stays in the comparison; the print head matches more than one entry: ref/invtalent/spell-storing, ref/talent/spell-storing"
+ref/talent/superior-sniper	superior-sniper	hold	number: corpus - / print ['10', 'dirty', 'tactic', 'toolbox']
+ref/talent/the-whole-time	the-whole-time	print	Replaced the import effect rows with the printed paragraph wording.
+ref/talent/unlock-ki	unlock-ki	hold	"number: corpus ['1', '2', 'appropriate', 'choice', 'number', 'point', 'rank', 'skill', 'skill', 'skill', 'spend'] / print ['advanced', 'before', 'must', 'rogue', 'selecting', 'talent']; rule 3: the prerequisite item ""Has a ki pool"" is print's sentence that says the character must have it; print's tag differs from the import's: 'Unlock Ki (Ex)' against 'Unlock Ki (Su)'"

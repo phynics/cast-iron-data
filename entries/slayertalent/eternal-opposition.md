@@ -13,14 +13,11 @@ page = "18"
 [fields]
 kind = "class_option"
 group = "slayer-talent"
+ability_type = "Ex"
 +++
 
-**Eternal Opposition (Ex)**
-
-**Passive:** While most imperial dragons, undead, and other long-enduring foes can count on
-outlasting their mortal adversaries, the samsaran slayer has pledged to oppose their machinations
-across all his lifetimes. When his _studied target_ is of the dragon, fey, outsider, or undead type,
-the slayer gains a +2 insight bonus to his AC against its attacks and on saving throws against its
-abilities.
-
-**Prereq:** [Samsaran](ref/race/samsaran)
+While most imperial dragons, undead, and other long-enduring foes can count on outlasting their
+mortal adversaries, the [samsaran](ref/race/samsaran) slayer has pledged to oppose their
+machinations across all his lifetimes. When his studied target is of the dragon, fey, outsider, or
+undead type, the slayer gains a +2 insight bonus to his AC against its attacks and on saving throws
+against its abilities.

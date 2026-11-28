@@ -1,0 +1,112 @@
+# The printed text of the powers of the class options of the book, written ones included (the check reads an entry against it). Generated: never edit by hand.
+
+[[entry]]
+id = "ref/arcanedisc/observant-illusion"
+anchor = "observant-illusion"
+print = "You can project your senses into any ongoing figment or shadow illusion you create with a spell of at least 3rd level. You can see through its eyes and hear through its ears as if you were standing where it is, and during your turn you can switch from using its senses to using your own, or back again, as a swift or move action. While you are using its senses, your body is considered [blinded](ref/misc/blinded) and [deafened](ref/misc/deafened). You must be at least a 9th-level wizard to choose this discovery."
+
+[[entry]]
+id = "ref/discovery/glimmering-infusion"
+anchor = "glimmering-infusion"
+print = "The alchemist can expend any prepared extract to produce a cube of glowing motes that act as per _[glitterdust](ref/spell/glitterdust)_. The area must be adjacent to the alchemist and covers one 5-foot square per level of extract sacrificed, and the effect's save DC is calculated using the level of the sacrificed extract. The alchemist must have the [infusion](ref/discovery/infusion) discovery to choose this discovery."
+
+[[entry]]
+id = "ref/invtalent/one-of-those-faces"
+anchor = "one-of-those-faces"
+print = "Each day, you can use _[disguise self](ref/spell/disguise-self)_ as a [spell-like ability](ref/umr/spell-like-abilities) for up to 10 minutes per character level. This duration need not be continuous, but it must be used in 10-minute increments. Additionally, once you have used this ability, whenever you use it for the next 24 hours you must take the same alternate appearance."
+
+[[entry]]
+id = "ref/invtalent/scrying-familiarity"
+anchor = "scrying-familiarity"
+print = "You are well acquainted with scrying sensors. You can roll twice and take the better result on saving throws against divination (scrying) spells and effects, on [Perception](ref/skill/perception) checks to notice scrying sensors, and on caster level checks to overcome [spell resistance](ref/rule/spell-resistance) when you use a scrying spell or effect. If you notice a magical sensor, you can attempt a [Stealth](ref/skill/stealth) check opposed by the caster's caster level check to avoid being detected by the sensor."
+
+[[entry]]
+id = "ref/slayertalent/one-of-those-faces"
+anchor = "one-of-those-faces"
+print = "Each day, you can use _[disguise self](ref/spell/disguise-self)_ as a [spell-like ability](ref/umr/spell-like-abilities) for up to 10 minutes per character level. This duration need not be continuous, but it must be used in 10-minute increments. Additionally, once you have used this ability, whenever you use it for the next 24 hours you must take the same alternate appearance."
+
+[[entry]]
+id = "ref/slayertalent/scrying-familiarity"
+anchor = "scrying-familiarity"
+print = "You are well acquainted with scrying sensors. You can roll twice and take the better result on saving throws against divination (scrying) spells and effects, on Perception checks to notice scrying sensors, and on caster level checks to overcome [spell resistance](ref/rule/spell-resistance) when you use a scrying spell or effect. If you notice a magical sensor, you can attempt a Stealth check opposed by the caster's caster level check to avoid being detected by the sensor."
+
+[[entry]]
+id = "ref/soctalent/entrepreneur"
+anchor = "entrepreneur"
+print = "Select any one Intelligence-, Wisdom-, or Charisma-based skill other than Perception or Use Magic Device. The vigilante can use the selected skill to earn money as if he were using a Profession skill. If he selects Perform or Profession, the vigilante instead gains the skill unlock powers for those skills as appropriate for his number of ranks in that skill (_Pathfinder RPG Pathfinder Unchained_ 82). If he has the [social grace](ref/soctalent/social-grace) social talent, he can apply this benefit to all skills selected with the social grace talent."
+
+[[entry]]
+id = "ref/soctalent/guise-of-life"
+anchor = "guise-of-life"
+print = "An undead vigilante with this talent gains an additional social identity in the form of one living creature identical to the vigilante's appearance in life. Successful Knowledge checks reveal information about the vigilante as if he were a living creature, and he counts as living for the purpose of divination spells and effects. He gains no other benefit from appearing to be a living creature, and remains vulnerable to positive energy and spells that effect undead. The vigilante must be a corporeal undead creature to select this talent. Humanoid vigilantes with the [negative energy affinity](ref/carried/bestiary/rules/universal-monster-rules/negative-energy-affinity) racial trait can also select this talent, gaining a human social identity."
+
+[[entry]]
+id = "ref/soctalent/guise-of-unlife"
+anchor = "guise-of-unlife"
+print = "A vigilante with this talent gains an additional social identity in the form of an undead version of one of his existing social identities, such as a [ghoul](ref/monster/ghoul), [vampire](ref/template/vampire), or [zombie](ref/template/zombie). Successful Knowledge checks reveal information about the vigilante as if he were undead, and he counts as undead for the purpose of divination spells and effects. He gains no other benefit from appearing to be an undead creature, and remains vulnerable to negative energy and spells that effect the living. The vigilante must be a living creature to select this talent."
+
+[[entry]]
+id = "ref/soctalent/intrigue-feats"
+anchor = "intrigue-feats"
+print = "The vigilante gains one of the following feats as a bonus feat: [Blustering Bluff](ref/feat/blustering-bluff), [But a Scratch](ref/feat/but-a-scratch), [Call Truce](ref/feat/call-truce), [Confabulist](ref/feat/confabulist), [Criminal Reputation](ref/feat/criminal-reputation), [Cutting Humiliation](ref/feat/cutting-humiliation), [Esoteric Linguistics](ref/feat/esoteric-linguistics), [Intoxicating Flattery](ref/feat/intoxicating-flattery), [Ironclad Logic](ref/feat/ironclad-logic), [Nerve-Racking Negotiator](ref/feat/nerve-racking-negotiator), [Orator](ref/feat/orator), [Persuasive Bribery](ref/feat/persuasive-bribery), [Play to the Crowd](ref/feat/play-to-the-crowd), [Quick Favor](ref/feat/quick-favor), [Rhetorical Flourish](ref/feat/rhetorical-flourish), [Sense Assumptions](ref/feat/sense-assumptions), [Sense Relationships](ref/feat/sense-relationships), or [Street Smarts](ref/feat/street-smarts). He must meet the feat's prerequisites. This talent can be selected multiple times; each time, the vigilante gains a new feat from the above list."
+
+[[entry]]
+id = "ref/soctalent/well-known-expert"
+anchor = "well-known-expert"
+print = '''
+The vigilante's social identity is known as an expert in numerous fields, including areas and topics the vigilante hasn't actually taken the time to study. As a result the vigilante is skilled at encouraging others to discover solutions to difficult problems themselves by asking probing questions, while appearing to give the information himself.
+
+In his social identity, the vigilante can take 10 when attempting to [aid another](ref/rule/aid-another) on [Appraise](ref/skill/appraise), [Craft](ref/skill/craft-any), and [Knowledge](ref/skill/knowledge-all) checks. He also gains a bonus equal to [half](ref/misc/fractions-and-rounding) his class level (minimum +1) on Bluff checks to appear knowledgeable in Appraise, Craft (all), and Knowledge (all). If he has the [renown](ref/soctalent/renown) social talent, he grants a +3 bonus when he successfully aids another on these skill checks, rather than +2.
+
+In his area of renown, the vigilante's social identity is so trusted as an expert that scholars are inspired to make amazing deductions and intuitive leaps in discussions with him. A creature that has already failed a Knowledge check on a specific subject can attempt one additional check to gain information on the same topic if it receives an aid another bonus from the vigilante when doing so.'''
+
+[[entry]]
+id = "ref/talent/one-of-those-faces"
+anchor = "one-of-those-faces"
+print = "Each day, you can use _[disguise self](ref/spell/disguise-self)_ as a [spell-like ability](ref/umr/spell-like-abilities) for up to 10 minutes per character level. This duration need not be continuous, but it must be used in 10-minute increments. Additionally, once you have used this ability, whenever you use it for the next 24 hours you must take the same alternate appearance."
+
+[[entry]]
+id = "ref/talent/scrying-familiarity"
+anchor = "scrying-familiarity"
+print = "You are well acquainted with scrying sensors. You can roll twice and take the better result on saving throws against [divination (scrying)](ref/spelldef/scrying) spells and effects, on [Perception](ref/skill/perception) checks to notice scrying sensors, and on caster level checks to overcome [spell resistance](ref/rule/spell-resistance) when you use a scrying spell or effect. If you notice a magical sensor, you can attempt a [Stealth](ref/skill/stealth) check opposed by the caster's caster level check to avoid being detected by the sensor."
+
+[[entry]]
+id = "ref/vigtalent/concealed-strike"
+anchor = "concealed-strike"
+print = "Whenever the vigilante attacks an opponent with a concealed weapon that his target wasn't aware of, he can attempt a Bluff check to [feint](ref/rule/feint) that opponent as a move action. If he has the [Improved Feint](ref/feat/improved-feint) feat, he attempts this check as a free action instead. A vigilante must be at least 6th level to select this talent."
+
+[[entry]]
+id = "ref/vigtalent/fantastic-stride"
+anchor = "fantastic-stride"
+print = "The vigilante gains [Spring Attack](ref/feat/spring-attack) as a bonus feat, ignoring its prerequisites. At 10th level and every 4 levels thereafter, the vigilante can designate one additional creature when he uses Spring Attack. The vigilante's movement this round does not provoke attacks of opportunity from any of these secondary creatures. A vigilante must be at least 6th level to select this talent."
+
+[[entry]]
+id = "ref/vigtalent/major-magic"
+anchor = "major-magic"
+print = "A vigilante with this talent gains the ability to cast a 1st-level spell drawn from the same spell list as the [minor magic](ref/vigtalent/minor-magic) talent. The vigilante can cast this spell once per day as a [spell-like ability](ref/umr/spell-like-abilities) for every 4 vigilante levels he has. The caster level for this ability is equal to the vigilante's level. The save DC for this spell is equal to 10 + the vigilante's Intelligence modifier (for psychic, sorcerer/wizard, and witch spells), Wisdom (for cleric, druid, and shaman spells), or Charisma (for bard spells). A vigilante must be at least 4th level, have the [minor magic](ref/vigtalent/minor-magic) vigilante talent, and have a score of at least 11 in the appropriate ability to select this talent."
+
+[[entry]]
+id = "ref/vigtalent/minor-magic"
+anchor = "minor-magic"
+print = '''
+A vigilante with this talent selects one of the following spells lists: bard, cleric, druid, psychic, shaman, sorcerer/wizard, or witch. Once this decision is made, the selection cannot be changed. The vigilante gains the ability to cast a 0-level spell from the selected spell list. This spell can be cast two times per day as a [spell-like ability](ref/umr/spell-like-abilities). The caster level for this ability is equal to the vigilante's level.
+
+The save DC for this spell is equal to 10 + the vigilante's Intelligence modifier (for psychic, sorcerer/wizard, and witch spells), Wisdom (for cleric, druid, and shaman spells), or Charisma (for bard spells).'''
+
+[[entry]]
+id = "ref/vigtalent/mockery"
+anchor = "mockery"
+print = "The vigilante gains [Antagonize](ref/feat/antagonize) as a bonus feat. He can target a creature with the Intimidate version of Antagonize twice each day, rather than just once. At 12th level, the effects of the Intimidate version of Antagonize last a number of rounds equal to the vigilante's Charisma modifier (minimum 1)."
+
+[[entry]]
+id = "ref/vigtalent/take-em-alive"
+anchor = "take-em-alive"
+print = '''
+The vigilante doesn't take the usual -4 penalty on attack rolls made to deal nonlethal damage with weapons that normally deal lethal damage.
+
+In addition, the vigilante gains a +1 bonus on all attack and damage rolls for attacks that deal only nonlethal damage and have no secondary effects (such as poison). This bonus increases by 1 at 5th level and every 3 levels thereafter, to a maximum of +5 at 20th level.'''
+
+[[entry]]
+id = "ref/vigtalent/team-player"
+anchor = "team-player"
+print = "The vigilante gains [Swift Aid](ref/feat/swift-aid) as a bonus feat, ignoring its prerequisites. Additionally, the vigilante can choose to use the feat as a standard action, in which case it applies to every ally adjacent to the vigilante. At 10th level, he can increase the bonus provided to one ally by this feat to +2 by using the [aid another](ref/rule/aid-another-2) action as a move action rather than a swift action."

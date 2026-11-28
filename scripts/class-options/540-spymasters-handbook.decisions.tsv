@@ -1,0 +1,22 @@
+entry	anchor	decision	note
+ref/arcanedisc/observant-illusion	observant-illusion	print	Printing evidence: owned copy credits page bears ©2016; it does not state a printing number. "rule 3: the prerequisite row ""9th-level wizard"" is print's ""must be at least 9th level"" (the same level)"
+ref/discovery/glimmering-infusion	glimmering-infusion	print	"rule 3: the prerequisite item ""Infusion"" is print's sentence that says the character must have it"
+ref/invtalent/one-of-those-faces	one-of-those-faces	print	label rows removed; wording unchanged
+ref/invtalent/scrying-familiarity	scrying-familiarity	print	label rows removed; wording unchanged
+ref/ninjatrick/breath-of-the-ancestors	breath-of-the-ancestors	hold	head not printed
+ref/slayertalent/one-of-those-faces	one-of-those-faces	hold	rule word: corpus - / print ['additionally']; the print head matches more than one entry: ref/invtalent/one-of-those-faces, ref/slayertalent/one-of-those-faces, ref/talent/one-of-those-faces
+ref/slayertalent/scrying-familiarity	scrying-familiarity	print	resolution of #537: Spymaster's Handbook p. 23
+ref/soctalent/entrepreneur	entrepreneur	print	Replaced the import effect rows with the printed paragraph wording.
+ref/soctalent/guise-of-life	guise-of-life	hold	rule word: corpus ['affinity', 'else', 'energy', 'negative', 'or', 'racial', 'trait'] / print ['select', 'talent']; link not placed: negative energy affinity
+ref/soctalent/guise-of-unlife	guise-of-unlife	print	"rule 3: the prerequisite item ""The vigilante must be a living"" is print's sentence that says the character must have it"
+ref/soctalent/intrigue-feats	intrigue-feats	print	label rows removed; wording unchanged
+ref/soctalent/well-known-expert	well-known-expert	print	label rows removed; wording unchanged
+ref/talent/one-of-those-faces	one-of-those-faces	hold	rule word: corpus - / print ['additionally']; the print head matches more than one entry: ref/invtalent/one-of-those-faces, ref/slayertalent/one-of-those-faces, ref/talent/one-of-those-faces
+ref/talent/scrying-familiarity	scrying-familiarity	print	Replaced the import effect rows with the printed paragraph wording.
+ref/vigtalent/concealed-strike	concealed-strike	print	"rule 3: the prerequisite row ""6th-level vigilante"" is print's ""must be at least 6th level"" (the same level)"
+ref/vigtalent/fantastic-stride	fantastic-stride	hold	"rule word: corpus ['designated'] / print ['every', 'thereafter']; rule 3: the prerequisite row ""6th-level vigilante"" is print's ""must be at least 6th level"" (the same level)"
+ref/vigtalent/major-magic	major-magic	hold	"number: corpus ['equal', 'fourth', 'number', 'one', 'time'] / print ['1', '4', 'every']; rule 3: the prerequisite row ""4th-level vigilante, minor magic, a scor"" is print's ""must be at least 4th level"" (the same level); rule 3: the prerequisite item ""minor magic"" is print's sentence that says the character must have it; rule 3: the prerequisite item ""a score of at least 11 in the "" is print's sente"
+ref/vigtalent/minor-magic	minor-magic	hold	rule word: corpus ['list', 'spell'] / print -
+ref/vigtalent/mockery	mockery	print	label rows removed; wording unchanged
+ref/vigtalent/take-em-alive	take-em-alive	print	rule 1: the corpus rows and the printed values agree level by level; print's wording taken
+ref/vigtalent/team-player	team-player	hold	rule word: corpus ['vigilante'] / print ['choose']

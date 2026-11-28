@@ -13,12 +13,10 @@ page = "21"
 [fields]
 kind = "class_option"
 group = "ninja-trick"
+ability_type = "Ex"
 +++
 
-**Greater Ki Venom (Ex)**
-
-**Ability:** A ninja with this trick can further improve her _ki venom._ The ninja can spend 2 ki
-points to increase the damage die to a d8 or spend 2 ki points to change the ability damage dealt to
-[Constitution damage](ref/rule/ability-damage-drain).
-
-**Prereq:** [Ki venom](ref/ninjatrick/ki-venom)
+A ninja with this trick can further improve her [ki venom](ref/ninjatrick/ki-venom). The ninja can
+spend 2 ki points to increase the damage die to a d8 or spend 2 ki points to change the ability
+damage dealt to [Constitution damage](ref/rule/ability-damage-drain). The ninja must have the
+[ki venom](ref/ninjatrick/ki-venom) ninja trick before selecting this trick.

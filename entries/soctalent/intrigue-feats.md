@@ -13,11 +13,10 @@ page = "27"
 [fields]
 kind = "class_option"
 group = "social-talent"
+ability_type = "Ex"
 +++
 
-**Intrigue Feats (Ex)**
-
-**Ability:** The vigilante gains one of the following feats as a bonus feat:
+The vigilante gains one of the following feats as a bonus feat:
 [Blustering Bluff](ref/feat/blustering-bluff), [But a Scratch](ref/feat/but-a-scratch),
 [Call Truce](ref/feat/call-truce), [Confabulist](ref/feat/confabulist),
 [Criminal Reputation](ref/feat/criminal-reputation),
@@ -29,7 +28,5 @@ group = "social-talent"
 [Quick Favor](ref/feat/quick-favor), [Rhetorical Flourish](ref/feat/rhetorical-flourish),
 [Sense Assumptions](ref/feat/sense-assumptions),
 [Sense Relationships](ref/feat/sense-relationships), or [Street Smarts](ref/feat/street-smarts). He
-must meet the feat's prerequisites.
-
-**Special:** This talent can be selected multiple times; each time, the vigilante gains a new feat
-from the above list.
+must meet the feat's prerequisites. This talent can be selected multiple times; each time, the
+vigilante gains a new feat from the above list.

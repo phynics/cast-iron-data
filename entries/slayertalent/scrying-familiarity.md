@@ -13,16 +13,12 @@ page = "23"
 [fields]
 kind = "class_option"
 group = "slayer-talent"
+ability_type = "Ex"
 +++
 
-**Scrying Familiarity (Ex)**
-
-**Flavor:** You are well acquainted with scrying sensors.
-
-**Passive:** You can roll twice and take the better result on saving throws against divination
-(scrying) spells and effects, on Perception checks to notice scrying sensors, and on caster level
-checks to overcome [spell resistance](ref/rule/spell-resistance) when you use a scrying spell or
-effect.
-
-If you notice a magical sensor, you can attempt a Stealth check opposed by the caster's caster level
-check to avoid being detected by the sensor.
+You are well acquainted with scrying sensors. You can roll twice and take the better result on
+saving throws against divination (scrying) spells and effects, on Perception checks to notice
+scrying sensors, and on caster level checks to overcome
+[spell resistance](ref/rule/spell-resistance) when you use a scrying spell or effect. If you notice
+a magical sensor, you can attempt a Stealth check opposed by the caster's caster level check to
+avoid being detected by the sensor.
