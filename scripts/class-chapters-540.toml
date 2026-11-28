@@ -587,3 +587,98 @@ key_marks = ["vigilante-talent"]
 [[class]]
 id = "ref/class/gunslinger"
 not_features = ["critical-hit-with-a-firearm", "killing-blow-with-a-firearm"]
+
+# The Swashbuckler's two ways to regain panache (Advanced Class Guide p. 56, in the Panache feature) are run-in sub-heads, as the Gunslinger's ways to regain grit are: the class table does not list them, so they are no features. Heads and keys stay.
+[[class]]
+id = "ref/class/swashbuckler"
+not_features = ["critical-hit-with-a-light-or-one-handed-piercing-melee-weapon", "killing-blow-with-a-light-or-one-handed-piercing-melee-weapon"]
+
+# Ultimate Wilderness, the Shifter (owner ruling 68, data #398). The section "Aspects" (p. 28: the lead-in and the sixteen aspects) is other entries': the hub `ref/ability/aspects` holds the lead-in.
+# Speaking Druidic and Ex-Shifters (p. 31) stand behind the aspects and are the corpus's words already; the favored class options follow them, a section of the class under print's title.
+[[class]]
+id = "ref/class/shifter"
+gap_stop = "Aspects"
+lead_entry = "ref/ability/aspects"
+
+[[lead]]
+class = "ref/class/shifter"
+title = "Shifter Favored Class Options"
+heading = "Shifter Favored Class Options"
+key = "shifter-favored-class-options"
+
+# Owner ruling 68 (data #398): the corpus keeps the revised Shifter of a later printing of Ultimate Wilderness. The owner's copy is the 1st printing (November 2017) and the library has no errata
+# document, so each change is a `[[errata]]` of the manifest with a `keep` row in `scripts/errata.tsv` whose evidence is "Later printing of Ultimate Wilderness; owner ruling 68".
+[[errata]]
+class = "ref/class/shifter"
+key = "shifter-claws"
+source = "later printing of Ultimate Wilderness; owner ruling 68"
+page = 27
+find = "her claws ignore DR/cold iron and DR/silver."
+replace = "her claws ignore DR/cold iron, DR/magic, and DR/silver."
+
+[[errata]]
+class = "ref/class/shifter"
+key = "wild-shape"
+source = "later printing of Ultimate Wilderness; owner ruling 68"
+page = 27
+find = "and back again once per day."
+replace = "and back again."
+
+[[errata]]
+class = "ref/class/shifter"
+key = "wild-shape"
+source = "later printing of Ultimate Wilderness; owner ruling 68"
+page = 27
+find = " The effect lasts for 1 hour per shifter level or until she changes back."
+replace = ""
+
+[[errata]]
+class = "ref/class/shifter"
+key = "wild-shape"
+source = "later printing of Ultimate Wilderness; owner ruling 68"
+page = 28
+find = "A shifter can use this ability an additional time per day at 6th level and every 2 levels thereafter, for a total of eight times per day at 18th level."
+replace = "A shifter can use wild shape for a number of hours each day equal to her shifter level + her Wisdom modifier. It need not be consecutive but must be spent in 1 hour increments. For abilities that function based on \"uses of wild shape,\" each hour of wild shape counts as a use."
+
+[[errata]]
+class = "ref/class/shifter"
+key = "final-aspect"
+source = "later printing of Ultimate Wilderness; owner ruling 68"
+page = 28
+find = "she can assume the minor forms of all her aspects."
+replace = "she can assume the minor forms of all her aspects and the shifter can use her major and minor forms at will."
+
+# The Special column of the class table (the rows as the 1st printing has them) runs behind Final Aspect (p. 28).
+[[layout_fix]]
+class = "ref/class/shifter"
+key = "final-aspect"
+find = "re:Shifter aspect, shifter claws, wild empathy Defensive instinct, track .*Defensive instinct \\(\\+5\\), final aspect"
+replace = ""
+
+# Features of the later printing that the owner's copy lacks: the corpus's revised text, in prose (the class table is the corpus's, and lists them).
+[[later_feature]]
+class = "ref/class/shifter"
+key = "shifter-s-fury"
+text = """At 6th level, a shifter gains the ability to make several ferocious attacks with the same natural weapon. Instead of attacking with all her natural weapons, the shifter can choose a single natural weapon and make a full attack with that natural weapon, gaining a second iterative attack at a -5 as if it was a manufactured weapon. When she does so, all her other natural attacks count as secondary attacks and don't benefit from _shifter's claws_. At 11th level, she gains a third iterative attack at a -10, and at 16th level, she gains a fourth iterative attack at -15."""
+
+[[later_feature]]
+class = "ref/class/shifter"
+key = "a-thousand-faces"
+text = """At 18th level, a shifter gains the ability to change her appearance at will, as if using the [alter self](ref/spell/alter-self) spell, but only while in her normal form."""
+
+[[later_feature]]
+class = "ref/class/shifter"
+key = "timeless-body"
+text = """After attaining 18th level, a shifter no longer takes ability score penalties for aging and cannot be magically [aged](ref/rule/age). Any penalties she may have already incurred, however, remain in place. Bonuses still accrue, and the shifter still dies of old age when her time is up."""
+
+# The alternate natural attacks that the shifter's claws offer are printed in Wilderness Origins p. 8 (the corpus's paragraph at the end of Shifter Claws is that book's introduction): a section of that book (owner ruling 32).
+[[other_book]]
+class = "ref/class/shifter"
+book = "wilderness-origins"
+page = 10
+before = "wild-empathy"
+
+[[other_book.section]]
+key = "alternate-natural-attacks"
+head = "Alternate Natural Attacks (Wilderness Origins page 8)"
+text = """A shifter can draw on her chosen animal aspect to transform her hands into deadly weapons, as represented by the shifter's claws class feature, but not every animal has prominent claws. The following list provides alternate natural attacks for the shifter claws class feature. Each time the shifter activates her shifter's claws ability in her natural form, she can manifest one of the alternate natural attacks listed below for any of her chosen aspects, or those that relate to her archetype. Each alternate natural attack replaces one of the shifter's claw attacks. The shifter can gain up to two different alternate natural attacks with this method. These alternate natural attacks modify only the damage type of the shifter's natural attacks and otherwise function exactly as the shifter claws class feature."""

@@ -482,6 +482,9 @@ KEY_MARKS: set[tuple[str, str]] = {(_c["id"], _k) for _c in MANIFEST.get("class"
 # list of deeds, Ultimate Combat p. 12): the box is no class feature, the items of the list that follow it belong to the feature that the list is under, the paragraphs that
 # the text layer reads as the label of the box ("Daring Act:") are its own, and the end of the paragraph that the box interrupts (`tail_marker`: the words where it goes on) goes
 # back to its host (`host`: the key of the unlisted section it belongs to). From the manifest, `[[box_head]]`.
+# A feature that the owner's printing lacks and that the corpus keeps from a later printing (owner ruling 68, the Shifter's Fury, A Thousand Faces and Timeless Body): the corpus's head and
+# key stay, the text is the manifest's (the revised text in prose). From the manifest, `[[later_feature]]`.
+LATER_FEATURES: dict[tuple[str, str], dict] = {(_f["class"], _f["key"]): _f for _f in MANIFEST.get("later_feature", [])}
 BOX_HEADS: dict[tuple[str, str], dict] = {(_b["class"], _b["key"]): _b for _b in MANIFEST.get("box_head", [])}
 PLACE_UNDER: dict[tuple[str, str], tuple[str, int]] = {}
 for _p in MANIFEST.get("place_under", []):
@@ -600,7 +603,7 @@ def errata_fixed(class_id: str, key: str, text: str, notes: list[str] | None = N
         text = "\n\n".join(x.replace(er["find"], er["replace"]) if er["find"] in x else p_ for x, p_ in zip(flat, paras))
         ERRATA_APPLIED.add((class_id, key, n))
         if notes is not None:
-            notes.append(f"{'misprint' if er.get('kind') == 'misprint' else 'errata: Paizo errata for Advanced Class Guide'} p. {er['page']}: print has \"{er['find'][:70]}\", written \"{er['replace'][:70]}\"")
+            notes.append(f"{'misprint' if er.get('kind') == 'misprint' else 'errata: ' + er.get('source', 'Paizo errata for Advanced Class Guide')} p. {er['page']}: print has \"{er['find'][:70]}\", written \"{er['replace'][:70]}\"")
     return text
 
 
@@ -1223,6 +1226,12 @@ def compare_class(corpus: Path, e, bk, cache: dict, options: dict | None = None,
         it["corpus"] = "\n".join(lines[ln + 1:end])
     for n, it in enumerate(items):
         if "head not printed" not in it["notes"]:
+            continue
+        later = LATER_FEATURES.get((e.id, it["key"]))
+        if later is not None:
+            # a feature of a later printing than the owner's copy that the corpus keeps (owner ruling 68, the Shifter): the text is the manifest's, `scripts/errata.tsv` has its `keep` row
+            it["print"], it["status"] = later["text"].strip(), "print"
+            it["notes"] = [f"not in the owner's printing; the corpus's revised text is kept (later printing; owner ruling 68)"]
             continue
         refs = references(corpus, e.id, it["key"])
         prev = next((x for x in reversed(items[:n]) if "head not printed" not in x["notes"]), None)

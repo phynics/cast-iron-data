@@ -21,8 +21,6 @@ hit_die = "d10"
 skill_ranks = "4 + Int modifier"
 features = [
   { anchor = "panache", level = 1 },
-  { anchor = "critical-hit-with-a-light-or-one-handed-piercing-melee-weapon" },
-  { anchor = "killing-blow-with-a-light-or-one-handed-piercing-melee-weapon" },
   { anchor = "deeds", level = 1 },
   { anchor = "swashbuckler-finesse", level = 1 },
   { anchor = "charmed-life", level = 2 },
