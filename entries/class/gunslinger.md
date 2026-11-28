@@ -22,6 +22,14 @@ kind = "class"
 class_type = "base"
 hit_die = "d10"
 skill_ranks = "4 + Int modifier"
+features = [
+  { anchor = "gunsmith", level = 1 },
+  { anchor = "grit", level = 1 },
+  { anchor = "deeds", level = 1 },
+  { anchor = "nimble", level = 2 },
+  { anchor = "gun-training", level = 5 },
+  { anchor = "true-grit", level = 20 },
+]
 +++
 
 For a renegade few, battle sounds different than it does for the typical fighter. The clash of steel
@@ -82,54 +90,47 @@ of distant death, picking off enemies from afar with their strange and wondrous 
 |19th|+19/+14/+9/+4|+11|+11|+6|Deeds|
 |20th|+20/+15/+10/+5|+12|+12|+6|Bonus feat, true grit|
 
-#### Weapon and Armor Proficiencies {#weapon-and-armor-proficiencies}
+The following are class features of the gunslinger.
 
-**Weapons:** All simple weapons, All martial weapons, all firearms
+#### Weapon and Armor Proficiency {#weapon-and-armor-proficiencies}
 
-**Armor:** Light armor
-
-**Shields:** No
+Gunslingers are proficient with all simple and martial weapons, and with all firearms. They are
+proficient with all light armor.
 
 #### Gunsmith {#gunsmith}
 
-**Ability:** You gain [Gunsmithing](ref/feat/gunsmithing) as a bonus feat, and one of the following
-firearms of your choice: [blunderbuss](ref/eq-weapon/blunderbuss), [musket](ref/eq-weapon/musket),
-or [pistol](ref/eq-weapon/pistol). Your starting weapon is battered, and only you know how to use it
-properly. All other creatures treat your gun as if it had the [broken](ref/misc/broken) condition.
-If the weapon already has the broken condition, it does not work at all for anyone else trying to
-use it.
-
-**Gained:** At 1st Level
-
-**Special:** This starting weapon can only be sold for scrap (it's worth 4d10 gp when sold).
+At 1st level, a gunslinger gains one of the following firearms of her choice:
+[blunderbuss](ref/eq-weapon/blunderbuss), [musket](ref/eq-weapon/musket), or
+[pistol](ref/eq-weapon/pistol). Her starting weapon is battered, and only she knows how to use it
+properly. All other creatures treat her gun as if it had the [broken](ref/misc/broken) condition. If
+the weapon already has the broken condition, it does not work at all for anyone else trying to use
+it. This starting weapon can only be sold for scrap (it's worth 4d10 gp when sold). The gunslinger
+also gains [Gunsmithing](ref/feat/gunsmithing) as a bonus feat.
 
 #### Grit (Ex) {#grit}
 
-**Ability:** In game terms, grit is a fluctuating measure of your ability to perform amazing actions
-in combat. At the start of each day, you gain a number of grit points equal to your Wisdom modifier
-(minimum 1). Your grit goes up or down throughout the day, but usually cannot go higher than your
-Wisdom modifier (minimum 1), though some feats and magic items may affect this maximum. You spend
-grit to accomplish deeds, and regain grit in the following ways.
-
-**Flavor:** Some gunslingers claim they belong to a mystical way of the gun, but it's more likely
-that the volatile nature of firearms simply prunes the unlucky and careless from their ranks.
-Whatever the reason, all gunslingers have grit.
-
-**Gained:** At 1st Level
+A gunslinger makes her mark upon the world with daring deeds. Some gunslingers claim they belong to
+a mystical way of the gun, but it's more likely that the volatile nature of firearms simply prunes
+the unlucky and careless from their ranks. Whatever the reason, all gunslingers have grit. In game
+terms, grit is a fluctuating measure of a gunslinger's ability to perform amazing actions in combat.
+At the start of each day, a gunslinger gains a number of grit points equal to her Wisdom modifier
+(minimum 1). Her grit goes up or down throughout the day, but usually cannot go higher than her
+Wisdom modifier (minimum 1), though some feats and magic items may affect this maximum. A gunslinger
+spends grit to accomplish deeds (see below), and regains grit in the following ways.
 
 #### Critical Hit with a Firearm {#critical-hit-with-a-firearm}
 
-**Passive:** Each time you confirm a critical hit with a firearm attack while in the heat of combat,
-you regain 1 grit point. Confirming a critical hit on a [helpless](ref/misc/helpless) or unaware
-creature or on a creature that has fewer Hit Dice than [half](ref/misc/fractions-and-rounding) your
-character level does not restore grit.
+Each time the gunslinger confirms a critical hit with a firearm attack while in the heat of combat,
+she regains 1 grit point. Confirming a critical hit on a [helpless](ref/misc/helpless) or unaware
+creature or on a creature that has fewer Hit Dice than [half](ref/misc/fractions-and-rounding) the
+gunslinger's character level does not restore grit.
 
 #### Killing Blow with a Firearm {#killing-blow-with-a-firearm}
 
-**Passive:** When you reduce a creature to 0 or fewer hit points with a firearm attack while in the
-heat of combat, you regain 1 grit point. Destroying an unattended object, reducing a helpless or
+When the gunslinger reduces a creature to 0 or fewer hit points with a firearm attack while in the
+heat of combat, she regains 1 grit point. Destroying an unattended object, reducing a helpless or
 unaware creature to 0 or fewer hit points, or reducing a creature that has fewer Hit Dice than half
-your character level to 0 or fewer hit points does not restore any grit.
+the gunslinger's character level to 0 or fewer hit points does not restore any grit.
 
 #### Optional Rule: Daring Act {#optional-rule-daring-act}
 
@@ -147,68 +148,78 @@ daring act even if the player does not ask beforehand whether the act qualifies.
 
 #### Deeds {#deeds}
 
-**Ability:** You spend grit points to accomplish deeds. Most deeds grant you some momentary bonus or
-effect, but there are some that provide longer-lasting effects. Some deeds stay in effect as long as
-you have at least 1 grit point. Here is the list of base gunslinger deeds.
-
-**Special:** You can only perform deeds of your level or lower. Unless otherwise noted, a deed can
+Gunslingers spend grit points to accomplish deeds. Most deeds grant the gunslinger some momentary
+bonus or effect, but there are some that provide longer-lasting effects. Some deeds stay in effect
+as long as the gunslinger has at least 1 grit point. The following is the list of base gunslinger
+deeds. A gunslinger can only perform deeds of her level or lower. Unless otherwise noted, a deed can
 be performed multiple successive times, as long as the appropriate amount of grit is spent to
 perform the deed.
 
-Gunslingers may optionally select a [renowned deed](ref/ability/gunslinger-renowned-deeds) at 1st,
-7th and 15th level. Each of these deeds replace two other deeds.
+- [Deadeye (Ex)](ref/deed/deadeye)
+- [Gunslinger's Dodge (Ex)](ref/deed/gunslingers-dodge)
+- [Quick Clear (Ex)](ref/deed/quick-clear)
+- [Gunslinger Initiative (Ex)](ref/deed/gunslinger-initiative)
+- [Pistol-Whip (Ex)](ref/deed/pistol-whip)
+- [Utility Shot (Ex)](ref/deed/utility-shot)
+- [Dead Shot (Ex)](ref/deed/dead-shot)
+- [Startling Shot (Ex)](ref/deed/startling-shot)
+- [Bleeding Wound (Ex)](ref/deed/bleeding-wound)
+- [Expert Loading (Ex)](ref/deed/expert-loading)
+- [Lightning Reload (Ex)](ref/deed/lightning-reload)
+- [Evasive (Ex)](ref/deed/evasive)
+- [Menacing Shot (Ex)](ref/deed/menacing-shot)
+- [Slinger's Luck (Ex)](ref/deed/slingers-luck)
+- [Cheat Death (Ex)](ref/deed/cheat-death)
+- [Death's Shot (Ex)](ref/deed/deaths-shot)
+- [Stunning Shot (Ex)](ref/deed/stunning-shot)
+
+##### Targeting (Ex) {#targeting}
+
+At 7th level, as a full-round action, the gunslinger can make a single firearm attack and choose
+part of the body to target. She gains the following effects depending on the part of the body
+targeted. If a creature does not have one of the listed body locations, that part cannot be
+targeted. This deed costs 1 grit point to perform no matter which part of the creature she targets.
+Creatures that are immune to sneak attacks are immune to these effects.
+
+- Arms: On a hit, the target takes no damage from the hit but drops one carried item of the
+  gunslinger's choice, even if the item is wielded with two hands. Items held in a locked gauntlet
+  are not dropped on a hit.
+- Head: On a hit, the target is damaged normally, and is also confused for 1 round. This is a
+  mind-affecting effect.
+- Legs: On a hit, the target is damaged normally and knocked prone. Creatures that have four or more
+  legs or that are immune to trip attacks are immune to this effect.
+- Torso: Targeting the torso threatens a critical on a 19–20.
+- Wings: On a hit, the target is damaged normally, and must make a DC 20 Fly check or fall 20 ft.
 
 #### Nimble (Ex) {#nimble}
 
-**Gained:** At 2nd Level
-
-**Passive:** You gain a +1 dodge bonus to AC while wearing light or no armor. Anything that causes
-you to lose your Dexterity bonus to AC also causes you to lose this dodge bonus.
-
-At 6th level: The dodge bonus increases to +2.
-
-At 10th level: The dodge bonus increases to +3.
-
-At 14th level: The dodge bonus increases to +4.
-
-At 18th level: The dodge bonus increases to +5.
+Starting at 2nd level, a gunslinger gains a +1 dodge bonus to AC while wearing light or no armor.
+Anything that causes the gunslinger to lose her Dexterity bonus to AC also causes the gunslinger to
+lose this dodge bonus. This bonus increases by +1 for every four levels beyond 2nd level (to a
+maximum of +5 at 20th level).
 
 #### Bonus Feats {#bonus-feats}
 
-**Ability:** You gain a bonus feat in addition to those gained by normal advancement. These bonus
-feats must be combat or grit feats.
-
-**Gained:** At 4th Level
-
-**Repeat:** You gain another bonus combat or grit feat., 8, 4
-
-Optionally, a gunslinger can pick a [dare](ref/ability/dares) instead of a bonus feat. These special
-abilities only activate when a gunslinger goes down to 0 grit.
+At 4th level, and every four levels thereafter, a gunslinger gains a bonus feat in addition to those
+gained by normal advancement. These bonus feats must be combat or grit feats.
 
 #### Gun Training (Ex) {#gun-training}
 
-**At 13th Level:** You select a third type of firearm, gaining these same bonuses for it.
+Starting at 5th level, a gunslinger can select one specific type of firearm (such as an
+[axe musket](ref/eq-weapon/axe-musket), blunderbuss, musket, or pistol). She gains a bonus equal to
+her Dexterity modifier on damage rolls when firing that type of firearm. Furthermore, when she
+misfires with that type of firearm, the misfire value of that firearm increases by 2 instead of 4.
 
-**At 17th Level:** You select a fourth type of firearm, gaining these same bonuses for it.
-
-**At 9th Level:** You select another type of firearm, gaining these same bonuses for it.
-
-**Gained:** At 5th Level
-
-**Passive:** You select one specific type of firearm (such as an
-[axe musket](ref/eq-weapon/axe-musket), blunderbuss, musket, or pistol). You gain a bonus equal to
-your Dexterity modifier on damage rolls when firing that type of firearm. Furthermore, when you
-misfire with that type of firearm, the misfire value of that firearm increases by 2 instead of 4.
+Every four levels thereafter (9th, 13th, and 17th), the gunslinger picks up another type of firearm,
+gaining these bonuses for those types as well.
 
 #### True Grit (Ex) {#true-grit}
 
-**Ability:** You pick two deeds that you have access to and that you must spend grit to perform. You
-can perform these deeds for 1 grit point fewer (minimum 0) than usual. If the number of grit points
-to perform a deed is reduced to 0, you can perform this deed as long as you have at least 1 grit
-point. If a deed could already be performed as long as you had at least 1 grit point, you can now
-perform that deed even when you have no grit points.
-
-**Gained:** At 20th Level
+At 20th level, a gunslinger picks two deeds that she has access to and that she must spend grit to
+perform. She can perform these deeds for 1 grit point fewer (minimum 0) than usual. If the number of
+grit points to perform a deed is reduced to 0, the gunslinger can perform this deed as long as she
+has at least 1 grit point. If a deed could already be performed as long as she had at least 1 grit
+point, she can now perform that deed even when she has no grit points.
 
 ### Grit and Panache
 

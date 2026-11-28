@@ -66,6 +66,26 @@ def feature_region(body: str) -> tuple[int, int] | None:
     return first, end
 
 
+# The size of a class title in print (the Core Rulebook and the Advanced Player's Guide set 38 and more, Ultimate Magic and Ultimate Combat 33, Ultimate Intrigue and
+# Ultimate Wilderness 39): a title of this size ends the window and the gap of the class before it. A box title is 24 or less, a subsection title 18.
+CLASS_TITLE_SIZE = 33
+
+
+def is_table_title(text: str) -> bool:
+    """The title of a class table ("Table 1-1: Magus"); the text layer of Ultimate Intrigue loses the drop cap of the first letter ("able 1-1: Vigilante")."""
+    return bool(re.match(r"\s*t?able\s+\d", text, re.I))
+
+
+# The cells of the header of a class table that the text layer sets as paragraphs of their own (Ultimate Magic: " Base", " Attack Fort Ref Will", "Level Bonus Save Save Save
+# Special"); a paragraph of header words only is no text.
+HEADER_WORDS = {"base", "attack", "bonus", "fort", "ref", "reflex", "will", "level", "save", "special", "spells", "per", "day", "known"}
+
+
+def is_header_fragment(text: str) -> bool:
+    toks = re.findall(r"[A-Za-z]+", text)
+    return bool(toks) and all(t.lower() in HEADER_WORDS for t in toks) and not re.search(r"[.,;:]", text) and len(re.findall(r"\S+", text)) == len(toks)
+
+
 NUMERIC = re.compile(r"^(?:[+\-\u2013\u2014]?\d+(?:/[+\-\u2013\u2014]?\d+)*(?:st|nd|rd|th)?|[\u2014\u2013-]|\+\d+)[,.]?$")
 
 
@@ -84,14 +104,34 @@ def is_table_para(text: str) -> bool:
     return len(toks) >= 5 and sum(bool(NUMERIC.match(x)) for x in toks) / len(toks) >= 0.5
 
 
+def end_index(blocks: list, win: list) -> int:
+    """The place in `blocks` of the last block of the window. The window's last block may be a new one (two paragraphs that a table split are joined, or the cell of the
+    table is cut off its start): then it is found by its first words, and by the blocks after it whose words it holds (Ultimate Intrigue: the Vigilante's Vengeance Strike).
+    A block that is in no block of the page is an error (ValueError), not the start of the page."""
+    if not win:
+        return 0
+    if win[-1] in blocks:
+        return blocks.index(win[-1])
+    norm = lambda b: " ".join(b.plain().split())
+    text = norm(win[-1])
+    head = text[:30]
+    start = next((n for n, b in enumerate(blocks) if head and (head in norm(b) or (len(norm(b)) >= 12 and text.startswith(norm(b))))), None)
+    if start is None:
+        raise ValueError(f"the last block of the window is in no block of the page: {text[:60]!r}")       # a silent 0 would make the whole page the gap
+    end = start
+    while end + 1 < len(blocks) and blocks[end + 1].kind == "para" and norm(blocks[end + 1]) and norm(blocks[end + 1]) in text:
+        end += 1
+    return end
+
+
 def section_behind(blocks: list, win: list, lacking: set[str]) -> list:
     """The sections that follow the class features in print under a title that is a head of the corpus (`lacking`): the title and its blocks up to the next
     title. The cells of a table in them are left out as in the window."""
-    last = blocks.index(win[-1]) if win and win[-1] in blocks else 0
+    last = end_index(blocks, win)
     out: list = []
     on = False
     for b in blocks[last + 1:]:
-        if b.kind == "title" and not b.plain().strip().lower().startswith("table"):
+        if b.kind == "title" and not is_table_title(b.plain()):
             on = fp.squash(b.plain()) in lacking
             if on:
                 out.append(b)
@@ -325,6 +365,8 @@ def window(blocks: list, heads: set[str] | frozenset = frozenset(), raw: bool = 
         if b.kind == "para" and b.plain().strip() == "Special":
             special = True
             continue
+        if b.kind == "para" and is_header_fragment(b.plain()):
+            continue                                       # a cell of the header of the class table that the layout sets as a paragraph of its own
         if special and b.kind == "para":
             text = " ".join(b.plain().split())
             if len(text.split()) <= 10 and not re.search(r"[.!?]$", text):
@@ -332,9 +374,9 @@ def window(blocks: list, heads: set[str] | frozenset = frozenset(), raw: bool = 
             special = False
             if cell and text.lower().startswith(cell.lower() + " "):
                 b = fp.Para("para", runs_after(b.runs, len(cell) + 1), b.page, b.col, 0)       # the last cell, in front of the sentence that the table broke
-        if b.kind == "title" and not b.plain().strip().lower().startswith("table") and (b.size == 18 or b.size >= 38) and fp.squash(b.plain()) not in heads:
+        if b.kind == "title" and not is_table_title(b.plain()) and (b.size == 18 or b.size >= CLASS_TITLE_SIZE) and fp.squash(b.plain()) not in heads:
             break                                          # a subsection title ends the window, unless the corpus has it as a feature head (Patron Spells)
-        if b.kind == "title" and b.plain().strip().lower().startswith("table"):
+        if b.kind == "title" and is_table_title(b.plain()):
             continue                                       # the title of a class table is not text of a feature
         if raw:                                            # the coverage check reads print without the table handling: only paragraphs that are cells alone go
             if b.kind == "para" and b.runs and TABLE_RUN.match(b.plain().strip()) and is_table_para(b.plain()):
@@ -436,6 +478,11 @@ for _c in MANIFEST.get("class", []):
 # The features whose list marks some options with an asterisk that print's intro explains (the Investigator's talents that add effects to studied combat or studied strike, p. 31): the
 # star is a key mark of the list, not the book marker of ruling 26, so it stays after the link. (class entry, key of the feature)
 KEY_MARKS: set[tuple[str, str]] = {(_c["id"], _k) for _c in MANIFEST.get("class", []) for _k in _c.get("key_marks", [])}
+# A box that the corpus holds as a head of the features and that print sets inside a list of the class (the Gunslinger's "Optional Rule: Daring Act" stands in the middle of the
+# list of deeds, Ultimate Combat p. 12): the box is no class feature, the items of the list that follow it belong to the feature that the list is under, the paragraphs that
+# the text layer reads as the label of the box ("Daring Act:") are its own, and the end of the paragraph that the box interrupts (`tail_marker`: the words where it goes on) goes
+# back to its host (`host`: the key of the unlisted section it belongs to). From the manifest, `[[box_head]]`.
+BOX_HEADS: dict[tuple[str, str], dict] = {(_b["class"], _b["key"]): _b for _b in MANIFEST.get("box_head", [])}
 PLACE_UNDER: dict[tuple[str, str], tuple[str, int]] = {}
 for _p in MANIFEST.get("place_under", []):
     PLACE_UNDER[(_p["class"], _p["key"])] = (_p["under"], _p.get("level", 5))        # `[[place_under]]` of the manifest
@@ -665,6 +712,17 @@ def pick_options(items: list[tuple[str, list[tuple[str, str]]]], picks: dict[str
     return out, unsure
 
 
+def repair_ligature(corpus: Path, name: str, entry_id: str) -> str:
+    """The name of a link where the text layer left a gap at a ligature ("Ref lection (Su)", Ultimate Magic p. 11): when the name without its tag is the entry's title with
+    a space in it, the title is the name (the tag stays)."""
+    path = corpus / "entries" / (entry_id.removeprefix("ref/") + ".md")
+    m = re.search(r'^title = "([^"]+)"', path.read_text(encoding="utf-8")[:800], re.M) if path.exists() else None
+    base = fp.ABILITY_TAG.sub("", name).strip()
+    if m and " " in base and base != m.group(1) and fp.squash(base) == fp.squash(m.group(1)) and base.replace(" ", "") == m.group(1).replace(" ", ""):
+        return name.replace(base, m.group(1), 1)
+    return name
+
+
 def class_decisions(corpus: Path, book: str) -> dict[tuple[str, str], tuple[str, str]]:
     """The decisions of the book's class options file for classes: (class id, key) -> (decision, note); `print` settles a hold as print has it (the corpus
     wording is the import's paraphrase, or print has text that the corpus lacks), `hold` keeps it for an errata check."""
@@ -845,10 +903,10 @@ def class_titles(corpus: Path) -> set[str]:
 def gap_blocks(blocks: list, win: list, lacking: set[str], stop: str | set[str] = "") -> list:
     """The blocks between the end of the class window (a subsection title ends it) and the next title that is a head the corpus lacks (`lacking`, read by
     `section_behind`), or the next large title: the sections that neither reading covers (the Witch's box "Witch's Familiar", p. 69)."""
-    last = blocks.index(win[-1]) if win and win[-1] in blocks else 0
+    last = end_index(blocks, win)
     out = []
     for b in blocks[last + 1:]:
-        if b.kind == "title" and not b.plain().strip().lower().startswith("table") and (fp.squash(b.plain()) in lacking or b.size >= 38 or (stop and fp.squash(b.plain()) in ({stop} if isinstance(stop, str) else stop))):
+        if b.kind == "title" and not is_table_title(b.plain()) and (fp.squash(b.plain()) in lacking or b.size >= CLASS_TITLE_SIZE or (stop and fp.squash(b.plain()) in ({stop} if isinstance(stop, str) else stop))):
             break
         if b.kind == "para" and not is_table_para(b.plain()):
             out.append(b)
@@ -857,11 +915,11 @@ def gap_blocks(blocks: list, win: list, lacking: set[str], stop: str | set[str] 
 
 def gap_sections(blocks: list, win: list, lacking: set[str], stop: set[str]) -> list[tuple[str, list]]:
     """The sections behind the class features, up to the same end as `gap_blocks`: (title, [paragraphs]) ("Ex-Barbarians")."""
-    last = blocks.index(win[-1]) if win and win[-1] in blocks else 0
+    last = end_index(blocks, win)
     out: list = []
     for b in blocks[last + 1:]:
-        if b.kind == "title" and not b.plain().strip().lower().startswith("table"):
-            if fp.squash(b.plain()) in lacking or b.size >= 38 or fp.squash(b.plain()) in stop:
+        if b.kind == "title" and not is_table_title(b.plain()):
+            if fp.squash(b.plain()) in lacking or b.size >= CLASS_TITLE_SIZE or fp.squash(b.plain()) in stop:
                 break
             out.append((" ".join(b.plain().split()), []))
         elif b.kind == "para" and out and not is_table_para(b.plain()):
@@ -915,10 +973,10 @@ SPELL_LIST_PARA = re.compile(r"^\s*(?:\d+(?:st|nd|rd|th)|0)-Level\b[^:\u2014]*[:
 
 def lead_in(blocks: list, win: list, stop_title: str) -> tuple[str, list] | None:
     """(title, [paragraphs]) of the section whose title ends the gap: the paragraphs between that title and the next title (the first of the list under it)."""
-    last = blocks.index(win[-1]) if win and win[-1] in blocks else 0
+    last = end_index(blocks, win)
     out = None
     for b in blocks[last + 1:]:
-        if b.kind == "title" and not b.plain().strip().lower().startswith("table"):
+        if b.kind == "title" and not is_table_title(b.plain()):
             if out is not None:
                 break
             if fp.squash(b.plain()) == stop_title:
@@ -1195,7 +1253,34 @@ def compare_class(corpus: Path, e, bk, cache: dict, options: dict | None = None,
     new_after: dict[str, str | None] = {}
     problems_extra: list[str] = []
     new_items: list[tuple[str | None, dict]] = []                # (key of the item before it in print, the unlisted section)
+    head_spans = {f.span_sha() for f in feats}
+    box_spans = {f.span_sha(): key for (_ln, _tx, key), f in zip(heads, feats) if (e.id, key) in BOX_HEADS}
+    in_box = None
     for r in res["rows"]:
+        if r["span"] and r["span"] in box_spans:
+            in_box = box_spans[r["span"]]                           # a box inside a list: the list goes on after it, under the feature that it belongs to
+            continue
+        if r["span"] and in_box and r["span"] in all_spans and r["span"] not in head_spans:
+            # a row that the box's body made (its label "Daring Act:"): the box's own paragraph; where the text layer runs the end of the interrupted paragraph into it, that goes back to the host
+            box, bit = BOX_HEADS[(e.id, in_box)], next(x for x in items if x["key"] == in_box)
+            body_text, tail_text = r["print"].strip(), ""
+            marker = box.get("tail_marker")
+            if marker and marker in body_text:
+                body_text, tail_text = body_text[:body_text.index(marker)].rstrip(), body_text[body_text.index(marker):].strip()
+            label = r["head"].rstrip(":").strip()
+            bit["print"] = bit["print"].rstrip() + f"\n\n**{label}:** " + body_text
+            bit["status"] = "print"
+            bit["notes"].append(f"the box's run-in paragraph `{label}` is part of its text")
+            host = next((sec for _a, sec in new_items if sec["key"] == box.get("host")), None)
+            if tail_text and host is not None:
+                host["print"] = host["print"].rstrip() + " " + tail_text
+                host["notes"].append(f"print sets the end of this feature after the box `{bit['head']}`")
+            elif tail_text:
+                bit["status"] = "hold"
+                bit["notes"].append(f"the end of the interrupted paragraph has no host: {tail_text[:60]}")
+            continue
+        if r["span"] and r["span"] in head_spans:
+            in_box = None
         if r["span"] and r["span"] in all_spans:
             if fp.squash(r["head"]) in SECTIONS_BEHIND.get(e.id, set()) and r["print"].strip() and fp.slugify(r["head"].rstrip(":").strip()) not in head_keys:
                 # a row of the corpus (its code of conduct, under the proficiencies) that print sets as a paragraph of its own behind the last feature
@@ -1248,6 +1333,7 @@ def compare_class(corpus: Path, e, bk, cache: dict, options: dict | None = None,
     for it in items:
         if it.get("candidates"):
             it["links"], unsure = pick_options(it.pop("candidates"), {n: i for (c, n), i in OPTION_PICKS.items() if c == e.id})
+            it["links"] = [(repair_ligature(corpus, n, i), i) for n, i in it["links"]]
             if unsure:
                 it["status"] = "hold"
                 it["notes"].insert(0, "option names with more than one entry of the class's groups: " + ", ".join(unsure))
@@ -1373,7 +1459,8 @@ NOT_FEATURE_HEADINGS = {fp.squash(x) for x in (
     "Weapon and Armor Proficiency", "Skills", "Alignment", "Weapon and Armor Proficiencies", "Weapon Proficiencies", "Armor Proficiency", "Armor Proficiencies",
     "Skill Ranks per Level", "Class Skills", "Armor Proficiency and Class Skills")}
 # Level-4 sections that print sets behind the class features: sections of the page, no class features: (class entry, key)
-NOT_CLASS_FEATURES = {(c["id"], fp.slugify(t)) for c in MANIFEST.get("class", []) for t in c.get("sections_behind", [])}        # the manifest's `sections_behind`: the Antipaladin's and the Paladin's
+NOT_CLASS_FEATURES = ({(c["id"], fp.slugify(t)) for c in MANIFEST.get("class", []) for t in c.get("sections_behind", [])} | set(BOX_HEADS)
+                      | {(c["id"], k) for c in MANIFEST.get("class", []) for k in c.get("not_features", [])})        # `[[class]] not_features`: heads that are run-in sub-heads of a feature, not features        # the manifest's `sections_behind`: the Antipaladin's and the Paladin's
 LEVEL_LEAD = re.compile(r"^(?:starting at |beginning at |starting with |at )(\d+)(?:st|nd|rd|th)\s+level\b", re.I)
 
 
@@ -1427,7 +1514,14 @@ def converted_body(body: str, plan: dict) -> str:
     out = []
     title, text = plan.get("opening") or ("", "")
     if text:
-        out += ([f"### {title} {{#{fp.slugify(title)}}}", ""] if title else []) + [text, ""]        # print's lead-in of the class features, under print's title
+        # print's lead-in of the class features, under print's title. When the class table already has that title as its heading (`### Class Features` over the table: a second
+        # heading of the same text would give two headings one anchor, #397, and an explicit key on the old one would move its key `sec-class-features`), the lead-in follows
+        # the table under that heading, which holds the features as well
+        same = next((n for n in range(a - 1, -1, -1) if title and lines[n].strip() == f"### {title}"), None)
+        if same is not None:
+            out += [text, ""]
+        else:
+            out += ([f"### {title} {{#{fp.slugify(title)}}}", ""] if title else []) + [text, ""]
     for it in plan["items"]:
         if it.get("drop"):
             continue
@@ -1724,6 +1818,45 @@ def self_test() -> int:
           Pp("para", [("Text of a section.", False, False)], 1, 0), Pp("title", [("Next Class", True, False)], 2, 0, 38), Pp("para", [("Next class text.", False, False)], 2, 0)]
     eq([b.plain() for b in gap_blocks(gb, gb[:2], set(), "")], ["Text of a section."], "the gap skips the paragraph of cells and stops at a large title")
     eq([b.plain() for b in gap_blocks(gb, gb[:2], set(), "")] == [b.plain() for b in gap_blocks(gb, gb[:2], set())], True, "an empty stop title stops nothing")
+    # Ultimate Combat, Ultimate Magic, Ultimate Intrigue (the batch of the six classes): the title sizes, the table title without its drop cap, the header cells in paragraphs of their own
+    eq(CLASS_TITLE_SIZE, 33, "a class title is 33 or larger (Ultimate Combat and Ultimate Magic set 33, Ultimate Intrigue 39)")
+    eq([is_table_title(t) for t in ("Table 1\u20131: Magus", "able 1\u20131: Vigilante", "Optional Rule: Daring Act", "Table of Contents")], [True, True, False, False], "a table title may lack its first letter")
+    eq([is_header_fragment(t) for t in (" Base", " Attack Fort Ref Will", "Level Bonus Save Save Save Special", "Special effect", "Base attack bonus.", "Spells per Day")],
+       [True, True, True, False, False, True], "the header cells of a class table in paragraphs of their own are no text")
+    eq(is_header_fragment("Weapon and Armor Proficiency: A magus is proficient"), False, "a paragraph of words is no header")
+    pa = fp.Para("para", [("Vengeance Strike (Ex): At 20th level, a vigilante can study a target to strike", False, False)], 1, 0, 0)
+    pb = fp.Para("para", [("more viciously. He can spend up to 5 standard actions.", False, False)], 1, 0, 0)
+    pc = fp.Para("para", [("Next paragraph of another feature.", False, False)], 1, 0, 0)
+    joined = fp.Para("para", list(pa.runs) + [(" ", False, False)] + list(pb.runs), 1, 0, 0)
+    eq(end_index([pa, pb, pc], [joined]), 1, "the window's last block is two blocks that a table split: the end is the second")
+    eq(end_index([pa, pb, pc], [pc]), 2, "the last block of the window is a block of the page")
+    eq(end_index([pa, pb, pc], []), 0, "no window, no end")
+    try:
+        end_index([pa, pb], [fp.Para("para", [("A block that the page does not have at all.", False, False)], 1, 0, 0)])
+        raised_ = False
+    except ValueError:
+        raised_ = True
+    eq(raised_, True, "a window block that is in no block of the page is an error, not the start of the page")
+    ft_ = fp.Para("title", [("Class Features", True, False)], 1, 0, 18)
+    para_ = lambda t: fp.Para("para", [(t, False, False)], 1, 0, 0)
+    ttl_ = lambda t, size: fp.Para("title", [(t, True, False)], 1, 0, size)
+    got_ = [b.plain() for b in window([ft_, para_("One paragraph of the first feature."), ttl_("Optional Rule: Daring Act", 24), para_("A paragraph of the box."), ttl_("Table 1-1: Gunslinger", 24),
+                                       para_("Text after the tables."), ttl_("Ninja", 33), para_("Text of the next class.")])]
+    eq(got_, ["One paragraph of the first feature.", "Optional Rule: Daring Act", "A paragraph of the box.", "Text after the tables."],
+       "a title of 24 (a box; a table title is dropped) does not end the window, a title of 33 does")
+    eq([b.plain() for b in window([ft_, para_("Text."), ttl_("Another Title", 32), para_("After.")])], ["Text.", "Another Title", "After."], "a title of 32 is no class title: it does not end the window")
+    plan_ = {"region": (5, 7), "items": [{"key": "grit", "head": "Grit (Ex)", "print": "Text.", "status": "print", "notes": []}], "opening": ("Class Features", "The following are class features.")}
+    body_ = "Intro.\n\n### Class Features\n\n|Level|\n| --- |\n|1st|\n\n#### Grit (Ex) {#grit}\n\nOld.\n\n### Alternate Capstones\n"
+    out_ = converted_body(body_, {**plan_, "region": (7, 11)}).split("\n")
+    eq(out_.count("### Class Features"), 1, "the class table's heading `### Class Features` is not written a second time")
+    eq("The following are class features." in out_ and not any(x.startswith("### Class Features {#") for x in out_), True, "the lead-in follows the table under its heading, with no second key (#397)")
+    import tempfile
+    with tempfile.TemporaryDirectory() as td:
+        (Path(td) / "entries" / "arcana").mkdir(parents=True)
+        (Path(td) / "entries" / "arcana" / "reflection.md").write_text('+++\nid = "ref/arcana/reflection"\ntitle = "Reflection"\n+++\n', encoding="utf-8")
+        eq([repair_ligature(Path(td), n, "ref/arcana/reflection") for n in ("Ref lection (Su)", "Reflection (Su)", "Shield of Blades")],
+           ["Reflection (Su)", "Reflection (Su)", "Shield of Blades"], "a gap at a ligature in the name of a link is repaired from the title of the entry; other names stay")
+    eq(("ref/class/gunslinger", "optional-rule-daring-act") in BOX_HEADS and ("ref/class/gunslinger", "optional-rule-daring-act") in NOT_CLASS_FEATURES, True, "a box head of the manifest is no class feature")
     for line in bad:
         print("FAIL", line)
     print(f"self-test: {ok} checks passed" if not bad else f"self-test: {len(bad)} failures")

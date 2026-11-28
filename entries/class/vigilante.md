@@ -19,6 +19,20 @@ kind = "class"
 class_type = "base"
 hit_die = "d8"
 skill_ranks = "6 + Int modifier"
+features = [
+  { anchor = "dual-identity", level = 1 },
+  { anchor = "seamless-guise", level = 1 },
+  { anchor = "social-talent", level = 1 },
+  { anchor = "vigilante-specialization", level = 1 },
+  { anchor = "avenger" },
+  { anchor = "stalker" },
+  { anchor = "vigilante-talent", level = 2 },
+  { anchor = "unshakable", level = 3 },
+  { anchor = "startling-appearance", level = 5 },
+  { anchor = "frightening-appearance", level = 11 },
+  { anchor = "stunning-appearance", level = 17 },
+  { anchor = "vengeance-strike", level = 20 },
+]
 +++
 
 Life can be unfair. Think of the starving peasants forced to toil for the local baron or the common
@@ -82,208 +96,253 @@ Knowledge (local), Knowledge (nobility)
 |19th|+14/+9/+4|+6|+11|+11|Social talent|
 |20th|+15/+10/+5|+6|+12|+12|Vengeance strike, vigilante talent|
 
-#### Weapon and Armor Proficiencies {#weapon-and-armor-proficiencies}
+The following are the class features of the vigilante.
 
-**Weapons:** All simple weapons, All martial weapons
+#### Weapon and Armor Proficiency {#weapon-and-armor-proficiencies}
 
-**Armor:** Light armor, Medium armor
-
-**Shields:** Yes, except tower shields
+Vigilantes are proficient with all simple and martial weapons, light armor, medium armor, and
+shields (except tower shields).
 
 #### Dual Identity (Ex) {#dual-identity}
 
-**Action:** Ability
+A vigilante hides his true identity, allowing him to move about social circles and nobility without
+carrying the stigma of his ruthless actions. In effect, the vigilante has two identities: one is a
+polite member of society while the other is a skilled and cunning warrior. To keep up this charade,
+the vigilante usually has two names: his true name, used in polite company, and his vigilante name,
+used to strike fear in the hearts of those who oppose him. Knowledge checks about one do not reveal
+information about the other, unless the vigilante's true identity revealed to the world at large.
 
-**Section:** Dual Identity
+The vigilante can start each day in either of his identities, referred to simply as social or
+vigilante. Changing from one identity to another takes 1 minute and must be done out of sight from
+other creatures to preserve the vigilante's secret. Changing identities is more than just changing
+outfits and clothing (although that is certainly a part of it); the process often also involves
+applying make-up, altering his hair, and adjusting other personal effects. Furthermore, the change
+is as much a state of mind as of body, so items such as a
+_[hat of disguise](ref/magic-wondrous/hat-of-disguise)_ and similar spells and effects that change
+the user's appearance do not reduce the time required to change identities. Most social talents
+require the vigilante to be in his social identity, but a vigilante who uses vigilante talents in
+his social identity risks exposing his secret.
 
-**Gained:** At 1st Level
-
-You hide your true identity, allowing you to move about social circles and nobility without carrying
-the stigma of your ruthless actions. In effect, you have two identities: one is a polite member of
-society while the other is a skilled and cunning warrior. To keep up this charade, you usually have
-two names: your true name, used in polite company, and your vigilante name, used to strike fear in
-the hearts of those who oppose you. Knowledge checks about one do not reveal information about the
-other, unless your true identity is revealed to the world at large.
-
-You can start each day in either of your identities, referred to simply as **social** or
-**vigilante**. Changing from one identity to another takes 1 minute and must be done out of sight
-from other creatures to preserve your secret. Changing identities is more than just changing outfits
-and clothing (although that is certainly a part of it); the process often also involves applying
-make-up, altering your hair, and adjusting other personal effects. Furthermore, the change is as
-much a state of mind as of body, so items such as a
-[hat of disguise](ref/magic-wondrous/hat-of-disguise) and similar spells and effects that change the
-user's appearance do not reduce the time required to change identities. Most _social talents_
-require you to be in your social identity, but a vigilante who uses _vigilante talents_ in his
-social identity risks exposing his secret.
-
-Despite being a single person, your dual nature allows you to have two alignments, one for each of
-your identities. When in an identity, you are treated as having that identity's alignment for all
-spells, magic items, and abilities that rely on alignment. For the purpose of meeting a
-qualification for a feat, class, or any ability, you are only eligible if both of your alignments
-meet the requirements. A vigilante's two alignments cannot be more than one step from each other on
-a single alignment axis. For example, a vigilante with a lawful neutral social identity could have a
+Despite being a single person, a vigilante's dual nature allows him to have two alignments, one for
+each of his identities. When in an identity, he is treated as having that identity's alignment for
+all spells, magic items, and abilities that rely on alignment. For the purpose of meeting a
+qualification for a feat, class, or any ability, he is only eligible if both of his alignments meet
+the requirements. A vigilante's two alignments cannot be more than one step from each other on a
+single alignment axis. For example, a vigilante with a lawful neutral social identity could have a
 vigilante identity that is lawful good, lawful neutral, lawful evil, neutral, neutral good, or
-neutral evil. If you are the target of an effect that would change your alignment, it changes both
-of your alignments to the new alignment.
+neutral evil. If a vigilante is the target of an effect that would change his alignment, it changes
+both of his alignments to the new alignment.
 
-Any attempts to scry or otherwise locate you work only if you are currently in the identity the
-creature is attempting to locate (or if the creature knows that the two identities are the same
-individual). Otherwise, the spell or effect has no effect, revealing nothing but darkness, as if the
-target were invalid or did not exist.
+Any attempts to scry or otherwise locate the vigilante work only if the vigilante is currently in
+the identity the creature is attempting to locate (or if the creature knows that the two identities
+are the same individual). Otherwise, the spell or effect has no effect, revealing nothing but
+darkness, as if the target were invalid or did not exist.
 
 #### Seamless Guise (Ex) {#seamless-guise}
 
-**Ability:** Should anyone suspect you of being anything other than what you appear to be while
-either in your social or vigilante identity, you can attempt a Disguise check with a +20
-circumstance bonus to appear as your current identity, and not as your other identity.
-
-**Flavor:** A vigilante knows how to behave in a way that appears perfectly proper and normal for
-his current identity.
+A vigilante knows how to behave in a way that appears perfectly proper and normal for his current
+identity. Should anyone suspect him of being anything other than what he appears to be while either
+in his social or vigilante identity, he can attempt a Disguise check with a +20 circumstance bonus
+to appear as his current identity, and not as his other identity.
 
 #### Social Talent {#social-talent}
 
-**Ability:** You gain a social talent. Unless otherwise noted, a talent can be selected only once.
-Some talents require you to meet other prerequisites before they can be chosen, such as having
-another social talent or attaining a minimum vigilante level. Once a talent has been chosen, it
-cannot be changed.
+Starting at 1st level, and every 2 levels thereafter, a vigilante gains a social talent. Unless
+otherwise noted, a talent can be selected only once. Some talents require the vigilante to meet
+other prerequisites before they can be chosen, such as having another social talent or attaining a
+minimum vigilante level. Once a talent has been chosen, it cannot be changed.
 
-**Gained:** At 1st Level
-
-**Special:** You gain a new _social talent_ at every odd-numbered level (1st, 3rd, 5th, 7th, and so
-on).
+- [Any Guise (Su)](ref/soctalent/any-guise)
+- [Case the Joint (Ex)](ref/soctalent/case-the-joint)
+- [Celebrity Discount (Ex)](ref/soctalent/celebrity-discount)
+- [Celebrity Perks (Ex)](ref/soctalent/celebrity-perks)
+- [Double Time (Ex)](ref/soctalent/double-time)
+- [Everyman (Su)](ref/soctalent/everyman)
+- [Feign Innocence (Ex)](ref/soctalent/feign-innocence)
+- [Gossip Collector (Ex)](ref/soctalent/gossip-collector)
+- [Great Renown (Ex)](ref/soctalent/great-renown)
+- [Immediate Change (Ex)](ref/soctalent/immediate-change)
+- [In Vogue (Ex)](ref/soctalent/in-vogue)
+- [Incredible Renown (Ex)](ref/soctalent/incredible-renown)
+- [Instant Recognition (Ex)](ref/soctalent/instant-recognition)
+- [Loyal Aid (Ex)](ref/soctalent/loyal-aid)
+- [Many Guises (Ex)](ref/soctalent/many-guises)
+- [Mockingbird (Ex)](ref/soctalent/mockingbird)
+- [Quick Change (Ex)](ref/soctalent/quick-change)
+- [Renown (Ex)](ref/soctalent/renown)
+- [Safe House (Ex)](ref/soctalent/safe-house)
+- [Social Grace](ref/soctalent/social-grace)
+- [Subjective Truth (Ex)](ref/soctalent/subjective-truth)
+- [Triumphant Return (Ex)](ref/soctalent/triumphant-return)
 
 #### Vigilante Specialization (Ex) {#vigilante-specialization}
 
-**Ability:** You must choose to be either an avenger or a stalker. Once this choice is made, it
-can't be changed.
-
-**Gained:** At 1st Level
-
-**Special:** While many _vigilante talents_ are usable by both specializations, some are unique to
-each specialization.
+At 1st level, a vigilante must choose to be either an avenger or a stalker.
 
 #### Avenger {#avenger}
 
-**Passive:** You gain a base attack bonus equal to your vigilante level instead of using those
-listed above. You add this value to any other base attack bonus gained from other classes or racial
-Hit Dice as normal.
+An avenger gains a base attack bonus equal to his vigilante level instead of using those listed on
+Table 1–1. He adds this value to any other base attack bonus gained from other classes or racial Hit
+Dice as normal.
 
 #### Stalker {#stalker}
 
-**Ability:** You gain an ability called _hidden strike,_ which allows you to deal an extra 1d8
-points of precision damage on melee attacks (or ranged attacks from within 30 feet) against foes who
-are unaware of your presence, who consider you an ally, or who are made
-[flat-footed](ref/rule/flat-footed) by _startling appearance._
+A stalker gains an ability called hidden strike, which allows him to deal an extra 1d8 points of
+precision damage on melee attacks (or ranged attacks from within 30 feet) against foes who are
+unaware of his presence, who consider him an ally, or who are made flat-footed by startling
+appearance (see page 17). This extra damage increases by 1d8 at 3rd level and every 2 vigilante
+levels thereafter. A stalker vigilante can also deal hidden strike damage to a target that he is
+flanking or that is denied its Dexterity bonus to AC, but in these cases, the damage dice are
+reduced to d4s. A stalker can deal hidden strike damage against targets with concealment (but not
+total concealment).
 
-**Special:** You can also deal _hidden strike_ damage to a target that you are
-[flanking](ref/rule/flanking) or that is denied its Dexterity bonus to AC, but in these cases, the
-damage dice are reduced to d4s. You can deal _hidden strike_ damage against targets with
-[concealment](ref/rule/concealment) (but not total concealment).
-
-At 3rd level: The damage increases to +2d8.
-
-At 5th level: The damage increases to +3d8.
-
-At 7th level: The damage increases to +4d8.
-
-At 9th level: The damage increases to +5d8.
-
-At 11th level: The damage increases to +6d8.
-
-At 13th level: The damage increases to +7d8.
-
-At 15th level: The damage increases to +8d8.
-
-At 17th level: The damage increases to +9d8.
-
-At 19th level: The damage increases to +10d8.
+Once this choice is made, it can't be changed. While many vigilante talents are usable by both
+specializations, some are unique to each specialization. A stalker vigilante can apply only one
+talent marked with an asterisk (\*) to a given hidden strike, and only when that hidden strike is
+dealt against a foe that is unaware of the stalker vigilante's presence (or who considers him an
+ally), unless otherwise noted.
 
 #### Vigilante Talent {#vigilante-talent}
 
-**Ability:** You gain a vigilante talent. Unless otherwise noted, a talent can be selected only
-once. If a talent calls for a saving throw, the DC for that save is equal to 10 +
-[half](ref/misc/fractions-and-rounding) your vigilante level + your Charisma modifier, unless stated
-otherwise. Some talents require you to meet prerequisites before they can be chosen, such as
-possessing another vigilante talent, possessing a particular specialization, or attaining a minimum
-level. Once a talent has been selected, it can't be changed.
+Starting at 2nd level and every 2 levels thereafter, a vigilante gains a vigilante talent. Unless
+otherwise noted, a talent can be selected only once. Some talents require the vigilante to meet
+prerequisites before they can be chosen, such as possessing another vigilante talent, possessing a
+particular specialization, or attaining a minimum level. Once a talent has been selected, it can't
+be changed.
 
-**Gained:** At 2nd Level
-
-**Special:** You gain a new _vigilante talent_ at every even-numbered level (2nd, 4th, 6th, 8th, and
-so on). If you use any of these talents while in your social identity, you must succeed at a
+If the vigilante uses any of these talents while in his social identity, he must succeed at a
 Disguise check against the Perception checks of all onlookers (without the +20 circumstance bonus
-from _seamless guise_) or the onlookers will realize that you are more than your social identity
-appears to be and perhaps discover the social and vigilante identities are one and the same.
+from seamless guise) or the onlookers will realize that he is more than his social identity appears
+to be and perhaps discover the social and vigilante identities are one and the same. If a talent
+calls for a saving throw, the DC for that save is equal to 10 + 1/2 the vigilante's level + the
+vigilante's Charisma modifier, unless stated otherwise.
+
+- [Another Day (Ex, Su)](ref/vigtalent/another-day)
+- [Armor Skin (Ex)](ref/vigtalent/armor-skin)
+- [Blind Spot (Ex)](ref/vigtalent/blind-spot)
+- [Chase Master (Ex)](ref/vigtalent/chase-master)
+- [Close the Gap (Ex)](ref/vigtalent/close-the-gap)
+- [Combat Skill (Ex)](ref/vigtalent/combat-skill)
+- [Cunning Feint (Ex)](ref/vigtalent/cunning-feint)
+- [Environment Weapon (Ex)](ref/vigtalent/environmental-weapon)
+- [Evasive (Ex)](ref/vigtalent/evasive)
+- [Expose Weakness (Ex)](ref/vigtalent/expose-weaknesses)
+- [Favored Maneuver (Ex)](ref/vigtalent/favored-maneuver)
+- [Fist of the Avenger (Ex)](ref/vigtalent/fist-of-the-avenger)
+- [Foe Collision (Ex)](ref/vigtalent/foe-collision)\*
+- [Heavy Training (Ex)](ref/vigtalent/heavy-training)
+- [Hide in Plain Sight (Ex)](ref/vigtalent/hide-in-plain-sight)
+- [Inspired Vigilante (Ex)](ref/vigtalent/inspired-vigilante)
+- [Leave an Opening (Ex)](ref/vigtalent/leave-an-opening)\*
+- [Lethal Grace (Ex)](ref/vigtalent/lethal-grace)
+- [Living Shield (Ex)](ref/vigtalent/living-shield)
+- [Mad Rush (Ex)](ref/vigtalent/mad-rush)
+- [Mighty Ambush (Ex)](ref/vigtalent/mighty-ambush)\*
+- [Nothing Can Stop Me (Ex)](ref/vigtalent/nothing-can-stop-me)
+- [Perfect Fall (Ex)](ref/vigtalent/perfect-fall)
+- [Perfect Vulnerability (Ex)](ref/vigtalent/perfect-vulnerability)
+- [Pull into the Shadows (Ex)](ref/vigtalent/pull-into-the-shadows)
+- [Returning Weapon (Ex)](ref/vigtalent/returning-weapon)
+- [Rogue Talent (Ex)](ref/vigtalent/rogue-talent)
+- [Rooftop Infiltrator (Ex)](ref/vigtalent/rooftop-infiltrator)
+- [Shadow's Sight (Ex)](ref/vigtalent/shadows-sight)
+- [Shadow's Speed (Ex)](ref/vigtalent/shadows-speed)
+- [Shield of Blades (Ex)](ref/vigtalent/shield-of-blades)
+- [Shield of Fury (Ex)](ref/vigtalent/shield-of-fury)
+- [Signature Weapon (Ex)](ref/vigtalent/signature-weapon)
+- [Silent Dispatch (Ex)](ref/vigtalent/silent-dispatch)
+- [Sniper (Ex)](ref/vigtalent/sniper)
+- [Stalker Sense (Ex)](ref/vigtalent/stalker-sense)
+- [Strike the Unseen (Ex)](ref/vigtalent/strike-the-unseen)
+- [Sucker-Punch (Ex)](ref/vigtalent/sucker-punch)
+- [Sure-Footed (Ex)](ref/vigtalent/sure-footed)
+- [Surprise Strike (Ex)](ref/vigtalent/surprise-strike)
+- [Throat Jab (Ex)](ref/vigtalent/throat-jab)\*
+- [Twisting Fear (Ex)](ref/vigtalent/twisting-fear)
+- [Unexpected Strike (Ex)](ref/vigtalent/unexpected-strike)
+- [Unkillable (Ex)](ref/vigtalent/unkillable)
+- [Up Close and Personal (Ex)](ref/vigtalent/up-close-and-personal)
 
 #### Unshakable (Ex) {#unshakable}
 
-**Gained:** At 3rd Level
-
-**Passive:** You add your class level to the DC of any attempts to Intimidate you.
+Starting at 3rd level, a vigilante adds his class level to the DC of any attempts to Intimidate him.
 
 #### Startling Appearance (Ex) {#startling-appearance}
 
-**Flavor:** A vigilante learns to use the element of surprise to his advantage, startling foes that
-are unaware of his presence.
-
-**Gained:** At 5th Level
-
-**Passive:** Whenever you attempt an attack against a foe that is completely unaware of your
-presence (usually due to Stealth or invisibility), the foe is treated as flat-footed for the rest of
-your turn ([uncanny dodge](ref/ability/uncanny-dodge) or a similar ability prevents this effect
-unless you are at least 4 levels higher than the foe with uncanny dodge). The foe also takes a -4
-penalty on attacks made against you until the start of your next turn.
+At 5th level, a vigilante learns to use the element of surprise to his advantage, startling foes
+that are unaware of his presence. Whenever a vigilante with this ability attempts an attack against
+a foe that is completely unaware of the vigilante's presence (usually due to Stealth or
+invisibility), the foe is treated as flat-footed for the rest of the vigilante's turn
+([uncanny dodge](ref/ability/uncanny-dodge) or a similar ability prevents this effect unless the
+vigilante is at least 4 levels higher than the foe with uncanny dodge). The foe also takes a -4
+penalty on attacks made against the vigilante until the start of the vigilante's next turn.
 
 #### Frightening Appearance (Ex) {#frightening-appearance}
 
-**Free:** Whenever you make an attack against a foe that is unaware of your presence, you can
-attempt an [Intimidate](ref/skill/intimidate) check to demoralize the target of your attack and any
+At 11th level, whenever a vigilante with this ability makes an attack against a foe that is unaware
+of the vigilante's presence (see startling appearance above), the vigilante can, as a free action,
+attempt an [Intimidate](ref/skill/intimidate) check to demoralize the target of his attack and any
 enemies within 10 feet who can see the attack. This check is attempted before the attack roll
-against the foe is made and resolved. You roll only one Intimidate check and applies the result to
-all the targets. If the check succeeds against the target of your attack, that foe is also
-[frightened](ref/misc/frightened) for 1 round, in addition to being [shaken](ref/misc/shaken) as
-normal, unless the foe succeeds at a Will save (DC = 10 + 1/2 your class level + your Charisma
-modifier). This effect is in addition to the bonuses gained from the _startling appearance_ ability.
+against the foe is made and resolved. The vigilante rolls only one Intimidate check and applies the
+result to all the targets. If the check succeeds against the target of the vigilante's attack, that
+foe is also [frightened](ref/misc/frightened) for 1 round, in addition to being
+[shaken](ref/misc/shaken) as normal, unless the foe succeeds at a Will save (DC = 10 + 1/2 the
+vigilante's class level + his Charisma modifier).
 
-**Section:** Other Abilities
-
-**Gained:** At 11th Level
-
-**Special:** Once a creature has been the target of this ability (either as the target of the attack
-or as a nearby creature, regardless of whether or not it was successful), it is immune to your
-_frightening appearance_ for 24 hours. This is a mind-affecting fear effect.
+Once a creature has been the target of this ability (either as the target of the attack or as a
+nearby creature, regardless of whether or not it was successful), it is immune to that vigilante's
+frightening appearance for 24 hours. This effect is in addition to the bonuses gained from the
+startling appearance ability. This is a mind-affecting fear effect.
 
 #### Stunning Appearance (Ex) {#stunning-appearance}
 
-**Gained:** At 17th Level
+At 17th level, a vigilante can leave his foes unable to respond when he appears. Whenever a
+vigilante with this ability makes a successful attack against a foe that is unaware of the
+vigilante's presence (see startling appearance), the foe must make a successful Will save (DC = 10 +
+1/2 the vigilante's class level + his Charisma modifier) or be [stunned](ref/misc/stunned) until the
+end of the vigilante's next turn. If the creature has more HD than the vigilante's class level, it
+receives a +4 circumstance bonus on this save.
 
-**Passive:** Whenever you make a successful attack against a foe that is unaware of your presence,
-the foe must make a successful Will save (DC = 10 + 1/2 your class level + your Charisma modifier)
-or be [stunned](ref/misc/stunned) until the end of your next turn. If the creature has more HD than
-your class level, it receives a +4 circumstance bonus on this save. This ability is in addition to
-the effects of _startling appearance_ and _frightening appearance._
-
-**Special:** Once a creature has been the target of this ability (regardless of whether or not the
-saving throw is successful), it is immune to your _stunning appearance_ for 24 hours. This is a
+This ability is in addition to the effects of startling appearance and frightening appearance. Once
+a creature has been the target of this ability (regardless of whether or not the saving throw is
+successful), it is immune to that vigilante's stunning appearance for 24 hours. This is a
 mind-affecting fear effect.
 
 #### Vengeance Strike (Ex) {#vengeance-strike}
 
-**Ability:** You can spend up to 5 **standard actions**, which all must be in consecutive rounds. On
-the following round, you can make a _vengeance strike_ against the studied creature. The target must
-remain unaware of your presence (or not see you as a threat) until the attack. For each round spent
-studying the target, you grant yourself one of the following benefits on your _vengeance strike:_
-gain a +4 circumstance bonus on the attack roll, deal an additional 3d6 points of precision damage
-if you hit, or treat the attack roll as if it were 2 higher for the purposes of determining whether
-the attack hit or threatens a critical hit (to maximum effective roll of 20). Each round of study
-can be spent in a different way or the same way (they stack with each other), but each round of
-study must be allocated before the attack roll is made.
+At 20th level, a vigilante can study a target to strike more viciously. He can spend up to 5
+standard actions, which all must be in consecutive rounds. On the following round, he can make a
+vengeance strike against the studied creature. The target must remain unaware of the vigilante's
+presence (or not see him as a threat) until the attack. For each round spent studying the target,
+the vigilante grants himself one of the following benefits on his vengeance strike: gain a +4
+circumstance bonus on the attack roll, deal an additional 3d6 points of precision damage if he hits,
+or treat the attack roll as if it were 2 higher for the purposes of determining whether the attack
+hit or threatens a critical hit (to maximum effective roll of 20). Each round of study can be spent
+in a different way or the same way (they stack with each other), but each round of study must be
+allocated before the attack roll is made. If the vigilante is an avenger, he automatically confirms
+any critical hits threatened by his vengeance strike. If the vigilante is a stalker and would
+normally be able to add a special effect from a vigilante talent with an asterisk (\*) to this
+attack, he can instead add two special effects to his vengeance strike.
 
-**Gained:** At 20th Level
+### Vigilante Favored Class Options {#vigilante-favored-class-options}
 
-**Special:** If you are an avenger, you automatically confirm any critical hits threatened by your
-_vengeance strike._ If you are a stalker and would normally be able to add a Hidden Strike Talent to
-this attack, you can instead add two Hidden Strike Talents to your _vengeance strike._
+The following favored class bonuses are available to vigilantes who come from the various core
+races. Each of these rewards replaces the normal reward for having a level in a favored class.
+
+Dwarves: Increase the bonus from social grace on Craft skills by +1/2.
+
+Elves: Gain +1/3 on all Acrobatics, Climb, and Stealth checks in forested areas.
+
+Gnomes: Gain +1/2 on Bluff checks when attempting to tell a lie that would be true from the point of
+view of the vigilante's current identity.
+
+Half-Elves: Gain +1/2 on the Disguise bonus from seamless guise.
+
+Half-Orcs: Add 1/2 to the DC increase from unshakable.
+
+Halflings: Gain 1/6 of a new social talent.
+
+Humans: Gain +1/2 on the Disguise bonus provided by seamless guise.
 
 ### Alternate Capstones
 

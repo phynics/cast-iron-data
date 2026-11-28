@@ -19,6 +19,22 @@ kind = "class"
 class_type = "alternate"
 hit_die = "d10"
 skill_ranks = "4 + Int modifier"
+features = [
+  { anchor = "challenge", level = 1 },
+  { anchor = "mount", level = 1 },
+  { anchor = "order", level = 1 },
+  { anchor = "resolve", level = 1 },
+  { anchor = "weapon-expertise", level = 3 },
+  { anchor = "mounted-archer", level = 4 },
+  { anchor = "banner", level = 5 },
+  { anchor = "bonus-feat", level = 6 },
+  { anchor = "greater-resolve", level = 9 },
+  { anchor = "honorable-stand", level = 11 },
+  { anchor = "demanding-challenge", level = 12 },
+  { anchor = "greater-banner", level = 14 },
+  { anchor = "true-resolve", level = 17 },
+  { anchor = "last-stand", level = 20 },
+]
 +++
 
 Few warriors are more dedicated to honor and the code of the warrior than the samurai. Trained from
@@ -81,329 +97,247 @@ alternate class for the cavalier base class.
 |19th|+19/+14/+9/+4|+11|+6|+6|Challenge 7/day|
 |20th|+20/+15/+10/+5|+12|+6|+6|Last stand|
 
-#### Weapon and Armor Proficiencies {#weapon-and-armor-proficiencies}
+The following are the class features of the samurai.
 
-**Weapons:** All simple weapons, All martial weapons, katana, naginata, wakizashi
+#### Weapon and Armor Proficiency {#weapon-and-armor-proficiencies}
 
-**Armor:** Light armor, Medium armor, Heavy armor
-
-**Shields:** Yes, except tower shields
+Samurai are proficient with all simple and martial weapons, plus the katana and wakizashi. Samurai
+are proficient with all types of armor (heavy, light, and medium) and shields (except tower
+shields).
 
 #### Challenge (Ex) {#challenge}
 
-**Flavor:** A samurai can challenge a foe to combat.
+Once per day, a samurai can challenge a foe to combat. As a swift action, the samurai chooses one
+target within sight to challenge. The samurai's melee attacks deal extra damage when made against
+the target of his challenge. This extra damage is equal to the samurai's level. The samurai can use
+this ability once per day at 1st level, plus one additional time per day for every three levels
+beyond 1st, to a maximum of seven times per day at 19th level.
 
-**Gained:** At 1st Level
+Challenging a foe requires much of the samurai's concentration. The samurai takes a -2 penalty to
+his Armor Class, except against attacks made by the target of his challenge.
 
-**Special:** The _challenge_ remains in effect until the target is dead or unconscious or until the
-combat ends. Your _challenge_ also includes another effect which is listed in the section describing
-your _order._
-
-**Swift:** You choose one target within sight to challenge. Your melee attacks deal extra damage
-when made against the target of your _challenge._ This extra damage is equal to your level.
-Challenging a foe requires much of your concentration. You take a -2 penalty to your Armor Class,
-except against attacks made by the target of your _challenge._
-
-**Usage:** 1 time/day + 1 per 3 samurai levels beyond 1st
+The challenge remains in effect until the target is dead or unconscious, or until the combat ends.
+Each samurai's challenge also includes another effect, which is listed in the section describing the
+samurai's order.
 
 #### Mount (Ex) {#mount}
 
-**Action:** Ability
+A samurai gains the service of a loyal and trusty steed to carry him into battle. This mount
+functions as a druid's [animal companion](ref/sidekick/animal-companion), using the samurai's level
+as his effective druid level. The creature must be one that he is capable of riding and that is
+suitable as a mount. A Medium samurai can select a [camel](ref/companion/camel) or a
+[horse](ref/companion/horse). A Small samurai can select a [pony](ref/companion/pony) or a
+[wolf](ref/companion/wolf), but can also select a [boar](ref/companion/boar) or a
+[dog](ref/companion/dog) if he is at least 4th level. The GM may approve other animals as suitable
+mounts.
 
-**Flavor:** A samurai gains the service of a loyal and trusty steed to carry him into battle.
+A samurai does not take an armor check penalty on Ride checks while riding his mount. The mount is
+always considered combat trained and begins play with
+[Light Armor Proficiency](ref/feat/armor-proficiency-light) as a bonus feat. A samurai's mount does
+not gain the share spells special ability.
 
-**Section:** Mount
-
-**Gained:** At 1st Level
-
-**Special:** Should your mount die, you may find another mount to serve you after 1 week of
-mourning. This new mount does not gain the _link, evasion, devotion,_ or _improved evasion_ special
-abilities until the next time you gain a level.
-
-Your mount functions as a druid's [animal companion](ref/sidekick/animal-companion), using your
-samurai level as your effective druid level. The creature must be one that you are capable of riding
-and that is suitable as a mount. You do not take an armor check penalty on Ride checks while riding
-your mount. The mount is always considered combat trained and begins play with
-[Light Armor Proficiency](ref/feat/armor-proficiency-light) as a bonus feat. Your mount does not
-gain the _share spells_ special ability.
-
-Medium samurai mounts: [camel](ref/companion/camel) or a [horse](ref/companion/horse). Small samurai
-mounts: [pony](ref/companion/pony) or a [wolf](ref/companion/wolf). At 4th level, you add
-[boar](ref/companion/boar) and [dog](ref/companion/dog) to this list. The GM may approve other
-animals as suitable mounts.
+A samurai's bond with his mount is strong, with the pair learning to anticipate each other's moods
+and moves. Should a samurai's mount die, the samurai may find another mount to serve him after 1
+week of mourning. The new mount does not gain the link, evasion, devotion, or improved evasion
+special abilities until the next time the samurai gains a level.
 
 #### Order (Ex) {#order}
 
-**Ability:** You must pledge yourself to a specific [order](ref/ability/orders), typically the
-[order of the warrior](ref/order/order-of-the-warrior). The order grants you a number of bonuses,
-class skills, and special abilities. In addition, each order includes a number of **edicts** that
-you must follow. If you violate any of these edicts, you lose the benefits from your order's
-_challenge_ ability for 24 hours. The violation of an edict is subject to GM interpretation.
+At 1st level, a samurai must pledge himself to a specific [order](ref/ability/orders), typically the
+[order of the warrior](ref/order/order-of-the-warrior). The order grants the samurai a number of
+bonuses, class skills, and special abilities. In addition, each order includes a number of edicts
+the samurai must follow. If he violates these edicts, he loses the benefits of his order's challenge
+ability for 24 hours. The violation of an edict is subject to GM interpretation.
 
-**Info:** Most samurai belong to the order of the warrior and are dedicated to their lord. Those
-without a lord, or who chose to abandon their lord, are [ronin](ref/order/ronin). You may instead
-elect to dedicate yourself to any other order, but such samurai are rare.
+Most samurai belong to the order of the warrior and are dedicated to their lord. Those without a
+lord, or who chose to abandon their lord, are [ronin](ref/order/ronin). A samurai may instead elect
+to dedicate himself to one of the orders listed under the cavalier description (see pages 34–37 of
+the _Advanced Player's Guide_), but such samurai are rare.
 
-**Section:** Order
-
-**Gained:** At 1st Level
-
-**Special:** A samurai who wishes to change his order must undertake a lengthy process to dedicate
-himself to a new cause. When this choice is made, you immediately lose all of the benefits from your
-old order. You must then follow the edicts of your new order for one entire level without gaining
-any benefits from that order. Once you have accomplished this, you gain all the bonuses from your
-new order. The only exception to this is when a samurai decides to become a ronin. You can elect to
-become a ronin immediately, losing all the benefits from your old order and replacing them with the
-new benefits from the ronin order. Once a ronin, however, the only way for you to change to another
-order is through the method described above. Note that the names of these orders might vary
-depending upon the campaign setting or GM's preference.
+A samurai who wishes to change his order must undertake a lengthy process to dedicate himself to a
+new cause. When this choice is made, he immediately loses all of the benefits from his old order. He
+must then follow the edicts of his new order for one entire level without gaining any benefits from
+that order. Once he has accomplished this, he gains all the bonuses from his new order. The only
+exception to this is when a samurai decides to become a ronin. A samurai can elect to become a ronin
+immediately, losing all the benefits from his old order and replacing them with the new benefits
+from the ronin order. Once a ronin, however, the only way for the samurai to change to another order
+is through the method described above. Note that the names of these orders might vary depending upon
+the campaign setting or GM's preference.
 
 #### Resolve (Ex) {#resolve}
 
-**At 8th Level:** _Determined_ can now remove the [exhausted](ref/misc/exhausted),
-[frightened](ref/misc/frightened), [nauseated](ref/misc/nauseated), or
-[staggered](ref/misc/staggered) conditions, instead.
+Starting at 1st level, the samurai gains resolve that he can call upon to endure even the most
+devastating wounds and afflictions. He can use this ability once per day at 1st level, plus one
+additional time per day for every two samurai levels beyond 1st. Whenever the samurai defeats the
+target of his challenge, he regains one daily use of his resolve, up to his maximum number of uses
+per day. Defeating the target of his challenge usually involves reducing the target to 0 hit points
+or fewer, but the GM might rule that an enemy who surrenders or flees the battle is also defeated.
+He can use this resolve in a number of ways.
 
-**Gained:** At 1st Level
-
-**Passive:** You gain _resolve_ that you can call upon to endure even the most devastating wounds
-and afflictions. Whenever you defeat the target of your _challenge,_ you regain one daily use of
-your _resolve,_ up to your maximum number of uses per day. Defeating the target of your _challenge_
-usually involves reducing the target to 0 hit points or fewer, but the GM might rule that an enemy
-who surrenders or flees the battle is also defeated. You can use this _resolve_ in a number of ways.
-
-**Determined:** You can spend one use of your _resolve_ as a **standard action** to remove the
+_Determined_: As a standard action, the samurai can spend one use of his resolve to remove the
 [fatigued](ref/misc/fatigued), [shaken](ref/misc/shaken), or [sickened](ref/misc/sickened)
-condition. If the condition has a duration longer than 1 hour or is permanent, this ability removes
-the condition for 1 hour, at which time the condition returns.
+condition. If the samurai is at least 8th level, he can alternatively remove the
+[exhausted](ref/misc/exhausted), [frightened](ref/misc/frightened), [nauseated](ref/misc/nauseated),
+or [staggered](ref/misc/staggered) condition. If the condition has a duration longer than 1 hour or
+is permanent, this ability removes the condition for 1 hour, at which time the condition returns.
 
-**Resolute:** Whenever you are required to make a Fortitude or Will save, you can spend one use of
-your _resolve_ as an **immediate action** to roll twice and take the better result. You must decide
-to use this ability before you roll the saving throw.
+_Resolute_: Whenever the samurai is required to make a Fortitude or Will save, he can spend one use
+of his resolve as an immediate action to roll twice and take the better result. He must decide to
+use this ability before he rolls the saving throw.
 
-**Unstoppable:** When you are reduced to fewer than 0 hit points but not slain, you can spend one
-use of your _resolve_ as an **immediate action** to instantly [stabilize](ref/misc/stable) and
-remain conscious. You are staggered, but you do not fall unconscious and begin dying if you take a
-standard action. You do fall unconscious if you take additional damage from any source.
-
-**Usage:** 1 time/day + 1 per 2 samurai levels beyond 1st
+_Unstoppable_: When the samurai is reduced to fewer than 0 hit points but not slain, he can spend
+one use of his resolve as an immediate action to instantly [stabilize](ref/misc/stable) and remain
+conscious. He is staggered, but he does not fall unconscious and begin dying if he takes a standard
+action. He does fall unconscious if he takes additional damage from any source.
 
 #### Weapon Expertise (Ex) {#weapon-expertise}
 
-**Ability:** Select either the katana, [longbow](ref/eq-weapon/longbow), naginata, or wakizashi.
-Whenever you threaten a critical hit with the selected weapon, you gain a +2 bonus on the
-confirmation roll.
-
-**Free:** You can draw the selected weapon as if you had the [Quick Draw](ref/feat/quick-draw) feat.
-
-**Gained:** At 3rd Level
-
-**Passive:** Your samurai levels count as fighter levels and stack with any fighter levels you
-possess for the purposes of meeting the prerequisites for feats that specifically select your chosen
-weapon, such as [Weapon Specialization](ref/feat/weapon-specialization).
+At 3rd level, a samurai gains an unparalleled expertise with his chosen weapons. At 3rd level, the
+samurai selects either the katana, [longbow](ref/eq-weapon/longbow), naginata, or wakizashi. The
+samurai can draw the selected weapon as a free action as if he had the
+[Quick Draw](ref/feat/quick-draw) feat. In addition, whenever he threatens a critical hit with the
+selected weapon, he gains a +2 bonus on the confirmation roll. Finally, his samurai levels count as
+fighter levels and stack with any fighter levels he possesses for the purposes of meeting the
+prerequisites for feats that specifically select his chosen weapon, such as
+[Weapon Specialization](ref/feat/weapon-specialization).
 
 #### Mounted Archer (Ex) {#mounted-archer}
 
-**Flavor:** A samuari becomes skilled at firing ranged weapons while mounted.
-
-**Gained:** At 4th Level
-
-**Passive:** You only take a -2 penalty on attack rolls with ranged weapons while your mount takes a
-double move. This penalty increases to -4 while your mount is running.
+At 4th level, the samurai becomes skilled at firing ranged weapons while mounted. A samurai only
+takes a -2 penalty on attack rolls with ranged weapons while his mount takes a double move. This
+penalty increases to -4 while his mount is running.
 
 #### Banner (Ex) {#banner}
 
-**Choice:** Choose one of the following standards. The "Original Standard" refers to the original
-_banner_ ability as printed in _Ultimate Combat,_ while the other standards were introduced in other
-rulebooks.
+At 5th level, a samurai's banner becomes a symbol of inspiration to his allies and companions. As
+long as the samurai's banner is clearly visible, all allies within 60 feet receive a +2 morale bonus
+on saving throws against fear and a +1 morale bonus on attack rolls made as part of a charge. At
+10th level, and every five levels thereafter, these bonuses increase by +1. The banner must be at
+least Small or larger and must be carried or displayed by the samurai or his mount to function.
 
-**Flavor:** A samurai's banner becomes a symbol of inspiration to his allies and companions.
+##### Flying the Flag of War (Chronicle of Legends page 4) {#flying-the-flag-of-war}
 
-**Gained:** At 5th Level
+Some knights inspire and direct their allies with specialized tactics. A cavalier or samurai can
+select one of the following battle standards upon gaining the banner class feature, and its benefits
+replace the normal benefits of the banner and greater banner class features. A battle standard
+functions as the banner or greater banner class feature except where otherwise noted. A cavalier or
+samurai who replaces the banner or greater banner class feature via an archetype cannot select a
+battle standard, with the following exception: a standard bearer cavalier can select a battle
+standard at 1st level, and its effects increase as per the standard bearer's banner.
 
-**Passive:** As long as your banner is clearly visible, all allies within 60 feet gain the bonus
-specified by your standard.
+##### Fleet Standard (Ex) (Chronicle of Legends page 4) {#fleet-standard}
 
-**Special:** The banner must be at least Small or larger and must be carried or displayed by you or
-your mount to function.
+These banners are common among Jininese samurai. An ally who benefits from this standard increases
+her land speed by 5 feet and gains a +1 dodge bonus to AC during any round in which she moved at
+least 10 feet. This increase to land speed is an enhancement bonus. At 10th level and every 5 levels
+thereafter, the bonus to speed increases by 5 feet. At 14th level, an ally benefiting from the
+banner gains a +2 morale bonus on Reflex saving throws against effects that target an area, such as
+[fireball](ref/spell/fireball) or [breath weapons](ref/umr/breath-weapon). When the cavalier or
+samurai waves this standard, each ally within 60 feet can move up to her speed as an immediate
+action.
 
-#### Original Standard (Ex) {#original-standard}
+##### Jinx Standard (Ex) (Chronicle of Legends page 4) {#jinx-standard}
 
-**Passive:** An ally who benefits from this standard receives a morale bonus on saving throws
-against fear and a smaller morale bonus on attack rolls made as part of a charge. The save bonus is
-equal to 1 + [one-fifth](ref/misc/fractions-and-rounding) of your samurai level, while the charge
-bonus is equal to one-fifth of your samurai level.
+These grim fetishes are common among Jadwiga cavaliers. An ally who benefits from this standard
+gains a +1 bonus on caster level checks to bypass [spell resistance](ref/rule/spell-resistance) and
+a +1 bonus to the DC of her hexes and necromancy or enchantment spell she casts. At 10th level and
+every 5 levels thereafter, the bonus on caster level checks increases by 1. At 14th level, an ally
+benefiting from the banner gains a +2 morale bonus on saving throws against spells or effects that
+deal hit point damage. When the cavalier or samurai waves this standard, a number of allies equal to
+the cavalier or samurai's Charisma modifier (minimum 1) within 60 feet can attempt an Intimidate
+check to demoralize a foe as an immediate action.
 
-#### Fleet Standard (Ex) {#fleet-standard}
+##### Knave Standard (Ex) (Chronicle of Legends page 4) {#knave-standard}
 
-**Passive:** An ally who benefits from this standard increases their land speed by 5 feet and gains
-a +1 dodge bonus to AC during any round in which they moved at least 10 feet. This increase to land
-speed is an enhancement bonus.
+The knave standard is common among cavaliers of the River Kingdoms. An ally who benefits from this
+standard gains a +2 dodge bonus to AC against attacks of opportunity provoked by movement and a +1
+morale bonus on attack rolls that benefit from [flanking](ref/rule/flanking). At 10th level and
+every 5 levels thereafter, the bonus to AC increases by 1. At 14th level, an ally benefiting from
+the banner gains [sneak attack](ref/ability/sneak-attack) +1d6; this stacks with other sources of
+sneak attack. When the cavalier or samurai waves this standard, a number of allies equal to the
+cavalier or samurai's Charisma modifier (minimum 1) within 60 feet can each attempt a
+[feint](ref/rule/feint) against a foe she threatens as an immediate action.
 
-At 10th level: The bonus to speed increases to +10 feet.
+##### Stalwart Standard (Ex) (Chronicle of Legends page 4) {#stalwart-standard}
 
-At 15th level: The bonus to speed increases to +15 feet.
-
-At 20th level: The bonus to speed increases to +20 feet.
-
-#### Jinx Standard (Ex) {#jinx-standard}
-
-**Passive:** An ally who benefits from this standard gains a bonus on caster level checks to bypass
-[spell resistance](ref/rule/spell-resistance) and a bonus to the DC of their hexes and necromancy or
-enchantment spell they casts. These bonuses are equal to one-fifth of your samurai level.
-
-#### Knave Standard (Ex) {#knave-standard}
-
-**Passive:** An ally who benefits from this standard gains a dodge bonus (equal to 1 + one-fifth of
-your samurai level) to AC against attacks of opportunity provoked by movement, and a +1 morale bonus
-on attack rolls that benefit from [flanking](ref/rule/flanking).
-
-#### Stalwart Standard (Ex) {#stalwart-standard}
-
-**Passive:** An ally who benefits from this standard gains a morale bonus (equal to 1 + one-fifth
-your samurai level) to CMD and a +1 morale bonus on attack rolls to creatures threatening an ally.
+These banners are common among the dwarven defenders of Kraggodan. An ally who benefits from this
+standard gains a +2 morale bonus to CMD and a +1 morale bonus on attack rolls to creatures
+threatening an ally. At 10th level and every 5 levels thereafter, the bonus to CMD increases by +1.
+At 14th level, an ally benefiting from the banner is treated as one size category larger for the
+purposes of determining which creatures can affect him with combat maneuvers. When the cavalier or
+samurai waves this standard, each ally within 60 feet can move up to 10 feet without provoking
+attacks of opportunities and ignoring [difficult terrain](ref/rule/terrain-and-obstacles) as an
+immediate action.
 
 #### Bonus Feat {#bonus-feat}
 
-**Ability:** You gain a bonus combat feat.
-
-**Gained:** At 6th Level
-
-**Special:** You must meet the prerequisites of these feats.
-
-At 12th level: You gain a 2nd bonus combat feat.
-
-At 18th level: You gain a 3rd bonus combat feat.
+At 6th level, and every six levels thereafter, a samurai gains a bonus feat in addition to those
+gained from normal advancement. These bonus feats must be selected from those listed as combat
+feats. The samurai must meet the requirements of these bonus feats.
 
 #### Greater Resolve (Ex) {#greater-resolve}
 
-**Immediate:** After a critical hit is confirmed against you, you can spend one use of your
-_resolve_ to treat that critical hit as a normal hit.
-
-**Gained:** At 9th Level
-
-**Special:** Effects that only trigger on a critical hit do not trigger when you use this ability.
+At 9th level, a samurai can spend his resolve to negate some of his most grievous wounds. After a
+critical hit is confirmed against him, the samurai can spend one use of his resolve as an immediate
+action to treat that critical hit as a normal hit. Effects that only trigger on a critical hit do
+not trigger when the samurai uses this ability.
 
 #### Honorable Stand (Ex) {#honorable-stand}
 
-**Flavor:** A samurai can make an honorable stand, deciding to fight the target of his _challenge_
-to the bitter end, no matter the cost.
-
-**At 16th Level:** You can make an _honorable stand_ twice a day.
-
-**Gained:** At 11th Level
-
-**Special:** If you are making an honorable stand and ever retreat from battle against your
-_challenged_ foe, you lose the ability to make a _challenge_ for 24 hours.
-
-**Swift:** You can make an honorable stand. While doing so, you are immune to the shaken,
-frightened, and [panicked](ref/misc/panicked) conditions. You do not fall unconscious while your hit
-point total is below 0. Finally, if you are making an honorable stand and must make a saving throw,
-you can spend one daily use of your _resolve_ to reroll the saving throw after the first roll is
-made. You must take the result of the second roll, even if it is worse.
-
-**Usage:** Once a day.
-
-**Usage:** Once a day.
+At 11th level, a samurai can make an honorable stand, deciding to fight the target of his challenge
+to the bitter end, no matter the cost. He can make an honorable stand once per day at 11th level,
+plus one additional time per day at 16th level. Declaring an honorable stand is a swift action.
+While making an honorable stand, the samurai is immune to the shaken, frightened, and
+[panicked](ref/misc/panicked) conditions. He does not fall unconscious while his hit point total is
+below 0. Finally, whenever a samurai making an honorable stand must make a saving throw, he can
+spend one daily use of his resolve to reroll the saving throw after the first roll is made. He must
+take the result of the second roll, even if it is worse. If a samurai making an honorable stand ever
+retreats from battle against his challenged foe, he loses the ability to make a challenge for 24
+hours.
 
 #### Demanding Challenge (Ex) {#demanding-challenge}
 
-**Gained:** At 12th Level
-
-**Passive:** Whenever you declare a _challenge,_ your target must pay attention to the threat you
-pose. As long as the target is within your threatened area, it takes a -2 penalty to its AC from
-attacks made by anyone other than you.
+At 12th level, whenever a samurai declares a challenge, his target must pay attention to the threat
+he poses. As long as the target is within the threatened area of the samurai, it takes a -2 penalty
+to its AC on attacks made by anyone other than the samurai.
 
 #### Greater Banner (Ex) {#greater-banner}
 
-**Flavor:** A samurai's banner becomes a rallying call to his allies.
-
-**Section:** Other Abilities
-
-**Gained:** At 14th Level
-
-**Passive:** All allies within 60 feet gain new benefits from your _banner._
-
-**Standard:** While your banner is displayed, you can wave the banner through the air, granting all
-allies within 60 feet certain benefits.
-
-#### Original Standard (Ex) {#original-standard-2}
-
-**Passive:** An ally benefiting from the banner receives a +2 morale bonus on saving throws against
-charm and compulsion spells and effects.
-
-**Standard:** Waving your _banner_ grants all allies within 60 feet an additional saving throw
-against any one spell or effect that is targeting them. This save is made at the original DC. Spells
-and effects that do not allow saving throws are unaffected by this ability. An ally cannot benefit
-from this ability more than once per day.
-
-#### Fleet Standard (Ex) {#fleet-standard-2}
-
-**Passive:** An ally benefiting from the banner gains a +2 morale bonus on Reflex saving throws
-against effects that target an area, such as [fireball](ref/spell/fireball) or
-[breath weapons](ref/umr/breath-weapon).
-
-**Standard:** Waving your _banner_ grants each ally within 60 feet the ability to move up to their
-speed as an **immediate action**.
-
-#### Jinx Standard (Ex) {#jinx-standard-2}
-
-**Passive:** An ally benefiting from the banner gains a +2 morale bonus on saving throws against
-spells or effects that deal hit point damage.
-
-**Standard:** Waving your _banner_ grants a number of allies equal to your Charisma modifier
-(minimum 1) within 60 feet the ability to attempt an Intimidate check to demoralize a foe as an
-**immediate action**.
-
-#### Knave Standard (Ex) {#knave-standard-2}
-
-**Passive:** An ally benefiting from the banner gains [sneak attack](ref/ability/sneak-attack) +1d6;
-this stacks with other sources of sneak attack.
-
-**Standard:** Waving your _banner_ grants a number of allies equal to your Charisma modifier
-(minimum 1) within 60 feet the ability to attempt a [feint](ref/rule/feint) against a foe they
-threaten as an **immediate action**.
-
-#### Stalwart Standard (Ex) {#stalwart-standard-2}
-
-**Passive:** An ally benefiting from the banner is treated as one size category larger for the
-purposes of determining which creatures can affect them with combat maneuvers.
-
-**Standard:** Waving your _banner_ grants each ally within 60 feet the ability to move up to 10 feet
-without provoking attacks of opportunities and ignoring
-[difficult terrain](ref/rule/terrain-and-obstacles) as an **immediate action**.
+At 14th level, a samurai's banner becomes a rallying call to his allies. All allies within 60 feet
+receive a +2 morale bonus on saving throws against charm and compulsion spells and effects. In
+addition, while his banner is displayed, the samurai can spend a standard action to wave the banner
+through the air, granting all allies within 60 feet an additional saving throw against any one spell
+or effect that is targeting them. This save is made at the original DC. Spells and effects that do
+not allow saving throws are unaffected by this ability. An ally cannot benefit from this ability
+more than once per day.
 
 #### True Resolve (Ex) {#true-resolve}
 
-**Ability:** If you have at least two uses of your _resolve_ remaining, you can spend all of the
-daily uses of your _resolve_ that you have available to you to avoid death. Regardless of the source
-of the attack that would have killed you, you are left alive, at -1 hit points (or lower if you were
-already below -1), [unconscious](ref/misc/unconscious), and [stable](ref/misc/stable).
-
-**Gained:** At 17th Level
+At 17th level, a samurai can spend uses of his resolve to avoid death. If he has at least two uses
+of his resolve remaining, he can spend all of the daily uses of his resolve that he has available to
+him to avoid death. Regardless of the source of the attack that would have killed him, he is left
+alive, at -1 hit points (or lower if he was already below -1), [unconscious](ref/misc/unconscious),
+and [stable](ref/misc/stable).
 
 #### Last Stand (Ex) {#last-stand}
 
-**Ability:** You can make a _last stand_ whenever you make a _challenge._ While this _challenge_ is
-in effect, all melee and ranged weapons deal the minimum amount of damage to you, unless the attack
-scored is a critical hit. In addition, you remain conscious and are not staggered while you are
-below 0 hit points.
+At 20th level, a samurai can make a last stand once per day whenever he makes a challenge. While
+this challenge is in effect, all melee and ranged weapons deal the minimum amount of damage to the
+samurai, unless the attack scored is a critical hit. In addition, the samurai remains conscious and
+is not staggered while he is below 0 hit points. While using this ability, the samurai cannot be
+killed by melee or ranged weapons unless they are wielded by the target of his challenge. Attacks
+made by opponents that are not the target of his challenge deal no damage when samurai has 0 or
+fewer hit points. This ability has no effect on spells, environmental effects, supernatural
+abilities, or any other source of damage other than melee and ranged weapons. Such sources of damage
+affect him normally and can kill him (although they do not cause him to fall unconscious or to
+become staggered if they reduce his hit points below 0). This effect lasts until the challenge ends
+or the samurai takes an offensive action against a target other than the target of his challenge.
 
-**Gained:** At 20th Level
+### Samurai Orders {#samurai-orders}
 
-**Passive:** While using this ability, you cannot be killed by melee or ranged weapons unless they
-are wielded by the target of your _challenge._ Attacks made by opponents that are not the target of
-your _challenge_ deal no damage when you have 0 or fewer hit points. This ability has no effect on
-spells, environmental effects, supernatural abilities, or any other source of damage other than
-melee and ranged weapons. Such sources of damage affect you normally and can kill you (although they
-do not cause you to fall unconscious or to become staggered if they reduce your hit points below 0).
-
-**Special:** This effect lasts until the _challenge_ ends or you take an offensive action against a
-target other than the target of your _challenge._
-
-**Usage:** Once a day.
-
-**Usage:** Once a day.
+The following orders can be chosen by both samurai and cavaliers, although the former are far more
+likely to do so. Samurai can also select any of the cavalier orders presented in the _Pathfinder RPG
+Advanced Player's Guide_.
 
 ### Alternate Capstones
 
