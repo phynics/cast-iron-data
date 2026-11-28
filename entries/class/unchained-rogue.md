@@ -27,9 +27,6 @@ features = [
   { anchor = "rogue-talents", level = 2 },
   { anchor = "danger-sense", level = 3 },
   { anchor = "debilitating-injury", level = 4 },
-  { anchor = "bewildered" },
-  { anchor = "disoriented" },
-  { anchor = "hampered" },
   { anchor = "uncanny-dodge", level = 4 },
   { anchor = "rogue-s-edge", level = 5 },
   { anchor = "improved-uncanny-dodge", level = 8 },
@@ -165,32 +162,67 @@ can be stopped by a successful DC 15 Heal check or the application of any effect
 point damage. Bleed damage from this ability does not stack with itself. Bleed damage bypasses any
 damage reduction the creature might possess.
 
-- [Camouflage (Ex)](ref/talent/camouflage)
 - [Certainty (Ex)](ref/talent/certainty)
 - [Coax Information (Ex)](ref/talent/coax-information-unchained-rogue)
-- [Combat Swipe](ref/talent/combat-swipe)
+- [Combat Swipe](ref/talent/combat-swipe-unchained-rogue)
 - [Combat Trick](ref/talent/combat-trick)
-- [Esoteric Scholar (Ex)](ref/talent/esoteric-scholar)
-- [Expert Leaper (Ex)](ref/talent/expert-leaper)
+- [Expert Leaper (Ex)](ref/talent/expert-leaper-unchained-rogue)
 - [Fast Stealth (Ex)](ref/talent/fast-stealth)
 - [Follow Clues (Ex)](ref/talent/follow-clues)
-- [Hold Breath (Ex)](ref/talent/hold-breath)
-- [Lasting Poison (Ex)](ref/talent/lasting-poison)
-- [Ledge Walker (Ex)](ref/talent/ledge-walker)
-- [Major Magic (Sp)](ref/talent/major-magic)
-- [Minor Magic (Sp)](ref/talent/minor-magic)
+- [Lasting Poison (Ex)](ref/talent/lasting-poison-unchained-rogue)
+- [Ledge Walker (Ex)](ref/talent/ledge-walker-unchained-rogue)
 - [Multitalented (Ex)](ref/talent/multitalented)
 - [Nimble Climber (Ex)](ref/talent/nimble-climber)
-- [Powerful Sneak (Ex)](ref/talent/powerful-sneak)\*
-- [Quick Disable (Ex)](ref/talent/quick-disable)
-- [Resiliency (Ex)](ref/talent/resiliency)
-- [Rogue Crawl (Ex)](ref/talent/rogue-crawl)
+- [Powerful Sneak (Ex)](ref/talent/powerful-sneak-unchained-rogue)\*
+- [Quick Disable (Ex)](ref/talent/quick-disable-unchained-rogue)
+- [Rogue Crawl (Ex)](ref/talent/rogue-crawl-unchained-rogue)
 - [Slow Reactions (Ex)](ref/talent/slow-reactions)\*
-- [Stand Up (Ex)](ref/talent/stand-up)
-- [Surprise Attack (Ex)](ref/talent/surprise-attack)
+- [Stand Up (Ex)](ref/talent/stand-up-unchained-rogue)
+- [Surprise Attack (Ex)](ref/talent/surprise-attack-unchained-rogue)
 - [Terrain Mastery (Ex)](ref/talent/terrain-mastery)
 - [Trap Spotter (Ex)](ref/talent/trap-spotter)
 - [Weapon Training](ref/talent/weapon-training)
+
+##### Camouflage (Ex) {#camouflage}
+
+A rogue with this talent can craft simple but effective camouflage from the surrounding foliage. The
+rogue needs 1 minute to prepare the camouflage, but once she does, it is effective for the rest of
+the day or until the rogue fails a saving throw against an area-effect spell that deals acid, cold,
+or fire damage, whichever comes first. The rogue gains a +4 bonus on Stealth checks while within
+terrain that matches the foliage used to make the camouflage. This ability cannot be used in areas
+without natural foliage.
+
+##### Esoteric Scholar (Ex) {#esoteric-scholar}
+
+A rogue with this talent can attempt any Knowledge skill check, even if she is not trained in that
+Knowledge skill.
+
+##### Hold Breath (Ex) {#hold-breath}
+
+A rogue with this talent doubles the amount of time she can hold her breath.
+
+##### Major Magic (Sp) {#major-magic}
+
+A rogue with this talent gains the ability to cast a 1st-level spell from the sorcerer/wizard spell
+list once per day as a spell-like ability for every 2 rogue levels she possesses. The rogue's caster
+level for this ability is equal to her rogue level. The save DC for this spell is 11 + the rogue's
+Intelligence modifier. A rogue must have the minor magic rogue talent and an Intelligence score of
+at least 11 to select this talent.
+
+##### Minor Magic (Sp) {#minor-magic}
+
+A rogue with this talent gains the ability to cast a 0-level spell from the sorcerer/wizard spell
+list. This spell can be cast at will as a spell-like ability. The rogue's caster level for this
+ability is equal to her rogue level. The save DC for this spell is 10 + the rogue's Intelligence
+modifier. A rogue must have an Intelligence score of at least 10 to select this talent.
+
+##### Resiliency (Ex) {#resiliency}
+
+Once per day, a rogue with this ability can gain a number of temporary hit points equal to twice her
+rogue level. Activating this ability is an immediate action that can be performed only when the
+rogue is brought to below 0 hit points. This ability can be used to prevent the rogue from dying.
+These temporary hit points last for 1 minute. If the rogue's hit points drop below 0 due to the loss
+of these temporary hit points, she falls unconscious and is dying as normal.
 
 #### Danger Sense (Ex) {#danger-sense}
 
@@ -209,6 +241,11 @@ target of her attack, causing it to take a penalty for 1 round (this is in addit
 caused by a rogue talent or other special ability). The rogue can choose to apply any one of the
 following penalties when the damage is dealt.
 
+These penalties do not stack with themselves, but additional attacks that deal sneak attack damage
+extend the duration by 1 round. A creature cannot suffer from more than one penalty from this
+ability at a time. If a new penalty is applied, the old penalty immediately ends. Any form of
+healing applied to a target suffering from one of these penalties also removes the penalty.
+
 #### Bewildered {#bewildered}
 
 The target becomes bewildered, taking a -2 penalty to AC. The target takes an additional -2 penalty
@@ -225,11 +262,6 @@ attack rolls made against the rogue increases by -2 (to a total maximum of -8).
 
 All of the target's speeds are reduced by half (to a minimum of 5 feet). In addition, the target
 cannot [take a 5-foot step](ref/rule/take-5-foot-step).
-
-These penalties do not stack with themselves, but additional attacks that deal sneak attack damage
-extend the duration by 1 round. A creature cannot suffer from more than one penalty from this
-ability at a time. If a new penalty is applied, the old penalty immediately ends. Any form of
-healing applied to a target suffering from one of these penalties also removes the penalty.
 
 #### Uncanny Dodge (Ex) {#uncanny-dodge}
 
@@ -266,14 +298,12 @@ talents in place of a rogue talent.
 
 - [Crippling Strike (Ex)](ref/talent/crippling-strike)\*
 - [Cutting Edge (Ex)](ref/talent/cutting-edge)
-- [Deadly Sneak (Ex)](ref/talent/deadly-sneak)\*
-- [Defensive Roll (Ex)](ref/talent/defensive-roll)
+- [Deadly Sneak (Ex)](ref/talent/deadly-sneak-unchained-rogue)\*
 - [Dispelling Attack (Su)](ref/talent/dispelling-attack)\*
 - [Double Debilitation (Ex)](ref/talent/double-debilitation)\*
 - [Feat](ref/talent/feat)
 - [Improved Evasion (Ex)](ref/talent/improved-evasion)
 - [Light Walker (Ex)](ref/talent/light-walker)
-- [Master of Disguise (Ex)](ref/talent/master-of-disguise)
 - [Greater Multitalented (Ex)](ref/talent/greater-multitalented)
 - [Opportunist (Ex)](ref/talent/opportunist)
 - [Skill Mastery](ref/talent/skill-mastery-unchained-rogue)
@@ -299,6 +329,24 @@ swift poison, underhanded, wall scramble.
 Another day, confounding blades\*, deadly cocktail, familiar, fast tumble, frugal trapsmith, getaway
 master, hide in plain sight, hunter's surprise, knock-out blow, redirect attack, rumormonger,
 stealthy sniper, unwitting ally, weapon snatcher.
+
+##### Defensive Roll (Ex) {#defensive-roll}
+
+The rogue can roll with a potentially lethal blow to take less damage from it than she otherwise
+would. When she would be reduced to 0 or fewer hit points by damage in combat (from a weapon or
+other blow, not a spell or special ability), the rogue can attempt to roll with the damage. To use
+this ability, the rogue must attempt a Reflex saving throw (DC = damage dealt). If she succeeds, the
+rogue takes only half damage from the blow; if she fails, she takes full damage. She must be aware
+of the attack and able to react to it in order to execute her defensive roll; if she is denied her
+Dexterity bonus to AC, she can't use this ability. Since such damage would not normally allow a
+character to attempt a Reflex save for half damage, the rogue's evasion ability does not apply to
+the defensive roll.
+
+##### Master of Disguise (Ex) {#master-of-disguise}
+
+Once per day, a rogue with this talent can don a disguise as a standard action. While wearing that
+disguise, she gains a +10 bonus on all Disguise checks. A rogue must have the Quick Disguise talent
+to select this talent.
 
 #### Master Strike (Ex) {#master-strike}
 

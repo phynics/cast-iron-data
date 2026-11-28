@@ -98,11 +98,6 @@ entry = "ref/ragepower/guarded-stance"
 # `[[layout_fix]]`: words or cells of a class table that print's layout runs into a sentence of a feature (the text layer reads the table beside the text): the printed words
 # `find` (a plain string, or `re:` and a regular expression) and what the sentence says (`replace`). Each is checked against the page when it is added.
 
-[[layout_fix]]
-class = "ref/class/summoner"
-key = "eidolon"
-find = "the Twin eidolon summoner's class level"
-replace = "the summoner's class level"
 
 [[layout_fix]]
 class = "ref/class/inquisitor"
@@ -110,23 +105,8 @@ key = "slayer"
 find = "cannot be changed for the remainder of the judgment"
 replace = "cannot be changed for the remainder of the judgment."
 
-[[layout_fix]]
-class = "ref/class/antipaladin"
-key = "fiendish-boon"
-find = "re:Spells per Day 1st 2nd 3rd 4th(?: [—–\\d]+)+ "
-replace = ""
 
-[[layout_fix]]
-class = "ref/class/inquisitor"
-key = "solo-tactics"
-find = "re:Spells per Day(?: \\d+)+ "
-replace = ""
 
-[[layout_fix]]
-class = "ref/class/summoner"
-key = "life-link"
-find = "more than 1,000 feet Spells per Day 5 5 5 5 5 5 away"
-replace = "more than 1,000 feet away"
 
 # the cells of Table 3-5 (Cleric spells per day) and its footnote that run into the sentence of Channel Energy (Core Rulebook p. 40); the Special cells of Table 3-9 in Armor Training (p. 55)
 
@@ -719,7 +699,7 @@ under = "rage-powers"
 [[layout_fix]]
 class = "ref/class/unchained-barbarian"
 key = "ultimate-campaign"
-find = " stack to determine the minimum level required to flank the barbarian."
+find = "re: stack to determine the minimum level required to f ?lank the barbarian\\."
 replace = ""
 
 [[layout_fix]]
@@ -777,9 +757,51 @@ entry = "ref/talent/skill-mastery-unchained-rogue"
 id = "ref/class/unchained-rogue"
 key_marks = ["rogue-talents", "advanced-talents"]
 
-# The end of the sentence of the advanced talent Defensive Roll (a link, p. 23) stands behind the box "Unmodified Rogue Talents" in the text layer: it belongs to that talent's entry.
-[[tail_of_linked]]
+# The end of the sentence of the advanced talent Defensive Roll (p. 23: "... in order to" [box] "execute her defensive roll; ...") stands behind the box "Unmodified Rogue Talents" in the text layer: it goes back to the talent.
+[[para_to_host]]
 class = "ref/class/unchained-rogue"
 key = "advanced-rogue-talents"
-marker = "execute her defensive roll"
-entry = "ref/talent/defensive-roll"
+marker = "Execute her defensive roll"
+host = "defensive-roll"
+lower_first = true
+
+
+# The Witch's box "Adding Spells to a Witch's Familiar" stands inside the Hag's Eye hex (Advanced Player's Guide p. 68): the end of the hex's paragraph ("witches within 10 feet ... increments.")
+# belongs to the hex's entry, a link (the case was in the writer before data #403).
+[[tail_of_linked]]
+class = "ref/class/witch"
+key = "learn-from-a-scroll"
+marker = "witches within 10 feet"
+entry = "ref/hex/hags-eye"
+end = ".*?\\bincrements\\."
+
+# The Unchained Classes link an option only when the entry holds the Unchained text or print states the same rule (interim rule, data #405). The Barbarian's powers and the Rogue's talents
+# below were read against the entry that the corpus has (print's words and the entry's rules are the same); every other option stays plain text with print's text under its feature.
+[[class]]
+id = "ref/class/unchained-barbarian"
+link_if_same = true
+same_rule = ["Scent", "Greater Ground Breaker", "Calm Stance", "Fearless Rage", "Internal Fortitude", "Low-Light Vision", "Quick Reflexes"]
+
+[[class]]
+id = "ref/class/unchained-rogue"
+link_if_same = true
+same_rule = ["Combat Trick", "Weapon Training", "Feat", "Improved Evasion", "Trap Spotter", "Terrain Mastery", "Slippery Mind", "Opportunist", "Slow Reactions", "Crippling Strike", "Dispelling Attack", "Double Debilitation"]
+
+# Debilitating Injury (Pathfinder Unchained p. 22): Bewildered, Disoriented and Hampered are its three penalties, no class features of their own (the class table does not list them), and the
+# paragraph on the penalties (they do not stack, a new penalty ends the old one, healing removes them) stands behind Hampered but applies to all three.
+[[class]]
+id = "ref/class/unchained-rogue"
+not_features = ["bewildered", "disoriented", "hampered"]
+
+[[para_to_host]]
+class = "ref/class/unchained-rogue"
+key = "hampered"
+marker = "These penalties do not stack with themselves"
+host = "debilitating-injury"
+
+# The coverage check reads the end of the list and the end of Defensive Roll's sentence as one sentence ("... weapon snatcher. execute her defensive roll; ..."): the end of the sentence is a sentence of its own.
+[[layout_fix]]
+class = "ref/class/unchained-rogue"
+key = "advanced-rogue-talents"
+find = "weapon snatcher. execute her defensive roll"
+replace = "weapon snatcher. Execute her defensive roll"

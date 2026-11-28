@@ -39,8 +39,10 @@ a field, no leading or trailing white space.
 - `import-error`: the import has a wrong value, a garbled or dropped text, an invented or inherited
   field, or a wrong page.
 - `paraphrase`: the same rule and values, in other words or another order.
-- `errata`: a Paizo errata document (or a later printing that the owner holds) changes the printed
-  text, and the corpus keeps the changed text.
+- `errata`: a Paizo errata document changes the printed text, and the corpus keeps the changed text.
+  The same class holds the text of a later printing than the owner's copy that the library has no
+  document for, when an owner ruling keeps it (owner ruling 68, the Shifter of Ultimate Wilderness):
+  its `evidence` reads "Later printing of <book>; owner ruling <number>".
 - `misprint`: print contradicts itself, a formula or the rest of the book; the corpus keeps the
   correct value and the row records the misprint.
 - `unknown`: a real rule or name difference with no evidence either way.
@@ -50,7 +52,7 @@ a field, no leading or trailing white space.
 | `decision` | The corpus holds | `kept_value` | Allowed `class` |
 |---|---|---|---|
 | `print` | the printed value | empty | `import-error`, `paraphrase`, `unknown` |
-| `keep` | a value that differs from print | the kept text | `errata` only, and `evidence` starts with "Paizo errata for " or, when the library has no document for a later printing that the corpus follows (owner ruling 68, the Shifter), "Later printing of " |
+| `keep` | a value that differs from print | the kept text | `errata` only, and `evidence` starts with "Paizo errata for " or, when the library has no document for a later printing that the corpus follows (owner ruling 68, the Shifter), "Later printing of <book>; owner ruling <number>" |
 | `misprint-fix` | the corrected value | the corrected text | `misprint` only |
 
 A `print` row of class `unknown` is a ruling without evidence: a later errata document reopens it.

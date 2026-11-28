@@ -145,56 +145,20 @@ intentionally ended at the beginning of the barbarian's turn as a free action; o
 until the rage ends.
 
 - [Accurate Stance (Ex)](ref/ragepower/accurate-stance)
-- [Animal Fury (Ex)](ref/ragepower/animal-fury)
-- [Auspicious Mark (Su)](ref/ragepower/auspicious-mark)
-- [Bleeding Blow (Ex)](ref/ragepower/bleeding-blow)
 - [Calm Stance (Ex)](ref/ragepower/calm-stance)
-- [Clear Mind (Ex)](ref/ragepower/clear-mind)
-- [Crippling Blow (Ex)](ref/ragepower/crippling-blow)
-- [Deadly Accuracy (Ex)](ref/ragepower/deadly-accuracy)
-- [Eater of Magic (Su)](ref/ragepower/eater-of-magic)
 - [Elemental Stance (Su)](ref/ragepower/elemental-stance)
-- [Energy Absorption (Su)](ref/ragepower/energy-absorption)
-- [Energy Resistance (Ex)](ref/ragepower/energy-resistance)
 - [Fearless Rage (Ex)](ref/ragepower/fearless-rage)
-- [Flesh Wound (Ex)](ref/ragepower/flesh-wound)
-- [Ground Breaker (Ex)](ref/ragepower/ground-breaker)
 - [Greater Ground Breaker (Ex)](ref/ragepower/greater-ground-breaker)
 - [Guarded Stance (Ex)](ref/ragepower/guarded-stance-stance)
-- [Increased Damage Reduction (Ex)](ref/ragepower/increased-damage-reduction)
-- [Inspire Ferocity (Ex)](ref/ragepower/inspire-ferocity)
 - [Internal Fortitude (Ex)](ref/ragepower/internal-fortitude)
-- [Intimidating Glare (Ex)](ref/ragepower/intimidating-glare)
-- [Knockback (Ex)](ref/ragepower/knockback)
 - [Knockdown Stance (Ex)](ref/ragepower/knockdown-stance)
-- [Lethal Accuracy (Ex)](ref/ragepower/lethal-accuracy)
 - [Low-Light Vision (Ex)](ref/ragepower/low-light-vision)
-- [Mighty Swing (Ex)](ref/ragepower/mighty-swing)
-- [Night Vision (Ex)](ref/ragepower/night-vision)
-- [No Escape (Ex)](ref/ragepower/no-escape)
-- [Perfect Clarity (Ex)](ref/ragepower/perfect-clarity)
-- [Powerful Stance (Ex)](ref/ragepower/powerful-stance)
 - [Quick Reflexes (Ex)](ref/ragepower/quick-reflexes)
-- [Raging Climber (Ex)](ref/ragepower/raging-climber)
-- [Raging Leaper (Ex)](ref/ragepower/raging-leaper)
-- [Raging Swimmer (Ex)](ref/ragepower/raging-swimmer)
 - [Reckless Stance (Ex)](ref/ragepower/reckless-stance)
-- [Reflexive Dodge (Ex)](ref/ragepower/reflexive-dodge)
 - [Regenerative Stance (Ex)](ref/ragepower/regenerative-stance)
-- [Renewed Vigor (Ex)](ref/ragepower/renewed-vigor)
-- [Renewed Vitality (Ex)](ref/ragepower/renewed-vitality)
-- [Roused Anger (Ex)](ref/ragepower/roused-anger)
 - [Scent (Ex)](ref/ragepower/scent)
-- [Sharpened Accuracy (Ex)](ref/ragepower/sharpened-accuracy)
-- [Smasher (Ex)](ref/ragepower/smasher)
-- [Sprint (Ex)](ref/ragepower/sprint)
 - [Strength Stance (Ex)](ref/ragepower/strength-stance)
-- [Superstition (Ex)](ref/ragepower/superstition)
-- [Swift Foot (Ex)](ref/ragepower/swift-foot)
 - [Taunting Stance (Ex)](ref/ragepower/taunting-stance)
-- [Terrifying Howl (Ex)](ref/ragepower/terrifying-howl)
-- [Unexpected Strike (Ex)](ref/ragepower/unexpected-strike)
-- [Witch Hunter (Ex)](ref/ragepower/witch-hunter)
 
 ##### Shove Aside (Ex) {#shove-aside}
 
@@ -227,8 +191,268 @@ drunk.
 
 Body bludgeon, dragon totem, dragon totem resilience, ghost rager, guarded life (greater), hive
 totem, hive totem resilience, hive totem toxicity, primal scent, sunder enchantment, world serpent
-spirit, world serpent totem, world serpent totem unity. stack to determine the minimum level
-required to flank the barbarian.
+spirit, world serpent totem, world serpent totem unity.
+
+##### Animal Fury (Ex) {#animal-fury}
+
+The barbarian gains a bite attack. This is a primary natural attack that deals 1d4 points of damage
+(if the barbarian is Medium; 1d3 if the barbarian is Small) plus the barbarian's Strength modifier.
+If made as part of a full-attack action with manufactured weapons, the bite attack is made at the
+barbarian's full base attack bonus - 5, and she adds only 1/2 her Strength modifier to the damage
+roll. The barbarian can make a bite attack as part of the action to maintain or break free from a
+grapple. If the bite attack hits, grapple checks attempted by the barbarian against the target until
+the end of the round gain a +2 bonus.
+
+##### Auspicious Mark (Su) {#auspicious-mark}
+
+The barbarian has been marked by the spirits, as indicated by an impressive tattoo, scar, or
+birthmark she possesses. As a swift action, she can call upon the spirits' favor to increase any d20
+roll she just made by rolling 1d6 and adding it to the result. This bonus increases by 1 for every 4
+levels she has. She can call on the auspicious mark after seeing the result of the d20 roll. This
+ability can be used only once per day.
+
+##### Bleeding Blow (Ex) {#bleeding-blow}
+
+While in the powerful stance, the barbarian can make an attack that causes her enemies to bleed
+profusely. Once per round, she can have one of her attacks deal an amount of bleed damage equal to
+1/2 her bonus damage from powerful stance. This bleed damage bypasses damage reduction. This bleed
+damage doesn't stack with itself. A barbarian must have the powerful stance rage power and be at
+least 8th level to select this rage power.
+
+##### Clear Mind (Ex) {#clear-mind}
+
+When the barbarian fails a Will saving throw, she can attempt another Will saving throw at the end
+of her next turn (using the original DC). If the second saving throw is successful, the barbarian is
+treated as if she succeeded at the first saving throw, negating or reducing the effect as determined
+by the spell or effect. If this second saving throw fails, the barbarian suffers the full effects of
+the spell or effect as normal. A barbarian must be at least 8th level to select this rage power.
+
+##### Crippling Blow (Ex) {#crippling-blow}
+
+Once per day when the barbarian hits with an attack, she can deal 1 point of ability damage to the
+target's Strength or Dexterity score. This damage increases by 1 point for every 4 levels the
+barbarian has. A barbarian must be at least 8th level to select this rage power.
+
+##### Deadly Accuracy (Ex) {#deadly-accuracy}
+
+If the barbarian scores a critical threat while in the accurate stance, she applies double the
+accurate stance's bonus when rolling to confirm the critical. A barbarian must have the accurate
+stance rage power and be at least 4th level to select this rage power.
+
+##### Eater of Magic (Su) {#eater-of-magic}
+
+When the barbarian succeeds at a saving throw to resist a spell, supernatural ability, or spell-like
+ability, she gains temporary hit points equal to the spell's level (in the case of spells or
+spell-like abilities) or 1/2 the CR of the effect's creator (in the case of supernatural abilities).
+These temporary hit points disappear when the barbarian's rage ends, and they stack with her
+temporary hit points from rage but not with other temporary hit points gained from this rage power.
+A barbarian must have the superstition rage power and be at least 10th level to select this rage
+power.
+
+##### Energy Absorption (Su) {#energy-absorption}
+
+Once per day, the barbarian can absorb the energy from a single attack that deals damage of the
+energy type she resists with the energy resistance rage power. She takes no damage from the attack
+and doesn't attempt a saving throw. Instead, she increases the temporary hit points from her rage by
+an amount equal to 1/2 the damage she would have taken (ignoring her energy resistance). If the
+barbarian is at least 16th level, once before her rage ends, she can unleash the stored energy as a
+breath weapon in either a 60-foot line or a 30-foot cone. The breath weapon deals an amount of
+damage equal to the full amount the barbarian would have taken from the absorbed effect. Creatures
+affected by the breath weapon can attempt a Reflex save for half damage (DC = 10 + 1/2 the
+barbarian's level + her Constitution modifier). She retains the temporary hit points from this
+ability even if she unleashes this breath weapon. A barbarian must have the energy resistance rage
+power and be at least 12th level to select this rage power.
+
+##### Energy Resistance (Ex) {#energy-resistance}
+
+The barbarian gains resistance to one energy type (acid, cold, electricity, fire, or sonic) equal to
+1/2 her barbarian level (minimum 1). At 8th level, she gains limited immunity to the same type of
+energy, as _protection from energy_. She can absorb 2 points of damage per level, and she applies
+her energy resistance first. The energy type is chosen when this rage power is selected, and it
+can't be changed. This rage power can be selected more than once; each time, it applies to a
+different energy type.
+
+##### Flesh Wound (Ex) {#flesh-wound}
+
+Once per day, the barbarian can avoid serious harm from an attack. She attempts a Fortitude save
+with a DC equal to the damage that would be dealt by the attack. If she succeeds, she takes no
+damage from the attack. If she fails, she takes half damage from the attack and the damage is
+nonlethal. The barbarian must elect to use this ability after the attack roll is made, but before
+the damage is rolled. A barbarian must be at least 10th level to select this rage power.
+
+##### Ground Breaker (Ex) {#ground-breaker}
+
+The barbarian can attack the floor around her as a full-round action. This attack automatically hits
+and deals damage normally. If the barbarian deals more damage than the floor's hardness, the space
+she occupies and all of the squares adjacent to her become difficult terrain. Creatures in those
+squares, except the barbarian, must succeed at DC 15 Reflex saves or be knocked prone. A barbarian
+must be at least 6th level to select this rage power.
+
+##### Increased Damage Reduction (Ex) {#increased-damage-reduction}
+
+The barbarian's damage reduction increases by 2/— whenever she is raging. A barbarian can select
+this rage power up to three times. Its effects stack. A barbarian must be at least 8th level to
+select this rage power.
+
+##### Inspire Ferocity (Ex) {#inspire-ferocity}
+
+While in the reckless stance, the barbarian imparts the stance's bonus and penalty to all willing
+allies within 30 feet of her. A barbarian must have the reckless stance rage power to select this
+rage power.
+
+##### Intimidating Glare (Ex) {#intimidating-glare}
+
+The barbarian adds her Strength modifier in place of her Charisma modifier on all Intimidate checks
+to demoralize a foe. She can attempt an Intimidate check to demoralize an adjacent foe as a move
+action instead of a standard action. If the barbarian successfully demoralizes an adjacent foe, that
+foe is shaken for the remainder of the barbarian's current rage.
+
+##### Knockback (Ex) {#knockback}
+
+Once per round, the barbarian can attempt a bull rush against one target in place of a melee attack,
+using her full CMB regardless of the attack it replaces. If the bull rush is successful, the target
+takes an amount of damage equal to the barbarian's Strength modifier and is knocked back as normal.
+The barbarian doesn't move with the target. This bull rush doesn't provoke an attack of opportunity.
+
+##### Lethal Accuracy (Ex) {#lethal-accuracy}
+
+While in the accurate stance, the barbarian's critical multiplier for damage increases by 1 (a ×2
+multiplier becomes ×3, a ×3 multiplier becomes ×4, and a ×4 multiplier becomes ×5). A barbarian must
+have the accurate stance and deadly accuracy rage powers and be at least 16th level to select this
+rage power.
+
+##### Mighty Swing (Ex) {#mighty-swing}
+
+The barbarian automatically confirms a critical hit. This power is used as an immediate action once
+a critical threat has been determined. This ability can be used only once per day. A barbarian must
+be at least 12th level to select this rage power.
+
+##### Night Vision (Ex) {#night-vision}
+
+The barbarian's senses grow incredibly sharp, and she gains darkvision out to a range of 60 feet. If
+she already has darkvision, the range of that darkvision increases by 60 feet. A barbarian must have
+a darkvision racial trait, low-light vision racial trait, or the low-light vision rage power to
+select this rage power.
+
+##### No Escape (Ex) {#no-escape}
+
+The barbarian can move up to double her base speed as an immediate action. She can use this ability
+only when an adjacent foe uses a withdraw action to move away from her. She must end her movement
+adjacent to the enemy that used the withdraw action. The barbarian provokes attacks of opportunity
+as normal during this movement.
+
+##### Perfect Clarity (Ex) {#perfect-clarity}
+
+While in the calm stance, the barbarian can roll twice for any miss chances or Will saving throws to
+disbelieve illusions, taking the better result. A barbarian must have the calm stance rage power to
+select this rage power.
+
+##### Powerful Stance (Ex) {#powerful-stance}
+
+The barbarian can focus her ferocity. She gains a +1 bonus on melee damage rolls and thrown weapon
+damage rolls. This bonus increases by 1 for every 4 levels the barbarian has. This is a stance rage
+power.
+
+_Protect Vitals (Ex)_: While in the guarded stance, the barbarian gains an additional +4 dodge bonus
+to AC against attack rolls made to confirm critical hits. A barbarian must have the guarded stance
+rage power and be at least 8th level to select this rage power.
+
+##### Raging Climber (Ex) {#raging-climber}
+
+The barbarian gains a climb speed equal to 1/2 her base land speed, taking into account her fast
+movement class feature. She can't use this climb speed to climb any surface with a DC higher
+than 20. She also gains a +8 enhancement bonus on Climb checks.
+
+##### Raging Leaper (Ex) {#raging-leaper}
+
+The barbarian is always considered to have a running start when attempting an Acrobatics check to
+jump. In addition, she gains a +8 bonus on Acrobatics checks to jump. Finally, if the barbarian
+falls, she halves the total distance fallen for the purposes of determining damage taken from the
+fall.
+
+##### Raging Swimmer (Ex) {#raging-swimmer}
+
+The barbarian gains a swim speed equal to 1/2 her base land speed (taking into account her fast
+movement class feature). She also gains a +8 enhancement bonus on Swim checks.
+
+##### Reflexive Dodge (Ex) {#reflexive-dodge}
+
+While in the guarded stance, the barbarian can apply her dodge bonus to AC as a bonus on Reflex
+saving throws. A barbarian must have the guarded stance rage power and be at least 6th level to
+select this rage power.
+
+##### Renewed Vigor (Ex) {#renewed-vigor}
+
+As a standard action, the barbarian heals 1d8 points of damage + her Constitution modifier. For
+every 4 levels the barbarian has beyond 4th, the amount healed increases by 1d8 (to a maximum of 5d8
+at 20th level). This ability can be used only once per day. The barbarian must be at least 4th level
+to select this rage power.
+
+##### Renewed Vitality (Ex) {#renewed-vitality}
+
+The barbarian ignores the effect of 1 point of ability penalty or ability damage per 2 levels she
+has (maximum 10). At 6th level, the barbarian can also ignore 1 negative level per 4 levels she has.
+She takes the full effects of the ability penalties, ability damage, or negative levels once her
+rage ends.
+
+##### Roused Anger (Ex) {#roused-anger}
+
+The barbarian can enter a rage even when fatigued. If the barbarian enters a rage while fatigued,
+she loses the fatigued condition and she does not gain temporary hit points from rage. Once this
+rage ends, the barbarian is exhausted for 10 minutes.
+
+##### Sharpened Accuracy (Ex) {#sharpened-accuracy}
+
+While in the accurate stance, the barbarian ignores the miss chance for concealment and treats total
+concealment as concealment. She also ignores cover penalties except those from total cover. A
+barbarian must have the accurate stance rage power and be at least 8th level to select this rage
+power.
+
+##### Smasher (Ex) {#smasher}
+
+Whenever the barbarian attempts a sunder combat maneuver or makes an attack against an unattended
+object, she ignores 1 point of the object's hardness per barbarian level she has.
+
+##### Sprint (Ex) {#sprint}
+
+The barbarian adds 1/2 her speed to the distance she can move when she runs or charges. A barbarian
+must have the swift foot rage power and be at least 4th level to select this rage power.
+
+##### Superstition (Ex) {#superstition}
+
+The barbarian gains a +2 competence bonus on saving throws made to resist spells and spell-like
+abilities. This bonus increases by 1 for every 4 levels the barbarian has. The barbarian cannot be
+the willing target of any spell and must attempt saving throws to resist all spells, even those cast
+by allies.
+
+##### Swift Foot (Ex) {#swift-foot}
+
+The barbarian gains a 10-foot enhancement bonus to her base speed. A barbarian can select this rage
+power up to three times; its effects stack.
+
+##### Terrifying Howl (Ex) {#terrifying-howl}
+
+The barbarian unleashes a terrifying howl as a standard action. All enemies that have been shaken by
+the barbarian (usually through the Intimidate skill) within 30 feet must succeed at a Will save (DC
+= 10 + 1/2 the barbarian's level + her Strength modifier) or be panicked for 1d4+1 rounds. Once an
+enemy has attempted a save versus this ability (whether successful or not), it's immune to this
+power for 24 hours. A barbarian must be at least 8th level and have the intimidating glare rage
+power to select this rage power.
+
+##### Unexpected Strike (Ex) {#unexpected-strike}
+
+The barbarian can make an attack of opportunity against a foe that moves into any square threatened
+by the barbarian, regardless of whether that movement would normally provoke an attack of
+opportunity. The barbarian can use this ability only when there are no other foes in a square
+threatened by the barbarian. A barbarian must be at least 8th level to select this rage power.
+
+##### Witch Hunter (Ex) {#witch-hunter}
+
+The barbarian gains a +1 bonus on damage rolls against creatures possessing spells or spell-like
+abilities. This damage bonus increases by 1 for every 4 levels the barbarian has. In addition, if
+she confirms a critical hit against a creature affected by an ongoing beneficial spell effect, that
+effect is suppressed for 1 round (determined randomly if the creature is currently affected by more
+than one effect). A barbarian must have the superstition rage power to select this rage power.
 
 #### Uncanny Dodge (Ex) {#uncanny-dodge}
 

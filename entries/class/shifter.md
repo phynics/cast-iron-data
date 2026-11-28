@@ -298,7 +298,7 @@ assume the minor forms of all her aspects and the shifter can use her major and 
 ### Speaking Druidic
 
 For the purposes of teaching and learning the Druidic language, shifters are considered to be
-druids - the nuances of the language are instrumental in teaching characters of both classes to use
+druids—the nuances of the language are instrumental in teaching characters of both classes to use
 and control their abilities. While the rare druidic circle might bar shifters from its order, and
 while some eccentric shifters may view druids as competitors or even enemies, all shifters are
 assumed to speak it.
@@ -307,7 +307,8 @@ assumed to speak it.
 
 A shifter who ceases to revere nature, changes to a prohibited alignment, or teaches the Druidic
 language to a non-druid or a non-shifter loses all her supernatural abilities. She cannot thereafter
-gain levels as a shifter until she [atones](ref/spell/atonement).
+gain levels as a shifter until she [atones](ref/spell/atonement) (see the _atonement_ spell
+description on page 245 of the _Core Rulebook_).
 
 ### Shifter Favored Class Options {#shifter-favored-class-options}
 

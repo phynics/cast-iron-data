@@ -583,7 +583,7 @@ def other_book_sections(e_id: str, items: list[dict]) -> None:
 # rest of that paragraph to the last paragraph of the box): (class entry, key of the feature whose paragraph holds it) -> (the words that it starts with, the entry that
 # it belongs to: an option of the feature that the box interrupted, which is a link; the class-option pass of the book reads its text from print). The Witch's box "Adding Spells to a Witch's
 # Familiar" stands inside the Hag's Eye hex (p. 68).
-TAIL_OF_LINKED: dict[tuple[str, str], tuple[str, str]] = {("ref/class/witch", "learn-from-a-scroll"): ("witches within 10 feet", "ref/hex/hags-eye")}
+TAIL_OF_LINKED: dict[tuple[str, str], tuple[str, str]] = {}
 TAIL_ENDS: dict[tuple[str, str], str] = {}                      # where the tail ends in the text of the head (a regular expression); the Witch's ends at "increments."
 for _t in MANIFEST.get("tail_of_linked", []):                   # the manifest's `[[tail_of_linked]]`: class, key, marker, entry, and `end` (default: the rest of the text)
     TAIL_OF_LINKED[(_t["class"], _t["key"])] = (_t["marker"], _t["entry"])
@@ -598,7 +598,13 @@ TABLE_LEAK = re.compile(r"\b(?:Spells|Extracts) per Day\s+(?:\d|1st|[\u2014\u201
 
 # Print's layout puts a class table beside the text, and the text layer of the page runs words of the table's Special column into a sentence. Known cases:
 # (class entry, key) -> [(what the layer has, what the sentence says)], each checked against the page.
+# A paragraph that print sets behind a sub-head and that applies to the whole feature (the Unchained Rogue's Debilitating Injury: the rule on the penalties stands behind Hampered, the third
+# of three): it goes back to the feature (the manifest's `[[para_to_host]]`: class, key of the item whose text ends with it, marker (its first words), host).
+PARA_TO_HOST: dict[str, list[dict]] = {}
+for _p in MANIFEST.get("para_to_host", []):
+    PARA_TO_HOST.setdefault(_p["class"], []).append(_p)
 LAYOUT_FIXES: dict[tuple[str, str], list[tuple[str, str]]] = {}
+LAYOUT_APPLIED: set[tuple[str, str, int]] = set()          # (class, key, n) of the layout fixes that found their words (a fix that finds none is an error: `layout_unused`)
 for _fix in MANIFEST.get("layout_fix", []):
     LAYOUT_FIXES.setdefault((_fix["class"], _fix["key"]), []).append((_fix["find"], _fix["replace"]))
 
@@ -690,6 +696,9 @@ def option_title_keys(corpus: Path) -> dict[str, list[tuple[str, str]]]:
     out: dict[str, list[tuple[str, str]]] = {}
     for x in co.load_class_options(corpus):
         out.setdefault(fp.namekey(x.title), []).append((x.id, (x.data.get("fields") or {}).get("group", "")))
+        base = re.match(r"^(.*?)\s*\(Unchained [A-Za-z]+\)$", x.title)       # "Combat Swipe (Unchained Rogue)": the Unchained sibling of an entry is a candidate of the plain name too
+        if base:
+            out.setdefault(fp.namekey(base.group(1)), []).append((x.id, (x.data.get("fields") or {}).get("group", "")))
     return out
 
 
@@ -718,7 +727,7 @@ def own_candidates(cands: list[tuple[str, str]], own: dict[str, str | None], fea
 OPTION_PICKS: dict[tuple[str, str], str] = {(x["class"], fp.squash(x["name"])): x["entry"] for x in MANIFEST.get("option_pick", [])}
 
 
-def pick_options(items: list[tuple[str, list[tuple[str, str]]]], picks: dict[str, str] | None = None) -> tuple[list[tuple[str, str]], list[str]]:
+def pick_options(items: list[tuple[str, list[tuple[str, str]]]], picks: dict[str, str] | None = None, prefer: str = "") -> tuple[list[tuple[str, str]], list[str]]:
     """The links of one option list: (name, entry id) for each name, from the group that most of its items belong to, and the names that stay ambiguous
     (two entries of the chosen group, or none in it). No fallback to another group: an item without a candidate of its class is no link."""
     groups = Counter(g for _, cands in items for _, g in cands)
@@ -731,6 +740,10 @@ def pick_options(items: list[tuple[str, list[tuple[str, str]]]], picks: dict[str
             out.append((name, chosen))
         elif len(pool) == 1:
             out.append((name, pool[0]))
+        elif prefer.startswith("unchained-") and len([i for i in pool if i.endswith("-" + prefer)]) == 1:
+            out.append((name, next(i for i in pool if i.endswith("-" + prefer))))      # the entry of the class's own sibling ("combat-swipe-unchained-rogue" for the Unchained Rogue)
+        elif not prefer.startswith("unchained-") and len([i for i in pool if not re.search(r"-unchained-[a-z]+$", i)]) == 1:
+            out.append((name, next(i for i in pool if not re.search(r"-unchained-[a-z]+$", i))))      # another class: the entry that is no Unchained sibling
         else:
             unsure.append(name)
     return out, unsure
@@ -745,6 +758,29 @@ def repair_ligature(corpus: Path, name: str, entry_id: str) -> str:
     if m and " " in base and base != m.group(1) and fp.squash(base) == fp.squash(m.group(1)) and base.replace(" ", "") == m.group(1).replace(" ", ""):
         return name.replace(base, m.group(1), 1)
     return name
+
+
+# The Unchained classes link an option only when the target entry holds the Unchained text or print states the same rule (interim rule, data #405): the entry of the Unchained sibling
+# (`-unchained-rogue`), an entry whose words are print's, or an option that the manifest lists as the same rule (`[[class]] same_rule`, read against print). Else the printed name is
+# plain text and print's text of the option stays under the feature.
+LINK_IF_SAME: dict[str, set[str]] = {c["id"]: {fp.squash(x) for x in c.get("same_rule", [])} for c in MANIFEST.get("class", []) if c.get("link_if_same")}
+for _c in MANIFEST.get("class", []):
+    if _c["id"] in LINK_IF_SAME:
+        LINK_IF_SAME[_c["id"]] |= {fp.squash(x) for x in _c.get("same_rule", [])}
+
+
+def option_same_rule(corpus: Path, class_id: str, name: str, entry_id: str, print_text: str) -> bool:
+    if entry_id.endswith("-" + class_id.rsplit("/", 1)[1]):
+        return True                                               # the entry of the class's own sibling ("combat-swipe-unchained-rogue") holds that class's text
+    if fp.squash(fp.ABILITY_TAG.sub("", name)) in LINK_IF_SAME.get(class_id, set()):
+        return True
+    path = corpus / "entries" / (entry_id.removeprefix("ref/") + ".md")
+    if not path.exists() or not print_text.strip():
+        return False
+    body = path.read_text(encoding="utf-8").split("\n+++\n", 1)[-1]
+    norm = lambda t: re.findall(r"[a-z0-9+/'-]+", re.sub(r"[*_`\\]", "", re.sub(r"\[([^\]]*)\]\([^)]*\)", r"\1", t)).lower().replace("\u2019", "'").replace("\u2013", "-"))
+    a, b = norm(print_text), norm(body)
+    return difflib.SequenceMatcher(None, a, b, autojunk=False).ratio() >= 0.97
 
 
 def class_decisions(corpus: Path, book: str) -> dict[tuple[str, str], tuple[str, str]]:
@@ -892,12 +928,31 @@ GAP_STOP: dict[str, str] = {
 GAP_STOP.update({c["id"]: fp.squash(c["gap_stop"]) for c in MANIFEST.get("class", []) if c.get("gap_stop")})        # `[[class]] gap_stop` of the manifest
 
 
+def apply_layout(class_id: str, key: str, text: str, notes: list[str] | None = None) -> str:
+    """The text of a feature (or of an unlisted section) without the words of a class table that the layout runs into it (the manifest's `[[layout_fix]]`)."""
+    for n, (old, new) in enumerate(LAYOUT_FIXES.get((class_id, key), [])):
+        fix = (lambda s, o=old, n=new: re.sub(o[3:], n, s)) if old.startswith("re:") else (lambda s, o=old, n=new: s.replace(o, n))
+        if fix(" ".join(text.split())) != " ".join(text.split()):
+            text = "\n\n".join(fix(" ".join(x.split())) for x in text.split("\n\n"))
+            LAYOUT_APPLIED.add((class_id, key, n))
+            if notes is not None:
+                notes.append(f"layout: words or cells of a class table are in the sentence ({old[:50]!r})")
+    return text
+
+
+def layout_unused(class_id: str) -> list[str]:
+    return [f"layout fix not applied ({k}): {old[:60]!r}" for (c, k), fixes in LAYOUT_FIXES.items() if c == class_id for n, (old, _new) in enumerate(fixes) if (c, k, n) not in LAYOUT_APPLIED]
+
+
 def layout_fixed(class_id: str, key: str, text: str) -> str:
     """The text with the table words that the layout runs into it taken out (`LAYOUT_FIXES`, the manifest's `[[layout_fix]]`); the paragraph breaks do not matter to
     the checks that use it."""
     flat = " ".join(text.split())
-    for old, new in LAYOUT_FIXES.get((class_id, key), []):
+    for n, (old, new) in enumerate(LAYOUT_FIXES.get((class_id, key), [])):
+        before = flat
         flat = re.sub(old[3:], new, flat) if old.startswith("re:") else flat.replace(old, new)
+        if flat != before:
+            LAYOUT_APPLIED.add((class_id, key, n))
     for er in ERRATA_FIXES.get((class_id, key), []):
         flat = flat.replace("\u2019", "'").replace(er["find"], er["replace"])      # (the text layer's apostrophe is a curly one)                       # the printed text as the errata has it: the sentences that it replaces are no loss
     return flat
@@ -1225,11 +1280,7 @@ def compare_class(corpus: Path, e, bk, cache: dict, options: dict | None = None,
             if tag:                                       # the tag of the head ("Summon Monster I" "(Sp):") stands in the first run: it belongs to the head
                 head = f"{head} ({tag.group(1)})" if not re.search(r"\((?:Ex|Su|Sp)[^)]*\)\s*$", head) else head
                 text = text[tag.end():]
-            for old, new in LAYOUT_FIXES.get((e.id, key), []):
-                fix = (lambda s, o=old, n=new: re.sub(o[3:], n, s)) if old.startswith("re:") else (lambda s, o=old, n=new: s.replace(o, n))
-                if fix(" ".join(text.split())) != " ".join(text.split()):
-                    text = "\n\n".join(fix(" ".join(x.split())) for x in text.split("\n\n"))
-                    notes.append(f"layout: words or cells of a class table are in the sentence ({old[:50]!r})")
+            text = apply_layout(e.id, key, text, notes)
             text = with_word_tables(e.id, text)
             text = errata_fixed(e.id, key, text, notes)
             leak = TABLE_LEAK.search(" ".join(text.split()))
@@ -1329,6 +1380,7 @@ def compare_class(corpus: Path, e, bk, cache: dict, options: dict | None = None,
         opt = own_candidates(options.get(fp.namekey(r["head"])) or [], own, it["key"] if it else "")
         if opt and it is not None:                                  # an item of an option list that has its own entry (in a group of this class): a link under the feature
             it.setdefault("candidates", []).append((r["head"].rstrip("*").strip(), opt))      # the star after a name is print's book marker (ruling 26): the link replaces it
+            it.setdefault("opt_print", {})[r["head"].rstrip("*").strip()] = r["print"]
             if (e.id, it["key"]) in KEY_MARKS and fp.namekey(fp.ABILITY_TAG.sub("", r["head"])) in starred_heads:
                 it.setdefault("starred", set()).add(r["head"].rstrip("*").strip())              # ... unless the feature's intro explains the star (`KEY_MARKS`)
             continue
@@ -1362,8 +1414,24 @@ def compare_class(corpus: Path, e, bk, cache: dict, options: dict | None = None,
                 last = r                                         # a sidebar that stands inside a list (the Witch's familiar box in the major hexes) leaves the list open
     for it in items:
         if it.get("candidates"):
-            it["links"], unsure = pick_options(it.pop("candidates"), {n: i for (c, n), i in OPTION_PICKS.items() if c == e.id})
+            it["links"], unsure = pick_options(it.pop("candidates"), {n: i for (c, n), i in OPTION_PICKS.items() if c == e.id}, e.id.rsplit("/", 1)[1])
             it["links"] = [(repair_ligature(corpus, n, i), i) for n, i in it["links"]]
+            if e.id in LINK_IF_SAME:
+                kept = []
+                for n, i in it["links"]:
+                    txt = next((v for k, v in (it.get("opt_print") or {}).items() if fp.squash(k) == fp.squash(n)), "")      # (the link's name was repaired at a ligature: "Ref lexive")
+                    if option_same_rule(corpus, e.id, n, i, txt):
+                        kept.append((n, i))
+                        continue
+                    # the entry of this option holds other rules than print's (an older book's): the printed name is no link, and print's text stays under the feature (data #405)
+                    pkey = fp.slugify(fp.ABILITY_TAG.sub("", n))
+                    if pkey in taken:
+                        it["status"] = "hold"
+                        it["notes"].append(f"the new key `{pkey}` of the option `{n}` is a key of the class already")
+                    taken.add(pkey)
+                    new_items.append((it["key"], {"key": pkey, "line": -1, "head": n, "print": apply_layout(e.id, pkey, txt, None), "status": "print", "level": 5, "unlisted": True,
+                                                  "notes": [f"the entry `{i}` has other rules than print's: the option stays plain text with print's words (interim rule, data #405)"]}))
+                it["links"] = kept
             if unsure:
                 it["status"] = "hold"
                 it["notes"].insert(0, "option names with more than one entry of the class's groups: " + ", ".join(unsure))
@@ -1415,6 +1483,7 @@ def compare_class(corpus: Path, e, bk, cache: dict, options: dict | None = None,
         at = next((n for n, x in enumerate(items) if x["key"] == after), len(items) - 1)
         while at + 1 < len(items) and items[at + 1].get("unlisted"):
             at += 1                                              # after the sections that already follow the feature, in print order
+        sec["print"] = apply_layout(e.id, sec["key"], sec["print"], sec["notes"])        # the layout fixes of the manifest apply to an unlisted section as to a feature (after the box tails above took their markers)
         items.insert(at + 1, sec)
     missing = [i["key"] for i in items if "head not printed" in i["notes"] and not i.get("drop") and not i.get("split_from")]      # a head that no rule resolved
     for it in items:
@@ -1423,6 +1492,20 @@ def compare_class(corpus: Path, e, bk, cache: dict, options: dict | None = None,
             cut = it["print"].index(tail_of[0])
             it["notes"].append(f"the end of the paragraph ({tail_of[0]}...) is the end of `{tail_of[1]}`, a link: it belongs to that entry, not here")
             it["print"] = it["print"][:cut].rstrip()
+    for pm in PARA_TO_HOST.get(e.id, []):
+        src = next((x for x in items if x["key"] == pm["key"]), None)
+        host = next((x for x in items if x["key"] == pm["host"]), None)
+        if src is None or host is None or pm["marker"] not in src["print"]:
+            problems_extra.append(f"the paragraph `{pm['marker'][:40]}` of `{pm['key']}` is not there, or its host `{pm['host']}` is not")
+            continue
+        at_ = src["print"].index(pm["marker"])
+        joiner = " " if not co.paragraph_complete(host["print"].strip().split("\n\n")[-1]) else "\n\n"        # the end of a sentence that the host's text stops in goes on in the same paragraph
+        tail_ = src["print"][at_:].strip()
+        if pm.get("lower_first") and joiner == " ":
+            tail_ = tail_[:1].lower() + tail_[1:]                  # the layout fix made the first word of the tail a sentence start, for the coverage check; it is the middle of a sentence
+        host["print"] = host["print"].rstrip() + joiner + tail_
+        src["print"] = src["print"][:at_].rstrip()
+        host["notes"].append(f"print sets this paragraph behind `{pm['key']}`; it applies to the whole feature")
     rwin_keep = bold_option_heads(window(blocks, WINDOW_KEEP.get(e.id, frozenset()), raw=True, tail=table_tail(e.body), cell=table_last_cell(e.body)), set(option_names(options or {}, own)))
     rewrites = section_rewrites(corpus, e, bk, blocks, rwin_keep, lacking, lines, region) + box_rewrites
     for rw in sorted(rewrites, key=lambda x: -x["line"]):
@@ -1435,7 +1518,7 @@ def compare_class(corpus: Path, e, bk, cache: dict, options: dict | None = None,
     unresolved = {i["key"] for i in items if "head not printed" in i["notes"] and not i.get("drop") and not i.get("split_from")}
     problems = [x for x in res["problems"] if not (x.startswith("head not printed: ") and fp.slugify(x.split(": ", 1)[1]) not in unresolved and
                                                     not any(fp.namekey(i["head"]) == fp.namekey(x.split(": ", 1)[1]) and "head not printed" in i["notes"] for i in items))]
-    return {"items": items, "extra": extra, "missing": missing, "window": len(win), "problems": problems + problems_extra + cov_problems + errata_unused(e.id), "region": region, "opening": opening, "body": "\n".join(lines), "rewrites": rewrites,
+    return {"items": items, "extra": extra, "missing": missing, "window": len(win), "problems": problems + problems_extra + cov_problems + errata_unused(e.id) + layout_unused(e.id), "region": region, "opening": opening, "body": "\n".join(lines), "rewrites": rewrites,
             "levels": fp.class_table_levels(corpus, e.id, cache)}
 
 
@@ -1597,6 +1680,8 @@ def run_compare(args) -> int:
         for x in plan["items"]:
             if x["status"] == "hold":
                 print(f"    hold {x['head'][:34]}: {(x['notes'] or [''])[0][:100]}")
+        for pr_ in plan.get("problems", []):
+            print(f"    problem: {pr_[:200]}")
         if plan["extra"]:
             print("    print heads not in the corpus: " + ", ".join(plan["extra"][:8]))
         if plan.get("opening", ("", ""))[1]:
@@ -1649,7 +1734,7 @@ def self_test() -> int:
     eq(pick_options([("Clouded Vision", [("ref/oraclecurse/clouded-vision", "oracle-curse")]), ("Tongues", [("ref/shamanhex/tongues", "shaman-hex"), ("ref/oraclecurse/tongues", "oracle-curse")]),
                      ("Lame", [("ref/oraclecurse/lame", "oracle-curse")])])[0],
        [("Clouded Vision", "ref/oraclecurse/clouded-vision"), ("Tongues", "ref/oraclecurse/tongues"), ("Lame", "ref/oraclecurse/lame")], "owner call 4: a title that two groups share is linked from the group of the list")
-    eq(LAYOUT_FIXES[("ref/class/summoner", "eidolon")][0][1], "the summoner's class level", "a known layout fix names the words of the table that the layer ran into a sentence")
+    eq(LAYOUT_FIXES[("ref/class/cleric", "channel-energy")][0][1], "dealt or healed", "a known layout fix names the words of the table that the layer ran into a sentence")
     eq(WRITE_FEATURES, True, "owner call 5 answered: the `features` are written")
     body = "#### Weapon and Armor Proficiency {#weapon-and-armor-proficiencies}\n\nAre proficient.\n\n#### Mystery {#mystery}\n\nAt 1st level, an oracle.\n\n#### Bomb (Su) {#bomb}\n\nA\nbomb.\n\n#### Spells {#spells}\n\nAt 4th level, an antipaladin casts.\n\n#### Code of Conduct {#code-of-conduct}\n\nText.\n\n### Next\n"
     eq(class_features("ref/class/oracle", body, {fp.first_level_key("Mystery"): 3, fp.first_level_key("Bomb"): 2}),
@@ -1685,6 +1770,10 @@ def self_test() -> int:
     eq(layout_fixed("ref/class/cleric", "channel-energy", 'dealt 4 4+1 4+1 \u2014 Note: "+1" represents the domain spell slot or healed is equal'), "dealt or healed is equal", "table cells and their note are taken out of the sentence")
     eq(lost_sentences("These bonuses increase every three levels thereafter (6th, 9th, 12th, 15th, and 18th level).", "These bonuses increase every three levels thereafter (6th, 9th, 12th, 15th, and 18th level)."), [],
        "a list of ordinals in a sentence is no table: it stands as printed")
+    eq(pick_options([("Combat Swipe", [("ref/talent/combat-swipe", "rogue-talent"), ("ref/talent/combat-swipe-unchained-rogue", "rogue-talent")])], None, "unchained-rogue")[0], [("Combat Swipe", "ref/talent/combat-swipe-unchained-rogue")],
+       "an Unchained class prefers the sibling entry of its own (`-unchained-rogue`)")
+    eq(pick_options([("Combat Swipe", [("ref/talent/combat-swipe", "rogue-talent"), ("ref/talent/combat-swipe-unchained-rogue", "rogue-talent")])], None, "rogue")[0], [("Combat Swipe", "ref/talent/combat-swipe")],
+       "the Rogue links the plain entry, not the Unchained Rogue's sibling (`-rogue` is the end of `-unchained-rogue` too)")
     eq(pick_options([("Guarded Stance (Ex)", [("ref/ragepower/guarded-stance", "rage-power"), ("ref/ragepower/guarded-stance-stance", "rage-power")])]), ([], ["Guarded Stance (Ex)"]),
        "two entries of a name in one group stay unsure")
     eq(pick_options([("Guarded Stance (Ex)", [("ref/ragepower/guarded-stance", "rage-power"), ("ref/ragepower/guarded-stance-stance", "rage-power")])], {"guardedstance": "ref/ragepower/guarded-stance"}),
@@ -1787,6 +1876,12 @@ def self_test() -> int:
     lo_ = lowercase_titles_as_paras([pl_("As a swift action, she can call upon"), tl_("the spirits' favor to increase any d20 roll", 16), pl_("rolling 1d6."), tl_("ex-Warpriests", 18)])
     eq([b.kind for b in lo_], ["para", "para", "para", "title"], "a small title in lower case after an unfinished paragraph is words of the sentence; a section title of 18 is not")
     eq([b.kind for b in lowercase_titles_as_paras([pl_("A finished paragraph."), tl_("the title", 16)])], ["para", "title"], "after a finished paragraph it stays a title")
+    LAYOUT_FIXES[("ref/class/zz", "k")] = [("words that are not there", "")]
+    apply_layout("ref/class/zz", "k", "A text without them.")
+    eq(len(layout_unused("ref/class/zz")), 1, "a layout fix that finds no words is reported (the compare stops on it)")
+    apply_layout("ref/class/zz", "k", "A text with words that are not there at all.")
+    eq(layout_unused("ref/class/zz"), [], "a layout fix that found its words is no longer unused")
+    del LAYOUT_FIXES[("ref/class/zz", "k")]
     import tempfile
     with tempfile.TemporaryDirectory() as td:
         cd = Path(td)
