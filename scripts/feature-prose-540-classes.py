@@ -335,6 +335,17 @@ def cut_word_table(b, spec: dict):
     return runs_after(b.runs, toks[end - 1][1]), after
 
 
+def lowercase_titles_as_paras(blocks: list) -> list:
+    """A title that is set smaller than a section title (under 18), starts in lower case and stands after a paragraph that has no end yet is a run of words of the sentence
+    (Pathfinder Unchained p. 9: size 16)."""
+    out: list = []
+    for b in blocks:
+        if (b.kind == "title" and b.size < 18 and b.plain().strip()[:1].islower() and out and out[-1].kind == "para" and not co.paragraph_complete(out[-1].plain())):
+            b = fp.Para("para", b.runs, b.page, b.col, 0)
+        out.append(b)
+    return out
+
+
 def window(blocks: list, heads: set[str] | frozenset = frozenset(), raw: bool = False, tail: str = "", cell: str = "", tables: tuple | list = ()) -> list:
     """The blocks of the section "Class Features" of the class: after that title, up to the next subsection or class title. A class table (its title and its
     cells) and a sidebar title (set larger, 24) do not end it; the cells of the table are not text of a feature."""
@@ -343,7 +354,7 @@ def window(blocks: list, heads: set[str] | frozenset = frozenset(), raw: bool = 
         return []
     # a run of words in another size that the text layer sets inside a sentence (Pathfinder Unchained p. 9: "the spirits' favor to increase any d20 roll she just made by") reads as a title:
     # a title never starts in lower case, so it is a paragraph, and the sentence is joined below
-    blocks = [fp.Para("para", b.runs, b.page, b.col, 0) if b.kind == "title" and b.plain().strip()[:1].islower() else b for b in blocks]
+    blocks = lowercase_titles_as_paras(blocks)
     out = []
     special = False                                        # the Special column that print sets beside the table, one block for each row (the Barbarian, p. 32)
     pending = None                                         # the word table whose title was the last block
@@ -1142,7 +1153,7 @@ def compare_class(corpus: Path, e, bk, cache: dict, options: dict | None = None,
     heads = corpus_heads(lines, region)
     own = class_groups(corpus, e.id)
     page = int(e.page)
-    blocks = fp.read_blocks(bk, page, min(page + 24, max(bk.pages)))
+    blocks = lowercase_titles_as_paras(fp.read_blocks(bk, page, min(page + 24, max(bk.pages))))
     first_own = next((n for n, b in enumerate(blocks) if b.kind == "title" and fp.squash(b.plain()) == fp.squash(e.title)), None)
     if first_own:
         blocks = blocks[first_own:]              # the page row is where the class starts: the end of the class before it (the Fighter's features on the Monk's page) is not this class's window
@@ -1771,6 +1782,11 @@ def self_test() -> int:
     eq(keys_that_move("ref/class/x", old, "#### A {#a}\n\ntext\n", {"items": [{"key": "b", "drop": True}]}), [], "a dropped head goes")
     eq(keys_that_move("ref/class/witch", "#### A {#a}\n\n##### Learn from a Scroll {#learn-from-a-scroll}\n", "#### A {#a}\n", {"items": []}), [], "the keys of a box that the corpus has as a section go")
     # references: trades, links, deep links, option groups
+    pl_ = lambda t: fp.Para("para", [(t, False, False)], 1, 0, 0)
+    tl_ = lambda t, size: fp.Para("title", [(t, True, False)], 1, 0, size)
+    lo_ = lowercase_titles_as_paras([pl_("As a swift action, she can call upon"), tl_("the spirits' favor to increase any d20 roll", 16), pl_("rolling 1d6."), tl_("ex-Warpriests", 18)])
+    eq([b.kind for b in lo_], ["para", "para", "para", "title"], "a small title in lower case after an unfinished paragraph is words of the sentence; a section title of 18 is not")
+    eq([b.kind for b in lowercase_titles_as_paras([pl_("A finished paragraph."), tl_("the title", 16)])], ["para", "title"], "after a finished paragraph it stays a title")
     import tempfile
     with tempfile.TemporaryDirectory() as td:
         cd = Path(td)
