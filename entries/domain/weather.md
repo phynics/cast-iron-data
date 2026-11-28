@@ -20,122 +20,90 @@ page = "96"
 [fields]
 kind = "class_option"
 group = "cleric-domain"
+features = [
+  { anchor = "storm-burst" },
+  { anchor = "lightning-lord", level = 8 },
+]
 +++
+
+### Deities
+
+Gozreh, Rovagug.
 
 **Granted Powers:** With power over storm and sky, you can call down the wrath of the gods upon the
 world below.
 
-**Storm Burst (Sp)**
+## Storm Burst (Sp) {#storm-burst}
 
-**Standard:** You can create a storm burst targeting any foe within 30 feet as a ranged touch
-attack. The storm burst deals an amount of nonlethal damage equal to 1d6 +
-[half](ref/misc/fractions-and-rounding) of your cleric level. In addition, the target is buffeted by
-winds and rain, causing it to take a -2 penalty on attack rolls for 1 round.
+As a standard action, you can create a storm burst targeting any foe within 30 feet as a ranged
+touch attack. The storm burst deals 1d6 points of nonlethal damage + 1 point for every two cleric
+levels you possess. In addition, the target is buffeted by winds and rain, causing it to take a -2
+penalty on attack rolls for 1 round. You can use this ability a number of times per day equal to 3 +
+your Wisdom modifier.
 
-**Usage:** 3 + Wisdom modifier times/day
+## Lightning Lord (Sp) {#lightning-lord}
 
-**Lightning Lord (Sp)**
+At 8th level, you can call down a number of bolts of lightning per day equal to your cleric level.
+You can call down as many bolts as you want with a single standard action, but no creature can be
+the target of more than one bolt and no two targets can be more than 30 feet apart. This ability
+otherwise functions as _[call lightning](ref/spell/call-lightning)_.
 
-**Gained:** At 8th Level
+**Domain Spells:** 1st—_obscuring mist_, 2nd—_fog cloud_, 3rd—_call lightning_, 4th—_sleet storm_,
+5th—_ice storm_, 6th—_control winds_, 7th—_control weather_, 8th—_whirlwind_, 9th—_storm of
+vengeance_.
 
-**Standard:** You can call down a number of bolts of lightning per day equal to your cleric level.
-You can call down as many bolts as you want with a single action, but no creature can be the target
-of more than one bolt and no two targets can be more than 30 feet apart. This ability otherwise
-functions as _[call lightning](ref/spell/call-lightning)._
+## Monsoon Subdomain {#sec-monsoon-subdomain}
 
-**Domain Spells**
+**Example Apocrypha (Rull):** The Hold of Belkzen echoes with battle for much of the year, but when
+the seasonal rains return, the orc tribes all honor the Flood Truce, hunting and trading in peace
+until the land dries. While most priests of Rull revel in his destructive lightning, a growing
+contingent of "flood prophets" envision him as an orc god of renewal. After all, his clouds shelter
+sensitive eyes from the sun, and his storms bring life-giving water that lures in prey and washes
+away filth from encampments. For the few months the rains last, most orcs respect the flood
+prophets' bizarre ceremonies. When war returns once more, these apostates shelter in the mountains
+and wait for signs that the healing storms will return.
 
-1. obscuring mist
-1. fog cloud
-1. call lightning
-1. sleet storm
-1. ice storm
-1. control winds
-1. control weather
-1. whirlwind
-1. storm of vengeance
+**Associated Domain:** Weather
 
-### Monsoon Subdomain
+**Associated Deities:** Daikitsu, Gozreh, Hei Feng, Rull.
 
-**Sources:** Divine Anthology pg 25
+**Replacement Power:** The following granted power replaces the lightning lord ability of the
+Weather domain.
 
-**Prerequisites:** This subdomain requires the
-[Acolyte of Apocrypha](ref/trait/acolyte-of-apocrypha) trait to access.
+**Refreshing Rain (Su):** At 8th level, as standard action, you can call a brief shower of rain in a
+30-foot radius. Creatures in the area are healed of an amount of nonlethal damage equal to double
+your cleric level and are no longer [exhausted](ref/misc/exhausted), [fatigued](ref/misc/fatigued),
+[nauseated](ref/misc/nauseated), or [sickened](ref/misc/sickened). You can use this ability once per
+day at 8th level, and one additional time per day for every 4 levels beyond 8th.
 
-**Associated Deities:** Daikitsu, Gozreh, Hei Feng, Rull
+**Replacement Domain Spells:** 3rd—_hydraulic torrent_, 4th—_control water_, 5th—_fickle winds_,
+9th—_tsunami_.
 
-**Refreshing Rain (Su)**
+## Seasons Subdomain {#sec-seasons-subdomain}
 
-**Gained:** At 8th Level
+**Associated Domain:** Weather.
 
-**Standard:** You can call a brief shower of rain in a 30-foot radius. Creatures in the area are
-healed of an amount of nonlethal damage equal to double your cleric level and are no longer
-[exhausted](ref/misc/exhausted), [fatigued](ref/misc/fatigued), [nauseated](ref/misc/nauseated), or
-[sickened](ref/misc/sickened).
+**Replacement Power:** The following granted power replaces the storm burst power of the Weather
+domain.
 
-**Usage:** 1 time/day + 1 per 4 cleric levels beyond 8th
+**Untouched by the Seasons (Su):** By touching a creature, you can grant it the benefits of
+_[endure elements](ref/spell/endure-elements)_, which last for 1 hour per cleric level. You can use
+this ability a number of times per day equal to 3 + your Wisdom modifier.
 
-**Replaces:** The lightning lord ability of the Weather domain
+**Replacement Domain Spells:** 1st—_goodberry_, 4th—_blight_, 8th—_sunburst_.
 
-**Replacement Domain Spells**
+## Storms Subdomain {#sec-storms-subdomain}
 
-**3rd:** hydraulic torrent
+**Associated Domain:** Weather.
 
-**4th:** control water
+**Replacement Power:** The following granted power replaces the lightning lord power of the Weather
+domain.
 
-**5th:** fickle winds
+**Gale Aura (Su):** At 6th level, as a standard action, you can create a 30-foot aura of gale-like
+winds that slows the progress of enemies. Creatures in the aura cannot take a 5-foot step. Enemies
+in the aura treat each square that brings them closer to you as
+[difficult terrain](ref/rule/terrain-and-obstacles). They can move normally in any other direction.
+You can use this ability for a number of rounds per day equal to your cleric level. The rounds do
+not need to be consecutive.
 
-**9th:** tsunami
-
-### Seasons Subdomain
-
-**Associated Deities:** Aegirran, Daikitsu, Gozreh, Halcamora, Hataam, Ketephys, Maat, Nataka, Ng,
-Psomeira, Pulura, Rasvocel, Trelmarixian, Valani, Vois
-
-**Untouched by the Seasons (Su)**
-
-**Standard:** By touching a creature, you can grant it the benefits of
-[endure elements](ref/spell/endure-elements), which last for 1 hour per cleric level.
-
-**Usage:** 3 + Wisdom modifier times/day
-
-**Replaces:** The storm burst power of the Weather domain
-
-**Replacement Domain Spells**
-
-**1st:** goodberry
-
-**4th:** blight
-
-**8th:** sunburst
-
-### Storms Subdomain
-
-**Associated Deities:** Aegirran, Besmara, Bokrug, Diceid, Hataam, Hei Feng, Hshurha, Ithaqua,
-Rasvocel, Roqorolos, Rovagug, Rull, Set, Sithhud, Tolc, Urxehl, Valani, Vois, Yan-gant-y-tan
-
-**Gale Aura (Su)**
-
-**Gained:** At 6th Level
-
-**Standard:** You can create a 30-foot aura of gale-like winds that slows the progress of enemies.
-Creatures in the aura cannot take a 5-foot step. Enemies in the aura treat each square that brings
-them closer to you as [difficult terrain](ref/rule/terrain-and-obstacles). They can move normally in
-any other direction.
-
-**Usage:** 1 time/day per cleric level
-
-**Replaces:** The lightning lord power of the Weather domain
-
-**Replacement Domain Spells**
-
-**5th:** call lightning storm
-
-**6th:** sirocco
-
-### Deities
-
-**These Deities Grant This Domain:** Aegirran, Besmara, Bokrug, Daikitsu, Diceid, Elion, Gozreh,
-Halcamora, Hataam, Hei Feng, Hshurha, Imot, Ithaqua, Ketephys, Maat, Nataka, Ng, Psomeira, Pulura,
-Rasvocel, Roqorolos, Rovagug, Rull, Set, Sithhud, Trelmarixian, Urxehl, Valani, Vermilion Mother,
-Vois, Vonymos, Yan-gant-y-tan
+**Replacement Domain Spells:** 5th—_call lightning storm_, 6th—_sirocco_.

@@ -20,131 +20,96 @@ page = "27"
 [fields]
 kind = "class_option"
 group = "cleric-domain"
+features = [
+  { anchor = "vision-of-madness" },
+  { anchor = "aura-of-madness", level = 8 },
+]
 +++
+
+### Deity {#sec-deities}
+
+Lamashtu.
 
 **Granted Powers:** You embrace the madness that lurks deep in your heart, and can unleash it to
 drive your foes insane or to sacrifice certain abilities to hone others.
 
-**Vision of Madness (Sp)**
+## Vision of Madness (Sp) {#vision-of-madness}
 
-**Ability:** You can give a creature a vision of madness as a melee touch attack. Choose one of the
-following: attack rolls, saving throws, or skill checks. The target receives a bonus to the chosen
-rolls equal to 1/2 your cleric level (minimum +1) and a penalty to the other two types of rolls
-equal to 1/2 your cleric level (minimum -1). This effect fades after 3 rounds.
+You can give a creature a _vision of madness_ as a melee touch attack. Choose one of the following:
+attack rolls, saving throws, or skill checks. The target receives a bonus to the chosen rolls equal
+to 1/2 your cleric level (minimum +1) and a penalty to the other two types of rolls equal to 1/2
+your cleric level (minimum -1). This effect fades after 3 rounds. You can use this ability a number
+of times per day equal to 3 + your Wisdom modifier.
 
-**Usage:** 3 + Wisdom modifier times/day
+## Aura of Madness (Su) {#aura-of-madness}
 
-**Aura of Madness (Su)**
+At 8th level, you can emit a 30-foot aura of madness for a number of rounds per day equal to your
+cleric level. Enemies within this aura are affected by _[confusion](ref/spell/confusion)_ unless
+they make a Will save with a DC equal to 10 + 1/2 your cleric level + your Wisdom modifier. The
+_confusion_ effect ends immediately when the creature leaves the area or the aura expires. Creatures
+that succeed on their saving throw are immune to this aura for 24 hours. These rounds do not need to
+be consecutive.
 
-**Gained:** At 8th Level
+**Domain Spells:** 1st—_lesser confusion_, 2nd—_touch of idiocy_, 3rd—_rage_, 4th—_confusion_,
+5th—_nightmare_, 6th—_phantasmal killer_, 7th—_insanity_, 8th—_scintillating pattern_, 9th—_weird_.
 
-**Standard:** You can emit a 30-foot aura of madness. Enemies within this aura are affected by
-[confusion](ref/spell/confusion) unless they make a Will save with a DC equal to 10 + 1/2 your
-cleric level + your Wisdom modifier. The confusion effect ends immediately when the creature leaves
-the area or the aura expires. Creatures that succeed on their saving throw are immune to this aura
-for 24 hours.
+## Insanity Subdomain {#sec-insanity-subdomain}
 
-**Usage:** 1 time/day per cleric level
+**Associated Domain:** Madness.
 
-**Domain Spells**
+**Replacement Power:** The following granted power replaces the visions of madness power of the
+Madness domain.
 
-1. lesser confusion
-1. touch of idiocy
-1. rage
-1. confusion
-1. nightmare
-1. phantasmal killer
-1. insanity
-1. scintillating pattern
-1. weird
+**Insane Focus (Su):** You can touch a willing creature as a standard action, granting it a +4 bonus
+on all saving throws made against mind-affecting effects and immunity to confusion. This bonus lasts
+for 1 minute. If the creature fails a saving throw against a mind-affecting effect during this
+period, it loses its immunity to confusion and is immediately [confused](ref/misc/confused) for one
+round. You can use this ability a number of times per day equal to 3 + your Wisdom modifier.
 
-### Insanity Subdomain
+**Replacement Domain Spells:** 4th—_moonstruck_, 6th—_phantasmal web_.
 
-**Sources:** Advanced Player's Guide pg 92
+## Nightmare Subdomain {#sec-nightmare-subdomain}
 
-**Associated Deities:** Abhoth, Ajids, Alichino, Azathoth, Calcabrina, Chucaro, Cthulhu, Eaqueo,
-Ghatanothoa, Groetus, Gyronna, Hydim, Laivatiniel, Lamashtu, Onamahli, Ose, Osolmyr, Pirias,
-Shivaska, Shyka, Sivanah, Speakers of the Depths, Taraksun, The Lost Prince, Trelmarixian, Tsukiyo
+**Associated Domain:** Madness.
 
-**Insane Focus (Su)**
+**Replacement Power:** The following granted power replaces the vision of madness power of the
+Madness domain.
 
-**Standard:** You can touch a willing creature, granting it a +4 bonus on all saving throws made
-against mind-affecting effects and immunity to confusion. This bonus lasts for 1 minute. If the
-creature fails a saving throw against a mind-affecting effect during this period, it loses its
-immunity to confusion and is immediately [confused](ref/misc/confused) for one round.
+**Fearful Touch (Su):** As a standard action, you can make a melee touch attack against a creature,
+causing it to experience terrible hallucinations for 1 round. During this time, the creature loses
+any immunity to fear effects it might possess and takes a -2 penalty on attack rolls made against
+you. In addition, the creature takes a penalty on Will saves made against fear effects equal to 1/2
+your cleric level (minimum -1). This power is a mind-affecting effect. You can use this ability for
+a number of times per day equal to 3 + your Wisdom modifier.
 
-**Usage:** 3 + Wisdom modifier times/day
+**Replacement Domain Spells:** 4th—_phantasmal killer_, 6th—_cloak of dreams_.
 
-**Replaces:** The vision of madness power of the Madness domain
+## Truth Subdomain {#sec-truth-subdomain}
 
-**Replacement Domain Spells**
+**Example Apocrypha (Sivanah):** Many of Sivanah's faithful teach that there is no ultimate truth,
+only further illusions to be unveiled. Those fanatics known as the Seekers of the Seventh Veil
+insist that this conventional wisdom is only another deception and that Sivanah herself hides
+absolute knowledge behind her innermost veil. The largest concentration of apostates has congregated
+in Kaer Maga over the last three years, where their intermittently lucid ramblings have unsettled
+even the unshakable locals. Their displays have begun interfering with the troll augurs' business,
+and it is only a matter of time before these violent prophets retaliate.
 
-**4th:** moonstruck
+**Associated Subdomain:** Madness.
 
-**6th:** phantasmal web
+**Associated Deities:** Groetus, Lamashtu, Sif kesh, Sivanah.
 
-### Nightmare Subdomain
+**Replacement Power:** The following granted power replaces the aura of madness power of the Madness
+domain.
 
-**Associated Deities:** Abhoth, Atlach-Nacha, Azathoth, Calcabrina, Charg, Cthulhu, Eaqueo, Geon,
-Ghatanothoa, Gyronna, Haggakal, Hydim, Lamashtu, Onamahli, Ose, Ozranvial, Pirias, Set, Shivaska,
-Sifkesh, Taraksun
+**Dawning Realization (Su):** At 8th level, you can impart a shared vision of unfathomable
+ineffability to a living creature you touch as a standard action, after which your turn immediately
+ends. You are [dazed](ref/misc/dazed) and the target [confused](ref/misc/confused) for 1 round by
+what you both learn. On the following round, you are both [staggered](ref/misc/staggered) for 1
+round by the ramifications of your discovery. On the third round, you are confused and the target
+dazed for 1 round as you attempt to regain your bearings. Each round, the target can attempt a Will
+save with a DC equal to 10 + 1/2 your cleric level + your Wisdom modifier to negate that round's
+effects for both of you, though the effect does not end until the end of the third round. This is a
+mind-affecting effect that you can use a number of times per day equal to 1/2 your class level.
 
-**Fearful Touch (Su)**
-
-**Standard:** You can make a melee touch attack against a creature, causing it to experience
-terrible hallucinations for 1 round. During this time, the creature loses any immunity to fear
-effects it might possess and takes a -2 penalty on attack rolls made against you. In addition, the
-creature takes a penalty on Will saves made against fear effects equal to 1/2 your cleric level
-(minimum -1). This power is a mind-affecting effect.
-
-**Usage:** 3 + Wisdom modifier times/day
-
-**Replaces:** The vision of madness power of the Madness domain
-
-**Replacement Domain Spells**
-
-**4th:** phantasmal killer
-
-**6th:** cloak of dreams
-
-**9th:** weird
-
-### Truth Subdomain
-
-**Prerequisites:** This subdomain requires the
-[Acolyte of Apocrypha](ref/trait/acolyte-of-apocrypha) trait to access.
-
-**Associated Deities:** Groetus, Lamashtu, Sifkesh, Sivanah
-
-**Dawning Realization (Su)**
-
-**Gained:** At 8th Level
-
-**Standard:** You can impart a shared vision of unfathomable ineffability to a living creature you
-touch, after which your turn immediately ends. You are [dazed](ref/misc/dazed) and the target
-[confused](ref/misc/confused) for 1 round by what you both learn. On the following round, you are
-both [staggered](ref/misc/staggered) for 1 round by the ramifications of your discovery. On the
-third round, you are confused and the target dazed for 1 round as you attempt to regain your
-bearings. Each round, the target can attempt a Will save with a DC equal to 10 + 1/2 your cleric
-level + your Wisdom modifier to negate that round's effects for both of you, though the effect does
-not end until the end of the third round. This is a mind-affecting effect.
-
-**Usage:** 1 time/day per 2 cleric levels
-
-**Replaces:** The aura of madness power of the Madness domain
-
-**Replacement Domain Spells**
-
-**3rd:** wall of nausea
-
-**5th:** contact other plane
-
-**6th:** litany of madness
-
-### Deities
-
-**These Deities Grant This Domain:** Abhoth, Ajids, Alichino, Atlach-Nacha, Azathoth, Calcabrina,
-Charg, Chucaro, Cthulhu, Eaqueo, Ghatanothoa, Groetus, Gyronna, Haggakal, Hastrikhal, Hydim,
-Laivatiniel, Lamashtu, Narriseminek, Onamahli, Ose, Osolmyr, Ozranvial, Pirias, Set, Shivaska,
-Shyka, Sifkesh, Sivanah, Speakers of the Depths, Taraksun, The Lantern King, The Lost Prince,
-Trelmarixian, Tsukiyo, Zura
+**Replacement Domain Spells:** 3rd—_wall of nausea_, 5th—_contact other plane_, 6th—_litany of
+madness_.

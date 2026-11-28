@@ -17,138 +17,94 @@ page = "19"
 [fields]
 kind = "class_option"
 group = "cleric-domain"
+features = [
+  { anchor = "blast-rune" },
+  { anchor = "spell-rune", level = 8 },
+]
 +++
 
-**Granted Powers:** In strange and eldritch runes you find potent magic.
+### Deities
 
-**Bonus Feat (Ex)**
+Irori, Nethys.
 
-**Passive:** You gain [Scribe Scroll](ref/feat/scribe-scroll) as a bonus feat.
+**Granted Powers:** In strange and eldritch runes you find potent magic. You gain Scribe Scroll as a
+bonus feat.
 
-**Blast Rune (Sp)**
+## Blast Rune (Sp) {#blast-rune}
 
-**Standard:** You can create a _blast rune_ in any adjacent square. Any creature entering this
-square takes an amount of damage equal to 1d6 + [half](ref/misc/fractions-and-rounding) of your
-cleric level. This rune deals either acid, cold, electricity, or fire damage, decided when you
-create the rune. The rune is invisible and lasts a number of rounds equal to your cleric level or
-until discharged. You cannot create a _blast rune_ in a square occupied by another creature. This
-rune counts as a 1st-level spell for the purposes of dispelling. It can be discovered with a DC 26
-Perception skill check and disarmed with a DC 26 Disable Device skill check.
+As a standard action, you can create a blast rune in any adjacent square. Any creature entering this
+square takes 1d6 points of damage + 1 point for every two cleric levels you possess. This rune deals
+either acid, cold, electricity, or fire damage, decided when you create the rune. The rune is
+invisible and lasts a number of rounds equal to your cleric level or until discharged. You cannot
+create a blast rune in a square occupied by another creature. This rune counts as a 1st-level spell
+for the purposes of dispelling. It can be discovered with a DC 26 Perception skill check and
+disarmed with a DC 26 Disable Device skill check. You can use this ability a number of times per day
+equal to 3 + your Wisdom modifier.
 
-**Usage:** 3 + Wisdom modifier times/day
+## Spell Rune (Sp) {#spell-rune}
 
-**Spell Rune (Sp)**
-
-**Gained:** At 8th Level
-
-**Standard:** You can attach another spell that you cast to one of your _blast runes,_ causing that
+At 8th level, you can attach another spell that you cast to one of your blast runes, causing that
 spell to affect the creature that triggers the rune, in addition to the damage. This spell must be
 of at least one level lower than the highest-level cleric spell you can cast and it must target one
 or more creatures. Regardless of the number of targets the spell can normally affect, it only
 affects the creature that triggers the rune.
 
-**Domain Spells**
+**Domain Spells:** 1st—_erase_, 2nd—_secret page_, 3rd—_glyph of warding_, 4th—_explosive runes_,
+5th—_lesser planar binding_, 6th—_greater glyph of warding_, 7th—_instant summons_, 8th—_symbol of
+death_, 9th—_teleportation circle_.
 
-1. erase
-1. secret page
-1. glyph of warding
-1. explosive runes
-1. lesser planar binding
-1. greater glyph of warding
-1. instant summons
-1. symbol of death
-1. teleportation circle
+## Language Subdomain {#sec-language-subdomain}
 
-### Language Subdomain
+**Associated Domain:** Rune.
 
-**Sources:** Advanced Player's Guide pg 92
+**Replacement Power:** The following granted power replaces the spell rune power of the Rune domain.
 
-**Associated Deities:** Bifrons, Braismois, Hastur, Irez, Irori, Lissala, Lissala (pre-Earthfall),
-Mephistopheles, Onmyuza, Pavnuri, Stygidvod, Thoth, Titivilus, Vapula
+**Rune Shift (Su):** At 6th level, as a swift action, you can change the location of one of your
+blast runes. The rune must be within 30 feet. You can place the blast rune in any square adjacent to
+you, including one occupied by another creature.
 
-**Rune Shift (Su)**
+**Replacement Domain Spells:** 1st—_comprehend languages_, 2nd—_share language_, 3rd—_tongues_,
+5th_—telepathic bond_.
 
-**Gained:** At 6th Level
+## Wards Subdomain {#sec-wards-subdomain}
 
-**Swift:** You can change the location of one of your _blast runes._ The rune must be within 30
-feet. You can place the _blast rune_ in any square adjacent to you, including one occupied by
-another creature.
+**Associated Domain:** Rune.
 
-**Replaces:** The spell rune power of the Rune domain
+**Replacement Power:** The following granted power replaces the spell rune power of the Rune domain.
 
-**Replacement Domain Spells**
+**Warding Rune (Su):** At 6th level, when a creature is damaged by your blast rune, it cannot attack
+you for a number of rounds equal to 1/2 your cleric level unless it succeeds at a Will save, as per
+the spell _[sanctuary](ref/spell/sanctuary)_. Using this ability is an immediate action when a
+creature triggers one of your blast runes. The ability does not prevent you from being attacked or
+affected by area of effect spells or abilities. You can use this ability once per day at 8th level,
+plus one additional time per day at 14th level and 20th level.
 
-**1st:** comprehend languages
+**Replacement Domain Spells:** 1st level—_arcane lock_, 4th—_dimensional anchor_, 6th—_guards and
+wards_.
 
-**2nd:** share language
+## Legislation Subdomain {#sec-legislation-subdomain}
 
-**3rd:** tongues
+**Associated Domains:** Law, Rune.
 
-**5th:** telepathic bond
+**Associated Deities:** Abadar, Asmodeus, Dispater, Lissala, Winlas.
 
-### Legislation Subdomain
+**Replacement Power:** The following granted power replaces the touch of law power of the Law domain
+or the blast rune power of the Rune domain.
 
-**Associated Domains:** Law, Rune
+**Prohibition (Su):** As a standard action, you can command a creature within 30 feet to refrain
+from committing a particular action (including any referenced in the spell
+_[forbid action](ref/spell/forbid-action)_). If the creature performs the named action before the
+beginning of your next turn, it takes 1d6 points of damage + 1 point for every 2 cleric levels you
+possess and the effect ends. This is a language-dependent effect. You can use this ability a number
+of times per day equal to 3 + your Wisdom modifier.
 
-**Associated Deities:** Abadar, Asmodeus, Dispater, Lissala, Winlas
+If you have the spell rune domain power, you can attach a spell effect to the prohibition as if it
+were the spell rune domain ability; the spell takes effect if the creature performs the named
+action. This spell must be of at least 1 level lower than the highest-level cleric spell you can
+cast, and it must target one or more creatures. Regardless of the number of targets the spell can
+normally affect, it affects only the creature that triggers the rune. Attaching a spell in this way
+extends the duration of the prohibition by a number of rounds equal to the spell's level, or until
+it is discharged.
 
-**Prohibition (Su)**
-
-**Standard:** You can command a creature within 30 feet to refrain from committing a particular
-action (including any referenced in the spell _[forbid action](ref/spell/forbid-action)_). If the
-creature performs the named action before the beginning of your next turn, it takes an amount of
-damage equal to 1d6 + [half](ref/misc/fractions-and-rounding) of your cleric level and the effect
-ends. This is a language-dependent effect.
-
-**Usage:** 3 + Wisdom modifier times/day
-
-**Replaces:** The blast rune power of the Rune domain
-
-**Special:** If you have the _spell rune_ domain power, you can attach a spell effect to the
-_prohibition_ as if it were the _spell rune_ domain ability; the spell takes effect if the creature
-performs the named action. This spell must be of at least 1 level lower than the highest-level
-cleric spell you can cast, and it must target one or more creatures. Regardless of the number of
-targets the spell can normally affect, it affects only the creature that triggers the rune.
-
-**Special:** Attaching a spell in this way extends the duration of the _prohibition_ by a number of
-rounds equal to the spell's level, or until it is discharged.
-
-**Replacement Domain Spells**
-
-**1st:** forbid action
-
-**5th:** greater forbid action
-
-**9th:** mass hold monster
-
-### Wards Subdomain
-
-**Associated Deities:** Acavna, Benorus, Bifrons, Gaap, Hastur, Irez, Lissala, Lissala
-(pre-Earthfall), Magdh, Magrim, Nalinivati, Nethys, Onmyuza, Sivanah, Thoth
-
-**Warding Rune (Su)**
-
-**Gained:** At 6th Level
-
-**Immediate:** When a creature is damaged by your _blast rune,_ you can cause it to be unable to
-attack you for a number of rounds equal to 1/2 your cleric level unless it succeeds at a Will save,
-as per the spell [sanctuary](ref/spell/sanctuary). The ability does not prevent you from being
-attacked or affected by area of effect spells or abilities.
-
-**Usage:** 1 time/day + 1 per 6 cleric levels beyond 8th
-
-**Replaces:** The spell rune power of the Rune domain
-
-**Replacement Domain Spells**
-
-**1st:** arcane lock
-
-**4th:** dimensional anchor
-
-**6th:** guards and wards
-
-### Deities
-
-**These Deities Grant This Domain:** Benorus, Bifrons, Braismois, Gaap, Hastur, Imot, Irez, Irori,
-Lissala, Lissala (pre-Earthfall), Magdh, Magrim, Mephistopheles, Mneoc, Nalinivati, Narakaas,
-Nethys, Onmyuza, Sivanah, Stygidvod, Thoth, Valmallos, Ydajisk
+**Replacement Domain Spells:** 1st—_forbid action_, 5th—_greater forbid action_, 9th—_mass hold
+monster_.

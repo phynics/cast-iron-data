@@ -28,161 +28,101 @@ page = "227"
 [fields]
 kind = "class_option"
 group = "cleric-domain"
+features = [
+  { anchor = "destructive-smite" },
+  { anchor = "destructive-aura", level = 8 },
+]
 +++
+
+### Deities
+
+Gorum, Nethys, Rovagug, Zon-Kuthon.
 
 **Granted Powers:** You revel in ruin and devastation, and can deliver particularly destructive
 attacks.
 
-**Destructive Smite (Su)**
+## Destructive Smite (Su) {#destructive-smite}
 
-**Ability:** You gain the destructive smite power: the supernatural ability to make a single melee
-attack with a morale bonus on damage rolls equal to 1/2 your cleric level (minimum 1). You must
-declare the destructive smite before making the attack.
+You gain the destructive smite power: the supernatural ability to make a single melee attack with a
+morale bonus on damage rolls equal to 1/2 your cleric level (minimum 1). You must declare the
+destructive smite before making the attack. You can use this ability a number of times per day equal
+to 3 + your Wisdom modifier.
 
-**Usage:** 3 + Wisdom modifier times/day
+## Destructive Aura (Su) {#destructive-aura}
 
-**Destructive Aura (Su)**
+At 8th level, you can emit a 30-foot aura of destruction for a number of rounds per day equal to
+your cleric level. All attacks made against creatures in this aura (including you) gain a morale
+bonus on damage equal to 1/2 your cleric level and all critical threats are automatically confirmed.
+These rounds do not need to be consecutive.
 
-**Gained:** At 8th Level
+**Domain Spells:** 1st—_true strike_, 2nd—_shatter_, 3rd—_rage_, 4th—_inflict critical wounds_,
+5th—_shout_, 6th—_harm_, 7th—_disintegrate_, 8th—_earthquake_, 9th—_implosion_.
 
-**Standard:** You can emit a 30-foot aura of destruction. All attacks made against targets in this
-aura (including you) gain a morale bonus on damage equal to 1/2 your cleric level and all critical
-threats are automatically confirmed.
+## Catastrophe Subdomain {#sec-catastrophe-subdomain}
 
-**Usage:** 1 time/day per cleric level
+**Associated Domain:** Destruction.
 
-**Domain Spells**
+**Replacement Power:** The following granted power replaces the destructive aura power of the
+Destruction domain.
 
-1. true strike
-1. shatter
-1. rage
-1. inflict critical wounds
-1. shout
-1. harm
-1. disintegrate
-1. earthquake
-1. implosion
+**Deadly Weather (Su):** At 8th level, you can unleash a furious call to the heavens, summoning
+forth an ever-changing storm of destruction for a number of rounds per day equal to your cleric
+level. This storm has a radius of 5 feet per cleric level. Each round, the storm has one of the
+following effects: driving rain (-4 on all Perception checks and ranged attack rolls), howling winds
+(-8 on Fly skill checks and ranged attack rolls), heavy snow (all terrain is considered difficult),
+or lightning bolt (as _[call lightning](ref/spell/call-lightning)_). Other effects depending on the
+weather might also apply (at the GM's discretion). You choose which effect takes place each round,
+but no effect may be repeated on the following round. These rounds do not need to be consecutive.
 
-### Catastrophe Subdomain
+**Replacement Domain Spells:** 2nd—_gust of wind_, 3rd—_call lightning_, 7th—_control weather_.
 
-**Sources:** Advanced Player's Guide pg 87
+## Rage Subdomain {#sec-rage-subdomain}
 
-**Associated Deities:** Ah Pook, Ahriman, Apep, Apollyon, Azathoth, Belial, Bokrug, Charg, Dagon,
-Dahak, Deskari, Diceid, Doloras, Draghignazzo, Eiseth, Feronia, Ghatanothoa, Ghlaunder, Groetus,
-Hastrikhal, Hei Feng, Jubilex, Kelizandri, Lady Nanbyo, Libicocco, Mazmezz, Mhar, Nataka, Nethys,
-Ovonovo, Reymenda, Rovagug, Scal, Shyka, Speakers of the Depths, Thuskchoon, Treerazer, Urxehl,
-Ushitora, Venkelvore, Xsistaid, Yabu, Ymeri, Zagresh, Zon-Kuthon, Zurapadyn, Zyphus
+**Associated Domain:** Destruction.
 
-**Deadly Weather (Su)**
+**Replacement Power:** The following granted power replaces the destructive aura power of the
+Destruction domain.
 
-**Gained:** At 8th Level
+**Rage (Su):** At 8th level, you can enter a fearsome rage, like a [barbarian](ref/class/barbarian),
+for a number of rounds per day equal to your cleric level. At 12th and 16th level, you can select
+one rage power. You cannot select any rage power that possesses a level requirement, but otherwise
+your barbarian level is equal to 1/2 your cleric level. These rounds of rage stack with any rounds
+of rage you might have from levels of barbarian.
 
-**Standard:** You can unleash a furious call to the heavens, summoning forth an ever-changing storm
-of destruction. This storm has a radius of 5 feet per cleric level. Each round, the storm has one of
-the following effects: driving rain (-4 on all Perception checks and ranged attack rolls), howling
-winds (-8 on Fly skill checks and ranged attack rolls), heavy snow (all terrain is considered
-difficult), or lightning bolt (as _[call lightning](ref/spell/call-lightning)_). Other effects
-depending on the weather might also apply (at the GM's discretion). You choose which effect takes
-place each round, but no effect may be repeated on the following round.
+**Replacement Domain Spells:** 2nd—_bull's strength_, 6th—_moonstruck_.
 
-**Usage:** 1 time/day per cleric level
+## Torture Subdomain {#sec-torture-subdomain}
 
-**Replaces:** The destructive aura power of the Destruction domain
+You revel in the pleasure of causing pain, whether to extract information or simply for the sake of
+causing suffering.
 
-**Replacement Domain Spells**
+**Associated Domain:** Destruction.
 
-**2nd:** gust of wind
+**Replacement Power:** The following granted power replaces the destructive smite power of the
+Destruction domain.
 
-**3rd:** call lightning
+**Painful Smite (Su):** Prior to making a melee attack roll, you can choose to convert all damage
+from that strike into nonlethal damage, adding your Wisdom modifier to the damage. If your attack
+hits, as a free action you can attempt an Intimidate check to demoralize the target. You gain a
+bonus on this Intimidate check equal to the amount of nonlethal damage dealt by the painful smite.
+You can use this ability a number of times per day equal to 3 + your Wisdom modifier.
 
-**7th:** control weather
+**Replacement Domain Spells:** 2nd—_pain strike_, 5th—_symbol of pain_, 8th—_demand_.
 
-### Hatred Subdomain
+## Hatred Subdomain {#sec-hatred-subdomain}
 
-**Associated Deities:** Dahak, Fumeiyoshi, Gyronna, Lady Nanbyo, Rovagug
+**Associated Domain:** Destruction.
 
-**Hateful Aura (Su)**
+**Associated Deities:** Dahak, Fumeiyoshi, Gyronna, Lady Nanbyo, Rovagug.
 
-**Gained:** At 8th Level
+**Replacement Power:** The following granted power replaces the destructive aura ability of the
+Destruction domain.
 
-**Standard:** You can emit a 30-foot aura of hatred. Enemies within this aura must attempt a Will
-save (DC = 10 + 1/2 your cleric level + your Wisdom modifier). Characters who fail their save are
-filled with hatred, and cannot consider other characters allies for the purpose of any actions or
-use any teamwork feats. The effect ends immediately if the creature leaves the aura, you end the
-aura as a free action, or you expend all rounds of this ability.
+**Hateful Aura (Su):** At 8th level, you can emit a 30-foot aura of hatred for a number of rounds
+per day equal to your cleric level. These rounds need not be consecutive. Enemies within this aura
+must attempt a Will save (DC = 10 + 1/2 your cleric level + your Wisdom modifier). Characters who
+fail their save are filled with hatred, and cannot consider other characters allies for the purpose
+of any actions or use any teamwork feats. The effect ends immediately if the creature leaves the
+aura, you end the aura as a free action, or you expend all rounds of this ability.
 
-**Usage:** 1 time/day per cleric level
-
-**Replaces:** The destructive aura ability of the Destruction domain
-
-**Replacement Domain Spells**
-
-**1st:** murderous command
-
-**2nd:** wrathful mantle
-
-### Rage Subdomain
-
-**Associated Deities:** Ahriman, Ananshea, Andak, Anogetz, Belial, Bokrug, Daclau-Sar, Dagon, Dahak,
-Doloras, Ealdeez, Eiseth, Fumeiyoshi, Ghlaunder, Gorum, Gyronna, Iaozrael, Jubilex, Lady Nanbyo,
-Libicocco, Mazmezz, Nulgreth, Ragathiel, Rovagug, Scal, Sekhmet, Shax, Thuskchoon, Tjasse,
-Treerazer, Ushitora, Vildeis, Xiquiripat, Zurapadyn
-
-**Rage (Su)**
-
-**Gained:** At 8th Level
-
-**Ability:** You can enter a fearsome rage, like a [barbarian](ref/class/barbarian).
-
-**Usage:** 1 time/day per cleric level
-
-**At 12th level,** you can select one rage power.
-
-**At 16th level,** you can select one rage power.
-
-**Replaces:** The destructive aura power of the Destruction domain
-
-**Special:** You cannot select any rage power that possesses a level requirement, but otherwise your
-barbarian level is equal to 1/2 your cleric level. These rounds of rage stack with any rounds of
-rage you might have from levels of barbarian.
-
-**Replacement Domain Spells**
-
-**2nd:** bull's strength
-
-**6th:** moonstruck
-
-### Torture Subdomain
-
-**Associated Deities:** Ananshea, Andak, Ozranvial, Venkelvore, Vevelor, Xsistaid, Yamasoth, Zaebos,
-Zaigasnar, Zepar
-
-**Painful Smite (Su)**
-
-**Ability:** Prior to making a melee attack roll, you can choose to convert all damage from that
-strike into nonlethal damage, adding your Wisdom modifier to the damage. If your attack hits, as a
-free action you can attempt an Intimidate check to demoralize the target. You gain a bonus on this
-Intimidate check equal to the amount of nonlethal damage dealt by the painful smite.
-
-**Usage:** 3 + Wisdom modifier times/day
-
-**Replaces:** The destructive smite power of the Destruction domain
-
-**Replacement Domain Spells**
-
-**2nd:** pain strike
-
-**5th:** symbol of pain
-
-**8th:** demand
-
-### Deities
-
-**These Deities Grant This Domain:** Ah Pook, Ahriman, Ananshea, Andak, Anogetz, Apep, Apollyon,
-Ayrzul, Azathoth, Belial, Bokrug, Charg, Daclau-Sar, Dagon, Dahak, Deskari, Dhalavei, Doloras,
-Draghignazzo, Ealdeez, Eiseth, Feronia, Fumeiyoshi, Ghatanothoa, Ghlaunder, Gorum, Groetus, Gyronna,
-Hastrikhal, Hei Feng, Hshurha, Iaozrael, Jacarkas, Jubilex, Kelizandri, Kerkamoth, Lady Nanbyo,
-Libicocco, Mazmezz, Mhar, Mother Vulture, Nataka, Nethys, Ozranvial, Ragathiel, Reymenda, Rovagug,
-Scal, Sekhmet, Shax, Shyka, Speakers of the Depths, Tamede, Thuskchoon, Tjasse, Treerazer, Ushitora,
-Venkelvore, Vevelor, Vildeis, Xiquiripat, Xsistaid, Yabu, Ymeri, Zaebos, Zagresh, Zaigasnar,
-Zon-Kuthon, Zurapadyn, Zyphus
+**Replacement Domain Spells:** 1st—_murderous command_, 2nd—_wrathful mantle_.

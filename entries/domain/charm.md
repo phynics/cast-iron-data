@@ -20,127 +20,92 @@ page = "93"
 [fields]
 kind = "class_option"
 group = "cleric-domain"
+features = [
+  { anchor = "dazing-touch" },
+  { anchor = "charming-smile", level = 8 },
+]
 +++
+
+### Deities
+
+Calistria, Cayden Cailean, Norgorber, Shelyn.
 
 **Granted Powers:** You can baffle and befuddle foes with a touch or a smile, and your beauty and
 grace are divine.
 
-**Dazing Touch (Sp)**
+## Dazing Touch (Sp) {#dazing-touch}
 
-**Standard:** You can cause a living creature to become [dazed](ref/misc/dazed) for 1 round as a
-melee touch attack. Creatures with more Hit Dice than your cleric level are unaffected.
+You can cause a living creature to become [dazed](ref/misc/dazed) for 1 round as a melee touch
+attack. Creatures with more Hit Dice than your cleric level are unaffected. You can use this ability
+a number of times per day equal to 3 + your Wisdom modifier.
 
-**Usage:** 3 + Wisdom modifier times/day
+## Charming Smile (Sp) {#charming-smile}
 
-**Charming Smile (Sp)**
-
-**Gained:** At 8th Level
-
-**Swift:** You can cast _[charm person](ref/spell/charm-person)_ with a DC of 10 + 1/2 your cleric
-level + your Wisdom modifier. You can only have one creature charmed in this way at a time.
-
-**Usage:** The total number of rounds of this effect per day is equal to your cleric level. The
+At 8th level, you can cast _[charm person](ref/spell/charm-person)_ as a swift action, with a DC of
+10 + 1/2 your cleric level + your Wisdom modifier. You can only have one creature charmed in this
+way at a time. The total number of rounds of this effect per day is equal to your cleric level. The
 rounds do not need to be consecutive, and you can dismiss the charm at any time as a free action.
 Each attempt to use this ability consumes 1 round of its duration, whether or not the creature
 succeeds on its save to resist the effect.
 
-**Domain Spells**
+**Domain Spells:** 1st—_charm person_, 2nd—_calm emotions_, 3rd—_suggestion_, 4th—_heroism_,
+5th—_charm monster_, 6th—_geas/quest_, 7th—_insanity_, 8th—_demand_, 9th—_dominate monster_.
 
-1. charm person
-1. calm emotions
-1. suggestion
-1. heroism
-1. charm monster
-1. geas/quest
-1. insanity
-1. demand
-1. dominate monster
+## Captivation Subdomain {#sec-captivation-subdomain}
 
-### Captivation Subdomain
+**Example Apocrypha (Norgorber):** Norgorber's faithful take considerable risks just to maintain
+their secrets, so the flashy antics of those who have read _The Dark Lure_ seem appalling to most.
+These reckless devotees ostensibly revere the Reaper of Reputation, yet they insist that the best
+way to hide in plain sight is by being the center of attention and sharing so much harmless
+information that none think to look any deeper. As a result, the cult attracts Norgorber's rare
+thrill-seekers and dare-takers. His other worshipers suffer these brazen actions, knowing that their
+brethren would make ideal scapegoats should the congregations of more legitimate churches be
+discovered.
 
-**Sources:** Divine Anthology pg 22
+**Associated Domain:** Charm.
 
-**Prerequisites:** This subdomain requires the
-[Acolyte of Apocrypha](ref/trait/acolyte-of-apocrypha) trait to access.
+**Associated Deities:** Calistria, Kofusachi, Nalinivati, Norgorber, Shelyn.
 
-**Associated Deities:** Calistria, Kofusachi, Nalinivati, Norgorber, Shelyn
+**Replacement Power:** The following granted power replaces the charming smile power of the Charm
+domain.
 
-**Entrancing Aura (Su)**
+**Entrancing Aura (Su):** At 8th level, you can emit an imperceptible 30-foot aura of distraction as
+a standard action for a number of rounds equal to your cleric level. These rounds need not be
+consecutive. Enemies within this aura take a -5 penalty on Perception checks and are treated as
+though they had 2 fewer Hit Dice (minimum 1 Hit Die) for the purpose of your effects that would give
+them the [fascinated](ref/misc/fascinated) condition. At 16th level, they are instead treated as if
+they had 3 fewer Hit Dice for such effects.
 
-**Standard:** You can emit an imperceptible 30-foot aura of distraction. Enemies within this aura
-take a -5 penalty on Perception checks and are treated as though they had 2 fewer Hit Dice (minimum
-1 Hit Die) for the purpose of your effects that would give them the
-[fascinated](ref/misc/fascinated) condition.
+**Replacement Domain Spells:** 1st—_hypnotism_, 2nd—_hypnotic pattern_, 4th—_rainbow pattern_.
 
-**Usage:** 1 time/day per cleric level
+## Love Subdomain {#sec-love-subdomain}
 
-**At 16th level,** enemies are instead treated as if they had 3 fewer Hit Dice for such effects.
+**Associated Domain:** Charm.
 
-**Replaces:** The charming smile power of the Charm domain
+**Replacement Power:** The following granted power replaces the dazing touch power of the Charm
+domain.
 
-**Replacement Domain Spells**
+**Adoration (Su):** As an immediate action, you can attempt to thwart a melee or ranged attack that
+targets you. This ability functions as _[sanctuary](ref/spell/sanctuary)_, but only against one
+individual attack. You must use the ability after the attack is declared but before the roll is
+made. The creature attacking you receives a Will save to negate this effect. If a creature has more
+than one attack, this ability only affects one of the attacks. You can use the ability a number of
+times per day equal to 3 + your Wisdom modifier. This is a mind-affecting effect.
 
-**1st:** hypnotism
+**Replacement Domain Spells:** 2nd—_enthrall_, 8th—_euphoric tranquility_.
 
-**2nd:** hypnotic pattern
+## Lust Subdomain {#sec-lust-subdomain}
 
-**4th:** rainbow pattern
+**Associated Domain:** Charm.
 
-### Love Subdomain
+**Replacement Power:** The following granted power replaces the charming smile power of the Charm
+domain.
 
-**Associated Deities:** Ardad Lili, Arshea, Bolka, Cayden Cailean, Hathor, Hembad, Isis, Kofusachi,
-Laivatiniel, Naderi, Nalinivati, Shamira, Shelyn, Shelyn (pre-Earthfall), Socothbenoth, The Lantern
-King, Upion and Warrik
+**Anything to Please (Su):** At 8th level, you can compel a creature within 30 feet to attempt to
+please you as a standard action. The creature receives a Will save to negate this affect. If the
+save fails, the creature attacks your enemies for 1 round, gives you its most valuable item, or
+drops [prone](ref/rule/prone) at your feet and grovels for 1d4 rounds (GM's choice). You can use
+this ability once per day at 8th level and one additional time per day for every four levels beyond
+8th. This is a mind-affecting effect.
 
-**Adoration (Su)**
-
-**Immediate:** You can attempt to thwart a melee or ranged attack that targets you. This ability
-functions as [sanctuary](ref/spell/sanctuary), but only against one individual attack. You must use
-the ability after the attack is declared but before the roll is made. The creature attacking you
-receives a Will save to negate this effect. If a creature has more than one attack, this ability
-only affects one of the attacks. This is a mind-affecting effect.
-
-**Usage:** 3 + Wisdom modifier times/day
-
-**Replaces:** The dazing touch power of the Charm domain
-
-**Replacement Domain Spells**
-
-**2nd:** enthrall
-
-**8th:** euphoric tranquility
-
-### Lust Subdomain
-
-**Associated Deities:** Ardad Lili, Arshea, Bastet, Belial, Bolka, Calistria, Cayden Cailean, Folca,
-Kofusachi, Lymnieris, Menxyr, Mestama, Naderi, Nalinivati, Nephthys, Nocticula, Onamahli, Onmyuza,
-Scarmiglione, Shamira, Slandrais, Socothbenoth, The Green Mother, The Lantern King, Ulon, Verex,
-Vermilion Mother, Zaigasnar, Zepar
-
-**Anything to Please (Su)**
-
-**Gained:** At 8th Level
-
-**Standard:** You can compel a creature within 30 feet to attempt to please you. The creature
-receives a Will save to negate this affect. If the save fails, the creature attacks your enemies for
-1 round, gives you its most valuable item, or drops [prone](ref/rule/prone) at your feet and grovels
-for 1d4 rounds (GM's choice). This is a mind-affecting effect.
-
-**Usage:** 1 time/day + 1 per 4 cleric levels beyond 8th
-
-**Replaces:** The charming smile power of the Charm domain
-
-**Replacement Domain Spells**
-
-**2nd:** touch of idiocy
-
-**4th:** confusion
-
-### Deities
-
-**These Deities Grant This Domain:** Ardad Lili, Arshea, Bastet, Belial, Bolka, Calistria, Cayden
-Cailean, Dachzerul, Droskar, Eritrice, Folca, Grandmother Spider, Hathor, Hembad, Isis, Kofusachi,
-Laivatiniel, Mestama, Mrtyu, Naderi, Nalinivati, Nephthys, Nocticula, Norgorber, Onamahli, Onmyuza,
-Picoperi, Scarmiglione, Seramaydiel, Shamira, Shelyn, Shelyn (pre-Earthfall), Socothbenoth, The
-Green Mother, The Lantern King, Ulon, Upion and Warrik, Velgaas, Verex, Vermilion Mother, Xsistaid,
-Zaigasnar, Zepar
+**Replacement Domain Spells:** 2nd—_touch of idiocy_, 4th—_confusion_.

@@ -25,123 +25,83 @@ page = "86, 96"
 [fields]
 kind = "class_option"
 group = "cleric-domain"
+features = [
+  { anchor = "fire-bolt" },
+  { anchor = "fire-resistance", level = 6 },
+]
 +++
+
+### Deity {#sec-deities}
+
+Asmodeus, Sarenrae.
 
 **Granted Powers:** You can call forth fire, command creatures of the inferno, and your flesh does
 not burn.
 
-**Fire Bolt (Sp)**
+## Fire Bolt (Sp) {#fire-bolt}
 
-**Standard:** You can unleash a scorching bolt of divine fire from your outstretched hand. You can
-target any single foe within 30 feet as a ranged touch attack with this bolt of fire. If you hit the
-foe, the fire bolt deals an amount of fire damage equal to 1d6 +
-[half](ref/misc/fractions-and-rounding) of your cleric level.
+As a standard action, you can unleash a scorching bolt of divine fire from your outstretched hand.
+You can target any single foe within 30 feet as a ranged touch attack with this bolt of fire. If you
+hit the foe, the fire bolt deals 1d6 points of fire damage + 1 point for every two cleric levels you
+possess. You can use this ability a number of times per day equal to 3 + your Wisdom modifier.
 
-**Usage:** 3 + Wisdom modifier times/day
+## Fire Resistance (Ex) {#fire-resistance}
 
-**Fire Resistance (Ex)**
+At 6th level, you gain [resist](ref/umr/resistance) fire 10. This resistance increases to 20 at 12th
+level. At 20th level, you gain [immunity](ref/umr/immunity) to fire.
 
-**Gained:** At 6th Level
+**Domain Spells:** 1st—_burning hands_, 2nd—_produce flame_, 3rd—_fireball_, 4th—_wall of fire_,
+5th—_fire shield_, 6th—_fire seeds_, 7th—_elemental body IV_ (fire only), 8th—_incendiary cloud_,
+9th—_elemental swarm_ (fire spell only).
 
-**Ability:** You gain [resist](ref/umr/resistance) fire 10.
+## Arson Subdomain {#sec-arson-subdomain}
 
-**At 12th level,** your resistance increases to 20.
+You express your devotion to your fiendish patron by setting the world ablaze and reveling in the
+glory of fire as it consumes and burns.
 
-**At 20th level,** you gain [immunity](ref/umr/immunity) to fire.
+**Associated Domain:** Fire.
 
-**Domain Spells**
+**Replacement Power:** The following granted power replaces the fire bolt power of the Fire domain.
 
-1. burning hands
-1. produce flame
-1. fireball
-1. wall of fire
-1. fire shield
-1. fire seeds
-1. elemental body IV (fire only)
-1. incendiary cloud
-1. elemental swarm (fire spell only)
+**Call Fire (Su):** As a standard action, you can stretch out your hand toward any visible fire
+source within 60 feet and beckon it toward you. This causes a ribbon-thin streak of fire to approach
+you in a straight line through the air. Any creature directly in the fire ribbon's path takes 1d4
+points of fire damage; a successful Reflex save (DC = 10 + half your class level + your Wisdom
+modifier) negates this damage. When the ribbon of fire reaches your hand, it either extinguishes or
+lights a flammable object of your choice that you're holding. You can use this ability a number of
+times per day equal to 3 + your Wisdom modifier.
 
-### Arson Subdomain
+**Replacement Domain Spells:** 2nd—_flaming sphere_, 5th—_flame strike_, 7th—_delayed blast
+fireball_.
 
-**Sources:** Book of the Damned pg 180, Goblins of Golarion pg 27, Inner Sea Gods pg 224
+## Ash Subdomain {#sec-ash-subdomain}
 
-**Associated Deities:** Haborym, Nataka, Zarongel, Zelishkar, Zurapadyn
+**Associated Domain:** Fire.
 
-**Call Fire (Su)**
+**Replacement Power:** The following granted power replaces the fire resistance power of the Fire
+domain.
 
-**Standard:** You can stretch out your hand toward any visible fire source within 60 feet and beckon
-it toward you. This causes a ribbon-thin streak of fire to approach you in a straight line through
-the air. Any creature directly in the fire ribbon's path takes 1d4 points of fire damage; a
-successful Reflex save (DC = 10 + half your class level + your Wisdom modifier) negates this damage.
-When the ribbon of fire reaches your hand, it either extinguishes or lights a flammable object of
-your choice that you're holding.
-
-**Usage:** 3 + Wisdom modifier times/day
-
-**Replaces:** The fire bolt power of the Fire domain
-
-**Replacement Domain Spells**
-
-**2nd:** flaming sphere
-
-**5th:** flame strike
-
-**7th:** delayed blast fireball
-
-### Ash Subdomain
-
-**Associated Deities:** Angradd, Asmodeus, Chavazvug, Feronia, Flauros, Furcas, Haborym, Hastrikhal,
-Izyagna, Lady Nanbyo, Mhar, Moloch, Nurgal, Onos, Ptah, Rubicante, Sekhmet, Sezelrian, Urxehl, Yabu,
-Yamatsumi, Ymeri, Zelishkar, Zipacna, Zurapadyn, Zursvaater
-
-**Wall of Ashes (Su)**
-
-**Gained:** At 8th Level
-
-**Standard:** You can create a wall of swirling ashes anywhere within 100 feet. This wall is up to
-20 feet high and up to 10 feet long per cleric level you possess. The wall of ash blocks line of
-sight, and any creature passing through it must make a Fortitude save or be
+**Wall of Ashes (Su):** At 8th level, you can create a wall of swirling ashes anywhere within 100
+feet. This wall is up to 20 feet high and up to 10 feet long per cleric level you possess. The wall
+of ash blocks line of sight, and any creature passing through it must make a Fortitude save or be
 [blinded](ref/misc/blinded) for 1d4 rounds. The wall of ash reveals invisible creatures that are
 inside it or adjacent to it, although they become invisible again if they move away from the wall.
+You can use this ability for a number of minutes per day equal to your cleric level, but these
+minutes do not need to be consecutive.
 
-**Usage:** 1 minute/day per cleric level; these minutes need not be consecutive, but must be spent
-in 1-minute increments
+**Replacement Domain Spells:** 7th—_disintegrate_, 9th—_fiery body_.
 
-**Replaces:** The fire resistance power of the Fire domain
+## Smoke Subdomain {#sec-smoke-subdomain}
 
-**Replacement Domain Spells**
+**Associated Domain:** Fire.
 
-**7th:** disintegrate
+**Replacement Power:** The following granted power replaces the fire bolt power of the Fire domain.
 
-**9th:** fiery body
+**Cloud of Smoke (Su):** As a standard action, you can create a 5-foot-radius cloud of smoke. This
+power has a range of 30 feet. Creatures inside the cloud take a -2 penalty on attack rolls and
+Perception skill checks for as long as they remain inside and for 1 round after exiting the cloud.
+Creatures inside the cloud gain [concealment](ref/rule/concealment) from attacks made by opponents
+that are not adjacent to them. You can use this ability a number of times per day equal to 3 + your
+Wisdom modifier.
 
-### Smoke Subdomain
-
-**Associated Deities:** Angradd, Asmodeus, Brigh, Chavazvug, Feronia, Flauros, Hastrikhal,
-Kro'akoth, Lady Nanbyo, Mhar, Moloch, Nataka, Nurgal, Ptah, Rubicante, Sezelrian, Svarozic, Yabu,
-Yamatsumi, Zarongel
-
-**Cloud of Smoke (Su)**
-
-**Standard:** You can create a 5-foot-radius cloud of smoke. This power has a range of 30 feet.
-Creatures inside the cloud take a -2 penalty on attack rolls and Perception skill checks for as long
-as they remain inside and for 1 round after exiting the cloud. Creatures inside the cloud gain
-[concealment](ref/rule/concealment) from attacks made by opponents that are not adjacent to them.
-
-**Usage:** 3 + Wisdom modifier times/day
-
-**Replaces:** The fire bolt power of the Fire domain
-
-**Replacement Domain Spells**
-
-**2nd:** pyrotechnics
-
-**3rd:** stinking cloud
-
-### Deities
-
-**These Deities Grant This Domain:** Angradd, Asmodeus, Brigh, Chavazvug, Feronia, Flauros, Furcas,
-Geon, Green Faith, Haborym, Hastrikhal, Izyagna, Kro'akoth, Lady Nanbyo, Mhar, Moloch, Nataka,
-Nurgal, Onos, Otolmens, Pharimia, Ptah, Ra, Rubicante, Sarenrae, Sekhmet, Sezelrian, Svarozic,
-Szuriel, Thisamet, Urxehl, Vonymos, Yabu, Yamatsumi, Ymeri, Zarongel, Zelishkar, Zipacna, Zurapadyn,
-Zursvaater
+**Replacement Domain Spells:** 2nd—_pyrotechnics_, 3rd—_stinking cloud_.
