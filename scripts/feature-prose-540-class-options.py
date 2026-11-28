@@ -864,7 +864,7 @@ def group_heading(e, blocks) -> tuple[str, int] | None:
     return text, page
 
 
-def variant_section(blocks: list, bk2, e, missing: list, expected: list[str]):
+def variant_section(blocks: list, bk2, e, missing: list, expected: list[str], linked: dict | None = None):
     """Ruling 65: the section of another book that prints a variant of the entry under its own title (an elemental bloodline of Advanced
     Player's Guide that Ultimate Magic p. 71 prints as "Envenomed"). The section is the first title of the window whose heads include one of
     the missing powers (a "Replacement Bloodline Arcana" is print's "Bloodline Arcana" there). Returns (title, text, heads, replacement rows)
@@ -886,6 +886,9 @@ def variant_section(blocks: list, bk2, e, missing: list, expected: list[str]):
         parts = fp.join_wrapped([fp.clean_runs(r) for r in op], bk2.vocab)
         for f in pfs:
             text, _, _ = fp.print_md(f, [], bk2.vocab, e.id)
+            rp = (linked or {}).get(fp.namekey(fp.head_text(f.head))) if VARIANTS_ON else None
+            if rp and norm(rp) == norm(text):
+                text = rp                          # the comparison of the second source placed the links of the corpus into the same printed words
             first, *rest = text.split("\n\n")
             parts += [f"**{fp.head_text(f.head)}:** {first}"] + rest
         title = re.sub(r"\s+", " ", blocks[i].plain()).strip().title()
@@ -1648,7 +1651,7 @@ def add_sections(e, power_rows: list[dict], res: dict, feats: list, powers: list
             status, hard = "hold", True
         if re.search(r"[a-z][A-Z]", label):
             hard = True
-        decided = DECISIONS.get((e.id, r_["anchor"]))
+        decided = DECISIONS.get((getattr(e, "id", ""), r_["anchor"]))
         if decided and decided[0] == "print" and status == "hold" and not problems and not hard:
             status = "print"                      # a reviewed decision settles the reader's number, rule-word and link holds of a section (ruling 3)
             notes.append(f"decision: {decided[1]}")
@@ -1855,7 +1858,8 @@ def run_compare(args) -> int:
             anchored2 = anchor_section(blocks2, e.title, {fp.squash(fp.ABILITY_TAG.sub("", n_)) for n_ in expected}, group_kind(e))
             win = anchored2[0] if anchored2 is not None else blocks2          # the second source's section of the same title, else the whole window (a variant has its own title)
             res2 = fp.compare_entry(e, [fp.Para("title", [(e.title, True, False)], pg, 0, 20)] + win, bk2)
-            return ({r["span"]: r for r in res2["rows"] if r["span"]}, variant_section(blocks2, bk2, e, missing, expected),
+            linked = {fp.namekey(fp.head_text(r["head"])): r["print"] for r in res2["rows"] if r.get("head") and r.get("print")}
+            return ({r["span"]: r for r in res2["rows"] if r["span"]}, variant_section(blocks2, bk2, e, missing, expected, linked),
                     anchored2[1] if anchored2 is not None else True)           # a window with no end title holds
         finally:
             fp.configure_book(book)
