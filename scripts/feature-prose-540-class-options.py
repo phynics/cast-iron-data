@@ -366,13 +366,14 @@ def ability_tag_of_printed_head(head: str) -> str:
 
 def ability_tag_for_option(book: str, imported_head: str, printed_head: str) -> tuple[str, bool]:
     """Read tags from print in the audited books; retain the established matcher elsewhere."""
-    if book in {"ultimate-combat", "ultimate-intrigue", "core-rulebook", "pathfinder-unchained"}:
+    if book in {"ultimate-combat", "ultimate-intrigue", "core-rulebook", "pathfinder-unchained", "ultimate-wilderness"}:
         imported, printed = ability_tag_of(imported_head), ability_tag_of_printed_head(printed_head)
         return printed, bool(imported and printed and imported != printed)
     return ability_tag_pair(imported_head, printed_head)
 
 
 INTRO_MARK_SPECS = {
+    "ultimate-wilderness": {"discovery": ("Discoveries marked with a dagger (†)", "do not stack")},
     "ultimate-magic": {"discovery": ("Discoveries that modify bombs and are marked with a single asterisk", "stack")},
     "advanced-class-guide": {
         "invtalent": ("Investigator talents marked with an asterisk", "damage is dealt"),
@@ -2537,6 +2538,12 @@ def self_test() -> int:
        "Core Rulebook marked talent intro is registered")
     eq(INTRO_MARK_SPECS["pathfinder-unchained"]["talent"], ("Talents marked with an asterisk", "sneak attack"),
        "Pathfinder Unchained marked talent intro is registered")
+    eq(INTRO_MARK_SPECS["ultimate-wilderness"]["discovery"], ("Discoveries marked with a dagger (†)", "do not stack"),
+       "Ultimate Wilderness dagger-marked discovery intro is registered")
+    eq(ability_tag_for_option("ultimate-wilderness", "Grounding Goo (Su)", "Grounding Goo† (Su)"), ("Su", False),
+       "Ultimate Wilderness dagger-marked head keeps its printed ability tag")
+    eq(ability_tag_for_option("ultimate-wilderness", "Grounding Goo (Ex)", "Grounding Goo† (Su)"), ("Su", True),
+       "Ultimate Wilderness printed ability tag detects a mismatch")
     old_intro = INTRO_MARK_TEXT.get(("core-rulebook", "talent"))
     INTRO_MARK_TEXT[("core-rulebook", "talent")] = ("Talents marked with an asterisk add effects to sneak attack.", 68)
     eq(marked_head_intro("core-rulebook", "ref/talent/bleeding-attack"),

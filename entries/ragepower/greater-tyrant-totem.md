@@ -13,11 +13,8 @@ page = "36"
 [fields]
 kind = "class_option"
 group = "rage-power"
+ability_type = "Su"
 +++
 
-**Greater Tyrant Totem (Su)**
-
-**Ability:** While _raging,_ the barbarian gains [swallow whole](ref/umr/swallow-whole) as per the
-universal monster rule.
-
-**Prereq:** 12th-level barbarian, [tyrant totem](ref/ragepower/tyrant-totem)
+While raging, the barbarian gains [swallow whole](ref/umr/swallow-whole) as per the universal
+monster rule. A barbarian must be at least 12th level to choose this rage power.

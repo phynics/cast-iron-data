@@ -15,8 +15,6 @@ kind = "class_option"
 group = "alchemist-discovery"
 +++
 
-**Thorny Bomb**
-
-**Ability:** When the alchemist creates a bomb, he can choose to have it deal piercing damage.
-_Thorny bombs_ count as magic weapons for the purpose of overcoming
+†(Su): When the alchemist creates a bomb, he can choose to have it deal piercing damage. Thorny
+bombs count as magic weapons for the purpose of overcoming
 [damage reduction](ref/rule/damage-reduction).

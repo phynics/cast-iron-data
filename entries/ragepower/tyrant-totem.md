@@ -13,11 +13,9 @@ page = "36"
 [fields]
 kind = "class_option"
 group = "rage-power"
+ability_type = "Ex"
 +++
 
-**Tyrant Totem (Ex)**
-
-**Free:** While _raging,_ the barbarian can begin a [grapple](ref/rule/grapple) against any creature
-she hits with her bite attack.
-
-**Prereq:** 8th-level barbarian, [lesser tyrant totem](ref/ragepower/lesser-tyrant-totem)
+While raging, the barbarian can begin a [grapple](ref/rule/grapple) as a free action against any
+creature she hits with her bite attack. A barbarian must be at least 8th level to choose this rage
+power.

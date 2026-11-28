@@ -15,8 +15,6 @@ kind = "class_option"
 group = "alchemist-discovery"
 +++
 
-**Grounding Goo**
-
-**Ability:** The alchemist's bomb applies a sticky residue after any damage from the bomb is
-resolved. If a creature damaged by the bomb has a nonmagical fly speed, its flight is severely
-impaired, and it takes a penalty equal to the alchemist's level on Fly checks for 1 minute.
+†(Su): The alchemist's bomb applies a sticky residue after any damage from the bomb is resolved. If
+a creature damaged by the bomb has a nonmagical fly speed, its flight is severely impaired, and it
+takes a penalty equal to the alchemist's level on Fly checks for 1 minute.

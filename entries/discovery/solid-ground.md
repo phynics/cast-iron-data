@@ -15,10 +15,9 @@ kind = "class_option"
 group = "alchemist-discovery"
 +++
 
-**Solid Ground**
-
-**Ability:** The alchemist launches an explosive paste bomb that bonds with any earthen surface.
-Each application of this paste deals no damage and affects a 5-foot-cube of dirt, loose soil, or
-stone, transmuting the earth for a number of minutes equal to the alchemist's level. Creatures
-cannot use burrow, [earthmeld](ref/kinetic/earthmeld), or similar abilities (such as the
-[meld into stone](ref/spell/meld-into-stone) spell) while the ground remains transmuted in this way.
+†(Su): The alchemist launches an explosive paste bomb that bonds with any earthen surface. Each
+application of this paste deals no damage and affects a 5-foot-cube of dirt, loose soil, or stone,
+transmuting the earth for a number of minutes equal to the alchemist's level. Creatures cannot use
+burrow, [earthmeld](ref/kinetic/earthmeld), or similar abilities (such as the
+_[meld into stone](ref/spell/meld-into-stone)_ spell) while the ground remains transmuted in this
+way.
