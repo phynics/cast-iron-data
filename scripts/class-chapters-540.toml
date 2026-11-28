@@ -587,3 +587,71 @@ key_marks = ["vigilante-talent"]
 [[class]]
 id = "ref/class/gunslinger"
 not_features = ["critical-hit-with-a-firearm", "killing-blow-with-a-firearm"]
+
+
+# Occult Adventures (phynics/cast-iron#540). The gap check of each class stops at the first section behind the class features; the lead-in of that section is a section of the class (the hubs
+# `ref/ability/elements`, `spirits`, `implements`, `disciplines` hold the import's words; the spell lists are spell data).
+[[class]]
+id = "ref/class/kineticist"
+gap_stop = "Elements"
+lead_key = "kineticist-elements"
+lead_title = "Elements"
+
+[[class]]
+id = "ref/class/medium"
+gap_stop = "Spirits"
+lead_key = "medium-spirits"
+lead_title = "Spirits"
+
+[[class]]
+id = "ref/class/mesmerist"
+gap_stop = "Mesmerist Spells"
+lead_key = "mesmerist-spells"
+lead_title = "Mesmerist Spells"
+
+[[class]]
+id = "ref/class/occultist"
+gap_stop = "Implement Schools"
+lead_key = "implement-schools"
+lead_title = "Implement Schools"
+
+[[class]]
+id = "ref/class/psychic"
+gap_stop = "Psychic Disciplines"
+lead_key = "psychic-disciplines"
+lead_title = "Psychic Disciplines"
+
+[[class]]
+id = "ref/class/spiritualist"
+gap_stop = "Spiritualist Spells"
+lead_key = "spiritualist-spells"
+lead_title = "Spiritualist Spells"
+# the cells of the phantom's table and the spell list follow the lead-in in the text layer (the spells are spell data; the table is the phantom's)
+lead_until = "The spiritualist casts all spells as psychic spells."
+
+# the last cell of the Occultist's table of spells per day stands in front of the sentence on swapping spells (p. 47)
+[[layout_fix]]
+class = "ref/class/occultist"
+key = "spells"
+find = "4 At 5th level and every 3 occultist levels thereafter"
+replace = "At 5th level and every 3 occultist levels thereafter"
+
+# The box "Phantoms" (p. 75) stands inside the paragraph of Incorporeal Bonded Manifestation ("... the spiritualist can better affect incorporeal creatures with" [box] "melee attacks; her unarmed strikes ..."): the box stays a section
+# of the Phantom feature, and the end of the paragraph goes back to its host.
+[[sidebar_tail]]
+class = "ref/class/spiritualist"
+key = "phantoms"
+host = "incorporeal-bonded-manifestation"
+marker = "melee attacks; her unarmed strikes"
+
+[[place_under]]
+class = "ref/class/spiritualist"
+key = "phantoms"
+under = "phantom"
+
+# The coverage check reads the box's last paragraph and the end of the host's sentence as one sentence ("... in check. melee attacks; her unarmed strikes ..."): the end of the box is a sentence of its own.
+[[layout_fix]]
+class = "ref/class/spiritualist"
+key = "phantom"
+find = "often-violent emotions in check. melee attacks;"
+replace = "often-violent emotions in check. Melee attacks;"

@@ -938,9 +938,9 @@ for _c in MANIFEST.get("class", []):
     if any(k in _c for k in ("lead_key", "lead_title", "lead_entry", "lead_ok")):
         _t = _c.get("gap_stop") or GAP_STOP.get(_c["id"])
         if _t:
-            LEADS.setdefault(_c["id"], []).append({"title": fp.squash(_t), "heading": _c.get("lead_title"), "key": _c.get("lead_key"), "entry": _c.get("lead_entry"), "ok": _c.get("lead_ok", [])})
+            LEADS.setdefault(_c["id"], []).append({"title": fp.squash(_t), "heading": _c.get("lead_title"), "key": _c.get("lead_key"), "entry": _c.get("lead_entry"), "ok": _c.get("lead_ok", []), "until": _c.get("lead_until", "")})
 for _l in MANIFEST.get("lead", []):
-    LEADS.setdefault(_l["class"], []).append({"title": fp.squash(_l["title"]), "heading": _l.get("heading"), "key": _l.get("key"), "entry": _l.get("entry"), "ok": _l.get("ok", [])})
+    LEADS.setdefault(_l["class"], []).append({"title": fp.squash(_l["title"]), "heading": _l.get("heading"), "key": _l.get("key"), "entry": _l.get("entry"), "ok": _l.get("ok", []), "until": _l.get("until", "")})
 
 
 # A list that print sets inside a feature and that a hub entry holds (the Hunter's animal foci: `ref/ability/animal-foci`): the class does not copy its items (ruling 52); the
@@ -971,7 +971,7 @@ def leads_of(class_id: str) -> list[dict]:
 SPELL_LIST_PARA = re.compile(r"^\s*(?:\d+(?:st|nd|rd|th)|0)-Level\b[^:\u2014]*[:\u2014]")                       # "1st-Level Alchemist Formulae\u2014ant haul*, ..." or "1st-Level Shaman Spells: ...": the spell lists are spell data, not text of the class
 
 
-def lead_in(blocks: list, win: list, stop_title: str) -> tuple[str, list] | None:
+def lead_in(blocks: list, win: list, stop_title: str, until: str = "") -> tuple[str, list] | None:
     """(title, [paragraphs]) of the section whose title ends the gap: the paragraphs between that title and the next title (the first of the list under it)."""
     last = end_index(blocks, win)
     out = None
@@ -982,6 +982,8 @@ def lead_in(blocks: list, win: list, stop_title: str) -> tuple[str, list] | None
             if fp.squash(b.plain()) == stop_title:
                 out = (" ".join(b.plain().split()), [])
         elif b.kind == "para" and out is not None and not is_table_para(b.plain()) and not SPELL_LIST_PARA.match(b.plain()):
+            if until and any(" ".join(x.plain().split()).endswith(until) for x in out[1]):
+                break                                         # `lead_until`: the last words of the lead-in; the cells of a table and the spell list behind them are not text of it
             out[1].append(b)
     return out
 
@@ -1001,7 +1003,7 @@ def section_rewrites(corpus: Path, e, bk, blocks: list, rwin0: list, lacking: se
     secs = gap_sections(blocks, rwin0, lacking | SECTIONS_BEHIND.get(e.id, set()), stops)
     lead_of: dict[int, dict] = {}                                  # the lead-ins that are written as sections: id of the paragraphs -> their lead
     for ld in leads_of(e.id):
-        li = lead_in(blocks, rwin0, ld["title"]) if ld["key"] else None
+        li = lead_in(blocks, rwin0, ld["title"], ld.get("until", "")) if ld["key"] else None
         if li and li[1]:
             secs = secs + [(ld["heading"] or li[0], li[1])]
             lead_of[id(li[1])] = ld
@@ -1072,7 +1074,7 @@ def coverage_check(corpus: Path, e, items: list[dict], blocks: list, title, head
                              + " | ".join(s[:70] for s in gap_lost[:3]))
         host["lost"] = gap_lost
     for ld in leads_of(e.id):                                     # a gap stop must not swallow the lead-in of the section it stops at (review of #389)
-        lead = lead_in(blocks, rwin0, ld["title"])
+        lead = lead_in(blocks, rwin0, ld["title"], ld.get("until", ""))
         if lead and lead[1]:
             lead_union = union + ("\n" + (corpus / "entries" / (ld["entry"].removeprefix("ref/") + ".md")).read_text(encoding="utf-8") if ld["entry"] else "")
             lead_lost = lost_sentences(" ".join(" ".join(b.plain().split()) for b in lead[1]), lead_union, cells)
@@ -1368,17 +1370,21 @@ def compare_class(corpus: Path, e, bk, cache: dict, options: dict | None = None,
                     box_text = errata_fixed(e.id, sec["key"], box_text)
                     box_text, _ = fp.apply_links(box_text, old_links) if old_links else (box_text, [])          # the links of the old text stay where their words are
                     box_rewrites.append({"head": e.body.split("\n")[at_line], "line": at_line, "end": at_line + sect.group(0).count("\n"), "old": sect.group(1).strip(), "print": box_text})
+                if sect:
+                    new_items.remove((after, sec))
+                    continue
+                sec["print"] = box_text                               # a box that the corpus has not: it stays an unlisted section, and the end of the host's paragraph is back with the host
+                sec["notes"].append(f"the last words of the box are the end of `{host['key']}`")
+            else:
+                if ratio < 0.97 or host is None:
+                    sec["status"] = "hold"
+                    sec["notes"].append(f"the box does not match the section `### {sec['head']}` of the corpus (ratio {ratio:.3f})")
+                    continue
+                tail = " ".join(sents[cut:])
+                host["print"] = host["print"].rstrip() + "\n\n" + tail
+                host["notes"].append(f"print sets the last sentences of this feature after the box `{sec['head']}`")
                 new_items.remove((after, sec))
                 continue
-            if ratio < 0.97 or host is None:
-                sec["status"] = "hold"
-                sec["notes"].append(f"the box does not match the section `### {sec['head']}` of the corpus (ratio {ratio:.3f})")
-                continue
-            tail = " ".join(sents[cut:])
-            host["print"] = host["print"].rstrip() + "\n\n" + tail
-            host["notes"].append(f"print sets the last sentences of this feature after the box `{sec['head']}`")
-            new_items.remove((after, sec))
-            continue
         placed = PLACE_UNDER.get((e.id, sec["key"]))
         if placed:
             after, sec["level"] = placed
@@ -1752,6 +1758,10 @@ def self_test() -> int:
     eq(keys_that_move("ref/class/x", old, "#### A {#a}\n\ntext\n", {"items": [{"key": "b", "drop": True}]}), [], "a dropped head goes")
     eq(keys_that_move("ref/class/witch", "#### A {#a}\n\n##### Learn from a Scroll {#learn-from-a-scroll}\n", "#### A {#a}\n", {"items": []}), [], "the keys of a box that the corpus has as a section go")
     # references: trades, links, deep links, option groups
+    la_, lb_, lc_ = (fp.Para("para", [(t, False, False)], 1, 0, 0) for t in ("A last feature of the class, with some words.", "Gain access to the following spells; the lead-in of the section.", "Dex Cha Slam Bonus damage and the words of a table that the layout runs behind it."))
+    lt_ = fp.Para("title", [("Spiritualist Spells", True, False)], 1, 0, 18)
+    lead_all_, lead_cut_ = lead_in([la_, lt_, lb_, lc_], [la_], "spiritualistspells"), lead_in([la_, lt_, lb_, lc_], [la_], "spiritualistspells", "the lead-in of the section.")
+    eq([len(lead_all_[1]), len(lead_cut_[1])], [2, 1], "`lead_until` ends the lead-in after the paragraph with the last words; the table cells behind it are not text of it")
     import tempfile
     with tempfile.TemporaryDirectory() as td:
         cd = Path(td)

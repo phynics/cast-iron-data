@@ -19,6 +19,18 @@ kind = "class"
 class_type = "occult"
 hit_die = "d6"
 skill_ranks = "2 + Int modifier"
+features = [
+  { anchor = "spells" },
+  { anchor = "knacks", level = 1 },
+  { anchor = "phrenic-pool", level = 1 },
+  { anchor = "phrenic-amplifications", level = 1 },
+  { anchor = "psychic-discipline", level = 1 },
+  { anchor = "detect-thoughts", level = 2 },
+  { anchor = "telepathic-bond", level = 9 },
+  { anchor = "major-amplifications", level = 11 },
+  { anchor = "telepathy", level = 17 },
+  { anchor = "remade-self", level = 20 },
+]
 +++
 
 Within the mind of any sentient being lies power to rival that of the greatest magical artifact or
@@ -99,171 +111,168 @@ Knowledge (nobility), Knowledge (planes), Knowledge (religion), Linguistics, Spe
 |19th|9|5|5|4|4|4|3|3|3|2|
 |20th|9|5|5|4|4|4|3|3|3|3|
 
-#### Weapon and Armor Proficiencies {#weapon-and-armor-proficiencies}
+### Class Features {#class-features}
 
-**Weapons:** All simple weapons
+The following are the class features of the psychic.
 
-**Armor:** No armor
+#### Weapon and Armor Proficiency {#weapon-and-armor-proficiencies}
 
-**Shields:** No
+A psychic is proficient with all simple weapons, but not with any type of armor or shield.
 
 #### Spells {#spells}
 
-**Spell list:** Psychic spells from the psychic list, from 1st level
+A psychic casts psychic spells drawn from the psychic class's spell list (see page 69). She can cast
+any spell she knows without preparing it ahead of time. To learn or cast a spell, a psychic must
+have an Intelligence score equal to at least 10 + the spell level. The Difficulty Class for a saving
+throw against a psychic's spell is equal to 10 + the spell's level + the psychic's Intelligence
+modifier.
 
-**Key ability:** Intelligence. Minimum score 10 + spell level; save DC 10 + spell level +
-Intelligence modifier; a high score grants bonus spells per day.
+A psychic can cast only a certain number of spells of each spell level per day. Her base daily spell
+allotment is given on Table 1–7: Psychic. In addition, she receives bonus spells per day if she has
+a high Intelligence score (see Table 1–3 on page 17 of the _Pathfinder RPG Core Rulebook_).
 
-**Casting:** Spontaneous: cast any spell known without preparation, within the daily allotment per
-spell level.
+The psychic's selection of spells is limited. A psychic begins play knowing four 0-level spells and
+two 1st-level spells of the psychic's choice. At each new psychic level, she learns one or more new
+spells, as indicated on Table 1–8: Psychic Spells Known. Unlike a psychic's spells per day, the
+number of spells a psychic knows isn't affected by her Intelligence score; the numbers on Table 1–8
+are fixed.
 
-**Spells known:** Limited selection; starts with four 0-level and two 1st-level spells and grows by
-level as shown on the table. Intelligence does not change the number known.
+At 4th level and every even-numbered level thereafter (6th, 8th, and so on), a psychic can choose to
+learn a single new spell in place of one she already knows. In effect, the psychic loses the old
+spell in exchange for the new one. The new spell's level must be the same as that of the spell being
+exchanged, and it must be at least 1 level lower than the highest-level spell from the psychic's
+class list that the psychic can cast. A psychic can swap only a single spell at any given level, and
+must choose whether or not to swap the spell at the same time that she gains new spells known for
+the level.
 
-**Spell swap:** At 4th, 6th, 8th, and every 2 levels after, one known spell may be exchanged for
-another of the same level that is at least one level below the highest level you can cast.
+A psychic need not prepare her spells in advance. She can cast any psychic spell she knows at any
+time, assuming she has not yet used up her allotment of spells per day for the spell's level.
 
 #### Knacks {#knacks}
 
-**Ability:** 0-level psychic spells. Cast without using a spell slot; one placed in a higher slot
-(for example through metamagic) uses that slot.
+Psychics learn a number of knacks, or 0-level spells, as noted on Table 1–8. These spells are cast
+like any other spell, but they don't consume any slots and can be used again. Knacks cast using
+other spell slots (due to metamagic feats, for example) consume spell slots as normal.
 
 #### Phrenic Pool (Su) {#phrenic-pool}
 
-**Ability:** You have a pool of supernatural mental energy that you can draw upon to manipulate
-psychic spells as you cast them. The maximum number of points in your _phrenic pool_ is equal to
-[half](ref/misc/fractions-and-rounding) your psychic level + your Wisdom or Charisma modifier, as
-determined by your _psychic discipline_ (described below).
-
-**Gained:** At 1st Level
-
-**Special:** The _phrenic pool_ is replenished each morning after 8 hours of rest or meditation;
-these hours don't need to be consecutive. You might be able to recharge points in your _phrenic
-pool_ in additional circumstances dictated by your _psychic discipline._ Points gained in excess of
-the _pool's_ maximum are lost.
+A psychic has a pool of supernatural mental energy that she can draw upon to manipulate psychic
+spells as she casts them. The maximum number of points in a psychic's phrenic pool is equal to 1/2
+her psychic level + her Wisdom or Charisma modifier, as determined by her psychic discipline. The
+phrenic pool is replenished each morning after 8 hours of rest or meditation; these hours don't need
+to be consecutive. The psychic might be able to recharge points in her phrenic pool in additional
+circumstances dictated by her psychic discipline. Points gained in excess of the pool's maximum are
+lost.
 
 #### Phrenic Amplifications {#phrenic-amplifications}
 
-**Ability:** You learn a phrenic amplification. You can activate only one amplification each time
-you cast a spell, and doing so is part of the action used to cast the spell. You can use any
-amplification you know with any psychic spell, unless the amplification's description states that it
-can be linked only to certain types of spells.
+A psychic develops particular techniques to empower her spellcasting, called phrenic amplifications.
+The psychic can activate a phrenic amplification only while casting a spell using psychic magic, and
+the amplification modifies either the spell's effects or the process of casting it. The spell being
+cast is called the linked spell. The psychic can activate only one amplification each time she casts
+a spell, and doing so is part of the action used to cast the spell. She can use any amplification
+she knows with any psychic spell, unless the amplification's description states that it can be
+linked only to certain types of spells. A psychic learns one phrenic amplification at 1st level,
+selected from the list below. At 3rd level and every 4 levels thereafter, the psychic learns a new
+phrenic amplification. A phrenic amplification can't be selected more than once. Once a phrenic
+amplification has been selected, it can't be changed. Phrenic amplifications require the psychic to
+expend 1 or more points from her phrenic pool to function.
 
-**Flavor:** A psychic develops particular techniques to empower her spellcasting.
-
-**At 11th Level:** You learn a new _phrenic amplification_ or _major phrenic amplification_
-(described below).
-
-**Gained:** At 1st Level
-
-**Repeat At:** You learn a new _phrenic amplification._, 3, 7, , You learn a new _phrenic
-amplification_ or _major phrenic amplification._, 15, 19
-
-**Special:** A _phrenic amplification_ can't be selected more than once. Once a _phrenic
-amplification_ has been selected, it can't be changed. _Phrenic amplifications_ require you to
-expend 1 or more points from your _phrenic pool_ to function.
-
-**Usage:** You can activate a _phrenic amplification_ only while casting a spell using psychic
-magic, and the amplification modifies either the spell's effects or the process of casting it. The
-spell being cast is called the linked spell.
-
-**Usage:** You can activate a _phrenic amplification_ only while casting a spell using psychic
-magic, and the amplification modifies either the spell's effects or the process of casting it. The
-spell being cast is called the linked spell.
-
-**Psi-Tech:** A psychic can learn a [psi-tech discovery](ref/ability/psi-tech) in place of a
-_phrenic amplification_ or a feat. Many of these discoveries use the rules for
-[advanced technology](ref/rule/technological-equipment).
+- [Complex Countermeasure (Ex)](ref/phrenicamp/complex-countermeasures)
+- [Conjured Armor (Su)](ref/phrenicamp/conjured-armor)
+- [Defensive Prognostication (Su)](ref/phrenicamp/defensive-prognostication)
+- [Focused Force (Su)](ref/phrenicamp/focused-force)
+- [Intense Focus (Ex)](ref/phrenicamp/intense-focus)
+- [Mindshield (Su)](ref/phrenicamp/mindshield)
+- [Mindtouch (Su)](ref/phrenicamp/mindtouch)
+- [Ongoing Defense (Su)](ref/phrenicamp/ongoing-defense)
+- [Overpowering Mind (Ex)](ref/phrenicamp/overpowering-mind)
+- [Relentless Casting (Su)](ref/phrenicamp/relentless-casting)
+- [Undercast Surge (Su)](ref/phrenicamp/undercast-surge)
+- [Will of the Dead (Su)](ref/phrenicamp/will-of-the-dead)
 
 #### Psychic Discipline (Ex or Sp) {#psychic-discipline}
 
-**Ability:** Choose one [discipline](ref/ability/disciplines). Once made, this choice can't be
-changed. You gain an additional spell known based on your selected discipline, and you gain its
-1st-level discipline power. The DC of a saving throw against a _psychic discipline_ ability equals
-10 + 1/2 your psychic level + your Intelligence modifier.
+Each psychic accesses and improves her mental powers through a particular method, such as rigorous
+study or attaining a particular mental state. This is called her psychic
+[discipline](ref/ability/disciplines). She gains additional spells known based on her selected
+discipline. The choice of discipline must be made at 1st level; once made, it can't be changed. Each
+psychic discipline gives the psychic a number of discipline powers (at 1st, 5th, and 13th levels),
+and grants her additional spells known. In addition, the discipline determines which ability score
+the psychic uses for her phrenic pool and phrenic amplifications abilities. The DC of a saving throw
+against a psychic discipline ability equals 10 + 1/2 the psychic's level + the psychic's
+Intelligence modifier.
 
-**Flavor:** Each psychic accesses and improves her mental powers through a particular method, such
-as rigorous study or attaining a particular mental state. This is called her psychic discipline.
+At 1st level, a psychic learns an additional spell determined by her discipline. She learns another
+additional spell at 4th level and every 2 levels thereafter, until learning the final one at 18th
+level. These spells are in addition to the number of spells given on Table 1–8. Spells learned from
+a discipline can't be exchanged for different spells at higher levels.
 
-**Gained:** At 1st Level
-
-**Repeat:** You gain a new spell from your discipline., 4, 2, 18, , You gain a new discipline
-power., 5, 8
-
-**Special:** The discipline determines which ability score you use for your _phrenic pool_ and
-_phrenic amplifications_ abilities. Spells learned from a discipline can't be exchanged for
-different spells at higher levels.
+Specific psychic disciplines are further described starting on page 64.
 
 #### Detect Thoughts (Sp) {#detect-thoughts}
 
-**Ability:** You can also expend any unused spell slot of 1st level or higher to cast
-_[detect thoughts](ref/spell/detect-thoughts)._ If you do so, you use the level of the spell slot
-expended to determine the Will save DC.
-
-**Gained:** At 2nd Level
-
-**Special:** When you gain this ability, if you already know
-_[detect thoughts](ref/spell/detect-thoughts),_ you can learn a different 1st-level spell in place
-of it, losing the old spell in exchange for the new one.
-
-**Standard:** You can use [detect thoughts](ref/spell/detect-thoughts) as a
-[spell-like ability](ref/umr/spell-like-abilities) once per day.
+At 2nd level, a psychic can use _[detect thoughts](ref/spell/detect-thoughts)_ as a
+[spell-like ability](ref/umr/spell-like-abilities) once per day. She can also expend any unused
+spell slot of 1st level or higher to cast _[detect thoughts](ref/spell/detect-thoughts)_. If she
+does so, she uses the level of the spell slot expended to determine the Will save DC. When a psychic
+gains this ability, if she knows _[detect thoughts](ref/spell/detect-thoughts),_ she can learn a
+different 1st-level spell in place of _detect thoughts_, losing the old spell in exchange for the
+new one.
 
 #### Telepathic Bond (Sp) {#telepathic-bond}
 
-**Ability:** You can also expend any unused spell slot of 4th level or higher to cast
-_[telepathic bond](ref/spell/telepathic-bond)._ Casting the spell using a higher-level spell slot
-gives no benefit on its own, but you can apply metamagic feats that would increase the spell level
-to the appropriate level. For instance, if you know [Extend Spell](ref/feat/extend-spell), you can
-use a 5th-level spell slot to cast extended _[telepathic bond](ref/spell/telepathic-bond)_ as a
-full-round action.
-
-**Gained:** At 9th Level
-
-**Special:** When you gain this ability, if you already know
-_[telepathic bond](ref/spell/telepathic-bond),_ you can learn a different 4th-level spell in place
-of it, losing the old spell in exchange for the new one.
-
-**Standard:** You can use [telepathic bond](ref/spell/telepathic-bond) as a
-[spell-like ability](ref/umr/spell-like-abilities) once per day, using your psychic level as your
-caster level. You can't leave yourself out of a _bond_ created in this way.
+At 9th level, a psychic can use _[telepathic bond](ref/spell/telepathic-bond)_ as a
+[spell-like ability](ref/umr/spell-like-abilities) once per day, using her psychic level as her
+caster level. She can't leave herself out of a bond created in this way. She can also expend any
+unused spell slot of 4th level or higher to cast _[telepathic bond](ref/spell/telepathic-bond)_.
+Casting the spell using a higher-level spell slot gives no benefit on its own, but the psychic can
+apply metamagic feats that would increase the spell level to the appropriate level. For instance, if
+the psychic knows [Extend Spell](ref/feat/extend-spell), she can use a 5th-level spell slot to cast
+extended _[telepathic bond](ref/spell/telepathic-bond)_ as a full-round action. When a psychic who
+knows _[telepathic bond](ref/spell/telepathic-bond)_ gains this ability, she can learn a different
+4th-level spell in place of _telepathic bond_, losing the old spell in exchange for the new one.
 
 #### Major Amplifications {#major-amplifications}
 
-**Section:** Other Abilities
+At 11th level and every 4 levels thereafter, a psychic can choose one of the following major
+amplifications in place of a phrenic amplification.
 
-**Gained:** At 11th Level
-
-**Passive:** When you would learn a _phrenic amplification_ from gaining a level, you can choose a
-major phrenic amplification instead.
+- [Dispelling Pulse (Su)](ref/phrenicamp/dispelling-pulse)
+- [Dual Amplification (Ex)](ref/phrenicamp/dual-amplification)
+- [Mimic Metamagic (Ex)](ref/phrenicamp/mimic-metamagic)
+- [Space-rending Spell (Su)](ref/phrenicamp/space-rending-spell)
+- [Subordinate Spell (Ex)](ref/phrenicamp/subordinate-spell)
+- [Synaptic Shock (Su)](ref/phrenicamp/synaptic-shock)
+- [Turning Shield (Su)](ref/phrenicamp/turning-shield)
 
 #### Telepathy (Su) {#telepathy}
 
-**Ability:** You can mentally communicate with any other creature within 100 feet that has a
-language. It is possible to address multiple creatures at once telepathically, although maintaining
-a telepathic conversation with more than one creature at a time is just as difficult as both
-speaking and listening to multiple people at the same time.
-
-**Gained:** At 17th Level
-
-**Special:** When you gain this ability, if you already know the [telepathy](ref/spell/telepathy)
-spell, you can learn a different 5th-level spell in place of it, losing the old spell in exchange
-for the new one.
+At 17th level, the psychic can mentally communicate with any other creature within 100 feet that has
+a language. It is possible to address multiple creatures at once telepathically, although
+maintaining a telepathic conversation with more than one creature at a time is just as difficult as
+both speaking and listening to multiple people at the same time. When a psychic who knows
+_[telepathy](ref/spell/telepathy)_ (see page 189) gains this ability, she can learn a different
+5th-level spell in place of _telepathy_, losing the old spell in exchange for the new one.
 
 #### Remade Self (Sp) {#remade-self}
 
-**Ability:** While you are under the effects of this
-[spell-like ability](ref/umr/spell-like-abilities), each time you cast a psychic spell, you can link
-one _phrenic amplification_ or _major amplification_ you know that has a point cost of 1 to that
-spell without spending any points from your _phrenic pool._ This amplification is in addition to the
-normal maximum of one amplification per spell.
+At 20th level, the psychic is affected by one of the following spells as a constant
+[spell-like ability](ref/umr/spell-like-abilities): _[arcane sight](ref/spell/arcane-sight)_,
+_[fly](ref/spell/fly)_, _[haste](ref/spell/haste)_, _[heroism](ref/spell/heroism)_,
+_[nondetection](ref/spell/nondetection)_, or _[tongues](ref/spell/tongues)_. This ability is chosen
+when the psychic reaches 20th level and can't be changed. While the psychic is under the effects of
+this spell-like ability, each time she casts a psychic spell, she can link one phrenic amplification
+or major amplification she knows that has a point cost of 1 to that spell without spending any
+points from her phrenic pool. This amplification is in addition to the normal maximum of one
+amplification per spell.
 
-**Gained:** At 20th Level
+### Psychic Disciplines {#psychic-disciplines}
 
-**Passive:** You are affected by one of the following spells as a constant spell-like ability:
-[arcane sight](ref/spell/arcane-sight), [fly](ref/spell/fly), [haste](ref/spell/haste),
-[heroism](ref/spell/heroism), [nondetection](ref/spell/nondetection), or
-[tongues](ref/spell/tongues). This ability is chosen when you reach 20th level and can't be changed.
+The following disciplines represent those most commonly chosen by psychics. Followers of a
+discipline might come to it in a variety of different ways, and though some might join together in
+orders, others follow personal, singular interpretations of the discipline. Spells with an asterisk
+(\*) appear in Chapter 4 of this book.
 
 ### Alternate Capstones
 
