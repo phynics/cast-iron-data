@@ -13,8 +13,7 @@ page = "86"
 [fields]
 kind = "class_option"
 group = "slayer-talent"
+ability_type = "Ex"
 +++
 
-**Sticks and Stones (Ex)**
-
-**Ability:** The slayer gains [Catch Off-Guard](ref/feat/catch-off-guard) as a bonus feat.
+The slayer gains [Catch Off-Guard](ref/feat/catch-off-guard) as a bonus feat.

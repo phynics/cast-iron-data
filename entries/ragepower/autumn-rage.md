@@ -13,16 +13,7 @@ page = "36"
 [fields]
 kind = "class_option"
 group = "rage-power"
+ability_type = "Su"
 +++
 
-**Autumn Rage (Su)**
-
-**Flavor:** The barbarian becomes a servant of the harvest.
-
-**Passive:** While _raging,_ she gains a +2 bonus on combat maneuver checks to
-[reposition](ref/rule/reposition) or [trip](ref/rule/trip). She also gains this bonus on attack
-rolls to confirm critical hits.
-
-**Special:** A barbarian can have only one season-themed rage power, choosing between
-[spring](ref/ragepower/spring-rage), [summer](ref/ragepower/summer-rage), _autumn,_ or
-[winter](ref/ragepower/winter-rage) rage.
+The barbarian becomes a servant of the harvest. While raging, she gains a +2 bonus on combat maneuver checks to [reposition](ref/rule/reposition) or [trip](ref/rule/trip). She also gains this bonus on attack rolls to confirm critical hits. A barbarian can have only one season-themed rage power, choosing between [spring](ref/ragepower/spring-rage), [summer](ref/ragepower/summer-rage), autumn, or [winter](ref/ragepower/winter-rage) rage.

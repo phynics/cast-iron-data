@@ -13,11 +13,7 @@ page = "37"
 [fields]
 kind = "class_option"
 group = "rage-power"
+ability_type = "Ex"
 +++
 
-**Lesser Tyrant Totem (Ex)**
-
-**Passive:** While _raging,_ the barbarian's bite attack deals damage as if the barbarian were
-[one size larger](ref/misc/damage-die-adjustments) than her actual size.
-
-**Prereq:** [Animal fury](ref/ragepower/animal-fury) rage power or a natural bite attack
+While raging, the barbarian's bite attack deals damage as if the barbarian were [one size larger](ref/misc/damage-die-adjustments) than her actual size. The barbarian must have the [animal fury](ref/ragepower/animal-fury) rage power or a natural bite attack to choose this rage power.

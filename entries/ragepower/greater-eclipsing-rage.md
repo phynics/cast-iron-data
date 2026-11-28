@@ -13,12 +13,7 @@ page = "36"
 [fields]
 kind = "class_option"
 group = "rage-power"
+ability_type = "Su"
 +++
 
-**Greater Eclipsing Rage (Su)**
-
-**Passive:** Whenever the barbarian _rages,_ the [light level](ref/rule/vision-and-light) within 20
-feet of her lowers by two steps instead of one. She still can't decrease the light level below
-normal darkness with this ability.
-
-**Prereq:** 10th-level barbarian, [eclipsing rage](ref/ragepower/eclipsing-rage)
+Whenever the barbarian rages, the [light level](ref/rule/vision-and-light) within 20 feet of her lowers by two steps instead of one. She still can't decrease the light level below normal darkness with this ability. A barbarian must be at least 10th level and have the [eclipsing rage](ref/ragepower/eclipsing-rage) power to choose this rage power.

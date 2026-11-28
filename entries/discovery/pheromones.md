@@ -13,9 +13,7 @@ page = "34"
 [fields]
 kind = "class_option"
 group = "alchemist-discovery"
+ability_type = "Su"
 +++
 
-**Pheromones**
-
-**Passive:** The alchemist exudes an imperceptible musk that grants him a permanent +3 competence
-bonus on Bluff, Diplomacy, and Intimidate checks.
+The alchemist exudes an imperceptible musk that grants him a permanent +3 competence bonus on Bluff, Diplomacy, and Intimidate checks.

@@ -1,0 +1,32 @@
+entry	anchor	decision	note
+ref/discovery/bitter-pill	bitter-pill	draft	corpus wording agrees with print
+ref/discovery/grounding-goo	grounding-goo	hold	rule word: corpus - / print ['su']
+ref/discovery/pheromones	pheromones	draft	corpus wording agrees with print
+ref/discovery/solid-ground	solid-ground	hold	rule word: corpus - / print ['su']
+ref/discovery/thorny-bomb	thorny-bomb	hold	rule word: corpus - / print ['su']
+ref/discovery/volumizer	volumizer	draft	corpus wording agrees with print
+ref/hex/city-sight	city-sight	print	print wording and level settle the import wording (rulings 3 and 8)
+ref/hex/enemy-ground	enemy-ground	print	print wording and level settle the import wording (rulings 3 and 8)
+ref/hex/no-place-like-home	no-place-like-home	print	print wording and level settle the import wording (rulings 3 and 8)
+ref/hex/summers-heat	summer-s-heat	draft	corpus wording agrees with print
+ref/ragepower/autumn-rage	autumn-rage	print	print wording and level settle the import wording (rulings 3 and 8)
+ref/ragepower/bestial-flyer	bestial-flyer	hold	"rule word: corpus - / print ['choose', 'least', 'must', 'power', 'power', 'rage']; rule 3: the prerequisite row ""A fly speed (before raging,) raging flye"" is not all print's sentences: it stays in the comparison"
+ref/ragepower/contagious-rage	contagious-rage	print	"rule 3: the prerequisite row ""6th-level barbarian"" is print's ""must be at least 6th level"" (the same level)"
+ref/ragepower/dissipating-rage	dissipating-rage	draft	corpus wording agrees with print
+ref/ragepower/eclipsing-rage	eclipsing-rage	print	"rule 3: the prerequisite row ""6th-level barbarian"" is print's ""must be at least 6th level"" (the same level)"
+ref/ragepower/greater-eclipsing-rage	greater-eclipsing-rage	print	"rule 3: the prerequisite row ""10th-level barbarian, eclipsing rage"" is print's ""must be at least 10th level"" (the same level); rule 3: the prerequisite item ""eclipsing rage"" is print's sentence that says the character must have it"
+ref/ragepower/greater-tyrant-totem	greater-tyrant-totem	hold	"rule word: corpus - / print ['choose', 'least', 'must', 'power', 'rage']; rule 3: the prerequisite row ""12th-level barbarian, tyrant totem"" is not all print's sentences: it stays in the comparison; link not placed: tyrant totem"
+ref/ragepower/hissing-rage	hissing-rage	hold	"number: corpus ['1', 'hour'] / print ['1/2', '1/round', '10', '1d2', '2', '6', 'against', 'barbarian', 'barbarian', 'bite', 'consecutive', 'constitution', 'contact', 'cure', 'damage', 'dc', 'effect', 'equal', 'fort', 'frequency', 'injury', 'modifier', 'or', 'poison', 'poison', 'round', 'save', 'save', 'save', 'su']; rule 4: the usage row ""Once per hour"" is in print word for word; import rows outsi"
+ref/ragepower/lesser-tyrant-totem	lesser-tyrant-totem	print	"rule 3: the prerequisite item ""Animal fury rage power or a na"" is print's sentence that says the character must have it"
+ref/ragepower/lizard-stride	lizard-stride	draft	corpus wording agrees with print
+ref/ragepower/pack-rage	pack-rage	print	"rule 3: the prerequisite row ""6th-level barbarian"" is print's ""must be at least 6th level"" (the same level)"
+ref/ragepower/raging-flyer	raging-flyer	draft	corpus wording agrees with print
+ref/ragepower/raging-whirlwind	raging-whirlwind	print	"rule 3: the prerequisite row ""12th-level barbarian"" is print's ""must be at least 12th level"" (the same level)"
+ref/ragepower/spring-rage	spring-rage	print	print wording and level settle the import wording (rulings 3 and 8)
+ref/ragepower/summer-rage	summer-rage	print	print wording and level settle the import wording (rulings 3 and 8)
+ref/ragepower/tyrant-totem	tyrant-totem	hold	"rule word: corpus ['lesser'] / print ['choose', 'least', 'must', 'power', 'rage']; rule 3: the prerequisite row ""8th-level barbarian, lesser tyrant totem"" is not all print's sentences: it stays in the comparison; link not placed: lesser tyrant totem"
+ref/ragepower/winter-rage	winter-rage	draft	corpus wording agrees with print
+ref/slayertalent/sticks-and-stones	sticks-and-stones	draft	corpus wording agrees with print
+ref/slayertalent/sunlight-strike	sunlight-strike	print	print wording and level settle the import wording (rulings 3 and 8)
+ref/slayertalent/sure-footing	sure-footing	draft	corpus wording agrees with print
+ref/slayertalent/toxin-training	toxin-training	print	"rule 3: the prerequisite row ""4th-level slayer, poison use"" is print's ""must be at least 4th level"" (the same level); rule 3: the prerequisite item ""poison use"" is print's sentence that says the character must have it"
