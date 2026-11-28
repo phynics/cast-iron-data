@@ -25,8 +25,6 @@ skill_ranks = "4 + Int modifier"
 features = [
   { anchor = "gunsmith", level = 1 },
   { anchor = "grit", level = 1 },
-  { anchor = "critical-hit-with-a-firearm" },
-  { anchor = "killing-blow-with-a-firearm" },
   { anchor = "deeds", level = 1 },
   { anchor = "nimble", level = 2 },
   { anchor = "gun-training", level = 5 },

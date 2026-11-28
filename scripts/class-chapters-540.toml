@@ -582,3 +582,8 @@ gap_stop = "Vigilante Favored Class Options"
 lead_key = "vigilante-favored-class-options"
 lead_title = "Vigilante Favored Class Options"
 key_marks = ["vigilante-talent"]
+
+# The Gunslinger's two ways to regain grit (Ultimate Combat p. 10) are run-in sub-heads of Grit that the class table does not list: heads and keys stay, they are no class features.
+[[class]]
+id = "ref/class/gunslinger"
+not_features = ["critical-hit-with-a-firearm", "killing-blow-with-a-firearm"]

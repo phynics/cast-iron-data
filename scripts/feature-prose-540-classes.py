@@ -106,7 +106,8 @@ def is_table_para(text: str) -> bool:
 
 def end_index(blocks: list, win: list) -> int:
     """The place in `blocks` of the last block of the window. The window's last block may be a new one (two paragraphs that a table split are joined, or the cell of the
-    table is cut off its start): then it is found by its first words, and by the blocks after it whose words it holds (Ultimate Intrigue: the Vigilante's Vengeance Strike)."""
+    table is cut off its start): then it is found by its first words, and by the blocks after it whose words it holds (Ultimate Intrigue: the Vigilante's Vengeance Strike).
+    A block that is in no block of the page is an error (ValueError), not the start of the page."""
     if not win:
         return 0
     if win[-1] in blocks:
@@ -116,7 +117,7 @@ def end_index(blocks: list, win: list) -> int:
     head = text[:30]
     start = next((n for n, b in enumerate(blocks) if head and (head in norm(b) or (len(norm(b)) >= 12 and text.startswith(norm(b))))), None)
     if start is None:
-        return 0
+        raise ValueError(f"the last block of the window is in no block of the page: {text[:60]!r}")       # a silent 0 would make the whole page the gap
     end = start
     while end + 1 < len(blocks) and blocks[end + 1].kind == "para" and norm(blocks[end + 1]) and norm(blocks[end + 1]) in text:
         end += 1
@@ -1458,7 +1459,8 @@ NOT_FEATURE_HEADINGS = {fp.squash(x) for x in (
     "Weapon and Armor Proficiency", "Skills", "Alignment", "Weapon and Armor Proficiencies", "Weapon Proficiencies", "Armor Proficiency", "Armor Proficiencies",
     "Skill Ranks per Level", "Class Skills", "Armor Proficiency and Class Skills")}
 # Level-4 sections that print sets behind the class features: sections of the page, no class features: (class entry, key)
-NOT_CLASS_FEATURES = {(c["id"], fp.slugify(t)) for c in MANIFEST.get("class", []) for t in c.get("sections_behind", [])} | set(BOX_HEADS)        # the manifest's `sections_behind`: the Antipaladin's and the Paladin's
+NOT_CLASS_FEATURES = ({(c["id"], fp.slugify(t)) for c in MANIFEST.get("class", []) for t in c.get("sections_behind", [])} | set(BOX_HEADS)
+                      | {(c["id"], k) for c in MANIFEST.get("class", []) for k in c.get("not_features", [])})        # `[[class]] not_features`: heads that are run-in sub-heads of a feature, not features        # the manifest's `sections_behind`: the Antipaladin's and the Paladin's
 LEVEL_LEAD = re.compile(r"^(?:starting at |beginning at |starting with |at )(\d+)(?:st|nd|rd|th)\s+level\b", re.I)
 
 
@@ -1829,6 +1831,20 @@ def self_test() -> int:
     eq(end_index([pa, pb, pc], [joined]), 1, "the window's last block is two blocks that a table split: the end is the second")
     eq(end_index([pa, pb, pc], [pc]), 2, "the last block of the window is a block of the page")
     eq(end_index([pa, pb, pc], []), 0, "no window, no end")
+    try:
+        end_index([pa, pb], [fp.Para("para", [("A block that the page does not have at all.", False, False)], 1, 0, 0)])
+        raised_ = False
+    except ValueError:
+        raised_ = True
+    eq(raised_, True, "a window block that is in no block of the page is an error, not the start of the page")
+    ft_ = fp.Para("title", [("Class Features", True, False)], 1, 0, 18)
+    para_ = lambda t: fp.Para("para", [(t, False, False)], 1, 0, 0)
+    ttl_ = lambda t, size: fp.Para("title", [(t, True, False)], 1, 0, size)
+    got_ = [b.plain() for b in window([ft_, para_("One paragraph of the first feature."), ttl_("Optional Rule: Daring Act", 24), para_("A paragraph of the box."), ttl_("Table 1-1: Gunslinger", 24),
+                                       para_("Text after the tables."), ttl_("Ninja", 33), para_("Text of the next class.")])]
+    eq(got_, ["One paragraph of the first feature.", "Optional Rule: Daring Act", "A paragraph of the box.", "Text after the tables."],
+       "a title of 24 (a box; a table title is dropped) does not end the window, a title of 33 does")
+    eq([b.plain() for b in window([ft_, para_("Text."), ttl_("Another Title", 32), para_("After.")])], ["Text.", "Another Title", "After."], "a title of 32 is no class title: it does not end the window")
     plan_ = {"region": (5, 7), "items": [{"key": "grit", "head": "Grit (Ex)", "print": "Text.", "status": "print", "notes": []}], "opening": ("Class Features", "The following are class features.")}
     body_ = "Intro.\n\n### Class Features\n\n|Level|\n| --- |\n|1st|\n\n#### Grit (Ex) {#grit}\n\nOld.\n\n### Alternate Capstones\n"
     out_ = converted_body(body_, {**plan_, "region": (7, 11)}).split("\n")
