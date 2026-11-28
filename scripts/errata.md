@@ -50,7 +50,7 @@ a field, no leading or trailing white space.
 | `decision` | The corpus holds | `kept_value` | Allowed `class` |
 |---|---|---|---|
 | `print` | the printed value | empty | `import-error`, `paraphrase`, `unknown` |
-| `keep` | a value that differs from print | the kept text | `errata` only, and `evidence` starts with "Paizo errata for " |
+| `keep` | a value that differs from print | the kept text | `errata` only, and `evidence` starts with "Paizo errata for " or, when the library has no document for a later printing that the corpus follows (owner ruling 68, the Shifter), "Later printing of " |
 | `misprint-fix` | the corrected value | the corrected text | `misprint` only |
 
 A `print` row of class `unknown` is a ruling without evidence: a later errata document reopens it.
