@@ -19,123 +19,89 @@ page = "10"
 [fields]
 kind = "class_option"
 group = "arcane-school"
+features = [
+  { anchor = "forewarned" },
+  { anchor = "diviner-s-fortune" },
+  { anchor = "scrying-adept", level = 8 },
+]
 +++
 
 Diviners are masters of remote viewing, prophecies, and using magic to explore the world.
 
-**Forewarned (Su)**
+## Forewarned (Su) {#forewarned}
 
-**Gained:** At 1st Level
+You can always act in the surprise round even if you fail to make a Perception roll to notice a foe,
+but you are still considered [flat-footed](ref/rule/flat-footed) until you take an action. In
+addition, you receive a bonus on initiative checks equal to 1/2 your wizard level (minimum +1). At
+20th level, anytime you roll initiative, assume the roll resulted in a natural 20.
 
-**Passive:** You can always act in the surprise round even if you fail to make a Perception roll to
-notice a foe, but you are still considered [flat-footed](ref/rule/flat-footed) until you take an
-action. In addition, you receive a bonus on initiative checks equal to 1/2 your wizard level
-(minimum +1).
+## Diviner's Fortune (Sp) {#diviner-s-fortune}
 
-**At 20th level,** anytime you roll initiative, assume the roll resulted in a natural 20.
+When you activate this school power, you can touch any creature as a standard action to give it an
+insight bonus on all of its attack rolls, skill checks, ability checks, and saving throws equal to
+1/2 your wizard level (minimum +1) for 1 round. You can use this ability a number of times per day
+equal to 3 + your Intelligence modifier.
 
-**Diviner's Fortune (Sp)**
+## Scrying Adept (Su) {#scrying-adept}
 
-**Gained:** At 1st Level
-
-**Standard:** When you activate this school power, you can touch any creature to give it an insight
-bonus on all of its attack rolls, skill checks, ability checks, and saving throws equal to 1/2 your
-wizard level (minimum +1) for 1 round.
-
-**Usage:** 3 + Intelligence modifier times/day
-
-**Scrying Adept (Su)**
-
-**Gained:** At 8th Level
-
-**Passive:** You are always aware when you are being observed via magic, as if you had a permanent
-[detect scrying](ref/spell/detect-scrying). In addition, whenever you [scry](ref/spell/scrying) on a
-subject, treat the subject as one step more familiar to you. Very familiar subjects get a -10
+At 8th level, you are always aware when you are being observed via magic, as if you had a permanent
+_[detect scrying](ref/spell/detect-scrying)_. In addition, whenever you [scry](ref/spell/scrying) on
+a subject, treat the subject as one step more familiar to you. Very familiar subjects get a -10
 penalty on their save to avoid your scrying attempts.
 
-### Foresight School
+## Foresight School {#sec-foresight-school}
 
 **Associated School:** Divination.
 
-**Replacement Powers:** The following school powers replace the _diviner's fortune_ and _scrying
-adept_ powers of the divination school.
+**Replacement Powers:** The following school powers replace the diviner's fortune and scrying adept
+powers of the divination school.
 
-**Prescience (Su)**
+**Prescience (Su):** At the beginning of your turn, you may, as a free action, roll a single d20. At
+any point before your next turn, you may use the result of this roll as the result of any d20 roll
+you are required to make. If you do not use the d20 result before your next turn, it is lost. You
+can use this ability a number of times per day equal to 3 + your Intelligence modifier.
 
-**Gained:** At 1st Level
+**Foretell (Su):** At 8th level, you can utter a prediction of the immediate future. While your
+foretelling is in effect, you emit a 30-foot aura of fortune that aids your allies or hinders your
+enemies, as chosen by you at the time of prediction. If you choose to aid, you and your allies gain
+a +2 luck bonus on ability checks, attack rolls, caster level checks, saving throws, and skill
+checks. If you choose to hinder, your enemies take a -2 penalty on those rolls instead. You can use
+this ability for a number of rounds per day equal to your wizard level. These rounds do not need to
+be consecutive.
 
-**Free:** At the beginning of your turn, you may roll a single d20. At any point before your next
-turn, you may use the result of this roll as the result of any d20 roll you are required to make. If
-you do not use the d20 result before your next turn, it is lost.
+## Scryer School {#sec-scryer-school}
 
-**Usage:** 3 + Intelligence modifier times/day
+**Associated School:** Divination.
 
-**Foretell (Su)**
+**Replacement Power:** The following school power replaces the diviner's fortune power of the
+divination school.
 
-**Gained:** At 8th Level
+**Send Senses (Sp):** As a standard action, you place a scrying sensor at a point within medium
+range (100 feet + 10 feet/wizard level) that you can see and have line of effect to. You can see or
+hear (not both) through this sensor for number of rounds equal to 1/2 your wizard level (minimum 1).
+The sensor otherwise functions as a _clairaudience/clairovoyance_ spell with a caster level equal to
+your wizard level. You can use this ability a number of times per day equal to 3 + your Intelligence
+modifier.
 
-**Standard:** You can utter a prediction of the immediate future. While your foretelling is in
-effect, you emit a 30-foot aura of fortune that aids your allies or hinders your enemies, as chosen
-by you at the time of prediction.
-
-If you choose to aid, you and your allies gain a +2 luck bonus on ability checks, attack rolls,
-caster level checks, saving throws, and skill checks.
-
-If you choose to hinder, your enemies take a -2 penalty on those rolls instead.
-
-**Usage:** A number of rounds per day equal to your wizard level. These rounds do not need to be
-consecutive.
-
-### Prophecy School
+## Prophecy School (Focused Arcane School) {#sec-prophecy-school}
 
 Prophets who specialize in arcane magic often claim specialty in manipulating the powers of luck to
-their advantage.
+their advantage. This follows the rules for focused arcane schools found on page 143 of the
+_Pathfinder RPG Advanced Player's Guide_.
 
 **Associated School:** Divination.
 
-**Replacement Powers:** The following replace the _forewarned_ and _scrying adept_ powers of the
+**Replacement Powers:** The following replace the forewarned and scrying adept powers of the
 divination school.
 
-**Inspiring Prediction (Su)**
+**Inspiring Prediction (Su):** A number of times per day equal to 3 + your Intelligence modifier,
+you can predict an ally's success, bolstering others' resolve. As a swift action, you can shout an
+inspiring prediction, granting each ally within 50 feet who can hear you a +4 luck bonus on her next
+attack roll, saving throw, or skill check.
 
-**Gained:** At 1st Level
-
-**Swift:** You can predict an ally's success, bolstering others' resolve. You can shout an inspiring
-prediction, granting each ally within 50 feet who can hear you a +4 luck bonus on her next attack
-roll, saving throw, or skill check.
-
-**Usage:** 3 + Intelligence modifier times/day
-
-**In Accordance with the Prophecy (Su)**
-
-**Gained:** At 1st Level
-
-**Standard:** You can publicly declare that your next spell is guided by prophecy. When you do, the
-next spell you cast has a 20% chance of fizzling (1-20 on a d%). If the spell does not fail, treat
-the spell as if it had been modified by the [Empower Spell](ref/feat/empower-spell) feat, even if
-you do not have that feat.
-
-**Usage:** Int modifier times/day
-
-**At 12th level,** the chance that the spell fizzles is reduced to 15% (1-15 on a d%).
-
-**At 16th level,** the chance is reduced to 10% (1-10 on a d%).
-
-### Scryer School
-
-**Associated School:** Divination.
-
-**Replacement Powers:** The following school power replaces the _diviner's fortune_ power of the
-divination school.
-
-**Send Senses (Sp)**
-
-**Gained:** At 1st Level
-
-**Standard:** You place a scrying sensor at a point within medium range (100 feet + 10 feet/wizard
-level) that you can see and have line of effect to. You can see or hear (not both) through this
-sensor for number of rounds equal to 1/2 your wizard level (minimum 1). The sensor otherwise
-functions as a [clairaudience/clairvoyance](ref/spell/clairaudience-clairvoyance) spell with a
-caster level equal to your wizard level.
-
-**Usage:** 3 + Intelligence modifier times/day
+**In Accordance with the Prophecy (Su):** A number of times per day equal to your Intelligence
+modifier, you can publicly declare that your next spell is guided by prophecy. When you do, the next
+spell you cast has a 20% chance of fizzling (1–20 on a d%). If the spell does not fail, treat the
+spell as if it had been modified by the [Empower Spell](ref/feat/empower-spell) feat, even if you do
+not have that feat. At 12th level, the chance that the spell fizzles is reduced to 15% (1–15 on a
+d%). At 16th level, the chance is reduced to 10% (1–10 on a d%).

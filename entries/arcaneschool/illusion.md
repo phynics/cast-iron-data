@@ -22,135 +22,140 @@ page = "29"
 [fields]
 kind = "class_option"
 group = "arcane-school"
+features = [
+  { anchor = "extended-illusions" },
+  { anchor = "blinding-ray" },
+  { anchor = "invisibility-field", level = 8 },
+]
 +++
 
 Illusionists use magic to weave confounding images, figments, and phantoms to baffle and vex their
 foes.
 
-**Extended Illusions (Su)**
+## Extended Illusions (Su) {#extended-illusions}
 
-**Gained:** At 1st Level
+Any illusion spell you cast with a duration of "concentration" lasts a number of additional rounds
+equal to 1/2 your wizard level after you stop maintaining concentration (minimum +1 round). At 20th
+level, you can make one illusion spell with a duration of "concentration" become permanent. You can
+have no more than one illusion made permanent in this way at one time. If you designate another
+illusion as permanent, the previous permanent illusion ends.
 
-**Ability:** Any illusion spell you cast with a duration of "concentration" lasts a number of
-additional rounds equal to 1/2 your wizard level after you stop maintaining concentration (minimum
-+1 round).
+## Blinding Ray (Sp) {#blinding-ray}
 
-**At 20th level,** you can make one illusion spell with a duration of "concentration" become
-permanent. You can have no more than one illusion made permanent in this way at one time. If you
-designate another illusion as permanent, the previous permanent illusion ends.
+As a standard action you can fire a shimmering ray at any foe within 30 feet as a ranged touch
+attack. The ray causes creatures to be [blinded](ref/misc/blinded) for 1 round. Creatures with more
+Hit Dice than your wizard level are [dazzled](ref/misc/dazzled) for 1 round instead. You can use
+this ability a number of times per day equal to 3 + your Intelligence modifier.
 
-**Blinding Ray (Sp)**
+## Invisibility Field (Sp) {#invisibility-field}
 
-**Gained:** At 1st Level
+At 8th level, you can make yourself invisible as a swift action for a number of rounds per day equal
+to your wizard level. These rounds do not need to be consecutive. This otherwise functions as
+_[greater invisibility](ref/spell/invisibility-greater)_.
 
-**Standard:** You can fire a shimmering ray at any foe within 30 feet as a ranged touch attack. The
-ray causes creatures to be [blinded](ref/misc/blinded) for 1 round. Creatures with more Hit Dice
-than your wizard level are [dazzled](ref/misc/dazzled) for 1 round instead.
+## Deception School (Focused Arcane School) {#sec-deception-school}
 
-**Usage:** 3 + Intelligence modifier times/day
-
-**Invisibility Field (Sp)**
-
-**Gained:** At 8th Level
-
-**Swift:** You can make yourself invisible. This otherwise functions as
-[greater invisibility](ref/spell/invisibility-greater).
-
-**Usage:** 1 time/day per wizard level
-
-### Deception School
+Some illusionists rely more on their natural talents and less on flashy figments. Focused arcane
+schools (_Pathfinder RPG Advanced Player's Guide_ 143) replace one or more powers granted by a
+wizard's arcane school.
 
 **Associated School:** Illusion.
 
 **Replacement Powers:** The following school powers replace the
-_[blinding ray](ref/spell/blinding-ray)_ and _extended illusions_ powers of the illusion school.
+[blinding ray](ref/spell/blinding-ray) and extended illusions powers of the illusion school.
 
-**Deceptive Flourish-Bonus (Su)**
+**Deceptive Flourish (Su):** You gain a +2 enhancement bonus on Bluff and Disguise skill checks.
+This bonus increases by 1 for every 5 wizard levels you have, up to a maximum of +6 at 20th level.
+At 20th level, you gain the benefits of _misdirection_ (Will DC = 20 + your Intelligence modifier)
+or _nondetection_ permanently. At will as a standard action, you can change which of the two spells
+is active, and each time you activate _misdirection_, you can choose a new creature or object as the
+secondary object.
 
-**Gained:** At 1st Level
+**Subtle Misdirection (Sp):** As a standard action, you can touch a creature or an object that
+weighs no more than 25 pounds per caster level to impart an illusory ward that lasts for 1 minute.
+Attacks against a warded creature suffer a 20% miss chance, and the ward ends once it negates an
+attack. The DC of any caster level check, skill check, or saving throw to detect or determine the
+properties of a warded item increases by 1, plus 1 for every 5 wizard levels you have. You can use
+this ability a number of times per day equal to 3 + your Intelligence modifier.
 
-**Passive:** You gain an enhancement bonus on Bluff and Disguise skill checks. This bonus is equal
-to 2 + one-fifth of your wizard level.
-
-**At 20th level,** you gain the benefits of [misdirection](ref/spell/misdirection) (Will DC = 20 +
-your Intelligence modifier) or [nondetection](ref/spell/nondetection) permanently. At will as a
-**standard action**, you can change which of the two spells is active, and each time you activate
-_[misdirection](ref/spell/misdirection),_ you can choose a new creature or object as the secondary
-object.
-
-**Subtle Misdirection (Sp)**
-
-**Gained:** At 1st Level
-
-**Standard:** You can touch a creature or an object that weighs no more than 25 pounds per caster
-level to impart an illusory ward that lasts for 1 minute. Attacks against a warded creature suffer a
-20% miss chance, and the ward ends once it negates an attack. The DC of any caster level check,
-skill check, or saving throw to detect or determine the properties of a warded item increases by 1,
-plus 1 for every 5 wizard levels you have.
-
-**Usage:** 3 + Intelligence modifier times/day
-
-### Phantasm School
+## Phantasm School {#sec-phantasm-school}
 
 **Associated School:** Illusion.
 
-**Replacement Powers:** The following school powers replace the
-_[blinding ray](ref/spell/blinding-ray)_ and _invisibility field_ powers of the illusion school.
+**Replacement Powers:** The following school powers replace the blinding ray and invisibility field
+powers of the illusion school.
 
-**Terror (Su)**
+**Terror (Su):** As a standard action, you can make a melee touch attack that causes a creature to
+be assailed by nightmares only it can see. The creature provokes an attack of opportunity from you
+or an ally of your choice. Creatures with more Hit Dice than your wizard level are unaffected. This
+is a mind-affecting fear effect. You can use this ability a number of times per day equal to 3 +
+your Intelligence modifier.
 
-**Gained:** At 1st Level
+**Bedeviling Aura (Su):** At 8th level, you can emit a 30-foot aura that bedevils your enemies with
+phantasmal assailants. Enemies within this aura move at half speed, are unable to take attacks of
+opportunity, and are considered to be [flanked](ref/rule/flanking). This is a mind-affecting effect.
+You can use this ability for a number of rounds per day equal to your wizard level. These rounds do
+not need to be consecutive.
 
-**Standard:** You can make a melee touch attack that causes a creature to be assailed by nightmares
-only it can see. The creature provokes an attack of opportunity from you or an ally of your choice.
-Creatures with more Hit Dice than your wizard level are unaffected. This is a mind-affecting fear
-effect.
+## Shadow School {#sec-shadow-school}
 
-**Usage:** 3 + Intelligence modifier times/day
+**Associated School:** Illusion.
 
-**Bedeviling Aura (Su)**
+**Replacement Powers:** The following school powers replace the blinding ray and invisibility field
+powers of the illusion school.
 
-**Gained:** At 8th Level
+**Binding Darkness (Sp):** As a standard action, you cast a weave of shadows at any foe within 30
+feet as a ranged touch attack. The shadows [entangle](ref/rule/entangled) your foe for 1 round plus
+1 additional round for every five wizard levels you possess. In conditions of bright light, this
+duration is halved (minimum 1 round). A creature entangled by your shadows has
+[concealment](ref/rule/concealment) from those without [darkvision](ref/rule/darkvision) or the
+ability to see in darkness, and other creatures likewise have concealment relative to it. You can
+use this ability a number of times per day equal to 3 + your Intelligence modifier.
 
-**Standard:** You can emit a 30-foot aura that bedevils your enemies with phantasmal assailants.
-Enemies within this aura move at half speed, are unable to take attacks of opportunity, and are
-considered to be [flanked](ref/rule/flanking). This is a mind-affecting effect.
+**Shadow Step (Sp):** At 8th level, you can use this ability to walk through the
+[Shadow Plane](ref/rule/shadow-plane) and reappear as a standard action. You can travel up to 30
+feet per wizard level per day in this fashion, either in a single round or broken up across multiple
+shadow steps. This movement must be used in 5-foot increments and does not provoke an attack of
+opportunity. Travel through the Shadow Plane is imprecise; when you arrive, you re-enter 1 square
+off target, as per the rules for [thrown splash weapons](ref/rule/throw-splash-weapon) (see page 202
+of the _Pathfinder RPG Core Rulebook_). If this would place you in an occupied square, you instead
+arrive in the nearest safe location. When you arrive, you are cloaked in shadow and gain concealment
+as the _[blur](ref/spell/blur)_ spell for 1 round. You may bring other willing creatures with you,
+but you must expend an equal amount of distance for each additional creature brought with you. They
+likewise re-enter off target (roll location for each creature) and are cloaked in shadow for 1
+round.
 
-**Usage:** 1 time/day per wizard level
-
-### Qadira: Mage of the Veil School
+## Qadira: Mage Of The Veil {#sec-qadira-mage-of-the-veil-school}
 
 The city of Katheer is home to a great number of arcane colleges in the Qadiran tradition. Magic has
 a proud history in this land; its many schools compete with one another to find the best route to
 understanding the secrets of power.
 
 Among these is the focused school of veil magic. Rather than controlling the elements or
-transforming the environment, mages of the veil focus on much more subtle magic - blending into
-their surroundings to watch, observe, and gather secrets, or fading from view completely for the
-sake of solitude. Most graduates of this college enter the service of the satrap as spies, scouts,
-or infiltrators.
-
-**Requirements:** A mage of the veil must select [disguise self](ref/spell/disguise-self) as one of
-his spells known at 1st level.
-
-**Class Skills:** A mage of the veil gains Bluff, Disguise, and Stealth as class skills.
+transforming the environment, mages of the veil focus on much more subtle magic—blending into their
+surroundings to watch, observe, and gather secrets, or fading from view completely for the sake of
+solitude. Most graduates of this college enter the service of the satrap as spies, scouts, or
+infiltrators.
 
 **Associated School:** Illusion.
 
+**Requirements:** A mage of the veil must select _disguise self_ as one of his spells known at 1st
+level.
+
+**Class Skills:** A mage of the veil gains Bluff, Disguise, and Stealth as class skills.
+
 **Replacement Powers:** The following school powers replace the
-_[blinding ray](ref/spell/blinding-ray)_ and _invisibility field_ powers of the illusion school.
+[blinding ray](ref/spell/blinding-ray) and invisibility field powers of the illusion school.
 
-**Face in the Crowd (Sp)**
-
-**Gained:** At 1st Level
-
-**Standard:** You can cause yourself to appear so normal, mundane, and unexceptional that you blend
-in to your surroundings. All creatures within 30 feet treat you as if you belonged there,
-effectively ignoring you. Creatures outside of this area may notice that you appear out of place,
-but as soon as they approach within 30 feet they are affected by the magic and no longer think
-something is amiss. If you interact with an affected creature in any way, it gains a Will save (DC
-10 + 1/2 your wizard level + your Intelligence modifier) to disbelieve the illusion and notice you.
-This is a mind-affecting phantasm effect.
+**Face in the Crowd (Sp):** At 1st level as a standard action, you can cause yourself to appear so
+normal, mundane, and unexceptional that you blend in to your surroundings. All creatures within 30
+feet treat you as if you belonged there, effectively ignoring you. Creatures outside of this area
+may notice that you appear out of place, but as soon as they approach within 30 feet they are
+affected by the magic and no longer think something is amiss. If you interact with an affected
+creature in any way, it gains a Will save (DC 10 + 1/2 your wizard level + your Intelligence
+modifier) to disbelieve the illusion and notice you. The effect lasts for a number of minutes equal
+to your wizard level, or until the illusion is dispelled. The minutes do not need to be consecutive,
+but must be used in 1-minute increments. This is a mind-affecting phantasm effect.
 
 This ability does not turn you invisible and opponents are not considered
 [flat-footed](ref/rule/flat-footed). It does not allow you to disguise yourself as a specific
@@ -161,53 +166,7 @@ such as a crowd of courtiers in a king's throne room, and you can disguise yours
 magic or more mundane means) to appear as a specific type of person or another race (such as a
 uniformed guard or a gnoll) before using this ability.
 
-**Usage:** 1 minute/day per wizard level; these minutes need not be consecutive, but must be spent
-in 1-minute increments
-
-**Master of the Veil (Sp)**
-
-**Gained:** At 8th Level
-
-**Standard:** You can create an illusion that hides the appearance of yourself and any number of
-allies within 30 feet. This ability otherwise functions like the spell [veil](ref/spell/veil).
-
-**Usage:** 1 time/day per wizard level
-
-### Shadow School
-
-**Associated School:** Illusion.
-
-**Replacement Powers:** The following school powers replace the
-_[blinding ray](ref/spell/blinding-ray)_ and _invisibility field_ powers of the illusion school.
-
-**Binding Darkness (Sp)**
-
-**Gained:** At 1st Level
-
-**Standard:** You cast a weave of shadows at any foe within 30 feet as a ranged touch attack. The
-shadows [entangle](ref/rule/entangled) your foe for a number of rounds equal to 1 +
-[one-fifth](ref/misc/fractions-and-rounding) of your wizard level. In conditions of bright light,
-this duration is halved (minimum 1 round). A creature entangled by your shadows has
-[concealment](ref/rule/concealment) from those without [darkvision](ref/rule/darkvision) or the
-ability to see in darkness, and other creatures likewise have concealment relative to it.
-
-**Usage:** 3 + Intelligence modifier times/day
-
-**Shadow Step (Sp)**
-
-**Gained:** At 8th Level
-
-**Standard:** You can use this ability to walk through the [Shadow Plane](ref/rule/shadow-plane) and
-reappear. You can travel either in a single round or broken up across multiple shadow steps. Travel
-through the Shadow Plane is imprecise; when you arrive, you re-enter 1 square off target, as per the
-rules for [thrown splash weapons](ref/rule/throw-splash-weapon). If this would place you in an
-occupied square, you instead arrive in the nearest safe location. When you arrive, you are cloaked
-in shadow and gain concealment as the [blur](ref/spell/blur) spell for 1 round. You may bring other
-willing creatures with you, but you must expend an equal amount of distance for each additional
-creature brought with you. They likewise re-enter off target (roll location for each creature) and
-are cloaked in shadow for 1 round.
-
-**Usage:** You have 30 feet of travel per wizard level you can use per day. This movement must be
-used in 5-foot increments.
-
-**Provokes attack of opportunity:** No
+**Master of the Veil (Sp):** At 8th level, you can create an illusion that hides the appearance of
+yourself and any number of allies within 30 feet for 1 round per wizard level. This ability
+otherwise functions like the spell _[veil](ref/spell/veil)_. The rounds do not need to be
+consecutive.

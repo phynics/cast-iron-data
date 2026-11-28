@@ -16,99 +16,77 @@ page = "144"
 [fields]
 kind = "class_option"
 group = "arcane-school"
+features = [
+  { anchor = "resistance" },
+  { anchor = "protective-ward" },
+  { anchor = "energy-absorption", level = 6 },
+]
 +++
 
 The abjurer uses magic against itself, and masters the art of defensive and warding magics.
 
-**Resistance (Ex)**
+## Resistance (Ex) {#resistance}
 
-**Gained:** At 1st Level
-
-**Passive:** You gain [resistance](ref/umr/resistance) 5 to an energy type of your choice, chosen
-when you prepare spells. This resistance can be changed each day.
-
-**At 11th level,** this resistance increases to 10.
-
-**At 20th level,** this resistance changes to [immunity](ref/umr/immunity) to the chosen energy
+You gain [resistance](ref/umr/resistance) 5 to an energy type of your choice, chosen when you
+prepare spells. This resistance can be changed each day. At 11th level, this resistance increases
+to 10. At 20th level, this resistance changes to [immunity](ref/umr/immunity) to the chosen energy
 type.
 
-**Protective Ward (Su)**
+## Protective Ward (Su) {#protective-ward}
 
-**Gained:** At 1st Level
+As a standard action, you can create a 10-foot-radius field of protective magic centered on you that
+lasts for a number of rounds equal to your Intelligence modifier. All allies in this area (including
+you) receive a +1 deflection bonus to their AC. This bonus increases by +1 for every five wizard
+levels you possess. You can use this ability a number of times per day equal to 3 + your
+Intelligence modifier.
 
-**Standard:** As a standard action, you can create a 10-foot-radius field of protective magic
-centered on you that lasts for a number of rounds equal to your Intelligence modifier. All allies in
-this area (including you) receive a deflection bonus to their AC. This bonus is equal to 1 +
-one-fifth of your wizard level.
+## Energy Absorption (Su) {#energy-absorption}
 
-**Usage:** 3 + Intelligence modifier times/day
-
-**Energy Absorption (Su)**
-
-**Gained:** At 6th Level
-
-**Passive:** You gain an amount of energy absorption equal to 3 × your wizard level per day.
+At 6th level, you gain an amount of energy absorption equal to 3 times your wizard level per day.
 Whenever you take energy damage, apply immunity, vulnerability (if any), and resistance first and
 apply the rest to this absorption, reducing your daily total by that amount. Any damage in excess of
 your absorption is applied to you normally.
 
-### Banishment School
+## Banishment School {#sec-banishment-school}
 
 **Associated School:** Abjuration.
 
-**Replacement Powers:** The following school powers replace the _energy absorption_ power and the
-_protective ward_ power of the abjuration school.
+**Replacement Powers:** The following school powers replace the energy absorption power and the
+protective ward power of the abjuration school.
 
-**Unstable Bonds (Su)**
+**Unstable Bonds (Su):** At 1st level, your touch can disrupt the bonds that hold a summoned or
+called creature on this plane. As a melee touch attack, you can cause a summoned or called creature
+to become [shaken](ref/misc/shaken) and [staggered](ref/misc/staggered) for a number of rounds equal
+to 1/2 your wizard level (minimum 1). You can use this ability a number of times per day equal to
+3 + your Intelligence modifier.
 
-**Gained:** At 1st Level
+**Aura of Banishment (Su):** At 8th level, you can emit a 30-foot aura of banishment for a number of
+rounds per day equal to your wizard level. Any summoned or called creature in the area must make a
+Will save each round. Once the creature fails a Will saving throw, it is staggered as long as it
+remains inside the aura. If it fails a second Will saving throw, it is immediately sent back to its
+home plane and the spell that summoned it immediately ends. If that spell summoned more than one
+creature, only the creature that failed its saving throws is affected. These rounds do not need to
+be consecutive.
 
-**Ability:** As a melee touch attack, you can cause a summoned or called creature to become
-[shaken](ref/misc/shaken) and [staggered](ref/misc/staggered) for a number of rounds equal to 1/2
-your wizard level (minimum 1).
-
-**Usage:** 3 + Intelligence modifier times/day
-
-**Aura of Banishment (Su)**
-
-**Gained:** At 8th Level
-
-**Standard:** You can emit a 30-foot aura of banishment. Any summoned or called creature in the area
-must make a Will save each round. Once the creature fails a Will saving throw, it is staggered as
-long as it remains inside the aura. If it fails a second Will saving throw, it is immediately sent
-back to its home plane and the spell that summoned it immediately ends. If that spell summoned more
-than one creature, only the creature that failed its saving throws is affected.
-
-**Usage:** 1 time/day per wizard level
-
-### Counterspell School
+## Counterspell School {#sec-counterspell-school}
 
 **Associated School:** Abjuration.
 
-**Replacement Powers:** The following school powers replace the _protective ward_ power and the
-_energy absorption_ power of the abjuration school.
+**Replacement Powers:** The following school powers replace the protective ward power and the energy
+absorption power of the abjuration school.
 
-**Disruption (Su)**
-
-**Gained:** At 1st Level
-
-**Ability:** As a melee touch attack, you can place a field around the target that disrupts
-spellcasting. While the field is in place, the target must make a
-[concentration](ref/rule/concentration) check to cast any spell or to use a
+**Disruption (Su):** At 1st level, you gain the ability to disrupt spellcasting with a touch. As a
+melee touch attack, you can place a disruptive field around the target. While the field is in place,
+the target must make a [concentration](ref/rule/concentration) check to cast any spell or to use a
 [spell-like ability](ref/umr/spell-like-abilities) in addition to any other required concentration
 checks. The DC of this check is equal to 15 + twice the spell's level. If the check is failed, the
 target's spell is wasted. This field lasts for a number of rounds equal to 1/2 your wizard level
-(minimum 1).
+(minimum 1). You can use this ability a number of times per day equal to 3 + your Intelligence
+modifier.
 
-**Usage:** 3 + Intelligence modifier times/day
-
-**Counterspell Mastery**
-
-**Gained:** At 6th Level
-
-**Ability:** You gain [Improved Counterspell](ref/feat/improved-counterspell) as a bonus feat.
-
-**Immediate:** You may attempt to counterspell an opponent's spell. You must use a spell at least
-one level higher than the spell being countered to use this ability.
-
-**Usage:** 1 time/day + 1 per 4 wizard levels beyond 6th
+**Counterspell Mastery (Su):** At 6th level, you gain
+[Improved Counterspell](ref/feat/improved-counterspell) as a bonus feat. You may attempt to
+counterspell an opponent's spell once per day as an immediate action (instead of a readied action).
+You must use a spell at least one level higher than the spell being countered to use this ability.
+You can use this ability once per day at 6th level, plus one additional time per day for every 4
+levels beyond 6th.
