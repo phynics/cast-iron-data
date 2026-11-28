@@ -19,6 +19,20 @@ kind = "class"
 class_type = "unchained"
 hit_die = "d8"
 skill_ranks = "8 + Int modifier"
+features = [
+  { anchor = "sneak-attack", level = 1 },
+  { anchor = "trapfinding", level = 1 },
+  { anchor = "finesse-training", level = 1 },
+  { anchor = "evasion", level = 2 },
+  { anchor = "rogue-talents", level = 2 },
+  { anchor = "danger-sense", level = 3 },
+  { anchor = "debilitating-injury", level = 4 },
+  { anchor = "uncanny-dodge", level = 4 },
+  { anchor = "rogue-s-edge", level = 5 },
+  { anchor = "improved-uncanny-dodge", level = 8 },
+  { anchor = "advanced-talents", level = 10 },
+  { anchor = "master-strike", level = 20 },
+]
 +++
 
 Thief, sneak, charmer, diplomat - all of these and more describe the rogue. When not skulking in the
@@ -82,187 +96,268 @@ Linguistics
 |19th|+14/+9/+4|+6|+11|+6|Finesse training, sneak attack +10d6|
 |20th|+15/+10/+5|+6|+12|+6|Master strike, rogue talent, rogue's edge|
 
+The following are the class features of the rogue.
+
 #### Weapon and Armor Proficiencies {#weapon-and-armor-proficiencies}
 
-**Weapons:** All simple weapons, hand crossbow, rapier, sap, shortbow, short sword
-
-**Armor:** Light armor
-
-**Shields:** No
+Rogues are proficient with all simple weapons, plus the hand crossbow, rapier, sap, short sword, and
+shortbow. They are proficient with light armor, but not with shields.
 
 #### Sneak Attack {#sneak-attack}
 
-**Ability:** Your attack deals extra damage any time your target would be denied a Dexterity bonus
-to AC (whether the target actually has a Dexterity bonus or not), or when you
-[flank](ref/rule/flanking) your target. This extra damage is a number of d6s equal to 1 +
-[half](ref/misc/fractions-and-rounding) your rogue level. (1d6 at first, 2d6 at 3rd, 3d6 at 5th, and
-so on.) You must be able to see the target well enough to pick out a vital spot and must be able to
-reach such a spot. You cannot sneak attack while striking a creature with
+If a rogue can catch an opponent when he is unable to defend himself effectively from her attack,
+she can strike a vital spot for extra damage.
+
+The rogue's attack deals extra damage anytime her target would be denied a Dexterity bonus to AC
+(whether the target actually has a Dexterity bonus or not), or when the rogue flanks her target.
+This extra damage is 1d6 at 1st level, and increases by 1d6 every 2 rogue levels thereafter. Ranged
+attacks can count as sneak attacks only if the target is within 30 feet. This additional damage is
+precision damage and is not multiplied on a critical hit.
+
+With a weapon that deals nonlethal damage (such as a sap, unarmed strike, or whip), a rogue can make
+a sneak attack that deals nonlethal damage instead of lethal damage. She cannot use a weapon that
+deals lethal damage to deal nonlethal damage in a sneak attack—not even with the usual -4 penalty.
+
+The rogue must be able to see the target well enough to pick out a vital spot and must be able to
+reach such a spot. A rogue cannot sneak attack while striking a creature with total
 [concealment](ref/rule/concealment).
-
-**Flavor:** If a rogue can catch an opponent when he is unable to defend himself effectively from
-her attack, she can strike a vital spot for extra damage.
-
-**Gained:** At 1st Level
-
-**Special:** This additional damage is precision damage and is not multiplied on a critical hit.
-Ranged attacks can count as sneak attacks only if the target is within 30 feet. With a weapon that
-deals nonlethal damage (like a sap, whip, or an unarmed strike), you can make a sneak attack that
-deals nonlethal damage instead of lethal damage. You cannot use a weapon that deals lethal damage to
-deal nonlethal damage in a sneak attack, not even with the usual -4 penalty.
 
 #### Trapfinding {#trapfinding}
 
-**Gained:** At 1st Level
-
-**Passive:** You add 1/2 your level to Perception skill checks made to locate traps and to Disable
-Device skill checks (minimum +1). You can use Disable Device to disarm magic traps.
+A rogue adds 1/2 her level on Perception checks to locate traps and on Disable Device checks
+(minimum +1). A rogue can use Disable Device to disarm magic traps.
 
 #### Finesse Training (Ex) {#finesse-training}
 
-**Ability:** You gain [Weapon Finesse](ref/feat/weapon-finesse) as a bonus feat.
-
-**At 11th Level:** You choose a second weapon to also gain these benefits with.
-
-**At 19th Level:** You choose a third weapon to also gain these benefits with.
-
-**At 3rd Level:** You can select any one type of weapon that can be used with Weapon Finesse (such
-as rapiers or [daggers](ref/eq-weapon/dagger)). Once this choice is made, it cannot be changed.
-Whenever you make a successful melee attack with the selected weapon, you add your Dexterity
-modifier instead of your Strength modifier to the damage roll. If any effect would prevent you from
-adding your Strength modifier to the damage roll, you do not add your Dexterity modifier.
-
-**Gained:** At 1st Level
+At 1st level, a rogue gains [Weapon Finesse](ref/feat/weapon-finesse) as a bonus feat. In addition,
+starting at 3rd level, she can select any one type of weapon that can be used with Weapon Finesse
+(such as rapiers or [daggers](ref/eq-weapon/dagger)). Once this choice is made, it cannot be
+changed. Whenever she makes a successful melee attack with the selected weapon, she adds her
+Dexterity modifier instead of her Strength modifier to the damage roll. If any effect would prevent
+the rogue from adding her Strength modifier to the damage roll, she does not add her Dexterity
+modifier. The rogue can select a second weapon at 11th level and a third at 19th level.
 
 #### Evasion (Ex) {#evasion}
 
-**Gained:** At 2nd Level
-
-**Passive:** If you make a successful Reflex saving throw against an attack that normally deals half
-damage on a successful save, you instead take no damage. Evasion can be used only if the you are not
-[helpless](ref/misc/helpless) and are wearing light armor or no armor.
+At 2nd level, a rogue can avoid even magical and unusual attacks with great agility. If she succeeds
+at a Reflex saving throw against an attack that normally deals half damage on a successful save, she
+instead takes no damage. Evasion can be used only if the rogue is wearing light armor or no armor. A
+[helpless](ref/misc/helpless) rogue does not gain the benefit of evasion.
 
 #### Rogue Talents {#rogue-talents}
 
-**Ability:** You gain one unchained rogue talent. You gain an additional rogue talent at every
-even-numbered level (4th, 6th, 8th, and so on).
+As a rogue gains experience, she learns a number of talents that aid her and confound her foes.
+Starting at 2nd level, a rogue gains one rogue talent. She gains an additional rogue talent for
+every 2 levels of rogue attained after 2nd level. A rogue cannot select an individual talent more
+than once.
 
-**Flavor:** As a rogue gains experience, she learns a number of talents that aid her and confound
-her foes.
+Talents marked with an asterisk add effects to a rogue's sneak attack. Only one of these talents can
+be applied to an individual attack, and the decision must be made before the attack roll is made.
 
-**Gained:** At 2nd Level
+_Bleeding Attack_\* _(Ex)_: A rogue with this ability can cause living opponents to bleed by hitting
+them with a sneak attack. This attack causes the target to take 1 additional point of damage each
+round for each die of the rogue's sneak attack (e.g., 4d6 equals 4 points of bleed). Bleeding
+creatures take that amount of damage every round at the start of each of their turns. The bleeding
+can be stopped by a successful DC 15 Heal check or the application of any effect that heals hit
+point damage. Bleed damage from this ability does not stack with itself. Bleed damage bypasses any
+damage reduction the creature might possess.
 
-**Special:** You cannot select an individual talent more than once. Some talents add effects to your
-_sneak attack._ Only one of these talents can be applied to an individual _attack_ and the decision
-must be made before the attack roll is made.
+- [Certainty (Ex)](ref/talent/certainty)
+- [Coax Information (Ex)](ref/talent/coax-information-unchained-rogue)
+- [Combat Swipe](ref/talent/combat-swipe-unchained-rogue)
+- [Combat Trick](ref/talent/combat-trick)
+- [Expert Leaper (Ex)](ref/talent/expert-leaper-unchained-rogue)
+- [Fast Stealth (Ex)](ref/talent/fast-stealth)
+- [Follow Clues (Ex)](ref/talent/follow-clues)
+- [Lasting Poison (Ex)](ref/talent/lasting-poison-unchained-rogue)
+- [Ledge Walker (Ex)](ref/talent/ledge-walker-unchained-rogue)
+- [Multitalented (Ex)](ref/talent/multitalented)
+- [Nimble Climber (Ex)](ref/talent/nimble-climber)
+- [Powerful Sneak (Ex)](ref/talent/powerful-sneak-unchained-rogue)\*
+- [Quick Disable (Ex)](ref/talent/quick-disable-unchained-rogue)
+- [Rogue Crawl (Ex)](ref/talent/rogue-crawl-unchained-rogue)
+- [Slow Reactions (Ex)](ref/talent/slow-reactions)\*
+- [Stand Up (Ex)](ref/talent/stand-up-unchained-rogue)
+- [Surprise Attack (Ex)](ref/talent/surprise-attack-unchained-rogue)
+- [Terrain Mastery (Ex)](ref/talent/terrain-mastery)
+- [Trap Spotter (Ex)](ref/talent/trap-spotter)
+- [Weapon Training](ref/talent/weapon-training)
+
+##### Camouflage (Ex) {#camouflage}
+
+A rogue with this talent can craft simple but effective camouflage from the surrounding foliage. The
+rogue needs 1 minute to prepare the camouflage, but once she does, it is effective for the rest of
+the day or until the rogue fails a saving throw against an area-effect spell that deals acid, cold,
+or fire damage, whichever comes first. The rogue gains a +4 bonus on Stealth checks while within
+terrain that matches the foliage used to make the camouflage. This ability cannot be used in areas
+without natural foliage.
+
+##### Esoteric Scholar (Ex) {#esoteric-scholar}
+
+A rogue with this talent can attempt any Knowledge skill check, even if she is not trained in that
+Knowledge skill.
+
+##### Hold Breath (Ex) {#hold-breath}
+
+A rogue with this talent doubles the amount of time she can hold her breath.
+
+##### Major Magic (Sp) {#major-magic}
+
+A rogue with this talent gains the ability to cast a 1st-level spell from the sorcerer/wizard spell
+list once per day as a spell-like ability for every 2 rogue levels she possesses. The rogue's caster
+level for this ability is equal to her rogue level. The save DC for this spell is 11 + the rogue's
+Intelligence modifier. A rogue must have the minor magic rogue talent and an Intelligence score of
+at least 11 to select this talent.
+
+##### Minor Magic (Sp) {#minor-magic}
+
+A rogue with this talent gains the ability to cast a 0-level spell from the sorcerer/wizard spell
+list. This spell can be cast at will as a spell-like ability. The rogue's caster level for this
+ability is equal to her rogue level. The save DC for this spell is 10 + the rogue's Intelligence
+modifier. A rogue must have an Intelligence score of at least 10 to select this talent.
+
+##### Resiliency (Ex) {#resiliency}
+
+Once per day, a rogue with this ability can gain a number of temporary hit points equal to twice her
+rogue level. Activating this ability is an immediate action that can be performed only when the
+rogue is brought to below 0 hit points. This ability can be used to prevent the rogue from dying.
+These temporary hit points last for 1 minute. If the rogue's hit points drop below 0 due to the loss
+of these temporary hit points, she falls unconscious and is dying as normal.
 
 #### Danger Sense (Ex) {#danger-sense}
 
-**Gained:** At 3rd Level
-
-**Passive:** You gain a bonus on Reflex saves made to avoid traps and a dodge bonus to AC against
-attacks made by traps. In addition, you gain a bonus on Perception checks to avoid being surprised
-by a foe. These bonuses are equal to one-third of your rogue level.
-
-**Special:** This ability counts as [trap sense](ref/ability/trap-sense) for the purpose of any feat
-or class prerequisite, and can be replaced by any archetype class feature that replaces trap sense.
-The bonuses gained from this ability stack with those gained from trap sense (from another class).
+At 3rd level, a rogue gains a +1 bonus on Reflex saves to avoid traps and a +1 dodge bonus to AC
+against attacks made by traps. In addition, she gains a +1 bonus on Perception checks to avoid being
+surprised by a foe. These bonuses increase by 1 every 3 rogue levels thereafter (to a maximum of +6
+at 18th level). This ability counts as [trap sense](ref/ability/trap-sense) for the purpose of any
+feat or class prerequisite, and can be replaced by any archetype class feature that replaces trap
+sense. The bonuses gained from this ability stack with those gained from trap sense (from another
+class).
 
 #### Debilitating Injury (Ex) {#debilitating-injury}
 
-**Gained:** At 4th Level
+At 4th level, whenever a rogue deals sneak attack damage to a foe, she can also debilitate the
+target of her attack, causing it to take a penalty for 1 round (this is in addition to any penalty
+caused by a rogue talent or other special ability). The rogue can choose to apply any one of the
+following penalties when the damage is dealt.
 
-**Passive:** Whenever you deal _sneak attack_ damage to a foe, you can also debilitate the target of
-your attack, causing it to take a penalty for 1 round (this is in addition to any penalty caused by
-a _rogue talent_ or other special ability). You can choose to apply any one of the following
-penalties when the damage is dealt.
-
-**Special:** These penalties do not stack with themselves, but additional attacks that deal sneak
-attack damage extend the duration by 1 round. A creature cannot suffer from more than one penalty
-from this ability at a time. If a new penalty is applied, the old penalty immediately ends. Any form
-of healing applied to a target suffering from one of these penalties also removes the penalty.
+These penalties do not stack with themselves, but additional attacks that deal sneak attack damage
+extend the duration by 1 round. A creature cannot suffer from more than one penalty from this
+ability at a time. If a new penalty is applied, the old penalty immediately ends. Any form of
+healing applied to a target suffering from one of these penalties also removes the penalty.
 
 #### Bewildered {#bewildered}
 
-**At 10th Level:** The additional penalty to AC against you becomes -4 (for a total of -6).
-
-**At 16th Level:** The additional penalty to AC against you becomes -6 (for a total of -8).
-
-**Passive:** The target becomes bewildered, taking a -2 penalty to AC. The target takes an
-additional -2 penalty to AC against all attacks made by you (for a total of -4).
+The target becomes bewildered, taking a -2 penalty to AC. The target takes an additional -2 penalty
+to AC against all attacks made by the rogue. At 10th level and 16th level, the penalty to AC against
+attacks made by the rogue increases by -2 (to a total maximum of -8).
 
 #### Disoriented {#disoriented}
 
-**At 10th Level:** The additional penalty on attacks against you becomes -4 (for a total of -6).
-
-**At 16th Level:** The additional penalty on attacks against you becomes -6 (for a total of -8).
-
-**Passive:** The target takes a -2 penalty on attack rolls. In addition, the target takes an
-additional -2 penalty on all attack rolls it makes against the rogue (for a total of -4).
+The target takes a -2 penalty on attack rolls. In addition, the target takes an additional -2
+penalty on all attack rolls it makes against the rogue. At 10th level and 16th level, the penalty on
+attack rolls made against the rogue increases by -2 (to a total maximum of -8).
 
 #### Hampered {#hampered}
 
-**Passive:** All of the target's speeds are reduced by half (to a minimum of 5 feet). In addition,
-the target cannot [take a 5-foot step](ref/rule/take-5-foot-step).
+All of the target's speeds are reduced by half (to a minimum of 5 feet). In addition, the target
+cannot [take a 5-foot step](ref/rule/take-5-foot-step).
 
 #### Uncanny Dodge (Ex) {#uncanny-dodge}
 
-**Gained:** At 4th Level
+At 4th level, a rogue can react to danger before her senses would normally allow her to do so. She
+cannot be caught [flat-footed](ref/rule/flat-footed), nor does she lose her Dexterity bonus to AC if
+the attacker is invisible. She still loses her Dexterity bonus to AC if immobilized. A rogue with
+this ability can still lose her Dexterity bonus to AC if an opponent successfully uses the
+[feint](ref/rule/feint) action against her.
 
-**Passive:** You cannot be caught [flat-footed](ref/rule/flat-footed), nor do you lose your Dex
-bonus to AC if the attacker is invisible. You still lose your Dexterity bonus to AC if immobilized,
-or if an opponent successfully uses the [feint](ref/rule/feint) action against you.
-
-**Special:** If you already have uncanny dodge from a different class, you automatically gain
-improved uncanny dodge instead.
+If a rogue already has uncanny dodge from a different class, she automatically gains improved
+uncanny dodge (see below) instead.
 
 #### Rogue's Edge (Ex) {#rogue-s-edge}
 
-**Ability:** Choose a skill. You gain the skill unlock powers for that skill as appropriate for your
-number of ranks in that skill.
-
-**Flavor:** A rogue has mastered a single skill beyond that skill's normal boundaries, gaining
-results that others can only dream about.
-
-**Gained:** At 5th Level
-
-**Repeat:** You choose another skill and gain its skill unlock powers., 10, 5
-
-**Special:** Skill unlocks can be found in each skill's entry under the heading _Unchained Rogue
-Skill Unlocks._
+At 5th level, a rogue has mastered a single skill beyond that skill's normal boundaries, gaining
+results that others can only dream about. She gains the skill unlock powers (see page 82) for that
+skill as appropriate for her number of ranks in that skill. At 10th, 15th, and 20th levels, she
+chooses an additional skill and gains skill unlock powers for that skill as well.
 
 #### Improved Uncanny Dodge (Ex) {#improved-uncanny-dodge}
 
-**Gained:** At 8th Level
+At 8th level, a rogue can no longer be [flanked](ref/rule/flanking).
 
-**Passive:** You can no longer be [flanked](ref/rule/flanking) This defense denies another rogue the
-ability to sneak attack you by flanking you, unless the attacker has at least four more rogue levels
-than you do.
+This defense denies another rogue the ability to sneak attack the character by flanking her, unless
+the attacker has at least four more rogue levels than the target does.
 
-**Special:** If you already have uncanny dodge from another class, the levels from the classes that
-grant uncanny dodge stack to determine the minimum rogue level required to flank you.
+If a character already has uncanny dodge (see above) from another class, the levels from the classes
+that grant uncanny dodge stack to determine the minimum rogue level required to flank the character.
 
 #### Advanced Talents {#advanced-talents}
 
-**Ability:** You can choose an advanced unchained rogue talent in place of a _rogue talent._
+At 10th level and every 2 levels thereafter, a rogue can choose one of the following advanced
+talents in place of a rogue talent.
 
-**Section:** Other Abilities
+- [Crippling Strike (Ex)](ref/talent/crippling-strike)\*
+- [Cutting Edge (Ex)](ref/talent/cutting-edge)
+- [Deadly Sneak (Ex)](ref/talent/deadly-sneak-unchained-rogue)\*
+- [Dispelling Attack (Su)](ref/talent/dispelling-attack)\*
+- [Double Debilitation (Ex)](ref/talent/double-debilitation)\*
+- [Feat](ref/talent/feat)
+- [Improved Evasion (Ex)](ref/talent/improved-evasion)
+- [Light Walker (Ex)](ref/talent/light-walker)
+- [Greater Multitalented (Ex)](ref/talent/greater-multitalented)
+- [Opportunist (Ex)](ref/talent/opportunist)
+- [Skill Mastery](ref/talent/skill-mastery-unchained-rogue)
+- [Slippery Mind (Ex)](ref/talent/slippery-mind)
+- [Quick Shot (Ex)](ref/talent/quick-shot)
+- [Greater Terrain Mastery (Ex)](ref/talent/greater-terrain-mastery)
 
-**Gained:** At 10th Level
+##### Unmodified Rogue Talents {#unmodified-rogue-talents}
+
+The rogue talents in this chapter include replacements for all of those in the _Core Rulebook_,
+along with selected revised rogue talents from other sources. The following rogue talents can be
+used without modification.
+
+##### Rogue Talents {#unmodified-core-rogue-talents}
+
+Assault leader, black market connections, canny observer, cunning trigger, deft palm, distracting
+attack\*, fast getaway, firearm training, getaway artist, grit, iron guts, ninja trick, positioning
+attack, quick disguise, quick trapsmith, rope master, strong impression, strong stroke, survivalist,
+swift poison, underhanded, wall scramble.
+
+##### Advanced Rogue Talents {#advanced-rogue-talents}
+
+Another day, confounding blades\*, deadly cocktail, familiar, fast tumble, frugal trapsmith, getaway
+master, hide in plain sight, hunter's surprise, knock-out blow, redirect attack, rumormonger,
+stealthy sniper, unwitting ally, weapon snatcher.
+
+##### Defensive Roll (Ex) {#defensive-roll}
+
+The rogue can roll with a potentially lethal blow to take less damage from it than she otherwise
+would. When she would be reduced to 0 or fewer hit points by damage in combat (from a weapon or
+other blow, not a spell or special ability), the rogue can attempt to roll with the damage. To use
+this ability, the rogue must attempt a Reflex saving throw (DC = damage dealt). If she succeeds, the
+rogue takes only half damage from the blow; if she fails, she takes full damage. She must be aware
+of the attack and able to react to it in order to execute her defensive roll; if she is denied her
+Dexterity bonus to AC, she can't use this ability. Since such damage would not normally allow a
+character to attempt a Reflex save for half damage, the rogue's evasion ability does not apply to
+the defensive roll.
+
+##### Master of Disguise (Ex) {#master-of-disguise}
+
+Once per day, a rogue with this talent can don a disguise as a standard action. While wearing that
+disguise, she gains a +10 bonus on all Disguise checks. A rogue must have the Quick Disguise talent
+to select this talent.
 
 #### Master Strike (Ex) {#master-strike}
 
-**Ability:** Each time you deal _sneak attack_ damage, you can choose one of the following three
-effects: the target can be put to sleep for 1d4 hours, [paralyzed](ref/rule/paralyzed) for 2d6
-rounds, or slain. Regardless of the effect chosen, the target receives a Fortitude save to negate
-the additional effect. The DC of this save is equal to 10 + 1/2 your rogue level + your Intelligence
-modifier.
-
-**Gained:** At 20th Level
-
-**Special:** Once a creature has been the target of a master strike, regardless of whether or not
-the save is made, that creature is immune to that rogue's master strike for 24 hours. Creatures that
-are immune to _sneak attack_ damage are also immune to this ability.
+At 20th level, a rogue becomes incredibly deadly when dealing sneak attack damage. Each time the
+rogue deals sneak attack damage, she can choose one of the following three effects: the target can
+be put to sleep for 1d4 hours, [paralyzed](ref/rule/paralyzed) for 2d6 rounds, or slain. Regardless
+of the effect chosen, the target can attempt a Fortitude save to negate the additional effect. The
+DC of this save is equal to 10 + 1/2 the rogue's level + the rogue's Dexterity modifier. Once a
+creature has been the target of a master strike, regardless of whether or not the save is
+successful, that creature is immune to that rogue's master strike for 24 hours. Creatures that are
+immune to sneak attack damage are also immune to this ability.
 
 ### Archetypes
 

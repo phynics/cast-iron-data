@@ -46,6 +46,10 @@ ALLOWED = {
     "misprint-fix": ({"misprint"}, True),
 }
 TSV = Path("scripts") / "errata.tsv"
+# What a `keep` row rests on: a Paizo errata document, or (owner ruling 68, the Shifter of Ultimate Wilderness) a later printing than the owner's copy that the library has no document for.
+KEEP_EVIDENCE = ("Paizo errata for ", "Later printing of ")
+# A "Later printing of <book>" row names the owner ruling that keeps it ("Later printing of Ultimate Wilderness; owner ruling 68"): the library has no document for it, so the ruling is the evidence.
+LATER_PRINTING = re.compile(r"^Later printing of [^;]+; owner ruling \d+$")
 
 
 def norm_text(s: str) -> str:
@@ -128,8 +132,10 @@ def check(corpus: Path, tsv: Path | None = None) -> list[str]:
                 bad.append(f"{label}: decision `{r['decision']}` needs a `kept_value`")
             if not has_kept and r["kept_value"]:
                 bad.append(f"{label}: decision `{r['decision']}` leaves `kept_value` empty (the corpus holds the printed value)")
-            if r["decision"] == "keep" and not r["evidence"].startswith("Paizo errata for "):
-                bad.append(f"{label}: a `keep` row cites a Paizo errata document (`evidence` starts with \"Paizo errata for \")")
+            if r["decision"] == "keep" and r["evidence"].startswith("Later printing of ") and not LATER_PRINTING.match(r["evidence"]):
+                bad.append(f"{label}: a `keep` row of a later printing names the owner ruling (`evidence`: \"Later printing of <book>; owner ruling <number>\")")
+            if r["decision"] == "keep" and not r["evidence"].startswith(KEEP_EVIDENCE):
+                bad.append(f"{label}: a `keep` row cites a Paizo errata document or a later printing (`evidence` starts with \"Paizo errata for \" or \"Later printing of \")")
         key = (r["entry"], r["field"])
         if key in seen:
             bad.append(f"{label}: duplicate (entry, field)")
@@ -200,6 +206,9 @@ def self_test() -> int:
         eq(len(run(row(kept_value="x"))), 1, "print leaves kept_value empty")
         eq(len(run(row(decision="keep", **{"class": "errata"}, kept_value=value))), 1, "keep cites an errata document")
         eq(run(row(decision="keep", **{"class": "errata"}, kept_value=value, evidence="Paizo errata for Book A")), [], "a valid keep row")
+        eq(run(row(decision="keep", **{"class": "errata"}, kept_value=value, evidence="Later printing of Book A; owner ruling 68")), [], "a keep row may rest on a later printing that an owner ruling keeps (owner ruling 68)")
+        eq(len(run(row(decision="keep", **{"class": "errata"}, kept_value=value, evidence="Later printing of Book A"))), 1, "a later printing without the owner ruling is no evidence")
+        eq(len(run(row(decision="keep", **{"class": "errata"}, kept_value=value, evidence="Another printing of Book A; owner ruling 68"))), 1, "only a Paizo errata document or a later printing is evidence")
         eq(len(run(row(field="b"), row(field="a"))), 1, "unsorted rows")
         eq(len(run(row(), row())), 1, "a duplicate row")
         eq(len(run(row().rsplit("\t", 1)[0])), 1, "a short row")

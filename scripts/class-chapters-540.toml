@@ -98,11 +98,6 @@ entry = "ref/ragepower/guarded-stance"
 # `[[layout_fix]]`: words or cells of a class table that print's layout runs into a sentence of a feature (the text layer reads the table beside the text): the printed words
 # `find` (a plain string, or `re:` and a regular expression) and what the sentence says (`replace`). Each is checked against the page when it is added.
 
-[[layout_fix]]
-class = "ref/class/summoner"
-key = "eidolon"
-find = "the Twin eidolon summoner's class level"
-replace = "the summoner's class level"
 
 [[layout_fix]]
 class = "ref/class/inquisitor"
@@ -110,23 +105,8 @@ key = "slayer"
 find = "cannot be changed for the remainder of the judgment"
 replace = "cannot be changed for the remainder of the judgment."
 
-[[layout_fix]]
-class = "ref/class/antipaladin"
-key = "fiendish-boon"
-find = "re:Spells per Day 1st 2nd 3rd 4th(?: [—–\\d]+)+ "
-replace = ""
 
-[[layout_fix]]
-class = "ref/class/inquisitor"
-key = "solo-tactics"
-find = "re:Spells per Day(?: \\d+)+ "
-replace = ""
 
-[[layout_fix]]
-class = "ref/class/summoner"
-key = "life-link"
-find = "more than 1,000 feet Spells per Day 5 5 5 5 5 5 away"
-replace = "more than 1,000 feet away"
 
 # the cells of Table 3-5 (Cleric spells per day) and its footnote that run into the sentence of Channel Energy (Core Rulebook p. 40); the Special cells of Table 3-9 in Armor Training (p. 55)
 
@@ -587,3 +567,241 @@ key_marks = ["vigilante-talent"]
 [[class]]
 id = "ref/class/gunslinger"
 not_features = ["critical-hit-with-a-firearm", "killing-blow-with-a-firearm"]
+
+# The Swashbuckler's two ways to regain panache (Advanced Class Guide p. 56, in the Panache feature) are run-in sub-heads, as the Gunslinger's ways to regain grit are: the class table does not list them, so they are no features. Heads and keys stay.
+[[class]]
+id = "ref/class/swashbuckler"
+not_features = ["critical-hit-with-a-light-or-one-handed-piercing-melee-weapon", "killing-blow-with-a-light-or-one-handed-piercing-melee-weapon"]
+
+# Ultimate Wilderness, the Shifter (owner ruling 68, data #398). The section "Aspects" (p. 28: the lead-in and the sixteen aspects) is other entries': the hub `ref/ability/aspects` holds the lead-in.
+# Speaking Druidic and Ex-Shifters (p. 31) stand behind the aspects and are the corpus's words already; the favored class options follow them, a section of the class under print's title.
+[[class]]
+id = "ref/class/shifter"
+gap_stop = "Aspects"
+lead_entry = "ref/ability/aspects"
+
+[[lead]]
+class = "ref/class/shifter"
+title = "Shifter Favored Class Options"
+heading = "Shifter Favored Class Options"
+key = "shifter-favored-class-options"
+
+# Owner ruling 68 (data #398): the corpus keeps the revised Shifter of a later printing of Ultimate Wilderness. The owner's copy is the 1st printing (November 2017) and the library has no errata
+# document, so each change is a `[[errata]]` of the manifest with a `keep` row in `scripts/errata.tsv` whose evidence is "Later printing of Ultimate Wilderness; owner ruling 68".
+[[errata]]
+class = "ref/class/shifter"
+key = "shifter-claws"
+source = "later printing of Ultimate Wilderness; owner ruling 68"
+page = 27
+find = "her claws ignore DR/cold iron and DR/silver."
+replace = "her claws ignore DR/cold iron, DR/magic, and DR/silver."
+
+[[errata]]
+class = "ref/class/shifter"
+key = "wild-shape"
+source = "later printing of Ultimate Wilderness; owner ruling 68"
+page = 27
+find = "and back again once per day."
+replace = "and back again."
+
+[[errata]]
+class = "ref/class/shifter"
+key = "wild-shape"
+source = "later printing of Ultimate Wilderness; owner ruling 68"
+page = 27
+find = " The effect lasts for 1 hour per shifter level or until she changes back."
+replace = ""
+
+[[errata]]
+class = "ref/class/shifter"
+key = "wild-shape"
+source = "later printing of Ultimate Wilderness; owner ruling 68"
+page = 28
+find = "A shifter can use this ability an additional time per day at 6th level and every 2 levels thereafter, for a total of eight times per day at 18th level."
+replace = "A shifter can use wild shape for a number of hours each day equal to her shifter level + her Wisdom modifier. It need not be consecutive but must be spent in 1 hour increments. For abilities that function based on \"uses of wild shape,\" each hour of wild shape counts as a use."
+
+[[errata]]
+class = "ref/class/shifter"
+key = "final-aspect"
+source = "later printing of Ultimate Wilderness; owner ruling 68"
+page = 28
+find = "she can assume the minor forms of all her aspects."
+replace = "she can assume the minor forms of all her aspects and the shifter can use her major and minor forms at will."
+
+# The Special column of the class table (the rows as the 1st printing has them) runs behind Final Aspect (p. 28).
+[[layout_fix]]
+class = "ref/class/shifter"
+key = "final-aspect"
+find = "re:Shifter aspect, shifter claws, wild empathy Defensive instinct, track .*Defensive instinct \\(\\+5\\), final aspect"
+replace = ""
+
+# Features of the later printing that the owner's copy lacks: the corpus's revised text, in prose (the class table is the corpus's, and lists them).
+[[later_feature]]
+class = "ref/class/shifter"
+key = "shifter-s-fury"
+text = """At 6th level, a shifter gains the ability to make several ferocious attacks with the same natural weapon. Instead of attacking with all her natural weapons, the shifter can choose a single natural weapon and make a full attack with that natural weapon, gaining a second iterative attack at a -5 as if it was a manufactured weapon. When she does so, all her other natural attacks count as secondary attacks and don't benefit from _shifter's claws_. At 11th level, she gains a third iterative attack at a -10, and at 16th level, she gains a fourth iterative attack at -15."""
+
+[[later_feature]]
+class = "ref/class/shifter"
+key = "a-thousand-faces"
+text = """At 18th level, a shifter gains the ability to change her appearance at will, as if using the [alter self](ref/spell/alter-self) spell, but only while in her normal form."""
+
+[[later_feature]]
+class = "ref/class/shifter"
+key = "timeless-body"
+text = """After attaining 18th level, a shifter no longer takes ability score penalties for aging and cannot be magically [aged](ref/rule/age). Any penalties she may have already incurred, however, remain in place. Bonuses still accrue, and the shifter still dies of old age when her time is up."""
+
+# The alternate natural attacks that the shifter's claws offer are printed in Wilderness Origins p. 8 (the corpus's paragraph at the end of Shifter Claws is that book's introduction): a section of that book (owner ruling 32).
+[[other_book]]
+class = "ref/class/shifter"
+book = "wilderness-origins"
+page = 10
+before = "wild-empathy"
+
+[[other_book.section]]
+key = "alternate-natural-attacks"
+head = "Alternate Natural Attacks (Wilderness Origins page 8)"
+text = """A shifter can draw on her chosen animal aspect to transform her hands into deadly weapons, as represented by the shifter's claws class feature, but not every animal has prominent claws. The following list provides alternate natural attacks for the shifter claws class feature. Each time the shifter activates her shifter's claws ability in her natural form, she can manifest one of the alternate natural attacks listed below for any of her chosen aspects, or those that relate to her archetype. Each alternate natural attack replaces one of the shifter's claw attacks. The shifter can gain up to two different alternate natural attacks with this method. These alternate natural attacks modify only the damage type of the shifter's natural attacks and otherwise function exactly as the shifter claws class feature."""
+
+# Pathfinder Unchained (phynics/cast-iron#540). The Unchained Barbarian's Guarded Stance is the Unchained one (p. 11), not the Core Rulebook's.
+[[option_pick]]
+class = "ref/class/unchained-barbarian"
+name = "Guarded Stance"
+entry = "ref/ragepower/guarded-stance-stance"
+
+# A rage power that print lists and that has no entry (Shove Aside, p. 12): print's text stays under Rage Powers as a sub-head, and the list goes on after it.
+[[class]]
+id = "ref/class/unchained-barbarian"
+extra_heads = ["Shove Aside"]
+
+[[place_under]]
+class = "ref/class/unchained-barbarian"
+key = "shove-aside"
+under = "rage-powers"
+
+# The lists of rage powers of other books that the Unchained Barbarian uses unaltered (p. 12-13) are sections under Rage Powers; the end of the sentence of Improved Uncanny Dodge ("... stack to determine the minimum
+# level required to flank the barbarian.") stands behind them in the text layer and goes back to its feature.
+[[place_under]]
+class = "ref/class/unchained-barbarian"
+key = "unmodified-rage-powers"
+under = "rage-powers"
+
+[[place_under]]
+class = "ref/class/unchained-barbarian"
+key = "advanced-player-s-guide"
+under = "rage-powers"
+
+[[place_under]]
+class = "ref/class/unchained-barbarian"
+key = "ultimate-campaign"
+under = "rage-powers"
+
+[[layout_fix]]
+class = "ref/class/unchained-barbarian"
+key = "ultimate-campaign"
+find = "re: stack to determine the minimum level required to f ?lank the barbarian\\."
+replace = ""
+
+[[layout_fix]]
+class = "ref/class/unchained-barbarian"
+key = "improved-uncanny-dodge"
+find = "re:grant uncanny dodge$"
+replace = "grant uncanny dodge stack to determine the minimum level required to flank the barbarian."
+
+# The Unchained Rogue's talents that the Advanced Player's Guide also prints (one group for the Rogue and the Unchained Rogue): the Unchained ones (pp. 21-22).
+[[option_pick]]
+class = "ref/class/unchained-rogue"
+name = "Coax Information"
+entry = "ref/talent/coax-information-unchained-rogue"
+
+[[option_pick]]
+class = "ref/class/unchained-rogue"
+name = "Nimble Climber"
+entry = "ref/talent/nimble-climber"
+
+# The Unchained Summoner: the lead-in of the section "Eidolons" (p. 28: what the base statistics are, link, share spells, evasion, multiattack) is a section of the class (the entry of the Unchained eidolon has it in the import's words); the skills, the subtypes, the base forms, the evolutions and the spell list that follow are other entries'.
+[[class]]
+id = "ref/class/unchained-summoner"
+gap_stop = "Eidolons"
+lead_key = "unchained-eidolons"
+lead_title = "Eidolons"
+
+# The Unchained Rogue's box "Unmodified Rogue Talents" (p. 24) follows the advanced talents: its two lists are sections under Advanced Talents. The label "Rogue Talents" is the title of a feature too, so its section has a key of its own.
+[[new_key]]
+class = "ref/class/unchained-rogue"
+head = "Rogue Talents"
+key = "unmodified-core-rogue-talents"
+
+[[place_under]]
+class = "ref/class/unchained-rogue"
+key = "unmodified-rogue-talents"
+under = "advanced-talents"
+
+[[place_under]]
+class = "ref/class/unchained-rogue"
+key = "unmodified-core-rogue-talents"
+under = "advanced-talents"
+
+[[place_under]]
+class = "ref/class/unchained-rogue"
+key = "advanced-rogue-talents"
+under = "advanced-talents"
+
+[[option_pick]]
+class = "ref/class/unchained-rogue"
+name = "Skill Mastery"
+entry = "ref/talent/skill-mastery-unchained-rogue"
+
+# The Unchained Rogue's talents marked with an asterisk add effects to her sneak attack; the intro of the list explains the mark (p. 20, 23): the star stays after the link.
+[[class]]
+id = "ref/class/unchained-rogue"
+key_marks = ["rogue-talents", "advanced-talents"]
+
+# The end of the sentence of the advanced talent Defensive Roll (p. 23: "... in order to" [box] "execute her defensive roll; ...") stands behind the box "Unmodified Rogue Talents" in the text layer: it goes back to the talent.
+[[para_to_host]]
+class = "ref/class/unchained-rogue"
+key = "advanced-rogue-talents"
+marker = "Execute her defensive roll"
+host = "defensive-roll"
+lower_first = true
+
+
+# The Witch's box "Adding Spells to a Witch's Familiar" stands inside the Hag's Eye hex (Advanced Player's Guide p. 68): the end of the hex's paragraph ("witches within 10 feet ... increments.")
+# belongs to the hex's entry, a link (the case was in the writer before data #403).
+[[tail_of_linked]]
+class = "ref/class/witch"
+key = "learn-from-a-scroll"
+marker = "witches within 10 feet"
+entry = "ref/hex/hags-eye"
+end = ".*?\\bincrements\\."
+
+# The Unchained Classes link an option only when the entry holds the Unchained text or print states the same rule (interim rule, data #405). The Barbarian's powers and the Rogue's talents
+# below were read against the entry that the corpus has (print's words and the entry's rules are the same); every other option stays plain text with print's text under its feature.
+[[class]]
+id = "ref/class/unchained-barbarian"
+link_if_same = true
+same_rule = ["Scent", "Greater Ground Breaker", "Calm Stance", "Fearless Rage", "Internal Fortitude", "Low-Light Vision", "Quick Reflexes"]
+
+[[class]]
+id = "ref/class/unchained-rogue"
+link_if_same = true
+same_rule = ["Combat Trick", "Weapon Training", "Feat", "Improved Evasion", "Trap Spotter", "Terrain Mastery", "Slippery Mind", "Opportunist", "Slow Reactions", "Crippling Strike", "Dispelling Attack", "Double Debilitation"]
+
+# Debilitating Injury (Pathfinder Unchained p. 22): Bewildered, Disoriented and Hampered are its three penalties, no class features of their own (the class table does not list them), and the
+# paragraph on the penalties (they do not stack, a new penalty ends the old one, healing removes them) stands behind Hampered but applies to all three.
+[[class]]
+id = "ref/class/unchained-rogue"
+not_features = ["bewildered", "disoriented", "hampered"]
+
+[[para_to_host]]
+class = "ref/class/unchained-rogue"
+key = "hampered"
+marker = "These penalties do not stack with themselves"
+host = "debilitating-injury"
+
+# The coverage check reads the end of the list and the end of Defensive Roll's sentence as one sentence ("... weapon snatcher. execute her defensive roll; ..."): the end of the sentence is a sentence of its own.
+[[layout_fix]]
+class = "ref/class/unchained-rogue"
+key = "advanced-rogue-talents"
+find = "weapon snatcher. execute her defensive roll"
+replace = "weapon snatcher. Execute her defensive roll"
