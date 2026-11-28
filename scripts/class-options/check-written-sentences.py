@@ -213,6 +213,11 @@ def extract_print(corpus: Path, book: str, books_dir: Path, cache_dir: Path) -> 
         vocab = source.vocab | {w.lower() for w in re.findall(r"[A-Za-z]+(?:-[A-Za-z]+)*", entry.body)}
         text, _, _ = fp.print_md(feature, links, vocab, entry.id)
         text = printed_region_text(book, entry.id, text)
+        print_head = fp.head_text(feature.head)
+        if book == "ultimate-wilderness":
+            text, split_tag = options.strip_ultimate_wilderness_head_fragment(entry.id, text)
+            if split_tag:
+                print_head = f"{entry.title}† ({split_tag})"
         if entry.id in options.GROUP_LINE_ENTRIES:
             group = options.group_map(source).of(entry.title, page)
             if group:
@@ -222,7 +227,7 @@ def extract_print(corpus: Path, book: str, books_dir: Path, cache_dir: Path) -> 
             intro = options.marked_head_intro(book, entry.id)
             if intro and not text.startswith(intro):
                 text = intro + "\n\n" + text
-        texts[(entry.id, row["anchor"])] = (text, fp.head_text(feature.head))
+        texts[(entry.id, row["anchor"])] = (text, print_head)
     return texts, entries, options
 
 
@@ -282,6 +287,12 @@ def self_test() -> int:
     if not eq(starts_with_printed_intro("Intro.\n\nPower.", "Intro."), True, "entry opens with a claimed printed intro"):
         return 1
     if not eq(starts_with_printed_intro("Power.", "Intro."), False, "missing claimed printed intro is rejected"):
+        return 1
+    if not eq(CLASS_OPTIONS.leaked_head_fragment("†(Su): Power."), True, "a dagger and ability-tag head fragment is caught at body start"):
+        return 1
+    if not eq(CLASS_OPTIONS.leaked_head_fragment("Intro.\n\n(Ex): Power.", "Intro."), True, "a tag fragment after the intro is caught"):
+        return 1
+    if not eq(CLASS_OPTIONS.leaked_head_fragment("Intro.\n\nA complete sentence.", "Intro."), False, "ordinary prose after the intro is accepted"):
         return 1
     if not eq(starts_with_printed_intro("1-Point Evolutions: The following evolutions cost 1 point from the eidolon's evolution pool.\n\nPower.",
                                       "1-Point Evolutions: The following evolutions cost 1 point from the eidolon's evolution pool."),
@@ -377,9 +388,11 @@ def main() -> int:
             exceptions.append(f"TAG {row['entry']}: print {printed_tag!r}, ledger {row['ability_tag']!r}, entry {entry_tag!r}")
 
         if "opens with print's sentence about the mark" in row["note"]:
-            intro = print_text.split("\n\n", 1)[0]
-            if not re.match(r"^(?:Discoveries|Talents|Tricks|Investigator talents).*marked with .*asterisk", intro) or not starts_with_printed_intro(body, intro):
-                exceptions.append(f"INTRO {row['entry']}: ledger claims a marked-head intro that the entry lacks")
+            intro = options.marked_head_intro(args.book, row["entry"])
+            if not intro or not starts_with_printed_intro(body, intro):
+                exceptions.append(f"INTRO {row['entry']}: ledger claims a key-marked head but the entry lacks its printed intro")
+        if options.leaked_head_fragment(body, options.marked_head_intro(args.book, row["entry"])):
+            exceptions.append(f"HEAD FRAGMENT {row['entry']}: body starts with a leaked key mark or ability-tag fragment")
         if args.book == "pathfinder-unchained" and row["entry"].split("/")[1] == "unchevolution":
             source_book = getattr(options, "SENTENCE_AUDIT_SOURCE", None)
             page_start = re.match(r"\d+", row["page"])

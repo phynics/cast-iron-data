@@ -2134,7 +2134,10 @@ print = "The alchemist becomes bitter in flavor. Any creature that hits the bitt
 [[entry]]
 id = "ref/discovery/grounding-goo"
 anchor = "grounding-goo"
-print = "†(Su): The alchemist's bomb applies a sticky residue after any damage from the bomb is resolved. If a creature damaged by the bomb has a nonmagical fly speed, its flight is severely impaired, and it takes a penalty equal to the alchemist's level on Fly checks for 1 minute."
+print = '''
+Discoveries marked with a dagger (†) modify bombs and do not stack.
+
+The alchemist's bomb applies a sticky residue after any damage from the bomb is resolved. If a creature damaged by the bomb has a nonmagical fly speed, its flight is severely impaired, and it takes a penalty equal to the alchemist's level on Fly checks for 1 minute.'''
 
 [[entry]]
 id = "ref/discovery/pheromones"
@@ -2144,12 +2147,18 @@ print = "The alchemist exudes an imperceptible musk that grants him a permanent 
 [[entry]]
 id = "ref/discovery/solid-ground"
 anchor = "solid-ground"
-print = "†(Su): The alchemist launches an explosive paste bomb that bonds with any earthen surface. Each application of this paste deals no damage and affects a 5-foot-cube of dirt, loose soil, or stone, transmuting the earth for a number of minutes equal to the alchemist's level. Creatures cannot use burrow, [earthmeld](ref/kinetic/earthmeld), or similar abilities (such as the _[meld into stone](ref/spell/meld-into-stone)_ spell) while the ground remains transmuted in this way."
+print = '''
+Discoveries marked with a dagger (†) modify bombs and do not stack.
+
+The alchemist launches an explosive paste bomb that bonds with any earthen surface. Each application of this paste deals no damage and affects a 5-foot-cube of dirt, loose soil, or stone, transmuting the earth for a number of minutes equal to the alchemist's level. Creatures cannot use burrow, [earthmeld](ref/kinetic/earthmeld), or similar abilities (such as the _[meld into stone](ref/spell/meld-into-stone)_ spell) while the ground remains transmuted in this way.'''
 
 [[entry]]
 id = "ref/discovery/thorny-bomb"
 anchor = "thorny-bomb"
-print = "†(Su): When the alchemist creates a bomb, he can choose to have it deal piercing damage. Thorny bombs count as magic weapons for the purpose of overcoming [damage reduction](ref/rule/damage-reduction)."
+print = '''
+Discoveries marked with a dagger (†) modify bombs and do not stack.
+
+When the alchemist creates a bomb, he can choose to have it deal piercing damage. Thorny bombs count as magic weapons for the purpose of overcoming [damage reduction](ref/rule/damage-reduction).'''
 
 [[entry]]
 id = "ref/discovery/volumizer"
