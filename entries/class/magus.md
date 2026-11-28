@@ -19,6 +19,26 @@ kind = "class"
 class_type = "base"
 hit_die = "d8"
 skill_ranks = "2 + Int modifier"
+features = [
+  { anchor = "spells" },
+  { anchor = "cantrips", level = 1 },
+  { anchor = "spellbooks" },
+  { anchor = "arcane-pool", level = 1 },
+  { anchor = "spell-combat", level = 1 },
+  { anchor = "spellstrike", level = 2 },
+  { anchor = "magus-arcana", level = 3 },
+  { anchor = "spell-recall", level = 4 },
+  { anchor = "knowledge-pool", level = 7 },
+  { anchor = "medium-armor", level = 7 },
+  { anchor = "improved-spell-combat", level = 8 },
+  { anchor = "fighter-training", level = 10 },
+  { anchor = "improved-spell-recall", level = 11 },
+  { anchor = "heavy-armor", level = 13 },
+  { anchor = "greater-spell-combat", level = 14 },
+  { anchor = "counterstrike", level = 16 },
+  { anchor = "greater-spell-access", level = 19 },
+  { anchor = "true-magus", level = 20 },
+]
 +++
 
 There are those who spend their lives poring over ancient tomes and texts, unlocking the power of
@@ -79,252 +99,236 @@ in their search for perfection.
 |19th|+14/+9/+4|+11|+6|+11|Greater spell access|5|5|5|5|5|5|4|
 |20th|+15/+10/+5|+12|+6|+12|True magus|5|5|5|5|5|5|5|
 
-#### Weapon and Armor Proficiencies {#weapon-and-armor-proficiencies}
+### Class Features {#class-features}
 
-**Weapons:** All simple weapons, All martial weapons
+The following are the class features of the magus.
 
-**Armor:** Light armor
+#### Weapon and Armor Proficiency {#weapon-and-armor-proficiencies}
 
-**Shields:** No
-
-**Notes:** You can cast magus spells while wearing light armor without incurring the normal arcane
-spell failure chance. Like any other arcane spellcaster, a magus wearing medium armor, heavy armor,
-or a shield incurs a chance of arcane spell failure if the spell in question has a somatic
-component. A multiclass magus still incurs the normal arcane spell failure chance for arcane spells
-received from other classes.
+A magus is proficient with all simple and martial weapons. A magus is also proficient with light
+armor. He can cast magus spells while wearing light armor without incurring the normal arcane spell
+failure chance. Like any other arcane spellcaster, a magus wearing medium armor, heavy armor, or a
+shield incurs a chance of arcane spell failure if the spell in question has a somatic component. A
+multiclass magus still incurs the normal arcane spell failure chance for arcane spells received from
+other classes.
 
 #### Spells {#spells}
 
-**Spell list:** Arcane spells from the magus list, from 1st level
+A magus casts arcane spells drawn from the magus spell list presented on page 13. A magus must
+choose and prepare his spells ahead of time.
 
-**Key ability:** Intelligence. Minimum score 10 + spell level; save DC 10 + spell level +
-Intelligence modifier; a high score grants bonus spells per day.
+To learn, prepare, or cast a spell, the magus must have an Intelligence score equal to at least 10 +
+the spell level. The Difficulty Class for a saving throw against a magus's spell is 10 + the spell
+level + the magus's Intelligence modifier.
 
-**Casting:** Prepared: choose and prepare spells in advance.
+A magus can cast only a certain number of spells of each spell level per day. His base daily spell
+allotment is given on Table 1–1. In addition, he receives bonus spells per day if he has a high
+Intelligence score (see Table 1–3 on page 17 of the _Pathfinder RPG Core Rulebook_).
 
-**Notes:** Prepares spells after 8 hours of rest and 1 hour with the spellbook; no limit on spells
-known.
+A magus may know any number of spells. He must choose and prepare his spells ahead of time by
+getting 8 hours of sleep and spending 1 hour studying his spellbook. While studying, the magus
+decides which spells to prepare.
 
 #### Cantrips {#cantrips}
 
-**Ability:** 0-level arcane spells. Prepared like other spells but not expended when cast; one
-placed in a higher slot (for example through metamagic) uses that slot.
+A magus can prepare a number of cantrips, or 0-level spells, each day, as noted on Table 1–1 under
+"Spells per Day." These spells are cast like any other spell, but they are not expended when cast
+and may be used again.
 
 #### Spellbooks {#spellbooks}
 
-**Ability:** You must study your spellbook each day to prepare your spells. You cannot prepare any
-spell not recorded in your spellbook except for [read magic](ref/spell/read-magic), which all magi
-can prepare from memory.
+A magus must study his spellbook each day to prepare his spells. He cannot prepare any spell not
+recorded in his spellbook except for _[read magic](ref/spell/read-magic)_, which all magi can
+prepare from memory. A magus begins play with a spellbook containing all 0-level magus spells plus
+three 1st-level magus spells of his choice. The magus also selects a number of additional 1st-level
+magus spells equal to his Intelligence modifier to add to his spellbook. At each new magus level, he
+gains two new magus spells of any spell level or levels that he can cast (based on his new magus
+level) for his spellbook. At any time, a magus can also add spells found in other spellbooks to his
+own (see Chapter 9 of the _Core Rulebook_).
 
-**Gained:** At 1st Level
-
-**Special:** You begin play with a spellbook containing all 0-level magus spells plus three
-1st-level magus spells of your choice. You also select a number of additional 1st-level magus spells
-equal to your Intelligence modifier to add to your spellbook. At each new magus level, you gain two
-new magus spells of any spell level or levels that you can cast (based on your new magus level) for
-your spellbook. At any time, you can also add spells found in other spellbooks to your own (see
-[Arcane Magical Writing](ref/rule/arcane-magical-writing)).
+A magus can learn spells from a wizard's spellbook, just as a wizard can from a magus's spellbook.
+The spells learned must be on the magus spell list, as normal. An alchemist (see the _Pathfinder RPG
+Advanced Player's Guide_) can learn formulae from a magus's spellbook, if the spells are also on the
+alchemist spell list. A magus cannot learn spells from an alchemist.
 
 #### Arcane Pool (Su) {#arcane-pool}
 
-**At 1st Level:** You can expend 1 point from your arcane pool as a **swift action** to grant any
-weapon you are holding enhancement bonuses for 1 minute. These bonuses are equal to 1 + one-fourth
-of your magus level. They can be added to the weapon, stacking with existing weapon enhancement to a
-maximum of +5. Multiple uses of this ability do not stack with themselves.
+At 1st level, the magus gains a reservoir of mystical arcane energy that he can draw upon to fuel
+his powers and enhance his weapon. This arcane pool has a number of points equal to 1/2 his magus
+level (minimum 1) + his Intelligence modifier. The pool refreshes once per day when the magus
+prepares his spells.
 
-**At 5th Level:** These bonuses can be used to add any of the following weapon properties:
-[dancing](ref/magic-enh/dancing), [flaming](ref/magic-enh/flaming),
-[flaming burst](ref/magic-enh/flaming-burst), [frost](ref/magic-enh/frost),
-[icy burst](ref/magic-enh/icy-burst), [keen](ref/magic-enh/keen), [shock](ref/magic-enh/shock),
-[shocking burst](ref/magic-enh/shocking-burst), [speed](ref/magic-enh/speed), or
-[vorpal](ref/magic-enh/vorpal). Adding these properties consumes an amount of bonus equal to the
-property's base price modifier. These properties are added to any the weapon already has, but
-duplicates do not stack. If the weapon is not magical, at least a +1 enhancement bonus must be added
-before any other properties can be added. These bonuses and properties are decided when the arcane
-pool point is spent and cannot be changed until the next time you use this ability. These bonuses do
-not function if the weapon is wielded by anyone other than you.
+At 1st level, a magus can expend 1 point from his arcane pool as a swift action to grant any weapon
+he is holding a +1 enhancement bonus for 1 minute. For every four levels beyond 1st, the weapon
+gains another +1 enhancement bonus, to a maximum of +5 at 17th level. These bonuses can be added to
+the weapon, stacking with existing weapon enhancement to a maximum of +5. Multiple uses of this
+ability do not stack with themselves.
 
-**Section:** Arcane Pool
+At 5th level, these bonuses can be used to add any of the following weapon properties:
+_[dancing](ref/magic-enh/dancing)_, _[flaming](ref/magic-enh/flaming)_,
+_[flaming burst](ref/magic-enh/flaming-burst)_, _[frost](ref/magic-enh/frost)_,
+_[icy burst](ref/magic-enh/icy-burst)_, _[keen](ref/magic-enh/keen)_,
+_[shock](ref/magic-enh/shock)_, _[shocking burst](ref/magic-enh/shocking-burst)_,
+_[speed](ref/magic-enh/speed)_, or _[vorpal](ref/magic-enh/vorpal)_. Adding these properties
+consumes an amount of bonus equal to the property's base price modifier (see Table 15–9 on page 469
+of the _Core Rulebook_). These properties are added to any the weapon already has, but duplicates do
+not stack. If the weapon is not magical, at least a +1 enhancement bonus must be added before any
+other properties can be added. These bonuses and properties are decided when the arcane pool point
+is spent and cannot be changed until the next time the magus uses this ability. These bonuses do not
+function if the weapon is wielded by anyone other than the magus.
 
-**Gained:** At 1st Level
-
-**Passive:** You gain a reservoir of mystical arcane energy that you can draw upon to fuel your
-powers and enhance your weapon. This _arcane pool_ has a number of points equal to
-[half](ref/misc/fractions-and-rounding) your magus level (minimum 1) + your Intelligence modifier.
-The pool refreshes once per day when you prepare your spells.
-
-**Special:** You can only enhance one weapon in this way at one time. If you use this ability again,
-the first use immediately ends.
+A magus can only enhance one weapon in this way at one time. If he uses this ability again, the
+first use immediately ends.
 
 #### Spell Combat (Ex) {#spell-combat}
 
-**Flavor:** A magus learn to cast spells and wield his weapons at the same time. This functions much
-like two-weapon fighting, but the off-hand weapon is a spell that is being cast.
-
-**Fullround:** You can make all of your attacks with your melee weapon at a -2 penalty and can also
-cast any spell from the magus spell list with a casting time of 1 standard action (any attack roll
-made as part of this spell also takes this penalty). If you cast this spell defensively, you can
-decide to take an additional penalty on your attack rolls, up to your Intelligence bonus, and add
-the same amount as a circumstance bonus on your [concentration](ref/rule/concentration) check. If
-the check fails, the spell is wasted, but the attacks still take the penalty. You can choose to cast
-the spell first or make the weapon attacks first, but if you have more than one attack, you cannot
-cast the spell between weapon attacks.
-
-**Gained:** At 1st Level
-
-**Special:** To use this ability, you must have one hand free (even if the spell being cast does not
-have somatic components), while wielding a light or one-handed melee weapon in the other hand.
+At 1st level, a magus learns to cast spells and wield his weapons at the same time. This functions
+much like two-weapon fighting, but the off-hand weapon is a spell that is being cast. To use this
+ability, the magus must have one hand free (even if the spell being cast does not have somatic
+components), while wielding a light or one-handed melee weapon in the other hand. As a full-round
+action, he can make all of his attacks with his melee weapon at a -2 penalty and can also cast any
+spell from the magus spell list with a casting time of 1 standard action (any attack roll made as
+part of this spell also takes this penalty). If he casts this spell defensively, he can decide to
+take an additional penalty on his attack rolls, up to his Intelligence bonus, and add the same
+amount as a circumstance bonus on his [concentration](ref/rule/concentration) check. If the check
+fails, the spell is wasted, but the attacks still take the penalty. A magus can choose to cast the
+spell first or make the weapon attacks first, but if he has more than one attack, he cannot cast the
+spell between weapon attacks.
 
 #### Spellstrike (Su) {#spellstrike}
 
-**Ability:** Whenever you cast a spell with a range of "touch" from the magus spell list, you can
-deliver the spell through any weapon you are wielding as part of a melee attack. Instead of the free
-melee touch attack normally allowed to deliver the spell, you can make one free melee attack with
-your weapon (at your highest base attack bonus) as part of casting this spell. If successful, this
-melee attack deals its normal damage as well as the effects of the spell. If you make this attack in
-concert with _spell combat,_ this melee attack takes all the penalties accrued by spell combat melee
-attacks.
-
-**Gained:** At 2nd Level
-
-**Special:** This attack uses the weapon's critical range (20, 19-20, or 18-20 and modified by the
-_keen_ weapon property or similar effects), but the spell effect only deals ×2 damage on a
-successful critical hit, while the weapon damage uses its own critical modifier.
+At 2nd level, whenever a magus casts a spell with a range of "touch" from the magus spell list, he
+can deliver the spell through any weapon he is wielding as part of a melee attack. Instead of the
+free melee touch attack normally allowed to deliver the spell, a magus can make one free melee
+attack with his weapon (at his highest base attack bonus) as part of casting this spell. If
+successful, this melee attack deals its normal damage as well as the effects of the spell. If the
+magus makes this attack in concert with spell combat, this melee attack takes all the penalties
+accrued by spell combat melee attacks. This attack uses the weapon's critical range (20, 19–20, or
+18–20 and modified by the _keen_ weapon property or similar effects), but the spell effect only
+deals ×2 damage on a successful critical hit, while the weapon damage uses its own critical
+modifier.
 
 #### Magus Arcana {#magus-arcana}
 
-**Ability:** You gain one magus arcana.
+As he gains levels, a magus learns arcane secrets tailored to his specific way of blending martial
+puissance and magical skill. Starting at 3rd level, a magus gains one magus arcana. He gains an
+additional magus arcana for every three levels of magus attained after 3rd level. Unless
+specifically noted in a magus arcana's description, a magus cannot select a particular magus arcana
+more than once. Magus arcana that affect spells can only be used to modify spells from the magus
+spell list unless otherwise noted.
 
-**Flavor:** As a magus gain levels, he learns arcane secrets tailored to his specific way of
-blending martial puissance and magical skill.
-
-**Gained:** At 3rd Level
-
-**Repeat:** You gain a new magus arcana., 6, 3
-
-**Special:** Unless specifically noted in a magus arcana's description, you cannot select a
-particular magus arcana more than once. Magus arcana that affect spells can only be used to modify
-spells from the magus spell list unless otherwise noted.
+- [Arcane Accuracy (Su)](ref/arcana/arcane-accuracy)
+- [Broad Study (Ex)](ref/arcana/broad-study)
+- [Close Range (Ex)](ref/arcana/close-range)
+- [Concentrate (Ex)](ref/arcana/concentrate)
+- [Critical Strike (Su)](ref/arcana/critical-strike)
+- [Dispelling Strike (Su)](ref/arcana/dispelling-strike)
+- [Empowered Magic (Su)](ref/arcana/empowered-magic)
+- [Familiar (Ex)](ref/arcana/familiar)
+- [Hasted Assault (Su)](ref/arcana/hasted-assault)
+- [Maneuver Mastery (Ex)](ref/arcana/maneuver-mastery)
+- [Maximized Magic (Su)](ref/arcana/maximized-magic)
+- [Pool Strike (Su)](ref/arcana/pool-strike)
+- [Quickened Magic (Su)](ref/arcana/quickened-magic)
+- [Reflection (Su)](ref/arcana/reflection)
+- [Silent Magic (Su)](ref/arcana/silent-magic)
+- [Spell Blending (Ex)](ref/arcana/spell-blending)
+- [Spell Shield (Su)](ref/arcana/spell-shield)
+- [Still Magic (Su)](ref/arcana/still-magic)
+- [Wand Mastery (Su)](ref/arcana/wand-mastery)
+- [Wand Wielder (Su)](ref/arcana/wand-wielder)
 
 #### Spell Recall (Su) {#spell-recall}
 
-**Gained:** At 4th Level
-
-**Swift:** You can recall any single magus spell that you have already prepared and cast that day by
-expending a number of points from your _arcane pool_ equal to the spell's level (minimum 1). The
-spell is prepared again, just as if it had not been cast.
+At 4th level, the magus learns to use his arcane pool to recall spells he has already cast. With a
+swift action he can recall any single magus spell that he has already prepared and cast that day by
+expending a number of points from his arcane pool equal to the spell's level (minimum 1). The spell
+is prepared again, just as if it had not been cast.
 
 #### Bonus Feats {#bonus-feats}
 
-**Ability:** You gain a bonus feat in addition to those gained from normal advancement. These bonus
-feats must be selected from those listed as combat, item creation, or metamagic feats. You must meet
-the prerequisites for this feat as normal.
-
-**Gained:** At 5th Level
-
-**Repeat At:** You gain another bonus feat, following the restrictions above., 11, 17
+At 5th level, and every six levels thereafter, a magus gains a bonus feat in addition to those
+gained from normal advancement. These bonus feats must be selected from those listed as combat, item
+creation, or metamagic feats. He must meet the prerequisites for these feats as normal.
 
 #### Knowledge Pool (Su) {#knowledge-pool}
 
-**Ability:** When you prepare your magus spells, you can decide to expend 1 or more points from your
-_arcane pool,_ up to your Intelligence bonus. For each point you expend, you can treat any one spell
-from the magus spell list as if it were in your spellbook and can prepare that spell as normal that
-day. If you do not cast spells prepared in this way before the next time you prepare spells, you
-lose those spells.
-
-**Section:** Knowledge Pool and Medium Armor
-
-**Gained:** At 7th Level
-
-**Special:** You can also cast spells added in this way using your _spell recall_ ability, but only
-until you prepare spells again.
+At 7th level, when a magus prepares his magus spells, he can decide to expend 1 or more points from
+his arcane pool, up to his Intelligence bonus. For each point he expends, he can treat any one spell
+from the magus spell list as if it were in his spellbook and can prepare that spell as normal that
+day. If he does not cast spells prepared in this way before the next time he prepares spells, he
+loses those spells. He can also cast spells added in this way using his spell recall ability, but
+only until he prepares spells again.
 
 #### Medium Armor (Ex) {#medium-armor}
 
-**Gained:** At 7th Level
+At 7th level, a magus gains proficiency with medium armor. A magus can cast magus spells while
+wearing medium armor without incurring the normal arcane spell failure chance. Like any other arcane
+spellcaster, a magus wearing heavy armor or using a shield incurs a chance of arcane spell failure
+if the spell in question has a somatic component.
 
-**Passive:** You gain proficiency with medium armor. You can cast magus spells while wearing medium
-armor without incurring the normal arcane spell failure chance.
+#### Improved Spell Combat (Ex) {#improved-spell-combat}
 
-**Special:** Like any other arcane spellcaster, a magus wearing heavy armor or using a shield incurs
-a chance of arcane spell failure if the spell in question has a somatic component.
-
-#### Improved Spell Combat/ (Ex) {#improved-spell-combat}
-
-**Section:** Improved Spell Combat and Fighter Training
-
-**Gained:** At 8th Level
-
-**Passive:** When using the _spell combat_ ability, you receive a +2 circumstance bonus on
-concentration checks, in addition to any bonus granted by taking an additional penalty on the attack
-roll.
+At 8th level, the magus's ability to cast spells and make melee attacks improves. When using the
+spell combat ability, the magus receives a +2 circumstance bonus on concentration checks, in
+addition to any bonus granted by taking an additional penalty on the attack roll.
 
 #### Fighter Training (Ex) {#fighter-training}
 
-**Ability:** You count 1/2 your total magus level as your fighter level for the purpose of
-qualifying for feats. If you have levels in fighter, these levels stack.
-
-**Gained:** At 10th Level
+Starting at 10th level, a magus counts 1/2 his total magus level as his fighter level for the
+purpose of qualifying for feats. If he has levels in fighter, these levels stack.
 
 #### Improved Spell Recall (Su) {#improved-spell-recall}
 
-**Gained:** At 11th Level
-
-**Passive:** Whenever you recall a spell with _spell recall,_ you expend a number of points from
-your arcane pool equal to 1/2 the spell's level (minimum 1).
-
-**Swift:** Instead of recalling a used spell, you can prepare a spell of the same level that you
-have in your spellbook. You do so by expending a number of points from your arcane pool equal to the
-spell's level (minimum 1). You cannot apply metamagic feats to a spell prepared in this way, and you
-do not need to reference your spellbook to prepare a spell in this way.
+At 11th level, the magus's ability to recall spells using his arcane pool becomes more efficient.
+Whenever he recalls a spell with spell recall, he expends a number of points from his arcane pool
+equal to 1/2 the spell's level (minimum 1). Furthermore, instead of recalling a used spell, as a
+swift action the magus can prepare a spell of the same level that he has in his spellbook. He does
+so by expending a number of points from his arcane pool equal to the spell's level (minimum 1). The
+magus cannot apply metamagic feats to a spell prepared in this way. The magus does not need to
+reference his spellbook to prepare a spell in this way.
 
 #### Heavy Armor (Ex) {#heavy-armor}
 
-**Section:** Other Abilities
-
-**Gained:** At 13th Level
-
-**Passive:** You gain proficiency with heavy armor. You can cast magus spells while wearing heavy
-armor without incurring the normal arcane spell failure chance.
-
-**Special:** Like any other arcane spellcaster, a magus using a shield incurs a chance of arcane
-spell failure if the spell in question has a somatic component.
+At 13th level, a magus gains proficiency with heavy armor. A magus can cast magus spells while
+wearing heavy armor without incurring the normal arcane spell failure chance. Like any other arcane
+spellcaster, a magus using a shield incurs a chance of arcane spell failure if the spell in question
+has a somatic component.
 
 #### Greater Spell Combat (Ex) {#greater-spell-combat}
 
-**Gained:** At 14th Level
-
-**Passive:** Whenever you use the _spell combat_ ability, your concentration check bonus equals
-double the amount of the attack penalty taken.
+At 14th level, the magus gains the ability to seamlessly cast spells and make melee attacks.
+Whenever he uses the spell combat ability, his concentration check bonus equals double the amount of
+the attack penalty taken.
 
 #### Counterstrike (Ex) {#counterstrike}
 
-**Gained:** At 16th Level
-
-**Passive:** Whenever an enemy within reach of you successfully casts a spell defensively, that
-enemy provokes an attack of opportunity from you after the spell is complete. This attack of
-opportunity cannot disrupt the spell.
+At 16th level, whenever an enemy within reach of the magus successfully casts a spell defensively,
+that enemy provokes an attack of opportunity from the magus after the spell is complete. This attack
+of opportunity cannot disrupt the spell.
 
 #### Greater Spell Access (Su) {#greater-spell-access}
 
-**Ability:** You gain access to an expanded spell list. You learn and place 14 spells from the
-wizard's spell list into your spellbook as magus spells of their wizard level. You gain two of each
-of the following wizard spells not on the magus spell list: 0-level, 1st-level, 2nd-level,
-3rd-level, 4th-level, 5th-level, and 6th-level. You can ignore the somatic component of these
-spells, casting them without the normal chance of spell failure.
-
-**Gained:** At 19th Level
+At 19th level, the magus gains access to an expanded spell list. He learns and places 14 spells from
+the wizard's spell list into his spellbook as magus spells of their wizard level. He gains two of
+each of the following wizard spells not on the magus spell list: 0-level, 1st-level, 2nd-level,
+3rd-level, 4th-level, 5th-level, and 6th-level. He can ignore the somatic component of these spells,
+casting them without the normal chance of spell failure.
 
 #### True Magus (Su) {#true-magus}
 
-**Gained:** At 20th Level
+At 20th level, the magus becomes a master of spells and combat. Whenever he uses his spell combat
+ability, he does not need to make a concentration check to cast the spell defensively. Whenever the
+magus uses spell combat and his spell targets the same creature as his melee attacks, he can choose
+to either increase the DC to resist the spell by +2, grant himself a +2 circumstance bonus on any
+checks made to overcome [spell resistance](ref/rule/spell-resistance), or grant himself a +2
+circumstance bonus on all attack rolls made against the target during his turn.
 
-**Passive:** Whenever you use your _spell combat_ ability, you do not need to make a concentration
-check to cast the spell defensively. Whenever you use _spell combat_ and your spell targets the same
-creature as your melee attacks, you can choose to either increase the DC to resist the spell by +2,
-grant yourself a +2 circumstance bonus on any checks made to overcome
-[spell resistance](ref/rule/spell-resistance), or grant yourself a +2 circumstance bonus on all
-attack rolls made against the target during your turn.
+### Magus Spell List {#magus-spell-list}
+
+Magi gain access to the following spells. While most of these spells are found in the _Core
+Rulebook_, those marked with an asterisk (\*) appear in Chapter 5 of this book, and those marked
+with two asterisks (\*\*) appear in the _Advanced Player's Guide_.
 
 ### Alternate Capstones
 
