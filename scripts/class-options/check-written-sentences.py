@@ -305,7 +305,7 @@ def multi_audit(args) -> int:
             fp.configure_book(book)
 
     written = sorted({r["entry"] for r in rows if r["status"] == "written" and r["shape"] in ("multi", "variant")})
-    print_found = print_total = entry_found = entry_total = 0
+    print_found = print_total = entry_found = entry_total = page_ok = 0
     exceptions = []
     for eid in written:
         entry = entries.get(eid)
@@ -317,6 +317,11 @@ def multi_audit(args) -> int:
             exceptions.append(f"{eid}: its printed title is not on p. {page}")
             continue
         printed_text = window_text(anchored[0])
+        head = blocks[blocks.index(anchored[0][0]) - 1] if anchored[0] and anchored[0][0] in blocks else None
+        if head is not None and head.kind == "title" and head.page != page:
+            exceptions.append(f"PAGE {eid}: the entry cites p. {page}, its title is printed on p. {head.page}")
+        else:
+            page_ok += 1
         for r in mine:
             if r["shape"] != "variant":
                 continue
@@ -351,6 +356,7 @@ def multi_audit(args) -> int:
                 exceptions.append(f"ENTRY -> PRINT {eid}: extra: {sentence}")
     print(f"Print -> entry: {print_found} of {print_total} sentences found in {len(written)} written multi-power entries")
     print(f"Entry -> print: {entry_found} of {entry_total} sentences found in printed page text")
+    print(f"Page rows: {page_ok} of {len(written)} written multi-power entries cite the printed page of their title")
     for exc in exceptions:
         print(f"EXCEPTION: {exc}")
     return 1 if exceptions else 0
