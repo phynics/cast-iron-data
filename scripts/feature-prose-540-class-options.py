@@ -693,7 +693,7 @@ def print_decision_may_settle(notes_tag: list[str], problems: list[str], row: di
 STOP_TITLES: set[str] = set()          # squash of the title of every class option: another one ends a section
 
 
-SUFFIXES = ("", "bloodline", "mystery", "school")
+SUFFIXES = ("", "bloodline", "mystery", "school", "domain")
 # The words that a printed neighbour can carry after the name of an option ("Earth", "Earth School", "Earth Bloodline"). A group with another
 # printed suffix ("Domain", "Order", "Patron", ...) needs it added here before its batch: until then its window does not end at that neighbour
 # (the entry holds, "no end title", or the neighbour shows in `--neighbours`), which is safe but not settled.
@@ -872,6 +872,7 @@ def variant_section(blocks: list, bk2, e, missing: list, expected: list[str]):
     specific = {fp.namekey(f.name) for f in missing if not f.name.startswith("Replacement ")}      # "Water Blast", not the generic "Bloodline Arcana"
     want = specific or {fp.namekey(re.sub(r"^Replacement\s+", "", f.name)) for f in missing}
     titles = [i for i, b in enumerate(blocks) if b.kind == "title"]
+    found: list = []                       # --variants (ruling 66): every title of the window that holds a missing power; else the first only
     for n, i in enumerate(titles):
         j = titles[n + 1] if n + 1 < len(titles) else len(blocks)
         op, pfs = fp.split_print([blocks[i]] + blocks[i + 1:j], expected)
@@ -881,7 +882,7 @@ def variant_section(blocks: list, bk2, e, missing: list, expected: list[str]):
         if fp.squash(blocks[i].plain()) in STOP_TITLES - {fp.squash(e.title)}:
             continue                       # the title of another option of the corpus is no variant of this one
         if fp.squash(blocks[i].plain()) == fp.squash(e.title):
-            return None
+            return found or None
         parts = fp.join_wrapped([fp.clean_runs(r) for r in op], bk2.vocab)
         for f in pfs:
             text, _, _ = fp.print_md(f, [], bk2.vocab, e.id)
@@ -897,8 +898,11 @@ def variant_section(blocks: list, bk2, e, missing: list, expected: list[str]):
                     cmp = fp.compare_feature(fp.build_draft(f), text, set(fp.tokens(fp.ABILITY_TAG.sub("", f.name))), set())
                     replaced[f.span_sha()] = {"anchor": fp.anchor_of(f.name), "span": f.span_sha(), "status": cmp.status, "notes": list(cmp.notes) + ["print's "
                                               + fp.head_text(pf.head) + " in the variant"], "print": text, "level_import": None, "head": f.name, "name": f.name}
-        return title, "\n\n".join(parts), replaced, blocks[i].page, n + 1 < len(titles)       # the last: whether another title ends the section
-    return None
+        one = (title, "\n\n".join(parts), replaced, blocks[i].page, n + 1 < len(titles))       # the last: whether another title ends the section
+        if not VARIANTS_ON:
+            return one
+        found.append(one)
+    return found or None
 
 
 MULTI_FENCE = False                  # a multi-power entry holds until its window is anchored at the printed title of the entry (the item-3 PR lifts this)
@@ -1269,6 +1273,56 @@ def print_lost(printed: str, written: str, fixes: list[tuple[str, str]] | None =
     return out
 
 
+def slug_match(a: str, b: str) -> bool:
+    """Two heading keys name one section: equal, or one is the other plus a dash-joined tail ("extradimension-school" and its printed title
+    "Extradimension School (Focused Arcane School)")."""
+    return bool(a and b) and (a == b or a.startswith(b + "-") or b.startswith(a + "-"))
+
+
+def trade_rows_outside(body: str, variants: list[tuple[str, str]]) -> bool:
+    """Ruling 66: a trade row (`**Replaces:**`) of a subdomain or a bloodline variant that print sets as its own section is no trade: the
+    section is print's text, with print's "replaces ..." sentence, and no trade record. `variants` is (title, printed text) of each variant
+    section. True when a trade row stands outside them. A trade row is inside when a heading above it (the import's own, or an ancestor)
+    carries the variant's key, or when the variant's printed text names what the row replaces (the corpus row is print's own sentence)."""
+    slugs = {fp.anchor_of(t) for t, _ in variants}
+    texts = [fp.squash(t) for _, t in variants]
+    stack: list[tuple[int, str]] = []
+    for ln in body.split("\n"):
+        m = re.match(r"^(#{1,6})\s+(.*?)(?:\s*\{#[^}]+\})?\s*$", ln)
+        if m:
+            level = len(m.group(1))
+            while stack and stack[-1][0] >= level:
+                stack.pop()
+            stack.append((level, fp.slugify(fp.ABILITY_TAG.sub("", m.group(2)))))
+        elif TRADE_LABEL.match(ln):
+            if any(slug_match(slug, v) for _, slug in stack for v in slugs):
+                continue
+            target = re.sub(r"^\*\*[^*]+:\*\*\s*", "", ln).strip().rstrip(".")
+            target = re.sub(r"^(?:the|a|an)\s+", "", target, flags=re.I)
+            target = re.sub(r"\s+(?:domain\s+)?(?:power|ability|bloodline power|domain power)\b.*$|\s+of the .*$", "", target, flags=re.I)
+            key = fp.squash(target)
+            if key and any(key in t for t in texts):
+                continue
+            return True
+    return False
+
+
+def source_pages(pg: str) -> list[int]:
+    """The pages that a source row names for the print compare of a second source: "88" is one window; with --variants (ruling 66) a list
+    "88, 97" is one window per page and a range "146-147" is the window of its first page (a window reads three pages on). Anything else, none."""
+    if pg.isdigit():
+        return [int(pg)]
+    if not VARIANTS_ON:
+        return []
+    out = []
+    for part in pg.split(","):
+        m = re.fullmatch(r"\s*(\d+)\s*(?:[-\u2013]\s*\d+)?\s*", part)
+        if not m:
+            return []
+        out.append(int(m.group(1)))
+    return out
+
+
 def compare_one(e, book, bk, other=None) -> list[dict]:
     """The rows of one entry: one per power, from the shared print comparison of the archetype pass."""
     shape, n = shape_of(e.body)
@@ -1304,6 +1358,8 @@ def compare_one(e, book, bk, other=None) -> list[dict]:
     blocks = fp.read_blocks(bk, max(1, page + fp.PAGE_OFFSET[0] - 1), min(last + fp.PAGE_OFFSET[0], max(bk.pages)))
     if book == "core-rulebook":
         blocks = core_rulebook_table_heads(blocks)
+        if shape == "multi" and VARIANTS_ON:
+            blocks = core_rulebook_class_tables(blocks)
     unanchored = False
     if shape == "multi":
         anchored = anchor_section(blocks, e.title, {fp.squash(fp.ABILITY_TAG.sub("", n_)) for n_, _ in powers}, group_kind(e))
@@ -1340,27 +1396,28 @@ def compare_one(e, book, bk, other=None) -> list[dict]:
     where = {}                                       # span -> "Publication p. N" of a power that another source of the entry prints
     noend: set[str] = set()                          # spans found in a second-source window that has no end title: they hold
     variants: list[tuple[str, str, tuple]] = []      # (book, page, (title, text, replaced rows)) of a variant section (ruling 65)
+    def not_printed(sp):                    # no row, or the print comparison found no head on the cited pages
+        return sp not in by_span or any("head not printed" in n_ for n_ in by_span[sp]["notes"])
     for src in (e.data.get("sources") or [])[1:]:
-        pub, pg = src.get("publication"), str(src.get("page", ""))
-        def not_printed(sp):                    # no row, or the print comparison found no head on the cited pages
-            return sp not in by_span or any("head not printed" in n_ for n_ in by_span[sp]["notes"])
-        missing = [f for f in feats if not_printed(f.span_sha())]
-        if not missing or other is None or not pg.isdigit():
-            continue
-        power_keys = {fp.namekey(n_) for n_, _ in powers}
-        got = other(pub, int(pg), e, shape, [f for f in missing if fp.namekey(f.name) in power_keys], [f.name for f in feats])      # the variant is found by powers, not by section labels
-        if got is None:
-            continue
-        got, var, ended2 = got
-        if var:
-            variants.append((pub, pg, var))
-            got = dict(got, **var[2])
-        for sp, r2 in got.items():
-            if not_printed(sp) and not any("head not printed" in n_ for n_ in r2["notes"]):
-                by_span[sp] = r2
-                where[sp] = (pub, pg)
-                if not ended2:
-                    noend.add(sp)
+        pub, pgs = src.get("publication"), str(src.get("page", ""))
+        for pg in source_pages(pgs):                # a page list ("88, 97") is one window per page (ruling 66, with --variants)
+            missing = [f for f in feats if not_printed(f.span_sha())]
+            if not missing or other is None:
+                break
+            power_keys = {fp.namekey(n_) for n_, _ in powers}
+            got = other(pub, pg, e, shape, [f for f in missing if fp.namekey(f.name) in power_keys], [f.name for f in feats])      # the variant is found by powers, not by section labels
+            if got is None:
+                continue
+            got, var, ended2 = got
+            for v in (var if isinstance(var, list) else [var] if var else []):
+                variants.append((pub, str(pg), v))
+                got = dict(got, **v[2])
+            for sp, r2 in got.items():
+                if not_printed(sp) and not any("head not printed" in n_ for n_ in r2["notes"]):
+                    by_span[sp] = r2
+                    where[sp] = (pub, str(pg))
+                    if not ended2:
+                        noend.add(sp)
     rows, seen = [], Counter()
     _, raw_pfs = fp.split_print(section, [f.name for f in feats])               # the printed span of each power, before the comparison cuts or joins anything
     raw_text = {fp.namekey(fp.head_text(pf.head)): " ".join("".join(x[0] for x in para) for para in pf.paras) for pf in raw_pfs}
@@ -1376,7 +1433,7 @@ def compare_one(e, book, bk, other=None) -> list[dict]:
     outside = outside_rows(e0.body) if shape == "single" else []        # a multi-power entry's other sections are rows of their own (below)
     if outside:
         problems.append("import rows outside the powers (" + ", ".join(outside[:4]) + ") are not transcribed from print yet")
-    if TRADE_LABEL.search(e0.body):
+    if trade_rows_outside(e0.body, [(v[2][0], v[2][1]) for v in variants]) if VARIANTS_ON else TRADE_LABEL.search(e0.body):
         problems.append("a trade row (Replaces/Alters): class-option trades are not written yet")
     taken = set(re.findall(r"\{#([^}]+)\}", e0.body))
     plinks = prereq_links(e0.body)
@@ -1538,7 +1595,7 @@ def compare_one(e, book, bk, other=None) -> list[dict]:
 
 
 VARIANTS_ON = False                  # ruling 65 variants stay held until a reviewer has read the first settled one (`--variants` turns this on)
-PRINT_ONLY_OK = {"classskill", "classskills", "bonusspells", "bonusfeats", "deities"}      # the sections that print sets for every class option of a kind
+PRINT_ONLY_OK = {"classskill", "classskills", "bonusspells", "bonusfeats", "deities", "deity", "grantedpower", "grantedpowers", "domainspells"}      # the sections that print sets for every class option of a kind
 
 
 def add_sections(e, power_rows: list[dict], res: dict, feats: list, powers: list, by_name: dict, base: dict, book: str,
@@ -1574,6 +1631,7 @@ def add_sections(e, power_rows: list[dict], res: dict, feats: list, powers: list
         anchors_seen[r_["anchor"]] += 1
         status = r_["status"] if not problems and anchors_seen[r_["anchor"]] == 1 else "hold"
         notes = list(r_["notes"]) + ([f"anchor collision: {r_['anchor']}"] if anchors_seen[r_["anchor"]] > 1 else []) + problems
+        hard = anchors_seen[r_["anchor"]] > 1
         label = r_["head"]
         if "head printed, not in the import" in " ".join(r_["notes"]) and fp.squash(re.sub(r"\s*\(.*$", "", label)) not in PRINT_ONLY_OK:
             notes.append("a section that print sets and the import lacks: not settled (a bold head of a table or of another option can read as one)")
@@ -1584,10 +1642,16 @@ def add_sections(e, power_rows: list[dict], res: dict, feats: list, powers: list
         cut = incomplete_paragraph(r_["print"])
         if cut:
             notes.append(f"print text may be cut at a page or column break: ...{cut}")
-            status = "hold"
+            status, hard = "hold", True
         if re.match(r"^(?:- |\* |\||\d+[.)] )", r_["print"].lstrip()):
             notes.append("the section opens with a list or a table: not settled (the run-in label cannot lead it)")
-            status = "hold"
+            status, hard = "hold", True
+        if re.search(r"[a-z][A-Z]", label):
+            hard = True
+        decided = DECISIONS.get((e.id, r_["anchor"]))
+        if decided and decided[0] == "print" and status == "hold" and not problems and not hard:
+            status = "print"                      # a reviewed decision settles the reader's number, rule-word and link holds of a section (ruling 3)
+            notes.append(f"decision: {decided[1]}")
         ordered.append(dict(sec, feature=r_["head"], anchor=r_["anchor"], verdict={"draft": "agree", "print": "differ", "hold": "hold"}[r_["status"]],
                             status=status, span_sha256=r_["span"], note="; ".join(notes)[:400], print=r_["print"],
                             print_sha256=hashlib.sha256(r_["print"].encode()).hexdigest()))
@@ -1595,10 +1659,16 @@ def add_sections(e, power_rows: list[dict], res: dict, feats: list, powers: list
     olds = old_heading_levels(e.body)
     for pub, pg, (vtitle, vtext, _, vpage, vended) in variants or []:             # ruling 65: the variant is its own unlisted section, with its book and the printed page
         theirs = [r for r in ordered if r["shape"] == "multi" and r["book"] == pub]
+        if VARIANTS_ON:
+            theirs = [r for r in theirs if r["print"] and norm(r["print"]) in norm(vtext)]       # ruling 66: the powers of this window that lie in its text (a book can print two variants of an entry)
+            for r in theirs:
+                if r["status"] == "hold" and not r["note"].startswith("head not printed"):
+                    r["status"] = "print"         # the power is written as part of the variant section: print's text, with its own differences from the corpus noted
+                    r["note"] = (r["note"] + "; " if r["note"] else "") + f"ruling 66: the text is the variant section's ({vtitle})"
         inside = bool(theirs) and all(norm(r["print"]) in norm(vtext) for r in theirs if r["print"])        # every power that it holds lies inside its text (and it holds one)
         vslug = fp.anchor_of(vtitle)
         # the import has a heading for it ("### Seaborn (Wildblooded Mutation)"): the section keeps that heading's key, written out
-        old = next((s for s in olds if s == vslug or s.startswith(vslug + "-")), vslug)
+        old = next((s for s in olds if slug_match(s, vslug)), vslug)
         ordered.append(dict(sec, shape="variant", feature=vtitle, anchor=old, book=pub, page=str(vpage), verdict="agree",
                             status="hold" if (any(r["status"] == "hold" for r in theirs) or problems or not inside or not vended or not VARIANTS_ON or incomplete_paragraph(vtext)) else "print",
                             span_sha256="",
@@ -1606,7 +1676,21 @@ def add_sections(e, power_rows: list[dict], res: dict, feats: list, powers: list
                             + ("" if vended else "; its section has no end title") + ("" if VARIANTS_ON else "; variants are held until a reviewer has read the first settled one (--variants)")
                             + (f"; print text may be cut: ...{incomplete_paragraph(vtext)}" if incomplete_paragraph(vtext) else ""), print=vtext,
                             print_sha256=hashlib.sha256(vtext.encode()).hexdigest()))
+    if VARIANTS_ON:
+        vslugs = {fp.anchor_of(v[2][0]) for v in variants or []}
+        for r in ordered:          # an import power that print has no head for, in the import's section of a variant that print sets: the section is print's text (ruling 66)
+            sec_slug = fp.slugify(fp.ABILITY_TAG.sub("", r.get("section", ""))) if r.get("section") else ""
+            if (r["shape"] == "multi" and r["status"] == "hold" and r["note"].startswith("head not printed") and not r["print"]
+                    and sec_slug and any(slug_match(sec_slug, v) for v in vslugs)):
+                r["status"] = "print"
+                r["note"] = r["note"] + "; ruling 66: it is part of the import's section of a variant that print sets; the text is the section's"
+        texts = [norm(v[2][1]) for v in variants or []]
+        for r in ordered:      # a power that another book prints must lie in a variant section: the writer leaves it out of the body (it is the section's text)
+            if r["shape"] == "multi" and r["book"] != book and r["status"] in SETTLED and not any(r["print"] and norm(r["print"]) in t for t in texts):
+                r["status"] = "hold"
+                r["note"] = (r["note"] + "; " if r["note"] else "") + f"printed in {r['book']} p. {r['page']}, but no variant section holds its text"
     have = {fp.slugify(fp.ABILITY_TAG.sub("", r["feature"])) for r in ordered} | {r["anchor"] for r in ordered if r["shape"] == "variant"}
+    have |= {SECTION_ALIASES[x] for x in list(have) if x in SECTION_ALIASES}
     for slug in olds:
         if slug not in have:
             for r in ordered:
@@ -1744,6 +1828,9 @@ def run_compare(args) -> int:
     install_split(names + (["Master Strike (Ex)"] if book == "core-rulebook" else []), book)
     STOP_TITLES.clear()
     STOP_TITLES.update(fp.squash(re.sub(r"\s*\((?:[A-Z]{2,4}|HotW)\)\s*$", "", x.title)) for x in load_class_options(corpus))
+    if book == "core-rulebook" and VARIANTS_ON:      # the title that opens the next chapter of the book ends the last option of a class (the Weather domain, the Undead bloodline, the Universalist school)
+        STOP_TITLES.update(fp.squash(x) for x in ("Barbarian", "Bard", "Cleric", "Druid", "Fighter", "Monk", "Paladin", "Ranger", "Rogue", "Sorcerer", "Wizard", "Familiars",
+                                                  "Class Skills", "Class Features"))
     fp.KNOWN_OPTIONS[:] = [fp.item_tokens(x.title) for x in load_class_options(corpus)]      # ruling 60: a sentence that names a longer option holds
     REVIEWED.update(reviewed_spans(corpus))
     DECISIONS.clear()
@@ -2038,6 +2125,80 @@ def core_rulebook_table_heads(blocks: list) -> list:
     return out
 
 
+CELL_TOKEN = re.compile(r"^(?:[+\-\u2013\u2014]?\d+(?:/[+\-\u2013\u2014]?\d+)*(?:st|nd|rd|th)?|[\u2014\u2013-])$")
+TABLE_HEADER_WORDS = {"level", "base", "attack", "bonus", "fort", "ref", "will", "save", "special", "spells", "per", "day", "known"}
+TABLE_SPECIALS = ("Bonus feat", "Arcane apotheosis", "Bloodline feat", "Bonus Feat")
+
+
+def cut_runs(runs: list, offset: int) -> list:
+    """The runs of a paragraph from the character `offset` of its plain text on."""
+    out, at = [], 0
+    for text, bold, italic in runs:
+        end = at + len(text)
+        if end > offset:
+            out.append((text[max(0, offset - at):], bold, italic))
+        at = end
+    return out
+
+
+def table_tail(text: str) -> int | None:
+    """Where the prose begins in the text of a table paragraph, or None when the paragraph is the table alone. The CRB text layer glues the
+    sentence that a table interrupts (Table 3-16 sits inside the abjurer's Resistance) to the end of the table: after the 20th-level row of a
+    class table, or after the run of cells that opens the paragraph (the last "Spells per Day" row)."""
+    last = None
+    for m in re.finditer(r"\b20th\b(?:\s+(?:[+\-\u2013\u2014]?\d+(?:/[+\-\u2013\u2014]?\d+)*|[\u2014\u2013-]))+", text):
+        last = m
+    if last is not None:
+        end = last.end()
+        m = re.match(r"\s+(?:%s)\b" % "|".join(re.escape(x) for x in TABLE_SPECIALS), text[end:])
+        return end + (m.end() if m else 0)
+    tokens = list(re.finditer(r"\S+", text))
+    n = 0
+    while n < len(tokens) and (CELL_TOKEN.match(tokens[n].group()) or tokens[n].group().casefold() in TABLE_HEADER_WORDS):
+        n += 1
+    return tokens[n - 1].end() if n >= 6 and n < len(tokens) else None
+
+
+def core_rulebook_class_tables(blocks: list) -> list:
+    """The CRB class tables (3-15 Sorcerer, 3-16 Wizard, "Spells per Day") that the text layer sets inside the prose of a bloodline or an arcane
+    school are no text of the option: dropped, and a sentence that a table interrupted is joined again (a multi-power window only)."""
+    out: list = []
+    in_table = False
+    for b in blocks:
+        if b.kind == "title" and re.match(r"^Table\s+\d+[\u2013-]\d+", b.plain()):
+            in_table = True
+            continue
+        if b.kind != "para":
+            in_table = False
+            out.append(b)
+            continue
+        plain = b.plain()
+        text = " ".join(plain.split())
+        words = text.split()
+        cellish = sum(1 for w in words if CELL_TOKEN.match(w) or w.strip(",").casefold() in TABLE_HEADER_WORDS)
+        starts_table = bool(re.match(r"^(?:Spells per Day|Spells Known|Base\s+Attack)", text))
+        if starts_table:
+            in_table = True
+        if in_table and words and (starts_table or cellish / len(words) >= 0.5 or CELL_TOKEN.match(words[0])):
+            end = table_tail(plain)
+            if end is not None and end < len(plain.rstrip()):
+                tail = cut_runs(b.runs, end)
+                if tail and tail[0][0].strip():
+                    tail[0] = (tail[0][0].lstrip(), tail[0][1], tail[0][2])
+                    b = fp.Para("para", tail, b.page, b.col, b.size)
+                    text = " ".join(b.plain().split())
+                    if out and out[-1].kind == "para" and not paragraph_complete(out[-1].plain()) and text[:1].islower():
+                        prev = out.pop()
+                        b = fp.Para("para", list(prev.runs) + [(" ", False, False)] + list(b.runs), prev.page, prev.col, prev.size)
+                    out.append(b)
+                    in_table = False
+                    continue
+            continue                                              # the table alone
+        in_table = False
+        out.append(b)
+    return out
+
+
 def clean_core_rulebook_print(entry_id: str, text: str) -> str:
     """Remove only the two Bard tables that the CRB text layer interleaves with these power spans."""
     if entry_id == "ref/performance/countersong":
@@ -2159,6 +2320,9 @@ def old_heading_levels(body: str) -> dict[str, int]:
     return out
 
 
+SECTION_ALIASES = {"deity": "deities"}      # print's "Deity: Erastil." for a domain with one god is the import's `### Deities`
+
+
 def convert_multi(eid: str, rows: list[dict], props: dict, old_keys: frozenset | set = frozenset(), old_levels: dict | None = None,
                   entry_book: str = "") -> tuple[str, list[tuple[str, int | None]]]:
     """The body of a multi-power entry from its rows, in print order (rulings 64 and 65):
@@ -2175,6 +2339,8 @@ def convert_multi(eid: str, rows: list[dict], props: dict, old_keys: frozenset |
     parts: list[str] = []
     features: list[tuple[str, int | None]] = []
     for r in rows:
+        if r["shape"] == "multi" and has_variant and (eid, r["anchor"]) not in props:
+            continue                                            # an import power that print has no head for, inside a variant section (ruling 66): the section is its text
         text = props[(eid, r["anchor"])]
         if r["shape"] == "section" and r["anchor"] == "opening":
             parts.append(text)
@@ -2183,7 +2349,12 @@ def convert_multi(eid: str, rows: list[dict], props: dict, old_keys: frozenset |
         if r["shape"] == "multi" and has_variant and entry_book and r["book"] != entry_book:
             continue                                            # held by the variant section
         if r["shape"] == "section":
-            level = old_levels.get(fp.slugify(fp.ABILITY_TAG.sub("", r["feature"])))
+            slug = fp.slugify(fp.ABILITY_TAG.sub("", r["feature"]))
+            level = old_levels.get(slug)
+            alias = SECTION_ALIASES.get(slug) if not level and SECTION_ALIASES.get(slug) in old_levels else None
+            if alias:
+                level = old_levels[alias]
+                head += f" {{#sec-{alias}}}"             # print's label ("Deity") is not the import's heading ("Deities"): the key stays
             if level:
                 parts += ["#" * level + " " + head, text]
             else:
@@ -2322,7 +2493,7 @@ def run_write(args) -> int:
         for r in mine:
             if r["shape"] == "section":
                 continue
-            texts[r["span_sha256"]] = props[(e.id, r["anchor"])]
+            texts[r["span_sha256"]] = props.get((e.id, r["anchor"]), "")
             levels[r["span_sha256"]] = int(r["level"]) if r["level"] else None
             anchors[r["span_sha256"]] = r["anchor"]
         if shape == "multi":
@@ -3238,11 +3409,11 @@ def main() -> int:
         return self_test()
     if args.audit:
         return run_audit(args)
-    if args.compare:
-        return run_compare(args)
     if args.variants:
         global VARIANTS_ON
         VARIANTS_ON = True
+    if args.compare:
+        return run_compare(args)
     if args.neighbours:
         return run_neighbours(args)
     if args.ability_type:
