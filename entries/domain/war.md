@@ -20,117 +20,76 @@ page = "18"
 [fields]
 kind = "class_option"
 group = "cleric-domain"
+features = [
+  { anchor = "battle-rage" },
+  { anchor = "weapon-master", level = 8 },
+]
 +++
+
+### Deities
+
+Gorum, Iomedae, Rovagug, Urgathoa.
 
 **Granted Powers:** You are a crusader for your god, always ready and willing to fight to defend
 your faith.
 
-**Battle Rage (Sp)**
+## Battle Rage (Sp) {#battle-rage}
 
-**Standard:** You can touch a creature to give it a bonus on melee damage rolls equal to 1/2 your
-cleric level for 1 round (minimum +1).
+You can touch a creature as a standard action to give it a bonus on melee damage rolls equal to 1/2
+your cleric level (minimum +1) for 1 round. You can do so a number of times per day equal to 3 +
+your Wisdom modifier.
 
-**Usage:** 3 + Wisdom modifier times/day
+## Weapon Master (Su) {#weapon-master}
 
-**Weapon Master (Su)**
+At 8th level, as a swift action, you gain the use of one combat feat for a number of rounds per day
+equal to your cleric level. These rounds do not need to be consecutive and you can change the feat
+chosen each time you use this ability. You must meet the prerequisites to use this feat.
 
-**Gained:** At 8th Level
+**Domain Spells:** 1st—_magic weapon_, 2nd—_spiritual weapon_, 3rd—_magic vestment_, 4th—_divine
+power_, 5th—_flame strike_, 6th—_blade barrier_, 7th—_power word blind_, 8th—_power word stun_,
+9th—_power word kill_.
 
-**Swift:** You gain the use of one combat feat. You can change the feat chosen each time you use
-this ability. You must meet the prerequisites to use this feat.
+## Blood Subdomain {#sec-blood-subdomain}
 
-**Usage:** 1 time/day per cleric level
+**Associated Domain:** War.
 
-**Domain Spells**
+**Replacement Power:** The following granted power replaces the weapon master power of the War
+domain.
 
-1. magic weapon
-1. spiritual weapon
-1. magic vestment
-1. divine power
-1. flame strike
-1. blade barrier
-1. power word blind
-1. power word stun
-1. power word kill
+**Wounding Blade (Su):** At 8th level, you can give a weapon that you touch the
+_[wounding](ref/magic-enh/wounding)_ special weapon quality for a number of rounds equal to 1/2 your
+cleric level. You can use this ability once per day at 8th level, and an additional time per day for
+every four levels beyond 8th.
 
-### Blood Subdomain
+**Replacement Domain Spells:** 3rd—_vampiric touch_, 5th—_wall of thorns_, 7th—_inflict serious
+wounds (mass)_.
 
-**Sources:** Advanced Player's Guide pg 87
+## Tactics Subdomain {#sec-tactics-subdomain}
 
-**Associated Deities:** Achaekek, Ajids, Akuma, Chaugnar Faugn, Chugarra, Deskari, Eiseth, Flauros,
-Fumeiyoshi, General Susumu, Gorum, Hadregash, Izyagna, Kitumu, Nergal, Nulgreth, Ovonovo, Rovagug,
-Sekhmet, Shiggarreb, Sobek, Szuriel, Tamede, Thremyr, Urazra, Urgathoa, Xiquiripat, Zura,
-Zursvaater, Zyphus
+**Associated Domain:** War.
 
-**Wounding Blade (Su)**
+**Replacement Power:** The following granted power replaces the battle rage power of the War domain.
 
-**Gained:** At 8th Level
+**Seize the Initiative (Su):** Whenever you and your allies roll for initiative, you can grant one
+ally within 30 feet the ability to roll twice and take either result. This decision is made before
+results are revealed. You can use this ability a number of times per day equal to 3 + your Wisdom
+modifier.
 
-**Standard:** You can give a weapon that you touch the [wounding](ref/magic-enh/wounding) special
-weapon quality for a number of rounds equal to 1/2 your cleric level.
+**Replacement Domain Spells:** 2nd—_aid_, 5th—_command (greater)_, 8th—_planar ally (greater)_.
 
-**Usage:** 1 time/day + 1 per 4 cleric levels beyond 8th
+## Duels Subdomain {#sec-duels-subdomain}
 
-**Replaces:** The weapon master power of the War domain
+**Associated Domain:** War.
 
-**Replacement Domain Spells**
+**Associated Deities:** Besmara, Chaldira Zuzaristan, Gorum, Iomedae.
 
-**3rd:** vampiric touch
+**Replacement Power:** The following granted power replaces the battle rage power of the War domain.
 
-**5th:** wall of thorns
+**Divine Challenge (Su):** As a swift action, you can challenge a visible foe within 30 feet,
+gaining a +1 sacred bonus to your AC against that creature's attacks and a bonus equal to 1/2 your
+cleric level on Bluff skill checks to feint against it. These bonuses last for a number of rounds
+equal to 1/2 your cleric level. You can use this ability a number of times per day equal to 3 + your
+Wisdom modifier.
 
-**7th:** mass inflict serious wounds
-
-### Duels Subdomain
-
-**Associated Deities:** Besmara, Chaldira Zuzaristan, Gorum, Iomedae
-
-**Divine Challenge (Su)**
-
-**Swift:** You can challenge a visible foe within 30 feet, gaining a +1 sacred bonus to your AC
-against that creature's attacks and a bonus equal to 1/2 your cleric level on Bluff skill checks to
-feint against it. These bonuses last for a number of rounds equal to 1/2 your cleric level.
-
-**Usage:** 3 + Wisdom modifier times/day
-
-**Replaces:** The battle rage power of the War domain
-
-**Replacement Domain Spells**
-
-**2nd:** warding weapon
-
-**5th:** dance of a hundred cuts
-
-**8th:** dance of a thousand cuts
-
-### Tactics Subdomain
-
-**Associated Deities:** Acavna, Achaekek, Akuma, Angradd, Arqueros, Besmara, Chaldira, Chaugnar
-Faugn, Cihua Couatl, Deskari, Fumeiyoshi, General Susumu, Gorum, Iomedae, Izyagna, Kostchtchie,
-Malacoda, Moloch, Neith, Psomeira, Ruapceras, Shiggarreb, Smiad, Szuriel, Thremyr, Urazra, Varg,
-Ydersius, Ymeri, Zelishkar
-
-**Seize the Initiative (Su)**
-
-**Ability:** Whenever you and your allies roll for initiative, you can grant one ally within 30 feet
-the ability to roll twice and take either result. This decision is made before results are revealed.
-
-**Usage:** 3 + Wisdom modifier times/day
-
-**Replaces:** The battle rage power of the War domain
-
-**Replacement Domain Spells**
-
-**2nd:** aid
-
-**5th:** greater command
-
-**8th:** greater planar ally
-
-### Deities
-
-**These Deities Grant This Domain:** Acavna, Achaekek, Ajids, Akuma, Angradd, Arqueros, Besmara,
-Chaldira, Chaugnar Faugn, Chugarra, Cihua Couatl, Deskari, Eiseth, Flauros, Fumeiyoshi, General
-Susumu, Gorum, Hadregash, Iomedae, Izyagna, Kitumu, Kostchtchie, Malacoda, Moloch, Mrtyu, Neith,
-Nergal, Nulgreth, Psomeira, Rovagug, Ruapceras, Sekhmet, Shiggarreb, Smiad, Sobek, Szuriel, Tamede,
-Thremyr, Urazra, Urgathoa, Varg, Xiquiripat, Ydersius, Ymeri, Zelishkar, Zursvaater, Zyphus
+**Replacement Domain Spells:** 2nd—_warding weapon_, 5th—_dance of a hundred cuts_, 8th—_dance of a
+thousand cuts_.
