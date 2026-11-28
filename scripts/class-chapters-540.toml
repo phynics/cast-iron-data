@@ -682,3 +682,66 @@ before = "wild-empathy"
 key = "alternate-natural-attacks"
 head = "Alternate Natural Attacks (Wilderness Origins page 8)"
 text = """A shifter can draw on her chosen animal aspect to transform her hands into deadly weapons, as represented by the shifter's claws class feature, but not every animal has prominent claws. The following list provides alternate natural attacks for the shifter claws class feature. Each time the shifter activates her shifter's claws ability in her natural form, she can manifest one of the alternate natural attacks listed below for any of her chosen aspects, or those that relate to her archetype. Each alternate natural attack replaces one of the shifter's claw attacks. The shifter can gain up to two different alternate natural attacks with this method. These alternate natural attacks modify only the damage type of the shifter's natural attacks and otherwise function exactly as the shifter claws class feature."""
+
+# Pathfinder Unchained (phynics/cast-iron#540). The Unchained Barbarian's Guarded Stance is the Unchained one (p. 11), not the Core Rulebook's.
+[[option_pick]]
+class = "ref/class/unchained-barbarian"
+name = "Guarded Stance"
+entry = "ref/ragepower/guarded-stance-stance"
+
+# A rage power that print lists and that has no entry (Shove Aside, p. 12): print's text stays under Rage Powers as a sub-head, and the list goes on after it.
+[[class]]
+id = "ref/class/unchained-barbarian"
+extra_heads = ["Shove Aside"]
+
+[[place_under]]
+class = "ref/class/unchained-barbarian"
+key = "shove-aside"
+under = "rage-powers"
+
+# The lists of rage powers of other books that the Unchained Barbarian uses unaltered (p. 12-13) are sections under Rage Powers; the end of the sentence of Improved Uncanny Dodge ("... stack to determine the minimum
+# level required to flank the barbarian.") stands behind them in the text layer and goes back to its feature.
+[[place_under]]
+class = "ref/class/unchained-barbarian"
+key = "unmodified-rage-powers"
+under = "rage-powers"
+
+[[place_under]]
+class = "ref/class/unchained-barbarian"
+key = "advanced-player-s-guide"
+under = "rage-powers"
+
+[[place_under]]
+class = "ref/class/unchained-barbarian"
+key = "ultimate-campaign"
+under = "rage-powers"
+
+[[layout_fix]]
+class = "ref/class/unchained-barbarian"
+key = "ultimate-campaign"
+find = " stack to determine the minimum level required to flank the barbarian."
+replace = ""
+
+[[layout_fix]]
+class = "ref/class/unchained-barbarian"
+key = "improved-uncanny-dodge"
+find = "re:grant uncanny dodge$"
+replace = "grant uncanny dodge stack to determine the minimum level required to flank the barbarian."
+
+# The Unchained Rogue's talents that the Advanced Player's Guide also prints (one group for the Rogue and the Unchained Rogue): the Unchained ones (pp. 21-22).
+[[option_pick]]
+class = "ref/class/unchained-rogue"
+name = "Coax Information"
+entry = "ref/talent/coax-information-unchained-rogue"
+
+[[option_pick]]
+class = "ref/class/unchained-rogue"
+name = "Nimble Climber"
+entry = "ref/talent/nimble-climber"
+
+# The Unchained Summoner: the lead-in of the section "Eidolons" (p. 28: what the base statistics are, link, share spells, evasion, multiattack) is a section of the class (the entry of the Unchained eidolon has it in the import's words); the skills, the subtypes, the base forms, the evolutions and the spell list that follow are other entries'.
+[[class]]
+id = "ref/class/unchained-summoner"
+gap_stop = "Eidolons"
+lead_key = "unchained-eidolons"
+lead_title = "Eidolons"

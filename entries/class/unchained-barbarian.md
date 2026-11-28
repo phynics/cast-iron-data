@@ -19,6 +19,19 @@ kind = "class"
 class_type = "unchained"
 hit_die = "d12"
 skill_ranks = "4 + Int modifier"
+features = [
+  { anchor = "fast-movement", level = 1 },
+  { anchor = "rage", level = 1 },
+  { anchor = "rage-powers", level = 2 },
+  { anchor = "uncanny-dodge", level = 2 },
+  { anchor = "danger-sense", level = 3 },
+  { anchor = "improved-uncanny-dodge", level = 5 },
+  { anchor = "damage-reduction", level = 7 },
+  { anchor = "greater-rage", level = 11 },
+  { anchor = "indomitable-will", level = 14 },
+  { anchor = "tireless-rage", level = 17 },
+  { anchor = "mighty-rage", level = 20 },
+]
 +++
 
 For some heroes, the rage that lives within them can't be contained. Whether this fury is a product
@@ -78,158 +91,204 @@ has been adjusted to make them more useful and interesting.
 |19th|+19/+14/+9/+4|+11|+6|+6|[Damage reduction](ref/rule/damage-reduction) 5/-|
 |20th|+20/+15/+10/+5|+12|+6|+6|Mighty rage, rage power|
 
-#### Weapon and Armor Proficiencies {#weapon-and-armor-proficiencies}
+All of the following are class features of the barbarian.
 
-**Weapons:** All simple weapons, All martial weapons
+#### Weapon and Armor Proficiency {#weapon-and-armor-proficiencies}
 
-**Armor:** Light armor, Medium armor
-
-**Shields:** Yes, except tower shields
+A barbarian is proficient with all simple and martial weapons, light armor, medium armor, and
+shields (except tower shields).
 
 #### Fast Movement (Ex) {#fast-movement}
 
-**Gained:** At 1st Level
-
-**Passive:** Your land speed is faster than the norm for your race by +10 feet.
-
-**Special:** This benefit applies only when you are wearing no armor, light armor, or medium armor,
-and not carrying a heavy load. Apply this bonus before modifying your speed because of any load
-carried or armor worn. This bonus stacks with any other bonuses to your land speed.
+A barbarian's base speed is faster than the norm for her race by 10 feet. This benefit applies only
+when she is wearing no armor, light armor, or medium armor, and not carrying a heavy load. Apply
+this bonus before modifying the barbarian's speed because of any load carried or armor worn. This
+bonus stacks with any other bonuses to the barbarian's base speed.
 
 #### Rage (Ex) {#rage}
 
-**Flavor:** A barbarian can call upon inner reserves of strength and ferocity, granting her
-additional combat prowess.
+A barbarian can call upon inner reserves of strength and ferocity, granting her additional combat
+prowess. At 1st level, a barbarian can rage for a number of rounds per day equal to 4 + her
+Constitution modifier. For each level after 1st she possesses, the barbarian can rage for 2
+additional rounds per day. Temporary increases to Constitution, such as that gained from
+_[bear's endurance](ref/spell/bears-endurance)_, do not increase the total number of rounds that a
+barbarian can rage per day. A barbarian can enter a rage as a free action. The total number of
+rounds of rage per day is renewed after resting for 8 hours, although these hours need not be
+consecutive.
 
-**Free:** You can enter (or end) a _rage._ You gain a +2 bonus on melee attack rolls, melee damage
-rolls, thrown weapon damage rolls, and Will saving throws. You gain 2
-[temporary hit points](ref/rule/temporary-hit-points) per Hit Die. These temporary hit points are
-lost first when a character takes damage, disappear when the _rage_ ends, and are not replenished if
-you enter a _rage_ again within 1 minute of your previous _rage._
+While in a rage, a barbarian gains a +2 bonus on melee attack rolls, melee damage rolls, thrown
+weapon damage rolls, and Will saving throws. In addition, she takes a -2 penalty to Armor Class. She
+also gains 2 [temporary hit points](ref/rule/temporary-hit-points) per Hit Die. These temporary hit
+points are lost first when a character takes damage, disappear when the rage ends, and are not
+replenished if the barbarian enters a rage again within 1 minute of her previous rage. While in a
+rage, a barbarian cannot use any Charisma-, Dexterity-, or Intelligence-based skill (except
+Acrobatics, Fly, Intimidate, and Ride) or any ability that requires patience or concentration (such
+as spellcasting).
 
-**Gained:** At 1st Level
-
-**Passive:** While in _rage,_ you take a -2 penalty to Armor Class, and you cannot use any
-Charisma-, Dexterity-, or Intelligence-based skills (except Acrobatics, Fly, Intimidate, and Ride)
-or any ability that requires patience or concentration. You are [fatigued](ref/misc/fatigued) for 1
-minute after the _rage_ ends. You cannot enter a new _rage_ while fatigued or
-[exhausted](ref/misc/exhausted) but can otherwise enter _rage_ multiple times during a single
-encounter or combat. If you fall unconscious, your _rage_ immediately ends.
-
-**Special:** Temporary increases to Constitution, such as those gained from _rage_ and spells like
-[bear's endurance](ref/spell/bears-endurance), do not increase the total number of rounds that a
-barbarian can _rage_ per day. The total number of rounds of _rage_ per day is renewed after resting
-for 8 hours, although these hours do not need to be consecutive.
-
-**Usage:** 2 rounds/day + double your barbarian level + your Constitution modifier
-
-**Usage:** 2 rounds/day + double your barbarian level + your Constitution modifier
+A barbarian can end her rage as a free action, and is [fatigued](ref/misc/fatigued) for 1 minute
+after a rage ends. A barbarian can't enter a new rage while fatigued or
+[exhausted](ref/misc/exhausted), but can otherwise enter a rage multiple times per day. If a
+barbarian falls unconscious, her rage immediately ends.
 
 #### Rage Powers (Ex) {#rage-powers}
 
-**Ability:** You gain a rage power. You gain another rage power at every even-numbered level of
-barbarian after this (4th, 6th, 8th, and so on). You gain the benefits of rage powers only while
-_raging,_ and some of these powers require you to take an action first. Unless otherwise noted, you
-cannot select an individual power more than once.
+As a barbarian gains levels, she learns to use her rage in new ways. At 2nd level and every 2 levels
+thereafter, the barbarian gains a rage power. A barbarian gains the benefits of rage powers only
+while raging. Some of these powers are always active during a rage, and others require the barbarian
+to take an action to use them. Unless otherwise noted, a barbarian cannot select an individual power
+more than once.
 
-**Flavor:** As a barbarian gains levels, she learns to use her _rage_ in new ways.
+Some of the following rage powers are stances. Activating a stance rage power is a move action. A
+barbarian can't have more than one stance rage power active at a time. If she activates a stance
+rage power while another one is active, the current stance immediately ends. The stance can be
+intentionally ended at the beginning of the barbarian's turn as a free action; otherwise, it lasts
+until the rage ends.
 
-**Gained:** At 2nd Level
+- [Accurate Stance (Ex)](ref/ragepower/accurate-stance)
+- [Animal Fury (Ex)](ref/ragepower/animal-fury)
+- [Auspicious Mark (Su)](ref/ragepower/auspicious-mark)
+- [Bleeding Blow (Ex)](ref/ragepower/bleeding-blow)
+- [Calm Stance (Ex)](ref/ragepower/calm-stance)
+- [Clear Mind (Ex)](ref/ragepower/clear-mind)
+- [Crippling Blow (Ex)](ref/ragepower/crippling-blow)
+- [Deadly Accuracy (Ex)](ref/ragepower/deadly-accuracy)
+- [Eater of Magic (Su)](ref/ragepower/eater-of-magic)
+- [Elemental Stance (Su)](ref/ragepower/elemental-stance)
+- [Energy Absorption (Su)](ref/ragepower/energy-absorption)
+- [Energy Resistance (Ex)](ref/ragepower/energy-resistance)
+- [Fearless Rage (Ex)](ref/ragepower/fearless-rage)
+- [Flesh Wound (Ex)](ref/ragepower/flesh-wound)
+- [Ground Breaker (Ex)](ref/ragepower/ground-breaker)
+- [Greater Ground Breaker (Ex)](ref/ragepower/greater-ground-breaker)
+- [Guarded Stance (Ex)](ref/ragepower/guarded-stance-stance)
+- [Increased Damage Reduction (Ex)](ref/ragepower/increased-damage-reduction)
+- [Inspire Ferocity (Ex)](ref/ragepower/inspire-ferocity)
+- [Internal Fortitude (Ex)](ref/ragepower/internal-fortitude)
+- [Intimidating Glare (Ex)](ref/ragepower/intimidating-glare)
+- [Knockback (Ex)](ref/ragepower/knockback)
+- [Knockdown Stance (Ex)](ref/ragepower/knockdown-stance)
+- [Lethal Accuracy (Ex)](ref/ragepower/lethal-accuracy)
+- [Low-Light Vision (Ex)](ref/ragepower/low-light-vision)
+- [Mighty Swing (Ex)](ref/ragepower/mighty-swing)
+- [Night Vision (Ex)](ref/ragepower/night-vision)
+- [No Escape (Ex)](ref/ragepower/no-escape)
+- [Perfect Clarity (Ex)](ref/ragepower/perfect-clarity)
+- [Powerful Stance (Ex)](ref/ragepower/powerful-stance)
+- [Quick Reflexes (Ex)](ref/ragepower/quick-reflexes)
+- [Raging Climber (Ex)](ref/ragepower/raging-climber)
+- [Raging Leaper (Ex)](ref/ragepower/raging-leaper)
+- [Raging Swimmer (Ex)](ref/ragepower/raging-swimmer)
+- [Reckless Stance (Ex)](ref/ragepower/reckless-stance)
+- [Reflexive Dodge (Ex)](ref/ragepower/reflexive-dodge)
+- [Regenerative Stance (Ex)](ref/ragepower/regenerative-stance)
+- [Renewed Vigor (Ex)](ref/ragepower/renewed-vigor)
+- [Renewed Vitality (Ex)](ref/ragepower/renewed-vitality)
+- [Roused Anger (Ex)](ref/ragepower/roused-anger)
+- [Scent (Ex)](ref/ragepower/scent)
+- [Sharpened Accuracy (Ex)](ref/ragepower/sharpened-accuracy)
+- [Smasher (Ex)](ref/ragepower/smasher)
+- [Sprint (Ex)](ref/ragepower/sprint)
+- [Strength Stance (Ex)](ref/ragepower/strength-stance)
+- [Superstition (Ex)](ref/ragepower/superstition)
+- [Swift Foot (Ex)](ref/ragepower/swift-foot)
+- [Taunting Stance (Ex)](ref/ragepower/taunting-stance)
+- [Terrifying Howl (Ex)](ref/ragepower/terrifying-howl)
+- [Unexpected Strike (Ex)](ref/ragepower/unexpected-strike)
+- [Witch Hunter (Ex)](ref/ragepower/witch-hunter)
 
-**Special:** Some rage powers are **stances**. Activating a stance rage power is a **move action**.
-You can't have more than one stance rage power active at a time. If you activate a stance rage power
-while another one is active, the current stance immediately ends. The stance can be intentionally
-ended at the beginning of your turn as a **free action**; otherwise, it lasts until the _rage_ ends.
+##### Shove Aside (Ex) {#shove-aside}
+
+Whenever the barbarian charges, she may push past one of her allies. That ally does not block the
+path of the charge as long as the ally is not adjacent to the target of the charge. This does not
+move the ally's position; it simply allows the barbarian to move past.
+
+_Shove Aside, Greater (Ex)_: This functions as shove aside, but it applies to any number of allies,
+so long as they are not adjacent to the target of the charge. A barbarian must have the shove aside
+rage power and be at least 8th level to select this rage power.
+
+##### Unmodified Rage Powers {#unmodified-rage-powers}
+
+The list of barbarian rage powers includes replacements for everything from the _Core Rulebook_,
+along with select revised powers based on the rage powers from _Pathfinder RPG Advanced Player's
+Guide_ and _Pathfinder RPG Ultimate Combat_. The following rage powers from the latter two books can
+be used unaltered.
+
+##### Advanced Player's Guide {#advanced-player-s-guide}
+
+Beast totem, beast totem (greater), beast totem (lesser), boasting taunt, brawler, brawler
+(greater), chaos totem, chaos totem (greater), chaos totem (lesser), disruptive, ferocious mount,
+ferocious mount (greater), ferocious trample, ferocious trample (greater), fiend totem, fiend totem
+(greater), fiend totem (lesser), good for what ails you, guarded life, hurling, hurling (greater),
+hurling (lesser), hurling charge, liquid courage, overbearing advance, overbearing onslaught,
+roaring drunk, spirit steed, spirit totem, spirit totem (greater), spirit totem (lesser), staggering
+drunk.
+
+##### Ultimate Campaign {#ultimate-campaign}
+
+Body bludgeon, dragon totem, dragon totem resilience, ghost rager, guarded life (greater), hive
+totem, hive totem resilience, hive totem toxicity, primal scent, sunder enchantment, world serpent
+spirit, world serpent totem, world serpent totem unity. stack to determine the minimum level
+required to flank the barbarian.
 
 #### Uncanny Dodge (Ex) {#uncanny-dodge}
 
-**Gained:** At 2nd Level
+At 2nd level, a barbarian gains the ability to react to danger before her senses would normally
+allow her to do so. She cannot be caught [flat-footed](ref/rule/flat-footed), nor does she lose her
+Dexterity bonus to AC if immobilized. A barbarian with this ability can still lose her Dexterity
+bonus to AC if an opponent successfully uses the feint action against her.
 
-**Passive:** You cannot be caught [flat-footed](ref/rule/flat-footed), nor do you lose your Dex
-bonus to AC if the attacker is invisible.
-
-**Special:** You still lose your Dexterity bonus to AC if immobilized, or if an opponent
-successfully uses the feint action against you. If you have _uncanny dodge_ from a different class,
-you automatically gain _improved uncanny dodge_ instead.
-
-#### Trap Sense (Ex) {#trap-sense}
-
-**Gained:** At 3rd Level
-
-**Passive:** You gain a bonus on Reflex saves made to avoid traps and a dodge bonus to AC against
-attacks made by traps. Both of these bonuses are equal to
-[one-third](ref/misc/fractions-and-rounding) of your barbarian level.
-
-**Special:** _Trap sense_ bonuses gained from multiple classes stack.
+If a barbarian already has uncanny dodge from a different class, she automatically gains improved
+uncanny dodge (see below) instead.
 
 #### Danger Sense (Ex) {#danger-sense}
 
-**Gained:** At 3rd Level
-
-**Passive:** You gain a bonus on Reflex saves made to avoid traps, a dodge bonus to AC against
-attacks made by traps, and a bonus on Perception checks to avoid being surprised by a foe. These
-bonuses are equal to one-third of your barbarian level.
-
-**Special:** This ability counts as _trap sense_ for any feat or class prerequisite, and can be
-replaced by any archetype class feature that replaces _trap sense._ The bonuses gained from this
-ability stack with those gained from _trap sense_ (if you have _trap sense_ from another class).
+At 3rd level, a barbarian gains a +1 bonus on Reflex saves to avoid traps and a +1 dodge bonus to AC
+against attacks by traps. In addition, she gains a +1 bonus on Perception checks to avoid being
+surprised by a foe. These bonuses increase by 1 every 3 levels thereafter (to a maximum of +6 at
+18th level). This ability counts as trap sense for any feat or class prerequisite, and can be
+replaced by any archetype class feature that replaces trap sense. The bonuses gained from this
+ability stack with those gained from trap sense (if the barbarian has trap sense from another
+class).
 
 #### Improved Uncanny Dodge (Ex) {#improved-uncanny-dodge}
 
-**Gained:** At 5th Level
+At 5th level, a barbarian can no longer be [flanked](ref/rule/flanking). This defense denies enemies
+the ability to [sneak attack](ref/ability/sneak-attack) the barbarian by flanking her, unless the
+attacker has at least 4 more levels in a class that provides sneak attack than the barbarian has
+barbarian levels.
 
-**Passive:** You can no longer be [flanked](ref/rule/flanking). This defense denies enemies the
-ability to [sneak attack](ref/ability/sneak-attack) you by flanking you, unless the attacker has at
-least four more levels in a class that provides _sneak attack_ than you have barbarian levels.
-
-**Special:** If you already have _uncanny dodge_ from another class, the levels from the classes
-that grant _uncanny dodge_ stack to determine the minimum rogue level required to flank you.
+If the barbarian also has uncanny dodge from another class, levels from the classes that grant
+uncanny dodge stack to determine the minimum level required to flank the barbarian.
 
 #### Damage Reduction (Ex) {#damage-reduction}
 
-**Gained:** At 7th Level
-
-**Passive:** You gain [damage reduction](ref/rule/damage-reduction) of DR 1/-.
-
-At 10th level: Your DR 2/-.
-
-At 13th level: Your DR 3/-.
-
-At 16th level: Your DR 4/-.
-
-At 19th level: Your DR 5/-.
+At 7th level, a barbarian gains [damage reduction](ref/rule/damage-reduction). Each time the
+barbarian takes damage from a weapon or natural attack, subtract 1 from the damage taken. At 10th
+level and every 3 levels thereafter, this damage reduction rises by 1 point (up to 5 points at 19th
+level). Damage reduction can reduce damage to 0, but not below 0.
 
 #### Greater Rage (Ex) {#greater-rage}
 
-**Free:** The bonus on melee attack rolls, melee damage rolls, thrown weapon damage rolls, and Will
-saves while _raging_ increases to +3. In addition, the amount of temporary hit points gained when
-entering a _rage_ increases to 3 per Hit Die.
-
-**Section:** Other Abilities
-
-**Gained:** At 11th Level
+At 11th level, a barbarian's bonus on melee attack rolls, melee damage rolls, thrown weapon damage
+rolls, and Will saves while raging increases to +3. In addition, the amount of temporary hit points
+gained when entering a rage increases to 3 per Hit Die.
 
 #### Indomitable Will (Ex) {#indomitable-will}
 
-**Gained:** At 14th Level
-
-**Passive:** You gain a +4 bonus on Will saves to resist enchantment spells. This bonus stacks with
-all other modifiers, including the morale bonus on Will saves you also receive during your _rage._
+At 14th level, the barbarian gains a +4 bonus on Will saves to resist enchantment spells while
+raging. This bonus stacks with all other modifiers, including the morale bonus on Will saves she
+gains during her rage.
 
 #### Tireless Rage (Ex) {#tireless-rage}
 
-**Gained:** At 17th Level
-
-**Passive:** You no longer become fatigued at the end of your _rage._ If you enter a _rage_ again
-within 1 minute of ending a _rage,_ you don't gain any temporary hit points from your _rage._
+At 17th level, a barbarian is no longer fatigued at the end of her rage. If she enters a rage again
+within 1 minute of ending a rage, she doesn't gain any temporary hit points from her rage.
 
 #### Mighty Rage (Ex) {#mighty-rage}
 
-**Free:** When you enter a _rage,_ the bonus on melee attack rolls, melee damage rolls, thrown
-weapon damage rolls, and Will saves while _raging_ increases to +4. In addition, the amount of
-temporary hit points gained when entering a _rage_ increases to 4 per Hit Die.
-
-**Gained:** At 20th Level
+At 20th level, a barbarian's bonus on melee attack rolls, melee damage rolls, thrown weapon damage
+rolls, and Will saves while raging increases to +4. In addition, the amount of temporary hit points
+gained when entering a rage increases to 4 per Hit Die.
 
 ### Alternate Capstones
 

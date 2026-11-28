@@ -341,6 +341,9 @@ def window(blocks: list, heads: set[str] | frozenset = frozenset(), raw: bool = 
     at = next((i for i, b in enumerate(blocks) if b.kind == "title" and fp.squash(b.plain()) == "classfeatures"), None)
     if at is None:
         return []
+    # a run of words in another size that the text layer sets inside a sentence (Pathfinder Unchained p. 9: "the spirits' favor to increase any d20 roll she just made by") reads as a title:
+    # a title never starts in lower case, so it is a paragraph, and the sentence is joined below
+    blocks = [fp.Para("para", b.runs, b.page, b.col, 0) if b.kind == "title" and b.plain().strip()[:1].islower() else b for b in blocks]
     out = []
     special = False                                        # the Special column that print sets beside the table, one block for each row (the Barbarian, p. 32)
     pending = None                                         # the word table whose title was the last block
