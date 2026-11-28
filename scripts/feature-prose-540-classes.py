@@ -488,6 +488,9 @@ KEY_MARKS: set[tuple[str, str]] = {(_c["id"], _k) for _c in MANIFEST.get("class"
 # A feature that the owner's printing lacks and that the corpus keeps from a later printing (owner ruling 68, the Shifter's Fury, A Thousand Faces and Timeless Body): the corpus's head and
 # key stay, the text is the manifest's (the revised text in prose). From the manifest, `[[later_feature]]`.
 LATER_FEATURES: dict[tuple[str, str], dict] = {(_f["class"], _f["key"]): _f for _f in MANIFEST.get("later_feature", [])}
+# The key of an unlisted section whose printed head is a head of the corpus too (the Unchained Rogue's box lists "Rogue Talents:" and the class has the feature "Rogue Talents"): (class entry,
+# squashed head) -> key. From the manifest, `[[new_key]]`.
+NEW_KEYS: dict[tuple[str, str], str] = {(_k["class"], fp.squash(_k["head"])): _k["key"] for _k in MANIFEST.get("new_key", [])}
 BOX_HEADS: dict[tuple[str, str], dict] = {(_b["class"], _b["key"]): _b for _b in MANIFEST.get("box_head", [])}
 PLACE_UNDER: dict[tuple[str, str], tuple[str, int]] = {}
 for _p in MANIFEST.get("place_under", []):
@@ -570,6 +573,10 @@ def other_book_sections(e_id: str, items: list[dict]) -> None:
 # it belongs to: an option of the feature that the box interrupted, which is a link; the class-option pass of the book reads its text from print). The Witch's box "Adding Spells to a Witch's
 # Familiar" stands inside the Hag's Eye hex (p. 68).
 TAIL_OF_LINKED: dict[tuple[str, str], tuple[str, str]] = {("ref/class/witch", "learn-from-a-scroll"): ("witches within 10 feet", "ref/hex/hags-eye")}
+TAIL_ENDS: dict[tuple[str, str], str] = {}                      # where the tail ends in the text of the head (a regular expression); the Witch's ends at "increments."
+for _t in MANIFEST.get("tail_of_linked", []):                   # the manifest's `[[tail_of_linked]]`: class, key, marker, entry, and `end` (default: the rest of the text)
+    TAIL_OF_LINKED[(_t["class"], _t["key"])] = (_t["marker"], _t["entry"])
+    TAIL_ENDS[(_t["class"], _t["key"])] = _t.get("end", ".*")
 # Sections that print sets behind the class features and that the corpus has inside a feature (the Antipaladin's code of conduct is a row of its
 # proficiencies): they become unlisted sections of their own, so the text stays where print has it.
 SECTIONS_BEHIND: dict[str, set[str]] = {}
@@ -890,7 +897,7 @@ def cut_tails(class_id: str, text: str) -> str:
     text = " ".join(text.split())
     for (c, _k), (marker, _eid) in TAIL_OF_LINKED.items():
         if c == class_id and marker in text:
-            text = re.sub(re.escape(marker) + r".*?\bincrements\.", "", text)
+            text = re.sub(re.escape(marker) + TAIL_ENDS.get((c, _k), r".*?\bincrements\."), "", text)
     return text
 
 
@@ -1318,7 +1325,7 @@ def compare_class(corpus: Path, e, bk, cache: dict, options: dict | None = None,
             # a printed head that the corpus lacks: an unlisted section, one level below the feature (a sub-head, ruling 15) or a rules box at the level
             # of the features (a sidebar title, ruling 41), with a new explicit key that no key of the class has
             head = r["head"]
-            key = fp.slugify(fp.ABILITY_TAG.sub("", head))
+            key = NEW_KEYS.get((e.id, fp.squash(head)), fp.slugify(fp.ABILITY_TAG.sub("", head)))      # `[[new_key]]`: a printed head that repeats the title of a head of the corpus gets a key of its own
             host_key = (items[next((n for n, x in enumerate(items) if last is not None and x["head"] == last["head"]), len(items) - 1)]["key"]) if items else ""
             if any(h["feature"] == host_key and fp.squash(fp.ABILITY_TAG.sub("", head)) in hub_heads(corpus, h["entry"]) for h in HUB_ITEMS.get(e.id, [])):
                 continue                                          # an item of a list that a hub entry holds: not copied (ruling 52)

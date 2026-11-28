@@ -745,3 +745,41 @@ id = "ref/class/unchained-summoner"
 gap_stop = "Eidolons"
 lead_key = "unchained-eidolons"
 lead_title = "Eidolons"
+
+# The Unchained Rogue's box "Unmodified Rogue Talents" (p. 24) follows the advanced talents: its two lists are sections under Advanced Talents. The label "Rogue Talents" is the title of a feature too, so its section has a key of its own.
+[[new_key]]
+class = "ref/class/unchained-rogue"
+head = "Rogue Talents"
+key = "unmodified-core-rogue-talents"
+
+[[place_under]]
+class = "ref/class/unchained-rogue"
+key = "unmodified-rogue-talents"
+under = "advanced-talents"
+
+[[place_under]]
+class = "ref/class/unchained-rogue"
+key = "unmodified-core-rogue-talents"
+under = "advanced-talents"
+
+[[place_under]]
+class = "ref/class/unchained-rogue"
+key = "advanced-rogue-talents"
+under = "advanced-talents"
+
+[[option_pick]]
+class = "ref/class/unchained-rogue"
+name = "Skill Mastery"
+entry = "ref/talent/skill-mastery-unchained-rogue"
+
+# The Unchained Rogue's talents marked with an asterisk add effects to her sneak attack; the intro of the list explains the mark (p. 20, 23): the star stays after the link.
+[[class]]
+id = "ref/class/unchained-rogue"
+key_marks = ["rogue-talents", "advanced-talents"]
+
+# The end of the sentence of the advanced talent Defensive Roll (a link, p. 23) stands behind the box "Unmodified Rogue Talents" in the text layer: it belongs to that talent's entry.
+[[tail_of_linked]]
+class = "ref/class/unchained-rogue"
+key = "advanced-rogue-talents"
+marker = "execute her defensive roll"
+entry = "ref/talent/defensive-roll"
