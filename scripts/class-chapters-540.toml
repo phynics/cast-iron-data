@@ -470,3 +470,115 @@ replace = "the same aspect the hunter has taken on"
 [[class]]
 id = "ref/class/investigator"
 key_marks = ["investigator-talent"]
+
+
+# Ultimate Magic, the Magus (phynics/cast-iron#540). The gap check stops at the title of the spell list; its lead-in is a section of the class (the lists are spell data).
+[[class]]
+id = "ref/class/magus"
+gap_stop = "Magus Spell List"
+lead_key = "magus-spell-list"
+lead_title = "Magus Spell List"
+
+# The last row of the Magus table stands in the middle of the sentence that ends the Arcane Pool's third paragraph (Ultimate Magic p. 10): its Special cell is in front of "bonus must be added".
+[[layout_fix]]
+class = "ref/class/magus"
+key = "arcane-pool"
+find = "re:enhancement 20th \\+15/\\+10/\\+5 \\+12 \\+6 \\+12 True magus bonus must"
+replace = "enhancement bonus must"
+
+
+# Ultimate Combat, the Gunslinger (phynics/cast-iron#540). The deed Targeting has no entry (data #381): print's text stays under the feature, as a sub-head, as the Swashbuckler's Targeted Strike
+# does (Ultimate Combat p. 11). The box "Optional Rule: Daring Act" (p. 12) stands in the middle of the list of deeds, inside the paragraph of Targeting: it is no class feature; the
+# bullets Torso and Wings that the text layer runs into the box's last paragraph are the end of Targeting.
+[[class]]
+id = "ref/class/gunslinger"
+extra_heads = ["Targeting"]
+
+[[place_under]]
+class = "ref/class/gunslinger"
+key = "targeting"
+under = "deeds"
+
+[[box_head]]
+class = "ref/class/gunslinger"
+key = "optional-rule-daring-act"
+host = "targeting"
+tail_marker = "• _Torso_"
+
+# The coverage check reads the box's last paragraph and the end of Targeting that the text layer runs into it as one sentence ("... whether the act qualifies. • Torso: ...").
+[[layout_fix]]
+class = "ref/class/gunslinger"
+key = "daring-act"
+find = "qualifies. • Torso"
+replace = "qualifies. Torso"
+
+
+# Ultimate Combat, the Ninja and the Samurai (phynics/cast-iron#540).
+# The Ninja's tricks marked with an asterisk (Bleeding Attack, Ki Block, Pressure Points, Slow Reactions) add effects to her sneak attack; the intro of the list explains the mark (p. 14): the star stays.
+[[class]]
+id = "ref/class/ninja"
+key_marks = ["ninja-tricks"]
+
+# The first columns of the Ninja's table run into the sentence that ends the Ki Pool (p. 14).
+[[layout_fix]]
+class = "ref/class/ninja"
+key = "ki-pool"
+find = "re:total number of ki \\+0 Poison use, .*? Hidden master, ninja trick points in the combined pool"
+replace = "total number of ki points in the combined pool"
+
+# The Samurai's orders are class options (the orders of the Warrior and of the Ronin); the lead-in of the section is a section of the class.
+[[class]]
+id = "ref/class/samurai"
+gap_stop = "Samurai Orders"
+lead_key = "samurai-orders"
+lead_title = "Samurai Orders"
+
+# The cells of the Samurai's table run into the sentence of Honorable Stand (p. 20).
+[[layout_fix]]
+class = "ref/class/samurai"
+key = "honorable-stand"
+find = "re:While making an \\+0 Challenge 1/day, .*? Last stand honorable stand,"
+replace = "While making an honorable stand,"
+
+# The battle standards of Chronicle of Legends (p. 4) are the same box for the Cavalier and the Samurai ("A cavalier or samurai can select one of the following battle standards"); the Samurai's own
+# heads of the standards (the import's paraphrase, one set for the Banner and one for the Greater Banner) become the printed section, with the keys of the corpus (owner ruling 32).
+[[other_book]]
+class = "ref/class/samurai"
+book = "chronicle-of-legends"
+page = 6
+before = "bonus-feat"
+
+[[other_book.section]]
+key = "flying-the-flag-of-war"
+head = "Flying the Flag of War (Chronicle of Legends page 4)"
+text = """Some knights inspire and direct their allies with specialized tactics. A cavalier or samurai can select one of the following battle standards upon gaining the banner class feature, and its benefits replace the normal benefits of the banner and greater banner class features. A battle standard functions as the banner or greater banner class feature except where otherwise noted. A cavalier or samurai who replaces the banner or greater banner class feature via an archetype cannot select a battle standard, with the following exception: a standard bearer cavalier can select a battle standard at 1st level, and its effects increase as per the standard bearer's banner."""
+
+[[other_book.section]]
+key = "fleet-standard"
+head = "Fleet Standard (Ex) (Chronicle of Legends page 4)"
+text = """These banners are common among Jininese samurai. An ally who benefits from this standard increases her land speed by 5 feet and gains a +1 dodge bonus to AC during any round in which she moved at least 10 feet. This increase to land speed is an enhancement bonus. At 10th level and every 5 levels thereafter, the bonus to speed increases by 5 feet. At 14th level, an ally benefiting from the banner gains a +2 morale bonus on Reflex saving throws against effects that target an area, such as [fireball](ref/spell/fireball) or [breath weapons](ref/umr/breath-weapon). When the cavalier or samurai waves this standard, each ally within 60 feet can move up to her speed as an immediate action."""
+
+[[other_book.section]]
+key = "jinx-standard"
+head = "Jinx Standard (Ex) (Chronicle of Legends page 4)"
+text = """These grim fetishes are common among Jadwiga cavaliers. An ally who benefits from this standard gains a +1 bonus on caster level checks to bypass [spell resistance](ref/rule/spell-resistance) and a +1 bonus to the DC of her hexes and necromancy or enchantment spell she casts. At 10th level and every 5 levels thereafter, the bonus on caster level checks increases by 1. At 14th level, an ally benefiting from the banner gains a +2 morale bonus on saving throws against spells or effects that deal hit point damage. When the cavalier or samurai waves this standard, a number of allies equal to the cavalier or samurai's Charisma modifier (minimum 1) within 60 feet can attempt an Intimidate check to demoralize a foe as an immediate action."""
+
+[[other_book.section]]
+key = "knave-standard"
+head = "Knave Standard (Ex) (Chronicle of Legends page 4)"
+text = """The knave standard is common among cavaliers of the River Kingdoms. An ally who benefits from this standard gains a +2 dodge bonus to AC against attacks of opportunity provoked by movement and a +1 morale bonus on attack rolls that benefit from [flanking](ref/rule/flanking). At 10th level and every 5 levels thereafter, the bonus to AC increases by 1. At 14th level, an ally benefiting from the banner gains [sneak attack](ref/ability/sneak-attack) +1d6; this stacks with other sources of sneak attack. When the cavalier or samurai waves this standard, a number of allies equal to the cavalier or samurai's Charisma modifier (minimum 1) within 60 feet can each attempt a [feint](ref/rule/feint) against a foe she threatens as an immediate action."""
+
+[[other_book.section]]
+key = "stalwart-standard"
+head = "Stalwart Standard (Ex) (Chronicle of Legends page 4)"
+text = """These banners are common among the dwarven defenders of Kraggodan. An ally who benefits from this standard gains a +2 morale bonus to CMD and a +1 morale bonus on attack rolls to creatures threatening an ally. At 10th level and every 5 levels thereafter, the bonus to CMD increases by +1. At 14th level, an ally benefiting from the banner is treated as one size category larger for the purposes of determining which creatures can affect him with combat maneuvers. When the cavalier or samurai waves this standard, each ally within 60 feet can move up to 10 feet without provoking attacks of opportunities and ignoring [difficult terrain](ref/rule/terrain-and-obstacles) as an immediate action."""
+
+
+# Ultimate Intrigue, the Vigilante (p. 17): the section "Favored Class Options" follows the class features. The corpus has no entry for these lists (its
+# `### Favored Class Bonuses` points at the Advanced Race Guide's page, which does not have them): print's section is written as a section of the class, under print's title.
+[[class]]
+id = "ref/class/vigilante"
+gap_stop = "Vigilante Favored Class Options"
+lead_key = "vigilante-favored-class-options"
+lead_title = "Vigilante Favored Class Options"
+key_marks = ["vigilante-talent"]
