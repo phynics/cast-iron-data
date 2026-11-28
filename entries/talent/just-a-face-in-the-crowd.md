@@ -13,13 +13,9 @@ page = "7"
 [fields]
 kind = "class_option"
 group = "rogue-talent"
+ability_type = "Su"
 +++
 
-**Just a Face in the Crowd (Su)**
-
-**Flavor:** The rabble-rousers of Galt can blend into a crowd and are able to hide and spot others
-who appear to be hiding.
-
-**Passive:** The rogue gains a bonus equal to [half](ref/misc/fractions-and-rounding) his class
-level on Disguise and Perception checks when 10 or more creatures of his size are within 30 feet of
-him.
+The rabble-rousers of Galt can blend into a crowd and are able to hide and spot others who appear to
+be hiding. The rogue gains a bonus equal to [half](ref/misc/fractions-and-rounding) his class level
+on Disguise and Perception checks when 10 or more creatures of his size are within 30 feet of him.

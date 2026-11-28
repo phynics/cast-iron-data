@@ -13,16 +13,12 @@ page = "20"
 [fields]
 kind = "class_option"
 group = "ki-power"
+ability_type = "Ex"
 +++
 
-**Bare-Hand Block (Ex)**
-
-**Immediate:** A monk with this ability can spend 1 ki point when attacked with a manufactured
-weapon to attempt an unarmed [sunder](ref/rule/sunder) combat maneuver check against it. If he
-successfully sunders the weapon and grants it the [broken](ref/misc/broken) condition, the attack
-deals no damage.
-
-**Prereq:** 8th-level monk, [ki sunder](ref/kipower/ki-sunder)
-
-**Special:** He can spend an additional 1 ki point when using this ability to activate _ki sunder_
-as a **free action**.
+A monk with this ability can spend 1 ki point as an immediate action when attacked with a
+manufactured weapon to attempt an unarmed [sunder](ref/rule/sunder) combat maneuver check against
+it. If he successfully sunders the weapon and grants it the [broken](ref/misc/broken) condition, the
+attack deals no damage. He can spend an additional 1 ki point when using this ability to activate
+[ki sunder](ref/kipower/ki-sunder) as a free action. A monk must be at least 8th level and have the
+[ki sunder](ref/kipower/ki-sunder) ki power before selecting this ki power.

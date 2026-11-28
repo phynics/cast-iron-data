@@ -13,8 +13,7 @@ page = "21"
 [fields]
 kind = "class_option"
 group = "ninja-trick"
+ability_type = "Ex"
 +++
 
-**Swift Poisoner (Ex)**
-
-**Ability:** A ninja with this trick can apply a dose of poison to a weapon as a **swift action**.
+A ninja with this trick can apply a dose of poison to a weapon as a swift action.

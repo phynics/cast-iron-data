@@ -15,10 +15,6 @@ kind = "class_option"
 group = "style-strike"
 +++
 
-**Throat Crush**
-
-**Ability:** The monk gives a sharp blow to a foe's throat, hampering its ability to speak for 1
-round as if it had the [caster croak spellblight](ref/rule/minor-spellblights).
-
-**Special:** Creatures without a discernible throat, or with multiple vocal organs, are unaffected
-(subject to GM discretion).
+The monk gives a sharp blow to a foe's throat, hampering its ability to speak for 1 round as if it
+had the [caster croak spellblight](ref/rule/minor-spellblights) . Creatures without a discernible
+throat, or with multiple vocal organs, are unaffected (subject to GM discretion).

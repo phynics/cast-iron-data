@@ -13,9 +13,8 @@ page = "20"
 [fields]
 kind = "class_option"
 group = "ki-power"
+ability_type = "Ex"
 +++
 
-**Ki Sunder (Ex)**
-
-**Free:** A monk with this ability can spend 1 ki point when attempting a [sunder](ref/rule/sunder)
-combat maneuver check to add his monk level as a bonus to the damage roll.
+A monk with this ability can spend 1 ki point as a free action when attempting a
+[sunder](ref/rule/sunder) combat maneuver check to add his monk level as a bonus to the damage roll.

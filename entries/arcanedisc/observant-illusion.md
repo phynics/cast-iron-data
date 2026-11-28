@@ -13,16 +13,12 @@ page = "23"
 [fields]
 kind = "class_option"
 group = "arcane-discovery"
+ability_type = "Su"
 +++
 
-**Observant Illusion (Su)**
-
-**Ability:** You can project your senses into any ongoing figment or shadow illusion you create with
-a spell of at least 3rd level. You can see through its eyes and hear through its ears as if you were
-standing where it is, and during your turn you can switch from using its senses to using your own,
-or back again, as a **swift** or **move action**.
-
-**Prereq:** 9th-level wizard
-
-**Special:** While you are using its senses, your body is considered [blinded](ref/misc/blinded) and
-[deafened](ref/misc/deafened).
+You can project your senses into any ongoing figment or shadow illusion you create with a spell of
+at least 3rd level. You can see through its eyes and hear through its ears as if you were standing
+where it is, and during your turn you can switch from using its senses to using your own, or back
+again, as a swift or move action. While you are using its senses, your body is considered
+[blinded](ref/misc/blinded) and [deafened](ref/misc/deafened). You must be at least a 9th-level
+wizard to choose this discovery.

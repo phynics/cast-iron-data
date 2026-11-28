@@ -13,16 +13,11 @@ page = "18"
 [fields]
 kind = "class_option"
 group = "slayer-talent"
+ability_type = "Ex"
 +++
 
-**Experience Across Ages (Ex)**
-
-**Flavor:** A samsaran slayer can draw upon insights from his previous lifetimes to help identify a
-foe or recall a key piece of information.
-
-**Swift:** The slayer can attempt a [Knowledge](ref/skill/knowledge-all) check as if he had a number
-of ranks in the appropriate Knowledge skill equal to his slayer level.
-
-**Usage:** 1 time/day + 1 per 5 slayer levels
-
-**Prereq:** [Samsaran](ref/race/samsaran)
+Once per day, a [samsaran](ref/race/samsaran) slayer can draw upon insights from his previous
+lifetimes to help identify a foe or recall a key piece of information. As a swift action, the slayer
+can attempt a [Knowledge](ref/skill/knowledge-all) check as if he had a number of ranks in the
+appropriate Knowledge skill equal to his slayer level. A slayer can use this talent one additional
+time per day for every 5 slayer levels he has.

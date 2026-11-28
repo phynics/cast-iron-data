@@ -13,11 +13,9 @@ page = "20"
 [fields]
 kind = "class_option"
 group = "ki-power"
+ability_type = "Ex"
 +++
 
-**Action Before Thought (Ex)**
-
-**Free:** A monk with this ability can spend 2 ki points as part of rolling initiative to roll twice
-on the initiative check and take the higher result.
-
-**Prereq:** 6th-level monk
+A monk with this ability can spend 2 ki points as a free action as part of rolling initiative to
+roll twice on the initiative check and take the higher result. A monk must be at least 6th level
+before selecting this ki power.

@@ -13,13 +13,10 @@ page = "27"
 [fields]
 kind = "class_option"
 group = "vigilante-talent"
+ability_type = "Ex"
 +++
 
-**Concealed Strike (Ex)**
-
-**Ability:** Whenever the vigilante attacks an opponent with a concealed weapon that his target
-wasn't aware of, he can attempt a Bluff check to [feint](ref/rule/feint) that opponent as a **move
-action**. If he has the [Improved Feint](ref/feat/improved-feint) feat, he attempts this check as a
-**free action** instead.
-
-**Prereq:** 6th-level vigilante
+Whenever the vigilante attacks an opponent with a concealed weapon that his target wasn't aware of,
+he can attempt a Bluff check to [feint](ref/rule/feint) that opponent as a move action. If he has
+the [Improved Feint](ref/feat/improved-feint) feat, he attempts this check as a free action instead.
+A vigilante must be at least 6th level to select this talent.

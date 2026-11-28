@@ -13,19 +13,12 @@ page = "27"
 [fields]
 kind = "class_option"
 group = "vigilante-talent"
+ability_type = "Ex"
 +++
 
-**Take 'Em Alive (Ex)**
+The vigilante doesn't take the usual -4 penalty on attack rolls made to deal nonlethal damage with
+weapons that normally deal lethal damage.
 
-**Ability:** The vigilante doesn't take the usual -4 penalty on attack rolls made to deal nonlethal
-damage with weapons that normally deal lethal damage. In addition, the vigilante gains a +1 bonus on
-all attack and damage rolls for attacks that deal only nonlethal damage and have no secondary
-effects (such as poison).
-
-**At 5th level,** this bonus increases to +2.
-
-**At 8th level,** this bonus increases to +3.
-
-**At 11th level,** this bonus increases to +4.
-
-**At 14th level,** this bonus increases to +5.
+In addition, the vigilante gains a +1 bonus on all attack and damage rolls for attacks that deal
+only nonlethal damage and have no secondary effects (such as poison). This bonus increases by 1 at
+5th level and every 3 levels thereafter, to a maximum of +5 at 20th level.

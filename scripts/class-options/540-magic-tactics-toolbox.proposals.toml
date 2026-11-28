@@ -1,0 +1,223 @@
+# The printed text of the powers of the class options of the book, written ones included (the check reads an entry against it). Generated: never edit by hand.
+
+[[entry]]
+id = "ref/arcanedisc/faith-magic"
+anchor = "faith-magic"
+print = "Select one spell granted by a domain belonging to the god you worship. This spell must be at least 2 levels lower than the highest-level wizard spell you can cast. When you first prepare your spells for the day, you can prepare this spell once, using a spell slot 1 level higher than the spell's actual level. This is cast as a divine spell."
+
+[[entry]]
+id = "ref/arcanedisc/psychic-preparation"
+anchor = "psychic-preparation"
+print = "You have learned a limited way to access [psychic magic](ref/rule/psychic-magic). When you first prepare your spells for the day, you can prepare one spell as a psychic spell. This spell must be at least 2 levels lower than the highest-level wizard spell you can cast, and takes a slot 1 level higher than the spell's actual level. When you cast this spell, it operates as a psychic spell, including using emotional and thought components in place of somatic and verbal components, and only having expensive material components."
+
+[[entry]]
+id = "ref/blessing/curse"
+anchor = "deities"
+print = "Andirifkhu, Calistria, Desna, Graffiacane, Magdh."
+
+[[entry]]
+id = "ref/blessing/curse"
+anchor = "hexing-attack-minor"
+print = '''
+You can touch one weapon and enhance it to inflict a minor curse on the next target it strikes. The struck target must succeed at a Will saving throw or take a -2 penalty on attack rolls, saving throws, skill checks, or ability checks (warpriest's choice) for 1 minute. Retributive Curse (major): At 10th level, as a swift or immediate action, you can inflict a curse on any adjacent creature that scores a critical hit against you or deals precision damage to you. The target must succeed at a Will saving throw or be cursed. Select one of the following effects: the target takes a -2 penalty to one ability score of your choice (the ability cannot be reduced below 1); the target takes a -2 penalty on attack rolls, saving throws, ability checks, and skill checks; each turn, the target has a 25% chance of taking no action (otherwise, it acts normally).
+
+This curse lasts for 1 hour. A creature can be subjected to only one instance of retributive curse at a time. This otherwise functions as _bestow curse_.'''
+
+[[entry]]
+id = "ref/blessing/curse"
+anchor = "divine-scourge-cleric-archetype"
+print = "Some divine servants take on the role of dealing out unique punishments on behalf of their deities, taking pleasure in carrying out their sacrosanct duties. Such divine scourges are most common among worshipers of Abadar (meting out punishment to lawbreakers in concert with local courts), Calistria (punishing those truly deserving of vengeance), and Zon-Kuthon (seeing punishment as an applied form of pain and suffering). Divine scourges make a point of inflicting long-lasting maladies and curses on those deserving of such fates under the tenets of the scourges' religions."
+
+[[entry]]
+id = "ref/blessing/curse"
+anchor = "curser"
+print = '''
+A divine scourge must take the curse subdomain (_Pathfinder RPG Advanced Player's Guide_ 88) as a domain, regardless of the actual domains offered by her deity. The divine scourge does not receive a second domain.
+
+This ability alters domains.'''
+
+[[entry]]
+id = "ref/blessing/curse"
+anchor = "divine-hexes"
+print = '''
+At 3rd level and every 4 cleric levels thereafter, a divine scourge can select the following hexes from the witch class hex list, up to a maximum of five hexes at 19th level: blight, cursed wound (_Pathfinder Player Companion: Blood of the Moon_ 15), evil eye, misfortune, scar, slumber, and unnerve beasts.
+
+At 11th level, a divine scourge can instead select from the following list of major hexes: agony, hoarfrost, infected wounds, nightmares, and retributions.
+
+The divine scourge uses her Wisdom modifier instead of her Intelligence modifier to determine the save DCs of her hexes. Any hex that refers to using her Intelligence modifier to determine its duration or effect instead uses her Charisma modifier for that purpose.
+
+This ability replaces channel energy.'''
+
+[[entry]]
+id = "ref/blessing/curse"
+anchor = "overseer-sha-m-an-archetype"
+print = "While all shamans use their connection to the spirits of the world to draw upon otherworldly magic powers, the shamans of the Lands of the Linnorm Kings have a unique tradition in which they use the power of patron spirits to directly control their enemies. Such overseers may assume roles as religious leaders and protectors of their tribes, turning foes into short-term allies for the tribe's greater good. Other overseers become tyrants who enforce their will upon the weak for personal gain. In combat, an overseer manages the battlefield by debilitating foes using her hexes and specialized spells."
+
+[[entry]]
+id = "ref/blessing/curse"
+anchor = "controlling-magic"
+print = '''
+The overseer adds the following spells to the list of spells she can cast using spirit magic: _charm person_ (1st), _hideous laughter_ (2nd), _hold person_ (3rd), _crushing despair_ (4th), _feeblemind_ (5th), _mass suggestion_ (6th), _power word blind_ (7th), _irresistible dance_ (8th), and _dominate monster_ (9th).
+
+This ability replaces the spirit magic spells gained from the shaman's spirit.'''
+
+[[entry]]
+id = "ref/blessing/curse"
+anchor = "spirit-surge"
+print = '''
+At 3rd level, an overseer gains the ability to cast any of her mind-affecting spells that target a single creature through her spirit animal. When she's using this ability, the selected spell's range becomes touch, and she must deliver the spell through the spirit animal via the spirit animal's deliver touch spells supernatural ability. The shaman's effective caster level for these spells is 2 higher than her normal caster level. The overseer can deliver any other spells via the deliver touch spells spirit animal ability.
+
+This alters the deliver touch spells spirit animal ability.'''
+
+[[entry]]
+id = "ref/blessing/curse"
+anchor = "toxicologist-druid-archetype"
+print = "Druids protect the natural environs of the world, and sometimes that requires forcibly expelling those who would pollute, despoil, or otherwise harm such areas. Single battles may not be enough to win the war, so some druids specialize in the stealthy application of insidious poisons to their targets. In the verdant depths of the Mwangi Expanse or the Valashmai Jungle of Tian Xia, many druids work to root out their enemies by means of powerful toxins, believing word of their foes' horrifying deaths will deter others from attempting similar desecrations of the natural world."
+
+[[entry]]
+id = "ref/blessing/curse"
+anchor = "expanded-repertoire"
+print = '''
+A toxicologist adds the following extracts and spells to her druid spell list as druid spells of the listed spell level: _poisoned egg_ (1st level, _Pathfinder Campaign Setting: Inner Sea Gods_ 238), _transmute potion to poison_ (2nd level), _stinking cloud_ (3rd level), _toxic gift_ (4th level), and _cloudkill_ (5th level). A toxicologist can channel stored spell energy only into summoning spells she has prepared ahead of time.
+
+This ability alters spells and replaces spontaneous casting.'''
+
+[[entry]]
+id = "ref/blessing/curse"
+anchor = "natural-poison-lore"
+print = '''
+A toxicologist has a deep understanding of and appreciation for poisons. At 2nd level, she cannot accidentally poison herself when applying poison to a weapon and cannot accidentally poison an animal companion or summoned creature when applying poison to its claws (though poison obviously should not be applied to a creature's bite).
+
+This ability replaces wild empathy and woodland stride.'''
+
+[[entry]]
+id = "ref/blessing/curse"
+anchor = "expert-poisoner"
+print = '''
+At 4th level, a toxicologist increases the DCs of any spells she casts with the poison descriptor by 1.
+
+This ability replaces trackless step and resist nature's lure.'''
+
+[[entry]]
+id = "ref/blessing/curse"
+anchor = "toxic-shaper"
+print = '''
+A toxicologist never gains the ability to use wild shape to transform into an elemental or plant. At 8th level, a toxicologist can transform into a Small or Medium vermin. When she takes this form, her wild shape functions as _vermin shape I_. At 10th level, a toxicologist can transform into a tiny or large vermin. When she takes this form, her wild shape functions as _vermin shape II_.
+
+This ability alters wild shape.'''
+
+[[entry]]
+id = "ref/invtalent/eldritch-conduit"
+anchor = "eldritch-conduit"
+print = "Survival in the Mana Wastes between the nations of Nex and Geb can depend heavily on locating sufficient magical equipment, which sometimes involves stealing power from a wand or scroll to power a more necessary one. As a full-round action, a rogue with this talent can use two potions, two wands, or two scrolls. Each item is expended or loses a charge as if used normally. The rogue chooses to gain the magical effect of one, but calculates its effects using the caster level of the other. The rogue must still succeed at a Use Magic Device check to operate scrolls or wands unless some other ability allows him to do so, but makes only one skill check to operate both items."
+
+[[entry]]
+id = "ref/invtalent/innocent-facade"
+anchor = "innocent-facade"
+print = "Once per day, a rogue with this talent can use _[innocence](ref/spell/innocence)_ as a [spell-like ability](ref/umr/spell-like-abilities), using her rogue level as the spell's caster level. A rogue must have the minor magic talent before selecting this talent. An investigator can select the innocent facade rogue talent in place of an investigator talent. She must have the [underworld inspiration](ref/invtalent/underworld-inspiration) investigator talent before selecting this talent, instead of minor magic."
+
+[[entry]]
+id = "ref/invtalent/just-a-face-in-the-crowd"
+anchor = "just-a-face-in-the-crowd"
+print = "The rabble-rousers of Galt can blend into a crowd and are able to hide and spot others who appear to be hiding. The rogue gains a bonus equal to [half](ref/misc/fractions-and-rounding) his class level on [Disguise](ref/skill/disguise) and [Perception](ref/skill/perception) checks when 10 or more creatures of his size are within 30 feet of him."
+
+[[entry]]
+id = "ref/invtalent/occult-dungeoneer"
+anchor = "occult-dungeoneer"
+print = "Street thieves in Absalom expect wares to be securely locked, and sometimes it takes high-quality tools and magic training to ensure there's a meal at the end of the day. A rogue with this ability can use [spell-trigger](ref/misc/spell-trigger) and [spell-completion](ref/misc/spell-completion) items as if the following spells were on a spell list to which he has access: _[detect secret doors](ref/spell/detect-secret-doors)_, _detect traps_, _[knock](ref/spell/knock)_, _[locate object](ref/spell/locate-object)_, and _[obscure object](ref/spell/obscure-object)_. If the [spell-trigger](ref/misc/spell-trigger) device allows a wielder to apply his own caster level (such as with a staff), the rogue may use his class level as his caster level. The rogue may also use _[knock](ref/spell/knock)_ as a supernatural ability once per day, using his rogue level as his caster level."
+
+[[entry]]
+id = "ref/invtalent/rapid-perception"
+anchor = "rapid-perception"
+print = '''
+A rogue with this talent can attempt a [Perception](ref/skill/perception) check to intentionally search for a specific item or creature as a swift action instead of a move action. If she is intentionally searching for an invisible creature, the creature's bonus on its Stealth check from its [invisibility](ref/spell/invisibility) is halved. An investigator can select this rogue talent in place of an investigator talent.
+
+She must have the [expanded inspiration](ref/invtalent/expanded-inspiration) investigator talent before selecting this talent.'''
+
+[[entry]]
+id = "ref/invtalent/scry-slip"
+anchor = "scry-slip"
+print = "Whenever a rogue with this talent is targeted by a scrying effect that allows a Will save, the caster of the divination must succeed at a caster level check (DC = 15 + the rogue's class level). This talent wards the rogue and any objects she is holding or carrying. An investigator can select this talent in place of an investigator talent."
+
+[[entry]]
+id = "ref/invtalent/spell-storing"
+anchor = "spell-storing"
+print = "The rogue can store within himself a single targeted harmless spell of up to 2nd level. The spell must have a casting time of 1 standard action. Anytime a spell that meets these conditions is cast on the rogue, and he does not already have a spell stored, he can choose to store it rather than have it take effect immediately. Anytime afterward, as a standard action, the rogue can have the spell take effect (acting in all ways as if it had just been cast on him). A rogue must have 1 rank of [Use Magic Device](ref/skill/use-magic-device) to select this talent."
+
+[[entry]]
+id = "ref/invtalent/the-whole-time"
+anchor = "the-whole-time"
+print = '''
+Mercenaries in the employ of the [Aspis Consortium](ref/rule/aff-profiteers) often use _wands of invisibility_ to attack protected targets, then blend into the crowd to escape or disguise the source of the next attack. A rogue with this ability is practiced at attacking from magical concealment. He can use [spell-trigger](ref/misc/spell-trigger) and [spell-completion](ref/misc/spell-completion) items as if the following spells were on a spell list to which he has access:
+
+_[greater invisibility](ref/spell/invisibility-greater)_, _[invisibility](ref/spell/invisibility)_, and _[vanish](ref/spell/vanish)_.
+
+Additionally, if the rogue becomes visible as a result of a weapon or spell attack, he can sheathe his weapon as a free action and instantly adopt a neutral posture. With a successful [Bluff](ref/skill/bluff) or [Disguise](ref/skill/disguise) check (opposed by witnesses' [Sense Motive](ref/skill/sense-motive) or [Perception](ref/skill/perception) checks, whichever is higher), there is no obvious sign that the rogue is the source of the attack (though a lack of any other reasonable candidate can still lead observers to draw the correct conclusion).'''
+
+[[entry]]
+id = "ref/talent/dampen-presence"
+anchor = "dampen-presence"
+print = "A rogue who selects this talent gains [Dampen Presence](ref/feat/dampen-presence) as a bonus feat. The rogue does not need to meet the feat's prerequisites. The rogue is also considered to have the [Skill Focus](ref/feat/skill-focus) (Stealth) feat for the purpose of satisfying the prerequisites of any feat that lists Dampen Presence as a prerequisite."
+
+[[entry]]
+id = "ref/talent/eldritch-conduit"
+anchor = "eldritch-conduit"
+print = "Survival in the Mana Wastes between the nations of Nex and Geb can depend heavily on locating sufficient magical equipment, which sometimes involves stealing power from a wand or scroll to power a more necessary one. As a full-round action, a rogue with this talent can use two potions, two wands, or two scrolls. Each item is expended or loses a charge as if used normally. The rogue chooses to gain the magical effect of one, but calculates its effects using the caster level of the other. The rogue must still succeed at a [Use Magic Device](ref/skill/use-magic-device) check to operate scrolls or wands unless some other ability allows him to do so, but makes only one skill check to operate both items."
+
+[[entry]]
+id = "ref/talent/glib-facade"
+anchor = "glib-facade"
+print = "Once per day, a rogue with this advanced talent can use _[glibness](ref/spell/glibness)_ as a [spell-like ability](ref/umr/spell-like-abilities), using her rogue level as the spell's caster level. A rogue must have the [innocent facade](ref/talent/innocent-facade) rogue talent before selecting this talent."
+
+[[entry]]
+id = "ref/talent/innocent-facade"
+anchor = "innocent-facade"
+print = "Once per day, a rogue with this talent can use _[innocence](ref/spell/innocence)_ as a [spell-like ability](ref/umr/spell-like-abilities), using her rogue level as the spell's caster level. A rogue must have the [minor magic](ref/talent/minor-magic) talent before selecting this talent. An investigator can select the innocent facade rogue talent in place of an investigator talent. She must have the underworld inspiration investigator talent before selecting this talent, instead of minor magic."
+
+[[entry]]
+id = "ref/talent/just-a-face-in-the-crowd"
+anchor = "just-a-face-in-the-crowd"
+print = "The rabble-rousers of Galt can blend into a crowd and are able to hide and spot others who appear to be hiding. The rogue gains a bonus equal to [half](ref/misc/fractions-and-rounding) his class level on Disguise and Perception checks when 10 or more creatures of his size are within 30 feet of him."
+
+[[entry]]
+id = "ref/talent/occult-dungeoneer"
+anchor = "occult-dungeoneer"
+print = "Street thieves in Absalom expect wares to be securely locked, and sometimes it takes high-quality tools and magic training to ensure there's a meal at the end of the day. A rogue with this ability can use [spell-trigger](ref/misc/spell-trigger) and [spell-completion](ref/misc/spell-completion) items as if the following spells were on a spell list to which he has access: _[detect secret doors](ref/spell/detect-secret-doors)_, _detect traps_, _[knock](ref/spell/knock)_, _[locate object](ref/spell/locate-object)_, and _[obscure object](ref/spell/obscure-object)_. If the spell-trigger device allows a wielder to apply his own caster level (such as with a staff), the rogue may use his class level as his caster level. The rogue may also use _[knock](ref/spell/knock)_ as a supernatural ability once per day, using his rogue level as his caster level."
+
+[[entry]]
+id = "ref/talent/rapid-perception"
+anchor = "rapid-perception"
+print = '''
+A rogue with this talent can attempt a [Perception](ref/skill/perception) check to intentionally search for a specific item or creature as a swift action instead of a move action. If she is intentionally searching for an invisible creature, the creature's bonus on its Stealth check from its invisibility is halved. An investigator can select this rogue talent in place of an investigator talent.
+
+She must have the expanded inspiration investigator talent before selecting this talent.'''
+
+[[entry]]
+id = "ref/talent/scry-slip"
+anchor = "scry-slip"
+print = "Whenever a rogue with this talent is targeted by a scrying effect that allows a Will save, the caster of the divination must succeed at a caster level check (DC = 15 + the rogue's class level). This talent wards the rogue and any objects she is holding or carrying. An investigator can select this talent in place of an investigator talent."
+
+[[entry]]
+id = "ref/talent/spell-storing"
+anchor = "spell-storing"
+print = "The rogue can store within himself a single targeted harmless spell of up to 2nd level. The spell must have a casting time of 1 standard action. Anytime a spell that meets these conditions is cast on the rogue, and he does not already have a spell stored, he can choose to store it rather than have it take effect immediately. Anytime afterward, as a standard action, the rogue can have the spell take effect (acting in all ways as if it had just been cast on him). A rogue must have 1 rank of [Use Magic Device](ref/skill/use-magic-device) to select this talent."
+
+[[entry]]
+id = "ref/talent/superior-sniper"
+anchor = "superior-sniper"
+print = "A rogue who selects this talent gains [Expert Sniper](ref/feat/expert-sniper) (_Dirty Tactics Toolbox_ 10) as a bonus feat. If she already has this feat, she can instead select any feat that lists Expert Sniper as a prerequisite, as long as she meets the feat's prerequisites."
+
+[[entry]]
+id = "ref/talent/the-whole-time"
+anchor = "the-whole-time"
+print = '''
+Mercenaries in the employ of the [Aspis Consortium](ref/rule/aff-profiteers) often use _wands of invisibility_ to attack protected targets, then blend into the crowd to escape or disguise the source of the next attack. A rogue with this ability is practiced at attacking from magical concealment. He can use [spell-trigger](ref/misc/spell-trigger) and [spell-completion](ref/misc/spell-completion) items as if the following spells were on a spell list to which he has access:
+
+_[greater invisibility](ref/spell/invisibility-greater)_, _[invisibility](ref/spell/invisibility)_, and _[vanish](ref/spell/vanish)_.
+
+Additionally, if the rogue becomes visible as a result of a weapon or spell attack, he can sheathe his weapon as a free action and instantly adopt a neutral posture. With a successful Bluff or Disguise check (opposed by witnesses' Sense Motive or Perception checks, whichever is higher), there is no obvious sign that the rogue is the source of the attack (though a lack of any other reasonable candidate can still lead observers to draw the correct conclusion).'''
+
+[[entry]]
+id = "ref/talent/unlock-ki"
+anchor = "unlock-ki"
+print = "A rogue with this advanced talent increases the number of points in the [ki pool](ref/talent/ki-pool) that she gains from the ki pool rogue talent to be equal to 1/2 her rogue level + her highest mental ability score modifier (Intelligence, Wisdom, or Charisma). In addition, she can spend 2 points from her ki pool as a swift action to gain the skill unlocks (_Pathfinder Unchained_ 82) for one skill of her choice as appropriate for her number of ranks in that skill. This benefit lasts for 1 minute. The rogue must have a ki pool before selecting this advanced talent."

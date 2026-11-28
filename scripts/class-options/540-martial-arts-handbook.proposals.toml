@@ -1,0 +1,119 @@
+# The printed text of the powers of the class options of the book, written ones included (the check reads an entry against it). Generated: never edit by hand.
+
+[[entry]]
+id = "ref/kipower/action-before-thought"
+anchor = "action-before-thought"
+print = "A monk with this ability can spend 2 ki points as a free action as part of rolling initiative to roll twice on the initiative check and take the higher result. A monk must be at least 6th level before selecting this ki power."
+
+[[entry]]
+id = "ref/kipower/bare-hand-block"
+anchor = "bare-hand-block"
+print = "A monk with this ability can spend 1 ki point as an immediate action when attacked with a manufactured weapon to attempt an unarmed [sunder](ref/rule/sunder) combat maneuver check against it. If he successfully sunders the weapon and grants it the [broken](ref/misc/broken) condition, the attack deals no damage. He can spend an additional 1 ki point when using this ability to activate [ki sunder](ref/kipower/ki-sunder) as a free action. A monk must be at least 8th level and have the [ki sunder](ref/kipower/ki-sunder) ki power before selecting this ki power."
+
+[[entry]]
+id = "ref/kipower/breaking-down-koan"
+anchor = "breaking-down-koan"
+print = "A monk with this ability can spend 1 ki point as a swift action to present a paradox, riddle, or complicated question to a creature within 30 feet. The creature must succeed at a Will save (DC = 10 + 1/2 the monk's level + his Wisdom modifier) or be [confused](ref/misc/confused) for 1 round. This is a mind-affecting, language-dependent effect. A monk must be at least 8th level before selecting this ki power."
+
+[[entry]]
+id = "ref/kipower/building-up-koan"
+anchor = "building-up-koan"
+print = "A monk with this ability can spend 2 ki points as a swift action to ask himself a koan, which he then tries to answer. The monk must attempt a Will save (DC 15 + 1/2 the monk's level). If successful, he gains an insight bonus equal to his Wisdom modifier to AC and on attack rolls, saving throws, skill checks and until the end of the round. If he fails, the monk is instead [confused](ref/misc/confused) for 1 round. This is a mind-affecting, language-dependent effect. A character who can't become confused can't benefit from this ability. A monk must be at least 8th level before selecting this ki power."
+
+[[entry]]
+id = "ref/kipower/ki-sunder"
+anchor = "ki-sunder"
+print = "A monk with this ability can spend 1 ki point as a free action when attempting a [sunder](ref/rule/sunder) combat maneuver check to add his monk level as a bonus to the damage roll."
+
+[[entry]]
+id = "ref/kipower/master-thought-koan"
+anchor = "master-thought-koan"
+print = "A monk with this ability can spend an additional 2 ki points when using either the [breaking-down koan](ref/kipower/breaking-down-koan) or [building-up koan](ref/kipower/building-up-koan) ki powers. When combined with master-thought koan, breaking-down koan affects a number of characters of your choice within 30 feet equal to the monk's wisdom modifier. When combined with master-thought koan, building-up koan can be used on an ally within 30 feet. A monk must be at least 12th level and have either the [breaking-down koan](ref/kipower/breaking-down-koan) or the building-up koan ki power before selecting this ki power."
+
+[[entry]]
+id = "ref/ninjatrick/deep-cover"
+anchor = "deep-cover"
+print = "A ninja with this trick gains the dual identity and seamless guise class feature as a [vigilante](ref/class/vigilante), except that the ninja can spend 1 ki point to change identities as a move action. The ninja's identities are referred to as social and ninja, rather than social and vigilante."
+
+[[entry]]
+id = "ref/ninjatrick/greater-ki-venom"
+anchor = "greater-ki-venom"
+print = "A ninja with this trick can further improve her [ki venom](ref/ninjatrick/ki-venom). The ninja can spend 2 ki points to increase the damage die to a d8 or spend 2 ki points to change the ability damage dealt to [Constitution damage](ref/rule/ability-damage-drain). The ninja must have the [ki venom](ref/ninjatrick/ki-venom) ninja trick before selecting this trick."
+
+[[entry]]
+id = "ref/ninjatrick/herbal-compound"
+anchor = "herbal-compound"
+print = "A ninja with this trick can consume specially prepared herbs to strengthen her mind. The ninja can spend 1 ki point and smoke, eat, or inject an herbal compound as a move action. The ninja takes a -2 penalty to AC and on Reflex saves but gains a +4 alchemical bonus on Will saves for 10 minutes per ninja level."
+
+[[entry]]
+id = "ref/ninjatrick/ki-venom"
+anchor = "ki-venom"
+print = '''
+A ninja with this trick knows how to make poisons from innocuous herbs or minerals. Creating ki venom is a full-round action that costs 1 ki point.
+
+The poison lasts for 24 hours before becoming inert. The poison deals either [Strength or Dexterity damage](ref/rule/ability-damage-drain), chosen when the venom is created. The ninja can spend additional ki as part of the process of creating the ki venom to improve the venom in one or more of the following ways: spend 1 ki point to increase the damage die to a d6, spend 1 ki point to change the ability damage dealt to Intelligence, Wisdom, or Charisma damage, or spend 1 ki point to increase the number of saves required to cure the poison by 1. KI VENOM Type poison, injury; Save Fortitude DC = 10 + 1/2 the ninja's level + her Charisma modifier Frequency 1/round for rounds equal to the ninja's Charisma modifier. Effect 1d4 ability damage (see above); Cure 1 save'''
+
+[[entry]]
+id = "ref/ninjatrick/many-guises"
+anchor = "many-guises"
+print = "A ninja with this trick gains the vigilante social talent of the same name. The ninja must have the [deep cover](ref/ninjatrick/deep-cover) ninja trick before selecting this trick."
+
+[[entry]]
+id = "ref/ninjatrick/occulted-soul"
+anchor = "occulted-soul"
+print = "A ninja with this trick can still her mind to bypass magical detection. The ninja can spend 1 ki point to cast _[nondetection](ref/spell/nondetection)_ on herself as a [spell-like ability](ref/umr/spell-like-abilities), with a caster level equal to her ninja level."
+
+[[entry]]
+id = "ref/ninjatrick/strangler"
+anchor = "strangler"
+print = "A ninja with this trick knows how to use a scarf, usually with a coin or large knot, as a lethal [garrote](ref/eq-weapon/garrote). The ninja takes no penalties when using a scarf as an improvised garrote. In addition, as a free action when attempting a grapple combat maneuver check, the ninja can spend 1 ki point to gain the [constrict](ref/umr/constrict) special attack on that maneuver with damage equal to half the ninja's sneak attack dice (minimum 1d6)."
+
+[[entry]]
+id = "ref/ninjatrick/swift-poisoner"
+anchor = "swift-poisoner"
+print = "A ninja with this trick can apply a dose of poison to a weapon as a swift action."
+
+[[entry]]
+id = "ref/slayertalent/eternal-opposition"
+anchor = "eternal-opposition"
+print = "While most imperial dragons, undead, and other long-enduring foes can count on outlasting their mortal adversaries, the [samsaran](ref/race/samsaran) slayer has pledged to oppose their machinations across all his lifetimes. When his studied target is of the dragon, fey, outsider, or undead type, the slayer gains a +2 insight bonus to his AC against its attacks and on saving throws against its abilities."
+
+[[entry]]
+id = "ref/slayertalent/experience-across-ages"
+anchor = "experience-across-ages"
+print = "Once per day, a [samsaran](ref/race/samsaran) slayer can draw upon insights from his previous lifetimes to help identify a foe or recall a key piece of information. As a swift action, the slayer can attempt a [Knowledge](ref/skill/knowledge-all) check as if he had a number of ranks in the appropriate Knowledge skill equal to his slayer level. A slayer can use this talent one additional time per day for every 5 slayer levels he has."
+
+[[entry]]
+id = "ref/slayertalent/inured-to-terror"
+anchor = "inured-to-terror"
+print = "With their knowledge of the cyclical nature of existence, there are few experiences that can daunt [samsaran](ref/race/samsaran) slayers for long. As an immediate action when a slayer fails a saving throw against a fear effect, he can attempt the saving throw a second time to reduce the severity of the effect from [panicked](ref/misc/panicked) to [frightened](ref/misc/frightened), frightened to [shaken](ref/misc/shaken), or shaken to unaffected. Additionally, the DC of Intimidate checks to demoralize him increases by 2."
+
+[[entry]]
+id = "ref/slayertalent/mountainside-ambush"
+anchor = "mountainside-ambush"
+print = "Fighting in the mountains of Zi Ha has trained [samsaran](ref/race/samsaran) slayers to strike the unwary with deadly attacks from above. If a slayer deals sneak attack damage to a creature that is unaware of his presence while he is standing on higher ground than his target, he does not have to roll sneak attack damage; instead, the sneak attack deals maximum damage. The [samsaran](ref/race/samsaran) must be standing on solid ground to use this ability."
+
+[[entry]]
+id = "ref/slayertalent/mystic-veil"
+anchor = "mystic-veil"
+print = "[Samsaran](ref/race/samsaran) slayers are adept at obscuring the passes of their mountain homes from intruders. The slayer can cast _[silent image](ref/spell/silent-image)_ as a [spell-like ability](ref/umr/spell-like-abilities) once per day for every 2 slayer levels he has, using his slayer level as his caster level. The slayer uses his Intelligence modifier on [concentration](ref/rule/concentration) checks when using this ability, and the DC to disbelieve the illusion is equal to 11 + the slayer's Intelligence modifier. The slayer must have an Intelligence score of at least 11 to select this talent."
+
+[[entry]]
+id = "ref/slayertalent/recall-training"
+anchor = "recall-training"
+print = "By calling on the memories of previous incarnations, a [samsaran](ref/race/samsaran) slayer can use martial techniques that transcend his usual capabilities. Once per day, the slayer can take a move action to gain the benefit of a combat feat he doesn't have. This effect lasts for 1 minute per slayer level he has. The slayer must meet all the feat's prerequisites."
+
+[[entry]]
+id = "ref/stylestrike/break"
+anchor = "break"
+print = "The monk combines a writhing twist with a violent strike against a foe that is grappling him. If the monk's attack is successful, he can attempt a [grapple](ref/rule/grapple) combat maneuver check or [Escape Artist](ref/skill/escape-artist) check as a free action to escape a grapple, adding the strike's damage as a bonus on his check."
+
+[[entry]]
+id = "ref/stylestrike/rabbit-punch"
+anchor = "rabbit-punch"
+print = "The monk gives a sharp blow to the back of a foe's head. The critical threat range and critical multiplier of this strike increase by 1, and the monk gains a +2 bonus on attack rolls to confirm a critical hit with this strike. This increase is not doubled by [Improved Critical](ref/feat/improved-critical) or similar effects. Creatures without a discernible head are unaffected by this style strike (subject to GM discretion). The monk must attack with a fist to use this style strike."
+
+[[entry]]
+id = "ref/stylestrike/throat-crush"
+anchor = "throat-crush"
+print = "The monk gives a sharp blow to a foe's throat, hampering its ability to speak for 1 round as if it had the [caster croak spellblight](ref/rule/minor-spellblights) . Creatures without a discernible throat, or with multiple vocal organs, are unaffected (subject to GM discretion)."

@@ -1,0 +1,24 @@
+entry	anchor	decision	note
+ref/kipower/action-before-thought	action-before-thought	print	Printing evidence: owned copy credits page bears ©2018; it does not state a printing number. "rule 3: the prerequisite row ""6th-level monk"" is print's ""must be at least 6th level"" (the same level)"
+ref/kipower/bare-hand-block	bare-hand-block	print	"rule 3: the prerequisite row ""8th-level monk, ki sunder"" is print's ""must be at least 8th level"" (the same level); rule 3: the prerequisite item ""ki sunder"" is print's sentence that says the character must have it"
+ref/kipower/breaking-down-koan	breaking-down-koan	print	"rule 3: the prerequisite row ""8th-level monk"" is print's ""must be at least 8th level"" (the same level)"
+ref/kipower/building-up-koan	building-up-koan	print	"rule 3: the prerequisite row ""8th-level monk"" is print's ""must be at least 8th level"" (the same level)"
+ref/kipower/ki-sunder	ki-sunder	print	Replaced the import effect rows with the printed paragraph wording.
+ref/kipower/master-thought-koan	master-thought-koan	print	"rule 3: the prerequisite row ""12th-level monk, either breaking-down ko"" is print's ""must be at least 12th level"" (the same level); rule 3: the prerequisite item ""either breaking-down koan or b"" is print's sentence that says the character must have it"
+ref/ninjatrick/deep-cover	deep-cover	print	label rows removed; wording unchanged
+ref/ninjatrick/greater-ki-venom	greater-ki-venom	print	"rule 3: the prerequisite item ""Ki venom"" is print's sentence that says the character must have it"
+ref/ninjatrick/herbal-compound	herbal-compound	print	Replaced the import effect rows with the printed paragraph wording.
+ref/ninjatrick/ki-venom	ki-venom	hold	number: corpus - / print ['1', '1/2', '1/round', '10', '1d4', 'charisma', 'charisma', 'cure', 'damage', 'dc', 'effect', 'equal', 'fortitude', 'frequency', 'injury', 'modifier', 'modifier', 'ninja', 'ninja', 'poison', 'round', 'save', 'save', 'type']; resolution of #537: Martial Arts Handbook p. 20; print text may be cut at a page or column break: ...modifier. Effect 1d4 ability damage (see above);
+ref/ninjatrick/many-guises	many-guises	hold	number: corpus ['+20', '1', '3', 'alignment', 'any', 'any', 'anything', 'appear', 'appear', 'appearance', 'assumed', 'become', 'benefit', 'bonu', 'build', 'change', 'check', 'circumstance', 'clothing', 'common', 'created', 'discretion', 'disguise', 'disguise', 'disposal', 'each', 'either', 'either', 'fail', 'farmer', 'forgotten', 'gender', 'gm', 'group', 'hat', 'identity', 'identity', 'identity', 
+ref/ninjatrick/occulted-soul	occulted-soul	print	Replaced the import effect rows with the printed paragraph wording.
+ref/ninjatrick/strangler	strangler	print	print sentences that the written text lacks (1): The ninja takes no penalties when using a scarf as an improv
+ref/ninjatrick/swift-poisoner	swift-poisoner	print	label rows removed; wording unchanged
+ref/slayertalent/eternal-opposition	eternal-opposition	print	"rule 3: the prerequisite row ""Samsaran"" only restates words that print has (the import wrote a row for them): dropped"
+ref/slayertalent/experience-across-ages	experience-across-ages	print	"rule 3: the prerequisite row ""Samsaran"" only restates words that print has (the import wrote a row for them): dropped"
+ref/slayertalent/inured-to-terror	inured-to-terror	print	"rule 3: the prerequisite row ""Samsaran"" only restates words that print has (the import wrote a row for them): dropped"
+ref/slayertalent/mountainside-ambush	mountainside-ambush	print	"rule 3: the prerequisite row ""Samsaran"" only restates words that print has (the import wrote a row for them): dropped"
+ref/slayertalent/mystic-veil	mystic-veil	hold	"number: corpus - / print ['11', 'intelligence', 'least', 'must', 'score', 'select', 'talent']; rule 3: the prerequisite row ""Samsaran, Intelligence 11+"" only restates words that print has (the import wrote a row for them): dropped"
+ref/slayertalent/recall-training	recall-training	hold	"rule word: corpus - / print ['take']; rule 3: the prerequisite row ""Samsaran"" only restates words that print has (the import wrote a row for them): dropped"
+ref/stylestrike/break	break	print	Replaced the import effect rows with the printed paragraph wording.
+ref/stylestrike/rabbit-punch	rabbit-punch	print	Replaced the import effect rows with the printed paragraph wording.
+ref/stylestrike/throat-crush	throat-crush	print	label rows removed; wording unchanged

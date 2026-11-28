@@ -15,11 +15,7 @@ kind = "class_option"
 group = "style-strike"
 +++
 
-**Break**
-
-**Flavor:** The monk combines a writhing twist with a violent strike against a foe that is grappling
-him.
-
-**Ability:** If the monk's attack is successful, he can attempt a [grapple](ref/rule/grapple) combat
-maneuver check or [Escape Artist](ref/skill/escape-artist) check as a **free action** to escape a
-grapple, adding the strike's damage as a bonus on his check.
+The monk combines a writhing twist with a violent strike against a foe that is grappling him. If the
+monk's attack is successful, he can attempt a [grapple](ref/rule/grapple) combat maneuver check or
+[Escape Artist](ref/skill/escape-artist) check as a free action to escape a grapple, adding the
+strike's damage as a bonus on his check.

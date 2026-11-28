@@ -13,16 +13,11 @@ page = "18"
 [fields]
 kind = "class_option"
 group = "slayer-talent"
+ability_type = "Ex"
 +++
 
-**Mountainside Ambush (Ex)**
-
-**Flavor:** Fighting in the mountains of Zi Ha has trained samsaran slayers to strike the unwary
-with deadly attacks from above.
-
-**Ability:** If a slayer deals sneak attack damage to a creature that is unaware of his presence
-while he is standing on higher ground than his target, he does not have to roll sneak attack damage;
-instead, the sneak attack deals maximum damage. The samsaran must be standing on solid ground to use
-this ability.
-
-**Prereq:** [Samsaran](ref/race/samsaran)
+Fighting in the mountains of Zi Ha has trained [samsaran](ref/race/samsaran) slayers to strike the
+unwary with deadly attacks from above. If a slayer deals sneak attack damage to a creature that is
+unaware of his presence while he is standing on higher ground than his target, he does not have to
+roll sneak attack damage; instead, the sneak attack deals maximum damage. The
+[samsaran](ref/race/samsaran) must be standing on solid ground to use this ability.

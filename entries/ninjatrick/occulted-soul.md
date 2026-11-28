@@ -13,12 +13,9 @@ page = "21"
 [fields]
 kind = "class_option"
 group = "ninja-trick"
+ability_type = "Su"
 +++
 
-**Occulted Soul (Su)**
-
-**Flavor:** A ninja with this trick can still her mind to bypass magical detection.
-
-**Ability:** The ninja can spend 1 ki point to cast [nondetection](ref/spell/nondetection) on
-herself as a [spell-like ability](ref/umr/spell-like-abilities), with a caster level equal to her
-ninja level.
+A ninja with this trick can still her mind to bypass magical detection. The ninja can spend 1 ki
+point to cast _[nondetection](ref/spell/nondetection)_ on herself as a
+[spell-like ability](ref/umr/spell-like-abilities), with a caster level equal to her ninja level.
