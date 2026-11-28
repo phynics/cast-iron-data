@@ -16,4 +16,8 @@ group = "witch-hex"
 ability_type = "Su"
 +++
 
-The witch curses a target with clumsiness when in dangerous terrain. The target takes a -4 penalty on Acrobatics checks to move over slippery or uneven surfaces and to avoid attacks of opportunity while moving through threatened squares. This effect lasts for 1 minute. On a successful Will save, the penalty is reduced by half and the duration is only 1 round. At 8th level, this penalty increases to -8.
+The witch curses a target with clumsiness when in dangerous terrain. The target takes a -4 penalty
+on Acrobatics checks to move over slippery or uneven surfaces and to avoid attacks of opportunity
+while moving through threatened squares. This effect lasts for 1 minute. On a successful Will save,
+the penalty is reduced by half and the duration is only 1 round. At 8th level, this penalty
+increases to -8.

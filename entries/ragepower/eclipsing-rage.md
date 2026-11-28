@@ -16,4 +16,7 @@ group = "rage-power"
 ability_type = "Su"
 +++
 
-While the barbarian is raging, the [light level](ref/rule/vision-and-light) within 10 feet of her lowers by one step. She can't decrease the light level below normal darkness with this ability. Multiple barbarians with this rage power don't further reduce the light level. A barbarian must be at least 6th level to choose this rage power.
+While the barbarian is raging, the [light level](ref/rule/vision-and-light) within 10 feet of her
+lowers by one step. She can't decrease the light level below normal darkness with this ability.
+Multiple barbarians with this rage power don't further reduce the light level. A barbarian must be
+at least 6th level to choose this rage power.

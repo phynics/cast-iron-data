@@ -16,4 +16,7 @@ group = "rage-power"
 ability_type = "Su"
 +++
 
-Whenever the barbarian rages, the [light level](ref/rule/vision-and-light) within 20 feet of her lowers by two steps instead of one. She still can't decrease the light level below normal darkness with this ability. A barbarian must be at least 10th level and have the [eclipsing rage](ref/ragepower/eclipsing-rage) power to choose this rage power.
+Whenever the barbarian rages, the [light level](ref/rule/vision-and-light) within 20 feet of her
+lowers by two steps instead of one. She still can't decrease the light level below normal darkness
+with this ability. A barbarian must be at least 10th level and have the
+[eclipsing rage](ref/ragepower/eclipsing-rage) power to choose this rage power.

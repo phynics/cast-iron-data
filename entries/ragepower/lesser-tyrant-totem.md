@@ -16,4 +16,7 @@ group = "rage-power"
 ability_type = "Ex"
 +++
 
-While raging, the barbarian's bite attack deals damage as if the barbarian were [one size larger](ref/misc/damage-die-adjustments) than her actual size. The barbarian must have the [animal fury](ref/ragepower/animal-fury) rage power or a natural bite attack to choose this rage power.
+While raging, the barbarian's bite attack deals damage as if the barbarian were
+[one size larger](ref/misc/damage-die-adjustments) than her actual size. The barbarian must have the
+[animal fury](ref/ragepower/animal-fury) rage power or a natural bite attack to choose this rage
+power.

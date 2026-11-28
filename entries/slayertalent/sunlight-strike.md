@@ -16,4 +16,5 @@ group = "slayer-talent"
 ability_type = "Ex"
 +++
 
-The slayer can reflect sunlight (or other sources of bright light) into the eyes of an adjacent target as a swift action, causing it to gain the [dazzled](ref/misc/dazzled) condition for 1 round.
+The slayer can reflect sunlight (or other sources of bright light) into the eyes of an adjacent
+target as a swift action, causing it to gain the [dazzled](ref/misc/dazzled) condition for 1 round.

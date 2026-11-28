@@ -16,4 +16,9 @@ group = "rage-power"
 ability_type = "Su"
 +++
 
-The barbarian's rage rejuvenates her physically and spiritually. While raging, she ignores penalties to her ability scores due to [aging](ref/rule/age). She also ignores penalties from [negative levels](ref/rule/energy-drain-and-negative-levels), though she retains any negative levels she has until they are removed normally. A barbarian can have only one season-themed rage power, choosing between spring, [summer](ref/ragepower/summer-rage), [autumn](ref/ragepower/autumn-rage), or [winter](ref/ragepower/winter-rage) rage.
+The barbarian's rage rejuvenates her physically and spiritually. While raging, she ignores penalties
+to her ability scores due to [aging](ref/rule/age). She also ignores penalties from
+[negative levels](ref/rule/energy-drain-and-negative-levels), though she retains any negative levels
+she has until they are removed normally. A barbarian can have only one season-themed rage power,
+choosing between spring, [summer](ref/ragepower/summer-rage), [autumn](ref/ragepower/autumn-rage),
+or [winter](ref/ragepower/winter-rage) rage.

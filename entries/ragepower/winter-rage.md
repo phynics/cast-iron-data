@@ -16,4 +16,8 @@ group = "rage-power"
 ability_type = "Su"
 +++
 
-As a standard action, the barbarian can bellow a 20-foot cone of frigid, snowy air. Until the beginning of the barbarian's next turn, creatures moving through the cone move at half speed. A barbarian can have only one season-themed rage power, choosing between [spring](ref/ragepower/spring-rage), [summer](ref/ragepower/summer-rage), [autumn](ref/ragepower/autumn-rage), or winter rage.
+As a standard action, the barbarian can bellow a 20-foot cone of frigid, snowy air. Until the
+beginning of the barbarian's next turn, creatures moving through the cone move at half speed. A
+barbarian can have only one season-themed rage power, choosing between
+[spring](ref/ragepower/spring-rage), [summer](ref/ragepower/summer-rage),
+[autumn](ref/ragepower/autumn-rage), or winter rage.
