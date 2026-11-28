@@ -226,6 +226,136 @@ def extract_print(corpus: Path, book: str, books_dir: Path, cache_dir: Path) -> 
     return texts, entries, options
 
 
+
+SPLIT = re.compile(r"(?<=[.!?])\s+(?=\S)|\n\n+")
+
+
+def cased(text: str) -> str:
+    text = re.sub(r"\[([^\]]+)\]\([^)]+\)", r"\1", text)
+    text = re.sub(r"\\([*])", r"\1", text)
+    return " ".join(text.replace("**", "").replace("_", "").split())
+
+
+def entry_text(body: str) -> str:
+    """An entry body as one text: the heading of a power or section is a sentence of its own, without its key."""
+    return re.sub(r"\s*\{#[^}]+\}", "", re.sub(r"(?m)^#{1,6}\s+", "", body))
+
+
+def window_text(blocks: list) -> str:
+    """The paragraphs of a printed window as one stream: a column that the text layer sets line by line (Divine Anthology) breaks sentences between
+    blocks. A title stands in its own paragraph (a spell list with no full stop must not run into the title below it)."""
+    out = ""
+    for block in blocks:
+        if block.kind == "title":
+            out += "\n\n" + block.plain() + "\n\n"
+        else:
+            out += " " + block.plain()
+    return out
+
+
+def split_stream(text: str) -> list[str]:
+    return [x for x in (plain(part) for part in SPLIT.split(cased(text))) if x]
+
+
+def squashed(text: str) -> str:
+    return re.sub(r"[^a-z0-9]+", "", unicodedata.normalize("NFKD", text).translate(LIGATURES).casefold())
+
+
+def multi_match(left: str, right: str) -> bool:
+    """The strict rule of the single-power audit (one printed misprint at most), or the same letters and digits with other blanks and marks: the text
+    layer breaks a word at a ligature ("def lection") and keeps a hyphen at a line end."""
+    return sentences_match(left, right) or squashed(left) == squashed(right)
+
+
+def multi_audit(args) -> int:
+    """The two-way sentence audit of the written multi-power entries (ruling 66): the sentences of the printed window of the entry (the title of the
+    entry to the next title) and of each variant section that another book prints, read from the pages again, against the sentences of the entry."""
+    options = CLASS_OPTIONS
+    fp = options.fp
+    corpus, book = args.corpus.resolve(), args.book
+    options.VARIANTS_ON = True
+    fp.configure_book(book)
+    rows = list(csv.DictReader((corpus / "scripts/class-options" / f"540-{book}.tsv").open(encoding="utf-8"), delimiter="\t"))
+    entries = {e.id: e for e in options.load_class_options(corpus, book)}
+    options.STOP_TITLES.clear()
+    options.STOP_TITLES.update(fp.squash(re.sub(r"\s*\((?:[A-Z]{2,4}|HotW)\)\s*$", "", x.title)) for x in options.load_class_options(corpus))
+    if book == "core-rulebook":
+        options.STOP_TITLES.update(fp.squash(x) for x in ("Barbarian", "Bard", "Cleric", "Druid", "Fighter", "Monk", "Paladin", "Ranger", "Rogue", "Sorcerer", "Wizard", "Familiars", "Class Skills", "Class Features"))
+    cache: dict[str, object] = {}
+
+    def load_pub(pub: str):
+        if pub not in cache:
+            fp.configure_book(pub)
+            pdf = fp.find_pdf(args.books, fp.publication_title(corpus, pub))
+            cache[pub] = fp.load_book(fp.book_xml(pdf, args.cache)) if pdf else None
+            fp.configure_book(book)
+        return cache[pub]
+
+    def read(pub: str, page: int, last: int):
+        source = load_pub(pub)
+        fp.configure_book(pub)
+        try:
+            blocks = fp.read_blocks(source, max(1, page + fp.PAGE_OFFSET[0] - 1), min(last + fp.PAGE_OFFSET[0], max(source.pages)))
+            if pub == "core-rulebook":
+                blocks = options.core_rulebook_table_heads(blocks)
+            if pub in options.TABLE_ENDS:
+                blocks = options.core_rulebook_class_tables(blocks, pub)
+            return blocks
+        finally:
+            fp.configure_book(book)
+
+    written = sorted({r["entry"] for r in rows if r["status"] == "written" and r["shape"] in ("multi", "variant")})
+    print_found = print_total = entry_found = entry_total = 0
+    exceptions = []
+    for eid in written:
+        entry = entries.get(eid)
+        mine = [r for r in rows if r["entry"] == eid]
+        page = int(re.match(r"\d+", entry.page).group())
+        blocks = read(book, page, page + 3)
+        anchored = options.anchor_section(blocks, entry.title, set(), options.group_kind(entry))
+        if anchored is None:
+            exceptions.append(f"{eid}: its printed title is not on p. {page}")
+            continue
+        printed_text = window_text(anchored[0])
+        for r in mine:
+            if r["shape"] != "variant":
+                continue
+            vp = int(re.match(r"\d+", r["page"]).group())
+            vblocks = read(r["book"], vp, vp + 3)
+            titles = [i for i, b in enumerate(vblocks) if b.kind == "title"]
+            found = None
+            for n, i in enumerate(titles):
+                t = fp.squash(re.sub(r"\s*\(.*$", "", vblocks[i].plain()))
+                if t and t in (fp.squash(re.sub(r"\s*\(.*$", "", r["feature"])),):
+                    j = titles[n + 1] if n + 1 < len(titles) else len(vblocks)
+                    found = vblocks[i:j]
+                    break
+            if found is None:
+                exceptions.append(f"{eid}#{r['anchor']}: the printed title {r['feature']!r} is not on {r['book']} p. {vp}")
+                continue
+            printed_text += " " + window_text(found)
+        body_text = entry_text(entries[eid].body)
+        printed, have = split_stream(printed_text), split_stream(body_text)
+        printed_stream, have_stream = squashed(printed_text), squashed(body_text)
+        for sentence in printed:
+            print_total += 1
+            if squashed(sentence) in have_stream or any(multi_match(sentence, c) for c in have):
+                print_found += 1
+            else:
+                exceptions.append(f"PRINT -> ENTRY {eid}: not found: {sentence}")
+        for sentence in have:
+            entry_total += 1
+            if squashed(sentence) in printed_stream or any(multi_match(sentence, c) for c in printed):
+                entry_found += 1
+            else:
+                exceptions.append(f"ENTRY -> PRINT {eid}: extra: {sentence}")
+    print(f"Print -> entry: {print_found} of {print_total} sentences found in {len(written)} written multi-power entries")
+    print(f"Entry -> print: {entry_found} of {entry_total} sentences found in printed page text")
+    for exc in exceptions:
+        print(f"EXCEPTION: {exc}")
+    return 1 if exceptions else 0
+
+
 def self_test() -> int:
     checks = 0
 
@@ -302,6 +432,16 @@ def self_test() -> int:
     if not eq(is_covered("The text has an extra word.", "The text has a word.", ("extra word", "word")),
               (True, True), "a recorded erratum explains a certain print correction"):
         return 1
+    if not eq(multi_match("You receive a +1 def lection bonus.", "You receive a +1 deflection bonus."), True, "a word broken at a ligature is the word"):
+        return 1
+    if not eq(multi_match("You receive a +1 deflection bonus.", "You receive a +2 deflection bonus."), False, "a changed number is a difference"):
+        return 1
+    if not eq(split_stream("Lightning Arc (Sp): As a standard action, you can. You can twice."), ["lightning arc (sp): as a standard action, you can.", "you can twice."], "a printed stream reads as its sentences"):
+        return 1
+    if not eq(entry_text("## Lightning Arc (Sp) {#lightning-arc}\n\nAs a standard action."), "Lightning Arc (Sp)\n\nAs a standard action.", "a heading of the entry is text, its key is not"):
+        return 1
+    if not eq(squashed("def lection, 3rd\u2014 f ly") , squashed("deflection 3rd\u2014fly"), "the squashed text ignores blanks and marks"):
+        return 1
     print(f"self-test: {checks} checks passed")
     return 0
 
@@ -313,11 +453,14 @@ def main() -> int:
     ap.add_argument("--books", type=Path, help="directory containing the source PDFs")
     ap.add_argument("--cache", type=Path, help="PDF text cache directory")
     ap.add_argument("--self-test", action="store_true")
+    ap.add_argument("--multi", action="store_true", help="audit the written multi-power entries (their own window and the variant sections of other books)")
     args = ap.parse_args()
     if args.self_test:
         return self_test()
     if not (args.book and args.books and args.cache):
         ap.error("book, --books, and --cache are required")
+    if args.multi:
+        return multi_audit(args)
 
     rows = list(csv.DictReader((args.corpus / "scripts/class-options" / f"540-{args.book}.tsv").open(encoding="utf-8"), delimiter="\t"))
     entries = {}

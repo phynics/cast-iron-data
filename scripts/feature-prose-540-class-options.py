@@ -693,7 +693,8 @@ def print_decision_may_settle(notes_tag: list[str], problems: list[str], row: di
 STOP_TITLES: set[str] = set()          # squash of the title of every class option: another one ends a section
 
 
-SUFFIXES = ("", "bloodline", "mystery", "school", "domain")
+SUFFIXES = ("", "bloodline", "mystery", "school")
+DOMAIN_SUFFIXES = SUFFIXES + ("domain",)        # a cleric domain is printed "Air Domain" (the Core Rulebook batch, --variants)
 # The words that a printed neighbour can carry after the name of an option ("Earth", "Earth School", "Earth Bloodline"). A group with another
 # printed suffix ("Domain", "Order", "Patron", ...) needs it added here before its batch: until then its window does not end at that neighbour
 # (the entry holds, "no end title", or the neighbour shows in `--neighbours`), which is safe but not settled.
@@ -729,12 +730,13 @@ def anchor_section(blocks: list, title: str, own: frozenset | set = frozenset(),
         words = {w.casefold() for w in re.findall(r"[A-Za-z]+", m.group(2))}
         if kind.casefold() not in words:
             return False
-        return fp.squash(m.group(1)) in {key + s for s in SUFFIXES}
-    at = next((i for i, b in enumerate(blocks) if b.kind == "title" and (fp.squash(b.plain()) in {key + s for s in SUFFIXES} or is_own(b.plain()))), None)
+        return fp.squash(m.group(1)) in {key + s for s in (DOMAIN_SUFFIXES if VARIANTS_ON else SUFFIXES)}
+    suffixes = DOMAIN_SUFFIXES if VARIANTS_ON else SUFFIXES
+    at = next((i for i, b in enumerate(blocks) if b.kind == "title" and (fp.squash(b.plain()) in {key + s for s in suffixes} or is_own(b.plain()))), None)
     if at is None:
         return None
     others = STOP_TITLES - {key} - set(own)
-    stops = {o + s for o in others for s in SUFFIXES}
+    stops = {o + s for o in others for s in suffixes}
     for j in range(at + 1, len(blocks)):
         b = blocks[j]
         if b.kind == "title" and (fp.squash(b.plain()) in stops or b.size > blocks[at].size):
@@ -887,7 +889,8 @@ def variant_section(blocks: list, bk2, e, missing: list, expected: list[str], li
         for f in pfs:
             text, _, _ = fp.print_md(f, [], bk2.vocab, e.id)
             rp = (linked or {}).get(fp.namekey(fp.head_text(f.head))) if VARIANTS_ON else None
-            if rp and norm(rp) == norm(text):
+            bare = lambda t: re.sub(r"\s*\([^()]*Pathfinder[^()]*\d+\)", "", norm(t))        # ruling 26: a bare book citation goes where the corpus links the rule it names
+            if rp and bare(rp) == bare(text):
                 text = rp                          # the comparison of the second source placed the links of the corpus into the same printed words
             first, *rest = text.split("\n\n")
             parts += [f"**{fp.head_text(f.head)}:** {first}"] + rest
@@ -901,7 +904,7 @@ def variant_section(blocks: list, bk2, e, missing: list, expected: list[str], li
                     cmp = fp.compare_feature(fp.build_draft(f), text, set(fp.tokens(fp.ABILITY_TAG.sub("", f.name))), set())
                     replaced[f.span_sha()] = {"anchor": fp.anchor_of(f.name), "span": f.span_sha(), "status": cmp.status, "notes": list(cmp.notes) + ["print's "
                                               + fp.head_text(pf.head) + " in the variant"], "print": text, "level_import": None, "head": f.name, "name": f.name}
-        one = (title, "\n\n".join(parts), replaced, blocks[i].page, n + 1 < len(titles))       # the last: whether another title ends the section
+        one = (title, tidy_print("\n\n".join(parts)) if VARIANTS_ON else "\n\n".join(parts), replaced, blocks[i].page, n + 1 < len(titles))       # the last: whether another title ends the section
         if not VARIANTS_ON:
             return one
         found.append(one)
@@ -988,6 +991,8 @@ def paragraph_complete(par: str) -> bool:
     if not p or p.startswith(("#", "|", "- ", "* ", ">", ":::")) or re.match(r"^\d+[.)] ", p):
         return True
     p = re.sub(r"\]\([^)]*\)$", "]", p)                      # a link at the end: its text is the word
+    if (re.match(r"^\*\*Associated [^:*]+:\*\*\s*\S", p) or re.match(r"^\*\*(?:Replacement )?Domain Spells:\*\*\s*1st\u2014", p)):
+        return True                                             # print sets the associated domain, deity, school lines and a spell list with no full stop
     return bool(TERMINAL.search(p))
 
 
@@ -1276,6 +1281,16 @@ def print_lost(printed: str, written: str, fixes: list[tuple[str, str]] | None =
     return out
 
 
+def tidy_print(text: str) -> str:
+    """Typesetting of the text layer in a multi-power section (--variants): a spell list's "1st— shocking grasp" has no blank after the dash, and the comma
+    or full stop that follows an italic name is no part of it ("_obscuring mist,_" is "_obscuring mist_,"); a label that a line break split
+    ("Replacement" and "Domain Spells:") is one."""
+    text = re.sub(r"(\d(?:st|nd|rd|th))\u2014[ \t]+", lambda m: m.group(1) + "\u2014", text)
+    text = re.sub(r"(?<=\d)- (?=[a-z])", "-", text)                  # "30- foot": the hyphen of a line end
+    text = re.sub(r"(?<=[A-Za-z\)])([,;.])_(?=\s|$)", r"_\1", text)
+    return re.sub(r"\*\*Replacement:\*\*\s+\*\*Domain Spells:\*\*", "**Replacement Domain Spells:**", text)
+
+
 def slug_match(a: str, b: str) -> bool:
     """Two heading keys name one section: equal, or one is the other plus a dash-joined tail ("extradimension-school" and its printed title
     "Extradimension School (Focused Arcane School)")."""
@@ -1475,6 +1490,8 @@ def compare_one(e, book, bk, other=None) -> list[dict]:
             printed = pathfinder_unchained_links(e.id, clean_pathfinder_unchained_print(printed))
         if book == "core-rulebook":
             printed = fp.render_marks(printed)   # keep print's italic markers as TOML-safe Markdown, not internal control bytes
+            if shape == "multi" and VARIANTS_ON:
+                printed = tidy_print(printed)
         blood_intro = ""
         if book == "advanced-class-guide" and e.id.startswith("ref/ragepower/"):
             power = e.id.rsplit("/", 1)[-1]
@@ -1598,7 +1615,8 @@ def compare_one(e, book, bk, other=None) -> list[dict]:
 
 
 VARIANTS_ON = False                  # ruling 65 variants stay held until a reviewer has read the first settled one (`--variants` turns this on)
-PRINT_ONLY_OK = {"classskill", "classskills", "bonusspells", "bonusfeats", "deities", "deity", "grantedpower", "grantedpowers", "domainspells"}      # the sections that print sets for every class option of a kind
+PRINT_ONLY_OK = {"classskill", "classskills", "bonusspells", "bonusfeats", "deities"}      # the sections that print sets for every class option of a kind
+PRINT_ONLY_OK_DOMAIN = PRINT_ONLY_OK | {"deity", "grantedpower", "grantedpowers", "domainspells"}      # and for a cleric domain of the Core Rulebook (--variants)
 
 
 def add_sections(e, power_rows: list[dict], res: dict, feats: list, powers: list, by_name: dict, base: dict, book: str,
@@ -1636,7 +1654,7 @@ def add_sections(e, power_rows: list[dict], res: dict, feats: list, powers: list
         notes = list(r_["notes"]) + ([f"anchor collision: {r_['anchor']}"] if anchors_seen[r_["anchor"]] > 1 else []) + problems
         hard = anchors_seen[r_["anchor"]] > 1
         label = r_["head"]
-        if "head printed, not in the import" in " ".join(r_["notes"]) and fp.squash(re.sub(r"\s*\(.*$", "", label)) not in PRINT_ONLY_OK:
+        if "head printed, not in the import" in " ".join(r_["notes"]) and fp.squash(re.sub(r"\s*\(.*$", "", label)) not in (PRINT_ONLY_OK_DOMAIN if VARIANTS_ON else PRINT_ONLY_OK):
             notes.append("a section that print sets and the import lacks: not settled (a bold head of a table or of another option can read as one)")
             status = "hold"
         if re.search(r"[a-z][A-Z]", label):
@@ -1655,9 +1673,10 @@ def add_sections(e, power_rows: list[dict], res: dict, feats: list, powers: list
         if decided and decided[0] == "print" and status == "hold" and not problems and not hard:
             status = "print"                      # a reviewed decision settles the reader's number, rule-word and link holds of a section (ruling 3)
             notes.append(f"decision: {decided[1]}")
+        printed_s = tidy_print(r_["print"]) if VARIANTS_ON else r_["print"]
         ordered.append(dict(sec, feature=r_["head"], anchor=r_["anchor"], verdict={"draft": "agree", "print": "differ", "hold": "hold"}[r_["status"]],
-                            status=status, span_sha256=r_["span"], note="; ".join(notes)[:400], print=r_["print"],
-                            print_sha256=hashlib.sha256(r_["print"].encode()).hexdigest()))
+                            status=status, span_sha256=r_["span"], note="; ".join(notes)[:400], print=printed_s,
+                            print_sha256=hashlib.sha256(printed_s.encode()).hexdigest()))
     ordered += [r for sha, r in by_sha.items() if sha not in used]       # a power that print has nowhere on the pages (a hold)
     olds = old_heading_levels(e.body)
     for pub, pg, (vtitle, vtext, _, vpage, vended) in variants or []:             # ruling 65: the variant is its own unlisted section, with its book and the printed page
@@ -1855,6 +1874,8 @@ def run_compare(args) -> int:
         try:
             last2 = pg + (3 if shape == "multi" else 1)
             blocks2 = fp.read_blocks(bk2, max(1, pg + fp.PAGE_OFFSET[0] - 1), min(last2 + fp.PAGE_OFFSET[0], max(bk2.pages)))
+            if VARIANTS_ON and pub in TABLE_ENDS:
+                blocks2 = core_rulebook_class_tables(blocks2, pub)
             anchored2 = anchor_section(blocks2, e.title, {fp.squash(fp.ABILITY_TAG.sub("", n_)) for n_ in expected}, group_kind(e))
             win = anchored2[0] if anchored2 is not None else blocks2          # the second source's section of the same title, else the whole window (a variant has its own title)
             res2 = fp.compare_entry(e, [fp.Para("title", [(e.title, True, False)], pg, 0, 20)] + win, bk2)
@@ -1924,7 +1945,10 @@ def report(rows: list[dict], cen: dict) -> str:
 
 
 def counts_for_duplicate_check(row: dict) -> bool:
-    """An unanchored multi-power window is held and cannot claim a head from its whole citation range."""
+    """An unanchored multi-power window is held and cannot claim a head from its whole citation range. With --variants (ruling 66) a section, a variant
+    section and a power that a variant section holds are no claim: two domains print one subdomain, and the deity line of two domains can be equal."""
+    if VARIANTS_ON and (row.get("shape") in {"section", "variant"} or (row.get("shape") == "multi" and str(row.get("note", "")).startswith("printed in "))):
+        return False
     return not (row.get("book") == "ultimate-intrigue" and row.get("shape") in {"multi", "section", "variant"} and row.get("status") == "hold"
                 and "window is not anchored" in row.get("note", ""))
 
@@ -2163,12 +2187,56 @@ def table_tail(text: str) -> int | None:
     return tokens[n - 1].end() if n >= 6 and n < len(tokens) else None
 
 
-def core_rulebook_class_tables(blocks: list) -> list:
-    """The CRB class tables (3-15 Sorcerer, 3-16 Wizard, "Spells per Day") that the text layer sets inside the prose of a bloodline or an arcane
-    school are no text of the option: dropped, and a sentence that a table interrupted is joined again (a multi-power window only)."""
+TABLE_ENDS = {"advanced-players-guide": {"Table 2\u201311": "Weather Seasons, Storms"},
+              "core-rulebook": {"Table 3\u20136": "", "Domains Favored Weapon": "greataxe"}}
+# The start of a printed table that no cell test reads (a title, or the head of a sidebar table) and the last words of its last row, where the text
+# layer glues the sentence that the table interrupts ("" when the table is one paragraph and the sentence goes on after it).
+
+
+def text_after_cells(text: str) -> str | None:
+    """The prose that follows a leading run of cells (6 or more) in a table paragraph, or None when the paragraph does not open with such a run."""
+    end = table_tail(text)
+    return None if end is None else text[end:]
+
+
+def core_rulebook_class_tables(blocks: list, book: str = "core-rulebook") -> list:
+    """The CRB class tables (3-15 Sorcerer, 3-16 Wizard, "Spells per Day") and the other tables that the text layer sets inside the prose of an
+    option (`TABLE_ENDS`) are no text of the option: dropped, and a sentence that a table interrupted is joined again (a multi-power window only)."""
     out: list = []
     in_table = False
+    skip_until: str | None = None
+    ends = TABLE_ENDS.get(book, {})
+
+    def join_tail(b, at: int):
+        tail = cut_runs(b.runs, at)
+        while tail and not tail[0][0].strip():
+            tail.pop(0)                                          # the blank that ends the row
+        if tail:
+            tail[0] = (tail[0][0].lstrip(), tail[0][1], tail[0][2])
+            b = fp.Para("para", tail, b.page, b.col, b.size)
+            if out and out[-1].kind == "para" and not paragraph_complete(out[-1].plain()) and b.plain()[:1].islower():
+                prev = out.pop()
+                b = fp.Para("para", list(prev.runs) + [(" ", False, False)] + list(b.runs), prev.page, prev.col, prev.size)
+            out.append(b)
+
     for b in blocks:
+        plain0 = b.plain()
+        if skip_until is not None:
+            if skip_until == "":                                  # a one-paragraph table: this paragraph is the table
+                skip_until = None
+                if b.kind == "para":
+                    continue
+            else:
+                at = plain0.find(skip_until)
+                if at < 0:
+                    continue
+                join_tail(b, at + len(skip_until))
+                skip_until = None
+                continue
+        hit = next((v for k, v in ends.items() if plain0.startswith(k)), None)
+        if hit is not None:
+            skip_until = hit
+            continue
         if b.kind == "title" and re.match(r"^Table\s+\d+[\u2013-]\d+", b.plain()):
             in_table = True
             continue
@@ -2186,17 +2254,9 @@ def core_rulebook_class_tables(blocks: list) -> list:
         if in_table and words and (starts_table or cellish / len(words) >= 0.5 or CELL_TOKEN.match(words[0])):
             end = table_tail(plain)
             if end is not None and end < len(plain.rstrip()):
-                tail = cut_runs(b.runs, end)
-                if tail and tail[0][0].strip():
-                    tail[0] = (tail[0][0].lstrip(), tail[0][1], tail[0][2])
-                    b = fp.Para("para", tail, b.page, b.col, b.size)
-                    text = " ".join(b.plain().split())
-                    if out and out[-1].kind == "para" and not paragraph_complete(out[-1].plain()) and text[:1].islower():
-                        prev = out.pop()
-                        b = fp.Para("para", list(prev.runs) + [(" ", False, False)] + list(b.runs), prev.page, prev.col, prev.size)
-                    out.append(b)
-                    in_table = False
-                    continue
+                join_tail(b, end)
+                in_table = False
+                continue
             continue                                              # the table alone
         in_table = False
         out.append(b)
@@ -2215,7 +2275,7 @@ def clean_core_rulebook_print(entry_id: str, text: str) -> str:
         text = text.replace("base attack bonus -5", "base attack bonus –5")
     if entry_id == "ref/performance/fascinate":
         text = text.replace("takes a -4 penalty", "takes a –4 penalty")
-    return re.sub(r"\s+", " ", text).strip()
+    return "\n\n".join(re.sub(r"\s+", " ", par).strip() for par in text.split("\n\n") if par.strip())      # one line per paragraph: a multi-power section keeps its run-in paragraphs
 
 
 def clean_pathfinder_unchained_print(text: str) -> str:
@@ -2343,8 +2403,8 @@ def convert_multi(eid: str, rows: list[dict], props: dict, old_keys: frozenset |
     parts: list[str] = []
     features: list[tuple[str, int | None]] = []
     for r in rows:
-        if r["shape"] == "multi" and has_variant and (eid, r["anchor"]) not in props:
-            continue                                            # an import power that print has no head for, inside a variant section (ruling 66): the section is its text
+        if r["shape"] == "multi" and (eid, r["anchor"]) not in props:
+            continue                                            # an import power that print has no head for (inside a variant section, ruling 66, or a sentence of print's Granted Powers): the text is print's
         text = props[(eid, r["anchor"])]
         if r["shape"] == "section" and r["anchor"] == "opening":
             parts.append(text)
@@ -2965,6 +3025,46 @@ def self_test() -> int:
     globals()["VARIANTS_ON"] = True
     eq((sec0(vr, vv)[0]["status"], sec0([], vv)[0]["status"]), ("print", "hold"), "ruling 65: with the switch on a variant that holds its power settles; one that holds none does not (not vacuous)")
     globals()["VARIANTS_ON"] = False
+    # ruling 66 (the Core Rulebook multi-power batch): the reader pieces, each with a near miss
+    eq((source_pages("88"), source_pages("88, 97"), source_pages("146-147")), ([88], [], []), "ruling 66: a page list is read only with --variants")
+    globals()["VARIANTS_ON"] = True
+    eq((source_pages("88, 97"), source_pages("146-147"), source_pages("86, 90, 92"), source_pages("88 and 97"), source_pages("88, x"), source_pages("")), ([88, 97], [146], [86, 90, 92], [], [], []),
+       "ruling 66: a page list is one window per page; a range is the window of its first page; anything else none (near misses)")
+    eq((slug_match("extradimension-school", "extradimension-school-focused-arcane-school"), slug_match("air", "airship"), slug_match("", "air"), slug_match("cloud-subdomain", "cloudy-subdomain")),
+       (True, False, False, False), "ruling 66: an import heading and its longer printed title name one section; a mere prefix of a word does not")
+    tb = "\n### Cloud Subdomain\n\n**Replaces:** The electricity resistance power of the Air domain\n\n### Wind Subdomain\n\n**Replaces:** The lightning arc power of the Air domain\n"
+    eq(trade_rows_outside(tb, [("Cloud Subdomain", "x"), ("Wind Subdomain", "y")]), False, "ruling 66: a trade row under the heading of a variant that print sets is no trade")
+    eq(trade_rows_outside(tb, [("Cloud Subdomain", "x")]), True, "ruling 66: a trade row of a variant that print does not set stays a hold (near miss)")
+    eq(trade_rows_outside("\n### Cloudy Subdomain\n\n**Replaces:** The lightning arc power of the Air domain\n", [("Cloud Subdomain", "x")]), True, "ruling 66: a heading with a similar key covers nothing (near miss)")
+    eq(trade_rows_outside("\n### Bloodline Powers\n\n**Replaces:** Acidic ray\n", [("Warped", "Warp Touch replaces the acidic ray bloodline power.")]), False,
+       "ruling 66: a trade row under a flat second heading is covered when the variant's printed text names what it replaces")
+    eq(trade_rows_outside("\n### Bloodline Powers\n\n**Replaces:** Acidic ray\n", [("Warped", "Warp Touch is a power.")]), True, "ruling 66: and not when it does not (near miss)")
+    eq(tidy_print("1st\u2014 _shocking grasp,_ 2nd\u2014_flame blade_ (x), a 30- foot aura, **Replacement:**\n\n**Domain Spells:** 1st\u2014x"),
+       "1st\u2014_shocking grasp_, 2nd\u2014_flame blade_ (x), a 30-foot aura, **Replacement Domain Spells:** 1st\u2014x", "ruling 66: the typesetting of a spell list, a line-end hyphen and a split label")
+    eq(tidy_print("see _Table_, 3-foot and 12 - 4 and the 2nd level"), "see _Table_, 3-foot and 12 - 4 and the 2nd level", "ruling 66: the tidy leaves a sentence alone that has none of these marks (near miss)")
+    eq((paragraph_complete("**Associated Domain:** Weather"), paragraph_complete("**Replacement Domain Spells:** 1st\u2014x, 8th\u2014y"), paragraph_complete("**Prerequisite:** The cleric must"), paragraph_complete("**Domain Spells:** see")),
+       (True, True, False, False), "ruling 66: print sets an associated-domain line and a spell list with no full stop; a cut sentence is still cut (near misses)")
+    Pn = fp.Para
+    tab = [Pn("para", [("Resistance (Ex)", True, False), (": At 11th level, this", False, False)], 79, 1),
+           Pn("title", [("Table 3\u201316: Wizard", False, False)], 80, 0, 23),
+           Pn("para", [("Level Bonus Save 19th +9/+4 +6 +6 +11  20th +10/+5 +6 +6 +12 Bonus feat ", False, False), ("resistance increases to 10.", False, False)], 80, 0),
+           Pn("para", [("Protective Ward (Su)", True, False), (": You create a field.", False, False)], 80, 0)]
+    tcl = core_rulebook_class_tables(tab)
+    eq([q.plain() for q in tcl], ["Resistance (Ex): At 11th level, this resistance increases to 10.", "Protective Ward (Su): You create a field."],
+       "ruling 66: a class table the text layer sets inside a sentence is dropped and the sentence is joined again")
+    eq(len(core_rulebook_class_tables([Pn("para", [("Domain Spells: 1st\u2014bless, 2nd\u2014shield other, 3rd\u2014prayer, 4th\u2014heroism", False, False)], 42, 0)])), 1,
+       "ruling 66: a paragraph of ordinals that is no table stays (near miss)")
+    eq(text_after_cells("4 4 4 4 4 4 4 4 4 4 to permanent."), " to permanent.", "ruling 66: the tail of a row of cells")
+    eq(text_after_cells("3 stones and 4 coins"), None, "ruling 66: a sentence with a few numbers is no table row (near miss)")
+    globals()["VARIANTS_ON"] = False
+    eq(anchor_section([Pn("title", [("Air Domain", True, False)], 41, 0, 18), Pn("para", [("Deities: x.", False, False)], 41, 0)], "Air", kind="domain"), None, "ruling 66: a domain title is read only with --variants (no drift for the other books)")
+    globals()["VARIANTS_ON"] = True
+    eq(anchor_section([Pn("title", [("Air Domain", True, False)], 41, 0, 18), Pn("para", [("Deities: x.", False, False)], 41, 0)], "Air", kind="domain")[1], False, "ruling 66: with --variants \"Air Domain\" is the title of Air")
+    eq((counts_for_duplicate_check({"shape": "section", "status": "print", "note": ""}), counts_for_duplicate_check({"shape": "variant", "status": "print", "note": ""}),
+        counts_for_duplicate_check({"shape": "multi", "status": "print", "note": "printed in divine-anthology p. 24"}), counts_for_duplicate_check({"shape": "multi", "status": "print", "note": ""})),
+       (False, False, False, True), "ruling 66: two domains may print one subdomain or one deity line; two options with one printed power are still a claim")
+    globals()["VARIANTS_ON"] = False
+    eq(counts_for_duplicate_check({"shape": "section", "status": "print", "note": ""}), True, "ruling 66: with the switch off the check is what it was")
     with tempfile.TemporaryDirectory() as td:
         tp = Path(td) / "x.md"
         tp.write_text("old")
