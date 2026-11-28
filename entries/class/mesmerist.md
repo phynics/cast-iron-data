@@ -19,6 +19,22 @@ kind = "class"
 class_type = "occult"
 hit_die = "d8"
 skill_ranks = "6 + Int modifier"
+features = [
+  { anchor = "spells" },
+  { anchor = "knacks", level = 1 },
+  { anchor = "consummate-liar", level = 1 },
+  { anchor = "hypnotic-stare", level = 1 },
+  { anchor = "mesmerist-tricks", level = 1 },
+  { anchor = "painful-stare", level = 1 },
+  { anchor = "towering-ego", level = 2 },
+  { anchor = "bold-stare", level = 3 },
+  { anchor = "touch-treatment", level = 3 },
+  { anchor = "manifold-tricks", level = 5 },
+  { anchor = "mental-potency", level = 5 },
+  { anchor = "glib-lie", level = 11 },
+  { anchor = "masterful-tricks", level = 12 },
+  { anchor = "rule-minds", level = 20 },
+]
 +++
 
 Experts at charm and deceit, mesmerists compel others to heed their words and bend to their will.
@@ -103,216 +119,242 @@ Spellcraft
 |19th|6|6|6|6|5|5|4|
 |20th|6|6|6|6|6|5|5|
 
-#### Weapon and Armor Proficiencies {#weapon-and-armor-proficiencies}
+### Class Features {#class-features}
 
-**Weapons:** All simple weapons, hand crossbow, sap, sword cane, whip
+The following are the class features of the mesmerist.
 
-**Armor:** Light armor
+#### Weapon and Armor Proficiency {#weapon-and-armor-proficiencies}
 
-**Shields:** No
+A mesmerist is proficient with all simple weapons, plus the hand crossbow, sap, sword cane, and
+whip. He is proficient with light armor, but not with shields.
 
 #### Spells {#spells}
 
-**Spell list:** Psychic spells from the mesmerist list, from 1st level
+A mesmerist casts psychic spells drawn from the mesmerist spell list (see page 44). He can cast any
+spell he knows without preparing it ahead of time. To learn or cast a spell, a mesmerist must have a
+Charisma score equal to at least 10 + the spell's level. The saving throw DC against a mesmerist's
+spell is 10 + the spell's level + the mesmerist's Charisma modifier.
 
-**Key ability:** Charisma. Minimum score 10 + spell level; save DC 10 + spell level + Charisma
-modifier; a high score grants bonus spells per day.
+Like other spellcasters, a mesmerist can cast only a certain number of spells of each spell level
+per day. His base daily spell allotment is given on Table 1–4: Mesmerist on page 39. In addition, he
+receives bonus spells per day if he has a high Charisma score (see Table 1–3 on page 17 of the
+_Pathfinder RPG Core Rulebook_).
 
-**Casting:** Spontaneous: cast any spell known without preparation, within the daily allotment per
-spell level.
+The mesmerist's selection of spells is limited. A mesmerist begins play knowing four 0-level spells
+and two 1st-level spells of the mesmerist's choice. At each new mesmerist level, he learns one or
+more new spells, as indicated on Table 1–5: Mesmerist Spells Known. Unlike a mesmerist's spells per
+day, the number of spells a mesmerist knows isn't affected by his Charisma score; the numbers on
+Table 1–5 are fixed.
 
-**Spells known:** Limited selection; starts with four 0-level and two 1st-level spells and grows by
-level as shown on the table. Charisma does not change the number known.
+At 5th level and every 3 levels thereafter, a mesmerist can choose to learn a new spell in place of
+one he already knows.
 
-**Spell swap:** At 5th, 8th, 11th, and every 3 levels after, one known spell may be exchanged for
-another of the same level that is at least one level below the highest level you can cast.
+In effect, the mesmerist loses the old spell in exchange for the new one. The new spell's level must
+be the same as that of Mesmerist trick, rule minds the spell being exchanged, and it must be at
+least 1 level lower than the highest-level mesmerist spell the mesmerist can cast. A mesmerist can
+swap only a single spell at any given level, and must choose whether or not to swap the spell at the
+same time that he gains new spells known for the level.
+
+A mesmerist need not prepare his spells in advance. He can cast any mesmerist spell he knows at any
+time, assuming he has not yet used up his allotment of spells per day for the spell's level.
 
 #### Knacks {#knacks}
 
-**Ability:** 0-level psychic spells. Cast without using a spell slot; one placed in a higher slot
-(for example through metamagic) uses that slot.
+Mesmerists learn a number of knacks, or 0-level spells, as noted on Table 1–5. These spells are cast
+like any other spells, but they do not consume any slots and can be used again. Knacks cast using
+other spell slots, due to metamagic feats, for example, consume spell slots as normal.
 
 #### Consummate Liar {#consummate-liar}
 
-**Passive:** You add [half](ref/misc/fractions-and-rounding) your mesmerist level (minimum 1) as a
-bonus on all Bluff checks. In addition, you qualify for the
-[Improved Feint](ref/feat/improved-feint) and [Greater Feint](ref/feat/greater-feint) feats, even if
-you don't have [Combat Expertise](ref/feat/combat-expertise) or an Intelligence score of at
-least 13. You can also ignore Combat Expertise and an Intelligence score of 13 as prerequisites for
-other feats that require Improved Feint or Greater Feint.
+A mesmerist adds 1/2 his mesmerist level (minimum 1) as a bonus on all Bluff checks. In addition,
+the mesmerist qualifies for the [Improved Feint](ref/feat/improved-feint) and
+[Greater Feint](ref/feat/greater-feint) feats, even if he doesn't have
+[Combat Expertise](ref/feat/combat-expertise) or an Intelligence score of at least 13. He can also
+ignore Combat Expertise and an Intelligence score of 13 as prerequisites for other feats that
+require Improved Feint or Greater Feint.
 
 #### Hypnotic Stare (Su) {#hypnotic-stare}
 
-**At 8th Level:** The penalty becomes -3.
-
-**Gained:** At 1st Level
-
-**Special:** The _hypnotic stare_ is a psychic effect, and relies more on your focus than the
-target's perception of your _stare._ It can't be avoided in the same ways a [gaze](ref/umr/gaze)
-attack can. You can use this ability even while blinded, but must succeed at a DC 20
-[concentration](ref/rule/concentration) check to do so. Staring at a creature requires your focus,
-so if you use a gaze attack or similar ability, you must target the subject of your _hypnotic stare_
-or voluntarily end the _stare._ The penalties from multiple mesmerists' stares don't stack, nor do
-they stack with penalties from witches' [evil eye](ref/hex/evil-eye) hexes. This is a mind-affecting
-effect.
-
-**Swift:** You can focus your stare on one creature within 30 feet. That creature takes a -2 penalty
-on Will saving throws. You can maintain your _stare_ against only one opponent at a time; it remains
-in effect until you stare at a new target, the opponent dies, the opponent moves farther than 30
-feet away, or you fall unconscious or die. You can remove the memory of your _stare_ from the
+A mesmerist can focus his stare on one creature within 30 feet as a swift action. That creature
+takes a -2 penalty on Will saving throws. This penalty changes to -3 at 8th level. A mesmerist can
+maintain his stare against only one opponent at a time; it remains in effect until the mesmerist
+stares at a new target, the opponent dies, the opponent moves farther than 30 feet away, or the
+mesmerist falls unconscious or dies. The mesmerist can remove the memory of his stare from the
 target's mind; the creature doesn't remember that it was affected (nor does it realize that it is
-currently being affected) unless you allow it.
+currently being affected) unless the mesmerist allows it. The hypnotic stare is a psychic effect,
+and relies more on the mesmerist's focus than the target's perception of his stare. It can't be
+avoided in the same ways a [gaze](ref/umr/gaze) attack can. The mesmerist can use this ability even
+while blinded, but must succeed at a DC 20 [concentration](ref/rule/concentration) check to do so.
+Staring at a creature requires the mesmerist's focus, so if he uses a gaze attack or similar
+ability, he must target the subject of his hypnotic stare or voluntarily end the stare. The
+penalties from multiple mesmerists' stares don't stack, nor do they stack with penalties from
+witches' [evil eye](ref/hex/evil-eye) hexes. This is a mind-affecting effect.
 
 #### Mesmerist Tricks (Su) {#mesmerist-tricks}
 
-**Flavor:** A mesmerist can create hypnotic bonds with his allies, implanting magical suggestions in
-their minds that you can later activate.
+A mesmerist can create hypnotic bonds with his allies, implanting magical suggestions in their minds
+that he can later activate. Each day, he can implant a number of these tricks equal to 1/2 his
+mesmerist level (minimum 1) plus his Charisma bonus (if any). He can have only one trick implanted
+at a given time, and implanting a new trick ends the previous one (the mesmerist still loses the use
+of this ability he spent on the previous trick).
 
-**Gained:** At 1st Level
+To implant a trick, the mesmerist must take a standard action and either touch a willing creature or
+implant the trick in himself. A creature can be the subject of only one mesmerist trick at a time.
+The mesmerist can activate the trick as a free action when a triggering condition is met (as defined
+in the trick's description), even if it isn't his turn. The subject must be within medium range (100
+feet + 10 feet per level) for the mesmerist to trigger the trick. The mesmerist monitors for the
+trick's triggering condition through a subtle telepathic connection, so he doesn't need line of
+sight to trigger it—but anything that blocks telepathic contact prevents him from triggering tricks.
+An implanted trick lasts until the next time the mesmerist regains his spells.
 
-**Passive:** You know one trick at 1st level, and learn another trick at 2nd level and every 2
-levels thereafter (to a maximum of 11 tricks at 20th level). Here is the full list of mesmerist
-tricks. Unless specifically noted in the trick's description, you can't choose a particular trick
-more than once.
+Once triggered, a trick is no longer implanted, and can't be triggered again until the mesmerist
+implants the trick again. The duration of the effect caused by triggering a trick is either
+instantaneous or appears in the trick's entry. The DC for any mesmerist trick or masterful trick
+that requires a saving throw or skill check is 10 + 1/2 the mesmerist's level + the mesmerist's
+Charisma modifier.
 
-**Special:** You can have only one trick implanted at a given time, and implanting a new trick ends
-the previous one (you still lose the use of this ability you spent on the previous trick). Once
-triggered, a trick is no longer implanted, and can't be triggered again until you implant the trick
-again. The duration of the effect caused by triggering a trick is either instantaneous or appears in
-the trick's entry. The DC for any _mesmerist trick_ or _masterful trick_ that requires a saving
-throw or skill check is 10 + 1/2 your mesmerist level + your Charisma modifier
+The mesmerist knows one trick at 1st level, and learns another trick at 2nd level and every 2 levels
+thereafter (to a maximum of 11 tricks at 20th level). Each daily use of mesmerist tricks can be used
+to implant any trick the mesmerist knows. Unless specifically noted in the mesmerist trick's
+description, a mesmerist can't choose a particular trick more than once.
 
-**Standard:** To implant a trick, you must either touch a willing creature or implant the trick in
-yourself. A creature can be the subject of only one _mesmerist trick_ at a time. You can activate
-the trick as a **free action** when a triggering condition is met (as defined in the trick's
-description), even if it isn't your turn. The subject must be within medium range (100 feet + 10
-feet per level) for you to trigger the trick. You monitor for the trick's triggering condition
-through a subtle telepathic connection, so you don't need line of sight to trigger it - but anything
-that blocks telepathic contact prevent you from triggering tricks. An implanted trick lasts until
-the next time you regain your spells. Each daily use of _mesmerist tricks_ can be used to implant
-any trick you know.
-
-**Usage:** Half your mesmerist level (minimum 1) + your Charisma bonus (if any) tricks/day.
-
-**Usage:** Half your mesmerist level (minimum 1) + your Charisma bonus (if any) tricks/day.
+- [Astounding Avoidance](ref/trick/astounding-avoidance)
+- [Compel Alacrity](ref/trick/compel-alacrity)
+- [False Flanker](ref/trick/false-flanker)
+- [Fearsome Guise](ref/trick/fearsome-guise)
+- [Gift of Will](ref/trick/gift-of-will)
+- [Levitation Buffer](ref/trick/levitation-buffer)
+- [Linked Reaction](ref/trick/linked-reaction)
+- [Mask Misery](ref/trick/mask-misery)
+- [Meek Facade](ref/trick/meek-facade)
+- [Mesmeric Mirror](ref/trick/mesmeric-mirror)
+- [Mesmeric Pantomime](ref/trick/mesmeric-pantomime)
+- [Misdirection](ref/trick/misdirection)
+- [Psychosomatic Surge](ref/trick/psychosomatic-surge)
+- [Reflection of Weakness](ref/trick/reflection-of-weakness)
+- [Shadow Splinter](ref/trick/shadow-splinter)
+- [Spectral Smoke](ref/trick/spectral-smoke)
+- [Vanish Arrow](ref/trick/vanish-arrow)
 
 #### Painful Stare (Su) {#painful-stare}
 
-**Free:** When an attack that deals damage hits the target of your _hypnotic stare,_ you can cause
-the target to take an amount of additional damage equal to 1/2 your class level (minimum 1). You can
-use this ability even if it isn't your turn. If you use this ability to increase your own damage,
-the additional damage increases by 1d6 points for every 3 class levels you possess. This damage is
-precision damage and is not multiplied on a critical hit. You can trigger this ability only once per
-round, but a single creature can take damage from multiple mesmerists' _painful stares_ in a round.
+When an attack that deals damage hits the target of a mesmerist's hypnotic stare, the mesmerist can
+cause the target to take an amount of additional damage equal to 1/2 the mesmerist's class level
+(minimum 1).
 
-**Gained:** At 1st Level
+The mesmerist can use this ability as a free action, and can use it even if it isn't his turn. If
+the mesmerist uses this ability to increase his own damage, the additional damage increases by 1d6
+points for every 3 class levels the mesmerist possesses. This damage is precision damage and is not
+multiplied on a critical hit. A mesmerist can trigger this ability only once per round, but a single
+creature can take damage from multiple mesmerists' painful stares in a round.
 
 #### Towering Ego (Su) {#towering-ego}
 
-**Gained:** At 2nd Level
-
-**Passive:** You gain a bonus equal to your Charisma bonus (minimum 0) on Will saving throws.
-
-**Special:** If you are under any effect that would prevent you from providing the emotional
-component of psychic spells, you lose this bonus on saving throws.
+At 2nd level, a mesmerist gains a bonus equal to his Charisma bonus (minimum 0) on Will saving
+throws. If the mesmerist is under any effect that would prevent him from providing the emotional
+component of psychic spells (see page 144), he loses this bonus on saving throws.
 
 #### Bold Stare (Su) {#bold-stare}
 
-**Ability:** Your _hypnotic stare_ imposes a further effect upon its target, chosen from this list
-of mesmerist stares. The choice can't be changed later.
+At 3rd level and every 4 levels thereafter, a mesmerist's hypnotic stare imposes a further effect
+upon its target. The mesmerist chooses one option each time he gains a new bold stare improvement,
+and the choice can't be changed later. The mesmerist can't choose the same bold stare improvement
+more than once unless otherwise noted. All of the mesmerist's bold stare improvements affect the
+target as long as it is affected by the mesmerist's hypnotic stare.
 
-**Gained:** At 3rd Level
-
-**Repeat:** You choose a new _bold stare improvement._, 7, 4
-
-**Special:** You can't choose the same _bold stare improvement_ more than once unless otherwise
-noted. All of your _bold stare improvements_ affect the target as long as it is affected by your
-_hypnotic stare._
-
-A mesmerist may take the [Manifold Stare](ref/feat/manifold-stare) feat in place of a bold stare
-improvement. The mesmerist must meet the feat's prerequisites.
+- [Allure](ref/stare/allure)
+- [Disorientation](ref/stare/disorientation)
+- [Psychic Inception](ref/stare/psychic-inception)
+- [Sapped Magic](ref/stare/sapped-magic)
+- [Sluggishness](ref/stare/sluggishness)
+- [Susceptibility](ref/stare/susceptibility)
+- [Timidity](ref/stare/timidity)
 
 #### Touch Treatment (Su) {#touch-treatment}
 
-**At 10th Level:** You can now also remove the _cowering, nauseated, panicked,_ and _stunned_
-conditions. This is the "greater" ability.
+At 3rd level, the mesmerist can help allies shake off harmful conditions—especially those that
+affect their minds—by channeling psychic energy through his healing hands. He can use touch
+treatment a number of times per day equal to 3 + his Charisma modifier. Using the ability is a
+standard action (or a swift action if the mesmerist uses it on himself), and the mesmerist must be
+able to touch his target. He can remove one condition from one target each time he uses this
+ability. At 3rd level, he can remove any condition on the minor conditions list. At 6th level, he
+can remove any condition on the minor or moderate conditions list, and at 10th level, he can remove
+any condition on the minor, moderate, or greater conditions list.
 
-**At 14th Level:** You can instead expend one use of touch treatment to replicate the effects of
-[break enchantment](ref/spell/break-enchantment). This targets only one creature you are touching
-and follows all other restrictions of touch treatment.
+_Minor Conditions_: Fascinated, shaken.
 
-**At 6th Level:** You can now also remove the _confused, dazed, frightened,_ and _sickened_
-conditions. This is the "moderate" ability.
+_Moderate Conditions_: Confused, dazed, frightened, sickened.
 
-**Gained:** At 3rd Level
+_Greater Conditions_: Cowering, nauseated, panicked, stunned.
 
-**Standard:** You can help allies shake off harmful conditions - especially those that affect their
-minds - by channeling psychic energy through your healing hands. You must be able to touch your
-target. You can remove the _fascinated_ or _shaken_ condition from your target each time you use
-this ability. This is the "minor" ability.
-
-**Swift:** You can use _touch treatment_ on yourself.
-
-**Usage:** Cha3 modifier times/day
+A 14th level, the mesmerist can instead expend one use of touch treatment to replicate the effects
+of _[break enchantment](ref/spell/break-enchantment)_. This targets only one creature the mesmerist
+is touching and follows all other restrictions of touch treatment.
 
 #### Manifold Tricks (Su) {#manifold-tricks}
 
-**At 5th Level:** You can have 2 _mesmerist tricks_ implanted at a time.
-
-**Special:** Each creature can still be the subject of only one trick at a time. If you implant a
-new trick while you already have your maximum number of concurrent tricks implanted, you must choose
-one implanted trick to dismiss without triggering (the dismissed trick still expends a daily use of
-your tricks).
+At 5th level, the mesmerist can have two tricks implanted at a time. The number of concurrent tricks
+increases by one for every 4 mesmerist levels he possesses beyond 5th. Each creature can still be
+the subject of only one trick at a time. If the mesmerist implants a new trick while he already has
+his maximum number of concurrent tricks implanted, he must choose one implanted trick to dismiss
+without triggering (the dismissed trick still expends a daily use of the mesmerist's tricks).
 
 #### Mental Potency (Ex) {#mental-potency}
 
-**Gained:** At 5th Level
-
-**Passive:** You can affect more powerful creatures or a greater number of creatures than normal
-with your mental effects. Both the HD limit and the total number of HD affected with each
-enchantment or illusion spell you cast increase by 1. For enchantment and illusion spells you cast
+At 5th level, the mesmerist can affect more powerful creatures or a greater number of creatures than
+normal with his mental effects. Both the HD limit and the total number of HD affected with each
+enchantment or illusion spell he casts increase by 1. For enchantment and illusion spells he casts
 that target a number of creatures greater than one, the number of creatures affected also increases
 by one (so a spell that targets one creature per level would be affected, but a spell that targets
 only one creature would not be). For example, a 5th-level mesmerist could affect 5 HD worth of
-creatures with [sleep](ref/spell/sleep), affect 2d4+1 HD worth of creatures with
-[hypnotism](ref/spell/hypnotism), and change the categories for [color spray](ref/spell/color-spray)
-to "3 HD or fewer," "4 or 5 HD," and "6 or more HD."
-
-At 10th level: The HD limits now increase by 2.
-
-At 15th level: The HD limits now increase by 3.
-
-At 20th level: The HD limits now increase by 4.
+creatures with _[sleep](ref/spell/sleep)_, affect 2d4+1 HD worth of creatures with
+_[hypnotism](ref/spell/hypnotism)_, and change the categories for
+_[color spray](ref/spell/color-spray)_ to "3 HD or fewer," "4 or 5 HD," and "6 or more HD." The
+number of additional HD or creatures increases by an additional 1 for every 5 levels beyond 5th, to
+a maximum increase of 4 at 20th level.
 
 #### Glib Lie (Su) {#glib-lie}
 
-**Gained:** At 11th Level
-
-**Passive:** You can deceive truth-detecting magic. A creature using this sort of magic against you
-must succeed at a caster level check against a DC of 15 + your class level to succeed (as if you
-were under the effect of a [glibness](ref/spell/glibness) spell); failure means the magic doesn't
-detect your lies or force you to speak only the truth. This ability does not give you the
+At 11th level, a mesmerist can deceive truth-detecting magic. A creature using this sort of magic
+against the mesmerist must succeed at a caster level check against a DC of 15 + the mesmerist's
+class level to succeed (as if the mesmerist were under the effect of a
+_[glibness](ref/spell/glibness)_ spell); failure means the magic doesn't detect the mesmerist's lies
+or force him to speak only the truth. This ability does not give the mesmerist the
 _[glibness](ref/spell/glibness)_ spell's bonus on Bluff checks.
 
 #### Masterful Tricks (Su) {#masterful-tricks}
 
-**Gained:** At 12th Level
+At 12th level, a mesmerist can choose one of the following masterful tricks in place of a mesmerist
+trick. He gains an additional masterful trick every 2 levels thereafter. Using a masterful trick
+consumes two uses of the mesmerist trick class feature instead of one.
 
-**Passive:** You can choose a masterful trick in place of a _mesmerist trick._ Using a _masterful
-trick_ consumes two uses of the _mesmerist trick_ class feature instead of one.
+- [Avian Escape](ref/trick/avian-escape)
+- [Cursed Sanction](ref/trick/cursed-sanction)
+- [Faked Death](ref/trick/faked-death)
+- [Free in Body](ref/trick/free-in-body)
+- [Greater Mask Misery](ref/trick/greater-mask-misery)
+- [Mental Fallback](ref/trick/mental-fallback)
+- [Spatial Switch](ref/trick/spatial-switch)
+- [Spell Anticipation](ref/trick/spell-anticipation)
+- [Vision of Blood](ref/trick/vision-of-blood)
 
 #### Rule Minds (Su) {#rule-minds}
 
-**Ability:** You can permanently mentally enslave a creature. When you successfully affect the
-target of your _hypnotic stare_ with an enchantment spell that requires a saving throw, you can
-force that creature to attempt a second Will saving throw with a DC equal to the spell's DC. The DC
-is reduced by 5 if the monster isn't a humanoid. If the creature fails, it becomes a permanent
-thrall to you (as [dominate monster](ref/spell/dominate-monster)) until you die. If it succeeds, it
-can't be affected by _rule minds_ again for 24 hours. You can have only one creature enthralled at a
-time. If you enthrall a new creature, the previous one is set free but is unaware that it was
-enthralled by you.
+At 20th level, a mesmerist can permanently mentally enslave a creature. When the mesmerist
+successfully affects the target of his hypnotic stare with an enchantment spell that requires a
+saving throw, he can force that creature to attempt a second Will saving throw with a DC equal to
+the spell's DC. The DC is reduced by 5 if the monster isn't a humanoid. If the creature fails, it
+becomes a permanent thrall to the mesmerist (as _[dominate monster](ref/spell/dominate-monster)_)
+until the mesmerist dies. If it succeeds, it can't be affected by rule minds again for 24 hours. A
+mesmerist can have only one creature enthralled at a time. If he enthralls a new creature, the
+previous one is set free but is unaware that it was enthralled by the mesmerist.
 
-**Gained:** At 20th Level
+### Mesmerist Spells {#mesmerist-spells}
+
+Mesmerists gain access to the following spells. Many of these spells are found in the _Core
+Rulebook_; the spells marked with an asterisk (\*) appear in Chapter 4 of this book, and those that
+are found elsewhere are marked with superscript abbreviations denoting their source. The mesmerist
+casts all spells as psychic spells.
 
 ### Alternate Capstones
 

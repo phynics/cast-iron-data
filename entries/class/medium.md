@@ -19,6 +19,25 @@ kind = "class"
 class_type = "occult"
 hit_die = "d8"
 skill_ranks = "4 + Int modifier"
+features = [
+  { anchor = "spells" },
+  { anchor = "knacks", level = 1 },
+  { anchor = "spirit", level = 1 },
+  { anchor = "spirit-bonus", level = 1 },
+  { anchor = "spirit-surge", level = 1 },
+  { anchor = "shared-seance", level = 2 },
+  { anchor = "taboo", level = 2 },
+  { anchor = "haunt-channeler", level = 3 },
+  { anchor = "location-channel", level = 5 },
+  { anchor = "connection-channel", level = 7 },
+  { anchor = "propitiation", level = 9 },
+  { anchor = "ask-the-spirits", level = 13 },
+  { anchor = "astral-journey", level = 14 },
+  { anchor = "trance-of-three", level = 15 },
+  { anchor = "spacious-soul", level = 18 },
+  { anchor = "spirit-mastery", level = 19 },
+  { anchor = "astral-beacon", level = 20 },
+]
 +++
 
 Mediums channel spirits into themselves, using their own bodies as vessels for astral entities
@@ -95,283 +114,230 @@ Linguistics, Spellcraft
 |19th|6|6|6|6|5|
 |20th|6|6|6|6|5|
 
-#### Weapon and Armor Proficiencies {#weapon-and-armor-proficiencies}
+### Class Features {#class-features}
 
-**Weapons:** All simple weapons
+The following are the class features of the medium.
 
-**Armor:** Light armor, Medium armor
+#### Weapon and Armor Proficiency {#weapon-and-armor-proficiencies}
 
-**Shields:** No
+Mediums are proficient with all simple weapons, light armor, and medium armor, but not with shields.
 
 #### Spells {#spells}
 
-**Spell list:** Psychic spells from the medium list, from 1st level
+A medium can cast a small number of psychic spells drawn from the medium spell list (see page 37).
+To learn or cast a spell, a medium must have a Charisma score equal to at least 10 + the spell's
+level. He can cast any spell he knows without preparing it ahead of time. The saving throw DC
+against a medium's spell is equal to 10 + the spell level + the medium's Charisma modifier.
 
-**Key ability:** Charisma. Minimum score 10 + spell level; save DC 10 + spell level + Charisma
-modifier; a high score grants bonus spells per day.
+A medium can cast only a certain number of spells of each level per day. His base daily spell
+allotment is given on Table 1–2: Medium. In addition, he receives bonus spells per day if he has a
+high Charisma score (see Table 1–3 on page 17 of the _Pathfinder RPG Core Rulebook_).
 
-**Casting:** Prepared: choose and prepare spells in advance.
-
-**Spells known:** Limited selection; starts with two 0-level spells and grows by level as shown on
-the table. Charisma does not change the number known.
-
-**Spell swap:** At 5th, 8th, 11th, and every 3 levels after, one known spell may be exchanged for
-another of the same level.
+The medium's selection of spells is limited. At 1st level, a medium knows two 0-level spells of his
+choice. At each new level, the medium learns one or more new spells, as indicated on Table 1–3:
+Medium Spells Known. Unlike his spells per day, the number of spells a medium knows is not affected
+by his Charisma score; the numbers on Table 1–3 are fixed. At 5th level and every 3 levels
+thereafter, a medium can learn a single new spell in place of one he already knows. The new spell's
+level must be the same as that of the spell being exchanged, and he must choose whether to swap the
+spell at the same time he gains new spells known for the level.
 
 #### Knacks {#knacks}
 
-**Ability:** 0-level psychic spells. Cast without using a spell slot; one placed in a higher slot
-(for example through metamagic) uses that slot.
+Mediums learn a number of knacks, or 0-level spells, as noted on Table 1–3. These spells are cast
+like any other spell, but they don't consume slots and can be used again.
 
 #### Spirit (Su) {#spirit}
 
-**Action:** Ability
+A medium serves as a vessel to channel spirits—astral echoes of powerful souls from ages past that
+live on in myth and legend. Each day, a medium can channel a [spirit](ref/ability/spirits) through a
+ritual known as a seance. Seances take 1 hour to perform and require the medium's concentration. At
+the end of a seance, the medium invites a local spirit to inhabit him and serve as his spirit for
+that day. Each spirit arises from one of six legends, which are described further beginning on
+page 33. Though the medium can choose the legend to which the spirit he channels belongs, he must
+channel that spirit from an appropriate location. Each spirit has a favored location it usually
+inhabits, though spirits may also be present at other locations appropriate to their legends; such
+locations are listed in each legend's Favored Locations entry. The medium gains the spirit's listed
+seance boon and lesser spirit power for 24 hours. The medium also gains the spirit's intermediate
+spirit power at 6th level, its greater spirit power at 11th level, and its supreme spirit power at
+17th level. After 24 hours, the medium loses contact with the channeled spirit and can perform
+another seance.
 
-**Flavor:** A medium serves as a vessel to channel spirits - astral echoes of powerful souls from
-ages past that live on in myth and legend.
+A medium can invite his allies to participate in his seance—shared seance (see page 31) and certain
+spirit powers affect other participants. A character counts as participating so long as she
+maintains physical contact with another participating character and willfully opens herself to the
+spirit; unlike the medium, other participating characters can take other actions during this time.
+Only creatures with an Intelligence score of at least 3 can participate in a seance.
 
-**At 11th Level:** You also gain its greater spirit power.
+In addition to granting power to the medium, a channeled spirit can influence the medium. By
+channeling a spirit, the medium allows the spirit to gain 1 point of influence over him. If the
+medium loses that 1 point of influence, he loses contact with the spirit, though he is still unable
+to perform a new seance until the normal 24 hour period has elapsed since his last seance. When the
+spirit leaves after the 24-hour duration and before the next seance, the spirit's influence over the
+medium resets to 0. Certain abilities allow the medium to gain additional power in exchange for
+allowing the spirit more influence over him.
 
-**At 17th Level:** You also gain its supreme spirit power.
+When a spirit gains at least 3 points of influence over the medium, the dual impulses housed within
+the same body cause the medium to meld with his spirit's consciousness. The resulting muddled sense
+of self and struggle for control causes the medium to take a -2 penalty on initiative checks as well
+as a specific additional penalty listed in each spirit's entry. However, the spirit's mental
+presence grants the medium a +4 bonus against possession effects and a +2 bonus on saving throws
+against mind-affecting effects that are not related to possession.
 
-**At 6th Level:** You also gain the spirit's intermediate spirit power.
+If a spirit ever attains 5 or more points of influence over the medium, the medium completely loses
+control to the spirit. He effectively becomes an NPC under the GM's control until after he awakens
+the next day with the spirit gone.
 
-**Section:** Spirit
-
-**Special:** After 24 hours, you lose contact with the channeled spirit and can perform another
-seance.
-
-Each day, you can channel a [spirit](ref/ability/spirits) through a ritual known as a seance.
-Seances take 1 hour to perform and require your concentration. At the end of a seance, you invite a
-local spirit to inhabit you and serve as your spirit for that day. You gain the spirit's listed
-seance boon and lesser spirit power for 24 hours.
-
-Though you can choose the legend to which the spirit you channel belongs, you must channel that
-spirit from an appropriate location. Each spirit has a favored location it usually inhabits, though
-spirits may also be present at other locations appropriate to their legends; such locations are
-listed in each legend's **Favored Locations** entry.
-
-You can invite your allies to participate in your seance: _shared seance_ and certain spirit powers
-affect other participants. A character counts as participating so long as she maintains physical
-contact with another participating character and willfully opens herself to the spirit; unlike you,
-other participating characters can take other actions during this time. Only creatures with an
-Intelligence score of at least 3 can participate in a seance.
-
-In addition to granting power to you, a channeled spirit can influence you. By channeling a spirit,
-you allow the spirit to gain 1 point of **influence** over you. If you lose that 1 point of
-influence, you lose contact with the spirit, though you are still unable to perform a new seance
-until the normal 24 hour period has elapsed since your last seance. When the spirit leaves after the
-24-hour duration and before the next seance, the spirit's influence over you resets to 0. Certain
-abilities allow you to gain additional power in exchange for allowing the spirit more influence over
-you.
-
-When a spirit gains at least **3 points of influence** over you, the dual impulses housed within the
-same body cause you to meld with your spirit's consciousness. The resulting muddled sense of self
-and struggle for control causes you to take a -2 penalty on initiative checks as well as a specific
-additional penalty listed in each spirit's entry. However, the spirit's mental presence grants you a
-+4 bonus against possession effects and a +2 bonus on saving throws against mind-affecting effects
-that are not related to possession.
-
-If a spirit ever attains **5 or more points of influence** over you, you completely lose control to
-the spirit. You effectively become an NPC under the GM's control until after you awaken the next day
-with the spirit gone.
-
-During your seance, you can choose to **channel a weaker spirit** to gain its help without incurring
-as much of its influence. If you do so, you can forgo any number of spirit powers, starting with
-your most powerful spirit power. For each spirit power you forgo, you can use your _spirit surge_
-ability twice without incurring influence.
+During his seance, the medium can choose to channel a weaker spirit to gain its help without
+incurring as much of its influence. If he does so, he can forgo any number of spirit powers,
+starting with his most powerful spirit power. For each spirit power he forgoes, the medium can use
+his spirit surge ability twice without incurring influence.
 
 #### Spirit Bonus (Su) {#spirit-bonus}
 
-**Gained:** At 1st Level
-
-**Passive:** When you channel a spirit, you gain a bonus on certain checks and to certain
-statistics, depending on the spirit. This bonus is equal to 1 + one-fourth of your medium level.
+When a medium channels a spirit, he gains a bonus on certain checks and to certain statistics,
+depending on the spirit. A 1st-level medium's spirit bonus is +1; it increases by 1 at 4th level and
+every 4 levels thereafter.
 
 #### Spirit Surge (Su) {#spirit-surge}
 
-**At 10th Level:** Your spirit surge die increases to 1d8.
-
-**At 20th Level:** You spirit surge die increases to 1d10.
-
-**Gained:** At 1st Level
-
-**Passive:** After failing a d20 roll that was modified by your spirit bonus, you can allow your
-spirit to gain 1 additional point of influence over you in order to add 1d6 to the check's result
-without taking an action. This can cause the check to succeed instead of fail. You must be conscious
-and aware to use this ability, and you can use this ability at most once per round.
+After failing a d20 roll that was modified by his spirit bonus, a medium can allow his spirit to
+gain 1 additional point of influence over him in order to add 1d6 to the check's result without
+taking an action. This can cause the check to succeed instead of fail. The medium must be conscious
+and aware to use this ability, and he can use this ability at most once per round. At 10th level,
+the medium's spirit surge die increases to 1d8, and at 20th level it increases to 1d10.
 
 #### Shared Seance (Su) {#shared-seance}
 
-**Gained:** At 2nd Level
-
-**Passive:** All allies who participate in your seance gain the channeled spirit's seance boon for
-24 hours.
+At 2nd level, a medium can share his channeled spirit's aid with his allies. All allies who
+participate in the medium's seance gain the channeled spirit's seance boon for 24 hours.
 
 #### Taboo (Ex) {#taboo}
 
-**Action:** Ability
-
-**Section:** Taboo
-
-**Gained:** At 2nd Level
-
-**Special:** If a spirit attains 5 points of influence because of a violated taboo, instead of
-possessing you, the spirit leaves your body entirely, and you lose access to your _spirit_ powers,
-_spirit bonus,_ and _spirit surge_ abilities until the next time you can perform a seance. Banishing
-a spirit in this way damages your connection to that spirit's legend; you cannot channel spirits of
-that legend for 1 week, and the next time you channel a spirit of that legend, it starts with 2
-points of influence over you instead of 1.
-
-During your daily seance, you can accept a taboo in order to appease your spirit. Each spirit lists
-example taboos, and the GM may allow additional taboos as well. Accepting a taboo allows you to use
-your spirit surge ability twice without incurring influence. You can select only a single taboo.
-
-You are not magically prevented from breaking your taboo, but if you break the taboo for any reason,
-you take a -2 penalty on attack rolls, damage rolls, ability checks, skill checks, and saving throws
-for 1 hour and your spirit gains 1 point of influence over you. If you continue violating the taboo
-while taking the penalty, the duration of the penalty extends, but the spirit doesn't gain
-additional influence over you.
+At 2nd level, during his daily seance, a medium can accept a taboo in order to appease his spirit.
+Each spirit lists example taboos, and the GM may allow additional taboos as well. Accepting a taboo
+allows the medium to use his spirit surge ability twice without incurring influence. The medium can
+select only a single taboo. The medium is not magically prevented from breaking his taboo, but if he
+breaks the taboo for any reason, he takes a -2 penalty on attack rolls, damage rolls, ability
+checks, skill checks, and saving throws for 1 hour and his spirit gains 1 point of influence over
+him. If the medium continues violating the taboo while taking the penalty, the duration of the
+penalty extends, but the spirit doesn't gain additional influence over the medium. If a spirit
+attains 5 points of influence because of a violated taboo, instead of possessing the medium, the
+spirit leaves the medium's body entirely, and the medium loses access to his spirit powers, spirit
+bonus, and spirit surge abilities until the next time he can perform a seance. Banishing a spirit in
+this way damages the medium's connection to that spirit's legend; the medium cannot channel spirits
+of that legend for 1 week, and the next time the medium channels a spirit of that legend, it starts
+with 2 points of influence over him instead of 1.
 
 #### Haunt Channeler (Su) {#haunt-channeler}
 
-**Ability:** Your touch funnels a portion of the haunt into yourself, dealing 1d6 points of damage
-to the haunt per 2 medium levels you possess as if via positive energy and allowing you to ask the
-haunt a single question. The haunt can answer the question however it chooses.
-
-**Ability2:** Additionally, you can forgo your saving throw against a haunt's effects to funnel the
-haunt entirely into yourself. If you do so, you suffer the haunt's full effect, but the haunt
-doesn't affect anyone else (even if it normally would). The haunt then gains control of your body
-for 24 hours. Once per minute, you can attempt to end this possession early by succeeding at a Will
-save (DC = 20 + 1/2 your medium level).
-
-**Gained:** At 3rd Level
-
-**Passive:** You can always act on the surprise round against a haunt.
+At 3rd level, a medium can use his familiarity with spirits to assist him when dealing with haunts.
+He can always act on the surprise round against a haunt, and his touch funnels a portion of the
+haunt into himself, dealing 1d6 points of damage to the haunt per 2 medium levels he possesses as if
+via positive energy and allowing the medium to ask the haunt a single question. The haunt can answer
+the question however it chooses. Additionally, the medium can forgo his saving throw against a
+haunt's effects to funnel the haunt entirely into himself. If he does so, the medium suffers the
+haunt's full effect, but the haunt doesn't affect anyone else (even if it normally would). The haunt
+then gains control of the medium's body for 24 hours. Once per minute, the medium can attempt to end
+this possession early by succeeding at a Will save (DC = 20 + 1/2 the medium's class level).
 
 #### Location Channel (Sp) {#location-channel}
 
-**Ability:** You can perform a special seance at the site of a person's death - or a location that
-was precious to that person in life - to call forth that person's spirit into your body so your
-allies can ask it questions. The effects are similar to the spell
-[call spirit](ref/spell/call-spirit), except that the duration is 1 round per medium level and the
-spirit possesses your body instead of appearing in a wispy form. The other participants of the
-seance must ask the questions.
-
-**Gained:** At 5th Level
-
-**Special:** Once you attempt to call a spirit, you cannot attempt to call the same spirit again for
-24 hours. Once per round, you can attempt to end the seance early by succeeding at a Will save (DC =
-20 + 1/2 your medium level).
+At 5th level, a medium can perform a special seance at the site of a person's death—or a location
+that was precious to that person in life—to call forth that person's spirit into the medium's body
+so his allies can ask it questions. The effects are similar to the spell
+_[call spirit](ref/spell/call-spirit)_ (see page 160), except that the duration is 1 round per
+medium level and the spirit possesses the medium's body instead of appearing in a wispy form. The
+other participants of the seance must ask the questions. Once the medium attempts to call a spirit,
+he cannot attempt to call the same spirit again for 24 hours. Once per round, the medium can attempt
+to end the seance early by succeeding at a Will save (DC = 20 + 1/2 the medium's class level).
 
 #### Connection Channel (Sp) {#connection-channel}
 
-**Ability:** You can use your _location channel_ ability at any location, so long as you possess
+At 7th level, a medium can use his location channel ability at any location, so long as he possesses
 some connection to the deceased. If another participant in the seance is more familiar with the
-deceased than you, you can substitute that participant's familiarity in place of your own to
-determine the DC of the _[call spirit](ref/spell/call-spirit)_ effect.
-
-**Gained:** At 7th Level
+deceased than the medium, the medium can substitute that participant's familiarity in place of his
+own to determine the DC of the _[call spirit](ref/spell/call-spirit)_ effect.
 
 #### Propitiation (Su) {#propitiation}
 
-**Ability:** You have learned hidden techniques and rites that allow you to mollify your channeled
-spirit once per day, reducing its influence over you by 1 point (to a minimum of 1 point of
-influence). The details of the propitiation ritual vary based on the individual spirit, but the
+At 9th level, a medium has learned hidden techniques and rites that allow him to mollify his
+channeled spirit once per day, reducing its influence over him by 1 point (to a minimum of 1 point
+of influence). The details of the propitiation ritual vary based on the individual spirit, but the
 process always takes around 10 minutes to perform and it never requires any additional cost (such as
 an offering of wealth or a live sacrifice).
 
-**Gained:** At 9th Level
-
 #### Ask the Spirits (Sp) {#ask-the-spirits}
 
-**Ability:** You can send your consciousness to the Astral Plane any number of times per day to ask
-the spirits for advice, as if using [contact other plane](ref/spell/contact-other-plane) to contact
-the Astral Plane. You automatically succeed at the Intelligence check to avoid the possible decrease
-to your Intelligence and Charisma.
-
-**Gained:** At 13th Level
+At 13th level, a medium can send his consciousness to the Astral Plane any number of times per day
+to ask the spirits for advice, as if using _[contact other plane](ref/spell/contact-other-plane)_ to
+contact the Astral Plane. The medium automatically succeeds at the Intelligence check to avoid the
+possible decrease to his Intelligence and Charisma.
 
 #### Astral Journey (Sp) {#astral-journey}
 
-**Ability:** You can enter a deep coma in order to project yourself onto the Astral Plane as
-[astral projection](ref/spell/astral-projection), except you can project only yourself, you can't
-enter other planes, and your projected gear has no magical properties.
-
-**Gained:** At 14th Level
+At 14th level, a medium can enter a deep coma in order to project himself onto the Astral Plane as
+_[astral projection](ref/spell/astral-projection)_, except he can project only himself, he can't
+enter other planes, and his projected gear has no magical properties.
 
 #### Trance of Three (Su) {#trance-of-three}
 
-**Free:** You can end the _trance of three_ early.
-
-**Gained:** At 15th Level
-
-**Special:** If the granted power has a limited number of uses per day, you must keep track of the
-remaining uses even after the secondary spirit is gone; if you call the secondary spirit again that
-day, it can grant the remaining uses of that power. If you use an ability that incurs influence,
-your primary spirit gains that amount of influence over you, not the secondary spirit. You don't
-gain the benefits of your spirit bonus from the secondary spirit.
-
-**Swift:** You can allow your spirit to gain 1 point of influence over you in order to allow a
-portion of a legendary spirit from another legend to enter you for 1 round per level, granting you
-the intermediate spirit power from another legend.
+At 15th level, as a swift action, a medium can allow his spirit to gain 1 point of influence over
+him in order to allow a portion of a legendary spirit from another legend to enter him for 1 round
+per level, granting him the intermediate spirit power from another legend. If that power has a
+limited number of uses per day, the medium must keep track of the remaining uses even after the
+secondary spirit is gone; if the medium calls the secondary spirit again that day, it can grant the
+remaining uses of that power. If the medium uses an ability that incurs influence, the medium's
+primary spirit gains that amount of influence over him, not the secondary spirit. The medium doesn't
+gain the benefits of his spirit bonus from the secondary spirit. The medium can end the trance of
+three early as a free action.
 
 #### Spacious Soul (Su) {#spacious-soul}
 
-**Flavor:** A medium's soul is spacious enough to provide a foothold for his fallen allies, if he so
-chooses.
-
-**Immediate:** If one of the allies who participated in your seance that day dies within line of
-effect and line of sight of you, you can accept that ally's spirit within you. Since the ally
-inhabits the portion of your soul normally reserved for a spirit, this suppresses your _spirit,
-spirit bonus,_ and _spirit surge_ abilities as long as you maintain this ability.
-
-**Info:** The ally's spirit and you share the your body and can decide each round on the your turn
-which of you will take the you actions for that round. If you don't agree on who should act, you
-attempt opposed Charisma checks to determine who is dominant for the next hour, and the dominant
-character decides who acts on each round. The ally's spirit has all the spells and limited use
-abilities (such as uses of _channel energy, ki,_ and _panache_) that it possessed at the time of
-death, but it is incapable of regaining any abilities, points, spells, or uses of abilities it
-expends. When the ally's spirit acts, it uses the ally's base attack bonus, caster level, and
-special abilities (such as weapon proficiency), but uses your physical ability scores.
-
-**Section:** Other Abilities
-
-**Gained:** At 18th Level
-
-**Special:** If the ally returns to life, this ability immediately ends. Otherwise, you can maintain
-this ability indefinitely.
-
-**Standard:** You can end this effect early, though if the ally is unwilling to depart, you must
-succeed at a Will saving throw (DC = 10 + 1/2 the ally's hit dice + the ally's Charisma modifier) or
-the attempt fails and the ally becomes dominant for 24 hours.
+At 18th level, a medium's soul is spacious enough to provide a foothold for his fallen allies, if he
+so chooses. If one of the allies who participated in the medium's seance that day dies within line
+of effect and line of sight of the medium, the medium can spend an immediate action to accept that
+ally's spirit within him. Since the ally inhabits the portion of the medium's soul normally reserved
+for a spirit, this suppresses the medium's spirit, spirit bonus, and spirit surge abilities as long
+as the medium maintains this ability. The ally's spirit and the medium share the medium's body and
+can decide each round on the medium's turn which of them will take the medium's actions for that
+round. If they don't agree on who should act, they attempt opposed Charisma checks to determine who
+is dominant for the next hour, and the dominant character decides who acts on each round. The ally's
+spirit has all the spells and limited use abilities (such as uses of channel energy, ki, and
+panache) that it possessed at the time of death, but it is incapable of regaining any abilities,
+points, spells, or uses of abilities it expends. When the ally's spirit acts, it uses the ally's
+base attack bonus, caster level, and special abilities (such as weapon proficiency), but uses the
+medium's physical ability scores. If the ally returns to life, this ability immediately ends.
+Otherwise, the medium can maintain this ability indefinitely. The medium can end this effect as a
+standard action, though if the ally is unwilling to depart, the medium must succeed at a Will saving
+throw (DC = 10 + 1/2 the ally's hit dice + the ally's Charisma modifier) or the attempt fails and
+the ally becomes dominant for 24 hours.
 
 #### Spirit Mastery (Ex) {#spirit-mastery}
 
-**Ability:** You can use your spirit surge ability an additional two times per day without incurring
-influence, regardless of whether you accept a taboo or channels a weaker spirit. When channeling a
-weaker spirit, you can use your spirit surge ability an additional four times per day for each power
-you forgo, instead of an additional two times.
-
-**Flavor:** The medium become a legend among spirits, particularly lesser spirits.
-
-**Gained:** At 19th Level
+At 19th legend, the medium becomes a legend among spirits, particularly lesser spirits. He can use
+his spirit surge ability an additional two times per day without incurring influence, regardless of
+whether he accepts a taboo or channels a weaker spirit. When channeling a weaker spirit, he can use
+his spirit surge ability an additional four times per day for each power he forgoes, instead of an
+additional two times.
 
 #### Astral Beacon (Su) {#astral-beacon}
 
-**Flavor:** A medium is an open connection to the Astral Plane and a shining beacon for spirits.
+At 20th level, a medium is an open connection to the Astral Plane and a shining beacon for spirits.
+As a free action, he can channel spirits of any of the five legends he did not contact via his
+seance. This ability lasts for 1 round and grants access to the intermediate, greater, and supreme
+spirit powers of the chosen spirits. Unlike trance of three, astral beacon allows spirits of the
+chosen legends (for instance, archmage) to gain influence over the medium until 24 hours from when
+the medium contacted his primary spirit. Also unlike trance of three, if the medium would incur
+influence by using one of the new spirits' abilities, that influence is added to the medium's total
+influence from that spirit rather than from his primary spirit.
 
-**Free:** You can channel spirits of any of the five legends you did not contact via your seance.
-This ability lasts for 1 round and grants access to the intermediate, greater, and supreme spirit
-powers of the chosen spirits.
+### Spirits {#medium-spirits}
 
-**Gained:** At 20th Level
-
-**Special:** Unlike trance of three, astral beacon allows spirits of the chosen legends (for
-instance, archmage) to gain influence over you until 24 hours from when you contacted your primary
-spirit. Also unlike trance of three, if you would incur influence by using one of the new spirits'
-abilities, that influence is added to your total influence from that spirit rather than from your
-primary spirit.
+A medium's spirits are entities from the Astral Plane—the clinging echoes of heroes and villains
+from the distant past, sustained throughout time by myths and legends. The number of spirits is
+countless, and each has its own idiosyncrasies that make it distinct. Nonetheless, all spirits arise
+from one of the following six legends: archmage, champion, guardian, hierophant, marshal, or
+trickster.
 
 ### Alternate Capstones
 
