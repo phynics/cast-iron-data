@@ -13,15 +13,11 @@ page = "36"
 [fields]
 kind = "class_option"
 group = "rage-power"
+ability_type = "Su"
 +++
 
-**Contagious Rage (Su)**
-
-**Flavor:** The barbarian howls during combat, agitating nearby fauna.
-
-**Ability:** Willing animals and magical beasts within 30 feet of the barbarian gain the benefits of
-the [rage](ref/spell/rage) spell for as long as she maintains her _rage._ After the barbarian's
-_rage_ ends, creatures affected by her _rage_ are [fatigued](ref/misc/fatigued) for the same number
-of rounds as the barbarian.
-
-**Prereq:** 6th-level barbarian
+The barbarian howls during combat, agitating nearby fauna. Willing animals and magical beasts within
+30 feet of the barbarian gain the benefits of the _[rage](ref/spell/rage)_ spell for as long as she
+maintains her rage. After the barbarian's rage ends, creatures affected by her rage are
+[fatigued](ref/misc/fatigued) for the same number of rounds as the barbarian. A barbarian must be at
+least 6th level to choose this rage power.

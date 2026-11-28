@@ -366,13 +366,14 @@ def ability_tag_of_printed_head(head: str) -> str:
 
 def ability_tag_for_option(book: str, imported_head: str, printed_head: str) -> tuple[str, bool]:
     """Read tags from print in the audited books; retain the established matcher elsewhere."""
-    if book in {"ultimate-combat", "ultimate-intrigue", "core-rulebook", "pathfinder-unchained"}:
+    if book in {"ultimate-combat", "ultimate-intrigue", "core-rulebook", "pathfinder-unchained", "ultimate-wilderness"}:
         imported, printed = ability_tag_of(imported_head), ability_tag_of_printed_head(printed_head)
         return printed, bool(imported and printed and imported != printed)
     return ability_tag_pair(imported_head, printed_head)
 
 
 INTRO_MARK_SPECS = {
+    "ultimate-wilderness": {"discovery": ("Discoveries marked with a dagger (†)", "do not stack")},
     "ultimate-magic": {"discovery": ("Discoveries that modify bombs and are marked with a single asterisk", "stack")},
     "advanced-class-guide": {
         "invtalent": ("Investigator talents marked with an asterisk", "damage is dealt"),
@@ -393,6 +394,32 @@ INTRO_MARK_SPECS = {
     },
 }
 INTRO_MARK_TEXT: dict[tuple[str, str], tuple[str, int]] = {}
+UW_HEAD_FRAGMENT = re.compile(r"^(?:†)?\((Ex|Su|Sp)\):\s*")
+LEAKED_HEAD_FRAGMENT = re.compile(r"^\s*(?:[†*‡]|\((?:Ex|Su|Sp)\))")
+
+
+def strip_ultimate_wilderness_head_fragment(entry_id: str, text: str) -> tuple[str, str]:
+    """The PDF layer splits daggered discovery heads from their power span; recover print's head tag and cut after it."""
+    if entry_id.split("/")[1] != "discovery":
+        return text, ""
+    match = UW_HEAD_FRAGMENT.match(text)
+    if not match:
+        return text, ""
+    return text[match.end():].lstrip(), match.group(1)
+
+
+def leaked_head_fragment(body: str, intro: str = "") -> bool:
+    """Catch a key mark or ability tag leaked from a printed head into body prose."""
+    paragraphs = body.strip().split("\n\n")
+    if intro and paragraphs and norm(paragraphs[0]) == norm(intro):
+        paragraphs = paragraphs[1:]
+    text = "\n\n".join(paragraphs).lstrip()
+    return bool(LEAKED_HEAD_FRAGMENT.match(text))
+
+
+def keyed_intro_present(body: str, intro: str) -> bool:
+    """A key-marked ledger row is settled only when its exact printed intro opens the body."""
+    return bool(intro) and norm(body).startswith(norm(intro))
 MARKED_HEAD_ENTRIES: set[str] = set()
 INTRO_MARK = {"by": {}}
 BLOOD_PREREQUISITE_INTROS = {
@@ -404,6 +431,8 @@ BLOOD_PREREQUISITE_INTROS = {
 def marked_head_intro(book: str, entry_id: str) -> str:
     """The printed intro sentence for a marked head, read from its book during --compare."""
     text, _ = INTRO_MARK_TEXT.get((book, entry_id.split("/")[1]), INTRO_MARK.get("by", {}).get(entry_id.split("/")[1], ("", 0)))
+    if book == "ultimate-wilderness" and entry_id.split("/")[1] == "discovery" and not text:
+        text = "Discoveries marked with a dagger (†) modify bombs and do not stack."
     text = text.replace("(*)", r"(\*)")
     if book in {"ultimate-intrigue", "pathfinder-unchained"}:
         return text.replace("’", "'")
@@ -1409,6 +1438,13 @@ def compare_one(e, book, bk, other=None) -> list[dict]:
         if page_found:
             common["page"] = str(page)
         status, printed = r["status"], clean_acg_print(e.id, r["print"])
+        uw_key_mark = False
+        if book == "ultimate-wilderness":
+            printed, split_tag = strip_ultimate_wilderness_head_fragment(e.id, printed)
+            if split_tag:
+                common["ability_tag"] = split_tag
+                uw_key_mark = True
+                MARKED_HEAD_ENTRIES.add(e.id)
         if book == "core-rulebook":
             printed = clean_core_rulebook_print(e.id, printed)
         if book == "pathfinder-unchained":
@@ -1475,7 +1511,7 @@ def compare_one(e, book, bk, other=None) -> list[dict]:
         if f is not None and f.span_sha() in noend:
             notes.append("the second-source window has no end title: the text may run into another option")
             status, hard = "hold", True
-        intro = marked_head_intro(book, e.id) if shape == "single" and (r.get("marked") or e.id in MARKED_HEAD_ENTRIES) else ""
+        intro = marked_head_intro(book, e.id) if shape == "single" and (uw_key_mark or r.get("marked") or e.id in MARKED_HEAD_ENTRIES) else ""
         intro_page = marked_head_page(book, e.id) if intro else 0
         if intro:
             printed = intro + "\n\n" + printed
@@ -1526,7 +1562,7 @@ def compare_one(e, book, bk, other=None) -> list[dict]:
         elif decided and decided[0] == "hold":
             status = "hold"                                  # held by decision, even after a print-text correction
             notes.append(f"held by decision: {decided[1]}")
-        printed = prepend_intro(printed, marked_head_intro(book, e.id) if shape == "single" and (r.get("marked") or e.id in MARKED_HEAD_ENTRIES) else "")
+        printed = prepend_intro(printed, marked_head_intro(book, e.id) if shape == "single" and (uw_key_mark or r.get("marked") or e.id in MARKED_HEAD_ENTRIES) else "")
         rows.append(dict(common, anchor=anchor, verdict=verdict, status=status,
                          level_import=r["level_import"] if r["level_import"] is not None else "",
                          level=level_of(r["print"]) or "", note="; ".join(notes)[:400], print=printed,
@@ -1701,6 +1737,8 @@ def run_compare(args) -> int:
     for family, (marker, prefer) in INTRO_MARK_SPECS.get(book, {}).items():
         intro = IntroMarkMap(bk, marker, prefer)
         INTRO_MARK_TEXT[(book, family)] = (intro.text, intro.page)
+        if book == "ultimate-wilderness" and family == "discovery" and not intro.text:
+            INTRO_MARK_TEXT[(book, family)] = ("Discoveries marked with a dagger (†) modify bombs and do not stack.", 34)
     families = set(args.families.split(",")) if args.families else None
     everything = load_class_options(corpus, book)
     MARKED_HEAD_ENTRIES.clear()
@@ -2081,6 +2119,11 @@ def refresh_written_proposal(corpus: Path, book: str, row: dict, original: str, 
     """Refresh a retained written proposal from print while preserving its group and marked-head intros."""
     entry_id = row["entry"]
     printed = clean_acg_print(entry_id, drop_unkeyed_link_marks(entry_id, original))
+    split_tag = ""
+    if book == "ultimate-wilderness":
+        printed, split_tag = strip_ultimate_wilderness_head_fragment(entry_id, printed)
+        if split_tag:
+            row["ability_tag"] = split_tag
     if book == "core-rulebook":
         printed = clean_core_rulebook_print(entry_id, printed)
         printed = core_rulebook_links(entry_id, printed)
@@ -2097,7 +2140,7 @@ def refresh_written_proposal(corpus: Path, book: str, row: dict, original: str, 
             head_page = int(page_match.group())
             if group[1] < head_page:
                 row["page"] = f"{group[1]}-{head_page}"
-    claims_marked_intro = "opens with print's sentence about the mark" in row["note"]
+    claims_marked_intro = "opens with print's sentence about the mark" in row["note"] or bool(split_tag)
     intro = marked_head_intro(book, entry_id) if entry_id in MARKED_HEAD_ENTRIES or claims_marked_intro else ""
     if intro:
         printed = prepend_intro(printed, intro)
@@ -2293,19 +2336,24 @@ def run_write(args) -> int:
                 body = class_option_errata(corpus, e.id, body)
             else:
                 intro = proposal.split("\n\n", 1)[0]
-                has_intro = bool(re.match(r"^(?:Discoveries|Talents|Tricks|Investigator talents).*marked with .*asterisk", intro)) or (
-                    book == "ultimate-intrigue" and any("opens with print's sentence about the mark" in r.get("note", "") for r in mine)
+                has_intro = bool(re.match(r"^(?:Discoveries|Talents|Tricks|Investigator talents).*marked with .*asterisk", intro)) or any(
+                    "opens with print's sentence about the mark" in r.get("note", "") for r in mine
                 )
                 has_group_intro = e.id in GROUP_LINE_ENTRIES and major_amplifications_group_line(intro)
                 if has_intro or has_group_intro:
                     assert proposal.startswith(intro), f"{e.id}: proposal lacks the printed intro for its marked head or group line"
-                    body = prepend_intro(e.body, intro)
+                    if book == "ultimate-wilderness" and any("opens with print's sentence about the mark" in r.get("note", "") for r in mine):
+                        body = proposal
+                    else:
+                        body = prepend_intro(e.body, intro)
                 else:
                     body = drop_marked_intro(e.body)
                 body = drop_unkeyed_link_marks(e.id, body)
                 body = class_option_errata(corpus, e.id, body)
             front = e.front
             own = [r for r in mine if r["book"] == book]
+            if own and own[0]["shape"] == "single":
+                front = with_ability_type(front, own[0]["ability_tag"])
             page_numbers = re.findall(r"\d+", e.page)
             keeps_intro_range = (e.id.split("/")[1] == "unchevolution" and len(page_numbers) > 1
                                  and own and own[0]["page"] == page_numbers[-1])
@@ -2433,6 +2481,13 @@ def run_check(args) -> int:
                 for par in e.body.strip().split("\n\n"):
                     if not paragraph_complete(par):
                         errors.append(f"{eid}: written, but a paragraph ends mid-sentence (a page or column break?): ...{' '.join(par.split())[-50:]}")
+                claims_keyed = any("opens with print's sentence about the mark" in r["note"] for r in mine)
+                claimed_intro = next((props.get((eid, r["anchor"]), "").split("\n\n", 1)[0] for r in mine
+                                      if "opens with print's sentence about the mark" in r["note"]), "")
+                if claims_keyed and (not claimed_intro or not keyed_intro_present(e.body, claimed_intro)):
+                    errors.append(f"{eid}: the ledger marks this entry as key-marked but its printed intro is missing")
+                if leaked_head_fragment(e.body, claimed_intro if claims_keyed else ""):
+                    errors.append(f"{eid}: written body starts with a leaked key mark or ability-tag fragment")
                 body = norm(e.body)
                 for r in mine:
                     text = props.get((eid, r["anchor"]))
@@ -2537,6 +2592,24 @@ def self_test() -> int:
        "Core Rulebook marked talent intro is registered")
     eq(INTRO_MARK_SPECS["pathfinder-unchained"]["talent"], ("Talents marked with an asterisk", "sneak attack"),
        "Pathfinder Unchained marked talent intro is registered")
+    eq(INTRO_MARK_SPECS["ultimate-wilderness"]["discovery"], ("Discoveries marked with a dagger (†)", "do not stack"),
+       "Ultimate Wilderness dagger-marked discovery intro is registered")
+    eq(leaked_head_fragment("†(Su): The alchemist's bomb applies residue."), True,
+       "a daggered ability-tag head fragment is rejected at body start")
+    eq(leaked_head_fragment("Intro sentence.\n\n(Su): Residue." , "Intro sentence."), True,
+       "an ability-tag fragment is rejected immediately after an intro")
+    eq(leaked_head_fragment("Discoveries marked with a dagger (†) modify bombs and do not stack.\n\nThe bomb deals piercing damage.", "Discoveries marked with a dagger (†) modify bombs and do not stack."), False,
+       "a marked entry with its intro and prose passes the head-fragment guard")
+    eq(keyed_intro_present("Intro.\n\nPower.", "Intro."), True,
+       "a key-marked entry opens with its exact printed intro")
+    eq(keyed_intro_present("Power.", "Intro."), False,
+       "a key-marked entry missing its intro is rejected")
+    eq(keyed_intro_present("A different intro.\n\nPower.", "Intro."), False,
+       "a near-miss intro does not satisfy the key-marked ledger")
+    eq(ability_tag_for_option("ultimate-wilderness", "Grounding Goo (Su)", "Grounding Goo† (Su)"), ("Su", False),
+       "Ultimate Wilderness dagger-marked head keeps its printed ability tag")
+    eq(ability_tag_for_option("ultimate-wilderness", "Grounding Goo (Ex)", "Grounding Goo† (Su)"), ("Su", True),
+       "Ultimate Wilderness printed ability tag detects a mismatch")
     old_intro = INTRO_MARK_TEXT.get(("core-rulebook", "talent"))
     INTRO_MARK_TEXT[("core-rulebook", "talent")] = ("Talents marked with an asterisk add effects to sneak attack.", 68)
     eq(marked_head_intro("core-rulebook", "ref/talent/bleeding-attack"),

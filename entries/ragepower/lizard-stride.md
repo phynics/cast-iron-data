@@ -13,10 +13,9 @@ page = "36"
 [fields]
 kind = "class_option"
 group = "rage-power"
+ability_type = "Su"
 +++
 
-**Lizard Stride (Su)**
-
-**Ability:** When the barbarian makes a [charge](ref/rule/charge) or [run](ref/rule/run) action
-while _raging,_ she can move across the surface of water without sinking. She sinks immediately if
-she ends her turn standing on water.
+When the barbarian makes a [charge](ref/rule/charge) or [run](ref/rule/run) action while raging, she
+can move across the surface of water without sinking. She sinks immediately if she ends her turn
+standing on water.

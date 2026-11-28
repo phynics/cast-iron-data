@@ -13,10 +13,11 @@ page = "34"
 [fields]
 kind = "class_option"
 group = "alchemist-discovery"
+ability_type = "Su"
 +++
 
-**Grounding Goo**
+Discoveries marked with a dagger (†) modify bombs and do not stack.
 
-**Ability:** The alchemist's bomb applies a sticky residue after any damage from the bomb is
-resolved. If a creature damaged by the bomb has a nonmagical fly speed, its flight is severely
-impaired, and it takes a penalty equal to the alchemist's level on Fly checks for 1 minute.
+The alchemist's bomb applies a sticky residue after any damage from the bomb is resolved. If a
+creature damaged by the bomb has a nonmagical fly speed, its flight is severely impaired, and it
+takes a penalty equal to the alchemist's level on Fly checks for 1 minute.

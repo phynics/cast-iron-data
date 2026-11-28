@@ -13,10 +13,10 @@ page = "34"
 [fields]
 kind = "class_option"
 group = "alchemist-discovery"
+ability_type = "Su"
 +++
 
-**Thorny Bomb**
+Discoveries marked with a dagger (†) modify bombs and do not stack.
 
-**Ability:** When the alchemist creates a bomb, he can choose to have it deal piercing damage.
-_Thorny bombs_ count as magic weapons for the purpose of overcoming
-[damage reduction](ref/rule/damage-reduction).
+When the alchemist creates a bomb, he can choose to have it deal piercing damage. Thorny bombs count
+as magic weapons for the purpose of overcoming [damage reduction](ref/rule/damage-reduction).

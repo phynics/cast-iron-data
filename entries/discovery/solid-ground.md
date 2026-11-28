@@ -13,12 +13,14 @@ page = "34"
 [fields]
 kind = "class_option"
 group = "alchemist-discovery"
+ability_type = "Su"
 +++
 
-**Solid Ground**
+Discoveries marked with a dagger (†) modify bombs and do not stack.
 
-**Ability:** The alchemist launches an explosive paste bomb that bonds with any earthen surface.
-Each application of this paste deals no damage and affects a 5-foot-cube of dirt, loose soil, or
-stone, transmuting the earth for a number of minutes equal to the alchemist's level. Creatures
-cannot use burrow, [earthmeld](ref/kinetic/earthmeld), or similar abilities (such as the
-[meld into stone](ref/spell/meld-into-stone) spell) while the ground remains transmuted in this way.
+The alchemist launches an explosive paste bomb that bonds with any earthen surface. Each application
+of this paste deals no damage and affects a 5-foot-cube of dirt, loose soil, or stone, transmuting
+the earth for a number of minutes equal to the alchemist's level. Creatures cannot use burrow,
+[earthmeld](ref/kinetic/earthmeld), or similar abilities (such as the
+_[meld into stone](ref/spell/meld-into-stone)_ spell) while the ground remains transmuted in this
+way.

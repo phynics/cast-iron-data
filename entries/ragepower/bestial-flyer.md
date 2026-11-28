@@ -13,12 +13,10 @@ page = "36"
 [fields]
 kind = "class_option"
 group = "rage-power"
+ability_type = "Ex"
 +++
 
-**Bestial Flyer (Ex)**
-
-**Passive:** While _raging,_ the barbarian's fly speed increases by 10 feet and her maneuverability
-improves by one category.
-
-**Prereq:** A fly speed (before _raging,_) [raging flyer](ref/ragepower/raging-flyer), 6th-level
-barbarian
+While raging, the barbarian's fly speed increases by 10 feet and her maneuverability improves by one
+category. A barbarian must have a fly speed before raging, have the
+[raging flyer](ref/ragepower/raging-flyer) power, and be at least 6th level to choose this rage
+power.

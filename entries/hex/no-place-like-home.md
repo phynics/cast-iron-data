@@ -13,21 +13,15 @@ page = "88"
 [fields]
 kind = "class_option"
 group = "witch-hex"
+ability_type = "Su"
 +++
 
-**No Place Like Home (Su)**
+The witch fills an ally with the safety he feels at home or inflicts pangs of homesickness to hamper
+an enemy's defenses. She chooses a target for the hex within 30 feet. If she chooses an ally, that
+ally gains a +2 dodge bonus to AC against traps and on Reflex saves against traps. If she chooses an
+opponent, that opponent takes a -2 penalty to AC against traps and on Reflex saves against traps.
+Either way, the effects last for 1 minute.
 
-**Ability:** The witch fills an ally with the safety he feels at home or inflicts pangs of
-homesickness to hamper an enemy's defenses. She chooses a target for the hex within 30 feet. If she
-chooses an ally, that ally gains a +2 dodge bonus to AC against traps and on Reflex saves against
-traps. If she chooses an opponent, that opponent takes a -2 penalty to AC against traps and on
-Reflex saves against traps.
-
-Either way, the effects last for 1 minute. The target can attempt a Will save to negate the effects
-of the hex.
-
-**At 8th level,** the bonus or penalty increases to 4.
-
-**At 16th level,** the bonus or penalty increases to 6.
-
-**Special:** A creature targeted by this hex cannot be targeted again by this hex for 1 day.
+The target can attempt a Will save to negate the effects of the hex. At 8th level, the bonus or
+penalty increases to 4. At 16th level, the bonus or penalty increases to 6. A creature targeted by
+this hex cannot be targeted again by this hex for 1 day.

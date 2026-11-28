@@ -1,0 +1,32 @@
+entry	anchor	decision	note
+ref/discovery/bitter-pill	bitter-pill	print	Print wording agrees; removed the import label.
+ref/discovery/grounding-goo	grounding-goo	print	Print adds the dagger-marked discovery intro; the head keeps its dagger key mark and Su tag.
+ref/discovery/pheromones	pheromones	print	Print wording agrees; removed the import label.
+ref/discovery/solid-ground	solid-ground	print	Print adds the dagger-marked discovery intro; the head keeps its dagger key mark and Su tag.
+ref/discovery/thorny-bomb	thorny-bomb	print	Print adds the dagger-marked discovery intro; the head keeps its dagger key mark and Su tag.
+ref/discovery/volumizer	volumizer	print	Print wording agrees; removed the import label.
+ref/hex/city-sight	city-sight	print	Rewrote the level-specific outcomes as the printed 8th- and 16th-level sentences.
+ref/hex/enemy-ground	enemy-ground	print	Rewrote the level-specific outcomes as the printed 8th- and 16th-level sentences.
+ref/hex/no-place-like-home	no-place-like-home	print	Rewrote the level-specific outcomes as the printed 8th- and 16th-level sentences.
+ref/hex/summers-heat	summer-s-heat	print	Print wording agrees; removed the import label.
+ref/ragepower/autumn-rage	autumn-rage	print	Removed the import label; wording otherwise follows print.
+ref/ragepower/bestial-flyer	bestial-flyer	print	Replaced the cut-off prerequisite import row with print: must have a fly speed before raging, have Raging Flyer, and be at least 6th level.
+ref/ragepower/contagious-rage	contagious-rage	print	"Changed the imported “6th-level barbarian” prerequisite row to print’s “must be at least 6th level.”"
+ref/ragepower/dissipating-rage	dissipating-rage	print	Removed the import label; wording otherwise follows print.
+ref/ragepower/eclipsing-rage	eclipsing-rage	print	"Changed the imported “6th-level barbarian” prerequisite row to print’s “must be at least 6th level.”"
+ref/ragepower/greater-eclipsing-rage	greater-eclipsing-rage	print	"Changed the imported 10th-level and Eclipsing Rage prerequisites to print’s sentence requiring at least 10th level and the Eclipsing Rage power."
+ref/ragepower/greater-tyrant-totem	greater-tyrant-totem	print	Dropped the imported prerequisite Tyrant Totem; print requires only 12th level.
+ref/ragepower/hissing-rage	hissing-rage	hold	Usage discrepancy: print says once per 1d2 rounds, while the corpus says once per hour.
+ref/ragepower/lesser-tyrant-totem	lesser-tyrant-totem	print	Expanded the truncated prerequisite item “Animal fury rage power or a na” to print’s prerequisite sentence.
+ref/ragepower/lizard-stride	lizard-stride	print	Removed the import label; wording otherwise follows print.
+ref/ragepower/pack-rage	pack-rage	print	"Changed the imported “6th-level barbarian” prerequisite row to print’s “must be at least 6th level.”"
+ref/ragepower/raging-flyer	raging-flyer	print	Removed the import label; wording otherwise follows print.
+ref/ragepower/raging-whirlwind	raging-whirlwind	print	Changed “Immediate:” to print’s “as an immediate action”; removed the import label.
+ref/ragepower/spring-rage	spring-rage	print	Removed the import label; wording otherwise follows print.
+ref/ragepower/summer-rage	summer-rage	print	Removed the import label; wording otherwise follows print.
+ref/ragepower/tyrant-totem	tyrant-totem	print	Dropped the imported prerequisite Lesser Tyrant Totem; print requires only 8th level.
+ref/ragepower/winter-rage	winter-rage	print	Changed “Standard:” to print’s “As a standard action”; removed the import label.
+ref/slayertalent/sticks-and-stones	sticks-and-stones	print	Removed the import label; wording otherwise follows print.
+ref/slayertalent/sunlight-strike	sunlight-strike	print	Changed “Swift:” to print’s “as a swift action”; removed the import label.
+ref/slayertalent/sure-footing	sure-footing	print	Removed the import label; wording otherwise follows print.
+ref/slayertalent/toxin-training	toxin-training	print	"Changed the imported 4th-level and Poison Use prerequisites to print’s sentence requiring at least 4th level and Poison Use."

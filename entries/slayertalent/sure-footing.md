@@ -13,9 +13,8 @@ page = "86"
 [fields]
 kind = "class_option"
 group = "slayer-talent"
+ability_type = "Ex"
 +++
 
-**Sure Footing (Ex)**
-
-**Passive:** The slayer gains a +5 bonus on Acrobatics checks to move on narrow surfaces and loose
-or uneven ground.
+The slayer gains a +5 bonus on Acrobatics checks to move on narrow surfaces and loose or uneven
+ground.
